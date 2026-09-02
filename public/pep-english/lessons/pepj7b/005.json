@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "pepj7b-005",
+  "groupId": "pepj7b",
+  "unitNo": 4,
+  "sequenceNo": 5,
+  "section": "Section A",
+  "title": "John's First Day at School",
+  "jsonPath": "pep-english/lessons/pepj7b/005.json",
+  "text": "John: Hi, my name's John. It's my first day at school.\nAlice: Hi, John. I'm Alice. This is a great school, but there are a lot of rules.\nJohn: Really? What are some of the rules?\nAlice: Well, don't be late for class. This is very important.\nJohn: OK, so we must be on time. Can we bring music players to school?\nAlice: No, we can't. And we always have to wear the school uniform.\nJohn: I see.\nAlice: Oh, and we also have to be quiet in the library.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "John: Hi, my name's John. It's my first day at school.\nAlice: Hi, John. I'm Alice. This is a great school, but there are a lot of rules.\nJohn: Really? What are some of the rules?\nAlice: Well, don't be late for class. This is very important.\nJohn: OK, so we must be on time. Can we bring music players to school?\nAlice: No, we can't. And we always have to wear the school uniform.\nJohn: I see.\nAlice: Oh, and we also have to be quiet in the library."
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "初中",
+    "book": "七年级下册",
+    "pageStart": 30,
+    "pageEnd": 30,
+    "extractionMode": "ocr",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "9336b53d5a44f9244f62f6fb10720914",
+    "pdfSize": 17821241,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/junior-7b.pdf#page=30",
+      "reviewedAt": "2026-07-22",
+      "notes": "Kept the complete eight-turn role-play; excluded activities 2a-2c and restored speaker line breaks and title metadata."
+    }
+  }
+}

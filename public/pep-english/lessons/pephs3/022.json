@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "pephs3-022",
+  "groupId": "pephs3",
+  "unitNo": 2,
+  "sequenceNo": 22,
+  "section": "Using Structures",
+  "title": "Planning a Balanced Diet",
+  "jsonPath": "pep-english/lessons/pephs3/022.json",
+  "text": "These days, the attitude of many people is to just eat food that they think tastes good. However, this can lead to an unbalanced diet, which often results in short-term and long-term health issues. If you want to stay healthy, then you need a balanced diet. Needless to say, it is not always easy to plan such a diet, but the good thing is that there is a lot of advice out there. To save yourself some time, you could try looking at a “food pyramid”—a chart that shows you how much of each type of food to eat. You could also make healthy food at home and try to avoid eating packaged foods or fast food. It is essential for you to eat healthy food. You will feel better, have more energy, and have fewer health problems in later life.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "These days, the attitude of many people is to just eat food that they think tastes good. However, this can lead to an unbalanced diet, which often results in short-term and long-term health issues. If you want to stay healthy, then you need a balanced diet. Needless to say, it is not always easy to plan such a diet, but the good thing is that there is a lot of advice out there. To save yourself some time, you could try looking at a “food pyramid”—a chart that shows you how much of each type of food to eat. You could also make healthy food at home and try to avoid eating packaged foods or fast food. It is essential for you to eat healthy food. You will feel better, have more energy, and have fewer health problems in later life."
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "选择性必修第三册",
+    "pageStart": 76,
+    "pageEnd": 76,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "f0dc33129a755a33421d401b71a05cd1",
+    "pdfSize": 12684455,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/senior-selective-3.pdf#page=76",
+      "reviewedAt": "2026-07-22",
+      "notes": "Retained the complete printed balanced-diet passage unchanged despite its infinitive-identification task; supplied a descriptive metadata title and excluded incomplete conversations, classification lines, the Hangzhou fill-in passage, image and page furniture."
+    }
+  }
+}

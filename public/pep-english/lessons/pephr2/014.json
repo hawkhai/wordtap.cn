@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "id": "pephr2-014",
+  "groupId": "pephr2",
+  "unitNo": 5,
+  "sequenceNo": 14,
+  "section": "Reading for Writing",
+  "title": "How Music Helped Me Recover",
+  "jsonPath": "pep-english/lessons/pephr2/014.json",
+  "text": "Good morning! My name is Sarah Williams. It's an honour to be here and to share with you the story of how music has had an impact on my life.\nHave you ever faced a time when things looked dark and you had no hope at all? Two years ago, I was told I had a serious disease which was difficult to cure. My body ached all the time and thus I thought I didn't have much longer to live. I was very afraid and I felt so alone and discouraged. Then one day, I had to go through a two-hour medical treatment. The doctor wanted me to relax, so he had me listen to some music, and one of the songs was “Happy”. The song made me feel so much better that from then on I began to listen to music all the time. John A. Logan said, “Music is the medicine of the mind.” And it's true. Music helped me recover.\nMusic gave me happiness. When I listened to music, it made my spirits fly like a kite in the wind. Music gave me strength and brought me relief. It was the rock I leant on to become strong and to get through those hard times. Moreover, music gave me hope and a sense of satisfaction. It became my best friend. It spoke words of encouragement to the deepest part of my being.\nOf course, I hope none of you have to go through the same kind of suffering that I did. At the same time, we all go through various periods when we feel sad or alone. During those times, music can help you in the same way that it helped me. I hope all of you will somehow begin to treasure music and make it a part of your life.\nThank you!",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Good morning! My name is Sarah Williams. It's an honour to be here and to share with you the story of how music has had an impact on my life."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Have you ever faced a time when things looked dark and you had no hope at all? Two years ago, I was told I had a serious disease which was difficult to cure. My body ached all the time and thus I thought I didn't have much longer to live. I was very afraid and I felt so alone and discouraged. Then one day, I had to go through a two-hour medical treatment. The doctor wanted me to relax, so he had me listen to some music, and one of the songs was “Happy”. The song made me feel so much better that from then on I began to listen to music all the time. John A. Logan said, “Music is the medicine of the mind.” And it's true. Music helped me recover."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Music gave me happiness. When I listened to music, it made my spirits fly like a kite in the wind. Music gave me strength and brought me relief. It was the rock I leant on to become strong and to get through those hard times. Moreover, music gave me hope and a sense of satisfaction. It became my best friend. It spoke words of encouragement to the deepest part of my being."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Of course, I hope none of you have to go through the same kind of suffering that I did. At the same time, we all go through various periods when we feel sad or alone. During those times, music can help you in the same way that it helped me. I hope all of you will somehow begin to treasure music and make it a part of your life."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Thank you!"
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "必修第二册",
+    "pageStart": 63,
+    "pageEnd": 63,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "38d49874e4f015fd89f21c9306f6b9d5",
+    "pdfSize": 14270612,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/senior-required-2.pdf#page=63",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored Sarah Williams's complete model speech from greeting through closing; removed the red A-F rhetorical-device annotations, supplied a descriptive metadata title and excluded the photograph and analysis questions."
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "id": "pephr1-023",
+  "groupId": "pephr1",
+  "unitNo": 1,
+  "sequenceNo": 23,
+  "section": "Writing",
+  "title": "A Son Who Wants a Girlfriend",
+  "jsonPath": "pep-english/lessons/pephr1/023.json",
+  "text": "Dear Talking Teens,\nMy son is 16 and wants to get a girlfriend. I think he is too young and should focus on school instead. He says that his friends have girlfriends and that I am being too old-fashioned. Is he right?\nYours truly, Old-school Dad",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Dear Talking Teens,"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "My son is 16 and wants to get a girlfriend. I think he is too young and should focus on school instead. He says that his friends have girlfriends and that I am being too old-fashioned. Is he right?"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Yours truly, Old-school Dad"
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "必修第一册",
+    "pageStart": 82,
+    "pageEnd": 82,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "e0bf18138b24d7def28b35994a13946b",
+    "pdfSize": 14704146,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/senior-required-1.pdf#page=82",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored Old-school Dad's complete signed letter as an independent lesson.",
+      "splitBaselineId": "pephr1-030",
+      "splitIndex": 2,
+      "splitCount": 4
+    }
+  }
+}

@@ -1,0 +1,356 @@
+{
+  "schemaVersion": 1,
+  "id": "beginner-010",
+  "levelId": "beginner",
+  "unitNo": 10,
+  "title": "【对话场景】描述物体的位置",
+  "jsonPath": "shuimu/lessons/beginner/010.json",
+  "text": "第十单元\n第一课\n【对话场景】描述物体的位置\nMrs. Smith’s kitchen is small.\n史密斯太太的厨房很小。\nThere is a refrigerator in the kitchen.\n厨房里有一个冰箱。\nThe refrigerator is white.\n冰箱是白色的。\nIt is on the right.\n它位于厨房的右侧。\nMrs. Smith’s living room is large.\n史密斯太太的客厅很大。\nThere is a television in the room.\n客厅里有台电视机。\nThe television is near the window.\n电视机靠近窗户。\nThere are some magazines on the television.\n电视机上放着一些杂志。\nThere is a table in the room.\n客厅里有一张桌子。\nThere are some newspapers on the table.\n桌子上放着几份报纸。\n• on the left/right 的用法\n◦ 位于左边/右边\n◦ left 和 right 在这里是名词左边/右边的意思\n◦ 要加定冠词 the，因为位置的描述有参照物\n◦ 后面可以加介词 of，表示······的左边\n▪ She is on the left of the team.她站在队伍的左边。\n◦ left 和 right 还可以作形容词，左边的/右边的\n▪ left hand 左手 right hand 右手\n• there be sth. in/on...的用法\n◦ there be 结构表示存在、有\n◦ 后面加地点表示在某个空间中有某物\n▪ there is a book on the desk 桌子上有本书\n◦ 单数名词用 there is...，复数名词用 there are...\n▪ be 动词的形态取决于就近的名词为单数或复数\n▫ There is a book and some magazines on the desk.\n桌子上有一本书，还有一些杂志\n第二课\n【语法点拨】表示空间的介词\n表示静态位置的介词有：at, in, on, over, above, under, below\n表示动态方向的介词有：from, to, up, down, through, across\n• at, on 和 in 在·····/在······上面/在······里面\n◦ at 用于表示一个较小的场合，这个地点被当作一个点来看待\n▪ She arrived at the airport.她已经到达机场了。\n◦ on 表示在某一平面或线上，强调与某物体有接触\n▪ The book is on the desk.书在桌子上。\n◦ in 表示在较大的地方，在某立体空间或平面范围之内\n▪ He planted some flowers in the garden.他在花园里种了一些花。\n• about 和 around 在······周围/附近\n◦ about 强调无方向\n▪ We walked about in the town.我们在城里到处闲逛。\n• over 和 above 在······上方\n◦ over 表示正上方，而且两物体表面没有接触\n▪ There is a bridge over the river.河上有座桥。\n◦ above 强调在上方，但不一定是正上方，也不强调没有接触\n▪ The birds are flying above the clouds.鸟儿在云朵上飞翔。\n• under 和 below 在······下方\n◦ under 表示正下方，可以接触也可以不接触\n▪ There is a cat under the table.桌子底下有只猫。\n◦ below 强调位置低于某参照物，但不一定是正下方\n▪ Read the words below.读一读下方的文字。\n第三课\n【单词串烧】\n• Mrs. ['misiz] 夫人\n• kitchen ['kitʃin] n.厨房\n• on [ɔn] prep. 在…之上\n• shelf [ʃelf] n. 架子，搁板\n• desk [desk] n.课桌\n• table ['teibəl] n.桌子\n• plate [pleit] n.盘子\n• television ['teliˌviʒən, ˌteli'viʒən] n.电视机\n• floor [flɔ:] n.地板\n• magazine [ˌmægə'zi:n] n.杂志\n• bed [bed] n.床\n• newspaper ['nju:sˌpeipə] n.报纸\n• right [rait] n.右边\n• living room ['liviŋ ru:m] 客厅\n• near [niə] prep.靠近\n• window ['windəu] n.窗户\n• armchair ['ɑ:mtʃeə] n.手扶椅\n• door [dɔ:] n.门\n• picture ['piktʃə] n.图画\n• wall [wɔ:l] n.墙",
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "第十单元"
+    },
+    {
+      "type": "heading",
+      "text": "第一课"
+    },
+    {
+      "type": "heading",
+      "text": "【对话场景】描述物体的位置"
+    },
+    {
+      "type": "paragraph",
+      "text": "Mrs. Smith’s kitchen is small."
+    },
+    {
+      "type": "paragraph",
+      "text": "史密斯太太的厨房很小。"
+    },
+    {
+      "type": "paragraph",
+      "text": "There is a refrigerator in the kitchen."
+    },
+    {
+      "type": "paragraph",
+      "text": "厨房里有一个冰箱。"
+    },
+    {
+      "type": "paragraph",
+      "text": "The refrigerator is white."
+    },
+    {
+      "type": "paragraph",
+      "text": "冰箱是白色的。"
+    },
+    {
+      "type": "paragraph",
+      "text": "It is on the right."
+    },
+    {
+      "type": "paragraph",
+      "text": "它位于厨房的右侧。"
+    },
+    {
+      "type": "paragraph",
+      "text": "Mrs. Smith’s living room is large."
+    },
+    {
+      "type": "paragraph",
+      "text": "史密斯太太的客厅很大。"
+    },
+    {
+      "type": "paragraph",
+      "text": "There is a television in the room."
+    },
+    {
+      "type": "paragraph",
+      "text": "客厅里有台电视机。"
+    },
+    {
+      "type": "paragraph",
+      "text": "The television is near the window."
+    },
+    {
+      "type": "paragraph",
+      "text": "电视机靠近窗户。"
+    },
+    {
+      "type": "paragraph",
+      "text": "There are some magazines on the television."
+    },
+    {
+      "type": "paragraph",
+      "text": "电视机上放着一些杂志。"
+    },
+    {
+      "type": "paragraph",
+      "text": "There is a table in the room."
+    },
+    {
+      "type": "paragraph",
+      "text": "客厅里有一张桌子。"
+    },
+    {
+      "type": "paragraph",
+      "text": "There are some newspapers on the table."
+    },
+    {
+      "type": "paragraph",
+      "text": "桌子上放着几份报纸。"
+    },
+    {
+      "type": "list",
+      "text": "• on the left/right 的用法"
+    },
+    {
+      "type": "list",
+      "text": "◦ 位于左边/右边"
+    },
+    {
+      "type": "list",
+      "text": "◦ left 和 right 在这里是名词左边/右边的意思"
+    },
+    {
+      "type": "list",
+      "text": "◦ 要加定冠词 the，因为位置的描述有参照物"
+    },
+    {
+      "type": "list",
+      "text": "◦ 后面可以加介词 of，表示······的左边"
+    },
+    {
+      "type": "list",
+      "text": "▪ She is on the left of the team.她站在队伍的左边。"
+    },
+    {
+      "type": "list",
+      "text": "◦ left 和 right 还可以作形容词，左边的/右边的"
+    },
+    {
+      "type": "list",
+      "text": "▪ left hand 左手 right hand 右手"
+    },
+    {
+      "type": "list",
+      "text": "• there be sth. in/on...的用法"
+    },
+    {
+      "type": "list",
+      "text": "◦ there be 结构表示存在、有"
+    },
+    {
+      "type": "list",
+      "text": "◦ 后面加地点表示在某个空间中有某物"
+    },
+    {
+      "type": "list",
+      "text": "▪ there is a book on the desk 桌子上有本书"
+    },
+    {
+      "type": "list",
+      "text": "◦ 单数名词用 there is...，复数名词用 there are..."
+    },
+    {
+      "type": "list",
+      "text": "▪ be 动词的形态取决于就近的名词为单数或复数"
+    },
+    {
+      "type": "list",
+      "text": "▫ There is a book and some magazines on the desk."
+    },
+    {
+      "type": "paragraph",
+      "text": "桌子上有一本书，还有一些杂志"
+    },
+    {
+      "type": "heading",
+      "text": "第二课"
+    },
+    {
+      "type": "heading",
+      "text": "【语法点拨】表示空间的介词"
+    },
+    {
+      "type": "paragraph",
+      "text": "表示静态位置的介词有：at, in, on, over, above, under, below"
+    },
+    {
+      "type": "paragraph",
+      "text": "表示动态方向的介词有：from, to, up, down, through, across"
+    },
+    {
+      "type": "list",
+      "text": "• at, on 和 in 在·····/在······上面/在······里面"
+    },
+    {
+      "type": "list",
+      "text": "◦ at 用于表示一个较小的场合，这个地点被当作一个点来看待"
+    },
+    {
+      "type": "list",
+      "text": "▪ She arrived at the airport.她已经到达机场了。"
+    },
+    {
+      "type": "list",
+      "text": "◦ on 表示在某一平面或线上，强调与某物体有接触"
+    },
+    {
+      "type": "list",
+      "text": "▪ The book is on the desk.书在桌子上。"
+    },
+    {
+      "type": "list",
+      "text": "◦ in 表示在较大的地方，在某立体空间或平面范围之内"
+    },
+    {
+      "type": "list",
+      "text": "▪ He planted some flowers in the garden.他在花园里种了一些花。"
+    },
+    {
+      "type": "list",
+      "text": "• about 和 around 在······周围/附近"
+    },
+    {
+      "type": "list",
+      "text": "◦ about 强调无方向"
+    },
+    {
+      "type": "list",
+      "text": "▪ We walked about in the town.我们在城里到处闲逛。"
+    },
+    {
+      "type": "list",
+      "text": "• over 和 above 在······上方"
+    },
+    {
+      "type": "list",
+      "text": "◦ over 表示正上方，而且两物体表面没有接触"
+    },
+    {
+      "type": "list",
+      "text": "▪ There is a bridge over the river.河上有座桥。"
+    },
+    {
+      "type": "list",
+      "text": "◦ above 强调在上方，但不一定是正上方，也不强调没有接触"
+    },
+    {
+      "type": "list",
+      "text": "▪ The birds are flying above the clouds.鸟儿在云朵上飞翔。"
+    },
+    {
+      "type": "list",
+      "text": "• under 和 below 在······下方"
+    },
+    {
+      "type": "list",
+      "text": "◦ under 表示正下方，可以接触也可以不接触"
+    },
+    {
+      "type": "list",
+      "text": "▪ There is a cat under the table.桌子底下有只猫。"
+    },
+    {
+      "type": "list",
+      "text": "◦ below 强调位置低于某参照物，但不一定是正下方"
+    },
+    {
+      "type": "list",
+      "text": "▪ Read the words below.读一读下方的文字。"
+    },
+    {
+      "type": "heading",
+      "text": "第三课"
+    },
+    {
+      "type": "heading",
+      "text": "【单词串烧】"
+    },
+    {
+      "type": "list",
+      "text": "• Mrs. ['misiz] 夫人"
+    },
+    {
+      "type": "list",
+      "text": "• kitchen ['kitʃin] n.厨房"
+    },
+    {
+      "type": "list",
+      "text": "• on [ɔn] prep. 在…之上"
+    },
+    {
+      "type": "list",
+      "text": "• shelf [ʃelf] n. 架子，搁板"
+    },
+    {
+      "type": "list",
+      "text": "• desk [desk] n.课桌"
+    },
+    {
+      "type": "list",
+      "text": "• table ['teibəl] n.桌子"
+    },
+    {
+      "type": "list",
+      "text": "• plate [pleit] n.盘子"
+    },
+    {
+      "type": "list",
+      "text": "• television ['teliˌviʒən, ˌteli'viʒən] n.电视机"
+    },
+    {
+      "type": "list",
+      "text": "• floor [flɔ:] n.地板"
+    },
+    {
+      "type": "list",
+      "text": "• magazine [ˌmægə'zi:n] n.杂志"
+    },
+    {
+      "type": "list",
+      "text": "• bed [bed] n.床"
+    },
+    {
+      "type": "list",
+      "text": "• newspaper ['nju:sˌpeipə] n.报纸"
+    },
+    {
+      "type": "list",
+      "text": "• right [rait] n.右边"
+    },
+    {
+      "type": "list",
+      "text": "• living room ['liviŋ ru:m] 客厅"
+    },
+    {
+      "type": "list",
+      "text": "• near [niə] prep.靠近"
+    },
+    {
+      "type": "list",
+      "text": "• window ['windəu] n.窗户"
+    },
+    {
+      "type": "list",
+      "text": "• armchair ['ɑ:mtʃeə] n.手扶椅"
+    },
+    {
+      "type": "list",
+      "text": "• door [dɔ:] n.门"
+    },
+    {
+      "type": "list",
+      "text": "• picture ['piktʃə] n.图画"
+    },
+    {
+      "type": "list",
+      "text": "• wall [wɔ:l] n.墙"
+    }
+  ],
+  "videos": [],
+  "source": {
+    "fileName": "英语零基础初级讲义.txt",
+    "kind": "PDF 校对后的转换文本"
+  }
+}

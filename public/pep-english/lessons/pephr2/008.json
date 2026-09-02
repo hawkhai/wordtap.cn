@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "id": "pephr2-008",
+  "groupId": "pephr2",
+  "unitNo": 3,
+  "sequenceNo": 8,
+  "section": "Reading for Writing",
+  "title": "How to Stay Safe Online",
+  "jsonPath": "pep-english/lessons/pephr2/008.json",
+  "text": "Today I thought I'd blog about a question that has been asked many times—how do you stay safe online and avoid bad experiences on the Internet? I'm not an expert, but many years as a blogger have taught me a thing or two.\nFirst of all, there's the golden rule of the Internet: If you see or read something that makes you feel uncomfortable, leave the site immediately. Don't post comments or click on anything. Second, protect your privacy. Don't give out your address or phone number. Someone might use the information to steal your identity. Identity theft is a common and serious problem. Third, be polite. Being online is no excuse for being rude, and you don't want to become a target for a troll or cyberbully. A troll is a person who posts comments or questions in order to stir up trouble online. Trolls often use several false names so that they can stay on a site. A cyberbully uses the Internet to be mean to others. Like a troll, a cyberbully will also write something mean but it is usually directed at particular people. He or she may also post embarrassing photos and information about those people. However, the more polite you are, the less likely it is you will be attacked.\nHave you had any bad experiences online, or do you have some good advice for staying safe? Post your comments below!\nBoy579 Last year, we were having problems in our chat room. Mean comments were being posted by someone we didn't know. I think he or she was only trying to make trouble.\nAmy A girl at my school had a very bad experience online. A photo of her had been posted online and she was being made fun of. It seemed like a joke at first, but the girl was very upset.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Today I thought I'd blog about a question that has been asked many times—how do you stay safe online and avoid bad experiences on the Internet? I'm not an expert, but many years as a blogger have taught me a thing or two."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "First of all, there's the golden rule of the Internet: If you see or read something that makes you feel uncomfortable, leave the site immediately. Don't post comments or click on anything. Second, protect your privacy. Don't give out your address or phone number. Someone might use the information to steal your identity. Identity theft is a common and serious problem. Third, be polite. Being online is no excuse for being rude, and you don't want to become a target for a troll or cyberbully. A troll is a person who posts comments or questions in order to stir up trouble online. Trolls often use several false names so that they can stay on a site. A cyberbully uses the Internet to be mean to others. Like a troll, a cyberbully will also write something mean but it is usually directed at particular people. He or she may also post embarrassing photos and information about those people. However, the more polite you are, the less likely it is you will be attacked."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Have you had any bad experiences online, or do you have some good advice for staying safe? Post your comments below!"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Boy579 Last year, we were having problems in our chat room. Mean comments were being posted by someone we didn't know. I think he or she was only trying to make trouble."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Amy A girl at my school had a very bad experience online. A photo of her had been posted online and she was being made fun of. It seemed like a joke at first, but the girl was very upset."
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "必修第二册",
+    "pageStart": 39,
+    "pageEnd": 39,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "38d49874e4f015fd89f21c9306f6b9d5",
+    "pdfSize": 14270612,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/senior-required-2.pdf#page=39",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored the complete untitled model blog post, its invitation to comment and both complete reader comments; supplied a descriptive metadata title and excluded browser chrome, questions and organisation exercises."
+    }
+  }
+}

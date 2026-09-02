@@ -1,0 +1,175 @@
+{
+  "schemaVersion": 1,
+  "id": "nce2-068",
+  "bookId": "nce2",
+  "bookNo": 2,
+  "lessonNo": 68,
+  "lessonRange": [
+    68
+  ],
+  "title": "Persistent",
+  "titleZh": "持久的",
+  "question": "Why did Elizabeth tell Nigel that she was going to the dentist?",
+  "questionZh": "为什么伊丽莎白告诉奈杰尔她要去看牙医？",
+  "text": "Why did Elizabeth tell Nigel that she was going to the dentist?\n\nI crossed the street to avoid meeting him but he saw me and came running towards me.\nIt was no use pretending that I had not seen him, so I waved to him.\nI never enjoy meeting Nigel Dykes.\nHe never has anything to do.\nNo matter how busy you are, he always insists on coming with you.\nI had to think of a way of preventing him from following me around all morning.\n'Hello, Nigel,' I said 'Fancy meeting you here!'\n'Hi, Elizabeth,' Nigel answered. 'I was just wondering how to spend the morning--until I saw you.\nYou're not busy doing anything, are you?'\n'No, not at all,' I answered. 'I'm going to...'\n'Would you mind my coming with you?' he asked, before I had finished speaking.\n'Not at all,' I lied, 'but I'm going to the dentist.'\n'Then I'll come with you,' he answered.\n'There's always plenty to read in the waiting room!'",
+  "bodyText": "I crossed the street to avoid meeting him but he saw me and came running towards me.\nIt was no use pretending that I had not seen him, so I waved to him.\nI never enjoy meeting Nigel Dykes.\nHe never has anything to do.\nNo matter how busy you are, he always insists on coming with you.\nI had to think of a way of preventing him from following me around all morning.\n'Hello, Nigel,' I said 'Fancy meeting you here!'\n'Hi, Elizabeth,' Nigel answered. 'I was just wondering how to spend the morning--until I saw you.\nYou're not busy doing anything, are you?'\n'No, not at all,' I answered. 'I'm going to...'\n'Would you mind my coming with you?' he asked, before I had finished speaking.\n'Not at all,' I lied, 'but I'm going to the dentist.'\n'Then I'll come with you,' he answered.\n'There's always plenty to read in the waiting room!'",
+  "bodyTextZh": "我穿过马路想避开他，但他看见了我，就朝我跑了过来。\n假装没看见他是没用的，所以我向他挥了挥手。\n我从来都不喜欢见到尼格尔·戴克斯。\n他总是无所事事。\n无论你有多忙，他总是坚持要跟着你。\n我得想办法阻止他一整个早上都跟着我。\n“你好，尼格尔，”我说，“真没想到在这里遇见你！”\n“嗨，伊丽莎白，”奈杰尔回答，“我正琢磨着怎么打发这个上午——直到看见了你。\n“你现在不忙，对吧？”\n“不忙，”我回答，“我正要去……”\n“你介意我陪你一起去吗？”他还没等我说完就问了。\n“当然不介意，”我撒谎说，“不过我要去看牙医。\n“那我就跟你一起去，”他回答。\n“候诊室里总有好多东西可以看！”",
+  "sentences": [
+    {
+      "index": 0,
+      "startTime": 0.5,
+      "endTime": 3,
+      "en": "Lesson 68",
+      "zh": "第68课",
+      "role": "lesson"
+    },
+    {
+      "index": 1,
+      "startTime": 3,
+      "endTime": 10.12,
+      "en": "Persistent",
+      "zh": "持久的",
+      "role": "title"
+    },
+    {
+      "index": 2,
+      "startTime": 10.12,
+      "endTime": 17.62,
+      "en": "Why did Elizabeth tell Nigel that she was going to the dentist?",
+      "zh": "为什么伊丽莎白告诉奈杰尔她要去看牙医？",
+      "role": "question"
+    },
+    {
+      "index": 3,
+      "startTime": 17.62,
+      "endTime": 25.25,
+      "en": "I crossed the street to avoid meeting him but he saw me and came running towards me.",
+      "zh": "我穿过马路想避开他，但他看见了我，就朝我跑了过来。",
+      "role": "body"
+    },
+    {
+      "index": 4,
+      "startTime": 25.25,
+      "endTime": 32.56,
+      "en": "It was no use pretending that I had not seen him, so I waved to him.",
+      "zh": "假装没看见他是没用的，所以我向他挥了挥手。",
+      "role": "body"
+    },
+    {
+      "index": 5,
+      "startTime": 32.56,
+      "endTime": 36.76,
+      "en": "I never enjoy meeting Nigel Dykes.",
+      "zh": "我从来都不喜欢见到尼格尔·戴克斯。",
+      "role": "body"
+    },
+    {
+      "index": 6,
+      "startTime": 36.76,
+      "endTime": 40.34,
+      "en": "He never has anything to do.",
+      "zh": "他总是无所事事。",
+      "role": "body"
+    },
+    {
+      "index": 7,
+      "startTime": 40.34,
+      "endTime": 47.77,
+      "en": "No matter how busy you are, he always insists on coming with you.",
+      "zh": "无论你有多忙，他总是坚持要跟着你。",
+      "role": "body"
+    },
+    {
+      "index": 8,
+      "startTime": 47.77,
+      "endTime": 54.8,
+      "en": "I had to think of a way of preventing him from following me around all morning.",
+      "zh": "我得想办法阻止他一整个早上都跟着我。",
+      "role": "body"
+    },
+    {
+      "index": 9,
+      "startTime": 54.8,
+      "endTime": 60.59,
+      "en": "'Hello, Nigel,' I said 'Fancy meeting you here!'",
+      "zh": "“你好，尼格尔，”我说，“真没想到在这里遇见你！”",
+      "role": "body"
+    },
+    {
+      "index": 10,
+      "startTime": 60.59,
+      "endTime": 70.77,
+      "en": "'Hi, Elizabeth,' Nigel answered. 'I was just wondering how to spend the morning--until I saw you.",
+      "zh": "“嗨，伊丽莎白，”奈杰尔回答，“我正琢磨着怎么打发这个上午——直到看见了你。",
+      "role": "body"
+    },
+    {
+      "index": 11,
+      "startTime": 70.77,
+      "endTime": 74.56,
+      "en": "You're not busy doing anything, are you?'",
+      "zh": "“你现在不忙，对吧？”",
+      "role": "body"
+    },
+    {
+      "index": 12,
+      "startTime": 74.56,
+      "endTime": 79.86,
+      "en": "'No, not at all,' I answered. 'I'm going to...'",
+      "zh": "“不忙，”我回答，“我正要去……”",
+      "role": "body"
+    },
+    {
+      "index": 13,
+      "startTime": 79.86,
+      "endTime": 86.53,
+      "en": "'Would you mind my coming with you?' he asked, before I had finished speaking.",
+      "zh": "“你介意我陪你一起去吗？”他还没等我说完就问了。",
+      "role": "body"
+    },
+    {
+      "index": 14,
+      "startTime": 86.53,
+      "endTime": 92.57,
+      "en": "'Not at all,' I lied, 'but I'm going to the dentist.'",
+      "zh": "“当然不介意，”我撒谎说，“不过我要去看牙医。",
+      "role": "body"
+    },
+    {
+      "index": 15,
+      "startTime": 92.57,
+      "endTime": 96.02,
+      "en": "'Then I'll come with you,' he answered.",
+      "zh": "“那我就跟你一起去，”他回答。",
+      "role": "body"
+    },
+    {
+      "index": 16,
+      "startTime": 96.02,
+      "endTime": null,
+      "en": "'There's always plenty to read in the waiting room!'",
+      "zh": "“候诊室里总有好多东西可以看！”",
+      "role": "body"
+    }
+  ],
+  "audio": {
+    "fileName": "68－Persistent.mp3",
+    "sourcePath": "content/NCE-Flow/NCE2/68－Persistent.mp3",
+    "exists": true
+  },
+  "source": {
+    "repository": "NCE-Flow",
+    "lrcFileName": "68－Persistent.lrc",
+    "lrcPath": "content/NCE-Flow/NCE2/68－Persistent.lrc",
+    "sourceDataFile": "content/NCE-Flow/static/data.json",
+    "generatedAt": "2026-07-23T02:59:02+00:00",
+    "generator": "scripts/generate_nce_json.py",
+    "generatorVersion": "2.0.0",
+    "metadata": {
+      "al": "新概念英语（二）",
+      "ar": "MP3 同步字幕版（美音）",
+      "ti": "Persistent",
+      "by": "更多学习内容，请到VeryCD.com搜索“露珠”"
+    }
+  }
+}

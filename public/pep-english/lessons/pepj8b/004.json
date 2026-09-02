@@ -1,0 +1,76 @@
+{
+  "schemaVersion": 1,
+  "id": "pepj8b-004",
+  "groupId": "pepj8b",
+  "unitNo": 3,
+  "sequenceNo": 4,
+  "section": "Section A",
+  "title": "Nancy Learns to Share the Housework",
+  "jsonPath": "pep-english/lessons/pepj8b/004.json",
+  "text": "Last month, our dog welcomed me when I came home from school. He wanted a walk, but I was too tired. I threw down my bag and went to the living room. The minute I sat down in front of the TV, my mom came over.\n\"Could you please take the dog for a walk?\" she asked.\n\"Could I watch one show first?\" I asked.\n\"No!\" she replied angrily. \"You watch TV all the time and never help out around the house! I can't work all day and do housework all evening.\"\n\"Well, I work all day at school, too! I'm just as tired as you are!\" I shouted back.\nMy mom did not say anything and walked away. For one week, she did not do any housework and neither did I. Finally, I could not find a clean dish or a clean shirt.\nThe next day, my mom came home from work to find the house clean and tidy.\n\"What happened?\" she asked in surprise.\n\"I'm so sorry, Mom. I finally understand that we need to share the housework to have a clean and comfortable home,\" I replied.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Last month, our dog welcomed me when I came home from school. He wanted a walk, but I was too tired. I threw down my bag and went to the living room. The minute I sat down in front of the TV, my mom came over."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "\"Could you please take the dog for a walk?\" she asked."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "\"Could I watch one show first?\" I asked."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "\"No!\" she replied angrily. \"You watch TV all the time and never help out around the house! I can't work all day and do housework all evening.\""
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "\"Well, I work all day at school, too! I'm just as tired as you are!\" I shouted back."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "My mom did not say anything and walked away. For one week, she did not do any housework and neither did I. Finally, I could not find a clean dish or a clean shirt."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "The next day, my mom came home from work to find the house clean and tidy."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "\"What happened?\" she asked in surprise."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "\"I'm so sorry, Mom. I finally understand that we need to share the housework to have a clean and comfortable home,\" I replied."
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "初中",
+    "book": "八年级下册",
+    "pageStart": 28,
+    "pageEnd": 28,
+    "extractionMode": "ocr",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "21d35e04f1c22b74a3fe3e95e88adff9",
+    "pdfSize": 18208880,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/junior-8b.pdf#page=28",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored the complete narrative and all dialogue turns in printed order, supplied a descriptive metadata title, and excluded 3a questions plus activities 3b-3c."
+    }
+  }
+}

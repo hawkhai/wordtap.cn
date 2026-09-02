@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "id": "pephs4-030",
+  "groupId": "pephs4",
+  "unitNo": 2,
+  "sequenceNo": 30,
+  "section": "Expanding Your World",
+  "title": "The Kiwi",
+  "jsonPath": "pep-english/lessons/pephs4/030.json",
+  "text": "The kiwi is a flightless New Zealand bird of which New Zealanders are very proud. This unusual bird has become a national symbol of the country. New Zealanders themselves are also known all over the world as “Kiwis”, a nickname they are very proud of. The bird has also lent its name to a small, brown, and egg-shaped fruit, the kiwi fruit, though outside New Zealand, this fruit’s name is often shortened to “kiwi”.\nThe Fruit The kiwi fruit is actually native to China and was originally collected from the wild for use in medicine. In the early 1900s, the fruit spread from China to New Zealand, where farmers began to grow them for sale. In the 1940s, the Americans and the British stationed in New Zealand during the war discovered this amazing fruit, and soon after that, the kiwi fruit began to be exported to the UK and later to the US. It was when the fruit began to be sold in the US that it received the nickname “kiwi fruit”, which was quickly shortened to “kiwi”.\nThe People The nickname Kiwi used to refer to the country of New Zealand, but after the First World War, New Zealanders began to be referred to (and to refer to themselves) by the nickname “Kiwis”. A large part of the reason was that there were some New Zealand soldier units that put a picture of the kiwi (the bird) on their badges. Today, the bird’s picture is used on many New Zealand products and is worn on the sports clothes of many national sporting teams.\nThe Bird The kiwi bird is nocturnal, waking up and coming out of its nest on the ground to feed only at night. It is the only bird in the world that has its nostrils at the end of its beak. All other birds have them above their beaks, close to their face. The female kiwi holds the world record for laying the largest egg in proportion to its body size. Although the kiwi is only about the size of a chicken, the female lays a single egg almost as big as an ostrich egg. The name “kiwi” comes from the Maori language and is an imitation of the loud cry the male kiwi makes during the mating season.\nUnfortunately, the kiwi is an endangered species. It is threatened by non-native animals, such as cats and dogs, and by the loss of its habitat. Kiwis (the people) are doing their best to save the kiwi (the bird) and there are many programmes in place for this purpose. It would, indeed, be sad if New Zealand’s national symbol were to become extinct.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "The kiwi is a flightless New Zealand bird of which New Zealanders are very proud. This unusual bird has become a national symbol of the country. New Zealanders themselves are also known all over the world as “Kiwis”, a nickname they are very proud of. The bird has also lent its name to a small, brown, and egg-shaped fruit, the kiwi fruit, though outside New Zealand, this fruit’s name is often shortened to “kiwi”."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "The Fruit The kiwi fruit is actually native to China and was originally collected from the wild for use in medicine. In the early 1900s, the fruit spread from China to New Zealand, where farmers began to grow them for sale. In the 1940s, the Americans and the British stationed in New Zealand during the war discovered this amazing fruit, and soon after that, the kiwi fruit began to be exported to the UK and later to the US. It was when the fruit began to be sold in the US that it received the nickname “kiwi fruit”, which was quickly shortened to “kiwi”."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "The People The nickname Kiwi used to refer to the country of New Zealand, but after the First World War, New Zealanders began to be referred to (and to refer to themselves) by the nickname “Kiwis”. A large part of the reason was that there were some New Zealand soldier units that put a picture of the kiwi (the bird) on their badges. Today, the bird’s picture is used on many New Zealand products and is worn on the sports clothes of many national sporting teams."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "The Bird The kiwi bird is nocturnal, waking up and coming out of its nest on the ground to feed only at night. It is the only bird in the world that has its nostrils at the end of its beak. All other birds have them above their beaks, close to their face. The female kiwi holds the world record for laying the largest egg in proportion to its body size. Although the kiwi is only about the size of a chicken, the female lays a single egg almost as big as an ostrich egg. The name “kiwi” comes from the Maori language and is an imitation of the loud cry the male kiwi makes during the mating season."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Unfortunately, the kiwi is an endangered species. It is threatened by non-native animals, such as cats and dogs, and by the loss of its habitat. Kiwis (the people) are doing their best to save the kiwi (the bird) and there are many programmes in place for this purpose. It would, indeed, be sad if New Zealand’s national symbol were to become extinct."
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "选择性必修第四册",
+    "pageStart": 80,
+    "pageEnd": 80,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "6fc94127b322f6f5abff068bef6faa2e",
+    "pdfSize": 12330614,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/senior-selective-4.pdf#page=80",
+      "reviewedAt": "2026-07-22",
+      "notes": "Retained the complete introduction and all three headed sections plus conclusion; excluded images and furniture."
+    }
+  }
+}

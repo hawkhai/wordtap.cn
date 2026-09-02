@@ -1,0 +1,136 @@
+{
+  "schemaVersion": 1,
+  "id": "nce1-021",
+  "bookId": "nce1",
+  "bookNo": 1,
+  "lessonNo": 21,
+  "lessonRange": [
+    21,
+    22
+  ],
+  "title": "Which Book",
+  "titleZh": "哪本书？",
+  "question": "Which book does the man want?",
+  "questionZh": "那个男人想要哪本书？",
+  "text": "Which book does the man want?\n\nGive me a book please, Jane.\nWhich book?\nThis one?\nNo, not that one. The red one.\nThis one?\nYes, please.\nHere you are.\nThank you.",
+  "bodyText": "Give me a book please, Jane.\nWhich book?\nThis one?\nNo, not that one. The red one.\nThis one?\nYes, please.\nHere you are.\nThank you.",
+  "bodyTextZh": "请给我一本书，简。\n“哪本书？”\n“这一本吗？”\n“不，不是那一本。是红色的那本。”\n“这一本吗？”\n是的，请给我。\n“给你。”\n“谢谢。”",
+  "sentences": [
+    {
+      "index": 0,
+      "startTime": 0.35,
+      "endTime": 2.87,
+      "en": "Lesson 21",
+      "zh": "第21课",
+      "role": "lesson"
+    },
+    {
+      "index": 1,
+      "startTime": 2.87,
+      "endTime": 5.43,
+      "en": "Which book?",
+      "zh": "哪本书？",
+      "role": "title"
+    },
+    {
+      "index": 2,
+      "startTime": 5.43,
+      "endTime": 11.53,
+      "en": "Listen to the tape then answer this question.",
+      "zh": "先听录音，然后回答这个问题。",
+      "role": "prompt"
+    },
+    {
+      "index": 3,
+      "startTime": 11.53,
+      "endTime": 16.7,
+      "en": "Which book does the man want?",
+      "zh": "那个男人想要哪本书？",
+      "role": "question"
+    },
+    {
+      "index": 4,
+      "startTime": 16.7,
+      "endTime": 20.22,
+      "en": "Give me a book please, Jane.",
+      "zh": "请给我一本书，简。",
+      "role": "body"
+    },
+    {
+      "index": 5,
+      "startTime": 20.22,
+      "endTime": 21.83,
+      "en": "Which book?",
+      "zh": "“哪本书？”",
+      "role": "body"
+    },
+    {
+      "index": 6,
+      "startTime": 21.83,
+      "endTime": 24.33,
+      "en": "This one?",
+      "zh": "“这一本吗？”",
+      "role": "body"
+    },
+    {
+      "index": 7,
+      "startTime": 24.33,
+      "endTime": 29.44,
+      "en": "No, not that one. The red one.",
+      "zh": "“不，不是那一本。是红色的那本。”",
+      "role": "body"
+    },
+    {
+      "index": 8,
+      "startTime": 29.44,
+      "endTime": 30.97,
+      "en": "This one?",
+      "zh": "“这一本吗？”",
+      "role": "body"
+    },
+    {
+      "index": 9,
+      "startTime": 30.97,
+      "endTime": 32.78,
+      "en": "Yes, please.",
+      "zh": "是的，请给我。",
+      "role": "body"
+    },
+    {
+      "index": 10,
+      "startTime": 32.78,
+      "endTime": 34.81,
+      "en": "Here you are.",
+      "zh": "“给你。”",
+      "role": "body"
+    },
+    {
+      "index": 11,
+      "startTime": 34.81,
+      "endTime": null,
+      "en": "Thank you.",
+      "zh": "“谢谢。”",
+      "role": "body"
+    }
+  ],
+  "audio": {
+    "fileName": "021&022－Which Book.mp3",
+    "sourcePath": "content/NCE-Flow/NCE1/021&022－Which Book.mp3",
+    "exists": true
+  },
+  "source": {
+    "repository": "NCE-Flow",
+    "lrcFileName": "021&022－Which Book.lrc",
+    "lrcPath": "content/NCE-Flow/NCE1/021&022－Which Book.lrc",
+    "sourceDataFile": "content/NCE-Flow/static/data.json",
+    "generatedAt": "2026-07-23T02:59:02+00:00",
+    "generator": "scripts/generate_nce_json.py",
+    "generatorVersion": "2.0.0",
+    "metadata": {
+      "al": "新概念英语（一）",
+      "ar": "MP3 同步字幕版（美音）",
+      "ti": "Which Book?",
+      "by": "更多学习内容，请到VeryCD.com搜索“露珠”"
+    }
+  }
+}

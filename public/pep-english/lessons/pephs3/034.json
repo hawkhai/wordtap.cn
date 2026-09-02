@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "pephs3-034",
+  "groupId": "pephs3",
+  "unitNo": 5,
+  "sequenceNo": 34,
+  "section": "Expanding Your World",
+  "title": "The Gift (Tagore)",
+  "jsonPath": "pep-english/lessons/pephs3/034.json",
+  "text": "I want to give you something, my child, for we are drifting in the stream of the world.\nOur lives will be carried apart, and our love forgotten.\nBut I am not so foolish as to hope that I could buy your heart with my gifts.\nYoung is your life, your path long, and you drink the love we bring you at one draught and turn and run away from us.\nYou have your play and your playmates. What harm is there if you have no time for thought for us?\nWe indeed, have leisure enough in old age to count the days that are past, to cherish in our hearts what our hands have lost for ever.\nThe river runs swift with a song, breaking through all barriers. But the mountain stays and remembers, and follows her with his love.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "I want to give you something, my child, for we are drifting in the stream of the world.\nOur lives will be carried apart, and our love forgotten.\nBut I am not so foolish as to hope that I could buy your heart with my gifts.\nYoung is your life, your path long, and you drink the love we bring you at one draught and turn and run away from us.\nYou have your play and your playmates. What harm is there if you have no time for thought for us?\nWe indeed, have leisure enough in old age to count the days that are past, to cherish in our hearts what our hands have lost for ever.\nThe river runs swift with a song, breaking through all barriers. But the mountain stays and remembers, and follows her with his love."
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "选择性必修第三册",
+    "pageStart": 102,
+    "pageEnd": 102,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "f0dc33129a755a33421d401b71a05cd1",
+    "pdfSize": 12684455,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/senior-selective-3.pdf#page=102",
+      "reviewedAt": "2026-07-22",
+      "notes": "Preserved all seven printed lines and the stanza break; moved the author attribution to title metadata and excluded the illustration.",
+      "splitBaselineId": "pephs3-043",
+      "splitIndex": 1,
+      "splitCount": 2
+    }
+  }
+}

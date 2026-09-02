@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "id": "pepj9-005",
+  "groupId": "pepj9",
+  "unitNo": 2,
+  "sequenceNo": 5,
+  "section": "Section A",
+  "title": "Full Moon, Full Feelings",
+  "jsonPath": "pep-english/lessons/pepj9/005.json",
+  "text": "Chinese people have been celebrating the Mid-Autumn Festival and enjoying mooncakes for centuries. Mooncakes are in the shape of a full moon on the Mid-Autumn night. They carry people's wishes to the families they love and miss.\nThere are many traditional folk stories about this festival. However, most people think that the story of Chang'e is the most touching. Chang'e was Hou Yi's beautiful wife. After Hou Yi shot down the nine suns, a goddess gave him magic medicine to thank him. Whoever took this could live forever, and Hou Yi planned to take it with Chang'e. However, a bad man, Pang Meng, tried to steal the medicine when Hou Yi was not home. Chang'e refused to give it to him and took it all. She became very light and flew up to the moon. Hou Yi was so sad that he called out her name to the moon every night. One night, he found that the moon was so bright and round that he could see his wife there. He quickly laid out her favorite fruits and desserts in the garden. How he wished that Chang'e could come back!\nAfter this, people started the tradition of admiring the moon and sharing mooncakes with their families.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Chinese people have been celebrating the Mid-Autumn Festival and enjoying mooncakes for centuries. Mooncakes are in the shape of a full moon on the Mid-Autumn night. They carry people's wishes to the families they love and miss."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "There are many traditional folk stories about this festival. However, most people think that the story of Chang'e is the most touching. Chang'e was Hou Yi's beautiful wife. After Hou Yi shot down the nine suns, a goddess gave him magic medicine to thank him. Whoever took this could live forever, and Hou Yi planned to take it with Chang'e. However, a bad man, Pang Meng, tried to steal the medicine when Hou Yi was not home. Chang'e refused to give it to him and took it all. She became very light and flew up to the moon. Hou Yi was so sad that he called out her name to the moon every night. One night, he found that the moon was so bright and round that he could see his wife there. He quickly laid out her favorite fruits and desserts in the garden. How he wished that Chang'e could come back!"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "After this, people started the tradition of admiring the moon and sharing mooncakes with their families."
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "初中",
+    "book": "九年级全一册",
+    "pageStart": 25,
+    "pageEnd": 25,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "c6e628c22e0c2f9cfe4547699a1c95a4",
+    "pdfSize": 11088578,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/junior-9.pdf#page=25",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored the printed title and all three complete Mid-Autumn Festival paragraphs; excluded the 3a questions, 3b ordering task and 3c fill-in exercise."
+    }
+  }
+}

@@ -1,0 +1,167 @@
+{
+  "schemaVersion": 1,
+  "id": "nce2-020",
+  "bookId": "nce2",
+  "bookNo": 2,
+  "lessonNo": 20,
+  "lessonRange": [
+    20
+  ],
+  "title": "One Man in a Boat",
+  "titleZh": "独坐孤舟",
+  "question": "Why is fishing the writer's favourite sport?",
+  "questionZh": "为什么钓鱼是这位作家最喜爱的运动呢？",
+  "text": "Why is fishing the writer's favourite sport?\n\nFishing is my favourite sport.\nI often fish for hours without catching anything.\nBut this does not worry me.\nSome fishermen are unlucky.\nInstead of catching fish, they catch old boots and rubbish.\nI am even less lucky.\nI never catch anything -- not even old boots.\nAfter having spent whole mornings on the river,\nI always go home with an empty bag.\n'You must give up fishing!' my friends say. 'It's a waste of time.'\nBut they don't realize one important thing.\nI'm not really interested in fishing.\nI am only interested in sitting in a boat and doing nothing at all!",
+  "bodyText": "Fishing is my favourite sport.\nI often fish for hours without catching anything.\nBut this does not worry me.\nSome fishermen are unlucky.\nInstead of catching fish, they catch old boots and rubbish.\nI am even less lucky.\nI never catch anything  --  not even old boots.\nAfter having spent whole mornings on the river,\nI always go home with an empty bag.\n'You must give up fishing!' my friends say. 'It's a waste of time.'\nBut they don't realize one important thing.\nI'm not really interested in fishing.\nI am only interested in sitting in a boat and doing nothing at all!",
+  "bodyTextZh": "钓鱼是我最喜欢的运动。\n我经常花好几个小时钓鱼，却什么也没钓到。\n但这并不让我担心。\n有些渔民运气不好。\n与其去捕鱼，他们收集旧靴子和垃圾。\n我的运气更差了。\n我从来什么也抓不到——连一双旧靴子都抓不到。\n在河边度过了整个上午之后……\n我每次回家时，包里总是空空的。\n“你必须放弃钓鱼！”我的朋友们说，“那纯粹是浪费时间。”\n但他们没有意识到一件重要的事情：\n我其实对钓鱼并不感兴趣。\n我真正感兴趣的，只是坐在船上什么都不做而已！",
+  "sentences": [
+    {
+      "index": 0,
+      "startTime": 0.5,
+      "endTime": 3,
+      "en": "Lesson 20",
+      "zh": "第20课",
+      "role": "lesson"
+    },
+    {
+      "index": 1,
+      "startTime": 3,
+      "endTime": 11.03,
+      "en": "One Man in a Boat",
+      "zh": "独坐孤舟",
+      "role": "title"
+    },
+    {
+      "index": 2,
+      "startTime": 11.03,
+      "endTime": 15.9,
+      "en": "Why is fishing the writer's favourite sport?",
+      "zh": "为什么钓鱼是这位作家最喜爱的运动呢？",
+      "role": "question"
+    },
+    {
+      "index": 3,
+      "startTime": 15.9,
+      "endTime": 18.88,
+      "en": "Fishing is my favourite sport.",
+      "zh": "钓鱼是我最喜欢的运动。",
+      "role": "body"
+    },
+    {
+      "index": 4,
+      "startTime": 18.88,
+      "endTime": 24.11,
+      "en": "I often fish for hours without catching anything.",
+      "zh": "我经常花好几个小时钓鱼，却什么也没钓到。",
+      "role": "body"
+    },
+    {
+      "index": 5,
+      "startTime": 24.11,
+      "endTime": 27.65,
+      "en": "But this does not worry me.",
+      "zh": "但这并不让我担心。",
+      "role": "body"
+    },
+    {
+      "index": 6,
+      "startTime": 27.65,
+      "endTime": 30.69,
+      "en": "Some fishermen are unlucky.",
+      "zh": "有些渔民运气不好。",
+      "role": "body"
+    },
+    {
+      "index": 7,
+      "startTime": 30.69,
+      "endTime": 37.33,
+      "en": "Instead of catching fish, they catch old boots and rubbish.",
+      "zh": "与其去捕鱼，他们收集旧靴子和垃圾。",
+      "role": "body"
+    },
+    {
+      "index": 8,
+      "startTime": 37.33,
+      "endTime": 40.24,
+      "en": "I am even less lucky.",
+      "zh": "我的运气更差了。",
+      "role": "body"
+    },
+    {
+      "index": 9,
+      "startTime": 40.24,
+      "endTime": 46.48,
+      "en": "I never catch anything  --  not even old boots.",
+      "zh": "我从来什么也抓不到——连一双旧靴子都抓不到。",
+      "role": "body"
+    },
+    {
+      "index": 10,
+      "startTime": 46.48,
+      "endTime": 50.52,
+      "en": "After having spent whole mornings on the river,",
+      "zh": "在河边度过了整个上午之后……",
+      "role": "body"
+    },
+    {
+      "index": 11,
+      "startTime": 50.52,
+      "endTime": 54.86,
+      "en": "I always go home with an empty bag.",
+      "zh": "我每次回家时，包里总是空空的。",
+      "role": "body"
+    },
+    {
+      "index": 12,
+      "startTime": 54.86,
+      "endTime": 62.5,
+      "en": "'You must give up fishing!' my friends say. 'It's a waste of time.'",
+      "zh": "“你必须放弃钓鱼！”我的朋友们说，“那纯粹是浪费时间。”",
+      "role": "body"
+    },
+    {
+      "index": 13,
+      "startTime": 62.5,
+      "endTime": 67.05,
+      "en": "But they don't realize one important thing.",
+      "zh": "但他们没有意识到一件重要的事情：",
+      "role": "body"
+    },
+    {
+      "index": 14,
+      "startTime": 67.05,
+      "endTime": 70.78,
+      "en": "I'm not really interested in fishing.",
+      "zh": "我其实对钓鱼并不感兴趣。",
+      "role": "body"
+    },
+    {
+      "index": 15,
+      "startTime": 70.78,
+      "endTime": null,
+      "en": "I am only interested in sitting in a boat and doing nothing at all!",
+      "zh": "我真正感兴趣的，只是坐在船上什么都不做而已！",
+      "role": "body"
+    }
+  ],
+  "audio": {
+    "fileName": "20－One Man in a Boat.mp3",
+    "sourcePath": "content/NCE-Flow/NCE2/20－One Man in a Boat.mp3",
+    "exists": true
+  },
+  "source": {
+    "repository": "NCE-Flow",
+    "lrcFileName": "20－One Man in a Boat.lrc",
+    "lrcPath": "content/NCE-Flow/NCE2/20－One Man in a Boat.lrc",
+    "sourceDataFile": "content/NCE-Flow/static/data.json",
+    "generatedAt": "2026-07-23T02:59:02+00:00",
+    "generator": "scripts/generate_nce_json.py",
+    "generatorVersion": "2.0.0",
+    "metadata": {
+      "al": "新概念英语（二）",
+      "ar": "MP3 同步字幕版（美音）",
+      "ti": "One Man in a Boat",
+      "by": "更多学习内容，请到VeryCD.com搜索“露珠”"
+    }
+  }
+}

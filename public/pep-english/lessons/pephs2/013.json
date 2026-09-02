@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "id": "pephs2-013",
+  "groupId": "pephs2",
+  "unitNo": 4,
+  "sequenceNo": 13,
+  "section": "Using Language",
+  "title": "Seeing the True North via Rail: Toronto and Montreal",
+  "jsonPath": "pep-english/lessons/pephs2/013.json",
+  "text": "After Li Daiyu and her cousin arrived in Toronto, the largest and wealthiest city in Canada, they only had a few hours to kill before they had to proceed to the next leg of their trip to Montreal, so they went on a tour of the city. They went up the CN Tower and looked across the shores of Lake Ontario. Standing in the distance, they were astonished to see misty clouds rising from the great Niagara Falls, which is on the south side of the lake. Water from the lake flows into the Niagara River and over the falls on its way to the sea.\nThe girls saw hundreds of skyscrapers of glass and steel, and old-fashioned cars rolling by. As they walked north from the harbour area, Li Daiyu said, “Lin Fei, one of my mother’s old schoolmates, lives here. I should phone her and see if she’s available for dinner.”\nThey met Lin Fei around dusk over dinner at a restaurant in downtown Chinatown. The cousins chatted with Lin Fei, who had moved to Canada many years earlier.\n“This is the largest Chinatown in Toronto. We have a few more in the Greater Toronto Area, so you can guess that there are a lot of Chinese people in Canada! Chinese people have been coming here for more than a hundred years. Therefore, we can get all kinds of great food here from all over China,” Lin Fei told them.\nThe train left late that night and arrived in Montreal early the next morning. At the station, in contrast to Toronto, they heard people talking in French. They were surprised to see that all the signs and advertisements were in French and many people spoke English with an accent.\n“We don’t leave until this evening,” said Liu Qian. “Let’s go downtown. Old Montreal is close to the water.”\nThey spent the afternoon in lovely shops and visiting artists in their workplaces along St Paul Street. As they sat in a restaurant alongside the broad St Lawrence River, a young man sat down with them.\n“Hello, my name is Jean-Philippe. I’m a photographer,” he said, “and I was wondering where you are from.”\nThe girls told him they were from China and were on a train trip across Canada. When they told him they had only one day in Montreal, he said, “That’s too bad. You owe it to yourselves to stay longer. Overall, Montreal is a city with wonderful sights and sounds. Most of us speak both English and French, and the city has unique Quebec culture and traditions. There are fantastic restaurants and clubs around, too. Here, we love good coffee, toast, and cheese. And good music, of course!”\nThat night the train was speeding along the St Lawrence River towards the Gulf of St Lawrence and down to the distant east coast towards the province of Nova Scotia and its largest city, Halifax. The cousins dreamt happily of the beautiful cobblestone streets, old brick buildings, and the red maple leaves of Montreal.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "After Li Daiyu and her cousin arrived in Toronto, the largest and wealthiest city in Canada, they only had a few hours to kill before they had to proceed to the next leg of their trip to Montreal, so they went on a tour of the city. They went up the CN Tower and looked across the shores of Lake Ontario. Standing in the distance, they were astonished to see misty clouds rising from the great Niagara Falls, which is on the south side of the lake. Water from the lake flows into the Niagara River and over the falls on its way to the sea."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "The girls saw hundreds of skyscrapers of glass and steel, and old-fashioned cars rolling by. As they walked north from the harbour area, Li Daiyu said, “Lin Fei, one of my mother’s old schoolmates, lives here. I should phone her and see if she’s available for dinner.”"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "They met Lin Fei around dusk over dinner at a restaurant in downtown Chinatown. The cousins chatted with Lin Fei, who had moved to Canada many years earlier."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "“This is the largest Chinatown in Toronto. We have a few more in the Greater Toronto Area, so you can guess that there are a lot of Chinese people in Canada! Chinese people have been coming here for more than a hundred years. Therefore, we can get all kinds of great food here from all over China,” Lin Fei told them."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "The train left late that night and arrived in Montreal early the next morning. At the station, in contrast to Toronto, they heard people talking in French. They were surprised to see that all the signs and advertisements were in French and many people spoke English with an accent."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "“We don’t leave until this evening,” said Liu Qian. “Let’s go downtown. Old Montreal is close to the water.”"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "They spent the afternoon in lovely shops and visiting artists in their workplaces along St Paul Street. As they sat in a restaurant alongside the broad St Lawrence River, a young man sat down with them."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "“Hello, my name is Jean-Philippe. I’m a photographer,” he said, “and I was wondering where you are from.”"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "The girls told him they were from China and were on a train trip across Canada. When they told him they had only one day in Montreal, he said, “That’s too bad. You owe it to yourselves to stay longer. Overall, Montreal is a city with wonderful sights and sounds. Most of us speak both English and French, and the city has unique Quebec culture and traditions. There are fantastic restaurants and clubs around, too. Here, we love good coffee, toast, and cheese. And good music, of course!”"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "That night the train was speeding along the St Lawrence River towards the Gulf of St Lawrence and down to the distant east coast towards the province of Nova Scotia and its largest city, Halifax. The cousins dreamt happily of the beautiful cobblestone streets, old brick buildings, and the red maple leaves of Montreal."
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "选择性必修第二册",
+    "pageStart": 51,
+    "pageEnd": 52,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "1a701f2205298de95ea59cfc71eb83cd",
+    "pdfSize": 9968316,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/senior-selective-2.pdf#page=51-52",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored the complete ten-paragraph continuation of the Canadian rail journey through Toronto and Montreal to the train for Halifax; visually verified the final paragraph above the map on page 52 and excluded photographs, map, questions and email-writing activities."
+    }
+  }
+}

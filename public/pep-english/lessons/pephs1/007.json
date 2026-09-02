@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "pephs1-007",
+  "groupId": "pephs1",
+  "unitNo": 2,
+  "sequenceNo": 7,
+  "section": "Using Language",
+  "title": "Should We Fight New Technology?",
+  "jsonPath": "pep-english/lessons/pephs1/007.json",
+  "text": "This morning, I saw the shocking headline: “Passenger Dies When Car Crashes in Driverless Mode”. In the article, various people said that the public should oppose the idea of developing driverless cars. They said that some advances in technology were unnecessary and could even be dangerous. Hence, we should cease accepting technology just because it is new. The newspaper reported that the car company had already apologised for the accident, but the families of the deceased said it was not enough. Nevertheless, the company still claimed that most people would be travelling in driverless cars one day soon.\nOn the one hand, there are many different groups of people around the world who live happily in the absence of new technology. Probably the most well-known are the Amish, a group of Christians living in rural America. They do not own or drive cars, watch TV, or use the Internet. They have lived mainly as farmers since the 18th century, and they will probably be living the same way in the distant future. They advocate a simple life with an emphasis on hard work, family, and community. They think that is better than caring about luxuries or following the lives of the rich and famous. It could even be argued that the Amish’s quality of life is better since they live in and appreciate the natural environment rather than living in large, polluted cities.\nOn the other hand, new technology has provided people everywhere with many benefits over the years. For example, the latest weather-tracking computer programmes give people lots of warnings about potential natural disasters, which saves many lives. Moreover, the Internet has made it possible for friends and family to keep in touch easily even if they are on opposite sides of the world. It has also made finding opportunities in life much easier, as it allows people to make larger networks of friends through using social media.\nPersonally, I have benefited quite a lot from technological advances. I found my career as an AI designer through a social media network. My health monitor, which I wear all the time, has also helped me get into the best shape of my life. Of course, when new technology changes the way we live, it can be a scary prospect. Nevertheless, I will always look on the positive side of change and accept it rather than resist it.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "This morning, I saw the shocking headline: “Passenger Dies When Car Crashes in Driverless Mode”. In the article, various people said that the public should oppose the idea of developing driverless cars. They said that some advances in technology were unnecessary and could even be dangerous. Hence, we should cease accepting technology just because it is new. The newspaper reported that the car company had already apologised for the accident, but the families of the deceased said it was not enough. Nevertheless, the company still claimed that most people would be travelling in driverless cars one day soon."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "On the one hand, there are many different groups of people around the world who live happily in the absence of new technology. Probably the most well-known are the Amish, a group of Christians living in rural America. They do not own or drive cars, watch TV, or use the Internet. They have lived mainly as farmers since the 18th century, and they will probably be living the same way in the distant future. They advocate a simple life with an emphasis on hard work, family, and community. They think that is better than caring about luxuries or following the lives of the rich and famous. It could even be argued that the Amish’s quality of life is better since they live in and appreciate the natural environment rather than living in large, polluted cities."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "On the other hand, new technology has provided people everywhere with many benefits over the years. For example, the latest weather-tracking computer programmes give people lots of warnings about potential natural disasters, which saves many lives. Moreover, the Internet has made it possible for friends and family to keep in touch easily even if they are on opposite sides of the world. It has also made finding opportunities in life much easier, as it allows people to make larger networks of friends through using social media."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Personally, I have benefited quite a lot from technological advances. I found my career as an AI designer through a social media network. My health monitor, which I wear all the time, has also helped me get into the best shape of my life. Of course, when new technology changes the way we live, it can be a scary prospect. Nevertheless, I will always look on the positive side of change and accept it rather than resist it."
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "选择性必修第一册",
+    "pageStart": 27,
+    "pageEnd": 27,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "f19c4231e96ee3a9c769533d676f1106",
+    "pdfSize": 12809514,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/senior-selective-1.pdf#page=27",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored the complete four-paragraph opinion essay in printed order and confirmed page 28 contains only follow-up activities; excluded the lesson heading, instruction, Amish photograph and running furniture."
+    }
+  }
+}

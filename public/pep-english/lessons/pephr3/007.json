@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "pephr3-007",
+  "groupId": "pephr3",
+  "unitNo": 2,
+  "sequenceNo": 7,
+  "section": "Discovering Useful Structures",
+  "title": "Henry Norman Bethune",
+  "jsonPath": "pep-english/lessons/pephr3/007.json",
+  "text": "Henry Norman Bethune was a Canadian doctor with a very creative mind and a determination to help people. As a small boy, he became very interested in medicine and decided to become a doctor. After he graduated from medical college in 1916, Bethune worked as a doctor in England, the US, and Canada. He reinvented or redesigned over 10 medical instruments to make them more useful. In 1938, Bethune left for China, after he heard that many people were dying in the war. Despite the difficult situation, Dr Bethune did whatever he could to assist the Chinese people. He helped to organise hospitals, taught doctors and nurses, and showed people how to give first aid. Sadly, Dr Bethune passed away in November the following year and was buried in Shijiazhuang. After Dr Bethune's death, Chairman Mao Zedong wrote an article in memory of him, in which he praised Dr Bethune as a hero to be remembered in China.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Henry Norman Bethune was a Canadian doctor with a very creative mind and a determination to help people. As a small boy, he became very interested in medicine and decided to become a doctor. After he graduated from medical college in 1916, Bethune worked as a doctor in England, the US, and Canada. He reinvented or redesigned over 10 medical instruments to make them more useful. In 1938, Bethune left for China, after he heard that many people were dying in the war. Despite the difficult situation, Dr Bethune did whatever he could to assist the Chinese people. He helped to organise hospitals, taught doctors and nurses, and showed people how to give first aid. Sadly, Dr Bethune passed away in November the following year and was buried in Shijiazhuang. After Dr Bethune's death, Chairman Mao Zedong wrote an article in memory of him, in which he praised Dr Bethune as a hero to be remembered in China."
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "必修第三册",
+    "pageStart": 25,
+    "pageEnd": 25,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "31e51a16693d03177a5825f53f612a87",
+    "pdfSize": 14202806,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/senior-required-3.pdf#page=25",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored the complete printed Bethune biography without performing the requested -ing rewrites; excluded isolated grammar examples, sentence blanks, instruction, underlining and portrait."
+    }
+  }
+}

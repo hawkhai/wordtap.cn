@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "pephr3-002",
+  "groupId": "pephr3",
+  "unitNo": 1,
+  "sequenceNo": 2,
+  "section": "Discovering Useful Structures",
+  "title": "Which Festival Is the Best?",
+  "jsonPath": "pep-english/lessons/pephr3/002.json",
+  "text": "Sunnyli (Today 9:05 am): Rio Carnival! I spent a really fun day there with my friends. It was great fun walking along the streets, enjoying the relaxing atmosphere! The performances were just amazing.\nVincent1119 (Today 9:11 am): The Spring Festival in China, especially the dinner on the Lunar New Year's Eve! All family members get together. And I get lucky money in red envelopes from my parents and relatives, so it's always an exciting time for me.\nWizard_Oz (Today 10:11 am): Perhaps Thanksgiving. What could be better? Families getting together and eating delicious food, people watching sports games on TV, friends laughing and talking, etc. Plus there's Black Friday, if shopping is your thing.\nCooper_08 (Today 10:24 am): I think it's Christmas. I just can't take my eyes off the shining lights on the Christmas trees everywhere. Lots of smiling faces, and people singing Christmas carols and wishing each other “Merry Christmas!”",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Sunnyli (Today 9:05 am): Rio Carnival! I spent a really fun day there with my friends. It was great fun walking along the streets, enjoying the relaxing atmosphere! The performances were just amazing."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Vincent1119 (Today 9:11 am): The Spring Festival in China, especially the dinner on the Lunar New Year's Eve! All family members get together. And I get lucky money in red envelopes from my parents and relatives, so it's always an exciting time for me."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Wizard_Oz (Today 10:11 am): Perhaps Thanksgiving. What could be better? Families getting together and eating delicious food, people watching sports games on TV, friends laughing and talking, etc. Plus there's Black Friday, if shopping is your thing."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Cooper_08 (Today 10:24 am): I think it's Christmas. I just can't take my eyes off the shining lights on the Christmas trees everywhere. Lots of smiling faces, and people singing Christmas carols and wishing each other “Merry Christmas!”"
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "必修第三册",
+    "pageStart": 13,
+    "pageEnd": 13,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "31e51a16693d03177a5825f53f612a87",
+    "pdfSize": 14202806,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/senior-required-3.pdf#page=13",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored the complete four-post forum discussion with usernames and timestamps in visual top-to-bottom order; excluded grammar examples, instructions and the unfinished La Tomatina exercise."
+    }
+  }
+}

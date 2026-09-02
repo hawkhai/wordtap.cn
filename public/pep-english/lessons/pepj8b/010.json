@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "id": "pepj8b-010",
+  "groupId": "pepj8b",
+  "unitNo": 6,
+  "sequenceNo": 10,
+  "section": "Section A",
+  "title": "The Monkey King",
+  "jsonPath": "pep-english/lessons/pepj8b/010.json",
+  "text": "In November 1979, pupils in England were able to watch a new TV program called Monkey. Most of them were hearing this story for the first time. However, this story is not new to Chinese children. The Monkey King or Sun Wukong is the main character in the traditional Chinese book Journey to the West.\nThe Monkey King is not just any normal monkey. In fact, he sometimes does not even look like a monkey! This is because he can make 72 changes to his shape and size, turning himself into different animals and objects. But unless he can hide his tail, he cannot turn himself into a man. To fight bad people, the Monkey King uses a magic stick. Sometimes he can make the stick so small that he can keep it in his ear. At other times, he is able to make it big and long.\nThe Monkey King has excited the children of China for many years. And as soon as the TV program came out more than 30 years ago, Western children became interested in reading this story because the clever Monkey King keeps fighting to help the weak and never gives up!",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "In November 1979, pupils in England were able to watch a new TV program called Monkey. Most of them were hearing this story for the first time. However, this story is not new to Chinese children. The Monkey King or Sun Wukong is the main character in the traditional Chinese book Journey to the West."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "The Monkey King is not just any normal monkey. In fact, he sometimes does not even look like a monkey! This is because he can make 72 changes to his shape and size, turning himself into different animals and objects. But unless he can hide his tail, he cannot turn himself into a man. To fight bad people, the Monkey King uses a magic stick. Sometimes he can make the stick so small that he can keep it in his ear. At other times, he is able to make it big and long."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "The Monkey King has excited the children of China for many years. And as soon as the TV program came out more than 30 years ago, Western children became interested in reading this story because the clever Monkey King keeps fighting to help the weak and never gives up!"
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "初中",
+    "book": "八年级下册",
+    "pageStart": 52,
+    "pageEnd": 52,
+    "extractionMode": "ocr",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "21d35e04f1c22b74a3fe3e95e88adff9",
+    "pdfSize": 18208880,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/junior-8b.pdf#page=52",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored all three complete explanatory paragraphs, supplied a concise metadata title because the passage has none, and excluded 3a questions plus activities 3b-3c."
+    }
+  }
+}

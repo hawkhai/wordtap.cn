@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "pephs3-012",
+  "groupId": "pephs3",
+  "unitNo": 5,
+  "sequenceNo": 12,
+  "section": "Pronunciation",
+  "title": "The Arrow and the Song (H. W. Longfellow)",
+  "jsonPath": "pep-english/lessons/pephs3/012.json",
+  "text": "I shot an arrow into the air, It fell to earth, I knew not where;\nFor, so swiftly it flew, the sight Could not follow it in its flight.\nI breathed a song into the air, It fell to earth, I knew not where;\nFor who has sight so keen and strong, That it can follow the flight of song?\nLong, long afterwards, in an oak I found the arrow, still unbroke;\nAnd the song, from beginning to end, I found again in the heart of a friend.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "I shot an arrow into the air, It fell to earth, I knew not where;\nFor, so swiftly it flew, the sight Could not follow it in its flight.\nI breathed a song into the air, It fell to earth, I knew not where;\nFor who has sight so keen and strong, That it can follow the flight of song?\nLong, long afterwards, in an oak I found the arrow, still unbroke;\nAnd the song, from beginning to end, I found again in the heart of a friend."
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "选择性必修第三册",
+    "pageStart": 62,
+    "pageEnd": 62,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "f0dc33129a755a33421d401b71a05cd1",
+    "pdfSize": 12684455,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/senior-selective-3.pdf#page=62",
+      "reviewedAt": "2026-07-22",
+      "notes": "Recovered the complete poem missed by the baseline candidate scan; preserved its three stanzas, punctuation and lineation, and placed the author in title metadata rather than body text.",
+      "splitBaselineId": "pephs3-025",
+      "splitIndex": 1,
+      "splitCount": 5
+    }
+  }
+}

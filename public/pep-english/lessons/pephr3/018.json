@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "pephr3-018",
+  "groupId": "pephr3",
+  "unitNo": 5,
+  "sequenceNo": 18,
+  "section": "Discovering Useful Structures",
+  "title": "Should Roderick and Oliver Give Henry the Money?",
+  "jsonPath": "pep-english/lessons/pephr3/018.json",
+  "text": "A: I think it's kind of Roderick and Oliver to give Henry the money.\nB: I'm afraid I disagree. They shouldn't be making a bet on him.\nA: But Henry might get into trouble if they didn't offer him the money.\nB: Well, if they really wanted to help Henry, they could offer him a job.\nA: Maybe you're right. But I guess that would be a different story...",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "A: I think it's kind of Roderick and Oliver to give Henry the money.\nB: I'm afraid I disagree. They shouldn't be making a bet on him.\nA: But Henry might get into trouble if they didn't offer him the money.\nB: Well, if they really wanted to help Henry, they could offer him a job.\nA: Maybe you're right. But I guess that would be a different story..."
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "必修第三册",
+    "pageStart": 61,
+    "pageEnd": 61,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "31e51a16693d03177a5825f53f612a87",
+    "pdfSize": 14202806,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/senior-required-3.pdf#page=61",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored the complete five-turn model discussion and preserved its natural trailing ellipsis; excluded the ten-blank modal passage, future-in-the-past exercises, instructions and function labels."
+    }
+  }
+}

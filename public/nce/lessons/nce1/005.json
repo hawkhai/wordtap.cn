@@ -1,0 +1,232 @@
+{
+  "schemaVersion": 1,
+  "id": "nce1-005",
+  "bookId": "nce1",
+  "bookNo": 1,
+  "lessonNo": 5,
+  "lessonRange": [
+    5,
+    6
+  ],
+  "title": "Nice to Meet You.",
+  "titleZh": "很高兴见到你。",
+  "question": "Is Chang-woo Chinese?",
+  "questionZh": "昌宇是中国人吗？",
+  "text": "Is Chang-woo Chinese?\n\nGood morning.\nGood morning Mr. Blake.\nThis is Miss Sophie Dupont.\nSophie is a new student.\nShe is French.\nSophie this is Hans.\nHe is German.\nNice to meet you.\nAnd this is Naoko.\nShe's Japanese.\nNice to meet you.\nAnd this is Chang-woo.\nHe's Korean.\nNice to meet you.\nAnd this is Luming.\nHe's Chinese.\nNice to meet you.\nAnd this is Xiaohui.\nShe is Chinese too.\nNice to meet you.",
+  "bodyText": "Good morning.\nGood morning Mr. Blake.\nThis is Miss Sophie Dupont.\nSophie is a new student.\nShe is French.\nSophie this is Hans.\nHe is German.\nNice to meet you.\nAnd this is Naoko.\nShe's Japanese.\nNice to meet you.\nAnd this is Chang-woo.\nHe's Korean.\nNice to meet you.\nAnd this is Luming.\nHe's Chinese.\nNice to meet you.\nAnd this is Xiaohui.\nShe is Chinese too.\nNice to meet you.",
+  "bodyTextZh": "早上好。\n早上好，布莱克先生。\n这位是索菲·杜邦小姐。\n索菲是一名新学生。\n她是法国人。\n索菲，这位是汉斯。\n他是德国人。\n很高兴见到你。\n这是直子。\n她是日本人。\n很高兴见到你。\n这是昌宇。\n他是韩国人。\n很高兴见到你。\n这位是鲁明。\n他是中国人。\n很高兴见到你。\n这是小辉。\n她也是中国人。\n很高兴见到你。",
+  "sentences": [
+    {
+      "index": 0,
+      "startTime": 0.58,
+      "endTime": 2.4,
+      "en": "Lesson 5",
+      "zh": "第5课",
+      "role": "lesson"
+    },
+    {
+      "index": 1,
+      "startTime": 2.4,
+      "endTime": 5.08,
+      "en": "Nice to meet you.",
+      "zh": "很高兴见到你。",
+      "role": "title"
+    },
+    {
+      "index": 2,
+      "startTime": 5.08,
+      "endTime": 9.95,
+      "en": "Listen to the tape then answer this question.",
+      "zh": "先听这段录音，然后再回答这个问题。",
+      "role": "prompt"
+    },
+    {
+      "index": 3,
+      "startTime": 9.95,
+      "endTime": 14.23,
+      "en": "Is Chang-woo Chinese?",
+      "zh": "昌宇是中国人吗？",
+      "role": "question"
+    },
+    {
+      "index": 4,
+      "startTime": 14.23,
+      "endTime": 16.07,
+      "en": "Good morning.",
+      "zh": "早上好。",
+      "role": "body"
+    },
+    {
+      "index": 5,
+      "startTime": 16.07,
+      "endTime": 19.72,
+      "en": "Good morning Mr. Blake.",
+      "zh": "早上好，布莱克先生。",
+      "role": "body"
+    },
+    {
+      "index": 6,
+      "startTime": 19.72,
+      "endTime": 23.61,
+      "en": "This is Miss Sophie Dupont.",
+      "zh": "这位是索菲·杜邦小姐。",
+      "role": "body"
+    },
+    {
+      "index": 7,
+      "startTime": 23.61,
+      "endTime": 26.55,
+      "en": "Sophie is a new student.",
+      "zh": "索菲是一名新学生。",
+      "role": "body"
+    },
+    {
+      "index": 8,
+      "startTime": 26.55,
+      "endTime": 28.99,
+      "en": "She is French.",
+      "zh": "她是法国人。",
+      "role": "body"
+    },
+    {
+      "index": 9,
+      "startTime": 28.99,
+      "endTime": 32.54,
+      "en": "Sophie this is Hans.",
+      "zh": "索菲，这位是汉斯。",
+      "role": "body"
+    },
+    {
+      "index": 10,
+      "startTime": 32.54,
+      "endTime": 34.56,
+      "en": "He is German.",
+      "zh": "他是德国人。",
+      "role": "body"
+    },
+    {
+      "index": 11,
+      "startTime": 34.56,
+      "endTime": 37.33,
+      "en": "Nice to meet you.",
+      "zh": "很高兴见到你。",
+      "role": "body"
+    },
+    {
+      "index": 12,
+      "startTime": 37.33,
+      "endTime": 39.99,
+      "en": "And this is Naoko.",
+      "zh": "这是直子。",
+      "role": "body"
+    },
+    {
+      "index": 13,
+      "startTime": 39.99,
+      "endTime": 42.25,
+      "en": "She's Japanese.",
+      "zh": "她是日本人。",
+      "role": "body"
+    },
+    {
+      "index": 14,
+      "startTime": 42.25,
+      "endTime": 44.81,
+      "en": "Nice to meet you.",
+      "zh": "很高兴见到你。",
+      "role": "body"
+    },
+    {
+      "index": 15,
+      "startTime": 44.81,
+      "endTime": 47.49,
+      "en": "And this is Chang-woo.",
+      "zh": "这是昌宇。",
+      "role": "body"
+    },
+    {
+      "index": 16,
+      "startTime": 47.49,
+      "endTime": 49.26,
+      "en": "He's Korean.",
+      "zh": "他是韩国人。",
+      "role": "body"
+    },
+    {
+      "index": 17,
+      "startTime": 49.26,
+      "endTime": 51.65,
+      "en": "Nice to meet you.",
+      "zh": "很高兴见到你。",
+      "role": "body"
+    },
+    {
+      "index": 18,
+      "startTime": 51.65,
+      "endTime": 54.14,
+      "en": "And this is Luming.",
+      "zh": "这位是鲁明。",
+      "role": "body"
+    },
+    {
+      "index": 19,
+      "startTime": 54.14,
+      "endTime": 56.2,
+      "en": "He's Chinese.",
+      "zh": "他是中国人。",
+      "role": "body"
+    },
+    {
+      "index": 20,
+      "startTime": 56.2,
+      "endTime": 58.56,
+      "en": "Nice to meet you.",
+      "zh": "很高兴见到你。",
+      "role": "body"
+    },
+    {
+      "index": 21,
+      "startTime": 58.56,
+      "endTime": 61.73,
+      "en": "And this is Xiaohui.",
+      "zh": "这是小辉。",
+      "role": "body"
+    },
+    {
+      "index": 22,
+      "startTime": 61.73,
+      "endTime": 64.21,
+      "en": "She is Chinese too.",
+      "zh": "她也是中国人。",
+      "role": "body"
+    },
+    {
+      "index": 23,
+      "startTime": 64.21,
+      "endTime": null,
+      "en": "Nice to meet you.",
+      "zh": "很高兴见到你。",
+      "role": "body"
+    }
+  ],
+  "audio": {
+    "fileName": "005&006－Nice to Meet You..mp3",
+    "sourcePath": "content/NCE-Flow/NCE1/005&006－Nice to Meet You..mp3",
+    "exists": true
+  },
+  "source": {
+    "repository": "NCE-Flow",
+    "lrcFileName": "005&006－Nice to Meet You..lrc",
+    "lrcPath": "content/NCE-Flow/NCE1/005&006－Nice to Meet You..lrc",
+    "sourceDataFile": "content/NCE-Flow/static/data.json",
+    "generatedAt": "2026-07-23T02:59:02+00:00",
+    "generator": "scripts/generate_nce_json.py",
+    "generatorVersion": "2.0.0",
+    "metadata": {
+      "al": "新概念英语（一）",
+      "ar": "MP3 同步字幕版（美音）",
+      "ti": "Nice to Meet You.",
+      "by": "更多学习内容，请到VeryCD.com搜索“露珠”"
+    }
+  }
+}

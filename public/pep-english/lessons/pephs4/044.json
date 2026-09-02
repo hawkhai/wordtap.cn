@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "id": "pephs4-044",
+  "groupId": "pephs4",
+  "unitNo": 5,
+  "sequenceNo": 44,
+  "section": "Reading and Writing",
+  "title": "Does Practice Really Make Perfect?",
+  "jsonPath": "pep-english/lessons/pephs4/044.json",
+  "text": "“Practice makes perfect” is a very popular expression. However, can we take this saying literally? Many scientific studies have sought to either prove or disprove this idea. So does enough practice literally lead to perfection, or at least to a level of expertise?\nOne popular theory is that if a person practises for at least 10,000 hours, they will reach “perfection”—or, in other words, become an expert in their field. This theory was made famous by Malcolm Gladwell in his 2008 best-selling book, Outliers: The Story of Success. He claimed 10,000 hours of practice to be “the magic number of greatness”. He gave the examples of the music group The Beatles and Microsoft co-creator Bill Gates. Although they all seemed to have lots of natural talent, they also clearly put in over 10,000 hours of practice before they became successful.\nHowever, Gladwell’s book has been said by many to be too simplistic and generalising. Gladwell’s work was largely based on research done by Anders Ericsson, who argued that Gladwell misinterpreted his research. Firstly, Ericsson stated that 10,000 hours was an average figure. Some people, for example, needed far fewer than 10,000 hours, and others many more. More importantly, Ericsson said that just practising a lot was not enough; the type and quality of practice was also essential. He went on to explain the importance of “deliberate practice”, which is when a person practises a specific part of a skill in depth rather than practising a skill as a whole. Deliberate practice is said to be much more effective, albeit more tiring.\nDespite the theories mentioned above, many other studies argue that practice alone is far from enough. In fact, a more recent study from Princeton University stated that practice only accounted for up to 26% of reaching an expert level. So what are the other factors that contribute to people becoming experts?\nMany people say that natural talent has a large influence on becoming an expert. Another natural factor is physical superiority, which is especially evident in sports. For instance, many baseball players in America have amazing vision that allows them to see the ball much sooner than others do. So no matter how much a “normal” person practises, it is very hard for them to be as good as someone who has natural talent or physical superiority and who also practises.\nAnd how about other factors that go into creating an expert? Many say IQ, personality, attitude, and starting age are decisive factors, too. It is also important to note that becoming an expert doesn’t equal instant success. Success also relies on social factors, environmental factors, and even just being in the right place at the right time!\nIn conclusion, practice may not make perfect, but deliberate practice has been shown to lead to significant improvement. Based on Ericsson’s research, here are some tips on how to practise effectively: be motivated; make specific and realistic goals; work outside your comfort zone; be consistent and persistent; ask for others’ opinions; and, of course, get plenty of rest! For those wanting to become an expert in something, remember that being motivated is key—enjoy what you do and follow your passions.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "“Practice makes perfect” is a very popular expression. However, can we take this saying literally? Many scientific studies have sought to either prove or disprove this idea. So does enough practice literally lead to perfection, or at least to a level of expertise?"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "One popular theory is that if a person practises for at least 10,000 hours, they will reach “perfection”—or, in other words, become an expert in their field. This theory was made famous by Malcolm Gladwell in his 2008 best-selling book, Outliers: The Story of Success. He claimed 10,000 hours of practice to be “the magic number of greatness”. He gave the examples of the music group The Beatles and Microsoft co-creator Bill Gates. Although they all seemed to have lots of natural talent, they also clearly put in over 10,000 hours of practice before they became successful."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "However, Gladwell’s book has been said by many to be too simplistic and generalising. Gladwell’s work was largely based on research done by Anders Ericsson, who argued that Gladwell misinterpreted his research. Firstly, Ericsson stated that 10,000 hours was an average figure. Some people, for example, needed far fewer than 10,000 hours, and others many more. More importantly, Ericsson said that just practising a lot was not enough; the type and quality of practice was also essential. He went on to explain the importance of “deliberate practice”, which is when a person practises a specific part of a skill in depth rather than practising a skill as a whole. Deliberate practice is said to be much more effective, albeit more tiring."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Despite the theories mentioned above, many other studies argue that practice alone is far from enough. In fact, a more recent study from Princeton University stated that practice only accounted for up to 26% of reaching an expert level. So what are the other factors that contribute to people becoming experts?"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Many people say that natural talent has a large influence on becoming an expert. Another natural factor is physical superiority, which is especially evident in sports. For instance, many baseball players in America have amazing vision that allows them to see the ball much sooner than others do. So no matter how much a “normal” person practises, it is very hard for them to be as good as someone who has natural talent or physical superiority and who also practises."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "And how about other factors that go into creating an expert? Many say IQ, personality, attitude, and starting age are decisive factors, too. It is also important to note that becoming an expert doesn’t equal instant success. Success also relies on social factors, environmental factors, and even just being in the right place at the right time!"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "In conclusion, practice may not make perfect, but deliberate practice has been shown to lead to significant improvement. Based on Ericsson’s research, here are some tips on how to practise effectively: be motivated; make specific and realistic goals; work outside your comfort zone; be consistent and persistent; ask for others’ opinions; and, of course, get plenty of rest! For those wanting to become an expert in something, remember that being motivated is key—enjoy what you do and follow your passions."
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "选择性必修第四册",
+    "pageStart": 99,
+    "pageEnd": 100,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "6fc94127b322f6f5abff068bef6faa2e",
+    "pdfSize": 12330614,
+    "manualReview": {
+      "method": "visual-line-by-line-and-cross-page-order",
+      "source": "content/pep-english/raw/senior-selective-4.pdf#page=99-100",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored all seven paragraphs across the page turn; excluded questions, chart and essay instructions."
+    }
+  }
+}

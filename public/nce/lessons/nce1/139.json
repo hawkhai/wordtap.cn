@@ -1,0 +1,216 @@
+{
+  "schemaVersion": 1,
+  "id": "nce1-139",
+  "bookId": "nce1",
+  "bookNo": 1,
+  "lessonNo": 139,
+  "lessonRange": [
+    139,
+    140
+  ],
+  "title": "Is That You, John",
+  "titleZh": "那是你吗，约翰？",
+  "question": "Which John Smith does Graham Turner think he is talking to?",
+  "questionZh": "格雷厄姆·特纳认为他正在和哪个叫“约翰·史密斯”的人交谈呢？",
+  "text": "Which John Smith does Graham Turner think he is talking to?\n\nIs that you, John?\nYes, speaking.\nTell Mary we'll be late for dinner this evening.\nI'm afraid I don't understand.\nHasn't Mary told you?\nShe invited Charlotte and me to dinner this evening.\nI said I would be at your house at six o'clock, but the boss wants me to do some extra work.\nI'll have to stay at the office.\nI don't know when I'll finish.\nOh, and by the way, my wife wants to know if Mary needs any help.\nI don't know what you're talking about.\nThat is John Smith, isn't it?\nYes, I'm John Smith.\nYou are John Smith, the engineer, aren't you?\nThat's right.\nYou work for the Overseas Engineering Company, don't you?\nNo, I don't.\nI'm John Smith the telephone engineer and I'm repairing your telephone line.",
+  "bodyText": "Is that you, John?\nYes, speaking.\nTell Mary we'll be late for dinner this evening.\nI'm afraid I don't understand.\nHasn't Mary told you?\nShe invited Charlotte and me to dinner this evening.\nI said I would be at your house at six o'clock, but the boss wants me to do some extra work.\nI'll have to stay at the office.\nI don't know when I'll finish.\nOh, and by the way, my wife wants to know if Mary needs any help.\nI don't know what you're talking about.\nThat is John Smith, isn't it?\nYes, I'm John Smith.\nYou are John Smith, the engineer, aren't you?\nThat's right.\nYou work for the Overseas Engineering Company, don't you?\nNo, I don't.\nI'm John Smith the telephone engineer and I'm repairing your telephone line.",
+  "bodyTextZh": "那是你吗，约翰？\n是的，我就是。\n告诉玛丽，我们今晚吃晚饭会迟到。\n恐怕我不太明白。\n玛丽不是已经告诉你了吗？\n她邀请了夏洛特和我今晚一起吃晚餐。\n我说过六点会去你家，但老板让我去做一些额外的工作。\n我得留在办公室。\n我不知道我什么时候能弄完。\n哦，顺便问一下，我妻子想知道玛丽是否需要帮忙。\n我不明白你在说什么。\n你是约翰·史密斯，对吧？\n是的，我就是约翰·史密斯。\n你是那位工程师约翰·史密斯，对吗？\n没错。\n你在海外工程公司工作，对吗？\n不，我不在那里工作。\n我是电话工程师约翰·史密斯，我正在修理你们的电话线路。",
+  "sentences": [
+    {
+      "index": 0,
+      "startTime": 0.6,
+      "endTime": 3.54,
+      "en": "Lesson 139",
+      "zh": "第139课",
+      "role": "lesson"
+    },
+    {
+      "index": 1,
+      "startTime": 3.54,
+      "endTime": 6.85,
+      "en": "Is that you, John?",
+      "zh": "那是你吗，约翰？",
+      "role": "title"
+    },
+    {
+      "index": 2,
+      "startTime": 6.85,
+      "endTime": 12.53,
+      "en": "Listen to the tape then answer this question.",
+      "zh": "先听这段录音，然后再回答这个问题。",
+      "role": "prompt"
+    },
+    {
+      "index": 3,
+      "startTime": 12.53,
+      "endTime": 20.29,
+      "en": "Which John Smith does Graham Turner think he is talking to?",
+      "zh": "格雷厄姆·特纳认为他正在和哪个叫“约翰·史密斯”的人交谈呢？",
+      "role": "question"
+    },
+    {
+      "index": 4,
+      "startTime": 20.29,
+      "endTime": 22.7,
+      "en": "Is that you, John?",
+      "zh": "那是你吗，约翰？",
+      "role": "body"
+    },
+    {
+      "index": 5,
+      "startTime": 22.7,
+      "endTime": 24.8,
+      "en": "Yes, speaking.",
+      "zh": "是的，我就是。",
+      "role": "body"
+    },
+    {
+      "index": 6,
+      "startTime": 24.8,
+      "endTime": 29.32,
+      "en": "Tell Mary we'll be late for dinner this evening.",
+      "zh": "告诉玛丽，我们今晚吃晚饭会迟到。",
+      "role": "body"
+    },
+    {
+      "index": 7,
+      "startTime": 29.32,
+      "endTime": 33.23,
+      "en": "I'm afraid I don't understand.",
+      "zh": "恐怕我不太明白。",
+      "role": "body"
+    },
+    {
+      "index": 8,
+      "startTime": 33.23,
+      "endTime": 36.12,
+      "en": "Hasn't Mary told you?",
+      "zh": "玛丽不是已经告诉你了吗？",
+      "role": "body"
+    },
+    {
+      "index": 9,
+      "startTime": 36.12,
+      "endTime": 41.48,
+      "en": "She invited Charlotte and me to dinner this evening.",
+      "zh": "她邀请了夏洛特和我今晚一起吃晚餐。",
+      "role": "body"
+    },
+    {
+      "index": 10,
+      "startTime": 41.48,
+      "endTime": 51.46,
+      "en": "I said I would be at your house at six o'clock, but the boss wants me to do some extra work.",
+      "zh": "我说过六点会去你家，但老板让我去做一些额外的工作。",
+      "role": "body"
+    },
+    {
+      "index": 11,
+      "startTime": 51.46,
+      "endTime": 54.72,
+      "en": "I'll have to stay at the office.",
+      "zh": "我得留在办公室。",
+      "role": "body"
+    },
+    {
+      "index": 12,
+      "startTime": 54.72,
+      "endTime": 58.11,
+      "en": "I don't know when I'll finish.",
+      "zh": "我不知道我什么时候能弄完。",
+      "role": "body"
+    },
+    {
+      "index": 13,
+      "startTime": 58.11,
+      "endTime": 66.16,
+      "en": "Oh, and by the way, my wife wants to know if Mary needs any help.",
+      "zh": "哦，顺便问一下，我妻子想知道玛丽是否需要帮忙。",
+      "role": "body"
+    },
+    {
+      "index": 14,
+      "startTime": 66.16,
+      "endTime": 70.67,
+      "en": "I don't know what you're talking about.",
+      "zh": "我不明白你在说什么。",
+      "role": "body"
+    },
+    {
+      "index": 15,
+      "startTime": 70.67,
+      "endTime": 74.43,
+      "en": "That is John Smith, isn't it?",
+      "zh": "你是约翰·史密斯，对吧？",
+      "role": "body"
+    },
+    {
+      "index": 16,
+      "startTime": 74.43,
+      "endTime": 77.22,
+      "en": "Yes, I'm John Smith.",
+      "zh": "是的，我就是约翰·史密斯。",
+      "role": "body"
+    },
+    {
+      "index": 17,
+      "startTime": 77.22,
+      "endTime": 82.34,
+      "en": "You are John Smith, the engineer, aren't you?",
+      "zh": "你是那位工程师约翰·史密斯，对吗？",
+      "role": "body"
+    },
+    {
+      "index": 18,
+      "startTime": 82.34,
+      "endTime": 84.34,
+      "en": "That's right.",
+      "zh": "没错。",
+      "role": "body"
+    },
+    {
+      "index": 19,
+      "startTime": 84.34,
+      "endTime": 90.13,
+      "en": "You work for the Overseas Engineering Company, don't you?",
+      "zh": "你在海外工程公司工作，对吗？",
+      "role": "body"
+    },
+    {
+      "index": 20,
+      "startTime": 90.13,
+      "endTime": 91.96,
+      "en": "No, I don't.",
+      "zh": "不，我不在那里工作。",
+      "role": "body"
+    },
+    {
+      "index": 21,
+      "startTime": 91.96,
+      "endTime": null,
+      "en": "I'm John Smith the telephone engineer and I'm repairing your telephone line.",
+      "zh": "我是电话工程师约翰·史密斯，我正在修理你们的电话线路。",
+      "role": "body"
+    }
+  ],
+  "audio": {
+    "fileName": "139&140－Is That You, John.mp3",
+    "sourcePath": "content/NCE-Flow/NCE1/139&140－Is That You, John.mp3",
+    "exists": true
+  },
+  "source": {
+    "repository": "NCE-Flow",
+    "lrcFileName": "139&140－Is That You, John.lrc",
+    "lrcPath": "content/NCE-Flow/NCE1/139&140－Is That You, John.lrc",
+    "sourceDataFile": "content/NCE-Flow/static/data.json",
+    "generatedAt": "2026-07-23T02:59:02+00:00",
+    "generator": "scripts/generate_nce_json.py",
+    "generatorVersion": "2.0.0",
+    "metadata": {
+      "al": "新概念英语（一）",
+      "ar": "MP3 同步字幕版（美音）",
+      "ti": "Is That You, John?",
+      "by": "更多学习内容，请到VeryCD.com搜索“露珠”"
+    }
+  }
+}

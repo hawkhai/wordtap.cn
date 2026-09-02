@@ -1,0 +1,76 @@
+{
+  "schemaVersion": 1,
+  "id": "pephs2-017",
+  "groupId": "pephs2",
+  "unitNo": 2,
+  "sequenceNo": 17,
+  "section": "Reading and Writing",
+  "title": "Life in China",
+  "jsonPath": "pep-english/lessons/pephs2/017.json",
+  "text": "Hi there, Aunt Joan!\nHow are you? Mum said you asked how I was doing, so let me tell you about my life here.\nAs you know, I’ve been in China for around a month now. I want to study in a local university, which is why I took those after-school Chinese classes. I decided on China because it’s a fast-developing country with trade links all over the world. Studying here could be useful in finding a good job in trade or business. What’s more, Chinese culture is really interesting, so choosing to come here was a no-brainer for me!\nHaving said that, China isn’t like I thought it might be. I thought it would be quite old and traditional, but in many ways, the cities are just as modern as back home in Vancouver, only with lots more people! There’s so much more food to try, too, and it’s all delicious! Everywhere I go, I see restaurants and snack stalls—it seems to be a big part of their culture. Food here is very reasonably priced, so it’s great for my budget. The people I meet are all very welcoming towards me as a foreigner, and I even seem to be a point of interest! However, hardly anyone speaks English in my area, so it can be a bit overwhelming at times. But I guess that’s why I’m here—to learn.\nRight now, I’m studying every day for my HSK exam (a Chinese language qualification). But I also get a chance to explore the city. I usually get up extra early each morning to enjoy a freshly made breakfast on the street, and then I often visit a park. I’m not sure if you know, but I’m really interested in tai chi, so I spend a lot of time in the city parks practising with the locals. There’s a lot of traditional culture still alive in China. The parks are full of people playing traditional instruments, playing Chinese chess, and even writing calligraphy on the ground with giant paintbrushes!\nMy long-term plan is to take a degree course here. But it all depends on my expenses, so I intend to find some work first. I’m staying in a hostel dormitory right now, but I’ve put an ad online to find a friendly Chinese family for a homestay. That way, my Chinese will improve much faster, especially my written Chinese, which I find the most difficult to grasp. I’ll get more exposure to Chinese culture, too. I hope I can learn some Chinese food recipes from them. I promise to make everyone a meal when I return!\nWell, that’s all for now. I’ve attached a few photos for you. You would really love it here, so I hope you guys can visit China some time!\nTake care!\nJim",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Hi there, Aunt Joan!"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "How are you? Mum said you asked how I was doing, so let me tell you about my life here."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "As you know, I’ve been in China for around a month now. I want to study in a local university, which is why I took those after-school Chinese classes. I decided on China because it’s a fast-developing country with trade links all over the world. Studying here could be useful in finding a good job in trade or business. What’s more, Chinese culture is really interesting, so choosing to come here was a no-brainer for me!"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Having said that, China isn’t like I thought it might be. I thought it would be quite old and traditional, but in many ways, the cities are just as modern as back home in Vancouver, only with lots more people! There’s so much more food to try, too, and it’s all delicious! Everywhere I go, I see restaurants and snack stalls—it seems to be a big part of their culture. Food here is very reasonably priced, so it’s great for my budget. The people I meet are all very welcoming towards me as a foreigner, and I even seem to be a point of interest! However, hardly anyone speaks English in my area, so it can be a bit overwhelming at times. But I guess that’s why I’m here—to learn."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Right now, I’m studying every day for my HSK exam (a Chinese language qualification). But I also get a chance to explore the city. I usually get up extra early each morning to enjoy a freshly made breakfast on the street, and then I often visit a park. I’m not sure if you know, but I’m really interested in tai chi, so I spend a lot of time in the city parks practising with the locals. There’s a lot of traditional culture still alive in China. The parks are full of people playing traditional instruments, playing Chinese chess, and even writing calligraphy on the ground with giant paintbrushes!"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "My long-term plan is to take a degree course here. But it all depends on my expenses, so I intend to find some work first. I’m staying in a hostel dormitory right now, but I’ve put an ad online to find a friendly Chinese family for a homestay. That way, my Chinese will improve much faster, especially my written Chinese, which I find the most difficult to grasp. I’ll get more exposure to Chinese culture, too. I hope I can learn some Chinese food recipes from them. I promise to make everyone a meal when I return!"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Well, that’s all for now. I’ve attached a few photos for you. You would really love it here, so I hope you guys can visit China some time!"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Take care!"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Jim"
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "选择性必修第二册",
+    "pageStart": 78,
+    "pageEnd": 79,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "1a701f2205298de95ea59cfc71eb83cd",
+    "pdfSize": 9968316,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/senior-selective-2.pdf#page=78-79",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored Jim’s complete nine-block email to Aunt Joan, including greeting, closing and signature; followed the continuation onto page 79 and excluded recipient fields, matching prompts, questions and reply-writing exercise."
+    }
+  }
+}

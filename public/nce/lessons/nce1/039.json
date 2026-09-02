@@ -1,0 +1,168 @@
+{
+  "schemaVersion": 1,
+  "id": "nce1-039",
+  "bookId": "nce1",
+  "bookNo": 1,
+  "lessonNo": 39,
+  "lessonRange": [
+    39,
+    40
+  ],
+  "title": "Don't Drop It",
+  "titleZh": "别把它掉下来！",
+  "question": "Where does Sam put the vase in the end?",
+  "questionZh": "最后萨姆把花瓶放在了哪里？",
+  "text": "Where does Sam put the vase in the end?\n\nWhat are you going to do with that vase, Penny?\nI'm going to put it on this table, Sam.\nDon't do that.\nGive it to me.\nWhat are you going to do with it?\nI'm going to put it here, in front of the window.\nBe careful! Don't drop it!\nDon't put it there, Sam.\nPut it here, on this shelf.\nThere we are!\nIt's a lovely vase.\nThose flowers are lovely, too.",
+  "bodyText": "What are you going to do with that vase, Penny?\nI'm going to put it on this table, Sam.\nDon't do that.\nGive it to me.\nWhat are you going to do with it?\nI'm going to put it here, in front of the window.\nBe careful! Don't drop it!\nDon't put it there, Sam.\nPut it here, on this shelf.\nThere we are!\nIt's a lovely vase.\nThose flowers are lovely, too.",
+  "bodyTextZh": "佩妮，你打算怎么处理那个花瓶？\n我要把它放在这张桌子上，萨姆。\n别那么做。\n把它给我。\n你打算怎么处理它？\n“我要把它放在这里，窗子前面。”\n小心！别把它掉下来！\n“别放在那儿，萨姆。”\n把它放在这儿，这个架子上。\n好了，放好了！\n这是一个很漂亮的花瓶。\n那些花也很漂亮。",
+  "sentences": [
+    {
+      "index": 0,
+      "startTime": 0.78,
+      "endTime": 3.11,
+      "en": "Lesson 39",
+      "zh": "第39课",
+      "role": "lesson"
+    },
+    {
+      "index": 1,
+      "startTime": 3.11,
+      "endTime": 6.28,
+      "en": "Don't drop it!",
+      "zh": "别把它掉下来！",
+      "role": "title"
+    },
+    {
+      "index": 2,
+      "startTime": 6.28,
+      "endTime": 12.44,
+      "en": "Listen to the tape then answer this question.",
+      "zh": "先听录音，然后回答这个问题：",
+      "role": "prompt"
+    },
+    {
+      "index": 3,
+      "startTime": 12.44,
+      "endTime": 18.55,
+      "en": "Where does Sam put the vase in the end?",
+      "zh": "最后萨姆把花瓶放在了哪里？",
+      "role": "question"
+    },
+    {
+      "index": 4,
+      "startTime": 18.55,
+      "endTime": 24.02,
+      "en": "What are you going to do with that vase, Penny?",
+      "zh": "佩妮，你打算怎么处理那个花瓶？",
+      "role": "body"
+    },
+    {
+      "index": 5,
+      "startTime": 24.02,
+      "endTime": 29.15,
+      "en": "I'm going to put it on this table, Sam.",
+      "zh": "我要把它放在这张桌子上，萨姆。",
+      "role": "body"
+    },
+    {
+      "index": 6,
+      "startTime": 29.15,
+      "endTime": 31.31,
+      "en": "Don't do that.",
+      "zh": "别那么做。",
+      "role": "body"
+    },
+    {
+      "index": 7,
+      "startTime": 31.31,
+      "endTime": 33.63,
+      "en": "Give it to me.",
+      "zh": "把它给我。",
+      "role": "body"
+    },
+    {
+      "index": 8,
+      "startTime": 33.63,
+      "endTime": 37.39,
+      "en": "What are you going to do with it?",
+      "zh": "你打算怎么处理它？",
+      "role": "body"
+    },
+    {
+      "index": 9,
+      "startTime": 37.39,
+      "endTime": 43.03,
+      "en": "I'm going to put it here, in front of the window.",
+      "zh": "“我要把它放在这里，窗子前面。”",
+      "role": "body"
+    },
+    {
+      "index": 10,
+      "startTime": 43.03,
+      "endTime": 47.32,
+      "en": "Be careful! Don't drop it!",
+      "zh": "小心！别把它掉下来！",
+      "role": "body"
+    },
+    {
+      "index": 11,
+      "startTime": 47.32,
+      "endTime": 50.31,
+      "en": "Don't put it there, Sam.",
+      "zh": "“别放在那儿，萨姆。”",
+      "role": "body"
+    },
+    {
+      "index": 12,
+      "startTime": 50.31,
+      "endTime": 54.7,
+      "en": "Put it here, on this shelf.",
+      "zh": "把它放在这儿，这个架子上。",
+      "role": "body"
+    },
+    {
+      "index": 13,
+      "startTime": 54.7,
+      "endTime": 56.74,
+      "en": "There we are!",
+      "zh": "好了，放好了！",
+      "role": "body"
+    },
+    {
+      "index": 14,
+      "startTime": 56.74,
+      "endTime": 59.47,
+      "en": "It's a lovely vase.",
+      "zh": "这是一个很漂亮的花瓶。",
+      "role": "body"
+    },
+    {
+      "index": 15,
+      "startTime": 59.47,
+      "endTime": null,
+      "en": "Those flowers are lovely, too.",
+      "zh": "那些花也很漂亮。",
+      "role": "body"
+    }
+  ],
+  "audio": {
+    "fileName": "039&040－Don't Drop It.mp3",
+    "sourcePath": "content/NCE-Flow/NCE1/039&040－Don't Drop It.mp3",
+    "exists": true
+  },
+  "source": {
+    "repository": "NCE-Flow",
+    "lrcFileName": "039&040－Don't Drop It.lrc",
+    "lrcPath": "content/NCE-Flow/NCE1/039&040－Don't Drop It.lrc",
+    "sourceDataFile": "content/NCE-Flow/static/data.json",
+    "generatedAt": "2026-07-23T02:59:02+00:00",
+    "generator": "scripts/generate_nce_json.py",
+    "generatorVersion": "2.0.0",
+    "metadata": {
+      "al": "新概念英语（一）",
+      "ar": "MP3 同步字幕版（美音）",
+      "ti": "Don't Drop It!",
+      "by": "更多学习内容，请到VeryCD.com搜索“露珠”"
+    }
+  }
+}

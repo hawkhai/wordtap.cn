@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "id": "pephr2-028",
+  "groupId": "pephr2",
+  "unitNo": 5,
+  "sequenceNo": 28,
+  "section": "Expanding Your World",
+  "title": "Music Scores in Films",
+  "jsonPath": "pep-english/lessons/pephr2/028.json",
+  "text": "In today's blog post, I'd like to look at the role of musical scores in films.\nMost people recognise the music John Williams wrote for the film Jaws. As soon as you hear it, you begin thinking that a shark will attack. And that is exactly what you are meant to think. On the big screen, Jaws is a scary film. However, if you watch it without the music, it becomes boring. The music tells you to be frightened about what you are seeing. Good film scores always signal how to feel about what is happening on the screen. This is even clearer with Williams' next score, for Star Wars. When Luke Skywalker appears on the screen, the music becomes heroic because he is the hero. Darth Vader is the bad guy, so his music is quite dark. Would you think that Luke Skywalker was still a hero without the music? Probably. However, the music makes him seem even more heroic.\nNo one can talk about film scores without talking about Hans Zimmer. He did the music for many films, such as The Dark Knight, Inception, Pirates of the Caribbean, Gladiator, and The Lion King. Zimmer and Williams have very different styles and ideas for film scores. There are people who do not like Williams' scores for the Harry Potter films because they stand out too much, while some people do not like Zimmer's scores because they sometimes do not stand out enough. Of course, in many ways, that is not the point. When you leave a film, you should not be saying, “Wow! Great music!” Instead, you should be saying, “Wow! Great film!”\nA third, very different kind of film composer is Tan Dun, who has a classical music background, unlike many film composers. Tan started out as a musician for the Peking Opera. However, he fell in love with Western classical music, and started writing classical Western operas that show a strong touch of Chinese music. Like his operas, the scores for Crouching Tiger, Hidden Dragon, and Hero use Chinese musical instruments and styles in a Western classical music score. The music follows all of the rules of most film scores—the purpose is to tell you how to feel about the action in the film, and to help tell the story. However, perhaps because of Tan's background in classical music, his scores can stand alone as works of art without needing a film to support them.\nFilm scores are almost always a form of classical music. However, unlike most classical music, they have never been considered high art. Perhaps with Tan Dun, this will begin to change.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "In today's blog post, I'd like to look at the role of musical scores in films."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Most people recognise the music John Williams wrote for the film Jaws. As soon as you hear it, you begin thinking that a shark will attack. And that is exactly what you are meant to think. On the big screen, Jaws is a scary film. However, if you watch it without the music, it becomes boring. The music tells you to be frightened about what you are seeing. Good film scores always signal how to feel about what is happening on the screen. This is even clearer with Williams' next score, for Star Wars. When Luke Skywalker appears on the screen, the music becomes heroic because he is the hero. Darth Vader is the bad guy, so his music is quite dark. Would you think that Luke Skywalker was still a hero without the music? Probably. However, the music makes him seem even more heroic."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "No one can talk about film scores without talking about Hans Zimmer. He did the music for many films, such as The Dark Knight, Inception, Pirates of the Caribbean, Gladiator, and The Lion King. Zimmer and Williams have very different styles and ideas for film scores. There are people who do not like Williams' scores for the Harry Potter films because they stand out too much, while some people do not like Zimmer's scores because they sometimes do not stand out enough. Of course, in many ways, that is not the point. When you leave a film, you should not be saying, “Wow! Great music!” Instead, you should be saying, “Wow! Great film!”"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "A third, very different kind of film composer is Tan Dun, who has a classical music background, unlike many film composers. Tan started out as a musician for the Peking Opera. However, he fell in love with Western classical music, and started writing classical Western operas that show a strong touch of Chinese music. Like his operas, the scores for Crouching Tiger, Hidden Dragon, and Hero use Chinese musical instruments and styles in a Western classical music score. The music follows all of the rules of most film scores—the purpose is to tell you how to feel about the action in the film, and to help tell the story. However, perhaps because of Tan's background in classical music, his scores can stand alone as works of art without needing a film to support them."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Film scores are almost always a form of classical music. However, unlike most classical music, they have never been considered high art. Perhaps with Tan Dun, this will begin to change."
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "必修第二册",
+    "pageStart": 97,
+    "pageEnd": 97,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "38d49874e4f015fd89f21c9306f6b9d5",
+    "pdfSize": 14270612,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/senior-required-2.pdf#page=97",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored the complete five-paragraph blog post under its printed title; verified the John Williams, Hans Zimmer and Tan Dun sections and excluded the performance photograph and running furniture."
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "id": "pephs4-006",
+  "groupId": "pephs4",
+  "unitNo": 3,
+  "sequenceNo": 6,
+  "section": "Reading and Thinking",
+  "title": "Reaching Out Across the Sea",
+  "jsonPath": "pep-english/lessons/pephs4/006.json",
+  "text": "Trade and curiosity have often formed the foundation of mankind’s greatest achievements. To complete the great map of the world was a strong passion for the people of early civilisations. Marco Polo’s tales inspired European explorers to search for sea routes from west to east. However, merchants and explorers from the East set sail from east to west many years before Columbus first did.\nIn ancient times, silk from China found its way overland to India, the Middle East, and Rome, along what became known as the Silk Road. A trading route across the sea was also extended along the coasts of the Indian Ocean, centred around Ceylon (now Sri Lanka). Here, merchants from China and many other places met to negotiate trade deals, which also led to more awareness of each other’s cultures. Over the centuries, further trading allowed more exploration of the regions to the west of China, as recorded in Du Huan’s Record of My Travels in the eighth century.\nLater, the Ming Dynasty further developed relations with these regions. Between 1405 and 1433, seven large fleets sailed west on voyages of trade and exploration. These fleets were a sight to behold and were in a league of their own at that time. Under the command of Zheng He, they set sail from the South China Sea across the Indian Ocean to the mouth of the Red Sea, and then to the east coast of Africa. African royal families sent gifts such as giraffes as gestures of friendship in return for gold, silk, and spices. Although China withdrew from further expeditions after 1433, these land and sea routes remained active channels between other cultures for centuries.\nTo reach out across the sea remains a strong desire today. The ancient sea routes travelled by Zheng He are being revisited with the 21st Century Maritime Silk Road, which is part of the Belt and Road Initiative.\nThe aim of this initiative is to encourage cooperation and trade across the historic Silk Road areas, and strengthen the bonds between China and the rest of the world. Trading has grown greatly in recent years, and will continue to do so in years to come. China has invested billions in systems and services along these routes, which will help to greatly develop the whole area for the benefit of future trade and cultural exchange.\nChina has also joined its friends across the sea on other important projects. Although the ancient sea routes of Zheng He have been travelled many times, there are still many other places left to explore. In recent years, China has joined other nations on several expeditions to explore the Arctic. From a scientific point of view, there is an urgent need to study the Arctic in order to understand climate change and its effects.\nHundreds of years on, and with the latest technology in hand, the need to trade and the desire to enhance relationships will drive China to reach out across the sea far into the future.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Trade and curiosity have often formed the foundation of mankind’s greatest achievements. To complete the great map of the world was a strong passion for the people of early civilisations. Marco Polo’s tales inspired European explorers to search for sea routes from west to east. However, merchants and explorers from the East set sail from east to west many years before Columbus first did."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "In ancient times, silk from China found its way overland to India, the Middle East, and Rome, along what became known as the Silk Road. A trading route across the sea was also extended along the coasts of the Indian Ocean, centred around Ceylon (now Sri Lanka). Here, merchants from China and many other places met to negotiate trade deals, which also led to more awareness of each other’s cultures. Over the centuries, further trading allowed more exploration of the regions to the west of China, as recorded in Du Huan’s Record of My Travels in the eighth century."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Later, the Ming Dynasty further developed relations with these regions. Between 1405 and 1433, seven large fleets sailed west on voyages of trade and exploration. These fleets were a sight to behold and were in a league of their own at that time. Under the command of Zheng He, they set sail from the South China Sea across the Indian Ocean to the mouth of the Red Sea, and then to the east coast of Africa. African royal families sent gifts such as giraffes as gestures of friendship in return for gold, silk, and spices. Although China withdrew from further expeditions after 1433, these land and sea routes remained active channels between other cultures for centuries."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "To reach out across the sea remains a strong desire today. The ancient sea routes travelled by Zheng He are being revisited with the 21st Century Maritime Silk Road, which is part of the Belt and Road Initiative."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "The aim of this initiative is to encourage cooperation and trade across the historic Silk Road areas, and strengthen the bonds between China and the rest of the world. Trading has grown greatly in recent years, and will continue to do so in years to come. China has invested billions in systems and services along these routes, which will help to greatly develop the whole area for the benefit of future trade and cultural exchange."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "China has also joined its friends across the sea on other important projects. Although the ancient sea routes of Zheng He have been travelled many times, there are still many other places left to explore. In recent years, China has joined other nations on several expeditions to explore the Arctic. From a scientific point of view, there is an urgent need to study the Arctic in order to understand climate change and its effects."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Hundreds of years on, and with the latest technology in hand, the need to trade and the desire to enhance relationships will drive China to reach out across the sea far into the future."
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "选择性必修第四册",
+    "pageStart": 33,
+    "pageEnd": 34,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "6fc94127b322f6f5abff068bef6faa2e",
+    "pdfSize": 12330614,
+    "manualReview": {
+      "method": "visual-line-by-line-and-cross-page-order",
+      "source": "content/pep-english/raw/senior-selective-4.pdf#page=33-34",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored all seven paragraphs across pages 33-34, joining the modern Maritime Silk Road discussion at the page boundary; excluded the essay-type sidebar, image, questions, table and furniture. Pages 32 and 35 confirm both boundaries."
+    }
+  }
+}

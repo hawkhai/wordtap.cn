@@ -1,0 +1,264 @@
+{
+  "schemaVersion": 1,
+  "id": "nce1-083",
+  "bookId": "nce1",
+  "bookNo": 1,
+  "lessonNo": 83,
+  "lessonRange": [
+    83,
+    84
+  ],
+  "title": "Going on Holiday",
+  "titleZh": "去度假",
+  "question": "Where did Sam go for his holiday this year?",
+  "questionZh": "今年山姆去哪里度假了？",
+  "text": "Where did Sam go for his holiday this year?\n\nHello, Sam.\nCome in.\nHi, Sam.\nWe're having lunch.\nDo you want to have lunch with us?\nNo, thank you, Tom.\nI've already had lunch.\nI had lunch at half past twelve.\nHave a cup of coffee then.\nI've just had a cup, thank you.\nI had one after my lunch.\nLet's go into the living room, Carol.\nWe can have our coffee there.\nExcuse the mess, Sam.\nThis room's very untidy.\nWe're packing our suitcases.\nWe're going to leave tomorrow.\nTom and I are going to have a holiday.\nAren't you lucky!\nWhen are you going to have a holiday, Sam?\nI don't know.\nI've already had my holiday this year.\nWhere did you go?\nI stayed at home!",
+  "bodyText": "Hello, Sam.\nCome in.\nHi, Sam.\nWe're having lunch.\nDo you want to have lunch with us?\nNo, thank you, Tom.\nI've already had lunch.\nI had lunch at half past twelve.\nHave a cup of coffee then.\nI've just had a cup, thank you.\nI had one after my lunch.\nLet's go into the living room, Carol.\nWe can have our coffee there.\nExcuse the mess, Sam.\nThis room's very untidy.\nWe're packing our suitcases.\nWe're going to leave tomorrow.\nTom and I are going to have a holiday.\nAren't you lucky!\nWhen are you going to have a holiday, Sam?\nI don't know.\nI've already had my holiday this year.\nWhere did you go?\nI stayed at home!",
+  "bodyTextZh": "你好，萨姆。\n请进来。\n嗨，萨姆。\n我们正在吃午饭。\n你想和我们一起吃午饭吗？\n不，谢谢你，汤姆。\n我已经吃过午饭了。\n我十二点半吃了午饭。\n那就喝杯咖啡吧。\n我刚刚喝了一杯，谢谢。\n我午饭后喝了一杯\n我们一起去客厅吧，卡罗尔。\n我们可以在那里喝咖啡。\n萨姆，不好意思，屋里有点乱\n这个房间非常乱。\n我们正在打包行李箱。\n我们明天就要出发了。\n我和汤姆打算去度个假。\n你真幸运啊！\n萨姆，你什么时候去度假？\n我不知道。\n我今年已经度过了假期。\n你去哪里度假了？\n我待在家里！",
+  "sentences": [
+    {
+      "index": 0,
+      "startTime": 0.82,
+      "endTime": 3.18,
+      "en": "Lesson 83",
+      "zh": "第83课",
+      "role": "lesson"
+    },
+    {
+      "index": 1,
+      "startTime": 3.18,
+      "endTime": 6.52,
+      "en": "Going on holiday",
+      "zh": "去度假",
+      "role": "title"
+    },
+    {
+      "index": 2,
+      "startTime": 6.52,
+      "endTime": 12.15,
+      "en": "Listen to the tape then answer this question.",
+      "zh": "先听这段录音，然后再回答这个问题。",
+      "role": "prompt"
+    },
+    {
+      "index": 3,
+      "startTime": 12.15,
+      "endTime": 19,
+      "en": "Where did Sam go for his holiday this year?",
+      "zh": "今年山姆去哪里度假了？",
+      "role": "question"
+    },
+    {
+      "index": 4,
+      "startTime": 19,
+      "endTime": 20.59,
+      "en": "Hello, Sam.",
+      "zh": "你好，萨姆。",
+      "role": "body"
+    },
+    {
+      "index": 5,
+      "startTime": 20.59,
+      "endTime": 23.06,
+      "en": "Come in.",
+      "zh": "请进来。",
+      "role": "body"
+    },
+    {
+      "index": 6,
+      "startTime": 23.06,
+      "endTime": 24.71,
+      "en": "Hi, Sam.",
+      "zh": "嗨，萨姆。",
+      "role": "body"
+    },
+    {
+      "index": 7,
+      "startTime": 24.71,
+      "endTime": 26.88,
+      "en": "We're having lunch.",
+      "zh": "我们正在吃午饭。",
+      "role": "body"
+    },
+    {
+      "index": 8,
+      "startTime": 26.88,
+      "endTime": 30.98,
+      "en": "Do you want to have lunch with us?",
+      "zh": "你想和我们一起吃午饭吗？",
+      "role": "body"
+    },
+    {
+      "index": 9,
+      "startTime": 30.98,
+      "endTime": 33.18,
+      "en": "No, thank you, Tom.",
+      "zh": "不，谢谢你，汤姆。",
+      "role": "body"
+    },
+    {
+      "index": 10,
+      "startTime": 33.18,
+      "endTime": 35.97,
+      "en": "I've already had lunch.",
+      "zh": "我已经吃过午饭了。",
+      "role": "body"
+    },
+    {
+      "index": 11,
+      "startTime": 35.97,
+      "endTime": 39.98,
+      "en": "I had lunch at half past twelve.",
+      "zh": "我十二点半吃了午饭。",
+      "role": "body"
+    },
+    {
+      "index": 12,
+      "startTime": 39.98,
+      "endTime": 42.93,
+      "en": "Have a cup of coffee then.",
+      "zh": "那就喝杯咖啡吧。",
+      "role": "body"
+    },
+    {
+      "index": 13,
+      "startTime": 42.93,
+      "endTime": 46.25,
+      "en": "I've just had a cup, thank you.",
+      "zh": "我刚刚喝了一杯，谢谢。",
+      "role": "body"
+    },
+    {
+      "index": 14,
+      "startTime": 46.25,
+      "endTime": 49.96,
+      "en": "I had one after my lunch.",
+      "zh": "我午饭后喝了一杯",
+      "role": "body"
+    },
+    {
+      "index": 15,
+      "startTime": 49.96,
+      "endTime": 53.75,
+      "en": "Let's go into the living room, Carol.",
+      "zh": "我们一起去客厅吧，卡罗尔。",
+      "role": "body"
+    },
+    {
+      "index": 16,
+      "startTime": 53.75,
+      "endTime": 57.12,
+      "en": "We can have our coffee there.",
+      "zh": "我们可以在那里喝咖啡。",
+      "role": "body"
+    },
+    {
+      "index": 17,
+      "startTime": 57.12,
+      "endTime": 60.33,
+      "en": "Excuse the mess, Sam.",
+      "zh": "萨姆，不好意思，屋里有点乱",
+      "role": "body"
+    },
+    {
+      "index": 18,
+      "startTime": 60.33,
+      "endTime": 63.51,
+      "en": "This room's very untidy.",
+      "zh": "这个房间非常乱。",
+      "role": "body"
+    },
+    {
+      "index": 19,
+      "startTime": 63.51,
+      "endTime": 66.42,
+      "en": "We're packing our suitcases.",
+      "zh": "我们正在打包行李箱。",
+      "role": "body"
+    },
+    {
+      "index": 20,
+      "startTime": 66.42,
+      "endTime": 69.85,
+      "en": "We're going to leave tomorrow.",
+      "zh": "我们明天就要出发了。",
+      "role": "body"
+    },
+    {
+      "index": 21,
+      "startTime": 69.85,
+      "endTime": 74.33,
+      "en": "Tom and I are going to have a holiday.",
+      "zh": "我和汤姆打算去度个假。",
+      "role": "body"
+    },
+    {
+      "index": 22,
+      "startTime": 74.33,
+      "endTime": 77.49,
+      "en": "Aren't you lucky!",
+      "zh": "你真幸运啊！",
+      "role": "body"
+    },
+    {
+      "index": 23,
+      "startTime": 77.49,
+      "endTime": 81.58,
+      "en": "When are you going to have a holiday, Sam?",
+      "zh": "萨姆，你什么时候去度假？",
+      "role": "body"
+    },
+    {
+      "index": 24,
+      "startTime": 81.58,
+      "endTime": 83.46,
+      "en": "I don't know.",
+      "zh": "我不知道。",
+      "role": "body"
+    },
+    {
+      "index": 25,
+      "startTime": 83.46,
+      "endTime": 88.1,
+      "en": "I've already had my holiday this year.",
+      "zh": "我今年已经度过了假期。",
+      "role": "body"
+    },
+    {
+      "index": 26,
+      "startTime": 88.1,
+      "endTime": 90.22,
+      "en": "Where did you go?",
+      "zh": "你去哪里度假了？",
+      "role": "body"
+    },
+    {
+      "index": 27,
+      "startTime": 90.22,
+      "endTime": null,
+      "en": "I stayed at home!",
+      "zh": "我待在家里！",
+      "role": "body"
+    }
+  ],
+  "audio": {
+    "fileName": "083&084－Going on Holiday.mp3",
+    "sourcePath": "content/NCE-Flow/NCE1/083&084－Going on Holiday.mp3",
+    "exists": true
+  },
+  "source": {
+    "repository": "NCE-Flow",
+    "lrcFileName": "083&084－Going on Holiday.lrc",
+    "lrcPath": "content/NCE-Flow/NCE1/083&084－Going on Holiday.lrc",
+    "sourceDataFile": "content/NCE-Flow/static/data.json",
+    "generatedAt": "2026-07-23T02:59:02+00:00",
+    "generator": "scripts/generate_nce_json.py",
+    "generatorVersion": "2.0.0",
+    "metadata": {
+      "al": "新概念英语（一）",
+      "ar": "MP3 同步字幕版（美音）",
+      "ti": "Going on Holiday",
+      "by": "更多学习内容，请到VeryCD.com搜索“露珠”"
+    }
+  }
+}

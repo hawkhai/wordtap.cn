@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "id": "pephr2-019",
+  "groupId": "pephr2",
+  "unitNo": 1,
+  "sequenceNo": 19,
+  "section": "Expanding Your World",
+  "title": "World Cultural Heritage Sites",
+  "jsonPath": "pep-english/lessons/pephr2/019.json",
+  "text": "In 1972, UNESCO started a programme to protect the world's cultural and natural heritage. Since then, more than 800 cultural sites that are thought to be of special importance to human history and culture have been added to the World Cultural Heritage Site List. The Taj Mahal in India and the Imperial Tombs of the Ming and Qing Dynasties in China are two of the best known examples.\nThe Taj Mahal, which was built between 1631 and 1648, is a masterpiece of architecture. It took more than 20,000 workers and 1,000 elephants to complete the project, and the stones came from as far away as China.\nBuilding the Taj Mahal was a labour of love. In the early 17th century, India was ruled by an emperor named Shah Jahan who was married to a woman named Mumtaz. The emperor loved his wife so much that when she died, he built the Taj Mahal in her memory. The beautiful mausoleum was designed to look like what the emperor hoped would be Mumtaz's home in the afterlife. The colour of the buildings appears to change with the light of day. Shah Jahan was later buried next to Mumtaz, and the couple now rest together forever.\nIf the Taj Mahal is a celebration of the heart, then the Imperial Tombs of the Ming and Qing Dynasties are a monument to the mind and spirit. Visitors who walk among the buildings can feel both the weight of history and a wonderful sense of peace.\nWhat makes the Ming and Qing Tombs unique even among amazing buildings such as the Taj Mahal, Angkor Wat, and the Cologne Cathedral is that they bring together architecture and philosophy. Built by several emperors between 1368 and 1915 in Beijing, Hubei, Hebei, and Liaoning, the Imperial Tombs represent Chinese cultural and historical values that have been handed down from generation to generation for thousands of years.\nHuman life lasts only a short time but art and culture last forever. The UNESCO World Cultural Heritage Sites programme attempts to protect and preserve the best of human history. Masterpieces such as the Taj Mahal and the Imperial Tombs of the Ming and Qing Dynasties remind us of what we can achieve at our finest, and inspire us to live up to our great past in the future.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "In 1972, UNESCO started a programme to protect the world's cultural and natural heritage. Since then, more than 800 cultural sites that are thought to be of special importance to human history and culture have been added to the World Cultural Heritage Site List. The Taj Mahal in India and the Imperial Tombs of the Ming and Qing Dynasties in China are two of the best known examples."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "The Taj Mahal, which was built between 1631 and 1648, is a masterpiece of architecture. It took more than 20,000 workers and 1,000 elephants to complete the project, and the stones came from as far away as China."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Building the Taj Mahal was a labour of love. In the early 17th century, India was ruled by an emperor named Shah Jahan who was married to a woman named Mumtaz. The emperor loved his wife so much that when she died, he built the Taj Mahal in her memory. The beautiful mausoleum was designed to look like what the emperor hoped would be Mumtaz's home in the afterlife. The colour of the buildings appears to change with the light of day. Shah Jahan was later buried next to Mumtaz, and the couple now rest together forever."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "If the Taj Mahal is a celebration of the heart, then the Imperial Tombs of the Ming and Qing Dynasties are a monument to the mind and spirit. Visitors who walk among the buildings can feel both the weight of history and a wonderful sense of peace."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "What makes the Ming and Qing Tombs unique even among amazing buildings such as the Taj Mahal, Angkor Wat, and the Cologne Cathedral is that they bring together architecture and philosophy. Built by several emperors between 1368 and 1915 in Beijing, Hubei, Hebei, and Liaoning, the Imperial Tombs represent Chinese cultural and historical values that have been handed down from generation to generation for thousands of years."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Human life lasts only a short time but art and culture last forever. The UNESCO World Cultural Heritage Sites programme attempts to protect and preserve the best of human history. Masterpieces such as the Taj Mahal and the Imperial Tombs of the Ming and Qing Dynasties remind us of what we can achieve at our finest, and inspire us to live up to our great past in the future."
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "必修第二册",
+    "pageStart": 73,
+    "pageEnd": 73,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "38d49874e4f015fd89f21c9306f6b9d5",
+    "pdfSize": 14270612,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/senior-required-2.pdf#page=73",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored the complete six-paragraph UNESCO heritage feature; removed the Chinese glosses for the Taj Mahal, Angkor Wat and Cologne Cathedral, plus all photographs and running furniture."
+    }
+  }
+}

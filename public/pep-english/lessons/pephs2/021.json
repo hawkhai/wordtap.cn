@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 1,
+  "id": "pephs2-021",
+  "groupId": "pephs2",
+  "unitNo": 4,
+  "sequenceNo": 21,
+  "section": "Reading and Writing",
+  "title": "Xu Xiake’s Guilin",
+  "jsonPath": "pep-english/lessons/pephs2/021.json",
+  "text": "It is 10 in the morning, and I am travelling by raft down the Li River. The sun is already burning hot even though it has not yet reached full strength, but a calm breeze cools my skin. So far the day is wonderful, but the purpose of my trip is not just to have fun: I am following in the footsteps of Xu Xiake (1587–1641), the famous Chinese travel writer and geographer. Though Xu was from Jiangsu, he spent more than 30 years travelling throughout the country, and greatly admired my destination today—Ox Gorge.\nAs we flow down the river, we are surrounded by steep hills sticking up into the sky—karsts. Unique among mountains, karsts were formed over thousands of years as rain drained into the acidic soil and melted the soft rock, leaving the harder rock behind. Guangxi is full of karsts, giving it some of the most interesting—and beautiful—scenery in the world. Xu was one of the first people to make a careful study of Guilin’s karsts and their related cave systems. He, like many people today, found them fascinating.\nSuddenly, our raft hits some rapids, and I find myself covered in water. I turn to my raftsman and we share a laugh. The water not only keeps us cool, but it is all part of the adventure.\nWhat made someone like Xu spend years travelling thousands of kilometres away from home? Perhaps it’s the same reason as mine: to explore the world and to discover new things. As Xu wrote, “A great man should in the morning be at the blue sea, and in the evening at Mount Cangwu. Why should I restrict myself to one corner of the world?”\nXu was not alone. Much like today, the late Ming Dynasty was a golden age of tourism within China. People travelled hundreds of kilometres to visit temples, go mountain climbing, or explore scenery.\nYet, perhaps no one in China travelled farther or longer than Xu Xiake. At least, if anyone did they did not write about it.\nWhen our raft reaches Ox Gorge, it proves to be every bit as beautiful as I expected—a watery heaven on earth. The raft is tied up, and then I head out to explore. That afternoon, I find a cave on the river. I wade into it and the water grows shallower, until finally I am walking on dry land. Up ahead I see a light and hear laughter echoing off the cave walls. There is a large pool of mud, and a group of young people are jumping into it and swimming around. I run and join them. Soon, like my new friends, I am covered in gray mud from head to toe. After an hour of play, I head back out of the cave and take a swim in the river to get clean. And I wonder, when Xu Xiake came here nearly five hundred years ago, did he examine the mud like a scientist? Or did he jump in?\nOf course he jumped in. You know he did.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "It is 10 in the morning, and I am travelling by raft down the Li River. The sun is already burning hot even though it has not yet reached full strength, but a calm breeze cools my skin. So far the day is wonderful, but the purpose of my trip is not just to have fun: I am following in the footsteps of Xu Xiake (1587–1641), the famous Chinese travel writer and geographer. Though Xu was from Jiangsu, he spent more than 30 years travelling throughout the country, and greatly admired my destination today—Ox Gorge."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "As we flow down the river, we are surrounded by steep hills sticking up into the sky—karsts. Unique among mountains, karsts were formed over thousands of years as rain drained into the acidic soil and melted the soft rock, leaving the harder rock behind. Guangxi is full of karsts, giving it some of the most interesting—and beautiful—scenery in the world. Xu was one of the first people to make a careful study of Guilin’s karsts and their related cave systems. He, like many people today, found them fascinating."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Suddenly, our raft hits some rapids, and I find myself covered in water. I turn to my raftsman and we share a laugh. The water not only keeps us cool, but it is all part of the adventure."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "What made someone like Xu spend years travelling thousands of kilometres away from home? Perhaps it’s the same reason as mine: to explore the world and to discover new things. As Xu wrote, “A great man should in the morning be at the blue sea, and in the evening at Mount Cangwu. Why should I restrict myself to one corner of the world?”"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Xu was not alone. Much like today, the late Ming Dynasty was a golden age of tourism within China. People travelled hundreds of kilometres to visit temples, go mountain climbing, or explore scenery."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Yet, perhaps no one in China travelled farther or longer than Xu Xiake. At least, if anyone did they did not write about it."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "When our raft reaches Ox Gorge, it proves to be every bit as beautiful as I expected—a watery heaven on earth. The raft is tied up, and then I head out to explore. That afternoon, I find a cave on the river. I wade into it and the water grows shallower, until finally I am walking on dry land. Up ahead I see a light and hear laughter echoing off the cave walls. There is a large pool of mud, and a group of young people are jumping into it and swimming around. I run and join them. Soon, like my new friends, I am covered in gray mud from head to toe. After an hour of play, I head back out of the cave and take a swim in the river to get clean. And I wonder, when Xu Xiake came here nearly five hundred years ago, did he examine the mud like a scientist? Or did he jump in?"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Of course he jumped in. You know he did."
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "选择性必修第二册",
+    "pageStart": 92,
+    "pageEnd": 93,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "1a701f2205298de95ea59cfc71eb83cd",
+    "pdfSize": 9968316,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/senior-selective-2.pdf#page=92-93",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored the complete eight-paragraph first-person Guilin journey, following the narrative onto page 93; excluded lead-in, photographs, comprehension tasks and the deliberately ellipsised student-writing scaffold."
+    }
+  }
+}

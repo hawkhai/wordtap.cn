@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "pephs1-025",
+  "groupId": "pephs1",
+  "unitNo": 4,
+  "sequenceNo": 25,
+  "section": "Reading and Writing",
+  "title": "Animal Body Language",
+  "jsonPath": "pep-english/lessons/pephs1/025.json",
+  "text": "Human beings are not the only ones who communicate. Animals use body language to tell each other how they feel and what they think. Here is a quick look at how some of our animal friends send messages to us and to each other.\nDogs use sounds, body movements, and their tails to communicate. When a dog is happy, its ears will stand up and its eyes will be wide open. The dog will start barking, moving its tail, and running around in circles or jumping up and down to show you that it wants to play. A dog that is afraid will lie on its back and close its eyes. The dog may show its teeth and lower its body so that it is close to the ground. The dog may also shake, and it will put its tail between its legs. When a dog is angry, its main body language is showing its teeth and growling. The dog will try making itself look as big as possible. The tail will stand straight out from the body.\nElephants also use noises and body language to express themselves. An elephant’s sense of smell is highly developed. An elephant can smell how another elephant is feeling and even tell if it is sick. The elephant’s nose, or trunk, is also used to make noises and to welcome other elephants. Different noises have a variety of meanings: they can mean “I am hungry”, “I am angry”, or “Good to see you!” An elephant’s body language includes ear signals and gestures. If an elephant spreads its ears, it means “Watch out!” To show friendship, elephants will touch each other with their trunks and stand close to each other, putting their heads together.\nDolphins are social animals. They live in groups and love showing each other their feelings. An angry dolphin will sometimes hit its tail on the surface of the water. The movement and noise let other dolphins know that something is wrong. If a dolphin wants to send a message over a long distance, or if it wants to show how strong it is, it will jump high out of the water and land on its side, making a loud noise. A dolphin’s favourite activity is leaping into the air while playing with its friends. When dolphins are tired and need to rest, they will swim in small groups close to the surface. If you see dolphins doing this, you should not disturb them.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Human beings are not the only ones who communicate. Animals use body language to tell each other how they feel and what they think. Here is a quick look at how some of our animal friends send messages to us and to each other."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Dogs use sounds, body movements, and their tails to communicate. When a dog is happy, its ears will stand up and its eyes will be wide open. The dog will start barking, moving its tail, and running around in circles or jumping up and down to show you that it wants to play. A dog that is afraid will lie on its back and close its eyes. The dog may show its teeth and lower its body so that it is close to the ground. The dog may also shake, and it will put its tail between its legs. When a dog is angry, its main body language is showing its teeth and growling. The dog will try making itself look as big as possible. The tail will stand straight out from the body."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Elephants also use noises and body language to express themselves. An elephant’s sense of smell is highly developed. An elephant can smell how another elephant is feeling and even tell if it is sick. The elephant’s nose, or trunk, is also used to make noises and to welcome other elephants. Different noises have a variety of meanings: they can mean “I am hungry”, “I am angry”, or “Good to see you!” An elephant’s body language includes ear signals and gestures. If an elephant spreads its ears, it means “Watch out!” To show friendship, elephants will touch each other with their trunks and stand close to each other, putting their heads together."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Dolphins are social animals. They live in groups and love showing each other their feelings. An angry dolphin will sometimes hit its tail on the surface of the water. The movement and noise let other dolphins know that something is wrong. If a dolphin wants to send a message over a long distance, or if it wants to show how strong it is, it will jump high out of the water and land on its side, making a loud noise. A dolphin’s favourite activity is leaping into the air while playing with its friends. When dolphins are tired and need to rest, they will swim in small groups close to the surface. If you see dolphins doing this, you should not disturb them."
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "选择性必修第一册",
+    "pageStart": 92,
+    "pageEnd": 92,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "f19c4231e96ee3a9c769533d676f1106",
+    "pdfSize": 12809514,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/senior-selective-1.pdf#page=92",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored the complete four-paragraph animal-body-language article in visual order—introduction, dogs, elephants and dolphins; excluded the reading instruction and animal photographs, and confirmed page 93 contains exercises only."
+    }
+  }
+}

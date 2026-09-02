@@ -1,0 +1,216 @@
+{
+  "schemaVersion": 1,
+  "id": "nce1-015",
+  "bookId": "nce1",
+  "bookNo": 1,
+  "lessonNo": 15,
+  "lessonRange": [
+    15,
+    16
+  ],
+  "title": "Your Passports, Please.",
+  "titleZh": "请出示你们的护照。",
+  "question": "Is there a problem with the Customs officer?",
+  "questionZh": "海关官员有什么问题吗？",
+  "text": "Is there a problem with the Customs officer?\n\nAre you Swedish?\nNo we are not.\nWe are Danish.\nAre your friends Danish too?\nNo they aren't.\nThey are Norwegian.\nYour passports please.\nHere they are.\nAre these your cases?\nNo they aren't.\nOur cases are brown.\nHere they are.\nAre you tourists?\nYes we are.\nAre your friends tourists too?\nYes they are.\nThat's fine.\nThank you very much.",
+  "bodyText": "Are you Swedish?\nNo we are not.\nWe are Danish.\nAre your friends Danish too?\nNo  they aren't.\nThey are Norwegian.\nYour passports please.\nHere they are.\nAre these your cases?\nNo they aren't.\nOur cases are brown.\nHere they are.\nAre you tourists?\nYes we are.\nAre your friends tourists too?\nYes they are.\nThat's fine.\nThank you very much.",
+  "bodyTextZh": "你是瑞典人吗？\n不，我们不是。\n我们是丹麦人。\n你的朋友们也是丹麦人吗？\n不，他们不是。\n他们是挪威人。\n请出示你们的护照。\n给您。\n这些是你的箱子吗？\n不，它们不是。\n我们的箱子是棕色的。\n给您。\n你们是游客吗？\n是的，我们是。\n你们的朋友也是游客吗？\n是的，他们也是游客。\n好了。 没问题了。\n非常感谢你们。",
+  "sentences": [
+    {
+      "index": 0,
+      "startTime": 0.5,
+      "endTime": 2.89,
+      "en": "Lesson 15",
+      "zh": "第15课",
+      "role": "lesson"
+    },
+    {
+      "index": 1,
+      "startTime": 2.89,
+      "endTime": 6.37,
+      "en": "Your passports please.",
+      "zh": "请出示你们的护照。",
+      "role": "title"
+    },
+    {
+      "index": 2,
+      "startTime": 6.37,
+      "endTime": 12.3,
+      "en": "Listen to the tape then answer this question.",
+      "zh": "先听这段录音，然后再回答这个问题。",
+      "role": "prompt"
+    },
+    {
+      "index": 3,
+      "startTime": 12.3,
+      "endTime": 18.83,
+      "en": "Is there a problem with the Customs officer?",
+      "zh": "海关官员有什么问题吗？",
+      "role": "question"
+    },
+    {
+      "index": 4,
+      "startTime": 18.83,
+      "endTime": 21.4,
+      "en": "Are you Swedish?",
+      "zh": "你是瑞典人吗？",
+      "role": "body"
+    },
+    {
+      "index": 5,
+      "startTime": 21.4,
+      "endTime": 23.94,
+      "en": "No we are not.",
+      "zh": "不，我们不是。",
+      "role": "body"
+    },
+    {
+      "index": 6,
+      "startTime": 23.94,
+      "endTime": 26.63,
+      "en": "We are Danish.",
+      "zh": "我们是丹麦人。",
+      "role": "body"
+    },
+    {
+      "index": 7,
+      "startTime": 26.63,
+      "endTime": 30.21,
+      "en": "Are your friends Danish too?",
+      "zh": "你的朋友们也是丹麦人吗？",
+      "role": "body"
+    },
+    {
+      "index": 8,
+      "startTime": 30.21,
+      "endTime": 33.75,
+      "en": "No  they aren't.",
+      "zh": "不，他们不是。",
+      "role": "body"
+    },
+    {
+      "index": 9,
+      "startTime": 33.75,
+      "endTime": 37.46,
+      "en": "They are Norwegian.",
+      "zh": "他们是挪威人。",
+      "role": "body"
+    },
+    {
+      "index": 10,
+      "startTime": 37.46,
+      "endTime": 40.57,
+      "en": "Your passports please.",
+      "zh": "请出示你们的护照。",
+      "role": "body"
+    },
+    {
+      "index": 11,
+      "startTime": 40.57,
+      "endTime": 43.15,
+      "en": "Here they are.",
+      "zh": "给您。",
+      "role": "body"
+    },
+    {
+      "index": 12,
+      "startTime": 43.15,
+      "endTime": 46.07,
+      "en": "Are these your cases?",
+      "zh": "这些是你的箱子吗？",
+      "role": "body"
+    },
+    {
+      "index": 13,
+      "startTime": 46.07,
+      "endTime": 48.94,
+      "en": "No they aren't.",
+      "zh": "不，它们不是。",
+      "role": "body"
+    },
+    {
+      "index": 14,
+      "startTime": 48.94,
+      "endTime": 53.07,
+      "en": "Our cases are brown.",
+      "zh": "我们的箱子是棕色的。",
+      "role": "body"
+    },
+    {
+      "index": 15,
+      "startTime": 53.07,
+      "endTime": 56.09,
+      "en": "Here they are.",
+      "zh": "给您。",
+      "role": "body"
+    },
+    {
+      "index": 16,
+      "startTime": 56.09,
+      "endTime": 58.86,
+      "en": "Are you tourists?",
+      "zh": "你们是游客吗？",
+      "role": "body"
+    },
+    {
+      "index": 17,
+      "startTime": 58.86,
+      "endTime": 61.87,
+      "en": "Yes we are.",
+      "zh": "是的，我们是。",
+      "role": "body"
+    },
+    {
+      "index": 18,
+      "startTime": 61.87,
+      "endTime": 65.41,
+      "en": "Are your friends tourists too?",
+      "zh": "你们的朋友也是游客吗？",
+      "role": "body"
+    },
+    {
+      "index": 19,
+      "startTime": 65.41,
+      "endTime": 68.66,
+      "en": "Yes they are.",
+      "zh": "是的，他们也是游客。",
+      "role": "body"
+    },
+    {
+      "index": 20,
+      "startTime": 68.66,
+      "endTime": 70.78,
+      "en": "That's fine.",
+      "zh": "好了。 没问题了。",
+      "role": "body"
+    },
+    {
+      "index": 21,
+      "startTime": 70.78,
+      "endTime": null,
+      "en": "Thank you very much.",
+      "zh": "非常感谢你们。",
+      "role": "body"
+    }
+  ],
+  "audio": {
+    "fileName": "015&016－Your Passports, Please..mp3",
+    "sourcePath": "content/NCE-Flow/NCE1/015&016－Your Passports, Please..mp3",
+    "exists": true
+  },
+  "source": {
+    "repository": "NCE-Flow",
+    "lrcFileName": "015&016－Your Passports, Please..lrc",
+    "lrcPath": "content/NCE-Flow/NCE1/015&016－Your Passports, Please..lrc",
+    "sourceDataFile": "content/NCE-Flow/static/data.json",
+    "generatedAt": "2026-07-23T02:59:02+00:00",
+    "generator": "scripts/generate_nce_json.py",
+    "generatorVersion": "2.0.0",
+    "metadata": {
+      "al": "新概念英语（一）",
+      "ar": "MP3 同步字幕版（美音）",
+      "ti": "Your Passports, Please.",
+      "by": "更多学习内容，请到VeryCD.com搜索“露珠”"
+    }
+  }
+}

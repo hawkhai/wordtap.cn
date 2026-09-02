@@ -1,0 +1,10 @@
+* text=auto eol=lf
+*.tsv whitespace=-blank-at-eol
+
+*.gif binary
+*.ico binary
+*.jpg binary
+*.mp3 binary
+*.png binary
+*.ttf binary
+*.webp binary

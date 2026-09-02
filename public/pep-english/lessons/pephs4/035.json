@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "pephs4-035",
+  "groupId": "pephs4",
+  "unitNo": 3,
+  "sequenceNo": 35,
+  "section": "Listening and Speaking",
+  "title": "Two-Metre Shark Attack While Snorkelling",
+  "jsonPath": "pep-english/lessons/pephs4/035.json",
+  "text": "A 31-year-old man was attacked by a 2-metre shark while snorkelling this morning. He was bitten on the left side of his body and has been taken by air to hospital.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "A 31-year-old man was attacked by a 2-metre shark while snorkelling this morning. He was bitten on the left side of his body and has been taken by air to hospital."
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "选择性必修第四册",
+    "pageStart": 84,
+    "pageEnd": 84,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "6fc94127b322f6f5abff068bef6faa2e",
+    "pdfSize": 12330614,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/senior-selective-4.pdf#page=84",
+      "reviewedAt": "2026-07-22",
+      "notes": "Retained the third complete report. Its exercise headline field is blank, so the metadata title is a neutral description drawn from the printed report rather than a supplied answer.",
+      "splitBaselineId": "pephs4-042",
+      "splitIndex": 3,
+      "splitCount": 3
+    }
+  }
+}

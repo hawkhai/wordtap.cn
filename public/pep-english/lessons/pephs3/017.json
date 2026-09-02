@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "pephs3-017",
+  "groupId": "pephs3",
+  "unitNo": 5,
+  "sequenceNo": 17,
+  "section": "Using Language",
+  "title": "Appreciating the Poem Dream",
+  "jsonPath": "pep-english/lessons/pephs3/017.json",
+  "text": "The poem Dream by Langston Hughes is very short with only 8 lines. When I read the poem aloud I can hear that the ends of the second and fourth sentences rhyme—“die” and “fly”. The last word from the sixth and eighth sentences also rhyme—“go” and “snow”. These rhyming words sound nice and make the poem pleasing to read.\nWhen I close my eyes, I can see different images from the poem. For example, I can see two hands being held. I can see a bird flying in the sky. I can see a field and I can imagine what it looks like with lots of snow. I start to feel cold when I read these lines!\nI learnt a new phrase, “hold fast”, which means to hold onto something. “Barren” is also a new word to me, which means empty.\nI think the poet is giving us advice. He wants us to keep dreaming, because life is much better when we dream and have something to look forward to.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "The poem Dream by Langston Hughes is very short with only 8 lines. When I read the poem aloud I can hear that the ends of the second and fourth sentences rhyme—“die” and “fly”. The last word from the sixth and eighth sentences also rhyme—“go” and “snow”. These rhyming words sound nice and make the poem pleasing to read."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "When I close my eyes, I can see different images from the poem. For example, I can see two hands being held. I can see a bird flying in the sky. I can see a field and I can imagine what it looks like with lots of snow. I start to feel cold when I read these lines!"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "I learnt a new phrase, “hold fast”, which means to hold onto something. “Barren” is also a new word to me, which means empty."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "I think the poet is giving us advice. He wants us to keep dreaming, because life is much better when we dream and have something to look forward to."
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "选择性必修第三册",
+    "pageStart": 64,
+    "pageEnd": 64,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "f0dc33129a755a33421d401b71a05cd1",
+    "pdfSize": 12684455,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/senior-selective-3.pdf#page=64",
+      "reviewedAt": "2026-07-22",
+      "notes": "Retained the complete four-paragraph model essay about Dream and supplied a descriptive metadata title; excluded the planning table, information box, prompts and page furniture."
+    }
+  }
+}

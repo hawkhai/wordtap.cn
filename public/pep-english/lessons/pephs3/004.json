@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "id": "pephs3-004",
+  "groupId": "pephs3",
+  "unitNo": 2,
+  "sequenceNo": 4,
+  "section": "Using Language",
+  "title": "Changing My Lifestyle: Wang Lu’s Letter",
+  "jsonPath": "pep-english/lessons/pephs3/004.json",
+  "text": "Dear Editor,\nAfter I attended your summer camp about health and lifestyle choices, I realised I hardly ever felt well, either physically or mentally. I often felt sleepy and dizzy, and lacked passion. Most worrying, though, I got the flu easily and experienced many toothaches, too.\nAt the end of the camp I heard, “Change the world by changing yourself.” This stimulated my motivation. A dentist once examined me and told me that too much sugar in my meals had damaged my teeth and health. I made up my mind to change two things in my life: to eat nothing with sugar and to exercise regularly.\nAfter that I stopped buying all the sweets, biscuits, and sugary drinks that I used to have every day. Whenever I went out with friends, I brought snacks from home, things that didn’t have any added sugar: fruit, nuts, dried meat, etc.\nMy exercise was very simple: I went outside every day for at least 30 minutes and did something active. Sometimes I played table tennis or badminton with my cousins. Other times I jumped on my skateboard and rode around my neighbourhood, or just took a long walk.\nThe results have been fantastic. I feel more dynamic and stronger than ever, in both body and mind. I sleep soundly at night now. I no longer suffer from a flu virus or toothaches either. Best of all, in my opinion, is how I feel about myself. I feel like I’m in control of my own life. To make choices about myself is within my own power. I CAN change myself. I just need to try.\nYours truly,\nWang Lu",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Dear Editor,"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "After I attended your summer camp about health and lifestyle choices, I realised I hardly ever felt well, either physically or mentally. I often felt sleepy and dizzy, and lacked passion. Most worrying, though, I got the flu easily and experienced many toothaches, too."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "At the end of the camp I heard, “Change the world by changing yourself.” This stimulated my motivation. A dentist once examined me and told me that too much sugar in my meals had damaged my teeth and health. I made up my mind to change two things in my life: to eat nothing with sugar and to exercise regularly."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "After that I stopped buying all the sweets, biscuits, and sugary drinks that I used to have every day. Whenever I went out with friends, I brought snacks from home, things that didn’t have any added sugar: fruit, nuts, dried meat, etc."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "My exercise was very simple: I went outside every day for at least 30 minutes and did something active. Sometimes I played table tennis or badminton with my cousins. Other times I jumped on my skateboard and rode around my neighbourhood, or just took a long walk."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "The results have been fantastic. I feel more dynamic and stronger than ever, in both body and mind. I sleep soundly at night now. I no longer suffer from a flu virus or toothaches either. Best of all, in my opinion, is how I feel about myself. I feel like I’m in control of my own life. To make choices about myself is within my own power. I CAN change myself. I just need to try."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Yours truly,"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Wang Lu"
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "选择性必修第三册",
+    "pageStart": 27,
+    "pageEnd": 27,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "f0dc33129a755a33421d401b71a05cd1",
+    "pdfSize": 12684455,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/senior-selective-3.pdf#page=27",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored the complete left-column letter in visual order, including salutation, five body paragraphs, closing, and signature.",
+      "splitBaselineId": "pephs3-008",
+      "splitIndex": 1,
+      "splitCount": 2
+    }
+  }
+}

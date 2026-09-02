@@ -1,0 +1,127 @@
+{
+  "schemaVersion": 1,
+  "id": "nce2-042",
+  "bookId": "nce2",
+  "bookNo": 2,
+  "lessonNo": 42,
+  "lessonRange": [
+    42
+  ],
+  "title": "Not Very Musical",
+  "titleZh": "不很喜欢音乐",
+  "question": "What happened when the snake charmer began to play jazz?",
+  "questionZh": "当那个耍蛇的人开始演奏爵士乐时，发生了什么？",
+  "text": "What happened when the snake charmer began to play jazz?\n\nAs we had had a long walk through one of the markets of old Delhi, we stopped at a square to have a rest.\nAfter a time, we noticed a snake charmer with two large baskets at the other side of the square, so we went to have a look at him.\nAs soon as he saw us, he picked up a long pipe which was covered with coins and opened one of the baskets.\nWhen he began to play a tune, we had our first glimpse of the snake.\nIt rose out of the basket and began to follow the movements of the pipe.\nWe were very much surprised when the snake charmer suddenly began to play jazz and modern pop songs.\nThe snake, however, continued to 'dance' slowly.\nIt obviously could not tell the difference between Indian music and jazz!",
+  "bodyText": "As we had had a long walk through one of the markets of old Delhi, we stopped at a square to have a rest.\nAfter a time, we noticed a snake charmer with two large baskets at the other side of the square, so we went to have a look at him.\nAs soon as he saw us, he picked up a long pipe which was covered with coins and opened one of the baskets.\nWhen he began to play a tune, we had our first glimpse of the snake.\nIt rose out of the basket and began to follow the movements of the pipe.\nWe were very much surprised when the snake charmer suddenly began to play jazz and modern pop songs.\nThe snake, however, continued to 'dance' slowly.\nIt obviously could not tell the difference between Indian music and jazz!",
+  "bodyTextZh": "我们沿着旧德里的一个市场走了很长一段路后，我们在一个广场上停下来休息。\n过了一段时间，我们注意到有一个耍蛇的人……在广场的另一边，带着两个大篮子。于是我们便走过去看看他。\n他一看到我们，他拿起一根缀满硬币的长笛，然后打开了其中一个篮子。\n当他开始演奏一首曲子时，我们第一次看到了那条蛇。\n它从篮子里探出身来，开始随着笛子的摆动而舞动。\n当那个耍蛇的人突然开始演奏爵士乐和现代流行歌曲时，我们非常惊讶。他突然开始演奏爵士乐和现代流行歌曲。\n然而，那条蛇仍然继续缓慢地“跳舞”。\n显然，它根本分不清印度音乐和爵士乐的区别！",
+  "sentences": [
+    {
+      "index": 0,
+      "startTime": 0.5,
+      "endTime": 3,
+      "en": "Lesson 42",
+      "zh": "第42课",
+      "role": "lesson"
+    },
+    {
+      "index": 1,
+      "startTime": 3,
+      "endTime": 10.09,
+      "en": "Not Very Musical",
+      "zh": "不很喜欢音乐",
+      "role": "title"
+    },
+    {
+      "index": 2,
+      "startTime": 10.09,
+      "endTime": 16.24,
+      "en": "What happened when the snake charmer began to play jazz?",
+      "zh": "当那个耍蛇的人开始演奏爵士乐时，发生了什么？",
+      "role": "question"
+    },
+    {
+      "index": 3,
+      "startTime": 16.24,
+      "endTime": 26.05,
+      "en": "As we had had a long walk through one of the markets of old Delhi, we stopped at a square to have a rest.",
+      "zh": "我们沿着旧德里的一个市场走了很长一段路后，我们在一个广场上停下来休息。",
+      "role": "body"
+    },
+    {
+      "index": 4,
+      "startTime": 26.05,
+      "endTime": 37.59,
+      "en": "After a time, we noticed a snake charmer with two large baskets at the other side of the square, so we went to have a look at him.",
+      "zh": "过了一段时间，我们注意到有一个耍蛇的人……在广场的另一边，带着两个大篮子。于是我们便走过去看看他。",
+      "role": "body"
+    },
+    {
+      "index": 5,
+      "startTime": 37.59,
+      "endTime": 47.11,
+      "en": "As soon as he saw us, he picked up a long pipe which was covered with coins and opened one of the baskets.",
+      "zh": "他一看到我们，他拿起一根缀满硬币的长笛，然后打开了其中一个篮子。",
+      "role": "body"
+    },
+    {
+      "index": 6,
+      "startTime": 47.11,
+      "endTime": 53.85,
+      "en": "When he began to play a tune, we had our first glimpse of the snake.",
+      "zh": "当他开始演奏一首曲子时，我们第一次看到了那条蛇。",
+      "role": "body"
+    },
+    {
+      "index": 7,
+      "startTime": 53.85,
+      "endTime": 60.19,
+      "en": "It rose out of the basket and began to follow the movements of the pipe.",
+      "zh": "它从篮子里探出身来，开始随着笛子的摆动而舞动。",
+      "role": "body"
+    },
+    {
+      "index": 8,
+      "startTime": 60.19,
+      "endTime": 69.41,
+      "en": "We were very much surprised when the snake charmer suddenly began to play jazz and modern pop songs.",
+      "zh": "当那个耍蛇的人突然开始演奏爵士乐和现代流行歌曲时，我们非常惊讶。他突然开始演奏爵士乐和现代流行歌曲。",
+      "role": "body"
+    },
+    {
+      "index": 9,
+      "startTime": 69.41,
+      "endTime": 74.53,
+      "en": "The snake, however, continued to 'dance' slowly.",
+      "zh": "然而，那条蛇仍然继续缓慢地“跳舞”。",
+      "role": "body"
+    },
+    {
+      "index": 10,
+      "startTime": 74.53,
+      "endTime": null,
+      "en": "It obviously could not tell the difference between Indian music and jazz!",
+      "zh": "显然，它根本分不清印度音乐和爵士乐的区别！",
+      "role": "body"
+    }
+  ],
+  "audio": {
+    "fileName": "42－Not Very Musical.mp3",
+    "sourcePath": "content/NCE-Flow/NCE2/42－Not Very Musical.mp3",
+    "exists": true
+  },
+  "source": {
+    "repository": "NCE-Flow",
+    "lrcFileName": "42－Not Very Musical.lrc",
+    "lrcPath": "content/NCE-Flow/NCE2/42－Not Very Musical.lrc",
+    "sourceDataFile": "content/NCE-Flow/static/data.json",
+    "generatedAt": "2026-07-23T02:59:02+00:00",
+    "generator": "scripts/generate_nce_json.py",
+    "generatorVersion": "2.0.0",
+    "metadata": {
+      "al": "新概念英语（二）",
+      "ar": "MP3 同步字幕版（美音）",
+      "ti": "Not Very Musical",
+      "by": "更多学习内容，请到VeryCD.com搜索“露珠”"
+    }
+  }
+}

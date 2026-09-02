@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "pephs4-020",
+  "groupId": "pephs4",
+  "unitNo": 5,
+  "sequenceNo": 20,
+  "section": "Assessing Your Progress",
+  "title": "Make High School Count!",
+  "jsonPath": "pep-english/lessons/pephs4/020.json",
+  "text": "High school may be the most important experience in your life. You are becoming a young adult. You are old enough to take on more responsibilities and make very important choices. Some of these choices could greatly affect your life. Try your best to study hard. It doesn’t matter whether you will go to a university or college. It doesn’t matter whether you will go to a vocational school or start work. You have to work hard. It doesn’t matter what dreams you have for your future. Dreams will not make themselves come true. You need to try your best and prepare. A wise choice is to prepare yourself with a good education. You need to make sure your time and energy are not wasted. Remember, the knowledge you acquire and the diligent attitude you develop in high school will be invaluable in the real world. Time flies like an arrow! Working hard right now will prepare you well for your life in the future.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "High school may be the most important experience in your life. You are becoming a young adult. You are old enough to take on more responsibilities and make very important choices. Some of these choices could greatly affect your life. Try your best to study hard. It doesn’t matter whether you will go to a university or college. It doesn’t matter whether you will go to a vocational school or start work. You have to work hard. It doesn’t matter what dreams you have for your future. Dreams will not make themselves come true. You need to try your best and prepare. A wise choice is to prepare yourself with a good education. You need to make sure your time and energy are not wasted. Remember, the knowledge you acquire and the diligent attitude you develop in high school will be invaluable in the real world. Time flies like an arrow! Working hard right now will prepare you well for your life in the future."
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "选择性必修第四册",
+    "pageStart": 65,
+    "pageEnd": 65,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "6fc94127b322f6f5abff068bef6faa2e",
+    "pdfSize": 12330614,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/senior-selective-4.pdf#page=65",
+      "reviewedAt": "2026-07-22",
+      "notes": "Retained the complete printed draft guide as a coherent model passage even though the surrounding task asks students to improve it; excluded all clozes and reflection prompts."
+    }
+  }
+}

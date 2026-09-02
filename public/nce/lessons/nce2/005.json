@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 1,
+  "id": "nce2-005",
+  "bookId": "nce2",
+  "bookNo": 2,
+  "lessonNo": 5,
+  "lessonRange": [
+    5
+  ],
+  "title": "No Wrong Numbers",
+  "titleZh": "无错号之虞",
+  "question": "What does 'No wrong numbers' mean?",
+  "questionZh": "“没有错误的数字”是什么意思？",
+  "text": "What does 'No wrong numbers' mean?\n\nMr.James Scott has a garage in Silbury and now he has just bought another garage in Pinhurst.\nPinhurst is only five miles from Silbury, but Mr. Scott cannot get a telephone for his new garage, so he has just bought twelve pigeons.\nYesterday, a pigeon carried the first message from Pinhurst to Silbury.\nThe bird covered the distance in three minutes.\nUp to now,\nMr.Scott has sent a great many requests for spare parts and other urgent messages from one garage to the other.\nIn this way, he has begun his own private 'telephone' service.",
+  "bodyText": "Mr.James Scott has a garage in Silbury and now he has just bought another garage in Pinhurst.\nPinhurst is only five miles from Silbury, but Mr. Scott cannot get a telephone for his new garage, so he has just bought twelve pigeons.\nYesterday, a pigeon carried the first message from Pinhurst to Silbury.\nThe bird covered the distance in three minutes.\nUp to now,\nMr.Scott has sent a great many requests for spare parts and other urgent messages from one garage to the other.\nIn this way, he has begun his own private 'telephone' service.",
+  "bodyTextZh": "詹姆斯·斯科特先生在塞尔伯里（Silbury）有一间车库。现在他又在 Pinhurst 买了一个车库。\n平赫斯特（Pinhurst）距离西尔伯里（Silbury）只有五英里。但是斯科特先生无法为他的新车库配备一部电话。所以他刚刚买了十二只鸽子。\n昨天，一只鸽子把第一封信从平赫斯特送到了塞尔伯里。\n这只鸽子花了三分钟飞完了这段路程。\n到目前为止，\n斯科特先生已经从一个车库向另一个车库发送了大量索取备件的请求以及其他紧急信息。\n通过这种方式，他开始了自己的私人“电话”服务。",
+  "sentences": [
+    {
+      "index": 0,
+      "startTime": 0.5,
+      "endTime": 3,
+      "en": "Lesson 5",
+      "zh": "第5课",
+      "role": "lesson"
+    },
+    {
+      "index": 1,
+      "startTime": 3,
+      "endTime": 10.38,
+      "en": "No Wrong Numbers",
+      "zh": "无错号之虞",
+      "role": "title"
+    },
+    {
+      "index": 2,
+      "startTime": 10.38,
+      "endTime": 15.79,
+      "en": "What does 'No wrong numbers' mean?",
+      "zh": "“没有错误的数字”是什么意思？",
+      "role": "question"
+    },
+    {
+      "index": 3,
+      "startTime": 15.79,
+      "endTime": 25.6,
+      "en": "Mr.James Scott has a garage in Silbury and now he has just bought another garage in Pinhurst.",
+      "zh": "詹姆斯·斯科特先生在塞尔伯里（Silbury）有一间车库。现在他又在 Pinhurst 买了一个车库。",
+      "role": "body"
+    },
+    {
+      "index": 4,
+      "startTime": 25.6,
+      "endTime": 38.96,
+      "en": "Pinhurst is only five miles from Silbury, but Mr. Scott cannot get a telephone for his new garage, so he has just bought twelve pigeons.",
+      "zh": "平赫斯特（Pinhurst）距离西尔伯里（Silbury）只有五英里。但是斯科特先生无法为他的新车库配备一部电话。所以他刚刚买了十二只鸽子。",
+      "role": "body"
+    },
+    {
+      "index": 5,
+      "startTime": 38.96,
+      "endTime": 45.61,
+      "en": "Yesterday, a pigeon carried the first message from Pinhurst to Silbury.",
+      "zh": "昨天，一只鸽子把第一封信从平赫斯特送到了塞尔伯里。",
+      "role": "body"
+    },
+    {
+      "index": 6,
+      "startTime": 45.61,
+      "endTime": 49.3,
+      "en": "The bird covered the distance in three minutes.",
+      "zh": "这只鸽子花了三分钟飞完了这段路程。",
+      "role": "body"
+    },
+    {
+      "index": 7,
+      "startTime": 49.3,
+      "endTime": 50.86,
+      "en": "Up to now,",
+      "zh": "到目前为止，",
+      "role": "body"
+    },
+    {
+      "index": 8,
+      "startTime": 50.86,
+      "endTime": 60.95,
+      "en": "Mr.Scott has sent a great many requests for spare parts and other urgent messages from one garage to the other.",
+      "zh": "斯科特先生已经从一个车库向另一个车库发送了大量索取备件的请求以及其他紧急信息。",
+      "role": "body"
+    },
+    {
+      "index": 9,
+      "startTime": 60.95,
+      "endTime": null,
+      "en": "In this way, he has begun his own private 'telephone' service.",
+      "zh": "通过这种方式，他开始了自己的私人“电话”服务。",
+      "role": "body"
+    }
+  ],
+  "audio": {
+    "fileName": "05－No Wrong Numbers.mp3",
+    "sourcePath": "content/NCE-Flow/NCE2/05－No Wrong Numbers.mp3",
+    "exists": true
+  },
+  "source": {
+    "repository": "NCE-Flow",
+    "lrcFileName": "05－No Wrong Numbers.lrc",
+    "lrcPath": "content/NCE-Flow/NCE2/05－No Wrong Numbers.lrc",
+    "sourceDataFile": "content/NCE-Flow/static/data.json",
+    "generatedAt": "2026-07-23T02:59:02+00:00",
+    "generator": "scripts/generate_nce_json.py",
+    "generatorVersion": "2.0.0",
+    "metadata": {
+      "al": "新概念英语（二）",
+      "ar": "MP3 同步字幕版（美音）",
+      "ti": "No Wrong Numbers",
+      "by": "更多学习内容，请到VeryCD.com搜索“露珠”"
+    }
+  }
+}

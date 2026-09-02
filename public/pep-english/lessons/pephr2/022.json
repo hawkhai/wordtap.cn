@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "pephr2-022",
+  "groupId": "pephr2",
+  "unitNo": 3,
+  "sequenceNo": 22,
+  "section": "Expanding Your World",
+  "title": "E-Learning",
+  "jsonPath": "pep-english/lessons/pephr2/022.json",
+  "text": "Courses that are taught via the Internet, or online courses, have become popular in many countries. There are different kinds of online courses, but most show a video of a teacher and students in a classroom. Students watch the video online and take part in online activities. Some courses are free and open to anyone, giving students anywhere the chance to study at any time. Of course, watching students and teachers on a computer screen is not the same as taking part in a real class.\nOther kinds of e-learning are being tested around the world. In Singapore, eight schools have been chosen to try new ways of using technology in the classroom. The schools have tablets and touchscreens instead of books and blackboards in the classrooms. There are also social media platforms to help the students work together on projects, and online “worlds” where the students can interact with each other and the digital environment while completing different learning tasks.\nIn South Korea, some students have been taught English by teachers in the Philippines and other countries since 2011. The teachers are in their home countries and are connected to the Korean classrooms via the Internet. Instead of looking at a screen, the students interact with a robot in the classroom. The robot is controlled by the teacher and can move around the classroom and talk with the students. It is unlikely that robot teachers will replace real teachers, but like online learning environments, they can be useful tools.\nThese important examples show us that e-learning can be successful. Thanks to technology, more and more ways of teaching and learning are being developed. Nobody knows what the classroom of the future will look like, but one thing is for sure—there has never been a more interesting time to be a student.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Courses that are taught via the Internet, or online courses, have become popular in many countries. There are different kinds of online courses, but most show a video of a teacher and students in a classroom. Students watch the video online and take part in online activities. Some courses are free and open to anyone, giving students anywhere the chance to study at any time. Of course, watching students and teachers on a computer screen is not the same as taking part in a real class."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Other kinds of e-learning are being tested around the world. In Singapore, eight schools have been chosen to try new ways of using technology in the classroom. The schools have tablets and touchscreens instead of books and blackboards in the classrooms. There are also social media platforms to help the students work together on projects, and online “worlds” where the students can interact with each other and the digital environment while completing different learning tasks."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "In South Korea, some students have been taught English by teachers in the Philippines and other countries since 2011. The teachers are in their home countries and are connected to the Korean classrooms via the Internet. Instead of looking at a screen, the students interact with a robot in the classroom. The robot is controlled by the teacher and can move around the classroom and talk with the students. It is unlikely that robot teachers will replace real teachers, but like online learning environments, they can be useful tools."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "These important examples show us that e-learning can be successful. Thanks to technology, more and more ways of teaching and learning are being developed. Nobody knows what the classroom of the future will look like, but one thing is for sure—there has never been a more interesting time to be a student."
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "必修第二册",
+    "pageStart": 85,
+    "pageEnd": 85,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "38d49874e4f015fd89f21c9306f6b9d5",
+    "pdfSize": 14270612,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/senior-required-2.pdf#page=85",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored the complete four-paragraph e-learning feature in printed order; verified the Singapore and South Korea examples line by line and excluded the illustration and running furniture."
+    }
+  }
+}

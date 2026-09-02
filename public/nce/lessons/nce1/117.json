@@ -1,0 +1,168 @@
+{
+  "schemaVersion": 1,
+  "id": "nce1-117",
+  "bookId": "nce1",
+  "bookNo": 1,
+  "lessonNo": 117,
+  "lessonRange": [
+    117,
+    118
+  ],
+  "title": "Tommy's Breakfast",
+  "titleZh": "汤米的早餐",
+  "question": "What does she mean by 'change' in the last sentence?",
+  "questionZh": "她在最后一句话里说的“change”是什么意思？",
+  "text": "What does she mean by 'change' in the last sentence?\n\nWhen my husband was going into the dining room this morning, he dropped some coins on the floor.\nThere were coins everywhere.\nWe looked for them, but we could not find them all.\nWhile we were having breakfast, our little boy, Tommy, found two small coins on the floor.\nHe put them both into his mouth.\nWe both tried to get the coins, but it was too late.\nTommy had already swallowed them!\nLate that morning, when I was doing the housework,\nMy husband phoned me from the office.\n'How's Tommy?' he asked.\n'I don't know,' I answered,\n'Tommy's been to the toilet three times this morning, but I haven't had any change yet!'",
+  "bodyText": "When my husband was going into the dining room this morning, he dropped some coins on the floor.\nThere were coins everywhere.\nWe looked for them, but we could not find them all.\nWhile we were having breakfast, our little boy, Tommy, found two small coins on the floor.\nHe put them both into his mouth.\nWe both tried to get the coins, but it was too late.\nTommy had already swallowed them!\nLate that morning, when I was doing the housework,\nMy husband phoned me from the office.\n'How's Tommy?' he asked.\n'I don't know,' I answered,\n'Tommy's been to the toilet three times this morning, but I haven't had any change yet!'",
+  "bodyTextZh": "今天早上，当我丈夫走进餐厅的时候……他把一些硬币掉在了地上。\n硬币到处都是。\n我们寻找过它们，但没能全部找到。\n当我们正在吃早餐的时候……我们的小男孩汤米在地板上发现了两枚小硬币。\n他把它们都放进了嘴里。\n我们都试图拿到那些硬币，但已经太晚了。\n汤米已经把它们吞下去了！\n那天上午晚些时候，当我正在做家务时……\n我丈夫从办公室给我打了电话。\n“汤米怎么样了？”他问道。\n“我不知道，”我回答道。\n“今天早上汤米已经上了三次厕所了，但我还没有收到任何零钱呢！”",
+  "sentences": [
+    {
+      "index": 0,
+      "startTime": 0.79,
+      "endTime": 4.5,
+      "en": "Lesson 117",
+      "zh": "第117课",
+      "role": "lesson"
+    },
+    {
+      "index": 1,
+      "startTime": 4.5,
+      "endTime": 7.35,
+      "en": "Tommy's breakfast",
+      "zh": "汤米的早餐",
+      "role": "title"
+    },
+    {
+      "index": 2,
+      "startTime": 7.35,
+      "endTime": 13.44,
+      "en": "Listen to the tape then answer this question.",
+      "zh": "先听这段录音，然后再回答这个问题。",
+      "role": "prompt"
+    },
+    {
+      "index": 3,
+      "startTime": 13.44,
+      "endTime": 21.27,
+      "en": "What does she mean by 'change' in the last sentence?",
+      "zh": "她在最后一句话里说的“change”是什么意思？",
+      "role": "question"
+    },
+    {
+      "index": 4,
+      "startTime": 21.27,
+      "endTime": 31.54,
+      "en": "When my husband was going into the dining room this morning, he dropped some coins on the floor.",
+      "zh": "今天早上，当我丈夫走进餐厅的时候……他把一些硬币掉在了地上。",
+      "role": "body"
+    },
+    {
+      "index": 5,
+      "startTime": 31.54,
+      "endTime": 34.96,
+      "en": "There were coins everywhere.",
+      "zh": "硬币到处都是。",
+      "role": "body"
+    },
+    {
+      "index": 6,
+      "startTime": 34.96,
+      "endTime": 41.1,
+      "en": "We looked for them, but we could not find them all.",
+      "zh": "我们寻找过它们，但没能全部找到。",
+      "role": "body"
+    },
+    {
+      "index": 7,
+      "startTime": 41.1,
+      "endTime": 52.56,
+      "en": "While we were having breakfast, our little boy, Tommy, found two small coins on the floor.",
+      "zh": "当我们正在吃早餐的时候……我们的小男孩汤米在地板上发现了两枚小硬币。",
+      "role": "body"
+    },
+    {
+      "index": 8,
+      "startTime": 52.56,
+      "endTime": 57.16,
+      "en": "He put them both into his mouth.",
+      "zh": "他把它们都放进了嘴里。",
+      "role": "body"
+    },
+    {
+      "index": 9,
+      "startTime": 57.16,
+      "endTime": 63.56,
+      "en": "We both tried to get the coins, but it was too late.",
+      "zh": "我们都试图拿到那些硬币，但已经太晚了。",
+      "role": "body"
+    },
+    {
+      "index": 10,
+      "startTime": 63.56,
+      "endTime": 69.9,
+      "en": "Tommy had already swallowed them!",
+      "zh": "汤米已经把它们吞下去了！",
+      "role": "body"
+    },
+    {
+      "index": 11,
+      "startTime": 69.9,
+      "endTime": 75.43,
+      "en": "Late that morning, when I was doing the housework,",
+      "zh": "那天上午晚些时候，当我正在做家务时……",
+      "role": "body"
+    },
+    {
+      "index": 12,
+      "startTime": 75.43,
+      "endTime": 80.36,
+      "en": "My husband phoned me from the office.",
+      "zh": "我丈夫从办公室给我打了电话。",
+      "role": "body"
+    },
+    {
+      "index": 13,
+      "startTime": 80.36,
+      "endTime": 84,
+      "en": "'How's Tommy?' he asked.",
+      "zh": "“汤米怎么样了？”他问道。",
+      "role": "body"
+    },
+    {
+      "index": 14,
+      "startTime": 84,
+      "endTime": 87.56,
+      "en": "'I don't know,' I answered,",
+      "zh": "“我不知道，”我回答道。",
+      "role": "body"
+    },
+    {
+      "index": 15,
+      "startTime": 87.56,
+      "endTime": null,
+      "en": "'Tommy's been to the toilet three times this morning, but I haven't had any change yet!'",
+      "zh": "“今天早上汤米已经上了三次厕所了，但我还没有收到任何零钱呢！”",
+      "role": "body"
+    }
+  ],
+  "audio": {
+    "fileName": "117&118－Tommy's Breakfast.mp3",
+    "sourcePath": "content/NCE-Flow/NCE1/117&118－Tommy's Breakfast.mp3",
+    "exists": true
+  },
+  "source": {
+    "repository": "NCE-Flow",
+    "lrcFileName": "117&118－Tommy's Breakfast.lrc",
+    "lrcPath": "content/NCE-Flow/NCE1/117&118－Tommy's Breakfast.lrc",
+    "sourceDataFile": "content/NCE-Flow/static/data.json",
+    "generatedAt": "2026-07-23T02:59:02+00:00",
+    "generator": "scripts/generate_nce_json.py",
+    "generatorVersion": "2.0.0",
+    "metadata": {
+      "al": "新概念英语（一）",
+      "ar": "MP3 同步字幕版（美音）",
+      "ti": "Tommy's Breakfast",
+      "by": "更多学习内容，请到VeryCD.com搜索“露珠”"
+    }
+  }
+}

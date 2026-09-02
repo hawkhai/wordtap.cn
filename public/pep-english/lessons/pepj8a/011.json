@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "id": "pepj8a-011",
+  "groupId": "pepj8a",
+  "unitNo": 5,
+  "sequenceNo": 11,
+  "section": "Section B",
+  "title": "Mickey Mouse: A Symbol of American Culture",
+  "jsonPath": "pep-english/lessons/pepj8a/011.json",
+  "text": "When people say \"culture,\" we think of art and history. But one very famous symbol in American culture is a cartoon. We all know and love the black mouse with two large round ears — Mickey Mouse. Over 80 years ago, he first appeared in the cartoon Steamboat Willie. When this cartoon came out in New York on November 18, 1928, it was the first cartoon with sound and music. The man behind Mickey was Walt Disney. He became very rich and successful. In the 1930s, he made 87 cartoons with Mickey.\nSome people might ask how this cartoon animal became so popular. One of the main reasons is that Mickey was like a common man, but he always tried to face any danger. In his early films, Mickey was unlucky and had many problems such as losing his house or girlfriend, Minnie. However, he was always ready to try his best. People went to the cinema to see the \"little man\" win. Most of them wanted to be like Mickey.\nOn November 18, 1978, Mickey became the first cartoon character to have a star on the Hollywood Walk of Fame. Today's cartoons are usually not so simple as little Mickey Mouse, but everyone still knows and loves him. Who has a pair of ears more famous than Mickey's?",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "When people say \"culture,\" we think of art and history. But one very famous symbol in American culture is a cartoon. We all know and love the black mouse with two large round ears — Mickey Mouse. Over 80 years ago, he first appeared in the cartoon Steamboat Willie. When this cartoon came out in New York on November 18, 1928, it was the first cartoon with sound and music. The man behind Mickey was Walt Disney. He became very rich and successful. In the 1930s, he made 87 cartoons with Mickey."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Some people might ask how this cartoon animal became so popular. One of the main reasons is that Mickey was like a common man, but he always tried to face any danger. In his early films, Mickey was unlucky and had many problems such as losing his house or girlfriend, Minnie. However, he was always ready to try his best. People went to the cinema to see the \"little man\" win. Most of them wanted to be like Mickey."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "On November 18, 1978, Mickey became the first cartoon character to have a star on the Hollywood Walk of Fame. Today's cartoons are usually not so simple as little Mickey Mouse, but everyone still knows and loves him. Who has a pair of ears more famous than Mickey's?"
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "初中",
+    "book": "八年级上册",
+    "pageStart": 48,
+    "pageEnd": 48,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "24fcd352dca21a6ee547539f550ed35c",
+    "pdfSize": 9469090,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/junior-8a.pdf#page=48",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored the complete three-paragraph 2b reading, supplied a descriptive metadata title because the printed article has none, corrected Section B and excluded the 2a discussion prompts."
+    }
+  }
+}

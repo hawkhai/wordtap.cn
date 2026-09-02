@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "pephr2-003",
+  "groupId": "pephr2",
+  "unitNo": 2,
+  "sequenceNo": 3,
+  "section": "Reading for Writing",
+  "title": "Give Ugly a Chance!",
+  "jsonPath": "pep-english/lessons/pephr2/003.json",
+  "text": "When it comes to wildlife protection, all species—the good, the bad, and the ugly—should be treated equally. Pandas, dolphins, and other cute wildlife are important, but we must pay attention to less cute animals, too. The world needs all kinds—without variety, our planet cannot survive. So if you want the future to be beautiful, you have to give ugly a chance.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "When it comes to wildlife protection, all species—the good, the bad, and the ugly—should be treated equally. Pandas, dolphins, and other cute wildlife are important, but we must pay attention to less cute animals, too. The world needs all kinds—without variety, our planet cannot survive. So if you want the future to be beautiful, you have to give ugly a chance."
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "必修第二册",
+    "pageStart": 27,
+    "pageEnd": 27,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "38d49874e4f015fd89f21c9306f6b9d5",
+    "pdfSize": 14270612,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/senior-required-2.pdf#page=27",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored the complete left-hand wildlife poster as an independent lesson; excluded its photograph and all page-level activities.",
+      "splitBaselineId": "pephr2-008",
+      "splitIndex": 1,
+      "splitCount": 2
+    }
+  }
+}

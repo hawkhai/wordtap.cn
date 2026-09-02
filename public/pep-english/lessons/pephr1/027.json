@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "pephr1-027",
+  "groupId": "pephr1",
+  "unitNo": 2,
+  "sequenceNo": 27,
+  "section": "Reading",
+  "title": "Be a Good Tourist",
+  "jsonPath": "pep-english/lessons/pephr1/027.json",
+  "text": "Tourism can be both good and bad. Yes, it brings in money for the local economy and creates lots of jobs for locals, but it may also bring some problems.\nOne growing problem is tourists who want to prove that they have visited a destination. Tourists have used paint, rocks, or even keys to write on the Luxor Temple in Egypt, the Colosseum in Rome, Stonehenge in the UK, memorial stones at the bottom of Qomolangma, and many, many other places. Thousands of tourist sites are being destroyed by tourists who “love them to death”. I have three words for people like this: please stop it. If you want to leave a mark on the world, do it by changing someone's life with kindness and love. Pass kindness along to future generations, not destruction.\nAnother big problem in some places has been tourists disturbing the local people and life. Some tourists wander around and take pictures of local people without asking for their permission. For example, Chiang Mai University in Thailand and Yonsei University in South Korea have great numbers of tourists visiting their campuses and walking through their libraries and other public areas, taking pictures of students, and disturbing their studies. Another example is Sanlitun, a neighbourhood in Beijing, China. Some tourists love to party there late into the night, making it difficult for locals to sleep. I have three words for tourists like this: please be considerate. Have fun in a way that does not disturb others.\nThe number of problems from tourists is endless: walking in large groups without considering others who need to walk by, crossing roads without thinking of local traffic laws, and many more. The only way to solve the problem of the terrible tourist is to make sure that you are not one! Be the best, kindest, most polite tourist possible. Remember, whenever you step outside your country's borders, you are representing your country to the rest of the world.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Tourism can be both good and bad. Yes, it brings in money for the local economy and creates lots of jobs for locals, but it may also bring some problems."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "One growing problem is tourists who want to prove that they have visited a destination. Tourists have used paint, rocks, or even keys to write on the Luxor Temple in Egypt, the Colosseum in Rome, Stonehenge in the UK, memorial stones at the bottom of Qomolangma, and many, many other places. Thousands of tourist sites are being destroyed by tourists who “love them to death”. I have three words for people like this: please stop it. If you want to leave a mark on the world, do it by changing someone's life with kindness and love. Pass kindness along to future generations, not destruction."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Another big problem in some places has been tourists disturbing the local people and life. Some tourists wander around and take pictures of local people without asking for their permission. For example, Chiang Mai University in Thailand and Yonsei University in South Korea have great numbers of tourists visiting their campuses and walking through their libraries and other public areas, taking pictures of students, and disturbing their studies. Another example is Sanlitun, a neighbourhood in Beijing, China. Some tourists love to party there late into the night, making it difficult for locals to sleep. I have three words for tourists like this: please be considerate. Have fun in a way that does not disturb others."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "The number of problems from tourists is endless: walking in large groups without considering others who need to walk by, crossing roads without thinking of local traffic laws, and many more. The only way to solve the problem of the terrible tourist is to make sure that you are not one! Be the best, kindest, most polite tourist possible. Remember, whenever you step outside your country's borders, you are representing your country to the rest of the world."
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "必修第一册",
+    "pageStart": 87,
+    "pageEnd": 87,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "e0bf18138b24d7def28b35994a13946b",
+    "pdfSize": 14704146,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/senior-required-1.pdf#page=87",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored the complete four-paragraph editorial; removed inline Chinese vocabulary glosses and all surrounding comprehension, fact/opinion and discussion tasks."
+    }
+  }
+}

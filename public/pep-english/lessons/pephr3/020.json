@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "pephr3-020",
+  "groupId": "pephr3",
+  "unitNo": 1,
+  "sequenceNo": 20,
+  "section": "Reading",
+  "title": "The Chinese Spring Festival",
+  "jsonPath": "pep-english/lessons/pephr3/020.json",
+  "text": "The Chinese Spring Festival is regarded as the most significant festival of the year among the Chinese. It lasts for 15 days but Chinese people also consider the days of preparation beforehand as an important part of the Spring Festival.\nThere are a number of things people usually do before the Chinese Spring Festival. One of these is cleaning the house for the Lunar New Year. Dust makes people think of old or outdated things. Therefore, sweeping dust out of the house is a way of saying goodbye to old things and welcoming new things. Another important custom for families is to decorate their doors with red couplets. The phrases on the couplets express hopes for a prosperous new year. In the southern part of China, people will buy fresh flowers or orange trees to decorate their homes. The most important custom of the Chinese Spring Festival is the big family dinner on the eve of the Lunar New Year. This is usually a big reunion of grandparents, parents, and children. It reflects how important family is to Chinese people around the world. That is why millions of Chinese people travel long distances to get home before the eve of the Lunar New Year. Also, families typically eat certain types of lucky food at the family reunion dinner. Eating fish, for example, is supposed to bring more wealth and prosperity than one needs, as the pronunciation of “fish” in Chinese (yu) is also used for “surplus”.\nWhen the New Year comes, there are many interesting festival activities. Adults give children “lucky money” in red envelopes. People greet family and friends with “Xinnian Hao” or “Gongxi Facai” whenever they may meet. Another part of this custom of sharing good wishes is to pay visits to relatives and bring them gifts. Commonly exchanged gifts include food such as fruit, sticky rice cakes, and homemade desserts. In addition, friends and family go out to enjoy loud and colourful fireworks, spend time at temple fairs, and watch exciting dragon and lion dances.\nThe Chinese Spring Festival symbolises a farewell to the old year and a warm welcome to the brand new year. More importantly, it is a special occasion to return home and gratefully reunite with family members. This deeply rooted tradition has been an integral part of Chinese culture for a very long time, and will continue to live forever in the hearts of the Chinese people.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "The Chinese Spring Festival is regarded as the most significant festival of the year among the Chinese. It lasts for 15 days but Chinese people also consider the days of preparation beforehand as an important part of the Spring Festival."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "There are a number of things people usually do before the Chinese Spring Festival. One of these is cleaning the house for the Lunar New Year. Dust makes people think of old or outdated things. Therefore, sweeping dust out of the house is a way of saying goodbye to old things and welcoming new things. Another important custom for families is to decorate their doors with red couplets. The phrases on the couplets express hopes for a prosperous new year. In the southern part of China, people will buy fresh flowers or orange trees to decorate their homes. The most important custom of the Chinese Spring Festival is the big family dinner on the eve of the Lunar New Year. This is usually a big reunion of grandparents, parents, and children. It reflects how important family is to Chinese people around the world. That is why millions of Chinese people travel long distances to get home before the eve of the Lunar New Year. Also, families typically eat certain types of lucky food at the family reunion dinner. Eating fish, for example, is supposed to bring more wealth and prosperity than one needs, as the pronunciation of “fish” in Chinese (yu) is also used for “surplus”."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "When the New Year comes, there are many interesting festival activities. Adults give children “lucky money” in red envelopes. People greet family and friends with “Xinnian Hao” or “Gongxi Facai” whenever they may meet. Another part of this custom of sharing good wishes is to pay visits to relatives and bring them gifts. Commonly exchanged gifts include food such as fruit, sticky rice cakes, and homemade desserts. In addition, friends and family go out to enjoy loud and colourful fireworks, spend time at temple fairs, and watch exciting dragon and lion dances."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "The Chinese Spring Festival symbolises a farewell to the old year and a warm welcome to the brand new year. More importantly, it is a special occasion to return home and gratefully reunite with family members. This deeply rooted tradition has been an integral part of Chinese culture for a very long time, and will continue to live forever in the hearts of the Chinese people."
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "必修第三册",
+    "pageStart": 71,
+    "pageEnd": 71,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "31e51a16693d03177a5825f53f612a87",
+    "pdfSize": 14202806,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/senior-required-3.pdf#page=71",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored the complete four-paragraph workbook reading in visual order around both photographs; page 72 contains only follow-up exercises and was excluded, together with the instruction and running furniture."
+    }
+  }
+}

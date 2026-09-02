@@ -1,0 +1,256 @@
+{
+  "schemaVersion": 1,
+  "id": "nce1-109",
+  "bookId": "nce1",
+  "bookNo": 1,
+  "lessonNo": 109,
+  "lessonRange": [
+    109,
+    110
+  ],
+  "title": "A Good Idea",
+  "titleZh": "一个好主意",
+  "question": "What does Jane have with her coffee?",
+  "questionZh": "简喝咖啡时带了什么？",
+  "text": "What does Jane have with her coffee?\n\nShall I make some coffee, Jane?\nThat's a good idea, Charlotte.\nIt's ready.\nDo you want any milk?\nJust a little, please.\nWhat about some sugar?\nTwo teaspoonfuls?\nNo, less than that.\nOne and a half teaspoonfuls, please.\nThat's enough for me.\nThat was very nice.\nWould you like some more?\nYes, please.\nI'd like a cigarette, too.\nMay I have one?\nOf course.\nI think there are a few in that box.\nI'm afraid it's empty.\nWhat a pity!\nIt doesn't matter.\nHave a biscuit instead.\nEat more and smoke less!\nThat's very good advice!",
+  "bodyText": "Shall I make some coffee, Jane?\nThat's a good idea, Charlotte.\nIt's ready.\nDo you want any milk?\nJust a little, please.\nWhat about some sugar?\nTwo teaspoonfuls?\nNo, less than that.\nOne and a half teaspoonfuls, please.\nThat's enough for me.\nThat was very nice.\nWould you like some more?\nYes, please.\nI'd like a cigarette, too.\nMay I have one?\nOf course.\nI think there are a few in that box.\nI'm afraid it's empty.\nWhat a pity!\nIt doesn't matter.\nHave a biscuit instead.\nEat more and smoke less!\nThat's very good advice!",
+  "bodyTextZh": "“我给你煮点咖啡吧，简？”\n“那是个好主意，夏洛特。”\n“咖啡煮好了。”\n“你要加牛奶吗？”\n“请加一点点。”\n“那加点糖怎么样？”\n“两茶匙？”\n“不，少一点就好。”\n请给我一茶匙半。\n对我来说，这就够了。\n这咖啡真不错。\n您还要再来一些吗？\n好的，再来一点。\n我也想抽根烟。\n我可以要一个吗？\n当然。\n我想那个盒子里有几支烟。\n恐怕它是空的。\n真遗憾！\n没关系。\n“那就吃块饼干吧。”\n“多吃点，少抽烟！”\n这真是很好的建议！",
+  "sentences": [
+    {
+      "index": 0,
+      "startTime": 0.67,
+      "endTime": 3.27,
+      "en": "Lesson 109",
+      "zh": "第109课",
+      "role": "lesson"
+    },
+    {
+      "index": 1,
+      "startTime": 3.27,
+      "endTime": 6.16,
+      "en": "A good idea",
+      "zh": "一个好主意",
+      "role": "title"
+    },
+    {
+      "index": 2,
+      "startTime": 6.16,
+      "endTime": 11.67,
+      "en": "Listen to the tape then answer this question.",
+      "zh": "先听录音，然后回答这个问题：",
+      "role": "prompt"
+    },
+    {
+      "index": 3,
+      "startTime": 11.67,
+      "endTime": 16.97,
+      "en": "What does Jane have with her coffee?",
+      "zh": "简喝咖啡时带了什么？",
+      "role": "question"
+    },
+    {
+      "index": 4,
+      "startTime": 16.97,
+      "endTime": 21.76,
+      "en": "Shall I make some coffee, Jane?",
+      "zh": "“我给你煮点咖啡吧，简？”",
+      "role": "body"
+    },
+    {
+      "index": 5,
+      "startTime": 21.76,
+      "endTime": 26.07,
+      "en": "That's a good idea, Charlotte.",
+      "zh": "“那是个好主意，夏洛特。”",
+      "role": "body"
+    },
+    {
+      "index": 6,
+      "startTime": 26.07,
+      "endTime": 27.97,
+      "en": "It's ready.",
+      "zh": "“咖啡煮好了。”",
+      "role": "body"
+    },
+    {
+      "index": 7,
+      "startTime": 27.97,
+      "endTime": 30.94,
+      "en": "Do you want any milk?",
+      "zh": "“你要加牛奶吗？”",
+      "role": "body"
+    },
+    {
+      "index": 8,
+      "startTime": 30.94,
+      "endTime": 34.43,
+      "en": "Just a little, please.",
+      "zh": "“请加一点点。”",
+      "role": "body"
+    },
+    {
+      "index": 9,
+      "startTime": 34.43,
+      "endTime": 37.46,
+      "en": "What about some sugar?",
+      "zh": "“那加点糖怎么样？”",
+      "role": "body"
+    },
+    {
+      "index": 10,
+      "startTime": 37.46,
+      "endTime": 40.68,
+      "en": "Two teaspoonfuls?",
+      "zh": "“两茶匙？”",
+      "role": "body"
+    },
+    {
+      "index": 11,
+      "startTime": 40.68,
+      "endTime": 43.63,
+      "en": "No, less than that.",
+      "zh": "“不，少一点就好。”",
+      "role": "body"
+    },
+    {
+      "index": 12,
+      "startTime": 43.63,
+      "endTime": 48.29,
+      "en": "One and a half teaspoonfuls, please.",
+      "zh": "请给我一茶匙半。",
+      "role": "body"
+    },
+    {
+      "index": 13,
+      "startTime": 48.29,
+      "endTime": 52.03,
+      "en": "That's enough for me.",
+      "zh": "对我来说，这就够了。",
+      "role": "body"
+    },
+    {
+      "index": 14,
+      "startTime": 52.03,
+      "endTime": 55.25,
+      "en": "That was very nice.",
+      "zh": "这咖啡真不错。",
+      "role": "body"
+    },
+    {
+      "index": 15,
+      "startTime": 55.25,
+      "endTime": 58.05,
+      "en": "Would you like some more?",
+      "zh": "您还要再来一些吗？",
+      "role": "body"
+    },
+    {
+      "index": 16,
+      "startTime": 58.05,
+      "endTime": 61.4,
+      "en": "Yes, please.",
+      "zh": "好的，再来一点。",
+      "role": "body"
+    },
+    {
+      "index": 17,
+      "startTime": 61.4,
+      "endTime": 64.85,
+      "en": "I'd like a cigarette, too.",
+      "zh": "我也想抽根烟。",
+      "role": "body"
+    },
+    {
+      "index": 18,
+      "startTime": 64.85,
+      "endTime": 67.5,
+      "en": "May I have one?",
+      "zh": "我可以要一个吗？",
+      "role": "body"
+    },
+    {
+      "index": 19,
+      "startTime": 67.5,
+      "endTime": 69.46,
+      "en": "Of course.",
+      "zh": "当然。",
+      "role": "body"
+    },
+    {
+      "index": 20,
+      "startTime": 69.46,
+      "endTime": 74.67,
+      "en": "I think there are a few in that box.",
+      "zh": "我想那个盒子里有几支烟。",
+      "role": "body"
+    },
+    {
+      "index": 21,
+      "startTime": 74.67,
+      "endTime": 78.18,
+      "en": "I'm afraid it's empty.",
+      "zh": "恐怕它是空的。",
+      "role": "body"
+    },
+    {
+      "index": 22,
+      "startTime": 78.18,
+      "endTime": 80.5,
+      "en": "What a pity!",
+      "zh": "真遗憾！",
+      "role": "body"
+    },
+    {
+      "index": 23,
+      "startTime": 80.5,
+      "endTime": 83.23,
+      "en": "It doesn't matter.",
+      "zh": "没关系。",
+      "role": "body"
+    },
+    {
+      "index": 24,
+      "startTime": 83.23,
+      "endTime": 86.22,
+      "en": "Have a biscuit instead.",
+      "zh": "“那就吃块饼干吧。”",
+      "role": "body"
+    },
+    {
+      "index": 25,
+      "startTime": 86.22,
+      "endTime": 90.32,
+      "en": "Eat more and smoke less!",
+      "zh": "“多吃点，少抽烟！”",
+      "role": "body"
+    },
+    {
+      "index": 26,
+      "startTime": 90.32,
+      "endTime": null,
+      "en": "That's very good advice!",
+      "zh": "这真是很好的建议！",
+      "role": "body"
+    }
+  ],
+  "audio": {
+    "fileName": "109&110－A Good Idea.mp3",
+    "sourcePath": "content/NCE-Flow/NCE1/109&110－A Good Idea.mp3",
+    "exists": true
+  },
+  "source": {
+    "repository": "NCE-Flow",
+    "lrcFileName": "109&110－A Good Idea.lrc",
+    "lrcPath": "content/NCE-Flow/NCE1/109&110－A Good Idea.lrc",
+    "sourceDataFile": "content/NCE-Flow/static/data.json",
+    "generatedAt": "2026-07-23T02:59:02+00:00",
+    "generator": "scripts/generate_nce_json.py",
+    "generatorVersion": "2.0.0",
+    "metadata": {
+      "al": "新概念英语（一）",
+      "ar": "MP3 同步字幕版（美音）",
+      "ti": "A Good Idea",
+      "by": "更多学习内容，请到VeryCD.com搜索“露珠”"
+    }
+  }
+}

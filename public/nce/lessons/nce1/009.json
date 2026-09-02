@@ -1,0 +1,184 @@
+{
+  "schemaVersion": 1,
+  "id": "nce1-009",
+  "bookId": "nce1",
+  "bookNo": 1,
+  "lessonNo": 9,
+  "lessonRange": [
+    9,
+    10
+  ],
+  "title": "How Are You Today",
+  "titleZh": "你今天好吗？",
+  "question": "How is Emma?",
+  "questionZh": "艾玛最近怎么样？",
+  "text": "How is Emma?\n\nHello Helen.\nHi Steven.\nHow are you today?\nI'm very well thank you.\nAnd you?\nI'm fine thanks.\nHow is Tony?\nHe's fine thanks.\nHow's Emma?\nShe's very well too Helen.\nGoodbye Helen.\nNice to see you.\nNice to see you too Steven.\nGoodbye.",
+  "bodyText": "Hello Helen.\nHi Steven.\nHow are you today?\nI'm very well thank you.\nAnd you?\nI'm fine thanks.\nHow is Tony?\nHe's fine thanks.\nHow's Emma?\nShe's very well too Helen.\nGoodbye Helen.\nNice to see you.\nNice to see you too Steven.\nGoodbye.",
+  "bodyTextZh": "你好，海伦。\n嗨，史蒂文。\n你今天好吗？\n我很好，谢谢。\n你呢？\n我也很好，谢谢。\n托尼好吗？\n他也很好，谢谢。\n艾玛好吗？\n她也很好，海伦。\n再见，海伦。\n很高兴见到你。\n我也很高兴见到你，史蒂文。\n再见。",
+  "sentences": [
+    {
+      "index": 0,
+      "startTime": 0.56,
+      "endTime": 2.48,
+      "en": "Lesson 9",
+      "zh": "第9课",
+      "role": "lesson"
+    },
+    {
+      "index": 1,
+      "startTime": 2.48,
+      "endTime": 5.79,
+      "en": "How are you today?",
+      "zh": "你今天好吗？",
+      "role": "title"
+    },
+    {
+      "index": 2,
+      "startTime": 5.79,
+      "endTime": 11.54,
+      "en": "Listen to the tape then answer this question.",
+      "zh": "请听录音，然后回答这个问题。",
+      "role": "prompt"
+    },
+    {
+      "index": 3,
+      "startTime": 11.54,
+      "endTime": 15.17,
+      "en": "How is Emma?",
+      "zh": "艾玛最近怎么样？",
+      "role": "question"
+    },
+    {
+      "index": 4,
+      "startTime": 15.17,
+      "endTime": 17.19,
+      "en": "Hello Helen.",
+      "zh": "你好，海伦。",
+      "role": "body"
+    },
+    {
+      "index": 5,
+      "startTime": 17.19,
+      "endTime": 19.02,
+      "en": "Hi Steven.",
+      "zh": "嗨，史蒂文。",
+      "role": "body"
+    },
+    {
+      "index": 6,
+      "startTime": 19.02,
+      "endTime": 21.69,
+      "en": "How are you today?",
+      "zh": "你今天好吗？",
+      "role": "body"
+    },
+    {
+      "index": 7,
+      "startTime": 21.69,
+      "endTime": 24.28,
+      "en": "I'm very well thank you.",
+      "zh": "我很好，谢谢。",
+      "role": "body"
+    },
+    {
+      "index": 8,
+      "startTime": 24.28,
+      "endTime": 25.76,
+      "en": "And you?",
+      "zh": "你呢？",
+      "role": "body"
+    },
+    {
+      "index": 9,
+      "startTime": 25.76,
+      "endTime": 28.79,
+      "en": "I'm fine thanks.",
+      "zh": "我也很好，谢谢。",
+      "role": "body"
+    },
+    {
+      "index": 10,
+      "startTime": 28.79,
+      "endTime": 30.8,
+      "en": "How is Tony?",
+      "zh": "托尼好吗？",
+      "role": "body"
+    },
+    {
+      "index": 11,
+      "startTime": 30.8,
+      "endTime": 33.36,
+      "en": "He's fine thanks.",
+      "zh": "他也很好，谢谢。",
+      "role": "body"
+    },
+    {
+      "index": 12,
+      "startTime": 33.36,
+      "endTime": 34.95,
+      "en": "How's Emma?",
+      "zh": "艾玛好吗？",
+      "role": "body"
+    },
+    {
+      "index": 13,
+      "startTime": 34.95,
+      "endTime": 39.2,
+      "en": "She's very well too Helen.",
+      "zh": "她也很好，海伦。",
+      "role": "body"
+    },
+    {
+      "index": 14,
+      "startTime": 39.2,
+      "endTime": 40.7,
+      "en": "Goodbye Helen.",
+      "zh": "再见，海伦。",
+      "role": "body"
+    },
+    {
+      "index": 15,
+      "startTime": 40.7,
+      "endTime": 42.76,
+      "en": "Nice to see you.",
+      "zh": "很高兴见到你。",
+      "role": "body"
+    },
+    {
+      "index": 16,
+      "startTime": 42.76,
+      "endTime": 46.17,
+      "en": "Nice to see you too Steven.",
+      "zh": "我也很高兴见到你，史蒂文。",
+      "role": "body"
+    },
+    {
+      "index": 17,
+      "startTime": 46.17,
+      "endTime": null,
+      "en": "Goodbye.",
+      "zh": "再见。",
+      "role": "body"
+    }
+  ],
+  "audio": {
+    "fileName": "009&010－How Are You Today.mp3",
+    "sourcePath": "content/NCE-Flow/NCE1/009&010－How Are You Today.mp3",
+    "exists": true
+  },
+  "source": {
+    "repository": "NCE-Flow",
+    "lrcFileName": "009&010－How Are You Today.lrc",
+    "lrcPath": "content/NCE-Flow/NCE1/009&010－How Are You Today.lrc",
+    "sourceDataFile": "content/NCE-Flow/static/data.json",
+    "generatedAt": "2026-07-23T02:59:02+00:00",
+    "generator": "scripts/generate_nce_json.py",
+    "generatorVersion": "2.0.0",
+    "metadata": {
+      "al": "新概念英语（一）",
+      "ar": "MP3 同步字幕版（美音）",
+      "ti": "How Are You Today?",
+      "by": "更多学习内容，请到VeryCD.com搜索“露珠”"
+    }
+  }
+}

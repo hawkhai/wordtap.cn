@@ -1,0 +1,200 @@
+{
+  "schemaVersion": 1,
+  "id": "nce1-017",
+  "bookId": "nce1",
+  "bookNo": 1,
+  "lessonNo": 17,
+  "lessonRange": [
+    17,
+    18
+  ],
+  "title": "How do you do",
+  "titleZh": "你好！",
+  "question": "What are Michael Baker and Jeremy Short's jobs?",
+  "questionZh": "迈克尔·贝克和杰里米·肖特是做什么工作的？",
+  "text": "What are Michael Baker and Jeremy Short's jobs?\n\nCome and meet our employees Mr.Richards.\nThank you Mr. Jackson.\nThis is Nicola Grey and this is Claire Taylor.\nHow do you do?\nThose women are very hard-working.\nWhat are their jobs?\nThey're keyboard operators.\nThis is Michael Baker and this is Jeremy Short.\nHow do you do?\nThey aren't very busy!\nWhat are their jobs?\nThey're sales reps.\nThey're very lazy.\nWho is this young man?\nThis is Jim.\nHe's our office assistant.",
+  "bodyText": "Come and meet our employees Mr.Richards.\nThank you Mr. Jackson.\nThis is Nicola Grey and this is Claire Taylor.\nHow do you do?\nThose women are very hard-working.\nWhat are their jobs?\nThey're keyboard operators.\nThis is Michael Baker and this is Jeremy Short.\nHow do you do?\nThey aren't very busy!\nWhat are their jobs?\nThey're sales reps.\nThey're very lazy.\nWho is this young man?\nThis is Jim.\nHe's our office assistant.",
+  "bodyTextZh": "理查兹先生，来认识一下我们的员工吧。\n谢谢杰克逊先生。\n这位是尼古拉·格雷，这位是克莱尔·泰勒。\n你好！\n那些女士工作很勤奋。\n她们是做什么工作的？\n她们是键盘操作员。\n这位是迈克尔·贝克，这位是杰里米·肖特。\n你好！\n他们不怎么忙！\n他们是做什么工作的？\n他们是销售代表。\n他们很懒。\n这个年轻人是谁？\n这位是吉姆。\n他是我们的办公室助理。",
+  "sentences": [
+    {
+      "index": 0,
+      "startTime": 0.58,
+      "endTime": 2.89,
+      "en": "Lesson 17",
+      "zh": "第17课",
+      "role": "lesson"
+    },
+    {
+      "index": 1,
+      "startTime": 2.89,
+      "endTime": 6.4,
+      "en": "How do you do?",
+      "zh": "你好！",
+      "role": "title"
+    },
+    {
+      "index": 2,
+      "startTime": 6.4,
+      "endTime": 12.62,
+      "en": "Listen to the tape then answer this question.",
+      "zh": "先听录音，然后回答这个问题。",
+      "role": "prompt"
+    },
+    {
+      "index": 3,
+      "startTime": 12.62,
+      "endTime": 19.59,
+      "en": "What are Michael Baker and Jeremy Short's jobs?",
+      "zh": "迈克尔·贝克和杰里米·肖特是做什么工作的？",
+      "role": "question"
+    },
+    {
+      "index": 4,
+      "startTime": 19.59,
+      "endTime": 25.19,
+      "en": "Come and meet our employees Mr.Richards.",
+      "zh": "理查兹先生，来认识一下我们的员工吧。",
+      "role": "body"
+    },
+    {
+      "index": 5,
+      "startTime": 25.19,
+      "endTime": 28.45,
+      "en": "Thank you Mr. Jackson.",
+      "zh": "谢谢杰克逊先生。",
+      "role": "body"
+    },
+    {
+      "index": 6,
+      "startTime": 28.45,
+      "endTime": 35.3,
+      "en": "This is Nicola Grey and this is Claire Taylor.",
+      "zh": "这位是尼古拉·格雷，这位是克莱尔·泰勒。",
+      "role": "body"
+    },
+    {
+      "index": 7,
+      "startTime": 35.3,
+      "endTime": 38.4,
+      "en": "How do you do?",
+      "zh": "你好！",
+      "role": "body"
+    },
+    {
+      "index": 8,
+      "startTime": 38.4,
+      "endTime": 43.18,
+      "en": "Those women are very hard-working.",
+      "zh": "那些女士工作很勤奋。",
+      "role": "body"
+    },
+    {
+      "index": 9,
+      "startTime": 43.18,
+      "endTime": 46.6,
+      "en": "What are their jobs?",
+      "zh": "她们是做什么工作的？",
+      "role": "body"
+    },
+    {
+      "index": 10,
+      "startTime": 46.6,
+      "endTime": 50.9,
+      "en": "They're keyboard operators.",
+      "zh": "她们是键盘操作员。",
+      "role": "body"
+    },
+    {
+      "index": 11,
+      "startTime": 50.9,
+      "endTime": 57.42,
+      "en": "This is Michael Baker and this is Jeremy Short.",
+      "zh": "这位是迈克尔·贝克，这位是杰里米·肖特。",
+      "role": "body"
+    },
+    {
+      "index": 12,
+      "startTime": 57.42,
+      "endTime": 60.67,
+      "en": "How do you do?",
+      "zh": "你好！",
+      "role": "body"
+    },
+    {
+      "index": 13,
+      "startTime": 60.67,
+      "endTime": 63.8,
+      "en": "They aren't very busy!",
+      "zh": "他们不怎么忙！",
+      "role": "body"
+    },
+    {
+      "index": 14,
+      "startTime": 63.8,
+      "endTime": 67.95,
+      "en": "What are their jobs?",
+      "zh": "他们是做什么工作的？",
+      "role": "body"
+    },
+    {
+      "index": 15,
+      "startTime": 67.95,
+      "endTime": 70.21,
+      "en": "They're sales reps.",
+      "zh": "他们是销售代表。",
+      "role": "body"
+    },
+    {
+      "index": 16,
+      "startTime": 70.21,
+      "endTime": 73.28,
+      "en": "They're very lazy.",
+      "zh": "他们很懒。",
+      "role": "body"
+    },
+    {
+      "index": 17,
+      "startTime": 73.28,
+      "endTime": 77.03,
+      "en": "Who is this young man?",
+      "zh": "这个年轻人是谁？",
+      "role": "body"
+    },
+    {
+      "index": 18,
+      "startTime": 77.03,
+      "endTime": 79.42,
+      "en": "This is Jim.",
+      "zh": "这位是吉姆。",
+      "role": "body"
+    },
+    {
+      "index": 19,
+      "startTime": 79.42,
+      "endTime": null,
+      "en": "He's our office assistant.",
+      "zh": "他是我们的办公室助理。",
+      "role": "body"
+    }
+  ],
+  "audio": {
+    "fileName": "017&018－How do you do.mp3",
+    "sourcePath": "content/NCE-Flow/NCE1/017&018－How do you do.mp3",
+    "exists": true
+  },
+  "source": {
+    "repository": "NCE-Flow",
+    "lrcFileName": "017&018－How do you do.lrc",
+    "lrcPath": "content/NCE-Flow/NCE1/017&018－How do you do.lrc",
+    "sourceDataFile": "content/NCE-Flow/static/data.json",
+    "generatedAt": "2026-07-23T02:59:02+00:00",
+    "generator": "scripts/generate_nce_json.py",
+    "generatorVersion": "2.0.0",
+    "metadata": {
+      "al": "新概念英语（一）",
+      "ar": "MP3 同步字幕版（美音）",
+      "ti": "How do you do?",
+      "by": "更多学习内容，请到VeryCD.com搜索“露珠”"
+    }
+  }
+}

@@ -1,0 +1,152 @@
+{
+  "schemaVersion": 1,
+  "id": "nce1-033",
+  "bookId": "nce1",
+  "bookNo": 1,
+  "lessonNo": 33,
+  "lessonRange": [
+    33,
+    34
+  ],
+  "title": "A Fine Day",
+  "titleZh": "美好的一天",
+  "question": "Where is the Jones family?",
+  "questionZh": "琼斯一家在哪里？",
+  "text": "Where is the Jones family?\n\nIt is a fine day today.\nThere are some clouds in the sky, but the sun is shining.\nMr. Jones is with his family.\nThey are walking over the bridge.\nThere are some boats on the river.\nMr. Jones and his wife are looking at them.\nSally is looking at a big ship.\nThe ship is going under the bridge.\nTim is looking at an aeroplane.\nThe aeroplane is flying over the river.",
+  "bodyText": "It is a fine day today.\nThere are some clouds in the sky, but the sun is shining.\nMr. Jones is with his family.\nThey are walking over the bridge.\nThere are some boats on the river.\nMr. Jones and his wife are looking at them.\nSally is looking at a big ship.\nThe ship is going under the bridge.\nTim is looking at an aeroplane.\nThe aeroplane is flying over the river.",
+  "bodyTextZh": "今天是个美好的日子。\n天空中有一些云朵。但是太阳在照耀着。\n琼斯先生和他的家人在一起。\n他们正在过桥。\n河上有一些船。\n琼斯先生和他的妻子正在看着它们。\n莎莉正在看一艘很大的船。\n船正从桥下穿过。\n蒂姆正在看一架飞机。\n那架飞机正在河的上空飞行。",
+  "sentences": [
+    {
+      "index": 0,
+      "startTime": 0.71,
+      "endTime": 3.26,
+      "en": "Lesson 33",
+      "zh": "第33课",
+      "role": "lesson"
+    },
+    {
+      "index": 1,
+      "startTime": 3.26,
+      "endTime": 6.02,
+      "en": "A fine day",
+      "zh": "美好的一天",
+      "role": "title"
+    },
+    {
+      "index": 2,
+      "startTime": 6.02,
+      "endTime": 11.42,
+      "en": "Listen to the tape then answer this question.",
+      "zh": "先听这段录音，然后再回答这个问题。",
+      "role": "prompt"
+    },
+    {
+      "index": 3,
+      "startTime": 11.42,
+      "endTime": 16.26,
+      "en": "Where is the Jones family?",
+      "zh": "琼斯一家在哪里？",
+      "role": "question"
+    },
+    {
+      "index": 4,
+      "startTime": 16.26,
+      "endTime": 19.97,
+      "en": "It is a fine day today.",
+      "zh": "今天是个美好的日子。",
+      "role": "body"
+    },
+    {
+      "index": 5,
+      "startTime": 19.97,
+      "endTime": 27.74,
+      "en": "There are some clouds in the sky, but the sun is shining.",
+      "zh": "天空中有一些云朵。但是太阳在照耀着。",
+      "role": "body"
+    },
+    {
+      "index": 6,
+      "startTime": 27.74,
+      "endTime": 31.78,
+      "en": "Mr. Jones is with his family.",
+      "zh": "琼斯先生和他的家人在一起。",
+      "role": "body"
+    },
+    {
+      "index": 7,
+      "startTime": 31.78,
+      "endTime": 35.83,
+      "en": "They are walking over the bridge.",
+      "zh": "他们正在过桥。",
+      "role": "body"
+    },
+    {
+      "index": 8,
+      "startTime": 35.83,
+      "endTime": 39.86,
+      "en": "There are some boats on the river.",
+      "zh": "河上有一些船。",
+      "role": "body"
+    },
+    {
+      "index": 9,
+      "startTime": 39.86,
+      "endTime": 45.73,
+      "en": "Mr. Jones and his wife are looking at them.",
+      "zh": "琼斯先生和他的妻子正在看着它们。",
+      "role": "body"
+    },
+    {
+      "index": 10,
+      "startTime": 45.73,
+      "endTime": 50.18,
+      "en": "Sally is looking at a big ship.",
+      "zh": "莎莉正在看一艘很大的船。",
+      "role": "body"
+    },
+    {
+      "index": 11,
+      "startTime": 50.18,
+      "endTime": 54.75,
+      "en": "The ship is going under the bridge.",
+      "zh": "船正从桥下穿过。",
+      "role": "body"
+    },
+    {
+      "index": 12,
+      "startTime": 54.75,
+      "endTime": 59.51,
+      "en": "Tim is looking at an aeroplane.",
+      "zh": "蒂姆正在看一架飞机。",
+      "role": "body"
+    },
+    {
+      "index": 13,
+      "startTime": 59.51,
+      "endTime": null,
+      "en": "The aeroplane is flying over the river.",
+      "zh": "那架飞机正在河的上空飞行。",
+      "role": "body"
+    }
+  ],
+  "audio": {
+    "fileName": "033&034－A Fine Day.mp3",
+    "sourcePath": "content/NCE-Flow/NCE1/033&034－A Fine Day.mp3",
+    "exists": true
+  },
+  "source": {
+    "repository": "NCE-Flow",
+    "lrcFileName": "033&034－A Fine Day.lrc",
+    "lrcPath": "content/NCE-Flow/NCE1/033&034－A Fine Day.lrc",
+    "sourceDataFile": "content/NCE-Flow/static/data.json",
+    "generatedAt": "2026-07-23T02:59:02+00:00",
+    "generator": "scripts/generate_nce_json.py",
+    "generatorVersion": "2.0.0",
+    "metadata": {
+      "al": "新概念英语（一）",
+      "ar": "MP3 同步字幕版（美音）",
+      "ti": "A Fine Day",
+      "by": "更多学习内容，请到VeryCD.com搜索“露珠”"
+    }
+  }
+}

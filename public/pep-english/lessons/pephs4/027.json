@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "id": "pephs4-027",
+  "groupId": "pephs4",
+  "unitNo": 2,
+  "sequenceNo": 27,
+  "section": "Reading and Writing",
+  "title": "What’s Cooking in Australia?",
+  "jsonPath": "pep-english/lessons/pephs4/027.json",
+  "text": "To fully appreciate Australian cuisine, you have to consider the unique nature of its wildlife and geography. For one thing, there are the wide plains in the interior of the country, which are home to millions of grazing animals. For another, there is Australia’s long coastline, which is next to all the riches of the sea. It is no wonder then that much of Australian cuisine centres around red meat and seafood.\nOne of the most popular red meats in Australia is also unique to the continent: kangaroo. This may seem strange as the kangaroo is a national symbol of Australia. However, in recent years, kangaroos have increased in number to around 45 million. These kangaroos wander onto the roads and into cities, making trouble. Their increased numbers have also harmed plants and other wildlife. As a consequence, the government is encouraging people to use these animals as food, and kangaroo has become one of the most popular items on the Australian dinner table.\nAs for seafood, many of the first Europeans who came to Australia loved the sea. Perhaps this is one reason why so many Australians live near the coast. Since the coastline is so long, each region has its own dishes that are related to the seafood found in its waters. The list of seafood available at the local fish market is like a tour of the coast: salmon, prawns, oysters, tuna, shark, crab, and many more. However, if you want to really take in the full experience, you should go to the fish market in Sydney early in the morning and see the fish being prepared for sale. Better yet, you can sign up to go deep-sea fishing.\nBut then, how is all this food cooked? Perhaps the favourite way of cooking food in Australia is the barbecue, or “barbie”. Given the fine weather, Australians love to eat outside. Casual friendliness is the key to such meals. It is a time for friends and relatives to get together and have fun. Even strangers passing through will be offered a seat, a cold drink, and something off the grill. Often these barbecues feature a “mixed grill”, which means cooking all kinds of meat, seafood, and vegetables. So, at an Australian barbecue, you don’t have to eat kangaroo—or even eat meat at all—if you don’t want to.\nBeyond this, what is Australian cooking? As Australia is a diverse country with people from many nations, Australian cooking now has flavours and cuisines from around the globe. No matter who you are and no matter what cuisine interests you, you are always sure to find a warm welcome and a full plate waiting for you in Australia.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "To fully appreciate Australian cuisine, you have to consider the unique nature of its wildlife and geography. For one thing, there are the wide plains in the interior of the country, which are home to millions of grazing animals. For another, there is Australia’s long coastline, which is next to all the riches of the sea. It is no wonder then that much of Australian cuisine centres around red meat and seafood."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "One of the most popular red meats in Australia is also unique to the continent: kangaroo. This may seem strange as the kangaroo is a national symbol of Australia. However, in recent years, kangaroos have increased in number to around 45 million. These kangaroos wander onto the roads and into cities, making trouble. Their increased numbers have also harmed plants and other wildlife. As a consequence, the government is encouraging people to use these animals as food, and kangaroo has become one of the most popular items on the Australian dinner table."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "As for seafood, many of the first Europeans who came to Australia loved the sea. Perhaps this is one reason why so many Australians live near the coast. Since the coastline is so long, each region has its own dishes that are related to the seafood found in its waters. The list of seafood available at the local fish market is like a tour of the coast: salmon, prawns, oysters, tuna, shark, crab, and many more. However, if you want to really take in the full experience, you should go to the fish market in Sydney early in the morning and see the fish being prepared for sale. Better yet, you can sign up to go deep-sea fishing."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "But then, how is all this food cooked? Perhaps the favourite way of cooking food in Australia is the barbecue, or “barbie”. Given the fine weather, Australians love to eat outside. Casual friendliness is the key to such meals. It is a time for friends and relatives to get together and have fun. Even strangers passing through will be offered a seat, a cold drink, and something off the grill. Often these barbecues feature a “mixed grill”, which means cooking all kinds of meat, seafood, and vegetables. So, at an Australian barbecue, you don’t have to eat kangaroo—or even eat meat at all—if you don’t want to."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Beyond this, what is Australian cooking? As Australia is a diverse country with people from many nations, Australian cooking now has flavours and cuisines from around the globe. No matter who you are and no matter what cuisine interests you, you are always sure to find a warm welcome and a full plate waiting for you in Australia."
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "选择性必修第四册",
+    "pageStart": 78,
+    "pageEnd": 79,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "6fc94127b322f6f5abff068bef6faa2e",
+    "pdfSize": 12330614,
+    "manualReview": {
+      "method": "visual-line-by-line-and-cross-page-order",
+      "source": "content/pep-english/raw/senior-selective-4.pdf#page=78-79",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored the five-paragraph article across the page turn; excluded sentence-completion and comprehension tasks.",
+      "splitBaselineId": "pephs4-037",
+      "splitIndex": 1,
+      "splitCount": 2
+    }
+  }
+}

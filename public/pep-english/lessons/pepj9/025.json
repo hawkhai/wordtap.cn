@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "pepj9-025",
+  "groupId": "pepj9",
+  "unitNo": 8,
+  "sequenceNo": 25,
+  "section": "Section A",
+  "title": "Where Is Linda's Schoolbag?",
+  "jsonPath": "pep-english/lessons/pepj9/025.json",
+  "text": "Linda: Mom, I'm really worried.\nMom: Why? What's wrong?\nLinda: I can't find my schoolbag.\nMom: Well, where did you last put it?\nLinda: I can't remember! I attended a concert yesterday so it might still be in the music hall.\nMom: Do you have anything valuable in your schoolbag?\nLinda: No, just my books, my pink hair band and some tennis balls.\nMom: So it can't be stolen.\nLinda: Oh, wait! I went to a picnic after the concert. I remember I had my schoolbag with me at the picnic.\nMom: So could it still be at the park?\nLinda: Yes. I left early, before the rest of my friends. I think somebody must have picked it up. I'll call them now to check if anybody has it.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Linda: Mom, I'm really worried.\nMom: Why? What's wrong?\nLinda: I can't find my schoolbag.\nMom: Well, where did you last put it?\nLinda: I can't remember! I attended a concert yesterday so it might still be in the music hall.\nMom: Do you have anything valuable in your schoolbag?\nLinda: No, just my books, my pink hair band and some tennis balls.\nMom: So it can't be stolen.\nLinda: Oh, wait! I went to a picnic after the concert. I remember I had my schoolbag with me at the picnic.\nMom: So could it still be at the park?\nLinda: Yes. I left early, before the rest of my friends. I think somebody must have picked it up. I'll call them now to check if anybody has it."
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "初中",
+    "book": "九年级全一册",
+    "pageStart": 72,
+    "pageEnd": 72,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "c6e628c22e0c2f9cfe4547699a1c95a4",
+    "pdfSize": 11088578,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/junior-9.pdf#page=72",
+      "reviewedAt": "2026-07-22",
+      "notes": "Retained only the complete 2d Linda-Mom role-play about locating the schoolbag; excluded the 2a item list, 2b fill-ins, 2c model fragment and instructions."
+    }
+  }
+}

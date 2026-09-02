@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "id": "pephr1-026",
+  "groupId": "pephr1",
+  "unitNo": 1,
+  "sequenceNo": 26,
+  "section": "Expanding Your World",
+  "title": "Teenage Life Around the World",
+  "jsonPath": "pep-english/lessons/pephr1/026.json",
+  "text": "Asha, Tanzania Hi there! My name is Asha and I'm from Tanzania. Like most teenagers, I start my day early and end it late. After school, I study at a night school to prepare for the university entrance exam. When I have time off, I prefer to be outdoors. I love nature and animals. I'm quite upset about how we treat the environment, so I do my best to help. I volunteer to plant trees and I'm a member of our school's Nature Club.\nSamika, Bangladesh Hi! I'm Samika and I'm 15. I wish I were a student, but I'm not. I had to leave school when I was 13 so that I could get a job and help my family. I work in a garment factory. It's unbelievably hard work and the days are so long. Although everyone works hard, we still find time to play and laugh together. At times like these, the world feels like a wonderful place.\nFrieder, Germany Hi, Frieder here. So, I'm 16 and I go to a high school in Munich. I'm not crazy about school—listening to a teacher isn't my thing—but I know I have to get an education. It's very difficult for young people to find a job in Europe, so I worry a lot about the future. Oh, and I'm a gaming nerd. I love Internet games so much that I have started a gaming club at my school. Maybe I'll see you online—my screen name is FastFreddy.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Asha, Tanzania Hi there! My name is Asha and I'm from Tanzania. Like most teenagers, I start my day early and end it late. After school, I study at a night school to prepare for the university entrance exam. When I have time off, I prefer to be outdoors. I love nature and animals. I'm quite upset about how we treat the environment, so I do my best to help. I volunteer to plant trees and I'm a member of our school's Nature Club."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Samika, Bangladesh Hi! I'm Samika and I'm 15. I wish I were a student, but I'm not. I had to leave school when I was 13 so that I could get a job and help my family. I work in a garment factory. It's unbelievably hard work and the days are so long. Although everyone works hard, we still find time to play and laugh together. At times like these, the world feels like a wonderful place."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Frieder, Germany Hi, Frieder here. So, I'm 16 and I go to a high school in Munich. I'm not crazy about school—listening to a teacher isn't my thing—but I know I have to get an education. It's very difficult for young people to find a job in Europe, so I worry a lot about the future. Oh, and I'm a gaming nerd. I love Internet games so much that I have started a gaming club at my school. Maybe I'll see you online—my screen name is FastFreddy."
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "必修第一册",
+    "pageStart": 83,
+    "pageEnd": 83,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "e0bf18138b24d7def28b35994a13946b",
+    "pdfSize": 14704146,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/senior-required-1.pdf#page=83",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored the complete workbook feature under its shared printed title, preserving the Asha, Samika and Frieder sections and their country labels in displayed order."
+    }
+  }
+}

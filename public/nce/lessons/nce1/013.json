@@ -1,0 +1,176 @@
+{
+  "schemaVersion": 1,
+  "id": "nce1-013",
+  "bookId": "nce1",
+  "bookNo": 1,
+  "lessonNo": 13,
+  "lessonRange": [
+    13,
+    14
+  ],
+  "title": "A New Dress",
+  "titleZh": "一条新裙子",
+  "question": "What colour is Anna's hat?",
+  "questionZh": "安娜的帽子是什么颜色的？",
+  "text": "What colour is Anna's hat?\n\nWhat colour's your new dress?\nIt's green.\nCome upstairs and see it.\nThank you.\nLook!\nHere it is!\nThat's a nice dress.\nIt's very smart.\nMy hat's new too.\nWhat colour is it?\nIt's the same colour.\nIt's green too.\nThat is a lovely hat!",
+  "bodyText": "What colour's your new dress?\nIt's green.\nCome upstairs and see it.\nThank you.\nLook!\nHere it is!\nThat's a nice dress.\nIt's very smart.\nMy hat's new too.\nWhat colour is it?\nIt's the same colour.\nIt's green  too.\nThat is a lovely hat!",
+  "bodyTextZh": "你的新裙子是什么颜色的？\n它是绿色的。\n上来看看吧。\n谢谢。\n看！\n给你！\n那条裙子真漂亮。\n它很时髦。\n我的帽子也是新买的。\n它是什么颜色的？\n颜色是一样的。\n也是绿色的。\n那是一顶非常漂亮的帽子！",
+  "sentences": [
+    {
+      "index": 0,
+      "startTime": 0.41,
+      "endTime": 2.71,
+      "en": "Lesson 13",
+      "zh": "第13课",
+      "role": "lesson"
+    },
+    {
+      "index": 1,
+      "startTime": 2.71,
+      "endTime": 5.53,
+      "en": "A new dress",
+      "zh": "一条新裙子",
+      "role": "title"
+    },
+    {
+      "index": 2,
+      "startTime": 5.53,
+      "endTime": 11.72,
+      "en": "Listen to the tape then answer this question.",
+      "zh": "先听这段录音，然后再回答这个问题。",
+      "role": "prompt"
+    },
+    {
+      "index": 3,
+      "startTime": 11.72,
+      "endTime": 16.67,
+      "en": "What colour is Anna's hat?",
+      "zh": "安娜的帽子是什么颜色的？",
+      "role": "question"
+    },
+    {
+      "index": 4,
+      "startTime": 16.67,
+      "endTime": 20.46,
+      "en": "What colour's your new dress?",
+      "zh": "你的新裙子是什么颜色的？",
+      "role": "body"
+    },
+    {
+      "index": 5,
+      "startTime": 20.46,
+      "endTime": 22.52,
+      "en": "It's green.",
+      "zh": "它是绿色的。",
+      "role": "body"
+    },
+    {
+      "index": 6,
+      "startTime": 22.52,
+      "endTime": 25.78,
+      "en": "Come upstairs and see it.",
+      "zh": "上来看看吧。",
+      "role": "body"
+    },
+    {
+      "index": 7,
+      "startTime": 25.78,
+      "endTime": 27.53,
+      "en": "Thank you.",
+      "zh": "谢谢。",
+      "role": "body"
+    },
+    {
+      "index": 8,
+      "startTime": 27.53,
+      "endTime": 28.66,
+      "en": "Look!",
+      "zh": "看！",
+      "role": "body"
+    },
+    {
+      "index": 9,
+      "startTime": 28.66,
+      "endTime": 30.79,
+      "en": "Here it is!",
+      "zh": "给你！",
+      "role": "body"
+    },
+    {
+      "index": 10,
+      "startTime": 30.79,
+      "endTime": 33.51,
+      "en": "That's a nice dress.",
+      "zh": "那条裙子真漂亮。",
+      "role": "body"
+    },
+    {
+      "index": 11,
+      "startTime": 33.51,
+      "endTime": 36.16,
+      "en": "It's very smart.",
+      "zh": "它很时髦。",
+      "role": "body"
+    },
+    {
+      "index": 12,
+      "startTime": 36.16,
+      "endTime": 39.22,
+      "en": "My hat's new too.",
+      "zh": "我的帽子也是新买的。",
+      "role": "body"
+    },
+    {
+      "index": 13,
+      "startTime": 39.22,
+      "endTime": 41.62,
+      "en": "What colour is it?",
+      "zh": "它是什么颜色的？",
+      "role": "body"
+    },
+    {
+      "index": 14,
+      "startTime": 41.62,
+      "endTime": 44.18,
+      "en": "It's the same colour.",
+      "zh": "颜色是一样的。",
+      "role": "body"
+    },
+    {
+      "index": 15,
+      "startTime": 44.18,
+      "endTime": 47.12,
+      "en": "It's green  too.",
+      "zh": "也是绿色的。",
+      "role": "body"
+    },
+    {
+      "index": 16,
+      "startTime": 47.12,
+      "endTime": null,
+      "en": "That is a lovely hat!",
+      "zh": "那是一顶非常漂亮的帽子！",
+      "role": "body"
+    }
+  ],
+  "audio": {
+    "fileName": "013&014－A New Dress.mp3",
+    "sourcePath": "content/NCE-Flow/NCE1/013&014－A New Dress.mp3",
+    "exists": true
+  },
+  "source": {
+    "repository": "NCE-Flow",
+    "lrcFileName": "013&014－A New Dress.lrc",
+    "lrcPath": "content/NCE-Flow/NCE1/013&014－A New Dress.lrc",
+    "sourceDataFile": "content/NCE-Flow/static/data.json",
+    "generatedAt": "2026-07-23T02:59:02+00:00",
+    "generator": "scripts/generate_nce_json.py",
+    "generatorVersion": "2.0.0",
+    "metadata": {
+      "al": "新概念英语（一）",
+      "ar": "MP3 同步字幕版（美音）",
+      "ti": "A New Dress",
+      "by": "更多学习内容，请到VeryCD.com搜索“露珠”"
+    }
+  }
+}

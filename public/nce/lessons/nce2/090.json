@@ -1,0 +1,127 @@
+{
+  "schemaVersion": 1,
+  "id": "nce2-090",
+  "bookId": "nce2",
+  "bookNo": 2,
+  "lessonNo": 90,
+  "lessonRange": [
+    90
+  ],
+  "title": "What's for Supper",
+  "titleZh": "晚餐吃什么？",
+  "question": "What kind of fish are they?",
+  "questionZh": "这是什么鱼？",
+  "text": "What kind of fish are they?\n\nFish and chips has always been a favourite dish in Britain, but as the oceans have been overfished, fish has become more and more expensive.\nSo it comes as a surprise to learn that giant fish are terrifying the divers on North Sea oil rigs.\nOil rigs have to be repaired frequently and divers, who often have to work in darkness a hundred feet under water, have been frightened out of their wits by giant fish bumping into them as they work.\nNow they have had special cages made to protect them from these monsters.\nThe fish are not sharks or killer whales, but favourite eating varieties like cod and skate which grow to unnatural sizes, sometimes as much as twelve feet in length.\nThree factors have caused these fish to grow so large: the warm water round the hot oil pipes under the sea; the plentiful supply of food thrown overboard by the crews on the rigs; the total absence of fishing boats around the oil rigs.\nAs a result, the fish just eat and eat and grow and grow in the lovely warm water.\nWho eats who?",
+  "bodyText": "Fish and chips has always been a favourite dish in Britain, but as the oceans have been overfished, fish has become more and more expensive.\nSo it comes as a surprise to learn that giant fish are terrifying the divers on North Sea oil rigs.\nOil rigs have to be repaired frequently and divers, who often have to work in darkness a hundred feet under water, have been frightened out of their wits by giant fish bumping into them as they work.\nNow they have had special cages made to protect them from these monsters.\nThe fish are not sharks or killer whales, but favourite eating varieties like cod and skate which grow to unnatural sizes, sometimes as much as twelve feet in length.\nThree factors have caused these fish to grow so large: the warm water round the hot oil pipes under the sea; the plentiful supply of food thrown overboard by the crews on the rigs; the total absence of fishing boats around the oil rigs.\nAs a result, the fish just eat and eat and grow and grow in the lovely warm water.\nWho eats who?",
+  "bodyTextZh": "炸鱼薯条一直是英国人喜爱的美食，但由于海洋过度捕捞，鱼类的价格越来越高。\n因此，当人们得知巨大的鱼类正在北海石油钻井平台恐吓潜水员时，确实感到十分惊讶。\n这些石油钻井平台需要频繁维修，而潜水员往往必须在百英尺深的水下工作；巨大的鱼类在潜水员作业时突然撞上他们，把他们吓得魂不附体。\n现在，他们专门制作了防护笼来保护自己免受这些怪物的伤害。\n这些鱼既不是鲨鱼，也不是虎鲸，而是人们常吃的鳕鱼和鳐鱼等鱼类，它们长得异常巨大，有些甚至长达十二英尺。\n导致这些鱼类体型如此庞大的原因有三个：一是海底热油管道周围的温暖海水；二是钻井平台工作人员扔到海里的大量食物；三是石油钻井平台周围完全没有渔船。\n因此，鱼儿在这片温暖舒适的海水里不停地吃啊吃，长啊长。\n到底谁吃谁呢？",
+  "sentences": [
+    {
+      "index": 0,
+      "startTime": 0.5,
+      "endTime": 3,
+      "en": "Lesson 90",
+      "zh": "第90课",
+      "role": "lesson"
+    },
+    {
+      "index": 1,
+      "startTime": 3,
+      "endTime": 10.32,
+      "en": "What's for Supper",
+      "zh": "晚餐吃什么？",
+      "role": "title"
+    },
+    {
+      "index": 2,
+      "startTime": 10.32,
+      "endTime": 14.64,
+      "en": "What kind of fish are they?",
+      "zh": "这是什么鱼？",
+      "role": "question"
+    },
+    {
+      "index": 3,
+      "startTime": 14.64,
+      "endTime": 27.29,
+      "en": "Fish and chips has always been a favourite dish in Britain, but as the oceans have been overfished, fish has become more and more expensive.",
+      "zh": "炸鱼薯条一直是英国人喜爱的美食，但由于海洋过度捕捞，鱼类的价格越来越高。",
+      "role": "body"
+    },
+    {
+      "index": 4,
+      "startTime": 27.29,
+      "endTime": 37.3,
+      "en": "So it comes as a surprise to learn that giant fish are terrifying the divers on North Sea oil rigs.",
+      "zh": "因此，当人们得知巨大的鱼类正在北海石油钻井平台恐吓潜水员时，确实感到十分惊讶。",
+      "role": "body"
+    },
+    {
+      "index": 5,
+      "startTime": 37.3,
+      "endTime": 54.83,
+      "en": "Oil rigs have to be repaired frequently and divers, who often have to work in darkness a hundred feet under water, have been frightened out of their wits by giant fish bumping into them as they work.",
+      "zh": "这些石油钻井平台需要频繁维修，而潜水员往往必须在百英尺深的水下工作；巨大的鱼类在潜水员作业时突然撞上他们，把他们吓得魂不附体。",
+      "role": "body"
+    },
+    {
+      "index": 6,
+      "startTime": 54.83,
+      "endTime": 61.06,
+      "en": "Now they have had special cages made to protect them from these monsters.",
+      "zh": "现在，他们专门制作了防护笼来保护自己免受这些怪物的伤害。",
+      "role": "body"
+    },
+    {
+      "index": 7,
+      "startTime": 61.06,
+      "endTime": 77.85,
+      "en": "The fish are not sharks or killer whales, but favourite eating varieties like cod and skate which grow to unnatural sizes, sometimes as much as twelve feet in length.",
+      "zh": "这些鱼既不是鲨鱼，也不是虎鲸，而是人们常吃的鳕鱼和鳐鱼等鱼类，它们长得异常巨大，有些甚至长达十二英尺。",
+      "role": "body"
+    },
+    {
+      "index": 8,
+      "startTime": 77.85,
+      "endTime": 99.95,
+      "en": "Three factors have caused these fish to grow so large: the warm water round the hot oil pipes under the sea; the plentiful supply of food thrown overboard by the crews on the rigs; the total absence of fishing boats around the oil rigs.",
+      "zh": "导致这些鱼类体型如此庞大的原因有三个：一是海底热油管道周围的温暖海水；二是钻井平台工作人员扔到海里的大量食物；三是石油钻井平台周围完全没有渔船。",
+      "role": "body"
+    },
+    {
+      "index": 9,
+      "startTime": 99.95,
+      "endTime": 109.24,
+      "en": "As a result, the fish just eat and eat and grow and grow in the lovely warm water.",
+      "zh": "因此，鱼儿在这片温暖舒适的海水里不停地吃啊吃，长啊长。",
+      "role": "body"
+    },
+    {
+      "index": 10,
+      "startTime": 109.24,
+      "endTime": null,
+      "en": "Who eats who?",
+      "zh": "到底谁吃谁呢？",
+      "role": "body"
+    }
+  ],
+  "audio": {
+    "fileName": "90－What's for Supper.mp3",
+    "sourcePath": "content/NCE-Flow/NCE2/90－What's for Supper.mp3",
+    "exists": true
+  },
+  "source": {
+    "repository": "NCE-Flow",
+    "lrcFileName": "90－What's for Supper.lrc",
+    "lrcPath": "content/NCE-Flow/NCE2/90－What's for Supper.lrc",
+    "sourceDataFile": "content/NCE-Flow/static/data.json",
+    "generatedAt": "2026-07-23T02:59:02+00:00",
+    "generator": "scripts/generate_nce_json.py",
+    "generatorVersion": "2.0.0",
+    "metadata": {
+      "al": "新概念英语（二）",
+      "ar": "MP3 同步字幕版（美音）",
+      "ti": "What's for Supper?",
+      "by": "更多学习内容，请到VeryCD.com搜索“露珠”"
+    }
+  }
+}

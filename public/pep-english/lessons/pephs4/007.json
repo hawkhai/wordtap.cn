@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "id": "pephs4-007",
+  "groupId": "pephs4",
+  "unitNo": 3,
+  "sequenceNo": 7,
+  "section": "Using Language",
+  "title": "The Case Against More Sea Exploration",
+  "jsonPath": "pep-english/lessons/pephs4/007.json",
+  "text": "When people talk of exploring the sea more, they usually mean exploiting it. Sea exploration has caused many problems and will continue to cause more.\nMore exploration means more pollution. The Deepwater Horizon spilled over 200 million gallons of oil into the sea in 2010. Plastic pollution is also bad, killing many birds and fish, and has even been found in our tap water.\nMining for resources is very damaging, especially in the Arctic. Because of climate change, there is less ice now, which means we can look for more fossil fuels further north. But if we burn these, the ice will melt more and this negative cycle will continue. Climate change is warning us that something is very wrong.\nOverfishing is another problem. Whales and dolphins are also hunted for their meat or for so-called research. Although this was banned in 1982, some countries are still “murdering” these intelligent creatures without mercy.\nThe sea is home to life, not human beings’ possessions. It is huge, but it is more sensitive than we think. If we do not protect it, future generations will not forgive us.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "When people talk of exploring the sea more, they usually mean exploiting it. Sea exploration has caused many problems and will continue to cause more."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "More exploration means more pollution. The Deepwater Horizon spilled over 200 million gallons of oil into the sea in 2010. Plastic pollution is also bad, killing many birds and fish, and has even been found in our tap water."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Mining for resources is very damaging, especially in the Arctic. Because of climate change, there is less ice now, which means we can look for more fossil fuels further north. But if we burn these, the ice will melt more and this negative cycle will continue. Climate change is warning us that something is very wrong."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Overfishing is another problem. Whales and dolphins are also hunted for their meat or for so-called research. Although this was banned in 1982, some countries are still “murdering” these intelligent creatures without mercy."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "The sea is home to life, not human beings’ possessions. It is huge, but it is more sensitive than we think. If we do not protect it, future generations will not forgive us."
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "选择性必修第四册",
+    "pageStart": 39,
+    "pageEnd": 39,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "6fc94127b322f6f5abff068bef6faa2e",
+    "pdfSize": 12330614,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/senior-selective-4.pdf#page=39",
+      "reviewedAt": "2026-07-22",
+      "notes": "Preserved all five paragraphs of Text 1 in the left column and supplied a descriptive metadata title; excluded labels and instructions.",
+      "splitBaselineId": "pephs4-018",
+      "splitIndex": 1,
+      "splitCount": 2
+    }
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "schemaVersion": 1,
+  "id": "nce2-047",
+  "bookId": "nce2",
+  "bookNo": 2,
+  "lessonNo": 47,
+  "lessonRange": [
+    47
+  ],
+  "title": "A Thirsty Ghost",
+  "titleZh": "口渴的鬼魂",
+  "question": "What evidence is there of a ghost?",
+  "questionZh": "有什么证据表明有鬼存在呢？",
+  "text": "What evidence is there of a ghost?\n\nA public house which was recently bought by Mr.Ian Thompson is up for sale.\nMr.Thompson is going to sell it because it is haunted.\nHe told me that he could not go to sleep one night because he heard a strange noise coming from the bar.\nThe next morning, he found that the doors had been blocked by chairs and the furniture had been moved.\nThough Mr.Thompson had turned the lights off before he went to bed, they were on in the morning.\nHe also said that he had found five empty whisky bottles which the ghost must have drunk the night before.\nWhen I suggested that some villagers must have come in for a free drink, Mr.Thompson shook his head.\nThe villagers have told him that they will not accept the pub even if he gives it away.",
+  "bodyText": "A public house which was recently bought by Mr.Ian Thompson is up for sale.\nMr.Thompson is going to sell it because it is haunted.\nHe told me that he could not go to sleep one night because he heard a strange noise coming from the bar.\nThe next morning, he found that the doors had been blocked by chairs and the furniture had been moved.\nThough Mr.Thompson had turned the lights off before he went to bed, they were on in the morning.\nHe also said that he had found five empty whisky bottles which the ghost must have drunk the night before.\nWhen I suggested that some villagers must have come in for a free drink, Mr.Thompson shook his head.\nThe villagers have told him that they will not accept the pub even if he gives it away.",
+  "bodyTextZh": "一家最近被伊恩·汤普森先生购买的酒吧正在出售中。\n汤普森先生打算卖掉它，因为那里闹鬼。\n他告诉我，有一天晚上他无法入睡因为他听到从酒吧里传来一阵奇怪的声音。\n第二天早上，他发现门被椅子堵住了，家具也被挪动了。\n尽管汤普森先生在睡觉前已经关掉了灯，早上灯却亮着。\n他还说，他发现了五个空威士忌酒瓶。肯定是鬼前一天晚上喝掉的。\n当我提出“肯定有一些村民来过这里”这个想法时……汤普森先生摇了摇头。\n村民们告诉他：“就算他把酒吧免费送出去，他们也不会接受的。”",
+  "sentences": [
+    {
+      "index": 0,
+      "startTime": 0.5,
+      "endTime": 3,
+      "en": "Lesson 47",
+      "zh": "第47课",
+      "role": "lesson"
+    },
+    {
+      "index": 1,
+      "startTime": 3,
+      "endTime": 10.47,
+      "en": "A Thirsty Ghost",
+      "zh": "口渴的鬼魂",
+      "role": "title"
+    },
+    {
+      "index": 2,
+      "startTime": 10.47,
+      "endTime": 15.82,
+      "en": "What evidence is there of a ghost?",
+      "zh": "有什么证据表明有鬼存在呢？",
+      "role": "question"
+    },
+    {
+      "index": 3,
+      "startTime": 15.82,
+      "endTime": 23.79,
+      "en": "A public house which was recently bought by Mr.Ian Thompson is up for sale.",
+      "zh": "一家最近被伊恩·汤普森先生购买的酒吧正在出售中。",
+      "role": "body"
+    },
+    {
+      "index": 4,
+      "startTime": 23.79,
+      "endTime": 29.63,
+      "en": "Mr.Thompson is going to sell it because it is haunted.",
+      "zh": "汤普森先生打算卖掉它，因为那里闹鬼。",
+      "role": "body"
+    },
+    {
+      "index": 5,
+      "startTime": 29.63,
+      "endTime": 38.9,
+      "en": "He told me that he could not go to sleep one night because he heard a strange noise coming from the bar.",
+      "zh": "他告诉我，有一天晚上他无法入睡因为他听到从酒吧里传来一阵奇怪的声音。",
+      "role": "body"
+    },
+    {
+      "index": 6,
+      "startTime": 38.9,
+      "endTime": 47.61,
+      "en": "The next morning, he found that the doors had been blocked by chairs and the furniture had been moved.",
+      "zh": "第二天早上，他发现门被椅子堵住了，家具也被挪动了。",
+      "role": "body"
+    },
+    {
+      "index": 7,
+      "startTime": 47.61,
+      "endTime": 56.42,
+      "en": "Though Mr.Thompson had turned the lights off before he went to bed, they were on in the morning.",
+      "zh": "尽管汤普森先生在睡觉前已经关掉了灯，早上灯却亮着。",
+      "role": "body"
+    },
+    {
+      "index": 8,
+      "startTime": 56.42,
+      "endTime": 66.68,
+      "en": "He also said that he had found five empty whisky bottles which the ghost must have drunk the night before.",
+      "zh": "他还说，他发现了五个空威士忌酒瓶。肯定是鬼前一天晚上喝掉的。",
+      "role": "body"
+    },
+    {
+      "index": 9,
+      "startTime": 66.68,
+      "endTime": 76.52,
+      "en": "When I suggested that some villagers must have come in for a free drink, Mr.Thompson shook his head.",
+      "zh": "当我提出“肯定有一些村民来过这里”这个想法时……汤普森先生摇了摇头。",
+      "role": "body"
+    },
+    {
+      "index": 10,
+      "startTime": 76.52,
+      "endTime": null,
+      "en": "The villagers have told him that they will not accept the pub even if he gives it away.",
+      "zh": "村民们告诉他：“就算他把酒吧免费送出去，他们也不会接受的。”",
+      "role": "body"
+    }
+  ],
+  "audio": {
+    "fileName": "47－A Thirsty Ghost.mp3",
+    "sourcePath": "content/NCE-Flow/NCE2/47－A Thirsty Ghost.mp3",
+    "exists": true
+  },
+  "source": {
+    "repository": "NCE-Flow",
+    "lrcFileName": "47－A Thirsty Ghost.lrc",
+    "lrcPath": "content/NCE-Flow/NCE2/47－A Thirsty Ghost.lrc",
+    "sourceDataFile": "content/NCE-Flow/static/data.json",
+    "generatedAt": "2026-07-23T02:59:02+00:00",
+    "generator": "scripts/generate_nce_json.py",
+    "generatorVersion": "2.0.0",
+    "metadata": {
+      "al": "新概念英语（二）",
+      "ar": "MP3 同步字幕版（美音）",
+      "ti": "A Thirsty Ghost",
+      "by": "更多学习内容，请到VeryCD.com搜索“露珠”"
+    }
+  }
+}

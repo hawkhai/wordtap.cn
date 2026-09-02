@@ -1,0 +1,159 @@
+{
+  "schemaVersion": 1,
+  "id": "nce2-069",
+  "bookId": "nce2",
+  "bookNo": 2,
+  "lessonNo": 69,
+  "lessonRange": [
+    69
+  ],
+  "title": "But not Murder",
+  "titleZh": "并非谋杀",
+  "question": "Do you think that the writer passed his driving test? Why?",
+  "questionZh": "你认为那位作者通过了驾驶考试吗？为什么？",
+  "text": "Do you think that the writer passed his driving test? Why?\n\nI was being tested for a driving licence for the third time.\nI had been asked to drive in heavy traffic and had done so successfully.\nAfter having been instructed to drive out of town, I began to acquire confidence.\nSure that I had passed, I was almost beginning to enjoy my test.\nThe examiner must have been pleased with my performance, for he smiled and said, 'Just one more thing Mr. Eames.\nLet us suppose that a child suddenly crosses the road in front of you.\nAs soon as I tap on the window, you must stop within five feet.'\nI continued driving and after some time, the examiner tapped loudly.\nThough the sound could be heard clearly, it took me a long time to react.\nI suddenly pressed the brake pedal hard and we were both thrown forward.\nThe examiner looked at me sadly.\n'Mr. Eames,' he said, in a mournful voice, 'you have just killed that child!'",
+  "bodyText": "I was being tested for a driving licence for the third time.\nI had been asked to drive in heavy traffic and had done so successfully.\nAfter having been instructed to drive out of town, I began to acquire confidence.\nSure that I had passed, I was almost beginning to enjoy my test.\nThe examiner must have been pleased with my performance, for he smiled and said, 'Just one more thing Mr. Eames.\nLet us suppose that a child suddenly crosses the road in front of you.\nAs soon as I tap on the window, you must stop within five feet.'\nI continued driving and after some time, the examiner tapped loudly.\nThough the sound could be heard clearly, it took me a long time to react.\nI suddenly pressed the brake pedal hard and we were both thrown forward.\nThe examiner looked at me sadly.\n'Mr. Eames,' he said, in a mournful voice, 'you have just killed that child!'",
+  "bodyTextZh": "这是我第三次参加驾照考试了。\n我曾被要求在繁忙的交通中驾驶，而且我成功地做到了。\n在接到“开车离开城镇”的指令后，我开始有了信心。\n当我确定自己已经通过了考试后，我甚至开始享受这个考试过程了。\n考官一定对我的表现很满意，因为他微笑着对我说：“还有一件事，埃姆斯先生。”\n假设突然有一个孩子在你面前横穿马路。\n“我一敲窗户，你就必须在五英尺内停下来。”\n我继续开车，过了一会儿，考官大声地敲了敲车窗。\n虽然那个声音听得非常清楚，但我还是花了很长时间才做出反应。\n我突然猛踩刹车，结果我们俩都被向前甩了出去。\n考官难过地看着我。\n“埃姆斯先生，”他用悲伤的语气说道，“你刚刚撞死了那个孩子！”",
+  "sentences": [
+    {
+      "index": 0,
+      "startTime": 0.5,
+      "endTime": 3,
+      "en": "Lesson 69",
+      "zh": "第69课",
+      "role": "lesson"
+    },
+    {
+      "index": 1,
+      "startTime": 3,
+      "endTime": 11.05,
+      "en": "But not Murder",
+      "zh": "并非谋杀",
+      "role": "title"
+    },
+    {
+      "index": 2,
+      "startTime": 11.05,
+      "endTime": 18.03,
+      "en": "Do you think that the writer passed his driving test? Why?",
+      "zh": "你认为那位作者通过了驾驶考试吗？为什么？",
+      "role": "question"
+    },
+    {
+      "index": 3,
+      "startTime": 18.03,
+      "endTime": 23.38,
+      "en": "I was being tested for a driving licence for the third time.",
+      "zh": "这是我第三次参加驾照考试了。",
+      "role": "body"
+    },
+    {
+      "index": 4,
+      "startTime": 23.38,
+      "endTime": 30.18,
+      "en": "I had been asked to drive in heavy traffic and had done so successfully.",
+      "zh": "我曾被要求在繁忙的交通中驾驶，而且我成功地做到了。",
+      "role": "body"
+    },
+    {
+      "index": 5,
+      "startTime": 30.18,
+      "endTime": 37.95,
+      "en": "After having been instructed to drive out of town, I began to acquire confidence.",
+      "zh": "在接到“开车离开城镇”的指令后，我开始有了信心。",
+      "role": "body"
+    },
+    {
+      "index": 6,
+      "startTime": 37.95,
+      "endTime": 45.04,
+      "en": "Sure that I had passed, I was almost beginning to enjoy my test.",
+      "zh": "当我确定自己已经通过了考试后，我甚至开始享受这个考试过程了。",
+      "role": "body"
+    },
+    {
+      "index": 7,
+      "startTime": 45.04,
+      "endTime": 55.66,
+      "en": "The examiner must have been pleased with my performance, for he smiled and said, 'Just one more thing Mr. Eames.",
+      "zh": "考官一定对我的表现很满意，因为他微笑着对我说：“还有一件事，埃姆斯先生。”",
+      "role": "body"
+    },
+    {
+      "index": 8,
+      "startTime": 55.66,
+      "endTime": 61.75,
+      "en": "Let us suppose that a child suddenly crosses the road in front of you.",
+      "zh": "假设突然有一个孩子在你面前横穿马路。",
+      "role": "body"
+    },
+    {
+      "index": 9,
+      "startTime": 61.75,
+      "endTime": 68.32,
+      "en": "As soon as I tap on the window, you must stop within five feet.'",
+      "zh": "“我一敲窗户，你就必须在五英尺内停下来。”",
+      "role": "body"
+    },
+    {
+      "index": 10,
+      "startTime": 68.32,
+      "endTime": 74.64,
+      "en": "I continued driving and after some time, the examiner tapped loudly.",
+      "zh": "我继续开车，过了一会儿，考官大声地敲了敲车窗。",
+      "role": "body"
+    },
+    {
+      "index": 11,
+      "startTime": 74.64,
+      "endTime": 81.62,
+      "en": "Though the sound could be heard clearly, it took me a long time to react.",
+      "zh": "虽然那个声音听得非常清楚，但我还是花了很长时间才做出反应。",
+      "role": "body"
+    },
+    {
+      "index": 12,
+      "startTime": 81.62,
+      "endTime": 87.64,
+      "en": "I suddenly pressed the brake pedal hard and we were both thrown forward.",
+      "zh": "我突然猛踩刹车，结果我们俩都被向前甩了出去。",
+      "role": "body"
+    },
+    {
+      "index": 13,
+      "startTime": 87.64,
+      "endTime": 91.22,
+      "en": "The examiner looked at me sadly.",
+      "zh": "考官难过地看着我。",
+      "role": "body"
+    },
+    {
+      "index": 14,
+      "startTime": 91.22,
+      "endTime": null,
+      "en": "'Mr. Eames,' he said, in a mournful voice, 'you have just killed that child!'",
+      "zh": "“埃姆斯先生，”他用悲伤的语气说道，“你刚刚撞死了那个孩子！”",
+      "role": "body"
+    }
+  ],
+  "audio": {
+    "fileName": "69－But not Murder.mp3",
+    "sourcePath": "content/NCE-Flow/NCE2/69－But not Murder.mp3",
+    "exists": true
+  },
+  "source": {
+    "repository": "NCE-Flow",
+    "lrcFileName": "69－But not Murder.lrc",
+    "lrcPath": "content/NCE-Flow/NCE2/69－But not Murder.lrc",
+    "sourceDataFile": "content/NCE-Flow/static/data.json",
+    "generatedAt": "2026-07-23T02:59:02+00:00",
+    "generator": "scripts/generate_nce_json.py",
+    "generatorVersion": "2.0.0",
+    "metadata": {
+      "al": "新概念英语（二）",
+      "ar": "MP3 同步字幕版（美音）",
+      "ti": "But not Murder!",
+      "by": "更多学习内容，请到VeryCD.com搜索“露珠”"
+    }
+  }
+}

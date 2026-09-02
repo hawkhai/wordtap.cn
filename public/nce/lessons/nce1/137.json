@@ -1,0 +1,200 @@
+{
+  "schemaVersion": 1,
+  "id": "nce1-137",
+  "bookId": "nce1",
+  "bookNo": 1,
+  "lessonNo": 137,
+  "lessonRange": [
+    137,
+    138
+  ],
+  "title": "A Pleasant Dream",
+  "titleZh": "一个美好的梦想",
+  "question": "What would Julie like to do, if she had the money?",
+  "questionZh": "如果朱莉有钱，她想做什么？",
+  "text": "What would Julie like to do, if she had the money?\n\nAre you doing the football pools, Brain?\nYes, I've nearly finished, Julie.\nI'm sure we'll win something this week.\nYou always say that, but we never win anything!\nWhat will you do if you win a lot of money?\nIf I win a lot of money I'll buy you a mink coat.\nI don't want a mink coat!\nI want to see the world.\nAll right.\nIf we win a lot of money we'll travel round the world and we'll stay at the best hotels.\nThen we'll return home and buy a big house in the country.\nWe'll have a beautiful garden and...\nBut if we spend all that money we'll be poor again.\nWhat'll we do then?\nIf we spend all the money we'll try and win the football pools again.\nIt's a pleasant dream but everything depends on 'if'!",
+  "bodyText": "Are you doing the football pools, Brain?\nYes, I've nearly finished, Julie.\nI'm sure we'll win something this week.\nYou always say that, but we never win anything!\nWhat will you do if you win a lot of money?\nIf I win a lot of money I'll buy you a mink coat.\nI don't want a mink coat!\nI want to see the world.\nAll right.\nIf we win a lot of money we'll travel round the world and we'll stay at the best hotels.\nThen we'll return home and buy a big house in the country.\nWe'll have a beautiful garden and...\nBut if we spend all that money we'll be poor again.\nWhat'll we do then?\nIf we spend all the money we'll try and win the football pools again.\nIt's a pleasant dream but everything depends on 'if' !",
+  "bodyTextZh": "你在填足球彩票吗，布莱恩？\n是的，我快完成了，朱莉。\n我肯定我们这周会中奖的。\n你总是这么说，但我们从来都没赢过！\n如果你赢了很多钱，你会做什么？\n如果我赢了很多钱，我会给你买一件貂皮大衣。\n我可不要貂皮大衣！\n我想去看看这个世界。\n好的。\n如果我们赢了很多钱，我们就环游世界，住最好的酒店。\n然后我们就回家，在乡下买一座大房子。\n我们将拥有一个美丽的花园，还有……\n但是如果我们把所有的钱都花掉了，我们又会变得穷困了。\n那我们该怎么办呢？\n如果我们把所有的钱都花光了，我们就再试着去赢足球彩票。\n这真是个美梦，但一切都取决于'如果'！",
+  "sentences": [
+    {
+      "index": 0,
+      "startTime": 0.8,
+      "endTime": 3.75,
+      "en": "Lesson 137",
+      "zh": "第137课",
+      "role": "lesson"
+    },
+    {
+      "index": 1,
+      "startTime": 3.75,
+      "endTime": 6.45,
+      "en": "A pleasant dream",
+      "zh": "一个美好的梦想",
+      "role": "title"
+    },
+    {
+      "index": 2,
+      "startTime": 6.45,
+      "endTime": 11.66,
+      "en": "Listen to the tape then answer this question.",
+      "zh": "请听完录音后回答这个问题：",
+      "role": "prompt"
+    },
+    {
+      "index": 3,
+      "startTime": 11.66,
+      "endTime": 18.93,
+      "en": "What would Julie like to do, if she had the money?",
+      "zh": "如果朱莉有钱，她想做什么？",
+      "role": "question"
+    },
+    {
+      "index": 4,
+      "startTime": 18.93,
+      "endTime": 23.55,
+      "en": "Are you doing the football pools, Brain?",
+      "zh": "你在填足球彩票吗，布莱恩？",
+      "role": "body"
+    },
+    {
+      "index": 5,
+      "startTime": 23.55,
+      "endTime": 26.8,
+      "en": "Yes, I've nearly finished, Julie.",
+      "zh": "是的，我快完成了，朱莉。",
+      "role": "body"
+    },
+    {
+      "index": 6,
+      "startTime": 26.8,
+      "endTime": 30.57,
+      "en": "I'm sure we'll win something this week.",
+      "zh": "我肯定我们这周会中奖的。",
+      "role": "body"
+    },
+    {
+      "index": 7,
+      "startTime": 30.57,
+      "endTime": 36.85,
+      "en": "You always say that, but we never win anything!",
+      "zh": "你总是这么说，但我们从来都没赢过！",
+      "role": "body"
+    },
+    {
+      "index": 8,
+      "startTime": 36.85,
+      "endTime": 41.72,
+      "en": "What will you do if you win a lot of money?",
+      "zh": "如果你赢了很多钱，你会做什么？",
+      "role": "body"
+    },
+    {
+      "index": 9,
+      "startTime": 41.72,
+      "endTime": 48.11,
+      "en": "If I win a lot of money I'll buy you a mink coat.",
+      "zh": "如果我赢了很多钱，我会给你买一件貂皮大衣。",
+      "role": "body"
+    },
+    {
+      "index": 10,
+      "startTime": 48.11,
+      "endTime": 51.09,
+      "en": "I don't want a mink coat!",
+      "zh": "我可不要貂皮大衣！",
+      "role": "body"
+    },
+    {
+      "index": 11,
+      "startTime": 51.09,
+      "endTime": 54.83,
+      "en": "I want to see the world.",
+      "zh": "我想去看看这个世界。",
+      "role": "body"
+    },
+    {
+      "index": 12,
+      "startTime": 54.83,
+      "endTime": 56.54,
+      "en": "All right.",
+      "zh": "好的。",
+      "role": "body"
+    },
+    {
+      "index": 13,
+      "startTime": 56.54,
+      "endTime": 65.43,
+      "en": "If we win a lot of money we'll travel round the world and we'll stay at the best hotels.",
+      "zh": "如果我们赢了很多钱，我们就环游世界，住最好的酒店。",
+      "role": "body"
+    },
+    {
+      "index": 14,
+      "startTime": 65.43,
+      "endTime": 71.97,
+      "en": "Then we'll return home and buy a big house in the country.",
+      "zh": "然后我们就回家，在乡下买一座大房子。",
+      "role": "body"
+    },
+    {
+      "index": 15,
+      "startTime": 71.97,
+      "endTime": 75.85,
+      "en": "We'll have a beautiful garden and...",
+      "zh": "我们将拥有一个美丽的花园，还有……",
+      "role": "body"
+    },
+    {
+      "index": 16,
+      "startTime": 75.85,
+      "endTime": 81.79,
+      "en": "But if we spend all that money we'll be poor again.",
+      "zh": "但是如果我们把所有的钱都花掉了，我们又会变得穷困了。",
+      "role": "body"
+    },
+    {
+      "index": 17,
+      "startTime": 81.79,
+      "endTime": 85.3,
+      "en": "What'll we do then?",
+      "zh": "那我们该怎么办呢？",
+      "role": "body"
+    },
+    {
+      "index": 18,
+      "startTime": 85.3,
+      "endTime": 92.33,
+      "en": "If we spend all the money we'll try and win the football pools again.",
+      "zh": "如果我们把所有的钱都花光了，我们就再试着去赢足球彩票。",
+      "role": "body"
+    },
+    {
+      "index": 19,
+      "startTime": 92.33,
+      "endTime": null,
+      "en": "It's a pleasant dream but everything depends on 'if' !",
+      "zh": "这真是个美梦，但一切都取决于'如果'！",
+      "role": "body"
+    }
+  ],
+  "audio": {
+    "fileName": "137&138－A Pleasant Dream.mp3",
+    "sourcePath": "content/NCE-Flow/NCE1/137&138－A Pleasant Dream.mp3",
+    "exists": true
+  },
+  "source": {
+    "repository": "NCE-Flow",
+    "lrcFileName": "137&138－A Pleasant Dream.lrc",
+    "lrcPath": "content/NCE-Flow/NCE1/137&138－A Pleasant Dream.lrc",
+    "sourceDataFile": "content/NCE-Flow/static/data.json",
+    "generatedAt": "2026-07-23T02:59:02+00:00",
+    "generator": "scripts/generate_nce_json.py",
+    "generatorVersion": "2.0.0",
+    "metadata": {
+      "al": "新概念英语（一）",
+      "ar": "MP3 同步字幕版（美音）",
+      "ti": "A Pleasant Dream",
+      "by": "更多学习内容，请到VeryCD.com搜索“露珠”"
+    }
+  }
+}

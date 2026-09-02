@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "pepj7b-002",
+  "groupId": "pepj7b",
+  "unitNo": 2,
+  "sequenceNo": 2,
+  "section": "Section B",
+  "title": "Tony and Mary's Habits",
+  "jsonPath": "pep-english/lessons/pepj7b/002.json",
+  "text": "Hi! I'm Tony. I don't like to get up early. In the morning, I get up at eight. Then I go to school at eight thirty. I don't have much time for breakfast, so I usually eat very quickly. For lunch, I usually eat hamburgers. After school, I sometimes play basketball for half an hour. When I get home, I always do my homework first. In the evening, I either watch TV or play computer games. At ten thirty, I brush my teeth and then I go to bed.\nMary is my sister. She usually gets up at six thirty. Then she always takes a shower and eats a good breakfast. After that, she goes to school at eight thirty. At twelve, she eats lots of fruit and vegetables for lunch. After lunch, she sometimes plays volleyball. She always eats ice-cream after dinner. She knows it's not good for her, but it tastes good! In the evening, she does her homework and usually swims or takes a walk. At nine thirty, she goes to bed.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Hi! I'm Tony. I don't like to get up early. In the morning, I get up at eight. Then I go to school at eight thirty. I don't have much time for breakfast, so I usually eat very quickly. For lunch, I usually eat hamburgers. After school, I sometimes play basketball for half an hour. When I get home, I always do my homework first. In the evening, I either watch TV or play computer games. At ten thirty, I brush my teeth and then I go to bed."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Mary is my sister. She usually gets up at six thirty. Then she always takes a shower and eats a good breakfast. After that, she goes to school at eight thirty. At twelve, she eats lots of fruit and vegetables for lunch. After lunch, she sometimes plays volleyball. She always eats ice-cream after dinner. She knows it's not good for her, but it tastes good! In the evening, she does her homework and usually swims or takes a walk. At nine thirty, she goes to bed."
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "初中",
+    "book": "七年级下册",
+    "pageStart": 21,
+    "pageEnd": 21,
+    "extractionMode": "ocr",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "9336b53d5a44f9244f62f6fb10720914",
+    "pdfSize": 17821241,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/junior-7b.pdf#page=21",
+      "reviewedAt": "2026-07-22",
+      "notes": "Kept the two prose paragraphs inside the reading box; removed the 2b question and 2c exercise instruction mixed into OCR output."
+    }
+  }
+}

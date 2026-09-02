@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "pephs2-005",
+  "groupId": "pephs2",
+  "unitNo": 1,
+  "sequenceNo": 5,
+  "section": "Project",
+  "title": "Goldfish Shark-Fin",
+  "jsonPath": "pep-english/lessons/pephs2/005.json",
+  "text": "Presenter: Does your goldfish suffer from low self-confidence? Is he afraid to go out into deep water? Do female goldfish refuse to return his calls? Then you can buy him our new Goldfish Shark-Fin! For just 999 yuan, you can turn your goldfish into a real go-getter!\nWoman: Since I bought the Goldfish Shark-Fin for my Henry, he has turned into a new fish! Now he swims with the big fish! I’m so proud of him!\nPresenter: You too can change the life of your fish! For just 999 yuan! Hurry! Buy it today!",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Presenter: Does your goldfish suffer from low self-confidence? Is he afraid to go out into deep water? Do female goldfish refuse to return his calls? Then you can buy him our new Goldfish Shark-Fin! For just 999 yuan, you can turn your goldfish into a real go-getter!\nWoman: Since I bought the Goldfish Shark-Fin for my Henry, he has turned into a new fish! Now he swims with the big fish! I’m so proud of him!\nPresenter: You too can change the life of your fish! For just 999 yuan! Hurry! Buy it today!"
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "选择性必修第二册",
+    "pageStart": 18,
+    "pageEnd": 18,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "1a701f2205298de95ea59cfc71eb83cd",
+    "pdfSize": 9968316,
+    "manualReview": {
+      "method": "visual-line-by-line-adjacent-page-recovery",
+      "source": "content/pep-english/raw/senior-selective-2.pdf#page=18",
+      "reviewedAt": "2026-07-22",
+      "notes": "The baseline page 17 contains only incomplete progress exercises, but adjacent-page boundary inspection revealed this complete three-turn model advertisement on page 18; retained it as a Project lesson and excluded all project instructions and photographs."
+    }
+  }
+}

@@ -1,0 +1,240 @@
+{
+  "schemaVersion": 1,
+  "id": "nce1-123",
+  "bookId": "nce1",
+  "bookNo": 1,
+  "lessonNo": 123,
+  "lessonRange": [
+    123,
+    124
+  ],
+  "title": "A Trip to Australia",
+  "titleZh": "澳大利亚之旅",
+  "question": "Who is the man with the beard?",
+  "questionZh": "那个留着胡子的男人是谁？",
+  "text": "Who is the man with the beard?\n\nLook, Scott.\nThis is a photograph I took during my trip to Australia.\nLet me see it, Mike.\nThis is a good photograph.\nWho are these people?\nThey're people I met during the trip.\nThat's the ship we travelled on.\nWhat a beautiful ship!\nWho's this?\nThat's the man I told you about.\nRemember?\nAh yes.\nThe one who offered you a job in Australia.\nThat's right.\nWho's this?\nGuess!\nIt's not you, is it?\nThat's right.\nI grew a beard during the trip, but I shaved it off when I came home.\nWhy did you shave it off?\nMy wife didn't like it!",
+  "bodyText": "Look, Scott.\nThis is a photograph I took during my trip to Australia.\nLet me see it, Mike.\nThis is a good photograph.\nWho are these people?\nThey're people I met during the trip.\nThat's the ship we travelled on.\nWhat a beautiful ship!\nWho's this?\nThat's the man I told you about.\nRemember?\nAh yes.\nThe one who offered you a job in Australia.\nThat's right.\nWho's this?\nGuess!\nIt's not you, is it?\nThat's right.\nI grew a beard during the trip, but I shaved it off when I came home.\nWhy did you shave it off?\nMy wife didn't like it!",
+  "bodyTextZh": "看，斯科特。\n这是我在澳大利亚旅行时拍的照片。\n让我看看，迈克。\n这张照片真不错！\n这些人是谁？\n他们是我在旅行中遇到的人。\n那就是我们乘坐的船。\n多漂亮的船啊！\n这是谁？\n就是我跟你提过的那个人。\n记得吗？\n啊，对。\n就是那个在澳大利亚给你提供工作机会的人。\n没错。\n这是谁？\n猜猜看！\n肯定不是你吧？\n没错。\n我在旅途中留了胡子，但回家后就把它刮掉了。\n你为什么要刮掉胡子呢？\n我妻子不喜欢！",
+  "sentences": [
+    {
+      "index": 0,
+      "startTime": 0.73,
+      "endTime": 4,
+      "en": "Lesson 123",
+      "zh": "第123课",
+      "role": "lesson"
+    },
+    {
+      "index": 1,
+      "startTime": 4,
+      "endTime": 7.35,
+      "en": "A trip to Australia",
+      "zh": "澳大利亚之旅",
+      "role": "title"
+    },
+    {
+      "index": 2,
+      "startTime": 7.35,
+      "endTime": 12.94,
+      "en": "Listen to the tape then answer this question.",
+      "zh": "听完录音后，请回答这个问题：",
+      "role": "prompt"
+    },
+    {
+      "index": 3,
+      "startTime": 12.94,
+      "endTime": 17.83,
+      "en": "Who is the man with the beard?",
+      "zh": "那个留着胡子的男人是谁？",
+      "role": "question"
+    },
+    {
+      "index": 4,
+      "startTime": 17.83,
+      "endTime": 19.99,
+      "en": "Look, Scott.",
+      "zh": "看，斯科特。",
+      "role": "body"
+    },
+    {
+      "index": 5,
+      "startTime": 19.99,
+      "endTime": 26.64,
+      "en": "This is a photograph I took during my trip to Australia.",
+      "zh": "这是我在澳大利亚旅行时拍的照片。",
+      "role": "body"
+    },
+    {
+      "index": 6,
+      "startTime": 26.64,
+      "endTime": 29.24,
+      "en": "Let me see it, Mike.",
+      "zh": "让我看看，迈克。",
+      "role": "body"
+    },
+    {
+      "index": 7,
+      "startTime": 29.24,
+      "endTime": 31.95,
+      "en": "This is a good photograph.",
+      "zh": "这张照片真不错！",
+      "role": "body"
+    },
+    {
+      "index": 8,
+      "startTime": 31.95,
+      "endTime": 35.04,
+      "en": "Who are these people?",
+      "zh": "这些人是谁？",
+      "role": "body"
+    },
+    {
+      "index": 9,
+      "startTime": 35.04,
+      "endTime": 39.49,
+      "en": "They're people I met during the trip.",
+      "zh": "他们是我在旅行中遇到的人。",
+      "role": "body"
+    },
+    {
+      "index": 10,
+      "startTime": 39.49,
+      "endTime": 42.39,
+      "en": "That's the ship we travelled on.",
+      "zh": "那就是我们乘坐的船。",
+      "role": "body"
+    },
+    {
+      "index": 11,
+      "startTime": 42.39,
+      "endTime": 45.01,
+      "en": "What a beautiful ship!",
+      "zh": "多漂亮的船啊！",
+      "role": "body"
+    },
+    {
+      "index": 12,
+      "startTime": 45.01,
+      "endTime": 47.12,
+      "en": "Who's this?",
+      "zh": "这是谁？",
+      "role": "body"
+    },
+    {
+      "index": 13,
+      "startTime": 47.12,
+      "endTime": 50.19,
+      "en": "That's the man I told you about.",
+      "zh": "就是我跟你提过的那个人。",
+      "role": "body"
+    },
+    {
+      "index": 14,
+      "startTime": 50.19,
+      "endTime": 51.58,
+      "en": "Remember?",
+      "zh": "记得吗？",
+      "role": "body"
+    },
+    {
+      "index": 15,
+      "startTime": 51.58,
+      "endTime": 53.1,
+      "en": "Ah yes.",
+      "zh": "啊，对。",
+      "role": "body"
+    },
+    {
+      "index": 16,
+      "startTime": 53.1,
+      "endTime": 57.44,
+      "en": "The one who offered you a job in Australia.",
+      "zh": "就是那个在澳大利亚给你提供工作机会的人。",
+      "role": "body"
+    },
+    {
+      "index": 17,
+      "startTime": 57.44,
+      "endTime": 58.9,
+      "en": "That's right.",
+      "zh": "没错。",
+      "role": "body"
+    },
+    {
+      "index": 18,
+      "startTime": 58.9,
+      "endTime": 60.64,
+      "en": "Who's this?",
+      "zh": "这是谁？",
+      "role": "body"
+    },
+    {
+      "index": 19,
+      "startTime": 60.64,
+      "endTime": 61.74,
+      "en": "Guess!",
+      "zh": "猜猜看！",
+      "role": "body"
+    },
+    {
+      "index": 20,
+      "startTime": 61.74,
+      "endTime": 64.17,
+      "en": "It's not you, is it?",
+      "zh": "肯定不是你吧？",
+      "role": "body"
+    },
+    {
+      "index": 21,
+      "startTime": 64.17,
+      "endTime": 66.73,
+      "en": "That's right.",
+      "zh": "没错。",
+      "role": "body"
+    },
+    {
+      "index": 22,
+      "startTime": 66.73,
+      "endTime": 73.5,
+      "en": "I grew a beard during the trip, but I shaved it off when I came home.",
+      "zh": "我在旅途中留了胡子，但回家后就把它刮掉了。",
+      "role": "body"
+    },
+    {
+      "index": 23,
+      "startTime": 73.5,
+      "endTime": 76.16,
+      "en": "Why did you shave it off?",
+      "zh": "你为什么要刮掉胡子呢？",
+      "role": "body"
+    },
+    {
+      "index": 24,
+      "startTime": 76.16,
+      "endTime": null,
+      "en": "My wife didn't like it!",
+      "zh": "我妻子不喜欢！",
+      "role": "body"
+    }
+  ],
+  "audio": {
+    "fileName": "123&124－A Trip to Australia.mp3",
+    "sourcePath": "content/NCE-Flow/NCE1/123&124－A Trip to Australia.mp3",
+    "exists": true
+  },
+  "source": {
+    "repository": "NCE-Flow",
+    "lrcFileName": "123&124－A Trip to Australia.lrc",
+    "lrcPath": "content/NCE-Flow/NCE1/123&124－A Trip to Australia.lrc",
+    "sourceDataFile": "content/NCE-Flow/static/data.json",
+    "generatedAt": "2026-07-23T02:59:02+00:00",
+    "generator": "scripts/generate_nce_json.py",
+    "generatorVersion": "2.0.0",
+    "metadata": {
+      "al": "新概念英语（一）",
+      "ar": "MP3 同步字幕版（美音）",
+      "ti": "A Trip to Australia",
+      "by": "更多学习内容，请到VeryCD.com搜索“露珠”"
+    }
+  }
+}

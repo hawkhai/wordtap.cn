@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "pepj8a-015",
+  "groupId": "pepj8a",
+  "unitNo": 7,
+  "sequenceNo": 15,
+  "section": "Section B",
+  "title": "Do You Think You Will Have Your Own Robot?",
+  "jsonPath": "pep-english/lessons/pepj8a/015.json",
+  "text": "When we watch movies about the future, we sometimes see robots. They are usually like human servants. They help with the housework and do jobs like working in dirty or dangerous places.\nToday there are already robots working in factories. Some can help to build cars, and they do simple jobs over and over again. Fewer people will do such jobs in the future because they are boring, but robots will never get bored.\nScientists are now trying to make robots look like humans and do the same things as we do. Some robots in Japan can walk and dance. They are fun to watch. However, some scientists believe that although we can make robots move like people, it will be difficult to make them really think like a human. For example, scientist James White thinks that robots will never be able to wake up and know where they are. But many scientists disagree with Mr. White. They think that robots will even be able to talk like humans in 25 to 50 years.\nSome scientists believe that there will be more robots in the future. However, they agree it may take hundreds of years. These new robots will have many different shapes. Some will look like humans, and others might look like animals. In India, for example, scientists made robots that look like snakes. If buildings fall down with people inside, these snake robots can help look for people under the buildings. This was not possible 20 years ago, but computers and rockets also seemed impossible 100 years ago. We never know what will happen in the future!",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "When we watch movies about the future, we sometimes see robots. They are usually like human servants. They help with the housework and do jobs like working in dirty or dangerous places."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Today there are already robots working in factories. Some can help to build cars, and they do simple jobs over and over again. Fewer people will do such jobs in the future because they are boring, but robots will never get bored."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Scientists are now trying to make robots look like humans and do the same things as we do. Some robots in Japan can walk and dance. They are fun to watch. However, some scientists believe that although we can make robots move like people, it will be difficult to make them really think like a human. For example, scientist James White thinks that robots will never be able to wake up and know where they are. But many scientists disagree with Mr. White. They think that robots will even be able to talk like humans in 25 to 50 years."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Some scientists believe that there will be more robots in the future. However, they agree it may take hundreds of years. These new robots will have many different shapes. Some will look like humans, and others might look like animals. In India, for example, scientists made robots that look like snakes. If buildings fall down with people inside, these snake robots can help look for people under the buildings. This was not possible 20 years ago, but computers and rockets also seemed impossible 100 years ago. We never know what will happen in the future!"
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "初中",
+    "book": "八年级上册",
+    "pageStart": 64,
+    "pageEnd": 64,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "24fcd352dca21a6ee547539f550ed35c",
+    "pdfSize": 9469090,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/junior-8a.pdf#page=64",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored all four numbered article paragraphs and printed title, corrected Section B metadata, and excluded activities 2a and the paragraph-matching prompts above the article."
+    }
+  }
+}

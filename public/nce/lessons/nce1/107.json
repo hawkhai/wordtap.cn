@@ -1,0 +1,216 @@
+{
+  "schemaVersion": 1,
+  "id": "nce1-107",
+  "bookId": "nce1",
+  "bookNo": 1,
+  "lessonNo": 107,
+  "lessonRange": [
+    107,
+    108
+  ],
+  "title": "It's Too Small.",
+  "titleZh": "它太小了。",
+  "question": "What kind of dress does the Lady want?",
+  "questionZh": "这位女士想要什么样的裙子呢？",
+  "text": "What kind of dress does the Lady want?\n\nDo you like this dress, madam?\nI like the colour very much.\nIt's a lovely dress, but it's too small for me.\nWhat about this one?\nIt's a lovely dress.\nIt's very smart.\nShort skirts are in fashion now.\nWould you like to try it?\nAll right.\nI'm afraid this green dress is too small for me as well.\nIt's smaller than the blue one.\nI don't like the colour either.\nIt doesn't suit me at all.\nI think the blue dress is prettier.\nCould you show me another blue dress?\nI want a dress like that one, but it must be my size.\nI'm afraid I haven't got a larger dress.\nThis is the largest dress in the shop.",
+  "bodyText": "Do you like this dress, madam?\nI like the colour very much.\nIt's a lovely dress, but it's too small for me.\nWhat about this one?\nIt's a lovely dress.\nIt's very smart.\nShort skirts are in fashion now.\nWould you like to try it?\nAll right.\nI'm afraid this green dress is too small for me as well.\nIt's smaller than the blue one.\nI don't like the colour either.\nIt doesn't suit me at all.\nI think the blue dress is prettier.\nCould you show me another blue dress?\nI want a dress like that one, but it must be my size.\nI'm afraid I haven't got a larger dress.\nThis is the largest dress in the shop.",
+  "bodyTextZh": "夫人，您喜欢这条裙子吗？\n我非常喜欢这个颜色。\n这条裙子很漂亮，不过对我来说太小了。\n这个怎么样？\n这是一条非常漂亮的裙子。\n它很时髦。\n短裙现在很流行。\n你想试试吗？\n好的。\n恐怕这条绿色的裙子对我来说也太小了。\n它比那条蓝色的要小。\n我也不喜欢这个颜色。\n这完全不适合我。\n我觉得那条蓝色的裙子更漂亮。\n能给我看看另一件蓝色的连衣裙吗？\n我想要一条像那样的裙子，但它必须是我的尺码。\n恐怕我没有更大号的裙子了。\n这是店里最大号的连衣裙。",
+  "sentences": [
+    {
+      "index": 0,
+      "startTime": 0.7,
+      "endTime": 4.06,
+      "en": "Lesson 107",
+      "zh": "第107课",
+      "role": "lesson"
+    },
+    {
+      "index": 1,
+      "startTime": 4.06,
+      "endTime": 7.33,
+      "en": "It's too small.",
+      "zh": "它太小了。",
+      "role": "title"
+    },
+    {
+      "index": 2,
+      "startTime": 7.33,
+      "endTime": 13.35,
+      "en": "Listen to the tape then answer this question.",
+      "zh": "先听这段录音，然后再回答这个问题。",
+      "role": "prompt"
+    },
+    {
+      "index": 3,
+      "startTime": 13.35,
+      "endTime": 19.27,
+      "en": "What kind of dress does the Lady want?",
+      "zh": "这位女士想要什么样的裙子呢？",
+      "role": "question"
+    },
+    {
+      "index": 4,
+      "startTime": 19.27,
+      "endTime": 23.43,
+      "en": "Do you like this dress, madam?",
+      "zh": "夫人，您喜欢这条裙子吗？",
+      "role": "body"
+    },
+    {
+      "index": 5,
+      "startTime": 23.43,
+      "endTime": 27.07,
+      "en": "I like the colour very much.",
+      "zh": "我非常喜欢这个颜色。",
+      "role": "body"
+    },
+    {
+      "index": 6,
+      "startTime": 27.07,
+      "endTime": 33.33,
+      "en": "It's a lovely dress, but it's too small for me.",
+      "zh": "这条裙子很漂亮，不过对我来说太小了。",
+      "role": "body"
+    },
+    {
+      "index": 7,
+      "startTime": 33.33,
+      "endTime": 35.78,
+      "en": "What about this one?",
+      "zh": "这个怎么样？",
+      "role": "body"
+    },
+    {
+      "index": 8,
+      "startTime": 35.78,
+      "endTime": 38.4,
+      "en": "It's a lovely dress.",
+      "zh": "这是一条非常漂亮的裙子。",
+      "role": "body"
+    },
+    {
+      "index": 9,
+      "startTime": 38.4,
+      "endTime": 40.98,
+      "en": "It's very smart.",
+      "zh": "它很时髦。",
+      "role": "body"
+    },
+    {
+      "index": 10,
+      "startTime": 40.98,
+      "endTime": 44.68,
+      "en": "Short skirts are in fashion now.",
+      "zh": "短裙现在很流行。",
+      "role": "body"
+    },
+    {
+      "index": 11,
+      "startTime": 44.68,
+      "endTime": 47.67,
+      "en": "Would you like to try it?",
+      "zh": "你想试试吗？",
+      "role": "body"
+    },
+    {
+      "index": 12,
+      "startTime": 47.67,
+      "endTime": 49.82,
+      "en": "All right.",
+      "zh": "好的。",
+      "role": "body"
+    },
+    {
+      "index": 13,
+      "startTime": 49.82,
+      "endTime": 57.91,
+      "en": "I'm afraid this green dress is too small for me as well.",
+      "zh": "恐怕这条绿色的裙子对我来说也太小了。",
+      "role": "body"
+    },
+    {
+      "index": 14,
+      "startTime": 57.91,
+      "endTime": 62.59,
+      "en": "It's smaller than the blue one.",
+      "zh": "它比那条蓝色的要小。",
+      "role": "body"
+    },
+    {
+      "index": 15,
+      "startTime": 62.59,
+      "endTime": 66.22,
+      "en": "I don't like the colour either.",
+      "zh": "我也不喜欢这个颜色。",
+      "role": "body"
+    },
+    {
+      "index": 16,
+      "startTime": 66.22,
+      "endTime": 70.03,
+      "en": "It doesn't suit me at all.",
+      "zh": "这完全不适合我。",
+      "role": "body"
+    },
+    {
+      "index": 17,
+      "startTime": 70.03,
+      "endTime": 74.77,
+      "en": "I think the blue dress is prettier.",
+      "zh": "我觉得那条蓝色的裙子更漂亮。",
+      "role": "body"
+    },
+    {
+      "index": 18,
+      "startTime": 74.77,
+      "endTime": 79.37,
+      "en": "Could you show me another blue dress?",
+      "zh": "能给我看看另一件蓝色的连衣裙吗？",
+      "role": "body"
+    },
+    {
+      "index": 19,
+      "startTime": 79.37,
+      "endTime": 87.34,
+      "en": "I want a dress like that one, but it must be my size.",
+      "zh": "我想要一条像那样的裙子，但它必须是我的尺码。",
+      "role": "body"
+    },
+    {
+      "index": 20,
+      "startTime": 87.34,
+      "endTime": 92.57,
+      "en": "I'm afraid I haven't got a larger dress.",
+      "zh": "恐怕我没有更大号的裙子了。",
+      "role": "body"
+    },
+    {
+      "index": 21,
+      "startTime": 92.57,
+      "endTime": null,
+      "en": "This is the largest dress in the shop.",
+      "zh": "这是店里最大号的连衣裙。",
+      "role": "body"
+    }
+  ],
+  "audio": {
+    "fileName": "107&108－It's Too Small..mp3",
+    "sourcePath": "content/NCE-Flow/NCE1/107&108－It's Too Small..mp3",
+    "exists": true
+  },
+  "source": {
+    "repository": "NCE-Flow",
+    "lrcFileName": "107&108－It's Too Small..lrc",
+    "lrcPath": "content/NCE-Flow/NCE1/107&108－It's Too Small..lrc",
+    "sourceDataFile": "content/NCE-Flow/static/data.json",
+    "generatedAt": "2026-07-23T02:59:02+00:00",
+    "generator": "scripts/generate_nce_json.py",
+    "generatorVersion": "2.0.0",
+    "metadata": {
+      "al": "新概念英语（一）",
+      "ar": "MP3 同步字幕版（美音）",
+      "ti": "It's Too Small.",
+      "by": "更多学习内容，请到VeryCD.com搜索“露珠”"
+    }
+  }
+}

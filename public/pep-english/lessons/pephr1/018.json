@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "pephr1-018",
+  "groupId": "pephr1",
+  "unitNo": 5,
+  "sequenceNo": 18,
+  "section": "Listening and Speaking",
+  "title": "Why Study French?",
+  "jsonPath": "pep-english/lessons/pephr1/018.json",
+  "text": "A: What language do you want to study?\nB: I really want to study French. I think that the French language sounds beautiful.\nA: Why? Do you want to go to France some day?\nB: Yes, I'd love to. Also, French is used by many international organisations around the world. Do you know that FIFA's full name is in French?\nA: Oh, I remember that. But I don't know how to pronounce it.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "A: What language do you want to study?\nB: I really want to study French. I think that the French language sounds beautiful.\nA: Why? Do you want to go to France some day?\nB: Yes, I'd love to. Also, French is used by many international organisations around the world. Do you know that FIFA's full name is in French?\nA: Oh, I remember that. But I don't know how to pronounce it."
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "必修第一册",
+    "pageStart": 68,
+    "pageEnd": 68,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "e0bf18138b24d7def28b35994a13946b",
+    "pdfSize": 14704146,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/senior-required-1.pdf#page=68",
+      "reviewedAt": "2026-07-22",
+      "notes": "Kept the complete five-turn model conversation about studying French; removed three isolated speech bubbles, pronunciation instructions and the Richard Lederer excerpt that is explicitly truncated at both ellipses, and corrected the section metadata."
+    }
+  }
+}

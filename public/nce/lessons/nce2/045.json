@@ -1,0 +1,143 @@
+{
+  "schemaVersion": 1,
+  "id": "nce2-045",
+  "bookId": "nce2",
+  "bookNo": 2,
+  "lessonNo": 45,
+  "lessonRange": [
+    45
+  ],
+  "title": "A Clear Conscience",
+  "titleZh": "问心无愧",
+  "question": "How did Sam get his money back?",
+  "questionZh": "萨姆是怎么把钱拿回来的？",
+  "text": "How did Sam get his money back?\n\nThe whole village soon learnt that a large sum of money had been lost.\nSam Benton, the local butcher, had lost his wallet while taking his savings to the post office.\nSam was sure that the wallet must have been found by one of the villagers, but it was not returned to him.\nThree months passed, and then one morning, Sam found his wallet outside his front door.\nIt had been wrapped up in newspaper and it contained half the money he had lost, together with a note which said:\n'A thief, yes, but only 50 per cent a thief!'\nTwo months later, some more money was sent to Sam with another note:\n'Only 25 per cent a thief now!'\nIn time, all Sam's money was paid back in this way.\nThe last note said: 'I am 100 per cent honest now!'",
+  "bodyText": "The whole village soon learnt that a large sum of money had been lost.\nSam Benton, the local butcher, had lost his wallet while taking his savings to the post office.\nSam was sure that the wallet must have been found by one of the villagers, but it was not returned to him.\nThree months passed, and then one morning, Sam found his wallet outside his front door.\nIt had been wrapped up in newspaper and it contained half the money he had lost, together with a note which said:\n'A thief, yes, but only 50 per cent a thief!'\nTwo months later, some more money was sent to Sam with another note:\n'Only 25 per cent a thief now!'\nIn time, all Sam's money was paid back in this way.\nThe last note said: 'I am 100 per cent honest now!'",
+  "bodyTextZh": "整个村庄很快都知道有一大笔钱丢失了。\n山姆·本顿，当地的肉铺老板……他在去邮局存钱的时候丢失了钱包。\n萨姆确信那个钱包一定是被某个村民找到的。但是，那个东西并没有被归还给他。\n三个月过去了，一天早晨，山姆发现他的钱包放在自家前门外面。\n它被用报纸包了起来，里面装着他丢失的钱的一半。还附有一张纸条，上面写着：\n“他确实是个小偷，但只能算是个‘50%的小偷’罢了！”\n两个月后，又有一些钱被寄给了萨姆，并附上了一张便条。\n“现在只有25%的人是小偷了！”\n随着时间的推移，山姆的所有钱都通过这种方式被还清了。\n最后一张纸条上写着：“现在我100%是诚实的了！”",
+  "sentences": [
+    {
+      "index": 0,
+      "startTime": 0.5,
+      "endTime": 3,
+      "en": "Lesson 45",
+      "zh": "第45课",
+      "role": "lesson"
+    },
+    {
+      "index": 1,
+      "startTime": 3,
+      "endTime": 10.18,
+      "en": "A Clear Conscience",
+      "zh": "问心无愧",
+      "role": "title"
+    },
+    {
+      "index": 2,
+      "startTime": 10.18,
+      "endTime": 14.7,
+      "en": "How did Sam get his money back?",
+      "zh": "萨姆是怎么把钱拿回来的？",
+      "role": "question"
+    },
+    {
+      "index": 3,
+      "startTime": 14.7,
+      "endTime": 21.01,
+      "en": "The whole village soon learnt that a large sum of money had been lost.",
+      "zh": "整个村庄很快都知道有一大笔钱丢失了。",
+      "role": "body"
+    },
+    {
+      "index": 4,
+      "startTime": 21.01,
+      "endTime": 30.29,
+      "en": "Sam Benton, the local butcher, had lost his wallet while taking his savings to the post office.",
+      "zh": "山姆·本顿，当地的肉铺老板……他在去邮局存钱的时候丢失了钱包。",
+      "role": "body"
+    },
+    {
+      "index": 5,
+      "startTime": 30.29,
+      "endTime": 40.43,
+      "en": "Sam was sure that the wallet must have been found by one of the villagers, but it was not returned to him.",
+      "zh": "萨姆确信那个钱包一定是被某个村民找到的。但是，那个东西并没有被归还给他。",
+      "role": "body"
+    },
+    {
+      "index": 6,
+      "startTime": 40.43,
+      "endTime": 49.07,
+      "en": "Three months passed, and then one morning, Sam found his wallet outside his front door.",
+      "zh": "三个月过去了，一天早晨，山姆发现他的钱包放在自家前门外面。",
+      "role": "body"
+    },
+    {
+      "index": 7,
+      "startTime": 49.07,
+      "endTime": 59.06,
+      "en": "It had been wrapped up in newspaper and it contained half the money he had lost, together with a note which said:",
+      "zh": "它被用报纸包了起来，里面装着他丢失的钱的一半。还附有一张纸条，上面写着：",
+      "role": "body"
+    },
+    {
+      "index": 8,
+      "startTime": 59.06,
+      "endTime": 65.13,
+      "en": "'A thief, yes, but only 50 per cent a thief!'",
+      "zh": "“他确实是个小偷，但只能算是个‘50%的小偷’罢了！”",
+      "role": "body"
+    },
+    {
+      "index": 9,
+      "startTime": 65.13,
+      "endTime": 72.12,
+      "en": "Two months later, some more money was sent to Sam with another note:",
+      "zh": "两个月后，又有一些钱被寄给了萨姆，并附上了一张便条。",
+      "role": "body"
+    },
+    {
+      "index": 10,
+      "startTime": 72.12,
+      "endTime": 76.32,
+      "en": "'Only 25 per cent a thief now!'",
+      "zh": "“现在只有25%的人是小偷了！”",
+      "role": "body"
+    },
+    {
+      "index": 11,
+      "startTime": 76.32,
+      "endTime": 82.34,
+      "en": "In time, all Sam's money was paid back in this way.",
+      "zh": "随着时间的推移，山姆的所有钱都通过这种方式被还清了。",
+      "role": "body"
+    },
+    {
+      "index": 12,
+      "startTime": 82.34,
+      "endTime": null,
+      "en": "The last note said: 'I am 100 per cent honest now!'",
+      "zh": "最后一张纸条上写着：“现在我100%是诚实的了！”",
+      "role": "body"
+    }
+  ],
+  "audio": {
+    "fileName": "45－A Clear Conscience.mp3",
+    "sourcePath": "content/NCE-Flow/NCE2/45－A Clear Conscience.mp3",
+    "exists": true
+  },
+  "source": {
+    "repository": "NCE-Flow",
+    "lrcFileName": "45－A Clear Conscience.lrc",
+    "lrcPath": "content/NCE-Flow/NCE2/45－A Clear Conscience.lrc",
+    "sourceDataFile": "content/NCE-Flow/static/data.json",
+    "generatedAt": "2026-07-23T02:59:02+00:00",
+    "generator": "scripts/generate_nce_json.py",
+    "generatorVersion": "2.0.0",
+    "metadata": {
+      "al": "新概念英语（二）",
+      "ar": "MP3 同步字幕版（美音）",
+      "ti": "A Clear Conscience",
+      "by": "更多学习内容，请到VeryCD.com搜索“露珠”"
+    }
+  }
+}

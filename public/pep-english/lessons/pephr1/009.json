@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "pephr1-009",
+  "groupId": "pephr1",
+  "unitNo": 2,
+  "sequenceNo": 9,
+  "section": "Discovering Useful Structures",
+  "title": "Amy and Jeremy's Weekend Plan",
+  "jsonPath": "pep-english/lessons/pephr1/009.json",
+  "text": "Amy: Hello, Jeremy! What are you doing this weekend?\nJeremy: Hi, Amy! Some friends and I are going to that new water park on Saturday. Do you want to join us?\nAmy: Sure, I'd love to! What time and where?\nJeremy: We're meeting at 10:00 a.m. at the bus stop near our school.\nAmy: How about lunch? Are you eating at the water park?\nJeremy: Well, I'm bringing my own lunch. I think some of the others are eating at the park, but the food there is really expensive.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Amy: Hello, Jeremy! What are you doing this weekend?\nJeremy: Hi, Amy! Some friends and I are going to that new water park on Saturday. Do you want to join us?\nAmy: Sure, I'd love to! What time and where?\nJeremy: We're meeting at 10:00 a.m. at the bus stop near our school.\nAmy: How about lunch? Are you eating at the water park?\nJeremy: Well, I'm bringing my own lunch. I think some of the others are eating at the park, but the food there is really expensive."
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "必修第一册",
+    "pageStart": 35,
+    "pageEnd": 35,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "e0bf18138b24d7def28b35994a13946b",
+    "pdfSize": 14704146,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/senior-required-1.pdf#page=35",
+      "reviewedAt": "2026-07-22",
+      "notes": "Kept the complete six-turn conversation about Saturday's water-park plan; removed isolated tense examples, rewriting sentences, the weather table and the pattern exchange, and corrected the section metadata."
+    }
+  }
+}

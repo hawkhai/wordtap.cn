@@ -1,0 +1,167 @@
+{
+  "schemaVersion": 1,
+  "id": "nce2-035",
+  "bookId": "nce2",
+  "bookNo": 2,
+  "lessonNo": 35,
+  "lessonRange": [
+    35
+  ],
+  "title": "Stop Thief",
+  "titleZh": "捉贼！",
+  "question": "How did Roy stop the thieves?",
+  "questionZh": "罗伊是如何阻止那些小偷的？",
+  "text": "How did Roy stop the thieves?\n\nRoy Trenton used to drive a taxi.\nA short while ago, however, he became a bus driver and he has not regretted it.\nHe is finding his new work far more exciting.\nWhen he was driving along Catford Street recently, he saw two thieves rush out of a shop and run towards a waiting car.\nOne of them was carrying a bag full of money.\nRoy acted quickly and drove the bus straight at the thieves.\nThe one with the money got such a fright that he dropped the bag.\nAs the thieves were trying to get away in their car,\nRoy drove his bus into the back of it.\nWhile the battered car was moving away,\nRoy stopped his bus and telephoned the police.\nThe thieves' car was badly damaged and easy to recognize.\nShortly afterwards, the police stopped the car and both men were arrested.",
+  "bodyText": "Roy Trenton used to drive a taxi.\nA short while ago, however, he became a bus driver and he has not regretted it.\nHe is finding his new work far more exciting.\nWhen he was driving along Catford Street recently, he saw two thieves rush out of a shop and run towards a waiting car.\nOne of them was carrying a bag full of money.\nRoy acted quickly and drove the bus straight at the thieves.\nThe one with the money got such a fright that he dropped the bag.\nAs the thieves were trying to get away in their car,\nRoy drove his bus into the back of it.\nWhile the battered car was moving away,\nRoy stopped his bus and telephoned the police.\nThe thieves' car was badly damaged and easy to recognize.\nShortly afterwards, the police stopped the car and both men were arrested.",
+  "bodyTextZh": "罗伊·特伦顿以前开过出租车。\n然而，就在不久前……他成了一名公交车司机。他从未为此感到后悔。\n他发现自己的新工作要有趣得多。\n当他开车的时候最近，在卡特福德街（Catford Street）上……他看到两个小偷从商店里冲了出来。然后跑向一辆正在等待的车辆。\n其中一个人带着一个装满钱的袋子。\n罗伊反应迅速，立刻驾驶着公交车直接冲向那些小偷。\n那个拿钱的人吓了一大跳以至于他掉了那个袋子\n当小偷们试图开车逃跑时，\n罗伊驾驶他的公交车撞上了那辆车的后部。\n当那辆被撞坏的汽车开走时\n罗伊停下了他的公交车，然后拨打了报警电话。\n小偷们的汽车损坏严重，因此很容易被辨认出来。\n不久之后，警察拦下了那辆车，两名男子都被逮捕了。",
+  "sentences": [
+    {
+      "index": 0,
+      "startTime": 0.5,
+      "endTime": 3,
+      "en": "Lesson 35",
+      "zh": "第35课",
+      "role": "lesson"
+    },
+    {
+      "index": 1,
+      "startTime": 3,
+      "endTime": 11.67,
+      "en": "Stop Thief",
+      "zh": "捉贼！",
+      "role": "title"
+    },
+    {
+      "index": 2,
+      "startTime": 11.67,
+      "endTime": 16.41,
+      "en": "How did Roy stop the thieves?",
+      "zh": "罗伊是如何阻止那些小偷的？",
+      "role": "question"
+    },
+    {
+      "index": 3,
+      "startTime": 16.41,
+      "endTime": 20.62,
+      "en": "Roy Trenton used to drive a taxi.",
+      "zh": "罗伊·特伦顿以前开过出租车。",
+      "role": "body"
+    },
+    {
+      "index": 4,
+      "startTime": 20.62,
+      "endTime": 29.27,
+      "en": "A short while ago, however, he became a bus driver and he has not regretted it.",
+      "zh": "然而，就在不久前……他成了一名公交车司机。他从未为此感到后悔。",
+      "role": "body"
+    },
+    {
+      "index": 5,
+      "startTime": 29.27,
+      "endTime": 34.53,
+      "en": "He is finding his new work far more exciting.",
+      "zh": "他发现自己的新工作要有趣得多。",
+      "role": "body"
+    },
+    {
+      "index": 6,
+      "startTime": 34.53,
+      "endTime": 46.37,
+      "en": "When he was driving along Catford Street recently, he saw two thieves rush out of a shop and run towards a waiting car.",
+      "zh": "当他开车的时候最近，在卡特福德街（Catford Street）上……他看到两个小偷从商店里冲了出来。然后跑向一辆正在等待的车辆。",
+      "role": "body"
+    },
+    {
+      "index": 7,
+      "startTime": 46.37,
+      "endTime": 51.24,
+      "en": "One of them was carrying a bag full of money.",
+      "zh": "其中一个人带着一个装满钱的袋子。",
+      "role": "body"
+    },
+    {
+      "index": 8,
+      "startTime": 51.24,
+      "endTime": 57.29,
+      "en": "Roy acted quickly and drove the bus straight at the thieves.",
+      "zh": "罗伊反应迅速，立刻驾驶着公交车直接冲向那些小偷。",
+      "role": "body"
+    },
+    {
+      "index": 9,
+      "startTime": 57.29,
+      "endTime": 63.25,
+      "en": "The one with the money got such a fright that he dropped the bag.",
+      "zh": "那个拿钱的人吓了一大跳以至于他掉了那个袋子",
+      "role": "body"
+    },
+    {
+      "index": 10,
+      "startTime": 63.25,
+      "endTime": 67.6,
+      "en": "As the thieves were trying to get away in their car,",
+      "zh": "当小偷们试图开车逃跑时，",
+      "role": "body"
+    },
+    {
+      "index": 11,
+      "startTime": 67.6,
+      "endTime": 71.89,
+      "en": "Roy drove his bus into the back of it.",
+      "zh": "罗伊驾驶他的公交车撞上了那辆车的后部。",
+      "role": "body"
+    },
+    {
+      "index": 12,
+      "startTime": 71.89,
+      "endTime": 75.46,
+      "en": "While the battered car was moving away,",
+      "zh": "当那辆被撞坏的汽车开走时",
+      "role": "body"
+    },
+    {
+      "index": 13,
+      "startTime": 75.46,
+      "endTime": 79.33,
+      "en": "Roy stopped his bus and telephoned the police.",
+      "zh": "罗伊停下了他的公交车，然后拨打了报警电话。",
+      "role": "body"
+    },
+    {
+      "index": 14,
+      "startTime": 79.33,
+      "endTime": 85.05,
+      "en": "The thieves' car was badly damaged and easy to recognize.",
+      "zh": "小偷们的汽车损坏严重，因此很容易被辨认出来。",
+      "role": "body"
+    },
+    {
+      "index": 15,
+      "startTime": 85.05,
+      "endTime": null,
+      "en": "Shortly afterwards, the police stopped the car and both men were arrested.",
+      "zh": "不久之后，警察拦下了那辆车，两名男子都被逮捕了。",
+      "role": "body"
+    }
+  ],
+  "audio": {
+    "fileName": "35－Stop Thief.mp3",
+    "sourcePath": "content/NCE-Flow/NCE2/35－Stop Thief.mp3",
+    "exists": true
+  },
+  "source": {
+    "repository": "NCE-Flow",
+    "lrcFileName": "35－Stop Thief.lrc",
+    "lrcPath": "content/NCE-Flow/NCE2/35－Stop Thief.lrc",
+    "sourceDataFile": "content/NCE-Flow/static/data.json",
+    "generatedAt": "2026-07-23T02:59:02+00:00",
+    "generator": "scripts/generate_nce_json.py",
+    "generatorVersion": "2.0.0",
+    "metadata": {
+      "al": "新概念英语（二）",
+      "ar": "MP3 同步字幕版（美音）",
+      "ti": "Stop Thief!",
+      "by": "更多学习内容，请到VeryCD.com搜索“露珠”"
+    }
+  }
+}

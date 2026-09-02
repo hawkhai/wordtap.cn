@@ -1,0 +1,207 @@
+{
+  "schemaVersion": 1,
+  "id": "nce2-002",
+  "bookId": "nce2",
+  "bookNo": 2,
+  "lessonNo": 2,
+  "lessonRange": [
+    2
+  ],
+  "title": "Breakfast or Lunch",
+  "titleZh": "早餐还是午餐？",
+  "question": "Why was the writer's aunt surprised?",
+  "questionZh": "为什么作者的阿姨会感到惊讶呢？",
+  "text": "Why was the writer's aunt surprised?\n\nIt was Sunday.\nI never get up early on Sundays.\nI sometimes stay in bed until lunchtime.\nLast Sunday I got up very late.\nI looked out of the window.\nIt was dark outside.\n'What a day!' I thought.\n'It's raining again.'\nJust then, the telephone rang.\nIt was my aunt Lucy.\n'I've just arrived by train,' she said.\n'I'm coming to see you.'\n'But I'm still having breakfast,' I said.\n'What are you doing?' she asked.\n'I'm having breakfast,' I repeated.\n'Dear me,' she said.\n'Do you always get up so late?\nIt's one o'clock!'",
+  "bodyText": "It was Sunday.\nI never get up early on Sundays.\nI sometimes stay in bed until lunchtime.\nLast Sunday I got up very late.\nI looked out of the window.\nIt was dark outside.\n'What a day!' I thought.\n'It's raining again.'\nJust then, the telephone rang.\nIt was my aunt Lucy.\n'I've just arrived by train,' she said.\n'I'm coming to see you.'\n'But I'm still having breakfast,' I said.\n'What are you doing?' she asked.\n'I'm having breakfast,' I repeated.\n'Dear me,' she said.\n'Do you always get up so late?\nIt's one o'clock!'",
+  "bodyTextZh": "那是星期天。\n我从来不在周日早起。\n有时候我会一直躺在床上，直到午餐时间才起床。\n上周日，我起得很晚。\n我望向了窗外。\n外面一片漆黑。\n“真是美好的一天啊！”我想。\n“又下雨了。”\n就在这时，电话响了。\n那是我的阿姨露西。\n“我刚乘火车到达的，”她说。\n“我来看你了。”\n“但我还在吃早餐呢，”我说。\n“你在做什么？”她问。\n“我在吃早餐，”我重复道。\n“天哪，”她说。\n“你总是起这么晚吗？\n现在都一点钟了！”",
+  "sentences": [
+    {
+      "index": 0,
+      "startTime": 0.5,
+      "endTime": 3,
+      "en": "Lesson 2",
+      "zh": "第2课",
+      "role": "lesson"
+    },
+    {
+      "index": 1,
+      "startTime": 3,
+      "endTime": 10.47,
+      "en": "Breakfast or Lunch",
+      "zh": "早餐还是午餐？",
+      "role": "title"
+    },
+    {
+      "index": 2,
+      "startTime": 10.47,
+      "endTime": 16,
+      "en": "Why was the writer's aunt surprised?",
+      "zh": "为什么作者的阿姨会感到惊讶呢？",
+      "role": "question"
+    },
+    {
+      "index": 3,
+      "startTime": 16,
+      "endTime": 17.99,
+      "en": "It was Sunday.",
+      "zh": "那是星期天。",
+      "role": "body"
+    },
+    {
+      "index": 4,
+      "startTime": 17.99,
+      "endTime": 22.03,
+      "en": "I never get up early on Sundays.",
+      "zh": "我从来不在周日早起。",
+      "role": "body"
+    },
+    {
+      "index": 5,
+      "startTime": 22.03,
+      "endTime": 26.81,
+      "en": "I sometimes stay in bed until lunchtime.",
+      "zh": "有时候我会一直躺在床上，直到午餐时间才起床。",
+      "role": "body"
+    },
+    {
+      "index": 6,
+      "startTime": 26.81,
+      "endTime": 31.06,
+      "en": "Last Sunday I got up very late.",
+      "zh": "上周日，我起得很晚。",
+      "role": "body"
+    },
+    {
+      "index": 7,
+      "startTime": 31.06,
+      "endTime": 33.45,
+      "en": "I looked out of the window.",
+      "zh": "我望向了窗外。",
+      "role": "body"
+    },
+    {
+      "index": 8,
+      "startTime": 33.45,
+      "endTime": 35.84,
+      "en": "It was dark outside.",
+      "zh": "外面一片漆黑。",
+      "role": "body"
+    },
+    {
+      "index": 9,
+      "startTime": 35.84,
+      "endTime": 39.6,
+      "en": "'What a day!' I thought.",
+      "zh": "“真是美好的一天啊！”我想。",
+      "role": "body"
+    },
+    {
+      "index": 10,
+      "startTime": 39.6,
+      "endTime": 42.61,
+      "en": "'It's raining again.'",
+      "zh": "“又下雨了。”",
+      "role": "body"
+    },
+    {
+      "index": 11,
+      "startTime": 42.61,
+      "endTime": 46.04,
+      "en": "Just then, the telephone rang.",
+      "zh": "就在这时，电话响了。",
+      "role": "body"
+    },
+    {
+      "index": 12,
+      "startTime": 46.04,
+      "endTime": 49.04,
+      "en": "It was my aunt Lucy.",
+      "zh": "那是我的阿姨露西。",
+      "role": "body"
+    },
+    {
+      "index": 13,
+      "startTime": 49.04,
+      "endTime": 53.09,
+      "en": "'I've just arrived by train,' she said.",
+      "zh": "“我刚乘火车到达的，”她说。",
+      "role": "body"
+    },
+    {
+      "index": 14,
+      "startTime": 53.09,
+      "endTime": 56.01,
+      "en": "'I'm coming to see you.'",
+      "zh": "“我来看你了。”",
+      "role": "body"
+    },
+    {
+      "index": 15,
+      "startTime": 56.01,
+      "endTime": 60.54,
+      "en": "'But I'm still having breakfast,' I said.",
+      "zh": "“但我还在吃早餐呢，”我说。",
+      "role": "body"
+    },
+    {
+      "index": 16,
+      "startTime": 60.54,
+      "endTime": 63.84,
+      "en": "'What are you doing?' she asked.",
+      "zh": "“你在做什么？”她问。",
+      "role": "body"
+    },
+    {
+      "index": 17,
+      "startTime": 63.84,
+      "endTime": 67.5,
+      "en": "'I'm having breakfast,' I repeated.",
+      "zh": "“我在吃早餐，”我重复道。",
+      "role": "body"
+    },
+    {
+      "index": 18,
+      "startTime": 67.5,
+      "endTime": 70.4,
+      "en": "'Dear me,' she said.",
+      "zh": "“天哪，”她说。",
+      "role": "body"
+    },
+    {
+      "index": 19,
+      "startTime": 70.4,
+      "endTime": 73.39,
+      "en": "'Do you always get up so late?",
+      "zh": "“你总是起这么晚吗？",
+      "role": "body"
+    },
+    {
+      "index": 20,
+      "startTime": 73.39,
+      "endTime": null,
+      "en": "It's one o'clock!'",
+      "zh": "现在都一点钟了！”",
+      "role": "body"
+    }
+  ],
+  "audio": {
+    "fileName": "02－Breakfast or Lunch.mp3",
+    "sourcePath": "content/NCE-Flow/NCE2/02－Breakfast or Lunch.mp3",
+    "exists": true
+  },
+  "source": {
+    "repository": "NCE-Flow",
+    "lrcFileName": "02－Breakfast or Lunch.lrc",
+    "lrcPath": "content/NCE-Flow/NCE2/02－Breakfast or Lunch.lrc",
+    "sourceDataFile": "content/NCE-Flow/static/data.json",
+    "generatedAt": "2026-07-23T02:59:02+00:00",
+    "generator": "scripts/generate_nce_json.py",
+    "generatorVersion": "2.0.0",
+    "metadata": {
+      "al": "新概念英语（二）",
+      "ar": "MP3 同步字幕版（美音）",
+      "ti": "Breakfast or Lunch?",
+      "by": "更多学习内容，请到VeryCD.com搜索“露珠”"
+    }
+  }
+}

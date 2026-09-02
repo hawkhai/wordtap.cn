@@ -1,0 +1,64 @@
+# Cloudflare Pages / Netlify compatible headers
+# https://developers.cloudflare.com/pages/configuration/headers/
+
+/*
+  X-Frame-Options: DENY
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: accelerometer=(), camera=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), payment=(), usb=()
+  Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://wordtap.cn https://cdn.sunocean.life; font-src 'self'; connect-src 'self' http://127.0.0.1:18765 https://cdn.sunocean.life https://dict.youdao.com; media-src 'self' blob: data: http://127.0.0.1:18765 https://dict.youdao.com; frame-ancestors 'none'
+
+# HTML — network-first, short cache
+/index.html
+  Cache-Control: no-cache
+
+/404.html
+  Cache-Control: no-cache
+
+# Immutable hashed assets (Vite content-hash) — cache 1 year
+/install/*
+  Cache-Control: no-cache
+
+/install/images/*
+  Cache-Control: public, max-age=604800, must-revalidate
+
+/assets/*
+  Cache-Control: public, max-age=31536000, immutable
+
+# Static assets with stable names — cache 7 days, revalidate
+/favicon.ico
+  Cache-Control: public, max-age=604800, must-revalidate
+
+/favicon-192.png
+  Cache-Control: public, max-age=604800, must-revalidate
+
+/favicon-512.png
+  Cache-Control: public, max-age=604800, must-revalidate
+
+/apple-touch-icon.png
+  Cache-Control: public, max-age=604800, must-revalidate
+
+/logo-mark.png
+  Cache-Control: public, max-age=604800, must-revalidate
+
+/manifest.json
+  Cache-Control: public, max-age=86400, must-revalidate
+
+/sw.js
+  Cache-Control: no-cache
+
+# Dictionary shards — cache 7 days, revalidate
+/dict/*
+  Cache-Control: public, max-age=604800, must-revalidate
+
+# IPA audio — cache 30 days
+/ipa/*
+  Cache-Control: public, max-age=2592000, immutable
+
+# Fonts — cache 30 days
+/fonts/*
+  Cache-Control: public, max-age=2592000, immutable
+
+# Downloads — cache 1 day
+/downloads/*
+  Cache-Control: public, max-age=86400, must-revalidate

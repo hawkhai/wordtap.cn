@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "pepj7a-003",
+  "groupId": "pepj7a",
+  "unitNo": 7,
+  "sequenceNo": 3,
+  "section": "Section B",
+  "title": "Mr. Cool's Clothes Store",
+  "jsonPath": "pep-english/lessons/pepj7a/003.json",
+  "text": "Come and buy your clothes at our great sale! We sell all our clothes at very good prices. Do you like sweaters? We have green sweaters for only $15! Yellow sweaters are only $12! Do you need trousers? For boys, we have black trousers for only $22. And shorts are only $16! For girls, we have skirts in purple for only $20. How much are our jackets? Only $30! And we have black shoes for only $28. Socks are only $2 for three pairs! Come to Mr. Cool's Clothes Store now!",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Come and buy your clothes at our great sale! We sell all our clothes at very good prices. Do you like sweaters? We have green sweaters for only $15! Yellow sweaters are only $12! Do you need trousers? For boys, we have black trousers for only $22. And shorts are only $16! For girls, we have skirts in purple for only $20. How much are our jackets? Only $30! And we have black shoes for only $28. Socks are only $2 for three pairs! Come to Mr. Cool's Clothes Store now!"
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "初中",
+    "book": "七年级上册",
+    "pageStart": 64,
+    "pageEnd": 64,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "7d7bed5769efd4d786f353da10c755e9",
+    "pdfSize": 12005272,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/junior-7a.pdf#page=64",
+      "reviewedAt": "2026-07-22",
+      "notes": "Kept only the complete store advertisement; restored prices, word breaks, title and Section B metadata."
+    }
+  }
+}

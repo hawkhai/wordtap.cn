@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "id": "pephs4-004",
+  "groupId": "pephs4",
+  "unitNo": 2,
+  "sequenceNo": 4,
+  "section": "Using Language",
+  "title": "The Amazing Animals of Australia",
+  "jsonPath": "pep-english/lessons/pephs4/004.json",
+  "text": "Our topic today is “Creatures Unique to Australia”, with questions answered by wildlife expert, Dr Jim Smith.\nAustralia has lots of unique animals, but which animal is a symbol of the country?\nIt has to be the kangaroo, as it has a wide distribution throughout the country. It’s a tough animal that has to survive in a difficult environment. Also, it cannot walk backwards, so it is always moving forwards. This expresses the strength and resolve of the Australians as individuals and as a nation. Baby kangaroos weigh only two grammes at birth. They then find their way into their mother’s pouch—a kind of pocket—to stay safe and warm. They sleep and drink milk in that temporary, protected environment until they are about seven or eight months old. After this phase, they go out to try their legs. After they learn to jump, they gradually spend less time with their mother and learn to be independent. Kangaroos may look cute, but encounters with them don’t always end so well. Kangaroos can hit and kick very hard, so please folks, if you see some kangaroos, remember they’re not for petting!\nKoalas are cute, and we see so many pictures of people holding them. But in many places in Australia, it is against the law to even touch them. Can you clarify that?\nThey are really quite cute, but the truth is, koalas are very sensitive creatures who can easily panic because of even small changes in their environment. They spend quite a lot of time eating, sleeping, and hanging onto tree trunks, so interaction with humans can cause them a lot of stress. Because of this, the government began to make laws against touching koalas, in the interest of animal protection, as well as public safety. So, if you see one in the wild, you shouldn’t approach it to pick it up or even touch it. If you want to hold a koala, you have to go to certain licensed zoos where animal experts make sure that the koalas selected for each session are in a good state for human contact and that they are handled for only a limited time and on a limited frequency of occasions.\nSo, we’ve talked about some cute animals. What about animals which aren’t so cute?\nMy favourite is a little creature called the Tasmanian devil. If you are out camping in Tasmania and come across one, the experience might scare you! Tasmanian devils hunt at night, so you won’t usually see them, but you may hear their loud cries when they are fighting or eating. The noise they make could wake the dead. Frightening! They are about the size of small dogs and look like rather large black rats. They also have a terrible smell! Their diet is mostly dead animals. Fortunately, despite their name, they are generally not violent towards people.\nAustralia also has some animals that many people have never heard of, for example, the duck-billed platypus. Is that some kind of bird?\nNot at all. While it may lay eggs in a nest like a bird, it’s really a primitive mammal, with a unique biology. Its eggs hatch after about ten days, and then the baby platypus nurses from its mother like all other mammals. Its nose looks like a duck’s bill, and it has feet like a duck’s so it can dive under the water, but it’s covered in hair. Do you know what’s really strange about a platypus? The platypus doesn’t use its senses of sight or smell to find food. It has a capacity to find food in the water by using electrical sensors in its bill. There are only a small handful of animals in the world that can do that!",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Our topic today is “Creatures Unique to Australia”, with questions answered by wildlife expert, Dr Jim Smith."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Australia has lots of unique animals, but which animal is a symbol of the country?\nIt has to be the kangaroo, as it has a wide distribution throughout the country. It’s a tough animal that has to survive in a difficult environment. Also, it cannot walk backwards, so it is always moving forwards. This expresses the strength and resolve of the Australians as individuals and as a nation. Baby kangaroos weigh only two grammes at birth. They then find their way into their mother’s pouch—a kind of pocket—to stay safe and warm. They sleep and drink milk in that temporary, protected environment until they are about seven or eight months old. After this phase, they go out to try their legs. After they learn to jump, they gradually spend less time with their mother and learn to be independent. Kangaroos may look cute, but encounters with them don’t always end so well. Kangaroos can hit and kick very hard, so please folks, if you see some kangaroos, remember they’re not for petting!"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Koalas are cute, and we see so many pictures of people holding them. But in many places in Australia, it is against the law to even touch them. Can you clarify that?\nThey are really quite cute, but the truth is, koalas are very sensitive creatures who can easily panic because of even small changes in their environment. They spend quite a lot of time eating, sleeping, and hanging onto tree trunks, so interaction with humans can cause them a lot of stress. Because of this, the government began to make laws against touching koalas, in the interest of animal protection, as well as public safety. So, if you see one in the wild, you shouldn’t approach it to pick it up or even touch it. If you want to hold a koala, you have to go to certain licensed zoos where animal experts make sure that the koalas selected for each session are in a good state for human contact and that they are handled for only a limited time and on a limited frequency of occasions."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "So, we’ve talked about some cute animals. What about animals which aren’t so cute?\nMy favourite is a little creature called the Tasmanian devil. If you are out camping in Tasmania and come across one, the experience might scare you! Tasmanian devils hunt at night, so you won’t usually see them, but you may hear their loud cries when they are fighting or eating. The noise they make could wake the dead. Frightening! They are about the size of small dogs and look like rather large black rats. They also have a terrible smell! Their diet is mostly dead animals. Fortunately, despite their name, they are generally not violent towards people."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Australia also has some animals that many people have never heard of, for example, the duck-billed platypus. Is that some kind of bird?\nNot at all. While it may lay eggs in a nest like a bird, it’s really a primitive mammal, with a unique biology. Its eggs hatch after about ten days, and then the baby platypus nurses from its mother like all other mammals. Its nose looks like a duck’s bill, and it has feet like a duck’s so it can dive under the water, but it’s covered in hair. Do you know what’s really strange about a platypus? The platypus doesn’t use its senses of sight or smell to find food. It has a capacity to find food in the water by using electrical sensors in its bill. There are only a small handful of animals in the world that can do that!"
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "选择性必修第四册",
+    "pageStart": 26,
+    "pageEnd": 28,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "6fc94127b322f6f5abff068bef6faa2e",
+    "pdfSize": 12330614,
+    "manualReview": {
+      "method": "visual-line-by-line-and-adjacent-page-recovery",
+      "source": "content/pep-english/raw/senior-selective-4.pdf#page=26-28",
+      "reviewedAt": "2026-07-22",
+      "notes": "Recovered the article opening and kangaroo section from adjacent page 26, retained the koala and Tasmanian devil sections on page 27 and the complete platypus section on page 28; preserved each printed question with its answer and excluded listening material, images, comprehension questions, writing tasks and furniture. Pages 25 and 29 confirm both boundaries."
+    }
+  }
+}

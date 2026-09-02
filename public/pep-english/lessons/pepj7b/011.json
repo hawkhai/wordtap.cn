@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "pepj7b-011",
+  "groupId": "pepj7b",
+  "unitNo": 9,
+  "sequenceNo": 11,
+  "section": "Section B",
+  "title": "An Interesting Job",
+  "jsonPath": "pep-english/lessons/pepj7b/011.json",
+  "text": "Joe Brown has a very interesting job. He is a police artist. Some people see crimes and then talk to Joe. They tell him what the criminal looks like. Then Joe draws a picture of the criminal, and the police put it in newspapers and on television to find him.\nHe wants to draw a good picture of each criminal, but this job is sometimes difficult. Many people don't always see things the same way so they may describe the same person differently. Also, they don't always remember well. \"The criminal is of medium height and young. He has long straight brown hair and big eyes,\" says one woman. Another woman says, \"He is tall and thin, and he has curly blond hair. He's about thirty years old.\" In the end, the real criminal is a short and heavy old man, and he has short black hair!",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Joe Brown has a very interesting job. He is a police artist. Some people see crimes and then talk to Joe. They tell him what the criminal looks like. Then Joe draws a picture of the criminal, and the police put it in newspapers and on television to find him."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "He wants to draw a good picture of each criminal, but this job is sometimes difficult. Many people don't always see things the same way so they may describe the same person differently. Also, they don't always remember well. \"The criminal is of medium height and young. He has long straight brown hair and big eyes,\" says one woman. Another woman says, \"He is tall and thin, and he has curly blond hair. He's about thirty years old.\" In the end, the real criminal is a short and heavy old man, and he has short black hair!"
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "初中",
+    "book": "七年级下册",
+    "pageStart": 63,
+    "pageEnd": 63,
+    "extractionMode": "ocr",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "9336b53d5a44f9244f62f6fb10720914",
+    "pdfSize": 17821241,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/junior-7b.pdf#page=63",
+      "reviewedAt": "2026-07-22",
+      "notes": "Removed the duplicated title from body, restored the two printed paragraphs and quotations, and excluded activities 2a and 2c."
+    }
+  }
+}

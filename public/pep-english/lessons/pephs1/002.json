@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "id": "pephs1-002",
+  "groupId": "pephs1",
+  "unitNo": 1,
+  "sequenceNo": 2,
+  "section": "Using Language",
+  "title": "The Man Who Changed Our Understanding of the Universe",
+  "jsonPath": "pep-english/lessons/pephs1/002.json",
+  "text": "Albert Einstein, who is perhaps the greatest scientist in modern physics, is often considered one of the smartest men who ever lived. He made numerous contributions to the world, the most well-known being the general theory of relativity and the famous formula E=mc². Einstein was not only a genius; he was a courageous and kind figure loved by many people.\nThis gentle genius was born in Germany on 14 March 1879. When he was 16, he tried to enter university in Switzerland, but failed due to his low scores in the general part of the entrance exam, despite obtaining exceptional scores in maths and physics. After studying for another year, he managed to pass the exam, entering university in 1896 and graduating in 1900.\nAfter two years of looking for work as a teacher, Einstein took a job as a clerk in the Swiss patent office. While working there, out of a strong passion for knowledge, he continued to study, earning a doctorate in physics in 1905. That same year, which was later recorded as a miracle year in science, he published four extraordinary physics papers. Following this, he gradually became famous throughout the world as the new Isaac Newton. After four years, he was able to quit his job at the patent office and enter research full-time at a university. In 1922, he was awarded the 1921 Nobel Prize for Physics for his explanation of the photoelectric effect.\nCircumstances changed in 1933, when Hitler came to power in Germany. Einstein, who was Jewish, found the doors of academic institutions closed to him. As a consequence, he had to flee Germany. After spending time in Europe, he finally took up a position as a researcher at the Institute for Advanced Study in Princeton, USA. Following that, he continued to make great achievements in physics and mathematics.\nTo the public, he was seen as a slightly odd-looking but kind and funny man. He had a thick moustache and long white hair, which sometimes stood on end as though he had just received an electric shock. Although he was a genius, he sometimes forgot things, like his friends’ birthdays. But despite his peculiarities, he was loved by his friends and neighbours. There is even a story about how he helped a little girl who knocked on his door and asked for help with her homework. In fact, Einstein often encountered people on the street who would stop him and ask him to help explain things. After many such occasions, he finally started saying, “Pardon me! Sorry! Always I am mistaken for Professor Einstein!”\nOn 18 April 1955, it was reported that Einstein had passed away, and the whole world mourned the great loss of a brilliant scientist.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Albert Einstein, who is perhaps the greatest scientist in modern physics, is often considered one of the smartest men who ever lived. He made numerous contributions to the world, the most well-known being the general theory of relativity and the famous formula E=mc². Einstein was not only a genius; he was a courageous and kind figure loved by many people."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "This gentle genius was born in Germany on 14 March 1879. When he was 16, he tried to enter university in Switzerland, but failed due to his low scores in the general part of the entrance exam, despite obtaining exceptional scores in maths and physics. After studying for another year, he managed to pass the exam, entering university in 1896 and graduating in 1900."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "After two years of looking for work as a teacher, Einstein took a job as a clerk in the Swiss patent office. While working there, out of a strong passion for knowledge, he continued to study, earning a doctorate in physics in 1905. That same year, which was later recorded as a miracle year in science, he published four extraordinary physics papers. Following this, he gradually became famous throughout the world as the new Isaac Newton. After four years, he was able to quit his job at the patent office and enter research full-time at a university. In 1922, he was awarded the 1921 Nobel Prize for Physics for his explanation of the photoelectric effect."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Circumstances changed in 1933, when Hitler came to power in Germany. Einstein, who was Jewish, found the doors of academic institutions closed to him. As a consequence, he had to flee Germany. After spending time in Europe, he finally took up a position as a researcher at the Institute for Advanced Study in Princeton, USA. Following that, he continued to make great achievements in physics and mathematics."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "To the public, he was seen as a slightly odd-looking but kind and funny man. He had a thick moustache and long white hair, which sometimes stood on end as though he had just received an electric shock. Although he was a genius, he sometimes forgot things, like his friends’ birthdays. But despite his peculiarities, he was loved by his friends and neighbours. There is even a story about how he helped a little girl who knocked on his door and asked for help with her homework. In fact, Einstein often encountered people on the street who would stop him and ask him to help explain things. After many such occasions, he finally started saying, “Pardon me! Sorry! Always I am mistaken for Professor Einstein!”"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "On 18 April 1955, it was reported that Einstein had passed away, and the whole world mourned the great loss of a brilliant scientist."
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "选择性必修第一册",
+    "pageStart": 15,
+    "pageEnd": 16,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "f19c4231e96ee3a9c769533d676f1106",
+    "pdfSize": 12809514,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/senior-selective-1.pdf#page=15-16",
+      "reviewedAt": "2026-07-22",
+      "notes": "Merged and restored the complete six-paragraph Einstein biography across both pages; page 16 supplies the end of paragraph five and the final paragraph. Excluded the lesson instruction, portrait, timeline and all analysis/writing activities."
+    }
+  }
+}

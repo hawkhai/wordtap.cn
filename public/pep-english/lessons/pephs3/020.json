@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "id": "pephs3-020",
+  "groupId": "pephs3",
+  "unitNo": 1,
+  "sequenceNo": 20,
+  "section": "Reading and Writing",
+  "title": "The Starry Night",
+  "jsonPath": "pep-english/lessons/pephs3/020.json",
+  "text": "Perhaps my favourite painting is The Starry Night, by Vincent van Gogh (1853–1890). Born in the Netherlands, Van Gogh had always been interested in art, and tried to live as a professional painter starting from 1883. His early work was dark and sad, so in 1886 Van Gogh’s brother Theo invited him to come to live in Paris. Theo hoped that the bright colours of the Impressionist movement there would influence his work. Van Gogh moved to the south of France in 1888. Later that year, he suffered a mental collapse and went to live in a hospital. He made more than twenty paintings of the view from his hospital window, during all times of the day and all kinds of weather. However, he only made one painting of the scene at night. As Van Gogh wrote to his brother Theo in June, 1889, “This morning I saw the countryside from my window a long time before sunrise, with nothing but the morning star, which looked very big.” The “morning star” Van Gogh referred to was actually the planet Venus. Van Gogh had longed to paint a night scene, and the sight of Venus inspired him.\nOn the left side of The Starry Night, there is a large tree which shoots up from the ground like a dark fire. It reaches all the way to the top of the painting. In the background are rolling hills, with a small village in a valley. In the centre of the village is a white church. Its tower points up into the sky like a sharp knife. Here and there, you can see houses with windows shining with yellow light. Above all this is dark blue sky. A quarter moon fills the top-right corner of the painting with yellow. Venus sits low near the tree. It burns with white light. Here and there in the sky above Venus are yellow, orange, and red stars. Around these are lines of pure paint in different shades of blue, yellow, and white. They flow out of control, like river rapids.\nThe Starry Night is not a realistic painting of the scene Van Gogh saw out of his window. For example, in real life there is no village in that valley. However, perhaps the painting shows the deeper reality of what Van Gogh could see with his mind’s eye. Though the scene is dark and quiet, the painting is full of light and life. It gives us a look, perhaps, into the complex mind and genius of Van Gogh.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Perhaps my favourite painting is The Starry Night, by Vincent van Gogh (1853–1890). Born in the Netherlands, Van Gogh had always been interested in art, and tried to live as a professional painter starting from 1883. His early work was dark and sad, so in 1886 Van Gogh’s brother Theo invited him to come to live in Paris. Theo hoped that the bright colours of the Impressionist movement there would influence his work. Van Gogh moved to the south of France in 1888. Later that year, he suffered a mental collapse and went to live in a hospital. He made more than twenty paintings of the view from his hospital window, during all times of the day and all kinds of weather. However, he only made one painting of the scene at night. As Van Gogh wrote to his brother Theo in June, 1889, “This morning I saw the countryside from my window a long time before sunrise, with nothing but the morning star, which looked very big.” The “morning star” Van Gogh referred to was actually the planet Venus. Van Gogh had longed to paint a night scene, and the sight of Venus inspired him."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "On the left side of The Starry Night, there is a large tree which shoots up from the ground like a dark fire. It reaches all the way to the top of the painting. In the background are rolling hills, with a small village in a valley. In the centre of the village is a white church. Its tower points up into the sky like a sharp knife. Here and there, you can see houses with windows shining with yellow light. Above all this is dark blue sky. A quarter moon fills the top-right corner of the painting with yellow. Venus sits low near the tree. It burns with white light. Here and there in the sky above Venus are yellow, orange, and red stars. Around these are lines of pure paint in different shades of blue, yellow, and white. They flow out of control, like river rapids."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "The Starry Night is not a realistic painting of the scene Van Gogh saw out of his window. For example, in real life there is no village in that valley. However, perhaps the painting shows the deeper reality of what Van Gogh could see with his mind’s eye. Though the scene is dark and quiet, the painting is full of light and life. It gives us a look, perhaps, into the complex mind and genius of Van Gogh."
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "选择性必修第三册",
+    "pageStart": 71,
+    "pageEnd": 71,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "f0dc33129a755a33421d401b71a05cd1",
+    "pdfSize": 12684455,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/senior-selective-3.pdf#page=71",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored the complete three-paragraph feature in visual reading order around the portrait and painting; corrected the baseline title, preserved quoted wording and excluded the instruction, images and page furniture. Pages 70 and 72 were checked to confirm the article is self-contained."
+    }
+  }
+}

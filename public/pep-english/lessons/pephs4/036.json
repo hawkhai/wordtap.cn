@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "id": "pephs4-036",
+  "groupId": "pephs4",
+  "unitNo": 3,
+  "sequenceNo": 36,
+  "section": "Reading and Writing",
+  "title": "A Sea of Plastic",
+  "jsonPath": "pep-english/lessons/pephs4/036.json",
+  "text": "Scientists visiting tiny Henderson Island in the South Pacific recently made an alarming discovery. Although it is one of the most remote places on the earth and previously untouched by humans, the island was covered in plastic waste. They calculated there were 38 million pieces of plastic, weighing almost 18 tons, with thousands of new pieces washing up each day. “No country has a free pass—we found plastic from everywhere,” said one scientist. “We all have a responsibility, and we have to sit up and pay attention. This is not an issue to ignore. We need to do something now to protect the sea.”\nPlastic waste in the sea has long been known about, but only now are we discovering the true extent of the problem. Plastic takes hundreds of years to decompose, so all the plastic ever produced still exists somewhere. Around 95% of plastics made are not recycled, and large amounts enter the sea. Currents collect this waste in large circular systems called “gyres”. One of the largest is in the Pacific Ocean, an area now known as the “Great Pacific Garbage Patch”.\nThe problem gets worse as plastic breaks down into very small pieces, or “micro plastic”. This is eaten by fish and leads to massive species loss. Humans also eat these fish, and micro plastic has even been found in tap water around the world. The problem has spread too far to ignore. The plastic on Henderson Island accounts for just 2 seconds’ worth of global annual plastic production. That production will more than triple by 2050. Then there will be the same weight of plastic in the sea as fish.\nHowever, there are some young minds working to clean up and protect the sea for future generations. While diving in Greece, young Boyan Slat noticed there was more plastic waste than fish. He decided right then to dedicate his life to solving this problem. Previously the problem was considered too big to solve; collecting the plastic with boats and nets would be expensive, would harm sea life, and would take thousands of years! But, Boyan thought, why move through the sea when the sea can move through you? To work with the currents and gyres would help collect the waste. So he started The Ocean Cleanup project, which places very long floating barriers in the Pacific. Currents then concentrate the waste naturally so it can be collected and recycled. He hopes to reduce the patch by 50% in just five years.\n“Many problems today are side effects of things people didn’t think about in the past,” he says. “Sea plastic is a symbol of the negative effects of our lifestyle and technology. Our aim should be to create a new lifestyle for this century. Protecting the sea from plastic is a good place to start!”",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Scientists visiting tiny Henderson Island in the South Pacific recently made an alarming discovery. Although it is one of the most remote places on the earth and previously untouched by humans, the island was covered in plastic waste. They calculated there were 38 million pieces of plastic, weighing almost 18 tons, with thousands of new pieces washing up each day. “No country has a free pass—we found plastic from everywhere,” said one scientist. “We all have a responsibility, and we have to sit up and pay attention. This is not an issue to ignore. We need to do something now to protect the sea.”"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Plastic waste in the sea has long been known about, but only now are we discovering the true extent of the problem. Plastic takes hundreds of years to decompose, so all the plastic ever produced still exists somewhere. Around 95% of plastics made are not recycled, and large amounts enter the sea. Currents collect this waste in large circular systems called “gyres”. One of the largest is in the Pacific Ocean, an area now known as the “Great Pacific Garbage Patch”."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "The problem gets worse as plastic breaks down into very small pieces, or “micro plastic”. This is eaten by fish and leads to massive species loss. Humans also eat these fish, and micro plastic has even been found in tap water around the world. The problem has spread too far to ignore. The plastic on Henderson Island accounts for just 2 seconds’ worth of global annual plastic production. That production will more than triple by 2050. Then there will be the same weight of plastic in the sea as fish."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "However, there are some young minds working to clean up and protect the sea for future generations. While diving in Greece, young Boyan Slat noticed there was more plastic waste than fish. He decided right then to dedicate his life to solving this problem. Previously the problem was considered too big to solve; collecting the plastic with boats and nets would be expensive, would harm sea life, and would take thousands of years! But, Boyan thought, why move through the sea when the sea can move through you? To work with the currents and gyres would help collect the waste. So he started The Ocean Cleanup project, which places very long floating barriers in the Pacific. Currents then concentrate the waste naturally so it can be collected and recycled. He hopes to reduce the patch by 50% in just five years."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "“Many problems today are side effects of things people didn’t think about in the past,” he says. “Sea plastic is a symbol of the negative effects of our lifestyle and technology. Our aim should be to create a new lifestyle for this century. Protecting the sea from plastic is a good place to start!”"
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "选择性必修第四册",
+    "pageStart": 85,
+    "pageEnd": 86,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "6fc94127b322f6f5abff068bef6faa2e",
+    "pdfSize": 12330614,
+    "manualReview": {
+      "method": "visual-line-by-line-and-cross-page-order",
+      "source": "content/pep-english/raw/senior-selective-4.pdf#page=85-86",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored all five paragraphs across both pages, including the baseline’s page-86 continuation; excluded pre-reading, questions and essay instructions.",
+      "splitBaselineId": "pephs4-043",
+      "splitIndex": 1,
+      "splitCount": 3
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "pephr2-007",
+  "groupId": "pephr2",
+  "unitNo": 3,
+  "sequenceNo": 7,
+  "section": "Listening and Talking",
+  "title": "Choosing the Best App",
+  "jsonPath": "pep-english/lessons/pephr2/007.json",
+  "text": "A: I imagine that TV Me would be more popular. Everyone watches TV and I think lots of people imagine themselves as actors in the TV shows, so putting the two together would be great. What do you think?\nB: My guess would be Hear It First because it's both interesting and useful. You could find out more about the stories you like and make sure that you don't miss anything important. I believe both the young and old would like it.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "A: I imagine that TV Me would be more popular. Everyone watches TV and I think lots of people imagine themselves as actors in the TV shows, so putting the two together would be great. What do you think?\nB: My guess would be Hear It First because it's both interesting and useful. You could find out more about the stories you like and make sure that you don't miss anything important. I believe both the young and old would like it."
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "必修第二册",
+    "pageStart": 38,
+    "pageEnd": 38,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "38d49874e4f015fd89f21c9306f6b9d5",
+    "pdfSize": 14270612,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/senior-required-2.pdf#page=38",
+      "reviewedAt": "2026-07-22",
+      "notes": "Kept the complete two-turn model conversation comparing TV Me and Hear It First; supplied a descriptive title and excluded listening blanks, true/false items, prediction prompts, app cards and role-play instruction."
+    }
+  }
+}

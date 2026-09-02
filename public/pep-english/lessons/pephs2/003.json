@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "id": "pephs2-003",
+  "groupId": "pephs2",
+  "unitNo": 1,
+  "sequenceNo": 3,
+  "section": "Using Language",
+  "title": "The Father of China’s Aerospace",
+  "jsonPath": "pep-english/lessons/pephs2/003.json",
+  "text": "Perhaps no other scientist has had a greater impact on China’s aerospace science than Qian Xuesen. Described by the authors of the Story of Qian Xuesen as a man with “great scientific thought and scientific spirit” who was patriotic and served his homeland with effort, achievement, and devotion, Qian was an extremely well-respected man.\nBorn in Shanghai in 1911, Qian attended schools in Beijing and then entered Shanghai Jiao Tong University to study Railway Mechanical Engineering. However, after the Songhu Battle broke out in 1932, Qian made the decision to switch his major to aviation because he realised that China needed its own powerful air force to protect and defend the country.\nQian went to the United States in 1935 to pursue his graduate studies. Over the course of the 1930s and 1940s, Qian became a pioneer in American jet and rocket technology. As a graduate assistant at the California Institute of Technology during the 1930s, Qian helped conduct important research into rocket propulsion, and in the 1940s, he and several other people founded the Jet Propulsion Laboratory, now one of NASA’s leading space-exploration centres.\nAfter overcoming some difficulties during his final few years in the US, Qian returned to China in 1955. He received a hero’s welcome from his homeland and was put in charge of not only developing China’s rocket science but also its space and missile programme. At that time, China was poor and its rocket science was undeveloped. No institute or university in China offered rocket science as a major, and there were no talents or experts in this field in China. Nevertheless, Qian did not let that discourage him from taking on the challenge. When asked “Can we Chinese possibly make missiles?”, his reply was a determined “Why not? We Chinese are able to make the same things that other people make.”\nUnder Qian’s leadership, China developed the Dongfeng missiles, followed by the first generation of Long March rockets. In 1970, China successfully launched its first man-made satellite, Dong Fang Hong I, from a Long March rocket. Because much of the technology behind the Shenzhou rockets can also be traced back to Qian’s research, Qian earned the name of “the father of China’s aerospace”.\nQian read a lot and was extremely knowledgeable, especially in the area of frontier science research. However, what might have made him such an outstanding and creative scientist was probably his strong interest in other things, such as music and drawing. His deep appreciation for art often gave him inspiration in his scientific research.\nOn 31 October 2009, the whole country was saddened by Qian’s death, and people honoured and remembered him in different ways.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Perhaps no other scientist has had a greater impact on China’s aerospace science than Qian Xuesen. Described by the authors of the Story of Qian Xuesen as a man with “great scientific thought and scientific spirit” who was patriotic and served his homeland with effort, achievement, and devotion, Qian was an extremely well-respected man."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Born in Shanghai in 1911, Qian attended schools in Beijing and then entered Shanghai Jiao Tong University to study Railway Mechanical Engineering. However, after the Songhu Battle broke out in 1932, Qian made the decision to switch his major to aviation because he realised that China needed its own powerful air force to protect and defend the country."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Qian went to the United States in 1935 to pursue his graduate studies. Over the course of the 1930s and 1940s, Qian became a pioneer in American jet and rocket technology. As a graduate assistant at the California Institute of Technology during the 1930s, Qian helped conduct important research into rocket propulsion, and in the 1940s, he and several other people founded the Jet Propulsion Laboratory, now one of NASA’s leading space-exploration centres."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "After overcoming some difficulties during his final few years in the US, Qian returned to China in 1955. He received a hero’s welcome from his homeland and was put in charge of not only developing China’s rocket science but also its space and missile programme. At that time, China was poor and its rocket science was undeveloped. No institute or university in China offered rocket science as a major, and there were no talents or experts in this field in China. Nevertheless, Qian did not let that discourage him from taking on the challenge. When asked “Can we Chinese possibly make missiles?”, his reply was a determined “Why not? We Chinese are able to make the same things that other people make.”"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Under Qian’s leadership, China developed the Dongfeng missiles, followed by the first generation of Long March rockets. In 1970, China successfully launched its first man-made satellite, Dong Fang Hong I, from a Long March rocket. Because much of the technology behind the Shenzhou rockets can also be traced back to Qian’s research, Qian earned the name of “the father of China’s aerospace”."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Qian read a lot and was extremely knowledgeable, especially in the area of frontier science research. However, what might have made him such an outstanding and creative scientist was probably his strong interest in other things, such as music and drawing. His deep appreciation for art often gave him inspiration in his scientific research."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "On 31 October 2009, the whole country was saddened by Qian’s death, and people honoured and remembered him in different ways."
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "选择性必修第二册",
+    "pageStart": 14,
+    "pageEnd": 15,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "1a701f2205298de95ea59cfc71eb83cd",
+    "pdfSize": 9968316,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/senior-selective-2.pdf#page=14-15",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored the complete seven-paragraph Qian Xuesen biography across pages 14–15, following both two-column continuations; excluded the photograph and all activities.",
+      "splitBaselineId": "pephs2-005",
+      "splitIndex": 2,
+      "splitCount": 2
+    }
+  }
+}

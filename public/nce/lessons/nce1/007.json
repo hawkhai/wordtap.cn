@@ -1,0 +1,200 @@
+{
+  "schemaVersion": 1,
+  "id": "nce1-007",
+  "bookId": "nce1",
+  "bookNo": 1,
+  "lessonNo": 7,
+  "lessonRange": [
+    7,
+    8
+  ],
+  "title": "Are You a Teacher",
+  "titleZh": "你是一名老师吗？",
+  "question": "What is Rober's job?",
+  "questionZh": "罗伯特的工作是什么？",
+  "text": "What is Rober's job?\n\nI am a new student.\nMy name's Robert.\nNice to meet you.\nMy name's Sophie.\nAre you French?\nYes I am.\nAre you French too?\nNo I am not.\nWhat nationality are you?\nI'm Italian.\nAre you a teacher?\nNo I'm not.\nWhat's your job?\nI'm a keyboard operator.\nWhat's your job?\nI'm an engineer.",
+  "bodyText": "I am a new student.\nMy name's Robert.\nNice to meet you.\nMy name's Sophie.\nAre you French?\nYes I am.\nAre you French too?\nNo I am not.\nWhat nationality are you?\nI'm Italian.\nAre you a teacher?\nNo I'm not.\nWhat's your job?\nI'm a keyboard operator.\nWhat's your job?\nI'm an engineer.",
+  "bodyTextZh": "我是一名新学生。\n我的名字叫罗伯特。\n很高兴见到你。\n我的名字叫索菲。\n你是法国人吗？\n是的，我是。\n你也是法国人吗？\n不，我不是。\n你是什么国籍的？\n我是意大利人。\n你是一名老师吗？\n不，我不是。\n你的工作是什么？\n我是一名打字员。\n你的工作是什么？\n我是一名工程师。",
+  "sentences": [
+    {
+      "index": 0,
+      "startTime": 0.53,
+      "endTime": 2.58,
+      "en": "Lesson 7",
+      "zh": "第7课",
+      "role": "lesson"
+    },
+    {
+      "index": 1,
+      "startTime": 2.58,
+      "endTime": 6.03,
+      "en": "Are you a teacher?",
+      "zh": "你是一名老师吗？",
+      "role": "title"
+    },
+    {
+      "index": 2,
+      "startTime": 6.03,
+      "endTime": 10.97,
+      "en": "Listen to the tape then answer this question.",
+      "zh": "请听录音，然后回答这个问题。",
+      "role": "prompt"
+    },
+    {
+      "index": 3,
+      "startTime": 10.97,
+      "endTime": 15.24,
+      "en": "What is Rober's job?",
+      "zh": "罗伯特的工作是什么？",
+      "role": "question"
+    },
+    {
+      "index": 4,
+      "startTime": 15.24,
+      "endTime": 18,
+      "en": "I am a new student.",
+      "zh": "我是一名新学生。",
+      "role": "body"
+    },
+    {
+      "index": 5,
+      "startTime": 18,
+      "endTime": 20.61,
+      "en": "My name's Robert.",
+      "zh": "我的名字叫罗伯特。",
+      "role": "body"
+    },
+    {
+      "index": 6,
+      "startTime": 20.61,
+      "endTime": 22.45,
+      "en": "Nice to meet you.",
+      "zh": "很高兴见到你。",
+      "role": "body"
+    },
+    {
+      "index": 7,
+      "startTime": 22.45,
+      "endTime": 25.7,
+      "en": "My name's Sophie.",
+      "zh": "我的名字叫索菲。",
+      "role": "body"
+    },
+    {
+      "index": 8,
+      "startTime": 25.7,
+      "endTime": 27.9,
+      "en": "Are you French?",
+      "zh": "你是法国人吗？",
+      "role": "body"
+    },
+    {
+      "index": 9,
+      "startTime": 27.9,
+      "endTime": 30.38,
+      "en": "Yes I am.",
+      "zh": "是的，我是。",
+      "role": "body"
+    },
+    {
+      "index": 10,
+      "startTime": 30.38,
+      "endTime": 33.22,
+      "en": "Are you French too?",
+      "zh": "你也是法国人吗？",
+      "role": "body"
+    },
+    {
+      "index": 11,
+      "startTime": 33.22,
+      "endTime": 36.54,
+      "en": "No I am not.",
+      "zh": "不，我不是。",
+      "role": "body"
+    },
+    {
+      "index": 12,
+      "startTime": 36.54,
+      "endTime": 40.1,
+      "en": "What nationality are you?",
+      "zh": "你是什么国籍的？",
+      "role": "body"
+    },
+    {
+      "index": 13,
+      "startTime": 40.1,
+      "endTime": 43.55,
+      "en": "I'm Italian.",
+      "zh": "我是意大利人。",
+      "role": "body"
+    },
+    {
+      "index": 14,
+      "startTime": 43.55,
+      "endTime": 46.12,
+      "en": "Are you a teacher?",
+      "zh": "你是一名老师吗？",
+      "role": "body"
+    },
+    {
+      "index": 15,
+      "startTime": 46.12,
+      "endTime": 48.45,
+      "en": "No I'm not.",
+      "zh": "不，我不是。",
+      "role": "body"
+    },
+    {
+      "index": 16,
+      "startTime": 48.45,
+      "endTime": 50.64,
+      "en": "What's your job?",
+      "zh": "你的工作是什么？",
+      "role": "body"
+    },
+    {
+      "index": 17,
+      "startTime": 50.64,
+      "endTime": 54.18,
+      "en": "I'm a keyboard operator.",
+      "zh": "我是一名打字员。",
+      "role": "body"
+    },
+    {
+      "index": 18,
+      "startTime": 54.18,
+      "endTime": 56.34,
+      "en": "What's your job?",
+      "zh": "你的工作是什么？",
+      "role": "body"
+    },
+    {
+      "index": 19,
+      "startTime": 56.34,
+      "endTime": null,
+      "en": "I'm an engineer.",
+      "zh": "我是一名工程师。",
+      "role": "body"
+    }
+  ],
+  "audio": {
+    "fileName": "007&008－Are You a Teacher.mp3",
+    "sourcePath": "content/NCE-Flow/NCE1/007&008－Are You a Teacher.mp3",
+    "exists": true
+  },
+  "source": {
+    "repository": "NCE-Flow",
+    "lrcFileName": "007&008－Are You a Teacher.lrc",
+    "lrcPath": "content/NCE-Flow/NCE1/007&008－Are You a Teacher.lrc",
+    "sourceDataFile": "content/NCE-Flow/static/data.json",
+    "generatedAt": "2026-07-23T02:59:02+00:00",
+    "generator": "scripts/generate_nce_json.py",
+    "generatorVersion": "2.0.0",
+    "metadata": {
+      "al": "新概念英语（一）",
+      "ar": "MP3 同步字幕版（美音）",
+      "ti": "Are You a Teacher?",
+      "by": "更多学习内容，请到VeryCD.com搜索“露珠”"
+    }
+  }
+}

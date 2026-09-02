@@ -1,0 +1,216 @@
+{
+  "schemaVersion": 1,
+  "id": "nce1-133",
+  "bookId": "nce1",
+  "bookNo": 1,
+  "lessonNo": 133,
+  "lessonRange": [
+    133,
+    134
+  ],
+  "title": "Sensational News",
+  "titleZh": "惊人的新闻！",
+  "question": "What reasons did Karen Marsh give for wanting to retire?",
+  "questionZh": "凯伦·马什提出了哪些想要退休的理由？",
+  "text": "What reasons did Karen Marsh give for wanting to retire?\n\nHave you just made a new film, Miss Marsh?\nYes, I have.\nAre you going to make another?\nNo, I'm not.\nI'm going to retire.\nI feel very tired.\nI don't want to make another film for a long time.\nLet's buy a newspaper, Liz.\nListen to this!\n'Karen Marsh: Sensational News!\nBy our reporter, Alan Jones.\nKaren Marsh arrived at London Airport today.\nShe was wearing a blue dress and a mink coat.\nShe told me she had just made a new film.\nshe said she was not going to make another.\nShe said she was going to retire.\nShe told reporters she felt very tired and didn't want to make another film for a long time.'\nI wonder why!",
+  "bodyText": "Have you just made a new film, Miss Marsh?\nYes, I have.\nAre you going to make another?\nNo, I'm not.\nI'm going to retire.\nI feel very tired.\nI don't want to make another film for a long time.\nLet's buy a newspaper, Liz.\nListen to this!\n'Karen Marsh: Sensational News!\nBy our reporter, Alan Jones.\nKaren Marsh arrived at London Airport today.\nShe was wearing a blue dress and a mink coat.\nShe told me she had just made a new film.\nshe said she was not going to make another.\nShe said she was going to retire.\nShe told reporters she felt very tired and didn't want to make another film for a long time.'\nI wonder why!",
+  "bodyTextZh": "马什小姐，您刚刚完成了一部新电影的制作吗？\n是的。\n您还准备再拍一部吗？\n不，不拍了。\n我打算退休了。\n我感到非常疲倦。\n我很长时间都不想再拍电影了。\n我们买份报纸吧，莉兹。\n你听听这个！\n凯伦·马什：轰动性新闻！\n本报记者艾伦·琼斯报道。\n凯伦·马什今天抵达了伦敦机场。\n她穿着一条蓝色的连衣裙和一件貂皮大衣。\n她告诉我她刚刚完成了一部新电影的制作。\n她说她不会再拍了。\n她说她打算退休了。\n她对记者们表示，她感到非常疲惫，暂时不想再拍电影了。\n真不知道为什么！",
+  "sentences": [
+    {
+      "index": 0,
+      "startTime": 0.78,
+      "endTime": 3.58,
+      "en": "Lesson 133",
+      "zh": "第133课",
+      "role": "lesson"
+    },
+    {
+      "index": 1,
+      "startTime": 3.58,
+      "endTime": 6.87,
+      "en": "Sensational news!",
+      "zh": "惊人的新闻！",
+      "role": "title"
+    },
+    {
+      "index": 2,
+      "startTime": 6.87,
+      "endTime": 12.61,
+      "en": "Listen to the tape then answer this question.",
+      "zh": "先听这段录音，然后再回答这个问题。",
+      "role": "prompt"
+    },
+    {
+      "index": 3,
+      "startTime": 12.61,
+      "endTime": 20.87,
+      "en": "What reasons did Karen Marsh give for wanting to retire?",
+      "zh": "凯伦·马什提出了哪些想要退休的理由？",
+      "role": "question"
+    },
+    {
+      "index": 4,
+      "startTime": 20.87,
+      "endTime": 25.34,
+      "en": "Have you just made a new film, Miss Marsh?",
+      "zh": "马什小姐，您刚刚完成了一部新电影的制作吗？",
+      "role": "body"
+    },
+    {
+      "index": 5,
+      "startTime": 25.34,
+      "endTime": 28.1,
+      "en": "Yes, I have.",
+      "zh": "是的。",
+      "role": "body"
+    },
+    {
+      "index": 6,
+      "startTime": 28.1,
+      "endTime": 30.85,
+      "en": "Are you going to make another?",
+      "zh": "您还准备再拍一部吗？",
+      "role": "body"
+    },
+    {
+      "index": 7,
+      "startTime": 30.85,
+      "endTime": 33.16,
+      "en": "No, I'm not.",
+      "zh": "不，不拍了。",
+      "role": "body"
+    },
+    {
+      "index": 8,
+      "startTime": 33.16,
+      "endTime": 36.17,
+      "en": "I'm going to retire.",
+      "zh": "我打算退休了。",
+      "role": "body"
+    },
+    {
+      "index": 9,
+      "startTime": 36.17,
+      "endTime": 39.16,
+      "en": "I feel very tired.",
+      "zh": "我感到非常疲倦。",
+      "role": "body"
+    },
+    {
+      "index": 10,
+      "startTime": 39.16,
+      "endTime": 46.46,
+      "en": "I don't want to make another film for a long time.",
+      "zh": "我很长时间都不想再拍电影了。",
+      "role": "body"
+    },
+    {
+      "index": 11,
+      "startTime": 46.46,
+      "endTime": 50.28,
+      "en": "Let's buy a newspaper, Liz.",
+      "zh": "我们买份报纸吧，莉兹。",
+      "role": "body"
+    },
+    {
+      "index": 12,
+      "startTime": 50.28,
+      "endTime": 52.8,
+      "en": "Listen to this!",
+      "zh": "你听听这个！",
+      "role": "body"
+    },
+    {
+      "index": 13,
+      "startTime": 52.8,
+      "endTime": 57.45,
+      "en": "'Karen Marsh: Sensational News!",
+      "zh": "凯伦·马什：轰动性新闻！",
+      "role": "body"
+    },
+    {
+      "index": 14,
+      "startTime": 57.45,
+      "endTime": 62.26,
+      "en": "By our reporter, Alan Jones.",
+      "zh": "本报记者艾伦·琼斯报道。",
+      "role": "body"
+    },
+    {
+      "index": 15,
+      "startTime": 62.26,
+      "endTime": 67.85,
+      "en": "Karen Marsh arrived at London Airport today.",
+      "zh": "凯伦·马什今天抵达了伦敦机场。",
+      "role": "body"
+    },
+    {
+      "index": 16,
+      "startTime": 67.85,
+      "endTime": 73.86,
+      "en": "She was wearing a blue dress and a mink coat.",
+      "zh": "她穿着一条蓝色的连衣裙和一件貂皮大衣。",
+      "role": "body"
+    },
+    {
+      "index": 17,
+      "startTime": 73.86,
+      "endTime": 79.7,
+      "en": "She told me she had just made a new film.",
+      "zh": "她告诉我她刚刚完成了一部新电影的制作。",
+      "role": "body"
+    },
+    {
+      "index": 18,
+      "startTime": 79.7,
+      "endTime": 85.9,
+      "en": "she said she was not going to make another.",
+      "zh": "她说她不会再拍了。",
+      "role": "body"
+    },
+    {
+      "index": 19,
+      "startTime": 85.9,
+      "endTime": 90.5,
+      "en": "She said she was going to retire.",
+      "zh": "她说她打算退休了。",
+      "role": "body"
+    },
+    {
+      "index": 20,
+      "startTime": 90.5,
+      "endTime": 102.05,
+      "en": "She told reporters she felt very tired and didn't want to make another film for a long time.'",
+      "zh": "她对记者们表示，她感到非常疲惫，暂时不想再拍电影了。",
+      "role": "body"
+    },
+    {
+      "index": 21,
+      "startTime": 102.05,
+      "endTime": null,
+      "en": "I wonder why!",
+      "zh": "真不知道为什么！",
+      "role": "body"
+    }
+  ],
+  "audio": {
+    "fileName": "133&134－Sensational News.mp3",
+    "sourcePath": "content/NCE-Flow/NCE1/133&134－Sensational News.mp3",
+    "exists": true
+  },
+  "source": {
+    "repository": "NCE-Flow",
+    "lrcFileName": "133&134－Sensational News.lrc",
+    "lrcPath": "content/NCE-Flow/NCE1/133&134－Sensational News.lrc",
+    "sourceDataFile": "content/NCE-Flow/static/data.json",
+    "generatedAt": "2026-07-23T02:59:02+00:00",
+    "generator": "scripts/generate_nce_json.py",
+    "generatorVersion": "2.0.0",
+    "metadata": {
+      "al": "新概念英语（一）",
+      "ar": "MP3 同步字幕版（美音）",
+      "ti": "Sensational News!",
+      "by": "更多学习内容，请到VeryCD.com搜索“露珠”"
+    }
+  }
+}

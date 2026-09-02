@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "id": "pephr1-016",
+  "groupId": "pephr1",
+  "unitNo": 4,
+  "sequenceNo": 16,
+  "section": "Reading and Thinking",
+  "title": "The Night the Earth Didn't Sleep",
+  "jsonPath": "pep-english/lessons/pephr1/016.json",
+  "text": "Strange things were happening in the countryside of northeastern Hebei. For several days, the water in the village wells rose and fell, rose and fell. There were deep cracks that appeared in the well walls. At least one well had some smelly gas coming out of it. Chickens and even pigs were too nervous to eat, and dogs refused to go inside buildings. Mice ran out of the fields looking for places to hide, and fish jumped out of the water. At about 3:00 a.m., on 28 July 1976, bright lights were seen in the sky outside the city of Tangshan and loud noises were heard. But the city's one million people were asleep as usual that night.\nAt 3:42 a.m., everything began to shake. It seemed as if the world were coming to an end! Eleven kilometres directly below the city, one of the most deadly earthquakes of the 20th century had begun, a quake that even caused damage more than 150 kilometres away in Beijing. Nearly one third of the whole nation felt it! A huge crack, eight kilometres long and 30 metres wide, cut across houses, roads, and waterways. Hard hills of rock became rivers of dirt. In less than one minute, a large city lay in ruins. Two thirds of the people who lived there were dead or injured. Thousands of children were left without parents. The number of people who were killed or badly injured in the quake was more than 400,000.\nEverywhere survivors looked, there was nothing but ruins. Nearly everything in the city was destroyed. About 75 percent of the city's factories and buildings, 90 percent of its homes, and all of its hospitals were gone. Bricks covered the ground like red autumn leaves, but no wind could blow them away. Most bridges had fallen or were not safe to cross. The railway tracks were now useless pieces of metal. Tens of thousands of cows, hundreds of thousands of pigs, and millions of chickens were dead. Sand now filled the wells instead of water. People were in shock—and then, later that afternoon, another big quake shook Tangshan again. Even more buildings fell down. Water, food, and electricity were hard to get. People began to wonder how long the disaster would last.\nBut hope was not lost. Soon after the quakes, the army sent 150,000 soldiers to Tangshan to dig out those who were trapped and to bury the dead. More than 10,000 doctors and nurses came to provide medical care. Workers built shelters for survivors whose homes had been destroyed. Hundreds of thousands of people were helped. Water and food were brought into the city by train, truck, and plane. Slowly, the city began to breathe again.\nTangshan started to revive itself and get back up on its feet. With strong support from the government and the tireless efforts of the city's people, a new Tangshan was built upon the earthquake ruins. The new city has become a home to more than seven million people, with great improvements in transportation, industry, and environment. Tangshan city has proved to China and the rest of the world that in times of disaster, people must unify and show the wisdom to stay positive and rebuild for a brighter future.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Strange things were happening in the countryside of northeastern Hebei. For several days, the water in the village wells rose and fell, rose and fell. There were deep cracks that appeared in the well walls. At least one well had some smelly gas coming out of it. Chickens and even pigs were too nervous to eat, and dogs refused to go inside buildings. Mice ran out of the fields looking for places to hide, and fish jumped out of the water. At about 3:00 a.m., on 28 July 1976, bright lights were seen in the sky outside the city of Tangshan and loud noises were heard. But the city's one million people were asleep as usual that night."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "At 3:42 a.m., everything began to shake. It seemed as if the world were coming to an end! Eleven kilometres directly below the city, one of the most deadly earthquakes of the 20th century had begun, a quake that even caused damage more than 150 kilometres away in Beijing. Nearly one third of the whole nation felt it! A huge crack, eight kilometres long and 30 metres wide, cut across houses, roads, and waterways. Hard hills of rock became rivers of dirt. In less than one minute, a large city lay in ruins. Two thirds of the people who lived there were dead or injured. Thousands of children were left without parents. The number of people who were killed or badly injured in the quake was more than 400,000."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Everywhere survivors looked, there was nothing but ruins. Nearly everything in the city was destroyed. About 75 percent of the city's factories and buildings, 90 percent of its homes, and all of its hospitals were gone. Bricks covered the ground like red autumn leaves, but no wind could blow them away. Most bridges had fallen or were not safe to cross. The railway tracks were now useless pieces of metal. Tens of thousands of cows, hundreds of thousands of pigs, and millions of chickens were dead. Sand now filled the wells instead of water. People were in shock—and then, later that afternoon, another big quake shook Tangshan again. Even more buildings fell down. Water, food, and electricity were hard to get. People began to wonder how long the disaster would last."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "But hope was not lost. Soon after the quakes, the army sent 150,000 soldiers to Tangshan to dig out those who were trapped and to bury the dead. More than 10,000 doctors and nurses came to provide medical care. Workers built shelters for survivors whose homes had been destroyed. Hundreds of thousands of people were helped. Water and food were brought into the city by train, truck, and plane. Slowly, the city began to breathe again."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Tangshan started to revive itself and get back up on its feet. With strong support from the government and the tireless efforts of the city's people, a new Tangshan was built upon the earthquake ruins. The new city has become a home to more than seven million people, with great improvements in transportation, industry, and environment. Tangshan city has proved to China and the rest of the world that in times of disaster, people must unify and show the wisdom to stay positive and rebuild for a brighter future."
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "必修第一册",
+    "pageStart": 57,
+    "pageEnd": 57,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "e0bf18138b24d7def28b35994a13946b",
+    "pdfSize": 14704146,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/senior-required-1.pdf#page=57",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored the printed title and all five complete paragraphs from warning signs through destruction, rescue and rebuilding; removed the pair discussion and prediction instructions."
+    }
+  }
+}

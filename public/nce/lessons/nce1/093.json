@@ -1,0 +1,168 @@
+{
+  "schemaVersion": 1,
+  "id": "nce1-093",
+  "bookId": "nce1",
+  "bookNo": 1,
+  "lessonNo": 93,
+  "lessonRange": [
+    93,
+    94
+  ],
+  "title": "Our New Neighbour",
+  "titleZh": "我们的新邻居",
+  "question": "Why is Nigel a lucky man?",
+  "questionZh": "为什么奈杰尔是个幸运的人？",
+  "text": "Why is Nigel a lucky man?\n\nNigel is our new next-door neighbour.\nHe's a pilot.\nHe was in the R.A.F.\nHe will fly to New York next month.\nThe month after next he'll fly to Tokyo.\nAt the moment, he's in Madrid.\nHe flew to Spain a week ago.\nHe'll return to London the week after next.\nHe's only forty-one years old, and he has already been to nearly every country in the world.\nNigel is a very lucky man.\nBut his wife isn't very lucky.\nShe usually stays at home!",
+  "bodyText": "Nigel is our new next-door neighbour.\nHe's a pilot.\nHe was in the R.A.F.\nHe will fly to New York next month.\nThe month after next he'll fly to Tokyo.\nAt the moment, he's in Madrid.\nHe flew to Spain a week ago.\nHe'll return to London the week after next.\nHe's only forty-one years old, and he has already been to nearly every country in the world.\nNigel is a very lucky man.\nBut his wife isn't very lucky.\nShe usually stays at home!",
+  "bodyTextZh": "奈杰尔是我们的新邻居，住在我们隔壁。\n他是一名飞行员。\n他曾在英国皇家空军（R.A.F.）服役。\n他下个月将飞往纽约。\n下下个月，他将飞往东京。\n目前，他在马德里。\n他一周前飞去了西班牙。\n他将在下下周回到伦敦。\n他才四十一岁。他已经去过世界上几乎所有的国家了。\n奈杰尔是个非常幸运的人。\n不过他的妻子运气不太好。\n她通常待在家里！",
+  "sentences": [
+    {
+      "index": 0,
+      "startTime": 0.51,
+      "endTime": 3.01,
+      "en": "Lesson 93",
+      "zh": "第93课",
+      "role": "lesson"
+    },
+    {
+      "index": 1,
+      "startTime": 3.01,
+      "endTime": 6.03,
+      "en": "Our new neighbour",
+      "zh": "我们的新邻居",
+      "role": "title"
+    },
+    {
+      "index": 2,
+      "startTime": 6.03,
+      "endTime": 11.98,
+      "en": "Listen to the tape then answer this question.",
+      "zh": "先听这段录音，然后再回答这个问题。",
+      "role": "prompt"
+    },
+    {
+      "index": 3,
+      "startTime": 11.98,
+      "endTime": 17.19,
+      "en": "Why is Nigel a lucky man?",
+      "zh": "为什么奈杰尔是个幸运的人？",
+      "role": "question"
+    },
+    {
+      "index": 4,
+      "startTime": 17.19,
+      "endTime": 21.64,
+      "en": "Nigel is our new next-door neighbour.",
+      "zh": "奈杰尔是我们的新邻居，住在我们隔壁。",
+      "role": "body"
+    },
+    {
+      "index": 5,
+      "startTime": 21.64,
+      "endTime": 24.16,
+      "en": "He's a pilot.",
+      "zh": "他是一名飞行员。",
+      "role": "body"
+    },
+    {
+      "index": 6,
+      "startTime": 24.16,
+      "endTime": 28.29,
+      "en": "He was in the R.A.F.",
+      "zh": "他曾在英国皇家空军（R.A.F.）服役。",
+      "role": "body"
+    },
+    {
+      "index": 7,
+      "startTime": 28.29,
+      "endTime": 33.19,
+      "en": "He will fly to New York next month.",
+      "zh": "他下个月将飞往纽约。",
+      "role": "body"
+    },
+    {
+      "index": 8,
+      "startTime": 33.19,
+      "endTime": 38.62,
+      "en": "The month after next he'll fly to Tokyo.",
+      "zh": "下下个月，他将飞往东京。",
+      "role": "body"
+    },
+    {
+      "index": 9,
+      "startTime": 38.62,
+      "endTime": 42.31,
+      "en": "At the moment, he's in Madrid.",
+      "zh": "目前，他在马德里。",
+      "role": "body"
+    },
+    {
+      "index": 10,
+      "startTime": 42.31,
+      "endTime": 46.58,
+      "en": "He flew to Spain a week ago.",
+      "zh": "他一周前飞去了西班牙。",
+      "role": "body"
+    },
+    {
+      "index": 11,
+      "startTime": 46.58,
+      "endTime": 52.15,
+      "en": "He'll return to London the week after next.",
+      "zh": "他将在下下周回到伦敦。",
+      "role": "body"
+    },
+    {
+      "index": 12,
+      "startTime": 52.15,
+      "endTime": 63.42,
+      "en": "He's only forty-one years old, and he has already been to nearly every country in the world.",
+      "zh": "他才四十一岁。他已经去过世界上几乎所有的国家了。",
+      "role": "body"
+    },
+    {
+      "index": 13,
+      "startTime": 63.42,
+      "endTime": 67.2,
+      "en": "Nigel is a very lucky man.",
+      "zh": "奈杰尔是个非常幸运的人。",
+      "role": "body"
+    },
+    {
+      "index": 14,
+      "startTime": 67.2,
+      "endTime": 70.52,
+      "en": "But his wife isn't very lucky.",
+      "zh": "不过他的妻子运气不太好。",
+      "role": "body"
+    },
+    {
+      "index": 15,
+      "startTime": 70.52,
+      "endTime": null,
+      "en": "She usually stays at home!",
+      "zh": "她通常待在家里！",
+      "role": "body"
+    }
+  ],
+  "audio": {
+    "fileName": "093&094－Our New Neighbour.mp3",
+    "sourcePath": "content/NCE-Flow/NCE1/093&094－Our New Neighbour.mp3",
+    "exists": true
+  },
+  "source": {
+    "repository": "NCE-Flow",
+    "lrcFileName": "093&094－Our New Neighbour.lrc",
+    "lrcPath": "content/NCE-Flow/NCE1/093&094－Our New Neighbour.lrc",
+    "sourceDataFile": "content/NCE-Flow/static/data.json",
+    "generatedAt": "2026-07-23T02:59:02+00:00",
+    "generator": "scripts/generate_nce_json.py",
+    "generatorVersion": "2.0.0",
+    "metadata": {
+      "al": "新概念英语（一）",
+      "ar": "MP3 同步字幕版（美音）",
+      "ti": "Our New Neighbour",
+      "by": "更多学习内容，请到VeryCD.com搜索“露珠”"
+    }
+  }
+}

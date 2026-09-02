@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "id": "pephs1-023",
+  "groupId": "pephs1",
+  "unitNo": 3,
+  "sequenceNo": 23,
+  "section": "Reading and Writing",
+  "title": "A Holiday in Shangri-La",
+  "jsonPath": "pep-english/lessons/pephs1/023.json",
+  "text": "Dear Sis,\nHow have you been? I’m having a good time on my holiday. Do you remember how it was our dream to find Shangri-La some day? You know that place in James Hilton’s Lost Horizon. Well, now I can safely say that I’ve been there!\nBefore you get too excited, I must admit that this Shangri-La is the name of a city in Yunnan, China, and not the place in the book! I decided to come here because I wanted to experience the real Shangri-La for myself, even if it’s different from the paradise we read about. So far, I really like it here.\nOn Monday, I left Lhasa at noon, and after changing flights once, I reached Shangri-La—also called “Zhongdian”—at eight in the evening. The airport is not far from the city, so my taxi ride to the hotel was very short. That night, I was so exhausted that I had a quick bite to eat and then crashed.\nYesterday, I went to the Potatso National Park. The park covers such a wide area that the admission ticket for the park includes a bus tour, as it is the only way to see all the major sites in one day. Just to give you an idea of how large the place is, imagine a park that spans across vast forests, wetlands, lakes, meadows, and several villages! On the bus, I made friends with the passengers around me, and they said that I had definitely picked the right season to visit the park. The autumn scenery, they said, would be absolutely picture-perfect.\nOn top of its beautiful scenery, the park is also famous for its rich biological diversity. Did you know that Potatso makes up less than one percent of China’s total land area, but it contains more than 20 percent of the country’s plant and animal species? The black-necked cranes were my favourites. I saw two of them at the picturesque Bita Lake!\nAt Shudu Lake, the first stop on the bus tour, we saw horses, cows, and yaks enjoying the sunlight and eating grass contentedly. As a nature lover like me, I’m sure you can imagine how delighted I was by this sight.\nBita Lake, however, is absolutely my favourite place in Potatso. Just imagine, a beautiful lake, blue skies, majestic mountains, and golden trees all around me. In such tranquil surroundings, I could easily believe myself to be standing in James Hilton’s Shangri-La. For those who live in cities like we do, spending time in nature can be an incredibly rejuvenating experience.\nTomorrow, I am going hiking at the Tiger Leaping Gorge. Fingers crossed that there will be good weather! Anyway, I need to get some sleep now since tomorrow’s going to be a long day, but I’ll tell you all about it when I get back!\nLove,\nChris",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Dear Sis,"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "How have you been? I’m having a good time on my holiday. Do you remember how it was our dream to find Shangri-La some day? You know that place in James Hilton’s Lost Horizon. Well, now I can safely say that I’ve been there!"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Before you get too excited, I must admit that this Shangri-La is the name of a city in Yunnan, China, and not the place in the book! I decided to come here because I wanted to experience the real Shangri-La for myself, even if it’s different from the paradise we read about. So far, I really like it here."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "On Monday, I left Lhasa at noon, and after changing flights once, I reached Shangri-La—also called “Zhongdian”—at eight in the evening. The airport is not far from the city, so my taxi ride to the hotel was very short. That night, I was so exhausted that I had a quick bite to eat and then crashed."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Yesterday, I went to the Potatso National Park. The park covers such a wide area that the admission ticket for the park includes a bus tour, as it is the only way to see all the major sites in one day. Just to give you an idea of how large the place is, imagine a park that spans across vast forests, wetlands, lakes, meadows, and several villages! On the bus, I made friends with the passengers around me, and they said that I had definitely picked the right season to visit the park. The autumn scenery, they said, would be absolutely picture-perfect."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "On top of its beautiful scenery, the park is also famous for its rich biological diversity. Did you know that Potatso makes up less than one percent of China’s total land area, but it contains more than 20 percent of the country’s plant and animal species? The black-necked cranes were my favourites. I saw two of them at the picturesque Bita Lake!"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "At Shudu Lake, the first stop on the bus tour, we saw horses, cows, and yaks enjoying the sunlight and eating grass contentedly. As a nature lover like me, I’m sure you can imagine how delighted I was by this sight."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Bita Lake, however, is absolutely my favourite place in Potatso. Just imagine, a beautiful lake, blue skies, majestic mountains, and golden trees all around me. In such tranquil surroundings, I could easily believe myself to be standing in James Hilton’s Shangri-La. For those who live in cities like we do, spending time in nature can be an incredibly rejuvenating experience."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Tomorrow, I am going hiking at the Tiger Leaping Gorge. Fingers crossed that there will be good weather! Anyway, I need to get some sleep now since tomorrow’s going to be a long day, but I’ll tell you all about it when I get back!"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Love,"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Chris"
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "选择性必修第一册",
+    "pageStart": 85,
+    "pageEnd": 85,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "f19c4231e96ee3a9c769533d676f1106",
+    "pdfSize": 12809514,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/senior-selective-1.pdf#page=85",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored Chris’s complete holiday email from salutation through signature as eleven blocks; excluded the instruction, landscape photograph and running furniture, and confirmed page 86 contains only follow-up exercises."
+    }
+  }
+}

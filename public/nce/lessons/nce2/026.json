@@ -1,0 +1,191 @@
+{
+  "schemaVersion": 1,
+  "id": "nce2-026",
+  "bookId": "nce2",
+  "bookNo": 2,
+  "lessonNo": 26,
+  "lessonRange": [
+    26
+  ],
+  "title": "The Best Art Critics",
+  "titleZh": "最佳艺术评论家",
+  "question": "Who is the student's best critic?",
+  "questionZh": "谁是这位学生最好的评论家？",
+  "text": "Who is the student's best critic?\n\nI am an art student and I paint a lot of pictures.\nMany people pretend that they understand modern art.\nThey always tell you what a picture is 'about'.\nOf course, many pictures are not 'about' anything.\nThey are just pretty patterns.\nWe like them in the same way that we like pretty curtain material.\nI think that young children often appreciate modern pictures better than anyone else.\nThey notice more.\nMy sister is only seven, but she always tells me whether my pictures are good or not.\nShe came into my room yesterday.\n'What are you doing?' she asked.\n'I'm hanging this picture on the wall,' I answered. 'It's a new one. Do you like it?'\nShe looked at it critically for a moment.\n'It's all right,' she said, 'but isn't it upside down?'\nI looked at it again.\nShe was right! It was!",
+  "bodyText": "I am an art student and I paint a lot of pictures.\nMany people pretend that they understand modern art.\nThey always tell you what a picture is 'about'.\nOf course, many pictures are not 'about' anything.\nThey are just pretty patterns.\nWe like them in the same way that we like pretty curtain material.\nI think that young children often appreciate modern pictures better than anyone else.\nThey notice more.\nMy sister is only seven, but she always tells me whether my pictures are good or not.\nShe came into my room yesterday.\n'What are you doing?' she asked.\n'I'm hanging this picture on the wall,' I answered. 'It's a new one. Do you like it?'\nShe looked at it critically for a moment.\n'It's all right,' she said, 'but isn't it upside down?'\nI looked at it again.\nShe was right! It was!",
+  "bodyTextZh": "我是一名艺术学生，经常画很多画。\n很多人假装自己理解现代艺术。\n当然，很多画其实什么也不是。\n当然，很多图片其实并没有明确的主题或意义（即它们“并不表达任何特定的内容”）。\n它们只不过是一些漂亮的图案罢了。\n我们喜欢它们的方式，就如同我们喜欢漂亮的窗帘面料一样。\n我认为，小孩子往往比任何人都更懂得欣赏现代画。\n他们看到的更多。\n我妹妹才七岁。但她总会告诉我我的画好不好。\n她昨天进了我的房间。\n“你在做什么？”她问。\n“我在把这幅画挂在墙上。”我回答说，“这是一幅新画。你喜欢吗？”\n她挑剔地看了一会儿。\n“还行吧，”她说，“不过它不是倒挂了吗？”\n我又看了一遍。\n她说得对！确实是这样！",
+  "sentences": [
+    {
+      "index": 0,
+      "startTime": 0.5,
+      "endTime": 3,
+      "en": "Lesson 26",
+      "zh": "第26课",
+      "role": "lesson"
+    },
+    {
+      "index": 1,
+      "startTime": 3,
+      "endTime": 10.99,
+      "en": "The Best Art Critics",
+      "zh": "最佳艺术评论家",
+      "role": "title"
+    },
+    {
+      "index": 2,
+      "startTime": 10.99,
+      "endTime": 15.97,
+      "en": "Who is the student's best critic?",
+      "zh": "谁是这位学生最好的评论家？",
+      "role": "question"
+    },
+    {
+      "index": 3,
+      "startTime": 15.97,
+      "endTime": 21.45,
+      "en": "I am an art student and I paint a lot of pictures.",
+      "zh": "我是一名艺术学生，经常画很多画。",
+      "role": "body"
+    },
+    {
+      "index": 4,
+      "startTime": 21.45,
+      "endTime": 26.32,
+      "en": "Many people pretend that they understand modern art.",
+      "zh": "很多人假装自己理解现代艺术。",
+      "role": "body"
+    },
+    {
+      "index": 5,
+      "startTime": 26.32,
+      "endTime": 30.55,
+      "en": "They always tell you what a picture is 'about'.",
+      "zh": "当然，很多画其实什么也不是。",
+      "role": "body"
+    },
+    {
+      "index": 6,
+      "startTime": 30.55,
+      "endTime": 35.3,
+      "en": "Of course, many pictures are not 'about' anything.",
+      "zh": "当然，很多图片其实并没有明确的主题或意义（即它们“并不表达任何特定的内容”）。",
+      "role": "body"
+    },
+    {
+      "index": 7,
+      "startTime": 35.3,
+      "endTime": 38.11,
+      "en": "They are just pretty patterns.",
+      "zh": "它们只不过是一些漂亮的图案罢了。",
+      "role": "body"
+    },
+    {
+      "index": 8,
+      "startTime": 38.11,
+      "endTime": 44.18,
+      "en": "We like them in the same way that we like pretty curtain material.",
+      "zh": "我们喜欢它们的方式，就如同我们喜欢漂亮的窗帘面料一样。",
+      "role": "body"
+    },
+    {
+      "index": 9,
+      "startTime": 44.18,
+      "endTime": 52.01,
+      "en": "I think that young children often appreciate modern pictures better than anyone else.",
+      "zh": "我认为，小孩子往往比任何人都更懂得欣赏现代画。",
+      "role": "body"
+    },
+    {
+      "index": 10,
+      "startTime": 52.01,
+      "endTime": 54.27,
+      "en": "They notice more.",
+      "zh": "他们看到的更多。",
+      "role": "body"
+    },
+    {
+      "index": 11,
+      "startTime": 54.27,
+      "endTime": 62.67,
+      "en": "My sister is only seven, but she always tells me whether my pictures are good or not.",
+      "zh": "我妹妹才七岁。但她总会告诉我我的画好不好。",
+      "role": "body"
+    },
+    {
+      "index": 12,
+      "startTime": 62.67,
+      "endTime": 65.94,
+      "en": "She came into my room yesterday.",
+      "zh": "她昨天进了我的房间。",
+      "role": "body"
+    },
+    {
+      "index": 13,
+      "startTime": 65.94,
+      "endTime": 69.36,
+      "en": "'What are you doing?' she asked.",
+      "zh": "“你在做什么？”她问。",
+      "role": "body"
+    },
+    {
+      "index": 14,
+      "startTime": 69.36,
+      "endTime": 77.48,
+      "en": "'I'm hanging this picture on the wall,' I answered. 'It's a new one. Do you like it?'",
+      "zh": "“我在把这幅画挂在墙上。”我回答说，“这是一幅新画。你喜欢吗？”",
+      "role": "body"
+    },
+    {
+      "index": 15,
+      "startTime": 77.48,
+      "endTime": 81.07,
+      "en": "She looked at it critically for a moment.",
+      "zh": "她挑剔地看了一会儿。",
+      "role": "body"
+    },
+    {
+      "index": 16,
+      "startTime": 81.07,
+      "endTime": 86.93,
+      "en": "'It's all right,' she said, 'but isn't it upside down?'",
+      "zh": "“还行吧，”她说，“不过它不是倒挂了吗？”",
+      "role": "body"
+    },
+    {
+      "index": 17,
+      "startTime": 86.93,
+      "endTime": 88.97,
+      "en": "I looked at it again.",
+      "zh": "我又看了一遍。",
+      "role": "body"
+    },
+    {
+      "index": 18,
+      "startTime": 88.97,
+      "endTime": null,
+      "en": "She was right! It was!",
+      "zh": "她说得对！确实是这样！",
+      "role": "body"
+    }
+  ],
+  "audio": {
+    "fileName": "26－The Best Art Critics.mp3",
+    "sourcePath": "content/NCE-Flow/NCE2/26－The Best Art Critics.mp3",
+    "exists": true
+  },
+  "source": {
+    "repository": "NCE-Flow",
+    "lrcFileName": "26－The Best Art Critics.lrc",
+    "lrcPath": "content/NCE-Flow/NCE2/26－The Best Art Critics.lrc",
+    "sourceDataFile": "content/NCE-Flow/static/data.json",
+    "generatedAt": "2026-07-23T02:59:02+00:00",
+    "generator": "scripts/generate_nce_json.py",
+    "generatorVersion": "2.0.0",
+    "metadata": {
+      "al": "新概念英语（二）",
+      "ar": "MP3 同步字幕版（美音）",
+      "ti": "The Best Art Critics",
+      "by": "更多学习内容，请到VeryCD.com搜索“露珠”"
+    }
+  }
+}

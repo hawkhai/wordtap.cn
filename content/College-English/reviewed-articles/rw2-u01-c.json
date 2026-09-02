@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "rw2-u01-c",
+  "unitNo": 1,
+  "section": "C",
+  "title": "What challenges learners of Chinese?",
+  "printedPageStart": 25,
+  "printedPageEnd": 26,
+  "paragraphs": [
+    "Because of the rapid transformation of its society and the continuous development of its economy, China has attracted people from more and more countries. They come to China to work and study, and many start to learn Chinese.",
+    "However, learning a new language is not easy, especially Chinese. The Chinese tones are one of the key challenges for foreign learners. Tones in Chinese distinguish meanings. When foreign learners speak Chinese, the pronunciation often sounds a little weird, because they cannot grasp the tones well. The main problems are that their voice cannot go up for the second tone, go down for the fourth, and make a turn for the third. For example, the words “睡觉 (shuì jiào)” and “水饺 (shuǐ jiǎo)” have different tones and, therefore, convey different meanings. “睡觉” means “sleep”, and “水饺” means “dumpling”. If the tone is not properly pronounced, the meaning will be entirely different.",
+    "Another challenge is the Chinese writing system, which has gone through a long evolution since ancient China. Chinese is an ideographic (表意的) language, and its characters are formed from images. Writing Chinese characters, in a sense, is just like drawing pictures. Besides, a Chinese character combines its form, sound, and meaning together into one, but the relationship between the three is rather complex. To learn Chinese characters, learners should not only remember the relationship between form and meaning but also the relationship between sound and meaning. This builds a huge language barrier for foreigners.",
+    "Furthermore, Chinese vocabulary can make its learners feel overwhelmed. In fact, vocabulary, a basic component of a language, is the most difficult part in learning Chinese. For instance, due to the rich category of quantifiers in the Chinese language, the usage of different quantifiers seems to be confusing to foreigners, such as “一块面包 (a piece of bread)”, “一张纸 (a piece of paper)”, and “一支曲子 (a piece of music)”. There are also many other quantifiers that are hard for beginners to use correctly.",
+    "These are some of the challenges when foreigners learn the Chinese language. However, it is always fun to learn the language because of its long history and unique ideographic meaning. Motivated foreigners can become proficient in Chinese after a period of time staying in China.",
+    "Chinese is a beautiful language, very different from English or other languages. It is predictable that China’s rising international status will continue to draw the attention of the world and help significantly increase the number of foreigners interested in learning Chinese."
+  ],
+  "correctionLog": [
+    "Confirmed the exact article boundary as printed pages 25–26 and stopped before Translation.",
+    "Reconstructed the decorative title and opening capital letter.",
+    "Restored the left-column then right-column reading order on both source pages.",
+    "Joined the tone paragraph across columns and the writing-system paragraph across the page break.",
+    "Restored Chinese characters, pinyin tone marks, English glosses, quotation marks, and apostrophes.",
+    "Corrected OCR losses for 表意的, 睡觉, 水饺, 一块面包, 一张纸, and 一支曲子.",
+    "Preserved all six printed paragraph boundaries.",
+    "Excluded artwork, headers, footers, QR-code label, and the complete Translation exercise.",
+    "Re-read the complete article against both source images."
+  ]
+}

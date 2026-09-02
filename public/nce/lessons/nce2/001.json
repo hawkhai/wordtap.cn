@@ -1,0 +1,191 @@
+{
+  "schemaVersion": 1,
+  "id": "nce2-001",
+  "bookId": "nce2",
+  "bookNo": 2,
+  "lessonNo": 1,
+  "lessonRange": [
+    1
+  ],
+  "title": "A Private Conversation",
+  "titleZh": "私人谈话",
+  "question": "Why did the writer complain to the people behind him?",
+  "questionZh": "为什么作者会向他身后的人抱怨呢？",
+  "text": "Why did the writer complain to the people behind him?\n\nLast week I went to the theatre.\nI had a very good seat.\nThe play was very interesting.\nI did not enjoy it.\nA young man and a young woman were sitting behind me.\nThey were talking loudly.\nI got very angry.\nI could not hear the actors.\nI turned round.\nI looked at the man and the woman angrily.\nThey did not pay any attention.\nIn the end, I could not bear it.\nI turned round again.\n'I can't hear a word!' I said angrily.\n'It's none of your business,' the young man said rudely.\n'This is a private conversation!'",
+  "bodyText": "Last week I went to the theatre.\nI had a very good seat.\nThe play was very interesting.\nI did not enjoy it.\nA young man and a young woman were sitting behind me.\nThey were talking loudly.\nI got very angry.\nI could not hear the actors.\nI turned round.\nI looked at the man and the woman angrily.\nThey did not pay any attention.\nIn the end, I could not bear it.\nI turned round again.\n'I can't hear a word!' I said angrily.\n'It's none of your business,' the young man said rudely.\n'This is a private conversation!'",
+  "bodyTextZh": "上周我去剧院看戏。\n我的座位非常好。\n这出戏非常有趣。\n我并不喜欢它。\n一个年轻男子和一个年轻女子坐在我后面。\n他们说话的声音很大。\n我非常生气。\n我听不到演员们的声音。\n我转过身来。\n我愤怒地看着那个男人和那个女人。\n他们根本没有理会。\n最后，我实在无法忍受下去了。\n我又转过身来。\n“我一个字都听不见！”我愤怒地说道。\n“这不关你的事。”那个年轻人粗鲁地说道。\n“这可是私人谈话！”",
+  "sentences": [
+    {
+      "index": 0,
+      "startTime": 0.5,
+      "endTime": 3,
+      "en": "Lesson 1",
+      "zh": "第1课",
+      "role": "lesson"
+    },
+    {
+      "index": 1,
+      "startTime": 3,
+      "endTime": 9.77,
+      "en": "A Private Conversation",
+      "zh": "私人谈话",
+      "role": "title"
+    },
+    {
+      "index": 2,
+      "startTime": 9.77,
+      "endTime": 15.91,
+      "en": "Why did the writer complain to the people behind him?",
+      "zh": "为什么作者会向他身后的人抱怨呢？",
+      "role": "question"
+    },
+    {
+      "index": 3,
+      "startTime": 15.91,
+      "endTime": 19.39,
+      "en": "Last week I went to the theatre.",
+      "zh": "上周我去剧院看戏。",
+      "role": "body"
+    },
+    {
+      "index": 4,
+      "startTime": 19.39,
+      "endTime": 22.07,
+      "en": "I had a very good seat.",
+      "zh": "我的座位非常好。",
+      "role": "body"
+    },
+    {
+      "index": 5,
+      "startTime": 22.07,
+      "endTime": 25.1,
+      "en": "The play was very interesting.",
+      "zh": "这出戏非常有趣。",
+      "role": "body"
+    },
+    {
+      "index": 6,
+      "startTime": 25.1,
+      "endTime": 27.43,
+      "en": "I did not enjoy it.",
+      "zh": "我并不喜欢它。",
+      "role": "body"
+    },
+    {
+      "index": 7,
+      "startTime": 27.43,
+      "endTime": 31.96,
+      "en": "A young man and a young woman were sitting behind me.",
+      "zh": "一个年轻男子和一个年轻女子坐在我后面。",
+      "role": "body"
+    },
+    {
+      "index": 8,
+      "startTime": 31.96,
+      "endTime": 34.59,
+      "en": "They were talking loudly.",
+      "zh": "他们说话的声音很大。",
+      "role": "body"
+    },
+    {
+      "index": 9,
+      "startTime": 34.59,
+      "endTime": 37.41,
+      "en": "I got very angry.",
+      "zh": "我非常生气。",
+      "role": "body"
+    },
+    {
+      "index": 10,
+      "startTime": 37.41,
+      "endTime": 40.64,
+      "en": "I could not hear the actors.",
+      "zh": "我听不到演员们的声音。",
+      "role": "body"
+    },
+    {
+      "index": 11,
+      "startTime": 40.64,
+      "endTime": 42.8,
+      "en": "I turned round.",
+      "zh": "我转过身来。",
+      "role": "body"
+    },
+    {
+      "index": 12,
+      "startTime": 42.8,
+      "endTime": 47.27,
+      "en": "I looked at the man and the woman angrily.",
+      "zh": "我愤怒地看着那个男人和那个女人。",
+      "role": "body"
+    },
+    {
+      "index": 13,
+      "startTime": 47.27,
+      "endTime": 50.69,
+      "en": "They did not pay any attention.",
+      "zh": "他们根本没有理会。",
+      "role": "body"
+    },
+    {
+      "index": 14,
+      "startTime": 50.69,
+      "endTime": 54.98,
+      "en": "In the end, I could not bear it.",
+      "zh": "最后，我实在无法忍受下去了。",
+      "role": "body"
+    },
+    {
+      "index": 15,
+      "startTime": 54.98,
+      "endTime": 57.75,
+      "en": "I turned round again.",
+      "zh": "我又转过身来。",
+      "role": "body"
+    },
+    {
+      "index": 16,
+      "startTime": 57.75,
+      "endTime": 63.45,
+      "en": "'I can't hear a word!' I said angrily.",
+      "zh": "“我一个字都听不见！”我愤怒地说道。",
+      "role": "body"
+    },
+    {
+      "index": 17,
+      "startTime": 63.45,
+      "endTime": 69,
+      "en": "'It's none of your business,' the young man said rudely.",
+      "zh": "“这不关你的事。”那个年轻人粗鲁地说道。",
+      "role": "body"
+    },
+    {
+      "index": 18,
+      "startTime": 69,
+      "endTime": null,
+      "en": "'This is a private conversation!'",
+      "zh": "“这可是私人谈话！”",
+      "role": "body"
+    }
+  ],
+  "audio": {
+    "fileName": "01－A Private Conversation.mp3",
+    "sourcePath": "content/NCE-Flow/NCE2/01－A Private Conversation.mp3",
+    "exists": true
+  },
+  "source": {
+    "repository": "NCE-Flow",
+    "lrcFileName": "01－A Private Conversation.lrc",
+    "lrcPath": "content/NCE-Flow/NCE2/01－A Private Conversation.lrc",
+    "sourceDataFile": "content/NCE-Flow/static/data.json",
+    "generatedAt": "2026-07-23T02:59:02+00:00",
+    "generator": "scripts/generate_nce_json.py",
+    "generatorVersion": "2.0.0",
+    "metadata": {
+      "al": "新概念英语（二）",
+      "ar": "MP3 同步字幕版（美音）",
+      "ti": "A Private Conversation",
+      "by": "更多学习内容，请到VeryCD.com搜索“露珠”"
+    }
+  }
+}

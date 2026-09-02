@@ -1,0 +1,127 @@
+{
+  "schemaVersion": 1,
+  "id": "nce2-044",
+  "bookId": "nce2",
+  "bookNo": 2,
+  "lessonNo": 44,
+  "lessonRange": [
+    44
+  ],
+  "title": "Through the Forest",
+  "titleZh": "穿过森林",
+  "question": "How did Mrs. Sterling get her bag back?",
+  "questionZh": "斯特林夫人是怎么拿回她的包的？",
+  "text": "How did Mrs. Sterling get her bag back?\n\nMrs. Anne Sterling did not think of the risk she was taking when she ran through a forest after two men.\nThey had rushed up to her while she was having a picnic at the edge of a forest with her children and tried to steal her handbag.\nIn the struggle, the strap broke and, with the bag in their possession, both men started running through the trees.\nMrs. Sterling got so angry that she ran after them.\nShe was soon out of breath, but she continued to run.\nWhen she caught up with them, she saw that they had sat down and were going through the contents of the bag, so she ran straight at them.\nThe men got such a fright that they dropped the bag and ran away.\n'The strap needs mending,' said Mrs. Sterling later, 'but they did not steal anything.'",
+  "bodyText": "Mrs. Anne Sterling did not think of the risk she was taking when she ran through a forest after two men.\nThey had rushed up to her while she was having a picnic at the edge of a forest with her children and tried to steal her handbag.\nIn the struggle, the strap broke and, with the bag in their possession, both men started running through the trees.\nMrs. Sterling got so angry that she ran after them.\nShe was soon out of breath, but she continued to run.\nWhen she caught up with them, she saw that they had sat down and were going through the contents of the bag, so she ran straight at them.\nThe men got such a fright that they dropped the bag and ran away.\n'The strap needs mending,' said Mrs. Sterling later, 'but they did not steal anything.'",
+  "bodyTextZh": "安妮·斯特林夫人并没有考虑到其中的风险。她追赶那两个男人时，穿过了一片森林。\n当她在森林边缘野餐时，他们立刻跑向了她。她带着孩子们野餐时，他们冲上来试图偷她的手提包。\n在挣扎的过程中，那根带子断了。拿着那个包，两名男子开始在树林中奔跑。\n斯特林太太气得冲了上去追赶他们。\n她很快就气喘吁吁了。但她还是继续奔跑着。\n当她追上他们时，她看到他们已经坐下来，正在翻看包里的东西。于是她直接朝他们冲了过去。\n那两个男人吓了一大跳，扔下包就跑了。\n“这条带子需要修理了，”斯特林夫人后来说道，“但他们什么也没偷。”",
+  "sentences": [
+    {
+      "index": 0,
+      "startTime": 0.5,
+      "endTime": 3,
+      "en": "Lesson 44",
+      "zh": "第44课",
+      "role": "lesson"
+    },
+    {
+      "index": 1,
+      "startTime": 3,
+      "endTime": 10.02,
+      "en": "Through the Forest",
+      "zh": "穿过森林",
+      "role": "title"
+    },
+    {
+      "index": 2,
+      "startTime": 10.02,
+      "endTime": 15.23,
+      "en": "How did Mrs. Sterling get her bag back?",
+      "zh": "斯特林夫人是怎么拿回她的包的？",
+      "role": "question"
+    },
+    {
+      "index": 3,
+      "startTime": 15.23,
+      "endTime": 24.91,
+      "en": "Mrs. Anne Sterling did not think of the risk she was taking when she ran through a forest after two men.",
+      "zh": "安妮·斯特林夫人并没有考虑到其中的风险。她追赶那两个男人时，穿过了一片森林。",
+      "role": "body"
+    },
+    {
+      "index": 4,
+      "startTime": 24.91,
+      "endTime": 35.01,
+      "en": "They had rushed up to her while she was having a picnic at the edge of a forest with her children and tried to steal her handbag.",
+      "zh": "当她在森林边缘野餐时，他们立刻跑向了她。她带着孩子们野餐时，他们冲上来试图偷她的手提包。",
+      "role": "body"
+    },
+    {
+      "index": 5,
+      "startTime": 35.01,
+      "endTime": 45.45,
+      "en": "In the struggle, the strap broke and, with the bag in their possession, both men started running through the trees.",
+      "zh": "在挣扎的过程中，那根带子断了。拿着那个包，两名男子开始在树林中奔跑。",
+      "role": "body"
+    },
+    {
+      "index": 6,
+      "startTime": 45.45,
+      "endTime": 51.07,
+      "en": "Mrs. Sterling got so angry that she ran after them.",
+      "zh": "斯特林太太气得冲了上去追赶他们。",
+      "role": "body"
+    },
+    {
+      "index": 7,
+      "startTime": 51.07,
+      "endTime": 56.22,
+      "en": "She was soon out of breath, but she continued to run.",
+      "zh": "她很快就气喘吁吁了。但她还是继续奔跑着。",
+      "role": "body"
+    },
+    {
+      "index": 8,
+      "startTime": 56.22,
+      "endTime": 67.81,
+      "en": "When she caught up with them, she saw that they had sat down and were going through the contents of the bag, so she ran straight at them.",
+      "zh": "当她追上他们时，她看到他们已经坐下来，正在翻看包里的东西。于是她直接朝他们冲了过去。",
+      "role": "body"
+    },
+    {
+      "index": 9,
+      "startTime": 67.81,
+      "endTime": 74.75,
+      "en": "The men got such a fright that they dropped the bag and ran away.",
+      "zh": "那两个男人吓了一大跳，扔下包就跑了。",
+      "role": "body"
+    },
+    {
+      "index": 10,
+      "startTime": 74.75,
+      "endTime": null,
+      "en": "'The strap needs mending,' said Mrs. Sterling later, 'but they did not steal anything.'",
+      "zh": "“这条带子需要修理了，”斯特林夫人后来说道，“但他们什么也没偷。”",
+      "role": "body"
+    }
+  ],
+  "audio": {
+    "fileName": "44－Through the Forest.mp3",
+    "sourcePath": "content/NCE-Flow/NCE2/44－Through the Forest.mp3",
+    "exists": true
+  },
+  "source": {
+    "repository": "NCE-Flow",
+    "lrcFileName": "44－Through the Forest.lrc",
+    "lrcPath": "content/NCE-Flow/NCE2/44－Through the Forest.lrc",
+    "sourceDataFile": "content/NCE-Flow/static/data.json",
+    "generatedAt": "2026-07-23T02:59:02+00:00",
+    "generator": "scripts/generate_nce_json.py",
+    "generatorVersion": "2.0.0",
+    "metadata": {
+      "al": "新概念英语（二）",
+      "ar": "MP3 同步字幕版（美音）",
+      "ti": "Through the Forest",
+      "by": "更多学习内容，请到VeryCD.com搜索“露珠”"
+    }
+  }
+}

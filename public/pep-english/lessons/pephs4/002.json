@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "id": "pephs4-002",
+  "groupId": "pephs4",
+  "unitNo": 1,
+  "sequenceNo": 2,
+  "section": "Using Language",
+  "title": "The Time Machine (Adapted from H. G. Wells)",
+  "jsonPath": "pep-english/lessons/pephs4/002.json",
+  "text": "It was at ten o’clock today that the first of all Time Machines began its career. I gave it a last check, and sat myself in the leather seat. I pushed the starting lever on the main panel forwards an inch then immediately backwards again. Looking around, I saw my laboratory exactly as before. Had anything happened? I thought my mind had tricked me. Then I saw the clock. A moment before, it was a minute or so past ten; now it was nearly half past three!\nI drew a breath, gripped the lever and pushed it forwards. The laboratory went hazy around me. My niece came in to fetch something, maybe her handkerchief, apparently without seeing me. It probably took her a minute, but to me she moved like a rocket! I pushed the lever further. Night came as if a lamp was being turned out, and in another moment came the day. Tomorrow night came, then skipped to day, again and again, faster and faster still.\nIt is hard to explain the strange and unpleasant feeling of time travelling. It felt like I was being driven fast on a winding road. As my pace grew faster, the walls of the laboratory fell away, and I was left in the open air. The sun and moon looked as if they were being thrown across the sky, but soon there was division between night and day. Around me I saw trees growing like puffs of smoke; they grew, spread, and died in moments. I saw huge buildings rise up, then disappear like in a dream. The whole surface of the earth was being changed, melting and flowing before my eyes. I calculated that I was being pushed through time at hundreds of years a minute.\nI had a strong urge to look at the random things that were being flashed before my eyes! I had thought about the risk of stopping the Time Machine many times. So long as I travelled at maximum speed, it didn’t matter. But if I stopped and the same space was being occupied by something else, we would be forced together and explode like a bomb! Like an impatient fool, I pulled the lever backwards hard. With a sudden jolt, the Time Machine was flipped on its side, and I was thrown through the air.\nI was stunned for a moment, and then heard the sound of thunder. I was sitting in the rain in some mud next to the machine. “A fine welcome,” I said, “for a man who has travelled thousands of years to be here!”",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "It was at ten o’clock today that the first of all Time Machines began its career. I gave it a last check, and sat myself in the leather seat. I pushed the starting lever on the main panel forwards an inch then immediately backwards again. Looking around, I saw my laboratory exactly as before. Had anything happened? I thought my mind had tricked me. Then I saw the clock. A moment before, it was a minute or so past ten; now it was nearly half past three!"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "I drew a breath, gripped the lever and pushed it forwards. The laboratory went hazy around me. My niece came in to fetch something, maybe her handkerchief, apparently without seeing me. It probably took her a minute, but to me she moved like a rocket! I pushed the lever further. Night came as if a lamp was being turned out, and in another moment came the day. Tomorrow night came, then skipped to day, again and again, faster and faster still."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "It is hard to explain the strange and unpleasant feeling of time travelling. It felt like I was being driven fast on a winding road. As my pace grew faster, the walls of the laboratory fell away, and I was left in the open air. The sun and moon looked as if they were being thrown across the sky, but soon there was division between night and day. Around me I saw trees growing like puffs of smoke; they grew, spread, and died in moments. I saw huge buildings rise up, then disappear like in a dream. The whole surface of the earth was being changed, melting and flowing before my eyes. I calculated that I was being pushed through time at hundreds of years a minute."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "I had a strong urge to look at the random things that were being flashed before my eyes! I had thought about the risk of stopping the Time Machine many times. So long as I travelled at maximum speed, it didn’t matter. But if I stopped and the same space was being occupied by something else, we would be forced together and explode like a bomb! Like an impatient fool, I pulled the lever backwards hard. With a sudden jolt, the Time Machine was flipped on its side, and I was thrown through the air."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "I was stunned for a moment, and then heard the sound of thunder. I was sitting in the rain in some mud next to the machine. “A fine welcome,” I said, “for a man who has travelled thousands of years to be here!”"
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "选择性必修第四册",
+    "pageStart": 15,
+    "pageEnd": 16,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "6fc94127b322f6f5abff068bef6faa2e",
+    "pdfSize": 12330614,
+    "manualReview": {
+      "method": "visual-line-by-line-and-cross-page-order",
+      "source": "content/pep-english/raw/senior-selective-4.pdf#page=15-16",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored all five printed paragraphs, joining the fourth paragraph across the page boundary after 'stopping'; verified punctuation and British spelling against the page images and excluded the lead-in, comprehension questions, continuation prompts, writing guide, images and furniture. Pages 14 and 17 confirm both boundaries."
+    }
+  }
+}

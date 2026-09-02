@@ -1,0 +1,428 @@
+{
+  "schemaVersion": 1,
+  "id": "beginner-012",
+  "levelId": "beginner",
+  "unitNo": 12,
+  "title": "【对话场景】描述进行中的动作",
+  "jsonPath": "shuimu/lessons/beginner/012.json",
+  "text": "第十二单元\n第一课\n【对话场景】描述进行中的动作\n——Where’s Sally, Jack?\n杰克，萨利在哪？\n——She’s in the garden, Jane.\n简，她在花园里。\n——What’s she doing?\n她在干嘛呢？\n——She’s sitting under the tree.\n她正在树下坐着。\n——Is Tim in the garden, too?\n蒂姆也在花园里吗？\n——Yes, he is.\n是的，他也在。\nHe’s climbing the tree.\n他在爬树。\n——I beg your pardon?\n你说什么？\nWho’s climbing the tree?\n谁在爬树？\n——Tim is.\n是蒂姆。\n——What about the dog?\n那么狗狗呢？\n——The dog’s in the garden, too.\n狗也在花园里。\nIt’s running across the grass.\n它正在草地上跑。\nIt’s running after a cat.\n它在追一只猫。\n• What's she doing?的用法\n◦ 特殊疑问句，what 是特殊疑问词，指代正在做的事情\n◦ 用人称的主格形式，因为在句中作主语\n◦ 如果是复数人称 we/you/they 作主语，be 动词改为 are\n▪ What are you doing?你们在干什么?\n• What about...的用法\n◦ 意思是“XXX 怎么样？”\n◦ about 为介词，后面只能加名词或者动名词\n◦ 为了避免重复对同一内容提问，用这个结构做简单询问\n◦ 说话的双方都清楚问的具体内容\n▪ You don't like those two. What about this one?前两个你都不喜欢，\n那这个怎么样？\n◦ 加动名词表示提议做某事\n▪ What about climbing?去爬山怎么样？\n• run after 的用法\n◦ 追逐某物/某人\n▪ She is running after a thief.她正在追一个小偷。\n◦ =go after 追逐\n▪ 但 go after 还有“追名逐利”的搭配\n▫ go after fame and wealth\n◦ 追求某人（异性）\n▫ He's always running after women.他总是追求女性。\n◦ 照顾、照料某人\n▫ She often runs after my child.她常照料我的孩子。\n第二课\n【语法点拨】现在进行时\n现在进行时主要表示正在进行或发生的动作，谓语动词形式由助动词 be 加动词的现在\n分词构成。\n• 现在进行时的形式\n主语 be 动词\n第一人称单数 I am\n第三人称单数 he/she/it is\n第二人称单数 you are\n各人称复数 we/you/they are\n• 现在进行时的用法\n◦ 表示说话时刻正在发生或进行的动作\n▪ I am watching TV.我正在看电视。\n▪ It is snowing.现在正在下雪。\n◦ 表示现阶段正在进行的动作\n▪ 常用的时间状语有 this week/month, these days\n▪ She is preparing for the exam this week.\n她这个礼拜正在准备考试。\n◦ 表示最近按计划或安排要进行的动作\n▪ 常与表示将来时间的状语连用\n▪ 常用的动词有 come, go, leave, start, arrive\n▪ I am leaving this Friday.我这周五就走。\n◦ 常与现在进行时连用的词及短语\n▪ now 现在 at present 目前 this week 这周 these\ndays 这些天\n第三课\n【单词串烧】\n• garden ['gɑ:dn] n.花园\n• under ['ʌndə] prep.在······之下\n• tree [tri:] n.树\n• climb [klaim] v.爬，攀登\n• who [hu:] pron.谁\n• run [rʌn] v.跑\n• grass [grɑ:s] n.草，草地\n• after ['ɑ:ftə] prep.在······之后\n• cat [kæt] n.猫\n• type [taip] v.打字\n• letter ['letə] n.信\n• basket ['bɑ:skit] n.篮子\n• eat [i:t] v.吃\n• bone [bəun] n.骨头\n• clean [kli:n] v.清洗\n• tooth [tu:θ] n.牙齿\n• cook [kuk] v.做(饭菜)\n• milk [milk] n.牛奶\n• meal [mi:l] n.饭，一顿饭\n• drink [driŋk] v.喝\n• tap [tæp] n.(水)龙头",
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "第十二单元"
+    },
+    {
+      "type": "heading",
+      "text": "第一课"
+    },
+    {
+      "type": "heading",
+      "text": "【对话场景】描述进行中的动作"
+    },
+    {
+      "type": "paragraph",
+      "text": "——Where’s Sally, Jack?"
+    },
+    {
+      "type": "paragraph",
+      "text": "杰克，萨利在哪？"
+    },
+    {
+      "type": "paragraph",
+      "text": "——She’s in the garden, Jane."
+    },
+    {
+      "type": "paragraph",
+      "text": "简，她在花园里。"
+    },
+    {
+      "type": "paragraph",
+      "text": "——What’s she doing?"
+    },
+    {
+      "type": "paragraph",
+      "text": "她在干嘛呢？"
+    },
+    {
+      "type": "paragraph",
+      "text": "——She’s sitting under the tree."
+    },
+    {
+      "type": "paragraph",
+      "text": "她正在树下坐着。"
+    },
+    {
+      "type": "paragraph",
+      "text": "——Is Tim in the garden, too?"
+    },
+    {
+      "type": "paragraph",
+      "text": "蒂姆也在花园里吗？"
+    },
+    {
+      "type": "paragraph",
+      "text": "——Yes, he is."
+    },
+    {
+      "type": "paragraph",
+      "text": "是的，他也在。"
+    },
+    {
+      "type": "paragraph",
+      "text": "He’s climbing the tree."
+    },
+    {
+      "type": "paragraph",
+      "text": "他在爬树。"
+    },
+    {
+      "type": "paragraph",
+      "text": "——I beg your pardon?"
+    },
+    {
+      "type": "paragraph",
+      "text": "你说什么？"
+    },
+    {
+      "type": "paragraph",
+      "text": "Who’s climbing the tree?"
+    },
+    {
+      "type": "paragraph",
+      "text": "谁在爬树？"
+    },
+    {
+      "type": "paragraph",
+      "text": "——Tim is."
+    },
+    {
+      "type": "paragraph",
+      "text": "是蒂姆。"
+    },
+    {
+      "type": "paragraph",
+      "text": "——What about the dog?"
+    },
+    {
+      "type": "paragraph",
+      "text": "那么狗狗呢？"
+    },
+    {
+      "type": "paragraph",
+      "text": "——The dog’s in the garden, too."
+    },
+    {
+      "type": "paragraph",
+      "text": "狗也在花园里。"
+    },
+    {
+      "type": "paragraph",
+      "text": "It’s running across the grass."
+    },
+    {
+      "type": "paragraph",
+      "text": "它正在草地上跑。"
+    },
+    {
+      "type": "paragraph",
+      "text": "It’s running after a cat."
+    },
+    {
+      "type": "paragraph",
+      "text": "它在追一只猫。"
+    },
+    {
+      "type": "list",
+      "text": "• What's she doing?的用法"
+    },
+    {
+      "type": "list",
+      "text": "◦ 特殊疑问句，what 是特殊疑问词，指代正在做的事情"
+    },
+    {
+      "type": "list",
+      "text": "◦ 用人称的主格形式，因为在句中作主语"
+    },
+    {
+      "type": "list",
+      "text": "◦ 如果是复数人称 we/you/they 作主语，be 动词改为 are"
+    },
+    {
+      "type": "list",
+      "text": "▪ What are you doing?你们在干什么?"
+    },
+    {
+      "type": "list",
+      "text": "• What about...的用法"
+    },
+    {
+      "type": "list",
+      "text": "◦ 意思是“XXX 怎么样？”"
+    },
+    {
+      "type": "list",
+      "text": "◦ about 为介词，后面只能加名词或者动名词"
+    },
+    {
+      "type": "list",
+      "text": "◦ 为了避免重复对同一内容提问，用这个结构做简单询问"
+    },
+    {
+      "type": "list",
+      "text": "◦ 说话的双方都清楚问的具体内容"
+    },
+    {
+      "type": "list",
+      "text": "▪ You don't like those two. What about this one?前两个你都不喜欢，"
+    },
+    {
+      "type": "paragraph",
+      "text": "那这个怎么样？"
+    },
+    {
+      "type": "list",
+      "text": "◦ 加动名词表示提议做某事"
+    },
+    {
+      "type": "list",
+      "text": "▪ What about climbing?去爬山怎么样？"
+    },
+    {
+      "type": "list",
+      "text": "• run after 的用法"
+    },
+    {
+      "type": "list",
+      "text": "◦ 追逐某物/某人"
+    },
+    {
+      "type": "list",
+      "text": "▪ She is running after a thief.她正在追一个小偷。"
+    },
+    {
+      "type": "list",
+      "text": "◦ =go after 追逐"
+    },
+    {
+      "type": "list",
+      "text": "▪ 但 go after 还有“追名逐利”的搭配"
+    },
+    {
+      "type": "list",
+      "text": "▫ go after fame and wealth"
+    },
+    {
+      "type": "list",
+      "text": "◦ 追求某人（异性）"
+    },
+    {
+      "type": "list",
+      "text": "▫ He's always running after women.他总是追求女性。"
+    },
+    {
+      "type": "list",
+      "text": "◦ 照顾、照料某人"
+    },
+    {
+      "type": "list",
+      "text": "▫ She often runs after my child.她常照料我的孩子。"
+    },
+    {
+      "type": "heading",
+      "text": "第二课"
+    },
+    {
+      "type": "heading",
+      "text": "【语法点拨】现在进行时"
+    },
+    {
+      "type": "paragraph",
+      "text": "现在进行时主要表示正在进行或发生的动作，谓语动词形式由助动词 be 加动词的现在"
+    },
+    {
+      "type": "paragraph",
+      "text": "分词构成。"
+    },
+    {
+      "type": "list",
+      "text": "• 现在进行时的形式"
+    },
+    {
+      "type": "paragraph",
+      "text": "主语 be 动词"
+    },
+    {
+      "type": "paragraph",
+      "text": "第一人称单数 I am"
+    },
+    {
+      "type": "paragraph",
+      "text": "第三人称单数 he/she/it is"
+    },
+    {
+      "type": "paragraph",
+      "text": "第二人称单数 you are"
+    },
+    {
+      "type": "paragraph",
+      "text": "各人称复数 we/you/they are"
+    },
+    {
+      "type": "list",
+      "text": "• 现在进行时的用法"
+    },
+    {
+      "type": "list",
+      "text": "◦ 表示说话时刻正在发生或进行的动作"
+    },
+    {
+      "type": "list",
+      "text": "▪ I am watching TV.我正在看电视。"
+    },
+    {
+      "type": "list",
+      "text": "▪ It is snowing.现在正在下雪。"
+    },
+    {
+      "type": "list",
+      "text": "◦ 表示现阶段正在进行的动作"
+    },
+    {
+      "type": "list",
+      "text": "▪ 常用的时间状语有 this week/month, these days"
+    },
+    {
+      "type": "list",
+      "text": "▪ She is preparing for the exam this week."
+    },
+    {
+      "type": "paragraph",
+      "text": "她这个礼拜正在准备考试。"
+    },
+    {
+      "type": "list",
+      "text": "◦ 表示最近按计划或安排要进行的动作"
+    },
+    {
+      "type": "list",
+      "text": "▪ 常与表示将来时间的状语连用"
+    },
+    {
+      "type": "list",
+      "text": "▪ 常用的动词有 come, go, leave, start, arrive"
+    },
+    {
+      "type": "list",
+      "text": "▪ I am leaving this Friday.我这周五就走。"
+    },
+    {
+      "type": "list",
+      "text": "◦ 常与现在进行时连用的词及短语"
+    },
+    {
+      "type": "list",
+      "text": "▪ now 现在 at present 目前 this week 这周 these"
+    },
+    {
+      "type": "paragraph",
+      "text": "days 这些天"
+    },
+    {
+      "type": "heading",
+      "text": "第三课"
+    },
+    {
+      "type": "heading",
+      "text": "【单词串烧】"
+    },
+    {
+      "type": "list",
+      "text": "• garden ['gɑ:dn] n.花园"
+    },
+    {
+      "type": "list",
+      "text": "• under ['ʌndə] prep.在······之下"
+    },
+    {
+      "type": "list",
+      "text": "• tree [tri:] n.树"
+    },
+    {
+      "type": "list",
+      "text": "• climb [klaim] v.爬，攀登"
+    },
+    {
+      "type": "list",
+      "text": "• who [hu:] pron.谁"
+    },
+    {
+      "type": "list",
+      "text": "• run [rʌn] v.跑"
+    },
+    {
+      "type": "list",
+      "text": "• grass [grɑ:s] n.草，草地"
+    },
+    {
+      "type": "list",
+      "text": "• after ['ɑ:ftə] prep.在······之后"
+    },
+    {
+      "type": "list",
+      "text": "• cat [kæt] n.猫"
+    },
+    {
+      "type": "list",
+      "text": "• type [taip] v.打字"
+    },
+    {
+      "type": "list",
+      "text": "• letter ['letə] n.信"
+    },
+    {
+      "type": "list",
+      "text": "• basket ['bɑ:skit] n.篮子"
+    },
+    {
+      "type": "list",
+      "text": "• eat [i:t] v.吃"
+    },
+    {
+      "type": "list",
+      "text": "• bone [bəun] n.骨头"
+    },
+    {
+      "type": "list",
+      "text": "• clean [kli:n] v.清洗"
+    },
+    {
+      "type": "list",
+      "text": "• tooth [tu:θ] n.牙齿"
+    },
+    {
+      "type": "list",
+      "text": "• cook [kuk] v.做(饭菜)"
+    },
+    {
+      "type": "list",
+      "text": "• milk [milk] n.牛奶"
+    },
+    {
+      "type": "list",
+      "text": "• meal [mi:l] n.饭，一顿饭"
+    },
+    {
+      "type": "list",
+      "text": "• drink [driŋk] v.喝"
+    },
+    {
+      "type": "list",
+      "text": "• tap [tæp] n.(水)龙头"
+    }
+  ],
+  "videos": [],
+  "source": {
+    "fileName": "英语零基础初级讲义.txt",
+    "kind": "PDF 校对后的转换文本"
+  }
+}

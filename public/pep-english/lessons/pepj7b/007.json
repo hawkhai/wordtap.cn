@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "id": "pepj7b-007",
+  "groupId": "pepj7b",
+  "unitNo": 5,
+  "sequenceNo": 7,
+  "section": "Section B",
+  "title": "Let's Save the Elephants",
+  "jsonPath": "pep-english/lessons/pepj7b/007.json",
+  "text": "Hello. We are students from Thailand, and we want to save the elephants. The elephant is one of Thailand's symbols. Our first flag had a white elephant on it. This is a symbol of good luck.\nElephants are smart animals. They can play soccer or music. They can also draw very well. People say that \"an elephant never forgets\". Elephants can walk for a long time and never get lost. They can also remember places with food and water. This helps them to live.\nBut elephants are in great danger. People cut down many trees so elephants are losing their homes. People also kill elephants for their ivory. Today there are only about 3,000 elephants (over 100,000 before). We must save the trees and not buy things made of ivory. Remember that March 13th is Thai Elephant Day.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Hello. We are students from Thailand, and we want to save the elephants. The elephant is one of Thailand's symbols. Our first flag had a white elephant on it. This is a symbol of good luck."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Elephants are smart animals. They can play soccer or music. They can also draw very well. People say that \"an elephant never forgets\". Elephants can walk for a long time and never get lost. They can also remember places with food and water. This helps them to live."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "But elephants are in great danger. People cut down many trees so elephants are losing their homes. People also kill elephants for their ivory. Today there are only about 3,000 elephants (over 100,000 before). We must save the trees and not buy things made of ivory. Remember that March 13th is Thai Elephant Day."
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "初中",
+    "book": "七年级下册",
+    "pageStart": 39,
+    "pageEnd": 39,
+    "extractionMode": "ocr",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "9336b53d5a44f9244f62f6fb10720914",
+    "pdfSize": 17821241,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/junior-7b.pdf#page=39",
+      "reviewedAt": "2026-07-22",
+      "notes": "Selected the correct 2b title; removed all four title choices and the 2a/2c exercises from body, retaining the three website-article paragraphs."
+    }
+  }
+}

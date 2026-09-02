@@ -1,0 +1,192 @@
+{
+  "schemaVersion": 1,
+  "id": "nce1-073",
+  "bookId": "nce1",
+  "bookNo": 1,
+  "lessonNo": 73,
+  "lessonRange": [
+    73,
+    74
+  ],
+  "title": "The Way to King Street",
+  "titleZh": "通往国王街的路",
+  "question": "Why did the man need a phrasebook?",
+  "questionZh": "为什么那个人需要一本短语手册呢？",
+  "text": "Why did the man need a phrasebook?\n\nLast week Mrs. Mills went to London.\nShe does not know London very well, and she lost her way.\nSuddenly, she saw a man near a bus stop.\n'I can ask him the way,' she said to herself.\n'Excuse me,' she said.\n'Can you tell me the way to King Street, please?'\nThe man smiled pleasantly.\nHe did not understand English!\nHe spoke German.\nHe was a tourist.\nThen he put his hand into his pocket, and took out a phrasebook.\nHe opened the book and found a phrase.\nHe read the phrase slowly.\n'I am sorry,' he said.\n'I do not speak English.'",
+  "bodyText": "Last week Mrs. Mills went to London.\nShe does not know London very well, and she lost her way.\nSuddenly, she saw a man near a bus stop.\n'I can ask him the way,' she said to herself.\n'Excuse me,' she said.\n'Can you tell me the way to King Street, please?'\nThe man smiled pleasantly.\nHe did not understand English!\nHe spoke German.\nHe was a tourist.\nThen he put his hand into his pocket, and took out a phrasebook.\nHe opened the book and found a phrase.\nHe read the phrase slowly.\n'I am sorry,' he said.\n'I do not speak English.'",
+  "bodyTextZh": "上周，米尔斯夫人去了伦敦。\n她对伦敦不太熟悉，结果迷路了。\n突然，她在公交车站附近看到一个男人。\n“我可以问他路该怎么走，”她自言自语道。\n“对不起，”她说。\n“请问您能告诉我去国王街的路吗？”\n那个男人愉快地笑了。\n他不懂英语！\n他会说德语。\n他是一名游客。\n然后他把手伸进口袋，拿出一本短语手册。\n他打开书，找到了一句话。\n他慢慢地读了这个短语。\n“我很抱歉，”他说。\n“我不会说英语。”",
+  "sentences": [
+    {
+      "index": 0,
+      "startTime": 0.72,
+      "endTime": 3.28,
+      "en": "Lesson 73",
+      "zh": "第73课",
+      "role": "lesson"
+    },
+    {
+      "index": 1,
+      "startTime": 3.28,
+      "endTime": 6.87,
+      "en": "The way to King Street",
+      "zh": "通往国王街的路",
+      "role": "title"
+    },
+    {
+      "index": 2,
+      "startTime": 6.87,
+      "endTime": 12.47,
+      "en": "Listen to the tape then answer this question.",
+      "zh": "先听这段录音，然后再回答这个问题。",
+      "role": "prompt"
+    },
+    {
+      "index": 3,
+      "startTime": 12.47,
+      "endTime": 18.73,
+      "en": "Why did the man need a phrasebook?",
+      "zh": "为什么那个人需要一本短语手册呢？",
+      "role": "question"
+    },
+    {
+      "index": 4,
+      "startTime": 18.73,
+      "endTime": 23.59,
+      "en": "Last week Mrs. Mills went to London.",
+      "zh": "上周，米尔斯夫人去了伦敦。",
+      "role": "body"
+    },
+    {
+      "index": 5,
+      "startTime": 23.59,
+      "endTime": 30.47,
+      "en": "She does not know London very well, and she lost her way.",
+      "zh": "她对伦敦不太熟悉，结果迷路了。",
+      "role": "body"
+    },
+    {
+      "index": 6,
+      "startTime": 30.47,
+      "endTime": 36.34,
+      "en": "Suddenly, she saw a man near a bus stop.",
+      "zh": "突然，她在公交车站附近看到一个男人。",
+      "role": "body"
+    },
+    {
+      "index": 7,
+      "startTime": 36.34,
+      "endTime": 41.82,
+      "en": "'I can ask him the way,' she said to herself.",
+      "zh": "“我可以问他路该怎么走，”她自言自语道。",
+      "role": "body"
+    },
+    {
+      "index": 8,
+      "startTime": 41.82,
+      "endTime": 45.24,
+      "en": "'Excuse me,' she said.",
+      "zh": "“对不起，”她说。",
+      "role": "body"
+    },
+    {
+      "index": 9,
+      "startTime": 45.24,
+      "endTime": 51.12,
+      "en": "'Can you tell me the way to King Street, please?'",
+      "zh": "“请问您能告诉我去国王街的路吗？”",
+      "role": "body"
+    },
+    {
+      "index": 10,
+      "startTime": 51.12,
+      "endTime": 54.68,
+      "en": "The man smiled pleasantly.",
+      "zh": "那个男人愉快地笑了。",
+      "role": "body"
+    },
+    {
+      "index": 11,
+      "startTime": 54.68,
+      "endTime": 58.53,
+      "en": "He did not understand English!",
+      "zh": "他不懂英语！",
+      "role": "body"
+    },
+    {
+      "index": 12,
+      "startTime": 58.53,
+      "endTime": 61.16,
+      "en": "He spoke German.",
+      "zh": "他会说德语。",
+      "role": "body"
+    },
+    {
+      "index": 13,
+      "startTime": 61.16,
+      "endTime": 64.17,
+      "en": "He was a tourist.",
+      "zh": "他是一名游客。",
+      "role": "body"
+    },
+    {
+      "index": 14,
+      "startTime": 64.17,
+      "endTime": 71.87,
+      "en": "Then he put his hand into his pocket, and took out a phrasebook.",
+      "zh": "然后他把手伸进口袋，拿出一本短语手册。",
+      "role": "body"
+    },
+    {
+      "index": 15,
+      "startTime": 71.87,
+      "endTime": 76.8,
+      "en": "He opened the book and found a phrase.",
+      "zh": "他打开书，找到了一句话。",
+      "role": "body"
+    },
+    {
+      "index": 16,
+      "startTime": 76.8,
+      "endTime": 81.54,
+      "en": "He read the phrase slowly.",
+      "zh": "他慢慢地读了这个短语。",
+      "role": "body"
+    },
+    {
+      "index": 17,
+      "startTime": 81.54,
+      "endTime": 85.08,
+      "en": "'I am sorry,' he said.",
+      "zh": "“我很抱歉，”他说。",
+      "role": "body"
+    },
+    {
+      "index": 18,
+      "startTime": 85.08,
+      "endTime": null,
+      "en": "'I do not speak English.'",
+      "zh": "“我不会说英语。”",
+      "role": "body"
+    }
+  ],
+  "audio": {
+    "fileName": "073&074－The Way to King Street.mp3",
+    "sourcePath": "content/NCE-Flow/NCE1/073&074－The Way to King Street.mp3",
+    "exists": true
+  },
+  "source": {
+    "repository": "NCE-Flow",
+    "lrcFileName": "073&074－The Way to King Street.lrc",
+    "lrcPath": "content/NCE-Flow/NCE1/073&074－The Way to King Street.lrc",
+    "sourceDataFile": "content/NCE-Flow/static/data.json",
+    "generatedAt": "2026-07-23T02:59:02+00:00",
+    "generator": "scripts/generate_nce_json.py",
+    "generatorVersion": "2.0.0",
+    "metadata": {
+      "al": "新概念英语（一）",
+      "ar": "MP3 同步字幕版（美音）",
+      "ti": "The Way to King Street",
+      "by": "更多学习内容，请到VeryCD.com搜索“露珠”"
+    }
+  }
+}

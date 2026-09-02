@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "id": "pephs1-017",
+  "groupId": "pephs1",
+  "unitNo": 1,
+  "sequenceNo": 17,
+  "section": "Reading and Writing",
+  "title": "Huang Danian",
+  "jsonPath": "pep-english/lessons/pephs1/017.json",
+  "text": "The person I respect most is the geophysicist Huang Danian, who helped China to make many technological advances.\nHuang was a remarkable scientist. He had studied and worked in Britain for 18 years, but when he felt that his country needed him, he gave up his well-paid job and returned to China. Over the next seven years, Huang worked to develop many devices needed for deep-Earth exploration.\nUnfortunately, such achievements didn’t come cheap. Due to the frantic pace of his research, Huang was absent from his father’s funeral, and even his own cancer went undetected as he had no time to see a doctor. To sum up, Huang sacrificed everything for his research, and I think more people should honour him.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "The person I respect most is the geophysicist Huang Danian, who helped China to make many technological advances."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Huang was a remarkable scientist. He had studied and worked in Britain for 18 years, but when he felt that his country needed him, he gave up his well-paid job and returned to China. Over the next seven years, Huang worked to develop many devices needed for deep-Earth exploration."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Unfortunately, such achievements didn’t come cheap. Due to the frantic pace of his research, Huang was absent from his father’s funeral, and even his own cancer went undetected as he had no time to see a doctor. To sum up, Huang sacrificed everything for his research, and I think more people should honour him."
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "选择性必修第一册",
+    "pageStart": 71,
+    "pageEnd": 71,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "f19c4231e96ee3a9c769533d676f1106",
+    "pdfSize": 12809514,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/senior-selective-1.pdf#page=71",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored Zhang Keyu’s complete three-paragraph reader submission about Huang Danian; excluded the photograph and byline from the body.",
+      "splitBaselineId": "pephs1-029",
+      "splitIndex": 1,
+      "splitCount": 2
+    }
+  }
+}

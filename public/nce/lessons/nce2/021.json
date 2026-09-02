@@ -1,0 +1,135 @@
+{
+  "schemaVersion": 1,
+  "id": "nce2-021",
+  "bookId": "nce2",
+  "bookNo": 2,
+  "lessonNo": 21,
+  "lessonRange": [
+    21
+  ],
+  "title": "Mad or Not",
+  "titleZh": "是不是疯了？",
+  "question": "Why do people think the writer is mad?",
+  "questionZh": "为什么人们认为这位作者疯了？",
+  "text": "Why do people think the writer is mad?\n\nAeroplanes are slowly driving me mad.\nI live near an airport and passing planes can be heard night and day.\nThe airport was built years ago, but for some reason it could not be used then.\nLast year, however, it came into use.\nOver a hundred people must have been driven away from their homes by the noise.\nI am one of the few people left.\nSometimes I think this house will be knocked down by a passing plane.\nI have been offered a large sum of money to go away, but I am determined to stay here.\nEverybody says I must be mad and they are probably right.",
+  "bodyText": "Aeroplanes are slowly driving me mad.\nI live near an airport and passing planes can be heard night and day.\nThe airport was built years ago, but for some reason it could not be used then.\nLast year, however, it came into use.\nOver a hundred people must have been driven away from their homes by the noise.\nI am one of the few people left.\nSometimes I think this house will be knocked down by a passing plane.\nI have been offered a large sum of money to go away, but I am determined to stay here.\nEverybody says I must be mad and they are probably right.",
+  "bodyTextZh": "飞机正慢慢地把我逼疯。\n我住在机场附近，无论白天还是黑夜，都能听到飞机的轰鸣声。\n这个机场几年前就建好了，但不知为何当时无法投入使用。\n然而去年，它终于开始运营了。\n肯定有一百多人被噪音逼得离开了家。\n我是少数还留在这里的人之一。\n有时候我觉得这房子会被飞过的飞机撞倒。\n有人出高价让我搬走，但我坚决要留在这里。\n大家都说我一定是疯了，也许他们是对的。",
+  "sentences": [
+    {
+      "index": 0,
+      "startTime": 0.5,
+      "endTime": 3,
+      "en": "Lesson 21",
+      "zh": "第21课",
+      "role": "lesson"
+    },
+    {
+      "index": 1,
+      "startTime": 3,
+      "endTime": 10.51,
+      "en": "Mad or Not",
+      "zh": "是不是疯了？",
+      "role": "title"
+    },
+    {
+      "index": 2,
+      "startTime": 10.51,
+      "endTime": 15.83,
+      "en": "Why do people think the writer is mad?",
+      "zh": "为什么人们认为这位作者疯了？",
+      "role": "question"
+    },
+    {
+      "index": 3,
+      "startTime": 15.83,
+      "endTime": 20.58,
+      "en": "Aeroplanes are slowly driving me mad.",
+      "zh": "飞机正慢慢地把我逼疯。",
+      "role": "body"
+    },
+    {
+      "index": 4,
+      "startTime": 20.58,
+      "endTime": 27.2,
+      "en": "I live near an airport and passing planes can be heard night and day.",
+      "zh": "我住在机场附近，无论白天还是黑夜，都能听到飞机的轰鸣声。",
+      "role": "body"
+    },
+    {
+      "index": 5,
+      "startTime": 27.2,
+      "endTime": 34.93,
+      "en": "The airport was built years ago, but for some reason it could not be used then.",
+      "zh": "这个机场几年前就建好了，但不知为何当时无法投入使用。",
+      "role": "body"
+    },
+    {
+      "index": 6,
+      "startTime": 34.93,
+      "endTime": 39.66,
+      "en": "Last year, however, it came into use.",
+      "zh": "然而去年，它终于开始运营了。",
+      "role": "body"
+    },
+    {
+      "index": 7,
+      "startTime": 39.66,
+      "endTime": 46.47,
+      "en": "Over a hundred people must have been driven away from their homes by the noise.",
+      "zh": "肯定有一百多人被噪音逼得离开了家。",
+      "role": "body"
+    },
+    {
+      "index": 8,
+      "startTime": 46.47,
+      "endTime": 50.39,
+      "en": "I am one of the few people left.",
+      "zh": "我是少数还留在这里的人之一。",
+      "role": "body"
+    },
+    {
+      "index": 9,
+      "startTime": 50.39,
+      "endTime": 57.24,
+      "en": "Sometimes I think this house will be knocked down by a passing plane.",
+      "zh": "有时候我觉得这房子会被飞过的飞机撞倒。",
+      "role": "body"
+    },
+    {
+      "index": 10,
+      "startTime": 57.24,
+      "endTime": 65.82,
+      "en": "I have been offered a large sum of money to go away, but I am determined to stay here.",
+      "zh": "有人出高价让我搬走，但我坚决要留在这里。",
+      "role": "body"
+    },
+    {
+      "index": 11,
+      "startTime": 65.82,
+      "endTime": null,
+      "en": "Everybody says I must be mad and they are probably right.",
+      "zh": "大家都说我一定是疯了，也许他们是对的。",
+      "role": "body"
+    }
+  ],
+  "audio": {
+    "fileName": "21－Mad or Not.mp3",
+    "sourcePath": "content/NCE-Flow/NCE2/21－Mad or Not.mp3",
+    "exists": true
+  },
+  "source": {
+    "repository": "NCE-Flow",
+    "lrcFileName": "21－Mad or Not.lrc",
+    "lrcPath": "content/NCE-Flow/NCE2/21－Mad or Not.lrc",
+    "sourceDataFile": "content/NCE-Flow/static/data.json",
+    "generatedAt": "2026-07-23T02:59:02+00:00",
+    "generator": "scripts/generate_nce_json.py",
+    "generatorVersion": "2.0.0",
+    "metadata": {
+      "al": "新概念英语（二）",
+      "ar": "MP3 同步字幕版（美音）",
+      "ti": "Mad or Not?",
+      "by": "更多学习内容，请到VeryCD.com搜索“露珠”"
+    }
+  }
+}

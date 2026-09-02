@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "id": "pepj9-032",
+  "groupId": "pepj9",
+  "unitNo": 10,
+  "sequenceNo": 32,
+  "section": "Section B",
+  "title": "Lin Yue's Student Exchange in France",
+  "jsonPath": "pep-english/lessons/pepj9/032.json",
+  "text": "Dear Laura,\nThanks for your message. Yes, I'm having a great time on my student exchange program in France. I was a bit nervous before I arrived here, but there was no reason to be. My host family is really nice. They go out of their way to make me feel at home. The grandmother knows that I miss Chinese food a lot. So she actually learned how to make Chinese food! She also has a teenage granddaughter about my age who is really kind. She always talks to me in French to help me practice. You wouldn't believe how quickly my French has improved because of that. I'm very comfortable speaking French now. Although I still make lots of mistakes, it doesn't worry me as it used to.\nMy biggest challenge is learning how to behave at the dinner table. As you can imagine, things are very different from the way they are at home. For example, you're not supposed to put your bread on your plate. You're supposed to put it on the table! I thought that was pretty strange at first, but now I'm used to it. Another example is that you're not supposed to eat anything with your hands except bread, not even fruit. You have to cut it up and eat it with a fork. Another thing is that it is impolite to say you're full. If you don't want any more food, you should just say, \"That was delicious.\" Also, you're not supposed to put your elbows on the table. I have to say that I find it difficult to remember everything, but I'm gradually getting used to it. I don't find French customs so strange anymore.\nI'll write again soon and tell you more about my life in France. Hope you're having a good school year.\nYours, Lin Yue",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Dear Laura,"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Thanks for your message. Yes, I'm having a great time on my student exchange program in France. I was a bit nervous before I arrived here, but there was no reason to be. My host family is really nice. They go out of their way to make me feel at home. The grandmother knows that I miss Chinese food a lot. So she actually learned how to make Chinese food! She also has a teenage granddaughter about my age who is really kind. She always talks to me in French to help me practice. You wouldn't believe how quickly my French has improved because of that. I'm very comfortable speaking French now. Although I still make lots of mistakes, it doesn't worry me as it used to."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "My biggest challenge is learning how to behave at the dinner table. As you can imagine, things are very different from the way they are at home. For example, you're not supposed to put your bread on your plate. You're supposed to put it on the table! I thought that was pretty strange at first, but now I'm used to it. Another example is that you're not supposed to eat anything with your hands except bread, not even fruit. You have to cut it up and eat it with a fork. Another thing is that it is impolite to say you're full. If you don't want any more food, you should just say, \"That was delicious.\" Also, you're not supposed to put your elbows on the table. I have to say that I find it difficult to remember everything, but I'm gradually getting used to it. I don't find French customs so strange anymore."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "I'll write again soon and tell you more about my life in France. Hope you're having a good school year."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Yours, Lin Yue"
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "初中",
+    "book": "九年级全一册",
+    "pageStart": 92,
+    "pageEnd": 92,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "c6e628c22e0c2f9cfe4547699a1c95a4",
+    "pdfSize": 11088578,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/junior-9.pdf#page=92",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored the complete letter with salutation, three body paragraphs, closing and signature; supplied a descriptive title and excluded the 2a model, 2b questions and Reviewing strategy box."
+    }
+  }
+}

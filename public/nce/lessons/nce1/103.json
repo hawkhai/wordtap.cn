@@ -1,0 +1,240 @@
+{
+  "schemaVersion": 1,
+  "id": "nce1-103",
+  "bookId": "nce1",
+  "bookNo": 1,
+  "lessonNo": 103,
+  "lessonRange": [
+    103,
+    104
+  ],
+  "title": "The French Test",
+  "titleZh": "法语测试",
+  "question": "How long did the exam last?",
+  "questionZh": "考试持续了多长时间？",
+  "text": "How long did the exam last?\n\nHow was the exam, Richard?\nNot too bad.\nI think I passed in English and Mathematics.\nThe questions were very easy.\nHow about you, Gary?\nThe English and Maths papers weren't easy enough for me.\nI hope I haven't failed.\nI think I failed the French paper.\nI could answer sixteen of the questions.\nThey were very easy.\nBut I couldn't answer the rest.\nThey were too difficult for me.\nFrench tests are awful, aren't they?\nI hate them.\nI'm sure I've got a low mark.\nOh, cheer up!\nPerhaps we didn't do too badly.\nThe guy next to me wrote his name at the top of the paper.\nYes?\nThen he sat there and looked at it for three hours!\nHe didn't write a word!",
+  "bodyText": "How was the exam, Richard?\nNot too bad.\nI think I passed in English and Mathematics.\nThe questions were very easy.\nHow about you, Gary?\nThe English and Maths papers weren't easy enough for me.\nI hope I haven't failed.\nI think I failed the French paper.\nI could answer sixteen of the questions.\nThey were very easy.\nBut I couldn't answer the rest.\nThey were too difficult for me.\nFrench tests are awful, aren't they?\nI hate them.\nI'm sure I've got a low mark.\nOh, cheer up!\nPerhaps we didn't do too badly.\nThe guy next to me wrote his name at the top of the paper.\nYes?\nThen he sat there and looked at it for three hours!\nHe didn't write a word!",
+  "bodyTextZh": "理查德，考试考得怎么样？\n还不错。\n我想我英语和数学都考及格了。\n这些问题非常简单。\n那你呢，加里？\n英语和数学的试卷对我来说不够简单。\n我希望我没挂科。\n我觉得我法语考试没及格。\n我能够回答其中的十六个问题。\n它们非常简单。\n但我无法回答其余的问题。\n这些对我来说太难了。\n法语考试太糟糕了，不是吗？\n我讨厌它们。\n我肯定我的分数很低。\n哦，振作起来吧！\n也许我们的表现还不错。\n坐在我旁边的人在纸的顶部写下了自己的名字。\n然后呢？\n然后他就坐在那里，盯着它看了三个小时！\n他一个字都没写！",
+  "sentences": [
+    {
+      "index": 0,
+      "startTime": 0.66,
+      "endTime": 3.54,
+      "en": "Lesson 103",
+      "zh": "第103课",
+      "role": "lesson"
+    },
+    {
+      "index": 1,
+      "startTime": 3.54,
+      "endTime": 6.77,
+      "en": "The French test",
+      "zh": "法语测试",
+      "role": "title"
+    },
+    {
+      "index": 2,
+      "startTime": 6.77,
+      "endTime": 12.82,
+      "en": "Listen to the tape then answer this question.",
+      "zh": "先听这段录音，然后再回答这个问题。",
+      "role": "prompt"
+    },
+    {
+      "index": 3,
+      "startTime": 12.82,
+      "endTime": 17.91,
+      "en": "How long did the exam last?",
+      "zh": "考试持续了多长时间？",
+      "role": "question"
+    },
+    {
+      "index": 4,
+      "startTime": 17.91,
+      "endTime": 20.8,
+      "en": "How was the exam, Richard?",
+      "zh": "理查德，考试考得怎么样？",
+      "role": "body"
+    },
+    {
+      "index": 5,
+      "startTime": 20.8,
+      "endTime": 22.56,
+      "en": "Not too bad.",
+      "zh": "还不错。",
+      "role": "body"
+    },
+    {
+      "index": 6,
+      "startTime": 22.56,
+      "endTime": 27.28,
+      "en": "I think I passed in English and Mathematics.",
+      "zh": "我想我英语和数学都考及格了。",
+      "role": "body"
+    },
+    {
+      "index": 7,
+      "startTime": 27.28,
+      "endTime": 30.34,
+      "en": "The questions were very easy.",
+      "zh": "这些问题非常简单。",
+      "role": "body"
+    },
+    {
+      "index": 8,
+      "startTime": 30.34,
+      "endTime": 33.99,
+      "en": "How about you, Gary?",
+      "zh": "那你呢，加里？",
+      "role": "body"
+    },
+    {
+      "index": 9,
+      "startTime": 33.99,
+      "endTime": 39.98,
+      "en": "The English and Maths papers weren't easy enough for me.",
+      "zh": "英语和数学的试卷对我来说不够简单。",
+      "role": "body"
+    },
+    {
+      "index": 10,
+      "startTime": 39.98,
+      "endTime": 42.79,
+      "en": "I hope I haven't failed.",
+      "zh": "我希望我没挂科。",
+      "role": "body"
+    },
+    {
+      "index": 11,
+      "startTime": 42.79,
+      "endTime": 46.6,
+      "en": "I think I failed the French paper.",
+      "zh": "我觉得我法语考试没及格。",
+      "role": "body"
+    },
+    {
+      "index": 12,
+      "startTime": 46.6,
+      "endTime": 50.56,
+      "en": "I could answer sixteen of the questions.",
+      "zh": "我能够回答其中的十六个问题。",
+      "role": "body"
+    },
+    {
+      "index": 13,
+      "startTime": 50.56,
+      "endTime": 53.03,
+      "en": "They were very easy.",
+      "zh": "它们非常简单。",
+      "role": "body"
+    },
+    {
+      "index": 14,
+      "startTime": 53.03,
+      "endTime": 56.21,
+      "en": "But I couldn't answer the rest.",
+      "zh": "但我无法回答其余的问题。",
+      "role": "body"
+    },
+    {
+      "index": 15,
+      "startTime": 56.21,
+      "endTime": 60.29,
+      "en": "They were too difficult for me.",
+      "zh": "这些对我来说太难了。",
+      "role": "body"
+    },
+    {
+      "index": 16,
+      "startTime": 60.29,
+      "endTime": 63.85,
+      "en": "French tests are awful, aren't they?",
+      "zh": "法语考试太糟糕了，不是吗？",
+      "role": "body"
+    },
+    {
+      "index": 17,
+      "startTime": 63.85,
+      "endTime": 65.72,
+      "en": "I hate them.",
+      "zh": "我讨厌它们。",
+      "role": "body"
+    },
+    {
+      "index": 18,
+      "startTime": 65.72,
+      "endTime": 70.13,
+      "en": "I'm sure I've got a low mark.",
+      "zh": "我肯定我的分数很低。",
+      "role": "body"
+    },
+    {
+      "index": 19,
+      "startTime": 70.13,
+      "endTime": 72.73,
+      "en": "Oh, cheer up!",
+      "zh": "哦，振作起来吧！",
+      "role": "body"
+    },
+    {
+      "index": 20,
+      "startTime": 72.73,
+      "endTime": 77.01,
+      "en": "Perhaps we didn't do too badly.",
+      "zh": "也许我们的表现还不错。",
+      "role": "body"
+    },
+    {
+      "index": 21,
+      "startTime": 77.01,
+      "endTime": 82.53,
+      "en": "The guy next to me wrote his name at the top of the paper.",
+      "zh": "坐在我旁边的人在纸的顶部写下了自己的名字。",
+      "role": "body"
+    },
+    {
+      "index": 22,
+      "startTime": 82.53,
+      "endTime": 84.11,
+      "en": "Yes?",
+      "zh": "然后呢？",
+      "role": "body"
+    },
+    {
+      "index": 23,
+      "startTime": 84.11,
+      "endTime": 89.36,
+      "en": "Then he sat there and looked at it for three hours!",
+      "zh": "然后他就坐在那里，盯着它看了三个小时！",
+      "role": "body"
+    },
+    {
+      "index": 24,
+      "startTime": 89.36,
+      "endTime": null,
+      "en": "He didn't write a word!",
+      "zh": "他一个字都没写！",
+      "role": "body"
+    }
+  ],
+  "audio": {
+    "fileName": "103&104－The French Test.mp3",
+    "sourcePath": "content/NCE-Flow/NCE1/103&104－The French Test.mp3",
+    "exists": true
+  },
+  "source": {
+    "repository": "NCE-Flow",
+    "lrcFileName": "103&104－The French Test.lrc",
+    "lrcPath": "content/NCE-Flow/NCE1/103&104－The French Test.lrc",
+    "sourceDataFile": "content/NCE-Flow/static/data.json",
+    "generatedAt": "2026-07-23T02:59:02+00:00",
+    "generator": "scripts/generate_nce_json.py",
+    "generatorVersion": "2.0.0",
+    "metadata": {
+      "al": "新概念英语（一）",
+      "ar": "MP3 同步字幕版（美音）",
+      "ti": "The French Test",
+      "by": "更多学习内容，请到VeryCD.com搜索“露珠”"
+    }
+  }
+}

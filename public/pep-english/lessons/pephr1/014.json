@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "pephr1-014",
+  "groupId": "pephr1",
+  "unitNo": 3,
+  "sequenceNo": 14,
+  "section": "Reading and Thinking",
+  "title": "Living Legends",
+  "jsonPath": "pep-english/lessons/pephr1/014.json",
+  "text": "Help us choose some “Living Legends of Sports”. They must be athletes who are masters in their sports and also set good examples for others. Here are our first two choices.\nLang Ping As a player, Lang Ping brought honour and glory to her country. As a coach, she led the China women's volleyball team to medals at world championships and the Olympics. As a person, Lang Ping is loved by fans at home and abroad. When the Chinese team was preparing for the 2015 World Cup, her determination was tested. The team that Lang Ping had built was falling apart. One of the best players had been injured, and the team captain had to leave because of heart problems. Losing two important players was a big challenge, but Lang Ping did not lose heart. She had faced difficulties before, and she knew that her young players could win if they worked together as a team. Two weeks later, they were world champions! Then in 2016, Lang Ping led her volleyball team to Olympic gold in Brazil.\nMichael Jordan When Michael Jordan's feet left the ground, time seemed to stand still. The player who became known as “Air Jordan” changed basketball with his graceful moves and jumps. Jordan's skills were impressive, but the mental strength that he showed made him unique. In the final seconds of a game, Jordan always seemed to find a way to win. Jordan says that the secret to his success is learning from his failures. “I can accept failure; everyone fails at something. But I can't accept not trying.” Losing games taught him to practise harder and never give up. In life, Jordan has learnt to share his success with others. The Boys and Girls Club which he started in Chicago has been helping young people since 1996.\nSend your suggestions for “Living Legends of Sports” to LLS@sports.net.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Help us choose some “Living Legends of Sports”. They must be athletes who are masters in their sports and also set good examples for others. Here are our first two choices."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Lang Ping As a player, Lang Ping brought honour and glory to her country. As a coach, she led the China women's volleyball team to medals at world championships and the Olympics. As a person, Lang Ping is loved by fans at home and abroad. When the Chinese team was preparing for the 2015 World Cup, her determination was tested. The team that Lang Ping had built was falling apart. One of the best players had been injured, and the team captain had to leave because of heart problems. Losing two important players was a big challenge, but Lang Ping did not lose heart. She had faced difficulties before, and she knew that her young players could win if they worked together as a team. Two weeks later, they were world champions! Then in 2016, Lang Ping led her volleyball team to Olympic gold in Brazil."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Michael Jordan When Michael Jordan's feet left the ground, time seemed to stand still. The player who became known as “Air Jordan” changed basketball with his graceful moves and jumps. Jordan's skills were impressive, but the mental strength that he showed made him unique. In the final seconds of a game, Jordan always seemed to find a way to win. Jordan says that the secret to his success is learning from his failures. “I can accept failure; everyone fails at something. But I can't accept not trying.” Losing games taught him to practise harder and never give up. In life, Jordan has learnt to share his success with others. The Boys and Girls Club which he started in Chicago has been helping young people since 1996."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Send your suggestions for “Living Legends of Sports” to LLS@sports.net."
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "必修第一册",
+    "pageStart": 45,
+    "pageEnd": 45,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "e0bf18138b24d7def28b35994a13946b",
+    "pdfSize": 14704146,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/senior-required-1.pdf#page=45",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored the printed title, introductory paragraph, complete Lang Ping and Michael Jordan profiles, and submission line; removed the prediction prompt and reading-strategy box."
+    }
+  }
+}

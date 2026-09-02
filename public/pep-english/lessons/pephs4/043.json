@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "pephs4-043",
+  "groupId": "pephs4",
+  "unitNo": 5,
+  "sequenceNo": 43,
+  "section": "Using Structures",
+  "title": "Being a Reporter",
+  "jsonPath": "pep-english/lessons/pephs4/043.json",
+  "text": "Being a reporter is something that interests me. Reporters often work both indoors and outdoors. Schools, government buildings, factories, restaurants, and even community streets are places where they show up to do interviews with different sorts of people. Reporters ought to be strong in communication, as they need to get first-hand information and opinions. Once reporters obtain what they need, they start to write their articles. Therefore, the ability to write good articles is vital for reporters as well. The working hours may not be regular, but the challenges that go with the job really fascinate me. I hope that I can major in journalism at university next year.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Being a reporter is something that interests me. Reporters often work both indoors and outdoors. Schools, government buildings, factories, restaurants, and even community streets are places where they show up to do interviews with different sorts of people. Reporters ought to be strong in communication, as they need to get first-hand information and opinions. Once reporters obtain what they need, they start to write their articles. Therefore, the ability to write good articles is vital for reporters as well. The working hours may not be regular, but the challenges that go with the job really fascinate me. I hope that I can major in journalism at university next year."
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "选择性必修第四册",
+    "pageStart": 97,
+    "pageEnd": 97,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "6fc94127b322f6f5abff068bef6faa2e",
+    "pdfSize": 12330614,
+    "manualReview": {
+      "method": "visual-page-review-and-adjacent-page-recovery",
+      "source": "content/pep-english/raw/senior-selective-4.pdf#page=96-97",
+      "reviewedAt": "2026-07-22",
+      "notes": "Rejected the page-96 career-path cloze without filling it, rejected the sentence-rewriting material on page 97, and recovered the independent complete reporter model paragraph."
+    }
+  }
+}

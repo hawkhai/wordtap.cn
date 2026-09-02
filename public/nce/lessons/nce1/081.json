@@ -1,0 +1,256 @@
+{
+  "schemaVersion": 1,
+  "id": "nce1-081",
+  "bookId": "nce1",
+  "bookNo": 1,
+  "lessonNo": 81,
+  "lessonRange": [
+    81,
+    82
+  ],
+  "title": "Roast Beef and Potatoes",
+  "titleZh": "烤牛肉配土豆",
+  "question": "Why is Carol disappointed?",
+  "questionZh": "为什么卡罗尔感到失望？",
+  "text": "Why is Carol disappointed?\n\nHi, Carol! Where's Tom?\nHe's upstairs.\nHe's having a bath.\nTom!\nYes?\nSam's here.\nI'm nearly ready.\nHello, Sam.\nHave a cigarette.\nNo, thanks, Tom.\nHave a glass of whisky then.\nOK.\nThanks.\nIs dinner ready, Carol?\nIt's nearly ready.\nWe can have dinner at seven o'clock.\nSam and I had lunch together today.\nWe went to a restaurant.\nWhat did you have?\nWe had roast beef and potatoes.\nOh!\nWhat's the matter, Carol?\nWell, you're going to have roast beef and potatoes again tonight!",
+  "bodyText": "Hi, Carol! Where's Tom?\nHe's upstairs.\nHe's having a bath.\nTom!\nYes?\nSam's here.\nI'm nearly ready.\nHello, Sam.\nHave a cigarette.\nNo, thanks, Tom.\nHave a glass of whisky then.\nOK.\nThanks.\nIs dinner ready, Carol?\nIt's nearly ready.\nWe can have dinner at seven o'clock.\nSam and I had lunch together today.\nWe went to a restaurant.\nWhat did you have?\nWe had roast beef and potatoes.\nOh!\nWhat's the matter, Carol?\nWell, you're going to have roast beef and potatoes again tonight!",
+  "bodyTextZh": "嗨，Carol！Tom在哪儿？\n他在楼上。\n他正在洗澡。\n汤姆！\n怎么了？\n山姆来了。\n我差不多准备好了。\n你好，山姆。\n来一支烟吧。\n不，谢谢，汤姆。\n那就喝一杯威士忌吧。\n好的。\n谢谢。\n卡罗尔，晚餐准备好了吗？\n差不多准备好了。\n我们可以在七点钟吃晚饭。\n今天我和山姆一起吃了午饭。\n我们去了餐厅。\n你吃了什么？\n我们吃了烤牛肉和土豆。\n哦！\n怎么了，卡罗尔？\n嗯，今晚你又可以吃烤牛肉和土豆了！",
+  "sentences": [
+    {
+      "index": 0,
+      "startTime": 0.57,
+      "endTime": 3.05,
+      "en": "Lesson 81",
+      "zh": "第81课",
+      "role": "lesson"
+    },
+    {
+      "index": 1,
+      "startTime": 3.05,
+      "endTime": 6.92,
+      "en": "Roast beef and potatoes",
+      "zh": "烤牛肉配土豆",
+      "role": "title"
+    },
+    {
+      "index": 2,
+      "startTime": 6.92,
+      "endTime": 12.41,
+      "en": "Listen to the tape then answer this question.",
+      "zh": "听完录音后回答这个问题：",
+      "role": "prompt"
+    },
+    {
+      "index": 3,
+      "startTime": 12.41,
+      "endTime": 17.01,
+      "en": "Why is Carol disappointed?",
+      "zh": "为什么卡罗尔感到失望？",
+      "role": "question"
+    },
+    {
+      "index": 4,
+      "startTime": 17.01,
+      "endTime": 20.33,
+      "en": "Hi, Carol! Where's Tom?",
+      "zh": "嗨，Carol！Tom在哪儿？",
+      "role": "body"
+    },
+    {
+      "index": 5,
+      "startTime": 20.33,
+      "endTime": 22.39,
+      "en": "He's upstairs.",
+      "zh": "他在楼上。",
+      "role": "body"
+    },
+    {
+      "index": 6,
+      "startTime": 22.39,
+      "endTime": 24.6,
+      "en": "He's having a bath.",
+      "zh": "他正在洗澡。",
+      "role": "body"
+    },
+    {
+      "index": 7,
+      "startTime": 24.6,
+      "endTime": 26.78,
+      "en": "Tom!",
+      "zh": "汤姆！",
+      "role": "body"
+    },
+    {
+      "index": 8,
+      "startTime": 26.78,
+      "endTime": 28.28,
+      "en": "Yes?",
+      "zh": "怎么了？",
+      "role": "body"
+    },
+    {
+      "index": 9,
+      "startTime": 28.28,
+      "endTime": 30.15,
+      "en": "Sam's here.",
+      "zh": "山姆来了。",
+      "role": "body"
+    },
+    {
+      "index": 10,
+      "startTime": 30.15,
+      "endTime": 32.84,
+      "en": "I'm nearly ready.",
+      "zh": "我差不多准备好了。",
+      "role": "body"
+    },
+    {
+      "index": 11,
+      "startTime": 32.84,
+      "endTime": 34.69,
+      "en": "Hello, Sam.",
+      "zh": "你好，山姆。",
+      "role": "body"
+    },
+    {
+      "index": 12,
+      "startTime": 34.69,
+      "endTime": 36.59,
+      "en": "Have a cigarette.",
+      "zh": "来一支烟吧。",
+      "role": "body"
+    },
+    {
+      "index": 13,
+      "startTime": 36.59,
+      "endTime": 39.06,
+      "en": "No, thanks, Tom.",
+      "zh": "不，谢谢，汤姆。",
+      "role": "body"
+    },
+    {
+      "index": 14,
+      "startTime": 39.06,
+      "endTime": 41.7,
+      "en": "Have a glass of whisky then.",
+      "zh": "那就喝一杯威士忌吧。",
+      "role": "body"
+    },
+    {
+      "index": 15,
+      "startTime": 41.7,
+      "endTime": 42.58,
+      "en": "OK.",
+      "zh": "好的。",
+      "role": "body"
+    },
+    {
+      "index": 16,
+      "startTime": 42.58,
+      "endTime": 44.18,
+      "en": "Thanks.",
+      "zh": "谢谢。",
+      "role": "body"
+    },
+    {
+      "index": 17,
+      "startTime": 44.18,
+      "endTime": 47.84,
+      "en": "Is dinner ready, Carol?",
+      "zh": "卡罗尔，晚餐准备好了吗？",
+      "role": "body"
+    },
+    {
+      "index": 18,
+      "startTime": 47.84,
+      "endTime": 50.12,
+      "en": "It's nearly ready.",
+      "zh": "差不多准备好了。",
+      "role": "body"
+    },
+    {
+      "index": 19,
+      "startTime": 50.12,
+      "endTime": 54.8,
+      "en": "We can have dinner at seven o'clock.",
+      "zh": "我们可以在七点钟吃晚饭。",
+      "role": "body"
+    },
+    {
+      "index": 20,
+      "startTime": 54.8,
+      "endTime": 58.63,
+      "en": "Sam and I had lunch together today.",
+      "zh": "今天我和山姆一起吃了午饭。",
+      "role": "body"
+    },
+    {
+      "index": 21,
+      "startTime": 58.63,
+      "endTime": 61.3,
+      "en": "We went to a restaurant.",
+      "zh": "我们去了餐厅。",
+      "role": "body"
+    },
+    {
+      "index": 22,
+      "startTime": 61.3,
+      "endTime": 63.42,
+      "en": "What did you have?",
+      "zh": "你吃了什么？",
+      "role": "body"
+    },
+    {
+      "index": 23,
+      "startTime": 63.42,
+      "endTime": 67.49,
+      "en": "We had roast beef and potatoes.",
+      "zh": "我们吃了烤牛肉和土豆。",
+      "role": "body"
+    },
+    {
+      "index": 24,
+      "startTime": 67.49,
+      "endTime": 68.71,
+      "en": "Oh!",
+      "zh": "哦！",
+      "role": "body"
+    },
+    {
+      "index": 25,
+      "startTime": 68.71,
+      "endTime": 71.05,
+      "en": "What's the matter, Carol?",
+      "zh": "怎么了，卡罗尔？",
+      "role": "body"
+    },
+    {
+      "index": 26,
+      "startTime": 71.05,
+      "endTime": null,
+      "en": "Well, you're going to have roast beef and potatoes again tonight!",
+      "zh": "嗯，今晚你又可以吃烤牛肉和土豆了！",
+      "role": "body"
+    }
+  ],
+  "audio": {
+    "fileName": "081&082－Roast Beef and Potatoes.mp3",
+    "sourcePath": "content/NCE-Flow/NCE1/081&082－Roast Beef and Potatoes.mp3",
+    "exists": true
+  },
+  "source": {
+    "repository": "NCE-Flow",
+    "lrcFileName": "081&082－Roast Beef and Potatoes.lrc",
+    "lrcPath": "content/NCE-Flow/NCE1/081&082－Roast Beef and Potatoes.lrc",
+    "sourceDataFile": "content/NCE-Flow/static/data.json",
+    "generatedAt": "2026-07-23T02:59:02+00:00",
+    "generator": "scripts/generate_nce_json.py",
+    "generatorVersion": "2.0.0",
+    "metadata": {
+      "al": "新概念英语（一）",
+      "ar": "MP3 同步字幕版（美音）",
+      "ti": "Roast Beef and Potatoes",
+      "by": "更多学习内容，请到VeryCD.com搜索“露珠”"
+    }
+  }
+}

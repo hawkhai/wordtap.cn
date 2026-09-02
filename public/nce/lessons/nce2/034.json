@@ -1,0 +1,143 @@
+{
+  "schemaVersion": 1,
+  "id": "nce2-034",
+  "bookId": "nce2",
+  "bookNo": 2,
+  "lessonNo": 34,
+  "lessonRange": [
+    34
+  ],
+  "title": "Quick Work",
+  "titleZh": "快捷的工作",
+  "question": "How long had the police taken to find his bicycle?",
+  "questionZh": "警察花了多长时间才找到他的自行车？",
+  "text": "How long had the police taken to find his bicycle?\n\nDan Robinson has been worried all week.\nLast Tuesday he received a letter from the local police.\nIn the letter he was asked to call at the station.\nDan wondered why he was wanted by the police, but he went to the station yesterday and now he is not worried anymore.\nAt the station, he was told by a smiling policeman that his bicycle had been found.\nFive days ago, the policeman told him, the bicycle was picked up in a small village four hundred miles away.\nIt is now being sent to his home by train.\nDan was most surprised when he heard the news.\nHe was amused too, because he never expected the bicycle to be found.\nIt was stolen twenty years ago when Dan was a boy of fifteen!",
+  "bodyText": "Dan Robinson has been worried all week.\nLast Tuesday he received a letter from the local police.\nIn the letter he was asked to call at the station.\nDan wondered why he was wanted by the police, but he went to the station yesterday and now he is not worried anymore.\nAt the station, he was told by a smiling policeman that his bicycle had been found.\nFive days ago, the policeman told him, the bicycle was picked up in a small village four hundred miles away.\nIt is now being sent to his home by train.\nDan was most surprised when he heard the news.\nHe was amused too, because he never expected the bicycle to be found.\nIt was stolen twenty years ago when Dan was a boy of fifteen!",
+  "bodyTextZh": "丹·罗宾逊整个星期都一直很担心。\n上周二，他收到了一封信。来自当地警方。\n信中要求他去一趟警察局。\n丹想知道为什么。警察找他有什么事。但他昨天去车站了。现在他不再担心了。\n在车站里，一位面带微笑的警察告诉他他的自行车已经被找到了。\n五天前，警察对他说：这辆自行车是在一个小村庄里被发现的。四百英里之外。\n现在正通过火车运往他家。\n丹感到非常惊讶。当他听到这个消息时……\n他也很觉得有趣。因为他从没想过这辆自行车还能被找到。\n它是在二十年前被偷走的。那是丹十五岁的时候！",
+  "sentences": [
+    {
+      "index": 0,
+      "startTime": 0.5,
+      "endTime": 3,
+      "en": "Lesson 34",
+      "zh": "第34课",
+      "role": "lesson"
+    },
+    {
+      "index": 1,
+      "startTime": 3,
+      "endTime": 10.3,
+      "en": "Quick Work",
+      "zh": "快捷的工作",
+      "role": "title"
+    },
+    {
+      "index": 2,
+      "startTime": 10.3,
+      "endTime": 16.58,
+      "en": "How long had the police taken to find his bicycle?",
+      "zh": "警察花了多长时间才找到他的自行车？",
+      "role": "question"
+    },
+    {
+      "index": 3,
+      "startTime": 16.58,
+      "endTime": 20.97,
+      "en": "Dan Robinson has been worried all week.",
+      "zh": "丹·罗宾逊整个星期都一直很担心。",
+      "role": "body"
+    },
+    {
+      "index": 4,
+      "startTime": 20.97,
+      "endTime": 26.19,
+      "en": "Last Tuesday he received a letter from the local police.",
+      "zh": "上周二，他收到了一封信。来自当地警方。",
+      "role": "body"
+    },
+    {
+      "index": 5,
+      "startTime": 26.19,
+      "endTime": 30.94,
+      "en": "In the letter he was asked to call at the station.",
+      "zh": "信中要求他去一趟警察局。",
+      "role": "body"
+    },
+    {
+      "index": 6,
+      "startTime": 30.94,
+      "endTime": 42.18,
+      "en": "Dan wondered why he was wanted by the police, but he went to the station yesterday and now he is not worried anymore.",
+      "zh": "丹想知道为什么。警察找他有什么事。但他昨天去车站了。现在他不再担心了。",
+      "role": "body"
+    },
+    {
+      "index": 7,
+      "startTime": 42.18,
+      "endTime": 50.69,
+      "en": "At the station, he was told by a smiling policeman that his bicycle had been found.",
+      "zh": "在车站里，一位面带微笑的警察告诉他他的自行车已经被找到了。",
+      "role": "body"
+    },
+    {
+      "index": 8,
+      "startTime": 50.69,
+      "endTime": 61.27,
+      "en": "Five days ago, the policeman told him, the bicycle was picked up in a small village four hundred miles away.",
+      "zh": "五天前，警察对他说：这辆自行车是在一个小村庄里被发现的。四百英里之外。",
+      "role": "body"
+    },
+    {
+      "index": 9,
+      "startTime": 61.27,
+      "endTime": 65.61,
+      "en": "It is now being sent to his home by train.",
+      "zh": "现在正通过火车运往他家。",
+      "role": "body"
+    },
+    {
+      "index": 10,
+      "startTime": 65.61,
+      "endTime": 70.41,
+      "en": "Dan was most surprised when he heard the news.",
+      "zh": "丹感到非常惊讶。当他听到这个消息时……",
+      "role": "body"
+    },
+    {
+      "index": 11,
+      "startTime": 70.41,
+      "endTime": 78.36,
+      "en": "He was amused too, because he never expected the bicycle to be found.",
+      "zh": "他也很觉得有趣。因为他从没想过这辆自行车还能被找到。",
+      "role": "body"
+    },
+    {
+      "index": 12,
+      "startTime": 78.36,
+      "endTime": null,
+      "en": "It was stolen twenty years ago when Dan was a boy of fifteen!",
+      "zh": "它是在二十年前被偷走的。那是丹十五岁的时候！",
+      "role": "body"
+    }
+  ],
+  "audio": {
+    "fileName": "34－Quick Work.mp3",
+    "sourcePath": "content/NCE-Flow/NCE2/34－Quick Work.mp3",
+    "exists": true
+  },
+  "source": {
+    "repository": "NCE-Flow",
+    "lrcFileName": "34－Quick Work.lrc",
+    "lrcPath": "content/NCE-Flow/NCE2/34－Quick Work.lrc",
+    "sourceDataFile": "content/NCE-Flow/static/data.json",
+    "generatedAt": "2026-07-23T02:59:02+00:00",
+    "generator": "scripts/generate_nce_json.py",
+    "generatorVersion": "2.0.0",
+    "metadata": {
+      "al": "新概念英语（二）",
+      "ar": "MP3 同步字幕版（美音）",
+      "ti": "Quick Work",
+      "by": "更多学习内容，请到VeryCD.com搜索“露珠”"
+    }
+  }
+}

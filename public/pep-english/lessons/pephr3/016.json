@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "id": "pephr3-016",
+  "groupId": "pephr3",
+  "unitNo": 4,
+  "sequenceNo": 16,
+  "section": "Reading for Writing",
+  "title": "Is Exploring Space a Waste of Time and Money?",
+  "jsonPath": "pep-english/lessons/pephr3/016.json",
+  "text": "Countries around the globe are spending billions of dollars and lots of time on various space missions, whether to Mars or other planets much further away. Some people argue that we should stop wasting time and money exploring space. Instead, we should feed the world's poor and find immediate solutions to other problems, such as pollution and fatal diseases. However, others feel this is a shallow view which fails to realise how exploring space helps us.\nFirstly, exploring space has already made a difference in the fight against world hunger. It has directly resulted in the many satellites that now orbit Earth. A number of the satellites record data on land and weather patterns. Then the data is transmitted to scientists on Earth. After careful analysis, the scientists can provide useful recommendations and advice for farmers. As a result, space-based science has helped farming in its efforts to grow enough food to feed Earth's increasing population.\nSecondly, space exploration has already promoted technological improvements that benefit us all. High-end products around the world are made to a higher standard now because of advanced technology which was first created to meet the requirements for space exploration. For example, space technologies have helped the research and development of different types of new material. They have also helped companies make better heart monitors and other machines that doctors regularly use. Today, space technologies are widely used in all kinds of industries, and everyday products, such as memory foam pillows and smartphone cameras, are changing our lives.\nFinally, sending astronauts into space has helped people to think about the world's problems and even to find ways to solve them. Seeing pictures of our planet as an island in a black sea made people realise that our planet's resources are limited. In order to provide for such a rapidly increasing population, scientists are trying to find other planets that could one day be our new home. The greatest attention at present is on Mars because it is closer to Earth. In the future, humans may live on both planets.\nIn closing, exploring space provides the world with many different benefits. Therefore, it should continue so as to provide new and better solutions to people's short-term and long-term problems.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Countries around the globe are spending billions of dollars and lots of time on various space missions, whether to Mars or other planets much further away. Some people argue that we should stop wasting time and money exploring space. Instead, we should feed the world's poor and find immediate solutions to other problems, such as pollution and fatal diseases. However, others feel this is a shallow view which fails to realise how exploring space helps us."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Firstly, exploring space has already made a difference in the fight against world hunger. It has directly resulted in the many satellites that now orbit Earth. A number of the satellites record data on land and weather patterns. Then the data is transmitted to scientists on Earth. After careful analysis, the scientists can provide useful recommendations and advice for farmers. As a result, space-based science has helped farming in its efforts to grow enough food to feed Earth's increasing population."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Secondly, space exploration has already promoted technological improvements that benefit us all. High-end products around the world are made to a higher standard now because of advanced technology which was first created to meet the requirements for space exploration. For example, space technologies have helped the research and development of different types of new material. They have also helped companies make better heart monitors and other machines that doctors regularly use. Today, space technologies are widely used in all kinds of industries, and everyday products, such as memory foam pillows and smartphone cameras, are changing our lives."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Finally, sending astronauts into space has helped people to think about the world's problems and even to find ways to solve them. Seeing pictures of our planet as an island in a black sea made people realise that our planet's resources are limited. In order to provide for such a rapidly increasing population, scientists are trying to find other planets that could one day be our new home. The greatest attention at present is on Mars because it is closer to Earth. In the future, humans may live on both planets."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "In closing, exploring space provides the world with many different benefits. Therefore, it should continue so as to provide new and better solutions to people's short-term and long-term problems."
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "必修第三册",
+    "pageStart": 51,
+    "pageEnd": 51,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "31e51a16693d03177a5825f53f612a87",
+    "pdfSize": 14202806,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/senior-required-3.pdf#page=51",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored the complete five-paragraph argumentative essay, visually following the two-column order from the left-column introduction and first argument to the three right-column sections; excluded instruction, photograph and caption."
+    }
+  }
+}

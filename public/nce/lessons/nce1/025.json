@@ -1,0 +1,168 @@
+{
+  "schemaVersion": 1,
+  "id": "nce1-025",
+  "bookId": "nce1",
+  "bookNo": 1,
+  "lessonNo": 25,
+  "lessonRange": [
+    25,
+    26
+  ],
+  "title": "Mrs. Smith's Kitchen",
+  "titleZh": "史密斯夫人的厨房",
+  "question": "What colour is the electric cooker?",
+  "questionZh": "这个电炉是什么颜色的？",
+  "text": "What colour is the electric cooker?\n\nMrs. Smith's kitchen is small.\nThere is a refrigerator in the kitchen.\nThe refrigerator is white.\nIt is on the right.\nThere is an electric cooker in the kitchen.\nThe cooker is blue.\nIt is on the left.\nThere is a table in the middle of the room.\nThere is a bottle on the table.\nThe bottle is empty.\nThere is a cup on the table, too.\nThe cup is clean.",
+  "bodyText": "Mrs. Smith's kitchen is small.\nThere is a refrigerator in the kitchen.\nThe refrigerator is white.\nIt is on the right.\nThere is an electric cooker in the kitchen.\nThe cooker is blue.\nIt is on the left.\nThere is a table in the middle of the room.\nThere is a bottle on the table.\nThe bottle is empty.\nThere is a cup on the table, too.\nThe cup is clean.",
+  "bodyTextZh": "史密斯太太的厨房很小。\n厨房里有一台冰箱。\n冰箱是白色的。\n它在右边。\n厨房里有一台电炊具。\n这个电炉是蓝色的。\n它在左边。\n厨房中央有一张桌子。\n桌子上有一个瓶子。\n这个瓶子是空的。\n桌子上还有一个杯子。\n这个杯子是干净的。",
+  "sentences": [
+    {
+      "index": 0,
+      "startTime": 0.41,
+      "endTime": 3.18,
+      "en": "Lesson 25",
+      "zh": "第25课",
+      "role": "lesson"
+    },
+    {
+      "index": 1,
+      "startTime": 3.18,
+      "endTime": 6.61,
+      "en": "Mrs. Smith's Kitchen",
+      "zh": "史密斯夫人的厨房",
+      "role": "title"
+    },
+    {
+      "index": 2,
+      "startTime": 6.61,
+      "endTime": 12.58,
+      "en": "Listen to the tape then answer this question.",
+      "zh": "先听这段录音，然后再回答这个问题。",
+      "role": "prompt"
+    },
+    {
+      "index": 3,
+      "startTime": 12.58,
+      "endTime": 18.31,
+      "en": "What colour is the electric cooker?",
+      "zh": "这个电炉是什么颜色的？",
+      "role": "question"
+    },
+    {
+      "index": 4,
+      "startTime": 18.31,
+      "endTime": 23.12,
+      "en": "Mrs. Smith's kitchen is small.",
+      "zh": "史密斯太太的厨房很小。",
+      "role": "body"
+    },
+    {
+      "index": 5,
+      "startTime": 23.12,
+      "endTime": 27.71,
+      "en": "There is a refrigerator in the kitchen.",
+      "zh": "厨房里有一台冰箱。",
+      "role": "body"
+    },
+    {
+      "index": 6,
+      "startTime": 27.71,
+      "endTime": 31.62,
+      "en": "The refrigerator is white.",
+      "zh": "冰箱是白色的。",
+      "role": "body"
+    },
+    {
+      "index": 7,
+      "startTime": 31.62,
+      "endTime": 35.03,
+      "en": "It is on the right.",
+      "zh": "它在右边。",
+      "role": "body"
+    },
+    {
+      "index": 8,
+      "startTime": 35.03,
+      "endTime": 39.62,
+      "en": "There is an electric cooker in the kitchen.",
+      "zh": "厨房里有一台电炊具。",
+      "role": "body"
+    },
+    {
+      "index": 9,
+      "startTime": 39.62,
+      "endTime": 42.95,
+      "en": "The cooker is blue.",
+      "zh": "这个电炉是蓝色的。",
+      "role": "body"
+    },
+    {
+      "index": 10,
+      "startTime": 42.95,
+      "endTime": 46.22,
+      "en": "It is on the left.",
+      "zh": "它在左边。",
+      "role": "body"
+    },
+    {
+      "index": 11,
+      "startTime": 46.22,
+      "endTime": 51.54,
+      "en": "There is a table in the middle of the room.",
+      "zh": "厨房中央有一张桌子。",
+      "role": "body"
+    },
+    {
+      "index": 12,
+      "startTime": 51.54,
+      "endTime": 55.27,
+      "en": "There is a bottle on the table.",
+      "zh": "桌子上有一个瓶子。",
+      "role": "body"
+    },
+    {
+      "index": 13,
+      "startTime": 55.27,
+      "endTime": 59.1,
+      "en": "The bottle is empty.",
+      "zh": "这个瓶子是空的。",
+      "role": "body"
+    },
+    {
+      "index": 14,
+      "startTime": 59.1,
+      "endTime": 63.83,
+      "en": "There is a cup on the table, too.",
+      "zh": "桌子上还有一个杯子。",
+      "role": "body"
+    },
+    {
+      "index": 15,
+      "startTime": 63.83,
+      "endTime": null,
+      "en": "The cup is clean.",
+      "zh": "这个杯子是干净的。",
+      "role": "body"
+    }
+  ],
+  "audio": {
+    "fileName": "025&026－Mrs. Smith's Kitchen.mp3",
+    "sourcePath": "content/NCE-Flow/NCE1/025&026－Mrs. Smith's Kitchen.mp3",
+    "exists": true
+  },
+  "source": {
+    "repository": "NCE-Flow",
+    "lrcFileName": "025&026－Mrs. Smith's Kitchen.lrc",
+    "lrcPath": "content/NCE-Flow/NCE1/025&026－Mrs. Smith's Kitchen.lrc",
+    "sourceDataFile": "content/NCE-Flow/static/data.json",
+    "generatedAt": "2026-07-23T02:59:02+00:00",
+    "generator": "scripts/generate_nce_json.py",
+    "generatorVersion": "2.0.0",
+    "metadata": {
+      "al": "新概念英语（一）",
+      "ar": "MP3 同步字幕版（美音）",
+      "ti": "Mrs. Smith's Kitchen",
+      "by": "更多学习内容，请到VeryCD.com搜索“露珠”"
+    }
+  }
+}

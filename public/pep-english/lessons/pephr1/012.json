@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "pephr1-012",
+  "groupId": "pephr1",
+  "unitNo": 2,
+  "sequenceNo": 12,
+  "section": "Assessing Your Progress",
+  "title": "Paul Calls Meilin from Lijiang",
+  "jsonPath": "pep-english/lessons/pephr1/012.json",
+  "text": "Paul: Hey Meilin. This is Paul, calling from the Old Town of Lijiang!\nMeilin: Hi Paul! You are already in Lijiang?! Great to hear you! So what do you think of the Old Town there?\nPaul: Oh, we love it. You know, it is so different from big cities.\nMeilin: Really? How long are you staying there?\nPaul: About four days, since my dad has to go back to work next Monday. We arrived yesterday and visited the Old Town. Tomorrow we're going to Yulong Snow Mountain. In order to save time, we're taking the cable car up there. If we still have time, we're planning to see Blue Moon Valley and Yak Meadow.\nMeilin: Sounds great! Oh, don't forget it's much colder on Snow Mountain. Be sure to keep warm!\nPaul: Thanks! We're bringing sweaters and coats with us, so I hope we'll be OK. I'll see you in a few days! Talk to you soon.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Paul: Hey Meilin. This is Paul, calling from the Old Town of Lijiang!\nMeilin: Hi Paul! You are already in Lijiang?! Great to hear you! So what do you think of the Old Town there?\nPaul: Oh, we love it. You know, it is so different from big cities.\nMeilin: Really? How long are you staying there?\nPaul: About four days, since my dad has to go back to work next Monday. We arrived yesterday and visited the Old Town. Tomorrow we're going to Yulong Snow Mountain. In order to save time, we're taking the cable car up there. If we still have time, we're planning to see Blue Moon Valley and Yak Meadow.\nMeilin: Sounds great! Oh, don't forget it's much colder on Snow Mountain. Be sure to keep warm!\nPaul: Thanks! We're bringing sweaters and coats with us, so I hope we'll be OK. I'll see you in a few days! Talk to you soon."
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "必修第一册",
+    "pageStart": 39,
+    "pageEnd": 39,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "e0bf18138b24d7def28b35994a13946b",
+    "pdfSize": 14704146,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/senior-required-1.pdf#page=39",
+      "reviewedAt": "2026-07-22",
+      "notes": "Kept the complete seven-turn call about Paul's Lijiang travel plans; removed the eight-blank postcard, role-play instruction and unfinished reflection stems, and corrected the section metadata."
+    }
+  }
+}

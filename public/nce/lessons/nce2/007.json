@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 1,
+  "id": "nce2-007",
+  "bookId": "nce2",
+  "bookNo": 2,
+  "lessonNo": 7,
+  "lessonRange": [
+    7
+  ],
+  "title": "Too Late",
+  "titleZh": "为时太晚",
+  "question": "Did the detectives save the diamonds?",
+  "questionZh": "侦探们保住那些钻石了吗？",
+  "text": "Did the detectives save the diamonds?\n\nThe plane was late and detectives were waiting at the airport all morning.\nThey were expecting a valuable parcel of diamonds from South Africa.\nA few hours earlier, someone had told the police that thieves would try to steal the diamonds.\nWhen the plane arrived, some of the detectives were waiting inside the main building while others were waiting on the airfield.\nTwo men took the parcel off the plane and carried it into the Customs House.\nWhile two detectives were keeping guard at the door, two others opened the parcel.\nTo their surprise, the precious parcel was full of stones and sand!",
+  "bodyText": "The plane was late and detectives were waiting at the airport all morning.\nThey were expecting a valuable parcel of diamonds from South Africa.\nA few hours earlier, someone had told the police that thieves would try to steal the diamonds.\nWhen the plane arrived, some of the detectives were waiting inside the main building while others were waiting on the airfield.\nTwo men took the parcel off the plane and carried it into the Customs House.\nWhile two detectives were keeping guard at the door, two others opened the parcel.\nTo their surprise, the precious parcel was full of stones and sand!",
+  "bodyTextZh": "飞机晚点了，侦探们一整个上午都在机场等待。\n他们正在等待一个从南非来的装有钻石的贵重包裹。\n几个小时之前，有人告诉警方说小偷会企图偷走那些钻石。\n当飞机降临时，一些侦探正在等待。在主楼内而其他人则在停机坪上等待。\n两名男子从飞机上取下了那个包裹。然后把它搬进了海关大楼。\n当两名侦探在门口守卫时，另外两名侦探打开了那个包裹。\n令他们惊讶的是，那个贵重的包裹里装满了石头和沙子！",
+  "sentences": [
+    {
+      "index": 0,
+      "startTime": 0.5,
+      "endTime": 3,
+      "en": "Lesson 7",
+      "zh": "第7课",
+      "role": "lesson"
+    },
+    {
+      "index": 1,
+      "startTime": 3,
+      "endTime": 9.23,
+      "en": "Too Late",
+      "zh": "为时太晚",
+      "role": "title"
+    },
+    {
+      "index": 2,
+      "startTime": 9.23,
+      "endTime": 14.04,
+      "en": "Did the detectives save the diamonds?",
+      "zh": "侦探们保住那些钻石了吗？",
+      "role": "question"
+    },
+    {
+      "index": 3,
+      "startTime": 14.04,
+      "endTime": 20.38,
+      "en": "The plane was late and detectives were waiting at the airport all morning.",
+      "zh": "飞机晚点了，侦探们一整个上午都在机场等待。",
+      "role": "body"
+    },
+    {
+      "index": 4,
+      "startTime": 20.38,
+      "endTime": 26.06,
+      "en": "They were expecting a valuable parcel of diamonds from South Africa.",
+      "zh": "他们正在等待一个从南非来的装有钻石的贵重包裹。",
+      "role": "body"
+    },
+    {
+      "index": 5,
+      "startTime": 26.06,
+      "endTime": 34.32,
+      "en": "A few hours earlier, someone had told the police that thieves would try to steal the diamonds.",
+      "zh": "几个小时之前，有人告诉警方说小偷会企图偷走那些钻石。",
+      "role": "body"
+    },
+    {
+      "index": 6,
+      "startTime": 34.32,
+      "endTime": 44.89,
+      "en": "When the plane arrived, some of the detectives were waiting inside the main building while others were waiting on the airfield.",
+      "zh": "当飞机降临时，一些侦探正在等待。在主楼内而其他人则在停机坪上等待。",
+      "role": "body"
+    },
+    {
+      "index": 7,
+      "startTime": 44.89,
+      "endTime": 51.8,
+      "en": "Two men took the parcel off the plane and carried it into the Customs House.",
+      "zh": "两名男子从飞机上取下了那个包裹。然后把它搬进了海关大楼。",
+      "role": "body"
+    },
+    {
+      "index": 8,
+      "startTime": 51.8,
+      "endTime": 58.93,
+      "en": "While two detectives were keeping guard at the door, two others opened the parcel.",
+      "zh": "当两名侦探在门口守卫时，另外两名侦探打开了那个包裹。",
+      "role": "body"
+    },
+    {
+      "index": 9,
+      "startTime": 58.93,
+      "endTime": null,
+      "en": "To their surprise, the precious parcel was full of stones and sand!",
+      "zh": "令他们惊讶的是，那个贵重的包裹里装满了石头和沙子！",
+      "role": "body"
+    }
+  ],
+  "audio": {
+    "fileName": "07－Too Late.mp3",
+    "sourcePath": "content/NCE-Flow/NCE2/07－Too Late.mp3",
+    "exists": true
+  },
+  "source": {
+    "repository": "NCE-Flow",
+    "lrcFileName": "07－Too Late.lrc",
+    "lrcPath": "content/NCE-Flow/NCE2/07－Too Late.lrc",
+    "sourceDataFile": "content/NCE-Flow/static/data.json",
+    "generatedAt": "2026-07-23T02:59:02+00:00",
+    "generator": "scripts/generate_nce_json.py",
+    "generatorVersion": "2.0.0",
+    "metadata": {
+      "al": "新概念英语（二）",
+      "ar": "MP3 同步字幕版（美音）",
+      "ti": "Too Late",
+      "by": "更多学习内容，请到VeryCD.com搜索“露珠”"
+    }
+  }
+}

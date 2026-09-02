@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "id": "pephs1-014",
+  "groupId": "pephs1",
+  "unitNo": 5,
+  "sequenceNo": 14,
+  "section": "Reading and Thinking",
+  "title": "A Pioneer for All People",
+  "jsonPath": "pep-english/lessons/pephs1/014.json",
+  "text": "Yuan Longping, known as the “father of hybrid rice”, was one of China’s most famous scientists. Yet, he considered himself a farmer because he continually worked the land in his research. Indeed, his slim but strong body was just like that of millions of Chinese farmers, to whom he had devoted his life.\nYuan Longping was born in 1930 in Beijing. His parents wanted him to pursue a career in science or medicine. However, what concerned him most was that farmers often had poor harvests and sometimes even had a serious shortage of food to eat. To tackle this crisis, he chose to study agriculture and received an education at Southwest Agricultural College in Chongqing.\nAfter graduating in 1953, he worked as a researcher. Yuan Longping realised that larger fields were not the solution. Instead, farmers needed to boost yields in the fields they had. How this could be done was a challenging question at the time. Yuan was convinced that the answer could be found in the creation of hybrid rice. A hybrid is a cross between two or more varieties of a species. One characteristic of hybrids is that they usually attain a higher yield than conventional crops. However, whether it was possible to develop a hybrid of self-pollinating plants such as rice was a matter of great debate. The common assumption then was that it could not be done. Through intense effort, Yuan overcame enormous technical difficulties to develop the first hybrid rice that could be used for farming in 1974. This hybrid enabled farmers to expand their output greatly.\nToday, it is estimated that about 60 percent of domestic rice consumption in China is comprised of crops generated from Yuan’s hybrid strains, and his strains have allowed China’s farmers to produce around 200 million tons of rice per year. Yuan’s innovation has helped feed not just China, but many other countries that depend on rice as well, such as India and Vietnam. Because of his invaluable contributions, Yuan Longping received numerous awards both in China and abroad.\nGiven that Yuan’s hybrids made him quite wealthy, one might think he would have retired to a life of leisure. However, this is far from the case. Deep down, Yuan was still very much a farmer at heart. As a man of the soil, he cared little for celebrity or money. Instead, he made large donations to support agricultural research.\nWhat impressed people most about Yuan Longping was his ongoing ability to fulfil his dreams. Long ago, he envisioned rice plants as tall as sorghum, with each ear of rice as big as a broom, and each grain of rice as huge as a peanut. He succeeded in producing a kind of rice that could feed more people at home and abroad. His later vision for “seawater rice” also became a reality, and potentially opened up nearly one million square kilometres of salty land in China for rice production. Even in his later years, Yuan Longping was still young at heart and full of vision, and everyone was always excited to see what he would dream up next.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Yuan Longping, known as the “father of hybrid rice”, was one of China’s most famous scientists. Yet, he considered himself a farmer because he continually worked the land in his research. Indeed, his slim but strong body was just like that of millions of Chinese farmers, to whom he had devoted his life."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Yuan Longping was born in 1930 in Beijing. His parents wanted him to pursue a career in science or medicine. However, what concerned him most was that farmers often had poor harvests and sometimes even had a serious shortage of food to eat. To tackle this crisis, he chose to study agriculture and received an education at Southwest Agricultural College in Chongqing."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "After graduating in 1953, he worked as a researcher. Yuan Longping realised that larger fields were not the solution. Instead, farmers needed to boost yields in the fields they had. How this could be done was a challenging question at the time. Yuan was convinced that the answer could be found in the creation of hybrid rice. A hybrid is a cross between two or more varieties of a species. One characteristic of hybrids is that they usually attain a higher yield than conventional crops. However, whether it was possible to develop a hybrid of self-pollinating plants such as rice was a matter of great debate. The common assumption then was that it could not be done. Through intense effort, Yuan overcame enormous technical difficulties to develop the first hybrid rice that could be used for farming in 1974. This hybrid enabled farmers to expand their output greatly."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Today, it is estimated that about 60 percent of domestic rice consumption in China is comprised of crops generated from Yuan’s hybrid strains, and his strains have allowed China’s farmers to produce around 200 million tons of rice per year. Yuan’s innovation has helped feed not just China, but many other countries that depend on rice as well, such as India and Vietnam. Because of his invaluable contributions, Yuan Longping received numerous awards both in China and abroad."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Given that Yuan’s hybrids made him quite wealthy, one might think he would have retired to a life of leisure. However, this is far from the case. Deep down, Yuan was still very much a farmer at heart. As a man of the soil, he cared little for celebrity or money. Instead, he made large donations to support agricultural research."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "What impressed people most about Yuan Longping was his ongoing ability to fulfil his dreams. Long ago, he envisioned rice plants as tall as sorghum, with each ear of rice as big as a broom, and each grain of rice as huge as a peanut. He succeeded in producing a kind of rice that could feed more people at home and abroad. His later vision for “seawater rice” also became a reality, and potentially opened up nearly one million square kilometres of salty land in China for rice production. Even in his later years, Yuan Longping was still young at heart and full of vision, and everyone was always excited to see what he would dream up next."
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "选择性必修第一册",
+    "pageStart": 57,
+    "pageEnd": 58,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "f19c4231e96ee3a9c769533d676f1106",
+    "pdfSize": 12809514,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/senior-selective-1.pdf#page=57-58",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored the complete six-paragraph Yuan Longping profile across pages 57–58, joining paragraph 4 at 'is comprised of'; excluded lead-in questions, main-idea matching, photograph, follow-up questions, word-formation exercise, strategy box and running furniture."
+    }
+  }
+}

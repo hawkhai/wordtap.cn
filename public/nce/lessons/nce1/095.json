@@ -1,0 +1,248 @@
+{
+  "schemaVersion": 1,
+  "id": "nce1-095",
+  "bookId": "nce1",
+  "bookNo": 1,
+  "lessonNo": 95,
+  "lessonRange": [
+    95,
+    96
+  ],
+  "title": "Tickets, Please.",
+  "titleZh": "请给我票。",
+  "question": "Why did George and Ken miss the train?",
+  "questionZh": "为什么乔治和肯错过了火车？",
+  "text": "Why did George and Ken miss the train?\n\nTwo return tickets to London, please.\nWhat time will the next train leave?\nAt nineteen minutes past eight.\nWhich platform?\nPlatform Two.\nOver the bridge.\nWhat time will the next train leave?\nAt eight nineteen.\nWe've got plenty of time.\nIt's only three minutes to eight.\nLet's go and have a drink.\nThere's a bar next door to the station.\nWe had better go back to the station now, Ken.\nTickets, please.\nWe want to catch the eight nineteen to London.\nYou've just missed it!\nWhat!\nIt's only eight fifteen.\nI'm sorry, sir.\nThat clock's ten minutes slow.\nWhen's the next train?\nIn five hours' time!",
+  "bodyText": "Two return tickets to London, please.\nWhat time will the next train leave?\nAt nineteen minutes past eight.\nWhich platform?\nPlatform Two.\nOver the bridge.\nWhat time will the next train leave?\nAt eight nineteen.\nWe've got plenty of time.\nIt's only three minutes to eight.\nLet's go and have a drink.\nThere's a bar next door to the station.\nWe had better go back to the station now, Ken.\nTickets, please.\nWe want to catch the eight nineteen to London.\nYou've just missed it!\nWhat!\nIt's only eight fifteen.\nI'm sorry, sir.\nThat clock's ten minutes slow.\nWhen's the next train?\nIn five hours' time!",
+  "bodyTextZh": "请给我两张去伦敦的往返票。\n下一班火车什么时候出发？\n八点十九分。\n哪个站台？\n第二站台。\n过桥。\n下一班火车什么时候出发？\n八点十九分。\n我们还有充足的时间。\n现在才八点差三分。\n我们一起去喝一杯吧。\n车站旁边有一家酒吧。\n我们最好现在就回车站去，肯。\n请给我票。\n我们要赶八点十九分去伦敦的火车。\n你刚刚错过了它！\n什么！\n现在才八点十五分。\n对不起，先生。\n那个钟慢了十分钟。\n下一班火车什么时候开？\n五小时后！",
+  "sentences": [
+    {
+      "index": 0,
+      "startTime": 1.01,
+      "endTime": 3.52,
+      "en": "Lesson 95",
+      "zh": "第95课",
+      "role": "lesson"
+    },
+    {
+      "index": 1,
+      "startTime": 3.52,
+      "endTime": 6.52,
+      "en": "Tickets, please.",
+      "zh": "请给我票。",
+      "role": "title"
+    },
+    {
+      "index": 2,
+      "startTime": 6.52,
+      "endTime": 12.47,
+      "en": "Listen to the tape then answer this question.",
+      "zh": "先听这段录音，然后再回答这个问题。",
+      "role": "prompt"
+    },
+    {
+      "index": 3,
+      "startTime": 12.47,
+      "endTime": 19.39,
+      "en": "Why did George and Ken miss the train?",
+      "zh": "为什么乔治和肯错过了火车？",
+      "role": "question"
+    },
+    {
+      "index": 4,
+      "startTime": 19.39,
+      "endTime": 23.44,
+      "en": "Two return tickets to London, please.",
+      "zh": "请给我两张去伦敦的往返票。",
+      "role": "body"
+    },
+    {
+      "index": 5,
+      "startTime": 23.44,
+      "endTime": 27.22,
+      "en": "What time will the next train leave?",
+      "zh": "下一班火车什么时候出发？",
+      "role": "body"
+    },
+    {
+      "index": 6,
+      "startTime": 27.22,
+      "endTime": 31.52,
+      "en": "At nineteen minutes past eight.",
+      "zh": "八点十九分。",
+      "role": "body"
+    },
+    {
+      "index": 7,
+      "startTime": 31.52,
+      "endTime": 33.4,
+      "en": "Which platform?",
+      "zh": "哪个站台？",
+      "role": "body"
+    },
+    {
+      "index": 8,
+      "startTime": 33.4,
+      "endTime": 35.18,
+      "en": "Platform Two.",
+      "zh": "第二站台。",
+      "role": "body"
+    },
+    {
+      "index": 9,
+      "startTime": 35.18,
+      "endTime": 38.23,
+      "en": "Over the bridge.",
+      "zh": "过桥。",
+      "role": "body"
+    },
+    {
+      "index": 10,
+      "startTime": 38.23,
+      "endTime": 42.16,
+      "en": "What time will the next train leave?",
+      "zh": "下一班火车什么时候出发？",
+      "role": "body"
+    },
+    {
+      "index": 11,
+      "startTime": 42.16,
+      "endTime": 44.95,
+      "en": "At eight nineteen.",
+      "zh": "八点十九分。",
+      "role": "body"
+    },
+    {
+      "index": 12,
+      "startTime": 44.95,
+      "endTime": 48.56,
+      "en": "We've got plenty of time.",
+      "zh": "我们还有充足的时间。",
+      "role": "body"
+    },
+    {
+      "index": 13,
+      "startTime": 48.56,
+      "endTime": 52.53,
+      "en": "It's only three minutes to eight.",
+      "zh": "现在才八点差三分。",
+      "role": "body"
+    },
+    {
+      "index": 14,
+      "startTime": 52.53,
+      "endTime": 55.53,
+      "en": "Let's go and have a drink.",
+      "zh": "我们一起去喝一杯吧。",
+      "role": "body"
+    },
+    {
+      "index": 15,
+      "startTime": 55.53,
+      "endTime": 60.69,
+      "en": "There's a bar next door to the station.",
+      "zh": "车站旁边有一家酒吧。",
+      "role": "body"
+    },
+    {
+      "index": 16,
+      "startTime": 60.69,
+      "endTime": 65.8,
+      "en": "We had better go back to the station now, Ken.",
+      "zh": "我们最好现在就回车站去，肯。",
+      "role": "body"
+    },
+    {
+      "index": 17,
+      "startTime": 65.8,
+      "endTime": 68.23,
+      "en": "Tickets, please.",
+      "zh": "请给我票。",
+      "role": "body"
+    },
+    {
+      "index": 18,
+      "startTime": 68.23,
+      "endTime": 72.91,
+      "en": "We want to catch the eight nineteen to London.",
+      "zh": "我们要赶八点十九分去伦敦的火车。",
+      "role": "body"
+    },
+    {
+      "index": 19,
+      "startTime": 72.91,
+      "endTime": 75.7,
+      "en": "You've just missed it!",
+      "zh": "你刚刚错过了它！",
+      "role": "body"
+    },
+    {
+      "index": 20,
+      "startTime": 75.7,
+      "endTime": 77.02,
+      "en": "What!",
+      "zh": "什么！",
+      "role": "body"
+    },
+    {
+      "index": 21,
+      "startTime": 77.02,
+      "endTime": 80.19,
+      "en": "It's only eight fifteen.",
+      "zh": "现在才八点十五分。",
+      "role": "body"
+    },
+    {
+      "index": 22,
+      "startTime": 80.19,
+      "endTime": 82.24,
+      "en": "I'm sorry, sir.",
+      "zh": "对不起，先生。",
+      "role": "body"
+    },
+    {
+      "index": 23,
+      "startTime": 82.24,
+      "endTime": 86.16,
+      "en": "That clock's ten minutes slow.",
+      "zh": "那个钟慢了十分钟。",
+      "role": "body"
+    },
+    {
+      "index": 24,
+      "startTime": 86.16,
+      "endTime": 88.77,
+      "en": "When's the next train?",
+      "zh": "下一班火车什么时候开？",
+      "role": "body"
+    },
+    {
+      "index": 25,
+      "startTime": 88.77,
+      "endTime": null,
+      "en": "In five hours' time!",
+      "zh": "五小时后！",
+      "role": "body"
+    }
+  ],
+  "audio": {
+    "fileName": "095&096－Tickets, Please..mp3",
+    "sourcePath": "content/NCE-Flow/NCE1/095&096－Tickets, Please..mp3",
+    "exists": true
+  },
+  "source": {
+    "repository": "NCE-Flow",
+    "lrcFileName": "095&096－Tickets, Please..lrc",
+    "lrcPath": "content/NCE-Flow/NCE1/095&096－Tickets, Please..lrc",
+    "sourceDataFile": "content/NCE-Flow/static/data.json",
+    "generatedAt": "2026-07-23T02:59:02+00:00",
+    "generator": "scripts/generate_nce_json.py",
+    "generatorVersion": "2.0.0",
+    "metadata": {
+      "al": "新概念英语（一）",
+      "ar": "MP3 同步字幕版（美音）",
+      "ti": "Tickets, Please.",
+      "by": "更多学习内容，请到VeryCD.com搜索“露珠”"
+    }
+  }
+}

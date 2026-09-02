@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "id": "pepj9-006",
+  "groupId": "pepj9",
+  "unitNo": 2,
+  "sequenceNo": 6,
+  "section": "Section A",
+  "title": "Mother's Day and Father's Day in America",
+  "jsonPath": "pep-english/lessons/pepj9/006.json",
+  "text": "Dear Xia Yu,\nDo you know that there are two special days for parents in America? One is Mother's Day on the second Sunday of May, and the other is Father's Day on the third Sunday of June. On these two days, American children often give gifts to their parents or take them out for lunch or dinner. Common gifts are flowers and cards for mothers and shirts or ties for fathers. I heard that it is becoming more and more popular to celebrate Mother's Day and Father's Day in China. I wonder if children over there also give similar gifts to their parents. I believe that there are many ways to show our love. Actually, we don't have to spend a lot of money. It is also a good idea to help parents to do something instead.\nJune",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Dear Xia Yu,"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Do you know that there are two special days for parents in America? One is Mother's Day on the second Sunday of May, and the other is Father's Day on the third Sunday of June. On these two days, American children often give gifts to their parents or take them out for lunch or dinner. Common gifts are flowers and cards for mothers and shirts or ties for fathers. I heard that it is becoming more and more popular to celebrate Mother's Day and Father's Day in China. I wonder if children over there also give similar gifts to their parents. I believe that there are many ways to show our love. Actually, we don't have to spend a lot of money. It is also a good idea to help parents to do something instead."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "June"
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "初中",
+    "book": "九年级全一册",
+    "pageStart": 26,
+    "pageEnd": 26,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "c6e628c22e0c2f9cfe4547699a1c95a4",
+    "pdfSize": 11088578,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/junior-9.pdf#page=26",
+      "reviewedAt": "2026-07-22",
+      "notes": "Retained the complete 4b model letter with salutation, body and signature; excluded the Grammar Focus table, 4a sentence exercise, 4b instruction and 4c survey."
+    }
+  }
+}

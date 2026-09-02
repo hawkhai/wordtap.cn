@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 2,
+  "id": "rw4-u03-c",
+  "sequenceNo": 63,
+  "groupId": "rw4",
+  "unitNo": 3,
+  "unitTitle": "Business success in the new age",
+  "section": "C",
+  "articleType": "stories-of-china",
+  "title": "The rise of modern entrepreneurship in China",
+  "printedPageStart": 87,
+  "printedPageEnd": 88,
+  "jsonPath": "college-english/lessons/rw4/rw4-u03-c.json",
+  "characterCount": 2317,
+  "text": "Over the past few decades, entrepreneurship in China has grown at an extraordinary rate. It is bringing forth significant changes not only to China but also to the world.\nThe first wave of reform and opening up spurred the earliest generation of modern entrepreneurs in the 1980s. Most of these entrepreneurs had little or no access to knowledge of modern business management. They were pioneers who were remarkably bold to start their own businesses. Then, in the early 1990s, a number of government officials, inspired by the policies at that time, left their government roles and ventured into business. Many of them were quite successful in their entrepreneurial pursuits and some eventually became industry leaders.\nInternet entrepreneurs started to emerge in the mid-to-late 1990s. Contemporary giants like Tencent were formed during those years or shortly thereafter. The bursting of the first Internet bubble at the turn of the century took out a fair number of Chinese Internet companies, but soon, the growth of the Internet industry resumed and gained momentum. The number of entrepreneurs grew again in China throughout the 2000s. Apart from those in the Internet and mobile technology sectors, many entrepreneurs also started appearing in other industries: energy, healthcare, financial services, consumer and retail, among others, where businesses were increasingly integrated into the rapid growth of science and technology.\nToday in China, we see numerous young people who were born in the 1990s and 2000s with entrepreneurial aspirations. They come not only from metropolises (大都市) like Beijing, Shanghai, and Guangzhou, but also from second-tier or even smaller cities. Though a fair number of them may not succeed, or at least not on their first attempt, these young people are not afraid of failure. For them, “trial and error” is an inevitable part of the entrepreneurial process. The outcome, whether positive or not, adds to their experience and helps open up more opportunities for them in the future.\nWe are living in an era where entrepreneurs are getting younger, and business development is becoming faster. This new generation of China’s entrepreneurs illustrates vitality, creativity, and increased productivity that are the core driving forces fueling China’s next stage of development.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Over the past few decades, entrepreneurship in China has grown at an extraordinary rate. It is bringing forth significant changes not only to China but also to the world."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "The first wave of reform and opening up spurred the earliest generation of modern entrepreneurs in the 1980s. Most of these entrepreneurs had little or no access to knowledge of modern business management. They were pioneers who were remarkably bold to start their own businesses. Then, in the early 1990s, a number of government officials, inspired by the policies at that time, left their government roles and ventured into business. Many of them were quite successful in their entrepreneurial pursuits and some eventually became industry leaders."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Internet entrepreneurs started to emerge in the mid-to-late 1990s. Contemporary giants like Tencent were formed during those years or shortly thereafter. The bursting of the first Internet bubble at the turn of the century took out a fair number of Chinese Internet companies, but soon, the growth of the Internet industry resumed and gained momentum. The number of entrepreneurs grew again in China throughout the 2000s. Apart from those in the Internet and mobile technology sectors, many entrepreneurs also started appearing in other industries: energy, healthcare, financial services, consumer and retail, among others, where businesses were increasingly integrated into the rapid growth of science and technology."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Today in China, we see numerous young people who were born in the 1990s and 2000s with entrepreneurial aspirations. They come not only from metropolises (大都市) like Beijing, Shanghai, and Guangzhou, but also from second-tier or even smaller cities. Though a fair number of them may not succeed, or at least not on their first attempt, these young people are not afraid of failure. For them, “trial and error” is an inevitable part of the entrepreneurial process. The outcome, whether positive or not, adds to their experience and helps open up more opportunities for them in the future."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "We are living in an era where entrepreneurs are getting younger, and business development is becoming faster. This new generation of China’s entrepreneurs illustrates vitality, creativity, and increased productivity that are the core driving forces fueling China’s next stage of development."
+    }
+  ],
+  "source": {
+    "series": "新视野大学英语（第四版）",
+    "book": "读写教程 4",
+    "sourceBook": "NHCE4-RW4",
+    "printedPageStart": 87,
+    "printedPageEnd": 88,
+    "pdfPageStart": 102,
+    "pdfPageEnd": 103,
+    "pdfSha256": "5b70c28492928eefbb43a4832275c6fff070e12c7b70455ae03dc64bfa7a0a53",
+    "ocrFiles": [
+      "tools/College-English/NHCE4-RW4/ocr/json/NHCE4-RW4_102.json",
+      "tools/College-English/NHCE4-RW4/ocr/json/NHCE4-RW4_103.json"
+    ]
+  },
+  "manualReview": {
+    "status": "passed",
+    "reviewer": "Codex",
+    "reviewedAt": "2026-07-30T18:45:28Z",
+    "correctionCount": 0,
+    "evidence": "NHCE4-RW4 original images 102-103; two full visual passes; reviewed-articles/rw4-u03-c.json",
+    "textSha256": "0360ff9b47c291c7482519e131bae64283f7017d0b7342eedc0c1d8ec06d4df6",
+    "eventSha256": "19d9468df34ae44245b27f9d5d64152730dd1704eadfbdb2e9e91cf4b9753f60"
+  }
+}

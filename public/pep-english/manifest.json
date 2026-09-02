@@ -1,0 +1,3005 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-07-22T16:26:43.248075+00:00",
+  "generator": "tools/generate-pep-english-data.py",
+  "generatorVersion": "1.2.0",
+  "expectedBookCount": 17,
+  "availableBookCount": 12,
+  "complete": false,
+  "totalLessons": 313,
+  "missingBooks": [
+    {
+      "id": "pephe1",
+      "stage": "senior",
+      "title": "选修第一册",
+      "reason": "source-unavailable"
+    },
+    {
+      "id": "pephe2",
+      "stage": "senior",
+      "title": "选修第二册",
+      "reason": "source-unavailable"
+    },
+    {
+      "id": "pephe3",
+      "stage": "senior",
+      "title": "选修第三册",
+      "reason": "source-unavailable"
+    },
+    {
+      "id": "pephg",
+      "stage": "senior",
+      "title": "英语语法与词汇",
+      "reason": "source-unavailable"
+    },
+    {
+      "id": "pephw",
+      "stage": "senior",
+      "title": "英语写作",
+      "reason": "source-unavailable"
+    }
+  ],
+  "groups": [
+    {
+      "id": "pepj7a",
+      "stage": "junior",
+      "stageTitle": "初中",
+      "bookOrder": 1,
+      "title": "七年级上册",
+      "subtitle": "人教版初中英语",
+      "sourceStatus": "available",
+      "lessonCount": 4,
+      "lessons": [
+        {
+          "id": "pepj7a-001",
+          "groupId": "pepj7a",
+          "unitNo": 5,
+          "sequenceNo": 1,
+          "section": "Section B",
+          "title": "Do You Have a Soccer Ball?",
+          "jsonPath": "pep-english/lessons/pepj7a/001.json"
+        },
+        {
+          "id": "pepj7a-002",
+          "groupId": "pepj7a",
+          "unitNo": 6,
+          "sequenceNo": 2,
+          "section": "Section B",
+          "title": "Sports Star Eats Well!",
+          "jsonPath": "pep-english/lessons/pepj7a/002.json"
+        },
+        {
+          "id": "pepj7a-003",
+          "groupId": "pepj7a",
+          "unitNo": 7,
+          "sequenceNo": 3,
+          "section": "Section B",
+          "title": "Mr. Cool's Clothes Store",
+          "jsonPath": "pep-english/lessons/pepj7a/003.json"
+        },
+        {
+          "id": "pepj7a-004",
+          "groupId": "pepj7a",
+          "unitNo": 9,
+          "sequenceNo": 4,
+          "section": "Section B",
+          "title": "Dear Jenny",
+          "jsonPath": "pep-english/lessons/pepj7a/004.json"
+        }
+      ]
+    },
+    {
+      "id": "pepj7b",
+      "stage": "junior",
+      "stageTitle": "初中",
+      "bookOrder": 2,
+      "title": "七年级下册",
+      "subtitle": "人教版初中英语",
+      "sourceStatus": "available",
+      "lessonCount": 11,
+      "lessons": [
+        {
+          "id": "pepj7b-002",
+          "groupId": "pepj7b",
+          "unitNo": 2,
+          "sequenceNo": 2,
+          "section": "Section B",
+          "title": "Tony and Mary's Habits",
+          "jsonPath": "pep-english/lessons/pepj7b/002.json"
+        },
+        {
+          "id": "pepj7b-003",
+          "groupId": "pepj7b",
+          "unitNo": 3,
+          "sequenceNo": 3,
+          "section": "Section A",
+          "title": "Lisa and Jane's Commute",
+          "jsonPath": "pep-english/lessons/pepj7b/003.json"
+        },
+        {
+          "id": "pepj7b-004",
+          "groupId": "pepj7b",
+          "unitNo": 3,
+          "sequenceNo": 4,
+          "section": "Section B",
+          "title": "Crossing the River to School",
+          "jsonPath": "pep-english/lessons/pepj7b/004.json"
+        },
+        {
+          "id": "pepj7b-005",
+          "groupId": "pepj7b",
+          "unitNo": 4,
+          "sequenceNo": 5,
+          "section": "Section A",
+          "title": "John's First Day at School",
+          "jsonPath": "pep-english/lessons/pepj7b/005.json"
+        },
+        {
+          "id": "pepj7b-006",
+          "groupId": "pepj7b",
+          "unitNo": 4,
+          "sequenceNo": 6,
+          "section": "Section B",
+          "title": "Molly and Dr. Know's Letters",
+          "jsonPath": "pep-english/lessons/pepj7b/006.json"
+        },
+        {
+          "id": "pepj7b-007",
+          "groupId": "pepj7b",
+          "unitNo": 5,
+          "sequenceNo": 7,
+          "section": "Section B",
+          "title": "Let's Save the Elephants",
+          "jsonPath": "pep-english/lessons/pepj7b/007.json"
+        },
+        {
+          "id": "pepj7b-009",
+          "groupId": "pepj7b",
+          "unitNo": 6,
+          "sequenceNo": 9,
+          "section": "Section B",
+          "title": "Zhu Hui's Dragon Boat Festival",
+          "jsonPath": "pep-english/lessons/pepj7b/009.json"
+        },
+        {
+          "id": "pepj7b-011",
+          "groupId": "pepj7b",
+          "unitNo": 9,
+          "sequenceNo": 11,
+          "section": "Section B",
+          "title": "An Interesting Job",
+          "jsonPath": "pep-english/lessons/pepj7b/011.json"
+        },
+        {
+          "id": "pepj7b-012",
+          "groupId": "pepj7b",
+          "unitNo": 10,
+          "sequenceNo": 12,
+          "section": "Section B",
+          "title": "Birthday Food Around the World",
+          "jsonPath": "pep-english/lessons/pepj7b/012.json"
+        },
+        {
+          "id": "pepj7b-013",
+          "groupId": "pepj7b",
+          "unitNo": 11,
+          "sequenceNo": 13,
+          "section": "Section B",
+          "title": "Helen and Jim's School Trip Diaries",
+          "jsonPath": "pep-english/lessons/pepj7b/013.json"
+        },
+        {
+          "id": "pepj7b-014",
+          "groupId": "pepj7b",
+          "unitNo": 12,
+          "sequenceNo": 14,
+          "section": "Section B",
+          "title": "A Weekend to Remember",
+          "jsonPath": "pep-english/lessons/pepj7b/014.json"
+        }
+      ]
+    },
+    {
+      "id": "pepj8a",
+      "stage": "junior",
+      "stageTitle": "初中",
+      "bookOrder": 3,
+      "title": "八年级上册",
+      "subtitle": "人教版初中英语",
+      "sourceStatus": "available",
+      "lessonCount": 13,
+      "lessons": [
+        {
+          "id": "pepj8a-001",
+          "groupId": "pepj8a",
+          "unitNo": 1,
+          "sequenceNo": 1,
+          "section": "Section B",
+          "title": "Jane's Vacation Diaries",
+          "jsonPath": "pep-english/lessons/pepj8a/001.json"
+        },
+        {
+          "id": "pepj8a-004",
+          "groupId": "pepj8a",
+          "unitNo": 2,
+          "sequenceNo": 4,
+          "section": "Section A",
+          "title": "Jack and Claire's Weekly Plans",
+          "jsonPath": "pep-english/lessons/pepj8a/004.json"
+        },
+        {
+          "id": "pepj8a-007",
+          "groupId": "pepj8a",
+          "unitNo": 3,
+          "sequenceNo": 7,
+          "section": "Section B",
+          "title": "Should Friends Be the Same or Different?",
+          "jsonPath": "pep-english/lessons/pepj8a/007.json"
+        },
+        {
+          "id": "pepj8a-008",
+          "groupId": "pepj8a",
+          "unitNo": 4,
+          "sequenceNo": 8,
+          "section": "Section A",
+          "title": "Greg's New Neighborhood",
+          "jsonPath": "pep-english/lessons/pepj8a/008.json"
+        },
+        {
+          "id": "pepj8a-009",
+          "groupId": "pepj8a",
+          "unitNo": 4,
+          "sequenceNo": 9,
+          "section": "Section B",
+          "title": "Who's Got Talent?",
+          "jsonPath": "pep-english/lessons/pepj8a/009.json"
+        },
+        {
+          "id": "pepj8a-011",
+          "groupId": "pepj8a",
+          "unitNo": 5,
+          "sequenceNo": 11,
+          "section": "Section B",
+          "title": "Mickey Mouse: A Symbol of American Culture",
+          "jsonPath": "pep-english/lessons/pepj8a/011.json"
+        },
+        {
+          "id": "pepj8a-015",
+          "groupId": "pepj8a",
+          "unitNo": 7,
+          "sequenceNo": 15,
+          "section": "Section B",
+          "title": "Do You Think You Will Have Your Own Robot?",
+          "jsonPath": "pep-english/lessons/pepj8a/015.json"
+        },
+        {
+          "id": "pepj8a-019",
+          "groupId": "pepj8a",
+          "unitNo": 8,
+          "sequenceNo": 19,
+          "section": "Section A",
+          "title": "How to Make Russian Soup",
+          "jsonPath": "pep-english/lessons/pepj8a/019.json"
+        },
+        {
+          "id": "pepj8a-020",
+          "groupId": "pepj8a",
+          "unitNo": 8,
+          "sequenceNo": 20,
+          "section": "Section B",
+          "title": "Thanksgiving in North America",
+          "jsonPath": "pep-english/lessons/pepj8a/020.json"
+        },
+        {
+          "id": "pepj8a-022",
+          "groupId": "pepj8a",
+          "unitNo": 9,
+          "sequenceNo": 22,
+          "section": "Section A",
+          "title": "Jeff Invites Nick to Meet Sam",
+          "jsonPath": "pep-english/lessons/pepj8a/022.json"
+        },
+        {
+          "id": "pepj8a-023",
+          "groupId": "pepj8a",
+          "unitNo": 9,
+          "sequenceNo": 23,
+          "section": "Section B",
+          "title": "Invitation to the New Library Opening",
+          "jsonPath": "pep-english/lessons/pepj8a/023.json"
+        },
+        {
+          "id": "pepj8a-025",
+          "groupId": "pepj8a",
+          "unitNo": 10,
+          "sequenceNo": 25,
+          "section": "Section A",
+          "title": "Planning Food and Games for the Party",
+          "jsonPath": "pep-english/lessons/pepj8a/025.json"
+        },
+        {
+          "id": "pepj8a-027",
+          "groupId": "pepj8a",
+          "unitNo": 10,
+          "sequenceNo": 27,
+          "section": "Section B",
+          "title": "Talking Helps Solve Problems",
+          "jsonPath": "pep-english/lessons/pepj8a/027.json"
+        }
+      ]
+    },
+    {
+      "id": "pepj8b",
+      "stage": "junior",
+      "stageTitle": "初中",
+      "bookOrder": 4,
+      "title": "八年级下册",
+      "subtitle": "人教版初中英语",
+      "sourceStatus": "available",
+      "lessonCount": 19,
+      "lessons": [
+        {
+          "id": "pepj8b-001",
+          "groupId": "pepj8b",
+          "unitNo": 1,
+          "sequenceNo": 1,
+          "section": "Section A",
+          "title": "Bus Driver and Passengers Save an Old Man",
+          "jsonPath": "pep-english/lessons/pepj8b/001.json"
+        },
+        {
+          "id": "pepj8b-002",
+          "groupId": "pepj8b",
+          "unitNo": 2,
+          "sequenceNo": 2,
+          "section": "Section A",
+          "title": "Students Who Volunteer",
+          "jsonPath": "pep-english/lessons/pepj8b/002.json"
+        },
+        {
+          "id": "pepj8b-003",
+          "groupId": "pepj8b",
+          "unitNo": 2,
+          "sequenceNo": 3,
+          "section": "Section B",
+          "title": "Ben Smith's Thank-You Letter to Miss Li",
+          "jsonPath": "pep-english/lessons/pepj8b/003.json"
+        },
+        {
+          "id": "pepj8b-004",
+          "groupId": "pepj8b",
+          "unitNo": 3,
+          "sequenceNo": 4,
+          "section": "Section A",
+          "title": "Nancy Learns to Share the Housework",
+          "jsonPath": "pep-english/lessons/pepj8b/004.json"
+        },
+        {
+          "id": "pepj8b-005",
+          "groupId": "pepj8b",
+          "unitNo": 3,
+          "sequenceNo": 5,
+          "section": "Section B",
+          "title": "Should Young People Do Chores at Home?",
+          "jsonPath": "pep-english/lessons/pepj8b/005.json"
+        },
+        {
+          "id": "pepj8b-006",
+          "groupId": "pepj8b",
+          "unitNo": 4,
+          "sequenceNo": 6,
+          "section": "Section A",
+          "title": "Kim's Problem with Her Sister",
+          "jsonPath": "pep-english/lessons/pepj8b/006.json"
+        },
+        {
+          "id": "pepj8b-007",
+          "groupId": "pepj8b",
+          "unitNo": 4,
+          "sequenceNo": 7,
+          "section": "Section B",
+          "title": "Maybe You Should Learn to Relax!",
+          "jsonPath": "pep-english/lessons/pepj8b/007.json"
+        },
+        {
+          "id": "pepj8b-008",
+          "groupId": "pepj8b",
+          "unitNo": 5,
+          "sequenceNo": 8,
+          "section": "Section A",
+          "title": "The Storm Brought People Closer Together",
+          "jsonPath": "pep-english/lessons/pepj8b/008.json"
+        },
+        {
+          "id": "pepj8b-009",
+          "groupId": "pepj8b",
+          "unitNo": 5,
+          "sequenceNo": 9,
+          "section": "Section B",
+          "title": "Do You Remember What You Were Doing?",
+          "jsonPath": "pep-english/lessons/pepj8b/009.json"
+        },
+        {
+          "id": "pepj8b-010",
+          "groupId": "pepj8b",
+          "unitNo": 6,
+          "sequenceNo": 10,
+          "section": "Section A",
+          "title": "The Monkey King",
+          "jsonPath": "pep-english/lessons/pepj8b/010.json"
+        },
+        {
+          "id": "pepj8b-012",
+          "groupId": "pepj8b",
+          "unitNo": 7,
+          "sequenceNo": 12,
+          "section": "Section A",
+          "title": "Qomolangma — the Most Dangerous Mountain in the World?",
+          "jsonPath": "pep-english/lessons/pepj8b/012.json"
+        },
+        {
+          "id": "pepj8b-013",
+          "groupId": "pepj8b",
+          "unitNo": 7,
+          "sequenceNo": 13,
+          "section": "Section B",
+          "title": "Pandas at the Chengdu Research Base",
+          "jsonPath": "pep-english/lessons/pepj8b/013.json"
+        },
+        {
+          "id": "pepj8b-014",
+          "groupId": "pepj8b",
+          "unitNo": 8,
+          "sequenceNo": 14,
+          "section": "Section A",
+          "title": "Robinson Crusoe on the Island",
+          "jsonPath": "pep-english/lessons/pepj8b/014.json"
+        },
+        {
+          "id": "pepj8b-015",
+          "groupId": "pepj8b",
+          "unitNo": 8,
+          "sequenceNo": 15,
+          "section": "Section B",
+          "title": "A Country Music Song Changed Her Life Forever",
+          "jsonPath": "pep-english/lessons/pepj8b/015.json"
+        },
+        {
+          "id": "pepj8b-016",
+          "groupId": "pepj8b",
+          "unitNo": 9,
+          "sequenceNo": 16,
+          "section": "Section A",
+          "title": "Three Interesting Museums",
+          "jsonPath": "pep-english/lessons/pepj8b/016.json"
+        },
+        {
+          "id": "pepj8b-018",
+          "groupId": "pepj8b",
+          "unitNo": 9,
+          "sequenceNo": 18,
+          "section": "Section B",
+          "title": "Singapore — A Place You Will Never Forget!",
+          "jsonPath": "pep-english/lessons/pepj8b/018.json"
+        },
+        {
+          "id": "pepj8b-019",
+          "groupId": "pepj8b",
+          "unitNo": 10,
+          "sequenceNo": 19,
+          "section": "Section A",
+          "title": "A Family's Yard Sale",
+          "jsonPath": "pep-english/lessons/pepj8b/019.json"
+        },
+        {
+          "id": "pepj8b-020",
+          "groupId": "pepj8b",
+          "unitNo": 10,
+          "sequenceNo": 20,
+          "section": "Section B",
+          "title": "Hometown Feelings",
+          "jsonPath": "pep-english/lessons/pepj8b/020.json"
+        },
+        {
+          "id": "pepj8b-021",
+          "groupId": "pepj8b",
+          "unitNo": 5,
+          "sequenceNo": 21,
+          "section": "Section B",
+          "title": "Why Kate Missed the Basketball Competition",
+          "jsonPath": "pep-english/lessons/pepj8b/021.json"
+        }
+      ]
+    },
+    {
+      "id": "pepj9",
+      "stage": "junior",
+      "stageTitle": "初中",
+      "bookOrder": 5,
+      "title": "九年级全一册",
+      "subtitle": "人教版初中英语",
+      "sourceStatus": "available",
+      "lessonCount": 38,
+      "lessons": [
+        {
+          "id": "pepj9-001",
+          "groupId": "pepj9",
+          "unitNo": 1,
+          "sequenceNo": 1,
+          "section": "Section A",
+          "title": "Jack Asks Annie for Reading Advice",
+          "jsonPath": "pep-english/lessons/pepj9/001.json"
+        },
+        {
+          "id": "pepj9-002",
+          "groupId": "pepj9",
+          "unitNo": 1,
+          "sequenceNo": 2,
+          "section": "Section A",
+          "title": "How I Learned to Learn English",
+          "jsonPath": "pep-english/lessons/pepj9/002.json"
+        },
+        {
+          "id": "pepj9-003",
+          "groupId": "pepj9",
+          "unitNo": 1,
+          "sequenceNo": 3,
+          "section": "Reading",
+          "title": "How Can You Become a Successful Learner?",
+          "jsonPath": "pep-english/lessons/pepj9/003.json"
+        },
+        {
+          "id": "pepj9-004",
+          "groupId": "pepj9",
+          "unitNo": 2,
+          "sequenceNo": 4,
+          "section": "Section A",
+          "title": "The Water Festival in Chiang Mai",
+          "jsonPath": "pep-english/lessons/pepj9/004.json"
+        },
+        {
+          "id": "pepj9-005",
+          "groupId": "pepj9",
+          "unitNo": 2,
+          "sequenceNo": 5,
+          "section": "Section A",
+          "title": "Full Moon, Full Feelings",
+          "jsonPath": "pep-english/lessons/pepj9/005.json"
+        },
+        {
+          "id": "pepj9-006",
+          "groupId": "pepj9",
+          "unitNo": 2,
+          "sequenceNo": 6,
+          "section": "Section A",
+          "title": "Mother's Day and Father's Day in America",
+          "jsonPath": "pep-english/lessons/pepj9/006.json"
+        },
+        {
+          "id": "pepj9-007",
+          "groupId": "pepj9",
+          "unitNo": 2,
+          "sequenceNo": 7,
+          "section": "Section B",
+          "title": "A Christmas Carol",
+          "jsonPath": "pep-english/lessons/pepj9/007.json"
+        },
+        {
+          "id": "pepj9-009",
+          "groupId": "pepj9",
+          "unitNo": 3,
+          "sequenceNo": 9,
+          "section": "Section A",
+          "title": "Asking for the Restrooms at Fun Times Park",
+          "jsonPath": "pep-english/lessons/pepj9/009.json"
+        },
+        {
+          "id": "pepj9-010",
+          "groupId": "pepj9",
+          "unitNo": 3,
+          "sequenceNo": 10,
+          "section": "Section A",
+          "title": "Fun Times Park — Always a Fun Time!",
+          "jsonPath": "pep-english/lessons/pepj9/010.json"
+        },
+        {
+          "id": "pepj9-011",
+          "groupId": "pepj9",
+          "unitNo": 3,
+          "sequenceNo": 11,
+          "section": "Section B",
+          "title": "Could You Please ...?",
+          "jsonPath": "pep-english/lessons/pepj9/011.json"
+        },
+        {
+          "id": "pepj9-013",
+          "groupId": "pepj9",
+          "unitNo": 4,
+          "sequenceNo": 13,
+          "section": "Section A",
+          "title": "Billy Has Changed So Much",
+          "jsonPath": "pep-english/lessons/pepj9/013.json"
+        },
+        {
+          "id": "pepj9-014",
+          "groupId": "pepj9",
+          "unitNo": 4,
+          "sequenceNo": 14,
+          "section": "Section A",
+          "title": "From Shy Girl to Pop Star",
+          "jsonPath": "pep-english/lessons/pepj9/014.json"
+        },
+        {
+          "id": "pepj9-015",
+          "groupId": "pepj9",
+          "unitNo": 4,
+          "sequenceNo": 15,
+          "section": "Section B",
+          "title": "He Studies Harder Than He Used to",
+          "jsonPath": "pep-english/lessons/pepj9/015.json"
+        },
+        {
+          "id": "pepj9-016",
+          "groupId": "pepj9",
+          "unitNo": 5,
+          "sequenceNo": 16,
+          "section": "Section A",
+          "title": "The Difficult Search for American Products in the US",
+          "jsonPath": "pep-english/lessons/pepj9/016.json"
+        },
+        {
+          "id": "pepj9-017",
+          "groupId": "pepj9",
+          "unitNo": 5,
+          "sequenceNo": 17,
+          "section": "Section B",
+          "title": "Beauty in Common Things",
+          "jsonPath": "pep-english/lessons/pepj9/017.json"
+        },
+        {
+          "id": "pepj9-018",
+          "groupId": "pepj9",
+          "unitNo": 6,
+          "sequenceNo": 18,
+          "section": "Section A",
+          "title": "The Invention of the Zipper",
+          "jsonPath": "pep-english/lessons/pepj9/018.json"
+        },
+        {
+          "id": "pepj9-020",
+          "groupId": "pepj9",
+          "unitNo": 6,
+          "sequenceNo": 20,
+          "section": "Section B",
+          "title": "Do You Know When Basketball Was Invented?",
+          "jsonPath": "pep-english/lessons/pepj9/020.json"
+        },
+        {
+          "id": "pepj9-022",
+          "groupId": "pepj9",
+          "unitNo": 7,
+          "sequenceNo": 22,
+          "section": "Section A",
+          "title": "Mom Knows Best",
+          "jsonPath": "pep-english/lessons/pepj9/022.json"
+        },
+        {
+          "id": "pepj9-024",
+          "groupId": "pepj9",
+          "unitNo": 7,
+          "sequenceNo": 24,
+          "section": "Section B",
+          "title": "Should I Be Allowed to Make My Own Decisions?",
+          "jsonPath": "pep-english/lessons/pepj9/024.json"
+        },
+        {
+          "id": "pepj9-025",
+          "groupId": "pepj9",
+          "unitNo": 8,
+          "sequenceNo": 25,
+          "section": "Section A",
+          "title": "Where Is Linda's Schoolbag?",
+          "jsonPath": "pep-english/lessons/pepj9/025.json"
+        },
+        {
+          "id": "pepj9-026",
+          "groupId": "pepj9",
+          "unitNo": 8,
+          "sequenceNo": 26,
+          "section": "Section A",
+          "title": "Strange Happenings in My Town",
+          "jsonPath": "pep-english/lessons/pepj9/026.json"
+        },
+        {
+          "id": "pepj9-027",
+          "groupId": "pepj9",
+          "unitNo": 9,
+          "sequenceNo": 27,
+          "section": "Section A",
+          "title": "Jill and Scott Talk About Music and Movies",
+          "jsonPath": "pep-english/lessons/pepj9/027.json"
+        },
+        {
+          "id": "pepj9-028",
+          "groupId": "pepj9",
+          "unitNo": 9,
+          "sequenceNo": 28,
+          "section": "Section A",
+          "title": "What Do You Feel Like Watching Today?",
+          "jsonPath": "pep-english/lessons/pepj9/028.json"
+        },
+        {
+          "id": "pepj9-029",
+          "groupId": "pepj9",
+          "unitNo": 9,
+          "sequenceNo": 29,
+          "section": "Section B",
+          "title": "Sad but Beautiful",
+          "jsonPath": "pep-english/lessons/pepj9/029.json"
+        },
+        {
+          "id": "pepj9-030",
+          "groupId": "pepj9",
+          "unitNo": 10,
+          "sequenceNo": 30,
+          "section": "Section A",
+          "title": "Greeting Customs in Japan and France",
+          "jsonPath": "pep-english/lessons/pepj9/030.json"
+        },
+        {
+          "id": "pepj9-031",
+          "groupId": "pepj9",
+          "unitNo": 10,
+          "sequenceNo": 31,
+          "section": "Section A",
+          "title": "Time and Social Customs in Colombia and Switzerland",
+          "jsonPath": "pep-english/lessons/pepj9/031.json"
+        },
+        {
+          "id": "pepj9-032",
+          "groupId": "pepj9",
+          "unitNo": 10,
+          "sequenceNo": 32,
+          "section": "Section B",
+          "title": "Lin Yue's Student Exchange in France",
+          "jsonPath": "pep-english/lessons/pepj9/032.json"
+        },
+        {
+          "id": "pepj9-034",
+          "groupId": "pepj9",
+          "unitNo": 11,
+          "sequenceNo": 34,
+          "section": "Section A",
+          "title": "Nancy Asks Bert for Friendship Advice",
+          "jsonPath": "pep-english/lessons/pepj9/034.json"
+        },
+        {
+          "id": "pepj9-036",
+          "groupId": "pepj9",
+          "unitNo": 11,
+          "sequenceNo": 36,
+          "section": "Section B",
+          "title": "The Winning Team",
+          "jsonPath": "pep-english/lessons/pepj9/036.json"
+        },
+        {
+          "id": "pepj9-037",
+          "groupId": "pepj9",
+          "unitNo": 12,
+          "sequenceNo": 37,
+          "section": "Section A",
+          "title": "Why Kevin Was Late for Class",
+          "jsonPath": "pep-english/lessons/pepj9/037.json"
+        },
+        {
+          "id": "pepj9-038",
+          "groupId": "pepj9",
+          "unitNo": 12,
+          "sequenceNo": 38,
+          "section": "Section A",
+          "title": "Life Is Full of the Unexpected",
+          "jsonPath": "pep-english/lessons/pepj9/038.json"
+        },
+        {
+          "id": "pepj9-039",
+          "groupId": "pepj9",
+          "unitNo": 12,
+          "sequenceNo": 39,
+          "section": "Section B",
+          "title": "April Fool's Day Tricks",
+          "jsonPath": "pep-english/lessons/pepj9/039.json"
+        },
+        {
+          "id": "pepj9-041",
+          "groupId": "pepj9",
+          "unitNo": 13,
+          "sequenceNo": 41,
+          "section": "Section A",
+          "title": "Ideas for Solving Pollution Problems",
+          "jsonPath": "pep-english/lessons/pepj9/041.json"
+        },
+        {
+          "id": "pepj9-042",
+          "groupId": "pepj9",
+          "unitNo": 13,
+          "sequenceNo": 42,
+          "section": "Section A",
+          "title": "Save the Sharks!",
+          "jsonPath": "pep-english/lessons/pepj9/042.json"
+        },
+        {
+          "id": "pepj9-043",
+          "groupId": "pepj9",
+          "unitNo": 13,
+          "sequenceNo": 43,
+          "section": "Section B",
+          "title": "Rethink, Reuse, Recycle!",
+          "jsonPath": "pep-english/lessons/pepj9/043.json"
+        },
+        {
+          "id": "pepj9-044",
+          "groupId": "pepj9",
+          "unitNo": 14,
+          "sequenceNo": 44,
+          "section": "Section A",
+          "title": "The Teachers Judy and Clara Will Miss",
+          "jsonPath": "pep-english/lessons/pepj9/044.json"
+        },
+        {
+          "id": "pepj9-045",
+          "groupId": "pepj9",
+          "unitNo": 14,
+          "sequenceNo": 45,
+          "section": "Section A",
+          "title": "My Time in Junior High School",
+          "jsonPath": "pep-english/lessons/pepj9/045.json"
+        },
+        {
+          "id": "pepj9-047",
+          "groupId": "pepj9",
+          "unitNo": 14,
+          "sequenceNo": 47,
+          "section": "Section B",
+          "title": "A Graduation Speech at No. 3 Junior High School",
+          "jsonPath": "pep-english/lessons/pepj9/047.json"
+        }
+      ]
+    },
+    {
+      "id": "pephr1",
+      "stage": "senior",
+      "stageTitle": "高中",
+      "bookOrder": 1,
+      "title": "必修第一册",
+      "subtitle": "人教版高中英语",
+      "sourceStatus": "available",
+      "lessonCount": 37,
+      "lessons": [
+        {
+          "id": "pephr1-001",
+          "groupId": "pephr1",
+          "unitNo": 1,
+          "sequenceNo": 1,
+          "section": "Reading and Thinking",
+          "title": "First Impressions",
+          "jsonPath": "pep-english/lessons/pephr1/001.json"
+        },
+        {
+          "id": "pephr1-002",
+          "groupId": "pephr1",
+          "unitNo": 1,
+          "sequenceNo": 2,
+          "section": "Discovering Useful Structures",
+          "title": "Tim Studies on a Ship",
+          "jsonPath": "pep-english/lessons/pephr1/002.json"
+        },
+        {
+          "id": "pephr1-003",
+          "groupId": "pephr1",
+          "unitNo": 1,
+          "sequenceNo": 3,
+          "section": "Reading for Writing",
+          "title": "Student Profiles: Ann and Thando",
+          "jsonPath": "pep-english/lessons/pephr1/003.json"
+        },
+        {
+          "id": "pephr1-004",
+          "groupId": "pephr1",
+          "unitNo": 1,
+          "sequenceNo": 4,
+          "section": "Discovering Useful Structures",
+          "title": "Cheerleader Try-outs",
+          "jsonPath": "pep-english/lessons/pephr1/004.json"
+        },
+        {
+          "id": "pephr1-005",
+          "groupId": "pephr1",
+          "unitNo": 1,
+          "sequenceNo": 5,
+          "section": "Reading for Writing",
+          "title": "Advice for a Worried Friend",
+          "jsonPath": "pep-english/lessons/pephr1/005.json"
+        },
+        {
+          "id": "pephr1-006",
+          "groupId": "pephr1",
+          "unitNo": 1,
+          "sequenceNo": 6,
+          "section": "Assessing Your Progress",
+          "title": "Make the Most of Your Education",
+          "jsonPath": "pep-english/lessons/pephr1/006.json"
+        },
+        {
+          "id": "pephr1-007",
+          "groupId": "pephr1",
+          "unitNo": 2,
+          "sequenceNo": 7,
+          "section": "Reading and Thinking",
+          "title": "Peru: Geography and History",
+          "jsonPath": "pep-english/lessons/pephr1/007.json"
+        },
+        {
+          "id": "pephr1-008",
+          "groupId": "pephr1",
+          "unitNo": 2,
+          "sequenceNo": 8,
+          "section": "Reading and Thinking",
+          "title": "Travel Peru: Four Package Tours",
+          "jsonPath": "pep-english/lessons/pephr1/008.json"
+        },
+        {
+          "id": "pephr1-009",
+          "groupId": "pephr1",
+          "unitNo": 2,
+          "sequenceNo": 9,
+          "section": "Discovering Useful Structures",
+          "title": "Amy and Jeremy's Weekend Plan",
+          "jsonPath": "pep-english/lessons/pephr1/009.json"
+        },
+        {
+          "id": "pephr1-010",
+          "groupId": "pephr1",
+          "unitNo": 2,
+          "sequenceNo": 10,
+          "section": "Reading for Writing",
+          "title": "A Travel Plan to Xi'an",
+          "jsonPath": "pep-english/lessons/pephr1/010.json"
+        },
+        {
+          "id": "pephr1-011",
+          "groupId": "pephr1",
+          "unitNo": 2,
+          "sequenceNo": 11,
+          "section": "Reading for Writing",
+          "title": "Terracotta Army",
+          "jsonPath": "pep-english/lessons/pephr1/011.json"
+        },
+        {
+          "id": "pephr1-012",
+          "groupId": "pephr1",
+          "unitNo": 2,
+          "sequenceNo": 12,
+          "section": "Assessing Your Progress",
+          "title": "Paul Calls Meilin from Lijiang",
+          "jsonPath": "pep-english/lessons/pephr1/012.json"
+        },
+        {
+          "id": "pephr1-013",
+          "groupId": "pephr1",
+          "unitNo": 3,
+          "sequenceNo": 13,
+          "section": "Listening and Speaking",
+          "title": "Dave Recommends the Spin Bike to Jack",
+          "jsonPath": "pep-english/lessons/pephr1/013.json"
+        },
+        {
+          "id": "pephr1-014",
+          "groupId": "pephr1",
+          "unitNo": 3,
+          "sequenceNo": 14,
+          "section": "Reading and Thinking",
+          "title": "Living Legends",
+          "jsonPath": "pep-english/lessons/pephr1/014.json"
+        },
+        {
+          "id": "pephr1-015",
+          "groupId": "pephr1",
+          "unitNo": 3,
+          "sequenceNo": 15,
+          "section": "Reading for Writing",
+          "title": "Going Positive",
+          "jsonPath": "pep-english/lessons/pephr1/015.json"
+        },
+        {
+          "id": "pephr1-016",
+          "groupId": "pephr1",
+          "unitNo": 4,
+          "sequenceNo": 16,
+          "section": "Reading and Thinking",
+          "title": "The Night the Earth Didn't Sleep",
+          "jsonPath": "pep-english/lessons/pephr1/016.json"
+        },
+        {
+          "id": "pephr1-017",
+          "groupId": "pephr1",
+          "unitNo": 4,
+          "sequenceNo": 17,
+          "section": "Reading for Writing",
+          "title": "Tsunami Hits Asia: Over 6,500 Dead",
+          "jsonPath": "pep-english/lessons/pephr1/017.json"
+        },
+        {
+          "id": "pephr1-018",
+          "groupId": "pephr1",
+          "unitNo": 5,
+          "sequenceNo": 18,
+          "section": "Listening and Speaking",
+          "title": "Why Study French?",
+          "jsonPath": "pep-english/lessons/pephr1/018.json"
+        },
+        {
+          "id": "pephr1-019",
+          "groupId": "pephr1",
+          "unitNo": 5,
+          "sequenceNo": 19,
+          "section": "Listening and Talking",
+          "title": "Pants in American and British English",
+          "jsonPath": "pep-english/lessons/pephr1/019.json"
+        },
+        {
+          "id": "pephr1-020",
+          "groupId": "pephr1",
+          "unitNo": 5,
+          "sequenceNo": 20,
+          "section": "Reading for Writing",
+          "title": "Learning English: Biggest Problems",
+          "jsonPath": "pep-english/lessons/pephr1/020.json"
+        },
+        {
+          "id": "pephr1-021",
+          "groupId": "pephr1",
+          "unitNo": 1,
+          "sequenceNo": 21,
+          "section": "Using Structures",
+          "title": "A Difficult Chemistry Quiz",
+          "jsonPath": "pep-english/lessons/pephr1/021.json"
+        },
+        {
+          "id": "pephr1-022",
+          "groupId": "pephr1",
+          "unitNo": 1,
+          "sequenceNo": 22,
+          "section": "Writing",
+          "title": "A Daughter Who No Longer Asks for Advice",
+          "jsonPath": "pep-english/lessons/pephr1/022.json"
+        },
+        {
+          "id": "pephr1-023",
+          "groupId": "pephr1",
+          "unitNo": 1,
+          "sequenceNo": 23,
+          "section": "Writing",
+          "title": "A Son Who Wants a Girlfriend",
+          "jsonPath": "pep-english/lessons/pephr1/023.json"
+        },
+        {
+          "id": "pephr1-024",
+          "groupId": "pephr1",
+          "unitNo": 1,
+          "sequenceNo": 24,
+          "section": "Writing",
+          "title": "A Birthday Gift for a Fifteen-Year-Old Son",
+          "jsonPath": "pep-english/lessons/pephr1/024.json"
+        },
+        {
+          "id": "pephr1-025",
+          "groupId": "pephr1",
+          "unitNo": 1,
+          "sequenceNo": 25,
+          "section": "Writing",
+          "title": "A Fourteen-Year-Old Who Wants to Study Abroad",
+          "jsonPath": "pep-english/lessons/pephr1/025.json"
+        },
+        {
+          "id": "pephr1-026",
+          "groupId": "pephr1",
+          "unitNo": 1,
+          "sequenceNo": 26,
+          "section": "Expanding Your World",
+          "title": "Teenage Life Around the World",
+          "jsonPath": "pep-english/lessons/pephr1/026.json"
+        },
+        {
+          "id": "pephr1-027",
+          "groupId": "pephr1",
+          "unitNo": 2,
+          "sequenceNo": 27,
+          "section": "Reading",
+          "title": "Be a Good Tourist",
+          "jsonPath": "pep-english/lessons/pephr1/027.json"
+        },
+        {
+          "id": "pephr1-028",
+          "groupId": "pephr1",
+          "unitNo": 2,
+          "sequenceNo": 28,
+          "section": "Expanding Your World",
+          "title": "A Letter About Pisa and the Improvisatori",
+          "jsonPath": "pep-english/lessons/pephr1/028.json"
+        },
+        {
+          "id": "pephr1-029",
+          "groupId": "pephr1",
+          "unitNo": 3,
+          "sequenceNo": 29,
+          "section": "Using Words and Expressions",
+          "title": "What Great Athletes Have in Common",
+          "jsonPath": "pep-english/lessons/pephr1/029.json"
+        },
+        {
+          "id": "pephr1-030",
+          "groupId": "pephr1",
+          "unitNo": 3,
+          "sequenceNo": 30,
+          "section": "Using Structures",
+          "title": "Jumping Jacks",
+          "jsonPath": "pep-english/lessons/pephr1/030.json"
+        },
+        {
+          "id": "pephr1-031",
+          "groupId": "pephr1",
+          "unitNo": 3,
+          "sequenceNo": 31,
+          "section": "Reading",
+          "title": "Cool Cold Sports",
+          "jsonPath": "pep-english/lessons/pephr1/031.json"
+        },
+        {
+          "id": "pephr1-032",
+          "groupId": "pephr1",
+          "unitNo": 3,
+          "sequenceNo": 32,
+          "section": "Expanding Your World",
+          "title": "Hot Tickets",
+          "jsonPath": "pep-english/lessons/pephr1/032.json"
+        },
+        {
+          "id": "pephr1-033",
+          "groupId": "pephr1",
+          "unitNo": 4,
+          "sequenceNo": 33,
+          "section": "Reading and Writing",
+          "title": "The Story of an Eyewitness (Adapted)",
+          "jsonPath": "pep-english/lessons/pephr1/033.json"
+        },
+        {
+          "id": "pephr1-034",
+          "groupId": "pephr1",
+          "unitNo": 4,
+          "sequenceNo": 34,
+          "section": "Expanding Your World",
+          "title": "China to the Rescue!",
+          "jsonPath": "pep-english/lessons/pephr1/034.json"
+        },
+        {
+          "id": "pephr1-035",
+          "groupId": "pephr1",
+          "unitNo": 5,
+          "sequenceNo": 35,
+          "section": "Using Words and Expressions",
+          "title": "A Chinese Calligraphy Class",
+          "jsonPath": "pep-english/lessons/pephr1/035.json"
+        },
+        {
+          "id": "pephr1-036",
+          "groupId": "pephr1",
+          "unitNo": 5,
+          "sequenceNo": 36,
+          "section": "Reading",
+          "title": "Polyglots: What Are They and Who Can Be One?",
+          "jsonPath": "pep-english/lessons/pephr1/036.json"
+        },
+        {
+          "id": "pephr1-037",
+          "groupId": "pephr1",
+          "unitNo": 5,
+          "sequenceNo": 37,
+          "section": "Expanding Your World",
+          "title": "The Book That Keeps on Growing",
+          "jsonPath": "pep-english/lessons/pephr1/037.json"
+        }
+      ]
+    },
+    {
+      "id": "pephr2",
+      "stage": "senior",
+      "stageTitle": "高中",
+      "bookOrder": 2,
+      "title": "必修第二册",
+      "subtitle": "人教版高中英语",
+      "sourceStatus": "available",
+      "lessonCount": 28,
+      "lessons": [
+        {
+          "id": "pephr2-001",
+          "groupId": "pephr2",
+          "unitNo": 1,
+          "sequenceNo": 1,
+          "section": "Reading and Thinking",
+          "title": "From Problems to Solutions",
+          "jsonPath": "pep-english/lessons/pephr2/001.json"
+        },
+        {
+          "id": "pephr2-002",
+          "groupId": "pephr2",
+          "unitNo": 2,
+          "sequenceNo": 2,
+          "section": "Listening and Speaking",
+          "title": "Protecting African Elephants",
+          "jsonPath": "pep-english/lessons/pephr2/002.json"
+        },
+        {
+          "id": "pephr2-003",
+          "groupId": "pephr2",
+          "unitNo": 2,
+          "sequenceNo": 3,
+          "section": "Reading for Writing",
+          "title": "Give Ugly a Chance!",
+          "jsonPath": "pep-english/lessons/pephr2/003.json"
+        },
+        {
+          "id": "pephr2-004",
+          "groupId": "pephr2",
+          "unitNo": 2,
+          "sequenceNo": 4,
+          "section": "Reading for Writing",
+          "title": "Don't Make Paper with My Home!",
+          "jsonPath": "pep-english/lessons/pephr2/004.json"
+        },
+        {
+          "id": "pephr2-005",
+          "groupId": "pephr2",
+          "unitNo": 3,
+          "sequenceNo": 5,
+          "section": "Pronunciation",
+          "title": "Cyber Sense",
+          "jsonPath": "pep-english/lessons/pephr2/005.json"
+        },
+        {
+          "id": "pephr2-006",
+          "groupId": "pephr2",
+          "unitNo": 3,
+          "sequenceNo": 6,
+          "section": "Reading and Thinking",
+          "title": "Stronger Together: How We Have Been Changed by the Internet",
+          "jsonPath": "pep-english/lessons/pephr2/006.json"
+        },
+        {
+          "id": "pephr2-007",
+          "groupId": "pephr2",
+          "unitNo": 3,
+          "sequenceNo": 7,
+          "section": "Listening and Talking",
+          "title": "Choosing the Best App",
+          "jsonPath": "pep-english/lessons/pephr2/007.json"
+        },
+        {
+          "id": "pephr2-008",
+          "groupId": "pephr2",
+          "unitNo": 3,
+          "sequenceNo": 8,
+          "section": "Reading for Writing",
+          "title": "How to Stay Safe Online",
+          "jsonPath": "pep-english/lessons/pephr2/008.json"
+        },
+        {
+          "id": "pephr2-009",
+          "groupId": "pephr2",
+          "unitNo": 4,
+          "sequenceNo": 9,
+          "section": "Reading and Thinking",
+          "title": "What's in a Name?",
+          "jsonPath": "pep-english/lessons/pephr2/009.json"
+        },
+        {
+          "id": "pephr2-010",
+          "groupId": "pephr2",
+          "unitNo": 4,
+          "sequenceNo": 10,
+          "section": "Reading for Writing",
+          "title": "Beautiful Ireland and Its Traditions",
+          "jsonPath": "pep-english/lessons/pephr2/010.json"
+        },
+        {
+          "id": "pephr2-011",
+          "groupId": "pephr2",
+          "unitNo": 5,
+          "sequenceNo": 11,
+          "section": "Listening and Speaking",
+          "title": "Why I Like Techno Music",
+          "jsonPath": "pep-english/lessons/pephr2/011.json"
+        },
+        {
+          "id": "pephr2-012",
+          "groupId": "pephr2",
+          "unitNo": 5,
+          "sequenceNo": 12,
+          "section": "Reading and Thinking",
+          "title": "The Virtual Choir",
+          "jsonPath": "pep-english/lessons/pephr2/012.json"
+        },
+        {
+          "id": "pephr2-013",
+          "groupId": "pephr2",
+          "unitNo": 5,
+          "sequenceNo": 13,
+          "section": "Listening and Talking",
+          "title": "Planning a Music Festival",
+          "jsonPath": "pep-english/lessons/pephr2/013.json"
+        },
+        {
+          "id": "pephr2-014",
+          "groupId": "pephr2",
+          "unitNo": 5,
+          "sequenceNo": 14,
+          "section": "Reading for Writing",
+          "title": "How Music Helped Me Recover",
+          "jsonPath": "pep-english/lessons/pephr2/014.json"
+        },
+        {
+          "id": "pephr2-015",
+          "groupId": "pephr2",
+          "unitNo": 5,
+          "sequenceNo": 15,
+          "section": "Assessing Your Progress",
+          "title": "Learning to Love the Piano",
+          "jsonPath": "pep-english/lessons/pephr2/015.json"
+        },
+        {
+          "id": "pephr2-016",
+          "groupId": "pephr2",
+          "unitNo": 5,
+          "sequenceNo": 16,
+          "section": "Project",
+          "title": "Ludwig van Beethoven",
+          "jsonPath": "pep-english/lessons/pephr2/016.json"
+        },
+        {
+          "id": "pephr2-017",
+          "groupId": "pephr2",
+          "unitNo": 1,
+          "sequenceNo": 17,
+          "section": "Reading and Writing",
+          "title": "Relics from Ancient Greek Ship Rescued",
+          "jsonPath": "pep-english/lessons/pephr2/017.json"
+        },
+        {
+          "id": "pephr2-018",
+          "groupId": "pephr2",
+          "unitNo": 1,
+          "sequenceNo": 18,
+          "section": "Reading and Writing",
+          "title": "Han Dynasty Treasures to Visit the Capital",
+          "jsonPath": "pep-english/lessons/pephr2/018.json"
+        },
+        {
+          "id": "pephr2-019",
+          "groupId": "pephr2",
+          "unitNo": 1,
+          "sequenceNo": 19,
+          "section": "Expanding Your World",
+          "title": "World Cultural Heritage Sites",
+          "jsonPath": "pep-english/lessons/pephr2/019.json"
+        },
+        {
+          "id": "pephr2-020",
+          "groupId": "pephr2",
+          "unitNo": 2,
+          "sequenceNo": 20,
+          "section": "Reading and Writing",
+          "title": "The Strange Tale of the Milu Deer",
+          "jsonPath": "pep-english/lessons/pephr2/020.json"
+        },
+        {
+          "id": "pephr2-021",
+          "groupId": "pephr2",
+          "unitNo": 2,
+          "sequenceNo": 21,
+          "section": "Expanding Your World",
+          "title": "Urban Wildlife",
+          "jsonPath": "pep-english/lessons/pephr2/021.json"
+        },
+        {
+          "id": "pephr2-022",
+          "groupId": "pephr2",
+          "unitNo": 3,
+          "sequenceNo": 22,
+          "section": "Expanding Your World",
+          "title": "E-Learning",
+          "jsonPath": "pep-english/lessons/pephr2/022.json"
+        },
+        {
+          "id": "pephr2-023",
+          "groupId": "pephr2",
+          "unitNo": 4,
+          "sequenceNo": 23,
+          "section": "Reading and Writing",
+          "title": "Cleo's Email from Cairo",
+          "jsonPath": "pep-english/lessons/pephr2/023.json"
+        },
+        {
+          "id": "pephr2-024",
+          "groupId": "pephr2",
+          "unitNo": 4,
+          "sequenceNo": 24,
+          "section": "Reading and Writing",
+          "title": "Sally's Message from Athens",
+          "jsonPath": "pep-english/lessons/pephr2/024.json"
+        },
+        {
+          "id": "pephr2-025",
+          "groupId": "pephr2",
+          "unitNo": 4,
+          "sequenceNo": 25,
+          "section": "Expanding Your World",
+          "title": "Samovar—the Special Teapot",
+          "jsonPath": "pep-english/lessons/pephr2/025.json"
+        },
+        {
+          "id": "pephr2-026",
+          "groupId": "pephr2",
+          "unitNo": 5,
+          "sequenceNo": 26,
+          "section": "Reading and Writing",
+          "title": "Jill's Review of Cat's in the Cradle",
+          "jsonPath": "pep-english/lessons/pephr2/026.json"
+        },
+        {
+          "id": "pephr2-027",
+          "groupId": "pephr2",
+          "unitNo": 5,
+          "sequenceNo": 27,
+          "section": "Reading and Writing",
+          "title": "Dennis's Review of Cat's in the Cradle",
+          "jsonPath": "pep-english/lessons/pephr2/027.json"
+        },
+        {
+          "id": "pephr2-028",
+          "groupId": "pephr2",
+          "unitNo": 5,
+          "sequenceNo": 28,
+          "section": "Expanding Your World",
+          "title": "Music Scores in Films",
+          "jsonPath": "pep-english/lessons/pephr2/028.json"
+        }
+      ]
+    },
+    {
+      "id": "pephr3",
+      "stage": "senior",
+      "stageTitle": "高中",
+      "bookOrder": 3,
+      "title": "必修第三册",
+      "subtitle": "人教版高中英语",
+      "sourceStatus": "available",
+      "lessonCount": 31,
+      "lessons": [
+        {
+          "id": "pephr3-001",
+          "groupId": "pephr3",
+          "unitNo": 1,
+          "sequenceNo": 1,
+          "section": "Reading and Thinking",
+          "title": "Why Do We Celebrate Festivals?",
+          "jsonPath": "pep-english/lessons/pephr3/001.json"
+        },
+        {
+          "id": "pephr3-002",
+          "groupId": "pephr3",
+          "unitNo": 1,
+          "sequenceNo": 2,
+          "section": "Discovering Useful Structures",
+          "title": "Which Festival Is the Best?",
+          "jsonPath": "pep-english/lessons/pephr3/002.json"
+        },
+        {
+          "id": "pephr3-003",
+          "groupId": "pephr3",
+          "unitNo": 1,
+          "sequenceNo": 3,
+          "section": "Listening and Talking",
+          "title": "Joe and Song Lin Talk About Chinese New Year",
+          "jsonPath": "pep-english/lessons/pephr3/003.json"
+        },
+        {
+          "id": "pephr3-004",
+          "groupId": "pephr3",
+          "unitNo": 1,
+          "sequenceNo": 4,
+          "section": "Reading for Writing",
+          "title": "My Amazing Naadam Experience",
+          "jsonPath": "pep-english/lessons/pephr3/004.json"
+        },
+        {
+          "id": "pephr3-005",
+          "groupId": "pephr3",
+          "unitNo": 1,
+          "sequenceNo": 5,
+          "section": "Project",
+          "title": "The Laba Festival and Laba Porridge",
+          "jsonPath": "pep-english/lessons/pephr3/005.json"
+        },
+        {
+          "id": "pephr3-006",
+          "groupId": "pephr3",
+          "unitNo": 2,
+          "sequenceNo": 6,
+          "section": "Reading and Thinking",
+          "title": "Mother of Ten Thousand Babies",
+          "jsonPath": "pep-english/lessons/pephr3/006.json"
+        },
+        {
+          "id": "pephr3-007",
+          "groupId": "pephr3",
+          "unitNo": 2,
+          "sequenceNo": 7,
+          "section": "Discovering Useful Structures",
+          "title": "Henry Norman Bethune",
+          "jsonPath": "pep-english/lessons/pephr3/007.json"
+        },
+        {
+          "id": "pephr3-008",
+          "groupId": "pephr3",
+          "unitNo": 2,
+          "sequenceNo": 8,
+          "section": "Reading for Writing",
+          "title": "The Stone in the Road",
+          "jsonPath": "pep-english/lessons/pephr3/008.json"
+        },
+        {
+          "id": "pephr3-009",
+          "groupId": "pephr3",
+          "unitNo": 2,
+          "sequenceNo": 9,
+          "section": "Project",
+          "title": "Thankfulness",
+          "jsonPath": "pep-english/lessons/pephr3/009.json"
+        },
+        {
+          "id": "pephr3-010",
+          "groupId": "pephr3",
+          "unitNo": 3,
+          "sequenceNo": 10,
+          "section": "Pronunciation",
+          "title": "Native Americans in California",
+          "jsonPath": "pep-english/lessons/pephr3/010.json"
+        },
+        {
+          "id": "pephr3-011",
+          "groupId": "pephr3",
+          "unitNo": 3,
+          "sequenceNo": 11,
+          "section": "Reading and Thinking",
+          "title": "Wednesday, 21 June: San Francisco",
+          "jsonPath": "pep-english/lessons/pephr3/011.json"
+        },
+        {
+          "id": "pephr3-012",
+          "groupId": "pephr3",
+          "unitNo": 3,
+          "sequenceNo": 12,
+          "section": "Discovering Useful Structures",
+          "title": "Recommendations for Visiting Guizhou",
+          "jsonPath": "pep-english/lessons/pephr3/012.json"
+        },
+        {
+          "id": "pephr3-013",
+          "groupId": "pephr3",
+          "unitNo": 3,
+          "sequenceNo": 13,
+          "section": "Reading for Writing",
+          "title": "Welcome to Chinatown!",
+          "jsonPath": "pep-english/lessons/pephr3/013.json"
+        },
+        {
+          "id": "pephr3-014",
+          "groupId": "pephr3",
+          "unitNo": 3,
+          "sequenceNo": 14,
+          "section": "Assessing Your Progress",
+          "title": "Regional Music in the United States",
+          "jsonPath": "pep-english/lessons/pephr3/014.json"
+        },
+        {
+          "id": "pephr3-015",
+          "groupId": "pephr3",
+          "unitNo": 4,
+          "sequenceNo": 15,
+          "section": "Listening and Talking",
+          "title": "Questions for Captain Brown",
+          "jsonPath": "pep-english/lessons/pephr3/015.json"
+        },
+        {
+          "id": "pephr3-016",
+          "groupId": "pephr3",
+          "unitNo": 4,
+          "sequenceNo": 16,
+          "section": "Reading for Writing",
+          "title": "Is Exploring Space a Waste of Time and Money?",
+          "jsonPath": "pep-english/lessons/pephr3/016.json"
+        },
+        {
+          "id": "pephr3-017",
+          "groupId": "pephr3",
+          "unitNo": 5,
+          "sequenceNo": 17,
+          "section": "Reading and Thinking",
+          "title": "The Million Pound Bank Note — Act 1, Scene 3",
+          "jsonPath": "pep-english/lessons/pephr3/017.json"
+        },
+        {
+          "id": "pephr3-018",
+          "groupId": "pephr3",
+          "unitNo": 5,
+          "sequenceNo": 18,
+          "section": "Discovering Useful Structures",
+          "title": "Should Roderick and Oliver Give Henry the Money?",
+          "jsonPath": "pep-english/lessons/pephr3/018.json"
+        },
+        {
+          "id": "pephr3-019",
+          "groupId": "pephr3",
+          "unitNo": 5,
+          "sequenceNo": 19,
+          "section": "Reading for Writing",
+          "title": "The Million Pound Bank Note — Act 2, Scene 1",
+          "jsonPath": "pep-english/lessons/pephr3/019.json"
+        },
+        {
+          "id": "pephr3-020",
+          "groupId": "pephr3",
+          "unitNo": 1,
+          "sequenceNo": 20,
+          "section": "Reading",
+          "title": "The Chinese Spring Festival",
+          "jsonPath": "pep-english/lessons/pephr3/020.json"
+        },
+        {
+          "id": "pephr3-021",
+          "groupId": "pephr3",
+          "unitNo": 1,
+          "sequenceNo": 21,
+          "section": "Expanding Your World",
+          "title": "Winter Carnival in Quebec",
+          "jsonPath": "pep-english/lessons/pephr3/021.json"
+        },
+        {
+          "id": "pephr3-022",
+          "groupId": "pephr3",
+          "unitNo": 2,
+          "sequenceNo": 22,
+          "section": "Reading and Writing",
+          "title": "The Taxi Ride I'll Never Forget",
+          "jsonPath": "pep-english/lessons/pephr3/022.json"
+        },
+        {
+          "id": "pephr3-023",
+          "groupId": "pephr3",
+          "unitNo": 3,
+          "sequenceNo": 23,
+          "section": "Reading and Writing",
+          "title": "Symbols of American Culture",
+          "jsonPath": "pep-english/lessons/pephr3/023.json"
+        },
+        {
+          "id": "pephr3-024",
+          "groupId": "pephr3",
+          "unitNo": 3,
+          "sequenceNo": 24,
+          "section": "Expanding Your World",
+          "title": "New Zealand and Maori Culture — The Land of the Long White Cloud",
+          "jsonPath": "pep-english/lessons/pephr3/024.json"
+        },
+        {
+          "id": "pephr3-025",
+          "groupId": "pephr3",
+          "unitNo": 4,
+          "sequenceNo": 25,
+          "section": "Reading and Writing",
+          "title": "Homes on Mars?",
+          "jsonPath": "pep-english/lessons/pephr3/025.json"
+        },
+        {
+          "id": "pephr3-026",
+          "groupId": "pephr3",
+          "unitNo": 4,
+          "sequenceNo": 26,
+          "section": "Expanding Your World",
+          "title": "What Is the Big Bang Theory?",
+          "jsonPath": "pep-english/lessons/pephr3/026.json"
+        },
+        {
+          "id": "pephr3-027",
+          "groupId": "pephr3",
+          "unitNo": 4,
+          "sequenceNo": 27,
+          "section": "Expanding Your World",
+          "title": "What Is the Hubble Space Telescope?",
+          "jsonPath": "pep-english/lessons/pephr3/027.json"
+        },
+        {
+          "id": "pephr3-028",
+          "groupId": "pephr3",
+          "unitNo": 4,
+          "sequenceNo": 28,
+          "section": "Expanding Your World",
+          "title": "What Is FAST?",
+          "jsonPath": "pep-english/lessons/pephr3/028.json"
+        },
+        {
+          "id": "pephr3-029",
+          "groupId": "pephr3",
+          "unitNo": 4,
+          "sequenceNo": 29,
+          "section": "Expanding Your World",
+          "title": "What Is a Quantum Satellite?",
+          "jsonPath": "pep-english/lessons/pephr3/029.json"
+        },
+        {
+          "id": "pephr3-030",
+          "groupId": "pephr3",
+          "unitNo": 5,
+          "sequenceNo": 30,
+          "section": "Reading and Writing",
+          "title": "The Million Pound Bank Note — Act 2, Scene 3",
+          "jsonPath": "pep-english/lessons/pephr3/030.json"
+        },
+        {
+          "id": "pephr3-031",
+          "groupId": "pephr3",
+          "unitNo": 5,
+          "sequenceNo": 31,
+          "section": "Expanding Your World",
+          "title": "My Uncle Jules (Adapted)",
+          "jsonPath": "pep-english/lessons/pephr3/031.json"
+        }
+      ]
+    },
+    {
+      "id": "pephs1",
+      "stage": "senior",
+      "stageTitle": "高中",
+      "bookOrder": 4,
+      "title": "选择性必修第一册",
+      "subtitle": "人教版高中英语",
+      "sourceStatus": "available",
+      "lessonCount": 28,
+      "lessons": [
+        {
+          "id": "pephs1-001",
+          "groupId": "pephs1",
+          "unitNo": 1,
+          "sequenceNo": 1,
+          "section": "Reading and Thinking",
+          "title": "Tu Youyou Awarded Nobel Prize",
+          "jsonPath": "pep-english/lessons/pephs1/001.json"
+        },
+        {
+          "id": "pephs1-002",
+          "groupId": "pephs1",
+          "unitNo": 1,
+          "sequenceNo": 2,
+          "section": "Using Language",
+          "title": "The Man Who Changed Our Understanding of the Universe",
+          "jsonPath": "pep-english/lessons/pephs1/002.json"
+        },
+        {
+          "id": "pephs1-003",
+          "groupId": "pephs1",
+          "unitNo": 1,
+          "sequenceNo": 3,
+          "section": "Project",
+          "title": "Cao Xueqin Biography",
+          "jsonPath": "pep-english/lessons/pephs1/003.json"
+        },
+        {
+          "id": "pephs1-004",
+          "groupId": "pephs1",
+          "unitNo": 1,
+          "sequenceNo": 4,
+          "section": "Project",
+          "title": "The Story of My Life",
+          "jsonPath": "pep-english/lessons/pephs1/004.json"
+        },
+        {
+          "id": "pephs1-005",
+          "groupId": "pephs1",
+          "unitNo": 1,
+          "sequenceNo": 5,
+          "section": "Project",
+          "title": "Steve Jobs",
+          "jsonPath": "pep-english/lessons/pephs1/005.json"
+        },
+        {
+          "id": "pephs1-006",
+          "groupId": "pephs1",
+          "unitNo": 2,
+          "sequenceNo": 6,
+          "section": "Reading and Thinking",
+          "title": "Smart Homes to Make Life Easier",
+          "jsonPath": "pep-english/lessons/pephs1/006.json"
+        },
+        {
+          "id": "pephs1-007",
+          "groupId": "pephs1",
+          "unitNo": 2,
+          "sequenceNo": 7,
+          "section": "Using Language",
+          "title": "Should We Fight New Technology?",
+          "jsonPath": "pep-english/lessons/pephs1/007.json"
+        },
+        {
+          "id": "pephs1-008",
+          "groupId": "pephs1",
+          "unitNo": 2,
+          "sequenceNo": 8,
+          "section": "Project",
+          "title": "A Letter from Future Bingbing",
+          "jsonPath": "pep-english/lessons/pephs1/008.json"
+        },
+        {
+          "id": "pephs1-009",
+          "groupId": "pephs1",
+          "unitNo": 3,
+          "sequenceNo": 9,
+          "section": "Reading and Thinking",
+          "title": "Sarek National Park — Europe’s Hidden Natural Treasure",
+          "jsonPath": "pep-english/lessons/pephs1/009.json"
+        },
+        {
+          "id": "pephs1-010",
+          "groupId": "pephs1",
+          "unitNo": 3,
+          "sequenceNo": 10,
+          "section": "Using Language",
+          "title": "Theme Parks — Fun and More Than Fun",
+          "jsonPath": "pep-english/lessons/pephs1/010.json"
+        },
+        {
+          "id": "pephs1-011",
+          "groupId": "pephs1",
+          "unitNo": 4,
+          "sequenceNo": 11,
+          "section": "Reading and Thinking",
+          "title": "Listening to How Bodies Talk",
+          "jsonPath": "pep-english/lessons/pephs1/011.json"
+        },
+        {
+          "id": "pephs1-012",
+          "groupId": "pephs1",
+          "unitNo": 4,
+          "sequenceNo": 12,
+          "section": "Pronunciation",
+          "title": "Life Is a Stage",
+          "jsonPath": "pep-english/lessons/pephs1/012.json"
+        },
+        {
+          "id": "pephs1-013",
+          "groupId": "pephs1",
+          "unitNo": 4,
+          "sequenceNo": 13,
+          "section": "Using Language",
+          "title": "How Do I Know My Students?",
+          "jsonPath": "pep-english/lessons/pephs1/013.json"
+        },
+        {
+          "id": "pephs1-014",
+          "groupId": "pephs1",
+          "unitNo": 5,
+          "sequenceNo": 14,
+          "section": "Reading and Thinking",
+          "title": "A Pioneer for All People",
+          "jsonPath": "pep-english/lessons/pephs1/014.json"
+        },
+        {
+          "id": "pephs1-015",
+          "groupId": "pephs1",
+          "unitNo": 5,
+          "sequenceNo": 15,
+          "section": "Discover Useful Structures",
+          "title": "A Green Life in the Countryside",
+          "jsonPath": "pep-english/lessons/pephs1/015.json"
+        },
+        {
+          "id": "pephs1-016",
+          "groupId": "pephs1",
+          "unitNo": 5,
+          "sequenceNo": 16,
+          "section": "Using Language",
+          "title": "Chemical Versus Organic Farming",
+          "jsonPath": "pep-english/lessons/pephs1/016.json"
+        },
+        {
+          "id": "pephs1-017",
+          "groupId": "pephs1",
+          "unitNo": 1,
+          "sequenceNo": 17,
+          "section": "Reading and Writing",
+          "title": "Huang Danian",
+          "jsonPath": "pep-english/lessons/pephs1/017.json"
+        },
+        {
+          "id": "pephs1-018",
+          "groupId": "pephs1",
+          "unitNo": 1,
+          "sequenceNo": 18,
+          "section": "Reading and Writing",
+          "title": "The Teachers of Changyu Island",
+          "jsonPath": "pep-english/lessons/pephs1/018.json"
+        },
+        {
+          "id": "pephs1-019",
+          "groupId": "pephs1",
+          "unitNo": 1,
+          "sequenceNo": 19,
+          "section": "Reading and Writing",
+          "title": "My Mother, Liu Shurong",
+          "jsonPath": "pep-english/lessons/pephs1/019.json"
+        },
+        {
+          "id": "pephs1-020",
+          "groupId": "pephs1",
+          "unitNo": 1,
+          "sequenceNo": 20,
+          "section": "Expanding Your World",
+          "title": "Three Days to See (Adapted)",
+          "jsonPath": "pep-english/lessons/pephs1/020.json"
+        },
+        {
+          "id": "pephs1-021",
+          "groupId": "pephs1",
+          "unitNo": 2,
+          "sequenceNo": 21,
+          "section": "Reading and Writing",
+          "title": "Cloning: Where Is It Leading Us?",
+          "jsonPath": "pep-english/lessons/pephs1/021.json"
+        },
+        {
+          "id": "pephs1-022",
+          "groupId": "pephs1",
+          "unitNo": 2,
+          "sequenceNo": 22,
+          "section": "Expanding Your World",
+          "title": "Our Greatest Adventure",
+          "jsonPath": "pep-english/lessons/pephs1/022.json"
+        },
+        {
+          "id": "pephs1-023",
+          "groupId": "pephs1",
+          "unitNo": 3,
+          "sequenceNo": 23,
+          "section": "Reading and Writing",
+          "title": "A Holiday in Shangri-La",
+          "jsonPath": "pep-english/lessons/pephs1/023.json"
+        },
+        {
+          "id": "pephs1-024",
+          "groupId": "pephs1",
+          "unitNo": 3,
+          "sequenceNo": 24,
+          "section": "Expanding Your World",
+          "title": "National Parks—A Treasure House for Future Generations",
+          "jsonPath": "pep-english/lessons/pephs1/024.json"
+        },
+        {
+          "id": "pephs1-025",
+          "groupId": "pephs1",
+          "unitNo": 4,
+          "sequenceNo": 25,
+          "section": "Reading and Writing",
+          "title": "Animal Body Language",
+          "jsonPath": "pep-english/lessons/pephs1/025.json"
+        },
+        {
+          "id": "pephs1-026",
+          "groupId": "pephs1",
+          "unitNo": 4,
+          "sequenceNo": 26,
+          "section": "Expanding Your World",
+          "title": "Being Funny Without Saying a Word",
+          "jsonPath": "pep-english/lessons/pephs1/026.json"
+        },
+        {
+          "id": "pephs1-027",
+          "groupId": "pephs1",
+          "unitNo": 5,
+          "sequenceNo": 27,
+          "section": "Reading and Writing",
+          "title": "Better, Greener Lives Away from the City",
+          "jsonPath": "pep-english/lessons/pephs1/027.json"
+        },
+        {
+          "id": "pephs1-028",
+          "groupId": "pephs1",
+          "unitNo": 5,
+          "sequenceNo": 28,
+          "section": "Expanding Your World",
+          "title": "Amazing Methods of Agriculture",
+          "jsonPath": "pep-english/lessons/pephs1/028.json"
+        }
+      ]
+    },
+    {
+      "id": "pephs2",
+      "stage": "senior",
+      "stageTitle": "高中",
+      "bookOrder": 5,
+      "title": "选择性必修第二册",
+      "subtitle": "人教版高中英语",
+      "sourceStatus": "available",
+      "lessonCount": 24,
+      "lessons": [
+        {
+          "id": "pephs2-001",
+          "groupId": "pephs2",
+          "unitNo": 1,
+          "sequenceNo": 1,
+          "section": "Reading and Thinking",
+          "title": "John Snow Defeats ‘King Cholera’",
+          "jsonPath": "pep-english/lessons/pephs2/001.json"
+        },
+        {
+          "id": "pephs2-002",
+          "groupId": "pephs2",
+          "unitNo": 1,
+          "sequenceNo": 2,
+          "section": "Listening and Speaking",
+          "title": "A Non-Newtonian Fluid",
+          "jsonPath": "pep-english/lessons/pephs2/002.json"
+        },
+        {
+          "id": "pephs2-003",
+          "groupId": "pephs2",
+          "unitNo": 1,
+          "sequenceNo": 3,
+          "section": "Using Language",
+          "title": "The Father of China’s Aerospace",
+          "jsonPath": "pep-english/lessons/pephs2/003.json"
+        },
+        {
+          "id": "pephs2-004",
+          "groupId": "pephs2",
+          "unitNo": 1,
+          "sequenceNo": 4,
+          "section": "Using Language",
+          "title": "A World of Pure Thought",
+          "jsonPath": "pep-english/lessons/pephs2/004.json"
+        },
+        {
+          "id": "pephs2-005",
+          "groupId": "pephs2",
+          "unitNo": 1,
+          "sequenceNo": 5,
+          "section": "Project",
+          "title": "Goldfish Shark-Fin",
+          "jsonPath": "pep-english/lessons/pephs2/005.json"
+        },
+        {
+          "id": "pephs2-006",
+          "groupId": "pephs2",
+          "unitNo": 2,
+          "sequenceNo": 6,
+          "section": "Reading and Thinking",
+          "title": "‘Welcome, Xie Lei!’ Business Student Building Bridges",
+          "jsonPath": "pep-english/lessons/pephs2/006.json"
+        },
+        {
+          "id": "pephs2-007",
+          "groupId": "pephs2",
+          "unitNo": 2,
+          "sequenceNo": 7,
+          "section": "Pronunciation",
+          "title": "Learning to Use Weak Forms",
+          "jsonPath": "pep-english/lessons/pephs2/007.json"
+        },
+        {
+          "id": "pephs2-008",
+          "groupId": "pephs2",
+          "unitNo": 2,
+          "sequenceNo": 8,
+          "section": "Using Language",
+          "title": "Studying Abroad: The Disadvantages Are Greater",
+          "jsonPath": "pep-english/lessons/pephs2/008.json"
+        },
+        {
+          "id": "pephs2-009",
+          "groupId": "pephs2",
+          "unitNo": 2,
+          "sequenceNo": 9,
+          "section": "Using Language",
+          "title": "Studying Abroad: The Advantages Are Much Greater",
+          "jsonPath": "pep-english/lessons/pephs2/009.json"
+        },
+        {
+          "id": "pephs2-010",
+          "groupId": "pephs2",
+          "unitNo": 3,
+          "sequenceNo": 10,
+          "section": "Reading and Thinking",
+          "title": "Culture and Cuisine",
+          "jsonPath": "pep-english/lessons/pephs2/010.json"
+        },
+        {
+          "id": "pephs2-011",
+          "groupId": "pephs2",
+          "unitNo": 3,
+          "sequenceNo": 11,
+          "section": "Using Language",
+          "title": "Healthy Eating",
+          "jsonPath": "pep-english/lessons/pephs2/011.json"
+        },
+        {
+          "id": "pephs2-012",
+          "groupId": "pephs2",
+          "unitNo": 4,
+          "sequenceNo": 12,
+          "section": "Reading and Thinking",
+          "title": "Seeing the True North via Rail: Vancouver and the Heart of Canada",
+          "jsonPath": "pep-english/lessons/pephs2/012.json"
+        },
+        {
+          "id": "pephs2-013",
+          "groupId": "pephs2",
+          "unitNo": 4,
+          "sequenceNo": 13,
+          "section": "Using Language",
+          "title": "Seeing the True North via Rail: Toronto and Montreal",
+          "jsonPath": "pep-english/lessons/pephs2/013.json"
+        },
+        {
+          "id": "pephs2-014",
+          "groupId": "pephs2",
+          "unitNo": 5,
+          "sequenceNo": 14,
+          "section": "Reading and Thinking",
+          "title": "First Aid for Burns",
+          "jsonPath": "pep-english/lessons/pephs2/014.json"
+        },
+        {
+          "id": "pephs2-015",
+          "groupId": "pephs2",
+          "unitNo": 1,
+          "sequenceNo": 15,
+          "section": "Reading and Writing",
+          "title": "AI and Human Beings",
+          "jsonPath": "pep-english/lessons/pephs2/015.json"
+        },
+        {
+          "id": "pephs2-016",
+          "groupId": "pephs2",
+          "unitNo": 1,
+          "sequenceNo": 16,
+          "section": "Expanding Your World",
+          "title": "Da Vinci’s World",
+          "jsonPath": "pep-english/lessons/pephs2/016.json"
+        },
+        {
+          "id": "pephs2-017",
+          "groupId": "pephs2",
+          "unitNo": 2,
+          "sequenceNo": 17,
+          "section": "Reading and Writing",
+          "title": "Life in China",
+          "jsonPath": "pep-english/lessons/pephs2/017.json"
+        },
+        {
+          "id": "pephs2-018",
+          "groupId": "pephs2",
+          "unitNo": 2,
+          "sequenceNo": 18,
+          "section": "Expanding Your World",
+          "title": "Zhan Tianyou: The Father of China’s Railroad",
+          "jsonPath": "pep-english/lessons/pephs2/018.json"
+        },
+        {
+          "id": "pephs2-019",
+          "groupId": "pephs2",
+          "unitNo": 3,
+          "sequenceNo": 19,
+          "section": "Reading and Writing",
+          "title": "Convenience Food or Fresh Food?",
+          "jsonPath": "pep-english/lessons/pephs2/019.json"
+        },
+        {
+          "id": "pephs2-020",
+          "groupId": "pephs2",
+          "unitNo": 3,
+          "sequenceNo": 20,
+          "section": "Expanding Your World",
+          "title": "Farm-to-Table",
+          "jsonPath": "pep-english/lessons/pephs2/020.json"
+        },
+        {
+          "id": "pephs2-021",
+          "groupId": "pephs2",
+          "unitNo": 4,
+          "sequenceNo": 21,
+          "section": "Reading and Writing",
+          "title": "Xu Xiake’s Guilin",
+          "jsonPath": "pep-english/lessons/pephs2/021.json"
+        },
+        {
+          "id": "pephs2-022",
+          "groupId": "pephs2",
+          "unitNo": 4,
+          "sequenceNo": 22,
+          "section": "Expanding Your World",
+          "title": "Journeys by Dog Sled",
+          "jsonPath": "pep-english/lessons/pephs2/022.json"
+        },
+        {
+          "id": "pephs2-023",
+          "groupId": "pephs2",
+          "unitNo": 5,
+          "sequenceNo": 23,
+          "section": "Reading and Writing",
+          "title": "Is Your Home Safe?",
+          "jsonPath": "pep-english/lessons/pephs2/023.json"
+        },
+        {
+          "id": "pephs2-024",
+          "groupId": "pephs2",
+          "unitNo": 5,
+          "sequenceNo": 24,
+          "section": "Expanding Your World",
+          "title": "How One Man Made a Difference",
+          "jsonPath": "pep-english/lessons/pephs2/024.json"
+        }
+      ]
+    },
+    {
+      "id": "pephs3",
+      "stage": "senior",
+      "stageTitle": "高中",
+      "bookOrder": 6,
+      "title": "选择性必修第三册",
+      "subtitle": "人教版高中英语",
+      "sourceStatus": "available",
+      "lessonCount": 35,
+      "lessons": [
+        {
+          "id": "pephs3-001",
+          "groupId": "pephs3",
+          "unitNo": 1,
+          "sequenceNo": 1,
+          "section": "Reading and Thinking",
+          "title": "A Short History of Western Painting",
+          "jsonPath": "pep-english/lessons/pephs3/001.json"
+        },
+        {
+          "id": "pephs3-002",
+          "groupId": "pephs3",
+          "unitNo": 1,
+          "sequenceNo": 2,
+          "section": "Using Language",
+          "title": "Ancient Chinese Art on Show",
+          "jsonPath": "pep-english/lessons/pephs3/002.json"
+        },
+        {
+          "id": "pephs3-003",
+          "groupId": "pephs3",
+          "unitNo": 2,
+          "sequenceNo": 3,
+          "section": "Reading and Thinking",
+          "title": "Habits for a Healthy Lifestyle",
+          "jsonPath": "pep-english/lessons/pephs3/003.json"
+        },
+        {
+          "id": "pephs3-004",
+          "groupId": "pephs3",
+          "unitNo": 2,
+          "sequenceNo": 4,
+          "section": "Using Language",
+          "title": "Changing My Lifestyle: Wang Lu’s Letter",
+          "jsonPath": "pep-english/lessons/pephs3/004.json"
+        },
+        {
+          "id": "pephs3-005",
+          "groupId": "pephs3",
+          "unitNo": 2,
+          "sequenceNo": 5,
+          "section": "Using Language",
+          "title": "Changing My Lifestyle: George Fielding’s Letter",
+          "jsonPath": "pep-english/lessons/pephs3/005.json"
+        },
+        {
+          "id": "pephs3-006",
+          "groupId": "pephs3",
+          "unitNo": 3,
+          "sequenceNo": 6,
+          "section": "Reading and Thinking",
+          "title": "Climate Change Requires the World’s Attention",
+          "jsonPath": "pep-english/lessons/pephs3/006.json"
+        },
+        {
+          "id": "pephs3-007",
+          "groupId": "pephs3",
+          "unitNo": 3,
+          "sequenceNo": 7,
+          "section": "Using Language",
+          "title": "Reducing Water Pollution in the Li River",
+          "jsonPath": "pep-english/lessons/pephs3/007.json"
+        },
+        {
+          "id": "pephs3-008",
+          "groupId": "pephs3",
+          "unitNo": 4,
+          "sequenceNo": 8,
+          "section": "Reading and Thinking",
+          "title": "A Successful Failure",
+          "jsonPath": "pep-english/lessons/pephs3/008.json"
+        },
+        {
+          "id": "pephs3-009",
+          "groupId": "pephs3",
+          "unitNo": 4,
+          "sequenceNo": 9,
+          "section": "Using Language",
+          "title": "The Reward for Perseverance",
+          "jsonPath": "pep-english/lessons/pephs3/009.json"
+        },
+        {
+          "id": "pephs3-010",
+          "groupId": "pephs3",
+          "unitNo": 5,
+          "sequenceNo": 10,
+          "section": "Reading and Thinking",
+          "title": "A Few Simple Forms of English Poems",
+          "jsonPath": "pep-english/lessons/pephs3/010.json"
+        },
+        {
+          "id": "pephs3-011",
+          "groupId": "pephs3",
+          "unitNo": 5,
+          "sequenceNo": 11,
+          "section": "Learning About Language",
+          "title": "Robert and Elizabeth Barrett Browning",
+          "jsonPath": "pep-english/lessons/pephs3/011.json"
+        },
+        {
+          "id": "pephs3-012",
+          "groupId": "pephs3",
+          "unitNo": 5,
+          "sequenceNo": 12,
+          "section": "Pronunciation",
+          "title": "The Arrow and the Song (H. W. Longfellow)",
+          "jsonPath": "pep-english/lessons/pephs3/012.json"
+        },
+        {
+          "id": "pephs3-013",
+          "groupId": "pephs3",
+          "unitNo": 5,
+          "sequenceNo": 13,
+          "section": "Pronunciation",
+          "title": "Night (William Blake)",
+          "jsonPath": "pep-english/lessons/pephs3/013.json"
+        },
+        {
+          "id": "pephs3-014",
+          "groupId": "pephs3",
+          "unitNo": 5,
+          "sequenceNo": 14,
+          "section": "Using Language",
+          "title": "Wind on the Hill (A. A. Milne)",
+          "jsonPath": "pep-english/lessons/pephs3/014.json"
+        },
+        {
+          "id": "pephs3-015",
+          "groupId": "pephs3",
+          "unitNo": 5,
+          "sequenceNo": 15,
+          "section": "Using Language",
+          "title": "Dream (Langston Hughes)",
+          "jsonPath": "pep-english/lessons/pephs3/015.json"
+        },
+        {
+          "id": "pephs3-016",
+          "groupId": "pephs3",
+          "unitNo": 5,
+          "sequenceNo": 16,
+          "section": "Using Language",
+          "title": "A Match (A. C. Swinburne)",
+          "jsonPath": "pep-english/lessons/pephs3/016.json"
+        },
+        {
+          "id": "pephs3-017",
+          "groupId": "pephs3",
+          "unitNo": 5,
+          "sequenceNo": 17,
+          "section": "Using Language",
+          "title": "Appreciating the Poem Dream",
+          "jsonPath": "pep-english/lessons/pephs3/017.json"
+        },
+        {
+          "id": "pephs3-018",
+          "groupId": "pephs3",
+          "unitNo": 5,
+          "sequenceNo": 18,
+          "section": "Assessing Your Progress",
+          "title": "What Is Free Verse?",
+          "jsonPath": "pep-english/lessons/pephs3/018.json"
+        },
+        {
+          "id": "pephs3-019",
+          "groupId": "pephs3",
+          "unitNo": 5,
+          "sequenceNo": 19,
+          "section": "Assessing Your Progress",
+          "title": "Who Was Langston Hughes?",
+          "jsonPath": "pep-english/lessons/pephs3/019.json"
+        },
+        {
+          "id": "pephs3-020",
+          "groupId": "pephs3",
+          "unitNo": 1,
+          "sequenceNo": 20,
+          "section": "Reading and Writing",
+          "title": "The Starry Night",
+          "jsonPath": "pep-english/lessons/pephs3/020.json"
+        },
+        {
+          "id": "pephs3-021",
+          "groupId": "pephs3",
+          "unitNo": 1,
+          "sequenceNo": 21,
+          "section": "Expanding Your World",
+          "title": "Michelangelo’s David",
+          "jsonPath": "pep-english/lessons/pephs3/021.json"
+        },
+        {
+          "id": "pephs3-022",
+          "groupId": "pephs3",
+          "unitNo": 2,
+          "sequenceNo": 22,
+          "section": "Using Structures",
+          "title": "Planning a Balanced Diet",
+          "jsonPath": "pep-english/lessons/pephs3/022.json"
+        },
+        {
+          "id": "pephs3-023",
+          "groupId": "pephs3",
+          "unitNo": 2,
+          "sequenceNo": 23,
+          "section": "Reading and Writing",
+          "title": "My Experiences with Computer Games",
+          "jsonPath": "pep-english/lessons/pephs3/023.json"
+        },
+        {
+          "id": "pephs3-024",
+          "groupId": "pephs3",
+          "unitNo": 2,
+          "sequenceNo": 24,
+          "section": "Expanding Your World",
+          "title": "The Experiment (adapted from Little Women by Louisa May Alcott)",
+          "jsonPath": "pep-english/lessons/pephs3/024.json"
+        },
+        {
+          "id": "pephs3-025",
+          "groupId": "pephs3",
+          "unitNo": 3,
+          "sequenceNo": 25,
+          "section": "Reading and Writing",
+          "title": "Small Waste, Big Problem",
+          "jsonPath": "pep-english/lessons/pephs3/025.json"
+        },
+        {
+          "id": "pephs3-026",
+          "groupId": "pephs3",
+          "unitNo": 3,
+          "sequenceNo": 26,
+          "section": "Expanding Your World",
+          "title": "A Clean, Green Energy Future",
+          "jsonPath": "pep-english/lessons/pephs3/026.json"
+        },
+        {
+          "id": "pephs3-027",
+          "groupId": "pephs3",
+          "unitNo": 4,
+          "sequenceNo": 27,
+          "section": "Reading and Writing",
+          "title": "Fan Zhongyan",
+          "jsonPath": "pep-english/lessons/pephs3/027.json"
+        },
+        {
+          "id": "pephs3-028",
+          "groupId": "pephs3",
+          "unitNo": 4,
+          "sequenceNo": 28,
+          "section": "Expanding Your World",
+          "title": "An Excerpt from The Old Man and the Sea (adapted from Ernest Hemingway)",
+          "jsonPath": "pep-english/lessons/pephs3/028.json"
+        },
+        {
+          "id": "pephs3-029",
+          "groupId": "pephs3",
+          "unitNo": 5,
+          "sequenceNo": 29,
+          "section": "Listening and Speaking",
+          "title": "Auld Lang Syne (excerpt by Robert Burns)",
+          "jsonPath": "pep-english/lessons/pephs3/029.json"
+        },
+        {
+          "id": "pephs3-030",
+          "groupId": "pephs3",
+          "unitNo": 5,
+          "sequenceNo": 30,
+          "section": "Reading and Writing",
+          "title": "Exploring Poetry in China",
+          "jsonPath": "pep-english/lessons/pephs3/030.json"
+        },
+        {
+          "id": "pephs3-031",
+          "groupId": "pephs3",
+          "unitNo": 5,
+          "sequenceNo": 31,
+          "section": "Expanding Your World",
+          "title": "Spring Morning (Meng Haoran; translated by Xu Yuanchong)",
+          "jsonPath": "pep-english/lessons/pephs3/031.json"
+        },
+        {
+          "id": "pephs3-032",
+          "groupId": "pephs3",
+          "unitNo": 5,
+          "sequenceNo": 32,
+          "section": "Expanding Your World",
+          "title": "On the Stork Tower (Wang Zhihuan; translated by Xu Yuanchong)",
+          "jsonPath": "pep-english/lessons/pephs3/032.json"
+        },
+        {
+          "id": "pephs3-033",
+          "groupId": "pephs3",
+          "unitNo": 5,
+          "sequenceNo": 33,
+          "section": "Expanding Your World",
+          "title": "The Road Not Taken (Robert Frost)",
+          "jsonPath": "pep-english/lessons/pephs3/033.json"
+        },
+        {
+          "id": "pephs3-034",
+          "groupId": "pephs3",
+          "unitNo": 5,
+          "sequenceNo": 34,
+          "section": "Expanding Your World",
+          "title": "The Gift (Tagore)",
+          "jsonPath": "pep-english/lessons/pephs3/034.json"
+        },
+        {
+          "id": "pephs3-035",
+          "groupId": "pephs3",
+          "unitNo": 5,
+          "sequenceNo": 35,
+          "section": "Expanding Your World",
+          "title": "On Children (Kahlil Gibran)",
+          "jsonPath": "pep-english/lessons/pephs3/035.json"
+        }
+      ]
+    },
+    {
+      "id": "pephs4",
+      "stage": "senior",
+      "stageTitle": "高中",
+      "bookOrder": 7,
+      "title": "选择性必修第四册",
+      "subtitle": "人教版高中英语",
+      "sourceStatus": "available",
+      "lessonCount": 45,
+      "lessons": [
+        {
+          "id": "pephs4-001",
+          "groupId": "pephs4",
+          "unitNo": 1,
+          "sequenceNo": 1,
+          "section": "Reading and Thinking",
+          "title": "Satisfaction Guaranteed (Adapted from Isaac Asimov)",
+          "jsonPath": "pep-english/lessons/pephs4/001.json"
+        },
+        {
+          "id": "pephs4-002",
+          "groupId": "pephs4",
+          "unitNo": 1,
+          "sequenceNo": 2,
+          "section": "Using Language",
+          "title": "The Time Machine (Adapted from H. G. Wells)",
+          "jsonPath": "pep-english/lessons/pephs4/002.json"
+        },
+        {
+          "id": "pephs4-003",
+          "groupId": "pephs4",
+          "unitNo": 2,
+          "sequenceNo": 3,
+          "section": "Reading and Thinking",
+          "title": "Experience the Iconic Features of Australia",
+          "jsonPath": "pep-english/lessons/pephs4/003.json"
+        },
+        {
+          "id": "pephs4-004",
+          "groupId": "pephs4",
+          "unitNo": 2,
+          "sequenceNo": 4,
+          "section": "Using Language",
+          "title": "The Amazing Animals of Australia",
+          "jsonPath": "pep-english/lessons/pephs4/004.json"
+        },
+        {
+          "id": "pephs4-005",
+          "groupId": "pephs4",
+          "unitNo": 2,
+          "sequenceNo": 5,
+          "section": "Project",
+          "title": "Dujiangyan",
+          "jsonPath": "pep-english/lessons/pephs4/005.json"
+        },
+        {
+          "id": "pephs4-006",
+          "groupId": "pephs4",
+          "unitNo": 3,
+          "sequenceNo": 6,
+          "section": "Reading and Thinking",
+          "title": "Reaching Out Across the Sea",
+          "jsonPath": "pep-english/lessons/pephs4/006.json"
+        },
+        {
+          "id": "pephs4-007",
+          "groupId": "pephs4",
+          "unitNo": 3,
+          "sequenceNo": 7,
+          "section": "Using Language",
+          "title": "The Case Against More Sea Exploration",
+          "jsonPath": "pep-english/lessons/pephs4/007.json"
+        },
+        {
+          "id": "pephs4-008",
+          "groupId": "pephs4",
+          "unitNo": 3,
+          "sequenceNo": 8,
+          "section": "Using Language",
+          "title": "The Case for Sea Exploration",
+          "jsonPath": "pep-english/lessons/pephs4/008.json"
+        },
+        {
+          "id": "pephs4-009",
+          "groupId": "pephs4",
+          "unitNo": 3,
+          "sequenceNo": 9,
+          "section": "Project",
+          "title": "World Oceans Day",
+          "jsonPath": "pep-english/lessons/pephs4/009.json"
+        },
+        {
+          "id": "pephs4-010",
+          "groupId": "pephs4",
+          "unitNo": 4,
+          "sequenceNo": 10,
+          "section": "Reading and Thinking",
+          "title": "Volunteering in the Bush",
+          "jsonPath": "pep-english/lessons/pephs4/010.json"
+        },
+        {
+          "id": "pephs4-011",
+          "groupId": "pephs4",
+          "unitNo": 4,
+          "sequenceNo": 11,
+          "section": "Pronunciation",
+          "title": "Volunteering at an Animal Shelter",
+          "jsonPath": "pep-english/lessons/pephs4/011.json"
+        },
+        {
+          "id": "pephs4-012",
+          "groupId": "pephs4",
+          "unitNo": 4,
+          "sequenceNo": 12,
+          "section": "Using Language",
+          "title": "Is China’s Aid to Other Countries Worth It?",
+          "jsonPath": "pep-english/lessons/pephs4/012.json"
+        },
+        {
+          "id": "pephs4-013",
+          "groupId": "pephs4",
+          "unitNo": 4,
+          "sequenceNo": 13,
+          "section": "Project",
+          "title": "People’s Shoes",
+          "jsonPath": "pep-english/lessons/pephs4/013.json"
+        },
+        {
+          "id": "pephs4-014",
+          "groupId": "pephs4",
+          "unitNo": 4,
+          "sequenceNo": 14,
+          "section": "Project",
+          "title": "China Exchange",
+          "jsonPath": "pep-english/lessons/pephs4/014.json"
+        },
+        {
+          "id": "pephs4-015",
+          "groupId": "pephs4",
+          "unitNo": 5,
+          "sequenceNo": 15,
+          "section": "Reading and Thinking",
+          "title": "Working Out What You Want to Do",
+          "jsonPath": "pep-english/lessons/pephs4/015.json"
+        },
+        {
+          "id": "pephs4-016",
+          "groupId": "pephs4",
+          "unitNo": 5,
+          "sequenceNo": 16,
+          "section": "Reading",
+          "title": "Build up your vocabulary",
+          "jsonPath": "pep-english/lessons/pephs4/016.json"
+        },
+        {
+          "id": "pephs4-017",
+          "groupId": "pephs4",
+          "unitNo": 5,
+          "sequenceNo": 17,
+          "section": "Using Language",
+          "title": "Summer Camp Helpers Wanted!",
+          "jsonPath": "pep-english/lessons/pephs4/017.json"
+        },
+        {
+          "id": "pephs4-018",
+          "groupId": "pephs4",
+          "unitNo": 5,
+          "sequenceNo": 18,
+          "section": "Using Language",
+          "title": "Kelly Xu’s Cover Letter",
+          "jsonPath": "pep-english/lessons/pephs4/018.json"
+        },
+        {
+          "id": "pephs4-019",
+          "groupId": "pephs4",
+          "unitNo": 5,
+          "sequenceNo": 19,
+          "section": "Using Language",
+          "title": "Kelly Xu’s CV",
+          "jsonPath": "pep-english/lessons/pephs4/019.json"
+        },
+        {
+          "id": "pephs4-020",
+          "groupId": "pephs4",
+          "unitNo": 5,
+          "sequenceNo": 20,
+          "section": "Assessing Your Progress",
+          "title": "Make High School Count!",
+          "jsonPath": "pep-english/lessons/pephs4/020.json"
+        },
+        {
+          "id": "pephs4-021",
+          "groupId": "pephs4",
+          "unitNo": 1,
+          "sequenceNo": 21,
+          "section": "Reading",
+          "title": "Using Words and Expressions",
+          "jsonPath": "pep-english/lessons/pephs4/021.json"
+        },
+        {
+          "id": "pephs4-022",
+          "groupId": "pephs4",
+          "unitNo": 1,
+          "sequenceNo": 22,
+          "section": "Reading, Listening, and Acting",
+          "title": "Previously on The Evos",
+          "jsonPath": "pep-english/lessons/pephs4/022.json"
+        },
+        {
+          "id": "pephs4-023",
+          "groupId": "pephs4",
+          "unitNo": 1,
+          "sequenceNo": 23,
+          "section": "Reading and Writing",
+          "title": "Journey to the Centre of the Earth",
+          "jsonPath": "pep-english/lessons/pephs4/023.json"
+        },
+        {
+          "id": "pephs4-024",
+          "groupId": "pephs4",
+          "unitNo": 1,
+          "sequenceNo": 24,
+          "section": "Expanding Your World",
+          "title": "Science Fiction or Science Fact?",
+          "jsonPath": "pep-english/lessons/pephs4/024.json"
+        },
+        {
+          "id": "pephs4-025",
+          "groupId": "pephs4",
+          "unitNo": 1,
+          "sequenceNo": 25,
+          "section": "Reading",
+          "title": "In the film, such a \"wormhole\" mysteriously appears near",
+          "jsonPath": "pep-english/lessons/pephs4/025.json"
+        },
+        {
+          "id": "pephs4-026",
+          "groupId": "pephs4",
+          "unitNo": 2,
+          "sequenceNo": 26,
+          "section": "Reading",
+          "title": "Using Structures",
+          "jsonPath": "pep-english/lessons/pephs4/026.json"
+        },
+        {
+          "id": "pephs4-027",
+          "groupId": "pephs4",
+          "unitNo": 2,
+          "sequenceNo": 27,
+          "section": "Reading and Writing",
+          "title": "What’s Cooking in Australia?",
+          "jsonPath": "pep-english/lessons/pephs4/027.json"
+        },
+        {
+          "id": "pephs4-028",
+          "groupId": "pephs4",
+          "unitNo": 2,
+          "sequenceNo": 28,
+          "section": "Reading and Writing",
+          "title": "Pavlova",
+          "jsonPath": "pep-english/lessons/pephs4/028.json"
+        },
+        {
+          "id": "pephs4-029",
+          "groupId": "pephs4",
+          "unitNo": 2,
+          "sequenceNo": 29,
+          "section": "Reading",
+          "title": "outside. Casual friendliness is the key to such meals. It is a",
+          "jsonPath": "pep-english/lessons/pephs4/029.json"
+        },
+        {
+          "id": "pephs4-030",
+          "groupId": "pephs4",
+          "unitNo": 2,
+          "sequenceNo": 30,
+          "section": "Expanding Your World",
+          "title": "The Kiwi",
+          "jsonPath": "pep-english/lessons/pephs4/030.json"
+        },
+        {
+          "id": "pephs4-031",
+          "groupId": "pephs4",
+          "unitNo": 2,
+          "sequenceNo": 31,
+          "section": "Expanding Your World",
+          "title": "The Thorn Birds (Adapted)",
+          "jsonPath": "pep-english/lessons/pephs4/031.json"
+        },
+        {
+          "id": "pephs4-032",
+          "groupId": "pephs4",
+          "unitNo": 3,
+          "sequenceNo": 32,
+          "section": "Reading",
+          "title": "Using Structures 3 Complete the news report below",
+          "jsonPath": "pep-english/lessons/pephs4/032.json"
+        },
+        {
+          "id": "pephs4-033",
+          "groupId": "pephs4",
+          "unitNo": 3,
+          "sequenceNo": 33,
+          "section": "Listening and Speaking",
+          "title": "Man Lucky to Be Alive After Shallow-Water Shark Attack",
+          "jsonPath": "pep-english/lessons/pephs4/033.json"
+        },
+        {
+          "id": "pephs4-034",
+          "groupId": "pephs4",
+          "unitNo": 3,
+          "sequenceNo": 34,
+          "section": "Listening and Speaking",
+          "title": "Sherry Wilson’s Shark Attack",
+          "jsonPath": "pep-english/lessons/pephs4/034.json"
+        },
+        {
+          "id": "pephs4-035",
+          "groupId": "pephs4",
+          "unitNo": 3,
+          "sequenceNo": 35,
+          "section": "Listening and Speaking",
+          "title": "Two-Metre Shark Attack While Snorkelling",
+          "jsonPath": "pep-english/lessons/pephs4/035.json"
+        },
+        {
+          "id": "pephs4-036",
+          "groupId": "pephs4",
+          "unitNo": 3,
+          "sequenceNo": 36,
+          "section": "Reading and Writing",
+          "title": "A Sea of Plastic",
+          "jsonPath": "pep-english/lessons/pephs4/036.json"
+        },
+        {
+          "id": "pephs4-037",
+          "groupId": "pephs4",
+          "unitNo": 3,
+          "sequenceNo": 37,
+          "section": "Expanding Your World",
+          "title": "Sea Fever",
+          "jsonPath": "pep-english/lessons/pephs4/037.json"
+        },
+        {
+          "id": "pephs4-038",
+          "groupId": "pephs4",
+          "unitNo": 3,
+          "sequenceNo": 38,
+          "section": "Expanding Your World",
+          "title": "On the Seashore",
+          "jsonPath": "pep-english/lessons/pephs4/038.json"
+        },
+        {
+          "id": "pephs4-039",
+          "groupId": "pephs4",
+          "unitNo": 4,
+          "sequenceNo": 39,
+          "section": "Using Structures",
+          "title": "As I Grew Older",
+          "jsonPath": "pep-english/lessons/pephs4/039.json"
+        },
+        {
+          "id": "pephs4-040",
+          "groupId": "pephs4",
+          "unitNo": 4,
+          "sequenceNo": 40,
+          "section": "Reading and Writing",
+          "title": "The World’s Most Useful Gifts",
+          "jsonPath": "pep-english/lessons/pephs4/040.json"
+        },
+        {
+          "id": "pephs4-041",
+          "groupId": "pephs4",
+          "unitNo": 4,
+          "sequenceNo": 41,
+          "section": "Expanding Your World",
+          "title": "For the Children (Adapted)",
+          "jsonPath": "pep-english/lessons/pephs4/041.json"
+        },
+        {
+          "id": "pephs4-042",
+          "groupId": "pephs4",
+          "unitNo": 4,
+          "sequenceNo": 42,
+          "section": "Reading",
+          "title": "in over 100 developing nations, UNICEF is brought up against the face of today's international",
+          "jsonPath": "pep-english/lessons/pephs4/042.json"
+        },
+        {
+          "id": "pephs4-043",
+          "groupId": "pephs4",
+          "unitNo": 5,
+          "sequenceNo": 43,
+          "section": "Using Structures",
+          "title": "Being a Reporter",
+          "jsonPath": "pep-english/lessons/pephs4/043.json"
+        },
+        {
+          "id": "pephs4-044",
+          "groupId": "pephs4",
+          "unitNo": 5,
+          "sequenceNo": 44,
+          "section": "Reading and Writing",
+          "title": "Does Practice Really Make Perfect?",
+          "jsonPath": "pep-english/lessons/pephs4/044.json"
+        },
+        {
+          "id": "pephs4-045",
+          "groupId": "pephs4",
+          "unitNo": 5,
+          "sequenceNo": 45,
+          "section": "Expanding Your World",
+          "title": "The Summer Break That Could Change Your Life",
+          "jsonPath": "pep-english/lessons/pephs4/045.json"
+        }
+      ]
+    }
+  ]
+}

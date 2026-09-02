@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "id": "pephs4-023",
+  "groupId": "pephs4",
+  "unitNo": 1,
+  "sequenceNo": 23,
+  "section": "Reading and Writing",
+  "title": "Journey to the Centre of the Earth",
+  "jsonPath": "pep-english/lessons/pephs4/023.json",
+  "text": "At first I could hardly see anything. After so long descending deep into the earth through dark, narrow caves, my eyes were not used to the light. But when I could focus again, I stood amazed.\n“It’s a … sea!” I cried.\n“Yes,” my uncle replied, “and I shall give it my name, as it was discovered by me!”\nA vast lake or even an ocean, spread far beyond where the eye could see. The shore was lined with shining sand, and was being softly lapped by waves. It was covered with small shells which were once inhabited by the first living beings. Around this sea stood a huge rock wall that was being worn away by the endless action of the waves.\nI could see far over this great sea because it was being lit up by a strange light. Not sunlight, of course, as we were deep below the surface. No; with its bright, clear whiteness, the light must have been electric. Under the “sky”, if it could be called so, being made of rock, were also vast clouds. They were being illuminated by this light, but the light gave no heat, so the place felt rather gloomy. Here we were, shut up inside a cave of a size that could not be estimated. It must have been several miles high.\nHuman words cannot describe the discoveries of those who have been deep into the earth. My imagination was powerless before such wonders. I felt like I was on some distant planet, and was both amazed and rather scared. However, I was energised by the breezy salty air supplying more oxygen to my lungs. After many days in much narrower spaces, it was a great relief.\n“Ready to walk a little now?” asked my uncle.\n“Yes, certainly.”\n“Well, let us follow the shore then,” he said, and we began to explore.\nSoon in front of us appeared a tall, dense forest, composed of trees formed like umbrellas. “Mushrooms!” said my uncle. And he was right! There were mushrooms in their thousands, and each at least thirty feet high.\n“Wonderful!” cried my uncle. “A botanist never had such a feast as this! Now look under your feet.”\n“Oh yes!” I exclaimed.\nI hadn’t noticed the many bones, which were being crushed under our feet as we walked. Suddenly I thought, if once these monsters lived here, might some still roam through these gloomy forests? I anxiously surveyed the landscape, but we were the only living creatures in this subterranean world. Thankfully!\nEventually we returned to the cave we had entered from, and I fell asleep with strange thoughts. Where did this underground sea end? Where did it lead to?",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "At first I could hardly see anything. After so long descending deep into the earth through dark, narrow caves, my eyes were not used to the light. But when I could focus again, I stood amazed."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "“It’s a … sea!” I cried.\n“Yes,” my uncle replied, “and I shall give it my name, as it was discovered by me!”"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "A vast lake or even an ocean, spread far beyond where the eye could see. The shore was lined with shining sand, and was being softly lapped by waves. It was covered with small shells which were once inhabited by the first living beings. Around this sea stood a huge rock wall that was being worn away by the endless action of the waves."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "I could see far over this great sea because it was being lit up by a strange light. Not sunlight, of course, as we were deep below the surface. No; with its bright, clear whiteness, the light must have been electric. Under the “sky”, if it could be called so, being made of rock, were also vast clouds. They were being illuminated by this light, but the light gave no heat, so the place felt rather gloomy. Here we were, shut up inside a cave of a size that could not be estimated. It must have been several miles high."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Human words cannot describe the discoveries of those who have been deep into the earth. My imagination was powerless before such wonders. I felt like I was on some distant planet, and was both amazed and rather scared. However, I was energised by the breezy salty air supplying more oxygen to my lungs. After many days in much narrower spaces, it was a great relief."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "“Ready to walk a little now?” asked my uncle.\n“Yes, certainly.”\n“Well, let us follow the shore then,” he said, and we began to explore."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Soon in front of us appeared a tall, dense forest, composed of trees formed like umbrellas. “Mushrooms!” said my uncle. And he was right! There were mushrooms in their thousands, and each at least thirty feet high."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "“Wonderful!” cried my uncle. “A botanist never had such a feast as this! Now look under your feet.”\n“Oh yes!” I exclaimed."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "I hadn’t noticed the many bones, which were being crushed under our feet as we walked. Suddenly I thought, if once these monsters lived here, might some still roam through these gloomy forests? I anxiously surveyed the landscape, but we were the only living creatures in this subterranean world. Thankfully!"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Eventually we returned to the cave we had entered from, and I fell asleep with strange thoughts. Where did this underground sea end? Where did it lead to?"
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "选择性必修第四册",
+    "pageStart": 71,
+    "pageEnd": 72,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "6fc94127b322f6f5abff068bef6faa2e",
+    "pdfSize": 12330614,
+    "manualReview": {
+      "method": "visual-line-by-line-and-cross-page-order",
+      "source": "content/pep-english/raw/senior-selective-4.pdf#page=71-72",
+      "reviewedAt": "2026-07-22",
+      "notes": "Retained the complete adapted extract in printed narrative and dialogue order; excluded pre-reading questions and all follow-up tasks."
+    }
+  }
+}

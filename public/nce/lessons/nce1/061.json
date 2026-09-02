@@ -1,0 +1,200 @@
+{
+  "schemaVersion": 1,
+  "id": "nce1-061",
+  "bookId": "nce1",
+  "bookNo": 1,
+  "lessonNo": 61,
+  "lessonRange": [
+    61,
+    62
+  ],
+  "title": "A Bad Cold",
+  "titleZh": "重感冒",
+  "question": "What is good news for Jimmy?",
+  "questionZh": "对吉米来说，有什么好消息？",
+  "text": "What is good news for Jimmy?\n\nWhere's Jimmy?\nHe's in bed.\nWhat's the matter with him?\nHe feels ill.\nHe looks ill.\nWe must call the doctor.\nYes, we must.\nCan you remember the doctor's telephone number?\nYes. It's 09754.\nOpen your mouth, Jimmy.\nShow me your tongue. Say, 'Ah'.\nWhat's the matter with him, doctor?\nHe has a bad cold, Mr. Williams, so he must stay in bed for a week.\nThat's good news for Jimmy.\nGood news? Why?\nBecause he doesn't like school!",
+  "bodyText": "Where's Jimmy?\nHe's in bed.\nWhat's the matter with him?\nHe feels ill.\nHe looks ill.\nWe must call the doctor.\nYes, we must.\nCan you remember the doctor's telephone number?\nYes. It's 09754.\nOpen your mouth, Jimmy.\nShow me your tongue. Say, 'Ah'.\nWhat's the matter with him, doctor?\nHe has a bad cold, Mr. Williams, so he must stay in bed for a week.\nThat's good news for Jimmy.\nGood news? Why?\nBecause he doesn't like school!",
+  "bodyTextZh": "吉米在哪里？\n他在床上。\n他怎么了？\n他感觉不舒服。\n他看起来也很不舒服。\n我们必须叫医生来。\n是的，我们必须这么做。\n你能记住医生的电话号码吗？\n是的，号码是 09754。\n张开你的嘴，吉米。\n把你的舌头伸出来，然后说“Ah”。\n医生，他到底怎么了？\n他得了重感冒，威廉姆斯先生，所以他必须卧床一周。\n这对吉米来说是个好消息。\n好消息？为什么？\n因为他不喜欢上学！",
+  "sentences": [
+    {
+      "index": 0,
+      "startTime": 0.6,
+      "endTime": 3.06,
+      "en": "Lesson 61",
+      "zh": "第61课",
+      "role": "lesson"
+    },
+    {
+      "index": 1,
+      "startTime": 3.06,
+      "endTime": 5.92,
+      "en": "A bad cold",
+      "zh": "重感冒",
+      "role": "title"
+    },
+    {
+      "index": 2,
+      "startTime": 5.92,
+      "endTime": 11.15,
+      "en": "Listen to the tape then answer this question.",
+      "zh": "请听录音，然后回答以下问题：",
+      "role": "prompt"
+    },
+    {
+      "index": 3,
+      "startTime": 11.15,
+      "endTime": 16.55,
+      "en": "What is good news for Jimmy?",
+      "zh": "对吉米来说，有什么好消息？",
+      "role": "question"
+    },
+    {
+      "index": 4,
+      "startTime": 16.55,
+      "endTime": 18.36,
+      "en": "Where's Jimmy?",
+      "zh": "吉米在哪里？",
+      "role": "body"
+    },
+    {
+      "index": 5,
+      "startTime": 18.36,
+      "endTime": 20.69,
+      "en": "He's in bed.",
+      "zh": "他在床上。",
+      "role": "body"
+    },
+    {
+      "index": 6,
+      "startTime": 20.69,
+      "endTime": 23.14,
+      "en": "What's the matter with him?",
+      "zh": "他怎么了？",
+      "role": "body"
+    },
+    {
+      "index": 7,
+      "startTime": 23.14,
+      "endTime": 25.84,
+      "en": "He feels ill.",
+      "zh": "他感觉不舒服。",
+      "role": "body"
+    },
+    {
+      "index": 8,
+      "startTime": 25.84,
+      "endTime": 27.86,
+      "en": "He looks ill.",
+      "zh": "他看起来也很不舒服。",
+      "role": "body"
+    },
+    {
+      "index": 9,
+      "startTime": 27.86,
+      "endTime": 31.05,
+      "en": "We must call the doctor.",
+      "zh": "我们必须叫医生来。",
+      "role": "body"
+    },
+    {
+      "index": 10,
+      "startTime": 31.05,
+      "endTime": 34.12,
+      "en": "Yes, we must.",
+      "zh": "是的，我们必须这么做。",
+      "role": "body"
+    },
+    {
+      "index": 11,
+      "startTime": 34.12,
+      "endTime": 38.75,
+      "en": "Can you remember the doctor's telephone number?",
+      "zh": "你能记住医生的电话号码吗？",
+      "role": "body"
+    },
+    {
+      "index": 12,
+      "startTime": 38.75,
+      "endTime": 45.78,
+      "en": "Yes. It's 09754.",
+      "zh": "是的，号码是 09754。",
+      "role": "body"
+    },
+    {
+      "index": 13,
+      "startTime": 45.78,
+      "endTime": 48.37,
+      "en": "Open your mouth, Jimmy.",
+      "zh": "张开你的嘴，吉米。",
+      "role": "body"
+    },
+    {
+      "index": 14,
+      "startTime": 48.37,
+      "endTime": 53.63,
+      "en": "Show me your tongue. Say, 'Ah'.",
+      "zh": "把你的舌头伸出来，然后说“Ah”。",
+      "role": "body"
+    },
+    {
+      "index": 15,
+      "startTime": 53.63,
+      "endTime": 57.22,
+      "en": "What's the matter with him, doctor?",
+      "zh": "医生，他到底怎么了？",
+      "role": "body"
+    },
+    {
+      "index": 16,
+      "startTime": 57.22,
+      "endTime": 65.81,
+      "en": "He has a bad cold, Mr. Williams, so he must stay in bed for a week.",
+      "zh": "他得了重感冒，威廉姆斯先生，所以他必须卧床一周。",
+      "role": "body"
+    },
+    {
+      "index": 17,
+      "startTime": 65.81,
+      "endTime": 69.35,
+      "en": "That's good news for Jimmy.",
+      "zh": "这对吉米来说是个好消息。",
+      "role": "body"
+    },
+    {
+      "index": 18,
+      "startTime": 69.35,
+      "endTime": 72.36,
+      "en": "Good news? Why?",
+      "zh": "好消息？为什么？",
+      "role": "body"
+    },
+    {
+      "index": 19,
+      "startTime": 72.36,
+      "endTime": null,
+      "en": "Because he doesn't like school!",
+      "zh": "因为他不喜欢上学！",
+      "role": "body"
+    }
+  ],
+  "audio": {
+    "fileName": "061&062－A Bad Cold.mp3",
+    "sourcePath": "content/NCE-Flow/NCE1/061&062－A Bad Cold.mp3",
+    "exists": true
+  },
+  "source": {
+    "repository": "NCE-Flow",
+    "lrcFileName": "061&062－A Bad Cold.lrc",
+    "lrcPath": "content/NCE-Flow/NCE1/061&062－A Bad Cold.lrc",
+    "sourceDataFile": "content/NCE-Flow/static/data.json",
+    "generatedAt": "2026-07-23T02:59:02+00:00",
+    "generator": "scripts/generate_nce_json.py",
+    "generatorVersion": "2.0.0",
+    "metadata": {
+      "al": "新概念英语（一）",
+      "ar": "MP3 同步字幕版（美音）",
+      "ti": "A Bad Cold",
+      "by": "更多学习内容，请到VeryCD.com搜索“露珠”"
+    }
+  }
+}

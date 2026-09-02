@@ -1,0 +1,240 @@
+{
+  "schemaVersion": 1,
+  "id": "nce1-127",
+  "bookId": "nce1",
+  "bookNo": 1,
+  "lessonNo": 127,
+  "lessonRange": [
+    127,
+    128
+  ],
+  "title": "A Famous Actress",
+  "titleZh": "一位著名的女演员",
+  "question": "Who is only twenty-nine, and why is it so unclear?",
+  "questionZh": "谁的年龄只有29岁？为什么这一点如此难以确定呢？",
+  "text": "Who is only twenty-nine, and why is it so unclear?\n\nCan you recognize that woman, Liz?\nI think I can, Kate.\nIt must be Karen Marsh, the actress.\nI thought so.\nWho's that beside her?\nThat must be Conrad Reeves.\nConrad Reeves, the actor?\nIt can't be.\nLet me have another look.\nI think you're right!\nIsn't he her third husband?\nNo.\nHe must be her fourth or fifth.\nDoesn't Karen Marsh look old!\nShe does, doesn't she!\nI read she's twenty-nine, but she must be at least forty.\nI'm sure she is.\nShe was a famous actress when I was still at school.\nThat was a long time ago, wasn't it?\nNot that long ago!\nI'm not more than twenty-nine myself.",
+  "bodyText": "Can you recognize that woman, Liz?\nI think I can, Kate.\nIt must be Karen Marsh, the actress.\nI thought so.\nWho's that beside her?\nThat must be Conrad Reeves.\nConrad Reeves, the actor?\nIt can't be.\nLet me have another look.\nI think you're right!\nIsn't he her third husband?\nNo.\nHe must be her fourth or fifth.\nDoesn't Karen Marsh look old!\nShe does, doesn't she!\nI read she's twenty-nine, but she must be at least forty.\nI'm sure she is.\nShe was a famous actress when I was still at school.\nThat was a long time ago, wasn't it?\nNot that long ago!\nI'm not more than twenty-nine myself.",
+  "bodyTextZh": "你能认出那个女人吗，莉兹？\n我想我能认出来，凯特。\n那一定是凯伦·马什，那位女演员。\n我也这么认为。\n她旁边的是谁？\n那一定是康拉德·里夫斯。\n康拉德·里夫斯，那位演员？\n不可能是他。\n让我再看看。\n我觉得你是对的！\n他不是她的第三任丈夫吗？\n不是。\n他一定是她的第四或第五任丈夫。\n凯伦·马什看起来真老啊！\n是啊，她看起来是挺老的。\n我记得她才29岁，但实际上她至少有40岁了。\n我肯定她有。\n我还在上学的时候，她就已经是著名演员了。\n那已经是很久以前的事了，对吧？\n没那么久吧！\n我自己也才29岁。",
+  "sentences": [
+    {
+      "index": 0,
+      "startTime": 0.67,
+      "endTime": 3.53,
+      "en": "Lesson 127",
+      "zh": "第127课",
+      "role": "lesson"
+    },
+    {
+      "index": 1,
+      "startTime": 3.53,
+      "endTime": 6.54,
+      "en": "A famous actress",
+      "zh": "一位著名的女演员",
+      "role": "title"
+    },
+    {
+      "index": 2,
+      "startTime": 6.54,
+      "endTime": 12.14,
+      "en": "Listen to the tape then answer this question.",
+      "zh": "请听这段录音，然后回答这个问题：",
+      "role": "prompt"
+    },
+    {
+      "index": 3,
+      "startTime": 12.14,
+      "endTime": 20.6,
+      "en": "Who is only twenty-nine, and why is it so unclear?",
+      "zh": "谁的年龄只有29岁？为什么这一点如此难以确定呢？",
+      "role": "question"
+    },
+    {
+      "index": 4,
+      "startTime": 20.6,
+      "endTime": 25.13,
+      "en": "Can you recognize that woman, Liz?",
+      "zh": "你能认出那个女人吗，莉兹？",
+      "role": "body"
+    },
+    {
+      "index": 5,
+      "startTime": 25.13,
+      "endTime": 28.27,
+      "en": "I think I can, Kate.",
+      "zh": "我想我能认出来，凯特。",
+      "role": "body"
+    },
+    {
+      "index": 6,
+      "startTime": 28.27,
+      "endTime": 33.29,
+      "en": "It must be Karen Marsh, the actress.",
+      "zh": "那一定是凯伦·马什，那位女演员。",
+      "role": "body"
+    },
+    {
+      "index": 7,
+      "startTime": 33.29,
+      "endTime": 35.36,
+      "en": "I thought so.",
+      "zh": "我也这么认为。",
+      "role": "body"
+    },
+    {
+      "index": 8,
+      "startTime": 35.36,
+      "endTime": 38.3,
+      "en": "Who's that beside her?",
+      "zh": "她旁边的是谁？",
+      "role": "body"
+    },
+    {
+      "index": 9,
+      "startTime": 38.3,
+      "endTime": 42.79,
+      "en": "That must be Conrad Reeves.",
+      "zh": "那一定是康拉德·里夫斯。",
+      "role": "body"
+    },
+    {
+      "index": 10,
+      "startTime": 42.79,
+      "endTime": 45.91,
+      "en": "Conrad Reeves, the actor?",
+      "zh": "康拉德·里夫斯，那位演员？",
+      "role": "body"
+    },
+    {
+      "index": 11,
+      "startTime": 45.91,
+      "endTime": 47.84,
+      "en": "It can't be.",
+      "zh": "不可能是他。",
+      "role": "body"
+    },
+    {
+      "index": 12,
+      "startTime": 47.84,
+      "endTime": 51.49,
+      "en": "Let me have another look.",
+      "zh": "让我再看看。",
+      "role": "body"
+    },
+    {
+      "index": 13,
+      "startTime": 51.49,
+      "endTime": 53.62,
+      "en": "I think you're right!",
+      "zh": "我觉得你是对的！",
+      "role": "body"
+    },
+    {
+      "index": 14,
+      "startTime": 53.62,
+      "endTime": 57.46,
+      "en": "Isn't he her third husband?",
+      "zh": "他不是她的第三任丈夫吗？",
+      "role": "body"
+    },
+    {
+      "index": 15,
+      "startTime": 57.46,
+      "endTime": 58.91,
+      "en": "No.",
+      "zh": "不是。",
+      "role": "body"
+    },
+    {
+      "index": 16,
+      "startTime": 58.91,
+      "endTime": 63.89,
+      "en": "He must be her fourth or fifth.",
+      "zh": "他一定是她的第四或第五任丈夫。",
+      "role": "body"
+    },
+    {
+      "index": 17,
+      "startTime": 63.89,
+      "endTime": 67.51,
+      "en": "Doesn't Karen Marsh look old!",
+      "zh": "凯伦·马什看起来真老啊！",
+      "role": "body"
+    },
+    {
+      "index": 18,
+      "startTime": 67.51,
+      "endTime": 71.03,
+      "en": "She does, doesn't she!",
+      "zh": "是啊，她看起来是挺老的。",
+      "role": "body"
+    },
+    {
+      "index": 19,
+      "startTime": 71.03,
+      "endTime": 79.16,
+      "en": "I read she's twenty-nine, but she must be at least forty.",
+      "zh": "我记得她才29岁，但实际上她至少有40岁了。",
+      "role": "body"
+    },
+    {
+      "index": 20,
+      "startTime": 79.16,
+      "endTime": 82.52,
+      "en": "I'm sure she is.",
+      "zh": "我肯定她有。",
+      "role": "body"
+    },
+    {
+      "index": 21,
+      "startTime": 82.52,
+      "endTime": 88.89,
+      "en": "She was a famous actress when I was still at school.",
+      "zh": "我还在上学的时候，她就已经是著名演员了。",
+      "role": "body"
+    },
+    {
+      "index": 22,
+      "startTime": 88.89,
+      "endTime": 93.41,
+      "en": "That was a long time ago, wasn't it?",
+      "zh": "那已经是很久以前的事了，对吧？",
+      "role": "body"
+    },
+    {
+      "index": 23,
+      "startTime": 93.41,
+      "endTime": 96.34,
+      "en": "Not that long ago!",
+      "zh": "没那么久吧！",
+      "role": "body"
+    },
+    {
+      "index": 24,
+      "startTime": 96.34,
+      "endTime": null,
+      "en": "I'm not more than twenty-nine myself.",
+      "zh": "我自己也才29岁。",
+      "role": "body"
+    }
+  ],
+  "audio": {
+    "fileName": "127&128－A Famous Actress.mp3",
+    "sourcePath": "content/NCE-Flow/NCE1/127&128－A Famous Actress.mp3",
+    "exists": true
+  },
+  "source": {
+    "repository": "NCE-Flow",
+    "lrcFileName": "127&128－A Famous Actress.lrc",
+    "lrcPath": "content/NCE-Flow/NCE1/127&128－A Famous Actress.lrc",
+    "sourceDataFile": "content/NCE-Flow/static/data.json",
+    "generatedAt": "2026-07-23T02:59:02+00:00",
+    "generator": "scripts/generate_nce_json.py",
+    "generatorVersion": "2.0.0",
+    "metadata": {
+      "al": "新概念英语（一）",
+      "ar": "MP3 同步字幕版（美音）",
+      "ti": "A Famous Actress",
+      "by": "更多学习内容，请到VeryCD.com搜索“露珠”"
+    }
+  }
+}

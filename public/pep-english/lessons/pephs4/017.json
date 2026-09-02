@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "id": "pephs4-017",
+  "groupId": "pephs4",
+  "unitNo": 5,
+  "sequenceNo": 17,
+  "section": "Using Language",
+  "title": "Summer Camp Helpers Wanted!",
+  "jsonPath": "pep-english/lessons/pephs4/017.json",
+  "text": "Are you an active and outgoing person? Are you passionate about Chinese culture? Would you like to meet and help young people from other countries?\nThe Frog & Fox Summer Camp Council is looking for enthusiastic high school students to join our team as camp helpers at our summer camp next year! Our camp is located in a beautiful area near a quiet canal, where you will sleep in tents under the stars.\nWe are building a team of keen young people to help us attend to hundreds of students from all over the world. You will be required to supervise and/or help out in a variety of tasks and recreational activities.\nSuccessful applicants will ideally have the following:\n• a good level of English;\n• good organisational and teamwork skills;\n• a passion for Chinese and international culture;\n• experience with animals;\n• a friendly, welcoming attitude, and good handwriting!\nSend your CV and cover letter to: receptionist@FAFSC.com (FYI: Applications can also be made on paper or disk.)",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Are you an active and outgoing person? Are you passionate about Chinese culture? Would you like to meet and help young people from other countries?"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "The Frog & Fox Summer Camp Council is looking for enthusiastic high school students to join our team as camp helpers at our summer camp next year! Our camp is located in a beautiful area near a quiet canal, where you will sleep in tents under the stars."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "We are building a team of keen young people to help us attend to hundreds of students from all over the world. You will be required to supervise and/or help out in a variety of tasks and recreational activities."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Successful applicants will ideally have the following:\n• a good level of English;\n• good organisational and teamwork skills;\n• a passion for Chinese and international culture;\n• experience with animals;\n• a friendly, welcoming attitude, and good handwriting!"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Send your CV and cover letter to: receptionist@FAFSC.com (FYI: Applications can also be made on paper or disk.)"
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "选择性必修第四册",
+    "pageStart": 62,
+    "pageEnd": 63,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "6fc94127b322f6f5abff068bef6faa2e",
+    "pdfSize": 12330614,
+    "manualReview": {
+      "method": "visual-line-by-line-and-cross-page-order",
+      "source": "content/pep-english/raw/senior-selective-4.pdf#page=62-63",
+      "reviewedAt": "2026-07-22",
+      "notes": "Recovered the complete advertisement from its page-62 opening through the qualifications and application address on page 63; omitted numbered explanatory footnotes and all tasks.",
+      "splitBaselineId": "pephs4-029",
+      "splitIndex": 1,
+      "splitCount": 3
+    }
+  }
+}

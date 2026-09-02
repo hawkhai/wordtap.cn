@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "id": "pepj8b-003",
+  "groupId": "pepj8b",
+  "unitNo": 2,
+  "sequenceNo": 3,
+  "section": "Section B",
+  "title": "Ben Smith's Thank-You Letter to Miss Li",
+  "jsonPath": "pep-english/lessons/pepj8b/003.json",
+  "text": "Dear Miss Li,\nI'd like to thank you for giving money to Animal Helpers. I'm sure you know that this group was set up to help disabled people like me. You helped to make it possible for me to have Lucky. Lucky makes a big difference to my life. Let me tell you my story.\nWhat would it be like to be blind or deaf? Or imagine you can't walk or use your hands easily. Most people would never think about this, but many people have these difficulties. I can't use my arms or legs well, so normal things like answering the telephone, opening and closing doors, or carrying things are difficult for me. Then one day last year, a friend of mine helped me out. She talked to Animal Helpers about getting me a special trained dog. She also thought a dog might cheer me up. I love animals and I was excited about the idea of having a dog.\nAfter six months of training with a dog at Animal Helpers, I was able to bring him home. My dog's name is Lucky — a good name for him because I feel very lucky to have him. You see, I'm only able to have a \"dog helper\" because of your kindness! Lucky is very clever and understands many English words. He can understand me when I give him orders. For example, I say, \"Lucky! Get my book,\" and he does it at once.\nLucky is a fantastic dog. I'll send you a photo of him if you like, and I could show you how he helps me. Thank you again for changing my life.\nBest wishes, Ben Smith",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Dear Miss Li,"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "I'd like to thank you for giving money to Animal Helpers. I'm sure you know that this group was set up to help disabled people like me. You helped to make it possible for me to have Lucky. Lucky makes a big difference to my life. Let me tell you my story."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "What would it be like to be blind or deaf? Or imagine you can't walk or use your hands easily. Most people would never think about this, but many people have these difficulties. I can't use my arms or legs well, so normal things like answering the telephone, opening and closing doors, or carrying things are difficult for me. Then one day last year, a friend of mine helped me out. She talked to Animal Helpers about getting me a special trained dog. She also thought a dog might cheer me up. I love animals and I was excited about the idea of having a dog."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "After six months of training with a dog at Animal Helpers, I was able to bring him home. My dog's name is Lucky — a good name for him because I feel very lucky to have him. You see, I'm only able to have a \"dog helper\" because of your kindness! Lucky is very clever and understands many English words. He can understand me when I give him orders. For example, I say, \"Lucky! Get my book,\" and he does it at once."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Lucky is a fantastic dog. I'll send you a photo of him if you like, and I could show you how he helps me. Thank you again for changing my life."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Best wishes, Ben Smith"
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "初中",
+    "book": "八年级下册",
+    "pageStart": 23,
+    "pageEnd": 23,
+    "extractionMode": "ocr",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "21d35e04f1c22b74a3fe3e95e88adff9",
+    "pdfSize": 18208880,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/junior-8b.pdf#page=23",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored the complete letter with salutation, four body paragraphs, quoted commands and sign-off; assigned a descriptive title and excluded 2a/2b prompts and the parts-of-speech sidebar."
+    }
+  }
+}

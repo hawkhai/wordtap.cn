@@ -1,0 +1,248 @@
+{
+  "schemaVersion": 1,
+  "id": "nce1-065",
+  "bookId": "nce1",
+  "bookNo": 1,
+  "lessonNo": 65,
+  "lessonRange": [
+    65,
+    66
+  ],
+  "title": "Not a Baby",
+  "titleZh": "我可不是小孩子了。",
+  "question": "Does Jill take the key to the front door?",
+  "questionZh": "吉尔会拿前门的钥匙吗？",
+  "text": "Does Jill take the key to the front door?\n\nWhat are you going to do this evening, Jill?\nI'm going to meet some friends, Dad.\nYou mustn't come home late.\nYou must be home at half past ten.\nI can't get home so early, Dad!\nCan I have the key to the front door, please?\nNo, you can't.\nJill's eighteen years old, Tom.\nShe's not a baby.\nGive her the key.\nShe always comes home early.\nOh, all right!\nHere you are.\nBut you mustn't come home after a quarter past eleven.\nDo you hear?\nYes, Dad.\nThanks, Mum.\nThat's all right.\nGoodbye.\nEnjoy yourself!\nWe always enjoy ourselves, Mum.\nBye-bye.",
+  "bodyText": "What are you going to do this evening, Jill?\nI'm going to meet some friends, Dad.\nYou mustn't come home late.\nYou must be home at half past ten.\nI can't get home so early, Dad!\nCan I have the key to the front door, please?\nNo, you can't.\nJill's eighteen years old, Tom.\nShe's not a baby.\nGive her the key.\nShe always comes home early.\nOh, all right!\nHere you are.\nBut you mustn't come home after a quarter past eleven.\nDo you hear?\nYes, Dad.\nThanks, Mum.\nThat's all right.\nGoodbye.\nEnjoy yourself!\nWe always enjoy ourselves, Mum.\nBye-bye.",
+  "bodyTextZh": "今晚你打算做什么，吉尔？\n爸爸，我要去见一些朋友。\n你千万不要回家太晚。\n你必须在十点半到家。\n爸爸，我没办法这么早就回家啊！\n请问，能给我前门的钥匙吗？\n不，你不能。\n吉尔已经十八岁了，汤姆。\n她已经不是小孩子了。\n把钥匙给她。\n她总是很早就回家。\n哦，好吧！\n给你。\n但是你绝对不能在十一点一刻之后才回家。\n你听到了吗？\n是的，爸爸。\n谢谢，妈妈。\n不客气。\n再见。\n玩得开心！\n我们总是玩得很开心，妈妈。\n再见。",
+  "sentences": [
+    {
+      "index": 0,
+      "startTime": 0.73,
+      "endTime": 3.35,
+      "en": "Lesson 65",
+      "zh": "第65课",
+      "role": "lesson"
+    },
+    {
+      "index": 1,
+      "startTime": 3.35,
+      "endTime": 6.25,
+      "en": "Not a baby",
+      "zh": "我可不是小孩子了。",
+      "role": "title"
+    },
+    {
+      "index": 2,
+      "startTime": 6.25,
+      "endTime": 11.58,
+      "en": "Listen to the tape then answer this question.",
+      "zh": "先听这段录音，然后再回答这个问题。",
+      "role": "prompt"
+    },
+    {
+      "index": 3,
+      "startTime": 11.58,
+      "endTime": 17.67,
+      "en": "Does Jill take the key to the front door?",
+      "zh": "吉尔会拿前门的钥匙吗？",
+      "role": "question"
+    },
+    {
+      "index": 4,
+      "startTime": 17.67,
+      "endTime": 22.63,
+      "en": "What are you going to do this evening, Jill?",
+      "zh": "今晚你打算做什么，吉尔？",
+      "role": "body"
+    },
+    {
+      "index": 5,
+      "startTime": 22.63,
+      "endTime": 27.15,
+      "en": "I'm going to meet some friends, Dad.",
+      "zh": "爸爸，我要去见一些朋友。",
+      "role": "body"
+    },
+    {
+      "index": 6,
+      "startTime": 27.15,
+      "endTime": 30.19,
+      "en": "You mustn't come home late.",
+      "zh": "你千万不要回家太晚。",
+      "role": "body"
+    },
+    {
+      "index": 7,
+      "startTime": 30.19,
+      "endTime": 34.87,
+      "en": "You must be home at half past ten.",
+      "zh": "你必须在十点半到家。",
+      "role": "body"
+    },
+    {
+      "index": 8,
+      "startTime": 34.87,
+      "endTime": 39.41,
+      "en": "I can't get home so early, Dad!",
+      "zh": "爸爸，我没办法这么早就回家啊！",
+      "role": "body"
+    },
+    {
+      "index": 9,
+      "startTime": 39.41,
+      "endTime": 44.48,
+      "en": "Can I have the key to the front door, please?",
+      "zh": "请问，能给我前门的钥匙吗？",
+      "role": "body"
+    },
+    {
+      "index": 10,
+      "startTime": 44.48,
+      "endTime": 47.61,
+      "en": "No, you can't.",
+      "zh": "不，你不能。",
+      "role": "body"
+    },
+    {
+      "index": 11,
+      "startTime": 47.61,
+      "endTime": 51.89,
+      "en": "Jill's eighteen years old, Tom.",
+      "zh": "吉尔已经十八岁了，汤姆。",
+      "role": "body"
+    },
+    {
+      "index": 12,
+      "startTime": 51.89,
+      "endTime": 54.74,
+      "en": "She's not a baby.",
+      "zh": "她已经不是小孩子了。",
+      "role": "body"
+    },
+    {
+      "index": 13,
+      "startTime": 54.74,
+      "endTime": 56.98,
+      "en": "Give her the key.",
+      "zh": "把钥匙给她。",
+      "role": "body"
+    },
+    {
+      "index": 14,
+      "startTime": 56.98,
+      "endTime": 61.08,
+      "en": "She always comes home early.",
+      "zh": "她总是很早就回家。",
+      "role": "body"
+    },
+    {
+      "index": 15,
+      "startTime": 61.08,
+      "endTime": 64.45,
+      "en": "Oh, all right!",
+      "zh": "哦，好吧！",
+      "role": "body"
+    },
+    {
+      "index": 16,
+      "startTime": 64.45,
+      "endTime": 66.27,
+      "en": "Here you are.",
+      "zh": "给你。",
+      "role": "body"
+    },
+    {
+      "index": 17,
+      "startTime": 66.27,
+      "endTime": 71.52,
+      "en": "But you mustn't come home after a quarter past eleven.",
+      "zh": "但是你绝对不能在十一点一刻之后才回家。",
+      "role": "body"
+    },
+    {
+      "index": 18,
+      "startTime": 71.52,
+      "endTime": 73.57,
+      "en": "Do you hear?",
+      "zh": "你听到了吗？",
+      "role": "body"
+    },
+    {
+      "index": 19,
+      "startTime": 73.57,
+      "endTime": 75.82,
+      "en": "Yes, Dad.",
+      "zh": "是的，爸爸。",
+      "role": "body"
+    },
+    {
+      "index": 20,
+      "startTime": 75.82,
+      "endTime": 77.81,
+      "en": "Thanks, Mum.",
+      "zh": "谢谢，妈妈。",
+      "role": "body"
+    },
+    {
+      "index": 21,
+      "startTime": 77.81,
+      "endTime": 79.92,
+      "en": "That's all right.",
+      "zh": "不客气。",
+      "role": "body"
+    },
+    {
+      "index": 22,
+      "startTime": 79.92,
+      "endTime": 81.52,
+      "en": "Goodbye.",
+      "zh": "再见。",
+      "role": "body"
+    },
+    {
+      "index": 23,
+      "startTime": 81.52,
+      "endTime": 84.39,
+      "en": "Enjoy yourself!",
+      "zh": "玩得开心！",
+      "role": "body"
+    },
+    {
+      "index": 24,
+      "startTime": 84.39,
+      "endTime": 88.3,
+      "en": "We always enjoy ourselves, Mum.",
+      "zh": "我们总是玩得很开心，妈妈。",
+      "role": "body"
+    },
+    {
+      "index": 25,
+      "startTime": 88.3,
+      "endTime": null,
+      "en": "Bye-bye.",
+      "zh": "再见。",
+      "role": "body"
+    }
+  ],
+  "audio": {
+    "fileName": "065&066－Not a Baby.mp3",
+    "sourcePath": "content/NCE-Flow/NCE1/065&066－Not a Baby.mp3",
+    "exists": true
+  },
+  "source": {
+    "repository": "NCE-Flow",
+    "lrcFileName": "065&066－Not a Baby.lrc",
+    "lrcPath": "content/NCE-Flow/NCE1/065&066－Not a Baby.lrc",
+    "sourceDataFile": "content/NCE-Flow/static/data.json",
+    "generatedAt": "2026-07-23T02:59:02+00:00",
+    "generator": "scripts/generate_nce_json.py",
+    "generatorVersion": "2.0.0",
+    "metadata": {
+      "al": "新概念英语（一）",
+      "ar": "MP3 同步字幕版（美音）",
+      "ti": "Not a Baby",
+      "by": "更多学习内容，请到VeryCD.com搜索“露珠”"
+    }
+  }
+}

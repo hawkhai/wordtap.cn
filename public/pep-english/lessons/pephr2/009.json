@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "id": "pephr2-009",
+  "groupId": "pephr2",
+  "unitNo": 4,
+  "sequenceNo": 9,
+  "section": "Reading and Thinking",
+  "title": "What's in a Name?",
+  "jsonPath": "pep-english/lessons/pephr2/009.json",
+  "text": "The United Kingdom, Great Britain, Britain, England—many people are confused by what these different names mean. So what is the difference between them, if any? Getting to know a little bit about British history will help you solve this puzzle.\nIn the 16th century, the nearby country of Wales was joined to the Kingdom of England. Later, in the 18th century, the country Scotland was joined to create the Kingdom of Great Britain. In the 19th century, the Kingdom of Ireland was added to create the United Kingdom of Great Britain and Ireland. Finally, in the 20th century, the southern part of Ireland broke away from the UK, which resulted in the full name we have today: the United Kingdom of Great Britain and Northern Ireland. Most people just use the shortened name: “the United Kingdom” or “the UK”. People from the UK are called “British”, which means the UK is also often referred to as Britain or Great Britain.\nThe four countries that belong to the United Kingdom work together in some areas. They use the same flag, known as the Union Jack, as well as share the same currency and military defence. However, they also have some differences. For example, England, Wales, Scotland, and Northern Ireland all have different education systems and legal systems. They also have their own traditions, like their own national days and national dishes. And they even have their own football teams for competitions like the World Cup!\nThe United Kingdom has a long and interesting history to explore, which can help you understand much more about the country and its traditions. Almost everywhere you go in the UK, you will be surrounded by evidence of four different groups of people who took over at different times throughout history. The first group, the Romans, came in the first century. Some of their great achievements included building towns and roads. Next, the Anglo-Saxons arrived in the fifth century. They introduced the beginnings of the English language, and changed the way people built houses. The Vikings came in the eighth century, left behind lots of new vocabulary, and also the names of many locations across the UK. The last group were the Normans. They conquered England after the well-known Battle of Hastings in the 11th century. They had castles built all around England, and made changes to the legal system. The Normans were French, so many French words slowly entered into the English language.\nThere is so much more to learn about the interesting history and culture of the United Kingdom. Studying the history of the country will make your visit much more enjoyable. The capital city London is a great place to start, as it is an ancient port city that has a history dating all the way back to Roman times. There are countless historic sites to explore, and lots of museums with ancient relics from all over the UK. The UK is a fascinating mix of history and modern culture, with both new and old traditions. If you keep your eyes open, you will be surprised to find that you can see both its past and its present.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "The United Kingdom, Great Britain, Britain, England—many people are confused by what these different names mean. So what is the difference between them, if any? Getting to know a little bit about British history will help you solve this puzzle."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "In the 16th century, the nearby country of Wales was joined to the Kingdom of England. Later, in the 18th century, the country Scotland was joined to create the Kingdom of Great Britain. In the 19th century, the Kingdom of Ireland was added to create the United Kingdom of Great Britain and Ireland. Finally, in the 20th century, the southern part of Ireland broke away from the UK, which resulted in the full name we have today: the United Kingdom of Great Britain and Northern Ireland. Most people just use the shortened name: “the United Kingdom” or “the UK”. People from the UK are called “British”, which means the UK is also often referred to as Britain or Great Britain."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "The four countries that belong to the United Kingdom work together in some areas. They use the same flag, known as the Union Jack, as well as share the same currency and military defence. However, they also have some differences. For example, England, Wales, Scotland, and Northern Ireland all have different education systems and legal systems. They also have their own traditions, like their own national days and national dishes. And they even have their own football teams for competitions like the World Cup!"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "The United Kingdom has a long and interesting history to explore, which can help you understand much more about the country and its traditions. Almost everywhere you go in the UK, you will be surrounded by evidence of four different groups of people who took over at different times throughout history. The first group, the Romans, came in the first century. Some of their great achievements included building towns and roads. Next, the Anglo-Saxons arrived in the fifth century. They introduced the beginnings of the English language, and changed the way people built houses. The Vikings came in the eighth century, left behind lots of new vocabulary, and also the names of many locations across the UK. The last group were the Normans. They conquered England after the well-known Battle of Hastings in the 11th century. They had castles built all around England, and made changes to the legal system. The Normans were French, so many French words slowly entered into the English language."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "There is so much more to learn about the interesting history and culture of the United Kingdom. Studying the history of the country will make your visit much more enjoyable. The capital city London is a great place to start, as it is an ancient port city that has a history dating all the way back to Roman times. There are countless historic sites to explore, and lots of museums with ancient relics from all over the UK. The UK is a fascinating mix of history and modern culture, with both new and old traditions. If you keep your eyes open, you will be surprised to find that you can see both its past and its present."
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "必修第二册",
+    "pageStart": 47,
+    "pageEnd": 48,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "38d49874e4f015fd89f21c9306f6b9d5",
+    "pdfSize": 14270612,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/senior-required-2.pdf#page=47-48",
+      "reviewedAt": "2026-07-22",
+      "notes": "Merged the automatic page-level candidates into the complete five-paragraph article; visually verified that paragraph four continues from page 47 into the top of page 48, then retained the complete concluding paragraph and excluded all map, timeline, cloze and discussion activities."
+    }
+  }
+}

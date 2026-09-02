@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "id": "pephr1-010",
+  "groupId": "pephr1",
+  "unitNo": 2,
+  "sequenceNo": 10,
+  "section": "Reading for Writing",
+  "title": "A Travel Plan to Xi'an",
+  "jsonPath": "pep-english/lessons/pephr1/010.json",
+  "text": "To: xl@youthlife.com Subject: A travel plan to Xi'an\nDear Xiao Li,\nMy time here in China is going well. I love my new school and classmates. Over the October holiday, my parents and I are planning to go to Xi'an to see the Terracotta Army. I've heard that it is an amazing sight, and I can't wait to go. To me, the story of the Terracotta Army is almost unbelievable. It's amazing that there are more than 8,000 statues, and no one in modern times knew about them until the 1970s.\nWe're also planning to visit several other places in Xi'an. My dad and I are both looking forward to going to the Shaanxi History Museum, because my dad loves history and I have heard that this museum is known as a “Chinese treasure house”! We're also going to the Xi'an City Wall and a few other famous sights.\nWe're taking the train, leaving the day before the October holiday begins. We're arriving at 9:30 a.m. and will start sightseeing right away, so I hope we sleep well on the train!\nI guess that's all for now! I'll write again soon and send photos! Do you have any plans for the coming holiday? Hope to hear from you soon.\nYour friend, Richard",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "To: xl@youthlife.com Subject: A travel plan to Xi'an"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Dear Xiao Li,"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "My time here in China is going well. I love my new school and classmates. Over the October holiday, my parents and I are planning to go to Xi'an to see the Terracotta Army. I've heard that it is an amazing sight, and I can't wait to go. To me, the story of the Terracotta Army is almost unbelievable. It's amazing that there are more than 8,000 statues, and no one in modern times knew about them until the 1970s."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "We're also planning to visit several other places in Xi'an. My dad and I are both looking forward to going to the Shaanxi History Museum, because my dad loves history and I have heard that this museum is known as a “Chinese treasure house”! We're also going to the Xi'an City Wall and a few other famous sights."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "We're taking the train, leaving the day before the October holiday begins. We're arriving at 9:30 a.m. and will start sightseeing right away, so I hope we sleep well on the train!"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "I guess that's all for now! I'll write again soon and send photos! Do you have any plans for the coming holiday? Hope to hear from you soon."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Your friend, Richard"
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "必修第一册",
+    "pageStart": 37,
+    "pageEnd": 37,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "e0bf18138b24d7def28b35994a13946b",
+    "pdfSize": 14704146,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/senior-required-1.pdf#page=37",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored Richard's complete email with recipient, subject, greeting, four body paragraphs and sign-off; separated it from the independent Terracotta Army brochure on the same page.",
+      "splitBaselineId": "pephr1-011",
+      "splitIndex": 1,
+      "splitCount": 2
+    }
+  }
+}

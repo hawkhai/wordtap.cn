@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "pephs1-012",
+  "groupId": "pephs1",
+  "unitNo": 4,
+  "sequenceNo": 12,
+  "section": "Pronunciation",
+  "title": "Life Is a Stage",
+  "jsonPath": "pep-english/lessons/pephs1/012.json",
+  "text": "Life is a stage, and we are all actors. This is also true when you are in a foreign land. Acting can help you communicate even if you do not know the language. For instance, one day a Chinese lady who was babysitting her grandchild in America went to a supermarket to buy some beef. She was confused to see all kinds of meat there and did not know which ones were beef. She asked a clerk by putting both hands up and saying “Moo! Moo!” The lady got what she wanted even without saying a word of English.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Life is a stage, and we are all actors. This is also true when you are in a foreign land. Acting can help you communicate even if you do not know the language. For instance, one day a Chinese lady who was babysitting her grandchild in America went to a supermarket to buy some beef. She was confused to see all kinds of meat there and did not know which ones were beef. She asked a clerk by putting both hands up and saying “Moo! Moo!” The lady got what she wanted even without saying a word of English."
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "选择性必修第一册",
+    "pageStart": 50,
+    "pageEnd": 50,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "f19c4231e96ee3a9c769533d676f1106",
+    "pdfSize": 12809514,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/senior-selective-1.pdf#page=50",
+      "reviewedAt": "2026-07-22",
+      "notes": "Retained the complete printed supermarket anecdote used for pause practice, without inserting pause marks; supplied a descriptive title from its opening sentence and excluded clarification phrases, three quotations, directions, questions and instructions."
+    }
+  }
+}

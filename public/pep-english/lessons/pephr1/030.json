@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "pephr1-030",
+  "groupId": "pephr1",
+  "unitNo": 3,
+  "sequenceNo": 30,
+  "section": "Using Structures",
+  "title": "Jumping Jacks",
+  "jsonPath": "pep-english/lessons/pephr1/030.json",
+  "text": "A: We're all so busy, but we can't just sit around and study all the time, can we?\nB: No, we can't. Sometimes I just have to get up and do a few jumping jacks.\nA: Jumping jacks? Those are a kind of exercise, aren't they?\nB: Yes, they are! You jump and bring your hands together above your head and move your feet apart. Then you jump again, bringing your hands to your side and your feet together. I'm sure you've done them before, haven't you?\nA: I know what you mean now. They are also called star jumps, aren't they? Why don't we do a few now?\nB: Sure.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "A: We're all so busy, but we can't just sit around and study all the time, can we?\nB: No, we can't. Sometimes I just have to get up and do a few jumping jacks.\nA: Jumping jacks? Those are a kind of exercise, aren't they?\nB: Yes, they are! You jump and bring your hands together above your head and move your feet apart. Then you jump again, bringing your hands to your side and your feet together. I'm sure you've done them before, haven't you?\nA: I know what you mean now. They are also called star jumps, aren't they? Why don't we do a few now?\nB: Sure."
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "必修第一册",
+    "pageStart": 91,
+    "pageEnd": 91,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "e0bf18138b24d7def28b35994a13946b",
+    "pdfSize": 14704146,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/senior-required-1.pdf#page=91",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored the complete six-turn jumping-jacks conversation as a separate Using Structures lesson.",
+      "splitBaselineId": "pephr1-036",
+      "splitIndex": 2,
+      "splitCount": 2
+    }
+  }
+}

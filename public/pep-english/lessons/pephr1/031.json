@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "pephr1-031",
+  "groupId": "pephr1",
+  "unitNo": 3,
+  "sequenceNo": 31,
+  "section": "Reading",
+  "title": "Cool Cold Sports",
+  "jsonPath": "pep-english/lessons/pephr1/031.json",
+  "text": "The Winter Olympic Games are not just an opportunity for athletes to win medals and honour for their countries. Every four years, the Games also offer audiences a chance to get to know more about winter sports from around the world. The Winter Olympics may not have the large crowds and huge stars of its summer sibling, but they share the same Olympic spirit.\nOne of the most popular sports of the Winter Olympic Games is skiing. Skiers compete in the downhill and slalom, and in the short and long cross-country ski races. Skiing was originally a sport played only in cold northern countries, but now athletes from all over the world compete in this sport, even those from countries without any snow!\nSkaters compete with each other in speed races or in figure-skating events. The figure-skaters are generally considered to be the stars of the Winter Olympic Games. These ice princes and princesses are so graceful that it's easy to forget that they are actually highly skilled athletes.\nThe skeleton is one of the strangest-named sports of the Olympics. The skeleton is named after the shape of the metal sleds used in the 1890s, when the sport first started. The skeleton is a downhill sled race, usually on ice. This sport looks a little like the luge, where a person sits on the back of the sled with his or her feet forward, but the skeleton is a lot more exciting and dangerous than that. In the skeleton, a person lies on his or her stomach on the sled, with his or her head pointing downhill!",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "The Winter Olympic Games are not just an opportunity for athletes to win medals and honour for their countries. Every four years, the Games also offer audiences a chance to get to know more about winter sports from around the world. The Winter Olympics may not have the large crowds and huge stars of its summer sibling, but they share the same Olympic spirit."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "One of the most popular sports of the Winter Olympic Games is skiing. Skiers compete in the downhill and slalom, and in the short and long cross-country ski races. Skiing was originally a sport played only in cold northern countries, but now athletes from all over the world compete in this sport, even those from countries without any snow!"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Skaters compete with each other in speed races or in figure-skating events. The figure-skaters are generally considered to be the stars of the Winter Olympic Games. These ice princes and princesses are so graceful that it's easy to forget that they are actually highly skilled athletes."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "The skeleton is one of the strangest-named sports of the Olympics. The skeleton is named after the shape of the metal sleds used in the 1890s, when the sport first started. The skeleton is a downhill sled race, usually on ice. This sport looks a little like the luge, where a person sits on the back of the sled with his or her feet forward, but the skeleton is a lot more exciting and dangerous than that. In the skeleton, a person lies on his or her stomach on the sled, with his or her head pointing downhill!"
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "必修第一册",
+    "pageStart": 93,
+    "pageEnd": 93,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "e0bf18138b24d7def28b35994a13946b",
+    "pdfSize": 14704146,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/senior-required-1.pdf#page=93",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored the complete shared-title feature in displayed order: introduction, skiing, skating and skeleton; removed inline Chinese glosses and all surrounding matching and comprehension tasks."
+    }
+  }
+}

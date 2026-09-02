@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "pepj9-017",
+  "groupId": "pepj9",
+  "unitNo": 5,
+  "sequenceNo": 17,
+  "section": "Section B",
+  "title": "Beauty in Common Things",
+  "jsonPath": "pep-english/lessons/pepj9/017.json",
+  "text": "Each different part of China has its own special forms of traditional art. These usually try to show the things that are important in life, such as love, beauty and family. The most common things, from paper to clay to bamboo, are turned into objects of beauty.\nAccording to Chinese history, sky lanterns were first used by Zhuge Kongming. He sent them out to ask for help when in trouble. Today, sky lanterns are used at festivals and other celebrations. They are made of bamboo and covered with paper. When the lanterns are lit, they slowly rise into the air like small hot-air balloons for all to see. They are seen as bright symbols of happiness and good wishes.\nPaper cutting has been around for over 1,500 years. Paper cutting sounds very easy but it can be difficult to do. The paper, usually red, is folded before it is cut with scissors. The most common pictures are flowers, animals, and things about Chinese history. During the Spring Festival, they are put on windows, doors and walls as symbols of wishes for good luck and a happy new year.\nChinese clay art is famous because the clay pieces are so small but they look very real. The pieces are usually cute children or lively characters from a Chinese fairy tale or historical story. The pieces are carefully shaped by hand from a very special kind of clay and then allowed to air-dry. After drying, they are fired at a very high heat. They are then polished and painted. It takes several weeks to complete everything. These small pieces of clay art show the love that all Chinese people have for life and beauty.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Each different part of China has its own special forms of traditional art. These usually try to show the things that are important in life, such as love, beauty and family. The most common things, from paper to clay to bamboo, are turned into objects of beauty."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "According to Chinese history, sky lanterns were first used by Zhuge Kongming. He sent them out to ask for help when in trouble. Today, sky lanterns are used at festivals and other celebrations. They are made of bamboo and covered with paper. When the lanterns are lit, they slowly rise into the air like small hot-air balloons for all to see. They are seen as bright symbols of happiness and good wishes."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Paper cutting has been around for over 1,500 years. Paper cutting sounds very easy but it can be difficult to do. The paper, usually red, is folded before it is cut with scissors. The most common pictures are flowers, animals, and things about Chinese history. During the Spring Festival, they are put on windows, doors and walls as symbols of wishes for good luck and a happy new year."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Chinese clay art is famous because the clay pieces are so small but they look very real. The pieces are usually cute children or lively characters from a Chinese fairy tale or historical story. The pieces are carefully shaped by hand from a very special kind of clay and then allowed to air-dry. After drying, they are fired at a very high heat. They are then polished and painted. It takes several weeks to complete everything. These small pieces of clay art show the love that all Chinese people have for life and beauty."
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "初中",
+    "book": "九年级全一册",
+    "pageStart": 52,
+    "pageEnd": 52,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "c6e628c22e0c2f9cfe4547699a1c95a4",
+    "pdfSize": 11088578,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/junior-9.pdf#page=52",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored the printed title, general introduction and three complete traditional-art sections; excluded 2a/2b instructions, the reading-strategy box and blank chart."
+    }
+  }
+}

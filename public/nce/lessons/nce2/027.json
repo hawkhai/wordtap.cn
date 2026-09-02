@@ -1,0 +1,159 @@
+{
+  "schemaVersion": 1,
+  "id": "nce2-027",
+  "bookId": "nce2",
+  "bookNo": 2,
+  "lessonNo": 27,
+  "lessonRange": [
+    27
+  ],
+  "title": "A Wet Night",
+  "titleZh": "潮湿的夜晚",
+  "question": "What happened to the boys in the night?",
+  "questionZh": "那些男孩们晚上发生了什么事？",
+  "text": "What happened to the boys in the night?\n\nLate in the afternoon, the boys put up their tent in the middle of a field.\nAs soon as this was done, they cooked a meal over an open fire.\nThey were all hungry and the food smelled good.\nAfter a wonderful meal, they told stories and sang songs by the campfire.\nBut some time later it began to rain.\nThe boys felt tired so they put out the fire and crept into their tent.\nTheir sleeping bags were warm and comfortable, so they all slept soundly.\nIn the middle of the night, two boys woke up and began shouting.\nThe tent was full of water!\nThey all leapt out of their sleeping bags and hurried outside.\nIt was raining heavily and they found that a stream had formed in the field.\nThe stream wound its way across the field and then flowed right under their tent!",
+  "bodyText": "Late in the afternoon, the boys put up their tent in the middle of a field.\nAs soon as this was done, they cooked a meal over an open fire.\nThey were all hungry and the food smelled good.\nAfter a wonderful meal, they told stories and sang songs by the campfire.\nBut some time later it began to rain.\nThe boys felt tired so they put out the fire and crept into their tent.\nTheir sleeping bags were warm and comfortable, so they all slept soundly.\nIn the middle of the night, two boys woke up and began shouting.\nThe tent was full of water!\nThey all leapt out of their sleeping bags and hurried outside.\nIt was raining heavily and they found that a stream had formed in the field.\nThe stream wound its way across the field and then flowed right under their tent!",
+  "bodyTextZh": "傍晚时分，男孩们在田野中央搭起了帐篷。\n帐篷一搭好，他们就在篝火上做饭了。\n大家都很饿，食物闻起来非常香。\n吃完美味的饭菜后，他们在篝火旁讲故事、唱歌。\n但不久之后，天开始下雨了。\n男孩们感到累了，于是他们熄灭了篝火，钻进了帐篷。\n他们的睡袋温暖舒适，大家都睡得很香。\n半夜时分，有两个男孩突然醒来，开始大喊大叫。\n帐篷里充满了水！\n他们一下子从睡袋里跳出来，赶紧跑到外面。\n雨下得很大，他们发现田野里形成了一条小溪。\n小溪蜿蜒流过田野，然后从他们的帐篷下方流过！",
+  "sentences": [
+    {
+      "index": 0,
+      "startTime": 0.5,
+      "endTime": 3,
+      "en": "Lesson 27",
+      "zh": "第27课",
+      "role": "lesson"
+    },
+    {
+      "index": 1,
+      "startTime": 3,
+      "endTime": 10.29,
+      "en": "A Wet Night",
+      "zh": "潮湿的夜晚",
+      "role": "title"
+    },
+    {
+      "index": 2,
+      "startTime": 10.29,
+      "endTime": 15.08,
+      "en": "What happened to the boys in the night?",
+      "zh": "那些男孩们晚上发生了什么事？",
+      "role": "question"
+    },
+    {
+      "index": 3,
+      "startTime": 15.08,
+      "endTime": 21.85,
+      "en": "Late in the afternoon, the boys put up their tent in the middle of a field.",
+      "zh": "傍晚时分，男孩们在田野中央搭起了帐篷。",
+      "role": "body"
+    },
+    {
+      "index": 4,
+      "startTime": 21.85,
+      "endTime": 27.98,
+      "en": "As soon as this was done, they cooked a meal over an open fire.",
+      "zh": "帐篷一搭好，他们就在篝火上做饭了。",
+      "role": "body"
+    },
+    {
+      "index": 5,
+      "startTime": 27.98,
+      "endTime": 32.99,
+      "en": "They were all hungry and the food smelled good.",
+      "zh": "大家都很饿，食物闻起来非常香。",
+      "role": "body"
+    },
+    {
+      "index": 6,
+      "startTime": 32.99,
+      "endTime": 40.91,
+      "en": "After a wonderful meal, they told stories and sang songs by the campfire.",
+      "zh": "吃完美味的饭菜后，他们在篝火旁讲故事、唱歌。",
+      "role": "body"
+    },
+    {
+      "index": 7,
+      "startTime": 40.91,
+      "endTime": 44.71,
+      "en": "But some time later it began to rain.",
+      "zh": "但不久之后，天开始下雨了。",
+      "role": "body"
+    },
+    {
+      "index": 8,
+      "startTime": 44.71,
+      "endTime": 51.47,
+      "en": "The boys felt tired so they put out the fire and crept into their tent.",
+      "zh": "男孩们感到累了，于是他们熄灭了篝火，钻进了帐篷。",
+      "role": "body"
+    },
+    {
+      "index": 9,
+      "startTime": 51.47,
+      "endTime": 58.66,
+      "en": "Their sleeping bags were warm and comfortable, so they all slept soundly.",
+      "zh": "他们的睡袋温暖舒适，大家都睡得很香。",
+      "role": "body"
+    },
+    {
+      "index": 10,
+      "startTime": 58.66,
+      "endTime": 64.55,
+      "en": "In the middle of the night, two boys woke up and began shouting.",
+      "zh": "半夜时分，有两个男孩突然醒来，开始大喊大叫。",
+      "role": "body"
+    },
+    {
+      "index": 11,
+      "startTime": 64.55,
+      "endTime": 67.56,
+      "en": "The tent was full of water!",
+      "zh": "帐篷里充满了水！",
+      "role": "body"
+    },
+    {
+      "index": 12,
+      "startTime": 67.56,
+      "endTime": 73.65,
+      "en": "They all leapt out of their sleeping bags and hurried outside.",
+      "zh": "他们一下子从睡袋里跳出来，赶紧跑到外面。",
+      "role": "body"
+    },
+    {
+      "index": 13,
+      "startTime": 73.65,
+      "endTime": 80.09,
+      "en": "It was raining heavily and they found that a stream had formed in the field.",
+      "zh": "雨下得很大，他们发现田野里形成了一条小溪。",
+      "role": "body"
+    },
+    {
+      "index": 14,
+      "startTime": 80.09,
+      "endTime": null,
+      "en": "The stream wound its way across the field and then flowed right under their tent!",
+      "zh": "小溪蜿蜒流过田野，然后从他们的帐篷下方流过！",
+      "role": "body"
+    }
+  ],
+  "audio": {
+    "fileName": "27－A Wet Night.mp3",
+    "sourcePath": "content/NCE-Flow/NCE2/27－A Wet Night.mp3",
+    "exists": true
+  },
+  "source": {
+    "repository": "NCE-Flow",
+    "lrcFileName": "27－A Wet Night.lrc",
+    "lrcPath": "content/NCE-Flow/NCE2/27－A Wet Night.lrc",
+    "sourceDataFile": "content/NCE-Flow/static/data.json",
+    "generatedAt": "2026-07-23T02:59:02+00:00",
+    "generator": "scripts/generate_nce_json.py",
+    "generatorVersion": "2.0.0",
+    "metadata": {
+      "al": "新概念英语（二）",
+      "ar": "MP3 同步字幕版（美音）",
+      "ti": "A Wet Night",
+      "by": "更多学习内容，请到VeryCD.com搜索“露珠”"
+    }
+  }
+}

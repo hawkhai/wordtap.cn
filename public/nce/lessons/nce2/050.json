@@ -1,0 +1,199 @@
+{
+  "schemaVersion": 1,
+  "id": "nce2-050",
+  "bookId": "nce2",
+  "bookNo": 2,
+  "lessonNo": 50,
+  "lessonRange": [
+    50
+  ],
+  "title": "Taken for a Ride",
+  "titleZh": "Taken for a Ride",
+  "question": "Why did the writer not get off the bus at Woodford Green?",
+  "questionZh": "为什么作者没有在伍德福德格林（Woodford Green）下车呢？",
+  "text": "Why did the writer not get off the bus at Woodford Green?\n\nI love travelling in the country, but I don't like losing my way.\nI went on an excursion recently, but my trip took me longer than I expected.\n'I'm going to Woodford Green,'\nI said to the conductor as I got on the bus,\n'but I don't know where it is.'\n'I'll tell you where to get off.' answered the conductor.\nI sat in the front of the bus to get a good view of the countryside.\nAfter some time, the bus stopped.\nLooking round, I realized with a shock that I was the only passenger left on the bus.\n'You'll have to get off here,' the conductor said. 'This is as far as we go.'\n'Is this Woodford Green?' I asked.\n'Oh dear,' said the conductor suddenly.\n'I forgot to put you off.'\n'It doesn't matter,' I said. 'I'll get off here.'\n'We're going back now,' said the conductor.\n'Well, in that case,\nI prefer to stay on the bus,' I answered.",
+  "bodyText": "I love travelling in the country, but I don't like losing my way.\nI went on an excursion recently, but my trip took me longer than I expected.\n'I'm going to Woodford Green,'\nI said to the conductor as I got on the bus,\n'but I don't know where it is.'\n'I'll tell you where to get off.' answered the conductor.\nI sat in the front of the bus to get a good view of the countryside.\nAfter some time, the bus stopped.\nLooking round, I realized with a shock that I was the only passenger left on the bus.\n'You'll have to get off here,' the conductor said. 'This is as far as we go.'\n'Is this Woodford Green?' I asked.\n'Oh dear,' said the conductor suddenly.\n'I forgot to put you off.'\n'It doesn't matter,' I said. 'I'll get off here.'\n'We're going back now,' said the conductor.\n'Well, in that case,\nI prefer to stay on the bus,' I answered.",
+  "bodyTextZh": "我喜欢在乡村旅行。但我不喜欢迷路。\n我最近去参加了一次短途旅行。但是我的旅行花费的时间比我预期的要长。\n“我要去伍德福德格林。”\n当我登上公交车时，我对售票员说：\n“但我不知道它在哪里。”\n“我会告诉您在哪下车。”售票员回答道。\n我坐在公交车的前排，以便能更好地欣赏乡村的景色。\n过了一段时间，公交车停了下来。\n环顾四周后，我震惊地发现自己是公交车上唯一剩下的乘客。\n“你得从这里下去。”售票员说：“我们就到这儿了。”\n“这是伍德福德格林（Woodford Green）吗？”我问道。\n“哦，天哪，”售票员突然说道。\n“我忘了让您下车。”\n“没关系，”我说，“我就在这儿下车。”\n“我们现在要返回了，”售票员说。\n“嗯，既然是这样的话，\n“我更愿意待在公交车上，”我回答道。",
+  "sentences": [
+    {
+      "index": 0,
+      "startTime": 0.5,
+      "endTime": 3,
+      "en": "Lesson 50",
+      "zh": "第50课",
+      "role": "lesson"
+    },
+    {
+      "index": 1,
+      "startTime": 3,
+      "endTime": 9.59,
+      "en": "Taken for a Ride",
+      "zh": "Taken for a Ride",
+      "role": "title"
+    },
+    {
+      "index": 2,
+      "startTime": 9.59,
+      "endTime": 16.09,
+      "en": "Why did the writer not get off the bus at Woodford Green?",
+      "zh": "为什么作者没有在伍德福德格林（Woodford Green）下车呢？",
+      "role": "question"
+    },
+    {
+      "index": 3,
+      "startTime": 16.09,
+      "endTime": 22.63,
+      "en": "I love travelling in the country, but I don't like losing my way.",
+      "zh": "我喜欢在乡村旅行。但我不喜欢迷路。",
+      "role": "body"
+    },
+    {
+      "index": 4,
+      "startTime": 22.63,
+      "endTime": 30.2,
+      "en": "I went on an excursion recently, but my trip took me longer than I expected.",
+      "zh": "我最近去参加了一次短途旅行。但是我的旅行花费的时间比我预期的要长。",
+      "role": "body"
+    },
+    {
+      "index": 5,
+      "startTime": 30.2,
+      "endTime": 32.63,
+      "en": "'I'm going to Woodford Green,'",
+      "zh": "“我要去伍德福德格林。”",
+      "role": "body"
+    },
+    {
+      "index": 6,
+      "startTime": 32.63,
+      "endTime": 36.84,
+      "en": "I said to the conductor as I got on the bus,",
+      "zh": "当我登上公交车时，我对售票员说：",
+      "role": "body"
+    },
+    {
+      "index": 7,
+      "startTime": 36.84,
+      "endTime": 40.5,
+      "en": "'but I don't know where it is.'",
+      "zh": "“但我不知道它在哪里。”",
+      "role": "body"
+    },
+    {
+      "index": 8,
+      "startTime": 40.5,
+      "endTime": 46,
+      "en": "'I'll tell you where to get off.' answered the conductor.",
+      "zh": "“我会告诉您在哪下车。”售票员回答道。",
+      "role": "body"
+    },
+    {
+      "index": 9,
+      "startTime": 46,
+      "endTime": 52.18,
+      "en": "I sat in the front of the bus to get a good view of the countryside.",
+      "zh": "我坐在公交车的前排，以便能更好地欣赏乡村的景色。",
+      "role": "body"
+    },
+    {
+      "index": 10,
+      "startTime": 52.18,
+      "endTime": 55.92,
+      "en": "After some time, the bus stopped.",
+      "zh": "过了一段时间，公交车停了下来。",
+      "role": "body"
+    },
+    {
+      "index": 11,
+      "startTime": 55.92,
+      "endTime": 64.21,
+      "en": "Looking round, I realized with a shock that I was the only passenger left on the bus.",
+      "zh": "环顾四周后，我震惊地发现自己是公交车上唯一剩下的乘客。",
+      "role": "body"
+    },
+    {
+      "index": 12,
+      "startTime": 64.21,
+      "endTime": 72.42,
+      "en": "'You'll have to get off here,' the conductor said. 'This is as far as we go.'",
+      "zh": "“你得从这里下去。”售票员说：“我们就到这儿了。”",
+      "role": "body"
+    },
+    {
+      "index": 13,
+      "startTime": 72.42,
+      "endTime": 76.04,
+      "en": "'Is this Woodford Green?' I asked.",
+      "zh": "“这是伍德福德格林（Woodford Green）吗？”我问道。",
+      "role": "body"
+    },
+    {
+      "index": 14,
+      "startTime": 76.04,
+      "endTime": 80.23,
+      "en": "'Oh dear,' said the conductor suddenly.",
+      "zh": "“哦，天哪，”售票员突然说道。",
+      "role": "body"
+    },
+    {
+      "index": 15,
+      "startTime": 80.23,
+      "endTime": 83.32,
+      "en": "'I forgot to put you off.'",
+      "zh": "“我忘了让您下车。”",
+      "role": "body"
+    },
+    {
+      "index": 16,
+      "startTime": 83.32,
+      "endTime": 88.45,
+      "en": "'It doesn't matter,' I said. 'I'll get off here.'",
+      "zh": "“没关系，”我说，“我就在这儿下车。”",
+      "role": "body"
+    },
+    {
+      "index": 17,
+      "startTime": 88.45,
+      "endTime": 92.68,
+      "en": "'We're going back now,' said the conductor.",
+      "zh": "“我们现在要返回了，”售票员说。",
+      "role": "body"
+    },
+    {
+      "index": 18,
+      "startTime": 92.68,
+      "endTime": 94.9,
+      "en": "'Well, in that case,",
+      "zh": "“嗯，既然是这样的话，",
+      "role": "body"
+    },
+    {
+      "index": 19,
+      "startTime": 94.9,
+      "endTime": null,
+      "en": "I prefer to stay on the bus,' I answered.",
+      "zh": "“我更愿意待在公交车上，”我回答道。",
+      "role": "body"
+    }
+  ],
+  "audio": {
+    "fileName": "50－Taken for a Ride.mp3",
+    "sourcePath": "content/NCE-Flow/NCE2/50－Taken for a Ride.mp3",
+    "exists": true
+  },
+  "source": {
+    "repository": "NCE-Flow",
+    "lrcFileName": "50－Taken for a Ride.lrc",
+    "lrcPath": "content/NCE-Flow/NCE2/50－Taken for a Ride.lrc",
+    "sourceDataFile": "content/NCE-Flow/static/data.json",
+    "generatedAt": "2026-07-23T02:59:02+00:00",
+    "generator": "scripts/generate_nce_json.py",
+    "generatorVersion": "2.0.0",
+    "metadata": {
+      "al": "新概念英语（二）",
+      "ar": "MP3 同步字幕版（美音）",
+      "ti": "Taken for a Ride",
+      "by": "更多学习内容，请到VeryCD.com搜索“露珠”"
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "pephr1-019",
+  "groupId": "pephr1",
+  "unitNo": 5,
+  "sequenceNo": 19,
+  "section": "Listening and Talking",
+  "title": "Pants in American and British English",
+  "jsonPath": "pep-english/lessons/pephr1/019.json",
+  "text": "Martin: Hey, Zhou Wei, do you want to go shopping? There's a sale at my favourite store.\nZhou Wei: Oh, yes! I really need to buy some pants.\nMartin: Pants? That's funny. I don't usually go shopping with my friends for pants.\nZhou Wei: You don't? Don't you like to have somebody tell you if the pants look good or not?\nMartin: Er... Not really... Hey, wait, do you mean trousers—what you and I are wearing on our legs right now?\nZhou Wei: Oh, yes. That's what I mean by pants! That's American English, isn't it?\nMartin: Yes, it is! I knew what you meant, by the way. I was just joking with you. Did you know that in British English, “pants” means something very different?\nZhou Wei: Really? So what does it mean?\nMartin: In British English, the word “pants” means underwear....",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Martin: Hey, Zhou Wei, do you want to go shopping? There's a sale at my favourite store.\nZhou Wei: Oh, yes! I really need to buy some pants.\nMartin: Pants? That's funny. I don't usually go shopping with my friends for pants.\nZhou Wei: You don't? Don't you like to have somebody tell you if the pants look good or not?\nMartin: Er... Not really... Hey, wait, do you mean trousers—what you and I are wearing on our legs right now?\nZhou Wei: Oh, yes. That's what I mean by pants! That's American English, isn't it?\nMartin: Yes, it is! I knew what you meant, by the way. I was just joking with you. Did you know that in British English, “pants” means something very different?\nZhou Wei: Really? So what does it mean?\nMartin: In British English, the word “pants” means underwear...."
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "必修第一册",
+    "pageStart": 72,
+    "pageEnd": 72,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "e0bf18138b24d7def28b35994a13946b",
+    "pdfSize": 14704146,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/senior-required-1.pdf#page=72",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored the complete nine-turn misunderstanding and resolution about the British and American meanings of pants; removed listening questions, word-pair prompts and the clarification-expression box. The final ellipsis is printed after the resolved punchline, not an omitted continuation."
+    }
+  }
+}

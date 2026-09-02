@@ -1,0 +1,151 @@
+{
+  "schemaVersion": 1,
+  "id": "nce2-023",
+  "bookId": "nce2",
+  "bookNo": 2,
+  "lessonNo": 23,
+  "lessonRange": [
+    23
+  ],
+  "title": "A New House",
+  "titleZh": "新房子",
+  "question": "Why is the new house special?",
+  "questionZh": "为什么这栋新房子这么特别呢？",
+  "text": "Why is the new house special?\n\nI had a letter from my sister yesterday.\nShe lives in Nigeria.\nIn her letter, she said that she would come to England next year.\nIf she comes, she will get a surprise.\nWe are now living in a beautiful new house in the country.\nWork on it had begun before my sister left.\nThe house was completed five months ago.\nIn my letter, I told her that she could stay with us.\nThe house has many large rooms and there is a lovely garden.\nIt is a very modern house, so it looks strange to some people.\nIt must be the only modern house in the district.",
+  "bodyText": "I had a letter from my sister yesterday.\nShe lives in Nigeria.\nIn her letter, she said that she would come to England next year.\nIf she comes, she will get a surprise.\nWe are now living in a beautiful new house in the country.\nWork on it had begun before my sister left.\nThe house was completed five months ago.\nIn my letter, I told her that she could stay with us.\nThe house has many large rooms and there is a lovely garden.\nIt is a very modern house, so it looks strange to some people.\nIt must be the only modern house in the district.",
+  "bodyTextZh": "我昨天收到了姐姐的一封信。\n她住在尼日利亚。\n她在信中说，她明年会来英格兰。\n如果她来了，她会收到一个惊喜。\n我们现在住在乡下的一栋漂亮的新房子里。\n我妹妹离开前，这栋房子就已经开始建了。\n这栋房子是在五个月前建成的。\n我在信里告诉她，她可以和我们住在一起。\n这栋房子有很多宽敞的房间，还有一个非常漂亮的花园。\n这是一栋非常现代化的房子，因此有些人会觉得它看起来很奇怪。\n这一定是这个地区唯一的一栋现代化房子了。",
+  "sentences": [
+    {
+      "index": 0,
+      "startTime": 0.5,
+      "endTime": 3,
+      "en": "Lesson 23",
+      "zh": "第23课",
+      "role": "lesson"
+    },
+    {
+      "index": 1,
+      "startTime": 3,
+      "endTime": 10.53,
+      "en": "A New House",
+      "zh": "新房子",
+      "role": "title"
+    },
+    {
+      "index": 2,
+      "startTime": 10.53,
+      "endTime": 15.29,
+      "en": "Why is the new house special?",
+      "zh": "为什么这栋新房子这么特别呢？",
+      "role": "question"
+    },
+    {
+      "index": 3,
+      "startTime": 15.29,
+      "endTime": 19.23,
+      "en": "I had a letter from my sister yesterday.",
+      "zh": "我昨天收到了姐姐的一封信。",
+      "role": "body"
+    },
+    {
+      "index": 4,
+      "startTime": 19.23,
+      "endTime": 22.23,
+      "en": "She lives in Nigeria.",
+      "zh": "她住在尼日利亚。",
+      "role": "body"
+    },
+    {
+      "index": 5,
+      "startTime": 22.23,
+      "endTime": 28.38,
+      "en": "In her letter, she said that she would come to England next year.",
+      "zh": "她在信中说，她明年会来英格兰。",
+      "role": "body"
+    },
+    {
+      "index": 6,
+      "startTime": 28.38,
+      "endTime": 32.58,
+      "en": "If she comes, she will get a surprise.",
+      "zh": "如果她来了，她会收到一个惊喜。",
+      "role": "body"
+    },
+    {
+      "index": 7,
+      "startTime": 32.58,
+      "endTime": 37.85,
+      "en": "We are now living in a beautiful new house in the country.",
+      "zh": "我们现在住在乡下的一栋漂亮的新房子里。",
+      "role": "body"
+    },
+    {
+      "index": 8,
+      "startTime": 37.85,
+      "endTime": 42.58,
+      "en": "Work on it had begun before my sister left.",
+      "zh": "我妹妹离开前，这栋房子就已经开始建了。",
+      "role": "body"
+    },
+    {
+      "index": 9,
+      "startTime": 42.58,
+      "endTime": 46.5,
+      "en": "The house was completed five months ago.",
+      "zh": "这栋房子是在五个月前建成的。",
+      "role": "body"
+    },
+    {
+      "index": 10,
+      "startTime": 46.5,
+      "endTime": 51.52,
+      "en": "In my letter, I told her that she could stay with us.",
+      "zh": "我在信里告诉她，她可以和我们住在一起。",
+      "role": "body"
+    },
+    {
+      "index": 11,
+      "startTime": 51.52,
+      "endTime": 57.35,
+      "en": "The house has many large rooms and there is a lovely garden.",
+      "zh": "这栋房子有很多宽敞的房间，还有一个非常漂亮的花园。",
+      "role": "body"
+    },
+    {
+      "index": 12,
+      "startTime": 57.35,
+      "endTime": 63.69,
+      "en": "It is a very modern house, so it looks strange to some people.",
+      "zh": "这是一栋非常现代化的房子，因此有些人会觉得它看起来很奇怪。",
+      "role": "body"
+    },
+    {
+      "index": 13,
+      "startTime": 63.69,
+      "endTime": null,
+      "en": "It must be the only modern house in the district.",
+      "zh": "这一定是这个地区唯一的一栋现代化房子了。",
+      "role": "body"
+    }
+  ],
+  "audio": {
+    "fileName": "23－A New House.mp3",
+    "sourcePath": "content/NCE-Flow/NCE2/23－A New House.mp3",
+    "exists": true
+  },
+  "source": {
+    "repository": "NCE-Flow",
+    "lrcFileName": "23－A New House.lrc",
+    "lrcPath": "content/NCE-Flow/NCE2/23－A New House.lrc",
+    "sourceDataFile": "content/NCE-Flow/static/data.json",
+    "generatedAt": "2026-07-23T02:59:02+00:00",
+    "generator": "scripts/generate_nce_json.py",
+    "generatorVersion": "2.0.0",
+    "metadata": {
+      "al": "新概念英语（二）",
+      "ar": "MP3 同步字幕版（美音）",
+      "ti": "A New House",
+      "by": "更多学习内容，请到VeryCD.com搜索“露珠”"
+    }
+  }
+}

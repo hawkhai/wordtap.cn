@@ -1,0 +1,38 @@
+/* 桌面端专属样式 — 仅在较大屏幕上生效 */
+/* 桌面端标准断点：768px, 1024px */
+
+/* 768px: 品牌栏双列 */
+@media (min-width: 768px) {
+  .study-brandbar {
+    grid-template-columns: minmax(18rem, 1fr) minmax(21rem, 28rem);
+    align-items: center;
+  }
+}
+
+/* 768px: 头部操作区右对齐 */
+@media (min-width: 768px) {
+  .study-header-actions {
+    justify-items: end;
+  }
+}
+
+/* 1024px: 学习区双列布局（侧边栏+主内容） */
+@media (min-width: 1024px) {
+  .study-desk {
+    grid-template-columns: 19rem minmax(0, 1fr);
+  }
+}
+
+/* 1024px: 侧边栏 sticky 定位 */
+@media (min-width: 1024px) {
+  .study-word-card {
+    top: 1rem;
+    z-index: 1;
+    align-self: start;
+    max-height: none;
+    overflow: visible;
+    border-right: 1px solid rgba(74, 104, 86, 0.2);
+    border-bottom: 0;
+    box-shadow: none;
+  }
+}

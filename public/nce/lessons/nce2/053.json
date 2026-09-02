@@ -1,0 +1,159 @@
+{
+  "schemaVersion": 1,
+  "id": "nce2-053",
+  "bookId": "nce2",
+  "bookNo": 2,
+  "lessonNo": 53,
+  "lessonRange": [
+    53
+  ],
+  "title": "Hot Snake",
+  "titleZh": "Hot Snake",
+  "question": "What caused the fire?",
+  "questionZh": "是什么导致了这场火灾？",
+  "text": "What caused the fire?\n\nAt last firemen have put out a big forest fire in California.\nSince then, they have been trying to find out how the fire began.\nForest fires are often caused by broken glass or by cigarette ends which people carelessly throw away.\nYesterday the firemen examined the ground carefully, but were not able to find any broken glass.\nThey were also quite sure that a cigarette end did not start the fire.\nThis morning, however, a firemen accidentally discovered the cause.\nHe noticed the remains of a snake which was wound round the electric wires of a 16, 000-volt power line.\nIn this way, he was able to solve the mystery.\nThe explanation was simple but very unusual.\nA bird had snatched up the snake from the ground and then dropped it on to the wires.\nThe snake then wound itself round the wires.\nWhen it did so, it sent sparks down to the ground and these immediately started a fire.",
+  "bodyText": "At last firemen have put out a big forest fire in California.\nSince then, they have been trying to find out how the fire began.\nForest fires are often caused by broken glass or by cigarette ends which people carelessly throw away.\nYesterday the firemen examined the ground carefully, but were not able to find any broken glass.\nThey were also quite sure that a cigarette end did not start the fire.\nThis morning, however, a firemen accidentally discovered the cause.\nHe noticed the remains of a snake which was wound round the electric wires of a 16, 000-volt power line.\nIn this way, he was able to solve the mystery.\nThe explanation was simple but very unusual.\nA bird had snatched up the snake from the ground and then dropped it on to the wires.\nThe snake then wound itself round the wires.\nWhen it did so, it sent sparks down to the ground and these immediately started a fire.",
+  "bodyTextZh": "消防员们终于扑灭了加利福尼亚州的那场大规模森林火灾。\n从那以后，他们一直在试图查明火灾的起因。\n森林火灾通常是由碎玻璃或人们随意丢弃的烟头引起的。\n昨天，消防员们仔细地检查了那片地面。但他们没有发现任何碎玻璃。\n他们也非常确定，火灾并不是由烟头引起的。\n然而，今天早上，一名消防员意外地发现了火灾的原因。\n他发现了一条蛇的残骸，那条蛇缠绕在一条16,000伏高压电线上。\n通过这种方式，他终于解开了这个谜团。\n这个解释很简单，但却非常不寻常。\n一只鸟从地上抓起了那条蛇，然后把它扔到了电线上。\n然后，那条蛇缠住了那些电线。\n当它这样做时，火花溅到了地上，立刻引发了火灾。",
+  "sentences": [
+    {
+      "index": 0,
+      "startTime": 0.5,
+      "endTime": 3,
+      "en": "Lesson 53",
+      "zh": "第53课",
+      "role": "lesson"
+    },
+    {
+      "index": 1,
+      "startTime": 3,
+      "endTime": 10.58,
+      "en": "Hot Snake",
+      "zh": "Hot Snake",
+      "role": "title"
+    },
+    {
+      "index": 2,
+      "startTime": 10.58,
+      "endTime": 14.44,
+      "en": "What caused the fire?",
+      "zh": "是什么导致了这场火灾？",
+      "role": "question"
+    },
+    {
+      "index": 3,
+      "startTime": 14.44,
+      "endTime": 21.11,
+      "en": "At last firemen have put out a big forest fire in California.",
+      "zh": "消防员们终于扑灭了加利福尼亚州的那场大规模森林火灾。",
+      "role": "body"
+    },
+    {
+      "index": 4,
+      "startTime": 21.11,
+      "endTime": 27.63,
+      "en": "Since then, they have been trying to find out how the fire began.",
+      "zh": "从那以后，他们一直在试图查明火灾的起因。",
+      "role": "body"
+    },
+    {
+      "index": 5,
+      "startTime": 27.63,
+      "endTime": 37.96,
+      "en": "Forest fires are often caused by broken glass or by cigarette ends which people carelessly throw away.",
+      "zh": "森林火灾通常是由碎玻璃或人们随意丢弃的烟头引起的。",
+      "role": "body"
+    },
+    {
+      "index": 6,
+      "startTime": 37.96,
+      "endTime": 46.8,
+      "en": "Yesterday the firemen examined the ground carefully, but were not able to find any broken glass.",
+      "zh": "昨天，消防员们仔细地检查了那片地面。但他们没有发现任何碎玻璃。",
+      "role": "body"
+    },
+    {
+      "index": 7,
+      "startTime": 46.8,
+      "endTime": 53.01,
+      "en": "They were also quite sure that a cigarette end did not start the fire.",
+      "zh": "他们也非常确定，火灾并不是由烟头引起的。",
+      "role": "body"
+    },
+    {
+      "index": 8,
+      "startTime": 53.01,
+      "endTime": 59.38,
+      "en": "This morning, however, a firemen accidentally discovered the cause.",
+      "zh": "然而，今天早上，一名消防员意外地发现了火灾的原因。",
+      "role": "body"
+    },
+    {
+      "index": 9,
+      "startTime": 59.38,
+      "endTime": 69.98,
+      "en": "He noticed the remains of a snake which was wound round the electric wires of a 16, 000-volt power line.",
+      "zh": "他发现了一条蛇的残骸，那条蛇缠绕在一条16,000伏高压电线上。",
+      "role": "body"
+    },
+    {
+      "index": 10,
+      "startTime": 69.98,
+      "endTime": 74.65,
+      "en": "In this way, he was able to solve the mystery.",
+      "zh": "通过这种方式，他终于解开了这个谜团。",
+      "role": "body"
+    },
+    {
+      "index": 11,
+      "startTime": 74.65,
+      "endTime": 80.03,
+      "en": "The explanation was simple but very unusual.",
+      "zh": "这个解释很简单，但却非常不寻常。",
+      "role": "body"
+    },
+    {
+      "index": 12,
+      "startTime": 80.03,
+      "endTime": 87.83,
+      "en": "A bird had snatched up the snake from the ground and then dropped it on to the wires.",
+      "zh": "一只鸟从地上抓起了那条蛇，然后把它扔到了电线上。",
+      "role": "body"
+    },
+    {
+      "index": 13,
+      "startTime": 87.83,
+      "endTime": 91.74,
+      "en": "The snake then wound itself round the wires.",
+      "zh": "然后，那条蛇缠住了那些电线。",
+      "role": "body"
+    },
+    {
+      "index": 14,
+      "startTime": 91.74,
+      "endTime": null,
+      "en": "When it did so, it sent sparks down to the ground and these immediately started a fire.",
+      "zh": "当它这样做时，火花溅到了地上，立刻引发了火灾。",
+      "role": "body"
+    }
+  ],
+  "audio": {
+    "fileName": "53－Hot Snake.mp3",
+    "sourcePath": "content/NCE-Flow/NCE2/53－Hot Snake.mp3",
+    "exists": true
+  },
+  "source": {
+    "repository": "NCE-Flow",
+    "lrcFileName": "53－Hot Snake.lrc",
+    "lrcPath": "content/NCE-Flow/NCE2/53－Hot Snake.lrc",
+    "sourceDataFile": "content/NCE-Flow/static/data.json",
+    "generatedAt": "2026-07-23T02:59:02+00:00",
+    "generator": "scripts/generate_nce_json.py",
+    "generatorVersion": "2.0.0",
+    "metadata": {
+      "al": "新概念英语（二）",
+      "ar": "MP3 同步字幕版（美音）",
+      "ti": "Hot Snake",
+      "by": "更多学习内容，请到VeryCD.com搜索“露珠”"
+    }
+  }
+}

@@ -1,0 +1,224 @@
+{
+  "schemaVersion": 1,
+  "id": "nce1-131",
+  "bookId": "nce1",
+  "bookNo": 1,
+  "lessonNo": 131,
+  "lessonRange": [
+    131,
+    132
+  ],
+  "title": "Don't be So Sure",
+  "titleZh": "别那么确定！",
+  "question": "What's the problem about deciding on a holiday?",
+  "questionZh": "在决定度假这件事上有什么问题吗？",
+  "text": "What's the problem about deciding on a holiday?\n\nWhere are you going to spend your holidays this year, Gary?\nWe may go abroad.\nI'm not sure.\nMy wife wants to go to Egypt.\nI'd like to go there, too.\nWe can't make up our minds.\nWill you travel by sea or by air?\nWe may travel by sea.\nIt's cheaper, isn't it?\nIt may be cheaper, but it takes a long time.\nI'm sure you'll enjoy yourselves.\nDon't be so sure.\nWe might not go anywhere.\nMy wife always worries too much.\nWho's going to look after the dog?\nWho's going to look after the house?\nWho's going to look after the garden?\nWe have this problem every year.\nIn the end, we stay at home and look after everything!",
+  "bodyText": "Where are you going to spend your holidays this year, Gary?\nWe may go abroad.\nI'm not sure.\nMy wife wants to go to Egypt.\nI'd like to go there, too.\nWe can't make up our minds.\nWill you travel by sea or by air?\nWe may travel by sea.\nIt's cheaper, isn't it?\nIt may be cheaper, but it takes a long time.\nI'm sure you'll enjoy yourselves.\nDon't be so sure.\nWe might not go anywhere.\nMy wife always worries too much.\nWho's going to look after the dog?\nWho's going to look after the house?\nWho's going to look after the garden?\nWe have this problem every year.\nIn the end, we stay at home and look after everything!",
+  "bodyTextZh": "加里，今年你打算在哪里度过假期呢？\n我们可能会出国旅行。\n我还不确定。\n我妻子想去埃及。\n我也想去那里。\n我们还是拿不定主意。\n你们会乘船去还是乘飞机去？\n我们可能会选择乘船。\n这更便宜，不是吗？\n可能便宜是便宜，但是要花很长时间。\n我相信你们会玩得很开心的。\n别这么确定。\n我们可能哪儿也去不成。\n我妻子总是过于担心了。\n谁来照顾这只狗呢？\n谁来负责照看这栋房子呢？\n谁来负责照看这个花园呢？\n我们每年都会遇到这个问题。\n最终，我们还是待在家里，负责照顾所有的事情！",
+  "sentences": [
+    {
+      "index": 0,
+      "startTime": 0.66,
+      "endTime": 3.36,
+      "en": "Lesson 131",
+      "zh": "第131课",
+      "role": "lesson"
+    },
+    {
+      "index": 1,
+      "startTime": 3.36,
+      "endTime": 7.28,
+      "en": "Don't be so sure!",
+      "zh": "别那么确定！",
+      "role": "title"
+    },
+    {
+      "index": 2,
+      "startTime": 7.28,
+      "endTime": 13.03,
+      "en": "Listen to the tape then answer this question.",
+      "zh": "先听一下录音，然后再回答这个问题。",
+      "role": "prompt"
+    },
+    {
+      "index": 3,
+      "startTime": 13.03,
+      "endTime": 19.7,
+      "en": "What's the problem about deciding on a holiday?",
+      "zh": "在决定度假这件事上有什么问题吗？",
+      "role": "question"
+    },
+    {
+      "index": 4,
+      "startTime": 19.7,
+      "endTime": 25.84,
+      "en": "Where are you going to spend your holidays this year, Gary?",
+      "zh": "加里，今年你打算在哪里度过假期呢？",
+      "role": "body"
+    },
+    {
+      "index": 5,
+      "startTime": 25.84,
+      "endTime": 28.6,
+      "en": "We may go abroad.",
+      "zh": "我们可能会出国旅行。",
+      "role": "body"
+    },
+    {
+      "index": 6,
+      "startTime": 28.6,
+      "endTime": 30.97,
+      "en": "I'm not sure.",
+      "zh": "我还不确定。",
+      "role": "body"
+    },
+    {
+      "index": 7,
+      "startTime": 30.97,
+      "endTime": 34.66,
+      "en": "My wife wants to go to Egypt.",
+      "zh": "我妻子想去埃及。",
+      "role": "body"
+    },
+    {
+      "index": 8,
+      "startTime": 34.66,
+      "endTime": 37.93,
+      "en": "I'd like to go there, too.",
+      "zh": "我也想去那里。",
+      "role": "body"
+    },
+    {
+      "index": 9,
+      "startTime": 37.93,
+      "endTime": 41.88,
+      "en": "We can't make up our minds.",
+      "zh": "我们还是拿不定主意。",
+      "role": "body"
+    },
+    {
+      "index": 10,
+      "startTime": 41.88,
+      "endTime": 46.03,
+      "en": "Will you travel by sea or by air?",
+      "zh": "你们会乘船去还是乘飞机去？",
+      "role": "body"
+    },
+    {
+      "index": 11,
+      "startTime": 46.03,
+      "endTime": 49.34,
+      "en": "We may travel by sea.",
+      "zh": "我们可能会选择乘船。",
+      "role": "body"
+    },
+    {
+      "index": 12,
+      "startTime": 49.34,
+      "endTime": 51.76,
+      "en": "It's cheaper, isn't it?",
+      "zh": "这更便宜，不是吗？",
+      "role": "body"
+    },
+    {
+      "index": 13,
+      "startTime": 51.76,
+      "endTime": 57.18,
+      "en": "It may be cheaper, but it takes a long time.",
+      "zh": "可能便宜是便宜，但是要花很长时间。",
+      "role": "body"
+    },
+    {
+      "index": 14,
+      "startTime": 57.18,
+      "endTime": 60.28,
+      "en": "I'm sure you'll enjoy yourselves.",
+      "zh": "我相信你们会玩得很开心的。",
+      "role": "body"
+    },
+    {
+      "index": 15,
+      "startTime": 60.28,
+      "endTime": 62.35,
+      "en": "Don't be so sure.",
+      "zh": "别这么确定。",
+      "role": "body"
+    },
+    {
+      "index": 16,
+      "startTime": 62.35,
+      "endTime": 65.11,
+      "en": "We might not go anywhere.",
+      "zh": "我们可能哪儿也去不成。",
+      "role": "body"
+    },
+    {
+      "index": 17,
+      "startTime": 65.11,
+      "endTime": 69.05,
+      "en": "My wife always worries too much.",
+      "zh": "我妻子总是过于担心了。",
+      "role": "body"
+    },
+    {
+      "index": 18,
+      "startTime": 69.05,
+      "endTime": 72.53,
+      "en": "Who's going to look after the dog?",
+      "zh": "谁来照顾这只狗呢？",
+      "role": "body"
+    },
+    {
+      "index": 19,
+      "startTime": 72.53,
+      "endTime": 76.08,
+      "en": "Who's going to look after the house?",
+      "zh": "谁来负责照看这栋房子呢？",
+      "role": "body"
+    },
+    {
+      "index": 20,
+      "startTime": 76.08,
+      "endTime": 79.66,
+      "en": "Who's going to look after the garden?",
+      "zh": "谁来负责照看这个花园呢？",
+      "role": "body"
+    },
+    {
+      "index": 21,
+      "startTime": 79.66,
+      "endTime": 83.11,
+      "en": "We have this problem every year.",
+      "zh": "我们每年都会遇到这个问题。",
+      "role": "body"
+    },
+    {
+      "index": 22,
+      "startTime": 83.11,
+      "endTime": null,
+      "en": "In the end, we stay at home and look after everything!",
+      "zh": "最终，我们还是待在家里，负责照顾所有的事情！",
+      "role": "body"
+    }
+  ],
+  "audio": {
+    "fileName": "131&132－Don't be So Sure.mp3",
+    "sourcePath": "content/NCE-Flow/NCE1/131&132－Don't be So Sure.mp3",
+    "exists": true
+  },
+  "source": {
+    "repository": "NCE-Flow",
+    "lrcFileName": "131&132－Don't be So Sure.lrc",
+    "lrcPath": "content/NCE-Flow/NCE1/131&132－Don't be So Sure.lrc",
+    "sourceDataFile": "content/NCE-Flow/static/data.json",
+    "generatedAt": "2026-07-23T02:59:02+00:00",
+    "generator": "scripts/generate_nce_json.py",
+    "generatorVersion": "2.0.0",
+    "metadata": {
+      "al": "新概念英语（一）",
+      "ar": "MP3 同步字幕版（美音）",
+      "ti": "Don't be So Sure!",
+      "by": "更多学习内容，请到VeryCD.com搜索“露珠”"
+    }
+  }
+}

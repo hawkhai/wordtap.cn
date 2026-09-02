@@ -1,0 +1,159 @@
+{
+  "schemaVersion": 1,
+  "id": "nce2-056",
+  "bookId": "nce2",
+  "bookNo": 2,
+  "lessonNo": 56,
+  "lessonRange": [
+    56
+  ],
+  "title": "Faster Than Sound",
+  "titleZh": "比声音还快",
+  "question": "How fast did the winning car go?",
+  "questionZh": "那辆获胜的汽车速度有多快？",
+  "text": "How fast did the winning car go?\n\nOnce a year, a race is held for old cars.\nA lot of cars entered for this race last year and there was a great deal of excitement just before it began.\nOne of the most handsome cars was a Rolls-Royce Silver Ghost.\nThe most unusual car was a Benz which had only three wheels.\nBuilt in 1885, it was the oldest car taking part.\nAfter a great many loud explosions, the race began.\nMany of the cars broke down on the course and some drivers spent more time under their cars than in them!\nA few cars, however, completed the race.\nThe winning car reached a speed of forty miles an hour -- much faster than any of its rivals.\nIt sped downhill at the end of the race and its driver had a lot of trouble trying to stop it.\nThe race gave everyone a great deal of pleasure.\nIt was very different from modern car races but no less exciting.",
+  "bodyText": "Once a year, a race is held for old cars.\nA lot of cars entered for this race last year and there was a great deal of excitement just before it began.\nOne of the most handsome cars was a Rolls-Royce Silver Ghost.\nThe most unusual car was a Benz which had only three wheels.\nBuilt in 1885, it was the oldest car taking part.\nAfter a great many loud explosions, the race began.\nMany of the cars broke down on the course and some drivers spent more time under their cars than in them!\nA few cars, however, completed the race.\nThe winning car reached a speed of forty miles an hour -- much faster than any of its rivals.\nIt sped downhill at the end of the race and its driver had a lot of trouble trying to stop it.\nThe race gave everyone a great deal of pleasure.\nIt was very different from modern car races but no less exciting.",
+  "bodyTextZh": "每年都会举办一场专为老爷车设计的比赛。\n去年有很多车报名参加了这场比赛，比赛开始前气氛十分热烈。\n其中最引人注目的汽车之一是劳斯莱斯银魅（Rolls-Royce Silver Ghost）。\n最不寻常的汽车是一辆只有三个轮子的奔驰（Benz）汽车。\n这辆汽车建于1885年，是参赛车辆中历史最悠久的一辆。\n在一阵巨大的轰鸣声后，比赛开始了。\n许多汽车在赛道上发生了故障；有些司机花在检查汽车故障上的时间，甚至比他们实际驾驶汽车的时间还要长！\n然而，还是有几辆车完成了比赛。\n获胜的汽车达到了每小时40英里的速度——这比它的所有竞争对手都要快得多。\n比赛结束时，这辆车飞速冲下山坡，驾驶员费了好大劲才把它停下来。\n这场比赛给大家带来了极大的乐趣。\n这与现代的汽车比赛非常不同，但同样令人兴奋。",
+  "sentences": [
+    {
+      "index": 0,
+      "startTime": 0.5,
+      "endTime": 3,
+      "en": "Lesson 56",
+      "zh": "第56课",
+      "role": "lesson"
+    },
+    {
+      "index": 1,
+      "startTime": 3,
+      "endTime": 10.5,
+      "en": "Faster Than Sound",
+      "zh": "比声音还快",
+      "role": "title"
+    },
+    {
+      "index": 2,
+      "startTime": 10.5,
+      "endTime": 15.46,
+      "en": "How fast did the winning car go?",
+      "zh": "那辆获胜的汽车速度有多快？",
+      "role": "question"
+    },
+    {
+      "index": 3,
+      "startTime": 15.46,
+      "endTime": 20.93,
+      "en": "Once a year, a race is held for old cars.",
+      "zh": "每年都会举办一场专为老爷车设计的比赛。",
+      "role": "body"
+    },
+    {
+      "index": 4,
+      "startTime": 20.93,
+      "endTime": 30.67,
+      "en": "A lot of cars entered for this race last year and there was a great deal of excitement just before it began.",
+      "zh": "去年有很多车报名参加了这场比赛，比赛开始前气氛十分热烈。",
+      "role": "body"
+    },
+    {
+      "index": 5,
+      "startTime": 30.67,
+      "endTime": 36.65,
+      "en": "One of the most handsome cars was a Rolls-Royce Silver Ghost.",
+      "zh": "其中最引人注目的汽车之一是劳斯莱斯银魅（Rolls-Royce Silver Ghost）。",
+      "role": "body"
+    },
+    {
+      "index": 6,
+      "startTime": 36.65,
+      "endTime": 43.42,
+      "en": "The most unusual car was a Benz which had only three wheels.",
+      "zh": "最不寻常的汽车是一辆只有三个轮子的奔驰（Benz）汽车。",
+      "role": "body"
+    },
+    {
+      "index": 7,
+      "startTime": 43.42,
+      "endTime": 50.17,
+      "en": "Built in 1885, it was the oldest car taking part.",
+      "zh": "这辆汽车建于1885年，是参赛车辆中历史最悠久的一辆。",
+      "role": "body"
+    },
+    {
+      "index": 8,
+      "startTime": 50.17,
+      "endTime": 56.11,
+      "en": "After a great many loud explosions, the race began.",
+      "zh": "在一阵巨大的轰鸣声后，比赛开始了。",
+      "role": "body"
+    },
+    {
+      "index": 9,
+      "startTime": 56.11,
+      "endTime": 65.86,
+      "en": "Many of the cars broke down on the course and some drivers spent more time under their cars than in them!",
+      "zh": "许多汽车在赛道上发生了故障；有些司机花在检查汽车故障上的时间，甚至比他们实际驾驶汽车的时间还要长！",
+      "role": "body"
+    },
+    {
+      "index": 10,
+      "startTime": 65.86,
+      "endTime": 69.7,
+      "en": "A few cars, however, completed the race.",
+      "zh": "然而，还是有几辆车完成了比赛。",
+      "role": "body"
+    },
+    {
+      "index": 11,
+      "startTime": 69.7,
+      "endTime": 78.47,
+      "en": "The winning car reached a speed of forty miles an hour -- much faster than any of its rivals.",
+      "zh": "获胜的汽车达到了每小时40英里的速度——这比它的所有竞争对手都要快得多。",
+      "role": "body"
+    },
+    {
+      "index": 12,
+      "startTime": 78.47,
+      "endTime": 86.04,
+      "en": "It sped downhill at the end of the race and its driver had a lot of trouble trying to stop it.",
+      "zh": "比赛结束时，这辆车飞速冲下山坡，驾驶员费了好大劲才把它停下来。",
+      "role": "body"
+    },
+    {
+      "index": 13,
+      "startTime": 86.04,
+      "endTime": 90.19,
+      "en": "The race gave everyone a great deal of pleasure.",
+      "zh": "这场比赛给大家带来了极大的乐趣。",
+      "role": "body"
+    },
+    {
+      "index": 14,
+      "startTime": 90.19,
+      "endTime": null,
+      "en": "It was very different from modern car races but no less exciting.",
+      "zh": "这与现代的汽车比赛非常不同，但同样令人兴奋。",
+      "role": "body"
+    }
+  ],
+  "audio": {
+    "fileName": "56－Faster Than Sound.mp3",
+    "sourcePath": "content/NCE-Flow/NCE2/56－Faster Than Sound.mp3",
+    "exists": true
+  },
+  "source": {
+    "repository": "NCE-Flow",
+    "lrcFileName": "56－Faster Than Sound.lrc",
+    "lrcPath": "content/NCE-Flow/NCE2/56－Faster Than Sound.lrc",
+    "sourceDataFile": "content/NCE-Flow/static/data.json",
+    "generatedAt": "2026-07-23T02:59:02+00:00",
+    "generator": "scripts/generate_nce_json.py",
+    "generatorVersion": "2.0.0",
+    "metadata": {
+      "al": "新概念英语（二）",
+      "ar": "MP3 同步字幕版（美音）",
+      "ti": "Faster Than Sound!",
+      "by": "更多学习内容，请到VeryCD.com搜索“露珠”"
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "pephs2-019",
+  "groupId": "pephs2",
+  "unitNo": 3,
+  "sequenceNo": 19,
+  "section": "Reading and Writing",
+  "title": "Convenience Food or Fresh Food?",
+  "jsonPath": "pep-english/lessons/pephs2/019.json",
+  "text": "A new survey indicates that young people in China much prefer making fresh food to buying prepared food. Mei Lin, for example, is 22 and she is a college graduate from Anhui. Mei Lin has stopped buying cheap food at the supermarket. “I would much prefer my own bowl of noodles with fresh vegetables and a few spices to the packaged noodles I can buy in a store. It’s fresher and healthier, especially since I lead an active life.” Mei Lin often goes jogging in the evening and plays tennis at the weekend, in addition to swimming and training for a marathon in Xiamen in the autumn. She believes her fresh food choices help her stay fit and active.\nBut the trend isn’t one that only women are taking up. Su Bo, a 26-year-old computer programmer in Shenzhen, says that he has given up eating packaged meals except when he’s travelling for work. “For me, it’s a matter of wanting to be healthy and having enough energy. I have a very demanding job, and I need a sharp mind and strong body. It does take more time to go shopping, but I find my energy levels are higher when I eat fresh food.” Su Bo used to order many of his meals online, so that he could spend more time working, but he soon stopped this habit. “I realised it wasn’t good to never take a break from my job,” he said. “Besides, the food often made me ill.” For Su Bo this meant cooking his own vegetables, eating less meat, and carrying fruit to work for lunch. “Sometimes I buy one or two baozi from the food store on the corner, but I usually make and bring my own lunch to work.” Like Mei Lin, Su Bo insists that eating healthy food helps him with his fitness routine.\nBoth admit that in times of stress or busy periods at work, they do sometimes give in and eat fast food or packaged meals. “Sometimes I just have to eat something on the run,” says Mei Lin. “But I always regret it. I am so used to my diet now that when I eat less healthy food, I feel tired. I exercise less as a result.” Su Bo insists that he does still sometimes enjoy eating on the go. “But I almost always eat healthy meals. Because I live at home and my mother prefers to eat like I do, we often cook together. It’s my father who likes to eat fast food in front of the TV,” he laughs.\nWhen asked whether their eating habits are common among their age group, both Mei Lin and Su Bo say they are. Yet, it’s not clear whether this food trend will be adopted by other young Chinese people. Are Mei Lin and Su Bo unique or are they setting a new trend? It’s too early to say.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "A new survey indicates that young people in China much prefer making fresh food to buying prepared food. Mei Lin, for example, is 22 and she is a college graduate from Anhui. Mei Lin has stopped buying cheap food at the supermarket. “I would much prefer my own bowl of noodles with fresh vegetables and a few spices to the packaged noodles I can buy in a store. It’s fresher and healthier, especially since I lead an active life.” Mei Lin often goes jogging in the evening and plays tennis at the weekend, in addition to swimming and training for a marathon in Xiamen in the autumn. She believes her fresh food choices help her stay fit and active."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "But the trend isn’t one that only women are taking up. Su Bo, a 26-year-old computer programmer in Shenzhen, says that he has given up eating packaged meals except when he’s travelling for work. “For me, it’s a matter of wanting to be healthy and having enough energy. I have a very demanding job, and I need a sharp mind and strong body. It does take more time to go shopping, but I find my energy levels are higher when I eat fresh food.” Su Bo used to order many of his meals online, so that he could spend more time working, but he soon stopped this habit. “I realised it wasn’t good to never take a break from my job,” he said. “Besides, the food often made me ill.” For Su Bo this meant cooking his own vegetables, eating less meat, and carrying fruit to work for lunch. “Sometimes I buy one or two baozi from the food store on the corner, but I usually make and bring my own lunch to work.” Like Mei Lin, Su Bo insists that eating healthy food helps him with his fitness routine."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Both admit that in times of stress or busy periods at work, they do sometimes give in and eat fast food or packaged meals. “Sometimes I just have to eat something on the run,” says Mei Lin. “But I always regret it. I am so used to my diet now that when I eat less healthy food, I feel tired. I exercise less as a result.” Su Bo insists that he does still sometimes enjoy eating on the go. “But I almost always eat healthy meals. Because I live at home and my mother prefers to eat like I do, we often cook together. It’s my father who likes to eat fast food in front of the TV,” he laughs."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "When asked whether their eating habits are common among their age group, both Mei Lin and Su Bo say they are. Yet, it’s not clear whether this food trend will be adopted by other young Chinese people. Are Mei Lin and Su Bo unique or are they setting a new trend? It’s too early to say."
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "选择性必修第二册",
+    "pageStart": 85,
+    "pageEnd": 85,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "1a701f2205298de95ea59cfc71eb83cd",
+    "pdfSize": 9968316,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/senior-selective-2.pdf#page=85",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored the complete four-paragraph survey feature about Mei Lin and Su Bo; excluded the reading instruction, one comment at the foot of page 85, two comments and all exercises on page 86."
+    }
+  }
+}

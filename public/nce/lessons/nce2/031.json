@@ -1,0 +1,151 @@
+{
+  "schemaVersion": 1,
+  "id": "nce2-031",
+  "bookId": "nce2",
+  "bookNo": 2,
+  "lessonNo": 31,
+  "lessonRange": [
+    31
+  ],
+  "title": "Success Story",
+  "titleZh": "成功的故事",
+  "question": "What was Frank's first job?",
+  "questionZh": "弗兰克的第一份工作是什么？",
+  "text": "What was Frank's first job?\n\nYesterday afternoon Frank Hawkins was telling me about his experiences as a young man.\nBefore he retired,\nFrank was the head of a very large business company, but as a boy he used to work in a small shop.\nIt was his job to repair bicycles and at that time he used to work fourteen hours a day.\nHe saved money for years and in 1958 he bought a small workshop of his own.\nIn his twenties Frank used to make spare parts for aeroplanes.\nAt that time he had two helpers.\nIn a few years the small workshop had become a large factory which employed seven hundred and twenty-eight people.\nFrank smiled when he remembered his hard early years and the long road to success.\nHe was still smiling when the door opened and his wife came in.\nShe wanted him to repair their grandson's bicycle!",
+  "bodyText": "Yesterday afternoon Frank Hawkins was telling me about his experiences as a young man.\nBefore he retired,\nFrank was the head of a very large business company, but as a boy he used to work in a small shop.\nIt was his job to repair bicycles and at that time he used to work fourteen hours a day.\nHe saved money for years and in 1958 he bought a small workshop of his own.\nIn his twenties Frank used to make spare parts for aeroplanes.\nAt that time he had two helpers.\nIn a few years the small workshop had become a large factory which employed seven hundred and twenty-eight people.\nFrank smiled when he remembered his hard early years and the long road to success.\nHe was still smiling when the door opened and his wife came in.\nShe wanted him to repair their grandson's bicycle!",
+  "bodyTextZh": "昨天下午，弗兰克·霍金斯给我讲起了他年轻时的经历。\n在他退休之前，\n弗兰克是一家这是一家规模非常大的企业，但小时候他曾在一家小商店里工作过。\n他的工作就是修理自行车。那时，他每天要工作十四个小时。\n他多年来一直存钱，1958年，他买下了属于自己的一个小作坊。\n二十多岁的时候，弗兰克经常为飞机制造零部件。\n当时他有两个助手。\n几年后，那个小作坊已经发展成了一家大工厂。这家工厂雇用了七百二十八名员工。\n弗兰克想起自己早年艰难的岁月以及通往成功的漫长道路时，露出了微笑。\n门打开时，他仍在微笑，他的妻子走了进来。\n她让他去修理孙子的自行车！",
+  "sentences": [
+    {
+      "index": 0,
+      "startTime": 0.5,
+      "endTime": 3,
+      "en": "Lesson 31",
+      "zh": "第31课",
+      "role": "lesson"
+    },
+    {
+      "index": 1,
+      "startTime": 3,
+      "endTime": 10.09,
+      "en": "Success Story",
+      "zh": "成功的故事",
+      "role": "title"
+    },
+    {
+      "index": 2,
+      "startTime": 10.09,
+      "endTime": 14.48,
+      "en": "What was Frank's first job?",
+      "zh": "弗兰克的第一份工作是什么？",
+      "role": "question"
+    },
+    {
+      "index": 3,
+      "startTime": 14.48,
+      "endTime": 23.07,
+      "en": "Yesterday afternoon Frank Hawkins was telling me about his experiences as a young man.",
+      "zh": "昨天下午，弗兰克·霍金斯给我讲起了他年轻时的经历。",
+      "role": "body"
+    },
+    {
+      "index": 4,
+      "startTime": 23.07,
+      "endTime": 25.39,
+      "en": "Before he retired,",
+      "zh": "在他退休之前，",
+      "role": "body"
+    },
+    {
+      "index": 5,
+      "startTime": 25.39,
+      "endTime": 34.44,
+      "en": "Frank was the head of a very large business company, but as a boy he used to work in a small shop.",
+      "zh": "弗兰克是一家这是一家规模非常大的企业，但小时候他曾在一家小商店里工作过。",
+      "role": "body"
+    },
+    {
+      "index": 6,
+      "startTime": 34.44,
+      "endTime": 42.98,
+      "en": "It was his job to repair bicycles and at that time he used to work fourteen hours a day.",
+      "zh": "他的工作就是修理自行车。那时，他每天要工作十四个小时。",
+      "role": "body"
+    },
+    {
+      "index": 7,
+      "startTime": 42.98,
+      "endTime": 50.77,
+      "en": "He saved money for years and in 1958 he bought a small workshop of his own.",
+      "zh": "他多年来一直存钱，1958年，他买下了属于自己的一个小作坊。",
+      "role": "body"
+    },
+    {
+      "index": 8,
+      "startTime": 50.77,
+      "endTime": 56.63,
+      "en": "In his twenties Frank used to make spare parts for aeroplanes.",
+      "zh": "二十多岁的时候，弗兰克经常为飞机制造零部件。",
+      "role": "body"
+    },
+    {
+      "index": 9,
+      "startTime": 56.63,
+      "endTime": 60.18,
+      "en": "At that time he had two helpers.",
+      "zh": "当时他有两个助手。",
+      "role": "body"
+    },
+    {
+      "index": 10,
+      "startTime": 60.18,
+      "endTime": 70.63,
+      "en": "In a few years the small workshop had become a large factory which employed seven hundred and twenty-eight people.",
+      "zh": "几年后，那个小作坊已经发展成了一家大工厂。这家工厂雇用了七百二十八名员工。",
+      "role": "body"
+    },
+    {
+      "index": 11,
+      "startTime": 70.63,
+      "endTime": 78.24,
+      "en": "Frank smiled when he remembered his hard early years and the long road to success.",
+      "zh": "弗兰克想起自己早年艰难的岁月以及通往成功的漫长道路时，露出了微笑。",
+      "role": "body"
+    },
+    {
+      "index": 12,
+      "startTime": 78.24,
+      "endTime": 83.59,
+      "en": "He was still smiling when the door opened and his wife came in.",
+      "zh": "门打开时，他仍在微笑，他的妻子走了进来。",
+      "role": "body"
+    },
+    {
+      "index": 13,
+      "startTime": 83.59,
+      "endTime": null,
+      "en": "She wanted him to repair their grandson's bicycle!",
+      "zh": "她让他去修理孙子的自行车！",
+      "role": "body"
+    }
+  ],
+  "audio": {
+    "fileName": "31－Success Story.mp3",
+    "sourcePath": "content/NCE-Flow/NCE2/31－Success Story.mp3",
+    "exists": true
+  },
+  "source": {
+    "repository": "NCE-Flow",
+    "lrcFileName": "31－Success Story.lrc",
+    "lrcPath": "content/NCE-Flow/NCE2/31－Success Story.lrc",
+    "sourceDataFile": "content/NCE-Flow/static/data.json",
+    "generatedAt": "2026-07-23T02:59:02+00:00",
+    "generator": "scripts/generate_nce_json.py",
+    "generatorVersion": "2.0.0",
+    "metadata": {
+      "al": "新概念英语（二）",
+      "ar": "MP3 同步字幕版（美音）",
+      "ti": "Success Story",
+      "by": "更多学习内容，请到VeryCD.com搜索“露珠”"
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "id": "pepj8b-015",
+  "groupId": "pepj8b",
+  "unitNo": 8,
+  "sequenceNo": 15,
+  "section": "Section B",
+  "title": "A Country Music Song Changed Her Life Forever",
+  "jsonPath": "pep-english/lessons/pepj8b/015.json",
+  "text": "When Sarah was a teenager, she used to fight over almost everything with her family. But five years ago, while she was studying abroad in England, she heard a song full of feelings about returning home on the radio. It made Sarah think about her family and friends back in the US. She came to realize how much she actually missed all of them. Ever since then, she has been a fan of American country music.\nCountry is a traditional kind of music from the southern states of America. Nashville, Tennessee is the home of country music. Many songs these days are just about modern life in the US, such as the importance of money and success, but not about belonging to a group. However, country music brings us back to the \"good old days\" when people were kind to each other and trusted one another. It reminds us that the best things in life are free — laughter, friends, family, and the beauty of nature and the countryside.\nSarah hasn't been to Nashville yet, but it is her dream to go there one day. She has already read a lot about the place and done some research on it. She knows that there is the Country Music Hall of Fame and Museum in Nashville. There are also always a lot of great country music concerts with famous musicians and singers, like Garth Brooks. Sarah has already listened to most of his songs. \"Garth is one of the most successful musicians in American history. He's sold more than 120 million records. I hope to see him sing live one day!\"",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "When Sarah was a teenager, she used to fight over almost everything with her family. But five years ago, while she was studying abroad in England, she heard a song full of feelings about returning home on the radio. It made Sarah think about her family and friends back in the US. She came to realize how much she actually missed all of them. Ever since then, she has been a fan of American country music."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Country is a traditional kind of music from the southern states of America. Nashville, Tennessee is the home of country music. Many songs these days are just about modern life in the US, such as the importance of money and success, but not about belonging to a group. However, country music brings us back to the \"good old days\" when people were kind to each other and trusted one another. It reminds us that the best things in life are free — laughter, friends, family, and the beauty of nature and the countryside."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Sarah hasn't been to Nashville yet, but it is her dream to go there one day. She has already read a lot about the place and done some research on it. She knows that there is the Country Music Hall of Fame and Museum in Nashville. There are also always a lot of great country music concerts with famous musicians and singers, like Garth Brooks. Sarah has already listened to most of his songs. \"Garth is one of the most successful musicians in American history. He's sold more than 120 million records. I hope to see him sing live one day!\""
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "初中",
+    "book": "八年级下册",
+    "pageStart": 71,
+    "pageEnd": 71,
+    "extractionMode": "ocr",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "21d35e04f1c22b74a3fe3e95e88adff9",
+    "pdfSize": 18208880,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/junior-8b.pdf#page=71",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored the exact printed title and all three complete paragraphs with quotations and figures, and excluded 2a/2b instructions plus the summarizing sidebar."
+    }
+  }
+}

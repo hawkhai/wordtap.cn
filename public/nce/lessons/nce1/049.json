@@ -1,0 +1,200 @@
+{
+  "schemaVersion": 1,
+  "id": "nce1-049",
+  "bookId": "nce1",
+  "bookNo": 1,
+  "lessonNo": 49,
+  "lessonRange": [
+    49,
+    50
+  ],
+  "title": "At the Butcher's",
+  "titleZh": "在肉铺里",
+  "question": "What does Mr. Bird like?",
+  "questionZh": "伯德先生喜欢什么？",
+  "text": "What does Mr. Bird like?\n\nDo you want any meat today, Mrs. Bird?\nYes, please.\nDo you want beef or lamb?\nBeef, please.\nThis lamb's very good.\nI like lamb, but my husband doesn't.\nWhat about some steak?\nThis is a nice piece.\nGive me that piece, please.\nAnd a pound of mince, too.\nDo you want a chicken, Mrs. Bird?\nThey're very nice.\nNo, thank you.\nMy husband likes steak, but he doesn't like chicken.\nTo tell you the truth, Mrs. Bird,\nI don't like chicken either!",
+  "bodyText": "Do you want any meat today, Mrs. Bird?\nYes, please.\nDo you want beef or lamb?\nBeef, please.\nThis lamb's very good.\nI like lamb, but my husband doesn't.\nWhat about some steak?\nThis is a nice piece.\nGive me that piece, please.\nAnd a pound of mince, too.\nDo you want a chicken, Mrs. Bird?\nThey're very nice.\nNo, thank you.\nMy husband likes steak, but he doesn't like chicken.\nTo tell you the truth, Mrs. Bird,\nI don't like chicken either!",
+  "bodyTextZh": "伯德夫人，今天您想要吃点肉吗？\n好的，请来点。\n您想要牛肉还是羊肉？\n请给我来一份牛肉。\n这块羊肉很不错。\n我喜欢羊肉，但我丈夫不喜欢。\n来点牛排怎么样？\n这块很不错。\n请给我那块肉。\n还要一磅肉末。\n伯德夫人，您想要鸡肉吗？\n这些鸡很不错。\n不用了，谢谢。\n我丈夫喜欢牛排，但他不喜欢鸡肉。\n说实话，伯德夫人，\n我也不喜欢鸡肉！",
+  "sentences": [
+    {
+      "index": 0,
+      "startTime": 0.64,
+      "endTime": 3.05,
+      "en": "Lesson 49",
+      "zh": "第49课",
+      "role": "lesson"
+    },
+    {
+      "index": 1,
+      "startTime": 3.05,
+      "endTime": 5.66,
+      "en": "At the butcher's",
+      "zh": "在肉铺里",
+      "role": "title"
+    },
+    {
+      "index": 2,
+      "startTime": 5.66,
+      "endTime": 11.38,
+      "en": "Listen to the tape then answer this question.",
+      "zh": "先听这段录音，然后再回答这个问题。",
+      "role": "prompt"
+    },
+    {
+      "index": 3,
+      "startTime": 11.38,
+      "endTime": 15.71,
+      "en": "What does Mr. Bird like?",
+      "zh": "伯德先生喜欢什么？",
+      "role": "question"
+    },
+    {
+      "index": 4,
+      "startTime": 15.71,
+      "endTime": 20.64,
+      "en": "Do you want any meat today, Mrs. Bird?",
+      "zh": "伯德夫人，今天您想要吃点肉吗？",
+      "role": "body"
+    },
+    {
+      "index": 5,
+      "startTime": 20.64,
+      "endTime": 23.3,
+      "en": "Yes, please.",
+      "zh": "好的，请来点。",
+      "role": "body"
+    },
+    {
+      "index": 6,
+      "startTime": 23.3,
+      "endTime": 27.05,
+      "en": "Do you want beef or lamb?",
+      "zh": "您想要牛肉还是羊肉？",
+      "role": "body"
+    },
+    {
+      "index": 7,
+      "startTime": 27.05,
+      "endTime": 29.77,
+      "en": "Beef, please.",
+      "zh": "请给我来一份牛肉。",
+      "role": "body"
+    },
+    {
+      "index": 8,
+      "startTime": 29.77,
+      "endTime": 33.75,
+      "en": "This lamb's very good.",
+      "zh": "这块羊肉很不错。",
+      "role": "body"
+    },
+    {
+      "index": 9,
+      "startTime": 33.75,
+      "endTime": 38.62,
+      "en": "I like lamb, but my husband doesn't.",
+      "zh": "我喜欢羊肉，但我丈夫不喜欢。",
+      "role": "body"
+    },
+    {
+      "index": 10,
+      "startTime": 38.62,
+      "endTime": 41.57,
+      "en": "What about some steak?",
+      "zh": "来点牛排怎么样？",
+      "role": "body"
+    },
+    {
+      "index": 11,
+      "startTime": 41.57,
+      "endTime": 45,
+      "en": "This is a nice piece.",
+      "zh": "这块很不错。",
+      "role": "body"
+    },
+    {
+      "index": 12,
+      "startTime": 45,
+      "endTime": 48.27,
+      "en": "Give me that piece, please.",
+      "zh": "请给我那块肉。",
+      "role": "body"
+    },
+    {
+      "index": 13,
+      "startTime": 48.27,
+      "endTime": 52.96,
+      "en": "And a pound of mince, too.",
+      "zh": "还要一磅肉末。",
+      "role": "body"
+    },
+    {
+      "index": 14,
+      "startTime": 52.96,
+      "endTime": 57.46,
+      "en": "Do you want a chicken, Mrs. Bird?",
+      "zh": "伯德夫人，您想要鸡肉吗？",
+      "role": "body"
+    },
+    {
+      "index": 15,
+      "startTime": 57.46,
+      "endTime": 59.88,
+      "en": "They're very nice.",
+      "zh": "这些鸡很不错。",
+      "role": "body"
+    },
+    {
+      "index": 16,
+      "startTime": 59.88,
+      "endTime": 62.23,
+      "en": "No, thank you.",
+      "zh": "不用了，谢谢。",
+      "role": "body"
+    },
+    {
+      "index": 17,
+      "startTime": 62.23,
+      "endTime": 68.64,
+      "en": "My husband likes steak, but he doesn't like chicken.",
+      "zh": "我丈夫喜欢牛排，但他不喜欢鸡肉。",
+      "role": "body"
+    },
+    {
+      "index": 18,
+      "startTime": 68.64,
+      "endTime": 72.97,
+      "en": "To tell you the truth, Mrs. Bird,",
+      "zh": "说实话，伯德夫人，",
+      "role": "body"
+    },
+    {
+      "index": 19,
+      "startTime": 72.97,
+      "endTime": null,
+      "en": "I don't like chicken either!",
+      "zh": "我也不喜欢鸡肉！",
+      "role": "body"
+    }
+  ],
+  "audio": {
+    "fileName": "049&050－At the Butcher's.mp3",
+    "sourcePath": "content/NCE-Flow/NCE1/049&050－At the Butcher's.mp3",
+    "exists": true
+  },
+  "source": {
+    "repository": "NCE-Flow",
+    "lrcFileName": "049&050－At the Butcher's.lrc",
+    "lrcPath": "content/NCE-Flow/NCE1/049&050－At the Butcher's.lrc",
+    "sourceDataFile": "content/NCE-Flow/static/data.json",
+    "generatedAt": "2026-07-23T02:59:02+00:00",
+    "generator": "scripts/generate_nce_json.py",
+    "generatorVersion": "2.0.0",
+    "metadata": {
+      "al": "新概念英语（一）",
+      "ar": "MP3 同步字幕版（美音）",
+      "ti": "At the Butcher's",
+      "by": "更多学习内容，请到VeryCD.com搜索“露珠”"
+    }
+  }
+}

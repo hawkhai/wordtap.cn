@@ -1,0 +1,127 @@
+{
+  "schemaVersion": 1,
+  "id": "nce2-017",
+  "bookId": "nce2",
+  "bookNo": 2,
+  "lessonNo": 17,
+  "lessonRange": [
+    17
+  ],
+  "title": "Always Young",
+  "titleZh": "青春常驻",
+  "question": "Why doesn't Aunt Jennifer tell anyone how old she is?",
+  "questionZh": "为什么詹妮弗阿姨从不告诉别人她的真实年龄呢？",
+  "text": "Why doesn't Aunt Jennifer tell anyone how old she is?\n\nMy aunt Jennifer is an actress.\nShe must be at least thirty-five years old.\nIn spite of this, she often appears on the stage as a young girl.\nJennifer will have to take part in a new play soon.\nThis time, she will be a girl of seventeen.\nIn the play, she must appear in a bright red dress and long black stockings.\nLast year in another play, she had to wear short socks and a bright, orange-coloured dress.\nIf anyone ever asks her how old she is, she always answers, 'Darling, it must be terrible to be grown up!'",
+  "bodyText": "My aunt Jennifer is an actress.\nShe must be at least thirty-five years old.\nIn spite of this, she often appears on the stage as a young girl.\nJennifer will have to take part in a new play soon.\nThis time, she will be a girl of seventeen.\nIn the play, she must appear in a bright red dress and long black stockings.\nLast year in another play, she had to wear short socks and a bright, orange-coloured dress.\nIf anyone ever asks her how old she is, she always answers, 'Darling, it must be terrible to be grown up!'",
+  "bodyTextZh": "我的阿姨詹妮弗是一名演员。\n她至少有三十五岁了。\n尽管如此，她仍然经常以年轻女孩的形象出现在舞台上。\n詹妮弗很快将出演一部新剧。\n这一次，她将是一个十七岁的女孩。\n在剧中，她必须穿着鲜红色的连衣裙和黑色长筒袜出场。\n去年，在另一部戏剧中……她不得不穿短袜和一条鲜艳的橙色连衣裙。\n如果有人问她多大了，她总是回答：“亲爱的，长大一定很可怕吧！”",
+  "sentences": [
+    {
+      "index": 0,
+      "startTime": 0.5,
+      "endTime": 3,
+      "en": "Lesson 17",
+      "zh": "第17课",
+      "role": "lesson"
+    },
+    {
+      "index": 1,
+      "startTime": 3,
+      "endTime": 10.34,
+      "en": "Always Young",
+      "zh": "青春常驻",
+      "role": "title"
+    },
+    {
+      "index": 2,
+      "startTime": 10.34,
+      "endTime": 17.39,
+      "en": "Why doesn't Aunt Jennifer tell anyone how old she is?",
+      "zh": "为什么詹妮弗阿姨从不告诉别人她的真实年龄呢？",
+      "role": "question"
+    },
+    {
+      "index": 3,
+      "startTime": 17.39,
+      "endTime": 20.95,
+      "en": "My aunt Jennifer is an actress.",
+      "zh": "我的阿姨詹妮弗是一名演员。",
+      "role": "body"
+    },
+    {
+      "index": 4,
+      "startTime": 20.95,
+      "endTime": 25.21,
+      "en": "She must be at least thirty-five years old.",
+      "zh": "她至少有三十五岁了。",
+      "role": "body"
+    },
+    {
+      "index": 5,
+      "startTime": 25.21,
+      "endTime": 31.68,
+      "en": "In spite of this, she often appears on the stage as a young girl.",
+      "zh": "尽管如此，她仍然经常以年轻女孩的形象出现在舞台上。",
+      "role": "body"
+    },
+    {
+      "index": 6,
+      "startTime": 31.68,
+      "endTime": 36.1,
+      "en": "Jennifer will have to take part in a new play soon.",
+      "zh": "詹妮弗很快将出演一部新剧。",
+      "role": "body"
+    },
+    {
+      "index": 7,
+      "startTime": 36.1,
+      "endTime": 41.18,
+      "en": "This time, she will be a girl of seventeen.",
+      "zh": "这一次，她将是一个十七岁的女孩。",
+      "role": "body"
+    },
+    {
+      "index": 8,
+      "startTime": 41.18,
+      "endTime": 49.17,
+      "en": "In the play, she must appear in a bright red dress and long black stockings.",
+      "zh": "在剧中，她必须穿着鲜红色的连衣裙和黑色长筒袜出场。",
+      "role": "body"
+    },
+    {
+      "index": 9,
+      "startTime": 49.17,
+      "endTime": 58.45,
+      "en": "Last year in another play, she had to wear short socks and a bright, orange-coloured dress.",
+      "zh": "去年，在另一部戏剧中……她不得不穿短袜和一条鲜艳的橙色连衣裙。",
+      "role": "body"
+    },
+    {
+      "index": 10,
+      "startTime": 58.45,
+      "endTime": null,
+      "en": "If anyone ever asks her how old she is, she always answers, 'Darling, it must be terrible to be grown up!'",
+      "zh": "如果有人问她多大了，她总是回答：“亲爱的，长大一定很可怕吧！”",
+      "role": "body"
+    }
+  ],
+  "audio": {
+    "fileName": "17－Always Young.mp3",
+    "sourcePath": "content/NCE-Flow/NCE2/17－Always Young.mp3",
+    "exists": true
+  },
+  "source": {
+    "repository": "NCE-Flow",
+    "lrcFileName": "17－Always Young.lrc",
+    "lrcPath": "content/NCE-Flow/NCE2/17－Always Young.lrc",
+    "sourceDataFile": "content/NCE-Flow/static/data.json",
+    "generatedAt": "2026-07-23T02:59:02+00:00",
+    "generator": "scripts/generate_nce_json.py",
+    "generatorVersion": "2.0.0",
+    "metadata": {
+      "al": "新概念英语（二）",
+      "ar": "MP3 同步字幕版（美音）",
+      "ti": "Always Young",
+      "by": "更多学习内容，请到VeryCD.com搜索“露珠”"
+    }
+  }
+}

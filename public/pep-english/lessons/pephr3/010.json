@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "pephr3-010",
+  "groupId": "pephr3",
+  "unitNo": 3,
+  "sequenceNo": 10,
+  "section": "Pronunciation",
+  "title": "Native Americans in California",
+  "jsonPath": "pep-english/lessons/pephr3/010.json",
+  "text": "No one really knows exactly when the first people arrived in what we now know as California. It is likely that Native Americans moved to California at least fifteen thousand years ago. Scientists believe that these settlers crossed the Bering Strait by a land bridge which existed in prehistoric times. In the 16th century, the native people suffered greatly after the arrival of the Europeans. Thousands of them were killed or forced into slavery. In addition, many died from the diseases brought by the Europeans. However, some survived these terrible times, and today there are more Native Americans living in California than in any other state of America.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "No one really knows exactly when the first people arrived in what we now know as California. It is likely that Native Americans moved to California at least fifteen thousand years ago. Scientists believe that these settlers crossed the Bering Strait by a land bridge which existed in prehistoric times. In the 16th century, the native people suffered greatly after the arrival of the Europeans. Thousands of them were killed or forced into slavery. In addition, many died from the diseases brought by the Europeans. However, some survived these terrible times, and today there are more Native Americans living in California than in any other state of America."
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "必修第三册",
+    "pageStart": 34,
+    "pageEnd": 34,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "31e51a16693d03177a5825f53f612a87",
+    "pdfSize": 14202806,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/senior-required-3.pdf#page=34",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored the complete pronunciation passage as continuous prose and removed only the printed pause marks; excluded the incomplete food-note table, note-taking box, discussion prompts and instructions."
+    }
+  }
+}

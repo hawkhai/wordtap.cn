@@ -1,0 +1,143 @@
+{
+  "schemaVersion": 1,
+  "id": "nce2-082",
+  "bookId": "nce2",
+  "bookNo": 2,
+  "lessonNo": 82,
+  "lessonRange": [
+    82
+  ],
+  "title": "Monster or Fish",
+  "titleZh": "Monster or Fish",
+  "question": "What was the monster called?",
+  "questionZh": "那条怪物叫什么名字？",
+  "text": "What was the monster called?\n\nFishermen and sailors sometimes claim to have seen monsters in the sea.\nThough people have often laughed at stories told by seamen, it is now known that many of these 'monsters' which have at times been sighted are simply strange fish.\nOccasionally, unusual creatures are washed to the shore, but they are rarely caught out at sea.\nSome time ago, however, a peculiar fish was caught near Madagascar.\nA small fishing boat was carried miles out to sea by the powerful fish as it pulled on the line.\nRealizing that this was no ordinary fish, the fisherman made every effort not to damage it in any way.\nWhen it was eventually brought to shore, it was found to be over thirteen feet long.\nIt had a head like a horse big blue eyes, shining silver skin, and a bright red tail.\nThe fish, which has since been set to a museum where it is being examined by a scientist, is called an oarfish.\nSuch creatures have rarely been seen alive by man as they live at a depth of six hundred feet.",
+  "bodyText": "Fishermen and sailors sometimes claim to have seen monsters in the sea.\nThough people have often laughed at stories told by seamen, it is now known that many of these 'monsters' which have at times been sighted are simply strange fish.\nOccasionally, unusual creatures are washed to the shore, but they are rarely caught out at sea.\nSome time ago, however, a peculiar fish was caught near Madagascar.\nA small fishing boat was carried miles out to sea by the powerful fish as it pulled on the line.\nRealizing that this was no ordinary fish, the fisherman made every effort not to damage it in any way.\nWhen it was eventually brought to shore, it was found to be over thirteen feet long.\nIt had a head like a horse big blue eyes, shining silver skin, and a bright red tail.\nThe fish, which has since been set to a museum where it is being examined by a scientist, is called an oarfish.\nSuch creatures have rarely been seen alive by man as they live at a depth of six hundred feet.",
+  "bodyTextZh": "渔民和水手们有时声称在海上看到了怪物。\n虽然人们常常嘲笑水手们讲述的故事，但现在人们知道，许多被目击的“怪物”其实只是奇怪的鱼类而已。\n偶尔，一些不寻常的生物会被冲上岸，但在海上捕捉到它们的情况非常罕见。\n然而，不久前，在马达加斯加附近捕获了一条奇特的鱼。\n这条大鱼使劲拉着渔线，把一艘小渔船拖到了几英里外的海里。\n意识到这绝不是一条普通的鱼，渔民竭尽全力避免对其造成任何伤害。\n当这条鱼最终被带到岸上时，人们发现它的长度超过了十三英尺。\n它有着马一样的头部、大大的蓝色眼睛、闪亮的银色皮肤以及鲜红色的尾巴。\n这条鱼后来被送往一家博物馆，由一位科学家进行研究。它被称为“桨鱼”。\n由于这种生物生活在六百英尺深的海域，人类很少有机会亲眼见到它们的活体。",
+  "sentences": [
+    {
+      "index": 0,
+      "startTime": 0.5,
+      "endTime": 3,
+      "en": "Lesson 82",
+      "zh": "第82课",
+      "role": "lesson"
+    },
+    {
+      "index": 1,
+      "startTime": 3,
+      "endTime": 11.44,
+      "en": "Monster or Fish",
+      "zh": "Monster or Fish",
+      "role": "title"
+    },
+    {
+      "index": 2,
+      "startTime": 11.44,
+      "endTime": 15.27,
+      "en": "What was the monster called?",
+      "zh": "那条怪物叫什么名字？",
+      "role": "question"
+    },
+    {
+      "index": 3,
+      "startTime": 15.27,
+      "endTime": 21.92,
+      "en": "Fishermen and sailors sometimes claim to have seen monsters in the sea.",
+      "zh": "渔民和水手们有时声称在海上看到了怪物。",
+      "role": "body"
+    },
+    {
+      "index": 4,
+      "startTime": 21.92,
+      "endTime": 36.82,
+      "en": "Though people have often laughed at stories told by seamen, it is now known that many of these 'monsters' which have at times been sighted are simply strange fish.",
+      "zh": "虽然人们常常嘲笑水手们讲述的故事，但现在人们知道，许多被目击的“怪物”其实只是奇怪的鱼类而已。",
+      "role": "body"
+    },
+    {
+      "index": 5,
+      "startTime": 36.82,
+      "endTime": 45.77,
+      "en": "Occasionally, unusual creatures are washed to the shore, but they are rarely caught out at sea.",
+      "zh": "偶尔，一些不寻常的生物会被冲上岸，但在海上捕捉到它们的情况非常罕见。",
+      "role": "body"
+    },
+    {
+      "index": 6,
+      "startTime": 45.77,
+      "endTime": 53.36,
+      "en": "Some time ago, however, a peculiar fish was caught near Madagascar.",
+      "zh": "然而，不久前，在马达加斯加附近捕获了一条奇特的鱼。",
+      "role": "body"
+    },
+    {
+      "index": 7,
+      "startTime": 53.36,
+      "endTime": 62.23,
+      "en": "A small fishing boat was carried miles out to sea by the powerful fish as it pulled on the line.",
+      "zh": "这条大鱼使劲拉着渔线，把一艘小渔船拖到了几英里外的海里。",
+      "role": "body"
+    },
+    {
+      "index": 8,
+      "startTime": 62.23,
+      "endTime": 73.66,
+      "en": "Realizing that this was no ordinary fish, the fisherman made every effort not to damage it in any way.",
+      "zh": "意识到这绝不是一条普通的鱼，渔民竭尽全力避免对其造成任何伤害。",
+      "role": "body"
+    },
+    {
+      "index": 9,
+      "startTime": 73.66,
+      "endTime": 81.91,
+      "en": "When it was eventually brought to shore, it was found to be over thirteen feet long.",
+      "zh": "当这条鱼最终被带到岸上时，人们发现它的长度超过了十三英尺。",
+      "role": "body"
+    },
+    {
+      "index": 10,
+      "startTime": 81.91,
+      "endTime": 91.54,
+      "en": "It had a head like a horse big blue eyes, shining silver skin, and a bright red tail.",
+      "zh": "它有着马一样的头部、大大的蓝色眼睛、闪亮的银色皮肤以及鲜红色的尾巴。",
+      "role": "body"
+    },
+    {
+      "index": 11,
+      "startTime": 91.54,
+      "endTime": 101.93,
+      "en": "The fish, which has since been set to a museum where it is being examined by a scientist, is called an oarfish.",
+      "zh": "这条鱼后来被送往一家博物馆，由一位科学家进行研究。它被称为“桨鱼”。",
+      "role": "body"
+    },
+    {
+      "index": 12,
+      "startTime": 101.93,
+      "endTime": null,
+      "en": "Such creatures have rarely been seen alive by man as they live at a depth of six hundred feet.",
+      "zh": "由于这种生物生活在六百英尺深的海域，人类很少有机会亲眼见到它们的活体。",
+      "role": "body"
+    }
+  ],
+  "audio": {
+    "fileName": "82－Monster or Fish.mp3",
+    "sourcePath": "content/NCE-Flow/NCE2/82－Monster or Fish.mp3",
+    "exists": true
+  },
+  "source": {
+    "repository": "NCE-Flow",
+    "lrcFileName": "82－Monster or Fish.lrc",
+    "lrcPath": "content/NCE-Flow/NCE2/82－Monster or Fish.lrc",
+    "sourceDataFile": "content/NCE-Flow/static/data.json",
+    "generatedAt": "2026-07-23T02:59:02+00:00",
+    "generator": "scripts/generate_nce_json.py",
+    "generatorVersion": "2.0.0",
+    "metadata": {
+      "al": "新概念英语（二）",
+      "ar": "MP3 同步字幕版（美音）",
+      "ti": "Monster or Fish?",
+      "by": "更多学习内容，请到VeryCD.com搜索“露珠”"
+    }
+  }
+}

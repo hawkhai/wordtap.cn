@@ -1,0 +1,184 @@
+{
+  "schemaVersion": 1,
+  "id": "nce1-047",
+  "bookId": "nce1",
+  "bookNo": 1,
+  "lessonNo": 47,
+  "lessonRange": [
+    47,
+    48
+  ],
+  "title": "A Cup of Coffee",
+  "titleZh": "一杯咖啡",
+  "question": "How does Ann like her coffee?",
+  "questionZh": "安想要什么样的咖啡？",
+  "text": "How does Ann like her coffee?\n\nDo you like coffee, Ann?\nYes, I do.\nDo you want a cup?\nYes, please, Christine.\nDo you want any sugar?\nYes, please.\nDo you want any milk?\nNo, thank you.\nI don't like milk in my coffee.\nI like black coffee.\nDo you like biscuits?\nYes, I do.\nDo you want one?\nYes, please.",
+  "bodyText": "Do you like coffee, Ann?\nYes, I do.\nDo you want a cup?\nYes, please, Christine.\nDo you want any sugar?\nYes, please.\nDo you want any milk?\nNo, thank you.\nI don't like milk in my coffee.\nI like black coffee.\nDo you like biscuits?\nYes, I do.\nDo you want one?\nYes, please.",
+  "bodyTextZh": "你喜欢咖啡吗，安？\n是的，我喜欢。\n你想来一杯吗？\n是的，请给我来一杯，克里斯汀。\n要加糖吗？\n需要，请加一些。\n要加牛奶吗？\n不需要，谢谢。\n我不喜欢在咖啡里加牛奶。\n我喜欢黑咖啡。\n你喜欢饼干吗？\n是的，我喜欢。\n要来一块吗？\n是的，请给我来一块。",
+  "sentences": [
+    {
+      "index": 0,
+      "startTime": 0.68,
+      "endTime": 3.19,
+      "en": "Lesson 47",
+      "zh": "第47课",
+      "role": "lesson"
+    },
+    {
+      "index": 1,
+      "startTime": 3.19,
+      "endTime": 6.27,
+      "en": "A cup of coffee",
+      "zh": "一杯咖啡",
+      "role": "title"
+    },
+    {
+      "index": 2,
+      "startTime": 6.27,
+      "endTime": 12.16,
+      "en": "Listen to the tape then answer this question.",
+      "zh": "安想要什么样的咖啡？",
+      "role": "prompt"
+    },
+    {
+      "index": 3,
+      "startTime": 12.16,
+      "endTime": 17.15,
+      "en": "How does Ann like her coffee?",
+      "zh": "安想要什么样的咖啡？",
+      "role": "question"
+    },
+    {
+      "index": 4,
+      "startTime": 17.15,
+      "endTime": 20.61,
+      "en": "Do you like coffee, Ann?",
+      "zh": "你喜欢咖啡吗，安？",
+      "role": "body"
+    },
+    {
+      "index": 5,
+      "startTime": 20.61,
+      "endTime": 23.43,
+      "en": "Yes, I do.",
+      "zh": "是的，我喜欢。",
+      "role": "body"
+    },
+    {
+      "index": 6,
+      "startTime": 23.43,
+      "endTime": 26.4,
+      "en": "Do you want a cup?",
+      "zh": "你想来一杯吗？",
+      "role": "body"
+    },
+    {
+      "index": 7,
+      "startTime": 26.4,
+      "endTime": 30.36,
+      "en": "Yes, please, Christine.",
+      "zh": "是的，请给我来一杯，克里斯汀。",
+      "role": "body"
+    },
+    {
+      "index": 8,
+      "startTime": 30.36,
+      "endTime": 33.58,
+      "en": "Do you want any sugar?",
+      "zh": "要加糖吗？",
+      "role": "body"
+    },
+    {
+      "index": 9,
+      "startTime": 33.58,
+      "endTime": 36.05,
+      "en": "Yes, please.",
+      "zh": "需要，请加一些。",
+      "role": "body"
+    },
+    {
+      "index": 10,
+      "startTime": 36.05,
+      "endTime": 39.18,
+      "en": "Do you want any milk?",
+      "zh": "要加牛奶吗？",
+      "role": "body"
+    },
+    {
+      "index": 11,
+      "startTime": 39.18,
+      "endTime": 40.92,
+      "en": "No, thank you.",
+      "zh": "不需要，谢谢。",
+      "role": "body"
+    },
+    {
+      "index": 12,
+      "startTime": 40.92,
+      "endTime": 44.56,
+      "en": "I don't like milk in my coffee.",
+      "zh": "我不喜欢在咖啡里加牛奶。",
+      "role": "body"
+    },
+    {
+      "index": 13,
+      "startTime": 44.56,
+      "endTime": 48.41,
+      "en": "I like black coffee.",
+      "zh": "我喜欢黑咖啡。",
+      "role": "body"
+    },
+    {
+      "index": 14,
+      "startTime": 48.41,
+      "endTime": 51.33,
+      "en": "Do you like biscuits?",
+      "zh": "你喜欢饼干吗？",
+      "role": "body"
+    },
+    {
+      "index": 15,
+      "startTime": 51.33,
+      "endTime": 53.88,
+      "en": "Yes, I do.",
+      "zh": "是的，我喜欢。",
+      "role": "body"
+    },
+    {
+      "index": 16,
+      "startTime": 53.88,
+      "endTime": 56.02,
+      "en": "Do you want one?",
+      "zh": "要来一块吗？",
+      "role": "body"
+    },
+    {
+      "index": 17,
+      "startTime": 56.02,
+      "endTime": null,
+      "en": "Yes, please.",
+      "zh": "是的，请给我来一块。",
+      "role": "body"
+    }
+  ],
+  "audio": {
+    "fileName": "047&048－A Cup of Coffee.mp3",
+    "sourcePath": "content/NCE-Flow/NCE1/047&048－A Cup of Coffee.mp3",
+    "exists": true
+  },
+  "source": {
+    "repository": "NCE-Flow",
+    "lrcFileName": "047&048－A Cup of Coffee.lrc",
+    "lrcPath": "content/NCE-Flow/NCE1/047&048－A Cup of Coffee.lrc",
+    "sourceDataFile": "content/NCE-Flow/static/data.json",
+    "generatedAt": "2026-07-23T02:59:02+00:00",
+    "generator": "scripts/generate_nce_json.py",
+    "generatorVersion": "2.0.0",
+    "metadata": {
+      "al": "新概念英语（一）",
+      "ar": "MP3 同步字幕版（美音）",
+      "ti": "A Cup of Coffee",
+      "by": "更多学习内容，请到VeryCD.com搜索“露珠”"
+    }
+  }
+}

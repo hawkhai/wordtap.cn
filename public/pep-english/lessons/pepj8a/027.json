@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "id": "pepj8a-027",
+  "groupId": "pepj8a",
+  "unitNo": 10,
+  "sequenceNo": 27,
+  "section": "Section B",
+  "title": "Talking Helps Solve Problems",
+  "jsonPath": "pep-english/lessons/pepj8a/027.json",
+  "text": "Students these days often have a lot of worries. Sometimes they have problems with their schoolwork, and sometimes with their friends. What can they do about this? Some people believe the worst thing is to do nothing. Laura Mills, a teenager from London, agrees. \"Problems and worries are normal in life,\" says Laura. \"But I think talking to someone helps a lot. Unless we talk to someone, we'll certainly feel worse.\"\nLaura once lost her wallet, and worried for days. She was afraid to tell her parents about it. She even walked three miles to school each day because she didn't have any money. She just kept thinking, \"If I tell my parents, they'll be angry!\" In the end, she talked to her parents and they were really understanding. Her dad said he sometimes made careless mistakes himself. They got her a new wallet and asked her to be more careful. \"I will always remember to share my problems in the future!\" Laura says.\nRobert Hunt advises students about common problems. He feels the same way as Laura. \"It is best not to run away from our problems. We should always try to solve them.\" He thinks the first step is to find someone you trust to talk to. This person doesn't need to be an expert like himself. Students often forget that their parents have more experience, and are always there to help them. In English, we say that sharing a problem is like cutting it in half. So you're halfway to solving a problem just by talking to someone about it!",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Students these days often have a lot of worries. Sometimes they have problems with their schoolwork, and sometimes with their friends. What can they do about this? Some people believe the worst thing is to do nothing. Laura Mills, a teenager from London, agrees. \"Problems and worries are normal in life,\" says Laura. \"But I think talking to someone helps a lot. Unless we talk to someone, we'll certainly feel worse.\""
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Laura once lost her wallet, and worried for days. She was afraid to tell her parents about it. She even walked three miles to school each day because she didn't have any money. She just kept thinking, \"If I tell my parents, they'll be angry!\" In the end, she talked to her parents and they were really understanding. Her dad said he sometimes made careless mistakes himself. They got her a new wallet and asked her to be more careful. \"I will always remember to share my problems in the future!\" Laura says."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Robert Hunt advises students about common problems. He feels the same way as Laura. \"It is best not to run away from our problems. We should always try to solve them.\" He thinks the first step is to find someone you trust to talk to. This person doesn't need to be an expert like himself. Students often forget that their parents have more experience, and are always there to help them. In English, we say that sharing a problem is like cutting it in half. So you're halfway to solving a problem just by talking to someone about it!"
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "初中",
+    "book": "八年级上册",
+    "pageStart": 88,
+    "pageEnd": 88,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "24fcd352dca21a6ee547539f550ed35c",
+    "pdfSize": 9469090,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/junior-8a.pdf#page=88",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored all three complete 2b paragraphs and quotations, supplied a descriptive metadata title because the article has none, corrected Section B and excluded prompts/options."
+    }
+  }
+}

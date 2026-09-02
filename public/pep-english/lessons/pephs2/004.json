@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "id": "pephs2-004",
+  "groupId": "pephs2",
+  "unitNo": 1,
+  "sequenceNo": 4,
+  "section": "Using Language",
+  "title": "A World of Pure Thought",
+  "jsonPath": "pep-english/lessons/pephs2/004.json",
+  "text": "Stephen Hawking was one of the most famous and gifted scientists in physics. Most people are familiar with images of him in his wheelchair, unable to move and using a computer to talk. Since he came down with a disease which caused him to lose the use of most of his muscles, his world became one of abstract thought.\nHawking first achieved fame when he was still healthy enough to walk, as a graduate student in physics at Cambridge University in 1964. In general, there were two main theories on the origin of the universe. The first was the steady state theory, which holds that the universe has no beginning or end. The other was the big bang theory, which holds that the universe began at a single point in time and space. The biggest champion of the steady state concept was Fred Hoyle, a professor at Cambridge. During the question and answer period after one of Hoyle’s lectures, Hawking stood up and pointed out that Hoyle had made a mistake in his maths. Once the maths was corrected, it showed that the big bang theory—and not the steady state theory—was true. Hawking’s own work on the big bang theory was soon proven by astronomers with telescopes. A star was born.\nSo, what made Stephen Hawking a genius? Besides being brilliant, he was brave, though sometimes careless in what he said or did. He was willing to say what others were afraid to say, and to dream of what others were afraid to dream about. Furthermore, he was quite determined. This had helped him as a scientist, and had helped him even more in his fight against his disease. Above all, Hawking was willing to admit his faults. This odd combination of characteristics had made him one of the greatest thinkers of the 20th and 21st centuries.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Stephen Hawking was one of the most famous and gifted scientists in physics. Most people are familiar with images of him in his wheelchair, unable to move and using a computer to talk. Since he came down with a disease which caused him to lose the use of most of his muscles, his world became one of abstract thought."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Hawking first achieved fame when he was still healthy enough to walk, as a graduate student in physics at Cambridge University in 1964. In general, there were two main theories on the origin of the universe. The first was the steady state theory, which holds that the universe has no beginning or end. The other was the big bang theory, which holds that the universe began at a single point in time and space. The biggest champion of the steady state concept was Fred Hoyle, a professor at Cambridge. During the question and answer period after one of Hoyle’s lectures, Hawking stood up and pointed out that Hoyle had made a mistake in his maths. Once the maths was corrected, it showed that the big bang theory—and not the steady state theory—was true. Hawking’s own work on the big bang theory was soon proven by astronomers with telescopes. A star was born."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "So, what made Stephen Hawking a genius? Besides being brilliant, he was brave, though sometimes careless in what he said or did. He was willing to say what others were afraid to say, and to dream of what others were afraid to dream about. Furthermore, he was quite determined. This had helped him as a scientist, and had helped him even more in his fight against his disease. Above all, Hawking was willing to admit his faults. This odd combination of characteristics had made him one of the greatest thinkers of the 20th and 21st centuries."
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "选择性必修第二册",
+    "pageStart": 15,
+    "pageEnd": 16,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "1a701f2205298de95ea59cfc71eb83cd",
+    "pdfSize": 9968316,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/senior-selective-2.pdf#page=15-16",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored the complete three-paragraph Stephen Hawking biography across pages 15–16, tracing the page-15 text around the photograph and its continuation on page 16; excluded all comprehension and writing activities."
+    }
+  }
+}

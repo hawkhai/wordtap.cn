@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "pephr2-002",
+  "groupId": "pephr2",
+  "unitNo": 2,
+  "sequenceNo": 2,
+  "section": "Listening and Speaking",
+  "title": "Protecting African Elephants",
+  "jsonPath": "pep-english/lessons/pephr2/002.json",
+  "text": "A: I'm concerned about the African elephants. What do you know about them?\nB: Well, I know that they're being hunted and their habitat is getting smaller, so they're in danger of extinction. Elephants need large living spaces, so it's difficult for them to adapt to the changes.\nA: That's terrible. What measures are being taken to help them?\nB: The authorities are under pressure to build elephant parks and tell people not to buy elephant products.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "A: I'm concerned about the African elephants. What do you know about them?\nB: Well, I know that they're being hunted and their habitat is getting smaller, so they're in danger of extinction. Elephants need large living spaces, so it's difficult for them to adapt to the changes.\nA: That's terrible. What measures are being taken to help them?\nB: The authorities are under pressure to build elephant parks and tell people not to buy elephant products."
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "必修第二册",
+    "pageStart": 22,
+    "pageEnd": 22,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "38d49874e4f015fd89f21c9306f6b9d5",
+    "pdfSize": 14270612,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/senior-required-2.pdf#page=22",
+      "reviewedAt": "2026-07-22",
+      "notes": "Kept the complete four-turn model conversation about threats to African elephants and protective measures; supplied a descriptive title and excluded role-play instructions, photographs and pronunciation exercises."
+    }
+  }
+}

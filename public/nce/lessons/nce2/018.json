@@ -1,0 +1,135 @@
+{
+  "schemaVersion": 1,
+  "id": "nce2-018",
+  "bookId": "nce2",
+  "bookNo": 2,
+  "lessonNo": 18,
+  "lessonRange": [
+    18
+  ],
+  "title": "He Often does This",
+  "titleZh": "他经常干这种事！",
+  "question": "What had happened to the writer's bag?",
+  "questionZh": "作者的包发生了什么事？",
+  "text": "What had happened to the writer's bag?\n\nAfter I had had lunch at a village pub, I looked for my bag.\nI had left it on a chair beside the door and now it wasn't there!\nAs I was looking for it, the landlord came in.\n'Did you have a good meal?' he asked.\n'Yes, thank you,' I answered, 'but I can't pay the bill. I haven't got my bag.'\nThe landlord smiled and immediately went out.\nIn a few minutes he returned with my bag and gave it back to me.\n'I'm very sorry,' he said.\n'My dog had taken it into the garden. He often does this!'",
+  "bodyText": "After I had had lunch at a village pub, I looked for my bag.\nI had left it on a chair beside the door and now it wasn't there!\nAs I was looking for it, the landlord came in.\n'Did you have a good meal?' he asked.\n'Yes, thank you,' I answered, 'but I can't pay the bill. I haven't got my bag.'\nThe landlord smiled and immediately went out.\nIn a few minutes he returned with my bag and gave it back to me.\n'I'm very sorry,' he said.\n'My dog had taken it into the garden. He often does this!'",
+  "bodyTextZh": "在一家乡村酒吧吃过午饭后，我开始寻找我的包。\n我之前把它放在门旁边的椅子上，但现在它不见了！\n我正在找包的时候，店主进来了。\n“你吃得怎么样？”他问道。\n“是的，谢谢您，”我回答道，“但我付不了账单。我的包不见了。”\n店主笑了笑，马上就出去了。\n几分钟后，他拿着我的包回来了，并把它交还给了我。\n“我非常抱歉，”他说。\n“我的狗把它叼到花园里去了。它老是干这种事！”",
+  "sentences": [
+    {
+      "index": 0,
+      "startTime": 0.5,
+      "endTime": 3,
+      "en": "Lesson 18",
+      "zh": "第18课",
+      "role": "lesson"
+    },
+    {
+      "index": 1,
+      "startTime": 3,
+      "endTime": 9.56,
+      "en": "He Often does This",
+      "zh": "他经常干这种事！",
+      "role": "title"
+    },
+    {
+      "index": 2,
+      "startTime": 9.56,
+      "endTime": 14.28,
+      "en": "What had happened to the writer's bag?",
+      "zh": "作者的包发生了什么事？",
+      "role": "question"
+    },
+    {
+      "index": 3,
+      "startTime": 14.28,
+      "endTime": 20.98,
+      "en": "After I had had lunch at a village pub, I looked for my bag.",
+      "zh": "在一家乡村酒吧吃过午饭后，我开始寻找我的包。",
+      "role": "body"
+    },
+    {
+      "index": 4,
+      "startTime": 20.98,
+      "endTime": 27.45,
+      "en": "I had left it on a chair beside the door and now it wasn't there!",
+      "zh": "我之前把它放在门旁边的椅子上，但现在它不见了！",
+      "role": "body"
+    },
+    {
+      "index": 5,
+      "startTime": 27.45,
+      "endTime": 32.45,
+      "en": "As I was looking for it, the landlord came in.",
+      "zh": "我正在找包的时候，店主进来了。",
+      "role": "body"
+    },
+    {
+      "index": 6,
+      "startTime": 32.45,
+      "endTime": 35.94,
+      "en": "'Did you have a good meal?' he asked.",
+      "zh": "“你吃得怎么样？”他问道。",
+      "role": "body"
+    },
+    {
+      "index": 7,
+      "startTime": 35.94,
+      "endTime": 44.3,
+      "en": "'Yes, thank you,' I answered, 'but I can't pay the bill. I haven't got my bag.'",
+      "zh": "“是的，谢谢您，”我回答道，“但我付不了账单。我的包不见了。”",
+      "role": "body"
+    },
+    {
+      "index": 8,
+      "startTime": 44.3,
+      "endTime": 48.8,
+      "en": "The landlord smiled and immediately went out.",
+      "zh": "店主笑了笑，马上就出去了。",
+      "role": "body"
+    },
+    {
+      "index": 9,
+      "startTime": 48.8,
+      "endTime": 54.93,
+      "en": "In a few minutes he returned with my bag and gave it back to me.",
+      "zh": "几分钟后，他拿着我的包回来了，并把它交还给了我。",
+      "role": "body"
+    },
+    {
+      "index": 10,
+      "startTime": 54.93,
+      "endTime": 58.43,
+      "en": "'I'm very sorry,' he said.",
+      "zh": "“我非常抱歉，”他说。",
+      "role": "body"
+    },
+    {
+      "index": 11,
+      "startTime": 58.43,
+      "endTime": null,
+      "en": "'My dog had taken it into the garden. He often does this!'",
+      "zh": "“我的狗把它叼到花园里去了。它老是干这种事！”",
+      "role": "body"
+    }
+  ],
+  "audio": {
+    "fileName": "18－He Often does This.mp3",
+    "sourcePath": "content/NCE-Flow/NCE2/18－He Often does This.mp3",
+    "exists": true
+  },
+  "source": {
+    "repository": "NCE-Flow",
+    "lrcFileName": "18－He Often does This.lrc",
+    "lrcPath": "content/NCE-Flow/NCE2/18－He Often does This.lrc",
+    "sourceDataFile": "content/NCE-Flow/static/data.json",
+    "generatedAt": "2026-07-23T02:59:02+00:00",
+    "generator": "scripts/generate_nce_json.py",
+    "generatorVersion": "2.0.0",
+    "metadata": {
+      "al": "新概念英语（二）",
+      "ar": "MP3 同步字幕版（美音）",
+      "ti": "He Often does This",
+      "by": "更多学习内容，请到VeryCD.com搜索“露珠”"
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "id": "pephr2-006",
+  "groupId": "pephr2",
+  "unitNo": 3,
+  "sequenceNo": 6,
+  "section": "Reading and Thinking",
+  "title": "Stronger Together: How We Have Been Changed by the Internet",
+  "jsonPath": "pep-english/lessons/pephr2/006.json",
+  "text": "Much has been written about the wonders of the World Wide Web. There are countless articles telling us how the Internet has made our lives more convenient. We no longer have to wait in line or carry cash around when we go shopping. We can get the most updated information from large databases. We can download software, documents, and images whenever we need them. But the Internet has done much more for people than simply make life more convenient. People's lives have been changed by online communities and social networks.\nJan Tchamani, an English teacher in Birmingham, UK, suddenly developed a serious illness and had to quit her job. At age 50, she found herself out of work and stuck at home with only her computer to keep her company. After a while, she discovered that surfing the Internet could help her feel less lonely and bored. She could listen to music, watch films, play games, and explore the world. She also joined an online group where she could talk about her problems and get support and advice from others. She realised that one of the greatest benefits of the Internet was its ability to remove the distance that usually exists between people.\nShe was so inspired by the people she met online that she decided to start an IT club to teach older people how to use computers and the Internet. She and her friends now organise events and collect money to pay for private teachers. Many people have been helped by the club. A 59-year-old man learnt how to apply for work online and found a great job. Now that he works and can take care of himself, his daughter has time to study at university. A 61-year-old woman who was living alone has started a small online company together with two friends. She no longer feels lonely, and her company has become quite successful.\nJan has started taking online classes to learn more about how to use the Internet to make society better. She believes that it is highly important to bridge the digital divide and make sure that everyone has access to the Internet and knows how to use new technology. Her next goal is to start a charity website to raise money for children in poor countries.\nJan's life has been greatly improved by the Internet. “When you go through tough times, you meet others who are facing similar challenges,” Jan says. “Thinking about other people's situations inspired me to offer help.”",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Much has been written about the wonders of the World Wide Web. There are countless articles telling us how the Internet has made our lives more convenient. We no longer have to wait in line or carry cash around when we go shopping. We can get the most updated information from large databases. We can download software, documents, and images whenever we need them. But the Internet has done much more for people than simply make life more convenient. People's lives have been changed by online communities and social networks."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Jan Tchamani, an English teacher in Birmingham, UK, suddenly developed a serious illness and had to quit her job. At age 50, she found herself out of work and stuck at home with only her computer to keep her company. After a while, she discovered that surfing the Internet could help her feel less lonely and bored. She could listen to music, watch films, play games, and explore the world. She also joined an online group where she could talk about her problems and get support and advice from others. She realised that one of the greatest benefits of the Internet was its ability to remove the distance that usually exists between people."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "She was so inspired by the people she met online that she decided to start an IT club to teach older people how to use computers and the Internet. She and her friends now organise events and collect money to pay for private teachers. Many people have been helped by the club. A 59-year-old man learnt how to apply for work online and found a great job. Now that he works and can take care of himself, his daughter has time to study at university. A 61-year-old woman who was living alone has started a small online company together with two friends. She no longer feels lonely, and her company has become quite successful."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Jan has started taking online classes to learn more about how to use the Internet to make society better. She believes that it is highly important to bridge the digital divide and make sure that everyone has access to the Internet and knows how to use new technology. Her next goal is to start a charity website to raise money for children in poor countries."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Jan's life has been greatly improved by the Internet. “When you go through tough times, you meet others who are facing similar challenges,” Jan says. “Thinking about other people's situations inspired me to offer help.”"
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "必修第二册",
+    "pageStart": 35,
+    "pageEnd": 35,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "38d49874e4f015fd89f21c9306f6b9d5",
+    "pdfSize": 14270612,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/senior-required-2.pdf#page=35",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored the complete five-paragraph feature about Jan Tchamani and her online community; excluded pre-reading questions, the headline strategy box, illustration and running furniture."
+    }
+  }
+}

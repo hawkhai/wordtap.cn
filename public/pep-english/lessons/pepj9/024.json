@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "id": "pepj9-024",
+  "groupId": "pepj9",
+  "unitNo": 7,
+  "sequenceNo": 24,
+  "section": "Section B",
+  "title": "Should I Be Allowed to Make My Own Decisions?",
+  "jsonPath": "pep-english/lessons/pepj9/024.json",
+  "text": "Many teenagers have hobbies. But sometimes these can get in the way of their schoolwork, and parents might worry about their success at school. Teenagers often think they should be allowed to practice their hobbies as much as they want. Do you agree?\nLiu Yu, a fifteen-year-old boy from Shandong, is a running star. He is on his school team and has always wanted to be a professional runner when he grows up. However, his parents won't allow him to train so much. \"Of course we want to see him achieve his dreams,\" says Mr. Liu. \"And we know how much he loves running. My wife and I have supported every one of his races. We have nothing against running! But we think our son needs to think about other possible jobs. He's getting older now, so he needs to think about what will happen if he doesn't end up as a professional runner.\"\nLiu Yu doesn't really agree. \"Well, I think I should be allowed to decide for myself,\" he says. \"My parents have always taught me how important it is to work hard at school and enter university. I understand this, but I'm serious about running. It's the only thing I've ever wanted to do.\"\nHis parents believe that Liu Yu should study hard in the evenings so they don't allow him to practice running at night. \"Maybe he thinks it's too strict or unfair,\" says Mrs. Liu. \"But we think we're doing the right thing. He needs to spend more time on his homework because it is difficult to become a professional sports star.\"\nBut Liu Yu still disagrees. \"I know my parents care about me. They always talk about what will happen if I don't succeed. But I will! I'm a quick runner! I think I should be allowed to make this choice myself. Only then will I have a chance to achieve my dream.\"",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Many teenagers have hobbies. But sometimes these can get in the way of their schoolwork, and parents might worry about their success at school. Teenagers often think they should be allowed to practice their hobbies as much as they want. Do you agree?"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Liu Yu, a fifteen-year-old boy from Shandong, is a running star. He is on his school team and has always wanted to be a professional runner when he grows up. However, his parents won't allow him to train so much. \"Of course we want to see him achieve his dreams,\" says Mr. Liu. \"And we know how much he loves running. My wife and I have supported every one of his races. We have nothing against running! But we think our son needs to think about other possible jobs. He's getting older now, so he needs to think about what will happen if he doesn't end up as a professional runner.\""
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Liu Yu doesn't really agree. \"Well, I think I should be allowed to decide for myself,\" he says. \"My parents have always taught me how important it is to work hard at school and enter university. I understand this, but I'm serious about running. It's the only thing I've ever wanted to do.\""
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "His parents believe that Liu Yu should study hard in the evenings so they don't allow him to practice running at night. \"Maybe he thinks it's too strict or unfair,\" says Mrs. Liu. \"But we think we're doing the right thing. He needs to spend more time on his homework because it is difficult to become a professional sports star.\""
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "But Liu Yu still disagrees. \"I know my parents care about me. They always talk about what will happen if I don't succeed. But I will! I'm a quick runner! I think I should be allowed to make this choice myself. Only then will I have a chance to achieve my dream.\""
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "初中",
+    "book": "九年级全一册",
+    "pageStart": 68,
+    "pageEnd": 68,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "c6e628c22e0c2f9cfe4547699a1c95a4",
+    "pdfSize": 11088578,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/junior-9.pdf#page=68",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored the printed title and all five complete argument paragraphs with both Liu Yu's and his parents' quotations; excluded 2a/2b instructions and the Learning Actively strategy box."
+    }
+  }
+}

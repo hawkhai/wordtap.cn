@@ -1,0 +1,200 @@
+{
+  "schemaVersion": 1,
+  "id": "nce1-041",
+  "bookId": "nce1",
+  "bookNo": 1,
+  "lessonNo": 41,
+  "lessonRange": [
+    41,
+    42
+  ],
+  "title": "Penny's Bag",
+  "titleZh": "佩妮的包",
+  "question": "Who is the tin of tobacco for?",
+  "questionZh": "这罐烟草是给谁用的呢？",
+  "text": "Who is the tin of tobacco for?\n\nIs that bag heavy, Penny?\nNot very.\nHere!\nPut it on this chair.\nWhat's in it?\nA piece of cheese.\nA loaf of bread.\nA bar of soap.\nA bar of chocolate.\nA bottle of milk.\nA pound of sugar.\nHalf a pound of coffee.\nA quarter of a pound of tea.\nAnd a tin of tobacco.\nIs that tin of tobacco for me?\nWell, it's certainly not for me!",
+  "bodyText": "Is that bag heavy, Penny?\nNot very.\nHere!\nPut it on this chair.\nWhat's in it?\nA piece of cheese.\nA loaf of bread.\nA bar of soap.\nA bar of chocolate.\nA bottle of milk.\nA pound of sugar.\nHalf a pound of coffee.\nA quarter of a pound of tea.\nAnd a tin of tobacco.\nIs that tin of tobacco for me?\nWell, it's certainly not for me!",
+  "bodyTextZh": "那个包很重吗，Penny？\n不太重。\n给你！\n把它放在这把椅子上。\n里面有什么？\n一块奶酪。\n一条面包。\n一块肥皂。\n一块巧克力。\n一瓶牛奶。\n一磅糖。\n半磅咖啡。\n四分之一磅茶叶。\n还有一罐烟草。\n那罐烟草是给我的吗？\n嗯，那肯定不是给我的！",
+  "sentences": [
+    {
+      "index": 0,
+      "startTime": 0.5,
+      "endTime": 2.9,
+      "en": "Lesson 41",
+      "zh": "第41课",
+      "role": "lesson"
+    },
+    {
+      "index": 1,
+      "startTime": 2.9,
+      "endTime": 5.69,
+      "en": "Penny's bag",
+      "zh": "佩妮的包",
+      "role": "title"
+    },
+    {
+      "index": 2,
+      "startTime": 5.69,
+      "endTime": 11.88,
+      "en": "Listen to the tape then answer this question.",
+      "zh": "先听这段录音，然后再回答这个问题。",
+      "role": "prompt"
+    },
+    {
+      "index": 3,
+      "startTime": 11.88,
+      "endTime": 17.89,
+      "en": "Who is the tin of tobacco for?",
+      "zh": "这罐烟草是给谁用的呢？",
+      "role": "question"
+    },
+    {
+      "index": 4,
+      "startTime": 17.89,
+      "endTime": 20.83,
+      "en": "Is that bag heavy, Penny?",
+      "zh": "那个包很重吗，Penny？",
+      "role": "body"
+    },
+    {
+      "index": 5,
+      "startTime": 20.83,
+      "endTime": 23,
+      "en": "Not very.",
+      "zh": "不太重。",
+      "role": "body"
+    },
+    {
+      "index": 6,
+      "startTime": 23,
+      "endTime": 24.3,
+      "en": "Here!",
+      "zh": "给你！",
+      "role": "body"
+    },
+    {
+      "index": 7,
+      "startTime": 24.3,
+      "endTime": 27.12,
+      "en": "Put it on this chair.",
+      "zh": "把它放在这把椅子上。",
+      "role": "body"
+    },
+    {
+      "index": 8,
+      "startTime": 27.12,
+      "endTime": 29.27,
+      "en": "What's in it?",
+      "zh": "里面有什么？",
+      "role": "body"
+    },
+    {
+      "index": 9,
+      "startTime": 29.27,
+      "endTime": 32.14,
+      "en": "A piece of cheese.",
+      "zh": "一块奶酪。",
+      "role": "body"
+    },
+    {
+      "index": 10,
+      "startTime": 32.14,
+      "endTime": 34.77,
+      "en": "A loaf of bread.",
+      "zh": "一条面包。",
+      "role": "body"
+    },
+    {
+      "index": 11,
+      "startTime": 34.77,
+      "endTime": 37.52,
+      "en": "A bar of soap.",
+      "zh": "一块肥皂。",
+      "role": "body"
+    },
+    {
+      "index": 12,
+      "startTime": 37.52,
+      "endTime": 40.19,
+      "en": "A bar of chocolate.",
+      "zh": "一块巧克力。",
+      "role": "body"
+    },
+    {
+      "index": 13,
+      "startTime": 40.19,
+      "endTime": 42.77,
+      "en": "A bottle of milk.",
+      "zh": "一瓶牛奶。",
+      "role": "body"
+    },
+    {
+      "index": 14,
+      "startTime": 42.77,
+      "endTime": 45.74,
+      "en": "A pound of sugar.",
+      "zh": "一磅糖。",
+      "role": "body"
+    },
+    {
+      "index": 15,
+      "startTime": 45.74,
+      "endTime": 49.17,
+      "en": "Half a pound of coffee.",
+      "zh": "半磅咖啡。",
+      "role": "body"
+    },
+    {
+      "index": 16,
+      "startTime": 49.17,
+      "endTime": 53.12,
+      "en": "A quarter of a pound of tea.",
+      "zh": "四分之一磅茶叶。",
+      "role": "body"
+    },
+    {
+      "index": 17,
+      "startTime": 53.12,
+      "endTime": 57.57,
+      "en": "And a tin of tobacco.",
+      "zh": "还有一罐烟草。",
+      "role": "body"
+    },
+    {
+      "index": 18,
+      "startTime": 57.57,
+      "endTime": 62.07,
+      "en": "Is that tin of tobacco for me?",
+      "zh": "那罐烟草是给我的吗？",
+      "role": "body"
+    },
+    {
+      "index": 19,
+      "startTime": 62.07,
+      "endTime": null,
+      "en": "Well, it's certainly not for me!",
+      "zh": "嗯，那肯定不是给我的！",
+      "role": "body"
+    }
+  ],
+  "audio": {
+    "fileName": "041&042－Penny's Bag.mp3",
+    "sourcePath": "content/NCE-Flow/NCE1/041&042－Penny's Bag.mp3",
+    "exists": true
+  },
+  "source": {
+    "repository": "NCE-Flow",
+    "lrcFileName": "041&042－Penny's Bag.lrc",
+    "lrcPath": "content/NCE-Flow/NCE1/041&042－Penny's Bag.lrc",
+    "sourceDataFile": "content/NCE-Flow/static/data.json",
+    "generatedAt": "2026-07-23T02:59:02+00:00",
+    "generator": "scripts/generate_nce_json.py",
+    "generatorVersion": "2.0.0",
+    "metadata": {
+      "al": "新概念英语（一）",
+      "ar": "MP3 同步字幕版（美音）",
+      "ti": "Penny's Bag",
+      "by": "更多学习内容，请到VeryCD.com搜索“露珠”"
+    }
+  }
+}

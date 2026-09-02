@@ -1,0 +1,232 @@
+{
+  "schemaVersion": 1,
+  "id": "nce1-063",
+  "bookId": "nce1",
+  "bookNo": 1,
+  "lessonNo": 63,
+  "lessonRange": [
+    63,
+    64
+  ],
+  "title": "Thank You, Doctor.",
+  "titleZh": "谢谢您，医生。",
+  "question": "Who else is in bed today? Why?",
+  "questionZh": "今天还有谁在床上？为什么？",
+  "text": "Who else is in bed today? Why?\n\nHow's Jimmy today?\nBetter.\nThank you, doctor.\nCan I see him please, Mrs. Williams?\nCertainly, doctor.\nCome upstairs.\nYou look very well, Jimmy.\nYou are better now, but you mustn't get up yet.\nYou must stay in bed for another two days.\nThe boy mustn't go to school yet, Mrs. Williams.\nAnd he mustn't eat rich food.\nDoes he have a temperature, doctor?\nNo, he doesn't.\nMust he stay in bed?\nYes. He must remain in bed for another two days.\nHe can get up for about two hours each day, but you must keep the room warm.\nWhere's Mr. Williams this evening?\nHe's in bed, doctor.\nCan you see him please?\nHe has a bad cold, too!",
+  "bodyText": "How's Jimmy today?\nBetter.\nThank you, doctor.\nCan I see him please, Mrs. Williams?\nCertainly, doctor.\nCome upstairs.\nYou look very well, Jimmy.\nYou are better now, but you mustn't get up yet.\nYou must stay in bed for another two days.\nThe boy mustn't go to school yet, Mrs. Williams.\nAnd he mustn't eat rich food.\nDoes he have a temperature, doctor?\nNo, he doesn't.\nMust he stay in bed?\nYes. He must remain in bed for another two days.\nHe can get up for about two hours each day, but you must keep the room warm.\nWhere's Mr. Williams this evening?\nHe's in bed, doctor.\nCan you see him please?\nHe has a bad cold, too!",
+  "bodyTextZh": "Jimmy今天怎么样？\n更好了。\n谢谢您，医生。\n请问威廉姆斯夫人，我能见见他吗？\n当然可以，医生。\n上来吧。\n你看起来气色很好，吉米。\n你现在好多了，但还不能起床哦。\n你必须再卧床休息两天。\n这个男孩还不能去上学，威廉姆斯夫人。\n而且他也不能吃油腻的食物。\n医生，他发烧了吗？\n没有，他没有发烧。\n他必须继续卧床吗？\n是的，他必须再卧床两天。\n他每天可以起来大约两个小时，但你们必须保持房间温暖。\n威廉姆斯先生今晚在哪儿？\n他也在床上，医生。\n您能去看看他吗？\n他也得了重感冒！",
+  "sentences": [
+    {
+      "index": 0,
+      "startTime": 0.78,
+      "endTime": 3.45,
+      "en": "Lesson 63",
+      "zh": "第63课",
+      "role": "lesson"
+    },
+    {
+      "index": 1,
+      "startTime": 3.45,
+      "endTime": 6.45,
+      "en": "Thank you, doctor.",
+      "zh": "谢谢您，医生。",
+      "role": "title"
+    },
+    {
+      "index": 2,
+      "startTime": 6.45,
+      "endTime": 12.69,
+      "en": "Listen to the tape then answer this question.",
+      "zh": "先听这段录音，然后再回答这个问题。",
+      "role": "prompt"
+    },
+    {
+      "index": 3,
+      "startTime": 12.69,
+      "endTime": 19.22,
+      "en": "Who else is in bed today? Why?",
+      "zh": "今天还有谁在床上？为什么？",
+      "role": "question"
+    },
+    {
+      "index": 4,
+      "startTime": 19.22,
+      "endTime": 21.58,
+      "en": "How's Jimmy today?",
+      "zh": "Jimmy今天怎么样？",
+      "role": "body"
+    },
+    {
+      "index": 5,
+      "startTime": 21.58,
+      "endTime": 22.7,
+      "en": "Better.",
+      "zh": "更好了。",
+      "role": "body"
+    },
+    {
+      "index": 6,
+      "startTime": 22.7,
+      "endTime": 25.01,
+      "en": "Thank you, doctor.",
+      "zh": "谢谢您，医生。",
+      "role": "body"
+    },
+    {
+      "index": 7,
+      "startTime": 25.01,
+      "endTime": 29.28,
+      "en": "Can I see him please, Mrs. Williams?",
+      "zh": "请问威廉姆斯夫人，我能见见他吗？",
+      "role": "body"
+    },
+    {
+      "index": 8,
+      "startTime": 29.28,
+      "endTime": 31.35,
+      "en": "Certainly, doctor.",
+      "zh": "当然可以，医生。",
+      "role": "body"
+    },
+    {
+      "index": 9,
+      "startTime": 31.35,
+      "endTime": 34.17,
+      "en": "Come upstairs.",
+      "zh": "上来吧。",
+      "role": "body"
+    },
+    {
+      "index": 10,
+      "startTime": 34.17,
+      "endTime": 37.09,
+      "en": "You look very well, Jimmy.",
+      "zh": "你看起来气色很好，吉米。",
+      "role": "body"
+    },
+    {
+      "index": 11,
+      "startTime": 37.09,
+      "endTime": 42.6,
+      "en": "You are better now, but you mustn't get up yet.",
+      "zh": "你现在好多了，但还不能起床哦。",
+      "role": "body"
+    },
+    {
+      "index": 12,
+      "startTime": 42.6,
+      "endTime": 48.32,
+      "en": "You must stay in bed for another two days.",
+      "zh": "你必须再卧床休息两天。",
+      "role": "body"
+    },
+    {
+      "index": 13,
+      "startTime": 48.32,
+      "endTime": 53.21,
+      "en": "The boy mustn't go to school yet, Mrs. Williams.",
+      "zh": "这个男孩还不能去上学，威廉姆斯夫人。",
+      "role": "body"
+    },
+    {
+      "index": 14,
+      "startTime": 53.21,
+      "endTime": 58.11,
+      "en": "And he mustn't eat rich food.",
+      "zh": "而且他也不能吃油腻的食物。",
+      "role": "body"
+    },
+    {
+      "index": 15,
+      "startTime": 58.11,
+      "endTime": 62.09,
+      "en": "Does he have a temperature, doctor?",
+      "zh": "医生，他发烧了吗？",
+      "role": "body"
+    },
+    {
+      "index": 16,
+      "startTime": 62.09,
+      "endTime": 64.06,
+      "en": "No, he doesn't.",
+      "zh": "没有，他没有发烧。",
+      "role": "body"
+    },
+    {
+      "index": 17,
+      "startTime": 64.06,
+      "endTime": 67.06,
+      "en": "Must he stay in bed?",
+      "zh": "他必须继续卧床吗？",
+      "role": "body"
+    },
+    {
+      "index": 18,
+      "startTime": 67.06,
+      "endTime": 72.84,
+      "en": "Yes. He must remain in bed for another two days.",
+      "zh": "是的，他必须再卧床两天。",
+      "role": "body"
+    },
+    {
+      "index": 19,
+      "startTime": 72.84,
+      "endTime": 83.49,
+      "en": "He can get up for about two hours each day, but you must keep the room warm.",
+      "zh": "他每天可以起来大约两个小时，但你们必须保持房间温暖。",
+      "role": "body"
+    },
+    {
+      "index": 20,
+      "startTime": 83.49,
+      "endTime": 87.35,
+      "en": "Where's Mr. Williams this evening?",
+      "zh": "威廉姆斯先生今晚在哪儿？",
+      "role": "body"
+    },
+    {
+      "index": 21,
+      "startTime": 87.35,
+      "endTime": 90.48,
+      "en": "He's in bed, doctor.",
+      "zh": "他也在床上，医生。",
+      "role": "body"
+    },
+    {
+      "index": 22,
+      "startTime": 90.48,
+      "endTime": 93.24,
+      "en": "Can you see him please?",
+      "zh": "您能去看看他吗？",
+      "role": "body"
+    },
+    {
+      "index": 23,
+      "startTime": 93.24,
+      "endTime": null,
+      "en": "He has a bad cold, too!",
+      "zh": "他也得了重感冒！",
+      "role": "body"
+    }
+  ],
+  "audio": {
+    "fileName": "063&064－Thank You, Doctor..mp3",
+    "sourcePath": "content/NCE-Flow/NCE1/063&064－Thank You, Doctor..mp3",
+    "exists": true
+  },
+  "source": {
+    "repository": "NCE-Flow",
+    "lrcFileName": "063&064－Thank You, Doctor..lrc",
+    "lrcPath": "content/NCE-Flow/NCE1/063&064－Thank You, Doctor..lrc",
+    "sourceDataFile": "content/NCE-Flow/static/data.json",
+    "generatedAt": "2026-07-23T02:59:02+00:00",
+    "generator": "scripts/generate_nce_json.py",
+    "generatorVersion": "2.0.0",
+    "metadata": {
+      "al": "新概念英语（一）",
+      "ar": "MP3 同步字幕版（美音）",
+      "ti": "Thank You, Doctor.",
+      "by": "更多学习内容，请到VeryCD.com搜索“露珠”"
+    }
+  }
+}

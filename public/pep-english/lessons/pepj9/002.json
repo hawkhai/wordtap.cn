@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "id": "pepj9-002",
+  "groupId": "pepj9",
+  "unitNo": 1,
+  "sequenceNo": 2,
+  "section": "Section A",
+  "title": "How I Learned to Learn English",
+  "jsonPath": "pep-english/lessons/pepj9/002.json",
+  "text": "Last year, I did not like my English class. Every class was like a bad dream. The teacher spoke so quickly that I did not understand her most of the time. I was afraid to ask questions because of my poor pronunciation. I just hid behind my textbook and never said anything.\nThen one day I watched an English movie called Toy Story. I fell in love with this exciting and funny movie! So I began to watch other English movies, too. Although I could not understand everything the characters said, their body language and the expressions on their faces helped me to get the meaning. I also realized I could get the meaning by listening for just the key words. My pronunciation improved as well by listening to the conversations in English movies. I discovered that listening to something interesting is the secret to language learning. I also learned useful sentences like \"It's a piece of cake\" or \"It serves you right.\" I did not understand these sentences at first. But because I wanted to understand the story, I looked them up in a dictionary.\nNow I really enjoy my English class. I want to learn new words and more grammar so that I can have a better understanding of English movies.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Last year, I did not like my English class. Every class was like a bad dream. The teacher spoke so quickly that I did not understand her most of the time. I was afraid to ask questions because of my poor pronunciation. I just hid behind my textbook and never said anything."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Then one day I watched an English movie called Toy Story. I fell in love with this exciting and funny movie! So I began to watch other English movies, too. Although I could not understand everything the characters said, their body language and the expressions on their faces helped me to get the meaning. I also realized I could get the meaning by listening for just the key words. My pronunciation improved as well by listening to the conversations in English movies. I discovered that listening to something interesting is the secret to language learning. I also learned useful sentences like \"It's a piece of cake\" or \"It serves you right.\" I did not understand these sentences at first. But because I wanted to understand the story, I looked them up in a dictionary."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Now I really enjoy my English class. I want to learn new words and more grammar so that I can have a better understanding of English movies."
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "初中",
+    "book": "九年级全一册",
+    "pageStart": 17,
+    "pageEnd": 17,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "c6e628c22e0c2f9cfe4547699a1c95a4",
+    "pdfSize": 11088578,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/junior-9.pdf#page=17",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored the printed title and all three complete paragraphs; excluded the 3a questions, Unit header and 3b fill-in exercise."
+    }
+  }
+}

@@ -1,0 +1,474 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-07-21T06:57:49.737589+00:00",
+  "generator": "tools/generate-postgraduate-data.py",
+  "generatorVersion": "1.2.0",
+  "source": {
+    "repository": "NCE/English-for-post-graduate",
+    "files": [
+      "translate.tex",
+      "translate2.tex"
+    ],
+    "supplements": "content/postgraduate",
+    "graduateOcr": "tools/graduate/ocr/json"
+  },
+  "totalLessons": 40,
+  "expectedTotalLessons": 40,
+  "complete": true,
+  "missingLessons": [],
+  "volumes": [
+    {
+      "id": "volume1",
+      "title": "上册译文",
+      "subtitle": "10/10 篇双语文章",
+      "lessonCount": 10,
+      "expectedLessonCount": 10,
+      "missingUnitNos": [],
+      "languageMode": "bilingual",
+      "lessons": [
+        {
+          "id": "volume1-01",
+          "volumeId": "volume1",
+          "unitNo": 1,
+          "title": "Traits of the Key Players",
+          "theme": "Planning Your Future Career",
+          "jsonPath": "postgraduate/lessons/volume1/01.json",
+          "paragraphCount": 24
+        },
+        {
+          "id": "volume1-02",
+          "volumeId": "volume1",
+          "unitNo": 2,
+          "title": "Culinary Delights in China",
+          "theme": "Art of the Table",
+          "jsonPath": "postgraduate/lessons/volume1/02.json",
+          "paragraphCount": 32
+        },
+        {
+          "id": "volume1-03",
+          "volumeId": "volume1",
+          "unitNo": 3,
+          "title": "Why Harry's Hot",
+          "theme": "Leisure Activities",
+          "jsonPath": "postgraduate/lessons/volume1/03.json",
+          "paragraphCount": 20
+        },
+        {
+          "id": "volume1-04",
+          "volumeId": "volume1",
+          "unitNo": 4,
+          "title": "LOVE AND LOVING RELATIONSHIPS",
+          "theme": "Love and Marriage",
+          "jsonPath": "postgraduate/lessons/volume1/04.json",
+          "paragraphCount": 30
+        },
+        {
+          "id": "volume1-05",
+          "volumeId": "volume1",
+          "unitNo": 5,
+          "title": "YOGA IN AMERICA",
+          "theme": "Living a Healthier Life",
+          "jsonPath": "postgraduate/lessons/volume1/05.json",
+          "paragraphCount": 32
+        },
+        {
+          "id": "volume1-06",
+          "volumeId": "volume1",
+          "unitNo": 6,
+          "title": "Here Is New York",
+          "theme": "Sanctuary or Fulfillment",
+          "jsonPath": "postgraduate/lessons/volume1/06.json",
+          "paragraphCount": 18
+        },
+        {
+          "id": "volume1-07",
+          "volumeId": "volume1",
+          "unitNo": 7,
+          "title": "ON HUMAN NATURE",
+          "theme": "Exploring Human Nature",
+          "jsonPath": "postgraduate/lessons/volume1/07.json",
+          "paragraphCount": 27
+        },
+        {
+          "id": "volume1-08",
+          "volumeId": "volume1",
+          "unitNo": 8,
+          "title": "THE HIDDEN DANGER OF SEAT BELTS",
+          "theme": "Smarter Transportation",
+          "jsonPath": "postgraduate/lessons/volume1/08.json",
+          "paragraphCount": 22
+        },
+        {
+          "id": "volume1-09",
+          "volumeId": "volume1",
+          "unitNo": 9,
+          "title": "The Housing Crisis Goes Suburban",
+          "theme": "Affordable Housing",
+          "jsonPath": "postgraduate/lessons/volume1/09.json",
+          "paragraphCount": 30
+        },
+        {
+          "id": "volume1-10",
+          "volumeId": "volume1",
+          "unitNo": 10,
+          "title": "The Role of the Academy in Times of Crisis",
+          "theme": "The Role of Education",
+          "jsonPath": "postgraduate/lessons/volume1/10.json",
+          "paragraphCount": 16
+        }
+      ]
+    },
+    {
+      "id": "volume2",
+      "title": "下册译文",
+      "subtitle": "10/10 篇双语文章",
+      "lessonCount": 10,
+      "expectedLessonCount": 10,
+      "missingUnitNos": [],
+      "languageMode": "bilingual",
+      "lessons": [
+        {
+          "id": "volume2-01",
+          "volumeId": "volume2",
+          "unitNo": 1,
+          "title": "The Hidden Side of Happiness",
+          "theme": "The Hidden Side of Happiness",
+          "jsonPath": "postgraduate/lessons/volume2/01.json",
+          "paragraphCount": 37
+        },
+        {
+          "id": "volume2-02",
+          "volumeId": "volume2",
+          "unitNo": 2,
+          "title": "Commercialization and Changes in Sports",
+          "theme": "Commercialization and Changes in Sports",
+          "jsonPath": "postgraduate/lessons/volume2/02.json",
+          "paragraphCount": 18
+        },
+        {
+          "id": "volume2-03",
+          "volumeId": "volume2",
+          "unitNo": 3,
+          "title": "Oslo",
+          "theme": "Oslo",
+          "jsonPath": "postgraduate/lessons/volume2/03.json",
+          "paragraphCount": 33
+        },
+        {
+          "id": "volume2-04",
+          "volumeId": "volume2",
+          "unitNo": 4,
+          "title": "Is Google Making Us Stupid",
+          "theme": "Is Google Making Us Stupid",
+          "jsonPath": "postgraduate/lessons/volume2/04.json",
+          "paragraphCount": 20
+        },
+        {
+          "id": "volume2-05",
+          "volumeId": "volume2",
+          "unitNo": 5,
+          "title": "An Alpine Divorce",
+          "theme": "An Alpine Divorce",
+          "jsonPath": "postgraduate/lessons/volume2/05.json",
+          "paragraphCount": 68
+        },
+        {
+          "id": "volume2-06",
+          "volumeId": "volume2",
+          "unitNo": 6,
+          "title": "Inaugural Address",
+          "theme": "Inaugural Address",
+          "jsonPath": "postgraduate/lessons/volume2/06.json",
+          "paragraphCount": 50
+        },
+        {
+          "id": "volume2-07",
+          "volumeId": "volume2",
+          "unitNo": 7,
+          "title": "The Poetry of Architecture",
+          "theme": "The Poetry of Architecture",
+          "jsonPath": "postgraduate/lessons/volume2/07.json",
+          "paragraphCount": 23
+        },
+        {
+          "id": "volume2-08",
+          "volumeId": "volume2",
+          "unitNo": 8,
+          "title": "Thinking Like a Mountain",
+          "theme": "Thinking Like a Mountain",
+          "jsonPath": "postgraduate/lessons/volume2/08.json",
+          "paragraphCount": 20
+        },
+        {
+          "id": "volume2-09",
+          "volumeId": "volume2",
+          "unitNo": 9,
+          "title": "How Mass Media Affect Our Perception of Reality",
+          "theme": "How Mass Media Affect Our Perception of Reality",
+          "jsonPath": "postgraduate/lessons/volume2/09.json",
+          "paragraphCount": 33
+        },
+        {
+          "id": "volume2-10",
+          "volumeId": "volume2",
+          "unitNo": 10,
+          "title": "Marketing Across Cultures",
+          "theme": "Marketing Across Cultures",
+          "jsonPath": "postgraduate/lessons/volume2/10.json",
+          "paragraphCount": 28
+        }
+      ]
+    },
+    {
+      "id": "reading-writing-translation",
+      "title": "读写译教程",
+      "subtitle": "20/20 篇课文 · 李知宇主编",
+      "lessonCount": 20,
+      "expectedLessonCount": 20,
+      "missingUnitNos": [],
+      "languageMode": "en",
+      "lessons": [
+        {
+          "id": "reading-writing-translation-01a",
+          "volumeId": "reading-writing-translation",
+          "unitNo": 1,
+          "title": "Stay Hungry. Stay Foolish.",
+          "theme": "Unit One · Text A",
+          "jsonPath": "postgraduate/lessons/reading-writing-translation/01a.json",
+          "paragraphCount": 25,
+          "articleNo": 1,
+          "textLabel": "Text A",
+          "author": "Steve Jobs"
+        },
+        {
+          "id": "reading-writing-translation-01b",
+          "volumeId": "reading-writing-translation",
+          "unitNo": 1,
+          "title": "Barack Obama's Victory Speech",
+          "theme": "Unit One · Text B",
+          "jsonPath": "postgraduate/lessons/reading-writing-translation/01b.json",
+          "paragraphCount": 48,
+          "articleNo": 2,
+          "textLabel": "Text B",
+          "author": "Barack Obama"
+        },
+        {
+          "id": "reading-writing-translation-02a",
+          "volumeId": "reading-writing-translation",
+          "unitNo": 2,
+          "title": "Two Truths to Live By",
+          "theme": "Unit Two · Text A",
+          "jsonPath": "postgraduate/lessons/reading-writing-translation/02a.json",
+          "paragraphCount": 20,
+          "articleNo": 3,
+          "textLabel": "Text A",
+          "author": "Alexander M. Schindler"
+        },
+        {
+          "id": "reading-writing-translation-02b",
+          "volumeId": "reading-writing-translation",
+          "unitNo": 2,
+          "title": "Approach to Life",
+          "theme": "Unit Two · Text B",
+          "jsonPath": "postgraduate/lessons/reading-writing-translation/02b.json",
+          "paragraphCount": 5,
+          "articleNo": 4,
+          "textLabel": "Text B",
+          "author": "Lin Yutang"
+        },
+        {
+          "id": "reading-writing-translation-03a",
+          "volumeId": "reading-writing-translation",
+          "unitNo": 3,
+          "title": "A Few Kind Words for Losing",
+          "theme": "Unit Three · Text A",
+          "jsonPath": "postgraduate/lessons/reading-writing-translation/03a.json",
+          "paragraphCount": 14,
+          "articleNo": 5,
+          "textLabel": "Text A",
+          "author": "Joseph Epstein"
+        },
+        {
+          "id": "reading-writing-translation-03b",
+          "volumeId": "reading-writing-translation",
+          "unitNo": 3,
+          "title": "What Makes a Champion?",
+          "theme": "Unit Three · Text B",
+          "jsonPath": "postgraduate/lessons/reading-writing-translation/03b.json",
+          "paragraphCount": 29,
+          "articleNo": 6,
+          "textLabel": "Text B",
+          "author": "Tony Blair"
+        },
+        {
+          "id": "reading-writing-translation-04a",
+          "volumeId": "reading-writing-translation",
+          "unitNo": 4,
+          "title": "The Future of Books",
+          "theme": "Unit Four · Text A",
+          "jsonPath": "postgraduate/lessons/reading-writing-translation/04a.json",
+          "paragraphCount": 9,
+          "articleNo": 7,
+          "textLabel": "Text A",
+          "author": "Umberto Eco"
+        },
+        {
+          "id": "reading-writing-translation-04b",
+          "volumeId": "reading-writing-translation",
+          "unitNo": 4,
+          "title": "Hypertextual Game and Interpretation of Texts",
+          "theme": "Unit Four · Text B",
+          "jsonPath": "postgraduate/lessons/reading-writing-translation/04b.json",
+          "paragraphCount": 10,
+          "articleNo": 8,
+          "textLabel": "Text B",
+          "author": "Umberto Eco"
+        },
+        {
+          "id": "reading-writing-translation-05a",
+          "volumeId": "reading-writing-translation",
+          "unitNo": 5,
+          "title": "Scientists, Scholars, Knaves and Fools",
+          "theme": "Unit Five · Text A",
+          "jsonPath": "postgraduate/lessons/reading-writing-translation/05a.json",
+          "paragraphCount": 12,
+          "articleNo": 9,
+          "textLabel": "Text A",
+          "author": "Edward O. Wilson"
+        },
+        {
+          "id": "reading-writing-translation-05b",
+          "volumeId": "reading-writing-translation",
+          "unitNo": 5,
+          "title": "English Next...",
+          "theme": "Unit Five · Text B",
+          "jsonPath": "postgraduate/lessons/reading-writing-translation/05b.json",
+          "paragraphCount": 25,
+          "articleNo": 10,
+          "textLabel": "Text B",
+          "author": "David Graddol"
+        },
+        {
+          "id": "reading-writing-translation-06a",
+          "volumeId": "reading-writing-translation",
+          "unitNo": 6,
+          "title": "Anthropologists on the Front Lines",
+          "theme": "Unit Six · Text A",
+          "jsonPath": "postgraduate/lessons/reading-writing-translation/06a.json",
+          "paragraphCount": 10,
+          "articleNo": 11,
+          "textLabel": "Text A",
+          "author": "Ken Stier"
+        },
+        {
+          "id": "reading-writing-translation-06b",
+          "volumeId": "reading-writing-translation",
+          "unitNo": 6,
+          "title": "Book Review: \"College: What It Was, Is, and Should Be\" by Andrew Delbanco",
+          "theme": "Unit Six · Text B",
+          "jsonPath": "postgraduate/lessons/reading-writing-translation/06b.json",
+          "paragraphCount": 9,
+          "articleNo": 12,
+          "textLabel": "Text B",
+          "author": "Michael S. Roth"
+        },
+        {
+          "id": "reading-writing-translation-07a",
+          "volumeId": "reading-writing-translation",
+          "unitNo": 7,
+          "title": "Entropy",
+          "theme": "Unit Seven · Text A",
+          "jsonPath": "postgraduate/lessons/reading-writing-translation/07a.json",
+          "paragraphCount": 17,
+          "articleNo": 13,
+          "textLabel": "Text A",
+          "author": "K. C. Cole"
+        },
+        {
+          "id": "reading-writing-translation-07b",
+          "volumeId": "reading-writing-translation",
+          "unitNo": 7,
+          "title": "When the Pestilence Struck",
+          "theme": "Unit Seven · Text B",
+          "jsonPath": "postgraduate/lessons/reading-writing-translation/07b.json",
+          "paragraphCount": 6,
+          "articleNo": 14,
+          "textLabel": "Text B",
+          "author": "Giovanni Boccaccio"
+        },
+        {
+          "id": "reading-writing-translation-08a",
+          "volumeId": "reading-writing-translation",
+          "unitNo": 8,
+          "title": "Of Ambition; Of Fortune",
+          "theme": "Unit Eight · Text A",
+          "jsonPath": "postgraduate/lessons/reading-writing-translation/08a.json",
+          "paragraphCount": 15,
+          "articleNo": 15,
+          "textLabel": "Text A",
+          "author": "Francis Bacon"
+        },
+        {
+          "id": "reading-writing-translation-08b",
+          "volumeId": "reading-writing-translation",
+          "unitNo": 8,
+          "title": "The Giving of Orders",
+          "theme": "Unit Eight · Text B",
+          "jsonPath": "postgraduate/lessons/reading-writing-translation/08b.json",
+          "paragraphCount": 6,
+          "articleNo": 16,
+          "textLabel": "Text B",
+          "author": "Mary Parker Follett"
+        },
+        {
+          "id": "reading-writing-translation-09a",
+          "volumeId": "reading-writing-translation",
+          "unitNo": 9,
+          "title": "In DNA Era, New Worries About Prejudice",
+          "theme": "Unit Nine · Text A",
+          "jsonPath": "postgraduate/lessons/reading-writing-translation/09a.json",
+          "paragraphCount": 31,
+          "articleNo": 17,
+          "textLabel": "Text A",
+          "author": "Amy Harmon"
+        },
+        {
+          "id": "reading-writing-translation-09b",
+          "volumeId": "reading-writing-translation",
+          "unitNo": 9,
+          "title": "Are Your Genes to Blame?",
+          "theme": "Unit Nine · Text B",
+          "jsonPath": "postgraduate/lessons/reading-writing-translation/09b.json",
+          "paragraphCount": 7,
+          "articleNo": 18,
+          "textLabel": "Text B",
+          "author": "Steven Pinker"
+        },
+        {
+          "id": "reading-writing-translation-10a",
+          "volumeId": "reading-writing-translation",
+          "unitNo": 10,
+          "title": "Fishes in the Concord River",
+          "theme": "Unit Ten · Text A",
+          "jsonPath": "postgraduate/lessons/reading-writing-translation/10a.json",
+          "paragraphCount": 7,
+          "articleNo": 19,
+          "textLabel": "Text A",
+          "author": "Henry David Thoreau"
+        },
+        {
+          "id": "reading-writing-translation-10b",
+          "volumeId": "reading-writing-translation",
+          "unitNo": 10,
+          "title": "A Strange Experience in Yosemite",
+          "theme": "Unit Ten · Text B",
+          "jsonPath": "postgraduate/lessons/reading-writing-translation/10b.json",
+          "paragraphCount": 4,
+          "articleNo": 20,
+          "textLabel": "Text B",
+          "author": "John Muir"
+        }
+      ]
+    }
+  ]
+}

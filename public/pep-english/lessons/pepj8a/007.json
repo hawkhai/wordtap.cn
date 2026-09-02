@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "id": "pepj8a-007",
+  "groupId": "pepj8a",
+  "unitNo": 3,
+  "sequenceNo": 7,
+  "section": "Section B",
+  "title": "Should Friends Be the Same or Different?",
+  "jsonPath": "pep-english/lessons/pepj8a/007.json",
+  "text": "Jeff Green: My mother told me a good friend is like a mirror. I'm quieter and more serious than most kids. That's why I like reading books and I study harder in class. My best friend Yuan Li is quiet too, so we enjoy studying together. I'm shy so it's not easy for me to make friends. But I think friends are like books — you don't need a lot of them as long as they're good.\nHuang Lei: It's not necessary to be the same. My best friend Larry is quite different from me. He is taller and more outgoing than me. We both like sports, but he plays tennis better, so he always wins. However, Larry often helps to bring out the best in me. So I'm getting better at tennis. Larry is much less hard-working, though. I always get better grades than he does, so maybe I should help him more.\nMary Smith: I don't really care if my friends are the same as me or different. My favorite saying is, \"A true friend reaches for your hand and touches your heart.\" My best friend Carol is really kind and very funny. In fact, she's funnier than anyone I know. I broke my arm last year but she made me laugh and feel better. We can talk about and share everything. I know she cares about me because she's always there to listen.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Jeff Green: My mother told me a good friend is like a mirror. I'm quieter and more serious than most kids. That's why I like reading books and I study harder in class. My best friend Yuan Li is quiet too, so we enjoy studying together. I'm shy so it's not easy for me to make friends. But I think friends are like books — you don't need a lot of them as long as they're good."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Huang Lei: It's not necessary to be the same. My best friend Larry is quite different from me. He is taller and more outgoing than me. We both like sports, but he plays tennis better, so he always wins. However, Larry often helps to bring out the best in me. So I'm getting better at tennis. Larry is much less hard-working, though. I always get better grades than he does, so maybe I should help him more."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Mary Smith: I don't really care if my friends are the same as me or different. My favorite saying is, \"A true friend reaches for your hand and touches your heart.\" My best friend Carol is really kind and very funny. In fact, she's funnier than anyone I know. I broke my arm last year but she made me laugh and feel better. We can talk about and share everything. I know she cares about me because she's always there to listen."
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "初中",
+    "book": "八年级上册",
+    "pageStart": 32,
+    "pageEnd": 32,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "24fcd352dca21a6ee547539f550ed35c",
+    "pdfSize": 9469090,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/junior-8a.pdf#page=32",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored all three complete signed opinions in their printed order, retained each writer's name, corrected title and Section B metadata, and excluded activity 2a."
+    }
+  }
+}

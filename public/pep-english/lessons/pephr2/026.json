@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "id": "pephr2-026",
+  "groupId": "pephr2",
+  "unitNo": 5,
+  "sequenceNo": 26,
+  "section": "Reading and Writing",
+  "title": "Jill's Review of Cat's in the Cradle",
+  "jsonPath": "pep-english/lessons/pephr2/026.json",
+  "text": "“Cat's in the Cradle” is about a father who is too busy to be with his son. Then after his son grows up, his son is too busy to be with him. As the song notes: “My boy was just like me.” The song made me think of my relationship with my own father. He's often busy with work because he wants to take care of me. I love my father very much, but I wish we had more time together. The song made me want to work harder to find chances to be with my father.\n—Jill",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "“Cat's in the Cradle” is about a father who is too busy to be with his son. Then after his son grows up, his son is too busy to be with him. As the song notes: “My boy was just like me.” The song made me think of my relationship with my own father. He's often busy with work because he wants to take care of me. I love my father very much, but I wish we had more time together. The song made me want to work harder to find chances to be with my father."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "—Jill"
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "必修第二册",
+    "pageStart": 96,
+    "pageEnd": 96,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "38d49874e4f015fd89f21c9306f6b9d5",
+    "pdfSize": 14270612,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/senior-required-2.pdf#page=96",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored Jill's complete signed model review as an independent text and excluded all comprehension, ordering and writing activities.",
+      "splitBaselineId": "pephr2-038",
+      "splitIndex": 1,
+      "splitCount": 2
+    }
+  }
+}

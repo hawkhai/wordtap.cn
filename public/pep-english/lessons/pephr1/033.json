@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "id": "pephr1-033",
+  "groupId": "pephr1",
+  "unitNo": 4,
+  "sequenceNo": 33,
+  "section": "Reading and Writing",
+  "title": "The Story of an Eyewitness (Adapted)",
+  "jsonPath": "pep-english/lessons/pephr1/033.json",
+  "text": "San Francisco, May 5, 1906.\nThe earthquake that hit San Francisco on April 18 shook down hundreds of thousands of dollars' worth of walls and chimneys. But the fire that followed burned up hundreds of millions of dollars' worth of buildings and homes. Never before in history has a city been so completely destroyed. San Francisco is gone. The factories, the great stores and newspaper buildings, the hotels, and the great houses of the rich are all gone.\nOn Wednesday morning at a quarter past five came the earthquake. A moment later, the disaster was a fact. South of Market Street, in the working-class neighbourhoods and in the factories, fires started. Within an hour of the first quake, the smoke could be seen 100 miles away. The sun was red in the dark sky. There was no stopping the fires. The firefighters to whom the task was given did their best but there was no way to organise or communicate. The railway tracks were now useless and there was no water in water pipes. All of the ways man had made to keep the city safe were gone in the 30 seconds the earth moved.\nBy Wednesday afternoon, half the heart of the city was gone. At that time, I watched the disaster from a ship on the bay. Out at sea it was calm. No wind came up. Yet from every direction—east, west, north, and south—strong winds blew upon the unlucky city and those whose homes had once stood in its green hills.\nWednesday night saw the destruction of the very heart of the city. Man himself had to make ruins of some of the city's best buildings so that they would not be a danger to those in the streets. Tens of thousands who had lost their homes left the city to look for shelter from the fires. Some were dressed only in blankets and carried the things that they had been able to rescue from the fires. But there were no fights and no pushing or shoving. Somehow this worst of disasters brought out the best in the survivors. Never in all of San Francisco's history were her people so kind as on this night of terror.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "San Francisco, May 5, 1906."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "The earthquake that hit San Francisco on April 18 shook down hundreds of thousands of dollars' worth of walls and chimneys. But the fire that followed burned up hundreds of millions of dollars' worth of buildings and homes. Never before in history has a city been so completely destroyed. San Francisco is gone. The factories, the great stores and newspaper buildings, the hotels, and the great houses of the rich are all gone."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "On Wednesday morning at a quarter past five came the earthquake. A moment later, the disaster was a fact. South of Market Street, in the working-class neighbourhoods and in the factories, fires started. Within an hour of the first quake, the smoke could be seen 100 miles away. The sun was red in the dark sky. There was no stopping the fires. The firefighters to whom the task was given did their best but there was no way to organise or communicate. The railway tracks were now useless and there was no water in water pipes. All of the ways man had made to keep the city safe were gone in the 30 seconds the earth moved."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "By Wednesday afternoon, half the heart of the city was gone. At that time, I watched the disaster from a ship on the bay. Out at sea it was calm. No wind came up. Yet from every direction—east, west, north, and south—strong winds blew upon the unlucky city and those whose homes had once stood in its green hills."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Wednesday night saw the destruction of the very heart of the city. Man himself had to make ruins of some of the city's best buildings so that they would not be a danger to those in the streets. Tens of thousands who had lost their homes left the city to look for shelter from the fires. Some were dressed only in blankets and carried the things that they had been able to rescue from the fires. But there were no fights and no pushing or shoving. Somehow this worst of disasters brought out the best in the survivors. Never in all of San Francisco's history were her people so kind as on this night of terror."
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "必修第一册",
+    "pageStart": 99,
+    "pageEnd": 99,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "e0bf18138b24d7def28b35994a13946b",
+    "pdfSize": 14704146,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/senior-required-1.pdf#page=99",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored Jack London's complete adapted eyewitness account, following the visual two-column continuation from the lower left column to the upper right; retained the dateline and four body paragraphs, and removed Chinese glosses, activity text and images."
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "id": "pephs2-001",
+  "groupId": "pephs2",
+  "unitNo": 1,
+  "sequenceNo": 1,
+  "section": "Reading and Thinking",
+  "title": "John Snow Defeats ‘King Cholera’",
+  "jsonPath": "pep-english/lessons/pephs2/001.json",
+  "text": "Cholera used to be one of the most feared diseases in the world, until a British doctor, John Snow, showed how it could be overcome. This illness causes severe diarrhoea, dehydration, and even death. In the early 19th century, when an outbreak of cholera hit Europe, millions of people died from the disease. As a young doctor, John Snow became frustrated because no one knew how to prevent or treat cholera. In time, he rose to become a famous doctor, and even attended to Queen Victoria when she gave birth. However, he never lost his desire to destroy cholera once and for all.\nIn general, doctors in those days had two contradictory theories to explain how cholera spread. One theory was that bad air caused the disease. The other was that cholera was caused by an infection from germs in food or water. Snow subscribed to the second theory. It was correct, but he still needed proof. Consequently, when an outbreak of cholera hit London in 1854, Snow began to investigate. He discovered that in two particular streets the cholera outbreak was so severe that more than 500 people died in ten days. He was determined to find out why.\nSnow began by marking on a map the exact places where all those who died had lived. There were multiple deaths near the water pump in Broad Street (especially house numbers 16, 37, 38, and 40). However, some households (such as 20 and 21 Broad Street, and 8 and 9 Cambridge Street) had had no deaths. These people worked in the pub at 7 Cambridge Street. They had been given free beer, and so had not drunk the water from the pump. Snow suspected that the water pump was to blame. What is more, in another part of London, a woman and her daughter had died of cholera after moving away from Broad Street. It seemed that the woman liked the water from the pump so much that she had it delivered to her house every day. As a result of this evidence, John Snow was able to announce that the pump water carried cholera germs. Accordingly, he had the handle of the pump removed so that it could not be used. Through this intervention, the disease was stopped in its tracks.\nThe truth was that the water from the Broad Street pump had been infected by waste. Moreover, Snow was later able to show a link between other cases of cholera and the different water companies in London. Some companies sold water from the River Thames that was polluted by raw waste. The people who drank this water were much more likely to get cholera than those who drank pure or boiled water.\nThrough Snow’s tireless efforts, water companies began to sell clean water, and the threat of cholera around the world saw a substantial decrease. However, cholera is still a problem. Each year, millions of people around the world get cholera and many die from it. Fortunately, we now know how to prevent cholera, thanks to the work of John Snow. Moreover, in his use of maps and statistics, Snow transformed the way scientists study diseases. For this reason, Snow is considered the father of modern epidemiology.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Cholera used to be one of the most feared diseases in the world, until a British doctor, John Snow, showed how it could be overcome. This illness causes severe diarrhoea, dehydration, and even death. In the early 19th century, when an outbreak of cholera hit Europe, millions of people died from the disease. As a young doctor, John Snow became frustrated because no one knew how to prevent or treat cholera. In time, he rose to become a famous doctor, and even attended to Queen Victoria when she gave birth. However, he never lost his desire to destroy cholera once and for all."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "In general, doctors in those days had two contradictory theories to explain how cholera spread. One theory was that bad air caused the disease. The other was that cholera was caused by an infection from germs in food or water. Snow subscribed to the second theory. It was correct, but he still needed proof. Consequently, when an outbreak of cholera hit London in 1854, Snow began to investigate. He discovered that in two particular streets the cholera outbreak was so severe that more than 500 people died in ten days. He was determined to find out why."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Snow began by marking on a map the exact places where all those who died had lived. There were multiple deaths near the water pump in Broad Street (especially house numbers 16, 37, 38, and 40). However, some households (such as 20 and 21 Broad Street, and 8 and 9 Cambridge Street) had had no deaths. These people worked in the pub at 7 Cambridge Street. They had been given free beer, and so had not drunk the water from the pump. Snow suspected that the water pump was to blame. What is more, in another part of London, a woman and her daughter had died of cholera after moving away from Broad Street. It seemed that the woman liked the water from the pump so much that she had it delivered to her house every day. As a result of this evidence, John Snow was able to announce that the pump water carried cholera germs. Accordingly, he had the handle of the pump removed so that it could not be used. Through this intervention, the disease was stopped in its tracks."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "The truth was that the water from the Broad Street pump had been infected by waste. Moreover, Snow was later able to show a link between other cases of cholera and the different water companies in London. Some companies sold water from the River Thames that was polluted by raw waste. The people who drank this water were much more likely to get cholera than those who drank pure or boiled water."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Through Snow’s tireless efforts, water companies began to sell clean water, and the threat of cholera around the world saw a substantial decrease. However, cholera is still a problem. Each year, millions of people around the world get cholera and many die from it. Fortunately, we now know how to prevent cholera, thanks to the work of John Snow. Moreover, in his use of maps and statistics, Snow transformed the way scientists study diseases. For this reason, Snow is considered the father of modern epidemiology."
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "选择性必修第二册",
+    "pageStart": 9,
+    "pageEnd": 10,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "1a701f2205298de95ea59cfc71eb83cd",
+    "pdfSize": 9968316,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/senior-selective-2.pdf#page=9-10",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored the complete five-paragraph John Snow feature across pages 9–10; verified the third paragraph around the cholera map and the two concluding paragraphs before the page-10 exercises, excluding all instructions, map labels, tasks and running furniture."
+    }
+  }
+}

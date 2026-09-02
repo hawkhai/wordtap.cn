@@ -1,0 +1,143 @@
+{
+  "schemaVersion": 1,
+  "id": "nce4-016",
+  "bookId": "nce4",
+  "bookNo": 4,
+  "lessonNo": 16,
+  "lessonRange": [
+    16
+  ],
+  "title": "The Modern City",
+  "titleZh": "现代城市",
+  "question": "What is the author's main argument about the modern city?",
+  "questionZh": "作者关于现代城市的主要观点是什么？",
+  "text": "What is the author's main argument about the modern city?\n\nIn the organization of industrial life the influence of the factory upon the physiological and mental state of the workers has been completely neglected.\nModern industry is based on the conception of the maximum production at lowest cost, in order that an individual or a group of individuals may earn as much money as possible.\nIt has expanded without any idea of the true nature of the human beings who run the machines, and without giving any consideration to the effects produced on the individuals and on their descendants by the artificial mode of existence imposed by the factory.\nThe great cities have been built with no regard for us.\nThe shape and dimensions of the skyscrapers depend entirely on the necessity of obtaining the maximum income per square foot of ground, and of offering to the tenants offices and apartments that please them.\nThis caused the construction of gigantic buildings where too large masses of human beings are crowded together.\nCivilized men like such a way of living.\nWhile they enjoy the comfort and banal luxury of their dwelling, they do not realize that they are deprived of the necessities of life.\nThe modern city consists of monstrous edifices and of dark, narrow streets full of petrol fumes and toxic gases, torn by the noise of the taxicabs, lorries and buses, and thronged ceaselessly by great crowds.\nObviously, it has not been planned for the good of its inhabitants.",
+  "bodyText": "In the organization of industrial life the influence of the factory upon the physiological and mental state of the workers has been completely neglected.\nModern industry is based on the conception of the maximum production at lowest cost, in order that an individual or a group of individuals may earn as much money as possible.\nIt has expanded without any idea of the true nature of the human beings who run the machines, and without giving any consideration to the effects produced on the individuals and on their descendants by the artificial mode of existence imposed by the factory.\nThe great cities have been built with no regard for us.\nThe shape and dimensions of the skyscrapers depend entirely on the necessity of obtaining the maximum income per square foot of ground, and of offering to the tenants offices and apartments that please them.\nThis caused the construction of gigantic buildings where too large masses of human beings are crowded together.\nCivilized men like such a way of living.\nWhile they enjoy the comfort and banal luxury of their dwelling, they do not realize that they are deprived of the necessities of life.\nThe modern city consists of monstrous edifices and of dark, narrow streets full of petrol fumes and toxic gases, torn by the noise of the taxicabs, lorries and buses, and thronged ceaselessly by great crowds.\nObviously, it has not been planned for the good of its inhabitants.",
+  "bodyTextZh": "在工业生活的组织结构中，工厂对工人生理和心理状态的影响完全被忽视了。\n现代工业建立在“以最低成本实现最大生产”的理念之上。这样，个人或某个群体就能赚取尽可能多的钱。\n它一直在不断扩张，却对那些操控这些机器的人的真实本质一无所知。而且，完全没有考虑到工厂所强加的这种人工生活方式对个人及其后代所产生的影响。\n这些伟大的城市是在完全无视我们的存在的情况下建造的。\n摩天大楼的形状和尺寸完全取决于实现“每平方英尺土地带来最高收入”这一目标的需要。并且为租户提供他们满意的办公室和公寓。\n这导致了巨型建筑物的出现，这些建筑物里挤满了大量的人口。\n文明人喜欢这样的生活方式。\n虽然他们享受着住所带来的舒适与平庸的奢华，却没有意识到自己被剥夺了生活必需品。\n现代城市由巨大的建筑物以及狭窄、昏暗的街道组成；这些街道里弥漫着汽油烟雾和有毒气体。出租车、卡车和公交车的噪音撕裂着这里的宁静，人群川流不息，络绎不绝。\n显然，这一切的规划并非是为了居民们的利益着想。",
+  "sentences": [
+    {
+      "index": 0,
+      "startTime": 0.79,
+      "endTime": 2.51,
+      "en": "Lesson 16",
+      "zh": "第16课",
+      "role": "lesson"
+    },
+    {
+      "index": 1,
+      "startTime": 2.51,
+      "endTime": 9.5,
+      "en": "The modern city",
+      "zh": "现代城市",
+      "role": "title"
+    },
+    {
+      "index": 2,
+      "startTime": 9.5,
+      "endTime": 15.45,
+      "en": "What is the author's main argument about the modern city?",
+      "zh": "作者关于现代城市的主要观点是什么？",
+      "role": "question"
+    },
+    {
+      "index": 3,
+      "startTime": 15.45,
+      "endTime": 26.73,
+      "en": "In the organization of industrial life the influence of the factory upon the physiological and mental state of the workers has been completely neglected.",
+      "zh": "在工业生活的组织结构中，工厂对工人生理和心理状态的影响完全被忽视了。",
+      "role": "body"
+    },
+    {
+      "index": 4,
+      "startTime": 26.73,
+      "endTime": 40.09,
+      "en": "Modern industry is based on the conception of the maximum production at lowest cost, in order that an individual or a group of individuals may earn as much money as possible.",
+      "zh": "现代工业建立在“以最低成本实现最大生产”的理念之上。这样，个人或某个群体就能赚取尽可能多的钱。",
+      "role": "body"
+    },
+    {
+      "index": 5,
+      "startTime": 40.09,
+      "endTime": 58.63,
+      "en": "It has expanded without any idea of the true nature of the human beings who run the machines, and without giving any consideration to the effects produced on the individuals and on their descendants by the artificial mode of existence imposed by the factory.",
+      "zh": "它一直在不断扩张，却对那些操控这些机器的人的真实本质一无所知。而且，完全没有考虑到工厂所强加的这种人工生活方式对个人及其后代所产生的影响。",
+      "role": "body"
+    },
+    {
+      "index": 6,
+      "startTime": 58.63,
+      "endTime": 62.65,
+      "en": "The great cities have been built with no regard for us.",
+      "zh": "这些伟大的城市是在完全无视我们的存在的情况下建造的。",
+      "role": "body"
+    },
+    {
+      "index": 7,
+      "startTime": 62.65,
+      "endTime": 76.53,
+      "en": "The shape and dimensions of the skyscrapers depend entirely on the necessity of obtaining the maximum income per square foot of ground, and of offering to the tenants offices and apartments that please them.",
+      "zh": "摩天大楼的形状和尺寸完全取决于实现“每平方英尺土地带来最高收入”这一目标的需要。并且为租户提供他们满意的办公室和公寓。",
+      "role": "body"
+    },
+    {
+      "index": 8,
+      "startTime": 76.53,
+      "endTime": 84.66,
+      "en": "This caused the construction of gigantic buildings where too large masses of human beings are crowded together.",
+      "zh": "这导致了巨型建筑物的出现，这些建筑物里挤满了大量的人口。",
+      "role": "body"
+    },
+    {
+      "index": 9,
+      "startTime": 84.66,
+      "endTime": 87.97,
+      "en": "Civilized men like such a way of living.",
+      "zh": "文明人喜欢这样的生活方式。",
+      "role": "body"
+    },
+    {
+      "index": 10,
+      "startTime": 87.97,
+      "endTime": 97.06,
+      "en": "While they enjoy the comfort and banal luxury of their dwelling, they do not realize that they are deprived of the necessities of life.",
+      "zh": "虽然他们享受着住所带来的舒适与平庸的奢华，却没有意识到自己被剥夺了生活必需品。",
+      "role": "body"
+    },
+    {
+      "index": 11,
+      "startTime": 97.06,
+      "endTime": 114.58,
+      "en": "The modern city consists of monstrous edifices and of dark, narrow streets full of petrol fumes and toxic gases, torn by the noise of the taxicabs, lorries and buses, and thronged ceaselessly by great crowds.",
+      "zh": "现代城市由巨大的建筑物以及狭窄、昏暗的街道组成；这些街道里弥漫着汽油烟雾和有毒气体。出租车、卡车和公交车的噪音撕裂着这里的宁静，人群川流不息，络绎不绝。",
+      "role": "body"
+    },
+    {
+      "index": 12,
+      "startTime": 114.58,
+      "endTime": null,
+      "en": "Obviously, it has not been planned for the good of its inhabitants.",
+      "zh": "显然，这一切的规划并非是为了居民们的利益着想。",
+      "role": "body"
+    }
+  ],
+  "audio": {
+    "fileName": "16－The Modern City.mp3",
+    "sourcePath": "content/NCE-Flow/NCE4/16－The Modern City.mp3",
+    "exists": true
+  },
+  "source": {
+    "repository": "NCE-Flow",
+    "lrcFileName": "16－The Modern City.lrc",
+    "lrcPath": "content/NCE-Flow/NCE4/16－The Modern City.lrc",
+    "sourceDataFile": "content/NCE-Flow/static/data.json",
+    "generatedAt": "2026-07-23T02:59:02+00:00",
+    "generator": "scripts/generate_nce_json.py",
+    "generatorVersion": "2.0.0",
+    "metadata": {
+      "al": "新概念英语（四）",
+      "ar": "MP3 同步字幕版（美音）",
+      "ti": "The Modern City",
+      "by": "更多学习内容，请到VeryCD.com搜索“露珠”"
+    }
+  }
+}

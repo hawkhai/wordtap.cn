@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "id": "pephr1-015",
+  "groupId": "pephr1",
+  "unitNo": 3,
+  "sequenceNo": 15,
+  "section": "Reading for Writing",
+  "title": "Going Positive",
+  "jsonPath": "pep-english/lessons/pephr1/015.json",
+  "text": "I always wanted to look like the slim girls on TV even though I knew that it was impossible. I worried about my weight and tried every new diet I read about online. I tried no-fat, low-fat, 5:2, only bananas, no bananas—I almost went bananas, too.\nThen I read an article that said instead of asking “Am I fat?” I should be asking “Am I fit?” I had no idea a letter could make such a difference! Once I started thinking about fitness rather than weight, things began to change. Instead of saying “I want to lose three kilos”, I would say “I want to run two kilometres in eight minutes” or “I want to be able to do 30 push-ups”. Rather than cutting out the foods I enjoyed, I added healthy foods to my meals. I could still have a burger now and then, but I would add a salad or an apple.\nFinally, I stopped comparing myself with actresses and models and looking for things that were wrong with my face or body. Instead, I made a list of the things I liked about myself. By being positive about myself and my body, I became both happier and healthier.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "I always wanted to look like the slim girls on TV even though I knew that it was impossible. I worried about my weight and tried every new diet I read about online. I tried no-fat, low-fat, 5:2, only bananas, no bananas—I almost went bananas, too."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Then I read an article that said instead of asking “Am I fat?” I should be asking “Am I fit?” I had no idea a letter could make such a difference! Once I started thinking about fitness rather than weight, things began to change. Instead of saying “I want to lose three kilos”, I would say “I want to run two kilometres in eight minutes” or “I want to be able to do 30 push-ups”. Rather than cutting out the foods I enjoyed, I added healthy foods to my meals. I could still have a burger now and then, but I would add a salad or an apple."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Finally, I stopped comparing myself with actresses and models and looking for things that were wrong with my face or body. Instead, I made a list of the things I liked about myself. By being positive about myself and my body, I became both happier and healthier."
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "必修第一册",
+    "pageStart": 49,
+    "pageEnd": 49,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "e0bf18138b24d7def28b35994a13946b",
+    "pdfSize": 14704146,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/senior-required-1.pdf#page=49",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored all three complete wellness-book paragraphs under the printed title; removed the introductory instruction, comprehension questions, unfinished outline and language-feature tasks."
+    }
+  }
+}

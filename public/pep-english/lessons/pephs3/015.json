@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "pephs3-015",
+  "groupId": "pephs3",
+  "unitNo": 5,
+  "sequenceNo": 15,
+  "section": "Using Language",
+  "title": "Dream (Langston Hughes)",
+  "jsonPath": "pep-english/lessons/pephs3/015.json",
+  "text": "Hold fast to dreams, For if dreams die Life is a broken-winged bird That cannot fly.\nHold fast to dreams, For when dreams go Life is a barren field Frozen with snow.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Hold fast to dreams, For if dreams die Life is a broken-winged bird That cannot fly.\nHold fast to dreams, For when dreams go Life is a barren field Frozen with snow."
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "选择性必修第三册",
+    "pageStart": 63,
+    "pageEnd": 63,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "f0dc33129a755a33421d401b71a05cd1",
+    "pdfSize": 12684455,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/senior-selective-3.pdf#page=63",
+      "reviewedAt": "2026-07-22",
+      "notes": "Preserved the complete two-stanza poem and lineation; moved the author attribution to title metadata.",
+      "splitBaselineId": "pephs3-025",
+      "splitIndex": 4,
+      "splitCount": 5
+    }
+  }
+}

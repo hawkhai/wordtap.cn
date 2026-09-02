@@ -1,0 +1,224 @@
+{
+  "schemaVersion": 1,
+  "id": "nce1-111",
+  "bookId": "nce1",
+  "bookNo": 1,
+  "lessonNo": 111,
+  "lessonRange": [
+    111,
+    112
+  ],
+  "title": "The Most Expensive Model",
+  "titleZh": "最昂贵的型号",
+  "question": "Can Mr. Frith buy the television on instalments? How does it work?",
+  "questionZh": "弗里斯先生可以分期付款购买这台电视机吗？具体是怎么付款的？",
+  "text": "Can Mr. Frith buy the television on instalments? How does it work?\n\nI like this television very much.\nHow much does it cost?\nIt's the most expensive model in the shop.\nIt costs five hundred pounds.\nThat's too expensive for us.\nWe can't afford all that money.\nThis model's less expensive than that one.\nIt's only three hundred pounds.\nBut, of course, it's not as good as the expensive one.\nI don't like this model.\nThe other model's more expensive, but it's worth the money.\nCan we buy it on instalments?\nOf course.\nYou can pay a deposit of thirty pounds, and then fourteen pounds a month for three years.\nDo you like it, dear?\nI certainly do, but I don't like the price.\nYou always want the best, but we can't afford it.\nSometimes you think you're a millionaire!\nMillionaires don't buy things on instalments!",
+  "bodyText": "I like this television very much.\nHow much does it cost?\nIt's the most expensive model in the shop.\nIt costs five hundred pounds.\nThat's too expensive for us.\nWe can't afford all that money.\nThis model's less expensive than that one.\nIt's only three hundred pounds.\nBut, of course, it's not as good as the expensive one.\nI don't like this model.\nThe other model's more expensive, but it's worth the money.\nCan we buy it on instalments?\nOf course.\nYou can pay a deposit of thirty pounds, and then fourteen pounds a month for three years.\nDo you like it, dear?\nI certainly do, but I don't like the price.\nYou always want the best, but we can't afford it.\nSometimes you think you're a millionaire!\nMillionaires don't buy things on instalments!",
+  "bodyTextZh": "我非常喜欢这台电视机。\n这需要多少钱？\n这是店里最贵的型号。\n它的价格是五百英镑。\n那对我们来说太贵了。\n我们负担不起那么多钱。\n这个型号比那个便宜。\n它只要三百英镑。\n但是，当然了，它没有那个昂贵的模型好。\n我不喜欢这个型号。\n另一个型号虽然更贵，但它的价格确实物有所值。\n我们可以分期付款购买吗？\n当然可以。\n你可以先支付30英镑的定金，然后每月支付14英镑，共分三年。\n你喜欢吗，亲爱的？\n我当然喜欢，但我不喜欢这个价格。\n你总是想要最好的，但我们负担不起。\n有时候你真觉得自己是个百万富翁啊！\n百万富翁才不会分期付款买东西呢！",
+  "sentences": [
+    {
+      "index": 0,
+      "startTime": 0.86,
+      "endTime": 4.25,
+      "en": "Lesson 111",
+      "zh": "第111课",
+      "role": "lesson"
+    },
+    {
+      "index": 1,
+      "startTime": 4.25,
+      "endTime": 8.02,
+      "en": "The most expensive model",
+      "zh": "最昂贵的型号",
+      "role": "title"
+    },
+    {
+      "index": 2,
+      "startTime": 8.02,
+      "endTime": 13.9,
+      "en": "Listen to the tape then answer this question.",
+      "zh": "先听这段录音，然后再回答这个问题。",
+      "role": "prompt"
+    },
+    {
+      "index": 3,
+      "startTime": 13.9,
+      "endTime": 23.63,
+      "en": "Can Mr. Frith buy the television on instalments? How does it work?",
+      "zh": "弗里斯先生可以分期付款购买这台电视机吗？具体是怎么付款的？",
+      "role": "question"
+    },
+    {
+      "index": 4,
+      "startTime": 23.63,
+      "endTime": 27.23,
+      "en": "I like this television very much.",
+      "zh": "我非常喜欢这台电视机。",
+      "role": "body"
+    },
+    {
+      "index": 5,
+      "startTime": 27.23,
+      "endTime": 30.53,
+      "en": "How much does it cost?",
+      "zh": "这需要多少钱？",
+      "role": "body"
+    },
+    {
+      "index": 6,
+      "startTime": 30.53,
+      "endTime": 34.61,
+      "en": "It's the most expensive model in the shop.",
+      "zh": "这是店里最贵的型号。",
+      "role": "body"
+    },
+    {
+      "index": 7,
+      "startTime": 34.61,
+      "endTime": 38.79,
+      "en": "It costs five hundred pounds.",
+      "zh": "它的价格是五百英镑。",
+      "role": "body"
+    },
+    {
+      "index": 8,
+      "startTime": 38.79,
+      "endTime": 42.33,
+      "en": "That's too expensive for us.",
+      "zh": "那对我们来说太贵了。",
+      "role": "body"
+    },
+    {
+      "index": 9,
+      "startTime": 42.33,
+      "endTime": 45.99,
+      "en": "We can't afford all that money.",
+      "zh": "我们负担不起那么多钱。",
+      "role": "body"
+    },
+    {
+      "index": 10,
+      "startTime": 45.99,
+      "endTime": 50.08,
+      "en": "This model's less expensive than that one.",
+      "zh": "这个型号比那个便宜。",
+      "role": "body"
+    },
+    {
+      "index": 11,
+      "startTime": 50.08,
+      "endTime": 53.06,
+      "en": "It's only three hundred pounds.",
+      "zh": "它只要三百英镑。",
+      "role": "body"
+    },
+    {
+      "index": 12,
+      "startTime": 53.06,
+      "endTime": 59.95,
+      "en": "But, of course, it's not as good as the expensive one.",
+      "zh": "但是，当然了，它没有那个昂贵的模型好。",
+      "role": "body"
+    },
+    {
+      "index": 13,
+      "startTime": 59.95,
+      "endTime": 62.78,
+      "en": "I don't like this model.",
+      "zh": "我不喜欢这个型号。",
+      "role": "body"
+    },
+    {
+      "index": 14,
+      "startTime": 62.78,
+      "endTime": 69.36,
+      "en": "The other model's more expensive, but it's worth the money.",
+      "zh": "另一个型号虽然更贵，但它的价格确实物有所值。",
+      "role": "body"
+    },
+    {
+      "index": 15,
+      "startTime": 69.36,
+      "endTime": 73.12,
+      "en": "Can we buy it on instalments?",
+      "zh": "我们可以分期付款购买吗？",
+      "role": "body"
+    },
+    {
+      "index": 16,
+      "startTime": 73.12,
+      "endTime": 74.59,
+      "en": "Of course.",
+      "zh": "当然可以。",
+      "role": "body"
+    },
+    {
+      "index": 17,
+      "startTime": 74.59,
+      "endTime": 84.54,
+      "en": "You can pay a deposit of thirty pounds, and then fourteen pounds a month for three years.",
+      "zh": "你可以先支付30英镑的定金，然后每月支付14英镑，共分三年。",
+      "role": "body"
+    },
+    {
+      "index": 18,
+      "startTime": 84.54,
+      "endTime": 87.69,
+      "en": "Do you like it, dear?",
+      "zh": "你喜欢吗，亲爱的？",
+      "role": "body"
+    },
+    {
+      "index": 19,
+      "startTime": 87.69,
+      "endTime": 93.01,
+      "en": "I certainly do, but I don't like the price.",
+      "zh": "我当然喜欢，但我不喜欢这个价格。",
+      "role": "body"
+    },
+    {
+      "index": 20,
+      "startTime": 93.01,
+      "endTime": 98.98,
+      "en": "You always want the best, but we can't afford it.",
+      "zh": "你总是想要最好的，但我们负担不起。",
+      "role": "body"
+    },
+    {
+      "index": 21,
+      "startTime": 98.98,
+      "endTime": 105.28,
+      "en": "Sometimes you think you're a millionaire!",
+      "zh": "有时候你真觉得自己是个百万富翁啊！",
+      "role": "body"
+    },
+    {
+      "index": 22,
+      "startTime": 105.28,
+      "endTime": null,
+      "en": "Millionaires don't buy things on instalments!",
+      "zh": "百万富翁才不会分期付款买东西呢！",
+      "role": "body"
+    }
+  ],
+  "audio": {
+    "fileName": "111&112－The Most Expensive Model.mp3",
+    "sourcePath": "content/NCE-Flow/NCE1/111&112－The Most Expensive Model.mp3",
+    "exists": true
+  },
+  "source": {
+    "repository": "NCE-Flow",
+    "lrcFileName": "111&112－The Most Expensive Model.lrc",
+    "lrcPath": "content/NCE-Flow/NCE1/111&112－The Most Expensive Model.lrc",
+    "sourceDataFile": "content/NCE-Flow/static/data.json",
+    "generatedAt": "2026-07-23T02:59:02+00:00",
+    "generator": "scripts/generate_nce_json.py",
+    "generatorVersion": "2.0.0",
+    "metadata": {
+      "al": "新概念英语（一）",
+      "ar": "MP3 同步字幕版（美音）",
+      "ti": "The Most Expensive Model",
+      "by": "更多学习内容，请到VeryCD.com搜索“露珠”"
+    }
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "schemaVersion": 1,
+  "id": "nce2-013",
+  "bookId": "nce2",
+  "bookNo": 2,
+  "lessonNo": 13,
+  "lessonRange": [
+    13
+  ],
+  "title": "The Greenwood Boys",
+  "titleZh": "绿林少年",
+  "question": "Why will the police have a difficult time?",
+  "questionZh": "为什么警察会遇到困难呢？",
+  "text": "Why will the police have a difficult time?\n\nThe Greenwood Boys are a group of pop singers.\nAt present, they are visiting all parts of the country.\nThey will be arriving here tomorrow.\nThey will be coming by train and most of the young people in the town will be meeting them at the station.\nTomorrow evening they will be singing at the Workers' Club.\nThe Greenwood Boys will be staying for five days.\nDuring this time, they will give five performances.\nAs usual, the police will have a difficult time.\nThey will be trying to keep order.\nIt is always the same on these occasions.",
+  "bodyText": "The Greenwood Boys are a group of pop singers.\nAt present, they are visiting all parts of the country.\nThey will be arriving here tomorrow.\nThey will be coming by train and most of the young people in the town will be meeting them at the station.\nTomorrow evening they will be singing at the Workers' Club.\nThe Greenwood Boys will be staying for five days.\nDuring this time, they will give five performances.\nAs usual, the police will have a difficult time.\nThey will be trying to keep order.\nIt is always the same on these occasions.",
+  "bodyTextZh": "The Greenwood Boys是一支流行歌手组合。\n目前，他们正在全国巡回演出。\n他们明天会到达这里。\n他们将乘火车前来，镇上的大多数年轻人都会在火车站迎接他们。\n明晚他们将在工人俱乐部演出。\n格林伍德男孩们将在此逗留五天。\n在这段时间里，他们将进行五场演出。\n像往常一样，警方会遇到很大的困难。\n他们会努力维持秩序。\n每逢这种场合，情况总是如此。",
+  "sentences": [
+    {
+      "index": 0,
+      "startTime": 0.5,
+      "endTime": 3,
+      "en": "Lesson 13",
+      "zh": "第13课",
+      "role": "lesson"
+    },
+    {
+      "index": 1,
+      "startTime": 3,
+      "endTime": 9.99,
+      "en": "The Greenwood Boys",
+      "zh": "绿林少年",
+      "role": "title"
+    },
+    {
+      "index": 2,
+      "startTime": 9.99,
+      "endTime": 15.28,
+      "en": "Why will the police have a difficult time?",
+      "zh": "为什么警察会遇到困难呢？",
+      "role": "question"
+    },
+    {
+      "index": 3,
+      "startTime": 15.28,
+      "endTime": 19.38,
+      "en": "The Greenwood Boys are a group of pop singers.",
+      "zh": "The Greenwood Boys是一支流行歌手组合。",
+      "role": "body"
+    },
+    {
+      "index": 4,
+      "startTime": 19.38,
+      "endTime": 24.48,
+      "en": "At present, they are visiting all parts of the country.",
+      "zh": "目前，他们正在全国巡回演出。",
+      "role": "body"
+    },
+    {
+      "index": 5,
+      "startTime": 24.48,
+      "endTime": 27.76,
+      "en": "They will be arriving here tomorrow.",
+      "zh": "他们明天会到达这里。",
+      "role": "body"
+    },
+    {
+      "index": 6,
+      "startTime": 27.76,
+      "endTime": 35.81,
+      "en": "They will be coming by train and most of the young people in the town will be meeting them at the station.",
+      "zh": "他们将乘火车前来，镇上的大多数年轻人都会在火车站迎接他们。",
+      "role": "body"
+    },
+    {
+      "index": 7,
+      "startTime": 35.81,
+      "endTime": 40.82,
+      "en": "Tomorrow evening they will be singing at the Workers' Club.",
+      "zh": "明晚他们将在工人俱乐部演出。",
+      "role": "body"
+    },
+    {
+      "index": 8,
+      "startTime": 40.82,
+      "endTime": 45.24,
+      "en": "The Greenwood Boys will be staying for five days.",
+      "zh": "格林伍德男孩们将在此逗留五天。",
+      "role": "body"
+    },
+    {
+      "index": 9,
+      "startTime": 45.24,
+      "endTime": 50.16,
+      "en": "During this time, they will give five performances.",
+      "zh": "在这段时间里，他们将进行五场演出。",
+      "role": "body"
+    },
+    {
+      "index": 10,
+      "startTime": 50.16,
+      "endTime": 54.7,
+      "en": "As usual, the police will have a difficult time.",
+      "zh": "像往常一样，警方会遇到很大的困难。",
+      "role": "body"
+    },
+    {
+      "index": 11,
+      "startTime": 54.7,
+      "endTime": 57.56,
+      "en": "They will be trying to keep order.",
+      "zh": "他们会努力维持秩序。",
+      "role": "body"
+    },
+    {
+      "index": 12,
+      "startTime": 57.56,
+      "endTime": null,
+      "en": "It is always the same on these occasions.",
+      "zh": "每逢这种场合，情况总是如此。",
+      "role": "body"
+    }
+  ],
+  "audio": {
+    "fileName": "13－The Greenwood Boys.mp3",
+    "sourcePath": "content/NCE-Flow/NCE2/13－The Greenwood Boys.mp3",
+    "exists": true
+  },
+  "source": {
+    "repository": "NCE-Flow",
+    "lrcFileName": "13－The Greenwood Boys.lrc",
+    "lrcPath": "content/NCE-Flow/NCE2/13－The Greenwood Boys.lrc",
+    "sourceDataFile": "content/NCE-Flow/static/data.json",
+    "generatedAt": "2026-07-23T02:59:02+00:00",
+    "generator": "scripts/generate_nce_json.py",
+    "generatorVersion": "2.0.0",
+    "metadata": {
+      "al": "新概念英语（二）",
+      "ar": "MP3 同步字幕版（美音）",
+      "ti": "The Greenwood Boys",
+      "by": "更多学习内容，请到VeryCD.com搜索“露珠”"
+    }
+  }
+}

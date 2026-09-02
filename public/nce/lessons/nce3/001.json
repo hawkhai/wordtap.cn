@@ -1,0 +1,167 @@
+{
+  "schemaVersion": 1,
+  "id": "nce3-001",
+  "bookId": "nce3",
+  "bookNo": 3,
+  "lessonNo": 1,
+  "lessonRange": [
+    1
+  ],
+  "title": "A Puma at Large",
+  "titleZh": "逃遁的美洲狮",
+  "question": "Where must the puma have come from?",
+  "questionZh": "美洲狮一定是从哪里来的？",
+  "text": "Where must the puma have come from?\n\nPumas are large, cat-like animals which are found in America.\nWhen reports came into London Zoo that a wild puma had been spotted forty-five miles south of London, they were not taken seriously.\nHowever, as the evidence began to accumulate, experts from the Zoo felt obliged to investigate, for the descriptions given by people who claimed to have seen the puma were extraordinarily similar.\nThe hunt for the puma began in a small village where a woman picking blackberries saw 'a large cat'only five yards away from her.\nIt immediately ran away when she saw it, and experts confirmed that a puma will not attack a human being unless it is cornered.\nThe search proved difficult, for the puma was often observed at one place in the morning and at another place twenty miles away in the evening.\nWherever it went, it left behind it a trail of dead deer and small animals like rabbits.\nPaw prints were seen in a number of places and puma fur was found clinging to bushes.\nSeveral people complained of 'cat-like noises' at night and a businessman on a fishing trip saw the puma up a tree.\nThe experts were now fully convinced that the animal was a puma, but where had it come from?\nAs no pumas had been reported missing from any zoo in the country, this one must have been in the possession of a private collector and somehow managed to escape.\nThe hunt went on for several weeks, but the puma was not caught.\nIt is disturbing to think that a dangerous wild animal is still at large in the quiet countryside.",
+  "bodyText": "Pumas are large, cat-like animals which are found in America.\nWhen reports came into London Zoo that a wild puma had been spotted forty-five miles south of London, they were not taken seriously.\nHowever, as the evidence began to accumulate, experts from the Zoo felt obliged to investigate, for the descriptions given by people who claimed to have seen the puma were extraordinarily similar.\nThe hunt for the puma began in a small village where a woman picking blackberries saw 'a large cat'only five yards away from her.\nIt immediately ran away when she saw it, and experts confirmed that a puma will not attack a human being unless it is cornered.\nThe search proved difficult, for the puma was often observed at one place in the morning and at another place twenty miles away in the evening.\nWherever it went, it left behind it a trail of dead deer and small animals like rabbits.\nPaw prints were seen in a number of places and puma fur was found clinging to bushes.\nSeveral people complained of 'cat-like noises' at night and a businessman on a fishing trip saw the puma up a tree.\nThe experts were now fully convinced that the animal was a puma, but where had it come from?\nAs no pumas had been reported missing from any zoo in the country, this one must have been in the possession of a private collector and somehow managed to escape.\nThe hunt went on for several weeks, but the puma was not caught.\nIt is disturbing to think that a dangerous wild animal is still at large in the quiet countryside.",
+  "bodyTextZh": "美洲狮是一种体型较大的、类似猫的动物，它们生活在美洲地区。\n当伦敦动物园接到报告称在伦敦以南45英里处发现了一只野生美洲狮时……这些报告并没有被认真对待。\n然而，随着证据的不断积累……动物园的专家们觉得有责任对此事进行调查。那些声称见过美洲狮的人所提供的描述非常相似。\n对这只美洲狮的搜寻始于一个小镇。在那里，一位正在采摘黑莓的女子发现了一只“大型猫科动物”，它就站在离她仅五码远的地方。\n它一看到她，立刻就跑开了。专家们证实，美洲狮只有在被逼入绝境时才会攻击人类。\n这次搜索工作非常困难。人们经常在早晨看到那只美洲狮出现在一个地方，而到了晚上，它却出现在二十英里外的另一个地方。\n无论它走到哪里，都会留下一串死鹿和兔子之类的小动物的踪迹。\n在多个地方都发现了爪印，同时还发现了一些美洲狮的毛发粘在灌木丛上。\n有几个人抱怨晚上听到了类似猫叫声的声音；一位正在钓鱼的商人还看到一只美洲狮爬在树上。\n专家们现在完全确信这种动物是一只美洲狮。但是，它究竟是从哪里来的呢？\n由于该国没有任何动物园报告有美洲狮失踪的情况，这只美洲狮一定是某位私人收藏家的，后来不知怎么设法逃了出来。\n这次搜寻持续了好几周。但是那只美洲狮没有被抓住。\n想到有一只危险的野生动物仍然在宁静的乡村里自由活动，实在令人不安。",
+  "sentences": [
+    {
+      "index": 0,
+      "startTime": 0.68,
+      "endTime": 2.36,
+      "en": "Lesson 1",
+      "zh": "第1课",
+      "role": "lesson"
+    },
+    {
+      "index": 1,
+      "startTime": 2.36,
+      "endTime": 9.81,
+      "en": "A puma at large",
+      "zh": "逃遁的美洲狮",
+      "role": "title"
+    },
+    {
+      "index": 2,
+      "startTime": 9.81,
+      "endTime": 14.48,
+      "en": "Where must the puma have come from?",
+      "zh": "美洲狮一定是从哪里来的？",
+      "role": "question"
+    },
+    {
+      "index": 3,
+      "startTime": 14.48,
+      "endTime": 19.17,
+      "en": "Pumas are large, cat-like animals which are found in America.",
+      "zh": "美洲狮是一种体型较大的、类似猫的动物，它们生活在美洲地区。",
+      "role": "body"
+    },
+    {
+      "index": 4,
+      "startTime": 19.17,
+      "endTime": 29.15,
+      "en": "When reports came into London Zoo that a wild puma had been spotted forty-five miles south of London, they were not taken seriously.",
+      "zh": "当伦敦动物园接到报告称在伦敦以南45英里处发现了一只野生美洲狮时……这些报告并没有被认真对待。",
+      "role": "body"
+    },
+    {
+      "index": 5,
+      "startTime": 29.15,
+      "endTime": 43.86,
+      "en": "However, as the evidence began to accumulate, experts from the Zoo felt obliged to investigate, for the descriptions given by people who claimed to have seen the puma were extraordinarily similar.",
+      "zh": "然而，随着证据的不断积累……动物园的专家们觉得有责任对此事进行调查。那些声称见过美洲狮的人所提供的描述非常相似。",
+      "role": "body"
+    },
+    {
+      "index": 6,
+      "startTime": 43.86,
+      "endTime": 53.61,
+      "en": "The hunt for the puma began in a small village where a woman picking blackberries saw 'a large cat'only five yards away from her.",
+      "zh": "对这只美洲狮的搜寻始于一个小镇。在那里，一位正在采摘黑莓的女子发现了一只“大型猫科动物”，它就站在离她仅五码远的地方。",
+      "role": "body"
+    },
+    {
+      "index": 7,
+      "startTime": 53.61,
+      "endTime": 62.94,
+      "en": "It immediately ran away when she saw it, and experts confirmed that a puma will not attack a human being unless it is cornered.",
+      "zh": "它一看到她，立刻就跑开了。专家们证实，美洲狮只有在被逼入绝境时才会攻击人类。",
+      "role": "body"
+    },
+    {
+      "index": 8,
+      "startTime": 62.94,
+      "endTime": 72.58,
+      "en": "The search proved difficult, for the puma was often observed at one place in the morning and at another place twenty miles away in the evening.",
+      "zh": "这次搜索工作非常困难。人们经常在早晨看到那只美洲狮出现在一个地方，而到了晚上，它却出现在二十英里外的另一个地方。",
+      "role": "body"
+    },
+    {
+      "index": 9,
+      "startTime": 72.58,
+      "endTime": 79.38,
+      "en": "Wherever it went, it left behind it a trail of dead deer and small animals like rabbits.",
+      "zh": "无论它走到哪里，都会留下一串死鹿和兔子之类的小动物的踪迹。",
+      "role": "body"
+    },
+    {
+      "index": 10,
+      "startTime": 79.38,
+      "endTime": 85.39,
+      "en": "Paw prints were seen in a number of places and puma fur was found clinging to bushes.",
+      "zh": "在多个地方都发现了爪印，同时还发现了一些美洲狮的毛发粘在灌木丛上。",
+      "role": "body"
+    },
+    {
+      "index": 11,
+      "startTime": 85.39,
+      "endTime": 94.26,
+      "en": "Several people complained of 'cat-like noises' at night and a businessman on a fishing trip saw the puma up a tree.",
+      "zh": "有几个人抱怨晚上听到了类似猫叫声的声音；一位正在钓鱼的商人还看到一只美洲狮爬在树上。",
+      "role": "body"
+    },
+    {
+      "index": 12,
+      "startTime": 94.26,
+      "endTime": 101.27,
+      "en": "The experts were now fully convinced that the animal was a puma, but where had it come from?",
+      "zh": "专家们现在完全确信这种动物是一只美洲狮。但是，它究竟是从哪里来的呢？",
+      "role": "body"
+    },
+    {
+      "index": 13,
+      "startTime": 101.27,
+      "endTime": 112.16,
+      "en": "As no pumas had been reported missing from any zoo in the country, this one must have been in the possession of a private collector and somehow managed to escape.",
+      "zh": "由于该国没有任何动物园报告有美洲狮失踪的情况，这只美洲狮一定是某位私人收藏家的，后来不知怎么设法逃了出来。",
+      "role": "body"
+    },
+    {
+      "index": 14,
+      "startTime": 112.16,
+      "endTime": 117.42,
+      "en": "The hunt went on for several weeks, but the puma was not caught.",
+      "zh": "这次搜寻持续了好几周。但是那只美洲狮没有被抓住。",
+      "role": "body"
+    },
+    {
+      "index": 15,
+      "startTime": 117.42,
+      "endTime": null,
+      "en": "It is disturbing to think that a dangerous wild animal is still at large in the quiet countryside.",
+      "zh": "想到有一只危险的野生动物仍然在宁静的乡村里自由活动，实在令人不安。",
+      "role": "body"
+    }
+  ],
+  "audio": {
+    "fileName": "01－A Puma at Large.mp3",
+    "sourcePath": "content/NCE-Flow/NCE3/01－A Puma at Large.mp3",
+    "exists": true
+  },
+  "source": {
+    "repository": "NCE-Flow",
+    "lrcFileName": "01－A Puma at Large.lrc",
+    "lrcPath": "content/NCE-Flow/NCE3/01－A Puma at Large.lrc",
+    "sourceDataFile": "content/NCE-Flow/static/data.json",
+    "generatedAt": "2026-07-23T02:59:02+00:00",
+    "generator": "scripts/generate_nce_json.py",
+    "generatorVersion": "2.0.0",
+    "metadata": {
+      "al": "新概念英语（三）",
+      "ar": "MP3 同步字幕版（美音）",
+      "ti": "A Puma at Large",
+      "by": "更多学习内容，请到VeryCD.com搜索“露珠”"
+    }
+  }
+}

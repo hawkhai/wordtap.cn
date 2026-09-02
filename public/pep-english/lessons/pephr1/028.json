@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "id": "pephr1-028",
+  "groupId": "pephr1",
+  "unitNo": 2,
+  "sequenceNo": 28,
+  "section": "Expanding Your World",
+  "title": "A Letter About Pisa and the Improvisatori",
+  "jsonPath": "pep-english/lessons/pephr1/028.json",
+  "text": "Dear Sir,\nPisa is a fine old city. The houses are well-built; the streets open, straight, and well-paved; the shops well-furnished; and the markets well-supplied. There are some beautiful palaces. The churches are built with taste and well decorated. There is a stone wharf on each side of the Arno River, which runs through the city, and there are three bridges over it. The number of people there is rather small. This gives the place an air of wonderful quietness, which is very pleasant.\nOf course, I visited the beautiful leaning tower, which is eight floors high, each having a round of columns, rising one above another. It leans so far on one side that if you dropped a stone from the top, which is 188 feet high, it would fall 16 feet from the base of the tower. I would have never dreamt that this would have happened for any other reason than an accident; but some people have said that it was done on purpose by the architect! Anyone with eyes can see that the columns on one side have sunk rather far. These leaning towers are not uncommon in Italy; there is one in Bologna, another in Venice, a third between Venice and Ferrara, and a fourth at Ravenna.\nA most interesting person you might meet in Italy is the Improvisatore; this is what they call certain people who have the surprising ability to make up poems on any subject you suggest. Mr Corvesi, my landlord, has a son who is amazingly good at this. When a subject is given, his brother picks up his violin to play along as he begins to make up poems with wonderful speed and skill. He will, at a minute's warning, recite two or three hundred beautifully written verses, with compliments to the listeners! The Italians are so fond of poetry that many of them have memorised the best parts of their great poets; these are the sources from which the Improvisatori take their rhymes, rhythms, and expressions.\nTobias Smollett",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Dear Sir,"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Pisa is a fine old city. The houses are well-built; the streets open, straight, and well-paved; the shops well-furnished; and the markets well-supplied. There are some beautiful palaces. The churches are built with taste and well decorated. There is a stone wharf on each side of the Arno River, which runs through the city, and there are three bridges over it. The number of people there is rather small. This gives the place an air of wonderful quietness, which is very pleasant."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Of course, I visited the beautiful leaning tower, which is eight floors high, each having a round of columns, rising one above another. It leans so far on one side that if you dropped a stone from the top, which is 188 feet high, it would fall 16 feet from the base of the tower. I would have never dreamt that this would have happened for any other reason than an accident; but some people have said that it was done on purpose by the architect! Anyone with eyes can see that the columns on one side have sunk rather far. These leaning towers are not uncommon in Italy; there is one in Bologna, another in Venice, a third between Venice and Ferrara, and a fourth at Ravenna."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "A most interesting person you might meet in Italy is the Improvisatore; this is what they call certain people who have the surprising ability to make up poems on any subject you suggest. Mr Corvesi, my landlord, has a son who is amazingly good at this. When a subject is given, his brother picks up his violin to play along as he begins to make up poems with wonderful speed and skill. He will, at a minute's warning, recite two or three hundred beautifully written verses, with compliments to the listeners! The Italians are so fond of poetry that many of them have memorised the best parts of their great poets; these are the sources from which the Improvisatori take their rhymes, rhythms, and expressions."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Tobias Smollett"
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "必修第一册",
+    "pageStart": 89,
+    "pageEnd": 89,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "e0bf18138b24d7def28b35994a13946b",
+    "pdfSize": 14704146,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/senior-required-1.pdf#page=89",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored the complete signed letter with greeting and all three paragraphs; removed Chinese place-name glosses and the image caption, and supplied only a descriptive lesson title."
+    }
+  }
+}

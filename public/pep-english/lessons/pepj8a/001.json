@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "pepj8a-001",
+  "groupId": "pepj8a",
+  "unitNo": 1,
+  "sequenceNo": 1,
+  "section": "Section B",
+  "title": "Jane's Vacation Diaries",
+  "jsonPath": "pep-english/lessons/pepj8a/001.json",
+  "text": "Monday, July 15th I arrived in Penang in Malaysia this morning with my family. It was sunny and hot, so we decided to go to the beach near our hotel. My sister and I tried paragliding. I felt like I was a bird. It was so exciting! For lunch, we had something very special — Malaysian yellow noodles. They were delicious! In the afternoon, we rode bicycles to Georgetown. There are a lot of new buildings now, but many of the old buildings are still there. In Weld Quay, a really old place in Georgetown, we saw the houses of the Chinese traders from 100 years ago. I wonder what life was like here in the past. I really enjoyed walking around the town.\nTuesday, July 16th What a difference a day makes! My father and I decided to go to Penang Hill today. We wanted to walk up to the top, but then it started raining a little so we decided to take the train. We waited over an hour for the train because there were too many people. When we got to the top, it was raining really hard. We didn't have an umbrella so we were wet and cold. It was terrible! And because of the bad weather, we couldn't see anything below. My father didn't bring enough money, so we only had one bowl of rice and some fish. The food tasted great because I was so hungry!",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Monday, July 15th I arrived in Penang in Malaysia this morning with my family. It was sunny and hot, so we decided to go to the beach near our hotel. My sister and I tried paragliding. I felt like I was a bird. It was so exciting! For lunch, we had something very special — Malaysian yellow noodles. They were delicious! In the afternoon, we rode bicycles to Georgetown. There are a lot of new buildings now, but many of the old buildings are still there. In Weld Quay, a really old place in Georgetown, we saw the houses of the Chinese traders from 100 years ago. I wonder what life was like here in the past. I really enjoyed walking around the town."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Tuesday, July 16th What a difference a day makes! My father and I decided to go to Penang Hill today. We wanted to walk up to the top, but then it started raining a little so we decided to take the train. We waited over an hour for the train because there were too many people. When we got to the top, it was raining really hard. We didn't have an umbrella so we were wet and cold. It was terrible! And because of the bad weather, we couldn't see anything below. My father didn't bring enough money, so we only had one bowl of rice and some fish. The food tasted great because I was so hungry!"
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "初中",
+    "book": "八年级上册",
+    "pageStart": 16,
+    "pageEnd": 16,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "24fcd352dca21a6ee547539f550ed35c",
+    "pdfSize": 9469090,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/junior-8a.pdf#page=16",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored both dated diary entries, corrected ligatures and broken words from the PDF text layer, changed metadata to Section B, and excluded activities 2a and 2b instructions/questions."
+    }
+  }
+}

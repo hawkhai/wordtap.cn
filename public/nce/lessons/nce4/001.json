@@ -1,0 +1,151 @@
+{
+  "schemaVersion": 1,
+  "id": "nce4-001",
+  "bookId": "nce4",
+  "bookNo": 4,
+  "lessonNo": 1,
+  "lessonRange": [
+    1
+  ],
+  "title": "Finding Fossil Man",
+  "titleZh": "寻找“化石人类”",
+  "question": "Why are legends handed down by storytellers useful?",
+  "questionZh": "为什么说书人流传下来的传说很有用？",
+  "text": "Why are legends handed down by storytellers useful?\n\nWe can read of things that happened 5, 000 years ago in the Near East, where people first learned to write.\nBut there are some parts of the world where even now people cannot write.\nThe only way that they can preserve their history is to recount it as sagas legends handed down from one generation of storytellers to another.\nThese legends are useful because they can tell us something about migrations of people who lived long ago, but none could write down what they did.\nAnthropologists wondered where the remote ancestors of the Polynesian peoples now living in the Pacific Islandscame from.\nThe sagas of these people explain that some of them came from Indonesia about 2, 000 years ago.\nBut the first people who were like ourselves lived so long ago that even their sagas, if they had any, are forgotten.\nSo archaeologists have neither history nor legends to help them to find out where the first 'modern men' came from.\nFortunately, however, ancient men made tools of stone, especially flint, because this is easier to shape than other kinds.\nThey may also have used wood and skins, but these have rotted away.\nStone does not decay, and so the tools of long ago have remained when even the bones of the men who made them have disappeared without trace.",
+  "bodyText": "We can read of things that happened 5, 000 years ago in the Near East, where people first learned to write.\nBut there are some parts of the world where even now people cannot write.\nThe only way that they can preserve their history is to recount it as sagas legends handed down from one generation of storytellers to another.\nThese legends are useful because they can tell us something about migrations of people who lived long ago, but none could write down what they did.\nAnthropologists wondered where the remote ancestors of the Polynesian peoples now living in the Pacific Islandscame from.\nThe sagas of these people explain that some of them came from Indonesia about 2, 000 years ago.\nBut the first people who were like ourselves lived so long ago that even their sagas, if they had any, are forgotten.\nSo archaeologists have neither history nor legends to help them to find out where the first 'modern men' came from.\nFortunately, however, ancient men made tools of stone, especially flint, because this is easier to shape than other kinds.\nThey may also have used wood and skins, but these have rotted away.\nStone does not decay, and so the tools of long ago have remained when even the bones of the men who made them have disappeared without trace.",
+  "bodyTextZh": "我们可以了解到发生在5000年前近东地区的事情。人们最初学习书写的地方。\n但是，在世界上的一些地方，直到现在人们仍然无法写字。\n他们保存历史的唯一方法，就是把这些故事当作英雄传说，由说书人一代代地传下去。\n这些传说很有价值，因为它们能为我们提供关于很久以前人们迁徙情况的线索。但没有人能记录下他们做过的事情。\n人类学家一直想知道，如今居住在太平洋岛屿上的波利尼西亚人的远古祖先究竟来自何处。\n这些人的英雄传说解释说，其中一些人大约在2000年前从印度尼西亚过来。\n但是，那些与我们相似的最早的人类生活在太久以前了，以至于他们的传说（如果有的话）早已被人们遗忘了。\n因此，考古学家既没有历史记录，也没有传说可以帮助他们查明最早的“现代人类”来自何处。\n然而，幸运的是，古代人类使用了石头（尤其是燧石）来制作工具。因为它比其他种类的石头更容易成形。\n他们可能还使用过木材和兽皮，但这些材料都已经腐烂掉了。\n石头不会腐烂，所以即使制造工具的人的骨头早已消失得无影无踪，远古的工具却保存了下来。",
+  "sentences": [
+    {
+      "index": 0,
+      "startTime": 0.46,
+      "endTime": 2.59,
+      "en": "Lesson 1",
+      "zh": "第1课",
+      "role": "lesson"
+    },
+    {
+      "index": 1,
+      "startTime": 2.59,
+      "endTime": 10.9,
+      "en": "Finding fossil man",
+      "zh": "寻找“化石人类”",
+      "role": "title"
+    },
+    {
+      "index": 2,
+      "startTime": 10.9,
+      "endTime": 17.43,
+      "en": "Why are legends handed down by storytellers useful?",
+      "zh": "为什么说书人流传下来的传说很有用？",
+      "role": "question"
+    },
+    {
+      "index": 3,
+      "startTime": 17.43,
+      "endTime": 26.92,
+      "en": "We can read of things that happened 5, 000 years ago in the Near East, where people first learned to write.",
+      "zh": "我们可以了解到发生在5000年前近东地区的事情。人们最初学习书写的地方。",
+      "role": "body"
+    },
+    {
+      "index": 4,
+      "startTime": 26.92,
+      "endTime": 33.4,
+      "en": "But there are some parts of the world where even now people cannot write.",
+      "zh": "但是，在世界上的一些地方，直到现在人们仍然无法写字。",
+      "role": "body"
+    },
+    {
+      "index": 5,
+      "startTime": 33.4,
+      "endTime": 46.15,
+      "en": "The only way that they can preserve their history is to recount it as sagas legends handed down from one generation of storytellers to another.",
+      "zh": "他们保存历史的唯一方法，就是把这些故事当作英雄传说，由说书人一代代地传下去。",
+      "role": "body"
+    },
+    {
+      "index": 6,
+      "startTime": 46.15,
+      "endTime": 57.67,
+      "en": "These legends are useful because they can tell us something about migrations of people who lived long ago, but none could write down what they did.",
+      "zh": "这些传说很有价值，因为它们能为我们提供关于很久以前人们迁徙情况的线索。但没有人能记录下他们做过的事情。",
+      "role": "body"
+    },
+    {
+      "index": 7,
+      "startTime": 57.67,
+      "endTime": 66.91,
+      "en": "Anthropologists wondered where the remote ancestors of the Polynesian peoples now living in the Pacific Islandscame from.",
+      "zh": "人类学家一直想知道，如今居住在太平洋岛屿上的波利尼西亚人的远古祖先究竟来自何处。",
+      "role": "body"
+    },
+    {
+      "index": 8,
+      "startTime": 66.91,
+      "endTime": 75.26,
+      "en": "The sagas of these people explain that some of them came from Indonesia about 2, 000 years ago.",
+      "zh": "这些人的英雄传说解释说，其中一些人大约在2000年前从印度尼西亚过来。",
+      "role": "body"
+    },
+    {
+      "index": 9,
+      "startTime": 75.26,
+      "endTime": 85.71,
+      "en": "But the first people who were like ourselves lived so long ago that even their sagas, if they had any, are forgotten.",
+      "zh": "但是，那些与我们相似的最早的人类生活在太久以前了，以至于他们的传说（如果有的话）早已被人们遗忘了。",
+      "role": "body"
+    },
+    {
+      "index": 10,
+      "startTime": 85.71,
+      "endTime": 94.84,
+      "en": "So archaeologists have neither history nor legends to help them to find out where the first 'modern men' came from.",
+      "zh": "因此，考古学家既没有历史记录，也没有传说可以帮助他们查明最早的“现代人类”来自何处。",
+      "role": "body"
+    },
+    {
+      "index": 11,
+      "startTime": 94.84,
+      "endTime": 105.74,
+      "en": "Fortunately, however, ancient men made tools of stone, especially flint, because this is easier to shape than other kinds.",
+      "zh": "然而，幸运的是，古代人类使用了石头（尤其是燧石）来制作工具。因为它比其他种类的石头更容易成形。",
+      "role": "body"
+    },
+    {
+      "index": 12,
+      "startTime": 105.74,
+      "endTime": 112.16,
+      "en": "They may also have used wood and skins, but these have rotted away.",
+      "zh": "他们可能还使用过木材和兽皮，但这些材料都已经腐烂掉了。",
+      "role": "body"
+    },
+    {
+      "index": 13,
+      "startTime": 112.16,
+      "endTime": null,
+      "en": "Stone does not decay, and so the tools of long ago have remained when even the bones of the men who made them have disappeared without trace.",
+      "zh": "石头不会腐烂，所以即使制造工具的人的骨头早已消失得无影无踪，远古的工具却保存了下来。",
+      "role": "body"
+    }
+  ],
+  "audio": {
+    "fileName": "01－Finding Fossil Man.mp3",
+    "sourcePath": "content/NCE-Flow/NCE4/01－Finding Fossil Man.mp3",
+    "exists": true
+  },
+  "source": {
+    "repository": "NCE-Flow",
+    "lrcFileName": "01－Finding Fossil Man.lrc",
+    "lrcPath": "content/NCE-Flow/NCE4/01－Finding Fossil Man.lrc",
+    "sourceDataFile": "content/NCE-Flow/static/data.json",
+    "generatedAt": "2026-07-23T02:59:02+00:00",
+    "generator": "scripts/generate_nce_json.py",
+    "generatorVersion": "2.0.0",
+    "metadata": {
+      "al": "新概念英语（四）",
+      "ar": "MP3 同步字幕版（美音）",
+      "ti": "Finding Fossil Man",
+      "by": "更多学习内容，请到VeryCD.com搜索“露珠”"
+    }
+  }
+}

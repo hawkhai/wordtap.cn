@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "pephr3-009",
+  "groupId": "pephr3",
+  "unitNo": 2,
+  "sequenceNo": 9,
+  "section": "Project",
+  "title": "Thankfulness",
+  "jsonPath": "pep-english/lessons/pephr3/009.json",
+  "text": "Thankfulness is realising and appreciating what you have.\nBe thankful, because you have more than others!\nIf you see no reason for giving thanks, the fault lies in yourself. (Indian proverb)\nI had no shoes and complained, until I met a man who had no feet. (Indian proverb)\nBe thankful, because you have been given much!\nIf you can read this, thank a teacher. (Anonymous)\nWhen eating fruit, think of the person who planted the tree. (Asian proverb)\nBe thankful, because it will shape your whole life!\nBe thankful for what you have; you'll end up having more. If you concentrate on what you don't have, you will never, ever have enough. (Oprah Winfrey)",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Thankfulness is realising and appreciating what you have."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Be thankful, because you have more than others!\nIf you see no reason for giving thanks, the fault lies in yourself. (Indian proverb)\nI had no shoes and complained, until I met a man who had no feet. (Indian proverb)"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Be thankful, because you have been given much!\nIf you can read this, thank a teacher. (Anonymous)\nWhen eating fruit, think of the person who planted the tree. (Asian proverb)"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Be thankful, because it will shape your whole life!\nBe thankful for what you have; you'll end up having more. If you concentrate on what you don't have, you will never, ever have enough. (Oprah Winfrey)"
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "必修第三册",
+    "pageStart": 30,
+    "pageEnd": 30,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "31e51a16693d03177a5825f53f612a87",
+    "pdfSize": 14202806,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/senior-required-3.pdf#page=30",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored the complete model virtue poster with its definition, three organising claims and five attributed sayings; excluded the virtue word cloud, project procedure, photograph and running furniture."
+    }
+  }
+}

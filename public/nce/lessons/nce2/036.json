@@ -1,0 +1,151 @@
+{
+  "schemaVersion": 1,
+  "id": "nce2-036",
+  "bookId": "nce2",
+  "bookNo": 2,
+  "lessonNo": 36,
+  "lessonRange": [
+    36
+  ],
+  "title": "Across the Channel",
+  "titleZh": "越过英吉利海峡",
+  "question": "What is Debbie going to try to do?",
+  "questionZh": "黛比打算做什么呢？",
+  "text": "What is Debbie going to try to do?\n\nDebbie Hart is going to swim across the English Channel tomorrow.\nShe is going to set out from the French coast at five o'clock in the morning.\nDebbie is only eleven years old and she hopes to set up a new world record.\nShe is a strong swimmer and many people feel that she is sure to succeed.\nDebbie's father will set out with her in a small boat.\nMr. Hart has trained his daughter for years.\nTomorrow he will be watching her anxiously as she swims the long distance to England.\nDebbie intends to take short rests every two hours.\nShe will have something to drink but she will not eat any solid food.\nMost of Debbie's school friends will be waiting for her on the English coast.\nAmong them will be Debbie's mother, who swam the Channel herself when she was a girl.",
+  "bodyText": "Debbie Hart is going to swim across the English Channel tomorrow.\nShe is going to set out from the French coast at five o'clock in the morning.\nDebbie is only eleven years old and she hopes to set up a new world record.\nShe is a strong swimmer and many people feel that she is sure to succeed.\nDebbie's father will set out with her in a small boat.\nMr. Hart has trained his daughter for years.\nTomorrow he will be watching her anxiously as she swims the long distance to England.\nDebbie intends to take short rests every two hours.\nShe will have something to drink but she will not eat any solid food.\nMost of Debbie's school friends will be waiting for her on the English coast.\nAmong them will be Debbie's mother, who swam the Channel herself when she was a girl.",
+  "bodyTextZh": "黛比·哈特将要游泳横渡英吉利海峡。\n她将从法国海岸出发。早上五点。\n黛比只有十一岁。她希望能够创造一项新的世界纪录。\n她是个游泳健将，很多人都认为她一定会成功。\n黛比的父亲会和她一起出发。乘坐一艘小船。\n哈特先生多年来一直在训练他的女儿。\n明天，他会焦急地注视着她。当她游向遥远的英格兰时。\n黛比打算每两小时休息一会儿。\n她会喝点东西但她不吃任何固体食物。\n黛比的大多数同学都会在英格兰的海岸边等待着她。\n其中会包括黛比的母亲。她自己也曾经游过英吉利海峡当她还是个女孩的时候。",
+  "sentences": [
+    {
+      "index": 0,
+      "startTime": 0.5,
+      "endTime": 3,
+      "en": "Lesson 36",
+      "zh": "第36课",
+      "role": "lesson"
+    },
+    {
+      "index": 1,
+      "startTime": 3,
+      "endTime": 9.9,
+      "en": "Across the Channel",
+      "zh": "越过英吉利海峡",
+      "role": "title"
+    },
+    {
+      "index": 2,
+      "startTime": 9.9,
+      "endTime": 14.66,
+      "en": "What is Debbie going to try to do?",
+      "zh": "黛比打算做什么呢？",
+      "role": "question"
+    },
+    {
+      "index": 3,
+      "startTime": 14.66,
+      "endTime": 20.41,
+      "en": "Debbie Hart is going to swim across the English Channel tomorrow.",
+      "zh": "黛比·哈特将要游泳横渡英吉利海峡。",
+      "role": "body"
+    },
+    {
+      "index": 4,
+      "startTime": 20.41,
+      "endTime": 26.6,
+      "en": "She is going to set out from the French coast at five o'clock in the morning.",
+      "zh": "她将从法国海岸出发。早上五点。",
+      "role": "body"
+    },
+    {
+      "index": 5,
+      "startTime": 26.6,
+      "endTime": 33.42,
+      "en": "Debbie is only eleven years old and she hopes to set up a new world record.",
+      "zh": "黛比只有十一岁。她希望能够创造一项新的世界纪录。",
+      "role": "body"
+    },
+    {
+      "index": 6,
+      "startTime": 33.42,
+      "endTime": 40.07,
+      "en": "She is a strong swimmer and many people feel that she is sure to succeed.",
+      "zh": "她是个游泳健将，很多人都认为她一定会成功。",
+      "role": "body"
+    },
+    {
+      "index": 7,
+      "startTime": 40.07,
+      "endTime": 44.91,
+      "en": "Debbie's father will set out with her in a small boat.",
+      "zh": "黛比的父亲会和她一起出发。乘坐一艘小船。",
+      "role": "body"
+    },
+    {
+      "index": 8,
+      "startTime": 44.91,
+      "endTime": 49.16,
+      "en": "Mr. Hart has trained his daughter for years.",
+      "zh": "哈特先生多年来一直在训练他的女儿。",
+      "role": "body"
+    },
+    {
+      "index": 9,
+      "startTime": 49.16,
+      "endTime": 56.89,
+      "en": "Tomorrow he will be watching her anxiously as she swims the long distance to England.",
+      "zh": "明天，他会焦急地注视着她。当她游向遥远的英格兰时。",
+      "role": "body"
+    },
+    {
+      "index": 10,
+      "startTime": 56.89,
+      "endTime": 61.68,
+      "en": "Debbie intends to take short rests every two hours.",
+      "zh": "黛比打算每两小时休息一会儿。",
+      "role": "body"
+    },
+    {
+      "index": 11,
+      "startTime": 61.68,
+      "endTime": 67.63,
+      "en": "She will have something to drink but she will not eat any solid food.",
+      "zh": "她会喝点东西但她不吃任何固体食物。",
+      "role": "body"
+    },
+    {
+      "index": 12,
+      "startTime": 67.63,
+      "endTime": 73.3,
+      "en": "Most of Debbie's school friends will be waiting for her on the English coast.",
+      "zh": "黛比的大多数同学都会在英格兰的海岸边等待着她。",
+      "role": "body"
+    },
+    {
+      "index": 13,
+      "startTime": 73.3,
+      "endTime": null,
+      "en": "Among them will be Debbie's mother, who swam the Channel herself when she was a girl.",
+      "zh": "其中会包括黛比的母亲。她自己也曾经游过英吉利海峡当她还是个女孩的时候。",
+      "role": "body"
+    }
+  ],
+  "audio": {
+    "fileName": "36－Across the Channel.mp3",
+    "sourcePath": "content/NCE-Flow/NCE2/36－Across the Channel.mp3",
+    "exists": true
+  },
+  "source": {
+    "repository": "NCE-Flow",
+    "lrcFileName": "36－Across the Channel.lrc",
+    "lrcPath": "content/NCE-Flow/NCE2/36－Across the Channel.lrc",
+    "sourceDataFile": "content/NCE-Flow/static/data.json",
+    "generatedAt": "2026-07-23T02:59:02+00:00",
+    "generator": "scripts/generate_nce_json.py",
+    "generatorVersion": "2.0.0",
+    "metadata": {
+      "al": "新概念英语（二）",
+      "ar": "MP3 同步字幕版（美音）",
+      "ti": "Across the Channel",
+      "by": "更多学习内容，请到VeryCD.com搜索“露珠”"
+    }
+  }
+}

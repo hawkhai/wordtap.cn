@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "id": "pepj8b-019",
+  "groupId": "pepj8b",
+  "unitNo": 10,
+  "sequenceNo": 19,
+  "section": "Section A",
+  "title": "A Family's Yard Sale",
+  "jsonPath": "pep-english/lessons/pepj8b/019.json",
+  "text": "My children are growing up fast. My daughter is 16 and my boy is already in junior high school. As they get bigger, our house seems to get smaller. So we want to sell some of our things in a yard sale and give the money to a children's home.\nWe have already cleared out a lot of things from our bedrooms. We have decided to each sell five things that we no longer use. My son was quite sad at first. Although he has not played with his old toys for a long time, he still wanted to keep them. For example, he has owned a train and railway set since his fourth birthday, and he played with it almost every week until he was about seven. And he did not want to lose his toy monkey, either. He slept next to the monkey every night when he was a child. My daughter was more understanding, although she also felt sad to part with certain toys.\nAs for me, I did not want to give up my football shirts, but, to be honest, I have not played for a while now. I am getting older, too!",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "My children are growing up fast. My daughter is 16 and my boy is already in junior high school. As they get bigger, our house seems to get smaller. So we want to sell some of our things in a yard sale and give the money to a children's home."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "We have already cleared out a lot of things from our bedrooms. We have decided to each sell five things that we no longer use. My son was quite sad at first. Although he has not played with his old toys for a long time, he still wanted to keep them. For example, he has owned a train and railway set since his fourth birthday, and he played with it almost every week until he was about seven. And he did not want to lose his toy monkey, either. He slept next to the monkey every night when he was a child. My daughter was more understanding, although she also felt sad to part with certain toys."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "As for me, I did not want to give up my football shirts, but, to be honest, I have not played for a while now. I am getting older, too!"
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "初中",
+    "book": "八年级下册",
+    "pageStart": 84,
+    "pageEnd": 84,
+    "extractionMode": "ocr",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "21d35e04f1c22b74a3fe3e95e88adff9",
+    "pdfSize": 18208880,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/junior-8b.pdf#page=84",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored the complete three-paragraph newspaper article, supplied a descriptive metadata title, and excluded the 3a prompt plus exercises 3b-3c."
+    }
+  }
+}

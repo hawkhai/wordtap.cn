@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "pephs3-035",
+  "groupId": "pephs3",
+  "unitNo": 5,
+  "sequenceNo": 35,
+  "section": "Expanding Your World",
+  "title": "On Children (Kahlil Gibran)",
+  "jsonPath": "pep-english/lessons/pephs3/035.json",
+  "text": "Your children are not your children.\nThey are the sons and daughters of Life's longing for itself.\nThey come through you but not from you, And though they are with you yet they belong not to you.\nYou may give them your love but not your thoughts, For they have their own thoughts.\nYou may house their bodies but not their souls, For their souls dwell in the house of tomorrow, which you cannot visit, not even in your dreams.\nYou may strive to be like them, but seek not to make them like you.\nFor life goes not backward nor tarries with yesterday.\nYou are the bows from which your children as living arrows are sent forth.\nThe archer sees the mark upon the path of the infinite, and He bends you with His might that His arrows may go swift and far.\nLet your bending in the archer's hand be for gladness;\nFor even as He loves the arrow that flies, so He loves also the bow that is stable.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Your children are not your children.\nThey are the sons and daughters of Life's longing for itself.\nThey come through you but not from you, And though they are with you yet they belong not to you.\nYou may give them your love but not your thoughts, For they have their own thoughts.\nYou may house their bodies but not their souls, For their souls dwell in the house of tomorrow, which you cannot visit, not even in your dreams.\nYou may strive to be like them, but seek not to make them like you.\nFor life goes not backward nor tarries with yesterday.\nYou are the bows from which your children as living arrows are sent forth.\nThe archer sees the mark upon the path of the infinite, and He bends you with His might that His arrows may go swift and far.\nLet your bending in the archer's hand be for gladness;\nFor even as He loves the arrow that flies, so He loves also the bow that is stable."
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "选择性必修第三册",
+    "pageStart": 102,
+    "pageEnd": 102,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "f0dc33129a755a33421d401b71a05cd1",
+    "pdfSize": 12684455,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/senior-selective-3.pdf#page=102",
+      "reviewedAt": "2026-07-22",
+      "notes": "Preserved the complete twenty-line poem, capitalization, punctuation and lineation; moved the author attribution to title metadata and excluded the photograph.",
+      "splitBaselineId": "pephs3-043",
+      "splitIndex": 2,
+      "splitCount": 2
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "pepj7a-002",
+  "groupId": "pepj7a",
+  "unitNo": 6,
+  "sequenceNo": 2,
+  "section": "Section B",
+  "title": "Sports Star Eats Well!",
+  "jsonPath": "pep-english/lessons/pepj7a/002.json",
+  "text": "David asks the volleyball star, Cindy Smith, about her eating habits.\nDavid: Hello, Cindy. What do you like for breakfast?\nCindy: I love fruit. I think it's healthy.\nDavid: OK. So what fruit do you like? Do you like bananas?\nCindy: Well, I don't like bananas. But I like oranges and apples.\nDavid: What about lunch? Do you like salad?\nCindy: Yes, I really like it.\nDavid: Hmm... and do you like hamburgers for dinner?\nCindy: Oh, no, they're not healthy. I like chicken for dinner.\nDavid: OK, well, one last question — do you eat ice-cream after dinner?\nCindy: Err... I like ice-cream... but I don't eat it. I don't want to be fat.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "David asks the volleyball star, Cindy Smith, about her eating habits."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "David: Hello, Cindy. What do you like for breakfast?\nCindy: I love fruit. I think it's healthy.\nDavid: OK. So what fruit do you like? Do you like bananas?\nCindy: Well, I don't like bananas. But I like oranges and apples.\nDavid: What about lunch? Do you like salad?\nCindy: Yes, I really like it.\nDavid: Hmm... and do you like hamburgers for dinner?\nCindy: Oh, no, they're not healthy. I like chicken for dinner.\nDavid: OK, well, one last question — do you eat ice-cream after dinner?\nCindy: Err... I like ice-cream... but I don't eat it. I don't want to be fat."
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "初中",
+    "book": "七年级上册",
+    "pageStart": 58,
+    "pageEnd": 58,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "7d7bed5769efd4d786f353da10c755e9",
+    "pdfSize": 12005272,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/junior-7a.pdf#page=58",
+      "reviewedAt": "2026-07-22",
+      "notes": "Removed the exercise frame and title from body; restored the two-column interview in printed reading order."
+    }
+  }
+}

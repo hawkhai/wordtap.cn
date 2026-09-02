@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 2,
+  "id": "rw3-u04-c",
+  "sequenceNo": 48,
+  "groupId": "rw3",
+  "unitNo": 4,
+  "unitTitle": "When work is a pleasure",
+  "section": "C",
+  "articleType": "stories-of-china",
+  "title": "Glassware on fire",
+  "printedPageStart": 107,
+  "printedPageEnd": 108,
+  "jsonPath": "college-english/lessons/rw3/rw3-u04-c.json",
+  "characterCount": 2171,
+  "text": "Xing Lanxiang was hired by a glassware factory in Beijing after graduating from school in 1962. Before that, she had never heard of the art, and even afterward never did she expect to be engaged in it for the rest of her life. Today, together with her two sons, Xing is the heir of a national intangible cultural heritage (非物质文化遗产) and is the only glassware artist who has received the title of master in China.\nIn line with tradition, Xing followed a teacher, Tian Wenyuan, and after three years’ apprenticeship (学徒期), she was already very good at the art thanks to her diligence and passion. She always chose to tackle complicated work and soon became a leading figure in the factory. When the factory established its technology department in 1970, she became a member and studied the technology and designed new glassware products together with her co-workers.\nThis profession brought Xing a lot of pride, particularly during the heyday (全盛时期) of her factory in the 1970s and 1980s, when the factory received a lot of foreign visitors every year. Glassware making is an art form that requires a product to be finished very quickly. Generally, a product is completed within a dozen minutes, while complicated ones are done within half an hour or one hour. So this is a feat that was often observed by visitors. Foreign visitors tended to favor this kind of traditional task very much.\nHowever, the hardship of learning and grasping this skill makes the preservation of the art a major challenge. Xing once had more than 100 apprentices, but only one of them still remains in the sector, and now she has only her two sons to pass the skill on to. “Of course I hope the art of making glassware can be handed down from one generation to another, as it is really beautiful and represents a high level of art,” Xing said.\nXing never misses any opportunity to spread glassware culture. Through various activities, Xing has made more people aware of the art. She once attended the Glass Innovation Design Contest in Hejian of China’s Hebei Province, where she exchanged views with masters in the sector. This further strengthened her confidence in the art of making glassware.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Xing Lanxiang was hired by a glassware factory in Beijing after graduating from school in 1962. Before that, she had never heard of the art, and even afterward never did she expect to be engaged in it for the rest of her life. Today, together with her two sons, Xing is the heir of a national intangible cultural heritage (非物质文化遗产) and is the only glassware artist who has received the title of master in China."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "In line with tradition, Xing followed a teacher, Tian Wenyuan, and after three years’ apprenticeship (学徒期), she was already very good at the art thanks to her diligence and passion. She always chose to tackle complicated work and soon became a leading figure in the factory. When the factory established its technology department in 1970, she became a member and studied the technology and designed new glassware products together with her co-workers."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "This profession brought Xing a lot of pride, particularly during the heyday (全盛时期) of her factory in the 1970s and 1980s, when the factory received a lot of foreign visitors every year. Glassware making is an art form that requires a product to be finished very quickly. Generally, a product is completed within a dozen minutes, while complicated ones are done within half an hour or one hour. So this is a feat that was often observed by visitors. Foreign visitors tended to favor this kind of traditional task very much."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "However, the hardship of learning and grasping this skill makes the preservation of the art a major challenge. Xing once had more than 100 apprentices, but only one of them still remains in the sector, and now she has only her two sons to pass the skill on to. “Of course I hope the art of making glassware can be handed down from one generation to another, as it is really beautiful and represents a high level of art,” Xing said."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Xing never misses any opportunity to spread glassware culture. Through various activities, Xing has made more people aware of the art. She once attended the Glass Innovation Design Contest in Hejian of China’s Hebei Province, where she exchanged views with masters in the sector. This further strengthened her confidence in the art of making glassware."
+    }
+  ],
+  "source": {
+    "series": "新视野大学英语（第四版）",
+    "book": "读写教程 3",
+    "sourceBook": "NHCE4-RW3",
+    "printedPageStart": 107,
+    "printedPageEnd": 108,
+    "pdfPageStart": 122,
+    "pdfPageEnd": 123,
+    "pdfSha256": "40418e1f32f5db4eaf6f091227217121109219515e2ffd6b68791927d506afe8",
+    "ocrFiles": [
+      "tools/College-English/NHCE4-RW3/ocr/json/NHCE4-RW3_122.json",
+      "tools/College-English/NHCE4-RW3/ocr/json/NHCE4-RW3_123.json"
+    ]
+  },
+  "manualReview": {
+    "status": "passed",
+    "reviewer": "Codex",
+    "reviewedAt": "2026-07-30T17:25:50Z",
+    "correctionCount": 4,
+    "evidence": "Full second read: NHCE4-RW3.pdf pages 122-123; images NHCE4-RW3_122.jpg..123.jpg; reviewed-articles/rw3-u04-c.json",
+    "textSha256": "f34e7eb5a35c9ca7b47ed9facf8fd7647e4330d6dee0d6b9242a6c21405af13b",
+    "eventSha256": "69d93f1daab31ed462ff53e227f84f933da4397953faaff41ab96d32bcf85cf4"
+  }
+}

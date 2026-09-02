@@ -1,0 +1,135 @@
+{
+  "schemaVersion": 1,
+  "id": "nce2-011",
+  "bookId": "nce2",
+  "bookNo": 2,
+  "lessonNo": 11,
+  "lessonRange": [
+    11
+  ],
+  "title": "One Good Turn Deserves Another",
+  "titleZh": "礼尚往来",
+  "question": "Who paid for Tony's dinner?",
+  "questionZh": "谁付了托尼晚餐的钱？",
+  "text": "Who paid for Tony's dinner?\n\nI was having dinner at a restaurant when Tony Steele came in.\nTony worked in a lawyer's office years ago, but he is now working at a bank.\nHe gets a good salary, but he always borrows money from his friends and never pays it back.\nTony saw me and came and sat at the same table.\nHe has never borrowed money from me.\nWhile he was eating, I asked him to lend me twenty pounds.\nTo my surprise, he gave me the money immediately.\n'I have never borrowed any money from you,'\nTony said, 'so now you can pay for my dinner!'",
+  "bodyText": "I was having dinner at a restaurant when Tony Steele came in.\nTony worked in a lawyer's office years ago, but he is now working at a bank.\nHe gets a good salary, but he always borrows money from his friends and never pays it back.\nTony saw me and came and sat at the same table.\nHe has never borrowed money from me.\nWhile he was eating, I asked him to lend me twenty pounds.\nTo my surprise, he gave me the money immediately.\n'I have never borrowed any money from you,'\nTony said, 'so now you can pay for my dinner!'",
+  "bodyTextZh": "我正在餐厅吃晚饭，这时托尼·斯蒂尔走了进来。\n托尼几年前在一家律师事务所工作过。但他现在在一家银行工作。\n他的薪水很高。但他总是向朋友借钱，却从不还钱。\n托尼看到我后，走过来坐在了我的旁边。\n他从来没有向我借过钱。\n他正在吃饭的时候，我请他借给我二十英镑。\n令我惊讶的是，他立刻就把钱给了我。\n“我从来没有向你借过任何钱。”\n托尼说：“现在你可以付我晚餐的钱了！”",
+  "sentences": [
+    {
+      "index": 0,
+      "startTime": 0.5,
+      "endTime": 3,
+      "en": "Lesson 11",
+      "zh": "第11课",
+      "role": "lesson"
+    },
+    {
+      "index": 1,
+      "startTime": 3,
+      "endTime": 10.82,
+      "en": "One Good Turn Deserves Another",
+      "zh": "礼尚往来",
+      "role": "title"
+    },
+    {
+      "index": 2,
+      "startTime": 10.82,
+      "endTime": 14.36,
+      "en": "Who paid for Tony's dinner?",
+      "zh": "谁付了托尼晚餐的钱？",
+      "role": "question"
+    },
+    {
+      "index": 3,
+      "startTime": 14.36,
+      "endTime": 19.9,
+      "en": "I was having dinner at a restaurant when Tony Steele came in.",
+      "zh": "我正在餐厅吃晚饭，这时托尼·斯蒂尔走了进来。",
+      "role": "body"
+    },
+    {
+      "index": 4,
+      "startTime": 19.9,
+      "endTime": 27.04,
+      "en": "Tony worked in a lawyer's office years ago, but he is now working at a bank.",
+      "zh": "托尼几年前在一家律师事务所工作过。但他现在在一家银行工作。",
+      "role": "body"
+    },
+    {
+      "index": 5,
+      "startTime": 27.04,
+      "endTime": 35.61,
+      "en": "He gets a good salary, but he always borrows money from his friends and never pays it back.",
+      "zh": "他的薪水很高。但他总是向朋友借钱，却从不还钱。",
+      "role": "body"
+    },
+    {
+      "index": 6,
+      "startTime": 35.61,
+      "endTime": 39.94,
+      "en": "Tony saw me and came and sat at the same table.",
+      "zh": "托尼看到我后，走过来坐在了我的旁边。",
+      "role": "body"
+    },
+    {
+      "index": 7,
+      "startTime": 39.94,
+      "endTime": 43.19,
+      "en": "He has never borrowed money from me.",
+      "zh": "他从来没有向我借过钱。",
+      "role": "body"
+    },
+    {
+      "index": 8,
+      "startTime": 43.19,
+      "endTime": 48.33,
+      "en": "While he was eating, I asked him to lend me twenty pounds.",
+      "zh": "他正在吃饭的时候，我请他借给我二十英镑。",
+      "role": "body"
+    },
+    {
+      "index": 9,
+      "startTime": 48.33,
+      "endTime": 53.78,
+      "en": "To my surprise, he gave me the money immediately.",
+      "zh": "令我惊讶的是，他立刻就把钱给了我。",
+      "role": "body"
+    },
+    {
+      "index": 10,
+      "startTime": 53.78,
+      "endTime": 56.77,
+      "en": "'I have never borrowed any money from you,'",
+      "zh": "“我从来没有向你借过任何钱。”",
+      "role": "body"
+    },
+    {
+      "index": 11,
+      "startTime": 56.77,
+      "endTime": null,
+      "en": "Tony said, 'so now you can pay for my dinner!'",
+      "zh": "托尼说：“现在你可以付我晚餐的钱了！”",
+      "role": "body"
+    }
+  ],
+  "audio": {
+    "fileName": "11－One Good Turn Deserves Another.mp3",
+    "sourcePath": "content/NCE-Flow/NCE2/11－One Good Turn Deserves Another.mp3",
+    "exists": true
+  },
+  "source": {
+    "repository": "NCE-Flow",
+    "lrcFileName": "11－One Good Turn Deserves Another.lrc",
+    "lrcPath": "content/NCE-Flow/NCE2/11－One Good Turn Deserves Another.lrc",
+    "sourceDataFile": "content/NCE-Flow/static/data.json",
+    "generatedAt": "2026-07-23T02:59:02+00:00",
+    "generator": "scripts/generate_nce_json.py",
+    "generatorVersion": "2.0.0",
+    "metadata": {
+      "al": "新概念英语（二）",
+      "ar": "MP3 同步字幕版（美音）",
+      "ti": "One Good Turn Deserves Another",
+      "by": "更多学习内容，请到VeryCD.com搜索“露珠”"
+    }
+  }
+}

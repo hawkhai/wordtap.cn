@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "id": "pephs2-012",
+  "groupId": "pephs2",
+  "unitNo": 4,
+  "sequenceNo": 12,
+  "section": "Reading and Thinking",
+  "title": "Seeing the True North via Rail: Vancouver and the Heart of Canada",
+  "jsonPath": "pep-english/lessons/pephs2/012.json",
+  "text": "Li Daiyu and her cousin Liu Qian went to Canada to visit their cousins in Halifax on the Atlantic coast. Rather than travel by commercial airline all the way, they decided to fly to Vancouver and then take the train. For both of them, the thought of crossing the whole country by rail was exciting.\nBefore starting out, they spent a couple of days in Vancouver, seeing the sights. During their first day, as is typical of Vancouver, it rained. Despite the weather, they were able to take a boat ride out into the bay, and later visit an island that had wonderful shops selling crafts and antiques. The next day was clear and mild, and they were pleased to see the beautiful mountains looking out over the city. Later, they took a pleasant hike in a forest just a short distance away.\nThe next morning, the two girls arose early to take the train to Lake Louise, passing through the Canadian Rockies. Seen from the train window, the mountains and forests of Canada looked massive. When the train arrived at the station, they took a taxi to Lake Louise, where the blue water literally took their breath away with its exceptional beauty. They spent the night, and then took a coach bound north through the Canadian Rockies to Jasper. Looking at the beautiful scenery, they both agreed that it was the most awesome journey they had ever taken. In addition to seeing spectacular mountain peaks and forests, one highlight of their trip was being able to see many different creatures, including deer, mountain goats, and even a grizzly bear and an eagle.\nFrom Jasper, they caught the train towards Toronto. One of the train’s first stops was in Edmonton, the provincial capital of Alberta, the centre of Canada’s huge oil and gas drilling industry. Edmonton is freezing cold in winter, with daily temperatures averaging -10˚C. Since it can be too cold to go outdoors, Edmonton is home to many shopping malls. In fact, one of the largest shopping malls in North America is in Edmonton.\nFrom Edmonton, the train headed southeast across the great Canadian Prairie. At school, Daiyu and Liu Qian had learnt that Canada’s population is only slightly over thirty-seven million. However, they did not anticipate seeing such an open country, and were truly amazed. They went through two wheat-growing provinces, where they saw a bunch of farms that covered a very large area.\nAfter another day on the train, eventually they were back in an urban area, the city of Winnipeg. From there, they travelled through the night, and woke up in Ontario—a land of forests and lakes. The train thundered on, through the rolling hills. The bushes and maple trees outside their windows were red, gold, and orange, and there was frost on the ground, confirming that autumn had arrived in Canada. Night came again, and the train turned south towards Toronto. When they woke up the next morning and pulled back the curtain, they could see the wide stretch of Lake Huron—one of the four Great Lakes on Ontario’s southern border. It was not until 9:30 a.m. that they finally reached the capital of Ontario, Toronto. All in all, their trip from Vancouver to Toronto had taken a duration of four days.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Li Daiyu and her cousin Liu Qian went to Canada to visit their cousins in Halifax on the Atlantic coast. Rather than travel by commercial airline all the way, they decided to fly to Vancouver and then take the train. For both of them, the thought of crossing the whole country by rail was exciting."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Before starting out, they spent a couple of days in Vancouver, seeing the sights. During their first day, as is typical of Vancouver, it rained. Despite the weather, they were able to take a boat ride out into the bay, and later visit an island that had wonderful shops selling crafts and antiques. The next day was clear and mild, and they were pleased to see the beautiful mountains looking out over the city. Later, they took a pleasant hike in a forest just a short distance away."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "The next morning, the two girls arose early to take the train to Lake Louise, passing through the Canadian Rockies. Seen from the train window, the mountains and forests of Canada looked massive. When the train arrived at the station, they took a taxi to Lake Louise, where the blue water literally took their breath away with its exceptional beauty. They spent the night, and then took a coach bound north through the Canadian Rockies to Jasper. Looking at the beautiful scenery, they both agreed that it was the most awesome journey they had ever taken. In addition to seeing spectacular mountain peaks and forests, one highlight of their trip was being able to see many different creatures, including deer, mountain goats, and even a grizzly bear and an eagle."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "From Jasper, they caught the train towards Toronto. One of the train’s first stops was in Edmonton, the provincial capital of Alberta, the centre of Canada’s huge oil and gas drilling industry. Edmonton is freezing cold in winter, with daily temperatures averaging -10˚C. Since it can be too cold to go outdoors, Edmonton is home to many shopping malls. In fact, one of the largest shopping malls in North America is in Edmonton."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "From Edmonton, the train headed southeast across the great Canadian Prairie. At school, Daiyu and Liu Qian had learnt that Canada’s population is only slightly over thirty-seven million. However, they did not anticipate seeing such an open country, and were truly amazed. They went through two wheat-growing provinces, where they saw a bunch of farms that covered a very large area."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "After another day on the train, eventually they were back in an urban area, the city of Winnipeg. From there, they travelled through the night, and woke up in Ontario—a land of forests and lakes. The train thundered on, through the rolling hills. The bushes and maple trees outside their windows were red, gold, and orange, and there was frost on the ground, confirming that autumn had arrived in Canada. Night came again, and the train turned south towards Toronto. When they woke up the next morning and pulled back the curtain, they could see the wide stretch of Lake Huron—one of the four Great Lakes on Ontario’s southern border. It was not until 9:30 a.m. that they finally reached the capital of Ontario, Toronto. All in all, their trip from Vancouver to Toronto had taken a duration of four days."
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "选择性必修第二册",
+    "pageStart": 45,
+    "pageEnd": 46,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "1a701f2205298de95ea59cfc71eb83cd",
+    "pdfSize": 9968316,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/senior-selective-2.pdf#page=45-46",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored the complete six-paragraph rail journey from Vancouver through the Rockies, Edmonton, the Prairie, Winnipeg and Ontario to Toronto; visually verified the page break after the Edmonton paragraph and excluded all lead-in, strategy, table, matching and discussion activities."
+    }
+  }
+}

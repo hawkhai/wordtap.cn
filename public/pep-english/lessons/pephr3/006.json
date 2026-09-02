@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "id": "pephr3-006",
+  "groupId": "pephr3",
+  "unitNo": 2,
+  "sequenceNo": 6,
+  "section": "Reading and Thinking",
+  "title": "Mother of Ten Thousand Babies",
+  "jsonPath": "pep-english/lessons/pephr3/006.json",
+  "text": "“Life is precious.... To a person nothing is more precious than their life, and if they entrust me with that life, how could I refuse that trust, saying I'm cold, hungry, or tired?” These words of Dr Lin Qiaozhi give us a look into the heart of this amazing woman, and what carried her through a life of hard choices.\nAs a five-year-old girl, Lin Qiaozhi was deeply affected by her mother's death. At age 18, instead of following the traditional path of marriage like the majority of girls, she chose to study medicine. “Why should girls learn so much? Finding a good husband should be their final goal!” her brother complained, thinking of the high tuition fees. She responded, “I'd rather stay single to study all my life!”\nEight years later, Lin graduated from Peking Union Medical College (PUMC) with the Wenhai Scholarship, the highest prize given to graduates. She immediately became the first woman ever to be hired as a resident physician in the OB-GYN department of the PUMC Hospital. Within six months, she was named a chief resident physician, a position that usually took four years to achieve. After working for a few years, she was sent to study in Europe and then, in 1939, in the US. She greatly impressed her American colleagues, who invited her to stay. Dr Lin, however, rejected the offer. She wanted to serve the women and children at home.\nIn 1941, Dr Lin became the first Chinese woman ever to be appointed director of the OB-GYN department of the PUMC Hospital, but just a few months later, the department was closed because of the war. Thinking of all the people still in need of help, Dr Lin opened a private clinic. She charged very low fees to treat patients and often reduced costs for poor patients. At times she was even seen riding a donkey to faraway villages to provide medical care.\nThe new People's Republic of China saw Dr Lin Qiaozhi playing a key role. In 1954, she was elected to the first National People's Congress and, over the next several decades, she held many important positions. Her heart, however, was elsewhere. She was more interested in tending patients, publishing medical research on care for women and children, and training the next generation of doctors. “The OB-GYN department cares for two lives,” she told new staff in her department. “As doctors, we should be responsible for the patients and treat them as our sisters.”\nThough Lin Qiaozhi never married, she was known as the “mother of ten thousand babies”, having delivered over 50,000 babies in her lifetime. Dr Lin did not retire until the day she died, 22 April 1983. Since she had no children of her own, she left her savings to a kindergarten and a fund for new doctors. And even as she lay dying, her final thoughts were for others. “I'm ready to go,” she said. “Don't try to rescue me any more. Don't waste the medicine any more.”",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "“Life is precious.... To a person nothing is more precious than their life, and if they entrust me with that life, how could I refuse that trust, saying I'm cold, hungry, or tired?” These words of Dr Lin Qiaozhi give us a look into the heart of this amazing woman, and what carried her through a life of hard choices."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "As a five-year-old girl, Lin Qiaozhi was deeply affected by her mother's death. At age 18, instead of following the traditional path of marriage like the majority of girls, she chose to study medicine. “Why should girls learn so much? Finding a good husband should be their final goal!” her brother complained, thinking of the high tuition fees. She responded, “I'd rather stay single to study all my life!”"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Eight years later, Lin graduated from Peking Union Medical College (PUMC) with the Wenhai Scholarship, the highest prize given to graduates. She immediately became the first woman ever to be hired as a resident physician in the OB-GYN department of the PUMC Hospital. Within six months, she was named a chief resident physician, a position that usually took four years to achieve. After working for a few years, she was sent to study in Europe and then, in 1939, in the US. She greatly impressed her American colleagues, who invited her to stay. Dr Lin, however, rejected the offer. She wanted to serve the women and children at home."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "In 1941, Dr Lin became the first Chinese woman ever to be appointed director of the OB-GYN department of the PUMC Hospital, but just a few months later, the department was closed because of the war. Thinking of all the people still in need of help, Dr Lin opened a private clinic. She charged very low fees to treat patients and often reduced costs for poor patients. At times she was even seen riding a donkey to faraway villages to provide medical care."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "The new People's Republic of China saw Dr Lin Qiaozhi playing a key role. In 1954, she was elected to the first National People's Congress and, over the next several decades, she held many important positions. Her heart, however, was elsewhere. She was more interested in tending patients, publishing medical research on care for women and children, and training the next generation of doctors. “The OB-GYN department cares for two lives,” she told new staff in her department. “As doctors, we should be responsible for the patients and treat them as our sisters.”"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Though Lin Qiaozhi never married, she was known as the “mother of ten thousand babies”, having delivered over 50,000 babies in her lifetime. Dr Lin did not retire until the day she died, 22 April 1983. Since she had no children of her own, she left her savings to a kindergarten and a fund for new doctors. And even as she lay dying, her final thoughts were for others. “I'm ready to go,” she said. “Don't try to rescue me any more. Don't waste the medicine any more.”"
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "必修第三册",
+    "pageStart": 23,
+    "pageEnd": 24,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "31e51a16693d03177a5825f53f612a87",
+    "pdfSize": 14202806,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/senior-required-3.pdf#page=23-24",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored all six biography paragraphs across two pages, following text around both photographs; excluded lead-in, comprehension questions, strategy box, vocabulary exercise, captions and running furniture."
+    }
+  }
+}

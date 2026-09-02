@@ -1,0 +1,384 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-08-01T18:17:59Z",
+  "courseId": "kaoyan-english",
+  "fileCount": 75,
+  "totalBytes": 103589127,
+  "files": [
+    {
+      "path": "raw/english-1/手译版：行或段之间有空白区域",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "raw/english-1/英语一手译版/1986-1995年历年考研英语一真题集.pdf",
+      "bytes": 542964,
+      "sha256": "208e667208cd1e9afdaf30294be4e7663de31428b2f18b6b9554c67d1f9cb873"
+    },
+    {
+      "path": "raw/english-1/英语一手译版/1996-2004年历年考研英语一真题集.pdf",
+      "bytes": 1372670,
+      "sha256": "dde93fa95cd55b03b4f880af81240e1bcb9f9e1f7e5206cb822cc653c1c30d1c"
+    },
+    {
+      "path": "raw/english-1/英语一手译版/2005-2009年历年考研英语一真题集.pdf",
+      "bytes": 563318,
+      "sha256": "710f480add9f7b29ad076240155dc0766672ddc426f3437ee779fc86562bfbdb"
+    },
+    {
+      "path": "raw/english-1/英语一手译版/2010-2019年历年考研英语一真题集.pdf",
+      "bytes": 1188154,
+      "sha256": "18e280150eff1f4286257be62a12005f607d8d5b99253070c735275db62b1536"
+    },
+    {
+      "path": "raw/english-1/英语一手译版/2020年考研英语一真题.pdf",
+      "bytes": 213487,
+      "sha256": "2c17211a587ef4f30ba6fa9cb04be834bc3c749e18f21eb74a6dd1fa97609b52"
+    },
+    {
+      "path": "raw/english-1/英语一真题集/1980-1985年历年考研英语真题集.doc",
+      "bytes": 683934,
+      "sha256": "ce515cc11f376d2deb6b39f6f222285519dc88feb71cdf391432f6a52e40452b"
+    },
+    {
+      "path": "raw/english-1/英语一真题集/1980-1985年历年考研英语真题集.pdf",
+      "bytes": 464183,
+      "sha256": "525227c90a3228ef9191b7aac8949d271348ab9fc9d8d437d41f7937b10bd121"
+    },
+    {
+      "path": "raw/english-1/英语一真题集/1986-1995年历年考研英语真题集.doc",
+      "bytes": 587264,
+      "sha256": "5215ff19a1549e10b9ce69250569c36e2a341d0bb818fa2bd1eb8cb991804a9e"
+    },
+    {
+      "path": "raw/english-1/英语一真题集/1986-1995年历年考研英语真题集.pdf",
+      "bytes": 616148,
+      "sha256": "802c3d218714a6362731273cc8d2b9d25ab499f210d39194461a3cf5b28c4a39"
+    },
+    {
+      "path": "raw/english-1/英语一真题集/1996-2004年历年考研英语真题集.doc",
+      "bytes": 1616896,
+      "sha256": "8a3fd4cbecc075a921b58955f7efb2691c05f58371c4b33e96160bbc2eb4c869"
+    },
+    {
+      "path": "raw/english-1/英语一真题集/1996-2004年历年考研英语真题集.pdf",
+      "bytes": 960734,
+      "sha256": "9b755b86b278a933c57aa414312a7472b7523caa59d669204622437eecd9255e"
+    },
+    {
+      "path": "raw/english-1/英语一真题集/2005-2016年历年考研英语真题集.doc",
+      "bytes": 1249792,
+      "sha256": "95b5099003ce523a82aed5b4ee0e6cca4e7eed6db411b2ca86a91507e2466177"
+    },
+    {
+      "path": "raw/english-1/英语一真题集/2005-2016年历年考研英语真题集.pdf",
+      "bytes": 1199624,
+      "sha256": "9b146aad279779d5efea6728e96357709d050e333ab09acd4f9fdaa40ac49182"
+    },
+    {
+      "path": "raw/english-1/英语一真题集/2017年考研英语一真题.doc",
+      "bytes": 123392,
+      "sha256": "610cea8db4ab514012f3d48bd40978c3dc0b1547f1716caf06b989810c393daa"
+    },
+    {
+      "path": "raw/english-1/英语一真题集/2017年考研英语一真题.pdf",
+      "bytes": 323445,
+      "sha256": "513770ae72a138a626fd07022b5b775784d242cebc1aa3e04102f6290fc0b690"
+    },
+    {
+      "path": "raw/english-1/英语一真题集/2018年考研英语一真题.doc",
+      "bytes": 172544,
+      "sha256": "5696ca5afdead696ead8fa23689c3479e7eea6a8be3b260c45ba7342f2090fa4"
+    },
+    {
+      "path": "raw/english-1/英语一真题集/2018年考研英语一真题.pdf",
+      "bytes": 215541,
+      "sha256": "557c5597037c15491f97c9a602154f3b010ab460670dbf0760da2a73ea637b06"
+    },
+    {
+      "path": "raw/english-1/英语一真题集/2019年考研英语一真题.doc",
+      "bytes": 191458,
+      "sha256": "33caf5296f17b31ee9c69ba9042608631db09e904b96b2ab1faf9ac6d5a682ac"
+    },
+    {
+      "path": "raw/english-1/英语一真题集/2019年考研英语一真题.pdf",
+      "bytes": 255698,
+      "sha256": "c09b4b41c436bd150dc7213330a2fb51dff7a7df6f5bb81f8e413aec47a42610"
+    },
+    {
+      "path": "raw/english-1/英语一真题集/2020年考研英语一真题.pdf",
+      "bytes": 4045658,
+      "sha256": "6c1838413b84179429ff09e39f3089a91f5935f5a5d8552fa4ef12a6e9027eb5"
+    },
+    {
+      "path": "raw/english-1/英语一答案解析/1986-1990年考研英语真题答案及解析.pdf",
+      "bytes": 1789882,
+      "sha256": "1ba8be4aa21c4028f97bbaa13673a4830eec4c841c92da6e8d96e80dcb0b169a"
+    },
+    {
+      "path": "raw/english-1/英语一答案解析/1991-1995年考研英语真题答案及解析.pdf",
+      "bytes": 2400213,
+      "sha256": "522dcad59d696e9b38edf175cb9a25bf950db311f33a15806477e858a271f567"
+    },
+    {
+      "path": "raw/english-1/英语一答案解析/1996年考研英语真题答案及解析.pdf",
+      "bytes": 801659,
+      "sha256": "0c4248af23b918c406bf67102adabb57cbfe0e5ac9897e058a1e29664aa10fdf"
+    },
+    {
+      "path": "raw/english-1/英语一答案解析/1997年考研英语真题答案及解析.pdf",
+      "bytes": 788858,
+      "sha256": "3436330486bc08c5f89808fa76c1d22048fcd5cd7c64d322280e49a70929cb6e"
+    },
+    {
+      "path": "raw/english-1/英语一答案解析/1998年考研英语真题答案及解析.pdf",
+      "bytes": 857650,
+      "sha256": "eb0b590d6fcd332ee00fcabf2072e93e6008f78cac97be6eb8e79ce91a9e563e"
+    },
+    {
+      "path": "raw/english-1/英语一答案解析/1999年考研英语真题答案及解析.pdf",
+      "bytes": 916669,
+      "sha256": "82393f2f172290228f032d1de22bc4539f8006abf0c0c6349bb81b3fbd52bbd0"
+    },
+    {
+      "path": "raw/english-1/英语一答案解析/2000年考研英语真题答案及解析.pdf",
+      "bytes": 1057487,
+      "sha256": "79358a59ae931ce967441a35ba4e42b4ca1a78cc1cecba3d4dc0cc5d9ca6dc0d"
+    },
+    {
+      "path": "raw/english-1/英语一答案解析/2001年考研英语真题答案及解析.pdf",
+      "bytes": 894492,
+      "sha256": "eadabddb2f266838c7a62d82facefc73d7d1565bef2f6e1f2ea7755118165b02"
+    },
+    {
+      "path": "raw/english-1/英语一答案解析/2002年考研英语真题答案及解析.pdf",
+      "bytes": 914800,
+      "sha256": "4c7e8c1afc8af903a71173864fddc6b13448732cd98f7ad303479b26a6764bf0"
+    },
+    {
+      "path": "raw/english-1/英语一答案解析/2003年考研英语真题答案及解析.pdf",
+      "bytes": 961808,
+      "sha256": "adc5e6e3fc175482fa0659f2ba74bc36d20e6d6abcf66b855e95a03b28db7aae"
+    },
+    {
+      "path": "raw/english-1/英语一答案解析/2004年考研英语真题答案及解析.pdf",
+      "bytes": 908878,
+      "sha256": "0ef407757f0d37b041dcbbab789160ae04a7bdb3c57ea14bf66c7b74af9c7fb5"
+    },
+    {
+      "path": "raw/english-1/英语一答案解析/2005年考研英语真题答案及解析.pdf",
+      "bytes": 713440,
+      "sha256": "bd534d302d84cc8597c9ca7d52ace1f6cab3050845b5e09487e79117b0e8a694"
+    },
+    {
+      "path": "raw/english-1/英语一答案解析/2006年考研英语真题答案及解析.pdf",
+      "bytes": 690209,
+      "sha256": "071cfb2362b87edc7f1e0fe53a89abf73f172379632ecaed3bb247f124739b87"
+    },
+    {
+      "path": "raw/english-1/英语一答案解析/2007年考研英语真题答案及解析.pdf",
+      "bytes": 695952,
+      "sha256": "8d6682d77d1dc52fc7d48a02d39adb1c547189417ed14fac7073504e0afbc0d0"
+    },
+    {
+      "path": "raw/english-1/英语一答案解析/2008年考研英语真题答案及解析.pdf",
+      "bytes": 692862,
+      "sha256": "9fc814216bc554b85d1be9049454adabd18b9422b42a10a5887a3e1340148bd3"
+    },
+    {
+      "path": "raw/english-1/英语一答案解析/2009年考研英语真题答案及解析.pdf",
+      "bytes": 602143,
+      "sha256": "b854168d00992898aba0164ed29ab8b3c528ae6e55321a1dacb88f247cc89009"
+    },
+    {
+      "path": "raw/english-1/英语一答案解析/2010年考研英语真题答案及解析.pdf",
+      "bytes": 764941,
+      "sha256": "32df10d7f618cac2178f9dd3bd2de0cf4a0a226655559b391930c27ea8f85cc7"
+    },
+    {
+      "path": "raw/english-1/英语一答案解析/2011年考研英语真题答案及解析.pdf",
+      "bytes": 774187,
+      "sha256": "f02457a89537c44fcd5de82b9f5f456a403525192ee154934bf060934c8f7e59"
+    },
+    {
+      "path": "raw/english-1/英语一答案解析/2012年考研英语真题答案及解析.pdf",
+      "bytes": 784986,
+      "sha256": "ab3d9c389b8a97b159b039fd2907be04258f5734477751137f52d4f2e90fa215"
+    },
+    {
+      "path": "raw/english-1/英语一答案解析/2013年考研英语真题答案及解析.pdf",
+      "bytes": 833068,
+      "sha256": "d95b26727a685fdbd116e0d8e0e9c38889841828a7b7397b99d6e514fb223cbd"
+    },
+    {
+      "path": "raw/english-1/英语一答案解析/2014年考研英语真题答案及解析.pdf",
+      "bytes": 786994,
+      "sha256": "8f08125266d0f033886a62ea3d6df280d8308f80034d8a9bc5938cf2d794faec"
+    },
+    {
+      "path": "raw/english-1/英语一答案解析/2015年考研英语真题答案及解析.pdf",
+      "bytes": 776419,
+      "sha256": "c1f085e52456601014bd5c7e988506d98c5ce5ed6e6f175ed3f3d0b4b1428c74"
+    },
+    {
+      "path": "raw/english-1/英语一答案解析/2016年考研英语真题答案及解析.pdf",
+      "bytes": 991403,
+      "sha256": "fc847da8eda1ef06c44d88412583312f598e472dca56393f1cfc4ef9951912ea"
+    },
+    {
+      "path": "raw/english-1/英语一答案解析/2017年考研英语真题答案及解析.pdf",
+      "bytes": 1263615,
+      "sha256": "3d823cf23dabb9b8ead8029b22059b2cee5db9a3be55a067d326a552d10aa2d6"
+    },
+    {
+      "path": "raw/english-1/英语一答案解析/2018年考研英语真题答案及解析.pdf",
+      "bytes": 698997,
+      "sha256": "b1d359dab24410a99bf2651712f613fd68a7ed075dc7dc7e9c6cd0c79c2febd6"
+    },
+    {
+      "path": "raw/english-1/英语一答案解析/2019年考研英语真题答案及解析.pdf",
+      "bytes": 459692,
+      "sha256": "5e1f2bbed29250b6107965570622b794f6e4c24b2fb9922729d2f2e0992166bd"
+    },
+    {
+      "path": "raw/english-1/英语一答案解析/2020年考研英语真题答案及解析.pdf",
+      "bytes": 3592318,
+      "sha256": "7e4e4129c74451f40ba13815cd60fceb86ae4b5781688cc523ae6cd82a606c1b"
+    },
+    {
+      "path": "raw/english-1.zip",
+      "bytes": 39999790,
+      "sha256": "080e3f80efa056e388fb0e3120b28a013f4ec9f5ad11fbe0e5a06476fd84cf76"
+    },
+    {
+      "path": "raw/english-2/英语二真题/2010英语真题试卷及答案2.pdf",
+      "bytes": 580278,
+      "sha256": "94d6584c9dcf7587009c0486cfc7630a07b004d5e8312328569b514d770c0bec"
+    },
+    {
+      "path": "raw/english-2/英语二真题/2011英语真题试卷及答案2.pdf",
+      "bytes": 577645,
+      "sha256": "e3b36a30683259cb838ea2987171ff630fb53ff8196834dcc1da6054d8eeac7e"
+    },
+    {
+      "path": "raw/english-2/英语二真题/2012英语真题试卷及答案2.pdf",
+      "bytes": 594347,
+      "sha256": "3cd235cdd05987b6d60e0ee93cda3fe4bc5b5591f43a181817b6877fe76775d8"
+    },
+    {
+      "path": "raw/english-2/英语二真题/2013英语真题试卷及答案2.pdf",
+      "bytes": 584260,
+      "sha256": "89522ac444b9ff7632e635c7e9c02c58388b3ee6db5973f3c358179104cba0de"
+    },
+    {
+      "path": "raw/english-2/英语二真题/2014英语真题试卷及答案2.pdf",
+      "bytes": 630736,
+      "sha256": "0c65503eb5218b730e3e8a3959c1861cae4686c80bad7a6a5f2cfa991114d45c"
+    },
+    {
+      "path": "raw/english-2/英语二真题/2015英语真题试卷及答案2.pdf",
+      "bytes": 636894,
+      "sha256": "4b7e46446a7a44ce2a6cf09e9345808b094ee0707d5a5f7ea5b8c74786a791b9"
+    },
+    {
+      "path": "raw/english-2/英语二真题/2016英语真题试卷及答案2.pdf",
+      "bytes": 621708,
+      "sha256": "f515f79cad47adb46d8a855cfde24a7b714d286ae0c36c22896249c24e2346c4"
+    },
+    {
+      "path": "raw/english-2/英语二真题/2017英语真题试卷及答案2.pdf",
+      "bytes": 244549,
+      "sha256": "85b6f05524fea7f0bc5b0f086ebaf97f4aa8a2c19e5710dadb5b5519158c6535"
+    },
+    {
+      "path": "raw/english-2/英语二真题/2018-2019英语真题试卷及答案2.pdf",
+      "bytes": 3270842,
+      "sha256": "dc84d540e0b62fe965a6af1df431cb8a1234a4fb102936ead16598102d830a07"
+    },
+    {
+      "path": "raw/english-2/英语二真题/2018英语真题试卷2.pdf",
+      "bytes": 418404,
+      "sha256": "6a11737f5413bc3189d0e16f86d1639225536c8f48cec57650e1190c765545d5"
+    },
+    {
+      "path": "raw/english-2/英语二真题/2019英语真题试卷2.pdf",
+      "bytes": 255129,
+      "sha256": "2dd3d709bfc80f22d4652286bb0c927fb3a9560919b501ae33959534e2afc012"
+    },
+    {
+      "path": "raw/english-2-2010-2016.pdf",
+      "bytes": 743267,
+      "sha256": "48d3ef0508a66b5dba45250615cff2ca8e1ab836a0b319aa21672df20cca9fb7"
+    },
+    {
+      "path": "raw/english-2.zip",
+      "bytes": 8049586,
+      "sha256": "425d6c6ce55e0060652c8c2b34c2b6f63c6d3cc1ec132acad4c37b076c8ad37b"
+    },
+    {
+      "path": "raw/recent/e1-2021.pdf",
+      "bytes": 201195,
+      "sha256": "f71c2b924bc8e830309b6d4b3c78ff1b369ce27d05b32098993a57f86bee874b"
+    },
+    {
+      "path": "raw/recent/e1-2022.pdf",
+      "bytes": 202382,
+      "sha256": "d6032d5272d1cb20eca7905a68f5f5f8b1d37c59025b3473b53ab497507adaa0"
+    },
+    {
+      "path": "raw/recent/e1-2023.pdf",
+      "bytes": 164935,
+      "sha256": "85f717979c397d82e877dedb93f9d5dc782449ab286354c35a83c8d916880843"
+    },
+    {
+      "path": "raw/recent/e1-2024.pdf",
+      "bytes": 201579,
+      "sha256": "a59fe801378dc19f9c589e918ad3c41f29ee67f3036e5cc27056b97f6926de1c"
+    },
+    {
+      "path": "raw/recent/e1-2025.pdf",
+      "bytes": 167646,
+      "sha256": "e8f0910dfd60d27ba28fb4a8c7354ee732107651a03922f9520a609384c94879"
+    },
+    {
+      "path": "raw/recent/e1-2026.pdf",
+      "bytes": 166303,
+      "sha256": "891547f4773ac4f9bd53140c27cfc772127d55ca8893e591b8fcc48dc6285b21"
+    },
+    {
+      "path": "raw/recent/e2-2020.pdf",
+      "bytes": 197498,
+      "sha256": "d2d9a81eab271f6ac1540a75ba216a9b684ddfe66154791d1875c19248424a19"
+    },
+    {
+      "path": "raw/recent/e2-2021.pdf",
+      "bytes": 197881,
+      "sha256": "f1ee5e2cd73d9dbe464906129b91cff9eb62e5e1ad5738bd3d6dfc62891f1b16"
+    },
+    {
+      "path": "raw/recent/e2-2022.pdf",
+      "bytes": 196749,
+      "sha256": "b1b7efe9af2a37a06cab8854cb14f618fcbba726613c3001278543ebd55bb2cb"
+    },
+    {
+      "path": "raw/recent/e2-2023.pdf",
+      "bytes": 163184,
+      "sha256": "62c1dab8dbd8d9bbec9c39b0f7a88276c0a9a99b424c24a30de0e07b867bb619"
+    },
+    {
+      "path": "raw/recent/e2-2024.pdf",
+      "bytes": 161918,
+      "sha256": "6ddbe204a4c67319feab5befa21dbc819baa57ddcf31bdf8746be6698625f1e7"
+    },
+    {
+      "path": "raw/recent/e2-2025.pdf",
+      "bytes": 197799,
+      "sha256": "ee7794c69789029c86fde6a1f16da952752dd5a7d4c5f2972370d3e430ca32e5"
+    },
+    {
+      "path": "raw/recent/e2-2026.pdf",
+      "bytes": 162097,
+      "sha256": "6cc19f340e759df4fc56a816db8296a9212d8e26e84e2b055dc5ea36f8b34b04"
+    }
+  ]
+}

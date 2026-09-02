@@ -1,0 +1,216 @@
+{
+  "schemaVersion": 1,
+  "id": "nce1-037",
+  "bookId": "nce1",
+  "bookNo": 1,
+  "lessonNo": 37,
+  "lessonRange": [
+    37,
+    38
+  ],
+  "title": "Making a Bookcase",
+  "titleZh": "制作一个书架",
+  "question": "What is Susan's favourite colour?",
+  "questionZh": "苏珊最喜欢的颜色是什么？",
+  "text": "What is Susan's favourite colour?\n\nYou're working hard, George.\nWhat are you doing?\nI'm making a bookcase.\nGive me that hammer please, Dan.\nWhich hammer?\nThis one?\nNo, not that one.\nThe big one.\nHere you are.\nThanks, Dan.\nWhat are you going to do now, George?\nI'm going to paint it.\nWhat colour are you going to paint it?\nI'm going to paint it pink.\nPink!\nThis bookcase isn't for me.\nIt's for my daughter, Susan.\nPink's her favourite colour.",
+  "bodyText": "You're working hard, George.\nWhat are you doing?\nI'm making a bookcase.\nGive me that hammer please, Dan.\nWhich hammer?\nThis one?\nNo, not that one.\nThe big one.\nHere you are.\nThanks, Dan.\nWhat are you going to do now, George?\nI'm going to paint it.\nWhat colour are you going to paint it?\nI'm going to paint it pink.\nPink!\nThis bookcase isn't for me.\nIt's for my daughter, Susan.\nPink's her favourite colour.",
+  "bodyTextZh": "你工作得很努力，乔治。\n你在做什么？\n我正在制作一个书架。\n请把那把锤子递给我，丹。\n哪把锤子？\n这个吗？\n不，不是那个。\n那个大的。\n给你。\n谢谢，丹。\n乔治，你现在打算做什么？\n我打算给它刷漆。\n你打算把它涂成什么颜色？\n我打算把它涂成粉色。\n粉色！\n这个书架不是给我做的。\n这是给我女儿苏珊的。\n粉色是她最喜欢的颜色。",
+  "sentences": [
+    {
+      "index": 0,
+      "startTime": 0.54,
+      "endTime": 3.05,
+      "en": "Lesson 37",
+      "zh": "第37课",
+      "role": "lesson"
+    },
+    {
+      "index": 1,
+      "startTime": 3.05,
+      "endTime": 6.11,
+      "en": "Making a bookcase",
+      "zh": "制作一个书架",
+      "role": "title"
+    },
+    {
+      "index": 2,
+      "startTime": 6.11,
+      "endTime": 12.3,
+      "en": "Listen to the tape then answer this question.",
+      "zh": "先听这段录音，然后再回答这个问题。",
+      "role": "prompt"
+    },
+    {
+      "index": 3,
+      "startTime": 12.3,
+      "endTime": 17.45,
+      "en": "What is Susan's favourite colour?",
+      "zh": "苏珊最喜欢的颜色是什么？",
+      "role": "question"
+    },
+    {
+      "index": 4,
+      "startTime": 17.45,
+      "endTime": 20.72,
+      "en": "You're working hard, George.",
+      "zh": "你工作得很努力，乔治。",
+      "role": "body"
+    },
+    {
+      "index": 5,
+      "startTime": 20.72,
+      "endTime": 23.22,
+      "en": "What are you doing?",
+      "zh": "你在做什么？",
+      "role": "body"
+    },
+    {
+      "index": 6,
+      "startTime": 23.22,
+      "endTime": 26.81,
+      "en": "I'm making a bookcase.",
+      "zh": "我正在制作一个书架。",
+      "role": "body"
+    },
+    {
+      "index": 7,
+      "startTime": 26.81,
+      "endTime": 30.82,
+      "en": "Give me that hammer please, Dan.",
+      "zh": "请把那把锤子递给我，丹。",
+      "role": "body"
+    },
+    {
+      "index": 8,
+      "startTime": 30.82,
+      "endTime": 32.64,
+      "en": "Which hammer?",
+      "zh": "哪把锤子？",
+      "role": "body"
+    },
+    {
+      "index": 9,
+      "startTime": 32.64,
+      "endTime": 34.12,
+      "en": "This one?",
+      "zh": "这个吗？",
+      "role": "body"
+    },
+    {
+      "index": 10,
+      "startTime": 34.12,
+      "endTime": 36.53,
+      "en": "No, not that one.",
+      "zh": "不，不是那个。",
+      "role": "body"
+    },
+    {
+      "index": 11,
+      "startTime": 36.53,
+      "endTime": 38.94,
+      "en": "The big one.",
+      "zh": "那个大的。",
+      "role": "body"
+    },
+    {
+      "index": 12,
+      "startTime": 38.94,
+      "endTime": 40.56,
+      "en": "Here you are.",
+      "zh": "给你。",
+      "role": "body"
+    },
+    {
+      "index": 13,
+      "startTime": 40.56,
+      "endTime": 43.51,
+      "en": "Thanks, Dan.",
+      "zh": "谢谢，丹。",
+      "role": "body"
+    },
+    {
+      "index": 14,
+      "startTime": 43.51,
+      "endTime": 47.84,
+      "en": "What are you going to do now, George?",
+      "zh": "乔治，你现在打算做什么？",
+      "role": "body"
+    },
+    {
+      "index": 15,
+      "startTime": 47.84,
+      "endTime": 51.12,
+      "en": "I'm going to paint it.",
+      "zh": "我打算给它刷漆。",
+      "role": "body"
+    },
+    {
+      "index": 16,
+      "startTime": 51.12,
+      "endTime": 55.48,
+      "en": "What colour are you going to paint it?",
+      "zh": "你打算把它涂成什么颜色？",
+      "role": "body"
+    },
+    {
+      "index": 17,
+      "startTime": 55.48,
+      "endTime": 59.5,
+      "en": "I'm going to paint it pink.",
+      "zh": "我打算把它涂成粉色。",
+      "role": "body"
+    },
+    {
+      "index": 18,
+      "startTime": 59.5,
+      "endTime": 60.99,
+      "en": "Pink!",
+      "zh": "粉色！",
+      "role": "body"
+    },
+    {
+      "index": 19,
+      "startTime": 60.99,
+      "endTime": 63.96,
+      "en": "This bookcase isn't for me.",
+      "zh": "这个书架不是给我做的。",
+      "role": "body"
+    },
+    {
+      "index": 20,
+      "startTime": 63.96,
+      "endTime": 67.1,
+      "en": "It's for my daughter, Susan.",
+      "zh": "这是给我女儿苏珊的。",
+      "role": "body"
+    },
+    {
+      "index": 21,
+      "startTime": 67.1,
+      "endTime": null,
+      "en": "Pink's her favourite colour.",
+      "zh": "粉色是她最喜欢的颜色。",
+      "role": "body"
+    }
+  ],
+  "audio": {
+    "fileName": "037&038－Making a Bookcase.mp3",
+    "sourcePath": "content/NCE-Flow/NCE1/037&038－Making a Bookcase.mp3",
+    "exists": true
+  },
+  "source": {
+    "repository": "NCE-Flow",
+    "lrcFileName": "037&038－Making a Bookcase.lrc",
+    "lrcPath": "content/NCE-Flow/NCE1/037&038－Making a Bookcase.lrc",
+    "sourceDataFile": "content/NCE-Flow/static/data.json",
+    "generatedAt": "2026-07-23T02:59:02+00:00",
+    "generator": "scripts/generate_nce_json.py",
+    "generatorVersion": "2.0.0",
+    "metadata": {
+      "al": "新概念英语（一）",
+      "ar": "MP3 同步字幕版（美音）",
+      "ti": "Making a Bookcase",
+      "by": "更多学习内容，请到VeryCD.com搜索“露珠”"
+    }
+  }
+}

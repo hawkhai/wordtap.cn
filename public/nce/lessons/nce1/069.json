@@ -1,0 +1,192 @@
+{
+  "schemaVersion": 1,
+  "id": "nce1-069",
+  "bookId": "nce1",
+  "bookNo": 1,
+  "lessonNo": 69,
+  "lessonRange": [
+    69,
+    70
+  ],
+  "title": "The Car Race",
+  "titleZh": "汽车比赛",
+  "question": "Which car was the winner in 1995?",
+  "questionZh": "哪辆车在1995年赢得了比赛？",
+  "text": "Which car was the winner in 1995?\n\nThere is a car race near our town every year.\nIn 1995, there was a very big race.\nThere were hundreds of people there.\nMy wife and I were at the race.\nOur friends Julie and Jack were there, too.\nYou can see us in the crowd.\nWe are standing on the left.\nThere were twenty cars in the race.\nThere were English cars, French cars, German cars, Italian cars, American cars and Japanese cars.\nIt was an exciting finish.\nThe winner was Billy Stewart.\nHe was in car number fifteen.\nFive other cars were just behind him.\nOn the way home, my wife said to me, 'Don't drive so quickly!\nYou're not Billy Stewart!'",
+  "bodyText": "There is a car race near our town every year.\nIn 1995, there was a very big race.\nThere were hundreds of people there.\nMy wife and I were at the race.\nOur friends Julie and Jack were there, too.\nYou can see us in the crowd.\nWe are standing on the left.\nThere were twenty cars in the race.\nThere were English cars, French cars, German cars, Italian cars, American cars and Japanese cars.\nIt was an exciting finish.\nThe winner was Billy Stewart.\nHe was in car number fifteen.\nFive other cars were just behind him.\nOn the way home, my wife said to me, 'Don't drive so quickly!\nYou're not Billy Stewart!'",
+  "bodyTextZh": "每年我们镇附近都会举行一场汽车比赛。\n1995年，有一场规模非常大的比赛。\n那里有数百人。\n我和我的妻子一起去了那场比赛。\n我们的朋友朱莉和杰克也都在那里。\n你们可以在人群中看到我们。\n我们站在左边。\n比赛中有二十辆汽车。\n有英国汽车、法国汽车、德国汽车、意大利汽车、美国汽车和日本汽车。\n比赛的结尾非常激动人心。\n获胜者是比利·斯图尔特。\n他驾驶的是十五号车。\n还有另外五辆车紧跟在他后面。\n在回家的路上，我的妻子对我说：‘别开得太快！’\n“你又不是比利·斯图尔特！”",
+  "sentences": [
+    {
+      "index": 0,
+      "startTime": 0.98,
+      "endTime": 3.5,
+      "en": "Lesson 69",
+      "zh": "第69课",
+      "role": "lesson"
+    },
+    {
+      "index": 1,
+      "startTime": 3.5,
+      "endTime": 6.29,
+      "en": "The car race",
+      "zh": "汽车比赛",
+      "role": "title"
+    },
+    {
+      "index": 2,
+      "startTime": 6.29,
+      "endTime": 12.1,
+      "en": "Listen to the tape then answer this question.",
+      "zh": "先听这段录音，然后再回答这个问题。",
+      "role": "prompt"
+    },
+    {
+      "index": 3,
+      "startTime": 12.1,
+      "endTime": 19.15,
+      "en": "Which car was the winner in 1995?",
+      "zh": "哪辆车在1995年赢得了比赛？",
+      "role": "question"
+    },
+    {
+      "index": 4,
+      "startTime": 19.15,
+      "endTime": 25.36,
+      "en": "There is a car race near our town every year.",
+      "zh": "每年我们镇附近都会举行一场汽车比赛。",
+      "role": "body"
+    },
+    {
+      "index": 5,
+      "startTime": 25.36,
+      "endTime": 32.2,
+      "en": "In 1995, there was a very big race.",
+      "zh": "1995年，有一场规模非常大的比赛。",
+      "role": "body"
+    },
+    {
+      "index": 6,
+      "startTime": 32.2,
+      "endTime": 36.03,
+      "en": "There were hundreds of people there.",
+      "zh": "那里有数百人。",
+      "role": "body"
+    },
+    {
+      "index": 7,
+      "startTime": 36.03,
+      "endTime": 40.28,
+      "en": "My wife and I were at the race.",
+      "zh": "我和我的妻子一起去了那场比赛。",
+      "role": "body"
+    },
+    {
+      "index": 8,
+      "startTime": 40.28,
+      "endTime": 45.61,
+      "en": "Our friends Julie and Jack were there, too.",
+      "zh": "我们的朋友朱莉和杰克也都在那里。",
+      "role": "body"
+    },
+    {
+      "index": 9,
+      "startTime": 45.61,
+      "endTime": 49.48,
+      "en": "You can see us in the crowd.",
+      "zh": "你们可以在人群中看到我们。",
+      "role": "body"
+    },
+    {
+      "index": 10,
+      "startTime": 49.48,
+      "endTime": 53.98,
+      "en": "We are standing on the left.",
+      "zh": "我们站在左边。",
+      "role": "body"
+    },
+    {
+      "index": 11,
+      "startTime": 53.98,
+      "endTime": 58.25,
+      "en": "There were twenty cars in the race.",
+      "zh": "比赛中有二十辆汽车。",
+      "role": "body"
+    },
+    {
+      "index": 12,
+      "startTime": 58.25,
+      "endTime": 71.87,
+      "en": "There were English cars, French cars, German cars, Italian cars, American cars and Japanese cars.",
+      "zh": "有英国汽车、法国汽车、德国汽车、意大利汽车、美国汽车和日本汽车。",
+      "role": "body"
+    },
+    {
+      "index": 13,
+      "startTime": 71.87,
+      "endTime": 75.69,
+      "en": "It was an exciting finish.",
+      "zh": "比赛的结尾非常激动人心。",
+      "role": "body"
+    },
+    {
+      "index": 14,
+      "startTime": 75.69,
+      "endTime": 79.44,
+      "en": "The winner was Billy Stewart.",
+      "zh": "获胜者是比利·斯图尔特。",
+      "role": "body"
+    },
+    {
+      "index": 15,
+      "startTime": 79.44,
+      "endTime": 83.53,
+      "en": "He was in car number fifteen.",
+      "zh": "他驾驶的是十五号车。",
+      "role": "body"
+    },
+    {
+      "index": 16,
+      "startTime": 83.53,
+      "endTime": 89.07,
+      "en": "Five other cars were just behind him.",
+      "zh": "还有另外五辆车紧跟在他后面。",
+      "role": "body"
+    },
+    {
+      "index": 17,
+      "startTime": 89.07,
+      "endTime": 97.31,
+      "en": "On the way home, my wife said to me, 'Don't drive so quickly!",
+      "zh": "在回家的路上，我的妻子对我说：‘别开得太快！’",
+      "role": "body"
+    },
+    {
+      "index": 18,
+      "startTime": 97.31,
+      "endTime": null,
+      "en": "You're not Billy Stewart!'",
+      "zh": "“你又不是比利·斯图尔特！”",
+      "role": "body"
+    }
+  ],
+  "audio": {
+    "fileName": "069&070－The Car Race.mp3",
+    "sourcePath": "content/NCE-Flow/NCE1/069&070－The Car Race.mp3",
+    "exists": true
+  },
+  "source": {
+    "repository": "NCE-Flow",
+    "lrcFileName": "069&070－The Car Race.lrc",
+    "lrcPath": "content/NCE-Flow/NCE1/069&070－The Car Race.lrc",
+    "sourceDataFile": "content/NCE-Flow/static/data.json",
+    "generatedAt": "2026-07-23T02:59:02+00:00",
+    "generator": "scripts/generate_nce_json.py",
+    "generatorVersion": "2.0.0",
+    "metadata": {
+      "al": "新概念英语（一）",
+      "ar": "MP3 同步字幕版（美音）",
+      "ti": "The Car Race",
+      "by": "更多学习内容，请到VeryCD.com搜索“露珠”"
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "pephr2-013",
+  "groupId": "pephr2",
+  "unitNo": 5,
+  "sequenceNo": 13,
+  "section": "Listening and Talking",
+  "title": "Planning a Music Festival",
+  "jsonPath": "pep-english/lessons/pephr2/013.json",
+  "text": "Debbie: Where have you been? You missed the announcement about the music festival.\nJohn: I was at the doctor's office. Music festival?\nFrank: Yes, it's going to be next month on the school sports field. John, you can play the piano. How about playing it at the festival?\nJohn: Well, I'd rather play the violin. I can play Liang Zhu.\nFrank: Wow! Sounds good. What about you, Debbie?\nDebbie: Actually, I don't have much musical ability. I'd prefer just to help out with the crowds.\nFrank: You can sell tickets or work at a food stand.\nJohn: So can I assume that the aim of the festival is to raise money?\nDebbie: Yes. All of the money will go to charity.\nJohn: Well, if it's for a good cause, everyone should take part!",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Debbie: Where have you been? You missed the announcement about the music festival.\nJohn: I was at the doctor's office. Music festival?\nFrank: Yes, it's going to be next month on the school sports field. John, you can play the piano. How about playing it at the festival?\nJohn: Well, I'd rather play the violin. I can play Liang Zhu.\nFrank: Wow! Sounds good. What about you, Debbie?\nDebbie: Actually, I don't have much musical ability. I'd prefer just to help out with the crowds.\nFrank: You can sell tickets or work at a food stand.\nJohn: So can I assume that the aim of the festival is to raise money?\nDebbie: Yes. All of the money will go to charity.\nJohn: Well, if it's for a good cause, everyone should take part!"
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "必修第二册",
+    "pageStart": 62,
+    "pageEnd": 62,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "38d49874e4f015fd89f21c9306f6b9d5",
+    "pdfSize": 14270612,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/senior-required-2.pdf#page=62",
+      "reviewedAt": "2026-07-22",
+      "notes": "Kept the complete ten-turn model conversation among Debbie, John and Frank about performing, volunteering and the festival's charitable aim; excluded listening tasks, preference expressions, photograph and open discussion prompts."
+    }
+  }
+}

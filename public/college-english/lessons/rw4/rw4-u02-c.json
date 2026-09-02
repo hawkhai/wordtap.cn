@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 2,
+  "id": "rw4-u02-c",
+  "sequenceNo": 60,
+  "groupId": "rw4",
+  "unitNo": 2,
+  "unitTitle": "Secrets to beauty",
+  "section": "C",
+  "articleType": "stories-of-china",
+  "title": "A beautiful heart that has made a difference",
+  "printedPageStart": 57,
+  "printedPageEnd": 58,
+  "jsonPath": "college-english/lessons/rw4/rw4-u02-c.json",
+  "characterCount": 2312,
+  "text": "Ma Jun was once a promising college teacher in Xi’an, the capital of western China’s Shaanxi Province, but she quit the city in 2010 to teach at Mata School, a village school in the province’s mountainous north. The school was set up by her father in 1992 for children whose parents had sought work in cities.\nMa was born and raised in Mata Village, Zizhou County. Without Mata School, she would have needed to walk a long way to attend the nearest school. Even today, there is still only a limited bus service from Mata village to downtown Zizhou.\nWhen she was young, Ma dreamed of becoming an athlete and competing in the Olympics. When she was in middle school, she made it to the Shaanxi provincial women’s wrestling team. But she had to give up that dream after suffering a serious injury to her left knee during training.\nIn 2005 she graduated from Xi’an Physical Education University and became a teacher at a different college. Five years later, she chose to start a new life at her hometown school, where her father was still working as the school principal. Not surprisingly, her courage to quit her secure job in the city and go back to a small village impressed many people.\nNow Ma is a teacher and “mother” to several hundred pupils at Mata School, taking care of the youngest children, teaching physical education classes, and playing a key role in designing its teaching strategies and curriculum.\nMa’s return has made a great difference to the school, especially in terms of its curriculum. The school day was previously all about study in the classroom, but Ma added exercise, art, and scientific experiments. Optional classes in yangge (a local dance), martial arts, and modern dance were also introduced, and various contests, including singing and calligraphy (书法) competitions, started to be held.\nMa has also taken Mata pupils to perform at local television stations and in national art festivals, where their performance of yangge won much applause. Mata pupils also went to Beijing to compete with children from other cities in a children’s reality show.\nThanks to Ma’s efforts, Mata School has developed into a boarding school (寄宿学校) with a much larger number of teachers and pupils. When asked if she had any regrets, Ma said, “I’m doing it with my heart. I’m happy, and that’s enough.”",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Ma Jun was once a promising college teacher in Xi’an, the capital of western China’s Shaanxi Province, but she quit the city in 2010 to teach at Mata School, a village school in the province’s mountainous north. The school was set up by her father in 1992 for children whose parents had sought work in cities."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Ma was born and raised in Mata Village, Zizhou County. Without Mata School, she would have needed to walk a long way to attend the nearest school. Even today, there is still only a limited bus service from Mata village to downtown Zizhou."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "When she was young, Ma dreamed of becoming an athlete and competing in the Olympics. When she was in middle school, she made it to the Shaanxi provincial women’s wrestling team. But she had to give up that dream after suffering a serious injury to her left knee during training."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "In 2005 she graduated from Xi’an Physical Education University and became a teacher at a different college. Five years later, she chose to start a new life at her hometown school, where her father was still working as the school principal. Not surprisingly, her courage to quit her secure job in the city and go back to a small village impressed many people."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Now Ma is a teacher and “mother” to several hundred pupils at Mata School, taking care of the youngest children, teaching physical education classes, and playing a key role in designing its teaching strategies and curriculum."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Ma’s return has made a great difference to the school, especially in terms of its curriculum. The school day was previously all about study in the classroom, but Ma added exercise, art, and scientific experiments. Optional classes in yangge (a local dance), martial arts, and modern dance were also introduced, and various contests, including singing and calligraphy (书法) competitions, started to be held."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Ma has also taken Mata pupils to perform at local television stations and in national art festivals, where their performance of yangge won much applause. Mata pupils also went to Beijing to compete with children from other cities in a children’s reality show."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Thanks to Ma’s efforts, Mata School has developed into a boarding school (寄宿学校) with a much larger number of teachers and pupils. When asked if she had any regrets, Ma said, “I’m doing it with my heart. I’m happy, and that’s enough.”"
+    }
+  ],
+  "source": {
+    "series": "新视野大学英语（第四版）",
+    "book": "读写教程 4",
+    "sourceBook": "NHCE4-RW4",
+    "printedPageStart": 57,
+    "printedPageEnd": 58,
+    "pdfPageStart": 72,
+    "pdfPageEnd": 73,
+    "pdfSha256": "5b70c28492928eefbb43a4832275c6fff070e12c7b70455ae03dc64bfa7a0a53",
+    "ocrFiles": [
+      "tools/College-English/NHCE4-RW4/ocr/json/NHCE4-RW4_72.json",
+      "tools/College-English/NHCE4-RW4/ocr/json/NHCE4-RW4_73.json"
+    ]
+  },
+  "manualReview": {
+    "status": "passed",
+    "reviewer": "Codex",
+    "reviewedAt": "2026-07-30T18:33:43Z",
+    "correctionCount": 4,
+    "evidence": "Original PDF/images 72-73, reviewed JSON, second full visual pass, title/body/end-boundary check",
+    "textSha256": "d7f93cc8a864a2fc910b966758f0b77fb2482ca3db29126ffc92e9361aec127f",
+    "eventSha256": "5d9875b68ff0c11b41e05cc0ab04dd35d903c5a05ea7fa459bbe33dd7a6b4a76"
+  }
+}

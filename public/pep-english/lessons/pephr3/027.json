@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "pephr3-027",
+  "groupId": "pephr3",
+  "unitNo": 4,
+  "sequenceNo": 27,
+  "section": "Expanding Your World",
+  "title": "What Is the Hubble Space Telescope?",
+  "jsonPath": "pep-english/lessons/pephr3/027.json",
+  "text": "The Hubble Space Telescope is a very powerful telescope and was put into low orbit around Earth in 1990. Its four main instruments use a 2.4-metre mirror to look deep into space. The telescope does not have to deal with the effects of background light like telescopes on Earth, so it has been able to take very detailed pictures of space. A big achievement of the telescope has been to help scientists correctly measure how quickly the universe is expanding.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "The Hubble Space Telescope is a very powerful telescope and was put into low orbit around Earth in 1990. Its four main instruments use a 2.4-metre mirror to look deep into space. The telescope does not have to deal with the effects of background light like telescopes on Earth, so it has been able to take very detailed pictures of space. A big achievement of the telescope has been to help scientists correctly measure how quickly the universe is expanding."
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "必修第三册",
+    "pageStart": 91,
+    "pageEnd": 91,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "31e51a16693d03177a5825f53f612a87",
+    "pdfSize": 14202806,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/senior-required-3.pdf#page=91",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored the complete second standalone explainer under its own heading.",
+      "splitBaselineId": "pephr3-038",
+      "splitIndex": 2,
+      "splitCount": 4
+    }
+  }
+}

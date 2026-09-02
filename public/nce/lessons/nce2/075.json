@@ -1,0 +1,159 @@
+{
+  "schemaVersion": 1,
+  "id": "nce2-075",
+  "bookId": "nce2",
+  "bookNo": 2,
+  "lessonNo": 75,
+  "lessonRange": [
+    75
+  ],
+  "title": "SOS",
+  "titleZh": "紧急呼救",
+  "question": "How did the woman get help?",
+  "questionZh": "这个女人是如何得到帮助的？",
+  "text": "How did the woman get help?\n\nWhen a light passenger plane flew off course some time ago, it crashed in the mountains and its pilot was killed.\nThe only passengers, a young woman and her two baby daughters, were unhurt.\nIt was the middle of winter.\nSnow lay thick on the ground.\nThe woman knew that the nearest village was miles away.\nWhen it grew dark, she turned a suitcase into a bed and put the children inside it, covering them with all the clothes she could find.\nDuring the night, it got terribly cold.\nThe woman kept as near as she could to the children and even tried to get into the case herself, but it was too small.\nEarly next morning, she heard planes passing overhead and wondered how she could send a signal.\nThen she had an idea. She stamped out the letters 'SOS' in the snow.\nFortunately, a pilot saw the signal and sent a message by radio to the nearest town.\nIt was not long before a helicopter arrived on the scene to rescue the survivors of the plane crash.",
+  "bodyText": "When a light passenger plane flew off course some time ago, it crashed in the mountains and its pilot was killed.\nThe only passengers, a young woman and her two baby daughters, were unhurt.\nIt was the middle of winter.\nSnow lay thick on the ground.\nThe woman knew that the nearest village was miles away.\nWhen it grew dark, she turned a suitcase into a bed and put the children inside it, covering them with all the clothes she could find.\nDuring the night, it got terribly cold.\nThe woman kept as near as she could to the children and even tried to get into the case herself, but it was too small.\nEarly next morning, she heard planes passing overhead and wondered how she could send a signal.\nThen she had an idea. She stamped out the letters 'SOS' in the snow.\nFortunately, a pilot saw the signal and sent a message by radio to the nearest town.\nIt was not long before a helicopter arrived on the scene to rescue the survivors of the plane crash.",
+  "bodyTextZh": "不久前，一架轻型客机偏离了预定航线。飞机在山区坠毁，飞行员不幸遇难。\n唯一的乘客是一位年轻女子和她的两个女儿，她们都没有受伤。\n当时正值隆冬。\n地上积满了厚厚的雪。\n那个女人知道，最近的村庄离这里有好几英里远。\n天黑后，她把一个行李箱改成了“床”，然后把孩子们放了进去。她用所有能找到的衣服把他们盖住了。\n到了晚上，天气变得非常寒冷。\n那位女士尽可能地靠近孩子们，甚至还试图自己钻进箱子里，但箱子太小了。\n第二天清晨，她听到飞机从头顶飞过，思考着该如何发出求救信号。\n接着她想到了一个主意。她在雪地上踩出了“SOS”三个字母。\n幸运的是，一名飞行员看到了这个求救信号，并通过无线电向最近的城镇发送了消息。\n很快，一架直升机赶到现场，营救了这次空难的幸存者。",
+  "sentences": [
+    {
+      "index": 0,
+      "startTime": 0.5,
+      "endTime": 3,
+      "en": "Lesson 75",
+      "zh": "第75课",
+      "role": "lesson"
+    },
+    {
+      "index": 1,
+      "startTime": 3,
+      "endTime": 10.24,
+      "en": "SOS",
+      "zh": "紧急呼救",
+      "role": "title"
+    },
+    {
+      "index": 2,
+      "startTime": 10.24,
+      "endTime": 14.45,
+      "en": "How did the woman get help?",
+      "zh": "这个女人是如何得到帮助的？",
+      "role": "question"
+    },
+    {
+      "index": 3,
+      "startTime": 14.45,
+      "endTime": 25.25,
+      "en": "When a light passenger plane flew off course some time ago, it crashed in the mountains and its pilot was killed.",
+      "zh": "不久前，一架轻型客机偏离了预定航线。飞机在山区坠毁，飞行员不幸遇难。",
+      "role": "body"
+    },
+    {
+      "index": 4,
+      "startTime": 25.25,
+      "endTime": 33.51,
+      "en": "The only passengers, a young woman and her two baby daughters, were unhurt.",
+      "zh": "唯一的乘客是一位年轻女子和她的两个女儿，她们都没有受伤。",
+      "role": "body"
+    },
+    {
+      "index": 5,
+      "startTime": 33.51,
+      "endTime": 36.08,
+      "en": "It was the middle of winter.",
+      "zh": "当时正值隆冬。",
+      "role": "body"
+    },
+    {
+      "index": 6,
+      "startTime": 36.08,
+      "endTime": 39.77,
+      "en": "Snow lay thick on the ground.",
+      "zh": "地上积满了厚厚的雪。",
+      "role": "body"
+    },
+    {
+      "index": 7,
+      "startTime": 39.77,
+      "endTime": 45.05,
+      "en": "The woman knew that the nearest village was miles away.",
+      "zh": "那个女人知道，最近的村庄离这里有好几英里远。",
+      "role": "body"
+    },
+    {
+      "index": 8,
+      "startTime": 45.05,
+      "endTime": 57.93,
+      "en": "When it grew dark, she turned a suitcase into a bed and put the children inside it, covering them with all the clothes she could find.",
+      "zh": "天黑后，她把一个行李箱改成了“床”，然后把孩子们放了进去。她用所有能找到的衣服把他们盖住了。",
+      "role": "body"
+    },
+    {
+      "index": 9,
+      "startTime": 57.93,
+      "endTime": 62.47,
+      "en": "During the night, it got terribly cold.",
+      "zh": "到了晚上，天气变得非常寒冷。",
+      "role": "body"
+    },
+    {
+      "index": 10,
+      "startTime": 62.47,
+      "endTime": 74.04,
+      "en": "The woman kept as near as she could to the children and even tried to get into the case herself, but it was too small.",
+      "zh": "那位女士尽可能地靠近孩子们，甚至还试图自己钻进箱子里，但箱子太小了。",
+      "role": "body"
+    },
+    {
+      "index": 11,
+      "startTime": 74.04,
+      "endTime": 82.7,
+      "en": "Early next morning, she heard planes passing overhead and wondered how she could send a signal.",
+      "zh": "第二天清晨，她听到飞机从头顶飞过，思考着该如何发出求救信号。",
+      "role": "body"
+    },
+    {
+      "index": 12,
+      "startTime": 82.7,
+      "endTime": 91.98,
+      "en": "Then she had an idea. She stamped out the letters 'SOS' in the snow.",
+      "zh": "接着她想到了一个主意。她在雪地上踩出了“SOS”三个字母。",
+      "role": "body"
+    },
+    {
+      "index": 13,
+      "startTime": 91.98,
+      "endTime": 100.47,
+      "en": "Fortunately, a pilot saw the signal and sent a message by radio to the nearest town.",
+      "zh": "幸运的是，一名飞行员看到了这个求救信号，并通过无线电向最近的城镇发送了消息。",
+      "role": "body"
+    },
+    {
+      "index": 14,
+      "startTime": 100.47,
+      "endTime": null,
+      "en": "It was not long before a helicopter arrived on the scene to rescue the survivors of the plane crash.",
+      "zh": "很快，一架直升机赶到现场，营救了这次空难的幸存者。",
+      "role": "body"
+    }
+  ],
+  "audio": {
+    "fileName": "75－SOS.mp3",
+    "sourcePath": "content/NCE-Flow/NCE2/75－SOS.mp3",
+    "exists": true
+  },
+  "source": {
+    "repository": "NCE-Flow",
+    "lrcFileName": "75－SOS.lrc",
+    "lrcPath": "content/NCE-Flow/NCE2/75－SOS.lrc",
+    "sourceDataFile": "content/NCE-Flow/static/data.json",
+    "generatedAt": "2026-07-23T02:59:02+00:00",
+    "generator": "scripts/generate_nce_json.py",
+    "generatorVersion": "2.0.0",
+    "metadata": {
+      "al": "新概念英语（二）",
+      "ar": "MP3 同步字幕版（美音）",
+      "ti": "SOS",
+      "by": "更多学习内容，请到VeryCD.com搜索“露珠”"
+    }
+  }
+}

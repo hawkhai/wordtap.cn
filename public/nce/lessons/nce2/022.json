@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 1,
+  "id": "nce2-022",
+  "bookId": "nce2",
+  "bookNo": 2,
+  "lessonNo": 22,
+  "lessonRange": [
+    22
+  ],
+  "title": "A Glass Envelope",
+  "titleZh": "玻璃信封",
+  "question": "How did Jane receive a letter from a stranger?",
+  "questionZh": "简是怎么收到一封来自陌生人的信的？",
+  "text": "How did Jane receive a letter from a stranger?\n\nMy daughter, Jane, never dreamed of receiving a letter from a girl of her own age in Holland.\nLast year, we were travelling across the Channel and Jane put a piece of paper with her name and address on it into a bottle.\nShe threw the bottle into the sea.\nShe never thought of it again, but ten months later, she received a letter from a girl in Holland.\nBoth girls write to each other regularly now.\nHowever, they have decided to use the post office.\nLetters will cost a little more, but they will certainly travel faster.",
+  "bodyText": "My daughter, Jane, never dreamed of receiving a letter from a girl of her own age in Holland.\nLast year, we were travelling across the Channel and Jane put a piece of paper with her name and address on it into a bottle.\nShe threw the bottle into the sea.\nShe never thought of it again, but ten months later, she received a letter from a girl in Holland.\nBoth girls write to each other regularly now.\nHowever, they have decided to use the post office.\nLetters will cost a little more, but they will certainly travel faster.",
+  "bodyTextZh": "我的女儿简，从未想过会收到来自荷兰的一个同龄女孩的信。\n去年，我们在渡英吉利海峡时，简把一张写有她名字和地址的纸条放进了瓶子里。\n她把瓶子扔进了海里。\n她再也没有想起过这件事，但十个月后，她收到了一封来自荷兰女孩的信。\n现在，这两个女孩经常互相写信。\n然而，她们决定用邮局寄信。\n信件的费用会稍高一些，但它们的传递速度肯定更快。",
+  "sentences": [
+    {
+      "index": 0,
+      "startTime": 0.5,
+      "endTime": 3,
+      "en": "Lesson 22",
+      "zh": "第22课",
+      "role": "lesson"
+    },
+    {
+      "index": 1,
+      "startTime": 3,
+      "endTime": 10.79,
+      "en": "A Glass Envelope",
+      "zh": "玻璃信封",
+      "role": "title"
+    },
+    {
+      "index": 2,
+      "startTime": 10.79,
+      "endTime": 16.79,
+      "en": "How did Jane receive a letter from a stranger?",
+      "zh": "简是怎么收到一封来自陌生人的信的？",
+      "role": "question"
+    },
+    {
+      "index": 3,
+      "startTime": 16.79,
+      "endTime": 26.87,
+      "en": "My daughter, Jane, never dreamed of receiving a letter from a girl of her own age in Holland.",
+      "zh": "我的女儿简，从未想过会收到来自荷兰的一个同龄女孩的信。",
+      "role": "body"
+    },
+    {
+      "index": 4,
+      "startTime": 26.87,
+      "endTime": 37.71,
+      "en": "Last year, we were travelling across the Channel and Jane put a piece of paper with her name and address on it into a bottle.",
+      "zh": "去年，我们在渡英吉利海峡时，简把一张写有她名字和地址的纸条放进了瓶子里。",
+      "role": "body"
+    },
+    {
+      "index": 5,
+      "startTime": 37.71,
+      "endTime": 41.19,
+      "en": "She threw the bottle into the sea.",
+      "zh": "她把瓶子扔进了海里。",
+      "role": "body"
+    },
+    {
+      "index": 6,
+      "startTime": 41.19,
+      "endTime": 49.93,
+      "en": "She never thought of it again, but ten months later, she received a letter from a girl in Holland.",
+      "zh": "她再也没有想起过这件事，但十个月后，她收到了一封来自荷兰女孩的信。",
+      "role": "body"
+    },
+    {
+      "index": 7,
+      "startTime": 49.93,
+      "endTime": 54.19,
+      "en": "Both girls write to each other regularly now.",
+      "zh": "现在，这两个女孩经常互相写信。",
+      "role": "body"
+    },
+    {
+      "index": 8,
+      "startTime": 54.19,
+      "endTime": 59.72,
+      "en": "However, they have decided to use the post office.",
+      "zh": "然而，她们决定用邮局寄信。",
+      "role": "body"
+    },
+    {
+      "index": 9,
+      "startTime": 59.72,
+      "endTime": null,
+      "en": "Letters will cost a little more, but they will certainly travel faster.",
+      "zh": "信件的费用会稍高一些，但它们的传递速度肯定更快。",
+      "role": "body"
+    }
+  ],
+  "audio": {
+    "fileName": "22－A Glass Envelope.mp3",
+    "sourcePath": "content/NCE-Flow/NCE2/22－A Glass Envelope.mp3",
+    "exists": true
+  },
+  "source": {
+    "repository": "NCE-Flow",
+    "lrcFileName": "22－A Glass Envelope.lrc",
+    "lrcPath": "content/NCE-Flow/NCE2/22－A Glass Envelope.lrc",
+    "sourceDataFile": "content/NCE-Flow/static/data.json",
+    "generatedAt": "2026-07-23T02:59:02+00:00",
+    "generator": "scripts/generate_nce_json.py",
+    "generatorVersion": "2.0.0",
+    "metadata": {
+      "al": "新概念英语（二）",
+      "ar": "MP3 同步字幕版（美音）",
+      "ti": "A Glass Envelope",
+      "by": "更多学习内容，请到VeryCD.com搜索“露珠”"
+    }
+  }
+}

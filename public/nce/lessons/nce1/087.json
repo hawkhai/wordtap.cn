@@ -1,0 +1,216 @@
+{
+  "schemaVersion": 1,
+  "id": "nce1-087",
+  "bookId": "nce1",
+  "bookNo": 1,
+  "lessonNo": 87,
+  "lessonRange": [
+    87,
+    88
+  ],
+  "title": "A Car Crash",
+  "titleZh": "车祸",
+  "question": "Can the mechanics repair Mr. Wood's car?",
+  "questionZh": "修车师傅们能修好伍德先生的车吗？",
+  "text": "Can the mechanics repair Mr. Wood's car?\n\nIs my car ready yet?\nI don't know, sir.\nWhat's the number of your car?\nIt's LFZ 312 G.\nWhen did you bring it to us?\nI brought it here three days ago.\nAh yes, I remember now.\nHave your mechanics finished yet?\nNo, they're still working on it.\nLet's go into the garage and have a look at it.\nIsn't that your car?\nWell, it was my car.\nDidn't you have a crash?\nThat's right.\nI drove it into a lamp-post.\nCan your mechanics repair it?\nWell, they're trying to repair it, sir.\nBut to tell you the truth, you need a new car!",
+  "bodyText": "Is my car ready yet?\nI don't know, sir.\nWhat's the number of your car?\nIt's LFZ 312 G.\nWhen did you bring it to us?\nI brought it here three days ago.\nAh yes, I remember now.\nHave your mechanics finished yet?\nNo, they're still working on it.\nLet's go into the garage and have a look at it.\nIsn't that your car?\nWell, it was my car.\nDidn't you have a crash?\nThat's right.\nI drove it into a lamp-post.\nCan your mechanics repair it?\nWell, they're trying to repair it, sir.\nBut to tell you the truth, you need a new car!",
+  "bodyTextZh": "我的车准备好了吗？\n我不知道，先生。\n您的车车牌号是多少？\n车牌号是LFZ 312 G。\n您是什么时候把车送到我们这里的？\n我三天前把车送到这里的。\n啊，对了，我现在想起来了。\n您的修车师傅们修好了吗？\n不，他们还在修呢。\n我们进去车库看看吧。\n那不是你的车吗？\n嗯，那辆车是我的。\n你不是出车祸了吗？\n没错。\n我把车撞到路灯柱上了。\n你们的机械师能修理它吗？\n嗯，他们正在尝试修理它，先生。\n但说实话，你真的需要一辆新车了！",
+  "sentences": [
+    {
+      "index": 0,
+      "startTime": 0.67,
+      "endTime": 3.07,
+      "en": "Lesson 87",
+      "zh": "第87课",
+      "role": "lesson"
+    },
+    {
+      "index": 1,
+      "startTime": 3.07,
+      "endTime": 5.54,
+      "en": "A car crash",
+      "zh": "车祸",
+      "role": "title"
+    },
+    {
+      "index": 2,
+      "startTime": 5.54,
+      "endTime": 11.39,
+      "en": "Listen to the tape then answer this question.",
+      "zh": "请听录音，然后回答以下问题：",
+      "role": "prompt"
+    },
+    {
+      "index": 3,
+      "startTime": 11.39,
+      "endTime": 17.39,
+      "en": "Can the mechanics repair Mr. Wood's car?",
+      "zh": "修车师傅们能修好伍德先生的车吗？",
+      "role": "question"
+    },
+    {
+      "index": 4,
+      "startTime": 17.39,
+      "endTime": 20.12,
+      "en": "Is my car ready yet?",
+      "zh": "我的车准备好了吗？",
+      "role": "body"
+    },
+    {
+      "index": 5,
+      "startTime": 20.12,
+      "endTime": 22.27,
+      "en": "I don't know, sir.",
+      "zh": "我不知道，先生。",
+      "role": "body"
+    },
+    {
+      "index": 6,
+      "startTime": 22.27,
+      "endTime": 25.57,
+      "en": "What's the number of your car?",
+      "zh": "您的车车牌号是多少？",
+      "role": "body"
+    },
+    {
+      "index": 7,
+      "startTime": 25.57,
+      "endTime": 32.18,
+      "en": "It's LFZ 312 G.",
+      "zh": "车牌号是LFZ 312 G。",
+      "role": "body"
+    },
+    {
+      "index": 8,
+      "startTime": 32.18,
+      "endTime": 35.4,
+      "en": "When did you bring it to us?",
+      "zh": "您是什么时候把车送到我们这里的？",
+      "role": "body"
+    },
+    {
+      "index": 9,
+      "startTime": 35.4,
+      "endTime": 39.11,
+      "en": "I brought it here three days ago.",
+      "zh": "我三天前把车送到这里的。",
+      "role": "body"
+    },
+    {
+      "index": 10,
+      "startTime": 39.11,
+      "endTime": 42.95,
+      "en": "Ah yes, I remember now.",
+      "zh": "啊，对了，我现在想起来了。",
+      "role": "body"
+    },
+    {
+      "index": 11,
+      "startTime": 42.95,
+      "endTime": 46.27,
+      "en": "Have your mechanics finished yet?",
+      "zh": "您的修车师傅们修好了吗？",
+      "role": "body"
+    },
+    {
+      "index": 12,
+      "startTime": 46.27,
+      "endTime": 49.56,
+      "en": "No, they're still working on it.",
+      "zh": "不，他们还在修呢。",
+      "role": "body"
+    },
+    {
+      "index": 13,
+      "startTime": 49.56,
+      "endTime": 55.76,
+      "en": "Let's go into the garage and have a look at it.",
+      "zh": "我们进去车库看看吧。",
+      "role": "body"
+    },
+    {
+      "index": 14,
+      "startTime": 55.76,
+      "endTime": 58.75,
+      "en": "Isn't that your car?",
+      "zh": "那不是你的车吗？",
+      "role": "body"
+    },
+    {
+      "index": 15,
+      "startTime": 58.75,
+      "endTime": 62.54,
+      "en": "Well, it was my car.",
+      "zh": "嗯，那辆车是我的。",
+      "role": "body"
+    },
+    {
+      "index": 16,
+      "startTime": 62.54,
+      "endTime": 65.23,
+      "en": "Didn't you have a crash?",
+      "zh": "你不是出车祸了吗？",
+      "role": "body"
+    },
+    {
+      "index": 17,
+      "startTime": 65.23,
+      "endTime": 66.95,
+      "en": "That's right.",
+      "zh": "没错。",
+      "role": "body"
+    },
+    {
+      "index": 18,
+      "startTime": 66.95,
+      "endTime": 70.4,
+      "en": "I drove it into a lamp-post.",
+      "zh": "我把车撞到路灯柱上了。",
+      "role": "body"
+    },
+    {
+      "index": 19,
+      "startTime": 70.4,
+      "endTime": 73.54,
+      "en": "Can your mechanics repair it?",
+      "zh": "你们的机械师能修理它吗？",
+      "role": "body"
+    },
+    {
+      "index": 20,
+      "startTime": 73.54,
+      "endTime": 77.02,
+      "en": "Well, they're trying to repair it, sir.",
+      "zh": "嗯，他们正在尝试修理它，先生。",
+      "role": "body"
+    },
+    {
+      "index": 21,
+      "startTime": 77.02,
+      "endTime": null,
+      "en": "But to tell you the truth, you need a new car!",
+      "zh": "但说实话，你真的需要一辆新车了！",
+      "role": "body"
+    }
+  ],
+  "audio": {
+    "fileName": "087&088－A Car Crash.mp3",
+    "sourcePath": "content/NCE-Flow/NCE1/087&088－A Car Crash.mp3",
+    "exists": true
+  },
+  "source": {
+    "repository": "NCE-Flow",
+    "lrcFileName": "087&088－A Car Crash.lrc",
+    "lrcPath": "content/NCE-Flow/NCE1/087&088－A Car Crash.lrc",
+    "sourceDataFile": "content/NCE-Flow/static/data.json",
+    "generatedAt": "2026-07-23T02:59:02+00:00",
+    "generator": "scripts/generate_nce_json.py",
+    "generatorVersion": "2.0.0",
+    "metadata": {
+      "al": "新概念英语（一）",
+      "ar": "MP3 同步字幕版（美音）",
+      "ti": "A Car Crash",
+      "by": "更多学习内容，请到VeryCD.com搜索“露珠”"
+    }
+  }
+}

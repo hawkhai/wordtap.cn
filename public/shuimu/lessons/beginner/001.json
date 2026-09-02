@@ -1,0 +1,360 @@
+{
+  "schemaVersion": 1,
+  "id": "beginner-001",
+  "levelId": "beginner",
+  "unitNo": 1,
+  "title": "【对话场景】询问与感谢",
+  "jsonPath": "shuimu/lessons/beginner/001.json",
+  "text": "第一单元\n第一课\n【对话场景】询问与感谢\n——Excuse me!\n不好意思，打扰一下！\n——Yes?\n怎么了？\n——Is this your handbag?\n这是你的手提包吗？\n——Pardon?\n对不起，我没听清楚。\n——Is this your handbag?\n这是你的手提包吗？\n——Yes, it is.\n是的，是我的手提包。\nThank you very much.\n非常感谢！\n• Excuse me 的含义\n◦ 询问陌生人：用 Excuse me 开场白=不好意思，请问······\n▪ 询问熟人：直接用姓名，如 Mary, is this...\n◦ 道歉=sorry\n◦ 表达“你在逗我吗？”=Seriously?\n◦ 打断别人\n◦ 会议或用餐中途退出\n◦ 请求帮助=劳驾\n• Pardon?\n◦ （用于请求别人重复某事）什么，请再说一遍\n◦ 美国英语常用 pardon me?\n◦ 还有赦免，宽恕的意思\n◦ I beg your pardon 可以表示非常生气，感到被冒犯，也可以表示非常诚恳\n地请求原谅\n◦ 有时候相当于 excuse me\n• Thank you!谢谢你！\n◦ =Thanks.熟人之间，语气更随便\n◦ 可以用 very much 修饰，表示非常感谢=Thanks a lot.\n◦ 回应可以用 You are welcome，或以下几种\n▪ My pleasure.（绅士）\n▪ Anytime.（礼貌）\n▪ Don't mention it.别见外。\n▪ No worries. 小事儿。=No sweat.\n▪ Not at all.一点都不麻烦。=Not a problem.\n▪ Sure thing.这有啥\n第二课\n【语法点拨】神奇的主系表\n• 常见的句子是由主语（S）+谓语（V）+宾语（O）组成的。\n主语：Subject=S\n谓语：Verb=V\n宾语：Object=O\nI go to school.\n我 去 学校\n主语 谓语 宾语\nI eat bananas.\n我 吃 香蕉\n主语 谓语 宾语\n• 动词可以分为实义动词、系动词、情态动词和助动词。\n系动词：be（am, is, are），功能强大，但不能单独作谓语。需和表语连用。\n• I am, you are, he/she/it is\nI am a student.\n我 是 一名学生\n主语 系动词 表语 表语补充主语的身份\nIt is a handbag.\n它 是 一只手提包\n主语 系动词 表语 表语点明主语的实体\n第三课\n【单词串烧】\n• excuse [ɪkˈskju:z] vt. 原谅 n. 借口，托辞\n• me [miː] pron. 我（宾格）\n• yes [jes] adv.是；是的\n• is [ɪz] v.是（be 的第三人称单数一般现在时）\n• this [ðɪs] pron. 这，这个;这事，这人;这时;下面所说的事\n• your [jɔ:(r)] adj.你的；你们的\n• handbag['hæn(d)bæg] n.手提包\n• pardon [ˈpɑːdn] v. 原谅\n• it [ɪt] pron. 它;他\n• thank you [ θæŋk ju: ] 谢谢\n• very much [ ˈveri mʌtʃ ] 非常\n• pen [pen]钢笔\n• pencil ['pens(ə)l]铅笔\n• book[bʊk]书\n• watch[wɒtʃ] 手表\n• coat[kəʊt] 上衣，外衣\n• dress [dres]连衣裙\n• skirt[skɜːt] 裙子\n• shirt[ʃɜːt]衬衣\n• car[kɑː] 小汽车\n• house[haʊs]房子",
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "第一单元"
+    },
+    {
+      "type": "heading",
+      "text": "第一课"
+    },
+    {
+      "type": "heading",
+      "text": "【对话场景】询问与感谢"
+    },
+    {
+      "type": "paragraph",
+      "text": "——Excuse me!"
+    },
+    {
+      "type": "paragraph",
+      "text": "不好意思，打扰一下！"
+    },
+    {
+      "type": "paragraph",
+      "text": "——Yes?"
+    },
+    {
+      "type": "paragraph",
+      "text": "怎么了？"
+    },
+    {
+      "type": "paragraph",
+      "text": "——Is this your handbag?"
+    },
+    {
+      "type": "paragraph",
+      "text": "这是你的手提包吗？"
+    },
+    {
+      "type": "paragraph",
+      "text": "——Pardon?"
+    },
+    {
+      "type": "paragraph",
+      "text": "对不起，我没听清楚。"
+    },
+    {
+      "type": "paragraph",
+      "text": "——Is this your handbag?"
+    },
+    {
+      "type": "paragraph",
+      "text": "这是你的手提包吗？"
+    },
+    {
+      "type": "paragraph",
+      "text": "——Yes, it is."
+    },
+    {
+      "type": "paragraph",
+      "text": "是的，是我的手提包。"
+    },
+    {
+      "type": "paragraph",
+      "text": "Thank you very much."
+    },
+    {
+      "type": "paragraph",
+      "text": "非常感谢！"
+    },
+    {
+      "type": "list",
+      "text": "• Excuse me 的含义"
+    },
+    {
+      "type": "list",
+      "text": "◦ 询问陌生人：用 Excuse me 开场白=不好意思，请问······"
+    },
+    {
+      "type": "list",
+      "text": "▪ 询问熟人：直接用姓名，如 Mary, is this..."
+    },
+    {
+      "type": "list",
+      "text": "◦ 道歉=sorry"
+    },
+    {
+      "type": "list",
+      "text": "◦ 表达“你在逗我吗？”=Seriously?"
+    },
+    {
+      "type": "list",
+      "text": "◦ 打断别人"
+    },
+    {
+      "type": "list",
+      "text": "◦ 会议或用餐中途退出"
+    },
+    {
+      "type": "list",
+      "text": "◦ 请求帮助=劳驾"
+    },
+    {
+      "type": "list",
+      "text": "• Pardon?"
+    },
+    {
+      "type": "list",
+      "text": "◦ （用于请求别人重复某事）什么，请再说一遍"
+    },
+    {
+      "type": "list",
+      "text": "◦ 美国英语常用 pardon me?"
+    },
+    {
+      "type": "list",
+      "text": "◦ 还有赦免，宽恕的意思"
+    },
+    {
+      "type": "list",
+      "text": "◦ I beg your pardon 可以表示非常生气，感到被冒犯，也可以表示非常诚恳"
+    },
+    {
+      "type": "paragraph",
+      "text": "地请求原谅"
+    },
+    {
+      "type": "list",
+      "text": "◦ 有时候相当于 excuse me"
+    },
+    {
+      "type": "list",
+      "text": "• Thank you!谢谢你！"
+    },
+    {
+      "type": "list",
+      "text": "◦ =Thanks.熟人之间，语气更随便"
+    },
+    {
+      "type": "list",
+      "text": "◦ 可以用 very much 修饰，表示非常感谢=Thanks a lot."
+    },
+    {
+      "type": "list",
+      "text": "◦ 回应可以用 You are welcome，或以下几种"
+    },
+    {
+      "type": "list",
+      "text": "▪ My pleasure.（绅士）"
+    },
+    {
+      "type": "list",
+      "text": "▪ Anytime.（礼貌）"
+    },
+    {
+      "type": "list",
+      "text": "▪ Don't mention it.别见外。"
+    },
+    {
+      "type": "list",
+      "text": "▪ No worries. 小事儿。=No sweat."
+    },
+    {
+      "type": "list",
+      "text": "▪ Not at all.一点都不麻烦。=Not a problem."
+    },
+    {
+      "type": "list",
+      "text": "▪ Sure thing.这有啥"
+    },
+    {
+      "type": "heading",
+      "text": "第二课"
+    },
+    {
+      "type": "heading",
+      "text": "【语法点拨】神奇的主系表"
+    },
+    {
+      "type": "list",
+      "text": "• 常见的句子是由主语（S）+谓语（V）+宾语（O）组成的。"
+    },
+    {
+      "type": "paragraph",
+      "text": "主语：Subject=S"
+    },
+    {
+      "type": "paragraph",
+      "text": "谓语：Verb=V"
+    },
+    {
+      "type": "paragraph",
+      "text": "宾语：Object=O"
+    },
+    {
+      "type": "paragraph",
+      "text": "I go to school."
+    },
+    {
+      "type": "paragraph",
+      "text": "我 去 学校"
+    },
+    {
+      "type": "paragraph",
+      "text": "主语 谓语 宾语"
+    },
+    {
+      "type": "paragraph",
+      "text": "I eat bananas."
+    },
+    {
+      "type": "paragraph",
+      "text": "我 吃 香蕉"
+    },
+    {
+      "type": "paragraph",
+      "text": "主语 谓语 宾语"
+    },
+    {
+      "type": "list",
+      "text": "• 动词可以分为实义动词、系动词、情态动词和助动词。"
+    },
+    {
+      "type": "paragraph",
+      "text": "系动词：be（am, is, are），功能强大，但不能单独作谓语。需和表语连用。"
+    },
+    {
+      "type": "list",
+      "text": "• I am, you are, he/she/it is"
+    },
+    {
+      "type": "paragraph",
+      "text": "I am a student."
+    },
+    {
+      "type": "paragraph",
+      "text": "我 是 一名学生"
+    },
+    {
+      "type": "paragraph",
+      "text": "主语 系动词 表语 表语补充主语的身份"
+    },
+    {
+      "type": "paragraph",
+      "text": "It is a handbag."
+    },
+    {
+      "type": "paragraph",
+      "text": "它 是 一只手提包"
+    },
+    {
+      "type": "paragraph",
+      "text": "主语 系动词 表语 表语点明主语的实体"
+    },
+    {
+      "type": "heading",
+      "text": "第三课"
+    },
+    {
+      "type": "heading",
+      "text": "【单词串烧】"
+    },
+    {
+      "type": "list",
+      "text": "• excuse [ɪkˈskju:z] vt. 原谅 n. 借口，托辞"
+    },
+    {
+      "type": "list",
+      "text": "• me [miː] pron. 我（宾格）"
+    },
+    {
+      "type": "list",
+      "text": "• yes [jes] adv.是；是的"
+    },
+    {
+      "type": "list",
+      "text": "• is [ɪz] v.是（be 的第三人称单数一般现在时）"
+    },
+    {
+      "type": "list",
+      "text": "• this [ðɪs] pron. 这，这个;这事，这人;这时;下面所说的事"
+    },
+    {
+      "type": "list",
+      "text": "• your [jɔ:(r)] adj.你的；你们的"
+    },
+    {
+      "type": "list",
+      "text": "• handbag['hæn(d)bæg] n.手提包"
+    },
+    {
+      "type": "list",
+      "text": "• pardon [ˈpɑːdn] v. 原谅"
+    },
+    {
+      "type": "list",
+      "text": "• it [ɪt] pron. 它;他"
+    },
+    {
+      "type": "list",
+      "text": "• thank you [ θæŋk ju: ] 谢谢"
+    },
+    {
+      "type": "list",
+      "text": "• very much [ ˈveri mʌtʃ ] 非常"
+    },
+    {
+      "type": "list",
+      "text": "• pen [pen]钢笔"
+    },
+    {
+      "type": "list",
+      "text": "• pencil ['pens(ə)l]铅笔"
+    },
+    {
+      "type": "list",
+      "text": "• book[bʊk]书"
+    },
+    {
+      "type": "list",
+      "text": "• watch[wɒtʃ] 手表"
+    },
+    {
+      "type": "list",
+      "text": "• coat[kəʊt] 上衣，外衣"
+    },
+    {
+      "type": "list",
+      "text": "• dress [dres]连衣裙"
+    },
+    {
+      "type": "list",
+      "text": "• skirt[skɜːt] 裙子"
+    },
+    {
+      "type": "list",
+      "text": "• shirt[ʃɜːt]衬衣"
+    },
+    {
+      "type": "list",
+      "text": "• car[kɑː] 小汽车"
+    },
+    {
+      "type": "list",
+      "text": "• house[haʊs]房子"
+    }
+  ],
+  "videos": [],
+  "source": {
+    "fileName": "英语零基础初级讲义.txt",
+    "kind": "PDF 校对后的转换文本"
+  }
+}

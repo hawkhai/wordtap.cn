@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "id": "pephr1-005",
+  "groupId": "pephr1",
+  "unitNo": 1,
+  "sequenceNo": 5,
+  "section": "Reading for Writing",
+  "title": "Advice for a Worried Friend",
+  "jsonPath": "pep-english/lessons/pephr1/005.json",
+  "text": "10 September 2018\nDear Worried Friend,\nYou wrote that you are very worried about your friend, Chen Lei. I understand quite well that you are anxious and feel terrible. You think that your friend plays computer games too often and spends too much time online.\nI recommend that you talk to your friend about his behaviour. It is not unusual for teenagers of your generation to be attracted to computer games and the online world. But spending too much time online is unhealthy and makes it very difficult to focus on other things in life. Some students even become addicted to the Internet and cannot concentrate on school and family life. I think you should encourage your friend to try new hobbies. Why not discuss the problem together? I am sure he will listen to you, since you are his good friend.\nAll the best, Susan Luo",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "10 September 2018"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Dear Worried Friend,"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "You wrote that you are very worried about your friend, Chen Lei. I understand quite well that you are anxious and feel terrible. You think that your friend plays computer games too often and spends too much time online."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "I recommend that you talk to your friend about his behaviour. It is not unusual for teenagers of your generation to be attracted to computer games and the online world. But spending too much time online is unhealthy and makes it very difficult to focus on other things in life. Some students even become addicted to the Internet and cannot concentrate on school and family life. I think you should encourage your friend to try new hobbies. Why not discuss the problem together? I am sure he will listen to you, since you are his good friend."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "All the best, Susan Luo"
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "必修第一册",
+    "pageStart": 25,
+    "pageEnd": 25,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "e0bf18138b24d7def28b35994a13946b",
+    "pdfSize": 14704146,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/senior-required-1.pdf#page=25",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored the complete advice letter with date, greeting, both body paragraphs, close and signature; removed structural callouts, introductory instruction, discussion questions and language-analysis exercises."
+    }
+  }
+}

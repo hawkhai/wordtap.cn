@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "id": "pepj8a-022",
+  "groupId": "pepj8a",
+  "unitNo": 9,
+  "sequenceNo": 22,
+  "section": "Section A",
+  "title": "Jeff Invites Nick to Meet Sam",
+  "jsonPath": "pep-english/lessons/pepj8a/022.json",
+  "text": "Jeff: Hey, Nick, can you come to my house on Saturday? My cousin Sam from Xi'an is going to be here.\nNick: Oh, Sam! I remember we went bike riding together last fall when he visited you.\nJeff: Yes, that's right.\nNick: I'd love to come, but I'm afraid I can't. I have an exam on Monday so I must prepare for it.\nJeff: That's really too bad! Oh, but Sam isn't leaving until next Wednesday. Can you hang out with us on Monday night?\nNick: Sure! Catch you on Monday!",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Jeff: Hey, Nick, can you come to my house on Saturday? My cousin Sam from Xi'an is going to be here."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Nick: Oh, Sam! I remember we went bike riding together last fall when he visited you."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Jeff: Yes, that's right."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Nick: I'd love to come, but I'm afraid I can't. I have an exam on Monday so I must prepare for it."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Jeff: That's really too bad! Oh, but Sam isn't leaving until next Wednesday. Can you hang out with us on Monday night?"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Nick: Sure! Catch you on Monday!"
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "初中",
+    "book": "八年级上册",
+    "pageStart": 77,
+    "pageEnd": 77,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "24fcd352dca21a6ee547539f550ed35c",
+    "pdfSize": 9469090,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/junior-8a.pdf#page=77",
+      "reviewedAt": "2026-07-22",
+      "notes": "Retained only the complete 2d role-play, restored all six turns and assigned a descriptive title; excluded listening/chart activities and the 2c model."
+    }
+  }
+}

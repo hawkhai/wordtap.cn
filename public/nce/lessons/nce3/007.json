@@ -1,0 +1,183 @@
+{
+  "schemaVersion": 1,
+  "id": "nce3-007",
+  "bookId": "nce3",
+  "bookNo": 3,
+  "lessonNo": 7,
+  "lessonRange": [
+    7
+  ],
+  "title": "Mutilated Ladies",
+  "titleZh": "残币清点小组",
+  "question": "Why did Jane cook John's wallet?",
+  "questionZh": "简为什么把约翰的钱包煮了？",
+  "text": "Why did Jane cook John's wallet?\n\nHas it ever happened to you?\nHave you ever put your trousers in the washing machine and then remembered there was a large bank note in your back pocket?\nWhen you rescued your trousers, did you find the note was whiter than white?\nPeople who live in Britain needn't despair when they make mistakes like this (and a lot of people do)!\nFortunately for them, the Bank of England has a team called Mutilated Ladies which deals with claims from people who fed their money to a machine or to their dog.\nDogs, it seems, love to chew up money!\nA recent case concerns Jane Butlin whose fiance, John, runs a successful furniture business.\nJohn had a very good day and put his wallet containing ￡3, 000 into the microwave oven for safekeeping.\nThen he and Jane went horse-riding.\nWhen they got home, Jane cooked their dinner in the microwave oven and without realizing it, cooked her fiance's wallet as well.\nImagine their dismay when they found a beautifully-cooked wallet and notes turned to ash!\nJohn went to see his bank manager who sent the remains of wallet and the money to the special department of the Bank of England in Newcastle: the Mutilated Ladies!\nThey examined the remains and John got all his money back.\n'So long as there's something to identify, we will give people their money back,' said a spokeswoman for the Bank.\n'Last year, we paid ￡1.5 million on 21,000 claims.'",
+  "bodyText": "Has it ever happened to you?\nHave you ever put your trousers in the washing machine and then remembered there was a large bank note in your back pocket?\nWhen you rescued your trousers, did you find the note was whiter than white?\nPeople who live in Britain needn't despair when they make mistakes like this (and a lot of people do)!\nFortunately for them, the Bank of England has a team called Mutilated Ladies which deals with claims from people who fed their money to a machine or to their dog.\nDogs, it seems, love to chew up money!\nA recent case concerns Jane Butlin whose fiance, John, runs a successful furniture business.\nJohn had a very good day and put his wallet containing ￡3, 000 into the microwave oven for safekeeping.\nThen he and Jane went horse-riding.\nWhen they got home, Jane cooked their dinner in the microwave oven and without realizing it, cooked her fiance's wallet as well.\nImagine their dismay when they found a beautifully-cooked wallet and notes turned to ash!\nJohn went to see his bank manager who sent the remains of wallet and the money to the special department of the Bank of England in Newcastle: the Mutilated Ladies!\nThey examined the remains and John got all his money back.\n'So long as there's something to identify, we will give people their money back,' said a spokeswoman for the Bank.\n'Last year, we paid ￡1.5 million on 21,000 claims.'",
+  "bodyTextZh": "你有没有遇到过这种事？\n你是否曾经把裤子放进洗衣机，后来才想起后口袋里还有一张大面额的钞票？\n当你把裤子取出来时，发现那张钞票已经变得雪白一片了……\n生活在英国的人们遇到这种错误时不必绝望（其实很多人都遇到过这种情况！）\n幸运的是，英格兰银行有一个名为“残币清点小组”的专门部门这个部门负责处理那些把钱喂给机器或狗的人的索赔申请\n看来，狗确实很喜欢咬钱啊！\n最近有一个案例与简·巴特林有关：她的未婚夫约翰经营着一家成功的家具公司。\n约翰那天生意很好，为了安全起见，他把装有3000英镑的钱包放进了微波炉里保管\n然后他和简一起去骑马了。\n当他们回到家后，简用微波炉做晚饭，不知不觉中，她把未婚夫的钱包也一起加热了\n可以想象他们当时有多沮丧：当他们发现钱包被烤得焦黑，钞票都变成了灰烬时\n约翰去找他的银行经理，经理把钱包和钱的残骸送到了位于纽卡斯尔的英格兰银行特别部门——残币清点小组！\n他们检查了这些残骸，约翰拿回了全部的钱\n“只要还能辨认出是什么，我们就会把钱退还给客户，”银行的一位女发言人说\n去年，我们为21,000起索赔支付了150万英镑。",
+  "sentences": [
+    {
+      "index": 0,
+      "startTime": 0.24,
+      "endTime": 1.89,
+      "en": "Lesson 7",
+      "zh": "第7课",
+      "role": "lesson"
+    },
+    {
+      "index": 1,
+      "startTime": 1.89,
+      "endTime": 8.69,
+      "en": "Mutilated Ladies",
+      "zh": "残币清点小组",
+      "role": "title"
+    },
+    {
+      "index": 2,
+      "startTime": 8.69,
+      "endTime": 12.78,
+      "en": "Why did Jane cook John's wallet?",
+      "zh": "简为什么把约翰的钱包煮了？",
+      "role": "question"
+    },
+    {
+      "index": 3,
+      "startTime": 12.78,
+      "endTime": 15.17,
+      "en": "Has it ever happened to you?",
+      "zh": "你有没有遇到过这种事？",
+      "role": "body"
+    },
+    {
+      "index": 4,
+      "startTime": 15.17,
+      "endTime": 23.29,
+      "en": "Have you ever put your trousers in the washing machine and then remembered there was a large bank note in your back pocket?",
+      "zh": "你是否曾经把裤子放进洗衣机，后来才想起后口袋里还有一张大面额的钞票？",
+      "role": "body"
+    },
+    {
+      "index": 5,
+      "startTime": 23.29,
+      "endTime": 29.1,
+      "en": "When you rescued your trousers, did you find the note was whiter than white?",
+      "zh": "当你把裤子取出来时，发现那张钞票已经变得雪白一片了……",
+      "role": "body"
+    },
+    {
+      "index": 6,
+      "startTime": 29.1,
+      "endTime": 36.62,
+      "en": "People who live in Britain needn't despair when they make mistakes like this (and a lot of people do)!",
+      "zh": "生活在英国的人们遇到这种错误时不必绝望（其实很多人都遇到过这种情况！）",
+      "role": "body"
+    },
+    {
+      "index": 7,
+      "startTime": 36.62,
+      "endTime": 48.62,
+      "en": "Fortunately for them, the Bank of England has a team called Mutilated Ladies which deals with claims from people who fed their money to a machine or to their dog.",
+      "zh": "幸运的是，英格兰银行有一个名为“残币清点小组”的专门部门这个部门负责处理那些把钱喂给机器或狗的人的索赔申请",
+      "role": "body"
+    },
+    {
+      "index": 8,
+      "startTime": 48.62,
+      "endTime": 52.94,
+      "en": "Dogs, it seems, love to chew up money!",
+      "zh": "看来，狗确实很喜欢咬钱啊！",
+      "role": "body"
+    },
+    {
+      "index": 9,
+      "startTime": 52.94,
+      "endTime": 61.06,
+      "en": "A recent case concerns Jane Butlin whose fiance, John, runs a successful furniture business.",
+      "zh": "最近有一个案例与简·巴特林有关：她的未婚夫约翰经营着一家成功的家具公司。",
+      "role": "body"
+    },
+    {
+      "index": 10,
+      "startTime": 61.06,
+      "endTime": 69.99,
+      "en": "John had a very good day and put his wallet containing ￡3, 000 into the microwave oven for safekeeping.",
+      "zh": "约翰那天生意很好，为了安全起见，他把装有3000英镑的钱包放进了微波炉里保管",
+      "role": "body"
+    },
+    {
+      "index": 11,
+      "startTime": 69.99,
+      "endTime": 72.63,
+      "en": "Then he and Jane went horse-riding.",
+      "zh": "然后他和简一起去骑马了。",
+      "role": "body"
+    },
+    {
+      "index": 12,
+      "startTime": 72.63,
+      "endTime": 82.99,
+      "en": "When they got home, Jane cooked their dinner in the microwave oven and without realizing it, cooked her fiance's wallet as well.",
+      "zh": "当他们回到家后，简用微波炉做晚饭，不知不觉中，她把未婚夫的钱包也一起加热了",
+      "role": "body"
+    },
+    {
+      "index": 13,
+      "startTime": 82.99,
+      "endTime": 91.09,
+      "en": "Imagine their dismay when they found a beautifully-cooked wallet and notes turned to ash!",
+      "zh": "可以想象他们当时有多沮丧：当他们发现钱包被烤得焦黑，钞票都变成了灰烬时",
+      "role": "body"
+    },
+    {
+      "index": 14,
+      "startTime": 91.09,
+      "endTime": 102.82,
+      "en": "John went to see his bank manager who sent the remains of wallet and the money to the special department of the Bank of England in Newcastle: the Mutilated Ladies!",
+      "zh": "约翰去找他的银行经理，经理把钱包和钱的残骸送到了位于纽卡斯尔的英格兰银行特别部门——残币清点小组！",
+      "role": "body"
+    },
+    {
+      "index": 15,
+      "startTime": 102.82,
+      "endTime": 108.33,
+      "en": "They examined the remains and John got all his money back.",
+      "zh": "他们检查了这些残骸，约翰拿回了全部的钱",
+      "role": "body"
+    },
+    {
+      "index": 16,
+      "startTime": 108.33,
+      "endTime": 116.56,
+      "en": "'So long as there's something to identify, we will give people their money back,' said a spokeswoman for the Bank.",
+      "zh": "“只要还能辨认出是什么，我们就会把钱退还给客户，”银行的一位女发言人说",
+      "role": "body"
+    },
+    {
+      "index": 17,
+      "startTime": 116.56,
+      "endTime": null,
+      "en": "'Last year, we paid ￡1.5 million on 21,000 claims.'",
+      "zh": "去年，我们为21,000起索赔支付了150万英镑。",
+      "role": "body"
+    }
+  ],
+  "audio": {
+    "fileName": "07－Mutilated Ladies.mp3",
+    "sourcePath": "content/NCE-Flow/NCE3/07－Mutilated Ladies.mp3",
+    "exists": true
+  },
+  "source": {
+    "repository": "NCE-Flow",
+    "lrcFileName": "07－Mutilated Ladies.lrc",
+    "lrcPath": "content/NCE-Flow/NCE3/07－Mutilated Ladies.lrc",
+    "sourceDataFile": "content/NCE-Flow/static/data.json",
+    "generatedAt": "2026-07-23T02:59:02+00:00",
+    "generator": "scripts/generate_nce_json.py",
+    "generatorVersion": "2.0.0",
+    "metadata": {
+      "al": "新概念英语（三）",
+      "ar": "MP3 同步字幕版（美音）",
+      "ti": "Mutilated Ladies",
+      "by": "更多学习内容，请到VeryCD.com搜索“露珠”"
+    }
+  }
+}

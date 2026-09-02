@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "id": "pepj8b-002",
+  "groupId": "pepj8b",
+  "unitNo": 2,
+  "sequenceNo": 2,
+  "section": "Section A",
+  "title": "Students Who Volunteer",
+  "jsonPath": "pep-english/lessons/pepj8b/002.json",
+  "text": "Mario Green and Mary Brown from Riverside High School give up several hours each week to help others.\nMario loves animals and wants to be an animal doctor. He volunteers at an animal hospital every Saturday morning. Mario believes it can help him to get his future dream job. \"It's hard work,\" he says, \"but I want to learn more about how to care for animals. I get such a strong feeling of satisfaction when I see the animals get better and the look of joy on their owners' faces.\"\nMary is a book lover. She could read by herself at the age of four. Last year, she decided to try out for a volunteer after-school reading program. She still works there once a week to help kids learn to read. \"The kids are sitting in the library, but you can see in their eyes that they're going on a different journey with each new book. Volunteering here is a dream come true for me. I can do what I love to do and help others at the same time.\"",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Mario Green and Mary Brown from Riverside High School give up several hours each week to help others."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Mario loves animals and wants to be an animal doctor. He volunteers at an animal hospital every Saturday morning. Mario believes it can help him to get his future dream job. \"It's hard work,\" he says, \"but I want to learn more about how to care for animals. I get such a strong feeling of satisfaction when I see the animals get better and the look of joy on their owners' faces.\""
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Mary is a book lover. She could read by herself at the age of four. Last year, she decided to try out for a volunteer after-school reading program. She still works there once a week to help kids learn to read. \"The kids are sitting in the library, but you can see in their eyes that they're going on a different journey with each new book. Volunteering here is a dream come true for me. I can do what I love to do and help others at the same time.\""
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "初中",
+    "book": "八年级下册",
+    "pageStart": 20,
+    "pageEnd": 20,
+    "extractionMode": "ocr",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "21d35e04f1c22b74a3fe3e95e88adff9",
+    "pdfSize": 18208880,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/junior-8b.pdf#page=20",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored the introductory paragraph and both complete volunteer profiles with quotations, and excluded 3a instructions plus activities 3b-3c."
+    }
+  }
+}

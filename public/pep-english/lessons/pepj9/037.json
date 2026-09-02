@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "pepj9-037",
+  "groupId": "pepj9",
+  "unitNo": 12,
+  "sequenceNo": 37,
+  "section": "Section A",
+  "title": "Why Kevin Was Late for Class",
+  "jsonPath": "pep-english/lessons/pepj9/037.json",
+  "text": "Matt: Why were you late for class today, Kevin?\nKevin: My alarm clock didn't go off! I kept sleeping, and when I woke up it was already 8:00 a.m.!\nMatt: Oh, no!\nKevin: So I just quickly put on some clothes and rushed out of the door.\nMatt: You didn't eat breakfast?\nKevin: No, I didn't even brush my teeth or wash my face! But before I got to the bus stop, the bus had already left.\nMatt: Then how did you get here?\nKevin: Luckily, Carl's dad saw me on the street and gave me a lift in his car.\nMatt: Well, at least by the time you got to school, you were only five minutes late for class.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Matt: Why were you late for class today, Kevin?\nKevin: My alarm clock didn't go off! I kept sleeping, and when I woke up it was already 8:00 a.m.!\nMatt: Oh, no!\nKevin: So I just quickly put on some clothes and rushed out of the door.\nMatt: You didn't eat breakfast?\nKevin: No, I didn't even brush my teeth or wash my face! But before I got to the bus stop, the bus had already left.\nMatt: Then how did you get here?\nKevin: Luckily, Carl's dad saw me on the street and gave me a lift in his car.\nMatt: Well, at least by the time you got to school, you were only five minutes late for class."
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "初中",
+    "book": "九年级全一册",
+    "pageStart": 104,
+    "pageEnd": 104,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "c6e628c22e0c2f9cfe4547699a1c95a4",
+    "pdfSize": 11088578,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/junior-9.pdf#page=104",
+      "reviewedAt": "2026-07-22",
+      "notes": "Retained only the complete 2d Matt-Kevin role-play explaining Kevin's late arrival; excluded the 2a picture ordering, 2b verb blanks, open-ended 2c prompt and instructions."
+    }
+  }
+}

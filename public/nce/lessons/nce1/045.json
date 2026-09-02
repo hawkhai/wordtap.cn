@@ -1,0 +1,216 @@
+{
+  "schemaVersion": 1,
+  "id": "nce1-045",
+  "bookId": "nce1",
+  "bookNo": 1,
+  "lessonNo": 45,
+  "lessonRange": [
+    45,
+    46
+  ],
+  "title": "The Boss's Letter",
+  "titleZh": "老板的信",
+  "question": "Why can't Pamela type the letter?",
+  "questionZh": "为什么帕梅打不了这封信呢？",
+  "text": "Why can't Pamela type the letter?\n\nCan you come here a minute please, Bob?\nYes, sir?\nWhere's Pamela?\nShe's next door.\nShe's in her office, sir.\nCan she type this letter for me?\nAsk her please.\nYes, sir.\nCan you type this letter for the boss please, Pamela?\nYes, of course I can.\nHere you are.\nThank you, Bob.\nBob!\nYes?\nWhat's the matter?\nI can't type this letter.\nI can't read it!\nThe boss's handwriting is terrible!",
+  "bodyText": "Can you come here a minute please, Bob?\nYes, sir?\nWhere's Pamela?\nShe's next door.\nShe's in her office, sir.\nCan she type this letter for me?\nAsk her please.\nYes, sir.\nCan you type this letter for the boss please, Pamela?\nYes, of course I can.\nHere you are.\nThank you, Bob.\nBob!\nYes?\nWhat's the matter?\nI can't type this letter.\nI can't read it!\nThe boss's handwriting is terrible!",
+  "bodyTextZh": "鲍勃，你能过来一下吗？\n先生，有什么事吗？\n帕梅拉在哪里？\n她在隔壁。\n她现在在她的办公室里，先生。\n她能帮我打这封信吗？\n请去问她。\n是的，先生。\n帕梅拉，你能帮老板把这封信打出来吗？\n当然可以。\n给你。\n谢谢你，鲍勃。\n鲍勃！\n怎么了？\n怎么了？\n我打不了这封信。\n我看不懂！\n老板的笔迹太糟糕了！",
+  "sentences": [
+    {
+      "index": 0,
+      "startTime": 0.31,
+      "endTime": 3.02,
+      "en": "Lesson 45",
+      "zh": "第45课",
+      "role": "lesson"
+    },
+    {
+      "index": 1,
+      "startTime": 3.02,
+      "endTime": 6.17,
+      "en": "The boss's letter",
+      "zh": "老板的信",
+      "role": "title"
+    },
+    {
+      "index": 2,
+      "startTime": 6.17,
+      "endTime": 11.91,
+      "en": "Listen to the tape then answer this question.",
+      "zh": "先听这段录音，然后再回答这个问题。",
+      "role": "prompt"
+    },
+    {
+      "index": 3,
+      "startTime": 11.91,
+      "endTime": 17.66,
+      "en": "Why can't Pamela type the letter?",
+      "zh": "为什么帕梅打不了这封信呢？",
+      "role": "question"
+    },
+    {
+      "index": 4,
+      "startTime": 17.66,
+      "endTime": 21.77,
+      "en": "Can you come here a minute please, Bob?",
+      "zh": "鲍勃，你能过来一下吗？",
+      "role": "body"
+    },
+    {
+      "index": 5,
+      "startTime": 21.77,
+      "endTime": 24.03,
+      "en": "Yes, sir?",
+      "zh": "先生，有什么事吗？",
+      "role": "body"
+    },
+    {
+      "index": 6,
+      "startTime": 24.03,
+      "endTime": 26.2,
+      "en": "Where's Pamela?",
+      "zh": "帕梅拉在哪里？",
+      "role": "body"
+    },
+    {
+      "index": 7,
+      "startTime": 26.2,
+      "endTime": 28.24,
+      "en": "She's next door.",
+      "zh": "她在隔壁。",
+      "role": "body"
+    },
+    {
+      "index": 8,
+      "startTime": 28.24,
+      "endTime": 31.48,
+      "en": "She's in her office, sir.",
+      "zh": "她现在在她的办公室里，先生。",
+      "role": "body"
+    },
+    {
+      "index": 9,
+      "startTime": 31.48,
+      "endTime": 35.19,
+      "en": "Can she type this letter for me?",
+      "zh": "她能帮我打这封信吗？",
+      "role": "body"
+    },
+    {
+      "index": 10,
+      "startTime": 35.19,
+      "endTime": 36.92,
+      "en": "Ask her please.",
+      "zh": "请去问她。",
+      "role": "body"
+    },
+    {
+      "index": 11,
+      "startTime": 36.92,
+      "endTime": 39.31,
+      "en": "Yes, sir.",
+      "zh": "是的，先生。",
+      "role": "body"
+    },
+    {
+      "index": 12,
+      "startTime": 39.31,
+      "endTime": 44.15,
+      "en": "Can you type this letter for the boss please, Pamela?",
+      "zh": "帕梅拉，你能帮老板把这封信打出来吗？",
+      "role": "body"
+    },
+    {
+      "index": 13,
+      "startTime": 44.15,
+      "endTime": 47.75,
+      "en": "Yes, of course I can.",
+      "zh": "当然可以。",
+      "role": "body"
+    },
+    {
+      "index": 14,
+      "startTime": 47.75,
+      "endTime": 49.36,
+      "en": "Here you are.",
+      "zh": "给你。",
+      "role": "body"
+    },
+    {
+      "index": 15,
+      "startTime": 49.36,
+      "endTime": 51.88,
+      "en": "Thank you, Bob.",
+      "zh": "谢谢你，鲍勃。",
+      "role": "body"
+    },
+    {
+      "index": 16,
+      "startTime": 51.88,
+      "endTime": 52.73,
+      "en": "Bob!",
+      "zh": "鲍勃！",
+      "role": "body"
+    },
+    {
+      "index": 17,
+      "startTime": 52.73,
+      "endTime": 53.94,
+      "en": "Yes?",
+      "zh": "怎么了？",
+      "role": "body"
+    },
+    {
+      "index": 18,
+      "startTime": 53.94,
+      "endTime": 56.11,
+      "en": "What's the matter?",
+      "zh": "怎么了？",
+      "role": "body"
+    },
+    {
+      "index": 19,
+      "startTime": 56.11,
+      "endTime": 59.3,
+      "en": "I can't type this letter.",
+      "zh": "我打不了这封信。",
+      "role": "body"
+    },
+    {
+      "index": 20,
+      "startTime": 59.3,
+      "endTime": 61.59,
+      "en": "I can't read it!",
+      "zh": "我看不懂！",
+      "role": "body"
+    },
+    {
+      "index": 21,
+      "startTime": 61.59,
+      "endTime": null,
+      "en": "The boss's handwriting is terrible!",
+      "zh": "老板的笔迹太糟糕了！",
+      "role": "body"
+    }
+  ],
+  "audio": {
+    "fileName": "045&046－The Boss's Letter.mp3",
+    "sourcePath": "content/NCE-Flow/NCE1/045&046－The Boss's Letter.mp3",
+    "exists": true
+  },
+  "source": {
+    "repository": "NCE-Flow",
+    "lrcFileName": "045&046－The Boss's Letter.lrc",
+    "lrcPath": "content/NCE-Flow/NCE1/045&046－The Boss's Letter.lrc",
+    "sourceDataFile": "content/NCE-Flow/static/data.json",
+    "generatedAt": "2026-07-23T02:59:02+00:00",
+    "generator": "scripts/generate_nce_json.py",
+    "generatorVersion": "2.0.0",
+    "metadata": {
+      "al": "新概念英语（一）",
+      "ar": "MP3 同步字幕版（美音）",
+      "ti": "The Boss's Letter",
+      "by": "更多学习内容，请到VeryCD.com搜索“露珠”"
+    }
+  }
+}

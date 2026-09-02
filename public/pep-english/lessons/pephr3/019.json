@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "pephr3-019",
+  "groupId": "pephr3",
+  "unitNo": 5,
+  "sequenceNo": 19,
+  "section": "Reading for Writing",
+  "title": "The Million Pound Bank Note — Act 2, Scene 1",
+  "jsonPath": "pep-english/lessons/pephr3/019.json",
+  "text": "Narrator: Henry is walking along the street holding the bank note in his hand. His coat is worn in several places. He sees a sign for a tailor's shop.\nHenry: (entering the shop) I'd like to have a suit coat.\n1st Clerk: (in a rude manner) See him there. (pointing to another clerk)\n2nd Clerk: Ready-made suits? Downstairs.\nHenry: (after going down some stairs) Can you show me a suit, please?\n3rd Clerk: Yes, I can, sir. This way, please. Ah, here we are, the very thing you need.\n1st Clerk: (pulling the 3rd clerk aside and whispering) Mr Reid says you'd better serve him quick and get him out quick!\n3rd Clerk: I know what I'm doing. I've got eyes, haven't I?\nHenry: It's a little too bright, isn't it?\n3rd Clerk: (looking at him with a frown) It's all we have in your size.\nHenry: Well, I suppose it ought to do for now. I'll take it.\n3rd Clerk: Good. Shall I put it in a box?\nHenry: No. I'll wear it. Oh, I'd rather not pay you now. I'd like to pay in a month. You see, I don't have any small change.\n3rd Clerk: (trying not to show he's angry) I suppose a gentleman like you only carries very large bills.\nHenry: Now, you shouldn't judge people by their clothes. I just don't want to cause you trouble with a large note.\n3rd Clerk: It's no trouble at all.\nHenry: In that case, there's no problem. (He gives the clerk the bank note. The clerk drops Henry's coat. Then he folds the bill and slowly unfolds it again, as if looking at something he can't believe is there.)\nOwner: Well, what seems to be the trouble?\nHenry: I'm just waiting for my change.\nOwner: Give him his change, Todd. Get going... (after getting the bank note from Todd) Would it... could it be the one I saw in the papers last week? I remember thinking that never would I hold such a note as this... (to Henry) Oh, take off this coat, sir. (to Todd) Go get the others, Todd! (to Henry again) Allow me, sir! This way, sir.\n(in another part of the shop, where there is a wide range of options for Henry to choose from)\nHenry: This is nice, but I really don't need it.\nOwner: Never mind. (with a broad smile) Oh, it's perfect! It was made for some king but he'll just have to wait. You'll need many suits for many occasions. Yes, indeed you will.\nHenry: Wait a minute. I only came here to get a suit coat to wear today. I dare not buy all these things. You would have to wait a long time to get paid.\nOwner: A long time, sir? Why, you don't have to worry about that!\n3rd Clerk: Yes, we can wait forever!\nHenry: Well, all right. I'll take the suit coat for now and get the others later.\nOwner: Fine, fine. Your address, sir?\nHenry: I don't have one. Er... I'm moving.\nOwner: Of course you are! That's very normal! A busy man, I'm sure.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Narrator: Henry is walking along the street holding the bank note in his hand. His coat is worn in several places. He sees a sign for a tailor's shop.\nHenry: (entering the shop) I'd like to have a suit coat.\n1st Clerk: (in a rude manner) See him there. (pointing to another clerk)\n2nd Clerk: Ready-made suits? Downstairs.\nHenry: (after going down some stairs) Can you show me a suit, please?\n3rd Clerk: Yes, I can, sir. This way, please. Ah, here we are, the very thing you need.\n1st Clerk: (pulling the 3rd clerk aside and whispering) Mr Reid says you'd better serve him quick and get him out quick!\n3rd Clerk: I know what I'm doing. I've got eyes, haven't I?\nHenry: It's a little too bright, isn't it?\n3rd Clerk: (looking at him with a frown) It's all we have in your size.\nHenry: Well, I suppose it ought to do for now. I'll take it.\n3rd Clerk: Good. Shall I put it in a box?\nHenry: No. I'll wear it. Oh, I'd rather not pay you now. I'd like to pay in a month. You see, I don't have any small change.\n3rd Clerk: (trying not to show he's angry) I suppose a gentleman like you only carries very large bills.\nHenry: Now, you shouldn't judge people by their clothes. I just don't want to cause you trouble with a large note.\n3rd Clerk: It's no trouble at all.\nHenry: In that case, there's no problem. (He gives the clerk the bank note. The clerk drops Henry's coat. Then he folds the bill and slowly unfolds it again, as if looking at something he can't believe is there.)\nOwner: Well, what seems to be the trouble?\nHenry: I'm just waiting for my change.\nOwner: Give him his change, Todd. Get going... (after getting the bank note from Todd) Would it... could it be the one I saw in the papers last week? I remember thinking that never would I hold such a note as this... (to Henry) Oh, take off this coat, sir. (to Todd) Go get the others, Todd! (to Henry again) Allow me, sir! This way, sir.\n(in another part of the shop, where there is a wide range of options for Henry to choose from)\nHenry: This is nice, but I really don't need it.\nOwner: Never mind. (with a broad smile) Oh, it's perfect! It was made for some king but he'll just have to wait. You'll need many suits for many occasions. Yes, indeed you will.\nHenry: Wait a minute. I only came here to get a suit coat to wear today. I dare not buy all these things. You would have to wait a long time to get paid.\nOwner: A long time, sir? Why, you don't have to worry about that!\n3rd Clerk: Yes, we can wait forever!\nHenry: Well, all right. I'll take the suit coat for now and get the others later.\nOwner: Fine, fine. Your address, sir?\nHenry: I don't have one. Er... I'm moving.\nOwner: Of course you are! That's very normal! A busy man, I'm sure."
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "必修第三册",
+    "pageStart": 63,
+    "pageEnd": 63,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "31e51a16693d03177a5825f53f612a87",
+    "pdfSize": 14202806,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/senior-required-3.pdf#page=63",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored the complete Act 2, Scene 1 in visual two-column order, retaining every narrator line, spoken turn, stage direction and intentional ellipsis; excluded the lesson instruction and film still."
+    }
+  }
+}

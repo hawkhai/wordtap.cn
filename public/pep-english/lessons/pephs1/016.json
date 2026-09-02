@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "id": "pephs1-016",
+  "groupId": "pephs1",
+  "unitNo": 5,
+  "sequenceNo": 16,
+  "section": "Using Language",
+  "title": "Chemical Versus Organic Farming",
+  "jsonPath": "pep-english/lessons/pephs1/016.json",
+  "text": "Chemical pesticides and artificial fertilisers have been in widespread use in farming since the middle of the 20th century. When they were first introduced, many farmers welcomed them as a great way to fight crop disease and increase production. Over time, however, what some scientists have found is that their long-term use can sometimes harm both the land and people’s health.\nFor example, pesticides can damage the land by killing not only harmful bacteria and insects, but also helpful ones. In addition, these chemicals can stay in the soil and underground water sources for a long time. This affects the crops grown on the land and, in turn, the animals and humans who digest them. Many people worry that these chemicals may make them ill and even cause cancer. In fact, some pesticides like DDT have been prohibited in most countries because of the damage they cause to people and the environment. As for chemical fertilisers, crops grown with them usually grow too fast to be rich in nutrition. They may look beautiful on the outside, but inside there is usually more water than essential minerals, and they often have less flavour as well.\nAs an alternative, some farmers have switched to organic farming, and many customers have turned to organic food when they shop at the local grocery. Organic farming is simply farming without using any chemicals. Organic farmers focus on keeping their soil rich and free of disease through natural means. For example, many organic farmers use natural waste from animals as fertiliser. This makes the soil in their fields richer in minerals. It also keeps the air, soil, water, and crops free of chemicals.\nOrganic farmers also use many other methods to produce rich soil. They often change the kind of crop grown in each field every year. For instance, they may grow corn or wheat in a field one year, and then grow beans there the next. Why different crops are grown is because they put important minerals back into the ground, making it ready for the next batch of crops. Organic farmers also plant diverse crops that use different depths of soil to help keep it rich. For example, peanuts grow on the ground’s surface, but many other vegetables put down deep roots. The goal of using different organic farming methods is to grow good food while avoiding damage to the environment or to people’s health.\nSome people would prefer to stop the use of man-made chemicals in agriculture entirely. What keeps them from doing so is the fact that chemical farming serves the high demand for food around the world. Organic farming is nowhere near able to meet that need. Therefore, there is still a long way to find a suitable solution that puts sufficient food on the dinner table while keeping people and the environment as healthy as possible.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Chemical pesticides and artificial fertilisers have been in widespread use in farming since the middle of the 20th century. When they were first introduced, many farmers welcomed them as a great way to fight crop disease and increase production. Over time, however, what some scientists have found is that their long-term use can sometimes harm both the land and people’s health."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "For example, pesticides can damage the land by killing not only harmful bacteria and insects, but also helpful ones. In addition, these chemicals can stay in the soil and underground water sources for a long time. This affects the crops grown on the land and, in turn, the animals and humans who digest them. Many people worry that these chemicals may make them ill and even cause cancer. In fact, some pesticides like DDT have been prohibited in most countries because of the damage they cause to people and the environment. As for chemical fertilisers, crops grown with them usually grow too fast to be rich in nutrition. They may look beautiful on the outside, but inside there is usually more water than essential minerals, and they often have less flavour as well."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "As an alternative, some farmers have switched to organic farming, and many customers have turned to organic food when they shop at the local grocery. Organic farming is simply farming without using any chemicals. Organic farmers focus on keeping their soil rich and free of disease through natural means. For example, many organic farmers use natural waste from animals as fertiliser. This makes the soil in their fields richer in minerals. It also keeps the air, soil, water, and crops free of chemicals."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Organic farmers also use many other methods to produce rich soil. They often change the kind of crop grown in each field every year. For instance, they may grow corn or wheat in a field one year, and then grow beans there the next. Why different crops are grown is because they put important minerals back into the ground, making it ready for the next batch of crops. Organic farmers also plant diverse crops that use different depths of soil to help keep it rich. For example, peanuts grow on the ground’s surface, but many other vegetables put down deep roots. The goal of using different organic farming methods is to grow good food while avoiding damage to the environment or to people’s health."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Some people would prefer to stop the use of man-made chemicals in agriculture entirely. What keeps them from doing so is the fact that chemical farming serves the high demand for food around the world. Organic farming is nowhere near able to meet that need. Therefore, there is still a long way to find a suitable solution that puts sufficient food on the dinner table while keeping people and the environment as healthy as possible."
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "选择性必修第一册",
+    "pageStart": 62,
+    "pageEnd": 63,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "f19c4231e96ee3a9c769533d676f1106",
+    "pdfSize": 12809514,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/senior-selective-1.pdf#page=62-63",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored the complete five-paragraph comparison across pages 62–63, joining paragraph 4 at 'crop grown in each field every year'; excluded opinion phrases, instruction, photographs, comprehension questions, incomplete table and running furniture."
+    }
+  }
+}

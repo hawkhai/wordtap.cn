@@ -1,0 +1,224 @@
+{
+  "schemaVersion": 1,
+  "id": "nce1-059",
+  "bookId": "nce1",
+  "bookNo": 1,
+  "lessonNo": 59,
+  "lessonRange": [
+    59,
+    60
+  ],
+  "title": "Is That All",
+  "titleZh": "就这些吗？",
+  "question": "Does the lady buy any chalk?",
+  "questionZh": "那位女士会买粉笔吗？",
+  "text": "Does the lady buy any chalk?\n\nI want some envelopes, please.\nDo you want the large size or the small size?\nThe large size, please.\nDo you have any writing paper?\nYes, we do.\nI don't have any small pads.\nI only have large ones.\nDo you want a pad?\nYes, please.\nAnd I want some glue.\nA bottle of glue.\nAnd I want a large box of chalk, too.\nI only have small boxes.\nDo you want one?\nNo, thank you.\nIs that all?\nThat's all, thank you.\nWhat else do you want?\nI want my change.",
+  "bodyText": "I want some envelopes, please.\nDo you want the large size or the small size?\nThe large size, please.\nDo you have any writing paper?\nYes, we do.\nI don't have any small pads.\nI only have large ones.\nDo you want a pad?\nYes, please.\nAnd I want some glue.\nA bottle of glue.\nAnd I want a large box of chalk, too.\nI only have small boxes.\nDo you want one?\nNo, thank you.\nIs that all?\nThat's all, thank you.\nWhat else do you want?\nI want my change.",
+  "bodyTextZh": "请给我一些信封。\n您想要大号的还是小号的？\n请给我大号的。\n你们有写字用的纸吗？\n是的，我们有。\n我没有小本的信纸。\n我只有大本的。\n您需要一本吗？\n好的，请给我一本。\n我还需要一些胶水。\n一瓶胶水。\n我还要一大盒粉笔。\n我只有小盒的。\n您要一盒吗？\n不，谢谢。\n就这些吗？\n就这些，谢谢。\n你还想要什么？\n我想要我的零钱。",
+  "sentences": [
+    {
+      "index": 0,
+      "startTime": 0.71,
+      "endTime": 3.2,
+      "en": "Lesson 59",
+      "zh": "第59课",
+      "role": "lesson"
+    },
+    {
+      "index": 1,
+      "startTime": 3.2,
+      "endTime": 6.18,
+      "en": "Is that all?",
+      "zh": "就这些吗？",
+      "role": "title"
+    },
+    {
+      "index": 2,
+      "startTime": 6.18,
+      "endTime": 11.77,
+      "en": "Listen to the tape then answer this question.",
+      "zh": "先听这段录音，然后再回答这个问题。",
+      "role": "prompt"
+    },
+    {
+      "index": 3,
+      "startTime": 11.77,
+      "endTime": 16.33,
+      "en": "Does the lady buy any chalk?",
+      "zh": "那位女士会买粉笔吗？",
+      "role": "question"
+    },
+    {
+      "index": 4,
+      "startTime": 16.33,
+      "endTime": 20.25,
+      "en": "I want some envelopes, please.",
+      "zh": "请给我一些信封。",
+      "role": "body"
+    },
+    {
+      "index": 5,
+      "startTime": 20.25,
+      "endTime": 25.21,
+      "en": "Do you want the large size or the small size?",
+      "zh": "您想要大号的还是小号的？",
+      "role": "body"
+    },
+    {
+      "index": 6,
+      "startTime": 25.21,
+      "endTime": 28.55,
+      "en": "The large size, please.",
+      "zh": "请给我大号的。",
+      "role": "body"
+    },
+    {
+      "index": 7,
+      "startTime": 28.55,
+      "endTime": 31.84,
+      "en": "Do you have any writing paper?",
+      "zh": "你们有写字用的纸吗？",
+      "role": "body"
+    },
+    {
+      "index": 8,
+      "startTime": 31.84,
+      "endTime": 34.41,
+      "en": "Yes, we do.",
+      "zh": "是的，我们有。",
+      "role": "body"
+    },
+    {
+      "index": 9,
+      "startTime": 34.41,
+      "endTime": 38.34,
+      "en": "I don't have any small pads.",
+      "zh": "我没有小本的信纸。",
+      "role": "body"
+    },
+    {
+      "index": 10,
+      "startTime": 38.34,
+      "endTime": 41.66,
+      "en": "I only have large ones.",
+      "zh": "我只有大本的。",
+      "role": "body"
+    },
+    {
+      "index": 11,
+      "startTime": 41.66,
+      "endTime": 44.17,
+      "en": "Do you want a pad?",
+      "zh": "您需要一本吗？",
+      "role": "body"
+    },
+    {
+      "index": 12,
+      "startTime": 44.17,
+      "endTime": 46.44,
+      "en": "Yes, please.",
+      "zh": "好的，请给我一本。",
+      "role": "body"
+    },
+    {
+      "index": 13,
+      "startTime": 46.44,
+      "endTime": 49.87,
+      "en": "And I want some glue.",
+      "zh": "我还需要一些胶水。",
+      "role": "body"
+    },
+    {
+      "index": 14,
+      "startTime": 49.87,
+      "endTime": 53.06,
+      "en": "A bottle of glue.",
+      "zh": "一瓶胶水。",
+      "role": "body"
+    },
+    {
+      "index": 15,
+      "startTime": 53.06,
+      "endTime": 58.21,
+      "en": "And I want a large box of chalk, too.",
+      "zh": "我还要一大盒粉笔。",
+      "role": "body"
+    },
+    {
+      "index": 16,
+      "startTime": 58.21,
+      "endTime": 61.46,
+      "en": "I only have small boxes.",
+      "zh": "我只有小盒的。",
+      "role": "body"
+    },
+    {
+      "index": 17,
+      "startTime": 61.46,
+      "endTime": 63.08,
+      "en": "Do you want one?",
+      "zh": "您要一盒吗？",
+      "role": "body"
+    },
+    {
+      "index": 18,
+      "startTime": 63.08,
+      "endTime": 64.94,
+      "en": "No, thank you.",
+      "zh": "不，谢谢。",
+      "role": "body"
+    },
+    {
+      "index": 19,
+      "startTime": 64.94,
+      "endTime": 66.57,
+      "en": "Is that all?",
+      "zh": "就这些吗？",
+      "role": "body"
+    },
+    {
+      "index": 20,
+      "startTime": 66.57,
+      "endTime": 69.29,
+      "en": "That's all, thank you.",
+      "zh": "就这些，谢谢。",
+      "role": "body"
+    },
+    {
+      "index": 21,
+      "startTime": 69.29,
+      "endTime": 71.55,
+      "en": "What else do you want?",
+      "zh": "你还想要什么？",
+      "role": "body"
+    },
+    {
+      "index": 22,
+      "startTime": 71.55,
+      "endTime": null,
+      "en": "I want my change.",
+      "zh": "我想要我的零钱。",
+      "role": "body"
+    }
+  ],
+  "audio": {
+    "fileName": "059&060－Is That All.mp3",
+    "sourcePath": "content/NCE-Flow/NCE1/059&060－Is That All.mp3",
+    "exists": true
+  },
+  "source": {
+    "repository": "NCE-Flow",
+    "lrcFileName": "059&060－Is That All.lrc",
+    "lrcPath": "content/NCE-Flow/NCE1/059&060－Is That All.lrc",
+    "sourceDataFile": "content/NCE-Flow/static/data.json",
+    "generatedAt": "2026-07-23T02:59:02+00:00",
+    "generator": "scripts/generate_nce_json.py",
+    "generatorVersion": "2.0.0",
+    "metadata": {
+      "al": "新概念英语（一）",
+      "ar": "MP3 同步字幕版（美音）",
+      "ti": "Is That All?",
+      "by": "更多学习内容，请到VeryCD.com搜索“露珠”"
+    }
+  }
+}

@@ -1,0 +1,199 @@
+{
+  "schemaVersion": 1,
+  "id": "nce2-025",
+  "bookId": "nce2",
+  "bookNo": 2,
+  "lessonNo": 25,
+  "lessonRange": [
+    25
+  ],
+  "title": "Do the English Speak English",
+  "titleZh": "英国人讲英语吗？",
+  "question": "Do they speak English?",
+  "questionZh": "他们说英语吗？",
+  "text": "Do they speak English?\n\nWhy does the writer not understand the porter?\nI arrived in London at last.\nThe railway station was big, black and dark.\nI did not know the way to my hotel, so I asked a porter.\nI not only spoke English very carefully, but very clearly as well.\nThe porter, however, could not understand me.\nI repeated my question several times and at last he understood.\nhe answered me, but he spoke neither slowly nor clearly.\n'I am a foreigner,' I said.\nThen he spoke slowly, but I could not understand him.\nMy teacher never spoke English like that!\nThe porter and I looked at each other and smiled.\nThen he said something and I understood it.\n'You'll soon learn English!' he said.\nI wonder.\nIn England, each person speaks a different language.\nThe English understand each other, but I don't understand them!",
+  "bodyText": "Why does the writer not understand the porter?\nI arrived in London at last.\nThe railway station was big, black and dark.\nI did not know the way to my hotel, so I asked a porter.\nI not only spoke English very carefully, but very clearly as well.\nThe porter, however, could not understand me.\nI repeated my question several times and at last he understood.\nhe answered me, but he spoke neither slowly nor clearly.\n'I am a foreigner,' I said.\nThen he spoke slowly, but I could not understand him.\nMy teacher never spoke English like that!\nThe porter and I looked at each other and smiled.\nThen he said something and I understood it.\n'You'll soon learn English!' he said.\nI wonder.\nIn England, each person speaks a different language.\nThe English understand each other, but I don't understand them!",
+  "bodyTextZh": "为什么作者听不懂那个行李搬运工的话？\n我终于到了伦敦。\n火车站又大又黑，显得非常阴暗。\n我不知道怎么去我的酒店，于是我问了一个行李搬运工。\n我不仅英语说得很仔细，而且发音也很清晰。\n然而，那个行李搬运工却听不懂我。\n我重复了几次我的问题，最后他才明白了。\n他回答了我，但他说得既不慢也不清楚。\n“我是外国人，”我说。\n然后他放慢了语速，但我还是听不懂他。\n我的老师从来都不会用那样的方式说英语！\n那个行李搬运工和我对视了一眼，然后都笑了。\n接着他说了些什么，我听懂了。\n“你很快就能学会英语了！”他说。\n这可不好说。\n在英格兰，每个人说着不同的语言。\n英国人之间可以互相理解，但我却听不懂他们的话！",
+  "sentences": [
+    {
+      "index": 0,
+      "startTime": 0.5,
+      "endTime": 3,
+      "en": "Lesson 25",
+      "zh": "第25课",
+      "role": "lesson"
+    },
+    {
+      "index": 1,
+      "startTime": 3,
+      "endTime": 3.3,
+      "en": "Do the English Speak English",
+      "zh": "英国人讲英语吗？",
+      "role": "title"
+    },
+    {
+      "index": 2,
+      "startTime": 3.3,
+      "endTime": 12.26,
+      "en": "Do they speak English?",
+      "zh": "他们说英语吗？",
+      "role": "question"
+    },
+    {
+      "index": 3,
+      "startTime": 12.26,
+      "endTime": 17.71,
+      "en": "Why does the writer not understand the porter?",
+      "zh": "为什么作者听不懂那个行李搬运工的话？",
+      "role": "body"
+    },
+    {
+      "index": 4,
+      "startTime": 17.71,
+      "endTime": 21.05,
+      "en": "I arrived in London at last.",
+      "zh": "我终于到了伦敦。",
+      "role": "body"
+    },
+    {
+      "index": 5,
+      "startTime": 21.05,
+      "endTime": 26.35,
+      "en": "The railway station was big, black and dark.",
+      "zh": "火车站又大又黑，显得非常阴暗。",
+      "role": "body"
+    },
+    {
+      "index": 6,
+      "startTime": 26.35,
+      "endTime": 32.6,
+      "en": "I did not know the way to my hotel, so I asked a porter.",
+      "zh": "我不知道怎么去我的酒店，于是我问了一个行李搬运工。",
+      "role": "body"
+    },
+    {
+      "index": 7,
+      "startTime": 32.6,
+      "endTime": 40.16,
+      "en": "I not only spoke English very carefully, but very clearly as well.",
+      "zh": "我不仅英语说得很仔细，而且发音也很清晰。",
+      "role": "body"
+    },
+    {
+      "index": 8,
+      "startTime": 40.16,
+      "endTime": 44.44,
+      "en": "The porter, however, could not understand me.",
+      "zh": "然而，那个行李搬运工却听不懂我。",
+      "role": "body"
+    },
+    {
+      "index": 9,
+      "startTime": 44.44,
+      "endTime": 51.37,
+      "en": "I repeated my question several times and at last he understood.",
+      "zh": "我重复了几次我的问题，最后他才明白了。",
+      "role": "body"
+    },
+    {
+      "index": 10,
+      "startTime": 51.37,
+      "endTime": 57.42,
+      "en": "he answered me, but he spoke neither slowly nor clearly.",
+      "zh": "他回答了我，但他说得既不慢也不清楚。",
+      "role": "body"
+    },
+    {
+      "index": 11,
+      "startTime": 57.42,
+      "endTime": 61.12,
+      "en": "'I am a foreigner,' I said.",
+      "zh": "“我是外国人，”我说。",
+      "role": "body"
+    },
+    {
+      "index": 12,
+      "startTime": 61.12,
+      "endTime": 67.15,
+      "en": "Then he spoke slowly, but I could not understand him.",
+      "zh": "然后他放慢了语速，但我还是听不懂他。",
+      "role": "body"
+    },
+    {
+      "index": 13,
+      "startTime": 67.15,
+      "endTime": 71.68,
+      "en": "My teacher never spoke English like that!",
+      "zh": "我的老师从来都不会用那样的方式说英语！",
+      "role": "body"
+    },
+    {
+      "index": 14,
+      "startTime": 71.68,
+      "endTime": 75.91,
+      "en": "The porter and I looked at each other and smiled.",
+      "zh": "那个行李搬运工和我对视了一眼，然后都笑了。",
+      "role": "body"
+    },
+    {
+      "index": 15,
+      "startTime": 75.91,
+      "endTime": 80.14,
+      "en": "Then he said something and I understood it.",
+      "zh": "接着他说了些什么，我听懂了。",
+      "role": "body"
+    },
+    {
+      "index": 16,
+      "startTime": 80.14,
+      "endTime": 84.32,
+      "en": "'You'll soon learn English!' he said.",
+      "zh": "“你很快就能学会英语了！”他说。",
+      "role": "body"
+    },
+    {
+      "index": 17,
+      "startTime": 84.32,
+      "endTime": 86.53,
+      "en": "I wonder.",
+      "zh": "这可不好说。",
+      "role": "body"
+    },
+    {
+      "index": 18,
+      "startTime": 86.53,
+      "endTime": 91.5,
+      "en": "In England, each person speaks a different language.",
+      "zh": "在英格兰，每个人说着不同的语言。",
+      "role": "body"
+    },
+    {
+      "index": 19,
+      "startTime": 91.5,
+      "endTime": null,
+      "en": "The English understand each other, but I don't understand them!",
+      "zh": "英国人之间可以互相理解，但我却听不懂他们的话！",
+      "role": "body"
+    }
+  ],
+  "audio": {
+    "fileName": "25－Do the English Speak English.mp3",
+    "sourcePath": "content/NCE-Flow/NCE2/25－Do the English Speak English.mp3",
+    "exists": true
+  },
+  "source": {
+    "repository": "NCE-Flow",
+    "lrcFileName": "25－Do the English Speak English.lrc",
+    "lrcPath": "content/NCE-Flow/NCE2/25－Do the English Speak English.lrc",
+    "sourceDataFile": "content/NCE-Flow/static/data.json",
+    "generatedAt": "2026-07-23T02:59:02+00:00",
+    "generator": "scripts/generate_nce_json.py",
+    "generatorVersion": "2.0.0",
+    "metadata": {
+      "al": "新概念英语（二）",
+      "ar": "MP3 同步字幕版（美音）",
+      "ti": "Do the English Speak English?",
+      "by": "更多学习内容，请到VeryCD.com搜索“露珠”"
+    }
+  }
+}

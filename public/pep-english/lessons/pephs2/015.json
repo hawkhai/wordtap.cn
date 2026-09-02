@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "id": "pephs2-015",
+  "groupId": "pephs2",
+  "unitNo": 1,
+  "sequenceNo": 15,
+  "section": "Reading and Writing",
+  "title": "AI and Human Beings",
+  "jsonPath": "pep-english/lessons/pephs2/015.json",
+  "text": "Is it possible to make machines think like humans? This is one question in research in the field of Artificial Intelligence, or “AI”. To think like a human, it involves feelings, morality, hopes, and dreams. Humans are capable of making decisions by themselves without input from others, and they can learn from experience. In addition, humans are able to create things from their own inspiration for their own pleasure. The question is whether machines can ever really think in all these aspects.\nThe idea of a computer that is all-powerful and can think and make decisions for itself terrifies many people. In some films, AI even decides that all humans must be killed. Many people are also concerned that AI will be used to replace humans.\nYet others are comforted by the thought of AI. Maybe with AI, robots can be made to replace loved ones who have died. Today, the creation of an all-powerful computer capable of human thought is still in progress. We have companion robots, and it is likely that they will grow more important in our lives as time goes by. However, the need for such robots does not seem to be as critical as our need for intelligent machines that can solve problems by learning from their observations and experience.\nFor example, AI is already being used with great success in Internet search engines and as a personal assistant in our smartphones. It learns from our habits to help us find what we want and like. AI is also used to diagnose problems and suggest solutions. Researchers are also experimenting with the use of AI in driverless cars which can sense their surroundings and decide on the best way to reach a destination. It is also being used in education, particularly in online courses. Furthermore, industries that use robots for repetitive or dangerous work often turn to AI to manage these electronic workers. In addition, virtual assistants are also being used in some homes today. In the near future, it is likely that AI will be used to manage smart homes and handle an even greater variety of tasks such as setting out favourite clothes and helping us with our personal grooming.\nThe AI of today has already proven its superiority to humans in many areas. Do you think that we can create a robot that thinks like a human or one that is even more intelligent? If so, is there truly a difference between AI and a human?",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Is it possible to make machines think like humans? This is one question in research in the field of Artificial Intelligence, or “AI”. To think like a human, it involves feelings, morality, hopes, and dreams. Humans are capable of making decisions by themselves without input from others, and they can learn from experience. In addition, humans are able to create things from their own inspiration for their own pleasure. The question is whether machines can ever really think in all these aspects."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "The idea of a computer that is all-powerful and can think and make decisions for itself terrifies many people. In some films, AI even decides that all humans must be killed. Many people are also concerned that AI will be used to replace humans."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Yet others are comforted by the thought of AI. Maybe with AI, robots can be made to replace loved ones who have died. Today, the creation of an all-powerful computer capable of human thought is still in progress. We have companion robots, and it is likely that they will grow more important in our lives as time goes by. However, the need for such robots does not seem to be as critical as our need for intelligent machines that can solve problems by learning from their observations and experience."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "For example, AI is already being used with great success in Internet search engines and as a personal assistant in our smartphones. It learns from our habits to help us find what we want and like. AI is also used to diagnose problems and suggest solutions. Researchers are also experimenting with the use of AI in driverless cars which can sense their surroundings and decide on the best way to reach a destination. It is also being used in education, particularly in online courses. Furthermore, industries that use robots for repetitive or dangerous work often turn to AI to manage these electronic workers. In addition, virtual assistants are also being used in some homes today. In the near future, it is likely that AI will be used to manage smart homes and handle an even greater variety of tasks such as setting out favourite clothes and helping us with our personal grooming."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "The AI of today has already proven its superiority to humans in many areas. Do you think that we can create a robot that thinks like a human or one that is even more intelligent? If so, is there truly a difference between AI and a human?"
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "选择性必修第二册",
+    "pageStart": 71,
+    "pageEnd": 71,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "1a701f2205298de95ea59cfc71eb83cd",
+    "pdfSize": 9968316,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/senior-selective-2.pdf#page=71",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored the complete five-paragraph AI feature in visual reading order around three illustrations; excluded the reading instruction and all questions on page 72."
+    }
+  }
+}

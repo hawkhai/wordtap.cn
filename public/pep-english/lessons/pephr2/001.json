@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "id": "pephr2-001",
+  "groupId": "pephr2",
+  "unitNo": 1,
+  "sequenceNo": 1,
+  "section": "Reading and Thinking",
+  "title": "From Problems to Solutions",
+  "jsonPath": "pep-english/lessons/pephr2/001.json",
+  "text": "Economic development is necessary if we want to improve society. There comes a time when the old must give way to the new, and it is not possible to preserve everything from our past as we move towards the future. Finding and keeping the right balance between progress and the protection of cultural sites can be a big challenge.\nBig challenges, however, can sometimes lead to great solutions. In the 1950s, the Egyptian government wanted to build a new dam across the Nile in order to control floods, produce electricity, and supply water to more farmers in the area. But the proposal led to protests. Water from the dam would likely damage a number of temples and destroy cultural relics that were an important part of Egypt's cultural heritage. After listening to the scientists who had studied the problem, and citizens who lived near the dam, the government turned to the United Nations for help in 1959.\nA committee was established to limit damage to the Egyptian buildings and prevent the loss of cultural relics. The group asked for contributions from different departments and raised funds within the international community. Experts investigated the issue, conducted several tests, and then made a proposal for how the buildings could be saved. Finally, a document was signed, and the work began in 1960.\nThe project brought together governments and environmentalists from around the world. Temples and other cultural sites were taken down piece by piece, and then moved and put back together again in a place where they were safe from the water. In 1961, German engineers moved the first temple. Over the next 20 years, thousands of engineers and workers rescued 22 temples and countless cultural relics. Fifty countries donated nearly $80 million to the project.\nWhen the project ended in 1980, it was considered a great success. Not only had the countries found a path to the future that did not run over the relics of the past, but they had also learnt that it was possible for countries to work together to build a better tomorrow.\nThe spirit of the Aswan Dam project is still alive today. Perhaps the best example is shown by UNESCO, which runs a programme that prevents world cultural heritage sites around the world from disappearing. If a problem seems too difficult for a single nation, the global community can sometimes provide a solution.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Economic development is necessary if we want to improve society. There comes a time when the old must give way to the new, and it is not possible to preserve everything from our past as we move towards the future. Finding and keeping the right balance between progress and the protection of cultural sites can be a big challenge."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Big challenges, however, can sometimes lead to great solutions. In the 1950s, the Egyptian government wanted to build a new dam across the Nile in order to control floods, produce electricity, and supply water to more farmers in the area. But the proposal led to protests. Water from the dam would likely damage a number of temples and destroy cultural relics that were an important part of Egypt's cultural heritage. After listening to the scientists who had studied the problem, and citizens who lived near the dam, the government turned to the United Nations for help in 1959."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "A committee was established to limit damage to the Egyptian buildings and prevent the loss of cultural relics. The group asked for contributions from different departments and raised funds within the international community. Experts investigated the issue, conducted several tests, and then made a proposal for how the buildings could be saved. Finally, a document was signed, and the work began in 1960."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "The project brought together governments and environmentalists from around the world. Temples and other cultural sites were taken down piece by piece, and then moved and put back together again in a place where they were safe from the water. In 1961, German engineers moved the first temple. Over the next 20 years, thousands of engineers and workers rescued 22 temples and countless cultural relics. Fifty countries donated nearly $80 million to the project."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "When the project ended in 1980, it was considered a great success. Not only had the countries found a path to the future that did not run over the relics of the past, but they had also learnt that it was possible for countries to work together to build a better tomorrow."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "The spirit of the Aswan Dam project is still alive today. Perhaps the best example is shown by UNESCO, which runs a programme that prevents world cultural heritage sites around the world from disappearing. If a problem seems too difficult for a single nation, the global community can sometimes provide a solution."
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "必修第二册",
+    "pageStart": 11,
+    "pageEnd": 11,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "38d49874e4f015fd89f21c9306f6b9d5",
+    "pdfSize": 14270612,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/senior-required-2.pdf#page=11",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored the complete six-paragraph Aswan Dam article in printed order; excluded the pre-reading instructions, photographs and running furniture."
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "pepj8b-007",
+  "groupId": "pepj8b",
+  "unitNo": 4,
+  "sequenceNo": 7,
+  "section": "Section B",
+  "title": "Maybe You Should Learn to Relax!",
+  "jsonPath": "pep-english/lessons/pepj8b/007.json",
+  "text": "These days, Chinese children are sometimes busier on weekends than weekdays because they have to take so many after-school classes. Many of them are learning exam skills so that they can get into a good high school and later a good university. Others are practicing sports so that they can compete and win. However, this doesn't only happen in China.\nThe Taylors are a typical American family. Life for Cathy Taylor's three children is very busy. \"On most days after school,\" Cathy says, \"I take one of my two boys to basketball practice and my daughter to football training. Then I have to take my other son to piano lessons. Maybe I could cut out a few of their activities, but I believe these activities are important for my children's future. I really want them to be successful.\" However, the tired children don't get home until after 7:00 p.m. They have a quick dinner, and then it's time for homework.\nLinda Miller, a mother of three, knows all about such stress. \"In some families, competition starts very young and continues until the kids get older,\" she says. \"Mothers send their small kids to all kinds of classes. And they are always comparing them with other children. It's crazy. I don't think that's fair. Why don't they just let their kids be kids? People shouldn't push their kids so hard.\"\nDoctors say too much pressure is not good for a child's development. Dr. Alice Green says all these activities can cause a lot of stress for children. \"Kids should have time to relax and think for themselves, too. Although it's normal to want successful children, it's even more important to have happy children.\"",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "These days, Chinese children are sometimes busier on weekends than weekdays because they have to take so many after-school classes. Many of them are learning exam skills so that they can get into a good high school and later a good university. Others are practicing sports so that they can compete and win. However, this doesn't only happen in China."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "The Taylors are a typical American family. Life for Cathy Taylor's three children is very busy. \"On most days after school,\" Cathy says, \"I take one of my two boys to basketball practice and my daughter to football training. Then I have to take my other son to piano lessons. Maybe I could cut out a few of their activities, but I believe these activities are important for my children's future. I really want them to be successful.\" However, the tired children don't get home until after 7:00 p.m. They have a quick dinner, and then it's time for homework."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Linda Miller, a mother of three, knows all about such stress. \"In some families, competition starts very young and continues until the kids get older,\" she says. \"Mothers send their small kids to all kinds of classes. And they are always comparing them with other children. It's crazy. I don't think that's fair. Why don't they just let their kids be kids? People shouldn't push their kids so hard.\""
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Doctors say too much pressure is not good for a child's development. Dr. Alice Green says all these activities can cause a lot of stress for children. \"Kids should have time to relax and think for themselves, too. Although it's normal to want successful children, it's even more important to have happy children.\""
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "初中",
+    "book": "八年级下册",
+    "pageStart": 39,
+    "pageEnd": 39,
+    "extractionMode": "ocr",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "21d35e04f1c22b74a3fe3e95e88adff9",
+    "pdfSize": 18208880,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/junior-8b.pdf#page=39",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored all four complete article paragraphs and quotations, corrected Section B metadata, and excluded 2a, 2b questions and the vocabulary strategy sidebar."
+    }
+  }
+}

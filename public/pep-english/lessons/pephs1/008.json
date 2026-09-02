@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "id": "pephs1-008",
+  "groupId": "pephs1",
+  "unitNo": 2,
+  "sequenceNo": 8,
+  "section": "Project",
+  "title": "A Letter from Future Bingbing",
+  "jsonPath": "pep-english/lessons/pephs1/008.json",
+  "text": "Dear Past Bingbing,\nHi! I’m Bingbing, your future self! I know that you are really worried about your future career, so I wanted to write this letter to put your mind at rest.\nI’m sorry to say that you won’t become a pilot as you wanted. In the future, large passenger airplanes will fly themselves and won’t need pilots. But there is a big problem in the future that you don't have now: no one uses cars anymore—they use personal jet packs. As you can imagine, the skies over the city get pretty busy! Someone needs to control all these people so they don’t have accidents. And that’s what you do: you’re a jet pack air traffic controller.\nOne really good point about your job is that you don’t have to leave home. Instead, you’ll use a virtual reality headset and microphone to do your job while you are sitting on the sofa drinking tea. But you will have to work on your people skills, as you will be talking to people all day. The bad point? Too many jet packs in the sky! Sometimes it can be kind of tense, and some people don't like to obey the rules or be told what to do.\nAll in all, I think you’ll be happy with this job. But of course you will, because you’re me! Stop worrying! Your future is going to be great. Trust me.\nBest regards,\nFuture Bingbing",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Dear Past Bingbing,"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Hi! I’m Bingbing, your future self! I know that you are really worried about your future career, so I wanted to write this letter to put your mind at rest."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "I’m sorry to say that you won’t become a pilot as you wanted. In the future, large passenger airplanes will fly themselves and won’t need pilots. But there is a big problem in the future that you don't have now: no one uses cars anymore—they use personal jet packs. As you can imagine, the skies over the city get pretty busy! Someone needs to control all these people so they don’t have accidents. And that’s what you do: you’re a jet pack air traffic controller."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "One really good point about your job is that you don’t have to leave home. Instead, you’ll use a virtual reality headset and microphone to do your job while you are sitting on the sofa drinking tea. But you will have to work on your people skills, as you will be talking to people all day. The bad point? Too many jet packs in the sky! Sometimes it can be kind of tense, and some people don't like to obey the rules or be told what to do."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "All in all, I think you’ll be happy with this job. But of course you will, because you’re me! Stop worrying! Your future is going to be great. Trust me."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Best regards,"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Future Bingbing"
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "选择性必修第一册",
+    "pageStart": 30,
+    "pageEnd": 30,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "f19c4231e96ee3a9c769533d676f1106",
+    "pdfSize": 12809514,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/senior-selective-1.pdf#page=30",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored the complete model letter from salutation through signature as seven blocks; excluded brainstorming questions, assignment criteria, presentation instruction, illustration and running furniture."
+    }
+  }
+}

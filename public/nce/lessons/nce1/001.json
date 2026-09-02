@@ -1,0 +1,128 @@
+{
+  "schemaVersion": 1,
+  "id": "nce1-001",
+  "bookId": "nce1",
+  "bookNo": 1,
+  "lessonNo": 1,
+  "lessonRange": [
+    1,
+    2
+  ],
+  "title": "Excuse Me",
+  "titleZh": "打扰一下！",
+  "question": "Whose handbag is it?",
+  "questionZh": "这是谁的手提包？",
+  "text": "Whose handbag is it?\n\nExcuse me!\nYes?\nIs this your handbag?\nPardon?\nIs this your handbag?\nYes it is.\nThank you very much.",
+  "bodyText": "Excuse me!\nYes?\nIs this your handbag?\nPardon?\nIs this your handbag?\nYes it is.\nThank you very much.",
+  "bodyTextZh": "打扰一下！\n什么事？\n这是你的手提包吗？\n什么？请再说一遍。\n这是你的手提包吗？\n是的，它是。\n非常感谢您。",
+  "sentences": [
+    {
+      "index": 0,
+      "startTime": 0.61,
+      "endTime": 2.71,
+      "en": "Lesson 1",
+      "zh": "第1课",
+      "role": "lesson"
+    },
+    {
+      "index": 1,
+      "startTime": 2.71,
+      "endTime": 5.61,
+      "en": "Excuse me!",
+      "zh": "打扰一下！",
+      "role": "title"
+    },
+    {
+      "index": 2,
+      "startTime": 5.61,
+      "endTime": 10.8,
+      "en": "Listen to the tape then answer this question.",
+      "zh": "先听这段录音，然后再回答这个问题。",
+      "role": "prompt"
+    },
+    {
+      "index": 3,
+      "startTime": 10.8,
+      "endTime": 15.11,
+      "en": "Whose handbag is it?",
+      "zh": "这是谁的手提包？",
+      "role": "question"
+    },
+    {
+      "index": 4,
+      "startTime": 15.11,
+      "endTime": 16.66,
+      "en": "Excuse me!",
+      "zh": "打扰一下！",
+      "role": "body"
+    },
+    {
+      "index": 5,
+      "startTime": 16.66,
+      "endTime": 18.26,
+      "en": "Yes?",
+      "zh": "什么事？",
+      "role": "body"
+    },
+    {
+      "index": 6,
+      "startTime": 18.26,
+      "endTime": 21.44,
+      "en": "Is this your handbag?",
+      "zh": "这是你的手提包吗？",
+      "role": "body"
+    },
+    {
+      "index": 7,
+      "startTime": 21.44,
+      "endTime": 23.17,
+      "en": "Pardon?",
+      "zh": "什么？请再说一遍。",
+      "role": "body"
+    },
+    {
+      "index": 8,
+      "startTime": 23.17,
+      "endTime": 26.73,
+      "en": "Is this your handbag?",
+      "zh": "这是你的手提包吗？",
+      "role": "body"
+    },
+    {
+      "index": 9,
+      "startTime": 26.73,
+      "endTime": 29.49,
+      "en": "Yes it is.",
+      "zh": "是的，它是。",
+      "role": "body"
+    },
+    {
+      "index": 10,
+      "startTime": 29.49,
+      "endTime": null,
+      "en": "Thank you very much.",
+      "zh": "非常感谢您。",
+      "role": "body"
+    }
+  ],
+  "audio": {
+    "fileName": "001&002－Excuse Me.mp3",
+    "sourcePath": "content/NCE-Flow/NCE1/001&002－Excuse Me.mp3",
+    "exists": true
+  },
+  "source": {
+    "repository": "NCE-Flow",
+    "lrcFileName": "001&002－Excuse Me.lrc",
+    "lrcPath": "content/NCE-Flow/NCE1/001&002－Excuse Me.lrc",
+    "sourceDataFile": "content/NCE-Flow/static/data.json",
+    "generatedAt": "2026-07-23T02:59:02+00:00",
+    "generator": "scripts/generate_nce_json.py",
+    "generatorVersion": "2.0.0",
+    "metadata": {
+      "al": "新概念英语（一）",
+      "ar": "MP3 同步字幕版（美音）",
+      "ti": "Excuse Me!",
+      "by": "更多学习内容，请到VeryCD.com搜索“露珠”"
+    }
+  }
+}

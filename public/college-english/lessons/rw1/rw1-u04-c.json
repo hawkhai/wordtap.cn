@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 2,
+  "id": "rw1-u04-c",
+  "sequenceNo": 12,
+  "groupId": "rw1",
+  "unitNo": 4,
+  "unitTitle": "Social media matters",
+  "section": "C",
+  "articleType": "stories-of-china",
+  "title": "Chinese people love their social media apps",
+  "printedPageStart": 103,
+  "printedPageEnd": 104,
+  "jsonPath": "college-english/lessons/rw1/rw1-u04-c.json",
+  "characterCount": 2213,
+  "text": "According to a statistical report on Internet development, the number of Internet users in China surpassed 1 billion and the Internet penetration rate (普及率) reached 74.4 percent in the country as of June 2022. The increasing Internet access has contributed to the formation of the largest digital society in the world, the report said.\nIt is said that Chinese people regard smartphone social media apps as a daily requirement, and most of them spend about two hours a day using the apps.\nJia Zhu, 31, who works for a fashion company in Beijing, told China Daily that she uses her smartphone more than 10 hours a day. “Honestly, I have to say sometimes I can only put my phone down when I’m sleeping,” she said. She uses social media apps mainly to contact family, colleagues, and clients (客户). “I once thought I could leave social media apps at some point, but I found it so hard,” she said. “Most of the information I get is from the apps. If I give them up, I may miss what’s going on.”\nKong Yiying, a 30-year-old lady from a fishing company in Guangzhou, Guangdong Province, said she could control her time online, especially on social media apps. “I surf the Internet on the computer for a limited time, and spend less than an hour on my smartphone. I use my smartphone to order food and buy some other daily necessities (必需品), which doesn’t take much time online,” she said. She added that self-discipline helped her avoid addiction to the social media apps.\nSocial media is popular not only among Chinese city dwellers but also among farmers. They use social media apps to sell their produce directly to urban consumers as millions of viewers tune in to watch them. In a live streaming video on a social media platform, a farmer sits in her greenhouse and displays the vegetables and fruit she grows on her farm: tomatoes, cucumbers, peaches, etc. Such videos are particularly popular. Viewers can buy the produce just by clicking a button and very quickly, boxes of fruit and vegetables are delivered to their doorstep.\nThe report noted that with better access to the Internet, social media apps have become an important part of people’s lives and have been creating more possibilities and value for users.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "According to a statistical report on Internet development, the number of Internet users in China surpassed 1 billion and the Internet penetration rate (普及率) reached 74.4 percent in the country as of June 2022. The increasing Internet access has contributed to the formation of the largest digital society in the world, the report said."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "It is said that Chinese people regard smartphone social media apps as a daily requirement, and most of them spend about two hours a day using the apps."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Jia Zhu, 31, who works for a fashion company in Beijing, told China Daily that she uses her smartphone more than 10 hours a day. “Honestly, I have to say sometimes I can only put my phone down when I’m sleeping,” she said. She uses social media apps mainly to contact family, colleagues, and clients (客户). “I once thought I could leave social media apps at some point, but I found it so hard,” she said. “Most of the information I get is from the apps. If I give them up, I may miss what’s going on.”"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Kong Yiying, a 30-year-old lady from a fishing company in Guangzhou, Guangdong Province, said she could control her time online, especially on social media apps. “I surf the Internet on the computer for a limited time, and spend less than an hour on my smartphone. I use my smartphone to order food and buy some other daily necessities (必需品), which doesn’t take much time online,” she said. She added that self-discipline helped her avoid addiction to the social media apps."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Social media is popular not only among Chinese city dwellers but also among farmers. They use social media apps to sell their produce directly to urban consumers as millions of viewers tune in to watch them. In a live streaming video on a social media platform, a farmer sits in her greenhouse and displays the vegetables and fruit she grows on her farm: tomatoes, cucumbers, peaches, etc. Such videos are particularly popular. Viewers can buy the produce just by clicking a button and very quickly, boxes of fruit and vegetables are delivered to their doorstep."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "The report noted that with better access to the Internet, social media apps have become an important part of people’s lives and have been creating more possibilities and value for users."
+    }
+  ],
+  "source": {
+    "series": "新视野大学英语（第四版）",
+    "book": "读写教程 1",
+    "sourceBook": "NHCE4-RW1",
+    "printedPageStart": 103,
+    "printedPageEnd": 104,
+    "pdfPageStart": 118,
+    "pdfPageEnd": 119,
+    "pdfSha256": "05d7a57fb09156e13d02ce498271c86917869b5327e8981f1eedf205ceb465ec",
+    "ocrFiles": [
+      "tools/College-English/NHCE4-RW1/ocr/json/NHCE4-RW1_118.json",
+      "tools/College-English/NHCE4-RW1/ocr/json/NHCE4-RW1_119.json"
+    ]
+  },
+  "manualReview": {
+    "status": "passed",
+    "reviewer": "Codex",
+    "reviewedAt": "2026-07-30T01:42:06Z",
+    "correctionCount": 8,
+    "evidence": "Full second read: NHCE4-RW1.pdf pages 118-119; images NHCE4-RW1_118.jpg..119.jpg; reviewed-articles/rw1-u04-c.json",
+    "textSha256": "e25201dce9918a67a6b4ddfba4c72012b2e0547d2aeb94850fd1c4e62d510403",
+    "eventSha256": "ba339d290fb0b54ce26bed180734180148480149d2575c00e50ef93bad1fabc4"
+  }
+}

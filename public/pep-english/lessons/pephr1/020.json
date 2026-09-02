@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "pephr1-020",
+  "groupId": "pephr1",
+  "unitNo": 5,
+  "sequenceNo": 20,
+  "section": "Reading for Writing",
+  "title": "Learning English: Biggest Problems",
+  "jsonPath": "pep-english/lessons/pephr1/020.json",
+  "text": "Wang Le Hey, everybody, what are your biggest problems with learning English?\nLiu Wen Hi! I've been studying English since primary school. I used to get high marks in English, but now I'm having a lot of trouble with my listening. When I listen to native English speakers talking in a video, I can catch only a few words. I can never quite get the main idea. Any advice?\nJia Xin Listening to English radio programmes helps me get used to how fast native speakers talk. I also repeat what I hear to help myself to experience the feeling of the language. Sometimes I even record my voice so I can listen to myself and compare my pronunciation with the radio host's! My biggest headache is how to be polite in English. It's so much easier to just say “Open the window!”, but in English that can sound really terrible. I have to think about who I'm talking to and then decide whether to say, “Open the window, please!” or “Could you open the window, please?” or even longer “Would you mind opening the window, please?”\nLi Rui Yeah, that's really hard! I think it all depends on who you're talking to. If I'm talking to a close friend, I can use short requests, like “Open the window”—our relationship is close and we're equals, so I only need a few words to bridge the gap between us. But if I'm talking to someone who isn't very close to me, I must make my request longer—and I must make it a question, not a demand, e.g., “Could you open the window, please?” If I'm talking to someone senior to me, then I should say, “Would you mind opening the window, please?” For me, vocabulary is my biggest problem—there are just SO MANY new words! I can't keep all the new vocabulary straight in my head, and I certainly can't remember how to use them all properly. HELP!",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Wang Le Hey, everybody, what are your biggest problems with learning English?"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Liu Wen Hi! I've been studying English since primary school. I used to get high marks in English, but now I'm having a lot of trouble with my listening. When I listen to native English speakers talking in a video, I can catch only a few words. I can never quite get the main idea. Any advice?"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Jia Xin Listening to English radio programmes helps me get used to how fast native speakers talk. I also repeat what I hear to help myself to experience the feeling of the language. Sometimes I even record my voice so I can listen to myself and compare my pronunciation with the radio host's! My biggest headache is how to be polite in English. It's so much easier to just say “Open the window!”, but in English that can sound really terrible. I have to think about who I'm talking to and then decide whether to say, “Open the window, please!” or “Could you open the window, please?” or even longer “Would you mind opening the window, please?”"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Li Rui Yeah, that's really hard! I think it all depends on who you're talking to. If I'm talking to a close friend, I can use short requests, like “Open the window”—our relationship is close and we're equals, so I only need a few words to bridge the gap between us. But if I'm talking to someone who isn't very close to me, I must make my request longer—and I must make it a question, not a demand, e.g., “Could you open the window, please?” If I'm talking to someone senior to me, then I should say, “Would you mind opening the window, please?” For me, vocabulary is my biggest problem—there are just SO MANY new words! I can't keep all the new vocabulary straight in my head, and I certainly can't remember how to use them all properly. HELP!"
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "必修第一册",
+    "pageStart": 73,
+    "pageEnd": 73,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "e0bf18138b24d7def28b35994a13946b",
+    "pdfSize": 14704146,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/senior-required-1.pdf#page=73",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored the complete forum thread in displayed order, retaining Wang Le's prompt and the full Liu Wen, Jia Xin and Li Rui posts; removed the page-level writing and table instructions."
+    }
+  }
+}

@@ -1,0 +1,667 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-08-01T18:17:57Z",
+  "generator": "tools/generate-kaoyan-english-data.py",
+  "generatorVersion": "1.0.0",
+  "courseId": "kaoyan-english",
+  "title": "考研英语",
+  "totalLessons": 64,
+  "groups": [
+    {
+      "id": "e1",
+      "title": "考研英语一",
+      "subtitle": "1980-2026 历年真题 · 47 份",
+      "lessonCount": 47,
+      "lessons": [
+        {
+          "id": "e1-1980",
+          "sequenceNo": 1,
+          "groupId": "e1",
+          "year": 1980,
+          "title": "1980年考研英语一真题",
+          "jsonPath": "kaoyan-english/lessons/e1/e1-1980.json",
+          "pageCount": 8,
+          "characterCount": 12041
+        },
+        {
+          "id": "e1-1981",
+          "sequenceNo": 2,
+          "groupId": "e1",
+          "year": 1981,
+          "title": "1981年考研英语一真题",
+          "jsonPath": "kaoyan-english/lessons/e1/e1-1981.json",
+          "pageCount": 9,
+          "characterCount": 15914
+        },
+        {
+          "id": "e1-1982",
+          "sequenceNo": 3,
+          "groupId": "e1",
+          "year": 1982,
+          "title": "1982年考研英语一真题",
+          "jsonPath": "kaoyan-english/lessons/e1/e1-1982.json",
+          "pageCount": 10,
+          "characterCount": 15823
+        },
+        {
+          "id": "e1-1983",
+          "sequenceNo": 4,
+          "groupId": "e1",
+          "year": 1983,
+          "title": "1983年考研英语一真题",
+          "jsonPath": "kaoyan-english/lessons/e1/e1-1983.json",
+          "pageCount": 11,
+          "characterCount": 15387
+        },
+        {
+          "id": "e1-1984",
+          "sequenceNo": 5,
+          "groupId": "e1",
+          "year": 1984,
+          "title": "1984年考研英语一真题",
+          "jsonPath": "kaoyan-english/lessons/e1/e1-1984.json",
+          "pageCount": 15,
+          "characterCount": 20263
+        },
+        {
+          "id": "e1-1985",
+          "sequenceNo": 6,
+          "groupId": "e1",
+          "year": 1985,
+          "title": "1985年考研英语一真题",
+          "jsonPath": "kaoyan-english/lessons/e1/e1-1985.json",
+          "pageCount": 13,
+          "characterCount": 18558
+        },
+        {
+          "id": "e1-1986",
+          "sequenceNo": 7,
+          "groupId": "e1",
+          "year": 1986,
+          "title": "1986年考研英语一真题",
+          "jsonPath": "kaoyan-english/lessons/e1/e1-1986.json",
+          "pageCount": 4,
+          "characterCount": 10209
+        },
+        {
+          "id": "e1-1987",
+          "sequenceNo": 8,
+          "groupId": "e1",
+          "year": 1987,
+          "title": "1987年考研英语一真题",
+          "jsonPath": "kaoyan-english/lessons/e1/e1-1987.json",
+          "pageCount": 7,
+          "characterCount": 16633
+        },
+        {
+          "id": "e1-1988",
+          "sequenceNo": 9,
+          "groupId": "e1",
+          "year": 1988,
+          "title": "1988年考研英语一真题",
+          "jsonPath": "kaoyan-english/lessons/e1/e1-1988.json",
+          "pageCount": 7,
+          "characterCount": 20310
+        },
+        {
+          "id": "e1-1989",
+          "sequenceNo": 10,
+          "groupId": "e1",
+          "year": 1989,
+          "title": "1989年考研英语一真题",
+          "jsonPath": "kaoyan-english/lessons/e1/e1-1989.json",
+          "pageCount": 6,
+          "characterCount": 16353
+        },
+        {
+          "id": "e1-1990",
+          "sequenceNo": 11,
+          "groupId": "e1",
+          "year": 1990,
+          "title": "1990年考研英语一真题",
+          "jsonPath": "kaoyan-english/lessons/e1/e1-1990.json",
+          "pageCount": 5,
+          "characterCount": 13278
+        },
+        {
+          "id": "e1-1991",
+          "sequenceNo": 12,
+          "groupId": "e1",
+          "year": 1991,
+          "title": "1991年考研英语一真题",
+          "jsonPath": "kaoyan-english/lessons/e1/e1-1991.json",
+          "pageCount": 6,
+          "characterCount": 16896
+        },
+        {
+          "id": "e1-1992",
+          "sequenceNo": 13,
+          "groupId": "e1",
+          "year": 1992,
+          "title": "1992年考研英语一真题",
+          "jsonPath": "kaoyan-english/lessons/e1/e1-1992.json",
+          "pageCount": 7,
+          "characterCount": 17060
+        },
+        {
+          "id": "e1-1993",
+          "sequenceNo": 14,
+          "groupId": "e1",
+          "year": 1993,
+          "title": "1993年考研英语一真题",
+          "jsonPath": "kaoyan-english/lessons/e1/e1-1993.json",
+          "pageCount": 5,
+          "characterCount": 16473
+        },
+        {
+          "id": "e1-1994",
+          "sequenceNo": 15,
+          "groupId": "e1",
+          "year": 1994,
+          "title": "1994年考研英语一真题",
+          "jsonPath": "kaoyan-english/lessons/e1/e1-1994.json",
+          "pageCount": 5,
+          "characterCount": 19255
+        },
+        {
+          "id": "e1-1995",
+          "sequenceNo": 16,
+          "groupId": "e1",
+          "year": 1995,
+          "title": "1995年考研英语一真题",
+          "jsonPath": "kaoyan-english/lessons/e1/e1-1995.json",
+          "pageCount": 6,
+          "characterCount": 20622
+        },
+        {
+          "id": "e1-1996",
+          "sequenceNo": 17,
+          "groupId": "e1",
+          "year": 1996,
+          "title": "1996年考研英语一真题",
+          "jsonPath": "kaoyan-english/lessons/e1/e1-1996.json",
+          "pageCount": 6,
+          "characterCount": 20441
+        },
+        {
+          "id": "e1-1997",
+          "sequenceNo": 18,
+          "groupId": "e1",
+          "year": 1997,
+          "title": "1997年考研英语一真题",
+          "jsonPath": "kaoyan-english/lessons/e1/e1-1997.json",
+          "pageCount": 6,
+          "characterCount": 22077
+        },
+        {
+          "id": "e1-1998",
+          "sequenceNo": 19,
+          "groupId": "e1",
+          "year": 1998,
+          "title": "1998年考研英语一真题",
+          "jsonPath": "kaoyan-english/lessons/e1/e1-1998.json",
+          "pageCount": 7,
+          "characterCount": 22334
+        },
+        {
+          "id": "e1-1999",
+          "sequenceNo": 20,
+          "groupId": "e1",
+          "year": 1999,
+          "title": "1999年考研英语一真题",
+          "jsonPath": "kaoyan-english/lessons/e1/e1-1999.json",
+          "pageCount": 7,
+          "characterCount": 23604
+        },
+        {
+          "id": "e1-2000",
+          "sequenceNo": 21,
+          "groupId": "e1",
+          "year": 2000,
+          "title": "2000年考研英语一真题",
+          "jsonPath": "kaoyan-english/lessons/e1/e1-2000.json",
+          "pageCount": 6,
+          "characterCount": 22432
+        },
+        {
+          "id": "e1-2001",
+          "sequenceNo": 22,
+          "groupId": "e1",
+          "year": 2001,
+          "title": "2001年考研英语一真题",
+          "jsonPath": "kaoyan-english/lessons/e1/e1-2001.json",
+          "pageCount": 7,
+          "characterCount": 23912
+        },
+        {
+          "id": "e1-2002",
+          "sequenceNo": 23,
+          "groupId": "e1",
+          "year": 2002,
+          "title": "2002年考研英语一真题",
+          "jsonPath": "kaoyan-english/lessons/e1/e1-2002.json",
+          "pageCount": 6,
+          "characterCount": 20176
+        },
+        {
+          "id": "e1-2003",
+          "sequenceNo": 24,
+          "groupId": "e1",
+          "year": 2003,
+          "title": "2003年考研英语一真题",
+          "jsonPath": "kaoyan-english/lessons/e1/e1-2003.json",
+          "pageCount": 6,
+          "characterCount": 20881
+        },
+        {
+          "id": "e1-2004",
+          "sequenceNo": 25,
+          "groupId": "e1",
+          "year": 2004,
+          "title": "2004年考研英语一真题",
+          "jsonPath": "kaoyan-english/lessons/e1/e1-2004.json",
+          "pageCount": 6,
+          "characterCount": 20703
+        },
+        {
+          "id": "e1-2005",
+          "sequenceNo": 26,
+          "groupId": "e1",
+          "year": 2005,
+          "title": "2005年考研英语一真题",
+          "jsonPath": "kaoyan-english/lessons/e1/e1-2005.json",
+          "pageCount": 8,
+          "characterCount": 26431
+        },
+        {
+          "id": "e1-2006",
+          "sequenceNo": 27,
+          "groupId": "e1",
+          "year": 2006,
+          "title": "2006年考研英语一真题",
+          "jsonPath": "kaoyan-english/lessons/e1/e1-2006.json",
+          "pageCount": 9,
+          "characterCount": 26675
+        },
+        {
+          "id": "e1-2007",
+          "sequenceNo": 28,
+          "groupId": "e1",
+          "year": 2007,
+          "title": "2007年考研英语一真题",
+          "jsonPath": "kaoyan-english/lessons/e1/e1-2007.json",
+          "pageCount": 9,
+          "characterCount": 25915
+        },
+        {
+          "id": "e1-2008",
+          "sequenceNo": 29,
+          "groupId": "e1",
+          "year": 2008,
+          "title": "2008年考研英语一真题",
+          "jsonPath": "kaoyan-english/lessons/e1/e1-2008.json",
+          "pageCount": 8,
+          "characterCount": 26177
+        },
+        {
+          "id": "e1-2009",
+          "sequenceNo": 30,
+          "groupId": "e1",
+          "year": 2009,
+          "title": "2009年考研英语一真题",
+          "jsonPath": "kaoyan-english/lessons/e1/e1-2009.json",
+          "pageCount": 8,
+          "characterCount": 25120
+        },
+        {
+          "id": "e1-2010",
+          "sequenceNo": 31,
+          "groupId": "e1",
+          "year": 2010,
+          "title": "2010年考研英语一真题",
+          "jsonPath": "kaoyan-english/lessons/e1/e1-2010.json",
+          "pageCount": 8,
+          "characterCount": 25797
+        },
+        {
+          "id": "e1-2011",
+          "sequenceNo": 32,
+          "groupId": "e1",
+          "year": 2011,
+          "title": "2011年考研英语一真题",
+          "jsonPath": "kaoyan-english/lessons/e1/e1-2011.json",
+          "pageCount": 8,
+          "characterCount": 25425
+        },
+        {
+          "id": "e1-2012",
+          "sequenceNo": 33,
+          "groupId": "e1",
+          "year": 2012,
+          "title": "2012年考研英语一真题",
+          "jsonPath": "kaoyan-english/lessons/e1/e1-2012.json",
+          "pageCount": 8,
+          "characterCount": 26461
+        },
+        {
+          "id": "e1-2013",
+          "sequenceNo": 34,
+          "groupId": "e1",
+          "year": 2013,
+          "title": "2013年考研英语一真题",
+          "jsonPath": "kaoyan-english/lessons/e1/e1-2013.json",
+          "pageCount": 8,
+          "characterCount": 25744
+        },
+        {
+          "id": "e1-2014",
+          "sequenceNo": 35,
+          "groupId": "e1",
+          "year": 2014,
+          "title": "2014年考研英语一真题",
+          "jsonPath": "kaoyan-english/lessons/e1/e1-2014.json",
+          "pageCount": 7,
+          "characterCount": 26311
+        },
+        {
+          "id": "e1-2015",
+          "sequenceNo": 36,
+          "groupId": "e1",
+          "year": 2015,
+          "title": "2015年考研英语一真题",
+          "jsonPath": "kaoyan-english/lessons/e1/e1-2015.json",
+          "pageCount": 8,
+          "characterCount": 26339
+        },
+        {
+          "id": "e1-2016",
+          "sequenceNo": 37,
+          "groupId": "e1",
+          "year": 2016,
+          "title": "2016年考研英语一真题",
+          "jsonPath": "kaoyan-english/lessons/e1/e1-2016.json",
+          "pageCount": 9,
+          "characterCount": 24787
+        },
+        {
+          "id": "e1-2017",
+          "sequenceNo": 38,
+          "groupId": "e1",
+          "year": 2017,
+          "title": "2017年考研英语一真题",
+          "jsonPath": "kaoyan-english/lessons/e1/e1-2017.json",
+          "pageCount": 8,
+          "characterCount": 25341
+        },
+        {
+          "id": "e1-2018",
+          "sequenceNo": 39,
+          "groupId": "e1",
+          "year": 2018,
+          "title": "2018年考研英语一真题",
+          "jsonPath": "kaoyan-english/lessons/e1/e1-2018.json",
+          "pageCount": 7,
+          "characterCount": 24819
+        },
+        {
+          "id": "e1-2019",
+          "sequenceNo": 40,
+          "groupId": "e1",
+          "year": 2019,
+          "title": "2019年考研英语一真题",
+          "jsonPath": "kaoyan-english/lessons/e1/e1-2019.json",
+          "pageCount": 8,
+          "characterCount": 25833
+        },
+        {
+          "id": "e1-2020",
+          "sequenceNo": 41,
+          "groupId": "e1",
+          "year": 2020,
+          "title": "2020年考研英语一真题",
+          "jsonPath": "kaoyan-english/lessons/e1/e1-2020.json",
+          "pageCount": 13,
+          "characterCount": 25410
+        },
+        {
+          "id": "e1-2021",
+          "sequenceNo": 42,
+          "groupId": "e1",
+          "year": 2021,
+          "title": "2021年考研英语一真题",
+          "jsonPath": "kaoyan-english/lessons/e1/e1-2021.json",
+          "pageCount": 12,
+          "characterCount": 26119
+        },
+        {
+          "id": "e1-2022",
+          "sequenceNo": 43,
+          "groupId": "e1",
+          "year": 2022,
+          "title": "2022年考研英语一真题",
+          "jsonPath": "kaoyan-english/lessons/e1/e1-2022.json",
+          "pageCount": 12,
+          "characterCount": 27068
+        },
+        {
+          "id": "e1-2023",
+          "sequenceNo": 44,
+          "groupId": "e1",
+          "year": 2023,
+          "title": "2023年考研英语一真题",
+          "jsonPath": "kaoyan-english/lessons/e1/e1-2023.json",
+          "pageCount": 10,
+          "characterCount": 26257
+        },
+        {
+          "id": "e1-2024",
+          "sequenceNo": 45,
+          "groupId": "e1",
+          "year": 2024,
+          "title": "2024年考研英语一真题",
+          "jsonPath": "kaoyan-english/lessons/e1/e1-2024.json",
+          "pageCount": 12,
+          "characterCount": 26951
+        },
+        {
+          "id": "e1-2025",
+          "sequenceNo": 46,
+          "groupId": "e1",
+          "year": 2025,
+          "title": "2025年考研英语一真题",
+          "jsonPath": "kaoyan-english/lessons/e1/e1-2025.json",
+          "pageCount": 12,
+          "characterCount": 26537
+        },
+        {
+          "id": "e1-2026",
+          "sequenceNo": 47,
+          "groupId": "e1",
+          "year": 2026,
+          "title": "2026年考研英语一真题",
+          "jsonPath": "kaoyan-english/lessons/e1/e1-2026.json",
+          "pageCount": 12,
+          "characterCount": 26259
+        }
+      ]
+    },
+    {
+      "id": "e2",
+      "title": "考研英语二",
+      "subtitle": "2010-2026 历年真题 · 17 份",
+      "lessonCount": 17,
+      "lessons": [
+        {
+          "id": "e2-2010",
+          "sequenceNo": 1,
+          "groupId": "e2",
+          "year": 2010,
+          "title": "2010年考研英语二真题",
+          "jsonPath": "kaoyan-english/lessons/e2/e2-2010.json",
+          "pageCount": 8,
+          "characterCount": 24313
+        },
+        {
+          "id": "e2-2011",
+          "sequenceNo": 2,
+          "groupId": "e2",
+          "year": 2011,
+          "title": "2011年考研英语二真题",
+          "jsonPath": "kaoyan-english/lessons/e2/e2-2011.json",
+          "pageCount": 8,
+          "characterCount": 24329
+        },
+        {
+          "id": "e2-2012",
+          "sequenceNo": 3,
+          "groupId": "e2",
+          "year": 2012,
+          "title": "2012年考研英语二真题",
+          "jsonPath": "kaoyan-english/lessons/e2/e2-2012.json",
+          "pageCount": 8,
+          "characterCount": 24299
+        },
+        {
+          "id": "e2-2013",
+          "sequenceNo": 4,
+          "groupId": "e2",
+          "year": 2013,
+          "title": "2013年考研英语二真题",
+          "jsonPath": "kaoyan-english/lessons/e2/e2-2013.json",
+          "pageCount": 7,
+          "characterCount": 21016
+        },
+        {
+          "id": "e2-2014",
+          "sequenceNo": 5,
+          "groupId": "e2",
+          "year": 2014,
+          "title": "2014年考研英语二真题",
+          "jsonPath": "kaoyan-english/lessons/e2/e2-2014.json",
+          "pageCount": 7,
+          "characterCount": 23089
+        },
+        {
+          "id": "e2-2015",
+          "sequenceNo": 6,
+          "groupId": "e2",
+          "year": 2015,
+          "title": "2015年考研英语二真题",
+          "jsonPath": "kaoyan-english/lessons/e2/e2-2015.json",
+          "pageCount": 7,
+          "characterCount": 22973
+        },
+        {
+          "id": "e2-2016",
+          "sequenceNo": 7,
+          "groupId": "e2",
+          "year": 2016,
+          "title": "2016年考研英语二真题",
+          "jsonPath": "kaoyan-english/lessons/e2/e2-2016.json",
+          "pageCount": 7,
+          "characterCount": 23084
+        },
+        {
+          "id": "e2-2017",
+          "sequenceNo": 8,
+          "groupId": "e2",
+          "year": 2017,
+          "title": "2017年考研英语二真题",
+          "jsonPath": "kaoyan-english/lessons/e2/e2-2017.json",
+          "pageCount": 31,
+          "characterCount": 25073
+        },
+        {
+          "id": "e2-2018",
+          "sequenceNo": 9,
+          "groupId": "e2",
+          "year": 2018,
+          "title": "2018年考研英语二真题",
+          "jsonPath": "kaoyan-english/lessons/e2/e2-2018.json",
+          "pageCount": 15,
+          "characterCount": 22986
+        },
+        {
+          "id": "e2-2019",
+          "sequenceNo": 10,
+          "groupId": "e2",
+          "year": 2019,
+          "title": "2019年考研英语二真题",
+          "jsonPath": "kaoyan-english/lessons/e2/e2-2019.json",
+          "pageCount": 14,
+          "characterCount": 23702
+        },
+        {
+          "id": "e2-2020",
+          "sequenceNo": 11,
+          "groupId": "e2",
+          "year": 2020,
+          "title": "2020年考研英语二真题",
+          "jsonPath": "kaoyan-english/lessons/e2/e2-2020.json",
+          "pageCount": 11,
+          "characterCount": 22786
+        },
+        {
+          "id": "e2-2021",
+          "sequenceNo": 12,
+          "groupId": "e2",
+          "year": 2021,
+          "title": "2021年考研英语二真题",
+          "jsonPath": "kaoyan-english/lessons/e2/e2-2021.json",
+          "pageCount": 11,
+          "characterCount": 23038
+        },
+        {
+          "id": "e2-2022",
+          "sequenceNo": 13,
+          "groupId": "e2",
+          "year": 2022,
+          "title": "2022年考研英语二真题",
+          "jsonPath": "kaoyan-english/lessons/e2/e2-2022.json",
+          "pageCount": 11,
+          "characterCount": 23320
+        },
+        {
+          "id": "e2-2023",
+          "sequenceNo": 14,
+          "groupId": "e2",
+          "year": 2023,
+          "title": "2023年考研英语二真题",
+          "jsonPath": "kaoyan-english/lessons/e2/e2-2023.json",
+          "pageCount": 12,
+          "characterCount": 23772
+        },
+        {
+          "id": "e2-2024",
+          "sequenceNo": 15,
+          "groupId": "e2",
+          "year": 2024,
+          "title": "2024年考研英语二真题",
+          "jsonPath": "kaoyan-english/lessons/e2/e2-2024.json",
+          "pageCount": 12,
+          "characterCount": 24161
+        },
+        {
+          "id": "e2-2025",
+          "sequenceNo": 16,
+          "groupId": "e2",
+          "year": 2025,
+          "title": "2025年考研英语二真题",
+          "jsonPath": "kaoyan-english/lessons/e2/e2-2025.json",
+          "pageCount": 11,
+          "characterCount": 23452
+        },
+        {
+          "id": "e2-2026",
+          "sequenceNo": 17,
+          "groupId": "e2",
+          "year": 2026,
+          "title": "2026年考研英语二真题",
+          "jsonPath": "kaoyan-english/lessons/e2/e2-2026.json",
+          "pageCount": 12,
+          "characterCount": 23886
+        }
+      ]
+    }
+  ]
+}

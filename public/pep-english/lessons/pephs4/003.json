@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "pephs4-003",
+  "groupId": "pephs4",
+  "unitNo": 2,
+  "sequenceNo": 3,
+  "section": "Reading and Thinking",
+  "title": "Experience the Iconic Features of Australia",
+  "jsonPath": "pep-english/lessons/pephs4/003.json",
+  "text": "25 Sep Next week I’m travelling to Australia to visit a friend there over the school holidays. I plan to keep this blog to record my experiences and what I learn. I have already done some research on the country. Located to the south of the equator, below many other countries on the globe, it’s often informally referred to as “down under”.\nI have also read about some iconic sites, such as the Sydney Opera House and the Great Ocean Road, and animals like the cute koalas and kangaroos. I can’t wait to see all of them! However, as I major in social studies, I’m more interested in meeting people in Australia and experiencing their culture, food, and way of life.\n1 Oct I’m here in Sydney! Since I arrived, my friend has brought me to my first open-air barbecue and has also shared many different but yummy meals with me, so my first impressions of Australia have been all about food! A lot of typical Australian food, such as the Sunday roast, is originally British. Bakeries, fast-food joints, butcher shops, cafes, and restaurants everywhere provide some of the premier food experiences in the world. The influence of Asian cultures, on the other hand, led to the introduction of bean curd and Asian herbs, along with Australian versions of foods like the Chinese-inspired dim sim.\n3 Oct My friend and I have arrived in Katherine, a town in Australia’s Northern Territory. We’re here to learn about the life and customs of the Aborigines, who are native to Australia. The Aboriginal population might be small, but its influence is still visible. For example, “Bondi” in “Bondi Beach” is an Aboriginal word meaning “water breaking over rocks”.\nTo survive in this vast land on the ocean, the Aborigines had to be in close contact with nature. This shows in their music, too, which celebrates the natural world and the spiritual world around them. Most of their musical instruments are really just sticks found on the ground, among which there is an amazing instrument called the didgeridoo.\nThe didgeridoo is made from a tree branch which is hollow. To play the didgeridoo, you put your mouth on one end and blow while vibrating your lips. Unlike a horn, there are no finger holes. The didgeridoo player has to change the shape of his mouth in order to change pitch. A skilled player can play for a long time without stopping to breathe. He does this by continually breathing in through his nose while breathing out through his mouth and into the didgeridoo. I tried to learn how to play it, but after trying for hours, I was convinced that I could never make a musical sound with this instrument!\n6 Oct It’s almost time for me to say goodbye to Australia. I’ve enjoyed my time here very much. After being here for a while, my biggest impression is the complicated mix of peoples and cultures that make up the nation. Although the main cultural influence since 1788 has been Western culture, minority cultures have also played a part in shaping the unique Australian culture, with many of the new cultural influences contributed by immigrants. It is said that now nearly half of all Australian citizens were either born overseas or have parents who were born overseas.\nPersonally speaking, what I like most about Australia is the people themselves. They have a straightforward and free-and-easy attitude towards life, and their friendliness and warmth made me feel at home wherever I went.\nAfter experiencing Australia, I have to say that I agree with the tourism slogan: “There’s nothing like Australia.”",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "25 Sep Next week I’m travelling to Australia to visit a friend there over the school holidays. I plan to keep this blog to record my experiences and what I learn. I have already done some research on the country. Located to the south of the equator, below many other countries on the globe, it’s often informally referred to as “down under”.\nI have also read about some iconic sites, such as the Sydney Opera House and the Great Ocean Road, and animals like the cute koalas and kangaroos. I can’t wait to see all of them! However, as I major in social studies, I’m more interested in meeting people in Australia and experiencing their culture, food, and way of life."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "1 Oct I’m here in Sydney! Since I arrived, my friend has brought me to my first open-air barbecue and has also shared many different but yummy meals with me, so my first impressions of Australia have been all about food! A lot of typical Australian food, such as the Sunday roast, is originally British. Bakeries, fast-food joints, butcher shops, cafes, and restaurants everywhere provide some of the premier food experiences in the world. The influence of Asian cultures, on the other hand, led to the introduction of bean curd and Asian herbs, along with Australian versions of foods like the Chinese-inspired dim sim."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "3 Oct My friend and I have arrived in Katherine, a town in Australia’s Northern Territory. We’re here to learn about the life and customs of the Aborigines, who are native to Australia. The Aboriginal population might be small, but its influence is still visible. For example, “Bondi” in “Bondi Beach” is an Aboriginal word meaning “water breaking over rocks”.\nTo survive in this vast land on the ocean, the Aborigines had to be in close contact with nature. This shows in their music, too, which celebrates the natural world and the spiritual world around them. Most of their musical instruments are really just sticks found on the ground, among which there is an amazing instrument called the didgeridoo.\nThe didgeridoo is made from a tree branch which is hollow. To play the didgeridoo, you put your mouth on one end and blow while vibrating your lips. Unlike a horn, there are no finger holes. The didgeridoo player has to change the shape of his mouth in order to change pitch. A skilled player can play for a long time without stopping to breathe. He does this by continually breathing in through his nose while breathing out through his mouth and into the didgeridoo. I tried to learn how to play it, but after trying for hours, I was convinced that I could never make a musical sound with this instrument!"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "6 Oct It’s almost time for me to say goodbye to Australia. I’ve enjoyed my time here very much. After being here for a while, my biggest impression is the complicated mix of peoples and cultures that make up the nation. Although the main cultural influence since 1788 has been Western culture, minority cultures have also played a part in shaping the unique Australian culture, with many of the new cultural influences contributed by immigrants. It is said that now nearly half of all Australian citizens were either born overseas or have parents who were born overseas.\nPersonally speaking, what I like most about Australia is the people themselves. They have a straightforward and free-and-easy attitude towards life, and their friendliness and warmth made me feel at home wherever I went.\nAfter experiencing Australia, I have to say that I agree with the tourism slogan: “There’s nothing like Australia.”"
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "选择性必修第四册",
+    "pageStart": 21,
+    "pageEnd": 22,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "6fc94127b322f6f5abff068bef6faa2e",
+    "pdfSize": 12330614,
+    "manualReview": {
+      "method": "visual-line-by-line-and-cross-page-order",
+      "source": "content/pep-english/raw/senior-selective-4.pdf#page=21-22",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored all four dated blog entries and their internal paragraph breaks, joining the 3 Oct entry across the page boundary; verified place names, quotations and punctuation and excluded lead-in prompts, note-taking guidance, questions, images and furniture. Pages 20 and 23 confirm both boundaries."
+    }
+  }
+}

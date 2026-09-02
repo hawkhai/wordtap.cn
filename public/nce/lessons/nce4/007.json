@@ -1,0 +1,159 @@
+{
+  "schemaVersion": 1,
+  "id": "nce4-007",
+  "bookId": "nce4",
+  "bookNo": 4,
+  "lessonNo": 7,
+  "lessonRange": [
+    7
+  ],
+  "title": "Bats",
+  "titleZh": "蝙蝠",
+  "question": "In what way does echo-location in bats play an utilitarian role?",
+  "questionZh": "并非所有动物发出的声音都起语言作用；我们只需看看蝙蝠回声定位这一非凡的发现，就能看到一个声音纯粹起实用作用的例子。",
+  "text": "In what way does echo-location in bats play an utilitarian role?\n\nNot all sounds made by animals serve as language, and we have only to turn to that extraordinary discovery of echo-location in bats to see a case in which the voice plays a strictly utilitarian role.\nTo get a full appreciation of what this means we must turn first to some recent human inventions.\nEveryone knows that if he shouts in the vicinity of a wall or a mountainside, an echo will come back.\nThe further off this solid obstruction, the longer time will elapse for the return of the echo.\nA sound made by tapping on the hull of a ship will be reflected from the sea bottom, and by measuring the time interval between the taps and the receipt of the echoes the depth of the sea at that point can be calculated.\nSo was born the echo-sounding apparatus, now in general use in ships.\nEvery solid object will reflect a sound, varying according to the size and nature of the object.\nA shoal of fish will do this.\nSo it is a comparatively simple step from locating the sea bottom to locating a shoal of fish.\nWith experience, and with improved apparatus, it is now possible not only to locate a shoal but to tell if it is herring, cod, or other well-known fish, by the pattern of its echo.\nIt has been found that certain bats emit squeaks and by receiving the echoes, they can locate and steer clear of obstacles -- or locate flying insects on which they feed.\nThis echo-location in bats is often compared with radar, the principle of which is similar.",
+  "bodyText": "Not all sounds made by animals serve as language, and we have only to turn to that extraordinary discovery of echo-location in bats to see a case in which the voice plays a strictly utilitarian role.\nTo get a full appreciation of what this means we must turn first to some recent human inventions.\nEveryone knows that if he shouts in the vicinity of a wall or a mountainside, an echo will come back.\nThe further off this solid obstruction, the longer time will elapse for the return of the echo.\nA sound made by tapping on the hull of a ship will be reflected from the sea bottom, and by measuring the time interval between the taps and the receipt of the echoes the depth of the sea at that point can be calculated.\nSo was born the echo-sounding apparatus, now in general use in ships.\nEvery solid object will reflect a sound, varying according to the size and nature of the object.\nA shoal of fish will do this.\nSo it is a comparatively simple step from locating the sea bottom to locating a shoal of fish.\nWith experience, and with improved apparatus, it is now possible not only to locate a shoal but to tell if it is herring, cod, or other well-known fish, by the pattern of its echo.\nIt has been found that certain bats emit squeaks and by receiving the echoes, they can locate and steer clear of obstacles -- or locate flying insects on which they feed.\nThis echo-location in bats is often compared with radar, the principle of which is similar.",
+  "bodyTextZh": "并非所有动物发出的声音都属于“语言”范畴；我们只需看看蝙蝠的回声定位能力这一非凡的生理现象，就能明白：在某些情况下，声音仅仅起着实用性的作用（即用于获取信息或导航）。\n要充分理解这意味着什么，我们首先必须看看一些最近的人类发明。\n大家都知道，如果在墙壁或山坡附近大声喊叫，就会听到回声。\n距离这个固体障碍物越远，回声返回所需的时间就越长。\n当敲击船体时，声音会从海底反射回来；通过测量敲击声与接收到回声之间的时间间隔，就可以计算出该位置的海水深度。\n就这样，回声探测装置诞生了，如今已广泛应用于各类船舶。\n每个固体物体都会反射声音，反射效果会因物体的大小和材质而有所不同。\n鱼群也会反射声音。\n因此，从确定海底的位置到找到鱼群的位置，这个过程相对来说是相当简单的。\n凭借丰富的经验以及更先进的设备，现在不仅能够定位鱼群的位置，还能通过鱼群产生的回声信号来判断它们是鲱鱼、鳕鱼，还是其他常见的鱼类。\n人们发现，某些蝙蝠会发出尖叫声，并通过接收回声它们能够识别并避开障碍物，同时也能找到可供它们捕食的飞虫。\n蝙蝠的回声定位系统常被比作雷达，因为它们的工作原理是相似的。",
+  "sentences": [
+    {
+      "index": 0,
+      "startTime": 0.61,
+      "endTime": 2.34,
+      "en": "Lesson 7",
+      "zh": "第7课",
+      "role": "lesson"
+    },
+    {
+      "index": 1,
+      "startTime": 2.34,
+      "endTime": 9.7,
+      "en": "Bats",
+      "zh": "蝙蝠",
+      "role": "title"
+    },
+    {
+      "index": 2,
+      "startTime": 9.7,
+      "endTime": 18.1,
+      "en": "In what way does echo-location in bats play an utilitarian role?",
+      "zh": "并非所有动物发出的声音都起语言作用；我们只需看看蝙蝠回声定位这一非凡的发现，就能看到一个声音纯粹起实用作用的例子。",
+      "role": "question"
+    },
+    {
+      "index": 3,
+      "startTime": 18.1,
+      "endTime": 35.97,
+      "en": "Not all sounds made by animals serve as language, and we have only to turn to that extraordinary discovery of echo-location in bats to see a case in which the voice plays a strictly utilitarian role.",
+      "zh": "并非所有动物发出的声音都属于“语言”范畴；我们只需看看蝙蝠的回声定位能力这一非凡的生理现象，就能明白：在某些情况下，声音仅仅起着实用性的作用（即用于获取信息或导航）。",
+      "role": "body"
+    },
+    {
+      "index": 4,
+      "startTime": 35.97,
+      "endTime": 44.33,
+      "en": "To get a full appreciation of what this means we must turn first to some recent human inventions.",
+      "zh": "要充分理解这意味着什么，我们首先必须看看一些最近的人类发明。",
+      "role": "body"
+    },
+    {
+      "index": 5,
+      "startTime": 44.33,
+      "endTime": 52.71,
+      "en": "Everyone knows that if he shouts in the vicinity of a wall or a mountainside, an echo will come back.",
+      "zh": "大家都知道，如果在墙壁或山坡附近大声喊叫，就会听到回声。",
+      "role": "body"
+    },
+    {
+      "index": 6,
+      "startTime": 52.71,
+      "endTime": 61.27,
+      "en": "The further off this solid obstruction, the longer time will elapse for the return of the echo.",
+      "zh": "距离这个固体障碍物越远，回声返回所需的时间就越长。",
+      "role": "body"
+    },
+    {
+      "index": 7,
+      "startTime": 61.27,
+      "endTime": 79.36,
+      "en": "A sound made by tapping on the hull of a ship will be reflected from the sea bottom, and by measuring the time interval between the taps and the receipt of the echoes the depth of the sea at that point can be calculated.",
+      "zh": "当敲击船体时，声音会从海底反射回来；通过测量敲击声与接收到回声之间的时间间隔，就可以计算出该位置的海水深度。",
+      "role": "body"
+    },
+    {
+      "index": 8,
+      "startTime": 79.36,
+      "endTime": 86.48,
+      "en": "So was born the echo-sounding apparatus, now in general use in ships.",
+      "zh": "就这样，回声探测装置诞生了，如今已广泛应用于各类船舶。",
+      "role": "body"
+    },
+    {
+      "index": 9,
+      "startTime": 86.48,
+      "endTime": 94.94,
+      "en": "Every solid object will reflect a sound, varying according to the size and nature of the object.",
+      "zh": "每个固体物体都会反射声音，反射效果会因物体的大小和材质而有所不同。",
+      "role": "body"
+    },
+    {
+      "index": 10,
+      "startTime": 94.94,
+      "endTime": 97.58,
+      "en": "A shoal of fish will do this.",
+      "zh": "鱼群也会反射声音。",
+      "role": "body"
+    },
+    {
+      "index": 11,
+      "startTime": 97.58,
+      "endTime": 105.89,
+      "en": "So it is a comparatively simple step from locating the sea bottom to locating a shoal of fish.",
+      "zh": "因此，从确定海底的位置到找到鱼群的位置，这个过程相对来说是相当简单的。",
+      "role": "body"
+    },
+    {
+      "index": 12,
+      "startTime": 105.89,
+      "endTime": 121.55,
+      "en": "With experience, and with improved apparatus, it is now possible not only to locate a shoal but to tell if it is herring, cod, or other well-known fish, by the pattern of its echo.",
+      "zh": "凭借丰富的经验以及更先进的设备，现在不仅能够定位鱼群的位置，还能通过鱼群产生的回声信号来判断它们是鲱鱼、鳕鱼，还是其他常见的鱼类。",
+      "role": "body"
+    },
+    {
+      "index": 13,
+      "startTime": 121.55,
+      "endTime": 135.81,
+      "en": "It has been found that certain bats emit squeaks and by receiving the echoes, they can locate and steer clear of obstacles -- or locate flying insects on which they feed.",
+      "zh": "人们发现，某些蝙蝠会发出尖叫声，并通过接收回声它们能够识别并避开障碍物，同时也能找到可供它们捕食的飞虫。",
+      "role": "body"
+    },
+    {
+      "index": 14,
+      "startTime": 135.81,
+      "endTime": null,
+      "en": "This echo-location in bats is often compared with radar, the principle of which is similar.",
+      "zh": "蝙蝠的回声定位系统常被比作雷达，因为它们的工作原理是相似的。",
+      "role": "body"
+    }
+  ],
+  "audio": {
+    "fileName": "07－Bats.mp3",
+    "sourcePath": "content/NCE-Flow/NCE4/07－Bats.mp3",
+    "exists": true
+  },
+  "source": {
+    "repository": "NCE-Flow",
+    "lrcFileName": "07－Bats.lrc",
+    "lrcPath": "content/NCE-Flow/NCE4/07－Bats.lrc",
+    "sourceDataFile": "content/NCE-Flow/static/data.json",
+    "generatedAt": "2026-07-23T02:59:02+00:00",
+    "generator": "scripts/generate_nce_json.py",
+    "generatorVersion": "2.0.0",
+    "metadata": {
+      "al": "新概念英语（四）",
+      "ar": "MP3 同步字幕版（美音）",
+      "ti": "Bats",
+      "by": "更多学习内容，请到VeryCD.com搜索“露珠”"
+    }
+  }
+}

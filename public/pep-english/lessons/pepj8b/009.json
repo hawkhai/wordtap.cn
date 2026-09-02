@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "pepj8b-009",
+  "groupId": "pepj8b",
+  "unitNo": 5,
+  "sequenceNo": 9,
+  "section": "Section B",
+  "title": "Do You Remember What You Were Doing?",
+  "jsonPath": "pep-english/lessons/pepj8b/009.json",
+  "text": "People often remember what they were doing when they heard the news of important events in history. In America, for example, many people remember what they were doing on April 4, 1968. This was an important event in American history. On this day, Dr. Martin Luther King was killed. Although some people may not remember who killed him, they remember what they were doing when they heard the news.\nRobert Allen is now over 50, but he was a school pupil at that time. \"I was at home with my parents,\" Robert remembers. \"We were eating dinner in the kitchen when we heard the news on the radio. The news reporter said, 'Dr. King died just 10 minutes ago.' My parents were completely shocked! My parents did not talk after that, and we finished the rest of our dinner in silence.\"\nMore recently, most Americans remember what they were doing when the World Trade Center in New York was taken down by terrorists. Even the date — September 11, 2001 — has meaning to most Americans.\nThis was a day Kate Smith will never forget. She remembers working in her office near the two towers. \"My friend shouted that a plane just hit the World Trade Center! I didn't believe him at first, but then I looked out of the window and realized that it was true. I was so scared that I could hardly think clearly after that.\"",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "People often remember what they were doing when they heard the news of important events in history. In America, for example, many people remember what they were doing on April 4, 1968. This was an important event in American history. On this day, Dr. Martin Luther King was killed. Although some people may not remember who killed him, they remember what they were doing when they heard the news."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Robert Allen is now over 50, but he was a school pupil at that time. \"I was at home with my parents,\" Robert remembers. \"We were eating dinner in the kitchen when we heard the news on the radio. The news reporter said, 'Dr. King died just 10 minutes ago.' My parents were completely shocked! My parents did not talk after that, and we finished the rest of our dinner in silence.\""
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "More recently, most Americans remember what they were doing when the World Trade Center in New York was taken down by terrorists. Even the date — September 11, 2001 — has meaning to most Americans."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "This was a day Kate Smith will never forget. She remembers working in her office near the two towers. \"My friend shouted that a plane just hit the World Trade Center! I didn't believe him at first, but then I looked out of the window and realized that it was true. I was so scared that I could hardly think clearly after that.\""
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "初中",
+    "book": "八年级下册",
+    "pageStart": 47,
+    "pageEnd": 47,
+    "extractionMode": "ocr",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "21d35e04f1c22b74a3fe3e95e88adff9",
+    "pdfSize": 18208880,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/junior-8b.pdf#page=47",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored the printed title, all four complete paragraphs and nested quotations, corrected Section B metadata, and excluded 2a/2b prompts and the reading-strategy sidebar."
+    }
+  }
+}

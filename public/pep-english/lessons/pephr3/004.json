@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "id": "pephr3-004",
+  "groupId": "pephr3",
+  "unitNo": 1,
+  "sequenceNo": 4,
+  "section": "Reading for Writing",
+  "title": "My Amazing Naadam Experience",
+  "jsonPath": "pep-english/lessons/pephr3/004.json",
+  "text": "I experienced the Naadam Festival in China's Inner Mongolia Autonomous Region for the first time this year. The festival falls on the fourth day of the sixth month of the lunar calendar, usually lasting for three days. Naadam means “games” in Mongolian, and it is represented by three events: horse racing, wrestling, and archery, which are all so exciting to watch!\nOn the first day, I set off to the games early with my friend Burin. I saw a lot of people wearing fancy Mongolian robes. Some were feeding their horses, some were practising archery, and others were chatting or taking photographs. Burin told me that Mongolians travel every year from near and far to attend the festival, just as their ancestors had done for centuries.\nAfter the opening ceremony and some amazing performances, the wrestling competition began. Mongolian wrestling is different from the wrestling in the Olympic Games. There are no rounds, and wrestlers are not separated by weight. The wrestler loses if any part of his body above his knee touches the ground. After singing some songs, the competitors danced onto the green field, waving their arms in the air as if they were eagles. I was quite moved by their show of strength and grace.\nI absolutely enjoyed the archery, too, but the horse races were my favourite part. However, I was surprised to see that the riders were boys and girls! I heard it is because children are lighter and the horses can run faster and farther. At first, I was a little worried about the children's safety, but Burin said, “Don't worry. They've been riding horses all their lives. They'll be just fine.” That was the moment I started to understand why people say “Horses are at the heart of Mongolian culture”....\nI'm finally back home now, feeling really tired, but celebrating Naadam with my friend was totally worth it. He invited me back for the winter to stay in a traditional Mongolian tent and eat hot pot. I can't wait!",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "I experienced the Naadam Festival in China's Inner Mongolia Autonomous Region for the first time this year. The festival falls on the fourth day of the sixth month of the lunar calendar, usually lasting for three days. Naadam means “games” in Mongolian, and it is represented by three events: horse racing, wrestling, and archery, which are all so exciting to watch!"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "On the first day, I set off to the games early with my friend Burin. I saw a lot of people wearing fancy Mongolian robes. Some were feeding their horses, some were practising archery, and others were chatting or taking photographs. Burin told me that Mongolians travel every year from near and far to attend the festival, just as their ancestors had done for centuries."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "After the opening ceremony and some amazing performances, the wrestling competition began. Mongolian wrestling is different from the wrestling in the Olympic Games. There are no rounds, and wrestlers are not separated by weight. The wrestler loses if any part of his body above his knee touches the ground. After singing some songs, the competitors danced onto the green field, waving their arms in the air as if they were eagles. I was quite moved by their show of strength and grace."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "I absolutely enjoyed the archery, too, but the horse races were my favourite part. However, I was surprised to see that the riders were boys and girls! I heard it is because children are lighter and the horses can run faster and farther. At first, I was a little worried about the children's safety, but Burin said, “Don't worry. They've been riding horses all their lives. They'll be just fine.” That was the moment I started to understand why people say “Horses are at the heart of Mongolian culture”...."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "I'm finally back home now, feeling really tired, but celebrating Naadam with my friend was totally worth it. He invited me back for the winter to stay in a traditional Mongolian tent and eat hot pot. I can't wait!"
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "必修第三册",
+    "pageStart": 15,
+    "pageEnd": 15,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "31e51a16693d03177a5825f53f612a87",
+    "pdfSize": 14202806,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/senior-required-3.pdf#page=15",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored the complete five-paragraph model diary entry in printed order; retained the printed ellipsis and excluded structural annotation boxes, instruction, photograph and page furniture."
+    }
+  }
+}

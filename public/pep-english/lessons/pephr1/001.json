@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "pephr1-001",
+  "groupId": "pephr1",
+  "unitNo": 1,
+  "sequenceNo": 1,
+  "section": "Reading and Thinking",
+  "title": "First Impressions",
+  "jsonPath": "pep-english/lessons/pephr1/001.json",
+  "text": "7:00 a.m.\nSo this is it—senior high school at last! I'm not outgoing so I'm a little anxious right now. I want to make a good first impression. Will I make any friends? What if no one talks to me?\n12:30 p.m.\nI just had my first maths class at senior high school! The class was difficult, but the teacher was kind and friendly. He even told us a funny story, and everyone laughed so much! I found most of my classmates and teachers friendly and helpful.\n5:32 p.m.\nThis afternoon, we had our chemistry class in the science lab. The lab is new and the lesson was great, but the guy next to me tried to talk to me the whole time. I couldn't concentrate on the experiment. I really wanted to tell him to please be quiet and leave me alone!\n10:29 p.m.\nWhat a day! This morning, I was worried that no one would talk to me. But I was wrong. I didn't feel awkward or frightened at all. I miss my friends from junior high school, but I believe I will make new friends here, and there's a lot to explore at senior high. I feel much more confident than I felt this morning. I think that tomorrow will be a great day!",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "7:00 a.m.\nSo this is it—senior high school at last! I'm not outgoing so I'm a little anxious right now. I want to make a good first impression. Will I make any friends? What if no one talks to me?"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "12:30 p.m.\nI just had my first maths class at senior high school! The class was difficult, but the teacher was kind and friendly. He even told us a funny story, and everyone laughed so much! I found most of my classmates and teachers friendly and helpful."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "5:32 p.m.\nThis afternoon, we had our chemistry class in the science lab. The lab is new and the lesson was great, but the guy next to me tried to talk to me the whole time. I couldn't concentrate on the experiment. I really wanted to tell him to please be quiet and leave me alone!"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "10:29 p.m.\nWhat a day! This morning, I was worried that no one would talk to me. But I was wrong. I didn't feel awkward or frightened at all. I miss my friends from junior high school, but I believe I will make new friends here, and there's a lot to explore at senior high. I feel much more confident than I felt this morning. I think that tomorrow will be a great day!"
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "必修第一册",
+    "pageStart": 11,
+    "pageEnd": 11,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "e0bf18138b24d7def28b35994a13946b",
+    "pdfSize": 14704146,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/senior-required-1.pdf#page=11",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored all four timestamped posts in their printed reading order; repaired the automatic two-column interleaving and truncation, and removed the emotion-selection and drawing instructions."
+    }
+  }
+}

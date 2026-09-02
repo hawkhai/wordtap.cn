@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "id": "pephs4-018",
+  "groupId": "pephs4",
+  "unitNo": 5,
+  "sequenceNo": 18,
+  "section": "Using Language",
+  "title": "Kelly Xu’s Cover Letter",
+  "jsonPath": "pep-english/lessons/pephs4/018.json",
+  "text": "Dear Sir/Madam,\nI would like to apply for the position of camp helper. Please find my CV attached.\nI believe I would be a valuable addition to your team. My English is at an intermediate level, and I have travelled to several English-speaking countries. I have also helped to organise a three-day tour of my city for visiting exchange students.\nI have experience in working with animals, and I have also volunteered at a local library to help organise the children’s section. I am a team player and I enjoy working with others. I have been captain of my school table tennis team for two years, so I know how to lead and decide on priorities.\nWith my proficiency in Chinese calligraphy, I could also conduct classes for your visitors to help them learn more about this beautiful aspect of Chinese culture.\nThe prospect of welcoming exchange students to our country is very exciting, and I am keen to use my skills to give them a warm welcome and an experience they will always remember.\nI look forward to hearing from you as soon as possible.\nYours faithfully, Kelly Xu",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Dear Sir/Madam,"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "I would like to apply for the position of camp helper. Please find my CV attached."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "I believe I would be a valuable addition to your team. My English is at an intermediate level, and I have travelled to several English-speaking countries. I have also helped to organise a three-day tour of my city for visiting exchange students."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "I have experience in working with animals, and I have also volunteered at a local library to help organise the children’s section. I am a team player and I enjoy working with others. I have been captain of my school table tennis team for two years, so I know how to lead and decide on priorities."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "With my proficiency in Chinese calligraphy, I could also conduct classes for your visitors to help them learn more about this beautiful aspect of Chinese culture."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "The prospect of welcoming exchange students to our country is very exciting, and I am keen to use my skills to give them a warm welcome and an experience they will always remember."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "I look forward to hearing from you as soon as possible."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Yours faithfully, Kelly Xu"
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "选择性必修第四册",
+    "pageStart": 63,
+    "pageEnd": 63,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "6fc94127b322f6f5abff068bef6faa2e",
+    "pdfSize": 12330614,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/senior-selective-4.pdf#page=63",
+      "reviewedAt": "2026-07-22",
+      "notes": "Retained the complete printed cover letter from salutation through signature as an independent lesson.",
+      "splitBaselineId": "pephs4-029",
+      "splitIndex": 2,
+      "splitCount": 3
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "pephr2-018",
+  "groupId": "pephr2",
+  "unitNo": 1,
+  "sequenceNo": 18,
+  "section": "Reading and Writing",
+  "title": "Han Dynasty Treasures to Visit the Capital",
+  "jsonPath": "pep-english/lessons/pephr2/018.json",
+  "text": "Beijing, 25 February 2016. Beijing's Capital Museum will host some 400 rare cultural relics from the Han Dynasty that have been found in Jiangxi Province during the last five years. The relics were chosen from more than 20,000 pieces and include objects made of gold and other metals. Visitors will have a chance to see beautiful works of art as well as pottery and horse chariots. The relics were found in the tomb of Haihunhou, where experts have been digging since 2011. According to one of the experts, the find is very unusual, and special measures will be taken to safeguard the objects: “We will make sure they are not damaged.” The exhibition will open in March and last for three months.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Beijing, 25 February 2016. Beijing's Capital Museum will host some 400 rare cultural relics from the Han Dynasty that have been found in Jiangxi Province during the last five years. The relics were chosen from more than 20,000 pieces and include objects made of gold and other metals. Visitors will have a chance to see beautiful works of art as well as pottery and horse chariots. The relics were found in the tomb of Haihunhou, where experts have been digging since 2011. According to one of the experts, the find is very unusual, and special measures will be taken to safeguard the objects: “We will make sure they are not damaged.” The exhibition will open in March and last for three months."
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "必修第二册",
+    "pageStart": 71,
+    "pageEnd": 71,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "38d49874e4f015fd89f21c9306f6b9d5",
+    "pdfSize": 14270612,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/senior-required-2.pdf#page=71",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored the complete Beijing-datelined museum report as an independent lesson, excluding the shared feature introduction and artefact image.",
+      "splitBaselineId": "pephr2-026",
+      "splitIndex": 2,
+      "splitCount": 2
+    }
+  }
+}

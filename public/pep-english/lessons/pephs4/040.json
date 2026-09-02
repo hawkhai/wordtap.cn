@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "id": "pephs4-040",
+  "groupId": "pephs4",
+  "unitNo": 4,
+  "sequenceNo": 40,
+  "section": "Reading and Writing",
+  "title": "The World’s Most Useful Gifts",
+  "jsonPath": "pep-english/lessons/pephs4/040.json",
+  "text": "Are you looking for a special gift for a special person? Then this is the site for you. The gift you choose here is not something for a loved one to keep but a voluntary contribution in his or her name to people who really need it.\nFirst, choose a truly useful gift for some of the world’s poorest, giving hope for a better future to a community in need. Then, when you purchase the item, we will send you an attractive card for you to send to that loved one. You can use the cards for any special occasion: weddings, births, anniversaries, Christmas, etc.\nGIFTS — COST (AUD)\n20 tree seedlings — $5 A loan to set up a women’s self-help group — $8 3 months’ water supply for one person — $10 Training in vegetable farming — $15 Child vaccinations against 6 killer diseases — $20 School books — $20 Basic adult education — $25 Basic health-care services — $30 One year of primary schooling — $35 A goat — $40 A supply toilet — $50 3 months’ water supply for a family — $65 A loan to set up a small business — $85 A sewing machine — $100 Nutritional supplements for a family — $130 Oxen for ploughing — $180 A set of books on health and medical care — $200 Assistance for families headed by children — $300 A community primary school — $500 A village tractor — $1,000 A well and water pump — $1,350",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Are you looking for a special gift for a special person? Then this is the site for you. The gift you choose here is not something for a loved one to keep but a voluntary contribution in his or her name to people who really need it."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "First, choose a truly useful gift for some of the world’s poorest, giving hope for a better future to a community in need. Then, when you purchase the item, we will send you an attractive card for you to send to that loved one. You can use the cards for any special occasion: weddings, births, anniversaries, Christmas, etc."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "GIFTS — COST (AUD)\n20 tree seedlings — $5 A loan to set up a women’s self-help group — $8 3 months’ water supply for one person — $10 Training in vegetable farming — $15 Child vaccinations against 6 killer diseases — $20 School books — $20 Basic adult education — $25 Basic health-care services — $30 One year of primary schooling — $35 A goat — $40 A supply toilet — $50 3 months’ water supply for a family — $65 A loan to set up a small business — $85 A sewing machine — $100 Nutritional supplements for a family — $130 Oxen for ploughing — $180 A set of books on health and medical care — $200 Assistance for families headed by children — $300 A community primary school — $500 A village tractor — $1,000 A well and water pump — $1,350"
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "选择性必修第四册",
+    "pageStart": 92,
+    "pageEnd": 92,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "6fc94127b322f6f5abff068bef6faa2e",
+    "pdfSize": 12330614,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/senior-selective-4.pdf#page=92",
+      "reviewedAt": "2026-07-22",
+      "notes": "Recovered the complete model webpage, including both explanatory paragraphs and all 21 printed catalogue entries. Excluded navigation labels and the incomplete personal gift-card template on page 93.",
+      "splitBaselineId": "pephs4-044",
+      "splitIndex": 2,
+      "splitCount": 2
+    }
+  }
+}

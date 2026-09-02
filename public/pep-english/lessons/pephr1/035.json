@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "pephr1-035",
+  "groupId": "pephr1",
+  "unitNo": 5,
+  "sequenceNo": 35,
+  "section": "Using Words and Expressions",
+  "title": "A Chinese Calligraphy Class",
+  "jsonPath": "pep-english/lessons/pephr1/035.json",
+  "text": "A: Hey, I'm going to sign up for a Chinese calligraphy class at that new language school. Do you want to join me?\nB: You know, I'm learning Chinese at my school, and to be honest, my teacher's method is really boring. I'm not sure I want to take another Chinese class.\nA: I think learning calligraphy will help you feel better about Chinese! Calligraphy is regarded as an art form. Many people enjoy it.\nB: I guess it would be good to learn! After all, there're over a billion people who speak and read Chinese. OK, I'll find some time in my schedule and try the class.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "A: Hey, I'm going to sign up for a Chinese calligraphy class at that new language school. Do you want to join me?\nB: You know, I'm learning Chinese at my school, and to be honest, my teacher's method is really boring. I'm not sure I want to take another Chinese class.\nA: I think learning calligraphy will help you feel better about Chinese! Calligraphy is regarded as an art form. Many people enjoy it.\nB: I guess it would be good to learn! After all, there're over a billion people who speak and read Chinese. OK, I'll find some time in my schedule and try the class."
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "必修第一册",
+    "pageStart": 103,
+    "pageEnd": 103,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "e0bf18138b24d7def28b35994a13946b",
+    "pdfSize": 14704146,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/senior-required-1.pdf#page=103",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored the complete four-turn calligraphy-class conversation, following its continuation from the lower left to the upper right; supplied a descriptive title and excluded the translation instruction, incomplete advertisement and grammar exercises."
+    }
+  }
+}

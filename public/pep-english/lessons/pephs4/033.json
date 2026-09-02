@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "pephs4-033",
+  "groupId": "pephs4",
+  "unitNo": 3,
+  "sequenceNo": 33,
+  "section": "Listening and Speaking",
+  "title": "Man Lucky to Be Alive After Shallow-Water Shark Attack",
+  "jsonPath": "pep-english/lessons/pephs4/033.json",
+  "text": "A man is recovering at home after being attacked by a shark while standing in about 60 cm of water at sunset yesterday. He received cuts to his leg and foot. A hospital spokesman said the injuries were not serious and the man was not admitted to hospital.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "A man is recovering at home after being attacked by a shark while standing in about 60 cm of water at sunset yesterday. He received cuts to his leg and foot. A hospital spokesman said the injuries were not serious and the man was not admitted to hospital."
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "选择性必修第四册",
+    "pageStart": 84,
+    "pageEnd": 84,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "6fc94127b322f6f5abff068bef6faa2e",
+    "pdfSize": 12330614,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/senior-selective-4.pdf#page=84",
+      "reviewedAt": "2026-07-22",
+      "notes": "Retained the first complete news report with its printed headline.",
+      "splitBaselineId": "pephs4-042",
+      "splitIndex": 1,
+      "splitCount": 3
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "id": "pephs4-008",
+  "groupId": "pephs4",
+  "unitNo": 3,
+  "sequenceNo": 8,
+  "section": "Using Language",
+  "title": "The Case for Sea Exploration",
+  "jsonPath": "pep-english/lessons/pephs4/008.json",
+  "text": "To truly understand our planet, we must explore the oceans which cover most of it. Opponents may be concerned, but sea exploration is important for our future. For example, scientific research ships can help address important issues such as climate change. We need to understand what is happening to our planet so that we can take action. Therefore, more research is necessary.\nUnderstanding more about the sea will also help us manage its resources better. Logging new species will improve our understanding of life on the earth. It may help us discover new medicines, as well as new sources of food and energy. Accessing the deep ocean may also help us to predict events such as earthquakes.\nThe population of the world is growing and we need new resources for future development. There are probably vast amounts of resources under the sea and ice, not just oil and gas but also valuable minerals.\nOf course, there are still environmental risks. However, these should be balanced with economic needs. Hopefully, as technology improves, we may have more options for managing this balance.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "To truly understand our planet, we must explore the oceans which cover most of it. Opponents may be concerned, but sea exploration is important for our future. For example, scientific research ships can help address important issues such as climate change. We need to understand what is happening to our planet so that we can take action. Therefore, more research is necessary."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Understanding more about the sea will also help us manage its resources better. Logging new species will improve our understanding of life on the earth. It may help us discover new medicines, as well as new sources of food and energy. Accessing the deep ocean may also help us to predict events such as earthquakes."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "The population of the world is growing and we need new resources for future development. There are probably vast amounts of resources under the sea and ice, not just oil and gas but also valuable minerals."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Of course, there are still environmental risks. However, these should be balanced with economic needs. Hopefully, as technology improves, we may have more options for managing this balance."
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "选择性必修第四册",
+    "pageStart": 39,
+    "pageEnd": 39,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "6fc94127b322f6f5abff068bef6faa2e",
+    "pdfSize": 12330614,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/senior-selective-4.pdf#page=39",
+      "reviewedAt": "2026-07-22",
+      "notes": "Preserved all four paragraphs of Text 2 in the right column and supplied a descriptive metadata title; excluded labels and instructions.",
+      "splitBaselineId": "pephs4-018",
+      "splitIndex": 2,
+      "splitCount": 2
+    }
+  }
+}

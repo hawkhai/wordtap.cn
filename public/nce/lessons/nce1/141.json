@@ -1,0 +1,192 @@
+{
+  "schemaVersion": 1,
+  "id": "nce1-141",
+  "bookId": "nce1",
+  "bookNo": 1,
+  "lessonNo": 141,
+  "lessonRange": [
+    141,
+    142
+  ],
+  "title": "Sally's First Train Ride",
+  "titleZh": "莎莉的第一次火车旅行",
+  "question": "Why was the mother embarrassed?",
+  "questionZh": "为什么那位母亲感到尴尬？",
+  "text": "Why was the mother embarrassed?\n\nLast week, my four-year-old daughter, Sally, was invited to a children's party.\nI decided to take her by train.\nSally was very excited because she had never travelled on a train before.\nShe sat near the window and asked questions about everything she saw.\nSuddenly, a middle-age lady got on the train and sat opposite Sally.\n'Hello, little girl,' she said.\nSally did not answer, but looked at her curiously.\nThe lady was dressed in a blue coat and a large, funny hat.\nAfter the train had left the station, the lady opened her handbag and took out her powder compact.\nShe then began to make up her face.\n'Why are you doing that?' Sally asked.\n'To make myself beautiful,' the lady answered.\nShe put away her compact and smiled kindly.\n'But you are still ugly,' Sally said.\nSally was amused, but I was very embarrassed!",
+  "bodyText": "Last week, my four-year-old daughter, Sally, was invited to a children's party.\nI decided to take her by train.\nSally was very excited because she had never travelled on a train before.\nShe sat near the window and asked questions about everything she saw.\nSuddenly, a middle-age lady got on the train and sat opposite Sally.\n'Hello, little girl,' she said.\nSally did not answer, but looked at her curiously.\nThe lady was dressed in a blue coat and a large, funny hat.\nAfter the train had left the station, the lady opened her handbag and took out her powder compact.\nShe then began to make up her face.\n'Why are you doing that?' Sally asked.\n'To make myself beautiful,' the lady answered.\nShe put away her compact and smiled kindly.\n'But you are still ugly,' Sally said.\nSally was amused, but I was very embarrassed!",
+  "bodyTextZh": "上周，我四岁的女儿莎莉被邀请参加一个儿童派对。\n我决定带她坐火车去。\n莎莉非常兴奋，因为她以前从未坐过火车。\n她坐在窗边，对看到的一切都充满了好奇，不停地提问。\n突然，一位中年女士上了火车，坐在莎莉的对面。\n“你好，小姑娘，”女士说道。\n莎莉没有回答，只是好奇地盯着她看。\n那位女士穿着一件蓝色外套，戴着一顶又大又有趣的帽子。\n火车离开车站后，那位女士打开她的手提包，拿出了她的粉饼。\n然后她开始化妆。\n“你为什么要那么做？”莎莉问道。\n“为了让自己变得更美丽，”那位女士回答道。\n她收起了她的粉饼，然后露出了友善的微笑。\n“但你还是很难看，”莎莉说。\n莎莉觉得这很有趣，但我却感到非常尴尬！",
+  "sentences": [
+    {
+      "index": 0,
+      "startTime": 0.63,
+      "endTime": 3.46,
+      "en": "Lesson 141",
+      "zh": "第141课",
+      "role": "lesson"
+    },
+    {
+      "index": 1,
+      "startTime": 3.46,
+      "endTime": 7.64,
+      "en": "Sally's first train ride",
+      "zh": "莎莉的第一次火车旅行",
+      "role": "title"
+    },
+    {
+      "index": 2,
+      "startTime": 7.64,
+      "endTime": 13.15,
+      "en": "Listen to the tape then answer this question.",
+      "zh": "请听录音，然后回答这个问题：",
+      "role": "prompt"
+    },
+    {
+      "index": 3,
+      "startTime": 13.15,
+      "endTime": 17.91,
+      "en": "Why was the mother embarrassed?",
+      "zh": "为什么那位母亲感到尴尬？",
+      "role": "question"
+    },
+    {
+      "index": 4,
+      "startTime": 17.91,
+      "endTime": 26.47,
+      "en": "Last week, my four-year-old daughter, Sally, was invited to a children's party.",
+      "zh": "上周，我四岁的女儿莎莉被邀请参加一个儿童派对。",
+      "role": "body"
+    },
+    {
+      "index": 5,
+      "startTime": 26.47,
+      "endTime": 30.67,
+      "en": "I decided to take her by train.",
+      "zh": "我决定带她坐火车去。",
+      "role": "body"
+    },
+    {
+      "index": 6,
+      "startTime": 30.67,
+      "endTime": 39.52,
+      "en": "Sally was very excited because she had never travelled on a train before.",
+      "zh": "莎莉非常兴奋，因为她以前从未坐过火车。",
+      "role": "body"
+    },
+    {
+      "index": 7,
+      "startTime": 39.52,
+      "endTime": 48.09,
+      "en": "She sat near the window and asked questions about everything she saw.",
+      "zh": "她坐在窗边，对看到的一切都充满了好奇，不停地提问。",
+      "role": "body"
+    },
+    {
+      "index": 8,
+      "startTime": 48.09,
+      "endTime": 58.15,
+      "en": "Suddenly, a middle-age lady got on the train and sat opposite Sally.",
+      "zh": "突然，一位中年女士上了火车，坐在莎莉的对面。",
+      "role": "body"
+    },
+    {
+      "index": 9,
+      "startTime": 58.15,
+      "endTime": 62.42,
+      "en": "'Hello, little girl,' she said.",
+      "zh": "“你好，小姑娘，”女士说道。",
+      "role": "body"
+    },
+    {
+      "index": 10,
+      "startTime": 62.42,
+      "endTime": 68.69,
+      "en": "Sally did not answer, but looked at her curiously.",
+      "zh": "莎莉没有回答，只是好奇地盯着她看。",
+      "role": "body"
+    },
+    {
+      "index": 11,
+      "startTime": 68.69,
+      "endTime": 76.2,
+      "en": "The lady was dressed in a blue coat and a large, funny hat.",
+      "zh": "那位女士穿着一件蓝色外套，戴着一顶又大又有趣的帽子。",
+      "role": "body"
+    },
+    {
+      "index": 12,
+      "startTime": 76.2,
+      "endTime": 87.12,
+      "en": "After the train had left the station, the lady opened her handbag and took out her powder compact.",
+      "zh": "火车离开车站后，那位女士打开她的手提包，拿出了她的粉饼。",
+      "role": "body"
+    },
+    {
+      "index": 13,
+      "startTime": 87.12,
+      "endTime": 92.76,
+      "en": "She then began to make up her face.",
+      "zh": "然后她开始化妆。",
+      "role": "body"
+    },
+    {
+      "index": 14,
+      "startTime": 92.76,
+      "endTime": 97.49,
+      "en": "'Why are you doing that?' Sally asked.",
+      "zh": "“你为什么要那么做？”莎莉问道。",
+      "role": "body"
+    },
+    {
+      "index": 15,
+      "startTime": 97.49,
+      "endTime": 103.31,
+      "en": "'To make myself beautiful,' the lady answered.",
+      "zh": "“为了让自己变得更美丽，”那位女士回答道。",
+      "role": "body"
+    },
+    {
+      "index": 16,
+      "startTime": 103.31,
+      "endTime": 109.49,
+      "en": "She put away her compact and smiled kindly.",
+      "zh": "她收起了她的粉饼，然后露出了友善的微笑。",
+      "role": "body"
+    },
+    {
+      "index": 17,
+      "startTime": 109.49,
+      "endTime": 114.63,
+      "en": "'But you are still ugly,' Sally said.",
+      "zh": "“但你还是很难看，”莎莉说。",
+      "role": "body"
+    },
+    {
+      "index": 18,
+      "startTime": 114.63,
+      "endTime": null,
+      "en": "Sally was amused, but I was very embarrassed!",
+      "zh": "莎莉觉得这很有趣，但我却感到非常尴尬！",
+      "role": "body"
+    }
+  ],
+  "audio": {
+    "fileName": "141&142－Sally's First Train Ride.mp3",
+    "sourcePath": "content/NCE-Flow/NCE1/141&142－Sally's First Train Ride.mp3",
+    "exists": true
+  },
+  "source": {
+    "repository": "NCE-Flow",
+    "lrcFileName": "141&142－Sally's First Train Ride.lrc",
+    "lrcPath": "content/NCE-Flow/NCE1/141&142－Sally's First Train Ride.lrc",
+    "sourceDataFile": "content/NCE-Flow/static/data.json",
+    "generatedAt": "2026-07-23T02:59:02+00:00",
+    "generator": "scripts/generate_nce_json.py",
+    "generatorVersion": "2.0.0",
+    "metadata": {
+      "al": "新概念英语（一）",
+      "ar": "MP3 同步字幕版（美音）",
+      "ti": "Sally's First Train Ride",
+      "by": "更多学习内容，请到VeryCD.com搜索“露珠”"
+    }
+  }
+}

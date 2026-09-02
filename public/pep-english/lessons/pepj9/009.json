@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "pepj9-009",
+  "groupId": "pepj9",
+  "unitNo": 3,
+  "sequenceNo": 9,
+  "section": "Section A",
+  "title": "Asking for the Restrooms at Fun Times Park",
+  "jsonPath": "pep-english/lessons/pepj9/009.json",
+  "text": "He Wei: This is Fun Times Park, the biggest amusement park in our city!\nAlice: I'm excited to try the rides!\nHe Wei: What should we start with? There's Space World, Water World, Animal World...\nAlice: Before we decide, could you first tell me where the restrooms are?\nHe Wei: Pardon? Restroom? You want to rest? But we haven't even started yet!\nAlice: Oh no, I don't mean that. I mean... you know, a washroom or bathroom.\nHe Wei: Hmm... so you mean... the toilet?\nAlice: Yes! Sorry, maybe people in China don't often use the word \"restroom\" when they speak English.\nHe Wei: That's right. In China, we normally say \"toilet\" or \"washroom\" in English. Anyway, they're over there.\nAlice: OK. I'll be quick!\nHe Wei: No problem. You don't need to rush!",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "He Wei: This is Fun Times Park, the biggest amusement park in our city!\nAlice: I'm excited to try the rides!\nHe Wei: What should we start with? There's Space World, Water World, Animal World...\nAlice: Before we decide, could you first tell me where the restrooms are?\nHe Wei: Pardon? Restroom? You want to rest? But we haven't even started yet!\nAlice: Oh no, I don't mean that. I mean... you know, a washroom or bathroom.\nHe Wei: Hmm... so you mean... the toilet?\nAlice: Yes! Sorry, maybe people in China don't often use the word \"restroom\" when they speak English.\nHe Wei: That's right. In China, we normally say \"toilet\" or \"washroom\" in English. Anyway, they're over there.\nAlice: OK. I'll be quick!\nHe Wei: No problem. You don't need to rush!"
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "初中",
+    "book": "九年级全一册",
+    "pageStart": 32,
+    "pageEnd": 32,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "c6e628c22e0c2f9cfe4547699a1c95a4",
+    "pdfSize": 11088578,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/junior-9.pdf#page=32",
+      "reviewedAt": "2026-07-22",
+      "notes": "Retained only the complete 2d He Wei-Alice role-play; excluded the 2a direction list, 2b drawing task, 2c model fragment and activity instructions."
+    }
+  }
+}

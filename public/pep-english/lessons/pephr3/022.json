@@ -1,0 +1,121 @@
+{
+  "schemaVersion": 1,
+  "id": "pephr3-022",
+  "groupId": "pephr3",
+  "unitNo": 2,
+  "sequenceNo": 22,
+  "section": "Reading and Writing",
+  "title": "The Taxi Ride I'll Never Forget",
+  "jsonPath": "pep-english/lessons/pephr3/022.json",
+  "text": "Twenty years ago, I drove a taxi. One time, I was called at midnight to pick someone up. When I arrived, the building was completely dark except for one light in a window.\nI walked to the door and knocked. After a long wait, the door opened. A small woman in her 80s stood before me. By her side was a small suitcase.\n“Would you carry my bag out to the car?” she said. I took her suitcase and gave her my arm. We walked slowly to the street. She kept thanking me for my kindness.\n“It’s nothing,” I told her. “I try to treat my passengers how I want my mother treated.”\n“You’re such a good boy,” she said. When we got in the taxi, she gave me an address. Then she asked, “Could you drive through the downtown?”\n“It’s not the shortest way,” I answered.\n“I don’t mind,” she said. “I’m in no hurry. I’m on my way to a hospice.”\nI saw her eyes shining with tears.\n“I don’t have any family left,” she continued. “The doctor says I don’t have very long.”\nI quietly turned off the meter. “What road do you want me to take?” I asked.\nFor hours, we drove through the city. She showed me the building where she had once worked. We drove through the neighbourhood where she and her husband had lived. Sometimes she asked me to just slow down while she sat staring into the darkness, saying nothing.\nAs the sun was coming up, she suddenly said, “I’m tired. Let’s go now.”\nWe drove in silence to the hospice. As we pulled up, two nurses were waiting for us. They helped her into a wheelchair.\n“How much do I owe you?” she asked me, reaching for her purse.\n“Nothing,” I said. Without thinking, I leaned down and gave her a hug. She hugged me tightly.\n“You gave an old woman a little moment of joy,” she said. “Thank you.”\nI squeezed her hand and then walked back to my taxi. For the rest of that day, I could hardly talk.\nI believe I have never done anything more important in my life. We usually think that our lives are defined by great moments. But I now realise that great moments catch us by surprise, because they often seem quite small.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Twenty years ago, I drove a taxi. One time, I was called at midnight to pick someone up. When I arrived, the building was completely dark except for one light in a window."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "I walked to the door and knocked. After a long wait, the door opened. A small woman in her 80s stood before me. By her side was a small suitcase."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "“Would you carry my bag out to the car?” she said. I took her suitcase and gave her my arm. We walked slowly to the street. She kept thanking me for my kindness."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "“It’s nothing,” I told her. “I try to treat my passengers how I want my mother treated.”"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "“You’re such a good boy,” she said. When we got in the taxi, she gave me an address. Then she asked, “Could you drive through the downtown?”"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "“It’s not the shortest way,” I answered."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "“I don’t mind,” she said. “I’m in no hurry. I’m on my way to a hospice.”"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "I saw her eyes shining with tears."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "“I don’t have any family left,” she continued. “The doctor says I don’t have very long.”"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "I quietly turned off the meter. “What road do you want me to take?” I asked."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "For hours, we drove through the city. She showed me the building where she had once worked. We drove through the neighbourhood where she and her husband had lived. Sometimes she asked me to just slow down while she sat staring into the darkness, saying nothing."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "As the sun was coming up, she suddenly said, “I’m tired. Let’s go now.”"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "We drove in silence to the hospice. As we pulled up, two nurses were waiting for us. They helped her into a wheelchair."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "“How much do I owe you?” she asked me, reaching for her purse."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "“Nothing,” I said. Without thinking, I leaned down and gave her a hug. She hugged me tightly."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "“You gave an old woman a little moment of joy,” she said. “Thank you.”"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "I squeezed her hand and then walked back to my taxi. For the rest of that day, I could hardly talk."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "I believe I have never done anything more important in my life. We usually think that our lives are defined by great moments. But I now realise that great moments catch us by surprise, because they often seem quite small."
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "必修第三册",
+    "pageStart": 77,
+    "pageEnd": 78,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "31e51a16693d03177a5825f53f612a87",
+    "pdfSize": 14202806,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/senior-required-3.pdf#page=77-78",
+      "reviewedAt": "2026-07-22",
+      "notes": "Merged and restored the complete eighteen-paragraph story across both pages, removing the Chinese hospice gloss; excluded the instruction, adaptation credit, analysis table, discussion questions and writing planner."
+    }
+  }
+}

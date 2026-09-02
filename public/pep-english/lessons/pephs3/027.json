@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "id": "pephs3-027",
+  "groupId": "pephs3",
+  "unitNo": 4,
+  "sequenceNo": 27,
+  "section": "Reading and Writing",
+  "title": "Fan Zhongyan",
+  "jsonPath": "pep-english/lessons/pephs3/027.json",
+  "text": "Perhaps one of the most famous sayings in China is, “To be the first to feel concern for the troubles of the world, and the last to enjoy its pleasures.” Written by Fan Zhongyan, this 11th century proverb provides a goal for all Chinese government officials to aspire to.\nFan Zhongyan (989–1052) himself was a good example of someone who lived by these words. Fan was born in Suzhou in 989 CE. When he was just one or two years old, his father died and his mother married another man. From a very young age, he was very diligent in his schoolwork. Later, he left his stepfather’s family and had to stay in a temple, where he was only able to eat porridge each day. In the winter, he had to cut frozen porridge into pieces for his meals. It is said that one day one of his friends noticed that he was not eating well, so he sent over some tasty food. Fan refused to touch it, saying that he wanted to be content with what he had.\nIn 1015, Fan passed the imperial examination and became a government official. While he served in Taizhou, he always had the people’s best interest at heart, and so he proposed building a sea wall to protect homes from flooding. This sea wall was later called “Lord Fan’s Embankment”. Serving with distinction, he helped build up defenses when the country was threatened by war. Then, once the country was at peace again, he was promoted to a high-level position in the capital, where he was able to advise the emperor on government policy.\nAs an advisor to the emperor, Fan then tried to institute government reforms, known as the Qingli reforms. However, many conservative bureaucrats opposed him, and so the reforms were stopped and Fan was forced to leave the capital and go into exile.\nWhile in exile in 1045, Fan wrote an essay entitled Memorial to Yueyang Tower. In the essay, he wondered if it was possible to find government officials who would be firm in their desire to look after the needs of the common people, and not worry about their own personal welfare. Of such a man, Fan said, “When serving in a high office at court, he will be concerned for the people; if living on distant rivers and lakes, he will be concerned for his sovereign. When serving, he worries; while in retirement, he worries. And when does he enjoy himself? One must say: To be the first to feel concern for the troubles of the world, and the last to enjoy its pleasures.”\nAfter Fan retired, he bought a farm and used it to provide jobs for local people. The profits from the farm were then used to pay for the education of poor children. Though by this time he was a wealthy man, he spent all of his money helping others and lived a very simple life.\nIt is refreshing to think that there was once such a person who did not just speak wise words to live by, but who also put those words into practice during his own life. Fan Zhongyan was just such a man.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Perhaps one of the most famous sayings in China is, “To be the first to feel concern for the troubles of the world, and the last to enjoy its pleasures.” Written by Fan Zhongyan, this 11th century proverb provides a goal for all Chinese government officials to aspire to."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Fan Zhongyan (989–1052) himself was a good example of someone who lived by these words. Fan was born in Suzhou in 989 CE. When he was just one or two years old, his father died and his mother married another man. From a very young age, he was very diligent in his schoolwork. Later, he left his stepfather’s family and had to stay in a temple, where he was only able to eat porridge each day. In the winter, he had to cut frozen porridge into pieces for his meals. It is said that one day one of his friends noticed that he was not eating well, so he sent over some tasty food. Fan refused to touch it, saying that he wanted to be content with what he had."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "In 1015, Fan passed the imperial examination and became a government official. While he served in Taizhou, he always had the people’s best interest at heart, and so he proposed building a sea wall to protect homes from flooding. This sea wall was later called “Lord Fan’s Embankment”. Serving with distinction, he helped build up defenses when the country was threatened by war. Then, once the country was at peace again, he was promoted to a high-level position in the capital, where he was able to advise the emperor on government policy."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "As an advisor to the emperor, Fan then tried to institute government reforms, known as the Qingli reforms. However, many conservative bureaucrats opposed him, and so the reforms were stopped and Fan was forced to leave the capital and go into exile."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "While in exile in 1045, Fan wrote an essay entitled Memorial to Yueyang Tower. In the essay, he wondered if it was possible to find government officials who would be firm in their desire to look after the needs of the common people, and not worry about their own personal welfare. Of such a man, Fan said, “When serving in a high office at court, he will be concerned for the people; if living on distant rivers and lakes, he will be concerned for his sovereign. When serving, he worries; while in retirement, he worries. And when does he enjoy himself? One must say: To be the first to feel concern for the troubles of the world, and the last to enjoy its pleasures.”"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "After Fan retired, he bought a farm and used it to provide jobs for local people. The profits from the farm were then used to pay for the education of poor children. Though by this time he was a wealthy man, he spent all of his money helping others and lived a very simple life."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "It is refreshing to think that there was once such a person who did not just speak wise words to live by, but who also put those words into practice during his own life. Fan Zhongyan was just such a man."
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "选择性必修第三册",
+    "pageStart": 92,
+    "pageEnd": 93,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "f0dc33129a755a33421d401b71a05cd1",
+    "pdfSize": 12684455,
+    "manualReview": {
+      "method": "visual-line-by-line-and-adjacent-page-recovery",
+      "source": "content/pep-english/raw/senior-selective-3.pdf#page=92-93",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored all seven paragraphs, including retirement and conclusion on page 93 missed by the baseline; excluded images, exercises, questions, writing task and furniture after checking pages 91 and 94."
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "pepj9-044",
+  "groupId": "pepj9",
+  "unitNo": 14,
+  "sequenceNo": 44,
+  "section": "Section A",
+  "title": "The Teachers Judy and Clara Will Miss",
+  "jsonPath": "pep-english/lessons/pepj9/044.json",
+  "text": "Judy: Which teachers will you miss the most after junior high school, Clara?\nClara: Ms. Lee and Mr. Brown.\nJudy: I know that Ms. Lee was always patient with you in math class. She helped you to work out the answers yourself no matter how difficult they were.\nClara: Yes, and Mr. Brown guided me to do a lot better in science. He always took the time to explain things to me clearly whenever I couldn't understand anything. Who will you miss?\nJudy: Ms. Griffin. She encouraged me in English class. She always told me, “You can do it!” Because of her, I put in more effort and my exam scores doubled.\nClara: Shall we get each of them a card and gift to say thank you?\nJudy: Good idea. Let's go shopping tomorrow!",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Judy: Which teachers will you miss the most after junior high school, Clara?\nClara: Ms. Lee and Mr. Brown.\nJudy: I know that Ms. Lee was always patient with you in math class. She helped you to work out the answers yourself no matter how difficult they were.\nClara: Yes, and Mr. Brown guided me to do a lot better in science. He always took the time to explain things to me clearly whenever I couldn't understand anything. Who will you miss?\nJudy: Ms. Griffin. She encouraged me in English class. She always told me, “You can do it!” Because of her, I put in more effort and my exam scores doubled.\nClara: Shall we get each of them a card and gift to say thank you?\nJudy: Good idea. Let's go shopping tomorrow!"
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "初中",
+    "book": "九年级全一册",
+    "pageStart": 120,
+    "pageEnd": 120,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "c6e628c22e0c2f9cfe4547699a1c95a4",
+    "pdfSize": 11088578,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/junior-9.pdf#page=120",
+      "reviewedAt": "2026-07-22",
+      "notes": "Kept only the complete 2d dialogue about the teachers Judy and Clara will miss; removed the checklist, matching task and unfinished model fragment above it."
+    }
+  }
+}

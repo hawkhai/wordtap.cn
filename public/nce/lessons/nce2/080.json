@@ -1,0 +1,151 @@
+{
+  "schemaVersion": 1,
+  "id": "nce2-080",
+  "bookId": "nce2",
+  "bookNo": 2,
+  "lessonNo": 80,
+  "lessonRange": [
+    80
+  ],
+  "title": "The Crystal Palace",
+  "titleZh": "水晶宫",
+  "question": "How many people visited the Great Exhibition of 1851?",
+  "questionZh": "有多少人参观了1851年的万国博览会？",
+  "text": "How many people visited the Great Exhibition of 1851?\n\nPerhaps the most extraordinary building of the 19th century was the Crystal Palace which was built in Hyde Park for the Great Exhibition of 1851.\nThe Crystal Palace was different from all other buildings in the world, for it was made of iron and glass.\nIt was one of the biggest buildings of all time and a lot of people from many countries came to see it.\nA great many goods were sent to the exhibition from various parts of the world.\nThere was also a great deal of machinery on display.\nThe most wonderful piece of machinery on show was Nasmyth's steam hammer.\nThough in those days travelling was not as easy as it is today, steam boats carried thousands of visitors across the Channel from Europe.\nOn arriving in England, they were, taken to the Crystal Palace by train.\nThere were six million visitors in all, and the profits from the exhibition were used to build museums and colleges.\nLater, the Crystal Palace was moved to South London.\nIt remained one of the most famous buildings in the world until it was burnt down in 1936.",
+  "bodyText": "Perhaps the most extraordinary building of the 19th century was the Crystal Palace which was built in Hyde Park for the Great Exhibition of 1851.\nThe Crystal Palace was different from all other buildings in the world, for it was made of iron and glass.\nIt was one of the biggest buildings of all time and a lot of people from many countries came to see it.\nA great many goods were sent to the exhibition from various parts of the world.\nThere was also a great deal of machinery on display.\nThe most wonderful piece of machinery on show was Nasmyth's steam hammer.\nThough in those days travelling was not as easy as it is today, steam boats carried thousands of visitors across the Channel from Europe.\nOn arriving in England, they were, taken to the Crystal Palace by train.\nThere were six million visitors in all, and the profits from the exhibition were used to build museums and colleges.\nLater, the Crystal Palace was moved to South London.\nIt remained one of the most famous buildings in the world until it was burnt down in 1936.",
+  "bodyTextZh": "也许19世纪最非凡的建筑当属水晶宫（Crystal Palace）了。这座建筑是为1851年的万国博览会而在海德公园建造的。\n水晶宫与世界上所有的其他建筑都不同，因为它是由铁和玻璃建造的。\n这是有史以来最大的建筑之一，许多来自不同国家的人都前来参观它。\n大量商品从世界各地被运送到这次展览上。\n展会上还展示了许多机械设备。\n展会上最令人惊叹的机械设备是纳斯米思（Nasmyth）制造的蒸汽锤。\n尽管在那个时候旅行并不像现在这样方便，蒸汽船将成千上万的游客从欧洲运送到英吉利海峡对岸。\n抵达英格兰后，他们乘火车被送往水晶宫（Crystal Palace）。\n总共有六百万名游客。展览的收入被用来建设博物馆和学院。\n后来，水晶宫被搬到了伦敦南部。\n它一直是世界上最著名的建筑之一，直到 1936 年被烧毁。",
+  "sentences": [
+    {
+      "index": 0,
+      "startTime": 0.5,
+      "endTime": 3,
+      "en": "Lesson 80",
+      "zh": "第80课",
+      "role": "lesson"
+    },
+    {
+      "index": 1,
+      "startTime": 3,
+      "endTime": 10.28,
+      "en": "The Crystal Palace",
+      "zh": "水晶宫",
+      "role": "title"
+    },
+    {
+      "index": 2,
+      "startTime": 10.28,
+      "endTime": 18.2,
+      "en": "How many people visited the Great Exhibition of 1851?",
+      "zh": "有多少人参观了1851年的万国博览会？",
+      "role": "question"
+    },
+    {
+      "index": 3,
+      "startTime": 18.2,
+      "endTime": 33.43,
+      "en": "Perhaps the most extraordinary building of the 19th century was the Crystal Palace which was built in Hyde Park for the Great Exhibition of 1851.",
+      "zh": "也许19世纪最非凡的建筑当属水晶宫（Crystal Palace）了。这座建筑是为1851年的万国博览会而在海德公园建造的。",
+      "role": "body"
+    },
+    {
+      "index": 4,
+      "startTime": 33.43,
+      "endTime": 43.01,
+      "en": "The Crystal Palace was different from all other buildings in the world, for it was made of iron and glass.",
+      "zh": "水晶宫与世界上所有的其他建筑都不同，因为它是由铁和玻璃建造的。",
+      "role": "body"
+    },
+    {
+      "index": 5,
+      "startTime": 43.01,
+      "endTime": 52.23,
+      "en": "It was one of the biggest buildings of all time and a lot of people from many countries came to see it.",
+      "zh": "这是有史以来最大的建筑之一，许多来自不同国家的人都前来参观它。",
+      "role": "body"
+    },
+    {
+      "index": 6,
+      "startTime": 52.23,
+      "endTime": 58.38,
+      "en": "A great many goods were sent to the exhibition from various parts of the world.",
+      "zh": "大量商品从世界各地被运送到这次展览上。",
+      "role": "body"
+    },
+    {
+      "index": 7,
+      "startTime": 58.38,
+      "endTime": 63.67,
+      "en": "There was also a great deal of machinery on display.",
+      "zh": "展会上还展示了许多机械设备。",
+      "role": "body"
+    },
+    {
+      "index": 8,
+      "startTime": 63.67,
+      "endTime": 71.5,
+      "en": "The most wonderful piece of machinery on show was Nasmyth's steam hammer.",
+      "zh": "展会上最令人惊叹的机械设备是纳斯米思（Nasmyth）制造的蒸汽锤。",
+      "role": "body"
+    },
+    {
+      "index": 9,
+      "startTime": 71.5,
+      "endTime": 83.94,
+      "en": "Though in those days travelling was not as easy as it is today, steam boats carried thousands of visitors across the Channel from Europe.",
+      "zh": "尽管在那个时候旅行并不像现在这样方便，蒸汽船将成千上万的游客从欧洲运送到英吉利海峡对岸。",
+      "role": "body"
+    },
+    {
+      "index": 10,
+      "startTime": 83.94,
+      "endTime": 90.34,
+      "en": "On arriving in England, they were, taken to the Crystal Palace by train.",
+      "zh": "抵达英格兰后，他们乘火车被送往水晶宫（Crystal Palace）。",
+      "role": "body"
+    },
+    {
+      "index": 11,
+      "startTime": 90.34,
+      "endTime": 99.94,
+      "en": "There were six million visitors in all, and the profits from the exhibition were used to build museums and colleges.",
+      "zh": "总共有六百万名游客。展览的收入被用来建设博物馆和学院。",
+      "role": "body"
+    },
+    {
+      "index": 12,
+      "startTime": 99.94,
+      "endTime": 104.67,
+      "en": "Later, the Crystal Palace was moved to South London.",
+      "zh": "后来，水晶宫被搬到了伦敦南部。",
+      "role": "body"
+    },
+    {
+      "index": 13,
+      "startTime": 104.67,
+      "endTime": null,
+      "en": "It remained one of the most famous buildings in the world until it was burnt down in 1936.",
+      "zh": "它一直是世界上最著名的建筑之一，直到 1936 年被烧毁。",
+      "role": "body"
+    }
+  ],
+  "audio": {
+    "fileName": "80－The Crystal Palace.mp3",
+    "sourcePath": "content/NCE-Flow/NCE2/80－The Crystal Palace.mp3",
+    "exists": true
+  },
+  "source": {
+    "repository": "NCE-Flow",
+    "lrcFileName": "80－The Crystal Palace.lrc",
+    "lrcPath": "content/NCE-Flow/NCE2/80－The Crystal Palace.lrc",
+    "sourceDataFile": "content/NCE-Flow/static/data.json",
+    "generatedAt": "2026-07-23T02:59:02+00:00",
+    "generator": "scripts/generate_nce_json.py",
+    "generatorVersion": "2.0.0",
+    "metadata": {
+      "al": "新概念英语（二）",
+      "ar": "MP3 同步字幕版（美音）",
+      "ti": "The Crystal Palace",
+      "by": "更多学习内容，请到VeryCD.com搜索“露珠”"
+    }
+  }
+}

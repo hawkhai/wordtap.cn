@@ -1,0 +1,240 @@
+{
+  "schemaVersion": 1,
+  "id": "nce1-135",
+  "bookId": "nce1",
+  "bookNo": 1,
+  "lessonNo": 135,
+  "lessonRange": [
+    135,
+    136
+  ],
+  "title": "The Latest Report",
+  "titleZh": "最新报告",
+  "question": "Is Karen Marsh going to retire, do you think?",
+  "questionZh": "你觉得凯伦·马什会退休吗？",
+  "text": "Is Karen Marsh going to retire, do you think?\n\nAre you really going to retire, Miss Marsh?\nI may.\nI can't make up my mind.\nI will have to ask my future husband.\nHe won't let me make another film.\nYour future husband, Miss Marsh?\nYes.\nLet me introduce him to you.\nHis name is Carlos.\nWe're going to get married next week.\nLook, Liz!\nHere's another report about Karen Marsh.\nListen: 'Karen Marsh: The latest.\nAt her London Hotel today Miss Marsh told reporters she might retire.\nShe said she couldn't make up her mind.\nShe said she would have to ask her future husband.\nShe said her future husband would not let her make another film.\nThen she introduced us to Carlos and told us they would get married next week.'\nThat's sensational news, isn't it, Kate?\nIt certainly is.\nHe'll be her sixth husband!",
+  "bodyText": "Are you really going to retire, Miss Marsh?\nI may.\nI can't make up my mind.\nI will have to ask my future husband.\nHe won't let me make another film.\nYour future husband, Miss Marsh?\nYes.\nLet me introduce him to you.\nHis name is Carlos.\nWe're going to get married next week.\nLook, Liz!\nHere's another report about Karen Marsh.\nListen: 'Karen Marsh: The latest.\nAt her London Hotel today Miss Marsh told reporters she might retire.\nShe said she couldn't make up her mind.\nShe said she would have to ask her future husband.\nShe said her future husband would not let her make another film.\nThen she introduced us to Carlos and told us they would get married next week.'\nThat's sensational news, isn't it, Kate?\nIt certainly is.\nHe'll be her sixth husband!",
+  "bodyTextZh": "马什小姐，你真的打算退休吗？\n我可能会吧……\n我还没拿定主意。\n我得问问我的未婚夫。\n他不会允许我再拍电影了。\n你的未婚夫吗，马什小姐？\n是的。\n让我把他介绍给你。\n他的名字叫卡洛斯。\n我们下周就要结婚了。\n看，莉兹！\n这是另一份关于凯伦·马什的报告。\n听着：“凯伦·马什：最新消息。”\n今天在伦敦的酒店里，马什小姐对记者们表示她可能会退休。\n她说她拿不定主意。\n她说她必须先征求她未来丈夫的意见。\n她说她的未来丈夫不会允许她再拍电影了。\n然后她把我们介绍给了卡洛斯，并告诉我们他们下周就要结婚了。\n这真是个惊人的消息，对吧，凯特？\n确实如此。\n他将成为她的第六任丈夫！",
+  "sentences": [
+    {
+      "index": 0,
+      "startTime": 0.9,
+      "endTime": 3.73,
+      "en": "Lesson 135",
+      "zh": "第135课",
+      "role": "lesson"
+    },
+    {
+      "index": 1,
+      "startTime": 3.73,
+      "endTime": 6.82,
+      "en": "The latest report",
+      "zh": "最新报告",
+      "role": "title"
+    },
+    {
+      "index": 2,
+      "startTime": 6.82,
+      "endTime": 12.23,
+      "en": "Listen to the tape then answer this question.",
+      "zh": "请先听录音，然后回答这个问题：",
+      "role": "prompt"
+    },
+    {
+      "index": 3,
+      "startTime": 12.23,
+      "endTime": 18.83,
+      "en": "Is Karen Marsh going to retire, do you think?",
+      "zh": "你觉得凯伦·马什会退休吗？",
+      "role": "question"
+    },
+    {
+      "index": 4,
+      "startTime": 18.83,
+      "endTime": 23.1,
+      "en": "Are you really going to retire, Miss Marsh?",
+      "zh": "马什小姐，你真的打算退休吗？",
+      "role": "body"
+    },
+    {
+      "index": 5,
+      "startTime": 23.1,
+      "endTime": 24.66,
+      "en": "I may.",
+      "zh": "我可能会吧……",
+      "role": "body"
+    },
+    {
+      "index": 6,
+      "startTime": 24.66,
+      "endTime": 27.98,
+      "en": "I can't make up my mind.",
+      "zh": "我还没拿定主意。",
+      "role": "body"
+    },
+    {
+      "index": 7,
+      "startTime": 27.98,
+      "endTime": 32.42,
+      "en": "I will have to ask my future husband.",
+      "zh": "我得问问我的未婚夫。",
+      "role": "body"
+    },
+    {
+      "index": 8,
+      "startTime": 32.42,
+      "endTime": 36.64,
+      "en": "He won't let me make another film.",
+      "zh": "他不会允许我再拍电影了。",
+      "role": "body"
+    },
+    {
+      "index": 9,
+      "startTime": 36.64,
+      "endTime": 39.99,
+      "en": "Your future husband, Miss Marsh?",
+      "zh": "你的未婚夫吗，马什小姐？",
+      "role": "body"
+    },
+    {
+      "index": 10,
+      "startTime": 39.99,
+      "endTime": 41.16,
+      "en": "Yes.",
+      "zh": "是的。",
+      "role": "body"
+    },
+    {
+      "index": 11,
+      "startTime": 41.16,
+      "endTime": 44.22,
+      "en": "Let me introduce him to you.",
+      "zh": "让我把他介绍给你。",
+      "role": "body"
+    },
+    {
+      "index": 12,
+      "startTime": 44.22,
+      "endTime": 47.66,
+      "en": "His name is Carlos.",
+      "zh": "他的名字叫卡洛斯。",
+      "role": "body"
+    },
+    {
+      "index": 13,
+      "startTime": 47.66,
+      "endTime": 53,
+      "en": "We're going to get married next week.",
+      "zh": "我们下周就要结婚了。",
+      "role": "body"
+    },
+    {
+      "index": 14,
+      "startTime": 53,
+      "endTime": 54.66,
+      "en": "Look, Liz!",
+      "zh": "看，莉兹！",
+      "role": "body"
+    },
+    {
+      "index": 15,
+      "startTime": 54.66,
+      "endTime": 59.22,
+      "en": "Here's another report about Karen Marsh.",
+      "zh": "这是另一份关于凯伦·马什的报告。",
+      "role": "body"
+    },
+    {
+      "index": 16,
+      "startTime": 59.22,
+      "endTime": 64.66,
+      "en": "Listen: 'Karen Marsh: The latest.",
+      "zh": "听着：“凯伦·马什：最新消息。”",
+      "role": "body"
+    },
+    {
+      "index": 17,
+      "startTime": 64.66,
+      "endTime": 73.75,
+      "en": "At her London Hotel today Miss Marsh told reporters she might retire.",
+      "zh": "今天在伦敦的酒店里，马什小姐对记者们表示她可能会退休。",
+      "role": "body"
+    },
+    {
+      "index": 18,
+      "startTime": 73.75,
+      "endTime": 78.11,
+      "en": "She said she couldn't make up her mind.",
+      "zh": "她说她拿不定主意。",
+      "role": "body"
+    },
+    {
+      "index": 19,
+      "startTime": 78.11,
+      "endTime": 84.33,
+      "en": "She said she would have to ask her future husband.",
+      "zh": "她说她必须先征求她未来丈夫的意见。",
+      "role": "body"
+    },
+    {
+      "index": 20,
+      "startTime": 84.33,
+      "endTime": 92.03,
+      "en": "She said her future husband would not let her make another film.",
+      "zh": "她说她的未来丈夫不会允许她再拍电影了。",
+      "role": "body"
+    },
+    {
+      "index": 21,
+      "startTime": 92.03,
+      "endTime": 101.87,
+      "en": "Then she introduced us to Carlos and told us they would get married next week.'",
+      "zh": "然后她把我们介绍给了卡洛斯，并告诉我们他们下周就要结婚了。",
+      "role": "body"
+    },
+    {
+      "index": 22,
+      "startTime": 101.87,
+      "endTime": 107.48,
+      "en": "That's sensational news, isn't it, Kate?",
+      "zh": "这真是个惊人的消息，对吧，凯特？",
+      "role": "body"
+    },
+    {
+      "index": 23,
+      "startTime": 107.48,
+      "endTime": 109.8,
+      "en": "It certainly is.",
+      "zh": "确实如此。",
+      "role": "body"
+    },
+    {
+      "index": 24,
+      "startTime": 109.8,
+      "endTime": null,
+      "en": "He'll be her sixth husband!",
+      "zh": "他将成为她的第六任丈夫！",
+      "role": "body"
+    }
+  ],
+  "audio": {
+    "fileName": "135&136－The Latest Report.mp3",
+    "sourcePath": "content/NCE-Flow/NCE1/135&136－The Latest Report.mp3",
+    "exists": true
+  },
+  "source": {
+    "repository": "NCE-Flow",
+    "lrcFileName": "135&136－The Latest Report.lrc",
+    "lrcPath": "content/NCE-Flow/NCE1/135&136－The Latest Report.lrc",
+    "sourceDataFile": "content/NCE-Flow/static/data.json",
+    "generatedAt": "2026-07-23T02:59:02+00:00",
+    "generator": "scripts/generate_nce_json.py",
+    "generatorVersion": "2.0.0",
+    "metadata": {
+      "al": "新概念英语（一）",
+      "ar": "MP3 同步字幕版（美音）",
+      "ti": "The Latest Report",
+      "by": "更多学习内容，请到VeryCD.com搜索“露珠”"
+    }
+  }
+}

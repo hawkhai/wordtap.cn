@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 1,
+  "id": "pephs2-006",
+  "groupId": "pephs2",
+  "unitNo": 2,
+  "sequenceNo": 6,
+  "section": "Reading and Thinking",
+  "title": "‘Welcome, Xie Lei!’ Business Student Building Bridges",
+  "jsonPath": "pep-english/lessons/pephs2/006.json",
+  "text": "Six months ago, 19-year-old Xie Lei said goodbye to her family and friends and boarded a plane for London. It was the first time that she had left China. “I was very excited but also quite nervous. I didn’t know what to expect,” Xie Lei recalled.\nXie Lei is studying for a business qualification at a university in China and has come to our university on a year-long exchange programme. “I chose the exchange programme because I wanted to learn about global business and improve my English. My ambition is to set up a business in China after graduation,” she explained.\nAt first, Xie Lei had to adapt to life in a different country. “You have to get used to a whole new life,” she said. “I had to learn how to use public transport and how to ask for things I didn’t know the English names for. When I got lost, I had to ask passers-by for help, but people here speak fast and use words I’m not familiar with. I ask them to repeat themselves a lot!”\nAlthough some foreign students live in campus accommodation, Xie Lei chose to live with a host family, who can help with her adaptation to the new culture. “When I miss home, I feel comforted to have a second family,” Xie Lei said. “When there’s something I don’t know or understand, I can ask them. They are also keen to learn about China. Laura, the daughter of my host family, wants to study in China in the future. We take turns to cook each evening. They really love my stir-fried tomatoes and eggs! Laura says she always feels hungry when she smells it, so I taught her how to cook it, too.”\nAnother challenge for Xie Lei is the academic requirements. The first time that she had to write an essay, her tutor explained that she must acknowledge what other people had said if she cited their ideas, but that he mainly wanted to know what she thought! Xie Lei was confused because she thought she knew less than other people. Her tutor advised her to read lots of information in order to form a wise opinion of her own.\nXie Lei also found many courses included students’ participation in class as part of the final result. Students need to generate ideas, offer examples, apply concepts, and raise questions, as well as give presentations. At first, Xie Lei had no idea what she should say, but what surprised her was that she found herself speaking up in class after just a few weeks. “My presentation on traditional Chinese art was a great success, which boosted my confidence,” she said. “I’ll use these skills back home for presentations. They’ll help me build a strong business in the future.”\nNow halfway through her exchange year, Xie Lei feels much more at home in the UK. What seemed strange before now appears quite normal to her. “Engaging in British culture has helped,” she said. “As well as studying hard, I’ve been involved in social activities. British people are fascinated by our culture and eager to learn more about it, so I’m keen to share my culture with them. While I’m learning about business, I’m also acting as a cultural messenger building a bridge between us.”\nWe will follow Xie Lei’s progress in later editions, but for now, we wish her all the best.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Six months ago, 19-year-old Xie Lei said goodbye to her family and friends and boarded a plane for London. It was the first time that she had left China. “I was very excited but also quite nervous. I didn’t know what to expect,” Xie Lei recalled."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Xie Lei is studying for a business qualification at a university in China and has come to our university on a year-long exchange programme. “I chose the exchange programme because I wanted to learn about global business and improve my English. My ambition is to set up a business in China after graduation,” she explained."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "At first, Xie Lei had to adapt to life in a different country. “You have to get used to a whole new life,” she said. “I had to learn how to use public transport and how to ask for things I didn’t know the English names for. When I got lost, I had to ask passers-by for help, but people here speak fast and use words I’m not familiar with. I ask them to repeat themselves a lot!”"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Although some foreign students live in campus accommodation, Xie Lei chose to live with a host family, who can help with her adaptation to the new culture. “When I miss home, I feel comforted to have a second family,” Xie Lei said. “When there’s something I don’t know or understand, I can ask them. They are also keen to learn about China. Laura, the daughter of my host family, wants to study in China in the future. We take turns to cook each evening. They really love my stir-fried tomatoes and eggs! Laura says she always feels hungry when she smells it, so I taught her how to cook it, too.”"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Another challenge for Xie Lei is the academic requirements. The first time that she had to write an essay, her tutor explained that she must acknowledge what other people had said if she cited their ideas, but that he mainly wanted to know what she thought! Xie Lei was confused because she thought she knew less than other people. Her tutor advised her to read lots of information in order to form a wise opinion of her own."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Xie Lei also found many courses included students’ participation in class as part of the final result. Students need to generate ideas, offer examples, apply concepts, and raise questions, as well as give presentations. At first, Xie Lei had no idea what she should say, but what surprised her was that she found herself speaking up in class after just a few weeks. “My presentation on traditional Chinese art was a great success, which boosted my confidence,” she said. “I’ll use these skills back home for presentations. They’ll help me build a strong business in the future.”"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Now halfway through her exchange year, Xie Lei feels much more at home in the UK. What seemed strange before now appears quite normal to her. “Engaging in British culture has helped,” she said. “As well as studying hard, I’ve been involved in social activities. British people are fascinated by our culture and eager to learn more about it, so I’m keen to share my culture with them. While I’m learning about business, I’m also acting as a cultural messenger building a bridge between us.”"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "We will follow Xie Lei’s progress in later editions, but for now, we wish her all the best."
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "选择性必修第二册",
+    "pageStart": 21,
+    "pageEnd": 22,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "1a701f2205298de95ea59cfc71eb83cd",
+    "pdfSize": 9968316,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/senior-selective-2.pdf#page=21-22",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored the complete eight-paragraph exchange-programme feature across pages 21–22, following the page-21 two-column flow and all three concluding paragraphs before the page-22 exercises; excluded the photograph, strategy box, instructions and tasks."
+    }
+  }
+}

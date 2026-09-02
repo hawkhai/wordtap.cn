@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "pepj8b-020",
+  "groupId": "pepj8b",
+  "unitNo": 10,
+  "sequenceNo": 20,
+  "section": "Section B",
+  "title": "Hometown Feelings",
+  "jsonPath": "pep-english/lessons/pepj8b/020.json",
+  "text": "Some people still live in their hometown. However, others may only see it once or twice a year. Nowadays, millions of Chinese leave the countryside to search for work in the cities. Among these is Zhong Wei, a 46-year-old husband and father. He has lived in Wenzhou for the last 13 years. With a hard job in a crayon factory, he doesn't find much time to visit his hometown. \"I used to return home at least once a year, but I haven't been back for almost three years now. It's a shame, but I just don't have the time,\" he says.\nMany people like Zhong Wei regard with great interest how their hometowns have changed. Perhaps large hospitals and new roads have appeared. In many places, the government has also built new schools and sent teachers from the cities to help.\n\"I noticed that's true of my hometown,\" adds Zhong Wei. \"Children have learned to read and count at my old primary school since the mid-20th century. But now the buildings are really old. I hear they're going to build a new school there.\" Zhong Wei thinks such developments are good, and he also knows that his hometown cannot always stay the same.\nAccording to Zhong Wei, however, some things will never change. \"In my hometown, there was a big old tree opposite the school. It is still there and has become quite a symbol of the place. Most of the children in my time liked to play together under that big tree, especially during the summer holidays. It was such a happy childhood. Our hometown has left many soft and sweet memories in our hearts.\"",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Some people still live in their hometown. However, others may only see it once or twice a year. Nowadays, millions of Chinese leave the countryside to search for work in the cities. Among these is Zhong Wei, a 46-year-old husband and father. He has lived in Wenzhou for the last 13 years. With a hard job in a crayon factory, he doesn't find much time to visit his hometown. \"I used to return home at least once a year, but I haven't been back for almost three years now. It's a shame, but I just don't have the time,\" he says."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Many people like Zhong Wei regard with great interest how their hometowns have changed. Perhaps large hospitals and new roads have appeared. In many places, the government has also built new schools and sent teachers from the cities to help."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "\"I noticed that's true of my hometown,\" adds Zhong Wei. \"Children have learned to read and count at my old primary school since the mid-20th century. But now the buildings are really old. I hear they're going to build a new school there.\" Zhong Wei thinks such developments are good, and he also knows that his hometown cannot always stay the same."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "According to Zhong Wei, however, some things will never change. \"In my hometown, there was a big old tree opposite the school. It is still there and has become quite a symbol of the place. Most of the children in my time liked to play together under that big tree, especially during the summer holidays. It was such a happy childhood. Our hometown has left many soft and sweet memories in our hearts.\""
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "初中",
+    "book": "八年级下册",
+    "pageStart": 87,
+    "pageEnd": 87,
+    "extractionMode": "ocr",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "21d35e04f1c22b74a3fe3e95e88adff9",
+    "pdfSize": 18208880,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/junior-8b.pdf#page=87",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored the printed title and all four complete paragraphs; corrected Section B metadata and excluded the 2a questions plus the Using Previous Knowledge strategy box."
+    }
+  }
+}

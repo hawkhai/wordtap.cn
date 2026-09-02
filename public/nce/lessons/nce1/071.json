@@ -1,0 +1,224 @@
+{
+  "schemaVersion": 1,
+  "id": "nce1-071",
+  "bookId": "nce1",
+  "bookNo": 1,
+  "lessonNo": 71,
+  "lessonRange": [
+    71,
+    72
+  ],
+  "title": "He's Awful",
+  "titleZh": "他太糟糕了！",
+  "question": "How did Pauline answer the telephone at nine o'clock?",
+  "questionZh": "保罗琳在九点钟是如何接电话的？",
+  "text": "How did Pauline answer the telephone at nine o'clock?\n\nWhat's Ron Marston like, Pauline?\nHe's awful!\nHe telephoned me four times yesterday and three times the day before yesterday.\nHe telephoned the office yesterday morning and yesterday afternoon.\nMy boss answered the telephone.\nWhat did your boss say to him?\nHe said, 'Pauline is typing letters.\nShe can't speak to you now!'\nThen I arrived home at six o'clock yesterday evening.\nHe telephoned again.\nBut I didn't answer the phone!\nDid he telephone again last night?\nYes, he did.\nHe telephoned at nine o'clock.\nWhat did you say to him?\nI said, 'This is Pauline's mother.\nPlease don't telephone my daughter again!'\nDid he telephone again?\nNo, he didn't!",
+  "bodyText": "What's Ron Marston like, Pauline?\nHe's awful!\nHe telephoned me four times yesterday and three times the day before yesterday.\nHe telephoned the office yesterday morning and yesterday afternoon.\nMy boss answered the telephone.\nWhat did your boss say to him?\nHe said, 'Pauline is typing letters.\nShe can't speak to you now!'\nThen I arrived home at six o'clock yesterday evening.\nHe telephoned again.\nBut I didn't answer the phone!\nDid he telephone again last night?\nYes, he did.\nHe telephoned at nine o'clock.\nWhat did you say to him?\nI said, 'This is Pauline's mother.\nPlease don't telephone my daughter again!'\nDid he telephone again?\nNo, he didn't!",
+  "bodyTextZh": "罗恩·马斯顿是个什么样的人啊，保罗琳？\n他太糟糕了！\n他昨天给我打了四次电话，前天则打了三次电话。\n他昨天上午和昨天下午都给办公室打了电话。\n我的老板接了电话。\n你的老板对他说了什么？\n他说：“保罗琳正在打信件。\n“她现在没法和你说话！”\n然后我昨天晚上六点钟回到了家。\n他又打了一次电话。\n但我没有接电话啊！\n他昨晚又打电话来了吗？\n是的，他确实这么做了。\n他是在九点钟打来的电话。\n你对他说了什么？\n我说：“我是保罗琳的母亲。\n“请不要再给我女儿打电话了！”\n他又打电话来了吗？\n不，他并没有！",
+  "sentences": [
+    {
+      "index": 0,
+      "startTime": 0.67,
+      "endTime": 2.95,
+      "en": "Lesson 71",
+      "zh": "第71课",
+      "role": "lesson"
+    },
+    {
+      "index": 1,
+      "startTime": 2.95,
+      "endTime": 5.84,
+      "en": "He's awful!",
+      "zh": "他太糟糕了！",
+      "role": "title"
+    },
+    {
+      "index": 2,
+      "startTime": 5.84,
+      "endTime": 11.82,
+      "en": "Listen to the tape then answer this question.",
+      "zh": "先听这段录音，然后再回答这个问题。",
+      "role": "prompt"
+    },
+    {
+      "index": 3,
+      "startTime": 11.82,
+      "endTime": 19.64,
+      "en": "How did Pauline answer the telephone at nine o'clock?",
+      "zh": "保罗琳在九点钟是如何接电话的？",
+      "role": "question"
+    },
+    {
+      "index": 4,
+      "startTime": 19.64,
+      "endTime": 24.07,
+      "en": "What's Ron Marston like, Pauline?",
+      "zh": "罗恩·马斯顿是个什么样的人啊，保罗琳？",
+      "role": "body"
+    },
+    {
+      "index": 5,
+      "startTime": 24.07,
+      "endTime": 26.62,
+      "en": "He's awful!",
+      "zh": "他太糟糕了！",
+      "role": "body"
+    },
+    {
+      "index": 6,
+      "startTime": 26.62,
+      "endTime": 37.22,
+      "en": "He telephoned me four times yesterday and three times the day before yesterday.",
+      "zh": "他昨天给我打了四次电话，前天则打了三次电话。",
+      "role": "body"
+    },
+    {
+      "index": 7,
+      "startTime": 37.22,
+      "endTime": 45.55,
+      "en": "He telephoned the office yesterday morning and yesterday afternoon.",
+      "zh": "他昨天上午和昨天下午都给办公室打了电话。",
+      "role": "body"
+    },
+    {
+      "index": 8,
+      "startTime": 45.55,
+      "endTime": 50.14,
+      "en": "My boss answered the telephone.",
+      "zh": "我的老板接了电话。",
+      "role": "body"
+    },
+    {
+      "index": 9,
+      "startTime": 50.14,
+      "endTime": 53.8,
+      "en": "What did your boss say to him?",
+      "zh": "你的老板对他说了什么？",
+      "role": "body"
+    },
+    {
+      "index": 10,
+      "startTime": 53.8,
+      "endTime": 58.5,
+      "en": "He said, 'Pauline is typing letters.",
+      "zh": "他说：“保罗琳正在打信件。",
+      "role": "body"
+    },
+    {
+      "index": 11,
+      "startTime": 58.5,
+      "endTime": 62.36,
+      "en": "She can't speak to you now!'",
+      "zh": "“她现在没法和你说话！”",
+      "role": "body"
+    },
+    {
+      "index": 12,
+      "startTime": 62.36,
+      "endTime": 68.82,
+      "en": "Then I arrived home at six o'clock yesterday evening.",
+      "zh": "然后我昨天晚上六点钟回到了家。",
+      "role": "body"
+    },
+    {
+      "index": 13,
+      "startTime": 68.82,
+      "endTime": 71.61,
+      "en": "He telephoned again.",
+      "zh": "他又打了一次电话。",
+      "role": "body"
+    },
+    {
+      "index": 14,
+      "startTime": 71.61,
+      "endTime": 75.67,
+      "en": "But I didn't answer the phone!",
+      "zh": "但我没有接电话啊！",
+      "role": "body"
+    },
+    {
+      "index": 15,
+      "startTime": 75.67,
+      "endTime": 79.83,
+      "en": "Did he telephone again last night?",
+      "zh": "他昨晚又打电话来了吗？",
+      "role": "body"
+    },
+    {
+      "index": 16,
+      "startTime": 79.83,
+      "endTime": 82.21,
+      "en": "Yes, he did.",
+      "zh": "是的，他确实这么做了。",
+      "role": "body"
+    },
+    {
+      "index": 17,
+      "startTime": 82.21,
+      "endTime": 86.41,
+      "en": "He telephoned at nine o'clock.",
+      "zh": "他是在九点钟打来的电话。",
+      "role": "body"
+    },
+    {
+      "index": 18,
+      "startTime": 86.41,
+      "endTime": 89.67,
+      "en": "What did you say to him?",
+      "zh": "你对他说了什么？",
+      "role": "body"
+    },
+    {
+      "index": 19,
+      "startTime": 89.67,
+      "endTime": 93.82,
+      "en": "I said, 'This is Pauline's mother.",
+      "zh": "我说：“我是保罗琳的母亲。",
+      "role": "body"
+    },
+    {
+      "index": 20,
+      "startTime": 93.82,
+      "endTime": 99.44,
+      "en": "Please don't telephone my daughter again!'",
+      "zh": "“请不要再给我女儿打电话了！”",
+      "role": "body"
+    },
+    {
+      "index": 21,
+      "startTime": 99.44,
+      "endTime": 102.1,
+      "en": "Did he telephone again?",
+      "zh": "他又打电话来了吗？",
+      "role": "body"
+    },
+    {
+      "index": 22,
+      "startTime": 102.1,
+      "endTime": null,
+      "en": "No, he didn't!",
+      "zh": "不，他并没有！",
+      "role": "body"
+    }
+  ],
+  "audio": {
+    "fileName": "071&072－He's Awful.mp3",
+    "sourcePath": "content/NCE-Flow/NCE1/071&072－He's Awful.mp3",
+    "exists": true
+  },
+  "source": {
+    "repository": "NCE-Flow",
+    "lrcFileName": "071&072－He's Awful.lrc",
+    "lrcPath": "content/NCE-Flow/NCE1/071&072－He's Awful.lrc",
+    "sourceDataFile": "content/NCE-Flow/static/data.json",
+    "generatedAt": "2026-07-23T02:59:02+00:00",
+    "generator": "scripts/generate_nce_json.py",
+    "generatorVersion": "2.0.0",
+    "metadata": {
+      "al": "新概念英语（一）",
+      "ar": "MP3 同步字幕版（美音）",
+      "ti": "He's Awful!",
+      "by": "更多学习内容，请到VeryCD.com搜索“露珠”"
+    }
+  }
+}

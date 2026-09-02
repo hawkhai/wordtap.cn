@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "pepj9-001",
+  "groupId": "pepj9",
+  "unitNo": 1,
+  "sequenceNo": 1,
+  "section": "Section A",
+  "title": "Jack Asks Annie for Reading Advice",
+  "jsonPath": "pep-english/lessons/pepj9/001.json",
+  "text": "Jack: Annie, I'm a little nervous. I have to finish reading a book and give a report next Monday.\nAnnie: That doesn't sound too bad.\nJack: But I'm a very slow reader.\nAnnie: Just read quickly to get the main ideas at first. Don't read word by word. Read word groups.\nJack: But I don't understand many of the words. I have to use a dictionary.\nAnnie: Try to guess a word's meaning by reading the sentences before and after it. You probably understand more than you think.\nJack: That sounds difficult!\nAnnie: Well, be patient. It takes time. You can become better by reading something you enjoy every day. The more you read, the faster you'll be.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Jack: Annie, I'm a little nervous. I have to finish reading a book and give a report next Monday.\nAnnie: That doesn't sound too bad.\nJack: But I'm a very slow reader.\nAnnie: Just read quickly to get the main ideas at first. Don't read word by word. Read word groups.\nJack: But I don't understand many of the words. I have to use a dictionary.\nAnnie: Try to guess a word's meaning by reading the sentences before and after it. You probably understand more than you think.\nJack: That sounds difficult!\nAnnie: Well, be patient. It takes time. You can become better by reading something you enjoy every day. The more you read, the faster you'll be."
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "初中",
+    "book": "九年级全一册",
+    "pageStart": 16,
+    "pageEnd": 16,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "c6e628c22e0c2f9cfe4547699a1c95a4",
+    "pdfSize": 11088578,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/junior-9.pdf#page=16",
+      "reviewedAt": "2026-07-22",
+      "notes": "Retained only the complete 2d role-play dialogue; excluded the 2a question table, 2b answer fragments, 2c model exchange and all activity instructions."
+    }
+  }
+}

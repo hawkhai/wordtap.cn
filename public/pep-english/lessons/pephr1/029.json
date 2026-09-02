@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "pephr1-029",
+  "groupId": "pephr1",
+  "unitNo": 3,
+  "sequenceNo": 29,
+  "section": "Using Words and Expressions",
+  "title": "What Great Athletes Have in Common",
+  "jsonPath": "pep-english/lessons/pephr1/029.json",
+  "text": "What is the difference between a good athlete and a great one? What is the difference between a player of a sport and a master of a sport? A sports psychologist suggests there are four things that all great athletes have in common. First, all great athletes love competition. They are not afraid to compete with other people. Second is their self-confidence; they are positive about themselves and their abilities. Great athletes can also deal with stress well. They are able to cut out things from their lives that add to their stress, such as unhealthy food or bad friendships. Finally, all great athletes have the mental strength to focus on what is most important. They will not let themselves be distracted from their goal. Great athletes set an example to all of us not only in how to play sports well but also in how to live life well.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "What is the difference between a good athlete and a great one? What is the difference between a player of a sport and a master of a sport? A sports psychologist suggests there are four things that all great athletes have in common. First, all great athletes love competition. They are not afraid to compete with other people. Second is their self-confidence; they are positive about themselves and their abilities. Great athletes can also deal with stress well. They are able to cut out things from their lives that add to their stress, such as unhealthy food or bad friendships. Finally, all great athletes have the mental strength to focus on what is most important. They will not let themselves be distracted from their goal. Great athletes set an example to all of us not only in how to play sports well but also in how to live life well."
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "必修第一册",
+    "pageStart": 91,
+    "pageEnd": 91,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "e0bf18138b24d7def28b35994a13946b",
+    "pdfSize": 14704146,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/senior-required-1.pdf#page=91",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored the complete athlete-psychology passage as its own lesson and removed inline Chinese glosses and follow-up questions.",
+      "splitBaselineId": "pephr1-036",
+      "splitIndex": 1,
+      "splitCount": 2
+    }
+  }
+}

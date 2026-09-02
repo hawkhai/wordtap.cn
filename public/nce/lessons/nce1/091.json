@@ -1,0 +1,232 @@
+{
+  "schemaVersion": 1,
+  "id": "nce1-091",
+  "bookId": "nce1",
+  "bookNo": 1,
+  "lessonNo": 91,
+  "lessonRange": [
+    91,
+    92
+  ],
+  "title": "Poor Ian",
+  "titleZh": "可怜的伊恩！",
+  "question": "Who wanted to sell the house?",
+  "questionZh": "谁想卖掉这栋房子呢？",
+  "text": "Who wanted to sell the house?\n\nHas Ian sold his house yet?\nYes, he has.\nHe sold it last week.\nHas he moved to his new house yet?\nNo, not yet.\nHe's still here.\nHe's going to move tomorrow.\nWhen? Tomorrow morning?\nNo. Tomorrow afternoon.\nI'll miss him.\nHe has always been a good neighbour.\nHe's a very nice person.\nWe'll all miss him.\nWhen will the new people move into this house?\nI think that they'll move in the day after tomorrow.\nWill you see Ian today, Jenny?\nYes, I will.\nPlease give him my regards.\nPoor Ian! He didn't want to leave this house.\nNo, he didn't want to leave, but his wife did!",
+  "bodyText": "Has Ian sold his house yet?\nYes, he has.\nHe sold it last week.\nHas he moved to his new house yet?\nNo, not yet.\nHe's still here.\nHe's going to move tomorrow.\nWhen? Tomorrow morning?\nNo. Tomorrow afternoon.\nI'll miss him.\nHe has always been a good neighbour.\nHe's a very nice person.\nWe'll all miss him.\nWhen will the new people move into this house?\nI think that they'll move in the day after tomorrow.\nWill you see Ian today, Jenny?\nYes, I will.\nPlease give him my regards.\nPoor Ian! He didn't want to leave this house.\nNo, he didn't want to leave, but his wife did!",
+  "bodyTextZh": "伊恩已经卖掉他的房子了吗？\n是的，他已经卖了。\n他上周把它卖掉了。\n他已经搬进新房子了吗？\n不，还没有。\n他还在这里。\n他明天就要搬家了。\n什么时候？明天早上吗？\n不，明天下午。\n我会想念他的。\n他一直是个很好的邻居。\n他是个非常友善的人。\n我们都会想念他的。\n新搬来的人什么时候会入住这栋房子呢？\n我认为他们会在后天搬进来。\n珍妮，你今天会见到伊恩吗？\n是的，我会的。\n请代我向他问好。\n可怜的伊恩！他根本不想离开这栋房子。\n不，他不想离开，但他妻子想！",
+  "sentences": [
+    {
+      "index": 0,
+      "startTime": 0.91,
+      "endTime": 3.45,
+      "en": "Lesson 91",
+      "zh": "第91课",
+      "role": "lesson"
+    },
+    {
+      "index": 1,
+      "startTime": 3.45,
+      "endTime": 6.26,
+      "en": "Poor Ian!",
+      "zh": "可怜的伊恩！",
+      "role": "title"
+    },
+    {
+      "index": 2,
+      "startTime": 6.26,
+      "endTime": 12.13,
+      "en": "Listen to the tape then answer this question.",
+      "zh": "先听这段录音，然后再回答这个问题。",
+      "role": "prompt"
+    },
+    {
+      "index": 3,
+      "startTime": 12.13,
+      "endTime": 17.55,
+      "en": "Who wanted to sell the house?",
+      "zh": "谁想卖掉这栋房子呢？",
+      "role": "question"
+    },
+    {
+      "index": 4,
+      "startTime": 17.55,
+      "endTime": 21.25,
+      "en": "Has Ian sold his house yet?",
+      "zh": "伊恩已经卖掉他的房子了吗？",
+      "role": "body"
+    },
+    {
+      "index": 5,
+      "startTime": 21.25,
+      "endTime": 23.21,
+      "en": "Yes, he has.",
+      "zh": "是的，他已经卖了。",
+      "role": "body"
+    },
+    {
+      "index": 6,
+      "startTime": 23.21,
+      "endTime": 26.92,
+      "en": "He sold it last week.",
+      "zh": "他上周把它卖掉了。",
+      "role": "body"
+    },
+    {
+      "index": 7,
+      "startTime": 26.92,
+      "endTime": 31.45,
+      "en": "Has he moved to his new house yet?",
+      "zh": "他已经搬进新房子了吗？",
+      "role": "body"
+    },
+    {
+      "index": 8,
+      "startTime": 31.45,
+      "endTime": 33.81,
+      "en": "No, not yet.",
+      "zh": "不，还没有。",
+      "role": "body"
+    },
+    {
+      "index": 9,
+      "startTime": 33.81,
+      "endTime": 36.05,
+      "en": "He's still here.",
+      "zh": "他还在这里。",
+      "role": "body"
+    },
+    {
+      "index": 10,
+      "startTime": 36.05,
+      "endTime": 39.82,
+      "en": "He's going to move tomorrow.",
+      "zh": "他明天就要搬家了。",
+      "role": "body"
+    },
+    {
+      "index": 11,
+      "startTime": 39.82,
+      "endTime": 44.12,
+      "en": "When? Tomorrow morning?",
+      "zh": "什么时候？明天早上吗？",
+      "role": "body"
+    },
+    {
+      "index": 12,
+      "startTime": 44.12,
+      "endTime": 47.83,
+      "en": "No. Tomorrow afternoon.",
+      "zh": "不，明天下午。",
+      "role": "body"
+    },
+    {
+      "index": 13,
+      "startTime": 47.83,
+      "endTime": 49.89,
+      "en": "I'll miss him.",
+      "zh": "我会想念他的。",
+      "role": "body"
+    },
+    {
+      "index": 14,
+      "startTime": 49.89,
+      "endTime": 54.57,
+      "en": "He has always been a good neighbour.",
+      "zh": "他一直是个很好的邻居。",
+      "role": "body"
+    },
+    {
+      "index": 15,
+      "startTime": 54.57,
+      "endTime": 58.17,
+      "en": "He's a very nice person.",
+      "zh": "他是个非常友善的人。",
+      "role": "body"
+    },
+    {
+      "index": 16,
+      "startTime": 58.17,
+      "endTime": 62.21,
+      "en": "We'll all miss him.",
+      "zh": "我们都会想念他的。",
+      "role": "body"
+    },
+    {
+      "index": 17,
+      "startTime": 62.21,
+      "endTime": 67.54,
+      "en": "When will the new people move into this house?",
+      "zh": "新搬来的人什么时候会入住这栋房子呢？",
+      "role": "body"
+    },
+    {
+      "index": 18,
+      "startTime": 67.54,
+      "endTime": 74.22,
+      "en": "I think that they'll move in the day after tomorrow.",
+      "zh": "我认为他们会在后天搬进来。",
+      "role": "body"
+    },
+    {
+      "index": 19,
+      "startTime": 74.22,
+      "endTime": 79.71,
+      "en": "Will you see Ian today, Jenny?",
+      "zh": "珍妮，你今天会见到伊恩吗？",
+      "role": "body"
+    },
+    {
+      "index": 20,
+      "startTime": 79.71,
+      "endTime": 83.09,
+      "en": "Yes, I will.",
+      "zh": "是的，我会的。",
+      "role": "body"
+    },
+    {
+      "index": 21,
+      "startTime": 83.09,
+      "endTime": 87.83,
+      "en": "Please give him my regards.",
+      "zh": "请代我向他问好。",
+      "role": "body"
+    },
+    {
+      "index": 22,
+      "startTime": 87.83,
+      "endTime": 94.49,
+      "en": "Poor Ian! He didn't want to leave this house.",
+      "zh": "可怜的伊恩！他根本不想离开这栋房子。",
+      "role": "body"
+    },
+    {
+      "index": 23,
+      "startTime": 94.49,
+      "endTime": null,
+      "en": "No, he didn't want to leave, but his wife did!",
+      "zh": "不，他不想离开，但他妻子想！",
+      "role": "body"
+    }
+  ],
+  "audio": {
+    "fileName": "091&092－Poor Ian.mp3",
+    "sourcePath": "content/NCE-Flow/NCE1/091&092－Poor Ian.mp3",
+    "exists": true
+  },
+  "source": {
+    "repository": "NCE-Flow",
+    "lrcFileName": "091&092－Poor Ian.lrc",
+    "lrcPath": "content/NCE-Flow/NCE1/091&092－Poor Ian.lrc",
+    "sourceDataFile": "content/NCE-Flow/static/data.json",
+    "generatedAt": "2026-07-23T02:59:02+00:00",
+    "generator": "scripts/generate_nce_json.py",
+    "generatorVersion": "2.0.0",
+    "metadata": {
+      "al": "新概念英语（一）",
+      "ar": "MP3 同步字幕版（美音）",
+      "ti": "Poor Ian!",
+      "by": "更多学习内容，请到VeryCD.com搜索“露珠”"
+    }
+  }
+}

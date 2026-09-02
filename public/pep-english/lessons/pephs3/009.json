@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "id": "pephs3-009",
+  "groupId": "pephs3",
+  "unitNo": 4,
+  "sequenceNo": 9,
+  "section": "Using Language",
+  "title": "The Reward for Perseverance",
+  "jsonPath": "pep-english/lessons/pephs3/009.json",
+  "text": "We watched as Shackleton and the boat sailed away from Elephant Island. It was easy to imagine the danger ahead of them. Would they ever return to find us? What might happen to them? What if they were delayed? We felt so alone and desperate. But it was not for long. There was nothing like a good dinner and some music to cheer us up.\nLife fell into a regular pattern. Staying alive took all our time and energy. For example, we needed water, and Elephant Island had none. We found that we could melt ice from the ocean and drink the water from it. But how could we make fire? There were no trees growing on Antarctica and no oil, so the only fuel we could use was animal fat. This gave off oily, black smoke, but it stayed burning even in strong winds.\nFood was also a problem, as we did not find any vegetables or fruit on the island. One of our group members, Lionel Greenstreet, noted in his diary about how bored he was with the meals: “The food now is pretty well all meat of sea creatures.” If it weren’t for sea animals, we would all starve. As a chef, it was my duty to cook, so I tried to vary the meals in whatever way I could. But it was difficult.\nWe had to be careful not to go outside too often, as the changing temperatures could make us ill. It was almost as dangerous to become too hot from wearing too many clothes as to become too cold from wearing too few. The sweat could freeze very quickly. Many of us also became ill from the black smoke of the animal fat we burnt for our fires. It damaged our eyes and burnt our lungs.\nThe twenty-two of us lived like this in the cold for four months. Our discipline and team spirit kept us optimistic and helped us deal with our fears in a positive and successful way. We also celebrated our birthdays, festivals, and even the times when we caught a sea animal. This was an episode in my life that I would never forget.\nWhen we were finally rescued, we felt such relief and joy that many of us could not hide our tears. We were at last free to go home to warm beds, good food, and the care of our family and friends. Our optimism and faith in Shackleton had helped us persevere in staying alive. And he paid us back by his commitment to save us from a slow but painful death.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "We watched as Shackleton and the boat sailed away from Elephant Island. It was easy to imagine the danger ahead of them. Would they ever return to find us? What might happen to them? What if they were delayed? We felt so alone and desperate. But it was not for long. There was nothing like a good dinner and some music to cheer us up."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Life fell into a regular pattern. Staying alive took all our time and energy. For example, we needed water, and Elephant Island had none. We found that we could melt ice from the ocean and drink the water from it. But how could we make fire? There were no trees growing on Antarctica and no oil, so the only fuel we could use was animal fat. This gave off oily, black smoke, but it stayed burning even in strong winds."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Food was also a problem, as we did not find any vegetables or fruit on the island. One of our group members, Lionel Greenstreet, noted in his diary about how bored he was with the meals: “The food now is pretty well all meat of sea creatures.” If it weren’t for sea animals, we would all starve. As a chef, it was my duty to cook, so I tried to vary the meals in whatever way I could. But it was difficult."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "We had to be careful not to go outside too often, as the changing temperatures could make us ill. It was almost as dangerous to become too hot from wearing too many clothes as to become too cold from wearing too few. The sweat could freeze very quickly. Many of us also became ill from the black smoke of the animal fat we burnt for our fires. It damaged our eyes and burnt our lungs."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "The twenty-two of us lived like this in the cold for four months. Our discipline and team spirit kept us optimistic and helped us deal with our fears in a positive and successful way. We also celebrated our birthdays, festivals, and even the times when we caught a sea animal. This was an episode in my life that I would never forget."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "When we were finally rescued, we felt such relief and joy that many of us could not hide our tears. We were at last free to go home to warm beds, good food, and the care of our family and friends. Our optimism and faith in Shackleton had helped us persevere in staying alive. And he paid us back by his commitment to save us from a slow but painful death."
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "选择性必修第三册",
+    "pageStart": 51,
+    "pageEnd": 52,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "f0dc33129a755a33421d401b71a05cd1",
+    "pdfSize": 12684455,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/senior-selective-3.pdf#page=51-52",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored the complete six-paragraph memoir across pages 51-52; excluded prediction instructions, photograph and caption, comprehension questions, essay-writing steps, checklist, and running furniture."
+    }
+  }
+}

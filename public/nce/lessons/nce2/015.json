@@ -1,0 +1,143 @@
+{
+  "schemaVersion": 1,
+  "id": "nce2-015",
+  "bookId": "nce2",
+  "bookNo": 2,
+  "lessonNo": 15,
+  "lessonRange": [
+    15
+  ],
+  "title": "Good News",
+  "titleZh": "佳音",
+  "question": "What was the good news?",
+  "questionZh": "那条好消息是什么呢？",
+  "text": "What was the good news?\n\nThe secretary told me that Mr. Harmsworth would see me.\nI felt very nervous when I went into his office.\nHe did not look up from his desk when I entered.\nAfter I had sat down, he said that business was very bad.\nHe told me that the firm could not afford to pay such large salaries.\nTwenty people had already left.\nI knew that my turn had come.\n'Mr. Harmsworth,' I said in a weak voice.\n'Don't interrupt,' he said.\nThen he smiled and told me I would receive an extra thousand pounds a year!",
+  "bodyText": "The secretary told me that Mr. Harmsworth would see me.\nI felt very nervous when I went into his office.\nHe did not look up from his desk when I entered.\nAfter I had sat down, he said that business was very bad.\nHe told me that the firm could not afford to pay such large salaries.\nTwenty people had already left.\nI knew that my turn had come.\n'Mr. Harmsworth,' I said in a weak voice.\n'Don't interrupt,' he said.\nThen he smiled and told me I would receive an extra thousand pounds a year!",
+  "bodyTextZh": "秘书告诉我，哈姆斯沃思先生会见我。\n当我走进他的办公室时，我感到非常紧张。\n我进去的时候，他头也没抬，眼睛一直盯着书桌。\n在我坐下之后，他说生意非常糟糕。\n他告诉我，公司无力支付如此高的薪水。\n已经有二十个人离开了。\n我知道轮到我了。\n“哈姆斯沃思先生，”我虚弱地说道。\n“不要打断我，”他说。\n然后他笑了，告诉我每年还能多拿一千英镑！",
+  "sentences": [
+    {
+      "index": 0,
+      "startTime": 0.5,
+      "endTime": 3,
+      "en": "Lesson 15",
+      "zh": "第15课",
+      "role": "lesson"
+    },
+    {
+      "index": 1,
+      "startTime": 3,
+      "endTime": 9.78,
+      "en": "Good News",
+      "zh": "佳音",
+      "role": "title"
+    },
+    {
+      "index": 2,
+      "startTime": 9.78,
+      "endTime": 13.88,
+      "en": "What was the good news?",
+      "zh": "那条好消息是什么呢？",
+      "role": "question"
+    },
+    {
+      "index": 3,
+      "startTime": 13.88,
+      "endTime": 19.28,
+      "en": "The secretary told me that Mr. Harmsworth would see me.",
+      "zh": "秘书告诉我，哈姆斯沃思先生会见我。",
+      "role": "body"
+    },
+    {
+      "index": 4,
+      "startTime": 19.28,
+      "endTime": 24.36,
+      "en": "I felt very nervous when I went into his office.",
+      "zh": "当我走进他的办公室时，我感到非常紧张。",
+      "role": "body"
+    },
+    {
+      "index": 5,
+      "startTime": 24.36,
+      "endTime": 28.84,
+      "en": "He did not look up from his desk when I entered.",
+      "zh": "我进去的时候，他头也没抬，眼睛一直盯着书桌。",
+      "role": "body"
+    },
+    {
+      "index": 6,
+      "startTime": 28.84,
+      "endTime": 35.1,
+      "en": "After I had sat down, he said that business was very bad.",
+      "zh": "在我坐下之后，他说生意非常糟糕。",
+      "role": "body"
+    },
+    {
+      "index": 7,
+      "startTime": 35.1,
+      "endTime": 41.52,
+      "en": "He told me that the firm could not afford to pay such large salaries.",
+      "zh": "他告诉我，公司无力支付如此高的薪水。",
+      "role": "body"
+    },
+    {
+      "index": 8,
+      "startTime": 41.52,
+      "endTime": 45.06,
+      "en": "Twenty people had already left.",
+      "zh": "已经有二十个人离开了。",
+      "role": "body"
+    },
+    {
+      "index": 9,
+      "startTime": 45.06,
+      "endTime": 48.59,
+      "en": "I knew that my turn had come.",
+      "zh": "我知道轮到我了。",
+      "role": "body"
+    },
+    {
+      "index": 10,
+      "startTime": 48.59,
+      "endTime": 53.3,
+      "en": "'Mr. Harmsworth,' I said in a weak voice.",
+      "zh": "“哈姆斯沃思先生，”我虚弱地说道。",
+      "role": "body"
+    },
+    {
+      "index": 11,
+      "startTime": 53.3,
+      "endTime": 56.14,
+      "en": "'Don't interrupt,' he said.",
+      "zh": "“不要打断我，”他说。",
+      "role": "body"
+    },
+    {
+      "index": 12,
+      "startTime": 56.14,
+      "endTime": null,
+      "en": "Then he smiled and told me I would receive an extra thousand pounds a year!",
+      "zh": "然后他笑了，告诉我每年还能多拿一千英镑！",
+      "role": "body"
+    }
+  ],
+  "audio": {
+    "fileName": "15－Good News.mp3",
+    "sourcePath": "content/NCE-Flow/NCE2/15－Good News.mp3",
+    "exists": true
+  },
+  "source": {
+    "repository": "NCE-Flow",
+    "lrcFileName": "15－Good News.lrc",
+    "lrcPath": "content/NCE-Flow/NCE2/15－Good News.lrc",
+    "sourceDataFile": "content/NCE-Flow/static/data.json",
+    "generatedAt": "2026-07-23T02:59:02+00:00",
+    "generator": "scripts/generate_nce_json.py",
+    "generatorVersion": "2.0.0",
+    "metadata": {
+      "al": "新概念英语（二）",
+      "ar": "MP3 同步字幕版（美音）",
+      "ti": "Good News",
+      "by": "更多学习内容，请到VeryCD.com搜索“露珠”"
+    }
+  }
+}

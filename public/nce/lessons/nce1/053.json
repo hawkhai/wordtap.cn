@@ -1,0 +1,192 @@
+{
+  "schemaVersion": 1,
+  "id": "nce1-053",
+  "bookId": "nce1",
+  "bookNo": 1,
+  "lessonNo": 53,
+  "lessonRange": [
+    53,
+    54
+  ],
+  "title": "An Interesting Climate",
+  "titleZh": "有趣的气候",
+  "question": "What is the favourite subject of conversation in England?",
+  "questionZh": "在英格兰，人们最喜欢谈论的话题是什么？",
+  "text": "What is the favourite subject of conversation in England?\n\nWhere do you come from?\nI come from England.\nWhat's the climate like in your country?\nIt's mild, but it's not always pleasant.\nThe weather's often cold in the North and windy in the East.\nIt's often wet in the West and sometimes warm in the South.\nWhich seasons do you like best?\nI like spring and summer.\nThe days are long and the nights are short.\nThe sun rises early and sets late.\nI don't like autumn and winter.\nThe days are short and the nights are long.\nThe sun rises late and sets early.\nOur climate is not very good, but it's certainly interesting.\nIt's our favourite subject of conversation.",
+  "bodyText": "Where do you come from?\nI come from England.\nWhat's the climate like in your country?\nIt's mild, but it's not always pleasant.\nThe weather's often cold in the North and windy in the East.\nIt's often wet in the West and sometimes warm in the South.\nWhich seasons do you like best?\nI like spring and summer.\nThe days are long and the nights are short.\nThe sun rises early and sets late.\nI don't like autumn and winter.\nThe days are short and the nights are long.\nThe sun rises late and sets early.\nOur climate is not very good, but it's certainly interesting.\nIt's our favourite subject of conversation.",
+  "bodyTextZh": "你来自哪里？\n我来自英格兰。\n你们国家的气候是怎样的？\n气候温和，但并非总是宜人。\n北方常常寒冷，东部则多风。\n西部常常潮湿，而南方有时温暖。\n你最喜欢哪些季节？\n我喜欢春天和夏天。\n白天长，夜晚短。\n太阳升得早，落得晚。\n我不喜欢秋天和冬天。\n白天短，夜晚长。\n太阳升得晚，落得早。\n我们的气候不是很好，但确实很有趣。\n这是我们最喜欢谈论的话题。",
+  "sentences": [
+    {
+      "index": 0,
+      "startTime": 0.66,
+      "endTime": 3.49,
+      "en": "Lesson 53",
+      "zh": "第53课",
+      "role": "lesson"
+    },
+    {
+      "index": 1,
+      "startTime": 3.49,
+      "endTime": 7.26,
+      "en": "An interesting climate",
+      "zh": "有趣的气候",
+      "role": "title"
+    },
+    {
+      "index": 2,
+      "startTime": 7.26,
+      "endTime": 13.61,
+      "en": "Listen to the tape then answer this question.",
+      "zh": "先听这段录音，然后再回答这个问题。",
+      "role": "prompt"
+    },
+    {
+      "index": 3,
+      "startTime": 13.61,
+      "endTime": 21.65,
+      "en": "What is the favourite subject of conversation in England?",
+      "zh": "在英格兰，人们最喜欢谈论的话题是什么？",
+      "role": "question"
+    },
+    {
+      "index": 4,
+      "startTime": 21.65,
+      "endTime": 24.79,
+      "en": "Where do you come from?",
+      "zh": "你来自哪里？",
+      "role": "body"
+    },
+    {
+      "index": 5,
+      "startTime": 24.79,
+      "endTime": 27.82,
+      "en": "I come from England.",
+      "zh": "我来自英格兰。",
+      "role": "body"
+    },
+    {
+      "index": 6,
+      "startTime": 27.82,
+      "endTime": 31.82,
+      "en": "What's the climate like in your country?",
+      "zh": "你们国家的气候是怎样的？",
+      "role": "body"
+    },
+    {
+      "index": 7,
+      "startTime": 31.82,
+      "endTime": 37.47,
+      "en": "It's mild, but it's not always pleasant.",
+      "zh": "气候温和，但并非总是宜人。",
+      "role": "body"
+    },
+    {
+      "index": 8,
+      "startTime": 37.47,
+      "endTime": 44.43,
+      "en": "The weather's often cold in the North and windy in the East.",
+      "zh": "北方常常寒冷，东部则多风。",
+      "role": "body"
+    },
+    {
+      "index": 9,
+      "startTime": 44.43,
+      "endTime": 52.33,
+      "en": "It's often wet in the West and sometimes warm in the South.",
+      "zh": "西部常常潮湿，而南方有时温暖。",
+      "role": "body"
+    },
+    {
+      "index": 10,
+      "startTime": 52.33,
+      "endTime": 56.66,
+      "en": "Which seasons do you like best?",
+      "zh": "你最喜欢哪些季节？",
+      "role": "body"
+    },
+    {
+      "index": 11,
+      "startTime": 56.66,
+      "endTime": 59.99,
+      "en": "I like spring and summer.",
+      "zh": "我喜欢春天和夏天。",
+      "role": "body"
+    },
+    {
+      "index": 12,
+      "startTime": 59.99,
+      "endTime": 65.68,
+      "en": "The days are long and the nights are short.",
+      "zh": "白天长，夜晚短。",
+      "role": "body"
+    },
+    {
+      "index": 13,
+      "startTime": 65.68,
+      "endTime": 70.86,
+      "en": "The sun rises early and sets late.",
+      "zh": "太阳升得早，落得晚。",
+      "role": "body"
+    },
+    {
+      "index": 14,
+      "startTime": 70.86,
+      "endTime": 74.91,
+      "en": "I don't like autumn and winter.",
+      "zh": "我不喜欢秋天和冬天。",
+      "role": "body"
+    },
+    {
+      "index": 15,
+      "startTime": 74.91,
+      "endTime": 80.76,
+      "en": "The days are short and the nights are long.",
+      "zh": "白天短，夜晚长。",
+      "role": "body"
+    },
+    {
+      "index": 16,
+      "startTime": 80.76,
+      "endTime": 86.55,
+      "en": "The sun rises late and sets early.",
+      "zh": "太阳升得晚，落得早。",
+      "role": "body"
+    },
+    {
+      "index": 17,
+      "startTime": 86.55,
+      "endTime": 93.79,
+      "en": "Our climate is not very good, but it's certainly interesting.",
+      "zh": "我们的气候不是很好，但确实很有趣。",
+      "role": "body"
+    },
+    {
+      "index": 18,
+      "startTime": 93.79,
+      "endTime": null,
+      "en": "It's our favourite subject of conversation.",
+      "zh": "这是我们最喜欢谈论的话题。",
+      "role": "body"
+    }
+  ],
+  "audio": {
+    "fileName": "053&054－An Interesting Climate.mp3",
+    "sourcePath": "content/NCE-Flow/NCE1/053&054－An Interesting Climate.mp3",
+    "exists": true
+  },
+  "source": {
+    "repository": "NCE-Flow",
+    "lrcFileName": "053&054－An Interesting Climate.lrc",
+    "lrcPath": "content/NCE-Flow/NCE1/053&054－An Interesting Climate.lrc",
+    "sourceDataFile": "content/NCE-Flow/static/data.json",
+    "generatedAt": "2026-07-23T02:59:02+00:00",
+    "generator": "scripts/generate_nce_json.py",
+    "generatorVersion": "2.0.0",
+    "metadata": {
+      "al": "新概念英语（一）",
+      "ar": "MP3 同步字幕版（美音）",
+      "ti": "An Interesting Climate",
+      "by": "更多学习内容，请到VeryCD.com搜索“露珠”"
+    }
+  }
+}

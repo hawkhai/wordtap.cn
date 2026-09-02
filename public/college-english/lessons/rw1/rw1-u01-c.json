@@ -1,0 +1,76 @@
+{
+  "schemaVersion": 2,
+  "id": "rw1-u01-c",
+  "sequenceNo": 3,
+  "groupId": "rw1",
+  "unitNo": 1,
+  "unitTitle": "Fresh start",
+  "section": "C",
+  "articleType": "stories-of-china",
+  "title": "The post-00s looking forward to a colorful life",
+  "printedPageStart": 25,
+  "printedPageEnd": 26,
+  "jsonPath": "college-english/lessons/rw1/rw1-u01-c.json",
+  "characterCount": 1971,
+  "text": "Stuffed toys (毛绒玩具), guitars, swimming suits, hometown snacks, and books – with these items packed in their luggage, China’s post-00s long for a colorful college life.\nZhang Yueru is one of the post-00s. Majoring in photoelectric (光电的) information science and engineering, she plans to join clubs on traditional Chinese culture. “I like ancient poetry,” she said. “Many post-00s enjoy traditional Chinese cultural activities, such as wearing traditional clothing, reciting ancient poems, and taking photos in an ancient Chinese style. I’m sure I can find quite a few friends who share my interests.”\nLiang Yixin, a biotechnology major, is looking for a dance club. “I have always loved dancing. I’d like to join a dance club in college to improve my dancing and make friends,” she said.\nMany of the post-00s have had various art classes since early childhood, such as piano, violin, dancing, and painting. “The post-00s really know much more than we post-80s,” said Zhao Fengjiao, a university teacher.\nAlthough they spend a lot of time on their hobbies and interests, the post-00s pay more attention to their studies. Sun Beibei, a university counselor (辅导员), receives many calls from students who want to know what they need to prepare for their university studies before the semester begins. “They really care about their studies,” Sun said.\nAccording to a survey, 89.4 percent of the surveyed post-00s think that success depends on hard work. Yang Jingpei, a freshman who comes from a family of farmers, aims to reduce his parents’ workload through his study of agricultural mechanization and automation. “We, the post-00s, have access to the Internet at an early age and are full of imagination. I believe I can make farmers’ jobs easier,” Yang said.\nIn Wang Leshan’s case, she plans to become a volunteer to teach in remote areas in Gansu Province. “Our senior schoolmates have been doing this for more than 10 years, and we post-00s should carry it on,” Wang said.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Stuffed toys (毛绒玩具), guitars, swimming suits, hometown snacks, and books – with these items packed in their luggage, China’s post-00s long for a colorful college life."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Zhang Yueru is one of the post-00s. Majoring in photoelectric (光电的) information science and engineering, she plans to join clubs on traditional Chinese culture. “I like ancient poetry,” she said. “Many post-00s enjoy traditional Chinese cultural activities, such as wearing traditional clothing, reciting ancient poems, and taking photos in an ancient Chinese style. I’m sure I can find quite a few friends who share my interests.”"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Liang Yixin, a biotechnology major, is looking for a dance club. “I have always loved dancing. I’d like to join a dance club in college to improve my dancing and make friends,” she said."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Many of the post-00s have had various art classes since early childhood, such as piano, violin, dancing, and painting. “The post-00s really know much more than we post-80s,” said Zhao Fengjiao, a university teacher."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Although they spend a lot of time on their hobbies and interests, the post-00s pay more attention to their studies. Sun Beibei, a university counselor (辅导员), receives many calls from students who want to know what they need to prepare for their university studies before the semester begins. “They really care about their studies,” Sun said."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "According to a survey, 89.4 percent of the surveyed post-00s think that success depends on hard work. Yang Jingpei, a freshman who comes from a family of farmers, aims to reduce his parents’ workload through his study of agricultural mechanization and automation. “We, the post-00s, have access to the Internet at an early age and are full of imagination. I believe I can make farmers’ jobs easier,” Yang said."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "In Wang Leshan’s case, she plans to become a volunteer to teach in remote areas in Gansu Province. “Our senior schoolmates have been doing this for more than 10 years, and we post-00s should carry it on,” Wang said."
+    }
+  ],
+  "source": {
+    "series": "新视野大学英语（第四版）",
+    "book": "读写教程 1",
+    "sourceBook": "NHCE4-RW1",
+    "printedPageStart": 25,
+    "printedPageEnd": 26,
+    "pdfPageStart": 40,
+    "pdfPageEnd": 41,
+    "pdfSha256": "05d7a57fb09156e13d02ce498271c86917869b5327e8981f1eedf205ceb465ec",
+    "ocrFiles": [
+      "tools/College-English/NHCE4-RW1/ocr/json/NHCE4-RW1_40.json",
+      "tools/College-English/NHCE4-RW1/ocr/json/NHCE4-RW1_41.json"
+    ]
+  },
+  "manualReview": {
+    "status": "passed",
+    "reviewer": "Codex",
+    "reviewedAt": "2026-07-30T01:26:00Z",
+    "correctionCount": 8,
+    "evidence": "content/College-English/reviewed-articles/rw1-u01-c.json; NHCE4-RW1 PDF pages 40-41; images 40-41",
+    "textSha256": "51006a2676c472b3b88bd10ce730b07cfdac6ab745e29e501996e1412130c2b3",
+    "eventSha256": "e012a1285b972b66a3e78454c36c0e9bc5daea7d4f187d28c9cf6b3db2794368"
+  }
+}

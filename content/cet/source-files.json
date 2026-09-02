@@ -1,0 +1,204 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-08-01T18:17:58Z",
+  "courseId": "cet",
+  "fileCount": 39,
+  "totalBytes": 21849986,
+  "files": [
+    {
+      "path": "raw/wehuster/cet4_2020_09_1.pdf",
+      "bytes": 1519997,
+      "sha256": "76238505bbeb339e881616bd392949355052af8858dbaeb1280e3530ac97114b"
+    },
+    {
+      "path": "raw/wehuster/cet4_2020_09_2.pdf",
+      "bytes": 1165692,
+      "sha256": "0e42abec89ed747fad90ebe48da85859d92116eae513bd81175f1f4a00eb3cbc"
+    },
+    {
+      "path": "raw/wehuster/cet4_2020_09_3.pdf",
+      "bytes": 466925,
+      "sha256": "0e770aec09b6fb7adda8cb709e20b8e3bda20da83b6f0ea6f4e188b221ed06f6"
+    },
+    {
+      "path": "raw/wehuster/cet4_2022_09_1.pdf",
+      "bytes": 2335748,
+      "sha256": "38db7898e9b6cf56c9f58693ae055a9fb0f3162836d6f6a8b82be394508393b3"
+    },
+    {
+      "path": "raw/wehuster/cet4_2023_03_1.pdf",
+      "bytes": 108005,
+      "sha256": "f5c82f54112caded76fa4fa76c05026f3ada3b6b7e247c7f7946d2bdb2b7415f"
+    },
+    {
+      "path": "raw/wehuster/cet4_2024_06_1.pdf",
+      "bytes": 91623,
+      "sha256": "a1c0cc811b3e44f8e331a0120d9c050f6e4eef2e7925519f2f7093e0fd1b10f4"
+    },
+    {
+      "path": "raw/wehuster/cet4_2024_06_2.pdf",
+      "bytes": 346840,
+      "sha256": "aada101cc537bcfc69d54a77acdaefa52bf340779bead0f2a1e29ee40683d358"
+    },
+    {
+      "path": "raw/wehuster/cet4_2024_06_3.pdf",
+      "bytes": 314753,
+      "sha256": "ec1c750fc530c5ca9b5db11c9d0bcccb90f0ac9220c0a1c5ae840f4f43c171c0"
+    },
+    {
+      "path": "raw/wehuster/cet4_2024_12_1.pdf",
+      "bytes": 368437,
+      "sha256": "451a0a9470c043cd6e5449d3fc265877283e31153aaa2647167f1bde4a706216"
+    },
+    {
+      "path": "raw/wehuster/cet4_2024_12_2.pdf",
+      "bytes": 342476,
+      "sha256": "982a486689a7dc6196fe41e7e687ab6b28846523f14f53cdd5e64e3172cdc603"
+    },
+    {
+      "path": "raw/wehuster/cet4_2024_12_3.pdf",
+      "bytes": 310643,
+      "sha256": "ffeabe7091f01fd2f1367ef5b401cebeaac6cf3c0af0dbeb855dabb08c8024bd"
+    },
+    {
+      "path": "raw/wehuster/cet4_2025_06_1.pdf",
+      "bytes": 366427,
+      "sha256": "2880977bc0a8b730800d310471a3120eb45e4a51d964dc97cb71c32ddf09ac08"
+    },
+    {
+      "path": "raw/wehuster/cet4_2025_06_2.pdf",
+      "bytes": 347511,
+      "sha256": "71d831b5b27bf3e8701fb772855b593bfe48a269143bc997191dd31b6e9e18cd"
+    },
+    {
+      "path": "raw/wehuster/cet4_2025_06_3.pdf",
+      "bytes": 322504,
+      "sha256": "815c185ee43391d1e504b42d552ba2b4ea4c2765bed6386ddf2674c7b13826de"
+    },
+    {
+      "path": "raw/wehuster/cet4_2025_12_1.pdf",
+      "bytes": 312784,
+      "sha256": "c67cdf8c77f2dfc74f40afd50587ae4d5eb759aaca7ad57ad6388d867cd3dadf"
+    },
+    {
+      "path": "raw/wehuster/cet4_2025_12_2.pdf",
+      "bytes": 317605,
+      "sha256": "29da4a4a079809d02aa560782938552f7b85237d047e8a9763e003d767995cfd"
+    },
+    {
+      "path": "raw/wehuster/cet4_2025_12_3.pdf",
+      "bytes": 291007,
+      "sha256": "8b29c1b4b871def55ade9a164bfd6aceb921a6cbde7fa9654e9d8a97798d56a8"
+    },
+    {
+      "path": "raw/wehuster/cet6_2020_09_1.pdf",
+      "bytes": 441981,
+      "sha256": "9b0e9995398fff2fbdd4da3e43af2677208f9e3c268d6bf0bc5d4a45b209868e"
+    },
+    {
+      "path": "raw/wehuster/cet6_2020_09_2.pdf",
+      "bytes": 479408,
+      "sha256": "53695a81d184bf81fd9724300c59b98d1f787f09ce3eb86a5d0e792305ede82a"
+    },
+    {
+      "path": "raw/wehuster/cet6_2020_09_3.pdf",
+      "bytes": 458971,
+      "sha256": "f00458ac98ad86255558872bd6ef71b31b862528ab7912193174c685ea33721f"
+    },
+    {
+      "path": "raw/wehuster/cet6_2022_09_1.pdf",
+      "bytes": 1866299,
+      "sha256": "84803728ee7739994faaeeaa865c236cc41889ebce74d3177daaa8a95e8fdd0f"
+    },
+    {
+      "path": "raw/wehuster/cet6_2023_03_1.pdf",
+      "bytes": 2087220,
+      "sha256": "6fb1fd005a0677e2cf8009000562cd30f41351d93eebf5c57519b7b5ba10213a"
+    },
+    {
+      "path": "raw/wehuster/cet6_2024_06_1.pdf",
+      "bytes": 377948,
+      "sha256": "ef879d945d233082b357ac48a524d9f755b4aa63deffa246c6cb86c32440431f"
+    },
+    {
+      "path": "raw/wehuster/cet6_2024_06_2.pdf",
+      "bytes": 263843,
+      "sha256": "3df3ad48a9094dac4cc62aee9b80c05b6cfd3b140ff1d121986ed2edd670c48c"
+    },
+    {
+      "path": "raw/wehuster/cet6_2024_06_3.pdf",
+      "bytes": 339662,
+      "sha256": "58bdf2e4cf9ad757887bac3e3901f66e092e8e7d7d0c6b56a6c137c0b2d00d54"
+    },
+    {
+      "path": "raw/wehuster/cet6_2024_12_1.pdf",
+      "bytes": 371414,
+      "sha256": "5d71737190c7a6951d25c9ecd8645c0068ceb29f032f5962c94ea8d776e46672"
+    },
+    {
+      "path": "raw/wehuster/cet6_2024_12_2.pdf",
+      "bytes": 354412,
+      "sha256": "de0f410d0edaa896970727b75cee67960b52459588ad7a7331d18f4c97d0dff4"
+    },
+    {
+      "path": "raw/wehuster/cet6_2024_12_3.pdf",
+      "bytes": 319338,
+      "sha256": "4eff618e3b7b6ab54f2c9c2528b6ac23039c3650af035bd3d4bb3e104a775d8f"
+    },
+    {
+      "path": "raw/wehuster/cet6_2025_06_1.pdf",
+      "bytes": 356282,
+      "sha256": "15ac17ef0cf3089ca11c833ecd20b55955b33b4043f27093280222a0d79117b8"
+    },
+    {
+      "path": "raw/wehuster/cet6_2025_06_2.pdf",
+      "bytes": 361272,
+      "sha256": "7b6186d254a6910a18e17de09e2112f37f4b4d0d6370626b9fbedbc09e73c11c"
+    },
+    {
+      "path": "raw/wehuster/cet6_2025_06_3.pdf",
+      "bytes": 325142,
+      "sha256": "0b517826acf7326d7528bf0f4d92ec24a30a095ec6bf05610d6a3ce1722a1696"
+    },
+    {
+      "path": "raw/wehuster/cet6_2025_12_1.pdf",
+      "bytes": 307920,
+      "sha256": "4fac338c84e06f95f341947d9944b3f5434d0074705762eb0a2c8945499dc1a3"
+    },
+    {
+      "path": "raw/wehuster/cet6_2025_12_2.pdf",
+      "bytes": 303543,
+      "sha256": "ad6b856ce3aa9647344d7ad1caa4bfbcbb074effa49f1ab787f7ab20859d52ed"
+    },
+    {
+      "path": "raw/wehuster/cet6_2025_12_3.pdf",
+      "bytes": 299050,
+      "sha256": "9151ec800264de84ecee25f07bd37bee283c411ae821259fd6055cbf9b1d7c2b"
+    },
+    {
+      "path": "raw/zhengzhou-business-college/2024年6月英语六级真题第1套.pdf",
+      "bytes": 667126,
+      "sha256": "0ab68ccf6ec0b1db87ee797737630d1cb1c6d433b1549509e8e18b35ef9e3518"
+    },
+    {
+      "path": "raw/zhengzhou-business-college/2024年6月英语六级真题第2套.pdf",
+      "bytes": 662219,
+      "sha256": "6421b2600cfc8ff3556583c6b78fa3a3e1ebd39ac553b55f75735a086e5233c7"
+    },
+    {
+      "path": "raw/zhengzhou-business-college/2024年6月英语六级真题第3套.pdf",
+      "bytes": 638084,
+      "sha256": "45c55fe7e80e4ce4e9dde13600cc40aaa6a57713c891cf72320375dafe4bfa1e"
+    },
+    {
+      "path": "raw/zhengzhou-business-college/2024年6月英语四级真题第1套.pdf",
+      "bytes": 630463,
+      "sha256": "51429c79c68392430fc59f4b1fb81f31ff3b21691c5c2fb6e8ffcf59a6882ad4"
+    },
+    {
+      "path": "raw/zhengzhou-business-college/2024年6月英语四级真题第3套.pdf",
+      "bytes": 609412,
+      "sha256": "2b70b404d5138120600a4d4e95f8e2b123e9e65eabce17a378639326eb027b57"
+    }
+  ]
+}

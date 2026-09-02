@@ -1,0 +1,143 @@
+{
+  "schemaVersion": 1,
+  "id": "nce2-033",
+  "bookId": "nce2",
+  "bookNo": 2,
+  "lessonNo": 33,
+  "lessonRange": [
+    33
+  ],
+  "title": "Out of the Darkness",
+  "titleZh": "冲出黑暗",
+  "question": "Why was the girl in hospital?",
+  "questionZh": "为什么那个女孩要住院呢？",
+  "text": "Why was the girl in hospital?\n\nNearly a week passed before the girl was able to explain what had happened to her.\nOne afternoon she set out from the coast in a small boat and was caught in a storm.\nTowards evening, the boat struck a rock and the girl jumped into the sea.\nThen she swam to the shore after spending the whole night in the water.\nDuring that time she covered a distance of eight miles.\nEarly next morning, she saw a light ahead.\nShe knew she was near the shore because the light was high up on the cliffs.\nOn arriving at the shore, the girl struggled up the cliff towards the light she had seen.\nThat was all she remembered.\nWhen she woke up a day later, she found herself in hospital.",
+  "bodyText": "Nearly a week passed before the girl was able to explain what had happened to her.\nOne afternoon she set out from the coast in a small boat and was caught in a storm.\nTowards evening, the boat struck a rock and the girl jumped into the sea.\nThen she swam to the shore after spending the whole night in the water.\nDuring that time she covered a distance of eight miles.\nEarly next morning, she saw a light ahead.\nShe knew she was near the shore because the light was high up on the cliffs.\nOn arriving at the shore, the girl struggled up the cliff towards the light she had seen.\nThat was all she remembered.\nWhen she woke up a day later, she found herself in hospital.",
+  "bodyTextZh": "差不多过了一个星期，那个女孩才能够解释清楚她身上到底发生了什么事。\n一天下午，她从海岸乘坐一艘小船出发。结果被一场暴风雨困住了。\n到了傍晚时分，船撞上了一块岩石。那个女孩跳进了海里。\n然后她游到了岸边。在水中度过了一整夜之后，\n游了八英里的距离。\n第二天清晨，她看到前方有一道光。\n她知道自己已经接近海岸了。因为灯光位于悬崖的高处。\n到达岸边后，那个女孩费力地爬上悬崖，朝着她看到的那道光爬去。\n那就是她所记得的全部内容了。\n一天后醒来时，她被送进了医院。",
+  "sentences": [
+    {
+      "index": 0,
+      "startTime": 0.5,
+      "endTime": 3,
+      "en": "Lesson 33",
+      "zh": "第33课",
+      "role": "lesson"
+    },
+    {
+      "index": 1,
+      "startTime": 3,
+      "endTime": 10.68,
+      "en": "Out of the Darkness",
+      "zh": "冲出黑暗",
+      "role": "title"
+    },
+    {
+      "index": 2,
+      "startTime": 10.68,
+      "endTime": 14.62,
+      "en": "Why was the girl in hospital?",
+      "zh": "为什么那个女孩要住院呢？",
+      "role": "question"
+    },
+    {
+      "index": 3,
+      "startTime": 14.62,
+      "endTime": 23.15,
+      "en": "Nearly a week passed before the girl was able to explain what had happened to her.",
+      "zh": "差不多过了一个星期，那个女孩才能够解释清楚她身上到底发生了什么事。",
+      "role": "body"
+    },
+    {
+      "index": 4,
+      "startTime": 23.15,
+      "endTime": 31.49,
+      "en": "One afternoon she set out from the coast in a small boat and was caught in a storm.",
+      "zh": "一天下午，她从海岸乘坐一艘小船出发。结果被一场暴风雨困住了。",
+      "role": "body"
+    },
+    {
+      "index": 5,
+      "startTime": 31.49,
+      "endTime": 38.3,
+      "en": "Towards evening, the boat struck a rock and the girl jumped into the sea.",
+      "zh": "到了傍晚时分，船撞上了一块岩石。那个女孩跳进了海里。",
+      "role": "body"
+    },
+    {
+      "index": 6,
+      "startTime": 38.3,
+      "endTime": 44.71,
+      "en": "Then she swam to the shore after spending the whole night in the water.",
+      "zh": "然后她游到了岸边。在水中度过了一整夜之后，",
+      "role": "body"
+    },
+    {
+      "index": 7,
+      "startTime": 44.71,
+      "endTime": 50.81,
+      "en": "During that time she covered a distance of eight miles.",
+      "zh": "游了八英里的距离。",
+      "role": "body"
+    },
+    {
+      "index": 8,
+      "startTime": 50.81,
+      "endTime": 55.8,
+      "en": "Early next morning, she saw a light ahead.",
+      "zh": "第二天清晨，她看到前方有一道光。",
+      "role": "body"
+    },
+    {
+      "index": 9,
+      "startTime": 55.8,
+      "endTime": 63.51,
+      "en": "She knew she was near the shore because the light was high up on the cliffs.",
+      "zh": "她知道自己已经接近海岸了。因为灯光位于悬崖的高处。",
+      "role": "body"
+    },
+    {
+      "index": 10,
+      "startTime": 63.51,
+      "endTime": 72.09,
+      "en": "On arriving at the shore, the girl struggled up the cliff towards the light she had seen.",
+      "zh": "到达岸边后，那个女孩费力地爬上悬崖，朝着她看到的那道光爬去。",
+      "role": "body"
+    },
+    {
+      "index": 11,
+      "startTime": 72.09,
+      "endTime": 75.17,
+      "en": "That was all she remembered.",
+      "zh": "那就是她所记得的全部内容了。",
+      "role": "body"
+    },
+    {
+      "index": 12,
+      "startTime": 75.17,
+      "endTime": null,
+      "en": "When she woke up a day later, she found herself in hospital.",
+      "zh": "一天后醒来时，她被送进了医院。",
+      "role": "body"
+    }
+  ],
+  "audio": {
+    "fileName": "33－Out of the Darkness.mp3",
+    "sourcePath": "content/NCE-Flow/NCE2/33－Out of the Darkness.mp3",
+    "exists": true
+  },
+  "source": {
+    "repository": "NCE-Flow",
+    "lrcFileName": "33－Out of the Darkness.lrc",
+    "lrcPath": "content/NCE-Flow/NCE2/33－Out of the Darkness.lrc",
+    "sourceDataFile": "content/NCE-Flow/static/data.json",
+    "generatedAt": "2026-07-23T02:59:02+00:00",
+    "generator": "scripts/generate_nce_json.py",
+    "generatorVersion": "2.0.0",
+    "metadata": {
+      "al": "新概念英语（二）",
+      "ar": "MP3 同步字幕版（美音）",
+      "ti": "Out of the Darkness",
+      "by": "更多学习内容，请到VeryCD.com搜索“露珠”"
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "pephr3-014",
+  "groupId": "pephr3",
+  "unitNo": 3,
+  "sequenceNo": 14,
+  "section": "Assessing Your Progress",
+  "title": "Regional Music in the United States",
+  "jsonPath": "pep-english/lessons/pephr3/014.json",
+  "text": "A: We've got to write a paper on music in the US. Do you have any ideas about what kinds of music are popular there? I only know hip-hop seems popular.\nB: Yeah. Hip-hop is generally popular in the US, but different parts of the country listen to different types of music.\nA: Can you give an example of this?\nB: Well, for example, in southern US, they have their own culture.\nA: So, do you mean they have something like a subculture?\nB: Right. The history in that region has given them a different identity.\nA: Country music is popular there, right?\nB: Well. Not only is country music popular in the south, but blues, rock and roll, bluegrass, and jazz are popular in the south as well.\nA: Ah, of course they are popular! I forgot about New Orleans jazz!",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "A: We've got to write a paper on music in the US. Do you have any ideas about what kinds of music are popular there? I only know hip-hop seems popular.\nB: Yeah. Hip-hop is generally popular in the US, but different parts of the country listen to different types of music.\nA: Can you give an example of this?\nB: Well, for example, in southern US, they have their own culture.\nA: So, do you mean they have something like a subculture?\nB: Right. The history in that region has given them a different identity.\nA: Country music is popular there, right?\nB: Well. Not only is country music popular in the south, but blues, rock and roll, bluegrass, and jazz are popular in the south as well.\nA: Ah, of course they are popular! I forgot about New Orleans jazz!"
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "必修第三册",
+    "pageStart": 41,
+    "pageEnd": 41,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "31e51a16693d03177a5825f53f612a87",
+    "pdfSize": 14202806,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/senior-required-3.pdf#page=41",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored the complete nine-turn printed conversation without performing the requested ellipsis rewrites; excluded the vocabulary cloze, instructions, underlining and reflection checklist."
+    }
+  }
+}

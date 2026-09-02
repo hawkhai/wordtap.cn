@@ -1,0 +1,143 @@
+{
+  "schemaVersion": 1,
+  "id": "nce2-004",
+  "bookId": "nce2",
+  "bookNo": 2,
+  "lessonNo": 4,
+  "lessonRange": [
+    4
+  ],
+  "title": "An Exciting Trip",
+  "titleZh": "激动人心的旅行",
+  "question": "Why is Tim finding this trip exciting?",
+  "questionZh": "为什么蒂姆觉得这次旅行如此令人兴奋呢？",
+  "text": "Why is Tim finding this trip exciting?\n\nI have just received a letter from my brother, Tim.\nHe is in Australia.\nHe has been there for six months.\nTim is an engineer.\nHe is working for a big firm and he has already visited a great number of different places in Australia.\nHe has just bought an Australian car and has gone to Alice Springs, a small town in the centre of Australia.\nHe will soon visit Darwin.\nFrom there, he will fly to Perth.\nMy brother has never been abroad before, so he is finding this trip very exciting.",
+  "bodyText": "I have just received a letter from my brother, Tim.\nHe is in Australia.\nHe has been there for six months.\nTim is an engineer.\nHe is working for a big firm and he has already visited a great number of different places in Australia.\nHe has just bought an Australian car and has gone to Alice Springs, a small town in the centre of Australia.\nHe will soon visit Darwin.\nFrom there, he will fly to Perth.\nMy brother has never been abroad before, so he is finding this trip very exciting.",
+  "bodyTextZh": "我刚刚收到了我哥哥蒂姆的一封信。\n他在澳大利亚。\n他已经在那里待了六个月了。\n蒂姆是一名工程师。\n他在一家大公司工作，并且已经去过澳大利亚的许多不同地方。\n他刚买了一辆澳大利亚产的汽车，然后去了爱丽丝泉（Alice Springs）。澳大利亚中部的一个小镇。\n他很快将会去达尔文。\n从那里，他将飞往珀斯。\n我哥哥以前从未出过国。所以他觉得这次旅行非常令人兴奋。",
+  "sentences": [
+    {
+      "index": 0,
+      "startTime": 0.5,
+      "endTime": 3,
+      "en": "Lesson 4",
+      "zh": "第4课",
+      "role": "lesson"
+    },
+    {
+      "index": 1,
+      "startTime": 3,
+      "endTime": 5.65,
+      "en": "An Exciting Trip",
+      "zh": "激动人心的旅行",
+      "role": "title"
+    },
+    {
+      "index": 2,
+      "startTime": 5.65,
+      "endTime": 9.85,
+      "en": "First listen and then answer the question.",
+      "zh": "先听录音，然后回答问题。",
+      "role": "prompt"
+    },
+    {
+      "index": 3,
+      "startTime": 9.85,
+      "endTime": 15.95,
+      "en": "Why is Tim finding this trip exciting?",
+      "zh": "为什么蒂姆觉得这次旅行如此令人兴奋呢？",
+      "role": "question"
+    },
+    {
+      "index": 4,
+      "startTime": 15.95,
+      "endTime": 20.73,
+      "en": "I have just received a letter from my brother, Tim.",
+      "zh": "我刚刚收到了我哥哥蒂姆的一封信。",
+      "role": "body"
+    },
+    {
+      "index": 5,
+      "startTime": 20.73,
+      "endTime": 23.12,
+      "en": "He is in Australia.",
+      "zh": "他在澳大利亚。",
+      "role": "body"
+    },
+    {
+      "index": 6,
+      "startTime": 23.12,
+      "endTime": 26.5,
+      "en": "He has been there for six months.",
+      "zh": "他已经在那里待了六个月了。",
+      "role": "body"
+    },
+    {
+      "index": 7,
+      "startTime": 26.5,
+      "endTime": 28.72,
+      "en": "Tim is an engineer.",
+      "zh": "蒂姆是一名工程师。",
+      "role": "body"
+    },
+    {
+      "index": 8,
+      "startTime": 28.72,
+      "endTime": 37.61,
+      "en": "He is working for a big firm and he has already visited a great number of different places in Australia.",
+      "zh": "他在一家大公司工作，并且已经去过澳大利亚的许多不同地方。",
+      "role": "body"
+    },
+    {
+      "index": 9,
+      "startTime": 37.61,
+      "endTime": 47.5,
+      "en": "He has just bought an Australian car and has gone to Alice Springs, a small town in the centre of Australia.",
+      "zh": "他刚买了一辆澳大利亚产的汽车，然后去了爱丽丝泉（Alice Springs）。澳大利亚中部的一个小镇。",
+      "role": "body"
+    },
+    {
+      "index": 10,
+      "startTime": 47.5,
+      "endTime": 50.09,
+      "en": "He will soon visit Darwin.",
+      "zh": "他很快将会去达尔文。",
+      "role": "body"
+    },
+    {
+      "index": 11,
+      "startTime": 50.09,
+      "endTime": 53.81,
+      "en": "From there, he will fly to Perth.",
+      "zh": "从那里，他将飞往珀斯。",
+      "role": "body"
+    },
+    {
+      "index": 12,
+      "startTime": 53.81,
+      "endTime": null,
+      "en": "My brother has never been abroad before, so he is finding this trip very exciting.",
+      "zh": "我哥哥以前从未出过国。所以他觉得这次旅行非常令人兴奋。",
+      "role": "body"
+    }
+  ],
+  "audio": {
+    "fileName": "04－An Exciting Trip.mp3",
+    "sourcePath": "content/NCE-Flow/NCE2/04－An Exciting Trip.mp3",
+    "exists": true
+  },
+  "source": {
+    "repository": "NCE-Flow",
+    "lrcFileName": "04－An Exciting Trip.lrc",
+    "lrcPath": "content/NCE-Flow/NCE2/04－An Exciting Trip.lrc",
+    "sourceDataFile": "content/NCE-Flow/static/data.json",
+    "generatedAt": "2026-07-23T02:59:02+00:00",
+    "generator": "scripts/generate_nce_json.py",
+    "generatorVersion": "2.0.0",
+    "metadata": {
+      "al": "新概念英语（二）",
+      "ar": "MP3 同步字幕版（美音）",
+      "ti": "An Exciting Trip",
+      "by": "更多学习内容，请到VeryCD.com搜索“露珠”"
+    }
+  }
+}

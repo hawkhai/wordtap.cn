@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "pephs2-002",
+  "groupId": "pephs2",
+  "unitNo": 1,
+  "sequenceNo": 2,
+  "section": "Listening and Speaking",
+  "title": "A Non-Newtonian Fluid",
+  "jsonPath": "pep-english/lessons/pephs2/002.json",
+  "text": "Today, I want to talk to you about a very strange phenomenon called a non-Newtonian fluid. You can make it easily using equal parts of water and cornflour, like I have here. A non-Newtonian fluid is strange because you can pour it like a liquid, but if you put any pressure on it, it suddenly becomes hard as concrete. In fact, it becomes hard enough to stand on. Then, as soon as you take the pressure off, it becomes a liquid again. This shows that it is possible that something can exist as a liquid and a solid at the same time.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Today, I want to talk to you about a very strange phenomenon called a non-Newtonian fluid. You can make it easily using equal parts of water and cornflour, like I have here. A non-Newtonian fluid is strange because you can pour it like a liquid, but if you put any pressure on it, it suddenly becomes hard as concrete. In fact, it becomes hard enough to stand on. Then, as soon as you take the pressure off, it becomes a liquid again. This shows that it is possible that something can exist as a liquid and a solid at the same time."
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "选择性必修第二册",
+    "pageStart": 14,
+    "pageEnd": 14,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "1a701f2205298de95ea59cfc71eb83cd",
+    "pdfSize": 9968316,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/senior-selective-2.pdf#page=14",
+      "reviewedAt": "2026-07-22",
+      "notes": "Retained the complete printed model presentation about non-Newtonian fluid; excluded discussion prompts and the useful-phrases box.",
+      "splitBaselineId": "pephs2-005",
+      "splitIndex": 1,
+      "splitCount": 2
+    }
+  }
+}

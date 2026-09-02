@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "pepj9-039",
+  "groupId": "pepj9",
+  "unitNo": 12,
+  "sequenceNo": 39,
+  "section": "Section B",
+  "title": "April Fool's Day Tricks",
+  "jsonPath": "pep-english/lessons/pepj9/039.json",
+  "text": "April Fool's Day is a celebration that takes place in different countries around the world. It happens on April 1st every year and is a day when many people play all kinds of tricks and jokes on each other.\nOne April Fool's Day, a reporter in England announced that there would be no more spaghetti because the spaghetti farmers in Italy had stopped growing spaghetti. Many people ran to their local supermarkets to buy as much spaghetti as they could. By the time people realized that the story was a hoax, all of the spaghetti across the country had been sold out. In another famous trick a TV show in England reported the discovery of special water. They said this water would help people lose weight and that one customer had already lost a lot of weight in just four months. By the end of the day, more than 10,000 people had phoned the TV station to find out how to get this water.\nMany April Fool's jokes may end up being not very funny. A famous TV star once invited his girlfriend onto his show on April Fool's Day. He asked her to marry him. The lady was so happy because she really wanted to get married. However, when she said yes, he replied, \"April Fool!\" That little joke didn't have a very happy ending. The TV star lost his girlfriend and his show was canceled.\nOne of the world's most famous tricks, however, happened in October rather than in April. In that month in 1938, actor Orson Welles announced on his radio program that aliens from Mars had landed on the earth. He described where they had landed and told how they were moving across the United States. Welles made it sound so real that hundreds of people believed the story, and fear spread across the whole country. By the time police officers announced that the story was a hoax, thousands of people had left their homes.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "April Fool's Day is a celebration that takes place in different countries around the world. It happens on April 1st every year and is a day when many people play all kinds of tricks and jokes on each other."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "One April Fool's Day, a reporter in England announced that there would be no more spaghetti because the spaghetti farmers in Italy had stopped growing spaghetti. Many people ran to their local supermarkets to buy as much spaghetti as they could. By the time people realized that the story was a hoax, all of the spaghetti across the country had been sold out. In another famous trick a TV show in England reported the discovery of special water. They said this water would help people lose weight and that one customer had already lost a lot of weight in just four months. By the end of the day, more than 10,000 people had phoned the TV station to find out how to get this water."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Many April Fool's jokes may end up being not very funny. A famous TV star once invited his girlfriend onto his show on April Fool's Day. He asked her to marry him. The lady was so happy because she really wanted to get married. However, when she said yes, he replied, \"April Fool!\" That little joke didn't have a very happy ending. The TV star lost his girlfriend and his show was canceled."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "One of the world's most famous tricks, however, happened in October rather than in April. In that month in 1938, actor Orson Welles announced on his radio program that aliens from Mars had landed on the earth. He described where they had landed and told how they were moving across the United States. Welles made it sound so real that hundreds of people believed the story, and fear spread across the whole country. By the time police officers announced that the story was a hoax, thousands of people had left their homes."
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "初中",
+    "book": "九年级全一册",
+    "pageStart": 108,
+    "pageEnd": 108,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "c6e628c22e0c2f9cfe4547699a1c95a4",
+    "pdfSize": 11088578,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/junior-9.pdf#page=108",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored all four complete paragraphs and supplied a descriptive title because none is printed; excluded the 2a/2b tasks, paragraph-matching box and background-knowledge strategy box."
+    }
+  }
+}

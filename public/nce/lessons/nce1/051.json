@@ -1,0 +1,200 @@
+{
+  "schemaVersion": 1,
+  "id": "nce1-051",
+  "bookId": "nce1",
+  "bookNo": 1,
+  "lessonNo": 51,
+  "lessonRange": [
+    51,
+    52
+  ],
+  "title": "A Pleasant Climate",
+  "titleZh": "宜人的气候",
+  "question": "Does it ever snow in Greece?",
+  "questionZh": "希腊会下雪吗？",
+  "text": "Does it ever snow in Greece?\n\nWhere do you come from?\nI come from Greece.\nWhat's the climate like in your country?\nIt's very pleasant.\nWhat's the weather like in spring?\nIt's often windy in March.\nIt's always warm in April and May, but it rains sometimes.\nWhat's it like in summer?\nIt's always hot in June, July and August.\nThe sun shines every day.\nIs it cold or warm in autumn?\nIt's always warm in September and October.\nIt's often cold in November and it rains sometimes.\nIs it very cold in winter?\nIt's often cold in December, January and February.\nIt snows sometimes.",
+  "bodyText": "Where do you come from?\nI come from Greece.\nWhat's the climate like in your country?\nIt's very pleasant.\nWhat's the weather like in spring?\nIt's often windy in March.\nIt's always warm in April and May, but it rains sometimes.\nWhat's it like in summer?\nIt's always hot in June, July and August.\nThe sun shines every day.\nIs it cold or warm in autumn?\nIt's always warm in September and October.\nIt's often cold in November and it rains sometimes.\nIs it very cold in winter?\nIt's often cold in December, January and February.\nIt snows sometimes.",
+  "bodyTextZh": "你来自哪里？\n我来自希腊。\n你们国家的气候是怎样的？\n气候非常宜人。\n春天的天气是怎样的？\n三月份经常有风。\n四月和五月总是很温暖，但有时会下雨。\n夏天的天气是怎样的？\n六月、七月和八月总是很热。\n每天都阳光明媚。\n秋天是冷还是暖呢？\n九月份和十月份总是很暖和的。\n十一月份天气通常很冷，有时还会下雨。\n冬天会很冷吗？\n十二月、一月和二月通常都很冷。\n有时候会下雪。",
+  "sentences": [
+    {
+      "index": 0,
+      "startTime": 0.5,
+      "endTime": 3.13,
+      "en": "Lesson 51",
+      "zh": "第51课",
+      "role": "lesson"
+    },
+    {
+      "index": 1,
+      "startTime": 3.13,
+      "endTime": 6.18,
+      "en": "A pleasant climate",
+      "zh": "宜人的气候",
+      "role": "title"
+    },
+    {
+      "index": 2,
+      "startTime": 6.18,
+      "endTime": 11.85,
+      "en": "Listen to the tape then answer this question.",
+      "zh": "请听录音，然后回答以下问题：",
+      "role": "prompt"
+    },
+    {
+      "index": 3,
+      "startTime": 11.85,
+      "endTime": 17.01,
+      "en": "Does it ever snow in Greece?",
+      "zh": "希腊会下雪吗？",
+      "role": "question"
+    },
+    {
+      "index": 4,
+      "startTime": 17.01,
+      "endTime": 19.9,
+      "en": "Where do you come from?",
+      "zh": "你来自哪里？",
+      "role": "body"
+    },
+    {
+      "index": 5,
+      "startTime": 19.9,
+      "endTime": 22.94,
+      "en": "I come from Greece.",
+      "zh": "我来自希腊。",
+      "role": "body"
+    },
+    {
+      "index": 6,
+      "startTime": 22.94,
+      "endTime": 27.32,
+      "en": "What's the climate like in your country?",
+      "zh": "你们国家的气候是怎样的？",
+      "role": "body"
+    },
+    {
+      "index": 7,
+      "startTime": 27.32,
+      "endTime": 30.37,
+      "en": "It's very pleasant.",
+      "zh": "气候非常宜人。",
+      "role": "body"
+    },
+    {
+      "index": 8,
+      "startTime": 30.37,
+      "endTime": 34.29,
+      "en": "What's the weather like in spring?",
+      "zh": "春天的天气是怎样的？",
+      "role": "body"
+    },
+    {
+      "index": 9,
+      "startTime": 34.29,
+      "endTime": 37.79,
+      "en": "It's often windy in March.",
+      "zh": "三月份经常有风。",
+      "role": "body"
+    },
+    {
+      "index": 10,
+      "startTime": 37.79,
+      "endTime": 45.53,
+      "en": "It's always warm in April and May, but it rains sometimes.",
+      "zh": "四月和五月总是很温暖，但有时会下雨。",
+      "role": "body"
+    },
+    {
+      "index": 11,
+      "startTime": 45.53,
+      "endTime": 49.04,
+      "en": "What's it like in summer?",
+      "zh": "夏天的天气是怎样的？",
+      "role": "body"
+    },
+    {
+      "index": 12,
+      "startTime": 49.04,
+      "endTime": 54.7,
+      "en": "It's always hot in June, July and August.",
+      "zh": "六月、七月和八月总是很热。",
+      "role": "body"
+    },
+    {
+      "index": 13,
+      "startTime": 54.7,
+      "endTime": 58.16,
+      "en": "The sun shines every day.",
+      "zh": "每天都阳光明媚。",
+      "role": "body"
+    },
+    {
+      "index": 14,
+      "startTime": 58.16,
+      "endTime": 62.17,
+      "en": "Is it cold or warm in autumn?",
+      "zh": "秋天是冷还是暖呢？",
+      "role": "body"
+    },
+    {
+      "index": 15,
+      "startTime": 62.17,
+      "endTime": 67.11,
+      "en": "It's always warm in September and October.",
+      "zh": "九月份和十月份总是很暖和的。",
+      "role": "body"
+    },
+    {
+      "index": 16,
+      "startTime": 67.11,
+      "endTime": 73.51,
+      "en": "It's often cold in November and it rains sometimes.",
+      "zh": "十一月份天气通常很冷，有时还会下雨。",
+      "role": "body"
+    },
+    {
+      "index": 17,
+      "startTime": 73.51,
+      "endTime": 77.23,
+      "en": "Is it very cold in winter?",
+      "zh": "冬天会很冷吗？",
+      "role": "body"
+    },
+    {
+      "index": 18,
+      "startTime": 77.23,
+      "endTime": 83.34,
+      "en": "It's often cold in December, January and February.",
+      "zh": "十二月、一月和二月通常都很冷。",
+      "role": "body"
+    },
+    {
+      "index": 19,
+      "startTime": 83.34,
+      "endTime": null,
+      "en": "It snows sometimes.",
+      "zh": "有时候会下雪。",
+      "role": "body"
+    }
+  ],
+  "audio": {
+    "fileName": "051&052－A Pleasant Climate.mp3",
+    "sourcePath": "content/NCE-Flow/NCE1/051&052－A Pleasant Climate.mp3",
+    "exists": true
+  },
+  "source": {
+    "repository": "NCE-Flow",
+    "lrcFileName": "051&052－A Pleasant Climate.lrc",
+    "lrcPath": "content/NCE-Flow/NCE1/051&052－A Pleasant Climate.lrc",
+    "sourceDataFile": "content/NCE-Flow/static/data.json",
+    "generatedAt": "2026-07-23T02:59:02+00:00",
+    "generator": "scripts/generate_nce_json.py",
+    "generatorVersion": "2.0.0",
+    "metadata": {
+      "al": "新概念英语（一）",
+      "ar": "MP3 同步字幕版（美音）",
+      "ti": "A Pleasant Climate",
+      "by": "更多学习内容，请到VeryCD.com搜索“露珠”"
+    }
+  }
+}

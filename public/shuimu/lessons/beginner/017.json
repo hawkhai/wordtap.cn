@@ -1,0 +1,456 @@
+{
+  "schemaVersion": 1,
+  "id": "beginner-017",
+  "levelId": "beginner",
+  "unitNo": 17,
+  "title": "【对话场景】询问物体摆放的位置",
+  "jsonPath": "shuimu/lessons/beginner/017.json",
+  "text": "第十七单元\n第一课\n【对话场景】询问物体摆放的位置\n——Can you make the tea, Sam?\n萨姆，你会沏茶吗？\n——Yes, of course I can, Penny.\n当然了，我会沏茶。\nIs there any water in this kettle?\n这水壶里有水吗？\n——Yes, there is.\n有水。\n——Where’s the tea?\n茶叶在哪儿？\n——It’s over there, behind the teapot.\n在那儿，茶壶后面。\nCan you see it?\n你看到了吗？\n——I can see the teapot, but I can’t see the tea.\n我看到了茶壶，但是没看到茶叶。\n——There it is!\n就在这儿！\nIt’s in front of you.\n就在你面前。\n——Ah yes, I can see it now.\n是的，我现在看到了。\n——Where are the cups?\n杯子在哪呢？\n——There are some in the cupboard.\n碗柜里有几只。\nCan you find them?\n你能找到吗？\n——Yes. Here they are.\n找得到，就在这儿呢。\n——Hurry up, Sam.\n快点，萨姆。\nThe kettle’s boiling.\n水开了！\n• Can you...?的用法\n◦ 表示询问，“你能做······吗？”\n◦ can 为情态动词，后面接动词的原形\n◦ 说话人希望对方给出肯定的回答\n▪ Can you help me?你能帮帮我吗？\n◦ 回答：\n▪ 肯定：Yes, I can.\n▪ 否定：No, I can't.\n▫ Can you sing this song?你会唱这首歌吗？\n▫ Yes, I can.是的，我会唱。/No, I can't.不，我不会。\n• Is/Are there any...？的用法\n◦ 意思是“有······吗？”，后面接名词的单数或复数形式\n◦ there be 句型的一般疑问形式，把 be 提前\n▪ 提问不可数名词或可数名词的单数，用 is\n▪ 提问可数名词的复数，用 are\n◦ 回答：\n▪ 肯定：Yes, there is/are...\n▪ 否定：No, there is/are not...\n• Where is/are...?的用法\n◦ 意思是“······在哪儿？”，后面接名词或人称代词\n◦ 第三人称单数/不可数名词/可数名词单数用 is，第二人称单数/所有人称复数/\n可数名词复数用 are；第一人称用 am\n◦ where 是特殊疑问副词，针对位置提问\n▪ Where is the tree?那棵树在哪？\n◦ 回答：\n▪ 具体的位置信息\n▫ Where is the dog?狗狗在哪？\n▫ It is in the yard.它在院子里呢。\n第二课\n【语法点拨】“不确定的”代词\n不定代词指的是不确定的、非特指的代词。不定代词包括 some, any, no, both, all,\neither, neither 等和由 some, any, no 与 one, body, thing 构成的复合不定代词，\n如：someone, anybody, nothing 等。\n• some, any\n◦ some 一些\n▪ 通常用在肯定句中\n▫ I bought some tickets.我买了几张票。\n▪ 也可以用在疑问句中，表示希望得到肯定的回答\n▫ Would you like some juice?你想来点儿果汁吗？\n▪ some 可以作主语、宾语和定语\n◦ any 任何；任一\n▪ 用在肯定句中的意思为“任何”\n▫ Any child can sing this song.任何小孩都会唱这首歌。\n▪ 用在否定句或疑问句中为“任一”\n▫ There isn't any milk in the bottle.瓶子里一滴牛奶都没有。\n▪ any 可以作主语、宾语和定语\n• much, many, (a) few, (a) little\n◦ many 和 much 这两个词都表示“许多”，但是 many 后接可数名词的复\n数，much 后接不可数名词\n▪ I don't have much money.我没有多少钱。\n◦ a few 和 a little 都有肯定的含义，表示“一些、少许”，但 a few 修饰可数\n名词复数，a little 后接不可数名词\n▪ a little water 一点儿水\n▪ a few apples 几个苹果\n◦ few 和 little 都有否定的含义，表示“几乎没有”，但 few 修饰可数名词复\n数，little 后接不可数名词\n▪ few friends 没什么朋友\n▪ little water 没什么水\n第三课\n【单词串烧】\n• of course [əv'kɔ:s] 当然\n• kettle ['ketl] n.水壶\n• behind [bi'haind] prep.在…后面\n• teapot ['ti:pɔt] n.茶壶\n• now [nau] ad.现在，此刻\n• find [faind] v.找到\n• boil [bɔil] v.沸腾，开\n• can [kæn] 能够\n• boss [bɔs] n.老板，上司\n• minute ['minit] n.分(钟)\n• ask [ɑ:sk] v.请求，要求\n• handwriting ['hændˌraitiŋ] n.书写\n• terrible ['terəbəl] a.糟糕的，可怕的",
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "第十七单元"
+    },
+    {
+      "type": "heading",
+      "text": "第一课"
+    },
+    {
+      "type": "heading",
+      "text": "【对话场景】询问物体摆放的位置"
+    },
+    {
+      "type": "paragraph",
+      "text": "——Can you make the tea, Sam?"
+    },
+    {
+      "type": "paragraph",
+      "text": "萨姆，你会沏茶吗？"
+    },
+    {
+      "type": "paragraph",
+      "text": "——Yes, of course I can, Penny."
+    },
+    {
+      "type": "paragraph",
+      "text": "当然了，我会沏茶。"
+    },
+    {
+      "type": "paragraph",
+      "text": "Is there any water in this kettle?"
+    },
+    {
+      "type": "paragraph",
+      "text": "这水壶里有水吗？"
+    },
+    {
+      "type": "paragraph",
+      "text": "——Yes, there is."
+    },
+    {
+      "type": "paragraph",
+      "text": "有水。"
+    },
+    {
+      "type": "paragraph",
+      "text": "——Where’s the tea?"
+    },
+    {
+      "type": "paragraph",
+      "text": "茶叶在哪儿？"
+    },
+    {
+      "type": "paragraph",
+      "text": "——It’s over there, behind the teapot."
+    },
+    {
+      "type": "paragraph",
+      "text": "在那儿，茶壶后面。"
+    },
+    {
+      "type": "paragraph",
+      "text": "Can you see it?"
+    },
+    {
+      "type": "paragraph",
+      "text": "你看到了吗？"
+    },
+    {
+      "type": "paragraph",
+      "text": "——I can see the teapot, but I can’t see the tea."
+    },
+    {
+      "type": "paragraph",
+      "text": "我看到了茶壶，但是没看到茶叶。"
+    },
+    {
+      "type": "paragraph",
+      "text": "——There it is!"
+    },
+    {
+      "type": "paragraph",
+      "text": "就在这儿！"
+    },
+    {
+      "type": "paragraph",
+      "text": "It’s in front of you."
+    },
+    {
+      "type": "paragraph",
+      "text": "就在你面前。"
+    },
+    {
+      "type": "paragraph",
+      "text": "——Ah yes, I can see it now."
+    },
+    {
+      "type": "paragraph",
+      "text": "是的，我现在看到了。"
+    },
+    {
+      "type": "paragraph",
+      "text": "——Where are the cups?"
+    },
+    {
+      "type": "paragraph",
+      "text": "杯子在哪呢？"
+    },
+    {
+      "type": "paragraph",
+      "text": "——There are some in the cupboard."
+    },
+    {
+      "type": "paragraph",
+      "text": "碗柜里有几只。"
+    },
+    {
+      "type": "paragraph",
+      "text": "Can you find them?"
+    },
+    {
+      "type": "paragraph",
+      "text": "你能找到吗？"
+    },
+    {
+      "type": "paragraph",
+      "text": "——Yes. Here they are."
+    },
+    {
+      "type": "paragraph",
+      "text": "找得到，就在这儿呢。"
+    },
+    {
+      "type": "paragraph",
+      "text": "——Hurry up, Sam."
+    },
+    {
+      "type": "paragraph",
+      "text": "快点，萨姆。"
+    },
+    {
+      "type": "paragraph",
+      "text": "The kettle’s boiling."
+    },
+    {
+      "type": "paragraph",
+      "text": "水开了！"
+    },
+    {
+      "type": "list",
+      "text": "• Can you...?的用法"
+    },
+    {
+      "type": "list",
+      "text": "◦ 表示询问，“你能做······吗？”"
+    },
+    {
+      "type": "list",
+      "text": "◦ can 为情态动词，后面接动词的原形"
+    },
+    {
+      "type": "list",
+      "text": "◦ 说话人希望对方给出肯定的回答"
+    },
+    {
+      "type": "list",
+      "text": "▪ Can you help me?你能帮帮我吗？"
+    },
+    {
+      "type": "list",
+      "text": "◦ 回答："
+    },
+    {
+      "type": "list",
+      "text": "▪ 肯定：Yes, I can."
+    },
+    {
+      "type": "list",
+      "text": "▪ 否定：No, I can't."
+    },
+    {
+      "type": "list",
+      "text": "▫ Can you sing this song?你会唱这首歌吗？"
+    },
+    {
+      "type": "list",
+      "text": "▫ Yes, I can.是的，我会唱。/No, I can't.不，我不会。"
+    },
+    {
+      "type": "list",
+      "text": "• Is/Are there any...？的用法"
+    },
+    {
+      "type": "list",
+      "text": "◦ 意思是“有······吗？”，后面接名词的单数或复数形式"
+    },
+    {
+      "type": "list",
+      "text": "◦ there be 句型的一般疑问形式，把 be 提前"
+    },
+    {
+      "type": "list",
+      "text": "▪ 提问不可数名词或可数名词的单数，用 is"
+    },
+    {
+      "type": "list",
+      "text": "▪ 提问可数名词的复数，用 are"
+    },
+    {
+      "type": "list",
+      "text": "◦ 回答："
+    },
+    {
+      "type": "list",
+      "text": "▪ 肯定：Yes, there is/are..."
+    },
+    {
+      "type": "list",
+      "text": "▪ 否定：No, there is/are not..."
+    },
+    {
+      "type": "list",
+      "text": "• Where is/are...?的用法"
+    },
+    {
+      "type": "list",
+      "text": "◦ 意思是“······在哪儿？”，后面接名词或人称代词"
+    },
+    {
+      "type": "list",
+      "text": "◦ 第三人称单数/不可数名词/可数名词单数用 is，第二人称单数/所有人称复数/"
+    },
+    {
+      "type": "paragraph",
+      "text": "可数名词复数用 are；第一人称用 am"
+    },
+    {
+      "type": "list",
+      "text": "◦ where 是特殊疑问副词，针对位置提问"
+    },
+    {
+      "type": "list",
+      "text": "▪ Where is the tree?那棵树在哪？"
+    },
+    {
+      "type": "list",
+      "text": "◦ 回答："
+    },
+    {
+      "type": "list",
+      "text": "▪ 具体的位置信息"
+    },
+    {
+      "type": "list",
+      "text": "▫ Where is the dog?狗狗在哪？"
+    },
+    {
+      "type": "list",
+      "text": "▫ It is in the yard.它在院子里呢。"
+    },
+    {
+      "type": "heading",
+      "text": "第二课"
+    },
+    {
+      "type": "heading",
+      "text": "【语法点拨】“不确定的”代词"
+    },
+    {
+      "type": "paragraph",
+      "text": "不定代词指的是不确定的、非特指的代词。不定代词包括 some, any, no, both, all,"
+    },
+    {
+      "type": "paragraph",
+      "text": "either, neither 等和由 some, any, no 与 one, body, thing 构成的复合不定代词，"
+    },
+    {
+      "type": "paragraph",
+      "text": "如：someone, anybody, nothing 等。"
+    },
+    {
+      "type": "list",
+      "text": "• some, any"
+    },
+    {
+      "type": "list",
+      "text": "◦ some 一些"
+    },
+    {
+      "type": "list",
+      "text": "▪ 通常用在肯定句中"
+    },
+    {
+      "type": "list",
+      "text": "▫ I bought some tickets.我买了几张票。"
+    },
+    {
+      "type": "list",
+      "text": "▪ 也可以用在疑问句中，表示希望得到肯定的回答"
+    },
+    {
+      "type": "list",
+      "text": "▫ Would you like some juice?你想来点儿果汁吗？"
+    },
+    {
+      "type": "list",
+      "text": "▪ some 可以作主语、宾语和定语"
+    },
+    {
+      "type": "list",
+      "text": "◦ any 任何；任一"
+    },
+    {
+      "type": "list",
+      "text": "▪ 用在肯定句中的意思为“任何”"
+    },
+    {
+      "type": "list",
+      "text": "▫ Any child can sing this song.任何小孩都会唱这首歌。"
+    },
+    {
+      "type": "list",
+      "text": "▪ 用在否定句或疑问句中为“任一”"
+    },
+    {
+      "type": "list",
+      "text": "▫ There isn't any milk in the bottle.瓶子里一滴牛奶都没有。"
+    },
+    {
+      "type": "list",
+      "text": "▪ any 可以作主语、宾语和定语"
+    },
+    {
+      "type": "list",
+      "text": "• much, many, (a) few, (a) little"
+    },
+    {
+      "type": "list",
+      "text": "◦ many 和 much 这两个词都表示“许多”，但是 many 后接可数名词的复"
+    },
+    {
+      "type": "paragraph",
+      "text": "数，much 后接不可数名词"
+    },
+    {
+      "type": "list",
+      "text": "▪ I don't have much money.我没有多少钱。"
+    },
+    {
+      "type": "list",
+      "text": "◦ a few 和 a little 都有肯定的含义，表示“一些、少许”，但 a few 修饰可数"
+    },
+    {
+      "type": "paragraph",
+      "text": "名词复数，a little 后接不可数名词"
+    },
+    {
+      "type": "list",
+      "text": "▪ a little water 一点儿水"
+    },
+    {
+      "type": "list",
+      "text": "▪ a few apples 几个苹果"
+    },
+    {
+      "type": "list",
+      "text": "◦ few 和 little 都有否定的含义，表示“几乎没有”，但 few 修饰可数名词复"
+    },
+    {
+      "type": "paragraph",
+      "text": "数，little 后接不可数名词"
+    },
+    {
+      "type": "list",
+      "text": "▪ few friends 没什么朋友"
+    },
+    {
+      "type": "list",
+      "text": "▪ little water 没什么水"
+    },
+    {
+      "type": "heading",
+      "text": "第三课"
+    },
+    {
+      "type": "heading",
+      "text": "【单词串烧】"
+    },
+    {
+      "type": "list",
+      "text": "• of course [əv'kɔ:s] 当然"
+    },
+    {
+      "type": "list",
+      "text": "• kettle ['ketl] n.水壶"
+    },
+    {
+      "type": "list",
+      "text": "• behind [bi'haind] prep.在…后面"
+    },
+    {
+      "type": "list",
+      "text": "• teapot ['ti:pɔt] n.茶壶"
+    },
+    {
+      "type": "list",
+      "text": "• now [nau] ad.现在，此刻"
+    },
+    {
+      "type": "list",
+      "text": "• find [faind] v.找到"
+    },
+    {
+      "type": "list",
+      "text": "• boil [bɔil] v.沸腾，开"
+    },
+    {
+      "type": "list",
+      "text": "• can [kæn] 能够"
+    },
+    {
+      "type": "list",
+      "text": "• boss [bɔs] n.老板，上司"
+    },
+    {
+      "type": "list",
+      "text": "• minute ['minit] n.分(钟)"
+    },
+    {
+      "type": "list",
+      "text": "• ask [ɑ:sk] v.请求，要求"
+    },
+    {
+      "type": "list",
+      "text": "• handwriting ['hændˌraitiŋ] n.书写"
+    },
+    {
+      "type": "list",
+      "text": "• terrible ['terəbəl] a.糟糕的，可怕的"
+    }
+  ],
+  "videos": [],
+  "source": {
+    "fileName": "英语零基础初级讲义.txt",
+    "kind": "PDF 校对后的转换文本"
+  }
+}

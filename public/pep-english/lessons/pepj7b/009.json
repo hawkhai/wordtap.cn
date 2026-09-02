@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "pepj7b-009",
+  "groupId": "pepj7b",
+  "unitNo": 6,
+  "sequenceNo": 9,
+  "section": "Section B",
+  "title": "Zhu Hui's Dragon Boat Festival",
+  "jsonPath": "pep-english/lessons/pepj7b/009.json",
+  "text": "Today's story is about Zhu Hui, a student from Shenzhen. He's now studying in the United States. He's living with an American family in New York. Today is the Dragon Boat Festival. It's 9:00 a.m. and Zhu Hui's family are at home. His mom and aunt are making zongzi. His dad and uncle are watching the boat races on TV.\nIs Zhu Hui also watching the races and eating zongzi? Well, it's 9:00 p.m. in New York, and it's the night before the festival. But there isn't a Dragon Boat Festival in the US, so it's like any other night for Zhu Hui and his host family. The mother is reading a story to her young children. The father is watching a soccer game on TV. And what's Zhu Hui doing? He's talking on the phone to his cousin in Shenzhen. Zhu Hui misses his family and wishes to have his mom's delicious zongzi. Zhu Hui likes New York and his host family a lot, but there's still \"no place like home\".",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Today's story is about Zhu Hui, a student from Shenzhen. He's now studying in the United States. He's living with an American family in New York. Today is the Dragon Boat Festival. It's 9:00 a.m. and Zhu Hui's family are at home. His mom and aunt are making zongzi. His dad and uncle are watching the boat races on TV."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Is Zhu Hui also watching the races and eating zongzi? Well, it's 9:00 p.m. in New York, and it's the night before the festival. But there isn't a Dragon Boat Festival in the US, so it's like any other night for Zhu Hui and his host family. The mother is reading a story to her young children. The father is watching a soccer game on TV. And what's Zhu Hui doing? He's talking on the phone to his cousin in Shenzhen. Zhu Hui misses his family and wishes to have his mom's delicious zongzi. Zhu Hui likes New York and his host family a lot, but there's still \"no place like home\"."
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "初中",
+    "book": "七年级下册",
+    "pageStart": 45,
+    "pageEnd": 45,
+    "extractionMode": "ocr",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "9336b53d5a44f9244f62f6fb10720914",
+    "pdfSize": 17821241,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/junior-7b.pdf#page=45",
+      "reviewedAt": "2026-07-22",
+      "notes": "Retained the two TV-report paragraphs; excluded the 2a clock prompt, 2b questions and 2c exercise, and restored the truncated final quotation."
+    }
+  }
+}

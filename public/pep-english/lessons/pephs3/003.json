@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "id": "pephs3-003",
+  "groupId": "pephs3",
+  "unitNo": 2,
+  "sequenceNo": 3,
+  "section": "Reading and Thinking",
+  "title": "Habits for a Healthy Lifestyle",
+  "jsonPath": "pep-english/lessons/pephs3/003.json",
+  "text": "As teenagers grow up, they become more independent and start making their own decisions. However, during this period, it can be easy for some of them to form bad habits. These bad habits, if left unchecked, could lead to more serious ones when they become adults. For example, some of them may become involved in tobacco or alcohol abuse, which can lead to physical and mental health problems. To prevent harmful habits like these from dominating a teenager’s life is essential. They must learn to recognise bad habits early and make appropriate changes.\nTo change bad habits is never easy, even with many attempts. There is a famous saying based on the philosophy of Aristotle: “We are what we repeatedly do.” In many ways, our lifestyle is the sum of choices we have made. We make a choice to do something, and then we repeat it over and over again. Soon that choice becomes automatic and forms a habit that is much harder to change. The good news is that we can change, if we understand how habits work.\nAccording to modern psychology, we must first learn about the “habit cycle”, which works like this:\nFirstly, there is a “cue”, an action, event, or situation that acts as a signal to do something.\nSecondly, there is a “routine”, the regular action you take in response to the cue.\nThirdly, there is the “reward”, the good thing or feeling we get from the routine.\nFor example, when we feel unhappy (cue), we eat lots of unhealthy snacks (routine), which makes us feel happy (reward). The reward makes us much more likely to continue the cycle, and the bad habit of relying on unhealthy snacks is formed.\nTo facilitate a positive change in our bad habits, we must first examine our bad habit cycles and then try to adapt them. We can do this by combining the information from our habit cycles with our own positive ideas. For example, we could try to replace a negative routine with something more positive. So, when we feel unhappy again (cue), rather than eat snacks, we could listen to some of our favourite music instead (routine), which will make us feel relaxed (reward). Aside from changing bad habits, we can also use the habit cycle to create good habits. For example, when we come to an escalator (cue), our normal routine is to ride it, but we could change this routine into something more positive by taking the stairs instead.\nMany of us try to change bad habits quickly, and if we are not successful straight away, we often become pessimistic and give up. In fact, the most successful way to change is not suddenly, but over a period of time. As the Chinese philosopher Laozi wrote, “A journey of a thousand miles begins with a single step.” One step seems small, but it is essential. To reach the goal of change, a person must show some discipline and repeatedly take many small steps. After all, it is not easy to break bad habits.\nFor young people, there is plenty of time to change bad habits. However, there is no “magic pill” or delete button that will help you; you have to think about your bad habits and decide on some changes. You have the power to build a happy and healthy life full of good habits!",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "As teenagers grow up, they become more independent and start making their own decisions. However, during this period, it can be easy for some of them to form bad habits. These bad habits, if left unchecked, could lead to more serious ones when they become adults. For example, some of them may become involved in tobacco or alcohol abuse, which can lead to physical and mental health problems. To prevent harmful habits like these from dominating a teenager’s life is essential. They must learn to recognise bad habits early and make appropriate changes."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "To change bad habits is never easy, even with many attempts. There is a famous saying based on the philosophy of Aristotle: “We are what we repeatedly do.” In many ways, our lifestyle is the sum of choices we have made. We make a choice to do something, and then we repeat it over and over again. Soon that choice becomes automatic and forms a habit that is much harder to change. The good news is that we can change, if we understand how habits work."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "According to modern psychology, we must first learn about the “habit cycle”, which works like this:"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Firstly, there is a “cue”, an action, event, or situation that acts as a signal to do something."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Secondly, there is a “routine”, the regular action you take in response to the cue."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Thirdly, there is the “reward”, the good thing or feeling we get from the routine."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "For example, when we feel unhappy (cue), we eat lots of unhealthy snacks (routine), which makes us feel happy (reward). The reward makes us much more likely to continue the cycle, and the bad habit of relying on unhealthy snacks is formed."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "To facilitate a positive change in our bad habits, we must first examine our bad habit cycles and then try to adapt them. We can do this by combining the information from our habit cycles with our own positive ideas. For example, we could try to replace a negative routine with something more positive. So, when we feel unhappy again (cue), rather than eat snacks, we could listen to some of our favourite music instead (routine), which will make us feel relaxed (reward). Aside from changing bad habits, we can also use the habit cycle to create good habits. For example, when we come to an escalator (cue), our normal routine is to ride it, but we could change this routine into something more positive by taking the stairs instead."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Many of us try to change bad habits quickly, and if we are not successful straight away, we often become pessimistic and give up. In fact, the most successful way to change is not suddenly, but over a period of time. As the Chinese philosopher Laozi wrote, “A journey of a thousand miles begins with a single step.” One step seems small, but it is essential. To reach the goal of change, a person must show some discipline and repeatedly take many small steps. After all, it is not easy to break bad habits."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "For young people, there is plenty of time to change bad habits. However, there is no “magic pill” or delete button that will help you; you have to think about your bad habits and decide on some changes. You have the power to build a happy and healthy life full of good habits!"
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "选择性必修第三册",
+    "pageStart": 21,
+    "pageEnd": 22,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "f0dc33129a755a33421d401b71a05cd1",
+    "pdfSize": 12684455,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/senior-selective-3.pdf#page=21-22",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored the complete ten-block article across pages 21-22, preserving the habit-cycle introduction and its three ordered points; excluded pre-reading prompts, strategy box, diagrams, questions, tasks, and running furniture."
+    }
+  }
+}

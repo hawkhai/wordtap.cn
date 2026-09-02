@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "id": "pephr1-025",
+  "groupId": "pephr1",
+  "unitNo": 1,
+  "sequenceNo": 25,
+  "section": "Writing",
+  "title": "A Fourteen-Year-Old Who Wants to Study Abroad",
+  "jsonPath": "pep-english/lessons/pephr1/025.json",
+  "text": "Dear Talking Teens,\nMy daughter wants to study abroad but I think she is too young. She is only 14. Besides, it would cost a lot of money to send her to a school in another country. I think she should finish senior high school first, and then maybe study abroad when she's in university. What do you think?\nBest wishes, Mum in Yunnan",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Dear Talking Teens,"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "My daughter wants to study abroad but I think she is too young. She is only 14. Besides, it would cost a lot of money to send her to a school in another country. I think she should finish senior high school first, and then maybe study abroad when she's in university. What do you think?"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Best wishes, Mum in Yunnan"
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "必修第一册",
+    "pageStart": 82,
+    "pageEnd": 82,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "e0bf18138b24d7def28b35994a13946b",
+    "pdfSize": 14704146,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/senior-required-1.pdf#page=82",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored Mum in Yunnan's complete signed letter as an independent lesson.",
+      "splitBaselineId": "pephr1-030",
+      "splitIndex": 4,
+      "splitCount": 4
+    }
+  }
+}

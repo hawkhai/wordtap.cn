@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "id": "pepj8a-019",
+  "groupId": "pepj8a",
+  "unitNo": 8,
+  "sequenceNo": 19,
+  "section": "Section A",
+  "title": "How to Make Russian Soup",
+  "jsonPath": "pep-english/lessons/pepj8a/019.json",
+  "text": "Anna: Sam, I want to make Russian soup for a party on Saturday. Can you tell me how?\nSam: Sure. First, buy some beef, one cabbage, four carrots, three potatoes, five tomatoes and one onion. Then, cut up the vegetables.\nAnna: What's next?\nSam: Next, put the beef, carrots and potatoes into a pot and add some water. After that, cook them for 30 minutes. Then, add the cabbage, tomatoes and onion and cook for another 10 minutes.\nAnna: OK, that's it?\nSam: No, one more thing. Finally, don't forget to add some salt.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Anna: Sam, I want to make Russian soup for a party on Saturday. Can you tell me how?"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Sam: Sure. First, buy some beef, one cabbage, four carrots, three potatoes, five tomatoes and one onion. Then, cut up the vegetables."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Anna: What's next?"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Sam: Next, put the beef, carrots and potatoes into a pot and add some water. After that, cook them for 30 minutes. Then, add the cabbage, tomatoes and onion and cook for another 10 minutes."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Anna: OK, that's it?"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Sam: No, one more thing. Finally, don't forget to add some salt."
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "初中",
+    "book": "八年级上册",
+    "pageStart": 69,
+    "pageEnd": 69,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "24fcd352dca21a6ee547539f550ed35c",
+    "pdfSize": 9469090,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/junior-8a.pdf#page=69",
+      "reviewedAt": "2026-07-22",
+      "notes": "Retained only the complete 2d role-play, restored all six turns and recipe quantities, assigned a descriptive title, and excluded listening charts and the unfinished 2c model."
+    }
+  }
+}

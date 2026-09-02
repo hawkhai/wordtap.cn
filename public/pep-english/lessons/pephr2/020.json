@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "id": "pephr2-020",
+  "groupId": "pephr2",
+  "unitNo": 2,
+  "sequenceNo": 20,
+  "section": "Reading and Writing",
+  "title": "The Strange Tale of the Milu Deer",
+  "jsonPath": "pep-english/lessons/pephr2/020.json",
+  "text": "The milu deer, one of China's most beloved animals, is also one of its strangest. How else could you describe a creature that has the face of a horse, the hoofs of a cow, the antlers of a red deer, and the tail of a donkey?\nThe history of the species is nearly as strange as its body. The milu deer used to be common in China long ago. Like other deer, they lived together and ate grass as well as the soft parts of trees, such as small branches. However, milu deer were often hunted for food or sport in the past. The Ming and Qing dynasties did not protect them and many were killed. In 1900, the milu deer disappeared from China.\nHowever, before all the deer were killed in China, some were taken to Europe. The Duke of Bedford from Britain collected all the milu deer from Europe and put them in his deer park. The deer liked the cool, wet weather in England, and their numbers increased year by year. In 1985, 20 milu deer were reintroduced from Britain to China and placed in the Beijing Nanhaizi Milu Park in southern Beijing. The next year another herd of 39 arrived from the UK to the Dafeng Milu Nature Reserve in Jiangsu Province.\nThe milu deer certainly seemed happy to be back in China because their numbers started to grow steadily. There were soon so many of them that 64 milu deer were sent to a newly opened reserve in Shishou, Hubei Province from Beijing in the 1990s. They can move freely in the reserve, feed entirely on wild plants, and continue to safely thrive.\nAt the moment, the milu deer are still living in reserves where they are being protected and cared for. As a result, their population is now recovering fast. Soon a new chapter will be added to the strange tale of these special animals. The deer are being trained to survive outside the park so that they can one day all return to the wild. The rescue of the milu deer is already a success story. Now it is up to us to make sure that the deer live happily ever after.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "The milu deer, one of China's most beloved animals, is also one of its strangest. How else could you describe a creature that has the face of a horse, the hoofs of a cow, the antlers of a red deer, and the tail of a donkey?"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "The history of the species is nearly as strange as its body. The milu deer used to be common in China long ago. Like other deer, they lived together and ate grass as well as the soft parts of trees, such as small branches. However, milu deer were often hunted for food or sport in the past. The Ming and Qing dynasties did not protect them and many were killed. In 1900, the milu deer disappeared from China."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "However, before all the deer were killed in China, some were taken to Europe. The Duke of Bedford from Britain collected all the milu deer from Europe and put them in his deer park. The deer liked the cool, wet weather in England, and their numbers increased year by year. In 1985, 20 milu deer were reintroduced from Britain to China and placed in the Beijing Nanhaizi Milu Park in southern Beijing. The next year another herd of 39 arrived from the UK to the Dafeng Milu Nature Reserve in Jiangsu Province."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "The milu deer certainly seemed happy to be back in China because their numbers started to grow steadily. There were soon so many of them that 64 milu deer were sent to a newly opened reserve in Shishou, Hubei Province from Beijing in the 1990s. They can move freely in the reserve, feed entirely on wild plants, and continue to safely thrive."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "At the moment, the milu deer are still living in reserves where they are being protected and cared for. As a result, their population is now recovering fast. Soon a new chapter will be added to the strange tale of these special animals. The deer are being trained to survive outside the park so that they can one day all return to the wild. The rescue of the milu deer is already a success story. Now it is up to us to make sure that the deer live happily ever after."
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "必修第二册",
+    "pageStart": 77,
+    "pageEnd": 77,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "38d49874e4f015fd89f21c9306f6b9d5",
+    "pdfSize": 14270612,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/senior-required-2.pdf#page=77",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored the complete five-paragraph milu deer history from physical description through reintroduction and future release; excluded the lead-in instruction and photographs."
+    }
+  }
+}

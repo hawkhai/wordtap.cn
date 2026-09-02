@@ -1,0 +1,27 @@
+{
+  "name": "WordTap.cn - 英语阅读点读查词工具",
+  "short_name": "WordTap",
+  "description": "粘贴英文文章，点击单词即可听发音、看中文释义，在原文上下文里积累生词。",
+  "id": "./",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f8fafc",
+  "theme_color": "#f8fafc",
+  "lang": "zh-CN",
+  "categories": ["education", "books"],
+  "icons": [
+    {
+      "src": "./favicon-192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any"
+    },
+    {
+      "src": "./favicon-512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any"
+    }
+  ]
+}

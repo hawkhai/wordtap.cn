@@ -1,0 +1,167 @@
+{
+  "schemaVersion": 1,
+  "id": "nce2-009",
+  "bookId": "nce2",
+  "bookNo": 2,
+  "lessonNo": 9,
+  "lessonRange": [
+    9
+  ],
+  "title": "A Cold Welcome",
+  "titleZh": "冷遇",
+  "question": "What does 'a cold welcome' refer to?",
+  "questionZh": "“冷遇”（a cold welcome）指的是一种不热情、冷漠或甚至带有敌意的接待方式。",
+  "text": "What does 'a cold welcome' refer to?\n\nOn Wednesday evening, we went to the Town Hall.\nIt was the last day of the year and a large crowd of people had gathered under the Town Hall clock.\nIt would strike twelve in twenty minutes' time.\nFifteen minutes passed and then, at five to twelve, the clock stopped.\nThe big minute hand did not move.\nWe waited and waited, but nothing happened.\nSuddenly someone shouted.\n'It's two minutes past twelve!\nThe clock has stopped!'\nI looked at my watch.\nIt was true.\nThe big clock refused to welcome the New Year.\nAt that moment, everybody began to laugh and sing.",
+  "bodyText": "On Wednesday evening, we went to the Town Hall.\nIt was the last day of the year and a large crowd of people had gathered under the Town Hall clock.\nIt would strike twelve in twenty minutes' time.\nFifteen minutes passed and then, at five to twelve, the clock stopped.\nThe big minute hand did not move.\nWe waited and waited, but nothing happened.\nSuddenly someone shouted.\n'It's two minutes past twelve!\nThe clock has stopped!'\nI looked at my watch.\nIt was true.\nThe big clock refused to welcome the New Year.\nAt that moment, everybody began to laugh and sing.",
+  "bodyTextZh": "周三晚上，我们去了市政厅。\n那是这一年中的最后一天。一大群人聚集在市政厅的钟楼下方。\n二十分钟后，钟声就会敲响十二下。\n十五分钟过去了，然后……在十二点差五分的时候，钟停了。\n那个大型的分针一动也没有动。\n我们等啊等啊，但是什么事情都没有发生。\n突然，有人喊了一声。\n已经十二点过两分了！\n“时钟停了！”\n我看了看我的手表。\n确实如此。\n那座大钟拒绝迎接新年。\n就在那一刻，所有人都开始大笑起来，还唱起了歌。",
+  "sentences": [
+    {
+      "index": 0,
+      "startTime": 0.5,
+      "endTime": 3,
+      "en": "Lesson 9",
+      "zh": "第9课",
+      "role": "lesson"
+    },
+    {
+      "index": 1,
+      "startTime": 3,
+      "endTime": 9.41,
+      "en": "A Cold Welcome",
+      "zh": "冷遇",
+      "role": "title"
+    },
+    {
+      "index": 2,
+      "startTime": 9.41,
+      "endTime": 15.22,
+      "en": "What does 'a cold welcome' refer to?",
+      "zh": "“冷遇”（a cold welcome）指的是一种不热情、冷漠或甚至带有敌意的接待方式。",
+      "role": "question"
+    },
+    {
+      "index": 3,
+      "startTime": 15.22,
+      "endTime": 19.29,
+      "en": "On Wednesday evening, we went to the Town Hall.",
+      "zh": "周三晚上，我们去了市政厅。",
+      "role": "body"
+    },
+    {
+      "index": 4,
+      "startTime": 19.29,
+      "endTime": 27.32,
+      "en": "It was the last day of the year and a large crowd of people had gathered under the Town Hall clock.",
+      "zh": "那是这一年中的最后一天。一大群人聚集在市政厅的钟楼下方。",
+      "role": "body"
+    },
+    {
+      "index": 5,
+      "startTime": 27.32,
+      "endTime": 31.52,
+      "en": "It would strike twelve in twenty minutes' time.",
+      "zh": "二十分钟后，钟声就会敲响十二下。",
+      "role": "body"
+    },
+    {
+      "index": 6,
+      "startTime": 31.52,
+      "endTime": 37.85,
+      "en": "Fifteen minutes passed and then, at five to twelve, the clock stopped.",
+      "zh": "十五分钟过去了，然后……在十二点差五分的时候，钟停了。",
+      "role": "body"
+    },
+    {
+      "index": 7,
+      "startTime": 37.85,
+      "endTime": 40.74,
+      "en": "The big minute hand did not move.",
+      "zh": "那个大型的分针一动也没有动。",
+      "role": "body"
+    },
+    {
+      "index": 8,
+      "startTime": 40.74,
+      "endTime": 45.14,
+      "en": "We waited and waited, but nothing happened.",
+      "zh": "我们等啊等啊，但是什么事情都没有发生。",
+      "role": "body"
+    },
+    {
+      "index": 9,
+      "startTime": 45.14,
+      "endTime": 47.69,
+      "en": "Suddenly someone shouted.",
+      "zh": "突然，有人喊了一声。",
+      "role": "body"
+    },
+    {
+      "index": 10,
+      "startTime": 47.69,
+      "endTime": 50.72,
+      "en": "'It's two minutes past twelve!",
+      "zh": "已经十二点过两分了！",
+      "role": "body"
+    },
+    {
+      "index": 11,
+      "startTime": 50.72,
+      "endTime": 53.03,
+      "en": "The clock has stopped!'",
+      "zh": "“时钟停了！”",
+      "role": "body"
+    },
+    {
+      "index": 12,
+      "startTime": 53.03,
+      "endTime": 54.7,
+      "en": "I looked at my watch.",
+      "zh": "我看了看我的手表。",
+      "role": "body"
+    },
+    {
+      "index": 13,
+      "startTime": 54.7,
+      "endTime": 56.43,
+      "en": "It was true.",
+      "zh": "确实如此。",
+      "role": "body"
+    },
+    {
+      "index": 14,
+      "startTime": 56.43,
+      "endTime": 60.66,
+      "en": "The big clock refused to welcome the New Year.",
+      "zh": "那座大钟拒绝迎接新年。",
+      "role": "body"
+    },
+    {
+      "index": 15,
+      "startTime": 60.66,
+      "endTime": null,
+      "en": "At that moment, everybody began to laugh and sing.",
+      "zh": "就在那一刻，所有人都开始大笑起来，还唱起了歌。",
+      "role": "body"
+    }
+  ],
+  "audio": {
+    "fileName": "09－A Cold Welcome.mp3",
+    "sourcePath": "content/NCE-Flow/NCE2/09－A Cold Welcome.mp3",
+    "exists": true
+  },
+  "source": {
+    "repository": "NCE-Flow",
+    "lrcFileName": "09－A Cold Welcome.lrc",
+    "lrcPath": "content/NCE-Flow/NCE2/09－A Cold Welcome.lrc",
+    "sourceDataFile": "content/NCE-Flow/static/data.json",
+    "generatedAt": "2026-07-23T02:59:02+00:00",
+    "generator": "scripts/generate_nce_json.py",
+    "generatorVersion": "2.0.0",
+    "metadata": {
+      "al": "新概念英语（二）",
+      "ar": "MP3 同步字幕版（美音）",
+      "ti": "A Cold Welcome",
+      "by": "更多学习内容，请到VeryCD.com搜索“露珠”"
+    }
+  }
+}

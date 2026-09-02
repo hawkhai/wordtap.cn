@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "id": "pepj8a-023",
+  "groupId": "pepj8a",
+  "unitNo": 9,
+  "sequenceNo": 23,
+  "section": "Section B",
+  "title": "Invitation to the New Library Opening",
+  "jsonPath": "pep-english/lessons/pepj8a/023.json",
+  "text": "Dear Parents,\nI would like to invite you to the opening of our new library at No. 9 High School. The opening will be on the morning of Wednesday, January 8th at 9:00. After this, you can enjoy our school concert. Then lunch will be in the school hall at 12:00. I would also like to invite each parent to bring one book as a gift for the new library. Please reply in writing to this invitation by Friday, December 20th.\nLarry Smith Headmaster",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Dear Parents,"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "I would like to invite you to the opening of our new library at No. 9 High School. The opening will be on the morning of Wednesday, January 8th at 9:00. After this, you can enjoy our school concert. Then lunch will be in the school hall at 12:00. I would also like to invite each parent to bring one book as a gift for the new library. Please reply in writing to this invitation by Friday, December 20th."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Larry Smith Headmaster"
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "初中",
+    "book": "八年级上册",
+    "pageStart": 82,
+    "pageEnd": 82,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "24fcd352dca21a6ee547539f550ed35c",
+    "pdfSize": 9469090,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/junior-8a.pdf#page=82",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored the complete invitation with salutation, all dates/times, request and signature; assigned a descriptive title, corrected Section B and excluded comprehension/writing prompts."
+    }
+  }
+}

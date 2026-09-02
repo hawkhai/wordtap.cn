@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "pephs3-011",
+  "groupId": "pephs3",
+  "unitNo": 5,
+  "sequenceNo": 11,
+  "section": "Learning About Language",
+  "title": "Robert and Elizabeth Barrett Browning",
+  "jsonPath": "pep-english/lessons/pephs3/011.json",
+  "text": "If you study the history of English literature, you will find the names of Robert and Elizabeth Barrett Browning. They were one of the most romantic literary couples of the Victorian era. Elizabeth Barrett started to write poetry from about the age of six. In 1844, Elizabeth’s Poems brought her great success. It also attracted the admiration of poet Robert Browning. Browning fell in love with her poetry and then they entered into personal correspondence. The couple exchanged many letters. These letters obviously helped sow the seeds of love between the two. Elizabeth had been ill for many years. She stayed at home and almost never saw visitors. Browning was sure about his love, so he found a way to visit her, and immediately convinced her to become his bride. However, their subsequent marriage was carried out in secret. It was because Barrett’s father was a dominant and selfish man. He would refuse to let his daughter go. The couple moved to Italy in 1846. Elizabeth lived there for the rest of her life. Browning had a great influence on Elizabeth’s writing. The best evidence that can be found is Sonnets from the Portuguese. The sonnets were written during the time when she was in love with Robert Browning.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "If you study the history of English literature, you will find the names of Robert and Elizabeth Barrett Browning. They were one of the most romantic literary couples of the Victorian era. Elizabeth Barrett started to write poetry from about the age of six. In 1844, Elizabeth’s Poems brought her great success. It also attracted the admiration of poet Robert Browning. Browning fell in love with her poetry and then they entered into personal correspondence. The couple exchanged many letters. These letters obviously helped sow the seeds of love between the two. Elizabeth had been ill for many years. She stayed at home and almost never saw visitors. Browning was sure about his love, so he found a way to visit her, and immediately convinced her to become his bride. However, their subsequent marriage was carried out in secret. It was because Barrett’s father was a dominant and selfish man. He would refuse to let his daughter go. The couple moved to Italy in 1846. Elizabeth lived there for the rest of her life. Browning had a great influence on Elizabeth’s writing. The best evidence that can be found is Sonnets from the Portuguese. The sonnets were written during the time when she was in love with Robert Browning."
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "选择性必修第三册",
+    "pageStart": 60,
+    "pageEnd": 60,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "f0dc33129a755a33421d401b71a05cd1",
+    "pdfSize": 12684455,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/senior-selective-3.pdf#page=60",
+      "reviewedAt": "2026-07-22",
+      "notes": "Retained the complete printed Browning introduction exactly as supplied for the concision-editing task; excluded the instruction, scrambled Tagore sentence set, photograph, pair-work prompt, example, and page furniture."
+    }
+  }
+}

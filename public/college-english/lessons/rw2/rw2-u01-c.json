@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 2,
+  "id": "rw2-u01-c",
+  "sequenceNo": 21,
+  "groupId": "rw2",
+  "unitNo": 1,
+  "unitTitle": "Language in mission",
+  "section": "C",
+  "articleType": "stories-of-china",
+  "title": "What challenges learners of Chinese?",
+  "printedPageStart": 25,
+  "printedPageEnd": 26,
+  "jsonPath": "college-english/lessons/rw2/rw2-u01-c.json",
+  "characterCount": 2585,
+  "text": "Because of the rapid transformation of its society and the continuous development of its economy, China has attracted people from more and more countries. They come to China to work and study, and many start to learn Chinese.\nHowever, learning a new language is not easy, especially Chinese. The Chinese tones are one of the key challenges for foreign learners. Tones in Chinese distinguish meanings. When foreign learners speak Chinese, the pronunciation often sounds a little weird, because they cannot grasp the tones well. The main problems are that their voice cannot go up for the second tone, go down for the fourth, and make a turn for the third. For example, the words “睡觉 (shuì jiào)” and “水饺 (shuǐ jiǎo)” have different tones and, therefore, convey different meanings. “睡觉” means “sleep”, and “水饺” means “dumpling”. If the tone is not properly pronounced, the meaning will be entirely different.\nAnother challenge is the Chinese writing system, which has gone through a long evolution since ancient China. Chinese is an ideographic (表意的) language, and its characters are formed from images. Writing Chinese characters, in a sense, is just like drawing pictures. Besides, a Chinese character combines its form, sound, and meaning together into one, but the relationship between the three is rather complex. To learn Chinese characters, learners should not only remember the relationship between form and meaning but also the relationship between sound and meaning. This builds a huge language barrier for foreigners.\nFurthermore, Chinese vocabulary can make its learners feel overwhelmed. In fact, vocabulary, a basic component of a language, is the most difficult part in learning Chinese. For instance, due to the rich category of quantifiers in the Chinese language, the usage of different quantifiers seems to be confusing to foreigners, such as “一块面包 (a piece of bread)”, “一张纸 (a piece of paper)”, and “一支曲子 (a piece of music)”. There are also many other quantifiers that are hard for beginners to use correctly.\nThese are some of the challenges when foreigners learn the Chinese language. However, it is always fun to learn the language because of its long history and unique ideographic meaning. Motivated foreigners can become proficient in Chinese after a period of time staying in China.\nChinese is a beautiful language, very different from English or other languages. It is predictable that China’s rising international status will continue to draw the attention of the world and help significantly increase the number of foreigners interested in learning Chinese.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Because of the rapid transformation of its society and the continuous development of its economy, China has attracted people from more and more countries. They come to China to work and study, and many start to learn Chinese."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "However, learning a new language is not easy, especially Chinese. The Chinese tones are one of the key challenges for foreign learners. Tones in Chinese distinguish meanings. When foreign learners speak Chinese, the pronunciation often sounds a little weird, because they cannot grasp the tones well. The main problems are that their voice cannot go up for the second tone, go down for the fourth, and make a turn for the third. For example, the words “睡觉 (shuì jiào)” and “水饺 (shuǐ jiǎo)” have different tones and, therefore, convey different meanings. “睡觉” means “sleep”, and “水饺” means “dumpling”. If the tone is not properly pronounced, the meaning will be entirely different."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Another challenge is the Chinese writing system, which has gone through a long evolution since ancient China. Chinese is an ideographic (表意的) language, and its characters are formed from images. Writing Chinese characters, in a sense, is just like drawing pictures. Besides, a Chinese character combines its form, sound, and meaning together into one, but the relationship between the three is rather complex. To learn Chinese characters, learners should not only remember the relationship between form and meaning but also the relationship between sound and meaning. This builds a huge language barrier for foreigners."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Furthermore, Chinese vocabulary can make its learners feel overwhelmed. In fact, vocabulary, a basic component of a language, is the most difficult part in learning Chinese. For instance, due to the rich category of quantifiers in the Chinese language, the usage of different quantifiers seems to be confusing to foreigners, such as “一块面包 (a piece of bread)”, “一张纸 (a piece of paper)”, and “一支曲子 (a piece of music)”. There are also many other quantifiers that are hard for beginners to use correctly."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "These are some of the challenges when foreigners learn the Chinese language. However, it is always fun to learn the language because of its long history and unique ideographic meaning. Motivated foreigners can become proficient in Chinese after a period of time staying in China."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Chinese is a beautiful language, very different from English or other languages. It is predictable that China’s rising international status will continue to draw the attention of the world and help significantly increase the number of foreigners interested in learning Chinese."
+    }
+  ],
+  "source": {
+    "series": "新视野大学英语（第四版）",
+    "book": "读写教程 2",
+    "sourceBook": "NHCE4-RW2",
+    "printedPageStart": 25,
+    "printedPageEnd": 26,
+    "pdfPageStart": 40,
+    "pdfPageEnd": 41,
+    "pdfSha256": "67f2efd99fc8d9779b945b5714857c2e608b39d42a1ce254c7d501abb21ab978",
+    "ocrFiles": [
+      "tools/College-English/NHCE4-RW2/ocr/json/NHCE4-RW2_40.json",
+      "tools/College-English/NHCE4-RW2/ocr/json/NHCE4-RW2_41.json"
+    ]
+  },
+  "manualReview": {
+    "status": "passed",
+    "reviewer": "Codex",
+    "reviewedAt": "2026-07-30T02:03:23Z",
+    "correctionCount": 9,
+    "evidence": "NHCE4-RW2 PDF pages 40-41; images NHCE4-RW2_40.jpg and NHCE4-RW2_41.jpg; reviewed-articles/rw2-u01-c.json",
+    "textSha256": "e8ffdd196c881f5ced9ad04a3b0034ecc3d2e07ff4997e1f5e225831d4ed5313",
+    "eventSha256": "7c78a787a4751d8cb0baf62347d39b25bface29662ca3b16cc6b06dbf7f09296"
+  }
+}

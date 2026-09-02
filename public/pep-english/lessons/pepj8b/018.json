@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "pepj8b-018",
+  "groupId": "pepj8b",
+  "unitNo": 9,
+  "sequenceNo": 18,
+  "section": "Section B",
+  "title": "Singapore — A Place You Will Never Forget!",
+  "jsonPath": "pep-english/lessons/pepj8b/018.json",
+  "text": "Have you ever been to Singapore? For thousands of tourists from China, this small island in Southeast Asia is a wonderful and safe place to take a holiday. On the one hand, more than three quarters of the population are Chinese, so you can simply speak Putonghua a lot of the time. On the other hand, Singapore is an English-speaking country, so it's also a good place to practice your English!\nHave you ever tried Chinese food outside of China? Maybe you fear that you won't be able to find anything good to eat when you travel. In Singapore, however, you'll find a lot of food from China; you won't have any problem getting rice, noodles or dumplings. Singapore is also an excellent place to try new food. Whether you like Indian food, Western food or Japanese food, you'll find it all in Singapore!\nMost large cities have zoos, but have you ever been to a zoo at night? Singapore has a Night Safari. It might seem strange to go to a zoo when it's dark. However, if you go to see lions, tigers or foxes during the daytime, they'll probably be asleep! A lot of animals only wake up at night, so this is the best time to watch them. At the Night Safari, you can watch these animals in a more natural environment than in a normal zoo.\nOne great thing about Singapore is that the temperature is almost the same all year round. This is because the island is so close to the equator. So you can choose to go whenever you like — spring, summer, autumn or winter. And, of course, it's not too far from China!",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Have you ever been to Singapore? For thousands of tourists from China, this small island in Southeast Asia is a wonderful and safe place to take a holiday. On the one hand, more than three quarters of the population are Chinese, so you can simply speak Putonghua a lot of the time. On the other hand, Singapore is an English-speaking country, so it's also a good place to practice your English!"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Have you ever tried Chinese food outside of China? Maybe you fear that you won't be able to find anything good to eat when you travel. In Singapore, however, you'll find a lot of food from China; you won't have any problem getting rice, noodles or dumplings. Singapore is also an excellent place to try new food. Whether you like Indian food, Western food or Japanese food, you'll find it all in Singapore!"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Most large cities have zoos, but have you ever been to a zoo at night? Singapore has a Night Safari. It might seem strange to go to a zoo when it's dark. However, if you go to see lions, tigers or foxes during the daytime, they'll probably be asleep! A lot of animals only wake up at night, so this is the best time to watch them. At the Night Safari, you can watch these animals in a more natural environment than in a normal zoo."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "One great thing about Singapore is that the temperature is almost the same all year round. This is because the island is so close to the equator. So you can choose to go whenever you like — spring, summer, autumn or winter. And, of course, it's not too far from China!"
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "初中",
+    "book": "八年级下册",
+    "pageStart": 79,
+    "pageEnd": 79,
+    "extractionMode": "ocr",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "21d35e04f1c22b74a3fe3e95e88adff9",
+    "pdfSize": 18208880,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/junior-8b.pdf#page=79",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored the exact printed title and all four complete travel-information paragraphs, and excluded 2a/2b instructions plus the note-taking sidebar."
+    }
+  }
+}

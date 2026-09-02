@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "id": "pephr1-017",
+  "groupId": "pephr1",
+  "unitNo": 4,
+  "sequenceNo": 17,
+  "section": "Reading for Writing",
+  "title": "Tsunami Hits Asia: Over 6,500 Dead",
+  "jsonPath": "pep-english/lessons/pephr1/017.json",
+  "text": "By Robert Woodhouse Monday, 27 December 2004\nThe most powerful earthquake in the past 40 years caused a tsunami that crashed into coastlines across Asia yesterday, killing more than 6,500 people in Indonesia, India, Thailand, Malaysia, and at least four other countries. Fishermen, tourists, hotels, homes, and cars were swept away by huge waves caused by the strong earthquake that reached a magnitude of 9.0. The undersea quake struck around 7:00 a.m., Sunday off the west coast of Indonesia's Sumatra Island. In that area alone, at least 1,870 people were killed.\nIn Sri Lanka, some 1,600 kilometres west of the quake centre, the number of deaths stood at 2,498, and one million more were affected by the tsunami, government officials said. Indian officials said as many as 1,900 had been killed along the southern coast. Another 254 were found dead in Thailand and 54 in three other countries. In southern Thailand, 1,900 people were hurt and many more were missing, local officials said.\n“I was having breakfast with my three children when water started filling my home. We had to leave everything and run to safety,” said Chandra Theeravit, a local Thai woman.\nThousands of people are still missing, and the number of deaths is expected to grow even higher over the next few days. Foreign aid is being organised for the tsunami-hit countries. However, dangerous conditions and damaged roads will make it difficult to deliver food and supplies.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "By Robert Woodhouse Monday, 27 December 2004"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "The most powerful earthquake in the past 40 years caused a tsunami that crashed into coastlines across Asia yesterday, killing more than 6,500 people in Indonesia, India, Thailand, Malaysia, and at least four other countries. Fishermen, tourists, hotels, homes, and cars were swept away by huge waves caused by the strong earthquake that reached a magnitude of 9.0. The undersea quake struck around 7:00 a.m., Sunday off the west coast of Indonesia's Sumatra Island. In that area alone, at least 1,870 people were killed."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "In Sri Lanka, some 1,600 kilometres west of the quake centre, the number of deaths stood at 2,498, and one million more were affected by the tsunami, government officials said. Indian officials said as many as 1,900 had been killed along the southern coast. Another 254 were found dead in Thailand and 54 in three other countries. In southern Thailand, 1,900 people were hurt and many more were missing, local officials said."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "“I was having breakfast with my three children when water started filling my home. We had to leave everything and run to safety,” said Chandra Theeravit, a local Thai woman."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Thousands of people are still missing, and the number of deaths is expected to grow even higher over the next few days. Foreign aid is being organised for the tsunami-hit countries. However, dangerous conditions and damaged roads will make it difficult to deliver food and supplies."
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "必修第一册",
+    "pageStart": 61,
+    "pageEnd": 61,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "e0bf18138b24d7def28b35994a13946b",
+    "pdfSize": 14704146,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/senior-required-1.pdf#page=61",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored the complete three-column news report in left-to-right reading order, including headline, byline and date; removed the writing instruction and three comprehension questions."
+    }
+  }
+}

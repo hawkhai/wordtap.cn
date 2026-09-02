@@ -1,0 +1,151 @@
+{
+  "schemaVersion": 1,
+  "id": "nce2-077",
+  "bookId": "nce2",
+  "bookNo": 2,
+  "lessonNo": 77,
+  "lessonRange": [
+    77
+  ],
+  "title": "A Successful Operation",
+  "titleZh": "成功的手术",
+  "question": "Did the doctors find out how the woman died?",
+  "questionZh": "医生们查明这名妇女的死因了吗？",
+  "text": "Did the doctors find out how the woman died?\n\nThe mummy of an Egyptian woman who died in 800 B.C. has just had an operation.\nThe mummy is that of Shepenmut who was once a singer in the Temple of Thebes.\nAs there were strange marks on the X-ray plates taken of the mummy, doctors have been trying to find out whether the woman died of a rare disease.\nThe only way to do this was to operate.\nThe operation, which lasted for over four hours, proved to be very difficult because of the hard resin which covered the skin.\nThe doctors removed a section of the mummy and sent it to a laboratory.\nThey also found something which the X-ray plates did not show: a small wax figure of the god Duamutef.\nThis god which has the head of a cow was normally placed inside a mummy.\nThe doctors have not yet decided how the woman died.\nThey feared that the mummy would fall to pieces when they cut it open, but fortunately this has not happened.\nThe mummy successfully survived the operation.",
+  "bodyText": "The mummy of an Egyptian woman who died in 800 B.C. has just had an operation.\nThe mummy is that of Shepenmut who was once a singer in the Temple of Thebes.\nAs there were strange marks on the X-ray plates taken of the mummy, doctors have been trying to find out whether the woman died of a rare disease.\nThe only way to do this was to operate.\nThe operation, which lasted for over four hours, proved to be very difficult because of the hard resin which covered the skin.\nThe doctors removed a section of the mummy and sent it to a laboratory.\nThey also found something which the X-ray plates did not show: a small wax figure of the god Duamutef.\nThis god which has the head of a cow was normally placed inside a mummy.\nThe doctors have not yet decided how the woman died.\nThey feared that the mummy would fall to pieces when they cut it open, but fortunately this has not happened.\nThe mummy successfully survived the operation.",
+  "bodyTextZh": "这位埃及女性的木乃伊（她死于公元前800年）刚刚接受了一次手术。\n这具木乃伊属于谢彭穆特（Shepenmut），她曾经是底比斯神庙中的一名歌手。\n由于在拍摄木乃伊的X光片上发现了奇怪的痕迹，医生们一直在试图确定这名女性是否死于一种罕见的疾病。\n唯一的方法就是进行手术。\n这次手术持续了四个多小时。由于皮肤上覆盖着一层坚硬的树脂，手术被证明非常困难。\n医生们取下木乃伊的一部分，把它送到了实验室。\n他们还发现了一些X光片未能显示的东西：一个微小的、用蜡制成的杜阿穆特夫神像。\n这个长着牛头的神像通常被放置在木乃伊的体内。\n医生们尚未确定这名妇女的死因。\n他们担心在打开木乃伊时，木乃伊会碎成碎片。但幸运的是，这种情况并没有发生。\n这具木乃伊成功度过了手术。",
+  "sentences": [
+    {
+      "index": 0,
+      "startTime": 0.5,
+      "endTime": 3,
+      "en": "Lesson 77",
+      "zh": "第77课",
+      "role": "lesson"
+    },
+    {
+      "index": 1,
+      "startTime": 3,
+      "endTime": 10.98,
+      "en": "A Successful Operation",
+      "zh": "成功的手术",
+      "role": "title"
+    },
+    {
+      "index": 2,
+      "startTime": 10.98,
+      "endTime": 16.55,
+      "en": "Did the doctors find out how the woman died?",
+      "zh": "医生们查明这名妇女的死因了吗？",
+      "role": "question"
+    },
+    {
+      "index": 3,
+      "startTime": 16.55,
+      "endTime": 25.14,
+      "en": "The mummy of an Egyptian woman who died in 800 B.C. has just had an operation.",
+      "zh": "这位埃及女性的木乃伊（她死于公元前800年）刚刚接受了一次手术。",
+      "role": "body"
+    },
+    {
+      "index": 4,
+      "startTime": 25.14,
+      "endTime": 32.44,
+      "en": "The mummy is that of Shepenmut who was once a singer in the Temple of Thebes.",
+      "zh": "这具木乃伊属于谢彭穆特（Shepenmut），她曾经是底比斯神庙中的一名歌手。",
+      "role": "body"
+    },
+    {
+      "index": 5,
+      "startTime": 32.44,
+      "endTime": 44.92,
+      "en": "As there were strange marks on the X-ray plates taken of the mummy, doctors have been trying to find out whether the woman died of a rare disease.",
+      "zh": "由于在拍摄木乃伊的X光片上发现了奇怪的痕迹，医生们一直在试图确定这名女性是否死于一种罕见的疾病。",
+      "role": "body"
+    },
+    {
+      "index": 6,
+      "startTime": 44.92,
+      "endTime": 49.6,
+      "en": "The only way to do this was to operate.",
+      "zh": "唯一的方法就是进行手术。",
+      "role": "body"
+    },
+    {
+      "index": 7,
+      "startTime": 49.6,
+      "endTime": 60.89,
+      "en": "The operation, which lasted for over four hours, proved to be very difficult because of the hard resin which covered the skin.",
+      "zh": "这次手术持续了四个多小时。由于皮肤上覆盖着一层坚硬的树脂，手术被证明非常困难。",
+      "role": "body"
+    },
+    {
+      "index": 8,
+      "startTime": 60.89,
+      "endTime": 66.75,
+      "en": "The doctors removed a section of the mummy and sent it to a laboratory.",
+      "zh": "医生们取下木乃伊的一部分，把它送到了实验室。",
+      "role": "body"
+    },
+    {
+      "index": 9,
+      "startTime": 66.75,
+      "endTime": 77.1,
+      "en": "They also found something which the X-ray plates did not show: a small wax figure of the god Duamutef.",
+      "zh": "他们还发现了一些X光片未能显示的东西：一个微小的、用蜡制成的杜阿穆特夫神像。",
+      "role": "body"
+    },
+    {
+      "index": 10,
+      "startTime": 77.1,
+      "endTime": 83.78,
+      "en": "This god which has the head of a cow was normally placed inside a mummy.",
+      "zh": "这个长着牛头的神像通常被放置在木乃伊的体内。",
+      "role": "body"
+    },
+    {
+      "index": 11,
+      "startTime": 83.78,
+      "endTime": 88.9,
+      "en": "The doctors have not yet decided how the woman died.",
+      "zh": "医生们尚未确定这名妇女的死因。",
+      "role": "body"
+    },
+    {
+      "index": 12,
+      "startTime": 88.9,
+      "endTime": 97.77,
+      "en": "They feared that the mummy would fall to pieces when they cut it open, but fortunately this has not happened.",
+      "zh": "他们担心在打开木乃伊时，木乃伊会碎成碎片。但幸运的是，这种情况并没有发生。",
+      "role": "body"
+    },
+    {
+      "index": 13,
+      "startTime": 97.77,
+      "endTime": null,
+      "en": "The mummy successfully survived the operation.",
+      "zh": "这具木乃伊成功度过了手术。",
+      "role": "body"
+    }
+  ],
+  "audio": {
+    "fileName": "77－A Successful Operation.mp3",
+    "sourcePath": "content/NCE-Flow/NCE2/77－A Successful Operation.mp3",
+    "exists": true
+  },
+  "source": {
+    "repository": "NCE-Flow",
+    "lrcFileName": "77－A Successful Operation.lrc",
+    "lrcPath": "content/NCE-Flow/NCE2/77－A Successful Operation.lrc",
+    "sourceDataFile": "content/NCE-Flow/static/data.json",
+    "generatedAt": "2026-07-23T02:59:02+00:00",
+    "generator": "scripts/generate_nce_json.py",
+    "generatorVersion": "2.0.0",
+    "metadata": {
+      "al": "新概念英语（二）",
+      "ar": "MP3 同步字幕版（美音）",
+      "ti": "A Successful Operation",
+      "by": "更多学习内容，请到VeryCD.com搜索“露珠”"
+    }
+  }
+}

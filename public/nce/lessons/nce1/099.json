@@ -1,0 +1,200 @@
+{
+  "schemaVersion": 1,
+  "id": "nce1-099",
+  "bookId": "nce1",
+  "bookNo": 1,
+  "lessonNo": 99,
+  "lessonRange": [
+    99,
+    100
+  ],
+  "title": "Ow",
+  "titleZh": "哎哟！",
+  "question": "Must Andy go to see the doctor?",
+  "questionZh": "安迪必须去看医生吗？",
+  "text": "Must Andy go to see the doctor?\n\nOw!\nWhat's the matter, Andy?\nI slipped and fell downstairs.\nHave you hurt yourself?\nYes, I have.\nI think that I've hurt my back.\nTry and stand up.\nCan you stand up?\nHere.\nLet me help you.\nI'm sorry, Lucy.\nI'm afraid that I can't get up.\nI think that the doctor had better see you.\nI'll phone Dr. Carter.\nThe doctor says that he will come at once.\nI'm sure that you need an X-ray, Andy.",
+  "bodyText": "Ow!\nWhat's the matter, Andy?\nI slipped and fell downstairs.\nHave you hurt yourself?\nYes, I have.\nI think that I've hurt my back.\nTry and stand up.\nCan you stand up?\nHere.\nLet me help you.\nI'm sorry, Lucy.\nI'm afraid that I can't get up.\nI think that the doctor had better see you.\nI'll phone Dr. Carter.\nThe doctor says that he will come at once.\nI'm sure that you need an X-ray, Andy.",
+  "bodyTextZh": "哎哟！\n怎么了，安迪？\n我在楼梯上滑倒了。\n你受伤了吗？\n是的，我受伤了。\n我觉得我的背部受了伤。\n试着站起来吧。\n你能站起来吗？\n给你。\n让我来帮你吧。\n对不起，露西。\n恐怕我站不起来了。\n我觉得医生最好还是来看看你。\n我会给卡特医生打电话。\n医生说他会立刻过来。\n我肯定你需要做一次X光检查，安迪。",
+  "sentences": [
+    {
+      "index": 0,
+      "startTime": 0.65,
+      "endTime": 2.85,
+      "en": "Lesson 99",
+      "zh": "第99课",
+      "role": "lesson"
+    },
+    {
+      "index": 1,
+      "startTime": 2.85,
+      "endTime": 4.74,
+      "en": "Ow!",
+      "zh": "哎哟！",
+      "role": "title"
+    },
+    {
+      "index": 2,
+      "startTime": 4.74,
+      "endTime": 10.49,
+      "en": "Listen to the tape then answer this question.",
+      "zh": "先听一下录音，然后回答这个问题：",
+      "role": "prompt"
+    },
+    {
+      "index": 3,
+      "startTime": 10.49,
+      "endTime": 15.56,
+      "en": "Must Andy go to see the doctor?",
+      "zh": "安迪必须去看医生吗？",
+      "role": "question"
+    },
+    {
+      "index": 4,
+      "startTime": 15.56,
+      "endTime": 17.05,
+      "en": "Ow!",
+      "zh": "哎哟！",
+      "role": "body"
+    },
+    {
+      "index": 5,
+      "startTime": 17.05,
+      "endTime": 20.06,
+      "en": "What's the matter, Andy?",
+      "zh": "怎么了，安迪？",
+      "role": "body"
+    },
+    {
+      "index": 6,
+      "startTime": 20.06,
+      "endTime": 23.62,
+      "en": "I slipped and fell downstairs.",
+      "zh": "我在楼梯上滑倒了。",
+      "role": "body"
+    },
+    {
+      "index": 7,
+      "startTime": 23.62,
+      "endTime": 26.46,
+      "en": "Have you hurt yourself?",
+      "zh": "你受伤了吗？",
+      "role": "body"
+    },
+    {
+      "index": 8,
+      "startTime": 26.46,
+      "endTime": 28.48,
+      "en": "Yes, I have.",
+      "zh": "是的，我受伤了。",
+      "role": "body"
+    },
+    {
+      "index": 9,
+      "startTime": 28.48,
+      "endTime": 32.54,
+      "en": "I think that I've hurt my back.",
+      "zh": "我觉得我的背部受了伤。",
+      "role": "body"
+    },
+    {
+      "index": 10,
+      "startTime": 32.54,
+      "endTime": 35.29,
+      "en": "Try and stand up.",
+      "zh": "试着站起来吧。",
+      "role": "body"
+    },
+    {
+      "index": 11,
+      "startTime": 35.29,
+      "endTime": 37.45,
+      "en": "Can you stand up?",
+      "zh": "你能站起来吗？",
+      "role": "body"
+    },
+    {
+      "index": 12,
+      "startTime": 37.45,
+      "endTime": 38.53,
+      "en": "Here.",
+      "zh": "给你。",
+      "role": "body"
+    },
+    {
+      "index": 13,
+      "startTime": 38.53,
+      "endTime": 41.51,
+      "en": "Let me help you.",
+      "zh": "让我来帮你吧。",
+      "role": "body"
+    },
+    {
+      "index": 14,
+      "startTime": 41.51,
+      "endTime": 43.99,
+      "en": "I'm sorry, Lucy.",
+      "zh": "对不起，露西。",
+      "role": "body"
+    },
+    {
+      "index": 15,
+      "startTime": 43.99,
+      "endTime": 48.04,
+      "en": "I'm afraid that I can't get up.",
+      "zh": "恐怕我站不起来了。",
+      "role": "body"
+    },
+    {
+      "index": 16,
+      "startTime": 48.04,
+      "endTime": 52.97,
+      "en": "I think that the doctor had better see you.",
+      "zh": "我觉得医生最好还是来看看你。",
+      "role": "body"
+    },
+    {
+      "index": 17,
+      "startTime": 52.97,
+      "endTime": 56.97,
+      "en": "I'll phone Dr. Carter.",
+      "zh": "我会给卡特医生打电话。",
+      "role": "body"
+    },
+    {
+      "index": 18,
+      "startTime": 56.97,
+      "endTime": 61.83,
+      "en": "The doctor says that he will come at once.",
+      "zh": "医生说他会立刻过来。",
+      "role": "body"
+    },
+    {
+      "index": 19,
+      "startTime": 61.83,
+      "endTime": null,
+      "en": "I'm sure that you need an X-ray, Andy.",
+      "zh": "我肯定你需要做一次X光检查，安迪。",
+      "role": "body"
+    }
+  ],
+  "audio": {
+    "fileName": "099&100－Ow.mp3",
+    "sourcePath": "content/NCE-Flow/NCE1/099&100－Ow.mp3",
+    "exists": true
+  },
+  "source": {
+    "repository": "NCE-Flow",
+    "lrcFileName": "099&100－Ow.lrc",
+    "lrcPath": "content/NCE-Flow/NCE1/099&100－Ow.lrc",
+    "sourceDataFile": "content/NCE-Flow/static/data.json",
+    "generatedAt": "2026-07-23T02:59:02+00:00",
+    "generator": "scripts/generate_nce_json.py",
+    "generatorVersion": "2.0.0",
+    "metadata": {
+      "al": "新概念英语（一）",
+      "ar": "MP3 同步字幕版（美音）",
+      "ti": "Ow!",
+      "by": "更多学习内容，请到VeryCD.com搜索“露珠”"
+    }
+  }
+}

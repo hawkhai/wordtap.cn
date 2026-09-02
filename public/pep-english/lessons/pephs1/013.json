@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "id": "pephs1-013",
+  "groupId": "pephs1",
+  "unitNo": 4,
+  "sequenceNo": 13,
+  "section": "Using Language",
+  "title": "How Do I Know My Students?",
+  "jsonPath": "pep-english/lessons/pephs1/013.json",
+  "text": "As an educator, people often ask me how I know what is going on in the minds of my students. Many students are quite shy and don’t speak all that much. At the same time, in a classroom of more than forty students, it is hard to have many one-on-one conversations with each person. So, how can I really know what makes each student tick?\nMy answer? I look at their body language.\nIt is easy to recognise when students are interested in a lesson. Most tend to look up and make eye contact. When I make a joke, they smile. When I talk about something difficult, they look confused. I know when students are really interested, however, because they lean forward and look at me. People have a tendency to lean towards whatever they are interested in. So if a student has his head lowered to look at his watch, it implies he is bored and just counting the minutes for the class to end. If two friends are leaning their heads together, they are probably writing notes to each other. Of course, not everyone who looks up is paying attention in class. Some students look up, but there is an absence of eye contact. Their eyes barely move, and they always have the same distant expression on their faces. It is as though they are asleep with their eyes open.\nSome students are amused by something else. They spend all their time looking anywhere but at me. Then again, some students’ favourite activity is daydreaming. With their chins on their hands, they occupy themselves by staring out of the window or up at the ceiling. They are certainly interested in something, but who knows what. The main thing is reminding distracted students that they need to pay attention in class.\nWhile it is easy to perceive when students are interested, bored, or distracted, it is sometimes much harder to distinguish when students are troubled. Students who are angry, afraid, or experiencing anxiety may have their arms crossed in front of their chests and their legs closed or crossed, like they are guarding their bodies. Students who are sad or worried will nearly always wear a frown. They may also hide their faces in their hands like they are embarrassed or ashamed. Some students act this way merely because they are afraid of being called on by the teacher. However, if a student does not bother to brush her hair and her eyes are red from weeping, then I can infer that there are deeper issues at work. It could be that she is having serious conflicts with other students or at home.\nWhatever it is, I know I need to inquire and assess what is going on.\nUltimately, my duty is helping every student to learn. Their body language lets me know when to adjust class activities, when to intervene, and when to talk to students individually, so they can all get the most out of school. Reacting to body language is an important component of being a teacher.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "As an educator, people often ask me how I know what is going on in the minds of my students. Many students are quite shy and don’t speak all that much. At the same time, in a classroom of more than forty students, it is hard to have many one-on-one conversations with each person. So, how can I really know what makes each student tick?"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "My answer? I look at their body language."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "It is easy to recognise when students are interested in a lesson. Most tend to look up and make eye contact. When I make a joke, they smile. When I talk about something difficult, they look confused. I know when students are really interested, however, because they lean forward and look at me. People have a tendency to lean towards whatever they are interested in. So if a student has his head lowered to look at his watch, it implies he is bored and just counting the minutes for the class to end. If two friends are leaning their heads together, they are probably writing notes to each other. Of course, not everyone who looks up is paying attention in class. Some students look up, but there is an absence of eye contact. Their eyes barely move, and they always have the same distant expression on their faces. It is as though they are asleep with their eyes open."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Some students are amused by something else. They spend all their time looking anywhere but at me. Then again, some students’ favourite activity is daydreaming. With their chins on their hands, they occupy themselves by staring out of the window or up at the ceiling. They are certainly interested in something, but who knows what. The main thing is reminding distracted students that they need to pay attention in class."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "While it is easy to perceive when students are interested, bored, or distracted, it is sometimes much harder to distinguish when students are troubled. Students who are angry, afraid, or experiencing anxiety may have their arms crossed in front of their chests and their legs closed or crossed, like they are guarding their bodies. Students who are sad or worried will nearly always wear a frown. They may also hide their faces in their hands like they are embarrassed or ashamed. Some students act this way merely because they are afraid of being called on by the teacher. However, if a student does not bother to brush her hair and her eyes are red from weeping, then I can infer that there are deeper issues at work. It could be that she is having serious conflicts with other students or at home."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Whatever it is, I know I need to inquire and assess what is going on."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Ultimately, my duty is helping every student to learn. Their body language lets me know when to adjust class activities, when to intervene, and when to talk to students individually, so they can all get the most out of school. Reacting to body language is an important component of being a teacher."
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "选择性必修第一册",
+    "pageStart": 51,
+    "pageEnd": 51,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "f19c4231e96ee3a9c769533d676f1106",
+    "pdfSize": 12809514,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/senior-selective-1.pdf#page=51",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored the complete seven-paragraph teacher reflection in its printed single-page order, including the two short transition paragraphs in the right column; excluded the photograph and running furniture, and confirmed page 52 begins only follow-up activities."
+    }
+  }
+}

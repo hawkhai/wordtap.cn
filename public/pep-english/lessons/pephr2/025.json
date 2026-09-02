@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "pephr2-025",
+  "groupId": "pephr2",
+  "unitNo": 4,
+  "sequenceNo": 25,
+  "section": "Expanding Your World",
+  "title": "Samovar—the Special Teapot",
+  "jsonPath": "pep-english/lessons/pephr2/025.json",
+  "text": "Hello, my speech today is about a very special teapot—the samovar! It's a traditional Russian water boiler that can also brew tea. It played a big part in Russian history and was a central part of Russian family life for a very long time. I know this because there is a very old samovar in my home that we treasure dearly. It belonged to my great-grandmother's great-grandmother, and the story of how she bought it has been passed down from generation to generation along with the samovar. So let me tell you how this samovar became part of our family.\nAlmost 200 years ago, my great-grandmother's great-grandmother was trying to survive yet another freezing Russian winter when she heard about a new invention called a “samovar”, which means “self-boiler” in Russian. In her family, they could only boil water on their big stove. The new samovar could make hot water much easier and could be transported anywhere, not to mention that it required much less fuel. Although they were poor, they decided to use their savings to invest in a samovar. So early one cold winter morning, she set out to a distant town. After four hours of struggling through snow, she found the town and quickly bundled her new samovar into her sack and hurried home. The samovar was then proudly placed in her main room and has been in use by my family ever since.\nThe samovar tea-making process is quite special and has two stages. First, a teapot containing lots of tea leaves and a little water is placed on top of the samovar. As the samovar heats up, the teapot begins to produce a strong tea concentrate. Next, the tea concentrate is poured into cups, after which water from inside the samovar is added by using the tap. In contrast to special tea ceremonies that can be found in countries like China, the samovar is much less reserved and is traditionally enjoyed with a few sweet snacks. This is a little similar to the British tradition of an informal cup of tea served with snacks. However, with the samovar, tea is usually taken without milk, and sugar is not placed in the cup but rather in the drinker's mouth, to be slowly melted away by the warm tea.\nIn closing, in my opinion, regardless of how it is made, one thing is for sure: Tea makes the world go round! Invented in China, it breaks through cultural barriers and provides great relief after a hard day's work. Every time we have a special occasion in my family, out comes the family samovar. The samovar symbolises happiness, and that's one thing that I want to keep in my family forever!",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Hello, my speech today is about a very special teapot—the samovar! It's a traditional Russian water boiler that can also brew tea. It played a big part in Russian history and was a central part of Russian family life for a very long time. I know this because there is a very old samovar in my home that we treasure dearly. It belonged to my great-grandmother's great-grandmother, and the story of how she bought it has been passed down from generation to generation along with the samovar. So let me tell you how this samovar became part of our family."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Almost 200 years ago, my great-grandmother's great-grandmother was trying to survive yet another freezing Russian winter when she heard about a new invention called a “samovar”, which means “self-boiler” in Russian. In her family, they could only boil water on their big stove. The new samovar could make hot water much easier and could be transported anywhere, not to mention that it required much less fuel. Although they were poor, they decided to use their savings to invest in a samovar. So early one cold winter morning, she set out to a distant town. After four hours of struggling through snow, she found the town and quickly bundled her new samovar into her sack and hurried home. The samovar was then proudly placed in her main room and has been in use by my family ever since."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "The samovar tea-making process is quite special and has two stages. First, a teapot containing lots of tea leaves and a little water is placed on top of the samovar. As the samovar heats up, the teapot begins to produce a strong tea concentrate. Next, the tea concentrate is poured into cups, after which water from inside the samovar is added by using the tap. In contrast to special tea ceremonies that can be found in countries like China, the samovar is much less reserved and is traditionally enjoyed with a few sweet snacks. This is a little similar to the British tradition of an informal cup of tea served with snacks. However, with the samovar, tea is usually taken without milk, and sugar is not placed in the cup but rather in the drinker's mouth, to be slowly melted away by the warm tea."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "In closing, in my opinion, regardless of how it is made, one thing is for sure: Tea makes the world go round! Invented in China, it breaks through cultural barriers and provides great relief after a hard day's work. Every time we have a special occasion in my family, out comes the family samovar. The samovar symbolises happiness, and that's one thing that I want to keep in my family forever!"
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "必修第二册",
+    "pageStart": 91,
+    "pageEnd": 91,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "38d49874e4f015fd89f21c9306f6b9d5",
+    "pdfSize": 14270612,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/senior-required-2.pdf#page=91",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored the complete four-paragraph contest speech from its opening through the closing statement; verified the text around the photograph and excluded the contest introduction and image."
+    }
+  }
+}

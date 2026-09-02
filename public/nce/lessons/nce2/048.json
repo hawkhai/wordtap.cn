@@ -1,0 +1,143 @@
+{
+  "schemaVersion": 1,
+  "id": "nce2-048",
+  "bookId": "nce2",
+  "bookNo": 2,
+  "lessonNo": 48,
+  "lessonRange": [
+    48
+  ],
+  "title": "Did You Want to Tell Me Something",
+  "titleZh": "你想告诉我什么吗？",
+  "question": "Why did the writer become very worried?",
+  "questionZh": "为什么作者会变得非常担心呢？",
+  "text": "Why did the writer become very worried?\n\nDentists always ask questions when it is impossible for you to answer.\nMy dentist had just pulled out one of my teeth and had told me to rest for a while.\nI tried to say something, but my mouth was full of cotton wool.\nHe knew I collected match boxes and asked me whether my collection was growing.\nHe then asked me how my brother was and whether I liked my new job in London.\nIn answer to these questions I either nodded or made strange noises.\nMeanwhile, my tongue was busy searching out the hole where the tooth had been.\nI suddenly felt very worried, but could not say anything.\nWhen the dentist at last removed the cotton wool from my mouth,\nI was able to tell him that he had pulled out the wrong tooth.",
+  "bodyText": "Dentists always ask questions when it is impossible for you to answer.\nMy dentist had just pulled out one of my teeth and had told me to rest for a while.\nI tried to say something, but my mouth was full of cotton wool.\nHe knew I collected match boxes and asked me whether my collection was growing.\nHe then asked me how my brother was and whether I liked my new job in London.\nIn answer to these questions I either nodded or made strange noises.\nMeanwhile, my tongue was busy searching out the hole where the tooth had been.\nI suddenly felt very worried, but could not say anything.\nWhen the dentist at last removed the cotton wool from my mouth,\nI was able to tell him that he had pulled out the wrong tooth.",
+  "bodyTextZh": "牙医总是在你无法回答问题的时候提问。\n我的牙医刚刚拔掉了我的一颗牙齿，然后让我休息一会儿。\n我试图说些什么，但我的嘴里塞满了棉花。\n他知道我收集火柴盒，便问我收藏的火柴盒是不是越来越多了。\n接着他又问我弟弟的情况，以及我是否喜欢在伦敦的新工作。\n对于这些问题，我只能点头或者发出一些奇怪的声音作为回答。\n与此同时，我的舌头不停地探寻着那颗牙齿被拔掉后留下的窟窿。\n我突然感到非常担心，但却什么也说不出来。\n直到牙医终于把嘴里的棉花取出来，\n我才告诉他，他拔错了牙齿。",
+  "sentences": [
+    {
+      "index": 0,
+      "startTime": 0.5,
+      "endTime": 3,
+      "en": "Lesson 48",
+      "zh": "第48课",
+      "role": "lesson"
+    },
+    {
+      "index": 1,
+      "startTime": 3,
+      "endTime": 12.07,
+      "en": "Did You Want to Tell Me Something",
+      "zh": "你想告诉我什么吗？",
+      "role": "title"
+    },
+    {
+      "index": 2,
+      "startTime": 12.07,
+      "endTime": 17.48,
+      "en": "Why did the writer become very worried?",
+      "zh": "为什么作者会变得非常担心呢？",
+      "role": "question"
+    },
+    {
+      "index": 3,
+      "startTime": 17.48,
+      "endTime": 25,
+      "en": "Dentists always ask questions when it is impossible for you to answer.",
+      "zh": "牙医总是在你无法回答问题的时候提问。",
+      "role": "body"
+    },
+    {
+      "index": 4,
+      "startTime": 25,
+      "endTime": 32.31,
+      "en": "My dentist had just pulled out one of my teeth and had told me to rest for a while.",
+      "zh": "我的牙医刚刚拔掉了我的一颗牙齿，然后让我休息一会儿。",
+      "role": "body"
+    },
+    {
+      "index": 5,
+      "startTime": 32.31,
+      "endTime": 38.4,
+      "en": "I tried to say something, but my mouth was full of cotton wool.",
+      "zh": "我试图说些什么，但我的嘴里塞满了棉花。",
+      "role": "body"
+    },
+    {
+      "index": 6,
+      "startTime": 38.4,
+      "endTime": 44.89,
+      "en": "He knew I collected match boxes and asked me whether my collection was growing.",
+      "zh": "他知道我收集火柴盒，便问我收藏的火柴盒是不是越来越多了。",
+      "role": "body"
+    },
+    {
+      "index": 7,
+      "startTime": 44.89,
+      "endTime": 52.98,
+      "en": "He then asked me how my brother was and whether I liked my new job in London.",
+      "zh": "接着他又问我弟弟的情况，以及我是否喜欢在伦敦的新工作。",
+      "role": "body"
+    },
+    {
+      "index": 8,
+      "startTime": 52.98,
+      "endTime": 60.04,
+      "en": "In answer to these questions I either nodded or made strange noises.",
+      "zh": "对于这些问题，我只能点头或者发出一些奇怪的声音作为回答。",
+      "role": "body"
+    },
+    {
+      "index": 9,
+      "startTime": 60.04,
+      "endTime": 66.94,
+      "en": "Meanwhile, my tongue was busy searching out the hole where the tooth had been.",
+      "zh": "与此同时，我的舌头不停地探寻着那颗牙齿被拔掉后留下的窟窿。",
+      "role": "body"
+    },
+    {
+      "index": 10,
+      "startTime": 66.94,
+      "endTime": 73.52,
+      "en": "I suddenly felt very worried, but could not say anything.",
+      "zh": "我突然感到非常担心，但却什么也说不出来。",
+      "role": "body"
+    },
+    {
+      "index": 11,
+      "startTime": 73.52,
+      "endTime": 78.76,
+      "en": "When the dentist at last removed the cotton wool from my mouth,",
+      "zh": "直到牙医终于把嘴里的棉花取出来，",
+      "role": "body"
+    },
+    {
+      "index": 12,
+      "startTime": 78.76,
+      "endTime": null,
+      "en": "I was able to tell him that he had pulled out the wrong tooth.",
+      "zh": "我才告诉他，他拔错了牙齿。",
+      "role": "body"
+    }
+  ],
+  "audio": {
+    "fileName": "48－Did You Want to Tell Me Something.mp3",
+    "sourcePath": "content/NCE-Flow/NCE2/48－Did You Want to Tell Me Something.mp3",
+    "exists": true
+  },
+  "source": {
+    "repository": "NCE-Flow",
+    "lrcFileName": "48－Did You Want to Tell Me Something.lrc",
+    "lrcPath": "content/NCE-Flow/NCE2/48－Did You Want to Tell Me Something.lrc",
+    "sourceDataFile": "content/NCE-Flow/static/data.json",
+    "generatedAt": "2026-07-23T02:59:02+00:00",
+    "generator": "scripts/generate_nce_json.py",
+    "generatorVersion": "2.0.0",
+    "metadata": {
+      "al": "新概念英语（二）",
+      "ar": "MP3 同步字幕版（美音）",
+      "ti": "Did You Want to Tell Me Something?",
+      "by": "更多学习内容，请到VeryCD.com搜索“露珠”"
+    }
+  }
+}

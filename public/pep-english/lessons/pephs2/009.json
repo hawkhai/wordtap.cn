@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "id": "pephs2-009",
+  "groupId": "pephs2",
+  "unitNo": 2,
+  "sequenceNo": 9,
+  "section": "Using Language",
+  "title": "Studying Abroad: The Advantages Are Much Greater",
+  "jsonPath": "pep-english/lessons/pephs2/009.json",
+  "text": "Dear Editor,\nIs studying abroad a good idea or not? There are certainly disadvantages, but in my opinion, the advantages are much greater. As I always tell my son, there are no great difficulties for a person who is brave, optimistic, and willing to work hard!\nThe first advantage of studying abroad is personal growth. The education you gain and the experiences you have will change you for the better. For example, you will certainly become more independent because you will have to deal with all kinds of difficulties by yourself. Studying abroad also helps you to gain a global perspective and improve your general competence.\nAnother advantage is the increased chance for cultural exchange. Chinese students can be seen as cultural envoys promoting friendship between nations. International students in China also bring their colourful cultures here. Cooperating with people from diverse cultural backgrounds helps us view the world from different angles and thus gives us more insight into our own culture.\nFinally, studying abroad provides a great opportunity to contribute to the development of our motherland. China’s global outlook, with projects such as the Belt and Road Initiative, has helped us make connections across the world. Therefore, China needs more talented young people with a global perspective who are highly competent with languages, have leadership and organisational skills, and have strong cultural awareness. Students who study abroad will develop such skills and abilities, and these in turn will provide them with better career opportunities.\nAll in all, studying abroad helps to build character and increase people’s understanding of cultural diversity while strengthening China and building a shared future for all. I think this life-changing experience is certainly worthwhile, and I hope my child will study abroad in the future.\nSincerely yours,\nZhang Yi (father of one boy)",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Dear Editor,"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Is studying abroad a good idea or not? There are certainly disadvantages, but in my opinion, the advantages are much greater. As I always tell my son, there are no great difficulties for a person who is brave, optimistic, and willing to work hard!"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "The first advantage of studying abroad is personal growth. The education you gain and the experiences you have will change you for the better. For example, you will certainly become more independent because you will have to deal with all kinds of difficulties by yourself. Studying abroad also helps you to gain a global perspective and improve your general competence."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Another advantage is the increased chance for cultural exchange. Chinese students can be seen as cultural envoys promoting friendship between nations. International students in China also bring their colourful cultures here. Cooperating with people from diverse cultural backgrounds helps us view the world from different angles and thus gives us more insight into our own culture."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Finally, studying abroad provides a great opportunity to contribute to the development of our motherland. China’s global outlook, with projects such as the Belt and Road Initiative, has helped us make connections across the world. Therefore, China needs more talented young people with a global perspective who are highly competent with languages, have leadership and organisational skills, and have strong cultural awareness. Students who study abroad will develop such skills and abilities, and these in turn will provide them with better career opportunities."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "All in all, studying abroad helps to build character and increase people’s understanding of cultural diversity while strengthening China and building a shared future for all. I think this life-changing experience is certainly worthwhile, and I hope my child will study abroad in the future."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Sincerely yours,"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Zhang Yi (father of one boy)"
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "选择性必修第二册",
+    "pageStart": 27,
+    "pageEnd": 27,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "1a701f2205298de95ea59cfc71eb83cd",
+    "pdfSize": 9968316,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/senior-selective-2.pdf#page=27",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored Zhang Yi's complete eight-block letter arguing that the advantages of studying abroad are much greater, including salutation and signature; followed the right column only.",
+      "splitBaselineId": "pephs2-013",
+      "splitIndex": 2,
+      "splitCount": 2
+    }
+  }
+}

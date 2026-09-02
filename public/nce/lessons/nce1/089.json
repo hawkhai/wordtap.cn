@@ -1,0 +1,240 @@
+{
+  "schemaVersion": 1,
+  "id": "nce1-089",
+  "bookId": "nce1",
+  "bookNo": 1,
+  "lessonNo": 89,
+  "lessonRange": [
+    89,
+    90
+  ],
+  "title": "For Sale",
+  "titleZh": "待售",
+  "question": "Why couldn't Nigel decide?",
+  "questionZh": "为什么尼格尔无法做出决定？",
+  "text": "Why couldn't Nigel decide?\n\nGood afternoon.\nI believe that this house is for sale.\nThat's right.\nMay I have a look at it, please?\nYes, of course.\nCome in.\nHow long have you lived here?\nI've lived here for twenty years.\nTwenty years!\nThat's a long time.\nYes, I've been here since 1976.\nThen why do you want to sell it?\nBecause I've just retired.\nI want to buy a small house in the country.\nHow much does this house cost?\n￡68, 500.\nThat's a lot of money!\nIt's worth every penny of it.\nWell, I like the house, but I can't decide yet.\nMy wife must see it first.\nWomen always have the last word.",
+  "bodyText": "Good afternoon.\nI believe that this house is for sale.\nThat's right.\nMay I have a look at it, please?\nYes, of course.\nCome in.\nHow long have you lived here?\nI've lived here for twenty years.\nTwenty years!\nThat's a long time.\nYes, I've been here since 1976.\nThen why do you want to sell it?\nBecause I've just retired.\nI want to buy a small house in the country.\nHow much does this house cost?\n￡68, 500.\nThat's a lot of money!\nIt's worth every penny of it.\nWell, I like the house, but I can't decide yet.\nMy wife must see it first.\nWomen always have the last word.",
+  "bodyTextZh": "下午好。\n我认为这栋房子正在出售。\n没错。\n我可以看看吗？\n当然可以，请进来。\n请进。\n您在这里住了多久？\n我在这里已经住了二十年。\n二十年了！\n那真是很长的时间啊。\n是的，我从1976年就住在这里了。\n那你为什么想卖掉它呢？\n因为我刚刚退休了。\n我想在乡下买一座小房子。\n这房子多少钱？\n68,500英镑。\n那可是一大笔钱啊！\n不过这笔钱花得很值。\n嗯，我很喜欢这房子，但我还没决定下来。\n我得先让我妻子看看才行。\n女人总是有最终发言权。",
+  "sentences": [
+    {
+      "index": 0,
+      "startTime": 0.6,
+      "endTime": 2.99,
+      "en": "Lesson 89",
+      "zh": "第89课",
+      "role": "lesson"
+    },
+    {
+      "index": 1,
+      "startTime": 2.99,
+      "endTime": 5.46,
+      "en": "For sale",
+      "zh": "待售",
+      "role": "title"
+    },
+    {
+      "index": 2,
+      "startTime": 5.46,
+      "endTime": 11.2,
+      "en": "Listen to the tape then answer this question.",
+      "zh": "请先听这段录音，然后回答这个问题：",
+      "role": "prompt"
+    },
+    {
+      "index": 3,
+      "startTime": 11.2,
+      "endTime": 16.25,
+      "en": "Why couldn't Nigel decide?",
+      "zh": "为什么尼格尔无法做出决定？",
+      "role": "question"
+    },
+    {
+      "index": 4,
+      "startTime": 16.25,
+      "endTime": 18.36,
+      "en": "Good afternoon.",
+      "zh": "下午好。",
+      "role": "body"
+    },
+    {
+      "index": 5,
+      "startTime": 18.36,
+      "endTime": 22.74,
+      "en": "I believe that this house is for sale.",
+      "zh": "我认为这栋房子正在出售。",
+      "role": "body"
+    },
+    {
+      "index": 6,
+      "startTime": 22.74,
+      "endTime": 24.53,
+      "en": "That's right.",
+      "zh": "没错。",
+      "role": "body"
+    },
+    {
+      "index": 7,
+      "startTime": 24.53,
+      "endTime": 27.99,
+      "en": "May I have a look at it, please?",
+      "zh": "我可以看看吗？",
+      "role": "body"
+    },
+    {
+      "index": 8,
+      "startTime": 27.99,
+      "endTime": 29.74,
+      "en": "Yes, of course.",
+      "zh": "当然可以，请进来。",
+      "role": "body"
+    },
+    {
+      "index": 9,
+      "startTime": 29.74,
+      "endTime": 31.65,
+      "en": "Come in.",
+      "zh": "请进。",
+      "role": "body"
+    },
+    {
+      "index": 10,
+      "startTime": 31.65,
+      "endTime": 34.87,
+      "en": "How long have you lived here?",
+      "zh": "您在这里住了多久？",
+      "role": "body"
+    },
+    {
+      "index": 11,
+      "startTime": 34.87,
+      "endTime": 38.28,
+      "en": "I've lived here for twenty years.",
+      "zh": "我在这里已经住了二十年。",
+      "role": "body"
+    },
+    {
+      "index": 12,
+      "startTime": 38.28,
+      "endTime": 40.47,
+      "en": "Twenty years!",
+      "zh": "二十年了！",
+      "role": "body"
+    },
+    {
+      "index": 13,
+      "startTime": 40.47,
+      "endTime": 42.71,
+      "en": "That's a long time.",
+      "zh": "那真是很长的时间啊。",
+      "role": "body"
+    },
+    {
+      "index": 14,
+      "startTime": 42.71,
+      "endTime": 48.13,
+      "en": "Yes, I've been here since 1976.",
+      "zh": "是的，我从1976年就住在这里了。",
+      "role": "body"
+    },
+    {
+      "index": 15,
+      "startTime": 48.13,
+      "endTime": 51.82,
+      "en": "Then why do you want to sell it?",
+      "zh": "那你为什么想卖掉它呢？",
+      "role": "body"
+    },
+    {
+      "index": 16,
+      "startTime": 51.82,
+      "endTime": 54.68,
+      "en": "Because I've just retired.",
+      "zh": "因为我刚刚退休了。",
+      "role": "body"
+    },
+    {
+      "index": 17,
+      "startTime": 54.68,
+      "endTime": 60.22,
+      "en": "I want to buy a small house in the country.",
+      "zh": "我想在乡下买一座小房子。",
+      "role": "body"
+    },
+    {
+      "index": 18,
+      "startTime": 60.22,
+      "endTime": 63.85,
+      "en": "How much does this house cost?",
+      "zh": "这房子多少钱？",
+      "role": "body"
+    },
+    {
+      "index": 19,
+      "startTime": 63.85,
+      "endTime": 68.35,
+      "en": "￡68, 500.",
+      "zh": "68,500英镑。",
+      "role": "body"
+    },
+    {
+      "index": 20,
+      "startTime": 68.35,
+      "endTime": 70.89,
+      "en": "That's a lot of money!",
+      "zh": "那可是一大笔钱啊！",
+      "role": "body"
+    },
+    {
+      "index": 21,
+      "startTime": 70.89,
+      "endTime": 73.9,
+      "en": "It's worth every penny of it.",
+      "zh": "不过这笔钱花得很值。",
+      "role": "body"
+    },
+    {
+      "index": 22,
+      "startTime": 73.9,
+      "endTime": 80.43,
+      "en": "Well, I like the house, but I can't decide yet.",
+      "zh": "嗯，我很喜欢这房子，但我还没决定下来。",
+      "role": "body"
+    },
+    {
+      "index": 23,
+      "startTime": 80.43,
+      "endTime": 83.76,
+      "en": "My wife must see it first.",
+      "zh": "我得先让我妻子看看才行。",
+      "role": "body"
+    },
+    {
+      "index": 24,
+      "startTime": 83.76,
+      "endTime": null,
+      "en": "Women always have the last word.",
+      "zh": "女人总是有最终发言权。",
+      "role": "body"
+    }
+  ],
+  "audio": {
+    "fileName": "089&090－For Sale.mp3",
+    "sourcePath": "content/NCE-Flow/NCE1/089&090－For Sale.mp3",
+    "exists": true
+  },
+  "source": {
+    "repository": "NCE-Flow",
+    "lrcFileName": "089&090－For Sale.lrc",
+    "lrcPath": "content/NCE-Flow/NCE1/089&090－For Sale.lrc",
+    "sourceDataFile": "content/NCE-Flow/static/data.json",
+    "generatedAt": "2026-07-23T02:59:02+00:00",
+    "generator": "scripts/generate_nce_json.py",
+    "generatorVersion": "2.0.0",
+    "metadata": {
+      "al": "新概念英语（一）",
+      "ar": "MP3 同步字幕版（美音）",
+      "ti": "For Sale",
+      "by": "更多学习内容，请到VeryCD.com搜索“露珠”"
+    }
+  }
+}

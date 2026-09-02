@@ -1,0 +1,131 @@
+/* 移动端专属样式 — 仅在较小屏幕上生效 */
+/* 移动端标准断点：420px, 520px, 640px, 768px, 1023px */
+
+/* 420px: 超窄屏 logo/title 缩小 */
+@media (max-width: 420px) {
+  .brand-lockup {
+    gap: clamp(0.5rem, 2.5vw, 0.7rem);
+  }
+
+  .brand-lockup > div {
+    min-width: 0;
+  }
+
+  .brand-mark {
+    width: clamp(2.5rem, 12vw, 3rem);
+    height: clamp(2.5rem, 12vw, 3rem);
+  }
+
+  .brand-title {
+    font-size: clamp(1.55rem, 8vw, 1.9rem);
+  }
+}
+
+/* 520px: 下载栏精简 */
+@media (max-width: 520px) {
+  .study-top-download-inner {
+    min-height: 2.35rem;
+    flex-wrap: wrap;
+    gap: 0.2rem 0.4rem;
+    padding-block: 0.35rem;
+  }
+
+  .study-top-download-copy {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    line-height: 1.35;
+  }
+
+  .study-top-download-link {
+    min-height: 1.75rem;
+    font-size: 0.8rem;
+  }
+}
+
+/* 520px: 导航全宽、按钮缩小 */
+@media (max-width: 520px) {
+  .study-nav {
+    width: 100%;
+    max-width: none;
+  }
+
+  .study-nav-button {
+    min-height: 2.75rem;
+    padding-inline: 0.36rem;
+    font-size: 0.8rem;
+  }
+}
+
+/* 520px: IPA 网格紧凑 */
+@media (max-width: 520px) {
+  .ipa-grid {
+    grid-template-columns: repeat(auto-fill, minmax(4rem, 1fr));
+    gap: 0.45rem;
+  }
+
+  .ipa-card {
+    padding: 0.5rem 0.25rem;
+  }
+
+  .ipa-symbol {
+    font-size: 1.25rem;
+  }
+}
+
+/* 640px: 缓存工具竖排 */
+@media (max-width: 640px) {
+  .study-cache-tools {
+    align-items: stretch;
+    flex-direction: column;
+  }
+}
+
+/* 768px 以下: 复习行单列 */
+@media (max-width: 767px) {
+  .study-review-row {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .study-review-delete {
+    justify-self: start;
+  }
+}
+
+/* 1023px: 移动端单词卡片不挂住、不限高 */
+@media (max-width: 1023px) {
+  .study-word-card {
+    position: static;
+    max-height: none;
+    overflow: visible;
+  }
+
+  .study-meaning {
+    height: 9.75rem;
+    -webkit-line-clamp: 5;
+    display: -webkit-box;
+  }
+
+  .study-word-popover-mobile {
+    position: fixed;
+    top: 0.5rem;
+    right: 0.5rem;
+    bottom: auto;
+    left: 0.5rem;
+    width: auto;
+    max-height: min(21rem, calc(100vh - 2rem));
+    transform: none;
+  }
+
+  .study-word-popover-mobile .study-word-popover-word {
+    font-size: 1.375rem;
+    line-height: 1.4;
+  }
+
+  .study-word-popover-mobile .study-word-popover-meaning {
+    font-size: 1.125rem;
+    line-height: 1.7;
+    -webkit-line-clamp: 6;
+  }
+}

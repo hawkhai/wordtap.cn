@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 1,
+  "id": "pephr3-021",
+  "groupId": "pephr3",
+  "unitNo": 1,
+  "sequenceNo": 21,
+  "section": "Expanding Your World",
+  "title": "Winter Carnival in Quebec",
+  "jsonPath": "pep-english/lessons/pephr3/021.json",
+  "text": "A group of very cold tourists are sitting in a café in old Quebec, drinking hot coffee to try to warm up. The windows are covered with steam from the heat inside. Outside, the temperature is -32°C. Snow covers the streets and is piled up along the sidewalks. The music and the lights of the Quebec Winter Carnival continue, but after a whole day of watching parades, riding in horse carriages, and listening to music, the tourists’ feet are freezing and their noses are red.\nEvery year, hundreds of thousands of people come to Quebec to take part in the week-long winter festival. Everyone who comes must be prepared to keep moving, as it is too cold to stand and watch for long.\nEarly in the morning, you can watch the snowboarding competition on the hill overlooking the river. Competitors speed down the track and through the air as though they could fly.\nThe more brave of heart may try the canoe races. Five or six men paddle each canoe across the partly-frozen St Lawrence River. The river is full of big chunks of ice, and if you were to fall in, you would freeze to death in under two minutes.\nOne of the favourite events is the dog-sled race, in which teams of about six husky dogs pull long sleds at great speeds along a snowy track. One person drives the sled, shouting to the dogs to encourage them. The sound of the dogs barking, the calls of the drivers, and the shouts of the crowd create an exciting northern experience. The dogs are strong and beautiful animals with thick fur, and many have blue eyes.\nWhile admiring the ice sculptures everywhere in the city, much like those in Harbin in China, you can stop off with other tourists in an igloo for hot tea or coffee. It is amazing how warm these ice houses can be!\nLater in the evening, you can join the crowd at the Ice Palace, where Bonhomme the snowman is king. You can dance outside to the music of a band, whose members are all dressed in heavy clothes—even some of their instruments are dressed up for winter.\nFinally, you will probably want to sit down in a café to warm up and plan for the next day. You might want to join the snowmobile races—or maybe you should just sleep in!",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "A group of very cold tourists are sitting in a café in old Quebec, drinking hot coffee to try to warm up. The windows are covered with steam from the heat inside. Outside, the temperature is -32°C. Snow covers the streets and is piled up along the sidewalks. The music and the lights of the Quebec Winter Carnival continue, but after a whole day of watching parades, riding in horse carriages, and listening to music, the tourists’ feet are freezing and their noses are red."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Every year, hundreds of thousands of people come to Quebec to take part in the week-long winter festival. Everyone who comes must be prepared to keep moving, as it is too cold to stand and watch for long."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Early in the morning, you can watch the snowboarding competition on the hill overlooking the river. Competitors speed down the track and through the air as though they could fly."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "The more brave of heart may try the canoe races. Five or six men paddle each canoe across the partly-frozen St Lawrence River. The river is full of big chunks of ice, and if you were to fall in, you would freeze to death in under two minutes."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "One of the favourite events is the dog-sled race, in which teams of about six husky dogs pull long sleds at great speeds along a snowy track. One person drives the sled, shouting to the dogs to encourage them. The sound of the dogs barking, the calls of the drivers, and the shouts of the crowd create an exciting northern experience. The dogs are strong and beautiful animals with thick fur, and many have blue eyes."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "While admiring the ice sculptures everywhere in the city, much like those in Harbin in China, you can stop off with other tourists in an igloo for hot tea or coffee. It is amazing how warm these ice houses can be!"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Later in the evening, you can join the crowd at the Ice Palace, where Bonhomme the snowman is king. You can dance outside to the music of a band, whose members are all dressed in heavy clothes—even some of their instruments are dressed up for winter."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Finally, you will probably want to sit down in a café to warm up and plan for the next day. You might want to join the snowmobile races—or maybe you should just sleep in!"
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "必修第三册",
+    "pageStart": 73,
+    "pageEnd": 73,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "31e51a16693d03177a5825f53f612a87",
+    "pdfSize": 14202806,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/senior-required-3.pdf#page=73",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored the complete eight-paragraph feature in printed order around the Bonhomme photograph; verified that page 74 starts Unit 2 vocabulary exercises and excluded captions, images and running furniture."
+    }
+  }
+}

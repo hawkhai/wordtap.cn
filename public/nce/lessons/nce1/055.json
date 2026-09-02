@@ -1,0 +1,192 @@
+{
+  "schemaVersion": 1,
+  "id": "nce1-055",
+  "bookId": "nce1",
+  "bookNo": 1,
+  "lessonNo": 55,
+  "lessonRange": [
+    55,
+    56
+  ],
+  "title": "The Sawyer Family",
+  "titleZh": "索耶一家",
+  "question": "When do the children do their homework?",
+  "questionZh": "孩子们什么时候做作业？",
+  "text": "When do the children do their homework?\n\nThe Sawyers live at 87 King Street.\nIn the morning, Mr. Sawyer goes to work and the children go to school.\nTheir father takes them to school every day.\nMrs. Sawyer stays at home every day.\nShe does the housework.\nShe always eats her lunch at noon.\nIn the afternoon, she usually sees her friends.\nThey often drink tea together.\nIn the evening, the children come home from school.\nThey arrive home early.\nMr. Sawyer comes home from work.\nHe arrives home late.\nAt night, the children always do their homework.\nThen they go to bed.\nMr. Sawyer usually reads his newspaper, but sometimes he and his wife watch television.",
+  "bodyText": "The Sawyers live at 87 King Street.\nIn the morning, Mr. Sawyer goes to work and the children go to school.\nTheir father takes them to school every day.\nMrs. Sawyer stays at home every day.\nShe does the housework.\nShe always eats her lunch at noon.\nIn the afternoon, she usually sees her friends.\nThey often drink tea together.\nIn the evening, the children come home from school.\nThey arrive home early.\nMr. Sawyer comes home from work.\nHe arrives home late.\nAt night, the children always do their homework.\nThen they go to bed.\nMr. Sawyer usually reads his newspaper, but sometimes he and his wife watch television.",
+  "bodyTextZh": "索耶一家住在国王街87号。\n早上，索耶先生去上班，孩子们去上学。\n他们的父亲每天送他们去上学。\n索耶夫人每天都待在家里。\n她做家务。\n她总是在中午吃午饭。\n下午，她通常会和朋友见面。\n他们经常一起喝茶。\n傍晚，孩子们放学回家。\n他们很早就到家了。\n索耶先生下班回家。\n他很晚才回到家。\n晚上，孩子们总是做作业。\n然后他们就上床睡觉了。\n索耶先生通常会读报纸，但有时候他和他妻子也会一起看电视。",
+  "sentences": [
+    {
+      "index": 0,
+      "startTime": 0.58,
+      "endTime": 3.26,
+      "en": "Lesson 55",
+      "zh": "第55课",
+      "role": "lesson"
+    },
+    {
+      "index": 1,
+      "startTime": 3.26,
+      "endTime": 6.23,
+      "en": "The Sawyer family",
+      "zh": "索耶一家",
+      "role": "title"
+    },
+    {
+      "index": 2,
+      "startTime": 6.23,
+      "endTime": 11.83,
+      "en": "Listen to the tape then answer this question.",
+      "zh": "先听这段录音，然后再回答这个问题。",
+      "role": "prompt"
+    },
+    {
+      "index": 3,
+      "startTime": 11.83,
+      "endTime": 16.81,
+      "en": "When do the children do their homework?",
+      "zh": "孩子们什么时候做作业？",
+      "role": "question"
+    },
+    {
+      "index": 4,
+      "startTime": 16.81,
+      "endTime": 21.94,
+      "en": "The Sawyers live at 87 King Street.",
+      "zh": "索耶一家住在国王街87号。",
+      "role": "body"
+    },
+    {
+      "index": 5,
+      "startTime": 21.94,
+      "endTime": 29.97,
+      "en": "In the morning, Mr. Sawyer goes to work and the children go to school.",
+      "zh": "早上，索耶先生去上班，孩子们去上学。",
+      "role": "body"
+    },
+    {
+      "index": 6,
+      "startTime": 29.97,
+      "endTime": 35.11,
+      "en": "Their father takes them to school every day.",
+      "zh": "他们的父亲每天送他们去上学。",
+      "role": "body"
+    },
+    {
+      "index": 7,
+      "startTime": 35.11,
+      "endTime": 39.21,
+      "en": "Mrs. Sawyer stays at home every day.",
+      "zh": "索耶夫人每天都待在家里。",
+      "role": "body"
+    },
+    {
+      "index": 8,
+      "startTime": 39.21,
+      "endTime": 42.07,
+      "en": "She does the housework.",
+      "zh": "她做家务。",
+      "role": "body"
+    },
+    {
+      "index": 9,
+      "startTime": 42.07,
+      "endTime": 46.82,
+      "en": "She always eats her lunch at noon.",
+      "zh": "她总是在中午吃午饭。",
+      "role": "body"
+    },
+    {
+      "index": 10,
+      "startTime": 46.82,
+      "endTime": 52.11,
+      "en": "In the afternoon, she usually sees her friends.",
+      "zh": "下午，她通常会和朋友见面。",
+      "role": "body"
+    },
+    {
+      "index": 11,
+      "startTime": 52.11,
+      "endTime": 55.86,
+      "en": "They often drink tea together.",
+      "zh": "他们经常一起喝茶。",
+      "role": "body"
+    },
+    {
+      "index": 12,
+      "startTime": 55.86,
+      "endTime": 60.79,
+      "en": "In the evening, the children come home from school.",
+      "zh": "傍晚，孩子们放学回家。",
+      "role": "body"
+    },
+    {
+      "index": 13,
+      "startTime": 60.79,
+      "endTime": 64.2,
+      "en": "They arrive home early.",
+      "zh": "他们很早就到家了。",
+      "role": "body"
+    },
+    {
+      "index": 14,
+      "startTime": 64.2,
+      "endTime": 67.95,
+      "en": "Mr. Sawyer comes home from work.",
+      "zh": "索耶先生下班回家。",
+      "role": "body"
+    },
+    {
+      "index": 15,
+      "startTime": 67.95,
+      "endTime": 71.49,
+      "en": "He arrives home late.",
+      "zh": "他很晚才回到家。",
+      "role": "body"
+    },
+    {
+      "index": 16,
+      "startTime": 71.49,
+      "endTime": 76.23,
+      "en": "At night, the children always do their homework.",
+      "zh": "晚上，孩子们总是做作业。",
+      "role": "body"
+    },
+    {
+      "index": 17,
+      "startTime": 76.23,
+      "endTime": 79.17,
+      "en": "Then they go to bed.",
+      "zh": "然后他们就上床睡觉了。",
+      "role": "body"
+    },
+    {
+      "index": 18,
+      "startTime": 79.17,
+      "endTime": null,
+      "en": "Mr. Sawyer usually reads his newspaper, but sometimes he and his wife watch television.",
+      "zh": "索耶先生通常会读报纸，但有时候他和他妻子也会一起看电视。",
+      "role": "body"
+    }
+  ],
+  "audio": {
+    "fileName": "055&056－The Sawyer Family.mp3",
+    "sourcePath": "content/NCE-Flow/NCE1/055&056－The Sawyer Family.mp3",
+    "exists": true
+  },
+  "source": {
+    "repository": "NCE-Flow",
+    "lrcFileName": "055&056－The Sawyer Family.lrc",
+    "lrcPath": "content/NCE-Flow/NCE1/055&056－The Sawyer Family.lrc",
+    "sourceDataFile": "content/NCE-Flow/static/data.json",
+    "generatedAt": "2026-07-23T02:59:02+00:00",
+    "generator": "scripts/generate_nce_json.py",
+    "generatorVersion": "2.0.0",
+    "metadata": {
+      "al": "新概念英语（一）",
+      "ar": "MP3 同步字幕版（美音）",
+      "ti": "The Sawyer Family",
+      "by": "更多学习内容，请到VeryCD.com搜索“露珠”"
+    }
+  }
+}

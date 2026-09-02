@@ -1,0 +1,143 @@
+{
+  "schemaVersion": 1,
+  "id": "nce2-049",
+  "bookId": "nce2",
+  "bookNo": 2,
+  "lessonNo": 49,
+  "lessonRange": [
+    49
+  ],
+  "title": "The End of a Dream",
+  "titleZh": "梦的终结",
+  "question": "How did the dream end?",
+  "questionZh": "这个梦是怎么结束的？",
+  "text": "How did the dream end?\n\nTired of sleeping on the floor, a young man in Teheran saved up for years to buy a real bed.\nFor the first time in his life, he became the proud owner of a bed which had springs and a mattress.\nBecause the weather was very hot, he carried the bed on to the roof of his house.\nHe slept very well for the first two nights, but on the third night, a storm blew up.\nA gust of wind swept the bed off the roof and sent it crashing into the courtyard below.\nThe young man did not wake up until the bed had struck the ground.\nAlthough the bed was smashed to pieces, the man was miraculously unhurt.\nWhen he woke up, he was still on the mattress.\nGlancing at the bits of wood and metal that lay around him, the man sadly picked up the mattress and carried it into his house.\nAfter he had put it on the floor, he promptly went to sleep again.",
+  "bodyText": "Tired of sleeping on the floor, a young man in Teheran saved up for years to buy a real bed.\nFor the first time in his life, he became the proud owner of a bed which had springs and a mattress.\nBecause the weather was very hot, he carried the bed on to the roof of his house.\nHe slept very well for the first two nights, but on the third night, a storm blew up.\nA gust of wind swept the bed off the roof and sent it crashing into the courtyard below.\nThe young man did not wake up until the bed had struck the ground.\nAlthough the bed was smashed to pieces, the man was miraculously unhurt.\nWhen he woke up, he was still on the mattress.\nGlancing at the bits of wood and metal that lay around him, the man sadly picked up the mattress and carried it into his house.\nAfter he had put it on the floor, he promptly went to sleep again.",
+  "bodyTextZh": "受够了睡在地板上……在德黑兰，一个年轻人为了买一张真正的床，攒了多年的钱。\n他生平第一次……他骄傲地拥有了一张配有弹簧和床垫的床。\n因为天气非常炎热，他把那张床搬到了自己房子的屋顶上。\n他在头两个晚上睡得非常好。但是到了第三天晚上，一场暴风雨突然降临了。\n一阵大风把床从屋顶上吹了下去，哐当一声掉进了下面的院子里。\n那个年轻人没有醒来。直到床砸到地上他才醒来。\n尽管床被砸得粉碎，那个人却奇迹般地毫发无伤。\n当他醒来时，发现自己仍然躺在床垫上。\n他瞥了一眼散落在周围的木头和金属碎片，他伤心地捡起床垫，把它搬回了屋里。\n把床垫放在地板上后，他立刻又睡着了。",
+  "sentences": [
+    {
+      "index": 0,
+      "startTime": 0.5,
+      "endTime": 3,
+      "en": "Lesson 49",
+      "zh": "第49课",
+      "role": "lesson"
+    },
+    {
+      "index": 1,
+      "startTime": 3,
+      "endTime": 11.05,
+      "en": "The End of a Dream",
+      "zh": "梦的终结",
+      "role": "title"
+    },
+    {
+      "index": 2,
+      "startTime": 11.05,
+      "endTime": 15.15,
+      "en": "How did the dream end?",
+      "zh": "这个梦是怎么结束的？",
+      "role": "question"
+    },
+    {
+      "index": 3,
+      "startTime": 15.15,
+      "endTime": 24.98,
+      "en": "Tired of sleeping on the floor, a young man in Teheran saved up for years to buy a real bed.",
+      "zh": "受够了睡在地板上……在德黑兰，一个年轻人为了买一张真正的床，攒了多年的钱。",
+      "role": "body"
+    },
+    {
+      "index": 4,
+      "startTime": 24.98,
+      "endTime": 35.22,
+      "en": "For the first time in his life, he became the proud owner of a bed which had springs and a mattress.",
+      "zh": "他生平第一次……他骄傲地拥有了一张配有弹簧和床垫的床。",
+      "role": "body"
+    },
+    {
+      "index": 5,
+      "startTime": 35.22,
+      "endTime": 43.36,
+      "en": "Because the weather was very hot, he carried the bed on to the roof of his house.",
+      "zh": "因为天气非常炎热，他把那张床搬到了自己房子的屋顶上。",
+      "role": "body"
+    },
+    {
+      "index": 6,
+      "startTime": 43.36,
+      "endTime": 53.12,
+      "en": "He slept very well for the first two nights, but on the third night, a storm blew up.",
+      "zh": "他在头两个晚上睡得非常好。但是到了第三天晚上，一场暴风雨突然降临了。",
+      "role": "body"
+    },
+    {
+      "index": 7,
+      "startTime": 53.12,
+      "endTime": 62.03,
+      "en": "A gust of wind swept the bed off the roof and sent it crashing into the courtyard below.",
+      "zh": "一阵大风把床从屋顶上吹了下去，哐当一声掉进了下面的院子里。",
+      "role": "body"
+    },
+    {
+      "index": 8,
+      "startTime": 62.03,
+      "endTime": 68.46,
+      "en": "The young man did not wake up until the bed had struck the ground.",
+      "zh": "那个年轻人没有醒来。直到床砸到地上他才醒来。",
+      "role": "body"
+    },
+    {
+      "index": 9,
+      "startTime": 68.46,
+      "endTime": 76.21,
+      "en": "Although the bed was smashed to pieces, the man was miraculously unhurt.",
+      "zh": "尽管床被砸得粉碎，那个人却奇迹般地毫发无伤。",
+      "role": "body"
+    },
+    {
+      "index": 10,
+      "startTime": 76.21,
+      "endTime": 80.84,
+      "en": "When he woke up, he was still on the mattress.",
+      "zh": "当他醒来时，发现自己仍然躺在床垫上。",
+      "role": "body"
+    },
+    {
+      "index": 11,
+      "startTime": 80.84,
+      "endTime": 91.82,
+      "en": "Glancing at the bits of wood and metal that lay around him, the man sadly picked up the mattress and carried it into his house.",
+      "zh": "他瞥了一眼散落在周围的木头和金属碎片，他伤心地捡起床垫，把它搬回了屋里。",
+      "role": "body"
+    },
+    {
+      "index": 12,
+      "startTime": 91.82,
+      "endTime": null,
+      "en": "After he had put it on the floor, he promptly went to sleep again.",
+      "zh": "把床垫放在地板上后，他立刻又睡着了。",
+      "role": "body"
+    }
+  ],
+  "audio": {
+    "fileName": "49－The End of a Dream.mp3",
+    "sourcePath": "content/NCE-Flow/NCE2/49－The End of a Dream.mp3",
+    "exists": true
+  },
+  "source": {
+    "repository": "NCE-Flow",
+    "lrcFileName": "49－The End of a Dream.lrc",
+    "lrcPath": "content/NCE-Flow/NCE2/49－The End of a Dream.lrc",
+    "sourceDataFile": "content/NCE-Flow/static/data.json",
+    "generatedAt": "2026-07-23T02:59:02+00:00",
+    "generator": "scripts/generate_nce_json.py",
+    "generatorVersion": "2.0.0",
+    "metadata": {
+      "al": "新概念英语（二）",
+      "ar": "MP3 同步字幕版（美音）",
+      "ti": "The End of a Dream",
+      "by": "更多学习内容，请到VeryCD.com搜索“露珠”"
+    }
+  }
+}

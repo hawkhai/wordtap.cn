@@ -1,0 +1,408 @@
+{
+  "schemaVersion": 1,
+  "id": "beginner-002",
+  "levelId": "beginner",
+  "unitNo": 2,
+  "title": "【对话场景】道歉与回答",
+  "jsonPath": "shuimu/lessons/beginner/002.json",
+  "text": "第二单元\n第一课\n【对话场景】道歉与回答\n——My coat and my umbrella please.\n请把我的大衣和伞拿给我。\nHere is my ticket.\n这是我的手牌。\n——Thank you, sir.\n谢谢您，先生。\nNumber five.\n5 号柜子。\nHere is your umbrella and your coat.\n这是您的雨伞和大衣。\n——This is not my umbrella.\n这不是我的雨伞。\n——Sorry, sir.\n抱歉，先生。\nIs this your umbrella?\n那这把伞是您的吗？\n——No, it isn't.\n不，也不是。\n——Is this it?\n那这把呢？\n——Yes, it is.\n是的，这是我的伞。\nThank you very much.\n非常感谢。\n• Please 的用法\n◦ 单独使用，加强语气=拜托你，求求你\n◦ 常见出现在句中或句尾\n▪ Could you please…\n◦ 日常交流\n◦ 表示礼貌，语气柔和\n◦ 公示语出现在句首，祈使句\n▪ Please keep quiet.请保持安静\n▪ Please put your phone to silent mode.请把手机调成静音。\n◦ 可简写为 pls.，用于上级对下级\n• Sorry 的用法\n◦ 单独使用，表示抱歉=对不起\n▪ Sorry 或者 I am sorry.\n◦ be sorry for 对···感到遗憾\n◦ I am sorry to hear that.听到这个消息，我很难过。\n• Here is…的用法\n◦ 这是······\n◦ 可以缩写成 here’s\n◦ here is it.和 here it is.的区别\n▪ here it is\n▫ 相当于 here you are（常用于复数）\n▫ 常用于找到了某物，“它在这儿呢”\n▪ here is it\n▫ here is it 是倒装，因为系动词在主语前面\n▫ 常用于找零钱的场景\n第二课\n【语法点拨】超好用的代词之人称代词\n代词\n代词即代替名词、动词、形容词、数量词、副词的词，起替代作用。\n代词的分类有很多种，主要了解人称代词。\n人称代词是指为了避免重复，用来代替前面提到过的人或物等的代词。\n数 单数 复数\n格 主格 宾格 主格 宾格\n第一人称 I me we us\n我 我 我们 我们\n第二人称 you you you you\n你 你 你们 你们\n第三人称 she/he/it her/him/it they them\n她/他/它 她/他/它 她们/他们/它们 她们/他们/它们\n人称代词的用法：\n• 人称代词的主格在句中作主语\n◦ He and I went shopping yesterday.\n◦ 我和他昨天去购物了。\n• 人称代词的宾格在句中作宾语\n◦ The room belongs to you.\n◦ 这个房间属于你。\n• it 的用法\n◦ 表示时间、天气、距离等\n▪ It is very cold.\n◦ 代替前面提到过的事物\n▪ Where is my cat?我的猫呢？\n▪ It is on the sofa.它在沙发上。\n◦ 表示婴儿、动物或不明身份，不确定的人\n▪ It is a cute baby.\n第三课\n【单词串烧】\n• umbrella [ʌm'brelə] n.伞\n• please [pli:z] int.请\n• here [hiə] ad.这里\n• my [mai] 我的\n• ticket ['tikit] n.票\n• number ['nʌmbə] n.号码\n• five [faiv] num.五\n• sorry ['sɔri] a.对不起的\n• sir [sə:] n.先生\n• cloakroom [‘kləukru:m] n.衣帽间，休息室\n• suit [su:t, sju:t] n.一套衣服\n• school [sku:l] n.学校\n• teacher ['ti:tʃə] n.老师\n• son [sʌn] n.儿子\n• daughter ['dɔ:tə] n.女儿",
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "第二单元"
+    },
+    {
+      "type": "heading",
+      "text": "第一课"
+    },
+    {
+      "type": "heading",
+      "text": "【对话场景】道歉与回答"
+    },
+    {
+      "type": "paragraph",
+      "text": "——My coat and my umbrella please."
+    },
+    {
+      "type": "paragraph",
+      "text": "请把我的大衣和伞拿给我。"
+    },
+    {
+      "type": "paragraph",
+      "text": "Here is my ticket."
+    },
+    {
+      "type": "paragraph",
+      "text": "这是我的手牌。"
+    },
+    {
+      "type": "paragraph",
+      "text": "——Thank you, sir."
+    },
+    {
+      "type": "paragraph",
+      "text": "谢谢您，先生。"
+    },
+    {
+      "type": "paragraph",
+      "text": "Number five."
+    },
+    {
+      "type": "paragraph",
+      "text": "5 号柜子。"
+    },
+    {
+      "type": "paragraph",
+      "text": "Here is your umbrella and your coat."
+    },
+    {
+      "type": "paragraph",
+      "text": "这是您的雨伞和大衣。"
+    },
+    {
+      "type": "paragraph",
+      "text": "——This is not my umbrella."
+    },
+    {
+      "type": "paragraph",
+      "text": "这不是我的雨伞。"
+    },
+    {
+      "type": "paragraph",
+      "text": "——Sorry, sir."
+    },
+    {
+      "type": "paragraph",
+      "text": "抱歉，先生。"
+    },
+    {
+      "type": "paragraph",
+      "text": "Is this your umbrella?"
+    },
+    {
+      "type": "paragraph",
+      "text": "那这把伞是您的吗？"
+    },
+    {
+      "type": "paragraph",
+      "text": "——No, it isn't."
+    },
+    {
+      "type": "paragraph",
+      "text": "不，也不是。"
+    },
+    {
+      "type": "paragraph",
+      "text": "——Is this it?"
+    },
+    {
+      "type": "paragraph",
+      "text": "那这把呢？"
+    },
+    {
+      "type": "paragraph",
+      "text": "——Yes, it is."
+    },
+    {
+      "type": "paragraph",
+      "text": "是的，这是我的伞。"
+    },
+    {
+      "type": "paragraph",
+      "text": "Thank you very much."
+    },
+    {
+      "type": "paragraph",
+      "text": "非常感谢。"
+    },
+    {
+      "type": "list",
+      "text": "• Please 的用法"
+    },
+    {
+      "type": "list",
+      "text": "◦ 单独使用，加强语气=拜托你，求求你"
+    },
+    {
+      "type": "list",
+      "text": "◦ 常见出现在句中或句尾"
+    },
+    {
+      "type": "list",
+      "text": "▪ Could you please…"
+    },
+    {
+      "type": "list",
+      "text": "◦ 日常交流"
+    },
+    {
+      "type": "list",
+      "text": "◦ 表示礼貌，语气柔和"
+    },
+    {
+      "type": "list",
+      "text": "◦ 公示语出现在句首，祈使句"
+    },
+    {
+      "type": "list",
+      "text": "▪ Please keep quiet.请保持安静"
+    },
+    {
+      "type": "list",
+      "text": "▪ Please put your phone to silent mode.请把手机调成静音。"
+    },
+    {
+      "type": "list",
+      "text": "◦ 可简写为 pls.，用于上级对下级"
+    },
+    {
+      "type": "list",
+      "text": "• Sorry 的用法"
+    },
+    {
+      "type": "list",
+      "text": "◦ 单独使用，表示抱歉=对不起"
+    },
+    {
+      "type": "list",
+      "text": "▪ Sorry 或者 I am sorry."
+    },
+    {
+      "type": "list",
+      "text": "◦ be sorry for 对···感到遗憾"
+    },
+    {
+      "type": "list",
+      "text": "◦ I am sorry to hear that.听到这个消息，我很难过。"
+    },
+    {
+      "type": "list",
+      "text": "• Here is…的用法"
+    },
+    {
+      "type": "list",
+      "text": "◦ 这是······"
+    },
+    {
+      "type": "list",
+      "text": "◦ 可以缩写成 here’s"
+    },
+    {
+      "type": "list",
+      "text": "◦ here is it.和 here it is.的区别"
+    },
+    {
+      "type": "list",
+      "text": "▪ here it is"
+    },
+    {
+      "type": "list",
+      "text": "▫ 相当于 here you are（常用于复数）"
+    },
+    {
+      "type": "list",
+      "text": "▫ 常用于找到了某物，“它在这儿呢”"
+    },
+    {
+      "type": "list",
+      "text": "▪ here is it"
+    },
+    {
+      "type": "list",
+      "text": "▫ here is it 是倒装，因为系动词在主语前面"
+    },
+    {
+      "type": "list",
+      "text": "▫ 常用于找零钱的场景"
+    },
+    {
+      "type": "heading",
+      "text": "第二课"
+    },
+    {
+      "type": "heading",
+      "text": "【语法点拨】超好用的代词之人称代词"
+    },
+    {
+      "type": "paragraph",
+      "text": "代词"
+    },
+    {
+      "type": "paragraph",
+      "text": "代词即代替名词、动词、形容词、数量词、副词的词，起替代作用。"
+    },
+    {
+      "type": "paragraph",
+      "text": "代词的分类有很多种，主要了解人称代词。"
+    },
+    {
+      "type": "paragraph",
+      "text": "人称代词是指为了避免重复，用来代替前面提到过的人或物等的代词。"
+    },
+    {
+      "type": "paragraph",
+      "text": "数 单数 复数"
+    },
+    {
+      "type": "paragraph",
+      "text": "格 主格 宾格 主格 宾格"
+    },
+    {
+      "type": "paragraph",
+      "text": "第一人称 I me we us"
+    },
+    {
+      "type": "paragraph",
+      "text": "我 我 我们 我们"
+    },
+    {
+      "type": "paragraph",
+      "text": "第二人称 you you you you"
+    },
+    {
+      "type": "paragraph",
+      "text": "你 你 你们 你们"
+    },
+    {
+      "type": "paragraph",
+      "text": "第三人称 she/he/it her/him/it they them"
+    },
+    {
+      "type": "paragraph",
+      "text": "她/他/它 她/他/它 她们/他们/它们 她们/他们/它们"
+    },
+    {
+      "type": "paragraph",
+      "text": "人称代词的用法："
+    },
+    {
+      "type": "list",
+      "text": "• 人称代词的主格在句中作主语"
+    },
+    {
+      "type": "list",
+      "text": "◦ He and I went shopping yesterday."
+    },
+    {
+      "type": "list",
+      "text": "◦ 我和他昨天去购物了。"
+    },
+    {
+      "type": "list",
+      "text": "• 人称代词的宾格在句中作宾语"
+    },
+    {
+      "type": "list",
+      "text": "◦ The room belongs to you."
+    },
+    {
+      "type": "list",
+      "text": "◦ 这个房间属于你。"
+    },
+    {
+      "type": "list",
+      "text": "• it 的用法"
+    },
+    {
+      "type": "list",
+      "text": "◦ 表示时间、天气、距离等"
+    },
+    {
+      "type": "list",
+      "text": "▪ It is very cold."
+    },
+    {
+      "type": "list",
+      "text": "◦ 代替前面提到过的事物"
+    },
+    {
+      "type": "list",
+      "text": "▪ Where is my cat?我的猫呢？"
+    },
+    {
+      "type": "list",
+      "text": "▪ It is on the sofa.它在沙发上。"
+    },
+    {
+      "type": "list",
+      "text": "◦ 表示婴儿、动物或不明身份，不确定的人"
+    },
+    {
+      "type": "list",
+      "text": "▪ It is a cute baby."
+    },
+    {
+      "type": "heading",
+      "text": "第三课"
+    },
+    {
+      "type": "heading",
+      "text": "【单词串烧】"
+    },
+    {
+      "type": "list",
+      "text": "• umbrella [ʌm'brelə] n.伞"
+    },
+    {
+      "type": "list",
+      "text": "• please [pli:z] int.请"
+    },
+    {
+      "type": "list",
+      "text": "• here [hiə] ad.这里"
+    },
+    {
+      "type": "list",
+      "text": "• my [mai] 我的"
+    },
+    {
+      "type": "list",
+      "text": "• ticket ['tikit] n.票"
+    },
+    {
+      "type": "list",
+      "text": "• number ['nʌmbə] n.号码"
+    },
+    {
+      "type": "list",
+      "text": "• five [faiv] num.五"
+    },
+    {
+      "type": "list",
+      "text": "• sorry ['sɔri] a.对不起的"
+    },
+    {
+      "type": "list",
+      "text": "• sir [sə:] n.先生"
+    },
+    {
+      "type": "list",
+      "text": "• cloakroom [‘kləukru:m] n.衣帽间，休息室"
+    },
+    {
+      "type": "list",
+      "text": "• suit [su:t, sju:t] n.一套衣服"
+    },
+    {
+      "type": "list",
+      "text": "• school [sku:l] n.学校"
+    },
+    {
+      "type": "list",
+      "text": "• teacher ['ti:tʃə] n.老师"
+    },
+    {
+      "type": "list",
+      "text": "• son [sʌn] n.儿子"
+    },
+    {
+      "type": "list",
+      "text": "• daughter ['dɔ:tə] n.女儿"
+    }
+  ],
+  "videos": [],
+  "source": {
+    "fileName": "英语零基础初级讲义.txt",
+    "kind": "PDF 校对后的转换文本"
+  }
+}

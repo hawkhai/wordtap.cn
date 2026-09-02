@@ -1,0 +1,12 @@
+{
+    "name":  "WordTap 全文朗读服务",
+    "version":  "0.2.1",
+    "fileName":  "WordTapGatewaySetup.exe",
+    "downloadPath":  "https://cdn.sunocean.life/wordtap/downloads/WordTapGatewaySetup.exe",
+    "sha256":  "130945F9E24673DBEEE277272F677F134F0C237136D50617141C484B022A1C89",
+    "sizeBytes":  2171333,
+    "signed":  false,
+    "signatureStatus":  "NotSigned",
+    "generatedAt":  "2026-06-23T06:00:00Z",
+    "note":  "当前安装包未签名。请只从官方 HTTPS 页面下载，并在运行前核对 SHA256。"
+}

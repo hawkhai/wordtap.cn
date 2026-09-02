@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "pephs4-011",
+  "groupId": "pephs4",
+  "unitNo": 4,
+  "sequenceNo": 11,
+  "section": "Pronunciation",
+  "title": "Volunteering at an Animal Shelter",
+  "jsonPath": "pep-english/lessons/pephs4/011.json",
+  "text": "Jessie: Hi, Susan! Did you see the animal shelter advertisement? I think it’d be great for our volunteering project!\nSusan: Hello, Jessie. Yes, I did see it. I’d love to help out in a shelter. Think of all those cute, little animals!\nJessie: Exactly, and it would also look great on our CVs. But maybe it’s too good to be true … Susan: Yeah, what if we have to clean out the smelly cages? I’d hate that!\nJessie: Well, we can ask for gloves. How about you clean the outside of the cages, and I’ll clean the inside?\nSusan: Thanks, Jessie, you’re a true friend! Anyway, we should check the timing. Did the ad say Saturday afternoons? I’m usually busy on Saturday afternoons.\nJessie: No, it said on Sundays, and in the mornings. So let’s not just talk about it—let’s do it! It’s so exciting—do you like cats best, or dogs?\nSusan: Oh, hey wait, Jessie, do you think it matters that I’m allergic to cats? And what if there are snakes?",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Jessie: Hi, Susan! Did you see the animal shelter advertisement? I think it’d be great for our volunteering project!\nSusan: Hello, Jessie. Yes, I did see it. I’d love to help out in a shelter. Think of all those cute, little animals!\nJessie: Exactly, and it would also look great on our CVs. But maybe it’s too good to be true … Susan: Yeah, what if we have to clean out the smelly cages? I’d hate that!\nJessie: Well, we can ask for gloves. How about you clean the outside of the cages, and I’ll clean the inside?\nSusan: Thanks, Jessie, you’re a true friend! Anyway, we should check the timing. Did the ad say Saturday afternoons? I’m usually busy on Saturday afternoons.\nJessie: No, it said on Sundays, and in the mornings. So let’s not just talk about it—let’s do it! It’s so exciting—do you like cats best, or dogs?\nSusan: Oh, hey wait, Jessie, do you think it matters that I’m allergic to cats? And what if there are snakes?"
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "选择性必修第四册",
+    "pageStart": 50,
+    "pageEnd": 50,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "6fc94127b322f6f5abff068bef6faa2e",
+    "pdfSize": 12330614,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/senior-selective-4.pdf#page=50",
+      "reviewedAt": "2026-07-22",
+      "notes": "Retained the complete eight-turn printed dialogue, preserving speaker order, ellipsis, dashes and contractions; excluded pronunciation instructions, suggestion prompts, tables and furniture. Pages 49 and 51 confirm the boundaries."
+    }
+  }
+}

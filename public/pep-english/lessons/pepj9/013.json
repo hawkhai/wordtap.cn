@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "pepj9-013",
+  "groupId": "pepj9",
+  "unitNo": 4,
+  "sequenceNo": 13,
+  "section": "Section A",
+  "title": "Billy Has Changed So Much",
+  "jsonPath": "pep-english/lessons/pepj9/013.json",
+  "text": "Alfred: This party is such a great idea!\nGina: I agree. It's been three years since we last saw our primary school classmates.\nAlfred: It's interesting to see how people have changed.\nGina: Billy has changed so much! He used to be so shy and quiet.\nAlfred: Yeah, his face always turned red when he talked to girls!\nGina: I used to see him reading in the library every day.\nAlfred: That's because he was a really good student. He studied hard and got good scores on his exams.\nGina: Did he use to wear glasses?\nAlfred: Yes, and he used to be thin, too. But look how big and strong he is now!\nGina: He's so popular now. Look at all the girls around him!",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Alfred: This party is such a great idea!\nGina: I agree. It's been three years since we last saw our primary school classmates.\nAlfred: It's interesting to see how people have changed.\nGina: Billy has changed so much! He used to be so shy and quiet.\nAlfred: Yeah, his face always turned red when he talked to girls!\nGina: I used to see him reading in the library every day.\nAlfred: That's because he was a really good student. He studied hard and got good scores on his exams.\nGina: Did he use to wear glasses?\nAlfred: Yes, and he used to be thin, too. But look how big and strong he is now!\nGina: He's so popular now. Look at all the girls around him!"
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "初中",
+    "book": "九年级全一册",
+    "pageStart": 40,
+    "pageEnd": 40,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "c6e628c22e0c2f9cfe4547699a1c95a4",
+    "pdfSize": 11088578,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/junior-9.pdf#page=40",
+      "reviewedAt": "2026-07-22",
+      "notes": "Retained only the complete 2d Alfred-Gina role-play; excluded the 2a word list, 2b unfinished chart, 2c model fragment and activity instructions."
+    }
+  }
+}

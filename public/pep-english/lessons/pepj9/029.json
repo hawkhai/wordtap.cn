@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "id": "pepj9-029",
+  "groupId": "pepj9",
+  "unitNo": 9,
+  "sequenceNo": 29,
+  "section": "Section B",
+  "title": "Sad but Beautiful",
+  "jsonPath": "pep-english/lessons/pepj9/029.json",
+  "text": "Last night one of my Chinese friends took me to a concert of Chinese folk music. The piece which was played on the erhu especially moved me. The music was strangely beautiful, but under the beauty I sensed a strong sadness and pain. The piece had a simple name, Erquan Yingyue (Moon Reflected on Second Spring), but it was one of the most moving pieces of music that I've ever heard. The erhu sounded so sad that I almost cried along with it as I listened. Later I looked up the history of Erquan Yingyue, and I began to understand the sadness in the music.\nThe music was written by Abing, a folk musician who was born in the city of Wuxi in 1893. His mother died when he was very young. Abing's father taught him to play many musical instruments, such as the drums, dizi and erhu, and by age 17, Abing was known for his musical ability. However, after his father died, Abing's life grew worse. He was very poor. Not only that, he developed a serious illness and became blind. For several years, he had no home. He lived on the streets and played music to make money. Even after Abing got married and had a home again, he continued to sing and play on the streets. He performed in this way for many years.\nAbing's amazing musical skills made him very popular during his lifetime. By the end of his life, he could play over 600 pieces of music. Many of these were written by Abing himself. It is a pity that only six pieces of music in total were recorded for the future world to hear, but his popularity continues to this day. Today, Abing's Erquan Yingyue is a piece which all the great erhu masters play and praise. It has become one of China's national treasures. Its sad beauty not only paints a picture of Abing's own life but also makes people recall their deepest wounds from their own sad or painful experiences.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Last night one of my Chinese friends took me to a concert of Chinese folk music. The piece which was played on the erhu especially moved me. The music was strangely beautiful, but under the beauty I sensed a strong sadness and pain. The piece had a simple name, Erquan Yingyue (Moon Reflected on Second Spring), but it was one of the most moving pieces of music that I've ever heard. The erhu sounded so sad that I almost cried along with it as I listened. Later I looked up the history of Erquan Yingyue, and I began to understand the sadness in the music."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "The music was written by Abing, a folk musician who was born in the city of Wuxi in 1893. His mother died when he was very young. Abing's father taught him to play many musical instruments, such as the drums, dizi and erhu, and by age 17, Abing was known for his musical ability. However, after his father died, Abing's life grew worse. He was very poor. Not only that, he developed a serious illness and became blind. For several years, he had no home. He lived on the streets and played music to make money. Even after Abing got married and had a home again, he continued to sing and play on the streets. He performed in this way for many years."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Abing's amazing musical skills made him very popular during his lifetime. By the end of his life, he could play over 600 pieces of music. Many of these were written by Abing himself. It is a pity that only six pieces of music in total were recorded for the future world to hear, but his popularity continues to this day. Today, Abing's Erquan Yingyue is a piece which all the great erhu masters play and praise. It has become one of China's national treasures. Its sad beauty not only paints a picture of Abing's own life but also makes people recall their deepest wounds from their own sad or painful experiences."
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "初中",
+    "book": "九年级全一册",
+    "pageStart": 84,
+    "pageEnd": 84,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "c6e628c22e0c2f9cfe4547699a1c95a4",
+    "pdfSize": 11088578,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/junior-9.pdf#page=84",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored the printed title and all three complete paragraphs about Erquan Yingyue, Abing's life and his legacy; excluded 2a/2b instructions and the supporting-details strategy box."
+    }
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "schemaVersion": 1,
+  "id": "pephr3-008",
+  "groupId": "pephr3",
+  "unitNo": 2,
+  "sequenceNo": 8,
+  "section": "Reading for Writing",
+  "title": "The Stone in the Road",
+  "jsonPath": "pep-english/lessons/pephr3/008.json",
+  "text": "Once upon a time there was a king who often thought, “Nothing good can come to a nation whose people only complain and expect others to solve their problems.” One day, he had an idea.\nEarly one morning, the king disguised himself and went to a local village. He placed a large stone in the middle of the main street and hid gold coins under the stone. Then he hid behind a huge maple tree and watched.\nThe first person down the street was a milkman with his cart. He crashed into the stone, spilling the milk everywhere. “What fool put this stone here?” he shouted. He picked himself up and angrily went away.\nAfter a while, a group of women came along, each balancing a pot of water on her head. One woman tripped over the stone and her water pot went crashing to the ground. She picked herself up and limped away in tears. Neither she nor her friends thought about moving the stone out of the road.\nThe king watched all day as many people complained about the stone, but he found nobody making an attempt to move it. The king was in despair. “Is there no one in this village who feels any responsibility to keep their neighbours from harm?”\nJust then, the king saw a young girl coming along. She was the daughter of a local farmer. She had been working all day and was very tired. But when she saw the stone, she said to herself, “This stone is a danger to anyone who comes down the street after dark. I'll move it out of the way.”\nThe girl pushed the stone with all her might. After a great deal of effort, she finally succeeded in moving it to the side of the street. Imagine her surprise when she saw the gold coins where the stone had been!\nJust then, the king stepped out from behind the tree. “Oh sir,” the girl said, “does this gold belong to you? If not, we surely must find the owner, for he will certainly miss it.”\nThe king said, “My dear, the gold is mine. I put it in the road and moved the stone over it. Now the gold is yours, because you are the only person who has learnt the lesson I wanted to teach my people.”",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Once upon a time there was a king who often thought, “Nothing good can come to a nation whose people only complain and expect others to solve their problems.” One day, he had an idea."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Early one morning, the king disguised himself and went to a local village. He placed a large stone in the middle of the main street and hid gold coins under the stone. Then he hid behind a huge maple tree and watched."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "The first person down the street was a milkman with his cart. He crashed into the stone, spilling the milk everywhere. “What fool put this stone here?” he shouted. He picked himself up and angrily went away."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "After a while, a group of women came along, each balancing a pot of water on her head. One woman tripped over the stone and her water pot went crashing to the ground. She picked herself up and limped away in tears. Neither she nor her friends thought about moving the stone out of the road."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "The king watched all day as many people complained about the stone, but he found nobody making an attempt to move it. The king was in despair. “Is there no one in this village who feels any responsibility to keep their neighbours from harm?”"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Just then, the king saw a young girl coming along. She was the daughter of a local farmer. She had been working all day and was very tired. But when she saw the stone, she said to herself, “This stone is a danger to anyone who comes down the street after dark. I'll move it out of the way.”"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "The girl pushed the stone with all her might. After a great deal of effort, she finally succeeded in moving it to the side of the street. Imagine her surprise when she saw the gold coins where the stone had been!"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Just then, the king stepped out from behind the tree. “Oh sir,” the girl said, “does this gold belong to you? If not, we surely must find the owner, for he will certainly miss it.”"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "The king said, “My dear, the gold is mine. I put it in the road and moved the stone over it. Now the gold is yours, because you are the only person who has learnt the lesson I wanted to teach my people.”"
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "必修第三册",
+    "pageStart": 27,
+    "pageEnd": 27,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "31e51a16693d03177a5825f53f612a87",
+    "pdfSize": 14202806,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/senior-required-3.pdf#page=27",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored the complete nine-paragraph fable from the king's plan through the final reward; excluded the three comprehension questions, activity instruction and running furniture."
+    }
+  }
+}

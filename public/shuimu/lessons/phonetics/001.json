@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 1,
+  "id": "phonetics-001",
+  "levelId": "phonetics",
+  "unitNo": 1,
+  "title": "入门课：认识 26 个英文字母",
+  "jsonPath": "shuimu/lessons/phonetics/001.json",
+  "text": "入门课：认识 26 个英文字母\n英语是一门拼读语言\n• 所有的英语单词都是由 26 个字母组成的\n• 汉语比英语更难学，是世界上最难的语言之一\n• 汉字的拼音和笔画没有任何必然的联系\n• 英语的读音和拼写存在必然联系\n认识 26 个字母\n• 字母分大小写，大小写的读音一样\n• 每个字母都有自己的读音，不要和拼音混淆\n• 可以借助字母歌来辅助记忆\nA B C D E F G H I J K L M N O P Q R S T U V W X Y Z\nAa：[ei] Bb：[bi:] Cc：[si:] Dd：[di:] Ee：[i:]\nFf：[ef] Gg：[d3i:] Hh：[eit∫] Ii：[ai] Jj：[d3ei]\nKk：[kei] Ll：[el] Mm：[em] Nn：[en] Oo：[əu]\nPp：[pi:] Qq：[kju:] Rr：[ɑ:] Ss：[es] Tt：[ti:]\nUu：[ju:] Vv：[vi:] Ww：[′d∧blju:] Xx：[eks] Yy：[wai] Zz：[zi:]\n英文字母的书写\n• 书写练习要在四线格中进行\n• 斜度：每个字母都要稍向右倾斜约 10°左右，斜度要一致\n要注意书写的规范\n• 字母 a、b、g、o、q 等上端必须封闭，不可开口；\n• 字母 l、k 的收笔处是圆钩，不可写成尖钩或竖弯钩；\n• 字母 r 的收笔处不可多加一个弯。",
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "入门课：认识 26 个英文字母"
+    },
+    {
+      "type": "paragraph",
+      "text": "英语是一门拼读语言"
+    },
+    {
+      "type": "list",
+      "text": "• 所有的英语单词都是由 26 个字母组成的"
+    },
+    {
+      "type": "list",
+      "text": "• 汉语比英语更难学，是世界上最难的语言之一"
+    },
+    {
+      "type": "list",
+      "text": "• 汉字的拼音和笔画没有任何必然的联系"
+    },
+    {
+      "type": "list",
+      "text": "• 英语的读音和拼写存在必然联系"
+    },
+    {
+      "type": "paragraph",
+      "text": "认识 26 个字母"
+    },
+    {
+      "type": "list",
+      "text": "• 字母分大小写，大小写的读音一样"
+    },
+    {
+      "type": "list",
+      "text": "• 每个字母都有自己的读音，不要和拼音混淆"
+    },
+    {
+      "type": "list",
+      "text": "• 可以借助字母歌来辅助记忆"
+    },
+    {
+      "type": "paragraph",
+      "text": "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z"
+    },
+    {
+      "type": "paragraph",
+      "text": "Aa：[ei] Bb：[bi:] Cc：[si:] Dd：[di:] Ee：[i:]"
+    },
+    {
+      "type": "paragraph",
+      "text": "Ff：[ef] Gg：[d3i:] Hh：[eit∫] Ii：[ai] Jj：[d3ei]"
+    },
+    {
+      "type": "paragraph",
+      "text": "Kk：[kei] Ll：[el] Mm：[em] Nn：[en] Oo：[əu]"
+    },
+    {
+      "type": "paragraph",
+      "text": "Pp：[pi:] Qq：[kju:] Rr：[ɑ:] Ss：[es] Tt：[ti:]"
+    },
+    {
+      "type": "paragraph",
+      "text": "Uu：[ju:] Vv：[vi:] Ww：[′d∧blju:] Xx：[eks] Yy：[wai] Zz：[zi:]"
+    },
+    {
+      "type": "paragraph",
+      "text": "英文字母的书写"
+    },
+    {
+      "type": "list",
+      "text": "• 书写练习要在四线格中进行"
+    },
+    {
+      "type": "list",
+      "text": "• 斜度：每个字母都要稍向右倾斜约 10°左右，斜度要一致"
+    },
+    {
+      "type": "paragraph",
+      "text": "要注意书写的规范"
+    },
+    {
+      "type": "list",
+      "text": "• 字母 a、b、g、o、q 等上端必须封闭，不可开口；"
+    },
+    {
+      "type": "list",
+      "text": "• 字母 l、k 的收笔处是圆钩，不可写成尖钩或竖弯钩；"
+    },
+    {
+      "type": "list",
+      "text": "• 字母 r 的收笔处不可多加一个弯。"
+    }
+  ],
+  "videos": [],
+  "source": {
+    "fileName": "英语入门讲义-英语国际音标课.txt",
+    "kind": "PDF 校对后的转换文本"
+  }
+}

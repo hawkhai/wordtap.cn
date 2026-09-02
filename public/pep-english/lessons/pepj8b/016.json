@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "id": "pepj8b-016",
+  "groupId": "pepj8b",
+  "unitNo": 9,
+  "sequenceNo": 16,
+  "section": "Section A",
+  "title": "Three Interesting Museums",
+  "jsonPath": "pep-english/lessons/pepj8b/016.json",
+  "text": "Ken: The most interesting museum I've ever been to is the American Computer Museum. They have information about different computers and who invented them. The old computers were much bigger. It's unbelievable that technology has progressed in such a rapid way! I've also learned that there was a special computer. It could play chess even better than humans. I wonder how much more computers will be able to do in the future.\nAmy: I've recently been to a very unusual museum in India, the International Museum of Toilets. I just couldn't believe my eyes when I saw so many different kinds of toilets there. The museum teaches people about the history and development of toilets. It also encourages governments and social groups to think about ways to improve toilets in the future.\nLinlin: Last year I went to the Hangzhou National Tea Museum. It's a relaxing and peaceful place near a lake. The tea art performances show how to make a perfect cup of tea with beautiful tea sets. Watching the tea preparation is just as enjoyable as drinking the tea itself. I've finally realized why my grandpa loves drinking tea and collecting tea sets.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Ken: The most interesting museum I've ever been to is the American Computer Museum. They have information about different computers and who invented them. The old computers were much bigger. It's unbelievable that technology has progressed in such a rapid way! I've also learned that there was a special computer. It could play chess even better than humans. I wonder how much more computers will be able to do in the future."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Amy: I've recently been to a very unusual museum in India, the International Museum of Toilets. I just couldn't believe my eyes when I saw so many different kinds of toilets there. The museum teaches people about the history and development of toilets. It also encourages governments and social groups to think about ways to improve toilets in the future."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Linlin: Last year I went to the Hangzhou National Tea Museum. It's a relaxing and peaceful place near a lake. The tea art performances show how to make a perfect cup of tea with beautiful tea sets. Watching the tea preparation is just as enjoyable as drinking the tea itself. I've finally realized why my grandpa loves drinking tea and collecting tea sets."
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "初中",
+    "book": "八年级下册",
+    "pageStart": 76,
+    "pageEnd": 76,
+    "extractionMode": "ocr",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "21d35e04f1c22b74a3fe3e95e88adff9",
+    "pdfSize": 18208880,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/junior-8b.pdf#page=76",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored all three complete signed museum profiles, supplied a descriptive metadata title, corrected Section A and excluded 3a questions plus activities 3b-3c."
+    }
+  }
+}

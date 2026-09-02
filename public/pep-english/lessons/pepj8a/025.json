@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "id": "pepj8a-025",
+  "groupId": "pepj8a",
+  "unitNo": 10,
+  "sequenceNo": 25,
+  "section": "Section A",
+  "title": "Planning Food and Games for the Party",
+  "jsonPath": "pep-english/lessons/pepj8a/025.json",
+  "text": "Jeff: Hey, Ben. For the party next week, should we ask people to bring food?\nBen: No, let's order food from a restaurant. If we ask people to bring food, they'll just bring potato chips and chocolate because they'll be too lazy to cook.\nJeff: OK. For the games, do you think we should give people some small gifts if they win?\nBen: I think that's a great idea! If we do that, more people will want to play the games.\nJeff: Yes, the games will be more exciting, too.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Jeff: Hey, Ben. For the party next week, should we ask people to bring food?"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Ben: No, let's order food from a restaurant. If we ask people to bring food, they'll just bring potato chips and chocolate because they'll be too lazy to cook."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Jeff: OK. For the games, do you think we should give people some small gifts if they win?"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Ben: I think that's a great idea! If we do that, more people will want to play the games."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Jeff: Yes, the games will be more exciting, too."
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "初中",
+    "book": "八年级上册",
+    "pageStart": 85,
+    "pageEnd": 85,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "24fcd352dca21a6ee547539f550ed35c",
+    "pdfSize": 9469090,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/junior-8a.pdf#page=85",
+      "reviewedAt": "2026-07-22",
+      "notes": "Retained only the complete 2d role-play, restored all five turns and assigned a descriptive title; excluded listening questions and the incomplete 2c model."
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "pepj9-045",
+  "groupId": "pepj9",
+  "unitNo": 14,
+  "sequenceNo": 45,
+  "section": "Section A",
+  "title": "My Time in Junior High School",
+  "jsonPath": "pep-english/lessons/pepj9/045.json",
+  "text": "My time in junior high school has been enjoyable. In the first year, I didn't work very hard in class, but I joined many different school clubs and had a lot of fun. In Grade 8, I studied harder but I still got poor grades in English. I had problems with pronunciation and reading texts. So the next year, I worked much harder and got better grades. This year, with Mr. Trent's help, my English level has been improving and I hope to get good grades at the end of the year. Next year, I will be in senior high school. I can't believe how fast the time went by! When I get to senior high, I will join the school swim team.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "My time in junior high school has been enjoyable. In the first year, I didn't work very hard in class, but I joined many different school clubs and had a lot of fun. In Grade 8, I studied harder but I still got poor grades in English. I had problems with pronunciation and reading texts. So the next year, I worked much harder and got better grades. This year, with Mr. Trent's help, my English level has been improving and I hope to get good grades at the end of the year. Next year, I will be in senior high school. I can't believe how fast the time went by! When I get to senior high, I will join the school swim team."
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "初中",
+    "book": "九年级全一册",
+    "pageStart": 122,
+    "pageEnd": 122,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "c6e628c22e0c2f9cfe4547699a1c95a4",
+    "pdfSize": 11088578,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/junior-9.pdf#page=122",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored the six printed 4a sentences to their coherent chronological order as a complete model paragraph; removed numbering blanks, the Grammar Focus question-answer table and open-ended 4b prompts."
+    }
+  }
+}

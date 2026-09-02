@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 2,
+  "id": "rw1-u03-c",
+  "sequenceNo": 9,
+  "groupId": "rw1",
+  "unitNo": 3,
+  "unitTitle": "Heroes of our time",
+  "section": "C",
+  "articleType": "stories-of-china",
+  "title": "Cering Dandar, a grassroots hero",
+  "printedPageStart": 77,
+  "printedPageEnd": 78,
+  "jsonPath": "college-english/lessons/rw1/rw1-u03-c.json",
+  "characterCount": 2180,
+  "text": "Tons of waste is being left on Mount Qomolangma (珠穆朗玛峰) by growing numbers of visitors, and it needs cleaning up. A dedicated and daring team will tackle the task when the climbing season ends in May. Garbage collection on Qomolangma requires two to three years of training, according to Cering Dandar (次仁旦达), a mountaineer and guide.\n“Just picking up a single ring-pull (易拉罐的拉环) at over 7,000 meters could be a matter of life or death!” he said. He once spent a whole day moving through the ice just to pick up two oxygen tanks and a plastic bag. Falling into one of the crevasses (裂缝) has become his worst nightmare.\nCering is one of China’s first Tibetan climbing guides. He has climbed the highest summits on the seven continents and hiked to the North and South poles. He has a master’s degree in media and communications, and was the cameraman when the Beijing Olympic torch reached the top of Qomolangma in 2008. He has been to the summit four times. Cering first noticed trash scattered on the mountain during his first ascent (攀登) in 2006. “Cans, chocolate, oxygen tanks, tents, and sleeping bags. Their colors just don’t belong here where everything should be white and blue.”\nIn 2018, Cering helped found the Mount Qomolangma environment team. By the end of the year, the team had carried out three major clean-ups above 5,200 meters. They had collected more than 5,000 kg of food garbage, 1,000 kg of climbing equipment, and more than 2,000 kg of feces (排泄物). Every year, they have to do this all over again.\nAvalanches (雪崩), blizzards (暴风雪), altitude sickness – working on Qomolangma is one of the most dangerous jobs on earth. Above 6,500 meters, only professional mountaineers like Cering can do the job, and at above 7,000 meters, even professional climbers face physical limits. Any unnecessary movement is risky and can cause death.\nFor his persistent efforts, Cering Dandar was honored by Xinhua News Agency with an award as one of the 10 inspiring role models and grassroots heroes on the Internet of 2018. “In Tibet, we have the bluest skies and highest mountains,” Cering said. “If I could choose again, I would still become a guardian of the holy mountain.”",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Tons of waste is being left on Mount Qomolangma (珠穆朗玛峰) by growing numbers of visitors, and it needs cleaning up. A dedicated and daring team will tackle the task when the climbing season ends in May. Garbage collection on Qomolangma requires two to three years of training, according to Cering Dandar (次仁旦达), a mountaineer and guide."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "“Just picking up a single ring-pull (易拉罐的拉环) at over 7,000 meters could be a matter of life or death!” he said. He once spent a whole day moving through the ice just to pick up two oxygen tanks and a plastic bag. Falling into one of the crevasses (裂缝) has become his worst nightmare."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Cering is one of China’s first Tibetan climbing guides. He has climbed the highest summits on the seven continents and hiked to the North and South poles. He has a master’s degree in media and communications, and was the cameraman when the Beijing Olympic torch reached the top of Qomolangma in 2008. He has been to the summit four times. Cering first noticed trash scattered on the mountain during his first ascent (攀登) in 2006. “Cans, chocolate, oxygen tanks, tents, and sleeping bags. Their colors just don’t belong here where everything should be white and blue.”"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "In 2018, Cering helped found the Mount Qomolangma environment team. By the end of the year, the team had carried out three major clean-ups above 5,200 meters. They had collected more than 5,000 kg of food garbage, 1,000 kg of climbing equipment, and more than 2,000 kg of feces (排泄物). Every year, they have to do this all over again."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Avalanches (雪崩), blizzards (暴风雪), altitude sickness – working on Qomolangma is one of the most dangerous jobs on earth. Above 6,500 meters, only professional mountaineers like Cering can do the job, and at above 7,000 meters, even professional climbers face physical limits. Any unnecessary movement is risky and can cause death."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "For his persistent efforts, Cering Dandar was honored by Xinhua News Agency with an award as one of the 10 inspiring role models and grassroots heroes on the Internet of 2018. “In Tibet, we have the bluest skies and highest mountains,” Cering said. “If I could choose again, I would still become a guardian of the holy mountain.”"
+    }
+  ],
+  "source": {
+    "series": "新视野大学英语（第四版）",
+    "book": "读写教程 1",
+    "sourceBook": "NHCE4-RW1",
+    "printedPageStart": 77,
+    "printedPageEnd": 78,
+    "pdfPageStart": 92,
+    "pdfPageEnd": 93,
+    "pdfSha256": "05d7a57fb09156e13d02ce498271c86917869b5327e8981f1eedf205ceb465ec",
+    "ocrFiles": [
+      "tools/College-English/NHCE4-RW1/ocr/json/NHCE4-RW1_92.json",
+      "tools/College-English/NHCE4-RW1/ocr/json/NHCE4-RW1_93.json"
+    ]
+  },
+  "manualReview": {
+    "status": "passed",
+    "reviewer": "Codex",
+    "reviewedAt": "2026-07-30T01:38:42Z",
+    "correctionCount": 8,
+    "evidence": "Full second read: NHCE4-RW1.pdf pages 92-93; images NHCE4-RW1_92.jpg..93.jpg; reviewed-articles/rw1-u03-c.json",
+    "textSha256": "19f41eac258ab5529d3e58cdeb2cd39aa96efc756ec8c87f3ce8d2ac825c2d81",
+    "eventSha256": "df04a771e71c27fdb4a475015360caebdaea2a90f0883c00fc7d7833dcfb6f96"
+  }
+}

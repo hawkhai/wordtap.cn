@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "pepj9-034",
+  "groupId": "pepj9",
+  "unitNo": 11,
+  "sequenceNo": 34,
+  "section": "Section A",
+  "title": "Nancy Asks Bert for Friendship Advice",
+  "jsonPath": "pep-english/lessons/pepj9/034.json",
+  "text": "Nancy: Hey, Bert. I think I've made Alice mad and I'm not sure what to do about it.\nBert: What happened?\nNancy: You know Julie is Alice's best friend, right?\nBert: Uh-huh.\nNancy: Well, the more I get to know Julie, the more I realize that we have a lot in common. So we've been spending more time together lately.\nBert: But what's wrong with that?\nNancy: Umm... it makes Alice unhappy because she thinks Julie is now better friends with me than with her.\nBert: I see. Mmm... why don't you ask Alice to join you each time you do something with Julie? Then she won't feel left out.\nNancy: Oh, good idea! That can make our friendship stronger.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Nancy: Hey, Bert. I think I've made Alice mad and I'm not sure what to do about it.\nBert: What happened?\nNancy: You know Julie is Alice's best friend, right?\nBert: Uh-huh.\nNancy: Well, the more I get to know Julie, the more I realize that we have a lot in common. So we've been spending more time together lately.\nBert: But what's wrong with that?\nNancy: Umm... it makes Alice unhappy because she thinks Julie is now better friends with me than with her.\nBert: I see. Mmm... why don't you ask Alice to join you each time you do something with Julie? Then she won't feel left out.\nNancy: Oh, good idea! That can make our friendship stronger."
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "初中",
+    "book": "九年级全一册",
+    "pageStart": 96,
+    "pageEnd": 96,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "c6e628c22e0c2f9cfe4547699a1c95a4",
+    "pdfSize": 11088578,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/junior-9.pdf#page=96",
+      "reviewedAt": "2026-07-22",
+      "notes": "Retained only the complete 2d Nancy-Bert friendship-advice role-play; excluded the 2a picture task, 2b fill-ins, 2c opening fragment and instructions."
+    }
+  }
+}

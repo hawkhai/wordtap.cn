@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "id": "pephs2-008",
+  "groupId": "pephs2",
+  "unitNo": 2,
+  "sequenceNo": 8,
+  "section": "Using Language",
+  "title": "Studying Abroad: The Disadvantages Are Greater",
+  "jsonPath": "pep-english/lessons/pephs2/008.json",
+  "text": "Dear Editor,\nIn the past few decades, there has been a dramatic increase in the number of people studying abroad. Although studying abroad can bring great benefits, I think the disadvantages for young people are greater.\nTo begin with, many students who study abroad face great economic pressure. That means studying abroad is just not possible for everyone. Tuition fees and living expenses are much more expensive than at home and could end up costing most families an arm and a leg. Studying in China is much more convenient and can help save money.\nAnother important factor to consider is the tremendous pressure that comes with studying abroad. Students must learn how to live in an unfamiliar environment with limited language skills. Some may struggle and suffer from culture shock when learning how to behave in new surroundings. Other students are not mature enough to handle the challenges by themselves and may become depressed. Some students might even encounter problems with personal safety. In addition, different approaches to teaching and learning may come as a shock to many students.\nA final point to consider is that while studying abroad does have potential benefits, young people who study in China also have a great future to look forward to! As China has boomed, the educational environment has improved significantly, with many great universities now available. They have great facilities and outstanding professors, helping to educate young people who will contribute to the economy and further strengthen our country.\nTo sum up, one cannot deny the fact that studying abroad has its disadvantages, so when you think about studying abroad, you should consider these many factors.\nKind regards,\nWang Li (mother of twin girls)",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Dear Editor,"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "In the past few decades, there has been a dramatic increase in the number of people studying abroad. Although studying abroad can bring great benefits, I think the disadvantages for young people are greater."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "To begin with, many students who study abroad face great economic pressure. That means studying abroad is just not possible for everyone. Tuition fees and living expenses are much more expensive than at home and could end up costing most families an arm and a leg. Studying in China is much more convenient and can help save money."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Another important factor to consider is the tremendous pressure that comes with studying abroad. Students must learn how to live in an unfamiliar environment with limited language skills. Some may struggle and suffer from culture shock when learning how to behave in new surroundings. Other students are not mature enough to handle the challenges by themselves and may become depressed. Some students might even encounter problems with personal safety. In addition, different approaches to teaching and learning may come as a shock to many students."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "A final point to consider is that while studying abroad does have potential benefits, young people who study in China also have a great future to look forward to! As China has boomed, the educational environment has improved significantly, with many great universities now available. They have great facilities and outstanding professors, helping to educate young people who will contribute to the economy and further strengthen our country."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "To sum up, one cannot deny the fact that studying abroad has its disadvantages, so when you think about studying abroad, you should consider these many factors."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Kind regards,"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Wang Li (mother of twin girls)"
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "选择性必修第二册",
+    "pageStart": 27,
+    "pageEnd": 27,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "1a701f2205298de95ea59cfc71eb83cd",
+    "pdfSize": 9968316,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/senior-selective-2.pdf#page=27",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored Wang Li's complete eight-block letter arguing that the disadvantages of studying abroad are greater, including salutation and signature; followed the left column only.",
+      "splitBaselineId": "pephs2-013",
+      "splitIndex": 1,
+      "splitCount": 2
+    }
+  }
+}

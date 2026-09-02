@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "pephr1-032",
+  "groupId": "pephr1",
+  "unitNo": 3,
+  "sequenceNo": 32,
+  "section": "Expanding Your World",
+  "title": "Hot Tickets",
+  "jsonPath": "pep-english/lessons/pephr1/032.json",
+  "text": "What makes a sports event a winner? Exciting action? Tick. Athletes competing to win honour and glory for their club or motherland? Tick. History and tradition? Tick. Delicious snacks? Tick. Most people think global events such as the Olympic Games and the World Cup are the most exciting, but there is some serious competition. Here's a look at some of the hottest tickets in sports.\nThe World Series (baseball, USA)\nThe World Series is the final championship of the American baseball leagues. The seven-game series is played in October or November and attracts a great number of fans. Baseball is one of America's favourite sports and has many traditions, such as the “seventh-inning stretch”. The song “Take Me Out to the Ball Game” is played so that everyone can get up after sitting for a long time. The break is also a good time for a snack. Hot peanuts are a hit with hungry baseball fans, but the hot dog is the real winner!\nIndian Premier League (cricket, India)\nCricket is from England but has become as Indian as saris and curry. The Indian Premier League has the largest audience of all cricket leagues in the world and is the sixth most-watched sports league in the world. Cricket is a unique sport and may seem a little confusing at first, but once you start learning the rules, you'll love it. The most popular cricket snacks are finger foods like biscuits and cucumber sandwiches.\nWimbledon (tennis, England)\nWimbledon is a treat for all tennis fans. The tournament started in 1877 and many of the rules are the same today. For example, the players may only wear white clothes. The event, however, is quite colourful since fans often dress up for the games and wear amazing hats. And when it comes to snacks, it's “game, set, and match” at Wimbledon. Where else can you enjoy champagne and strawberries as you cheer for the champion?",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "What makes a sports event a winner? Exciting action? Tick. Athletes competing to win honour and glory for their club or motherland? Tick. History and tradition? Tick. Delicious snacks? Tick. Most people think global events such as the Olympic Games and the World Cup are the most exciting, but there is some serious competition. Here's a look at some of the hottest tickets in sports."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "The World Series (baseball, USA)\nThe World Series is the final championship of the American baseball leagues. The seven-game series is played in October or November and attracts a great number of fans. Baseball is one of America's favourite sports and has many traditions, such as the “seventh-inning stretch”. The song “Take Me Out to the Ball Game” is played so that everyone can get up after sitting for a long time. The break is also a good time for a snack. Hot peanuts are a hit with hungry baseball fans, but the hot dog is the real winner!"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Indian Premier League (cricket, India)\nCricket is from England but has become as Indian as saris and curry. The Indian Premier League has the largest audience of all cricket leagues in the world and is the sixth most-watched sports league in the world. Cricket is a unique sport and may seem a little confusing at first, but once you start learning the rules, you'll love it. The most popular cricket snacks are finger foods like biscuits and cucumber sandwiches."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Wimbledon (tennis, England)\nWimbledon is a treat for all tennis fans. The tournament started in 1877 and many of the rules are the same today. For example, the players may only wear white clothes. The event, however, is quite colourful since fans often dress up for the games and wear amazing hats. And when it comes to snacks, it's “game, set, and match” at Wimbledon. Where else can you enjoy champagne and strawberries as you cheer for the champion?"
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "必修第一册",
+    "pageStart": 95,
+    "pageEnd": 95,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "e0bf18138b24d7def28b35994a13946b",
+    "pdfSize": 14704146,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/senior-required-1.pdf#page=95",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored the complete shared-title feature in visual order: introduction, World Series, Indian Premier League and Wimbledon; removed the inline Chinese gloss and excluded photographs and running furniture."
+    }
+  }
+}

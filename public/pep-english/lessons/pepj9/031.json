@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "pepj9-031",
+  "groupId": "pepj9",
+  "unitNo": 10,
+  "sequenceNo": 31,
+  "section": "Section A",
+  "title": "Time and Social Customs in Colombia and Switzerland",
+  "jsonPath": "pep-english/lessons/pepj9/031.json",
+  "text": "Teresa Lopez — Cali, Colombia Where I'm from, we're pretty relaxed about time. We don't like to rush around, so we don't mind if people are a little late sometimes. If you tell a friend you're going to their house for dinner, it's OK if you arrive a bit late. We like to enjoy our time slowly. We value the time we spend with our family and friends in our everyday lives. We often just drop by our friends' homes if we have time. We don't usually have to make plans to meet our friends. When we see each other, it's polite for boys to shake hands and for girls to kiss each other on the side of the face. We often just walk around the town center, seeing as many of our friends as we can!\nMarc LeBlanc — Lausanne, Switzerland In Switzerland, it's very important to be on time. We're the capital of clocks and watches, after all! If someone invites you to meet him or her at noon, then you're expected to be there at noon. If you're even 15 minutes late, your friend may get mad. So I make an effort to be on time when I meet my friends. I always leave the house early to avoid heavy traffic because I think it's impolite to keep others waiting. Also, we never visit a friend's house without calling first. We almost always make plans to see friends. We usually plan to do something interesting, or go somewhere together.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Teresa Lopez — Cali, Colombia Where I'm from, we're pretty relaxed about time. We don't like to rush around, so we don't mind if people are a little late sometimes. If you tell a friend you're going to their house for dinner, it's OK if you arrive a bit late. We like to enjoy our time slowly. We value the time we spend with our family and friends in our everyday lives. We often just drop by our friends' homes if we have time. We don't usually have to make plans to meet our friends. When we see each other, it's polite for boys to shake hands and for girls to kiss each other on the side of the face. We often just walk around the town center, seeing as many of our friends as we can!"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Marc LeBlanc — Lausanne, Switzerland In Switzerland, it's very important to be on time. We're the capital of clocks and watches, after all! If someone invites you to meet him or her at noon, then you're expected to be there at noon. If you're even 15 minutes late, your friend may get mad. So I make an effort to be on time when I meet my friends. I always leave the house early to avoid heavy traffic because I think it's impolite to keep others waiting. Also, we never visit a friend's house without calling first. We almost always make plans to see friends. We usually plan to do something interesting, or go somewhere together."
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "初中",
+    "book": "九年级全一册",
+    "pageStart": 89,
+    "pageEnd": 89,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "c6e628c22e0c2f9cfe4547699a1c95a4",
+    "pdfSize": 11088578,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/junior-9.pdf#page=89",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored both complete signed student profiles in the printed left-to-right order and supplied a descriptive comparison title; excluded the 3a prompt and activities 3b-3c."
+    }
+  }
+}

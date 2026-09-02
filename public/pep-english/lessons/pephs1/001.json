@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "id": "pephs1-001",
+  "groupId": "pephs1",
+  "unitNo": 1,
+  "sequenceNo": 1,
+  "section": "Reading and Thinking",
+  "title": "Tu Youyou Awarded Nobel Prize",
+  "jsonPath": "pep-english/lessons/pephs1/001.json",
+  "text": "This year’s Nobel Prize for Physiology or Medicine has been awarded to Tu Youyou (co-winner), whose research led to the discovery of artemisinin, a crucial new treatment for malaria. Artemisinin has saved hundreds of thousands of lives, and has led to improved health for millions of people. Over 200 million people around the world get malaria each year, and about 600,000 die from it. Artemisinin has become a vital part of the treatment for malaria, and is thought to save 100,000 lives a year in Africa alone.\nTu Youyou, a committed and patient scientist, was born in Ningbo, China, on 30 December 1930, and graduated from Peking University Medical School in 1955. After she graduated, she worked at the China Academy of Traditional Chinese Medicine in Beijing. In 1967, the Chinese government formed a team of scientists with the objective of discovering a new treatment for malaria, and Tu Youyou was among the first researchers chosen. In the beginning, Tu Youyou went to Hainan, where malaria was more common, to study malaria patients. In 1969, she became the head of the project in Beijing, and decided to review ancient Chinese medical texts to find traditional botanical treatments for the disease. Her team examined over 2,000 old medical texts, and evaluated 280,000 plants for their medical properties. From their research, they discovered and tested 380 distinct ancient Chinese medical treatments that showed promise in the fight against malaria.\nOne medical text from the fourth century suggested using the extract from sweet wormwood to treat a fever. Tu’s team tested a collection of dried wormwood leaves but found no effect. They then tried boiling fresh wormwood, and using the liquid obtained from this to treat malaria, but this did not work either. Their project got stuck. However, Tu Youyou would not acknowledge defeat. She analysed the medical texts again, and by chance, she found one sentence suggesting a different way to treat the wormwood. She concluded that boiling the sweet wormwood apparently destroyed its medical properties.\nUsing a lower temperature to draw out the extract, she found a substance that worked. After failing more than 190 times, the team finally succeeded in 1971. Tu Youyou and her team members even insisted on testing the medicine on themselves to make sure that it was safe. Later, the medicine was tested on malaria patients, most of whom recovered. This medicine, which was called artemisinin, soon became a standard treatment for malaria.\nAccording to Tu Youyou, the discovery of artemisinin was a team effort. Upon hearing that she had been awarded the Nobel Prize, she said, “The honour is not just mine. There is a team behind me, and all the people of my country. This success proves the great value of traditional Chinese medicine. It is indeed an honour for China’s scientific research and Chinese medicine to be spread around the world.”",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "This year’s Nobel Prize for Physiology or Medicine has been awarded to Tu Youyou (co-winner), whose research led to the discovery of artemisinin, a crucial new treatment for malaria. Artemisinin has saved hundreds of thousands of lives, and has led to improved health for millions of people. Over 200 million people around the world get malaria each year, and about 600,000 die from it. Artemisinin has become a vital part of the treatment for malaria, and is thought to save 100,000 lives a year in Africa alone."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Tu Youyou, a committed and patient scientist, was born in Ningbo, China, on 30 December 1930, and graduated from Peking University Medical School in 1955. After she graduated, she worked at the China Academy of Traditional Chinese Medicine in Beijing. In 1967, the Chinese government formed a team of scientists with the objective of discovering a new treatment for malaria, and Tu Youyou was among the first researchers chosen. In the beginning, Tu Youyou went to Hainan, where malaria was more common, to study malaria patients. In 1969, she became the head of the project in Beijing, and decided to review ancient Chinese medical texts to find traditional botanical treatments for the disease. Her team examined over 2,000 old medical texts, and evaluated 280,000 plants for their medical properties. From their research, they discovered and tested 380 distinct ancient Chinese medical treatments that showed promise in the fight against malaria."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "One medical text from the fourth century suggested using the extract from sweet wormwood to treat a fever. Tu’s team tested a collection of dried wormwood leaves but found no effect. They then tried boiling fresh wormwood, and using the liquid obtained from this to treat malaria, but this did not work either. Their project got stuck. However, Tu Youyou would not acknowledge defeat. She analysed the medical texts again, and by chance, she found one sentence suggesting a different way to treat the wormwood. She concluded that boiling the sweet wormwood apparently destroyed its medical properties."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Using a lower temperature to draw out the extract, she found a substance that worked. After failing more than 190 times, the team finally succeeded in 1971. Tu Youyou and her team members even insisted on testing the medicine on themselves to make sure that it was safe. Later, the medicine was tested on malaria patients, most of whom recovered. This medicine, which was called artemisinin, soon became a standard treatment for malaria."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "According to Tu Youyou, the discovery of artemisinin was a team effort. Upon hearing that she had been awarded the Nobel Prize, she said, “The honour is not just mine. There is a team behind me, and all the people of my country. This success proves the great value of traditional Chinese medicine. It is indeed an honour for China’s scientific research and Chinese medicine to be spread around the world.”"
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "选择性必修第一册",
+    "pageStart": 9,
+    "pageEnd": 10,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "f19c4231e96ee3a9c769533d676f1106",
+    "pdfSize": 12809514,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/senior-selective-1.pdf#page=9-10",
+      "reviewedAt": "2026-07-22",
+      "notes": "Merged and restored the complete five-paragraph news feature across both pages; page 10 begins with the final two paragraphs before the exercises. Excluded the lesson heading, date line, lead-in prompts, strategy box, photograph, questions and flow chart."
+    }
+  }
+}

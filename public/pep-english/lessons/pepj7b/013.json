@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "pepj7b-013",
+  "groupId": "pepj7b",
+  "unitNo": 11,
+  "sequenceNo": 13,
+  "section": "Section B",
+  "title": "Helen and Jim's School Trip Diaries",
+  "jsonPath": "pep-english/lessons/pepj7b/013.json",
+  "text": "June 15th Today I went on a school trip. We visited the science museum and it was really interesting. We got there so fast by train. We saw some farms and villages along the way. At the museum, I learned a lot about robots. I didn't know they could play chess with us. It was so cool! Then the guide taught us how to make a model robot. I took a lot of great photos, too. After that, I went to the gift shop and bought some lovely gifts for my parents. They weren't expensive. All in all, it was an exciting day.\nJune 15th I think today's school trip was terrible. We took the train to the museum. It was so hot on the slow train. The museum was big and boring. Everything was about robots and I'm not interested in that. The rooms were really dark and it was difficult to take photos, so I didn't take any. There were also too many people and I couldn't really see or hear the guide. The things in the gift shop were so expensive. I didn't like the trip at all.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "June 15th Today I went on a school trip. We visited the science museum and it was really interesting. We got there so fast by train. We saw some farms and villages along the way. At the museum, I learned a lot about robots. I didn't know they could play chess with us. It was so cool! Then the guide taught us how to make a model robot. I took a lot of great photos, too. After that, I went to the gift shop and bought some lovely gifts for my parents. They weren't expensive. All in all, it was an exciting day."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "June 15th I think today's school trip was terrible. We took the train to the museum. It was so hot on the slow train. The museum was big and boring. Everything was about robots and I'm not interested in that. The rooms were really dark and it was difficult to take photos, so I didn't take any. There were also too many people and I couldn't really see or hear the guide. The things in the gift shop were so expensive. I didn't like the trip at all."
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "初中",
+    "book": "七年级下册",
+    "pageStart": 75,
+    "pageEnd": 75,
+    "extractionMode": "ocr",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "9336b53d5a44f9244f62f6fb10720914",
+    "pdfSize": 17821241,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/junior-7b.pdf#page=75",
+      "reviewedAt": "2026-07-22",
+      "notes": "Separated the two side-by-side diary entries in printed reading order, restored both complete texts, corrected Section B metadata, and excluded activities 2a, 2b instructions/questions and 2c."
+    }
+  }
+}

@@ -1,0 +1,151 @@
+{
+  "schemaVersion": 1,
+  "id": "nce2-006",
+  "bookId": "nce2",
+  "bookNo": 2,
+  "lessonNo": 6,
+  "lessonRange": [
+    6
+  ],
+  "title": "Percy Buttons",
+  "titleZh": "珀西·巴顿斯",
+  "question": "Who is Percy Buttons?",
+  "questionZh": "珀西·巴顿斯（Percy Buttons）是谁？",
+  "text": "Who is Percy Buttons?\n\nI have just moved to a house in Bridge Street.\nYesterday a beggar knocked at my door.\nHe asked me for a meal and a glass of beer.\nIn return for this, the beggar stood on his head and sang songs.\nI gave him a meal.\nHe ate the food and drank the beer.\nThen he put a piece of cheese in his pocket and went away.\nLater a neighbour told me about him.\nEverybody knows him.\nHis name is Percy Buttons.\nHe calls at every house in the street once a month and always asks for a meal and a glass of beer.",
+  "bodyText": "I have just moved to a house in Bridge Street.\nYesterday a beggar knocked at my door.\nHe asked me for a meal and a glass of beer.\nIn return for this, the beggar stood on his head and sang songs.\nI gave him a meal.\nHe ate the food and drank the beer.\nThen he put a piece of cheese in his pocket and went away.\nLater a neighbour told me about him.\nEverybody knows him.\nHis name is Percy Buttons.\nHe calls at every house in the street once a month and always asks for a meal and a glass of beer.",
+  "bodyTextZh": "我刚刚搬到了 Bridge Street 上的一栋房子里。\n昨天，一个乞丐敲了我的门。\n他向我要了一顿饭和一杯啤酒。\n作为对此的回报，那个乞丐倒立着，同时还在唱歌。\n我给他准备了一顿饭。\n他吃了食物，喝了啤酒。\n然后他把一块奶酪放进口袋里，就离开了。\n后来，一位邻居跟我讲起了他的情况。\n每个人都知道他。\n他的名字叫珀西·巴顿斯（Percy Buttons）。\n他每个月都会挨家挨户地拜访这条街上的每一户人家。并且总是要求吃一顿饭和喝一杯啤酒。",
+  "sentences": [
+    {
+      "index": 0,
+      "startTime": 0.5,
+      "endTime": 3,
+      "en": "Lesson 6",
+      "zh": "第6课",
+      "role": "lesson"
+    },
+    {
+      "index": 1,
+      "startTime": 3,
+      "endTime": 10.05,
+      "en": "Percy Buttons",
+      "zh": "珀西·巴顿斯",
+      "role": "title"
+    },
+    {
+      "index": 2,
+      "startTime": 10.05,
+      "endTime": 14.5,
+      "en": "Who is Percy Buttons?",
+      "zh": "珀西·巴顿斯（Percy Buttons）是谁？",
+      "role": "question"
+    },
+    {
+      "index": 3,
+      "startTime": 14.5,
+      "endTime": 18.76,
+      "en": "I have just moved to a house in Bridge Street.",
+      "zh": "我刚刚搬到了 Bridge Street 上的一栋房子里。",
+      "role": "body"
+    },
+    {
+      "index": 4,
+      "startTime": 18.76,
+      "endTime": 22.36,
+      "en": "Yesterday a beggar knocked at my door.",
+      "zh": "昨天，一个乞丐敲了我的门。",
+      "role": "body"
+    },
+    {
+      "index": 5,
+      "startTime": 22.36,
+      "endTime": 26.54,
+      "en": "He asked me for a meal and a glass of beer.",
+      "zh": "他向我要了一顿饭和一杯啤酒。",
+      "role": "body"
+    },
+    {
+      "index": 6,
+      "startTime": 26.54,
+      "endTime": 32.87,
+      "en": "In return for this, the beggar stood on his head and sang songs.",
+      "zh": "作为对此的回报，那个乞丐倒立着，同时还在唱歌。",
+      "role": "body"
+    },
+    {
+      "index": 7,
+      "startTime": 32.87,
+      "endTime": 35.17,
+      "en": "I gave him a meal.",
+      "zh": "我给他准备了一顿饭。",
+      "role": "body"
+    },
+    {
+      "index": 8,
+      "startTime": 35.17,
+      "endTime": 38.41,
+      "en": "He ate the food and drank the beer.",
+      "zh": "他吃了食物，喝了啤酒。",
+      "role": "body"
+    },
+    {
+      "index": 9,
+      "startTime": 38.41,
+      "endTime": 43.23,
+      "en": "Then he put a piece of cheese in his pocket and went away.",
+      "zh": "然后他把一块奶酪放进口袋里，就离开了。",
+      "role": "body"
+    },
+    {
+      "index": 10,
+      "startTime": 43.23,
+      "endTime": 46.47,
+      "en": "Later a neighbour told me about him.",
+      "zh": "后来，一位邻居跟我讲起了他的情况。",
+      "role": "body"
+    },
+    {
+      "index": 11,
+      "startTime": 46.47,
+      "endTime": 48.63,
+      "en": "Everybody knows him.",
+      "zh": "每个人都知道他。",
+      "role": "body"
+    },
+    {
+      "index": 12,
+      "startTime": 48.63,
+      "endTime": 51.37,
+      "en": "His name is Percy Buttons.",
+      "zh": "他的名字叫珀西·巴顿斯（Percy Buttons）。",
+      "role": "body"
+    },
+    {
+      "index": 13,
+      "startTime": 51.37,
+      "endTime": null,
+      "en": "He calls at every house in the street once a month and always asks for a meal and a glass of beer.",
+      "zh": "他每个月都会挨家挨户地拜访这条街上的每一户人家。并且总是要求吃一顿饭和喝一杯啤酒。",
+      "role": "body"
+    }
+  ],
+  "audio": {
+    "fileName": "06－Percy Buttons.mp3",
+    "sourcePath": "content/NCE-Flow/NCE2/06－Percy Buttons.mp3",
+    "exists": true
+  },
+  "source": {
+    "repository": "NCE-Flow",
+    "lrcFileName": "06－Percy Buttons.lrc",
+    "lrcPath": "content/NCE-Flow/NCE2/06－Percy Buttons.lrc",
+    "sourceDataFile": "content/NCE-Flow/static/data.json",
+    "generatedAt": "2026-07-23T02:59:02+00:00",
+    "generator": "scripts/generate_nce_json.py",
+    "generatorVersion": "2.0.0",
+    "metadata": {
+      "al": "新概念英语（二）",
+      "ar": "MP3 同步字幕版（美音）",
+      "ti": "Percy Buttons",
+      "by": "更多学习内容，请到VeryCD.com搜索“露珠”"
+    }
+  }
+}

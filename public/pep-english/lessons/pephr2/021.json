@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "id": "pephr2-021",
+  "groupId": "pephr2",
+  "unitNo": 2,
+  "sequenceNo": 21,
+  "section": "Expanding Your World",
+  "title": "Urban Wildlife",
+  "jsonPath": "pep-english/lessons/pephr2/021.json",
+  "text": "Cities are diverse ecosystems. In addition to visitors from the wild, such as coyotes in Los Angeles or boars in Berlin, a large number of species share our urban areas. As our cities spread, we need to think about what it is like for other species to have human neighbours.\nBecause cities are built for humans, they do not always provide suitable habitats for wildlife. For example, most city parks are kept neat and tidy so that humans will find them beautiful. But when we cut grass or plant flowers, we destroy natural habitats.\nOur actions sometimes help other species. When a bridge in Austin, Texas was repaired, engineers added small gaps running along the length of its bottom. This made a good home for bats, and soon the bridge was the home of thousands of bats. At first, people were afraid of the bats and tried to get rid of them. Now, they have come to value their winged neighbours. The bats are a tourist attraction, and they eat lots of bugs every night.\nThere are also structures built with the objective of bringing wildlife into the city. The Beijing Olympic Forest Park is a good example. The park used native plants and created open, natural spaces for wildlife. The result is a zone in Beijing with over 160 species of birds. In many ways, the park is the opposite of a zoo. Instead of being kept in cages, wildlife can move about freely.\nAnother example is a 2011 proposal for a tall “Birdscraper” building in New York. The building is intended to protect birds and fight pollution at the same time. It would be in the middle of a lake, birds would sit on it, and their droppings would fall into the water. The droppings would feed water plants which would then create oxygen through photosynthesis.\nIf we learn to share our space, we can become better neighbours to the wildlife around us. If we do not, more species will become extinct and our own future will be endangered.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Cities are diverse ecosystems. In addition to visitors from the wild, such as coyotes in Los Angeles or boars in Berlin, a large number of species share our urban areas. As our cities spread, we need to think about what it is like for other species to have human neighbours."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Because cities are built for humans, they do not always provide suitable habitats for wildlife. For example, most city parks are kept neat and tidy so that humans will find them beautiful. But when we cut grass or plant flowers, we destroy natural habitats."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Our actions sometimes help other species. When a bridge in Austin, Texas was repaired, engineers added small gaps running along the length of its bottom. This made a good home for bats, and soon the bridge was the home of thousands of bats. At first, people were afraid of the bats and tried to get rid of them. Now, they have come to value their winged neighbours. The bats are a tourist attraction, and they eat lots of bugs every night."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "There are also structures built with the objective of bringing wildlife into the city. The Beijing Olympic Forest Park is a good example. The park used native plants and created open, natural spaces for wildlife. The result is a zone in Beijing with over 160 species of birds. In many ways, the park is the opposite of a zoo. Instead of being kept in cages, wildlife can move about freely."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Another example is a 2011 proposal for a tall “Birdscraper” building in New York. The building is intended to protect birds and fight pollution at the same time. It would be in the middle of a lake, birds would sit on it, and their droppings would fall into the water. The droppings would feed water plants which would then create oxygen through photosynthesis."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "If we learn to share our space, we can become better neighbours to the wildlife around us. If we do not, more species will become extinct and our own future will be endangered."
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "必修第二册",
+    "pageStart": 79,
+    "pageEnd": 79,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "38d49874e4f015fd89f21c9306f6b9d5",
+    "pdfSize": 14270612,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/senior-required-2.pdf#page=79",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored the complete six-paragraph urban-wildlife feature, visually following the text around three photographs; removed Chinese glosses for coyotes, boars and photosynthesis plus all images and running furniture."
+    }
+  }
+}

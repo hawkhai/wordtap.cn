@@ -1,0 +1,135 @@
+{
+  "schemaVersion": 1,
+  "id": "nce2-037",
+  "bookId": "nce2",
+  "bookNo": 2,
+  "lessonNo": 37,
+  "lessonRange": [
+    37
+  ],
+  "title": "The Olympic Games",
+  "titleZh": "奥运会",
+  "question": "When was the last time this country hosted the Olympic Games?",
+  "questionZh": "这个国家上一次举办奥运会是什么时候？举办奥运会？",
+  "text": "When was the last time this country hosted the Olympic Games?\n\nThe Olympic Games will be held in our country in four years' time.\nAs a great many people will be visiting the country, the government will be building new hotels, an immense stadium, and a new Olympic-standard swimming pool.\nThey will also be building new roads and a special railway line.\nThe Games will be held just outside the capital and the whole area will be called 'Olympic City'.\nWorkers will have completed the new roads by the end of this year.\nBy the end of next year, they will have finished work on the new stadium.\nThe fantastic modern buildings have been designed by Kurt Gunter.\nEverybody will be watching anxiously as the new buildings go up.\nWe are all very excited and are looking forward to the Olympic Games because they have never been held before in this country.",
+  "bodyText": "The Olympic Games will be held in our country in four years' time.\nAs a great many people will be visiting the country, the government will be building new hotels, an immense stadium, and a new Olympic-standard swimming pool.\nThey will also be building new roads and a special railway line.\nThe Games will be held just outside the capital and the whole area will be called 'Olympic City'.\nWorkers will have completed the new roads by the end of this year.\nBy the end of next year, they will have finished work on the new stadium.\nThe fantastic modern buildings have been designed by Kurt Gunter.\nEverybody will be watching anxiously as the new buildings go up.\nWe are all very excited and are looking forward to the Olympic Games because they have never been held before in this country.",
+  "bodyTextZh": "奥运会将在我们国家举行由于将有大量游客来访\n政府将建造新酒店访问这个国家政府将会建造新的酒店。一个巨大的体育场。以及一个符合奥运标准的游泳池。\n他们还将修建新的道路。以及一条专门的铁路线。\n比赛将在首都郊外举行。整个区域将被命名为“奥林匹克城”。\n工人们将在今年年底前完成新道路建设到今年年底为止。\n到明年年底为止，他们将在明年年底前完成新体育场的建设\n这些宏伟的现代建筑由库尔特·冈特设计设计者是库尔特·冈特\n大家都会急切地关注着新建筑的拔地而起\n我们都非常兴奋，都在期待着……因为奥运会……这个国家从未举办过奥运会",
+  "sentences": [
+    {
+      "index": 0,
+      "startTime": 0.5,
+      "endTime": 3,
+      "en": "Lesson 37",
+      "zh": "第37课",
+      "role": "lesson"
+    },
+    {
+      "index": 1,
+      "startTime": 3,
+      "endTime": 10.34,
+      "en": "The Olympic Games",
+      "zh": "奥运会",
+      "role": "title"
+    },
+    {
+      "index": 2,
+      "startTime": 10.34,
+      "endTime": 17,
+      "en": "When was the last time this country hosted the Olympic Games?",
+      "zh": "这个国家上一次举办奥运会是什么时候？举办奥运会？",
+      "role": "question"
+    },
+    {
+      "index": 3,
+      "startTime": 17,
+      "endTime": 22.6,
+      "en": "The Olympic Games will be held in our country in four years' time.",
+      "zh": "奥运会将在我们国家举行由于将有大量游客来访",
+      "role": "body"
+    },
+    {
+      "index": 4,
+      "startTime": 22.6,
+      "endTime": 36.32,
+      "en": "As a great many people will be visiting the country, the government will be building new hotels, an immense stadium, and a new Olympic-standard swimming pool.",
+      "zh": "政府将建造新酒店访问这个国家政府将会建造新的酒店。一个巨大的体育场。以及一个符合奥运标准的游泳池。",
+      "role": "body"
+    },
+    {
+      "index": 5,
+      "startTime": 36.32,
+      "endTime": 42.09,
+      "en": "They will also be building new roads and a special railway line.",
+      "zh": "他们还将修建新的道路。以及一条专门的铁路线。",
+      "role": "body"
+    },
+    {
+      "index": 6,
+      "startTime": 42.09,
+      "endTime": 50.49,
+      "en": "The Games will be held just outside the capital and the whole area will be called 'Olympic City'.",
+      "zh": "比赛将在首都郊外举行。整个区域将被命名为“奥林匹克城”。",
+      "role": "body"
+    },
+    {
+      "index": 7,
+      "startTime": 50.49,
+      "endTime": 55.82,
+      "en": "Workers will have completed the new roads by the end of this year.",
+      "zh": "工人们将在今年年底前完成新道路建设到今年年底为止。",
+      "role": "body"
+    },
+    {
+      "index": 8,
+      "startTime": 55.82,
+      "endTime": 62.04,
+      "en": "By the end of next year, they will have finished work on the new stadium.",
+      "zh": "到明年年底为止，他们将在明年年底前完成新体育场的建设",
+      "role": "body"
+    },
+    {
+      "index": 9,
+      "startTime": 62.04,
+      "endTime": 68.47,
+      "en": "The fantastic modern buildings have been designed by Kurt Gunter.",
+      "zh": "这些宏伟的现代建筑由库尔特·冈特设计设计者是库尔特·冈特",
+      "role": "body"
+    },
+    {
+      "index": 10,
+      "startTime": 68.47,
+      "endTime": 74.63,
+      "en": "Everybody will be watching anxiously as the new buildings go up.",
+      "zh": "大家都会急切地关注着新建筑的拔地而起",
+      "role": "body"
+    },
+    {
+      "index": 11,
+      "startTime": 74.63,
+      "endTime": null,
+      "en": "We are all very excited and are looking forward to the Olympic Games because they have never been held before in this country.",
+      "zh": "我们都非常兴奋，都在期待着……因为奥运会……这个国家从未举办过奥运会",
+      "role": "body"
+    }
+  ],
+  "audio": {
+    "fileName": "37－The Olympic Games.mp3",
+    "sourcePath": "content/NCE-Flow/NCE2/37－The Olympic Games.mp3",
+    "exists": true
+  },
+  "source": {
+    "repository": "NCE-Flow",
+    "lrcFileName": "37－The Olympic Games.lrc",
+    "lrcPath": "content/NCE-Flow/NCE2/37－The Olympic Games.lrc",
+    "sourceDataFile": "content/NCE-Flow/static/data.json",
+    "generatedAt": "2026-07-23T02:59:02+00:00",
+    "generator": "scripts/generate_nce_json.py",
+    "generatorVersion": "2.0.0",
+    "metadata": {
+      "al": "新概念英语（二）",
+      "ar": "MP3 同步字幕版（美音）",
+      "ti": "The Olympic Games",
+      "by": "更多学习内容，请到VeryCD.com搜索“露珠”"
+    }
+  }
+}

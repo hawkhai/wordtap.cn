@@ -1,0 +1,143 @@
+{
+  "schemaVersion": 1,
+  "id": "nce2-070",
+  "bookId": "nce2",
+  "bookNo": 2,
+  "lessonNo": 70,
+  "lessonRange": [
+    70
+  ],
+  "title": "Red for Danger",
+  "titleZh": "危险的红色",
+  "question": "How was the drunk removed from the ring?",
+  "questionZh": "那个醉汉是如何被从斗牛场里带走的呢？",
+  "text": "How was the drunk removed from the ring?\n\nDuring a bullfight, a drunk suddenly wandered into the middle of the ring.\nThe crowd began to shout, but the drunk was unaware of the danger.\nThe bull was busy with the matador at the time, but it suddenly caught sight of the drunk who was shouting rude remarks and waving a red cap.\nApparently sensitive to criticism, the bull forgot all about the matador and charged at the drunk.\nThe crowd suddenly grew quiet.\nThe drunk, however, seemed quite sure of himself.\nWhen the bull got close to him, he clumsily stepped aside to let it pass.\nThe crowd broke into cheers and the drunk bowed.\nBy this time, however three men had come into the ring and they quickly dragged the drunk to safety.\nEven the bull seemed to feel sorry for him, for it looked on sympathetically until the drunk was out of the way before once more turning its attention to the matador.",
+  "bodyText": "During a bullfight, a drunk suddenly wandered into the middle of the ring.\nThe crowd began to shout, but the drunk was unaware of the danger.\nThe bull was busy with the matador at the time, but it suddenly caught sight of the drunk who was shouting rude remarks and waving a red cap.\nApparently sensitive to criticism, the bull forgot all about the matador and charged at the drunk.\nThe crowd suddenly grew quiet.\nThe drunk, however, seemed quite sure of himself.\nWhen the bull got close to him, he clumsily stepped aside to let it pass.\nThe crowd broke into cheers and the drunk bowed.\nBy this time, however three men had come into the ring and they quickly dragged the drunk to safety.\nEven the bull seemed to feel sorry for him, for it looked on sympathetically until the drunk was out of the way before once more turning its attention to the matador.",
+  "bodyTextZh": "在一场斗牛比赛中，一个醉汉突然走进了斗牛场的中央。\n人群开始大声呼喊，但醉汉并没有意识到危险。\n当时公牛正与斗牛士搏斗，突然它注意到了那个醉汉——醉汉正在大声说脏话，并挥舞着一顶红色帽子。\n显然，这头公牛对批评很敏感，它立刻忘记了斗牛士的存在，冲向了醉汉。\n人群顿时安静了下来。\n然而，醉汉似乎对自己很有信心。\n当公牛靠近时，他笨拙地躲到一边，让公牛从自己身边经过。\n人群爆发出欢呼声，醉汉也鞠了一躬。\n然而这时，已经有三个人走进了斗牛场，他们迅速把醉汉拖到了安全的地方。\n就连那头公牛似乎也对他感到同情。它同情地看着那个醉汉，直到他被带走后，才再次把注意力转向斗牛士。",
+  "sentences": [
+    {
+      "index": 0,
+      "startTime": 0.5,
+      "endTime": 3,
+      "en": "Lesson 70",
+      "zh": "第70课",
+      "role": "lesson"
+    },
+    {
+      "index": 1,
+      "startTime": 3,
+      "endTime": 10.54,
+      "en": "Red for Danger",
+      "zh": "危险的红色",
+      "role": "title"
+    },
+    {
+      "index": 2,
+      "startTime": 10.54,
+      "endTime": 15.52,
+      "en": "How was the drunk removed from the ring?",
+      "zh": "那个醉汉是如何被从斗牛场里带走的呢？",
+      "role": "question"
+    },
+    {
+      "index": 3,
+      "startTime": 15.52,
+      "endTime": 22.1,
+      "en": "During a bullfight, a drunk suddenly wandered into the middle of the ring.",
+      "zh": "在一场斗牛比赛中，一个醉汉突然走进了斗牛场的中央。",
+      "role": "body"
+    },
+    {
+      "index": 4,
+      "startTime": 22.1,
+      "endTime": 28.65,
+      "en": "The crowd began to shout, but the drunk was unaware of the danger.",
+      "zh": "人群开始大声呼喊，但醉汉并没有意识到危险。",
+      "role": "body"
+    },
+    {
+      "index": 5,
+      "startTime": 28.65,
+      "endTime": 41.14,
+      "en": "The bull was busy with the matador at the time, but it suddenly caught sight of the drunk who was shouting rude remarks and waving a red cap.",
+      "zh": "当时公牛正与斗牛士搏斗，突然它注意到了那个醉汉——醉汉正在大声说脏话，并挥舞着一顶红色帽子。",
+      "role": "body"
+    },
+    {
+      "index": 6,
+      "startTime": 41.14,
+      "endTime": 50.69,
+      "en": "Apparently sensitive to criticism, the bull forgot all about the matador and charged at the drunk.",
+      "zh": "显然，这头公牛对批评很敏感，它立刻忘记了斗牛士的存在，冲向了醉汉。",
+      "role": "body"
+    },
+    {
+      "index": 7,
+      "startTime": 50.69,
+      "endTime": 54.48,
+      "en": "The crowd suddenly grew quiet.",
+      "zh": "人群顿时安静了下来。",
+      "role": "body"
+    },
+    {
+      "index": 8,
+      "startTime": 54.48,
+      "endTime": 59.38,
+      "en": "The drunk, however, seemed quite sure of himself.",
+      "zh": "然而，醉汉似乎对自己很有信心。",
+      "role": "body"
+    },
+    {
+      "index": 9,
+      "startTime": 59.38,
+      "endTime": 66.51,
+      "en": "When the bull got close to him, he clumsily stepped aside to let it pass.",
+      "zh": "当公牛靠近时，他笨拙地躲到一边，让公牛从自己身边经过。",
+      "role": "body"
+    },
+    {
+      "index": 10,
+      "startTime": 66.51,
+      "endTime": 71.33,
+      "en": "The crowd broke into cheers and the drunk bowed.",
+      "zh": "人群爆发出欢呼声，醉汉也鞠了一躬。",
+      "role": "body"
+    },
+    {
+      "index": 11,
+      "startTime": 71.33,
+      "endTime": 80.11,
+      "en": "By this time, however three men had come into the ring and they quickly dragged the drunk to safety.",
+      "zh": "然而这时，已经有三个人走进了斗牛场，他们迅速把醉汉拖到了安全的地方。",
+      "role": "body"
+    },
+    {
+      "index": 12,
+      "startTime": 80.11,
+      "endTime": null,
+      "en": "Even the bull seemed to feel sorry for him, for it looked on sympathetically until the drunk was out of the way before once more turning its attention to the matador.",
+      "zh": "就连那头公牛似乎也对他感到同情。它同情地看着那个醉汉，直到他被带走后，才再次把注意力转向斗牛士。",
+      "role": "body"
+    }
+  ],
+  "audio": {
+    "fileName": "70－Red for Danger.mp3",
+    "sourcePath": "content/NCE-Flow/NCE2/70－Red for Danger.mp3",
+    "exists": true
+  },
+  "source": {
+    "repository": "NCE-Flow",
+    "lrcFileName": "70－Red for Danger.lrc",
+    "lrcPath": "content/NCE-Flow/NCE2/70－Red for Danger.lrc",
+    "sourceDataFile": "content/NCE-Flow/static/data.json",
+    "generatedAt": "2026-07-23T02:59:02+00:00",
+    "generator": "scripts/generate_nce_json.py",
+    "generatorVersion": "2.0.0",
+    "metadata": {
+      "al": "新概念英语（二）",
+      "ar": "MP3 同步字幕版（美音）",
+      "ti": "Red for Danger",
+      "by": "更多学习内容，请到VeryCD.com搜索“露珠”"
+    }
+  }
+}

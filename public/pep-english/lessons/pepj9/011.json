@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "pepj9-011",
+  "groupId": "pepj9",
+  "unitNo": 3,
+  "sequenceNo": 11,
+  "section": "Section B",
+  "title": "Could You Please...?",
+  "jsonPath": "pep-english/lessons/pepj9/011.json",
+  "text": "When you visit a foreign country, it is important to know how to ask for help politely. For example, you may ask \"Where are the restrooms?\" or \"Could you please tell me where the restrooms are?\" These are similar requests for directions. Both are correct, but the first one sounds less polite. That is because it is a very direct question. It is not enough to just ask a question correctly. We also need to learn how to be polite when we ask for help.\nGood speakers change the way they speak in different situations. The expressions they use might depend on whom they are speaking to or how well they know each other. It is all right to ask your classmates direct questions because you know them well. However, if you say to your teacher, \"When is the school trip?\", this might sound impolite. But if you say, \"Excuse me, Mr. West. Do you know when the school trip is?\", this will sound much more polite.\nUsually polite questions are longer. They include expressions such as \"Could you please...?\" or \"May I ask...?\" It sounds more polite to say, \"Peter, could you please tell me your e-mail address?\" than \"Peter, tell me your e-mail address.\" Sometimes we even need to spend time leading into a request. For example, we might first say to a stranger, \"Excuse me, I wonder if you can help me\" or \"I'm sorry to trouble you, but...\" before asking for help.\nIt might seem more difficult to speak politely than directly. However, it is important to learn how to use the right language in different situations. This will help you communicate better with other people.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "When you visit a foreign country, it is important to know how to ask for help politely. For example, you may ask \"Where are the restrooms?\" or \"Could you please tell me where the restrooms are?\" These are similar requests for directions. Both are correct, but the first one sounds less polite. That is because it is a very direct question. It is not enough to just ask a question correctly. We also need to learn how to be polite when we ask for help."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Good speakers change the way they speak in different situations. The expressions they use might depend on whom they are speaking to or how well they know each other. It is all right to ask your classmates direct questions because you know them well. However, if you say to your teacher, \"When is the school trip?\", this might sound impolite. But if you say, \"Excuse me, Mr. West. Do you know when the school trip is?\", this will sound much more polite."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Usually polite questions are longer. They include expressions such as \"Could you please...?\" or \"May I ask...?\" It sounds more polite to say, \"Peter, could you please tell me your e-mail address?\" than \"Peter, tell me your e-mail address.\" Sometimes we even need to spend time leading into a request. For example, we might first say to a stranger, \"Excuse me, I wonder if you can help me\" or \"I'm sorry to trouble you, but...\" before asking for help."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "It might seem more difficult to speak politely than directly. However, it is important to learn how to use the right language in different situations. This will help you communicate better with other people."
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "初中",
+    "book": "九年级全一册",
+    "pageStart": 36,
+    "pageEnd": 36,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "c6e628c22e0c2f9cfe4547699a1c95a4",
+    "pdfSize": 11088578,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/junior-9.pdf#page=36",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored the printed title and all four complete explanatory paragraphs with example requests; excluded 2a/2b instructions, the language-strategy box and cartoon speech bubbles."
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "id": "pephr2-024",
+  "groupId": "pephr2",
+  "unitNo": 4,
+  "sequenceNo": 24,
+  "section": "Reading and Writing",
+  "title": "Sally's Message from Athens",
+  "jsonPath": "pep-english/lessons/pephr2/024.json",
+  "text": "Hi from Athens, John! There is just so much ancient history to explore here. My first stop was the Acropolis. What a place—I never realised the columns would be so big! The old quarter of Plaka is just like a painting—little streets of houses on hills, all painted white and blue. I go there every night and find a little restaurant to try some traditional Greek food. After my meal, I always order a lovely Greek coffee and just soak up the atmosphere. Tomorrow, I'm going to see the changing of the guard. I can't wait to take a selfie with them—and their funny shoes! Take care!\nSally",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Hi from Athens, John! There is just so much ancient history to explore here. My first stop was the Acropolis. What a place—I never realised the columns would be so big! The old quarter of Plaka is just like a painting—little streets of houses on hills, all painted white and blue. I go there every night and find a little restaurant to try some traditional Greek food. After my meal, I always order a lovely Greek coffee and just soak up the atmosphere. Tomorrow, I'm going to see the changing of the guard. I can't wait to take a selfie with them—and their funny shoes! Take care!"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Sally"
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "必修第二册",
+    "pageStart": 89,
+    "pageEnd": 89,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "38d49874e4f015fd89f21c9306f6b9d5",
+    "pdfSize": 14270612,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/senior-required-2.pdf#page=89",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored Sally's complete Athens message and signature as an independent text; removed the inline Chinese gloss for Plaka and all photographs.",
+      "splitBaselineId": "pephr2-035",
+      "splitIndex": 2,
+      "splitCount": 2
+    }
+  }
+}

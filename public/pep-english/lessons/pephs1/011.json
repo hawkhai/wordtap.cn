@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "id": "pephs1-011",
+  "groupId": "pephs1",
+  "unitNo": 4,
+  "sequenceNo": 11,
+  "section": "Reading and Thinking",
+  "title": "Listening to How Bodies Talk",
+  "jsonPath": "pep-english/lessons/pephs1/011.json",
+  "text": "We use both words and body language to express our thoughts and opinions in our interactions with other people. We can learn a lot about what people are thinking by watching their body language. Words are important, but the way people stand, hold their arms, and move their hands can also give us information about their feelings.\nJust like spoken language, body language varies from culture to culture. The crucial thing is using body language in a way that is appropriate to the culture you are in. For example, making eye contact—looking into someone’s eyes—in some countries is a way to display interest. In other countries, by contrast, eye contact is not always approved of. For example, in many Middle Eastern countries, men and women are not socially permitted to make eye contact. In Japan, it may demonstrate respect to look down when talking to an older person.\nThe gesture for “OK” has different meanings in different cultures. In Japan, someone who witnesses another person employing the gesture might think it means money. In France, a person encountering an identical gesture may interpret it as meaning zero. However, you should avoid making this gesture in Brazil and Germany, as it is not considered polite.\nEven the gestures we use for “yes” and “no” differ around the world. In many countries, shaking one’s head means “no”, and nodding means “yes”. By comparison, in Bulgaria and southern Albania, the gestures have the opposite meaning. There are also differences in how we touch each other, how close we stand to someone we are talking to, and how we act when we meet or part. In countries like France and Russia, people may kiss their friends on the cheek when they meet. Elsewhere, people favour shaking hands, bowing from the waist, or nodding the head when they meet someone else.\nSome gestures seem to have the same meaning everywhere. Placing your hands together and resting them on the side of your head while closing your eyes means “sleep”. A good way of saying “I am full” is moving your hand in circles over your stomach after a meal.\nSome body language has many different uses. Perhaps the best example is smiling. A smile can help us get through difficult situations and find friends in a world of strangers. A smile can break down barriers. We can use a smile to apologise, to greet someone, to ask for help, or to start a conversation. Experts suggest smiling at yourself in the mirror to make yourself feel happier and stronger. And if we are feeling down or lonely, there is nothing better than seeing the smiling face of a good friend.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "We use both words and body language to express our thoughts and opinions in our interactions with other people. We can learn a lot about what people are thinking by watching their body language. Words are important, but the way people stand, hold their arms, and move their hands can also give us information about their feelings."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Just like spoken language, body language varies from culture to culture. The crucial thing is using body language in a way that is appropriate to the culture you are in. For example, making eye contact—looking into someone’s eyes—in some countries is a way to display interest. In other countries, by contrast, eye contact is not always approved of. For example, in many Middle Eastern countries, men and women are not socially permitted to make eye contact. In Japan, it may demonstrate respect to look down when talking to an older person."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "The gesture for “OK” has different meanings in different cultures. In Japan, someone who witnesses another person employing the gesture might think it means money. In France, a person encountering an identical gesture may interpret it as meaning zero. However, you should avoid making this gesture in Brazil and Germany, as it is not considered polite."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Even the gestures we use for “yes” and “no” differ around the world. In many countries, shaking one’s head means “no”, and nodding means “yes”. By comparison, in Bulgaria and southern Albania, the gestures have the opposite meaning. There are also differences in how we touch each other, how close we stand to someone we are talking to, and how we act when we meet or part. In countries like France and Russia, people may kiss their friends on the cheek when they meet. Elsewhere, people favour shaking hands, bowing from the waist, or nodding the head when they meet someone else."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Some gestures seem to have the same meaning everywhere. Placing your hands together and resting them on the side of your head while closing your eyes means “sleep”. A good way of saying “I am full” is moving your hand in circles over your stomach after a meal."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Some body language has many different uses. Perhaps the best example is smiling. A smile can help us get through difficult situations and find friends in a world of strangers. A smile can break down barriers. We can use a smile to apologise, to greet someone, to ask for help, or to start a conversation. Experts suggest smiling at yourself in the mirror to make yourself feel happier and stronger. And if we are feeling down or lonely, there is nothing better than seeing the smiling face of a good friend."
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "选择性必修第一册",
+    "pageStart": 45,
+    "pageEnd": 46,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "f19c4231e96ee3a9c769533d676f1106",
+    "pdfSize": 12809514,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/senior-selective-1.pdf#page=45-46",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored the complete six-paragraph body-language article across pages 45–46 in printed order; excluded acting prompts, instruction, inference strategy box, photograph, incomplete table, questions, video activity and running furniture."
+    }
+  }
+}

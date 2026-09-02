@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "pepj9-038",
+  "groupId": "pepj9",
+  "unitNo": 12,
+  "sequenceNo": 38,
+  "section": "Section A",
+  "title": "Life Is Full of the Unexpected",
+  "jsonPath": "pep-english/lessons/pepj9/038.json",
+  "text": "In May 2001, I found a job in New York at the World Trade Center. On September 11, 2001, I arrived at my building at around 8:30 a.m. I was about to go up when I decided to get a coffee first. I went to my favorite coffee place even though it was two blocks east from my office. As I was waiting in line with other office workers, I heard a loud sound. Before I could join the others outside to see what was going on, the first plane had already hit my office building. We stared in disbelief at the black smoke rising above the burning building. I felt lucky to be alive.\nAlmost 10 years later, I woke up at 10:00 a.m. on February 21, 2011 and realized that my alarm had never gone off. I jumped out of bed and went straight to the airport. But by the time I got to the airport, my plane to New Zealand had already taken off. \"This is the first holiday I've taken in a year, and now I've missed my plane. What bad luck!\" I thought to myself. The other planes were full so I had to wait till the next day. The next morning, I heard about the earthquake in New Zealand the day before. My bad luck had unexpectedly turned into a good thing.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "In May 2001, I found a job in New York at the World Trade Center. On September 11, 2001, I arrived at my building at around 8:30 a.m. I was about to go up when I decided to get a coffee first. I went to my favorite coffee place even though it was two blocks east from my office. As I was waiting in line with other office workers, I heard a loud sound. Before I could join the others outside to see what was going on, the first plane had already hit my office building. We stared in disbelief at the black smoke rising above the burning building. I felt lucky to be alive."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Almost 10 years later, I woke up at 10:00 a.m. on February 21, 2011 and realized that my alarm had never gone off. I jumped out of bed and went straight to the airport. But by the time I got to the airport, my plane to New Zealand had already taken off. \"This is the first holiday I've taken in a year, and now I've missed my plane. What bad luck!\" I thought to myself. The other planes were full so I had to wait till the next day. The next morning, I heard about the earthquake in New Zealand the day before. My bad luck had unexpectedly turned into a good thing."
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "初中",
+    "book": "九年级全一册",
+    "pageStart": 105,
+    "pageEnd": 105,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "c6e628c22e0c2f9cfe4547699a1c95a4",
+    "pdfSize": 11088578,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/junior-9.pdf#page=105",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored the exact printed title and both complete event narratives through their resolutions; excluded the 3a questions and exercises 3b-3c."
+    }
+  }
+}

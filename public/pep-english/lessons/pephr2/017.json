@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "pephr2-017",
+  "groupId": "pephr2",
+  "unitNo": 1,
+  "sequenceNo": 17,
+  "section": "Reading and Writing",
+  "title": "Relics from Ancient Greek Ship Rescued",
+  "jsonPath": "pep-english/lessons/pephr2/017.json",
+  "text": "Athens, 8 October 2014. Relics on a Greek ship that sank more than 2,000 years ago have been rescued by an international team of archaeologists and divers. Several artefacts, including a large bronze spear, were found. The ship, which rests 55 metres below the surface, was first discovered in 1900 by local divers. Because the water is so deep, it has been very difficult to examine the ship. Earlier this year, scientists were able to use a robot to photograph and make a map of the wreck. The cultural relics which were then rescued by the international team are among the most important to date and will help answer some of the questions about the history of the ship. “A lot of work has to be done at this site to uncover its secrets,” said the leader of the team.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Athens, 8 October 2014. Relics on a Greek ship that sank more than 2,000 years ago have been rescued by an international team of archaeologists and divers. Several artefacts, including a large bronze spear, were found. The ship, which rests 55 metres below the surface, was first discovered in 1900 by local divers. Because the water is so deep, it has been very difficult to examine the ship. Earlier this year, scientists were able to use a robot to photograph and make a map of the wreck. The cultural relics which were then rescued by the international team are among the most important to date and will help answer some of the questions about the history of the ship. “A lot of work has to be done at this site to uncover its secrets,” said the leader of the team."
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "必修第二册",
+    "pageStart": 71,
+    "pageEnd": 71,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "38d49874e4f015fd89f21c9306f6b9d5",
+    "pdfSize": 14270612,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/senior-required-2.pdf#page=71",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored the complete Athens-datelined report as an independent lesson, excluding the shared feature introduction and page activities.",
+      "splitBaselineId": "pephr2-026",
+      "splitIndex": 1,
+      "splitCount": 2
+    }
+  }
+}

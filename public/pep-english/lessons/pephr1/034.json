@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "id": "pephr1-034",
+  "groupId": "pephr1",
+  "unitNo": 4,
+  "sequenceNo": 34,
+  "section": "Expanding Your World",
+  "title": "China to the Rescue!",
+  "jsonPath": "pep-english/lessons/pephr1/034.json",
+  "text": "The China International Search and Rescue Team (CISAR) was formed in 2001 and is now made up of several hundred rescue workers and about 20 sniffer dogs. The team brings help and hope to those whose lives are changed by a storm, flood, earthquake, or any other natural disaster.\nAfter long and careful training, the team went on its first international rescue missions in 2003. That year, the Chinese team helped save lives after earthquakes in Algeria and Iran. It was the first time that a Chinese team had worked outside China, and the team won high praise for their bravery and skill.\nSince then, the CISAR has completed many missions. The list of people to whom help has been given is long. The team treated more than 3,000 people who were injured in the 2006 earthquake in Indonesia, helped 2,500 wounded people after the earthquake that hit Haiti in 2010, and spent several months giving aid to over 25,000 victims of the 2010 floods in Pakistan.\nRescue workers are trained to find people, treat injuries, and hand out food, water, and other supplies. They have to be able to do work that is difficult under conditions which can be very dangerous. After a disaster, there is usually no electricity or water, and there may be diseases and accidents. Rescue workers get to save lives, but they must also bury the dead. That means they have to be strong in both body and mind.\nRescue workers must have big hearts, too. It takes a lot of love and courage to risk one's own life to save someone else's. The members of the CISAR have plenty of both and are always ready to go wherever help is needed.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "The China International Search and Rescue Team (CISAR) was formed in 2001 and is now made up of several hundred rescue workers and about 20 sniffer dogs. The team brings help and hope to those whose lives are changed by a storm, flood, earthquake, or any other natural disaster."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "After long and careful training, the team went on its first international rescue missions in 2003. That year, the Chinese team helped save lives after earthquakes in Algeria and Iran. It was the first time that a Chinese team had worked outside China, and the team won high praise for their bravery and skill."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Since then, the CISAR has completed many missions. The list of people to whom help has been given is long. The team treated more than 3,000 people who were injured in the 2006 earthquake in Indonesia, helped 2,500 wounded people after the earthquake that hit Haiti in 2010, and spent several months giving aid to over 25,000 victims of the 2010 floods in Pakistan."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Rescue workers are trained to find people, treat injuries, and hand out food, water, and other supplies. They have to be able to do work that is difficult under conditions which can be very dangerous. After a disaster, there is usually no electricity or water, and there may be diseases and accidents. Rescue workers get to save lives, but they must also bury the dead. That means they have to be strong in both body and mind."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Rescue workers must have big hearts, too. It takes a lot of love and courage to risk one's own life to save someone else's. The members of the CISAR have plenty of both and are always ready to go wherever help is needed."
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "必修第一册",
+    "pageStart": 101,
+    "pageEnd": 101,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "e0bf18138b24d7def28b35994a13946b",
+    "pdfSize": 14704146,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/senior-required-1.pdf#page=101",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored the complete five-paragraph CISAR feature in printed order; removed Chinese country-name glosses, the section furniture and photograph."
+    }
+  }
+}

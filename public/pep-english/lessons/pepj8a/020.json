@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 1,
+  "id": "pepj8a-020",
+  "groupId": "pepj8a",
+  "unitNo": 8,
+  "sequenceNo": 20,
+  "section": "Section B",
+  "title": "Thanksgiving in North America",
+  "jsonPath": "pep-english/lessons/pepj8a/020.json",
+  "text": "In most countries, people usually eat traditional food on special holidays. A special day in North America is Thanksgiving. In the United States, this festival is always on the fourth Thursday in November, but in Canada it falls on the second Monday in October. Thanksgiving is a time to give thanks for food in the autumn and other good things people enjoy in life.\nFamilies see Thanksgiving as a time to get together and usually celebrate it with a big family meal. The main dish of this meal is almost always turkey, a large bird. To go with the turkey, people often prepare other things, such as gravy, cornbread, mashed potatoes, and pumpkin or apple pie.\nHere is one way to make turkey for a Thanksgiving dinner.\nFirst, mix together some bread pieces, onions, salt and pepper.\nNext, fill the turkey with this bread mix.\nThen, put the turkey in a hot oven and cook it for a few hours.\nWhen it is ready, place the turkey on a large plate and cover it with gravy.\nFinally, cut the turkey into thin pieces and eat the meat with vegetables like carrots and potatoes.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "In most countries, people usually eat traditional food on special holidays. A special day in North America is Thanksgiving. In the United States, this festival is always on the fourth Thursday in November, but in Canada it falls on the second Monday in October. Thanksgiving is a time to give thanks for food in the autumn and other good things people enjoy in life."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Families see Thanksgiving as a time to get together and usually celebrate it with a big family meal. The main dish of this meal is almost always turkey, a large bird. To go with the turkey, people often prepare other things, such as gravy, cornbread, mashed potatoes, and pumpkin or apple pie."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Here is one way to make turkey for a Thanksgiving dinner."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "First, mix together some bread pieces, onions, salt and pepper."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Next, fill the turkey with this bread mix."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Then, put the turkey in a hot oven and cook it for a few hours."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "When it is ready, place the turkey on a large plate and cover it with gravy."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Finally, cut the turkey into thin pieces and eat the meat with vegetables like carrots and potatoes."
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "初中",
+    "book": "八年级上册",
+    "pageStart": 72,
+    "pageEnd": 72,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "24fcd352dca21a6ee547539f550ed35c",
+    "pdfSize": 9469090,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/junior-8a.pdf#page=72",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored both Thanksgiving background paragraphs, the recipe introduction and all five ordered steps; kept the printed main title as metadata, corrected Section B and excluded 2a/2b instructions."
+    }
+  }
+}

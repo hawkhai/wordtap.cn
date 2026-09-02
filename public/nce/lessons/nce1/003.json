@@ -1,0 +1,168 @@
+{
+  "schemaVersion": 1,
+  "id": "nce1-003",
+  "bookId": "nce1",
+  "bookNo": 1,
+  "lessonNo": 3,
+  "lessonRange": [
+    3,
+    4
+  ],
+  "title": "Sorry, Sir.",
+  "titleZh": "对不起，先生。",
+  "question": "Does the man get his umbrella back?",
+  "questionZh": "那个男人能拿回他的伞吗？",
+  "text": "Does the man get his umbrella back?\n\nMy coat and my umbrella please.\nHere is my ticket.\nThank you sir.\nNumber five.\nHere's your umbrella and your coat.\nThis is not my umbrella.\nSorry sir.\nIs this your umbrella?\nNo it isn't.\nIs this it?\nYes it is.\nThank you very much.",
+  "bodyText": "My coat and my umbrella please.\nHere is my ticket.\nThank you sir.\nNumber five.\nHere's your umbrella and your coat.\nThis is not my umbrella.\nSorry sir.\nIs this your umbrella?\nNo it isn't.\nIs this it?\nYes it is.\nThank you very much.",
+  "bodyTextZh": "请给我我的外套和雨伞。\n这是我的票。\n谢谢您，先生。\n五号。\n这是你的伞和外套。\n这不是我的伞。\n对不起，先生。\n这是你的伞吗？\n不，它不是。\n是这把吗？\n是的，这就是它。\n非常感谢您。",
+  "sentences": [
+    {
+      "index": 0,
+      "startTime": 0.79,
+      "endTime": 2.98,
+      "en": "Lesson 3",
+      "zh": "第3课",
+      "role": "lesson"
+    },
+    {
+      "index": 1,
+      "startTime": 2.98,
+      "endTime": 5.75,
+      "en": "Sorry sir.",
+      "zh": "对不起，先生。",
+      "role": "title"
+    },
+    {
+      "index": 2,
+      "startTime": 5.75,
+      "endTime": 11.71,
+      "en": "Listen to the tape then answer this question.",
+      "zh": "先听这段录音，然后再回答这个问题。",
+      "role": "prompt"
+    },
+    {
+      "index": 3,
+      "startTime": 11.71,
+      "endTime": 17.56,
+      "en": "Does the man get his umbrella back?",
+      "zh": "那个男人能拿回他的伞吗？",
+      "role": "question"
+    },
+    {
+      "index": 4,
+      "startTime": 17.56,
+      "endTime": 22,
+      "en": "My coat and my umbrella please.",
+      "zh": "请给我我的外套和雨伞。",
+      "role": "body"
+    },
+    {
+      "index": 5,
+      "startTime": 22,
+      "endTime": 25.03,
+      "en": "Here is my ticket.",
+      "zh": "这是我的票。",
+      "role": "body"
+    },
+    {
+      "index": 6,
+      "startTime": 25.03,
+      "endTime": 26.86,
+      "en": "Thank you sir.",
+      "zh": "谢谢您，先生。",
+      "role": "body"
+    },
+    {
+      "index": 7,
+      "startTime": 26.86,
+      "endTime": 29.09,
+      "en": "Number five.",
+      "zh": "五号。",
+      "role": "body"
+    },
+    {
+      "index": 8,
+      "startTime": 29.09,
+      "endTime": 33.72,
+      "en": "Here's your umbrella and your coat.",
+      "zh": "这是你的伞和外套。",
+      "role": "body"
+    },
+    {
+      "index": 9,
+      "startTime": 33.72,
+      "endTime": 37.39,
+      "en": "This is not my umbrella.",
+      "zh": "这不是我的伞。",
+      "role": "body"
+    },
+    {
+      "index": 10,
+      "startTime": 37.39,
+      "endTime": 39.67,
+      "en": "Sorry sir.",
+      "zh": "对不起，先生。",
+      "role": "body"
+    },
+    {
+      "index": 11,
+      "startTime": 39.67,
+      "endTime": 42.56,
+      "en": "Is this your umbrella?",
+      "zh": "这是你的伞吗？",
+      "role": "body"
+    },
+    {
+      "index": 12,
+      "startTime": 42.56,
+      "endTime": 45.69,
+      "en": "No it isn't.",
+      "zh": "不，它不是。",
+      "role": "body"
+    },
+    {
+      "index": 13,
+      "startTime": 45.69,
+      "endTime": 47.76,
+      "en": "Is this it?",
+      "zh": "是这把吗？",
+      "role": "body"
+    },
+    {
+      "index": 14,
+      "startTime": 47.76,
+      "endTime": 50.53,
+      "en": "Yes it is.",
+      "zh": "是的，这就是它。",
+      "role": "body"
+    },
+    {
+      "index": 15,
+      "startTime": 50.53,
+      "endTime": null,
+      "en": "Thank you very much.",
+      "zh": "非常感谢您。",
+      "role": "body"
+    }
+  ],
+  "audio": {
+    "fileName": "003&004－Sorry, Sir..mp3",
+    "sourcePath": "content/NCE-Flow/NCE1/003&004－Sorry, Sir..mp3",
+    "exists": true
+  },
+  "source": {
+    "repository": "NCE-Flow",
+    "lrcFileName": "003&004－Sorry, Sir..lrc",
+    "lrcPath": "content/NCE-Flow/NCE1/003&004－Sorry, Sir..lrc",
+    "sourceDataFile": "content/NCE-Flow/static/data.json",
+    "generatedAt": "2026-07-23T02:59:02+00:00",
+    "generator": "scripts/generate_nce_json.py",
+    "generatorVersion": "2.0.0",
+    "metadata": {
+      "al": "新概念英语（一）",
+      "ar": "MP3 同步字幕版（美音）",
+      "ti": "Sorry, Sir.",
+      "by": "更多学习内容，请到VeryCD.com搜索“露珠”"
+    }
+  }
+}

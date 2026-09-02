@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "id": "pephs4-039",
+  "groupId": "pephs4",
+  "unitNo": 4,
+  "sequenceNo": 39,
+  "section": "Using Structures",
+  "title": "As I Grew Older",
+  "jsonPath": "pep-english/lessons/pephs4/039.json",
+  "text": "It was a long time ago.\nI have almost forgotten my dream.\nBut it was there then, In front of me, Bright like a sun— My dream.\nAnd then the wall rose, Rose slowly, Slowly, Between me and my dream.\nRose slowly, slowly, Dimming, Hiding, The light of my dream.\nRose until it touched the sky— The wall.\nShadow.\nI am black.\nI lie down in the shadow.\nNo longer the light of my dream before me, Above me.\nOnly the thick wall.\nOnly the shadow.\nMy hands!\nMy dark hands!\nBreak through the wall!\nFind my dream!\nHelp me to shatter this darkness, To smash this night, To break this shadow Into a thousand lights of sun, Into a thousand whirling dreams Of sun!",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "It was a long time ago.\nI have almost forgotten my dream.\nBut it was there then, In front of me, Bright like a sun— My dream."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "And then the wall rose, Rose slowly, Slowly, Between me and my dream.\nRose slowly, slowly, Dimming, Hiding, The light of my dream.\nRose until it touched the sky— The wall."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Shadow.\nI am black."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "I lie down in the shadow.\nNo longer the light of my dream before me, Above me.\nOnly the thick wall.\nOnly the shadow."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "My hands!\nMy dark hands!\nBreak through the wall!\nFind my dream!\nHelp me to shatter this darkness, To smash this night, To break this shadow Into a thousand lights of sun, Into a thousand whirling dreams Of sun!"
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "选择性必修第四册",
+    "pageStart": 90,
+    "pageEnd": 90,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "6fc94127b322f6f5abff068bef6faa2e",
+    "pdfSize": 12330614,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/senior-selective-4.pdf#page=90",
+      "reviewedAt": "2026-07-22",
+      "notes": "Rejected the incomplete phrase-box story and recovered all five stanzas of Langston Hughes’s complete poem, preserving lineation.",
+      "splitBaselineId": "pephs4-044",
+      "splitIndex": 1,
+      "splitCount": 2
+    }
+  }
+}

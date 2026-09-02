@@ -1,0 +1,240 @@
+{
+  "schemaVersion": 1,
+  "id": "nce1-105",
+  "bookId": "nce1",
+  "bookNo": 1,
+  "lessonNo": 105,
+  "lessonRange": [
+    105,
+    106
+  ],
+  "title": "Full of Mistakes",
+  "titleZh": "满是错误",
+  "question": "What was Sandra's present?",
+  "questionZh": "桑德拉收到了什么礼物？",
+  "text": "What was Sandra's present?\n\nWhere's Sandra, Bob?\nI want her.\nDo you want to speak to her?\nYes, I do.\nI want her to come to my office.\nTell her to come at once.\nDid you want to see me?\nAh, yes, Sandra.\nHow do you spell 'intelligent'?\nCan you tell me?\nI-N-T-E-L-L-I-G-E-N-T.\nThat's right.\nYou've typed it with only one 'L'.\nThis letter's full of mistakes.\nI want you to type it again.\nYes, I'll do that.\nI'm sorry about that.\nAnd here's a little present for you.\nWhat is it?\nIt's a dictionary.\nI hope it'll help you.",
+  "bodyText": "Where's Sandra, Bob?\nI want her.\nDo you want to speak to her?\nYes, I do.\nI want her to come to my office.\nTell her to come at once.\nDid you want to see me?\nAh, yes, Sandra.\nHow do you spell 'intelligent'?\nCan you tell me?\nI-N-T-E-L-L-I-G-E-N-T.\nThat's right.\nYou've typed it with only one 'L'.\nThis letter's full of mistakes.\nI want you to type it again.\nYes, I'll do that.\nI'm sorry about that.\nAnd here's a little present for you.\nWhat is it?\nIt's a dictionary.\nI hope it'll help you.",
+  "bodyTextZh": "鲍勃，桑德拉在哪里？\n我找她。\n你想和她说话吗？\n是的，我想。\n我希望她能来我的办公室。\n告诉她立刻过来。\n你是想见我吗？\n啊，是的，桑德拉。\n“intelligent”怎么拼写？\n你能告诉我吗？\nI-N-T-E-L-L-I-G-E-N-T。\n没错。\n你只打了一个'L'。\n这封信里满是错误。\n我要你重新打一遍。\n好的，我会的。\n真抱歉。\n这里有一个小礼物给你。\n是什么礼物呢？\n是一本字典。\n希望这能对你有所帮助。",
+  "sentences": [
+    {
+      "index": 0,
+      "startTime": 0.31,
+      "endTime": 3.45,
+      "en": "Lesson 105",
+      "zh": "第105课",
+      "role": "lesson"
+    },
+    {
+      "index": 1,
+      "startTime": 3.45,
+      "endTime": 7.08,
+      "en": "Full of mistakes",
+      "zh": "满是错误",
+      "role": "title"
+    },
+    {
+      "index": 2,
+      "startTime": 7.08,
+      "endTime": 13.49,
+      "en": "Listen to the tape then answer this question.",
+      "zh": "请听录音，然后回答这个问题：",
+      "role": "prompt"
+    },
+    {
+      "index": 3,
+      "startTime": 13.49,
+      "endTime": 18.33,
+      "en": "What was Sandra's present?",
+      "zh": "桑德拉收到了什么礼物？",
+      "role": "question"
+    },
+    {
+      "index": 4,
+      "startTime": 18.33,
+      "endTime": 20.63,
+      "en": "Where's Sandra, Bob?",
+      "zh": "鲍勃，桑德拉在哪里？",
+      "role": "body"
+    },
+    {
+      "index": 5,
+      "startTime": 20.63,
+      "endTime": 23.41,
+      "en": "I want her.",
+      "zh": "我找她。",
+      "role": "body"
+    },
+    {
+      "index": 6,
+      "startTime": 23.41,
+      "endTime": 27.38,
+      "en": "Do you want to speak to her?",
+      "zh": "你想和她说话吗？",
+      "role": "body"
+    },
+    {
+      "index": 7,
+      "startTime": 27.38,
+      "endTime": 29.62,
+      "en": "Yes, I do.",
+      "zh": "是的，我想。",
+      "role": "body"
+    },
+    {
+      "index": 8,
+      "startTime": 29.62,
+      "endTime": 33.42,
+      "en": "I want her to come to my office.",
+      "zh": "我希望她能来我的办公室。",
+      "role": "body"
+    },
+    {
+      "index": 9,
+      "startTime": 33.42,
+      "endTime": 37.22,
+      "en": "Tell her to come at once.",
+      "zh": "告诉她立刻过来。",
+      "role": "body"
+    },
+    {
+      "index": 10,
+      "startTime": 37.22,
+      "endTime": 40.65,
+      "en": "Did you want to see me?",
+      "zh": "你是想见我吗？",
+      "role": "body"
+    },
+    {
+      "index": 11,
+      "startTime": 40.65,
+      "endTime": 43.71,
+      "en": "Ah, yes, Sandra.",
+      "zh": "啊，是的，桑德拉。",
+      "role": "body"
+    },
+    {
+      "index": 12,
+      "startTime": 43.71,
+      "endTime": 47.26,
+      "en": "How do you spell 'intelligent'?",
+      "zh": "“intelligent”怎么拼写？",
+      "role": "body"
+    },
+    {
+      "index": 13,
+      "startTime": 47.26,
+      "endTime": 49.61,
+      "en": "Can you tell me?",
+      "zh": "你能告诉我吗？",
+      "role": "body"
+    },
+    {
+      "index": 14,
+      "startTime": 49.61,
+      "endTime": 60.83,
+      "en": "I-N-T-E-L-L-I-G-E-N-T.",
+      "zh": "I-N-T-E-L-L-I-G-E-N-T。",
+      "role": "body"
+    },
+    {
+      "index": 15,
+      "startTime": 60.83,
+      "endTime": 62.79,
+      "en": "That's right.",
+      "zh": "没错。",
+      "role": "body"
+    },
+    {
+      "index": 16,
+      "startTime": 62.79,
+      "endTime": 66.75,
+      "en": "You've typed it with only one 'L'.",
+      "zh": "你只打了一个'L'。",
+      "role": "body"
+    },
+    {
+      "index": 17,
+      "startTime": 66.75,
+      "endTime": 70.65,
+      "en": "This letter's full of mistakes.",
+      "zh": "这封信里满是错误。",
+      "role": "body"
+    },
+    {
+      "index": 18,
+      "startTime": 70.65,
+      "endTime": 74.89,
+      "en": "I want you to type it again.",
+      "zh": "我要你重新打一遍。",
+      "role": "body"
+    },
+    {
+      "index": 19,
+      "startTime": 74.89,
+      "endTime": 77.61,
+      "en": "Yes, I'll do that.",
+      "zh": "好的，我会的。",
+      "role": "body"
+    },
+    {
+      "index": 20,
+      "startTime": 77.61,
+      "endTime": 80.43,
+      "en": "I'm sorry about that.",
+      "zh": "真抱歉。",
+      "role": "body"
+    },
+    {
+      "index": 21,
+      "startTime": 80.43,
+      "endTime": 83.78,
+      "en": "And here's a little present for you.",
+      "zh": "这里有一个小礼物给你。",
+      "role": "body"
+    },
+    {
+      "index": 22,
+      "startTime": 83.78,
+      "endTime": 85.48,
+      "en": "What is it?",
+      "zh": "是什么礼物呢？",
+      "role": "body"
+    },
+    {
+      "index": 23,
+      "startTime": 85.48,
+      "endTime": 87.61,
+      "en": "It's a dictionary.",
+      "zh": "是一本字典。",
+      "role": "body"
+    },
+    {
+      "index": 24,
+      "startTime": 87.61,
+      "endTime": null,
+      "en": "I hope it'll help you.",
+      "zh": "希望这能对你有所帮助。",
+      "role": "body"
+    }
+  ],
+  "audio": {
+    "fileName": "105&106－Full of Mistakes.mp3",
+    "sourcePath": "content/NCE-Flow/NCE1/105&106－Full of Mistakes.mp3",
+    "exists": true
+  },
+  "source": {
+    "repository": "NCE-Flow",
+    "lrcFileName": "105&106－Full of Mistakes.lrc",
+    "lrcPath": "content/NCE-Flow/NCE1/105&106－Full of Mistakes.lrc",
+    "sourceDataFile": "content/NCE-Flow/static/data.json",
+    "generatedAt": "2026-07-23T02:59:02+00:00",
+    "generator": "scripts/generate_nce_json.py",
+    "generatorVersion": "2.0.0",
+    "metadata": {
+      "al": "新概念英语（一）",
+      "ar": "MP3 同步字幕版（美音）",
+      "ti": "Full of Mistakes",
+      "by": "更多学习内容，请到VeryCD.com搜索“露珠”"
+    }
+  }
+}

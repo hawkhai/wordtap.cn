@@ -1,0 +1,37 @@
+{
+  "pep-english": {
+    "prefix": "pep",
+    "padding": 3,
+    "groups": ["pepj7a", "pepj7b", "pepj8a", "pepj8b", "pepj9", "pephr1", "pephr2", "pephr3", "pephs1", "pephs2", "pephs3", "pephs4", "pephe1", "pephe2", "pephe3", "pephg", "pephw"]
+  },
+  "nce": {
+    "prefix": "nce",
+    "padding": 3,
+    "groups": ["nce1", "nce2", "nce3", "nce4"]
+  },
+  "shuimu": {
+    "prefix": "sm",
+    "padding": 3,
+    "groups": ["phonetics", "beginner", "intermediate", "upper"]
+  },
+  "postgraduate": {
+    "prefix": "pg",
+    "padding": 2,
+    "groups": ["volume1", "volume2", "reading-writing-translation"]
+  },
+  "college-english": {
+    "prefix": "ce",
+    "padding": 2,
+    "groups": ["rw1", "rw2", "rw3", "rw4"]
+  },
+  "cet": {
+    "prefix": "cet",
+    "padding": 8,
+    "groups": ["cet4", "cet6"]
+  },
+  "kaoyan-english": {
+    "prefix": "ky",
+    "padding": 4,
+    "groups": ["e1", "e2"]
+  }
+}

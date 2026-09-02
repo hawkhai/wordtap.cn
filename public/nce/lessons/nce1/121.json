@@ -1,0 +1,200 @@
+{
+  "schemaVersion": 1,
+  "id": "nce1-121",
+  "bookId": "nce1",
+  "bookNo": 1,
+  "lessonNo": 121,
+  "lessonRange": [
+    121,
+    122
+  ],
+  "title": "The Man in a Hat",
+  "titleZh": "戴帽子的男子",
+  "question": "Why didn't Caroline recognize the customer straight away?",
+  "questionZh": "为什么卡罗琳没有立刻认出那位顾客？",
+  "text": "Why didn't Caroline recognize the customer straight away?\n\nI bought two expensive dictionaries here half an hour ago, but I forgot to take them with me.\nWho served you, sir?\nThe lady who is standing behind the counter.\nWhich books did you buy?\nThe books which are on the counter.\nDid you serve this gentleman half an hour ago, Caroline?\nHe says he's the man who bought these books.\nI can't remember.\nThe man who I served was wearing a hat.\nHave you got a hat, sir?\nYes, I have.\nWould you put it on, please?\nAll right.\nIs this the man that you served, Caroline?\nYes.\nI recognize him now.",
+  "bodyText": "I bought two expensive dictionaries here half an hour ago, but I forgot to take them with me.\nWho served you, sir?\nThe lady who is standing behind the counter.\nWhich books did you buy?\nThe books which are on the counter.\nDid you serve this gentleman half an hour ago, Caroline?\nHe says he's the man who bought these books.\nI can't remember.\nThe man who I served was wearing a hat.\nHave you got a hat, sir?\nYes, I have.\nWould you put it on, please?\nAll right.\nIs this the man that you served, Caroline?\nYes.\nI recognize him now.",
+  "bodyTextZh": "半小时前我在这里买了两本昂贵的词典，但忘记带走了。\n先生，是谁接待您的？\n是站在柜台后面的那位女士。\n您买了哪些书？\n就是放在柜台上的那些书。\n卡罗琳，半小时前你接待过这位先生吗？\n他说他就是买这些书的人。\n我记不起来了。\n我接待过的那位男士戴着帽子。\n先生，您有帽子吗？\n是的，我有。\n请您戴上它好吗？\n好的。\n卡罗琳，这就是你接待过的那位男士吗？\n是的。\n我现在认出他来了。",
+  "sentences": [
+    {
+      "index": 0,
+      "startTime": 0.61,
+      "endTime": 4.03,
+      "en": "Lesson 121",
+      "zh": "第121课",
+      "role": "lesson"
+    },
+    {
+      "index": 1,
+      "startTime": 4.03,
+      "endTime": 7.26,
+      "en": "The man in a hat",
+      "zh": "戴帽子的男子",
+      "role": "title"
+    },
+    {
+      "index": 2,
+      "startTime": 7.26,
+      "endTime": 12.92,
+      "en": "Listen to the tape then answer this question.",
+      "zh": "请听录音，然后回答这个问题：",
+      "role": "prompt"
+    },
+    {
+      "index": 3,
+      "startTime": 12.92,
+      "endTime": 20.48,
+      "en": "Why didn't Caroline recognize the customer straight away?",
+      "zh": "为什么卡罗琳没有立刻认出那位顾客？",
+      "role": "question"
+    },
+    {
+      "index": 4,
+      "startTime": 20.48,
+      "endTime": 30.67,
+      "en": "I bought two expensive dictionaries here half an hour ago, but I forgot to take them with me.",
+      "zh": "半小时前我在这里买了两本昂贵的词典，但忘记带走了。",
+      "role": "body"
+    },
+    {
+      "index": 5,
+      "startTime": 30.67,
+      "endTime": 33.51,
+      "en": "Who served you, sir?",
+      "zh": "先生，是谁接待您的？",
+      "role": "body"
+    },
+    {
+      "index": 6,
+      "startTime": 33.51,
+      "endTime": 37.82,
+      "en": "The lady who is standing behind the counter.",
+      "zh": "是站在柜台后面的那位女士。",
+      "role": "body"
+    },
+    {
+      "index": 7,
+      "startTime": 37.82,
+      "endTime": 41.15,
+      "en": "Which books did you buy?",
+      "zh": "您买了哪些书？",
+      "role": "body"
+    },
+    {
+      "index": 8,
+      "startTime": 41.15,
+      "endTime": 44.96,
+      "en": "The books which are on the counter.",
+      "zh": "就是放在柜台上的那些书。",
+      "role": "body"
+    },
+    {
+      "index": 9,
+      "startTime": 44.96,
+      "endTime": 50.19,
+      "en": "Did you serve this gentleman half an hour ago, Caroline?",
+      "zh": "卡罗琳，半小时前你接待过这位先生吗？",
+      "role": "body"
+    },
+    {
+      "index": 10,
+      "startTime": 50.19,
+      "endTime": 54.75,
+      "en": "He says he's the man who bought these books.",
+      "zh": "他说他就是买这些书的人。",
+      "role": "body"
+    },
+    {
+      "index": 11,
+      "startTime": 54.75,
+      "endTime": 57.5,
+      "en": "I can't remember.",
+      "zh": "我记不起来了。",
+      "role": "body"
+    },
+    {
+      "index": 12,
+      "startTime": 57.5,
+      "endTime": 62.54,
+      "en": "The man who I served was wearing a hat.",
+      "zh": "我接待过的那位男士戴着帽子。",
+      "role": "body"
+    },
+    {
+      "index": 13,
+      "startTime": 62.54,
+      "endTime": 65.92,
+      "en": "Have you got a hat, sir?",
+      "zh": "先生，您有帽子吗？",
+      "role": "body"
+    },
+    {
+      "index": 14,
+      "startTime": 65.92,
+      "endTime": 68.15,
+      "en": "Yes, I have.",
+      "zh": "是的，我有。",
+      "role": "body"
+    },
+    {
+      "index": 15,
+      "startTime": 68.15,
+      "endTime": 70.91,
+      "en": "Would you put it on, please?",
+      "zh": "请您戴上它好吗？",
+      "role": "body"
+    },
+    {
+      "index": 16,
+      "startTime": 70.91,
+      "endTime": 72.71,
+      "en": "All right.",
+      "zh": "好的。",
+      "role": "body"
+    },
+    {
+      "index": 17,
+      "startTime": 72.71,
+      "endTime": 77.1,
+      "en": "Is this the man that you served, Caroline?",
+      "zh": "卡罗琳，这就是你接待过的那位男士吗？",
+      "role": "body"
+    },
+    {
+      "index": 18,
+      "startTime": 77.1,
+      "endTime": 78.31,
+      "en": "Yes.",
+      "zh": "是的。",
+      "role": "body"
+    },
+    {
+      "index": 19,
+      "startTime": 78.31,
+      "endTime": null,
+      "en": "I recognize him now.",
+      "zh": "我现在认出他来了。",
+      "role": "body"
+    }
+  ],
+  "audio": {
+    "fileName": "121&122－The Man in a Hat.mp3",
+    "sourcePath": "content/NCE-Flow/NCE1/121&122－The Man in a Hat.mp3",
+    "exists": true
+  },
+  "source": {
+    "repository": "NCE-Flow",
+    "lrcFileName": "121&122－The Man in a Hat.lrc",
+    "lrcPath": "content/NCE-Flow/NCE1/121&122－The Man in a Hat.lrc",
+    "sourceDataFile": "content/NCE-Flow/static/data.json",
+    "generatedAt": "2026-07-23T02:59:02+00:00",
+    "generator": "scripts/generate_nce_json.py",
+    "generatorVersion": "2.0.0",
+    "metadata": {
+      "al": "新概念英语（一）",
+      "ar": "MP3 同步字幕版（美音）",
+      "ti": "The Man in a Hat",
+      "by": "更多学习内容，请到VeryCD.com搜索“露珠”"
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "id": "pepj7b-014",
+  "groupId": "pepj7b",
+  "unitNo": 12,
+  "sequenceNo": 14,
+  "section": "Section B",
+  "title": "A Weekend to Remember",
+  "jsonPath": "pep-english/lessons/pepj7b/014.json",
+  "text": "My sister finished high school two weeks ago. As a special gift, our parents took us to India. Last weekend was interesting but scary.\nWe went camping in a small village in India. First, we took a long bus ride to a lake in the countryside. There we put up our tents and made a fire to keep us warm and cook food on. On the first night, we just sat under the moon and told each other stories. But I was so tired that I went to sleep early.\nThe next morning, my sister and I got a terrible surprise. When we looked out of our tent, we saw a big snake sleeping near the fire. I was so scared that I couldn't move. We shouted to our parents to let them know about the danger. My dad started to jump up and down in their tent. This woke the snake up and it moved into the forest near the lake. My dad told me later that snakes don't have ears but can feel things moving. He also told me it was important not to go near a snake. This was a very useful lesson for me.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "My sister finished high school two weeks ago. As a special gift, our parents took us to India. Last weekend was interesting but scary."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "We went camping in a small village in India. First, we took a long bus ride to a lake in the countryside. There we put up our tents and made a fire to keep us warm and cook food on. On the first night, we just sat under the moon and told each other stories. But I was so tired that I went to sleep early."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "The next morning, my sister and I got a terrible surprise. When we looked out of our tent, we saw a big snake sleeping near the fire. I was so scared that I couldn't move. We shouted to our parents to let them know about the danger. My dad started to jump up and down in their tent. This woke the snake up and it moved into the forest near the lake. My dad told me later that snakes don't have ears but can feel things moving. He also told me it was important not to go near a snake. This was a very useful lesson for me."
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "初中",
+    "book": "七年级下册",
+    "pageStart": 81,
+    "pageEnd": 81,
+    "extractionMode": "ocr",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "9336b53d5a44f9244f62f6fb10720914",
+    "pdfSize": 17821241,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/junior-7b.pdf#page=81",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored the three printed paragraphs and the third paragraph's cross-column continuation, corrected Section B metadata, and excluded activities 2a, 2b questions and 2c."
+    }
+  }
+}

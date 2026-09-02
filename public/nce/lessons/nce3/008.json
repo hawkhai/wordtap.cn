@@ -1,0 +1,183 @@
+{
+  "schemaVersion": 1,
+  "id": "nce3-008",
+  "bookId": "nce3",
+  "bookNo": 3,
+  "lessonNo": 8,
+  "lessonRange": [
+    8
+  ],
+  "title": "A Famous Monastery",
+  "titleZh": "一座著名的修道院",
+  "question": "What are the St.Bernard dogs used for?",
+  "questionZh": "圣伯纳德犬是用来做什么的？",
+  "text": "What are the St.Bernard dogs used for?\n\nThe Great St.Bernard Pass connects Switzerland to Italy.\nAt 2,473 metres, it is the highest mountain pass in Europe.\nThe famous monastery of St.Bernard, which was founded in the eleventh century, lies about a mile away.\nFor hundreds of years, St.Bernard dogs have saved the lives of travellers crossing the dangerous Pass.\nThese friendly dogs, which were first brought from Asia, were used as watchdogs even in Roman times.\nNow that a tunnel has been built through the mountains, the Pass is less dangerous, but each year, the dogs are still sent out into the snow whenever a traveller is in difficulty.\nDespite the new tunnel, there are still a few people who rashly attempt to cross the Pass on foot.\nDuring the summer months, the monastery is very busy, for it is visited by thousands of people who cross the Pass in cars.\nAs there are so many people about, the dogs have to be kept in a special enclosure.\nIn winter, however, life at the monastery is quite different.\nThe temperature drops to -30 degrees, and very few people attempt to cross the Pass.\nThe monks prefer winter to summer for they have more privacy.\nThe dogs have greater freedom, too, for they are allowed to wander outside their enclosure.\nThe only regular visitors to the monastery in winter are parties of skiers who go there at Christmas and Easter.\nThese young people, who love the peace of the mountains, always receive a warm welcome at St.Bernard's monastery.",
+  "bodyText": "The Great St.Bernard Pass connects Switzerland to Italy.\nAt 2,473 metres, it is the highest mountain pass in Europe.\nThe famous monastery of St.Bernard, which was founded in the eleventh century, lies about a mile away.\nFor hundreds of years, St.Bernard dogs have saved the lives of travellers crossing the dangerous Pass.\nThese friendly dogs, which were first brought from Asia, were used as watchdogs even in Roman times.\nNow that a tunnel has been built through the mountains, the Pass is less dangerous, but each year, the dogs are still sent out into the snow whenever a traveller is in difficulty.\nDespite the new tunnel, there are still a few people who rashly attempt to cross the Pass on foot.\nDuring the summer months, the monastery is very busy, for it is visited by thousands of people who cross the Pass in cars.\nAs there are so many people about, the dogs have to be kept in a special enclosure.\nIn winter, however, life at the monastery is quite different.\nThe temperature drops to -30 degrees, and very few people attempt to cross the Pass.\nThe monks prefer winter to summer for they have more privacy.\nThe dogs have greater freedom, too, for they are allowed to wander outside their enclosure.\nThe only regular visitors to the monastery in winter are parties of skiers who go there at Christmas and Easter.\nThese young people, who love the peace of the mountains, always receive a warm welcome at St.Bernard's monastery.",
+  "bodyTextZh": "大圣伯纳德山口（Great St. Bernard Pass）将瑞士与意大利连接起来。\n海拔2,473米，它是欧洲最高的山口。\n著名的圣伯纳德修道院这座修道院建于十一世纪，坐落在约一英里外。\n几个世纪以来，圣伯纳德犬一直拯救着那些穿越危险山口的旅行者的生命。\n这些友好的狗狗最初是从亚洲引进的。甚至在罗马时代，它们就被用作看门狗。\n既然已经修建了一条穿山隧道，山口的危险性就降低了，但每当有旅行者遇到困难时，这些狗仍会被派往雪地救援。\n尽管有了这条新隧道，仍然有一些人贸然尝试徒步穿越这个山口。\n在夏季，这座修道院非常繁忙。因为这里有成千上万的人开车穿过山口前来参观。\n由于周围人太多，这些狗必须被关在专门的围栏里。\n然而，在冬天，修道院的生活却大不相同了。\n气温降到了零下30度。而且，很少有人试图穿越这个山口。\n僧侣们更喜欢冬天，因为那时他们更清静。\n这些狗也拥有更大的自由。因为它们被允许在围栏外四处走动。\n冬天里，唯一经常造访这座修道院的人是一群滑雪者——他们会在圣诞节和复活节期间来到这里。\n这些年轻人，他们热爱山间的宁静，在圣伯纳德修道院总是受到热情的欢迎。",
+  "sentences": [
+    {
+      "index": 0,
+      "startTime": 0.54,
+      "endTime": 2.15,
+      "en": "Lesson 8",
+      "zh": "第8课",
+      "role": "lesson"
+    },
+    {
+      "index": 1,
+      "startTime": 2.15,
+      "endTime": 9.49,
+      "en": "A famous monastery",
+      "zh": "一座著名的修道院",
+      "role": "title"
+    },
+    {
+      "index": 2,
+      "startTime": 9.49,
+      "endTime": 15.03,
+      "en": "What are the St.Bernard dogs used for?",
+      "zh": "圣伯纳德犬是用来做什么的？",
+      "role": "question"
+    },
+    {
+      "index": 3,
+      "startTime": 15.03,
+      "endTime": 20.49,
+      "en": "The Great St.Bernard Pass connects Switzerland to Italy.",
+      "zh": "大圣伯纳德山口（Great St. Bernard Pass）将瑞士与意大利连接起来。",
+      "role": "body"
+    },
+    {
+      "index": 4,
+      "startTime": 20.49,
+      "endTime": 28.15,
+      "en": "At 2,473 metres, it is the highest mountain pass in Europe.",
+      "zh": "海拔2,473米，它是欧洲最高的山口。",
+      "role": "body"
+    },
+    {
+      "index": 5,
+      "startTime": 28.15,
+      "endTime": 36.95,
+      "en": "The famous monastery of St.Bernard, which was founded in the eleventh century, lies about a mile away.",
+      "zh": "著名的圣伯纳德修道院这座修道院建于十一世纪，坐落在约一英里外。",
+      "role": "body"
+    },
+    {
+      "index": 6,
+      "startTime": 36.95,
+      "endTime": 44.64,
+      "en": "For hundreds of years, St.Bernard dogs have saved the lives of travellers crossing the dangerous Pass.",
+      "zh": "几个世纪以来，圣伯纳德犬一直拯救着那些穿越危险山口的旅行者的生命。",
+      "role": "body"
+    },
+    {
+      "index": 7,
+      "startTime": 44.64,
+      "endTime": 53.39,
+      "en": "These friendly dogs, which were first brought from Asia, were used as watchdogs even in Roman times.",
+      "zh": "这些友好的狗狗最初是从亚洲引进的。甚至在罗马时代，它们就被用作看门狗。",
+      "role": "body"
+    },
+    {
+      "index": 8,
+      "startTime": 53.39,
+      "endTime": 66.32,
+      "en": "Now that a tunnel has been built through the mountains, the Pass is less dangerous, but each year, the dogs are still sent out into the snow whenever a traveller is in difficulty.",
+      "zh": "既然已经修建了一条穿山隧道，山口的危险性就降低了，但每当有旅行者遇到困难时，这些狗仍会被派往雪地救援。",
+      "role": "body"
+    },
+    {
+      "index": 9,
+      "startTime": 66.32,
+      "endTime": 74.69,
+      "en": "Despite the new tunnel, there are still a few people who rashly attempt to cross the Pass on foot.",
+      "zh": "尽管有了这条新隧道，仍然有一些人贸然尝试徒步穿越这个山口。",
+      "role": "body"
+    },
+    {
+      "index": 10,
+      "startTime": 74.69,
+      "endTime": 84.01,
+      "en": "During the summer months, the monastery is very busy, for it is visited by thousands of people who cross the Pass in cars.",
+      "zh": "在夏季，这座修道院非常繁忙。因为这里有成千上万的人开车穿过山口前来参观。",
+      "role": "body"
+    },
+    {
+      "index": 11,
+      "startTime": 84.01,
+      "endTime": 90.32,
+      "en": "As there are so many people about, the dogs have to be kept in a special enclosure.",
+      "zh": "由于周围人太多，这些狗必须被关在专门的围栏里。",
+      "role": "body"
+    },
+    {
+      "index": 12,
+      "startTime": 90.32,
+      "endTime": 95.72,
+      "en": "In winter, however, life at the monastery is quite different.",
+      "zh": "然而，在冬天，修道院的生活却大不相同了。",
+      "role": "body"
+    },
+    {
+      "index": 13,
+      "startTime": 95.72,
+      "endTime": 102.74,
+      "en": "The temperature drops to -30 degrees, and very few people attempt to cross the Pass.",
+      "zh": "气温降到了零下30度。而且，很少有人试图穿越这个山口。",
+      "role": "body"
+    },
+    {
+      "index": 14,
+      "startTime": 102.74,
+      "endTime": 107.68,
+      "en": "The monks prefer winter to summer for they have more privacy.",
+      "zh": "僧侣们更喜欢冬天，因为那时他们更清静。",
+      "role": "body"
+    },
+    {
+      "index": 15,
+      "startTime": 107.68,
+      "endTime": 113.92,
+      "en": "The dogs have greater freedom, too, for they are allowed to wander outside their enclosure.",
+      "zh": "这些狗也拥有更大的自由。因为它们被允许在围栏外四处走动。",
+      "role": "body"
+    },
+    {
+      "index": 16,
+      "startTime": 113.92,
+      "endTime": 122.36,
+      "en": "The only regular visitors to the monastery in winter are parties of skiers who go there at Christmas and Easter.",
+      "zh": "冬天里，唯一经常造访这座修道院的人是一群滑雪者——他们会在圣诞节和复活节期间来到这里。",
+      "role": "body"
+    },
+    {
+      "index": 17,
+      "startTime": 122.36,
+      "endTime": null,
+      "en": "These young people, who love the peace of the mountains, always receive a warm welcome at St.Bernard's monastery.",
+      "zh": "这些年轻人，他们热爱山间的宁静，在圣伯纳德修道院总是受到热情的欢迎。",
+      "role": "body"
+    }
+  ],
+  "audio": {
+    "fileName": "08－A Famous Monastery.mp3",
+    "sourcePath": "content/NCE-Flow/NCE3/08－A Famous Monastery.mp3",
+    "exists": true
+  },
+  "source": {
+    "repository": "NCE-Flow",
+    "lrcFileName": "08－A Famous Monastery.lrc",
+    "lrcPath": "content/NCE-Flow/NCE3/08－A Famous Monastery.lrc",
+    "sourceDataFile": "content/NCE-Flow/static/data.json",
+    "generatedAt": "2026-07-23T02:59:02+00:00",
+    "generator": "scripts/generate_nce_json.py",
+    "generatorVersion": "2.0.0",
+    "metadata": {
+      "al": "新概念英语（三）",
+      "ar": "MP3 同步字幕版（美音）",
+      "ti": "A Famous Monastery",
+      "by": "更多学习内容，请到VeryCD.com搜索“露珠”"
+    }
+  }
+}

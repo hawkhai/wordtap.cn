@@ -1,0 +1,151 @@
+{
+  "schemaVersion": 1,
+  "id": "nce2-063",
+  "bookId": "nce2",
+  "bookNo": 2,
+  "lessonNo": 63,
+  "lessonRange": [
+    63
+  ],
+  "title": "She Was Not Amused",
+  "titleZh": "她并不觉得好笑",
+  "question": "Why did Jenny want to leave the wedding reception?",
+  "questionZh": "为什么珍妮想离开婚礼现场呢？",
+  "text": "Why did Jenny want to leave the wedding reception?\n\nJeremy Hampden has a large circle of friends and is very popular at parties.\nEverybody admires him for his great sense of humour--everybody, that is, except his six-year-old daughter, Jenny.\nRecently, one of Jeremy's closest friends asked him to make a speech at a wedding reception.\nThis is the sort of thing that Jeremy loves.\nHe prepared the speech carefully and went to the wedding with Jenny.\nHe had included a large number of funny stories in the speech and, of course, it was a great success.\nAs soon as he had finished Jenny told him she wanted to go home.\nJeremy was a little disappointed by this but he did as his daughter asked.\nOn the way home, he asked Jenny if she had enjoyed the speech.\nTo his surprise she said she hadn't.\nJeremy asked her why this was so and she told him that she did not like to see so many people laughing at him!",
+  "bodyText": "Jeremy Hampden has a large circle of friends and is very popular at parties.\nEverybody admires him for his great sense of humour--everybody, that is, except his six-year-old daughter, Jenny.\nRecently, one of Jeremy's closest friends asked him to make a speech at a wedding reception.\nThis is the sort of thing that Jeremy loves.\nHe prepared the speech carefully and went to the wedding with Jenny.\nHe had included a large number of funny stories in the speech and, of course, it was a great success.\nAs soon as he had finished Jenny told him she wanted to go home.\nJeremy was a little disappointed by this but he did as his daughter asked.\nOn the way home, he asked Jenny if she had enjoyed the speech.\nTo his surprise she said she hadn't.\nJeremy asked her why this was so and she told him that she did not like to see so many people laughing at him!",
+  "bodyTextZh": "杰里米·汉普登拥有很多朋友，在聚会上非常受欢迎。\n大家都很欣赏他的幽默感——当然，除了他六岁的女儿珍妮之外。\n最近，杰里米的一位密友请求他在一场婚礼招待会上发表演讲。\n这正是杰里米喜欢做的事情。\n他仔细准备了演讲稿，然后和珍妮一起参加了婚礼。\n他在演讲中穿插了许多有趣的故事，当然，这次演讲非常成功。\n他刚说完，珍妮就告诉他她想回家了。\n杰里米对此感到有些失望，但他还是按照女儿的要求做了。\n在回家的路上，他问珍妮是否喜欢那场演讲。\n令他惊讶的是，她说她并不喜欢。\n杰里米问她为什么，她告诉他她不喜欢看到那么多人嘲笑他！",
+  "sentences": [
+    {
+      "index": 0,
+      "startTime": 0.5,
+      "endTime": 3,
+      "en": "Lesson 63",
+      "zh": "第63课",
+      "role": "lesson"
+    },
+    {
+      "index": 1,
+      "startTime": 3,
+      "endTime": 11.28,
+      "en": "She Was Not Amused",
+      "zh": "她并不觉得好笑",
+      "role": "title"
+    },
+    {
+      "index": 2,
+      "startTime": 11.28,
+      "endTime": 16.8,
+      "en": "Why did Jenny want to leave the wedding reception?",
+      "zh": "为什么珍妮想离开婚礼现场呢？",
+      "role": "question"
+    },
+    {
+      "index": 3,
+      "startTime": 16.8,
+      "endTime": 24.2,
+      "en": "Jeremy Hampden has a large circle of friends and is very popular at parties.",
+      "zh": "杰里米·汉普登拥有很多朋友，在聚会上非常受欢迎。",
+      "role": "body"
+    },
+    {
+      "index": 4,
+      "startTime": 24.2,
+      "endTime": 34.85,
+      "en": "Everybody admires him for his great sense of humour--everybody, that is, except his six-year-old daughter, Jenny.",
+      "zh": "大家都很欣赏他的幽默感——当然，除了他六岁的女儿珍妮之外。",
+      "role": "body"
+    },
+    {
+      "index": 5,
+      "startTime": 34.85,
+      "endTime": 43.1,
+      "en": "Recently, one of Jeremy's closest friends asked him to make a speech at a wedding reception.",
+      "zh": "最近，杰里米的一位密友请求他在一场婚礼招待会上发表演讲。",
+      "role": "body"
+    },
+    {
+      "index": 6,
+      "startTime": 43.1,
+      "endTime": 47.35,
+      "en": "This is the sort of thing that Jeremy loves.",
+      "zh": "这正是杰里米喜欢做的事情。",
+      "role": "body"
+    },
+    {
+      "index": 7,
+      "startTime": 47.35,
+      "endTime": 52.84,
+      "en": "He prepared the speech carefully and went to the wedding with Jenny.",
+      "zh": "他仔细准备了演讲稿，然后和珍妮一起参加了婚礼。",
+      "role": "body"
+    },
+    {
+      "index": 8,
+      "startTime": 52.84,
+      "endTime": 61.52,
+      "en": "He had included a large number of funny stories in the speech and, of course, it was a great success.",
+      "zh": "他在演讲中穿插了许多有趣的故事，当然，这次演讲非常成功。",
+      "role": "body"
+    },
+    {
+      "index": 9,
+      "startTime": 61.52,
+      "endTime": 68.38,
+      "en": "As soon as he had finished Jenny told him she wanted to go home.",
+      "zh": "他刚说完，珍妮就告诉他她想回家了。",
+      "role": "body"
+    },
+    {
+      "index": 10,
+      "startTime": 68.38,
+      "endTime": 74.98,
+      "en": "Jeremy was a little disappointed by this but he did as his daughter asked.",
+      "zh": "杰里米对此感到有些失望，但他还是按照女儿的要求做了。",
+      "role": "body"
+    },
+    {
+      "index": 11,
+      "startTime": 74.98,
+      "endTime": 81.03,
+      "en": "On the way home, he asked Jenny if she had enjoyed the speech.",
+      "zh": "在回家的路上，他问珍妮是否喜欢那场演讲。",
+      "role": "body"
+    },
+    {
+      "index": 12,
+      "startTime": 81.03,
+      "endTime": 85.1,
+      "en": "To his surprise she said she hadn't.",
+      "zh": "令他惊讶的是，她说她并不喜欢。",
+      "role": "body"
+    },
+    {
+      "index": 13,
+      "startTime": 85.1,
+      "endTime": null,
+      "en": "Jeremy asked her why this was so and she told him that she did not like to see so many people laughing at him!",
+      "zh": "杰里米问她为什么，她告诉他她不喜欢看到那么多人嘲笑他！",
+      "role": "body"
+    }
+  ],
+  "audio": {
+    "fileName": "63－She Was Not Amused.mp3",
+    "sourcePath": "content/NCE-Flow/NCE2/63－She Was Not Amused.mp3",
+    "exists": true
+  },
+  "source": {
+    "repository": "NCE-Flow",
+    "lrcFileName": "63－She Was Not Amused.lrc",
+    "lrcPath": "content/NCE-Flow/NCE2/63－She Was Not Amused.lrc",
+    "sourceDataFile": "content/NCE-Flow/static/data.json",
+    "generatedAt": "2026-07-23T02:59:02+00:00",
+    "generator": "scripts/generate_nce_json.py",
+    "generatorVersion": "2.0.0",
+    "metadata": {
+      "al": "新概念英语（二）",
+      "ar": "MP3 同步字幕版（美音）",
+      "ti": "She Was Not Amused",
+      "by": "更多学习内容，请到VeryCD.com搜索“露珠”"
+    }
+  }
+}

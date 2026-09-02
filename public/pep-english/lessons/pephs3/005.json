@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "id": "pephs3-005",
+  "groupId": "pephs3",
+  "unitNo": 2,
+  "sequenceNo": 5,
+  "section": "Using Language",
+  "title": "Changing My Lifestyle: George Fielding’s Letter",
+  "jsonPath": "pep-english/lessons/pephs3/005.json",
+  "text": "Dear Editor,\nAs I took part in the summer camp about personal life choices, I started to analyse my choices, especially what I did to relax and how it was affecting my whole life.\nAfter starting high school, I felt stressed out and always relaxed by playing computer games. I got so absorbed that I played the games day and night. Playing was fun, but I felt even more worn out afterwards! So after the camp, I realised that it was very, very important to adjust my lifestyle. I decided to take control of my life and find other ways to relax.\nIt was a big struggle not to join my friends in playing online games as I’m mad for them. However, I realised that to succeed in quitting, I had to replace it with something else. So I thought about what to try. Rock climbing, bowling, watching comedies, and playing basketball were the things I thought of doing instead.\nNow my dad and I go rock climbing together monthly! It has enhanced the quality of my life, improving my health and increasing my happiness. I get refreshed through climbing, spend more time with my dad, and get to meet new friends.\nAfter six months of trying out new ways of relaxing, I feel much more energetic. I feel that I can change myself for the better. And if that’s true for me, then it might truly be possible to change the world for the better. As Gandhi said, “Be the change you want to see in the world.”\nSincerely,\nGeorge Fielding",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Dear Editor,"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "As I took part in the summer camp about personal life choices, I started to analyse my choices, especially what I did to relax and how it was affecting my whole life."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "After starting high school, I felt stressed out and always relaxed by playing computer games. I got so absorbed that I played the games day and night. Playing was fun, but I felt even more worn out afterwards! So after the camp, I realised that it was very, very important to adjust my lifestyle. I decided to take control of my life and find other ways to relax."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "It was a big struggle not to join my friends in playing online games as I’m mad for them. However, I realised that to succeed in quitting, I had to replace it with something else. So I thought about what to try. Rock climbing, bowling, watching comedies, and playing basketball were the things I thought of doing instead."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Now my dad and I go rock climbing together monthly! It has enhanced the quality of my life, improving my health and increasing my happiness. I get refreshed through climbing, spend more time with my dad, and get to meet new friends."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "After six months of trying out new ways of relaxing, I feel much more energetic. I feel that I can change myself for the better. And if that’s true for me, then it might truly be possible to change the world for the better. As Gandhi said, “Be the change you want to see in the world.”"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Sincerely,"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "George Fielding"
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "选择性必修第三册",
+    "pageStart": 27,
+    "pageEnd": 27,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "f0dc33129a755a33421d401b71a05cd1",
+    "pdfSize": 12684455,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/senior-selective-3.pdf#page=27",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored the complete right-column letter in visual order, including salutation, five body paragraphs, closing, and signature.",
+      "splitBaselineId": "pephs3-008",
+      "splitIndex": 2,
+      "splitCount": 2
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "pephr2-011",
+  "groupId": "pephr2",
+  "unitNo": 5,
+  "sequenceNo": 11,
+  "section": "Listening and Speaking",
+  "title": "Why I Like Techno Music",
+  "jsonPath": "pep-english/lessons/pephr2/011.json",
+  "text": "A: What kind of music do you like?\nB: I like techno music.\nA: What makes it so special to you?\nB: I like to listen to it when I exercise. It gives me energy.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "A: What kind of music do you like?\nB: I like techno music.\nA: What makes it so special to you?\nB: I like to listen to it when I exercise. It gives me energy."
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "必修第二册",
+    "pageStart": 58,
+    "pageEnd": 58,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "38d49874e4f015fd89f21c9306f6b9d5",
+    "pdfSize": 14270612,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/senior-required-2.pdf#page=58",
+      "reviewedAt": "2026-07-22",
+      "notes": "Kept the complete four-turn model interview about liking techno music; supplied a descriptive title and excluded discussion instructions, reason prompts, instrument photographs and the separate pronunciation activity."
+    }
+  }
+}

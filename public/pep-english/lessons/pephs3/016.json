@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "pephs3-016",
+  "groupId": "pephs3",
+  "unitNo": 5,
+  "sequenceNo": 16,
+  "section": "Using Language",
+  "title": "A Match (A. C. Swinburne)",
+  "jsonPath": "pep-english/lessons/pephs3/016.json",
+  "text": "If love were what the rose is, And I were the leaf, Our lives would grow together In sad or singing weather, Brown fields or flowerful closes, Green pleasure or grey grief;\nIf love were what the rose is, And I were like the leaf.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "If love were what the rose is, And I were the leaf, Our lives would grow together In sad or singing weather, Brown fields or flowerful closes, Green pleasure or grey grief;\nIf love were what the rose is, And I were like the leaf."
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "选择性必修第三册",
+    "pageStart": 63,
+    "pageEnd": 63,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "f0dc33129a755a33421d401b71a05cd1",
+    "pdfSize": 12684455,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/senior-selective-3.pdf#page=63",
+      "reviewedAt": "2026-07-22",
+      "notes": "Preserved the complete eight-line poem and punctuation; moved the author attribution to title metadata.",
+      "splitBaselineId": "pephs3-025",
+      "splitIndex": 5,
+      "splitCount": 5
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "id": "pephs3-023",
+  "groupId": "pephs3",
+  "unitNo": 2,
+  "sequenceNo": 23,
+  "section": "Reading and Writing",
+  "title": "My Experiences with Computer Games",
+  "jsonPath": "pep-english/lessons/pephs3/023.json",
+  "text": "I clearly remember the first time I played a computer game. I was seven years old. My friend had gotten a computer for his birthday. He invited me to play a game, which was very simple by today’s standards, but we loved it! We played for hours. We would meet after school every day to play it. My addiction to computer games started then. Not long after that, my friend moved to the city. I missed him, but I got my own computer and began playing by myself.\nOver the years, computer games developed rapidly. Technology improved, and there were always new and better games to play. You could then play games over the Internet with people from all over the world, using either computers or smartphones. The online games were fascinating and it was always exciting to play.\nAt first, I played games over the Internet after I had done my homework and eaten dinner. Then I started playing as soon as I got home each day. My parents stopped me, so I started playing it in the middle of the night. I went to school and often fell asleep in class. My teacher would scold me but I would often do the same thing the next day! Shortly after that, I began to skip meals and play through the night. My parents found out and took away my computer and smartphone. I knew I had gone too far. My love of computer games had become an addiction. It was affecting my schoolwork and my health, and I felt quite depressed.\nThen one day I bumped into my friend again! He had moved back to our hometown. We hadn’t seen each other for ages. He looked happy and healthy. We talked about the past and the good times we had, playing that old game. He still played computer games, but he also did many other things. He invited me to play basketball with some friends. I got tired quickly, but I loved it! Afterwards, we played a board game. We laughed and talked and played for hours. It was very sociable and great fun. Playing games with my friends in real life was much more enjoyable than doing so online.\nComputer games are great fun and I still play them sometimes. New technology is making more amazing things possible. I’ve learnt that some games can even teach us to train our brains to solve problems. However, games can also be addictive, so balance is important for a healthy lifestyle. We can spoil good things by doing them too much. Now I enjoy playing games even more because I am able to maintain a good balance between work and play.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "I clearly remember the first time I played a computer game. I was seven years old. My friend had gotten a computer for his birthday. He invited me to play a game, which was very simple by today’s standards, but we loved it! We played for hours. We would meet after school every day to play it. My addiction to computer games started then. Not long after that, my friend moved to the city. I missed him, but I got my own computer and began playing by myself."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Over the years, computer games developed rapidly. Technology improved, and there were always new and better games to play. You could then play games over the Internet with people from all over the world, using either computers or smartphones. The online games were fascinating and it was always exciting to play."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "At first, I played games over the Internet after I had done my homework and eaten dinner. Then I started playing as soon as I got home each day. My parents stopped me, so I started playing it in the middle of the night. I went to school and often fell asleep in class. My teacher would scold me but I would often do the same thing the next day! Shortly after that, I began to skip meals and play through the night. My parents found out and took away my computer and smartphone. I knew I had gone too far. My love of computer games had become an addiction. It was affecting my schoolwork and my health, and I felt quite depressed."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Then one day I bumped into my friend again! He had moved back to our hometown. We hadn’t seen each other for ages. He looked happy and healthy. We talked about the past and the good times we had, playing that old game. He still played computer games, but he also did many other things. He invited me to play basketball with some friends. I got tired quickly, but I loved it! Afterwards, we played a board game. We laughed and talked and played for hours. It was very sociable and great fun. Playing games with my friends in real life was much more enjoyable than doing so online."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Computer games are great fun and I still play them sometimes. New technology is making more amazing things possible. I’ve learnt that some games can even teach us to train our brains to solve problems. However, games can also be addictive, so balance is important for a healthy lifestyle. We can spoil good things by doing them too much. Now I enjoy playing games even more because I am able to maintain a good balance between work and play."
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "选择性必修第三册",
+    "pageStart": 78,
+    "pageEnd": 78,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "f0dc33129a755a33421d401b71a05cd1",
+    "pdfSize": 12684455,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/senior-selective-3.pdf#page=78",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored all five paragraphs in visual order around the two illustrations; excluded the reading prompt, images and page furniture, and checked pages 77 and 79 to confirm the article is self-contained."
+    }
+  }
+}

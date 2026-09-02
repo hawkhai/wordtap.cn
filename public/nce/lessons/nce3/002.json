@@ -1,0 +1,199 @@
+{
+  "schemaVersion": 1,
+  "id": "nce3-002",
+  "bookId": "nce3",
+  "bookNo": 3,
+  "lessonNo": 2,
+  "lessonRange": [
+    2
+  ],
+  "title": "Thirteen Equals One",
+  "titleZh": "十三等于一",
+  "question": "Was the vicar pleased that the clock was striking? Why?",
+  "questionZh": "牧师对钟在报时感到高兴吗？为什么？",
+  "text": "Was the vicar pleased that the clock was striking? Why?\n\nOur vicar is always raising money for one cause or another, but he has never managed to get enough money to have the church clock repaired.\nThe big clock which used to strike the hours day and night was damaged many years ago and has been silent ever since.\nOne night, however, our vicar woke up with a start:the clock was striking the hours!\nLooking at his watch, he saw that it was one o'clock, but the bell struck thirteen times before it stopped.\nArmed with a torch, the vicar went up into the clock tower to see what was going on.\nIn the torchlight, he caught sight of a figure whom he immediately recognized as Bill Wilkins, our local grocer.\n'Whatever are you doing up here Bill?' asked the vicar in surprise.\n'I'm trying to repair the bell, ' answered Bill.\n'I've been coming up here night after night for weeks now.\nYou see, I was hoping to give you a surprise.'\n'You certainly did give me a surprise!' said the vicar.\n'You've probably woken up everyone in the village as well.\nStill, I'm glad the bell is working again.'\n'That's the trouble, vicar, 'answered Bill. 'It's working all right, but I'm afraid that at one o'clock it will strike thirteen times and there's nothing I can do about it.'\n'We'll get used to that, Bill, 'said the vicar.\n'Thirteen is not as good as one, but it's better than nothing.\nNow let's go downstairs and have a cup of tea.'",
+  "bodyText": "Our vicar is always raising money for one cause or another, but he has never managed to get enough money to have the church clock repaired.\nThe big clock which used to strike the hours day and night was damaged many years ago and has been silent ever since.\nOne night, however, our vicar woke up with a start:the clock was striking the hours!\nLooking at his watch, he saw that it was one o'clock, but the bell struck thirteen times before it stopped.\nArmed with a torch, the vicar went up into the clock tower to see what was going on.\nIn the torchlight, he caught sight of a figure whom he immediately recognized as Bill Wilkins, our local grocer.\n'Whatever are you doing up here Bill?' asked the vicar in surprise.\n'I'm trying to repair the bell, ' answered Bill.\n'I've been coming up here night after night for weeks now.\nYou see, I was hoping to give you a surprise.'\n'You certainly did give me a surprise!' said the vicar.\n'You've probably woken up everyone in the village as well.\nStill, I'm glad the bell is working again.'\n'That's the trouble, vicar, 'answered Bill. 'It's working all right, but I'm afraid that at one o'clock it will strike thirteen times and there's nothing I can do about it.'\n'We'll get used to that, Bill, 'said the vicar.\n'Thirteen is not as good as one, but it's better than nothing.\nNow let's go downstairs and have a cup of tea.'",
+  "bodyTextZh": "我们的牧师总是为各种慈善事业筹款，但他始终没能筹集到足够的钱来修理教堂的时钟。\n那座曾经日夜报时的大钟在多年前就损坏了，从那以后就一直没再响过。\n然而一天晚上，我们的牧师突然惊醒：时钟竟然在报时了！\n他看了看手表，发现时间是凌晨一点，但钟声却响了十三下才停止。\n牧师拿着手电筒走上钟楼，想看看发生了什么。\n在手电筒的光亮中，他看到一个人影，立刻认出那是我们当地的杂货商比尔·威尔金斯。\n“比尔，你到底在这里干什么？”牧师惊讶地问。\n“我正在尝试修理这个铃铛，”比尔回答道。\n“这几周来，我夜夜都来这里。\n你看，我本来想给你一个惊喜的。\n“你确实给了我一个惊喜！”牧师说道。\n“你可能把全村人都给吵醒了。\n不过，我很高兴这个铃铛又能正常使用了。\n“问题就在这儿，牧师，”比尔回答说，“钟是能走，但我担心，到了凌晨一点的时候，钟声会敲响十三下，而我对此无能为力。\n“我们会慢慢习惯的，比尔，”牧师说道。\n“十三下虽然不如一下，但总比不响好。\n现在，我们下楼去喝杯茶吧。",
+  "sentences": [
+    {
+      "index": 0,
+      "startTime": 0.29,
+      "endTime": 2.18,
+      "en": "Lesson 2",
+      "zh": "第2课",
+      "role": "lesson"
+    },
+    {
+      "index": 1,
+      "startTime": 2.18,
+      "endTime": 10.1,
+      "en": "Thirteen equals one",
+      "zh": "十三等于一",
+      "role": "title"
+    },
+    {
+      "index": 2,
+      "startTime": 10.1,
+      "endTime": 16.63,
+      "en": "Was the vicar pleased that the clock was striking? Why?",
+      "zh": "牧师对钟在报时感到高兴吗？为什么？",
+      "role": "question"
+    },
+    {
+      "index": 3,
+      "startTime": 16.63,
+      "endTime": 26.49,
+      "en": "Our vicar is always raising money for one cause or another, but he has never managed to get enough money to have the church clock repaired.",
+      "zh": "我们的牧师总是为各种慈善事业筹款，但他始终没能筹集到足够的钱来修理教堂的时钟。",
+      "role": "body"
+    },
+    {
+      "index": 4,
+      "startTime": 26.49,
+      "endTime": 36.38,
+      "en": "The big clock which used to strike the hours day and night was damaged many years ago and has been silent ever since.",
+      "zh": "那座曾经日夜报时的大钟在多年前就损坏了，从那以后就一直没再响过。",
+      "role": "body"
+    },
+    {
+      "index": 5,
+      "startTime": 36.38,
+      "endTime": 43.48,
+      "en": "One night, however, our vicar woke up with a start:the clock was striking the hours!",
+      "zh": "然而一天晚上，我们的牧师突然惊醒：时钟竟然在报时了！",
+      "role": "body"
+    },
+    {
+      "index": 6,
+      "startTime": 43.48,
+      "endTime": 51.91,
+      "en": "Looking at his watch, he saw that it was one o'clock, but the bell struck thirteen times before it stopped.",
+      "zh": "他看了看手表，发现时间是凌晨一点，但钟声却响了十三下才停止。",
+      "role": "body"
+    },
+    {
+      "index": 7,
+      "startTime": 51.91,
+      "endTime": 58.03,
+      "en": "Armed with a torch, the vicar went up into the clock tower to see what was going on.",
+      "zh": "牧师拿着手电筒走上钟楼，想看看发生了什么。",
+      "role": "body"
+    },
+    {
+      "index": 8,
+      "startTime": 58.03,
+      "endTime": 66.24,
+      "en": "In the torchlight, he caught sight of a figure whom he immediately recognized as Bill Wilkins, our local grocer.",
+      "zh": "在手电筒的光亮中，他看到一个人影，立刻认出那是我们当地的杂货商比尔·威尔金斯。",
+      "role": "body"
+    },
+    {
+      "index": 9,
+      "startTime": 66.24,
+      "endTime": 71.57,
+      "en": "'Whatever are you doing up here Bill?' asked the vicar in surprise.",
+      "zh": "“比尔，你到底在这里干什么？”牧师惊讶地问。",
+      "role": "body"
+    },
+    {
+      "index": 10,
+      "startTime": 71.57,
+      "endTime": 75.23,
+      "en": "'I'm trying to repair the bell, ' answered Bill.",
+      "zh": "“我正在尝试修理这个铃铛，”比尔回答道。",
+      "role": "body"
+    },
+    {
+      "index": 11,
+      "startTime": 75.23,
+      "endTime": 78.64,
+      "en": "'I've been coming up here night after night for weeks now.",
+      "zh": "“这几周来，我夜夜都来这里。",
+      "role": "body"
+    },
+    {
+      "index": 12,
+      "startTime": 78.64,
+      "endTime": 82.4,
+      "en": "You see, I was hoping to give you a surprise.'",
+      "zh": "你看，我本来想给你一个惊喜的。",
+      "role": "body"
+    },
+    {
+      "index": 13,
+      "startTime": 82.4,
+      "endTime": 85.82,
+      "en": "'You certainly did give me a surprise!' said the vicar.",
+      "zh": "“你确实给了我一个惊喜！”牧师说道。",
+      "role": "body"
+    },
+    {
+      "index": 14,
+      "startTime": 85.82,
+      "endTime": 89.51,
+      "en": "'You've probably woken up everyone in the village as well.",
+      "zh": "“你可能把全村人都给吵醒了。",
+      "role": "body"
+    },
+    {
+      "index": 15,
+      "startTime": 89.51,
+      "endTime": 93.01,
+      "en": "Still, I'm glad the bell is working again.'",
+      "zh": "不过，我很高兴这个铃铛又能正常使用了。",
+      "role": "body"
+    },
+    {
+      "index": 16,
+      "startTime": 93.01,
+      "endTime": 105.01,
+      "en": "'That's the trouble, vicar, 'answered Bill. 'It's working all right, but I'm afraid that at one o'clock it will strike thirteen times and there's nothing I can do about it.'",
+      "zh": "“问题就在这儿，牧师，”比尔回答说，“钟是能走，但我担心，到了凌晨一点的时候，钟声会敲响十三下，而我对此无能为力。",
+      "role": "body"
+    },
+    {
+      "index": 17,
+      "startTime": 105.01,
+      "endTime": 108.05,
+      "en": "'We'll get used to that, Bill, 'said the vicar.",
+      "zh": "“我们会慢慢习惯的，比尔，”牧师说道。",
+      "role": "body"
+    },
+    {
+      "index": 18,
+      "startTime": 108.05,
+      "endTime": 112.95,
+      "en": "'Thirteen is not as good as one, but it's better than nothing.",
+      "zh": "“十三下虽然不如一下，但总比不响好。",
+      "role": "body"
+    },
+    {
+      "index": 19,
+      "startTime": 112.95,
+      "endTime": null,
+      "en": "Now let's go downstairs and have a cup of tea.'",
+      "zh": "现在，我们下楼去喝杯茶吧。",
+      "role": "body"
+    }
+  ],
+  "audio": {
+    "fileName": "02－Thirteen Equals One.mp3",
+    "sourcePath": "content/NCE-Flow/NCE3/02－Thirteen Equals One.mp3",
+    "exists": true
+  },
+  "source": {
+    "repository": "NCE-Flow",
+    "lrcFileName": "02－Thirteen Equals One.lrc",
+    "lrcPath": "content/NCE-Flow/NCE3/02－Thirteen Equals One.lrc",
+    "sourceDataFile": "content/NCE-Flow/static/data.json",
+    "generatedAt": "2026-07-23T02:59:02+00:00",
+    "generator": "scripts/generate_nce_json.py",
+    "generatorVersion": "2.0.0",
+    "metadata": {
+      "al": "新概念英语（三）",
+      "ar": "MP3 同步字幕版（美音）",
+      "ti": "Thirteen Equals One",
+      "by": "更多学习内容，请到VeryCD.com搜索“露珠”"
+    }
+  }
+}

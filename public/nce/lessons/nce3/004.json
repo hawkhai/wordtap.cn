@@ -1,0 +1,175 @@
+{
+  "schemaVersion": 1,
+  "id": "nce3-004",
+  "bookId": "nce3",
+  "bookNo": 3,
+  "lessonNo": 4,
+  "lessonRange": [
+    4
+  ],
+  "title": "The Double Life of Alfred Bloggs",
+  "titleZh": "阿尔弗雷德·布洛格斯的双重生活",
+  "question": "Why did Alf want a white-collar job?",
+  "questionZh": "为什么阿尔夫想要一份白领工作呢？",
+  "text": "Why did Alf want a white-collar job?\n\nThese days, people who do manual work often receive far more money than people who work in offices.\nPeople who work in offices are frequently referred to as 'white-collar workers' for the simple reason that they usually wear a collar and tie to go to work.\nSuch is human nature, that a great many people are often willing to sacrifice higher pay for the privilege of becoming white-collar workers.\nThis can give rise to curious situations, as it did in the case of Alfred Bloggs who worked as a dustman for the Ellesmere Corporation.\nWhen he got married, Alf was too embarrassed to say anything to his wife about his job.\nHe simply told her that he worked for the Corporation.\nEvery morning, he left home dressed in a smart black suit.\nHe then changed into overalls and spent the next eight hours as a dustman.\nBefore returning home at night, he took a shower and changed back into his suit.\nAlf did this for over two years and his fellow dustmen kept his secret.\nAlf's wife has never discovered that she married a dustman and she never will, for Alf has just found another job.\nHe will soon be working in an office.\nHe will be earning only half as much as he used to, but he feels that his rise in status is well worth the loss of money.\nFrom now on, he will wear a suit all day and others will call him 'Mr.Bloggs', not 'Alf'.",
+  "bodyText": "These days, people who do manual work often receive far more money than people who work in offices.\nPeople who work in offices are frequently referred to as 'white-collar workers' for the simple reason that they usually wear a collar and tie to go to work.\nSuch is human nature, that a great many people are often willing to sacrifice higher pay for the privilege of becoming white-collar workers.\nThis can give rise to curious situations, as it did in the case of Alfred Bloggs who worked as a dustman for the Ellesmere Corporation.\nWhen he got married, Alf was too embarrassed to say anything to his wife about his job.\nHe simply told her that he worked for the Corporation.\nEvery morning, he left home dressed in a smart black suit.\nHe then changed into overalls and spent the next eight hours as a dustman.\nBefore returning home at night, he took a shower and changed back into his suit.\nAlf did this for over two years and his fellow dustmen kept his secret.\nAlf's wife has never discovered that she married a dustman and she never will, for Alf has just found another job.\nHe will soon be working in an office.\nHe will be earning only half as much as he used to, but he feels that his rise in status is well worth the loss of money.\nFrom now on, he will wear a suit all day and others will call him 'Mr.Bloggs', not 'Alf'.",
+  "bodyTextZh": "如今，从事体力劳动的人往往比在办公室工作的人赚得更多。\n在办公室工作的人通常被称为“白领工人”，原因很简单：他们上班时通常要穿衬衫、打领带。\n人类的天性就是这样：很多人往往愿意放弃更高的薪资，只为获得成为白领员工的特权。\n这可能会导致一些奇怪的情况，阿尔弗雷德·布洛格斯就是一例。他曾为埃尔斯米尔公司当清洁工。\n当他结婚的时候，阿尔夫太尴尬了，以至于什么都没敢跟妻子说起自己的工作。\n他只是简单地告诉她，自己为那家公司工作。\n每天早上，他都会穿着一套整洁的黑色西装离开家。\n然后他换上工作服，接下来的八个小时就当起了清洁工。\n在晚上回家之前，他洗了个澡，然后换回了西装。\n阿尔夫从事这份工作已经两年多了，他的同事们一直保守着他的秘密。\n阿尔夫的妻子从未发现她嫁给了一个清洁工，而且永远也不会发现——因为阿尔夫刚刚找到了另一份工作。\n他很快就会在办公室里工作了。\n虽然他的收入将只有原来的一半，但他觉得社会地位的提升完全值得他损失这些钱。\n从现在开始，他每天都会穿西装，别人会称呼他为“布洛格斯先生”，而不再是“阿尔夫”。",
+  "sentences": [
+    {
+      "index": 0,
+      "startTime": 0.78,
+      "endTime": 2.44,
+      "en": "Lesson 4",
+      "zh": "第4课",
+      "role": "lesson"
+    },
+    {
+      "index": 1,
+      "startTime": 2.44,
+      "endTime": 11.34,
+      "en": "The double life of Alfred Bloggs",
+      "zh": "阿尔弗雷德·布洛格斯的双重生活",
+      "role": "title"
+    },
+    {
+      "index": 2,
+      "startTime": 11.34,
+      "endTime": 16.83,
+      "en": "Why did Alf want a white-collar job?",
+      "zh": "为什么阿尔夫想要一份白领工作呢？",
+      "role": "question"
+    },
+    {
+      "index": 3,
+      "startTime": 16.83,
+      "endTime": 24.76,
+      "en": "These days, people who do manual work often receive far more money than people who work in offices.",
+      "zh": "如今，从事体力劳动的人往往比在办公室工作的人赚得更多。",
+      "role": "body"
+    },
+    {
+      "index": 4,
+      "startTime": 24.76,
+      "endTime": 36.74,
+      "en": "People who work in offices are frequently referred to as 'white-collar workers' for the simple reason that they usually wear a collar and tie to go to work.",
+      "zh": "在办公室工作的人通常被称为“白领工人”，原因很简单：他们上班时通常要穿衬衫、打领带。",
+      "role": "body"
+    },
+    {
+      "index": 5,
+      "startTime": 36.74,
+      "endTime": 48.19,
+      "en": "Such is human nature, that a great many people are often willing to sacrifice higher pay for the privilege of becoming white-collar workers.",
+      "zh": "人类的天性就是这样：很多人往往愿意放弃更高的薪资，只为获得成为白领员工的特权。",
+      "role": "body"
+    },
+    {
+      "index": 6,
+      "startTime": 48.19,
+      "endTime": 60.78,
+      "en": "This can give rise to curious situations, as it did in the case of Alfred Bloggs who worked as a dustman for the Ellesmere Corporation.",
+      "zh": "这可能会导致一些奇怪的情况，阿尔弗雷德·布洛格斯就是一例。他曾为埃尔斯米尔公司当清洁工。",
+      "role": "body"
+    },
+    {
+      "index": 7,
+      "startTime": 60.78,
+      "endTime": 67.63,
+      "en": "When he got married, Alf was too embarrassed to say anything to his wife about his job.",
+      "zh": "当他结婚的时候，阿尔夫太尴尬了，以至于什么都没敢跟妻子说起自己的工作。",
+      "role": "body"
+    },
+    {
+      "index": 8,
+      "startTime": 67.63,
+      "endTime": 71.57,
+      "en": "He simply told her that he worked for the Corporation.",
+      "zh": "他只是简单地告诉她，自己为那家公司工作。",
+      "role": "body"
+    },
+    {
+      "index": 9,
+      "startTime": 71.57,
+      "endTime": 76.45,
+      "en": "Every morning, he left home dressed in a smart black suit.",
+      "zh": "每天早上，他都会穿着一套整洁的黑色西装离开家。",
+      "role": "body"
+    },
+    {
+      "index": 10,
+      "startTime": 76.45,
+      "endTime": 82.9,
+      "en": "He then changed into overalls and spent the next eight hours as a dustman.",
+      "zh": "然后他换上工作服，接下来的八个小时就当起了清洁工。",
+      "role": "body"
+    },
+    {
+      "index": 11,
+      "startTime": 82.9,
+      "endTime": 89.02,
+      "en": "Before returning home at night, he took a shower and changed back into his suit.",
+      "zh": "在晚上回家之前，他洗了个澡，然后换回了西装。",
+      "role": "body"
+    },
+    {
+      "index": 12,
+      "startTime": 89.02,
+      "endTime": 95.66,
+      "en": "Alf did this for over two years and his fellow dustmen kept his secret.",
+      "zh": "阿尔夫从事这份工作已经两年多了，他的同事们一直保守着他的秘密。",
+      "role": "body"
+    },
+    {
+      "index": 13,
+      "startTime": 95.66,
+      "endTime": 104.47,
+      "en": "Alf's wife has never discovered that she married a dustman and she never will, for Alf has just found another job.",
+      "zh": "阿尔夫的妻子从未发现她嫁给了一个清洁工，而且永远也不会发现——因为阿尔夫刚刚找到了另一份工作。",
+      "role": "body"
+    },
+    {
+      "index": 14,
+      "startTime": 104.47,
+      "endTime": 107.61,
+      "en": "He will soon be working in an office.",
+      "zh": "他很快就会在办公室里工作了。",
+      "role": "body"
+    },
+    {
+      "index": 15,
+      "startTime": 107.61,
+      "endTime": 117.05,
+      "en": "He will be earning only half as much as he used to, but he feels that his rise in status is well worth the loss of money.",
+      "zh": "虽然他的收入将只有原来的一半，但他觉得社会地位的提升完全值得他损失这些钱。",
+      "role": "body"
+    },
+    {
+      "index": 16,
+      "startTime": 117.05,
+      "endTime": null,
+      "en": "From now on, he will wear a suit all day and others will call him 'Mr.Bloggs', not 'Alf'.",
+      "zh": "从现在开始，他每天都会穿西装，别人会称呼他为“布洛格斯先生”，而不再是“阿尔夫”。",
+      "role": "body"
+    }
+  ],
+  "audio": {
+    "fileName": "04－The Double Life of Alfred Bloggs.mp3",
+    "sourcePath": "content/NCE-Flow/NCE3/04－The Double Life of Alfred Bloggs.mp3",
+    "exists": true
+  },
+  "source": {
+    "repository": "NCE-Flow",
+    "lrcFileName": "04－The Double Life of Alfred Bloggs.lrc",
+    "lrcPath": "content/NCE-Flow/NCE3/04－The Double Life of Alfred Bloggs.lrc",
+    "sourceDataFile": "content/NCE-Flow/static/data.json",
+    "generatedAt": "2026-07-23T02:59:02+00:00",
+    "generator": "scripts/generate_nce_json.py",
+    "generatorVersion": "2.0.0",
+    "metadata": {
+      "al": "新概念英语（三）",
+      "ar": "MP3 同步字幕版（美音）",
+      "ti": "The Double Life of Alfred Bloggs",
+      "by": "更多学习内容，请到VeryCD.com搜索“露珠”"
+    }
+  }
+}

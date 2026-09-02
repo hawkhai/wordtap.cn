@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "id": "pephs4-014",
+  "groupId": "pephs4",
+  "unitNo": 4,
+  "sequenceNo": 14,
+  "section": "Project",
+  "title": "China Exchange",
+  "jsonPath": "pep-english/lessons/pephs4/014.json",
+  "text": "Who are we?\nWe are an organisation whose goal is to help people abroad through exchange with China.\nWhat do we do?\nBusiness or organisation employees from China and another country trade places for a period of time. This helps people in both countries to learn from each other’s expertise, and to broaden their cultural understanding.\nWhere do we work?\nWe work in Asia, Latin America, and Africa.\nHow can you help?\nYou can suggest an exchange that you want to take part in. We will help to arrange and pay for it.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Who are we?\nWe are an organisation whose goal is to help people abroad through exchange with China."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "What do we do?\nBusiness or organisation employees from China and another country trade places for a period of time. This helps people in both countries to learn from each other’s expertise, and to broaden their cultural understanding."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Where do we work?\nWe work in Asia, Latin America, and Africa."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "How can you help?\nYou can suggest an exchange that you want to take part in. We will help to arrange and pay for it."
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "选择性必修第四册",
+    "pageStart": 54,
+    "pageEnd": 54,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "6fc94127b322f6f5abff068bef6faa2e",
+    "pdfSize": 12330614,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/senior-selective-4.pdf#page=54",
+      "reviewedAt": "2026-07-22",
+      "notes": "Recovered all four headed sections of the complete right-hand poster; excluded the photograph, project instructions and furniture.",
+      "splitBaselineId": "pephs4-026",
+      "splitIndex": 2,
+      "splitCount": 2
+    }
+  }
+}

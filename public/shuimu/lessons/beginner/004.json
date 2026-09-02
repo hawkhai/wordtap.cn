@@ -1,0 +1,408 @@
+{
+  "schemaVersion": 1,
+  "id": "beginner-004",
+  "levelId": "beginner",
+  "unitNo": 4,
+  "title": "【对话场景】询问职业",
+  "jsonPath": "shuimu/lessons/beginner/004.json",
+  "text": "第四单元\n第一课\n【对话场景】询问职业\n——I’m a new student. My name’s Robert.\n我是新来的学生，我的名字叫做罗伯特。\n——Nice to meet you. My name’s Sophie.\n很高兴见到你。我的名字叫索菲。\n——Are you French?\n你是法国人吗？\n——Yes, I am. Are you French, too?\n是的，我是法国人。你也是法国人吗？\n——No, I’m not.\n不，我不是法国人。\n——What nationality are you?\n那你是哪国人？\n——I’m Italian.\n我是意大利人。\nAre you a teacher?\n你是老师吗？\n——No, I’m not.\n不，我不是。\n——What’s your job?\n你是做什么工作的？\n——I’m a nurse.\n我是一名护士。\nWhat’s your job?\n你是做什么工作的？\n——I’m an engineer.\n我是工程师。\n• My name is...的用法\n◦ 用于介绍自己的姓名，name=姓名\n◦ 相当于 I am...或 I'm...\n◦ 后面可以只加名字或者姓名，但不可以只加姓氏\n◦ first name 和 last name 的区别\n▪ first name=given name 名字（名字是取的）\n▪ last name=family name 姓氏（一般来说是不可更改的）=surname\n◦ middle name 中间名\n▪ 经常以缩写的形式出现\n▪ 如：James Robert Smith，写成 James R. Smith 或 James Smith\n• What nationality are you?的用法\n◦ 询问国籍，nationality 国籍，nation 民族\n◦ =what is your nationality?\n你的国籍是什么？注意主系表结构的不同\n◦ =where are you from?=where do you come from?\n◦ 回答的方式：\n▪ I’m Chinese.（国籍首字母大写）\n• what's your job?的用法\n◦ 询问工作，job 工作\n◦ =what do you do?你是做什么的？\n▪ =what do you do for a living?可省略 for a living\n▪ 注意与 how do you do?的区别，用于问候\n◦ job 与 work 的区别\n▪ job 表示职业，相对固定的工作，work 表示为了实现目标进行的努力或\n活动\n▪ work 不可数，job 可数\n▫ He got a new job.他找了一份新工作。\n▫ He got some work to do.他手头上有些工作要做。\n▪ job 是名词，work 还可以做动词\n▫ He works very hard.他工作非常努力。\n▫ He likes his job very much.他非常喜欢自己的工作（职业）。\n第二课\n【语法点拨】“特殊的”疑问句\n特殊疑问句用来对句子某一部分提问。通常以疑问词 what，which，when，\nwhere，who，why，how 等开头。\n引导特殊疑问句的疑问词：\nwhat 什么 who 谁 which 哪一个 whose 谁的\nwhere 何地 why 为什么 when 何时 how 如何\nhow many 多少 how much 多少 how long 多久 how often 多久一次\n• 特殊疑问句的结构\n◦ 一般要用倒装语序\n▪ Who is that girl?那个女孩是谁？\n▪ Who are you?你是谁？\n• 特殊疑问句的回答方式\n▪ 不用 yes 或 no 来回答\n▪ 问什么答什么\n▫ When do you go to school?你什么时候去上学？\n▫ I go to school at 8am.我早上 8 点上学。\n• 如果提问主语或主语的定语，句子不用倒装句语序\n◦ 结构是：特殊疑问词（+主语）+陈述句\n▪ Who is absent today?今天谁没来？\n▪ Which pen is red?哪支钢笔是红色的？\n第三课\n【单词串烧】\n• name ['neim] n.名字\n• what [wɔt, wɑ:t] a.& pron.什么\n• nationality [ˌnæʃə'næliti] n.国籍\n• job [dʒɔb] n.工作\n• nurse [nɜːs] n.护士\n• engineer [ˌendʒi'niə] n.工程师\n• policeman [pə'li:smən] n.警察\n• policewoman [pə'li:s,wumən] n.女警察\n• taxi driver [ˈtæksi-ˈdraɪvə(r)] 出租汽车司机\n• air hostess [ˈeə-ˈhəʊstəs] 空中小姐\n• postman ['pəustmən] n.邮递员\n• mechanic [mi'kænik] n.机械师\n• hairdresser ['heəˌdresə] n.理发师\n• housewife ['hauswaif] n.家庭主妇\n• milkman ['milkmən] n.送牛奶的人",
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "第四单元"
+    },
+    {
+      "type": "heading",
+      "text": "第一课"
+    },
+    {
+      "type": "heading",
+      "text": "【对话场景】询问职业"
+    },
+    {
+      "type": "paragraph",
+      "text": "——I’m a new student. My name’s Robert."
+    },
+    {
+      "type": "paragraph",
+      "text": "我是新来的学生，我的名字叫做罗伯特。"
+    },
+    {
+      "type": "paragraph",
+      "text": "——Nice to meet you. My name’s Sophie."
+    },
+    {
+      "type": "paragraph",
+      "text": "很高兴见到你。我的名字叫索菲。"
+    },
+    {
+      "type": "paragraph",
+      "text": "——Are you French?"
+    },
+    {
+      "type": "paragraph",
+      "text": "你是法国人吗？"
+    },
+    {
+      "type": "paragraph",
+      "text": "——Yes, I am. Are you French, too?"
+    },
+    {
+      "type": "paragraph",
+      "text": "是的，我是法国人。你也是法国人吗？"
+    },
+    {
+      "type": "paragraph",
+      "text": "——No, I’m not."
+    },
+    {
+      "type": "paragraph",
+      "text": "不，我不是法国人。"
+    },
+    {
+      "type": "paragraph",
+      "text": "——What nationality are you?"
+    },
+    {
+      "type": "paragraph",
+      "text": "那你是哪国人？"
+    },
+    {
+      "type": "paragraph",
+      "text": "——I’m Italian."
+    },
+    {
+      "type": "paragraph",
+      "text": "我是意大利人。"
+    },
+    {
+      "type": "paragraph",
+      "text": "Are you a teacher?"
+    },
+    {
+      "type": "paragraph",
+      "text": "你是老师吗？"
+    },
+    {
+      "type": "paragraph",
+      "text": "——No, I’m not."
+    },
+    {
+      "type": "paragraph",
+      "text": "不，我不是。"
+    },
+    {
+      "type": "paragraph",
+      "text": "——What’s your job?"
+    },
+    {
+      "type": "paragraph",
+      "text": "你是做什么工作的？"
+    },
+    {
+      "type": "paragraph",
+      "text": "——I’m a nurse."
+    },
+    {
+      "type": "paragraph",
+      "text": "我是一名护士。"
+    },
+    {
+      "type": "paragraph",
+      "text": "What’s your job?"
+    },
+    {
+      "type": "paragraph",
+      "text": "你是做什么工作的？"
+    },
+    {
+      "type": "paragraph",
+      "text": "——I’m an engineer."
+    },
+    {
+      "type": "paragraph",
+      "text": "我是工程师。"
+    },
+    {
+      "type": "list",
+      "text": "• My name is...的用法"
+    },
+    {
+      "type": "list",
+      "text": "◦ 用于介绍自己的姓名，name=姓名"
+    },
+    {
+      "type": "list",
+      "text": "◦ 相当于 I am...或 I'm..."
+    },
+    {
+      "type": "list",
+      "text": "◦ 后面可以只加名字或者姓名，但不可以只加姓氏"
+    },
+    {
+      "type": "list",
+      "text": "◦ first name 和 last name 的区别"
+    },
+    {
+      "type": "list",
+      "text": "▪ first name=given name 名字（名字是取的）"
+    },
+    {
+      "type": "list",
+      "text": "▪ last name=family name 姓氏（一般来说是不可更改的）=surname"
+    },
+    {
+      "type": "list",
+      "text": "◦ middle name 中间名"
+    },
+    {
+      "type": "list",
+      "text": "▪ 经常以缩写的形式出现"
+    },
+    {
+      "type": "list",
+      "text": "▪ 如：James Robert Smith，写成 James R. Smith 或 James Smith"
+    },
+    {
+      "type": "list",
+      "text": "• What nationality are you?的用法"
+    },
+    {
+      "type": "list",
+      "text": "◦ 询问国籍，nationality 国籍，nation 民族"
+    },
+    {
+      "type": "list",
+      "text": "◦ =what is your nationality?"
+    },
+    {
+      "type": "paragraph",
+      "text": "你的国籍是什么？注意主系表结构的不同"
+    },
+    {
+      "type": "list",
+      "text": "◦ =where are you from?=where do you come from?"
+    },
+    {
+      "type": "list",
+      "text": "◦ 回答的方式："
+    },
+    {
+      "type": "list",
+      "text": "▪ I’m Chinese.（国籍首字母大写）"
+    },
+    {
+      "type": "list",
+      "text": "• what's your job?的用法"
+    },
+    {
+      "type": "list",
+      "text": "◦ 询问工作，job 工作"
+    },
+    {
+      "type": "list",
+      "text": "◦ =what do you do?你是做什么的？"
+    },
+    {
+      "type": "list",
+      "text": "▪ =what do you do for a living?可省略 for a living"
+    },
+    {
+      "type": "list",
+      "text": "▪ 注意与 how do you do?的区别，用于问候"
+    },
+    {
+      "type": "list",
+      "text": "◦ job 与 work 的区别"
+    },
+    {
+      "type": "list",
+      "text": "▪ job 表示职业，相对固定的工作，work 表示为了实现目标进行的努力或"
+    },
+    {
+      "type": "paragraph",
+      "text": "活动"
+    },
+    {
+      "type": "list",
+      "text": "▪ work 不可数，job 可数"
+    },
+    {
+      "type": "list",
+      "text": "▫ He got a new job.他找了一份新工作。"
+    },
+    {
+      "type": "list",
+      "text": "▫ He got some work to do.他手头上有些工作要做。"
+    },
+    {
+      "type": "list",
+      "text": "▪ job 是名词，work 还可以做动词"
+    },
+    {
+      "type": "list",
+      "text": "▫ He works very hard.他工作非常努力。"
+    },
+    {
+      "type": "list",
+      "text": "▫ He likes his job very much.他非常喜欢自己的工作（职业）。"
+    },
+    {
+      "type": "heading",
+      "text": "第二课"
+    },
+    {
+      "type": "heading",
+      "text": "【语法点拨】“特殊的”疑问句"
+    },
+    {
+      "type": "paragraph",
+      "text": "特殊疑问句用来对句子某一部分提问。通常以疑问词 what，which，when，"
+    },
+    {
+      "type": "paragraph",
+      "text": "where，who，why，how 等开头。"
+    },
+    {
+      "type": "paragraph",
+      "text": "引导特殊疑问句的疑问词："
+    },
+    {
+      "type": "paragraph",
+      "text": "what 什么 who 谁 which 哪一个 whose 谁的"
+    },
+    {
+      "type": "paragraph",
+      "text": "where 何地 why 为什么 when 何时 how 如何"
+    },
+    {
+      "type": "paragraph",
+      "text": "how many 多少 how much 多少 how long 多久 how often 多久一次"
+    },
+    {
+      "type": "list",
+      "text": "• 特殊疑问句的结构"
+    },
+    {
+      "type": "list",
+      "text": "◦ 一般要用倒装语序"
+    },
+    {
+      "type": "list",
+      "text": "▪ Who is that girl?那个女孩是谁？"
+    },
+    {
+      "type": "list",
+      "text": "▪ Who are you?你是谁？"
+    },
+    {
+      "type": "list",
+      "text": "• 特殊疑问句的回答方式"
+    },
+    {
+      "type": "list",
+      "text": "▪ 不用 yes 或 no 来回答"
+    },
+    {
+      "type": "list",
+      "text": "▪ 问什么答什么"
+    },
+    {
+      "type": "list",
+      "text": "▫ When do you go to school?你什么时候去上学？"
+    },
+    {
+      "type": "list",
+      "text": "▫ I go to school at 8am.我早上 8 点上学。"
+    },
+    {
+      "type": "list",
+      "text": "• 如果提问主语或主语的定语，句子不用倒装句语序"
+    },
+    {
+      "type": "list",
+      "text": "◦ 结构是：特殊疑问词（+主语）+陈述句"
+    },
+    {
+      "type": "list",
+      "text": "▪ Who is absent today?今天谁没来？"
+    },
+    {
+      "type": "list",
+      "text": "▪ Which pen is red?哪支钢笔是红色的？"
+    },
+    {
+      "type": "heading",
+      "text": "第三课"
+    },
+    {
+      "type": "heading",
+      "text": "【单词串烧】"
+    },
+    {
+      "type": "list",
+      "text": "• name ['neim] n.名字"
+    },
+    {
+      "type": "list",
+      "text": "• what [wɔt, wɑ:t] a.& pron.什么"
+    },
+    {
+      "type": "list",
+      "text": "• nationality [ˌnæʃə'næliti] n.国籍"
+    },
+    {
+      "type": "list",
+      "text": "• job [dʒɔb] n.工作"
+    },
+    {
+      "type": "list",
+      "text": "• nurse [nɜːs] n.护士"
+    },
+    {
+      "type": "list",
+      "text": "• engineer [ˌendʒi'niə] n.工程师"
+    },
+    {
+      "type": "list",
+      "text": "• policeman [pə'li:smən] n.警察"
+    },
+    {
+      "type": "list",
+      "text": "• policewoman [pə'li:s,wumən] n.女警察"
+    },
+    {
+      "type": "list",
+      "text": "• taxi driver [ˈtæksi-ˈdraɪvə(r)] 出租汽车司机"
+    },
+    {
+      "type": "list",
+      "text": "• air hostess [ˈeə-ˈhəʊstəs] 空中小姐"
+    },
+    {
+      "type": "list",
+      "text": "• postman ['pəustmən] n.邮递员"
+    },
+    {
+      "type": "list",
+      "text": "• mechanic [mi'kænik] n.机械师"
+    },
+    {
+      "type": "list",
+      "text": "• hairdresser ['heəˌdresə] n.理发师"
+    },
+    {
+      "type": "list",
+      "text": "• housewife ['hauswaif] n.家庭主妇"
+    },
+    {
+      "type": "list",
+      "text": "• milkman ['milkmən] n.送牛奶的人"
+    }
+  ],
+  "videos": [],
+  "source": {
+    "fileName": "英语零基础初级讲义.txt",
+    "kind": "PDF 校对后的转换文本"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "id": "pephs1-021",
+  "groupId": "pephs1",
+  "unitNo": 2,
+  "sequenceNo": 21,
+  "section": "Reading and Writing",
+  "title": "Cloning: Where Is It Leading Us?",
+  "jsonPath": "pep-english/lessons/pephs1/021.json",
+  "text": "When it was announced in 2018 that the Chinese Academy of Sciences in Shanghai had created the world’s first cloned monkeys, Zhongzhong and Huahua, heated discussions followed online. In fact, cloning has always been with us. It is a way of making an exact copy of another animal or plant. It happens in plants when gardeners take cuttings from growing plants to make new ones. It also happens in animals when identical twins are produced from the same egg. These are both examples of natural clones.\nCloning has two major uses. First, gardeners use it to produce large quantities of plants for sale. Second, it is valuable for research on new plant species and for medical research on animals. Cloning plants is fairly straightforward, while cloning animals is much more complicated and difficult. Over the years, many scientists failed in their attempts to clone animals, but their determination and patience paid off in 1996 with a breakthrough—the cloning of Dolly the sheep.\nThe sheep cloning procedure works like this: Female sheep A provides an egg cell. The nucleus is removed from the egg cell. The egg cell is ready for a new nucleus. Female sheep B provides a somatic cell for the clone. The nucleus of this cell contains all the genes needed to produce a new sheep. The nucleus is taken out of the somatic cell. The somatic cell nucleus from sheep B and the egg cell from sheep A are joined. The cell divides and grows into an embryo. The embryo is put into female sheep C, who becomes the carrier of the clone. The lamb which is born is the clone of sheep B. It is in every way identical to sheep B, but younger.\nWith the advances of scientific research, cloning will have several major uses in the future. For one thing, it could be used to breed animal species which are endangered, or even bring back species which are now extinct. For another, it could be used to grow human organs or tissue in animals, which could be used for human organ transplants or medical treatments. Finally, cloning could be used to breed animals that will provide us with higher quality meat, milk, or eggs.\nWhile there are technical issues that need to be worked through to make widespread cloning possible, the biggest concerns are moral. For example, if scientists brought an extinct animal back into existence, it would probably end up living in a zoo. That is not very good for the animal. Even worse for the animal is using it as a source of organ transplants—because it will be injured or even die. In addition, many people worry that eating animal products that result from cloning might be harmful to our health over time. The possibility of using cloning to produce human beings is an even bigger concern. What would happen if such knowledge ended up in the wrong hands?\nWhen it comes to cloning, we wonder, ultimately, whether cloning will help or harm the world. No doubt, we will be talking about this question for a long time to come.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "When it was announced in 2018 that the Chinese Academy of Sciences in Shanghai had created the world’s first cloned monkeys, Zhongzhong and Huahua, heated discussions followed online. In fact, cloning has always been with us. It is a way of making an exact copy of another animal or plant. It happens in plants when gardeners take cuttings from growing plants to make new ones. It also happens in animals when identical twins are produced from the same egg. These are both examples of natural clones."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Cloning has two major uses. First, gardeners use it to produce large quantities of plants for sale. Second, it is valuable for research on new plant species and for medical research on animals. Cloning plants is fairly straightforward, while cloning animals is much more complicated and difficult. Over the years, many scientists failed in their attempts to clone animals, but their determination and patience paid off in 1996 with a breakthrough—the cloning of Dolly the sheep."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "The sheep cloning procedure works like this: Female sheep A provides an egg cell. The nucleus is removed from the egg cell. The egg cell is ready for a new nucleus. Female sheep B provides a somatic cell for the clone. The nucleus of this cell contains all the genes needed to produce a new sheep. The nucleus is taken out of the somatic cell. The somatic cell nucleus from sheep B and the egg cell from sheep A are joined. The cell divides and grows into an embryo. The embryo is put into female sheep C, who becomes the carrier of the clone. The lamb which is born is the clone of sheep B. It is in every way identical to sheep B, but younger."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "With the advances of scientific research, cloning will have several major uses in the future. For one thing, it could be used to breed animal species which are endangered, or even bring back species which are now extinct. For another, it could be used to grow human organs or tissue in animals, which could be used for human organ transplants or medical treatments. Finally, cloning could be used to breed animals that will provide us with higher quality meat, milk, or eggs."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "While there are technical issues that need to be worked through to make widespread cloning possible, the biggest concerns are moral. For example, if scientists brought an extinct animal back into existence, it would probably end up living in a zoo. That is not very good for the animal. Even worse for the animal is using it as a source of organ transplants—because it will be injured or even die. In addition, many people worry that eating animal products that result from cloning might be harmful to our health over time. The possibility of using cloning to produce human beings is an even bigger concern. What would happen if such knowledge ended up in the wrong hands?"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "When it comes to cloning, we wonder, ultimately, whether cloning will help or harm the world. No doubt, we will be talking about this question for a long time to come."
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "选择性必修第一册",
+    "pageStart": 78,
+    "pageEnd": 79,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "f19c4231e96ee3a9c769533d676f1106",
+    "pdfSize": 12809514,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/senior-selective-1.pdf#page=78-79",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored all six textbook-designated sections of the cloning feature across pages 78–79, preserving every sheep-cloning step as continuous prose and removing only the Chinese gloss; excluded diagrams, photographs, questions, topic matching and writing tasks."
+    }
+  }
+}

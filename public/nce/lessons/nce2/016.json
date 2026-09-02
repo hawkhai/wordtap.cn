@@ -1,0 +1,135 @@
+{
+  "schemaVersion": 1,
+  "id": "nce2-016",
+  "bookId": "nce2",
+  "bookNo": 2,
+  "lessonNo": 16,
+  "lessonRange": [
+    16
+  ],
+  "title": "A Polite Request",
+  "titleZh": "彬彬有礼的要求",
+  "question": "What was the polite request?",
+  "questionZh": "那个礼貌的请求是什么？",
+  "text": "What was the polite request?\n\nIf you park your car in the wrong place, a traffic policeman will soon find it.\nYou will be very lucky if he lets you go without a ticket.\nHowever, this does not always happen.\nTraffic police are sometimes very polite.\nDuring a holiday in Sweden,\nI found this note on my car:\n'sir, we welcome you to our city. This is a No Parking area.\nYou will enjoy your stay here if you pay attention to our street signs. This note is only a reminder.'\nIf you receive a request like this, you cannot fail to obey it!",
+  "bodyText": "If you park your car in the wrong place, a traffic policeman will soon find it.\nYou will be very lucky if he lets you go without a ticket.\nHowever, this does not always happen.\nTraffic police are sometimes very polite.\nDuring a holiday in Sweden,\nI found this note on my car:\n'sir, we welcome you to our city. This is a No Parking area.\nYou will enjoy your stay here if you pay attention to our street signs. This note is only a reminder.'\nIf you receive a request like this, you cannot fail to obey it!",
+  "bodyTextZh": "如果你把车停在了错误的地方，交通警察很快就会发现它。\n如果你能不被开罚单就放你走，那你就非常幸运了。\n不过，这种情况并不总是发生。\n有时候，交通警察会非常礼貌。\n在瑞典的一个假期里，\n我在我的车上发现了一张纸条：\n“先生，欢迎您来到我们的城市。这里是禁止停车区。\n如果您注意看街道上的标志，您的停留会非常愉快。这张纸条只是为了提醒您而已。”\n如果你收到这样的请求，你一定会遵守的！",
+  "sentences": [
+    {
+      "index": 0,
+      "startTime": 0.5,
+      "endTime": 3,
+      "en": "Lesson 16",
+      "zh": "第16课",
+      "role": "lesson"
+    },
+    {
+      "index": 1,
+      "startTime": 3,
+      "endTime": 10.02,
+      "en": "A Polite Request",
+      "zh": "彬彬有礼的要求",
+      "role": "title"
+    },
+    {
+      "index": 2,
+      "startTime": 10.02,
+      "endTime": 14.64,
+      "en": "What was the polite request?",
+      "zh": "那个礼貌的请求是什么？",
+      "role": "question"
+    },
+    {
+      "index": 3,
+      "startTime": 14.64,
+      "endTime": 21.68,
+      "en": "If you park your car in the wrong place, a traffic policeman will soon find it.",
+      "zh": "如果你把车停在了错误的地方，交通警察很快就会发现它。",
+      "role": "body"
+    },
+    {
+      "index": 4,
+      "startTime": 21.68,
+      "endTime": 26.86,
+      "en": "You will be very lucky if he lets you go without a ticket.",
+      "zh": "如果你能不被开罚单就放你走，那你就非常幸运了。",
+      "role": "body"
+    },
+    {
+      "index": 5,
+      "startTime": 26.86,
+      "endTime": 31.48,
+      "en": "However, this does not always happen.",
+      "zh": "不过，这种情况并不总是发生。",
+      "role": "body"
+    },
+    {
+      "index": 6,
+      "startTime": 31.48,
+      "endTime": 35.98,
+      "en": "Traffic police are sometimes very polite.",
+      "zh": "有时候，交通警察会非常礼貌。",
+      "role": "body"
+    },
+    {
+      "index": 7,
+      "startTime": 35.98,
+      "endTime": 38.66,
+      "en": "During a holiday in Sweden,",
+      "zh": "在瑞典的一个假期里，",
+      "role": "body"
+    },
+    {
+      "index": 8,
+      "startTime": 38.66,
+      "endTime": 42.04,
+      "en": "I found this note on my car:",
+      "zh": "我在我的车上发现了一张纸条：",
+      "role": "body"
+    },
+    {
+      "index": 9,
+      "startTime": 42.04,
+      "endTime": 49.85,
+      "en": "'sir, we welcome you to our city. This is a No Parking area.",
+      "zh": "“先生，欢迎您来到我们的城市。这里是禁止停车区。",
+      "role": "body"
+    },
+    {
+      "index": 10,
+      "startTime": 49.85,
+      "endTime": 60.31,
+      "en": "You will enjoy your stay here if you pay attention to our street signs. This note is only a reminder.'",
+      "zh": "如果您注意看街道上的标志，您的停留会非常愉快。这张纸条只是为了提醒您而已。”",
+      "role": "body"
+    },
+    {
+      "index": 11,
+      "startTime": 60.31,
+      "endTime": null,
+      "en": "If you receive a request like this, you cannot fail to obey it!",
+      "zh": "如果你收到这样的请求，你一定会遵守的！",
+      "role": "body"
+    }
+  ],
+  "audio": {
+    "fileName": "16－A Polite Request.mp3",
+    "sourcePath": "content/NCE-Flow/NCE2/16－A Polite Request.mp3",
+    "exists": true
+  },
+  "source": {
+    "repository": "NCE-Flow",
+    "lrcFileName": "16－A Polite Request.lrc",
+    "lrcPath": "content/NCE-Flow/NCE2/16－A Polite Request.lrc",
+    "sourceDataFile": "content/NCE-Flow/static/data.json",
+    "generatedAt": "2026-07-23T02:59:02+00:00",
+    "generator": "scripts/generate_nce_json.py",
+    "generatorVersion": "2.0.0",
+    "metadata": {
+      "al": "新概念英语（二）",
+      "ar": "MP3 同步字幕版（美音）",
+      "ti": "A Polite Request",
+      "by": "更多学习内容，请到VeryCD.com搜索“露珠”"
+    }
+  }
+}

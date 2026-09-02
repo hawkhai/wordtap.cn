@@ -1,0 +1,152 @@
+{
+  "schemaVersion": 1,
+  "id": "nce1-143",
+  "bookId": "nce1",
+  "bookNo": 1,
+  "lessonNo": 143,
+  "lessonRange": [
+    143,
+    144
+  ],
+  "title": "A Walk Through the Woods",
+  "titleZh": "在树林中散步",
+  "question": "What was so funny about the words on the sign?",
+  "questionZh": "那个招牌上的文字有什么好笑的呢？",
+  "text": "What was so funny about the words on the sign?\n\nI live in a very old town which is surrounded by beautiful woods.\nIt is a famous beauty spot.\nOn Sundays, hundreds of people come from the city to see our town and to walk through the woods.\nVisitors have been asked to keep the woods clean and tidy.\nLitter baskets have been placed under the trees, but people still throw their rubbish everywhere.\nLast Wednesday, I went for a walk in the woods.\nWhat I saw made me very sad.\nI counted seven old cars and three old refrigerators.\nThe little baskets were empty and the ground was covered with pieces of paper, cigarette ends, old tyres, empty bottles and rusty tins.\nAmong the rubbish, I found a sign which said, 'Anyone who leaves litter in these woods will be prosecuted!'",
+  "bodyText": "I live in a very old town which is surrounded by beautiful woods.\nIt is a famous beauty spot.\nOn Sundays, hundreds of people come from the city to see our town and to walk through the woods.\nVisitors have been asked to keep the woods clean and tidy.\nLitter baskets have been placed under the trees, but people still throw their rubbish everywhere.\nLast Wednesday, I went for a walk in the woods.\nWhat I saw made me very sad.\nI counted seven old cars and three old refrigerators.\nThe little baskets were empty and the ground was covered with pieces of paper, cigarette ends, old tyres, empty bottles and rusty tins.\nAmong the rubbish, I found a sign which said, 'Anyone who leaves litter in these woods will be prosecuted!'",
+  "bodyTextZh": "我住在一个非常古老的城镇里，这个城镇被美丽的树林环绕着。\n这是一个著名的风景区。\n每到周日，都会有数百人从城里来到我们这个小镇，然后漫步在树林里。\n游客们被要求保持树林的整洁。\n虽然树底下已经放置了垃圾篓，人们仍然把垃圾扔得到处都是。\n上周三，我去树林里散步了。\n我所看到的一切让我感到非常难过。\n我数了七辆旧汽车和三台旧冰箱。\n那些小篮子都是空的，地上到处是纸片、烟头、旧轮胎、空瓶子以及生锈的铁罐。\n在那些垃圾中，我发现了一张告示，上面写着：“任何在这些树林里乱扔垃圾的人都将受到法律追究！”",
+  "sentences": [
+    {
+      "index": 0,
+      "startTime": 0.95,
+      "endTime": 3.87,
+      "en": "Lesson 143",
+      "zh": "第143课",
+      "role": "lesson"
+    },
+    {
+      "index": 1,
+      "startTime": 3.87,
+      "endTime": 7.33,
+      "en": "A walk through the woods",
+      "zh": "在树林中散步",
+      "role": "title"
+    },
+    {
+      "index": 2,
+      "startTime": 7.33,
+      "endTime": 12.86,
+      "en": "Listen to the tape then answer this question.",
+      "zh": "先听这段录音，然后再回答这个问题。",
+      "role": "prompt"
+    },
+    {
+      "index": 3,
+      "startTime": 12.86,
+      "endTime": 19.84,
+      "en": "What was so funny about the words on the sign?",
+      "zh": "那个招牌上的文字有什么好笑的呢？",
+      "role": "question"
+    },
+    {
+      "index": 4,
+      "startTime": 19.84,
+      "endTime": 28,
+      "en": "I live in a very old town which is surrounded by beautiful woods.",
+      "zh": "我住在一个非常古老的城镇里，这个城镇被美丽的树林环绕着。",
+      "role": "body"
+    },
+    {
+      "index": 5,
+      "startTime": 28,
+      "endTime": 32.06,
+      "en": "It is a famous beauty spot.",
+      "zh": "这是一个著名的风景区。",
+      "role": "body"
+    },
+    {
+      "index": 6,
+      "startTime": 32.06,
+      "endTime": 42.5,
+      "en": "On Sundays, hundreds of people come from the city to see our town and to walk through the woods.",
+      "zh": "每到周日，都会有数百人从城里来到我们这个小镇，然后漫步在树林里。",
+      "role": "body"
+    },
+    {
+      "index": 7,
+      "startTime": 42.5,
+      "endTime": 49.55,
+      "en": "Visitors have been asked to keep the woods clean and tidy.",
+      "zh": "游客们被要求保持树林的整洁。",
+      "role": "body"
+    },
+    {
+      "index": 8,
+      "startTime": 49.55,
+      "endTime": 58.99,
+      "en": "Litter baskets have been placed under the trees, but people still throw their rubbish everywhere.",
+      "zh": "虽然树底下已经放置了垃圾篓，人们仍然把垃圾扔得到处都是。",
+      "role": "body"
+    },
+    {
+      "index": 9,
+      "startTime": 58.99,
+      "endTime": 65.51,
+      "en": "Last Wednesday, I went for a walk in the woods.",
+      "zh": "上周三，我去树林里散步了。",
+      "role": "body"
+    },
+    {
+      "index": 10,
+      "startTime": 65.51,
+      "endTime": 70.74,
+      "en": "What I saw made me very sad.",
+      "zh": "我所看到的一切让我感到非常难过。",
+      "role": "body"
+    },
+    {
+      "index": 11,
+      "startTime": 70.74,
+      "endTime": 78.12,
+      "en": "I counted seven old cars and three old refrigerators.",
+      "zh": "我数了七辆旧汽车和三台旧冰箱。",
+      "role": "body"
+    },
+    {
+      "index": 12,
+      "startTime": 78.12,
+      "endTime": 94.49,
+      "en": "The little baskets were empty and the ground was covered with pieces of paper, cigarette ends, old tyres, empty bottles and rusty tins.",
+      "zh": "那些小篮子都是空的，地上到处是纸片、烟头、旧轮胎、空瓶子以及生锈的铁罐。",
+      "role": "body"
+    },
+    {
+      "index": 13,
+      "startTime": 94.49,
+      "endTime": null,
+      "en": "Among the rubbish, I found a sign which said, 'Anyone who leaves litter in these woods will be prosecuted!'",
+      "zh": "在那些垃圾中，我发现了一张告示，上面写着：“任何在这些树林里乱扔垃圾的人都将受到法律追究！”",
+      "role": "body"
+    }
+  ],
+  "audio": {
+    "fileName": "143&144－A Walk Through the Woods.mp3",
+    "sourcePath": "content/NCE-Flow/NCE1/143&144－A Walk Through the Woods.mp3",
+    "exists": true
+  },
+  "source": {
+    "repository": "NCE-Flow",
+    "lrcFileName": "143&144－A Walk Through the Woods.lrc",
+    "lrcPath": "content/NCE-Flow/NCE1/143&144－A Walk Through the Woods.lrc",
+    "sourceDataFile": "content/NCE-Flow/static/data.json",
+    "generatedAt": "2026-07-23T02:59:02+00:00",
+    "generator": "scripts/generate_nce_json.py",
+    "generatorVersion": "2.0.0",
+    "metadata": {
+      "al": "新概念英语（一）",
+      "ar": "MP3 同步字幕版（美音）",
+      "ti": "A Walk Through the Woods",
+      "by": "更多学习内容，请到VeryCD.com搜索“露珠”"
+    }
+  }
+}

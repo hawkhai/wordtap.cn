@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "pephs3-019",
+  "groupId": "pephs3",
+  "unitNo": 5,
+  "sequenceNo": 19,
+  "section": "Assessing Your Progress",
+  "title": "Who Was Langston Hughes?",
+  "jsonPath": "pep-english/lessons/pephs3/019.json",
+  "text": "A: Who was Langston Hughes?\nB: He was a famous African-American poet.\nA: What’s special about his poems?\nB: Well, his poems mainly tell the story of black people in America, including their joys and pain.\nA: Can you give me an example?\nB: Dream Variation, for example. It was one of his most celebrated poems. The poem is about the dream of a world free of inequality and racial prejudice.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "A: Who was Langston Hughes?\nB: He was a famous African-American poet.\nA: What’s special about his poems?\nB: Well, his poems mainly tell the story of black people in America, including their joys and pain.\nA: Can you give me an example?\nB: Dream Variation, for example. It was one of his most celebrated poems. The poem is about the dream of a world free of inequality and racial prejudice."
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "选择性必修第三册",
+    "pageStart": 65,
+    "pageEnd": 65,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "f0dc33129a755a33421d401b71a05cd1",
+    "pdfSize": 12684455,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/senior-selective-3.pdf#page=65",
+      "reviewedAt": "2026-07-22",
+      "notes": "Retained the second complete six-turn dialogue exactly as printed and supplied a descriptive metadata title.",
+      "splitBaselineId": "pephs3-027",
+      "splitIndex": 2,
+      "splitCount": 2
+    }
+  }
+}

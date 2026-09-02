@@ -1,0 +1,211 @@
+{
+  "schemaVersion": 1,
+  "id": "pephs2-023",
+  "groupId": "pephs2",
+  "unitNo": 5,
+  "sequenceNo": 23,
+  "section": "Reading and Writing",
+  "title": "Is Your Home Safe?",
+  "jsonPath": "pep-english/lessons/pephs2/023.json",
+  "text": "Your home can be a dangerous place, but by making it safer you can prevent accidents. The kitchen, bathroom, and bedroom are where most accidents happen. These can include falls, fires, poisoning, cuts, hot water burns, and electric shocks.\nTHE KITCHEN\nPeople may slip when the floor is wet, so make sure the floor is kept dry.\nAlways cut away from your body when you use a knife.\nFollow instructions for all electrical appliances.\nUnplug all appliances after use.\nTHE BEDROOM\nNever smoke in bed.\nKeep a lamp near the bed.\nHave a telephone near the bed, especially when you’re feeling ill.\nDon’t run electrical wires under carpets.\nTHE BATHROOM\nDon’t plug in an electrical appliance or use one while standing in water.\nDon’t use a hairdryer near a bath containing water.\nKeep the bathroom floor dry.\nMake sure that your hot water heater is set at a low temperature.\nPREVENTING FIRES\nFires can cause terrible damage to your home and terrible injuries to people. If there is a fire, your first priority is getting everyone out of the house safely, and then calling for help. Never go back into a burning building to save your things.\nBuy clothes, curtains, and toys that do not burn easily.\nUse heaters very carefully, as they can set objects on fire. Place them away from furniture.\nWhen cooking, do not let oil touch the fire or other sources of heat.\nCheck electrical wires a number of times each year to make sure they are in good condition.\nSwitch off your gas and electricity when you will be away from home for a long time.\nMake sure your home is equipped with fire extinguishers.\nCHILDREN AND HOME SAFETY\nHomes are not always safe places for young children. Being curious, they may stick their fingers or objects into dangerous places and end up suffering from electric shocks or getting burnt. In addition, they may try to eat or drink anything they can find, whether it is food or not. For these reasons, it is important to make your home safe if you have young children about.\nKeep matches out of the reach of children.\nStore all cleaning materials in a locked cupboard.\nNever leave a small child alone in the bath.\nPut covers over electrical outlets.\nKeep all medicines out of the reach of children.\nMAKING YOUR HOME SAFE FOR THE ELDERLY\nThe elderly present special challenges, as they may have trouble moving about and can be seriously hurt in falls. If you have an elderly person in your home, you may need to take some extra measures to make your home safer.\nMake sure that passages within the home are kept clear.\nPut non-slip bath mats in and next to the bath and shower.\nPut handrails along passage walls and in the bathroom.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Your home can be a dangerous place, but by making it safer you can prevent accidents. The kitchen, bathroom, and bedroom are where most accidents happen. These can include falls, fires, poisoning, cuts, hot water burns, and electric shocks."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "THE KITCHEN"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "People may slip when the floor is wet, so make sure the floor is kept dry."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Always cut away from your body when you use a knife."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Follow instructions for all electrical appliances."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Unplug all appliances after use."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "THE BEDROOM"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Never smoke in bed."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Keep a lamp near the bed."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Have a telephone near the bed, especially when you’re feeling ill."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Don’t run electrical wires under carpets."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "THE BATHROOM"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Don’t plug in an electrical appliance or use one while standing in water."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Don’t use a hairdryer near a bath containing water."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Keep the bathroom floor dry."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Make sure that your hot water heater is set at a low temperature."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "PREVENTING FIRES"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Fires can cause terrible damage to your home and terrible injuries to people. If there is a fire, your first priority is getting everyone out of the house safely, and then calling for help. Never go back into a burning building to save your things."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Buy clothes, curtains, and toys that do not burn easily."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Use heaters very carefully, as they can set objects on fire. Place them away from furniture."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "When cooking, do not let oil touch the fire or other sources of heat."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Check electrical wires a number of times each year to make sure they are in good condition."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Switch off your gas and electricity when you will be away from home for a long time."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Make sure your home is equipped with fire extinguishers."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "CHILDREN AND HOME SAFETY"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Homes are not always safe places for young children. Being curious, they may stick their fingers or objects into dangerous places and end up suffering from electric shocks or getting burnt. In addition, they may try to eat or drink anything they can find, whether it is food or not. For these reasons, it is important to make your home safe if you have young children about."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Keep matches out of the reach of children."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Store all cleaning materials in a locked cupboard."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Never leave a small child alone in the bath."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Put covers over electrical outlets."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Keep all medicines out of the reach of children."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "MAKING YOUR HOME SAFE FOR THE ELDERLY"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "The elderly present special challenges, as they may have trouble moving about and can be seriously hurt in falls. If you have an elderly person in your home, you may need to take some extra measures to make your home safer."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Make sure that passages within the home are kept clear."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Put non-slip bath mats in and next to the bath and shower."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Put handrails along passage walls and in the bathroom."
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "选择性必修第二册",
+    "pageStart": 99,
+    "pageEnd": 100,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "1a701f2205298de95ea59cfc71eb83cd",
+    "pdfSize": 9968316,
+    "manualReview": {
+      "method": "visual-line-by-line-and-column-order",
+      "source": "content/pep-english/raw/senior-selective-2.pdf#page=99-100",
+      "reviewedAt": "2026-07-22",
+      "notes": "Recovered the complete two-page home-safety manual in visual section order. Excluded the page-scanning checklist, comprehension questions, discussion starters, leaflet-writing instructions, page furniture, and illustrations."
+    }
+  }
+}

@@ -1,0 +1,216 @@
+{
+  "schemaVersion": 1,
+  "id": "nce1-079",
+  "bookId": "nce1",
+  "bookNo": 1,
+  "lessonNo": 79,
+  "lessonRange": [
+    79,
+    80
+  ],
+  "title": "Carol's Shopping List",
+  "titleZh": "卡罗尔的购物清单",
+  "question": "What is Carol not going to buy?",
+  "questionZh": "卡罗尔不会买什么？",
+  "text": "What is Carol not going to buy?\n\nWhat are you doing, Carol?\nI'm making a shopping list, Tom.\nWhat do we need?\nWe need a lot of things this week.\nI must go to the grocer's.\nWe haven't got much tea or coffee, and we haven't got any sugar or jam.\nWhat about vegetables?\nI must go to the greengroce's.\nWe haven't got many tomatoes, but we've got a lot of potatoes.\nI must go to the butcher's, too.\nWe need some meat.\nWe haven't got any meat at all.\nHave we got any beer and wine?\nNo, we haven't.\nAnd I'm not going to get any!\nI hope that you've got some money.\nI haven't got much.\nWell, I haven't got much either!",
+  "bodyText": "What are you doing, Carol?\nI'm making a shopping list, Tom.\nWhat do we need?\nWe need a lot of things this week.\nI must go to the grocer's.\nWe haven't got much tea or coffee, and we haven't got any sugar or jam.\nWhat about vegetables?\nI must go to the greengroce's.\nWe haven't got many tomatoes, but we've got a lot of potatoes.\nI must go to the butcher's, too.\nWe need some meat.\nWe haven't got any meat at all.\nHave we got any beer and wine?\nNo, we haven't.\nAnd I'm not going to get any!\nI hope that you've got some money.\nI haven't got much.\nWell, I haven't got much either!",
+  "bodyTextZh": "你在做什么，卡罗尔？\n我在列购物清单呢，汤姆。\n我们需要些什么？\n这周我们需要很多东西。\n我必须去杂货店。\n我们的茶和咖啡都不多了，糖和果酱也用完了。\n蔬菜呢？\n我必须去蔬菜水果店。\n我们的番茄不多，但是土豆有很多。\n我也必须去肉店一趟。\n我们需要一些肉。\n我们根本没有任何肉了。\n我们还有啤酒和葡萄酒吗？\n没有了，我们没有。\n而且我也不打算买！\n我希望你有些钱。\n我的钱不多了。\n唉，我的钱也不多了！",
+  "sentences": [
+    {
+      "index": 0,
+      "startTime": 0.71,
+      "endTime": 3.52,
+      "en": "Lesson 79",
+      "zh": "第79课",
+      "role": "lesson"
+    },
+    {
+      "index": 1,
+      "startTime": 3.52,
+      "endTime": 6.72,
+      "en": "Carol's shopping list",
+      "zh": "卡罗尔的购物清单",
+      "role": "title"
+    },
+    {
+      "index": 2,
+      "startTime": 6.72,
+      "endTime": 12.24,
+      "en": "Listen to the tape then answer this question.",
+      "zh": "请听录音，然后回答这个问题：",
+      "role": "prompt"
+    },
+    {
+      "index": 3,
+      "startTime": 12.24,
+      "endTime": 17.91,
+      "en": "What is Carol not going to buy?",
+      "zh": "卡罗尔不会买什么？",
+      "role": "question"
+    },
+    {
+      "index": 4,
+      "startTime": 17.91,
+      "endTime": 21.73,
+      "en": "What are you doing, Carol?",
+      "zh": "你在做什么，卡罗尔？",
+      "role": "body"
+    },
+    {
+      "index": 5,
+      "startTime": 21.73,
+      "endTime": 26.48,
+      "en": "I'm making a shopping list, Tom.",
+      "zh": "我在列购物清单呢，汤姆。",
+      "role": "body"
+    },
+    {
+      "index": 6,
+      "startTime": 26.48,
+      "endTime": 29.57,
+      "en": "What do we need?",
+      "zh": "我们需要些什么？",
+      "role": "body"
+    },
+    {
+      "index": 7,
+      "startTime": 29.57,
+      "endTime": 33.62,
+      "en": "We need a lot of things this week.",
+      "zh": "这周我们需要很多东西。",
+      "role": "body"
+    },
+    {
+      "index": 8,
+      "startTime": 33.62,
+      "endTime": 37.25,
+      "en": "I must go to the grocer's.",
+      "zh": "我必须去杂货店。",
+      "role": "body"
+    },
+    {
+      "index": 9,
+      "startTime": 37.25,
+      "endTime": 46.59,
+      "en": "We haven't got much tea or coffee, and we haven't got any sugar or jam.",
+      "zh": "我们的茶和咖啡都不多了，糖和果酱也用完了。",
+      "role": "body"
+    },
+    {
+      "index": 10,
+      "startTime": 46.59,
+      "endTime": 49.38,
+      "en": "What about vegetables?",
+      "zh": "蔬菜呢？",
+      "role": "body"
+    },
+    {
+      "index": 11,
+      "startTime": 49.38,
+      "endTime": 53.55,
+      "en": "I must go to the greengroce's.",
+      "zh": "我必须去蔬菜水果店。",
+      "role": "body"
+    },
+    {
+      "index": 12,
+      "startTime": 53.55,
+      "endTime": 61.5,
+      "en": "We haven't got many tomatoes, but we've got a lot of potatoes.",
+      "zh": "我们的番茄不多，但是土豆有很多。",
+      "role": "body"
+    },
+    {
+      "index": 13,
+      "startTime": 61.5,
+      "endTime": 65.45,
+      "en": "I must go to the butcher's, too.",
+      "zh": "我也必须去肉店一趟。",
+      "role": "body"
+    },
+    {
+      "index": 14,
+      "startTime": 65.45,
+      "endTime": 68.23,
+      "en": "We need some meat.",
+      "zh": "我们需要一些肉。",
+      "role": "body"
+    },
+    {
+      "index": 15,
+      "startTime": 68.23,
+      "endTime": 73.34,
+      "en": "We haven't got any meat at all.",
+      "zh": "我们根本没有任何肉了。",
+      "role": "body"
+    },
+    {
+      "index": 16,
+      "startTime": 73.34,
+      "endTime": 77.3,
+      "en": "Have we got any beer and wine?",
+      "zh": "我们还有啤酒和葡萄酒吗？",
+      "role": "body"
+    },
+    {
+      "index": 17,
+      "startTime": 77.3,
+      "endTime": 79.77,
+      "en": "No, we haven't.",
+      "zh": "没有了，我们没有。",
+      "role": "body"
+    },
+    {
+      "index": 18,
+      "startTime": 79.77,
+      "endTime": 83.54,
+      "en": "And I'm not going to get any!",
+      "zh": "而且我也不打算买！",
+      "role": "body"
+    },
+    {
+      "index": 19,
+      "startTime": 83.54,
+      "endTime": 87.03,
+      "en": "I hope that you've got some money.",
+      "zh": "我希望你有些钱。",
+      "role": "body"
+    },
+    {
+      "index": 20,
+      "startTime": 87.03,
+      "endTime": 89.55,
+      "en": "I haven't got much.",
+      "zh": "我的钱不多了。",
+      "role": "body"
+    },
+    {
+      "index": 21,
+      "startTime": 89.55,
+      "endTime": null,
+      "en": "Well, I haven't got much either!",
+      "zh": "唉，我的钱也不多了！",
+      "role": "body"
+    }
+  ],
+  "audio": {
+    "fileName": "079&080－Carol's Shopping List.mp3",
+    "sourcePath": "content/NCE-Flow/NCE1/079&080－Carol's Shopping List.mp3",
+    "exists": true
+  },
+  "source": {
+    "repository": "NCE-Flow",
+    "lrcFileName": "079&080－Carol's Shopping List.lrc",
+    "lrcPath": "content/NCE-Flow/NCE1/079&080－Carol's Shopping List.lrc",
+    "sourceDataFile": "content/NCE-Flow/static/data.json",
+    "generatedAt": "2026-07-23T02:59:02+00:00",
+    "generator": "scripts/generate_nce_json.py",
+    "generatorVersion": "2.0.0",
+    "metadata": {
+      "al": "新概念英语（一）",
+      "ar": "MP3 同步字幕版（美音）",
+      "ti": "Carol's Shopping List",
+      "by": "更多学习内容，请到VeryCD.com搜索“露珠”"
+    }
+  }
+}

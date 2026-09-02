@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "pepj9-007",
+  "groupId": "pepj9",
+  "unitNo": 2,
+  "sequenceNo": 7,
+  "section": "Section B",
+  "title": "A Christmas Carol",
+  "jsonPath": "pep-english/lessons/pepj9/007.json",
+  "text": "Many would agree that when we think of Christmas, we probably think of gifts, Christmas trees and Santa Claus. But behind all these things lies the true meaning of Christmas: the importance of sharing and giving love and joy to people around us. The story in A Christmas Carol is perhaps the best example of this.\nA Christmas Carol is a famous short novel written by Charles Dickens. It is about an old man named Scrooge who never laughs or smiles. He is mean and only thinks about himself. He doesn't treat others nicely. He just cares about whether he can make more money and he hates Christmas. One Christmas Eve, Scrooge sees the ghost of Jacob Marley, his dead business partner. Marley used to be just like Scrooge, so he was punished after he died. He warns Scrooge to change his ways if he doesn't want to end up like him. He also tells Scrooge to expect three spirits to visit him.\nThat night, three ghosts visit Scrooge. First, the Ghost of Christmas Past takes him back to his childhood and reminds Scrooge of his happier days as a child. Then the second spirit, the Ghost of Christmas Present, takes him to see how others are spending Christmas this year. Everyone is happy, even poor people. The last one, the Ghost of Christmas Yet to Come, takes him to the future. Scrooge sees that he is dead, but nobody cares. He is so scared that he wakes up in his bed and finds out it is only the next morning — Christmas Day!\nHe decides to change his life and promises to be a better person. He happily celebrates Christmas with his relatives. He also gives gifts to people in need. He now treats everyone with kindness and warmth, spreading love and joy everywhere he goes. And that is the true spirit of Christmas!",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Many would agree that when we think of Christmas, we probably think of gifts, Christmas trees and Santa Claus. But behind all these things lies the true meaning of Christmas: the importance of sharing and giving love and joy to people around us. The story in A Christmas Carol is perhaps the best example of this."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "A Christmas Carol is a famous short novel written by Charles Dickens. It is about an old man named Scrooge who never laughs or smiles. He is mean and only thinks about himself. He doesn't treat others nicely. He just cares about whether he can make more money and he hates Christmas. One Christmas Eve, Scrooge sees the ghost of Jacob Marley, his dead business partner. Marley used to be just like Scrooge, so he was punished after he died. He warns Scrooge to change his ways if he doesn't want to end up like him. He also tells Scrooge to expect three spirits to visit him."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "That night, three ghosts visit Scrooge. First, the Ghost of Christmas Past takes him back to his childhood and reminds Scrooge of his happier days as a child. Then the second spirit, the Ghost of Christmas Present, takes him to see how others are spending Christmas this year. Everyone is happy, even poor people. The last one, the Ghost of Christmas Yet to Come, takes him to the future. Scrooge sees that he is dead, but nobody cares. He is so scared that he wakes up in his bed and finds out it is only the next morning — Christmas Day!"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "He decides to change his life and promises to be a better person. He happily celebrates Christmas with his relatives. He also gives gifts to people in need. He now treats everyone with kindness and warmth, spreading love and joy everywhere he goes. And that is the true spirit of Christmas!"
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "初中",
+    "book": "九年级全一册",
+    "pageStart": 28,
+    "pageEnd": 28,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "c6e628c22e0c2f9cfe4547699a1c95a4",
+    "pdfSize": 11088578,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/junior-9.pdf#page=28",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored the printed title and all four complete story-summary paragraphs; excluded the 2a mind-map task, 2b questions and the Inferring strategy box."
+    }
+  }
+}

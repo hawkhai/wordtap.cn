@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "pephs3-029",
+  "groupId": "pephs3",
+  "unitNo": 5,
+  "sequenceNo": 29,
+  "section": "Listening and Speaking",
+  "title": "Auld Lang Syne (excerpt by Robert Burns)",
+  "jsonPath": "pep-english/lessons/pephs3/029.json",
+  "text": "Should old acquaintance be forgot, and never brought to mind?\nShould old acquaintance be forgot, and auld lang syne?\nFor auld lang syne, my dear, for auld lang syne, we’ll take a cup of kindness yet, for auld lang syne.\nAnd surely you’ll buy your pint cup!\nand surely I’ll buy mine!\nAnd we’ll take a cup o’ kindness yet, for auld lang syne.\nFor auld lang syne, my dear, for auld lang syne, we’ll take a cup of kindness yet, for auld lang syne.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Should old acquaintance be forgot, and never brought to mind?\nShould old acquaintance be forgot, and auld lang syne?\nFor auld lang syne, my dear, for auld lang syne, we’ll take a cup of kindness yet, for auld lang syne."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "And surely you’ll buy your pint cup!\nand surely I’ll buy mine!\nAnd we’ll take a cup o’ kindness yet, for auld lang syne.\nFor auld lang syne, my dear, for auld lang syne, we’ll take a cup of kindness yet, for auld lang syne."
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "选择性必修第三册",
+    "pageStart": 98,
+    "pageEnd": 98,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "f0dc33129a755a33421d401b71a05cd1",
+    "pdfSize": 12684455,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/senior-selective-3.pdf#page=98",
+      "reviewedAt": "2026-07-22",
+      "notes": "Retained the two complete printed stanzas with original lineation and Scots wording; moved poem and author attribution to metadata and excluded questions, incomplete listening notes, portrait and furniture."
+    }
+  }
+}

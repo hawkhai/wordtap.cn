@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "id": "pephr3-024",
+  "groupId": "pephr3",
+  "unitNo": 3,
+  "sequenceNo": 24,
+  "section": "Expanding Your World",
+  "title": "New Zealand and Maori Culture — The Land of the Long White Cloud",
+  "jsonPath": "pep-english/lessons/pephr3/024.json",
+  "text": "Due to its remote location in the Pacific Ocean, New Zealand was one of the last countries to be discovered by humans. Although the majority of the current population is of European descent, it was the ethnic minority group known as the Maori who were the first to settle there. They named the country “Aotearoa”—the “Land of the Long White Cloud”. Today, both past and present Maori culture can be found all over the country for all welcomed visitors to appreciate.\nMaori arts and crafts are world-renowned and very popular with tourists. The Waka is a traditional canoe that has been skillfully carved out of a tree trunk, with beautiful carvings added to show tribal history and culture. A large war canoe could be up to 40 metres long and hold up to 80 people. Visitors to Maori historic buildings, such as tribal meeting halls, can see beautifully carved wooden architecture. In addition, there are countless smaller objects and masks that were made to honour ancestors or legends, or to preserve a story for future generations.\nAnother well-known part of Maori culture is the traditional kapa haka dance—made famous by New Zealand’s national rugby union team, who often perform it before games. The kapa haka is a traditional dance performed for celebrations, special guests, and battle ceremonies. The performance includes different dances and songs that make up a whole. A common dance sequence could be waiata tira (warm-up song), whakaeke (entrance song), waiata-ā-ringa (action song), haka (challenge), pou (old-style singing), poi (ball-swinging), and whakawātea (closing song).\nTraditional tattoos, known as “moko”, are also a strong visual part of Maori culture. They are most often done in spiral forms across a man’s face, and on the chin and lips of a woman. They represent a person’s status, and are also believed to increase attractiveness. Receiving moko is seen as a great honour, and it is often part of a ritual to signal a person has passed an important milestone. As such, it is usually added in stages as a person grows older and achieves more, in a sense telling a unique story of a person’s life.\nThere is so much more for visitors to discover about Maori culture. It is an essential part of what makes New Zealand the modern country that it is: a multicultural country that is forever evolving in new and interesting ways.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Due to its remote location in the Pacific Ocean, New Zealand was one of the last countries to be discovered by humans. Although the majority of the current population is of European descent, it was the ethnic minority group known as the Maori who were the first to settle there. They named the country “Aotearoa”—the “Land of the Long White Cloud”. Today, both past and present Maori culture can be found all over the country for all welcomed visitors to appreciate."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Maori arts and crafts are world-renowned and very popular with tourists. The Waka is a traditional canoe that has been skillfully carved out of a tree trunk, with beautiful carvings added to show tribal history and culture. A large war canoe could be up to 40 metres long and hold up to 80 people. Visitors to Maori historic buildings, such as tribal meeting halls, can see beautifully carved wooden architecture. In addition, there are countless smaller objects and masks that were made to honour ancestors or legends, or to preserve a story for future generations."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Another well-known part of Maori culture is the traditional kapa haka dance—made famous by New Zealand’s national rugby union team, who often perform it before games. The kapa haka is a traditional dance performed for celebrations, special guests, and battle ceremonies. The performance includes different dances and songs that make up a whole. A common dance sequence could be waiata tira (warm-up song), whakaeke (entrance song), waiata-ā-ringa (action song), haka (challenge), pou (old-style singing), poi (ball-swinging), and whakawātea (closing song)."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Traditional tattoos, known as “moko”, are also a strong visual part of Maori culture. They are most often done in spiral forms across a man’s face, and on the chin and lips of a woman. They represent a person’s status, and are also believed to increase attractiveness. Receiving moko is seen as a great honour, and it is often part of a ritual to signal a person has passed an important milestone. As such, it is usually added in stages as a person grows older and achieves more, in a sense telling a unique story of a person’s life."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "There is so much more for visitors to discover about Maori culture. It is an essential part of what makes New Zealand the modern country that it is: a multicultural country that is forever evolving in new and interesting ways."
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "必修第三册",
+    "pageStart": 85,
+    "pageEnd": 85,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "31e51a16693d03177a5825f53f612a87",
+    "pdfSize": 14202806,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/senior-required-3.pdf#page=85",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored the complete five-paragraph feature in visual order around the canoe and kapa haka photographs, preserving Maori terms and macrons; page 86 starts Unit 4 exercises and was excluded."
+    }
+  }
+}

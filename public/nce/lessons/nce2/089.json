@@ -1,0 +1,135 @@
+{
+  "schemaVersion": 1,
+  "id": "nce2-089",
+  "bookId": "nce2",
+  "bookNo": 2,
+  "lessonNo": 89,
+  "lessonRange": [
+    89
+  ],
+  "title": "A Slip of the Tongue",
+  "titleZh": "说漏了嘴",
+  "question": "Who made the only funny joke that evening and why?",
+  "questionZh": "谁在那个晚上讲了唯一一个有趣的笑话？为什么呢？",
+  "text": "Who made the only funny joke that evening and why?\n\nPeople will do anything to see a free show--even if it is a bad one.\nWhen the news got round that a comedy show would be presented at our local cinema by the P. and U. Bird Seed Company, we all rushed to see it.\nWe had to queue for hours to get in and there must have been several hundred people present just before the show began.\nUnfortunately, the show was one of the dullest we have ever seen.\nThose who failed to get in need not have felt disappointed, as many of the artistes who should have appeared did not come.\nThe only funny things we heard that evening came from the advertiser at the beginning of the programme.\nHe was obviously very nervous and for some minutes stood awkwardly before the microphone.\nAs soon as he opened his mouth, everyone burst out laughing.\nWe all know what the poor man should have said, but what he actually said was: 'This is the Poo and Ee Seed Bird Company. Good ladies, evening and gentlemen!'",
+  "bodyText": "People will do anything to see a free show--even if it is a bad one.\nWhen the news got round that a comedy show would be presented at our local cinema by the P. and U. Bird Seed Company, we all rushed to see it.\nWe had to queue for hours to get in and there must have been several hundred people present just before the show began.\nUnfortunately, the show was one of the dullest we have ever seen.\nThose who failed to get in need not have felt disappointed, as many of the artistes who should have appeared did not come.\nThe only funny things we heard that evening came from the advertiser at the beginning of the programme.\nHe was obviously very nervous and for some minutes stood awkwardly before the microphone.\nAs soon as he opened his mouth, everyone burst out laughing.\nWe all know what the poor man should have said, but what he actually said was: 'This is the Poo and Ee Seed Bird Company. Good ladies, evening and gentlemen!'",
+  "bodyTextZh": "人们会不惜一切代价去看一场免费的演出——哪怕这场演出很糟糕。\n当消息传开，说 P. and U. Bird Seed 公司将在我们当地的电影院举办一场喜剧演出时，我们都纷纷赶去观看。在我们当地的电影院（该电影院由 P. and U. Bird Seed 公司运营），我们都纷纷赶去观看这部电影。\n我们不得不排队等待数小时才能进入现场；在演出开始前，现场肯定有几百人。\n不幸的是，这部剧是我们看过的最无聊的剧集之一。\n那些没能进去的人大可不必感到失望，因为许多本该出场的演员都没有来。\n那天晚上我们听到的唯一有趣的话，来自节目开始时的那位广告播报员。\n他显然非常紧张，在麦克风前尴尬地站了好几分钟。\n他一开口，所有人立刻都笑了起来。\n我们都知道那个可怜的人本该说什么，但他实际上说的是：‘这是‘Poo and Ee Seed Bird Company’。女士们、先生们，晚上好！’",
+  "sentences": [
+    {
+      "index": 0,
+      "startTime": 0.5,
+      "endTime": 3,
+      "en": "Lesson 89",
+      "zh": "第89课",
+      "role": "lesson"
+    },
+    {
+      "index": 1,
+      "startTime": 3,
+      "endTime": 10.5,
+      "en": "A Slip of the Tongue",
+      "zh": "说漏了嘴",
+      "role": "title"
+    },
+    {
+      "index": 2,
+      "startTime": 10.5,
+      "endTime": 16.68,
+      "en": "Who made the only funny joke that evening and why?",
+      "zh": "谁在那个晚上讲了唯一一个有趣的笑话？为什么呢？",
+      "role": "question"
+    },
+    {
+      "index": 3,
+      "startTime": 16.68,
+      "endTime": 24.43,
+      "en": "People will do anything to see a free show--even if it is a bad one.",
+      "zh": "人们会不惜一切代价去看一场免费的演出——哪怕这场演出很糟糕。",
+      "role": "body"
+    },
+    {
+      "index": 4,
+      "startTime": 24.43,
+      "endTime": 37.11,
+      "en": "When the news got round that a comedy show would be presented at our local cinema by the P. and U. Bird Seed Company, we all rushed to see it.",
+      "zh": "当消息传开，说 P. and U. Bird Seed 公司将在我们当地的电影院举办一场喜剧演出时，我们都纷纷赶去观看。在我们当地的电影院（该电影院由 P. and U. Bird Seed 公司运营），我们都纷纷赶去观看这部电影。",
+      "role": "body"
+    },
+    {
+      "index": 5,
+      "startTime": 37.11,
+      "endTime": 47.17,
+      "en": "We had to queue for hours to get in and there must have been several hundred people present just before the show began.",
+      "zh": "我们不得不排队等待数小时才能进入现场；在演出开始前，现场肯定有几百人。",
+      "role": "body"
+    },
+    {
+      "index": 6,
+      "startTime": 47.17,
+      "endTime": 53.4,
+      "en": "Unfortunately, the show was one of the dullest we have ever seen.",
+      "zh": "不幸的是，这部剧是我们看过的最无聊的剧集之一。",
+      "role": "body"
+    },
+    {
+      "index": 7,
+      "startTime": 53.4,
+      "endTime": 64.69,
+      "en": "Those who failed to get in need not have felt disappointed, as many of the artistes who should have appeared did not come.",
+      "zh": "那些没能进去的人大可不必感到失望，因为许多本该出场的演员都没有来。",
+      "role": "body"
+    },
+    {
+      "index": 8,
+      "startTime": 64.69,
+      "endTime": 72.81,
+      "en": "The only funny things we heard that evening came from the advertiser at the beginning of the programme.",
+      "zh": "那天晚上我们听到的唯一有趣的话，来自节目开始时的那位广告播报员。",
+      "role": "body"
+    },
+    {
+      "index": 9,
+      "startTime": 72.81,
+      "endTime": 81.18,
+      "en": "He was obviously very nervous and for some minutes stood awkwardly before the microphone.",
+      "zh": "他显然非常紧张，在麦克风前尴尬地站了好几分钟。",
+      "role": "body"
+    },
+    {
+      "index": 10,
+      "startTime": 81.18,
+      "endTime": 87.76,
+      "en": "As soon as he opened his mouth, everyone burst out laughing.",
+      "zh": "他一开口，所有人立刻都笑了起来。",
+      "role": "body"
+    },
+    {
+      "index": 11,
+      "startTime": 87.76,
+      "endTime": null,
+      "en": "We all know what the poor man should have said, but what he actually said was: 'This is the Poo and Ee Seed Bird Company. Good ladies, evening and gentlemen!'",
+      "zh": "我们都知道那个可怜的人本该说什么，但他实际上说的是：‘这是‘Poo and Ee Seed Bird Company’。女士们、先生们，晚上好！’",
+      "role": "body"
+    }
+  ],
+  "audio": {
+    "fileName": "89－A Slip of the Tongue.mp3",
+    "sourcePath": "content/NCE-Flow/NCE2/89－A Slip of the Tongue.mp3",
+    "exists": true
+  },
+  "source": {
+    "repository": "NCE-Flow",
+    "lrcFileName": "89－A Slip of the Tongue.lrc",
+    "lrcPath": "content/NCE-Flow/NCE2/89－A Slip of the Tongue.lrc",
+    "sourceDataFile": "content/NCE-Flow/static/data.json",
+    "generatedAt": "2026-07-23T02:59:02+00:00",
+    "generator": "scripts/generate_nce_json.py",
+    "generatorVersion": "2.0.0",
+    "metadata": {
+      "al": "新概念英语（二）",
+      "ar": "MP3 同步字幕版（美音）",
+      "ti": "A Slip of the Tongue",
+      "by": "更多学习内容，请到VeryCD.com搜索“露珠”"
+    }
+  }
+}

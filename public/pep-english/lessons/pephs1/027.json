@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "pephs1-027",
+  "groupId": "pephs1",
+  "unitNo": 5,
+  "sequenceNo": 27,
+  "section": "Reading and Writing",
+  "title": "Better, Greener Lives Away from the City",
+  "jsonPath": "pep-english/lessons/pephs1/027.json",
+  "text": "While the dream of most university graduates is to start a successful career in a big city, more and more young people are choosing to stay in their own hometowns so they can stay with their family and friends. For some young people, it is also a matter of making the quality of life for other people in their hometowns better. They also have a desire to improve and maintain the natural and economic environments in these places for generations to come.\nLi Dan is a woman who has discovered that returning home to work in the field of agriculture could offer her both a meaningful challenge and a good standard of living. Born in a small village in Southwest China, she decided not to follow many of her former classmates to the city after getting her degree at university. Instead, she returned to her village and started her own fruit-growing business. Working hard over the last several years, and taking advantage of new technology and the Internet, she has expanded her business to include agritourism. Moreover, her company’s annual income has reached six million yuan and more than 50 new jobs have been created. As a result, her decision has also helped to alleviate poverty and improve the lives of many people in her village.\nWith China’s population expected to continue rising in the coming years, the government understands the importance of agriculture. It also understands that university graduates can help come up with better ways to grow crops, and develop new, creative ways of farming using modern technology. To help these young people with their bright and innovative ideas, the government is providing financial help. Business development loans are becoming easier for these young people to obtain, too. Government policies that aim to eliminate poverty are also having a beneficial effect.\n“Life in big cities is not all it’s cracked up to be,” said Zhang Tao, from Binchuan county in Yunnan Province, adding that the air was bad, transport was terrible, and it was hard to make a decent living. What life in one’s hometown offers is a strong support network. More importantly, this network is also a good one for getting new agribusinesses up and running quite quickly. Thus, it is no surprise that more new graduates are now attracted to life in the country, where they can fulfil personal goals and contribute to their local communities rather than just being white-collar professionals in big cities.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "While the dream of most university graduates is to start a successful career in a big city, more and more young people are choosing to stay in their own hometowns so they can stay with their family and friends. For some young people, it is also a matter of making the quality of life for other people in their hometowns better. They also have a desire to improve and maintain the natural and economic environments in these places for generations to come."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Li Dan is a woman who has discovered that returning home to work in the field of agriculture could offer her both a meaningful challenge and a good standard of living. Born in a small village in Southwest China, she decided not to follow many of her former classmates to the city after getting her degree at university. Instead, she returned to her village and started her own fruit-growing business. Working hard over the last several years, and taking advantage of new technology and the Internet, she has expanded her business to include agritourism. Moreover, her company’s annual income has reached six million yuan and more than 50 new jobs have been created. As a result, her decision has also helped to alleviate poverty and improve the lives of many people in her village."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "With China’s population expected to continue rising in the coming years, the government understands the importance of agriculture. It also understands that university graduates can help come up with better ways to grow crops, and develop new, creative ways of farming using modern technology. To help these young people with their bright and innovative ideas, the government is providing financial help. Business development loans are becoming easier for these young people to obtain, too. Government policies that aim to eliminate poverty are also having a beneficial effect."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "“Life in big cities is not all it’s cracked up to be,” said Zhang Tao, from Binchuan county in Yunnan Province, adding that the air was bad, transport was terrible, and it was hard to make a decent living. What life in one’s hometown offers is a strong support network. More importantly, this network is also a good one for getting new agribusinesses up and running quite quickly. Thus, it is no surprise that more new graduates are now attracted to life in the country, where they can fulfil personal goals and contribute to their local communities rather than just being white-collar professionals in big cities."
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "选择性必修第一册",
+    "pageStart": 99,
+    "pageEnd": 99,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "f19c4231e96ee3a9c769533d676f1106",
+    "pdfSize": 12809514,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/senior-selective-1.pdf#page=99",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored the complete four-paragraph feature about graduates returning to their hometowns; excluded the title-prediction prompt, reading instruction, landscape photograph and running furniture, and confirmed page 100 contains follow-up activities only."
+    }
+  }
+}

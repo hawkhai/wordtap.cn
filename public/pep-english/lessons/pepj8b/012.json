@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "id": "pepj8b-012",
+  "groupId": "pepj8b",
+  "unitNo": 7,
+  "sequenceNo": 12,
+  "section": "Section A",
+  "title": "Qomolangma — the Most Dangerous Mountain in the World?",
+  "jsonPath": "pep-english/lessons/pepj8b/012.json",
+  "text": "One of the world's most dangerous sports is mountain climbing, and one of the most popular places for this is the Himalayas. The Himalayas run along the southwestern part of China. Of all the mountains, Qomolangma rises the highest and is the most famous. It is 8,844.43 meters high and so is very dangerous to climb. Thick clouds cover the top and snow can fall very hard. Even more serious difficulties include freezing weather conditions and heavy storms. It is also very hard to take in air as you get near the top.\nThe first people to reach the top were Tenzing Norgay and Edmund Hillary on May 29, 1953. The first Chinese team did so in 1960, while the first woman to succeed was Junko Tabei from Japan in 1975.\nWhy do so many climbers risk their lives? One of the main reasons is that people want to challenge themselves in the face of difficulties. The spirit of these climbers shows us that we should never give up trying to achieve our dreams. It also shows that humans can sometimes be stronger than the forces of nature.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "One of the world's most dangerous sports is mountain climbing, and one of the most popular places for this is the Himalayas. The Himalayas run along the southwestern part of China. Of all the mountains, Qomolangma rises the highest and is the most famous. It is 8,844.43 meters high and so is very dangerous to climb. Thick clouds cover the top and snow can fall very hard. Even more serious difficulties include freezing weather conditions and heavy storms. It is also very hard to take in air as you get near the top."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "The first people to reach the top were Tenzing Norgay and Edmund Hillary on May 29, 1953. The first Chinese team did so in 1960, while the first woman to succeed was Junko Tabei from Japan in 1975."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Why do so many climbers risk their lives? One of the main reasons is that people want to challenge themselves in the face of difficulties. The spirit of these climbers shows us that we should never give up trying to achieve our dreams. It also shows that humans can sometimes be stronger than the forces of nature."
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "初中",
+    "book": "八年级下册",
+    "pageStart": 60,
+    "pageEnd": 60,
+    "extractionMode": "ocr",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "21d35e04f1c22b74a3fe3e95e88adff9",
+    "pdfSize": 18208880,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/junior-8b.pdf#page=60",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored the exact printed title and all three complete paragraphs, and excluded 3a matching prompts plus activities 3b-3c."
+    }
+  }
+}

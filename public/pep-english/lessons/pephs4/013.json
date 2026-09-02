@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "id": "pephs4-013",
+  "groupId": "pephs4",
+  "unitNo": 4,
+  "sequenceNo": 13,
+  "section": "Project",
+  "title": "People’s Shoes",
+  "jsonPath": "pep-english/lessons/pephs4/013.json",
+  "text": "Who are we?\nPeople’s Shoes is a company committed to creating a better world.\nWhat do we do?\nFor every pair of shoes you buy, we donate a pair of shoes to someone in need. We also provide surgery and medical treatment to people with eye problems, and water systems to countries with unsafe drinking water.\nWhere do we work?\nWe work in 70 countries around the world.\nHow can you help?\nYou can buy our products, so we can give to others.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Who are we?\nPeople’s Shoes is a company committed to creating a better world."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "What do we do?\nFor every pair of shoes you buy, we donate a pair of shoes to someone in need. We also provide surgery and medical treatment to people with eye problems, and water systems to countries with unsafe drinking water."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Where do we work?\nWe work in 70 countries around the world."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "How can you help?\nYou can buy our products, so we can give to others."
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "选择性必修第四册",
+    "pageStart": 54,
+    "pageEnd": 54,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "6fc94127b322f6f5abff068bef6faa2e",
+    "pdfSize": 12330614,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/senior-selective-4.pdf#page=54",
+      "reviewedAt": "2026-07-22",
+      "notes": "Recovered all four headed sections of the complete left-hand poster; excluded the photograph, project instructions and furniture.",
+      "splitBaselineId": "pephs4-026",
+      "splitIndex": 1,
+      "splitCount": 2
+    }
+  }
+}

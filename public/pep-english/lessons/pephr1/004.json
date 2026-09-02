@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "pephr1-004",
+  "groupId": "pephr1",
+  "unitNo": 1,
+  "sequenceNo": 4,
+  "section": "Discovering Useful Structures",
+  "title": "Cheerleader Try-outs",
+  "jsonPath": "pep-english/lessons/pephr1/004.json",
+  "text": "I've always wanted to be a cheerleader. Yesterday, I tried out for the team. It was hard. First, we had to dance. The teacher showed us how to move, and then we tried. Second, we practised singing a song about the school basketball team. Finally, some girls had to lift their partners. The other girls jumped and cheered. I think I did well, but the other girls were better. I'm not sure if I'll make the team or not.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "I've always wanted to be a cheerleader. Yesterday, I tried out for the team. It was hard. First, we had to dance. The teacher showed us how to move, and then we tried. Second, we practised singing a song about the school basketball team. Finally, some girls had to lift their partners. The other girls jumped and cheered. I think I did well, but the other girls were better. I'm not sure if I'll make the team or not."
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "必修第一册",
+    "pageStart": 23,
+    "pageEnd": 23,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "e0bf18138b24d7def28b35994a13946b",
+    "pdfSize": 14704146,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/senior-required-1.pdf#page=23",
+      "reviewedAt": "2026-07-22",
+      "notes": "Kept the complete printed draft under Cheerleader Try-outs; removed phrase definitions, isolated analysis sentences, question drills and the unfinished handwritten improvement example."
+    }
+  }
+}

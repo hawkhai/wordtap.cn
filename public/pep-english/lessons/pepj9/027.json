@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "pepj9-027",
+  "groupId": "pepj9",
+  "unitNo": 9,
+  "sequenceNo": 27,
+  "section": "Section A",
+  "title": "Jill and Scott Talk About Music and Movies",
+  "jsonPath": "pep-english/lessons/pepj9/027.json",
+  "text": "Jill: What are you doing this weekend, Scott?\nScott: Not much. I suppose I'll just listen to this new CD I bought.\nJill: Oh, what CD is this?\nScott: Well, it's all music. There's no singing. I like smooth music that helps me relax after a long week at work.\nJill: Sounds nice. Well, if you have spare time, do you want to watch a movie with me? The director is really famous.\nScott: Hmm, depends which movie. I only like movies that are funny. I just want to laugh and not think too much. You know what I mean?\nJill: Oh, in that case, I'll ask someone who likes serious movies.\nScott: What's the movie about?\nJill: It's about World War II. I prefer movies that give me something to think about.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Jill: What are you doing this weekend, Scott?\nScott: Not much. I suppose I'll just listen to this new CD I bought.\nJill: Oh, what CD is this?\nScott: Well, it's all music. There's no singing. I like smooth music that helps me relax after a long week at work.\nJill: Sounds nice. Well, if you have spare time, do you want to watch a movie with me? The director is really famous.\nScott: Hmm, depends which movie. I only like movies that are funny. I just want to laugh and not think too much. You know what I mean?\nJill: Oh, in that case, I'll ask someone who likes serious movies.\nScott: What's the movie about?\nJill: It's about World War II. I prefer movies that give me something to think about."
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "初中",
+    "book": "九年级全一册",
+    "pageStart": 80,
+    "pageEnd": 80,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "c6e628c22e0c2f9cfe4547699a1c95a4",
+    "pdfSize": 11088578,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/junior-9.pdf#page=80",
+      "reviewedAt": "2026-07-22",
+      "notes": "Retained only the complete 2d Jill-Scott role-play about music and movie preferences; excluded the 2a true/false task, 2b fill-ins, 2c model fragment and instructions."
+    }
+  }
+}

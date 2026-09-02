@@ -1,0 +1,91 @@
+{
+  "schemaVersion": 1,
+  "id": "pephs3-001",
+  "groupId": "pephs3",
+  "unitNo": 1,
+  "sequenceNo": 1,
+  "section": "Reading and Thinking",
+  "title": "A Short History of Western Painting",
+  "jsonPath": "pep-english/lessons/pephs3/001.json",
+  "text": "What is Western art? It is hard to give a precise definition. As there have been so many different styles of Western art, it is impossible to describe them all in a short text. Perhaps the best way to understand Western art is to look at the development of Western painting over the centuries.\nThe Middle Ages (from the 5th to the 15th century)\nDuring the Middle Ages, the purpose of Western art was to teach people about Christianity. Thus, artists were not interested in painting realistic scenes. Their works were often primitive and two-dimensional, and the main characters were often made much larger than everyone else to show their importance. This began to change in the 13th century with Giotto di Bondone (1267–1337). While his paintings still had religious themes, they showed real people in a real environment. In particular, his paintings are set apart from other paintings by their realistic human faces and deep emotional impact.\nThe Renaissance (from the 14th to the 17th century)\nNew ideas and values gradually replaced old ones from the Middle Ages. As a result, painters concentrated less on religious themes. They began to adopt a more humanistic attitude to life. An important breakthrough during this period was the use of perspective by Masaccio (1401–1428). Influential painters such as Leonardo da Vinci (1452–1519), Michelangelo (1475–1564), and Raphael (1483–1520) built upon Giotto and Masaccio’s innovations to produce some of the greatest art that Europe had ever seen.\nAnother innovation was the use of oil paints. With their deep colours and realism, some of the best oil paintings look like photographs. While painters as early as Da Vinci had used oil, this technique reached its height with Rembrandt (1606–1669), who gained a reputation as a master of shadow and light.\nIn subject matter, the emphasis increasingly shifted from religious themes to people and the world around us. Kings, nobles, and people of high rank wanted to purchase accurate pictures of themselves and the people they loved. Others wanted paintings showing important historical events or stories from mythology. Finally, most clients wanted paintings that were beautiful and interesting to look at.\nImpressionism (late 19th to early 20th century)\nThe development of Western art slowed until the invention of photography in the mid-19th century. After that, paintings were no longer needed to preserve what people and the world looked like. Hence, painters had to find a new way of looking at their art. From this, Impressionism emerged in France. The name of this new movement came from the painting by Claude Monet (1840–1926) called Impression, Sunrise. In this work, Monet’s aim was to convey the light and movement in the scene—the subjective impression the scene gave him—but not a detailed record of the scene itself.\nWhile many Impressionists painted scenes of nature or daily life, others, such as Renoir (1841–1919), focused on people. Unlike the cold, black-and-white photographs of that time period, Renoir’s paintings are full of light, shadow, colour, and life. He sought to show not just the outer image of his subjects, but their inner warmth and humanity as well.\nModern Art (from the 20th century to today)\nAfter Impressionism, subsequent artists began to ask, “What do we do next?” Painters such as Picasso (1881–1973) tried to analyse the shapes which existed in the natural world but in a new way, with Cubism. Others gave their paintings a realistic but dream-like quality. Still others turned to abstract art. What they attempted to do was no longer show reality, but instead to ask the question, “What is art?”",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "What is Western art? It is hard to give a precise definition. As there have been so many different styles of Western art, it is impossible to describe them all in a short text. Perhaps the best way to understand Western art is to look at the development of Western painting over the centuries."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "The Middle Ages (from the 5th to the 15th century)"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "During the Middle Ages, the purpose of Western art was to teach people about Christianity. Thus, artists were not interested in painting realistic scenes. Their works were often primitive and two-dimensional, and the main characters were often made much larger than everyone else to show their importance. This began to change in the 13th century with Giotto di Bondone (1267–1337). While his paintings still had religious themes, they showed real people in a real environment. In particular, his paintings are set apart from other paintings by their realistic human faces and deep emotional impact."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "The Renaissance (from the 14th to the 17th century)"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "New ideas and values gradually replaced old ones from the Middle Ages. As a result, painters concentrated less on religious themes. They began to adopt a more humanistic attitude to life. An important breakthrough during this period was the use of perspective by Masaccio (1401–1428). Influential painters such as Leonardo da Vinci (1452–1519), Michelangelo (1475–1564), and Raphael (1483–1520) built upon Giotto and Masaccio’s innovations to produce some of the greatest art that Europe had ever seen."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Another innovation was the use of oil paints. With their deep colours and realism, some of the best oil paintings look like photographs. While painters as early as Da Vinci had used oil, this technique reached its height with Rembrandt (1606–1669), who gained a reputation as a master of shadow and light."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "In subject matter, the emphasis increasingly shifted from religious themes to people and the world around us. Kings, nobles, and people of high rank wanted to purchase accurate pictures of themselves and the people they loved. Others wanted paintings showing important historical events or stories from mythology. Finally, most clients wanted paintings that were beautiful and interesting to look at."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Impressionism (late 19th to early 20th century)"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "The development of Western art slowed until the invention of photography in the mid-19th century. After that, paintings were no longer needed to preserve what people and the world looked like. Hence, painters had to find a new way of looking at their art. From this, Impressionism emerged in France. The name of this new movement came from the painting by Claude Monet (1840–1926) called Impression, Sunrise. In this work, Monet’s aim was to convey the light and movement in the scene—the subjective impression the scene gave him—but not a detailed record of the scene itself."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "While many Impressionists painted scenes of nature or daily life, others, such as Renoir (1841–1919), focused on people. Unlike the cold, black-and-white photographs of that time period, Renoir’s paintings are full of light, shadow, colour, and life. He sought to show not just the outer image of his subjects, but their inner warmth and humanity as well."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Modern Art (from the 20th century to today)"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "After Impressionism, subsequent artists began to ask, “What do we do next?” Painters such as Picasso (1881–1973) tried to analyse the shapes which existed in the natural world but in a new way, with Cubism. Others gave their paintings a realistic but dream-like quality. Still others turned to abstract art. What they attempted to do was no longer show reality, but instead to ask the question, “What is art?”"
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "选择性必修第三册",
+    "pageStart": 9,
+    "pageEnd": 10,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "f0dc33129a755a33421d401b71a05cd1",
+    "pdfSize": 12684455,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/senior-selective-3.pdf#page=9-10",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored the complete article and its four chronological section headings across pages 9-10; verified the reading order around the Rembrandt image and excluded all instructions, strategy box, artwork captions, flow chart, exercises, questions, and running furniture."
+    }
+  }
+}

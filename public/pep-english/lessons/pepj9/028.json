@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "pepj9-028",
+  "groupId": "pepj9",
+  "unitNo": 9,
+  "sequenceNo": 28,
+  "section": "Section A",
+  "title": "What Do You Feel Like Watching Today?",
+  "jsonPath": "pep-english/lessons/pepj9/028.json",
+  "text": "While some people stick to only one kind of movie, I like to watch different kinds depending on how I feel that day.\nWhen I'm down or tired, I prefer movies that can cheer me up. Comedies like Men in Black or cartoons like Kung Fu Panda have funny dialog and usually have a happy ending. The characters may not be perfect, but they try their best to solve their problems. After I watch them, my problems suddenly seem less serious and I feel much better again. Laughing for two hours is a good way to relax!\nI don't watch dramas or documentaries when I'm sad or tired. Dramas like Titanic make me feel even sadder. Documentaries like March of the Penguins which provide plenty of information about a certain subject can be interesting, but when I'm tired I don't want to think too much. I don't mind action movies like Spider-Man when I'm too tired to think. I can just shut off my brain, sit back and enjoy watching an exciting superhero who always saves the world just in time.\nOnce in a while, I like to watch movies that are scary. They can be fun, but I'm too scared to watch them alone. I always bring a friend who isn't afraid of these kinds of movies, and it doesn't feel so scary anymore.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "While some people stick to only one kind of movie, I like to watch different kinds depending on how I feel that day."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "When I'm down or tired, I prefer movies that can cheer me up. Comedies like Men in Black or cartoons like Kung Fu Panda have funny dialog and usually have a happy ending. The characters may not be perfect, but they try their best to solve their problems. After I watch them, my problems suddenly seem less serious and I feel much better again. Laughing for two hours is a good way to relax!"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "I don't watch dramas or documentaries when I'm sad or tired. Dramas like Titanic make me feel even sadder. Documentaries like March of the Penguins which provide plenty of information about a certain subject can be interesting, but when I'm tired I don't want to think too much. I don't mind action movies like Spider-Man when I'm too tired to think. I can just shut off my brain, sit back and enjoy watching an exciting superhero who always saves the world just in time."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Once in a while, I like to watch movies that are scary. They can be fun, but I'm too scared to watch them alone. I always bring a friend who isn't afraid of these kinds of movies, and it doesn't feel so scary anymore."
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "初中",
+    "book": "九年级全一册",
+    "pageStart": 81,
+    "pageEnd": 81,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "c6e628c22e0c2f9cfe4547699a1c95a4",
+    "pdfSize": 11088578,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/junior-9.pdf#page=81",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored the printed title and all four complete movie-preference paragraphs; excluded the 3a marking instruction and exercises 3b-3c."
+    }
+  }
+}

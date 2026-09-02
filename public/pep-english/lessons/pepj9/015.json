@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "pepj9-015",
+  "groupId": "pepj9",
+  "unitNo": 4,
+  "sequenceNo": 15,
+  "section": "Section B",
+  "title": "He Studies Harder Than He Used to",
+  "jsonPath": "pep-english/lessons/pepj9/015.json",
+  "text": "Li Wen is a normal 15-year-old boy from the countryside. He works very hard and does well in school. It is hard to believe that he used to have difficulties in school. When he was a little boy, he seldom caused any problems, and his family spent a lot of time together. However, things began to change a few years ago. His parents moved to the city to look for jobs, and his grandparents came to take care of him. But he missed his parents so much and he often felt lonely and unhappy.\nLi Wen's unhappiness began to influence his schoolwork. He became less interested in studying. Sometimes he was absent from classes and failed his examinations. Finally, Li Wen's parents made the decision to send him to a boarding school. However, Li Wen was shy and was not able to make friends quickly in school. He found life there difficult. One day he told his teacher that he wanted to leave the school. His teacher was worried about him and she called his parents. She advised them to talk with their son in person. So his parents took a 24-hour train and a 5-hour bus ride to get to Li Wen's school.\nThey had a long talk. \"It was exactly what I needed,\" he said. \"Now I understand that even though they are busy, they are always thinking of me. They take pride in everything good that I do.\"\nAfter that, Li Wen's parents had much more communication with their son than they used to. Now Li Wen has really changed. He has become more outgoing and made some good friends in school. He has even joined the school basketball team and become active in many other activities. \"I'm much happier now, and I work even harder than I used to. I know my parents love me and they're always proud of me,\" says Li Wen. \"It's very important for parents to be there for their children.\"",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Li Wen is a normal 15-year-old boy from the countryside. He works very hard and does well in school. It is hard to believe that he used to have difficulties in school. When he was a little boy, he seldom caused any problems, and his family spent a lot of time together. However, things began to change a few years ago. His parents moved to the city to look for jobs, and his grandparents came to take care of him. But he missed his parents so much and he often felt lonely and unhappy."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Li Wen's unhappiness began to influence his schoolwork. He became less interested in studying. Sometimes he was absent from classes and failed his examinations. Finally, Li Wen's parents made the decision to send him to a boarding school. However, Li Wen was shy and was not able to make friends quickly in school. He found life there difficult. One day he told his teacher that he wanted to leave the school. His teacher was worried about him and she called his parents. She advised them to talk with their son in person. So his parents took a 24-hour train and a 5-hour bus ride to get to Li Wen's school."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "They had a long talk. \"It was exactly what I needed,\" he said. \"Now I understand that even though they are busy, they are always thinking of me. They take pride in everything good that I do.\""
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "After that, Li Wen's parents had much more communication with their son than they used to. Now Li Wen has really changed. He has become more outgoing and made some good friends in school. He has even joined the school basketball team and become active in many other activities. \"I'm much happier now, and I work even harder than I used to. I know my parents love me and they're always proud of me,\" says Li Wen. \"It's very important for parents to be there for their children.\""
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "初中",
+    "book": "九年级全一册",
+    "pageStart": 44,
+    "pageEnd": 44,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "c6e628c22e0c2f9cfe4547699a1c95a4",
+    "pdfSize": 11088578,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/junior-9.pdf#pages=44-45",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored the four complete paragraphs by placing the printed page-45 sentences in the unique contextual order C-D-A-B; excluded 2a/2b instructions, strategy box and page-45 follow-up exercises."
+    }
+  }
+}

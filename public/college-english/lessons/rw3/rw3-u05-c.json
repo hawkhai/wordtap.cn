@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 2,
+  "id": "rw3-u05-c",
+  "sequenceNo": 51,
+  "groupId": "rw3",
+  "unitNo": 5,
+  "unitTitle": "China's space dream",
+  "section": "C",
+  "articleType": "stories-of-china",
+  "title": "China aims for peaceful use of space exploration",
+  "printedPageStart": 133,
+  "printedPageEnd": 134,
+  "jsonPath": "college-english/lessons/rw3/rw3-u05-c.json",
+  "characterCount": 2406,
+  "text": "Over the past few years, China has made great achievements and experienced a number of breakthroughs pertaining to (关于) outer space. The Chang’e-5 mission successfully brought back samples of lunar rock. The core module of Tiangong, the space station, was launched and astronauts were sent up there. China also became just the second nation to land a rover on Mars with the Tianwen-1 mission and Zhurong probe. Furthermore, China and Russia have released a joint road map for building the International Lunar Research Station, which will be the first structures built on the moon, by 2035.\nLong before the modern era, Chinese culture and tradition attached great importance to the heavens and the moon, and from here emerged many of the world’s earliest astronomers and cosmologists (宇宙学家). China’s vision for the exploration of outer space should be understood through the lens of its economic strategy for “peaceful development” and “a global community of shared future” for the good of humankind. China has a nonmilitary view of space exploration and sees advances in science as a means for accelerating global prosperity and economic development.\nSince the 20th century, outer space has been the newest frontier of humankind, and understanding it and knowing how to use it productively are crucial for humanity. The advancement of space-related activities has the potential to overcome many problems on earth, including shortages of energy and resources as well as pollution. As a consequence, progress made in space is ultimately progress in the name of all, and serves to benefit all.\nEach civil feat in space subsequently transforms the way we live, even if we do not realize it. The achievements of the 20th century transformed our world in communications and expanded our capability to understand ourselves. The invention of the satellite and similar resources has been invaluable in promoting globalization and interconnectivity.\nAs a result, the Tiangong space station and the planned International Lunar Research Station will aim to shape the future of humanity accordingly, by expanding the scope of knowledge to new levels.\nThe Chinese endeavor is not a zero-sum game; China invites all countries to participate in its projects as a peaceful initiative and to help shape humanity’s future. China will pursue the path of peaceful development in space with a view to the moon, Mars, and beyond.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Over the past few years, China has made great achievements and experienced a number of breakthroughs pertaining to (关于) outer space. The Chang’e-5 mission successfully brought back samples of lunar rock. The core module of Tiangong, the space station, was launched and astronauts were sent up there. China also became just the second nation to land a rover on Mars with the Tianwen-1 mission and Zhurong probe. Furthermore, China and Russia have released a joint road map for building the International Lunar Research Station, which will be the first structures built on the moon, by 2035."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Long before the modern era, Chinese culture and tradition attached great importance to the heavens and the moon, and from here emerged many of the world’s earliest astronomers and cosmologists (宇宙学家). China’s vision for the exploration of outer space should be understood through the lens of its economic strategy for “peaceful development” and “a global community of shared future” for the good of humankind. China has a nonmilitary view of space exploration and sees advances in science as a means for accelerating global prosperity and economic development."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Since the 20th century, outer space has been the newest frontier of humankind, and understanding it and knowing how to use it productively are crucial for humanity. The advancement of space-related activities has the potential to overcome many problems on earth, including shortages of energy and resources as well as pollution. As a consequence, progress made in space is ultimately progress in the name of all, and serves to benefit all."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Each civil feat in space subsequently transforms the way we live, even if we do not realize it. The achievements of the 20th century transformed our world in communications and expanded our capability to understand ourselves. The invention of the satellite and similar resources has been invaluable in promoting globalization and interconnectivity."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "As a result, the Tiangong space station and the planned International Lunar Research Station will aim to shape the future of humanity accordingly, by expanding the scope of knowledge to new levels."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "The Chinese endeavor is not a zero-sum game; China invites all countries to participate in its projects as a peaceful initiative and to help shape humanity’s future. China will pursue the path of peaceful development in space with a view to the moon, Mars, and beyond."
+    }
+  ],
+  "source": {
+    "series": "新视野大学英语（第四版）",
+    "book": "读写教程 3",
+    "sourceBook": "NHCE4-RW3",
+    "printedPageStart": 133,
+    "printedPageEnd": 134,
+    "pdfPageStart": 148,
+    "pdfPageEnd": 149,
+    "pdfSha256": "40418e1f32f5db4eaf6f091227217121109219515e2ffd6b68791927d506afe8",
+    "ocrFiles": [
+      "tools/College-English/NHCE4-RW3/ocr/json/NHCE4-RW3_148.json",
+      "tools/College-English/NHCE4-RW3/ocr/json/NHCE4-RW3_149.json"
+    ]
+  },
+  "manualReview": {
+    "status": "passed",
+    "reviewer": "Codex",
+    "reviewedAt": "2026-07-30T17:39:59Z",
+    "correctionCount": 4,
+    "evidence": "全文视觉复读教材原图 NHCE4-RW3_148.jpg、149.jpg；按左栏后右栏核对至beyond",
+    "textSha256": "6debc66bd2501226b53bbf453653ff1d69b96502ec5e53b9d758ef00b94c9c18",
+    "eventSha256": "bf4bb5d23afa6969ed9ace33232a599ef7358975c1932a0ee6ea01c6f77b7345"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "id": "pepj8b-001",
+  "groupId": "pepj8b",
+  "unitNo": 1,
+  "sequenceNo": 1,
+  "section": "Section A",
+  "title": "Bus Driver and Passengers Save an Old Man",
+  "jsonPath": "pep-english/lessons/pepj8b/001.json",
+  "text": "At 9:00 a.m. yesterday, bus No. 26 was going along Zhonghua Road when the driver saw an old man lying on the side of the road. A woman next to him was shouting for help.\nThe bus driver, 24-year-old Wang Ping, stopped the bus without thinking twice. He got off and asked the woman what happened. She said that the man had a heart problem and should go to the hospital. Mr. Wang knew he had to act quickly. He told the passengers that he must take the man to the hospital. He expected most or all of the passengers to get off and wait for the next bus. But to his surprise, they all agreed to go with him. Some passengers helped Mr. Wang to move the man onto the bus.\nThanks to Mr. Wang and the passengers, the man was saved by the doctors in time. \"It's sad that many people don't want to help others because they don't want any trouble,\" says one passenger. \"But the driver didn't think about himself. He only thought about saving a life.\"",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "At 9:00 a.m. yesterday, bus No. 26 was going along Zhonghua Road when the driver saw an old man lying on the side of the road. A woman next to him was shouting for help."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "The bus driver, 24-year-old Wang Ping, stopped the bus without thinking twice. He got off and asked the woman what happened. She said that the man had a heart problem and should go to the hospital. Mr. Wang knew he had to act quickly. He told the passengers that he must take the man to the hospital. He expected most or all of the passengers to get off and wait for the next bus. But to his surprise, they all agreed to go with him. Some passengers helped Mr. Wang to move the man onto the bus."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Thanks to Mr. Wang and the passengers, the man was saved by the doctors in time. \"It's sad that many people don't want to help others because they don't want any trouble,\" says one passenger. \"But the driver didn't think about himself. He only thought about saving a life.\""
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "初中",
+    "book": "八年级下册",
+    "pageStart": 12,
+    "pageEnd": 12,
+    "extractionMode": "ocr",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "21d35e04f1c22b74a3fe3e95e88adff9",
+    "pdfSize": 18208880,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/junior-8b.pdf#page=12",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored the three printed news-style paragraphs and quotations, normalized Section A metadata, and excluded activities 3a instructions, 3b and 3c."
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "id": "pepj9-014",
+  "groupId": "pepj9",
+  "unitNo": 4,
+  "sequenceNo": 14,
+  "section": "Section A",
+  "title": "From Shy Girl to Pop Star",
+  "jsonPath": "pep-english/lessons/pepj9/014.json",
+  "text": "For this month's Young World magazine, I interviewed 19-year-old Asian pop star Candy Wang. Candy told me that she used to be really shy and took up singing to deal with her shyness. As she got better, she dared to sing in front of her class, and then for the whole school. Now she's not shy anymore and loves singing in front of crowds.\nI asked Candy how life was different after she became famous. She explained that there are many good things, like being able to travel and meet new people all the time. \"I didn't use to be popular in school, but now I get tons of attention everywhere I go.\" However, too much attention can also be a bad thing. \"I always have to worry about how I appear to others, and I have to be very careful about what I say or do. And I don't have much private time anymore. Hanging out with friends is almost impossible for me now because there are always guards around me.\"\nWhat does Candy have to say to all those young people who want to become famous? \"Well,\" she begins slowly, \"you have to be prepared to give up your normal life. You can never imagine how difficult the road to success is. Many times I thought about giving up, but I fought on. You really require a lot of talent and hard work to succeed. Only a very small number of people make it to the top.\"",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "For this month's Young World magazine, I interviewed 19-year-old Asian pop star Candy Wang. Candy told me that she used to be really shy and took up singing to deal with her shyness. As she got better, she dared to sing in front of her class, and then for the whole school. Now she's not shy anymore and loves singing in front of crowds."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "I asked Candy how life was different after she became famous. She explained that there are many good things, like being able to travel and meet new people all the time. \"I didn't use to be popular in school, but now I get tons of attention everywhere I go.\" However, too much attention can also be a bad thing. \"I always have to worry about how I appear to others, and I have to be very careful about what I say or do. And I don't have much private time anymore. Hanging out with friends is almost impossible for me now because there are always guards around me.\""
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "What does Candy have to say to all those young people who want to become famous? \"Well,\" she begins slowly, \"you have to be prepared to give up your normal life. You can never imagine how difficult the road to success is. Many times I thought about giving up, but I fought on. You really require a lot of talent and hard work to succeed. Only a very small number of people make it to the top.\""
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "初中",
+    "book": "九年级全一册",
+    "pageStart": 41,
+    "pageEnd": 41,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "c6e628c22e0c2f9cfe4547699a1c95a4",
+    "pdfSize": 11088578,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/junior-9.pdf#page=41",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored the printed title and all three complete interview paragraphs with Candy's quotations; excluded the 3a classification task and activities 3b-3c."
+    }
+  }
+}

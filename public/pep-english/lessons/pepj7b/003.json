@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "pepj7b-003",
+  "groupId": "pepj7b",
+  "unitNo": 3,
+  "sequenceNo": 3,
+  "section": "Section A",
+  "title": "Lisa and Jane's Commute",
+  "jsonPath": "pep-english/lessons/pepj7b/003.json",
+  "text": "Lisa: Hey, Jane. Is this your new bike?\nJane: Yes. I ride it to school every day. How do you get to school?\nLisa: I usually take the bus.\nJane: How far is it from your home to school?\nLisa: I'm not sure... about 10 kilometers? The bus ride takes about 20 minutes. How long does it take you to get to school?\nJane: About 15 minutes by bike. It's good exercise.\nLisa: Yeah. Well, have a good day at school.\nJane: You, too.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Lisa: Hey, Jane. Is this your new bike?\nJane: Yes. I ride it to school every day. How do you get to school?\nLisa: I usually take the bus.\nJane: How far is it from your home to school?\nLisa: I'm not sure... about 10 kilometers? The bus ride takes about 20 minutes. How long does it take you to get to school?\nJane: About 15 minutes by bike. It's good exercise.\nLisa: Yeah. Well, have a good day at school.\nJane: You, too."
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "初中",
+    "book": "七年级下册",
+    "pageStart": 24,
+    "pageEnd": 24,
+    "extractionMode": "ocr",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "9336b53d5a44f9244f62f6fb10720914",
+    "pdfSize": 17821241,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/junior-7b.pdf#page=24",
+      "reviewedAt": "2026-07-22",
+      "notes": "Kept the complete eight-turn role-play conversation; excluded activities 2a-2d and normalized the printed dialogue punctuation."
+    }
+  }
+}

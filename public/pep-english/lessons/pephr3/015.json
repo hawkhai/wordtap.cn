@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "pephr3-015",
+  "groupId": "pephr3",
+  "unitNo": 4,
+  "sequenceNo": 15,
+  "section": "Listening and Talking",
+  "title": "Questions for Captain Brown",
+  "jsonPath": "pep-english/lessons/pephr3/015.json",
+  "text": "A: Hey, guys. We're going to meet a real astronaut. Isn't it exciting?\nB: Yeah. I can't wait to see Captain Brown! I'm really curious about his life in space. I have plenty of questions to ask him.\nC: Such as?\nB: Oh, such as what facilities do they have in space to support their daily life?\nC: That sounds like a good question. But I'd also like to know about how astronauts sleep. What do they do so as not to float around while they sleep?",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "A: Hey, guys. We're going to meet a real astronaut. Isn't it exciting?\nB: Yeah. I can't wait to see Captain Brown! I'm really curious about his life in space. I have plenty of questions to ask him.\nC: Such as?\nB: Oh, such as what facilities do they have in space to support their daily life?\nC: That sounds like a good question. But I'd also like to know about how astronauts sleep. What do they do so as not to float around while they sleep?"
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "必修第三册",
+    "pageStart": 50,
+    "pageEnd": 50,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "31e51a16693d03177a5825f53f612a87",
+    "pdfSize": 14202806,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/senior-required-3.pdf#page=50",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored the complete five-turn model conversation about questions for Captain Brown; excluded the unprinted audio interview, object photographs, listening questions, open group task and expression bank."
+    }
+  }
+}

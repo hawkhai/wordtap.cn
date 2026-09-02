@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "id": "pepj7b-004",
+  "groupId": "pepj7b",
+  "unitNo": 3,
+  "sequenceNo": 4,
+  "section": "Section B",
+  "title": "Crossing the River to School",
+  "jsonPath": "pep-english/lessons/pepj7b/004.json",
+  "text": "How do you get to school? Do you walk or ride a bike? Do you go by bus or by train? For many students, it is easy to get to school. But for the students in one small village in China, it is difficult. There is a very big river between their school and the village. There is no bridge and the river runs too quickly for boats. So these students go on a ropeway to cross the river to school.\nOne 11-year-old boy, Liangliang, crosses the river every school day. But he is not afraid because he loves school. \"I love to play with my classmates. And I love my teacher. He's like a father to me.\"\nMany of the students and villagers never leave the village. It is their dream to have a bridge. Can their dream come true?",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "How do you get to school? Do you walk or ride a bike? Do you go by bus or by train? For many students, it is easy to get to school. But for the students in one small village in China, it is difficult. There is a very big river between their school and the village. There is no bridge and the river runs too quickly for boats. So these students go on a ropeway to cross the river to school."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "One 11-year-old boy, Liangliang, crosses the river every school day. But he is not afraid because he loves school. \"I love to play with my classmates. And I love my teacher. He's like a father to me.\""
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Many of the students and villagers never leave the village. It is their dream to have a bridge. Can their dream come true?"
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "初中",
+    "book": "七年级下册",
+    "pageStart": 27,
+    "pageEnd": 27,
+    "extractionMode": "ocr",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "9336b53d5a44f9244f62f6fb10720914",
+    "pdfSize": 17821241,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/junior-7b.pdf#page=27",
+      "reviewedAt": "2026-07-22",
+      "notes": "Used the correct title from activity 2b; retained only the three-paragraph news story and excluded activities 2a, 2c and 2d."
+    }
+  }
+}

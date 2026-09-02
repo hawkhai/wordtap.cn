@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "id": "pephs4-028",
+  "groupId": "pephs4",
+  "unitNo": 2,
+  "sequenceNo": 28,
+  "section": "Reading and Writing",
+  "title": "Pavlova",
+  "jsonPath": "pep-english/lessons/pephs4/028.json",
+  "text": "By far the favourite dessert in Australia is the pavlova, which was named after the famous Russian ballet dancer Anna Pavlova, who visited Australia in the 1920s.\nINGREDIENTS 4 egg whites a little salt 1 cup sugar 2 teaspoons flour 2/3 teaspoon vinegar 2/3 teaspoon vanilla 2 cups cream fresh fruit\nWhisk the egg whites until they are stiff. Add the salt. Add the sugar a little at a time and continue whisking until you have a meringue. Mix the flour, vinegar, and vanilla together. Add to the meringue. Spread the meringue on a baking sheet. Put it into a heated oven and cook at 120˚C for 1 hour. Turn off the oven. Leave the meringue in the oven until it is cool. Whip the cream. Cover the meringue with the whipped cream. Top the whipped cream with your choice of chopped fresh fruit.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "By far the favourite dessert in Australia is the pavlova, which was named after the famous Russian ballet dancer Anna Pavlova, who visited Australia in the 1920s."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "INGREDIENTS 4 egg whites a little salt 1 cup sugar 2 teaspoons flour 2/3 teaspoon vinegar 2/3 teaspoon vanilla 2 cups cream fresh fruit"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Whisk the egg whites until they are stiff. Add the salt. Add the sugar a little at a time and continue whisking until you have a meringue. Mix the flour, vinegar, and vanilla together. Add to the meringue. Spread the meringue on a baking sheet. Put it into a heated oven and cook at 120˚C for 1 hour. Turn off the oven. Leave the meringue in the oven until it is cool. Whip the cream. Cover the meringue with the whipped cream. Top the whipped cream with your choice of chopped fresh fruit."
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "选择性必修第四册",
+    "pageStart": 79,
+    "pageEnd": 79,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "6fc94127b322f6f5abff068bef6faa2e",
+    "pdfSize": 12330614,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/senior-selective-4.pdf#page=79",
+      "reviewedAt": "2026-07-22",
+      "notes": "Recovered the complete model recipe, preserving its introduction, ingredient list and method as a separate lesson.",
+      "splitBaselineId": "pephs4-037",
+      "splitIndex": 2,
+      "splitCount": 2
+    }
+  }
+}

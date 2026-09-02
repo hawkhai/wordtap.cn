@@ -1,0 +1,184 @@
+{
+  "schemaVersion": 1,
+  "id": "nce1-057",
+  "bookId": "nce1",
+  "bookNo": 1,
+  "lessonNo": 57,
+  "lessonRange": [
+    57,
+    58
+  ],
+  "title": "An Unusual Day",
+  "titleZh": "一个不同寻常的日子",
+  "question": "What is Mr. Sawyer doing tonight?",
+  "questionZh": "索耶先生今晚在做什么？",
+  "text": "What is Mr. Sawyer doing tonight?\n\nIt is eight o'clock.\nThe children go to school by car every day, but today, they are going to school on foot.\nIt is ten o'clock.\nMrs. Sawyer usually stays at home in the morning, but this morning, she is going to the shops.\nIt is four o'clock.\nIn the afternoon, Mrs. Sawyer usually drinks tea in the living room.\nBut this afternoon, she is drinking tea in the garden.\nIt is six o'clock.\nIn the evening, the children usually do their homework, but this evening, they are not doing their homework.\nAt the moment, they are playing in the garden.\nIt is nine o'clock.\nMr. Sawyer usually reads his newspaper at night.\nBut he's not reading his newspaper tonight.\nAt the moment, he's reading an interesting book.",
+  "bodyText": "It is eight o'clock.\nThe children go to school by car every day, but today, they are going to school on foot.\nIt is ten o'clock.\nMrs. Sawyer usually stays at home in the morning, but this morning, she is going to the shops.\nIt is four o'clock.\nIn the afternoon, Mrs. Sawyer usually drinks tea in the living room.\nBut this afternoon, she is drinking tea in the garden.\nIt is six o'clock.\nIn the evening, the children usually do their homework, but this evening, they are not doing their homework.\nAt the moment, they are playing in the garden.\nIt is nine o'clock.\nMr. Sawyer usually reads his newspaper at night.\nBut he's not reading his newspaper tonight.\nAt the moment, he's reading an interesting book.",
+  "bodyTextZh": "现在是八点钟。\n孩子们每天都乘车去上学。但是今天，他们要步行去上学。\n现在是十点钟。\n索耶太太早上通常待在家里。但是今天早上，她要去商店。\n现在是四点钟。\n下午，索耶夫人通常会在客厅里喝茶。\n但今天下午，她正在花园里喝茶。\n现在是六点钟。\n晚上，孩子们通常会做作业。但是今晚，他们没有做作业。\n他们现在正在花园里玩耍。\n现在是九点钟。\n索耶先生通常在晚上读报纸。\n但他今晚没在看报纸。\n此刻，他正在读一本有趣的书。",
+  "sentences": [
+    {
+      "index": 0,
+      "startTime": 0.44,
+      "endTime": 3.12,
+      "en": "Lesson 57",
+      "zh": "第57课",
+      "role": "lesson"
+    },
+    {
+      "index": 1,
+      "startTime": 3.12,
+      "endTime": 6.59,
+      "en": "An unusual day",
+      "zh": "一个不同寻常的日子",
+      "role": "title"
+    },
+    {
+      "index": 2,
+      "startTime": 6.59,
+      "endTime": 12.25,
+      "en": "Listen to the tape then answer this question.",
+      "zh": "先听这段录音，然后再回答这个问题。",
+      "role": "prompt"
+    },
+    {
+      "index": 3,
+      "startTime": 12.25,
+      "endTime": 17.62,
+      "en": "What is Mr. Sawyer doing tonight?",
+      "zh": "索耶先生今晚在做什么？",
+      "role": "question"
+    },
+    {
+      "index": 4,
+      "startTime": 17.62,
+      "endTime": 20.44,
+      "en": "It is eight o'clock.",
+      "zh": "现在是八点钟。",
+      "role": "body"
+    },
+    {
+      "index": 5,
+      "startTime": 20.44,
+      "endTime": 31.17,
+      "en": "The children go to school by car every day, but today, they are going to school on foot.",
+      "zh": "孩子们每天都乘车去上学。但是今天，他们要步行去上学。",
+      "role": "body"
+    },
+    {
+      "index": 6,
+      "startTime": 31.17,
+      "endTime": 33.57,
+      "en": "It is ten o'clock.",
+      "zh": "现在是十点钟。",
+      "role": "body"
+    },
+    {
+      "index": 7,
+      "startTime": 33.57,
+      "endTime": 44.5,
+      "en": "Mrs. Sawyer usually stays at home in the morning, but this morning, she is going to the shops.",
+      "zh": "索耶太太早上通常待在家里。但是今天早上，她要去商店。",
+      "role": "body"
+    },
+    {
+      "index": 8,
+      "startTime": 44.5,
+      "endTime": 47.16,
+      "en": "It is four o'clock.",
+      "zh": "现在是四点钟。",
+      "role": "body"
+    },
+    {
+      "index": 9,
+      "startTime": 47.16,
+      "endTime": 54.06,
+      "en": "In the afternoon, Mrs. Sawyer usually drinks tea in the living room.",
+      "zh": "下午，索耶夫人通常会在客厅里喝茶。",
+      "role": "body"
+    },
+    {
+      "index": 10,
+      "startTime": 54.06,
+      "endTime": 61.16,
+      "en": "But this afternoon, she is drinking tea in the garden.",
+      "zh": "但今天下午，她正在花园里喝茶。",
+      "role": "body"
+    },
+    {
+      "index": 11,
+      "startTime": 61.16,
+      "endTime": 63.83,
+      "en": "It is six o'clock.",
+      "zh": "现在是六点钟。",
+      "role": "body"
+    },
+    {
+      "index": 12,
+      "startTime": 63.83,
+      "endTime": 74.21,
+      "en": "In the evening, the children usually do their homework, but this evening, they are not doing their homework.",
+      "zh": "晚上，孩子们通常会做作业。但是今晚，他们没有做作业。",
+      "role": "body"
+    },
+    {
+      "index": 13,
+      "startTime": 74.21,
+      "endTime": 79.99,
+      "en": "At the moment, they are playing in the garden.",
+      "zh": "他们现在正在花园里玩耍。",
+      "role": "body"
+    },
+    {
+      "index": 14,
+      "startTime": 79.99,
+      "endTime": 82.72,
+      "en": "It is nine o'clock.",
+      "zh": "现在是九点钟。",
+      "role": "body"
+    },
+    {
+      "index": 15,
+      "startTime": 82.72,
+      "endTime": 88.03,
+      "en": "Mr. Sawyer usually reads his newspaper at night.",
+      "zh": "索耶先生通常在晚上读报纸。",
+      "role": "body"
+    },
+    {
+      "index": 16,
+      "startTime": 88.03,
+      "endTime": 92.53,
+      "en": "But he's not reading his newspaper tonight.",
+      "zh": "但他今晚没在看报纸。",
+      "role": "body"
+    },
+    {
+      "index": 17,
+      "startTime": 92.53,
+      "endTime": null,
+      "en": "At the moment, he's reading an interesting book.",
+      "zh": "此刻，他正在读一本有趣的书。",
+      "role": "body"
+    }
+  ],
+  "audio": {
+    "fileName": "057&058－An Unusual Day.mp3",
+    "sourcePath": "content/NCE-Flow/NCE1/057&058－An Unusual Day.mp3",
+    "exists": true
+  },
+  "source": {
+    "repository": "NCE-Flow",
+    "lrcFileName": "057&058－An Unusual Day.lrc",
+    "lrcPath": "content/NCE-Flow/NCE1/057&058－An Unusual Day.lrc",
+    "sourceDataFile": "content/NCE-Flow/static/data.json",
+    "generatedAt": "2026-07-23T02:59:02+00:00",
+    "generator": "scripts/generate_nce_json.py",
+    "generatorVersion": "2.0.0",
+    "metadata": {
+      "al": "新概念英语（一）",
+      "ar": "MP3 同步字幕版（美音）",
+      "ti": "An Unusual Day",
+      "by": "更多学习内容，请到VeryCD.com搜索“露珠”"
+    }
+  }
+}

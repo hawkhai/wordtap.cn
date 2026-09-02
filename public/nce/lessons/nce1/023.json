@@ -1,0 +1,144 @@
+{
+  "schemaVersion": 1,
+  "id": "nce1-023",
+  "bookId": "nce1",
+  "bookNo": 1,
+  "lessonNo": 23,
+  "lessonRange": [
+    23,
+    24
+  ],
+  "title": "Which Glasses",
+  "titleZh": "哪些眼镜？",
+  "question": "Which glasses does the man want?",
+  "questionZh": "那个男人想要哪些眼镜？",
+  "text": "Which glasses does the man want?\n\nGive me some glasses please, Jane.\nWhich glasses?\nThese glasses?\nNo, not those.\nThe ones on the shelf.\nThese?\nYes, please.\nHere you are.\nThanks.",
+  "bodyText": "Give me some glasses please, Jane.\nWhich glasses?\nThese glasses?\nNo, not those.\nThe ones on the shelf.\nThese?\nYes, please.\nHere you are.\nThanks.",
+  "bodyTextZh": "简，请给我拿些眼镜来。\n哪些眼镜？\n这些眼镜？\n不，不是那些。\n架子上的那些（眼镜）。\n这些（眼镜）？\n对，请（就这些）。\n给你。\n谢谢。",
+  "sentences": [
+    {
+      "index": 0,
+      "startTime": 0.42,
+      "endTime": 2.92,
+      "en": "Lesson 23",
+      "zh": "第23课",
+      "role": "lesson"
+    },
+    {
+      "index": 1,
+      "startTime": 2.92,
+      "endTime": 5.64,
+      "en": "Which glasses?",
+      "zh": "哪些眼镜？",
+      "role": "title"
+    },
+    {
+      "index": 2,
+      "startTime": 5.64,
+      "endTime": 11.83,
+      "en": "Listen to the tape then answer this question.",
+      "zh": "先听这段录音，然后回答这个问题。",
+      "role": "prompt"
+    },
+    {
+      "index": 3,
+      "startTime": 11.83,
+      "endTime": 17.14,
+      "en": "Which glasses does the man want?",
+      "zh": "那个男人想要哪些眼镜？",
+      "role": "question"
+    },
+    {
+      "index": 4,
+      "startTime": 17.14,
+      "endTime": 21.18,
+      "en": "Give me some glasses please, Jane.",
+      "zh": "简，请给我拿些眼镜来。",
+      "role": "body"
+    },
+    {
+      "index": 5,
+      "startTime": 21.18,
+      "endTime": 23.28,
+      "en": "Which glasses?",
+      "zh": "哪些眼镜？",
+      "role": "body"
+    },
+    {
+      "index": 6,
+      "startTime": 23.28,
+      "endTime": 25.83,
+      "en": "These glasses?",
+      "zh": "这些眼镜？",
+      "role": "body"
+    },
+    {
+      "index": 7,
+      "startTime": 25.83,
+      "endTime": 28.58,
+      "en": "No, not those.",
+      "zh": "不，不是那些。",
+      "role": "body"
+    },
+    {
+      "index": 8,
+      "startTime": 28.58,
+      "endTime": 31.4,
+      "en": "The ones on the shelf.",
+      "zh": "架子上的那些（眼镜）。",
+      "role": "body"
+    },
+    {
+      "index": 9,
+      "startTime": 31.4,
+      "endTime": 32.84,
+      "en": "These?",
+      "zh": "这些（眼镜）？",
+      "role": "body"
+    },
+    {
+      "index": 10,
+      "startTime": 32.84,
+      "endTime": 34.98,
+      "en": "Yes, please.",
+      "zh": "对，请（就这些）。",
+      "role": "body"
+    },
+    {
+      "index": 11,
+      "startTime": 34.98,
+      "endTime": 37.13,
+      "en": "Here you are.",
+      "zh": "给你。",
+      "role": "body"
+    },
+    {
+      "index": 12,
+      "startTime": 37.13,
+      "endTime": null,
+      "en": "Thanks.",
+      "zh": "谢谢。",
+      "role": "body"
+    }
+  ],
+  "audio": {
+    "fileName": "023&024－Which Glasses.mp3",
+    "sourcePath": "content/NCE-Flow/NCE1/023&024－Which Glasses.mp3",
+    "exists": true
+  },
+  "source": {
+    "repository": "NCE-Flow",
+    "lrcFileName": "023&024－Which Glasses.lrc",
+    "lrcPath": "content/NCE-Flow/NCE1/023&024－Which Glasses.lrc",
+    "sourceDataFile": "content/NCE-Flow/static/data.json",
+    "generatedAt": "2026-07-23T02:59:02+00:00",
+    "generator": "scripts/generate_nce_json.py",
+    "generatorVersion": "2.0.0",
+    "metadata": {
+      "al": "新概念英语（一）",
+      "ar": "MP3 同步字幕版（美音）",
+      "ti": "Which Glasses?",
+      "by": "更多学习内容，请到VeryCD.com搜索“露珠”"
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "pephr1-006",
+  "groupId": "pephr1",
+  "unitNo": 1,
+  "sequenceNo": 6,
+  "section": "Assessing Your Progress",
+  "title": "Make the Most of Your Education",
+  "jsonPath": "pep-english/lessons/pephr1/006.json",
+  "text": "If you have learnt some maths at school, you can quite quickly work out that one eleventh is about 9 percent. But did you know that 9 percent is also the number of children who are not at school? That's right—one in 11 children is not studying and probably even cannot do the simple maths you just did so very easily. They drop out of school because their families are too poor and they have to work like adults. In 2013, millions of children and teenagers were out of school. Most live in poor countries, but there are also some boys and girls who cannot go to school in rich countries. If you are one of the lucky ones who can go to a senior high school, you should be grateful for the opportunity. So the next time you feel like you do not want to do boring, difficult homework or go to class, think about the children who don't have the chance to get a good education. Make the most of your education and make the world a better place.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "If you have learnt some maths at school, you can quite quickly work out that one eleventh is about 9 percent. But did you know that 9 percent is also the number of children who are not at school? That's right—one in 11 children is not studying and probably even cannot do the simple maths you just did so very easily. They drop out of school because their families are too poor and they have to work like adults. In 2013, millions of children and teenagers were out of school. Most live in poor countries, but there are also some boys and girls who cannot go to school in rich countries. If you are one of the lucky ones who can go to a senior high school, you should be grateful for the opportunity. So the next time you feel like you do not want to do boring, difficult homework or go to class, think about the children who don't have the chance to get a good education. Make the most of your education and make the world a better place."
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "必修第一册",
+    "pageStart": 27,
+    "pageEnd": 27,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "e0bf18138b24d7def28b35994a13946b",
+    "pdfSize": 14704146,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/senior-required-1.pdf#page=27",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored the complete two-column passage about out-of-school children and valuing education; removed multiple-choice sentences, phrase-analysis instructions, the follow-up question and reflection prompts."
+    }
+  }
+}

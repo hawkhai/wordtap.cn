@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 2,
+  "id": "rw2-u04-c",
+  "sequenceNo": 30,
+  "groupId": "rw2",
+  "unitNo": 4,
+  "unitTitle": "Mission and exploration of our time",
+  "section": "C",
+  "articleType": "stories-of-china",
+  "title": "The May Fourth spirit alive in China",
+  "printedPageStart": 103,
+  "printedPageEnd": 104,
+  "jsonPath": "college-english/lessons/rw2/rw2-u04-c.json",
+  "characterCount": 2658,
+  "text": "The May Fourth Movement was a patriotic campaign launched in 1919 by young Chinese students and intellectuals to fight imperialism (帝国主义) and feudalism (封建主义). It is regarded as a mark of the beginning of a new historical stage, called “the new-democratic revolution”. Young students and intellectuals played an important role in pursuing social transformation and national modernization over the past century.\nBorn and raised in the period of Chinese reform and opening up, today’s young people are tech-smart, respectful of Chinese traditions, and objective when looking at Western culture. They are referred to as the Bird’s Nest Generation (鸟巢一代), the Ice and Snow Generation, etc., signaling self-confidence, love of peace, patriotism, openness, and friendliness.\nNo matter how we label them, the Chinese youth have sent out the message that they are willing to take responsibility and make contributions to society. Since COVID-19 suddenly hit the country, they have done an amazing job, with a strong sense of responsibility and remarkable resilience (适应力). Many young people, including doctors, nurses, and rescue workers, rushed to the front line risking their own lives. Their conviction and dedication prove once again the promising future of the Chinese nation.\nThe May Fourth spirit refers to patriotism, progress, democracy, and science, with patriotism at the core. Carrying on the May Fourth spirit in this new era, young Chinese people are also showing their patriotism by participating in volunteer work. They believe the experience of being a volunteer can teach them many things that they would otherwise never learn. For example, quite many young people offered to help earthquake victims in hospitals, despite the fact that some were frightened to see people who got severe injuries. They fought hard to overcome their fear in order to help patients.\nMoreover, hundreds of thousands of college graduates have offered their services in the countryside. They have volunteered to be teachers in remote areas. Some of them went to villages to conduct social surveys but decided to stay and teach at village schools moved by the children’s enthusiasm for learning.\nAll generations are marked by the time they live in. The task the Chinese youth are facing today is as exciting and challenging as that of their predecessors. Carrying the May Fourth spirit forward means that today’s young people are advancing to build socialism with their unique characteristics. Thriving young people will lead to a thriving nation. The May Fourth spirit will continue to serve as the inexhaustible source of inspiration and motivation to the Chinese youth.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "The May Fourth Movement was a patriotic campaign launched in 1919 by young Chinese students and intellectuals to fight imperialism (帝国主义) and feudalism (封建主义). It is regarded as a mark of the beginning of a new historical stage, called “the new-democratic revolution”. Young students and intellectuals played an important role in pursuing social transformation and national modernization over the past century."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Born and raised in the period of Chinese reform and opening up, today’s young people are tech-smart, respectful of Chinese traditions, and objective when looking at Western culture. They are referred to as the Bird’s Nest Generation (鸟巢一代), the Ice and Snow Generation, etc., signaling self-confidence, love of peace, patriotism, openness, and friendliness."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "No matter how we label them, the Chinese youth have sent out the message that they are willing to take responsibility and make contributions to society. Since COVID-19 suddenly hit the country, they have done an amazing job, with a strong sense of responsibility and remarkable resilience (适应力). Many young people, including doctors, nurses, and rescue workers, rushed to the front line risking their own lives. Their conviction and dedication prove once again the promising future of the Chinese nation."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "The May Fourth spirit refers to patriotism, progress, democracy, and science, with patriotism at the core. Carrying on the May Fourth spirit in this new era, young Chinese people are also showing their patriotism by participating in volunteer work. They believe the experience of being a volunteer can teach them many things that they would otherwise never learn. For example, quite many young people offered to help earthquake victims in hospitals, despite the fact that some were frightened to see people who got severe injuries. They fought hard to overcome their fear in order to help patients."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Moreover, hundreds of thousands of college graduates have offered their services in the countryside. They have volunteered to be teachers in remote areas. Some of them went to villages to conduct social surveys but decided to stay and teach at village schools moved by the children’s enthusiasm for learning."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "All generations are marked by the time they live in. The task the Chinese youth are facing today is as exciting and challenging as that of their predecessors. Carrying the May Fourth spirit forward means that today’s young people are advancing to build socialism with their unique characteristics. Thriving young people will lead to a thriving nation. The May Fourth spirit will continue to serve as the inexhaustible source of inspiration and motivation to the Chinese youth."
+    }
+  ],
+  "source": {
+    "series": "新视野大学英语（第四版）",
+    "book": "读写教程 2",
+    "sourceBook": "NHCE4-RW2",
+    "printedPageStart": 103,
+    "printedPageEnd": 104,
+    "pdfPageStart": 118,
+    "pdfPageEnd": 119,
+    "pdfSha256": "67f2efd99fc8d9779b945b5714857c2e608b39d42a1ce254c7d501abb21ab978",
+    "ocrFiles": [
+      "tools/College-English/NHCE4-RW2/ocr/json/NHCE4-RW2_118.json",
+      "tools/College-English/NHCE4-RW2/ocr/json/NHCE4-RW2_119.json"
+    ]
+  },
+  "manualReview": {
+    "status": "passed",
+    "reviewer": "Codex",
+    "reviewedAt": "2026-07-30T02:20:52Z",
+    "correctionCount": 9,
+    "evidence": "Full second read: NHCE4-RW2.pdf pages 118-119; images NHCE4-RW2_118.jpg..119.jpg; reviewed-articles/rw2-u04-c.json",
+    "textSha256": "395dcc4c596366895b7ba03a05d4ab62b77312c70a05c12e95f7c999d10b4fc1",
+    "eventSha256": "7c7042f166cca69a42e3a0500049f9a0835cd12b91ace0af9157cd193a99adf7"
+  }
+}

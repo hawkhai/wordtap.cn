@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "pephs2-007",
+  "groupId": "pephs2",
+  "unitNo": 2,
+  "sequenceNo": 7,
+  "section": "Pronunciation",
+  "title": "Learning to Use Weak Forms",
+  "jsonPath": "pep-english/lessons/pephs2/007.json",
+  "text": "Lu Yao: Excuse me, Miss Conner. I’m having a problem with this English listening task. Some words are pronounced really fast and sound different.\nMiss Conner: Oh, let me listen... Yes, that’s probably because the words are not being stressed. You see, English is a stress-based language.\nLu Yao: So does this mean I need to know which words are stressed and which are not?\nMiss Conner: Yes, I’m afraid so. English words have a strong form and a weak form. Words like pronouns, articles, prepositions, and so on are often not stressed. So we usually use the weak form for them when we speak.\nLu Yao: Oh no. When I speak, I worry people won’t understand me, so I always try to pronounce all my words really clearly. No wonder my classmates say I sound like a robot!\nMiss Conner: Oh dear! Well, I suggest you pay more attention to the weak forms. For example, in the sentence “Are you studying hard?”, the words “are” and “you” are pronounced as /ə/ and /jə/.\nLu Yao: Oh, I get it. Thanks, Miss Conner.\nMiss Conner: You’re welcome. I also suggest you watch some movies and study how the weak forms are used.\nLu Yao: That’s great advice, Miss Conner! I’m going to watch a movie right now. Thanks again! Bye!",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Lu Yao: Excuse me, Miss Conner. I’m having a problem with this English listening task. Some words are pronounced really fast and sound different.\nMiss Conner: Oh, let me listen... Yes, that’s probably because the words are not being stressed. You see, English is a stress-based language.\nLu Yao: So does this mean I need to know which words are stressed and which are not?\nMiss Conner: Yes, I’m afraid so. English words have a strong form and a weak form. Words like pronouns, articles, prepositions, and so on are often not stressed. So we usually use the weak form for them when we speak.\nLu Yao: Oh no. When I speak, I worry people won’t understand me, so I always try to pronounce all my words really clearly. No wonder my classmates say I sound like a robot!\nMiss Conner: Oh dear! Well, I suggest you pay more attention to the weak forms. For example, in the sentence “Are you studying hard?”, the words “are” and “you” are pronounced as /ə/ and /jə/.\nLu Yao: Oh, I get it. Thanks, Miss Conner.\nMiss Conner: You’re welcome. I also suggest you watch some movies and study how the weak forms are used.\nLu Yao: That’s great advice, Miss Conner! I’m going to watch a movie right now. Thanks again! Bye!"
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "选择性必修第二册",
+    "pageStart": 26,
+    "pageEnd": 26,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "1a701f2205298de95ea59cfc71eb83cd",
+    "pdfSize": 9968316,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/senior-selective-2.pdf#page=26",
+      "reviewedAt": "2026-07-22",
+      "notes": "Retained the complete nine-turn Lu Yao–Miss Conner pronunciation conversation; excluded its instruction and the separate six-turn interview example above because that example deliberately ends with an ellipsis rather than a printed conclusion."
+    }
+  }
+}

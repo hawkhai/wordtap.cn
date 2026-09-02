@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "pephr1-007",
+  "groupId": "pephr1",
+  "unitNo": 2,
+  "sequenceNo": 7,
+  "section": "Reading and Thinking",
+  "title": "Peru: Geography and History",
+  "jsonPath": "pep-english/lessons/pephr1/007.json",
+  "text": "Peru is a country on the Pacific coast of South America with three main areas: narrow, dry, flat land running along the coast, the Andes Mountains, and the Amazon rainforest.\nIn the 1400s and 1500s, Peru was the centre of the powerful ancient Inca Empire. The Inca emperor lived in the now-famous site Machu Picchu. Spain took control of Peru in the 16th century and ruled until 1821. It is for this reason that Spanish is the main official language of Peru.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Peru is a country on the Pacific coast of South America with three main areas: narrow, dry, flat land running along the coast, the Andes Mountains, and the Amazon rainforest."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "In the 1400s and 1500s, Peru was the centre of the powerful ancient Inca Empire. The Inca emperor lived in the now-famous site Machu Picchu. Spain took control of Peru in the 16th century and ruled until 1821. It is for this reason that Spanish is the main official language of Peru."
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "必修第一册",
+    "pageStart": 33,
+    "pageEnd": 33,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "e0bf18138b24d7def28b35994a13946b",
+    "pdfSize": 14704146,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/senior-required-1.pdf#page=33",
+      "reviewedAt": "2026-07-22",
+      "notes": "Kept only the complete two-paragraph encyclopedia text on Peru; the Travel Peru brochure continues on the next page and is reserved for the following candidate. Removed video questions, text-type instructions and the strategy box."
+    }
+  }
+}

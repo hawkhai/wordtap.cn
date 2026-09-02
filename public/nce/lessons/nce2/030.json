@@ -1,0 +1,143 @@
+{
+  "schemaVersion": 1,
+  "id": "nce2-030",
+  "bookId": "nce2",
+  "bookNo": 2,
+  "lessonNo": 30,
+  "lessonRange": [
+    30
+  ],
+  "title": "Football or Polo",
+  "titleZh": "足球还是水球",
+  "question": "What happened to the man in the boat?",
+  "questionZh": "船上的那个男人怎么了？",
+  "text": "What happened to the man in the boat?\n\nThe Wayle is a small river that cuts across the park near my home.\nI like sitting by the Wayle on fine afternoons.\nIt was warm last Sunday, so I went and sat on the river bank as usual.\nSome children were playing games on the bank and there were some people rowing on the river.\nSuddenly, one of the children kicked a ball very hard and it went towards a passing boat.\nSome people on the bank called out to the man in the boat, but he did not hear them.\nThe ball struck him so hard that he nearly fell into the water.\nI turned to look at the children, but there weren't any in sight: they had all run away!\nThe man laughed when he realized what had happened.\nHe called out to the children and threw the ball back to the bank.",
+  "bodyText": "The Wayle is a small river that cuts across the park near my home.\nI like sitting by the Wayle on fine afternoons.\nIt was warm last Sunday, so I went and sat on the river bank as usual.\nSome children were playing games on the bank and there were some people rowing on the river.\nSuddenly, one of the children kicked a ball very hard and it went towards a passing boat.\nSome people on the bank called out to the man in the boat, but he did not hear them.\nThe ball struck him so hard that he nearly fell into the water.\nI turned to look at the children, but there weren't any in sight: they had all run away!\nThe man laughed when he realized what had happened.\nHe called out to the children and threw the ball back to the bank.",
+  "bodyTextZh": "韦尔河是一条小河，流经我家附近的公园。\n我喜欢在天气好的下午坐在韦尔河畔。\n上周日天气很暖和，所以我像往常一样去河边坐着。\n有些孩子在河岸上玩游戏，还有一些人在河上划船。\n突然，其中一个孩子用力踢了一个球，球飞向了一艘正在经过的船。\n河岸上的一些人向船上的男人喊话，但他没有听到。\n球重重地打在他身上，差点把他撞进水里。\n我转身看向那些孩子，但他们已经不见了——他们都跑掉了！\n当那个男人意识到发生了什么时，他笑了起来。\n他朝孩子们喊了一声，然后把球扔回了岸上。",
+  "sentences": [
+    {
+      "index": 0,
+      "startTime": 0.5,
+      "endTime": 3,
+      "en": "Lesson 30",
+      "zh": "第30课",
+      "role": "lesson"
+    },
+    {
+      "index": 1,
+      "startTime": 3,
+      "endTime": 9.99,
+      "en": "Football or Polo",
+      "zh": "足球还是水球",
+      "role": "title"
+    },
+    {
+      "index": 2,
+      "startTime": 9.99,
+      "endTime": 13.78,
+      "en": "What happened to the man in the boat?",
+      "zh": "船上的那个男人怎么了？",
+      "role": "question"
+    },
+    {
+      "index": 3,
+      "startTime": 13.78,
+      "endTime": 20.02,
+      "en": "The Wayle is a small river that cuts across the park near my home.",
+      "zh": "韦尔河是一条小河，流经我家附近的公园。",
+      "role": "body"
+    },
+    {
+      "index": 4,
+      "startTime": 20.02,
+      "endTime": 24.73,
+      "en": "I like sitting by the Wayle on fine afternoons.",
+      "zh": "我喜欢在天气好的下午坐在韦尔河畔。",
+      "role": "body"
+    },
+    {
+      "index": 5,
+      "startTime": 24.73,
+      "endTime": 32.21,
+      "en": "It was warm last Sunday, so I went and sat on the river bank as usual.",
+      "zh": "上周日天气很暖和，所以我像往常一样去河边坐着。",
+      "role": "body"
+    },
+    {
+      "index": 6,
+      "startTime": 32.21,
+      "endTime": 39.58,
+      "en": "Some children were playing games on the bank and there were some people rowing on the river.",
+      "zh": "有些孩子在河岸上玩游戏，还有一些人在河上划船。",
+      "role": "body"
+    },
+    {
+      "index": 7,
+      "startTime": 39.58,
+      "endTime": 48.04,
+      "en": "Suddenly, one of the children kicked a ball very hard and it went towards a passing boat.",
+      "zh": "突然，其中一个孩子用力踢了一个球，球飞向了一艘正在经过的船。",
+      "role": "body"
+    },
+    {
+      "index": 8,
+      "startTime": 48.04,
+      "endTime": 55.56,
+      "en": "Some people on the bank called out to the man in the boat, but he did not hear them.",
+      "zh": "河岸上的一些人向船上的男人喊话，但他没有听到。",
+      "role": "body"
+    },
+    {
+      "index": 9,
+      "startTime": 55.56,
+      "endTime": 62.52,
+      "en": "The ball struck him so hard that he nearly fell into the water.",
+      "zh": "球重重地打在他身上，差点把他撞进水里。",
+      "role": "body"
+    },
+    {
+      "index": 10,
+      "startTime": 62.52,
+      "endTime": 70.23,
+      "en": "I turned to look at the children, but there weren't any in sight: they had all run away!",
+      "zh": "我转身看向那些孩子，但他们已经不见了——他们都跑掉了！",
+      "role": "body"
+    },
+    {
+      "index": 11,
+      "startTime": 70.23,
+      "endTime": 74.83,
+      "en": "The man laughed when he realized what had happened.",
+      "zh": "当那个男人意识到发生了什么时，他笑了起来。",
+      "role": "body"
+    },
+    {
+      "index": 12,
+      "startTime": 74.83,
+      "endTime": null,
+      "en": "He called out to the children and threw the ball back to the bank.",
+      "zh": "他朝孩子们喊了一声，然后把球扔回了岸上。",
+      "role": "body"
+    }
+  ],
+  "audio": {
+    "fileName": "30－Football or Polo.mp3",
+    "sourcePath": "content/NCE-Flow/NCE2/30－Football or Polo.mp3",
+    "exists": true
+  },
+  "source": {
+    "repository": "NCE-Flow",
+    "lrcFileName": "30－Football or Polo.lrc",
+    "lrcPath": "content/NCE-Flow/NCE2/30－Football or Polo.lrc",
+    "sourceDataFile": "content/NCE-Flow/static/data.json",
+    "generatedAt": "2026-07-23T02:59:02+00:00",
+    "generator": "scripts/generate_nce_json.py",
+    "generatorVersion": "2.0.0",
+    "metadata": {
+      "al": "新概念英语（二）",
+      "ar": "MP3 同步字幕版（美音）",
+      "ti": "Football or Polo?",
+      "by": "更多学习内容，请到VeryCD.com搜索“露珠”"
+    }
+  }
+}

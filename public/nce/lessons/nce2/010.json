@@ -1,0 +1,159 @@
+{
+  "schemaVersion": 1,
+  "id": "nce2-010",
+  "bookId": "nce2",
+  "bookNo": 2,
+  "lessonNo": 10,
+  "lessonRange": [
+    10
+  ],
+  "title": "Not for Jazz",
+  "titleZh": "不适于演奏爵士乐",
+  "question": "What happened to the clavichord?",
+  "questionZh": "那架击弦古钢琴后来怎么样了？",
+  "text": "What happened to the clavichord?\n\nWe have an old musical instrument.\nIt is called a clavichord.\nIt was made in Germany in 1681.\nOur clavichord is kept in the living room.\nIt has belonged to our family for a long time.\nThe instrument was bought by my grandfather many years ago.\nRecently it was damaged by a visitor.\nShe tried to play jazz on it!\nShe struck the keys too hard and two of the strings were broken.\nMy father was shocked.\nNow we are not allowed to touch it.\nIt is being repaired by a friend of my father's.",
+  "bodyText": "We have an old musical instrument.\nIt is called a clavichord.\nIt was made in Germany in 1681.\nOur clavichord is kept in the living room.\nIt has belonged to our family for a long time.\nThe instrument was bought by my grandfather many years ago.\nRecently it was damaged by a visitor.\nShe tried to play jazz on it!\nShe struck the keys too hard and two of the strings were broken.\nMy father was shocked.\nNow we are not allowed to touch it.\nIt is being repaired by a friend of my father's.",
+  "bodyTextZh": "我们有一件古老的乐器。\n它叫击弦古钢琴。\n它于1681年在德国制造。\n我们的击弦古钢琴放在客厅里。\n它已经属于我们家族很长时间了。\n这件乐器是我祖父多年前买的。\n最近，它被一位访客损坏了。\n她竟然用它弹起了爵士乐！\n她用力过猛地敲击琴键，结果有两根琴弦断裂了。\n我父亲非常震惊。\n现在我们不准碰它了。\n我父亲的一个朋友正在修理它。",
+  "sentences": [
+    {
+      "index": 0,
+      "startTime": 0.5,
+      "endTime": 3,
+      "en": "Lesson 10",
+      "zh": "第10课",
+      "role": "lesson"
+    },
+    {
+      "index": 1,
+      "startTime": 3,
+      "endTime": 8.89,
+      "en": "Not for Jazz",
+      "zh": "不适于演奏爵士乐",
+      "role": "title"
+    },
+    {
+      "index": 2,
+      "startTime": 8.89,
+      "endTime": 12.57,
+      "en": "What happened to the clavichord?",
+      "zh": "那架击弦古钢琴后来怎么样了？",
+      "role": "question"
+    },
+    {
+      "index": 3,
+      "startTime": 12.57,
+      "endTime": 16.1,
+      "en": "We have an old musical instrument.",
+      "zh": "我们有一件古老的乐器。",
+      "role": "body"
+    },
+    {
+      "index": 4,
+      "startTime": 16.1,
+      "endTime": 18.91,
+      "en": "It is called a clavichord.",
+      "zh": "它叫击弦古钢琴。",
+      "role": "body"
+    },
+    {
+      "index": 5,
+      "startTime": 18.91,
+      "endTime": 23.78,
+      "en": "It was made in Germany in 1681.",
+      "zh": "它于1681年在德国制造。",
+      "role": "body"
+    },
+    {
+      "index": 6,
+      "startTime": 23.78,
+      "endTime": 27.31,
+      "en": "Our clavichord is kept in the living room.",
+      "zh": "我们的击弦古钢琴放在客厅里。",
+      "role": "body"
+    },
+    {
+      "index": 7,
+      "startTime": 27.31,
+      "endTime": 31.61,
+      "en": "It has belonged to our family for a long time.",
+      "zh": "它已经属于我们家族很长时间了。",
+      "role": "body"
+    },
+    {
+      "index": 8,
+      "startTime": 31.61,
+      "endTime": 36.42,
+      "en": "The instrument was bought by my grandfather many years ago.",
+      "zh": "这件乐器是我祖父多年前买的。",
+      "role": "body"
+    },
+    {
+      "index": 9,
+      "startTime": 36.42,
+      "endTime": 39.87,
+      "en": "Recently it was damaged by a visitor.",
+      "zh": "最近，它被一位访客损坏了。",
+      "role": "body"
+    },
+    {
+      "index": 10,
+      "startTime": 39.87,
+      "endTime": 42.88,
+      "en": "She tried to play jazz on it!",
+      "zh": "她竟然用它弹起了爵士乐！",
+      "role": "body"
+    },
+    {
+      "index": 11,
+      "startTime": 42.88,
+      "endTime": 48.43,
+      "en": "She struck the keys too hard and two of the strings were broken.",
+      "zh": "她用力过猛地敲击琴键，结果有两根琴弦断裂了。",
+      "role": "body"
+    },
+    {
+      "index": 12,
+      "startTime": 48.43,
+      "endTime": 51.32,
+      "en": "My father was shocked.",
+      "zh": "我父亲非常震惊。",
+      "role": "body"
+    },
+    {
+      "index": 13,
+      "startTime": 51.32,
+      "endTime": 54.36,
+      "en": "Now we are not allowed to touch it.",
+      "zh": "现在我们不准碰它了。",
+      "role": "body"
+    },
+    {
+      "index": 14,
+      "startTime": 54.36,
+      "endTime": null,
+      "en": "It is being repaired by a friend of my father's.",
+      "zh": "我父亲的一个朋友正在修理它。",
+      "role": "body"
+    }
+  ],
+  "audio": {
+    "fileName": "10－Not for Jazz.mp3",
+    "sourcePath": "content/NCE-Flow/NCE2/10－Not for Jazz.mp3",
+    "exists": true
+  },
+  "source": {
+    "repository": "NCE-Flow",
+    "lrcFileName": "10－Not for Jazz.lrc",
+    "lrcPath": "content/NCE-Flow/NCE2/10－Not for Jazz.lrc",
+    "sourceDataFile": "content/NCE-Flow/static/data.json",
+    "generatedAt": "2026-07-23T02:59:02+00:00",
+    "generator": "scripts/generate_nce_json.py",
+    "generatorVersion": "2.0.0",
+    "metadata": {
+      "al": "新概念英语（二）",
+      "ar": "MP3 同步字幕版（美音）",
+      "ti": "Not for Jazz",
+      "by": "更多学习内容，请到VeryCD.com搜索“露珠”"
+    }
+  }
+}

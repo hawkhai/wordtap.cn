@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "pephs3-007",
+  "groupId": "pephs3",
+  "unitNo": 3,
+  "sequenceNo": 7,
+  "section": "Using Language",
+  "title": "Reducing Water Pollution in the Li River",
+  "jsonPath": "pep-english/lessons/pephs3/007.json",
+  "text": "The beautiful Li River and its amazing surrounding scenery is one of the most well-known tourist destinations in China’s Guangxi Zhuang Autonomous Region. It attracts millions of domestic and foreign visitors each year. However, its reputation as a top destination has had negative effects on the river’s water quality. This report looks at the problem of water pollution and some actions that have been taken to deal with it.\nPreviously, water quality in the Li River had suffered greatly from an increasing volume of tourists, many of whom frequently threw garbage into the river. Many tour boats contributed to the problem too. Kitchens on board were using lots of oil, which was often thrown into the water. The growth in tourism also meant the local population rose rapidly, as well as the number of commercial and industrial enterprises. Water pollution levels increased, with more household and commercial waste ending up in the river. In order to feed more people, more chemicals were used to increase crop production. These chemicals led to severe water quality issues, causing a decrease in the number of fish species. Local officials were concerned that the pollution was damaging the natural environment and felt that urgent steps should be taken to restore the river’s original beauty.\nA comprehensive initiative was started, with a number of measures that addressed the issues. The construction of waste water treatment facilities improved the water quality and water conservation. The collection and transport of household waste was also improved. Dozens of polluting enterprises were closed or moved. The local government set up strict regulations regarding further industrial development. New rules were also introduced regarding tour boat routes and garbage disposal methods. Furthermore, the local authorities began to use the media to spread environmental awareness and encourage greater use of clean energy. At the same time, they started to carry out inspections regularly and fine tourist organisations for abuses. With these measures, it is believed that the beauty of the Li River will be preserved for generations to come.\nIn addition, the ambitious “Water Ten Plan” is also now tackling water pollution across the country. Other initiatives, such as the “River Chief System”, hold senior officials responsible for reducing water pollution. With such campaigns in effect, China’s waterways are heading towards a clean and sustainable future.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "The beautiful Li River and its amazing surrounding scenery is one of the most well-known tourist destinations in China’s Guangxi Zhuang Autonomous Region. It attracts millions of domestic and foreign visitors each year. However, its reputation as a top destination has had negative effects on the river’s water quality. This report looks at the problem of water pollution and some actions that have been taken to deal with it."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Previously, water quality in the Li River had suffered greatly from an increasing volume of tourists, many of whom frequently threw garbage into the river. Many tour boats contributed to the problem too. Kitchens on board were using lots of oil, which was often thrown into the water. The growth in tourism also meant the local population rose rapidly, as well as the number of commercial and industrial enterprises. Water pollution levels increased, with more household and commercial waste ending up in the river. In order to feed more people, more chemicals were used to increase crop production. These chemicals led to severe water quality issues, causing a decrease in the number of fish species. Local officials were concerned that the pollution was damaging the natural environment and felt that urgent steps should be taken to restore the river’s original beauty."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "A comprehensive initiative was started, with a number of measures that addressed the issues. The construction of waste water treatment facilities improved the water quality and water conservation. The collection and transport of household waste was also improved. Dozens of polluting enterprises were closed or moved. The local government set up strict regulations regarding further industrial development. New rules were also introduced regarding tour boat routes and garbage disposal methods. Furthermore, the local authorities began to use the media to spread environmental awareness and encourage greater use of clean energy. At the same time, they started to carry out inspections regularly and fine tourist organisations for abuses. With these measures, it is believed that the beauty of the Li River will be preserved for generations to come."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "In addition, the ambitious “Water Ten Plan” is also now tackling water pollution across the country. Other initiatives, such as the “River Chief System”, hold senior officials responsible for reducing water pollution. With such campaigns in effect, China’s waterways are heading towards a clean and sustainable future."
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "选择性必修第三册",
+    "pageStart": 39,
+    "pageEnd": 40,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "f0dc33129a755a33421d401b71a05cd1",
+    "pdfSize": 12684455,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/senior-selective-3.pdf#page=39-40",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored the complete four-paragraph report, joining its third paragraph across the page boundary; excluded prompts, photograph, comprehension questions, organisation table, writing steps, checklist, and running furniture."
+    }
+  }
+}

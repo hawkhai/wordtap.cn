@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "pephr1-003",
+  "groupId": "pephr1",
+  "unitNo": 1,
+  "sequenceNo": 3,
+  "section": "Reading for Writing",
+  "title": "Student Profiles: Ann and Thando",
+  "jsonPath": "pep-english/lessons/pephr1/003.json",
+  "text": "Ann, 15 Lakeside High School USA My name is Ann Wells and I'm a Grade 10 student at Lakeside High School. I'm an active person and I love sports. I'm curious about everything. I often ask questions, but I learn best by doing. My favourite subject is physics. Dancing and skating are my hobbies, and I also like to read short stories. I plan to become an engineer in the future.\nThando, 16 South Hill High School South Africa I'm Thando Gowon. I'm 16 this year. I come from South Africa. I'm a Grade 10 student at South Hill High School. I look good, think fast, and play hard. You'll never see me without a book or a pen. If I'm not in class, I'm either in the library or in the computer lab. At the weekends, I play computer games if I'm not busy studying. My dream is to start my own IT company!",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Ann, 15 Lakeside High School USA My name is Ann Wells and I'm a Grade 10 student at Lakeside High School. I'm an active person and I love sports. I'm curious about everything. I often ask questions, but I learn best by doing. My favourite subject is physics. Dancing and skating are my hobbies, and I also like to read short stories. I plan to become an engineer in the future."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Thando, 16 South Hill High School South Africa I'm Thando Gowon. I'm 16 this year. I come from South Africa. I'm a Grade 10 student at South Hill High School. I look good, think fast, and play hard. You'll never see me without a book or a pen. If I'm not in class, I'm either in the library or in the computer lab. At the weekends, I play computer games if I'm not busy studying. My dream is to start my own IT company!"
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "必修第一册",
+    "pageStart": 15,
+    "pageEnd": 15,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "e0bf18138b24d7def28b35994a13946b",
+    "pdfSize": 14704146,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/senior-required-1.pdf#page=15",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored both complete student profiles with their identifying name, age, school and country fields; removed the instructional heading and three follow-up discussion questions."
+    }
+  }
+}

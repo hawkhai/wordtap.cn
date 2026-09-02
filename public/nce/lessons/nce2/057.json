@@ -1,0 +1,151 @@
+{
+  "schemaVersion": 1,
+  "id": "nce2-057",
+  "bookId": "nce2",
+  "bookNo": 2,
+  "lessonNo": 57,
+  "lessonRange": [
+    57
+  ],
+  "title": "Can I Help You, Madam",
+  "titleZh": "夫人，我能帮您吗？",
+  "question": "Did the woman get what she wanted?",
+  "questionZh": "那个女人得到了她想要的东西吗？",
+  "text": "Did the woman get what she wanted?\n\nA woman in jeans stood at the window of an expensive shop.\nThough she hesitated for a moment, she finally went in and asked to see a dress that was in the window.\nThe assistant who served her did not like the way she was dressed.\nGlancing at her scornfully, he told her that the dress was sold.\nThe woman walked out of the shop angrily and decided to punish the assistant next day.\nShe returned to the shop the following morning dressed in a fur coat, with a handbag in one hand and a long umbrella in the other.\nAfter seeking out the rude assistant, she asked for the same dress.\nNot realizing who she was, the assistant was eager to serve her this time.\nWith great difficulty, he climbed into the shop window to get the dress.\nAs soon as she saw it, the woman said she did not like it.\nShe enjoyed herself making the assistant bring almost everything in the window before finally buying the dress she had first asked for.",
+  "bodyText": "A woman in jeans stood at the window of an expensive shop.\nThough she hesitated for a moment, she finally went in and asked to see a dress that was in the window.\nThe assistant who served her did not like the way she was dressed.\nGlancing at her scornfully, he told her that the dress was sold.\nThe woman walked out of the shop angrily and decided to punish the assistant next day.\nShe returned to the shop the following morning dressed in a fur coat, with a handbag in one hand and a long umbrella in the other.\nAfter seeking out the rude assistant, she asked for the same dress.\nNot realizing who she was, the assistant was eager to serve her this time.\nWith great difficulty, he climbed into the shop window to get the dress.\nAs soon as she saw it, the woman said she did not like it.\nShe enjoyed herself making the assistant bring almost everything in the window before finally buying the dress she had first asked for.",
+  "bodyTextZh": "一个穿着牛仔裤的女人站在一家高档商店的窗前。\n虽然她犹豫了一会儿，她终于走进店里，要求看一看橱窗里的那件连衣裙。\n接待她的店员不喜欢她的穿着打扮。\n他轻蔑地瞥了她一眼，然后告诉她那条裙子已经卖掉了。\n那位女士怒气冲冲地走出商店，决定第二天要教训一下那个店员。\n第二天早上，她穿着一件皮草大衣回到了店里。一只手拿着手提包，另一只手拿着一把长伞。\n找到那个无礼的店员后，她又要看同一条裙子。\n由于没认出她是谁，这次店员殷勤地为她服务。\n他费了很大的劲才爬进商店的橱窗里，去拿那条裙子。\n她一看到那件衣服，就说不喜欢。\n她乐此不疲地让店员把橱窗里几乎所有的东西都拿了出来，最后才买下她最初要看的那条裙子。",
+  "sentences": [
+    {
+      "index": 0,
+      "startTime": 0.5,
+      "endTime": 3,
+      "en": "Lesson 57",
+      "zh": "第57课",
+      "role": "lesson"
+    },
+    {
+      "index": 1,
+      "startTime": 3,
+      "endTime": 10.74,
+      "en": "Can I Help You, Madam",
+      "zh": "夫人，我能帮您吗？",
+      "role": "title"
+    },
+    {
+      "index": 2,
+      "startTime": 10.74,
+      "endTime": 15.08,
+      "en": "Did the woman get what she wanted?",
+      "zh": "那个女人得到了她想要的东西吗？",
+      "role": "question"
+    },
+    {
+      "index": 3,
+      "startTime": 15.08,
+      "endTime": 20.6,
+      "en": "A woman in jeans stood at the window of an expensive shop.",
+      "zh": "一个穿着牛仔裤的女人站在一家高档商店的窗前。",
+      "role": "body"
+    },
+    {
+      "index": 4,
+      "startTime": 20.6,
+      "endTime": 30.33,
+      "en": "Though she hesitated for a moment, she finally went in and asked to see a dress that was in the window.",
+      "zh": "虽然她犹豫了一会儿，她终于走进店里，要求看一看橱窗里的那件连衣裙。",
+      "role": "body"
+    },
+    {
+      "index": 5,
+      "startTime": 30.33,
+      "endTime": 35.88,
+      "en": "The assistant who served her did not like the way she was dressed.",
+      "zh": "接待她的店员不喜欢她的穿着打扮。",
+      "role": "body"
+    },
+    {
+      "index": 6,
+      "startTime": 35.88,
+      "endTime": 41.89,
+      "en": "Glancing at her scornfully, he told her that the dress was sold.",
+      "zh": "他轻蔑地瞥了她一眼，然后告诉她那条裙子已经卖掉了。",
+      "role": "body"
+    },
+    {
+      "index": 7,
+      "startTime": 41.89,
+      "endTime": 48.85,
+      "en": "The woman walked out of the shop angrily and decided to punish the assistant next day.",
+      "zh": "那位女士怒气冲冲地走出商店，决定第二天要教训一下那个店员。",
+      "role": "body"
+    },
+    {
+      "index": 8,
+      "startTime": 48.85,
+      "endTime": 60.05,
+      "en": "She returned to the shop the following morning dressed in a fur coat, with a handbag in one hand and a long umbrella in the other.",
+      "zh": "第二天早上，她穿着一件皮草大衣回到了店里。一只手拿着手提包，另一只手拿着一把长伞。",
+      "role": "body"
+    },
+    {
+      "index": 9,
+      "startTime": 60.05,
+      "endTime": 66.2,
+      "en": "After seeking out the rude assistant, she asked for the same dress.",
+      "zh": "找到那个无礼的店员后，她又要看同一条裙子。",
+      "role": "body"
+    },
+    {
+      "index": 10,
+      "startTime": 66.2,
+      "endTime": 73.81,
+      "en": "Not realizing who she was, the assistant was eager to serve her this time.",
+      "zh": "由于没认出她是谁，这次店员殷勤地为她服务。",
+      "role": "body"
+    },
+    {
+      "index": 11,
+      "startTime": 73.81,
+      "endTime": 80.45,
+      "en": "With great difficulty, he climbed into the shop window to get the dress.",
+      "zh": "他费了很大的劲才爬进商店的橱窗里，去拿那条裙子。",
+      "role": "body"
+    },
+    {
+      "index": 12,
+      "startTime": 80.45,
+      "endTime": 86.18,
+      "en": "As soon as she saw it, the woman said she did not like it.",
+      "zh": "她一看到那件衣服，就说不喜欢。",
+      "role": "body"
+    },
+    {
+      "index": 13,
+      "startTime": 86.18,
+      "endTime": null,
+      "en": "She enjoyed herself making the assistant bring almost everything in the window before finally buying the dress she had first asked for.",
+      "zh": "她乐此不疲地让店员把橱窗里几乎所有的东西都拿了出来，最后才买下她最初要看的那条裙子。",
+      "role": "body"
+    }
+  ],
+  "audio": {
+    "fileName": "57－Can I Help You, Madam.mp3",
+    "sourcePath": "content/NCE-Flow/NCE2/57－Can I Help You, Madam.mp3",
+    "exists": true
+  },
+  "source": {
+    "repository": "NCE-Flow",
+    "lrcFileName": "57－Can I Help You, Madam.lrc",
+    "lrcPath": "content/NCE-Flow/NCE2/57－Can I Help You, Madam.lrc",
+    "sourceDataFile": "content/NCE-Flow/static/data.json",
+    "generatedAt": "2026-07-23T02:59:02+00:00",
+    "generator": "scripts/generate_nce_json.py",
+    "generatorVersion": "2.0.0",
+    "metadata": {
+      "al": "新概念英语（二）",
+      "ar": "MP3 同步字幕版（美音）",
+      "ti": "Can I Help You, Madam?",
+      "by": "更多学习内容，请到VeryCD.com搜索“露珠”"
+    }
+  }
+}

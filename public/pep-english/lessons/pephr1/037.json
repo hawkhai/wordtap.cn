@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "id": "pephr1-037",
+  "groupId": "pephr1",
+  "unitNo": 5,
+  "sequenceNo": 37,
+  "section": "Expanding Your World",
+  "title": "The Book That Keeps on Growing",
+  "jsonPath": "pep-english/lessons/pephr1/037.json",
+  "text": "It is one of the most famous books in the world; yet it has no story and no interesting characters, no exciting beginning and no satisfying ending. And yet this book keeps being printed—and it keeps growing! At its last printing, it was 20 volumes, with nearly 22,000 pages. This strangely popular book is one of the most famous dictionaries in the English-speaking world, the Oxford English Dictionary.\nThe Oxford English Dictionary, or OED for short, began in 1857 as just an idea of a group of people who thought the world needed an English-language dictionary to show the history of English words from 1150 CE to the present. It wasn't until the late 1870s, however, when James Murray joined the project that it began to grow. Murray planned for a dictionary of about 6,400 pages in four volumes, completed in 10 years.\nJames Murray (1837–1915) did most of his work in a small metal building called the Scriptorium. That small building, hot in summer and cold in winter, was the place where Murray and his assistants collected millions of pieces of paper, each one with a word and an example sentence or phrase written on it. Murray and his assistants worked hard, but after five years they had only reached the word ant!\nIt was not until 1928 that the dictionary was declared complete and published: 10 volumes with over 400,000 words and phrases. James Murray did not live to see the completion of his life's work; he passed away in 1915, over a decade before the OED came out.\nAs soon as the dictionary was published, however, the editors started to update it! In 1933, the Oxford English Dictionary was reprinted in 12 volumes. Between 1972 and 1986, four more volumes were added with new technical and scientific vocabulary and words from other English-speaking countries, such as Canada, the USA, Australia, New Zealand, and South Africa. In 1989, the entire dictionary was reprinted in 20 volumes! Three years later, all 20 volumes were put onto CD-ROM, and the entire dictionary is available online today.\nWith about 600,000 words and three million quotations from over 1,000 years of English, the OED not only is a record of where the English language has come from but has also become an important part of the history of English-speaking cultures around the world.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "It is one of the most famous books in the world; yet it has no story and no interesting characters, no exciting beginning and no satisfying ending. And yet this book keeps being printed—and it keeps growing! At its last printing, it was 20 volumes, with nearly 22,000 pages. This strangely popular book is one of the most famous dictionaries in the English-speaking world, the Oxford English Dictionary."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "The Oxford English Dictionary, or OED for short, began in 1857 as just an idea of a group of people who thought the world needed an English-language dictionary to show the history of English words from 1150 CE to the present. It wasn't until the late 1870s, however, when James Murray joined the project that it began to grow. Murray planned for a dictionary of about 6,400 pages in four volumes, completed in 10 years."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "James Murray (1837–1915) did most of his work in a small metal building called the Scriptorium. That small building, hot in summer and cold in winter, was the place where Murray and his assistants collected millions of pieces of paper, each one with a word and an example sentence or phrase written on it. Murray and his assistants worked hard, but after five years they had only reached the word ant!"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "It was not until 1928 that the dictionary was declared complete and published: 10 volumes with over 400,000 words and phrases. James Murray did not live to see the completion of his life's work; he passed away in 1915, over a decade before the OED came out."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "As soon as the dictionary was published, however, the editors started to update it! In 1933, the Oxford English Dictionary was reprinted in 12 volumes. Between 1972 and 1986, four more volumes were added with new technical and scientific vocabulary and words from other English-speaking countries, such as Canada, the USA, Australia, New Zealand, and South Africa. In 1989, the entire dictionary was reprinted in 20 volumes! Three years later, all 20 volumes were put onto CD-ROM, and the entire dictionary is available online today."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "With about 600,000 words and three million quotations from over 1,000 years of English, the OED not only is a record of where the English language has come from but has also become an important part of the history of English-speaking cultures around the world."
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "必修第一册",
+    "pageStart": 107,
+    "pageEnd": 107,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "e0bf18138b24d7def28b35994a13946b",
+    "pdfSize": 14704146,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/senior-required-1.pdf#page=107",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored the complete six-paragraph OED history, including the second paragraph's continuation around the portrait; corrected text-layer punctuation artifacts and excluded the photograph and running furniture."
+    }
+  }
+}

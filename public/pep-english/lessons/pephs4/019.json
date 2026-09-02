@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "id": "pephs4-019",
+  "groupId": "pephs4",
+  "unitNo": 5,
+  "sequenceNo": 19,
+  "section": "Using Language",
+  "title": "Kelly Xu’s CV",
+  "jsonPath": "pep-english/lessons/pephs4/019.json",
+  "text": "Kelly Xu 16 Xinhua Road Hangzhou Mobile: 1XX 6616 5555 Email: kellyxu888@exmail.cn\nRELEVANT EXPERIENCE 2019–Present Plan and teach after-school classical calligraphy classes\n• Design classroom activities, provide feedback 2018–2019 Worked during holidays at local pet shop\n• Cleaned cages, checked and changed flea collars, helped customers 2017 Visited UK on high school exchange programme\n• Experienced British culture, demonstrated Chinese culture 2016 Volunteered at local library\n• Assisted librarians in organising children’s library section Helped organise city tour for visiting students from Canada\n• Helped manage tour finances and receipts\nEDUCATION 09.2018–Present Hangzhou XXX Senior High School 09.2015–07.2018 Hangzhou XXX Junior High School\nSKILLS & QUALIFICATIONS PETS 3 English qualification Certificate in Chinese Calligraphy\nINTERESTS & ACTIVITIES Chinese calligraphy Classical literature Table tennis Amateur photography Detective novels Programming",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Kelly Xu 16 Xinhua Road Hangzhou Mobile: 1XX 6616 5555 Email: kellyxu888@exmail.cn"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "RELEVANT EXPERIENCE 2019–Present Plan and teach after-school classical calligraphy classes\n• Design classroom activities, provide feedback 2018–2019 Worked during holidays at local pet shop\n• Cleaned cages, checked and changed flea collars, helped customers 2017 Visited UK on high school exchange programme\n• Experienced British culture, demonstrated Chinese culture 2016 Volunteered at local library\n• Assisted librarians in organising children’s library section Helped organise city tour for visiting students from Canada\n• Helped manage tour finances and receipts"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "EDUCATION 09.2018–Present Hangzhou XXX Senior High School 09.2015–07.2018 Hangzhou XXX Junior High School"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "SKILLS & QUALIFICATIONS PETS 3 English qualification Certificate in Chinese Calligraphy"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "INTERESTS & ACTIVITIES Chinese calligraphy Classical literature Table tennis Amateur photography Detective novels Programming"
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "选择性必修第四册",
+    "pageStart": 64,
+    "pageEnd": 64,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "6fc94127b322f6f5abff068bef6faa2e",
+    "pdfSize": 12330614,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/senior-selective-4.pdf#page=64",
+      "reviewedAt": "2026-07-22",
+      "notes": "Recovered the complete CV in printed section order; excluded the surrounding analysis and writing instructions.",
+      "splitBaselineId": "pephs4-029",
+      "splitIndex": 3,
+      "splitCount": 3
+    }
+  }
+}

@@ -1,0 +1,200 @@
+{
+  "schemaVersion": 1,
+  "id": "nce1-067",
+  "bookId": "nce1",
+  "bookNo": 1,
+  "lessonNo": 67,
+  "lessonRange": [
+    67,
+    68
+  ],
+  "title": "The Weekend",
+  "titleZh": "周末",
+  "question": "What are the Johnsons going to do at the weekend?",
+  "questionZh": "约翰逊一家周末打算做什么？",
+  "text": "What are the Johnsons going to do at the weekend?\n\nHello. Were you at the butcher's?\nYes, I was.\nWere you at the butcher's, too?\nNo, I wasn't.\nI was at the greengrocer's.\nHow's Jimmy today?\nHe's very well, thank you.\nWas he absent from school last week?\nYes, he was.\nHe was absent on Monday, Tuesday, Wednesday and Thursday.\nHow are you all keeping?\nVery well, thank you.\nWe're going to spend three days in the country!\nWe're going to stay at my mother's for the weekend.\nFriday, Saturday and Sunday in the country!\nAren't you lucky!",
+  "bodyText": "Hello. Were you at the butcher's?\nYes, I was.\nWere you at the butcher's, too?\nNo, I wasn't.\nI was at the greengrocer's.\nHow's Jimmy today?\nHe's very well, thank you.\nWas he absent from school last week?\nYes, he was.\nHe was absent on Monday, Tuesday, Wednesday and Thursday.\nHow are you all keeping?\nVery well, thank you.\nWe're going to spend three days in the country!\nWe're going to stay at my mother's for the weekend.\nFriday, Saturday and Sunday in the country!\nAren't you lucky!",
+  "bodyTextZh": "你好。你去过肉店吗？\n是的，我去了。\n你也去肉店了吗？\n没有，我没去。\n没有，我去的是蔬菜店。\n吉米今天怎么样？\n他很好，谢谢。\n他上周缺课了吗？\n是的，他缺课了。\n他周一、周二、周三和周四都缺席了。\n大家最近怎么样？过得还好吗？\n好的，谢谢您。\n我们打算在乡下待三天！\n我们这个周末将住在妈妈家。\n周五、周六和周日都在乡下！\n你真幸运啊！",
+  "sentences": [
+    {
+      "index": 0,
+      "startTime": 0.73,
+      "endTime": 3.32,
+      "en": "Lesson 67",
+      "zh": "第67课",
+      "role": "lesson"
+    },
+    {
+      "index": 1,
+      "startTime": 3.32,
+      "endTime": 5.44,
+      "en": "The weekend",
+      "zh": "周末",
+      "role": "title"
+    },
+    {
+      "index": 2,
+      "startTime": 5.44,
+      "endTime": 10.87,
+      "en": "Listen to the tape then answer this question.",
+      "zh": "先听录音，然后回答这个问题：",
+      "role": "prompt"
+    },
+    {
+      "index": 3,
+      "startTime": 10.87,
+      "endTime": 17.79,
+      "en": "What are the Johnsons going to do at the weekend?",
+      "zh": "约翰逊一家周末打算做什么？",
+      "role": "question"
+    },
+    {
+      "index": 4,
+      "startTime": 17.79,
+      "endTime": 21.9,
+      "en": "Hello. Were you at the butcher's?",
+      "zh": "你好。你去过肉店吗？",
+      "role": "body"
+    },
+    {
+      "index": 5,
+      "startTime": 21.9,
+      "endTime": 23.89,
+      "en": "Yes, I was.",
+      "zh": "是的，我去了。",
+      "role": "body"
+    },
+    {
+      "index": 6,
+      "startTime": 23.89,
+      "endTime": 27.41,
+      "en": "Were you at the butcher's, too?",
+      "zh": "你也去肉店了吗？",
+      "role": "body"
+    },
+    {
+      "index": 7,
+      "startTime": 27.41,
+      "endTime": 30.53,
+      "en": "No, I wasn't.",
+      "zh": "没有，我没去。",
+      "role": "body"
+    },
+    {
+      "index": 8,
+      "startTime": 30.53,
+      "endTime": 34.29,
+      "en": "I was at the greengrocer's.",
+      "zh": "没有，我去的是蔬菜店。",
+      "role": "body"
+    },
+    {
+      "index": 9,
+      "startTime": 34.29,
+      "endTime": 37.18,
+      "en": "How's Jimmy today?",
+      "zh": "吉米今天怎么样？",
+      "role": "body"
+    },
+    {
+      "index": 10,
+      "startTime": 37.18,
+      "endTime": 41.17,
+      "en": "He's very well, thank you.",
+      "zh": "他很好，谢谢。",
+      "role": "body"
+    },
+    {
+      "index": 11,
+      "startTime": 41.17,
+      "endTime": 45.77,
+      "en": "Was he absent from school last week?",
+      "zh": "他上周缺课了吗？",
+      "role": "body"
+    },
+    {
+      "index": 12,
+      "startTime": 45.77,
+      "endTime": 48.28,
+      "en": "Yes, he was.",
+      "zh": "是的，他缺课了。",
+      "role": "body"
+    },
+    {
+      "index": 13,
+      "startTime": 48.28,
+      "endTime": 55.93,
+      "en": "He was absent on Monday, Tuesday, Wednesday and Thursday.",
+      "zh": "他周一、周二、周三和周四都缺席了。",
+      "role": "body"
+    },
+    {
+      "index": 14,
+      "startTime": 55.93,
+      "endTime": 59.58,
+      "en": "How are you all keeping?",
+      "zh": "大家最近怎么样？过得还好吗？",
+      "role": "body"
+    },
+    {
+      "index": 15,
+      "startTime": 59.58,
+      "endTime": 62.4,
+      "en": "Very well, thank you.",
+      "zh": "好的，谢谢您。",
+      "role": "body"
+    },
+    {
+      "index": 16,
+      "startTime": 62.4,
+      "endTime": 67.49,
+      "en": "We're going to spend three days in the country!",
+      "zh": "我们打算在乡下待三天！",
+      "role": "body"
+    },
+    {
+      "index": 17,
+      "startTime": 67.49,
+      "endTime": 73.43,
+      "en": "We're going to stay at my mother's for the weekend.",
+      "zh": "我们这个周末将住在妈妈家。",
+      "role": "body"
+    },
+    {
+      "index": 18,
+      "startTime": 73.43,
+      "endTime": 78.99,
+      "en": "Friday, Saturday and Sunday in the country!",
+      "zh": "周五、周六和周日都在乡下！",
+      "role": "body"
+    },
+    {
+      "index": 19,
+      "startTime": 78.99,
+      "endTime": null,
+      "en": "Aren't you lucky!",
+      "zh": "你真幸运啊！",
+      "role": "body"
+    }
+  ],
+  "audio": {
+    "fileName": "067&068－The Weekend.mp3",
+    "sourcePath": "content/NCE-Flow/NCE1/067&068－The Weekend.mp3",
+    "exists": true
+  },
+  "source": {
+    "repository": "NCE-Flow",
+    "lrcFileName": "067&068－The Weekend.lrc",
+    "lrcPath": "content/NCE-Flow/NCE1/067&068－The Weekend.lrc",
+    "sourceDataFile": "content/NCE-Flow/static/data.json",
+    "generatedAt": "2026-07-23T02:59:02+00:00",
+    "generator": "scripts/generate_nce_json.py",
+    "generatorVersion": "2.0.0",
+    "metadata": {
+      "al": "新概念英语（一）",
+      "ar": "MP3 同步字幕版（美音）",
+      "ti": "The Weekend",
+      "by": "更多学习内容，请到VeryCD.com搜索“露珠”"
+    }
+  }
+}

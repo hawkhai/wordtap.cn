@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 2,
+  "id": "rw4-u01-c",
+  "sequenceNo": 57,
+  "groupId": "rw4",
+  "unitNo": 1,
+  "unitTitle": "Urban development",
+  "section": "C",
+  "articleType": "stories-of-china",
+  "title": "Limited space, unlimited growth",
+  "printedPageStart": 27,
+  "printedPageEnd": 28,
+  "jsonPath": "college-english/lessons/rw4/rw4-u01-c.json",
+  "characterCount": 2564,
+  "text": "As a famous Chinese saying goes, “Up in heaven, there is paradise; down on earth, there are Suzhou and Hangzhou.” Hangzhou, capital of east China’s Zhejiang Province, is well-known for its beautiful scenery and abundant natural resources. During the past decades of reform and opening up, Hangzhou achieved prosperity through industrialization.\nToday, with the boom in information technology, Hangzhou has grown into a paradise for innovation and entrepreneurship, especially in the emerging Internet Plus industries. As reform and opening up entered a new phase, Hangzhou seized the opportunity to develop its digital economy, and its efforts have paid off. Today, it is known as “the capital of e-commerce”.\nIn this digital city, residents can pay for their commute, access medical services, place an order, get a receipt, and do many other things by simply scanning barcodes (条形码) or QR codes with their phones.\nThe city’s infrastructure has also been upgraded to promote the emerging digital economy. Big blocks of high-rise buildings now stand near the northern bank of the Qiantang River. This area used to be villages. Early this century, tall stylish buildings began to spring up here, creating a new “digital forest” in Shangcheng District (上城区).\nShangcheng District not only supports the development of its hi-tech industries but also applies digital technology to urban management to achieve “all-weather, wide-coverage, and high-efficiency” intelligent management. Compared with traditional urban management, intelligent urban management is more convenient and more humane.\nThere are many examples of this. In the past, if a manhole cover (窨井盖) was displaced or lost, it was usually unknown and could result in people falling in or cars getting their wheels caught. Today, intelligent equipment has been installed on manhole covers to trigger an alarm if they are being moved away. The devices have been installed on all the 4,000-plus manhole covers and the government has the copyright to the software.\nSome elderly people live on their own as their children have grown up and are employed elsewhere. Shangcheng District has launched smart homecare projects for these people. The intelligent care system for the elderly makes it easy for the aged to call for help in an emergency and ask for housekeeping services.\nAs was said by a government official of Hangzhou, “In the past, people regarded the Internet merely as a tool, but now they find it to be a resource, too. By using the Internet, we can achieve unlimited growth even in a limited space.”",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "As a famous Chinese saying goes, “Up in heaven, there is paradise; down on earth, there are Suzhou and Hangzhou.” Hangzhou, capital of east China’s Zhejiang Province, is well-known for its beautiful scenery and abundant natural resources. During the past decades of reform and opening up, Hangzhou achieved prosperity through industrialization."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Today, with the boom in information technology, Hangzhou has grown into a paradise for innovation and entrepreneurship, especially in the emerging Internet Plus industries. As reform and opening up entered a new phase, Hangzhou seized the opportunity to develop its digital economy, and its efforts have paid off. Today, it is known as “the capital of e-commerce”."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "In this digital city, residents can pay for their commute, access medical services, place an order, get a receipt, and do many other things by simply scanning barcodes (条形码) or QR codes with their phones."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "The city’s infrastructure has also been upgraded to promote the emerging digital economy. Big blocks of high-rise buildings now stand near the northern bank of the Qiantang River. This area used to be villages. Early this century, tall stylish buildings began to spring up here, creating a new “digital forest” in Shangcheng District (上城区)."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Shangcheng District not only supports the development of its hi-tech industries but also applies digital technology to urban management to achieve “all-weather, wide-coverage, and high-efficiency” intelligent management. Compared with traditional urban management, intelligent urban management is more convenient and more humane."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "There are many examples of this. In the past, if a manhole cover (窨井盖) was displaced or lost, it was usually unknown and could result in people falling in or cars getting their wheels caught. Today, intelligent equipment has been installed on manhole covers to trigger an alarm if they are being moved away. The devices have been installed on all the 4,000-plus manhole covers and the government has the copyright to the software."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Some elderly people live on their own as their children have grown up and are employed elsewhere. Shangcheng District has launched smart homecare projects for these people. The intelligent care system for the elderly makes it easy for the aged to call for help in an emergency and ask for housekeeping services."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "As was said by a government official of Hangzhou, “In the past, people regarded the Internet merely as a tool, but now they find it to be a resource, too. By using the Internet, we can achieve unlimited growth even in a limited space.”"
+    }
+  ],
+  "source": {
+    "series": "新视野大学英语（第四版）",
+    "book": "读写教程 4",
+    "sourceBook": "NHCE4-RW4",
+    "printedPageStart": 27,
+    "printedPageEnd": 28,
+    "pdfPageStart": 42,
+    "pdfPageEnd": 43,
+    "pdfSha256": "5b70c28492928eefbb43a4832275c6fff070e12c7b70455ae03dc64bfa7a0a53",
+    "ocrFiles": [
+      "tools/College-English/NHCE4-RW4/ocr/json/NHCE4-RW4_42.json",
+      "tools/College-English/NHCE4-RW4/ocr/json/NHCE4-RW4_43.json"
+    ]
+  },
+  "manualReview": {
+    "status": "passed",
+    "reviewer": "Codex",
+    "reviewedAt": "2026-07-30T18:19:47Z",
+    "correctionCount": 4,
+    "evidence": "Original PDF/images 42-43; reviewed-articles/rw4-u01-c.json; full visual reread completed",
+    "textSha256": "6251d2343715c33467734fe8c6d58c1fe0b90348771742a2340168a5cbd0aff9",
+    "eventSha256": "a21f578376c9d8f6fe679c359f427b8cddd17c42a7558f6a7e75e57bdec7d8d7"
+  }
+}

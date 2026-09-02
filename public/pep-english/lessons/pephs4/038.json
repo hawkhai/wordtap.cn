@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "id": "pephs4-038",
+  "groupId": "pephs4",
+  "unitNo": 3,
+  "sequenceNo": 38,
+  "section": "Expanding Your World",
+  "title": "On the Seashore",
+  "jsonPath": "pep-english/lessons/pephs4/038.json",
+  "text": "On the seashore of endless worlds children meet.\nThe infinite sky is motionless overhead And the restless water is boisterous.\nOn the seashore of endless worlds The children meet with shouts and dances.\nThey build their houses with sand, And they play with empty shells.\nWith withered leaves they weave Their boats and smilingly float them On the vast deep.\nChildren have their play on the Seashore of worlds.\nThey know not how to swim, They know not how to cast nets.\nPearl-fishers dive for pearls, Merchants sail in their ships, While children gather pebbles And scatter them again.\nThey seek not for hidden treasures, They know not how to cast nets.\nThe sea surges up with laughter, And pale gleams the smile of the sea-beach.\nDeath-dealing waves sing Meaningless ballads to the children, Even like a mother while rocking her baby’s cradle.\nThe sea plays with children, And pale gleams the smile of the sea-beach.\nOn the seashore of endless worlds children meet.\nTempest roams in the pathless sky, Ships are wrecked in the trackless water, Death is abroad and children play.\nOn the seashore of endless worlds is the Great meeting of children.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "On the seashore of endless worlds children meet.\nThe infinite sky is motionless overhead And the restless water is boisterous.\nOn the seashore of endless worlds The children meet with shouts and dances."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "They build their houses with sand, And they play with empty shells.\nWith withered leaves they weave Their boats and smilingly float them On the vast deep.\nChildren have their play on the Seashore of worlds."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "They know not how to swim, They know not how to cast nets.\nPearl-fishers dive for pearls, Merchants sail in their ships, While children gather pebbles And scatter them again.\nThey seek not for hidden treasures, They know not how to cast nets."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "The sea surges up with laughter, And pale gleams the smile of the sea-beach.\nDeath-dealing waves sing Meaningless ballads to the children, Even like a mother while rocking her baby’s cradle.\nThe sea plays with children, And pale gleams the smile of the sea-beach."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "On the seashore of endless worlds children meet.\nTempest roams in the pathless sky, Ships are wrecked in the trackless water, Death is abroad and children play.\nOn the seashore of endless worlds is the Great meeting of children."
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "选择性必修第四册",
+    "pageStart": 88,
+    "pageEnd": 88,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "6fc94127b322f6f5abff068bef6faa2e",
+    "pdfSize": 12330614,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/senior-selective-4.pdf#page=88",
+      "reviewedAt": "2026-07-22",
+      "notes": "Recovered all five printed stanzas of Rabindranath Tagore’s complete poem from the adjacent page, preserving lineation.",
+      "splitBaselineId": "pephs4-043",
+      "splitIndex": 3,
+      "splitCount": 3
+    }
+  }
+}

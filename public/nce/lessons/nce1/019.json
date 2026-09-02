@@ -1,0 +1,184 @@
+{
+  "schemaVersion": 1,
+  "id": "nce1-019",
+  "bookId": "nce1",
+  "bookNo": 1,
+  "lessonNo": 19,
+  "lessonRange": [
+    19,
+    20
+  ],
+  "title": "Tired and Thirsty",
+  "titleZh": "又累又渴",
+  "question": "Why do the children thank their mother?",
+  "questionZh": "为什么孩子们要感谢他们的母亲呢？",
+  "text": "Why do the children thank their mother?\n\nWhat's the matter children?\nWe're tired...\n... and thirsty Mum.\nSit down here.\nAre you all right now?\nNo we aren't.\nLook!\nThere's an ice cream man.\nTwo ice creams, please.\nHere you are children.\nThanks Mum.\nThese ice creams are nice.\nAre you all right now?\nYes we are thank you!",
+  "bodyText": "What's the matter children?\nWe're tired ...\n... and thirsty  Mum.\nSit down here.\nAre you all right now?\nNo we aren't.\nLook!\nThere's an ice cream man.\nTwo ice creams, please.\nHere you are children.\nThanks Mum.\nThese ice creams are nice.\nAre you all right now?\nYes we are thank you!",
+  "bodyTextZh": "孩子们，怎么了？\n我们累了……\n……而且渴了，妈妈。\n请坐在这里。\n现在好点了吗？\n不，不好。\n看！\n有一个卖冰淇淋的叔叔。\n请来两份冰淇淋。\n孩子们，给你们。\n谢谢妈妈。\n这些冰淇淋很好吃。\n现在好点了吗？\n是的，我们很好，谢谢！",
+  "sentences": [
+    {
+      "index": 0,
+      "startTime": 0.65,
+      "endTime": 2.86,
+      "en": "Lesson 19",
+      "zh": "第19课",
+      "role": "lesson"
+    },
+    {
+      "index": 1,
+      "startTime": 2.86,
+      "endTime": 6.24,
+      "en": "Tired and thirsty",
+      "zh": "又累又渴",
+      "role": "title"
+    },
+    {
+      "index": 2,
+      "startTime": 6.24,
+      "endTime": 12.28,
+      "en": "Listen to the tape then answer this question.",
+      "zh": "先听这段录音，然后再回答这个问题。",
+      "role": "prompt"
+    },
+    {
+      "index": 3,
+      "startTime": 12.28,
+      "endTime": 17.95,
+      "en": "Why do the children thank their mother?",
+      "zh": "为什么孩子们要感谢他们的母亲呢？",
+      "role": "question"
+    },
+    {
+      "index": 4,
+      "startTime": 17.95,
+      "endTime": 20.85,
+      "en": "What's the matter children?",
+      "zh": "孩子们，怎么了？",
+      "role": "body"
+    },
+    {
+      "index": 5,
+      "startTime": 20.85,
+      "endTime": 22.71,
+      "en": "We're tired ...",
+      "zh": "我们累了……",
+      "role": "body"
+    },
+    {
+      "index": 6,
+      "startTime": 22.71,
+      "endTime": 25.26,
+      "en": "... and thirsty  Mum.",
+      "zh": "……而且渴了，妈妈。",
+      "role": "body"
+    },
+    {
+      "index": 7,
+      "startTime": 25.26,
+      "endTime": 27.82,
+      "en": "Sit down here.",
+      "zh": "请坐在这里。",
+      "role": "body"
+    },
+    {
+      "index": 8,
+      "startTime": 27.82,
+      "endTime": 30.11,
+      "en": "Are you all right now?",
+      "zh": "现在好点了吗？",
+      "role": "body"
+    },
+    {
+      "index": 9,
+      "startTime": 30.11,
+      "endTime": 32.52,
+      "en": "No we aren't.",
+      "zh": "不，不好。",
+      "role": "body"
+    },
+    {
+      "index": 10,
+      "startTime": 32.52,
+      "endTime": 33.61,
+      "en": "Look!",
+      "zh": "看！",
+      "role": "body"
+    },
+    {
+      "index": 11,
+      "startTime": 33.61,
+      "endTime": 36.94,
+      "en": "There's an ice cream man.",
+      "zh": "有一个卖冰淇淋的叔叔。",
+      "role": "body"
+    },
+    {
+      "index": 12,
+      "startTime": 36.94,
+      "endTime": 40.68,
+      "en": "Two ice creams, please.",
+      "zh": "请来两份冰淇淋。",
+      "role": "body"
+    },
+    {
+      "index": 13,
+      "startTime": 40.68,
+      "endTime": 43.66,
+      "en": "Here you are children.",
+      "zh": "孩子们，给你们。",
+      "role": "body"
+    },
+    {
+      "index": 14,
+      "startTime": 43.66,
+      "endTime": 46.09,
+      "en": "Thanks Mum.",
+      "zh": "谢谢妈妈。",
+      "role": "body"
+    },
+    {
+      "index": 15,
+      "startTime": 46.09,
+      "endTime": 49.82,
+      "en": "These ice creams are nice.",
+      "zh": "这些冰淇淋很好吃。",
+      "role": "body"
+    },
+    {
+      "index": 16,
+      "startTime": 49.82,
+      "endTime": 52.89,
+      "en": "Are you all right now?",
+      "zh": "现在好点了吗？",
+      "role": "body"
+    },
+    {
+      "index": 17,
+      "startTime": 52.89,
+      "endTime": null,
+      "en": "Yes we are thank you!",
+      "zh": "是的，我们很好，谢谢！",
+      "role": "body"
+    }
+  ],
+  "audio": {
+    "fileName": "019&020－Tired and Thirsty.mp3",
+    "sourcePath": "content/NCE-Flow/NCE1/019&020－Tired and Thirsty.mp3",
+    "exists": true
+  },
+  "source": {
+    "repository": "NCE-Flow",
+    "lrcFileName": "019&020－Tired and Thirsty.lrc",
+    "lrcPath": "content/NCE-Flow/NCE1/019&020－Tired and Thirsty.lrc",
+    "sourceDataFile": "content/NCE-Flow/static/data.json",
+    "generatedAt": "2026-07-23T02:59:02+00:00",
+    "generator": "scripts/generate_nce_json.py",
+    "generatorVersion": "2.0.0",
+    "metadata": {
+      "al": "新概念英语（一）",
+      "ar": "MP3 同步字幕版（美音）",
+      "ti": "Tired and Thirsty",
+      "by": "更多学习内容，请到VeryCD.com搜索“露珠”"
+    }
+  }
+}

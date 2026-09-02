@@ -1,0 +1,192 @@
+{
+  "schemaVersion": 1,
+  "id": "nce1-035",
+  "bookId": "nce1",
+  "bookNo": 1,
+  "lessonNo": 35,
+  "lessonRange": [
+    35,
+    36
+  ],
+  "title": "Our Village",
+  "titleZh": "我们的村庄",
+  "question": "Are the children coming out of the park or going into it?",
+  "questionZh": "孩子们是从公园里出来，还是正要进入公园呢？",
+  "text": "Are the children coming out of the park or going into it?\n\nThis is a photograph of our village.\nOur village is in a valley.\nIt is between two hills.\nThe village is on a river.\nHere is another photograph of the village.\nMy wife and I are walking along the banks of the river.\nWe are on the left.\nThere is a boy in the water.\nHe is swimming across the river.\nHere is another photograph.\nThis is the school building.\nIt is beside a park.\nThe park is on the right.\nSome children are coming out of the building.\nSome of them are going into the park.",
+  "bodyText": "This is a photograph of our village.\nOur village is in a valley.\nIt is between two hills.\nThe village is on a river.\nHere is another photograph of the village.\nMy wife and I are walking along the banks of the river.\nWe are on the left.\nThere is a boy in the water.\nHe is swimming across the river.\nHere is another photograph.\nThis is the school building.\nIt is beside a park.\nThe park is on the right.\nSome children are coming out of the building.\nSome of them are going into the park.",
+  "bodyTextZh": "这是一张我们村庄的照片。\n我们的村庄在一个山谷里。\n它在两座小山之间。\n这个村庄在一条河边。\n这是另一张村庄的照片。\n我和我的妻子正在河边散步。\n我们在左边。\n水里有一个男孩。\n他正在游过这条河。\n这是另一张照片。\n这是学校大楼。\n它在一个公园旁边。\n公园在右边。\n一些孩子正从大楼里走出来。\n其中一些人正前往公园。",
+  "sentences": [
+    {
+      "index": 0,
+      "startTime": 0.68,
+      "endTime": 3.21,
+      "en": "Lesson 35",
+      "zh": "第35课",
+      "role": "lesson"
+    },
+    {
+      "index": 1,
+      "startTime": 3.21,
+      "endTime": 6.06,
+      "en": "Our village",
+      "zh": "我们的村庄",
+      "role": "title"
+    },
+    {
+      "index": 2,
+      "startTime": 6.06,
+      "endTime": 11.74,
+      "en": "Listen to the tape then answer this question.",
+      "zh": "先听这段录音，然后再回答这个问题。",
+      "role": "prompt"
+    },
+    {
+      "index": 3,
+      "startTime": 11.74,
+      "endTime": 18.97,
+      "en": "Are the children coming out of the park or going into it?",
+      "zh": "孩子们是从公园里出来，还是正要进入公园呢？",
+      "role": "question"
+    },
+    {
+      "index": 4,
+      "startTime": 18.97,
+      "endTime": 23.5,
+      "en": "This is a photograph of our village.",
+      "zh": "这是一张我们村庄的照片。",
+      "role": "body"
+    },
+    {
+      "index": 5,
+      "startTime": 23.5,
+      "endTime": 26.89,
+      "en": "Our village is in a valley.",
+      "zh": "我们的村庄在一个山谷里。",
+      "role": "body"
+    },
+    {
+      "index": 6,
+      "startTime": 26.89,
+      "endTime": 30.24,
+      "en": "It is between two hills.",
+      "zh": "它在两座小山之间。",
+      "role": "body"
+    },
+    {
+      "index": 7,
+      "startTime": 30.24,
+      "endTime": 34.69,
+      "en": "The village is on a river.",
+      "zh": "这个村庄在一条河边。",
+      "role": "body"
+    },
+    {
+      "index": 8,
+      "startTime": 34.69,
+      "endTime": 39.62,
+      "en": "Here is another photograph of the village.",
+      "zh": "这是另一张村庄的照片。",
+      "role": "body"
+    },
+    {
+      "index": 9,
+      "startTime": 39.62,
+      "endTime": 46.39,
+      "en": "My wife and I are walking along the banks of the river.",
+      "zh": "我和我的妻子正在河边散步。",
+      "role": "body"
+    },
+    {
+      "index": 10,
+      "startTime": 46.39,
+      "endTime": 49.59,
+      "en": "We are on the left.",
+      "zh": "我们在左边。",
+      "role": "body"
+    },
+    {
+      "index": 11,
+      "startTime": 49.59,
+      "endTime": 52.93,
+      "en": "There is a boy in the water.",
+      "zh": "水里有一个男孩。",
+      "role": "body"
+    },
+    {
+      "index": 12,
+      "startTime": 52.93,
+      "endTime": 58.26,
+      "en": "He is swimming across the river.",
+      "zh": "他正在游过这条河。",
+      "role": "body"
+    },
+    {
+      "index": 13,
+      "startTime": 58.26,
+      "endTime": 61.76,
+      "en": "Here is another photograph.",
+      "zh": "这是另一张照片。",
+      "role": "body"
+    },
+    {
+      "index": 14,
+      "startTime": 61.76,
+      "endTime": 64.76,
+      "en": "This is the school building.",
+      "zh": "这是学校大楼。",
+      "role": "body"
+    },
+    {
+      "index": 15,
+      "startTime": 64.76,
+      "endTime": 68.09,
+      "en": "It is beside a park.",
+      "zh": "它在一个公园旁边。",
+      "role": "body"
+    },
+    {
+      "index": 16,
+      "startTime": 68.09,
+      "endTime": 71.52,
+      "en": "The park is on the right.",
+      "zh": "公园在右边。",
+      "role": "body"
+    },
+    {
+      "index": 17,
+      "startTime": 71.52,
+      "endTime": 75.99,
+      "en": "Some children are coming out of the building.",
+      "zh": "一些孩子正从大楼里走出来。",
+      "role": "body"
+    },
+    {
+      "index": 18,
+      "startTime": 75.99,
+      "endTime": null,
+      "en": "Some of them are going into the park.",
+      "zh": "其中一些人正前往公园。",
+      "role": "body"
+    }
+  ],
+  "audio": {
+    "fileName": "035&036－Our Village.mp3",
+    "sourcePath": "content/NCE-Flow/NCE1/035&036－Our Village.mp3",
+    "exists": true
+  },
+  "source": {
+    "repository": "NCE-Flow",
+    "lrcFileName": "035&036－Our Village.lrc",
+    "lrcPath": "content/NCE-Flow/NCE1/035&036－Our Village.lrc",
+    "sourceDataFile": "content/NCE-Flow/static/data.json",
+    "generatedAt": "2026-07-23T02:59:02+00:00",
+    "generator": "scripts/generate_nce_json.py",
+    "generatorVersion": "2.0.0",
+    "metadata": {
+      "al": "新概念英语（一）",
+      "ar": "MP3 同步字幕版（美音）",
+      "ti": "Our Village",
+      "by": "更多学习内容，请到VeryCD.com搜索“露珠”"
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "id": "pephr1-036",
+  "groupId": "pephr1",
+  "unitNo": 5,
+  "sequenceNo": 36,
+  "section": "Reading",
+  "title": "Polyglots: What Are They and Who Can Be One?",
+  "jsonPath": "pep-english/lessons/pephr1/036.json",
+  "text": "Some polyglots, who can speak quite a few languages, may seem especially talented. Zhao Yuanren, a Chinese American linguist, could speak seven languages and more than 30 dialects. England's Queen Elizabeth I could speak about 10 languages. A famous Italian named Giuseppe Mezzofanti was reported to have been able to communicate in 30 to 40 languages. Polyglots are indeed amazing, but American teenager Tim Doner is living proof that anyone can try to be one.\nAs a child, Tim studied French and Latin at school, but he found it difficult to be interested in just words and grammar rules. When he was 13, Tim started listening to Hebrew rap music. One day, he looked up the words in a dictionary and realised he could put them together to make sentences! He started looking for people who spoke Hebrew so he could practise, and then, he decided to sign up for a summer Arabic class. One evening, just for fun, he posted a video of himself speaking Arabic and another of him speaking Hebrew. Hebrew and Arabic speakers wrote nice comments on his videos and gave him advice. Tim loved it. He could actually communicate with people! After that, Tim started looking for new languages to learn, and posting more videos of himself speaking new languages, including Chinese. Tim also began to use many other methods to make learning fun.\nTim wishes everyone would learn more than one language and not just as a school subject. “Knowing a language is a lot more than knowing a couple of words out of a dictionary,” Tim says. Languages are for communicating with people, learning about their culture, and understanding how different people think. “Open up your mind to the fact that language represents a cultural world view,” says Tim. “You can translate words easily, but you can't quite translate meaning.” Or, as Nelson Mandela said, “If you talk to a man in a language he understands, that goes to his head. If you talk to him in his language, that goes to his heart.”",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Some polyglots, who can speak quite a few languages, may seem especially talented. Zhao Yuanren, a Chinese American linguist, could speak seven languages and more than 30 dialects. England's Queen Elizabeth I could speak about 10 languages. A famous Italian named Giuseppe Mezzofanti was reported to have been able to communicate in 30 to 40 languages. Polyglots are indeed amazing, but American teenager Tim Doner is living proof that anyone can try to be one."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "As a child, Tim studied French and Latin at school, but he found it difficult to be interested in just words and grammar rules. When he was 13, Tim started listening to Hebrew rap music. One day, he looked up the words in a dictionary and realised he could put them together to make sentences! He started looking for people who spoke Hebrew so he could practise, and then, he decided to sign up for a summer Arabic class. One evening, just for fun, he posted a video of himself speaking Arabic and another of him speaking Hebrew. Hebrew and Arabic speakers wrote nice comments on his videos and gave him advice. Tim loved it. He could actually communicate with people! After that, Tim started looking for new languages to learn, and posting more videos of himself speaking new languages, including Chinese. Tim also began to use many other methods to make learning fun."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Tim wishes everyone would learn more than one language and not just as a school subject. “Knowing a language is a lot more than knowing a couple of words out of a dictionary,” Tim says. Languages are for communicating with people, learning about their culture, and understanding how different people think. “Open up your mind to the fact that language represents a cultural world view,” says Tim. “You can translate words easily, but you can't quite translate meaning.” Or, as Nelson Mandela said, “If you talk to a man in a language he understands, that goes to his head. If you talk to him in his language, that goes to his heart.”"
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "必修第一册",
+    "pageStart": 105,
+    "pageEnd": 105,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "e0bf18138b24d7def28b35994a13946b",
+    "pdfSize": 14704146,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/senior-required-1.pdf#page=105",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored the complete three-paragraph polyglot feature under its printed title and subtitle; excluded the lead-in, comprehension tasks and portraits."
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "pephs3-013",
+  "groupId": "pephs3",
+  "unitNo": 5,
+  "sequenceNo": 13,
+  "section": "Pronunciation",
+  "title": "Night (William Blake)",
+  "jsonPath": "pep-english/lessons/pephs3/013.json",
+  "text": "The sun descending in the west, The evening star does shine;\nThe birds are silent in their nest, And I must seek for mine.\nThe moon, like a flower, In heaven’s high bower, With silent delight, Sits and smiles on the night.\nFarewell, green fields and happy groves, Where flocks have took delight.\nWhere lambs have nibbled, silent moves The feet of angels bright;\nUnseen, they pour blessing, And joy without ceasing, On each bud and blossom, And each sleeping bosom.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "The sun descending in the west, The evening star does shine;\nThe birds are silent in their nest, And I must seek for mine.\nThe moon, like a flower, In heaven’s high bower, With silent delight, Sits and smiles on the night.\nFarewell, green fields and happy groves, Where flocks have took delight.\nWhere lambs have nibbled, silent moves The feet of angels bright;\nUnseen, they pour blessing, And joy without ceasing, On each bud and blossom, And each sleeping bosom."
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "选择性必修第三册",
+    "pageStart": 62,
+    "pageEnd": 62,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "f0dc33129a755a33421d401b71a05cd1",
+    "pdfSize": 12684455,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/senior-selective-3.pdf#page=62",
+      "reviewedAt": "2026-07-22",
+      "notes": "Recovered the second complete pronunciation poem missed by the baseline scan; preserved both stanzas, punctuation and lineation, with the author retained in title metadata.",
+      "splitBaselineId": "pephs3-025",
+      "splitIndex": 2,
+      "splitCount": 5
+    }
+  }
+}

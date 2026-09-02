@@ -1,0 +1,232 @@
+{
+  "schemaVersion": 1,
+  "id": "nce1-125",
+  "bookId": "nce1",
+  "bookNo": 1,
+  "lessonNo": 125,
+  "lessonRange": [
+    125,
+    126
+  ],
+  "title": "Tea for Two",
+  "titleZh": "“Tea for two” 的意思是“为两个人准备的茶”。",
+  "question": "Does Susan have tea by herself?",
+  "questionZh": "彼得，你现在不能进来喝杯茶吗？",
+  "text": "Does Susan have tea by herself?\n\nCan't you come in and have tea now, Peter?\nNot yet.\nI must water the garden first.\nDo you have to water it now?\nI'm afraid I must.\nLook at it!\nIt's terribly dry.\nWhat a nuisance!\nLast summer it was very dry, too.\nDon't you remember?\nI had to water it every day.\nWell, I'll have tea by myself.\nThat was quick!\nHave you finished already?\nYes.\nLook out of the window.\nIt's raining!\nThat means you don't need to water the garden.\nThat was a pleasant surprise.\nIt means I can have tea, instead.",
+  "bodyText": "Can't you come in and have tea now, Peter?\nNot yet.\nI must water the garden first.\nDo you have to water it now?\nI'm afraid I must.\nLook at it!\nIt's terribly dry.\nWhat a nuisance!\nLast summer it was very dry, too.\nDon't you remember?\nI had to water it every day.\nWell, I'll have tea by myself.\nThat was quick!\nHave you finished already?\nYes.\nLook out of the window.\nIt's raining!\nThat means you don't need to water the garden.\nThat was a pleasant surprise.\nIt means I can have tea, instead.",
+  "bodyTextZh": "彼得，你现在就不能进来喝杯茶吗？\n还没有。\n我必须先给花园浇水。\n现在需要给它浇水吗？\n恐怕我必须这么做。\n看啊！\n它干得厉害。\n真烦人！\n去年夏天也非常干燥。\n你不记得了吗？\n我每天都必须给它浇水。\n好吧，我就自己喝杯茶吧。\n真快啊！\n你已经完成了吗？\n是的。\n往窗外看。\n下雨了！\n这意味着你不需要给花园浇水了。\n这真是个令人愉快的惊喜。\n那我可以喝茶了。",
+  "sentences": [
+    {
+      "index": 0,
+      "startTime": 0.51,
+      "endTime": 3.46,
+      "en": "Lesson 125",
+      "zh": "第125课",
+      "role": "lesson"
+    },
+    {
+      "index": 1,
+      "startTime": 3.46,
+      "endTime": 6.26,
+      "en": "Tea for two",
+      "zh": "“Tea for two” 的意思是“为两个人准备的茶”。",
+      "role": "title"
+    },
+    {
+      "index": 2,
+      "startTime": 6.26,
+      "endTime": 11.22,
+      "en": "Listen to the tape then answer this question.",
+      "zh": "先听这段录音，然后再回答这个问题。",
+      "role": "prompt"
+    },
+    {
+      "index": 3,
+      "startTime": 11.22,
+      "endTime": 16.47,
+      "en": "Does Susan have tea by herself?",
+      "zh": "彼得，你现在不能进来喝杯茶吗？",
+      "role": "question"
+    },
+    {
+      "index": 4,
+      "startTime": 16.47,
+      "endTime": 20.97,
+      "en": "Can't you come in and have tea now, Peter?",
+      "zh": "彼得，你现在就不能进来喝杯茶吗？",
+      "role": "body"
+    },
+    {
+      "index": 5,
+      "startTime": 20.97,
+      "endTime": 22.38,
+      "en": "Not yet.",
+      "zh": "还没有。",
+      "role": "body"
+    },
+    {
+      "index": 6,
+      "startTime": 22.38,
+      "endTime": 25.78,
+      "en": "I must water the garden first.",
+      "zh": "我必须先给花园浇水。",
+      "role": "body"
+    },
+    {
+      "index": 7,
+      "startTime": 25.78,
+      "endTime": 29.52,
+      "en": "Do you have to water it now?",
+      "zh": "现在需要给它浇水吗？",
+      "role": "body"
+    },
+    {
+      "index": 8,
+      "startTime": 29.52,
+      "endTime": 31.54,
+      "en": "I'm afraid I must.",
+      "zh": "恐怕我必须这么做。",
+      "role": "body"
+    },
+    {
+      "index": 9,
+      "startTime": 31.54,
+      "endTime": 33.02,
+      "en": "Look at it!",
+      "zh": "看啊！",
+      "role": "body"
+    },
+    {
+      "index": 10,
+      "startTime": 33.02,
+      "endTime": 35.41,
+      "en": "It's terribly dry.",
+      "zh": "它干得厉害。",
+      "role": "body"
+    },
+    {
+      "index": 11,
+      "startTime": 35.41,
+      "endTime": 38,
+      "en": "What a nuisance!",
+      "zh": "真烦人！",
+      "role": "body"
+    },
+    {
+      "index": 12,
+      "startTime": 38,
+      "endTime": 41.98,
+      "en": "Last summer it was very dry, too.",
+      "zh": "去年夏天也非常干燥。",
+      "role": "body"
+    },
+    {
+      "index": 13,
+      "startTime": 41.98,
+      "endTime": 44.16,
+      "en": "Don't you remember?",
+      "zh": "你不记得了吗？",
+      "role": "body"
+    },
+    {
+      "index": 14,
+      "startTime": 44.16,
+      "endTime": 47.52,
+      "en": "I had to water it every day.",
+      "zh": "我每天都必须给它浇水。",
+      "role": "body"
+    },
+    {
+      "index": 15,
+      "startTime": 47.52,
+      "endTime": 52.7,
+      "en": "Well, I'll have tea by myself.",
+      "zh": "好吧，我就自己喝杯茶吧。",
+      "role": "body"
+    },
+    {
+      "index": 16,
+      "startTime": 52.7,
+      "endTime": 54.73,
+      "en": "That was quick!",
+      "zh": "真快啊！",
+      "role": "body"
+    },
+    {
+      "index": 17,
+      "startTime": 54.73,
+      "endTime": 57.48,
+      "en": "Have you finished already?",
+      "zh": "你已经完成了吗？",
+      "role": "body"
+    },
+    {
+      "index": 18,
+      "startTime": 57.48,
+      "endTime": 58.64,
+      "en": "Yes.",
+      "zh": "是的。",
+      "role": "body"
+    },
+    {
+      "index": 19,
+      "startTime": 58.64,
+      "endTime": 61.35,
+      "en": "Look out of the window.",
+      "zh": "往窗外看。",
+      "role": "body"
+    },
+    {
+      "index": 20,
+      "startTime": 61.35,
+      "endTime": 63.46,
+      "en": "It's raining!",
+      "zh": "下雨了！",
+      "role": "body"
+    },
+    {
+      "index": 21,
+      "startTime": 63.46,
+      "endTime": 68.8,
+      "en": "That means you don't need to water the garden.",
+      "zh": "这意味着你不需要给花园浇水了。",
+      "role": "body"
+    },
+    {
+      "index": 22,
+      "startTime": 68.8,
+      "endTime": 72.29,
+      "en": "That was a pleasant surprise.",
+      "zh": "这真是个令人愉快的惊喜。",
+      "role": "body"
+    },
+    {
+      "index": 23,
+      "startTime": 72.29,
+      "endTime": null,
+      "en": "It means I can have tea, instead.",
+      "zh": "那我可以喝茶了。",
+      "role": "body"
+    }
+  ],
+  "audio": {
+    "fileName": "125&126－Tea for Two.mp3",
+    "sourcePath": "content/NCE-Flow/NCE1/125&126－Tea for Two.mp3",
+    "exists": true
+  },
+  "source": {
+    "repository": "NCE-Flow",
+    "lrcFileName": "125&126－Tea for Two.lrc",
+    "lrcPath": "content/NCE-Flow/NCE1/125&126－Tea for Two.lrc",
+    "sourceDataFile": "content/NCE-Flow/static/data.json",
+    "generatedAt": "2026-07-23T02:59:02+00:00",
+    "generator": "scripts/generate_nce_json.py",
+    "generatorVersion": "2.0.0",
+    "metadata": {
+      "al": "新概念英语（一）",
+      "ar": "MP3 同步字幕版（美音）",
+      "ti": "Tea for Two",
+      "by": "更多学习内容，请到VeryCD.com搜索“露珠”"
+    }
+  }
+}

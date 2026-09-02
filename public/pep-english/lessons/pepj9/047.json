@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "id": "pepj9-047",
+  "groupId": "pepj9",
+  "unitNo": 14,
+  "sequenceNo": 47,
+  "section": "Section B",
+  "title": "A Graduation Speech at No. 3 Junior High School",
+  "jsonPath": "pep-english/lessons/pepj9/047.json",
+  "text": "Ladies and gentlemen,\nThank you for coming today to attend the graduation ceremony at No. 3 Junior High School. First of all, I'd like to congratulate all the students who are here today. I remember meeting all of you when you were just starting Grade 7 at this school. You were all so full of energy and thirsty for knowledge. And yes, some of you were a little difficult to deal with! But today I see a room full of talented young adults who are full of hope for the future. You've all grown up so much and I'm so proud of you.\nAlthough you've all worked very hard over the last three years, none of you did it alone. I hope you'll remember the important people in your lives who helped and supported you — your parents, your teachers and your friends. Please consider what they've done for you and what they mean to you. Never fail to be thankful to the people around you.\nLastly, the end of junior high school is the beginning of a new life. I don't need to tell you that life in senior high school will be harder and that you have many difficult tasks ahead of you. You'll make mistakes along the way, but the key is to learn from your mistakes and never give up. But along with difficulties, there will also be many exciting things waiting for you. Behind each door you open are chances to learn new things, and you have the ability to make your own choices. Choose wisely and be responsible for your decisions and actions. Although you have to go your separate ways now, I hope that in a few years' time, you'll come back to visit our school. As you set out on your new journey, you shouldn't forget where you came from. The future is yours.\nGood luck and hope to see you again sometime soon!",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Ladies and gentlemen,"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Thank you for coming today to attend the graduation ceremony at No. 3 Junior High School. First of all, I'd like to congratulate all the students who are here today. I remember meeting all of you when you were just starting Grade 7 at this school. You were all so full of energy and thirsty for knowledge. And yes, some of you were a little difficult to deal with! But today I see a room full of talented young adults who are full of hope for the future. You've all grown up so much and I'm so proud of you."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Although you've all worked very hard over the last three years, none of you did it alone. I hope you'll remember the important people in your lives who helped and supported you — your parents, your teachers and your friends. Please consider what they've done for you and what they mean to you. Never fail to be thankful to the people around you."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Lastly, the end of junior high school is the beginning of a new life. I don't need to tell you that life in senior high school will be harder and that you have many difficult tasks ahead of you. You'll make mistakes along the way, but the key is to learn from your mistakes and never give up. But along with difficulties, there will also be many exciting things waiting for you. Behind each door you open are chances to learn new things, and you have the ability to make your own choices. Choose wisely and be responsible for your decisions and actions. Although you have to go your separate ways now, I hope that in a few years' time, you'll come back to visit our school. As you set out on your new journey, you shouldn't forget where you came from. The future is yours."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Good luck and hope to see you again sometime soon!"
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "初中",
+    "book": "九年级全一册",
+    "pageStart": 124,
+    "pageEnd": 124,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "c6e628c22e0c2f9cfe4547699a1c95a4",
+    "pdfSize": 11088578,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/junior-9.pdf#page=124",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored the complete graduation speech from salutation through closing; removed the discussion prompt, comprehension questions and reading-strategy box, and corrected the section to Section B."
+    }
+  }
+}

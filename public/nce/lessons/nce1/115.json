@@ -1,0 +1,264 @@
+{
+  "schemaVersion": 1,
+  "id": "nce1-115",
+  "bookId": "nce1",
+  "bookNo": 1,
+  "lessonNo": 115,
+  "lessonRange": [
+    115,
+    116
+  ],
+  "title": "Knock, Knock",
+  "titleZh": "咚咚！",
+  "question": "What does Jim have to drink?",
+  "questionZh": "吉姆要喝什么？",
+  "text": "What does Jim have to drink?\n\nIsn't there anyone at home?\nI'll knock again, Helen.\nEverything's very quiet.\nI'm sure there's no one at home.\nBut that's impossible.\nCarol and Tom invited us to lunch.\nLook through the window.\nCan you see anything?\nNothing at all.\nLet's try the back door.\nLook! Everyone's in the garden.\nHello, Helen. Hello, Jim.\nEverybody wants to have lunch in the garden.\nIt's nice and warm out here.\nCome and have something to drink.\nThanks, Carol.\nMay I have a glass of beer please?\nBeer?\nThere's none left.\nYou can have some lemonade.\nLemonade!\nDon't believe her, Jim.\nShe's only joking.\nHave some beer!",
+  "bodyText": "Isn't there anyone at home?\nI'll knock again, Helen.\nEverything's very quiet.\nI'm sure there's no one at home.\nBut that's impossible.\nCarol and Tom invited us to lunch.\nLook through the window.\nCan you see anything?\nNothing at all.\nLet's try the back door.\nLook! Everyone's in the garden.\nHello, Helen. Hello, Jim.\nEverybody wants to have lunch in the garden.\nIt's nice and warm out here.\nCome and have something to drink.\nThanks, Carol.\nMay I have a glass of beer please?\nBeer?\nThere's none left.\nYou can have some lemonade.\nLemonade!\nDon't believe her, Jim.\nShe's only joking.\nHave some beer!",
+  "bodyTextZh": "家里没人吗？\n我再敲一次门，海伦。\n这里非常安静。\n我肯定家里没人。\n但那不可能。\n卡罗尔和汤姆邀请我们吃午饭了。\n从窗户看看。\n你能看到什么吗？\n什么也没有。\n我们试试后门吧。\n看！大家都在花园里。\n你好，海伦。你好，吉姆。\n大家都想在花园里吃午饭。\n外面又暖和又舒服。\n过来喝点东西吧。\n谢谢，卡罗尔。\n可以给我一杯啤酒吗？\n啤酒？\n啤酒没有了。\n你可以喝点柠檬水。\n柠檬水！\n别相信她，吉姆。\n她只是在开玩笑而已。\n喝点啤酒吧！",
+  "sentences": [
+    {
+      "index": 0,
+      "startTime": 0.6,
+      "endTime": 4.23,
+      "en": "Lesson 115",
+      "zh": "第115课",
+      "role": "lesson"
+    },
+    {
+      "index": 1,
+      "startTime": 4.23,
+      "endTime": 6.96,
+      "en": "Knock, knock!",
+      "zh": "咚咚！",
+      "role": "title"
+    },
+    {
+      "index": 2,
+      "startTime": 6.96,
+      "endTime": 12.74,
+      "en": "Listen to the tape then answer this question.",
+      "zh": "先听这段录音，然后回答这个问题：",
+      "role": "prompt"
+    },
+    {
+      "index": 3,
+      "startTime": 12.74,
+      "endTime": 18.07,
+      "en": "What does Jim have to drink?",
+      "zh": "吉姆要喝什么？",
+      "role": "question"
+    },
+    {
+      "index": 4,
+      "startTime": 18.07,
+      "endTime": 21.56,
+      "en": "Isn't there anyone at home?",
+      "zh": "家里没人吗？",
+      "role": "body"
+    },
+    {
+      "index": 5,
+      "startTime": 21.56,
+      "endTime": 24.61,
+      "en": "I'll knock again, Helen.",
+      "zh": "我再敲一次门，海伦。",
+      "role": "body"
+    },
+    {
+      "index": 6,
+      "startTime": 24.61,
+      "endTime": 27.6,
+      "en": "Everything's very quiet.",
+      "zh": "这里非常安静。",
+      "role": "body"
+    },
+    {
+      "index": 7,
+      "startTime": 27.6,
+      "endTime": 30.9,
+      "en": "I'm sure there's no one at home.",
+      "zh": "我肯定家里没人。",
+      "role": "body"
+    },
+    {
+      "index": 8,
+      "startTime": 30.9,
+      "endTime": 33.61,
+      "en": "But that's impossible.",
+      "zh": "但那不可能。",
+      "role": "body"
+    },
+    {
+      "index": 9,
+      "startTime": 33.61,
+      "endTime": 37.8,
+      "en": "Carol and Tom invited us to lunch.",
+      "zh": "卡罗尔和汤姆邀请我们吃午饭了。",
+      "role": "body"
+    },
+    {
+      "index": 10,
+      "startTime": 37.8,
+      "endTime": 40.7,
+      "en": "Look through the window.",
+      "zh": "从窗户看看。",
+      "role": "body"
+    },
+    {
+      "index": 11,
+      "startTime": 40.7,
+      "endTime": 43.71,
+      "en": "Can you see anything?",
+      "zh": "你能看到什么吗？",
+      "role": "body"
+    },
+    {
+      "index": 12,
+      "startTime": 43.71,
+      "endTime": 45.78,
+      "en": "Nothing at all.",
+      "zh": "什么也没有。",
+      "role": "body"
+    },
+    {
+      "index": 13,
+      "startTime": 45.78,
+      "endTime": 49.22,
+      "en": "Let's try the back door.",
+      "zh": "我们试试后门吧。",
+      "role": "body"
+    },
+    {
+      "index": 14,
+      "startTime": 49.22,
+      "endTime": 53.22,
+      "en": "Look! Everyone's in the garden.",
+      "zh": "看！大家都在花园里。",
+      "role": "body"
+    },
+    {
+      "index": 15,
+      "startTime": 53.22,
+      "endTime": 57.31,
+      "en": "Hello, Helen. Hello, Jim.",
+      "zh": "你好，海伦。你好，吉姆。",
+      "role": "body"
+    },
+    {
+      "index": 16,
+      "startTime": 57.31,
+      "endTime": 61.36,
+      "en": "Everybody wants to have lunch in the garden.",
+      "zh": "大家都想在花园里吃午饭。",
+      "role": "body"
+    },
+    {
+      "index": 17,
+      "startTime": 61.36,
+      "endTime": 64.91,
+      "en": "It's nice and warm out here.",
+      "zh": "外面又暖和又舒服。",
+      "role": "body"
+    },
+    {
+      "index": 18,
+      "startTime": 64.91,
+      "endTime": 68.73,
+      "en": "Come and have something to drink.",
+      "zh": "过来喝点东西吧。",
+      "role": "body"
+    },
+    {
+      "index": 19,
+      "startTime": 68.73,
+      "endTime": 70.77,
+      "en": "Thanks, Carol.",
+      "zh": "谢谢，卡罗尔。",
+      "role": "body"
+    },
+    {
+      "index": 20,
+      "startTime": 70.77,
+      "endTime": 74.58,
+      "en": "May I have a glass of beer please?",
+      "zh": "可以给我一杯啤酒吗？",
+      "role": "body"
+    },
+    {
+      "index": 21,
+      "startTime": 74.58,
+      "endTime": 75.72,
+      "en": "Beer?",
+      "zh": "啤酒？",
+      "role": "body"
+    },
+    {
+      "index": 22,
+      "startTime": 75.72,
+      "endTime": 77.87,
+      "en": "There's none left.",
+      "zh": "啤酒没有了。",
+      "role": "body"
+    },
+    {
+      "index": 23,
+      "startTime": 77.87,
+      "endTime": 81.04,
+      "en": "You can have some lemonade.",
+      "zh": "你可以喝点柠檬水。",
+      "role": "body"
+    },
+    {
+      "index": 24,
+      "startTime": 81.04,
+      "endTime": 82.67,
+      "en": "Lemonade!",
+      "zh": "柠檬水！",
+      "role": "body"
+    },
+    {
+      "index": 25,
+      "startTime": 82.67,
+      "endTime": 84.71,
+      "en": "Don't believe her, Jim.",
+      "zh": "别相信她，吉姆。",
+      "role": "body"
+    },
+    {
+      "index": 26,
+      "startTime": 84.71,
+      "endTime": 86.59,
+      "en": "She's only joking.",
+      "zh": "她只是在开玩笑而已。",
+      "role": "body"
+    },
+    {
+      "index": 27,
+      "startTime": 86.59,
+      "endTime": null,
+      "en": "Have some beer!",
+      "zh": "喝点啤酒吧！",
+      "role": "body"
+    }
+  ],
+  "audio": {
+    "fileName": "115&116－Knock, Knock.mp3",
+    "sourcePath": "content/NCE-Flow/NCE1/115&116－Knock, Knock.mp3",
+    "exists": true
+  },
+  "source": {
+    "repository": "NCE-Flow",
+    "lrcFileName": "115&116－Knock, Knock.lrc",
+    "lrcPath": "content/NCE-Flow/NCE1/115&116－Knock, Knock.lrc",
+    "sourceDataFile": "content/NCE-Flow/static/data.json",
+    "generatedAt": "2026-07-23T02:59:02+00:00",
+    "generator": "scripts/generate_nce_json.py",
+    "generatorVersion": "2.0.0",
+    "metadata": {
+      "al": "新概念英语（一）",
+      "ar": "MP3 同步字幕版（美音）",
+      "ti": "Knock, Knock!",
+      "by": "更多学习内容，请到VeryCD.com搜索“露珠”"
+    }
+  }
+}

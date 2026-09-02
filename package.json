@@ -1,0 +1,69 @@
+{
+  "name": "wordtap",
+  "version": "0.1.0",
+  "description": "面向中文用户的英文点读、查词与朗读 Web 应用",
+  "license": "Apache-2.0",
+  "private": true,
+  "type": "module",
+  "homepage": "https://wordtap.cn/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hawkhai/wordtap.cn.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hawkhai/wordtap.cn/issues"
+  },
+  "engines": {
+    "node": ">=20.19.0"
+  },
+  "scripts": {
+    "dev": "vite",
+    "prebuild": "node tools/check-downloads.mjs && node tools/verify-responsive-breakpoints.mjs",
+    "build": "vue-tsc --noEmit && vite build",
+    "postbuild": "node tools/generate-nce-pages.mjs && node tools/generate-shuimu-pages.mjs && node tools/generate-postgraduate-pages.mjs && node tools/generate-pep-english-pages.mjs && node tools/generate-college-english-pages.mjs && node tools/generate-cet-pages.mjs && node tools/generate-kaoyan-english-pages.mjs && node tools/generate-exam-pages.mjs && node tools/generate-install-guide-pages.mjs && node tools/verify-short-links.mjs && node tools/verify-exam.mjs",
+    "preview": "vite preview --host 127.0.0.1",
+    "typecheck": "vue-tsc --noEmit",
+    "verify": "node tools/verify.mjs",
+    "verify:shuimu": "node tools/verify-shuimu.mjs",
+    "verify:postgraduate": "node tools/verify-postgraduate.mjs",
+    "verify:postgraduate:complete": "node tools/verify-postgraduate.mjs --require-complete",
+    "ocr:postgraduate": "python tools/ocr-graduate.py",
+    "generate:dict": "python tools/convert_ecdict.py",
+    "fetch:pep-english": "python tools/fetch-pep-english.py --all",
+    "generate:pep-english": "node tools/run-pep-generator.mjs",
+    "verify:pep-english": "node tools/verify-pep-english.mjs",
+    "generate:college-english": "python tools/generate-college-english-data.py",
+    "verify:college-english": "python tools/verify-college-english.py",
+    "verify:college-english:complete": "python tools/verify-college-english.py --require-complete",
+    "generate:cet": "python tools/generate-cet-data.py",
+    "fetch:cet-supplement": "python tools/fetch-cet-supplement.py",
+    "inventory:course-sources": "python tools/inventory-course-sources.py",
+    "verify:cet": "node tools/verify-cet.mjs",
+    "fetch:kaoyan-english": "python tools/fetch-kaoyan-english.py",
+    "generate:kaoyan-english": "python tools/generate-kaoyan-english-data.py",
+    "verify:kaoyan-english": "node tools/verify-kaoyan-english.mjs",
+    "verify:exam": "node tools/verify-exam.mjs",
+    "verify:pep-english:complete": "node tools/verify-pep-english.mjs --require-complete",
+    "test:pep-english": "python tools/test-pep-english.py",
+    "review:init:pep-english": "python tools/create-pep-review-ledger.py",
+    "review:apply:pep-english": "python tools/apply-pep-reviewed-decisions.py",
+    "review:init:college-english": "python tools/create-college-english-review-ledger.py",
+    "review:record:college-english": "python tools/record-college-english-review.py",
+    "review:apply:college-english": "python tools/generate-college-english-data.py",
+    "verify:short-links": "node tools/verify-short-links.mjs",
+    "verify:downloads": "node tools/check-downloads.mjs",
+    "verify:responsive": "node tools/verify-responsive-breakpoints.mjs"
+  },
+  "dependencies": {
+    "vue": "^3.5.25"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.1.17",
+    "@types/node": "^25.9.3",
+    "@vitejs/plugin-vue": "^6.0.2",
+    "tailwindcss": "^4.1.17",
+    "typescript": "^5.9.3",
+    "vite": "^7.3.6",
+    "vue-tsc": "^3.1.8"
+  }
+}

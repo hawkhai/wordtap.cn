@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "id": "pepj7b-006",
+  "groupId": "pepj7b",
+  "unitNo": 4,
+  "sequenceNo": 6,
+  "section": "Section B",
+  "title": "Molly and Dr. Know's Letters",
+  "jsonPath": "pep-english/lessons/pepj7b/006.json",
+  "text": "Dear Dr. Know,\nThere are too many rules! At 6:00 a.m., my mom says, \"Get up now and make your bed!\" After breakfast, my mom always says, \"Don't leave the dirty dishes in the kitchen!\" After that, I run to school because I can't be late. At school, we have more rules — don't be noisy, don't eat in class,...\nMy dad says I can't play basketball after school because I must do my homework. I can play only on weekends. After dinner, I can't relax either. I must read a book before I can watch TV. But I have to go to bed before 10:00. Rules, rules, rules! It's terrible! What can I do, Dr. Know?\nMolly Brown, New York\nDear Molly,\nI know how you feel. People always tell us, \"Don't do this!\" or \"You can't do that!\" But think about it, Molly. There are a lot of things you can do. You can play basketball on weekends. You can watch TV after you read a book. Parents and schools are sometimes strict, but remember, they make rules to help us. We have to follow them.\nGood luck!\nDr. Know",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Dear Dr. Know,"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "There are too many rules! At 6:00 a.m., my mom says, \"Get up now and make your bed!\" After breakfast, my mom always says, \"Don't leave the dirty dishes in the kitchen!\" After that, I run to school because I can't be late. At school, we have more rules — don't be noisy, don't eat in class,..."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "My dad says I can't play basketball after school because I must do my homework. I can play only on weekends. After dinner, I can't relax either. I must read a book before I can watch TV. But I have to go to bed before 10:00. Rules, rules, rules! It's terrible! What can I do, Dr. Know?"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Molly Brown, New York"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Dear Molly,"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "I know how you feel. People always tell us, \"Don't do this!\" or \"You can't do that!\" But think about it, Molly. There are a lot of things you can do. You can play basketball on weekends. You can watch TV after you read a book. Parents and schools are sometimes strict, but remember, they make rules to help us. We have to follow them."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Good luck!\nDr. Know"
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "初中",
+    "book": "七年级下册",
+    "pageStart": 33,
+    "pageEnd": 33,
+    "extractionMode": "ocr",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "9336b53d5a44f9244f62f6fb10720914",
+    "pdfSize": 17821241,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/junior-7b.pdf#page=33",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored the complete left-column letter and right-column reply in order, including salutations and signatures; excluded activities 2a and 2c."
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "id": "pephr3-011",
+  "groupId": "pephr3",
+  "unitNo": 3,
+  "sequenceNo": 11,
+  "section": "Reading and Thinking",
+  "title": "Wednesday, 21 June: San Francisco",
+  "jsonPath": "pep-english/lessons/pephr3/011.json",
+  "text": "Today was my first day back in San Francisco after camping in the Redwood Forest and visiting the wine country of Napa Valley. I have to admit that it definitely feels good to be back in the city again. And what a city—a city that was able to rebuild itself after the earthquake that occurred in 1906. There are so many beautiful old buildings—many sitting on top of big hills, offering great views of the city, the ocean, and the Golden Gate Bridge.\nMy hotel is near downtown, in the Mission District, one of the oldest parts of the city. Many of the people living here are from Mexico or Central America. This district used to be a poor area of town, but is now a centre for art, music, and food. In fact, an art movement called the “Mission School” started here. It's influenced by graffiti art and comic art. I walked around looking at the street art for a few hours. It was quite modern and lively. Afterwards, I ate some delicious Mexican-Chinese noodles from a food truck. A real mix of cultures here!\nIn the afternoon, I headed to a local museum that showed the historical changes in California. I learnt that America got California from Mexico in 1848. In the same year, gold was discovered near San Francisco, which started a gold rush. Over 300,000 people came from all over the world to seek their fortune, and San Francisco quickly became a big city. Many Chinese arrived during this period. To earn a living, some opened up shops and restaurants in Chinatown. Many others found jobs on farms, joined the gold rush, or went to build the railway that joined California to the eastern region of the country. The museum did a really good job of showing how America was built by immigrants from different countries and cultures. When these immigrants left their countries, they carried a bit of home in their hearts, and built a new home here.\nThis evening, I went to Chinatown. There were so many good cafés and restaurants to choose from. I selected a Cantonese restaurant that served its food on beautiful china plates. What great food!\nThat's enough for today. Tomorrow evening, I'm going to a jazz bar in the Richmond District. Can't wait!",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Today was my first day back in San Francisco after camping in the Redwood Forest and visiting the wine country of Napa Valley. I have to admit that it definitely feels good to be back in the city again. And what a city—a city that was able to rebuild itself after the earthquake that occurred in 1906. There are so many beautiful old buildings—many sitting on top of big hills, offering great views of the city, the ocean, and the Golden Gate Bridge."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "My hotel is near downtown, in the Mission District, one of the oldest parts of the city. Many of the people living here are from Mexico or Central America. This district used to be a poor area of town, but is now a centre for art, music, and food. In fact, an art movement called the “Mission School” started here. It's influenced by graffiti art and comic art. I walked around looking at the street art for a few hours. It was quite modern and lively. Afterwards, I ate some delicious Mexican-Chinese noodles from a food truck. A real mix of cultures here!"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "In the afternoon, I headed to a local museum that showed the historical changes in California. I learnt that America got California from Mexico in 1848. In the same year, gold was discovered near San Francisco, which started a gold rush. Over 300,000 people came from all over the world to seek their fortune, and San Francisco quickly became a big city. Many Chinese arrived during this period. To earn a living, some opened up shops and restaurants in Chinatown. Many others found jobs on farms, joined the gold rush, or went to build the railway that joined California to the eastern region of the country. The museum did a really good job of showing how America was built by immigrants from different countries and cultures. When these immigrants left their countries, they carried a bit of home in their hearts, and built a new home here."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "This evening, I went to Chinatown. There were so many good cafés and restaurants to choose from. I selected a Cantonese restaurant that served its food on beautiful china plates. What great food!"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "That's enough for today. Tomorrow evening, I'm going to a jazz bar in the Richmond District. Can't wait!"
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "必修第三册",
+    "pageStart": 35,
+    "pageEnd": 36,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "31e51a16693d03177a5825f53f612a87",
+    "pdfSize": 14202806,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/senior-required-3.pdf#page=35-36",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored all five travel-journal paragraphs across both pages and used the printed dateline as metadata title; verified text around the Mission District and gold-rush images, and excluded map, instructions, timeline, strategy box, questions and cloze exercises."
+    }
+  }
+}

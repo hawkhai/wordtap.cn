@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "id": "pephs2-014",
+  "groupId": "pephs2",
+  "unitNo": 5,
+  "sequenceNo": 14,
+  "section": "Reading and Thinking",
+  "title": "First Aid for Burns",
+  "jsonPath": "pep-english/lessons/pephs2/014.json",
+  "text": "The skin is an essential part of your body and is its largest organ. Your skin acts as a barrier against disease, toxins, and the sun’s rays. It also helps control your body temperature, prevents your body from losing too much water, warns you when things are too hot or cold, and gives you your sense of touch. As you can imagine, getting burnt can lead to very serious injuries. The first and most important step in the treatment of burns is giving first aid.\nYou can get burnt by a variety of things: hot liquids, steam, fire, radiation, the sun, electricity, acids, or other chemicals.\nBurns are divided into three types, depending on the depth of skin damage.\nFirst-degree burns: These affect only the top few millimetres of the skin. These burns are not serious. Examples include mild sunburn and burns caused by other minor household incidents.\nSecond-degree burns: These go below the top layer of the skin. They are serious and take a few weeks to get better. Examples include burns caused by hot liquids.\nThird-degree burns: These affect every layer of the skin, and sometimes the tissue under it. Examples include burns caused by electric shocks, burning clothes, or petrol fires. These burns cause very severe internal injuries and the victim must go to the hospital at once.\nFirst-degree burns: dry, red, and mildly swollen; mildly painful; turn white when pressed.\nSecond-degree burns: red and swollen; blisters; watery surface; extremely painful.\nThird-degree burns: black and white; swollen; the tissue underneath can often be seen; little or no pain if nerves are damaged; may be painful around the edges of the burn.\n1. Place burns under cool running water, especially within the first ten minutes. The cool water stops the burning process and reduces the pain and swelling.\n2. Dry the burnt area gently with a clean cloth.\n3. Remove any clothes using scissors if necessary, unless you see the fabric sticking to the burnt skin.\n4. Cover the burnt area with a loose clean cloth. Applying oil to the injured areas is a bad idea, as it will keep the heat in the wounds and may cause infection.\n5. If burns are on the face, make sure the victim can still breathe.\n6. If the victim is suffering from second or third-degree burns, there is an urgent need to take him/her to the hospital at once.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "The skin is an essential part of your body and is its largest organ. Your skin acts as a barrier against disease, toxins, and the sun’s rays. It also helps control your body temperature, prevents your body from losing too much water, warns you when things are too hot or cold, and gives you your sense of touch. As you can imagine, getting burnt can lead to very serious injuries. The first and most important step in the treatment of burns is giving first aid."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "You can get burnt by a variety of things: hot liquids, steam, fire, radiation, the sun, electricity, acids, or other chemicals."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Burns are divided into three types, depending on the depth of skin damage."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "First-degree burns: These affect only the top few millimetres of the skin. These burns are not serious. Examples include mild sunburn and burns caused by other minor household incidents."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Second-degree burns: These go below the top layer of the skin. They are serious and take a few weeks to get better. Examples include burns caused by hot liquids."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Third-degree burns: These affect every layer of the skin, and sometimes the tissue under it. Examples include burns caused by electric shocks, burning clothes, or petrol fires. These burns cause very severe internal injuries and the victim must go to the hospital at once."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "First-degree burns: dry, red, and mildly swollen; mildly painful; turn white when pressed."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Second-degree burns: red and swollen; blisters; watery surface; extremely painful."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Third-degree burns: black and white; swollen; the tissue underneath can often be seen; little or no pain if nerves are damaged; may be painful around the edges of the burn."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "1. Place burns under cool running water, especially within the first ten minutes. The cool water stops the burning process and reduces the pain and swelling."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "2. Dry the burnt area gently with a clean cloth."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "3. Remove any clothes using scissors if necessary, unless you see the fabric sticking to the burnt skin."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "4. Cover the burnt area with a loose clean cloth. Applying oil to the injured areas is a bad idea, as it will keep the heat in the wounds and may cause infection."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "5. If burns are on the face, make sure the victim can still breathe."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "6. If the victim is suffering from second or third-degree burns, there is an urgent need to take him/her to the hospital at once."
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "选择性必修第二册",
+    "pageStart": 57,
+    "pageEnd": 58,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "1a701f2205298de95ea59cfc71eb83cd",
+    "pdfSize": 9968316,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/senior-selective-2.pdf#page=57-58",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored the complete hospital leaflet, including its explanatory prose, three burn types, characteristics and all six numbered treatment instructions; normalized printed headings and bullets into readable blocks and excluded lead-in, strategy box, true/false questions, summary table and discussion prompts."
+    }
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 2,
+  "id": "rw3-u02-c",
+  "sequenceNo": 42,
+  "groupId": "rw3",
+  "unitNo": 2,
+  "unitTitle": "Life stories",
+  "section": "C",
+  "articleType": "stories-of-china",
+  "title": "Mei Lanfang – a Peking Opera legend",
+  "printedPageStart": 54,
+  "printedPageEnd": 55,
+  "jsonPath": "college-english/lessons/rw3/rw3-u02-c.json",
+  "characterCount": 2116,
+  "text": "Mei Lanfang, a Chinese theatrical performer, is recognized as one of the greatest Peking Opera artists in Chinese history. Actually, Mei Lanfang is his stage name and his real name is Mei Lan.\nThe son and grandson of noted opera singers, Mei began studying Peking Opera at the age of 8 and made his stage debut at 10, playing a weaving girl. Thereafter he played mostly female roles, becoming especially well-known for his portrayal in The Heavenly Maid Scatters Blossoms (《天女散花》). At the age of 13 he joined the Xiliancheng Theatrical Company and, through performances in Shanghai and elsewhere, acquired a national reputation. His style of dance, singing, etc. won such acclaim (赞誉) over the years that it came to be known as the “Mei School”.\nThe early 1900s are widely considered the golden age of Peking Opera in China. Competition was fierce as opera troupes (剧团) led by renowned stars toured all over China. Meanwhile, critics were ever ready to fire off their assessments of the quality of each troupe’s performance.\nIn a survey in 1927, the public voted for their favorite new play of the most famous Peking Opera performers of female roles. Such a role is known as dan (旦). Among the performers were Mei Lanfang, Cheng Yanqiu, Shang Xiaoyun, and Xun Huisheng. Later, the four artists became widely known as the Four Great Dans of Peking Opera, and each went on to develop their own disciplines which have been studied and followed by generations of Peking Opera singers.\nMei was renowned for his efforts in modernizing Peking Opera in terms of plays, stage design, lighting, makeup, and costume design. Mei also made great contributions to the spread of Peking Opera to foreign countries by participating in cultural exchanges with Japan, the United States, and other countries. He toured the world, forming friendships with his Western contemporaries, including Charlie Chaplin.\nDuring the War of Resistance Against Japanese Aggression, Mei kept a moustache as a reply to the Japanese who asked him to perform. This bold act of patriotism earned him great respect and bolstered (巩固) his fame as an artist.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Mei Lanfang, a Chinese theatrical performer, is recognized as one of the greatest Peking Opera artists in Chinese history. Actually, Mei Lanfang is his stage name and his real name is Mei Lan."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "The son and grandson of noted opera singers, Mei began studying Peking Opera at the age of 8 and made his stage debut at 10, playing a weaving girl. Thereafter he played mostly female roles, becoming especially well-known for his portrayal in The Heavenly Maid Scatters Blossoms (《天女散花》). At the age of 13 he joined the Xiliancheng Theatrical Company and, through performances in Shanghai and elsewhere, acquired a national reputation. His style of dance, singing, etc. won such acclaim (赞誉) over the years that it came to be known as the “Mei School”."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "The early 1900s are widely considered the golden age of Peking Opera in China. Competition was fierce as opera troupes (剧团) led by renowned stars toured all over China. Meanwhile, critics were ever ready to fire off their assessments of the quality of each troupe’s performance."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "In a survey in 1927, the public voted for their favorite new play of the most famous Peking Opera performers of female roles. Such a role is known as dan (旦). Among the performers were Mei Lanfang, Cheng Yanqiu, Shang Xiaoyun, and Xun Huisheng. Later, the four artists became widely known as the Four Great Dans of Peking Opera, and each went on to develop their own disciplines which have been studied and followed by generations of Peking Opera singers."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Mei was renowned for his efforts in modernizing Peking Opera in terms of plays, stage design, lighting, makeup, and costume design. Mei also made great contributions to the spread of Peking Opera to foreign countries by participating in cultural exchanges with Japan, the United States, and other countries. He toured the world, forming friendships with his Western contemporaries, including Charlie Chaplin."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "During the War of Resistance Against Japanese Aggression, Mei kept a moustache as a reply to the Japanese who asked him to perform. This bold act of patriotism earned him great respect and bolstered (巩固) his fame as an artist."
+    }
+  ],
+  "source": {
+    "series": "新视野大学英语（第四版）",
+    "book": "读写教程 3",
+    "sourceBook": "NHCE4-RW3",
+    "printedPageStart": 54,
+    "printedPageEnd": 55,
+    "pdfPageStart": 69,
+    "pdfPageEnd": 70,
+    "pdfSha256": "40418e1f32f5db4eaf6f091227217121109219515e2ffd6b68791927d506afe8",
+    "ocrFiles": [
+      "tools/College-English/NHCE4-RW3/ocr/json/NHCE4-RW3_69.json",
+      "tools/College-English/NHCE4-RW3/ocr/json/NHCE4-RW3_70.json"
+    ]
+  },
+  "manualReview": {
+    "status": "passed",
+    "reviewer": "Codex",
+    "reviewedAt": "2026-07-30T16:58:56Z",
+    "correctionCount": 4,
+    "evidence": "PDF69-70/印刷54-55；原图 NHCE4-RW3_69.jpg,NHCE4-RW3_70.jpg；最终稿 rw3-u02-c.json",
+    "textSha256": "cf213da2217e2109e5e776567d045a7b86949e7496168e6148a0efbf22fb2204",
+    "eventSha256": "aebc697264c65a7b35cb927dd7d0135a86cf0ecccc267487036fab87bf13c1ce"
+  }
+}

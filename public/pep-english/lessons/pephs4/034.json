@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "pephs4-034",
+  "groupId": "pephs4",
+  "unitNo": 3,
+  "sequenceNo": 34,
+  "section": "Listening and Speaking",
+  "title": "Sherry Wilson’s Shark Attack",
+  "jsonPath": "pep-english/lessons/pephs4/034.json",
+  "text": "In Hawaii, a shark bit off the right arm of a 23-year-old surfer while she was on her board in clear water. Sherry Wilson lost her right arm just below the shoulder. Daniel Wilson said his daughter was resting in hospital.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "In Hawaii, a shark bit off the right arm of a 23-year-old surfer while she was on her board in clear water. Sherry Wilson lost her right arm just below the shoulder. Daniel Wilson said his daughter was resting in hospital."
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "选择性必修第四册",
+    "pageStart": 84,
+    "pageEnd": 84,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "6fc94127b322f6f5abff068bef6faa2e",
+    "pdfSize": 12330614,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/senior-selective-4.pdf#page=84",
+      "reviewedAt": "2026-07-22",
+      "notes": "Retained the second complete report. Its exercise headline field is blank, so the metadata title is a neutral description drawn from the printed report rather than a supplied answer.",
+      "splitBaselineId": "pephs4-042",
+      "splitIndex": 2,
+      "splitCount": 3
+    }
+  }
+}

@@ -1,0 +1,159 @@
+{
+  "schemaVersion": 1,
+  "id": "nce4-003",
+  "bookId": "nce4",
+  "bookNo": 4,
+  "lessonNo": 3,
+  "lessonRange": [
+    3
+  ],
+  "title": "Matterhorn Man",
+  "titleZh": "马特洪峰人",
+  "question": "What was the main objective of early mountain climbers?",
+  "questionZh": "早期登山者的主要目标是什么？",
+  "text": "What was the main objective of early mountain climbers?\n\nModern alpinists try to climb mountains by a route which will give them good sport, and the more difficult it is, the more highly it is regarded.\nIn the pioneering days however, this was not the case at all.\nThe early climbers were looking for the easiest way to the top because the summit was the prize they sought, especially if it had never been attained before.\nIt is true that during their explorations they often faced difficulties and dangers of the most perilous nature, equipped in a manner which would make a modern climber shudder at the thought, but they did not go out of their way to court such excitement.\nThey had a single aim, a solitary goal -- the top!\nIt is hard for us to realize nowadays how difficult it was for the pioneers.\nExcept for one or two places such as Zermatt and Chamonix, which had rapidly become popular.\nAlpine villages tended to be impoverished settlements cut off from civilization by the high mountains.\nSuch inns as there were were generally dirty and flea-ridden; the food simply local cheese accompanied by bread often twelve months old, all washed down with coarse wine.\nOften a valley boasted no inn at all, and climbers found shelter wherever they could -- sometimes with the local priest (who was usually as poor as his parishioners), sometimes with shepherds or cheese-makers.\nInvariably the background was the same:dirt and poverty, and very uncomfortable.\nFor men accustomed to eating seven-course dinners and sleeping between fine linen sheets at home, the change to the Alps must have been very hard indeed.",
+  "bodyText": "Modern alpinists try to climb mountains by a route which will give them good sport, and the more difficult it is, the more highly it is regarded.\nIn the pioneering days however, this was not the case at all.\nThe early climbers were looking for the easiest way to the top because the summit was the prize they sought, especially if it had never been attained before.\nIt is true that during their explorations they often faced difficulties and dangers of the most perilous nature, equipped in a manner which would make a modern climber shudder at the thought, but they did not go out of their way to court such excitement.\nThey had a single aim, a solitary goal -- the top!\nIt is hard for us to realize nowadays how difficult it was for the pioneers.\nExcept for one or two places such as Zermatt and Chamonix, which had rapidly become popular.\nAlpine villages tended to be impoverished settlements cut off from civilization by the high mountains.\nSuch inns as there were were generally dirty and flea-ridden; the food simply local cheese accompanied by bread often twelve months old, all washed down with coarse wine.\nOften a valley boasted no inn at all, and climbers found shelter wherever they could -- sometimes with the local priest (who was usually as poor as his parishioners), sometimes with shepherds or cheese-makers.\nInvariably the background was the same:dirt and poverty, and very uncomfortable.\nFor men accustomed to eating seven-course dinners and sleeping between fine linen sheets at home, the change to the Alps must have been very hard indeed.",
+  "bodyTextZh": "现代登山者试图通过能给他们带来良好运动体验的路线来登山，难度越大，其价值或地位也就越高。\n然而，在早期的开拓岁月里，情况完全不是这样的。\n早期的登山者们都在寻找通往山顶的最简单路径，因为山顶就是他们追求的目标。尤其是当这个目标以前从未被实现过的时候。\n的确，在他们的探索过程中，他们经常面临极其危险和充满挑战的处境。他们的装备会让现代登山者一想起来就不寒而栗。但他们并不是刻意去寻求这种刺激。\n他们只有一个目标，一个唯一的目的——那就是登上巅峰！\n如今，我们很难想象那些开拓者当时所面临的困难有多大。\n除了像泽马特和夏蒙尼这样迅速变得出名的一两个地方，\n阿尔卑斯山区的村庄往往都是贫困的聚居地，被高大的山脉与外界隔离开来。\n那些当时的客栈通常都很脏，而且到处都是跳蚤。这些食物只是普通的本地奶酪，配着面包；而那些面包往往已经存放了十二个月之久。所有这些都用粗劣的葡萄酒送下肚。\n经常是一个山谷连一家客栈都没有，登山者们只能找到什么地方就在什么地方栖身——有时候会和当地的牧师一起（这位牧师通常和他的教区居民一样贫穷）。有时候和牧羊人或奶酪制作者在一起。\n背景总是一样的：肮脏、贫穷，而且非常不舒服。\n对于那些习惯了在家享用七道菜的晚餐、并睡在柔软的亚麻床单上的男人来说，转变到阿尔卑斯山区的生活对他们来说一定确实非常艰难。",
+  "sentences": [
+    {
+      "index": 0,
+      "startTime": 0.41,
+      "endTime": 2.1,
+      "en": "Lesson 3",
+      "zh": "第3课",
+      "role": "lesson"
+    },
+    {
+      "index": 1,
+      "startTime": 2.1,
+      "endTime": 9.82,
+      "en": "Matterhorn man",
+      "zh": "马特洪峰人",
+      "role": "title"
+    },
+    {
+      "index": 2,
+      "startTime": 9.82,
+      "endTime": 15.3,
+      "en": "What was the main objective of early mountain climbers?",
+      "zh": "早期登山者的主要目标是什么？",
+      "role": "question"
+    },
+    {
+      "index": 3,
+      "startTime": 15.3,
+      "endTime": 27.38,
+      "en": "Modern alpinists try to climb mountains by a route which will give them good sport, and the more difficult it is, the more highly it is regarded.",
+      "zh": "现代登山者试图通过能给他们带来良好运动体验的路线来登山，难度越大，其价值或地位也就越高。",
+      "role": "body"
+    },
+    {
+      "index": 4,
+      "startTime": 27.38,
+      "endTime": 33.65,
+      "en": "In the pioneering days however, this was not the case at all.",
+      "zh": "然而，在早期的开拓岁月里，情况完全不是这样的。",
+      "role": "body"
+    },
+    {
+      "index": 5,
+      "startTime": 33.65,
+      "endTime": 46.25,
+      "en": "The early climbers were looking for the easiest way to the top because the summit was the prize they sought, especially if it had never been attained before.",
+      "zh": "早期的登山者们都在寻找通往山顶的最简单路径，因为山顶就是他们追求的目标。尤其是当这个目标以前从未被实现过的时候。",
+      "role": "body"
+    },
+    {
+      "index": 6,
+      "startTime": 46.25,
+      "endTime": 65.87,
+      "en": "It is true that during their explorations they often faced difficulties and dangers of the most perilous nature, equipped in a manner which would make a modern climber shudder at the thought, but they did not go out of their way to court such excitement.",
+      "zh": "的确，在他们的探索过程中，他们经常面临极其危险和充满挑战的处境。他们的装备会让现代登山者一想起来就不寒而栗。但他们并不是刻意去寻求这种刺激。",
+      "role": "body"
+    },
+    {
+      "index": 7,
+      "startTime": 65.87,
+      "endTime": 72.55,
+      "en": "They had a single aim, a solitary goal -- the top!",
+      "zh": "他们只有一个目标，一个唯一的目的——那就是登上巅峰！",
+      "role": "body"
+    },
+    {
+      "index": 8,
+      "startTime": 72.55,
+      "endTime": 79.21,
+      "en": "It is hard for us to realize nowadays how difficult it was for the pioneers.",
+      "zh": "如今，我们很难想象那些开拓者当时所面临的困难有多大。",
+      "role": "body"
+    },
+    {
+      "index": 9,
+      "startTime": 79.21,
+      "endTime": 87.74,
+      "en": "Except for one or two places such as Zermatt and Chamonix, which had rapidly become popular.",
+      "zh": "除了像泽马特和夏蒙尼这样迅速变得出名的一两个地方，",
+      "role": "body"
+    },
+    {
+      "index": 10,
+      "startTime": 87.74,
+      "endTime": 96.4,
+      "en": "Alpine villages tended to be impoverished settlements cut off from civilization by the high mountains.",
+      "zh": "阿尔卑斯山区的村庄往往都是贫困的聚居地，被高大的山脉与外界隔离开来。",
+      "role": "body"
+    },
+    {
+      "index": 11,
+      "startTime": 96.4,
+      "endTime": 111.85,
+      "en": "Such inns as there were were generally dirty and flea-ridden; the food simply local cheese accompanied by bread often twelve months old, all washed down with coarse wine.",
+      "zh": "那些当时的客栈通常都很脏，而且到处都是跳蚤。这些食物只是普通的本地奶酪，配着面包；而那些面包往往已经存放了十二个月之久。所有这些都用粗劣的葡萄酒送下肚。",
+      "role": "body"
+    },
+    {
+      "index": 12,
+      "startTime": 111.85,
+      "endTime": 128.72,
+      "en": "Often a valley boasted no inn at all, and climbers found shelter wherever they could -- sometimes with the local priest (who was usually as poor as his parishioners), sometimes with shepherds or cheese-makers.",
+      "zh": "经常是一个山谷连一家客栈都没有，登山者们只能找到什么地方就在什么地方栖身——有时候会和当地的牧师一起（这位牧师通常和他的教区居民一样贫穷）。有时候和牧羊人或奶酪制作者在一起。",
+      "role": "body"
+    },
+    {
+      "index": 13,
+      "startTime": 128.72,
+      "endTime": 137.08,
+      "en": "Invariably the background was the same:dirt and poverty, and very uncomfortable.",
+      "zh": "背景总是一样的：肮脏、贫穷，而且非常不舒服。",
+      "role": "body"
+    },
+    {
+      "index": 14,
+      "startTime": 137.08,
+      "endTime": null,
+      "en": "For men accustomed to eating seven-course dinners and sleeping between fine linen sheets at home, the change to the Alps must have been very hard indeed.",
+      "zh": "对于那些习惯了在家享用七道菜的晚餐、并睡在柔软的亚麻床单上的男人来说，转变到阿尔卑斯山区的生活对他们来说一定确实非常艰难。",
+      "role": "body"
+    }
+  ],
+  "audio": {
+    "fileName": "03－Matterhorn Man.mp3",
+    "sourcePath": "content/NCE-Flow/NCE4/03－Matterhorn Man.mp3",
+    "exists": true
+  },
+  "source": {
+    "repository": "NCE-Flow",
+    "lrcFileName": "03－Matterhorn Man.lrc",
+    "lrcPath": "content/NCE-Flow/NCE4/03－Matterhorn Man.lrc",
+    "sourceDataFile": "content/NCE-Flow/static/data.json",
+    "generatedAt": "2026-07-23T02:59:02+00:00",
+    "generator": "scripts/generate_nce_json.py",
+    "generatorVersion": "2.0.0",
+    "metadata": {
+      "al": "新概念英语（四）",
+      "ar": "MP3 同步字幕版（美音）",
+      "ti": "Matterhorn Man",
+      "by": "更多学习内容，请到VeryCD.com搜索“露珠”"
+    }
+  }
+}

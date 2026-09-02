@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "id": "pepj9-036",
+  "groupId": "pepj9",
+  "unitNo": 11,
+  "sequenceNo": 36,
+  "section": "Section B",
+  "title": "The Winning Team",
+  "jsonPath": "pep-english/lessons/pepj9/036.json",
+  "text": "Peter kept his eyes on the ground. He felt like there was a heavy weight on his shoulders as he walked home alone. It was the worst day of his life. His mind would not stop thinking about what happened only just an hour ago on the school soccer field. How could he have missed scoring that goal? He had let his whole team down. His stupid mistake made him angry. His team had lost the game because of him. He was really worried that his coach might kick him off the team.\nAs soon as he walked through the door, his father asked, \"What's wrong, son?\" Peter's feelings were written all over his face. \"I lost the game,\" Peter replied. Then he went into his room without another word. Ten minutes later, Peter heard his father knocking on his bedroom door. He opened the door to let him in.\n\"Look, Peter. I don't know what happened. But whatever it was, don't be too hard on yourself.\"\n\"I lost the game, Dad. I failed my team. They'll probably never let me play again.\"\n\"Soccer is about team effort. You're not the only reason your team lost. If you have a good team, you should support each other. Besides, winning or losing is only half the game. The other half is learning how to communicate with your teammates and learning from your mistakes.\"\nPeter didn't say anything, but what his father said made him think carefully.\nThe next day, Peter went to soccer practice with courage rather than fear in his heart.\n\"Hey, guys,\" he said to his teammates. \"I'm really sorry about yesterday. We were so close to winning that game. But I think if we continue to pull together, we're going to win the next one.\"\nTo his surprise and relief, his teammates all nodded in agreement.\n\"Yeah,\" they said, \"don't worry about it. It's never just one person's fault. We should think about how we can do better next time.\"\nPeter smiled. It made him feel lucky to know that he was on a winning team.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Peter kept his eyes on the ground. He felt like there was a heavy weight on his shoulders as he walked home alone. It was the worst day of his life. His mind would not stop thinking about what happened only just an hour ago on the school soccer field. How could he have missed scoring that goal? He had let his whole team down. His stupid mistake made him angry. His team had lost the game because of him. He was really worried that his coach might kick him off the team."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "As soon as he walked through the door, his father asked, \"What's wrong, son?\" Peter's feelings were written all over his face. \"I lost the game,\" Peter replied. Then he went into his room without another word. Ten minutes later, Peter heard his father knocking on his bedroom door. He opened the door to let him in."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "\"Look, Peter. I don't know what happened. But whatever it was, don't be too hard on yourself.\""
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "\"I lost the game, Dad. I failed my team. They'll probably never let me play again.\""
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "\"Soccer is about team effort. You're not the only reason your team lost. If you have a good team, you should support each other. Besides, winning or losing is only half the game. The other half is learning how to communicate with your teammates and learning from your mistakes.\""
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Peter didn't say anything, but what his father said made him think carefully."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "The next day, Peter went to soccer practice with courage rather than fear in his heart."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "\"Hey, guys,\" he said to his teammates. \"I'm really sorry about yesterday. We were so close to winning that game. But I think if we continue to pull together, we're going to win the next one.\""
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "To his surprise and relief, his teammates all nodded in agreement."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "\"Yeah,\" they said, \"don't worry about it. It's never just one person's fault. We should think about how we can do better next time.\""
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Peter smiled. It made him feel lucky to know that he was on a winning team."
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "初中",
+    "book": "九年级全一册",
+    "pageStart": 100,
+    "pageEnd": 100,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "c6e628c22e0c2f9cfe4547699a1c95a4",
+    "pdfSize": 11088578,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/junior-9.pdf#page=100",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored the printed title and all eleven narrative/dialogue paragraphs through the complete resolution; excluded 2a/2b instructions and the Recognizing Idioms and Phrases strategy box."
+    }
+  }
+}

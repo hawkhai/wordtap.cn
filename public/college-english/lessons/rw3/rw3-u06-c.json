@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 2,
+  "id": "rw3-u06-c",
+  "sequenceNo": 54,
+  "groupId": "rw3",
+  "unitNo": 6,
+  "unitTitle": "The economy: power behind everyday life",
+  "section": "C",
+  "articleType": "stories-of-china",
+  "title": "The sharing economy turns a new page with books",
+  "printedPageStart": 159,
+  "printedPageEnd": 160,
+  "jsonPath": "college-english/lessons/rw3/rw3-u06-c.json",
+  "characterCount": 2213,
+  "text": "From sharing bicycles to sharing cars, China’s sharing economy has now swept into the book industry. Book-sharing services have been launched in cities such as Shanghai, Suzhou, and Hefei.\nSanxiaokou Xinhua Bookstore in Hefei of Anhui Province, which declared itself the “first sharing bookstore in the world”, opened to the public in July 2017. Readers need to download an app and pay a deposit online. Then they can borrow books by scanning the QR code. During the first month of the bookstore’s operation, the number of books borrowed and returned reached nearly 80,000.\nIn addition, banks are also involved in the sharing economy, offering book-lending services. Users can borrow books after registering through the official account on social media and paying the deposit.\n“It doesn’t matter if books are sold or shared; as long as they are read, they benefit society. Culture can be delivered in different forms,” said a woman who is a book lover and likes the sharing of books. “Compared with borrowing books from libraries, the large bookstores update their shelves more frequently, so readers can enjoy their favorite books more easily.”\nA national reading survey showed that on average, Chinese people read less than eight books a year. Jumping on the bandwagon (风尚) of the sharing economy may tempt young people to return to bookstores first, and help develop their reading habits.\nHowever, there is still no specific definition of “book sharing”, and many problems need to be resolved in the actual operation.\nSome experts claim that some “book sharing” is just a gimmick (噱头), the same stuff with a new label. From a business perspective, they think that today’s “book sharing” is no different from the book-lending services some small bookstores have long offered. This is not real sharing as long as the book-sharing services require a deposit or impose a fine.\nSome people claim that the “sharing bookstore” is only a concept, just like the previous “flowing bookstall” on the street, which can also be labeled as “sharing”.\nMany people believe that “book sharing” is a new business attempt in the book industry and the public should give it a chance. There is a long way to go, for “book sharing”.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "From sharing bicycles to sharing cars, China’s sharing economy has now swept into the book industry. Book-sharing services have been launched in cities such as Shanghai, Suzhou, and Hefei."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Sanxiaokou Xinhua Bookstore in Hefei of Anhui Province, which declared itself the “first sharing bookstore in the world”, opened to the public in July 2017. Readers need to download an app and pay a deposit online. Then they can borrow books by scanning the QR code. During the first month of the bookstore’s operation, the number of books borrowed and returned reached nearly 80,000."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "In addition, banks are also involved in the sharing economy, offering book-lending services. Users can borrow books after registering through the official account on social media and paying the deposit."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "“It doesn’t matter if books are sold or shared; as long as they are read, they benefit society. Culture can be delivered in different forms,” said a woman who is a book lover and likes the sharing of books. “Compared with borrowing books from libraries, the large bookstores update their shelves more frequently, so readers can enjoy their favorite books more easily.”"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "A national reading survey showed that on average, Chinese people read less than eight books a year. Jumping on the bandwagon (风尚) of the sharing economy may tempt young people to return to bookstores first, and help develop their reading habits."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "However, there is still no specific definition of “book sharing”, and many problems need to be resolved in the actual operation."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Some experts claim that some “book sharing” is just a gimmick (噱头), the same stuff with a new label. From a business perspective, they think that today’s “book sharing” is no different from the book-lending services some small bookstores have long offered. This is not real sharing as long as the book-sharing services require a deposit or impose a fine."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Some people claim that the “sharing bookstore” is only a concept, just like the previous “flowing bookstall” on the street, which can also be labeled as “sharing”."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Many people believe that “book sharing” is a new business attempt in the book industry and the public should give it a chance. There is a long way to go, for “book sharing”."
+    }
+  ],
+  "source": {
+    "series": "新视野大学英语（第四版）",
+    "book": "读写教程 3",
+    "sourceBook": "NHCE4-RW3",
+    "printedPageStart": 159,
+    "printedPageEnd": 160,
+    "pdfPageStart": 174,
+    "pdfPageEnd": 175,
+    "pdfSha256": "40418e1f32f5db4eaf6f091227217121109219515e2ffd6b68791927d506afe8",
+    "ocrFiles": [
+      "tools/College-English/NHCE4-RW3/ocr/json/NHCE4-RW3_174.json",
+      "tools/College-English/NHCE4-RW3/ocr/json/NHCE4-RW3_175.json"
+    ]
+  },
+  "manualReview": {
+    "status": "passed",
+    "reviewer": "Codex",
+    "reviewedAt": "2026-07-30T17:56:45Z",
+    "correctionCount": 4,
+    "evidence": "Codex已第二遍从头到尾视觉通读原图174-175与最终9段文本；双栏顺序、引文、风尚/噱头释义和Translation边界均确认。",
+    "textSha256": "f37aa99332b776281d66eeba0f39f05b4f9086e6dc8d1b038ec084ae1d986fce",
+    "eventSha256": "f53705a0d61b4c4249664e8e49dc89d8ffdf9afc756e562afa521887b8da33bd"
+  }
+}

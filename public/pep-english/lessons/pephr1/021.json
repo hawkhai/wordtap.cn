@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "pephr1-021",
+  "groupId": "pephr1",
+  "unitNo": 1,
+  "sequenceNo": 21,
+  "section": "Using Structures",
+  "title": "A Difficult Chemistry Quiz",
+  "jsonPath": "pep-english/lessons/pephr1/021.json",
+  "text": "A: Oh! What a day!\nB: Why? What happened?\nA: We had an impossible quiz in chemistry class. I thought I'd prepared very well but couldn't answer a single question. I felt like a fool!\nB: Sorry to hear that. But it's just a quiz. I'm sure you got a few questions right. It's not the end of the world.\nA: Oh, it's terrible! My mum will be cross. She's told me a thousand times I need to become a better student.\nB: She won't. She knows you tried your best. Don't worry. It's nothing!\nA: Yeah, I guess you're right. I just wish I'd done better.\nB: Why don't we study together next time?\nA: That would be wonderful! You're the best!",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "A: Oh! What a day!\nB: Why? What happened?\nA: We had an impossible quiz in chemistry class. I thought I'd prepared very well but couldn't answer a single question. I felt like a fool!\nB: Sorry to hear that. But it's just a quiz. I'm sure you got a few questions right. It's not the end of the world.\nA: Oh, it's terrible! My mum will be cross. She's told me a thousand times I need to become a better student.\nB: She won't. She knows you tried your best. Don't worry. It's nothing!\nA: Yeah, I guess you're right. I just wish I'd done better.\nB: Why don't we study together next time?\nA: That would be wonderful! You're the best!"
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "必修第一册",
+    "pageStart": 80,
+    "pageEnd": 80,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "e0bf18138b24d7def28b35994a13946b",
+    "pdfSize": 14704146,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/senior-required-1.pdf#page=80",
+      "reviewedAt": "2026-07-22",
+      "notes": "Kept the complete printed quiz-and-study conversation using its original underlined wording; removed word-order exercises, the replacement-phrase bank and the Chinese-tea passage with seven translation blanks, and corrected the workbook section."
+    }
+  }
+}

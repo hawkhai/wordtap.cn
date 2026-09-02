@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "pephr2-005",
+  "groupId": "pephr2",
+  "unitNo": 3,
+  "sequenceNo": 5,
+  "section": "Pronunciation",
+  "title": "Cyber Sense",
+  "jsonPath": "pep-english/lessons/pephr2/005.json",
+  "text": "I always keep things secret when I go online.\nI never share the things that should be only mine.\nMy email and my home address, my phone number and name— These are things only I should know on websites or in games.\nAnd so I use a nonsense name for my net identity.\nWhen folks online ask who I am, I say, “I'm Cyber Me.”\nAnd if I ever think that someone online isn't all that bad, I never ever meet them without telling Mum or Dad.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "I always keep things secret when I go online.\nI never share the things that should be only mine.\nMy email and my home address, my phone number and name— These are things only I should know on websites or in games."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "And so I use a nonsense name for my net identity.\nWhen folks online ask who I am, I say, “I'm Cyber Me.”\nAnd if I ever think that someone online isn't all that bad, I never ever meet them without telling Mum or Dad."
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "必修第二册",
+    "pageStart": 34,
+    "pageEnd": 34,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "38d49874e4f015fd89f21c9306f6b9d5",
+    "pdfSize": 14270612,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/senior-required-2.pdf#page=34",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored the complete two-stanza online-safety poem with its printed lineation; excluded the stress-marking instructions, definition exercise and online-habits dialogue that explicitly ends with an unfinished ellipsis."
+    }
+  }
+}

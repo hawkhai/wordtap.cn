@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "id": "pephr2-023",
+  "groupId": "pephr2",
+  "unitNo": 4,
+  "sequenceNo": 23,
+  "section": "Reading and Writing",
+  "title": "Cleo's Email from Cairo",
+  "jsonPath": "pep-english/lessons/pephr2/023.json",
+  "text": "Hi Mum and Dad!\nWell, here we are in Cairo at last. We managed to find a cheap hostel just a stone's throw away from the famous River Nile. The Egyptian Museum is nearby, too. We saw lots of ancient mummies and also Tutankhamun's mask—made of pure gold! We took a tour to the Pyramids yesterday. They let us ride up to the pyramids on camels—it felt just like a movie! This morning, we explored an old market area. It was very atmospheric and filled with lots of interesting things. I bought a beautiful necklace for you, Mum—it looks just like one that Queen Cleopatra would have worn! Anyway, we're going out to eat some more of Egypt's national dish now. It's made with rice, so you'd really like it, Dad! Visiting Cairo has been an unforgettable experience, even with the terrible heat! See ya!\nLove, Cleo",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Hi Mum and Dad!"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Well, here we are in Cairo at last. We managed to find a cheap hostel just a stone's throw away from the famous River Nile. The Egyptian Museum is nearby, too. We saw lots of ancient mummies and also Tutankhamun's mask—made of pure gold! We took a tour to the Pyramids yesterday. They let us ride up to the pyramids on camels—it felt just like a movie! This morning, we explored an old market area. It was very atmospheric and filled with lots of interesting things. I bought a beautiful necklace for you, Mum—it looks just like one that Queen Cleopatra would have worn! Anyway, we're going out to eat some more of Egypt's national dish now. It's made with rice, so you'd really like it, Dad! Visiting Cairo has been an unforgettable experience, even with the terrible heat! See ya!"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Love, Cleo"
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "必修第二册",
+    "pageStart": 89,
+    "pageEnd": 89,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "38d49874e4f015fd89f21c9306f6b9d5",
+    "pdfSize": 14270612,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/senior-required-2.pdf#page=89",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored Cleo's complete Cairo email from greeting through sign-off; excluded the blank From/To fields, lead-in questions and photographs.",
+      "splitBaselineId": "pephr2-035",
+      "splitIndex": 1,
+      "splitCount": 2
+    }
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "id": "pephr3-005",
+  "groupId": "pephr3",
+  "unitNo": 1,
+  "sequenceNo": 5,
+  "section": "Project",
+  "title": "The Laba Festival and Laba Porridge",
+  "jsonPath": "pep-english/lessons/pephr3/005.json",
+  "text": "The Laba Festival usually occurs about a month before the Chinese Spring Festival. The festival's traditional food is Laba porridge.\nPossible ingredients: 15 Chinese dates; 5 peeled longan fruit; 3 walnuts; 1/2 cup of sticky rice; 1/4 cup of millet; 1/4 cup of peanuts; 1/4 cup of red beans; 1/4 cup of mung beans; 1/4 cup of raisins.\n1. Wash the rice, millet, peanuts, red beans, and mung beans, and soak them in 2 cups of water overnight.\n2. Put these ingredients and the dates into a pot. Pour in 6 cups of water, and bring the pot to a boil before simmering for one and a half hours over low heat.\n3. Wash the raisins, walnuts, and longan fruit, and then put them into the pot with some sugar before simmering for another 30 minutes.\n4. Turn off the heat and then wait for 10 minutes before serving the porridge.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "The Laba Festival usually occurs about a month before the Chinese Spring Festival. The festival's traditional food is Laba porridge."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Possible ingredients: 15 Chinese dates; 5 peeled longan fruit; 3 walnuts; 1/2 cup of sticky rice; 1/4 cup of millet; 1/4 cup of peanuts; 1/4 cup of red beans; 1/4 cup of mung beans; 1/4 cup of raisins."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "1. Wash the rice, millet, peanuts, red beans, and mung beans, and soak them in 2 cups of water overnight."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "2. Put these ingredients and the dates into a pot. Pour in 6 cups of water, and bring the pot to a boil before simmering for one and a half hours over low heat."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "3. Wash the raisins, walnuts, and longan fruit, and then put them into the pot with some sugar before simmering for another 30 minutes."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "4. Turn off the heat and then wait for 10 minutes before serving the porridge."
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "必修第三册",
+    "pageStart": 18,
+    "pageEnd": 18,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "31e51a16693d03177a5825f53f612a87",
+    "pdfSize": 14202806,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/senior-required-3.pdf#page=18",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored the complete model recipe poster with its introduction, all nine ingredients and four ordered steps; excluded both project instructions and the incomplete Zhuang festival outline containing ellipses."
+    }
+  }
+}

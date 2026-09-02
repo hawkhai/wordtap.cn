@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "id": "pepj8b-005",
+  "groupId": "pepj8b",
+  "unitNo": 3,
+  "sequenceNo": 5,
+  "section": "Section B",
+  "title": "Should Young People Do Chores at Home?",
+  "jsonPath": "pep-english/lessons/pepj8b/005.json",
+  "text": "Dear Sir,\nI do not understand why some parents make their kids help with housework and chores at home. Kids these days already have enough stress from school. They do not have time to study and do housework, too. Housework is a waste of their time. Could we just let them do their job as students? They should spend their time on schoolwork in order to get good grades and get into a good university. Also, when they get older, they will have to do housework so there is no need for them to do it now. It is the parents' job to provide a clean and comfortable environment at home for their children. And anyway, I think doing chores is not so difficult. I do not mind doing them.\nMs. Miller\nDear Sir,\nI think it is important for children to learn how to do chores and help their parents with housework. It is not enough to just get good grades at school. Children these days depend on their parents too much. They are always asking, \"Could you get this for me?\" or \"Could you help me with that?\" Doing chores helps to develop children's independence and teaches them how to look after themselves. It also helps them to understand the idea of fairness. Since they live in one house with their parents, they should know that everyone should do their part in keeping it clean and tidy. Our neighbors' son got into a good college but during his first year, he had no idea how to take care of himself. As a result, he often fell ill and his grades dropped. The earlier kids learn to be independent, the better it is for their future.\nMr. Smith",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Dear Sir,"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "I do not understand why some parents make their kids help with housework and chores at home. Kids these days already have enough stress from school. They do not have time to study and do housework, too. Housework is a waste of their time. Could we just let them do their job as students? They should spend their time on schoolwork in order to get good grades and get into a good university. Also, when they get older, they will have to do housework so there is no need for them to do it now. It is the parents' job to provide a clean and comfortable environment at home for their children. And anyway, I think doing chores is not so difficult. I do not mind doing them."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Ms. Miller"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Dear Sir,"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "I think it is important for children to learn how to do chores and help their parents with housework. It is not enough to just get good grades at school. Children these days depend on their parents too much. They are always asking, \"Could you get this for me?\" or \"Could you help me with that?\" Doing chores helps to develop children's independence and teaches them how to look after themselves. It also helps them to understand the idea of fairness. Since they live in one house with their parents, they should know that everyone should do their part in keeping it clean and tidy. Our neighbors' son got into a good college but during his first year, he had no idea how to take care of himself. As a result, he often fell ill and his grades dropped. The earlier kids learn to be independent, the better it is for their future."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Mr. Smith"
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "初中",
+    "book": "八年级下册",
+    "pageStart": 31,
+    "pageEnd": 31,
+    "extractionMode": "ocr",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "21d35e04f1c22b74a3fe3e95e88adff9",
+    "pdfSize": 18208880,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/junior-8b.pdf#page=31",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored both complete opposing letters with salutations, quotations and signatures, assigned a descriptive title, and excluded 2a/2b instructions and the skimming sidebar."
+    }
+  }
+}

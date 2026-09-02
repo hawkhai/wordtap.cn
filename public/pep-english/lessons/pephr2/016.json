@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "pephr2-016",
+  "groupId": "pephr2",
+  "unitNo": 5,
+  "sequenceNo": 16,
+  "section": "Project",
+  "title": "Ludwig van Beethoven",
+  "jsonPath": "pep-english/lessons/pephr2/016.json",
+  "text": "Ludwig van Beethoven (1770–1827) was born in Germany. He started his musical training when he was five years old, and his teachers worked him so hard that he often cried. He started writing music when he was nineteen, and two years later he moved to Vienna to study music and perform. Beethoven first became famous as a pianist. However, by 1800, his musical works were so popular that he was thought of by many as the most important composer of his generation. During this same period, he slowly became deaf. Even though he could not hear with his ears, he could still write music because he could hear music in his head. Most of his greatest musical works were completed after he became deaf. In the later part of his life, he had many health and money issues. He was also lonely because the woman he loved and wanted to marry had left him. His friends tried to help him through his dark times, but his life became marked by sadness. He died after a long illness in 1827.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Ludwig van Beethoven (1770–1827) was born in Germany. He started his musical training when he was five years old, and his teachers worked him so hard that he often cried. He started writing music when he was nineteen, and two years later he moved to Vienna to study music and perform. Beethoven first became famous as a pianist. However, by 1800, his musical works were so popular that he was thought of by many as the most important composer of his generation. During this same period, he slowly became deaf. Even though he could not hear with his ears, he could still write music because he could hear music in his head. Most of his greatest musical works were completed after he became deaf. In the later part of his life, he had many health and money issues. He was also lonely because the woman he loved and wanted to marry had left him. His friends tried to help him through his dark times, but his life became marked by sadness. He died after a long illness in 1827."
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "必修第二册",
+    "pageStart": 66,
+    "pageEnd": 66,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "38d49874e4f015fd89f21c9306f6b9d5",
+    "pdfSize": 14270612,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/senior-required-2.pdf#page=66",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored the complete Beethoven biography as continuous prose; excluded project instructions, portrait and the non-prose famous-works list with Chinese translations."
+    }
+  }
+}

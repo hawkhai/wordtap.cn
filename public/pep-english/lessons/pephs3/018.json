@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "pephs3-018",
+  "groupId": "pephs3",
+  "unitNo": 5,
+  "sequenceNo": 18,
+  "section": "Assessing Your Progress",
+  "title": "What Is Free Verse?",
+  "jsonPath": "pep-english/lessons/pephs3/018.json",
+  "text": "A: What is free verse?\nB: Free verse is an open form of poetry.\nA: What do you mean by “open”?\nB: A free verse poem does not follow any rules. It has no regular metre or rhythm.\nA: I see. So it means the poet has complete control over their creation.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "A: What is free verse?\nB: Free verse is an open form of poetry.\nA: What do you mean by “open”?\nB: A free verse poem does not follow any rules. It has no regular metre or rhythm.\nA: I see. So it means the poet has complete control over their creation."
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "选择性必修第三册",
+    "pageStart": 65,
+    "pageEnd": 65,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "f0dc33129a755a33421d401b71a05cd1",
+    "pdfSize": 12684455,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/senior-selective-3.pdf#page=65",
+      "reviewedAt": "2026-07-22",
+      "notes": "Retained the first complete five-turn dialogue exactly as printed and supplied a descriptive metadata title.",
+      "splitBaselineId": "pephs3-027",
+      "splitIndex": 1,
+      "splitCount": 2
+    }
+  }
+}

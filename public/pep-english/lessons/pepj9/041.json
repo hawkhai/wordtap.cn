@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "pepj9-041",
+  "groupId": "pepj9",
+  "unitNo": 13,
+  "sequenceNo": 41,
+  "section": "Section A",
+  "title": "Ideas for Solving Pollution Problems",
+  "jsonPath": "pep-english/lessons/pepj9/041.json",
+  "text": "Interviewer: Jason and Susan, what are your ideas for solving these problems?\nJason: Well, to cut down air pollution, we should take the bus or subway instead of driving.\nSusan: Yeah, or ride a bike. There are other advantages of bike riding. It's good for health and it doesn't cost anything!\nInterviewer: Great ideas! What about waste pollution?\nSusan: Mmm, I think simple things like bringing a bag to go shopping can help. I started doing that a year ago.\nJason: Me, too. Also, I never take wooden chopsticks or plastic forks when I buy takeaway food. I use the ones at home.\nSusan: And remember to throw rubbish in the bins and keep public places clean and beautiful for everyone.\nInterviewer: So together, our actions can make a difference and lead to a better future!",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Interviewer: Jason and Susan, what are your ideas for solving these problems?\nJason: Well, to cut down air pollution, we should take the bus or subway instead of driving.\nSusan: Yeah, or ride a bike. There are other advantages of bike riding. It's good for health and it doesn't cost anything!\nInterviewer: Great ideas! What about waste pollution?\nSusan: Mmm, I think simple things like bringing a bag to go shopping can help. I started doing that a year ago.\nJason: Me, too. Also, I never take wooden chopsticks or plastic forks when I buy takeaway food. I use the ones at home.\nSusan: And remember to throw rubbish in the bins and keep public places clean and beautiful for everyone.\nInterviewer: So together, our actions can make a difference and lead to a better future!"
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "初中",
+    "book": "九年级全一册",
+    "pageStart": 112,
+    "pageEnd": 112,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "c6e628c22e0c2f9cfe4547699a1c95a4",
+    "pdfSize": 11088578,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/junior-9.pdf#page=112",
+      "reviewedAt": "2026-07-22",
+      "notes": "Retained only the complete 2d interviewer-Jason-Susan role-play proposing pollution solutions; excluded the 2a pollution choices, 2b blanks, unfinished 2c model and instructions."
+    }
+  }
+}

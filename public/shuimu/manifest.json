@@ -1,0 +1,1658 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-07-17T02:42:13.892545+00:00",
+  "generator": "tools/generate-shuimu-data.py",
+  "generatorVersion": "1.1.0",
+  "totalLessons": 192,
+  "levels": [
+    {
+      "id": "phonetics",
+      "title": "国际音标",
+      "subtitle": "发音基础与国际音标",
+      "lessonCount": 12,
+      "lessons": [
+        {
+          "id": "phonetics-001",
+          "levelId": "phonetics",
+          "unitNo": 1,
+          "title": "入门课：认识 26 个英文字母",
+          "jsonPath": "shuimu/lessons/phonetics/001.json",
+          "videoCount": 0
+        },
+        {
+          "id": "phonetics-002",
+          "levelId": "phonetics",
+          "unitNo": 2,
+          "title": "第一课 ：语音基础知识",
+          "jsonPath": "shuimu/lessons/phonetics/002.json",
+          "videoCount": 0
+        },
+        {
+          "id": "phonetics-003",
+          "levelId": "phonetics",
+          "unitNo": 3,
+          "title": "第二课：4 个前元音",
+          "jsonPath": "shuimu/lessons/phonetics/003.json",
+          "videoCount": 0
+        },
+        {
+          "id": "phonetics-004",
+          "levelId": "phonetics",
+          "unitNo": 4,
+          "title": "第三课：3 个中元音",
+          "jsonPath": "shuimu/lessons/phonetics/004.json",
+          "videoCount": 0
+        },
+        {
+          "id": "phonetics-005",
+          "levelId": "phonetics",
+          "unitNo": 5,
+          "title": "第四课：5 个后元音",
+          "jsonPath": "shuimu/lessons/phonetics/005.json",
+          "videoCount": 0
+        },
+        {
+          "id": "phonetics-006",
+          "levelId": "phonetics",
+          "unitNo": 6,
+          "title": "第五课：3 个合口双元音",
+          "jsonPath": "shuimu/lessons/phonetics/006.json",
+          "videoCount": 0
+        },
+        {
+          "id": "phonetics-007",
+          "levelId": "phonetics",
+          "unitNo": 7,
+          "title": "第六课：2 个合口双元音",
+          "jsonPath": "shuimu/lessons/phonetics/007.json",
+          "videoCount": 0
+        },
+        {
+          "id": "phonetics-008",
+          "levelId": "phonetics",
+          "unitNo": 8,
+          "title": "第七课：3 个集中双元音",
+          "jsonPath": "shuimu/lessons/phonetics/008.json",
+          "videoCount": 0
+        },
+        {
+          "id": "phonetics-009",
+          "levelId": "phonetics",
+          "unitNo": 9,
+          "title": "第八课：3 对爆破辅音",
+          "jsonPath": "shuimu/lessons/phonetics/009.json",
+          "videoCount": 0
+        },
+        {
+          "id": "phonetics-010",
+          "levelId": "phonetics",
+          "unitNo": 10,
+          "title": "第九课：5 对摩擦辅音",
+          "jsonPath": "shuimu/lessons/phonetics/010.json",
+          "videoCount": 0
+        },
+        {
+          "id": "phonetics-011",
+          "levelId": "phonetics",
+          "unitNo": 11,
+          "title": "第十课：3 对破擦音",
+          "jsonPath": "shuimu/lessons/phonetics/011.json",
+          "videoCount": 0
+        },
+        {
+          "id": "phonetics-012",
+          "levelId": "phonetics",
+          "unitNo": 12,
+          "title": "第十一课 ：6 个单辅音",
+          "jsonPath": "shuimu/lessons/phonetics/012.json",
+          "videoCount": 0
+        }
+      ],
+      "source": {
+        "files": [
+          {
+            "fileName": "英语入门讲义-英语国际音标课.pdf",
+            "bytes": 503020,
+            "sha256": "7fed8380302041c1b383efe037f721194a0ab1b9f1e81b78d5ca48ae3e2aee73"
+          },
+          {
+            "fileName": "英语入门讲义-英语国际音标课.docx",
+            "bytes": 51714,
+            "sha256": "2b761d65a0d00d733c79ffb313f577c3850222d530c3882ced4bfa09fc7a244e"
+          },
+          {
+            "fileName": "英语入门讲义-英语国际音标课.txt",
+            "bytes": 23516,
+            "sha256": "a1a0203ec748b84d2fb39da920e0f023611110fd80b1ba053213ced849e1d084"
+          }
+        ]
+      }
+    },
+    {
+      "id": "beginner",
+      "title": "初级",
+      "subtitle": "日常对话、语法与词汇",
+      "lessonCount": 50,
+      "lessons": [
+        {
+          "id": "beginner-001",
+          "levelId": "beginner",
+          "unitNo": 1,
+          "title": "【对话场景】询问与感谢",
+          "jsonPath": "shuimu/lessons/beginner/001.json",
+          "videoCount": 0
+        },
+        {
+          "id": "beginner-002",
+          "levelId": "beginner",
+          "unitNo": 2,
+          "title": "【对话场景】道歉与回答",
+          "jsonPath": "shuimu/lessons/beginner/002.json",
+          "videoCount": 0
+        },
+        {
+          "id": "beginner-003",
+          "levelId": "beginner",
+          "unitNo": 3,
+          "title": "【对话场景】介绍别人与打招呼",
+          "jsonPath": "shuimu/lessons/beginner/003.json",
+          "videoCount": 0
+        },
+        {
+          "id": "beginner-004",
+          "levelId": "beginner",
+          "unitNo": 4,
+          "title": "【对话场景】询问职业",
+          "jsonPath": "shuimu/lessons/beginner/004.json",
+          "videoCount": 0
+        },
+        {
+          "id": "beginner-005",
+          "levelId": "beginner",
+          "unitNo": 5,
+          "title": "【对话场景】朋友间的问候",
+          "jsonPath": "shuimu/lessons/beginner/005.json",
+          "videoCount": 0
+        },
+        {
+          "id": "beginner-006",
+          "levelId": "beginner",
+          "unitNo": 6,
+          "title": "【对话场景】物品的归属",
+          "jsonPath": "shuimu/lessons/beginner/006.json",
+          "videoCount": 0
+        },
+        {
+          "id": "beginner-007",
+          "levelId": "beginner",
+          "unitNo": 7,
+          "title": "【对话场景】讨论颜色",
+          "jsonPath": "shuimu/lessons/beginner/007.json",
+          "videoCount": 0
+        },
+        {
+          "id": "beginner-008",
+          "levelId": "beginner",
+          "unitNo": 8,
+          "title": "【对话场景】表达关心",
+          "jsonPath": "shuimu/lessons/beginner/008.json",
+          "videoCount": 0
+        },
+        {
+          "id": "beginner-009",
+          "levelId": "beginner",
+          "unitNo": 9,
+          "title": "【对话场景】描述物体的特征",
+          "jsonPath": "shuimu/lessons/beginner/009.json",
+          "videoCount": 0
+        },
+        {
+          "id": "beginner-010",
+          "levelId": "beginner",
+          "unitNo": 10,
+          "title": "【对话场景】描述物体的位置",
+          "jsonPath": "shuimu/lessons/beginner/010.json",
+          "videoCount": 0
+        },
+        {
+          "id": "beginner-011",
+          "levelId": "beginner",
+          "unitNo": 11,
+          "title": "【对话场景】表达请求和命令",
+          "jsonPath": "shuimu/lessons/beginner/011.json",
+          "videoCount": 0
+        },
+        {
+          "id": "beginner-012",
+          "levelId": "beginner",
+          "unitNo": 12,
+          "title": "【对话场景】描述进行中的动作",
+          "jsonPath": "shuimu/lessons/beginner/012.json",
+          "videoCount": 0
+        },
+        {
+          "id": "beginner-013",
+          "levelId": "beginner",
+          "unitNo": 13,
+          "title": "【对话场景】叙述客观事实",
+          "jsonPath": "shuimu/lessons/beginner/013.json",
+          "videoCount": 0
+        },
+        {
+          "id": "beginner-014",
+          "levelId": "beginner",
+          "unitNo": 14,
+          "title": "【对话场景】询问此刻的意图",
+          "jsonPath": "shuimu/lessons/beginner/014.json",
+          "videoCount": 0
+        },
+        {
+          "id": "beginner-015",
+          "levelId": "beginner",
+          "unitNo": 15,
+          "title": "【对话场景】询问下一步的打算",
+          "jsonPath": "shuimu/lessons/beginner/015.json",
+          "videoCount": 0
+        },
+        {
+          "id": "beginner-016",
+          "levelId": "beginner",
+          "unitNo": 16,
+          "title": "【对话场景】描述不可数名词的数量",
+          "jsonPath": "shuimu/lessons/beginner/016.json",
+          "videoCount": 0
+        },
+        {
+          "id": "beginner-017",
+          "levelId": "beginner",
+          "unitNo": 17,
+          "title": "【对话场景】询问物体摆放的位置",
+          "jsonPath": "shuimu/lessons/beginner/017.json",
+          "videoCount": 0
+        },
+        {
+          "id": "beginner-018",
+          "levelId": "beginner",
+          "unitNo": 18,
+          "title": "【对话场景】询问他人的喜好（上）",
+          "jsonPath": "shuimu/lessons/beginner/018.json",
+          "videoCount": 0
+        },
+        {
+          "id": "beginner-019",
+          "levelId": "beginner",
+          "unitNo": 19,
+          "title": "【对话场景】询问他人的喜好（下）",
+          "jsonPath": "shuimu/lessons/beginner/019.json",
+          "videoCount": 0
+        },
+        {
+          "id": "beginner-020",
+          "levelId": "beginner",
+          "unitNo": 20,
+          "title": "【对话场景】询问他人的籍贯",
+          "jsonPath": "shuimu/lessons/beginner/020.json",
+          "videoCount": 0
+        },
+        {
+          "id": "beginner-021",
+          "levelId": "beginner",
+          "unitNo": 21,
+          "title": "【对话场景】讨论天气变化",
+          "jsonPath": "shuimu/lessons/beginner/021.json",
+          "videoCount": 0
+        },
+        {
+          "id": "beginner-022",
+          "levelId": "beginner",
+          "unitNo": 22,
+          "title": "【对话场景】描述日常生活细节",
+          "jsonPath": "shuimu/lessons/beginner/022.json",
+          "videoCount": 0
+        },
+        {
+          "id": "beginner-023",
+          "levelId": "beginner",
+          "unitNo": 23,
+          "title": "【对话场景】询问具体的时间",
+          "jsonPath": "shuimu/lessons/beginner/023.json",
+          "videoCount": 0
+        },
+        {
+          "id": "beginner-024",
+          "levelId": "beginner",
+          "unitNo": 24,
+          "title": "【对话场景】询问健康状况",
+          "jsonPath": "shuimu/lessons/beginner/024.json",
+          "videoCount": 0
+        },
+        {
+          "id": "beginner-025",
+          "levelId": "beginner",
+          "unitNo": 25,
+          "title": "【对话场景】描述身体不舒服",
+          "jsonPath": "shuimu/lessons/beginner/025.json",
+          "videoCount": 0
+        },
+        {
+          "id": "beginner-026",
+          "levelId": "beginner",
+          "unitNo": 26,
+          "title": "【对话场景】描述发生在过去的事情",
+          "jsonPath": "shuimu/lessons/beginner/026.json",
+          "videoCount": 0
+        },
+        {
+          "id": "beginner-027",
+          "levelId": "beginner",
+          "unitNo": 27,
+          "title": "【对话场景】引述他人说过的话",
+          "jsonPath": "shuimu/lessons/beginner/027.json",
+          "videoCount": 0
+        },
+        {
+          "id": "beginner-028",
+          "levelId": "beginner",
+          "unitNo": 28,
+          "title": "【对话场景】问路和指路",
+          "jsonPath": "shuimu/lessons/beginner/028.json",
+          "videoCount": 0
+        },
+        {
+          "id": "beginner-029",
+          "levelId": "beginner",
+          "unitNo": 29,
+          "title": "【对话场景】在商场购物",
+          "jsonPath": "shuimu/lessons/beginner/029.json",
+          "videoCount": 0
+        },
+        {
+          "id": "beginner-030",
+          "levelId": "beginner",
+          "unitNo": 30,
+          "title": "【对话场景】采购生活必需品",
+          "jsonPath": "shuimu/lessons/beginner/030.json",
+          "videoCount": 0
+        },
+        {
+          "id": "beginner-031",
+          "levelId": "beginner",
+          "unitNo": 31,
+          "title": "【对话场景】邀请别人共进午餐",
+          "jsonPath": "shuimu/lessons/beginner/031.json",
+          "videoCount": 0
+        },
+        {
+          "id": "beginner-032",
+          "levelId": "beginner",
+          "unitNo": 32,
+          "title": "【对话场景】去修车行取车",
+          "jsonPath": "shuimu/lessons/beginner/032.json",
+          "videoCount": 0
+        },
+        {
+          "id": "beginner-033",
+          "levelId": "beginner",
+          "unitNo": 33,
+          "title": "【对话场景】购置一套住房",
+          "jsonPath": "shuimu/lessons/beginner/033.json",
+          "videoCount": 0
+        },
+        {
+          "id": "beginner-034",
+          "levelId": "beginner",
+          "unitNo": 34,
+          "title": "【对话场景】在火车站买票",
+          "jsonPath": "shuimu/lessons/beginner/034.json",
+          "videoCount": 0
+        },
+        {
+          "id": "beginner-035",
+          "levelId": "beginner",
+          "unitNo": 35,
+          "title": "【对话场景】询问考试成绩",
+          "jsonPath": "shuimu/lessons/beginner/035.json",
+          "videoCount": 0
+        },
+        {
+          "id": "beginner-036",
+          "levelId": "beginner",
+          "unitNo": 36,
+          "title": "【对话场景】询问商品的价格",
+          "jsonPath": "shuimu/lessons/beginner/036.json",
+          "videoCount": 0
+        },
+        {
+          "id": "beginner-037",
+          "levelId": "beginner",
+          "unitNo": 37,
+          "title": "【对话场景】乘坐公交车",
+          "jsonPath": "shuimu/lessons/beginner/037.json",
+          "videoCount": 0
+        },
+        {
+          "id": "beginner-038",
+          "levelId": "beginner",
+          "unitNo": 38,
+          "title": "【对话场景】寻回丢失的物品",
+          "jsonPath": "shuimu/lessons/beginner/038.json",
+          "videoCount": 0
+        },
+        {
+          "id": "beginner-039",
+          "levelId": "beginner",
+          "unitNo": 39,
+          "title": "【对话场景】超速行驶险被罚！",
+          "jsonPath": "shuimu/lessons/beginner/039.json",
+          "videoCount": 0
+        },
+        {
+          "id": "beginner-040",
+          "levelId": "beginner",
+          "unitNo": 40,
+          "title": "【对话场景】和闺蜜喝下午茶",
+          "jsonPath": "shuimu/lessons/beginner/040.json",
+          "videoCount": 0
+        },
+        {
+          "id": "beginner-041",
+          "levelId": "beginner",
+          "unitNo": 41,
+          "title": "【对话场景】发生了一个小意外",
+          "jsonPath": "shuimu/lessons/beginner/041.json",
+          "videoCount": 0
+        },
+        {
+          "id": "beginner-042",
+          "levelId": "beginner",
+          "unitNo": 42,
+          "title": "【对话场景】一张很赞的旅行照片",
+          "jsonPath": "shuimu/lessons/beginner/042.json",
+          "videoCount": 0
+        },
+        {
+          "id": "beginner-043",
+          "levelId": "beginner",
+          "unitNo": 43,
+          "title": "【对话场景】一场意外又惊喜的雨",
+          "jsonPath": "shuimu/lessons/beginner/043.json",
+          "videoCount": 0
+        },
+        {
+          "id": "beginner-044",
+          "levelId": "beginner",
+          "unitNo": 44,
+          "title": "【对话场景】旅行前的 100 个担忧",
+          "jsonPath": "shuimu/lessons/beginner/044.json",
+          "videoCount": 0
+        },
+        {
+          "id": "beginner-045",
+          "levelId": "beginner",
+          "unitNo": 45,
+          "title": "【对话场景】轰动一时的新闻",
+          "jsonPath": "shuimu/lessons/beginner/045.json",
+          "videoCount": 0
+        },
+        {
+          "id": "beginner-046",
+          "levelId": "beginner",
+          "unitNo": 46,
+          "title": "【对话场景】一个美好的梦",
+          "jsonPath": "shuimu/lessons/beginner/046.json",
+          "videoCount": 0
+        },
+        {
+          "id": "beginner-047",
+          "levelId": "beginner",
+          "unitNo": 47,
+          "title": "【对话场景】一通打错了的电话",
+          "jsonPath": "shuimu/lessons/beginner/047.json",
+          "videoCount": 0
+        },
+        {
+          "id": "beginner-048",
+          "levelId": "beginner",
+          "unitNo": 48,
+          "title": "【对话场景】第一次火车之旅",
+          "jsonPath": "shuimu/lessons/beginner/048.json",
+          "videoCount": 0
+        },
+        {
+          "id": "beginner-049",
+          "levelId": "beginner",
+          "unitNo": 49,
+          "title": "【对话场景】请勿在景区乱扔垃圾",
+          "jsonPath": "shuimu/lessons/beginner/049.json",
+          "videoCount": 0
+        },
+        {
+          "id": "beginner-050",
+          "levelId": "beginner",
+          "unitNo": 50,
+          "title": "【对话场景】一只机智的鹦鹉",
+          "jsonPath": "shuimu/lessons/beginner/050.json",
+          "videoCount": 0
+        }
+      ],
+      "source": {
+        "files": [
+          {
+            "fileName": "英语零基础初级讲义.pdf",
+            "bytes": 1833489,
+            "sha256": "920cc6dc5b3c92f0b14e55955605df3dfd0099313a0e2597b24e7e9d62effad6"
+          },
+          {
+            "fileName": "英语零基础初级讲义.docx",
+            "bytes": 284076,
+            "sha256": "67116027a5146d516c959e8704a00a215b1302ee3f014344bfafc9ae7a9bf7b0"
+          },
+          {
+            "fileName": "英语零基础初级讲义.txt",
+            "bytes": 355945,
+            "sha256": "24dbb9f5bac92b8c912ee4f52440b57abbf12608a612ded8002a29f38dff9fbc"
+          }
+        ]
+      }
+    },
+    {
+      "id": "intermediate",
+      "title": "中级",
+      "subtitle": "故事复现、语法与文化",
+      "lessonCount": 70,
+      "lessons": [
+        {
+          "id": "intermediate-001",
+          "levelId": "intermediate",
+          "unitNo": 1,
+          "title": "不要在看电影的时候大声喧哗！",
+          "jsonPath": "shuimu/lessons/intermediate/001.json",
+          "videoCount": 0
+        },
+        {
+          "id": "intermediate-002",
+          "levelId": "intermediate",
+          "unitNo": 2,
+          "title": "起得太晚，早饭变午饭了！",
+          "jsonPath": "shuimu/lessons/intermediate/002.json",
+          "videoCount": 0
+        },
+        {
+          "id": "intermediate-003",
+          "levelId": "intermediate",
+          "unitNo": 3,
+          "title": "令人头痛的明信片！",
+          "jsonPath": "shuimu/lessons/intermediate/003.json",
+          "videoCount": 0
+        },
+        {
+          "id": "intermediate-004",
+          "levelId": "intermediate",
+          "unitNo": 4,
+          "title": "一次激动人心的旅行",
+          "jsonPath": "shuimu/lessons/intermediate/004.json",
+          "videoCount": 0
+        },
+        {
+          "id": "intermediate-005",
+          "levelId": "intermediate",
+          "unitNo": 5,
+          "title": "钻石不见了！",
+          "jsonPath": "shuimu/lessons/intermediate/005.json",
+          "videoCount": 0
+        },
+        {
+          "id": "intermediate-006",
+          "levelId": "intermediate",
+          "unitNo": 6,
+          "title": "用汗水浇灌出的花园最美",
+          "jsonPath": "shuimu/lessons/intermediate/006.json",
+          "videoCount": 0
+        },
+        {
+          "id": "intermediate-007",
+          "levelId": "intermediate",
+          "unitNo": 7,
+          "title": "A cold welcome 跨年夜的“冷遇”",
+          "jsonPath": "shuimu/lessons/intermediate/007.json",
+          "videoCount": 0
+        },
+        {
+          "id": "intermediate-008",
+          "levelId": "intermediate",
+          "unitNo": 8,
+          "title": "借了马上就得还的钱",
+          "jsonPath": "shuimu/lessons/intermediate/008.json",
+          "videoCount": 0
+        },
+        {
+          "id": "intermediate-009",
+          "levelId": "intermediate",
+          "unitNo": 9,
+          "title": "一次愉快的送行",
+          "jsonPath": "shuimu/lessons/intermediate/009.json",
+          "videoCount": 2
+        },
+        {
+          "id": "intermediate-010",
+          "levelId": "intermediate",
+          "unitNo": 10,
+          "title": "即将到来的演唱会",
+          "jsonPath": "shuimu/lessons/intermediate/010.json",
+          "videoCount": 3
+        },
+        {
+          "id": "intermediate-011",
+          "levelId": "intermediate",
+          "unitNo": 11,
+          "title": "原来是同胞",
+          "jsonPath": "shuimu/lessons/intermediate/011.json",
+          "videoCount": 3
+        },
+        {
+          "id": "intermediate-012",
+          "levelId": "intermediate",
+          "unitNo": 12,
+          "title": "意外的好消息",
+          "jsonPath": "shuimu/lessons/intermediate/012.json",
+          "videoCount": 3
+        },
+        {
+          "id": "intermediate-013",
+          "levelId": "intermediate",
+          "unitNo": 13,
+          "title": "一个无法拒绝的请求",
+          "jsonPath": "shuimu/lessons/intermediate/013.json",
+          "videoCount": 3
+        },
+        {
+          "id": "intermediate-014",
+          "levelId": "intermediate",
+          "unitNo": 14,
+          "title": "青春永驻",
+          "jsonPath": "shuimu/lessons/intermediate/014.json",
+          "videoCount": 3
+        },
+        {
+          "id": "intermediate-015",
+          "levelId": "intermediate",
+          "unitNo": 15,
+          "title": "醉翁之意不在酒",
+          "jsonPath": "shuimu/lessons/intermediate/015.json",
+          "videoCount": 3
+        },
+        {
+          "id": "intermediate-016",
+          "levelId": "intermediate",
+          "unitNo": 16,
+          "title": "难以舍弃的房子",
+          "jsonPath": "shuimu/lessons/intermediate/016.json",
+          "videoCount": 3
+        },
+        {
+          "id": "intermediate-017",
+          "levelId": "intermediate",
+          "unitNo": 17,
+          "title": "远方来的漂流瓶",
+          "jsonPath": "shuimu/lessons/intermediate/017.json",
+          "videoCount": 3
+        },
+        {
+          "id": "intermediate-018",
+          "levelId": "intermediate",
+          "unitNo": 18,
+          "title": "一栋特别的大房子",
+          "jsonPath": "shuimu/lessons/intermediate/018.json",
+          "videoCount": 3
+        },
+        {
+          "id": "intermediate-019",
+          "levelId": "intermediate",
+          "unitNo": 19,
+          "title": "失而复得的50英镑",
+          "jsonPath": "shuimu/lessons/intermediate/019.json",
+          "videoCount": 3
+        },
+        {
+          "id": "intermediate-020",
+          "levelId": "intermediate",
+          "unitNo": 20,
+          "title": "一只调皮的小狗",
+          "jsonPath": "shuimu/lessons/intermediate/020.json",
+          "videoCount": 3
+        },
+        {
+          "id": "intermediate-021",
+          "levelId": "intermediate",
+          "unitNo": 21,
+          "title": "一架古老而珍贵的钢琴",
+          "jsonPath": "shuimu/lessons/intermediate/021.json",
+          "videoCount": 3
+        },
+        {
+          "id": "intermediate-022",
+          "levelId": "intermediate",
+          "unitNo": 22,
+          "title": "难懂的方言",
+          "jsonPath": "shuimu/lessons/intermediate/022.json",
+          "videoCount": 3
+        },
+        {
+          "id": "intermediate-023",
+          "levelId": "intermediate",
+          "unitNo": 23,
+          "title": "最好的艺术评论家",
+          "jsonPath": "shuimu/lessons/intermediate/023.json",
+          "videoCount": 3
+        },
+        {
+          "id": "intermediate-024",
+          "levelId": "intermediate",
+          "unitNo": 24,
+          "title": "露营遇上大暴雨",
+          "jsonPath": "shuimu/lessons/intermediate/024.json",
+          "videoCount": 3
+        },
+        {
+          "id": "intermediate-025",
+          "levelId": "intermediate",
+          "unitNo": 25,
+          "title": "令人感到奇怪的信仰",
+          "jsonPath": "shuimu/lessons/intermediate/025.json",
+          "videoCount": 3
+        },
+        {
+          "id": "intermediate-026",
+          "levelId": "intermediate",
+          "unitNo": 26,
+          "title": "一次被拒绝的旅行",
+          "jsonPath": "shuimu/lessons/intermediate/026.json",
+          "videoCount": 0
+        },
+        {
+          "id": "intermediate-027",
+          "levelId": "intermediate",
+          "unitNo": 27,
+          "title": "差点闯祸的足球",
+          "jsonPath": "shuimu/lessons/intermediate/027.json",
+          "videoCount": 0
+        },
+        {
+          "id": "intermediate-028",
+          "levelId": "intermediate",
+          "unitNo": 28,
+          "title": "退休的老板和修理工",
+          "jsonPath": "shuimu/lessons/intermediate/028.json",
+          "videoCount": 0
+        },
+        {
+          "id": "intermediate-029",
+          "levelId": "intermediate",
+          "unitNo": 29,
+          "title": "见义勇为的公交车司机",
+          "jsonPath": "shuimu/lessons/intermediate/029.json",
+          "videoCount": 0
+        },
+        {
+          "id": "intermediate-030",
+          "levelId": "intermediate",
+          "unitNo": 30,
+          "title": "母女共创世界纪录",
+          "jsonPath": "shuimu/lessons/intermediate/030.json",
+          "videoCount": 0
+        },
+        {
+          "id": "intermediate-031",
+          "levelId": "intermediate",
+          "unitNo": 31,
+          "title": "现实很骨感",
+          "jsonPath": "shuimu/lessons/intermediate/031.json",
+          "videoCount": 0
+        },
+        {
+          "id": "intermediate-032",
+          "levelId": "intermediate",
+          "unitNo": 32,
+          "title": "一次吃得并不开心的晚餐",
+          "jsonPath": "shuimu/lessons/intermediate/032.json",
+          "videoCount": 0
+        },
+        {
+          "id": "intermediate-033",
+          "levelId": "intermediate",
+          "unitNo": 33,
+          "title": "它好像不是很听话",
+          "jsonPath": "shuimu/lessons/intermediate/033.json",
+          "videoCount": 0
+        },
+        {
+          "id": "intermediate-034",
+          "levelId": "intermediate",
+          "unitNo": 34,
+          "title": "充满智慧的高空探险家",
+          "jsonPath": "shuimu/lessons/intermediate/034.json",
+          "videoCount": 0
+        },
+        {
+          "id": "intermediate-035",
+          "levelId": "intermediate",
+          "unitNo": 35,
+          "title": "不是百分百的小偷",
+          "jsonPath": "shuimu/lessons/intermediate/035.json",
+          "videoCount": 0
+        },
+        {
+          "id": "intermediate-036",
+          "levelId": "intermediate",
+          "unitNo": 36,
+          "title": "既遭罪又昂贵的旅行",
+          "jsonPath": "shuimu/lessons/intermediate/036.json",
+          "videoCount": 0
+        },
+        {
+          "id": "intermediate-037",
+          "levelId": "intermediate",
+          "unitNo": 37,
+          "title": "一个嗜酒的酒鬼",
+          "jsonPath": "shuimu/lessons/intermediate/037.json",
+          "videoCount": 0
+        },
+        {
+          "id": "intermediate-038",
+          "levelId": "intermediate",
+          "unitNo": 38,
+          "title": "一颗被拔错的牙齿",
+          "jsonPath": "shuimu/lessons/intermediate/038.json",
+          "videoCount": 0
+        },
+        {
+          "id": "intermediate-039",
+          "levelId": "intermediate",
+          "unitNo": 39,
+          "title": "生平第一次睡在床上",
+          "jsonPath": "shuimu/lessons/intermediate/039.json",
+          "videoCount": 0
+        },
+        {
+          "id": "intermediate-040",
+          "levelId": "intermediate",
+          "unitNo": 40,
+          "title": "吃饱了才能减肥",
+          "jsonPath": "shuimu/lessons/intermediate/040.json",
+          "videoCount": 0
+        },
+        {
+          "id": "intermediate-041",
+          "levelId": "intermediate",
+          "unitNo": 41,
+          "title": "一块特殊的地毯",
+          "jsonPath": "shuimu/lessons/intermediate/041.json",
+          "videoCount": 0
+        },
+        {
+          "id": "intermediate-042",
+          "levelId": "intermediate",
+          "unitNo": 42,
+          "title": "一场不明原因的大火",
+          "jsonPath": "shuimu/lessons/intermediate/042.json",
+          "videoCount": 0
+        },
+        {
+          "id": "intermediate-043",
+          "levelId": "intermediate",
+          "unitNo": 43,
+          "title": "一个糟心的上午",
+          "jsonPath": "shuimu/lessons/intermediate/043.json",
+          "videoCount": 0
+        },
+        {
+          "id": "intermediate-044",
+          "levelId": "intermediate",
+          "unitNo": 44,
+          "title": "探测器寻宝记",
+          "jsonPath": "shuimu/lessons/intermediate/044.json",
+          "videoCount": 0
+        },
+        {
+          "id": "intermediate-045",
+          "levelId": "intermediate",
+          "unitNo": 45,
+          "title": "惊险的老式汽车比赛",
+          "jsonPath": "shuimu/lessons/intermediate/045.json",
+          "videoCount": 0
+        },
+        {
+          "id": "intermediate-046",
+          "levelId": "intermediate",
+          "unitNo": 46,
+          "title": "惩罚势利的售货员",
+          "jsonPath": "shuimu/lessons/intermediate/046.json",
+          "videoCount": 0
+        },
+        {
+          "id": "intermediate-047",
+          "levelId": "intermediate",
+          "unitNo": 47,
+          "title": "自娱自乐的游戏",
+          "jsonPath": "shuimu/lessons/intermediate/047.json",
+          "videoCount": 0
+        },
+        {
+          "id": "intermediate-048",
+          "levelId": "intermediate",
+          "unitNo": 48,
+          "title": "考了三次还没通过的考试",
+          "jsonPath": "shuimu/lessons/intermediate/048.json",
+          "videoCount": 0
+        },
+        {
+          "id": "intermediate-049",
+          "levelId": "intermediate",
+          "unitNo": 49,
+          "title": "爱护环境，用火须谨慎",
+          "jsonPath": "shuimu/lessons/intermediate/049.json",
+          "videoCount": 0
+        },
+        {
+          "id": "intermediate-050",
+          "levelId": "intermediate",
+          "unitNo": 50,
+          "title": "是幽默而不是嘲笑",
+          "jsonPath": "shuimu/lessons/intermediate/050.json",
+          "videoCount": 0
+        },
+        {
+          "id": "intermediate-051",
+          "levelId": "intermediate",
+          "unitNo": 51,
+          "title": "一波三折才建成的隧道",
+          "jsonPath": "shuimu/lessons/intermediate/051.json",
+          "videoCount": 0
+        },
+        {
+          "id": "intermediate-052",
+          "levelId": "intermediate",
+          "unitNo": 52,
+          "title": "一头小象引发的交通堵塞",
+          "jsonPath": "shuimu/lessons/intermediate/052.json",
+          "videoCount": 0
+        },
+        {
+          "id": "intermediate-053",
+          "levelId": "intermediate",
+          "unitNo": 53,
+          "title": "孜孜不倦的科学家",
+          "jsonPath": "shuimu/lessons/intermediate/053.json",
+          "videoCount": 0
+        },
+        {
+          "id": "intermediate-054",
+          "levelId": "intermediate",
+          "unitNo": 54,
+          "title": "九死一生的醉汉",
+          "jsonPath": "shuimu/lessons/intermediate/054.json",
+          "videoCount": 0
+        },
+        {
+          "id": "intermediate-055",
+          "levelId": "intermediate",
+          "unitNo": 55,
+          "title": "一个著名的大钟",
+          "jsonPath": "shuimu/lessons/intermediate/055.json",
+          "videoCount": 0
+        },
+        {
+          "id": "intermediate-056",
+          "levelId": "intermediate",
+          "unitNo": 56,
+          "title": "愚人节的玩笑",
+          "jsonPath": "shuimu/lessons/intermediate/056.json",
+          "videoCount": 0
+        },
+        {
+          "id": "intermediate-057",
+          "levelId": "intermediate",
+          "unitNo": 57,
+          "title": "逃学记录保持者",
+          "jsonPath": "shuimu/lessons/intermediate/057.json",
+          "videoCount": 0
+        },
+        {
+          "id": "intermediate-058",
+          "levelId": "intermediate",
+          "unitNo": 58,
+          "title": "太过完美的伪装",
+          "jsonPath": "shuimu/lessons/intermediate/058.json",
+          "videoCount": 0
+        },
+        {
+          "id": "intermediate-059",
+          "levelId": "intermediate",
+          "unitNo": 59,
+          "title": "在雪地里呼救",
+          "jsonPath": "shuimu/lessons/intermediate/059.json",
+          "videoCount": 0
+        },
+        {
+          "id": "intermediate-060",
+          "levelId": "intermediate",
+          "unitNo": 60,
+          "title": "一次成功的手术",
+          "jsonPath": "shuimu/lessons/intermediate/060.json",
+          "videoCount": 0
+        },
+        {
+          "id": "intermediate-061",
+          "levelId": "intermediate",
+          "unitNo": 61,
+          "title": "戒了无数次的烟",
+          "jsonPath": "shuimu/lessons/intermediate/061.json",
+          "videoCount": 0
+        },
+        {
+          "id": "intermediate-062",
+          "levelId": "intermediate",
+          "unitNo": 62,
+          "title": "有惊无险的飞机之旅",
+          "jsonPath": "shuimu/lessons/intermediate/062.json",
+          "videoCount": 0
+        },
+        {
+          "id": "intermediate-063",
+          "levelId": "intermediate",
+          "unitNo": 63,
+          "title": "靠机智逃脱的战俘",
+          "jsonPath": "shuimu/lessons/intermediate/063.json",
+          "videoCount": 0
+        },
+        {
+          "id": "intermediate-064",
+          "levelId": "intermediate",
+          "unitNo": 64,
+          "title": "一条长得像怪物的鱼",
+          "jsonPath": "shuimu/lessons/intermediate/064.json",
+          "videoCount": 0
+        },
+        {
+          "id": "intermediate-065",
+          "levelId": "intermediate",
+          "unitNo": 65,
+          "title": "活到老学到老",
+          "jsonPath": "shuimu/lessons/intermediate/065.json",
+          "videoCount": 0
+        },
+        {
+          "id": "intermediate-066",
+          "levelId": "intermediate",
+          "unitNo": 66,
+          "title": "日本的特殊节日",
+          "jsonPath": "shuimu/lessons/intermediate/066.json",
+          "videoCount": 0
+        },
+        {
+          "id": "intermediate-067",
+          "levelId": "intermediate",
+          "unitNo": 67,
+          "title": "未来的游泳冠军",
+          "jsonPath": "shuimu/lessons/intermediate/067.json",
+          "videoCount": 0
+        },
+        {
+          "id": "intermediate-068",
+          "levelId": "intermediate",
+          "unitNo": 68,
+          "title": "法国送给美国的自由女神像",
+          "jsonPath": "shuimu/lessons/intermediate/068.json",
+          "videoCount": 0
+        },
+        {
+          "id": "intermediate-069",
+          "levelId": "intermediate",
+          "unitNo": 69,
+          "title": "被大鱼吓到的潜水员",
+          "jsonPath": "shuimu/lessons/intermediate/069.json",
+          "videoCount": 0
+        },
+        {
+          "id": "intermediate-070",
+          "levelId": "intermediate",
+          "unitNo": 70,
+          "title": "艰难的矿井救援",
+          "jsonPath": "shuimu/lessons/intermediate/070.json",
+          "videoCount": 0
+        }
+      ],
+      "source": {
+        "files": [
+          {
+            "fileName": "英语中级讲义+完整版.pdf",
+            "bytes": 2851306,
+            "sha256": "52e5cd5168a487e3fbff09230b3bb978476801c50f13b14819e1b9bee8ba04c6"
+          },
+          {
+            "fileName": "英语中级讲义+完整版.docx",
+            "bytes": 751439,
+            "sha256": "67a9badf50dea22be24ca658f59e41e424a5db1b92c967a5eef40ba4fc2feccb"
+          },
+          {
+            "fileName": "英语中级讲义+完整版.txt",
+            "bytes": 737829,
+            "sha256": "5f5f67bab5f572a8a11354a7e7f63d2b5f7abb0c147f9aeb7b7872ed49b5c712"
+          }
+        ]
+      }
+    },
+    {
+      "id": "upper",
+      "title": "中高级",
+      "subtitle": "精读、理解与写作",
+      "lessonCount": 60,
+      "lessons": [
+        {
+          "id": "upper-001",
+          "levelId": "upper",
+          "unitNo": 1,
+          "title": "A puma at large",
+          "jsonPath": "shuimu/lessons/upper/001.json",
+          "videoCount": 0
+        },
+        {
+          "id": "upper-002",
+          "levelId": "upper",
+          "unitNo": 2,
+          "title": "Thirteen equals one",
+          "jsonPath": "shuimu/lessons/upper/002.json",
+          "videoCount": 0
+        },
+        {
+          "id": "upper-003",
+          "levelId": "upper",
+          "unitNo": 3,
+          "title": "An unknown goddess",
+          "jsonPath": "shuimu/lessons/upper/003.json",
+          "videoCount": 0
+        },
+        {
+          "id": "upper-004",
+          "levelId": "upper",
+          "unitNo": 4,
+          "title": "The double life of Alfred Bloggs",
+          "jsonPath": "shuimu/lessons/upper/004.json",
+          "videoCount": 0
+        },
+        {
+          "id": "upper-005",
+          "levelId": "upper",
+          "unitNo": 5,
+          "title": "The facts",
+          "jsonPath": "shuimu/lessons/upper/005.json",
+          "videoCount": 0
+        },
+        {
+          "id": "upper-006",
+          "levelId": "upper",
+          "unitNo": 6,
+          "title": "Smash-and-grab",
+          "jsonPath": "shuimu/lessons/upper/006.json",
+          "videoCount": 0
+        },
+        {
+          "id": "upper-007",
+          "levelId": "upper",
+          "unitNo": 7,
+          "title": "Mutilated ladies",
+          "jsonPath": "shuimu/lessons/upper/007.json",
+          "videoCount": 0
+        },
+        {
+          "id": "upper-008",
+          "levelId": "upper",
+          "unitNo": 8,
+          "title": "A famous monastery",
+          "jsonPath": "shuimu/lessons/upper/008.json",
+          "videoCount": 0
+        },
+        {
+          "id": "upper-009",
+          "levelId": "upper",
+          "unitNo": 9,
+          "title": "Flying cats",
+          "jsonPath": "shuimu/lessons/upper/009.json",
+          "videoCount": 0
+        },
+        {
+          "id": "upper-010",
+          "levelId": "upper",
+          "unitNo": 10,
+          "title": "The loss of the Titanic",
+          "jsonPath": "shuimu/lessons/upper/010.json",
+          "videoCount": 0
+        },
+        {
+          "id": "upper-011",
+          "levelId": "upper",
+          "unitNo": 11,
+          "title": "Life on a desert island",
+          "jsonPath": "shuimu/lessons/upper/011.json",
+          "videoCount": 0
+        },
+        {
+          "id": "upper-012",
+          "levelId": "upper",
+          "unitNo": 12,
+          "title": "Not guilty",
+          "jsonPath": "shuimu/lessons/upper/012.json",
+          "videoCount": 0
+        },
+        {
+          "id": "upper-013",
+          "levelId": "upper",
+          "unitNo": 13,
+          "title": "It's only me",
+          "jsonPath": "shuimu/lessons/upper/013.json",
+          "videoCount": 0
+        },
+        {
+          "id": "upper-014",
+          "levelId": "upper",
+          "unitNo": 14,
+          "title": "A noble gangster",
+          "jsonPath": "shuimu/lessons/upper/014.json",
+          "videoCount": 0
+        },
+        {
+          "id": "upper-015",
+          "levelId": "upper",
+          "unitNo": 15,
+          "title": "Fifty pence worth of trouble",
+          "jsonPath": "shuimu/lessons/upper/015.json",
+          "videoCount": 0
+        },
+        {
+          "id": "upper-016",
+          "levelId": "upper",
+          "unitNo": 16,
+          "title": "Mary had a little lamb",
+          "jsonPath": "shuimu/lessons/upper/016.json",
+          "videoCount": 0
+        },
+        {
+          "id": "upper-017",
+          "levelId": "upper",
+          "unitNo": 17,
+          "title": "The longest suspension bridge in the world",
+          "jsonPath": "shuimu/lessons/upper/017.json",
+          "videoCount": 0
+        },
+        {
+          "id": "upper-018",
+          "levelId": "upper",
+          "unitNo": 18,
+          "title": "Electric currents in modern art",
+          "jsonPath": "shuimu/lessons/upper/018.json",
+          "videoCount": 0
+        },
+        {
+          "id": "upper-019",
+          "levelId": "upper",
+          "unitNo": 19,
+          "title": "A very dear cat",
+          "jsonPath": "shuimu/lessons/upper/019.json",
+          "videoCount": 0
+        },
+        {
+          "id": "upper-020",
+          "levelId": "upper",
+          "unitNo": 20,
+          "title": "Pioneer pilots",
+          "jsonPath": "shuimu/lessons/upper/020.json",
+          "videoCount": 0
+        },
+        {
+          "id": "upper-021",
+          "levelId": "upper",
+          "unitNo": 21,
+          "title": "Daniel Mendoza",
+          "jsonPath": "shuimu/lessons/upper/021.json",
+          "videoCount": 0
+        },
+        {
+          "id": "upper-022",
+          "levelId": "upper",
+          "unitNo": 22,
+          "title": "By heart",
+          "jsonPath": "shuimu/lessons/upper/022.json",
+          "videoCount": 0
+        },
+        {
+          "id": "upper-023",
+          "levelId": "upper",
+          "unitNo": 23,
+          "title": "One man's meat is another man's poison",
+          "jsonPath": "shuimu/lessons/upper/023.json",
+          "videoCount": 0
+        },
+        {
+          "id": "upper-024",
+          "levelId": "upper",
+          "unitNo": 24,
+          "title": "A skeleton in the cupboard",
+          "jsonPath": "shuimu/lessons/upper/024.json",
+          "videoCount": 0
+        },
+        {
+          "id": "upper-025",
+          "levelId": "upper",
+          "unitNo": 25,
+          "title": "The Cutty Sark",
+          "jsonPath": "shuimu/lessons/upper/025.json",
+          "videoCount": 0
+        },
+        {
+          "id": "upper-026",
+          "levelId": "upper",
+          "unitNo": 26,
+          "title": "Wanted: a large biscuit tin",
+          "jsonPath": "shuimu/lessons/upper/026.json",
+          "videoCount": 0
+        },
+        {
+          "id": "upper-027",
+          "levelId": "upper",
+          "unitNo": 27,
+          "title": "Nothing to sell and nothing to buy",
+          "jsonPath": "shuimu/lessons/upper/027.json",
+          "videoCount": 0
+        },
+        {
+          "id": "upper-028",
+          "levelId": "upper",
+          "unitNo": 28,
+          "title": "Five pounds too dear",
+          "jsonPath": "shuimu/lessons/upper/028.json",
+          "videoCount": 0
+        },
+        {
+          "id": "upper-029",
+          "levelId": "upper",
+          "unitNo": 29,
+          "title": "Funny or not?",
+          "jsonPath": "shuimu/lessons/upper/029.json",
+          "videoCount": 0
+        },
+        {
+          "id": "upper-030",
+          "levelId": "upper",
+          "unitNo": 30,
+          "title": "The death of a ghost",
+          "jsonPath": "shuimu/lessons/upper/030.json",
+          "videoCount": 0
+        },
+        {
+          "id": "upper-031",
+          "levelId": "upper",
+          "unitNo": 31,
+          "title": "A lovable eccentric",
+          "jsonPath": "shuimu/lessons/upper/031.json",
+          "videoCount": 0
+        },
+        {
+          "id": "upper-032",
+          "levelId": "upper",
+          "unitNo": 32,
+          "title": "A lost ship",
+          "jsonPath": "shuimu/lessons/upper/032.json",
+          "videoCount": 0
+        },
+        {
+          "id": "upper-033",
+          "levelId": "upper",
+          "unitNo": 33,
+          "title": "A day to remember",
+          "jsonPath": "shuimu/lessons/upper/033.json",
+          "videoCount": 0
+        },
+        {
+          "id": "upper-034",
+          "levelId": "upper",
+          "unitNo": 34,
+          "title": "A happy discovery",
+          "jsonPath": "shuimu/lessons/upper/034.json",
+          "videoCount": 0
+        },
+        {
+          "id": "upper-035",
+          "levelId": "upper",
+          "unitNo": 35,
+          "title": "Justice was done",
+          "jsonPath": "shuimu/lessons/upper/035.json",
+          "videoCount": 0
+        },
+        {
+          "id": "upper-036",
+          "levelId": "upper",
+          "unitNo": 36,
+          "title": "A chance in a million",
+          "jsonPath": "shuimu/lessons/upper/036.json",
+          "videoCount": 0
+        },
+        {
+          "id": "upper-037",
+          "levelId": "upper",
+          "unitNo": 37,
+          "title": "The Westhaven Express",
+          "jsonPath": "shuimu/lessons/upper/037.json",
+          "videoCount": 0
+        },
+        {
+          "id": "upper-038",
+          "levelId": "upper",
+          "unitNo": 38,
+          "title": "The first calendar",
+          "jsonPath": "shuimu/lessons/upper/038.json",
+          "videoCount": 0
+        },
+        {
+          "id": "upper-039",
+          "levelId": "upper",
+          "unitNo": 39,
+          "title": "Nothing to worry about",
+          "jsonPath": "shuimu/lessons/upper/039.json",
+          "videoCount": 0
+        },
+        {
+          "id": "upper-040",
+          "levelId": "upper",
+          "unitNo": 40,
+          "title": "Who's who",
+          "jsonPath": "shuimu/lessons/upper/040.json",
+          "videoCount": 0
+        },
+        {
+          "id": "upper-041",
+          "levelId": "upper",
+          "unitNo": 41,
+          "title": "Illusions of pastoral peace",
+          "jsonPath": "shuimu/lessons/upper/041.json",
+          "videoCount": 0
+        },
+        {
+          "id": "upper-042",
+          "levelId": "upper",
+          "unitNo": 42,
+          "title": "Modern cavemen",
+          "jsonPath": "shuimu/lessons/upper/042.json",
+          "videoCount": 0
+        },
+        {
+          "id": "upper-043",
+          "levelId": "upper",
+          "unitNo": 43,
+          "title": "Fully insured",
+          "jsonPath": "shuimu/lessons/upper/043.json",
+          "videoCount": 0
+        },
+        {
+          "id": "upper-044",
+          "levelId": "upper",
+          "unitNo": 44,
+          "title": "Speed and comfort",
+          "jsonPath": "shuimu/lessons/upper/044.json",
+          "videoCount": 0
+        },
+        {
+          "id": "upper-045",
+          "levelId": "upper",
+          "unitNo": 45,
+          "title": "The power of the press",
+          "jsonPath": "shuimu/lessons/upper/045.json",
+          "videoCount": 0
+        },
+        {
+          "id": "upper-046",
+          "levelId": "upper",
+          "unitNo": 46,
+          "title": "Do it yourself",
+          "jsonPath": "shuimu/lessons/upper/046.json",
+          "videoCount": 0
+        },
+        {
+          "id": "upper-047",
+          "levelId": "upper",
+          "unitNo": 47,
+          "title": "Too high a price?",
+          "jsonPath": "shuimu/lessons/upper/047.json",
+          "videoCount": 0
+        },
+        {
+          "id": "upper-048",
+          "levelId": "upper",
+          "unitNo": 48,
+          "title": "The silent village",
+          "jsonPath": "shuimu/lessons/upper/048.json",
+          "videoCount": 0
+        },
+        {
+          "id": "upper-049",
+          "levelId": "upper",
+          "unitNo": 49,
+          "title": "The ideal servant",
+          "jsonPath": "shuimu/lessons/upper/049.json",
+          "videoCount": 0
+        },
+        {
+          "id": "upper-050",
+          "levelId": "upper",
+          "unitNo": 50,
+          "title": "New Year resolutions",
+          "jsonPath": "shuimu/lessons/upper/050.json",
+          "videoCount": 0
+        },
+        {
+          "id": "upper-051",
+          "levelId": "upper",
+          "unitNo": 51,
+          "title": "Predicting the future",
+          "jsonPath": "shuimu/lessons/upper/051.json",
+          "videoCount": 0
+        },
+        {
+          "id": "upper-052",
+          "levelId": "upper",
+          "unitNo": 52,
+          "title": "Mud is mud",
+          "jsonPath": "shuimu/lessons/upper/052.json",
+          "videoCount": 0
+        },
+        {
+          "id": "upper-053",
+          "levelId": "upper",
+          "unitNo": 53,
+          "title": "In the public interest",
+          "jsonPath": "shuimu/lessons/upper/053.json",
+          "videoCount": 0
+        },
+        {
+          "id": "upper-054",
+          "levelId": "upper",
+          "unitNo": 54,
+          "title": "Instinct or cleverness?",
+          "jsonPath": "shuimu/lessons/upper/054.json",
+          "videoCount": 0
+        },
+        {
+          "id": "upper-055",
+          "levelId": "upper",
+          "unitNo": 55,
+          "title": "From the earth: Greetings",
+          "jsonPath": "shuimu/lessons/upper/055.json",
+          "videoCount": 0
+        },
+        {
+          "id": "upper-056",
+          "levelId": "upper",
+          "unitNo": 56,
+          "title": "Our neighbour, the river",
+          "jsonPath": "shuimu/lessons/upper/056.json",
+          "videoCount": 0
+        },
+        {
+          "id": "upper-057",
+          "levelId": "upper",
+          "unitNo": 57,
+          "title": "Back in the old country",
+          "jsonPath": "shuimu/lessons/upper/057.json",
+          "videoCount": 0
+        },
+        {
+          "id": "upper-058",
+          "levelId": "upper",
+          "unitNo": 58,
+          "title": "A spot of bother",
+          "jsonPath": "shuimu/lessons/upper/058.json",
+          "videoCount": 0
+        },
+        {
+          "id": "upper-059",
+          "levelId": "upper",
+          "unitNo": 59,
+          "title": "Collecting",
+          "jsonPath": "shuimu/lessons/upper/059.json",
+          "videoCount": 0
+        },
+        {
+          "id": "upper-060",
+          "levelId": "upper",
+          "unitNo": 60,
+          "title": "Too early and too late",
+          "jsonPath": "shuimu/lessons/upper/060.json",
+          "videoCount": 0
+        }
+      ],
+      "source": {
+        "files": [
+          {
+            "fileName": "英语中高级讲义（完整版）.pdf",
+            "bytes": 3652791,
+            "sha256": "ae2169464908e90c3651558b4022ac553b635965c3d00999e9367c45f7f76caf"
+          },
+          {
+            "fileName": "英语中高级讲义（完整版）.docx",
+            "bytes": 2169147,
+            "sha256": "92746fb3193d41e68737dc9c8f3b25ec9332821a54dfbac98cc18c066b82383e"
+          },
+          {
+            "fileName": "英语中高级讲义（完整版）.txt",
+            "bytes": 699297,
+            "sha256": "92fa144d54ba8d8fc77bb542d23f38ad2a155390484a48555d55c2831b2ff852"
+          }
+        ]
+      }
+    }
+  ],
+  "source": {
+    "directoryName": "入门英语",
+    "bilibiliFile": "bilibili.txt",
+    "note": "PDF 为原版校验基准；TXT 为正文切分源；DOCX 用于结构抽查。"
+  }
+}

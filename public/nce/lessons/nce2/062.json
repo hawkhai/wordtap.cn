@@ -1,0 +1,135 @@
+{
+  "schemaVersion": 1,
+  "id": "nce2-062",
+  "bookId": "nce2",
+  "bookNo": 2,
+  "lessonNo": 62,
+  "lessonRange": [
+    62
+  ],
+  "title": "After the Fire",
+  "titleZh": "火灾之后",
+  "question": "What was the danger to the villages after the fire?",
+  "questionZh": "火灾过后，村庄面临着哪些危险？",
+  "text": "What was the danger to the villages after the fire?\n\nFiremen had been fighting the forest fire for nearly three weeks before they could get it under control.\nA short time before, great trees had covered the countryside for miles around.\nNow, smoke still rose up from the warm ground over the desolate hills.\nWinter was coming on and the hills threatened the surrounding villages with destruction, for heavy rain would not only wash away the soil but would cause serious floods as well.\nWhen the fire had at last been put out, the forest authorities ordered several tons of a special type of grass-seed which would grow quickly.\nThe seed was sprayed over the ground in huge quantities by aeroplanes.\nThe planes had been planting seed for nearly a month when it began to rain.\nBy then, however, in many places the grass had already taken root.\nIn place of the great trees which had been growing there for centuries, patches of green had begun to appear in the blackened soil.",
+  "bodyText": "Firemen had been fighting the forest fire for nearly three weeks before they could get it under control.\nA short time before, great trees had covered the countryside for miles around.\nNow, smoke still rose up from the warm ground over the desolate hills.\nWinter was coming on and the hills threatened the surrounding villages with destruction, for heavy rain would not only wash away the soil but would cause serious floods as well.\nWhen the fire had at last been put out, the forest authorities ordered several tons of a special type of grass-seed which would grow quickly.\nThe seed was sprayed over the ground in huge quantities by aeroplanes.\nThe planes had been planting seed for nearly a month when it began to rain.\nBy then, however, in many places the grass had already taken root.\nIn place of the great trees which had been growing there for centuries, patches of green had begun to appear in the blackened soil.",
+  "bodyTextZh": "消防员们与这场森林火灾抗争了近三周，才终于将其控制住。\n就在不久之前，这片乡村的周围几英里范围内，都长满了高大的树木。\n此刻，烟雾仍从那片荒凉山丘上温暖的地面中升起。\n冬天即将来临，那些山丘威胁着周围的村庄，随时可能将其摧毁。因为大雨不仅会冲走土壤，还会引发严重的洪水。\n当大火终于被扑灭后，森林管理部门订购了几吨一种特殊的草籽，这种草籽生长速度非常快。\n这些种子被飞机大量喷洒到地面上。\n这些飞机已经在进行播种作业近一个月了，就在这时，雨开始下了。\n然而，到那时为止，草已经在许多地方生根发芽了。\n取而代之的是，那些已经生长了几个世纪的参天大树不见了。在烧焦的土壤中，开始出现了一小块块绿色的斑点。",
+  "sentences": [
+    {
+      "index": 0,
+      "startTime": 0.5,
+      "endTime": 3,
+      "en": "Lesson 62",
+      "zh": "第62课",
+      "role": "lesson"
+    },
+    {
+      "index": 1,
+      "startTime": 3,
+      "endTime": 10.3,
+      "en": "After the Fire",
+      "zh": "火灾之后",
+      "role": "title"
+    },
+    {
+      "index": 2,
+      "startTime": 10.3,
+      "endTime": 16.43,
+      "en": "What was the danger to the villages after the fire?",
+      "zh": "火灾过后，村庄面临着哪些危险？",
+      "role": "question"
+    },
+    {
+      "index": 3,
+      "startTime": 16.43,
+      "endTime": 24.71,
+      "en": "Firemen had been fighting the forest fire for nearly three weeks before they could get it under control.",
+      "zh": "消防员们与这场森林火灾抗争了近三周，才终于将其控制住。",
+      "role": "body"
+    },
+    {
+      "index": 4,
+      "startTime": 24.71,
+      "endTime": 32.82,
+      "en": "A short time before, great trees had covered the countryside for miles around.",
+      "zh": "就在不久之前，这片乡村的周围几英里范围内，都长满了高大的树木。",
+      "role": "body"
+    },
+    {
+      "index": 5,
+      "startTime": 32.82,
+      "endTime": 40.73,
+      "en": "Now, smoke still rose up from the warm ground over the desolate hills.",
+      "zh": "此刻，烟雾仍从那片荒凉山丘上温暖的地面中升起。",
+      "role": "body"
+    },
+    {
+      "index": 6,
+      "startTime": 40.73,
+      "endTime": 56.96,
+      "en": "Winter was coming on and the hills threatened the surrounding villages with destruction, for heavy rain would not only wash away the soil but would cause serious floods as well.",
+      "zh": "冬天即将来临，那些山丘威胁着周围的村庄，随时可能将其摧毁。因为大雨不仅会冲走土壤，还会引发严重的洪水。",
+      "role": "body"
+    },
+    {
+      "index": 7,
+      "startTime": 56.96,
+      "endTime": 68.8,
+      "en": "When the fire had at last been put out, the forest authorities ordered several tons of a special type of grass-seed which would grow quickly.",
+      "zh": "当大火终于被扑灭后，森林管理部门订购了几吨一种特殊的草籽，这种草籽生长速度非常快。",
+      "role": "body"
+    },
+    {
+      "index": 8,
+      "startTime": 68.8,
+      "endTime": 75.84,
+      "en": "The seed was sprayed over the ground in huge quantities by aeroplanes.",
+      "zh": "这些种子被飞机大量喷洒到地面上。",
+      "role": "body"
+    },
+    {
+      "index": 9,
+      "startTime": 75.84,
+      "endTime": 81.84,
+      "en": "The planes had been planting seed for nearly a month when it began to rain.",
+      "zh": "这些飞机已经在进行播种作业近一个月了，就在这时，雨开始下了。",
+      "role": "body"
+    },
+    {
+      "index": 10,
+      "startTime": 81.84,
+      "endTime": 88.38,
+      "en": "By then, however, in many places the grass had already taken root.",
+      "zh": "然而，到那时为止，草已经在许多地方生根发芽了。",
+      "role": "body"
+    },
+    {
+      "index": 11,
+      "startTime": 88.38,
+      "endTime": null,
+      "en": "In place of the great trees which had been growing there for centuries, patches of green had begun to appear in the blackened soil.",
+      "zh": "取而代之的是，那些已经生长了几个世纪的参天大树不见了。在烧焦的土壤中，开始出现了一小块块绿色的斑点。",
+      "role": "body"
+    }
+  ],
+  "audio": {
+    "fileName": "62－After the Fire.mp3",
+    "sourcePath": "content/NCE-Flow/NCE2/62－After the Fire.mp3",
+    "exists": true
+  },
+  "source": {
+    "repository": "NCE-Flow",
+    "lrcFileName": "62－After the Fire.lrc",
+    "lrcPath": "content/NCE-Flow/NCE2/62－After the Fire.lrc",
+    "sourceDataFile": "content/NCE-Flow/static/data.json",
+    "generatedAt": "2026-07-23T02:59:02+00:00",
+    "generator": "scripts/generate_nce_json.py",
+    "generatorVersion": "2.0.0",
+    "metadata": {
+      "al": "新概念英语（二）",
+      "ar": "MP3 同步字幕版（美音）",
+      "ti": "After the Fire",
+      "by": "更多学习内容，请到VeryCD.com搜索“露珠”"
+    }
+  }
+}

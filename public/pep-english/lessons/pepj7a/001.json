@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "id": "pepj7a-001",
+  "groupId": "pepj7a",
+  "unitNo": 5,
+  "sequenceNo": 1,
+  "section": "Section B",
+  "title": "Do You Have a Soccer Ball?",
+  "jsonPath": "pep-english/lessons/pepj7a/001.json",
+  "text": "Frank Brown:\nI don't have a soccer ball, but my brother Alan does. We go to the same school and we love soccer. We play it at school with our friends. It's relaxing.\nGina Smith:\nYes, I do. I have two soccer balls, three volleyballs, four basketballs and five baseballs and bats. I love sports, but I don't play them—I only watch them on TV!\nWang Wei:\nNo, I don't. Soccer is difficult. I like ping-pong. It's easy for me. I have three ping-pong balls and two ping-pong bats. After class, I play ping-pong with my classmates.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Frank Brown:\nI don't have a soccer ball, but my brother Alan does. We go to the same school and we love soccer. We play it at school with our friends. It's relaxing."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Gina Smith:\nYes, I do. I have two soccer balls, three volleyballs, four basketballs and five baseballs and bats. I love sports, but I don't play them—I only watch them on TV!"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Wang Wei:\nNo, I don't. Soccer is difficult. I like ping-pong. It's easy for me. I have three ping-pong balls and two ping-pong bats. After class, I play ping-pong with my classmates."
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "初中",
+    "book": "七年级上册",
+    "pageStart": 52,
+    "pageEnd": 52,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "7d7bed5769efd4d786f353da10c755e9",
+    "pdfSize": 12005272,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/junior-7a.pdf#page=52",
+      "reviewedAt": "2026-07-22",
+      "notes": "Removed exercise instruction and title from body; restored the printed two-column reading order and all three profiles."
+    }
+  }
+}

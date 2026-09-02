@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "id": "pepj9-003",
+  "groupId": "pepj9",
+  "unitNo": 1,
+  "sequenceNo": 3,
+  "section": "Reading",
+  "title": "How Can You Become a Successful Learner?",
+  "jsonPath": "pep-english/lessons/pepj9/003.json",
+  "text": "Everyone is born with the ability to learn. But whether or not you can do this well depends on your learning habits. Research shows that successful learners have some good habits in common.\nCreating an interest in what they learn Studies show that if you are interested in something, your brain is more active and it is also easier for you to pay attention to it for a long time. Good learners often connect what they need to learn with something interesting. For example, if they need to learn English and they like music or sports, they can listen to English songs or watch sports programs in English. This way they will not get bored.\nPracticing and learning from mistakes Good learners think about what they are good at and what they need to practice more. Remember, \"Use it or lose it.\" Even if you learn something well, you will forget it unless you use it. \"Practice makes perfect.\" Good learners will keep practicing what they have learned, and they are not afraid of making mistakes. Alexander Graham Bell did not invent the telephone overnight. He succeeded by trying many times and learning from his mistakes.\nDeveloping their study skills It is not enough to just study hard. Good learners know the best way they can study. For example, they may take notes by writing down key words or by drawing mind maps. They also look for ways to review what they have learned. They may do this by reading their notes every day or by explaining the information to another student.\nAsking questions Good learners often ask questions during or after class. They even ask each other and try to find out the answers. Knowledge comes from questioning.\nLearning is a lifelong journey because every day brings something new. Everything that you learn becomes a part of you and changes you, so learn wisely and learn well.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Everyone is born with the ability to learn. But whether or not you can do this well depends on your learning habits. Research shows that successful learners have some good habits in common."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Creating an interest in what they learn Studies show that if you are interested in something, your brain is more active and it is also easier for you to pay attention to it for a long time. Good learners often connect what they need to learn with something interesting. For example, if they need to learn English and they like music or sports, they can listen to English songs or watch sports programs in English. This way they will not get bored."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Practicing and learning from mistakes Good learners think about what they are good at and what they need to practice more. Remember, \"Use it or lose it.\" Even if you learn something well, you will forget it unless you use it. \"Practice makes perfect.\" Good learners will keep practicing what they have learned, and they are not afraid of making mistakes. Alexander Graham Bell did not invent the telephone overnight. He succeeded by trying many times and learning from his mistakes."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Developing their study skills It is not enough to just study hard. Good learners know the best way they can study. For example, they may take notes by writing down key words or by drawing mind maps. They also look for ways to review what they have learned. They may do this by reading their notes every day or by explaining the information to another student."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Asking questions Good learners often ask questions during or after class. They even ask each other and try to find out the answers. Knowledge comes from questioning."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Learning is a lifelong journey because every day brings something new. Everything that you learn becomes a part of you and changes you, so learn wisely and learn well."
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "初中",
+    "book": "九年级全一册",
+    "pageStart": 20,
+    "pageEnd": 20,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "c6e628c22e0c2f9cfe4547699a1c95a4",
+    "pdfSize": 11088578,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/junior-9.pdf#page=20",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored the printed title, introduction, four headed sections and conclusion in reading order; excluded 2a/2b instructions and the Using Dictionaries strategy box."
+    }
+  }
+}

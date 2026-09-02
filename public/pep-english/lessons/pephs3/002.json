@@ -1,0 +1,76 @@
+{
+  "schemaVersion": 1,
+  "id": "pephs3-002",
+  "groupId": "pephs3",
+  "unitNo": 1,
+  "sequenceNo": 2,
+  "section": "Using Language",
+  "title": "Ancient Chinese Art on Show",
+  "jsonPath": "pep-english/lessons/pephs3/002.json",
+  "text": "The Richfield Museum of Fine Art is proud to present our new exhibition, “From Shang to Qing: Chinese Art Through the Ages.” Join us as we explore more than 3,000 years of wonderful art from the Middle Kingdom. From bronze bowls to ceramic vases, and jade sculptures to ink wash paintings, our goal is to display the Chinese artistic genius from ancient times.\nThe highlight of this exhibition is the painting Clearing After Snow on a Mountain Pass, one of the great works of Tang Yin (1470–1524). Born during the Ming Dynasty, Tang sought and failed to gain entry into the civil service, so he turned to painting instead. In time, he gained recognition as one of the greatest artists China has ever known. This painting, showing high mountains, trees, and houses covered in snow, was made with extraordinary skill. Though it is over 500 years old, it looks as fresh and full of life as the day it was created.\nAlso of primary note is a collection of nearly 100 bronze objects from the Shang Dynasty (1600 BCE–1046 BCE). While the artists who made these great works are not known, they showed great skill in creating these beautiful pieces. Some of the items on display are thought to have come from the collection of Emperor Qianlong (1711–1799), a great admirer of Shang Dynasty bronze.\nFinally, we have many fine examples of Tang Dynasty (618–907) sculptures. Most of these are of Buddhist origin. Even though Buddhism entered China much earlier, it did not really begin to show expansion until the seventh century. During this same period, trade along the Silk Road also boomed. Chinese sculpture thus found itself highly influenced by Buddhist art brought from India and Central Asia through the Silk Road. These works were intended to spread Buddhism and they are of exceptional beauty and quality. Looking at the faces of the figures in these sculptures, one sees the faces of the past. History is brought to life.\nThis is just a small taste of what is in store for you in this exhibition. We guarantee that “From Shang to Qing: Chinese Art Through the Ages” will transport you to another time with its amazing collection of works.\n“From Shang to Qing: Chinese Art Through the Ages” will run until November 25.\nOpening hours are from 9:00 a.m. to 5:00 p.m., from Tuesday to Sunday (the museum is closed on Mondays). No one will be admitted into the exhibition after 4:30 p.m.\nAdmission: $10 for adults; $8 for students; $5 for children under 12; free for children under 5.\nNo photos or food and drink are allowed in the museum.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "The Richfield Museum of Fine Art is proud to present our new exhibition, “From Shang to Qing: Chinese Art Through the Ages.” Join us as we explore more than 3,000 years of wonderful art from the Middle Kingdom. From bronze bowls to ceramic vases, and jade sculptures to ink wash paintings, our goal is to display the Chinese artistic genius from ancient times."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "The highlight of this exhibition is the painting Clearing After Snow on a Mountain Pass, one of the great works of Tang Yin (1470–1524). Born during the Ming Dynasty, Tang sought and failed to gain entry into the civil service, so he turned to painting instead. In time, he gained recognition as one of the greatest artists China has ever known. This painting, showing high mountains, trees, and houses covered in snow, was made with extraordinary skill. Though it is over 500 years old, it looks as fresh and full of life as the day it was created."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Also of primary note is a collection of nearly 100 bronze objects from the Shang Dynasty (1600 BCE–1046 BCE). While the artists who made these great works are not known, they showed great skill in creating these beautiful pieces. Some of the items on display are thought to have come from the collection of Emperor Qianlong (1711–1799), a great admirer of Shang Dynasty bronze."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Finally, we have many fine examples of Tang Dynasty (618–907) sculptures. Most of these are of Buddhist origin. Even though Buddhism entered China much earlier, it did not really begin to show expansion until the seventh century. During this same period, trade along the Silk Road also boomed. Chinese sculpture thus found itself highly influenced by Buddhist art brought from India and Central Asia through the Silk Road. These works were intended to spread Buddhism and they are of exceptional beauty and quality. Looking at the faces of the figures in these sculptures, one sees the faces of the past. History is brought to life."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "This is just a small taste of what is in store for you in this exhibition. We guarantee that “From Shang to Qing: Chinese Art Through the Ages” will transport you to another time with its amazing collection of works."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "“From Shang to Qing: Chinese Art Through the Ages” will run until November 25."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Opening hours are from 9:00 a.m. to 5:00 p.m., from Tuesday to Sunday (the museum is closed on Mondays). No one will be admitted into the exhibition after 4:30 p.m."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Admission: $10 for adults; $8 for students; $5 for children under 12; free for children under 5."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "No photos or food and drink are allowed in the museum."
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "选择性必修第三册",
+    "pageStart": 15,
+    "pageEnd": 15,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "f0dc33129a755a33421d401b71a05cd1",
+    "pdfSize": 12684455,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/senior-selective-3.pdf#page=15",
+      "reviewedAt": "2026-07-22",
+      "notes": "Retained the complete exhibition announcement, including practical date, hours, admission, and museum-rule paragraphs; excluded the instructional heading, prompt, browser mock-up furniture, artworks, and page furniture."
+    }
+  }
+}

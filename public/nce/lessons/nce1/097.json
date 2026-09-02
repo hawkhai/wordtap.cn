@@ -1,0 +1,232 @@
+{
+  "schemaVersion": 1,
+  "id": "nce1-097",
+  "bookId": "nce1",
+  "bookNo": 1,
+  "lessonNo": 97,
+  "lessonRange": [
+    97,
+    98
+  ],
+  "title": "A Small Blue Case",
+  "titleZh": "一个蓝色的小箱子。",
+  "question": "Does Mr. Hall get his case back?",
+  "questionZh": "霍尔先生能拿回他的箱子吗？",
+  "text": "Does Mr. Hall get his case back?\n\nI left a suitcase on the train to London the other day.\nCan you describe it, sir?\nIt's a small blue case and it's got a zip.\nThere's a label on the handle with my name and address on it.\nIs this case yours?\nNo, that's not mine.\nWhat about this one?\nThis one's got a label.\nLet me see it.\nWhat's your name and address?\nDavid Hall, 83, Bridge Street.\nThat's right.\nD. N. Hall, 83, Bridge Street.\nThree pounds fifty pence, please.\nHere you are.\nThank you.\nHey!\nWhat's the matter?\nThis case doesn't belong to me!\nYou've given me the wrong case!",
+  "bodyText": "I left a suitcase on the train to London the other day.\nCan you describe it, sir?\nIt's a small blue case and it's got a zip.\nThere's a label on the handle with my name and address on it.\nIs this case yours?\nNo, that's not mine.\nWhat about this one?\nThis one's got a label.\nLet me see it.\nWhat's your name and address?\nDavid Hall, 83, Bridge Street.\nThat's right.\nD. N. Hall, 83, Bridge Street.\nThree pounds fifty pence, please.\nHere you are.\nThank you.\nHey!\nWhat's the matter?\nThis case doesn't belong to me!\nYou've given me the wrong case!",
+  "bodyTextZh": "前几天，我把一个行李箱忘在了开往伦敦的火车上。\n先生，您能描述一下它吗？\n这是一个蓝色的小箱子，上面有一个拉链。\n把手上有一个标签，上面写着我的名字和地址。\n这是你的箱子吗？\n不，那不是我的。\n这个怎么样？\n这个箱子有一个标签。\n让我看看。\n你叫什么名字，住在哪里？\n大卫·霍尔，桥街83号。\n没错。\nD·N·霍尔，桥街83号。\n请给我三磅五十便士。\n给你。\n谢谢。\n嘿！\n怎么了？\n这个箱子不是我的！\n你给我拿错箱子了！",
+  "sentences": [
+    {
+      "index": 0,
+      "startTime": 0.57,
+      "endTime": 2.83,
+      "en": "Lesson 97",
+      "zh": "第97课",
+      "role": "lesson"
+    },
+    {
+      "index": 1,
+      "startTime": 2.83,
+      "endTime": 7.03,
+      "en": "A small blue case",
+      "zh": "一个蓝色的小箱子。",
+      "role": "title"
+    },
+    {
+      "index": 2,
+      "startTime": 7.03,
+      "endTime": 12.79,
+      "en": "Listen to the tape then answer this question.",
+      "zh": "先听这段录音，然后再回答这个问题。",
+      "role": "prompt"
+    },
+    {
+      "index": 3,
+      "startTime": 12.79,
+      "endTime": 18.4,
+      "en": "Does Mr. Hall get his case back?",
+      "zh": "霍尔先生能拿回他的箱子吗？",
+      "role": "question"
+    },
+    {
+      "index": 4,
+      "startTime": 18.4,
+      "endTime": 24.39,
+      "en": "I left a suitcase on the train to London the other day.",
+      "zh": "前几天，我把一个行李箱忘在了开往伦敦的火车上。",
+      "role": "body"
+    },
+    {
+      "index": 5,
+      "startTime": 24.39,
+      "endTime": 27.81,
+      "en": "Can you describe it, sir?",
+      "zh": "先生，您能描述一下它吗？",
+      "role": "body"
+    },
+    {
+      "index": 6,
+      "startTime": 27.81,
+      "endTime": 34.27,
+      "en": "It's a small blue case and it's got a zip.",
+      "zh": "这是一个蓝色的小箱子，上面有一个拉链。",
+      "role": "body"
+    },
+    {
+      "index": 7,
+      "startTime": 34.27,
+      "endTime": 40.41,
+      "en": "There's a label on the handle with my name and address on it.",
+      "zh": "把手上有一个标签，上面写着我的名字和地址。",
+      "role": "body"
+    },
+    {
+      "index": 8,
+      "startTime": 40.41,
+      "endTime": 43.14,
+      "en": "Is this case yours?",
+      "zh": "这是你的箱子吗？",
+      "role": "body"
+    },
+    {
+      "index": 9,
+      "startTime": 43.14,
+      "endTime": 45.83,
+      "en": "No, that's not mine.",
+      "zh": "不，那不是我的。",
+      "role": "body"
+    },
+    {
+      "index": 10,
+      "startTime": 45.83,
+      "endTime": 48.25,
+      "en": "What about this one?",
+      "zh": "这个怎么样？",
+      "role": "body"
+    },
+    {
+      "index": 11,
+      "startTime": 48.25,
+      "endTime": 51.51,
+      "en": "This one's got a label.",
+      "zh": "这个箱子有一个标签。",
+      "role": "body"
+    },
+    {
+      "index": 12,
+      "startTime": 51.51,
+      "endTime": 53.98,
+      "en": "Let me see it.",
+      "zh": "让我看看。",
+      "role": "body"
+    },
+    {
+      "index": 13,
+      "startTime": 53.98,
+      "endTime": 57.5,
+      "en": "What's your name and address?",
+      "zh": "你叫什么名字，住在哪里？",
+      "role": "body"
+    },
+    {
+      "index": 14,
+      "startTime": 57.5,
+      "endTime": 62.64,
+      "en": "David Hall, 83, Bridge Street.",
+      "zh": "大卫·霍尔，桥街83号。",
+      "role": "body"
+    },
+    {
+      "index": 15,
+      "startTime": 62.64,
+      "endTime": 64.14,
+      "en": "That's right.",
+      "zh": "没错。",
+      "role": "body"
+    },
+    {
+      "index": 16,
+      "startTime": 64.14,
+      "endTime": 69.99,
+      "en": "D. N. Hall, 83, Bridge Street.",
+      "zh": "D·N·霍尔，桥街83号。",
+      "role": "body"
+    },
+    {
+      "index": 17,
+      "startTime": 69.99,
+      "endTime": 73.69,
+      "en": "Three pounds fifty pence, please.",
+      "zh": "请给我三磅五十便士。",
+      "role": "body"
+    },
+    {
+      "index": 18,
+      "startTime": 73.69,
+      "endTime": 75.52,
+      "en": "Here you are.",
+      "zh": "给你。",
+      "role": "body"
+    },
+    {
+      "index": 19,
+      "startTime": 75.52,
+      "endTime": 76.89,
+      "en": "Thank you.",
+      "zh": "谢谢。",
+      "role": "body"
+    },
+    {
+      "index": 20,
+      "startTime": 76.89,
+      "endTime": 78.11,
+      "en": "Hey!",
+      "zh": "嘿！",
+      "role": "body"
+    },
+    {
+      "index": 21,
+      "startTime": 78.11,
+      "endTime": 80.09,
+      "en": "What's the matter?",
+      "zh": "怎么了？",
+      "role": "body"
+    },
+    {
+      "index": 22,
+      "startTime": 80.09,
+      "endTime": 84.56,
+      "en": "This case doesn't belong to me!",
+      "zh": "这个箱子不是我的！",
+      "role": "body"
+    },
+    {
+      "index": 23,
+      "startTime": 84.56,
+      "endTime": null,
+      "en": "You've given me the wrong case!",
+      "zh": "你给我拿错箱子了！",
+      "role": "body"
+    }
+  ],
+  "audio": {
+    "fileName": "097&098－A Small Blue Case.mp3",
+    "sourcePath": "content/NCE-Flow/NCE1/097&098－A Small Blue Case.mp3",
+    "exists": true
+  },
+  "source": {
+    "repository": "NCE-Flow",
+    "lrcFileName": "097&098－A Small Blue Case.lrc",
+    "lrcPath": "content/NCE-Flow/NCE1/097&098－A Small Blue Case.lrc",
+    "sourceDataFile": "content/NCE-Flow/static/data.json",
+    "generatedAt": "2026-07-23T02:59:02+00:00",
+    "generator": "scripts/generate_nce_json.py",
+    "generatorVersion": "2.0.0",
+    "metadata": {
+      "al": "新概念英语（一）",
+      "ar": "MP3 同步字幕版（美音）",
+      "ti": "A Small Blue Case",
+      "by": "更多学习内容，请到VeryCD.com搜索“露珠”"
+    }
+  }
+}

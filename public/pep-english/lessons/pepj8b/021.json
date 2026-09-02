@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "pepj8b-021",
+  "groupId": "pepj8b",
+  "unitNo": 5,
+  "sequenceNo": 21,
+  "section": "Section B",
+  "title": "Why Kate Missed the Basketball Competition",
+  "jsonPath": "pep-english/lessons/pepj8b/021.json",
+  "text": "John: Hey, Kate, why weren't you at the school basketball competition yesterday? I called you so many times, but you didn't answer.\nKate: Sorry, John. I left my phone at home.\nJohn: What were you doing at the time of the competition?\nKate: Well, I left my house late and when the competition started, I was still making my way to school.\nJohn: Then what happened?\nKate: When I got to the bus stop, I realized that my bag was still at home!\nJohn: But why didn't you just go home to get your bag?\nKate: I did, but while I was running back home, I saw a dog by the side of the road and it was hurt.\nJohn: Oh, so I'm sure you helped the dog. I know how much you love animals.\nKate: Yes, I wanted to call the Animal Helpline, but I didn't have my phone so I had to wait for someone to walk by. Then I used his phone to call the helpline.\nJohn: OK. No wonder you didn't make it to the competition.\nKate: Yes, I'm so sorry I wasn't there to cheer you on, but I'm happy that your team won!",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "John: Hey, Kate, why weren't you at the school basketball competition yesterday? I called you so many times, but you didn't answer.\nKate: Sorry, John. I left my phone at home.\nJohn: What were you doing at the time of the competition?\nKate: Well, I left my house late and when the competition started, I was still making my way to school.\nJohn: Then what happened?\nKate: When I got to the bus stop, I realized that my bag was still at home!\nJohn: But why didn't you just go home to get your bag?\nKate: I did, but while I was running back home, I saw a dog by the side of the road and it was hurt.\nJohn: Oh, so I'm sure you helped the dog. I know how much you love animals.\nKate: Yes, I wanted to call the Animal Helpline, but I didn't have my phone so I had to wait for someone to walk by. Then I used his phone to call the helpline.\nJohn: OK. No wonder you didn't make it to the competition.\nKate: Yes, I'm so sorry I wasn't there to cheer you on, but I'm happy that your team won!"
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "初中",
+    "book": "八年级下册",
+    "pageStart": 110,
+    "pageEnd": 110,
+    "extractionMode": "ocr",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "21d35e04f1c22b74a3fe3e95e88adff9",
+    "pdfSize": 18208880,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/junior-8b.pdf#page=110",
+      "reviewedAt": "2026-07-22",
+      "notes": "Retained the complete John-Kate tapescript across both printed columns; corrected the automatic Unit 6 assignment to the page's Unit 5 Section B heading and excluded adjacent tapescripts."
+    }
+  }
+}

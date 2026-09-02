@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "pephs4-022",
+  "groupId": "pephs4",
+  "unitNo": 1,
+  "sequenceNo": 22,
+  "section": "Reading, Listening, and Acting",
+  "title": "Previously on The Evos",
+  "jsonPath": "pep-english/lessons/pephs4/022.json",
+  "text": "Previously on The Evos: A breaking news report tells of seven meteors hitting each of the seven continents, as revealed by a scientist called Dr Evo. Meanwhile, three friends, Seb, Arnie, and Laura are cycling through woods near their homes. After seeing a flash of light, they follow it. They discover a hole with a strange glowing rock inside. The news on Seb’s radio is talking about the meteors, so they realise this must be one of them. Seb says they should take a closer look. As he gets closer, he suddenly falls asleep, and as the others go to help him, they also fall asleep. They awake at dusk to the sounds of men searching for the meteor. They escape and agree to see each other at school the following day, as well as promising not to tell anyone. Some men, dressed in black protective suits, take the meteor away …",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Previously on The Evos: A breaking news report tells of seven meteors hitting each of the seven continents, as revealed by a scientist called Dr Evo. Meanwhile, three friends, Seb, Arnie, and Laura are cycling through woods near their homes. After seeing a flash of light, they follow it. They discover a hole with a strange glowing rock inside. The news on Seb’s radio is talking about the meteors, so they realise this must be one of them. Seb says they should take a closer look. As he gets closer, he suddenly falls asleep, and as the others go to help him, they also fall asleep. They awake at dusk to the sounds of men searching for the meteor. They escape and agree to see each other at school the following day, as well as promising not to tell anyone. Some men, dressed in black protective suits, take the meteor away …"
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "选择性必修第四册",
+    "pageStart": 70,
+    "pageEnd": 70,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "6fc94127b322f6f5abff068bef6faa2e",
+    "pdfSize": 12330614,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/senior-selective-4.pdf#page=70",
+      "reviewedAt": "2026-07-22",
+      "notes": "Retained the complete printed recap/introduction ending with the book’s ellipsis; excluded listening questions, ability matching and role-play instructions."
+    }
+  }
+}

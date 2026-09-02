@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "pephr2-015",
+  "groupId": "pephr2",
+  "unitNo": 5,
+  "sequenceNo": 15,
+  "section": "Assessing Your Progress",
+  "title": "Learning to Love the Piano",
+  "jsonPath": "pep-english/lessons/pephr2/015.json",
+  "text": "I never thought I was very talented at anything to do with music, but my parents wanted me to learn to play the piano at the age of six. To be a good daughter, I agreed to learn even though I wasn't interested in it at all. Experienced in reading her students' minds, my piano teacher could tell after a couple of lessons that my heart was not in it. However, after learning for about six months, I was asked to perform something at the year-end concert arranged by my teacher. Surprised and terrified at the same time, I could only agree. Given my inexperience, I chose a fairly simple composition. In order to perform well, I practised the same composition for an hour a day for the next two months. On the day of the concert, I was so nervous that I woke up with butterflies in my stomach. As it turned out, there was no need to be nervous because all my hard work paid off and I played perfectly. Encouraged by this first performance and the positive reaction of the audience, I have continued to play the piano and enjoy it more every day.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "I never thought I was very talented at anything to do with music, but my parents wanted me to learn to play the piano at the age of six. To be a good daughter, I agreed to learn even though I wasn't interested in it at all. Experienced in reading her students' minds, my piano teacher could tell after a couple of lessons that my heart was not in it. However, after learning for about six months, I was asked to perform something at the year-end concert arranged by my teacher. Surprised and terrified at the same time, I could only agree. Given my inexperience, I chose a fairly simple composition. In order to perform well, I practised the same composition for an hour a day for the next two months. On the day of the concert, I was so nervous that I woke up with butterflies in my stomach. As it turned out, there was no need to be nervous because all my hard work paid off and I played perfectly. Encouraged by this first performance and the positive reaction of the audience, I have continued to play the piano and enjoy it more every day."
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "必修第二册",
+    "pageStart": 65,
+    "pageEnd": 65,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "38d49874e4f015fd89f21c9306f6b9d5",
+    "pdfSize": 14270612,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/senior-required-2.pdf#page=65",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored the complete two-column piano-learning narrative, verifying the continuation from 'I could only' at the lower left to 'agree' at the upper right; supplied a descriptive title and excluded vocabulary blanks, grammar instruction and reflection form."
+    }
+  }
+}

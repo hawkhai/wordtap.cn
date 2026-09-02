@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "pephr3-025",
+  "groupId": "pephr3",
+  "unitNo": 4,
+  "sequenceNo": 25,
+  "section": "Reading and Writing",
+  "title": "Homes on Mars?",
+  "jsonPath": "pep-english/lessons/pephr3/025.json",
+  "text": "Some of the world’s most important scientists think the idea of people living on Mars will come true one day. Stephen Hawking believed humans must move into space to survive. “Once we spread out into space and establish independent colonies, our future should be safe,” he said. Robert Zubrin, a rocket scientist, agrees and thinks starting with Mars makes the most sense. He thinks sending people to Mars will allow us to learn a lot—for example, about the ability of humans to live in a very different environment.\nHowever, scientists will need to terraform Mars for people to be able to live. Terraforming means changing the environment on a planet so that it is similar to Earth’s. One of the main goals of terraforming Mars is to warm it up because the average temperature there is about -60°C. One idea for warming Mars is to build factories there that produce greenhouse gases. This could take many centuries. However, it should lead to rainfall and the growth of plants, resulting in more air that people can breathe.\nAnother big concern for scientists is whether humans can move to Mars and still stay healthy in mind and body. As a test, six people lived in a Mars-like environment in Hawaii for a year before “returning to Earth” recently. It was a 1,200-square-foot room that was on the side of a volcano and used the sun for energy. Christiane Heinicke, one of the people who lived there, said that one of the biggest issues was feeling bored. So humans on Mars would always need to keep themselves busy with various activities. Another important finding was that the people living together should all be able to get along and work together.\nOne particular organisation based in Europe is planning to send the first humans to Mars before 2030. The organisation believes that its project is giving people worldwide the chance to be part of the first human crew ever to live on Mars for good. However, many experts think the project’s cost of US$6 billion is too low for it to be successful. The American space agency NASA believes that sending people to Mars would cost about US$100 billion, although this estimate is based on bringing them back to Earth, too. Regardless, it seems that humans living on Mars may well happen a lot sooner than most people believe.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Some of the world’s most important scientists think the idea of people living on Mars will come true one day. Stephen Hawking believed humans must move into space to survive. “Once we spread out into space and establish independent colonies, our future should be safe,” he said. Robert Zubrin, a rocket scientist, agrees and thinks starting with Mars makes the most sense. He thinks sending people to Mars will allow us to learn a lot—for example, about the ability of humans to live in a very different environment."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "However, scientists will need to terraform Mars for people to be able to live. Terraforming means changing the environment on a planet so that it is similar to Earth’s. One of the main goals of terraforming Mars is to warm it up because the average temperature there is about -60°C. One idea for warming Mars is to build factories there that produce greenhouse gases. This could take many centuries. However, it should lead to rainfall and the growth of plants, resulting in more air that people can breathe."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Another big concern for scientists is whether humans can move to Mars and still stay healthy in mind and body. As a test, six people lived in a Mars-like environment in Hawaii for a year before “returning to Earth” recently. It was a 1,200-square-foot room that was on the side of a volcano and used the sun for energy. Christiane Heinicke, one of the people who lived there, said that one of the biggest issues was feeling bored. So humans on Mars would always need to keep themselves busy with various activities. Another important finding was that the people living together should all be able to get along and work together."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "One particular organisation based in Europe is planning to send the first humans to Mars before 2030. The organisation believes that its project is giving people worldwide the chance to be part of the first human crew ever to live on Mars for good. However, many experts think the project’s cost of US$6 billion is too low for it to be successful. The American space agency NASA believes that sending people to Mars would cost about US$100 billion, although this estimate is based on bringing them back to Earth, too. Regardless, it seems that humans living on Mars may well happen a lot sooner than most people believe."
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "必修第三册",
+    "pageStart": 89,
+    "pageEnd": 89,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "31e51a16693d03177a5825f53f612a87",
+    "pdfSize": 14202806,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/senior-required-3.pdf#page=89",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored the complete four-paragraph article under the actual display title Homes on Mars?; treated Humans Terraforming Mars as the image caption and excluded the instruction, illustration and running furniture."
+    }
+  }
+}

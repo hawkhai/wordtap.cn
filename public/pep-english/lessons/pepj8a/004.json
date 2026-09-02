@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "id": "pepj8a-004",
+  "groupId": "pepj8a",
+  "unitNo": 2,
+  "sequenceNo": 4,
+  "section": "Section A",
+  "title": "Jack and Claire's Weekly Plans",
+  "jsonPath": "pep-english/lessons/pepj8a/004.json",
+  "text": "Jack: Hi, Claire, are you free next week?\nClaire: Hmm... next week is quite full for me, Jack.\nJack: Really? How come?\nClaire: I have dance and piano lessons.\nJack: What kind of dance are you learning?\nClaire: Oh, swing dance. It's fun! I have class once a week, every Monday.\nJack: How often do you have piano lessons?\nClaire: Twice a week, on Wednesday and Friday.\nJack: Well, how about Tuesday?\nClaire: Oh, I have to play tennis with my friends. But do you want to come?\nJack: Sure!",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Jack: Hi, Claire, are you free next week?"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Claire: Hmm... next week is quite full for me, Jack."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Jack: Really? How come?"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Claire: I have dance and piano lessons."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Jack: What kind of dance are you learning?"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Claire: Oh, swing dance. It's fun! I have class once a week, every Monday."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Jack: How often do you have piano lessons?"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Claire: Twice a week, on Wednesday and Friday."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Jack: Well, how about Tuesday?"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Claire: Oh, I have to play tennis with my friends. But do you want to come?"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Jack: Sure!"
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "初中",
+    "book": "八年级上册",
+    "pageStart": 21,
+    "pageEnd": 21,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "24fcd352dca21a6ee547539f550ed35c",
+    "pdfSize": 9469090,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/junior-8a.pdf#page=21",
+      "reviewedAt": "2026-07-22",
+      "notes": "Retained only the complete 2d role-play, restored all eleven speaker turns, assigned a descriptive title, and excluded listening/chart activities 2a-2c."
+    }
+  }
+}

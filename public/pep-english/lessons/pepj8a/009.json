@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "id": "pepj8a-009",
+  "groupId": "pepj8a",
+  "unitNo": 4,
+  "sequenceNo": 9,
+  "section": "Section B",
+  "title": "Who's Got Talent?",
+  "jsonPath": "pep-english/lessons/pepj8a/009.json",
+  "text": "Everyone is good at something, but some people are truly talented. It's always interesting to watch other people show their talents. Talent shows are getting more and more popular. First, there were shows like American Idol and America's Got Talent. Now, there are similar shows around the world, such as China's Got Talent.\nAll these shows have one thing in common: They try to look for the best singers, the most talented dancers, the most exciting magicians, the funniest actors and so on. All kinds of people join these shows. But who can play the piano the best or sing the most beautifully? That's up to you to decide. When people watch the show, they usually play a role in deciding the winner. And the winner always gets a very good prize.\nHowever, not everybody enjoys watching these shows. Some think that the lives of the performers are made up. For example, some people say they are poor farmers, but in fact they are just actors. However, if you don't take these shows too seriously, they are fun to watch. And one great thing about them is that they give people a way to make their dreams come true.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Everyone is good at something, but some people are truly talented. It's always interesting to watch other people show their talents. Talent shows are getting more and more popular. First, there were shows like American Idol and America's Got Talent. Now, there are similar shows around the world, such as China's Got Talent."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "All these shows have one thing in common: They try to look for the best singers, the most talented dancers, the most exciting magicians, the funniest actors and so on. All kinds of people join these shows. But who can play the piano the best or sing the most beautifully? That's up to you to decide. When people watch the show, they usually play a role in deciding the winner. And the winner always gets a very good prize."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "However, not everybody enjoys watching these shows. Some think that the lives of the performers are made up. For example, some people say they are poor farmers, but in fact they are just actors. However, if you don't take these shows too seriously, they are fun to watch. And one great thing about them is that they give people a way to make their dreams come true."
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "初中",
+    "book": "八年级上册",
+    "pageStart": 40,
+    "pageEnd": 40,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "24fcd352dca21a6ee547539f550ed35c",
+    "pdfSize": 9469090,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/junior-8a.pdf#page=40",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored the complete three-paragraph 2b reading, corrected title and Section B metadata, and excluded the 2a speaking prompt and 2b question."
+    }
+  }
+}

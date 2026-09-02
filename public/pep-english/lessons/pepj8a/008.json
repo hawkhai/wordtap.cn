@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 1,
+  "id": "pepj8a-008",
+  "groupId": "pepj8a",
+  "unitNo": 4,
+  "sequenceNo": 8,
+  "section": "Section A",
+  "title": "Greg's New Neighborhood",
+  "jsonPath": "pep-english/lessons/pepj8a/008.json",
+  "text": "Greg: Hi, I'm Greg. I'm new in town.\nHelen: Hi, I'm Helen. Welcome to the neighborhood! How do you like it so far?\nGreg: It's fantastic, but I still don't really know my way around.\nHelen: Well, the best supermarket is on Center Street. You can buy the freshest food there.\nGreg: Oh, great. Is there a cinema around here? I love watching movies.\nHelen: Yes, Sun Cinema is the newest one. You can sit the most comfortably because they have the biggest seats.\nGreg: Thanks for telling me.\nHelen: No problem.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Greg: Hi, I'm Greg. I'm new in town."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Helen: Hi, I'm Helen. Welcome to the neighborhood! How do you like it so far?"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Greg: It's fantastic, but I still don't really know my way around."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Helen: Well, the best supermarket is on Center Street. You can buy the freshest food there."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Greg: Oh, great. Is there a cinema around here? I love watching movies."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Helen: Yes, Sun Cinema is the newest one. You can sit the most comfortably because they have the biggest seats."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Greg: Thanks for telling me."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Helen: No problem."
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "初中",
+    "book": "八年级上册",
+    "pageStart": 37,
+    "pageEnd": 37,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "24fcd352dca21a6ee547539f550ed35c",
+    "pdfSize": 9469090,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/junior-8a.pdf#page=37",
+      "reviewedAt": "2026-07-22",
+      "notes": "Retained only the complete 2d role-play, restored all eight speaker turns and excluded listening survey activities 2a-2b and the incomplete 2c model."
+    }
+  }
+}

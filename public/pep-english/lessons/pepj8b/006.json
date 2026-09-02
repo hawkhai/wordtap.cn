@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "id": "pepj8b-006",
+  "groupId": "pepj8b",
+  "unitNo": 4,
+  "sequenceNo": 6,
+  "section": "Section A",
+  "title": "Kim's Problem with Her Sister",
+  "jsonPath": "pep-english/lessons/pepj8b/006.json",
+  "text": "Dave: You look sad, Kim. What's wrong?\nKim: Well, I found my sister looking through my things yesterday. She took some of my new magazines and CDs.\nDave: Hmm... that's not very nice. Did she give them back to you?\nKim: Yes, but I'm still angry with her. What should I do?\nDave: Well, I guess you could tell her to say sorry. But why don't you forget about it so that you can be friends again? Although she's wrong, it's not a big deal.\nKim: You're right. Thanks for your advice.\nDave: No problem. Hope things work out.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Dave: You look sad, Kim. What's wrong?"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Kim: Well, I found my sister looking through my things yesterday. She took some of my new magazines and CDs."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Dave: Hmm... that's not very nice. Did she give them back to you?"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Kim: Yes, but I'm still angry with her. What should I do?"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Dave: Well, I guess you could tell her to say sorry. But why don't you forget about it so that you can be friends again? Although she's wrong, it's not a big deal."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Kim: You're right. Thanks for your advice."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Dave: No problem. Hope things work out."
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "初中",
+    "book": "八年级下册",
+    "pageStart": 35,
+    "pageEnd": 35,
+    "extractionMode": "ocr",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "21d35e04f1c22b74a3fe3e95e88adff9",
+    "pdfSize": 18208880,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/junior-8b.pdf#page=35",
+      "reviewedAt": "2026-07-22",
+      "notes": "Retained only the complete 2d role-play, restored all seven speaker turns and assigned a descriptive title; excluded listening exercises and the short 2c model."
+    }
+  }
+}

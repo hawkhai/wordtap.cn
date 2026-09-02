@@ -1,0 +1,184 @@
+{
+  "schemaVersion": 1,
+  "id": "nce1-031",
+  "bookId": "nce1",
+  "bookNo": 1,
+  "lessonNo": 31,
+  "lessonRange": [
+    31,
+    32
+  ],
+  "title": "Where's Sally",
+  "titleZh": "莎莉在哪里？",
+  "question": "Is the cat climbing the tree?",
+  "questionZh": "那只猫在爬树吗？",
+  "text": "Is the cat climbing the tree?\n\nWhere's Sally, Jack?\nShe's in the garden, Jean.\nWhat's she doing?\nShe's sitting under the tree.\nIs Tim in the garden, too?\nYes, he is.\nHe's climbing the tree.\nI beg your pardon?\nWho's climbing the tree?\nTim is.\nWhat about the dog?\nThe dog's in the garden, too.\nIt's running across the grass.\nIt's running after a cat.",
+  "bodyText": "Where's Sally, Jack?\nShe's in the garden, Jean.\nWhat's she doing?\nShe's sitting under the tree.\nIs Tim in the garden, too?\nYes, he is.\nHe's climbing the tree.\nI beg your pardon?\nWho's climbing the tree?\nTim is.\nWhat about the dog?\nThe dog's in the garden, too.\nIt's running across the grass.\nIt's running after a cat.",
+  "bodyTextZh": "莎莉在哪里，杰克？\n她在花园里，琼。\n她在做什么？\n她正坐在树下。\n蒂姆也在花园里吗？\n是的，他在。\n他正在爬树。\n什么？请再说一遍。\n谁在爬树？\n是蒂姆。\n那狗呢？\n狗也在花园里。\n它正在穿过草地。\n它正在追一只猫。",
+  "sentences": [
+    {
+      "index": 0,
+      "startTime": 0.51,
+      "endTime": 3.04,
+      "en": "Lesson 31",
+      "zh": "第31课",
+      "role": "lesson"
+    },
+    {
+      "index": 1,
+      "startTime": 3.04,
+      "endTime": 5.65,
+      "en": "Where's Sally?",
+      "zh": "莎莉在哪里？",
+      "role": "title"
+    },
+    {
+      "index": 2,
+      "startTime": 5.65,
+      "endTime": 11.45,
+      "en": "Listen to the tape then answer this question.",
+      "zh": "先听这段录音，然后回答这个问题。",
+      "role": "prompt"
+    },
+    {
+      "index": 3,
+      "startTime": 11.45,
+      "endTime": 15.84,
+      "en": "Is the cat climbing the tree?",
+      "zh": "那只猫在爬树吗？",
+      "role": "question"
+    },
+    {
+      "index": 4,
+      "startTime": 15.84,
+      "endTime": 18.67,
+      "en": "Where's Sally, Jack?",
+      "zh": "莎莉在哪里，杰克？",
+      "role": "body"
+    },
+    {
+      "index": 5,
+      "startTime": 18.67,
+      "endTime": 21.45,
+      "en": "She's in the garden, Jean.",
+      "zh": "她在花园里，琼。",
+      "role": "body"
+    },
+    {
+      "index": 6,
+      "startTime": 21.45,
+      "endTime": 23.47,
+      "en": "What's she doing?",
+      "zh": "她在做什么？",
+      "role": "body"
+    },
+    {
+      "index": 7,
+      "startTime": 23.47,
+      "endTime": 26.56,
+      "en": "She's sitting under the tree.",
+      "zh": "她正坐在树下。",
+      "role": "body"
+    },
+    {
+      "index": 8,
+      "startTime": 26.56,
+      "endTime": 29.88,
+      "en": "Is Tim in the garden, too?",
+      "zh": "蒂姆也在花园里吗？",
+      "role": "body"
+    },
+    {
+      "index": 9,
+      "startTime": 29.88,
+      "endTime": 31.82,
+      "en": "Yes, he is.",
+      "zh": "是的，他在。",
+      "role": "body"
+    },
+    {
+      "index": 10,
+      "startTime": 31.82,
+      "endTime": 34.68,
+      "en": "He's climbing the tree.",
+      "zh": "他正在爬树。",
+      "role": "body"
+    },
+    {
+      "index": 11,
+      "startTime": 34.68,
+      "endTime": 36.91,
+      "en": "I beg your pardon?",
+      "zh": "什么？请再说一遍。",
+      "role": "body"
+    },
+    {
+      "index": 12,
+      "startTime": 36.91,
+      "endTime": 39.47,
+      "en": "Who's climbing the tree?",
+      "zh": "谁在爬树？",
+      "role": "body"
+    },
+    {
+      "index": 13,
+      "startTime": 39.47,
+      "endTime": 41.41,
+      "en": "Tim is.",
+      "zh": "是蒂姆。",
+      "role": "body"
+    },
+    {
+      "index": 14,
+      "startTime": 41.41,
+      "endTime": 44.25,
+      "en": "What about the dog?",
+      "zh": "那狗呢？",
+      "role": "body"
+    },
+    {
+      "index": 15,
+      "startTime": 44.25,
+      "endTime": 46.89,
+      "en": "The dog's in the garden, too.",
+      "zh": "狗也在花园里。",
+      "role": "body"
+    },
+    {
+      "index": 16,
+      "startTime": 46.89,
+      "endTime": 50.02,
+      "en": "It's running across the grass.",
+      "zh": "它正在穿过草地。",
+      "role": "body"
+    },
+    {
+      "index": 17,
+      "startTime": 50.02,
+      "endTime": null,
+      "en": "It's running after a cat.",
+      "zh": "它正在追一只猫。",
+      "role": "body"
+    }
+  ],
+  "audio": {
+    "fileName": "031&032－Where's Sally.mp3",
+    "sourcePath": "content/NCE-Flow/NCE1/031&032－Where's Sally.mp3",
+    "exists": true
+  },
+  "source": {
+    "repository": "NCE-Flow",
+    "lrcFileName": "031&032－Where's Sally.lrc",
+    "lrcPath": "content/NCE-Flow/NCE1/031&032－Where's Sally.lrc",
+    "sourceDataFile": "content/NCE-Flow/static/data.json",
+    "generatedAt": "2026-07-23T02:59:02+00:00",
+    "generator": "scripts/generate_nce_json.py",
+    "generatorVersion": "2.0.0",
+    "metadata": {
+      "al": "新概念英语（一）",
+      "ar": "MP3 同步字幕版（美音）",
+      "ti": "Where's Sally?",
+      "by": "更多学习内容，请到VeryCD.com搜索“露珠”"
+    }
+  }
+}

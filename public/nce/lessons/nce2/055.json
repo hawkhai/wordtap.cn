@@ -1,0 +1,143 @@
+{
+  "schemaVersion": 1,
+  "id": "nce2-055",
+  "bookId": "nce2",
+  "bookNo": 2,
+  "lessonNo": 55,
+  "lessonRange": [
+    55
+  ],
+  "title": "Not a Gold Mine",
+  "titleZh": "Not a Gold Mine",
+  "question": "What did the team find?",
+  "questionZh": "团队发现了什么？",
+  "text": "What did the team find?\n\nDreams of finding lost treasure almost came true recently.\nA new machine called 'The Revealer' has been invented and it has been used to detect gold which has been buried in the ground.\nThe machine was used in a cave near the seashore where--it is said--pirates used to hide gold.\nThe pirates would often bury gold in the cave and then fail to collect it.\nArmed with the new machine, a search party went into the cave hoping to find buried treasure.\nThe leader of the party was examining the soil near the entrance to the cave when the machine showed that there was gold under the ground.\nVery excited, the party dug a hole two feet deep.\nThey finally found a small gold coin which was almost worthless.\nThe party then searched the whole cave thoroughly but did not find anything except an empty tin trunk.\nIn spite of this, many people are confident that 'The Revealer' may reveal something of value fairly soon.",
+  "bodyText": "Dreams of finding lost treasure almost came true recently.\nA new machine called 'The Revealer' has been invented and it has been used to detect gold which has been buried in the ground.\nThe machine was used in a cave near the seashore where--it is said--pirates used to hide gold.\nThe pirates would often bury gold in the cave and then fail to collect it.\nArmed with the new machine, a search party went into the cave hoping to find buried treasure.\nThe leader of the party was examining the soil near the entrance to the cave when the machine showed that there was gold under the ground.\nVery excited, the party dug a hole two feet deep.\nThey finally found a small gold coin which was almost worthless.\nThe party then searched the whole cave thoroughly but did not find anything except an empty tin trunk.\nIn spite of this, many people are confident that 'The Revealer' may reveal something of value fairly soon.",
+  "bodyTextZh": "最近，找到失宝藏的梦想几乎成真了。\n一种名为“The Revealer”的新机器已经被发明出来了。它已被用于探测埋藏在地下的黄金。\n这台机器被用于海边附近的一个洞穴中；据说，海盗们过去常常在那里藏匿黄金。\n海盗们经常把黄金埋藏在洞穴里，但后来却没能把那些黄金取出来。\n带着这台新机器，一支搜寻队进入了洞穴，希望能找到埋藏的宝藏。\n当队长正在检查洞穴入口附近的土壤时，机器显示地下有黄金。\n非常兴奋，大家一起挖了一个两英尺深的坑。\n他们终于找到了一枚小金币，但这枚金币几乎毫无价值。\n随后，他们彻底搜查了整个洞穴，但除了一个空铁皮箱外什么也没找到。\n尽管如此，许多人仍然相信，“揭示者”很快就会揭示出有价值的东西。",
+  "sentences": [
+    {
+      "index": 0,
+      "startTime": 0.5,
+      "endTime": 3,
+      "en": "Lesson 55",
+      "zh": "第55课",
+      "role": "lesson"
+    },
+    {
+      "index": 1,
+      "startTime": 3,
+      "endTime": 10.19,
+      "en": "Not a Gold Mine",
+      "zh": "Not a Gold Mine",
+      "role": "title"
+    },
+    {
+      "index": 2,
+      "startTime": 10.19,
+      "endTime": 14.25,
+      "en": "What did the team find?",
+      "zh": "团队发现了什么？",
+      "role": "question"
+    },
+    {
+      "index": 3,
+      "startTime": 14.25,
+      "endTime": 20.36,
+      "en": "Dreams of finding lost treasure almost came true recently.",
+      "zh": "最近，找到失宝藏的梦想几乎成真了。",
+      "role": "body"
+    },
+    {
+      "index": 4,
+      "startTime": 20.36,
+      "endTime": 32.07,
+      "en": "A new machine called 'The Revealer' has been invented and it has been used to detect gold which has been buried in the ground.",
+      "zh": "一种名为“The Revealer”的新机器已经被发明出来了。它已被用于探测埋藏在地下的黄金。",
+      "role": "body"
+    },
+    {
+      "index": 5,
+      "startTime": 32.07,
+      "endTime": 41.97,
+      "en": "The machine was used in a cave near the seashore where--it is said--pirates used to hide gold.",
+      "zh": "这台机器被用于海边附近的一个洞穴中；据说，海盗们过去常常在那里藏匿黄金。",
+      "role": "body"
+    },
+    {
+      "index": 6,
+      "startTime": 41.97,
+      "endTime": 49.07,
+      "en": "The pirates would often bury gold in the cave and then fail to collect it.",
+      "zh": "海盗们经常把黄金埋藏在洞穴里，但后来却没能把那些黄金取出来。",
+      "role": "body"
+    },
+    {
+      "index": 7,
+      "startTime": 49.07,
+      "endTime": 57.25,
+      "en": "Armed with the new machine, a search party went into the cave hoping to find buried treasure.",
+      "zh": "带着这台新机器，一支搜寻队进入了洞穴，希望能找到埋藏的宝藏。",
+      "role": "body"
+    },
+    {
+      "index": 8,
+      "startTime": 57.25,
+      "endTime": 68.51,
+      "en": "The leader of the party was examining the soil near the entrance to the cave when the machine showed that there was gold under the ground.",
+      "zh": "当队长正在检查洞穴入口附近的土壤时，机器显示地下有黄金。",
+      "role": "body"
+    },
+    {
+      "index": 9,
+      "startTime": 68.51,
+      "endTime": 74.14,
+      "en": "Very excited, the party dug a hole two feet deep.",
+      "zh": "非常兴奋，大家一起挖了一个两英尺深的坑。",
+      "role": "body"
+    },
+    {
+      "index": 10,
+      "startTime": 74.14,
+      "endTime": 80.66,
+      "en": "They finally found a small gold coin which was almost worthless.",
+      "zh": "他们终于找到了一枚小金币，但这枚金币几乎毫无价值。",
+      "role": "body"
+    },
+    {
+      "index": 11,
+      "startTime": 80.66,
+      "endTime": 91.21,
+      "en": "The party then searched the whole cave thoroughly but did not find anything except an empty tin trunk.",
+      "zh": "随后，他们彻底搜查了整个洞穴，但除了一个空铁皮箱外什么也没找到。",
+      "role": "body"
+    },
+    {
+      "index": 12,
+      "startTime": 91.21,
+      "endTime": null,
+      "en": "In spite of this, many people are confident that 'The Revealer' may reveal something of value fairly soon.",
+      "zh": "尽管如此，许多人仍然相信，“揭示者”很快就会揭示出有价值的东西。",
+      "role": "body"
+    }
+  ],
+  "audio": {
+    "fileName": "55－Not a Gold Mine.mp3",
+    "sourcePath": "content/NCE-Flow/NCE2/55－Not a Gold Mine.mp3",
+    "exists": true
+  },
+  "source": {
+    "repository": "NCE-Flow",
+    "lrcFileName": "55－Not a Gold Mine.lrc",
+    "lrcPath": "content/NCE-Flow/NCE2/55－Not a Gold Mine.lrc",
+    "sourceDataFile": "content/NCE-Flow/static/data.json",
+    "generatedAt": "2026-07-23T02:59:02+00:00",
+    "generator": "scripts/generate_nce_json.py",
+    "generatorVersion": "2.0.0",
+    "metadata": {
+      "al": "新概念英语（二）",
+      "ar": "MP3 同步字幕版（美音）",
+      "ti": "Not a Gold Mine",
+      "by": "更多学习内容，请到VeryCD.com搜索“露珠”"
+    }
+  }
+}

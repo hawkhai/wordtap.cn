@@ -1,0 +1,76 @@
+{
+  "schemaVersion": 2,
+  "id": "rw1-u02-c",
+  "sequenceNo": 6,
+  "groupId": "rw1",
+  "unitNo": 2,
+  "unitTitle": "Loving parents, loving children",
+  "section": "C",
+  "articleType": "stories-of-china",
+  "title": "Bonds of love",
+  "printedPageStart": 51,
+  "printedPageEnd": 52,
+  "jsonPath": "college-english/lessons/rw1/rw1-u02-c.json",
+  "characterCount": 2154,
+  "text": "The moment I entered our old family house during the recent holiday break, I was overwhelmed by a strong feeling of nostalgia (怀旧).\nMy bedroom appeared exactly as I remembered it when I moved out. On the neatly ironed white bedsheet was my favorite childhood toy, a silly-looking monkey with incredibly long arms. I opened my bedside drawer. My large pack of colorful origami paper (折纸), along with half-finished paper cranes (纸鹤), was tidily kept in a box, carefully sealed up by my mom. Even the pair of old scissors I once used to cut paper flowers was kept with the set.\nSeveral years ago, I excitedly journeyed halfway around the world from Nanjing, China, to London, the U.K., in pursuit of further studies. It was only upon my recent return, at a more mature age, that I realized my teenage decision was also driven by a longing for independence from the protective shelter of home.\nIn recent years, reports about strict Asian parenting often make headlines. Some of my friends in London say that they feel sorry for me for what they imagine to be the strict upbringing I must have endured. I laugh as I reflect on how misleading these assumptions have been. Knowing the importance of education in Chinese culture, I understand why some parents set high academic standards for their children.\nThe honest truth is, my mother would scold me when I was lazy with my piano practice or left important school assignments unfinished until the night before the deadline. But these scoldings were just a drop in the ocean of the precious mother-daughter moments we spent together – jogging on the beach, trying out new food, and traveling the world.\nAs China becomes increasingly cosmopolitan (国际性的), younger generations of parents are adopting ever more diverse parenting strategies to shape their children into well-rounded individuals. The old stereotype of strict parents really just doesn’t apply anymore.\nIt may have taken me a decade to realize this, but I suddenly feel lucky to have grown up in a family with strict, loving parents. The beautiful memories and close emotional bonds between my parents and me will remain my greatest asset for life.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "The moment I entered our old family house during the recent holiday break, I was overwhelmed by a strong feeling of nostalgia (怀旧)."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "My bedroom appeared exactly as I remembered it when I moved out. On the neatly ironed white bedsheet was my favorite childhood toy, a silly-looking monkey with incredibly long arms. I opened my bedside drawer. My large pack of colorful origami paper (折纸), along with half-finished paper cranes (纸鹤), was tidily kept in a box, carefully sealed up by my mom. Even the pair of old scissors I once used to cut paper flowers was kept with the set."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Several years ago, I excitedly journeyed halfway around the world from Nanjing, China, to London, the U.K., in pursuit of further studies. It was only upon my recent return, at a more mature age, that I realized my teenage decision was also driven by a longing for independence from the protective shelter of home."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "In recent years, reports about strict Asian parenting often make headlines. Some of my friends in London say that they feel sorry for me for what they imagine to be the strict upbringing I must have endured. I laugh as I reflect on how misleading these assumptions have been. Knowing the importance of education in Chinese culture, I understand why some parents set high academic standards for their children."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "The honest truth is, my mother would scold me when I was lazy with my piano practice or left important school assignments unfinished until the night before the deadline. But these scoldings were just a drop in the ocean of the precious mother-daughter moments we spent together – jogging on the beach, trying out new food, and traveling the world."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "As China becomes increasingly cosmopolitan (国际性的), younger generations of parents are adopting ever more diverse parenting strategies to shape their children into well-rounded individuals. The old stereotype of strict parents really just doesn’t apply anymore."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "It may have taken me a decade to realize this, but I suddenly feel lucky to have grown up in a family with strict, loving parents. The beautiful memories and close emotional bonds between my parents and me will remain my greatest asset for life."
+    }
+  ],
+  "source": {
+    "series": "新视野大学英语（第四版）",
+    "book": "读写教程 1",
+    "sourceBook": "NHCE4-RW1",
+    "printedPageStart": 51,
+    "printedPageEnd": 52,
+    "pdfPageStart": 66,
+    "pdfPageEnd": 67,
+    "pdfSha256": "05d7a57fb09156e13d02ce498271c86917869b5327e8981f1eedf205ceb465ec",
+    "ocrFiles": [
+      "tools/College-English/NHCE4-RW1/ocr/json/NHCE4-RW1_66.json",
+      "tools/College-English/NHCE4-RW1/ocr/json/NHCE4-RW1_67.json"
+    ]
+  },
+  "manualReview": {
+    "status": "passed",
+    "reviewer": "Codex",
+    "reviewedAt": "2026-07-30T01:32:06Z",
+    "correctionCount": 8,
+    "evidence": "content/College-English/reviewed-articles/rw1-u02-c.json; NHCE4-RW1 PDF pages 66-67; images 66-67",
+    "textSha256": "795d37b724c1cf8dea0466bfc78cae5e905b61b76cffab1e26a468a426ef9d8a",
+    "eventSha256": "a2e5a2fb116f4e85b47e8444417f72e034be8511959906507f0b47ff401ae116"
+  }
+}

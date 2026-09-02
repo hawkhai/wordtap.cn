@@ -1,0 +1,127 @@
+{
+  "schemaVersion": 1,
+  "id": "nce2-043",
+  "bookId": "nce2",
+  "bookNo": 2,
+  "lessonNo": 43,
+  "lessonRange": [
+    43
+  ],
+  "title": "Over the South Pole",
+  "titleZh": "飞越南极",
+  "question": "How was the plane able to clear the mountains?",
+  "questionZh": "这架飞机是如何成功飞越那些山脉的呢？",
+  "text": "How was the plane able to clear the mountains?\n\nIn 1929, three years after his flight over the North Pole, the American explorer, R.E. Byrd, successfully flew over the South Pole for the first time.\nThough, at first, Byrd and his men were able to take a great many photographs of the mountains that lay below, they soon ran into serious trouble.\nAt one point, it seemed certain that their plane would crash.\nIt could only get over the mountains if it rose to 10, 000 feet.\nByrd at once ordered his men to throw out two heavy food sacks.\nThe plane was then able to rise and it cleared the mountains by 400 feet.\nByrd now knew that he would be able to reach the South Pole which was 300 miles away, for there were no more mountains in sight.\nThe aircraft was able to fly over the endless white plains without difficulty.",
+  "bodyText": "In 1929, three years after his flight over the North Pole, the American explorer, R.E. Byrd, successfully flew over the South Pole for the first time.\nThough, at first, Byrd and his men were able to take a great many photographs of the mountains that lay below, they soon ran into serious trouble.\nAt one point, it seemed certain that their plane would crash.\nIt could only get over the mountains if it rose to 10, 000 feet.\nByrd at once ordered his men to throw out two heavy food sacks.\nThe plane was then able to rise and it cleared the mountains by 400 feet.\nByrd now knew that he would be able to reach the South Pole which was 300 miles away, for there were no more mountains in sight.\nThe aircraft was able to fly over the endless white plains without difficulty.",
+  "bodyTextZh": "1929年，在他飞越北极三年后……美国探险家 R.E. 比尔德（R.E. Byrd）它首次成功飞越了南极。\n不过，起初伯德和他的手下们确实拍下了大量的照片，大量的照片记录了下方那些山脉的景象。他们很快就遇到了严重的麻烦。\n有那么一刻，人们确信他们的飞机将会坠毁。\n只有当它上升到 10,000 英尺的高度时，才能翻越那些山脉。\n伯德立刻命令他的手下扔掉两个沉重的食物袋。\n飞机于是得以爬升，并以400英尺的高度飞越了山脉。\n伯德现在知道，他能够到达300英里外的南极点了，因为眼前已经没有更多的山脉了。\n飞机得以毫不费力地飞越那片无尽的白色平原。",
+  "sentences": [
+    {
+      "index": 0,
+      "startTime": 0.5,
+      "endTime": 3,
+      "en": "Lesson 43",
+      "zh": "第43课",
+      "role": "lesson"
+    },
+    {
+      "index": 1,
+      "startTime": 3,
+      "endTime": 10.69,
+      "en": "Over the South Pole",
+      "zh": "飞越南极",
+      "role": "title"
+    },
+    {
+      "index": 2,
+      "startTime": 10.69,
+      "endTime": 15.88,
+      "en": "How was the plane able to clear the mountains?",
+      "zh": "这架飞机是如何成功飞越那些山脉的呢？",
+      "role": "question"
+    },
+    {
+      "index": 3,
+      "startTime": 15.88,
+      "endTime": 32.03,
+      "en": "In 1929, three years after his flight over the North Pole, the American explorer, R.E. Byrd, successfully flew over the South Pole for the first time.",
+      "zh": "1929年，在他飞越北极三年后……美国探险家 R.E. 比尔德（R.E. Byrd）它首次成功飞越了南极。",
+      "role": "body"
+    },
+    {
+      "index": 4,
+      "startTime": 32.03,
+      "endTime": 46.01,
+      "en": "Though, at first, Byrd and his men were able to take a great many photographs of the mountains that lay below, they soon ran into serious trouble.",
+      "zh": "不过，起初伯德和他的手下们确实拍下了大量的照片，大量的照片记录了下方那些山脉的景象。他们很快就遇到了严重的麻烦。",
+      "role": "body"
+    },
+    {
+      "index": 5,
+      "startTime": 46.01,
+      "endTime": 51.39,
+      "en": "At one point, it seemed certain that their plane would crash.",
+      "zh": "有那么一刻，人们确信他们的飞机将会坠毁。",
+      "role": "body"
+    },
+    {
+      "index": 6,
+      "startTime": 51.39,
+      "endTime": 57.71,
+      "en": "It could only get over the mountains if it rose to 10, 000 feet.",
+      "zh": "只有当它上升到 10,000 英尺的高度时，才能翻越那些山脉。",
+      "role": "body"
+    },
+    {
+      "index": 7,
+      "startTime": 57.71,
+      "endTime": 64.15,
+      "en": "Byrd at once ordered his men to throw out two heavy food sacks.",
+      "zh": "伯德立刻命令他的手下扔掉两个沉重的食物袋。",
+      "role": "body"
+    },
+    {
+      "index": 8,
+      "startTime": 64.15,
+      "endTime": 71.03,
+      "en": "The plane was then able to rise and it cleared the mountains by 400 feet.",
+      "zh": "飞机于是得以爬升，并以400英尺的高度飞越了山脉。",
+      "role": "body"
+    },
+    {
+      "index": 9,
+      "startTime": 71.03,
+      "endTime": 82.53,
+      "en": "Byrd now knew that he would be able to reach the South Pole which was 300 miles away, for there were no more mountains in sight.",
+      "zh": "伯德现在知道，他能够到达300英里外的南极点了，因为眼前已经没有更多的山脉了。",
+      "role": "body"
+    },
+    {
+      "index": 10,
+      "startTime": 82.53,
+      "endTime": null,
+      "en": "The aircraft was able to fly over the endless white plains without difficulty.",
+      "zh": "飞机得以毫不费力地飞越那片无尽的白色平原。",
+      "role": "body"
+    }
+  ],
+  "audio": {
+    "fileName": "43－Over the South Pole.mp3",
+    "sourcePath": "content/NCE-Flow/NCE2/43－Over the South Pole.mp3",
+    "exists": true
+  },
+  "source": {
+    "repository": "NCE-Flow",
+    "lrcFileName": "43－Over the South Pole.lrc",
+    "lrcPath": "content/NCE-Flow/NCE2/43－Over the South Pole.lrc",
+    "sourceDataFile": "content/NCE-Flow/static/data.json",
+    "generatedAt": "2026-07-23T02:59:02+00:00",
+    "generator": "scripts/generate_nce_json.py",
+    "generatorVersion": "2.0.0",
+    "metadata": {
+      "al": "新概念英语（二）",
+      "ar": "MP3 同步字幕版（美音）",
+      "ti": "Over the South Pole",
+      "by": "更多学习内容，请到VeryCD.com搜索“露珠”"
+    }
+  }
+}

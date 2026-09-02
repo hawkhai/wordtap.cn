@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "id": "pephr3-001",
+  "groupId": "pephr3",
+  "unitNo": 1,
+  "sequenceNo": 1,
+  "section": "Reading and Thinking",
+  "title": "Why Do We Celebrate Festivals?",
+  "jsonPath": "pep-english/lessons/pephr3/001.json",
+  "text": "Festivals are celebrated all around the world. They have a wide range of origins, such as the seasons of the year, religions, famous figures, and important events. Every festival has its different customs and unique charms. However, no matter how different they may seem, all over the world, the spirit of sharing joy, gratitude, love, or peace is common in all festivals.\nOf all the traditional festivals, the harvest festival can be found in almost every culture. This important agricultural festival takes place after all the crops have been gathered in. People celebrate to show that they are grateful for the year's supply of food. In ancient Egypt, the harvest festival was celebrated during the springtime—the Egyptian harvest season. It featured a parade and a great feast with music, dancing, and sports. Today, in some European countries, people decorate churches and town halls with flowers and fruit, and get together to celebrate over a meal. During the Mid-Autumn Festival in China, families gather to admire the shining moon and enjoy delicious mooncakes.\nCustoms play a significant role in festivals, but sometimes they can change over time. With the development of modern society and the spread of new ideas, some traditions may fade away and others may be established. One example is the typical Chinese Spring Festival custom of lighting firecrackers to drive away the evil spirits and celebrate the new year. Nowadays, many big cities have given up this custom in order to avoid air pollution. Another example is Halloween, which slowly became an exciting festival for children, in spite of its religious origins.\nFestivals are becoming more and more commercial, with businesses taking advantage of the celebrations. Online shopping websites and social media apps have made it much easier for the public to spend more on gifts for their loved ones. Although some believe festivals should not be commercialised, others believe the increase in spending is good for the economy and public happiness.\nFestivals are an important part of society. They reflect people's wishes, beliefs, faiths, and attitudes towards life. They are occasions that allow us to relax and enjoy life, and forget about our work for a little while. They help us understand where we came from, who we are, and what to appreciate. And if you study festivals carefully, you may be surprised to find that different cultures actually have a lot in common after all.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Festivals are celebrated all around the world. They have a wide range of origins, such as the seasons of the year, religions, famous figures, and important events. Every festival has its different customs and unique charms. However, no matter how different they may seem, all over the world, the spirit of sharing joy, gratitude, love, or peace is common in all festivals."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Of all the traditional festivals, the harvest festival can be found in almost every culture. This important agricultural festival takes place after all the crops have been gathered in. People celebrate to show that they are grateful for the year's supply of food. In ancient Egypt, the harvest festival was celebrated during the springtime—the Egyptian harvest season. It featured a parade and a great feast with music, dancing, and sports. Today, in some European countries, people decorate churches and town halls with flowers and fruit, and get together to celebrate over a meal. During the Mid-Autumn Festival in China, families gather to admire the shining moon and enjoy delicious mooncakes."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Customs play a significant role in festivals, but sometimes they can change over time. With the development of modern society and the spread of new ideas, some traditions may fade away and others may be established. One example is the typical Chinese Spring Festival custom of lighting firecrackers to drive away the evil spirits and celebrate the new year. Nowadays, many big cities have given up this custom in order to avoid air pollution. Another example is Halloween, which slowly became an exciting festival for children, in spite of its religious origins."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Festivals are becoming more and more commercial, with businesses taking advantage of the celebrations. Online shopping websites and social media apps have made it much easier for the public to spend more on gifts for their loved ones. Although some believe festivals should not be commercialised, others believe the increase in spending is good for the economy and public happiness."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Festivals are an important part of society. They reflect people's wishes, beliefs, faiths, and attitudes towards life. They are occasions that allow us to relax and enjoy life, and forget about our work for a little while. They help us understand where we came from, who we are, and what to appreciate. And if you study festivals carefully, you may be surprised to find that different cultures actually have a lot in common after all."
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "必修第三册",
+    "pageStart": 11,
+    "pageEnd": 12,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "31e51a16693d03177a5825f53f612a87",
+    "pdfSize": 14202806,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/senior-required-3.pdf#page=11-12",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored all five paragraphs across the two-page article in printed order; verified the continuation on page 12 and excluded lead-in questions, images, strategy box, discussion and cloze activities."
+    }
+  }
+}

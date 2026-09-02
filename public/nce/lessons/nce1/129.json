@@ -1,0 +1,248 @@
+{
+  "schemaVersion": 1,
+  "id": "nce1-129",
+  "bookId": "nce1",
+  "bookNo": 1,
+  "lessonNo": 129,
+  "lessonRange": [
+    129,
+    130
+  ],
+  "title": "Seventy Miles an Hour",
+  "titleZh": "每小时七十英里",
+  "question": "What does Ann advise her husband to do next time?",
+  "questionZh": "安建议她丈夫下次该怎么做？",
+  "text": "What does Ann advise her husband to do next time?\n\nLook, Gary!\nThat policeman's waving to you.\nHe wants you to stop.\nWhere do you think you are?\nOn a race track?\nYou must have been driving at seventy miles an hour.\nI can't have been.\nI was doing eighty when I overtook you.\nDidn't you see the speed limit?\nI'm afraid I didn't, officer.\nI must have been dreaming.\nHe wasn't dreaming, officer.\nI was telling him to drive slowly.\nThat's why I didn't see the sign.\nLet me see your driving licence.\nI won't charge you this time.\nBut you'd better not do it again!\nThank you.\nI'll certainly be more careful.\nI told you to drive slowly, Gary.\nYou always tell me to drive slowly, darling.\nWell, next time you'd better take my advice!",
+  "bodyText": "Look, Gary!\nThat policeman's waving to you.\nHe wants you to stop.\nWhere do you think you are?\nOn a race track?\nYou must have been driving at seventy miles an hour.\nI can't have been.\nI was doing eighty when I overtook you.\nDidn't you see the speed limit?\nI'm afraid I didn't, officer.\nI must have been dreaming.\nHe wasn't dreaming, officer.\nI was telling him to drive slowly.\nThat's why I didn't see the sign.\nLet me see your driving licence.\nI won't charge you this time.\nBut you'd better not do it again!\nThank you.\nI'll certainly be more careful.\nI told you to drive slowly, Gary.\nYou always tell me to drive slowly, darling.\nWell, next time you'd better take my advice!",
+  "bodyTextZh": "看，加里！\n那个警察正在向你挥手。\n他希望你停下来。\n你以为自己在哪里啊？\n在赛道上？\n你当时肯定是以每小时70英里的速度在开车。\n我不可能开那么快。\n我超过你的时候，时速是八十英里。\n你没看到限速标志吗？\n恐怕我没有，警官。\n我肯定是在做梦。\n他并没有在做梦，警官。\n我当时在告诉他要开慢一点。\n这就是为什么我没有看到那个标志的原因。\n请让我看一下你的驾驶执照。\n这次我就不罚你了。\n但你最好别再这么做了！\n谢谢。\n我一定会更加小心的。\n我早就告诉过你要开慢一点，加里。\n你总是让我开慢车，亲爱的。\n嗯，下次你最好还是听我的建议吧！",
+  "sentences": [
+    {
+      "index": 0,
+      "startTime": 0.61,
+      "endTime": 3.81,
+      "en": "Lesson 129",
+      "zh": "第129课",
+      "role": "lesson"
+    },
+    {
+      "index": 1,
+      "startTime": 3.81,
+      "endTime": 7.08,
+      "en": "Seventy miles an hour",
+      "zh": "每小时七十英里",
+      "role": "title"
+    },
+    {
+      "index": 2,
+      "startTime": 7.08,
+      "endTime": 12.34,
+      "en": "Listen to the tape then answer this question.",
+      "zh": "先听这段录音，然后再回答这个问题。",
+      "role": "prompt"
+    },
+    {
+      "index": 3,
+      "startTime": 12.34,
+      "endTime": 19.23,
+      "en": "What does Ann advise her husband to do next time?",
+      "zh": "安建议她丈夫下次该怎么做？",
+      "role": "question"
+    },
+    {
+      "index": 4,
+      "startTime": 19.23,
+      "endTime": 21.08,
+      "en": "Look, Gary!",
+      "zh": "看，加里！",
+      "role": "body"
+    },
+    {
+      "index": 5,
+      "startTime": 21.08,
+      "endTime": 24.51,
+      "en": "That policeman's waving to you.",
+      "zh": "那个警察正在向你挥手。",
+      "role": "body"
+    },
+    {
+      "index": 6,
+      "startTime": 24.51,
+      "endTime": 27.91,
+      "en": "He wants you to stop.",
+      "zh": "他希望你停下来。",
+      "role": "body"
+    },
+    {
+      "index": 7,
+      "startTime": 27.91,
+      "endTime": 31.32,
+      "en": "Where do you think you are?",
+      "zh": "你以为自己在哪里啊？",
+      "role": "body"
+    },
+    {
+      "index": 8,
+      "startTime": 31.32,
+      "endTime": 33.56,
+      "en": "On a race track?",
+      "zh": "在赛道上？",
+      "role": "body"
+    },
+    {
+      "index": 9,
+      "startTime": 33.56,
+      "endTime": 38.88,
+      "en": "You must have been driving at seventy miles an hour.",
+      "zh": "你当时肯定是以每小时70英里的速度在开车。",
+      "role": "body"
+    },
+    {
+      "index": 10,
+      "startTime": 38.88,
+      "endTime": 41.85,
+      "en": "I can't have been.",
+      "zh": "我不可能开那么快。",
+      "role": "body"
+    },
+    {
+      "index": 11,
+      "startTime": 41.85,
+      "endTime": 46.37,
+      "en": "I was doing eighty when I overtook you.",
+      "zh": "我超过你的时候，时速是八十英里。",
+      "role": "body"
+    },
+    {
+      "index": 12,
+      "startTime": 46.37,
+      "endTime": 49.77,
+      "en": "Didn't you see the speed limit?",
+      "zh": "你没看到限速标志吗？",
+      "role": "body"
+    },
+    {
+      "index": 13,
+      "startTime": 49.77,
+      "endTime": 52.83,
+      "en": "I'm afraid I didn't, officer.",
+      "zh": "恐怕我没有，警官。",
+      "role": "body"
+    },
+    {
+      "index": 14,
+      "startTime": 52.83,
+      "endTime": 56.01,
+      "en": "I must have been dreaming.",
+      "zh": "我肯定是在做梦。",
+      "role": "body"
+    },
+    {
+      "index": 15,
+      "startTime": 56.01,
+      "endTime": 58.9,
+      "en": "He wasn't dreaming, officer.",
+      "zh": "他并没有在做梦，警官。",
+      "role": "body"
+    },
+    {
+      "index": 16,
+      "startTime": 58.9,
+      "endTime": 63.46,
+      "en": "I was telling him to drive slowly.",
+      "zh": "我当时在告诉他要开慢一点。",
+      "role": "body"
+    },
+    {
+      "index": 17,
+      "startTime": 63.46,
+      "endTime": 67.8,
+      "en": "That's why I didn't see the sign.",
+      "zh": "这就是为什么我没有看到那个标志的原因。",
+      "role": "body"
+    },
+    {
+      "index": 18,
+      "startTime": 67.8,
+      "endTime": 71.75,
+      "en": "Let me see your driving licence.",
+      "zh": "请让我看一下你的驾驶执照。",
+      "role": "body"
+    },
+    {
+      "index": 19,
+      "startTime": 71.75,
+      "endTime": 74.76,
+      "en": "I won't charge you this time.",
+      "zh": "这次我就不罚你了。",
+      "role": "body"
+    },
+    {
+      "index": 20,
+      "startTime": 74.76,
+      "endTime": 78.44,
+      "en": "But you'd better not do it again!",
+      "zh": "但你最好别再这么做了！",
+      "role": "body"
+    },
+    {
+      "index": 21,
+      "startTime": 78.44,
+      "endTime": 79.74,
+      "en": "Thank you.",
+      "zh": "谢谢。",
+      "role": "body"
+    },
+    {
+      "index": 22,
+      "startTime": 79.74,
+      "endTime": 83.39,
+      "en": "I'll certainly be more careful.",
+      "zh": "我一定会更加小心的。",
+      "role": "body"
+    },
+    {
+      "index": 23,
+      "startTime": 83.39,
+      "endTime": 87.45,
+      "en": "I told you to drive slowly, Gary.",
+      "zh": "我早就告诉过你要开慢一点，加里。",
+      "role": "body"
+    },
+    {
+      "index": 24,
+      "startTime": 87.45,
+      "endTime": 91.79,
+      "en": "You always tell me to drive slowly, darling.",
+      "zh": "你总是让我开慢车，亲爱的。",
+      "role": "body"
+    },
+    {
+      "index": 25,
+      "startTime": 91.79,
+      "endTime": null,
+      "en": "Well, next time you'd better take my advice!",
+      "zh": "嗯，下次你最好还是听我的建议吧！",
+      "role": "body"
+    }
+  ],
+  "audio": {
+    "fileName": "129&130－Seventy Miles an Hour.mp3",
+    "sourcePath": "content/NCE-Flow/NCE1/129&130－Seventy Miles an Hour.mp3",
+    "exists": true
+  },
+  "source": {
+    "repository": "NCE-Flow",
+    "lrcFileName": "129&130－Seventy Miles an Hour.lrc",
+    "lrcPath": "content/NCE-Flow/NCE1/129&130－Seventy Miles an Hour.lrc",
+    "sourceDataFile": "content/NCE-Flow/static/data.json",
+    "generatedAt": "2026-07-23T02:59:02+00:00",
+    "generator": "scripts/generate_nce_json.py",
+    "generatorVersion": "2.0.0",
+    "metadata": {
+      "al": "新概念英语（一）",
+      "ar": "MP3 同步字幕版（美音）",
+      "ti": "Seventy Miles an Hour",
+      "by": "更多学习内容，请到VeryCD.com搜索“露珠”"
+    }
+  }
+}

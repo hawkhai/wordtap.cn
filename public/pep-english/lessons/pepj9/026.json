@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "id": "pepj9-026",
+  "groupId": "pepj9",
+  "unitNo": 8,
+  "sequenceNo": 26,
+  "section": "Section A",
+  "title": "Strange Happenings in My Town",
+  "jsonPath": "pep-english/lessons/pepj9/026.json",
+  "text": "We live in a small town and almost everyone knows each other. It used to be very quiet. Nothing much ever happened around here. However, these days, something unusual is happening in our town. Victor, a teacher at my school, is really nervous. When he was interviewed by the town newspaper, he said, \"Every night we hear strange noises outside our window. My wife thinks that it could be an animal, but my friends and I think it must be teenagers having fun. My parents called the policemen, but they couldn't find anything strange. They think it might be the wind. I don't think so!\"\nVictor's next-door neighbor Helen is worried, too. \"At first, I thought that it might be a dog, but I couldn't see a dog or anything else, either. So I guess it can't be a dog. But then, what could it be?\" One woman in the area saw something running away, but it was dark so she is not sure. \"I think it was too big to be a dog,\" she said. \"Maybe it was a bear or a wolf.\"\nEveryone in our town is feeling uneasy, and everyone has his or her own ideas. There must be something visiting the homes in our neighborhood, but what is it? We have no idea. Most people hope that this animal or person will simply go away, but I do not think that is going to happen. The noise-maker is having too much fun creating fear in the neighborhood.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "We live in a small town and almost everyone knows each other. It used to be very quiet. Nothing much ever happened around here. However, these days, something unusual is happening in our town. Victor, a teacher at my school, is really nervous. When he was interviewed by the town newspaper, he said, \"Every night we hear strange noises outside our window. My wife thinks that it could be an animal, but my friends and I think it must be teenagers having fun. My parents called the policemen, but they couldn't find anything strange. They think it might be the wind. I don't think so!\""
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Victor's next-door neighbor Helen is worried, too. \"At first, I thought that it might be a dog, but I couldn't see a dog or anything else, either. So I guess it can't be a dog. But then, what could it be?\" One woman in the area saw something running away, but it was dark so she is not sure. \"I think it was too big to be a dog,\" she said. \"Maybe it was a bear or a wolf.\""
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Everyone in our town is feeling uneasy, and everyone has his or her own ideas. There must be something visiting the homes in our neighborhood, but what is it? We have no idea. Most people hope that this animal or person will simply go away, but I do not think that is going to happen. The noise-maker is having too much fun creating fear in the neighborhood."
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "初中",
+    "book": "九年级全一册",
+    "pageStart": 73,
+    "pageEnd": 73,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "c6e628c22e0c2f9cfe4547699a1c95a4",
+    "pdfSize": 11088578,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/junior-9.pdf#page=73",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored all three complete article paragraphs and selected the matching printed option B as metadata title; excluded the 3a title-choice frame and exercises 3b-3c."
+    }
+  }
+}

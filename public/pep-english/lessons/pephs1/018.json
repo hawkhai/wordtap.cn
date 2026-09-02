@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "id": "pephs1-018",
+  "groupId": "pephs1",
+  "unitNo": 1,
+  "sequenceNo": 18,
+  "section": "Reading and Writing",
+  "title": "The Teachers of Changyu Island",
+  "jsonPath": "pep-english/lessons/pephs1/018.json",
+  "text": "I want to tell everyone about two teachers on Changyu Island, Wang Kaiquan and Lin Zhujin.\nFew people know about this hometown of mine. The island is beautiful, but it’s quite isolated, and there aren’t many modern conveniences. In bad weather, even our water and power supplies are unstable. People who have never been to our island are often surprised by this and find it hard to adjust. Many who live on the island dream of leaving. These two primary school teachers, however, have stayed on for 23 long years! They are the only teachers here, and they plan to stay for as long as there are children who need to attend school.\nI want to thank them, and let the world know about these teachers who work tirelessly every day for the sake of the children.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "I want to tell everyone about two teachers on Changyu Island, Wang Kaiquan and Lin Zhujin."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Few people know about this hometown of mine. The island is beautiful, but it’s quite isolated, and there aren’t many modern conveniences. In bad weather, even our water and power supplies are unstable. People who have never been to our island are often surprised by this and find it hard to adjust. Many who live on the island dream of leaving. These two primary school teachers, however, have stayed on for 23 long years! They are the only teachers here, and they plan to stay for as long as there are children who need to attend school."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "I want to thank them, and let the world know about these teachers who work tirelessly every day for the sake of the children."
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "选择性必修第一册",
+    "pageStart": 71,
+    "pageEnd": 71,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "f19c4231e96ee3a9c769533d676f1106",
+    "pdfSize": 12809514,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/senior-selective-1.pdf#page=71",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored Chen Xueyin’s complete three-paragraph reader submission about Wang Kaiquan and Lin Zhujin; excluded the photograph and byline from the body.",
+      "splitBaselineId": "pephs1-029",
+      "splitIndex": 2,
+      "splitCount": 2
+    }
+  }
+}

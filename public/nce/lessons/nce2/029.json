@@ -1,0 +1,135 @@
+{
+  "schemaVersion": 1,
+  "id": "nce2-029",
+  "bookId": "nce2",
+  "bookNo": 2,
+  "lessonNo": 29,
+  "lessonRange": [
+    29
+  ],
+  "title": "Taxi",
+  "titleZh": "出租车",
+  "question": "Does Captain Fawcett think any trip is too dangerous?",
+  "questionZh": "福塞特船长认为有哪次旅行是过于危险的吗？",
+  "text": "Does Captain Fawcett think any trip is too dangerous?\n\nCaptain Ben Fawcett has bought an unusual taxi and has begun a new service.\nThe 'taxi' is a small Swiss aeroplane called a 'Pilatus Porter'.\nThis wonderful plane can carry seven passengers.\nThe most surprising thing about it, however, is that it can land anywhere: on snow, water, or even on a ploughed field.\nCaptain Fawcett's first passenger was a doctor who flew from Birmingham to a lonely village in the Welsh mountains.\nSince then, Captain Fawcett has flown passengers to many unusual places.\nOnce he landed on the roof of a block of flats and on another occasion, he landed in a deserted car park.\nCaptain Fawcett has just refused a strange request from a businessman.\nThe man wanted to fly to Rockall, a lonely island in the Atlantic Ocean, but Captain Fawcett did not take him because the trip was too dangerous.",
+  "bodyText": "Captain Ben Fawcett has bought an unusual taxi and has begun a new service.\nThe 'taxi' is a small Swiss aeroplane called a 'Pilatus Porter'.\nThis wonderful plane can carry seven passengers.\nThe most surprising thing about it, however, is that it can land anywhere: on snow, water, or even on a ploughed field.\nCaptain Fawcett's first passenger was a doctor who flew from Birmingham to a lonely village in the Welsh mountains.\nSince then, Captain Fawcett has flown passengers to many unusual places.\nOnce he landed on the roof of a block of flats and on another occasion, he landed in a deserted car park.\nCaptain Fawcett has just refused a strange request from a businessman.\nThe man wanted to fly to Rockall, a lonely island in the Atlantic Ocean, but Captain Fawcett did not take him because the trip was too dangerous.",
+  "bodyTextZh": "本·福塞特船长买了一辆与众不同的出租车，并开始提供一项新的服务。\n这架“出租车”其实是一架小型瑞士飞机，被称为“Pilatus Porter”。\n这架出色的飞机可以搭载七名乘客。\n然而，最令人惊讶的是：它可以在任何地方降落——无论是雪地上、水面上，还是已经翻耕过的田地里。\n福塞特船长的第一位乘客是一位医生，他乘坐飞机从伯明翰飞往威尔士山区的一个偏远村庄。\n从那以后，福塞特船长已经把乘客送到了许多不寻常的地方。\n有一次，他把飞机降落在一栋公寓楼的屋顶上；还有一次，他降落在一个废弃的停车场里。\n福塞特船长刚刚拒绝了一位商人的奇怪请求。\n这个人想要飞往罗卡尔岛（Rockall），那是大西洋上一座孤寂的岛屿。但是福塞特船长没有带他去，因为这次旅行太危险了。",
+  "sentences": [
+    {
+      "index": 0,
+      "startTime": 0.5,
+      "endTime": 3,
+      "en": "Lesson 29",
+      "zh": "第29课",
+      "role": "lesson"
+    },
+    {
+      "index": 1,
+      "startTime": 3,
+      "endTime": 9.28,
+      "en": "Taxi",
+      "zh": "出租车",
+      "role": "title"
+    },
+    {
+      "index": 2,
+      "startTime": 9.28,
+      "endTime": 15.69,
+      "en": "Does Captain Fawcett think any trip is too dangerous?",
+      "zh": "福塞特船长认为有哪次旅行是过于危险的吗？",
+      "role": "question"
+    },
+    {
+      "index": 3,
+      "startTime": 15.69,
+      "endTime": 23.34,
+      "en": "Captain Ben Fawcett has bought an unusual taxi and has begun a new service.",
+      "zh": "本·福塞特船长买了一辆与众不同的出租车，并开始提供一项新的服务。",
+      "role": "body"
+    },
+    {
+      "index": 4,
+      "startTime": 23.34,
+      "endTime": 29.69,
+      "en": "The 'taxi' is a small Swiss aeroplane called a 'Pilatus Porter'.",
+      "zh": "这架“出租车”其实是一架小型瑞士飞机，被称为“Pilatus Porter”。",
+      "role": "body"
+    },
+    {
+      "index": 5,
+      "startTime": 29.69,
+      "endTime": 34.4,
+      "en": "This wonderful plane can carry seven passengers.",
+      "zh": "这架出色的飞机可以搭载七名乘客。",
+      "role": "body"
+    },
+    {
+      "index": 6,
+      "startTime": 34.4,
+      "endTime": 47.11,
+      "en": "The most surprising thing about it, however, is that it can land anywhere: on snow, water, or even on a ploughed field.",
+      "zh": "然而，最令人惊讶的是：它可以在任何地方降落——无论是雪地上、水面上，还是已经翻耕过的田地里。",
+      "role": "body"
+    },
+    {
+      "index": 7,
+      "startTime": 47.11,
+      "endTime": 56.89,
+      "en": "Captain Fawcett's first passenger was a doctor who flew from Birmingham to a lonely village in the Welsh mountains.",
+      "zh": "福塞特船长的第一位乘客是一位医生，他乘坐飞机从伯明翰飞往威尔士山区的一个偏远村庄。",
+      "role": "body"
+    },
+    {
+      "index": 8,
+      "startTime": 56.89,
+      "endTime": 64.48,
+      "en": "Since then, Captain Fawcett has flown passengers to many unusual places.",
+      "zh": "从那以后，福塞特船长已经把乘客送到了许多不寻常的地方。",
+      "role": "body"
+    },
+    {
+      "index": 9,
+      "startTime": 64.48,
+      "endTime": 74.86,
+      "en": "Once he landed on the roof of a block of flats and on another occasion, he landed in a deserted car park.",
+      "zh": "有一次，他把飞机降落在一栋公寓楼的屋顶上；还有一次，他降落在一个废弃的停车场里。",
+      "role": "body"
+    },
+    {
+      "index": 10,
+      "startTime": 74.86,
+      "endTime": 81.17,
+      "en": "Captain Fawcett has just refused a strange request from a businessman.",
+      "zh": "福塞特船长刚刚拒绝了一位商人的奇怪请求。",
+      "role": "body"
+    },
+    {
+      "index": 11,
+      "startTime": 81.17,
+      "endTime": null,
+      "en": "The man wanted to fly to Rockall, a lonely island in the Atlantic Ocean, but Captain Fawcett did not take him because the trip was too dangerous.",
+      "zh": "这个人想要飞往罗卡尔岛（Rockall），那是大西洋上一座孤寂的岛屿。但是福塞特船长没有带他去，因为这次旅行太危险了。",
+      "role": "body"
+    }
+  ],
+  "audio": {
+    "fileName": "29－Taxi.mp3",
+    "sourcePath": "content/NCE-Flow/NCE2/29－Taxi.mp3",
+    "exists": true
+  },
+  "source": {
+    "repository": "NCE-Flow",
+    "lrcFileName": "29－Taxi.lrc",
+    "lrcPath": "content/NCE-Flow/NCE2/29－Taxi.lrc",
+    "sourceDataFile": "content/NCE-Flow/static/data.json",
+    "generatedAt": "2026-07-23T02:59:02+00:00",
+    "generator": "scripts/generate_nce_json.py",
+    "generatorVersion": "2.0.0",
+    "metadata": {
+      "al": "新概念英语（二）",
+      "ar": "MP3 同步字幕版（美音）",
+      "ti": "Taxi",
+      "by": "更多学习内容，请到VeryCD.com搜索“露珠”"
+    }
+  }
+}

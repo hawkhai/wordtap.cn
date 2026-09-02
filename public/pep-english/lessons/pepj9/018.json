@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "pepj9-018",
+  "groupId": "pepj9",
+  "unitNo": 6,
+  "sequenceNo": 18,
+  "section": "Section A",
+  "title": "The Invention of the Zipper",
+  "jsonPath": "pep-english/lessons/pepj9/018.json",
+  "text": "Paul: Hey Roy, the subject for my school project is \"Small inventions that changed the world\". Can you help me think of an invention?\nRoy: With pleasure! Let me think... hmm... I know! The zipper!\nPaul: The zipper? Is it really such a great invention?\nRoy: Think about how often it's used in our daily lives. You can see zippers on dresses, trousers, shoes, bags... almost everywhere!\nPaul: Well, you do seem to have a point...\nRoy: Of course! I thought about it because I saw a website last week. The pioneers of different inventions were listed there. For example, it mentioned that the zipper was invented by Whitcomb Judson in 1893. But at that time, it wasn't used widely.\nPaul: Really? So when did it become popular?\nRoy: Around 1917.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Paul: Hey Roy, the subject for my school project is \"Small inventions that changed the world\". Can you help me think of an invention?\nRoy: With pleasure! Let me think... hmm... I know! The zipper!\nPaul: The zipper? Is it really such a great invention?\nRoy: Think about how often it's used in our daily lives. You can see zippers on dresses, trousers, shoes, bags... almost everywhere!\nPaul: Well, you do seem to have a point...\nRoy: Of course! I thought about it because I saw a website last week. The pioneers of different inventions were listed there. For example, it mentioned that the zipper was invented by Whitcomb Judson in 1893. But at that time, it wasn't used widely.\nPaul: Really? So when did it become popular?\nRoy: Around 1917."
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "初中",
+    "book": "九年级全一册",
+    "pageStart": 56,
+    "pageEnd": 56,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "c6e628c22e0c2f9cfe4547699a1c95a4",
+    "pdfSize": 11088578,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/junior-9.pdf#page=56",
+      "reviewedAt": "2026-07-22",
+      "notes": "Retained only the complete 2d Paul-Roy role-play about the zipper; excluded the 2a invention picture, 2b unfinished chart, 2c model fragment and instructions."
+    }
+  }
+}

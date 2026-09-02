@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "pepj7b-012",
+  "groupId": "pepj7b",
+  "unitNo": 10,
+  "sequenceNo": 12,
+  "section": "Section B",
+  "title": "Birthday Food Around the World",
+  "jsonPath": "pep-english/lessons/pepj7b/012.json",
+  "text": "What would people like to eat on their birthday? The answer would be different in different countries.\nIn many countries, people have birthday cakes with candles. The number of candles is the person's age. The birthday person must make a wish and blow out the candles. If he or she blows out all the candles in one go, the wish will come true. In the UK, people sometimes put a candy in a birthday cake. The child with the candy is lucky.\nIn China, it is getting popular to have cake on your birthday. But many people still eat very long noodles for their birthday. They never cut up the noodles because the long noodles are a symbol of long life. In some places, Chinese people also eat eggs on their birthday. They are a symbol of life and good luck.\nAll of these birthday foods may be different, but the ideas are the same. They bring good luck to the birthday person.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "What would people like to eat on their birthday? The answer would be different in different countries."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "In many countries, people have birthday cakes with candles. The number of candles is the person's age. The birthday person must make a wish and blow out the candles. If he or she blows out all the candles in one go, the wish will come true. In the UK, people sometimes put a candy in a birthday cake. The child with the candy is lucky."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "In China, it is getting popular to have cake on your birthday. But many people still eat very long noodles for their birthday. They never cut up the noodles because the long noodles are a symbol of long life. In some places, Chinese people also eat eggs on their birthday. They are a symbol of life and good luck."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "All of these birthday foods may be different, but the ideas are the same. They bring good luck to the birthday person."
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "初中",
+    "book": "七年级下册",
+    "pageStart": 69,
+    "pageEnd": 69,
+    "extractionMode": "ocr",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "9336b53d5a44f9244f62f6fb10720914",
+    "pdfSize": 17821241,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/junior-7b.pdf#page=69",
+      "reviewedAt": "2026-07-22",
+      "notes": "Removed the duplicated title and exercises, restored four printed paragraphs, corrected the joined words, full final paragraph and Section B metadata."
+    }
+  }
+}

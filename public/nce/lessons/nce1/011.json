@@ -1,0 +1,200 @@
+{
+  "schemaVersion": 1,
+  "id": "nce1-011",
+  "bookId": "nce1",
+  "bookNo": 1,
+  "lessonNo": 11,
+  "lessonRange": [
+    11,
+    12
+  ],
+  "title": "Is This Your Shirt",
+  "titleZh": "这是你的衬衫吗？",
+  "question": "Whose shirt is white?",
+  "questionZh": "谁的衬衫是白色的？",
+  "text": "Whose shirt is white?\n\nWhose shirt is that?\nIs this your shirt Dave?\nNo. Sir.\nIt's not my shirt.\nThis is my shirt.\nMy shirt's blue.\nIs this shirt Tim's?\nPerhaps it is sir.\nTim's shirt's white.\nTim!\nYes sir?\nIs this your shirt?\nYes sir.\nHere you are.\nCatch!\nThank you sir.",
+  "bodyText": "Whose shirt is that?\nIs this your shirt Dave?\nNo. Sir.\nIt's not my shirt.\nThis is my shirt.\nMy shirt's blue.\nIs this shirt Tim's?\nPerhaps it is sir.\nTim's shirt's white.\nTim!\nYes sir?\nIs this your shirt?\nYes sir.\nHere you are.\nCatch!\nThank you sir.",
+  "bodyTextZh": "那是谁的衬衫？\n这是你的衬衫吗，戴夫？\n不，先生。\n这不是我的衬衫。\n这是我的衬衫。\n我的衬衫是蓝色的。\n这是蒂姆的衬衫吗？\n也许是的，先生。\n蒂姆的衬衫是白色的。\n蒂姆！\n先生，什么事？\n这是你的衬衫吗？\n是的，先生。\n给你。\n接住！\n谢谢您，先生。",
+  "sentences": [
+    {
+      "index": 0,
+      "startTime": 0.84,
+      "endTime": 3.39,
+      "en": "Lesson 11",
+      "zh": "第11课",
+      "role": "lesson"
+    },
+    {
+      "index": 1,
+      "startTime": 3.39,
+      "endTime": 6.65,
+      "en": "Is this your shirt?",
+      "zh": "这是你的衬衫吗？",
+      "role": "title"
+    },
+    {
+      "index": 2,
+      "startTime": 6.65,
+      "endTime": 13.23,
+      "en": "Listen to the tape then answer this question.",
+      "zh": "先听录音，然后再回答这个问题。",
+      "role": "prompt"
+    },
+    {
+      "index": 3,
+      "startTime": 13.23,
+      "endTime": 17.18,
+      "en": "Whose shirt is white?",
+      "zh": "谁的衬衫是白色的？",
+      "role": "question"
+    },
+    {
+      "index": 4,
+      "startTime": 17.18,
+      "endTime": 20.08,
+      "en": "Whose shirt is that?",
+      "zh": "那是谁的衬衫？",
+      "role": "body"
+    },
+    {
+      "index": 5,
+      "startTime": 20.08,
+      "endTime": 23.18,
+      "en": "Is this your shirt Dave?",
+      "zh": "这是你的衬衫吗，戴夫？",
+      "role": "body"
+    },
+    {
+      "index": 6,
+      "startTime": 23.18,
+      "endTime": 24.58,
+      "en": "No. Sir.",
+      "zh": "不，先生。",
+      "role": "body"
+    },
+    {
+      "index": 7,
+      "startTime": 24.58,
+      "endTime": 27.86,
+      "en": "It's not my shirt.",
+      "zh": "这不是我的衬衫。",
+      "role": "body"
+    },
+    {
+      "index": 8,
+      "startTime": 27.86,
+      "endTime": 30.45,
+      "en": "This is my shirt.",
+      "zh": "这是我的衬衫。",
+      "role": "body"
+    },
+    {
+      "index": 9,
+      "startTime": 30.45,
+      "endTime": 33.31,
+      "en": "My shirt's blue.",
+      "zh": "我的衬衫是蓝色的。",
+      "role": "body"
+    },
+    {
+      "index": 10,
+      "startTime": 33.31,
+      "endTime": 36.52,
+      "en": "Is this shirt Tim's?",
+      "zh": "这是蒂姆的衬衫吗？",
+      "role": "body"
+    },
+    {
+      "index": 11,
+      "startTime": 36.52,
+      "endTime": 39.51,
+      "en": "Perhaps it is sir.",
+      "zh": "也许是的，先生。",
+      "role": "body"
+    },
+    {
+      "index": 12,
+      "startTime": 39.51,
+      "endTime": 42.22,
+      "en": "Tim's shirt's white.",
+      "zh": "蒂姆的衬衫是白色的。",
+      "role": "body"
+    },
+    {
+      "index": 13,
+      "startTime": 42.22,
+      "endTime": 43.78,
+      "en": "Tim!",
+      "zh": "蒂姆！",
+      "role": "body"
+    },
+    {
+      "index": 14,
+      "startTime": 43.78,
+      "endTime": 45.35,
+      "en": "Yes sir?",
+      "zh": "先生，什么事？",
+      "role": "body"
+    },
+    {
+      "index": 15,
+      "startTime": 45.35,
+      "endTime": 47.38,
+      "en": "Is this your shirt?",
+      "zh": "这是你的衬衫吗？",
+      "role": "body"
+    },
+    {
+      "index": 16,
+      "startTime": 47.38,
+      "endTime": 48.8,
+      "en": "Yes sir.",
+      "zh": "是的，先生。",
+      "role": "body"
+    },
+    {
+      "index": 17,
+      "startTime": 48.8,
+      "endTime": 50.45,
+      "en": "Here you are.",
+      "zh": "给你。",
+      "role": "body"
+    },
+    {
+      "index": 18,
+      "startTime": 50.45,
+      "endTime": 51.54,
+      "en": "Catch!",
+      "zh": "接住！",
+      "role": "body"
+    },
+    {
+      "index": 19,
+      "startTime": 51.54,
+      "endTime": null,
+      "en": "Thank you sir.",
+      "zh": "谢谢您，先生。",
+      "role": "body"
+    }
+  ],
+  "audio": {
+    "fileName": "011&012－Is This Your Shirt.mp3",
+    "sourcePath": "content/NCE-Flow/NCE1/011&012－Is This Your Shirt.mp3",
+    "exists": true
+  },
+  "source": {
+    "repository": "NCE-Flow",
+    "lrcFileName": "011&012－Is This Your Shirt.lrc",
+    "lrcPath": "content/NCE-Flow/NCE1/011&012－Is This Your Shirt.lrc",
+    "sourceDataFile": "content/NCE-Flow/static/data.json",
+    "generatedAt": "2026-07-23T02:59:02+00:00",
+    "generator": "scripts/generate_nce_json.py",
+    "generatorVersion": "2.0.0",
+    "metadata": {
+      "al": "新概念英语（一）",
+      "ar": "MP3 同步字幕版（美音）",
+      "ti": "Is This Your Shirt?",
+      "by": "更多学习内容，请到VeryCD.com搜索“露珠”"
+    }
+  }
+}

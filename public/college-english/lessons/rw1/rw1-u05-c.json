@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 2,
+  "id": "rw1-u05-c",
+  "sequenceNo": 15,
+  "groupId": "rw1",
+  "unitNo": 5,
+  "unitTitle": "Friendship across border and gender",
+  "section": "C",
+  "articleType": "stories-of-china",
+  "title": "Picture this: Friends forever",
+  "printedPageStart": 129,
+  "printedPageEnd": 130,
+  "jsonPath": "college-english/lessons/rw1/rw1-u05-c.json",
+  "characterCount": 2338,
+  "text": "For 50-year-old Jin Jinli and seven of her closest friends, group photos are more than just an aid for their memories. For them, taking group photos has become a decades-long tradition. And it has become a way of setting a world record.\nIn the following decades since 1977, Jin and her seven friends met every year to have a group photo taken at the same studio. No matter how far they had to travel or how busy their lives were, they always met for their annual photo.\nThe eight women are all from the town of Kunyang, Pingyang County, Wenzhou City, Zhejiang Province, and they were classmates in the first grade of primary school. “We were very close friends at school. We went to classes together, went home together, did homework together, and went to the cinema together. We were like sisters growing up together,” Jin says.\nIn 1977, some of the girls had to leave for other cities. “The happy days we spent together were so precious,” Cai Guili, one of the eight women, says. “No one wanted to be apart. When we realized separation was an inevitable part of growing up, we decided to have a group photo so that we could remember one another.”\nOn July 17, 1977, the teenage girls were dressed in their most beautiful clothes, wore the same braided (编辫子的) hairstyle, and had a photo taken at Beimen Photo Studio in Pingyang. The girls smile sweetly in the faded black-and-white photo. Someone in the group then suggested that they take a photo every year. That tradition has endured over the past several decades.\nEvery year, the eight friends take turns to organize the group photo event. “In the beginning, we were single and didn’t live far from one another, so it was easy to get together,” Jin says. “However, as we grew older, got married, had children, and even moved, it became difficult to arrange. But no one has ever missed the annual gathering.”\nLin Jinglu, the owner of Beimen Photo Studio, has been a major witness (见证者) of the decades-long friendship. “I saw them change from teenagers to adults, from wives to mothers, and even grandmothers,” he says.\nOver the years, the black-and-white photos have given way to images in color, and the small-sized shots have become bigger prints. In 2011, the eight friends were awarded a certificate for “the world’s longest continuous time span for a group photo taken each year”.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "For 50-year-old Jin Jinli and seven of her closest friends, group photos are more than just an aid for their memories. For them, taking group photos has become a decades-long tradition. And it has become a way of setting a world record."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "In the following decades since 1977, Jin and her seven friends met every year to have a group photo taken at the same studio. No matter how far they had to travel or how busy their lives were, they always met for their annual photo."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "The eight women are all from the town of Kunyang, Pingyang County, Wenzhou City, Zhejiang Province, and they were classmates in the first grade of primary school. “We were very close friends at school. We went to classes together, went home together, did homework together, and went to the cinema together. We were like sisters growing up together,” Jin says."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "In 1977, some of the girls had to leave for other cities. “The happy days we spent together were so precious,” Cai Guili, one of the eight women, says. “No one wanted to be apart. When we realized separation was an inevitable part of growing up, we decided to have a group photo so that we could remember one another.”"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "On July 17, 1977, the teenage girls were dressed in their most beautiful clothes, wore the same braided (编辫子的) hairstyle, and had a photo taken at Beimen Photo Studio in Pingyang. The girls smile sweetly in the faded black-and-white photo. Someone in the group then suggested that they take a photo every year. That tradition has endured over the past several decades."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Every year, the eight friends take turns to organize the group photo event. “In the beginning, we were single and didn’t live far from one another, so it was easy to get together,” Jin says. “However, as we grew older, got married, had children, and even moved, it became difficult to arrange. But no one has ever missed the annual gathering.”"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Lin Jinglu, the owner of Beimen Photo Studio, has been a major witness (见证者) of the decades-long friendship. “I saw them change from teenagers to adults, from wives to mothers, and even grandmothers,” he says."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Over the years, the black-and-white photos have given way to images in color, and the small-sized shots have become bigger prints. In 2011, the eight friends were awarded a certificate for “the world’s longest continuous time span for a group photo taken each year”."
+    }
+  ],
+  "source": {
+    "series": "新视野大学英语（第四版）",
+    "book": "读写教程 1",
+    "sourceBook": "NHCE4-RW1",
+    "printedPageStart": 129,
+    "printedPageEnd": 130,
+    "pdfPageStart": 144,
+    "pdfPageEnd": 145,
+    "pdfSha256": "05d7a57fb09156e13d02ce498271c86917869b5327e8981f1eedf205ceb465ec",
+    "ocrFiles": [
+      "tools/College-English/NHCE4-RW1/ocr/json/NHCE4-RW1_144.json",
+      "tools/College-English/NHCE4-RW1/ocr/json/NHCE4-RW1_145.json"
+    ]
+  },
+  "manualReview": {
+    "status": "passed",
+    "reviewer": "Codex",
+    "reviewedAt": "2026-07-30T01:46:47Z",
+    "correctionCount": 8,
+    "evidence": "NHCE4-RW1 PDF pages 144-145; images 144-145; reviewed-articles/rw1-u05-c.json",
+    "textSha256": "23e14ee98722ccdb952dfcc958f28b40f5f11da1de387737c41f0e62bca1e5d8",
+    "eventSha256": "0bf16b4ec77970495176ade6ee4c7bb9c4fbc9f9c717d8498bc6cecbbe6b0a25"
+  }
+}

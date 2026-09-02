@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "id": "pephr2-027",
+  "groupId": "pephr2",
+  "unitNo": 5,
+  "sequenceNo": 27,
+  "section": "Reading and Writing",
+  "title": "Dennis's Review of Cat's in the Cradle",
+  "jsonPath": "pep-english/lessons/pephr2/027.json",
+  "text": "“Cat's in the Cradle” is about the idea that you get what you give. A father ignores his son for years, and then when he is older his son ignores him. While I feel sad for the man in the song, I had trouble relating to him, because I have a very good relationship with my father. We often do things together and he works hard to be with me. I'm sure that when I am older we will still be good friends.\n—Dennis",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "“Cat's in the Cradle” is about the idea that you get what you give. A father ignores his son for years, and then when he is older his son ignores him. While I feel sad for the man in the song, I had trouble relating to him, because I have a very good relationship with my father. We often do things together and he works hard to be with me. I'm sure that when I am older we will still be good friends."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "—Dennis"
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "必修第二册",
+    "pageStart": 96,
+    "pageEnd": 96,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "38d49874e4f015fd89f21c9306f6b9d5",
+    "pdfSize": 14270612,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/senior-required-2.pdf#page=96",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored Dennis's complete signed model review as an independent text and excluded all comprehension, ordering and writing activities.",
+      "splitBaselineId": "pephr2-038",
+      "splitIndex": 2,
+      "splitCount": 2
+    }
+  }
+}

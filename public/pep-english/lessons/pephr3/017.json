@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "pephr3-017",
+  "groupId": "pephr3",
+  "unitNo": 5,
+  "sequenceNo": 17,
+  "section": "Reading and Thinking",
+  "title": "The Million Pound Bank Note — Act 1, Scene 3",
+  "jsonPath": "pep-english/lessons/pephr3/017.json",
+  "text": "Narrator: Two rich brothers, Roderick and Oliver, have made a bet. Oliver believes that with a million-pound bank note a man could live a month in London. His brother Roderick doubts it. They see a poor young man walking outside their house. It is Henry Adams.\nRoderick: Young man, would you step inside a moment, please?\nHenry: Who? Me, sir?\nRoderick: Yes, you.\nServant: (opening a door) Good morning, sir. Would you please come in?\n(Henry enters the house.)\nRoderick: How do you do, Mr... er...?\nHenry: Adams. Henry Adams.\nOliver: Come and sit down, Mr Adams.\nHenry: Thank you.\nRoderick: You're an American?\nHenry: That's right, from San Francisco.\nRoderick: May we ask what you're doing in this country and what your plans are?\nHenry: Well, I can't say that I have any plans. As a matter of fact, I landed in Britain by accident.\nOliver: How is that possible?\nHenry: Well, I had my own boat. About a month ago, I was sailing, and towards night I found myself carried out to sea by a strong wind. The next morning I was spotted by a ship.\nOliver: And it was the ship that brought you to England.\nHenry: Yes. I went to the American consulate to seek help, but... Anyway, I didn't dare to try again.\n(The brothers smile at each other.)\nRoderick: Well, you mustn't worry about that. It's an advantage.\nHenry: I'm afraid I don't quite follow you, sir.\nRoderick: Tell us, what sort of work did you do in America?\nHenry: I worked for a mining company. Could you offer me work here?\nRoderick: Patience. If you don't mind, may I ask you how much money you have?\nHenry: Well, to be honest, I have none.\nOliver: (happily) What luck! Brother, what luck!\nHenry: Well, it may seem lucky to you but not to me! If this is your idea of some kind of joke, I don't think it's very funny. Now if you'll excuse me, I ought to be on my way.\nRoderick: Please don't go. You mustn't think we don't care about you. Oliver, give him the letter.\nOliver: Yes, I was about to go get the letter. Wait! (getting it from a desk and giving it to Henry) The letter.\nHenry: (taking it carefully) For me?\nRoderick: For you. (Henry starts to open it.) Oh, no, you'd better not open it. You can't open it until two o'clock.\nHenry: Oh, this is silly.\nRoderick: Not silly. There's money in it.\nHenry: Oh, no. I don't want your charity. I just want a job that earns an honest income.\nRoderick: We know you're hard-working. That's why we've given you the letter. (to the servant) Show Mr Adams out.\nHenry: Well, why don't you explain what this is all about?\nRoderick: You'll soon know. In exactly an hour and a half.\nServant: This way, sir.\nRoderick: Not until 2 o'clock. Promise?\nHenry: Promise. Goodbye.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Narrator: Two rich brothers, Roderick and Oliver, have made a bet. Oliver believes that with a million-pound bank note a man could live a month in London. His brother Roderick doubts it. They see a poor young man walking outside their house. It is Henry Adams.\nRoderick: Young man, would you step inside a moment, please?\nHenry: Who? Me, sir?\nRoderick: Yes, you.\nServant: (opening a door) Good morning, sir. Would you please come in?\n(Henry enters the house.)\nRoderick: How do you do, Mr... er...?\nHenry: Adams. Henry Adams.\nOliver: Come and sit down, Mr Adams.\nHenry: Thank you.\nRoderick: You're an American?\nHenry: That's right, from San Francisco.\nRoderick: May we ask what you're doing in this country and what your plans are?\nHenry: Well, I can't say that I have any plans. As a matter of fact, I landed in Britain by accident.\nOliver: How is that possible?\nHenry: Well, I had my own boat. About a month ago, I was sailing, and towards night I found myself carried out to sea by a strong wind. The next morning I was spotted by a ship.\nOliver: And it was the ship that brought you to England.\nHenry: Yes. I went to the American consulate to seek help, but... Anyway, I didn't dare to try again.\n(The brothers smile at each other.)\nRoderick: Well, you mustn't worry about that. It's an advantage.\nHenry: I'm afraid I don't quite follow you, sir.\nRoderick: Tell us, what sort of work did you do in America?\nHenry: I worked for a mining company. Could you offer me work here?\nRoderick: Patience. If you don't mind, may I ask you how much money you have?\nHenry: Well, to be honest, I have none.\nOliver: (happily) What luck! Brother, what luck!\nHenry: Well, it may seem lucky to you but not to me! If this is your idea of some kind of joke, I don't think it's very funny. Now if you'll excuse me, I ought to be on my way.\nRoderick: Please don't go. You mustn't think we don't care about you. Oliver, give him the letter.\nOliver: Yes, I was about to go get the letter. Wait! (getting it from a desk and giving it to Henry) The letter.\nHenry: (taking it carefully) For me?\nRoderick: For you. (Henry starts to open it.) Oh, no, you'd better not open it. You can't open it until two o'clock.\nHenry: Oh, this is silly.\nRoderick: Not silly. There's money in it.\nHenry: Oh, no. I don't want your charity. I just want a job that earns an honest income.\nRoderick: We know you're hard-working. That's why we've given you the letter. (to the servant) Show Mr Adams out.\nHenry: Well, why don't you explain what this is all about?\nRoderick: You'll soon know. In exactly an hour and a half.\nServant: This way, sir.\nRoderick: Not until 2 o'clock. Promise?\nHenry: Promise. Goodbye."
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "必修第三册",
+    "pageStart": 59,
+    "pageEnd": 59,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "31e51a16693d03177a5825f53f612a87",
+    "pdfSize": 14202806,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/senior-required-3.pdf#page=59",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored the complete Act 1, Scene 3 in visual two-column order, including narrator text, every spoken turn and all stage directions; excluded the lesson prompts and running furniture."
+    }
+  }
+}

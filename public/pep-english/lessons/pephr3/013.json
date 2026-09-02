@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "id": "pephr3-013",
+  "groupId": "pephr3",
+  "unitNo": 3,
+  "sequenceNo": 13,
+  "section": "Reading for Writing",
+  "title": "Welcome to Chinatown!",
+  "jsonPath": "pep-english/lessons/pephr3/013.json",
+  "text": "The Chinatown in San Francisco is the biggest in America, and also the oldest. It is a very popular tourist draw that receives more visitors each year than even the Golden Gate Bridge. The climate is mild all year round, meaning it is always a good time to visit.\nHistorically, Chinese immigrants settled in the area during the railroad construction and gold rush period. What started as a residential area for Chinese immigrants then turned into a centre for Chinese culture. The majority of residents in Chinatown are still ethnic Chinese, many of whom do not speak English fluently. This allows visitors to experience a real taste of China.\nMost of Chinatown was destroyed in the 1906 earthquake, but the city and residents rebuilt it, taking care to include lots of Chinese architecture. Traditionally, visitors enter Chinatown through the legendary Dragon Gate, which was built using materials donated from China. Other famous sites include the Tin How Temple and Bank of Canton, to name but a few. Visitors can also spend hours just exploring the interesting sights, smells, and sounds of China. Portsmouth Square is also a key site, being the centre of Chinatown. It has a long and famous history, with the author Robert Louis Stevenson having spent much time writing there. These days, the square is a great place to see traditional Chinese culture in real life, such as games of Chinese chess, and people practising tai chi.\nThe stores in the Chinatown offer a unique range of souvenirs, goods, and clothing. All kinds of traditional Chinese herbal medicine can be found, too, and there are Chinese tea stores, where visitors can taste and buy varieties of Chinese tea.\nBut perhaps what many tourists and San Franciscans treasure most about Chinatown is its food. There is Chinese food to suit everyone's taste, with traditional dishes from all over China.\nChinatowns are an important part of the diverse culture of the USA. They allow visitors who have never been to China to experience traditional Chinese culture first hand.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "The Chinatown in San Francisco is the biggest in America, and also the oldest. It is a very popular tourist draw that receives more visitors each year than even the Golden Gate Bridge. The climate is mild all year round, meaning it is always a good time to visit."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Historically, Chinese immigrants settled in the area during the railroad construction and gold rush period. What started as a residential area for Chinese immigrants then turned into a centre for Chinese culture. The majority of residents in Chinatown are still ethnic Chinese, many of whom do not speak English fluently. This allows visitors to experience a real taste of China."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Most of Chinatown was destroyed in the 1906 earthquake, but the city and residents rebuilt it, taking care to include lots of Chinese architecture. Traditionally, visitors enter Chinatown through the legendary Dragon Gate, which was built using materials donated from China. Other famous sites include the Tin How Temple and Bank of Canton, to name but a few. Visitors can also spend hours just exploring the interesting sights, smells, and sounds of China. Portsmouth Square is also a key site, being the centre of Chinatown. It has a long and famous history, with the author Robert Louis Stevenson having spent much time writing there. These days, the square is a great place to see traditional Chinese culture in real life, such as games of Chinese chess, and people practising tai chi."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "The stores in the Chinatown offer a unique range of souvenirs, goods, and clothing. All kinds of traditional Chinese herbal medicine can be found, too, and there are Chinese tea stores, where visitors can taste and buy varieties of Chinese tea."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "But perhaps what many tourists and San Franciscans treasure most about Chinatown is its food. There is Chinese food to suit everyone's taste, with traditional dishes from all over China."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Chinatowns are an important part of the diverse culture of the USA. They allow visitors who have never been to China to experience traditional Chinese culture first hand."
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "必修第三册",
+    "pageStart": 39,
+    "pageEnd": 39,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "31e51a16693d03177a5825f53f612a87",
+    "pdfSize": 14202806,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/senior-required-3.pdf#page=39",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored the complete six-paragraph Chinatown introduction under its printed title, following the third paragraph around the Dragon Gate photograph; excluded questions, instruction, photograph and running furniture."
+    }
+  }
+}

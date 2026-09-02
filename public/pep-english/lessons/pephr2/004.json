@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "pephr2-004",
+  "groupId": "pephr2",
+  "unitNo": 2,
+  "sequenceNo": 4,
+  "section": "Reading for Writing",
+  "title": "Don't Make Paper with My Home!",
+  "jsonPath": "pep-english/lessons/pephr2/004.json",
+  "text": "Billions of trees are being cut down every year to make paper for humans. Every tree that is cut down is a part of the habitat of animals such as these koalas. In this way a lot of animal homes are being destroyed! Is it right to make animals homeless so that humans can have more paper?",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Billions of trees are being cut down every year to make paper for humans. Every tree that is cut down is a part of the habitat of animals such as these koalas. In this way a lot of animal homes are being destroyed! Is it right to make animals homeless so that humans can have more paper?"
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "必修第二册",
+    "pageStart": 27,
+    "pageEnd": 27,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "38d49874e4f015fd89f21c9306f6b9d5",
+    "pdfSize": 14270612,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/senior-required-2.pdf#page=27",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored the complete right-hand koala poster as an independent lesson; excluded its photograph and all page-level activities.",
+      "splitBaselineId": "pephr2-008",
+      "splitIndex": 2,
+      "splitCount": 2
+    }
+  }
+}

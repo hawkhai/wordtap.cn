@@ -1,0 +1,143 @@
+{
+  "schemaVersion": 1,
+  "id": "nce2-012",
+  "bookId": "nce2",
+  "bookNo": 2,
+  "lessonNo": 12,
+  "lessonRange": [
+    12
+  ],
+  "title": "Goodbye and Good Luck",
+  "titleZh": "再见，一路顺风",
+  "question": "Where is Captain Alison going and how?",
+  "questionZh": "艾莉森上尉要去哪里？怎么去？",
+  "text": "Where is Captain Alison going and how?\n\nOur neighbour, Captain Charles Alison, will sail from Portsmouth tomorrow.\nWe'll meet him at the harbour early in the morning.\nHe will be in his small boat, Topsail.\nTopsail is a famous little boat.\nIt has sailed across the Atlantic many times.\nCaptain Alison will set out at eight o'clock, so we'll have plenty of time.\nWe'll see his boat and then we'll say goodbye to him.\nHe will be away for two months.\nWe are very proud of him.\nHe will take part in an important race across the Atlantic.",
+  "bodyText": "Our neighbour, Captain Charles Alison, will sail from Portsmouth tomorrow.\nWe'll meet him at the harbour early in the morning.\nHe will be in his small boat, Topsail.\nTopsail is a famous little boat.\nIt has sailed across the Atlantic many times.\nCaptain Alison will set out at eight o'clock, so we'll have plenty of time.\nWe'll see his boat and then we'll say goodbye to him.\nHe will be away for two months.\nWe are very proud of him.\nHe will take part in an important race across the Atlantic.",
+  "bodyTextZh": "我们的邻居查尔斯·艾利森上尉明天将从朴次茅斯启航。\n我们将在清晨在港口与他见面。\n他会待在他的小船'托普赛尔'号上。\n“Topsail”是一艘非常著名的小船。\n它已经多次横渡了大西洋。\n艾莉森船长八点就要出发了，所以我们会有足够的时间。\n我们会去看看他的船，然后跟他告别。\n他将会离开两个月。\n我们为他感到非常骄傲。\n他将参加一场横跨大西洋的重要比赛。",
+  "sentences": [
+    {
+      "index": 0,
+      "startTime": 0.5,
+      "endTime": 3,
+      "en": "Lesson 12",
+      "zh": "第12课",
+      "role": "lesson"
+    },
+    {
+      "index": 1,
+      "startTime": 3,
+      "endTime": 10.64,
+      "en": "Goodbye and Good Luck",
+      "zh": "再见，一路顺风",
+      "role": "title"
+    },
+    {
+      "index": 2,
+      "startTime": 10.64,
+      "endTime": 16.15,
+      "en": "Where is Captain Alison going and how?",
+      "zh": "艾莉森上尉要去哪里？怎么去？",
+      "role": "question"
+    },
+    {
+      "index": 3,
+      "startTime": 16.15,
+      "endTime": 23.68,
+      "en": "Our neighbour, Captain Charles Alison, will sail from Portsmouth tomorrow.",
+      "zh": "我们的邻居查尔斯·艾利森上尉明天将从朴次茅斯启航。",
+      "role": "body"
+    },
+    {
+      "index": 4,
+      "startTime": 23.68,
+      "endTime": 27.51,
+      "en": "We'll meet him at the harbour early in the morning.",
+      "zh": "我们将在清晨在港口与他见面。",
+      "role": "body"
+    },
+    {
+      "index": 5,
+      "startTime": 27.51,
+      "endTime": 31.64,
+      "en": "He will be in his small boat, Topsail.",
+      "zh": "他会待在他的小船'托普赛尔'号上。",
+      "role": "body"
+    },
+    {
+      "index": 6,
+      "startTime": 31.64,
+      "endTime": 34.97,
+      "en": "Topsail is a famous little boat.",
+      "zh": "“Topsail”是一艘非常著名的小船。",
+      "role": "body"
+    },
+    {
+      "index": 7,
+      "startTime": 34.97,
+      "endTime": 39.48,
+      "en": "It has sailed across the Atlantic many times.",
+      "zh": "它已经多次横渡了大西洋。",
+      "role": "body"
+    },
+    {
+      "index": 8,
+      "startTime": 39.48,
+      "endTime": 46,
+      "en": "Captain Alison will set out at eight o'clock, so we'll have plenty of time.",
+      "zh": "艾莉森船长八点就要出发了，所以我们会有足够的时间。",
+      "role": "body"
+    },
+    {
+      "index": 9,
+      "startTime": 46,
+      "endTime": 50.16,
+      "en": "We'll see his boat and then we'll say goodbye to him.",
+      "zh": "我们会去看看他的船，然后跟他告别。",
+      "role": "body"
+    },
+    {
+      "index": 10,
+      "startTime": 50.16,
+      "endTime": 53.09,
+      "en": "He will be away for two months.",
+      "zh": "他将会离开两个月。",
+      "role": "body"
+    },
+    {
+      "index": 11,
+      "startTime": 53.09,
+      "endTime": 55.91,
+      "en": "We are very proud of him.",
+      "zh": "我们为他感到非常骄傲。",
+      "role": "body"
+    },
+    {
+      "index": 12,
+      "startTime": 55.91,
+      "endTime": null,
+      "en": "He will take part in an important race across the Atlantic.",
+      "zh": "他将参加一场横跨大西洋的重要比赛。",
+      "role": "body"
+    }
+  ],
+  "audio": {
+    "fileName": "12－Goodbye and Good Luck.mp3",
+    "sourcePath": "content/NCE-Flow/NCE2/12－Goodbye and Good Luck.mp3",
+    "exists": true
+  },
+  "source": {
+    "repository": "NCE-Flow",
+    "lrcFileName": "12－Goodbye and Good Luck.lrc",
+    "lrcPath": "content/NCE-Flow/NCE2/12－Goodbye and Good Luck.lrc",
+    "sourceDataFile": "content/NCE-Flow/static/data.json",
+    "generatedAt": "2026-07-23T02:59:02+00:00",
+    "generator": "scripts/generate_nce_json.py",
+    "generatorVersion": "2.0.0",
+    "metadata": {
+      "al": "新概念英语（二）",
+      "ar": "MP3 同步字幕版（美音）",
+      "ti": "Goodbye and Good Luck",
+      "by": "更多学习内容，请到VeryCD.com搜索“露珠”"
+    }
+  }
+}

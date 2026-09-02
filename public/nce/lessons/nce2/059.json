@@ -1,0 +1,151 @@
+{
+  "schemaVersion": 1,
+  "id": "nce2-059",
+  "bookId": "nce2",
+  "bookNo": 2,
+  "lessonNo": 59,
+  "lessonRange": [
+    59
+  ],
+  "title": "In or Out",
+  "titleZh": "进来还是出去？",
+  "question": "Why did Rex run away?",
+  "questionZh": "为什么雷克斯会逃跑呢？",
+  "text": "Why did Rex run away?\n\nOur dog, Rex, used to sit outside our front gate and bark.\nEvery time he wanted to come into the garden he would bark until someone opened the gate.\nAs the neighbours complained of the noise, my husband spent weeks training him to press his paw on the latch to let himself in.\nRex soon became an expert at opening the gate.\nHowever, when I was going out shopping last week, I noticed him in the garden near the gate.\nThis time he was barking so that someone would let him out!\nSince then, he has developed another bad habit.\nAs soon as he opens the gate from the outside, he comes into the garden and waits until the gate shuts.\nThen he sits and barks until someone lets him out.\nAfter this he immediately lets himself in and begins barking again.\nYesterday my husband removed the gate and Rex got so annoyed we have not seen him since.",
+  "bodyText": "Our dog, Rex, used to sit outside our front gate and bark.\nEvery time he wanted to come into the garden he would bark until someone opened the gate.\nAs the neighbours complained of the noise, my husband spent weeks training him to press his paw on the latch to let himself in.\nRex soon became an expert at opening the gate.\nHowever, when I was going out shopping last week, I noticed him in the garden near the gate.\nThis time he was barking so that someone would let him out!\nSince then, he has developed another bad habit.\nAs soon as he opens the gate from the outside, he comes into the garden and waits until the gate shuts.\nThen he sits and barks until someone lets him out.\nAfter this he immediately lets himself in and begins barking again.\nYesterday my husband removed the gate and Rex got so annoyed we have not seen him since.",
+  "bodyTextZh": "我们的狗雷克斯过去常常坐在前门外吠叫。\n每次他想进入花园时，都会不停地吠叫，直到有人打开大门。\n由于邻居们抱怨噪音太大，我丈夫花了好几个星期训练它用爪子按门闩，好让它自己进来。\n雷克斯很快就掌握了开门的技巧。\n然而，上周我去购物的时候，我在大门附近的花园里看到了他。\n这次他大声吠叫，就是为了有人能放他出去！\n从那以后，他又养成了一个坏习惯。\n他一从外面打开大门，就走进花园，然后等待大门关上。\n然后他就坐着，不停地叫，直到有人放他出去。\n之后，他立刻自己进了门，又开始吠叫起来。\n昨天我丈夫把门拆了，雷克斯气坏了，从那以后我们就再也没见过它了。",
+  "sentences": [
+    {
+      "index": 0,
+      "startTime": 0.5,
+      "endTime": 3,
+      "en": "Lesson 59",
+      "zh": "第59课",
+      "role": "lesson"
+    },
+    {
+      "index": 1,
+      "startTime": 3,
+      "endTime": 11.22,
+      "en": "In or Out",
+      "zh": "进来还是出去？",
+      "role": "title"
+    },
+    {
+      "index": 2,
+      "startTime": 11.22,
+      "endTime": 15.52,
+      "en": "Why did Rex run away?",
+      "zh": "为什么雷克斯会逃跑呢？",
+      "role": "question"
+    },
+    {
+      "index": 3,
+      "startTime": 15.52,
+      "endTime": 22.54,
+      "en": "Our dog, Rex, used to sit outside our front gate and bark.",
+      "zh": "我们的狗雷克斯过去常常坐在前门外吠叫。",
+      "role": "body"
+    },
+    {
+      "index": 4,
+      "startTime": 22.54,
+      "endTime": 30.39,
+      "en": "Every time he wanted to come into the garden he would bark until someone opened the gate.",
+      "zh": "每次他想进入花园时，都会不停地吠叫，直到有人打开大门。",
+      "role": "body"
+    },
+    {
+      "index": 5,
+      "startTime": 30.39,
+      "endTime": 41.56,
+      "en": "As the neighbours complained of the noise, my husband spent weeks training him to press his paw on the latch to let himself in.",
+      "zh": "由于邻居们抱怨噪音太大，我丈夫花了好几个星期训练它用爪子按门闩，好让它自己进来。",
+      "role": "body"
+    },
+    {
+      "index": 6,
+      "startTime": 41.56,
+      "endTime": 46.22,
+      "en": "Rex soon became an expert at opening the gate.",
+      "zh": "雷克斯很快就掌握了开门的技巧。",
+      "role": "body"
+    },
+    {
+      "index": 7,
+      "startTime": 46.22,
+      "endTime": 54.81,
+      "en": "However, when I was going out shopping last week, I noticed him in the garden near the gate.",
+      "zh": "然而，上周我去购物的时候，我在大门附近的花园里看到了他。",
+      "role": "body"
+    },
+    {
+      "index": 8,
+      "startTime": 54.81,
+      "endTime": 60.09,
+      "en": "This time he was barking so that someone would let him out!",
+      "zh": "这次他大声吠叫，就是为了有人能放他出去！",
+      "role": "body"
+    },
+    {
+      "index": 9,
+      "startTime": 60.09,
+      "endTime": 65.1,
+      "en": "Since then, he has developed another bad habit.",
+      "zh": "从那以后，他又养成了一个坏习惯。",
+      "role": "body"
+    },
+    {
+      "index": 10,
+      "startTime": 65.1,
+      "endTime": 74.07,
+      "en": "As soon as he opens the gate from the outside, he comes into the garden and waits until the gate shuts.",
+      "zh": "他一从外面打开大门，就走进花园，然后等待大门关上。",
+      "role": "body"
+    },
+    {
+      "index": 11,
+      "startTime": 74.07,
+      "endTime": 78.58,
+      "en": "Then he sits and barks until someone lets him out.",
+      "zh": "然后他就坐着，不停地叫，直到有人放他出去。",
+      "role": "body"
+    },
+    {
+      "index": 12,
+      "startTime": 78.58,
+      "endTime": 86.28,
+      "en": "After this he immediately lets himself in and begins barking again.",
+      "zh": "之后，他立刻自己进了门，又开始吠叫起来。",
+      "role": "body"
+    },
+    {
+      "index": 13,
+      "startTime": 86.28,
+      "endTime": null,
+      "en": "Yesterday my husband removed the gate and Rex got so annoyed we have not seen him since.",
+      "zh": "昨天我丈夫把门拆了，雷克斯气坏了，从那以后我们就再也没见过它了。",
+      "role": "body"
+    }
+  ],
+  "audio": {
+    "fileName": "59－In or Out.mp3",
+    "sourcePath": "content/NCE-Flow/NCE2/59－In or Out.mp3",
+    "exists": true
+  },
+  "source": {
+    "repository": "NCE-Flow",
+    "lrcFileName": "59－In or Out.lrc",
+    "lrcPath": "content/NCE-Flow/NCE2/59－In or Out.lrc",
+    "sourceDataFile": "content/NCE-Flow/static/data.json",
+    "generatedAt": "2026-07-23T02:59:02+00:00",
+    "generator": "scripts/generate_nce_json.py",
+    "generatorVersion": "2.0.0",
+    "metadata": {
+      "al": "新概念英语（二）",
+      "ar": "MP3 同步字幕版（美音）",
+      "ti": "In or Out?",
+      "by": "更多学习内容，请到VeryCD.com搜索“露珠”"
+    }
+  }
+}

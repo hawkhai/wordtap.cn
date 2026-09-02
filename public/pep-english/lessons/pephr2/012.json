@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "pephr2-012",
+  "groupId": "pephr2",
+  "unitNo": 5,
+  "sequenceNo": 12,
+  "section": "Reading and Thinking",
+  "title": "The Virtual Choir",
+  "jsonPath": "pep-english/lessons/pephr2/012.json",
+  "text": "Imagine having the opportunity to sing together with hundreds of other people while you are at home alone. You can do this in a virtual choir. Virtual choir members record themselves while they perform alone on video. These videos are uploaded onto the Internet, and then they are put together into one video that you can see online—a virtual choir. Anyone can take part in a virtual choir from anywhere—all you need is a video camera and an Internet connection. You do not even need a studio. A virtual choir helps connect ordinary people together. Many people do not have close friends or contacts who have the same interest in music. Many others do not have the chance to join a local choir. A virtual choir enables them to add their voices to those of other individuals and become part of the global community. It has proved to be a positive influence on the lives of many people. As one virtual choir member said, “Music helps me to … forget my problems. With music, I become someone else.”\nThe virtual choir was the idea of award-winning composer and conductor Eric Whitacre. Born in the USA on 2 January 1970, Whitacre began studying music at the University of Nevada in 1988. He fell in love with Mozart's classical music when he sang for the university choir. Moved by this music, he said, “It was like seeing color for the first time.” He graduated from university in 1995, and then received a master's degree in musical composition from the Juilliard School in New York in 1997. Over the next 10 years, Whitacre's original compositions began to become quite popular among choirs and singers. This led to the creation of the virtual choir.\nIn 2009, Whitacre received a video of a girl who was singing one of his works. Inspired, he asked his fans to make videos, which he then joined together into one performance. His first virtual choir, “Lux Aurumque”, had 185 singers from 12 different countries. It has received millions of views on the Internet. Since then, the virtual choir has become a worldwide phenomenon. Whitacre's next effort was the Virtual Youth Choir for UNICEF, which was first seen on stage on 23 July 2014 in the UK. Altogether, 2,292 young people from 80 countries joined in to sing Whitacre's song “What If”.\nThe virtual choir is a wonderful way for people around the world to sing with one voice and thus make the world a better place.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Imagine having the opportunity to sing together with hundreds of other people while you are at home alone. You can do this in a virtual choir. Virtual choir members record themselves while they perform alone on video. These videos are uploaded onto the Internet, and then they are put together into one video that you can see online—a virtual choir. Anyone can take part in a virtual choir from anywhere—all you need is a video camera and an Internet connection. You do not even need a studio. A virtual choir helps connect ordinary people together. Many people do not have close friends or contacts who have the same interest in music. Many others do not have the chance to join a local choir. A virtual choir enables them to add their voices to those of other individuals and become part of the global community. It has proved to be a positive influence on the lives of many people. As one virtual choir member said, “Music helps me to … forget my problems. With music, I become someone else.”"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "The virtual choir was the idea of award-winning composer and conductor Eric Whitacre. Born in the USA on 2 January 1970, Whitacre began studying music at the University of Nevada in 1988. He fell in love with Mozart's classical music when he sang for the university choir. Moved by this music, he said, “It was like seeing color for the first time.” He graduated from university in 1995, and then received a master's degree in musical composition from the Juilliard School in New York in 1997. Over the next 10 years, Whitacre's original compositions began to become quite popular among choirs and singers. This led to the creation of the virtual choir."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "In 2009, Whitacre received a video of a girl who was singing one of his works. Inspired, he asked his fans to make videos, which he then joined together into one performance. His first virtual choir, “Lux Aurumque”, had 185 singers from 12 different countries. It has received millions of views on the Internet. Since then, the virtual choir has become a worldwide phenomenon. Whitacre's next effort was the Virtual Youth Choir for UNICEF, which was first seen on stage on 23 July 2014 in the UK. Altogether, 2,292 young people from 80 countries joined in to sing Whitacre's song “What If”."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "The virtual choir is a wonderful way for people around the world to sing with one voice and thus make the world a better place."
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "必修第二册",
+    "pageStart": 59,
+    "pageEnd": 59,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "38d49874e4f015fd89f21c9306f6b9d5",
+    "pdfSize": 14270612,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/senior-required-2.pdf#page=59",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored the complete four-paragraph article about virtual choirs and Eric Whitacre; excluded pre-reading questions, scanning tasks, strategy box and images."
+    }
+  }
+}

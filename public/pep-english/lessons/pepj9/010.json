@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "pepj9-010",
+  "groupId": "pepj9",
+  "unitNo": 3,
+  "sequenceNo": 10,
+  "section": "Section A",
+  "title": "Fun Times Park — Always a Fun Time!",
+  "jsonPath": "pep-english/lessons/pepj9/010.json",
+  "text": "[Alice and He Wei are in Space World.] Alice: I wonder where we should go next.\nHe Wei: How about that new ride over there?\nAlice: Well... it looks scary.\nHe Wei: Come on! I promise it'll be exciting! If you're scared, just shout or hold my hand.\n[After the ride...] Alice: You were right! That was fun! I was scared at first, but shouting did help.\nHe Wei: See, that wasn't so bad, right? You never know until you try something.\nAlice: Yes, I'm so glad I tried it!\nHe Wei: Do you want to go to Water World now?\nAlice: Sure, but I'm getting hungry. Do you know where we can get some good food quickly?\nHe Wei: Of course! I suggest Water City Restaurant in Water World. It serves delicious food.\nAlice: Great! Let's go!\n[On their way to Water City Restaurant, Alice and He Wei pass by Uncle Bob's.] Alice: Look! This restaurant looks interesting. The sign says a rock band plays here every evening.\nHe Wei: Why don't we come back here for dinner later? Let's ask what time the band starts playing.\n[Alice and He Wei walk up to a staff person at the door.] He Wei: Excuse me, could you tell us when the band starts playing this evening?\nStaff: Eight o'clock. The restaurant is always busy at that time, so come a little earlier to get a table.\nHe Wei: OK. Thank you!",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "[Alice and He Wei are in Space World.] Alice: I wonder where we should go next.\nHe Wei: How about that new ride over there?\nAlice: Well... it looks scary.\nHe Wei: Come on! I promise it'll be exciting! If you're scared, just shout or hold my hand."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "[After the ride...] Alice: You were right! That was fun! I was scared at first, but shouting did help.\nHe Wei: See, that wasn't so bad, right? You never know until you try something.\nAlice: Yes, I'm so glad I tried it!\nHe Wei: Do you want to go to Water World now?\nAlice: Sure, but I'm getting hungry. Do you know where we can get some good food quickly?\nHe Wei: Of course! I suggest Water City Restaurant in Water World. It serves delicious food.\nAlice: Great! Let's go!"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "[On their way to Water City Restaurant, Alice and He Wei pass by Uncle Bob's.] Alice: Look! This restaurant looks interesting. The sign says a rock band plays here every evening.\nHe Wei: Why don't we come back here for dinner later? Let's ask what time the band starts playing."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "[Alice and He Wei walk up to a staff person at the door.] He Wei: Excuse me, could you tell us when the band starts playing this evening?\nStaff: Eight o'clock. The restaurant is always busy at that time, so come a little earlier to get a table.\nHe Wei: OK. Thank you!"
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "初中",
+    "book": "九年级全一册",
+    "pageStart": 33,
+    "pageEnd": 33,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "c6e628c22e0c2f9cfe4547699a1c95a4",
+    "pdfSize": 11088578,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/junior-9.pdf#page=33",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored the printed title and all four continuous dialogue scenes in order; excluded the 3a comprehension questions, Unit header and 3b rewriting task."
+    }
+  }
+}

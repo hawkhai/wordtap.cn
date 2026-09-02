@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "id": "pephr1-024",
+  "groupId": "pephr1",
+  "unitNo": 1,
+  "sequenceNo": 24,
+  "section": "Writing",
+  "title": "A Birthday Gift for a Fifteen-Year-Old Son",
+  "jsonPath": "pep-english/lessons/pephr1/024.json",
+  "text": "Dear Talking Teens,\nMy son will turn 15 next week. I want to give him something special, but I have no idea what to buy. It used to be easy to know what he liked. Now it seems like we don't have the same taste any more. Please help!\nSincerely, Loving Father",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Dear Talking Teens,"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "My son will turn 15 next week. I want to give him something special, but I have no idea what to buy. It used to be easy to know what he liked. Now it seems like we don't have the same taste any more. Please help!"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Sincerely, Loving Father"
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "必修第一册",
+    "pageStart": 82,
+    "pageEnd": 82,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "e0bf18138b24d7def28b35994a13946b",
+    "pdfSize": 14704146,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/senior-required-1.pdf#page=82",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored Loving Father's complete signed letter as an independent lesson.",
+      "splitBaselineId": "pephr1-030",
+      "splitIndex": 3,
+      "splitCount": 4
+    }
+  }
+}

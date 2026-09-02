@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "id": "pephs3-025",
+  "groupId": "pephs3",
+  "unitNo": 3,
+  "sequenceNo": 25,
+  "section": "Reading and Writing",
+  "title": "Small Waste, Big Problem",
+  "jsonPath": "pep-english/lessons/pephs3/025.json",
+  "text": "Many of us might not give a second thought to dropping a small piece of litter. After all, if it is so small, it cannot possibly be that harmful, can it? In today’s world, the answer is certainly “Yes it can!” With the growing use of plastic bags and the rising number of smokers, there is more litter being produced than ever before.\nAlthough cigarette butts are small, they are bad for the environment. Worldwide, about 4.3 trillion cigarette butts are littered every year. As well as spoiling the beauty of the environment, they contain toxic chemicals. These find their way into the water supply where they affect water quality and endanger plants and animals. Cigarette butts can take up to 25 years to break down, and the toxic chemicals add up to a large amount with so many littered. So, if people want to smoke, they should dispose of the butts properly in a rubbish bin.\nPlastic bags are another common form of litter that is dangerous to the environment. They are easily blown by wind and float in water, so they can travel long distances. They find their way to rivers, parks, beaches, and oceans, killing many birds, mammals, fish, and sea animals each year worldwide. They can last for hundreds of years in the environment. We should not let plastic bags become litter. We should use fewer plastic bags, and reuse and recycle what we have already used.\nOne way to reduce the use of plastic bags is to charge for them. Shops used to give plastic bags for free. But in some countries, including China, customers are now charged for each bag. Some shops also have a “bag-for-life” scheme. They sell stronger bags that can be reused, and they replace them for free if the bags ever break.\nWaste is a big problem for the environment, so we need to do something. Not littering at all or cleaning up “small waste” saves money spent on disposing of litter properly. However, it would be better not to smoke or use plastic bags at all.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Many of us might not give a second thought to dropping a small piece of litter. After all, if it is so small, it cannot possibly be that harmful, can it? In today’s world, the answer is certainly “Yes it can!” With the growing use of plastic bags and the rising number of smokers, there is more litter being produced than ever before."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Although cigarette butts are small, they are bad for the environment. Worldwide, about 4.3 trillion cigarette butts are littered every year. As well as spoiling the beauty of the environment, they contain toxic chemicals. These find their way into the water supply where they affect water quality and endanger plants and animals. Cigarette butts can take up to 25 years to break down, and the toxic chemicals add up to a large amount with so many littered. So, if people want to smoke, they should dispose of the butts properly in a rubbish bin."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Plastic bags are another common form of litter that is dangerous to the environment. They are easily blown by wind and float in water, so they can travel long distances. They find their way to rivers, parks, beaches, and oceans, killing many birds, mammals, fish, and sea animals each year worldwide. They can last for hundreds of years in the environment. We should not let plastic bags become litter. We should use fewer plastic bags, and reuse and recycle what we have already used."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "One way to reduce the use of plastic bags is to charge for them. Shops used to give plastic bags for free. But in some countries, including China, customers are now charged for each bag. Some shops also have a “bag-for-life” scheme. They sell stronger bags that can be reused, and they replace them for free if the bags ever break."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Waste is a big problem for the environment, so we need to do something. Not littering at all or cleaning up “small waste” saves money spent on disposing of litter properly. However, it would be better not to smoke or use plastic bags at all."
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "选择性必修第三册",
+    "pageStart": 85,
+    "pageEnd": 86,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "f0dc33129a755a33421d401b71a05cd1",
+    "pdfSize": 12684455,
+    "manualReview": {
+      "method": "visual-line-by-line-and-adjacent-page-recovery",
+      "source": "content/pep-english/raw/senior-selective-3.pdf#page=85-86",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored all five paragraphs, including two concluding paragraphs on page 86 missed by the baseline scan; excluded images, incomplete table, tasks and furniture after checking page 84 and page 87 boundaries."
+    }
+  }
+}

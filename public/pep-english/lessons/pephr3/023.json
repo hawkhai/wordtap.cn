@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "id": "pephr3-023",
+  "groupId": "pephr3",
+  "unitNo": 3,
+  "sequenceNo": 23,
+  "section": "Reading and Writing",
+  "title": "Symbols of American Culture",
+  "jsonPath": "pep-english/lessons/pephr3/023.json",
+  "text": "Each country has its own unique culture, often represented by symbols, such as foods, sports, music, and clothes, which tell us something about it. When you think of America, what symbols come to your mind first?\nPerhaps one of the most famous symbols of the US is fast food. Fast-food restaurants became popular when people began driving cars around the country. Many of the earliest fast-food restaurants were drive-ins where people ate in their cars while they were parked. However, now drive-throughs have become popular because people need to keep up with the speed of modern life. With a drive-through, you can just drive up to a window, pick up the food, and then drive away. About 20% of all American meals are eaten in the car, and Americans spend about 10% of their income on fast food. No wonder America is called the “Fast-Food Nation”!\nWhen it comes to seeing a game in person, baseball is by far the most popular sport in America. In a typical year, more people attend baseball games than football and basketball games combined. And for most people, baseball is “America’s game” in a way that football and basketball are not, because it is a special symbol of the American spirit. For one thing, while baseball is a team sport, every player can be a hero or star. For another, almost anyone can play baseball, even if you do not have great skills or ability. Finally, there is nothing more American than eating a hot dog while watching a baseball game on a hot summer afternoon. Baseball still is the “national pastime”.\nJazz is often called “America’s music”. It is a music style completely created in the United States by African American musicians. Jazz music broke through the colour barriers, and has become a key part of American culture. One early jazz pioneer was the trumpet player Louis Armstrong (1901–1971). Perhaps more than any other person, Armstrong helped spread jazz beyond its home in New Orleans to the rest of the United States, and to the world. Jazz musicians freely make up their own music to express their own feelings, even while playing in a group. This freedom and individuality make jazz a popular symbol of America.\nThere are many other symbols of America, such as the Statue of Liberty, Hollywood, and Broadway. These are but a few symbols that show something of American culture.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Each country has its own unique culture, often represented by symbols, such as foods, sports, music, and clothes, which tell us something about it. When you think of America, what symbols come to your mind first?"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Perhaps one of the most famous symbols of the US is fast food. Fast-food restaurants became popular when people began driving cars around the country. Many of the earliest fast-food restaurants were drive-ins where people ate in their cars while they were parked. However, now drive-throughs have become popular because people need to keep up with the speed of modern life. With a drive-through, you can just drive up to a window, pick up the food, and then drive away. About 20% of all American meals are eaten in the car, and Americans spend about 10% of their income on fast food. No wonder America is called the “Fast-Food Nation”!"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "When it comes to seeing a game in person, baseball is by far the most popular sport in America. In a typical year, more people attend baseball games than football and basketball games combined. And for most people, baseball is “America’s game” in a way that football and basketball are not, because it is a special symbol of the American spirit. For one thing, while baseball is a team sport, every player can be a hero or star. For another, almost anyone can play baseball, even if you do not have great skills or ability. Finally, there is nothing more American than eating a hot dog while watching a baseball game on a hot summer afternoon. Baseball still is the “national pastime”."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Jazz is often called “America’s music”. It is a music style completely created in the United States by African American musicians. Jazz music broke through the colour barriers, and has become a key part of American culture. One early jazz pioneer was the trumpet player Louis Armstrong (1901–1971). Perhaps more than any other person, Armstrong helped spread jazz beyond its home in New Orleans to the rest of the United States, and to the world. Jazz musicians freely make up their own music to express their own feelings, even while playing in a group. This freedom and individuality make jazz a popular symbol of America."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "There are many other symbols of America, such as the Statue of Liberty, Hollywood, and Broadway. These are but a few symbols that show something of American culture."
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "必修第三册",
+    "pageStart": 83,
+    "pageEnd": 83,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "31e51a16693d03177a5825f53f612a87",
+    "pdfSize": 14202806,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/senior-required-3.pdf#page=83",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored the complete five-paragraph web-page model in visual order; excluded the three preliminary answer blanks, instruction, photographs, browser frame and running furniture."
+    }
+  }
+}

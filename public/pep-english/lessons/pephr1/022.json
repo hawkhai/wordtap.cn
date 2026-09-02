@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "id": "pephr1-022",
+  "groupId": "pephr1",
+  "unitNo": 1,
+  "sequenceNo": 22,
+  "section": "Writing",
+  "title": "A Daughter Who No Longer Asks for Advice",
+  "jsonPath": "pep-english/lessons/pephr1/022.json",
+  "text": "Dear Talking Teens,\nI have a daughter who has just started senior high school. She wants to choose her own courses and decide everything by herself. In the past, she would always ask me for advice, but now she talks to her friends instead. Why doesn't she want my advice any more?\nBest regards, Confused Mum",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Dear Talking Teens,"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "I have a daughter who has just started senior high school. She wants to choose her own courses and decide everything by herself. In the past, she would always ask me for advice, but now she talks to her friends instead. Why doesn't she want my advice any more?"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Best regards, Confused Mum"
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "必修第一册",
+    "pageStart": 82,
+    "pageEnd": 82,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "e0bf18138b24d7def28b35994a13946b",
+    "pdfSize": 14704146,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/senior-required-1.pdf#page=82",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored Confused Mum's complete signed letter as an independent lesson.",
+      "splitBaselineId": "pephr1-030",
+      "splitIndex": 1,
+      "splitCount": 4
+    }
+  }
+}

@@ -1,0 +1,224 @@
+{
+  "schemaVersion": 1,
+  "id": "nce1-075",
+  "bookId": "nce1",
+  "bookNo": 1,
+  "lessonNo": 75,
+  "lessonRange": [
+    75,
+    76
+  ],
+  "title": "Uncomfortable Shoes",
+  "titleZh": "不舒服的鞋子",
+  "question": "What's wrong with the fashionable shoes?",
+  "questionZh": "这些时髦的鞋子有什么问题？",
+  "text": "What's wrong with the fashionable shoes?\n\nDo you have any shoes like these?\nWhat size?\nSize five.\nWhat colour?\nBlack.\nI'm sorry.\nWe don't have any.\nBut my sister bought this pair last month.\nDid she buy them here?\nNo, she bought them in the U. S.\nWe had some shoes like those a month ago, but we don't have any now.\nCan you get a pair for me, please?\nI'm afraid that I can't.\nThey were in fashion last year and the year before last.\nBut they're not in fashion this year.\nThese shoes are in fashion now.\nThey look very uncomfortable.\nThey are very uncomfortable.\nBut women always wear uncomfortable shoes!",
+  "bodyText": "Do you have any shoes like these?\nWhat size?\nSize five.\nWhat colour?\nBlack.\nI'm sorry.\nWe don't have any.\nBut my sister bought this pair last month.\nDid she buy them here?\nNo, she bought them in the U. S.\nWe had some shoes like those a month ago, but we don't have any now.\nCan you get a pair for me, please?\nI'm afraid that I can't.\nThey were in fashion last year and the year before last.\nBut they're not in fashion this year.\nThese shoes are in fashion now.\nThey look very uncomfortable.\nThey are very uncomfortable.\nBut women always wear uncomfortable shoes!",
+  "bodyTextZh": "你们有类似的鞋子吗？\n什么尺寸？\n尺码五。\n什么颜色？\n黑色。\n对不起。\n我们没有（这样的鞋子）。\n但我姐姐上个月买了这双鞋。\n她是在这里买的吗？\n不，她是在美国买的。\n我们一个月前还有一些那样的鞋子，但现在一只都没有了。\n能帮我弄一双吗？\n恐怕不行。\n它们在去年和前年都很流行。\n但它们今年已经过时了（不再流行了）。\n这双鞋现在非常流行。\n这双鞋看起来很不舒服。\n这双鞋确实很不舒服。\n但是女性总是穿着不舒服的鞋子啊！",
+  "sentences": [
+    {
+      "index": 0,
+      "startTime": 0.93,
+      "endTime": 3.73,
+      "en": "Lesson 75",
+      "zh": "第75课",
+      "role": "lesson"
+    },
+    {
+      "index": 1,
+      "startTime": 3.73,
+      "endTime": 6.98,
+      "en": "Uncomfortable shoes",
+      "zh": "不舒服的鞋子",
+      "role": "title"
+    },
+    {
+      "index": 2,
+      "startTime": 6.98,
+      "endTime": 12.38,
+      "en": "Listen to the tape then answer this question.",
+      "zh": "先听这段录音，然后再回答这个问题。",
+      "role": "prompt"
+    },
+    {
+      "index": 3,
+      "startTime": 12.38,
+      "endTime": 18.01,
+      "en": "What's wrong with the fashionable shoes?",
+      "zh": "这些时髦的鞋子有什么问题？",
+      "role": "question"
+    },
+    {
+      "index": 4,
+      "startTime": 18.01,
+      "endTime": 22.08,
+      "en": "Do you have any shoes like these?",
+      "zh": "你们有类似的鞋子吗？",
+      "role": "body"
+    },
+    {
+      "index": 5,
+      "startTime": 22.08,
+      "endTime": 23.8,
+      "en": "What size?",
+      "zh": "什么尺寸？",
+      "role": "body"
+    },
+    {
+      "index": 6,
+      "startTime": 23.8,
+      "endTime": 25.86,
+      "en": "Size five.",
+      "zh": "尺码五。",
+      "role": "body"
+    },
+    {
+      "index": 7,
+      "startTime": 25.86,
+      "endTime": 27.3,
+      "en": "What colour?",
+      "zh": "什么颜色？",
+      "role": "body"
+    },
+    {
+      "index": 8,
+      "startTime": 27.3,
+      "endTime": 28.91,
+      "en": "Black.",
+      "zh": "黑色。",
+      "role": "body"
+    },
+    {
+      "index": 9,
+      "startTime": 28.91,
+      "endTime": 30.29,
+      "en": "I'm sorry.",
+      "zh": "对不起。",
+      "role": "body"
+    },
+    {
+      "index": 10,
+      "startTime": 30.29,
+      "endTime": 32.85,
+      "en": "We don't have any.",
+      "zh": "我们没有（这样的鞋子）。",
+      "role": "body"
+    },
+    {
+      "index": 11,
+      "startTime": 32.85,
+      "endTime": 37.52,
+      "en": "But my sister bought this pair last month.",
+      "zh": "但我姐姐上个月买了这双鞋。",
+      "role": "body"
+    },
+    {
+      "index": 12,
+      "startTime": 37.52,
+      "endTime": 39.94,
+      "en": "Did she buy them here?",
+      "zh": "她是在这里买的吗？",
+      "role": "body"
+    },
+    {
+      "index": 13,
+      "startTime": 39.94,
+      "endTime": 44.36,
+      "en": "No, she bought them in the U. S.",
+      "zh": "不，她是在美国买的。",
+      "role": "body"
+    },
+    {
+      "index": 14,
+      "startTime": 44.36,
+      "endTime": 51.82,
+      "en": "We had some shoes like those a month ago, but we don't have any now.",
+      "zh": "我们一个月前还有一些那样的鞋子，但现在一只都没有了。",
+      "role": "body"
+    },
+    {
+      "index": 15,
+      "startTime": 51.82,
+      "endTime": 55.52,
+      "en": "Can you get a pair for me, please?",
+      "zh": "能帮我弄一双吗？",
+      "role": "body"
+    },
+    {
+      "index": 16,
+      "startTime": 55.52,
+      "endTime": 58.54,
+      "en": "I'm afraid that I can't.",
+      "zh": "恐怕不行。",
+      "role": "body"
+    },
+    {
+      "index": 17,
+      "startTime": 58.54,
+      "endTime": 64.2,
+      "en": "They were in fashion last year and the year before last.",
+      "zh": "它们在去年和前年都很流行。",
+      "role": "body"
+    },
+    {
+      "index": 18,
+      "startTime": 64.2,
+      "endTime": 69.1,
+      "en": "But they're not in fashion this year.",
+      "zh": "但它们今年已经过时了（不再流行了）。",
+      "role": "body"
+    },
+    {
+      "index": 19,
+      "startTime": 69.1,
+      "endTime": 73.09,
+      "en": "These shoes are in fashion now.",
+      "zh": "这双鞋现在非常流行。",
+      "role": "body"
+    },
+    {
+      "index": 20,
+      "startTime": 73.09,
+      "endTime": 76.46,
+      "en": "They look very uncomfortable.",
+      "zh": "这双鞋看起来很不舒服。",
+      "role": "body"
+    },
+    {
+      "index": 21,
+      "startTime": 76.46,
+      "endTime": 79.48,
+      "en": "They are very uncomfortable.",
+      "zh": "这双鞋确实很不舒服。",
+      "role": "body"
+    },
+    {
+      "index": 22,
+      "startTime": 79.48,
+      "endTime": null,
+      "en": "But women always wear uncomfortable shoes!",
+      "zh": "但是女性总是穿着不舒服的鞋子啊！",
+      "role": "body"
+    }
+  ],
+  "audio": {
+    "fileName": "075&076－Uncomfortable Shoes.mp3",
+    "sourcePath": "content/NCE-Flow/NCE1/075&076－Uncomfortable Shoes.mp3",
+    "exists": true
+  },
+  "source": {
+    "repository": "NCE-Flow",
+    "lrcFileName": "075&076－Uncomfortable Shoes.lrc",
+    "lrcPath": "content/NCE-Flow/NCE1/075&076－Uncomfortable Shoes.lrc",
+    "sourceDataFile": "content/NCE-Flow/static/data.json",
+    "generatedAt": "2026-07-23T02:59:02+00:00",
+    "generator": "scripts/generate_nce_json.py",
+    "generatorVersion": "2.0.0",
+    "metadata": {
+      "al": "新概念英语（一）",
+      "ar": "MP3 同步字幕版（美音）",
+      "ti": "Uncomfortable Shoes",
+      "by": "更多学习内容，请到VeryCD.com搜索“露珠”"
+    }
+  }
+}

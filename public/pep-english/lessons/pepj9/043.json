@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "pepj9-043",
+  "groupId": "pepj9",
+  "unitNo": 13,
+  "sequenceNo": 43,
+  "section": "Section B",
+  "title": "Rethink, Reuse, Recycle!",
+  "jsonPath": "pep-english/lessons/pepj9/043.json",
+  "text": "Do you often throw away things you don't need anymore? Have you ever thought about how these things can actually be put to good use? Nothing is a waste if you have a creative mind.\nYou have probably never heard of Amy Hayes, but she is a most unusual woman. She lives in a house in the UK that she built herself out of rubbish. The windows and doors come from old buildings around her town that were pulled down. The top of the house is an old boat turned upside down. And the gate in front of her house is made of rocks and old glass bottles. Amy recently won a prize from the Help Save Our Planet Society. The president said, \"Amy is an inspiration to us all.\"\nAmy isn't the only one who is good at recycling. Jessica Wong from Hong Kong uses old clothes that people don't wear anymore to make bags. She has been doing this for a few years now. She opened a small shop where she sells her bags, and she has also set up a website to sell them online. She especially likes to use old jeans to make handbags. Her bags are cute and useful. \"I plan to write a book about new ways to use old clothes,\" she said. \"I hope people can read my book and enjoy it!\"\nWang Tao set up a small business in Shanghai four years ago. He is known for using iron and other materials from old cars to make beautiful art pieces. Some are large pieces that look like animals or humans, and some are smaller pieces you can put at home. The more popular works can even be seen in art shops around the city. Wang Tao hopes to set up a \"metal art\" theme park to show people the importance of environmental protection. Not only can the art bring happiness to others, but it also shows that even cold, hard iron can be brought back to life with a little creativity.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Do you often throw away things you don't need anymore? Have you ever thought about how these things can actually be put to good use? Nothing is a waste if you have a creative mind."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "You have probably never heard of Amy Hayes, but she is a most unusual woman. She lives in a house in the UK that she built herself out of rubbish. The windows and doors come from old buildings around her town that were pulled down. The top of the house is an old boat turned upside down. And the gate in front of her house is made of rocks and old glass bottles. Amy recently won a prize from the Help Save Our Planet Society. The president said, \"Amy is an inspiration to us all.\""
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Amy isn't the only one who is good at recycling. Jessica Wong from Hong Kong uses old clothes that people don't wear anymore to make bags. She has been doing this for a few years now. She opened a small shop where she sells her bags, and she has also set up a website to sell them online. She especially likes to use old jeans to make handbags. Her bags are cute and useful. \"I plan to write a book about new ways to use old clothes,\" she said. \"I hope people can read my book and enjoy it!\""
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Wang Tao set up a small business in Shanghai four years ago. He is known for using iron and other materials from old cars to make beautiful art pieces. Some are large pieces that look like animals or humans, and some are smaller pieces you can put at home. The more popular works can even be seen in art shops around the city. Wang Tao hopes to set up a \"metal art\" theme park to show people the importance of environmental protection. Not only can the art bring happiness to others, but it also shows that even cold, hard iron can be brought back to life with a little creativity."
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "初中",
+    "book": "九年级全一册",
+    "pageStart": 116,
+    "pageEnd": 116,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "c6e628c22e0c2f9cfe4547699a1c95a4",
+    "pdfSize": 11088578,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/junior-9.pdf#page=116",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored the printed title, introduction and all three complete creator profiles; excluded 2a/2b instructions, the prefixes/suffixes strategy box and blank chart."
+    }
+  }
+}

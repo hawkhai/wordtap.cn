@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "id": "pephs2-011",
+  "groupId": "pephs2",
+  "unitNo": 3,
+  "sequenceNo": 11,
+  "section": "Using Language",
+  "title": "Healthy Eating",
+  "jsonPath": "pep-english/lessons/pephs2/011.json",
+  "text": "There is much debate nowadays as to what makes up a healthy diet. For example, scientists have insisted for years that a big enemy of health is fatty food. However, there is increasing evidence that the real driver of poor health is not so much fatty food, as it is sugar. Heart disease is the number one killer of Americans. And in America, people who receive 25% of their daily calories or more through sugar are twice as likely to die from heart disease than people who receive less than 10% a day (Journal of the American Medical Association, 2014). This is true regardless of how healthy the rest of their diet might be. Put more simply, while people continue to argue over whether or not fatty food is dangerous, we already know that sugar is a killer.\nMuch of this extra sugar comes from sweets and sweet drinks. The average American gets 1/3 of his or her sugar through sweet drinks alone. The American Heart Association recommends that we limit ourselves to less than 100–150 calories a day from sugar, which is less than what is usually contained in one can of sweet drink or in a single candy bar. In other words, if you want to be healthy, you have to cut down on desserts, and cut out sweet drinks altogether.\nBeyond this, you can keep healthy by consuming different categories of fresh foods, especially fruit and vegetables, which are full of vitamins and fibre, rather than processed foods. Processed foods often contain less nutrition, and have higher quantities of sugar, salt, and fat than fresh ingredients. Besides this, it is also important to have some meat, beans, or dairy products in your diet, as they provide the necessary protein for strong bones and muscle growth. As with everything in life, moderation is key. The ideal diet is a balanced one, without too much or too little of any one thing.\nFinally, a fundamental key to healthy eating is to eat slowly. It takes about twenty minutes from the time you start eating for your brain to tell your body that you are full. What this means is that people who chew too quickly end up eating too much food because they still feel hungry. Eating slowly also allows your body to digest your food better, and will allow you to enjoy your food more. In addition, studies show that consistent eating habits, for example, taking three meals a day at the same time each day, are better for our health. It is also better to eat a modest amount of food each time, rather than to eat a lot in one meal, and then a little in the next.\nThere is no one trick to healthy eating. Rather, healthy eating starts with having a healthy attitude towards food. One question you can ask yourself is, “Do I eat to live, or live to eat?” If you are using food mostly for nutrition, then you are on the right track with your diet. However, if food has become the centre of your life, you might be on the road to bad health. It is up to you to decide how you want to live, and to make the right decisions about your diet.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "There is much debate nowadays as to what makes up a healthy diet. For example, scientists have insisted for years that a big enemy of health is fatty food. However, there is increasing evidence that the real driver of poor health is not so much fatty food, as it is sugar. Heart disease is the number one killer of Americans. And in America, people who receive 25% of their daily calories or more through sugar are twice as likely to die from heart disease than people who receive less than 10% a day (Journal of the American Medical Association, 2014). This is true regardless of how healthy the rest of their diet might be. Put more simply, while people continue to argue over whether or not fatty food is dangerous, we already know that sugar is a killer."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Much of this extra sugar comes from sweets and sweet drinks. The average American gets 1/3 of his or her sugar through sweet drinks alone. The American Heart Association recommends that we limit ourselves to less than 100–150 calories a day from sugar, which is less than what is usually contained in one can of sweet drink or in a single candy bar. In other words, if you want to be healthy, you have to cut down on desserts, and cut out sweet drinks altogether."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Beyond this, you can keep healthy by consuming different categories of fresh foods, especially fruit and vegetables, which are full of vitamins and fibre, rather than processed foods. Processed foods often contain less nutrition, and have higher quantities of sugar, salt, and fat than fresh ingredients. Besides this, it is also important to have some meat, beans, or dairy products in your diet, as they provide the necessary protein for strong bones and muscle growth. As with everything in life, moderation is key. The ideal diet is a balanced one, without too much or too little of any one thing."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Finally, a fundamental key to healthy eating is to eat slowly. It takes about twenty minutes from the time you start eating for your brain to tell your body that you are full. What this means is that people who chew too quickly end up eating too much food because they still feel hungry. Eating slowly also allows your body to digest your food better, and will allow you to enjoy your food more. In addition, studies show that consistent eating habits, for example, taking three meals a day at the same time each day, are better for our health. It is also better to eat a modest amount of food each time, rather than to eat a lot in one meal, and then a little in the next."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "There is no one trick to healthy eating. Rather, healthy eating starts with having a healthy attitude towards food. One question you can ask yourself is, “Do I eat to live, or live to eat?” If you are using food mostly for nutrition, then you are on the right track with your diet. However, if food has become the centre of your life, you might be on the road to bad health. It is up to you to decide how you want to live, and to make the right decisions about your diet."
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "选择性必修第二册",
+    "pageStart": 39,
+    "pageEnd": 39,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "1a701f2205298de95ea59cfc71eb83cd",
+    "pdfSize": 9968316,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/senior-selective-2.pdf#page=39",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored the complete five-paragraph healthy-eating article under its graphic title; excluded the reading instruction and background photograph, and confirmed page 40 contains only subheading matching, analysis and student-writing activities."
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "pephr3-028",
+  "groupId": "pephr3",
+  "unitNo": 4,
+  "sequenceNo": 28,
+  "section": "Expanding Your World",
+  "title": "What Is FAST?",
+  "jsonPath": "pep-english/lessons/pephr3/028.json",
+  "text": "China’s Five-hundred-metre Aperture Spherical Telescope is better known as FAST. Located in Guizhou Province in southwestern China, FAST has been used since 25 September 2016. Its 500-metre dish is the world’s largest single-dish radio telescope. As such, scientists can use it to look for various things in the universe that are very far away. They can also use it to search for signs of communication that are not coming from Earth. Finding such things would prove that there is intelligent life somewhere else in the universe!",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "China’s Five-hundred-metre Aperture Spherical Telescope is better known as FAST. Located in Guizhou Province in southwestern China, FAST has been used since 25 September 2016. Its 500-metre dish is the world’s largest single-dish radio telescope. As such, scientists can use it to look for various things in the universe that are very far away. They can also use it to search for signs of communication that are not coming from Earth. Finding such things would prove that there is intelligent life somewhere else in the universe!"
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "必修第三册",
+    "pageStart": 91,
+    "pageEnd": 91,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "31e51a16693d03177a5825f53f612a87",
+    "pdfSize": 14202806,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/senior-required-3.pdf#page=91",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored the complete third standalone explainer under its own heading.",
+      "splitBaselineId": "pephr3-038",
+      "splitIndex": 3,
+      "splitCount": 4
+    }
+  }
+}

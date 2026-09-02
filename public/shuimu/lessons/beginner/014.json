@@ -1,0 +1,408 @@
+{
+  "schemaVersion": 1,
+  "id": "beginner-014",
+  "levelId": "beginner",
+  "unitNo": 14,
+  "title": "【对话场景】询问此刻的意图",
+  "jsonPath": "shuimu/lessons/beginner/014.json",
+  "text": "第十四单元\n第一课\n【对话场景】询问此刻的意图\n——You’re working hard, George.\n你干得很卖力啊，乔治。\nWhat are you doing?\n你在做什么呢？\n——I’m making a bookcase.\n我正在做一个书架。\nGive me that hammer please, Dan.\n丹，请把那个锤子递给我。\n——Which hammer?\n哪把锤子？\nThis one?\n这把吗？\n——No, not that one.\n不，不是那把。\nThe big one.\n是大点的那把。\n——Here you are.\n给你。\n——Thanks, Dan.\n谢谢你，丹。\n——What are you going to do now, George?\n你接下来打算干什么，乔治？\n——I’m going to paint it.\n我要给书架上漆。\n——What colour are you going to paint it?\n你要涂成什么颜色呢？\n——I’m going to paint it pink.\n我要涂成粉红色。\n——Pink!\n粉红色！\n——This bookcase isn’t for me.\n这个书架不是给我自己的。\nIt’s for my daughter, Susan.\n我为我的女儿苏珊做的。\nPink’s her favourite colour.\n粉色是她最喜欢的颜色。\n• work hard 的用法\n◦ work 是动词，意为“工作、做事”\n◦ hard 为副词，在这里的意思是“努力地、拼命地”\n◦ 类似的动词还有 study, listen, play, try 等\n▪ work hard, play hard 努力工作，尽情娱乐\n◦ hard 还有形容词的用法，意为“难的”=difficult，“坚固的”=solid\n• What are you doing？ 的用法\n◦ 意思是“你现在正在做什么？”\n◦ 现在进行时的特殊疑问句，what 是疑问代词，针对 doing 的部分提问\n◦ 表达方式较为正式，如果用于朋友之间的开场白，可以用 what are you up\nto 替换\n▪ What are you up to? 你最近在忙什么啊？\n◦ be 动词跟主语的人称保持一致\n▪ What is she/he doing?他/她正在做什么？\n▪ What are they/you doing?他们/你们正在做什么？\n• it is for sb.的用法\n◦ 意思是“为了某人”\n◦ for 是一个介词，有三种常见的用法\n▪ 表示为了······，目的、用途、对象\n▫ What can I do for you？我能为你做些什么呢？\n▫ This bread is for you.这个面包是给你的。\n▪ 表示一段距离或时间\n▫ He has run for a mile.他已经跑了一英里。\n▫ Please bake the cake for 30 minutes.请把蛋糕烤 30 分钟。\n▪ 表示因为、由于，解释原因\n▫ I can't see anything for the mist.因为大雾，我什么也看不见。\n第二课\n【语法点拨】“不确定”的冠词\n不定冠词放在名词前面，主要泛指一类人或物或同类事物中的某一个。不定冠词有 a\n和 an 两种形式。a 用于以辅音音素开头的单词前，an 用于以元音音素开头的单词\n前。\n• 表示某类人或物\n◦ 不定冠词 a/an 表示一类人或一类事物，这两个词通常不译出\n▪ A tailor makes clothes.裁缝做衣服。\n▪ A dog is smaller than an elephant.狗比大象小。\n• 表示数量“一”\n◦ 不定冠词 a/an 用于单数可数名词前，表示数量“一”\n▪ I have a book. 我有一本书。\n• 用于初次提及某人或某物\n◦ 当第一次提及某人或某物，非特指时，可以用不定冠词 a/an 介绍\n▪ She is sitting on a chair.她坐在一张椅子上。\n• 在计量词前面表示“每一”\n◦ 不定冠词 a/an 用在表示时间或度量单位的名词前，具有“每一”的意思\n◦ sixty miles an hour 每小时六十英里 twice a day 一天两次\n▪ How much is it?这个多少钱？\n2 yuan a kilo.一公斤 2 元钱。\n第三课\n【单词串烧】\n• work [wə:k] v.工作\n• hard ['hɑ:d] ad.努力地\n• make [meik] v.做\n• bookcase ['bukeis] n.书橱，书架\n• hammer ['hæmə] n.锤子\n• paint [peint] v.上漆，涂\n• pink [piŋk] n.& a.粉红色\n• favourite ['feivərit] a.最喜欢的\n• homework ['həumwə:k] n.作业\n• listen ['lisən] v.听\n• dish [diʃ] n.盘子，碟子",
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "第十四单元"
+    },
+    {
+      "type": "heading",
+      "text": "第一课"
+    },
+    {
+      "type": "heading",
+      "text": "【对话场景】询问此刻的意图"
+    },
+    {
+      "type": "paragraph",
+      "text": "——You’re working hard, George."
+    },
+    {
+      "type": "paragraph",
+      "text": "你干得很卖力啊，乔治。"
+    },
+    {
+      "type": "paragraph",
+      "text": "What are you doing?"
+    },
+    {
+      "type": "paragraph",
+      "text": "你在做什么呢？"
+    },
+    {
+      "type": "paragraph",
+      "text": "——I’m making a bookcase."
+    },
+    {
+      "type": "paragraph",
+      "text": "我正在做一个书架。"
+    },
+    {
+      "type": "paragraph",
+      "text": "Give me that hammer please, Dan."
+    },
+    {
+      "type": "paragraph",
+      "text": "丹，请把那个锤子递给我。"
+    },
+    {
+      "type": "paragraph",
+      "text": "——Which hammer?"
+    },
+    {
+      "type": "paragraph",
+      "text": "哪把锤子？"
+    },
+    {
+      "type": "paragraph",
+      "text": "This one?"
+    },
+    {
+      "type": "paragraph",
+      "text": "这把吗？"
+    },
+    {
+      "type": "paragraph",
+      "text": "——No, not that one."
+    },
+    {
+      "type": "paragraph",
+      "text": "不，不是那把。"
+    },
+    {
+      "type": "paragraph",
+      "text": "The big one."
+    },
+    {
+      "type": "paragraph",
+      "text": "是大点的那把。"
+    },
+    {
+      "type": "paragraph",
+      "text": "——Here you are."
+    },
+    {
+      "type": "paragraph",
+      "text": "给你。"
+    },
+    {
+      "type": "paragraph",
+      "text": "——Thanks, Dan."
+    },
+    {
+      "type": "paragraph",
+      "text": "谢谢你，丹。"
+    },
+    {
+      "type": "paragraph",
+      "text": "——What are you going to do now, George?"
+    },
+    {
+      "type": "paragraph",
+      "text": "你接下来打算干什么，乔治？"
+    },
+    {
+      "type": "paragraph",
+      "text": "——I’m going to paint it."
+    },
+    {
+      "type": "paragraph",
+      "text": "我要给书架上漆。"
+    },
+    {
+      "type": "paragraph",
+      "text": "——What colour are you going to paint it?"
+    },
+    {
+      "type": "paragraph",
+      "text": "你要涂成什么颜色呢？"
+    },
+    {
+      "type": "paragraph",
+      "text": "——I’m going to paint it pink."
+    },
+    {
+      "type": "paragraph",
+      "text": "我要涂成粉红色。"
+    },
+    {
+      "type": "paragraph",
+      "text": "——Pink!"
+    },
+    {
+      "type": "paragraph",
+      "text": "粉红色！"
+    },
+    {
+      "type": "paragraph",
+      "text": "——This bookcase isn’t for me."
+    },
+    {
+      "type": "paragraph",
+      "text": "这个书架不是给我自己的。"
+    },
+    {
+      "type": "paragraph",
+      "text": "It’s for my daughter, Susan."
+    },
+    {
+      "type": "paragraph",
+      "text": "我为我的女儿苏珊做的。"
+    },
+    {
+      "type": "paragraph",
+      "text": "Pink’s her favourite colour."
+    },
+    {
+      "type": "paragraph",
+      "text": "粉色是她最喜欢的颜色。"
+    },
+    {
+      "type": "list",
+      "text": "• work hard 的用法"
+    },
+    {
+      "type": "list",
+      "text": "◦ work 是动词，意为“工作、做事”"
+    },
+    {
+      "type": "list",
+      "text": "◦ hard 为副词，在这里的意思是“努力地、拼命地”"
+    },
+    {
+      "type": "list",
+      "text": "◦ 类似的动词还有 study, listen, play, try 等"
+    },
+    {
+      "type": "list",
+      "text": "▪ work hard, play hard 努力工作，尽情娱乐"
+    },
+    {
+      "type": "list",
+      "text": "◦ hard 还有形容词的用法，意为“难的”=difficult，“坚固的”=solid"
+    },
+    {
+      "type": "list",
+      "text": "• What are you doing？ 的用法"
+    },
+    {
+      "type": "list",
+      "text": "◦ 意思是“你现在正在做什么？”"
+    },
+    {
+      "type": "list",
+      "text": "◦ 现在进行时的特殊疑问句，what 是疑问代词，针对 doing 的部分提问"
+    },
+    {
+      "type": "list",
+      "text": "◦ 表达方式较为正式，如果用于朋友之间的开场白，可以用 what are you up"
+    },
+    {
+      "type": "paragraph",
+      "text": "to 替换"
+    },
+    {
+      "type": "list",
+      "text": "▪ What are you up to? 你最近在忙什么啊？"
+    },
+    {
+      "type": "list",
+      "text": "◦ be 动词跟主语的人称保持一致"
+    },
+    {
+      "type": "list",
+      "text": "▪ What is she/he doing?他/她正在做什么？"
+    },
+    {
+      "type": "list",
+      "text": "▪ What are they/you doing?他们/你们正在做什么？"
+    },
+    {
+      "type": "list",
+      "text": "• it is for sb.的用法"
+    },
+    {
+      "type": "list",
+      "text": "◦ 意思是“为了某人”"
+    },
+    {
+      "type": "list",
+      "text": "◦ for 是一个介词，有三种常见的用法"
+    },
+    {
+      "type": "list",
+      "text": "▪ 表示为了······，目的、用途、对象"
+    },
+    {
+      "type": "list",
+      "text": "▫ What can I do for you？我能为你做些什么呢？"
+    },
+    {
+      "type": "list",
+      "text": "▫ This bread is for you.这个面包是给你的。"
+    },
+    {
+      "type": "list",
+      "text": "▪ 表示一段距离或时间"
+    },
+    {
+      "type": "list",
+      "text": "▫ He has run for a mile.他已经跑了一英里。"
+    },
+    {
+      "type": "list",
+      "text": "▫ Please bake the cake for 30 minutes.请把蛋糕烤 30 分钟。"
+    },
+    {
+      "type": "list",
+      "text": "▪ 表示因为、由于，解释原因"
+    },
+    {
+      "type": "list",
+      "text": "▫ I can't see anything for the mist.因为大雾，我什么也看不见。"
+    },
+    {
+      "type": "heading",
+      "text": "第二课"
+    },
+    {
+      "type": "heading",
+      "text": "【语法点拨】“不确定”的冠词"
+    },
+    {
+      "type": "paragraph",
+      "text": "不定冠词放在名词前面，主要泛指一类人或物或同类事物中的某一个。不定冠词有 a"
+    },
+    {
+      "type": "paragraph",
+      "text": "和 an 两种形式。a 用于以辅音音素开头的单词前，an 用于以元音音素开头的单词"
+    },
+    {
+      "type": "paragraph",
+      "text": "前。"
+    },
+    {
+      "type": "list",
+      "text": "• 表示某类人或物"
+    },
+    {
+      "type": "list",
+      "text": "◦ 不定冠词 a/an 表示一类人或一类事物，这两个词通常不译出"
+    },
+    {
+      "type": "list",
+      "text": "▪ A tailor makes clothes.裁缝做衣服。"
+    },
+    {
+      "type": "list",
+      "text": "▪ A dog is smaller than an elephant.狗比大象小。"
+    },
+    {
+      "type": "list",
+      "text": "• 表示数量“一”"
+    },
+    {
+      "type": "list",
+      "text": "◦ 不定冠词 a/an 用于单数可数名词前，表示数量“一”"
+    },
+    {
+      "type": "list",
+      "text": "▪ I have a book. 我有一本书。"
+    },
+    {
+      "type": "list",
+      "text": "• 用于初次提及某人或某物"
+    },
+    {
+      "type": "list",
+      "text": "◦ 当第一次提及某人或某物，非特指时，可以用不定冠词 a/an 介绍"
+    },
+    {
+      "type": "list",
+      "text": "▪ She is sitting on a chair.她坐在一张椅子上。"
+    },
+    {
+      "type": "list",
+      "text": "• 在计量词前面表示“每一”"
+    },
+    {
+      "type": "list",
+      "text": "◦ 不定冠词 a/an 用在表示时间或度量单位的名词前，具有“每一”的意思"
+    },
+    {
+      "type": "list",
+      "text": "◦ sixty miles an hour 每小时六十英里 twice a day 一天两次"
+    },
+    {
+      "type": "list",
+      "text": "▪ How much is it?这个多少钱？"
+    },
+    {
+      "type": "paragraph",
+      "text": "2 yuan a kilo.一公斤 2 元钱。"
+    },
+    {
+      "type": "heading",
+      "text": "第三课"
+    },
+    {
+      "type": "heading",
+      "text": "【单词串烧】"
+    },
+    {
+      "type": "list",
+      "text": "• work [wə:k] v.工作"
+    },
+    {
+      "type": "list",
+      "text": "• hard ['hɑ:d] ad.努力地"
+    },
+    {
+      "type": "list",
+      "text": "• make [meik] v.做"
+    },
+    {
+      "type": "list",
+      "text": "• bookcase ['bukeis] n.书橱，书架"
+    },
+    {
+      "type": "list",
+      "text": "• hammer ['hæmə] n.锤子"
+    },
+    {
+      "type": "list",
+      "text": "• paint [peint] v.上漆，涂"
+    },
+    {
+      "type": "list",
+      "text": "• pink [piŋk] n.& a.粉红色"
+    },
+    {
+      "type": "list",
+      "text": "• favourite ['feivərit] a.最喜欢的"
+    },
+    {
+      "type": "list",
+      "text": "• homework ['həumwə:k] n.作业"
+    },
+    {
+      "type": "list",
+      "text": "• listen ['lisən] v.听"
+    },
+    {
+      "type": "list",
+      "text": "• dish [diʃ] n.盘子，碟子"
+    }
+  ],
+  "videos": [],
+  "source": {
+    "fileName": "英语零基础初级讲义.txt",
+    "kind": "PDF 校对后的转换文本"
+  }
+}

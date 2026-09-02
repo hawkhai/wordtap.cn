@@ -1,0 +1,151 @@
+{
+  "schemaVersion": 1,
+  "id": "nce2-079",
+  "bookId": "nce2",
+  "bookNo": 2,
+  "lessonNo": 79,
+  "lessonRange": [
+    79
+  ],
+  "title": "By Air",
+  "titleZh": "乘飞机",
+  "question": "Why did the plane turn back?",
+  "questionZh": "飞机为什么返航了？",
+  "text": "Why did the plane turn back?\n\nI used to travel by air a great deal when I was a boy.\nMy parents used to live in South America and I used to fly there from Europe in the holidays.\nA flight attendant would take charge of me and I never had an unpleasant experience.\nI am used to travelling by air and only on one occasion have I ever felt frightened.\nAfter taking off, we were flying low over the city and slowly gaining height, when the plane suddenly turned round and flew back to the airport.\nWhile we were waiting to land, a flight attendant told us to keep calm and to get off the plane quietly as soon as it had touched down.\nEverybody on board was worried and we were curious to find out what had happened.\nLater we learnt that there was a very important person on board.\nThe police had been told that a bomb had been planted on the plane.\nAfter we had landed, the plane was searched thoroughly.\nFortunately, nothing was found and five hours later we were able to take off again.",
+  "bodyText": "I used to travel by air a great deal when I was a boy.\nMy parents used to live in South America and I used to fly there from Europe in the holidays.\nA flight attendant would take charge of me and I never had an unpleasant experience.\nI am used to travelling by air and only on one occasion have I ever felt frightened.\nAfter taking off, we were flying low over the city and slowly gaining height, when the plane suddenly turned round and flew back to the airport.\nWhile we were waiting to land, a flight attendant told us to keep calm and to get off the plane quietly as soon as it had touched down.\nEverybody on board was worried and we were curious to find out what had happened.\nLater we learnt that there was a very important person on board.\nThe police had been told that a bomb had been planted on the plane.\nAfter we had landed, the plane was searched thoroughly.\nFortunately, nothing was found and five hours later we were able to take off again.",
+  "bodyTextZh": "我小时候经常坐飞机旅行。\n我的父母曾住在南美洲，假期里我常从欧洲飞往他们那里。\n每次都有空乘人员来照顾我，而我从未有过任何不愉快的经历。\n我习惯乘坐飞机出行，只有一次感到过害怕。\n起飞后，我们低空飞过城市，然后逐渐开始上升。突然，飞机掉头飞回了机场。\n在我们等待降落的期间，一位空乘人员让我们保持冷静。并且要在飞机一降落就立刻悄悄地离开飞机。\n机上的每个人都很担心，我们都好奇想知道发生了什么事。\n后来我们得知，机上有一位非常重要的人物。\n警方接到消息称，飞机上被安置了一枚炸弹。\n我们降落之后，飞机被彻底搜查了一遍。\n幸运的是，什么也没找到，五小时后我们又能起飞了。",
+  "sentences": [
+    {
+      "index": 0,
+      "startTime": 0.5,
+      "endTime": 3,
+      "en": "Lesson 79",
+      "zh": "第79课",
+      "role": "lesson"
+    },
+    {
+      "index": 1,
+      "startTime": 3,
+      "endTime": 10.25,
+      "en": "By Air",
+      "zh": "乘飞机",
+      "role": "title"
+    },
+    {
+      "index": 2,
+      "startTime": 10.25,
+      "endTime": 14.78,
+      "en": "Why did the plane turn back?",
+      "zh": "飞机为什么返航了？",
+      "role": "question"
+    },
+    {
+      "index": 3,
+      "startTime": 14.78,
+      "endTime": 20.06,
+      "en": "I used to travel by air a great deal when I was a boy.",
+      "zh": "我小时候经常坐飞机旅行。",
+      "role": "body"
+    },
+    {
+      "index": 4,
+      "startTime": 20.06,
+      "endTime": 28.92,
+      "en": "My parents used to live in South America and I used to fly there from Europe in the holidays.",
+      "zh": "我的父母曾住在南美洲，假期里我常从欧洲飞往他们那里。",
+      "role": "body"
+    },
+    {
+      "index": 5,
+      "startTime": 28.92,
+      "endTime": 36.25,
+      "en": "A flight attendant would take charge of me and I never had an unpleasant experience.",
+      "zh": "每次都有空乘人员来照顾我，而我从未有过任何不愉快的经历。",
+      "role": "body"
+    },
+    {
+      "index": 6,
+      "startTime": 36.25,
+      "endTime": 44.16,
+      "en": "I am used to travelling by air and only on one occasion have I ever felt frightened.",
+      "zh": "我习惯乘坐飞机出行，只有一次感到过害怕。",
+      "role": "body"
+    },
+    {
+      "index": 7,
+      "startTime": 44.16,
+      "endTime": 57.9,
+      "en": "After taking off, we were flying low over the city and slowly gaining height, when the plane suddenly turned round and flew back to the airport.",
+      "zh": "起飞后，我们低空飞过城市，然后逐渐开始上升。突然，飞机掉头飞回了机场。",
+      "role": "body"
+    },
+    {
+      "index": 8,
+      "startTime": 57.9,
+      "endTime": 69.23,
+      "en": "While we were waiting to land, a flight attendant told us to keep calm and to get off the plane quietly as soon as it had touched down.",
+      "zh": "在我们等待降落的期间，一位空乘人员让我们保持冷静。并且要在飞机一降落就立刻悄悄地离开飞机。",
+      "role": "body"
+    },
+    {
+      "index": 9,
+      "startTime": 69.23,
+      "endTime": 76.21,
+      "en": "Everybody on board was worried and we were curious to find out what had happened.",
+      "zh": "机上的每个人都很担心，我们都好奇想知道发生了什么事。",
+      "role": "body"
+    },
+    {
+      "index": 10,
+      "startTime": 76.21,
+      "endTime": 81.17,
+      "en": "Later we learnt that there was a very important person on board.",
+      "zh": "后来我们得知，机上有一位非常重要的人物。",
+      "role": "body"
+    },
+    {
+      "index": 11,
+      "startTime": 81.17,
+      "endTime": 86.79,
+      "en": "The police had been told that a bomb had been planted on the plane.",
+      "zh": "警方接到消息称，飞机上被安置了一枚炸弹。",
+      "role": "body"
+    },
+    {
+      "index": 12,
+      "startTime": 86.79,
+      "endTime": 91.89,
+      "en": "After we had landed, the plane was searched thoroughly.",
+      "zh": "我们降落之后，飞机被彻底搜查了一遍。",
+      "role": "body"
+    },
+    {
+      "index": 13,
+      "startTime": 91.89,
+      "endTime": null,
+      "en": "Fortunately, nothing was found and five hours later we were able to take off again.",
+      "zh": "幸运的是，什么也没找到，五小时后我们又能起飞了。",
+      "role": "body"
+    }
+  ],
+  "audio": {
+    "fileName": "79－By Air.mp3",
+    "sourcePath": "content/NCE-Flow/NCE2/79－By Air.mp3",
+    "exists": true
+  },
+  "source": {
+    "repository": "NCE-Flow",
+    "lrcFileName": "79－By Air.lrc",
+    "lrcPath": "content/NCE-Flow/NCE2/79－By Air.lrc",
+    "sourceDataFile": "content/NCE-Flow/static/data.json",
+    "generatedAt": "2026-07-23T02:59:02+00:00",
+    "generator": "scripts/generate_nce_json.py",
+    "generatorVersion": "2.0.0",
+    "metadata": {
+      "al": "新概念英语（二）",
+      "ar": "MP3 同步字幕版（美音）",
+      "ti": "By Air",
+      "by": "更多学习内容，请到VeryCD.com搜索“露珠”"
+    }
+  }
+}

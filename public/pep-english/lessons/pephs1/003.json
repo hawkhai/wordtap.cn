@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "pephs1-003",
+  "groupId": "pephs1",
+  "unitNo": 1,
+  "sequenceNo": 3,
+  "section": "Project",
+  "title": "Cao Xueqin Biography",
+  "jsonPath": "pep-english/lessons/pephs1/003.json",
+  "text": "The book tells the life story of the novelist Cao Xueqin, author of The Dream of the Red Mansions. Cao was born to a rich family but suffered great poverty for most of his life. He drew on his life experiences to write this famous novel, which was published after his death.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "The book tells the life story of the novelist Cao Xueqin, author of The Dream of the Red Mansions. Cao was born to a rich family but suffered great poverty for most of his life. He drew on his life experiences to write this famous novel, which was published after his death."
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "选择性必修第一册",
+    "pageStart": 18,
+    "pageEnd": 18,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "f19c4231e96ee3a9c769533d676f1106",
+    "pdfSize": 12809514,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/senior-selective-1.pdf#page=18",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored the complete first book-report example beneath its own book card; excluded the portrait and bibliographic label from the body.",
+      "splitBaselineId": "pephs1-004",
+      "splitIndex": 1,
+      "splitCount": 3
+    }
+  }
+}

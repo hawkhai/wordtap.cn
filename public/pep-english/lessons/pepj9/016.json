@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "pepj9-016",
+  "groupId": "pepj9",
+  "unitNo": 5,
+  "sequenceNo": 16,
+  "section": "Section A",
+  "title": "The Difficult Search for American Products in the US",
+  "jsonPath": "pep-english/lessons/pepj9/016.json",
+  "text": "If you go to another country, what kinds of things would you buy? Would you buy a camera in Japan, some beautiful clothes in France, or a watch in Switzerland? No matter what you may buy, you might think those products were made in those countries. However, you could be wrong. Kang Jian is a 17-year-old student from Shanghai. Last year he went to visit his aunt and uncle in San Francisco. He found it interesting that so many products in the local shops were made in China. \"I wanted to buy a toy car for my cousin, but even though most of the toys were American brands, they were made in China.\"\nToys are not the only things made in China. \"I wanted to buy a pair of basketball shoes,\" he explains. \"But I had to visit five or six stores before finding a pair made in America!\" He realized that Americans can hardly avoid buying products made in China. \"In fact,\" he continues, \"there were many other things there made in China — footballs, handbags, pet food, mobile phones. Even American flags are made in China!\" Kang Jian thinks it's great that China is so good at making these everyday things. However, he hopes that in the future China will also get better at making high-technology products that people can buy in all parts of the world.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "If you go to another country, what kinds of things would you buy? Would you buy a camera in Japan, some beautiful clothes in France, or a watch in Switzerland? No matter what you may buy, you might think those products were made in those countries. However, you could be wrong. Kang Jian is a 17-year-old student from Shanghai. Last year he went to visit his aunt and uncle in San Francisco. He found it interesting that so many products in the local shops were made in China. \"I wanted to buy a toy car for my cousin, but even though most of the toys were American brands, they were made in China.\""
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Toys are not the only things made in China. \"I wanted to buy a pair of basketball shoes,\" he explains. \"But I had to visit five or six stores before finding a pair made in America!\" He realized that Americans can hardly avoid buying products made in China. \"In fact,\" he continues, \"there were many other things there made in China — footballs, handbags, pet food, mobile phones. Even American flags are made in China!\" Kang Jian thinks it's great that China is so good at making these everyday things. However, he hopes that in the future China will also get better at making high-technology products that people can buy in all parts of the world."
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "初中",
+    "book": "九年级全一册",
+    "pageStart": 49,
+    "pageEnd": 49,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "c6e628c22e0c2f9cfe4547699a1c95a4",
+    "pdfSize": 11088578,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/junior-9.pdf#page=49",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored the exact printed title and both complete paragraphs with all quotations; excluded the 3a prompt and exercises 3b-3c."
+    }
+  }
+}

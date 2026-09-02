@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 2,
+  "id": "rw3-u03-c",
+  "sequenceNo": 45,
+  "groupId": "rw3",
+  "unitNo": 3,
+  "unitTitle": "Let’s go",
+  "section": "C",
+  "articleType": "stories-of-china",
+  "title": "Touring the world after 60",
+  "printedPageStart": 81,
+  "printedPageEnd": 82,
+  "jsonPath": "college-english/lessons/rw3/rw3-u03-c.json",
+  "characterCount": 2558,
+  "text": "Zhang Guangzhu and his wife Wang Zhongjin have set foot on every continent, even Antarctica. In their global escapades (冒险) they’ve filled many passports with travel visas and customs stamps from dozens of countries. Travels of this sort, daunting (令人畏惧的) for even the most experienced travelers, require a young heart and youthful vigor – and yet Zhang and Wang are in their 60s, retired, and making the most of their free time in their post-career life.\nLike other Chinese senior citizens, Zhang and Wang were committed to their families and work, and traveling was not a priority option when they were younger. After retiring, Zhang decided to capitalize on this new-found opportunity to travel. The couple used their life savings to fund their expedition around the world.\nThe husband and wife began their experience as backpackers (背包客) by hitting the trails of the Tiger Leaping Gorge, a deep and beautiful scenic valley in southwest China’s Yunnan Province. In a village at the foot of a mountain, they bumped into a foreign tourist who was traveling in China but spoke little Chinese. They were inspired by their foreign friend’s attitude to life and were bitten by the travel bug (迷上旅行). “If the language barrier does not matter when people travel,” Zhang recalled saying to his wife, “why don’t we go abroad?” His wife agreed.\nThe two then took an 88-day journey to 16 European countries. Despite careful travel preparation, the couple still got lost at the airport in Athens, Greece, upon arriving at their first destination. Even so, their enthusiasm was high and they were off to travel as strangers in a strange land.\nSince their European escapade, the couple has taken up traveling abroad as a hobby. Each year, they spend six months with family in Beijing and the next six traveling. “My wife and I have been to many astonishing places, from the Arctic Circle to Antarctica. We have crossed the equator six times. We also climbed to the base camp of Mount Qomolangma at an altitude of 5,200 meters,” said Zhang. “A person may have a lot of dreams. But putting them into practice is the key. Even if you retire at 60, you can still expect to live another 20 to 30 years. Therefore, retired people should make a good plan to spend the rest of their lives.”\nThe past decades have witnessed great miracles in China, and people’s living standards have improved dramatically with economic and social prosperity. As most families have become better off, older people, like Zhang and Wang, are enjoying their carefree lives traveling home and abroad.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Zhang Guangzhu and his wife Wang Zhongjin have set foot on every continent, even Antarctica. In their global escapades (冒险) they’ve filled many passports with travel visas and customs stamps from dozens of countries. Travels of this sort, daunting (令人畏惧的) for even the most experienced travelers, require a young heart and youthful vigor – and yet Zhang and Wang are in their 60s, retired, and making the most of their free time in their post-career life."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Like other Chinese senior citizens, Zhang and Wang were committed to their families and work, and traveling was not a priority option when they were younger. After retiring, Zhang decided to capitalize on this new-found opportunity to travel. The couple used their life savings to fund their expedition around the world."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "The husband and wife began their experience as backpackers (背包客) by hitting the trails of the Tiger Leaping Gorge, a deep and beautiful scenic valley in southwest China’s Yunnan Province. In a village at the foot of a mountain, they bumped into a foreign tourist who was traveling in China but spoke little Chinese. They were inspired by their foreign friend’s attitude to life and were bitten by the travel bug (迷上旅行). “If the language barrier does not matter when people travel,” Zhang recalled saying to his wife, “why don’t we go abroad?” His wife agreed."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "The two then took an 88-day journey to 16 European countries. Despite careful travel preparation, the couple still got lost at the airport in Athens, Greece, upon arriving at their first destination. Even so, their enthusiasm was high and they were off to travel as strangers in a strange land."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Since their European escapade, the couple has taken up traveling abroad as a hobby. Each year, they spend six months with family in Beijing and the next six traveling. “My wife and I have been to many astonishing places, from the Arctic Circle to Antarctica. We have crossed the equator six times. We also climbed to the base camp of Mount Qomolangma at an altitude of 5,200 meters,” said Zhang. “A person may have a lot of dreams. But putting them into practice is the key. Even if you retire at 60, you can still expect to live another 20 to 30 years. Therefore, retired people should make a good plan to spend the rest of their lives.”"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "The past decades have witnessed great miracles in China, and people’s living standards have improved dramatically with economic and social prosperity. As most families have become better off, older people, like Zhang and Wang, are enjoying their carefree lives traveling home and abroad."
+    }
+  ],
+  "source": {
+    "series": "新视野大学英语（第四版）",
+    "book": "读写教程 3",
+    "sourceBook": "NHCE4-RW3",
+    "printedPageStart": 81,
+    "printedPageEnd": 82,
+    "pdfPageStart": 96,
+    "pdfPageEnd": 97,
+    "pdfSha256": "40418e1f32f5db4eaf6f091227217121109219515e2ffd6b68791927d506afe8",
+    "ocrFiles": [
+      "tools/College-English/NHCE4-RW3/ocr/json/NHCE4-RW3_96.json",
+      "tools/College-English/NHCE4-RW3/ocr/json/NHCE4-RW3_97.json"
+    ]
+  },
+  "manualReview": {
+    "status": "passed",
+    "reviewer": "Codex",
+    "reviewedAt": "2026-07-30T17:16:39Z",
+    "correctionCount": 4,
+    "evidence": "Full second read: NHCE4-RW3.pdf pages 96-97; images NHCE4-RW3_96.jpg..97.jpg; reviewed-articles/rw3-u03-c.json",
+    "textSha256": "7268046d2ca6902b970f6fb293788e6ca7e923e196da0391fab6ff39129d880f",
+    "eventSha256": "8c810aa608285828e5c2c062fc8e822eeea993a2d0ed1737424d79de57b2b98a"
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "schemaVersion": 1,
+  "id": "nce2-028",
+  "bookId": "nce2",
+  "bookNo": 2,
+  "lessonNo": 28,
+  "lessonRange": [
+    28
+  ],
+  "title": "No Parking",
+  "titleZh": "禁止停车",
+  "question": "What is Jasper White's problem?",
+  "questionZh": "贾斯珀·怀特遇到了什么麻烦？",
+  "text": "What is Jasper White's problem?\n\nJasper White is one of those rare people who believes in ancient myths.\nHe has just bought a new house in the city, but ever since he moved in, he has had trouble with cars and their owners.\nWhen he returns home at night, he always finds that someone has parked a car outside his gate.\nBecause of this, he has not been able to get his own car into his garage even once.\nJasper has put up 'No Parking' signs outside his gate, but these have not had any effect.\nNow he has put an ugly stone head over the gate.\nIt is one of the ugliest faces I have ever seen.\nI asked him what it was and he told me that it was Medusa, the Gorgon.\nJasper hopes that she will turn cars and their owners to stone.\nBut none of them has been turned to stone yet!",
+  "bodyText": "Jasper White is one of those rare people who believes in ancient myths.\nHe has just bought a new house in the city, but ever since he moved in, he has had trouble with cars and their owners.\nWhen he returns home at night, he always finds that someone has parked a car outside his gate.\nBecause of this, he has not been able to get his own car into his garage even once.\nJasper has put up 'No Parking' signs outside his gate, but these have not had any effect.\nNow he has put an ugly stone head over the gate.\nIt is one of the ugliest faces I have ever seen.\nI asked him what it was and he told me that it was Medusa, the Gorgon.\nJasper hopes that she will turn cars and their owners to stone.\nBut none of them has been turned to stone yet!",
+  "bodyTextZh": "贾斯珀·怀特是少数相信古代神话的人之一。\n他刚在城里买了一套新房子，但从搬进去之后，他就一直为汽车和车主们的事而烦恼。\n每当他晚上回到家时，总会发现有人把车停在了他家大门的外面。\n正因为如此，他一次都无法将自己的汽车开进自己的车库。\n贾斯珀在他的大门外竖起了“禁止停车”的标志，但这些标志根本没有任何作用。\n现在，他在大门上方安放了一个丑陋的石像头。\n这是我见过的最丑陋的面孔之一。\n我问他那是什么，他告诉我那是蛇发女妖美杜莎。\n贾斯珀希望她能够将汽车及其车主变成石头。\n但是，它们当中还没有任何一个变成石头呢！",
+  "sentences": [
+    {
+      "index": 0,
+      "startTime": 0.5,
+      "endTime": 3,
+      "en": "Lesson 28",
+      "zh": "第28课",
+      "role": "lesson"
+    },
+    {
+      "index": 1,
+      "startTime": 3,
+      "endTime": 9.64,
+      "en": "No Parking",
+      "zh": "禁止停车",
+      "role": "title"
+    },
+    {
+      "index": 2,
+      "startTime": 9.64,
+      "endTime": 14.22,
+      "en": "What is Jasper White's problem?",
+      "zh": "贾斯珀·怀特遇到了什么麻烦？",
+      "role": "question"
+    },
+    {
+      "index": 3,
+      "startTime": 14.22,
+      "endTime": 21.12,
+      "en": "Jasper White is one of those rare people who believes in ancient myths.",
+      "zh": "贾斯珀·怀特是少数相信古代神话的人之一。",
+      "role": "body"
+    },
+    {
+      "index": 4,
+      "startTime": 21.12,
+      "endTime": 31.96,
+      "en": "He has just bought a new house in the city, but ever since he moved in, he has had trouble with cars and their owners.",
+      "zh": "他刚在城里买了一套新房子，但从搬进去之后，他就一直为汽车和车主们的事而烦恼。",
+      "role": "body"
+    },
+    {
+      "index": 5,
+      "startTime": 31.96,
+      "endTime": 40.56,
+      "en": "When he returns home at night, he always finds that someone has parked a car outside his gate.",
+      "zh": "每当他晚上回到家时，总会发现有人把车停在了他家大门的外面。",
+      "role": "body"
+    },
+    {
+      "index": 6,
+      "startTime": 40.56,
+      "endTime": 49.02,
+      "en": "Because of this, he has not been able to get his own car into his garage even once.",
+      "zh": "正因为如此，他一次都无法将自己的汽车开进自己的车库。",
+      "role": "body"
+    },
+    {
+      "index": 7,
+      "startTime": 49.02,
+      "endTime": 58.94,
+      "en": "Jasper has put up 'No Parking' signs outside his gate, but these have not had any effect.",
+      "zh": "贾斯珀在他的大门外竖起了“禁止停车”的标志，但这些标志根本没有任何作用。",
+      "role": "body"
+    },
+    {
+      "index": 8,
+      "startTime": 58.94,
+      "endTime": 64.19,
+      "en": "Now he has put an ugly stone head over the gate.",
+      "zh": "现在，他在大门上方安放了一个丑陋的石像头。",
+      "role": "body"
+    },
+    {
+      "index": 9,
+      "startTime": 64.19,
+      "endTime": 69.51,
+      "en": "It is one of the ugliest faces I have ever seen.",
+      "zh": "这是我见过的最丑陋的面孔之一。",
+      "role": "body"
+    },
+    {
+      "index": 10,
+      "startTime": 69.51,
+      "endTime": 76.75,
+      "en": "I asked him what it was and he told me that it was Medusa, the Gorgon.",
+      "zh": "我问他那是什么，他告诉我那是蛇发女妖美杜莎。",
+      "role": "body"
+    },
+    {
+      "index": 11,
+      "startTime": 76.75,
+      "endTime": 82.58,
+      "en": "Jasper hopes that she will turn cars and their owners to stone.",
+      "zh": "贾斯珀希望她能够将汽车及其车主变成石头。",
+      "role": "body"
+    },
+    {
+      "index": 12,
+      "startTime": 82.58,
+      "endTime": null,
+      "en": "But none of them has been turned to stone yet!",
+      "zh": "但是，它们当中还没有任何一个变成石头呢！",
+      "role": "body"
+    }
+  ],
+  "audio": {
+    "fileName": "28－No Parking.mp3",
+    "sourcePath": "content/NCE-Flow/NCE2/28－No Parking.mp3",
+    "exists": true
+  },
+  "source": {
+    "repository": "NCE-Flow",
+    "lrcFileName": "28－No Parking.lrc",
+    "lrcPath": "content/NCE-Flow/NCE2/28－No Parking.lrc",
+    "sourceDataFile": "content/NCE-Flow/static/data.json",
+    "generatedAt": "2026-07-23T02:59:02+00:00",
+    "generator": "scripts/generate_nce_json.py",
+    "generatorVersion": "2.0.0",
+    "metadata": {
+      "al": "新概念英语（二）",
+      "ar": "MP3 同步字幕版（美音）",
+      "ti": "No Parking",
+      "by": "更多学习内容，请到VeryCD.com搜索“露珠”"
+    }
+  }
+}

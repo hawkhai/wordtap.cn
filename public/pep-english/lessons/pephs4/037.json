@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "id": "pephs4-037",
+  "groupId": "pephs4",
+  "unitNo": 3,
+  "sequenceNo": 37,
+  "section": "Expanding Your World",
+  "title": "Sea Fever",
+  "jsonPath": "pep-english/lessons/pephs4/037.json",
+  "text": "I must go down to the seas again, to the lonely sea and the sky, And all I ask is a tall ship and a star to steer her by;\nAnd the wheel’s kick and the wind’s song and the white sail’s shaking, And a grey mist on the sea’s face, and a grey dawn breaking.\nI must go down to the seas again, for the call of the running tide Is a wild call and a clear call that may not be denied;\nAnd all I ask is a windy day with the white clouds flying, And the flung spray and the blown spume, and the sea-gulls crying.\nI must go down to the seas again, to the vagrant gypsy life, To the gull’s way and the whale’s way, where the wind’s like a whetted knife;\nAnd all I ask is a merry yarn from a laughing fellow-rover, And quiet sleep and a sweet dream when the long trick’s over.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "I must go down to the seas again, to the lonely sea and the sky, And all I ask is a tall ship and a star to steer her by;\nAnd the wheel’s kick and the wind’s song and the white sail’s shaking, And a grey mist on the sea’s face, and a grey dawn breaking."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "I must go down to the seas again, for the call of the running tide Is a wild call and a clear call that may not be denied;\nAnd all I ask is a windy day with the white clouds flying, And the flung spray and the blown spume, and the sea-gulls crying."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "I must go down to the seas again, to the vagrant gypsy life, To the gull’s way and the whale’s way, where the wind’s like a whetted knife;\nAnd all I ask is a merry yarn from a laughing fellow-rover, And quiet sleep and a sweet dream when the long trick’s over."
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "选择性必修第四册",
+    "pageStart": 87,
+    "pageEnd": 87,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "6fc94127b322f6f5abff068bef6faa2e",
+    "pdfSize": 12330614,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/senior-selective-4.pdf#page=87",
+      "reviewedAt": "2026-07-22",
+      "notes": "Recovered all three printed stanzas of John Masefield’s complete poem from the adjacent page.",
+      "splitBaselineId": "pephs4-043",
+      "splitIndex": 2,
+      "splitCount": 3
+    }
+  }
+}

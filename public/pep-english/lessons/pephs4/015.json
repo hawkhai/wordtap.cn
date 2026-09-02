@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "id": "pephs4-015",
+  "groupId": "pephs4",
+  "unitNo": 5,
+  "sequenceNo": 15,
+  "section": "Reading and Thinking",
+  "title": "Working Out What You Want to Do",
+  "jsonPath": "pep-english/lessons/pephs4/015.json",
+  "text": "As an adult, one of the first questions you are asked when meeting someone new is, “What do you do?” This is because your career is a very important part of who you are. The career you have defines your life, and so taking time to think about it is an essential exercise for young people.\nThe best time to start thinking about possible careers is while you are still at school, before you make any choices about your further education. This, however, is not always easy. Some people know what they want to do from a young age, but many others just have a few ideas bouncing around in their heads.\nOne of the most effective ways to get some insight on a possible career path is to complete a “career aptitude test”. The results of the test will tell you about your strengths and interests, and some tests also suggest careers that you may be suited to. Having this information will provide you with a better chance of finding a job you like. There are many free tests online, so give one a try. Getting a head start in considering your future career may help you for the rest of your life. You don’t want to look back in years to come and say, “I wish I had thought more about what I really wanted to do.”\nThere are many different kinds of career aptitude tests. Some ask questions about your personal interests and attitudes. Others focus more on asking you to rate different kinds of work scenarios, like working as a librarian or a lawyer. Of course, while completing these sorts of tests, it is very important to be honest—and don’t worry—there are no right or wrong answers.\nOne popular test asks the participants to grade their preferences for a variety of work tasks. Their answers are then analysed and divided up between six different types of work personalities. The participant is then given a chart showing their score for each type of work personality. The top three scores are used to make a code that indicates the participant’s overall work personality. This code is then used to generate a list of career suggestions.\nThe career suggestions are also based on your education and experience level, but you can look at higher-level careers as well, which is very useful for high school students. For example, you could look at the basic careers to see what work you might like now, and then look at the more advanced careers so you know what you may like to aim for in the future. This is a great tool to help plan your career and let you know what targets you need to reach to get there.\nIn conclusion, career aptitude tests are clearly a very useful tool. However, it is important to remember that they are only meant for guidance. The secret to a good career is finding something that you are passionate about. So try a few tests online and start thinking about your future career right now!",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "As an adult, one of the first questions you are asked when meeting someone new is, “What do you do?” This is because your career is a very important part of who you are. The career you have defines your life, and so taking time to think about it is an essential exercise for young people."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "The best time to start thinking about possible careers is while you are still at school, before you make any choices about your further education. This, however, is not always easy. Some people know what they want to do from a young age, but many others just have a few ideas bouncing around in their heads."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "One of the most effective ways to get some insight on a possible career path is to complete a “career aptitude test”. The results of the test will tell you about your strengths and interests, and some tests also suggest careers that you may be suited to. Having this information will provide you with a better chance of finding a job you like. There are many free tests online, so give one a try. Getting a head start in considering your future career may help you for the rest of your life. You don’t want to look back in years to come and say, “I wish I had thought more about what I really wanted to do.”"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "There are many different kinds of career aptitude tests. Some ask questions about your personal interests and attitudes. Others focus more on asking you to rate different kinds of work scenarios, like working as a librarian or a lawyer. Of course, while completing these sorts of tests, it is very important to be honest—and don’t worry—there are no right or wrong answers."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "One popular test asks the participants to grade their preferences for a variety of work tasks. Their answers are then analysed and divided up between six different types of work personalities. The participant is then given a chart showing their score for each type of work personality. The top three scores are used to make a code that indicates the participant’s overall work personality. This code is then used to generate a list of career suggestions."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "The career suggestions are also based on your education and experience level, but you can look at higher-level careers as well, which is very useful for high school students. For example, you could look at the basic careers to see what work you might like now, and then look at the more advanced careers so you know what you may like to aim for in the future. This is a great tool to help plan your career and let you know what targets you need to reach to get there."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "In conclusion, career aptitude tests are clearly a very useful tool. However, it is important to remember that they are only meant for guidance. The secret to a good career is finding something that you are passionate about. So try a few tests online and start thinking about your future career right now!"
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "选择性必修第四册",
+    "pageStart": 57,
+    "pageEnd": 58,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "6fc94127b322f6f5abff068bef6faa2e",
+    "pdfSize": 12330614,
+    "manualReview": {
+      "method": "visual-line-by-line-and-cross-page-order",
+      "source": "content/pep-english/raw/senior-selective-4.pdf#page=57-58",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored the complete seven-paragraph article and its printed title across both pages; excluded the chart, strategy box, questions and job lists."
+    }
+  }
+}

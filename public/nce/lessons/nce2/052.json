@@ -1,0 +1,151 @@
+{
+  "schemaVersion": 1,
+  "id": "nce2-052",
+  "bookId": "nce2",
+  "bookNo": 2,
+  "lessonNo": 52,
+  "lessonRange": [
+    52
+  ],
+  "title": "A Pretty Carpet",
+  "titleZh": "漂亮的地毯",
+  "question": "What is the writer's carpet made of?",
+  "questionZh": "作者的“地毯”（这里可能指作者的办公环境或工作场所）是由什么材料制成的呢？",
+  "text": "What is the writer's carpet made of?\n\nWe have just moved into a new house and I have been working hard all morning.\nI have been trying to get my new room in order.\nThis has not been easy because I own over a thousand books.\nTo make matters worse, the room is rather small, so I have temporarily put my books on the floor.\nAt the moment, they cover every inch of floor space and I actually have to walk on them to get in or out of the room.\nA short while ago, my sister helped me to carry one of my old bookcases up the stairs.\nShe went into my room and got a big surprise when she saw all those books on the floor.\n'This is the prettiest carpet I have ever seen,' she said.\nShe gazed at it for some time then added,\n'You don't need bookcases at all.\nYou can sit here in your spare time and read the carpet!'",
+  "bodyText": "We have just moved into a new house and I have been working hard all morning.\nI have been trying to get my new room in order.\nThis has not been easy because I own over a thousand books.\nTo make matters worse, the room is rather small, so I have temporarily put my books on the floor.\nAt the moment, they cover every inch of floor space and I actually have to walk on them to get in or out of the room.\nA short while ago, my sister helped me to carry one of my old bookcases up the stairs.\nShe went into my room and got a big surprise when she saw all those books on the floor.\n'This is the prettiest carpet I have ever seen,' she said.\nShe gazed at it for some time then added,\n'You don't need bookcases at all.\nYou can sit here in your spare time and read the carpet!'",
+  "bodyTextZh": "我们刚搬进了一栋新房子，我一整个早上都在努力工作。\n我一直在努力把我的新房间整理得井井有条。\n这并不容易，因为我有超过一千本书。\n更糟糕的是……这个房间相当小。所以我暂时把我的书放在了地板上。\n目前，它们已经覆盖了每一寸的地面空间。实际上，我必须踩在这些东西上才能进入或离开房间。\n不久前，我的姐姐帮我把其中一个旧书柜搬上了楼梯。\n她走进我的房间，看到地板上堆满了书，顿时感到非常惊讶。\n“这是我见过最漂亮的地毯了，”她说。\n她凝视着它一会儿，然后补充道：\n“你根本不需要书架。\n你可以在空闲时间坐在这里，直接在地毯上阅读！”",
+  "sentences": [
+    {
+      "index": 0,
+      "startTime": 0.5,
+      "endTime": 3,
+      "en": "Lesson 52",
+      "zh": "第52课",
+      "role": "lesson"
+    },
+    {
+      "index": 1,
+      "startTime": 3,
+      "endTime": 9.89,
+      "en": "A Pretty Carpet",
+      "zh": "漂亮的地毯",
+      "role": "title"
+    },
+    {
+      "index": 2,
+      "startTime": 9.89,
+      "endTime": 14.42,
+      "en": "What is the writer's carpet made of?",
+      "zh": "作者的“地毯”（这里可能指作者的办公环境或工作场所）是由什么材料制成的呢？",
+      "role": "question"
+    },
+    {
+      "index": 3,
+      "startTime": 14.42,
+      "endTime": 22.27,
+      "en": "We have just moved into a new house and I have been working hard all morning.",
+      "zh": "我们刚搬进了一栋新房子，我一整个早上都在努力工作。",
+      "role": "body"
+    },
+    {
+      "index": 4,
+      "startTime": 22.27,
+      "endTime": 27.17,
+      "en": "I have been trying to get my new room in order.",
+      "zh": "我一直在努力把我的新房间整理得井井有条。",
+      "role": "body"
+    },
+    {
+      "index": 5,
+      "startTime": 27.17,
+      "endTime": 34.01,
+      "en": "This has not been easy because I own over a thousand books.",
+      "zh": "这并不容易，因为我有超过一千本书。",
+      "role": "body"
+    },
+    {
+      "index": 6,
+      "startTime": 34.01,
+      "endTime": 44.3,
+      "en": "To make matters worse, the room is rather small, so I have temporarily put my books on the floor.",
+      "zh": "更糟糕的是……这个房间相当小。所以我暂时把我的书放在了地板上。",
+      "role": "body"
+    },
+    {
+      "index": 7,
+      "startTime": 44.3,
+      "endTime": 55.8,
+      "en": "At the moment, they cover every inch of floor space and I actually have to walk on them to get in or out of the room.",
+      "zh": "目前，它们已经覆盖了每一寸的地面空间。实际上，我必须踩在这些东西上才能进入或离开房间。",
+      "role": "body"
+    },
+    {
+      "index": 8,
+      "startTime": 55.8,
+      "endTime": 64.52,
+      "en": "A short while ago, my sister helped me to carry one of my old bookcases up the stairs.",
+      "zh": "不久前，我的姐姐帮我把其中一个旧书柜搬上了楼梯。",
+      "role": "body"
+    },
+    {
+      "index": 9,
+      "startTime": 64.52,
+      "endTime": 73.35,
+      "en": "She went into my room and got a big surprise when she saw all those books on the floor.",
+      "zh": "她走进我的房间，看到地板上堆满了书，顿时感到非常惊讶。",
+      "role": "body"
+    },
+    {
+      "index": 10,
+      "startTime": 73.35,
+      "endTime": 79.77,
+      "en": "'This is the prettiest carpet I have ever seen,' she said.",
+      "zh": "“这是我见过最漂亮的地毯了，”她说。",
+      "role": "body"
+    },
+    {
+      "index": 11,
+      "startTime": 79.77,
+      "endTime": 84.03,
+      "en": "She gazed at it for some time then added,",
+      "zh": "她凝视着它一会儿，然后补充道：",
+      "role": "body"
+    },
+    {
+      "index": 12,
+      "startTime": 84.03,
+      "endTime": 87.25,
+      "en": "'You don't need bookcases at all.",
+      "zh": "“你根本不需要书架。",
+      "role": "body"
+    },
+    {
+      "index": 13,
+      "startTime": 87.25,
+      "endTime": null,
+      "en": "You can sit here in your spare time and read the carpet!'",
+      "zh": "你可以在空闲时间坐在这里，直接在地毯上阅读！”",
+      "role": "body"
+    }
+  ],
+  "audio": {
+    "fileName": "52－A Pretty Carpet.mp3",
+    "sourcePath": "content/NCE-Flow/NCE2/52－A Pretty Carpet.mp3",
+    "exists": true
+  },
+  "source": {
+    "repository": "NCE-Flow",
+    "lrcFileName": "52－A Pretty Carpet.lrc",
+    "lrcPath": "content/NCE-Flow/NCE2/52－A Pretty Carpet.lrc",
+    "sourceDataFile": "content/NCE-Flow/static/data.json",
+    "generatedAt": "2026-07-23T02:59:02+00:00",
+    "generator": "scripts/generate_nce_json.py",
+    "generatorVersion": "2.0.0",
+    "metadata": {
+      "al": "新概念英语（二）",
+      "ar": "MP3 同步字幕版（美音）",
+      "ti": "A Pretty Carpet",
+      "by": "更多学习内容，请到VeryCD.com搜索“露珠”"
+    }
+  }
+}

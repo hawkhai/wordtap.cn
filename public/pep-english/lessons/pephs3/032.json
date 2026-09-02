@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "pephs3-032",
+  "groupId": "pephs3",
+  "unitNo": 5,
+  "sequenceNo": 32,
+  "section": "Expanding Your World",
+  "title": "On the Stork Tower (Wang Zhihuan; translated by Xu Yuanchong)",
+  "jsonPath": "pep-english/lessons/pephs3/032.json",
+  "text": "The sun beyond the mountain glows;\nThe Yellow River seawards flows.\nYou can enjoy a grander sight By climbing to a greater height.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "The sun beyond the mountain glows;\nThe Yellow River seawards flows.\nYou can enjoy a grander sight By climbing to a greater height."
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "选择性必修第三册",
+    "pageStart": 101,
+    "pageEnd": 101,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "f0dc33129a755a33421d401b71a05cd1",
+    "pdfSize": 12684455,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/senior-selective-3.pdf#page=101",
+      "reviewedAt": "2026-07-22",
+      "notes": "Recovered the complete four-line poem missed by the baseline scan; preserved punctuation and lineation and moved author and translator to metadata.",
+      "splitBaselineId": "pephs3-041",
+      "splitIndex": 3,
+      "splitCount": 4
+    }
+  }
+}

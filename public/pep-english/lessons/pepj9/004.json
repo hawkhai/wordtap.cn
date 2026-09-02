@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "pepj9-004",
+  "groupId": "pepj9",
+  "unitNo": 2,
+  "sequenceNo": 4,
+  "section": "Section A",
+  "title": "The Water Festival in Chiang Mai",
+  "jsonPath": "pep-english/lessons/pepj9/004.json",
+  "text": "Clara: Guess what? I'm going to Chiang Mai in two weeks.\nBen: Wow, sounds like fun! But I believe that April is the hottest month of the year there.\nClara: Yes, that's true. But there's a water festival there from April 13th to 15th.\nBen: I wonder if it's similar to the Water Festival of the Dai people in Yunnan Province.\nClara: Yes, I think so. This is the time of the Thai New Year. People go on the streets to throw water at each other.\nBen: Cool! But why do they do that?\nClara: Because the new year is a time for cleaning and washing away bad things. Then you'll have good luck in the new year.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Clara: Guess what? I'm going to Chiang Mai in two weeks.\nBen: Wow, sounds like fun! But I believe that April is the hottest month of the year there.\nClara: Yes, that's true. But there's a water festival there from April 13th to 15th.\nBen: I wonder if it's similar to the Water Festival of the Dai people in Yunnan Province.\nClara: Yes, I think so. This is the time of the Thai New Year. People go on the streets to throw water at each other.\nBen: Cool! But why do they do that?\nClara: Because the new year is a time for cleaning and washing away bad things. Then you'll have good luck in the new year."
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "初中",
+    "book": "九年级全一册",
+    "pageStart": 24,
+    "pageEnd": 24,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "c6e628c22e0c2f9cfe4547699a1c95a4",
+    "pdfSize": 11088578,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/junior-9.pdf#page=24",
+      "reviewedAt": "2026-07-22",
+      "notes": "Retained only the complete 2d Clara-Ben role-play; excluded the 2a multiple-choice prompts, 2b chart, 2c model fragment and all activity instructions."
+    }
+  }
+}

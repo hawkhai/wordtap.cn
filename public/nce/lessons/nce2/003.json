@@ -1,0 +1,151 @@
+{
+  "schemaVersion": 1,
+  "id": "nce2-003",
+  "bookId": "nce2",
+  "bookNo": 2,
+  "lessonNo": 3,
+  "lessonRange": [
+    3
+  ],
+  "title": "Please Send Me a Card",
+  "titleZh": "请给我寄一张明信片",
+  "question": "How many cards did the writer send?",
+  "questionZh": "作者寄了多少张明信片？",
+  "text": "How many cards did the writer send?\n\nPostcards always spoil my holidays.\nLast summer, I went to Italy.\nI visited museums and sat in public gardens.\nA friendly waiter taught me a few words of Italian.\nThen he lent me a book.\nI read a few lines, but I did not understand a word.\nEveryday I thought about postcards.\nMy holidays passed quickly, but I did not send cards to my friends.\nOn the last day I made a big decision.\nI got up early and bought thirty-seven cards.\nI spent the whole day in my room, but I did not write a single card!",
+  "bodyText": "Postcards always spoil my holidays.\nLast summer, I went to Italy.\nI visited museums and sat in public gardens.\nA friendly waiter taught me a few words of Italian.\nThen he lent me a book.\nI read a few lines, but I did not understand a word.\nEveryday I thought about postcards.\nMy holidays passed quickly, but I did not send cards to my friends.\nOn the last day I made a big decision.\nI got up early and bought thirty-seven cards.\nI spent the whole day in my room, but I did not write a single card!",
+  "bodyTextZh": "明信片总是把我的假期搅得一团糟。\n去年夏天，我去了意大利。\n我参观了博物馆，还坐在公共花园里休息。\n一位友好的服务员教了我几句意大利语。\n之后他还借给我一本书。\n我读了几行，但一个词儿也不懂。\n我每天都想着明信片的事。\n假期很快就过去了，但我却没有给朋友们寄任何卡片。\n在最后一天，我下了一个大决心。\n我早早起床，买了三十七张明信片。\n我一整天都待在房间里，却一张卡片都没写！",
+  "sentences": [
+    {
+      "index": 0,
+      "startTime": 0.5,
+      "endTime": 3,
+      "en": "Lesson 3",
+      "zh": "第3课",
+      "role": "lesson"
+    },
+    {
+      "index": 1,
+      "startTime": 3,
+      "endTime": 11.05,
+      "en": "Please Send Me a Card",
+      "zh": "请给我寄一张明信片",
+      "role": "title"
+    },
+    {
+      "index": 2,
+      "startTime": 11.05,
+      "endTime": 16.17,
+      "en": "How many cards did the writer send?",
+      "zh": "作者寄了多少张明信片？",
+      "role": "question"
+    },
+    {
+      "index": 3,
+      "startTime": 16.17,
+      "endTime": 21.01,
+      "en": "Postcards always spoil my holidays.",
+      "zh": "明信片总是把我的假期搅得一团糟。",
+      "role": "body"
+    },
+    {
+      "index": 4,
+      "startTime": 21.01,
+      "endTime": 24.26,
+      "en": "Last summer, I went to Italy.",
+      "zh": "去年夏天，我去了意大利。",
+      "role": "body"
+    },
+    {
+      "index": 5,
+      "startTime": 24.26,
+      "endTime": 28.95,
+      "en": "I visited museums and sat in public gardens.",
+      "zh": "我参观了博物馆，还坐在公共花园里休息。",
+      "role": "body"
+    },
+    {
+      "index": 6,
+      "startTime": 28.95,
+      "endTime": 33.45,
+      "en": "A friendly waiter taught me a few words of Italian.",
+      "zh": "一位友好的服务员教了我几句意大利语。",
+      "role": "body"
+    },
+    {
+      "index": 7,
+      "startTime": 33.45,
+      "endTime": 36.1,
+      "en": "Then he lent me a book.",
+      "zh": "之后他还借给我一本书。",
+      "role": "body"
+    },
+    {
+      "index": 8,
+      "startTime": 36.1,
+      "endTime": 41.78,
+      "en": "I read a few lines, but I did not understand a word.",
+      "zh": "我读了几行，但一个词儿也不懂。",
+      "role": "body"
+    },
+    {
+      "index": 9,
+      "startTime": 41.78,
+      "endTime": 46.08,
+      "en": "Everyday I thought about postcards.",
+      "zh": "我每天都想着明信片的事。",
+      "role": "body"
+    },
+    {
+      "index": 10,
+      "startTime": 46.08,
+      "endTime": 52.98,
+      "en": "My holidays passed quickly, but I did not send cards to my friends.",
+      "zh": "假期很快就过去了，但我却没有给朋友们寄任何卡片。",
+      "role": "body"
+    },
+    {
+      "index": 11,
+      "startTime": 52.98,
+      "endTime": 57.49,
+      "en": "On the last day I made a big decision.",
+      "zh": "在最后一天，我下了一个大决心。",
+      "role": "body"
+    },
+    {
+      "index": 12,
+      "startTime": 57.49,
+      "endTime": 63.08,
+      "en": "I got up early and bought thirty-seven cards.",
+      "zh": "我早早起床，买了三十七张明信片。",
+      "role": "body"
+    },
+    {
+      "index": 13,
+      "startTime": 63.08,
+      "endTime": null,
+      "en": "I spent the whole day in my room, but I did not write a single card!",
+      "zh": "我一整天都待在房间里，却一张卡片都没写！",
+      "role": "body"
+    }
+  ],
+  "audio": {
+    "fileName": "03－Please Send Me a Card.mp3",
+    "sourcePath": "content/NCE-Flow/NCE2/03－Please Send Me a Card.mp3",
+    "exists": true
+  },
+  "source": {
+    "repository": "NCE-Flow",
+    "lrcFileName": "03－Please Send Me a Card.lrc",
+    "lrcPath": "content/NCE-Flow/NCE2/03－Please Send Me a Card.lrc",
+    "sourceDataFile": "content/NCE-Flow/static/data.json",
+    "generatedAt": "2026-07-23T02:59:02+00:00",
+    "generator": "scripts/generate_nce_json.py",
+    "generatorVersion": "2.0.0",
+    "metadata": {
+      "al": "新概念英语（二）",
+      "ar": "MP3 同步字幕版（美音）",
+      "ti": "Please Send Me a Card",
+      "by": "更多学习内容，请到VeryCD.com搜索“露珠”"
+    }
+  }
+}

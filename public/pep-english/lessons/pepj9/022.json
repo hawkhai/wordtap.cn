@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "pepj9-022",
+  "groupId": "pepj9",
+  "unitNo": 7,
+  "sequenceNo": 22,
+  "section": "Section A",
+  "title": "Mom Knows Best",
+  "jsonPath": "pep-english/lessons/pepj9/022.json",
+  "text": "When I was a tiny baby crying all night, my mom sang to me and stayed by my side.\nWhen I was tired and hungry, she gave me food and warm arms to sleep in.\nWhen I was two running through the field, she made sure I was safe and kept me from danger.\nWhen I fell and hurt myself, she gave me a hug and lifted me up.\nWhen I was seven coughing badly, she said no ice-cream for me.\nBut I talked back loudly, \"I should be allowed to eat some! Give it to me now!\" When I was nine watching scary movies, she said it'd give me awful dreams.\nBut I shouted back angrily, \"I should be allowed to watch it! I'm not a baby!\"\nWhen I was a teen going out with friends, she said, \"Please be back by ten!\" But I talked back again — \"I should not be told what to do! I'm seventeen now!\"\nNow I'm an adult, thinking back to those times.\nI coughed for days after eating that ice-cream And had scary dreams after watching that film.\nI was late for school from staying out past ten.\nI regret talking back, not listening to Mom.\nMom knows best, and for me she wanted only the best!",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "When I was a tiny baby crying all night, my mom sang to me and stayed by my side.\nWhen I was tired and hungry, she gave me food and warm arms to sleep in.\nWhen I was two running through the field, she made sure I was safe and kept me from danger.\nWhen I fell and hurt myself, she gave me a hug and lifted me up."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "When I was seven coughing badly, she said no ice-cream for me.\nBut I talked back loudly, \"I should be allowed to eat some! Give it to me now!\" When I was nine watching scary movies, she said it'd give me awful dreams.\nBut I shouted back angrily, \"I should be allowed to watch it! I'm not a baby!\""
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "When I was a teen going out with friends, she said, \"Please be back by ten!\" But I talked back again — \"I should not be told what to do! I'm seventeen now!\""
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Now I'm an adult, thinking back to those times.\nI coughed for days after eating that ice-cream And had scary dreams after watching that film.\nI was late for school from staying out past ten.\nI regret talking back, not listening to Mom.\nMom knows best, and for me she wanted only the best!"
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "初中",
+    "book": "九年级全一册",
+    "pageStart": 65,
+    "pageEnd": 65,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "c6e628c22e0c2f9cfe4547699a1c95a4",
+    "pdfSize": 11088578,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/junior-9.pdf#page=65",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored the printed title and the complete poem in its four visual stanzas; excluded the 3a instruction and activities 3b-3c."
+    }
+  }
+}

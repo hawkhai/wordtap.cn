@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "pepj8b-014",
+  "groupId": "pepj8b",
+  "unitNo": 8,
+  "sequenceNo": 14,
+  "section": "Section A",
+  "title": "Robinson Crusoe on the Island",
+  "jsonPath": "pep-english/lessons/pepj8b/014.json",
+  "text": "When I first arrived on this island, I had nothing. But I've found the ship and made a small boat. I've brought back many things I can use — food and drink, tools, knives and guns. Although I have lost everything, I have not lost my life. So I will not give up and I will wait for another ship. I have already cut down trees and built a house. I go out with my gun almost every day to kill animals and birds for food. I'm even learning to grow fruit and vegetables.\nA few weeks ago, I found the marks of another man's feet on the sand. Who else is on my island? How long have they been here? Not long after that, I saw some cannibals trying to kill two men from a broken ship. One of them died but the other ran towards my house. I helped him kill the cannibals. This man now lives with me and helps me. I named him Friday because that was the day I met him. He is smart and I have already taught him some English.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "When I first arrived on this island, I had nothing. But I've found the ship and made a small boat. I've brought back many things I can use — food and drink, tools, knives and guns. Although I have lost everything, I have not lost my life. So I will not give up and I will wait for another ship. I have already cut down trees and built a house. I go out with my gun almost every day to kill animals and birds for food. I'm even learning to grow fruit and vegetables."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "A few weeks ago, I found the marks of another man's feet on the sand. Who else is on my island? How long have they been here? Not long after that, I saw some cannibals trying to kill two men from a broken ship. One of them died but the other ran towards my house. I helped him kill the cannibals. This man now lives with me and helps me. I named him Friday because that was the day I met him. He is smart and I have already taught him some English."
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "初中",
+    "book": "八年级下册",
+    "pageStart": 68,
+    "pageEnd": 68,
+    "extractionMode": "ocr",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "21d35e04f1c22b74a3fe3e95e88adff9",
+    "pdfSize": 18208880,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/junior-8b.pdf#page=68",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored both complete first-person paragraphs from the Robinson Crusoe-based passage, supplied a descriptive metadata title, and excluded 3a questions plus activities 3b-3c."
+    }
+  }
+}

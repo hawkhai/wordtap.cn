@@ -1,0 +1,167 @@
+{
+  "schemaVersion": 1,
+  "id": "nce2-084",
+  "bookId": "nce2",
+  "bookNo": 2,
+  "lessonNo": 84,
+  "lessonRange": [
+    84
+  ],
+  "title": "On Strike",
+  "titleZh": "罢工",
+  "question": "Who will be driving the buses next week?",
+  "questionZh": "下周谁来负责驾驶这些公交车呢？",
+  "text": "Who will be driving the buses next week?\n\nBusmen have decided to go on strike next week.\nThe strike is due to begin on Tuesday.\nNo one knows how long it will last.\nThe busmen have stated that the strike will continue until general agreement is reached about pay and working conditions.\nMost people believe that the strike will last for at least a week.\nMany owners of private cars are going to offer 'free rides' to people on their way to work.\nThis will relieve pressure on the trains to some extent.\nMeanwhile, a number of university students have volunteered to drive buses while the strike lasts.\nAll the students are expert drivers, but before they drive any of the buses, they will have to pass a special test.\nThe students are going to take the test in two days' time.\nEven so, people are going to find it difficult to get to work.\nBut so far, the public has expressed its gratitude to the students in letters to the Press.\nOnly one or two people have objected that the students will drive too fast!",
+  "bodyText": "Busmen have decided to go on strike next week.\nThe strike is due to begin on Tuesday.\nNo one knows how long it will last.\nThe busmen have stated that the strike will continue until general agreement is reached about pay and working conditions.\nMost people believe that the strike will last for at least a week.\nMany owners of private cars are going to offer 'free rides' to people on their way to work.\nThis will relieve pressure on the trains to some extent.\nMeanwhile, a number of university students have volunteered to drive buses while the strike lasts.\nAll the students are expert drivers, but before they drive any of the buses, they will have to pass a special test.\nThe students are going to take the test in two days' time.\nEven so, people are going to find it difficult to get to work.\nBut so far, the public has expressed its gratitude to the students in letters to the Press.\nOnly one or two people have objected that the students will drive too fast!",
+  "bodyTextZh": "公交司机们已经决定下周举行罢工。\n罢工定于周二开始。\n没有人知道这种情况会持续多久。\n公交司机们表示，罢工将持续进行，直到就工资和工作条件达成全面共识为止。\n大多数人认为这次罢工至少会持续一周。\n许多私家车主打算为上班途中的人们提供“免费搭乘”服务。\n这将在一定程度上缓解火车的运行压力。\n与此同时，许多大学生志愿在罢工期间驾驶公交车。\n所有的学生都是驾驶技术高超的驾驶员。但在他们驾驶任何一辆公交车之前，都必须通过一项特殊的测试。\n学生们将在两天后参加考试。\n即便如此，人们仍然会发现上班变得很困难。\n不过到目前为止，公众已经通过致信媒体的方式表达了对学生的感激之情。\n只有寥寥一两个人提出反对意见，认为学生们开车时可能会太快！",
+  "sentences": [
+    {
+      "index": 0,
+      "startTime": 0.5,
+      "endTime": 3,
+      "en": "Lesson 84",
+      "zh": "第84课",
+      "role": "lesson"
+    },
+    {
+      "index": 1,
+      "startTime": 3,
+      "endTime": 10.29,
+      "en": "On Strike",
+      "zh": "罢工",
+      "role": "title"
+    },
+    {
+      "index": 2,
+      "startTime": 10.29,
+      "endTime": 15.18,
+      "en": "Who will be driving the buses next week?",
+      "zh": "下周谁来负责驾驶这些公交车呢？",
+      "role": "question"
+    },
+    {
+      "index": 3,
+      "startTime": 15.18,
+      "endTime": 19.77,
+      "en": "Busmen have decided to go on strike next week.",
+      "zh": "公交司机们已经决定下周举行罢工。",
+      "role": "body"
+    },
+    {
+      "index": 4,
+      "startTime": 19.77,
+      "endTime": 23.83,
+      "en": "The strike is due to begin on Tuesday.",
+      "zh": "罢工定于周二开始。",
+      "role": "body"
+    },
+    {
+      "index": 5,
+      "startTime": 23.83,
+      "endTime": 27.51,
+      "en": "No one knows how long it will last.",
+      "zh": "没有人知道这种情况会持续多久。",
+      "role": "body"
+    },
+    {
+      "index": 6,
+      "startTime": 27.51,
+      "endTime": 38.37,
+      "en": "The busmen have stated that the strike will continue until general agreement is reached about pay and working conditions.",
+      "zh": "公交司机们表示，罢工将持续进行，直到就工资和工作条件达成全面共识为止。",
+      "role": "body"
+    },
+    {
+      "index": 7,
+      "startTime": 38.37,
+      "endTime": 44.15,
+      "en": "Most people believe that the strike will last for at least a week.",
+      "zh": "大多数人认为这次罢工至少会持续一周。",
+      "role": "body"
+    },
+    {
+      "index": 8,
+      "startTime": 44.15,
+      "endTime": 52.07,
+      "en": "Many owners of private cars are going to offer 'free rides' to people on their way to work.",
+      "zh": "许多私家车主打算为上班途中的人们提供“免费搭乘”服务。",
+      "role": "body"
+    },
+    {
+      "index": 9,
+      "startTime": 52.07,
+      "endTime": 56.81,
+      "en": "This will relieve pressure on the trains to some extent.",
+      "zh": "这将在一定程度上缓解火车的运行压力。",
+      "role": "body"
+    },
+    {
+      "index": 10,
+      "startTime": 56.81,
+      "endTime": 65.56,
+      "en": "Meanwhile, a number of university students have volunteered to drive buses while the strike lasts.",
+      "zh": "与此同时，许多大学生志愿在罢工期间驾驶公交车。",
+      "role": "body"
+    },
+    {
+      "index": 11,
+      "startTime": 65.56,
+      "endTime": 76.72,
+      "en": "All the students are expert drivers, but before they drive any of the buses, they will have to pass a special test.",
+      "zh": "所有的学生都是驾驶技术高超的驾驶员。但在他们驾驶任何一辆公交车之前，都必须通过一项特殊的测试。",
+      "role": "body"
+    },
+    {
+      "index": 12,
+      "startTime": 76.72,
+      "endTime": 81.72,
+      "en": "The students are going to take the test in two days' time.",
+      "zh": "学生们将在两天后参加考试。",
+      "role": "body"
+    },
+    {
+      "index": 13,
+      "startTime": 81.72,
+      "endTime": 87.43,
+      "en": "Even so, people are going to find it difficult to get to work.",
+      "zh": "即便如此，人们仍然会发现上班变得很困难。",
+      "role": "body"
+    },
+    {
+      "index": 14,
+      "startTime": 87.43,
+      "endTime": 95.31,
+      "en": "But so far, the public has expressed its gratitude to the students in letters to the Press.",
+      "zh": "不过到目前为止，公众已经通过致信媒体的方式表达了对学生的感激之情。",
+      "role": "body"
+    },
+    {
+      "index": 15,
+      "startTime": 95.31,
+      "endTime": null,
+      "en": "Only one or two people have objected that the students will drive too fast!",
+      "zh": "只有寥寥一两个人提出反对意见，认为学生们开车时可能会太快！",
+      "role": "body"
+    }
+  ],
+  "audio": {
+    "fileName": "84－On Strike.mp3",
+    "sourcePath": "content/NCE-Flow/NCE2/84－On Strike.mp3",
+    "exists": true
+  },
+  "source": {
+    "repository": "NCE-Flow",
+    "lrcFileName": "84－On Strike.lrc",
+    "lrcPath": "content/NCE-Flow/NCE2/84－On Strike.lrc",
+    "sourceDataFile": "content/NCE-Flow/static/data.json",
+    "generatedAt": "2026-07-23T02:59:02+00:00",
+    "generator": "scripts/generate_nce_json.py",
+    "generatorVersion": "2.0.0",
+    "metadata": {
+      "al": "新概念英语（二）",
+      "ar": "MP3 同步字幕版（美音）",
+      "ti": "On Strike",
+      "by": "更多学习内容，请到VeryCD.com搜索“露珠”"
+    }
+  }
+}

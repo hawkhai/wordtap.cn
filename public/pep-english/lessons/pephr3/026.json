@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "pephr3-026",
+  "groupId": "pephr3",
+  "unitNo": 4,
+  "sequenceNo": 26,
+  "section": "Expanding Your World",
+  "title": "What Is the Big Bang Theory?",
+  "jsonPath": "pep-english/lessons/pephr3/026.json",
+  "text": "The Big Bang Theory is an idea about how our universe began. Many scientists believe that everything in the universe used to be tightly pressed together. Then this mass of high energy separated into smaller pieces very quickly about 14 billion years ago to create the universe. At the moment of creation, the universe was extremely hot and everything was very close together. Then it began to spread out and cool. Today, the universe is still getting bigger. The Big Bang is considered to be the beginning of everything: time, space, and all the matter in the universe.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "The Big Bang Theory is an idea about how our universe began. Many scientists believe that everything in the universe used to be tightly pressed together. Then this mass of high energy separated into smaller pieces very quickly about 14 billion years ago to create the universe. At the moment of creation, the universe was extremely hot and everything was very close together. Then it began to spread out and cool. Today, the universe is still getting bigger. The Big Bang is considered to be the beginning of everything: time, space, and all the matter in the universe."
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "必修第三册",
+    "pageStart": 91,
+    "pageEnd": 91,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "31e51a16693d03177a5825f53f612a87",
+    "pdfSize": 14202806,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/senior-required-3.pdf#page=91",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored the complete first standalone explainer under its own heading.",
+      "splitBaselineId": "pephr3-038",
+      "splitIndex": 1,
+      "splitCount": 4
+    }
+  }
+}

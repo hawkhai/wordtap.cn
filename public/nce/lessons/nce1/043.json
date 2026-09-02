@@ -1,0 +1,208 @@
+{
+  "schemaVersion": 1,
+  "id": "nce1-043",
+  "bookId": "nce1",
+  "bookNo": 1,
+  "lessonNo": 43,
+  "lessonRange": [
+    43,
+    44
+  ],
+  "title": "Hurry Up",
+  "titleZh": "快点！",
+  "question": "How do you know Sam doesn't make the tea very often?",
+  "questionZh": "你怎么知道山姆不经常泡茶的？",
+  "text": "How do you know Sam doesn't make the tea very often?\n\nCan you make the tea, Sam?\nYes, of course I can, Penny.\nIs there any water in this kettle?\nYes, there is.\nWhere's the tea?\nIt's over there, behind the teapot.\nCan you see it?\nI can see the teapot, but I can't see the tea.\nThere it is!\nIt's in front of you!\nAh yes, I can see it now.\nWhere are the cups?\nThere are some in the cupboard.\nCan you find them?\nYes. Here they are.\nHurry up, Sam!\nThe kettle's boiling!",
+  "bodyText": "Can you make the tea, Sam?\nYes, of course I can, Penny.\nIs there any water in this kettle?\nYes, there is.\nWhere's the tea?\nIt's over there, behind the teapot.\nCan you see it?\nI can see the teapot, but I can't see the tea.\nThere it is!\nIt's in front of you!\nAh yes, I can see it now.\nWhere are the cups?\nThere are some in the cupboard.\nCan you find them?\nYes. Here they are.\nHurry up, Sam!\nThe kettle's boiling!",
+  "bodyTextZh": "你能泡茶吗，山姆？\n当然能，佩妮。\n这个水壶里有水吗？\n有。\n茶在哪里？\n就在那儿，茶壶后面。\n你能看到它吗？\n我能看到茶壶，但看不到茶。\n在那儿呢！\n它就在你面前！\n啊，对，我现在看到了。\n杯子在哪里？\n橱柜里有几个。\n你能找到它们吗？\n能。在这儿呢。\n快点，萨姆！\n水壶已经烧开了！",
+  "sentences": [
+    {
+      "index": 0,
+      "startTime": 0.78,
+      "endTime": 3.16,
+      "en": "Lesson 43",
+      "zh": "第43课",
+      "role": "lesson"
+    },
+    {
+      "index": 1,
+      "startTime": 3.16,
+      "endTime": 5.71,
+      "en": "Hurry up!",
+      "zh": "快点！",
+      "role": "title"
+    },
+    {
+      "index": 2,
+      "startTime": 5.71,
+      "endTime": 11.33,
+      "en": "Listen to the tape then answer this question.",
+      "zh": "请听录音，然后回答这个问题。",
+      "role": "prompt"
+    },
+    {
+      "index": 3,
+      "startTime": 11.33,
+      "endTime": 18.21,
+      "en": "How do you know Sam doesn't make the tea very often?",
+      "zh": "你怎么知道山姆不经常泡茶的？",
+      "role": "question"
+    },
+    {
+      "index": 4,
+      "startTime": 18.21,
+      "endTime": 22.14,
+      "en": "Can you make the tea, Sam?",
+      "zh": "你能泡茶吗，山姆？",
+      "role": "body"
+    },
+    {
+      "index": 5,
+      "startTime": 22.14,
+      "endTime": 27.3,
+      "en": "Yes, of course I can, Penny.",
+      "zh": "当然能，佩妮。",
+      "role": "body"
+    },
+    {
+      "index": 6,
+      "startTime": 27.3,
+      "endTime": 31.01,
+      "en": "Is there any water in this kettle?",
+      "zh": "这个水壶里有水吗？",
+      "role": "body"
+    },
+    {
+      "index": 7,
+      "startTime": 31.01,
+      "endTime": 33.61,
+      "en": "Yes, there is.",
+      "zh": "有。",
+      "role": "body"
+    },
+    {
+      "index": 8,
+      "startTime": 33.61,
+      "endTime": 35.39,
+      "en": "Where's the tea?",
+      "zh": "茶在哪里？",
+      "role": "body"
+    },
+    {
+      "index": 9,
+      "startTime": 35.39,
+      "endTime": 40.99,
+      "en": "It's over there, behind the teapot.",
+      "zh": "就在那儿，茶壶后面。",
+      "role": "body"
+    },
+    {
+      "index": 10,
+      "startTime": 40.99,
+      "endTime": 43.56,
+      "en": "Can you see it?",
+      "zh": "你能看到它吗？",
+      "role": "body"
+    },
+    {
+      "index": 11,
+      "startTime": 43.56,
+      "endTime": 49.73,
+      "en": "I can see the teapot, but I can't see the tea.",
+      "zh": "我能看到茶壶，但看不到茶。",
+      "role": "body"
+    },
+    {
+      "index": 12,
+      "startTime": 49.73,
+      "endTime": 51.35,
+      "en": "There it is!",
+      "zh": "在那儿呢！",
+      "role": "body"
+    },
+    {
+      "index": 13,
+      "startTime": 51.35,
+      "endTime": 53.56,
+      "en": "It's in front of you!",
+      "zh": "它就在你面前！",
+      "role": "body"
+    },
+    {
+      "index": 14,
+      "startTime": 53.56,
+      "endTime": 58.79,
+      "en": "Ah yes, I can see it now.",
+      "zh": "啊，对，我现在看到了。",
+      "role": "body"
+    },
+    {
+      "index": 15,
+      "startTime": 58.79,
+      "endTime": 61.23,
+      "en": "Where are the cups?",
+      "zh": "杯子在哪里？",
+      "role": "body"
+    },
+    {
+      "index": 16,
+      "startTime": 61.23,
+      "endTime": 64.1,
+      "en": "There are some in the cupboard.",
+      "zh": "橱柜里有几个。",
+      "role": "body"
+    },
+    {
+      "index": 17,
+      "startTime": 64.1,
+      "endTime": 66.22,
+      "en": "Can you find them?",
+      "zh": "你能找到它们吗？",
+      "role": "body"
+    },
+    {
+      "index": 18,
+      "startTime": 66.22,
+      "endTime": 69.13,
+      "en": "Yes. Here they are.",
+      "zh": "能。在这儿呢。",
+      "role": "body"
+    },
+    {
+      "index": 19,
+      "startTime": 69.13,
+      "endTime": 71.01,
+      "en": "Hurry up, Sam!",
+      "zh": "快点，萨姆！",
+      "role": "body"
+    },
+    {
+      "index": 20,
+      "startTime": 71.01,
+      "endTime": null,
+      "en": "The kettle's boiling!",
+      "zh": "水壶已经烧开了！",
+      "role": "body"
+    }
+  ],
+  "audio": {
+    "fileName": "043&044－Hurry Up.mp3",
+    "sourcePath": "content/NCE-Flow/NCE1/043&044－Hurry Up.mp3",
+    "exists": true
+  },
+  "source": {
+    "repository": "NCE-Flow",
+    "lrcFileName": "043&044－Hurry Up.lrc",
+    "lrcPath": "content/NCE-Flow/NCE1/043&044－Hurry Up.lrc",
+    "sourceDataFile": "content/NCE-Flow/static/data.json",
+    "generatedAt": "2026-07-23T02:59:02+00:00",
+    "generator": "scripts/generate_nce_json.py",
+    "generatorVersion": "2.0.0",
+    "metadata": {
+      "al": "新概念英语（一）",
+      "ar": "MP3 同步字幕版（美音）",
+      "ti": "Hurry Up!",
+      "by": "更多学习内容，请到VeryCD.com搜索“露珠”"
+    }
+  }
+}

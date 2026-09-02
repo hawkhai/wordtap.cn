@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "pepj9-030",
+  "groupId": "pepj9",
+  "unitNo": 10,
+  "sequenceNo": 30,
+  "section": "Section A",
+  "title": "Greeting Customs in Japan and France",
+  "jsonPath": "pep-english/lessons/pepj9/030.json",
+  "text": "Katie: How was the welcome party for foreign students last night?\nJohn: Great! I made some new friends. But a funny thing happened.\nKatie: What?\nJohn: I met a Japanese boy called Sato, and as soon as I held out my hand, he bowed.\nKatie: That's how people in Japan are expected to greet each other. It's impolite if you don't bow.\nJohn: I didn't know that. So I just stood there with my hand out. Finally, I returned the bow.\nKatie: I remember when I first met Marie last year, I did the same thing. I held out my hand and to my surprise, she kissed me on both sides of my face!\nJohn: I wouldn't mind that!\nKatie: Very funny. Later I found out French people are supposed to kiss when they see each other.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Katie: How was the welcome party for foreign students last night?\nJohn: Great! I made some new friends. But a funny thing happened.\nKatie: What?\nJohn: I met a Japanese boy called Sato, and as soon as I held out my hand, he bowed.\nKatie: That's how people in Japan are expected to greet each other. It's impolite if you don't bow.\nJohn: I didn't know that. So I just stood there with my hand out. Finally, I returned the bow.\nKatie: I remember when I first met Marie last year, I did the same thing. I held out my hand and to my surprise, she kissed me on both sides of my face!\nJohn: I wouldn't mind that!\nKatie: Very funny. Later I found out French people are supposed to kiss when they see each other."
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "初中",
+    "book": "九年级全一册",
+    "pageStart": 88,
+    "pageEnd": 88,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "c6e628c22e0c2f9cfe4547699a1c95a4",
+    "pdfSize": 11088578,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/junior-9.pdf#page=88",
+      "reviewedAt": "2026-07-22",
+      "notes": "Retained only the complete 2d Katie-John role-play about Japanese and French greeting customs; excluded 2a/2b listening tasks, the unfinished 2c model and instructions."
+    }
+  }
+}

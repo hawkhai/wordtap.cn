@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "pephs1-009",
+  "groupId": "pephs1",
+  "unitNo": 3,
+  "sequenceNo": 9,
+  "section": "Reading and Thinking",
+  "title": "Sarek National Park — Europe’s Hidden Natural Treasure",
+  "jsonPath": "pep-english/lessons/pephs1/009.json",
+  "text": "I wake up to the sound of the wind buffeting the cloth of my tent. Even though the sun is brightly shining, telling whether it is morning or night is impossible. I’m above the Arctic Circle, where in summer the sun never sets. Checking my watch, I see that it is 7:30 a.m. I leave my tent and walk over to the mountain edge. Spreading out before me, branches of the Rapa River flow through the valley below. I’m in the remote far north of Sweden in Sarek National Park, a place with no roads or towns.\nSarek’s mountains used to be covered by vast sheets of ice. Around 9,000 years ago, this ice melted, leaving behind about 100 glaciers. Soon after, reindeer began to arrive. Following the reindeer were the Sami people, who made this territory their home. Getting here is quite difficult, so apart from the Sami very few people have ever seen Sarek. In 1909, Sarek was made a national park in order to keep the land in its natural state. Though the Sami are allowed to continue their traditional way of life in the park, no one else can live here, and all new development is banned within park boundaries. At the far side of the valley, an ancient Sami cottage is visible. Close by, there are a few reindeer feeding on grass.\nFor hundreds of years, looking after reindeer was a way of life for the Sami. They used the reindeer’s meat for food, their bones for tools, and their skin for making clothes and tents. Since reindeer were always on the move, the Sami would pick up their tents and accompany them. Today, most Sami have houses in villages near Sarek and live a modern life just like their neighbours. But every spring, a small number of Sami still follow their reindeer into the valleys of Sarek, living in tents or old cottages and enjoying their traditions. I am not a Sami, but in Sarek I’ve adopted some of their habits. For example, this morning my breakfast is flat bread warmed over a fire, dried reindeer meat, and some sweet and sour berries that I found growing near my tent.\nAfter breakfast, I pack my bag and set out again. Since I must carry all of my food and supplies with me, my bag weighs about 30 kilograms. If today is anything like yesterday, it will be full of sweat and hard work as I hike over this difficult land to my destination on the other side of the valley. However, I cannot complain. Being in such a beautiful and wild place makes me feel blessed to be alive. Here I am, alone under this broad sky, breathing the fresh air, and enjoying this great adventure. What could be better?",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "I wake up to the sound of the wind buffeting the cloth of my tent. Even though the sun is brightly shining, telling whether it is morning or night is impossible. I’m above the Arctic Circle, where in summer the sun never sets. Checking my watch, I see that it is 7:30 a.m. I leave my tent and walk over to the mountain edge. Spreading out before me, branches of the Rapa River flow through the valley below. I’m in the remote far north of Sweden in Sarek National Park, a place with no roads or towns."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Sarek’s mountains used to be covered by vast sheets of ice. Around 9,000 years ago, this ice melted, leaving behind about 100 glaciers. Soon after, reindeer began to arrive. Following the reindeer were the Sami people, who made this territory their home. Getting here is quite difficult, so apart from the Sami very few people have ever seen Sarek. In 1909, Sarek was made a national park in order to keep the land in its natural state. Though the Sami are allowed to continue their traditional way of life in the park, no one else can live here, and all new development is banned within park boundaries. At the far side of the valley, an ancient Sami cottage is visible. Close by, there are a few reindeer feeding on grass."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "For hundreds of years, looking after reindeer was a way of life for the Sami. They used the reindeer’s meat for food, their bones for tools, and their skin for making clothes and tents. Since reindeer were always on the move, the Sami would pick up their tents and accompany them. Today, most Sami have houses in villages near Sarek and live a modern life just like their neighbours. But every spring, a small number of Sami still follow their reindeer into the valleys of Sarek, living in tents or old cottages and enjoying their traditions. I am not a Sami, but in Sarek I’ve adopted some of their habits. For example, this morning my breakfast is flat bread warmed over a fire, dried reindeer meat, and some sweet and sour berries that I found growing near my tent."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "After breakfast, I pack my bag and set out again. Since I must carry all of my food and supplies with me, my bag weighs about 30 kilograms. If today is anything like yesterday, it will be full of sweat and hard work as I hike over this difficult land to my destination on the other side of the valley. However, I cannot complain. Being in such a beautiful and wild place makes me feel blessed to be alive. Here I am, alone under this broad sky, breathing the fresh air, and enjoying this great adventure. What could be better?"
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "选择性必修第一册",
+    "pageStart": 33,
+    "pageEnd": 34,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "f19c4231e96ee3a9c769533d676f1106",
+    "pdfSize": 12809514,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/senior-selective-1.pdf#page=33-34",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored the complete four-paragraph Sarek feature across pages 33–34 in printed order; retained no invented subheadings because the page leaves them as a matching task, and excluded instructions, strategy box, photographs, questions, vocabulary summary and running furniture."
+    }
+  }
+}

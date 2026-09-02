@@ -1,0 +1,143 @@
+{
+  "schemaVersion": 1,
+  "id": "nce2-039",
+  "bookId": "nce2",
+  "bookNo": 2,
+  "lessonNo": 39,
+  "lessonRange": [
+    39
+  ],
+  "title": "Am I All Right",
+  "titleZh": "我正常吗？",
+  "question": "Why did Mr. Gilbert telephone Dr. Millington?",
+  "questionZh": "为什么吉尔伯特先生给米林顿医生打了电话？",
+  "text": "Why did Mr. Gilbert telephone Dr. Millington?\n\nWhile John Gilbert was in hospital, he asked his doctor to tell him whether his operation had been successful, but the doctor refused to do so.\nThe following day, the patient asked for a bedside telephone.\nWhen he was alone, he telephoned the hospital exchange and asked for Doctor Millington.\nWhen the doctor answered the phone,\nMr. Gilbert said he was inquiring about a certain patient, a Mr. John Gilbert.\nHe asked if Mr. Gilbert's operation had been successful and the doctor told him that it had been.\nHe then asked when Mr. Gilbert would be allowed to go home and the doctor told him that he would have to stay in hosptial for another two weeks.\nThen Dr. Millington asked the caller if he was a relative of the patient.\n'No,' the patient answered,\n'I am Mr. John Gilbert.'",
+  "bodyText": "While John Gilbert was in hospital, he asked his doctor to tell him whether his operation had been successful, but the doctor refused to do so.\nThe following day, the patient asked for a bedside telephone.\nWhen he was alone, he telephoned the hospital exchange and asked for Doctor Millington.\nWhen the doctor answered the phone,\nMr. Gilbert said he was inquiring about a certain patient, a Mr. John Gilbert.\nHe asked if Mr. Gilbert's operation had been successful and the doctor told him that it had been.\nHe then asked when Mr. Gilbert would be allowed to go home and the doctor told him that he would have to stay in hosptial for another two weeks.\nThen Dr. Millington asked the caller if he was a relative of the patient.\n'No,' the patient answered,\n'I am Mr. John Gilbert.'",
+  "bodyTextZh": "在约翰·吉尔伯特住院期间，他请求医生告诉他他的手术是否成功。但是医生拒绝这样做。\n第二天，患者要求配备一台床边电话。\n当他独自一人时，他拨打了医院的电话总机。然后他要求找米林顿医生接电话。\n当医生接听电话时，\n吉尔伯特先生说，他正在询问关于某位病人的情况。一位名叫约翰·吉尔伯特的先生。\n他询问吉尔伯特先生的手术是否成功。医生告诉他，手术是成功的。\n他接着询问吉尔伯特先生什么时候可以回家，医生告诉他他必须他还需要在医院住院两周。\n然后，米林顿博士询问了来电者。他是不是病人的亲属。\n“不，”病人回答道。\n我是约翰·吉尔伯特先生。",
+  "sentences": [
+    {
+      "index": 0,
+      "startTime": 0.5,
+      "endTime": 3,
+      "en": "Lesson 39",
+      "zh": "第39课",
+      "role": "lesson"
+    },
+    {
+      "index": 1,
+      "startTime": 3,
+      "endTime": 10.49,
+      "en": "Am I All Right",
+      "zh": "我正常吗？",
+      "role": "title"
+    },
+    {
+      "index": 2,
+      "startTime": 10.49,
+      "endTime": 16.42,
+      "en": "Why did Mr. Gilbert telephone Dr. Millington?",
+      "zh": "为什么吉尔伯特先生给米林顿医生打了电话？",
+      "role": "question"
+    },
+    {
+      "index": 3,
+      "startTime": 16.42,
+      "endTime": 30.06,
+      "en": "While John Gilbert was in hospital, he asked his doctor to tell him whether his operation had been successful, but the doctor refused to do so.",
+      "zh": "在约翰·吉尔伯特住院期间，他请求医生告诉他他的手术是否成功。但是医生拒绝这样做。",
+      "role": "body"
+    },
+    {
+      "index": 4,
+      "startTime": 30.06,
+      "endTime": 35.85,
+      "en": "The following day, the patient asked for a bedside telephone.",
+      "zh": "第二天，患者要求配备一台床边电话。",
+      "role": "body"
+    },
+    {
+      "index": 5,
+      "startTime": 35.85,
+      "endTime": 44.42,
+      "en": "When he was alone, he telephoned the hospital exchange and asked for Doctor Millington.",
+      "zh": "当他独自一人时，他拨打了医院的电话总机。然后他要求找米林顿医生接电话。",
+      "role": "body"
+    },
+    {
+      "index": 6,
+      "startTime": 44.42,
+      "endTime": 47.05,
+      "en": "When the doctor answered the phone,",
+      "zh": "当医生接听电话时，",
+      "role": "body"
+    },
+    {
+      "index": 7,
+      "startTime": 47.05,
+      "endTime": 55.41,
+      "en": "Mr. Gilbert said he was inquiring about a certain patient, a Mr. John Gilbert.",
+      "zh": "吉尔伯特先生说，他正在询问关于某位病人的情况。一位名叫约翰·吉尔伯特的先生。",
+      "role": "body"
+    },
+    {
+      "index": 8,
+      "startTime": 55.41,
+      "endTime": 64.88,
+      "en": "He asked if Mr. Gilbert's operation had been successful and the doctor told him that it had been.",
+      "zh": "他询问吉尔伯特先生的手术是否成功。医生告诉他，手术是成功的。",
+      "role": "body"
+    },
+    {
+      "index": 9,
+      "startTime": 64.88,
+      "endTime": 76.95,
+      "en": "He then asked when Mr. Gilbert would be allowed to go home and the doctor told him that he would have to stay in hosptial for another two weeks.",
+      "zh": "他接着询问吉尔伯特先生什么时候可以回家，医生告诉他他必须他还需要在医院住院两周。",
+      "role": "body"
+    },
+    {
+      "index": 10,
+      "startTime": 76.95,
+      "endTime": 83.6,
+      "en": "Then Dr. Millington asked the caller if he was a relative of the patient.",
+      "zh": "然后，米林顿博士询问了来电者。他是不是病人的亲属。",
+      "role": "body"
+    },
+    {
+      "index": 11,
+      "startTime": 83.6,
+      "endTime": 86.57,
+      "en": "'No,' the patient answered,",
+      "zh": "“不，”病人回答道。",
+      "role": "body"
+    },
+    {
+      "index": 12,
+      "startTime": 86.57,
+      "endTime": null,
+      "en": "'I am Mr. John Gilbert.'",
+      "zh": "我是约翰·吉尔伯特先生。",
+      "role": "body"
+    }
+  ],
+  "audio": {
+    "fileName": "39－Am I All Right.mp3",
+    "sourcePath": "content/NCE-Flow/NCE2/39－Am I All Right.mp3",
+    "exists": true
+  },
+  "source": {
+    "repository": "NCE-Flow",
+    "lrcFileName": "39－Am I All Right.lrc",
+    "lrcPath": "content/NCE-Flow/NCE2/39－Am I All Right.lrc",
+    "sourceDataFile": "content/NCE-Flow/static/data.json",
+    "generatedAt": "2026-07-23T02:59:02+00:00",
+    "generator": "scripts/generate_nce_json.py",
+    "generatorVersion": "2.0.0",
+    "metadata": {
+      "al": "新概念英语（二）",
+      "ar": "MP3 同步字幕版（美音）",
+      "ti": "Am I All Right?",
+      "by": "更多学习内容，请到VeryCD.com搜索“露珠”"
+    }
+  }
+}

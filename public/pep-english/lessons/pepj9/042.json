@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "id": "pepj9-042",
+  "groupId": "pepj9",
+  "unitNo": 13,
+  "sequenceNo": 42,
+  "section": "Section A",
+  "title": "Save the Sharks!",
+  "jsonPath": "pep-english/lessons/pepj9/042.json",
+  "text": "Many have heard of shark fin soup. But do you realize that you're killing a whole shark each time you enjoy a bowl of shark fin soup?\nWhen people catch sharks, they cut off their fins and throw the sharks back into the ocean. This is not only cruel, but also harmful to the environment. Without a fin, a shark can no longer swim and slowly dies. Sharks are at the top of the food chain in the ocean's ecosystem. If their numbers drop too low, it will bring danger to all ocean life. Many believe that sharks can never be endangered because they are the strongest in their food chain. But in fact, around 70 million sharks are caught and traded in this industry every year. The numbers of some kinds of sharks have fallen by over 90 percent in the last 20 to 30 years.\nEnvironmental protection groups around the world, such as WildAid and the WWF, are teaching the public about \"finning\". They have even asked governments to develop laws to stop the sale of shark fins. So far, no scientific studies have shown that shark fins are good for health, so why eat them? Help save the sharks!",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Many have heard of shark fin soup. But do you realize that you're killing a whole shark each time you enjoy a bowl of shark fin soup?"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "When people catch sharks, they cut off their fins and throw the sharks back into the ocean. This is not only cruel, but also harmful to the environment. Without a fin, a shark can no longer swim and slowly dies. Sharks are at the top of the food chain in the ocean's ecosystem. If their numbers drop too low, it will bring danger to all ocean life. Many believe that sharks can never be endangered because they are the strongest in their food chain. But in fact, around 70 million sharks are caught and traded in this industry every year. The numbers of some kinds of sharks have fallen by over 90 percent in the last 20 to 30 years."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Environmental protection groups around the world, such as WildAid and the WWF, are teaching the public about \"finning\". They have even asked governments to develop laws to stop the sale of shark fins. So far, no scientific studies have shown that shark fins are good for health, so why eat them? Help save the sharks!"
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "初中",
+    "book": "九年级全一册",
+    "pageStart": 113,
+    "pageEnd": 113,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "c6e628c22e0c2f9cfe4547699a1c95a4",
+    "pdfSize": 11088578,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/junior-9.pdf#page=113",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored the printed title and all three complete paragraphs with figures and organization names; excluded the 3a instruction/fact sheet and 3b fill-in exercise."
+    }
+  }
+}

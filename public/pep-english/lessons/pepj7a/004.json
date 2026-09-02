@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "pepj7a-004",
+  "groupId": "pepj7a",
+  "unitNo": 9,
+  "sequenceNo": 4,
+  "section": "Section B",
+  "title": "Dear Jenny",
+  "jsonPath": "pep-english/lessons/pepj7a/004.json",
+  "text": "Dear Jenny,\nI am very busy on Friday. At 8:00 I have math. It is not fun. The teacher says it is useful, but I think it is difficult. Then at 9:00 I have science. It is difficult but interesting. At 10:00 I have history. After that, I have P.E. at 11:00. It is easy and fun. Lunch is from 12:00 to 1:00, and after that we have Chinese. It is my favorite subject. Our Chinese teacher, Mrs. Wang, is great fun. My classes finish at 1:50, but after that I have an art lesson for two hours. It is really relaxing!\nHow about you? When are your classes? What is your favorite subject?\nYour friend, Yu Mei",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Dear Jenny,"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "I am very busy on Friday. At 8:00 I have math. It is not fun. The teacher says it is useful, but I think it is difficult. Then at 9:00 I have science. It is difficult but interesting. At 10:00 I have history. After that, I have P.E. at 11:00. It is easy and fun. Lunch is from 12:00 to 1:00, and after that we have Chinese. It is my favorite subject. Our Chinese teacher, Mrs. Wang, is great fun. My classes finish at 1:50, but after that I have an art lesson for two hours. It is really relaxing!"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "How about you? When are your classes? What is your favorite subject?"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Your friend, Yu Mei"
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "初中",
+    "book": "七年级上册",
+    "pageStart": 76,
+    "pageEnd": 76,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "7d7bed5769efd4d786f353da10c755e9",
+    "pdfSize": 12005272,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/junior-7a.pdf#page=76",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored the complete letter, including salutation and closing; removed the surrounding exercise and corrected Section B metadata."
+    }
+  }
+}

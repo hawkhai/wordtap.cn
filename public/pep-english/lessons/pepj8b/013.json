@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "pepj8b-013",
+  "groupId": "pepj8b",
+  "unitNo": 7,
+  "sequenceNo": 13,
+  "section": "Section B",
+  "title": "Pandas at the Chengdu Research Base",
+  "jsonPath": "pep-english/lessons/pepj8b/013.json",
+  "text": "It is 8:30 a.m. at the Chengdu Research Base. Panda keepers are preparing milk for the baby pandas' breakfast. At 9:00 a.m., they find that most of the babies are already awake and hungry. When the babies see the keepers, they run over to them with excitement and some of the young pandas even walk into their friends and fall over!\nLin Wei, one of the panda keepers, says, \"They're so cute and lovely. I take care of them like they're my own babies. I wash, feed and play with them every day. They're very special to me.\" In fact, many people around the world love these black and white animals. Pandas have become so popular that they are now a symbol of China.\nScientists say there are now fewer than 2,000 pandas living in the forests. Another 300 or so live in zoos or research centers in China and other countries. Pandas do not have many babies, maybe only one every two years. The babies often die from illnesses and do not live very long. Adult pandas spend more than 12 hours a day eating about 10 kilos of bamboo. Many years ago, there were a lot more bamboo forests and pandas in China, but then humans started to cut down these forests. As the forests get smaller and other human activities cause more problems, pandas cannot find enough to eat and they are having fewer babies.\nAn education program in Chengdu teaches children about pandas and other endangered wild animals. They send people to schools to tell children about the importance of saving these animals. And the Chinese government is trying hard to help save the pandas. Scientists are doing research to better understand the habits of pandas. We all hope that in the future there will be a lot more pandas.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "It is 8:30 a.m. at the Chengdu Research Base. Panda keepers are preparing milk for the baby pandas' breakfast. At 9:00 a.m., they find that most of the babies are already awake and hungry. When the babies see the keepers, they run over to them with excitement and some of the young pandas even walk into their friends and fall over!"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Lin Wei, one of the panda keepers, says, \"They're so cute and lovely. I take care of them like they're my own babies. I wash, feed and play with them every day. They're very special to me.\" In fact, many people around the world love these black and white animals. Pandas have become so popular that they are now a symbol of China."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Scientists say there are now fewer than 2,000 pandas living in the forests. Another 300 or so live in zoos or research centers in China and other countries. Pandas do not have many babies, maybe only one every two years. The babies often die from illnesses and do not live very long. Adult pandas spend more than 12 hours a day eating about 10 kilos of bamboo. Many years ago, there were a lot more bamboo forests and pandas in China, but then humans started to cut down these forests. As the forests get smaller and other human activities cause more problems, pandas cannot find enough to eat and they are having fewer babies."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "An education program in Chengdu teaches children about pandas and other endangered wild animals. They send people to schools to tell children about the importance of saving these animals. And the Chinese government is trying hard to help save the pandas. Scientists are doing research to better understand the habits of pandas. We all hope that in the future there will be a lot more pandas."
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "初中",
+    "book": "八年级下册",
+    "pageStart": 63,
+    "pageEnd": 63,
+    "extractionMode": "ocr",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "21d35e04f1c22b74a3fe3e95e88adff9",
+    "pdfSize": 18208880,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/junior-8b.pdf#page=63",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored all four complete article paragraphs, figures and keeper quotation, supplied a descriptive metadata title, and excluded 2a/2b instructions, 2c questions and the scanning sidebar."
+    }
+  }
+}

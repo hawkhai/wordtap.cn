@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "pephr1-013",
+  "groupId": "pephr1",
+  "unitNo": 3,
+  "sequenceNo": 13,
+  "section": "Listening and Speaking",
+  "title": "Dave Recommends the Spin Bike to Jack",
+  "jsonPath": "pep-english/lessons/pephr1/013.json",
+  "text": "Dave: Wonderful gym, isn't it?\nJack: Er... yes. It's great.\nDave: This isn't your first time here, is it?\nJack: Actually, it is. You come here often, don't you?\nDave: Yep. At least three times a week.\nJack: You've lost some weight, haven't you?\nDave: Yes. All that fat has become muscle now. If you want to lose weight, too, I recommend using the spin bike.\nJack: OK, but it won't make me too tired, will it?\nDave: Maybe at first, but you'll get used to it. I used to come here every day when I first started.\nJack: Oh, I don't have to come here every day, do I?\nDave: No. Of course not. It's up to you, isn't it?",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Dave: Wonderful gym, isn't it?\nJack: Er... yes. It's great.\nDave: This isn't your first time here, is it?\nJack: Actually, it is. You come here often, don't you?\nDave: Yep. At least three times a week.\nJack: You've lost some weight, haven't you?\nDave: Yes. All that fat has become muscle now. If you want to lose weight, too, I recommend using the spin bike.\nJack: OK, but it won't make me too tired, will it?\nDave: Maybe at first, but you'll get used to it. I used to come here every day when I first started.\nJack: Oh, I don't have to come here every day, do I?\nDave: No. Of course not. It's up to you, isn't it?"
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "必修第一册",
+    "pageStart": 44,
+    "pageEnd": 44,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "e0bf18138b24d7def28b35994a13946b",
+    "pdfSize": 14704146,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/senior-required-1.pdf#page=44",
+      "reviewedAt": "2026-07-22",
+      "notes": "Kept the complete pronunciation-box dialogue about gym attendance and the spin bike; removed incomplete listening answers, three activity prompts and pronunciation instructions, and corrected the section metadata."
+    }
+  }
+}

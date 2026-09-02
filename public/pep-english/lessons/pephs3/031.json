@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "pephs3-031",
+  "groupId": "pephs3",
+  "unitNo": 5,
+  "sequenceNo": 31,
+  "section": "Expanding Your World",
+  "title": "Spring Morning (Meng Haoran; translated by Xu Yuanchong)",
+  "jsonPath": "pep-english/lessons/pephs3/031.json",
+  "text": "This spring morning in bed I’m lying, Not to awake till birds are crying.\nAfter one night of wind and showers, How many are the fallen flowers?",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "This spring morning in bed I’m lying, Not to awake till birds are crying.\nAfter one night of wind and showers, How many are the fallen flowers?"
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "选择性必修第三册",
+    "pageStart": 101,
+    "pageEnd": 101,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "f0dc33129a755a33421d401b71a05cd1",
+    "pdfSize": 12684455,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/senior-selective-3.pdf#page=101",
+      "reviewedAt": "2026-07-22",
+      "notes": "Recovered the complete four-line poem missed by the baseline scan; preserved lineation and moved author and translator to metadata.",
+      "splitBaselineId": "pephs3-041",
+      "splitIndex": 2,
+      "splitCount": 4
+    }
+  }
+}

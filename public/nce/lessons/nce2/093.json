@@ -1,0 +1,135 @@
+{
+  "schemaVersion": 1,
+  "id": "nce2-093",
+  "bookId": "nce2",
+  "bookNo": 2,
+  "lessonNo": 93,
+  "lessonRange": [
+    93
+  ],
+  "title": "A Noble Gift",
+  "titleZh": "一份高贵的礼物",
+  "question": "Where was the Statue of Liberty made?",
+  "questionZh": "自由女神像是在哪里制造的？",
+  "text": "Where was the Statue of Liberty made?\n\nOne of the most famous monuments in the world, the Statue of Liberty, was presented to the USA in the nineteenth century by the people of France.\nThe great statue, which was designed by the sculptor Auguste Bartholdi, took ten years to complete.\nThe actual figure was made of copper supported by a metal framework which had been especially constructed by Eiffel.\nBefore it could be transported to the United States, a site had to be found for it and a pedestal had to be built.\nThe site chosen was an island at the entrance of New York Harbour.\nBy 1884, a statue which was 151 feet tall had been erected in Paris.\nThe following year, it was taken to pieces and sent to America.\nBy the end of October 1886, the statue had been put together again and it was officially presented to the American people by Bartholdi.\nEver since then, the great monument has been a symbol of liberty for the millions of people who have passed through New York Harbour to make their homes in America.",
+  "bodyText": "One of the most famous monuments in the world, the Statue of Liberty, was presented to the USA in the nineteenth century by the people of France.\nThe great statue, which was designed by the sculptor Auguste Bartholdi, took ten years to complete.\nThe actual figure was made of copper supported by a metal framework which had been especially constructed by Eiffel.\nBefore it could be transported to the United States, a site had to be found for it and a pedestal had to be built.\nThe site chosen was an island at the entrance of New York Harbour.\nBy 1884, a statue which was 151 feet tall had been erected in Paris.\nThe following year, it was taken to pieces and sent to America.\nBy the end of October 1886, the statue had been put together again and it was officially presented to the American people by Bartholdi.\nEver since then, the great monument has been a symbol of liberty for the millions of people who have passed through New York Harbour to make their homes in America.",
+  "bodyTextZh": "自由女神像是世界最著名的纪念碑之一。这座雕像是在十九世纪由法国人民赠送给美国的。\n这座宏伟的雕像由雕塑家奥古斯特·巴托尔迪设计，耗时十年才完成。\n雕像主体由铜制成，由埃菲尔特别设计的金属框架支撑。\n在它被运往美国之前，必须为它找到一个安放地点，并建造一个基座。\n所选的位置是一座位于纽约港入口处的岛屿。\n到1884年，一座151英尺高的雕像已在巴黎建成。\n第二年，它被拆解后运往美国。\n到1886年10月底，到1886年10月底，雕像已重新组装完毕，由巴托尔迪正式赠予美国人民。\n从那时起，这座宏伟的纪念碑就成为了自由的象征。对于数百万通过纽约港来到美国安家落户的人们来说……",
+  "sentences": [
+    {
+      "index": 0,
+      "startTime": 0.5,
+      "endTime": 3,
+      "en": "Lesson 93",
+      "zh": "第93课",
+      "role": "lesson"
+    },
+    {
+      "index": 1,
+      "startTime": 3,
+      "endTime": 10.7,
+      "en": "A Noble Gift",
+      "zh": "一份高贵的礼物",
+      "role": "title"
+    },
+    {
+      "index": 2,
+      "startTime": 10.7,
+      "endTime": 15.67,
+      "en": "Where was the Statue of Liberty made?",
+      "zh": "自由女神像是在哪里制造的？",
+      "role": "question"
+    },
+    {
+      "index": 3,
+      "startTime": 15.67,
+      "endTime": 29.3,
+      "en": "One of the most famous monuments in the world, the Statue of Liberty, was presented to the USA in the nineteenth century by the people of France.",
+      "zh": "自由女神像是世界最著名的纪念碑之一。这座雕像是在十九世纪由法国人民赠送给美国的。",
+      "role": "body"
+    },
+    {
+      "index": 4,
+      "startTime": 29.3,
+      "endTime": 39.14,
+      "en": "The great statue, which was designed by the sculptor Auguste Bartholdi, took ten years to complete.",
+      "zh": "这座宏伟的雕像由雕塑家奥古斯特·巴托尔迪设计，耗时十年才完成。",
+      "role": "body"
+    },
+    {
+      "index": 5,
+      "startTime": 39.14,
+      "endTime": 49.09,
+      "en": "The actual figure was made of copper supported by a metal framework which had been especially constructed by Eiffel.",
+      "zh": "雕像主体由铜制成，由埃菲尔特别设计的金属框架支撑。",
+      "role": "body"
+    },
+    {
+      "index": 6,
+      "startTime": 49.09,
+      "endTime": 58.79,
+      "en": "Before it could be transported to the United States, a site had to be found for it and a pedestal had to be built.",
+      "zh": "在它被运往美国之前，必须为它找到一个安放地点，并建造一个基座。",
+      "role": "body"
+    },
+    {
+      "index": 7,
+      "startTime": 58.79,
+      "endTime": 64.37,
+      "en": "The site chosen was an island at the entrance of New York Harbour.",
+      "zh": "所选的位置是一座位于纽约港入口处的岛屿。",
+      "role": "body"
+    },
+    {
+      "index": 8,
+      "startTime": 64.37,
+      "endTime": 73.43,
+      "en": "By 1884, a statue which was 151 feet tall had been erected in Paris.",
+      "zh": "到1884年，一座151英尺高的雕像已在巴黎建成。",
+      "role": "body"
+    },
+    {
+      "index": 9,
+      "startTime": 73.43,
+      "endTime": 79.43,
+      "en": "The following year, it was taken to pieces and sent to America.",
+      "zh": "第二年，它被拆解后运往美国。",
+      "role": "body"
+    },
+    {
+      "index": 10,
+      "startTime": 79.43,
+      "endTime": 93.85,
+      "en": "By the end of October 1886, the statue had been put together again and it was officially presented to the American people by Bartholdi.",
+      "zh": "到1886年10月底，到1886年10月底，雕像已重新组装完毕，由巴托尔迪正式赠予美国人民。",
+      "role": "body"
+    },
+    {
+      "index": 11,
+      "startTime": 93.85,
+      "endTime": null,
+      "en": "Ever since then, the great monument has been a symbol of liberty for the millions of people who have passed through New York Harbour to make their homes in America.",
+      "zh": "从那时起，这座宏伟的纪念碑就成为了自由的象征。对于数百万通过纽约港来到美国安家落户的人们来说……",
+      "role": "body"
+    }
+  ],
+  "audio": {
+    "fileName": "93－A Noble Gift.mp3",
+    "sourcePath": "content/NCE-Flow/NCE2/93－A Noble Gift.mp3",
+    "exists": true
+  },
+  "source": {
+    "repository": "NCE-Flow",
+    "lrcFileName": "93－A Noble Gift.lrc",
+    "lrcPath": "content/NCE-Flow/NCE2/93－A Noble Gift.lrc",
+    "sourceDataFile": "content/NCE-Flow/static/data.json",
+    "generatedAt": "2026-07-23T02:59:02+00:00",
+    "generator": "scripts/generate_nce_json.py",
+    "generatorVersion": "2.0.0",
+    "metadata": {
+      "al": "新概念英语（二）",
+      "ar": "MP3 同步字幕版（美音）",
+      "ti": "A Noble Gift",
+      "by": "更多学习内容，请到VeryCD.com搜索“露珠”"
+    }
+  }
+}

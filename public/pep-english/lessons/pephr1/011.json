@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "pephr1-011",
+  "groupId": "pephr1",
+  "unitNo": 2,
+  "sequenceNo": 11,
+  "section": "Reading for Writing",
+  "title": "Terracotta Army",
+  "jsonPath": "pep-english/lessons/pephr1/011.json",
+  "text": "Come and see the Terracotta Army: more than 8,000 statues were made in the third century BCE to guard the tomb of the Chinese Emperor Qinshihuang! Each statue has a different face, leading researchers to believe that each one is a copy of a real soldier. The statues fill only one part of the emperor's huge tomb, which still has not been completely unearthed. More than 700,000 people worked for nearly 40 years to build this tomb. However, no one in modern times knew about the tomb or the terracotta statues until 1974, when some farmers discovered the tomb while they were digging a well!",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Come and see the Terracotta Army: more than 8,000 statues were made in the third century BCE to guard the tomb of the Chinese Emperor Qinshihuang! Each statue has a different face, leading researchers to believe that each one is a copy of a real soldier. The statues fill only one part of the emperor's huge tomb, which still has not been completely unearthed. More than 700,000 people worked for nearly 40 years to build this tomb. However, no one in modern times knew about the tomb or the terracotta statues until 1974, when some farmers discovered the tomb while they were digging a well!"
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "必修第一册",
+    "pageStart": 37,
+    "pageEnd": 37,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "e0bf18138b24d7def28b35994a13946b",
+    "pdfSize": 14704146,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/senior-required-1.pdf#page=37",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored the complete Terracotta Army brochure as its own lesson; excluded the page-level activity instruction and kept it separate from Richard's email.",
+      "splitBaselineId": "pephr1-011",
+      "splitIndex": 2,
+      "splitCount": 2
+    }
+  }
+}

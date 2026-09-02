@@ -1,0 +1,232 @@
+{
+  "schemaVersion": 1,
+  "id": "nce1-101",
+  "bookId": "nce1",
+  "bookNo": 1,
+  "lessonNo": 101,
+  "lessonRange": [
+    101,
+    102
+  ],
+  "title": "A Card From Jimmy",
+  "titleZh": "一张来自吉米的卡片",
+  "question": "Does grandmother seem pleased to get a card from Jimmy? Why/Why not?",
+  "questionZh": "奶奶收到吉米送的卡片时，看起来很高兴吗？为什么呢？",
+  "text": "Does grandmother seem pleased to get a card from Jimmy? Why/Why not?\n\nRead Jimmy's card to me please, Penny.\n'I have just arrived in Scotland and I'm staying at a Youth Hostel.'\nEh?\nHe says he's just arrived in Scotland.\nHe says he's staying at a Youth Hostel.\nYou know he's a member of the Y.H.A.\nThe what?\nThe Y.H.A., Mum.\nThe Youth Hostels Association.\nWhat else does he say?\n'I'll write a letter soon.\nI hope you are all well.'\nWhat? Speak up, Penny.\nI'm afraid I can't hear you.\nHe says he'll write a letter soon.\nHe hopes we are all well.\n'Love, Jimmy.'\nIs that all?\nHe doesn't say very much, does he?\nHe can't write very much on a card, Mum.",
+  "bodyText": "Read Jimmy's card to me please, Penny.\n'I have just arrived in Scotland and I'm staying at a Youth Hostel.'\nEh?\nHe says he's just arrived in Scotland.\nHe says he's staying at a Youth Hostel.\nYou know he's a member of the Y.H.A.\nThe what?\nThe Y.H.A., Mum.\nThe Youth Hostels Association.\nWhat else does he say?\n'I'll write a letter soon.\nI hope you are all well.'\nWhat? Speak up, Penny.\nI'm afraid I can't hear you.\nHe says he'll write a letter soon.\nHe hopes we are all well.\n'Love, Jimmy.'\nIs that all?\nHe doesn't say very much, does he?\nHe can't write very much on a card, Mum.",
+  "bodyTextZh": "请把吉米的卡片内容读给我听，佩妮。\n我刚到苏格兰，现在住在一家青年旅舍里。\n啊？\n他说他刚刚抵达苏格兰。\n他说他现在住在一家青年旅舍里。\n你知道他是 Y.H.A. 的成员。\n什么协会？\n是Y.H.A.，妈妈。\n青年旅舍协会。\n他还说了什么？\n我很快就会写一封信。\n我希望你们大家都一切都好。\n什么？大声点，佩妮。\n恐怕我听不清你的话。\n他说他很快就会写一封信。\n他希望我们都很好。\n“爱你的，吉米。”\n就这些吗？\n他说话不多，对吧？\n妈妈，他在卡片上写不了太多内容。",
+  "sentences": [
+    {
+      "index": 0,
+      "startTime": 0.81,
+      "endTime": 4.29,
+      "en": "Lesson 101",
+      "zh": "第101课",
+      "role": "lesson"
+    },
+    {
+      "index": 1,
+      "startTime": 4.29,
+      "endTime": 7.43,
+      "en": "A card from Jimmy",
+      "zh": "一张来自吉米的卡片",
+      "role": "title"
+    },
+    {
+      "index": 2,
+      "startTime": 7.43,
+      "endTime": 12.94,
+      "en": "Listen to the tape then answer this question.",
+      "zh": "先听这段录音，然后再回答这个问题。",
+      "role": "prompt"
+    },
+    {
+      "index": 3,
+      "startTime": 12.94,
+      "endTime": 23.61,
+      "en": "Does grandmother seem pleased to get a card from Jimmy? Why/Why not?",
+      "zh": "奶奶收到吉米送的卡片时，看起来很高兴吗？为什么呢？",
+      "role": "question"
+    },
+    {
+      "index": 4,
+      "startTime": 23.61,
+      "endTime": 28.94,
+      "en": "Read Jimmy's card to me please, Penny.",
+      "zh": "请把吉米的卡片内容读给我听，佩妮。",
+      "role": "body"
+    },
+    {
+      "index": 5,
+      "startTime": 28.94,
+      "endTime": 37.16,
+      "en": "'I have just arrived in Scotland and I'm staying at a Youth Hostel.'",
+      "zh": "我刚到苏格兰，现在住在一家青年旅舍里。",
+      "role": "body"
+    },
+    {
+      "index": 6,
+      "startTime": 37.16,
+      "endTime": 38.97,
+      "en": "Eh?",
+      "zh": "啊？",
+      "role": "body"
+    },
+    {
+      "index": 7,
+      "startTime": 38.97,
+      "endTime": 44.04,
+      "en": "He says he's just arrived in Scotland.",
+      "zh": "他说他刚刚抵达苏格兰。",
+      "role": "body"
+    },
+    {
+      "index": 8,
+      "startTime": 44.04,
+      "endTime": 49.41,
+      "en": "He says he's staying at a Youth Hostel.",
+      "zh": "他说他现在住在一家青年旅舍里。",
+      "role": "body"
+    },
+    {
+      "index": 9,
+      "startTime": 49.41,
+      "endTime": 56.34,
+      "en": "You know he's a member of the Y.H.A.",
+      "zh": "你知道他是 Y.H.A. 的成员。",
+      "role": "body"
+    },
+    {
+      "index": 10,
+      "startTime": 56.34,
+      "endTime": 58.18,
+      "en": "The what?",
+      "zh": "什么协会？",
+      "role": "body"
+    },
+    {
+      "index": 11,
+      "startTime": 58.18,
+      "endTime": 61.31,
+      "en": "The Y.H.A., Mum.",
+      "zh": "是Y.H.A.，妈妈。",
+      "role": "body"
+    },
+    {
+      "index": 12,
+      "startTime": 61.31,
+      "endTime": 65.82,
+      "en": "The Youth Hostels Association.",
+      "zh": "青年旅舍协会。",
+      "role": "body"
+    },
+    {
+      "index": 13,
+      "startTime": 65.82,
+      "endTime": 69.36,
+      "en": "What else does he say?",
+      "zh": "他还说了什么？",
+      "role": "body"
+    },
+    {
+      "index": 14,
+      "startTime": 69.36,
+      "endTime": 72.45,
+      "en": "'I'll write a letter soon.",
+      "zh": "我很快就会写一封信。",
+      "role": "body"
+    },
+    {
+      "index": 15,
+      "startTime": 72.45,
+      "endTime": 76.64,
+      "en": "I hope you are all well.'",
+      "zh": "我希望你们大家都一切都好。",
+      "role": "body"
+    },
+    {
+      "index": 16,
+      "startTime": 76.64,
+      "endTime": 80.3,
+      "en": "What? Speak up, Penny.",
+      "zh": "什么？大声点，佩妮。",
+      "role": "body"
+    },
+    {
+      "index": 17,
+      "startTime": 80.3,
+      "endTime": 84.2,
+      "en": "I'm afraid I can't hear you.",
+      "zh": "恐怕我听不清你的话。",
+      "role": "body"
+    },
+    {
+      "index": 18,
+      "startTime": 84.2,
+      "endTime": 88.45,
+      "en": "He says he'll write a letter soon.",
+      "zh": "他说他很快就会写一封信。",
+      "role": "body"
+    },
+    {
+      "index": 19,
+      "startTime": 88.45,
+      "endTime": 92.6,
+      "en": "He hopes we are all well.",
+      "zh": "他希望我们都很好。",
+      "role": "body"
+    },
+    {
+      "index": 20,
+      "startTime": 92.6,
+      "endTime": 95.71,
+      "en": "'Love, Jimmy.'",
+      "zh": "“爱你的，吉米。”",
+      "role": "body"
+    },
+    {
+      "index": 21,
+      "startTime": 95.71,
+      "endTime": 97.91,
+      "en": "Is that all?",
+      "zh": "就这些吗？",
+      "role": "body"
+    },
+    {
+      "index": 22,
+      "startTime": 97.91,
+      "endTime": 102.43,
+      "en": "He doesn't say very much, does he?",
+      "zh": "他说话不多，对吧？",
+      "role": "body"
+    },
+    {
+      "index": 23,
+      "startTime": 102.43,
+      "endTime": null,
+      "en": "He can't write very much on a card, Mum.",
+      "zh": "妈妈，他在卡片上写不了太多内容。",
+      "role": "body"
+    }
+  ],
+  "audio": {
+    "fileName": "101&102－A Card From Jimmy.mp3",
+    "sourcePath": "content/NCE-Flow/NCE1/101&102－A Card From Jimmy.mp3",
+    "exists": true
+  },
+  "source": {
+    "repository": "NCE-Flow",
+    "lrcFileName": "101&102－A Card From Jimmy.lrc",
+    "lrcPath": "content/NCE-Flow/NCE1/101&102－A Card From Jimmy.lrc",
+    "sourceDataFile": "content/NCE-Flow/static/data.json",
+    "generatedAt": "2026-07-23T02:59:02+00:00",
+    "generator": "scripts/generate_nce_json.py",
+    "generatorVersion": "2.0.0",
+    "metadata": {
+      "al": "新概念英语（一）",
+      "ar": "MP3 同步字幕版（美音）",
+      "ti": "A Card From Jimmy",
+      "by": "更多学习内容，请到VeryCD.com搜索“露珠”"
+    }
+  }
+}

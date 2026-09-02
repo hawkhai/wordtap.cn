@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "pephr3-030",
+  "groupId": "pephr3",
+  "unitNo": 5,
+  "sequenceNo": 30,
+  "section": "Reading and Writing",
+  "title": "The Million Pound Bank Note — Act 2, Scene 3",
+  "jsonPath": "pep-english/lessons/pephr3/030.json",
+  "text": "Narrator: Henry and Portia fell in love. Henry also met an old family friend who had money troubles. His friend used Henry’s name to get people to invest in his gold mine. This made Henry rich. A month has passed. Knowing the two brothers were back, Henry dressed himself in the finest clothes and went to see them with Portia.\n(At the brothers’ home, the servant lets them in. The two brothers are seated, waiting.)\nHenry: Good morning, gentlemen. (Roderick seems very surprised to see Portia.) Portia, these are the men who helped me.\nPortia: So very nice to meet you, kind sirs. (She gives Oliver a wink.)\nHenry: Gentlemen, I’m ready to report.\nRoderick: Er... Portia, I...\nOliver: Now we can decide the result of the bet which Roderick and I made. If you’ve won for me, you shall have any job as my gift. Have you got the million-pound bank note?\nHenry: Here it is, sir.\nOliver: I’ve won! Now what do you say, Roderick?\nRoderick: I say that I’ve lost twenty thousand pounds. Why, that is amazing, man!\nHenry: Come, let’s be going now, Portia.\nOliver: But wait, wait! The job, you know. I ought to give you a job, as I promised.\nHenry: Well, thank you very much, but I really don’t want one now.\nPortia: Henry, I’m disappointed in you. You didn’t thank the gentlemen properly. May I do it for you?\nHenry: Let me see you try.\n(Portia walks over to Roderick and gives him a hug. Then she sits in Oliver’s lap, puts her arms around his neck and kisses him on the cheek. Oliver begins laughing.)\nPortia: Papa, he says he doesn’t want anything else from you.\nHenry: (surprised) My dear, is that your papa?!\nPortia: He’s my stepfather.\nHenry: Oh, my dearest dear sir, I apologise for what I said. You have got a job opening that I want.\nOliver: Name it.\nHenry: Son-in-law.\nOliver: Well, well, well! But you’ve never had such a job before. How can I be sure you can do it successfully?\nHenry: Try me... oh, do, I beg of you!\nOliver: Oh, well, all right.\nNarrator: Were Portia and Henry happy? Words alone were not enough to describe it. Eventually, Portia’s stepfather took that bank note back to the Bank of England and cashed it. The bank note was then useless for money but was his wedding gift to the young couple. Yes, the bank note was worth a million pounds, but it was not worth even one tenth of what Henry felt for Portia.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Narrator: Henry and Portia fell in love. Henry also met an old family friend who had money troubles. His friend used Henry’s name to get people to invest in his gold mine. This made Henry rich. A month has passed. Knowing the two brothers were back, Henry dressed himself in the finest clothes and went to see them with Portia.\n(At the brothers’ home, the servant lets them in. The two brothers are seated, waiting.)\nHenry: Good morning, gentlemen. (Roderick seems very surprised to see Portia.) Portia, these are the men who helped me.\nPortia: So very nice to meet you, kind sirs. (She gives Oliver a wink.)\nHenry: Gentlemen, I’m ready to report.\nRoderick: Er... Portia, I...\nOliver: Now we can decide the result of the bet which Roderick and I made. If you’ve won for me, you shall have any job as my gift. Have you got the million-pound bank note?\nHenry: Here it is, sir.\nOliver: I’ve won! Now what do you say, Roderick?\nRoderick: I say that I’ve lost twenty thousand pounds. Why, that is amazing, man!\nHenry: Come, let’s be going now, Portia.\nOliver: But wait, wait! The job, you know. I ought to give you a job, as I promised.\nHenry: Well, thank you very much, but I really don’t want one now.\nPortia: Henry, I’m disappointed in you. You didn’t thank the gentlemen properly. May I do it for you?\nHenry: Let me see you try.\n(Portia walks over to Roderick and gives him a hug. Then she sits in Oliver’s lap, puts her arms around his neck and kisses him on the cheek. Oliver begins laughing.)\nPortia: Papa, he says he doesn’t want anything else from you.\nHenry: (surprised) My dear, is that your papa?!\nPortia: He’s my stepfather.\nHenry: Oh, my dearest dear sir, I apologise for what I said. You have got a job opening that I want.\nOliver: Name it.\nHenry: Son-in-law.\nOliver: Well, well, well! But you’ve never had such a job before. How can I be sure you can do it successfully?\nHenry: Try me... oh, do, I beg of you!\nOliver: Oh, well, all right.\nNarrator: Were Portia and Henry happy? Words alone were not enough to describe it. Eventually, Portia’s stepfather took that bank note back to the Bank of England and cashed it. The bank note was then useless for money but was his wedding gift to the young couple. Yes, the bank note was worth a million pounds, but it was not worth even one tenth of what Henry felt for Portia."
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "必修第三册",
+    "pageStart": 95,
+    "pageEnd": 95,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "31e51a16693d03177a5825f53f612a87",
+    "pdfSize": 14202806,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/senior-required-3.pdf#page=95",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored the complete Act 2, Scene 3 in visual two-column order, expanding the printed speaker key to names and retaining every narrator line, turn, stage direction and intentional ellipsis; excluded the summary choices, instruction and film still."
+    }
+  }
+}

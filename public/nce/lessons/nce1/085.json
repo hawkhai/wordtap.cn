@@ -1,0 +1,216 @@
+{
+  "schemaVersion": 1,
+  "id": "nce1-085",
+  "bookId": "nce1",
+  "bookNo": 1,
+  "lessonNo": 85,
+  "lessonRange": [
+    85,
+    86
+  ],
+  "title": "Paris in the Spring.",
+  "titleZh": "《春天的巴黎》。",
+  "question": "At what time of year did Ken visit Paris?",
+  "questionZh": "肯是在一年中的什么时候去巴黎的？",
+  "text": "At what time of year did Ken visit Paris?\n\nHello, Ken.\nHi, George.\nHave you just been to the cinema?\nYes, I have.\nWhat's on?\n'Paris in the Spring'.\nOh, I've already seen it.\nI saw it on television last year.\nIt's an old film, but it's very good.\nParis is a beautiful city.\nI've never been there.\nHave you ever been there, Ken?\nYes, I have.\nI was there in April.\nParis in the spring, eh?\nIt was spring, but the weather was awful.\nIt rained all the time.\nJust like London!",
+  "bodyText": "Hello, Ken.\nHi, George.\nHave you just been to the cinema?\nYes, I have.\nWhat's on?\n'Paris in the Spring'.\nOh, I've already seen it.\nI saw it on television last year.\nIt's an old film, but it's very good.\nParis is a beautiful city.\nI've never been there.\nHave you ever been there, Ken?\nYes, I have.\nI was there in April.\nParis in the spring, eh?\nIt was spring, but the weather was awful.\nIt rained all the time.\nJust like London!",
+  "bodyTextZh": "你好，肯。\n嗨，乔治。\n你刚从电影院出来吗？\n是的，我刚去过。\n在演什么？\n《春天的巴黎》。\n哦，我已经看过了。\n我去年在电视上看到过它。\n这是一部老电影，不过非常精彩。\n巴黎是一座美丽的城市。\n我从未去过那里。\n你曾经去过那里吗，肯？\n是的，我去过。\n我四月份去过那里。\n春天的巴黎，对吧？\n虽然是春天，但天气却糟透了。\n雨一直下个不停。\n就像伦敦一样！",
+  "sentences": [
+    {
+      "index": 0,
+      "startTime": 0.54,
+      "endTime": 2.94,
+      "en": "Lesson 85",
+      "zh": "第85课",
+      "role": "lesson"
+    },
+    {
+      "index": 1,
+      "startTime": 2.94,
+      "endTime": 6.34,
+      "en": "'Paris in the Spring'.",
+      "zh": "《春天的巴黎》。",
+      "role": "title"
+    },
+    {
+      "index": 2,
+      "startTime": 6.34,
+      "endTime": 11.75,
+      "en": "Listen to the tape then answer this question.",
+      "zh": "先听这段录音，然后再回答这个问题。",
+      "role": "prompt"
+    },
+    {
+      "index": 3,
+      "startTime": 11.75,
+      "endTime": 18.63,
+      "en": "At what time of year did Ken visit Paris?",
+      "zh": "肯是在一年中的什么时候去巴黎的？",
+      "role": "question"
+    },
+    {
+      "index": 4,
+      "startTime": 18.63,
+      "endTime": 20.18,
+      "en": "Hello, Ken.",
+      "zh": "你好，肯。",
+      "role": "body"
+    },
+    {
+      "index": 5,
+      "startTime": 20.18,
+      "endTime": 22.2,
+      "en": "Hi, George.",
+      "zh": "嗨，乔治。",
+      "role": "body"
+    },
+    {
+      "index": 6,
+      "startTime": 22.2,
+      "endTime": 25.21,
+      "en": "Have you just been to the cinema?",
+      "zh": "你刚从电影院出来吗？",
+      "role": "body"
+    },
+    {
+      "index": 7,
+      "startTime": 25.21,
+      "endTime": 27.51,
+      "en": "Yes, I have.",
+      "zh": "是的，我刚去过。",
+      "role": "body"
+    },
+    {
+      "index": 8,
+      "startTime": 27.51,
+      "endTime": 29.14,
+      "en": "What's on?",
+      "zh": "在演什么？",
+      "role": "body"
+    },
+    {
+      "index": 9,
+      "startTime": 29.14,
+      "endTime": 31.66,
+      "en": "'Paris in the Spring'.",
+      "zh": "《春天的巴黎》。",
+      "role": "body"
+    },
+    {
+      "index": 10,
+      "startTime": 31.66,
+      "endTime": 34.87,
+      "en": "Oh, I've already seen it.",
+      "zh": "哦，我已经看过了。",
+      "role": "body"
+    },
+    {
+      "index": 11,
+      "startTime": 34.87,
+      "endTime": 38.84,
+      "en": "I saw it on television last year.",
+      "zh": "我去年在电视上看到过它。",
+      "role": "body"
+    },
+    {
+      "index": 12,
+      "startTime": 38.84,
+      "endTime": 43.43,
+      "en": "It's an old film, but it's very good.",
+      "zh": "这是一部老电影，不过非常精彩。",
+      "role": "body"
+    },
+    {
+      "index": 13,
+      "startTime": 43.43,
+      "endTime": 46.81,
+      "en": "Paris is a beautiful city.",
+      "zh": "巴黎是一座美丽的城市。",
+      "role": "body"
+    },
+    {
+      "index": 14,
+      "startTime": 46.81,
+      "endTime": 48.97,
+      "en": "I've never been there.",
+      "zh": "我从未去过那里。",
+      "role": "body"
+    },
+    {
+      "index": 15,
+      "startTime": 48.97,
+      "endTime": 52,
+      "en": "Have you ever been there, Ken?",
+      "zh": "你曾经去过那里吗，肯？",
+      "role": "body"
+    },
+    {
+      "index": 16,
+      "startTime": 52,
+      "endTime": 53.95,
+      "en": "Yes, I have.",
+      "zh": "是的，我去过。",
+      "role": "body"
+    },
+    {
+      "index": 17,
+      "startTime": 53.95,
+      "endTime": 57.35,
+      "en": "I was there in April.",
+      "zh": "我四月份去过那里。",
+      "role": "body"
+    },
+    {
+      "index": 18,
+      "startTime": 57.35,
+      "endTime": 60.46,
+      "en": "Paris in the spring, eh?",
+      "zh": "春天的巴黎，对吧？",
+      "role": "body"
+    },
+    {
+      "index": 19,
+      "startTime": 60.46,
+      "endTime": 64.68,
+      "en": "It was spring, but the weather was awful.",
+      "zh": "虽然是春天，但天气却糟透了。",
+      "role": "body"
+    },
+    {
+      "index": 20,
+      "startTime": 64.68,
+      "endTime": 67.89,
+      "en": "It rained all the time.",
+      "zh": "雨一直下个不停。",
+      "role": "body"
+    },
+    {
+      "index": 21,
+      "startTime": 67.89,
+      "endTime": null,
+      "en": "Just like London!",
+      "zh": "就像伦敦一样！",
+      "role": "body"
+    }
+  ],
+  "audio": {
+    "fileName": "085&086－Paris in the Spring..mp3",
+    "sourcePath": "content/NCE-Flow/NCE1/085&086－Paris in the Spring..mp3",
+    "exists": true
+  },
+  "source": {
+    "repository": "NCE-Flow",
+    "lrcFileName": "085&086－Paris in the Spring..lrc",
+    "lrcPath": "content/NCE-Flow/NCE1/085&086－Paris in the Spring..lrc",
+    "sourceDataFile": "content/NCE-Flow/static/data.json",
+    "generatedAt": "2026-07-23T02:59:02+00:00",
+    "generator": "scripts/generate_nce_json.py",
+    "generatorVersion": "2.0.0",
+    "metadata": {
+      "al": "新概念英语（一）",
+      "ar": "MP3 同步字幕版（美音）",
+      "ti": "\"Paris in the Spring.\"",
+      "by": "更多学习内容，请到VeryCD.com搜索“露珠”"
+    }
+  }
+}

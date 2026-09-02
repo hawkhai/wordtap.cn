@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "pephr3-029",
+  "groupId": "pephr3",
+  "unitNo": 4,
+  "sequenceNo": 29,
+  "section": "Expanding Your World",
+  "title": "What Is a Quantum Satellite?",
+  "jsonPath": "pep-english/lessons/pephr3/029.json",
+  "text": "On 16 August 2016, China became the first country in the world to launch a quantum communications satellite into space. A quantum satellite is different from other satellites because it links together very small things, called subatomic particles, and uses them to send and receive information. Unlike other information, this information is completely safe from people who may want to steal it. If anyone tries, the link between the subatomic particles changes and the information becomes unreadable.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "On 16 August 2016, China became the first country in the world to launch a quantum communications satellite into space. A quantum satellite is different from other satellites because it links together very small things, called subatomic particles, and uses them to send and receive information. Unlike other information, this information is completely safe from people who may want to steal it. If anyone tries, the link between the subatomic particles changes and the information becomes unreadable."
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "必修第三册",
+    "pageStart": 91,
+    "pageEnd": 91,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "31e51a16693d03177a5825f53f612a87",
+    "pdfSize": 14202806,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/senior-required-3.pdf#page=91",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored the complete fourth standalone explainer under its own heading.",
+      "splitBaselineId": "pephr3-038",
+      "splitIndex": 4,
+      "splitCount": 4
+    }
+  }
+}

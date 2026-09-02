@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "pephr1-002",
+  "groupId": "pephr1",
+  "unitNo": 1,
+  "sequenceNo": 2,
+  "section": "Discovering Useful Structures",
+  "title": "Tim Studies on a Ship",
+  "jsonPath": "pep-english/lessons/pephr1/002.json",
+  "text": "How would you like to go to school and travel the world at the same time? For Tim, that dream has come true! This term, Tim and his classmates are living on a ship! They take the same subjects as you do, like maths and English. They also learn about ships and the sea. Tim writes his parents an email every week and tells them what happened on the ship. Tim loves living on the ship. There's always something exciting to do. And, after a long day of study, he likes to watch the sun go down and wait for the stars to come out. Studying and doing homework seem much more fun when you are at sea!",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "How would you like to go to school and travel the world at the same time? For Tim, that dream has come true! This term, Tim and his classmates are living on a ship! They take the same subjects as you do, like maths and English. They also learn about ships and the sea. Tim writes his parents an email every week and tells them what happened on the ship. Tim loves living on the ship. There's always something exciting to do. And, after a long day of study, he likes to watch the sun go down and wait for the stars to come out. Studying and doing homework seem much more fun when you are at sea!"
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "必修第一册",
+    "pageStart": 13,
+    "pageEnd": 13,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "e0bf18138b24d7def28b35994a13946b",
+    "pdfSize": 14704146,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/senior-required-1.pdf#page=13",
+      "reviewedAt": "2026-07-22",
+      "notes": "Kept the complete exercise 3 passage about Tim studying aboard a ship; removed the sentence-structure reference table and isolated analysis sentences, and corrected the section metadata."
+    }
+  }
+}

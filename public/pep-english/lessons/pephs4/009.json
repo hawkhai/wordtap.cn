@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "id": "pephs4-009",
+  "groupId": "pephs4",
+  "unitNo": 3,
+  "sequenceNo": 9,
+  "section": "Project",
+  "title": "World Oceans Day",
+  "jsonPath": "pep-english/lessons/pephs4/009.json",
+  "text": "World Oceans Day takes place on 8 June every year. It is now celebrated in over 100 countries with hundreds of special events broadcast across the globe. The day is marked in a variety of ways, including the launching of new campaigns and initiatives, and holding special events, all working to advance ocean conservation and education.\nYoung people are an important part of the project. World Oceans Day provides them with a platform where they can express their concerns and share their ideas.\nEach year, World Oceans Day has a theme for the campaigns and events on that day. For example, in 2016 and 2017 the themes were “Healthy oceans, healthy planet” and “Our oceans, our future”, respectively.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "World Oceans Day takes place on 8 June every year. It is now celebrated in over 100 countries with hundreds of special events broadcast across the globe. The day is marked in a variety of ways, including the launching of new campaigns and initiatives, and holding special events, all working to advance ocean conservation and education."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Young people are an important part of the project. World Oceans Day provides them with a platform where they can express their concerns and share their ideas."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Each year, World Oceans Day has a theme for the campaigns and events on that day. For example, in 2016 and 2017 the themes were “Healthy oceans, healthy planet” and “Our oceans, our future”, respectively."
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "选择性必修第四册",
+    "pageStart": 42,
+    "pageEnd": 42,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "6fc94127b322f6f5abff068bef6faa2e",
+    "pdfSize": 12330614,
+    "manualReview": {
+      "method": "visual-page-review-and-adjacent-page-recovery",
+      "source": "content/pep-english/raw/senior-selective-4.pdf#page=41-42",
+      "reviewedAt": "2026-07-22",
+      "notes": "Rejected the page-41 assessment cloze without filling its blanks, then recovered the independent complete World Oceans Day text on adjacent page 42. Pages 40 and 43 confirm the boundaries."
+    }
+  }
+}

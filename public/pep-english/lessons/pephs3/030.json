@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "id": "pephs3-030",
+  "groupId": "pephs3",
+  "unitNo": 5,
+  "sequenceNo": 30,
+  "section": "Reading and Writing",
+  "title": "Exploring Poetry in China",
+  "jsonPath": "pep-english/lessons/pephs3/030.json",
+  "text": "Poetry plays with sounds, words, and grammar. That makes poetry difficult to write but very interesting to read. Poetry uses colours, feelings, experiences, and images to paint a picture in your mind.\nIn Chinese classical poetry, the form is very important: the correct number of lines and the number of characters in each line. Poetry often follows special patterns of rhythm and rhyme. However, modern poets began to reject traditional forms and structures for poetry in the 20th century. As a result, most poetry today is written in free verse, with lines of varying length.\nDuring the Tang Dynasty, a high point of classical Chinese poetry, poems by Li Bai, Du Fu, and Wang Wei became very popular. Widely known as a genius and often called the “Immortal Poet”, Li Bai (701–762) wrote with a romantic style and his poems celebrated things such as friendship, nature, and wine. Du Fu (712–770) is also known as one of the greatest Chinese poets. He has been called the “Poet-Historian” and the “Poet-Sage” by Chinese critics, and his poems cover a range of topics, with his most famous poems reflecting on the effects of war on the people. Wang Wei (701–761) was a painter, musician, and poet, and he was well known for his love of nature in his paintings and poetry.\nOutside of Asia, the study of Chinese language introduced the West to Chinese poetry. Americans were first introduced to classical Chinese poetry by American poet Ezra Pound (1885–1973). He translated 18 classical Chinese poems, mainly by Li Bai, into English, based on the notes of the American art historian Ernest Fenollosa (1853–1908). At about the same time, Chinese writers started reading more foreign poetry. From around 1910 onwards, European literature came to China when some famous writers began to translate both poetry and novels into Chinese.\nJust like readers in the West, Chinese readers admire Shakespeare, John Milton, Alexander Pope and many others for their fine English poetry. English Romantic poets are greatly loved in China. The nature poems by William Wordsworth, Ode to the West Wind by Percy Bysshe Shelley, George Gordon Byron’s Isles of Greece, and long poems by John Keats have long been favourites. The style and the atmosphere in their poems have often led to comparisons with poets such as Du Fu and Li Bai. Among modern poetry, the American poet Robert Frost and his poems might be the best known.\nToday, many Chinese people are becoming more interested in reading poems, no matter in what language they are written. Translations can be good, but being able to read in the original language is best. No matter how well a poem is translated, something of the spirit of the original work is lost. Besides, poems and literature can be bridges between East and West. They can help us to understand each other better, or as the poet Mu Dan wrote:\nQuietly, we embrace In a world lit up by words.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Poetry plays with sounds, words, and grammar. That makes poetry difficult to write but very interesting to read. Poetry uses colours, feelings, experiences, and images to paint a picture in your mind."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "In Chinese classical poetry, the form is very important: the correct number of lines and the number of characters in each line. Poetry often follows special patterns of rhythm and rhyme. However, modern poets began to reject traditional forms and structures for poetry in the 20th century. As a result, most poetry today is written in free verse, with lines of varying length."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "During the Tang Dynasty, a high point of classical Chinese poetry, poems by Li Bai, Du Fu, and Wang Wei became very popular. Widely known as a genius and often called the “Immortal Poet”, Li Bai (701–762) wrote with a romantic style and his poems celebrated things such as friendship, nature, and wine. Du Fu (712–770) is also known as one of the greatest Chinese poets. He has been called the “Poet-Historian” and the “Poet-Sage” by Chinese critics, and his poems cover a range of topics, with his most famous poems reflecting on the effects of war on the people. Wang Wei (701–761) was a painter, musician, and poet, and he was well known for his love of nature in his paintings and poetry."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Outside of Asia, the study of Chinese language introduced the West to Chinese poetry. Americans were first introduced to classical Chinese poetry by American poet Ezra Pound (1885–1973). He translated 18 classical Chinese poems, mainly by Li Bai, into English, based on the notes of the American art historian Ernest Fenollosa (1853–1908). At about the same time, Chinese writers started reading more foreign poetry. From around 1910 onwards, European literature came to China when some famous writers began to translate both poetry and novels into Chinese."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Just like readers in the West, Chinese readers admire Shakespeare, John Milton, Alexander Pope and many others for their fine English poetry. English Romantic poets are greatly loved in China. The nature poems by William Wordsworth, Ode to the West Wind by Percy Bysshe Shelley, George Gordon Byron’s Isles of Greece, and long poems by John Keats have long been favourites. The style and the atmosphere in their poems have often led to comparisons with poets such as Du Fu and Li Bai. Among modern poetry, the American poet Robert Frost and his poems might be the best known."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Today, many Chinese people are becoming more interested in reading poems, no matter in what language they are written. Translations can be good, but being able to read in the original language is best. No matter how well a poem is translated, something of the spirit of the original work is lost. Besides, poems and literature can be bridges between East and West. They can help us to understand each other better, or as the poet Mu Dan wrote:\nQuietly, we embrace In a world lit up by words."
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "选择性必修第三册",
+    "pageStart": 99,
+    "pageEnd": 100,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "f0dc33129a755a33421d401b71a05cd1",
+    "pdfSize": 12684455,
+    "manualReview": {
+      "method": "visual-line-by-line-and-cross-page-order",
+      "source": "content/pep-english/raw/senior-selective-3.pdf#page=99-100",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored the complete six-paragraph article and its closing two-line Mu Dan quotation across pages 99-100; excluded questions, illustration, follow-up tasks and furniture.",
+      "splitBaselineId": "pephs3-041",
+      "splitIndex": 1,
+      "splitCount": 4
+    }
+  }
+}

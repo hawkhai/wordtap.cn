@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "pephs3-014",
+  "groupId": "pephs3",
+  "unitNo": 5,
+  "sequenceNo": 14,
+  "section": "Using Language",
+  "title": "Wind on the Hill (A. A. Milne)",
+  "jsonPath": "pep-english/lessons/pephs3/014.json",
+  "text": "No one can tell me, Nobody knows, Where the wind comes from, Where the wind goes.\nIt’s flying from somewhere As fast as it can, I couldn’t keep up with it, Not if I ran.\nBut if I stopped holding The string of my kite, It would blow with the wind For a day and a night.\nAnd then when I found it, Wherever it blew, I should know that the wind Had been going there too.\nSo then I could tell them Where the wind goes...\nBut where the wind comes from Nobody knows.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "No one can tell me, Nobody knows, Where the wind comes from, Where the wind goes.\nIt’s flying from somewhere As fast as it can, I couldn’t keep up with it, Not if I ran.\nBut if I stopped holding The string of my kite, It would blow with the wind For a day and a night.\nAnd then when I found it, Wherever it blew, I should know that the wind Had been going there too.\nSo then I could tell them Where the wind goes...\nBut where the wind comes from Nobody knows."
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "选择性必修第三册",
+    "pageStart": 63,
+    "pageEnd": 63,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "f0dc33129a755a33421d401b71a05cd1",
+    "pdfSize": 12684455,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/senior-selective-3.pdf#page=63",
+      "reviewedAt": "2026-07-22",
+      "notes": "Preserved all five stanzas and the printed spaced ellipsis; moved the author attribution to title metadata and excluded writing instructions.",
+      "splitBaselineId": "pephs3-025",
+      "splitIndex": 3,
+      "splitCount": 5
+    }
+  }
+}

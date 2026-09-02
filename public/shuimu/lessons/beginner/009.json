@@ -1,0 +1,420 @@
+{
+  "schemaVersion": 1,
+  "id": "beginner-009",
+  "levelId": "beginner",
+  "unitNo": 9,
+  "title": "【对话场景】描述物体的特征",
+  "jsonPath": "shuimu/lessons/beginner/009.json",
+  "text": "第九单元\n第一课\n【对话场景】描述物体的特征\n——Give me a book please, Jane.\n简，请拿本书给我。\n——Which book?\n哪本书？\nThis one?\n这本吗？\n——No, not that one. The red one.\n不，不是那本，是红色的那本。\n——This one?\n这本吗？\n——Yes, please.\n是的，请拿给我。\n——Here you are.\n给你。\n——Thank you.\n谢谢！\n——Give me some glasses please, Jane.\n简，请给我几只玻璃杯。\n——Which glasses?\n哪几只？\nThese glasses?\n这几只吗？\n——No, not those. The ones on the shelf.\n不，不是那几只。是架子上的那几只。\n——These?\n这几只？\n——Yes, please.\n是的，请拿给我。\n——Here you are.\n给你。\n——Thanks.\n谢谢！\n• give sb. sth.的用法\n◦ 把某物给某人\n◦ give 是及物动词，后面可以直接加宾语\n◦ 双宾语结构：sth.是直接宾语，sb.是间接宾语\n◦ 同义替换：give sth. to sb.\n▪ Please give the book to me.请把那本书给我。\n◦ 其他可以接双宾语的动词\n▪ ask, bring, buy, cost, fetch, hand, lend, pass, pay 等\n• which 的用法\n◦ 疑问代词意为“哪一个”\n◦ 在句中作定语，用来对人、事或物提问\n◦ 可以指物也可以指人的疑问代词\n◦ 后面可以加名词的单数形式也可以加名词的复数形式\n◦ 回答：具体的描述/从给定的范围选择\n▪ Which book do you prefer?你更喜欢哪本书？\n▪ The green one.绿色的那本。\n• one 和 ones 的用法\n◦ 都是代词，用于替代上文出现过的人或物\n◦ one 只能替代单数名词，ones 替代复数名词\n◦ 前面加定冠词 the，变成特定的指代；或加上修饰词，明确指代物的特征\n▪ the red one 红色的那只\n▪ I've lost my pen. I want to buy a new one.我的钢笔丢了，我想买一支\n新的。\n◦ one 和 ones 前面都不能加形容词性物主代词\n▪ my one 和 my ones 的说法是错误的\n第二课\n【语法点拨】频频出没的定冠词\n定冠词放在名词前面，主要用来特指某些人或某些事物。the 在以元音音素开头的单\n词前读作[ði]，在以辅音音素开头的单词前读作[ðə]。\n• the 用于特指某些人或某些事物\n◦ This is the watch I like.这就是我喜欢的那块手表。\n• the 用于表示双方都知道的人或事物\n◦ There is a park near the school.学校附近有一个公园。\n• the 用于表示前面提到过的人或事物\n◦ I bought a watch.The watch is very beautiful.我买了一只手表，这只手表\n非常漂亮。\n• the+姓氏的复数形式表示一家人或夫妇二人\n◦ the Smiths 史密斯一家人/夫妇\n◦ the Zhangs 张氏一家人/夫妇\n• the+形容词表示某一类人\n◦ the poor 穷人\n◦ the rich 富人\n• the 用于序数词前面\n◦ 序数词前要加定冠词 the\n▪ the first 第一个\n▪ the second 第二个\n第三课\n【单词串烧】\n• give [giv] v. 给\n• one [wʌn] pron. 一个\n• which [witʃ] 哪一个\n• empty ['empti] a.空的\n• full [ful] a.满的\n• large [lɑ:dʒ] a.大的\n• little ['litl] a.小的\n• sharp [ʃɑ:p] a.尖的，锋利的\n• small [smɔ:l] a.小的\n• big [big] a.大的\n• blunt [blʌnt] a.钝的\n• box [bɔks] n.盒子，箱子\n• glass [glɑ:s] n.杯子\n• cup [kʌp] n.茶杯\n• bottle ['bɔtl] n.瓶子\n• tin [tin] n.罐头\n• knife [naif] n.刀子\n• fork [fɔ:k] n.叉子",
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "第九单元"
+    },
+    {
+      "type": "heading",
+      "text": "第一课"
+    },
+    {
+      "type": "heading",
+      "text": "【对话场景】描述物体的特征"
+    },
+    {
+      "type": "paragraph",
+      "text": "——Give me a book please, Jane."
+    },
+    {
+      "type": "paragraph",
+      "text": "简，请拿本书给我。"
+    },
+    {
+      "type": "paragraph",
+      "text": "——Which book?"
+    },
+    {
+      "type": "paragraph",
+      "text": "哪本书？"
+    },
+    {
+      "type": "paragraph",
+      "text": "This one?"
+    },
+    {
+      "type": "paragraph",
+      "text": "这本吗？"
+    },
+    {
+      "type": "paragraph",
+      "text": "——No, not that one. The red one."
+    },
+    {
+      "type": "paragraph",
+      "text": "不，不是那本，是红色的那本。"
+    },
+    {
+      "type": "paragraph",
+      "text": "——This one?"
+    },
+    {
+      "type": "paragraph",
+      "text": "这本吗？"
+    },
+    {
+      "type": "paragraph",
+      "text": "——Yes, please."
+    },
+    {
+      "type": "paragraph",
+      "text": "是的，请拿给我。"
+    },
+    {
+      "type": "paragraph",
+      "text": "——Here you are."
+    },
+    {
+      "type": "paragraph",
+      "text": "给你。"
+    },
+    {
+      "type": "paragraph",
+      "text": "——Thank you."
+    },
+    {
+      "type": "paragraph",
+      "text": "谢谢！"
+    },
+    {
+      "type": "paragraph",
+      "text": "——Give me some glasses please, Jane."
+    },
+    {
+      "type": "paragraph",
+      "text": "简，请给我几只玻璃杯。"
+    },
+    {
+      "type": "paragraph",
+      "text": "——Which glasses?"
+    },
+    {
+      "type": "paragraph",
+      "text": "哪几只？"
+    },
+    {
+      "type": "paragraph",
+      "text": "These glasses?"
+    },
+    {
+      "type": "paragraph",
+      "text": "这几只吗？"
+    },
+    {
+      "type": "paragraph",
+      "text": "——No, not those. The ones on the shelf."
+    },
+    {
+      "type": "paragraph",
+      "text": "不，不是那几只。是架子上的那几只。"
+    },
+    {
+      "type": "paragraph",
+      "text": "——These?"
+    },
+    {
+      "type": "paragraph",
+      "text": "这几只？"
+    },
+    {
+      "type": "paragraph",
+      "text": "——Yes, please."
+    },
+    {
+      "type": "paragraph",
+      "text": "是的，请拿给我。"
+    },
+    {
+      "type": "paragraph",
+      "text": "——Here you are."
+    },
+    {
+      "type": "paragraph",
+      "text": "给你。"
+    },
+    {
+      "type": "paragraph",
+      "text": "——Thanks."
+    },
+    {
+      "type": "paragraph",
+      "text": "谢谢！"
+    },
+    {
+      "type": "list",
+      "text": "• give sb. sth.的用法"
+    },
+    {
+      "type": "list",
+      "text": "◦ 把某物给某人"
+    },
+    {
+      "type": "list",
+      "text": "◦ give 是及物动词，后面可以直接加宾语"
+    },
+    {
+      "type": "list",
+      "text": "◦ 双宾语结构：sth.是直接宾语，sb.是间接宾语"
+    },
+    {
+      "type": "list",
+      "text": "◦ 同义替换：give sth. to sb."
+    },
+    {
+      "type": "list",
+      "text": "▪ Please give the book to me.请把那本书给我。"
+    },
+    {
+      "type": "list",
+      "text": "◦ 其他可以接双宾语的动词"
+    },
+    {
+      "type": "list",
+      "text": "▪ ask, bring, buy, cost, fetch, hand, lend, pass, pay 等"
+    },
+    {
+      "type": "list",
+      "text": "• which 的用法"
+    },
+    {
+      "type": "list",
+      "text": "◦ 疑问代词意为“哪一个”"
+    },
+    {
+      "type": "list",
+      "text": "◦ 在句中作定语，用来对人、事或物提问"
+    },
+    {
+      "type": "list",
+      "text": "◦ 可以指物也可以指人的疑问代词"
+    },
+    {
+      "type": "list",
+      "text": "◦ 后面可以加名词的单数形式也可以加名词的复数形式"
+    },
+    {
+      "type": "list",
+      "text": "◦ 回答：具体的描述/从给定的范围选择"
+    },
+    {
+      "type": "list",
+      "text": "▪ Which book do you prefer?你更喜欢哪本书？"
+    },
+    {
+      "type": "list",
+      "text": "▪ The green one.绿色的那本。"
+    },
+    {
+      "type": "list",
+      "text": "• one 和 ones 的用法"
+    },
+    {
+      "type": "list",
+      "text": "◦ 都是代词，用于替代上文出现过的人或物"
+    },
+    {
+      "type": "list",
+      "text": "◦ one 只能替代单数名词，ones 替代复数名词"
+    },
+    {
+      "type": "list",
+      "text": "◦ 前面加定冠词 the，变成特定的指代；或加上修饰词，明确指代物的特征"
+    },
+    {
+      "type": "list",
+      "text": "▪ the red one 红色的那只"
+    },
+    {
+      "type": "list",
+      "text": "▪ I've lost my pen. I want to buy a new one.我的钢笔丢了，我想买一支"
+    },
+    {
+      "type": "paragraph",
+      "text": "新的。"
+    },
+    {
+      "type": "list",
+      "text": "◦ one 和 ones 前面都不能加形容词性物主代词"
+    },
+    {
+      "type": "list",
+      "text": "▪ my one 和 my ones 的说法是错误的"
+    },
+    {
+      "type": "heading",
+      "text": "第二课"
+    },
+    {
+      "type": "heading",
+      "text": "【语法点拨】频频出没的定冠词"
+    },
+    {
+      "type": "paragraph",
+      "text": "定冠词放在名词前面，主要用来特指某些人或某些事物。the 在以元音音素开头的单"
+    },
+    {
+      "type": "paragraph",
+      "text": "词前读作[ði]，在以辅音音素开头的单词前读作[ðə]。"
+    },
+    {
+      "type": "list",
+      "text": "• the 用于特指某些人或某些事物"
+    },
+    {
+      "type": "list",
+      "text": "◦ This is the watch I like.这就是我喜欢的那块手表。"
+    },
+    {
+      "type": "list",
+      "text": "• the 用于表示双方都知道的人或事物"
+    },
+    {
+      "type": "list",
+      "text": "◦ There is a park near the school.学校附近有一个公园。"
+    },
+    {
+      "type": "list",
+      "text": "• the 用于表示前面提到过的人或事物"
+    },
+    {
+      "type": "list",
+      "text": "◦ I bought a watch.The watch is very beautiful.我买了一只手表，这只手表"
+    },
+    {
+      "type": "paragraph",
+      "text": "非常漂亮。"
+    },
+    {
+      "type": "list",
+      "text": "• the+姓氏的复数形式表示一家人或夫妇二人"
+    },
+    {
+      "type": "list",
+      "text": "◦ the Smiths 史密斯一家人/夫妇"
+    },
+    {
+      "type": "list",
+      "text": "◦ the Zhangs 张氏一家人/夫妇"
+    },
+    {
+      "type": "list",
+      "text": "• the+形容词表示某一类人"
+    },
+    {
+      "type": "list",
+      "text": "◦ the poor 穷人"
+    },
+    {
+      "type": "list",
+      "text": "◦ the rich 富人"
+    },
+    {
+      "type": "list",
+      "text": "• the 用于序数词前面"
+    },
+    {
+      "type": "list",
+      "text": "◦ 序数词前要加定冠词 the"
+    },
+    {
+      "type": "list",
+      "text": "▪ the first 第一个"
+    },
+    {
+      "type": "list",
+      "text": "▪ the second 第二个"
+    },
+    {
+      "type": "heading",
+      "text": "第三课"
+    },
+    {
+      "type": "heading",
+      "text": "【单词串烧】"
+    },
+    {
+      "type": "list",
+      "text": "• give [giv] v. 给"
+    },
+    {
+      "type": "list",
+      "text": "• one [wʌn] pron. 一个"
+    },
+    {
+      "type": "list",
+      "text": "• which [witʃ] 哪一个"
+    },
+    {
+      "type": "list",
+      "text": "• empty ['empti] a.空的"
+    },
+    {
+      "type": "list",
+      "text": "• full [ful] a.满的"
+    },
+    {
+      "type": "list",
+      "text": "• large [lɑ:dʒ] a.大的"
+    },
+    {
+      "type": "list",
+      "text": "• little ['litl] a.小的"
+    },
+    {
+      "type": "list",
+      "text": "• sharp [ʃɑ:p] a.尖的，锋利的"
+    },
+    {
+      "type": "list",
+      "text": "• small [smɔ:l] a.小的"
+    },
+    {
+      "type": "list",
+      "text": "• big [big] a.大的"
+    },
+    {
+      "type": "list",
+      "text": "• blunt [blʌnt] a.钝的"
+    },
+    {
+      "type": "list",
+      "text": "• box [bɔks] n.盒子，箱子"
+    },
+    {
+      "type": "list",
+      "text": "• glass [glɑ:s] n.杯子"
+    },
+    {
+      "type": "list",
+      "text": "• cup [kʌp] n.茶杯"
+    },
+    {
+      "type": "list",
+      "text": "• bottle ['bɔtl] n.瓶子"
+    },
+    {
+      "type": "list",
+      "text": "• tin [tin] n.罐头"
+    },
+    {
+      "type": "list",
+      "text": "• knife [naif] n.刀子"
+    },
+    {
+      "type": "list",
+      "text": "• fork [fɔ:k] n.叉子"
+    }
+  ],
+  "videos": [],
+  "source": {
+    "fileName": "英语零基础初级讲义.txt",
+    "kind": "PDF 校对后的转换文本"
+  }
+}

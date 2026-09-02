@@ -1,0 +1,248 @@
+{
+  "schemaVersion": 1,
+  "id": "nce1-113",
+  "bookId": "nce1",
+  "bookNo": 1,
+  "lessonNo": 113,
+  "lessonRange": [
+    113,
+    114
+  ],
+  "title": "Small Change",
+  "titleZh": "零钱；小额货币",
+  "question": "Who has got some small change?",
+  "questionZh": "谁有零钱吗？",
+  "text": "Who has got some small change?\n\nFares, please!\nTrafalgar Square, please.\nI'm sorry, sir.\nI can't change a ten-pound note.\nHaven't you got any small change?\nI've got no small change,\nI am afraid.\nI'll ask some of the passengers.\nHave you any small change, sir?\nI'm sorry.\nI've got none.\nI haven't got any either.\nCan you change this ten-pound note, madam?\nI'm afraid I can't.\nNeither can I.\nI'm very sorry, sir.\nYou must get off the bus.\nNone of our passengers can change this note.\nThey're all millionaires!\nExcept us.\nI've got some small change.\nSo have I.",
+  "bodyText": "Fares, please!\nTrafalgar Square, please.\nI'm sorry, sir.\nI can't change a ten-pound note.\nHaven't you got any small change?\nI've got no small change,\nI am afraid.\nI'll ask some of the passengers.\nHave you any small change, sir?\nI'm sorry.\nI've got none.\nI haven't got any either.\nCan you change this ten-pound note, madam?\nI'm afraid I can't.\nNeither can I.\nI'm very sorry, sir.\nYou must get off the bus.\nNone of our passengers can change this note.\nThey're all millionaires!\nExcept us.\nI've got some small change.\nSo have I.",
+  "bodyTextZh": "请买票！\n请去特拉法尔加广场。\n对不起，先生。\n我无法兑换一张十英镑的纸币。\n你没有零钱吗？\n我没有零钱了。\n恐怕没有。\n我会去问问一些乘客。\n先生，您有零钱吗？\n对不起。\n我一个都没有。\n我一个也没有。\n女士，您能帮我兑换这张十英镑的纸币吗？\n恐怕我做不到。\n我也不能。\n非常抱歉，先生。\n你必须下车。\n我们的乘客都换不开这张钞票。\n他们都是百万富翁！\n除了我们之外。\n我有一些零钱。\n我也有。",
+  "sentences": [
+    {
+      "index": 0,
+      "startTime": 0.73,
+      "endTime": 3.88,
+      "en": "Lesson 113",
+      "zh": "第113课",
+      "role": "lesson"
+    },
+    {
+      "index": 1,
+      "startTime": 3.88,
+      "endTime": 6.48,
+      "en": "Small change",
+      "zh": "零钱；小额货币",
+      "role": "title"
+    },
+    {
+      "index": 2,
+      "startTime": 6.48,
+      "endTime": 11.98,
+      "en": "Listen to the tape then answer this question.",
+      "zh": "先听这段录音，然后再回答这个问题。",
+      "role": "prompt"
+    },
+    {
+      "index": 3,
+      "startTime": 11.98,
+      "endTime": 17.39,
+      "en": "Who has got some small change?",
+      "zh": "谁有零钱吗？",
+      "role": "question"
+    },
+    {
+      "index": 4,
+      "startTime": 17.39,
+      "endTime": 19.07,
+      "en": "Fares, please!",
+      "zh": "请买票！",
+      "role": "body"
+    },
+    {
+      "index": 5,
+      "startTime": 19.07,
+      "endTime": 21.54,
+      "en": "Trafalgar Square, please.",
+      "zh": "请去特拉法尔加广场。",
+      "role": "body"
+    },
+    {
+      "index": 6,
+      "startTime": 21.54,
+      "endTime": 24.17,
+      "en": "I'm sorry, sir.",
+      "zh": "对不起，先生。",
+      "role": "body"
+    },
+    {
+      "index": 7,
+      "startTime": 24.17,
+      "endTime": 28.14,
+      "en": "I can't change a ten-pound note.",
+      "zh": "我无法兑换一张十英镑的纸币。",
+      "role": "body"
+    },
+    {
+      "index": 8,
+      "startTime": 28.14,
+      "endTime": 31.97,
+      "en": "Haven't you got any small change?",
+      "zh": "你没有零钱吗？",
+      "role": "body"
+    },
+    {
+      "index": 9,
+      "startTime": 31.97,
+      "endTime": 34.53,
+      "en": "I've got no small change,",
+      "zh": "我没有零钱了。",
+      "role": "body"
+    },
+    {
+      "index": 10,
+      "startTime": 34.53,
+      "endTime": 36.51,
+      "en": "I am afraid.",
+      "zh": "恐怕没有。",
+      "role": "body"
+    },
+    {
+      "index": 11,
+      "startTime": 36.51,
+      "endTime": 40.19,
+      "en": "I'll ask some of the passengers.",
+      "zh": "我会去问问一些乘客。",
+      "role": "body"
+    },
+    {
+      "index": 12,
+      "startTime": 40.19,
+      "endTime": 43.64,
+      "en": "Have you any small change, sir?",
+      "zh": "先生，您有零钱吗？",
+      "role": "body"
+    },
+    {
+      "index": 13,
+      "startTime": 43.64,
+      "endTime": 44.96,
+      "en": "I'm sorry.",
+      "zh": "对不起。",
+      "role": "body"
+    },
+    {
+      "index": 14,
+      "startTime": 44.96,
+      "endTime": 48.01,
+      "en": "I've got none.",
+      "zh": "我一个都没有。",
+      "role": "body"
+    },
+    {
+      "index": 15,
+      "startTime": 48.01,
+      "endTime": 51.8,
+      "en": "I haven't got any either.",
+      "zh": "我一个也没有。",
+      "role": "body"
+    },
+    {
+      "index": 16,
+      "startTime": 51.8,
+      "endTime": 56.84,
+      "en": "Can you change this ten-pound note, madam?",
+      "zh": "女士，您能帮我兑换这张十英镑的纸币吗？",
+      "role": "body"
+    },
+    {
+      "index": 17,
+      "startTime": 56.84,
+      "endTime": 60.13,
+      "en": "I'm afraid I can't.",
+      "zh": "恐怕我做不到。",
+      "role": "body"
+    },
+    {
+      "index": 18,
+      "startTime": 60.13,
+      "endTime": 62.94,
+      "en": "Neither can I.",
+      "zh": "我也不能。",
+      "role": "body"
+    },
+    {
+      "index": 19,
+      "startTime": 62.94,
+      "endTime": 65.29,
+      "en": "I'm very sorry, sir.",
+      "zh": "非常抱歉，先生。",
+      "role": "body"
+    },
+    {
+      "index": 20,
+      "startTime": 65.29,
+      "endTime": 68.54,
+      "en": "You must get off the bus.",
+      "zh": "你必须下车。",
+      "role": "body"
+    },
+    {
+      "index": 21,
+      "startTime": 68.54,
+      "endTime": 73.63,
+      "en": "None of our passengers can change this note.",
+      "zh": "我们的乘客都换不开这张钞票。",
+      "role": "body"
+    },
+    {
+      "index": 22,
+      "startTime": 73.63,
+      "endTime": 76.36,
+      "en": "They're all millionaires!",
+      "zh": "他们都是百万富翁！",
+      "role": "body"
+    },
+    {
+      "index": 23,
+      "startTime": 76.36,
+      "endTime": 79.36,
+      "en": "Except us.",
+      "zh": "除了我们之外。",
+      "role": "body"
+    },
+    {
+      "index": 24,
+      "startTime": 79.36,
+      "endTime": 82.96,
+      "en": "I've got some small change.",
+      "zh": "我有一些零钱。",
+      "role": "body"
+    },
+    {
+      "index": 25,
+      "startTime": 82.96,
+      "endTime": null,
+      "en": "So have I.",
+      "zh": "我也有。",
+      "role": "body"
+    }
+  ],
+  "audio": {
+    "fileName": "113&114－Small Change.mp3",
+    "sourcePath": "content/NCE-Flow/NCE1/113&114－Small Change.mp3",
+    "exists": true
+  },
+  "source": {
+    "repository": "NCE-Flow",
+    "lrcFileName": "113&114－Small Change.lrc",
+    "lrcPath": "content/NCE-Flow/NCE1/113&114－Small Change.lrc",
+    "sourceDataFile": "content/NCE-Flow/static/data.json",
+    "generatedAt": "2026-07-23T02:59:02+00:00",
+    "generator": "scripts/generate_nce_json.py",
+    "generatorVersion": "2.0.0",
+    "metadata": {
+      "al": "新概念英语（一）",
+      "ar": "MP3 同步字幕版（美音）",
+      "ti": "Small Change",
+      "by": "更多学习内容，请到VeryCD.com搜索“露珠”"
+    }
+  }
+}

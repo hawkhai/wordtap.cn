@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "pephr3-012",
+  "groupId": "pephr3",
+  "unitNo": 3,
+  "sequenceNo": 12,
+  "section": "Discovering Useful Structures",
+  "title": "Recommendations for Visiting Guizhou",
+  "jsonPath": "pep-english/lessons/pephr3/012.json",
+  "text": "Justin: Linlin, I'm going to Guizhou Province next month. I'm super excited! Any recommendations for places to visit?\nLinlin: Wow, cool! Guizhou is a province with a lot of cultural diversity. Places to visit... well, definitely the Huangguoshu Waterfall first.\nJustin: What's special about the waterfall?\nLinlin: Well, have you ever heard of the Chinese novel Journey to the West?\nJustin: Yes, I have. Why?\nLinlin: In the back of the waterfall, you will find a cave, which is the home of the Monkey King.\nJustin: Really? Cool! I'll definitely check it out.\nLinlin: And I strongly recommend the ethnic minority villages. You'll find Chinese culture is much more diverse than you thought.\nJustin: Sounds great, thanks!",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Justin: Linlin, I'm going to Guizhou Province next month. I'm super excited! Any recommendations for places to visit?\nLinlin: Wow, cool! Guizhou is a province with a lot of cultural diversity. Places to visit... well, definitely the Huangguoshu Waterfall first.\nJustin: What's special about the waterfall?\nLinlin: Well, have you ever heard of the Chinese novel Journey to the West?\nJustin: Yes, I have. Why?\nLinlin: In the back of the waterfall, you will find a cave, which is the home of the Monkey King.\nJustin: Really? Cool! I'll definitely check it out.\nLinlin: And I strongly recommend the ethnic minority villages. You'll find Chinese culture is much more diverse than you thought.\nJustin: Sounds great, thanks!"
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "必修第三册",
+    "pageStart": 37,
+    "pageEnd": 37,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "31e51a16693d03177a5825f53f612a87",
+    "pdfSize": 14202806,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/senior-required-3.pdf#page=37",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored the complete nine-turn Guizhou travel conversation while preserving its intentional ellipsis; excluded the separate omission examples, rewrite exercise, instruction and background photograph."
+    }
+  }
+}

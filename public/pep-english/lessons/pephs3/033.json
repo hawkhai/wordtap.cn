@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "pephs3-033",
+  "groupId": "pephs3",
+  "unitNo": 5,
+  "sequenceNo": 33,
+  "section": "Expanding Your World",
+  "title": "The Road Not Taken (Robert Frost)",
+  "jsonPath": "pep-english/lessons/pephs3/033.json",
+  "text": "Two roads diverged in a yellow wood And sorry I could not travel both And be one traveler, long I stood And looked down one as far as I could To where it bent in the undergrowth;\nThen took the other, as just as fair, And having perhaps the better claim, Because it was grassy and wanted wear;\nThough as for that the passing there Had worn them really about the same, And both that morning equally lay In leaves no step had trodden black.\nOh, I kept the first for another day!\nYet knowing how way leads on to way, I doubted if I should ever come back.\nI shall be telling this with a sigh Somewhere ages and ages hence:\nTwo roads diverged in a wood, and I— I took the one less traveled by, And that has made all the difference.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Two roads diverged in a yellow wood And sorry I could not travel both And be one traveler, long I stood And looked down one as far as I could To where it bent in the undergrowth;\nThen took the other, as just as fair, And having perhaps the better claim, Because it was grassy and wanted wear;\nThough as for that the passing there Had worn them really about the same, And both that morning equally lay In leaves no step had trodden black.\nOh, I kept the first for another day!\nYet knowing how way leads on to way, I doubted if I should ever come back.\nI shall be telling this with a sigh Somewhere ages and ages hence:\nTwo roads diverged in a wood, and I— I took the one less traveled by, And that has made all the difference."
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "高中",
+    "book": "选择性必修第三册",
+    "pageStart": 101,
+    "pageEnd": 101,
+    "extractionMode": "text",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "f0dc33129a755a33421d401b71a05cd1",
+    "pdfSize": 12684455,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/senior-selective-3.pdf#page=101",
+      "reviewedAt": "2026-07-22",
+      "notes": "Recovered the complete twenty-line poem missed by the baseline scan; preserved the two printed stanzas, punctuation and lineation and moved the author to metadata.",
+      "splitBaselineId": "pephs3-041",
+      "splitIndex": 4,
+      "splitCount": 4
+    }
+  }
+}

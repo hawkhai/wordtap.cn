@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "pepj8b-008",
+  "groupId": "pepj8b",
+  "unitNo": 5,
+  "sequenceNo": 8,
+  "section": "Section A",
+  "title": "The Storm Brought People Closer Together",
+  "jsonPath": "pep-english/lessons/pepj8b/008.json",
+  "text": "Ben could hear strong winds outside his home in Alabama. Black clouds were making the sky very dark. With no light outside, it felt like midnight. The news on TV reported that a heavy rainstorm was in the area.\nEveryone in the neighborhood was busy. Ben's dad was putting pieces of wood over the windows while his mom was making sure the flashlights and radio were working. She also put some candles and matches on the table.\nBen was helping his mom make dinner when the rain began to beat heavily against the windows. After dinner, they tried to play a card game, but it was hard to have fun with a serious storm happening outside.\nBen could not sleep at first. He finally fell asleep when the wind was dying down at around 3:00 a.m. When he woke up, the sun was rising. He went outside with his family and found the neighborhood in a mess. Fallen trees, broken windows and rubbish were everywhere. They joined the neighbors to help clean up the neighborhood together. Although the storm broke many things apart, it brought families and neighbors closer together.",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Ben could hear strong winds outside his home in Alabama. Black clouds were making the sky very dark. With no light outside, it felt like midnight. The news on TV reported that a heavy rainstorm was in the area."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Everyone in the neighborhood was busy. Ben's dad was putting pieces of wood over the windows while his mom was making sure the flashlights and radio were working. She also put some candles and matches on the table."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Ben was helping his mom make dinner when the rain began to beat heavily against the windows. After dinner, they tried to play a card game, but it was hard to have fun with a serious storm happening outside."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Ben could not sleep at first. He finally fell asleep when the wind was dying down at around 3:00 a.m. When he woke up, the sun was rising. He went outside with his family and found the neighborhood in a mess. Fallen trees, broken windows and rubbish were everywhere. They joined the neighbors to help clean up the neighborhood together. Although the storm broke many things apart, it brought families and neighbors closer together."
+    }
+  ],
+  "source": {
+    "publisher": "人民教育出版社",
+    "stage": "初中",
+    "book": "八年级下册",
+    "pageStart": 44,
+    "pageEnd": 44,
+    "extractionMode": "ocr",
+    "origin": "ChinaTextbook",
+    "contentId": null,
+    "pdfMd5": "21d35e04f1c22b74a3fe3e95e88adff9",
+    "pdfSize": 18208880,
+    "manualReview": {
+      "method": "visual-line-by-line",
+      "source": "content/pep-english/raw/junior-8b.pdf#page=44",
+      "reviewedAt": "2026-07-22",
+      "notes": "Restored the printed title and all four complete narrative paragraphs in order, and excluded 3a questions plus activities 3b-3c."
+    }
+  }
+}
