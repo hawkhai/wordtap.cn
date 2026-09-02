@@ -1,0 +1,2 @@
+# Optional course-data generators; the Web build itself only needs Node.js.
+pypdf>=5.0,<7.0

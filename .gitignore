@@ -1,4 +1,6 @@
 node_modules/
+content/NCE-Flow/
+content/English-for-post-graduate/
 content/pep-english/raw/
 content/pep-english/reports/
 content/kaoyan-english/raw/
@@ -11,12 +13,18 @@ tools/College-English/
 .vite/
 dist/
 coverage/
+*.tsbuildinfo
+.eslintcache
+.stylelintcache
 public/downloads/*.exe
 public/datamap.txt
 siteskip.yaml
 
 .DS_Store
 Thumbs.db
+.idea/
+.vscode/
+*.code-workspace
 
 .env
 .env.*
@@ -29,5 +37,8 @@ yarn-error.log*
 pnpm-debug.log*
 
 __pycache__
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
 /tmp
 /windows-*.png

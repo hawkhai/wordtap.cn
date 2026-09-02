@@ -17,6 +17,10 @@ WordTap Web 是一个面向中文用户的英文点读阅读工具。用户可�
 - 诊断页检查浏览器能力、IndexedDB、词典分片、Gateway、下载文件、音频缓存等状态。
 - 轻量 Service Worker 会缓存应用外壳和已请求过的同源静态资源。
 
+## 课程数据状态
+
+当前完整验证覆盖 276 篇新概念英语、192 篇水木英语、40 篇研究生英语、72 篇大学英语、97 套四六级真题和 64 套考研英语真题。人教版英语当前收录 12/17 册、313 篇课文；5 册无可用来源的选修内容不会用占位数据补齐，具体状态见 `public/pep-english/manifest.json`。
+
 ## 代码结构
 
 ```text
@@ -173,7 +177,11 @@ WordTap 可以轻度离线使用，但不是完整离线学习应用。
 
 ## 开发命令
 
-需要 Node.js 20.19 或更高版本。
+Web 开发需要 Node.js 20.19 或更高版本。重新生成课程数据还需要 Python 3.10 或更高版本，并安装可选工具依赖：
+
+```bash
+python -m pip install -r requirements.txt
+```
 
 安装依赖：
 
@@ -205,7 +213,17 @@ npm run build
 npm run verify
 ```
 
+仅检查是否误提交本机文件、敏感文件或缺少开源必备声明：
+
+```bash
+npm run verify:open-source
+```
+
 `npm run build` 会先运行 `tools/check-downloads.mjs`。开发环境缺少安装包时只会打印 warning，不会阻断构建；如果 Gateway 安装包存在，则会校验 SHA-256 和 release manifest。
+
+## 参与项目
+
+提交 Issue 或 Pull Request 前请阅读 [`CONTRIBUTING.md`](CONTRIBUTING.md)。安全漏洞请按 [`SECURITY.md`](SECURITY.md) 私下报告。
 
 ## 第三方内容
 

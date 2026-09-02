@@ -9,6 +9,7 @@ function invariant(condition, message) {
 const root = process.cwd();
 const manifest = JSON.parse(await readFile(path.join(root, "public", "pep-english", "manifest.json"), "utf8"));
 const requireComplete = process.argv.includes("--require-complete");
+const absolutePathPattern = /(?:\b[A-Za-z]:\\[^\\\s]+\\|\b[A-Za-z]:\/(?:Users|Documents and Settings)\/[^/\s]+\/|\/(?:Users|home)\/[^/\s]+\/)/u;
 const expectedGroups = [
   "pepj7a", "pepj7b", "pepj8a", "pepj8b", "pepj9",
   "pephr1", "pephr2", "pephr3", "pephs1", "pephs2", "pephs3", "pephs4",
@@ -52,7 +53,7 @@ for (const group of manifest.groups) {
     invariant(detail.blocks.length > 0 && detail.blocks.every((block) => block.lang === "en"), `${lesson.id}: invalid blocks`);
     invariant(detail.text === detail.blocks.map((block) => block.text).join("\n"), `${lesson.id}: text and blocks differ`);
     invariant(!/[\u0000-\u0008\u000B\u000C\u000E-\u001F\u007F\uFFFD]/u.test(detail.text), `${lesson.id}: unsafe character remains`);
-    invariant(!detail.text.includes("D:\\kSource"), `${lesson.id}: absolute path leaked`);
+    invariant(!absolutePathPattern.test(detail.text), `${lesson.id}: absolute path leaked`);
     invariant(!/^(?:Listen|Match|Complete|Fill|Choose|Circle|Discuss|Work in|Answer)\b/im.test(detail.text), `${lesson.id}: exercise instruction remains`);
     total += 1;
   }

@@ -24,6 +24,7 @@ function run(command, args, options = {}) {
 run(npmCommand, npmBuildArgs);
 
 for (const script of [
+  "verify:open-source",
   "verify:shuimu",
   "verify:postgraduate:complete",
   "verify:pep-english",

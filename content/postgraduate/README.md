@@ -1,17 +1,19 @@
-# 研究生英语补充内容入口
+# 研究生英语数据说明
 
-上游子模块 `NCE/English-for-post-graduate` 当前挂载在 `content/English-for-post-graduate`；其上册只包含第 4、5、7、8 单元。合法取得并校对缺失单元后，将每课保存为：
+仓库中的可直接使用数据位于 `public/postgraduate/`，当前清单包含 40/40 篇：上、下册双语文章各 10 篇，以及《研究生英语读写译教程》课文 20 篇。完整性由 `npm run verify:postgraduate:complete` 校验。
 
-```text
-content/postgraduate/volume1/01.json
-content/postgraduate/volume1/02.json
-content/postgraduate/volume1/03.json
-content/postgraduate/volume1/06.json
-content/postgraduate/volume1/09.json
-content/postgraduate/volume1/10.json
-```
+## 来源边界
 
-文件格式：
+- 上、下册基础数据来自 [xiaoleeza/English-for-post-graduate](https://github.com/xiaoleeza/English-for-post-graduate)。重新生成时，将合法取得的上游工作副本放在 `content/English-for-post-graduate/`；该目录被根 `.gitignore` 忽略。
+- 上册补充文件放在 `content/postgraduate/volume1/`。该目录也被忽略，避免未经确认的教材扫描或转录内容被直接提交。
+- 《研究生英语读写译教程》的本地扫描、图片和 OCR 中间文件放在 `tools/graduate/`，不会进入 Git。
+- 已生成课程仍受各自上游许可证和底层教材权利约束，详见根目录 `THIRD_PARTY_NOTICES.md`。
+
+`public/postgraduate/` 已提交到仓库，因此正常安装、构建和验证不需要上述本地原始资料。只有重新生成课程数据时才需要准备它们。
+
+## 上册补充格式
+
+每课保存为 `content/postgraduate/volume1/NN.json`：
 
 ```json
 {
@@ -38,12 +40,7 @@ content/postgraduate/volume1/10.json
 }
 ```
 
-要求：
-
-- `title` 和 `theme` 必须与教材目录一致，生成器会严格校验。
-- `blocks` 只接受非空的中英文段落，不接受占位符。
-- `source.rightsBasis` 必填，用于记录内容取得和再分发依据。
-- 不要把第三方文档搬运站下载的文件直接提交到仓库。
+`source.rightsBasis` 必填。不要提交来源不明的教材、扫描件或第三方文档站下载文件。
 
 生成与校验：
 
@@ -53,4 +50,4 @@ npm run verify:postgraduate
 npm run verify:postgraduate:complete
 ```
 
-前一个校验检查现有数据结构和目录覆盖状态；最后一个命令只有在上下册共 20 课全部存在时才会通过。
+默认生成器还会读取 `tools/graduate/ocr/json/`。也可以直接运行脚本并通过 `--source`、`--supplements`、`--graduate-ocr` 和 `--output` 显式指定目录。

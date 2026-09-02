@@ -9,6 +9,7 @@ function invariant(condition, message) {
 const root = process.cwd();
 const manifest = JSON.parse(await readFile(path.join(root, "public", "postgraduate", "manifest.json"), "utf8"));
 const requireComplete = process.argv.includes("--require-complete");
+const absolutePathPattern = /(?:\b[A-Za-z]:\\[^\\\s]+\\|\b[A-Za-z]:\/(?:Users|Documents and Settings)\/[^/\s]+\/|\/(?:Users|home)\/[^/\s]+\/)/u;
 const expectedCounts = new Map([
   ["volume1", 10],
   ["volume2", 10],
@@ -82,7 +83,7 @@ for (const volume of manifest.volumes) {
       invariant(detail.blocks.some((block) => block.lang === "zh"), `${lesson.id}: missing Chinese content`);
     }
     invariant(!/\\(?:newpar|section|textcolor|elegantpar|footnote)\b/.test(detail.text), `${lesson.id}: LaTeX command remains`);
-    invariant(!detail.text.includes("D:\\kSource"), `${lesson.id}: leaked absolute source path`);
+    invariant(!absolutePathPattern.test(detail.text), `${lesson.id}: leaked absolute source path`);
     invariant(!/[\u0000-\u0008\u000B\u000C\u000E-\u001F\u007F\uFFFD]/u.test(detail.text), `${lesson.id}: unsafe character remains`);
     lessonCount += 1;
   }

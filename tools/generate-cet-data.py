@@ -24,7 +24,7 @@ except ImportError as exc:  # pragma: no cover - environment guidance
 
 
 ROOT = Path(__file__).resolve().parents[1]
-DEFAULT_SOURCE = Path(r"D:\新建文件夹\英语四六级")
+DEFAULT_SOURCE = ROOT / "content" / "cet" / "raw"
 OUTPUT = ROOT / "public" / "cet"
 AUDIT_OUTPUT = ROOT / "content" / "cet" / "source-audit.json"
 MIN_ALPHA_CHARS = 6_000

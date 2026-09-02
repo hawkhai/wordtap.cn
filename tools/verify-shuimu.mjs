@@ -10,6 +10,7 @@ const root = process.cwd();
 const manifest = JSON.parse(await readFile(path.join(root, "public", "shuimu", "manifest.json"), "utf8"));
 const reviewedCorrections = JSON.parse(await readFile(path.join(root, "tools", "shuimu-reviewed-corrections.json"), "utf8"));
 const reviewedVideoMap = JSON.parse(await readFile(path.join(root, "tools", "shuimu-video-map.json"), "utf8"));
+const absolutePathPattern = /(?:\b[A-Za-z]:\\[^\\\s]+\\|\b[A-Za-z]:\/(?:Users|Documents and Settings)\/[^/\s]+\/|\/(?:Users|home)\/[^/\s]+\/)/u;
 const expectedCounts = new Map([
   ["phonetics", 12],
   ["beginner", 50],
@@ -47,7 +48,7 @@ for (const level of manifest.levels) {
     invariant(detail.text.trim().length > 100, `${lesson.id}: lesson text is unexpectedly short`);
     invariant(detail.blocks.length > 3, `${lesson.id}: lesson blocks are unexpectedly sparse`);
     invariant(detail.text === detail.blocks.map((block) => block.text).join("\n"), `${lesson.id}: text and blocks differ`);
-    invariant(!detail.text.includes("D:\\kSource"), `${lesson.id}: leaked absolute source path`);
+    invariant(!absolutePathPattern.test(detail.text), `${lesson.id}: leaked absolute source path`);
     invariant(!/[\uE000-\uF8FF]/u.test(detail.text), `${lesson.id}: private-use character remains`);
     invariant(!/[\u0000-\u0008\u000B\u000C\u000E-\u001F\u007F\u200B-\u200F\u202A-\u202E\u2060-\u206F\uFEFF\uFFFD]/u.test(detail.text), `${lesson.id}: unsafe or invisible character remains`);
     for (const block of detail.blocks) {
