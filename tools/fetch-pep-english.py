@@ -37,6 +37,24 @@ def read_url(url: str) -> bytes:
         return response.read()
 
 
+def post_json(url: str, payload: dict) -> dict:
+    body = json.dumps(payload, ensure_ascii=False).encode("utf-8")
+    req = urllib.request.Request(
+        url,
+        data=body,
+        headers={
+            "User-Agent": USER_AGENT,
+            "Accept": "application/json",
+            "Content-Type": "application/json;charset=UTF-8",
+            "Origin": "https://basic.smartedu.cn",
+            "Referer": "https://basic.smartedu.cn/",
+        },
+        method="POST",
+    )
+    with urllib.request.urlopen(req, timeout=45) as response:
+        return json.loads(response.read().decode("utf-8"))
+
+
 def url_for_path(prefix: str, path: str) -> str:
     return prefix + "/".join(urllib.parse.quote(part) for part in path.split("/"))
 
@@ -153,6 +171,27 @@ def decode_dzkbw(value: str) -> str:
     return "".join(decoded)
 
 
+def smartedu_source(content_id: str, *, catalog_url: str, detail_url: str) -> dict:
+    details_url = f"https://s-file-2.ykt.cbern.com.cn/zxx/ndrv2/resources/tch_material/details/{content_id}.json"
+    details = json.loads(read_url(details_url).decode("utf-8"))
+    source = next((item for item in details.get("ti_items", [])
+                   if item.get("ti_is_source_file") and item.get("ti_format") == "pdf"), None)
+    if not source or not source.get("ti_storages"):
+        raise FileNotFoundError(f"SmartEdu metadata has no source PDF: {content_id}")
+    storage = source["ti_storages"][0].replace("-private.ykt.cbern.com.cn", ".ykt.cbern.com.cn")
+    return {
+        "origin": "smartedu",
+        "catalogUrl": catalog_url,
+        "detailUrl": detail_url,
+        "contentId": content_id,
+        "metadataUrl": details_url,
+        "downloadUrl": storage,
+        "expectedSize": int(source.get("ti_size") or 0) or None,
+        "expectedMd5": source.get("ti_md5") or None,
+        "sourceTitle": details.get("title") or details.get("global_title", {}).get("zh-CN"),
+    }
+
+
 def discover_smartedu(book: PepBook) -> dict:
     base = f"http://www.dzkbw.com/books/rjb/yingyu/{book.dzkbw_slug}/"
     index_html = read_url(base).decode("gb18030", errors="replace")
@@ -179,24 +218,48 @@ def discover_smartedu(book: PepBook) -> dict:
     content_id = urllib.parse.parse_qs(parsed.query).get("contentId", [None])[0]
     if not content_id:
         raise FileNotFoundError(f"SmartEdu URL has no contentId: {smartedu_url}")
-    details_url = f"https://s-file-2.ykt.cbern.com.cn/zxx/ndrv2/resources/tch_material/details/{content_id}.json"
-    details = json.loads(read_url(details_url).decode("utf-8"))
-    source = next((item for item in details.get("ti_items", [])
-                   if item.get("ti_is_source_file") and item.get("ti_format") == "pdf"), None)
-    if not source or not source.get("ti_storages"):
-        raise FileNotFoundError(f"SmartEdu metadata has no source PDF: {content_id}")
-    storage = source["ti_storages"][0].replace("-private.ykt.cbern.com.cn", ".ykt.cbern.com.cn")
-    return {
-        "origin": "smartedu",
-        "catalogUrl": base,
-        "detailUrl": smartedu_url,
-        "contentId": content_id,
-        "metadataUrl": details_url,
-        "downloadUrl": storage,
-        "expectedSize": int(source.get("ti_size") or 0) or None,
-        "expectedMd5": source.get("ti_md5") or None,
-        "sourceTitle": details.get("title") or details.get("global_title", {}).get("zh-CN"),
+    return smartedu_source(content_id, catalog_url=base, detail_url=smartedu_url)
+
+
+def normalized_title(value: str) -> str:
+    value = re.sub(r"<[^>]+>", "", value or "")
+    value = re.sub(r"^(?:普通高中|义务教育)(?:实验)?教科书[·：:]?", "", value)
+    return re.sub(r"[\s·:：,，.。()（）《》〈〉\-—_]+", "", value).lower()
+
+
+def discover_smartedu_search(book: PepBook) -> dict:
+    """Find a textbook in SmartEdu's public search index when legacy redirects expire."""
+    search_url = "https://x-search.ykt.eduyun.cn/v1/resources/search"
+    payload = {
+        "identity": "GUEST",
+        "identity_code": "GUEST",
+        "keyword": book.title,
+        "tab_codes": ["tchMaterial"],
+        "cross_tenant": False,
+        "resource_search_type": "",
+        "duplicate_filter": False,
+        "search_order": {"field": "_score", "direction": "desc"},
+        "search_fields": [],
+        "offset": 0,
+        "limit": 50,
+        "tags": [],
+        "origin": "",
     }
+    results = post_json(search_url, payload)
+    wanted = normalized_title(book.title)
+    for item in results.get("items", []):
+        if normalized_title(item.get("title", "")) != wanted:
+            continue
+        providers = [provider.get("name", "") for provider in item.get("extra", {}).get("providers", [])]
+        editions = [tag.get("title", "") for tag in item.get("tags", []) if tag.get("dimension_id") == "zxxbb"]
+        if not any("人民教育出版社" in value or "人教版" in value for value in providers + editions):
+            continue
+        content_id = item.get("src_content_id") or item.get("resource_id")
+        if not content_id:
+            continue
+        detail_url = f"https://basic.smartedu.cn/tchMaterial/detail?contentId={urllib.parse.quote(content_id)}"
+        return smartedu_source(content_id, catalog_url=search_url, detail_url=detail_url)
+    raise FileNotFoundError(f"No exact PEP SmartEdu search result for {book.title}")
 
 
 def fetch_book(book: PepBook) -> dict:
@@ -224,8 +287,29 @@ def fetch_book(book: PepBook) -> dict:
         return {"status": "available", **source, "path": target.relative_to(ROOT).as_posix(),
                 "size": target.stat().st_size, "md5": md5_file(target), "errors": errors}
     except Exception as exc:
-        errors.append(f"SmartEdu: {exc}")
-        return {"status": "missing", "origin": None, "path": None, "errors": errors}
+        errors.append(f"SmartEdu redirect: {exc}")
+    try:
+        source = discover_smartedu_search(book)
+        download(source["downloadUrl"], target, expected_size=source["expectedSize"], expected_md5=source["expectedMd5"])
+        return {"status": "available", **source, "path": target.relative_to(ROOT).as_posix(),
+                "size": target.stat().st_size, "md5": md5_file(target), "errors": errors}
+    except Exception as exc:
+        errors.append(f"SmartEdu search: {exc}")
+    # Some retired editions are no longer present in the current official
+    # catalog. Allow an explicitly supplied, legally obtained PDF to enter the
+    # normal audited generation pipeline instead of overwriting its manifest
+    # entry with "missing" after remote discovery fails.
+    if valid_pdf(target):
+        return {
+            "status": "available",
+            "origin": "local-authorized-source",
+            "downloadUrl": None,
+            "path": target.relative_to(ROOT).as_posix(),
+            "size": target.stat().st_size,
+            "md5": md5_file(target),
+            "errors": errors,
+        }
+    return {"status": "missing", "origin": None, "path": None, "errors": errors}
 
 
 def load_manifest() -> dict:

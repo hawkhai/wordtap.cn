@@ -40,10 +40,28 @@ class DownloadTests(unittest.TestCase):
 
     def test_missing_sources_are_recorded(self):
         book = fetch.PepBook("missing", "senior", 2, 1, "缺失", "missing.pdf", "missing")
-        with patch.object(fetch, "discover_smartedu", side_effect=FileNotFoundError("not found")):
+        with patch.object(fetch, "discover_smartedu", side_effect=FileNotFoundError("not found")), \
+                patch.object(fetch, "discover_smartedu_search", side_effect=FileNotFoundError("not found")):
             result = fetch.fetch_book(book)
         self.assertEqual(result["status"], "missing")
         self.assertTrue(result["errors"])
+
+    def test_authorized_local_pdf_is_used_after_remote_sources_fail(self):
+        book = fetch.PepBook("local", "senior", 2, 1, "本地样书", "local.pdf", "local")
+        payload = b"%PDF-1.7\n" + b"x" * 2048
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            raw = root / "raw"
+            raw.mkdir()
+            (raw / book.filename).write_bytes(payload)
+            with patch.object(fetch, "RAW_DIR", raw), \
+                    patch.object(fetch, "ROOT", root), \
+                    patch.object(fetch, "discover_smartedu", side_effect=FileNotFoundError("not found")), \
+                    patch.object(fetch, "discover_smartedu_search", side_effect=FileNotFoundError("not found")):
+                result = fetch.fetch_book(book)
+        self.assertEqual(result["status"], "available")
+        self.assertEqual(result["origin"], "local-authorized-source")
+        self.assertEqual(result["md5"], hashlib.md5(payload).hexdigest())
 
     def test_github_failure_falls_back_to_smartedu(self):
         book = fetch.PepBook("fallback", "senior", 2, 1, "补源", "fallback.pdf", "fallback", "a/fallback.pdf")
@@ -64,6 +82,31 @@ class DownloadTests(unittest.TestCase):
             result = fetch.fetch_book(book)
         self.assertEqual(result["status"], "available")
         self.assertEqual(result["origin"], "smartedu")
+
+    def test_smartedu_search_requires_exact_pep_result(self):
+        book = fetch.PepBook("search", "senior", 2, 1, "英语写作", "search.pdf", "search")
+        fuzzy = {"items": [{
+            "title": "英语写作专题一",
+            "src_content_id": "fuzzy",
+            "extra": {"providers": [{"name": "人民教育出版社"}]},
+            "tags": [],
+        }]}
+        with patch.object(fetch, "post_json", return_value=fuzzy):
+            with self.assertRaises(FileNotFoundError):
+                fetch.discover_smartedu_search(book)
+
+    def test_smartedu_search_accepts_exact_pep_result(self):
+        book = fetch.PepBook("search", "senior", 2, 1, "英语写作", "search.pdf", "search")
+        exact = {"items": [{
+            "title": "普通高中教科书·英语写作",
+            "src_content_id": "exact-id",
+            "extra": {"providers": [{"name": "人民教育出版社"}]},
+            "tags": [],
+        }]}
+        metadata = {"origin": "smartedu", "contentId": "exact-id"}
+        with patch.object(fetch, "post_json", return_value=exact), \
+                patch.object(fetch, "smartedu_source", return_value=metadata):
+            self.assertEqual(fetch.discover_smartedu_search(book), metadata)
 
 
 if __name__ == "__main__":

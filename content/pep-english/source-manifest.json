@@ -267,7 +267,8 @@
       "origin": null,
       "path": null,
       "errors": [
-        "SmartEdu: SmartEdu URL has no contentId: https://jc.pep.com.cn/?filed=%E9%AB%98%E4%B8%AD&subject=%E8%8B%B1%E8%AF%AD"
+        "SmartEdu redirect: SmartEdu URL has no contentId: https://jc.pep.com.cn/?filed=%E9%AB%98%E4%B8%AD&subject=%E8%8B%B1%E8%AF%AD",
+        "SmartEdu search: No exact PEP SmartEdu search result for 英语语法与词汇"
       ]
     },
     "pephw": {
@@ -283,9 +284,10 @@
       "origin": null,
       "path": null,
       "errors": [
-        "SmartEdu: SmartEdu URL has no contentId: https://jc.pep.com.cn/?filed=%E9%AB%98%E4%B8%AD&subject=%E8%8B%B1%E8%AF%AD"
+        "SmartEdu redirect: SmartEdu URL has no contentId: https://jc.pep.com.cn/?filed=%E9%AB%98%E4%B8%AD&subject=%E8%8B%B1%E8%AF%AD",
+        "SmartEdu search: No exact PEP SmartEdu search result for 英语写作"
       ]
     }
   },
-  "updatedAt": "2026-07-21T18:41:13.969063+00:00"
+  "updatedAt": "2026-09-02T17:32:42.603159+00:00"
 }
