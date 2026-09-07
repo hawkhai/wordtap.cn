@@ -1,5 +1,6 @@
 export type Segment =
   | { type: "text"; text: string; id: string }
+  | { type: "blank-line"; text: string; id: string }
   | { type: "word"; text: string; trailingText?: string; id: string; index: number };
 
 export type DictionaryEntry = {

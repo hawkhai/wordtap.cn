@@ -2933,6 +2933,30 @@ function splitWords(options: { announce?: boolean; recordTextHistory?: boolean }
 
   const nextSegments: Segment[] = [];
   let lastPosition = 0;
+  const appendTextSegments = (text: string, id: string): void => {
+    const paragraphBreakPattern = /\r?\n(?:[\t ]*\r?\n)+/g;
+    let textPosition = 0;
+
+    Array.from(text.matchAll(paragraphBreakPattern)).forEach((match, breakIndex) => {
+      const start = match.index ?? 0;
+      if (start > textPosition) {
+        nextSegments.push({ type: "text", text: text.slice(textPosition, start), id: `${id}-part-${breakIndex}` });
+      }
+      const blankLineCount = (match[0].match(/\n/g) ?? []).length - 1;
+      for (let blankLineIndex = 0; blankLineIndex < blankLineCount; blankLineIndex += 1) {
+        nextSegments.push({
+          type: "blank-line",
+          text: blankLineIndex === 0 ? match[0] : "",
+          id: `${id}-blank-${breakIndex}-${blankLineIndex}`,
+        });
+      }
+      textPosition = start + match[0].length;
+    });
+
+    if (textPosition < text.length) {
+      nextSegments.push({ type: "text", text: text.slice(textPosition), id: `${id}-part-tail` });
+    }
+  };
   const appendTextGap = (gap: string, id: string): void => {
     if (!gap) {
       return;
@@ -2944,12 +2968,12 @@ function splitWords(options: { announce?: boolean; recordTextHistory?: boolean }
       previousSegment.trailingText = `${previousSegment.trailingText ?? ""}${trailingPunctuation}`;
       const remainingGap = gap.slice(trailingPunctuation.length);
       if (remainingGap) {
-        nextSegments.push({ type: "text", text: remainingGap, id });
+        appendTextSegments(remainingGap, id);
       }
       return;
     }
 
-    nextSegments.push({ type: "text", text: gap, id });
+    appendTextSegments(gap, id);
   };
 
   matches.forEach((match, index) => {

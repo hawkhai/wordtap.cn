@@ -16,6 +16,7 @@
   --wordtap-reading-font-family: "Itim", "Microsoft YaHei UI", "Segoe UI", Arial, sans-serif;
   --wordtap-reading-font-size: 1.5rem;
   --wordtap-reading-line-height: 2.4rem;
+  --wordtap-reading-blank-line-height: 1.2rem;
 }
 
 @layer base {
@@ -684,6 +685,11 @@
       background 120ms ease,
       box-shadow 120ms ease,
       color 120ms ease;
+  }
+
+  .study-blank-line {
+    display: block;
+    height: var(--wordtap-reading-blank-line-height);
   }
 
   .study-word-cluster {

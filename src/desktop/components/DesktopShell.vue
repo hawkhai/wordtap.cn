@@ -462,6 +462,11 @@ function handleCourseLessonSelect(selection: CourseLessonSelection): void {
                 :key="segment.id"
               >
                 <span v-if="segment.type === 'text'">{{ segment.text }}</span>
+                <span
+                  v-else-if="segment.type === 'blank-line'"
+                  class="study-blank-line"
+                  aria-hidden="true"
+                ></span>
                 <span v-else class="study-word-cluster">
                   <button
                     type="button"
