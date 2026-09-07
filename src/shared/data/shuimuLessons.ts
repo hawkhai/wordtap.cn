@@ -58,7 +58,7 @@ export async function loadShuimuManifest(): Promise<ShuimuManifest> {
 }
 
 export async function loadShuimuLesson(path: string): Promise<ShuimuLessonDetail> {
-  const response = await fetch(appAssetUrl(path), { cache: "force-cache" });
+  const response = await fetch(appAssetUrl(path), { cache: "no-cache" });
   if (!response.ok) {
     throw new Error(`Unable to load ${path}: ${response.status}`);
   }
