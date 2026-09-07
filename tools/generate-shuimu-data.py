@@ -178,6 +178,10 @@ def make_detail(level_id: str, unit_no: int, title: str, lines: list[str], sourc
     cleaned = content_lines(lines)
     lesson_id = f"{level_id}-{unit_no:03d}"
     cleaned = apply_reviewed_corrections(lesson_id, cleaned)
+    # Intermediate source chunks can include the next unit's page marker after
+    # the current lesson content. It is navigation furniture, not lesson text.
+    if cleaned and re.fullmatch(r"第[一二三四五六七八九十百零〇两\d]+单元", cleaned[-1]):
+        cleaned.pop()
     blocks = [{"type": block_type(line), "text": line} for line in cleaned]
     return {
         "schemaVersion": 1,

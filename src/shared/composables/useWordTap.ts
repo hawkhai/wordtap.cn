@@ -51,6 +51,12 @@ import { siteCopy } from "../copy/siteCopy";
 import { translateWithBaiduSugGateway } from "../utils/gatewayTranslate";
 import { isNarrowLayoutViewport, isProbablyMobileBrowser, isWindows } from "../utils/device";
 import { buildLessonShortUrl, lessonShortCode, parseLessonShortCode } from "../utils/lessonUrls";
+import {
+  formatLineStructuredTextForReading,
+  formatProseForReading,
+  formatShuimuForReading,
+  withReadingTitle,
+} from "../utils/readingLayout";
 import { loadNceLesson, loadNceManifest } from "../data/nceLessons";
 import { loadShuimuLesson, loadShuimuManifest } from "../data/shuimuLessons";
 import { loadPostgraduateLesson, loadPostgraduateManifest } from "../data/postgraduateLessons";
@@ -1147,7 +1153,10 @@ async function loadCourseLessonFromPath(selection: Omit<CourseLessonSelection, "
       id: detail.id,
       path: selection.path,
       title,
-      text: `Book ${detail.bookNo} Lesson ${detail.lessonNo} ${detail.title}\n${detail.text}`,
+      text: withReadingTitle(
+        `Book ${detail.bookNo} Lesson ${detail.lessonNo} ${detail.title}`,
+        formatLineStructuredTextForReading(detail.text),
+      ),
     };
   }
 
@@ -1159,7 +1168,7 @@ async function loadCourseLessonFromPath(selection: Omit<CourseLessonSelection, "
       id: detail.id,
       path: detail.jsonPath,
       title,
-      text: `${title}\n${detail.text}`,
+      text: withReadingTitle(title, formatShuimuForReading(detail.blocks, detail.text)),
     };
   }
 
@@ -1171,7 +1180,7 @@ async function loadCourseLessonFromPath(selection: Omit<CourseLessonSelection, "
       id: detail.id,
       path: detail.jsonPath,
       title,
-      text: `${title}\n${detail.text}`,
+      text: withReadingTitle(title, formatProseForReading(detail.blocks, detail.text)),
     };
   }
 
@@ -1183,7 +1192,7 @@ async function loadCourseLessonFromPath(selection: Omit<CourseLessonSelection, "
       id: detail.id,
       path: detail.jsonPath,
       title,
-      text: `${title}\n${detail.text}`,
+      text: withReadingTitle(title, formatProseForReading(detail.blocks, detail.text)),
     };
   }
 
@@ -1195,7 +1204,7 @@ async function loadCourseLessonFromPath(selection: Omit<CourseLessonSelection, "
       id: detail.id,
       path: detail.jsonPath,
       title,
-      text: `${title}\n${detail.text}`,
+      text: withReadingTitle(title, formatProseForReading(detail.blocks, detail.text)),
     };
   }
 
@@ -1207,7 +1216,7 @@ async function loadCourseLessonFromPath(selection: Omit<CourseLessonSelection, "
       id: detail.id,
       path: detail.jsonPath,
       title,
-      text: `${title}\n${detail.text}`,
+      text: withReadingTitle(title, formatProseForReading(detail.blocks, detail.text)),
     };
   }
 
@@ -1220,7 +1229,7 @@ async function loadCourseLessonFromPath(selection: Omit<CourseLessonSelection, "
     id: detail.id,
     path: detail.jsonPath,
     title,
-    text: `${title}${authorLabel}\n${detail.text}`,
+    text: withReadingTitle(`${title}${authorLabel}`, formatProseForReading(detail.blocks, detail.text)),
   };
 }
 

@@ -54,6 +54,7 @@
     "review:init:college-english": "python tools/create-college-english-review-ledger.py",
     "review:record:college-english": "python tools/record-college-english-review.py",
     "review:apply:college-english": "python tools/generate-college-english-data.py",
+    "review:init:reading-layout": "node tools/create-reading-layout-ledger.mjs",
     "verify:short-links": "node tools/verify-short-links.mjs",
     "verify:downloads": "node tools/check-downloads.mjs",
     "verify:responsive": "node tools/verify-responsive-breakpoints.mjs"

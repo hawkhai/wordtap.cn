@@ -48,6 +48,10 @@ for (const level of manifest.levels) {
     invariant(detail.text.trim().length > 100, `${lesson.id}: lesson text is unexpectedly short`);
     invariant(detail.blocks.length > 3, `${lesson.id}: lesson blocks are unexpectedly sparse`);
     invariant(detail.text === detail.blocks.map((block) => block.text).join("\n"), `${lesson.id}: text and blocks differ`);
+    invariant(
+      !/^第[一二三四五六七八九十百零〇两\d]+单元$/u.test(detail.blocks.at(-1)?.text ?? ""),
+      `${lesson.id}: trailing next-unit marker remains`,
+    );
     invariant(!absolutePathPattern.test(detail.text), `${lesson.id}: leaked absolute source path`);
     invariant(!/[\uE000-\uF8FF]/u.test(detail.text), `${lesson.id}: private-use character remains`);
     invariant(!/[\u0000-\u0008\u000B\u000C\u000E-\u001F\u007F\u200B-\u200F\u202A-\u202E\u2060-\u206F\uFEFF\uFFFD]/u.test(detail.text), `${lesson.id}: unsafe or invisible character remains`);

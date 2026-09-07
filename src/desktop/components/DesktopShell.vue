@@ -453,7 +453,7 @@ function handleCourseLessonSelect(selection: CourseLessonSelection): void {
               </span>
             </div>
             <div
-              class="study-reader overflow-auto whitespace-pre-wrap p-4 text-2xl leading-[2.4rem]"
+              class="study-reader overflow-auto whitespace-pre-wrap text-2xl leading-[2.4rem]"
               lang="en"
               data-testid="study-text"
             >

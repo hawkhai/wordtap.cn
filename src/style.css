@@ -660,6 +660,9 @@
     font-family: var(--wordtap-reading-font-family);
     font-size: var(--wordtap-reading-font-size);
     line-height: var(--wordtap-reading-line-height);
+    width: min(100%, 76ch);
+    margin-inline: auto;
+    padding: clamp(1rem, 2.5vw, 2rem);
     min-height: 30rem;
     border: 0;
     border-radius: 0.2rem;
@@ -668,6 +671,7 @@
       #fffdf7;
     background-size: 100% 2.4rem;
     color: #1f2b26;
+    letter-spacing: 0.008em;
     box-shadow:
       inset 0 0 0 1px rgba(102, 128, 111, 0.14),
       0 18px 46px rgba(42, 67, 56, 0.08);
