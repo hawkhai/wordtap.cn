@@ -18,9 +18,9 @@
   },
   "scripts": {
     "dev": "vite",
-    "prebuild": "node tools/check-downloads.mjs && node tools/verify-responsive-breakpoints.mjs",
+    "prebuild": "node --test tools/static-page-design.test.mjs && node tools/check-downloads.mjs && node tools/verify-responsive-breakpoints.mjs",
     "build": "vue-tsc --noEmit && vite build",
-    "postbuild": "node tools/generate-nce-pages.mjs && node tools/generate-shuimu-pages.mjs && node tools/generate-postgraduate-pages.mjs && node tools/generate-pep-english-pages.mjs && node tools/generate-college-english-pages.mjs && node tools/generate-cet-pages.mjs && node tools/generate-kaoyan-english-pages.mjs && node tools/generate-exam-pages.mjs && node tools/generate-install-guide-pages.mjs && node tools/verify-short-links.mjs && node tools/verify-exam.mjs",
+    "postbuild": "node tools/generate-nce-pages.mjs && node tools/generate-shuimu-pages.mjs && node tools/generate-postgraduate-pages.mjs && node tools/generate-pep-english-pages.mjs && node tools/generate-college-english-pages.mjs && node tools/generate-cet-pages.mjs && node tools/generate-kaoyan-english-pages.mjs && node tools/generate-exam-pages.mjs && node tools/generate-install-guide-pages.mjs && node tools/verify-short-links.mjs && node tools/verify-exam.mjs && node tools/verify-static-design.mjs",
     "preview": "vite preview --host 127.0.0.1",
     "typecheck": "vue-tsc --noEmit",
     "verify": "node tools/verify.mjs",

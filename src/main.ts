@@ -3,6 +3,7 @@ import App from "./App.vue";
 import "./style.css";
 import "./desktop/styles/desktop.css";
 import "./mobile/styles/mobile.css";
+import "./design.css";
 
 createApp(App).mount("#app");
 

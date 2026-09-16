@@ -1,0 +1,80 @@
+/* CF Design / Arco semantic tokens, applied to the existing Vue controls. */
+@import "./design-tokens.css";
+
+body { background: var(--wt-background); color: var(--wt-text); }
+.study-shell { color: var(--wt-text); max-width: var(--wt-content-max-width); }
+.study-workspace { gap: 24px; }
+.study-brandbar { padding: 16px 0; }
+.brand-mark { box-shadow: none; border-radius: 12px; }
+.brand-title { color: var(--wt-text); text-shadow: none; letter-spacing: -0.025em; }
+.brand-domain { color: var(--wt-primary); }
+.brand-tagline, .study-control, .study-count, .study-dictionary-info { color: var(--wt-secondary); }
+.study-course-links { gap: 8px 16px; padding-left: 0; font-weight: 400; }
+.study-course-links a, .study-course-links button { color: var(--wt-secondary); }
+.study-course-links a:hover, .study-course-links button:hover { color: var(--wt-primary); }
+.study-nav { background: #f2f3f5; border-color: var(--wt-border); box-shadow: none; border-radius: 8px; padding: 4px; }
+.study-nav-button { color: var(--wt-secondary); font-weight: 500; }
+.study-nav-button-active, .study-nav-button-active:hover { background: var(--wt-surface); color: var(--wt-primary); box-shadow: 0 2px 5px rgb(29 33 41 / 8%); }
+.study-nav-button-active::after { background: var(--wt-primary); height: 2px; }
+.study-nav-button:hover:not(.study-nav-button-active) { background: var(--wt-border); color: var(--wt-text); }
+.study-status { background: var(--wt-primary-soft); color: #072ca6; border-color: transparent; box-shadow: none; }
+.study-desk { background: var(--wt-surface); border-color: var(--wt-border); border-radius: 12px; box-shadow: 0 4px 16px rgb(29 33 41 / 4%); }
+.study-word-card { background: #f7f8fa; border-color: var(--wt-border); box-shadow: none; border-radius: 12px 12px 0 0; }
+.study-panel-title { color: var(--wt-secondary); font-weight: 500; }
+.study-current-word { color: var(--wt-text); border-color: var(--wt-border); }
+.study-meaning { background: var(--wt-surface); color: var(--wt-text); border-color: var(--wt-border); }
+.study-select { background: var(--wt-surface); border-color: var(--wt-border); color: var(--wt-text); transition: border-color 150ms ease-out; }
+.study-select:hover { border-color: #94bfff; }
+.study-toggle { color: var(--wt-secondary); }
+.study-toggle input { accent-color: var(--wt-primary); }
+.study-history-mini > div { background: var(--wt-surface); border-color: var(--wt-border); }
+.study-history-mini strong { color: var(--wt-text); }
+.study-history-mini span { color: var(--wt-secondary); }
+.study-compose { background: var(--wt-surface); border-color: var(--wt-border); border-radius: 0 12px 0 0; padding: 24px; }
+.study-course-grid { background: #f7f8fa; border-color: var(--wt-border); border-radius: 8px; gap: 4px; padding: 4px; }
+.study-course-row > .nce-dropdown > .study-button { color: var(--wt-secondary); }
+.study-course-row > .nce-dropdown > .study-button:hover:not(:disabled) { color: var(--wt-primary); background: var(--wt-primary-soft); }
+.study-course-row .nce-button-active { color: var(--wt-primary); box-shadow: inset 0 -2px 0 var(--wt-primary); }
+.study-button { background: var(--wt-surface); color: var(--wt-text); border-color: var(--wt-border); font-size: 14px; font-weight: 500; cursor: pointer; }
+.study-button:hover:not(:disabled) { background: #f2f3f5; border-color: #c9cdd4; box-shadow: none; }
+.study-button-primary { background: var(--wt-primary); border-color: var(--wt-primary); color: white; }
+.study-button-primary:hover:not(:disabled) { background: var(--wt-primary-hover); border-color: var(--wt-primary-hover); }
+.study-button:active:not(:disabled) { background: var(--wt-primary-soft); }
+.study-button-primary:active:not(:disabled) { background: #072ca6; }
+.study-button:disabled { background: #f2f3f5; color: #86909c; opacity: 1; }
+.study-input { background: #f7f8fa; border: 1px solid var(--wt-border); box-shadow: none; color: var(--wt-text); }
+.study-input::placeholder { color: var(--wt-secondary); }
+.study-reading-surface { padding: 24px; }
+.study-reader { background: #fff; color: var(--wt-text); box-shadow: none; border-radius: 8px; width: min(100%, 68ch); }
+.study-word { color: var(--wt-text); }
+.study-word:hover { background: var(--wt-primary-soft); color: #072ca6; }
+.study-word-selected { background: #bedaff; color: #031a79; box-shadow: inset 0 -2px 0 var(--wt-primary); }
+.study-word-learned:not(.study-word-selected) { background: #fff7e8; color: #792e00; box-shadow: inset 0 -1px 0 #ffcf8b; }
+.study-word-popover { background: var(--wt-surface); border-color: var(--wt-border); box-shadow: 0 8px 24px rgb(29 33 41 / 12%); }
+.study-word-popover-word { color: var(--wt-primary); }
+.study-word-popover-meaning { color: var(--wt-text); }
+.study-top-download { background: #e8f3ff; color: #072ca6; box-shadow: none; }
+.study-top-download-link { color: var(--wt-primary); background: white; }
+.study-text-history-bar { color: var(--wt-secondary); }
+.study-mobile-settings { margin-top: 16px; border-top: 1px solid var(--wt-border); }
+.study-mobile-settings summary { min-height: 44px; padding-block: 12px; color: var(--wt-secondary); font-size: 14px; cursor: pointer; }
+.study-mobile-settings summary:hover { color: var(--wt-primary); }
+.study-mobile-settings summary:focus-visible { outline: 2px solid var(--wt-primary); outline-offset: 3px; }
+.study-mobile-settings[open] { padding-bottom: 16px; }
+.study-shell :is(button, a, input, select, textarea):focus-visible { outline: 2px solid var(--wt-primary); outline-offset: 3px; }
+
+@media (min-width: 1024px) {
+  .study-word-card { border-radius: 12px 0 0 12px; border-right-color: var(--wt-border); }
+}
+@media (max-width: 767px) {
+  .study-workspace { gap: 16px; }
+  .study-brandbar { padding: 8px 0; }
+  .study-compose, .study-reading-surface { padding: 16px; }
+  .study-reader { padding: 8px; }
+  .study-meaning { height: auto; min-height: 80px; max-height: 156px; }
+  .study-shell .study-button, .study-select { min-height: 44px; }
+  .study-course-row > .nce-dropdown > .study-button { min-height: 44px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .study-shell *, .study-shell *::after { transition: none !important; animation: none !important; }
+}

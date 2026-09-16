@@ -250,6 +250,8 @@ onUnmounted(() => {
             {{ meaning }}
           </div>
 
+          <details class="study-mobile-settings">
+            <summary>查词与朗读设置</summary>
           <label class="study-control mt-4 grid grid-cols-[5.5rem_minmax(0,1fr)] items-center gap-3">
             <span>{{ copy.template.translateModeLabel }}</span>
             <select
@@ -339,6 +341,7 @@ onUnmounted(() => {
             >
             <span>{{ copy.template.markLearnedLabel }}</span>
           </label>
+          </details>
 
           <div
             class="study-history-mini mt-4 grid grid-cols-2 gap-2 text-sm"

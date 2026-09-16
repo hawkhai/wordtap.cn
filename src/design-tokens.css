@@ -1,0 +1,11 @@
+:root {
+  --wt-content-max-width: 88rem;
+  --wt-primary: #165dff;
+  --wt-primary-hover: #0e42d2;
+  --wt-primary-soft: #e8f3ff;
+  --wt-text: #1d2129;
+  --wt-secondary: #4e5969;
+  --wt-border: #e5e6eb;
+  --wt-surface: #ffffff;
+  --wt-background: #f7f8fa;
+}
