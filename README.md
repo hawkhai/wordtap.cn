@@ -52,7 +52,7 @@ tools/                            # 构建、课程生成与验证脚本
 
 ## 本地数据
 
-WordTap 使用 IndexedDB 数据库 `wordtap-study-history`，当前版本为 4。
+WordTap 使用 IndexedDB 数据库 `wordtap-study-history`，当前版本为 5。
 
 主要存储：
 
@@ -61,6 +61,9 @@ WordTap 使用 IndexedDB 数据库 `wordtap-study-history`，当前版本为 4�
 - `translation_cache`：翻译缓存。
 - `audio_cache`：Gateway 生成的全文朗读音频。
 - `audio_cache_meta`：音频缓存元数据。
+- `exam_progress`、`exam_word_encounters`：考试进度与考试生词。
+
+考试学习页的“导出学习数据”会备份单词、保存的文章、考试进度和考试生词；导入时会与本机记录合并。翻译和音频缓存可重新生成，不包含在备份中。
 
 限制规则：
 

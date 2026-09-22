@@ -53,6 +53,7 @@ export type ExamWordEncounterRecord = {
 
 export type LearningDataImportResult = {
   words: number;
+  texts: number;
   examProgress: number;
   examWords: number;
 };
@@ -596,15 +597,17 @@ export function exportStudyHistoryJson(records: StudyHistoryRecord[]): string {
 }
 
 export async function exportCompleteLearningDataJson(): Promise<string> {
-  const [words, examProgress, examWords] = await Promise.all([
+  const [words, texts, examProgress, examWords] = await Promise.all([
     listStudyHistory(),
+    listStudyTexts(),
     listExamProgress(),
     listExamWordEncounters(),
   ]);
   return `${JSON.stringify({
-    schemaVersion: 2,
+    schemaVersion: 3,
     exportedAt: new Date().toISOString(),
     words,
+    texts,
     examProgress,
     examWords,
   }, null, 2)}\n`;
@@ -613,24 +616,29 @@ export async function exportCompleteLearningDataJson(): Promise<string> {
 export async function importCompleteLearningDataJson(text: string): Promise<LearningDataImportResult> {
   const payload = JSON.parse(stripBom(text)) as unknown;
   if (Array.isArray(payload)) {
-    return { words: await importStudyHistoryJson(text), examProgress: 0, examWords: 0 };
+    return { words: await importStudyHistoryJson(text), texts: 0, examProgress: 0, examWords: 0 };
   }
   if (!payload || typeof payload !== "object") {
     throw new Error(siteCopy.historyStore.noImportRecords);
   }
   const data = payload as Record<string, unknown>;
   const rawWords = Array.isArray(data.words) ? data.words : [];
+  const rawTexts = Array.isArray(data.texts) ? data.texts : [];
   const rawProgress = Array.isArray(data.examProgress) ? data.examProgress : [];
   const rawExamWords = Array.isArray(data.examWords) ? data.examWords : [];
-  if (!rawWords.length && !rawProgress.length && !rawExamWords.length) {
+  if (!rawWords.length && !rawTexts.length && !rawProgress.length && !rawExamWords.length) {
     throw new Error(siteCopy.historyStore.noImportRecords);
   }
 
   const words = rawWords.map(normalizeImportedRecord).filter((record): record is StudyHistoryRecord => Boolean(record));
+  const texts = (await Promise.all(rawTexts.map(normalizeImportedText))).filter((record): record is StudyTextRecord => Boolean(record));
   const progress = rawProgress.map(normalizeImportedExamProgress).filter((record): record is ExamProgressRecord => Boolean(record));
   const examWords = rawExamWords.map(normalizeImportedExamWord).filter((record): record is ExamWordEncounterRecord => Boolean(record));
+  if (!words.length && !texts.length && !progress.length && !examWords.length) {
+    throw new Error(siteCopy.historyStore.noImportRecords);
+  }
   const db = await openDb();
-  const storeNames = [wordsStoreName, examProgressStoreName, examWordEncountersStoreName];
+  const storeNames = [wordsStoreName, textsStoreName, examProgressStoreName, examWordEncountersStoreName];
   const tx = db.transaction(storeNames, "readwrite");
 
   for (const record of words) {
@@ -641,6 +649,16 @@ export async function importCompleteLearningDataJson(text: string): Promise<Lear
       meaning: record.meaning || current.meaning,
       count: Math.max(current.count, record.count),
       firstSeen: minIso(current.firstSeen, record.firstSeen),
+      lastSeen: maxIso(current.lastSeen, record.lastSeen),
+    } : record);
+  }
+  for (const record of texts) {
+    const store = tx.objectStore(textsStoreName);
+    const current = await requestToPromise<StudyTextRecord | undefined>(store.get(record.id));
+    store.put(current ? {
+      ...record,
+      count: Math.max(current.count, record.count),
+      createdAt: minIso(current.createdAt, record.createdAt),
       lastSeen: maxIso(current.lastSeen, record.lastSeen),
     } : record);
   }
@@ -661,7 +679,25 @@ export async function importCompleteLearningDataJson(text: string): Promise<Lear
     } : record);
   }
   await transactionDone(tx);
-  return { words: words.length, examProgress: progress.length, examWords: examWords.length };
+  if (texts.length) await pruneTextHistory();
+  return { words: words.length, texts: texts.length, examProgress: progress.length, examWords: examWords.length };
+}
+
+async function normalizeImportedText(raw: unknown): Promise<StudyTextRecord | null> {
+  if (!raw || typeof raw !== "object") return null;
+  const record = raw as Partial<StudyTextRecord>;
+  if (typeof record.text !== "string") return null;
+  const text = normalizeArticleText(record.text);
+  if (!text || text.length > maxTextHistoryChars) return null;
+  const createdAt = normalizeDate(record.createdAt) ?? new Date().toISOString();
+  return {
+    id: await textHistoryId(text),
+    title: makeTextHistoryTitle(text),
+    text,
+    count: normalizeCount(record.count),
+    createdAt,
+    lastSeen: normalizeDate(record.lastSeen) ?? createdAt,
+  };
 }
 
 function normalizeImportedRecord(raw: unknown): StudyHistoryRecord | null {

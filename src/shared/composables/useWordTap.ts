@@ -666,6 +666,9 @@ function chooseExamDataImportFile(): void {
 async function exportCompleteLearningData(): Promise<void> {
   examDataFeedback.value = "";
   try {
+    if (sourceTextTouched && sourceText.value.trim() && sourceText.value.trim() !== lastAutoSavedText) {
+      await saveCurrentTextHistory({ announce: false });
+    }
     const data = await exportCompleteLearningDataJson();
     const blob = new Blob([data], { type: "application/json;charset=utf-8" });
     const link = document.createElement("a");
@@ -697,9 +700,9 @@ async function importCompleteLearningData(event: Event): Promise<void> {
   examDataFeedback.value = "";
   try {
     const result = await importCompleteLearningDataJson(await file.text());
-    await Promise.all([reloadHistory(), reloadExamData()]);
-    examDataFeedback.value = `已导入 ${result.words} 个单词、${result.examProgress} 条进度和 ${result.examWords} 条考试生词。`;
-    status.value = `已导入 ${result.words} 个单词、${result.examProgress} 条进度和 ${result.examWords} 条考试生词。`;
+    await Promise.all([reloadHistory(), reloadTextHistory(), reloadExamData()]);
+    examDataFeedback.value = `已导入 ${result.words} 个单词、${result.texts} 篇文章、${result.examProgress} 条进度和 ${result.examWords} 条考试生词。`;
+    status.value = examDataFeedback.value;
   } catch (error) {
     console.warn("Unable to import learning data", error);
     examDataFeedback.value = error instanceof Error ? error.message : "学习数据导入失败。";
@@ -2657,16 +2660,21 @@ async function handleGatewayDownload(event: MouseEvent): Promise<void> {
 
   openInstallGuide(gatewayInstallGuideUrl);
 
+  // Cross-origin downloads cannot be probed reliably without CORS. Let the
+  // browser follow the verified official link in that case.
+  if (new URL(gatewayDownloadUrl).origin !== window.location.origin) return;
+  event.preventDefault();
+
   try {
     const response = await fetchWithTimeout(gatewayDownloadUrl, { method: "HEAD", cache: "no-store" }, NETWORK_HEAD_PROBE);
     if (response.ok) {
+      window.location.assign(gatewayDownloadUrl);
       return;
     }
   } catch {
     // Fall through to the visible status message below.
   }
 
-  event.preventDefault();
   status.value = copy.status.gatewayInstallerNotReady;
 }
 
@@ -2685,16 +2693,19 @@ async function handleWordTapWindowsDownload(event: MouseEvent): Promise<void> {
 
   openInstallGuide(wordTapWindowsInstallGuideUrl);
 
+  if (new URL(wordTapWindowsDownloadUrl).origin !== window.location.origin) return;
+  event.preventDefault();
+
   try {
     const response = await fetchWithTimeout(wordTapWindowsDownloadUrl, { method: "HEAD", cache: "no-store" }, NETWORK_HEAD_PROBE);
     if (response.ok) {
+      window.location.assign(wordTapWindowsDownloadUrl);
       return;
     }
   } catch {
     // Fall through to the visible status message below.
   }
 
-  event.preventDefault();
   status.value = copy.status.wordTapInstallerNotReady;
 }
 
