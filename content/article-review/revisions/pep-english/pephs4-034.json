@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "course": "pep-english",
+  "articleId": "pephs4-034",
+  "beforeDisplaySha256": "b0ec1421bdbf1b88338613e019e2c332b42a4adc17918058c33904bee6a331a6",
+  "afterDisplaySha256": "b0ec1421bdbf1b88338613e019e2c332b42a4adc17918058c33904bee6a331a6",
+  "baselineDisplay": {
+    "title": "Sherry Wilson’s Shark Attack",
+    "section": "Listening and Speaking",
+    "text": "In Hawaii, a shark bit off the right arm of a 23-year-old surfer while she was on her board in clear water. Sherry Wilson lost her right arm just below the shoulder. Daniel Wilson said his daughter was resting in hospital.",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "In Hawaii, a shark bit off the right arm of a 23-year-old surfer while she was on her board in clear water. Sherry Wilson lost her right arm just below the shoulder. Daniel Wilson said his daughter was resting in hospital."
+      }
+    ]
+  },
+  "display": {
+    "title": "Sherry Wilson’s Shark Attack",
+    "section": "Listening and Speaking",
+    "text": "In Hawaii, a shark bit off the right arm of a 23-year-old surfer while she was on her board in clear water. Sherry Wilson lost her right arm just below the shoulder. Daniel Wilson said his daughter was resting in hospital.",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "In Hawaii, a shark bit off the right arm of a 23-year-old surfer while she was on her board in clear water. Sherry Wilson lost her right arm just below the shoulder. Daniel Wilson said his daughter was resting in hospital."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "path": "content/pep-english/raw/senior-selective-4.pdf",
+      "locator": "PDF第84-84页，标题与完整正文逐行核对",
+      "checked": true,
+      "sha256": "2ad7555a13eb420aa70497f9faa2541fdb502b7ffc4e063e87c60cce88f1b4a3"
+    },
+    {
+      "path": "content/pep-english/raw/senior-selective-4/senior-selective-4_84.jpg",
+      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
+      "checked": true,
+      "sha256": "45550544dca70ab1c3b9cb6057101faf48f9c03dbac67d95aa38870adabd2c6e"
+    }
+  ],
+  "corrections": [],
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "reviewer": "Codex",
+  "reviewedAt": "2026-10-02T08:00:18+00:00",
+  "notes": "通读复核第84页第二则教学新闻，Sherry Wilson、Daniel Wilson、23岁和右臂伤处均与原页一致。既有编辑标题概括本文人物事件，不与另一个真实冲浪者事件混同改名，无改动。",
+  "issues": [],
+  "status": "passed_unchanged"
+}

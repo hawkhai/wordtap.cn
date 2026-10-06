@@ -1,0 +1,37 @@
+{
+  "article": "nce/nce3-055",
+  "fullRead": "30条当前与最终中英全文通读；原LRC全文沿用已核读。",
+  "sources": [
+    {
+      "path": "content/article-review/source-evidence/shuimu-upper-055-recheck.json",
+      "readScope": "全文重读，15项NASA/ESA/ESO/Smithsonian查证及引文未核实记录。"
+    },
+    {
+      "url": "https://science.nasa.gov/exoplanets/big-questions/",
+      "readScope": "本轮官方搜索摘要：地球唯一已知有生命世界。"
+    },
+    {
+      "url": "https://science.nasa.gov/mission/hubble/science/science-behind-the-discoveries/hubble-exoplanets/",
+      "readScope": "本轮官方搜索摘要：Hubble行星大气研究。"
+    },
+    {
+      "url": "https://science.nasa.gov/blogs/webb/2024/06/05/reconnaissance-of-potentially-habitable-worlds-with-nasas-webb/",
+      "readScope": "本轮官方搜索摘要：凌星光穿过大气及观测限制。"
+    },
+    {
+      "url": "https://esawebb.org/about/faq/",
+      "readScope": "本轮官方搜索摘要L2/150万公里，此前第4/7节全文核查。"
+    },
+    {
+      "url": "https://www.si.edu/exhibitions/early-life-earliest-traces-life%3Aevent-exhib-145",
+      "readScope": "本轮官方搜索摘要35亿年前生命遗迹；不据其通俗措辞断言当时是现代植物或确定蓝细菌物种。"
+    }
+  ],
+  "editorialChanges": [
+    "原天文与生命史错误作为编辑修订，不称OCR；旧音频显式注明。",
+    "删除金星火星绝无生命、地面不能探测、必须到木星等绝对断言；宜居条件与生命证据区分。",
+    "微生物与动植物区分，产氧限蓝细菌等光合生物；不能预言地外一定最可能细菌。",
+    "Goldin引文未能核对，改为明确假设的普通评述；问题同步。"
+  ],
+  "unresolved": []
+}

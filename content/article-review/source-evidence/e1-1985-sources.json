@@ -1,0 +1,86 @@
+{
+  "article": "e1-1985",
+  "checkedAt": "2026-10-03",
+  "sourcePdfPhysicalPagesRead": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+  ],
+  "sources": [
+    {
+      "url": "https://www.itftennis.com/en/news-and-media/articles/history-of-tennis/",
+      "scope": "国际网联2021-11-16文章由检索展开全文实际读，历史根源及Wingfield、MCC、Wimbledon规则发展；不把网球全部起源归给一人，也未把文内有争议的早期起源猜测写为定论。"
+    },
+    {
+      "url": "https://dictionary.cambridge.org/grammar/british-grammar/not-only-but-also",
+      "scope": "语法条目检索全文实际读，平行结构及谓语省略例句；第45原预期修改需覆盖not only read，不可仅替换not only而重复read。"
+    },
+    {
+      "url": "https://dictionary.cambridge.org/us/grammar/british-grammar/must",
+      "scope": "检索展开全文实际读，过去推测must have+过去分词，第53down→done。"
+    },
+    {
+      "url": "https://solarscience.msfc.nasa.gov/surface.shtml",
+      "scope": "NASA The Photosphere两个介绍段实际读，临边昏暗源于视线穿过较高较冷光球层，以及合适太阳滤镜观察条件；未称后续全部专题读过。"
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/stand-by",
+      "scope": "检索词典stand by someone支持/帮助释义例句实际读；阅读示例是编辑新补题干，不声称原稿句子找回。"
+    },
+    {
+      "url": "https://dictionary.cambridge.org/us/grammar/british-grammar/adverbs-and-adverb-phrases",
+      "scope": "检索展开语法条目全文实际读，副词常在be之后但强调时可前置；不将第7答案泛化为所有句子规则。"
+    },
+    {
+      "url": "https://digital.la84.org/digital/collection/p17103coll8/id/38731/",
+      "scope": "官方报告目录元数据检索实际读，洛杉矶1984为Games of the XXIIIrd Olympiad；未通读整套奥运报告。"
+    },
+    {
+      "url": "https://dictionary.cambridge.org/grammar/british-grammar/ellipsis",
+      "scope": "检索实际读引言、Textual ellipsis与助动词省略部分，含协调结构省略例句；第45/46/50按不同句法理解区分原预期与绝对错误。"
+    },
+    {
+      "url": "https://dictionary.cambridge.org/us/grammar/british-grammar/either-or",
+      "scope": "检索语法正文全文实际读，同类词组协调，第14B平衡结构。"
+    },
+    {
+      "url": "https://www.atanet.org/wp-content/uploads/2020/06/Into_English_Grading_2017.pdf",
+      "scope": "美国翻译协会评分说明的检索段落实际读，清楚自然的短语分裂不定式不判错；未通读PDF。"
+    },
+    {
+      "url": "https://www.chicagomanualofstyle.org/qanda/data/faq/topics/SplitInfinitives/faq0001.html",
+      "scope": "检索问答实际读，自1983版不反对分裂不定式；未称全书已读。"
+    },
+    {
+      "url": "https://dictionary.cambridge.org/us/dictionary/english/rather",
+      "scope": "检索rather better卧室例句实际读；第5A也有合理语义。"
+    }
+  ],
+  "limitations": [
+    "13原块全文及13原图全部实际读；最终231块全文复读，最后第74译文lists改清单后再次读变更块。",
+    "原图本身漏阅读示例题干、six houses、must have down、中译手机等错误，修改明示编辑修复，不冒称OCR单独造成。",
+    "第30是理解原论证而非无年代行业统计；电视篇作者观点按历史语境保留。",
+    "未获得官方评分细则。第5、14、20、24、33、36、45、46、50、53及开放题均按合理语义区分，不造唯一解。",
+    "第45必须整体移动not only read，第46recognize可受how to支配，第50有协调分句理解；原参考答案是其中一种编辑取向。",
+    "16个翻译范围66–81全部按原图标明，译文修复形式/表格、清单/专栏、信息/决策质量上限等。"
+  ],
+  "answerChecks": {
+    "choices": "ABCBDCDAADBCABC",
+    "cloze": "ABDCCDABDA",
+    "reading": "CAABA（30A已限为原文论证）",
+    "vocabulary": "BAAAAABBDD",
+    "errors": "D/C/B/D/B/C/C/D/D/C（变体与替换范围见说明）"
+  },
+  "rawSha256": "113b4d86ff6210acc010c09a7e5e51c55e979a6512c488be56a9c12de10353b1",
+  "pdfSha256": "525227c90a3228ef9191b7aac8949d271348ab9fc9d8d437d41f7937b10bd121"
+}

@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "course": "pep-english",
+  "articleId": "pephr1-015",
+  "beforeDisplaySha256": "6281e9c59255f6c89b9cb59d10c2aba869d947c32ccc3b802491e942776b1dec",
+  "afterDisplaySha256": "6281e9c59255f6c89b9cb59d10c2aba869d947c32ccc3b802491e942776b1dec",
+  "baselineDisplay": {
+    "title": "Going Positive",
+    "section": "Reading for Writing",
+    "text": "I always wanted to look like the slim girls on TV even though I knew that it was impossible. I worried about my weight and tried every new diet I read about online. I tried no-fat, low-fat, 5:2, only bananas, no bananas—I almost went bananas, too.\nThen I read an article that said instead of asking “Am I fat?” I should be asking “Am I fit?” I had no idea a letter could make such a difference! Once I started thinking about fitness rather than weight, things began to change. Instead of saying “I want to lose three kilos”, I would say “I want to run two kilometres in eight minutes” or “I want to be able to do 30 push-ups”. Rather than cutting out the foods I enjoyed, I added healthy foods to my meals. I could still have a burger now and then, but I would add a salad or an apple.\nFinally, I stopped comparing myself with actresses and models and looking for things that were wrong with my face or body. Instead, I made a list of the things I liked about myself. By being positive about myself and my body, I became both happier and healthier.",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "I always wanted to look like the slim girls on TV even though I knew that it was impossible. I worried about my weight and tried every new diet I read about online. I tried no-fat, low-fat, 5:2, only bananas, no bananas—I almost went bananas, too."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Then I read an article that said instead of asking “Am I fat?” I should be asking “Am I fit?” I had no idea a letter could make such a difference! Once I started thinking about fitness rather than weight, things began to change. Instead of saying “I want to lose three kilos”, I would say “I want to run two kilometres in eight minutes” or “I want to be able to do 30 push-ups”. Rather than cutting out the foods I enjoyed, I added healthy foods to my meals. I could still have a burger now and then, but I would add a salad or an apple."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Finally, I stopped comparing myself with actresses and models and looking for things that were wrong with my face or body. Instead, I made a list of the things I liked about myself. By being positive about myself and my body, I became both happier and healthier."
+      }
+    ]
+  },
+  "display": {
+    "title": "Going Positive",
+    "section": "Reading for Writing",
+    "text": "I always wanted to look like the slim girls on TV even though I knew that it was impossible. I worried about my weight and tried every new diet I read about online. I tried no-fat, low-fat, 5:2, only bananas, no bananas—I almost went bananas, too.\nThen I read an article that said instead of asking “Am I fat?” I should be asking “Am I fit?” I had no idea a letter could make such a difference! Once I started thinking about fitness rather than weight, things began to change. Instead of saying “I want to lose three kilos”, I would say “I want to run two kilometres in eight minutes” or “I want to be able to do 30 push-ups”. Rather than cutting out the foods I enjoyed, I added healthy foods to my meals. I could still have a burger now and then, but I would add a salad or an apple.\nFinally, I stopped comparing myself with actresses and models and looking for things that were wrong with my face or body. Instead, I made a list of the things I liked about myself. By being positive about myself and my body, I became both happier and healthier.",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "I always wanted to look like the slim girls on TV even though I knew that it was impossible. I worried about my weight and tried every new diet I read about online. I tried no-fat, low-fat, 5:2, only bananas, no bananas—I almost went bananas, too."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Then I read an article that said instead of asking “Am I fat?” I should be asking “Am I fit?” I had no idea a letter could make such a difference! Once I started thinking about fitness rather than weight, things began to change. Instead of saying “I want to lose three kilos”, I would say “I want to run two kilometres in eight minutes” or “I want to be able to do 30 push-ups”. Rather than cutting out the foods I enjoyed, I added healthy foods to my meals. I could still have a burger now and then, but I would add a salad or an apple."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Finally, I stopped comparing myself with actresses and models and looking for things that were wrong with my face or body. Instead, I made a list of the things I liked about myself. By being positive about myself and my body, I became both happier and healthier."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "path": "content/pep-english/raw/senior-required-1.pdf",
+      "locator": "PDF第49-49页，标题与完整正文逐行核对",
+      "checked": true,
+      "sha256": "ffe985a370964820aa003008f48c7cf17b5e0dff8eb29fe54cd4743b0c4e8c79"
+    },
+    {
+      "path": "content/pep-english/raw/senior-required-1/senior-required-1_49.jpg",
+      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
+      "checked": true,
+      "sha256": "bf206efddff847041647bce887e7d4875b947393429921f4aba0ef0cbae17495"
+    }
+  ],
+  "corrections": [],
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "reviewer": "Codex",
+  "reviewedAt": "2026-10-02T05:24:22+00:00",
+  "notes": "PDF第49页Going Positive三段全文逐行核对，5:2、fat/fit文字对照、三公斤/两公里八分钟/30俯卧撑及积极看待身体结尾一致。保留原文引号及段落，无修改。",
+  "issues": [],
+  "status": "passed_unchanged"
+}

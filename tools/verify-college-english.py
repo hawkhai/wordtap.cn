@@ -15,6 +15,8 @@ from college_english_review import (
     load_events,
     load_ledger,
     validate_passed_rows,
+    text_sha256,
+    reviewed_article,
 )
 
 
@@ -74,7 +76,13 @@ def main() -> int:
         row = row_by_id[article_id]
         current = replay_status[article_id]
         require(event.get("fromStatus") == current, f"{article_id}: event history does not replay from {current}")
-        require(event.get("toStatus") in transitions[current], f"{article_id}: invalid event transition")
+        is_revision = event.get("eventType") == "revision"
+        if is_revision:
+            require(current == "passed" and event.get("toStatus") == "passed", f"{article_id}: revision must continue a passed article")
+            require(event.get("supersedesEventSha256") == latest_event[article_id]["eventSha256"], f"{article_id}: revision supersedes wrong event")
+            require(event.get("beforeTextSha256") == latest_event[article_id]["afterTextSha256"], f"{article_id}: revision baseline hash mismatch")
+        else:
+            require(event.get("toStatus") in transitions[current], f"{article_id}: invalid event transition")
         require(event.get("sequenceNo") == int(row["sequenceNo"]), f"{article_id}: event sequence mismatch")
         require(isinstance(event.get("reviewer"), str) and event["reviewer"].strip(), f"{article_id}: event reviewer is missing")
         require(event["reviewer"].strip().casefold() not in {"auto", "automatic", "automation", "script"}, f"{article_id}: automated reviewer label is forbidden")
@@ -125,6 +133,16 @@ def main() -> int:
         require(detail["text"] == "\n".join(block["text"] for block in detail["blocks"]), f"{summary['id']}: text/blocks mismatch")
         require(detail["manualReview"]["status"] == "passed", f"{summary['id']}: public review status mismatch")
         require(detail["manualReview"]["eventSha256"] == row["eventSha256"], f"{summary['id']}: event hash mismatch")
+        _, signed_text, signed_hash = reviewed_article(row["baselineId"])
+        require(re.sub(r"\s", "", detail["text"]) == re.sub(r"\s", "", signed_text), f"{summary['id']}: published content differs from signed text")
+        if latest_event[row["baselineId"]].get("eventType") == "revision":
+            require(detail["manualReview"]["textSha256"] == signed_hash, f"{summary['id']}: public text signature mismatch")
+            require(text_sha256(detail["text"]) == signed_hash, f"{summary['id']}: published revision whitespace differs from signed text")
+        else:
+            # Older published pages compacted layout whitespace and stored a
+            # display hash. Keep their existing event signatures intact until
+            # the article receives an explicit source-backed revision event.
+            require(detail["manualReview"]["textSha256"] in {signed_hash, text_sha256(detail["text"])}, f"{summary['id']}: invalid legacy display hash")
         require(not contains_absolute_path(detail), f"{summary['id']}: absolute path leaked")
 
     lesson_root = ROOT / "public" / "college-english" / "lessons"

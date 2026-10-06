@@ -1,0 +1,120 @@
+{
+  "date": "2026-10-04",
+  "branch": "main_review",
+  "base": "6fbe064a63e76f4a5079bdff71933fb23bc04bc5",
+  "currentParent": "5716690e76abaec118831b444877035a39680925",
+  "remoteMainParent": "bfd7ebd42a2b0525d02acdf6520d1f437cf4519a",
+  "remoteContentComparison": {
+    "jsonFiles": 721,
+    "lessons": 716,
+    "manifests": 5,
+    "changes": "Inserted spaces and associated characterCount values only",
+    "substantiveRemoteChanges": []
+  },
+  "resolution": {
+    "preservedCurrentLessons": 1054,
+    "preservedCurrentManifests": 7,
+    "existingEvidenceUnchanged": true,
+    "accepted": [
+      "Network-first course JSON refresh with offline fallback",
+      "18 course cache regression tests",
+      "Read-only spacing suggestions and legacy spacing audit history"
+    ],
+    "integration": "Legacy spacing mutations/replay are disabled when source-backed review exists; the build gate verifies the current signed published snapshot without reopening raw sources."
+  },
+  "verification": {
+    "sourceAudit": "Verified 1054 inventory rows, 1054 review records: {'passed_edited': 838, 'passed_unchanged': 216}",
+    "pythonTests": 20,
+    "spacingTests": 15,
+    "cacheTests": 18,
+    "productionBuild": "passed",
+    "browser": {
+      "snapshotRegistered": 1054,
+      "checkedAt": "2026-10-04T07:44:06.407Z",
+      "server": "Vite production preview",
+      "report": [
+        {
+          "name": "nce-glasses",
+          "code": "nce:1-023",
+          "width": 1440,
+          "scrollWidth": 1440,
+          "errors": []
+        },
+        {
+          "name": "nce-robert",
+          "code": "nce:1-007",
+          "width": 1440,
+          "scrollWidth": 1440,
+          "errors": []
+        },
+        {
+          "name": "postgraduate-long",
+          "code": "pg:rwt-09b",
+          "width": 1440,
+          "scrollWidth": 1440,
+          "errors": []
+        },
+        {
+          "name": "nce-science",
+          "code": "nce:3-055",
+          "width": 1440,
+          "scrollWidth": 1440,
+          "errors": []
+        },
+        {
+          "name": "lookup-speech-controls-save",
+          "width": 1440,
+          "meaning": "[hu:z]\npron. 谁的",
+          "counts": {
+            "words": [
+              "Whose"
+            ],
+            "texts": 1
+          },
+          "audibleOutputVerified": false
+        },
+        {
+          "name": "nce-glasses",
+          "code": "nce:1-023",
+          "width": 390,
+          "scrollWidth": 390,
+          "errors": []
+        },
+        {
+          "name": "nce-robert",
+          "code": "nce:1-007",
+          "width": 390,
+          "scrollWidth": 390,
+          "errors": []
+        },
+        {
+          "name": "postgraduate-long",
+          "code": "pg:rwt-09b",
+          "width": 390,
+          "scrollWidth": 390,
+          "errors": []
+        },
+        {
+          "name": "nce-science",
+          "code": "nce:3-055",
+          "width": 390,
+          "scrollWidth": 390,
+          "errors": []
+        },
+        {
+          "name": "lookup-speech-controls-save",
+          "width": 390,
+          "meaning": "[hu:z]\npron. 谁的",
+          "counts": {
+            "words": [
+              "Whose"
+            ],
+            "texts": 1
+          },
+          "audibleOutputVerified": false
+        }
+      ]
+    }
+  },
+  "historicalCompletionEvidence": "completion-2026-10-04.json"
+}

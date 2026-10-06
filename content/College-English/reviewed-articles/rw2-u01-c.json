@@ -23,6 +23,9 @@
     "Corrected OCR losses for 表意的, 睡觉, 水饺, 一块面包, 一张纸, and 一支曲子.",
     "Preserved all six printed paragraph boundaries.",
     "Excluded artwork, headers, footers, QR-code label, and the complete Translation exercise.",
-    "Re-read the complete article against both source images."
+    "Re-read the complete article against both source images.",
+    "2026-10-02: Chinese is an ideographic (表意的) language, and its characters are formed from images. -> Chinese has a character-based writing system: its characters generally represent words or meaningful parts of words. Some early characters developed from pictures.; Unicode Core Specification 6.1 Logosyllabaries：Han文字主要写词或语素；18.1说明ideograph仅在部分早期字形上适合按字面解释，不应将所有汉字统称为图画。",
+    "2026-10-02: its long history and unique ideographic meaning -> its long history and distinctive writing system; Unicode Core Specification 6.1 Logosyllabaries：Han文字主要写词或语素；18.1说明ideograph仅在部分早期字形上适合按字面解释，不应将所有汉字统称为图画。",
+    "User-directed rule restoration; content/article-review/cleanup-2026-10-06.json. No new full-read claim."
   ]
 }

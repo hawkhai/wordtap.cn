@@ -1,0 +1,35 @@
+{
+  "article": "shuimu/upper-026",
+  "fullRead": "89块全文及最终修订通读；原PDF物理135–140页、138–140题组和对话图像定位沿用。",
+  "sources": [
+    {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/pride-yourself-on",
+      "read": "官方词典定义及结构完整读取，pride yourself on (doing) something。"
+    },
+    {
+      "path": "content/article-review/source-evidence/shuimu-upper-025-recheck.json",
+      "read": "前课已核1872两船抵英先后；本课范文历史问答沿用。"
+    }
+  ],
+  "editorialCorrections": [
+    "maximum often改of ten，right Then补句号，对话叙述与引号成对修正；均为原稿错误的显式编辑校勘。",
+    "算术核验：第n题奖金2×2^(n−1)，第9题512，第10题1024；原提纲及范文1024/2048错一档，一并校正。",
+    "in their efforts是目的而非之前；nearly为接近500非500左右；fat不限定动物脂肪；份量改分量，重复因为为改通顺句。19问答补over，并将713磅限定学生参赛前。作者对广告影响的概括不当科学定律，问答注明作者范围；未把无日期品牌的故事冒充独立核实的新闻。",
+    "范文上海航行问题具体到1872年对手，引用第25课已核航海史；范文按原故事保留it双关。",
+    "12选择逐题复核：2改可直接据文回答人物，避免免费/付出成本动机推定；3删多余a；4/5/6/8/9/11/12补题干或限定考点，6相对从句紧接先行词；7/8d补括号；8修完整被动句；9原多个不确定数量表达均可而改唯一合语法选项，12明确anticipated词义。答案不变。"
+  ],
+  "calculation": [
+    2,
+    4,
+    8,
+    16,
+    32,
+    64,
+    128,
+    256,
+    512,
+    1024
+  ],
+  "unresolved": [],
+  "compositionWordCount": 231
+}

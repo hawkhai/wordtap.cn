@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "course": "pep-english",
+  "articleId": "pepj9-004",
+  "beforeDisplaySha256": "3aaa4f5989d9b580abe1e5f0107f79564c61e85d27b8f9eb107856088b5e83db",
+  "afterDisplaySha256": "3aaa4f5989d9b580abe1e5f0107f79564c61e85d27b8f9eb107856088b5e83db",
+  "baselineDisplay": {
+    "title": "The Water Festival in Chiang Mai",
+    "section": "Section A",
+    "text": "Clara: Guess what? I'm going to Chiang Mai in two weeks.\nBen: Wow, sounds like fun! But I believe that April is the hottest month of the year there.\nClara: Yes, that's true. But there's a water festival there from April 13th to 15th.\nBen: I wonder if it's similar to the Water Festival of the Dai people in Yunnan Province.\nClara: Yes, I think so. This is the time of the Thai New Year. People go on the streets to throw water at each other.\nBen: Cool! But why do they do that?\nClara: Because the new year is a time for cleaning and washing away bad things. Then you'll have good luck in the new year.",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Clara: Guess what? I'm going to Chiang Mai in two weeks.\nBen: Wow, sounds like fun! But I believe that April is the hottest month of the year there.\nClara: Yes, that's true. But there's a water festival there from April 13th to 15th.\nBen: I wonder if it's similar to the Water Festival of the Dai people in Yunnan Province.\nClara: Yes, I think so. This is the time of the Thai New Year. People go on the streets to throw water at each other.\nBen: Cool! But why do they do that?\nClara: Because the new year is a time for cleaning and washing away bad things. Then you'll have good luck in the new year."
+      }
+    ]
+  },
+  "display": {
+    "title": "The Water Festival in Chiang Mai",
+    "section": "Section A",
+    "text": "Clara: Guess what? I'm going to Chiang Mai in two weeks.\nBen: Wow, sounds like fun! But I believe that April is the hottest month of the year there.\nClara: Yes, that's true. But there's a water festival there from April 13th to 15th.\nBen: I wonder if it's similar to the Water Festival of the Dai people in Yunnan Province.\nClara: Yes, I think so. This is the time of the Thai New Year. People go on the streets to throw water at each other.\nBen: Cool! But why do they do that?\nClara: Because the new year is a time for cleaning and washing away bad things. Then you'll have good luck in the new year.",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Clara: Guess what? I'm going to Chiang Mai in two weeks.\nBen: Wow, sounds like fun! But I believe that April is the hottest month of the year there.\nClara: Yes, that's true. But there's a water festival there from April 13th to 15th.\nBen: I wonder if it's similar to the Water Festival of the Dai people in Yunnan Province.\nClara: Yes, I think so. This is the time of the Thai New Year. People go on the streets to throw water at each other.\nBen: Cool! But why do they do that?\nClara: Because the new year is a time for cleaning and washing away bad things. Then you'll have good luck in the new year."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "path": "content/pep-english/raw/junior-9.pdf",
+      "locator": "PDF第24-24页，标题与完整正文逐行核对",
+      "checked": true,
+      "sha256": "9c4118021048d901610b673f590ed28c39c04cb2d4f7fd940f83a2d8b2741af7"
+    },
+    {
+      "path": "content/pep-english/raw/junior-9/junior-9_24.jpg",
+      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
+      "checked": true,
+      "sha256": "6d1ec709f5f6b01457be8af90252fe3660d68a208157b4b97ace448ebf02998e"
+    }
+  ],
+  "corrections": [],
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "reviewer": "Codex",
+  "reviewedAt": "2026-10-02T05:06:04+00:00",
+  "notes": "PDF24页印刷10页Clara/Ben七轮逐行核对：Chiang Mai、两周后、4月13至15、云南傣族与泰国新年的比较及泼水寓意准确。人名换行与英文拼写正确，未混入Wu Ming/Harry练习，全文复读无修改。",
+  "issues": [],
+  "status": "passed_unchanged"
+}

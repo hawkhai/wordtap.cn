@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "course": "pep-english",
+  "articleId": "pepj9-034",
+  "beforeDisplaySha256": "ff1ec4225491d67997598766a0bed06a0799082833d285bc26861dedb7396424",
+  "afterDisplaySha256": "ff1ec4225491d67997598766a0bed06a0799082833d285bc26861dedb7396424",
+  "baselineDisplay": {
+    "title": "Nancy Asks Bert for Friendship Advice",
+    "section": "Section A",
+    "text": "Nancy: Hey, Bert. I think I've made Alice mad and I'm not sure what to do about it.\nBert: What happened?\nNancy: You know Julie is Alice's best friend, right?\nBert: Uh-huh.\nNancy: Well, the more I get to know Julie, the more I realize that we have a lot in common. So we've been spending more time together lately.\nBert: But what's wrong with that?\nNancy: Umm... it makes Alice unhappy because she thinks Julie is now better friends with me than with her.\nBert: I see. Mmm... why don't you ask Alice to join you each time you do something with Julie? Then she won't feel left out.\nNancy: Oh, good idea! That can make our friendship stronger.",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Nancy: Hey, Bert. I think I've made Alice mad and I'm not sure what to do about it.\nBert: What happened?\nNancy: You know Julie is Alice's best friend, right?\nBert: Uh-huh.\nNancy: Well, the more I get to know Julie, the more I realize that we have a lot in common. So we've been spending more time together lately.\nBert: But what's wrong with that?\nNancy: Umm... it makes Alice unhappy because she thinks Julie is now better friends with me than with her.\nBert: I see. Mmm... why don't you ask Alice to join you each time you do something with Julie? Then she won't feel left out.\nNancy: Oh, good idea! That can make our friendship stronger."
+      }
+    ]
+  },
+  "display": {
+    "title": "Nancy Asks Bert for Friendship Advice",
+    "section": "Section A",
+    "text": "Nancy: Hey, Bert. I think I've made Alice mad and I'm not sure what to do about it.\nBert: What happened?\nNancy: You know Julie is Alice's best friend, right?\nBert: Uh-huh.\nNancy: Well, the more I get to know Julie, the more I realize that we have a lot in common. So we've been spending more time together lately.\nBert: But what's wrong with that?\nNancy: Umm... it makes Alice unhappy because she thinks Julie is now better friends with me than with her.\nBert: I see. Mmm... why don't you ask Alice to join you each time you do something with Julie? Then she won't feel left out.\nNancy: Oh, good idea! That can make our friendship stronger.",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Nancy: Hey, Bert. I think I've made Alice mad and I'm not sure what to do about it.\nBert: What happened?\nNancy: You know Julie is Alice's best friend, right?\nBert: Uh-huh.\nNancy: Well, the more I get to know Julie, the more I realize that we have a lot in common. So we've been spending more time together lately.\nBert: But what's wrong with that?\nNancy: Umm... it makes Alice unhappy because she thinks Julie is now better friends with me than with her.\nBert: I see. Mmm... why don't you ask Alice to join you each time you do something with Julie? Then she won't feel left out.\nNancy: Oh, good idea! That can make our friendship stronger."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "path": "content/pep-english/raw/junior-9.pdf",
+      "locator": "PDF第96-96页，标题与完整正文逐行核对",
+      "checked": true,
+      "sha256": "9c4118021048d901610b673f590ed28c39c04cb2d4f7fd940f83a2d8b2741af7"
+    },
+    {
+      "path": "content/pep-english/raw/junior-9/junior-9_96.jpg",
+      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
+      "checked": true,
+      "sha256": "ff4fab20f39b3dd228e59e3dfa131be44e9416de2b5be897528d15da4a54bb34"
+    }
+  ],
+  "corrections": [],
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "reviewer": "Codex",
+  "reviewedAt": "2026-10-02T05:13:51+00:00",
+  "notes": "PDF96页印刷82页Nancy/Bert九轮友谊对话逐行对照，Julie与Alice关系、Nancy增多相处时间、邀请Alice避免冷落的建议完整。Uh-huh/Umm/Mmm停顿准确，角色换行正确，未混入上方Tina/Amy听力练习，复读无修改。",
+  "issues": [],
+  "status": "passed_unchanged"
+}

@@ -1,0 +1,70 @@
+{
+  "article": "public/cet/lessons/cet4/cet4-20231202.json",
+  "reviewedAt": "2026-10-02",
+  "sources": [
+    {
+      "url": "https://www.sciencedirect.com/science/article/pii/S0001879119301125",
+      "read": "原论文检索返回Highlights/摘要和研究结果关键句已读；直接打开403，未声称读到打开页全文。",
+      "finding": "Kelly等2020卷期、2019在线论文，考察工作自我效能感与休闲时间的关联及投入程度/工作相似度交互，不是直接测量工作产出；第31空所在句限定为对效率的信心。",
+      "doi": "10.1016/j.jvb.2019.103340"
+    },
+    {
+      "url": "https://www.researchgate.net/publication/335341201_The_relationship_between_leisure_activities_and_psychological_resources_that_support_a_sustainable_career_The_role_of_leisure_seriousness_and_work-leisure_similarity/fulltext/5e62c97492851c7ce04d0cc7/The-relationship-between-leisure-activities-and-psychological-resources-that-support-a-sustainable-career-The-role-of-leisure-seriousness-and-work-leisure-similarity.pdf",
+      "read": "原论文表格注及模型说明检索段已读，不宣称全篇阅读。",
+      "finding": "模型717次观测、129名参与者；结果变量自我效能感与韧性。"
+    },
+    {
+      "url": "https://www.theguardian.com/money/2019/nov/17/more-fathers-are-taking-paternity-leave-but-mothers-are-still-doing-all-the-work",
+      "read": "原报道检索全文已读，页面显示2019年11月18日；与用户原卷已有内容逐段对照，不另复制新闻全文。",
+      "finding": "原文历史日期及采访背景确认；部分误概括来自报道而非OCR，修订明确依据原研究报告。"
+    },
+    {
+      "url": "https://ccc.bc.edu/content/dam/files/centers/cwf/research/publications/researchreports/Expanded%20Paid%20Parental%20Leave-%20Study%20Findings%20FINAL%2010-31-19.pdf",
+      "read": "16页PDF打开后，方法、摘要和全部主要结果、建议（印刷1–12页）文本已读。",
+      "finding": "2019年3–5月四企业匿名自愿调查，1240合格样本；62/93休满、81可接受、74支持、工作满意度数据相符。50/27指灵活安排使用增加，30/15是晋升机会下降的感知比例，不能写人数超过两倍；照护多由女性承担但非全部。背景明示当时无全国带薪新父母政策及FMLA无薪。"
+    },
+    {
+      "url": "https://www.aclu.org/press-releases/aclu-dads-reach-historic-paid-parental-leave-class-action-settlement-jpmorgan-chase",
+      "read": "2019年5月30日涉案方原公告检索全文已读。",
+      "finding": "500万美元和解对应2011–2017指控；父亲两周限制有伴侣不能照护/返岗例外，公司澄清中性政策，2018非主要照护者已增加六周。不能把旧指控写成当今普遍规则；正文补例外，说明限定时代。"
+    },
+    {
+      "url": "https://www.congress.gov/116/meeting/house/110312/witnesses/HHRG-116-GO00-Wstate-ShaboV-20191210.pdf",
+      "read": "2019年12月10日国会听证证词第8页相关检索段已读；站点robots阻止直接访问，未声称打开。",
+      "finding": "2019已有8州及DC立法，部分制度尚待生效；保留原文法律已通过的历史时点，不等同全部已运行。"
+    },
+    {
+      "url": "https://www.entrepreneur.com/leadership/competitive-rivals-can-make-you-more-successful/339333",
+      "read": "2019年9月15日Joel B. Carnevale署名原评论检索主要段落已读，打开确认标题信息。",
+      "finding": "作者建议与研究结果分开，不能把风险提示变成每个企业的确定性结果。"
+    },
+    {
+      "url": "https://www.stern.nyu.edu/experience-stern/faculty-research/rivalry-increases-unethical-behavior",
+      "read": "2016年10月1日研究作者/NYU原机构介绍检索全文已读。",
+      "finding": "四项研究，体育竞争关系和学生行为实验；rivalry含重复且势均力敌的竞争历史，不等于任意竞争。"
+    },
+    {
+      "url": "https://www.iberdrola.com/talent/multitasking",
+      "read": "原文对应定义及two essential conditions段检索返回已读。",
+      "finding": "试卷的不准确必要条件来自网页原文，不能冒充OCR；纠正依据APA任务切换研究。"
+    },
+    {
+      "url": "https://www.apa.org/topics/research/multitasking?library=true",
+      "read": "APA2006综述检索正文和研究说明全文已读；另读2001研究简介。",
+      "finding": "复杂或不熟悉任务的切换同样可发生且有额外时间成本；自动化不是切换必要条件，不同认知过程也不保证无干扰。",
+      "additionalUrl": "https://www.apa.org/monitor/oct01/multitask.html"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30355063/",
+      "read": "Srna/Schrift/Zauberman2018原论文完整摘要已读。",
+      "finding": "32研究8242人，保持活动本身相同，仅改变多任务感知；不能推广成实际增加独立任务提升表现。",
+      "doi": "10.1177/0956797618801013"
+    },
+    {
+      "url": "https://insights.som.yale.edu/insights/the-illusion-of-multitasking-improves-performance-on-simple-tasks",
+      "read": "2019年2月19日耶鲁原研究介绍检索全文已读。",
+      "finding": "同一观看/转写或相近词汇活动的框架实验；研究者明确告诫不能把结果当作多项独立活动并行有益的证据。52题C、53题B和末段利益表述据此限定。"
+    }
+  ],
+  "sourcePageCheck": "原卷9页图像已逐页打开并全文对照；第6物理页末尾原图有time及引号，提取丢失已恢复；第1页5–7题AB被错误抽取至页脚之后，按原图归位。"
+}

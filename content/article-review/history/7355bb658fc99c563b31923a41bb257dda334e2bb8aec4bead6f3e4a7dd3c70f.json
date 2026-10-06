@@ -1,0 +1,173 @@
+{
+  "schemaVersion": 1,
+  "course": "nce",
+  "articleId": "nce1-003",
+  "beforeDisplaySha256": "6aa1830dc0bd2f16d70a02d471135cc7bb047d192c9db6fb6d87182cb3b139e7",
+  "afterDisplaySha256": "a0b032fa91bf3433ed8b9d9f618b322f4634aed7ddf40654455332fe3e068991",
+  "baselineDisplay": {
+    "title": "Sorry, Sir.",
+    "titleZh": "对不起，先生。",
+    "question": "Does the man get his umbrella back?",
+    "questionZh": "那个男人能拿回他的伞吗？",
+    "text": "Does the man get his umbrella back?\n\nMy coat and my umbrella please.\nHere is my ticket.\nThank you sir.\nNumber five.\nHere's your umbrella and your coat.\nThis is not my umbrella.\nSorry sir.\nIs this your umbrella?\nNo it isn't.\nIs this it?\nYes it is.\nThank you very much.",
+    "bodyText": "My coat and my umbrella please.\nHere is my ticket.\nThank you sir.\nNumber five.\nHere's your umbrella and your coat.\nThis is not my umbrella.\nSorry sir.\nIs this your umbrella?\nNo it isn't.\nIs this it?\nYes it is.\nThank you very much.",
+    "bodyTextZh": "请给我我的外套和雨伞。\n这是我的票。\n谢谢您，先生。\n五号。\n这是你的伞和外套。\n这不是我的伞。\n对不起，先生。\n这是你的伞吗？\n不，它不是。\n是这把吗？\n是的，这就是它。\n非常感谢您。",
+    "sentences": [
+      {
+        "en": "Lesson 3",
+        "zh": "第3课"
+      },
+      {
+        "en": "Sorry sir.",
+        "zh": "对不起，先生。"
+      },
+      {
+        "en": "Listen to the tape then answer this question.",
+        "zh": "先听这段录音，然后再回答这个问题。"
+      },
+      {
+        "en": "Does the man get his umbrella back?",
+        "zh": "那个男人能拿回他的伞吗？"
+      },
+      {
+        "en": "My coat and my umbrella please.",
+        "zh": "请给我我的外套和雨伞。"
+      },
+      {
+        "en": "Here is my ticket.",
+        "zh": "这是我的票。"
+      },
+      {
+        "en": "Thank you sir.",
+        "zh": "谢谢您，先生。"
+      },
+      {
+        "en": "Number five.",
+        "zh": "五号。"
+      },
+      {
+        "en": "Here's your umbrella and your coat.",
+        "zh": "这是你的伞和外套。"
+      },
+      {
+        "en": "This is not my umbrella.",
+        "zh": "这不是我的伞。"
+      },
+      {
+        "en": "Sorry sir.",
+        "zh": "对不起，先生。"
+      },
+      {
+        "en": "Is this your umbrella?",
+        "zh": "这是你的伞吗？"
+      },
+      {
+        "en": "No it isn't.",
+        "zh": "不，它不是。"
+      },
+      {
+        "en": "Is this it?",
+        "zh": "是这把吗？"
+      },
+      {
+        "en": "Yes it is.",
+        "zh": "是的，这就是它。"
+      },
+      {
+        "en": "Thank you very much.",
+        "zh": "非常感谢您。"
+      }
+    ]
+  },
+  "display": {
+    "title": "Sorry, Sir.",
+    "titleZh": "对不起，先生。",
+    "question": "Does the man get his umbrella back?",
+    "questionZh": "那个男人能拿回他的伞吗？",
+    "text": "Does the man get his umbrella back?\n\nMy coat and my umbrella please.\nHere is my ticket.\nThank you sir.\nNumber five.\nHere's your umbrella and your coat.\nThis is not my umbrella.\nSorry sir.\nIs this your umbrella?\nNo it isn't.\nIs this it?\nYes it is.\nThank you very much.",
+    "bodyText": "My coat and my umbrella please.\nHere is my ticket.\nThank you sir.\nNumber five.\nHere's your umbrella and your coat.\nThis is not my umbrella.\nSorry sir.\nIs this your umbrella?\nNo it isn't.\nIs this it?\nYes it is.\nThank you very much.",
+    "bodyTextZh": "请给我我的外套和雨伞。\n这是我的票。\n谢谢您，先生。\n五号。\n这是你的伞和外套。\n这不是我的伞。\n对不起，先生。\n这是你的伞吗？\n不，它不是。\n是这把吗？\n是的，这就是它。\n非常感谢您。",
+    "sentences": [
+      {
+        "en": "Lesson 3",
+        "zh": "第 3 课"
+      },
+      {
+        "en": "Sorry sir.",
+        "zh": "对不起，先生。"
+      },
+      {
+        "en": "Listen to the tape then answer this question.",
+        "zh": "先听这段录音，然后再回答这个问题。"
+      },
+      {
+        "en": "Does the man get his umbrella back?",
+        "zh": "那个男人能拿回他的伞吗？"
+      },
+      {
+        "en": "My coat and my umbrella please.",
+        "zh": "请给我我的外套和雨伞。"
+      },
+      {
+        "en": "Here is my ticket.",
+        "zh": "这是我的票。"
+      },
+      {
+        "en": "Thank you sir.",
+        "zh": "谢谢您，先生。"
+      },
+      {
+        "en": "Number five.",
+        "zh": "五号。"
+      },
+      {
+        "en": "Here's your umbrella and your coat.",
+        "zh": "这是你的伞和外套。"
+      },
+      {
+        "en": "This is not my umbrella.",
+        "zh": "这不是我的伞。"
+      },
+      {
+        "en": "Sorry sir.",
+        "zh": "对不起，先生。"
+      },
+      {
+        "en": "Is this your umbrella?",
+        "zh": "这是你的伞吗？"
+      },
+      {
+        "en": "No it isn't.",
+        "zh": "不，它不是。"
+      },
+      {
+        "en": "Is this it?",
+        "zh": "是这把吗？"
+      },
+      {
+        "en": "Yes it is.",
+        "zh": "是的，这就是它。"
+      },
+      {
+        "en": "Thank you very much.",
+        "zh": "非常感谢您。"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "path": "content/NCE-Flow/NCE1/003&004－Sorry, Sir..lrc",
+      "locator": "完整LRC元数据、标题、提问及全部中英文逐句字幕和时间戳",
+      "checked": true,
+      "sha256": "4c724b1a7d67e197be94ceeb25a60de9d2320d0e69d4d79da6430d65fed7b734"
+    }
+  ],
+  "corrections": [],
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "reviewer": "Codex",
+  "reviewedAt": "2026-10-02T02:19:36+00:00",
+  "notes": "全文核对LRC的12句寄存处对话、提问及中译；五号取衣、错伞、两轮确认顺序完整。保留标题与字幕的标点差异和原有否定回答；只调整第3课数字外侧空格，逐句朗读结构与时间字段不变。",
+  "issues": [],
+  "status": "passed_edited"
+}

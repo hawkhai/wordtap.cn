@@ -1,0 +1,90 @@
+{
+  "article": "e1-1999",
+  "checkedAt": "2026-10-03",
+  "sourcePdfPhysicalPagesRead": [
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38
+  ],
+  "sources": [
+    {
+      "url": "https://www.osha.gov/businesscase",
+      "scope": "检索实际读安全投入减少索赔、医疗费用与生产损失的概述，未采用现时统计数字。"
+    },
+    {
+      "url": "https://www.osha.gov/safetypays/tool",
+      "scope": "检索读工具说明主体，保险索赔等间接成本估算；未输入数据，未把工具说明作为新法规。"
+    },
+    {
+      "url": "https://www.osha.gov/laws-regs/standardinterpretations/2018-10-11",
+      "scope": "检索实际读2018备忘录主体，安全激励不应妨碍报告伤害及相应保障措施，不将较少报告等同安全改善。"
+    },
+    {
+      "url": "https://www.ali.org/publications/restatement-law-third/torts-third",
+      "scope": "检索读书目和简介，1998出版及设计、制造、警告三类缺陷，未读取382页书本。"
+    },
+    {
+      "url": "https://www.ali.org/faq",
+      "scope": "检索片段说明私人非营利机构及Restatements不是立法机关立法，未全页。"
+    },
+    {
+      "url": "https://www.computerhistory.org/revolution/the-web/20/392/2355",
+      "scope": "检索读GNN早期网络广告的历史说明，不能据此证实Pointcast或Virtual Vineyards的具体经营数据。"
+    },
+    {
+      "url": "https://nces.ed.gov/programs/statereform/tab1_2-2023.asp",
+      "scope": "浏览器超时后requests成功200，BS4提取2020各州义务教育年龄整表，51条地区逐行实际读；未据此声明2026现行具体年龄，也未逐条查各州法规。"
+    },
+    {
+      "url": "https://vet.ed.ac.uk/roslin/about/history/dolly/facts/life-of-dolly",
+      "scope": "检索实际读Dolly于1996-07-05出生、1997-02公布、成年体细胞与先前克隆之区别以及端粒说明段，未全生平。"
+    },
+    {
+      "url": "https://bioethicsarchive.georgetown.edu/nbac/pubs/cloning1/cloning.pdf",
+      "scope": "web打开125页报告元数据，全文输出截断未冒充通读；requests下载后pypdf实际读取完整物理页3、4、12、111、119，包括1997-06-09呈送函、范围、暂停令、私人自愿遵循、建议立法和3–5年日落条款，不是全部125页或扫描图。"
+    },
+    {
+      "url": "https://clintonwhitehouse6.archives.gov/1997/03/1997-03-04-directive-on-cloning.html",
+      "scope": "实际打开并读26行全文：90日是报告期限，联邦经费限制的背景、范围与本次总统指令。"
+    },
+    {
+      "url": "https://royalsociety.org/blog/2012/02/newtons-apple-tree/",
+      "scope": "检索实际读Stukeley所记1752牛顿回忆苹果垂直落下的段落，未全博客及手稿影像。"
+    },
+    {
+      "url": "https://catalogues.royalsociety.org/calmview/Record.aspx?id=MS%2F142&src=CalmView.Catalog",
+      "scope": "检索读完整目录元数据，Stukeley1752手稿MS142共30页，未手稿全文。"
+    },
+    {
+      "url": "https://admyn.ynpxrz.com/n6335c1852.aspx",
+      "scope": "同题二手转载检索实际读1999写作指令at least 150 words，仅辅助校订原稿at less than；其他OCR和参考作文有问题，不据此解释图表。"
+    },
+    {
+      "url": "https://files.ipbes.net/ipbes-web-prod-public-files/ipbes_7_10_add.1_en_1.pdf",
+      "scope": "检索实际读摘要关于直接驱动因素和人口、生产消费等间接因素，不是整份报告。"
+    }
+  ],
+  "limitations": [
+    "7原块与7原图全读；双图另3倍渲染裁切读清，99块编排全文复读，ANSWER SHEET 2误拆回接并调整网络历史说明后98块，受影响处已复读。原资料无官方答案或中文译文。",
+    "完形恢复1–10空格；保险术语编辑校正不是原图逐字复原。伤害预防与压低报告数量不同。",
+    "警告标签原刊、Nimmons头盔案件原始判决和50%统计未找到，作为明确限定的旧文报道保留，不宣称核实该具体案件或今天诉讼胜率；11、13、14题改去歧义或泛化。ALI书目验证不能代替个案裁判。",
+    "Pointcast、Virtual Vineyards具体业绩与本文原刊未独立核实，均留于1990年代历史评论和当时预测语境；未声明这些是现存推荐服务。",
+    "教育目的为原作者论说，义务教育制度不是全球单一法条。基本电脑技能最多两个月的绝对断言校正为任务与个人差异；19、21、22题明确定位。",
+    "克隆文章描述1997年5月草案，区别6月最终报告。原90 day ban误将报告期限等同暂停期；adult是供核细胞成年来源。24–26题按实际段意和生殖性克隆范围校正，未称私人研究立法当时已经通过，也未把1997建议冒充2026法律。",
+    "苹果故事为牛顿晚年回忆经Stukeley记述，不能视为当年发现过程的同期实验记录；本文论证的是开放好奇，末段管理者标准化推断带反讽。未独立核验原刊/全部引语来源。",
+    "译文31–35划线范围逐句按原图恢复。tunnel method虽少见却是原资料写法，未擅改tunnel vision；technical/technicist fallacy在本文为方法论概念。未查到本史学评论原刊，不编作者。",
+    "作文双图原生成正文缺失，依原图补充中文描述。左图年份标到2000但曲线末点约1990，纵轴人口单位百万；右图1600–1900累计不再存在物种数，最大数字标签100。均近似读图数，未捏造精确数据或两图相同时间跨度。至少150词为明确语法/指令校订。"
+  ],
+  "answerChecks": {
+    "editorReasoningNotOfficial": {
+      "cloze": "DABABCDCAD",
+      "reading": "BCADACDBBDCABCDAABDA"
+    }
+  },
+  "rawSha256": "54dcbe09be83f199dbacca102d87bf2a9837355bfbe65239e6324991ae350bbd",
+  "pdfSha256": "9b755b86b278a933c57aa414312a7472b7523caa59d669204622437eecd9255e"
+}

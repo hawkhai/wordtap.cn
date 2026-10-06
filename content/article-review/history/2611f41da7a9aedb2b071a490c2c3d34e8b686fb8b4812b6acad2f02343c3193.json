@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "course": "pep-english",
+  "articleId": "pephr1-011",
+  "beforeDisplaySha256": "e1d17e34a37d9d2de3a7af291b961645d38f6df2dfefaa6ea01a647e65183a11",
+  "afterDisplaySha256": "e1d17e34a37d9d2de3a7af291b961645d38f6df2dfefaa6ea01a647e65183a11",
+  "baselineDisplay": {
+    "title": "Terracotta Army",
+    "section": "Reading for Writing",
+    "text": "Come and see the Terracotta Army: more than 8,000 statues were made in the third century BCE to guard the tomb of the Chinese Emperor Qinshihuang! Each statue has a different face, leading researchers to believe that each one is a copy of a real soldier. The statues fill only one part of the emperor's huge tomb, which still has not been completely unearthed. More than 700,000 people worked for nearly 40 years to build this tomb. However, no one in modern times knew about the tomb or the terracotta statues until 1974, when some farmers discovered the tomb while they were digging a well!",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Come and see the Terracotta Army: more than 8,000 statues were made in the third century BCE to guard the tomb of the Chinese Emperor Qinshihuang! Each statue has a different face, leading researchers to believe that each one is a copy of a real soldier. The statues fill only one part of the emperor's huge tomb, which still has not been completely unearthed. More than 700,000 people worked for nearly 40 years to build this tomb. However, no one in modern times knew about the tomb or the terracotta statues until 1974, when some farmers discovered the tomb while they were digging a well!"
+      }
+    ]
+  },
+  "display": {
+    "title": "Terracotta Army",
+    "section": "Reading for Writing",
+    "text": "Come and see the Terracotta Army: more than 8,000 statues were made in the third century BCE to guard the tomb of the Chinese Emperor Qinshihuang! Each statue has a different face, leading researchers to believe that each one is a copy of a real soldier. The statues fill only one part of the emperor's huge tomb, which still has not been completely unearthed. More than 700,000 people worked for nearly 40 years to build this tomb. However, no one in modern times knew about the tomb or the terracotta statues until 1974, when some farmers discovered the tomb while they were digging a well!",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Come and see the Terracotta Army: more than 8,000 statues were made in the third century BCE to guard the tomb of the Chinese Emperor Qinshihuang! Each statue has a different face, leading researchers to believe that each one is a copy of a real soldier. The statues fill only one part of the emperor's huge tomb, which still has not been completely unearthed. More than 700,000 people worked for nearly 40 years to build this tomb. However, no one in modern times knew about the tomb or the terracotta statues until 1974, when some farmers discovered the tomb while they were digging a well!"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "path": "content/pep-english/raw/senior-required-1.pdf",
+      "locator": "PDF第37-37页，标题与完整正文逐行核对",
+      "checked": true,
+      "sha256": "ffe985a370964820aa003008f48c7cf17b5e0dff8eb29fe54cd4743b0c4e8c79"
+    },
+    {
+      "path": "content/pep-english/raw/senior-required-1/senior-required-1_37.jpg",
+      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
+      "checked": true,
+      "sha256": "8619920149e5f171465f5333f9fd34879f1a8115bde1c13e4a6ba8e9683ad5d6"
+    }
+  ],
+  "corrections": [],
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "reviewer": "Codex",
+  "reviewedAt": "2026-10-02T05:23:17+00:00",
+  "notes": "PDF第37页下方Terracotta Army宣传文逐行一致。8000、third century BCE、700000、nearly 40 years及1974均按教材保留，单段边界正确，无修改。",
+  "issues": [],
+  "status": "passed_unchanged"
+}

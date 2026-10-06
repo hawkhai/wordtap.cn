@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "course": "pep-english",
+  "articleId": "pephr2-017",
+  "beforeDisplaySha256": "b2f90dc9fd2d4427a94b4b036e218cc948e3ae1a6184caa579cc7094c06f74d2",
+  "afterDisplaySha256": "b2f90dc9fd2d4427a94b4b036e218cc948e3ae1a6184caa579cc7094c06f74d2",
+  "baselineDisplay": {
+    "title": "Relics from Ancient Greek Ship Rescued",
+    "section": "Reading and Writing",
+    "text": "Athens, 8 October 2014. Relics on a Greek ship that sank more than 2,000 years ago have been rescued by an international team of archaeologists and divers. Several artefacts, including a large bronze spear, were found. The ship, which rests 55 metres below the surface, was first discovered in 1900 by local divers. Because the water is so deep, it has been very difficult to examine the ship. Earlier this year, scientists were able to use a robot to photograph and make a map of the wreck. The cultural relics which were then rescued by the international team are among the most important to date and will help answer some of the questions about the history of the ship. “A lot of work has to be done at this site to uncover its secrets,” said the leader of the team.",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Athens, 8 October 2014. Relics on a Greek ship that sank more than 2,000 years ago have been rescued by an international team of archaeologists and divers. Several artefacts, including a large bronze spear, were found. The ship, which rests 55 metres below the surface, was first discovered in 1900 by local divers. Because the water is so deep, it has been very difficult to examine the ship. Earlier this year, scientists were able to use a robot to photograph and make a map of the wreck. The cultural relics which were then rescued by the international team are among the most important to date and will help answer some of the questions about the history of the ship. “A lot of work has to be done at this site to uncover its secrets,” said the leader of the team."
+      }
+    ]
+  },
+  "display": {
+    "title": "Relics from Ancient Greek Ship Rescued",
+    "section": "Reading and Writing",
+    "text": "Athens, 8 October 2014. Relics on a Greek ship that sank more than 2,000 years ago have been rescued by an international team of archaeologists and divers. Several artefacts, including a large bronze spear, were found. The ship, which rests 55 metres below the surface, was first discovered in 1900 by local divers. Because the water is so deep, it has been very difficult to examine the ship. Earlier this year, scientists were able to use a robot to photograph and make a map of the wreck. The cultural relics which were then rescued by the international team are among the most important to date and will help answer some of the questions about the history of the ship. “A lot of work has to be done at this site to uncover its secrets,” said the leader of the team.",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Athens, 8 October 2014. Relics on a Greek ship that sank more than 2,000 years ago have been rescued by an international team of archaeologists and divers. Several artefacts, including a large bronze spear, were found. The ship, which rests 55 metres below the surface, was first discovered in 1900 by local divers. Because the water is so deep, it has been very difficult to examine the ship. Earlier this year, scientists were able to use a robot to photograph and make a map of the wreck. The cultural relics which were then rescued by the international team are among the most important to date and will help answer some of the questions about the history of the ship. “A lot of work has to be done at this site to uncover its secrets,” said the leader of the team."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "path": "content/pep-english/raw/senior-required-2.pdf",
+      "locator": "PDF第71-71页，标题与完整正文逐行核对",
+      "checked": true,
+      "sha256": "33b74bf42b22b32fdbe3201e6f61cf8099be047ef0af8a1740f6013dee4a619d"
+    },
+    {
+      "path": "content/pep-english/raw/senior-required-2/senior-required-2_71.jpg",
+      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
+      "checked": true,
+      "sha256": "47fb56b3b1526225982cedb37796741795235c2761f4a452c14df629ecbf61fe"
+    }
+  ],
+  "corrections": [],
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "reviewer": "Codex",
+  "reviewedAt": "2026-10-02T05:46:17+00:00",
+  "notes": "核对PDF第71页独立希腊沉船报道，标题及一段正文完整，2014年10月8日电头、1900年发现和55米深度一致；保留历史新闻时态及原引语。",
+  "issues": [],
+  "status": "passed_unchanged"
+}

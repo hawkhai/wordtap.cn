@@ -1,0 +1,132 @@
+{
+  "article": "e1-2004",
+  "rawRead": {
+    "blocks": 6,
+    "pdfPhysicalPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "allPageImagesRead": true
+  },
+  "sources": [
+    {
+      "url": "https://www.ojp.gov/library/publications/risk-factors-delinquency-overview",
+      "readScope": "搜索返回全部摘要和书目信息；风险因素为概率而非给个体贴标签，未读11页报告全文。"
+    },
+    {
+      "url": "https://ojjdp.ojp.gov/sites/ojjdp/files/jjbulletin/9810_2/program.html",
+      "readScope": "搜索返回主要研究结论段，无单一原因或统一犯罪路径，个人家庭社区因素共同作用。"
+    },
+    {
+      "url": "https://www.elysee.fr/jacques-chirac/2001/07/14/intervention-televisee-de-m-jacques-chirac-president-de-la-republique-le-14-juillet-2001-notamment-sur-le-choix-de-lorganisation-des-jeux-de-2008-a-pekin-le-statut-penal-du-president-de-la-republique-et-lautorite-de-letat",
+      "readScope": "搜索返回标题、日期和开篇讲话片段，仅据标题确认2001年Chirac为法国总统，不声称通读全部访谈。"
+    },
+    {
+      "url": "https://www.archives.gov/research/census/presidents",
+      "readScope": "requests200，President/Dates in Office表全部阅读并保存presidents.txt；取Washington至Clinton的前42行按姓氏重计，不使用后来总统的情况回改旧文范围。"
+    },
+    {
+      "url": "https://www.federalreserve.gov/boarddocs/speeches/2000/200010192.htm",
+      "readScope": "requests200，实读关于油价风险、消费增速放缓及生产率段的约2500字符摘段；未读全篇讲话，未声称它是本卷引述的唯一原始讲话，不据此复核每项报刊消费数字。"
+    },
+    {
+      "url": "https://www.gutenberg.org/cache/epub/2945/pg2945-images.html",
+      "readScope": "requests200，定位We are students of words所在New England Reformers；实读该段前后约6300字符，核对教育批评的背景及本卷引文改写，未读整书。"
+    },
+    {
+      "url": "https://www.gutenberg.org/cache/epub/76/pg76-images.html",
+      "readScope": "requests200，实读第三章末到第四章开篇及后续约6300字符；Huck明确已上学且逐渐读写，不是从未学习读写。未通读全书。"
+    },
+    {
+      "url": "https://www.pulitzer.org/prize-winners-by-year/1964",
+      "readScope": "搜索返回获奖名单中General Nonfiction条目，核对Hofstadter书名及1964获奖，未阅读该书全文。"
+    },
+    {
+      "url": "https://www.simonandschuster.biz/books/Left-Back/Diane-Ravitch/9780743203265",
+      "readScope": "搜索返回作者书名及版权2000/该版发行2001信息；不将重印日期当首版日期，不声称读过555页全书。"
+    },
+    {
+      "url": "https://americanindian.si.edu/nk360/code-talkers/code-talking/",
+      "readScope": "requests403验证页；web成功打开，find返回并实读Recruitment & Training至Code Talkers Remember the War的大段文字，特别是Constructing the Code和Creating Special Code Words。没有收听音频，不声称浏览完其他章节。"
+    },
+    {
+      "url": "https://plato.stanford.edu/entries/linguistics/whorfianism.html",
+      "readScope": "requests200，实读前12000字符，涵盖引入、Whorf原论述引文、Banal Whorfianism及第2节开头；讨论概念与后人标签区别，不声称读完本条全部实验研究。"
+    }
+  ],
+  "restorations": [
+    "6原块断词、题目空线、13/14分题、正文段落及完整41–45划线范围。",
+    "末页作文跑道线前后起点／终点标记已逐图阅读并加文字描述。"
+  ],
+  "editorialChanges": [
+    "can he→can be、Raviteh→Ravitch、book句号→逗号、came to be、languages复数。",
+    "G7领导人包含国家元首，heads of government改leaders。",
+    "原总统26/16不是A–M/N–Z等半分组，按NARA前42序号重计29/13并明示计算口径。",
+    "Huck概述改为作者解读并指出小说第四章读写经历；39题强调as portrayed，Emerson引语的改写明确注释。"
+  ],
+  "presidentRecount": {
+    "scope": "presidential sequence 1–42, prior to George W. Bush",
+    "namesInOrder": [
+      "Washington",
+      "Adams",
+      "Jefferson",
+      "Madison",
+      "Monroe",
+      "Adams",
+      "Jackson",
+      "VanBuren",
+      "Harrison",
+      "Tyler",
+      "Polk",
+      "Taylor",
+      "Fillmore",
+      "Pierce",
+      "Buchanan",
+      "Lincoln",
+      "Johnson",
+      "Grant",
+      "Hayes",
+      "Garfield",
+      "Arthur",
+      "Cleveland",
+      "Harrison",
+      "Cleveland",
+      "McKinley",
+      "Roosevelt",
+      "Taft",
+      "Wilson",
+      "Harding",
+      "Coolidge",
+      "Hoover",
+      "Roosevelt",
+      "Truman",
+      "Eisenhower",
+      "Kennedy",
+      "Johnson",
+      "Nixon",
+      "Ford",
+      "Carter",
+      "Reagan",
+      "Bush",
+      "Clinton"
+    ],
+    "A-M": 29,
+    "N-Z": 13,
+    "clevelandCountedTwice": true
+  },
+  "reasonedAnswers": {
+    "cloze": "CDADABCDABACDBABBDAC",
+    "reading": "CADBCADCBDDABACCADBC",
+    "notOfficialKey": true
+  },
+  "limits": [
+    "Text1/3原刊全文未独立取得；本卷完整原文与图像已核查，旧报道数字保留时点。",
+    "Economist node/760345打开报错，未以转载全文充作原刊已读；ERIC查询连接重置，ASBJ文章仅获书目线索，实际思想背景依Emerson和Twain原著对照。",
+    "LSA旧FAQ网址打开失败，实际语言论述核对依SEP及Smithsonian，不声称该FAQ已读。",
+    "不提供未经取得的官方答案、中译或范文。"
+  ]
+}

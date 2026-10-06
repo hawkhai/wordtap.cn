@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "course": "pep-english",
+  "articleId": "pepj9-014",
+  "beforeDisplaySha256": "176a4d1bc6497989804e846eedd62336cee2ce0fac086bd8956a071074318646",
+  "afterDisplaySha256": "176a4d1bc6497989804e846eedd62336cee2ce0fac086bd8956a071074318646",
+  "baselineDisplay": {
+    "title": "From Shy Girl to Pop Star",
+    "section": "Section A",
+    "text": "For this month's Young World magazine, I interviewed 19-year-old Asian pop star Candy Wang. Candy told me that she used to be really shy and took up singing to deal with her shyness. As she got better, she dared to sing in front of her class, and then for the whole school. Now she's not shy anymore and loves singing in front of crowds.\nI asked Candy how life was different after she became famous. She explained that there are many good things, like being able to travel and meet new people all the time. \"I didn't use to be popular in school, but now I get tons of attention everywhere I go.\" However, too much attention can also be a bad thing. \"I always have to worry about how I appear to others, and I have to be very careful about what I say or do. And I don't have much private time anymore. Hanging out with friends is almost impossible for me now because there are always guards around me.\"\nWhat does Candy have to say to all those young people who want to become famous? \"Well,\" she begins slowly, \"you have to be prepared to give up your normal life. You can never imagine how difficult the road to success is. Many times I thought about giving up, but I fought on. You really require a lot of talent and hard work to succeed. Only a very small number of people make it to the top.\"",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "For this month's Young World magazine, I interviewed 19-year-old Asian pop star Candy Wang. Candy told me that she used to be really shy and took up singing to deal with her shyness. As she got better, she dared to sing in front of her class, and then for the whole school. Now she's not shy anymore and loves singing in front of crowds."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "I asked Candy how life was different after she became famous. She explained that there are many good things, like being able to travel and meet new people all the time. \"I didn't use to be popular in school, but now I get tons of attention everywhere I go.\" However, too much attention can also be a bad thing. \"I always have to worry about how I appear to others, and I have to be very careful about what I say or do. And I don't have much private time anymore. Hanging out with friends is almost impossible for me now because there are always guards around me.\""
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "What does Candy have to say to all those young people who want to become famous? \"Well,\" she begins slowly, \"you have to be prepared to give up your normal life. You can never imagine how difficult the road to success is. Many times I thought about giving up, but I fought on. You really require a lot of talent and hard work to succeed. Only a very small number of people make it to the top.\""
+      }
+    ]
+  },
+  "display": {
+    "title": "From Shy Girl to Pop Star",
+    "section": "Section A",
+    "text": "For this month's Young World magazine, I interviewed 19-year-old Asian pop star Candy Wang. Candy told me that she used to be really shy and took up singing to deal with her shyness. As she got better, she dared to sing in front of her class, and then for the whole school. Now she's not shy anymore and loves singing in front of crowds.\nI asked Candy how life was different after she became famous. She explained that there are many good things, like being able to travel and meet new people all the time. \"I didn't use to be popular in school, but now I get tons of attention everywhere I go.\" However, too much attention can also be a bad thing. \"I always have to worry about how I appear to others, and I have to be very careful about what I say or do. And I don't have much private time anymore. Hanging out with friends is almost impossible for me now because there are always guards around me.\"\nWhat does Candy have to say to all those young people who want to become famous? \"Well,\" she begins slowly, \"you have to be prepared to give up your normal life. You can never imagine how difficult the road to success is. Many times I thought about giving up, but I fought on. You really require a lot of talent and hard work to succeed. Only a very small number of people make it to the top.\"",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "For this month's Young World magazine, I interviewed 19-year-old Asian pop star Candy Wang. Candy told me that she used to be really shy and took up singing to deal with her shyness. As she got better, she dared to sing in front of her class, and then for the whole school. Now she's not shy anymore and loves singing in front of crowds."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "I asked Candy how life was different after she became famous. She explained that there are many good things, like being able to travel and meet new people all the time. \"I didn't use to be popular in school, but now I get tons of attention everywhere I go.\" However, too much attention can also be a bad thing. \"I always have to worry about how I appear to others, and I have to be very careful about what I say or do. And I don't have much private time anymore. Hanging out with friends is almost impossible for me now because there are always guards around me.\""
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "What does Candy have to say to all those young people who want to become famous? \"Well,\" she begins slowly, \"you have to be prepared to give up your normal life. You can never imagine how difficult the road to success is. Many times I thought about giving up, but I fought on. You really require a lot of talent and hard work to succeed. Only a very small number of people make it to the top.\""
+      }
+    ]
+  },
+  "sources": [
+    {
+      "path": "content/pep-english/raw/junior-9.pdf",
+      "locator": "PDF第41-41页，标题与完整正文逐行核对",
+      "checked": true,
+      "sha256": "9c4118021048d901610b673f590ed28c39c04cb2d4f7fd940f83a2d8b2741af7"
+    },
+    {
+      "path": "content/pep-english/raw/junior-9/junior-9_41.jpg",
+      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
+      "checked": true,
+      "sha256": "b245b7f618ad3e1beb120ec055a062fa3daa9281d63a9c0acfdcc1f2081805df"
+    }
+  ],
+  "corrections": [],
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "reviewer": "Codex",
+  "reviewedAt": "2026-10-02T05:08:41+00:00",
+  "notes": "PDF41页印刷27页采访Candy Wang三段逐行核对，19岁、Young World、克服害羞、成名利弊及付出建议完整。原页1至3是段落练习编号，不是正文；现三段分界正确，人名、引语及最后少数登顶句复读准确，无修改。",
+  "issues": [],
+  "status": "passed_unchanged"
+}

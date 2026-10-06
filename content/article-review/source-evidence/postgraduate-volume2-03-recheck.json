@@ -1,0 +1,38 @@
+{
+  "article": "postgraduate/volume2-03",
+  "fullRead": "32块16组全文英中读；TeX第三节完整读；Neither Here Nor There第三章网络转录14–40行覆盖本节选全部，后续41–56读但不补入教材。",
+  "sources": [
+    {
+      "url": "https://book.vik.im/index.php?display=fulltext&id=676315500997&p=12",
+      "read": "完整章转录，非出版社扫描：核对and I、upside-down、I still、going、lights、simply、after Hammerfest、walk、cafés、with a、across a、Bülow及专名/引号；最小修复与现有教材上下文一致，保留教材glottal stops/30等改编不机械更版。"
+    },
+    {
+      "url": "https://www.penguin.co.uk/books/329524/neither-here-nor-there-by-bill-bryson/9781407083704",
+      "read": "出版社书目确认作者、书名及1991著作版权，非假称从此页取得第三章逐字原稿。"
+    },
+    {
+      "url": "https://www.visitnorway.com/listings//bygdoy/15577/",
+      "read": "官方旅游局确认Bygdøy为奥斯陆半岛，林地/博物馆等语境；中译保留原文括注避免地名混淆。"
+    },
+    {
+      "url": "https://www.sj.se/content/dam/externt/bilder/ovrigt/kartor/sjlinjekartahelasverige-eng-2022.pdf",
+      "read": "SJ官方线路图检索确认Laxå站名；不是中文旧稿所称拉赫斯河。"
+    }
+  ],
+  "editorialCorrections": [
+    "导读说明幽默旅行文学和自行想象电视对话：不把夸张国民画像、旅鼠投崖、动物性行为和致幻药台词当真实新闻或科普；保留文学内容，无制作指令。",
+    "英文最小校勘采用章转录对照并标明来源级别；断字、乱码、脚注残留一并处理，不声称已见原书扫描。",
+    "中文未有独立原译稿，作语义编辑复核：博客串非正文删除，缺失结尾引号补齐，残坏屏幕句按完整英语重译。",
+    "could no more与never should have been let in on条件/被动纠正，Nebraska是虚拟对比并未真被风车改变；for all I know不确定而非亲耳听见。",
+    "week是一周剩余日子非几周；at once非突然；many非大多数；relentlessly youthful非不屈不挠；icy water不必已结成冰。",
+    "恢复地名特殊字母与清除误当正文的1/2/4/5脚注，保持路线顺序；quartermile列车约400m非一节车厢；时刻表numbers不是数量。"
+  ],
+  "translationReview": [
+    "影院仅有另外2人、座位冒犯双重比喻、约30人聚集、游客不懂规则的讽刺；shoulders/noises与救生艇比喻完整。",
+    "4–8组风车虚拟、法国排队和英国刀叉、意大利汽车笑话、欧洲相似又多样均保留叙述者主观口吻。",
+    "洗涤剂包装BioTexBlå及挪威语保留，假设而非真实众人议论；Why感叹不是为什么，语言不通的童心比喻正确。",
+    "电视三轮引语分开并成对，variety多种非一种，屏幕一分钟、灯光、抠鼻子续句语义完整，保留想象属性。",
+    "倒数第二组长段按英语重译明确步行、住宅观景、街道与人群主语及日光；末组列车/地名/路线/Sunny例外与脚注图标完整。"
+  ],
+  "unresolved": []
+}

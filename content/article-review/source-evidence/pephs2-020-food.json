@@ -1,0 +1,21 @@
+{
+  "checked": "2026-10-02",
+  "sources": [
+    {
+      "url": "https://www.chezpanisse.com/information/",
+      "finding": "Restaurant address is Berkeley, not San Francisco."
+    },
+    {
+      "url": "https://www.ams.usda.gov/rules-regulations/cool/questions-answers-consumers",
+      "finding": "Country of origin identifies origin under a labeling law; it is not certification of direct farm sourcing or freshness."
+    },
+    {
+      "url": "https://www.ams.usda.gov/rules-regulations/organic/labeling",
+      "finding": "Organic standards regulate production practices, environmental objectives and permitted inputs."
+    },
+    {
+      "url": "https://www.ams.usda.gov/rules-regulations/organic/national-list",
+      "finding": "Most synthetic inputs prohibited unless specifically allowed; natural inputs allowed unless prohibited. Organic is not minimum count of all chemicals."
+    }
+  ]
+}

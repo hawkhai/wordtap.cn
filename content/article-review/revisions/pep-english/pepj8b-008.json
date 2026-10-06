@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 1,
+  "course": "pep-english",
+  "articleId": "pepj8b-008",
+  "beforeDisplaySha256": "b9e9bfbef69bc1ea97eba3dc536cb8590417437d2a69a84641fbd63148a42eb7",
+  "afterDisplaySha256": "b9e9bfbef69bc1ea97eba3dc536cb8590417437d2a69a84641fbd63148a42eb7",
+  "baselineDisplay": {
+    "title": "The Storm Brought People Closer Together",
+    "section": "Section A",
+    "text": "Ben could hear strong winds outside his home in Alabama. Black clouds were making the sky very dark. With no light outside, it felt like midnight. The news on TV reported that a heavy rainstorm was in the area.\nEveryone in the neighborhood was busy. Ben's dad was putting pieces of wood over the windows while his mom was making sure the flashlights and radio were working. She also put some candles and matches on the table.\nBen was helping his mom make dinner when the rain began to beat heavily against the windows. After dinner, they tried to play a card game, but it was hard to have fun with a serious storm happening outside.\nBen could not sleep at first. He finally fell asleep when the wind was dying down at around 3:00 a.m. When he woke up, the sun was rising. He went outside with his family and found the neighborhood in a mess. Fallen trees, broken windows and rubbish were everywhere. They joined the neighbors to help clean up the neighborhood together. Although the storm broke many things apart, it brought families and neighbors closer together.",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Ben could hear strong winds outside his home in Alabama. Black clouds were making the sky very dark. With no light outside, it felt like midnight. The news on TV reported that a heavy rainstorm was in the area."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Everyone in the neighborhood was busy. Ben's dad was putting pieces of wood over the windows while his mom was making sure the flashlights and radio were working. She also put some candles and matches on the table."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Ben was helping his mom make dinner when the rain began to beat heavily against the windows. After dinner, they tried to play a card game, but it was hard to have fun with a serious storm happening outside."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Ben could not sleep at first. He finally fell asleep when the wind was dying down at around 3:00 a.m. When he woke up, the sun was rising. He went outside with his family and found the neighborhood in a mess. Fallen trees, broken windows and rubbish were everywhere. They joined the neighbors to help clean up the neighborhood together. Although the storm broke many things apart, it brought families and neighbors closer together."
+      }
+    ]
+  },
+  "display": {
+    "title": "The Storm Brought People Closer Together",
+    "section": "Section A",
+    "text": "Ben could hear strong winds outside his home in Alabama. Black clouds were making the sky very dark. With no light outside, it felt like midnight. The news on TV reported that a heavy rainstorm was in the area.\nEveryone in the neighborhood was busy. Ben's dad was putting pieces of wood over the windows while his mom was making sure the flashlights and radio were working. She also put some candles and matches on the table.\nBen was helping his mom make dinner when the rain began to beat heavily against the windows. After dinner, they tried to play a card game, but it was hard to have fun with a serious storm happening outside.\nBen could not sleep at first. He finally fell asleep when the wind was dying down at around 3:00 a.m. When he woke up, the sun was rising. He went outside with his family and found the neighborhood in a mess. Fallen trees, broken windows and rubbish were everywhere. They joined the neighbors to help clean up the neighborhood together. Although the storm broke many things apart, it brought families and neighbors closer together.",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Ben could hear strong winds outside his home in Alabama. Black clouds were making the sky very dark. With no light outside, it felt like midnight. The news on TV reported that a heavy rainstorm was in the area."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Everyone in the neighborhood was busy. Ben's dad was putting pieces of wood over the windows while his mom was making sure the flashlights and radio were working. She also put some candles and matches on the table."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Ben was helping his mom make dinner when the rain began to beat heavily against the windows. After dinner, they tried to play a card game, but it was hard to have fun with a serious storm happening outside."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Ben could not sleep at first. He finally fell asleep when the wind was dying down at around 3:00 a.m. When he woke up, the sun was rising. He went outside with his family and found the neighborhood in a mess. Fallen trees, broken windows and rubbish were everywhere. They joined the neighbors to help clean up the neighborhood together. Although the storm broke many things apart, it brought families and neighbors closer together."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "path": "content/pep-english/raw/junior-8b.pdf",
+      "locator": "PDF第44-44页，标题与完整正文逐行核对",
+      "checked": true,
+      "sha256": "1be886980dc0833b9c87ced7c9de0c8e3e7e19d990c1172f62504576d2554284"
+    },
+    {
+      "path": "content/pep-english/raw/junior-8b/junior-8b_44.jpg",
+      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
+      "checked": true,
+      "sha256": "d2b8f959087b91ef82a97891c29ab80b1a60e6701fa71fcafa32c07ef0936aec"
+    }
+  ],
+  "corrections": [],
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "reviewer": "Codex",
+  "reviewedAt": "2026-10-02T05:01:18+00:00",
+  "notes": "PDF44页印刷35页暴风雨四段与原页逐行复核；Alabama、父母备灾、晚饭打牌、凌晨3点风弱入睡及邻里清理时间顺序准确，末句主题完整。标题与正文边界正确，未混入问答及填空，再次通读无修改。",
+  "issues": [],
+  "status": "passed_unchanged"
+}

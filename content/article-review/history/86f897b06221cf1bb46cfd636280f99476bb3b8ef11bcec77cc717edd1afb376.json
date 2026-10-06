@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "course": "pep-english",
+  "articleId": "pepj7b-007",
+  "beforeDisplaySha256": "4e10bcfc43ce2b9974cdf93b6b785c30433b5094a5e84ceee15c0cb89e143fde",
+  "afterDisplaySha256": "4e10bcfc43ce2b9974cdf93b6b785c30433b5094a5e84ceee15c0cb89e143fde",
+  "baselineDisplay": {
+    "title": "Let's Save the Elephants",
+    "section": "Section B",
+    "text": "Hello. We are students from Thailand, and we want to save the elephants. The elephant is one of Thailand's symbols. Our first flag had a white elephant on it. This is a symbol of good luck.\nElephants are smart animals. They can play soccer or music. They can also draw very well. People say that \"an elephant never forgets\". Elephants can walk for a long time and never get lost. They can also remember places with food and water. This helps them to live.\nBut elephants are in great danger. People cut down many trees so elephants are losing their homes. People also kill elephants for their ivory. Today there are only about 3,000 elephants (over 100,000 before). We must save the trees and not buy things made of ivory. Remember that March 13th is Thai Elephant Day.",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Hello. We are students from Thailand, and we want to save the elephants. The elephant is one of Thailand's symbols. Our first flag had a white elephant on it. This is a symbol of good luck."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Elephants are smart animals. They can play soccer or music. They can also draw very well. People say that \"an elephant never forgets\". Elephants can walk for a long time and never get lost. They can also remember places with food and water. This helps them to live."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "But elephants are in great danger. People cut down many trees so elephants are losing their homes. People also kill elephants for their ivory. Today there are only about 3,000 elephants (over 100,000 before). We must save the trees and not buy things made of ivory. Remember that March 13th is Thai Elephant Day."
+      }
+    ]
+  },
+  "display": {
+    "title": "Let's Save the Elephants",
+    "section": "Section B",
+    "text": "Hello. We are students from Thailand, and we want to save the elephants. The elephant is one of Thailand's symbols. Our first flag had a white elephant on it. This is a symbol of good luck.\nElephants are smart animals. They can play soccer or music. They can also draw very well. People say that \"an elephant never forgets\". Elephants can walk for a long time and never get lost. They can also remember places with food and water. This helps them to live.\nBut elephants are in great danger. People cut down many trees so elephants are losing their homes. People also kill elephants for their ivory. Today there are only about 3,000 elephants (over 100,000 before). We must save the trees and not buy things made of ivory. Remember that March 13th is Thai Elephant Day.",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Hello. We are students from Thailand, and we want to save the elephants. The elephant is one of Thailand's symbols. Our first flag had a white elephant on it. This is a symbol of good luck."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Elephants are smart animals. They can play soccer or music. They can also draw very well. People say that \"an elephant never forgets\". Elephants can walk for a long time and never get lost. They can also remember places with food and water. This helps them to live."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "But elephants are in great danger. People cut down many trees so elephants are losing their homes. People also kill elephants for their ivory. Today there are only about 3,000 elephants (over 100,000 before). We must save the trees and not buy things made of ivory. Remember that March 13th is Thai Elephant Day."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "path": "content/pep-english/raw/junior-7b.pdf",
+      "locator": "PDF第39-39页，标题与完整正文逐行核对",
+      "checked": true,
+      "sha256": "7041d787738bdf5f4f556765acdfe8033ac2f69d03e67ccc62516375f6a46f37"
+    },
+    {
+      "path": "content/pep-english/raw/junior-7b/junior-7b_39.jpg",
+      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
+      "checked": true,
+      "sha256": "550d22e6a1bc823872685ec847e9335f648dc45bb3692d8bdbb84330a3e6f409"
+    }
+  ],
+  "corrections": [],
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "reviewer": "Codex",
+  "reviewedAt": "2026-10-02T04:46:41+00:00",
+  "notes": "PDF39页印刷29页完整三段逐行双轮核对，象旗、记忆、森林与象牙及保护倡议无遗漏。3000/100000与March13th均照教材原数保留，本文旧统计不作为当前数量更新；an elephant never forgets引号准确，标题采用原页最佳标题选项。段落与绕图续接正确，无修改。",
+  "issues": [],
+  "status": "passed_unchanged"
+}

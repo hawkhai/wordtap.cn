@@ -91,12 +91,12 @@
     ]
   },
   "manualReview": {
+    "reviewer": "Codex (user-directed restoration)",
+    "reviewedAt": "2026-10-05T17:15:10+00:00",
+    "correctionCount": 1,
+    "evidence": "content/article-review/cleanup-2026-10-06.json",
+    "eventSha256": "3e1ba7b251c402ba2fd0e9403c1e802247c6cb46305e863ab82d198426b24a6e",
     "status": "passed",
-    "reviewer": "Codex",
-    "reviewedAt": "2026-07-30T17:36:48Z",
-    "correctionCount": 4,
-    "evidence": "全文视觉复读教材原图 NHCE4-RW3_140.jpg、141.jpg、142.jpg；正文止于第12段及(876 words)前",
-    "textSha256": "81733514fe1191b784007b3641d7f530e79fa72b4a3968123220fede0513f1ed",
-    "eventSha256": "54e7b8a44aab5b122dc41b1f779b7210d92e6eed727525895ab37c04ef11f472"
+    "textSha256": "81733514fe1191b784007b3641d7f530e79fa72b4a3968123220fede0513f1ed"
   }
 }

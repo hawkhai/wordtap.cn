@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "course": "pep-english",
+  "articleId": "pephr2-024",
+  "beforeDisplaySha256": "8c167492d9ac2494bafc44205e87a26b7222523859e514a3b9f8cabcb3fe5ca6",
+  "afterDisplaySha256": "8c167492d9ac2494bafc44205e87a26b7222523859e514a3b9f8cabcb3fe5ca6",
+  "baselineDisplay": {
+    "title": "Sally's Message from Athens",
+    "section": "Reading and Writing",
+    "text": "Hi from Athens, John! There is just so much ancient history to explore here. My first stop was the Acropolis. What a place—I never realised the columns would be so big! The old quarter of Plaka is just like a painting—little streets of houses on hills, all painted white and blue. I go there every night and find a little restaurant to try some traditional Greek food. After my meal, I always order a lovely Greek coffee and just soak up the atmosphere. Tomorrow, I'm going to see the changing of the guard. I can't wait to take a selfie with them—and their funny shoes! Take care!\nSally",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Hi from Athens, John! There is just so much ancient history to explore here. My first stop was the Acropolis. What a place—I never realised the columns would be so big! The old quarter of Plaka is just like a painting—little streets of houses on hills, all painted white and blue. I go there every night and find a little restaurant to try some traditional Greek food. After my meal, I always order a lovely Greek coffee and just soak up the atmosphere. Tomorrow, I'm going to see the changing of the guard. I can't wait to take a selfie with them—and their funny shoes! Take care!"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Sally"
+      }
+    ]
+  },
+  "display": {
+    "title": "Sally's Message from Athens",
+    "section": "Reading and Writing",
+    "text": "Hi from Athens, John! There is just so much ancient history to explore here. My first stop was the Acropolis. What a place—I never realised the columns would be so big! The old quarter of Plaka is just like a painting—little streets of houses on hills, all painted white and blue. I go there every night and find a little restaurant to try some traditional Greek food. After my meal, I always order a lovely Greek coffee and just soak up the atmosphere. Tomorrow, I'm going to see the changing of the guard. I can't wait to take a selfie with them—and their funny shoes! Take care!\nSally",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Hi from Athens, John! There is just so much ancient history to explore here. My first stop was the Acropolis. What a place—I never realised the columns would be so big! The old quarter of Plaka is just like a painting—little streets of houses on hills, all painted white and blue. I go there every night and find a little restaurant to try some traditional Greek food. After my meal, I always order a lovely Greek coffee and just soak up the atmosphere. Tomorrow, I'm going to see the changing of the guard. I can't wait to take a selfie with them—and their funny shoes! Take care!"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Sally"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "path": "content/pep-english/raw/senior-required-2.pdf",
+      "locator": "PDF第89-89页，标题与完整正文逐行核对",
+      "checked": true,
+      "sha256": "33b74bf42b22b32fdbe3201e6f61cf8099be047ef0af8a1740f6013dee4a619d"
+    },
+    {
+      "path": "content/pep-english/raw/senior-required-2/senior-required-2_89.jpg",
+      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
+      "checked": true,
+      "sha256": "6d3256d3d9da628bfe32978d26e5452db9443932bd327eee378d31c6cc273d1d"
+    }
+  ],
+  "corrections": [],
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "reviewer": "Codex",
+  "reviewedAt": "2026-10-02T05:48:05+00:00",
+  "notes": "核对PDF第89页下方Sally雅典留言，Acropolis、Plaka、希腊咖啡及次日卫兵换岗叙事完整，单独署名Sally结构与原页一致；无须修改。",
+  "issues": [],
+  "status": "passed_unchanged"
+}

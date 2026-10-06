@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "course": "pep-english",
+  "articleId": "pephr1-002",
+  "beforeDisplaySha256": "b1fd823613c9bf870c971d8a513bea90055bcc5cb2b6f63141bf8cb4ff467ec7",
+  "afterDisplaySha256": "b1fd823613c9bf870c971d8a513bea90055bcc5cb2b6f63141bf8cb4ff467ec7",
+  "baselineDisplay": {
+    "title": "Tim Studies on a Ship",
+    "section": "Discovering Useful Structures",
+    "text": "How would you like to go to school and travel the world at the same time? For Tim, that dream has come true! This term, Tim and his classmates are living on a ship! They take the same subjects as you do, like maths and English. They also learn about ships and the sea. Tim writes his parents an email every week and tells them what happened on the ship. Tim loves living on the ship. There's always something exciting to do. And, after a long day of study, he likes to watch the sun go down and wait for the stars to come out. Studying and doing homework seem much more fun when you are at sea!",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "How would you like to go to school and travel the world at the same time? For Tim, that dream has come true! This term, Tim and his classmates are living on a ship! They take the same subjects as you do, like maths and English. They also learn about ships and the sea. Tim writes his parents an email every week and tells them what happened on the ship. Tim loves living on the ship. There's always something exciting to do. And, after a long day of study, he likes to watch the sun go down and wait for the stars to come out. Studying and doing homework seem much more fun when you are at sea!"
+      }
+    ]
+  },
+  "display": {
+    "title": "Tim Studies on a Ship",
+    "section": "Discovering Useful Structures",
+    "text": "How would you like to go to school and travel the world at the same time? For Tim, that dream has come true! This term, Tim and his classmates are living on a ship! They take the same subjects as you do, like maths and English. They also learn about ships and the sea. Tim writes his parents an email every week and tells them what happened on the ship. Tim loves living on the ship. There's always something exciting to do. And, after a long day of study, he likes to watch the sun go down and wait for the stars to come out. Studying and doing homework seem much more fun when you are at sea!",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "How would you like to go to school and travel the world at the same time? For Tim, that dream has come true! This term, Tim and his classmates are living on a ship! They take the same subjects as you do, like maths and English. They also learn about ships and the sea. Tim writes his parents an email every week and tells them what happened on the ship. Tim loves living on the ship. There's always something exciting to do. And, after a long day of study, he likes to watch the sun go down and wait for the stars to come out. Studying and doing homework seem much more fun when you are at sea!"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "path": "content/pep-english/raw/senior-required-1.pdf",
+      "locator": "PDF第13-13页，标题与完整正文逐行核对",
+      "checked": true,
+      "sha256": "ffe985a370964820aa003008f48c7cf17b5e0dff8eb29fe54cd4743b0c4e8c79"
+    },
+    {
+      "path": "content/pep-english/raw/senior-required-1/senior-required-1_13.jpg",
+      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
+      "checked": true,
+      "sha256": "a0ef4aba7eae396feb05f147b975593508c2139507a1390875a402cec46a39a9"
+    }
+  ],
+  "corrections": [],
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "reviewer": "Codex",
+  "reviewedAt": "2026-10-02T05:20:48+00:00",
+  "notes": "PDF第13页船上学习短文完整核对。Tim与同学住船、同样课程、每周邮件及日落星空结尾一致；练习下划线不改变正文，单段无修改。",
+  "issues": [],
+  "status": "passed_unchanged"
+}

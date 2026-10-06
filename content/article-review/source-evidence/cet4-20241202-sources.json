@@ -1,0 +1,19 @@
+{
+  "articleId": "cet4-20241202",
+  "checkedAt": "2026-10-02",
+  "scope": "8页原PDF全部渲染逐页读图，正文/选项/55答案核对；以下明确各来源的实际阅读范围。",
+  "sources": [
+    {"url":"https://biology.umd.edu/news/week-dark-rewires-brain-cell-networks-and-changes-hearing-mice","access":"研究机构报道全文已读","findings":"2019成年小鼠一周黑暗后，17音调神经活动测试；不同频率网络配置变化，不是人类语言或行为听力试验；注意力解释仍是假说。"},
+    {"url":"https://pubmed.ncbi.nlm.nih.gov/31744840/","access":"论文检索元数据已读，未声称全文核对","findings":"Solarana等原论文，10.1523/ENEURO.0269-19.2019。"},
+    {"url":"https://www.theguardian.com/environment/2019/apr/28/if-we-care-about-plastic-waste-why-wont-we-stop-drinking-bottled-water","access":"Simon Usborne原报道全文已读，只据用户提供的试卷作编辑","findings":"2019年4月报道，销售数字及采访具有历史时点。"},
+    {"url":"https://www.gov.uk/government/news/soft-drinks-industry-levy-12-things-you-should-know","access":"政府说明中果汁适用范围已读","findings":"纯果汁无添加糖免征该税；修正泛指所有果汁。"},
+    {"url":"https://www.parliament.uk/mps-lords-and-offices/offices/commons/media-relations-group/news/parliaments-ambitious-plastic-plans-unveiled-/","access":"2018年5月15日公告正文开头及具体措施已读","findings":"议会提出到2019年大幅削减一次性塑料，2018年夏停止出售塑料瓶矿泉水；不是整个英国政府所有塑料全面禁令。"},
+    {"url":"https://www.sfenvironment.org/vi/media/13541","access":"市环境部门2014公告检索相关条文已读，未声称全文阅读","findings":"21液量盎司及以下，城市财产和规定活动的销售/分发限制，有例外；修正无条件全禁概括。"},
+    {"url":"https://www.gov.scot/publications/deposit-return-scheme-scotland-summary/","access":"2018年8月1日政府解释检索正文已读","findings":"购买时额外缴纳小额押金，退容器后返还；不是退税。"},
+    {"url":"https://www.climate.gov/news-features/climate-and/climate-chocolate","access":"2016 NOAA研究说明检索正文已读，直接页面现为空白；核对情景、适应与产区范围","findings":"business-as-usual情景到2050升温3.8°F即2.1°C；部分种植区适宜性下降及水分蒸发压力，不是全球灭绝预言；规划与适应仍可能。"},
+    {"url":"https://innovativegenomics.org/news/new-project-to-create-disease-resistant-cacao/","access":"2018年1月3日项目公告开头及项目目标检索段落已读；直接页面错误","findings":"MARS支持抗病可可基因编辑项目；不据新闻夸大为创造新物种或已证耐热耐旱。"},
+    {"url":"https://innovativegenomics.org/programs/sustainable-agriculture/engineering-disease-resistant-cacao-with-crispr-genome-editing/","access":"研究项目Overview正文已读","findings":"目标为应对黑荚病及CSSV等感染，通过CRISPR与转化研究提高病原抗性；不是已解决全部气候威胁。"},
+    {"url":"https://www.ndrc.gov.cn/fzggw/wld/yd/zyhd/202401/t20240119_1363542.html","access":"2024年1月19日官方发布会原文新能源汽车回答已读","findings":"2023产958.7万辆、销949.5万辆，产销全球比重超60%；将试卷目前改为2023，避免当作当前数字。"}
+  ],
+  "limitations": "金融教育原署名出处未定位；按原卷完整阅读并明确其个人主张，未将其写成代表性研究。瓶装水市场数字和行业问卷是历史报道转述，未独立审计原始数据；问卷意愿不等于实际行为。听力只有原卷与答案表，未听音核验。"
+}

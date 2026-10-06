@@ -1,0 +1,406 @@
+{
+  "total": 40,
+  "closed": 40,
+  "pending": 0,
+  "items": [
+    {
+      "article": "nce/nce2-064",
+      "actionRequired": "中级051复审核实发现同源NCE2-64也有42年后和1994-03-07历史错误。最终完成前须全文复审发布NCE2-064，按Getlink1880及1994-05-06和Pas-de-Calais1882记录编辑校勘，保留全部字幕时间戳和角色。不能修改原始锁定LRC冒充原文。",
+      "done": true,
+      "closureEvidence": "content/article-review/source-evidence/nce2-064-followup-closure.json",
+      "resolution": "后续提醒基于原始LRC的42年和3月7日。当前已签名发布版早在2026-10-02完成20年、超过100年及1994-05-06修正；本次无需重复修改或虚构新修订。1880是开始挖掘，1882是放弃首次项目，不应把开始日期改1882。",
+      "closureEvidenceSha256": "add479f0f7bd31d51cc68104b26ba91e1c14594cf067f9328fb71dcaa73adbdc",
+      "finalRevisionSha256": "695350d8f7c117fc663909ba2071d2521560435b44bf9a8f4a2b633faf9385d4"
+    },
+    {
+      "article": "nce/nce2-067",
+      "actionRequired": "中级053复核发现Haroun Tazieff被错误简化为Polish scientist；法国官方Portraits de France记1936比利时入籍、1971法国入籍。最终完成前全文复审NCE2-067并编辑职业标签，保留原始锁定LRC及所有时间戳角色。",
+      "done": true,
+      "closureEvidence": "content/article-review/source-evidence/nce2-067-followup.json",
+      "revisionSha256": "797d6c99593df5a559a2bdf1fa6bcc021747395cf512d5679883b7c51e0aab13",
+      "closedAt": "2026-10-04T02:07:21.261567+00:00",
+      "closureEvidenceSha256": "0a76e4cf30918c043f710b1cd905ed6d42485cfd46d09bd0d188e396981128be",
+      "finalRevisionSha256": "797d6c99593df5a559a2bdf1fa6bcc021747395cf512d5679883b7c51e0aab13"
+    },
+    {
+      "article": "nce/nce2-073",
+      "actionRequired": "中级057核实Perpignan在法西边境附近，非边界线上。检查Record-holder对应NCE编号（预估73，以实际课文为准），按France.fr官方资料修订on/near及中文，锁定LRC和时间戳角色保持。",
+      "done": true,
+      "closureEvidence": "content/article-review/source-evidence/nce2-073-followup.json",
+      "revisionSha256": "42c6f8ea23dbba80de7451cad18b54572fd6da86a7853a820ed4a8c5b48e52af",
+      "closedAt": "2026-10-04T02:08:22.235871+00:00",
+      "closureEvidenceSha256": "0bc85ea9d057d18e7a97316566589be4cf3b74f22816f3d7e50ece4ea9cdbe6f",
+      "finalRevisionSha256": "42c6f8ea23dbba80de7451cad18b54572fd6da86a7853a820ed4a8c5b48e52af"
+    },
+    {
+      "article": "nce/nce2-077",
+      "actionRequired": "中级060复核证实Duamutef为豺首神，原NCE2-077写牛头错误。按Met与British Museum官方馆藏资料编辑校勘发布显示字段，中英文同步且锁定LRC不动、全部时间戳角色保持。",
+      "done": true,
+      "closureEvidence": "content/article-review/source-evidence/nce2-077-followup-closure.json",
+      "resolution": "后续提醒基于锁定LRC的cow；当前已签名正文早已为jackal/豺头，内容与馆藏相符，无须重复修改。",
+      "closureEvidenceSha256": "71b03599599812830f807f5d08ae81c4752539b1c6e837db628a461b4223d93b",
+      "finalRevisionSha256": "a046f0c8a05deb9458fdff2811a7670ca17975af33ae85ef534a3101afbfe7fa"
+    },
+    {
+      "article": "nce/nce2-082",
+      "actionRequired": "中级064核查：桨鱼栖深不能表述成固定600英尺。保留教材叙事并以明确编辑补注或中英同步修订限定科学概述；参考已读Australian Museum及NHM，二者给出的估计范围不一致，不冒称统一范围。锁定LRC不动、时间戳角色保持。",
+      "done": true,
+      "closureEvidence": "content/article-review/source-evidence/nce2-082-followup.json",
+      "revisionSha256": "2f845f75989353d20cc93c213d01e540f907014b0f23bf420c7e94a024a2f38a",
+      "closedAt": "2026-10-04T02:09:06.458059+00:00",
+      "closureEvidenceSha256": "824bfb057244e6d5608980fed81b502eef95c18b1631c33893af321d88685d94",
+      "finalRevisionSha256": "2f845f75989353d20cc93c213d01e540f907014b0f23bf420c7e94a024a2f38a"
+    },
+    {
+      "article": "nce/nce2-090",
+      "actionRequired": "中级069核查：12英尺鳕鱼/鳐鱼及热油管等导致长大缺乏证据，应明确旧教材趣闻与作者推测范围，不作为生物学事实。参考NOAA物种页、年龄研究及平台人工礁摘要，不能混淆地区/物种。锁定LRC不动，发布字段中英文同步及时间戳角色保持。",
+      "done": true,
+      "closureEvidence": "content/article-review/source-evidence/nce2-090-followup.json",
+      "revisionSha256": "df5a658a684579e9b35d8ffe0c5a7cd9bd17ec475897d134adcd263ac61034b7",
+      "closedAt": "2026-10-04T02:09:54.719221+00:00",
+      "closureEvidenceSha256": "3abf7d135efe6e67ef552dcf7658fcafc3e7a1ce5bfcb05f5d48698115cb2d7b",
+      "finalRevisionSha256": "df5a658a684579e9b35d8ffe0c5a7cd9bd17ec475897d134adcd263ac61034b7"
+    },
+    {
+      "article": "nce/nce2-093",
+      "actionRequired": "中级068核实自由女神像1885已运抵，基座1886才完工；原文运输前必须建好基座错误。另核对十年工期、1884赠送与1886落成/Cleveland接受的区别。按NPS chronology修订中英发布字段，锁定LRC不动、时间戳角色保持。",
+      "done": true,
+      "closureEvidence": "content/article-review/source-evidence/nce2-093-followup.json",
+      "revisionSha256": "63711cd586ef9935b7c48424f9f6d37560185f907f811b034be397d8210088cf",
+      "closedAt": "2026-10-04T02:10:54.843117+00:00",
+      "closureEvidenceSha256": "063afbfe179d34111e383e791b5755dfac2f01cab5dc59988b77596c2156095d",
+      "finalRevisionSha256": "63711cd586ef9935b7c48424f9f6d37560185f907f811b034be397d8210088cf"
+    },
+    {
+      "article": "nce/nce2-094",
+      "actionRequired": "中级067核查：旧教材婴儿水下屏气和比赛叙述不是当前科学/安全建议。按AAP2026技术报告及HealthyChildren资料在发布显示内容明确历史教材语境及证据限制；不要改锁定LRC，时间戳和角色保持。",
+      "done": true,
+      "closureEvidence": "content/article-review/source-evidence/nce2-094-followup.json",
+      "revisionSha256": "861a55c07ccdf96004b1191268340ed107dfd4c9cd0fbbfd150ba7323c53efee",
+      "closedAt": "2026-10-04T02:11:31.786957+00:00",
+      "closureEvidenceSha256": "043f6731db927c9d1a7197c182a4b94676a57b3a751b2884deb71a5d15c09f24",
+      "finalRevisionSha256": "861a55c07ccdf96004b1191268340ed107dfd4c9cd0fbbfd150ba7323c53efee"
+    },
+    {
+      "article": "nce/nce3-001",
+      "actionRequired": "中高级001核实美洲狮并非只有被逼入绝境才伤人。按NPS官方动物资料在发布中英显示字段同步改正绝对断言；明确来源为教材故事而非现实野外个体的确认。锁定LRC不动，时间戳角色保持。",
+      "done": true,
+      "closureEvidence": "content/article-review/source-evidence/nce3-001-followup.json",
+      "revisionSha256": "5ab723c75fc22581c50acfd5bba27697aca1ad245cbb39eff4b7d58f610c2fdc",
+      "closedAt": "2026-10-04T02:12:08.055635+00:00",
+      "closureEvidenceSha256": "505517dc5bfbf7d132d86804cde21078cc8d422b5ae5c6ec277d26a75465ef13",
+      "finalRevisionSha256": "5ab723c75fc22581c50acfd5bba27697aca1ad245cbb39eff4b7d58f610c2fdc"
+    },
+    {
+      "article": "nce/nce3-003",
+      "actionRequired": "中高级003馆方资料确认女性陶像至少50尊碎片，旧课文15尊及全为女神须明确教材历史叙述，不视作今日考古总数/身份定论；古典时代语境为古希腊。据shuimu-upper-003-recheck证据同步发布文本注释，锁定LRC不动，时间戳角色保持。",
+      "done": true,
+      "closureEvidence": "content/article-review/source-evidence/nce3-003-followup.json",
+      "revisionSha256": "40e7ee16c959b0dcf115a42f2184ae4ebef908519c2549bdd0b71305a21d0f10",
+      "closedAt": "2026-10-04T02:12:55.776477+00:00",
+      "closureEvidenceSha256": "85e1c502970709825911ebfb4aa086ca5f696fa67e29c3d6147c14e948a91fdb",
+      "finalRevisionSha256": "40e7ee16c959b0dcf115a42f2184ae4ebef908519c2549bdd0b71305a21d0f10"
+    },
+    {
+      "article": "nce/nce3-007",
+      "actionRequired": "参照shuimu-upper-007-recheck英格兰银行官方1989季报和现行政策，在发布文本补历史情境说明：旧地址/统计非当前，一般至少半张真钞意外受损须审查，不是有可识别物即无条件退款；检查括号and a lot of people do译义。锁定LRC不动，时间戳角色保持。",
+      "done": true,
+      "closureEvidence": "content/article-review/source-evidence/nce3-007-followup.json",
+      "revisionSha256": "ebf18740a90da30fd2f51a8a9a6732efdd4bb3b2e4d6e65c07eaeb377c1493ac",
+      "closedAt": "2026-10-04T02:13:51.728966+00:00",
+      "closureEvidenceSha256": "0b598c8cb9e65dedc0670ad17b4e73f6336bb8ab0c8808a70f0d74742ba0b811",
+      "finalRevisionSha256": "ebf18740a90da30fd2f51a8a9a6732efdd4bb3b2e4d6e65c07eaeb377c1493ac"
+    },
+    {
+      "article": "nce/nce3-008",
+      "actionRequired": "根据shuimu-upper-008-recheck修正发布文本中欧洲最高山口、hospice离山口一英里、犬种直接来自亚洲/罗马守卫、现代仍每年救援等；海拔约2469/官网2472差异要准确，冬季生活标历史教材叙述。同步中英显示字段，锁定LRC不动，时间戳角色保持。",
+      "done": true,
+      "closureEvidence": "content/article-review/source-evidence/nce3-008-followup.json",
+      "revisionSha256": "efa89cd51a1c1097ce937ad2a29aed320cdaa45f062bc23984aa03ec38428cdb",
+      "closedAt": "2026-10-04T02:15:02.686205+00:00",
+      "closureEvidenceSha256": "8ddbff61c97302c588a6687c0819d50eda7dc7b106784f0b6aaf57a6f4d8b3b6",
+      "finalRevisionSha256": "efa89cd51a1c1097ce937ad2a29aed320cdaa45f062bc23984aa03ec38428cdb"
+    },
+    {
+      "article": "nce/nce3-009",
+      "actionRequired": "据shuimu-upper-009-recheck原始1987研究改发布文本：132中104生还，17安乐死、3送达死亡、8入院后死亡；32层猫有轻度气胸及牙缺损；越高越安全未成立，2025研究相反。英中相关显示字段同步，原LRC保持且时间戳角色不变。",
+      "done": true,
+      "closureEvidence": "content/article-review/source-evidence/nce3-009-followup.json",
+      "revisionSha256": "0829f99f2952d1de26f90b7b541aeaf3093b6da31dcb600a05271262715ecb09",
+      "closedAt": "2026-10-04T02:18:47.489943+00:00",
+      "closureEvidenceSha256": "7fd68464cae4261d0fc77ffb65cde9f167c87d17e420fad7d26b981d926a4103",
+      "finalRevisionSha256": "0829f99f2952d1de26f90b7b541aeaf3093b6da31dcb600a05271262715ecb09"
+    },
+    {
+      "article": "nce/nce3-010",
+      "actionRequired": "依据shuimu-upper-010-recheck完善Titanic英中发布：人数明确统计口径、吨位非重量、首航跨洋、六舱损伤/前五足致沉、侧面碰撞和船长到驾驶台、救生艇未满载、约1500遇难。原LRC不动，时间戳角色保持。",
+      "done": true,
+      "closureEvidence": "content/article-review/source-evidence/nce3-010-followup.json",
+      "revisionSha256": "1bf5a19da0aa7a8391a1cdc5658ea07c70bccc35f2d8349dfacfa131c9f0a3a3",
+      "closedAt": "2026-10-04T02:19:05.160187+00:00",
+      "closureEvidenceSha256": "49f57f9184afae5d3833fb7874dc67ca92e4e5b63585a57128065752e97d6267",
+      "finalRevisionSha256": "1bf5a19da0aa7a8391a1cdc5658ea07c70bccc35f2d8349dfacfa131c9f0a3a3"
+    },
+    {
+      "article": "nce/nce3-011",
+      "actionRequired": "据shuimu-upper-012-recheck为旧海关叙事增加适当语境说明，不将香水一概纳税或粉笔放行教为现行通用法规。原LRC不动，时间戳角色保持。",
+      "done": true,
+      "originalTrackingId": "nce/nce3-012",
+      "mappingCorrection": "水木讲义11/12大号互换，Not guilty对应NCE3-011；NCE3-012实为Life on a desert island。按标题和内容重新定位，不修改012。",
+      "closureEvidence": "content/article-review/source-evidence/nce3-011-followup.json",
+      "revisionSha256": "e7974ea9ff746ef6b8ea971ffdf600fb9d5d48a3be39ebd1d0fb982ad3775607",
+      "closedAt": "2026-10-04T02:19:40.447925+00:00",
+      "closureEvidenceSha256": "185161ef93ca03bd619074a7e44572b5469fdf7470f7936d0a50b7c58e447274",
+      "finalRevisionSha256": "e7974ea9ff746ef6b8ea971ffdf600fb9d5d48a3be39ebd1d0fb982ad3775607"
+    },
+    {
+      "article": "nce/nce3-014",
+      "actionRequired": "据shuimu-upper-014-recheck校正霍克伍德年代（14世纪、1394卒、非80岁）、1436纪念壁画与葬礼不同时、姓名Italianized并非敲诈得名，佛罗伦萨表彰不概括全意大利。原LRC不动，时间戳及角色保持。",
+      "done": true,
+      "closureEvidence": "content/article-review/source-evidence/nce3-014-followup.json",
+      "revisionSha256": "bf8f3100c5a72284ddad054b514a7cdfba834c8b4eb8b47ed0e74a5c18396b5a",
+      "closedAt": "2026-10-04T02:20:19.716282+00:00",
+      "closureEvidenceSha256": "6d0a4b7d2afa755357040e0364465e4054edb14a25115e07a5f473883ad590a5",
+      "finalRevisionSha256": "bf8f3100c5a72284ddad054b514a7cdfba834c8b4eb8b47ed0e74a5c18396b5a"
+    },
+    {
+      "article": "nce/nce3-017",
+      "actionRequired": "依据shuimu-upper-017-recheck校正桥名拼写、1964主跨世界纪录而非今排名、4260主跨非总长、platforms非两桥塔、26108钢丝非钢绳、1/3仅原教材未列荷载假设估计；Angouleme土地非海湾、不可将探险家伟大评价当史实。原LRC不动，时间戳角色保持。",
+      "done": true,
+      "closureEvidence": "content/article-review/source-evidence/nce3-017-followup.json",
+      "revisionSha256": "f01aef581ae7e0263b26727362e32869b8b793ccc93e862e46dfbe35f669b96e",
+      "closedAt": "2026-10-04T02:21:08.809268+00:00",
+      "closureEvidenceSha256": "aa826b0249745a67fd3dded538a8b5e1b502eaa2409fa5f077b5cc3de775c030",
+      "finalRevisionSha256": "f01aef581ae7e0263b26727362e32869b8b793ccc93e862e46dfbe35f669b96e"
+    },
+    {
+      "article": "nce/nce3-019",
+      "actionRequired": "核对已发布中译是否仍含再也没回来及末句dear双关遗漏；若有，按shuimu-upper-019-recheck补正。原LRC不动，时间戳与角色保持；若已正确记录证据后关闭。",
+      "done": true,
+      "closureEvidence": "content/article-review/source-evidence/nce3-019-followup-closure.json",
+      "resolution": "现有7译为当晚没有按时回家，没有再也没回来错误；19珍贵与20“贵”不止一层意思共同保留心爱/昂贵双关，问题亦提示多义。无需再改已正确的发布稿。",
+      "closureEvidenceSha256": "21991821359ca513048985b6c187947223d9faa73947e9ae52b00865acac773f",
+      "finalRevisionSha256": "05593bf97d648e55fc9ef55b5ec03342eede1cc52c4a388bdf319161d0779d3d"
+    },
+    {
+      "article": "nce/nce3-020",
+      "actionRequired": "按shuimu-upper-020-recheck.json核验奖金1908年10月500次年1000、等候不到一年、1901飞行器试验、7月13日陆上飞行、7月27日二次尝试；精确起飞钟点有差异，保留约37分钟，不把警员认定第一迎接者。原LRC不动，时间戳和角色保持。",
+      "done": true,
+      "closureEvidence": "content/article-review/source-evidence/nce3-020-followup.json",
+      "revisionSha256": "2f5acee7e043b531780c19de3632d66d10994c306f9559a54fc918c5b82160c0",
+      "closedAt": "2026-10-04T02:21:58.933115+00:00",
+      "closureEvidenceSha256": "e6a830b4cc00d1aa34f0c1d414782defcb930ac0fe3bf318a8d237bb845e52c5",
+      "finalRevisionSha256": "2f5acee7e043b531780c19de3632d66d10994c306f9559a54fc918c5b82160c0"
+    },
+    {
+      "article": "nce/nce3-025",
+      "actionRequired": "参照shuimu-upper-025-recheck.json，修正1872终结帆船时代、唯一竞争对手、赤道后进港换舵及绝对会轻易获胜等原文历史问题；四个月明确指卡蒂萨克航程，删未证实500英里差距，译文同步。保留原LRC、时间戳与角色。",
+      "done": true,
+      "closureEvidence": "content/article-review/source-evidence/nce3-025-followup.json",
+      "revisionSha256": "dbd919cc5d521bfb94d2684dad3526710f0857a0b5ed54d2e873ad11324b890e",
+      "closedAt": "2026-10-04T02:22:34.509237+00:00",
+      "closureEvidenceSha256": "6a1cd80b7075b2b47774284f79081c294aa33e71b7f6dd7133070888614e1778",
+      "finalRevisionSha256": "dbd919cc5d521bfb94d2684dad3526710f0857a0b5ed54d2e873ad11324b890e"
+    },
+    {
+      "article": "nce/nce3-032",
+      "actionRequired": "2026-10-04再次全文通读中英：ship on its way home误译返回家中，改正在返航；Nothing of value按上下文金钱价值改没有发现值钱的东西，区别后文日志史料价值。in a convoy已正确译随船队，不需改。保留角色/时间戳，按CLI追加复核修订，不覆盖已签稿。",
+      "done": true,
+      "closureEvidence": "content/article-review/source-evidence/nce3-032-followup.json",
+      "revisionSha256": "f39556b863df53ffe2a1dbe5664fb0540865a4ada38cd4addc2889c8c59ad44d",
+      "closedAt": "2026-10-04T02:22:55.094872+00:00",
+      "closureEvidenceSha256": "d70330b5ca24811f85ce98cf7e915afad7ccfeb299835b3c24ff1cb1b5e5a32e",
+      "finalRevisionSha256": "f39556b863df53ffe2a1dbe5664fb0540865a4ada38cd4addc2889c8c59ad44d"
+    },
+    {
+      "article": "nce/nce3-035",
+      "actionRequired": "正文Reward or punishment are meted out quite independent of human interference与水木035同一主谓/修饰问题，改is meted out quite independently of；按原稿编辑校勘登记，保留原音频字幕源和时间戳/角色，不把编辑稿称原录音逐字文本。2026-10-04全英文及中文重新通读，其余墙壁/黑色身影及几乎译文已合。",
+      "done": true,
+      "closureEvidence": "content/article-review/source-evidence/nce3-035-followup.json",
+      "revisionSha256": "9c275ea9848e5802098b6cf257513a6401a903a9c36b454f5c50b5014e67c769",
+      "closedAt": "2026-10-04T02:23:18.387843+00:00",
+      "closureEvidenceSha256": "3ba6eeb0c15305089be070023f7f7fb8ab3189db5ba6a9a840eed9b3db7cc563",
+      "finalRevisionSha256": "9c275ea9848e5802098b6cf257513a6401a903a9c36b454f5c50b5014e67c769"
+    },
+    {
+      "article": "nce/nce3-038",
+      "actionRequired": "全英中字幕已通读；末次冰期原BC35000–10000错误，月历已破译及提前两万年断言需同水木038核查证据编辑修订。保留原始音频与时间角色，不称编辑稿为逐字录音。",
+      "done": true,
+      "closureEvidence": "content/article-review/source-evidence/nce3-038-followup.json",
+      "revisionSha256": "3aaeb8792853f34f3c212e31d9f56fd5cd72561bae63af2376fd175c7a162e5e",
+      "closedAt": "2026-10-04T02:24:03.572141+00:00",
+      "closureEvidenceSha256": "75bbff526a62057360dc49d2c7f707074892a6237e158cba8d300a1824dc0ffa",
+      "finalRevisionSha256": "3aaeb8792853f34f3c212e31d9f56fd5cd72561bae63af2376fd175c7a162e5e"
+    },
+    {
+      "article": "nce/nce3-042",
+      "actionRequired": "同水木042：现称世界最深需改历史纪录，3723英尺对应1963年1135米，1953年Jo Berger发现；保留时间戳角色与原音频源，编辑中英同步。",
+      "done": true,
+      "closureEvidence": "content/article-review/source-evidence/nce3-042-followup.json",
+      "revisionSha256": "aba12c48c2ba1135860527079630d58a5cb6e4a9a749b22fb2efe656c7e7be0e",
+      "closedAt": "2026-10-04T02:24:38.334584+00:00",
+      "closureEvidenceSha256": "b0d05a93fe665cbc51e5afc113f768c847fd12acc398321c4650c1b7da1770b7",
+      "finalRevisionSha256": "aba12c48c2ba1135860527079630d58a5cb6e4a9a749b22fb2efe656c7e7be0e"
+    },
+    {
+      "article": "nce/nce3-044",
+      "actionRequired": "全英中字幕已通读；uncrumpled译毫无倦意漏衣服不皱，按水木044词义证据修中译并同步bodyTextZh。",
+      "done": true,
+      "closureEvidence": "content/article-review/source-evidence/nce3-044-followup.json",
+      "revisionSha256": "a6f6636d16b6f692aefc00a8314e7a2a90b6942ee7e7c35a50a41ccc69f30746",
+      "closedAt": "2026-10-04T02:25:01.007287+00:00",
+      "closureEvidenceSha256": "e325fe7fd3cbf67696b65da9c7438f54fd98d6f72538209bb1412fa4d9bbe373",
+      "finalRevisionSha256": "a6f6636d16b6f692aefc00a8314e7a2a90b6942ee7e7c35a50a41ccc69f30746"
+    },
+    {
+      "article": "nce/nce3-045",
+      "actionRequired": "参见水木045同期报道证据：房款原50万错误应10万、婴儿incubators保育箱、地点城外、1963背景；60名次日飞机细节独立未证实编辑为记者到访；never normal不可当终生既成事实。须全文通读新概念并同步英中显示，保留原音频。",
+      "done": true,
+      "closureEvidence": "content/article-review/source-evidence/nce3-045-followup.json",
+      "revisionSha256": "862ecb5027e4e7fa5e8b491cdcf77e35630edf5e9ced75c5b03ff83a1ce2c300",
+      "closedAt": "2026-10-04T02:25:45.046590+00:00",
+      "closureEvidenceSha256": "f524b05c889453c45a69a3c25a6c5a6d127ffe3b02d339023e9be5de292878fc",
+      "finalRevisionSha256": "862ecb5027e4e7fa5e8b491cdcf77e35630edf5e9ced75c5b03ff83a1ce2c300"
+    },
+    {
+      "article": "nce/nce3-047",
+      "actionRequired": "全29句已通读；按shuimu-upper-047-recheck.json事实性编辑修订同步食品风险/有机农药/BSE/噪音无出处调查及性别打鼾百分比，英中一致并保留原音频。",
+      "done": true,
+      "closureEvidence": "content/article-review/source-evidence/nce3-047-followup.json",
+      "revisionSha256": "1ef44eef3c0880a000cc950c125ef80e8e5d931ff57b820b62a9e243c104e3ef",
+      "closedAt": "2026-10-04T02:26:36.000165+00:00",
+      "closureEvidenceSha256": "825a78e11c2a6b66f781cb699ba0fb4f01672e2312cea78aff23e9c3dcb8b6b3",
+      "finalRevisionSha256": "1ef44eef3c0880a000cc950c125ef80e8e5d931ff57b820b62a9e243c104e3ef"
+    },
+    {
+      "article": "nce/nce3-048",
+      "actionRequired": "全37句英中已读：18take us渡到对岸非带我们一起去；26offered food未确定给出；29came to life活跃起来不能译热闹（仍无声）；参看shuimu-upper-048-recheck。",
+      "done": true,
+      "closureEvidence": "content/article-review/source-evidence/nce3-048-followup.json",
+      "revisionSha256": "b41639c46081df6f5ec7d63bf0cfef9f0dcd559f1fa691139a7fe31e4a70d619",
+      "closedAt": "2026-10-04T02:27:02.700146+00:00",
+      "closureEvidenceSha256": "994431e98840899c54c4d72493ca2021b74ac1bdc8036f59ba446c56f3f5697d",
+      "finalRevisionSha256": "b41639c46081df6f5ec7d63bf0cfef9f0dcd559f1fa691139a7fe31e4a70d619"
+    },
+    {
+      "article": "nce/nce3-049",
+      "actionRequired": "全31句英中已读；17 so gained confidence, that的逗号删除，保留原音频；参考水木049。",
+      "done": true,
+      "closureEvidence": "content/article-review/source-evidence/nce3-049-followup.json",
+      "revisionSha256": "3b7511fcf9632432a53e5d7a6c95860bbbf92d7aa78963de33788eeba3dedebb",
+      "closedAt": "2026-10-04T02:27:23.162916+00:00",
+      "closureEvidenceSha256": "3de4126dddf347da7e6b85b88f8fd7f25e2570554cdb9b7bc1b8edaf77a3e621",
+      "finalRevisionSha256": "3b7511fcf9632432a53e5d7a6c95860bbbf92d7aa78963de33788eeba3dedebb"
+    },
+    {
+      "article": "nce/nce3-050",
+      "actionRequired": "全35句英中已读；7目标不可达绝对化、8戒烟失败唯一归因依水木050及CDC编辑修订英中，保留原音频。",
+      "done": true,
+      "closureEvidence": "content/article-review/source-evidence/nce3-050-followup.json",
+      "revisionSha256": "573833e04ea3d791cefe9efbf46e135662b99d2b6d5c91e73701c7520dcbc5d7",
+      "closedAt": "2026-10-04T02:27:49.828117+00:00",
+      "closureEvidenceSha256": "f0d51e071e4c67294cb21222c46435265f1c88789a44d10531fb1a09e5bb565e",
+      "finalRevisionSha256": "573833e04ea3d791cefe9efbf46e135662b99d2b6d5c91e73701c7520dcbc5d7"
+    },
+    {
+      "article": "nce/nce3-051",
+      "actionRequired": "全26句英中已读；按shuimu-upper-051-recheck.json BBC原演讲实际预见全国/全球信息系统，修正问题/正文21–22；Altair非首台/Apple1976+1977、70年代与电视普及等历史断言同步。NCE12IBM已非世界第一。保留音频/时间戳。",
+      "done": true,
+      "closureEvidence": "content/article-review/source-evidence/nce3-051-followup.json",
+      "revisionSha256": "2e33f75fa1e5ecae6afef69f57b2fc394d388e4b643049131c46621c32418096",
+      "closedAt": "2026-10-04T02:28:35.354832+00:00",
+      "closureEvidenceSha256": "76a90939fd8dc7c1d79780dce16fc38b059249cdc66c695e74824bf454d105da",
+      "finalRevisionSha256": "2e33f75fa1e5ecae6afef69f57b2fc394d388e4b643049131c46621c32418096"
+    },
+    {
+      "article": "nce/nce3-052",
+      "actionRequired": "全33句已读；9came into the possession of改came into possession of，3curiously-shaped改curiously shaped（ly副词），参考水木052，保留音频。",
+      "done": true,
+      "closureEvidence": "content/article-review/source-evidence/nce3-052-followup.json",
+      "revisionSha256": "fd17eae69007a59e0353dcee7d803f253cca160b2b6c81022406c1708d04d50b",
+      "closedAt": "2026-10-04T02:31:02.037075+00:00",
+      "closureEvidenceSha256": "510dd133166c222e1a77fab8fcb7a6455f567eb1a6e8ae9fd55abeecc649f665",
+      "finalRevisionSha256": "fd17eae69007a59e0353dcee7d803f253cca160b2b6c81022406c1708d04d50b"
+    },
+    {
+      "article": "nce/nce3-053",
+      "actionRequired": "全28句英中已读；依水木053+JO官方修正任命/四位/未注明年代1200及8/隐私保密/调查裁量，故事需明确教材叙事非已证实案卷；档案未显示≠不可记录偏见，投诉非必然起诉。同步问题英中并保留音频。",
+      "done": true,
+      "closureEvidence": "content/article-review/source-evidence/nce3-053-followup.json",
+      "revisionSha256": "13c2abf1f1bb9dc8dc5afe2a0cc5136a152382d0bb28b581cc2e501dd9da4902",
+      "closedAt": "2026-10-04T02:31:50.878227+00:00",
+      "closureEvidenceSha256": "99826d1e1daa1d0e6bc5f72c590cfda2cb6384446230d4b4092fc41e11f59e79",
+      "finalRevisionSha256": "13c2abf1f1bb9dc8dc5afe2a0cc5136a152382d0bb28b581cc2e501dd9da4902"
+    },
+    {
+      "article": "nce/nce3-054",
+      "actionRequired": "全32句已读；蜘蛛已为creatures无需重复改；5危害限定部分种类；21honey改明确honeydew蜜露，23只阻直接树干路径，参看水木054/RHS；保留音频，aphides合法复数无须强改。",
+      "done": true,
+      "closureEvidence": "content/article-review/source-evidence/nce3-054-followup.json",
+      "revisionSha256": "e5b08fa7a44fd57c04092171879a91f108dfa90bce356c40667800b13a9ce4eb",
+      "closedAt": "2026-10-04T02:32:14.468082+00:00",
+      "closureEvidenceSha256": "69eade68920bb3ca7961af7747eb69937cb939c83e6d622662baf87d411775f5",
+      "finalRevisionSha256": "e5b08fa7a44fd57c04092171879a91f108dfa90bce356c40667800b13a9ce4eb"
+    },
+    {
+      "article": "nce/nce3-055",
+      "actionRequired": "全30句英中已读；按水木055源证据更新候选行星/热辐射/金火星不能武断无生命/35亿年微生物/宜居因素/地面与Hubble/Webb L2/无需木星/凌星光谱/蓝细菌非植物，问题及Goldin未核实逐字引文同步编辑，保留音频和原30句时间角色。",
+      "done": true,
+      "closureEvidence": "content/article-review/source-evidence/nce3-055-followup.json",
+      "revisionSha256": "f88422f6af8a113ba7c92e6c81bb84c48fc32dcf673a8344a1407c95e7b129f0",
+      "closedAt": "2026-10-04T02:33:14.360837+00:00",
+      "closureEvidenceSha256": "0ac0489243a3467d8844b0826238ac23e680288e9be6b4c8b169ae5fb9de12b3",
+      "finalRevisionSha256": "f88422f6af8a113ba7c92e6c81bb84c48fc32dcf673a8344a1407c95e7b129f0"
+    },
+    {
+      "article": "nce/nce3-056",
+      "actionRequired": "全26条英中已读；23 unduly中文需补过度，并将房屋即使几乎淹没也不会倒塌明确为作者推断，不能作为灾害安全事实。参水木056证据，原叙事/音频保留。",
+      "done": true,
+      "closureEvidence": "content/article-review/source-evidence/nce3-056-followup.json",
+      "revisionSha256": "f3f395f9f52fea0d8680346a01d20612a3e3494c7ed40b1160a361f2f08ae483",
+      "closedAt": "2026-10-04T02:33:37.413542+00:00",
+      "closureEvidenceSha256": "0a0f2f06bbb220933c6652b2785e1d694d38ba603726e79fe230a591e1b76704",
+      "finalRevisionSha256": "f3f395f9f52fea0d8680346a01d20612a3e3494c7ed40b1160a361f2f08ae483"
+    },
+    {
+      "article": "nce/nce3-057",
+      "actionRequired": "全部36条已读；5年龄when my father had taken→took，30独立句comma splice改分号，与水木057编辑校勘同步；6 after事故后而非事故当中，译文精确化。",
+      "done": true,
+      "closureEvidence": "content/article-review/source-evidence/nce3-057-followup.json",
+      "revisionSha256": "933e9f82350893c7172c91c01e39a536ad2706a0d168d7e3c8599b2df0ec75df",
+      "closedAt": "2026-10-04T02:33:55.073683+00:00",
+      "closureEvidenceSha256": "610c82f9e1312e6432a6e26a81910456de37fc1c46b525da462713f652b3ef6b",
+      "finalRevisionSha256": "933e9f82350893c7172c91c01e39a536ad2706a0d168d7e3c8599b2df0ec75df"
+    },
+    {
+      "article": "nce/nce3-058",
+      "actionRequired": "全23条英中已读；18门锁未撬不严格证明only two routes，proving改suggesting/might；20当天前案/惊扰改警员推断，英中同步，参水木058；15 colon and可用分号规范。",
+      "done": true,
+      "closureEvidence": "content/article-review/source-evidence/nce3-058-followup.json",
+      "revisionSha256": "adec11f3b5dfc157c95a7279c5de87abf3941dd148f87fd481dcd95940236ef3",
+      "closedAt": "2026-10-04T02:34:18.301493+00:00",
+      "closureEvidenceSha256": "f5ca23b682ad299a9de00fe59560e9d7b6ef5b01fbff87b1f0af96759dbd8b61",
+      "finalRevisionSha256": "adec11f3b5dfc157c95a7279c5de87abf3941dd148f87fd481dcd95940236ef3"
+    },
+    {
+      "article": "nce/nce3-059",
+      "actionRequired": "全27条英中已读；5不搬家者/7年长者积物加可能性may，8情感价值超物质material非否定真实价值；14 opens desk中译桌子可改书桌抽屉/桌盖，13strongminded规范strong-minded，18枚举破折号和from…to逗号。原26描绘爱好乐趣可保留作者观点，不医学化。",
+      "done": true,
+      "closureEvidence": "content/article-review/source-evidence/nce3-059-followup.json",
+      "revisionSha256": "1bbf003712736613f0f89a7cb1bed5c38aef4f28ad8b213c16f7a62a06424f9e",
+      "closedAt": "2026-10-04T02:34:44.298212+00:00",
+      "closureEvidenceSha256": "25dcc57a42294ef57f67ee3b19056ba19cb0fc09071380a0fd431c58be26cf94",
+      "finalRevisionSha256": "1bbf003712736613f0f89a7cb1bed5c38aef4f28ad8b213c16f7a62a06424f9e"
+    },
+    {
+      "article": "nce/nce3-060",
+      "actionRequired": "全33条已读；29Just at已正确不重复；5sparsely-populated去连字符，7中文凭空加一切资料和信息改安排手头研究的一切；13over-punctual明确到得过早，18a fraction不是绝不一秒钟而是片刻迟到比较；19译文time less than非反问总比要好吧。",
+      "done": true,
+      "closureEvidence": "content/article-review/source-evidence/nce3-060-followup.json",
+      "revisionSha256": "0c2056f4c9b86100ae8b3b2836a455af96a7332164ffab3b13569f06fec0c768",
+      "closedAt": "2026-10-04T02:35:04.387653+00:00",
+      "closureEvidenceSha256": "c683f944c374c4728c0286da6b6198631470ec028e18d78e5713cfe0d46e5559",
+      "finalRevisionSha256": "0c2056f4c9b86100ae8b3b2836a455af96a7332164ffab3b13569f06fec0c768"
+    }
+  ]
+}

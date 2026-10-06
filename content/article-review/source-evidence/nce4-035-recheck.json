@@ -1,0 +1,43 @@
+{
+  "article": "nce4-035",
+  "fullRead": "完整通读源LRC与当前22条中英字幕、导读及19条正文；最终双语逐句复核。",
+  "sources": [
+    {
+      "url": "https://www.nasa.gov/general/nasa-kennedy-to-develop-tech-to-melt-moon-dust-extract-oxygen/",
+      "read": "2019年报告257–263行：月壤氧化物高温电解得到气态氧，有技术难点，氧用于氧化剂。"
+    },
+    {
+      "url": "https://www.nasa.gov/general/lunar-south-pole-oxygen-pipeline/",
+      "read": "检索摘录：氧气由提取装置运往储存/液化装置，不是岩石原有液氧。"
+    },
+    {
+      "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/moonfact.html",
+      "read": "月/地表：2.38/11.2km/s逃逸速度、质量与重力比例。"
+    },
+    {
+      "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/planetfact_notes.html",
+      "read": "EscapeVelocity定义：表面起始速度，忽略大气阻力。"
+    },
+    {
+      "url": "https://science.nasa.gov/mars/mars-relay-network/",
+      "read": "检索摘录：地火距离随位置变化，约54.6至400.2百万公里。"
+    },
+    {
+      "url": "https://science.nasa.gov/mars/facts/",
+      "read": "237–329行行星特征、红色由氧化铁、峡谷火山、大气与温度；未采用网页Olympus40km高度或流动盐水旧断言。"
+    },
+    {
+      "url": "https://science.nasa.gov/asset/hubble/scale-image-for-mars/",
+      "read": "2016Hubble观测：极冠与云，反证cloudless泛称。"
+    }
+  ],
+  "decisions": [
+    "液氧由fuel订正为oxidizer，说明提取及液化需要设备和能量，非轻易从岩石直接取出。",
+    "删97%节能未经定义任务的量化断言；逃逸速度保留近似值并说明条件，区分轨道任务；同质量同速度动能相同，重力影响发射条件。",
+    "3%费用推断改成明确不能由此推出；不猜另一百分比。",
+    "导读及殖民设想改为作者假设，火星距离改为随轨道变化而非固定160倍；不作未来必然预言。",
+    "删除无云天空和理想定居的过度断言，代以观测云层及环境挑战；峡谷火山保留可核实特征。",
+    "保留Clarke三阶段引述、其余段落及所有字幕时间戳/角色/资源；首句明示音文差异。"
+  ],
+  "unresolved": []
+}

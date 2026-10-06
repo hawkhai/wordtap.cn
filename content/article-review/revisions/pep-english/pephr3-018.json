@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "course": "pep-english",
+  "articleId": "pephr3-018",
+  "beforeDisplaySha256": "12b8d79bcb467e212a00eb5b1d15cd89a8e8ee30a6227796f22c345e28865483",
+  "afterDisplaySha256": "59acf6c74b17127d47116436093dcf6e04eb9b6cf1532bdae361ee6a26f80b07",
+  "baselineDisplay": {
+    "title": "Should Roderick and Oliver Give Henry the Money?",
+    "section": "Discovering Useful Structures",
+    "text": "A: I think it's kind of Roderick and Oliver to give Henry the money.\nB: I'm afraid I disagree. They shouldn't be making a bet on him.\nA: But Henry might get into trouble if they didn't offer him the money.\nB: Well, if they really wanted to help Henry, they could offer him a job.\nA: Maybe you're right. But I guess that would be a different story...",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "A: I think it's kind of Roderick and Oliver to give Henry the money.\nB: I'm afraid I disagree. They shouldn't be making a bet on him.\nA: But Henry might get into trouble if they didn't offer him the money.\nB: Well, if they really wanted to help Henry, they could offer him a job.\nA: Maybe you're right. But I guess that would be a different story..."
+      }
+    ]
+  },
+  "display": {
+    "title": "Should Roderick and Oliver Give Henry the Money?",
+    "section": "Discovering Useful Structures",
+    "text": "A: I think it's kind of Roderick and Oliver to give Henry the money.\nB: I'm afraid I disagree. They shouldn't be making a bet on him.\nA: But Henry might get into trouble if they didn't offer him the money.\nB: Well, if they really wanted to help Henry, they could offer him a job.\nA: Maybe you're right. But I guess that would be a different story ...",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "A: I think it's kind of Roderick and Oliver to give Henry the money.\nB: I'm afraid I disagree. They shouldn't be making a bet on him.\nA: But Henry might get into trouble if they didn't offer him the money.\nB: Well, if they really wanted to help Henry, they could offer him a job.\nA: Maybe you're right. But I guess that would be a different story ..."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "path": "content/pep-english/raw/senior-required-3.pdf",
+      "locator": "PDF第61-61页，标题与完整正文逐行核对",
+      "checked": true,
+      "sha256": "fe9c8e15e62f4aec56efc60b8de43f4a55d40f3114d6505affaef78a8b7a1af2"
+    },
+    {
+      "path": "content/pep-english/raw/senior-required-3/senior-required-3_61.jpg",
+      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
+      "checked": true,
+      "sha256": "040b85e41af794476fa11b4538dd354f7bb28791314c3c191b2abccfd830bf88"
+    }
+  ],
+  "corrections": [],
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "reviewer": "Codex",
+  "reviewedAt": "2026-10-02T05:58:26+00:00",
+  "notes": "核对PDF第61页底部五轮讨论，善意资助与拿人打赌、提供工作两种立场完整，情态动词保持原句；恢复末句story后省略号前原页空格。",
+  "issues": [],
+  "status": "passed_edited"
+}

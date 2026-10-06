@@ -8,3 +8,25 @@
 *.png binary
 *.ttf binary
 *.webp binary
+
+# Review evidence uses byte-level hashes; do not rewrite line endings on checkout.
+content/article-review/** -text
+content/College-English/reviewed-articles/** -text
+content/College-English/manual-review-events.jsonl -text
+content/College-English/manual-review-ledger.tsv -text
+public/nce/lessons/** -text
+public/shuimu/lessons/** -text
+public/postgraduate/lessons/** -text
+public/pep-english/lessons/** -text
+public/college-english/lessons/** -text
+public/cet/lessons/** -text
+public/kaoyan-english/lessons/** -text
+
+# Keep synchronized catalog snapshots byte-identical to their reviewed source.
+public/shuimu/manifest.json -text
+public/postgraduate/manifest.json -text
+public/nce/manifest.json -text
+public/pep-english/manifest.json -text
+public/college-english/manifest.json -text
+public/cet/manifest.json -text
+public/kaoyan-english/manifest.json -text

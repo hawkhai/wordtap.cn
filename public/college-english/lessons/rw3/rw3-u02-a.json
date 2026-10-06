@@ -86,12 +86,12 @@
     ]
   },
   "manualReview": {
+    "reviewer": "Codex (user-directed restoration)",
+    "reviewedAt": "2026-10-05T17:15:10+00:00",
+    "correctionCount": 6,
+    "evidence": "content/article-review/cleanup-2026-10-06.json",
+    "eventSha256": "72d6547a2e6ce33059c520d9c85323db809393ada534bcec81134994acd37f57",
     "status": "passed",
-    "reviewer": "Codex",
-    "reviewedAt": "2026-07-30T16:52:41Z",
-    "correctionCount": 4,
-    "evidence": "PDF47-49/印刷32-34；原图 NHCE4-RW3_47.jpg,NHCE4-RW3_48.jpg,NHCE4-RW3_49.jpg；最终稿 rw3-u02-a.json",
-    "textSha256": "b3dba199cf0ad83108767018d98dcfdbf2b3766f2eb8f4ad18dd2ae25372b606",
-    "eventSha256": "715e51df66ce06f3bc2f8d910226bad825491a3cd7c8a90226815ac1578e2a4d"
+    "textSha256": "b3dba199cf0ad83108767018d98dcfdbf2b3766f2eb8f4ad18dd2ae25372b606"
   }
 }

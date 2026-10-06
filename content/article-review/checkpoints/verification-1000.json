@@ -1,0 +1,1299 @@
+{
+  "schemaVersion": 1,
+  "checkedAt": "2026-10-03T04:59:46.009134+00:00",
+  "complete": false,
+  "scope": 1054,
+  "statusCounts": {
+    "passed_edited": 627,
+    "needs_source_check": 157,
+    "passed_unchanged": 216,
+    "pending": 54
+  },
+  "nextArticle": "public/kaoyan-english/lessons/e1/e1-1990.json",
+  "reviewedChanges": {
+    "horizontalSpacingEdits": 23339,
+    "paragraphOperations": 7058,
+    "sourceBackedCorrections": 3761
+  },
+  "checks": {
+    "articleReviewLedger": "1000 individually authored records; 1054 inventoried; full verify passed at 1000-record checkpoint",
+    "requireComplete": "54 pending and 157 needs_source_check remain; final completion gate not satisfied",
+    "articleReviewUnitTests": "19 passed, including exact signed College English restoration and rejection of stale signatures, unreviewed generator content and block metadata differences",
+    "typecheck": "passed",
+    "responsive": "passed",
+    "build": "passed at 278-record snapshot; 1054 lesson pages and 12277 dist text files verified; 161 exam papers and 1064 theme pages verified",
+    "courseValidators": {
+      "shuimu": "192 passed",
+      "postgraduate": "40 passed",
+      "pep-english": "313 passed from 12 available of 17 catalogued books",
+      "college-english": "72/72 individually reviewed; signed source records and event chain validated",
+      "cet": "97 passed",
+      "kaoyan-english": "64 passed"
+    },
+    "reviewedGeneratorReplay": "Exact display replay: postgraduate 40, NCE 276, PEP 313, College English 72, CET 97, Kaoyan English 10; NCE sentence metadata and College English manualReview signatures identical",
+    "browser": "278-record production snapshot: 1440px and 390px NCE corrections and long postgraduate paragraphs; no horizontal overflow or page errors; Whose lookup, IndexedDB word/article saves and full-text start/stop controls pass. Audible output not independently listened to.",
+    "postgraduateRecoveredSourceReplay": "Six recovered snapshots validated by exact hash with private sources unavailable; fresh 40/40 generated in temporary output at 212 records, 213 replay checked.",
+    "pepUnitTests": "4 download tests and 5 identity/display tests passed"
+  },
+  "browserResults": [
+    {
+      "name": "nce-glasses",
+      "code": "nce:1-023",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "errors": []
+    },
+    {
+      "name": "nce-robert",
+      "code": "nce:1-007",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "errors": []
+    },
+    {
+      "name": "postgraduate-long",
+      "code": "pg:rwt-09b",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "errors": []
+    },
+    {
+      "name": "lookup-speech-controls-save",
+      "width": 1440,
+      "meaning": "[hu:z]\npron. 谁的",
+      "counts": {
+        "words": [
+          "Whose"
+        ],
+        "texts": 1
+      },
+      "audibleOutputVerified": false
+    },
+    {
+      "name": "nce-glasses",
+      "code": "nce:1-023",
+      "width": 390,
+      "scrollWidth": 390,
+      "errors": []
+    },
+    {
+      "name": "nce-robert",
+      "code": "nce:1-007",
+      "width": 390,
+      "scrollWidth": 390,
+      "errors": []
+    },
+    {
+      "name": "postgraduate-long",
+      "code": "pg:rwt-09b",
+      "width": 390,
+      "scrollWidth": 390,
+      "errors": []
+    },
+    {
+      "name": "lookup-speech-controls-save",
+      "width": 390,
+      "meaning": "[hu:z]\npron. 谁的",
+      "counts": {
+        "words": [
+          "Whose"
+        ],
+        "texts": 1
+      },
+      "audibleOutputVerified": false
+    }
+  ],
+  "generationBaselines": [
+    {
+      "course": "shuimu",
+      "exactBody": 76,
+      "whitespaceOnlyDifferences": 89,
+      "unresolvedDifferences": [
+        {
+          "path": "public/shuimu/lessons/beginner/028.json",
+          "reason": "non-whitespace baseline mismatch; requires individual source review"
+        },
+        {
+          "path": "public/shuimu/lessons/beginner/033.json",
+          "reason": "non-whitespace baseline mismatch; requires individual source review"
+        },
+        {
+          "path": "public/shuimu/lessons/beginner/040.json",
+          "reason": "non-whitespace baseline mismatch; requires individual source review"
+        },
+        {
+          "path": "public/shuimu/lessons/beginner/043.json",
+          "reason": "non-whitespace baseline mismatch; requires individual source review"
+        },
+        {
+          "path": "public/shuimu/lessons/intermediate/001.json",
+          "reason": "non-whitespace baseline mismatch; requires individual source review"
+        },
+        {
+          "path": "public/shuimu/lessons/intermediate/003.json",
+          "reason": "non-whitespace baseline mismatch; requires individual source review"
+        },
+        {
+          "path": "public/shuimu/lessons/intermediate/006.json",
+          "reason": "non-whitespace baseline mismatch; requires individual source review"
+        },
+        {
+          "path": "public/shuimu/lessons/intermediate/030.json",
+          "reason": "non-whitespace baseline mismatch; requires individual source review"
+        },
+        {
+          "path": "public/shuimu/lessons/intermediate/042.json",
+          "reason": "non-whitespace baseline mismatch; requires individual source review"
+        },
+        {
+          "path": "public/shuimu/lessons/intermediate/046.json",
+          "reason": "non-whitespace baseline mismatch; requires individual source review"
+        },
+        {
+          "path": "public/shuimu/lessons/intermediate/052.json",
+          "reason": "non-whitespace baseline mismatch; requires individual source review"
+        },
+        {
+          "path": "public/shuimu/lessons/intermediate/060.json",
+          "reason": "non-whitespace baseline mismatch; requires individual source review"
+        },
+        {
+          "path": "public/shuimu/lessons/upper/005.json",
+          "reason": "non-whitespace baseline mismatch; requires individual source review"
+        },
+        {
+          "path": "public/shuimu/lessons/upper/016.json",
+          "reason": "non-whitespace baseline mismatch; requires individual source review"
+        },
+        {
+          "path": "public/shuimu/lessons/upper/018.json",
+          "reason": "non-whitespace baseline mismatch; requires individual source review"
+        },
+        {
+          "path": "public/shuimu/lessons/upper/022.json",
+          "reason": "non-whitespace baseline mismatch; requires individual source review"
+        },
+        {
+          "path": "public/shuimu/lessons/upper/032.json",
+          "reason": "non-whitespace baseline mismatch; requires individual source review"
+        },
+        {
+          "path": "public/shuimu/lessons/upper/037.json",
+          "reason": "non-whitespace baseline mismatch; requires individual source review"
+        },
+        {
+          "path": "public/shuimu/lessons/upper/039.json",
+          "reason": "non-whitespace baseline mismatch; requires individual source review"
+        },
+        {
+          "path": "public/shuimu/lessons/upper/040.json",
+          "reason": "non-whitespace baseline mismatch; requires individual source review"
+        },
+        {
+          "path": "public/shuimu/lessons/upper/041.json",
+          "reason": "non-whitespace baseline mismatch; requires individual source review"
+        },
+        {
+          "path": "public/shuimu/lessons/upper/042.json",
+          "reason": "non-whitespace baseline mismatch; requires individual source review"
+        },
+        {
+          "path": "public/shuimu/lessons/upper/045.json",
+          "reason": "non-whitespace baseline mismatch; requires individual source review"
+        },
+        {
+          "path": "public/shuimu/lessons/upper/046.json",
+          "reason": "non-whitespace baseline mismatch; requires individual source review"
+        },
+        {
+          "path": "public/shuimu/lessons/upper/048.json",
+          "reason": "non-whitespace baseline mismatch; requires individual source review"
+        },
+        {
+          "path": "public/shuimu/lessons/upper/052.json",
+          "reason": "non-whitespace baseline mismatch; requires individual source review"
+        },
+        {
+          "path": "public/shuimu/lessons/upper/056.json",
+          "reason": "non-whitespace baseline mismatch; requires individual source review"
+        }
+      ],
+      "note": "Generation diagnostics, not manual article approvals. Pending articles remain pending."
+    },
+    {
+      "course": "postgraduate",
+      "exactBody": 28,
+      "whitespaceOnlyDifferences": 12,
+      "unresolvedDifferences": [],
+      "note": "Generation diagnostics, not manual article approvals. Pending articles remain pending."
+    },
+    {
+      "course": "nce",
+      "exactBody": 257,
+      "whitespaceOnlyDifferences": 19,
+      "unresolvedDifferences": [],
+      "note": "Generation diagnostics, not manual article approvals. Pending articles remain pending."
+    },
+    {
+      "course": "college-english",
+      "exactBody": 71,
+      "whitespaceOnlyDifferences": 1,
+      "unresolvedDifferences": [],
+      "note": "Generation diagnostics, not manual article approvals. Pending articles remain pending."
+    },
+    {
+      "course": "cet",
+      "exactBody": 0,
+      "whitespaceOnlyDifferences": 97,
+      "unresolvedDifferences": [],
+      "note": "Generation diagnostics, not manual article approvals. Pending articles remain pending."
+    },
+    {
+      "course": "kaoyan-english",
+      "exactBody": 0,
+      "whitespaceOnlyDifferences": 64,
+      "unresolvedDifferences": [],
+      "note": "Generation diagnostics, not manual article approvals. Pending articles remain pending."
+    },
+    {
+      "course": "pep-english",
+      "exactBody": 194,
+      "whitespaceOnlyDifferences": 56,
+      "unresolvedDifferences": [
+        {
+          "path": "public/pep-english/lessons/pepj7b/002.json",
+          "reason": "non-whitespace baseline mismatch; requires individual source review"
+        },
+        {
+          "path": "public/pep-english/lessons/pepj7b/003.json",
+          "reason": "non-whitespace baseline mismatch; requires individual source review"
+        },
+        {
+          "path": "public/pep-english/lessons/pepj7b/004.json",
+          "reason": "non-whitespace baseline mismatch; requires individual source review"
+        },
+        {
+          "path": "public/pep-english/lessons/pepj7b/005.json",
+          "reason": "non-whitespace baseline mismatch; requires individual source review"
+        },
+        {
+          "path": "public/pep-english/lessons/pepj7b/006.json",
+          "reason": "non-whitespace baseline mismatch; requires individual source review"
+        },
+        {
+          "path": "public/pep-english/lessons/pepj7b/007.json",
+          "reason": "non-whitespace baseline mismatch; requires individual source review"
+        },
+        {
+          "path": "public/pep-english/lessons/pepj7b/009.json",
+          "reason": "non-whitespace baseline mismatch; requires individual source review"
+        },
+        {
+          "path": "public/pep-english/lessons/pepj7b/011.json",
+          "reason": "non-whitespace baseline mismatch; requires individual source review"
+        },
+        {
+          "path": "public/pep-english/lessons/pepj7b/012.json",
+          "reason": "missing from generator"
+        },
+        {
+          "path": "public/pep-english/lessons/pepj7b/013.json",
+          "reason": "missing from generator"
+        },
+        {
+          "path": "public/pep-english/lessons/pepj7b/014.json",
+          "reason": "missing from generator"
+        },
+        {
+          "path": "public/pep-english/lessons/pepj8a/004.json",
+          "reason": "non-whitespace baseline mismatch; requires individual source review"
+        },
+        {
+          "path": "public/pep-english/lessons/pepj8a/007.json",
+          "reason": "non-whitespace baseline mismatch; requires individual source review"
+        },
+        {
+          "path": "public/pep-english/lessons/pepj8a/008.json",
+          "reason": "non-whitespace baseline mismatch; requires individual source review"
+        },
+        {
+          "path": "public/pep-english/lessons/pepj8a/009.json",
+          "reason": "non-whitespace baseline mismatch; requires individual source review"
+        },
+        {
+          "path": "public/pep-english/lessons/pepj8a/011.json",
+          "reason": "non-whitespace baseline mismatch; requires individual source review"
+        },
+        {
+          "path": "public/pep-english/lessons/pepj8a/015.json",
+          "reason": "missing from generator"
+        },
+        {
+          "path": "public/pep-english/lessons/pepj8a/019.json",
+          "reason": "missing from generator"
+        },
+        {
+          "path": "public/pep-english/lessons/pepj8a/020.json",
+          "reason": "missing from generator"
+        },
+        {
+          "path": "public/pep-english/lessons/pepj8a/022.json",
+          "reason": "missing from generator"
+        },
+        {
+          "path": "public/pep-english/lessons/pepj8a/023.json",
+          "reason": "missing from generator"
+        },
+        {
+          "path": "public/pep-english/lessons/pepj8a/025.json",
+          "reason": "missing from generator"
+        },
+        {
+          "path": "public/pep-english/lessons/pepj8a/027.json",
+          "reason": "missing from generator"
+        },
+        {
+          "path": "public/pep-english/lessons/pepj8b/012.json",
+          "reason": "non-whitespace baseline mismatch; requires individual source review"
+        },
+        {
+          "path": "public/pep-english/lessons/pepj8b/013.json",
+          "reason": "non-whitespace baseline mismatch; requires individual source review"
+        },
+        {
+          "path": "public/pep-english/lessons/pepj8b/014.json",
+          "reason": "non-whitespace baseline mismatch; requires individual source review"
+        },
+        {
+          "path": "public/pep-english/lessons/pepj8b/015.json",
+          "reason": "non-whitespace baseline mismatch; requires individual source review"
+        },
+        {
+          "path": "public/pep-english/lessons/pepj8b/016.json",
+          "reason": "non-whitespace baseline mismatch; requires individual source review"
+        },
+        {
+          "path": "public/pep-english/lessons/pepj8b/018.json",
+          "reason": "non-whitespace baseline mismatch; requires individual source review"
+        },
+        {
+          "path": "public/pep-english/lessons/pepj8b/019.json",
+          "reason": "non-whitespace baseline mismatch; requires individual source review"
+        },
+        {
+          "path": "public/pep-english/lessons/pepj8b/020.json",
+          "reason": "missing from generator"
+        },
+        {
+          "path": "public/pep-english/lessons/pepj8b/021.json",
+          "reason": "missing from generator"
+        },
+        {
+          "path": "public/pep-english/lessons/pepj9/009.json",
+          "reason": "non-whitespace baseline mismatch; requires individual source review"
+        },
+        {
+          "path": "public/pep-english/lessons/pepj9/010.json",
+          "reason": "non-whitespace baseline mismatch; requires individual source review"
+        },
+        {
+          "path": "public/pep-english/lessons/pepj9/011.json",
+          "reason": "non-whitespace baseline mismatch; requires individual source review"
+        },
+        {
+          "path": "public/pep-english/lessons/pepj9/013.json",
+          "reason": "non-whitespace baseline mismatch; requires individual source review"
+        },
+        {
+          "path": "public/pep-english/lessons/pepj9/014.json",
+          "reason": "non-whitespace baseline mismatch; requires individual source review"
+        },
+        {
+          "path": "public/pep-english/lessons/pepj9/015.json",
+          "reason": "non-whitespace baseline mismatch; requires individual source review"
+        },
+        {
+          "path": "public/pep-english/lessons/pepj9/016.json",
+          "reason": "non-whitespace baseline mismatch; requires individual source review"
+        },
+        {
+          "path": "public/pep-english/lessons/pepj9/017.json",
+          "reason": "non-whitespace baseline mismatch; requires individual source review"
+        },
+        {
+          "path": "public/pep-english/lessons/pepj9/018.json",
+          "reason": "non-whitespace baseline mismatch; requires individual source review"
+        },
+        {
+          "path": "public/pep-english/lessons/pepj9/020.json",
+          "reason": "non-whitespace baseline mismatch; requires individual source review"
+        },
+        {
+          "path": "public/pep-english/lessons/pepj9/022.json",
+          "reason": "non-whitespace baseline mismatch; requires individual source review"
+        },
+        {
+          "path": "public/pep-english/lessons/pepj9/024.json",
+          "reason": "non-whitespace baseline mismatch; requires individual source review"
+        },
+        {
+          "path": "public/pep-english/lessons/pepj9/025.json",
+          "reason": "non-whitespace baseline mismatch; requires individual source review"
+        },
+        {
+          "path": "public/pep-english/lessons/pepj9/026.json",
+          "reason": "non-whitespace baseline mismatch; requires individual source review"
+        },
+        {
+          "path": "public/pep-english/lessons/pepj9/027.json",
+          "reason": "non-whitespace baseline mismatch; requires individual source review"
+        },
+        {
+          "path": "public/pep-english/lessons/pepj9/028.json",
+          "reason": "non-whitespace baseline mismatch; requires individual source review"
+        },
+        {
+          "path": "public/pep-english/lessons/pepj9/029.json",
+          "reason": "non-whitespace baseline mismatch; requires individual source review"
+        },
+        {
+          "path": "public/pep-english/lessons/pepj9/030.json",
+          "reason": "non-whitespace baseline mismatch; requires individual source review"
+        },
+        {
+          "path": "public/pep-english/lessons/pepj9/031.json",
+          "reason": "non-whitespace baseline mismatch; requires individual source review"
+        },
+        {
+          "path": "public/pep-english/lessons/pepj9/032.json",
+          "reason": "non-whitespace baseline mismatch; requires individual source review"
+        },
+        {
+          "path": "public/pep-english/lessons/pepj9/034.json",
+          "reason": "non-whitespace baseline mismatch; requires individual source review"
+        },
+        {
+          "path": "public/pep-english/lessons/pepj9/036.json",
+          "reason": "non-whitespace baseline mismatch; requires individual source review"
+        },
+        {
+          "path": "public/pep-english/lessons/pepj9/037.json",
+          "reason": "non-whitespace baseline mismatch; requires individual source review"
+        },
+        {
+          "path": "public/pep-english/lessons/pepj9/038.json",
+          "reason": "non-whitespace baseline mismatch; requires individual source review"
+        },
+        {
+          "path": "public/pep-english/lessons/pepj9/039.json",
+          "reason": "missing from generator"
+        },
+        {
+          "path": "public/pep-english/lessons/pepj9/041.json",
+          "reason": "missing from generator"
+        },
+        {
+          "path": "public/pep-english/lessons/pepj9/042.json",
+          "reason": "missing from generator"
+        },
+        {
+          "path": "public/pep-english/lessons/pepj9/043.json",
+          "reason": "missing from generator"
+        },
+        {
+          "path": "public/pep-english/lessons/pepj9/044.json",
+          "reason": "missing from generator"
+        },
+        {
+          "path": "public/pep-english/lessons/pepj9/045.json",
+          "reason": "missing from generator"
+        },
+        {
+          "path": "public/pep-english/lessons/pepj9/047.json",
+          "reason": "missing from generator"
+        }
+      ],
+      "note": "Temporary generator completed 313 lessons from 12 available books; the five unavailable catalogued books are recorded, not invented. No new manual approvals."
+    }
+  ],
+  "unresolvedGenerationBaselineCount": 90,
+  "unresolved": [
+    {
+      "path": "public/shuimu/lessons/beginner/043.json",
+      "title": "【对话场景】一场意外又惊喜的雨",
+      "notes": "逐块通读并对照讲义：对话中英对应合并；恢复解释段落、词组跨行和例句。; PDF 第 263 页“在句中与其他部分没有语法上的练习”与语义不符；原 PDF 同字，需查讲义其他版本。"
+    },
+    {
+      "path": "public/shuimu/lessons/intermediate/001.json",
+      "title": "不要在看电影的时候大声喧哗！",
+      "notes": "完整通读故事、10 题选项/答案、语法及电影阅读；逐题看原图恢复抽取漏失的答题横线，选项原序分行。文化阅读按原始英语段落及对应中译合并。; 原 PDF 与 DOCX 均有“我买的的”“时钟坚持”、th early、Jadon Smith、Gardener、The Pursuit of Happiness 等措辞/专名疑误；原资料同字，待查可靠原始阅读资料，未猜改。"
+    },
+    {
+      "path": "public/shuimu/lessons/intermediate/002.json",
+      "title": "起得太晚，早饭变午饭了！",
+      "notes": "逐篇通读并核对全部内容；原图确认并恢复第 3、5 题横线，其他缺失答题位因原图亦不明确而列待查。选项分行并保持序号/答案顺序，罗马假日三段英文和跨页中译分别合并。; 原 PDF 的 Step 4 第 1、2、4、6–10 题未明确显示答题横线，待查原题资料，未根据语法猜添。; 原讲义有“其他情况的的”、Gregory Peek、Oscar sweeptakers、sneaks out to her room 等疑误，PDF 同字，待查原始文化阅读来源。"
+    },
+    {
+      "path": "public/shuimu/lessons/intermediate/003.json",
+      "title": "令人头痛的明信片！",
+      "notes": "逐篇通读故事及答案、语法和文化阅读。逐题原图恢复 10 个漏失横线，错误干扰选项 wroten 等按原题保留；长选项完整归属原题。词汇表保留各行和中英对应，文化三段按来源接续。; 原 PDF 第 20 页（印刷页 19）中译“5 点办关门”疑为“5 点半”；原讲义同字，待查另一原始文本，不猜改。; 原文化阅读 and to run 等语法及 Yuppies 专名疑误，原 PDF 同字，待查原始阅读来源。"
+    },
+    {
+      "path": "public/shuimu/lessons/intermediate/004.json",
+      "title": "一次激动人心的旅行",
+      "notes": "通读并对照全文；恢复 10 个题目横线及两处英中交错续句，长选项保留完整；按原页去除误留的下一单元导航，19th-century 跨行连字符保持完整，文化段落中英对应。; 原 PDF 语法说明“主语 + want/need/require + to be done”有未闭引号，文化阅读 Ashley Wikes、Malanie Hamilton、中文“小说改变”疑误；原资料同字，待查源。"
+    },
+    {
+      "path": "public/shuimu/lessons/intermediate/005.json",
+      "title": "钻石不见了！",
+      "notes": "全文通读查页并逐题核对；恢复 10 个横线，答案/选项保持原序；接续侦探故事被中译隔开的两句；by the time 完整衔接，文化段落按原文对应，删除误留下一单元导航。; PDF 文件第 37 页（印刷页 36）once 词义“一旦……就……”仅有开引号，原讲义缺闭引号；待查另一原始文本后校勘。"
+    },
+    {
+      "path": "public/shuimu/lessons/intermediate/006.json",
+      "title": "用汗水浇灌出的花园最美",
+      "notes": "通读花园故事、选项答案、时间状语改写及沙拉阅读；保留全部原有下划线数量，只整理外侧空白和选项间距；改写组逐行对应、时间短语完整衔接，删除下一单元导航。; 原讲义 gave the alarm 缺主语、No sooner I had 的倒装顺序、teacher’s’ 重复撇号及“帕马森芝士士”疑误，PDF 同字，待查其他原始版本，不猜改。"
+    },
+    {
+      "path": "public/shuimu/lessons/intermediate/007.json",
+      "title": "A cold welcome 跨年夜的“冷遇”",
+      "notes": "逐篇通读故事、语法及芝加哥热狗三段；按原文保留原有答题占位符、错误例句和题号；整理答案标号粘连、选择项间距与中英数字混排，修复硬换行但不猜补原讲义错词。; 原 PDF 有 Were there lot of people、now that/seeing that 词义缺闭引号、The \"dragged through the garden style 缺闭引号、“给芝加哥热加上”等疑误；原资料同字，待查可靠原始版本。"
+    },
+    {
+      "path": "public/shuimu/lessons/intermediate/008.json",
+      "title": "借了马上就得还的钱",
+      "notes": "通读全文并核对题目和文化阅读；答题下划线数量保留，选项分行；完整接回 if not、in his own way 等词组与三段文化中译；35,000/11,000 千分位不拆开，小数 3.5、1.1 保持；删除下一单元导航。; 原 PDF 第 54 页 provided(that, ... suppose that) 的括号不匹配，第 55 页中译“酒些盐和醋”疑误；原资料同字，待查原始版本，未改词。"
+    },
+    {
+      "path": "public/shuimu/lessons/intermediate/009.json",
+      "title": "一次愉快的送行",
+      "notes": "通读送行故事及语法/法式面包三段，完整接续跨页阅读；每道题与四个小写选项同块、下划线保留，答案题号粘连按来源解开；don’t 单词内多余空格删去，去除下一课导航。; 原 PDF 的 take bus tour 缺冠词、a city of an ‘people’ 与中译蚁民不符，原资料同字；需查其他原始讲义，不猜改。"
+    },
+    {
+      "path": "public/shuimu/lessons/intermediate/010.json",
+      "title": "即将到来的演唱会",
+      "notes": "逐篇通读并查源；演唱会故事按中英成段，选择题长题干与四选项完整同块；so/such 公式、情态动词列表和目的表达组按语义衔接；比率 1:3/1:5 与单位数值保护，删除下一单元标题。; 原 PDF 文件第 65 页两条母亲节例句中 mother present 缺冠词且中译仅剩“小男孩把，……”；原资料同样缺文，需查完整原始例句/译文，不猜补。; 原文化阅读中译 Caffe 未写完整 Caffe Americano；原 PDF 同样如此，待查原始阅读文本。"
+    },
+    {
+      "path": "public/shuimu/lessons/intermediate/012.json",
+      "title": "意外的好消息",
+      "notes": "通读上下课故事、全部选项及直接引语转换；原字幕证实第 5 题称呼引语闭合，据此补漏引号；保持答案和占位符，跨页句型及中译接续，第二课/语法标题恢复正确块类型。; PDF 第 76、77 页中译“你做完了家庭作业，是吗?”、“哎，我多傻啊!”均缺闭引号，原 DOCX 同字，待查原始译文。; 原 PDF 第 75 页第 7、9 题无明确答题占位符，保留原题，待查原始试题版。"
+    },
+    {
+      "path": "public/shuimu/lessons/intermediate/013.json",
+      "title": "一个无法拒绝的请求",
+      "notes": "逐篇通读并看表格原图：恢复三种虚拟条件表分组，校勘转换漏失的将来主句式和重复的“形”；第 7 题原图选项顺序为 b/c/d/a，按原题保留。上下课括号接回标题，全部 12 题完整保留，删除下一单元导航。; 原 PDF 的第 11 题无明确答题横线，语法说明“现在实事”“③有时 would 条件从句用表示愿意”疑误；原资料同字，待查原始完整试题/讲义。"
+    },
+    {
+      "path": "public/shuimu/lessons/intermediate/014.json",
+      "title": "青春永驻",
+      "notes": "完整通读上下课故事、12 题及情态动词；年龄/数字混排和单词内空格逐项核对，选项下划线及错误干扰项不改，must 回答组、a/b/c 对比和 ought not to 跨行词组完整保存。; 原 PDF 第 87 页第 8 题题干 appears as young girl 缺冠词，PDF 同样如此；需核查原始试题版，未猜改。"
+    },
+    {
+      "path": "public/shuimu/lessons/intermediate/015.json",
+      "title": "醉翁之意不在酒",
+      "notes": "全文通读、逐页对照。保留 12 题选项和原下划线数量，整理英文标点/括号/词缀间距；can’t 不拆开，cannot help、be accustomed to、have no trouble 词组接续完整；动名词各功能段及对比句依来源成段。; 原 PDF 第 93 页 Swimming 中译“游泳在夏天一项”缺字、Riding bike 缺冠词，第 95 页“过程成为脱盐”疑误，原资料同字，待查其他原始讲义；第 12 题原页无明确占位符。"
+    },
+    {
+      "path": "public/shuimu/lessons/intermediate/016.json",
+      "title": "难以舍弃的房子",
+      "notes": "逐句对照难以舍弃的房子、12 道题及被动语态转换；合并纸面折行，归并题组与中英例句，保留故意错误选项，恢复答案分隔；源讲义截断内容及题号疑误保留待查。; PDF 100 注释在“等的主动语态”处截断，下一页已进入新课，需查原讲义后半句。; PDF 98 第 11 题题号显示 l1，原始字形也不一致；未取得原练习排印本前不猜改。"
+    },
+    {
+      "path": "public/shuimu/lessons/intermediate/017.json",
+      "title": "远方来的漂流瓶",
+      "notes": "逐句对照漂流瓶故事、12 题及双宾语和复合宾语被动转换；跨页续文及单字折行合并，Retained Object 保留英文词间空格，例句和中译整组保持对应，答案键只加空格。; 源 PDF 102 问题 1 为 travel cross，PDF 106 动词列末为 warm、例句 asked favor 和 as computer 也如此；疑似原讲义语法用词错误，未有原教材对照证据，保留待查。"
+    },
+    {
+      "path": "public/shuimu/lessons/intermediate/018.json",
+      "title": "一栋特别的大房子",
+      "notes": "通读原 PDF 新房故事、12 题、短语与情态动词被动转换，逐项保持题组和原选项；合并中英段落、转换组和跨页续文，保留现有校订源已修复的 at at / think / a good singer 等正文。; 原 PDF 109 第 3 题 get surprise 缺冠词；PDF 112 People believed 与后续 is believed 时态不一致，公式原排印“过去分词十that”及 in short time 等有疑误，保留待原教材确认。"
+    },
+    {
+      "path": "public/shuimu/lessons/intermediate/019.json",
+      "title": "失而复得的 50 英镑",
+      "notes": "对照失而复得故事、12 道练习及时间介词各条规则；按 NCE2 锁定字幕修复两处英镑符号；归并段落、题组选项和中译，保留题号与时间，移出下单元误入标题。; 源 PDF 117 例举 in one’ thirties 缺 s；没有该语法讲义原编辑稿佐证，保留原文待查。"
+    },
+    {
+      "path": "public/shuimu/lessons/intermediate/020.json",
+      "title": "一只调皮的小狗",
+      "notes": "通读小狗故事、12 题与地点介词；对照原页保留已有横线恢复及冠词修订，合并跨页段落、对话中译、题组和地点例句，去除下一单元标题。; PDF 122 第 4 题 It wasn’t 后没有答题横线，图像确认原排印也缺失；需原练习资料确认占位符，保留原句。"
+    },
+    {
+      "path": "public/shuimu/lessons/intermediate/021.json",
+      "title": "一架古老而珍贵的钢琴",
+      "notes": "完整对照古钢琴故事、12 题及相关和原因介词；合并语义段和中英例句。题 1–2 的 a/c/b/d 顺序与 PDF 提取相同，保持原顺序；题号、空格占位符、答案键及现有校订词不变。; PDF 131 due to 说明写成“尽管在美国英语中有人 due to 用作状语”，原资料疑似漏词；保留原文，待原编辑稿佐证。"
+    },
+    {
+      "path": "public/shuimu/lessons/intermediate/022.json",
+      "title": "难懂的方言",
+      "notes": "全文对照伦敦方言故事、12 题及介词分类；整理中文词内误空格、选项标记、占位符边界及 5 m/4 m 量度，合并中译与跨页续段，保留全部选项和答案。; 原 PDF 134–135 第 1 题号为 I、第 2 题 b 项末为 teach，第 3 题 not difficult language 缺冠词；PDF 137–139 makes living、once leave、95 cents dozen、in room 等原句疑似漏词，需原教材证据，暂保留。"
+    },
+    {
+      "path": "public/shuimu/lessons/intermediate/023.json",
+      "title": "最好的艺术评论家",
+      "notes": "通读艺术评论家故事、12 题及形容词的功能与顺序；整理问答、完整中英段落、跨页续文、误/正例句对和分词形容词对照，保留词尾连字符和题目干扰项。; PDF 140 两处中文直接引语末尾错用开引号；PDF 141 mod pictures、paint lot / made mistake 与 PDF 144 spare“空用的”、He has ready tongue 等原资料疑误，缺原讲义编辑稿证据，暂保留待查。"
+    },
+    {
+      "path": "public/shuimu/lessons/intermediate/024.json",
+      "title": "露营遇上大暴雨",
+      "notes": "对照露营故事及 12 题、副词类别拼写和时间用法；合并中英段落与题组，去除中文词内误空格，英文枚举保留词间空格；-ly 和形容词-副词词对保持完整，不猜改原干扰项。; 原 PDF 148 第 2 题 path of stream / beside stream 缺冠词；PDF 150–151 swiftly quietly 和 fatherly motherly 枚举缺分隔标点，PDF 152 the North America 原文如此，保留待原编辑稿确认。"
+    },
+    {
+      "path": "public/shuimu/lessons/intermediate/025.json",
+      "title": "令人感到奇怪的信仰",
+      "notes": "完整对照贾斯珀与美杜莎故事、12 题及副词比较；恢复完整中英段、题目选项分行、频率表和成对副词示例，不改变数字百分比、词序或错误选项。; 原 PDF 154 第 5 题 always car 和 can’t’、第 6 题 faces have 缺词；PDF 158“only too 和 all too 的法比较”原文漏字，需原练习和讲义编辑稿确认。"
+    },
+    {
+      "path": "public/shuimu/lessons/intermediate/026.json",
+      "title": "一次被拒绝的旅行",
+      "notes": "通读 Pilatus Porter 故事及 12 题、助动词规则；合并中英段落、题组、问答及跨行英文，整理中文词内与占位符旁空格，保持首题 a/c/b/d 次序及现有附加疑问句校订。; PDF 161 第 4 题没有空格占位符且题干末有孤立引号，d 选项原排印 most surprised0，图像确认；第 1 题 doesn’t’、Swiss airplane 和 PDF 163 of singer 缺词及错引号也属原资料疑误，保留待查。; PDF 159 中文机名右端误用开引号，需原讲义编辑稿确认。"
+    },
+    {
+      "path": "public/shuimu/lessons/intermediate/027.json",
+      "title": "差点闯祸的足球",
+      "notes": "通读河边足球故事、12 题与半助动词例句；归并完整中英段落、转换对照和题组，恢复中文词内空格及占位符边界；保留河名、连字符和全部错误选项。; PDF 167 towards passing boat、168 make living、169 have taste / be storm 缺冠词，PDF 168 第 12 题末没有答题横线，原资料如此；保留待原练习及语法编辑稿确认。"
+    },
+    {
+      "path": "public/shuimu/lessons/intermediate/028.json",
+      "title": "退休的老板和修理工",
+      "notes": "通读 Frank 故事、12 题及非谓语和不定式作主语用法；合并中英语义段和跨页续文，词组 the Past Participle 保留间隔，题组选项答案及数值完全保留，移出下一课误入标题。; PDF 171 第 1 题 young man 缺冠词；172 第 5 题 a/c 两项都排为 his own，原资料中存在重复选项，需原练习校勘，保留原顺序与答案。"
+    },
+    {
+      "path": "public/shuimu/lessons/intermediate/029.json",
+      "title": "见义勇为的公交车司机",
+      "notes": "逐句对照 Roy 故事、12 题和不定式作宾语与定语；合并题干续行、中英对应段和语法例句，保留第 9/11 题 d/a/b/c 顺序；去除下一单元误入标题，只有空白和来源边界修订。; PDF 176 问题 4 (and)) 多括号、Answer get into 时态及 PDF 177 第 6 题 b/c 重复 such、178 第 11 题无答题横线，均原资料如此；PDF 179 resolve(决心;决定 缺右括号，180 looking for room / Nature gave human 疑漏词，待原教材校勘。"
+    },
+    {
+      "path": "public/shuimu/lessons/intermediate/030.json",
+      "title": "母女共创世界纪录",
+      "notes": "通读黛比横渡海峡、12 题、不定式各成分；完整题干和选项续文归并，保持第 12 题原标签及顺序；中英段落、宾语补语词组和跨页续文已对应整理，去除下一课标题。; PDF 184–185 第 12 题选项排为 a/d/a/b，与答案键 12c 不对应；保留源顺序并待查原练习。; PDF 187 信件原译“它现在一定到达那里了”与英文 be there now 意义不对应；待查原中译稿，不猜改。"
+    },
+    {
+      "path": "public/shuimu/lessons/intermediate/031.json",
+      "title": "现实很骨感",
+      "notes": "逐句对照 Harrison 故事、12 题及动名词语法功能；合并完整中英段和跨页续文、完整题干，保留第 11/12 题原有选项次序、时间与否定式 -ing；中文词内空格整理。; 源 PDF 191 在动名词章节错写“动词不定式的语法功能”；192 Riding bike can make man smart 与 194 walking stick 示例缺冠词，194“过程成为脱盐”疑似错词，原讲义同样如此，保留待查。"
+    },
+    {
+      "path": "public/shuimu/lessons/intermediate/032.json",
+      "title": "一次吃得并不开心的晚餐",
+      "notes": "通读 Mrs. Smith 用餐对话、12 题、祈使感叹虚拟语气各条；对话与中译逐对归并，合并原 our 单字折行与完整题组；整理括号和占位符边界，沿用现有感叹句校订顺序。; PDF 197 第 5 题 took my seat 缺主语 I，PDF 198 最后一题题号为 2，原讲义如此；PDF 199 let 否定式说明的首个引号未闭合，PDF 201“明下午”疑漏字，待原资料校勘。"
+    },
+    {
+      "path": "public/shuimu/lessons/intermediate/033.json",
+      "title": "它好像不是很听话",
+      "notes": "通读耍蛇故事、12 题和虚拟条件句全节；按原表恢复三种条件与结果的对应关系，整理完整中英段、题组及事实说明，保留现有 I could do so if I would 校订。; 源 PDF 203 there was market、have rest / have look 缺冠词且 snake charmers’ 所有格与语境不符；PDF 207“有时 would 条件从句用表示愿意”原句漏词，保留待原讲义编辑稿校勘。"
+    },
+    {
+      "path": "public/shuimu/lessons/intermediate/034.json",
+      "title": "充满智慧的高空探险家",
+      "notes": "通读 Byrd 南极飞行、12 题及混合时间和含蓄条件句；保持 R.E. 缩写、10,000 高度与公式括号，拼回题 4 折断横线，合并中英例句、题组和隐含条件释义。; 原 PDF 209 第 2 题 a 为 4004 feet、d 为 under10,00 00 feet high no，210 第 7 题 d 多 no；这些数字和词语疑误未找到原练习证据，保留。; PDF 211 含蓄条件句介词列写成 but except for，疑似漏词；保留待原讲义编辑稿校勘。"
+    },
+    {
+      "path": "public/shuimu/lessons/intermediate/035.json",
+      "title": "不是百分百的小偷",
+      "notes": "全文核对 Sam 钱包故事、12 道练习与名词性从句虚拟语气；保留 50%/25%/100% 与所有答案，合并中英段和形容词动词列，清理中文词内空格及括号边界，语法对比例句成组展示。; 源 PDF 214 选项 Sam’s pock 截断，PDF 216 第 11 题 message 缺冠词；217 it is natural/.../ridiculous/ 结构末未完成、“含 insist 有(坚持)”及 suggest propose 缺分隔，保留待原练习与讲义编辑稿校勘。"
+    },
+    {
+      "path": "public/shuimu/lessons/intermediate/036.json",
+      "title": "既遭罪又昂贵的旅行",
+      "notes": "通读木箱偷乘故事、12 题与 wish 及从句虚拟语气；按原字幕统一两处英镑符号，合并完整段落题组，保持金额千位分隔和情态动词公式；移出下一课标题。; PDF 221 第 1 题 a worker 缺冠词，222 第 12 题没有占位符；224 that laboratory 缺冠词、as if though 漏连接符，225“用于 only 条件状语从句”疑漏 if，原资料如此，保留待查。"
+    },
+    {
+      "path": "public/shuimu/lessons/intermediate/037.json",
+      "title": "一个嗜酒的酒鬼",
+      "notes": "通读闹鬼酒馆、12 题及虚拟语气其他结构和倒装；合并中英段、Mr. Thompson 跨行姓名、题组和不定式括号说明，保留原答案和干扰项，纯排版改动。; PDF 226 问题 had drink、227 strange noise / visited by ghost / short time ago 缺词或冠词且 it’s’ 多引号；PDF 229 若不是/有译法不明，230 Had time / Were Tom 缺主语而括号完整，均保留原文待查。"
+    },
+    {
+      "path": "public/shuimu/lessons/intermediate/038.json",
+      "title": "一颗被拔错的牙齿",
+      "notes": "通读拔错牙故事、12 题和名词性从句连词；据 NCE2 同课字幕修复米柴盒，合并完整中英段与题组，整理词内空格及关系词同义表达，保持时序、wh- 与占位符。; PDF 232 练习第 4 题 for while 缺冠词；PDF 234 wanted drink 缺冠词，中译“这你电影”疑错字，原讲义如此，保留待原编辑稿确认。"
+    },
+    {
+      "path": "public/shuimu/lessons/intermediate/039.json",
+      "title": "生平第一次睡在床上",
+      "notes": "逐块通读 162 块并对照六页原讲义；按叙事、主语从句例句和完整题组整理段落，跨行 ten-storied 保留连字符衔接，保持题号及原选项顺序。; 印刷页 238 第 12 题选项 (b) after while 的冠词疑误与原讲义一致，未猜改。; 印刷页 238 主语从句名词词组公式 et. 疑为 etc.，原讲义同写 et.，等待其他原始证据。"
+    },
+    {
+      "path": "public/shuimu/lessons/intermediate/040.json",
+      "title": "吃饱了才能减肥",
+      "notes": "复核全文后补足误句冒号后的英文空格；保留之前逐篇查源记录及原资料疑误。; 印刷页 241 第 2 题 (b) has kept to strict diet 22ow 图像确实含 22ow，不能按推测改为 now 或增冠词。; 印刷页 243 答案 Key 与多题选项明显不相符（如第 3 题选 b、第 6 题选 b），原资料同样如此，待取得勘误证据。"
+    },
+    {
+      "path": "public/shuimu/lessons/intermediate/041.json",
+      "title": "一块特殊的地毯",
+      "notes": "逐块通读 184 块并对照六页；按完整中英叙事段落、题组选项及宾语从句讲解恢复断行，去掉汉字内部无意义空格，保护 wh-、yes-no 等词形和原误句。; 印刷页 246 第 2 题 (b) he bookcases 疑缺 t，PDF 原文亦如此，未猜改。; 印刷页 248 第 12 题答案 d 与 spare time 的选项 c 有疑，原答案 d 保留待查源。; 印刷页 248 vote投票表决) 缺开括号；印刷页 250 party gift / gave description 疑缺冠词，均为原资料文字，保留待查源。"
+    },
+    {
+      "path": "public/shuimu/lessons/intermediate/042.json",
+      "title": "一场不明原因的大火",
+      "notes": "逐块通读 204 块并对照七页；整理森林火灾故事的中英对应段落，保持 16,000-volt 和题目占位符，复原跨页题组与表语/同位语从句例句。; 印刷页 252 第 2 题正确选项 (d) snake 疑缺冠词 a，PDF 同样如此，待查源。; 印刷页 254 underworld killing 中译“下流社会的谋杀”疑误，原文相同，未猜改。"
+    },
+    {
+      "path": "public/shuimu/lessons/intermediate/043.json",
+      "title": "一个糟心的上午",
+      "notes": "逐块通读 185 块及七页；恢复完整叙事段落、括号中的复述连接词及十二题；依据表格图像补明跨行/跨列作用范围，原单元格用词保持不变。; 印刷页 259 第 4 题 (c) ir，印刷页 260 第 9 题 (b) water) 多余右括号；PDF 原文确实如此，保留待查源。; 印刷页 258 Everything got into mess 疑缺冠词，原讲义同样如此，未猜改。"
+    },
+    {
+      "path": "public/shuimu/lessons/intermediate/044.json",
+      "title": "探测器寻宝记",
+      "notes": "逐块通读 175 块及六页，按中英叙事、四道复述题、完整题组及关系副词例句整理；保留已存在的原生校订，连字符和插入语不拆开。; 印刷页 265 第 11 题 They searched the cave thoroughly They searched it 原图缺句间标点且无答题空线，未凭推测增补。; 印刷页 265 第 8 题 very good machine 疑缺冠词；印刷页 267 Einstein 示例中的 World War Two 年代有疑，原资料同样如此，待另取原始依据。"
+    },
+    {
+      "path": "public/shuimu/lessons/intermediate/045.json",
+      "title": "惊险的老式汽车比赛",
+      "notes": "逐块通读 167 块并对照五页；合并汽车比赛的叙事与译文，保持 Rolls-Royce、年份和速度单位，十二道选择题保留完整题组，限制性与非限制性例句逐组保留逗号差异。; 印刷页 271 讲解开头“定语从句有限制性定语从句和非限制性定语从句分”疑漏字，原资料相同，保留待查源。; 印刷页 271 The house, which I bought... 中译“我们上个月买的”与 I 不一致，原资料同样如此，未猜改。"
+    },
+    {
+      "path": "public/shuimu/lessons/intermediate/046.json",
+      "title": "惩罚势利的售货员",
+      "notes": "逐块通读 207 块并对照六页；恢复商店叙事中英段落、复述连接词、十二题及关系代词选择讲解，保留非限制性例句的逗号与现有原生校订，angrily 完整保留。; 印刷页 275 第 4 题 The assistant her... 在原图中确实缺答题空线，未猜测插入。; 印刷页 277 a gifted composer that there has ever been、印刷页 278 deserves fine / There’s no much 疑误，原资料同样如此，待查源。; 印刷页 278 限定词列表 little few 疑缺分隔符，保持原资料等候勘误证据。"
+    },
+    {
+      "path": "public/shuimu/lessons/intermediate/047.json",
+      "title": "自娱自乐的游戏",
+      "notes": "逐块通读 199 块及七页；按狗的叙事、中英例句、完整选择题和关系代词讲解恢复语义段落，语法正误对照保留；In 1999 和 for 20 年份/数量空格逐项补齐。; 印刷页 281 writer’s’ 双撇号为原资料疑误；原生转换已补第 1 题 (c) 的开括号，保留已有校订。; 印刷页 282 第 9 题 He was very 在原图中确实缺答题空线，未猜插空线。; 印刷页 284 “as作主语时，从句必须为被动结构”与同课例句/讲解范围有疑，原资料相同，等候勘误证据。"
+    },
+    {
+      "path": "public/shuimu/lessons/intermediate/048.json",
+      "title": "考了三次还没通过的考试",
+      "notes": "逐块通读 219 块及七页；恢复驾考叙事、练习题组和时间状语从句段落；依据原页把被中译切开的同一段考官引语接成完整英文，译文随整段对应，保留原句次序及完整引号。; 印刷页 288 第 12 题 His voice was 原图缺答题空线，未猜补。; 印刷页 288 第 6 题 continued 的答案 d 有疑，原答案保持待查源。; 印刷页 290 “一般而言,，”双逗号、印刷页 291 It was long time... 疑缺冠词，原资料相同，未猜改。"
+    },
+    {
+      "path": "public/shuimu/lessons/intermediate/049.json",
+      "title": "爱护环境，用火须谨慎",
+      "notes": "逐块通读 237 块及七页；恢复森林火灾中英段落、原因/条件/方式状语从句例句，保留 grass-seed 与所有答题占位符，清除汉字断词空格、补齐题干/选项间空格。; 印刷页 295 第 8 题 d) 原图缺开括号，保留待查源。; 印刷页 296 provided/providing/that 及 provided providing(that) 公式分隔有疑，原资料相同，未猜补括号或斜杠。; 印刷页 297 Take hat 疑缺冠词；印刷页 298 A is B to what C is to D. 公式词序有疑，原资料相同，待查源。"
+    },
+    {
+      "path": "public/shuimu/lessons/intermediate/050.json",
+      "title": "是幽默而不是嘲笑",
+      "notes": "逐块通读 170 块及六页；完整中英叙事、复述题、十二题与让步状语例句逐组整理，原生校订保留；另通读原字幕，以 01:25.10 的 asked her / 问她 修正中译代词。; 印刷页 300 复述题 contain lot of funny stories，印刷页 301 第 10 题 He made speech 疑缺冠词，原资料相同，待查源。; 印刷页 303 Child as though/ that 的连接词分隔有疑，原资料如此，未猜增斜杠或删词。"
+    },
+    {
+      "path": "public/shuimu/lessons/intermediate/051.json",
+      "title": "一波三折才建成的隧道",
+      "notes": "对照复核全文及 PDF 308 页第 12 题图像，确认原资料缺答题空线；补足三条算式例句英文句点后的数字空格。; 印刷页 307 第 12 题 It has been 原资料缺答题空线，保留待查源。; 印刷页 309 Either of them is satisfactory 中译“它们中的两个都令人满意”含义有疑，原资料相同，待查源。"
+    },
+    {
+      "path": "public/shuimu/lessons/intermediate/052.json",
+      "title": "一头小象引发的交通堵塞",
+      "notes": "逐块通读 232 块及八页，另通读第 65 课原字幕；整理完整中英段落、十二题与主谓一致例句，警察的连续引语按原页接成完整英文/中译，统一同一 Jumbo 的译名“江伯”。; 印刷页 312 第 2 题 (d) The police had difficult time 疑缺冠词，原资料如此，待查源。; 印刷页 316 讲解“其谓语动词的单、数形式”疑漏“复”，原资料相同，未猜补。"
+    },
+    {
+      "path": "public/shuimu/lessons/intermediate/053.json",
+      "title": "孜孜不倦的科学家",
+      "notes": "复核全文后清除跨行合并时中文“不能用”内部空格，补齐谚语标注前的句点空格。; 印刷页 319 第 1 题 (d) investigate new volcano，印刷页 322 There are cock and five hens，印刷页 323 for long time 疑缺冠词；原資料相同，保留待查源。"
+    },
+    {
+      "path": "public/shuimu/lessons/intermediate/054.json",
+      "title": "九死一生的醉汉",
+      "notes": "逐块通读 205 块及七页，另通读原字幕；整理斗牛故事的中英段落、完整复述题与选择题、全部/部分倒装例句；early 1960’s 与题号空格逐项补齐，保留倒装词序。; 印刷页 326 第 2 题缺答题空线、第 4 题 e was sure 疑缺 H，第 1 题 bull’s’ 双撇号均与原图一致，待查源。; 印刷页 325 中译“住旁边一闪”疑误，原字幕另译“躲到一边”，尚缺该讲义准确字形的勘误来源，保留待查源。"
+    },
+    {
+      "path": "public/shuimu/lessons/intermediate/055.json",
+      "title": "一个著名的大钟",
+      "notes": "逐块通读 191 块，对照全部来源页；衔接大本钟故事与语法跨页续文，分开英文与中译，保留 BBC 缩写、题号与零冠词占位符，合并完整选择题及问答。; PDF 原文复述答案 despite of its immense size 用法存疑，未猜改。; PDF 原文选择题 after fire、hung pot of paint、例句 two books and pen 及 in year 疑漏冠词；需讲义勘误证据。; PDF 将 an orange 与 any orange 的译文标为相同，计数意义存疑，保留原文。"
+    },
+    {
+      "path": "public/shuimu/lessons/intermediate/056.json",
+      "title": "愚人节的玩笑",
+      "notes": "通读全部 204 块并对照六页讲义；衔接长广播引用、十项摘要要点与十二题，保留题 3 的完整题干及全部选项，按时态、动词变体及非限定形式重组语法示例。 复核：补齐题 3 空白占位符后空格；长动词说明保留列表正文类型。; 原讲义问题译文“为什么这是个什么玩笑？”重复成分，缺少勘误依据。; 原讲义题 3(d) say ow 无法组成正确答案且答案给 d；等待原始题目/勘误，不猜改。; 题目人名 Giuseppe Moldova、Riccardo Brabante 与改编正文 Frank 不一致，保留课程原文并待查源。; 广播引号在原讲义结尾未闭合，未凭推断增补；语法 sound of bell 疑缺冠词，原资料同样如此。"
+    },
+    {
+      "path": "public/shuimu/lessons/intermediate/057.json",
+      "title": "逃学记录保持者",
+      "notes": "逐篇通读全部 177 块及完整来源；复核逃学故事、中译和摘要表的行组对应，保留连接词与原题顺序，衔接被 PDF 行宽拆开的强调结构例句。; 讲义选择题 He went in lorry、After ... by policeman 和语法 scientists have done lot 疑漏冠词，原 PDF 同样如此，待勘误。; 讲义“强调宾语补语”的两个例句强调句型用法存疑，保留原资料，需教材勘误确认。"
+    },
+    {
+      "path": "public/shuimu/lessons/intermediate/058.json",
+      "title": "太过完美的伪装",
+      "notes": "通读全部 189 块、七页讲义与原课字幕；衔接每轮对话及中译，恢复摘要表行组，保持题 2 原有截断问题待查；统一 Gloria 在本篇的中文名字，与同篇前后译名及字幕英文名字核对。; 原 PDF 选择题 2 的 (b) famous act 与 (d) famous ac 均截断，未凭猜测补词；题 4 wonderful place 疑缺冠词。; 原讲义语法最后一条“名词+and的结构”引号未闭合，缺少勘误依据。"
+    },
+    {
+      "path": "public/shuimu/lessons/intermediate/059.json",
+      "title": "在雪地里呼救",
+      "notes": "全文 181 块与来源六页逐一核对；保持 SOS 故事中英对应与十一项摘要，衔接跨页选择题和四类否定讲解；合并英文断行并保留每条对应中译。; 原 PDF 题 3 的选项 (b)、(c) 均为 young，答案给 b；缺少原题勘误，不猜改。; 题 7 before helicopter arrived、语法 None of soldiers 疑缺限定词，原 PDF 一致；never the better 等用法及否定转移动词清单存疑，需教学勘误。"
+    },
+    {
+      "path": "public/shuimu/lessons/intermediate/060.json",
+      "title": "一次成功的手术",
+      "notes": "通读全部 268 块及九页来源；保留木乃伊课文、十二题与二十题综合测试各自题组。按图像修复摘要表跨列读序；按原题保留第 13 题 A/C/B/D 标签顺序，答案与解析逐条对应，不跨题合并。; 原 PDF 题 1(a) he woman 疑漏 t、(d) of rare disease 疑漏冠词；题 11 hours 后缺句界，待原题勘误。; 综合测试第 13 题原 PDF 选项顺序为 A/C/B/D，保留；第 19 题题干 had just started ... heard voices 缺主语，未猜补。; 第 17 题解析 absent缺席) 缺左括号，且把 absent 解释为主动行为存疑；原 PDF 同样如此，待教学勘误。"
+    },
+    {
+      "path": "public/shuimu/lessons/intermediate/061.json",
+      "title": "戒了无数次的烟",
+      "notes": "逐块通读 284 块并对照十页来源；恢复吸烟故事的中英段落，保持摘要连接词、十二题及二十题综合测试和解析完整，问答题保留两行角色顺序；仅去除 11:00 的时刻内部多余空白，不改音频时间戳。 复核补齐句间分隔空格，保留占位符及连字符。; 原讲义摘要 he accepted cigarette、综合题 4 was possibility 与题 5 as way 疑漏冠词，待原题勘误。; 综合题 1、2 的译义引号未闭合；第 10 题 break out 译义“突然发生,发”疑截断；原 PDF 相同，未猜补。; 第 13 题选项 load music 疑词误，第 20 题解释 base....... 缺搭配说明；没有更可靠来源不改词。"
+    },
+    {
+      "path": "public/shuimu/lessons/intermediate/062.json",
+      "title": "有惊无险的飞机之旅",
+      "notes": "通读 278 块及十页来源；衔接飞机故事、摘要连接词和跨页试题，整理十二题词汇训练及二十题语法测试，保留原第 16 题 B/C/D/A 标签顺序与各题答案解析；英文搭配 three sons、beyond one's dreams 保持词间空格。 复核补齐句间分隔空格，保留占位符及连字符。; 原 PDF 故事题 3、4、5 缺冠词/主语，题 3(a) trave 截断；题 7(a)(b) 同为 frightening 且答案 b，保留待勘误。; 语法题 5 解析“介词十关系代词”“which替先行词”和题 6 的“介词…f”疑缺字；题 6 选项 C.over 存疑，源文件一致，不猜改。; 综合题 10 than man、题 16 ten priceless painting、题 17 good choice 用词/冠词存疑；第 16 题选项顺序原 PDF 为 B/C/D/A。"
+    },
+    {
+      "path": "public/shuimu/lessons/intermediate/063.json",
+      "title": "靠机智逃脱的战俘",
+      "notes": "通读全部 274 块和九页来源，核对逃脱故事及原课完整字幕；按图像纠正摘要连接词跨列插入，保留十一项要点。完整整理十二题和二十题综合测试，保留原来的题号标点、选项标签及解析。 复核统一问答行开头连字符后的空格。; 原讲义故事中译“来回走看”“他听得军营里面的喧闹声”疑误；字幕用踱步、能听到，但不能确定讲义原作者的准确改词，待查勘误。; 摘要 in car 疑漏冠词；题 2 he man 疑漏 t；题 7、10 无答题空白，原 PDF 一致，未猜增。; 综合题 11 解析“语动词”缺字，第 16 题 in university、第 17 题 new technique 疑漏冠词；原 PDF 一致，待原题勘误。"
+    },
+    {
+      "path": "public/shuimu/lessons/intermediate/064.json",
+      "title": "一条长得像怪物的鱼",
+      "notes": "通读全部 260 块并对照九页完整来源；整理桨鱼故事及中译，完整保留十项摘要、十二道词汇训练和二十题语法测试。英文单词和专名 Li Ming 等跨行续接保持词间空格，题干及解析不跨题合并。; 原讲义摘要 sent to museum、at depth 疑漏冠词，选择题 2 Madagascar' a fisherman 疑缺 by，源 PDF 同样如此。; 选择题 12 They have 后无答题空白，原 PDF 一致，未擅自插入；综合题 3 译义引号未闭合。; 综合题 20 don't mind 缺主语，原 PDF 一致，待原题勘误。"
+    },
+    {
+      "path": "public/shuimu/lessons/intermediate/065.json",
+      "title": "活到老学到老",
+      "notes": "逐块通读 267 块并对照九页来源；衔接校长退休课文中英续行，保留 Mr. 缩写及四十年时态；恢复摘要行组、十二题词汇训练和二十题语法测试。区分课件题与讲义补充题，解析与答案保持原有顺序。; 原讲义选择题 1(d) buy the headmaster present 疑漏冠词；题 7 多个复数代词均可使句子成立，原答案仅给 b，待原题勘误。; 综合题 14 解析 to large extent 疑缺 a，题 19 which don't propose 缺从句主语，题 20 present economic crisis 疑漏冠词，原 PDF 相同。; 综合题 19、20 go into 的中文释义引号未闭合，等待勘误依据。"
+    },
+    {
+      "path": "public/shuimu/lessons/intermediate/066.json",
+      "title": "日本的特殊节日",
+      "notes": "通读 257 块及九页讲义；按亡灵节课文、中译及摘要重组跨页段落，去掉“道 路”和 There' s 内部多余空白；完整整理十二题和二十题语法测试，保留原题所有选项与解析标记。; 词汇题 12 It's wonderful、综合题 5 lecture、题 7 rewrite paper 与题 16 man 疑缺限定词；原 PDF 一致。; 综合题 13 选项 I'd' 双撇号、题 16 and think 缺主语、题 20 dinner.) 多右括号，原 PDF 相同，待勘误。; 第 17 题将 than 解释为在定语从句中作主语，与题句结构不符，未无证改写教学解析。"
+    },
+    {
+      "path": "public/shuimu/lessons/intermediate/067.json",
+      "title": "未来的游泳冠军",
+      "notes": "通读全部 266 块及九页来源；按儿童游泳故事和摘要连贯续接，专名、游泳长度数字及连字符保持原文；完整整理十二题和二十题综合测试，逐题核对选项顺序、原答案与独立解析。; 原 PDF 第 6 题问池深，选项及答案为 What depth，缺少通常的 How deep；保留原题，待勘误。; 综合题 11 解析“参看第5题”无法对应本单元第 5 题，而且把 the whole Europe 称为最近主语忽略 human society，原 PDF 相同，待教学勘误。; 摘要要点 Swimming pool-Los- Angeles 将专名中插入连字符，原 PDF 一致；不将其误当纯空白删除。"
+    },
+    {
+      "path": "public/shuimu/lessons/intermediate/068.json",
+      "title": "法国送给美国的自由女神像",
+      "notes": "通读全文 270 块、九页来源及原课字幕；恢复女神像故事、中译与跨页摘要，完整整理十二题及二十题语法综合测试。依据本篇词汇 sculptor 的原译和原课字幕校正“雕像家”；保护 U.S.A.、十九世纪、151 英尺及专名。 复核题 1 的 in 1886 介词与年份空格。; 原讲义“10年时间雕像刻成”疑多字；摘要 where pedestal、题 7(c) for site 疑漏冠词，缺少讲义准确勘误。; 题 9(c) for special purpose8l，PDF 图像原排印带 purpose81 异常尾码；未猜作目的/冠词修订。; 综合题 11 缺主语 I、解析“状补从句”疑字误，第 12 题解析译义引号未闭合、第 14 题解析混用 the number of 与 a large number of，待教学勘误。"
+    },
+    {
+      "path": "public/shuimu/lessons/intermediate/069.json",
+      "title": "被大鱼吓到的潜水员",
+      "notes": "逐块通读 275 块及十页来源；衔接北海钻井平台故事的长从句、中译和三个因素，结尾反问与中译保持对应。完整整理十二题与二十题综合测试，保留 50,000 数值、连字符及原答案，不擅自修订错误题源。; 词汇题 1(a) favorite dish for he English 疑缺字/冠词，源 PDF 一致；原答案 1b 与题干原因对应存疑。; 综合题 3 的 B/C 选项重复，题 6 as challenge、题 13 If I correct someone, will do it 与题 15 as we know 疑缺成分，原 PDF 相同。; 解析第 18 题 one's' 双撇号；第 20 题新任命“生效”应与 takes effect 对应而原答案 B takes place、译义“举办,行”疑缺字，待原题勘误。"
+    },
+    {
+      "path": "public/shuimu/lessons/intermediate/070.json",
+      "title": "艰难的矿井救援",
+      "notes": "通读全部 277 块及中级讲义最后九页；整理矿井救援故事、中译、十项摘要、十二题与二十题语法测试。按表格图像修正连接词插入 hours 前的跨列错误；复核最后一页题 17–20 的跨页完整性，保留所有答案及原解析。 复核跨行中文“宾语从句”不留内部空格。; 原讲义词汇题 7 in few hours、综合题 9 heavy schedule 疑漏冠词，原 PDF 一致，待原题勘误。; 综合题 15 的“反对”译义缺闭引号、第 17 题 Before the first non-stop flight made 疑漏 was 且选项 C 多闭引号，原 PDF 一致。; 第 11、12 题解析存在不完整句法/术语描述，未在缺少讲义勘误时改写。"
+    },
+    {
+      "path": "public/shuimu/lessons/upper/001.json",
+      "title": "A puma at large",
+      "notes": "逐块通读 177 块，对照六页讲义及 NCE3 第一课原始 LRC；按正文中英段落、注释、阅读题、写作和完整题组整理；八处图形答题线按图像恢复；纠正引号和中译漏字；剔除下一课编号。; 原讲义阅读题 12、13 的答案缺右括号；题 15 on fishing trip 缺冠词；没有逐字补正证据，保留待查。; 原讲义课外题 4 的 (b)、(c) 均为 think；题 8 图像也没有答题线；题 11、12 的冠词缺失；保留原文待查。; 写作提示 Mrs. stone 与范文 Mrs. Stone 大小写不同，原讲义如此，待查。"
+    },
+    {
+      "path": "public/shuimu/lessons/upper/002.json",
+      "title": "Thirteen equals one",
+      "notes": "逐块通读 173 块；全文对照讲义六页和原始字幕；正文中英按来源段落分组，对话逐角色段落，范文三段，十二题各保持题干与选项完整；修复十二处图形答题线、四处对话引号，删除跨课标题。; 原讲义开场 repairing church clock 缺冠词；中译那钟一边敲了与原始译文不同，保留待查。; 原讲义阅读题 1 答案 He gives it to good causes 与原文筹款用途不严谨；题 4 用句号连接反问、题 5 和 17 缺问号、题 3 why 小写，保留待查。; 课外题 2 答案印作 d，选项 b 也符合叙述；题 10 缺冠词，保留原答案顺序并登记待查。"
+    },
+    {
+      "path": "public/shuimu/lessons/upper/003.json",
+      "title": "An unknown goddess",
+      "notes": "逐块通读 187 块；按四组原文中译、语法注释、18 道阅读题及完整写作题组分段；十处图形空线逐题对照图片恢复，已有下划线保留；移除下一单元标题。; 原讲义中译身异处疑漏字；注释 Ayia irini 与正文 Irini 大小写不一，缺逐字修订源，保留待查。; 阅读题 17 答案缺右括号，原讲义如此；第 13 题答案首个 fifteenth century 未注明 B.C.，保留。; 课外第 4 题 (a)/(d) 均 prosperity；第 5 题 since Roman time、used as place、第 2 题 great number、第 12 题 for long time 等与规范表达不同，保留待查。"
+    },
+    {
+      "path": "public/shuimu/lessons/upper/004.json",
+      "title": "The double life of Alfred Bloggs",
+      "notes": "逐块通读 182 块；按两个正文中英段落、注释、21 道阅读问答、三段范文及十二完整题组整理；八处图形空线按图像恢复，纠正引用引号并删除跨课标题。; 原讲义中译坐办公室的之所以疑漏人、已找到薪职疑错字；同一人布洛斯/布洛格斯译名不同，待找到逐字中译证据。; 语法注释将 that 解释成 such 的同位语从句；课外第 4 题缺冠词、第 11 题图像本身没有答题线；保留待查。; 课外第 3 题引用 Mr. Bloggs 的单引号样式不成对，原图如此，待逐字试题源。"
+    },
+    {
+      "path": "public/shuimu/lessons/upper/005.json",
+      "title": "The facts",
+      "notes": "逐块通读 169 块；依据来源合并三组中英段落，保留跨页译文和 17 个问答；写作提示及一段范文分别整理，十一处图形空线按图像恢复，十二题题干与选项保持完整；1,084 数字内部空格移除。; 课外第 6 题正确项印为 reply 而题干 receive 后缺冠词；第 9 题 (b) 原图为 lectures；第 12 题 send fax 缺冠词。原资料也有问题，保留并待查。; 原讲义阅读题 7 答案缺句末点；关于被关一周的第 17 题只能由文中一周后收到传真推断，保留教材问答原文。"
+    },
+    {
+      "path": "public/shuimu/lessons/upper/006.json",
+      "title": "Smash-and-grab",
+      "notes": "逐块通读 181 块，完整对照跨页原资料；正文三组中英与注释、20 道阅读题、三段范文及题组选项整理；十二处图形答题线逐题恢复，第 6 题错识句点按图像改回逗号。; 原讲义范文 got away Meanwhile 缺分隔标点、in side street 缺冠词；第 5 题 re-entering- 多余尾连字符，图像也如此，待逐字源。; 原讲义第 4 道阅读题将 Taylor 与助手共同作布置者，与正文助手工作、店主欣赏的叙述不同，保留教材问答待查。"
+    },
+    {
+      "path": "public/shuimu/lessons/upper/007.json",
+      "title": "Mutilated ladies",
+      "notes": "逐块通读 170 块；三组原文译文、跨页语法说明、21 个阅读问答、写作提示和范文分别分段；十二题按图像补回答题线，恢复末句闭合引号，整理货币、千位、1.5 小数内部空格并保留英镑字符。; 原讲义第 1 题题号为 I，第 4 题 (a)/(b) 都是 large bank note；第 6 题第四项标签印为 ()，不擅自补 d。; 阅读第 4 题 has team 缺冠词、第 19 题答案缺句末点；中译括号解释与英文 and a lot of people do 的指代不同，保留待逐字原译查源。"
+    },
+    {
+      "path": "public/shuimu/lessons/upper/008.json",
+      "title": "A famous monastery",
+      "notes": "逐块通读 177 块；合并两组正文中译与语法注释，完整保留18个阅读题和三段范文；十处空线按图片恢复；修正 St. Bernard、2,473、负温度前空格以及中文碎裂字间空格。; 原资料第 41 页阅读答案 -30。及写作提示 -20。将温度符号印为基线句号；图像也如此，保留待查。; 第 1 题答案 Italy 缺句末点；第 12 阅读题 in special enclosure 缺冠词；课外第 5 题题号印为 5-a，保留原写法。; 原讲义正文最高山口的表述和第 4 题创建者回答属于教材内容，未作额外事实改写；第 12 题 wonder 拼法作为选项保留。"
+    },
+    {
+      "path": "public/shuimu/lessons/upper/009.json",
+      "title": "Flying cats",
+      "notes": "逐块通读 172 块，按来源合并两组正文及中译、语法说明、20 个阅读问答；写作提示和 150 词范文各独立段落，不能把范文 regular/meals 人工换行作为语义段界；十一处图形空线按图像恢复，保留十二题选项和原答案。; 课外第 11 题图像本身无答题线；第 7 题 high-rise- 多余尾连字符，原图如此，保留待查。; 原讲义课外第 3 题答案 a 与选项 c 都涉及文中机制；第 1 题 good deal、第 10 题 As matter of fact 缺冠词；阅读题 14 doctor、第 17 题 long drop 缺冠词，保留原资料待查。"
+    },
+    {
+      "path": "public/shuimu/lessons/upper/010.json",
+      "title": "The loss of the Titanic",
+      "notes": "逐块通读 188 块；按两组正文中译、跨行阅读问题及答案、三段范文划分段落；题组选项跨页连接，十一处图形答题线逐处补回；1,316 数字内部空格整理，保留年份、数字和 hyphenated 密封舱表述。; 原讲义课外第 4 题 (c) Boarding he、题 6 when huge iceberg、题 9 direct collision 等存在缺词或冠词；保留原题待查。; 阅读第 6 题 If these were flooded 未说明两个或全部，与开篇任意两舱进水仍漂浮的条件不同；保留并登记语义歧义。"
+    },
+    {
+      "path": "public/shuimu/lessons/upper/011.json",
+      "title": "Life on a desert island",
+      "notes": "逐块通读 181 块；正文两组中英、语法注释、19 问答及三段范文按来源整理；跨页选项 idleness 和题干 survival、coral island 均完整衔接；九处空线逐题按图像恢复，整理中文名字间隔和引用后的多余空格。; 原讲义范文 on desert island、for very long time、on horizon 等缺冠词，plenty of freshwater spring 缺连接或介词；保留待逐字写作源。; 阅读题 1 life on desert island 缺冠词，题 15 no trees 比正文 hardly any trees 更绝对；第 3 题将想象的阳光作为肯定事实，保留教材问答。; 原 PDF 第 55 页大号单元编号为 12，本文在课程目录按 Lesson 11 排序；记录原资料编号差异，不改文章 ID。"
+    },
+    {
+      "path": "public/shuimu/lessons/upper/012.json",
+      "title": "Not guilty",
+      "notes": "逐块通读 193 块；四组叙述及双语对话按来源分段，保留说话人和问答顺序；跨页注释完整衔接；写作提示和范文独立段落；九处图形答题线逐题恢复，整理缩写标记、括号、英文引号后的空格。; 第 62 页中文问话结束符 ℽ 在图像也是异常字符；第 63 页注释句末两个中文句号；没有逐字原译证据，保留待查。; 阅读第 10 题缺问号、第 13 题答案缺句末点；课外第 9 题图像自身无空线且 these days They 缺标点；第 11 题 incredulous 与 sceptical 均可能，保留原答案。; 原 PDF 大号编号为 11，而 Not guilty 在当前课程目录为 Lesson 12，与前一篇 Life on a desert island 的 PDF 12 编号互换；不改文章 ID。"
+    },
+    {
+      "path": "public/shuimu/lessons/upper/013.json",
+      "title": "It's only me",
+      "notes": "逐块通读 173 块；两组原文中译、语法说明和19问答完整分段，跨页写作提示衔接；范文 ghost/in the storeroom 换行是续句，合为同段；十二题按图像补回线，保留 meter- 连接号与原选项。; 原讲义第 2 题 (c) she thought he baker 疑漏 t、第 3 题 seeing ghost 缺冠词、第 10 题前缀 10-if，原图同样如此，保留待查。; 原文 a man entered, Mrs. Richards... 用逗号连接两完整句；阅读第 10 题答案 The baker 缺句末点；待逐字原文校订证据。"
+    },
+    {
+      "path": "public/shuimu/lessons/upper/014.json",
+      "title": "A noble gangster",
+      "notes": "逐块通读 183 块，来源两组原文中译、注释、18 道问答及三段范文完整分段；十一处练习横线按图像补回，跨行选项与题干合并，整理中文姓名间隔和英文引号后的空格。; 原练习第 2 题 (d) services o he Italian states、第 3 题 (b) citizens n peacetime、bad or them、第 3 题 (c) offered o、whose arms 等疑漏字；原图也如此，保留待查。; 阅读第 8 题 giovanni 小写、第 15 题答案缺闭括号，第 3 题答案缺句末点；课外第 8 题 gave him 后缺宾语，原资料如此，待查。"
+    },
+    {
+      "path": "public/shuimu/lessons/upper/015.json",
+      "title": "Fifty pence worth of trouble",
+      "notes": "逐块通读 169 块；正文两组中英、语法注释、20道阅读问答和一段范文完整衔接；引导写作的82词计数和范文150词计数保留；十处练习空线按原图恢复，各题选项顺序不变。; 原范文 fire brigade The boy 缺句末标点、when he saw the firemen. 用句点割裂从句、with special type 缺冠词；原图如此，保留待查。; 阅读第 16 题答案缺右括号、第 20 题 With large box 缺冠词；课外题 3 图像没有空线，第 3 题 (b) took his fire fighters、第 4 题 bar of chocolate、第 10 题 and lady 等缺词；保留原教材。"
+    },
+    {
+      "path": "public/shuimu/lessons/upper/016.json",
+      "title": "Mary had a little lamb",
+      "notes": "逐块通读 177 块；正文三组中译、语法说明、20道问答和三段范文按来源分段；范文 time, as/there wasn’t 是一个续句，衔接完整；十一处答题线按图像恢复，第 4 题原 JSON 在应留空处误填 a，依据图像改回待填线。; 原练习第 8 题图像没有答题线；第 7 题 (b)/(d) 都为 so small，题干 village 缺冠词；第 5 题 was little white lamb 缺冠词，保留原资料待查。; 阅读第 19 题 Because it had been dyed black 未提到雨水冲掉黑色；原 PDF 第一组正文后有空 Notes 标记，保留来源结构并登记。"
+    },
+    {
+      "path": "public/shuimu/lessons/upper/017.json",
+      "title": "The longest suspension bridge in the world",
+      "notes": "逐块通读 172 块；三组正文中译、语法说明、15道问答和范文完整分段；十二处答题横线按图像恢复，第 12 题横线后的逗号也依图恢复；阅读直接引文漏 s 按同篇原文改正，数字内部和答案4a5a相连空格整理。; 课外第 3 题 (b) bridge's b 在图像截断，第 7 题 (c) ferro- immense 缺词，保留待查。; 中译将 sixteen months 所指 platforms 写成两座塔；缺同版逐字原译证据，保留待查。阅读第 11、13 题答案缺句末点，第 2 题 Angouleme 未用正文音符，保留原写法。"
+    },
+    {
+      "path": "public/shuimu/lessons/upper/018.json",
+      "title": "Electric currents in modern art",
+      "notes": "对照复读全文后补充练习 4 引号后缺失的词间空格；不改题号连字符、题干词语和源资料疑点。; PDF 第 93 页 cannot have failed 的说明写作“不肯定的推测”，来源本身可疑，未擅改。; PDF 第 94 页 in response 的中文释义使用不成对引号“回答’，保留并待查原版。; PDF 第 95 页问答 9 缺起始引号、问答 11 缺问号；来源本身如此。; PDF 第 96 页范文 looked mess、attracting lot of comment 缺词疑点；未以语法推断改写。; PDF 第 96–97 页练习 4 与 9 保留原来的题号连字符；题 9 move 后横线与 are 的位置及题 5 答案 c 有歧义，待查完整原版练习。"
+    },
+    {
+      "path": "public/shuimu/lessons/upper/019.json",
+      "title": "A very dear cat",
+      "notes": "通读两段课文与中译、6 条注释、20 个问答、写作提示和整段范文、12 道练习与答案。合并跨页续文与题干，恢复 10 道绘制横线，统一金额内部及人名中点的空白，保留题目和选项顺序。; PDF 第 102 页第 9 题选项 d 的 disciplined bow we 来源本身如此，未猜改。; PDF 第 102 页第 10 题 for stroll、for trot 缺冠词，及第 8 题 what lot of money 来源疑点，待查原版。; PDF 第 102 页答案第 5 题 d、第 8 题 d、第 9 题 d 存语义或语法疑点，未擅改答案。; PDF 第 100 页问答 14、20 的答案末尾缺句末标点，保持原资料内容。"
+    },
+    {
+      "path": "public/shuimu/lessons/upper/020.json",
+      "title": "Pioneer pilots",
+      "notes": "通读两段课文及中译、7 条说明、20 个问答、写作提纲和三段范文、12 题与答案。整合跨页中译，保持三段写作结构，整理金额、日期、小数时刻和缩写的空白；逐题恢复 12 个绘制横线。; PDF 第 104 页问答 13 的题号字形与文本层 l3 有歧义，及 Antoinette 引号左右风格不配对；保留并待查清晰原版。; PDF 第 105 页范文 following me, I suddenly 为来源原标点，未按语法改句。; PDF 第 106 页第 9 题 when 后未给后续从句，来源原文如此；题 8 空白后 he 与发布原先 He 大小写不同，未扩大为空格以外改写。; PDF 第 106–107 页第 11 题 quarter five 不含冠词 a；原题及答案保留待查。"
+    },
+    {
+      "path": "public/shuimu/lessons/upper/021.json",
+      "title": "Daniel Mendoza",
+      "notes": "复读已整理全文，清除注释 10 跨行合并遗留的中文内部空格与注释 1 中文句号后的非必要空格；保留原有校勘历史与全部待查项。; PDF 第 112 页第 10 题 Mendoza’s to fame 未绘制横线，选项原本依次 c、d、a、b；不推定修补或重新排序。; PDF 第 112 页第 9 题保留 9- 后直接 after 的原文，横线只出现在 the 与 young 之间，题干主句缺失。; PDF 第 112 页第 4 题答案 a 的 they called boxers 放在原横线位置后不成句；原 PDF 横线在 prizefighters 前，来源疑点待查。; PDF 第 111 页范文 teacher and pupil 后 do-and 使用连字符连接短语，保持源词语与标点。"
+    },
+    {
+      "path": "public/shuimu/lessons/upper/022.json",
+      "title": "By heart",
+      "notes": "通读三段课文及中译、10 条注释、20 个问答、写作要求与三段范文、12 题及答案。保留源资料段落对应，整合跨页题目及写作提纲；恢复 10 个绘制横线，问答括号前补词句间空格。; PDF 第 116 页写作要求与 Title 之间确有孤立汉字“吗”，来源本身含此字，未删除，待查原版。; PDF 第 118 页第 12 题 the gaoler he would get his glasses 未绘制横线；不猜测添加。; PDF 第 119 页答案第 2 题 c 与所给故事的角色处境有歧义，保留来源答案。; PDF 第 118 页第 11 题 he said 后多个混用句点/省略号，与原资料一致，未作非空白标点改写。; PDF 第 116 页问答 19 A few minutes later 与正文 few moments later 的细节不同，未擅改问答。"
+    },
+    {
+      "path": "public/shuimu/lessons/upper/023.json",
+      "title": "One man's meat is another man's poison",
+      "notes": "通读两段课文与中译、6 条说明、20 个问答、三段范文、12 道题。合并语义段落与跨页续文，保留第 2 题现有占位符并恢复另 11 个绘制横线；不补猜原题和原选项缺字。; PDF 第 120 页词汇 shower 的中文为“陈雨”，第 121 页中译含“自已”；来源原字可疑，待查更清晰原版。; PDF 第 122 页问答 7 缺右括号、问答 10 Why hasn’t he a got a garden 与问答 20 Look at snail 缺冠词/多词，保留来源原句。; PDF 第 122 页范文 Even now am sure 缺主语，未按语法推断补 I。; PDF 第 123–124 页选择题 6、10 的 d 选项缺右括号，页面图像本身如此，保留原标号并记录。; PDF 第 124 页练习 11 含 -I 前缀、题 12 people 前后逗号等原题疑点，保留原资料。"
+    },
+    {
+      "path": "public/shuimu/lessons/upper/024.json",
+      "title": "A skeleton in the cupboard",
+      "notes": "通读两段课文和中译、6 条说明、20 个问答、写作提纲和四段范文、12 题。整合跨页课文与问答，保留四段续写范文，恢复 10 个横线；原字幕及英文直接引语共同证明中译缺闭合引号，补回右引号而不替换译词。; PDF 第 125 页说明 conceal sth, from sb 使用逗号而非缩写句点，来源原文保留待查。; PDF 第 127–128 页范文 room a with、out of cupboard 与 There was, with Sebastian ... as the main characters 缺词/多词疑点，未猜改。; PDF 第 129 页练习 6、10、12 的题号后 - 前缀缺主句，保留原资料；第 8 题答案 b 的问句形式与尾部问号保留。; PDF 第 127 页问答 1、11、14、19 的答案缺句末句点，保留源内容。"
+    },
+    {
+      "path": "public/shuimu/lessons/upper/025.json",
+      "title": "The Cutty Sark",
+      "notes": "通读两段课文与中译、5 条注释、21 个问答、写作提示与四段范文、12 题。复原跨页语义段落，补题号 21 后空格、提纲符号旁空白与 11 道绘制横线；第 11 题按原图撤回提前填入的 into。; PDF 第 131 页注释含“那时侯”，中译 Thermopylae 同时使用“赛姆皮雷”和“塞姆皮雷”，保留来源用字差异待查。; PDF 第 132 页写作标题 ‘Ships of the past' 的引号样式不配对；PDF 第 133 页范文 Oars 首字母大写，均为来源原样。; PDF 第 134 页练习 8、10、11 的 d 选项缺右括号，及题 10 选项 a set out On 的大写，保持原资料。; PDF 第 132 页问答 1、9、14、16 缺答案末尾句点，保留来源。"
+    },
+    {
+      "path": "public/shuimu/lessons/upper/026.json",
+      "title": "Wanted: a large biscuit tin",
+      "notes": "全文复读后清除注释 2 自夸与中文省略号之间的多余空格，历史校勘与待查项保持。; PDF 第 138 页写作提纲 maximum often questions 来源词形如此，疑为 of ten，但未拆分或猜词。; PDF 第 138–139 页范文包含 right Then 缺句号、And your ninth question 引号/叙述分界缺失及多处左右引号混用，均为原 PDF，可疑标点保留待查原版。; PDF 第 139 页第 3 题 c That it was a possible 含多余 a；第 140 页题 7、8 的 d 标号缺右括号，来源本身如此。; PDF 第 137 页中文“饼干份量”及“因为为买下”来源用字保留，不按现代用语或语法猜改。"
+    },
+    {
+      "path": "public/shuimu/lessons/upper/027.json",
+      "title": "Nothing to sell and nothing to buy",
+      "notes": "通读两段课文和中译、8 条注释、22 个问答、四段评论范文、12 道练习与答案。保留社会观点原文，整理语义段落与问答括号空白，恢复 12 个绘制横线，保持题号和包括来源 e 标号在内的原选项顺序。; PDF 第 141 页词汇 passer-by 的括号一端中文一端英文，保留原样；第 142 页注释“时侯”原字待查。; PDF 第 144 页第 2 题第三选项字母原本为 e，图像确认非 OCR 擅改，保留并记录异常。; PDF 第 144 页第 4 题答案 b 的 the high fee we would pay 置入题干后语法/语义可疑，保持来源答案。; PDF 第 144 页范文最后一段引号左右类型混用；PDF 第 143 页问答 1、5、11、12、22 缺句末标点，均保留来源内容。"
+    },
+    {
+      "path": "public/shuimu/lessons/upper/028.json",
+      "title": "Five pounds too dear",
+      "notes": "通读三段课文与中译、5 条说明、19 个问答、写作提纲及逐轮讨价还价范文、12 题。整合跨页语义段落，范文角色发言保留独立段落，清理中文内部空格及引号后缺空格，恢复 9 个练习横线。; PDF 第 148 页问答 19 wiling 的拼写疑点，来源原字保留待查。; PDF 第 149 页范文最后一句 bargain' 出现单独尾引号；第 3 题 d 与第 4 题 d 标号缺右括号（JSON 第 4 题已有右括号），原资料问题保留记录。; PDF 第 150 页第 7 题答案 d he might give me 与正文叙事的语气差异、题 10 答案 b was ready to 放入后出现 to to、题 12 选项 d So ever，均为来源疑点，未猜改。; PDF 第 148 页问答 2、4、14、15 缺末尾句点；题 4 Was it difficult to be tempted 与正文 difficult not to be tempted 的措辞相反，保留待查。"
+    },
+    {
+      "path": "public/shuimu/lessons/upper/029.json",
+      "title": "Funny or not?",
+      "notes": "通读三段课文和中译、8 条说明、20 个问答、三段趣事范文、12 题。整合跨页范文及中文语义段落，保留原叙述和对话语义，清理国名缩写、人名中点、引号后空格，恢复 12 个绘制横线。; PDF 第 154 页题 1 的 ‘sick humour' 混用引号；第 155 页第 6 题 Was 首字母大写、题 7 d 缺右括号，均为来源原样，保留。; PDF 第 154 页第 4 题答案 a The French 与后面 might 语法虽可成句，但与原文 A Frenchman 的个体和群体表述不同；原题保持。; PDF 第 153 页问答 17 询问医生何时告知，回答 In time for New Year 描述出院期限，与正文翌日告知不同；来源疑点待查。; PDF 第 153–154 页范文第一段 afternoon tea together, they still leave doors 的逗号拼接与问答 8 缺末尾句点保留来源。"
+    },
+    {
+      "path": "public/shuimu/lessons/upper/030.json",
+      "title": "The death of a ghost",
+      "notes": "通读三段课文和中译、4 条说明、22 个问答、三段范文、12 道练习与答案。按原资料保留三段故事及逐段中译，续接跨页第二段课文、首段范文；整理人名与提纲空白，恢复 11 个绘制横线，保留完整问句第 3 题。; PDF 第 156 页词汇 moonlight n 无缩写句点，保留来源待查。; PDF 第 158 页写作要求 Do not Write 跨行 W 大写，原 PDF 如此；第 159 页范文 so immediately decided 缺主语，未凭语法补 I。; PDF 第 159–160 页第 1、5、7 题 d 标号缺右括号、第 6 题第三标号为 e，图像确认来源本身的问题，保留。; PDF 第 160 页第 8 题答案 a and did not even tell 的施事/定语关系有歧义，保留来源；第 158 页问答 7 答案缺句末句点。"
+    },
+    {
+      "path": "public/shuimu/lessons/upper/031.json",
+      "title": "A lovable eccentric",
+      "notes": "通读四段课文与中译、9 条说明、21 个问答、四段范文、12 题。保持人物叙事和中译对应，续接跨页段落、写作提纲与题干；统一金额、人名中点和提纲空格，恢复 12 个绘制横线。; PDF 第 161 页 snob 中文写作“诌上欺下的人”，语法说明“介词短词”；第 163 页“陪礼道歉”均为来源原字，保留待查原版。; PDF 第 164 页第 2 题第三标号为 e，且 he had forgotten to bring his to cloth bag 多出 to，原 PDF 如此。; PDF 第 165 页第 4 题 d 缺右括号，第 9 题 d 的源资料尾部有 0n1olo0l 杂字，当前发布版本已无杂字，保留既有正文并记录来源差异。; PDF 第 163–164 页 Our town、(Some would say ...) 与 Every year he gets a few votes 的大小写/叙事原文均保留，未作教学内容改写。"
+    },
+    {
+      "path": "public/shuimu/lessons/upper/032.json",
+      "title": "A lost ship",
+      "notes": "对照复核注释 5：中文断行“定语 / 从句”合并时移除内部空格。; PDF 注释 6 原印“被摘清”；注释 5“不定式 to 是真实主语”缺少 read，原印如此，待其他原文依据。; PDF 问答 1、10、12 答案原缺末尾句号；范文 The Karen was packed...when... 与末段原有逗号连接句，保留待查。; PDF 练习 12 的 (d 缺右括号；作文提示中的 Dauniless 与现有 Dauntless 不同，现有专名保留，待查来源版本。"
+    },
+    {
+      "path": "public/shuimu/lessons/upper/033.json",
+      "title": "A day to remember",
+      "notes": "通读词汇、两段正文及中译、24 组问答、四段范文和 12 道练习；衔接 PDF 172–173 正文、174–175 作文及 175–176 第 7 题跨页选项；按原段落合并断行，保留题序和选项。恢复图像可证的第 3–12 题作答横线；缩写、连字符及省略号保持。; PDF 问答 4 原印 a chain reactions，问答 5 答案原印 (t marks 缺主语 I；问答 21 原缺末尾句号，未凭推测补词。; PDF 第 2 题 (c) Stop 大写、(d) 2 cake 原印如此；第 3 题答案 a 与正文事故因果表述需核其他版。; PDF 第 6 题答案 a 的时态与课文 As if...were... 不同，保留原键等待查源。"
+    },
+    {
+      "path": "public/shuimu/lessons/upper/034.json",
+      "title": "A happy discovery",
+      "notes": "通读三段英文正文与中译、词汇注释、23 组问答、四段范文及 12 题；合并原排版断行，跨页注释和题组保持完整，保留题号、答案与选项顺序。恢复第 3–12 题可见横线；保留第 1 题现有占位符及第 2 题完整问题。整理中文内部空格、人名中点和金额相邻空格。; PDF 词汇 rarity n 缺缩写点；Composition 在词表和正文均原为大写，未擅自更正。; PDF 范文原印 lots of painting、with child in pram；PDF 练习 2 (d) 原印 a box a of...并以冒号结尾，保留待查另一版。; PDF 第 4 题答案 b 及第 7 题答案 a 的语法衔接需要核对另一原版；本文中 cherishing hope 与 no one discovers by chance 的表述保留原文。"
+    },
+    {
+      "path": "public/shuimu/lessons/upper/035.json",
+      "title": "Justice was done",
+      "notes": "通读词表、三段正文中译、20 组问答、四段范文、12 题与答案；还原第一问题、注释、英文和中文语义段落，衔接 183–184 正文及 185–186 范文。第 8 题跨页选项维持整组；恢复第 3–12 题图像所示占位符，保留前两完整问题。; PDF 原词表 muffle“厌抑”、blacken“不变黑”疑似原资料文字错误，等待其他原始依据。; PDF 原第 1 题 (b) 句后孤立 a，第 9 题 (c) listened for* 带星号，保留原印。; PDF 范文 Nothing happened, everything... 原为逗号连接句；正文 Reward or punishment are... 原表述保留。"
+    },
+    {
+      "path": "public/shuimu/lessons/upper/036.json",
+      "title": "A chance in a million",
+      "notes": "通读三段英文和中译、词汇注释、20 组问答、四段范文、12 题及答案。合并中文和英文断行，长范文第三段“taxis / themselves”仍为同一段；跨页第 2、11 题完整保留。对照图像恢复第 2、4–12 题作答横线，第 1、3 题为完整问句。整理人名中点和中英相邻空格。; PDF 原词表“女拥”、问答 4 和范文末段 modem、范文 dinning 原页面均如此，待另一版本原始依据。; PDF 问答 1 原为 Yes. we are，问答 9 原缺句末点；第 2 题 (d) 及第 12 题 Was 原大写，保留。; PDF 作文提示 from job 缺少 to job，正文中译“直至当日”与 ever since 有差异，保留待查。"
+    },
+    {
+      "path": "public/shuimu/lessons/upper/037.json",
+      "title": "The Westhaven Express",
+      "notes": "通读导入、词汇、三段英文和中译、19 组问答、四段范文及 12 道题；原段落与中英对应完整保留，中文跨页续文不按页拆段；题 1、10 的选项跨页衔接，保留全部选项顺序。恢复第 1、3–12 题原页横线，保护时间 4.30、时长 4.5 和星号注释。; PDF 正文 flights maybe cancelled 原为 maybe，词汇“慢吞吞的动或做”原如此，待核另一版。; PDF 问答 6 snowfall. or 原句点，问答 14 的右括号为中文且缺句点；范文末段原印 no fast rain back，保留待查。; PDF 范文 got out book 与现有 got out a book 有版本差异，既有 a 保留，未逆改；第 6 题选择项 c/d 同样可衔接但原答案 a，保留。"
+    },
+    {
+      "path": "public/shuimu/lessons/upper/038.json",
+      "title": "The first calendar",
+      "notes": "通读词表、三段英文与中译、20 组问答、四段范文、12 题与答案；恢复首题及段落，跨页中译与作文提示连续；第 3、11 题选项跨页完整保留。恢复 11 处图像横线，第 3 题原占位符保留；清理 20,000 和 35，000 内部空格，保留 B.C.、CD-ROM 和原中文数值标点。; PDF 第 5 题原印 Even / seem insignificant... 与现有 seemingly 存在修订差异；选择项 what 和原答案 c 与片段句法不符，未猜测补入 light on 或改题。; PDF 第 1 题原答案 b 与理解题 c 的范围存在争议，保留原键等待原版核对。; PDF 词汇与中译将 CD-ROM 释为“光盘驱动器”，范文最后一段逗号连接句原如此，待其他源依据。"
+    },
+    {
+      "path": "public/shuimu/lessons/upper/039.json",
+      "title": "Nothing to worry about",
+      "notes": "通读三段英文及中译、词汇注释、20 组问答、四段范文及 12 题答案；衔接跨页注释和写作提示，问答 14 的孤立 in 与前后行合并为完整答案。恢复第 2–12 题图像横线，第 4 题在 a car 前、第 12 题在 half a mile 后；保持原选项、题序和数值。; PDF 词表 swerve“争转变”、grind“磨擦”以及注释 4 的中文引号不匹配均原如此，待其他资料校核。; PDF 范文原为 For the rest of us, it is...、We tied to push、walked to next village、to a rent；图像确认原印如此，不擅自改词。; PDF 第 8 题 (d) in significantly，第 9 题 (c) hold up Our train fee 原为破损/异常文字，待核原版。"
+    },
+    {
+      "path": "public/shuimu/lessons/upper/040.json",
+      "title": "Who's who",
+      "notes": "通读导入、词汇、三段英文及中译、注释、19 组问答、三段范文和 12 题答案；按原段落合并排版断行，跨页问答和题 8 选项完整衔接。恢复 10 道图像可证横线，保留第 3 题完整问句及第 7 题原省略号；第 4 题原序 a、c、b、d 保留。; PDF 第 4 题选项原为 a、c、b、d；第 7 题题干 do 后只见省略号未见横线，保留待核原版。; PDF 第 6 题各选项与 for 衔接及原答案 d 的搭配存在问题，未凭语法猜改选项。; PDF 问答 2、5 答案缺句末点；中译“学生常装扮成警察”与 had dressed up 的时态表述不同，保留原译。"
+    },
+    {
+      "path": "public/shuimu/lessons/upper/041.json",
+      "title": "Illusions of pastoral peace",
+      "notes": "通读导入、词汇、两段英文及中译、18 组问答、作文提纲和四段范文、12 题答案。按原语义段落合并长正文与跨页范文，写作要求项目保持完整 list，题 7 跨页选项衔接；恢复第 3–12 题图像横线，前两题保留完整问句。; PDF 词汇 stagger“螨跚”、twitter“喊喊喳喳叫”原为异常文字，需其他源佐证；exotic 原页与现有“异乎寻常”有修订差异，现有词保留。; PDF 作文提纲原印 Tile，问答 1、10 缺句末点；第 1 题 (c) country 后缺 people 或其他续文，保留待查。; PDF 第 3 题末尾为问号但题干需衔接选项，保留原标点；第 8 题选项搭配及原答案 b 需另一原版核验。"
+    },
+    {
+      "path": "public/shuimu/lessons/upper/042.json",
+      "title": "Modern cavemen",
+      "notes": "通读导入、词汇、三段英文与中译、19 组问答、写作提纲、四段范文及 12 题；合并中文和英文原段落，注释 5 保留例句和讲解换行；作业 list 不拆项。恢复全部 12 道图像横线，跨页第 4、12 题和长题 5 完整衔接，保护连字符、Dauphiné 和数值。; PDF 中译“布署”、词表“穹窿”保留原写法；问答 7 On plateau 缺冠词、19 答案缺句末点，待其他原版佐证。; PDF 范文原印 a fiend of mine、the sea that was already... 与现有 friend 和 the sea was 有修订差异，既有内容保留，未逆改。; PDF 第 5 题 getting...and... before 的句法与选项对应不完整；第 7 题 let...the current to... 疑似缺词，恢复横线后仍待查原版。"
+    },
+    {
+      "path": "public/shuimu/lessons/upper/043.json",
+      "title": "Fully insured",
+      "notes": "通读导入、词汇、三段英文及中译、18 组问答、提纲与五段范文、12 道题。英文及中文分别恢复原段落，跨页正文、写作要求项目和提纲续文连续；注释 the+ 结构内部不留中文断行空格。恢复全部 12 题图像横线，保持原顺序、答案、数值和词汇缩写。; PDF 作文提纲原印 Tile，问答 6 原印 Was 大写；问答 5 以 sunken pie 代指 pie dish，保留待其他原版核对。; PDF 英文 fete 在中译为“盛宴”，annual fair 译为“交易会”，来源用语保留，暂不擅自重译。"
+    },
+    {
+      "path": "public/shuimu/lessons/upper/044.json",
+      "title": "Speed and comfort",
+      "notes": "通读导入、词表、两段英文中译、19 组问答、写作提纲和六段范文及 12 题。对照锁定 LRC 恢复卧铺段漏失文字并校正 However 从句逗号，保持译文与来源路径。整理中文/英文边界和数值 30,000；全部题干横线由 PDF 图像定位恢复，题号、行号和选项顺序保留。; PDF 词汇 compartment/civilize、monotonous/disadvantage 与 inevitably/soar 释义错行，现有已校订词义保留；uncrumpled“没有垮下来”原释义待其他证据。; PDF 范文 flights 处原为 fights、Personally, never...缺 I，保留待其他原版。; PDF 第 7、9 题 (d 缺右括号；第 2 题答案 c 与 invariably 和正文 on some services 有冲突，保留原键待查。"
+    },
+    {
+      "path": "public/shuimu/lessons/upper/045.json",
+      "title": "The power of the press",
+      "notes": "逐篇通读英文、中译、注释、18 组问答和四段范文；正文按原文三组英中段落衔接，跨页数字不拆开；11 处扫描遗漏答题横线按页面恢复。; 原讲义问答15末尾多逗号；练习10(c)印为(e)，未猜改；答案2d与报道销量动机、12a与商品语义可能不符；正文overnight后逗号、范文多逗号连接句待更权威版本确认。"
+    },
+    {
+      "path": "public/shuimu/lessons/upper/046.json",
+      "title": "Do it yourself",
+      "notes": "逐篇通读三组英中正文、20组问答和四段水龙头范文；区分跨页续文，11处横线恢复，保留原答案及所有题号。 复核补齐闭引号与行号括号之间的半角空格。; 讲义正文中译环了、问答16 new a chain、问答9引号不配对、范文changing the washer dripping tap及no I problem原页面亦如此，待更可靠文本；练习首题why小写、4题4-与6题原引号异常不猜改；字幕Last spring与讲义In spring版本不同，保持讲义正文。"
+    },
+    {
+      "path": "public/shuimu/lessons/upper/047.json",
+      "title": "Too high a price?",
+      "notes": "逐篇通读三组英中正文、19组问答、三段饮食范文；恢复12处答题横线；英文题干整句衔接、选项独立行，保留医学缩写BSE与百分比。; 讲义正文中译人类对应Men、问答19 5%.、范文junk food单边引号和逗号连接句待更可靠文本；练习7(a)that on off与答案7a疑似原版错误，第8题补入选项仍语法不完整，未猜改。"
+    },
+    {
+      "path": "public/shuimu/lessons/upper/048.json",
+      "title": "The silent village",
+      "notes": "逐篇通读三组英中正文、22组问答和七段含对话的续写；对话分段沿用原版，10处横线有证据恢复，保留题10原印刷缺空白。; 注释9原讲义by shy of与正文be shy of不符，待更可靠版本；问答20缺句末点；练习10题干was后原图无占位线，保留并列待查源；正文which从句后逗号、座落等原写法保留。"
+    },
+    {
+      "path": "public/shuimu/lessons/upper/049.json",
+      "title": "The ideal servant",
+      "notes": "逐篇通读两组长英中正文、19组问答和四段佣人范文；恢复12处答题横线，保留第9题主语之前的真实空白位置。; 中译收抬、问答11缺末点、范文a such a及domestic servants之后缺分隔标点均源中存在，待权威文本；练习1单边引号及nares，4(a)末尾漏respect且4(b)出现she respect，原图亦如此；答案4c瓶中是否有酒、11a与stumbled语义待查，未猜改。"
+    },
+    {
+      "path": "public/shuimu/lessons/upper/050.json",
+      "title": "New Year resolutions",
+      "notes": "逐篇通读两组长英中正文、20组问答和四段新年决心范文；恢复10处原图横线，拼接跨页续文；don'ts只删除内部误空格，不改变字符。; 注释7秘而这宣、中译被谁也没发现源中同样存在，待可靠版本；问答1缺点；练习3无横线且8缺I及横线，原图如此保留；4题experiences has与答案4b时态疑义，未猜改。"
+    },
+    {
+      "path": "public/shuimu/lessons/upper/051.json",
+      "title": "Predicting the future",
+      "notes": "逐篇通读三组英中正文、17组问答、五段预测计算机范文；12处占位线据原图恢复，IBM/DOS/PCs/TV及1970s等保持完整。; 原稿规划标题Tile、问答8无末点、范文virtual-reality单边引号和练习5(d)bread son均源中存在，待更可靠版本；题10题干及给定答案填入位置语法疑义，9a/refuted与rejected、11a含义及其他题答保留未猜改；教材计算机史陈述保留原文。"
+    },
+    {
+      "path": "public/shuimu/lessons/upper/052.json",
+      "title": "Mud is mud",
+      "notes": "逐篇通读三组英中正文、20组问答、六段购物范文；恢复10处横线，保留原有两处占位符，整理所有格和引号附近空格。; 问答10引号混用且缺末点、11缺问号、13和20无末点，原稿相同待可靠版本；范文the best way I think of可能漏can、末段two things与前文购物数量疑义；中译定货沿原写法，未按猜测改词。"
+    },
+    {
+      "path": "public/shuimu/lessons/upper/053.json",
+      "title": "In the public interest",
+      "notes": "逐篇通读三组英中正文、22组问答、六段警察工作范文；恢复10处横线并移除误收的下一课8块，页边界由章标题证实；J.O.缩写及wrote内部误空格整理。; 中译J.O.后的ℽ原图显示同样异常符号，待可靠版本；规划Tile、问答7和9无末点；练习3(d缺括号，4最后选项重复(a)，12 concerned与reprimanded词义及答案12b疑义，原图如此均不猜改。"
+    },
+    {
+      "path": "public/shuimu/lessons/upper/054.json",
+      "title": "Instinct or cleverness?",
+      "notes": "逐篇通读两组英中正文、22组问答和四段防治害虫范文；恢复错分到前课的八个导读/词表块及12处答题线。原有题干内的跨列续文已经正确，此次保持全部题序、选项和答案。; 正文that; like分号及范文pests单边引号原版存在，未猜改；问答15缺末点；练习1(b)no less likely to lose与正文意义相反、11(d缺括号原图如此待可靠版本；正文中译蚜虫遭到攻击与visited含义存疑，保留原文。"
+    },
+    {
+      "path": "public/shuimu/lessons/upper/055.json",
+      "title": "From the earth: Greetings",
+      "notes": "逐篇通读三组英中正文、18组问答、四段外星人范文；恢复10处占位线；NASA/N.A.S.A.、ET、年份及人名保持完整，整理中文破折号附近误空格。; 中译自已及航空和宇宙航空局、问答4和9无末点、8引号混用、17缺开括号原稿相同待可靠版本；练习2(d缺右括号、7空白位置与语法矛盾、答案1b与题干对行星和恒星的比较不符，均保留并待查。教材历史科学陈述未重写。"
+    },
+    {
+      "path": "public/shuimu/lessons/upper/056.json",
+      "title": "Our neighbour, the river",
+      "notes": "逐篇通读四组英中正文、21组问答和四段守护天使范文；12处横线按原图恢复；河水与洪水段落分别保留，跨页续文完整衔接。; 问答2和20无末点；续写题干dark and a gloomy与范文不同、规划Just大写和范文问句之后or小写原稿亦如此；练习4c与自然表达d存在疑义，保留原答案；圣经典故创世纪原写法保留，待更可靠文本。"
+    },
+    {
+      "path": "public/shuimu/lessons/upper/057.json",
+      "title": "Back in the old country",
+      "notes": "逐篇通读并对照讲义；恢复三组中英正文、21 组问答、六段写作范文及完整题组。恢复十处图形答题空格，保留题目 2/3 原问句和题号、选项、答案。; 讲义第 318 页问答 4 印为 ag，未找到可确证该句的另一原文，保留待查；练习 3(d) Was 的大写、题 4 答案 a 与时态、题 2 答案 d 与病因等疑点保留来源写法。"
+    },
+    {
+      "path": "public/shuimu/lessons/upper/058.json",
+      "title": "A spot of bother",
+      "notes": "全文对照原讲义；恢复两组正文中译、八个写作/对话语义段及十二题的题干选项分组；按图恢复十一处答题空格。原有已校订正文未回退为 PDF 错词。; 原讲义问答 13 Did...searched、问答 17 中英括号混用、范文引号不配对，保留待查；练习 6 原图横线在 the/porter 之间且选项 c 印成 (e)，答案 6a 与语法疑点保留来源；原范文 didn’t I realize 已由现有校订源去掉第二个 I，本次未回退。"
+    },
+    {
+      "path": "public/shuimu/lessons/upper/059.json",
+      "title": "Collecting",
+      "notes": "逐篇通读来源及 JSON；恢复三组中英正文、完整导读问句和四段范文，保留二十组问答。根据原页面恢复注释引号映射和十一处图形答题空格。; 讲义中文印为扩太、英文 opens it; 的分号、问答 4/7 答案无句点，保留原文待查；注释 5 将 that 从句称为 extent 同位语的语法解释疑点不作推断改写。"
+    },
+    {
+      "path": "public/shuimu/lessons/upper/060.json",
+      "title": "Too early and too late",
+      "notes": "逐篇对照讲义和锁定 LRC 原文；恢复三组中英正文、20 组问答、四段范文及十二题的完整题组。tittle 按原字幕校为 little，恢复十一处答题横线；保留第 1 题已有横线。; 讲义与锁定 LRC 都写 Just as that moment，缺乏另一确证原文保留待查；中译破环及问答 3/4 答案无句点、问答 13 缺连接标点等印刷疑点保留。rural 的词性已有 adj. 校订，本次未回退为 PDF 的 adv.。"
+    },
+    {
+      "path": "public/postgraduate/lessons/volume1/01.json",
+      "title": "Traits of the Key Players",
+      "notes": "逐篇通读十二组中英段落并逐段对照教材保留的 OCR 原文。将四个特质标题及对应中译从正文块拆为分题标题；原句、段落对应和 24/7/365、3M、$2.4、网址保持完整。补齐 3M 公司、第 24 亿等中英数字边界空格。; 上册原扫描图像不在当前目录及 OCR 元数据所指 F 盘路径，英文依据现存逐页 OCR 对照；中文译文只有已发布恢复快照，缺乏独立原中译来源，暂列待查源。competitor’s companies 单数所有格与原 OCR 一致，不凭语法推断修改。"
+    },
+    {
+      "path": "public/postgraduate/lessons/volume1/02.json",
+      "title": "Culinary Delights in China",
+      "notes": "逐篇通读十五段中英正文及引言；对照保留的教材 OCR，分离地方菜系、菜名故事、饮食好客三组中英标题，维持跨页第 13 段完整。补齐 150 年、公元前 339/278 等空格；年代范围和 100,000 等数字不拆开。; 原扫描图像未保留，中译只存已发布恢复快照；三处分题和英文结构可由 OCR 确认，中译尚无独立原文。现发布第 2 段 Ming Dynasty/have been 与 OCR Ming dynasties/there are 不同；可能是前期校订，缺少原图核实，保留发布文字待查，不反向覆盖。"
+    },
+    {
+      "path": "public/postgraduate/lessons/volume1/03.json",
+      "title": "Why Harry's Hot",
+      "notes": "全文通读并逐段核对英文 OCR：十组段落对应和跨页续文完整，无需另行拆合。补齐 35 种、3500 万、4.8 亿、12 岁、20 世纪 80 年代及作者 P. L. 前的空格；保留金额、小数、N.C.、a.m.、12:01 时间、11-year-old 连字符与姓名缩写原字。; 教材原扫描图不在当前目录，中译仅有恢复快照，独立中译来源待查；正文是当时书评，三部/七部书、发行量和价格等历史陈述按原文保留，不按今日数据改写。"
+    },
+    {
+      "path": "public/postgraduate/lessons/volume1/04.json",
+      "title": "LOVE AND LOVING RELATIONSHIPS",
+      "notes": "逐篇通读并对照锁定中英 TeX 源与独立教材 OCR。保留十二组语义段和引言，将原文标题设为标题块；恢复作者 Nijole。按教材原文校勘 basis、constantly、peer norms、state、love 及缺失/误识标点；整理 self-esteem 连字符后的多余空格、中文引号旁空格、21 世纪和 13 岁等混排。; 教材图像不在当前上册目录，OCR 正文可独立佐证校勘，但数字 1 脚注上标（family of origin1）尚需原图核验，保留不猜删。中译引文写约翰逊 1995，而英文及教材写 Johnson 1985；译文版本/引文年待核，记录疑点暂不改日期。"
+    },
+    {
+      "path": "public/postgraduate/lessons/volume1/05.json",
+      "title": "YOGA IN AMERICA",
+      "notes": "逐篇通读并对照锁定 TeX 与独立教材 OCR，保留引言、13 组中英段落、作者和教学顺序。逐项校正 ana/me、dyana、fully、be、of breath、for 等 OCR 错词与漏词/误标点；补齐年代、金额、人数、500 强等空格，整理 low-impact 和 don’t 的误空格，标题标明层级。; 上册原图缺失，中译引言健康穹、传人、3,000 年前与英文 3,000 B.C. 等疑点只有 TeX 中译，未找到独立中文源，不猜改。Ashtanga yoga8 疑为脚注编号，需要原图核验后决定表现方式；当前保留编号。正文承载教材当时的陈述，本次只按原文校勘。"
+    },
+    {
+      "path": "public/postgraduate/lessons/volume1/06.json",
+      "title": "Here Is New York",
+      "notes": "逐篇通读并对照全文 OCR，保持原八组长短段及引言，不把列举城市往事的长句强行切断。按源文 recalled-a 恢复误识问号为破折号，与本文已有英文破折号格式统一。补齐 E. B. 怀特、华氏 90 度、街区数量、18 英寸、650 英里及 50 万等空格，保持连字符、姓名和数字串完整。; 上册原图缺失，中译只有已发布恢复快照，尚无独立中文出处。英文 A cornice falls, that it hits... 与 OCR 一致，语法疑点保留待查，未根据语义重写。"
+    },
+    {
+      "path": "public/postgraduate/lessons/volume1/08.json",
+      "title": "THE HIDDEN DANGER OF SEAT BELTS",
+      "notes": "逐篇通读全文并对照中英 TeX 与独立教材 OCR；恢复作者 David、friend、context in which 及错标点，全部校勘逐项有原文证据。保留原语义八组中英对照，不将题目事实作现代化改写。补齐年份、100 倍、3 点、270 万等混排，保持 3:00 a.m.、百分数和 2.7 小数完整；risk-taking 去误空格，横线括注保留原字符、整理分隔间距。; 引言 a common sense 与教材 OCR 一致，语法疑点保留待查；当前证据是原教材逐页 OCR，原扫描图未保留，末句 visceral 横线等印刷标点保持来源，不猜替换。"
+    },
+    {
+      "path": "public/postgraduate/lessons/volume1/09.json",
+      "title": "The Housing Crisis Goes Suburban",
+      "notes": "通读导读及 14 段正文，对照原教材 OCR 全文；保持住房政策、供需、通勤及解决方式的语义段落和中英对应；整理年份、金额、比例与中文间空格，百分号与中文留空；保护 4.5/1.2、Own-80-Miles-From-Work、HOPE VI 与金额英文写法，不更新历史资料。复核全文，未猜改词。; 缺少独立中文译文原稿，中文仅有恢复前置正文，需补原译文复核。; over nourished 与教材原始 OCR 一致，缺少原页面不能确认是否原本为连写或连字符，保留待查。"
+    },
+    {
+      "path": "public/postgraduate/lessons/volume1/10.json",
+      "title": "The Role of the Academy in Times of Crisis",
+      "notes": "通读就职演说导读、大学社会责任、自由探索、知识传播和通识教育全文；对照教材跨页续文，保持第 2、5 段跨页完整，按原页缩进将 Wilson 引文及其中译拆为独立段落；整理 1933 年混排空格，保留 insure、non-cooperative、13th 和校训原文，不猜改原作者用词。; 独立中文译文原稿缺失，恢复正文只能确认前置内容，需补原译文复核。"
+    },
+    {
+      "path": "public/postgraduate/lessons/volume2/01.json",
+      "title": "The Hidden Side of Happiness",
+      "notes": "完整通读 19 组英中正文，并对照本地 TeX 与 Psychology Today 原刊；只校正明确字符、拼写和破折号差异，保留教材改编句与节选范围。清理中文句间和引号间多余空格，31 岁、24 小时、100 英里混排留空，合并被错误拆开的中文引文，保持中英段落对应。; 本地中文原稿有 作出?、忍?受、认同? 和多处人名问号、进发、缺字、孤立引号以及结尾 ..；未找到独立中文原译稿，保留待查。; 中文博客出处插入和英文教材改编差异需教材原页面进一步确认；未按原刊新增删减整段。"
+    },
+    {
+      "path": "public/postgraduate/lessons/volume2/02.json",
+      "title": "Commercialization and Changes in Sports",
+      "notes": "通读九组中英全文，保持商业化、观众期待、美学与英雄取向、组织控制权的语义段落；清理中文句间和顿号后不必要空格，保留缩写 US、连字符、引号、题材术语与英文原句。网页检索只找到课程提纲，没有对应原书页面，不据此猜改文字。; 本地来源同样含 it success、go beyond and、a single slam dunks、project'、heroic orientation In、an iey、heroic actions signs 等英语疑点；缺原教材/原书相应页面，待查源。; 中文 收人、儿秒钟、技木、宜传、搜长、例如、及缺逗号等疑点在原 TeX 也存在；保留待独立原译稿。; 英文原来源使用全角逗号，暂保留原写法，待核原页标点。"
+    },
+    {
+      "path": "public/postgraduate/lessons/volume2/03.json",
+      "title": "Oslo",
+      "notes": "通读欧洲旅行、影院座位、各国习俗、奥斯陆洗涤剂、想象电视对话和列车时刻表全文；对照本地 TeX，合并 you could / never be sure 的英语续句，保持电视对话逐轮和中英对应；清理中文内部断词、句间和括号引号多余空格，保留产品名与挪威语短句、路线名称、500 页和 400 多米数字；英语插入语连字符仅调整两侧空格，quarter-mile-long 只去误空格。; 英文 and.、upside一down、1 still、gonging、blights、simly、positively tropical Hammerfest、day-long way、Hanunerfest、caf e s、with;a、across一storied、Biilow 及引号和脚注数字，在原 TeX 也存在，未找到原书对应页面，待查源，不猜改。; 中文博客插入、缺引号、甩来、几周/一周不一致、荧幕句残缺、货得、樣及地名译法待独立原译稿或教材页复核。"
+    },
+    {
+      "path": "public/postgraduate/lessons/volume2/04.json",
+      "title": "Is Google Making Us Stupid?",
+      "notes": "通读十组中英全文，对照本地 TeX 与作者官网链接的 Atlantic 原刊；确认错认汉字一、丢失 l、错字 ntake、脚注数字混入、复数及引号/标点，逐项保存证据；恢复标题问号并同步摘要。保持教材节选范围和十组语义段落，清理中文句间、括号内多余空格，保护 i.e.、text-messaging、1882、1960s 与人名。; 中文原稿的 创门、进人、融人、设释、旁鹜、人名问号、丰富/efficiency 译法和孤立引号均缺独立原译文证据，保留待查。"
+    },
+    {
+      "path": "public/postgraduate/lessons/volume2/05.json",
+      "title": "An Alpine Divorce",
+      "notes": "全文通读阴谋与反转，原小说逐段核对；18 项字符、标点与段号污染修正各有证据，保留教材改编。将长段中译、“没有”回答、丈夫动作、“Good Lord”回应四处语言串块拆开，恢复逐段中英和逐轮对话对应，不新增语句。清理中文句间和引号多余空格，保留 Mr./Mrs.、o’clock、山峰词和人物发言顺序。; 中译仍有 干几人、双句号、人名问号、更人骨、笼革、千脆、??、拳头摄/撰、僧恨 等来源自身疑点，无独立原中译证据，保留待查。"
+    },
+    {
+      "path": "public/postgraduate/lessons/volume2/06.json",
+      "title": "Inaugural Address",
+      "notes": "全文通读，就称呼、各项承诺、对手国家、谈判、科学、自由及两组 ask not 和结语对照来源；分开称呼与正文，拆出三个错误串排块，恢复 28 组中英语义段落；纠正原称呼冒号/首字母，整理 175 年及 1,000 的空格，清理中文句间空格，保留缩写、引文、破折号及正文版本差异。; 中文 格守、愚教、卷人、慢长，以及 world citizens 段译文错序、重复和残句在原 TeX 也存在，独立原中文译文缺失，保留待查。"
+    },
+    {
+      "path": "public/postgraduate/lessons/volume2/07.json",
+      "title": "The Poetry of Architecture",
+      "notes": "完整通读两篇节选；恢复第一句丢失的论述，依据原书校勘词语及标点；拆出第二篇中英标题，保持原有中英段落对应，清理中文句间空格及 turn to 词间缺空格。; 独立中文译文未找到；权利/美得/脚蹂/饼子/纯碎/百无聊奈/温怒/拜托，以及 poorer quality 与 disharmony 对应译文反义、身体不会受到精神影响及中文六个句号等保留待查原译文。"
+    },
+    {
+      "path": "public/postgraduate/lessons/volume2/08.json",
+      "title": "Thinking Like a Mountain",
+      "notes": "全文通读、原书图页对照；保留10组中英段落，跨页续文不强行拆开；修复原文词语遗漏和错识，整理英文括号外空格、标点后的空格和中文句间空格。; 未找到独立中文原译文，撩牙、狼息、整夭、徽散以及“此文来自袁勇兵博客”插入语和译文疑义保留待查；不依据英文自行重译。"
+    },
+    {
+      "path": "public/postgraduate/lessons/volume2/09.json",
+      "title": "How Mass Media Affect Our Perception of Reality",
+      "notes": "全文通读16组中英内容并核对现有TeX；拆开第3组中文与第4组英文串段，保留题组序号和中英对应；整理中文内部及句间空格、U.S./e.g.缩写与英文括号内空格；保持专名、年代、连字符及原标点字符。; Robert Sylwester原发表地址 https://brainconnection.brainhq.com/2001/12/04/how-mass-media-affect-our-perception-of-reality-part-1/ 无法访问且DNS查询失败；不使用转载博客猜改原词。; 9“11、tolerate of、—-assuming、several thousands victims、英文段落末中文句号和中文“中，.”、进发及新闻相关译文疑义在现有TeX中也存在，待原发表和原中文译文确认；孤立4.暂保留。"
+    },
+    {
+      "path": "public/postgraduate/lessons/volume2/10.json",
+      "title": "Marketing Across Cultures",
+      "notes": "全文通读翻译失误、文化差异、包装、数字、广告及飞毯测试案例；逐段对照现有TeX，保留14组语义段落及对应译文；整理Nova和数字/年份的中文间空格、10,000千位分组内的空格、中文句间及引号边空格。; 按标题、段落及独特案例查原发表未找到匹配的一手来源；tablls/tendd/extrotic/aesthetica/superstation/estend/characters`/manufacture和句中缺词保留待查，不依据词典猜改。; 中文蛾蚌、间题、客客无几、设释、宜称、收人、三处中文句号后英文点，以及Nova/香港文字等表述疑义与现有TeX相同，需独立原译文或教材图页确认。"
+    },
+    {
+      "path": "public/postgraduate/lessons/reading-writing-translation/03b.json",
+      "title": "What Makes a Champion?",
+      "notes": "全文29段及7张教材图页逐段通读并重新对照；现有29段与编号、七项品质论述一致，英文空格/引语/英式拼写/复合词及破折号排版均正确，无需新增修改。已检索原演讲及主办机构网页，但主办机构仅事件介绍，没有完整原讲稿。; 第19段（块18）教材及JSON均为 healthy worker，疑为 health worker，需演讲原文或原字幕证据；保留。; 第17段（块16）既有源修订 second best 与教材 seconding best 不同；原演讲全文未找到，此差异保留待原文复核。"
+    },
+    {
+      "path": "public/postgraduate/lessons/reading-writing-translation/05a.json",
+      "title": "Scientists, Scholars, Knaves and Fools",
+      "notes": "12块全文与6张教材图页及作者原文转载逐段通读；修正破折号、Ph.D. 缩写空格，恢复漏词/句首大写，拆开第3/4及7/8段，恢复教材14个语义段。保留原始实验术语、数值与反讽表达。; 第10段既有校订 tax accountants 与教材及LSU转载均 tax accounts 不同；保留既有校订，需原期刊或 Consilience 原版影印证据复核。"
+    },
+    {
+      "path": "public/postgraduate/lessons/reading-writing-translation/05b.json",
+      "title": "English Next",
+      "notes": "逐段通读25块及六张教材图页；恢复小标题、独立引文与四条要点，整理缩写和断行连字符。历史统计沿用原文。; 第5段 gazetteer 单复数、第7段 both...and...all 与末页 Languages trends 标题均与教材一致但存在疑义；英国文化协会两处官方PDF下载超时，保留原文待核。"
+    },
+    {
+      "path": "public/postgraduate/lessons/reading-writing-translation/07a.json",
+      "title": "Entropy",
+      "notes": "全文17段与五张教材图页逐段通读；保留第8段 galaxies 跨页接词及第13段跨页续文；恢复第7段 ready 漏词和第17段插入语前破折号，整理第7/16/17段破折号。; 第6段既有校订 diffused 与教材正文及词表 defused 不同，原始作者版本未找到，保留既有校订待核。"
+    },
+    {
+      "path": "public/postgraduate/lessons/reading-writing-translation/08a.json",
+      "title": "Of Ambition; Of Fortune",
+      "notes": "全文14段与五张教材图页及 Gutenberg Bacon原文 Of Ambition/Of Fortune 对照；恢复首节标题并将第二节标题设为小标题。Milken 为原文古写法保留；拉丁文译成英文等教材改编及古式标点保留。; 第10段既有校订 stops 与教材 stonds 不同；原作也为 stonds，保留既有修订待核本教材勘误或校订依据。"
+    }
+  ],
+  "generationBaselinesSnapshot": "Initial generator comparison before these article reviews; reviewed paths are superseded by signed exact replay proofs.",
+  "reviewedChangesScope": "Counts from latest recorded review for each article; earlier corrections remain in the signed revision history.",
+  "validationSnapshotRegistered": 1000,
+  "buildAndBrowserSnapshotRegistered": 278,
+  "reviewNoteErrata": "review-note-errata.json",
+  "importClassificationRepair": "source-evidence/nce2-025-classification.json",
+  "evidenceAccessAddendum": "source-evidence/rw3-u03-a-creativity-access-addendum.json"
+}

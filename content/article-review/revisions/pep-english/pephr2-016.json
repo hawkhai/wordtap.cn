@@ -1,0 +1,79 @@
+{
+  "schemaVersion": 1,
+  "course": "pep-english",
+  "articleId": "pephr2-016",
+  "beforeDisplaySha256": "ad2ec5e9d0fff86a746dbab58c566683dfcafd0df1691f1972dfeae58c5e105c",
+  "afterDisplaySha256": "8a1a2bbb68dde2e2f011d9aba60b47d19601de45092234fd97b8b6dde37ece67",
+  "baselineDisplay": {
+    "title": "Ludwig van Beethoven",
+    "section": "Project",
+    "text": "Ludwig van Beethoven (1770–1827) was born in Germany. He started his musical training when he was five years old, and his teachers worked him so hard that he often cried. His first composition was published in 1782, and in 1792 he went to Vienna to study music with Haydn. Beethoven first became famous as a pianist. However, by 1800, his musical works were so popular that he was thought of by many as the most important composer of his generation. During this same period, he slowly became deaf. Even though he could not hear with his ears, he could still write music because he could hear music in his head. Most of his greatest musical works were completed after he became deaf. In the later part of his life, he had many health and money issues. He was also lonely because the woman he loved and wanted to marry had left him. His friends tried to help him through his dark times, but his life became marked by sadness. He died after a long illness in 1827.",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Ludwig van Beethoven (1770–1827) was born in Germany. He started his musical training when he was five years old, and his teachers worked him so hard that he often cried. His first composition was published in 1782, and in 1792 he went to Vienna to study music with Haydn. Beethoven first became famous as a pianist. However, by 1800, his musical works were so popular that he was thought of by many as the most important composer of his generation. During this same period, he slowly became deaf. Even though he could not hear with his ears, he could still write music because he could hear music in his head. Most of his greatest musical works were completed after he became deaf. In the later part of his life, he had many health and money issues. He was also lonely because the woman he loved and wanted to marry had left him. His friends tried to help him through his dark times, but his life became marked by sadness. He died after a long illness in 1827."
+      }
+    ]
+  },
+  "display": {
+    "title": "Ludwig van Beethoven",
+    "section": "Project",
+    "text": "Ludwig van Beethoven (1770–1827) was born in Germany. He started his musical training when he was five years old, and his teachers worked him so hard that he often cried. He started writing music when he was nineteen, and two years later he moved to Vienna to study music and perform. Beethoven first became famous as a pianist. However, by 1800, his musical works were so popular that he was thought of by many as the most important composer of his generation. During this same period, he slowly became deaf. Even though he could not hear with his ears, he could still write music because he could hear music in his head. Most of his greatest musical works were completed after he became deaf. In the later part of his life, he had many health and money issues. He was also lonely because the woman he loved and wanted to marry had left him. His friends tried to help him through his dark times, but his life became marked by sadness. He died after a long illness in 1827.",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Ludwig van Beethoven (1770–1827) was born in Germany. He started his musical training when he was five years old, and his teachers worked him so hard that he often cried. He started writing music when he was nineteen, and two years later he moved to Vienna to study music and perform. Beethoven first became famous as a pianist. However, by 1800, his musical works were so popular that he was thought of by many as the most important composer of his generation. During this same period, he slowly became deaf. Even though he could not hear with his ears, he could still write music because he could hear music in his head. Most of his greatest musical works were completed after he became deaf. In the later part of his life, he had many health and money issues. He was also lonely because the woman he loved and wanted to marry had left him. His friends tried to help him through his dark times, but his life became marked by sadness. He died after a long illness in 1827."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "path": "content/pep-english/raw/senior-required-2.pdf",
+      "locator": "PDF第66-66页，标题与完整正文逐行核对",
+      "checked": true,
+      "sha256": "33b74bf42b22b32fdbe3201e6f61cf8099be047ef0af8a1740f6013dee4a619d"
+    },
+    {
+      "path": "content/pep-english/raw/senior-required-2/senior-required-2_66.jpg",
+      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
+      "checked": true,
+      "sha256": "39fe161877a6ad68dcc16e348f98d9e2fbf7db3dc3a29025e96bb9c1605e9c39"
+    },
+    {
+      "path": "content/article-review/source-evidence/pephr2-016-beethoven.json",
+      "locator": "已打开并核对官方年表1782与1792两项，URL及中文证据记录于文件",
+      "checked": true,
+      "sha256": "7284e0afba5071a6fe636b991374b461dba02d85cb064b890780ff0c6bee109e"
+    },
+    {
+      "path": "content/article-review/cleanup-2026-10-06.json",
+      "sha256": "cea27c1c69e32939ff83196bd29cce9a128d8d0d6f248611217179e037971889",
+      "locator": "public/pep-english/lessons/pephr2/016.json",
+      "checked": true
+    }
+  ],
+  "corrections": [
+    {
+      "field": "text",
+      "before": "Ludwig van Beethoven (1770–1827) was born in Germany. He started his musical training when he was five years old, and his teachers worked him so hard that he often cried. His first composition was published in 1782, and in 1792 he went to Vienna to study music with Haydn. Beethoven first became famous as a pianist. However, by 1800, his musical works were so popular that he was thought of by many as the most important composer of his generation. During this same period, he slowly became deaf. Even though he could not hear with his ears, he could still write music because he could hear music in his head. Most of his greatest musical works were completed after he became deaf. In the later part of his life, he had many health and money issues. He was also lonely because the woman he loved and wanted to marry had left him. His friends tried to help him through his dark times, but his life became marked by sadness. He died after a long illness in 1827.",
+      "after": "Ludwig van Beethoven (1770–1827) was born in Germany. He started his musical training when he was five years old, and his teachers worked him so hard that he often cried. He started writing music when he was nineteen, and two years later he moved to Vienna to study music and perform. Beethoven first became famous as a pianist. However, by 1800, his musical works were so popular that he was thought of by many as the most important composer of his generation. During this same period, he slowly became deaf. Even though he could not hear with his ears, he could still write music because he could hear music in his head. Most of his greatest musical works were completed after he became deaf. In the later part of his life, he had many health and money issues. He was also lonely because the woman he loved and wanted to marry had left him. His friends tried to help him through his dark times, but his life became marked by sadness. He died after a long illness in 1827.",
+      "evidence": "User-directed source-fidelity restoration; content/article-review/cleanup-2026-10-06.json"
+    }
+  ],
+  "fullReadConfirmed": false,
+  "recheckConfirmed": false,
+  "reviewMode": "source-fidelity-rules-v1",
+  "reviewer": "Codex (user-directed restoration)",
+  "reviewedAt": "2026-10-05T17:15:10+00:00",
+  "notes": "Rule-based restoration; original full-read review remains historical. content/article-review/cleanup-2026-10-06.json",
+  "issues": [],
+  "status": "passed_edited",
+  "previousRevisionSha256": "c1319c14f7479850d638e70c511ef84d8e63d9a7c4b28456b13f63013453d2c2",
+  "ruleRestoration": {
+    "policy": "source-fidelity-rules-v1",
+    "report": "content/article-review/cleanup-2026-10-06.json",
+    "reportSha256": "cea27c1c69e32939ff83196bd29cce9a128d8d0d6f248611217179e037971889"
+  }
+}

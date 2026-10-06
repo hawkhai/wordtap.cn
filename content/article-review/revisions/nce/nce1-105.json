@@ -1,0 +1,245 @@
+{
+  "schemaVersion": 1,
+  "course": "nce",
+  "articleId": "nce1-105",
+  "beforeDisplaySha256": "cf24d485cf196f490b6faf6695a349d77172d80396bc92563737dac2ad5845bb",
+  "afterDisplaySha256": "35bfc8a6dd22e165425fa62a672a6940d603772c66c865988ac56771f6fc708e",
+  "baselineDisplay": {
+    "title": "Full of Mistakes",
+    "titleZh": "满是错误",
+    "question": "What was Sandra's present?",
+    "questionZh": "桑德拉收到了什么礼物？",
+    "text": "What was Sandra's present?\n\nWhere's Sandra, Bob?\nI want her.\nDo you want to speak to her?\nYes, I do.\nI want her to come to my office.\nTell her to come at once.\nDid you want to see me?\nAh, yes, Sandra.\nHow do you spell 'intelligent'?\nCan you tell me?\nI-N-T-E-L-L-I-G-E-N-T.\nThat's right.\nYou've typed it with only one 'L'.\nThis letter's full of mistakes.\nI want you to type it again.\nYes, I'll do that.\nI'm sorry about that.\nAnd here's a little present for you.\nWhat is it?\nIt's a dictionary.\nI hope it'll help you.",
+    "bodyText": "Where's Sandra, Bob?\nI want her.\nDo you want to speak to her?\nYes, I do.\nI want her to come to my office.\nTell her to come at once.\nDid you want to see me?\nAh, yes, Sandra.\nHow do you spell 'intelligent'?\nCan you tell me?\nI-N-T-E-L-L-I-G-E-N-T.\nThat's right.\nYou've typed it with only one 'L'.\nThis letter's full of mistakes.\nI want you to type it again.\nYes, I'll do that.\nI'm sorry about that.\nAnd here's a little present for you.\nWhat is it?\nIt's a dictionary.\nI hope it'll help you.",
+    "bodyTextZh": "鲍勃，桑德拉在哪里？\n我找她。\n你想和她说话吗？\n是的，我想。\n我希望她能来我的办公室。\n告诉她立刻过来。\n你是想见我吗？\n啊，是的，桑德拉。\n“intelligent”怎么拼写？\n你能告诉我吗？\nI-N-T-E-L-L-I-G-E-N-T。\n没错。\n你只打了一个'L'。\n这封信里满是错误。\n我要你重新打一遍。\n好的，我会的。\n真抱歉。\n这里有一个小礼物给你。\n是什么礼物呢？\n是一本字典。\n希望这能对你有所帮助。",
+    "sentences": [
+      {
+        "en": "Lesson 105",
+        "zh": "第105课"
+      },
+      {
+        "en": "Full of mistakes",
+        "zh": "满是错误"
+      },
+      {
+        "en": "Listen to the tape then answer this question.",
+        "zh": "请听录音，然后回答这个问题："
+      },
+      {
+        "en": "What was Sandra's present?",
+        "zh": "桑德拉收到了什么礼物？"
+      },
+      {
+        "en": "Where's Sandra, Bob?",
+        "zh": "鲍勃，桑德拉在哪里？"
+      },
+      {
+        "en": "I want her.",
+        "zh": "我找她。"
+      },
+      {
+        "en": "Do you want to speak to her?",
+        "zh": "你想和她说话吗？"
+      },
+      {
+        "en": "Yes, I do.",
+        "zh": "是的，我想。"
+      },
+      {
+        "en": "I want her to come to my office.",
+        "zh": "我希望她能来我的办公室。"
+      },
+      {
+        "en": "Tell her to come at once.",
+        "zh": "告诉她立刻过来。"
+      },
+      {
+        "en": "Did you want to see me?",
+        "zh": "你是想见我吗？"
+      },
+      {
+        "en": "Ah, yes, Sandra.",
+        "zh": "啊，是的，桑德拉。"
+      },
+      {
+        "en": "How do you spell 'intelligent'?",
+        "zh": "“intelligent”怎么拼写？"
+      },
+      {
+        "en": "Can you tell me?",
+        "zh": "你能告诉我吗？"
+      },
+      {
+        "en": "I-N-T-E-L-L-I-G-E-N-T.",
+        "zh": "I-N-T-E-L-L-I-G-E-N-T。"
+      },
+      {
+        "en": "That's right.",
+        "zh": "没错。"
+      },
+      {
+        "en": "You've typed it with only one 'L'.",
+        "zh": "你只打了一个'L'。"
+      },
+      {
+        "en": "This letter's full of mistakes.",
+        "zh": "这封信里满是错误。"
+      },
+      {
+        "en": "I want you to type it again.",
+        "zh": "我要你重新打一遍。"
+      },
+      {
+        "en": "Yes, I'll do that.",
+        "zh": "好的，我会的。"
+      },
+      {
+        "en": "I'm sorry about that.",
+        "zh": "真抱歉。"
+      },
+      {
+        "en": "And here's a little present for you.",
+        "zh": "这里有一个小礼物给你。"
+      },
+      {
+        "en": "What is it?",
+        "zh": "是什么礼物呢？"
+      },
+      {
+        "en": "It's a dictionary.",
+        "zh": "是一本字典。"
+      },
+      {
+        "en": "I hope it'll help you.",
+        "zh": "希望这能对你有所帮助。"
+      }
+    ]
+  },
+  "display": {
+    "title": "Full of Mistakes",
+    "titleZh": "满是错误",
+    "question": "What was Sandra's present?",
+    "questionZh": "桑德拉收到了什么礼物？",
+    "text": "What was Sandra's present?\n\nWhere's Sandra, Bob?\nI want her.\nDo you want to speak to her?\nYes, I do.\nI want her to come to my office.\nTell her to come at once.\nDid you want to see me?\nAh, yes, Sandra.\nHow do you spell 'intelligent'?\nCan you tell me?\nI-N-T-E-L-L-I-G-E-N-T.\nThat's right.\nYou've typed it with only one 'L'.\nThis letter's full of mistakes.\nI want you to type it again.\nYes, I'll do that.\nI'm sorry about that.\nAnd here's a little present for you.\nWhat is it?\nIt's a dictionary.\nI hope it'll help you.",
+    "bodyText": "Where's Sandra, Bob?\nI want her.\nDo you want to speak to her?\nYes, I do.\nI want her to come to my office.\nTell her to come at once.\nDid you want to see me?\nAh, yes, Sandra.\nHow do you spell 'intelligent'?\nCan you tell me?\nI-N-T-E-L-L-I-G-E-N-T.\nThat's right.\nYou've typed it with only one 'L'.\nThis letter's full of mistakes.\nI want you to type it again.\nYes, I'll do that.\nI'm sorry about that.\nAnd here's a little present for you.\nWhat is it?\nIt's a dictionary.\nI hope it'll help you.",
+    "bodyTextZh": "鲍勃，桑德拉在哪里？\n我找她。\n你想和她说话吗？\n是的，我想。\n我希望她能来我的办公室。\n告诉她立刻过来。\n你是想见我吗？\n啊，是的，桑德拉。\n“intelligent”怎么拼写？\n你能告诉我吗？\nI-N-T-E-L-L-I-G-E-N-T。\n没错。\n你只打了一个'L'。\n这封信里满是错误。\n我要你重新打一遍。\n好的，我会的。\n真抱歉。\n这里有一个小礼物给你。\n是什么礼物呢？\n是一本字典。\n希望这能对你有所帮助。",
+    "sentences": [
+      {
+        "en": "Lesson 105",
+        "zh": "第 105 课"
+      },
+      {
+        "en": "Full of mistakes",
+        "zh": "满是错误"
+      },
+      {
+        "en": "Listen to the tape then answer this question.",
+        "zh": "请听录音，然后回答这个问题："
+      },
+      {
+        "en": "What was Sandra's present?",
+        "zh": "桑德拉收到了什么礼物？"
+      },
+      {
+        "en": "Where's Sandra, Bob?",
+        "zh": "鲍勃，桑德拉在哪里？"
+      },
+      {
+        "en": "I want her.",
+        "zh": "我找她。"
+      },
+      {
+        "en": "Do you want to speak to her?",
+        "zh": "你想和她说话吗？"
+      },
+      {
+        "en": "Yes, I do.",
+        "zh": "是的，我想。"
+      },
+      {
+        "en": "I want her to come to my office.",
+        "zh": "我希望她能来我的办公室。"
+      },
+      {
+        "en": "Tell her to come at once.",
+        "zh": "告诉她立刻过来。"
+      },
+      {
+        "en": "Did you want to see me?",
+        "zh": "你是想见我吗？"
+      },
+      {
+        "en": "Ah, yes, Sandra.",
+        "zh": "啊，是的，桑德拉。"
+      },
+      {
+        "en": "How do you spell 'intelligent'?",
+        "zh": "“intelligent”怎么拼写？"
+      },
+      {
+        "en": "Can you tell me?",
+        "zh": "你能告诉我吗？"
+      },
+      {
+        "en": "I-N-T-E-L-L-I-G-E-N-T.",
+        "zh": "I-N-T-E-L-L-I-G-E-N-T。"
+      },
+      {
+        "en": "That's right.",
+        "zh": "没错。"
+      },
+      {
+        "en": "You've typed it with only one 'L'.",
+        "zh": "你只打了一个'L'。"
+      },
+      {
+        "en": "This letter's full of mistakes.",
+        "zh": "这封信里满是错误。"
+      },
+      {
+        "en": "I want you to type it again.",
+        "zh": "我要你重新打一遍。"
+      },
+      {
+        "en": "Yes, I'll do that.",
+        "zh": "好的，我会的。"
+      },
+      {
+        "en": "I'm sorry about that.",
+        "zh": "真抱歉。"
+      },
+      {
+        "en": "And here's a little present for you.",
+        "zh": "这里有一个小礼物给你。"
+      },
+      {
+        "en": "What is it?",
+        "zh": "是什么礼物呢？"
+      },
+      {
+        "en": "It's a dictionary.",
+        "zh": "是一本字典。"
+      },
+      {
+        "en": "I hope it'll help you.",
+        "zh": "希望这能对你有所帮助。"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "path": "content/NCE-Flow/NCE1/105&106－Full of Mistakes.lrc",
+      "locator": "完整LRC元数据、标题、提问及全部中英文逐句字幕和时间戳",
+      "checked": true,
+      "sha256": "52c5733f5603b482c9d7366de028a70986b638ab33b25e4394ad76280f774c34"
+    }
+  ],
+  "corrections": [],
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "reviewer": "Codex",
+  "reviewedAt": "2026-10-02T02:45:19+00:00",
+  "notes": "逐句通读办公室重打信件对话。逐字核对I-N-T-E-L-L-I-G-E-N-T双L拼写、仅一个L的错误说明和字典礼物；保留字母间连字符及引号，只规范课号边界。",
+  "issues": [],
+  "status": "passed_edited"
+}

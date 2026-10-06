@@ -75,12 +75,12 @@
     ]
   },
   "manualReview": {
+    "reviewer": "Codex (user-directed restoration)",
+    "reviewedAt": "2026-10-05T17:15:10+00:00",
+    "correctionCount": 1,
+    "evidence": "content/article-review/cleanup-2026-10-06.json",
+    "eventSha256": "f7463dde36f8647fb39a8f39b4b37e5f3c7c6ce8862d7865545991ce1e48ecf0",
     "status": "passed",
-    "reviewer": "Codex",
-    "reviewedAt": "2026-07-30T17:56:45Z",
-    "correctionCount": 4,
-    "evidence": "Codex已第二遍从头到尾视觉通读原图174-175与最终9段文本；双栏顺序、引文、风尚/噱头释义和Translation边界均确认。",
-    "textSha256": "f37aa99332b776281d66eeba0f39f05b4f9086e6dc8d1b038ec084ae1d986fce",
-    "eventSha256": "f53705a0d61b4c4249664e8e49dc89d8ffdf9afc756e562afa521887b8da33bd"
+    "textSha256": "f37aa99332b776281d66eeba0f39f05b4f9086e6dc8d1b038ec084ae1d986fce"
   }
 }

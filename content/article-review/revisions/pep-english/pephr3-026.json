@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "course": "pep-english",
+  "articleId": "pephr3-026",
+  "beforeDisplaySha256": "c78bbcaed7daa77dcc873382e68ef9928e88971c5a5ad86abaeece3d1eaf812a",
+  "afterDisplaySha256": "c78bbcaed7daa77dcc873382e68ef9928e88971c5a5ad86abaeece3d1eaf812a",
+  "baselineDisplay": {
+    "title": "What Is the Big Bang Theory?",
+    "section": "Expanding Your World",
+    "text": "The Big Bang Theory is an idea about how our universe began. Many scientists believe that everything in the universe used to be tightly pressed together. Then this mass of high energy separated into smaller pieces very quickly about 14 billion years ago to create the universe. At the moment of creation, the universe was extremely hot and everything was very close together. Then it began to spread out and cool. Today, the universe is still getting bigger. The Big Bang is considered to be the beginning of everything: time, space, and all the matter in the universe.",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "The Big Bang Theory is an idea about how our universe began. Many scientists believe that everything in the universe used to be tightly pressed together. Then this mass of high energy separated into smaller pieces very quickly about 14 billion years ago to create the universe. At the moment of creation, the universe was extremely hot and everything was very close together. Then it began to spread out and cool. Today, the universe is still getting bigger. The Big Bang is considered to be the beginning of everything: time, space, and all the matter in the universe."
+      }
+    ]
+  },
+  "display": {
+    "title": "What Is the Big Bang Theory?",
+    "section": "Expanding Your World",
+    "text": "The Big Bang Theory is an idea about how our universe began. Many scientists believe that everything in the universe used to be tightly pressed together. Then this mass of high energy separated into smaller pieces very quickly about 14 billion years ago to create the universe. At the moment of creation, the universe was extremely hot and everything was very close together. Then it began to spread out and cool. Today, the universe is still getting bigger. The Big Bang is considered to be the beginning of everything: time, space, and all the matter in the universe.",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "The Big Bang Theory is an idea about how our universe began. Many scientists believe that everything in the universe used to be tightly pressed together. Then this mass of high energy separated into smaller pieces very quickly about 14 billion years ago to create the universe. At the moment of creation, the universe was extremely hot and everything was very close together. Then it began to spread out and cool. Today, the universe is still getting bigger. The Big Bang is considered to be the beginning of everything: time, space, and all the matter in the universe."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "path": "content/pep-english/raw/senior-required-3.pdf",
+      "locator": "PDF第91-91页，标题与完整正文逐行核对",
+      "checked": true,
+      "sha256": "fe9c8e15e62f4aec56efc60b8de43f4a55d40f3114d6505affaef78a8b7a1af2"
+    },
+    {
+      "path": "content/pep-english/raw/senior-required-3/senior-required-3_91.jpg",
+      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
+      "checked": true,
+      "sha256": "ea8b4d790f5a67b6775f5beb4be2532ed2be3239ea0d3384ed1ee09a462b09a2"
+    }
+  ],
+  "corrections": [],
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "reviewer": "Codex",
+  "reviewedAt": "2026-10-02T06:02:12+00:00",
+  "notes": "核对PDF第91页首个独立知识框，标题、约140亿年前、初期高温密集及持续膨胀叙述完整；保留原教材概述层次和单段，未混入同页其他三个知识框。",
+  "issues": [],
+  "status": "passed_unchanged"
+}

@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "course": "pep-english",
+  "articleId": "pephs4-019",
+  "beforeDisplaySha256": "2402b89453a0e95e7591c8ce2245f3e8e352560b8e8ef9ff52fbdc202ac10111",
+  "afterDisplaySha256": "53f15ea28e6b1a6eba7676991c911ff210c8ab17d569ef559639891089311f4c",
+  "baselineDisplay": {
+    "title": "Kelly Xu’s CV",
+    "section": "Using Language",
+    "text": "Kelly Xu 16 Xinhua Road Hangzhou Mobile: 1XX 6616 5555 Email: kellyxu888@exmail.cn\nRELEVANT EXPERIENCE 2019–Present Plan and teach after-school classical calligraphy classes\n• Design classroom activities, provide feedback 2018–2019 Worked during holidays at local pet shop\n• Cleaned cages, checked and changed flea collars, helped customers 2017 Visited UK on high school exchange programme\n• Experienced British culture, demonstrated Chinese culture 2016 Volunteered at local library\n• Assisted librarians in organising children’s library section Helped organise city tour for visiting students from Canada\n• Helped manage tour finances and receipts\nEDUCATION 09.2018–Present Hangzhou XXX Senior High School 09.2015–07.2018 Hangzhou XXX Junior High School\nSKILLS & QUALIFICATIONS PETS 3 English qualification Certificate in Chinese Calligraphy\nINTERESTS & ACTIVITIES Chinese calligraphy Classical literature Table tennis Amateur photography Detective novels Programming",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Kelly Xu 16 Xinhua Road Hangzhou Mobile: 1XX 6616 5555 Email: kellyxu888@exmail.cn"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "RELEVANT EXPERIENCE 2019–Present Plan and teach after-school classical calligraphy classes\n• Design classroom activities, provide feedback 2018–2019 Worked during holidays at local pet shop\n• Cleaned cages, checked and changed flea collars, helped customers 2017 Visited UK on high school exchange programme\n• Experienced British culture, demonstrated Chinese culture 2016 Volunteered at local library\n• Assisted librarians in organising children’s library section Helped organise city tour for visiting students from Canada\n• Helped manage tour finances and receipts"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "EDUCATION 09.2018–Present Hangzhou XXX Senior High School 09.2015–07.2018 Hangzhou XXX Junior High School"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "SKILLS & QUALIFICATIONS PETS 3 English qualification Certificate in Chinese Calligraphy"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "INTERESTS & ACTIVITIES Chinese calligraphy Classical literature Table tennis Amateur photography Detective novels Programming"
+      }
+    ]
+  },
+  "display": {
+    "title": "Kelly Xu’s CV",
+    "section": "Using Language",
+    "text": "Kelly Xu\n16 Xinhua Road\nHangzhou\nMobile: 1XX 6616 5555\nEmail: kellyxu888@exmail.cn\nRELEVANT EXPERIENCE\n2019–Present Plan and teach after-school classical calligraphy classes\n• Design classroom activities, provide feedback\n2018–2019 Worked during holidays at local pet shop\n• Cleaned cages, checked and changed flea collars, helped customers\n2017 Visited UK on high school exchange programme\n• Experienced British culture, demonstrated Chinese culture\n2016 Volunteered at local library\n• Assisted librarians in organising children’s library section\nHelped organise city tour for visiting students from Canada\n• Helped manage tour finances and receipts\nEDUCATION\n09.2018–Present Hangzhou XXX Senior High School\n09.2015–07.2018 Hangzhou XXX Junior High School\nSKILLS & QUALIFICATIONS\nPETS 3 English qualification\nCertificate in Chinese Calligraphy\nINTERESTS & ACTIVITIES\nChinese calligraphy\nClassical literature\nTable tennis\nAmateur photography\nDetective novels\nProgramming",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Kelly Xu\n16 Xinhua Road\nHangzhou\nMobile: 1XX 6616 5555\nEmail: kellyxu888@exmail.cn"
+      },
+      {
+        "type": "subheading",
+        "lang": "en",
+        "text": "RELEVANT EXPERIENCE"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "2019–Present Plan and teach after-school classical calligraphy classes\n• Design classroom activities, provide feedback\n2018–2019 Worked during holidays at local pet shop\n• Cleaned cages, checked and changed flea collars, helped customers\n2017 Visited UK on high school exchange programme\n• Experienced British culture, demonstrated Chinese culture\n2016 Volunteered at local library\n• Assisted librarians in organising children’s library section\nHelped organise city tour for visiting students from Canada\n• Helped manage tour finances and receipts"
+      },
+      {
+        "type": "subheading",
+        "lang": "en",
+        "text": "EDUCATION"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "09.2018–Present Hangzhou XXX Senior High School\n09.2015–07.2018 Hangzhou XXX Junior High School"
+      },
+      {
+        "type": "subheading",
+        "lang": "en",
+        "text": "SKILLS & QUALIFICATIONS"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "PETS 3 English qualification\nCertificate in Chinese Calligraphy"
+      },
+      {
+        "type": "subheading",
+        "lang": "en",
+        "text": "INTERESTS & ACTIVITIES"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Chinese calligraphy\nClassical literature\nTable tennis\nAmateur photography\nDetective novels\nProgramming"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "path": "content/pep-english/raw/senior-selective-4.pdf",
+      "locator": "PDF第64-64页，标题与完整正文逐行核对",
+      "checked": true,
+      "sha256": "2ad7555a13eb420aa70497f9faa2541fdb502b7ffc4e063e87c60cce88f1b4a3"
+    },
+    {
+      "path": "content/pep-english/raw/senior-selective-4/senior-selective-4_64.jpg",
+      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
+      "checked": true,
+      "sha256": "dfb19eaf2f786039db5cee4d15d009106c2ff260278b061aabe493eb48117ef9"
+    }
+  ],
+  "corrections": [],
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "reviewer": "Codex",
+  "reviewedAt": "2026-10-02T07:47:49+00:00",
+  "notes": "完整核对第64页简历，恢复四个栏目标题及个人资料、经历年份、学历、资格与兴趣项目的分行。2016年两项经历共用年份，未擅自补日期；保留原有匿名电话、学校和全部文字。",
+  "issues": [],
+  "status": "passed_edited"
+}

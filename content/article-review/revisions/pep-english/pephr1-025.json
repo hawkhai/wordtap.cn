@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "course": "pep-english",
+  "articleId": "pephr1-025",
+  "beforeDisplaySha256": "b856b3ae2bc4f53ab498571791c6b9c7d3181a67ec59546d6f2440fc9039f43e",
+  "afterDisplaySha256": "fd4c43fb123c6f196bec2024aea181836c4b407bb9617bebe66c80698464883f",
+  "baselineDisplay": {
+    "title": "A Fourteen-Year-Old Who Wants to Study Abroad",
+    "section": "Writing",
+    "text": "Dear Talking Teens,\nMy daughter wants to study abroad but I think she is too young. She is only 14. Besides, it would cost a lot of money to send her to a school in another country. I think she should finish senior high school first, and then maybe study abroad when she's in university. What do you think?\nBest wishes, Mum in Yunnan",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Dear Talking Teens,"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "My daughter wants to study abroad but I think she is too young. She is only 14. Besides, it would cost a lot of money to send her to a school in another country. I think she should finish senior high school first, and then maybe study abroad when she's in university. What do you think?"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Best wishes, Mum in Yunnan"
+      }
+    ]
+  },
+  "display": {
+    "title": "A Fourteen-Year-Old Who Wants to Study Abroad",
+    "section": "Writing",
+    "text": "Dear Talking Teens,\nMy daughter wants to study abroad but I think she is too young. She is only 14. Besides, it would cost a lot of money to send her to a school in another country. I think she should finish senior high school first, and then maybe study abroad when she's in university. What do you think?\nBest wishes,\nMum in Yunnan",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Dear Talking Teens,"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "My daughter wants to study abroad but I think she is too young. She is only 14. Besides, it would cost a lot of money to send her to a school in another country. I think she should finish senior high school first, and then maybe study abroad when she's in university. What do you think?"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Best wishes,\nMum in Yunnan"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "path": "content/pep-english/raw/senior-required-1.pdf",
+      "locator": "PDF第82-82页，标题与完整正文逐行核对",
+      "checked": true,
+      "sha256": "ffe985a370964820aa003008f48c7cf17b5e0dff8eb29fe54cd4743b0c4e8c79"
+    },
+    {
+      "path": "content/pep-english/raw/senior-required-1/senior-required-1_82.jpg",
+      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
+      "checked": true,
+      "sha256": "53ea068d51c036d10dad6544a1557476644eafbf835265ae7fef8a903246f1f4"
+    }
+  ],
+  "corrections": [],
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "reviewer": "Codex",
+  "reviewedAt": "2026-10-02T05:31:44+00:00",
+  "notes": "PDF第82页Mum in Yunnan来信全文核对，14岁留学及费用、先完成高中等原文一致；恢复Best wishes与署名换行。",
+  "issues": [],
+  "status": "passed_edited"
+}

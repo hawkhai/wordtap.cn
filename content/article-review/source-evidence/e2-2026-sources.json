@@ -1,0 +1,176 @@
+{
+  "article": "e2-2026",
+  "rawRead": {
+    "blocks": 12,
+    "pdfPhysicalPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "allPageImagesRead": true,
+    "pdfSha256": "6cc19f340e759df4fc56a816db8296a9212d8e26e84e2b055dc5ea36f8b34b04"
+  },
+  "parallelPdf": {
+    "path": "tmp/article-review/e2-2026/parallel.pdf",
+    "sha256": "83dac3f9b46efb8b0bdfb6f91c22c32bfa08ca81db6da17cef6253294cd58aa3",
+    "pagesRead": [
+      22
+    ]
+  },
+  "externalPdfs": [
+    {
+      "path": "tmp/article-review/e2-2026/nature.pdf",
+      "sha256": "0b83435f81ef8a250ebbc9f973f4bed658e2fe0f79fe40c635c915677992651d",
+      "pagesRead": [
+        3
+      ]
+    },
+    {
+      "path": "tmp/article-review/e2-2026/fs2023.pdf",
+      "sha256": "08d1c79b03e3083e3e6d801b5697c0f81a35f1b891396679239015897f210145",
+      "pagesRead": [
+        116
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "path": "https://www.sciencefocus.com/the-human-body/how-to-stop-taking-things-personally",
+      "read": "Christian Jarrett，网页当前2026-04-10，L29–50对应全文已读；2024印刊已有目录，不将网页日期误当首次发表。",
+      "checked": true
+    },
+    {
+      "path": "https://pocketmags.com/au/focus-science-and-technology-magazine/january-2024/articles/1396851/dear-doctor",
+      "read": "2024年1月DEAR DOCTOR目录元数据线索，只读元数据，不称印刊全文已读。",
+      "checked": true
+    },
+    {
+      "path": "https://english-exam.lazynote.cn/kaoyan/articles/2026-english-two/section2-part-a/",
+      "read": "L127来源线索Elizabeth Sanderson、Times2024-01-18，原刊未取得全文；不用练习站当独立事实证明。",
+      "checked": true
+    },
+    {
+      "path": "https://www.gov.uk/government/publications/an-independent-review-of-english-public-libraries-report-and-government-reponse/an-independent-review-of-english-public-libraries",
+      "read": "政府报告L150–249相关部分完整读取，L224固定馆舍2892为England2022年底，McDonalds全UK，比较范围不同。报告2024年1月发布，不保留yesterday。Arts Council外链403，不称该数据集全文已读。",
+      "checked": true
+    },
+    {
+      "path": "https://www.gov.uk/government/publications/guidance-on-libraries-as-a-statutory-service/libraries-as-a-statutory-service",
+      "read": "更新2025-02-21，L88–126已读；L103–108法定义务及当地居民/工作/学习者借书免费。并非所有服务免费。",
+      "checked": true
+    },
+    {
+      "path": "https://www.hillingdon.gov.uk/media/11300/Library-fees-and-charges-2023-2024/pdf/WEB_-_Library_fees_and_charges_2023-2024.pdf?m=1678891141490",
+      "read": "3页PDF全部文本L0–70已读，2023-04-01收费表；借阅等费用暂停但打印复印仍列收费，原图未读，不称逐页图核。",
+      "checked": true
+    },
+    {
+      "path": "https://www.newbusiness.co.uk/articles/it-advice/ai-needs-come-with-a-health-warning",
+      "read": "Luke Budka、Definition、2024-03-12，L47–55及66对应全文已读；free消费者版本限定被试卷删去，百分比为agency调查未提供样本信息，不独立推广。",
+      "checked": true
+    },
+    {
+      "path": "https://www.microsoft.com/en-us/microsoft-copilot/for-individuals/termsofuse/archives",
+      "read": "L9–48及49–72归档Bing conversational条款全文已读；企业排除L11/L51，许可L27–30、隐私L15；网页归档具体生效日期不明，不声称恰为2024-03版本。许可并非无限公开任意用户数据。",
+      "checked": true
+    },
+    {
+      "path": "https://learn.microsoft.com/en-us/microsoft-365/copilot/enterprise-data-protection",
+      "read": "当前2026-08-18页面L34–72已读，企业保护及其适用界限；只用于说明产品与合同差别，不能倒推2024历史条款。",
+      "checked": true
+    },
+    {
+      "path": "https://www.ft.com/content/a299b185-c8aa-4527-b2b6-2265696bbae0",
+      "read": "直接打开只有标题和订阅页，没有读到全文；不编称原刊逐句对照，正文沿用本地用户试卷并以运营方资料核核心统计。",
+      "checked": true
+    },
+    {
+      "path": "https://www.piifx.com/news/wednesday-august-7th-2024",
+      "read": "检索返回2024-08-07标题及链接列表线索，只有日期和对应FT标题元数据，不作为技术依据。",
+      "checked": true
+    },
+    {
+      "path": "https://www.linkedin.com/posts/lucaberton_train-delays-disrupt-italian-business-and-activity-7227782286237192192-P8bV",
+      "read": "检索返回引用FT全文帖已读，作者Silvia Sciorilli Borrelli线索，不称原刊全文已读；不把转述当独立工程证据。",
+      "checked": true
+    },
+    {
+      "path": "https://www.fsitaliane.it/en/media/press-releases/2018/12/13/milan-bologna-line--ten-years-of-high-speed.html",
+      "read": "L412–427正文全部已读；2008-12-13米兰—博洛尼亚段，完整南北网络2009-12-05历史说明，改原卷笼统2008罗马—米兰启动。500km缺测量口径，删除该数字，未编造替代里程。",
+      "checked": true
+    },
+    {
+      "path": "https://www.fsitaliane.it/content/dam/fsitaliane/en/Documents/sustainability-report-2024/sustainability-report-2023-fsgroup.pdf",
+      "read": "下载252页完整文件，查阅对应物理116页/印页114全文及图表原图。2023准点10分钟阈值内75.5%，2022为77%，全列车无排除；故2023超阈值24.5%。其余全报告未全文读，不以搜索75%概览替代75.5精确表。",
+      "checked": true
+    },
+    {
+      "path": "tmp/article-review/e2-2026/fs2023-116.jpg",
+      "read": "原图整页核实2023/2022列标题、75.5/77及脚注，无例外、更新2024年1月；不是主观满意度94.4%。",
+      "checked": true
+    },
+    {
+      "path": "https://www.chicagotribune.com/2025/04/18/opinion-chicago-street-festivals-struggles/",
+      "read": "requests返回200，正文完整读取，包括Pamela Maass作者简介。2025-04-18 05:00CDT；为Wicker Park Bucktown商会负责人评论，未把个人观察当独立统计调查。",
+      "checked": true
+    },
+    {
+      "path": "https://www.axios.com/local/chicago/2025/04/18/chicago-street-festivals-facing-cuts-over-donations",
+      "read": "L65–79正文已读；仅用于找到原文链接，不另抄新闻段落。",
+      "checked": true
+    },
+    {
+      "path": "https://blog.business.uic.edu/news-stories/the-story-of-alumnus-eric-williams-bs-finance-93-the-businessman-behind-chicagos-iconic-silver-room-and-bronzeville-winery/",
+      "read": "Marilyn Koonce2024-11-15直接采访，检索返回Silver Room结束原因小节从提问至最后答复完整已读。成本增加、捐款不足、2022开始售票仍亏损，2023也亏损，修原卷只说捐款下降的简化；未称全文其他访谈均读。",
+      "checked": true
+    },
+    {
+      "path": "https://www.nature.com/articles/d41586-018-06031-x",
+      "read": "Rachel Cernansky2018-08-29网页题录与导言读取；全文对应内容另取出版社PDF。",
+      "checked": true
+    },
+    {
+      "path": "https://media.nature.com/original/magazine-assets/d41586-018-06031-x/d41586-018-06031-x.pdf",
+      "read": "出版社3页PDF已保存；物理3页印544两栏全文读取，核实Bioversity International及PartB完整对应段。印刊2018-08-30，Nature560:542–544。",
+      "checked": true
+    },
+    {
+      "path": "https://psychologyorg.com/psychology-of-clothing-dress-body-and-self/",
+      "read": "waqar署名，页面2024-02-25/04-20元数据，L32–114已读，对应L58–65四段完整读取；属科普博客，不虚称论文；self-perception修复。",
+      "checked": true
+    },
+    {
+      "path": "https://static.kaoyan.cn/file/question/2025/12/27/73ddc93ef0849e1c5809476a040e9eec.pdf",
+      "read": "中国教育在线保存万学海文29页平行卷，只物理22页全图已读，题47尾至48及完整图表；未读全参考答案，不照抄范文数字。",
+      "checked": true
+    },
+    {
+      "path": "tmp/article-review/e2-2026/parallel-22.jpg",
+      "read": "完整原图已读：满足好奇心54.6、促进观察力54.5、强身健体37.2、增强亲子互动33.2%，合计179.5%。未列样本/年份/身份/多选，不补造。",
+      "checked": true
+    }
+  ],
+  "findings": [
+    "完形6段20空、Text1–4段7/4/7/6、PartB7段、翻译4段恢复，41–45人物与A–G陈述分开。",
+    "图书馆日期/地区/收费范围厘清，不把不同范围数字直接对比。",
+    "Copilot原文免费限定恢复，许可并非无限公开用户数据，企业另有规则；调查保留作者归属。",
+    "FS年报2023准点75.5%，晚于10分钟24.5%；2008部分线路与2009完整网络区分。",
+    "Chicago2025评论语境及Silver Room2022开始售票仍亏损，attendants校attendees。",
+    "Bioversity机构名称及self-perception修复；末题图表补入。"
+  ],
+  "finalReview": {
+    "fullTextRead": true,
+    "blocks": 128,
+    "coverage": "最终128块0–63、64–127全部逐字完整读取。"
+  },
+  "unresolved": []
+}

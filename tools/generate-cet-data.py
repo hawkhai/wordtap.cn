@@ -17,6 +17,8 @@ from dataclasses import dataclass
 from datetime import datetime, timezone
 from pathlib import Path
 
+from article_review import apply_revision, sync_summary, checked_output_root
+
 try:
     from pypdf import PdfReader
 except ImportError as exc:  # pragma: no cover - environment guidance
@@ -175,7 +177,9 @@ def blocks_for(text: str) -> list[dict[str, str]]:
     return blocks
 
 
-def generate(source: Path) -> None:
+def generate(source: Path, output: Path = OUTPUT, audit_output: Path | None = None) -> None:
+    output = checked_output_root(output, "cet")
+    audit_output = audit_output or (AUDIT_OUTPUT if output == OUTPUT.resolve() else output / "source-audit.json")
     if not source.is_dir():
         raise SystemExit(f"CET source directory does not exist: {source}")
 
@@ -194,9 +198,9 @@ def generate(source: Path) -> None:
     if not selected:
         raise SystemExit("No CET question papers with a usable embedded text layer were found")
 
-    shutil.rmtree(OUTPUT, ignore_errors=True)
-    (OUTPUT / "lessons" / "cet4").mkdir(parents=True)
-    (OUTPUT / "lessons" / "cet6").mkdir(parents=True)
+    shutil.rmtree(output, ignore_errors=True)
+    (output / "lessons" / "cet4").mkdir(parents=True)
+    (output / "lessons" / "cet6").mkdir(parents=True)
     generated_at = datetime.now(timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z")
 
     groups = []
@@ -234,7 +238,11 @@ def generate(source: Path) -> None:
                     "extraction": "pypdf embedded text layer",
                 },
             }
-            output_path = ROOT / "public" / json_path
+            output_path = output / Path(json_path).relative_to("cet")
+            detail["text"] = "\n".join(block["text"] for block in detail["blocks"])
+            detail["characterCount"] = len(detail["text"])
+            detail = apply_revision(detail, "cet")
+            sync_summary(summary, detail)
             output_path.write_text(json.dumps(detail, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
             lessons.append(summary)
         year_range = str(items[0].year) if items[0].year == items[-1].year else f"{items[0].year}-{items[-1].year}"
@@ -256,9 +264,9 @@ def generate(source: Path) -> None:
         "totalLessons": len(selected),
         "groups": groups,
     }
-    (OUTPUT / "manifest.json").write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    (output / "manifest.json").write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
-    AUDIT_OUTPUT.parent.mkdir(parents=True, exist_ok=True)
+    audit_output.parent.mkdir(parents=True, exist_ok=True)
     extension_counts: dict[str, int] = {}
     all_files = [path for path in source.rglob("*") if path.is_file()]
     for path in all_files:
@@ -277,15 +285,16 @@ def generate(source: Path) -> None:
         "publishedSources": [item.relative_path for item in selected],
         "pdfReadErrors": errors,
     }
-    AUDIT_OUTPUT.write_text(json.dumps(audit, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    audit_output.write_text(json.dumps(audit, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(f"Generated {len(selected)} CET lessons from {len(pdf_files)} PDFs.")
 
 
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--source", type=Path, default=DEFAULT_SOURCE)
+    parser.add_argument("--output", type=Path, default=OUTPUT)
     args = parser.parse_args()
-    generate(args.source.resolve())
+    generate(args.source.resolve(), args.output)
 
 
 if __name__ == "__main__":

@@ -1,0 +1,14 @@
+{
+  "article":"shuimu/intermediate-001",
+  "fullRead":"现有69块全文和修订后全文全部读取；此前PDF物理2–7页与DOCX对应单元全文校对保留，来源文件不修改。",
+  "sources":[
+    {"url":"https://www.sonypictures.com/movies/thepursuitofhappyness","read":"检索返回ABOUT完整正文已读。正式片名Happyness、2006、Chris Gardner、Will Smith、Jaden Smith、电影中儿子5岁均明确。"},
+    {"url":"https://www.sonypictures.com/corp/press_releases/2011/04_11/040411_smith.html","read":"2011-04-04官方公告标题及首段完整读取，明确Jaden与Will父子关系。未读完其他电影简介。"},
+    {"url":"https://www.oscars.org/oscars/ceremonies/embed/2007","read":"检索返回Actor in a Leading Role完整获奖/提名名单已读；Will Smith本片提名，获奖者Forest Whitaker，不把提名误写获奖。"},
+    {"url":"https://goldenglobes.com/film/the-pursuit-of-happyness/","read":"检索返回完整电影简介、2项提名及0获奖名单已读；Will Smith为2007剧情类电影男演员提名。"}
+  ],
+  "editorialCorrections":["我买的的座位→我的座位，依本地I had a very good seat对应译文去重复、不添购买情节。","th early→the early，among working homeless→among the working homeless，补明确的语法遗漏。","时钟坚持→始终坚持，中文同音误字，非声称已获另一版讲义。","good views→good reviews，依本地中文好评修词及upon its release对应一般过去时。"],
+  "fullReadConfirmed":true,
+  "finalReadConfirmed":true,
+  "unresolved":[]
+}

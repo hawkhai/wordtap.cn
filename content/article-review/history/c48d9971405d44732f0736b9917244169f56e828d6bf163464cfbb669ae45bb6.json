@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 1,
+  "course": "pep-english",
+  "articleId": "pephs4-016",
+  "beforeDisplaySha256": "18b3ea8936e27a9d352b5353d9609633996570bd3e03ce1213d9505317d4efd0",
+  "afterDisplaySha256": "849859c187793de3158b24c1c3919022d5e0469b4229b7436f6600daa89ed916",
+  "baselineDisplay": {
+    "title": "Build up your vocabulary",
+    "section": "Reading",
+    "text": "Probably everyone dr eams of having a great career, but first let's what this means. When thinking about what makes a career great, many ideas may in your head, such as the desire for money, power, or fame. Different people might have different opinions about this, but wouldn't it be kind of greedy to focus on money and fame on something more meaningful? Please close your eyes and think of someone professional and successful. It could be a famous entrepreneur, a great leader, a scientist or an artist, or a teacher who you. My choice would be Marie Curie, who discovered. For me, she is great not just because she was world-famous, but because she made great contributions to mankind. Being a female scientist was much less common in her time, but in spite of this she devoted her life to her career. So I that if you want a great career, you need to yourself to something meaningful. I believe all great careers have this.",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Probably everyone dr eams of having a great career, but first let's what this means. When thinking about what makes a career great, many ideas may in your head, such as the desire for money, power, or fame. Different people might have different opinions about this, but wouldn't it be kind of greedy to focus on money and fame on something more meaningful? Please close your eyes and think of someone professional and successful. It could be a famous entrepreneur, a great leader, a scientist or an artist, or a teacher who you. My choice would be Marie Curie, who discovered. For me, she is great not just because she was world-famous, but because she made great contributions to mankind. Being a female scientist was much less common in her time, but in spite of this she devoted her life to her career. So I that if you want a great career, you need to yourself to something meaningful. I believe all great careers have this."
+      }
+    ]
+  },
+  "display": {
+    "title": "Build up your vocabulary",
+    "section": "Reading",
+    "text": "Probably everyone dreams of having a great career, but first let's define what this means. When thinking about what makes a career great, many ideas may bounce around in your head, such as the desire for money, power, or fame. Different people might have different opinions about this, but wouldn't it be kind of greedy to focus on money and fame rather than on something more meaningful? Please close your eyes and think of someone professional and successful. It could be a famous entrepreneur, a great leader, a scientist or an artist, or a teacher who had a great influence on you. My choice would be Marie Curie, who discovered radium. For me, she is great not just because she was world-famous, but because she made great contributions to mankind. Being a female scientist was much less common in her time, but in spite of this she devoted her life to her career. So I come to a conclusion that if you want a great career, you need to commit yourself to something meaningful. I believe all great careers have this in common.",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Probably everyone dreams of having a great career, but first let's define what this means. When thinking about what makes a career great, many ideas may bounce around in your head, such as the desire for money, power, or fame. Different people might have different opinions about this, but wouldn't it be kind of greedy to focus on money and fame rather than on something more meaningful? Please close your eyes and think of someone professional and successful. It could be a famous entrepreneur, a great leader, a scientist or an artist, or a teacher who had a great influence on you. My choice would be Marie Curie, who discovered radium. For me, she is great not just because she was world-famous, but because she made great contributions to mankind. Being a female scientist was much less common in her time, but in spite of this she devoted her life to her career. So I come to a conclusion that if you want a great career, you need to commit yourself to something meaningful. I believe all great careers have this in common."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "path": "content/pep-english/raw/senior-selective-4.pdf",
+      "locator": "PDF第59-59页，标题与完整正文逐行核对",
+      "checked": true,
+      "sha256": "2ad7555a13eb420aa70497f9faa2541fdb502b7ffc4e063e87c60cce88f1b4a3"
+    },
+    {
+      "path": "content/pep-english/raw/senior-selective-4/senior-selective-4_59.jpg",
+      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
+      "checked": true,
+      "sha256": "cb36d0712327ab421a975244d1e11db06b67984a1175914ab04c64f725bda1ac"
+    }
+  ],
+  "corrections": [
+    {
+      "field": "text",
+      "before": "but first let's what this means.",
+      "after": "but first let's define what this means.",
+      "evidence": "content/pep-english/raw/senior-selective-4/senior-selective-4_59.jpg：题3词框和对应空格，原页逐项定位"
+    },
+    {
+      "field": "text",
+      "before": "many ideas may in your head",
+      "after": "many ideas may bounce around in your head",
+      "evidence": "content/pep-english/raw/senior-selective-4/senior-selective-4_59.jpg：题3词框和对应空格，原页逐项定位"
+    },
+    {
+      "field": "text",
+      "before": "focus on money and fame on something more meaningful",
+      "after": "focus on money and fame rather than on something more meaningful",
+      "evidence": "content/pep-english/raw/senior-selective-4/senior-selective-4_59.jpg：题3词框和对应空格，原页逐项定位"
+    },
+    {
+      "field": "text",
+      "before": "a teacher who you.",
+      "after": "a teacher who had a great influence on you.",
+      "evidence": "content/pep-english/raw/senior-selective-4/senior-selective-4_59.jpg：题3词框和对应空格，原页逐项定位"
+    },
+    {
+      "field": "text",
+      "before": "Marie Curie, who discovered.",
+      "after": "Marie Curie, who discovered radium.",
+      "evidence": "content/pep-english/raw/senior-selective-4/senior-selective-4_59.jpg：题3词框和对应空格，原页逐项定位"
+    },
+    {
+      "field": "text",
+      "before": "So I that if you want a great career",
+      "after": "So I come to a conclusion that if you want a great career",
+      "evidence": "content/pep-english/raw/senior-selective-4/senior-selective-4_59.jpg：题3词框和对应空格，原页逐项定位"
+    },
+    {
+      "field": "text",
+      "before": "you need to yourself to something meaningful",
+      "after": "you need to commit yourself to something meaningful",
+      "evidence": "content/pep-english/raw/senior-selective-4/senior-selective-4_59.jpg：题3词框和对应空格，原页逐项定位"
+    },
+    {
+      "field": "text",
+      "before": "all great careers have this.",
+      "after": "all great careers have this in common.",
+      "evidence": "content/pep-english/raw/senior-selective-4/senior-selective-4_59.jpg：题3词框和对应空格，原页逐项定位"
+    }
+  ],
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "reviewer": "Codex",
+  "reviewedAt": "2026-10-02T07:40:49+00:00",
+  "notes": "通读PDF59页学生演讲选段并对照题3词框，发布文本丢失全部八个填空内容；逐空以原页指定词组补全define/bounce around/rather than/had a great influence on/radium/come to a conclusion/commit/in common，修复dr eams词内空格，复读全文语法与语义。",
+  "issues": [],
+  "status": "passed_edited"
+}

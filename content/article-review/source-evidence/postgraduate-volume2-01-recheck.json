@@ -1,0 +1,37 @@
+{
+  "article": "postgraduate/volume2-01",
+  "fullRead": "36块18组英中逐句全读；TeX首节从首段到末段完整核对；原刊全文17–75行读取（工具分段续读），不补入教材省略人物及研究争议大段。",
+  "sources": [
+    {
+      "url": "https://www.psychologytoday.com/us/articles/200603/the-hidden-side-of-happiness",
+      "read": "2006-03-01 Kat McGowan。人物、案例、引文、reorganize及nurture other life等核对；原刊本身也有过度概括，明确编辑而非声称OCR。博客来源串不属于正文句义，归档原始TeX后删除正文插入语。"
+    },
+    {
+      "url": "https://www.ptsd.va.gov/understand/what/ptsd_basics.asp",
+      "read": "386–389行：创伤强度、时间、后续压力和支持等因素，很多不受个人控制，反证以意愿单独划分成长/毁灭。"
+    },
+    {
+      "url": "https://me.health.gov.il/en/mental-health/information-and-updates/pathology/ptsd/growth/",
+      "read": "2026-08-31官方科普341–356行：成长非人人必有，非成功恢复衡量标准，可与痛苦症状并存；Tedeschi和Calhoun共同概念史。"
+    },
+    {
+      "url": "https://news.va.gov/91053/stronger-side-post-traumatic-growth/",
+      "read": "VA心理师官方访谈：不是所有治疗者经历成长。"
+    }
+  ],
+  "editorialCorrections": [
+    "中文恢复稿存在问号占位、人名、进发、缺一字、孤立或缺失引号、结尾..及博客串，按英语含义独立编辑审定，不冒称找到官方中文原稿。",
+    "导读标2006且说明编辑限定；删除存活必定更强的证明式说法、无分母少数/多数泛化以及意愿决定恢复的二分；创伤成长不等于消除痛苦。",
+    "Tedeschi概念史补共同研究者Calhoun；耐力运动症状改为报告过而非正常，育儿幸福和收益改可能/一些父母而非普遍保证。",
+    "案例保留药物治疗帮助身体恢复，不将心理改变当替代治疗；自杀念头准确保留她当时感受而非客观必然结局。"
+  ],
+  "translationReview": [
+    "better非更完美，seems语气不遗漏；bliss为极乐无忧非运气；darkmatter保留隐喻中文意译，破折号成对。",
+    "empathy共情、nostalgia怀旧、regret遗憾；LauraKing/TracyCyr/RichTedeschi/GregoryBerns人名中点及音译一致。",
+    "案例31岁/2岁/6月和联合用药对应；认同身份破字修复、关爱其他生命不缩为他人。",
+    "combat战斗非街头搏斗；majority删除无清晰分母广泛比例，症状不可误为类似障碍；invulnerability非一般安全感。",
+    "第13组孤立引号移除，第15组末引号补齐；reorganize安排非认识。",
+    "100英里/24小时保留，未限定每次训练，reported不译正常；育儿段限定收益不普遍强迫；末段清除..和不当保证。"
+  ],
+  "unresolved": []
+}

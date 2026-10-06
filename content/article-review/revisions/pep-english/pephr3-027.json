@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "course": "pep-english",
+  "articleId": "pephr3-027",
+  "beforeDisplaySha256": "cae9d0da8f47569944f1644c7bb58b11b08a3d66acceba1823d3cea3bbc7223d",
+  "afterDisplaySha256": "cae9d0da8f47569944f1644c7bb58b11b08a3d66acceba1823d3cea3bbc7223d",
+  "baselineDisplay": {
+    "title": "What Is the Hubble Space Telescope?",
+    "section": "Expanding Your World",
+    "text": "The Hubble Space Telescope is a very powerful telescope and was put into low orbit around Earth in 1990. Its four main instruments use a 2.4-metre mirror to look deep into space. The telescope does not have to deal with the effects of background light like telescopes on Earth, so it has been able to take very detailed pictures of space. A big achievement of the telescope has been to help scientists correctly measure how quickly the universe is expanding.",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "The Hubble Space Telescope is a very powerful telescope and was put into low orbit around Earth in 1990. Its four main instruments use a 2.4-metre mirror to look deep into space. The telescope does not have to deal with the effects of background light like telescopes on Earth, so it has been able to take very detailed pictures of space. A big achievement of the telescope has been to help scientists correctly measure how quickly the universe is expanding."
+      }
+    ]
+  },
+  "display": {
+    "title": "What Is the Hubble Space Telescope?",
+    "section": "Expanding Your World",
+    "text": "The Hubble Space Telescope is a very powerful telescope and was put into low orbit around Earth in 1990. Its four main instruments use a 2.4-metre mirror to look deep into space. The telescope does not have to deal with the effects of background light like telescopes on Earth, so it has been able to take very detailed pictures of space. A big achievement of the telescope has been to help scientists correctly measure how quickly the universe is expanding.",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "The Hubble Space Telescope is a very powerful telescope and was put into low orbit around Earth in 1990. Its four main instruments use a 2.4-metre mirror to look deep into space. The telescope does not have to deal with the effects of background light like telescopes on Earth, so it has been able to take very detailed pictures of space. A big achievement of the telescope has been to help scientists correctly measure how quickly the universe is expanding."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "path": "content/pep-english/raw/senior-required-3.pdf",
+      "locator": "PDF第91-91页，标题与完整正文逐行核对",
+      "checked": true,
+      "sha256": "fe9c8e15e62f4aec56efc60b8de43f4a55d40f3114d6505affaef78a8b7a1af2"
+    },
+    {
+      "path": "content/pep-english/raw/senior-required-3/senior-required-3_91.jpg",
+      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
+      "checked": true,
+      "sha256": "ea8b4d790f5a67b6775f5beb4be2532ed2be3239ea0d3384ed1ee09a462b09a2"
+    }
+  ],
+  "corrections": [],
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "reviewer": "Codex",
+  "reviewedAt": "2026-10-02T06:02:41+00:00",
+  "notes": "核对PDF第91页哈勃望远镜独立知识框，1990年入轨、2.4米镜面、四种主要仪器与宇宙膨胀测量五句完整，保留原教材概述。",
+  "issues": [],
+  "status": "passed_unchanged"
+}

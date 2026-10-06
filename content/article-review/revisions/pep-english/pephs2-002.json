@@ -1,0 +1,79 @@
+{
+  "schemaVersion": 1,
+  "course": "pep-english",
+  "articleId": "pephs2-002",
+  "beforeDisplaySha256": "e6df7da241eeabbc14f1db53a26415edf19ffe4930b5f1afdd1bf825d956c8fb",
+  "afterDisplaySha256": "cb6ace485591cf8734e1c1bd3562a226df17bfb2197373e1fff7307081a18cd5",
+  "baselineDisplay": {
+    "title": "A Non-Newtonian Fluid",
+    "section": "Listening and Speaking",
+    "text": "Today, I want to talk to you about a very strange phenomenon called a non-Newtonian fluid. You can make it easily using about one part water to two parts cornflour by volume, like I have here. This mixture is strange because you can pour it like a liquid, but if you hit or squeeze it quickly, it becomes much harder to move. In fact, a large pool of it can briefly support someone running across its surface. Then, when you stop applying force, it flows easily again. This shows that a suspension can behave like a liquid or like a solid depending on how force is applied.",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Today, I want to talk to you about a very strange phenomenon called a non-Newtonian fluid. You can make it easily using about one part water to two parts cornflour by volume, like I have here. This mixture is strange because you can pour it like a liquid, but if you hit or squeeze it quickly, it becomes much harder to move. In fact, a large pool of it can briefly support someone running across its surface. Then, when you stop applying force, it flows easily again. This shows that a suspension can behave like a liquid or like a solid depending on how force is applied."
+      }
+    ]
+  },
+  "display": {
+    "title": "A Non-Newtonian Fluid",
+    "section": "Listening and Speaking",
+    "text": "Today, I want to talk to you about a very strange phenomenon called a non-Newtonian fluid. You can make it easily using equal parts of water and cornflour, like I have here. A non-Newtonian fluid is strange because you can pour it like a liquid, but if you put any pressure on it, it suddenly becomes hard as concrete. In fact, it becomes hard enough to stand on. Then, as soon as you take the pressure off, it becomes a liquid again. This shows that it is possible that something can exist as a liquid and a solid at the same time.",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Today, I want to talk to you about a very strange phenomenon called a non-Newtonian fluid. You can make it easily using equal parts of water and cornflour, like I have here. A non-Newtonian fluid is strange because you can pour it like a liquid, but if you put any pressure on it, it suddenly becomes hard as concrete. In fact, it becomes hard enough to stand on. Then, as soon as you take the pressure off, it becomes a liquid again. This shows that it is possible that something can exist as a liquid and a solid at the same time."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "path": "content/pep-english/raw/senior-selective-2.pdf",
+      "locator": "PDF第14-14页，标题与完整正文逐行核对",
+      "checked": true,
+      "sha256": "cafaee5fe508dfced31ba02877251ffeb01e98b1a48767fe30b2b7187edb0050"
+    },
+    {
+      "path": "content/pep-english/raw/senior-selective-2/senior-selective-2_14.jpg",
+      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
+      "checked": true,
+      "sha256": "6b6ffbbc8e35903ab806aa18d12134babd85d29eb2707216bf3159c8acac1bc2"
+    },
+    {
+      "path": "content/article-review/source-evidence/pephs2-002-oobleck.json",
+      "locator": "已阅读Waterloo刊载Duke演示配方及Cornell研究说明",
+      "checked": true,
+      "sha256": "33db6a3427a387cb8fe1a4dd8d26c217bd484a4f2b804318648789d0ac59619c"
+    },
+    {
+      "path": "content/article-review/cleanup-2026-10-06.json",
+      "sha256": "cea27c1c69e32939ff83196bd29cce9a128d8d0d6f248611217179e037971889",
+      "locator": "public/pep-english/lessons/pephs2/002.json",
+      "checked": true
+    }
+  ],
+  "corrections": [
+    {
+      "field": "text",
+      "before": "Today, I want to talk to you about a very strange phenomenon called a non-Newtonian fluid. You can make it easily using about one part water to two parts cornflour by volume, like I have here. This mixture is strange because you can pour it like a liquid, but if you hit or squeeze it quickly, it becomes much harder to move. In fact, a large pool of it can briefly support someone running across its surface. Then, when you stop applying force, it flows easily again. This shows that a suspension can behave like a liquid or like a solid depending on how force is applied.",
+      "after": "Today, I want to talk to you about a very strange phenomenon called a non-Newtonian fluid. You can make it easily using equal parts of water and cornflour, like I have here. A non-Newtonian fluid is strange because you can pour it like a liquid, but if you put any pressure on it, it suddenly becomes hard as concrete. In fact, it becomes hard enough to stand on. Then, as soon as you take the pressure off, it becomes a liquid again. This shows that it is possible that something can exist as a liquid and a solid at the same time.",
+      "evidence": "User-directed source-fidelity restoration; content/article-review/cleanup-2026-10-06.json"
+    }
+  ],
+  "fullReadConfirmed": false,
+  "recheckConfirmed": false,
+  "reviewMode": "source-fidelity-rules-v1",
+  "reviewer": "Codex (user-directed restoration)",
+  "reviewedAt": "2026-10-05T17:15:10+00:00",
+  "notes": "Rule-based restoration; original full-read review remains historical. content/article-review/cleanup-2026-10-06.json",
+  "issues": [],
+  "status": "passed_edited",
+  "previousRevisionSha256": "3cbceb81c740b3ef7e2f69285da01333a1b2512bc51e89f1a24fb2e425de7c14",
+  "ruleRestoration": {
+    "policy": "source-fidelity-rules-v1",
+    "report": "content/article-review/cleanup-2026-10-06.json",
+    "reportSha256": "cea27c1c69e32939ff83196bd29cce9a128d8d0d6f248611217179e037971889"
+  }
+}

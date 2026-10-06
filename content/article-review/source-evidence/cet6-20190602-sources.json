@@ -1,0 +1,35 @@
+{
+  "article":"cet6-20190602",
+  "checkedAt":"2026-10-03",
+  "sourcePdfPagesRead":10,
+  "sources":[
+    {"url":"https://bbcinsight.pages.dev/news/resources/idt-sh/disruptors_up_up_and_away","scope":"BBC原报道再现的相关全文读取，Gray姓名/机构与飞行汽车设想核对；BBC原址直接访问受限，镜像不作独立技术验证。"},
+    {"url":"https://www.airbus.com/en/newsroom/press-releases/2017-03-italdesign-and-airbus-unveil-popup","scope":"Airbus2017-03-07 Pop.Up原发布全文检索读取，模块化概念、VTOL与AI规划；不能把需跑道/折翼普遍施加于垂直起降构想。"},
+    {"url":"https://www.airbus.com/en/newsroom/news/2017-03-popup-seamless-urban-mobility","scope":"原公司技术说明正文读取，当时电推进/避障等尚不成熟；创新目标和未来效益不是已投入普遍运营的事实。"},
+    {"url":"https://hbr.org/2016/06/companies-are-working-with-consumers-to-reduce-waste","scope":"原刊日期2016-06-07、三作者及开头读取；完整正文由作者公开副本核对。"},
+    {"url":"https://www.researchgate.net/publication/303836687_Companies_are_working_with_consumers_to_reduce_waste","scope":"作者公开原稿七页正文检索全文读取，Nudie/Patagonia/Adidas/DeWalt/BestBuy案例及建议；评论推断和公司宣称不当作独立实证，原稿与原刊是同一来源。"},
+    {"url":"https://blogs.worldbank.org/en/voices/following-up-on-our-rio-20-live-chat","scope":"世行2012-06-07发布相关段读取，1.3billion吨城市生活垃圾与2025年2.2billion预测，不能写全世界全部固废当前统计。"},
+    {"url":"https://www.bsr.org/files/work/Sustainable-Lifestyles-Frontier-Group-Value_Gap.pdf","scope":"BSR/Futerra2013原报告方法和结果第2—5页读取，54品牌，企业对五年后消费兴趣的期望而非消费者已全部改变；98%预测和2%当前均为企业估计，不以此伪造民调。"},
+    {"url":"https://a.storyblok.com/f/329889/x/c95b398483/nudie-jeans-sustainability-report-2016.pdf","scope":"公司2016原报告第6—8页维修、修理包、旧衣去向读取；并非每条退回牛仔裤均重卖，部分作为补丁/再生材料。约20门店按2016六月原报道写，不把年末25概念店倒填。"},
+    {"url":"https://www.patagonia.com/stories/culture/worn-wear/repair-is-a-radical-act/story-17637.html","scope":"Rose Marcario2015-11-25本人文章全文读取；该年预计40000多次维修，iFixit指南合作，身份是当时CEO；不写成每年固定产量或现任职务。"},
+    {"url":"https://truevaluemetrics.org/DBpdfs/Companies/Adidas/Adidas-2014-sustainability-report-make-a-difference.pdf","scope":"Adidas2014原可持续报告第33页公司发布内容检索读取；2012巴西回收、指定店、任意品牌运动鞋、新鞋折扣及水泥窑能源利用；燃烧回收能源不同于不焚烧或鞋材闭环再生。"},
+    {"url":"https://i.unu.edu/media/ias.unu.edu-en/news/7916/Global-E-waste-Monitor-2014-small.pdf","scope":"UNU原报告2014总量/材料价值/毒害及附录相关段读取；41.8Mt，€48billion含塑料，不能只称五种金属$52billion或实际回收净利润。"},
+    {"url":"https://www.fastenal.com/content/documents/2013/03/Dewalt%202.pdf","scope":"原合作商2013年2—4月DeWalt促销表两页条件读取，买指定套装且交回合格工具才有100美元邮寄返款；不等于即时、不限旧物，也不能仅由表单推出全部材料进入新产品。据此采用可核实的Fastenal合作实例替换含糊的发动机/配件商描述。"},
+    {"url":"https://corporate.bestbuy.com/2016/2016-recycling-changes/","scope":"BestBuy2016-02-01原通报全文读取，TV/显示器25美元、IL/PA不接收及其他许多产品免费，费用原因；不支持所有竞争对手无回收计划，删去该笼统因果断言。"},
+    {"url":"https://www.sagaftra.org/sag-aftra-members-declare-video-game-strike","scope":"工会2016-10-21原公告全文读取，11雇主并非均游戏发行商，2015-02-17以后开工项目范围，罢工准确生效日期。"},
+    {"url":"https://www.wunc.org/2016-10-22/voice-actors-strike-against-video-game-companies","scope":"NPR Iman Smith2016-10-22原报道转载正文314—335行全文读取，采访Freeman/Farley/Witlin、19月谈判、当时825美元、每2m销量或独立订户奖励至8m；Witlin工作比例是资方论点。"},
+    {"url":"https://www.theesa.com/wp-content/uploads/2024/02/2016-EF-FINAL.pdf","scope":"ESA2016原报告第13页图表检索读取，2015美国消费者支出235亿美元含内容165亿/硬件49亿/配件21亿，不能把收入写利润或单一游戏内容收益。"},
+    {"url":"https://trumpwhitehouse.archives.gov/presidential-actions/space-policy-directive-3-national-space-traffic-management-policy/","scope":"2018-06-18政策全文相关第1—7节读取，商务部数据共享与避碰支持、国防部保有权威目录、NASA牵头碎片实践更新、国际共识、长远主动清除；不是商务部统管所有发射与频率，不是NASA目录追踪所有对象。"},
+    {"url":"https://ntrs.nasa.gov/api/citations/20120015539/downloads/20120015539.pdf","scope":"NASA2012原技术讲义第29/52页2001政府碎片实践原文检索读取，正常释放、意外爆炸、飞行配置和使命后处置四目标；>5mm、>25年需评估论证，2006政策要求政府部门遵守，不等于全球每个发射者直接受同一法条约束。"},
+    {"url":"https://ntrs.nasa.gov/archive/nasa/casi.ntrs.nasa.gov/20100008433.pdf","scope":"NASA原技术报告摘要读取，2009-02-10 Iridium33在用通讯卫星与废弃Cosmos2251相撞，确认史实。"},
+    {"url":"https://www.nasa.gov/image-article/vanguard-satellite-1958/","scope":"NASA2015原历史说明读取，Vanguard1于1958入轨、最古老仍在轨人造物；2018六十年属历史年数。"},
+    {"url":"https://www.moe.gov.cn/jyb_xxgk/xxgk_jyta/jyta_yxs/201812/t20181214_363652.html","scope":"教育部2018建议答复相关段读取，部分方言退化/濒危、调查录音、方言文化选修与活动；支持截至2018的保护背景，不支持全国所有方言使用人数均持续下降。"},
+    {"url":"https://www.moe.gov.cn/srcsite/A19/s7067/201804/t20180404_332374.html","scope":"2018汉语方言调查部署原通知检索读取，279调查点的录音保护工作，正文未夸大为全国统一方言必修课程。"}
+  ],
+  "reviewNotes":[
+    "10页原PDF图像全部打开通读，PDF哈希90dd70ed960ed17ea5f7d585c6a1e77b9ee9991b832b50532c5616072e189c13相符；六处跨页接回，包括24题D、F和N续文、罢工段、50与52选项。",
+    "symbolize/benifited/Rise/Atteed/language/attached等误词可见于PDF本身，按语义改正；听力选项不是事实主张，未凭题干推造答案。原始音频与来源元数据不变。",
+    "内部阅读可解性：十空I/O/J/B/C/K/H/D/A/F；匹配F/C/M/E/G/N/H/B/J/D；阅读D/A/C/A/B及D/B/A/D/B。52题原C基于错误职责，修订后B对应原政策；47利润、48收入、54范围均修正。内部推导不标为官方答案。",
+    "历史叙述与现在分开；保留作者观点归属，可靠原文可核对处改正技术事实，翻译不添加杜撰英文范文；全文复读后再逐篇签署。"
+  ]
+}

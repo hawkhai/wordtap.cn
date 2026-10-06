@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "course": "pep-english",
+  "articleId": "pepj9-027",
+  "beforeDisplaySha256": "3b98e23a2c497d239e7eab7d93b41ed4915382c3af5af0ca8f44271403986058",
+  "afterDisplaySha256": "3b98e23a2c497d239e7eab7d93b41ed4915382c3af5af0ca8f44271403986058",
+  "baselineDisplay": {
+    "title": "Jill and Scott Talk About Music and Movies",
+    "section": "Section A",
+    "text": "Jill: What are you doing this weekend, Scott?\nScott: Not much. I suppose I'll just listen to this new CD I bought.\nJill: Oh, what CD is this?\nScott: Well, it's all music. There's no singing. I like smooth music that helps me relax after a long week at work.\nJill: Sounds nice. Well, if you have spare time, do you want to watch a movie with me? The director is really famous.\nScott: Hmm, depends which movie. I only like movies that are funny. I just want to laugh and not think too much. You know what I mean?\nJill: Oh, in that case, I'll ask someone who likes serious movies.\nScott: What's the movie about?\nJill: It's about World War II. I prefer movies that give me something to think about.",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Jill: What are you doing this weekend, Scott?\nScott: Not much. I suppose I'll just listen to this new CD I bought.\nJill: Oh, what CD is this?\nScott: Well, it's all music. There's no singing. I like smooth music that helps me relax after a long week at work.\nJill: Sounds nice. Well, if you have spare time, do you want to watch a movie with me? The director is really famous.\nScott: Hmm, depends which movie. I only like movies that are funny. I just want to laugh and not think too much. You know what I mean?\nJill: Oh, in that case, I'll ask someone who likes serious movies.\nScott: What's the movie about?\nJill: It's about World War II. I prefer movies that give me something to think about."
+      }
+    ]
+  },
+  "display": {
+    "title": "Jill and Scott Talk About Music and Movies",
+    "section": "Section A",
+    "text": "Jill: What are you doing this weekend, Scott?\nScott: Not much. I suppose I'll just listen to this new CD I bought.\nJill: Oh, what CD is this?\nScott: Well, it's all music. There's no singing. I like smooth music that helps me relax after a long week at work.\nJill: Sounds nice. Well, if you have spare time, do you want to watch a movie with me? The director is really famous.\nScott: Hmm, depends which movie. I only like movies that are funny. I just want to laugh and not think too much. You know what I mean?\nJill: Oh, in that case, I'll ask someone who likes serious movies.\nScott: What's the movie about?\nJill: It's about World War II. I prefer movies that give me something to think about.",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Jill: What are you doing this weekend, Scott?\nScott: Not much. I suppose I'll just listen to this new CD I bought.\nJill: Oh, what CD is this?\nScott: Well, it's all music. There's no singing. I like smooth music that helps me relax after a long week at work.\nJill: Sounds nice. Well, if you have spare time, do you want to watch a movie with me? The director is really famous.\nScott: Hmm, depends which movie. I only like movies that are funny. I just want to laugh and not think too much. You know what I mean?\nJill: Oh, in that case, I'll ask someone who likes serious movies.\nScott: What's the movie about?\nJill: It's about World War II. I prefer movies that give me something to think about."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "path": "content/pep-english/raw/junior-9.pdf",
+      "locator": "PDF第80-80页，标题与完整正文逐行核对",
+      "checked": true,
+      "sha256": "9c4118021048d901610b673f590ed28c39c04cb2d4f7fd940f83a2d8b2741af7"
+    },
+    {
+      "path": "content/pep-english/raw/junior-9/junior-9_80.jpg",
+      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
+      "checked": true,
+      "sha256": "fe2fd672f62bbed9f8f491310355b719fb8516f8e99001963e58dd2a03140591"
+    }
+  ],
+  "corrections": [],
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "reviewer": "Codex",
+  "reviewedAt": "2026-10-02T05:12:19+00:00",
+  "notes": "PDF80页印刷66页Jill/Scott九轮逐行核对，纯音乐无演唱、工作后放松、喜剧与二战严肃电影偏好各自清楚。World War II罗马数字及Hmm逗号准确，未混入Carmen/Xu Fei听力题，逐轮复读无修改。",
+  "issues": [],
+  "status": "passed_unchanged"
+}

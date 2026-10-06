@@ -1,0 +1,19 @@
+{
+  "article": "shuimu/intermediate-023",
+  "fullRead": "全文复读，既有例句/说明文字不变；项目符号所在块恢复list类型，与邻近列表及课程校验要求一致。最终全文与复读前逐字相同，仅列出的类型改变。",
+  "changes": [
+    {
+      "index": 83,
+      "before": "paragraph",
+      "after": "list",
+      "text": "• He is very much alone. / He is all alone. 他孤身一人。\nvery alone 在特定语境中也可强调孤独感，不宜一概判错。"
+    },
+    {
+      "index": 85,
+      "before": "paragraph",
+      "after": "list",
+      "text": "• He was wide awake. 他完全醒着。\n表达完全清醒时，常用 wide awake。"
+    }
+  ],
+  "unresolved": []
+}

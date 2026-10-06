@@ -1,0 +1,19 @@
+{
+  "article": "nce4-020",
+  "checkedAt": "2026-10-02",
+  "sources": [
+    {
+      "url": "https://australian.museum/learn/animals/mammals/platypus/",
+      "finding": "雄性鸭嘴兽后肢距连接毒腺，为有毒哺乳动物。"
+    },
+    {
+      "url": "https://australian.museum/learn/animals/reptiles/coastal-taipan/",
+      "finding": "海岸太攀蛇毒液同时影响神经系统及血液凝固，不能将所有蛇毒简单分成互斥两类。"
+    },
+    {
+      "url": "https://std.samr.gov.cn/gb/search/gbDetailed?id=71F772D7D257D3A7E05397BE0A0AB82A",
+      "finding": "国家标准中英文名称对应马钱子碱brucine与士的宁strychnine，采用后者明确词义。"
+    }
+  ],
+  "decision": "先订正明确语言问题；科学断言仍列needs_source_check，不冒称通过。"
+}

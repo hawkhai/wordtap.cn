@@ -1,0 +1,22 @@
+{
+  "articleId":"cet4-20241203",
+  "checkedAt":"2026-10-02",
+  "scope":"6页原PDF完整逐页读图；原始15块全文阅读；30答案单元逐格配对。外部来源按以下实际范围阅读。",
+  "sources":[
+    {"url":"https://link.springer.com/article/10.1186/s41235-019-0197-9","access":"原论文摘要、两个实验方法/结果及讨论全文已读","findings":"2019 Sanders等，每实验120人、英国日本各60。限500ms高逼真33%错误，不限时约20%；5个百分点跨群体差异限高逼真条件。现实外推是作者判断，不是人口识别失败率。"},
+    {"url":"https://primary.outweb.lse.ac.uk/pbs/news/Press-release/Some-hyper-realistic-face-masks-more-believable-than-human-faces","access":"研究机构报道全文已读","findings":"核对Sanders引语及研究年份；原论文口径优先于新闻简写。"},
+    {"url":"https://jamesclear.com/learning-vs-practicing","access":"作者原文全文已读","findings":"练习/被动学习、Sterner引语、B–K来源。属于个人方法论；将举重/销售/发表唯一途径与处境全由习惯决定等绝对论断限定。"},
+    {"url":"https://techxplore.com/news/2020-12-blame-self-driving-car-accident.html","access":"Biondi署名授权转载全文已读","findings":"2020-12-01原文，法律论文链接追溯；self-driving笼统称呼需缩小为部分自动化。"},
+    {"url":"https://doi.org/10.1057/s41599-020-00644-2","access":"2020原论文摘要、引言、人因风险、技术因素、consent章节至数字界面开头已读","findings":"Pattinson/Chen/Basu，主要部分自动化人车交接；对有效同意和责任划分作理论分析，并非现行全球法律或一概由驾驶者担责。"},
+    {"url":"https://www2.deloitte.com/content/dam/Deloitte/us/Documents/technology-media-telecommunications/us-tmt-2017-global-mobile-consumer-survey-executive-summary.pdf?pStoreID=hp_education%27%5B0%5D","access":"德勤原报告检索索引中的完整相关段落已读；直接PDF404","findings":"2017 US edition，91%愿意不读条款就接受，应用安装/Wi-Fi/更新/在线服务；18–34岁97%，不是车辆买家观察实验。未确认样本总数故未引入。"},
+    {"url":"https://news.uoregon.edu/content/decades-hype-turned-protein-multibillion-dollar-industry","access":"Hannah Cutting-Jones2021署名原文授权转载全文已读并提取原研究链接","findings":"原文将most physicians未见缺乏归为Davis观点，试卷遗漏most与归属。市场数字为2020估计。原文营养绝对化须校正，非食物史作者观点可直接当医疗指南。"},
+    {"url":"https://www.merckmanuals.com/professional/nutritional-disorders/undernutrition/protein-energy-undernutrition-peu","access":"定义、病因与易感人群章节已读","findings":"蛋白质能量营养不足真实存在，老年住院、疾病、吸收障碍与食物不足等可发生；足量热量不必然等于足量蛋白。"},
+    {"url":"https://ods.od.nih.gov/factsheets/exerciseandathleticperformance-healthprofessional/","access":"NIH原页检索所得蛋白摄入统计段落已读，直接页面读取失败","findings":"2007–2008NHANES成年男均100g女69g，历史均值不可泛化为人人当前两倍需要；正文删除两倍概括，保留历史均值高于标准成人RDA及个体差异。"},
+    {"url":"https://www.eatforhealth.gov.au/sites/default/files/2022-10/n35-protein_0.pdf","access":"澳大利亚官方NRV原文上限段落已读","findings":"不能按克/天设定一律适用上限；有能量比例讨论，未转化为人人可无限摄入。"},
+    {"url":"https://www.health.harvard.edu/diet-and-nutrition/when-it-comes-to-protein-how-much-is-too-much","access":"原机构健康说明正文已读","findings":"原出处现约125g而非120g，且限定一般健康非精英运动者并表达不确定；风险随红肉/饱和脂肪或植物来源及肾病等不同。取消单一强制克数和一概伤肝肾/致癌的写法。"},
+    {"url":"https://pubmed.ncbi.nlm.nih.gov/14557793/","access":"原文链接的2003综述摘要已读，全文未读","findings":"10.1097/00075197-200311000-00005，Westerterp-Plantenga，讨论蛋白质饱腹感、产热和体重调节；不是添加蛋白就保证长期减肥。"},
+    {"url":"https://pubmed.ncbi.nlm.nih.gov/12761365/","access":"2003随机试验摘要已读，用作结论边界佐证","findings":"63名肥胖成人低碳高蛋白高脂对常规饮食，3/6月差异而12月不显著，不是单一蛋白因素证明。该试验不是原报道所链2003综述，未混称。"},
+    {"url":"https://www.dha.ac.cn/info/1021/6192.htm","access":"研究院网页数字中心模式与2014年份相关段落已读","findings":"先数字电影后实体洞窟参观；保护目的在减少游客实地洞窟时间和压力，不能把减少游客参观数量直接说成永久减少开放洞窟。"}
+  ],
+  "limitations":"原来源无第三套听力，未移植其他卷听力答案。德勤原PDF直接失效，明确据原报告检索索引核对相关段落；市场规模仅保留带来源年份的历史估计。"
+}

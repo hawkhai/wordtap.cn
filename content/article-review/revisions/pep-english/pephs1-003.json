@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "course": "pep-english",
+  "articleId": "pephs1-003",
+  "beforeDisplaySha256": "865eece9f92b3e3bd2825fb71d282ea03e61c09cfc03395a25a99144c8846973",
+  "afterDisplaySha256": "3f4f587f8d5a99b5c8572fa52a8523dbfd190666a8ab47e5d9bc5792fc220a86",
+  "baselineDisplay": {
+    "title": "Cao Xueqin Biography",
+    "section": "Project",
+    "text": "by Li Jianshu, 2009\n(Chinese edition)\nThe book tells the life story of the novelist Cao Xueqin, author of The Dream of the Red Mansions. Cao was born to a rich family but suffered great poverty for most of his life. He drew on his life experiences to write this famous novel, which was published after his death.",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "by Li Jianshu, 2009\n(Chinese edition)"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "The book tells the life story of the novelist Cao Xueqin, author of The Dream of the Red Mansions. Cao was born to a rich family but suffered great poverty for most of his life. He drew on his life experiences to write this famous novel, which was published after his death."
+      }
+    ]
+  },
+  "display": {
+    "title": "Cao Xueqin Biography",
+    "section": "Project",
+    "text": "The book tells the life story of the novelist Cao Xueqin, author of The Dream of the Red Mansions. Cao was born to a rich family but suffered great poverty for most of his life. He drew on his life experiences to write this famous novel, which was published after his death.",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "The book tells the life story of the novelist Cao Xueqin, author of The Dream of the Red Mansions. Cao was born to a rich family but suffered great poverty for most of his life. He drew on his life experiences to write this famous novel, which was published after his death."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "path": "content/pep-english/raw/senior-selective-1.pdf",
+      "locator": "PDF第18-18页，标题与完整正文逐行核对",
+      "checked": true,
+      "sha256": "94ec493439239c436326e228e3d3ad78c7053ac5abc005db5739119f6a98c33d"
+    },
+    {
+      "path": "content/pep-english/raw/senior-selective-1/senior-selective-1_18.jpg",
+      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
+      "checked": true,
+      "sha256": "0e9a8376b840cd6b3091fd54772aec3159e60b6ead2df06d720c73989123d8c0"
+    },
+    {
+      "path": "content/article-review/cleanup-2026-10-06.json",
+      "sha256": "cea27c1c69e32939ff83196bd29cce9a128d8d0d6f248611217179e037971889",
+      "locator": "public/pep-english/lessons/pephs1/003.json",
+      "checked": true
+    }
+  ],
+  "corrections": [
+    {
+      "field": "text",
+      "before": "by Li Jianshu, 2009\n(Chinese edition)\nThe book tells the life story of the novelist Cao Xueqin, author of The Dream of the Red Mansions. Cao was born to a rich family but suffered great poverty for most of his life. He drew on his life experiences to write this famous novel, which was published after his death.",
+      "after": "The book tells the life story of the novelist Cao Xueqin, author of The Dream of the Red Mansions. Cao was born to a rich family but suffered great poverty for most of his life. He drew on his life experiences to write this famous novel, which was published after his death.",
+      "evidence": "User-directed source-fidelity restoration; content/article-review/cleanup-2026-10-06.json"
+    }
+  ],
+  "fullReadConfirmed": false,
+  "recheckConfirmed": false,
+  "reviewMode": "source-fidelity-rules-v1",
+  "reviewer": "Codex (user-directed restoration)",
+  "reviewedAt": "2026-10-05T17:15:10+00:00",
+  "notes": "Rule-based restoration; original full-read review remains historical. content/article-review/cleanup-2026-10-06.json",
+  "issues": [],
+  "status": "passed_edited",
+  "previousRevisionSha256": "be833554583f9cce661c311949caa3e7c63f5d136956192e7f3acc530246ba14",
+  "ruleRestoration": {
+    "policy": "source-fidelity-rules-v1",
+    "report": "content/article-review/cleanup-2026-10-06.json",
+    "reportSha256": "cea27c1c69e32939ff83196bd29cce9a128d8d0d6f248611217179e037971889"
+  }
+}

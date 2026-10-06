@@ -1,0 +1,95 @@
+{
+  "article": "e1-1981",
+  "checkedAt": "2026-10-03",
+  "sourcePdfPhysicalPagesRead": [
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58
+  ],
+  "sources": [
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/refuse",
+      "scope": "检索词典释义refuse an offer/request/invitation实际读，第5题不能把refuse当作不合法搭配。"
+    },
+    {
+      "url": "https://dictionary.cambridge.org/us/dictionary/english/agree",
+      "scope": "词典检索展开页的各义项及例句实际读；其他URL直接403，不称全站读。接受/商定/赞同的差别，第6及16题的原答案不宜泛化为排他规则。"
+    },
+    {
+      "url": "https://learningenglishwithoxford.oup.com/2023/03/14/tips-for-understanding-countable-and-uncountable-nouns/",
+      "scope": "Oxford原教学文章hair不可数与hairs可数段实际读，第13题不唯一。"
+    },
+    {
+      "url": "https://www.oxfordlearnersdictionaries.com/us/definition/english/scarcely",
+      "scope": "词典检索例句scarcely…before实际读，第9题before也有可用结构。"
+    },
+    {
+      "url": "https://files.eric.ed.gov/fulltext/ED608205.pdf",
+      "scope": "原教学文献中need/require被动意义-ing与被动不定式相关例句实际读；并未通读117页。第14题B也是存在的结构。"
+    },
+    {
+      "url": "https://www.parliament.uk/about/living-heritage/evolutionofparliament/legislativescrutiny/parliamentandireland/overview/parliamentary-union/",
+      "scope": "议会网站检索及打开的议会合并相关段实际读，1800法案/1801生效；未称全站读取。"
+    },
+    {
+      "url": "https://lordslibrary.parliament.uk/government-of-ireland-act-1920-what-system-did-it-create/",
+      "scope": "Sarah Tudor2020说明正文全文实际读：1920法案、1921议会、1922年12月7日北爱议会选择退出自由邦管辖，区别立法/生效/选择。"
+    },
+    {
+      "url": "https://publications.parliament.uk/pa/ld201516/ldselect/ldconst/149/14905.htm",
+      "scope": "议会委员会网页检索的Historicalcontext段实际读：威尔士中世纪统治先于1536/1543法律行政整合。没有称整报告通读。"
+    },
+    {
+      "url": "https://ieeetvdev.ieee.org/history/ampex-vtr-milestone",
+      "scope": "IEEE里程碑页面文字说明实际读（未看视频）：1956磁带录像已用于电视节目时移，不是激光束使磁带录像成为可能。"
+    },
+    {
+      "url": "https://ntrs.nasa.gov/api/citations/19850009430/downloads/19850009430.pdf",
+      "scope": "NASA技术词汇laser的检索条目实际读，区分发光装置与其光束；未称全PDF阅读。"
+    },
+    {
+      "url": "https://www.cdc.gov/niosh/bulletin/2017/sound-app.html",
+      "scope": "NIOSH原文检索返回LAeq、LCpeak、TWA测量指标段实际读，说明现代噪声测量有计权/时间平均；未给健康阈值或法律建议。"
+    },
+    {
+      "url": "https://galileo.library.rice.edu/sci/observations/sunspots.html",
+      "scope": "Rice Galileo Project Al Van Helden研究正文全文实际读；1610–1613观测、Castelli投影、Fabricius发表、Galileo三封信，避免原卷无证据的畏惧心理与停止观测因果。"
+    },
+    {
+      "url": "https://www.nasa.gov/history/spots-waves-and-wind-a-solar-science-timeline-full-text/",
+      "scope": "NASA时间线1608、1611–1613、1645–1715及1843相关部分实际读；Schwabe全名和17年观测，不称整时间线均读。"
+    },
+    {
+      "url": "https://cdaweb.gsfc.nasa.gov/pub/documents/archived_websites/pwg.gsfc.nasa.gov/earthmag/whschwab.htm",
+      "scope": "NASA存档转载Schwabe1843原文节选及1826–1843观测表全文实际读；没有把节选称整篇原论文。"
+    },
+    {
+      "url": "https://cdaweb.gsfc.nasa.gov/pub/documents/archived_websites/pwg.gsfc.nasa.gov/stargaze/Sun3mag.htm",
+      "scope": "NASA存档检索Schwabe药剂师身份及约11年周期段实际读。"
+    },
+    {
+      "url": "https://science.nasa.gov/sun/facts/",
+      "scope": "NASA太阳事实检索自转段实际读，赤道快于极区，不沿用统一25–27天的表述。"
+    }
+  ],
+  "limitations": [
+    "9原块及9张原PDF图全部实际阅读；太阳黑子篇为有说明的校正版，不冒充原试题逐字转录。",
+    "早期单选题已明确非唯一性，保留原资料预期答案但不作严格排他判分依据；16题agree with同样说明。",
+    "女王及欧洲共同体为1981历史语境，不冒称现状；噪音篇是历史评论，未找到独立原作者信息，不编造署名，原PDF即本版文字来源。",
+    "网页403、搜索摘录、长PDF局部读取均按实际范围记录。",
+    "第41空by缺后续尺寸，第48参考译文I误译我们，分别改wide/across与we。中译史实与英文修訂一致。"
+  ],
+  "answerChecks": {
+    "expectedChoices": "CDBBEDCEBDBEEA（多题非唯一，详正文说明）",
+    "errorDetection": "C/B/E/C/C/B/E/B（16题不宜一概判错）",
+    "cloze": "less / by / to / wide或across / possible / because / recorded / that或which / back / this"
+  },
+  "rawSha256": "b9ddf393c84c85e8c203da4349ecbfdd15383966fb735780b05ec5cdc6d12558",
+  "pdfSha256": "525227c90a3228ef9191b7aac8949d271348ab9fc9d8d437d41f7937b10bd121"
+}

@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 1,
+  "checkedAt": "2026-10-05T17:48:16.804863+00:00",
+  "policy": "source-fidelity-rules-v1",
+  "scope": 1054,
+  "changed": 675,
+  "unchanged": 379,
+  "changesByCourse": {
+    "shuimu": 168,
+    "postgraduate": 38,
+    "nce": 206,
+    "pep-english": 70,
+    "college-english": 32,
+    "cet": 97,
+    "kaoyan-english": 64
+  },
+  "ruleDecisions": {
+    "keep_source_transcription": 549,
+    "restore_before_edit": 7344
+  },
+  "legacyShuimuDecisions": {
+    "restore_before_edit": 208
+  },
+  "reviewMode": "Automatic user-directed restoration; no new full-read or external factual review claimed.",
+  "checks": {
+    "unitTests": 26,
+    "prebuildNodeTests": 37,
+    "courseValidators": "all passed",
+    "sourceEvidence": "Verified 1054 inventory rows, 1054 review records: {'passed_edited': 838, 'passed_unchanged': 216}",
+    "deterministicCleanup": "1054 verified; second apply made no changes",
+    "generatorReplay": {
+      "shuimu": 192,
+      "postgraduate": 40,
+      "nce": 276,
+      "pep-english": 313,
+      "college-english": 72,
+      "cet": 97,
+      "kaoyan-english": 64
+    },
+    "metadata": "all 1054 identities, links and subtitle coordinates preserved; College signature revisions validated",
+    "build": "passed: 1054 lesson pages, 12277 text files, 161 exam entries, 1064 themed static pages",
+    "browser": {
+      "snapshotRegistered": 1054,
+      "checkedAt": "2026-10-05T17:40:01.845Z",
+      "server": "Vite production preview",
+      "report": [
+        {
+          "name": "nce-glasses",
+          "code": "nce:1-023",
+          "width": 1440,
+          "scrollWidth": 1440,
+          "errors": []
+        },
+        {
+          "name": "nce-robert",
+          "code": "nce:1-007",
+          "width": 1440,
+          "scrollWidth": 1440,
+          "errors": []
+        },
+        {
+          "name": "postgraduate-long",
+          "code": "pg:rwt-09b",
+          "width": 1440,
+          "scrollWidth": 1440,
+          "errors": []
+        },
+        {
+          "name": "nce-science",
+          "code": "nce:3-055",
+          "width": 1440,
+          "scrollWidth": 1440,
+          "errors": []
+        },
+        {
+          "name": "shuimu-smoking",
+          "code": "sm:int-061",
+          "width": 1440,
+          "scrollWidth": 1440,
+          "errors": []
+        },
+        {
+          "name": "lookup-speech-controls-save",
+          "width": 1440,
+          "meaning": "[hu:z]\npron. 谁的",
+          "counts": {
+            "words": [
+              "Whose"
+            ],
+            "texts": 1
+          },
+          "audibleOutputVerified": false
+        },
+        {
+          "name": "nce-glasses",
+          "code": "nce:1-023",
+          "width": 390,
+          "scrollWidth": 390,
+          "errors": []
+        },
+        {
+          "name": "nce-robert",
+          "code": "nce:1-007",
+          "width": 390,
+          "scrollWidth": 390,
+          "errors": []
+        },
+        {
+          "name": "postgraduate-long",
+          "code": "pg:rwt-09b",
+          "width": 390,
+          "scrollWidth": 390,
+          "errors": []
+        },
+        {
+          "name": "nce-science",
+          "code": "nce:3-055",
+          "width": 390,
+          "scrollWidth": 390,
+          "errors": []
+        },
+        {
+          "name": "shuimu-smoking",
+          "code": "sm:int-061",
+          "width": 390,
+          "scrollWidth": 390,
+          "errors": []
+        },
+        {
+          "name": "lookup-speech-controls-save",
+          "width": 390,
+          "meaning": "[hu:z]\npron. 谁的",
+          "counts": {
+            "words": [
+              "Whose"
+            ],
+            "texts": 1
+          },
+          "audibleOutputVerified": false
+        }
+      ]
+    }
+  },
+  "evidenceSha256": {
+    "cleanup-2026-10-06.json": "cea27c1c69e32939ff83196bd29cce9a128d8d0d6f248611217179e037971889"
+  },
+  "deployment": "Local production build verified. Git branch push is not confirmation of wordtap.cn deployment."
+}

@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "course": "pep-english",
+  "articleId": "pephs3-022",
+  "beforeDisplaySha256": "001111e2cc339ebf3645a7947a7dfb086e93c897afef5cd104b237c75c21d656",
+  "afterDisplaySha256": "001111e2cc339ebf3645a7947a7dfb086e93c897afef5cd104b237c75c21d656",
+  "baselineDisplay": {
+    "title": "Planning a Balanced Diet",
+    "section": "Using Structures",
+    "text": "These days, the attitude of many people is to just eat food that they think tastes good. However, this can lead to an unbalanced diet, which often results in short-term and long-term health issues. If you want to stay healthy, then you need a balanced diet. Needless to say, it is not always easy to plan such a diet, but the good thing is that there is a lot of advice out there. To save yourself some time, you could try looking at a “food pyramid”—a chart that shows you how much of each type of food to eat. You could also make healthy food at home and try to avoid eating packaged foods or fast food. It is essential for you to eat healthy food. You will feel better, have more energy, and have fewer health problems in later life.",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "These days, the attitude of many people is to just eat food that they think tastes good. However, this can lead to an unbalanced diet, which often results in short-term and long-term health issues. If you want to stay healthy, then you need a balanced diet. Needless to say, it is not always easy to plan such a diet, but the good thing is that there is a lot of advice out there. To save yourself some time, you could try looking at a “food pyramid”—a chart that shows you how much of each type of food to eat. You could also make healthy food at home and try to avoid eating packaged foods or fast food. It is essential for you to eat healthy food. You will feel better, have more energy, and have fewer health problems in later life."
+      }
+    ]
+  },
+  "display": {
+    "title": "Planning a Balanced Diet",
+    "section": "Using Structures",
+    "text": "These days, the attitude of many people is to just eat food that they think tastes good. However, this can lead to an unbalanced diet, which often results in short-term and long-term health issues. If you want to stay healthy, then you need a balanced diet. Needless to say, it is not always easy to plan such a diet, but the good thing is that there is a lot of advice out there. To save yourself some time, you could try looking at a “food pyramid”—a chart that shows you how much of each type of food to eat. You could also make healthy food at home and try to avoid eating packaged foods or fast food. It is essential for you to eat healthy food. You will feel better, have more energy, and have fewer health problems in later life.",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "These days, the attitude of many people is to just eat food that they think tastes good. However, this can lead to an unbalanced diet, which often results in short-term and long-term health issues. If you want to stay healthy, then you need a balanced diet. Needless to say, it is not always easy to plan such a diet, but the good thing is that there is a lot of advice out there. To save yourself some time, you could try looking at a “food pyramid”—a chart that shows you how much of each type of food to eat. You could also make healthy food at home and try to avoid eating packaged foods or fast food. It is essential for you to eat healthy food. You will feel better, have more energy, and have fewer health problems in later life."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "path": "content/pep-english/raw/senior-selective-3.pdf",
+      "locator": "PDF第76-76页，标题与完整正文逐行核对",
+      "checked": true,
+      "sha256": "ed8eb9e5988b44a1ff4f8bc11ed3cfae406decefae7982477362720788e1998b"
+    },
+    {
+      "path": "content/pep-english/raw/senior-selective-3/senior-selective-3_76.jpg",
+      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
+      "checked": true,
+      "sha256": "efa3f4eb4bfc3ddfcbc110145506ff63f5563a214ab1bf0d7ad1a15a72608a6c"
+    }
+  ],
+  "corrections": [],
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "reviewer": "Codex",
+  "reviewedAt": "2026-10-02T07:15:24+00:00",
+  "notes": "通读PDF第76页不定式短文，按左下栏到右上栏衔接核对，未混入杭州旅行填空；food pyramid引号、short-term/long-term连字符完整。教材一般饮食论述保留，转录无修改。",
+  "issues": [],
+  "status": "passed_unchanged"
+}

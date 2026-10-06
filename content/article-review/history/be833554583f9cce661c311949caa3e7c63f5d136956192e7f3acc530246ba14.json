@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "course": "pep-english",
+  "articleId": "pephs1-003",
+  "beforeDisplaySha256": "3f4f587f8d5a99b5c8572fa52a8523dbfd190666a8ab47e5d9bc5792fc220a86",
+  "afterDisplaySha256": "865eece9f92b3e3bd2825fb71d282ea03e61c09cfc03395a25a99144c8846973",
+  "baselineDisplay": {
+    "title": "Cao Xueqin Biography",
+    "section": "Project",
+    "text": "The book tells the life story of the novelist Cao Xueqin, author of The Dream of the Red Mansions. Cao was born to a rich family but suffered great poverty for most of his life. He drew on his life experiences to write this famous novel, which was published after his death.",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "The book tells the life story of the novelist Cao Xueqin, author of The Dream of the Red Mansions. Cao was born to a rich family but suffered great poverty for most of his life. He drew on his life experiences to write this famous novel, which was published after his death."
+      }
+    ]
+  },
+  "display": {
+    "title": "Cao Xueqin Biography",
+    "section": "Project",
+    "text": "by Li Jianshu, 2009\n(Chinese edition)\nThe book tells the life story of the novelist Cao Xueqin, author of The Dream of the Red Mansions. Cao was born to a rich family but suffered great poverty for most of his life. He drew on his life experiences to write this famous novel, which was published after his death.",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "by Li Jianshu, 2009\n(Chinese edition)"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "The book tells the life story of the novelist Cao Xueqin, author of The Dream of the Red Mansions. Cao was born to a rich family but suffered great poverty for most of his life. He drew on his life experiences to write this famous novel, which was published after his death."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "path": "content/pep-english/raw/senior-selective-1.pdf",
+      "locator": "PDF第18-18页，标题与完整正文逐行核对",
+      "checked": true,
+      "sha256": "94ec493439239c436326e228e3d3ad78c7053ac5abc005db5739119f6a98c33d"
+    },
+    {
+      "path": "content/pep-english/raw/senior-selective-1/senior-selective-1_18.jpg",
+      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
+      "checked": true,
+      "sha256": "0e9a8376b840cd6b3091fd54772aec3159e60b6ead2df06d720c73989123d8c0"
+    }
+  ],
+  "corrections": [
+    {
+      "field": "text",
+      "before": "The book tells the life story of the novelist Cao Xueqin, author of The Dream of the Red Mansions. Cao was born to a rich family but suffered great poverty for most of his life. He drew on his life experiences to write this famous novel, which was published after his death.",
+      "after": "by Li Jianshu, 2009\n(Chinese edition)\nThe book tells the life story of the novelist Cao Xueqin, author of The Dream of the Red Mansions. Cao was born to a rich family but suffered great poverty for most of his life. He drew on his life experiences to write this famous novel, which was published after his death.",
+      "evidence": "PDF第18页左栏书名下by Li Jianshu, 2009 (Chinese edition)。"
+    }
+  ],
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "reviewer": "Codex",
+  "reviewedAt": "2026-10-02T06:10:33+00:00",
+  "notes": "PDF第18页左栏曹雪芹传记卡片全文核对。正文三句一致；补回书名下作者、出版年及Chinese edition说明，独立置于正文前，复读通过。",
+  "issues": [],
+  "status": "passed_edited"
+}

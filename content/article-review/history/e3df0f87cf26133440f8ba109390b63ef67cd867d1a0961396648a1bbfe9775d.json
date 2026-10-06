@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "course": "pep-english",
+  "articleId": "pephs4-035",
+  "beforeDisplaySha256": "52d6bdfb2aaabe6a9fc1827d20ede0f7299cd8f1cd61a74774cc3120bc414af2",
+  "afterDisplaySha256": "52d6bdfb2aaabe6a9fc1827d20ede0f7299cd8f1cd61a74774cc3120bc414af2",
+  "baselineDisplay": {
+    "title": "Two-Metre Shark Attack While Snorkelling",
+    "section": "Listening and Speaking",
+    "text": "A 31-year-old man was attacked by a 2-metre shark while snorkelling this morning. He was bitten on the left side of his body and has been taken by air to hospital.",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "A 31-year-old man was attacked by a 2-metre shark while snorkelling this morning. He was bitten on the left side of his body and has been taken by air to hospital."
+      }
+    ]
+  },
+  "display": {
+    "title": "Two-Metre Shark Attack While Snorkelling",
+    "section": "Listening and Speaking",
+    "text": "A 31-year-old man was attacked by a 2-metre shark while snorkelling this morning. He was bitten on the left side of his body and has been taken by air to hospital.",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "A 31-year-old man was attacked by a 2-metre shark while snorkelling this morning. He was bitten on the left side of his body and has been taken by air to hospital."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "path": "content/pep-english/raw/senior-selective-4.pdf",
+      "locator": "PDF第84-84页，标题与完整正文逐行核对",
+      "checked": true,
+      "sha256": "2ad7555a13eb420aa70497f9faa2541fdb502b7ffc4e063e87c60cce88f1b4a3"
+    },
+    {
+      "path": "content/pep-english/raw/senior-selective-4/senior-selective-4_84.jpg",
+      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
+      "checked": true,
+      "sha256": "45550544dca70ab1c3b9cb6057101faf48f9c03dbac67d95aa38870adabd2c6e"
+    }
+  ],
+  "corrections": [],
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "reviewer": "Codex",
+  "reviewedAt": "2026-10-02T08:00:36+00:00",
+  "notes": "完整复核第84页第三则教学短讯，两句报道与原页一致，31岁、2米鲨鱼、身体左侧及空运送医无遗漏，保留现有概括性标题。",
+  "issues": [],
+  "status": "passed_unchanged"
+}

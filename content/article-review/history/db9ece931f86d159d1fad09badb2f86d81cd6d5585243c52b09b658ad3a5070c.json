@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "course": "pep-english",
+  "articleId": "pepj8b-014",
+  "beforeDisplaySha256": "71e628605f00ee4caab65449e47060335179402c09153acb18ff2e8b16717ebd",
+  "afterDisplaySha256": "71e628605f00ee4caab65449e47060335179402c09153acb18ff2e8b16717ebd",
+  "baselineDisplay": {
+    "title": "Robinson Crusoe on the Island",
+    "section": "Section A",
+    "text": "When I first arrived on this island, I had nothing. But I've found the ship and made a small boat. I've brought back many things I can use — food and drink, tools, knives and guns. Although I have lost everything, I have not lost my life. So I will not give up and I will wait for another ship. I have already cut down trees and built a house. I go out with my gun almost every day to kill animals and birds for food. I'm even learning to grow fruit and vegetables.\nA few weeks ago, I found the marks of another man's feet on the sand. Who else is on my island? How long have they been here? Not long after that, I saw some cannibals trying to kill two men from a broken ship. One of them died but the other ran towards my house. I helped him kill the cannibals. This man now lives with me and helps me. I named him Friday because that was the day I met him. He is smart and I have already taught him some English.",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "When I first arrived on this island, I had nothing. But I've found the ship and made a small boat. I've brought back many things I can use — food and drink, tools, knives and guns. Although I have lost everything, I have not lost my life. So I will not give up and I will wait for another ship. I have already cut down trees and built a house. I go out with my gun almost every day to kill animals and birds for food. I'm even learning to grow fruit and vegetables."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "A few weeks ago, I found the marks of another man's feet on the sand. Who else is on my island? How long have they been here? Not long after that, I saw some cannibals trying to kill two men from a broken ship. One of them died but the other ran towards my house. I helped him kill the cannibals. This man now lives with me and helps me. I named him Friday because that was the day I met him. He is smart and I have already taught him some English."
+      }
+    ]
+  },
+  "display": {
+    "title": "Robinson Crusoe on the Island",
+    "section": "Section A",
+    "text": "When I first arrived on this island, I had nothing. But I've found the ship and made a small boat. I've brought back many things I can use — food and drink, tools, knives and guns. Although I have lost everything, I have not lost my life. So I will not give up and I will wait for another ship. I have already cut down trees and built a house. I go out with my gun almost every day to kill animals and birds for food. I'm even learning to grow fruit and vegetables.\nA few weeks ago, I found the marks of another man's feet on the sand. Who else is on my island? How long have they been here? Not long after that, I saw some cannibals trying to kill two men from a broken ship. One of them died but the other ran towards my house. I helped him kill the cannibals. This man now lives with me and helps me. I named him Friday because that was the day I met him. He is smart and I have already taught him some English.",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "When I first arrived on this island, I had nothing. But I've found the ship and made a small boat. I've brought back many things I can use — food and drink, tools, knives and guns. Although I have lost everything, I have not lost my life. So I will not give up and I will wait for another ship. I have already cut down trees and built a house. I go out with my gun almost every day to kill animals and birds for food. I'm even learning to grow fruit and vegetables."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "A few weeks ago, I found the marks of another man's feet on the sand. Who else is on my island? How long have they been here? Not long after that, I saw some cannibals trying to kill two men from a broken ship. One of them died but the other ran towards my house. I helped him kill the cannibals. This man now lives with me and helps me. I named him Friday because that was the day I met him. He is smart and I have already taught him some English."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "path": "content/pep-english/raw/junior-8b.pdf",
+      "locator": "PDF第68-68页，标题与完整正文逐行核对",
+      "checked": true,
+      "sha256": "1be886980dc0833b9c87ced7c9de0c8e3e7e19d990c1172f62504576d2554284"
+    },
+    {
+      "path": "content/pep-english/raw/junior-8b/junior-8b_68.jpg",
+      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
+      "checked": true,
+      "sha256": "cdd74c2a0c6d2df1501637a8fe5cbd57008de34218dd88e3e2757b8f9df44b87"
+    }
+  ],
+  "corrections": [],
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "reviewer": "Codex",
+  "reviewedAt": "2026-10-02T05:02:50+00:00",
+  "notes": "PDF68页印刷59页鲁滨孙改编两段逐行核对；获船上物资、建屋耕种、发现足迹、救Friday及其名字来历完整。原文的两处问句属于叙事正文而非练习，均正确保留；破折号、时态及段落复读无误，无修改。",
+  "issues": [],
+  "status": "passed_unchanged"
+}

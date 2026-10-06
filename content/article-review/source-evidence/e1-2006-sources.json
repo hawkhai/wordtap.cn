@@ -1,0 +1,108 @@
+{
+  "article": "e1-2006",
+  "rawRead": {
+    "blocks": 9,
+    "pdfPhysicalPages": [
+      82,
+      83,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90
+    ],
+    "allPageImagesRead": true
+  },
+  "sources": [
+    {
+      "url": "https://www.huduser.gov/portal/sites/default/files/pdf/2023-AHAR-Part-1.pdf",
+      "readScope": "搜索返回PIT定义片段，单夜、庇护和非庇护范围；没有通读报告，也不拿它反推原文19 million。"
+    },
+    {
+      "url": "https://www.census.gov/content/dam/Census/library/publications/1997/demo/p20-494.pdf",
+      "readScope": "搜索返回1996年报告介绍及1900年13.6%条目，未读全报告；1996年9.3%与原文1998年9.8%并非同一年。"
+    },
+    {
+      "url": "https://www2.census.gov/library/publications/2010/acs/acsbr09-15.pdf",
+      "readScope": "搜索返回历史外国出生人口百分比脚注，核对1900年13.6%；其余旧报道住房、通婚统计未逐表重算。"
+    },
+    {
+      "url": "https://cis.org/Report/Immigrants-United-States-1998",
+      "readScope": "搜索返回作者以1998年3月CPS计算9.8%的研究简介，只作为该历史数字出处旁证，不采纳其政策立场或其他结论。"
+    },
+    {
+      "url": "https://www.rsc.org.uk/about-us/history/",
+      "readScope": "搜索返回A Brief History of the RSC全部五段，1879、1932、1961、1974、1986沿革；据1961更名补正剧院称谓。"
+    },
+    {
+      "url": "https://www.nature.com/articles/nature01610",
+      "readScope": "web打开完整摘要和书目信息，2003年5月15日、423卷280–283页，四大陆架九远洋系统、15年80%与约10%的研究估计；正文付费未取得，不声称全论文或补充数据已读。"
+    },
+    {
+      "url": "https://www.fisheries.noaa.gov/insight/stock-assessment-model-descriptions",
+      "readScope": "搜索返回生物量动态模型输出包括存量、捕捞率及MSY参考点片段，未通读全部模型条目。"
+    },
+    {
+      "url": "https://www.fisheries.noaa.gov/national/sustainable-fisheries/status-stocks-2024",
+      "readScope": "搜索返回MSY定义为现有环境渔业条件下可长期取得的最大平均渔获量，不将存量50%误解为年捕捞50%；未通读报告。"
+    },
+    {
+      "url": "https://time.com/archive/6596530/the-art-of-unhappiness/",
+      "readScope": "搜索返回标题、作者、2005年1月9日及开篇、广告药物例子、结尾等多个大段；有中间段落省略，不声称全篇已读。requests直接访问406，time.txt为错误响应不作为文章全文。现有试卷为用户本地改写文本，保留其正文。"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2024/020998s058lbl.pdf",
+      "readScope": "搜索返回全文说明开篇黑框心血管和胃肠警告及适应证列表，核对心梗风险警告；未通读药品完整标签，不提供用药建议。"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/12501748/",
+      "readScope": "搜索返回完整书目：George F. Will，Electronic morphine，Newsweek 2002-11-25;140(22):92，非文章全文。"
+    },
+    {
+      "url": "https://www.psychiatry.org/patients-families/gambling-disorder/what-is-gambling-disorder",
+      "readScope": "搜索返回DSM-5赌博障碍归类及相似成瘾机制说明片段，未通读全部页面或DSM手册。"
+    },
+    {
+      "url": "https://www.psychiatry.org/patients-families/internet-gaming",
+      "readScope": "搜索返回DSM-5-TR对赌博行为成瘾的归类说明，未将其他行为都称为确诊成瘾。"
+    },
+    {
+      "url": "https://yz.chsi.com.cn/kyzx/other/200811/20081126/10541008.html",
+      "readScope": "web打开通读Part C四段与两道写作要求及照片文字说明。该版也印matter，故改manner明记为语义校订而非声称官方已修正；部分America/Americans、Our/Your异文不据它覆盖本地源卷。"
+    },
+    {
+      "url": "https://www.gutenberg.org/files/16643/16643-h/16643-h.htm",
+      "readScope": "搜索返回public and illustrious thoughts所在段及后续一段，核对Emerson引语背景，未通读整书。"
+    },
+    {
+      "url": "https://history.hanover.edu/courses/excerpts/111emerson.html",
+      "readScope": "搜索返回The American Scholar、1837及相关段落，核对演说名和日期，不把本题作者对科学家教师的评论归给Emerson。"
+    }
+  ],
+  "restorations": [
+    "断词、20个完形空位、四篇阅读段落、七选五41–45和A–G选项、46–50全部划线范围。",
+    "照片左BECKHAM/把崇拜写在脸上，右花300元做个小贝头；原图与研招网页说明相互对照。"
+  ],
+  "editorialChanges": [
+    "剧院按官方1961更名补正Royal Shakespeare Theatre并保留旧称。",
+    "22D its→their、33B then→the、38C replace→replaces、47 matter→manner、50 reflections→reflection、指令each of后补the。",
+    "33题段号按当前六段正文改4；Ohio River大写及U.S.-born粘连修复。",
+    "19 million仅标为来源信息尚未取得的历史预测，不作实际人数背书或猜改；旧时间词、人口比例及广告评论明确语境。",
+    "科研数值作为2003研究结果，不当成当前所有鱼类状态，区分生物量、个体数、渔获量和年产量。",
+    "赌博障碍现代分类说明，与原作者医学化评论分开。"
+  ],
+  "reasonedAnswers": {
+    "cloze": "ABDADCBCAACBDCCABCAD",
+    "reading": "CACDBABCDDCACABDBDBA",
+    "matching": "CABFD",
+    "notOfficialKey": true
+  },
+  "limits": [
+    "完形原政府研究名称、预测基期和口径未取得，在正文说明中明确不将19 million作为已证实人数；不静默猜小数点。",
+    "移民通婚住房各旧统计和剧院历史上座率未全部独立重算，不表述为现行状况。",
+    "Newsweek仅书目核对，未取得全文或法院判决，不声称诉讼责任已判定。",
+    "无未经取得的官方参考答案、中译全文或作文范文。"
+  ]
+}

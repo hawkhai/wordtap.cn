@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "course": "pep-english",
+  "articleId": "pepj7a-003",
+  "beforeDisplaySha256": "2bfbe26590c7593397d5c2bb2f9dfc548e594c21e3b1a0c415e3c5c791e52acd",
+  "afterDisplaySha256": "2bfbe26590c7593397d5c2bb2f9dfc548e594c21e3b1a0c415e3c5c791e52acd",
+  "baselineDisplay": {
+    "title": "Mr. Cool's Clothes Store",
+    "section": "Section B",
+    "text": "Come and buy your clothes at our great sale! We sell all our clothes at very good prices. Do you like sweaters? We have green sweaters for only $15! Yellow sweaters are only $12! Do you need trousers? For boys, we have black trousers for only $22. And shorts are only $16! For girls, we have skirts in purple for only $20. How much are our jackets? Only $30! And we have black shoes for only $28. Socks are only $2 for three pairs! Come to Mr. Cool's Clothes Store now!",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Come and buy your clothes at our great sale! We sell all our clothes at very good prices. Do you like sweaters? We have green sweaters for only $15! Yellow sweaters are only $12! Do you need trousers? For boys, we have black trousers for only $22. And shorts are only $16! For girls, we have skirts in purple for only $20. How much are our jackets? Only $30! And we have black shoes for only $28. Socks are only $2 for three pairs! Come to Mr. Cool's Clothes Store now!"
+      }
+    ]
+  },
+  "display": {
+    "title": "Mr. Cool's Clothes Store",
+    "section": "Section B",
+    "text": "Come and buy your clothes at our great sale! We sell all our clothes at very good prices. Do you like sweaters? We have green sweaters for only $15! Yellow sweaters are only $12! Do you need trousers? For boys, we have black trousers for only $22. And shorts are only $16! For girls, we have skirts in purple for only $20. How much are our jackets? Only $30! And we have black shoes for only $28. Socks are only $2 for three pairs! Come to Mr. Cool's Clothes Store now!",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Come and buy your clothes at our great sale! We sell all our clothes at very good prices. Do you like sweaters? We have green sweaters for only $15! Yellow sweaters are only $12! Do you need trousers? For boys, we have black trousers for only $22. And shorts are only $16! For girls, we have skirts in purple for only $20. How much are our jackets? Only $30! And we have black shoes for only $28. Socks are only $2 for three pairs! Come to Mr. Cool's Clothes Store now!"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "path": "content/pep-english/raw/junior-7a.pdf",
+      "locator": "PDF第64-64页，标题与完整正文逐行核对",
+      "checked": true,
+      "sha256": "4cdfd213e2c54164b6b97bcd6d15e93b71e6b243e8aea958f330e6bf8822f46e"
+    },
+    {
+      "path": "content/pep-english/raw/junior-7a/junior-7a_64.jpg",
+      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
+      "checked": true,
+      "sha256": "c1f1d674949e90a98fbe9e2707640f6d45bd21b5c2279c47fb03525374ea7042"
+    }
+  ],
+  "corrections": [],
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "reviewer": "Codex",
+  "reviewedAt": "2026-10-02T04:43:35+00:00",
+  "notes": "对照PDF64页印刷41页广告框完整正文。逐项核对绿色毛衣15、黄色12、黑裤22、短裤16、紫裙20、夹克30、黑鞋28、三双袜2美元，数值和标点全对；插图绕排续接正确，无练习价格选项或填空混入。标题、Unit7/SectionB匹配，重读整段无需修改。",
+  "issues": [],
+  "status": "passed_unchanged"
+}

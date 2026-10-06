@@ -1,0 +1,20 @@
+{
+  "checkedAt": "2026-10-04T02:43:43.333599+00:00",
+  "scope": 1054,
+  "complete": true,
+  "statusCounts": {
+    "passed_edited": 838,
+    "passed_unchanged": 216
+  },
+  "followupsClosed": 40,
+  "files": {
+    "ledger.tsv": "ed581be8c427b1480963e9851aae7ba5145e60340371eee2d77cd95ec8851ac4",
+    "events.jsonl": "f879014a134f03a9a8ad58c0bfca0b0424add90ac59e31b1f1b67da8106ae1fa",
+    "followups-completed.json": "4faa7bfc367bceb0299ccdf4d0ccad6bd4ed4065f9e92e1b88b777c90caf17b6",
+    "verification-summary.json": "f1c661f82c5e4ee2de49c4df7de860d9cc09f8bab5f27e35afe9447cf6bb88f7",
+    "verification-final.log": "45ef88d487b0e974e79fc511017f680a4b3465a4f3df621d077a3076fef0e9a9",
+    "build-final.log": "ba4ba4603b3ddd257b94e60039a33eda71c6b7e24c18dd994a8a374c169f70f9",
+    "browser-final-2026-10-04.json": "5c539db3002706984293e5039afc8681b87e8d1b5cff19e66f6ae74f072d7d22",
+    "checkpoint-2026-10-02.json": "f970ccfc3e39345f7e439fcef3142be5008dace27826e7b0ba02c237116ee237"
+  }
+}

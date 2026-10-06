@@ -71,12 +71,12 @@
     ]
   },
   "manualReview": {
+    "reviewer": "Codex (user-directed restoration)",
+    "reviewedAt": "2026-10-05T17:15:10+00:00",
+    "correctionCount": 1,
+    "evidence": "content/article-review/cleanup-2026-10-06.json",
+    "eventSha256": "bd686c4b447bd76ef4056d538958382836d39a301fa82a1cb6935e62a063892a",
     "status": "passed",
-    "reviewer": "Codex",
-    "reviewedAt": "2026-07-30T17:53:25Z",
-    "correctionCount": 4,
-    "evidence": "Codex已从头至尾第二遍视觉通读教材原图166-168与最终8段文本；Q1-Q6及所有非正文内容均排除，末段与(893 words)终点一致。",
-    "textSha256": "df63da6c2d61c25c658079a69c307d3ad0398974df678a0dc7ff5ed2bda20ed2",
-    "eventSha256": "e842e672a5ae70053f58a8fb423fb0fb2d21e013609f1a18dde35665811ad4ce"
+    "textSha256": "df63da6c2d61c25c658079a69c307d3ad0398974df678a0dc7ff5ed2bda20ed2"
   }
 }

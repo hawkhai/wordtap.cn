@@ -1,0 +1,18 @@
+{
+  "articleId": "cet4-20231203",
+  "checkedAt": "2026-10-02",
+  "scope": "原PDF六页全部渲染打开逐行读图；下列外部材料用于史实、统计口径及论断边界，不以搜索命中冒充全文通读。",
+  "sources": [
+    {"url":"https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0217264","access":"已读出版页摘要、方法中样本与变量部分及结果开头；另读Notre Dame作者页面2019-06-17介绍全文","findings":"NetCARE把网络结构加入基线以提高预测；研究采用大学生通信及Fitbit资料，输出是自报状态。修改比较对象，不能读成朋友圈单独胜出或因果干预。"},
+    {"url":"https://niteshchawla.nd.edu/news/your-circle-of-friends-not-your-fitbit-is-more-predictive-of-your-health/","access":"搜索返回学校作者页面完整报道已读","findings":"2019年研究，介绍的是网络结构加设备数据的预测改善。该新闻末项success疑为stress误写，本篇不引用该项数值。"},
+    {"url":"https://www.theguardian.com/lifeandstyle/2013/oct/05/teens-social-networking-good-for-them","access":"搜索返回原报道的署名、日期及多段正文已读；不是全文","findings":"确认原报道Clive Thompson，2013-10-05；仅作为出处与历史语境。"},
+    {"url":"https://www.pewresearch.org/internet/2011/11/09/teens-kindness-and-cruelty-on-social-network-sites/","access":"搜索返回方法和导言已读；另读同日新闻稿及原报告第38–39页搜索全文段落","findings":"2011年调查799名12–17岁青少年。过去12个月网上受霸凌为8%，文本9%、电话7%；15%是社交网站用户遭遇刻薄行为，问题和分母不同。正文替换为8%及明确人群年份。"},
+    {"url":"https://www.pewresearch.org/internet/2011/11/09/teens-kindness-and-cruelty-on-social-network-sites-2/","access":"搜索返回同日原机构新闻稿已读","findings":"确认15%对应社交网站使用者的mean or cruel behavior，而非所有青少年过去一年网上霸凌。"},
+    {"url":"https://digfir-published.macmillanusa.com/wh_lunsford/asset/pdfs/01_Luns_Annos_lr_1-27.pdf","access":"直接打开失败；搜索返回原论文注释版What We Found、表5和后续论文类型段已读；NCTE出版页摘要核对","findings":"原论文为Lunsford与Lunsford2008。1917平均162词、2006平均1038词，约六倍为不同年代样本的平均篇幅。并非追踪同一个人，也不能把每百词错误率等同错误总数。"},
+    {"url":"https://www.leginfo.ca.gov/pub/13-14/bill/sen/sb_0551-0600/sb_568_bill_20130923_chaptered.pdf","access":"已打开六页2013正式法案，阅读全文抽取文本，重点22581、22582","findings":"2013-09-23通过，2015-01-01生效。适用服务为未成年人注册用户移除本人帖子或提供申请；第三方转载等有例外，允许使内容不可见，并不保证完整删除。"},
+    {"url":"https://www.thejockeyclub.co.uk/aintree/media/press-releases/2023/03/red-rums-trophies-returned-to-aintree-on-50th-anniversary-of-his-first-grand-national-success/","access":"赛会原稿搜索相关段落已读","findings":"马主Noel Le Mare，原卷Noel Le Mar漏e。"},
+    {"url":"https://www.thejockeyclub.co.uk/globalassets/racecourses/aintree/grand-national/media/gnmg_2019_interactive_5mb-min.pdf","access":"2019赛会指南相关原文搜索段落已读；另核对JockeyClub经典赛与RedRum50网页返回内容","findings":"1977年12岁以25个马身获胜；1978年赛前跛行、细微骨折退役。三次冠军1973/74/77和两次亚军1975/76与原卷一致。三十年后的今天不是考试年份。"},
+    {"url":"https://bear.warrington.ufl.edu/brenner/mar7588/Papers/kahneman-klein-2009.pdf","access":"大学存档的2009论文摘要和第一页全文经搜索返回已读；作者上传ResearchGate摘要交叉核对","findings":"直觉判断的质量取决于环境可预测性及学习规律的机会，主观体验不证明准确性；本文没有读完整十二页，也未宣称完整重做研究。"}
+  ],
+  "limitations": ["决策评论的原始作者和刊发日期经多次关键词搜索未确认，未虚构署名。原卷是这篇评论文字的核对来源，绝对化论断按明确研究边界校正。", "社交评论中的少数重度读者估计、因果解释与个别受访者观察未重新计算，正文说明按历史报道和作者观点理解。"]
+}

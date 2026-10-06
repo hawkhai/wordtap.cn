@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 1,
+  "course": "pep-english",
+  "articleId": "pephr3-009",
+  "beforeDisplaySha256": "5babaa239bb3fe69df923196b69e41a797b61114bbab1c37cf00aa08563cba7d",
+  "afterDisplaySha256": "16a96131372163f03c61dd3465eb3d5af4422d1b8159ef8d48ebb4cc53f17e3c",
+  "baselineDisplay": {
+    "title": "Thankfulness",
+    "section": "Project",
+    "text": "Thankfulness is realising and appreciating what you have.\nBe thankful, because you have more than others!\nIf you see no reason for giving thanks, the fault lies in yourself. (Indian proverb)\nI had no shoes and complained, until I met a man who had no feet. (Indian proverb)\nBe thankful, because you have been given much!\nIf you can read this, thank a teacher. (Anonymous)\nWhen eating fruit, think of the person who planted the tree. (Asian proverb)\nBe thankful, because it will shape your whole life!\nBe thankful for what you have; you'll end up having more. If you concentrate on what you don't have, you will never, ever have enough. (Oprah Winfrey)",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Thankfulness is realising and appreciating what you have."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Be thankful, because you have more than others!\nIf you see no reason for giving thanks, the fault lies in yourself. (Indian proverb)\nI had no shoes and complained, until I met a man who had no feet. (Indian proverb)"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Be thankful, because you have been given much!\nIf you can read this, thank a teacher. (Anonymous)\nWhen eating fruit, think of the person who planted the tree. (Asian proverb)"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Be thankful, because it will shape your whole life!\nBe thankful for what you have; you'll end up having more. If you concentrate on what you don't have, you will never, ever have enough. (Oprah Winfrey)"
+      }
+    ]
+  },
+  "display": {
+    "title": "Thankfulness",
+    "section": "Project",
+    "text": "Thankfulness is realising and appreciating what you have.\nBe thankful, because you have more than others!\nIf you see no reason for giving thanks, the fault lies in yourself. (Indian proverb)\nI had no shoes and complained, until I met a man who had no feet. (Indian proverb)\nBe thankful, because you have been given much!\nIf you can read this, thank a teacher. (Anonymous)\nWhen eating fruit, think of the person who planted the tree. (Asian proverb)\nBe thankful, because it will shape your whole life!\nBe thankful for what you have; you'll end up having more. If you concentrate on what you don't have, you will never, ever have enough. (Oprah Winfrey)",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Thankfulness is realising and appreciating what you have."
+      },
+      {
+        "type": "subheading",
+        "lang": "en",
+        "text": "Be thankful, because you have more than others!"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "If you see no reason for giving thanks, the fault lies in yourself. (Indian proverb)"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "I had no shoes and complained, until I met a man who had no feet. (Indian proverb)"
+      },
+      {
+        "type": "subheading",
+        "lang": "en",
+        "text": "Be thankful, because you have been given much!"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "If you can read this, thank a teacher. (Anonymous)"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "When eating fruit, think of the person who planted the tree. (Asian proverb)"
+      },
+      {
+        "type": "subheading",
+        "lang": "en",
+        "text": "Be thankful, because it will shape your whole life!"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Be thankful for what you have; you'll end up having more. If you concentrate on what you don't have, you will never, ever have enough. (Oprah Winfrey)"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "path": "content/pep-english/raw/senior-required-3.pdf",
+      "locator": "PDF第30-30页，标题与完整正文逐行核对",
+      "checked": true,
+      "sha256": "fe9c8e15e62f4aec56efc60b8de43f4a55d40f3114d6505affaef78a8b7a1af2"
+    },
+    {
+      "path": "content/pep-english/raw/senior-required-3/senior-required-3_30.jpg",
+      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
+      "checked": true,
+      "sha256": "bf6ea096f7286562e73b02f0bca086bb0f0927ad02c492c9eff72401ba566efa"
+    }
+  ],
+  "corrections": [],
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "reviewer": "Codex",
+  "reviewedAt": "2026-10-02T05:55:29+00:00",
+  "notes": "核对PDF第30页感恩海报，定义、三个Be thankful分组标题与五条格言及来源署名完整一致；按原页层级拆分三个粗体小标题，各条格言独立成段，文字不改。",
+  "issues": [],
+  "status": "passed_edited"
+}

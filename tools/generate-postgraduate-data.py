@@ -5,9 +5,12 @@ from __future__ import annotations
 
 import argparse
 import json
+import hashlib
 import re
 from datetime import datetime, timezone
 from pathlib import Path
+
+from article_review import apply_revision
 
 from graduate_reader import ARTICLES as GRADUATE_ARTICLES
 from graduate_reader import VOLUME_ID as GRADUATE_VOLUME_ID
@@ -219,11 +222,22 @@ def parse_second_volume(source_dir: Path) -> list[dict]:
 
 def parse_supplements(supplements_dir: Path) -> list[dict]:
     volume_dir = supplements_dir / "volume1"
-    if not volume_dir.is_dir():
-        return []
+    sources = {p.name: p for p in volume_dir.glob("*.json")}
+    # Local supplements are intentionally ignored by Git. Keep exact recovery
+    # snapshots of the already published baseline available in a fresh checkout.
+    recovery_records = {}
+    recovery_manifest = ROOT / "content" / "article-review" / "source-recovery.json"
+    if supplements_dir.resolve() == DEFAULT_SUPPLEMENTS.resolve() and recovery_manifest.is_file():
+        for recovery in json.loads(recovery_manifest.read_text(encoding="utf-8"))["recoveries"]:
+            snapshot = ROOT / recovery["snapshot"]
+            if snapshot.name not in sources:
+                if hashlib.sha256(snapshot.read_bytes()).hexdigest() != recovery["recoveredSourceSha256"]:
+                    raise ValueError("Recovered supplement baseline hash changed")
+                sources[snapshot.name] = snapshot
+                recovery_records[snapshot.name] = recovery
 
     lessons: list[dict] = []
-    for source_path in sorted(volume_dir.glob("*.json")):
+    for name, source_path in sorted(sources.items()):
         payload = json.loads(source_path.read_text(encoding="utf-8"))
         if payload.get("schemaVersion") != 1:
             raise ValueError(f"{source_path}: unsupported schemaVersion")
@@ -255,7 +269,9 @@ def parse_supplements(supplements_dir: Path) -> list[dict]:
         if not isinstance(source, dict) or not str(source.get("rightsBasis", "")).strip():
             raise ValueError(f"{source_path}: source.rightsBasis is required")
         lesson_id = f"volume1-{unit_no:02d}"
-        relative_source = display_source_path(source_path)
+        relative_source = display_source_path(volume_dir / name)
+        if name in recovery_records:
+            source = {**source, "recoveryFile": recovery_records[name]["snapshot"]}
         lessons.append({
             "schemaVersion": 1,
             "id": lesson_id,
@@ -366,7 +382,9 @@ def write_output(source_dir: Path, supplements_dir: Path, graduate_ocr_dir: Path
         for stale_path in lesson_dir.glob("*.json"):
             if stale_path.name not in expected_filenames:
                 stale_path.unlink()
-        for detail in lessons:
+        for index, detail in enumerate(lessons):
+            detail = apply_revision(detail, "postgraduate")
+            lessons[index] = detail
             detail["source"].update({
                 "generatedAt": generated_at,
                 "generator": "tools/generate-postgraduate-data.py",

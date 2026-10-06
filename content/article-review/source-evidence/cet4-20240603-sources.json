@@ -1,0 +1,66 @@
+{
+  "articleId": "cet4-20240603",
+  "checkedAt": "2026-10-02",
+  "scope": "原PDF6页全部渲染打开逐行阅读；外部资料按下列范围核查。",
+  "sources": [
+    {
+      "url": "https://www.eurekalert.org/news-releases/694274",
+      "access": "TUM于2019-08-09发布的机构新闻，搜索返回正文已读；直接打开报内部错误",
+      "findings": "11项情境研究/调查，欧美2000余人；即时自我威胁与对经济未来的感知不同。首句为当时预测，不是已发生的就业统计。"
+    },
+    {
+      "url": "https://repub.eur.nl/pub/118558",
+      "access": "作者所在Erasmus大学原论文摘要全文已打开读完",
+      "findings": "DOI10.1038/s41562-019-0670-y，2019；他人/自身被替代时偏好反转，心理机制为相对自我威胁，不是保证人人如此。"
+    },
+    {
+      "url": "https://teachnews.gr/ekpaideftika-nea/item/789-no-escape-as-snow-day-becomes-e-learning-day",
+      "access": "转载页全文已读，仅用于文本出处线索；未找到可读取的原媒体链接或确切日期",
+      "findings": "C–I内容及当时学区争议匹配。政策用历史报道表述，并不作为当前各州统一规定。"
+    },
+    {
+      "url": "https://www.gov.uk/government/news/just-one-day-off-can-hamper-childrens-life-chances",
+      "access": "2016-03-24教育部原发布正文与研究说明已读",
+      "findings": "缺勤与较低达标率相关；控制既有成绩和可观察学生特征，不是任何单次缺勤必然导致低分。"
+    },
+    {
+      "url": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/509679/The-link-between-absence-and-attainment-at-KS2-and-KS4-2013-to-2014-academic-year.pdf",
+      "access": "38页原报告已打开；引言、主要发现、方法及第13–14页授权/未授权分组图与解释已读，非全文",
+      "findings": "两类缺勤率分组都与低成绩相关，同缺勤率分段未获准组达标比例更低；分组不能确立许可的因果效应，加入原因未增加太多解释力。J和42去掉因果及对家长态度的无依据推断。"
+    },
+    {
+      "url": "https://www.hks.harvard.edu/research-insights/policy-topics/education-training-and-labor/effect-snow-days-student-performance",
+      "access": "Harvard2014-01-21机构研究介绍全文搜索返回已读",
+      "findings": "Massachusetts2003–2010三至十年级；学校安排补课，整体雪天停课未见成绩影响，开校但学生缺勤更有扰动。"
+    },
+    {
+      "url": "https://www.hks.harvard.edu/announcements/when-heat-student-learning-suffers",
+      "access": "web打开错误，直接urllib获取HTML并抽取article全文已读",
+      "findings": "2018-05-28，约1000万高中2001–2014毕业届多次PSAT记录；上学日热暴露、空调缓解作用与样本范围；去掉last summer及模糊13年。"
+    },
+    {
+      "url": "https://www.simonandschuster.com/books/Dress-Codes/Richard-Thompson-Ford/9781501180088",
+      "access": "出版社介绍、书评引语和原书节选的禁奢法规相关连续原文已读；并非整书",
+      "findings": "Free Lance-Star书评引语与原题结尾对应；原书记古希腊/罗马及1157Genoa，故1200最早错误，改some medieval European laws并改48。保留评论者评价。"
+    },
+    {
+      "url": "https://law.stanford.edu/publications/dress-codes-how-the-laws-of-fashion-made-history/",
+      "access": "作者大学书目及出版社摘要全文已读",
+      "findings": "Richard Thompson Ford，2021-02-09出版，服饰规范与社会等级的主题相符。"
+    },
+    {
+      "url": "https://www.earnshaws.com/news/a-100-year-old-earnshaws-quotation-in-play-today/",
+      "access": "刊物2017-03-20自身历史文章全文已读",
+      "findings": "自述1918年6月刊物推荐男孩粉色、女孩蓝色；改catalog为trade publication并补颜色，限定一种历史意见。未采用其60年代概述。"
+    },
+    {
+      "url": "https://harappa.education/harappa-diaries/persuasion-skills/",
+      "access": "第三方书目找到可能来源，web内部错误、urllib403，未取得原文，不视作已读原来源",
+      "findings": "职场篇仍以用户提供原PDF为文本来源，标为建议而非人口统计，原建议结构及题义保留；不虚构作者或发布日期。"
+    }
+  ],
+  "limitations": [
+    "未获取雪天原媒体文章确切发布日期、书评原媒体全文或职场篇原网站全文；没有据此声称直接读过这些原文。",
+    "保留原卷听力未重复显示说明。"
+  ]
+}

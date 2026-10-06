@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "course": "pep-english",
+  "articleId": "pepj8b-006",
+  "beforeDisplaySha256": "bf8e0a9eb946919793947803938223c5c11ca3df4fd44608d15bb73d14e379e4",
+  "afterDisplaySha256": "bf8e0a9eb946919793947803938223c5c11ca3df4fd44608d15bb73d14e379e4",
+  "baselineDisplay": {
+    "title": "Kim's Problem with Her Sister",
+    "section": "Section A",
+    "text": "Dave: You look sad, Kim. What's wrong?\nKim: Well, I found my sister looking through my things yesterday. She took some of my new magazines and CDs.\nDave: Hmm... that's not very nice. Did she give them back to you?\nKim: Yes, but I'm still angry with her. What should I do?\nDave: Well, I guess you could tell her to say sorry. But why don't you forget about it so that you can be friends again? Although she's wrong, it's not a big deal.\nKim: You're right. Thanks for your advice.\nDave: No problem. Hope things work out.",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Dave: You look sad, Kim. What's wrong?"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Kim: Well, I found my sister looking through my things yesterday. She took some of my new magazines and CDs."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Dave: Hmm... that's not very nice. Did she give them back to you?"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Kim: Yes, but I'm still angry with her. What should I do?"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Dave: Well, I guess you could tell her to say sorry. But why don't you forget about it so that you can be friends again? Although she's wrong, it's not a big deal."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Kim: You're right. Thanks for your advice."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Dave: No problem. Hope things work out."
+      }
+    ]
+  },
+  "display": {
+    "title": "Kim's Problem with Her Sister",
+    "section": "Section A",
+    "text": "Dave: You look sad, Kim. What's wrong?\nKim: Well, I found my sister looking through my things yesterday. She took some of my new magazines and CDs.\nDave: Hmm... that's not very nice. Did she give them back to you?\nKim: Yes, but I'm still angry with her. What should I do?\nDave: Well, I guess you could tell her to say sorry. But why don't you forget about it so that you can be friends again? Although she's wrong, it's not a big deal.\nKim: You're right. Thanks for your advice.\nDave: No problem. Hope things work out.",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Dave: You look sad, Kim. What's wrong?"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Kim: Well, I found my sister looking through my things yesterday. She took some of my new magazines and CDs."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Dave: Hmm... that's not very nice. Did she give them back to you?"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Kim: Yes, but I'm still angry with her. What should I do?"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Dave: Well, I guess you could tell her to say sorry. But why don't you forget about it so that you can be friends again? Although she's wrong, it's not a big deal."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Kim: You're right. Thanks for your advice."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Dave: No problem. Hope things work out."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "path": "content/pep-english/raw/junior-8b.pdf",
+      "locator": "PDF第35-35页，标题与完整正文逐行核对",
+      "checked": true,
+      "sha256": "1be886980dc0833b9c87ced7c9de0c8e3e7e19d990c1172f62504576d2554284"
+    },
+    {
+      "path": "content/pep-english/raw/junior-8b/junior-8b_35.jpg",
+      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
+      "checked": true,
+      "sha256": "c4db7f9afb0e37ddb698c79e5d357f6cb66487f986d1cece89b79ad4b5266b56"
+    }
+  ],
+  "corrections": [],
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "reviewer": "Codex",
+  "reviewedAt": "2026-10-02T05:00:39+00:00",
+  "notes": "PDF35页印刷26页Kim与Dave七轮对话完整逐行复核；杂志与CD已归还但仍生气、道歉与和好建议及末句祝愿均与原页一致。未混入上方Peter的练习，角色、次序和正文无误，无需修改。",
+  "issues": [],
+  "status": "passed_unchanged"
+}

@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "course": "pep-english",
+  "articleId": "pepj9-025",
+  "beforeDisplaySha256": "ddb7651ec97a073560d0d2e005eb38786bc37c2b103fe4dae1af84a704bfbc72",
+  "afterDisplaySha256": "ddb7651ec97a073560d0d2e005eb38786bc37c2b103fe4dae1af84a704bfbc72",
+  "baselineDisplay": {
+    "title": "Where Is Linda's Schoolbag?",
+    "section": "Section A",
+    "text": "Linda: Mom, I'm really worried.\nMom: Why? What's wrong?\nLinda: I can't find my schoolbag.\nMom: Well, where did you last put it?\nLinda: I can't remember! I attended a concert yesterday so it might still be in the music hall.\nMom: Do you have anything valuable in your schoolbag?\nLinda: No, just my books, my pink hair band and some tennis balls.\nMom: So it can't be stolen.\nLinda: Oh, wait! I went to a picnic after the concert. I remember I had my schoolbag with me at the picnic.\nMom: So could it still be at the park?\nLinda: Yes. I left early, before the rest of my friends. I think somebody must have picked it up. I'll call them now to check if anybody has it.",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Linda: Mom, I'm really worried.\nMom: Why? What's wrong?\nLinda: I can't find my schoolbag.\nMom: Well, where did you last put it?\nLinda: I can't remember! I attended a concert yesterday so it might still be in the music hall.\nMom: Do you have anything valuable in your schoolbag?\nLinda: No, just my books, my pink hair band and some tennis balls.\nMom: So it can't be stolen.\nLinda: Oh, wait! I went to a picnic after the concert. I remember I had my schoolbag with me at the picnic.\nMom: So could it still be at the park?\nLinda: Yes. I left early, before the rest of my friends. I think somebody must have picked it up. I'll call them now to check if anybody has it."
+      }
+    ]
+  },
+  "display": {
+    "title": "Where Is Linda's Schoolbag?",
+    "section": "Section A",
+    "text": "Linda: Mom, I'm really worried.\nMom: Why? What's wrong?\nLinda: I can't find my schoolbag.\nMom: Well, where did you last put it?\nLinda: I can't remember! I attended a concert yesterday so it might still be in the music hall.\nMom: Do you have anything valuable in your schoolbag?\nLinda: No, just my books, my pink hair band and some tennis balls.\nMom: So it can't be stolen.\nLinda: Oh, wait! I went to a picnic after the concert. I remember I had my schoolbag with me at the picnic.\nMom: So could it still be at the park?\nLinda: Yes. I left early, before the rest of my friends. I think somebody must have picked it up. I'll call them now to check if anybody has it.",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Linda: Mom, I'm really worried.\nMom: Why? What's wrong?\nLinda: I can't find my schoolbag.\nMom: Well, where did you last put it?\nLinda: I can't remember! I attended a concert yesterday so it might still be in the music hall.\nMom: Do you have anything valuable in your schoolbag?\nLinda: No, just my books, my pink hair band and some tennis balls.\nMom: So it can't be stolen.\nLinda: Oh, wait! I went to a picnic after the concert. I remember I had my schoolbag with me at the picnic.\nMom: So could it still be at the park?\nLinda: Yes. I left early, before the rest of my friends. I think somebody must have picked it up. I'll call them now to check if anybody has it."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "path": "content/pep-english/raw/junior-9.pdf",
+      "locator": "PDF第72-72页，标题与完整正文逐行核对",
+      "checked": true,
+      "sha256": "9c4118021048d901610b673f590ed28c39c04cb2d4f7fd940f83a2d8b2741af7"
+    },
+    {
+      "path": "content/pep-english/raw/junior-9/junior-9_72.jpg",
+      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
+      "checked": true,
+      "sha256": "8eb6d5c0048b52c6973c329ebd20c45352a5eca2e60bf8e7c2aab948fa1def20"
+    }
+  ],
+  "corrections": [],
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "reviewer": "Codex",
+  "reviewedAt": "2026-10-02T05:11:52+00:00",
+  "notes": "PDF72页印刷58页Linda/Mom十一轮逐行复核，音乐会后野餐、书/粉色发带/网球、早走猜同伴捡包及打电话查询完整。母亲关于被盗的判断是原对话推测而非新增事实，角色换行和情态动词准确，复读无修改。",
+  "issues": [],
+  "status": "passed_unchanged"
+}

@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "course": "pep-english",
+  "articleId": "pephr2-010",
+  "beforeDisplaySha256": "c1b0be24f769e4d64c0f1cff1a01d4c29fff37d87012329ab802189795802b1c",
+  "afterDisplaySha256": "c1b0be24f769e4d64c0f1cff1a01d4c29fff37d87012329ab802189795802b1c",
+  "baselineDisplay": {
+    "title": "Beautiful Ireland and Its Traditions",
+    "section": "Reading for Writing",
+    "text": "Ireland's beautiful countryside has always had a great influence on its people and traditions. The country has a long history of producing great writers and poets. Its beautiful countryside excites and inspires all, offering something for each of the senses. The peaceful landscape of the “Emerald Isle” and its many green counties is a true feast for the eyes, with its rolling green hills dotted with sheep and cattle. And down by the sea, the roar of the ocean waves and cries of the seabirds make up the music of the coast. On a quiet morning in the mountains, feel the sun on your skin, and breathe in the sweet scent of fresh flowers while birds greet the new day with their morning song. With all this beauty, it is not surprising that Ireland has developed strong traditions that include music, dancing, and dining. To have a chance of experiencing this, stop by a village pub and relax with a glass of wine or a local beer. Better yet, enjoy a delicious traditional Irish Beef Stew. If you're lucky, you might be able to enjoy some traditional music and dancing, too. And if you introduce yourself to a friendly face, you are more than likely to experience local culture and customs first-hand.",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Ireland's beautiful countryside has always had a great influence on its people and traditions. The country has a long history of producing great writers and poets. Its beautiful countryside excites and inspires all, offering something for each of the senses. The peaceful landscape of the “Emerald Isle” and its many green counties is a true feast for the eyes, with its rolling green hills dotted with sheep and cattle. And down by the sea, the roar of the ocean waves and cries of the seabirds make up the music of the coast. On a quiet morning in the mountains, feel the sun on your skin, and breathe in the sweet scent of fresh flowers while birds greet the new day with their morning song. With all this beauty, it is not surprising that Ireland has developed strong traditions that include music, dancing, and dining. To have a chance of experiencing this, stop by a village pub and relax with a glass of wine or a local beer. Better yet, enjoy a delicious traditional Irish Beef Stew. If you're lucky, you might be able to enjoy some traditional music and dancing, too. And if you introduce yourself to a friendly face, you are more than likely to experience local culture and customs first-hand."
+      }
+    ]
+  },
+  "display": {
+    "title": "Beautiful Ireland and Its Traditions",
+    "section": "Reading for Writing",
+    "text": "Ireland's beautiful countryside has always had a great influence on its people and traditions. The country has a long history of producing great writers and poets. Its beautiful countryside excites and inspires all, offering something for each of the senses. The peaceful landscape of the “Emerald Isle” and its many green counties is a true feast for the eyes, with its rolling green hills dotted with sheep and cattle. And down by the sea, the roar of the ocean waves and cries of the seabirds make up the music of the coast. On a quiet morning in the mountains, feel the sun on your skin, and breathe in the sweet scent of fresh flowers while birds greet the new day with their morning song. With all this beauty, it is not surprising that Ireland has developed strong traditions that include music, dancing, and dining. To have a chance of experiencing this, stop by a village pub and relax with a glass of wine or a local beer. Better yet, enjoy a delicious traditional Irish Beef Stew. If you're lucky, you might be able to enjoy some traditional music and dancing, too. And if you introduce yourself to a friendly face, you are more than likely to experience local culture and customs first-hand.",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Ireland's beautiful countryside has always had a great influence on its people and traditions. The country has a long history of producing great writers and poets. Its beautiful countryside excites and inspires all, offering something for each of the senses. The peaceful landscape of the “Emerald Isle” and its many green counties is a true feast for the eyes, with its rolling green hills dotted with sheep and cattle. And down by the sea, the roar of the ocean waves and cries of the seabirds make up the music of the coast. On a quiet morning in the mountains, feel the sun on your skin, and breathe in the sweet scent of fresh flowers while birds greet the new day with their morning song. With all this beauty, it is not surprising that Ireland has developed strong traditions that include music, dancing, and dining. To have a chance of experiencing this, stop by a village pub and relax with a glass of wine or a local beer. Better yet, enjoy a delicious traditional Irish Beef Stew. If you're lucky, you might be able to enjoy some traditional music and dancing, too. And if you introduce yourself to a friendly face, you are more than likely to experience local culture and customs first-hand."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "path": "content/pep-english/raw/senior-required-2.pdf",
+      "locator": "PDF第51-51页，标题与完整正文逐行核对",
+      "checked": true,
+      "sha256": "33b74bf42b22b32fdbe3201e6f61cf8099be047ef0af8a1740f6013dee4a619d"
+    },
+    {
+      "path": "content/pep-english/raw/senior-required-2/senior-required-2_51.jpg",
+      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
+      "checked": true,
+      "sha256": "c3b3ebde970262267b4cf563ce5ac3c905624aceb94a122694d1fbce901ab8d1"
+    }
+  ],
+  "corrections": [],
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "reviewer": "Codex",
+  "reviewedAt": "2026-10-02T05:40:35+00:00",
+  "notes": "PDF第51页爱尔兰风景文化完整单段逐句核对，Emerald Isle/green counties、视觉听觉嗅觉等描写及Irish Beef Stew、first-hand结尾一致，保留描写段整体，无修改。",
+  "issues": [],
+  "status": "passed_unchanged"
+}

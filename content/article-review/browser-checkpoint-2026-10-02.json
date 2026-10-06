@@ -1,0 +1,72 @@
+{
+  "snapshotRegistered": 278,
+  "server": "Vite production preview",
+  "report": [
+    {
+      "name": "nce-glasses",
+      "code": "nce:1-023",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "errors": []
+    },
+    {
+      "name": "nce-robert",
+      "code": "nce:1-007",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "errors": []
+    },
+    {
+      "name": "postgraduate-long",
+      "code": "pg:rwt-09b",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "errors": []
+    },
+    {
+      "name": "lookup-speech-controls-save",
+      "width": 1440,
+      "meaning": "[hu:z]\npron. 谁的",
+      "counts": {
+        "words": [
+          "Whose"
+        ],
+        "texts": 1
+      },
+      "audibleOutputVerified": false
+    },
+    {
+      "name": "nce-glasses",
+      "code": "nce:1-023",
+      "width": 390,
+      "scrollWidth": 390,
+      "errors": []
+    },
+    {
+      "name": "nce-robert",
+      "code": "nce:1-007",
+      "width": 390,
+      "scrollWidth": 390,
+      "errors": []
+    },
+    {
+      "name": "postgraduate-long",
+      "code": "pg:rwt-09b",
+      "width": 390,
+      "scrollWidth": 390,
+      "errors": []
+    },
+    {
+      "name": "lookup-speech-controls-save",
+      "width": 390,
+      "meaning": "[hu:z]\npron. 谁的",
+      "counts": {
+        "words": [
+          "Whose"
+        ],
+        "texts": 1
+      },
+      "audibleOutputVerified": false
+    }
+  ]
+}

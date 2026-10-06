@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "course": "pep-english",
+  "articleId": "pepj7b-003",
+  "beforeDisplaySha256": "02e5ea3bcaf2456d004d97a81fe7db34e19ca6a9c3876041f3668f804e93b18f",
+  "afterDisplaySha256": "02e5ea3bcaf2456d004d97a81fe7db34e19ca6a9c3876041f3668f804e93b18f",
+  "baselineDisplay": {
+    "title": "Lisa and Jane's Commute",
+    "section": "Section A",
+    "text": "Lisa: Hey, Jane. Is this your new bike?\nJane: Yes. I ride it to school every day. How do you get to school?\nLisa: I usually take the bus.\nJane: How far is it from your home to school?\nLisa: I'm not sure... about 10 kilometers? The bus ride takes about 20 minutes. How long does it take you to get to school?\nJane: About 15 minutes by bike. It's good exercise.\nLisa: Yeah. Well, have a good day at school.\nJane: You, too.",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Lisa: Hey, Jane. Is this your new bike?\nJane: Yes. I ride it to school every day. How do you get to school?\nLisa: I usually take the bus.\nJane: How far is it from your home to school?\nLisa: I'm not sure... about 10 kilometers? The bus ride takes about 20 minutes. How long does it take you to get to school?\nJane: About 15 minutes by bike. It's good exercise.\nLisa: Yeah. Well, have a good day at school.\nJane: You, too."
+      }
+    ]
+  },
+  "display": {
+    "title": "Lisa and Jane's Commute",
+    "section": "Section A",
+    "text": "Lisa: Hey, Jane. Is this your new bike?\nJane: Yes. I ride it to school every day. How do you get to school?\nLisa: I usually take the bus.\nJane: How far is it from your home to school?\nLisa: I'm not sure... about 10 kilometers? The bus ride takes about 20 minutes. How long does it take you to get to school?\nJane: About 15 minutes by bike. It's good exercise.\nLisa: Yeah. Well, have a good day at school.\nJane: You, too.",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Lisa: Hey, Jane. Is this your new bike?\nJane: Yes. I ride it to school every day. How do you get to school?\nLisa: I usually take the bus.\nJane: How far is it from your home to school?\nLisa: I'm not sure... about 10 kilometers? The bus ride takes about 20 minutes. How long does it take you to get to school?\nJane: About 15 minutes by bike. It's good exercise.\nLisa: Yeah. Well, have a good day at school.\nJane: You, too."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "path": "content/pep-english/raw/junior-7b.pdf",
+      "locator": "PDF第24-24页，标题与完整正文逐行核对",
+      "checked": true,
+      "sha256": "7041d787738bdf5f4f556765acdfe8033ac2f69d03e67ccc62516375f6a46f37"
+    },
+    {
+      "path": "content/pep-english/raw/junior-7b/junior-7b_24.jpg",
+      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
+      "checked": true,
+      "sha256": "b45ebaf100554c319fd160578771212e35f67855e83494e10f8fa604d4c9fd2a"
+    }
+  ],
+  "corrections": [],
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "reviewer": "Codex",
+  "reviewedAt": "2026-10-02T04:44:53+00:00",
+  "notes": "PDF24页印刷14页2e完整Lisa/Jane对话逐行核对，两轮复读：10公里、公交20分钟、自行车15分钟及every day/usually准确；末尾have a good day/You too齐全。原页2a-2d数字表格和练习句未混入，Unit3 SectionA及概括标题准确，无修改。",
+  "issues": [],
+  "status": "passed_unchanged"
+}

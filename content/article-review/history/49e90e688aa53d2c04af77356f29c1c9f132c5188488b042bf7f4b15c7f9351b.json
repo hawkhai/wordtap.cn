@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 1,
+  "course": "pep-english",
+  "articleId": "pephs4-014",
+  "beforeDisplaySha256": "abf0c06db776d700997c8a411ebbe2f08e7edd73d86a59e1385d85e21d96e543",
+  "afterDisplaySha256": "a901bc99941e1a473f9e0252083e978d1fbd33c8b13ebcb0dfb6f909cb2fa2f1",
+  "baselineDisplay": {
+    "title": "China Exchange",
+    "section": "Project",
+    "text": "Who are we?\nWe are an organisation whose goal is to help people abroad through exchange with China.\nWhat do we do?\nBusiness or organisation employees from China and another country trade places for a period of time. This helps people in both countries to learn from each other’s expertise, and to broaden their cultural understanding.\nWhere do we work?\nWe work in Asia, Latin America, and Africa.\nHow can you help?\nYou can suggest an exchange that you want to take part in. We will help to arrange and pay for it.",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Who are we?\nWe are an organisation whose goal is to help people abroad through exchange with China."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "What do we do?\nBusiness or organisation employees from China and another country trade places for a period of time. This helps people in both countries to learn from each other’s expertise, and to broaden their cultural understanding."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Where do we work?\nWe work in Asia, Latin America, and Africa."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "How can you help?\nYou can suggest an exchange that you want to take part in. We will help to arrange and pay for it."
+      }
+    ]
+  },
+  "display": {
+    "title": "China Exchange",
+    "section": "Project",
+    "text": "Who are we?\nWe are an organisation whose goal is to help people abroad through exchange with China.\nWhat do we do?\nBusiness or organisation employees from China and another country trade places for a period of time. This helps people in both countries to learn from each other’s expertise, and to broaden their cultural understanding.\nWhere do we work?\nWe work in Asia, Latin America, and Africa.\nHow can you help?\nYou can suggest an exchange that you want to take part in. We will help to arrange and pay for it.",
+    "blocks": [
+      {
+        "type": "subheading",
+        "lang": "en",
+        "text": "Who are we?"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "We are an organisation whose goal is to help people abroad through exchange with China."
+      },
+      {
+        "type": "subheading",
+        "lang": "en",
+        "text": "What do we do?"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Business or organisation employees from China and another country trade places for a period of time. This helps people in both countries to learn from each other’s expertise, and to broaden their cultural understanding."
+      },
+      {
+        "type": "subheading",
+        "lang": "en",
+        "text": "Where do we work?"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "We work in Asia, Latin America, and Africa."
+      },
+      {
+        "type": "subheading",
+        "lang": "en",
+        "text": "How can you help?"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "You can suggest an exchange that you want to take part in. We will help to arrange and pay for it."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "path": "content/pep-english/raw/senior-selective-4.pdf",
+      "locator": "PDF第54-54页，标题与完整正文逐行核对",
+      "checked": true,
+      "sha256": "2ad7555a13eb420aa70497f9faa2541fdb502b7ffc4e063e87c60cce88f1b4a3"
+    },
+    {
+      "path": "content/pep-english/raw/senior-selective-4/senior-selective-4_54.jpg",
+      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
+      "checked": true,
+      "sha256": "a800519cfe88bf8f729e37672708725412db1aa1769341eae1ea1f5c73d6c266"
+    }
+  ],
+  "corrections": [],
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "reviewer": "Codex",
+  "reviewedAt": "2026-10-02T07:39:54+00:00",
+  "notes": "全文与PDF54页右侧China Exchange教学海报逐行对照，恢复四个蓝色小标题与回答分离的结构；地区、项目方式及参与说明无误。",
+  "issues": [],
+  "status": "passed_edited"
+}

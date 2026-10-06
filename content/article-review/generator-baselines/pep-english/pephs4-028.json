@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "articleId": "pephs4-028",
+  "course": "pep-english",
+  "publicBeforeDisplaySha256": "5d8c86c1dea51c27820c7eb61751c8fc0bd99d429865230f2c87192a0b89a4c9",
+  "generatorBeforeDisplaySha256": "73d1d63b8b17f32a821747855747169eb94eeb05e36edb549621ac7b74d86b28",
+  "display": {
+    "title": "Pavlova",
+    "section": "Reading and Writing",
+    "text": "By far the favourite dessert in Australia is the pavlova, which was named after the famous Russian ballet dancer Anna Pavlova, who visited Australia in the 1920s.\nINGREDIENTS\n4 egg whites\na little salt\n1 cup sugar\n2 teaspoons flour\n2/3 teaspoon vinegar\n2/3 teaspoon vanilla\n2 cups cream\nfresh fruit\nWhisk the egg whites until they are stiff. Add the salt. Add the sugar a little at a time and continue whisking until you have a meringue. Mix the flour, vinegar, and vanilla together. Add to the meringue. Spread the meringue on a baking sheet. Put it into a heated oven and cook at 120˚C for 1 hour. Turn off the oven. Leave the meringue in the oven until it is cool. Whip the cream. Cover the meringue with the whipped cream. Top the whipped cream with your choice of chopped fresh fruit.",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "By far the favourite dessert in Australia is the pavlova, which was named after the famous Russian ballet dancer Anna Pavlova, who visited Australia in the 1920s."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "INGREDIENTS\n4 egg whites\na little salt\n1 cup sugar\n2 teaspoons flour\n2/3 teaspoon vinegar\n2/3 teaspoon vanilla\n2 cups cream\nfresh fruit"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Whisk the egg whites until they are stiff. Add the salt. Add the sugar a little at a time and continue whisking until you have a meringue. Mix the flour, vinegar, and vanilla together. Add to the meringue. Spread the meringue on a baking sheet. Put it into a heated oven and cook at 120˚C for 1 hour. Turn off the oven. Leave the meringue in the oven until it is cool. Whip the cream. Cover the meringue with the whipped cream. Top the whipped cream with your choice of chopped fresh fruit."
+      }
+    ]
+  },
+  "source": {
+    "path": "content\\pep-english\\raw\\senior-selective-4.pdf",
+    "sha256": "2ad7555a13eb420aa70497f9faa2541fdb502b7ffc4e063e87c60cce88f1b4a3",
+    "locator": "PDF79页INGREDIENTS标题及八项配料清单换行。"
+  },
+  "notes": "Compared generator and existing public baseline; differences are whitespace only; content and block metadata are identical.",
+  "proofSha256": "a683432ef146135a620010d9f33563db8302779e4a04b29b85bf740f1ba83cce"
+}

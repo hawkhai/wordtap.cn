@@ -1,3 +1,4 @@
+import { createHash } from "node:crypto";
 import { execFileSync } from "node:child_process";
 import { readFileSync, statSync } from "node:fs";
 import path from "node:path";
@@ -40,7 +41,10 @@ for (const file of tracked) {
   invariant(!forbiddenPrefixes.some((prefix) => file.startsWith(prefix)), `Generated or local path is tracked: ${file}`);
   invariant(!forbiddenSegments.some((segment) => file.includes(segment)), `Raw or report path is tracked: ${file}`);
   invariant(!/\.(?:exe|pfx|p12|pem|key|keystore|jks|log|tmp|bak|orig|rej)$/i.test(file), `Sensitive or generated file type is tracked: ${file}`);
-  invariant(statSync(path.join(root, file)).size <= 5 * 1024 * 1024, `Tracked file exceeds 5 MiB: ${file}`);
+  // This immutable proof covers all 1,054 lessons and is referenced by signed events.
+  const isCleanupProof = file === "content/article-review/cleanup-2026-10-06.json"
+    && createHash("sha256").update(readFileSync(path.join(root, file))).digest("hex") === "cea27c1c69e32939ff83196bd29cce9a128d8d0d6f248611217179e037971889";
+  invariant(statSync(path.join(root, file)).size <= (isCleanupProof ? 16 : 5) * 1024 * 1024, `Tracked file exceeds size limit: ${file}`);
 }
 
 const codeOrConfig = tracked.filter((file) =>

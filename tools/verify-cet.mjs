@@ -15,6 +15,8 @@ for (const lesson of lessons) {
   if (lesson.id !== expectedId) throw new Error(`CET lesson ID is not date-stable: ${lesson.id} != ${expectedId}`);
   const detail = JSON.parse(await readFile(path.join(root, "public", lesson.jsonPath), "utf8"));
   if (detail.id !== lesson.id || detail.text.length !== lesson.characterCount) throw new Error(`CET detail mismatch: ${lesson.id}`);
+  if (detail.characterCount !== detail.text.length || detail.title !== lesson.title) throw new Error(`CET summary mismatch: ${lesson.id}`);
+  if (detail.text !== detail.blocks?.map((block) => block.text).join("\n")) throw new Error(`CET text/blocks mismatch: ${lesson.id}`);
   if (detail.text.length < 6_000 || !Array.isArray(detail.blocks) || detail.blocks.length < 1) throw new Error(`CET lesson is incomplete: ${lesson.id}`);
   if (!/^[a-f0-9]{64}$/.test(detail.source?.pdfSha256 ?? "")) throw new Error(`Missing CET source hash: ${lesson.id}`);
 }

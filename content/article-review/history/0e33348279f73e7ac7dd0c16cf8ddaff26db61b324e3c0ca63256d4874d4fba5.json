@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "course": "pep-english",
+  "articleId": "pephr1-006",
+  "beforeDisplaySha256": "a28753623d4ae4d75fe2e4f067ad145d01f584edad22e91dec11eb047602e36a",
+  "afterDisplaySha256": "a28753623d4ae4d75fe2e4f067ad145d01f584edad22e91dec11eb047602e36a",
+  "baselineDisplay": {
+    "title": "Make the Most of Your Education",
+    "section": "Assessing Your Progress",
+    "text": "If you have learnt some maths at school, you can quite quickly work out that one eleventh is about 9 percent. But did you know that 9 percent is also the number of children who are not at school? That's right—one in 11 children is not studying and probably even cannot do the simple maths you just did so very easily. They drop out of school because their families are too poor and they have to work like adults. In 2013, millions of children and teenagers were out of school. Most live in poor countries, but there are also some boys and girls who cannot go to school in rich countries. If you are one of the lucky ones who can go to a senior high school, you should be grateful for the opportunity. So the next time you feel like you do not want to do boring, difficult homework or go to class, think about the children who don't have the chance to get a good education. Make the most of your education and make the world a better place.",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "If you have learnt some maths at school, you can quite quickly work out that one eleventh is about 9 percent. But did you know that 9 percent is also the number of children who are not at school? That's right—one in 11 children is not studying and probably even cannot do the simple maths you just did so very easily. They drop out of school because their families are too poor and they have to work like adults. In 2013, millions of children and teenagers were out of school. Most live in poor countries, but there are also some boys and girls who cannot go to school in rich countries. If you are one of the lucky ones who can go to a senior high school, you should be grateful for the opportunity. So the next time you feel like you do not want to do boring, difficult homework or go to class, think about the children who don't have the chance to get a good education. Make the most of your education and make the world a better place."
+      }
+    ]
+  },
+  "display": {
+    "title": "Make the Most of Your Education",
+    "section": "Assessing Your Progress",
+    "text": "If you have learnt some maths at school, you can quite quickly work out that one eleventh is about 9 percent. But did you know that 9 percent is also the number of children who are not at school? That's right—one in 11 children is not studying and probably even cannot do the simple maths you just did so very easily. They drop out of school because their families are too poor and they have to work like adults. In 2013, millions of children and teenagers were out of school. Most live in poor countries, but there are also some boys and girls who cannot go to school in rich countries. If you are one of the lucky ones who can go to a senior high school, you should be grateful for the opportunity. So the next time you feel like you do not want to do boring, difficult homework or go to class, think about the children who don't have the chance to get a good education. Make the most of your education and make the world a better place.",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "If you have learnt some maths at school, you can quite quickly work out that one eleventh is about 9 percent. But did you know that 9 percent is also the number of children who are not at school? That's right—one in 11 children is not studying and probably even cannot do the simple maths you just did so very easily. They drop out of school because their families are too poor and they have to work like adults. In 2013, millions of children and teenagers were out of school. Most live in poor countries, but there are also some boys and girls who cannot go to school in rich countries. If you are one of the lucky ones who can go to a senior high school, you should be grateful for the opportunity. So the next time you feel like you do not want to do boring, difficult homework or go to class, think about the children who don't have the chance to get a good education. Make the most of your education and make the world a better place."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "path": "content/pep-english/raw/senior-required-1.pdf",
+      "locator": "PDF第27-27页，标题与完整正文逐行核对",
+      "checked": true,
+      "sha256": "ffe985a370964820aa003008f48c7cf17b5e0dff8eb29fe54cd4743b0c4e8c79"
+    },
+    {
+      "path": "content/pep-english/raw/senior-required-1/senior-required-1_27.jpg",
+      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
+      "checked": true,
+      "sha256": "520cc464a4c8565d5c8d05a2059b677ee866f6f36c0e6fff876924f59b7ca64e"
+    }
+  ],
+  "corrections": [],
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "reviewer": "Codex",
+  "reviewedAt": "2026-10-02T05:21:49+00:00",
+  "notes": "PDF第27页双栏教育短文按左栏接右栏逐行核对，one eleventh/9 percent/one in 11及2013年数据均为教材原文。全文单段衔接正确，未把讨论题纳入正文，无修改。",
+  "issues": [],
+  "status": "passed_unchanged"
+}

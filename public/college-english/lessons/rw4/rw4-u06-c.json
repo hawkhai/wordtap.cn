@@ -70,12 +70,12 @@
     ]
   },
   "manualReview": {
+    "reviewer": "Codex (user-directed restoration)",
+    "reviewedAt": "2026-10-05T17:15:10+00:00",
+    "correctionCount": 1,
+    "evidence": "content/article-review/cleanup-2026-10-06.json",
+    "eventSha256": "4babe6919e9cdf6c31f11ef7fecf67c7219e8803680473f9b2b0dd7005dfe3f1",
     "status": "passed",
-    "reviewer": "Codex",
-    "reviewedAt": "2026-07-30T19:17:23Z",
-    "correctionCount": 0,
-    "evidence": "content/College-English/NHCE4-RW4/NHCE4-RW4_188.jpg; content/College-English/NHCE4-RW4/NHCE4-RW4_189.jpg",
-    "textSha256": "7d2b2524d3bbed520cf4fcc7bbc63a96590355000853115de844c2456e544d7f",
-    "eventSha256": "4456719a36916f9542fdf8400c5d8f49a540a92e4666b610511b8a5835204ca3"
+    "textSha256": "7d2b2524d3bbed520cf4fcc7bbc63a96590355000853115de844c2456e544d7f"
   }
 }

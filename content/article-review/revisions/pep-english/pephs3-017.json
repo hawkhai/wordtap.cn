@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 1,
+  "course": "pep-english",
+  "articleId": "pephs3-017",
+  "beforeDisplaySha256": "62e227dc780633cf652bff2f4d3744840d99ef8c62e565be259163bcd8bbf6bb",
+  "afterDisplaySha256": "e9ad34bb5409d28f6532509c5630b9062ce20d0e898731187179ff48bce1904f",
+  "baselineDisplay": {
+    "title": "Appreciating the Poem Dream",
+    "section": "Using Language",
+    "text": "The poem Dream by Langston Hughes is very short with only 8 lines. When I read the poem aloud I can hear that the ends of the second and fourth lines rhyme—“die” and “fly”. The last words of the sixth and eighth lines also rhyme—“go” and “snow”. These rhyming words sound nice and make the poem pleasing to read.\nWhen I close my eyes, I can see different images from the poem. For example, I can see two hands being held. I can see a bird flying in the sky. I can see a field and I can imagine what it looks like with lots of snow. I start to feel cold when I read these lines!\nI learnt a new phrase, “hold fast”, which means to hold onto something. “Barren” is also a new word to me, which means empty.\nI think the poet is giving us advice. He wants us to keep dreaming, because life is much better when we dream and have something to look forward to.",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "The poem Dream by Langston Hughes is very short with only 8 lines. When I read the poem aloud I can hear that the ends of the second and fourth lines rhyme—“die” and “fly”. The last words of the sixth and eighth lines also rhyme—“go” and “snow”. These rhyming words sound nice and make the poem pleasing to read."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "When I close my eyes, I can see different images from the poem. For example, I can see two hands being held. I can see a bird flying in the sky. I can see a field and I can imagine what it looks like with lots of snow. I start to feel cold when I read these lines!"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "I learnt a new phrase, “hold fast”, which means to hold onto something. “Barren” is also a new word to me, which means empty."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "I think the poet is giving us advice. He wants us to keep dreaming, because life is much better when we dream and have something to look forward to."
+      }
+    ]
+  },
+  "display": {
+    "title": "Appreciating the Poem Dream",
+    "section": "Using Language",
+    "text": "The poem Dream by Langston Hughes is very short with only 8 lines. When I read the poem aloud I can hear that the ends of the second and fourth sentences rhyme—“die” and “fly”. The last word from the sixth and eighth sentences also rhyme—“go” and “snow”. These rhyming words sound nice and make the poem pleasing to read.\nWhen I close my eyes, I can see different images from the poem. For example, I can see two hands being held. I can see a bird flying in the sky. I can see a field and I can imagine what it looks like with lots of snow. I start to feel cold when I read these lines!\nI learnt a new phrase, “hold fast”, which means to hold onto something. “Barren” is also a new word to me, which means empty.\nI think the poet is giving us advice. He wants us to keep dreaming, because life is much better when we dream and have something to look forward to.",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "The poem Dream by Langston Hughes is very short with only 8 lines. When I read the poem aloud I can hear that the ends of the second and fourth sentences rhyme—“die” and “fly”. The last word from the sixth and eighth sentences also rhyme—“go” and “snow”. These rhyming words sound nice and make the poem pleasing to read."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "When I close my eyes, I can see different images from the poem. For example, I can see two hands being held. I can see a bird flying in the sky. I can see a field and I can imagine what it looks like with lots of snow. I start to feel cold when I read these lines!"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "I learnt a new phrase, “hold fast”, which means to hold onto something. “Barren” is also a new word to me, which means empty."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "I think the poet is giving us advice. He wants us to keep dreaming, because life is much better when we dream and have something to look forward to."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "path": "content/pep-english/raw/senior-selective-3.pdf",
+      "locator": "PDF第64-64页，标题与完整正文逐行核对",
+      "checked": true,
+      "sha256": "ed8eb9e5988b44a1ff4f8bc11ed3cfae406decefae7982477362720788e1998b"
+    },
+    {
+      "path": "content/pep-english/raw/senior-selective-3/senior-selective-3_63.jpg",
+      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
+      "checked": true,
+      "sha256": "543f414c94eb5364888bedf0ea394161c8d276d596cab3883f12a5d4e450e630"
+    },
+    {
+      "path": "content/pep-english/raw/senior-selective-3/senior-selective-3_64.jpg",
+      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
+      "checked": true,
+      "sha256": "20daf70ab0d429698b48d4a4e1112c585f8420bc9a3d926f8539ca92ef8292ea"
+    },
+    {
+      "path": "content/article-review/cleanup-2026-10-06.json",
+      "sha256": "cea27c1c69e32939ff83196bd29cce9a128d8d0d6f248611217179e037971889",
+      "locator": "public/pep-english/lessons/pephs3/017.json",
+      "checked": true
+    }
+  ],
+  "corrections": [
+    {
+      "field": "text",
+      "before": "The poem Dream by Langston Hughes is very short with only 8 lines. When I read the poem aloud I can hear that the ends of the second and fourth lines rhyme—“die” and “fly”. The last words of the sixth and eighth lines also rhyme—“go” and “snow”. These rhyming words sound nice and make the poem pleasing to read.\nWhen I close my eyes, I can see different images from the poem. For example, I can see two hands being held. I can see a bird flying in the sky. I can see a field and I can imagine what it looks like with lots of snow. I start to feel cold when I read these lines!\nI learnt a new phrase, “hold fast”, which means to hold onto something. “Barren” is also a new word to me, which means empty.\nI think the poet is giving us advice. He wants us to keep dreaming, because life is much better when we dream and have something to look forward to.",
+      "after": "The poem Dream by Langston Hughes is very short with only 8 lines. When I read the poem aloud I can hear that the ends of the second and fourth sentences rhyme—“die” and “fly”. The last word from the sixth and eighth sentences also rhyme—“go” and “snow”. These rhyming words sound nice and make the poem pleasing to read.\nWhen I close my eyes, I can see different images from the poem. For example, I can see two hands being held. I can see a bird flying in the sky. I can see a field and I can imagine what it looks like with lots of snow. I start to feel cold when I read these lines!\nI learnt a new phrase, “hold fast”, which means to hold onto something. “Barren” is also a new word to me, which means empty.\nI think the poet is giving us advice. He wants us to keep dreaming, because life is much better when we dream and have something to look forward to.",
+      "evidence": "User-directed source-fidelity restoration; content/article-review/cleanup-2026-10-06.json"
+    }
+  ],
+  "fullReadConfirmed": false,
+  "recheckConfirmed": false,
+  "reviewMode": "source-fidelity-rules-v1",
+  "reviewer": "Codex (user-directed restoration)",
+  "reviewedAt": "2026-10-05T17:15:10+00:00",
+  "notes": "Rule-based restoration; original full-read review remains historical. content/article-review/cleanup-2026-10-06.json",
+  "issues": [],
+  "status": "passed_edited",
+  "previousRevisionSha256": "1736b8432b72e682c8f6cc678ab1fc4309868c4375e1eca918400a13b8b661c0",
+  "ruleRestoration": {
+    "policy": "source-fidelity-rules-v1",
+    "report": "content/article-review/cleanup-2026-10-06.json",
+    "reportSha256": "cea27c1c69e32939ff83196bd29cce9a128d8d0d6f248611217179e037971889"
+  }
+}

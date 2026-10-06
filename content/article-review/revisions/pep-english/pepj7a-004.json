@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 1,
+  "course": "pep-english",
+  "articleId": "pepj7a-004",
+  "beforeDisplaySha256": "7dd8646869fc903c74616f40d81641c9e885fbf53e32b05b02dce8f26e83ea3e",
+  "afterDisplaySha256": "eb65894c38c55ba3e4522009580a0db6f386f4d67673405998ad8c8c2e994f11",
+  "baselineDisplay": {
+    "title": "Dear Jenny",
+    "section": "Section B",
+    "text": "Dear Jenny,\nI am very busy on Friday. At 8:00 I have math. It is not fun. The teacher says it is useful, but I think it is difficult. Then at 9:00 I have science. It is difficult but interesting. At 10:00 I have history. After that, I have P.E. at 11:00. It is easy and fun. Lunch is from 12:00 to 1:00, and after that we have Chinese. It is my favorite subject. Our Chinese teacher, Mrs. Wang, is great fun. My classes finish at 1:50, but after that I have an art lesson for two hours. It is really relaxing!\nHow about you? When are your classes? What is your favorite subject?\nYour friend, Yu Mei",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Dear Jenny,"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "I am very busy on Friday. At 8:00 I have math. It is not fun. The teacher says it is useful, but I think it is difficult. Then at 9:00 I have science. It is difficult but interesting. At 10:00 I have history. After that, I have P.E. at 11:00. It is easy and fun. Lunch is from 12:00 to 1:00, and after that we have Chinese. It is my favorite subject. Our Chinese teacher, Mrs. Wang, is great fun. My classes finish at 1:50, but after that I have an art lesson for two hours. It is really relaxing!"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "How about you? When are your classes? What is your favorite subject?"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Your friend, Yu Mei"
+      }
+    ]
+  },
+  "display": {
+    "title": "Dear Jenny",
+    "section": "Section B",
+    "text": "Dear Jenny,\nI am very busy on Friday. At 8:00 I have math. It is not fun. The teacher says it is useful, but I think it is difficult. Then at 9:00 I have science. It is difficult but interesting. At 10:00 I have history. After that, I have P.E. at 11:00. It is easy and fun. Lunch is from 12:00 to 1:00, and after that we have Chinese. It is my favorite subject. Our Chinese teacher, Mrs. Wang, is great fun. My classes finish at 1:50, but after that I have an art lesson for two hours. It is really relaxing!\nHow about you? When are your classes? What is your favorite subject?\nYour friend,\nYu Mei",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Dear Jenny,"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "I am very busy on Friday. At 8:00 I have math. It is not fun. The teacher says it is useful, but I think it is difficult. Then at 9:00 I have science. It is difficult but interesting. At 10:00 I have history. After that, I have P.E. at 11:00. It is easy and fun. Lunch is from 12:00 to 1:00, and after that we have Chinese. It is my favorite subject. Our Chinese teacher, Mrs. Wang, is great fun. My classes finish at 1:50, but after that I have an art lesson for two hours. It is really relaxing!"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "How about you? When are your classes? What is your favorite subject?"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Your friend,\nYu Mei"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "path": "content/pep-english/raw/junior-7a.pdf",
+      "locator": "PDF第76-76页，标题与完整正文逐行核对",
+      "checked": true,
+      "sha256": "4cdfd213e2c54164b6b97bcd6d15e93b71e6b243e8aea958f330e6bf8822f46e"
+    },
+    {
+      "path": "content/pep-english/raw/junior-7a/junior-7a_76.jpg",
+      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
+      "checked": true,
+      "sha256": "526558cb10916a822bacdacb44b206d12f7207c9ebbf75adf6b34d4526bf105f"
+    }
+  ],
+  "corrections": [],
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "reviewer": "Codex",
+  "reviewedAt": "2026-10-02T04:43:55+00:00",
+  "notes": "PDF76页印刷53页完整书信逐行核对，8/9/10/11点各课、12至1点午餐、1:50结束和两小时美术课准确；称呼、两段正文、署名齐全。将Your friend与Yu Mei恢复为原页两行，不改变文字。全文复读，题目采用首行标识无误。",
+  "issues": [],
+  "status": "passed_edited"
+}

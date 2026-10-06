@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 1,
+  "course": "pep-english",
+  "articleId": "pephr3-002",
+  "beforeDisplaySha256": "027f6738d9fbebd36517dd4a77633e2d77c3944d0c03c6f7cacfb725da26549d",
+  "afterDisplaySha256": "e38f36bffdb6822a3075928ae90ff66c68d978366ddbb6dd2352a9fec23aea68",
+  "baselineDisplay": {
+    "title": "Which Festival Is the Best?",
+    "section": "Discovering Useful Structures",
+    "text": "Sunnyli (Today 9:05 am): Rio Carnival! I spent a really fun day there with my friends. It was great fun walking along the streets, enjoying the relaxing atmosphere! The performances were just amazing.\nVincent1119 (Today 9:11 am): The Spring Festival in China, especially the dinner on the Lunar New Year's Eve! All family members get together. And I get lucky money in red envelopes from my parents and relatives, so it's always an exciting time for me.\nWizard_Oz (Today 10:11 am): Perhaps Thanksgiving. What could be better? Families getting together and eating delicious food, people watching sports games on TV, friends laughing and talking, etc. Plus there's Black Friday, if shopping is your thing.\nCooper_08 (Today 10:24 am): I think it's Christmas. I just can't take my eyes off the shining lights on the Christmas trees everywhere. Lots of smiling faces, and people singing Christmas carols and wishing each other “Merry Christmas!”",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Sunnyli (Today 9:05 am): Rio Carnival! I spent a really fun day there with my friends. It was great fun walking along the streets, enjoying the relaxing atmosphere! The performances were just amazing."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Vincent1119 (Today 9:11 am): The Spring Festival in China, especially the dinner on the Lunar New Year's Eve! All family members get together. And I get lucky money in red envelopes from my parents and relatives, so it's always an exciting time for me."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Wizard_Oz (Today 10:11 am): Perhaps Thanksgiving. What could be better? Families getting together and eating delicious food, people watching sports games on TV, friends laughing and talking, etc. Plus there's Black Friday, if shopping is your thing."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Cooper_08 (Today 10:24 am): I think it's Christmas. I just can't take my eyes off the shining lights on the Christmas trees everywhere. Lots of smiling faces, and people singing Christmas carols and wishing each other “Merry Christmas!”"
+      }
+    ]
+  },
+  "display": {
+    "title": "Which Festival Is the Best?",
+    "section": "Discovering Useful Structures",
+    "text": "Sunnyli (Today 9:05 am):\nRio Carnival! I spent a really fun day there with my friends. It was great fun walking along the streets, enjoying the relaxing atmosphere! The performances were just amazing.\nVincent1119 (Today 9:11 am):\nThe Spring Festival in China, especially the dinner on the Lunar New Year's Eve! All family members get together. And I get lucky money in red envelopes from my parents and relatives, so it's always an exciting time for me.\nWizard_Oz (Today 10:11 am):\nPerhaps Thanksgiving. What could be better? Families getting together and eating delicious food, people watching sports games on TV, friends laughing and talking, etc. Plus there's Black Friday, if shopping is your thing.\nCooper_08 (Today 10:24 am):\nI think it's Christmas. I just can't take my eyes off the shining lights on the Christmas trees everywhere. Lots of smiling faces, and people singing Christmas carols and wishing each other “Merry Christmas!”",
+    "blocks": [
+      {
+        "type": "subheading",
+        "lang": "en",
+        "text": "Sunnyli (Today 9:05 am):"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Rio Carnival! I spent a really fun day there with my friends. It was great fun walking along the streets, enjoying the relaxing atmosphere! The performances were just amazing."
+      },
+      {
+        "type": "subheading",
+        "lang": "en",
+        "text": "Vincent1119 (Today 9:11 am):"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "The Spring Festival in China, especially the dinner on the Lunar New Year's Eve! All family members get together. And I get lucky money in red envelopes from my parents and relatives, so it's always an exciting time for me."
+      },
+      {
+        "type": "subheading",
+        "lang": "en",
+        "text": "Wizard_Oz (Today 10:11 am):"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Perhaps Thanksgiving. What could be better? Families getting together and eating delicious food, people watching sports games on TV, friends laughing and talking, etc. Plus there's Black Friday, if shopping is your thing."
+      },
+      {
+        "type": "subheading",
+        "lang": "en",
+        "text": "Cooper_08 (Today 10:24 am):"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "I think it's Christmas. I just can't take my eyes off the shining lights on the Christmas trees everywhere. Lots of smiling faces, and people singing Christmas carols and wishing each other “Merry Christmas!”"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "path": "content/pep-english/raw/senior-required-3.pdf",
+      "locator": "PDF第13-13页，标题与完整正文逐行核对",
+      "checked": true,
+      "sha256": "fe9c8e15e62f4aec56efc60b8de43f4a55d40f3114d6505affaef78a8b7a1af2"
+    },
+    {
+      "path": "content/pep-english/raw/senior-required-3/senior-required-3_13.jpg",
+      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
+      "checked": true,
+      "sha256": "3d1edfeb89fa85bd352ae2bab5fbc0fe4a294ffe92298221b71af8b229940a8f"
+    }
+  ],
+  "corrections": [],
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "reviewer": "Codex",
+  "reviewedAt": "2026-10-02T05:53:06+00:00",
+  "notes": "对照PDF第13页四条论坛帖子，用户名、9:05/9:11/10:11/10:24时间与节庆感想一致；将四组作者时间拆为小标题，对应原表格独立身份栏，正文不改。",
+  "issues": [],
+  "status": "passed_edited"
+}

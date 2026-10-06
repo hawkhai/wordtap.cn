@@ -1,0 +1,88 @@
+{
+  "article": "e1-1987",
+  "checkedAt": "2026-10-03",
+  "sourcePdfPhysicalPagesRead": [
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54
+  ],
+  "sources": [
+    {
+      "url": "https://sikorskyarchives.com/vs-300-the-first-practical-helicopter/",
+      "scope": "档案文章引言全部实际读：1939-09-14系留、1940-05-13自由飞行和后续构型，未声称读完1941作者全文。"
+    },
+    {
+      "url": "https://sikorskyarchives.com/vs-300-helicopter-design/",
+      "scope": "检索实际读First Configuration正文，1939首飞约10秒、数英寸，系留试验；不把1940当成全世界首架直升机。"
+    },
+    {
+      "url": "https://airandspace.si.edu/collection-objects/platt-lepage-xr-1/nasm_A19600305000",
+      "scope": "Smithsonian藏品介绍开头全文实际读，Fw61于1938年室内公开演示；未称所有Long Description读完。"
+    },
+    {
+      "url": "https://ntrs.nasa.gov/api/citations/19830011849/downloads/19830011849.pdf",
+      "scope": "NASA资料检索历史段实际读，15世纪达·芬奇垂直飞行概念与中国旋翼玩具联系，未通读PDF，不据此确定玩具精确年份。"
+    },
+    {
+      "url": "https://www.metmuseum.org/perspectives/ancient-greek-olympic-games",
+      "scope": "Alexis Belis 2021文章正文全部实际读，包括古赛会、竞技项目、奖赏及393传统终止说与5世纪初仍有竞赛证据；未打开藏品图片详情或相关视频。"
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/517/",
+      "scope": "UNESCO检索古奥林匹亚遗址及776BC–393AD历史范围实际读，未称页面全文已读。"
+    },
+    {
+      "url": "https://olympicgames.culture.gov.gr/en/periigisi.html?goto=Stadio",
+      "scope": "希腊文化部体育场段检索实际读，Demeter女祭司观赛例外；未通读全部遗址导览。"
+    },
+    {
+      "url": "https://olympic.ca/2020/02/21/faq-the-olympic-torch-relay/",
+      "scope": "加拿大奥委会FAQ正文全部实际读，取火Olympia、太阳光凹面镜、1936接力起源；只用这些交叉确认的事实，不采纳其中Vestal Virgins和1952唯一例外等可疑旁述。"
+    },
+    {
+      "url": "https://gstatic.olympics.com/s3/mc2026/documents/Education%20Programme/OVEP/English%20Toolkit/OVEP-Fundamentals-2023%20-%20English.pdf",
+      "scope": "IOC教育材料检索Igniting the Spirit段实际读，Hera神庙Olympia取火与太阳镜面聚光；未通读整本PDF。"
+    },
+    {
+      "url": "https://www.gutenberg.org/ebooks/72875",
+      "scope": "书目元数据实际读，Russell The A B C of Atoms，1923，电子本72875。"
+    },
+    {
+      "url": "https://www.gutenberg.org/cache/epub/72875/pg72875-images.html",
+      "scope": "第三章Electrons and Nuclei关于电的段落实际读，原书印页24–25（网页行163–166），包括St. Paul’s Cathedral引语与后续行为规律解释；并未通读全书，不把旧电子模型当现代理论。"
+    },
+    {
+      "url": "https://home.web.cern.ch/science/physics/standard-model/",
+      "scope": "检索Forces and carrier particles全部段落实际读，标准模型解释电磁/强/弱相互作用而不含引力，支持区分哲学本质问题与科学已有理论。"
+    },
+    {
+      "url": "https://catalogue.museogalileo.it/room/RoomsXVXVIBis.html",
+      "scope": "伽利略博物馆Rooms XV and XVI展室介绍全文实际读，17世纪实验方法及新仪器、18世纪电学实验的发展；不是完整实验方法史。"
+    },
+    {
+      "url": "https://americanhistory.si.edu/collections/object/nmah_1941712",
+      "scope": "Smithsonian藏品amber检索材料元数据实际读，fossil resin，未称全部藏品目录读过。"
+    }
+  ],
+  "limitations": [
+    "7原块全文与7页原图全部实际读；77块最终全文复读，后将完形中文说明单列、第16题题干合并，变化块再次读。",
+    "原图阅读说明误写two而实际three，已校正；全部33题和翻译26–33范围保留。",
+    "本年无答案与中译页，不虚构官方评分。逐题推理仅用于复核自洽，不当官方答案。",
+    "第14A最全面而C确为用途；第19原推论无直接计时证据，题干、C和正文尾句明示校订；第25A/B都接近文意，说明限制。",
+    "Olympia与Olympus、1939/1940飞行、古奥运393与5世纪初延续证据已区分；现代资助及支票权限仅按故事阅读，不当普适规则。",
+    "科学篇保留作者哲学论证及已找到的原引语，篇前纠正事实泛化；旧科学史单一发明者叙事不是完整历史。",
+    "末句general goal→general good、idea补that及城市正文少量语法修复是公开编辑判断，不声称找到另一底稿。"
+  ],
+  "answerChecks": {
+    "editorReasoningNotOfficial": {
+      "cloze": "CCADBADBCA",
+      "reading": "BBDAD/BAACB/BCCB(A或B，见说明)"
+    }
+  },
+  "rawSha256": "71853ed3b39fab4f5c1c38419d1f26f0c3f30fa42bd268fb9693e22b11bf56b3",
+  "pdfSha256": "802c3d218714a6362731273cc8d2b9d25ab499f210d39194461a3cf5b28c4a39"
+}

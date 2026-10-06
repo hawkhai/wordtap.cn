@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "course": "pep-english",
+  "articleId": "pephr2-003",
+  "beforeDisplaySha256": "2bf4b8bf59521c45c1ba19bdbd21d628acecd431edf091f6d4911f3199bbee36",
+  "afterDisplaySha256": "2bf4b8bf59521c45c1ba19bdbd21d628acecd431edf091f6d4911f3199bbee36",
+  "baselineDisplay": {
+    "title": "Give Ugly a Chance!",
+    "section": "Reading for Writing",
+    "text": "When it comes to wildlife protection, all species—the good, the bad, and the ugly—should be treated equally. Pandas, dolphins, and other cute wildlife are important, but we must pay attention to less cute animals, too. The world needs all kinds—without variety, our planet cannot survive. So if you want the future to be beautiful, you have to give ugly a chance.",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "When it comes to wildlife protection, all species—the good, the bad, and the ugly—should be treated equally. Pandas, dolphins, and other cute wildlife are important, but we must pay attention to less cute animals, too. The world needs all kinds—without variety, our planet cannot survive. So if you want the future to be beautiful, you have to give ugly a chance."
+      }
+    ]
+  },
+  "display": {
+    "title": "Give Ugly a Chance!",
+    "section": "Reading for Writing",
+    "text": "When it comes to wildlife protection, all species—the good, the bad, and the ugly—should be treated equally. Pandas, dolphins, and other cute wildlife are important, but we must pay attention to less cute animals, too. The world needs all kinds—without variety, our planet cannot survive. So if you want the future to be beautiful, you have to give ugly a chance.",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "When it comes to wildlife protection, all species—the good, the bad, and the ugly—should be treated equally. Pandas, dolphins, and other cute wildlife are important, but we must pay attention to less cute animals, too. The world needs all kinds—without variety, our planet cannot survive. So if you want the future to be beautiful, you have to give ugly a chance."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "path": "content/pep-english/raw/senior-required-2.pdf",
+      "locator": "PDF第27-27页，标题与完整正文逐行核对",
+      "checked": true,
+      "sha256": "33b74bf42b22b32fdbe3201e6f61cf8099be047ef0af8a1740f6013dee4a619d"
+    },
+    {
+      "path": "content/pep-english/raw/senior-required-2/senior-required-2_27.jpg",
+      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
+      "checked": true,
+      "sha256": "829179f9481d865dfb5eb2bbc6f98c94e5227ec1b2d1242d7a3ed5e0853161f3"
+    }
+  ],
+  "corrections": [],
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "reviewer": "Codex",
+  "reviewedAt": "2026-10-02T05:38:20+00:00",
+  "notes": "PDF第27页左侧Give Ugly a Chance海报标题和正文完整一致，破折号插入语及最后give ugly a chance保持，无修改。",
+  "issues": [],
+  "status": "passed_unchanged"
+}

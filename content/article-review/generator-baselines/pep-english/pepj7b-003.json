@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "articleId": "pepj7b-003",
+  "course": "pep-english",
+  "publicBeforeDisplaySha256": "02e5ea3bcaf2456d004d97a81fe7db34e19ca6a9c3876041f3668f804e93b18f",
+  "generatorBeforeDisplaySha256": "f6fbf8f9b0faa0ee5fd989a5c1ae970e7be030262e6556a06db20b9d5dbc00d4",
+  "display": {
+    "title": "Lisa and Jane's Commute",
+    "section": "Section A",
+    "text": "Lisa: Hey, Jane. Is this your new bike?\nJane: Yes. I ride it to school every day. How do you get to school?\nLisa: I usually take the bus.\nJane: How far is it from your home to school?\nLisa: I'm not sure ... about 10 kilometers? The bus ride takes about 20 minutes. How long does it take you to get to school?\nJane: About 15 minutes by bike. It's good exercise.\nLisa: Yeah. Well, have a good day at school.\nJane: You, too.",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Lisa: Hey, Jane. Is this your new bike?\nJane: Yes. I ride it to school every day. How do you get to school?\nLisa: I usually take the bus.\nJane: How far is it from your home to school?\nLisa: I'm not sure ... about 10 kilometers? The bus ride takes about 20 minutes. How long does it take you to get to school?\nJane: About 15 minutes by bike. It's good exercise.\nLisa: Yeah. Well, have a good day at school.\nJane: You, too."
+      }
+    ]
+  },
+  "source": {
+    "path": "content\\pep-english\\raw\\junior-7b.pdf",
+    "sha256": "7041d787738bdf5f4f556765acdfe8033ac2f69d03e67ccc62516375f6a46f37",
+    "locator": "PDF24页原页与生成结果核对；仅not sure省略号前空格差异，完整字段与结构去空格一致"
+  },
+  "notes": "Compared generator and existing public baseline; differences are whitespace only; content and block metadata are identical.",
+  "proofSha256": "4bd5302e51d6098fa85de02f96f19e65c0a856fac6922efb69f8d0bb474067fc"
+}

@@ -5,11 +5,14 @@ from __future__ import annotations
 
 import hashlib
 import json
+import argparse
 import re
 import shutil
 from dataclasses import dataclass
 from datetime import datetime, timezone
 from pathlib import Path
+
+from article_review import apply_revision, sync_summary, checked_output_root
 
 try:
     from pypdf import PdfReader
@@ -164,15 +167,16 @@ def collect_papers() -> list[Paper]:
     return sorted(by_key.values(), key=lambda paper: (paper.group_id, paper.year))
 
 
-def generate() -> None:
+def generate(output: Path = OUTPUT) -> None:
+    output = checked_output_root(output, "kaoyan-english")
     if not SOURCE_MANIFEST.is_file():
         raise SystemExit("Run tools/fetch-kaoyan-english.py before generating data")
     source_manifest = json.loads(SOURCE_MANIFEST.read_text(encoding="utf-8"))
     source_by_id = {source["id"]: source for source in source_manifest["sources"]}
     papers = collect_papers()
-    shutil.rmtree(OUTPUT, ignore_errors=True)
-    (OUTPUT / "lessons" / "e1").mkdir(parents=True)
-    (OUTPUT / "lessons" / "e2").mkdir(parents=True)
+    shutil.rmtree(output, ignore_errors=True)
+    (output / "lessons" / "e1").mkdir(parents=True)
+    (output / "lessons" / "e2").mkdir(parents=True)
     generated_at = datetime.now(timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z")
 
     groups = []
@@ -212,7 +216,11 @@ def generate() -> None:
                     "extraction": "pypdf embedded text layer",
                 },
             }
-            (ROOT / "public" / json_path).write_text(json.dumps(detail, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+            detail["text"] = "\n".join(block["text"] for block in detail["blocks"])
+            detail["characterCount"] = len(detail["text"])
+            detail = apply_revision(detail, "kaoyan-english")
+            sync_summary(summary, detail)
+            (output / Path(json_path).relative_to("kaoyan-english")).write_text(json.dumps(detail, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
             lessons.append(summary)
         groups.append({"id": group_id, "title": title, "subtitle": f"{subtitle} · {len(lessons)} 份", "lessonCount": len(lessons), "lessons": lessons})
 
@@ -226,9 +234,11 @@ def generate() -> None:
         "totalLessons": len(papers),
         "groups": groups,
     }
-    (OUTPUT / "manifest.json").write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    (output / "manifest.json").write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(f"Generated {len(papers)} Kaoyan English papers.")
 
 
 if __name__ == "__main__":
-    generate()
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--output", type=Path, default=OUTPUT)
+    generate(parser.parse_args().output)

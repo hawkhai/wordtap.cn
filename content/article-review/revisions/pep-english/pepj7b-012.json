@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 1,
+  "course": "pep-english",
+  "articleId": "pepj7b-012",
+  "beforeDisplaySha256": "df5804484dd6264b0dac6a2cef5c9d3365d84924e2674d7975c79b77ad6e2833",
+  "afterDisplaySha256": "df5804484dd6264b0dac6a2cef5c9d3365d84924e2674d7975c79b77ad6e2833",
+  "baselineDisplay": {
+    "title": "Birthday Food Around the World",
+    "section": "Section B",
+    "text": "What would people like to eat on their birthday? The answer would be different in different countries.\nIn many countries, people have birthday cakes with candles. The number of candles is the person's age. The birthday person must make a wish and blow out the candles. If he or she blows out all the candles in one go, the wish will come true. In the UK, people sometimes put a candy in a birthday cake. The child with the candy is lucky.\nIn China, it is getting popular to have cake on your birthday. But many people still eat very long noodles for their birthday. They never cut up the noodles because the long noodles are a symbol of long life. In some places, Chinese people also eat eggs on their birthday. They are a symbol of life and good luck.\nAll of these birthday foods may be different, but the ideas are the same. They bring good luck to the birthday person.",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "What would people like to eat on their birthday? The answer would be different in different countries."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "In many countries, people have birthday cakes with candles. The number of candles is the person's age. The birthday person must make a wish and blow out the candles. If he or she blows out all the candles in one go, the wish will come true. In the UK, people sometimes put a candy in a birthday cake. The child with the candy is lucky."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "In China, it is getting popular to have cake on your birthday. But many people still eat very long noodles for their birthday. They never cut up the noodles because the long noodles are a symbol of long life. In some places, Chinese people also eat eggs on their birthday. They are a symbol of life and good luck."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "All of these birthday foods may be different, but the ideas are the same. They bring good luck to the birthday person."
+      }
+    ]
+  },
+  "display": {
+    "title": "Birthday Food Around the World",
+    "section": "Section B",
+    "text": "What would people like to eat on their birthday? The answer would be different in different countries.\nIn many countries, people have birthday cakes with candles. The number of candles is the person's age. The birthday person must make a wish and blow out the candles. If he or she blows out all the candles in one go, the wish will come true. In the UK, people sometimes put a candy in a birthday cake. The child with the candy is lucky.\nIn China, it is getting popular to have cake on your birthday. But many people still eat very long noodles for their birthday. They never cut up the noodles because the long noodles are a symbol of long life. In some places, Chinese people also eat eggs on their birthday. They are a symbol of life and good luck.\nAll of these birthday foods may be different, but the ideas are the same. They bring good luck to the birthday person.",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "What would people like to eat on their birthday? The answer would be different in different countries."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "In many countries, people have birthday cakes with candles. The number of candles is the person's age. The birthday person must make a wish and blow out the candles. If he or she blows out all the candles in one go, the wish will come true. In the UK, people sometimes put a candy in a birthday cake. The child with the candy is lucky."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "In China, it is getting popular to have cake on your birthday. But many people still eat very long noodles for their birthday. They never cut up the noodles because the long noodles are a symbol of long life. In some places, Chinese people also eat eggs on their birthday. They are a symbol of life and good luck."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "All of these birthday foods may be different, but the ideas are the same. They bring good luck to the birthday person."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "path": "content/pep-english/raw/junior-7b.pdf",
+      "locator": "PDF第69-69页，标题与完整正文逐行核对",
+      "checked": true,
+      "sha256": "7041d787738bdf5f4f556765acdfe8033ac2f69d03e67ccc62516375f6a46f37"
+    },
+    {
+      "path": "content/pep-english/raw/junior-7b/junior-7b_69.jpg",
+      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
+      "checked": true,
+      "sha256": "aa09aff5b1926618a23fb9f1f743568429a99ebbfc1dbcc17cd2c4400d7870a7"
+    }
+  ],
+  "corrections": [],
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "reviewer": "Codex",
+  "reviewedAt": "2026-10-02T04:47:27+00:00",
+  "notes": "PDF69页印刷59页标题与四段逐行核对、第二遍复读。蜡烛数量、一次吹灭、英国糖果、中国长寿面与鸡蛋、末段共同寓意都完整准确；民俗说法照原文保留。绕图行序、段界、Unit10/SectionB正确，没有下方表格和问答混入，无修改。",
+  "issues": [],
+  "status": "passed_unchanged"
+}

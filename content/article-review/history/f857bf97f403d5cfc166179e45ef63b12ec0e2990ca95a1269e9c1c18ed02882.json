@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "course": "pep-english",
+  "articleId": "pepj7b-002",
+  "beforeDisplaySha256": "1e5f95b8443bdcc6e51667724ca1d3107860df1e2c36e9a47c665ffaebd54d0d",
+  "afterDisplaySha256": "1e5f95b8443bdcc6e51667724ca1d3107860df1e2c36e9a47c665ffaebd54d0d",
+  "baselineDisplay": {
+    "title": "Tony and Mary's Habits",
+    "section": "Section B",
+    "text": "Hi! I'm Tony. I don't like to get up early. In the morning, I get up at eight. Then I go to school at eight thirty. I don't have much time for breakfast, so I usually eat very quickly. For lunch, I usually eat hamburgers. After school, I sometimes play basketball for half an hour. When I get home, I always do my homework first. In the evening, I either watch TV or play computer games. At ten thirty, I brush my teeth and then I go to bed.\nMary is my sister. She usually gets up at six thirty. Then she always takes a shower and eats a good breakfast. After that, she goes to school at eight thirty. At twelve, she eats lots of fruit and vegetables for lunch. After lunch, she sometimes plays volleyball. She always eats ice-cream after dinner. She knows it's not good for her, but it tastes good! In the evening, she does her homework and usually swims or takes a walk. At nine thirty, she goes to bed.",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Hi! I'm Tony. I don't like to get up early. In the morning, I get up at eight. Then I go to school at eight thirty. I don't have much time for breakfast, so I usually eat very quickly. For lunch, I usually eat hamburgers. After school, I sometimes play basketball for half an hour. When I get home, I always do my homework first. In the evening, I either watch TV or play computer games. At ten thirty, I brush my teeth and then I go to bed."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Mary is my sister. She usually gets up at six thirty. Then she always takes a shower and eats a good breakfast. After that, she goes to school at eight thirty. At twelve, she eats lots of fruit and vegetables for lunch. After lunch, she sometimes plays volleyball. She always eats ice-cream after dinner. She knows it's not good for her, but it tastes good! In the evening, she does her homework and usually swims or takes a walk. At nine thirty, she goes to bed."
+      }
+    ]
+  },
+  "display": {
+    "title": "Tony and Mary's Habits",
+    "section": "Section B",
+    "text": "Hi! I'm Tony. I don't like to get up early. In the morning, I get up at eight. Then I go to school at eight thirty. I don't have much time for breakfast, so I usually eat very quickly. For lunch, I usually eat hamburgers. After school, I sometimes play basketball for half an hour. When I get home, I always do my homework first. In the evening, I either watch TV or play computer games. At ten thirty, I brush my teeth and then I go to bed.\nMary is my sister. She usually gets up at six thirty. Then she always takes a shower and eats a good breakfast. After that, she goes to school at eight thirty. At twelve, she eats lots of fruit and vegetables for lunch. After lunch, she sometimes plays volleyball. She always eats ice-cream after dinner. She knows it's not good for her, but it tastes good! In the evening, she does her homework and usually swims or takes a walk. At nine thirty, she goes to bed.",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Hi! I'm Tony. I don't like to get up early. In the morning, I get up at eight. Then I go to school at eight thirty. I don't have much time for breakfast, so I usually eat very quickly. For lunch, I usually eat hamburgers. After school, I sometimes play basketball for half an hour. When I get home, I always do my homework first. In the evening, I either watch TV or play computer games. At ten thirty, I brush my teeth and then I go to bed."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Mary is my sister. She usually gets up at six thirty. Then she always takes a shower and eats a good breakfast. After that, she goes to school at eight thirty. At twelve, she eats lots of fruit and vegetables for lunch. After lunch, she sometimes plays volleyball. She always eats ice-cream after dinner. She knows it's not good for her, but it tastes good! In the evening, she does her homework and usually swims or takes a walk. At nine thirty, she goes to bed."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "path": "content/pep-english/raw/junior-7b.pdf",
+      "locator": "PDF第21-21页，标题与完整正文逐行核对",
+      "checked": true,
+      "sha256": "7041d787738bdf5f4f556765acdfe8033ac2f69d03e67ccc62516375f6a46f37"
+    },
+    {
+      "path": "content/pep-english/raw/junior-7b/junior-7b_21.jpg",
+      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
+      "checked": true,
+      "sha256": "957fd4594ddc1545e2906c1036e5dd780de7c9d3ed241c6047e86ccddc377991"
+    }
+  ],
+  "corrections": [],
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "reviewer": "Codex",
+  "reviewedAt": "2026-10-02T04:44:23+00:00",
+  "notes": "PDF21页印刷11页完整两段逐行核对并第二次从头对照原图。Tony8点起/8:30上学/10:30睡，Mary6:30起/8:30上学/9:30睡和所有饮食运动习惯、频率、副词均一致。原图无正文标题，现有概括标题准确；教学提问未混入，两段绕图接续完整，无修改。",
+  "issues": [],
+  "status": "passed_unchanged"
+}

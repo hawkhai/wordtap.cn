@@ -1,0 +1,85 @@
+{
+  "schemaVersion": 1,
+  "course": "pep-english",
+  "articleId": "pephs1-017",
+  "beforeDisplaySha256": "476677a477ec8576a8f02ef85e88c23e8854cb22103047ea8fb0a31e8a198cd2",
+  "afterDisplaySha256": "a1533013243cfc83a05c7d7aca2f037bb574b3be8d4bc07f14a67c10b93662dd",
+  "baselineDisplay": {
+    "title": "Huang Danian",
+    "section": "Reading and Writing",
+    "text": "The person I respect most is the geophysicist Huang Danian, who helped China to make many technological advances.\nHuang was a remarkable scientist. He had studied and worked in Britain for 18 years, but when he felt that his country needed him, he gave up his well-paid job and returned to China. Over the next seven years, Huang worked to develop many devices needed for deep-Earth exploration.\nUnfortunately, such achievements didn’t come cheap. Due to the frantic pace of his research, Huang was absent from his father’s funeral, and even his own cancer went undetected as he had no time to see a doctor. To sum up, Huang sacrificed everything for his research, and I think more people should honour him.",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "The person I respect most is the geophysicist Huang Danian, who helped China to make many technological advances."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Huang was a remarkable scientist. He had studied and worked in Britain for 18 years, but when he felt that his country needed him, he gave up his well-paid job and returned to China. Over the next seven years, Huang worked to develop many devices needed for deep-Earth exploration."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Unfortunately, such achievements didn’t come cheap. Due to the frantic pace of his research, Huang was absent from his father’s funeral, and even his own cancer went undetected as he had no time to see a doctor. To sum up, Huang sacrificed everything for his research, and I think more people should honour him."
+      }
+    ]
+  },
+  "display": {
+    "title": "Huang Danian",
+    "section": "Reading and Writing",
+    "text": "The person I respect most is the geophysicist Huang Danian, who helped China to make many technological advances.\nHuang was a remarkable scientist. He had studied and worked in Britain for 18 years, but when he felt that his country needed him, he gave up his well-paid job and returned to China. Over the next seven years, Huang worked to develop many devices needed for deep-Earth exploration.\nUnfortunately, such achievements didn’t come cheap. Due to the frantic pace of his research, Huang was absent from his father’s funeral, and even his own cancer went undetected as he had no time to see a doctor. To sum up, Huang sacrificed everything for his research, and I think more people should honour him.\n(Zhang Keyu, Hubei)",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "The person I respect most is the geophysicist Huang Danian, who helped China to make many technological advances."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Huang was a remarkable scientist. He had studied and worked in Britain for 18 years, but when he felt that his country needed him, he gave up his well-paid job and returned to China. Over the next seven years, Huang worked to develop many devices needed for deep-Earth exploration."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Unfortunately, such achievements didn’t come cheap. Due to the frantic pace of his research, Huang was absent from his father’s funeral, and even his own cancer went undetected as he had no time to see a doctor. To sum up, Huang sacrificed everything for his research, and I think more people should honour him."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "(Zhang Keyu, Hubei)"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "path": "content/pep-english/raw/senior-selective-1.pdf",
+      "locator": "PDF第71-71页，标题与完整正文逐行核对",
+      "checked": true,
+      "sha256": "94ec493439239c436326e228e3d3ad78c7053ac5abc005db5739119f6a98c33d"
+    },
+    {
+      "path": "content/pep-english/raw/senior-selective-1/senior-selective-1_71.jpg",
+      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
+      "checked": true,
+      "sha256": "3cee1bcbd1e9b126b3b2ddcedee99e9f542ed99ce342c16aa7b544b99c5fd0dc"
+    }
+  ],
+  "corrections": [
+    {
+      "field": "text",
+      "before": "Unfortunately, such achievements didn’t come cheap. Due to the frantic pace of his research, Huang was absent from his father’s funeral, and even his own cancer went undetected as he had no time to see a doctor. To sum up, Huang sacrificed everything for his research, and I think more people should honour him.",
+      "after": "Unfortunately, such achievements didn’t come cheap. Due to the frantic pace of his research, Huang was absent from his father’s funeral, and even his own cancer went undetected as he had no time to see a doctor. To sum up, Huang sacrificed everything for his research, and I think more people should honour him.\n(Zhang Keyu, Hubei)",
+      "evidence": "PDF第71页第一投稿右下原署名(Zhang Keyu, Hubei)。"
+    }
+  ],
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "reviewer": "Codex",
+  "reviewedAt": "2026-10-02T06:18:20+00:00",
+  "notes": "逐行核对PDF第71页Heroes in Your Eyes第一则黄大年读者投稿三段，18年及七年叙述完整。恢复末尾遗漏投稿人及所在地(Zhang Keyu, Hubei)，独立成段，原作者评价保留，复读通过。",
+  "issues": [],
+  "status": "passed_edited"
+}

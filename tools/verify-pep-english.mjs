@@ -20,7 +20,7 @@ const paths = new Set();
 let total = 0;
 
 invariant(manifest.schemaVersion === 1, "Unsupported PEP English manifest schema");
-invariant(manifest.generatorVersion === "1.2.0", "Unexpected PEP English generator version");
+invariant(["1.2.0", "1.3.1"].includes(manifest.generatorVersion), "Unexpected PEP English generator version");
 invariant(manifest.expectedBookCount === 17, "PEP English must declare 17 expected books");
 invariant(manifest.availableBookCount === manifest.groups.length, "Available-book count mismatch");
 invariant(manifest.availableBookCount + manifest.missingBooks.length === 17, "Available and missing books must cover the catalog");

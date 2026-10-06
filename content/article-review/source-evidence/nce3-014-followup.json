@@ -1,0 +1,24 @@
+{
+  "article": "nce/nce3-014",
+  "fullRead": "14条现有英中、原LRC与14条最终稿全文通读。",
+  "sources": [
+    {
+      "url": "https://duomo.firenze.it/en/discover/cathedral/9125/paolo-uccello-monumento-a-giovanni-acuto",
+      "readScope": "31–58作品信息和正文全读；1394逝世与1436纪念画分离。"
+    },
+    {
+      "url": "https://www.treccani.it/enciclopedia/giovanni-acuto/",
+      "readScope": "22–24正文三段全读，约1320–1394及意大利语姓名。"
+    },
+    {
+      "path": "content/article-review/source-evidence/shuimu-upper-014-recheck.json",
+      "readScope": "完整重读，公版1911传记早前已全文核对1375付费与晚年定居。"
+    }
+  ],
+  "editorialChanges": [
+    "14世纪代替浮动600年前，1394代替无据80岁。",
+    "life’s work语法修正；保护费比较明确教材叙述，不声称每次烧农场已查档证实。",
+    "Italianised姓名与佛罗伦萨当局表彰明确，去全体意大利人英雄观及不精确铭文引语。"
+  ],
+  "unresolved": []
+}

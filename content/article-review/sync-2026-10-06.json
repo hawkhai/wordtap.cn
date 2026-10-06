@@ -1,0 +1,68 @@
+{
+  "articles": 1054,
+  "courses": {
+    "shuimu": 192,
+    "postgraduate": 40,
+    "nce": 276,
+    "pep-english": 313,
+    "college-english": 72,
+    "cet": 97,
+    "kaoyan-english": 64
+  },
+  "allLessonAndManifestBytesIdentical": true,
+  "schemaVersion": 1,
+  "sourceCommit": "9bd035d49f0803fc7499a648172e13817b3b805e",
+  "sourceBranch": "main_review",
+  "destinationRepository": "https://github.com/hawkhai/wordtap.cn",
+  "destinationBaseCommit": "a6f269fb11957f9a7385c46cd9aa329ada2a23d1",
+  "destinationBranch": "main",
+  "cleanupProof": "content/article-review/cleanup-2026-10-06.json",
+  "cleanupProofSha256": "cea27c1c69e32939ff83196bd29cce9a128d8d0d6f248611217179e037971889",
+  "scope": "Published lesson JSON, catalogs, immutable review evidence, and generator replay/validation helpers. Original raw source files are not included.",
+  "checkedAt": "2026-10-06T00:17:39.494426+00:00",
+  "checks": {
+    "unitTests": 31,
+    "cleanupRules": "1054/1054 passed",
+    "publishedReviewSnapshot": "1054/1054 passed; raw sources not reopened",
+    "courseStructure": "all seven courses passed",
+    "collegeGeneratorReplay": "72/72 published lesson objects identical",
+    "stagedSnapshot": "All 1054 lesson files, seven manifests, and signed review evidence match the source bytes; Git CRLF conversion disabled for these paths.",
+    "productionBuild": "Prebuild and vue-tsc passed; Vite production build passed with local public-asset copy performed in a thread pool; unchanged npm postbuild passed.",
+    "staticPages": "1054 lesson pages, 161 exam entries, 1064 themed static pages; 12269 text files checked.",
+    "browser": [
+      {
+        "name": "study",
+        "url": "/?l=sm:int-061#study",
+        "width": 1440,
+        "scrollWidth": 1440,
+        "errors": []
+      },
+      {
+        "name": "static",
+        "url": "/shuimu/intermediate-061/",
+        "width": 1440,
+        "scrollWidth": 1440,
+        "errors": []
+      },
+      {
+        "name": "study",
+        "url": "/?l=sm:int-061#study",
+        "width": 390,
+        "scrollWidth": 390,
+        "errors": []
+      },
+      {
+        "name": "static",
+        "url": "/shuimu/intermediate-061/",
+        "width": 390,
+        "scrollWidth": 390,
+        "errors": []
+      }
+    ]
+  },
+  "omittedFiles": [
+    "content/article-review/build-final.log",
+    "content/article-review/verification-final.log"
+  ],
+  "omissionReason": "Historical command logs are excluded by the public repository policy; signed revisions, events, restoration proofs and validation summaries are included."
+}

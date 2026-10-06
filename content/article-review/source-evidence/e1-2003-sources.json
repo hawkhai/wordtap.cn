@@ -1,0 +1,82 @@
+{
+  "article": "e1-2003",
+  "rawRead": {
+    "blocks": 6,
+    "pdfPhysicalPages": [
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "allPageImagesRead": true,
+    "writingImageCropRead": true
+  },
+  "sources": [
+    {
+      "url": "https://time.com/archive/6734443/spies-like-us/",
+      "readScope": "requests200，article正文完整读到，保存time.txt；与本卷对应段落核对公司名和缺失网址，不补入原刊被试题删去的伊拉克论述，不把预测当成经验证结论。"
+    },
+    {
+      "url": "https://www.toxicology.org/pubs/docs/Historical/1998-99/SI99.pdf",
+      "readScope": "下载28页扫描PDF，实读物理页5及18上转载文章的全部两部分图像；其余页仅缩略图定位，不声称整期阅读。Science原刊1998-11-20、282:1417，P. Michael Conn与J. Parker；原刊姓名Stephen Hawking。"
+    },
+    {
+      "url": "https://www.monticello.org/encyclopedia/all-tyranny-needs-gain-footholdspurious-quotation",
+      "readScope": "搜索返回Status、研究说明及脚注段，说明相关名言不能确证为Burke原话；未将改写句武断归给Mill或其他人。"
+    },
+    {
+      "url": "https://grants.nih.gov/policy-and-compliance/policy-topics/animal-welfare/compliance-topics/alternatives-nams",
+      "readScope": "搜索返回主文3Rs和NAMs段，替代、减少、优化及科学适用性；未作所有动物研究均可被计算机替代的推论。"
+    },
+    {
+      "url": "https://conrail.com/about-conrail/history/",
+      "readScope": "requests200，历史正文全文已读并保存conrail.txt，1997协议、1998-07-23批准、1999-06-01新运营安排；未将网页今天公司情况代入旧文。"
+    },
+    {
+      "url": "https://www.stb.gov/wp-content/uploads/archived-press-release/htmls/A7F7A446B11BF4C385256777005316D1.html.pdf",
+      "readScope": "搜索返回1998年7月23日批准段及部分条件，未读完整PDF；以Conrail完整历史页交叉核对批准日期。"
+    },
+    {
+      "url": "https://www.cdc.gov/mmwr/preview/mmwrhtml/mm6019a5.htm",
+      "readScope": "搜索返回开篇完整统计句，1900年47.3岁至2000年76.8岁，62%；没有声称阅读整篇MMWR。"
+    },
+    {
+      "url": "https://www.cancer.gov/about-cancer/advanced-cancer/care-choices/palliative-care-fact-sheet",
+      "readScope": "搜索返回What is palliative care及研究支持和参考部分；确认可与治愈目的治疗并行，未读所有问答。"
+    },
+    {
+      "url": "https://www.cancer.gov/about-cancer/advanced-cancer/planning/end-of-life-hp-pdq",
+      "readScope": "搜索返回开篇照护质量两段，获益负担及患者家庭意愿；未读整份PDQ。"
+    },
+    {
+      "url": "https://www.nia.nih.gov/news/epigenetics-aging-what-bodys-hands-time-tell-us",
+      "readScope": "搜索返回2021介绍与What Is Epigenetics节，读至环境压力段，支持基因、行为和环境共同影响，不将衰老解释成固定死亡日期。"
+    },
+    {
+      "url": "https://www.gutenberg.org/cache/epub/70458/pg70458-images.html",
+      "readScope": "搜索返回前置出版信息与Chapter I开篇文化定义全文；初版1871、该电子底本1920版，原文含knowledge, belief。公共领域原书，不声称全书通读。"
+    }
+  ],
+  "restorations": [
+    "完形1–20空位、阅读缺少的题干空线；41–45完整划线范围逐图核对。",
+    "作文温室与风雨两幅图及中文题注，补无障碍图画描述，不给花朵种类。",
+    "页间段落连接与断词、caner/contrast/fortuning等排印错误。"
+  ],
+  "editorialChanges": [
+    "Stratfor名称与原刊网址，Stephen Hawking正文及30题，Burke不确证归属与26题。",
+    "寿命nearly doubled改risen substantially并说明CDC历史统计。",
+    "44句据Tylor原著补回knowledge；作文原缺标题且语法残缺，去除entitled，不编造指定标题。"
+  ],
+  "reasonedAnswers": {
+    "cloze": "ABCDCBDCADADBDCDBACA",
+    "reading": "BACDBABBADCDCBACABDC",
+    "notOfficialKey": true
+  },
+  "limits": [
+    "未独立找到Text 3原刊或Text 4 Newsweek原刊全文，试题全文与原卷图像已通读；历史数据保留时点，不宣传为当前统计。",
+    "Text 2情绪性评价为作者观点，3Rs为现代补充说明。",
+    "不伪造官方答案、翻译或范文。"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "course": "pep-english",
+  "articleId": "pepj9-001",
+  "beforeDisplaySha256": "7c92a653f7dcfd84a013c058a6ae7e02b83fae648ba77d482dd64445523e0519",
+  "afterDisplaySha256": "7c92a653f7dcfd84a013c058a6ae7e02b83fae648ba77d482dd64445523e0519",
+  "baselineDisplay": {
+    "title": "Jack Asks Annie for Reading Advice",
+    "section": "Section A",
+    "text": "Jack: Annie, I'm a little nervous. I have to finish reading a book and give a report next Monday.\nAnnie: That doesn't sound too bad.\nJack: But I'm a very slow reader.\nAnnie: Just read quickly to get the main ideas at first. Don't read word by word. Read word groups.\nJack: But I don't understand many of the words. I have to use a dictionary.\nAnnie: Try to guess a word's meaning by reading the sentences before and after it. You probably understand more than you think.\nJack: That sounds difficult!\nAnnie: Well, be patient. It takes time. You can become better by reading something you enjoy every day. The more you read, the faster you'll be.",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Jack: Annie, I'm a little nervous. I have to finish reading a book and give a report next Monday.\nAnnie: That doesn't sound too bad.\nJack: But I'm a very slow reader.\nAnnie: Just read quickly to get the main ideas at first. Don't read word by word. Read word groups.\nJack: But I don't understand many of the words. I have to use a dictionary.\nAnnie: Try to guess a word's meaning by reading the sentences before and after it. You probably understand more than you think.\nJack: That sounds difficult!\nAnnie: Well, be patient. It takes time. You can become better by reading something you enjoy every day. The more you read, the faster you'll be."
+      }
+    ]
+  },
+  "display": {
+    "title": "Jack Asks Annie for Reading Advice",
+    "section": "Section A",
+    "text": "Jack: Annie, I'm a little nervous. I have to finish reading a book and give a report next Monday.\nAnnie: That doesn't sound too bad.\nJack: But I'm a very slow reader.\nAnnie: Just read quickly to get the main ideas at first. Don't read word by word. Read word groups.\nJack: But I don't understand many of the words. I have to use a dictionary.\nAnnie: Try to guess a word's meaning by reading the sentences before and after it. You probably understand more than you think.\nJack: That sounds difficult!\nAnnie: Well, be patient. It takes time. You can become better by reading something you enjoy every day. The more you read, the faster you'll be.",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Jack: Annie, I'm a little nervous. I have to finish reading a book and give a report next Monday.\nAnnie: That doesn't sound too bad.\nJack: But I'm a very slow reader.\nAnnie: Just read quickly to get the main ideas at first. Don't read word by word. Read word groups.\nJack: But I don't understand many of the words. I have to use a dictionary.\nAnnie: Try to guess a word's meaning by reading the sentences before and after it. You probably understand more than you think.\nJack: That sounds difficult!\nAnnie: Well, be patient. It takes time. You can become better by reading something you enjoy every day. The more you read, the faster you'll be."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "path": "content/pep-english/raw/junior-9.pdf",
+      "locator": "PDF第16-16页，标题与完整正文逐行核对",
+      "checked": true,
+      "sha256": "9c4118021048d901610b673f590ed28c39c04cb2d4f7fd940f83a2d8b2741af7"
+    },
+    {
+      "path": "content/pep-english/raw/junior-9/junior-9_16.jpg",
+      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
+      "checked": true,
+      "sha256": "ce7eaf37d5b58fa1fff2bee01987b87c4dff4b0c03c3e7aa92ebb672bc858de1"
+    }
+  ],
+  "corrections": [],
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "reviewer": "Codex",
+  "reviewedAt": "2026-10-02T05:04:55+00:00",
+  "notes": "PDF16页印刷2页Jack/Annie八轮阅读建议对话逐行对照，周一下报告、先读大意与词组、上下文猜词、每日读及末句比较级均准确。逐轮换行与角色完整，未混入2a至2c问答练习，复读无修改。",
+  "issues": [],
+  "status": "passed_unchanged"
+}

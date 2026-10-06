@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "course": "pep-english",
+  "articleId": "pepj9-009",
+  "beforeDisplaySha256": "df3854f92a4b58fa8570ac10d587778d89939ae97c3363dfd9a93a1e23c7fc11",
+  "afterDisplaySha256": "df3854f92a4b58fa8570ac10d587778d89939ae97c3363dfd9a93a1e23c7fc11",
+  "baselineDisplay": {
+    "title": "Asking for the Restrooms at Fun Times Park",
+    "section": "Section A",
+    "text": "He Wei: This is Fun Times Park, the biggest amusement park in our city!\nAlice: I'm excited to try the rides!\nHe Wei: What should we start with? There's Space World, Water World, Animal World...\nAlice: Before we decide, could you first tell me where the restrooms are?\nHe Wei: Pardon? Restroom? You want to rest? But we haven't even started yet!\nAlice: Oh no, I don't mean that. I mean... you know, a washroom or bathroom.\nHe Wei: Hmm... so you mean... the toilet?\nAlice: Yes! Sorry, maybe people in China don't often use the word \"restroom\" when they speak English.\nHe Wei: That's right. In China, we normally say \"toilet\" or \"washroom\" in English. Anyway, they're over there.\nAlice: OK. I'll be quick!\nHe Wei: No problem. You don't need to rush!",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "He Wei: This is Fun Times Park, the biggest amusement park in our city!\nAlice: I'm excited to try the rides!\nHe Wei: What should we start with? There's Space World, Water World, Animal World...\nAlice: Before we decide, could you first tell me where the restrooms are?\nHe Wei: Pardon? Restroom? You want to rest? But we haven't even started yet!\nAlice: Oh no, I don't mean that. I mean... you know, a washroom or bathroom.\nHe Wei: Hmm... so you mean... the toilet?\nAlice: Yes! Sorry, maybe people in China don't often use the word \"restroom\" when they speak English.\nHe Wei: That's right. In China, we normally say \"toilet\" or \"washroom\" in English. Anyway, they're over there.\nAlice: OK. I'll be quick!\nHe Wei: No problem. You don't need to rush!"
+      }
+    ]
+  },
+  "display": {
+    "title": "Asking for the Restrooms at Fun Times Park",
+    "section": "Section A",
+    "text": "He Wei: This is Fun Times Park, the biggest amusement park in our city!\nAlice: I'm excited to try the rides!\nHe Wei: What should we start with? There's Space World, Water World, Animal World...\nAlice: Before we decide, could you first tell me where the restrooms are?\nHe Wei: Pardon? Restroom? You want to rest? But we haven't even started yet!\nAlice: Oh no, I don't mean that. I mean... you know, a washroom or bathroom.\nHe Wei: Hmm... so you mean... the toilet?\nAlice: Yes! Sorry, maybe people in China don't often use the word \"restroom\" when they speak English.\nHe Wei: That's right. In China, we normally say \"toilet\" or \"washroom\" in English. Anyway, they're over there.\nAlice: OK. I'll be quick!\nHe Wei: No problem. You don't need to rush!",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "He Wei: This is Fun Times Park, the biggest amusement park in our city!\nAlice: I'm excited to try the rides!\nHe Wei: What should we start with? There's Space World, Water World, Animal World...\nAlice: Before we decide, could you first tell me where the restrooms are?\nHe Wei: Pardon? Restroom? You want to rest? But we haven't even started yet!\nAlice: Oh no, I don't mean that. I mean... you know, a washroom or bathroom.\nHe Wei: Hmm... so you mean... the toilet?\nAlice: Yes! Sorry, maybe people in China don't often use the word \"restroom\" when they speak English.\nHe Wei: That's right. In China, we normally say \"toilet\" or \"washroom\" in English. Anyway, they're over there.\nAlice: OK. I'll be quick!\nHe Wei: No problem. You don't need to rush!"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "path": "content/pep-english/raw/junior-9.pdf",
+      "locator": "PDF第32-32页，标题与完整正文逐行核对",
+      "checked": true,
+      "sha256": "9c4118021048d901610b673f590ed28c39c04cb2d4f7fd940f83a2d8b2741af7"
+    },
+    {
+      "path": "content/pep-english/raw/junior-9/junior-9_32.jpg",
+      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
+      "checked": true,
+      "sha256": "9ea8591b7d544f6718380742c5797bff1bc624a43c7c3431fe0095e67887f184"
+    }
+  ],
+  "corrections": [],
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "reviewer": "Codex",
+  "reviewedAt": "2026-10-02T05:07:21+00:00",
+  "notes": "PDF32页印刷18页He Wei/Alice十一轮逐行核对，Fun Times Park三个区域和restroom/rest/toilet误解完整；Hmm及省略号为原对话停顿，保留。角色换行准确，终句不必着急完整，未混入地图练习，复读无修改。",
+  "issues": [],
+  "status": "passed_unchanged"
+}

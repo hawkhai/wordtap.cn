@@ -1,0 +1,133 @@
+{
+  "schemaVersion": 1,
+  "course": "nce",
+  "articleId": "nce1-001",
+  "beforeDisplaySha256": "172810e1413b618fee3b14e5033d2e9ba83cb34e8950c5e49163d50fae2087cb",
+  "afterDisplaySha256": "ed7d348b830d5e5270a394e87e1b3eb3f32337bcda55965faf1f7b0094288f17",
+  "baselineDisplay": {
+    "title": "Excuse Me",
+    "titleZh": "打扰一下！",
+    "question": "Whose handbag is it?",
+    "questionZh": "这是谁的手提包？",
+    "text": "Whose handbag is it?\n\nExcuse me!\nYes?\nIs this your handbag?\nPardon?\nIs this your handbag?\nYes it is.\nThank you very much.",
+    "bodyText": "Excuse me!\nYes?\nIs this your handbag?\nPardon?\nIs this your handbag?\nYes it is.\nThank you very much.",
+    "bodyTextZh": "打扰一下！\n什么事？\n这是你的手提包吗？\n什么？请再说一遍。\n这是你的手提包吗？\n是的，它是。\n非常感谢您。",
+    "sentences": [
+      {
+        "en": "Lesson 1",
+        "zh": "第1课"
+      },
+      {
+        "en": "Excuse me!",
+        "zh": "打扰一下！"
+      },
+      {
+        "en": "Listen to the tape then answer this question.",
+        "zh": "先听这段录音，然后再回答这个问题。"
+      },
+      {
+        "en": "Whose handbag is it?",
+        "zh": "这是谁的手提包？"
+      },
+      {
+        "en": "Excuse me!",
+        "zh": "打扰一下！"
+      },
+      {
+        "en": "Yes?",
+        "zh": "什么事？"
+      },
+      {
+        "en": "Is this your handbag?",
+        "zh": "这是你的手提包吗？"
+      },
+      {
+        "en": "Pardon?",
+        "zh": "什么？请再说一遍。"
+      },
+      {
+        "en": "Is this your handbag?",
+        "zh": "这是你的手提包吗？"
+      },
+      {
+        "en": "Yes it is.",
+        "zh": "是的，它是。"
+      },
+      {
+        "en": "Thank you very much.",
+        "zh": "非常感谢您。"
+      }
+    ]
+  },
+  "display": {
+    "title": "Excuse Me",
+    "titleZh": "打扰一下！",
+    "question": "Whose handbag is it?",
+    "questionZh": "这是谁的手提包？",
+    "text": "Whose handbag is it?\n\nExcuse me!\nYes?\nIs this your handbag?\nPardon?\nIs this your handbag?\nYes it is.\nThank you very much.",
+    "bodyText": "Excuse me!\nYes?\nIs this your handbag?\nPardon?\nIs this your handbag?\nYes it is.\nThank you very much.",
+    "bodyTextZh": "打扰一下！\n什么事？\n这是你的手提包吗？\n什么？请再说一遍。\n这是你的手提包吗？\n是的，它是。\n非常感谢您。",
+    "sentences": [
+      {
+        "en": "Lesson 1",
+        "zh": "第 1 课"
+      },
+      {
+        "en": "Excuse me!",
+        "zh": "打扰一下！"
+      },
+      {
+        "en": "Listen to the tape then answer this question.",
+        "zh": "先听这段录音，然后再回答这个问题。"
+      },
+      {
+        "en": "Whose handbag is it?",
+        "zh": "这是谁的手提包？"
+      },
+      {
+        "en": "Excuse me!",
+        "zh": "打扰一下！"
+      },
+      {
+        "en": "Yes?",
+        "zh": "什么事？"
+      },
+      {
+        "en": "Is this your handbag?",
+        "zh": "这是你的手提包吗？"
+      },
+      {
+        "en": "Pardon?",
+        "zh": "什么？请再说一遍。"
+      },
+      {
+        "en": "Is this your handbag?",
+        "zh": "这是你的手提包吗？"
+      },
+      {
+        "en": "Yes it is.",
+        "zh": "是的，它是。"
+      },
+      {
+        "en": "Thank you very much.",
+        "zh": "非常感谢您。"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "path": "content/NCE-Flow/NCE1/001&002－Excuse Me.lrc",
+      "locator": "完整LRC元数据、标题、提问及全部中英文逐句字幕和时间戳",
+      "checked": true,
+      "sha256": "3b7395ad4c9b77f10e8b493cf65e6d46293fb2e6c45f9689a5a00bf1a14a9799"
+    }
+  ],
+  "corrections": [],
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "reviewer": "Codex",
+  "reviewedAt": "2026-10-02T02:19:06+00:00",
+  "notes": "逐句通读并复核LRC全部11行：问句Whose handbag、两次手提包询问、Pardon及致谢的中英对应完整；保留Yes it is原字幕标点，正文一轮对话一句一行。仅为课号第1课增加中数间空格；所有时间戳和角色保持不变。",
+  "issues": [],
+  "status": "passed_edited"
+}

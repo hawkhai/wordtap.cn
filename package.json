@@ -18,7 +18,7 @@
   },
   "scripts": {
     "dev": "vite",
-    "prebuild": "node --test tools/static-page-design.test.mjs && node tools/check-downloads.mjs && node tools/verify-responsive-breakpoints.mjs",
+    "prebuild": "node --test tools/static-page-design.test.mjs && node tools/check-downloads.mjs && node tools/verify-responsive-breakpoints.mjs && python tools/cleanup-articles.py check && python tools/review-articles.py verify-published --require-complete",
     "build": "vue-tsc --noEmit && vite build",
     "postbuild": "node tools/generate-nce-pages.mjs && node tools/generate-shuimu-pages.mjs && node tools/generate-postgraduate-pages.mjs && node tools/generate-pep-english-pages.mjs && node tools/generate-college-english-pages.mjs && node tools/generate-cet-pages.mjs && node tools/generate-kaoyan-english-pages.mjs && node tools/generate-exam-pages.mjs && node tools/generate-install-guide-pages.mjs && node tools/verify-short-links.mjs && node tools/verify-exam.mjs && node tools/verify-static-design.mjs",
     "preview": "vite preview --host 127.0.0.1",
@@ -57,7 +57,13 @@
     "review:init:reading-layout": "node tools/create-reading-layout-ledger.mjs",
     "verify:short-links": "node tools/verify-short-links.mjs",
     "verify:downloads": "node tools/check-downloads.mjs",
-    "verify:responsive": "node tools/verify-responsive-breakpoints.mjs"
+    "verify:responsive": "node tools/verify-responsive-breakpoints.mjs",
+    "verify:article-cleanup": "python tools/cleanup-articles.py check",
+    "verify:article-review:published": "python tools/review-articles.py verify-published --require-complete",
+    "test:article-review": "python -m unittest discover -s tools -p test_article*.py",
+    "review:init:articles": "python tools/review-articles.py init",
+    "review:inspect:articles": "python tools/review-articles.py inspect",
+    "verify:article-review": "python tools/review-articles.py verify"
   },
   "dependencies": {
     "vue": "^3.5.25"

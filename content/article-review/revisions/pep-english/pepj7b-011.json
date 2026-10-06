@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "course": "pep-english",
+  "articleId": "pepj7b-011",
+  "beforeDisplaySha256": "02e428af84e0e9faa50edfdbf6d7d869f0056fb1f9e45c4fab78335f11bd2119",
+  "afterDisplaySha256": "02e428af84e0e9faa50edfdbf6d7d869f0056fb1f9e45c4fab78335f11bd2119",
+  "baselineDisplay": {
+    "title": "An Interesting Job",
+    "section": "Section B",
+    "text": "Joe Brown has a very interesting job. He is a police artist. Some people see crimes and then talk to Joe. They tell him what the criminal looks like. Then Joe draws a picture of the criminal, and the police put it in newspapers and on television to find him.\nHe wants to draw a good picture of each criminal, but this job is sometimes difficult. Many people don't always see things the same way so they may describe the same person differently. Also, they don't always remember well. \"The criminal is of medium height and young. He has long straight brown hair and big eyes,\" says one woman. Another woman says, \"He is tall and thin, and he has curly blond hair. He's about thirty years old.\" In the end, the real criminal is a short and heavy old man, and he has short black hair!",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Joe Brown has a very interesting job. He is a police artist. Some people see crimes and then talk to Joe. They tell him what the criminal looks like. Then Joe draws a picture of the criminal, and the police put it in newspapers and on television to find him."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "He wants to draw a good picture of each criminal, but this job is sometimes difficult. Many people don't always see things the same way so they may describe the same person differently. Also, they don't always remember well. \"The criminal is of medium height and young. He has long straight brown hair and big eyes,\" says one woman. Another woman says, \"He is tall and thin, and he has curly blond hair. He's about thirty years old.\" In the end, the real criminal is a short and heavy old man, and he has short black hair!"
+      }
+    ]
+  },
+  "display": {
+    "title": "An Interesting Job",
+    "section": "Section B",
+    "text": "Joe Brown has a very interesting job. He is a police artist. Some people see crimes and then talk to Joe. They tell him what the criminal looks like. Then Joe draws a picture of the criminal, and the police put it in newspapers and on television to find him.\nHe wants to draw a good picture of each criminal, but this job is sometimes difficult. Many people don't always see things the same way so they may describe the same person differently. Also, they don't always remember well. \"The criminal is of medium height and young. He has long straight brown hair and big eyes,\" says one woman. Another woman says, \"He is tall and thin, and he has curly blond hair. He's about thirty years old.\" In the end, the real criminal is a short and heavy old man, and he has short black hair!",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Joe Brown has a very interesting job. He is a police artist. Some people see crimes and then talk to Joe. They tell him what the criminal looks like. Then Joe draws a picture of the criminal, and the police put it in newspapers and on television to find him."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "He wants to draw a good picture of each criminal, but this job is sometimes difficult. Many people don't always see things the same way so they may describe the same person differently. Also, they don't always remember well. \"The criminal is of medium height and young. He has long straight brown hair and big eyes,\" says one woman. Another woman says, \"He is tall and thin, and he has curly blond hair. He's about thirty years old.\" In the end, the real criminal is a short and heavy old man, and he has short black hair!"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "path": "content/pep-english/raw/junior-7b.pdf",
+      "locator": "PDF第63-63页，标题与完整正文逐行核对",
+      "checked": true,
+      "sha256": "7041d787738bdf5f4f556765acdfe8033ac2f69d03e67ccc62516375f6a46f37"
+    },
+    {
+      "path": "content/pep-english/raw/junior-7b/junior-7b_63.jpg",
+      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
+      "checked": true,
+      "sha256": "ac924fe2ea84b0d9dc95679b98f9bc23bc9e55d2a9aace7609d7fc9cedc87208"
+    }
+  ],
+  "corrections": [],
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "reviewer": "Codex",
+  "reviewedAt": "2026-10-02T04:47:13+00:00",
+  "notes": "PDF63页印刷53页完整两段与标题逐行两轮复核。Joe Brown职业、目击者描述流程、两名女子不同身高年龄发色说法、最终矮胖老人短黑发均准确；引语与归属无错接，原文矛盾为故事设定而非需修正的错误。Unit9/SectionB及完整首尾一致，无修改。",
+  "issues": [],
+  "status": "passed_unchanged"
+}

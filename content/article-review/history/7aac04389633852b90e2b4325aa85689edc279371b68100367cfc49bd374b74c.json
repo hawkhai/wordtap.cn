@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 1,
+  "course": "pep-english",
+  "articleId": "pephr1-031",
+  "beforeDisplaySha256": "4af417002c0a99590852a7a7bf95fe93120bc13a9153edeb5e675cf55f688643",
+  "afterDisplaySha256": "4af417002c0a99590852a7a7bf95fe93120bc13a9153edeb5e675cf55f688643",
+  "baselineDisplay": {
+    "title": "Cool Cold Sports",
+    "section": "Reading",
+    "text": "The Winter Olympic Games are not just an opportunity for athletes to win medals and honour for their countries. Every four years, the Games also offer audiences a chance to get to know more about winter sports from around the world. The Winter Olympics may not have the large crowds and huge stars of its summer sibling, but they share the same Olympic spirit.\nOne of the most popular sports of the Winter Olympic Games is skiing. Skiers compete in the downhill and slalom, and in the short and long cross-country ski races. Skiing was originally a sport played only in cold northern countries, but now athletes from all over the world compete in this sport, even those from countries without any snow!\nSkaters compete with each other in speed races or in figure-skating events. The figure-skaters are generally considered to be the stars of the Winter Olympic Games. These ice princes and princesses are so graceful that it's easy to forget that they are actually highly skilled athletes.\nThe skeleton is one of the strangest-named sports of the Olympics. The skeleton is named after the shape of the metal sleds used in the 1890s, when the sport first started. The skeleton is a downhill sled race, usually on ice. This sport looks a little like the luge, where a person sits on the back of the sled with his or her feet forward, but the skeleton is a lot more exciting and dangerous than that. In the skeleton, a person lies on his or her stomach on the sled, with his or her head pointing downhill!",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "The Winter Olympic Games are not just an opportunity for athletes to win medals and honour for their countries. Every four years, the Games also offer audiences a chance to get to know more about winter sports from around the world. The Winter Olympics may not have the large crowds and huge stars of its summer sibling, but they share the same Olympic spirit."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "One of the most popular sports of the Winter Olympic Games is skiing. Skiers compete in the downhill and slalom, and in the short and long cross-country ski races. Skiing was originally a sport played only in cold northern countries, but now athletes from all over the world compete in this sport, even those from countries without any snow!"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Skaters compete with each other in speed races or in figure-skating events. The figure-skaters are generally considered to be the stars of the Winter Olympic Games. These ice princes and princesses are so graceful that it's easy to forget that they are actually highly skilled athletes."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "The skeleton is one of the strangest-named sports of the Olympics. The skeleton is named after the shape of the metal sleds used in the 1890s, when the sport first started. The skeleton is a downhill sled race, usually on ice. This sport looks a little like the luge, where a person sits on the back of the sled with his or her feet forward, but the skeleton is a lot more exciting and dangerous than that. In the skeleton, a person lies on his or her stomach on the sled, with his or her head pointing downhill!"
+      }
+    ]
+  },
+  "display": {
+    "title": "Cool Cold Sports",
+    "section": "Reading",
+    "text": "The Winter Olympic Games are not just an opportunity for athletes to win medals and honour for their countries. Every four years, the Games also offer audiences a chance to get to know more about winter sports from around the world. The Winter Olympics may not have the large crowds and huge stars of its summer sibling, but they share the same Olympic spirit.\nOne of the most popular sports of the Winter Olympic Games is skiing. Skiers compete in the downhill and slalom, and in the short and long cross-country ski races. Skiing was originally a sport played only in cold northern countries, but now athletes from all over the world compete in this sport, even those from countries without any snow!\nSkaters compete with each other in speed races or in figure-skating events. The figure-skaters are generally considered to be the stars of the Winter Olympic Games. These ice princes and princesses are so graceful that it's easy to forget that they are actually highly skilled athletes.\nThe skeleton is one of the strangest-named sports of the Olympics. The skeleton is named after the shape of the metal sleds used in the 1890s, when the sport first started. The skeleton is a downhill sled race, usually on ice. This sport looks a little like the luge, where a person sits on the back of the sled with his or her feet forward, but the skeleton is a lot more exciting and dangerous than that. In the skeleton, a person lies on his or her stomach on the sled, with his or her head pointing downhill!",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "The Winter Olympic Games are not just an opportunity for athletes to win medals and honour for their countries. Every four years, the Games also offer audiences a chance to get to know more about winter sports from around the world. The Winter Olympics may not have the large crowds and huge stars of its summer sibling, but they share the same Olympic spirit."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "One of the most popular sports of the Winter Olympic Games is skiing. Skiers compete in the downhill and slalom, and in the short and long cross-country ski races. Skiing was originally a sport played only in cold northern countries, but now athletes from all over the world compete in this sport, even those from countries without any snow!"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Skaters compete with each other in speed races or in figure-skating events. The figure-skaters are generally considered to be the stars of the Winter Olympic Games. These ice princes and princesses are so graceful that it's easy to forget that they are actually highly skilled athletes."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "The skeleton is one of the strangest-named sports of the Olympics. The skeleton is named after the shape of the metal sleds used in the 1890s, when the sport first started. The skeleton is a downhill sled race, usually on ice. This sport looks a little like the luge, where a person sits on the back of the sled with his or her feet forward, but the skeleton is a lot more exciting and dangerous than that. In the skeleton, a person lies on his or her stomach on the sled, with his or her head pointing downhill!"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "path": "content/pep-english/raw/senior-required-1.pdf",
+      "locator": "PDF第93-93页，标题与完整正文逐行核对",
+      "checked": true,
+      "sha256": "ffe985a370964820aa003008f48c7cf17b5e0dff8eb29fe54cd4743b0c4e8c79"
+    },
+    {
+      "path": "content/pep-english/raw/senior-required-1/senior-required-1_93.jpg",
+      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
+      "checked": true,
+      "sha256": "2f7ca430f97a236e86bed2364f79ef389c5a71aa9dc3d3bb8a5c07e4dbd7d069"
+    }
+  ],
+  "corrections": [],
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "reviewer": "Codex",
+  "reviewedAt": "2026-10-02T05:33:39+00:00",
+  "notes": "PDF第93页引言及三栏滑雪、滑冰、钢架雪车全文核对，四年一次、1890s、slalom/figure-skating/skeleton/luge均与教材一致。四段顺序完整，无转录修改。",
+  "issues": [],
+  "status": "passed_unchanged"
+}

@@ -1,0 +1,218 @@
+{
+  "schemaVersion": 1,
+  "course": "nce",
+  "articleId": "nce1-007",
+  "beforeDisplaySha256": "f239d80c6759b1da3d351119726baec5530fd76982d6586894d1834c6e29204d",
+  "afterDisplaySha256": "ca1998f7eeb45b33e040e9d6744f8ed13dba4ffc3d2e6ea695b7325c378262c2",
+  "baselineDisplay": {
+    "title": "Are You a Teacher",
+    "titleZh": "你是一名老师吗？",
+    "question": "What is Rober's job?",
+    "questionZh": "罗伯特的工作是什么？",
+    "text": "What is Rober's job?\n\nI am a new student.\nMy name's Robert.\nNice to meet you.\nMy name's Sophie.\nAre you French?\nYes I am.\nAre you French too?\nNo I am not.\nWhat nationality are you?\nI'm Italian.\nAre you a teacher?\nNo I'm not.\nWhat's your job?\nI'm a keyboard operator.\nWhat's your job?\nI'm an engineer.",
+    "bodyText": "I am a new student.\nMy name's Robert.\nNice to meet you.\nMy name's Sophie.\nAre you French?\nYes I am.\nAre you French too?\nNo I am not.\nWhat nationality are you?\nI'm Italian.\nAre you a teacher?\nNo I'm not.\nWhat's your job?\nI'm a keyboard operator.\nWhat's your job?\nI'm an engineer.",
+    "bodyTextZh": "我是一名新学生。\n我的名字叫罗伯特。\n很高兴见到你。\n我的名字叫索菲。\n你是法国人吗？\n是的，我是。\n你也是法国人吗？\n不，我不是。\n你是什么国籍的？\n我是意大利人。\n你是一名老师吗？\n不，我不是。\n你的工作是什么？\n我是一名打字员。\n你的工作是什么？\n我是一名工程师。",
+    "sentences": [
+      {
+        "en": "Lesson 7",
+        "zh": "第7课"
+      },
+      {
+        "en": "Are you a teacher?",
+        "zh": "你是一名老师吗？"
+      },
+      {
+        "en": "Listen to the tape then answer this question.",
+        "zh": "请听录音，然后回答这个问题。"
+      },
+      {
+        "en": "What is Rober's job?",
+        "zh": "罗伯特的工作是什么？"
+      },
+      {
+        "en": "I am a new student.",
+        "zh": "我是一名新学生。"
+      },
+      {
+        "en": "My name's Robert.",
+        "zh": "我的名字叫罗伯特。"
+      },
+      {
+        "en": "Nice to meet you.",
+        "zh": "很高兴见到你。"
+      },
+      {
+        "en": "My name's Sophie.",
+        "zh": "我的名字叫索菲。"
+      },
+      {
+        "en": "Are you French?",
+        "zh": "你是法国人吗？"
+      },
+      {
+        "en": "Yes I am.",
+        "zh": "是的，我是。"
+      },
+      {
+        "en": "Are you French too?",
+        "zh": "你也是法国人吗？"
+      },
+      {
+        "en": "No I am not.",
+        "zh": "不，我不是。"
+      },
+      {
+        "en": "What nationality are you?",
+        "zh": "你是什么国籍的？"
+      },
+      {
+        "en": "I'm Italian.",
+        "zh": "我是意大利人。"
+      },
+      {
+        "en": "Are you a teacher?",
+        "zh": "你是一名老师吗？"
+      },
+      {
+        "en": "No I'm not.",
+        "zh": "不，我不是。"
+      },
+      {
+        "en": "What's your job?",
+        "zh": "你的工作是什么？"
+      },
+      {
+        "en": "I'm a keyboard operator.",
+        "zh": "我是一名打字员。"
+      },
+      {
+        "en": "What's your job?",
+        "zh": "你的工作是什么？"
+      },
+      {
+        "en": "I'm an engineer.",
+        "zh": "我是一名工程师。"
+      }
+    ]
+  },
+  "display": {
+    "title": "Are You a Teacher",
+    "titleZh": "你是一名老师吗？",
+    "question": "What is Robert's job?",
+    "questionZh": "罗伯特的工作是什么？",
+    "text": "What is Robert's job?\n\nI am a new student.\nMy name's Robert.\nNice to meet you.\nMy name's Sophie.\nAre you French?\nYes I am.\nAre you French too?\nNo I am not.\nWhat nationality are you?\nI'm Italian.\nAre you a teacher?\nNo I'm not.\nWhat's your job?\nI'm a keyboard operator.\nWhat's your job?\nI'm an engineer.",
+    "bodyText": "I am a new student.\nMy name's Robert.\nNice to meet you.\nMy name's Sophie.\nAre you French?\nYes I am.\nAre you French too?\nNo I am not.\nWhat nationality are you?\nI'm Italian.\nAre you a teacher?\nNo I'm not.\nWhat's your job?\nI'm a keyboard operator.\nWhat's your job?\nI'm an engineer.",
+    "bodyTextZh": "我是一名新学生。\n我的名字叫罗伯特。\n很高兴见到你。\n我的名字叫索菲。\n你是法国人吗？\n是的，我是。\n你也是法国人吗？\n不，我不是。\n你是什么国籍的？\n我是意大利人。\n你是一名老师吗？\n不，我不是。\n你的工作是什么？\n我是一名打字员。\n你的工作是什么？\n我是一名工程师。",
+    "sentences": [
+      {
+        "en": "Lesson 7",
+        "zh": "第 7 课"
+      },
+      {
+        "en": "Are you a teacher?",
+        "zh": "你是一名老师吗？"
+      },
+      {
+        "en": "Listen to the tape then answer this question.",
+        "zh": "请听录音，然后回答这个问题。"
+      },
+      {
+        "en": "What is Robert's job?",
+        "zh": "罗伯特的工作是什么？"
+      },
+      {
+        "en": "I am a new student.",
+        "zh": "我是一名新学生。"
+      },
+      {
+        "en": "My name's Robert.",
+        "zh": "我的名字叫罗伯特。"
+      },
+      {
+        "en": "Nice to meet you.",
+        "zh": "很高兴见到你。"
+      },
+      {
+        "en": "My name's Sophie.",
+        "zh": "我的名字叫索菲。"
+      },
+      {
+        "en": "Are you French?",
+        "zh": "你是法国人吗？"
+      },
+      {
+        "en": "Yes I am.",
+        "zh": "是的，我是。"
+      },
+      {
+        "en": "Are you French too?",
+        "zh": "你也是法国人吗？"
+      },
+      {
+        "en": "No I am not.",
+        "zh": "不，我不是。"
+      },
+      {
+        "en": "What nationality are you?",
+        "zh": "你是什么国籍的？"
+      },
+      {
+        "en": "I'm Italian.",
+        "zh": "我是意大利人。"
+      },
+      {
+        "en": "Are you a teacher?",
+        "zh": "你是一名老师吗？"
+      },
+      {
+        "en": "No I'm not.",
+        "zh": "不，我不是。"
+      },
+      {
+        "en": "What's your job?",
+        "zh": "你的工作是什么？"
+      },
+      {
+        "en": "I'm a keyboard operator.",
+        "zh": "我是一名打字员。"
+      },
+      {
+        "en": "What's your job?",
+        "zh": "你的工作是什么？"
+      },
+      {
+        "en": "I'm an engineer.",
+        "zh": "我是一名工程师。"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "path": "content/NCE-Flow/NCE1/007&008－Are You a Teacher.lrc",
+      "locator": "00:10.97提问与00:18.00正文自我介绍Robert，全部20条中英字幕",
+      "checked": true,
+      "sha256": "5e3f5cc6cc2949483510274b51492267d9f7303be0a47cc14b8605b3d48ceff7"
+    }
+  ],
+  "corrections": [
+    {
+      "field": "text",
+      "before": "What is Rober's job?",
+      "after": "What is Robert's job?",
+      "evidence": "content/NCE-Flow/NCE1/007&008－Are You a Teacher.lrc 00:18.00 Robert自我介绍，校正00:10.97漏字"
+    },
+    {
+      "field": "question",
+      "before": "What is Rober's job?",
+      "after": "What is Robert's job?",
+      "evidence": "content/NCE-Flow/NCE1/007&008－Are You a Teacher.lrc 00:18.00 Robert自我介绍，校正00:10.97漏字"
+    }
+  ],
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "reviewer": "Codex",
+  "reviewedAt": "2026-10-02T02:20:14+00:00",
+  "notes": "逐句通读16句职业国籍对话并核对LRC。原字幕提问Rober漏t，与同篇00:18.00自我介绍Robert不一致；据正文明确姓名校正问题及其同步句。保留意大利籍工程师/法国籍打字员信息，课号增加空格；正文及时间戳不变。",
+  "issues": [],
+  "status": "passed_edited"
+}

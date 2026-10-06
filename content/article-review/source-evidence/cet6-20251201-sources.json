@@ -1,0 +1,81 @@
+{
+  "article": "cet6-20251201",
+  "checkedAt": "2026-10-03",
+  "sourcePdfPagesRead": 8,
+  "sources": [
+    {
+      "url": "https://www.nih.gov/news-events/nih-research-matters/getting-active-later-life-brings-benefits",
+      "scope": "2019-03-19 NIH研究说明正文全文读：历史活动自报、随访到2011、死亡结局、白人高教育样本，非疾病发生率。"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6484624/",
+      "scope": "2019原研究检索返回的结果、讨论和局限段全文实际读。40–61增加活动组HR0.65，19–29组HR0.68，不能把32–35全说成中年组；观察研究有残余混杂及反向因果局限。网页直接开触发验证，不声称通读整篇或补充材料。"
+    },
+    {
+      "url": "https://time.com/5547500/exercise-live-longer/",
+      "scope": "2019-03-08题源匹配开头和相关数字段实际读；32–35中年组写法按原研究纠正，不声称TIME全文读。"
+    },
+    {
+      "url": "https://www.who.int/news-room/fact-sheets/detail/physical-activity",
+      "scope": "2024身体活动事实清单主要正文全文实际读，认知、心理、体脂与慢病益处有证据；不能归为这一个死亡率研究均直接测得。"
+    },
+    {
+      "url": "https://www.theguardian.com/food/2019/mar/07/food-tech-the-march-of-the-robots-reaches-the-kitchen",
+      "scope": "requests取得maincontent全文逐段读，包括2019-03-14更正。原卷沿用更正前错误：Miso不是Cali子公司，租赁年费15000–50000美元依任务不同。其余经营资料作为2019报道/公司说法和预测，不当今天事实。"
+    },
+    {
+      "url": "https://dailytrojan.com/2022/03/08/the-harm-of-becoming-complacent-about-losing-friends/",
+      "scope": "2022-03-08 Sahar Nangoli评论，entry-content全文读；PDF改编不是逐字转载。第50题B维护友谊有直接论据，C泛论集体主义优越不成立。"
+    },
+    {
+      "url": "https://www.citifirst.com.hk/home/upload/citi_research/GPS_closingtheracial_Sep20.pdf",
+      "scope": "Citi2020报告高教模型段及图75–76全文实际读：2000关闭10个百分点差距，额外170万毕业生，按学位收入假设估计900亿/1130亿美元；属于反事实总量，不是人人增收。未称全报告读。"
+    },
+    {
+      "url": "https://www.citigroup.com/rcs/citigpa/storage/public/minority-depository-institutions-brochure.pdf",
+      "scope": "发布者对2020报告商业论证页实际读，确认高教总收入估计与年份，不使用未读其余页。"
+    },
+    {
+      "url": "https://www.pewresearch.org/short-reads/2020/11/13/america-is-exceptional-in-the-nature-of-its-political-divide/",
+      "scope": "调查比较段实际读，77%美国受访者自述疫情前后更分裂，不是ever历史最高判断。"
+    },
+    {
+      "url": "https://www.pewresearch.org/global/wp-content/uploads/sites/2/2020/08/PG_2020.08.27_Global-Coronavirus_FINAL.pdf",
+      "scope": "原报告第9页图与解释实际读，2020夏季美国77%/18%，题问相较疫情暴发前，不当今日民调。"
+    },
+    {
+      "url": "https://www.nobelprize.org/prizes/peace/1964/king/acceptance-speech/",
+      "scope": "1964-12-10诺奖受奖演说全文实际读，首段引文正确。"
+    },
+    {
+      "url": "https://kinginstitute.stanford.edu/publications/autobiography-martin-luther-king-jr/chapter-26-selma",
+      "scope": "末尾相关演说段实际读，和平社会/良知引语来自1965塞尔玛后演说，未宣称本章全部读。"
+    },
+    {
+      "url": "https://www.ndrc.gov.cn/xwdt/ztzl/ylyx/gzdt/202312/t20231207_1362494.html",
+      "scope": "上海长者食堂服务、补贴、2022规模等正文段实际读，只核翻译所举社区食堂实例，不把地方实践当所有社区覆盖。"
+    },
+    {
+      "url": "https://bj.mof.gov.cn/ztdd/czysjg/jyjl/202311/t20231123_3918035.htm",
+      "scope": "2023助餐政策段实际读，2022十四五规划、2023基本养老政策和一刻钟生活圈助餐部署。"
+    },
+    {
+      "url": "https://www.gov.cn/gbgl/78ebc4097c794cfdb5052c3b26683191/files/41956ece31c24943bac3487e243804f7.pdf",
+      "scope": "适老公共交通改造、机场车站老年专席和绿色通道段实际读，只核译文举例，不冒称整本通读。"
+    }
+  ],
+  "limitations": [
+    "23原块与8页PDF图包括答案表全部读；听力未据音频重答。",
+    "平等评论原网页作者日期未定位，不伪造出处；题文按PDF核，独立核实其中可核的数字、调查与两处引语。",
+    "科学论文及长报告只读取列出的片段/章节，不冒称全读；未来机器人效能与就业变化属于2019报道预测。",
+    "网络他版50题C和53题D未用于本卷；按本卷正文题干独立判断，50B与53C成立并明确题干。"
+  ],
+  "answerChecks": {
+    "cloze": "HJGCEFDKLA",
+    "matching": "CHDLAFMJOG",
+    "reading": "DADBB / CACDB",
+    "listening": "ADCABBDCDA / CABBDBADCB / DCACD（仅核PDF表）"
+  },
+  "rawSha256": "3df86a51cf58cb37115e3973ae23b04db31607e5356564d205dad8a2056e9129",
+  "pdfSha256": "4fac338c84e06f95f341947d9944b3f5434d0074705762eb0a2c8945499dc1a3"
+}

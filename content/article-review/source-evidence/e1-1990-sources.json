@@ -1,0 +1,90 @@
+{
+  "article": "e1-1990",
+  "checkedAt": "2026-10-03",
+  "sourcePdfPhysicalPagesRead": [
+    30,
+    31,
+    32,
+    33,
+    34
+  ],
+  "sources": [
+    {
+      "url": "https://www.gutenberg.org/files/3808/3808-h/3808-h.htm",
+      "scope": "Robur第VII章旋翼机器构造、材料、装备段经检索实际读，并读返回的其他飞行段；非全书通读，只用旋转螺旋桨升力的小说描写，不采用其虚构物理性能作事实。"
+    },
+    {
+      "url": "https://www.gutenberg.org/files/83/old/83-h/83-h.htm",
+      "scope": "From the Earth to the Moon检索炮弹/大炮方案及第VII章开头实际读，非全书；只用于书名与小说旅行方式。"
+    },
+    {
+      "url": "https://postalmuseum.si.edu/object/silgoi_103941",
+      "scope": "史密森藏品书名、说明全文实际检索读，1865小说炮射载人弹丸；未打开整书影印本。"
+    },
+    {
+      "url": "https://science.nasa.gov/mission/magellan/",
+      "scope": "实际检索读1989-05-05 UTC释放、1990-08-10入轨、通讯中断和开始雷达成像段；非全页全文。"
+    },
+    {
+      "url": "https://science.nasa.gov/photojournal/venus-first-radar-test/",
+      "scope": "NASA照片目录元数据、Description开头实际读，航程超过15亿公里、1990-08-10入轨；未审雷达图像地貌。"
+    },
+    {
+      "url": "https://science.nasa.gov/venus/venus-facts/",
+      "scope": "Venus Facts正文实际检索全部读，包括温度压力、轨道距离、变化的地球距离、地质大气及磁场。太阳日另据数值表校验，避免照抄该页sunrise to sunset措辞。"
+    },
+    {
+      "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/venusfact.html",
+      "scope": "检索自转5832.6小时/243天、太阳日2802小时/116.75天表项实际读；未读全表。"
+    },
+    {
+      "url": "https://ntrs.nasa.gov/api/citations/20250005883/downloads/Brecht_etal_WhitePaper_04Mar2020.pdf",
+      "scope": "论文检索超旋转定义及约70km云顶4天对地表243天段实际读；未下载通读PDF。"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2691806/",
+      "scope": "2009 Conscientiousness, Career Success, and Longevity论文Participants段实际检索读，教师推荐、IQ135门槛、1528样本及个体差异；未读论文全文，不能据此宣称本考试各比例已核实。"
+    },
+    {
+      "url": "https://medlineplus.gov/genetics/understanding/traits/intelligence/",
+      "scope": "正文全部及文献目录实际检索读，智力多因素、多个基因与家庭教育营养健康环境共同影响，不能从个别相似直接推因果。"
+    },
+    {
+      "url": "https://www.genome.gov/about-genomics/policy-issues/population-descriptors-in-genomics",
+      "scope": "实际读社会构建定义段及种族/族群不是遗传祖源可靠替代物段（网页142–152、174–179）；未全页通读。"
+    },
+    {
+      "url": "https://www.bfskinner.org/upon-further-reflection-chapter-4-selection-by-consequences-quote-9/",
+      "scope": "基金会所载原著p55引语全文实际读，行为为自然选择、强化史和社会环境的联合产物；非整本原著。"
+    },
+    {
+      "url": "https://www.bfskinner.org/about-behaviorism-chapter-4-operant-behavior-quote-1/",
+      "scope": "基金会About Behaviorism pp51–52摘引全文实际读，操作性条件作用补充自然选择；未通读原书。"
+    },
+    {
+      "url": "https://dictionary.cambridge.org/us/grammar/british-grammar/near-",
+      "scope": "Near and near to语法条目正文全部实际检索读，地点定语用nearby而非near，时间near future不同。"
+    },
+    {
+      "url": "https://dictionary.cambridge.org/us/dictionary/english/nearby",
+      "scope": "Nearby主词条定义、例句和Intermediate定义实际读，包括nearby shops；未读所有语料例句。"
+    }
+  ],
+  "limitations": [
+    "5原块全文和5原图实际读；77块最终全文复读，之后航程、nearby说明、Skinner和14题标点修改块再次复读。",
+    "无答案与中译页，保留实际收录28题；三篇十问更正，翻译21–28按下划线，27仅首句不含后面的种族优劣推论。",
+    "未来2001场景明确历史预测；凡尔纳作品换为原书实际支持例子，非当作准确预言。",
+    "金星0.72AU/地球1AU，温度约870F/465C、约90倍气压，243自转/117太阳日、云顶快速环流。11同步改为比较项目，13D条件描述最直接、C研究价值也相关。",
+    "意大利人数和比例沿原报道，未找到独立原刊；Radio Radicale仅找到1988-03-26类似活动音频元数据而未听音频，不认定是同一报道。in employment→unemployment为明示编辑语义校订。15B与服务业分类不严已改题，非假称原文原题无瑕疵。",
+    "高智商样本不能概括所有儿童，历史婚姻收入统计不等于成功或心理健康唯一标准；未冒用Terman论文替全部90书/1500文等数字背书。",
+    "保留种族偏见陈述作有明确批评背景的历史译读，不认可其生物劣等论。遗传与环境不能机械对立，Skinner原文明确自然选择与强化史共同作用。"
+  ],
+  "answerChecks": {
+    "editorReasoningNotOfficial": {
+      "cloze": "CAACBBDADB",
+      "reading": "DBDCBDBBAC（13C亦涉及末段研究价值）"
+    }
+  },
+  "rawSha256": "2147aa5cb4410842ad4696256896eb7ced84e71d360278d18d7440f1e9837c64",
+  "pdfSha256": "802c3d218714a6362731273cc8d2b9d25ab499f210d39194461a3cf5b28c4a39"
+}

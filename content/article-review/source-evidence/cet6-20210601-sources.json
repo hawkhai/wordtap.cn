@@ -1,0 +1,33 @@
+{
+ "article":"cet6-20210601",
+ "checkedAt":"2026-10-03",
+ "sourcePdfPagesRead":8,
+ "sources":[
+  {"url":"https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1900640.html","scope":"2019年原统计公报实际检索读60.60%；只与原卷终点历史口径核对，不用后修订值偷换原图。"},
+  {"url":"https://www.stats.gov.cn/sj/ndsj/2001c/d0401c.htm","scope":"官方年鉴1980行实际检索读19.39%，图表13个明确标签另直接读原PDF第1页，2012/2014/2017未标数不插值。"},
+  {"url":"https://link.springer.com/article/10.1007/s13384-019-00375-7","scope":"Adam与Barratt-Pugh原研究实际读11—124行，2020年发表、4中心/24教师/110儿童、2413藏书、分层目的取样核实；非全澳图书总体普查。"},
+  {"url":"https://ro.ecu.edu.au/ecuworkspost2013/7694/","scope":"作者大学仓储原摘要实际检索读，4中心仅18%图书含非白人角色。"},
+  {"url":"https://ro.ecu.edu.au/theses/2245/","scope":"博士论文原机构摘要58—70行实际读，2019年研究及4中心取样；未声称下载403的全文已读。"},
+  {"url":"https://doi.org/10.1111/j.1467-7687.2005.0434a.x","scope":"Kelly等2005原论文摘要实际检索读，三月龄视觉偏好与新生儿对比，不把知觉偏向升级为成人式种族偏见。"},
+  {"url":"https://www.abs.gov.au/websitedbs/censushome.nsf/4a256353001af3ed4b2562bb00121564/7b6655e5eb9a731fca257fff00094b14%21OpenDocument","scope":"澳统计局2016年普查宣传原文实际检索读：200国家/300语言/100宗教/1000职业明确来自2011普查，补齐年份。"},
+  {"url":"https://www.thedailybeast.com/how-marconi-gave-us-the-wireless-world/","scope":"Marc Raboy于2016年8月20日发表的传记节选实际检索相关段读，仅定位作者、年份与观点归属；用户原卷已有的篇幅不作为新网页转载。"},
+  {"url":"https://www.nobelprize.org/prizes/physics/1909/marconi/biographical/?xid=PS_smithsonian","scope":"诺奖机构生平实际检索正文读，1874出生、1896专利、1901康沃尔至纽芬兰、其他研究者基础与短波站发展核实。"},
+  {"url":"https://www.nobelprize.org/uploads/2018/06/marconi-lecture.pdf","scope":"本人诺奖讲演1901年12月实验段实际检索读，信号目的地纽芬兰；不称其为美国领土。"},
+  {"url":"https://parks.canada.ca/lhn-nhs/nl/signalhill/culture/histoire-history/comm","scope":"加拿大国家历史遗址官方记录实际检索读，1901跨大西洋接收与纽芬兰地点核实。"},
+  {"url":"https://www.energy.gov/lm/metallurgical-laboratory-university-chicago","scope":"能源部原历史资料实际检索读Fermi团队1942年反应堆与曼哈顿计划角色，不把Fermi当整个计划唯一开发者。"},
+  {"url":"https://www.theguardian.com/commentisfree/2018/apr/01/the-guardian-view-on-intelligence-genes-going-beyond-the-evidence","scope":"社论日期与原观点实际检索相关段读，仅定位历史立场。练习原文已由用户PDF提供，科学事实另据原论文与机构释义校正。"},
+  {"url":"https://www.nature.com/articles/s41539-018-0019-8","scope":"2018原研究摘要与编辑摘要实际检索正文读，4814名英国样本、学校类别与GPS均值差异及控制家庭背景/既往能力/成绩后的变化；未证明个体成绩由基因决定。"},
+  {"url":"https://medlineplus.gov/genetics/understanding/traits/intelligence/","scope":"NIH/NLM机构正文实际检索读，智力为遗传和环境共同影响的复杂特质，不以没有因果证明推出完全无遗传影响。"},
+  {"url":"https://medlineplus.gov/genetics/understanding/inheritance/heritability/","scope":"机构原释义实际检索读，遗传率不代表一个人特质由基因决定的比例，不能作个体命运判断。"},
+  {"url":"https://www.theguardian.com/commentisfree/2019/sep/08/the-guardian-view-on-tourist-taxes-travellers-should-pay-their-way","scope":"原社论2019年9月8日日期与提案语境实际检索读；作者立场与当时法规状态分开。"},
+  {"url":"https://www.gov.scot/publications/consultation-principles-local-discretionary-transient-visitor-levy-tourist-tax/pages/2/","scope":"苏格兰政府2019年9月9日原咨询实际检索读，是拟授权地方酌情征费，不等于当时每位赴苏游客都须缴税。"},
+  {"url":"https://www.nta.go.jp/english/taxes/indirect/pdf/leaflet1.pdf","scope":"日本国税厅2018年原说明实际检索读，2019年1月7日出境税启动；本篇不把当年金额写成现行税率。"},
+  {"url":"https://www.entreprises.gouv.fr/la-dge/publications/guide-pratique-de-la-taxe-de-sejour","scope":"法国经济主管机构历史说明实际检索读，1910设立住宿税用于接待游客开支；未核实半数地方政府口径，去掉该无年份比例。"},
+  {"url":"https://www.cac.gov.cn/2018-04/14/c_1122680883.htm","scope":"2018年讲话历史记述实际检索读，1988年4月设省与经济特区；海南岛和海南省不能等同。"},
+  {"url":"https://interview.mofcom.gov.cn/detail/201605/1451.html","scope":"商务部原访谈实际检索读唯一省级经济特区及1988年设立时间。"},
+  {"url":"https://app.www.gov.cn/govdata/gov/201810/16/430645/article.html","scope":"国务院2018年设立海南自贸试验区原批复实际检索读；已获批不能仍写成2021年未来设立。"},
+  {"url":"https://app.www.gov.cn/govdata/gov/201810/16/430644/article.html","scope":"2018原总体方案实际检索读海南全岛自贸试验区及分阶段探索自由贸易港，修改中文时保留规划与建设区别。"},
+  {"url":"https://www.gov.cn/gongbao/shuju/1987/gwyb198721.pdf","scope":"国务院设省议案原公报检索段实际读海南岛第二大岛，岛屿与行政省份分开表述。"}
+ ],
+ "checks":"全部8页PDF和8原块全文已读；原图逐点标签恢复、听力13—15题归属及55D修复、中文全段恢复。十空FEIHKCBGAL，匹配FIDJCEKGBH，阅读DABAD/BCDAC。全文复读后签署，不凭图表趋势臆填未标数据，不补未提供的听力答案。"
+}

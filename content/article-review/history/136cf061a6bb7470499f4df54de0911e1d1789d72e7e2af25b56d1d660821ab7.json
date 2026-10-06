@@ -1,0 +1,85 @@
+{
+  "schemaVersion": 1,
+  "course": "pep-english",
+  "articleId": "pephs4-037",
+  "beforeDisplaySha256": "821254a230a8d614d3e99bceba9a05377fb2c5c651706d5ea80f587aba4a9c8a",
+  "afterDisplaySha256": "c98543c8638d568476479875d9a94631ec11f479cbe9883130c2486792617a5f",
+  "baselineDisplay": {
+    "title": "Sea Fever",
+    "section": "Expanding Your World",
+    "text": "I must go down to the seas again, to the lonely sea and the sky, And all I ask is a tall ship and a star to steer her by;\nAnd the wheel’s kick and the wind’s song and the white sail’s shaking, And a grey mist on the sea’s face, and a grey dawn breaking.\nI must go down to the seas again, for the call of the running tide Is a wild call and a clear call that may not be denied;\nAnd all I ask is a windy day with the white clouds flying, And the flung spray and the blown spume, and the sea-gulls crying.\nI must go down to the seas again, to the vagrant gypsy life, To the gull’s way and the whale’s way, where the wind’s like a whetted knife;\nAnd all I ask is a merry yarn from a laughing fellow-rover, And quiet sleep and a sweet dream when the long trick’s over.",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "I must go down to the seas again, to the lonely sea and the sky, And all I ask is a tall ship and a star to steer her by;\nAnd the wheel’s kick and the wind’s song and the white sail’s shaking, And a grey mist on the sea’s face, and a grey dawn breaking."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "I must go down to the seas again, for the call of the running tide Is a wild call and a clear call that may not be denied;\nAnd all I ask is a windy day with the white clouds flying, And the flung spray and the blown spume, and the sea-gulls crying."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "I must go down to the seas again, to the vagrant gypsy life, To the gull’s way and the whale’s way, where the wind’s like a whetted knife;\nAnd all I ask is a merry yarn from a laughing fellow-rover, And quiet sleep and a sweet dream when the long trick’s over."
+      }
+    ]
+  },
+  "display": {
+    "title": "Sea Fever",
+    "section": "Expanding Your World",
+    "text": "John Masefield\nI must go down to the seas again, to the lonely sea and the sky,\nAnd all I ask is a tall ship and a star to steer her by;\nAnd the wheel’s kick and the wind’s song and the white sail’s shaking,\nAnd a grey mist on the sea’s face, and a grey dawn breaking.\nI must go down to the seas again, for the call of the running tide\nIs a wild call and a clear call that may not be denied;\nAnd all I ask is a windy day with the white clouds flying,\nAnd the flung spray and the blown spume, and the sea-gulls crying.\nI must go down to the seas again, to the vagrant gypsy life,\nTo the gull’s way and the whale’s way, where the wind’s like a whetted knife;\nAnd all I ask is a merry yarn from a laughing fellow-rover,\nAnd quiet sleep and a sweet dream when the long trick’s over.",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "John Masefield"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "I must go down to the seas again, to the lonely sea and the sky,\nAnd all I ask is a tall ship and a star to steer her by;\nAnd the wheel’s kick and the wind’s song and the white sail’s shaking,\nAnd a grey mist on the sea’s face, and a grey dawn breaking."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "I must go down to the seas again, for the call of the running tide\nIs a wild call and a clear call that may not be denied;\nAnd all I ask is a windy day with the white clouds flying,\nAnd the flung spray and the blown spume, and the sea-gulls crying."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "I must go down to the seas again, to the vagrant gypsy life,\nTo the gull’s way and the whale’s way, where the wind’s like a whetted knife;\nAnd all I ask is a merry yarn from a laughing fellow-rover,\nAnd quiet sleep and a sweet dream when the long trick’s over."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "path": "content/pep-english/raw/senior-selective-4.pdf",
+      "locator": "PDF第87-87页，标题与完整正文逐行核对",
+      "checked": true,
+      "sha256": "2ad7555a13eb420aa70497f9faa2541fdb502b7ffc4e063e87c60cce88f1b4a3"
+    },
+    {
+      "path": "content/pep-english/raw/senior-selective-4/senior-selective-4_87.jpg",
+      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
+      "checked": true,
+      "sha256": "81760a73d427087d768039f57de3cb613b92da0874a0929ca1753d900ce5b7f7"
+    }
+  ],
+  "corrections": [
+    {
+      "field": "text",
+      "before": "I must go down to the seas again, to the lonely sea and the sky, And all I ask is a tall ship and a star to steer her by;\nAnd the wheel’s kick and the wind’s song and the white sail’s shaking, And a grey mist on the sea’s face, and a grey dawn breaking.",
+      "after": "John Masefield\nI must go down to the seas again, to the lonely sea and the sky,\nAnd all I ask is a tall ship and a star to steer her by;\nAnd the wheel’s kick and the wind’s song and the white sail’s shaking,\nAnd a grey mist on the sea’s face, and a grey dawn breaking.",
+      "evidence": "content/pep-english/raw/senior-selective-4/senior-selective-4_87.jpg；题名下作者署名"
+    }
+  ],
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "reviewer": "Codex",
+  "reviewedAt": "2026-10-02T08:02:48+00:00",
+  "notes": "逐行核对第87页 Sea Fever 全诗，恢复三节每节四行的诗行边界，补回原印作者 John Masefield 并单列署名。保留原页 seas、sea-gulls、fellow-rover 等字词和标点。",
+  "issues": [],
+  "status": "passed_edited"
+}

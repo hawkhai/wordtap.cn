@@ -1,0 +1,104 @@
+{
+  "article": "e1-1984",
+  "checkedAt": "2026-10-03",
+  "sourcePdfPhysicalPagesRead": [
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28
+  ],
+  "sources": [
+    {
+      "url": "https://portfolio.panynj.gov/2016/07/07/port-authority-throwback-thursday-1949-holland-tunnel-fire-2/",
+      "scope": "港务局2016回顾正文全文实际读：1949火灾66人受伤、无死亡；600英尺为铺砖内壁，不能当作原文500英尺顶板。"
+    },
+    {
+      "url": "https://tile.loc.gov/storage-services/master/pnp/habshaer/ny/ny1500/ny1516/data/ny1516data.pdf",
+      "scope": "美国国会图书馆HAER NY-161四页PDF全部文本实际读，1949年5月13日火灾、56小时恢复；Holland及工程团队、通风系统。"
+    },
+    {
+      "url": "https://www.nal.usda.gov/exhibits/ipd/canning/about",
+      "scope": "USDA国家农业图书馆罐藏展About正文全文实际读，加热与密封共同构成Appert方法，不能只称隔绝空气。"
+    },
+    {
+      "url": "https://catalogue.bnf.fr/ark%3A/12148/cb17879809f",
+      "scope": "法国国家图书馆书目元数据实际读，Appert书1810年巴黎出版；未读整本书。"
+    },
+    {
+      "url": "https://www.acs.org/education/whatischemistry/landmarks/aluminumprocess.html",
+      "scope": "ACS历史、实验、电化学、商业化和产品段实际读：1886 Hall和Héroult独立电解制铝。未称全站已读；矿石开采、氧化铝精炼和金属冶炼需区分。"
+    },
+    {
+      "url": "https://time.com/archive/6802495/new-york-lights-out/",
+      "scope": "TIME 1959-08-31 Lights Out正文全文实际读：纽约局部停电及盲人患者引导医护人员离开黑暗楼宇。采用简短概述，不沿用原卷五十人带职工回家这一不同说法。"
+    },
+    {
+      "url": "https://www.nps.gov/subjects/geology/minerals.htm",
+      "scope": "NPS矿物定义和五项判定条件实际读，未通读后续矿物目录；煤与石油在本文应按广义矿产资源说明。"
+    },
+    {
+      "url": "https://apps.usgs.gov/minerals-information-archives/mcs/mcs2019.pdf",
+      "scope": "检索实际读附录C关于储量动态变化、知识技术经济条件的段落；未通读整份PDF。"
+    },
+    {
+      "url": "https://www.eia.gov/energyexplained//coal/",
+      "scope": "检索实际读煤由古代沼泽植物形成的介绍段，未称全页已读。"
+    },
+    {
+      "url": "https://www.eia.gov/energyexplained/oil-and-petroleum-products/in-depth.php",
+      "scope": "检索实际读石油古代微小生物来源的介绍段，未称全页已读。"
+    },
+    {
+      "url": "https://dictionaryblog.cambridge.org/2014/11/19/come-on-you-can-do-it-phrasal-verbs-with-come/?amp=1",
+      "scope": "检索展开Cambridge正文come up with释义及例句实际读，想出或提出；第21应C。"
+    },
+    {
+      "url": "https://dictionary.cambridge.org/thesaurus/give-out",
+      "scope": "检索give out表示放出热等用法实际读，不能简单判17的B语义不成立。"
+    },
+    {
+      "url": "https://www.collinsdictionary.com/us/dictionary/english/none-other-than",
+      "scope": "检索释义实际读，none other than及no other than皆有用法。"
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/stairs",
+      "scope": "检索flight of stairs释义实际读，指一段楼梯，不是一级台阶。"
+    },
+    {
+      "url": "https://assets.cambridge.org/97811075/74700/excerpt/9781107574700_excerpt.pdf",
+      "scope": "检索混合条件句规则实际读：现在假设状态可以与过去结果搭配，未通读PDF。"
+    },
+    {
+      "url": "https://africa.teachingenglish.org.uk/classroom/grammar/mixed-conditionals",
+      "scope": "检索现在状态与过去结果的蜘蛛例句实际读，支持第75混合条件句，不称全页通读。"
+    }
+  ],
+  "limitations": [
+    "15原块及物理页14–28全部图像逐页实际读；最终260块全文已复读。",
+    "本篇为明示校正版；隧道、罐藏、停电、资源和电解铝段按来源修订，保留原卷及改动记录，不假称逐字原卷。",
+    "翻译81–96范围逐项对照原图；90含两句，94仅it was起句，不吞并前文although。",
+    "未获取官方评分细则；第17、26、30、49、50、52、55及开放式题说明可接受的语义变体，未强造唯一答案。",
+    "第60依据常规先拌匀再倒入取before，同时说明边倒边拌的as语境；第64允许With或补are，第75混合条件句保留。",
+    "第84数百段楼梯为原文夸张，第88作者场景概括不是人口统计结论。"
+  ],
+  "answerChecks": {
+    "choices": "AABADCDCACADCDBACDCACBBDCDCCBB",
+    "cloze": "DDBBDABADA",
+    "reading": "ABCBA（45正文及A修订）",
+    "vocabulary": "DDCBABCDCA",
+    "errorDetection": "A/B/B/C/C/A/C/B/A/C（具体替换与变体见参考说明）"
+  },
+  "rawSha256": "25556df91247f8781dbc4cd4044b3b8c02d2f20224112ac3af12513a07811a99",
+  "pdfSha256": "525227c90a3228ef9191b7aac8949d271348ab9fc9d8d437d41f7937b10bd121"
+}

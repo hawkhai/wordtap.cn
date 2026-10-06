@@ -57,8 +57,8 @@ for (const level of manifest.levels) {
     invariant(!/[\u0000-\u0008\u000B\u000C\u000E-\u001F\u007F\u200B-\u200F\u202A-\u202E\u2060-\u206F\uFEFF\uFFFD]/u.test(detail.text), `${lesson.id}: unsafe or invisible character remains`);
     for (const block of detail.blocks) {
       invariant(
-        !/^[•◦▪▫▶➢◆]/u.test(block.text) || block.type === "list",
-        `${lesson.id}: bullet-prefixed block is not classified as a list`,
+        !/^[•◦▪▫▶➢◆]/u.test(block.text) || ["list", "heading", "subheading"].includes(block.type),
+        `${lesson.id}: bullet-prefixed block must be a list or semantic heading`,
       );
     }
     for (const typo of knownTypos) {

@@ -1,0 +1,20 @@
+{
+  "articleId":"cet4-20240601",
+  "checkedAt":"2026-10-02",
+  "scope":"原PDF八页已全部渲染打开逐行读图；外部核查范围逐项记录。",
+  "sources":[
+    {"url":"https://pubmed.ncbi.nlm.nih.gov/31613120/","access":"2019在线/2020卷期原论文摘要全文已读","findings":"Joshi等的男女表达差异为特定样本情境中的平均结果，原摘要明确权力操纵后性别差异仍出现。"},
+    {"url":"https://www.gilappel.com/uploads/4/7/5/2/47527553/jpsp_final_corrections.pdf","access":"作者存档59页论文已打开，阅读Study3方法/结果相关段落、Study5引言方法结果讨论（文件第32–36页）及词汇常模段；不是全文","findings":"681288博客；采用Brysbaert等约40000词已有常模。300学生想象采访者/被采访者；高权力组更抽象，性别主效应仍在，交互不显著。补明多因素，未声称所有男女都如此。"},
+    {"url":"https://www.todoist.com/inspiration/present-bias","access":"原科普文章已打开，目标坚持及即时奖励段已读；Doist于2018-11-26在Medium自有账号刊载版本的标题和开头亦已读","findings":"确认present/future self评论出处，属于对多个研究的科普串联，非单一实验。"},
+    {"url":"https://pubmed.ncbi.nlm.nih.gov/19047075/","access":"原论文页面及脑区结果图注已读，并读PMC同文相关结果搜索段落","findings":"rACC/MPFC等特定脑区与自我参照、时间任务相关，不宜写成全脑统一活动量或基因决定。"},
+    {"url":"https://www.anderson.ucla.edu/faculty-and-research/marketing/faculty/hershfield","access":"作者所在大学介绍中相关实验段搜索返回已读","findings":"约30%为宣称愿意储蓄更多的平均结果，不是实际退休账户追踪。"},
+    {"url":"https://pmc.ncbi.nlm.nih.gov/articles/PMC3949005/","access":"搜索返回原研究储蓄实验结果已读，直接打开遇验证码；另读NYU和美国劳工部研究介绍摘要","findings":"相关实验有不同任务和样本，第四实验6.17%对4.41%为假想工资分配，不能把VR镜子与统一30%直接合并。G段移除该混合数值，概括相关实验的假想分配结果。"},
+    {"url":"https://kaitlinwoolley.com/wp-content/uploads/2017/08/woolleyfishbachpspb.pdf","access":"作者提供2017论文已打开；Study1方法、参与者、预测结果及摘要相关段落已读","findings":"年初200名有计划者获邀，3月96人作答；报告愉悦度对两个月坚持的预测关联，不是将重要性随机剥离的因果试验。第41句校正。"},
+    {"url":"https://kaitlinwoolley.com/wp-content/uploads/2017/08/woolleyfishbachjcr20161.pdf","access":"2016原论文已打开，摘要、前4页及Study2结果/Study3边界相关原文已读","findings":"胡萝卜味道聚焦组38.18克、健康聚焦25.63克，约多49%；不能推广所有食物。研究3正体验边界，运动实验为坚持既有锻炼任务而非必然开始锻炼。"},
+    {"url":"https://www.forbes.com/councils/forbesbostoncouncil/2019/09/25/the-key-to-success-how-to-improve-your-willpower/","access":"搜索返回原作者2019-09-25文章全文已读","findings":"Talita Guerrero商业评论，不是自控训练试验报告。天生与后天排序、永久保持等未经支持断言已缩限；保留肌肉比喻作为作者建议。"},
+    {"url":"https://pubmed.ncbi.nlm.nih.gov/28846503/","access":"Friese等2017元分析摘要全文已读；2016六周训练研究PMID27359129摘要交叉核查","findings":"33研究平均效应小至中，偏倚校正后更小，机制未确定；不能宣称重复抑制反应必然增强一般自控力。"},
+    {"url":"https://dornsife.usc.edu/wendy-wood/wp-content/uploads/sites/183/2023/10/Wood.Quinn_.Kashy_.2002_Habits_in_everyday_life.pdf","access":"作者大学存档17页论文已打开，参与者和日记方法、35%/43%结果及总讨论相关段落已读；并非全文","findings":"两项大学生日记研究依近乎每日/固定地点定义习惯，第二项43%，不是全人类固定分布，不等于完全无思考。正文与47题限定。"},
+    {"url":"https://undsci.berkeley.edu/who-pays-for-science/","access":"web打开不稳定；用urllib直接获取机构HTML并以BeautifulSoup抽取，正文和全部五项参考文献已完整读完","findings":"原教材75%引Bodenheimer2000 NEJM，药物例引2003 JAMA，营养例引Lesser等2007软饮料/果汁/牛奶研究。已说明历史引用；没有取得Bodenheimer全文，不宣称重算此比例。纠错机制存在不能保证每条误导结果一定被纠正。"}
+  ],
+  "limitations":["保留原卷的原始听力选项；错误干扰项不是事实断言。","目标管理中的三种方法为作者建议，不宣称穷尽所有方法；储蓄率、寿命变化作为2018评论历史背景，不用作当前统计。"]
+}

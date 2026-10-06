@@ -1,0 +1,31 @@
+{
+  "article": "postgraduate/volume1-04",
+  "fullRead": "30块全文：双语引言、标题作者与12组正文；OCR109–112正文及114注释完整复读，TeX相应源对照。",
+  "sources": [
+    {
+      "path": "tools/graduate_1/ocr/all.txt",
+      "read": "印刷103页Notes 1明确解释family of origin，正文origin1显然是教材注号而非词的一部分；Note4及正文明确1985。删除悬空注号同时将Notes1定义写回正文是明确编辑，未声称见原图上标。"
+    },
+    {
+      "url": "https://developingchild.harvard.edu/resources/working-paper/the-science-of-neglect-the-persistent-absence-of-responsive-care-disrupts-the-developing-brain/",
+      "read": "National Scientific Council on the Developing Child 2012工作论文官方说明：长期忽视的发育风险和有效干预后的改善，非每位孤儿院或寄养儿童必有障碍。"
+    },
+    {
+      "url": "https://developingchild.harvard.edu/key-concept/serve-and-return/",
+      "read": "官方解释回应性交互支持语言、社会和认知发育；缺乏照料造成风险，未支持原教材笼统五岁IQ必高等精确断言。"
+    }
+  ],
+  "editorialCorrections": [
+    "引言extracted改adapted对应本轮明确编辑，避免改文冒称逐字原著。",
+    "去掉无研究定位的五岁IQ、必然身体残疾等笼统结论，以已核回应性照料/长期忽视的风险和可改善性取代，英中同步，不当成针对个人的诊断。",
+    "1985有英文TeX、OCR正文和Notes4三处一致，中文1995改1985为纠正译文内部引文年，不等同于查获任何未知版次。",
+    "残留脚注1用现存Notes1释义解决，无需捏造原图版式；余下注释本就未嵌入正文，保持。"
+  ],
+  "translationReview": [
+    "双语引言补人名间隔和书名号，爱/情感联系标题用字；首二段英文编辑与中文逐句对应，非仅加免责声明。",
+    "第三段Amongotherthings非从别的方面，socialscientists非专指社会学家，poorselfimage为低自评不等于人格卑微，may可能性同步；第四段雪崩比喻与不同对象正确。",
+    "第五段acrosscontexts随情境变化而非跨越背景，lovingrelationship不只恋爱，commitment译承诺；第六段尊重发展与占有型依赖对应。第七八段1985校年，mundane日常平凡而非真实性，oatmeal任务比喻保留。",
+    "第九段millions数量、nevermeet非错过、正式非正式伴侣资格限制；第十段shape不是完全决定。第十一段lust/desire先区分性欲/欲望，修正原贪欲/性欲错配、性爱替代欲望、减弱误消失；保持两位研究者1999理论归属，不把它变成所有人关系标准。第十二段desire非性行为，lovingrelationship包含亲人，physicalintimacy非所有爱的必要条件，承诺译法一致。"
+  ],
+  "unresolved": []
+}

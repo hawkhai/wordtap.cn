@@ -1,0 +1,160 @@
+{
+  "article": "e2-2024",
+  "rawRead": {
+    "blocks": 12,
+    "pdfPhysicalPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "allPageImagesRead": true,
+    "pdfSha256": "6ddbe204a4c67319feab5befa21dbc819baa57ddcf31bdf8746be6698625f1e7"
+  },
+  "parallelPdf": {
+    "path": "tmp\\article-review\\e2-2024\\parallel.pdf",
+    "sha256": "53e51067660b3c8e005a86e342e19a74f08f195d76bb0368076830ef8366f1c7",
+    "pagesRead": [
+      10,
+      11,
+      12
+    ],
+    "purpose": "补第48题图表"
+  },
+  "sources": [
+    {
+      "path": "https://english-exam.lazynote.cn/kaoyan/articles/2024-english-two/section1/",
+      "read": "L110来源线索及4段对照读取；Mood Journal2022-02-03只有二手出处线索，未获得原刊全文，不编署名或宣称独立全文核验。正文4段与本地12页原图已核。",
+      "checked": true
+    },
+    {
+      "path": "https://www.amacad.org/news/how-solve-ais-inequality-problem",
+      "read": "David Rotman2022-04-19，MIT Technology Review署名出处与转载导言L23–28全部读取；非试卷对应后半篇，原刊链接打不开，不称后半篇外部全文已读。",
+      "checked": true
+    },
+    {
+      "path": "https://www.brookings.edu/articles/coastal-cities-have-dominated-tech-work-a-new-analysis-shows-the-pandemic-may-be-changing-that/",
+      "read": "Muro/You2022-03-08概述正文L120–166完整读取，技术行业就业及八个metro定义，2020年38.4%不混同2019。",
+      "checked": true
+    },
+    {
+      "path": "https://www.brookings.edu/articles/superstars-rising-stars-and-the-rest-pandemic-trends-and-shifts-in-the-geography-of-tech/",
+      "read": "原报告方法L190–224及发现L245–260完整读取：6个行业定义，MSA而非城市行政区；L254明确2019年8都市区38.2%。未称全部35分钟长报告读完。",
+      "checked": true
+    },
+    {
+      "path": "https://www.brookings.edu/wp-content/uploads/2021/08/AI-report_Full.pdf",
+      "read": "35页本地下载。物理13页Finding2全文读取，15都市区约三分之二AI资产能力；统计含论文/专利/企业等，不是所有AI就业占比。物理21页亦全文读取但不用于此数。",
+      "checked": true
+    },
+    {
+      "path": "tmp/article-review/e2-2024/ai-report.pdf",
+      "read": "原机构PDF保存，本地pdfium/pypdf读取物理13、21页；two-thirds跨行软连字符曾漏检，最终完整核到13页，不以搜索片段替代。",
+      "checked": true
+    },
+    {
+      "path": "https://www.confor.org.uk/news/latest-news/confor-warns-of-future-crisis-in-wood-supply/",
+      "read": "2022-02-15原发布L75–94全文读取；20%国产及Goodall引语可核。L82同样写苏格兰75%英格兰25%但无分母/方法，不自作推断改为某种木构架新屋率，正文显式归属并说明统计口径未明。",
+      "checked": true
+    },
+    {
+      "path": "https://www.washingtonpost.com/health/2022/04/24/aging-drivers/",
+      "read": "Martha Hamilton2022-04-24，正文L18–49全部读取，试卷对应末节L38–49。驾驶实验统计另以Tefft原论文核，不由报道简化句推断因果。",
+      "checked": true
+    },
+    {
+      "path": "https://link.springer.com/article/10.1186/s40621-014-0025-0",
+      "read": "Brian C. Tefft2014-10-24，完整摘要L44–58、方法L85–110读取；46州1986–2011，按人口计算卷入率。85+RRR.69，视力要求在无现场续证条件下RRR.64；相关不等于原因，修事故总数与通过测试必然降低风险的措辞。",
+      "checked": true
+    },
+    {
+      "path": "https://pubmed.ncbi.nlm.nih.gov/27747659/",
+      "read": "原报道所引论文，搜索识别PMID；open出现验证页，转出版社取得正文，不称PubMed全文已读。",
+      "checked": true
+    },
+    {
+      "path": "https://bbbprograms.org/media/insights/blog/consumer-health-data-privacy",
+      "read": "Eric D. Reicin，2022-06-15，L129–154正文全部读取，原发Forbes；350000/90000作为当时引用的数据保留，不作当下数量。",
+      "checked": true
+    },
+    {
+      "path": "https://www.hhs.gov/hipaa/for-professionals/privacy/laws-regulations/index.html",
+      "read": "Who is Covered/Business Associates/What Information is Protected，L91–123完整读取。HIPAA保护由covered entities及business associates持有或传输的可识别健康信息，含电子纸质口头。修仅关注在线存储的误概括。",
+      "checked": true
+    },
+    {
+      "path": "https://www.ftc.gov/system/files/documents/cases/192_3133_flo_health_decision_and_order.pdf",
+      "read": "48页命令，仅物理3–4页L69–138定义及I–IV义务完整读取，非全48页。Third Party有定义排除；删除针对Covered App Users，获取affirmative express consent及独立告知为未来披露义务。",
+      "checked": true
+    },
+    {
+      "path": "https://www.ftc.gov/about-ftc/mission/enforcement-authority",
+      "read": "行政与司法执行相关L55–90完整读取，13(b)涉及正违法或即将违法时申请禁令，因此不能说FTC只能在损害发生后行动。不是把全部FTC程序概括成第5条一项。",
+      "checked": true
+    },
+    {
+      "path": "https://wtop.com/news/2018/10/how-colleges-weigh-applicants-extracurricular-activities/",
+      "read": "web受限，requests200取得article正文完整读取，U.S. News & World Report2018-10-24转载，五人姓名及顾问原话可核。未获取个人署名不编作者。建议有可能性，A/B题项不升级为保证或统计高概率。",
+      "checked": true
+    },
+    {
+      "path": "https://english-exam.lazynote.cn/kaoyan/sections/2024-english-two/section3/",
+      "read": "搜索发现Teen Breathe32期From Farm Gate to Plate出处，仅作为线索；未挪用其中文参考译文。",
+      "checked": true
+    },
+    {
+      "path": "https://anyflip.com/txyey/tbpc/basic",
+      "read": "首次web取得公开预览目录L73–120完整读取，印刷38页From farm gate to plate；后续正文定位403，未读该篇正文。网页上传时间2022-07-20不能作原刊出版日。",
+      "checked": true
+    },
+    {
+      "path": "https://marianfmoratinos.squarespace.com/illustration/breathe-magazine-selection",
+      "read": "插画师作品页L33–44完整读取，标题、Jade Beecroft及Teen Breathe客户可核；点击图像链接未返回可读文章内容，不称图版全文已读。",
+      "checked": true
+    },
+    {
+      "path": "https://mba.cuc.edu.cn/_upload/article/files/5f/46/aed2554a47da92517d9de7956df5/a2007e42-2a2e-4f18-9a51-cca788f2da89.pdf",
+      "read": "中国传媒大学MBA所存12页平行卷，物理10–12全文原图读取，仅物理11页图表用于补图，不纳入网络参考译文或作文。四项84.80/91.30/32.60/54.40%，无样本量、年份、多选标注。",
+      "checked": true
+    },
+    {
+      "path": "tmp/article-review/e2-2024/parallel-10.jpg",
+      "read": "平行卷物理10页全图已读。",
+      "checked": true
+    },
+    {
+      "path": "tmp/article-review/e2-2024/parallel-11.jpg",
+      "read": "平行卷物理11页全图已读。",
+      "checked": true
+    },
+    {
+      "path": "tmp/article-review/e2-2024/parallel-12.jpg",
+      "read": "平行卷物理12页全图已读。",
+      "checked": true
+    }
+  ],
+  "findings": [
+    "20空及原段落恢复：完形4，Text1–4分别8/5/6/5，PartB13，翻译2；栏位题文纠序。",
+    "AI就业及资产数据改为都市区，年份行业分母明确；21C项equally改more evenly。",
+    "Confor2022行业判断标明历史及归属，原发布住房比例口径未明，不凭空改成另一指标。",
+    "老年驾驶31%改为按人口计算的致命事故卷入率关联下降，视力要求条件明确。",
+    "HIPAA保护不限在线形式，FTC非只能事后执法；2022立法评论不写成当前预报。",
+    "PartB原顾问建议不构成录取/奖学金保证，A/B相应减弱绝对措辞。",
+    "农夫直销利润改为可能性而非普遍必然。",
+    "缺失劳动实践收获图恢复，合计263.10%非互斥构成比，原图未知样本与多选设置不编造。"
+  ],
+  "finalReview": {
+    "fullTextRead": true,
+    "blocks": 131,
+    "coverage": "0–64及65–130全文逐块复读，最后改动4/48/49/78再次完整读取。"
+  },
+  "unresolved": []
+}

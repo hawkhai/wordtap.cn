@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "course": "pep-english",
+  "articleId": "pephr1-004",
+  "beforeDisplaySha256": "6615aafbb187e5d592a60561e033ca6de7554ccc3180a19f4eebbed6b2651d50",
+  "afterDisplaySha256": "6615aafbb187e5d592a60561e033ca6de7554ccc3180a19f4eebbed6b2651d50",
+  "baselineDisplay": {
+    "title": "Cheerleader Try-outs",
+    "section": "Discovering Useful Structures",
+    "text": "I've always wanted to be a cheerleader. Yesterday, I tried out for the team. It was hard. First, we had to dance. The teacher showed us how to move, and then we tried. Second, we practised singing a song about the school basketball team. Finally, some girls had to lift their partners. The other girls jumped and cheered. I think I did well, but the other girls were better. I'm not sure if I'll make the team or not.",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "I've always wanted to be a cheerleader. Yesterday, I tried out for the team. It was hard. First, we had to dance. The teacher showed us how to move, and then we tried. Second, we practised singing a song about the school basketball team. Finally, some girls had to lift their partners. The other girls jumped and cheered. I think I did well, but the other girls were better. I'm not sure if I'll make the team or not."
+      }
+    ]
+  },
+  "display": {
+    "title": "Cheerleader Try-outs",
+    "section": "Discovering Useful Structures",
+    "text": "I've always wanted to be a cheerleader. Yesterday, I tried out for the team. It was hard. First, we had to dance. The teacher showed us how to move, and then we tried. Second, we practised singing a song about the school basketball team. Finally, some girls had to lift their partners. The other girls jumped and cheered. I think I did well, but the other girls were better. I'm not sure if I'll make the team or not.",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "I've always wanted to be a cheerleader. Yesterday, I tried out for the team. It was hard. First, we had to dance. The teacher showed us how to move, and then we tried. Second, we practised singing a song about the school basketball team. Finally, some girls had to lift their partners. The other girls jumped and cheered. I think I did well, but the other girls were better. I'm not sure if I'll make the team or not."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "path": "content/pep-english/raw/senior-required-1.pdf",
+      "locator": "PDF第23-23页，标题与完整正文逐行核对",
+      "checked": true,
+      "sha256": "ffe985a370964820aa003008f48c7cf17b5e0dff8eb29fe54cd4743b0c4e8c79"
+    },
+    {
+      "path": "content/pep-english/raw/senior-required-1/senior-required-1_23.jpg",
+      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
+      "checked": true,
+      "sha256": "1110d18154a0a1a03f9a822dcfd4c3aaf98a6df573f43ee7a9181bfcfd4a8cf3"
+    }
+  ],
+  "corrections": [],
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "reviewer": "Codex",
+  "reviewedAt": "2026-10-02T05:21:20+00:00",
+  "notes": "PDF第23页Joyce啦啦队选拔原稿全文一致，跳舞、唱歌、托举顺序及结尾保留；下方手写扩写示例为练习而非原稿续文，不混入正文。",
+  "issues": [],
+  "status": "passed_unchanged"
+}

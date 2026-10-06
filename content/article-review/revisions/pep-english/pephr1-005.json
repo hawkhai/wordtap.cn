@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "course": "pep-english",
+  "articleId": "pephr1-005",
+  "beforeDisplaySha256": "e46f05e11aaa2adc2926edb3b50aa4775705c1fd224dbb9fe8fd71f9ec169f7f",
+  "afterDisplaySha256": "0d43758ce74397fd188ebc05c742a019f3c5b4eaca5595059c62901e58ebb94c",
+  "baselineDisplay": {
+    "title": "Advice for a Worried Friend",
+    "section": "Reading for Writing",
+    "text": "10 September 2018\nDear Worried Friend,\nYou wrote that you are very worried about your friend, Chen Lei. I understand quite well that you are anxious and feel terrible. You think that your friend plays computer games too often and spends too much time online.\nI recommend that you talk to your friend about his behaviour. It is not unusual for teenagers of your generation to be attracted to computer games and the online world. But spending too much time online is unhealthy and makes it very difficult to focus on other things in life. Some students even become addicted to the Internet and cannot concentrate on school and family life. I think you should encourage your friend to try new hobbies. Why not discuss the problem together? I am sure he will listen to you, since you are his good friend.\nAll the best, Susan Luo",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "10 September 2018"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Dear Worried Friend,"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "You wrote that you are very worried about your friend, Chen Lei. I understand quite well that you are anxious and feel terrible. You think that your friend plays computer games too often and spends too much time online."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "I recommend that you talk to your friend about his behaviour. It is not unusual for teenagers of your generation to be attracted to computer games and the online world. But spending too much time online is unhealthy and makes it very difficult to focus on other things in life. Some students even become addicted to the Internet and cannot concentrate on school and family life. I think you should encourage your friend to try new hobbies. Why not discuss the problem together? I am sure he will listen to you, since you are his good friend."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "All the best, Susan Luo"
+      }
+    ]
+  },
+  "display": {
+    "title": "Advice for a Worried Friend",
+    "section": "Reading for Writing",
+    "text": "10 September 2018\nDear Worried Friend,\nYou wrote that you are very worried about your friend, Chen Lei. I understand quite well that you are anxious and feel terrible. You think that your friend plays computer games too often and spends too much time online.\nI recommend that you talk to your friend about his behaviour. It is not unusual for teenagers of your generation to be attracted to computer games and the online world. But spending too much time online is unhealthy and makes it very difficult to focus on other things in life. Some students even become addicted to the Internet and cannot concentrate on school and family life. I think you should encourage your friend to try new hobbies. Why not discuss the problem together? I am sure he will listen to you, since you are his good friend.\nAll the best,\nSusan Luo",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "10 September 2018"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Dear Worried Friend,"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "You wrote that you are very worried about your friend, Chen Lei. I understand quite well that you are anxious and feel terrible. You think that your friend plays computer games too often and spends too much time online."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "I recommend that you talk to your friend about his behaviour. It is not unusual for teenagers of your generation to be attracted to computer games and the online world. But spending too much time online is unhealthy and makes it very difficult to focus on other things in life. Some students even become addicted to the Internet and cannot concentrate on school and family life. I think you should encourage your friend to try new hobbies. Why not discuss the problem together? I am sure he will listen to you, since you are his good friend."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "All the best,\nSusan Luo"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "path": "content/pep-english/raw/senior-required-1.pdf",
+      "locator": "PDF第25-25页，标题与完整正文逐行核对",
+      "checked": true,
+      "sha256": "ffe985a370964820aa003008f48c7cf17b5e0dff8eb29fe54cd4743b0c4e8c79"
+    },
+    {
+      "path": "content/pep-english/raw/senior-required-1/senior-required-1_25.jpg",
+      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
+      "checked": true,
+      "sha256": "2adc887239e86ed731b7a54a97eebbc01e2f49a3db2c3f9c1773e8b31c3d73f1"
+    }
+  ],
+  "corrections": [],
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "reviewer": "Codex",
+  "reviewedAt": "2026-10-02T05:21:34+00:00",
+  "notes": "PDF第25页Susan Luo建议信全文复核，日期2018年9月10日、Chen Lei及两段建议一致；恢复结语与签名的换行。",
+  "issues": [],
+  "status": "passed_edited"
+}

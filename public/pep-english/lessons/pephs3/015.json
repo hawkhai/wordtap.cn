@@ -7,12 +7,17 @@
   "section": "Using Language",
   "title": "Dream (Langston Hughes)",
   "jsonPath": "pep-english/lessons/pephs3/015.json",
-  "text": "Hold fast to dreams, For if dreams die Life is a broken-winged bird That cannot fly.\nHold fast to dreams, For when dreams go Life is a barren field Frozen with snow.",
+  "text": "Hold fast to dreams,\nFor if dreams die\nLife is a broken-winged bird\nThat cannot fly.\nHold fast to dreams,\nFor when dreams go\nLife is a barren field\nFrozen with snow.",
   "blocks": [
     {
       "type": "paragraph",
       "lang": "en",
-      "text": "Hold fast to dreams, For if dreams die Life is a broken-winged bird That cannot fly.\nHold fast to dreams, For when dreams go Life is a barren field Frozen with snow."
+      "text": "Hold fast to dreams,\nFor if dreams die\nLife is a broken-winged bird\nThat cannot fly."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Hold fast to dreams,\nFor when dreams go\nLife is a barren field\nFrozen with snow."
     }
   ],
   "source": {

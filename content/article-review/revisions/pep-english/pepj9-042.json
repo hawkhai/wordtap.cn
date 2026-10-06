@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "course": "pep-english",
+  "articleId": "pepj9-042",
+  "beforeDisplaySha256": "07df9bdd89d686429690c535c0b71f06b33045ce0a878dd05d40d5a57744cc15",
+  "afterDisplaySha256": "07df9bdd89d686429690c535c0b71f06b33045ce0a878dd05d40d5a57744cc15",
+  "baselineDisplay": {
+    "title": "Save the Sharks!",
+    "section": "Section A",
+    "text": "Many have heard of shark fin soup. But do you realize that you're killing a whole shark each time you enjoy a bowl of shark fin soup?\nWhen people catch sharks, they cut off their fins and throw the sharks back into the ocean. This is not only cruel, but also harmful to the environment. Without a fin, a shark can no longer swim and slowly dies. Sharks are at the top of the food chain in the ocean's ecosystem. If their numbers drop too low, it will bring danger to all ocean life. Many believe that sharks can never be endangered because they are the strongest in their food chain. But in fact, around 70 million sharks are caught and traded in this industry every year. The numbers of some kinds of sharks have fallen by over 90 percent in the last 20 to 30 years.\nEnvironmental protection groups around the world, such as WildAid and the WWF, are teaching the public about \"finning\". They have even asked governments to develop laws to stop the sale of shark fins. So far, no scientific studies have shown that shark fins are good for health, so why eat them? Help save the sharks!",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Many have heard of shark fin soup. But do you realize that you're killing a whole shark each time you enjoy a bowl of shark fin soup?"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "When people catch sharks, they cut off their fins and throw the sharks back into the ocean. This is not only cruel, but also harmful to the environment. Without a fin, a shark can no longer swim and slowly dies. Sharks are at the top of the food chain in the ocean's ecosystem. If their numbers drop too low, it will bring danger to all ocean life. Many believe that sharks can never be endangered because they are the strongest in their food chain. But in fact, around 70 million sharks are caught and traded in this industry every year. The numbers of some kinds of sharks have fallen by over 90 percent in the last 20 to 30 years."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Environmental protection groups around the world, such as WildAid and the WWF, are teaching the public about \"finning\". They have even asked governments to develop laws to stop the sale of shark fins. So far, no scientific studies have shown that shark fins are good for health, so why eat them? Help save the sharks!"
+      }
+    ]
+  },
+  "display": {
+    "title": "Save the Sharks!",
+    "section": "Section A",
+    "text": "Many have heard of shark fin soup. But do you realize that you're killing a whole shark each time you enjoy a bowl of shark fin soup?\nWhen people catch sharks, they cut off their fins and throw the sharks back into the ocean. This is not only cruel, but also harmful to the environment. Without a fin, a shark can no longer swim and slowly dies. Sharks are at the top of the food chain in the ocean's ecosystem. If their numbers drop too low, it will bring danger to all ocean life. Many believe that sharks can never be endangered because they are the strongest in their food chain. But in fact, around 70 million sharks are caught and traded in this industry every year. The numbers of some kinds of sharks have fallen by over 90 percent in the last 20 to 30 years.\nEnvironmental protection groups around the world, such as WildAid and the WWF, are teaching the public about \"finning\". They have even asked governments to develop laws to stop the sale of shark fins. So far, no scientific studies have shown that shark fins are good for health, so why eat them? Help save the sharks!",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Many have heard of shark fin soup. But do you realize that you're killing a whole shark each time you enjoy a bowl of shark fin soup?"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "When people catch sharks, they cut off their fins and throw the sharks back into the ocean. This is not only cruel, but also harmful to the environment. Without a fin, a shark can no longer swim and slowly dies. Sharks are at the top of the food chain in the ocean's ecosystem. If their numbers drop too low, it will bring danger to all ocean life. Many believe that sharks can never be endangered because they are the strongest in their food chain. But in fact, around 70 million sharks are caught and traded in this industry every year. The numbers of some kinds of sharks have fallen by over 90 percent in the last 20 to 30 years."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Environmental protection groups around the world, such as WildAid and the WWF, are teaching the public about \"finning\". They have even asked governments to develop laws to stop the sale of shark fins. So far, no scientific studies have shown that shark fins are good for health, so why eat them? Help save the sharks!"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "path": "content/pep-english/raw/junior-9.pdf",
+      "locator": "PDF第113-113页，标题与完整正文逐行核对",
+      "checked": true,
+      "sha256": "9c4118021048d901610b673f590ed28c39c04cb2d4f7fd940f83a2d8b2741af7"
+    },
+    {
+      "path": "content/pep-english/raw/junior-9/junior-9_113.jpg",
+      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
+      "checked": true,
+      "sha256": "5699aa8f529ad254c540c3b089ff0aaa5769be6ae79a93fbc61d96d1d5ae1c6c"
+    }
+  ],
+  "corrections": [],
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "reviewer": "Codex",
+  "reviewedAt": "2026-10-02T05:16:21+00:00",
+  "notes": "PDF113页印刷99页Save the Sharks三段逐行核对，割鳍影响、食物链、原书7000万及20至30年减少90%以上统计，WildAid/WWF组织名称和保护呼吁完整。数据保留教材时点，finning引号与段落正确，未混入表格填空，复读无修改。",
+  "issues": [],
+  "status": "passed_unchanged"
+}

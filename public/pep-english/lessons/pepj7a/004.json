@@ -7,7 +7,7 @@
   "section": "Section B",
   "title": "Dear Jenny",
   "jsonPath": "pep-english/lessons/pepj7a/004.json",
-  "text": "Dear Jenny,\nI am very busy on Friday. At 8:00 I have math. It is not fun. The teacher says it is useful, but I think it is difficult. Then at 9:00 I have science. It is difficult but interesting. At 10:00 I have history. After that, I have P.E. at 11:00. It is easy and fun. Lunch is from 12:00 to 1:00, and after that we have Chinese. It is my favorite subject. Our Chinese teacher, Mrs. Wang, is great fun. My classes finish at 1:50, but after that I have an art lesson for two hours. It is really relaxing!\nHow about you? When are your classes? What is your favorite subject?\nYour friend, Yu Mei",
+  "text": "Dear Jenny,\nI am very busy on Friday. At 8:00 I have math. It is not fun. The teacher says it is useful, but I think it is difficult. Then at 9:00 I have science. It is difficult but interesting. At 10:00 I have history. After that, I have P.E. at 11:00. It is easy and fun. Lunch is from 12:00 to 1:00, and after that we have Chinese. It is my favorite subject. Our Chinese teacher, Mrs. Wang, is great fun. My classes finish at 1:50, but after that I have an art lesson for two hours. It is really relaxing!\nHow about you? When are your classes? What is your favorite subject?\nYour friend,\nYu Mei",
   "blocks": [
     {
       "type": "paragraph",
@@ -27,7 +27,7 @@
     {
       "type": "paragraph",
       "lang": "en",
-      "text": "Your friend, Yu Mei"
+      "text": "Your friend,\nYu Mei"
     }
   ],
   "source": {

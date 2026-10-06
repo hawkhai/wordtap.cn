@@ -1,0 +1,33 @@
+{
+  "article": "nce4-020",
+  "fullRead": "完整通读原LRC及现有21条中英字幕（含18条正文和导读），最终逐句双语复核；明确编辑改编而非作者原文还原。",
+  "sources": [
+    {
+      "url": "https://australian.museum/learn/animals/mammals/platypus/",
+      "read": "69–72及170–173行雄性后肢距与毒腺。"
+    },
+    {
+      "url": "https://australian.museum/learn/animals/reptiles/coastal-taipan/",
+      "read": "154–161行毒液同时影响神经与凝血，可多系统损害且看似轻微也需立即就医。"
+    },
+    {
+      "url": "https://www.nhm.ac.uk/discover/snakes-senses-stretchy-jaws-deadly-venom.html",
+      "read": "119–132行venom/poison区别、毒腺与牙、捕食和防御功能。"
+    },
+    {
+      "url": "https://www.who.int/news-room/fact-sheets/detail/snakebite-envenoming",
+      "read": "WHO检索摘录：麻痹、出血、肾衰和组织损伤。"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4552096/",
+      "read": "Snake venoms are integrated systems, but abundant venom proteins evolve more rapidly（2015）检索索引：成分、蛋白进化、同种地理种群差异；直接网页返回浏览器检查，未冒称读全文。"
+    }
+  ],
+  "decisions": [
+    "撤除only snakes and one lizard，改为鸭嘴兽实证；猫的设想明示假设，不再推断所有食肉动物受益。",
+    "撤除无法分析、只属奢侈品、演化无关、神经/血液互斥、原始/进步与普遍快慢优劣等错误断言，以可核实资料改写。",
+    "导读改成两个重要作用而非仅有两种，答案神经与凝血；中英同步。",
+    "原音频与字幕时间戳、角色、索引、资源路径保留；开头明确录音原话与修订文本不同。"
+  ],
+  "unresolved": []
+}

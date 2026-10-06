@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "course": "pep-english",
+  "articleId": "pephr1-003",
+  "beforeDisplaySha256": "23a88cb28eb05729553a6e9c555feff82e1bbb939df51680b344062ae68c4849",
+  "afterDisplaySha256": "088681fae299eab9552f965e2711d214a67e156de4986b144dc8eb0a02fd3a33",
+  "baselineDisplay": {
+    "title": "Student Profiles: Ann and Thando",
+    "section": "Reading for Writing",
+    "text": "Ann, 15 Lakeside High School USA My name is Ann Wells and I'm a Grade 10 student at Lakeside High School. I'm an active person and I love sports. I'm curious about everything. I often ask questions, but I learn best by doing. My favourite subject is physics. Dancing and skating are my hobbies, and I also like to read short stories. I plan to become an engineer in the future.\nThando, 16 South Hill High School South Africa I'm Thando Gowon. I'm 16 this year. I come from South Africa. I'm a Grade 10 student at South Hill High School. I look good, think fast, and play hard. You'll never see me without a book or a pen. If I'm not in class, I'm either in the library or in the computer lab. At the weekends, I play computer games if I'm not busy studying. My dream is to start my own IT company!",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Ann, 15 Lakeside High School USA My name is Ann Wells and I'm a Grade 10 student at Lakeside High School. I'm an active person and I love sports. I'm curious about everything. I often ask questions, but I learn best by doing. My favourite subject is physics. Dancing and skating are my hobbies, and I also like to read short stories. I plan to become an engineer in the future."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Thando, 16 South Hill High School South Africa I'm Thando Gowon. I'm 16 this year. I come from South Africa. I'm a Grade 10 student at South Hill High School. I look good, think fast, and play hard. You'll never see me without a book or a pen. If I'm not in class, I'm either in the library or in the computer lab. At the weekends, I play computer games if I'm not busy studying. My dream is to start my own IT company!"
+      }
+    ]
+  },
+  "display": {
+    "title": "Student Profiles: Ann and Thando",
+    "section": "Reading for Writing",
+    "text": "Ann, 15\nLakeside High School\nUSA\nMy name is Ann Wells and I'm a Grade 10 student at Lakeside High School. I'm an active person and I love sports. I'm curious about everything. I often ask questions, but I learn best by doing. My favourite subject is physics. Dancing and skating are my hobbies, and I also like to read short stories. I plan to become an engineer in the future.\nThando, 16\nSouth Hill High School\nSouth Africa\nI'm Thando Gowon. I'm 16 this year. I come from South Africa. I'm a Grade 10 student at South Hill High School. I look good, think fast, and play hard. You'll never see me without a book or a pen. If I'm not in class, I'm either in the library or in the computer lab. At the weekends, I play computer games if I'm not busy studying. My dream is to start my own IT company!",
+    "blocks": [
+      {
+        "type": "subheading",
+        "lang": "en",
+        "text": "Ann, 15\nLakeside High School\nUSA"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "My name is Ann Wells and I'm a Grade 10 student at Lakeside High School. I'm an active person and I love sports. I'm curious about everything. I often ask questions, but I learn best by doing. My favourite subject is physics. Dancing and skating are my hobbies, and I also like to read short stories. I plan to become an engineer in the future."
+      },
+      {
+        "type": "subheading",
+        "lang": "en",
+        "text": "Thando, 16\nSouth Hill High School\nSouth Africa"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "I'm Thando Gowon. I'm 16 this year. I come from South Africa. I'm a Grade 10 student at South Hill High School. I look good, think fast, and play hard. You'll never see me without a book or a pen. If I'm not in class, I'm either in the library or in the computer lab. At the weekends, I play computer games if I'm not busy studying. My dream is to start my own IT company!"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "path": "content/pep-english/raw/senior-required-1.pdf",
+      "locator": "PDF第15-15页，标题与完整正文逐行核对",
+      "checked": true,
+      "sha256": "ffe985a370964820aa003008f48c7cf17b5e0dff8eb29fe54cd4743b0c4e8c79"
+    },
+    {
+      "path": "content/pep-english/raw/senior-required-1/senior-required-1_15.jpg",
+      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
+      "checked": true,
+      "sha256": "d522e9d2aba8ccb1d9354348da802dd188e9d11727b72546ef9c3a3313ab38dc"
+    }
+  ],
+  "corrections": [],
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "reviewer": "Codex",
+  "reviewedAt": "2026-10-02T05:21:06+00:00",
+  "notes": "PDF第15页左右两份学生档案逐行核对。将粘连的姓名年龄、学校及国家恢复为独立档案标题和三行排版；正文各一段，Ann工程师与Thando创办IT公司等内容不改。",
+  "issues": [],
+  "status": "passed_edited"
+}

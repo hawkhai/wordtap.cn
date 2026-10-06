@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "course": "pep-english",
+  "articleId": "pepj7b-013",
+  "beforeDisplaySha256": "ea716668ca00bcb0c3d3844c9a8cadbb7811c6c3a59939fb77788651a70e39e5",
+  "afterDisplaySha256": "fc2206df0bbb0cc56f7d3418b34415b62669a8e8abbc84bbe637dfed41d3ae77",
+  "baselineDisplay": {
+    "title": "Helen and Jim's School Trip Diaries",
+    "section": "Section B",
+    "text": "June 15th Today I went on a school trip. We visited the science museum and it was really interesting. We got there so fast by train. We saw some farms and villages along the way. At the museum, I learned a lot about robots. I didn't know they could play chess with us. It was so cool! Then the guide taught us how to make a model robot. I took a lot of great photos, too. After that, I went to the gift shop and bought some lovely gifts for my parents. They weren't expensive. All in all, it was an exciting day.\nJune 15th I think today's school trip was terrible. We took the train to the museum. It was so hot on the slow train. The museum was big and boring. Everything was about robots and I'm not interested in that. The rooms were really dark and it was difficult to take photos, so I didn't take any. There were also too many people and I couldn't really see or hear the guide. The things in the gift shop were so expensive. I didn't like the trip at all.",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "June 15th Today I went on a school trip. We visited the science museum and it was really interesting. We got there so fast by train. We saw some farms and villages along the way. At the museum, I learned a lot about robots. I didn't know they could play chess with us. It was so cool! Then the guide taught us how to make a model robot. I took a lot of great photos, too. After that, I went to the gift shop and bought some lovely gifts for my parents. They weren't expensive. All in all, it was an exciting day."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "June 15th I think today's school trip was terrible. We took the train to the museum. It was so hot on the slow train. The museum was big and boring. Everything was about robots and I'm not interested in that. The rooms were really dark and it was difficult to take photos, so I didn't take any. There were also too many people and I couldn't really see or hear the guide. The things in the gift shop were so expensive. I didn't like the trip at all."
+      }
+    ]
+  },
+  "display": {
+    "title": "Helen and Jim's School Trip Diaries",
+    "section": "Section B",
+    "text": "June 15th\nToday I went on a school trip. We visited the science museum and it was really interesting. We got there so fast by train. We saw some farms and villages along the way. At the museum, I learned a lot about robots. I didn't know they could play chess with us. It was so cool! Then the guide taught us how to make a model robot. I took a lot of great photos, too. After that, I went to the gift shop and bought some lovely gifts for my parents. They weren't expensive. All in all, it was an exciting day.\nJune 15th\nI think today's school trip was terrible. We took the train to the museum. It was so hot on the slow train. The museum was big and boring. Everything was about robots and I'm not interested in that. The rooms were really dark and it was difficult to take photos, so I didn't take any. There were also too many people and I couldn't really see or hear the guide. The things in the gift shop were so expensive. I didn't like the trip at all.",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "June 15th\nToday I went on a school trip. We visited the science museum and it was really interesting. We got there so fast by train. We saw some farms and villages along the way. At the museum, I learned a lot about robots. I didn't know they could play chess with us. It was so cool! Then the guide taught us how to make a model robot. I took a lot of great photos, too. After that, I went to the gift shop and bought some lovely gifts for my parents. They weren't expensive. All in all, it was an exciting day."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "June 15th\nI think today's school trip was terrible. We took the train to the museum. It was so hot on the slow train. The museum was big and boring. Everything was about robots and I'm not interested in that. The rooms were really dark and it was difficult to take photos, so I didn't take any. There were also too many people and I couldn't really see or hear the guide. The things in the gift shop were so expensive. I didn't like the trip at all."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "path": "content/pep-english/raw/junior-7b.pdf",
+      "locator": "PDF第75-75页，标题与完整正文逐行核对",
+      "checked": true,
+      "sha256": "7041d787738bdf5f4f556765acdfe8033ac2f69d03e67ccc62516375f6a46f37"
+    },
+    {
+      "path": "content/pep-english/raw/junior-7b/junior-7b_75.jpg",
+      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
+      "checked": true,
+      "sha256": "83bcb7fd75293be421fcc58f74b7b1d0006eb06d8f918a6b8eaef380100f487f"
+    }
+  ],
+  "corrections": [],
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "reviewer": "Codex",
+  "reviewedAt": "2026-10-02T04:47:43+00:00",
+  "notes": "PDF75页印刷65页左右两篇日记逐行双轮核对。Helen正面、Jim负面体验的火车速度/机器人/照片/礼物价格全部与原文一致，不将主观差异当作事实矛盾改写。各自June15th应独立成行，恢复日期与正文间换行；两篇正文及首尾完整。",
+  "issues": [],
+  "status": "passed_edited"
+}

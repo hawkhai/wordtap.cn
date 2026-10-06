@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "course": "pep-english",
+  "articleId": "pephs3-029",
+  "beforeDisplaySha256": "4d76f45a1d56561d43f5ad22b19801aa5cfe3916e3128f628200d1090a316799",
+  "afterDisplaySha256": "6e5fd6b752292ce513ea73bfccc2f60634893509aa16d57459de3658599d5352",
+  "baselineDisplay": {
+    "title": "Auld Lang Syne (excerpt by Robert Burns)",
+    "section": "Listening and Speaking",
+    "text": "Should old acquaintance be forgot, and never brought to mind?\nShould old acquaintance be forgot, and auld lang syne?\nFor auld lang syne, my dear, for auld lang syne, we’ll take a cup of kindness yet, for auld lang syne.\nAnd surely you’ll buy your pint cup!\nand surely I’ll buy mine!\nAnd we’ll take a cup o’ kindness yet, for auld lang syne.\nFor auld lang syne, my dear, for auld lang syne, we’ll take a cup of kindness yet, for auld lang syne.",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Should old acquaintance be forgot, and never brought to mind?\nShould old acquaintance be forgot, and auld lang syne?\nFor auld lang syne, my dear, for auld lang syne, we’ll take a cup of kindness yet, for auld lang syne."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "And surely you’ll buy your pint cup!\nand surely I’ll buy mine!\nAnd we’ll take a cup o’ kindness yet, for auld lang syne.\nFor auld lang syne, my dear, for auld lang syne, we’ll take a cup of kindness yet, for auld lang syne."
+      }
+    ]
+  },
+  "display": {
+    "title": "Auld Lang Syne (excerpt by Robert Burns)",
+    "section": "Listening and Speaking",
+    "text": "Should old acquaintance be\nforgot, and never brought to mind?\nShould old acquaintance be\nforgot, and auld lang syne?\nFor auld lang syne, my dear,\nfor auld lang syne,\nwe’ll take a cup of kindness yet,\nfor auld lang syne.\nAnd surely you’ll buy your pint cup!\nand surely I’ll buy mine!\nAnd we’ll take a cup o’ kindness yet,\nfor auld lang syne.\nFor auld lang syne, my dear,\nfor auld lang syne,\nwe’ll take a cup of kindness yet,\nfor auld lang syne.",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Should old acquaintance be\nforgot, and never brought to mind?\nShould old acquaintance be\nforgot, and auld lang syne?\nFor auld lang syne, my dear,\nfor auld lang syne,\nwe’ll take a cup of kindness yet,\nfor auld lang syne."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "And surely you’ll buy your pint cup!\nand surely I’ll buy mine!\nAnd we’ll take a cup o’ kindness yet,\nfor auld lang syne.\nFor auld lang syne, my dear,\nfor auld lang syne,\nwe’ll take a cup of kindness yet,\nfor auld lang syne."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "path": "content/pep-english/raw/senior-selective-3.pdf",
+      "locator": "PDF第98-98页，标题与完整正文逐行核对",
+      "checked": true,
+      "sha256": "ed8eb9e5988b44a1ff4f8bc11ed3cfae406decefae7982477362720788e1998b"
+    },
+    {
+      "path": "content/pep-english/raw/senior-selective-3/senior-selective-3_98.jpg",
+      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
+      "checked": true,
+      "sha256": "bce5c1276b4d5b4b1643fb9569c23bfa9dc44144df7b929101007101b2f2f23b"
+    }
+  ],
+  "corrections": [],
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "reviewer": "Codex",
+  "reviewedAt": "2026-10-02T07:26:06+00:00",
+  "notes": "全文与PDF98页左右两栏逐行对照，恢复两节各八行的教材诗歌排版，保留Burns节选的词语及大小写。",
+  "issues": [],
+  "status": "passed_edited"
+}

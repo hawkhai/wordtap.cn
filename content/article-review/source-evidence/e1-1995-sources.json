@@ -1,0 +1,77 @@
+{
+  "article": "e1-1995",
+  "checkedAt": "2026-10-03",
+  "sourcePdfPhysicalPagesRead": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "sources": [
+    {
+      "url": "https://www.ninds.nih.gov/sites/default/files/2025-05/understanding-sleep.pdf",
+      "scope": "检索实际读取第4页两类睡眠、非REM三阶段、REM段，包括梦也可在非REM发生及记忆巩固涉及二者；未通读PDF。"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/8238617/",
+      "scope": "通过检索实际读取1993Everson论文元数据和完整摘要，菌血症、持续睡眠剥夺、宿主防御受损，结论suggest不是已证明全部死因。未全文或原始数据。"
+    },
+    {
+      "url": "https://www.asa.org.uk/advice-online/substantiation.html",
+      "scope": "检索实际读客观主张须有证据、不能因自认为主观就免除证据要求段；未全页。"
+    },
+    {
+      "url": "https://www.asa.org.uk/advice-online/misleading-advertising.html",
+      "scope": "检索实际读无证据可被认为误导段；未把投诉比例或原文二十七法案当现行数字。"
+    },
+    {
+      "url": "https://www.apa.org/topics/personality",
+      "scope": "通过检索读人格定义与遗传、成熟、训练、文化及关系多因素的主体段，未阅读链接资源。"
+    },
+    {
+      "url": "https://meshb.nlm.nih.gov/record/ui?ui=D064414",
+      "scope": "检索实际读Type B条目元数据和Scope Note，较平静及比A更少敌意攻击；并非人格固定分类的证据。"
+    },
+    {
+      "url": "https://atlas.perseus.tufts.edu/library/passage/urn%3Acts%3AgreekLit%3Atlg0062.tlg058.perseus-eng3%3A1-5/",
+      "scope": "通过检索实际读Lucian的问候口误篇开篇及卷6第177页Philippides报捷死亡段；仅证明古代文本有此故事，不证明事件真实或死因。beta对应页直接打开失败。"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25774450/",
+      "scope": "直接打开只见页脚；随后定向检索实际读取2015Wimber等论文完整摘要、元数据、MeSH和资助，未读取全文或影像数据。只用于竞争记忆抑制可有适应作用，不证明原选文所有模型。"
+    },
+    {
+      "url": "https://www.apa.org/topics/schools-classrooms/high-stakes-testing",
+      "scope": "检索实际读导言、Appropriate Use of Tests和Gaps小节的可见正文：用途效度、设计与使用、公平和避免单一分数决策；未全页其他资源。"
+    },
+    {
+      "url": "https://www.apa.org/science/programs/testing/fair-testing.pdf",
+      "scope": "检索读Test Users选择适用测试9项，未整本PDF。"
+    },
+    {
+      "url": "https://www.internetsociety.org/internet/history-internet/short-history-of-the-internet/",
+      "scope": "检索读1971/72节点及早期电子邮件段，只作为早已有邮件背景；原文电子邮件将普及仍按旧时点解读，未采用其核战起源概括。"
+    }
+  ],
+  "limitations": [
+    "6原块和物理页1–6全部图像逐页完整读取，96块最终全文复读；well-understood和19B指代再校后复读。",
+    "无官方答案与中译。编辑推理完形BCCBDCADAB，阅读DADCACADBCCDCBBCDBAB。第19/21/22/23/24教学改题，25改范围，不可作为原卷答案键。",
+    "完形第5D与of合成for the purpose of，是explanations的修饰，未误以为漏词。these described虽然不如those常见但能作指示代词，保留原稿。实验100%和会议未独立核实数据及场次，明确历史语境和局限。",
+    "广告四倍/两倍/20%/27法律均缺原始年度，作为作者旧论据而非当前事实；反复广告不是品质证据，旁注纠正推论。",
+    "19原B概括信息渠道中断不等于it直接先行词，改B为信息流；21原选项推断过强，改问有直接根据的免出行参会，C相应修订。22A残缺在图像也存在，公开教学补写而非伪称恢复原题。",
+    "A型父母生A型孩子的绝对推论改为多因素；23原impatient与aggressive可都属A特征，正文重点为竞争，改题消歧；24不把批评过度考试理解为反对所有考试。",
+    "马拉松死亡按Lucian故事处理，去掉第一运动员和比赛害死的推断。The world needs types按上下文补both。It is top management原图同样残缺；虽在伊朗考试资料转载中找到更长版本，未找到原作者原刊，不用转载伪造可靠完整恢复，明确删残句。",
+    "such as effect、This forgetting…that survival、test复数、两处form/from、33逗号均为源稿校订，区分于断词排版。",
+    "31–35下划线句子逐一核对范围；31作者立场未改成编者事实，旁注设计本身也须公平效度，未变更翻译命题。作文给定开头和三提纲完整保留。"
+  ],
+  "answerChecks": {
+    "editorReasoningNotOfficial": {
+      "cloze": "BCCBDCADAB",
+      "reading": "DADCACADBCCDCBBCDBAB"
+    }
+  },
+  "rawSha256": "088acf8c3c7382e2fbb559c68252c3f775979c5648c1371784ce33d4e2933f0a",
+  "pdfSha256": "802c3d218714a6362731273cc8d2b9d25ab499f210d39194461a3cf5b28c4a39"
+}

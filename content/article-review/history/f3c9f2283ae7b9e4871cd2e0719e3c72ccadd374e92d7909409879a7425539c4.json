@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "course": "pep-english",
+  "articleId": "pephr2-005",
+  "beforeDisplaySha256": "6f17d3b618bf06a8b1b9a0cfdab96f1f26d29f42aae1e19e59cdb7dfe72c1b64",
+  "afterDisplaySha256": "0403639b9098dd6ec3362c47ae3fe5cf3c551ba9a624537dacfc59793097e991",
+  "baselineDisplay": {
+    "title": "Cyber Sense",
+    "section": "Pronunciation",
+    "text": "I always keep things secret when I go online.\nI never share the things that should be only mine.\nMy email and my home address, my phone number and name— These are things only I should know on websites or in games.\nAnd so I use a nonsense name for my net identity.\nWhen folks online ask who I am, I say, “I'm Cyber Me.”\nAnd if I ever think that someone online isn't all that bad, I never ever meet them without telling Mum or Dad.",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "I always keep things secret when I go online.\nI never share the things that should be only mine.\nMy email and my home address, my phone number and name— These are things only I should know on websites or in games."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "And so I use a nonsense name for my net identity.\nWhen folks online ask who I am, I say, “I'm Cyber Me.”\nAnd if I ever think that someone online isn't all that bad, I never ever meet them without telling Mum or Dad."
+      }
+    ]
+  },
+  "display": {
+    "title": "Cyber Sense",
+    "section": "Pronunciation",
+    "text": "I always keep things secret when I go online.\nI never share the things that should be only mine.\nMy email and my home address, my phone number and name—\nThese are things only I should know on websites or in games.\nAnd so I use a nonsense name for my net identity.\nWhen folks online ask who I am, I say, “I'm Cyber Me.”\nAnd if I ever think that someone online isn't all that bad,\nI never ever meet them without telling Mum or Dad.",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "I always keep things secret when I go online.\nI never share the things that should be only mine.\nMy email and my home address, my phone number and name—\nThese are things only I should know on websites or in games."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "And so I use a nonsense name for my net identity.\nWhen folks online ask who I am, I say, “I'm Cyber Me.”\nAnd if I ever think that someone online isn't all that bad,\nI never ever meet them without telling Mum or Dad."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "path": "content/pep-english/raw/senior-required-2.pdf",
+      "locator": "PDF第34-34页，标题与完整正文逐行核对",
+      "checked": true,
+      "sha256": "33b74bf42b22b32fdbe3201e6f61cf8099be047ef0af8a1740f6013dee4a619d"
+    },
+    {
+      "path": "content/pep-english/raw/senior-required-2/senior-required-2_34.jpg",
+      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
+      "checked": true,
+      "sha256": "f6096c164b56621ed06c5865f0481c01976189fcbcf988b9041179f3ac106908"
+    }
+  ],
+  "corrections": [],
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "reviewer": "Codex",
+  "reviewedAt": "2026-10-02T05:38:54+00:00",
+  "notes": "PDF第34页Cyber Sense诗全文核对，两节各四行。恢复第一节These are及第二节I never ever前两处诗行换行，保留破折号、引语和全部原词。",
+  "issues": [],
+  "status": "passed_edited"
+}

@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "course": "pep-english",
+  "articleId": "pephs4-028",
+  "beforeDisplaySha256": "9cf524983e567f49f5d878d827f642a072e849d58e35267878bd318ebb470ad6",
+  "afterDisplaySha256": "5d8c86c1dea51c27820c7eb61751c8fc0bd99d429865230f2c87192a0b89a4c9",
+  "baselineDisplay": {
+    "title": "Pavlova",
+    "section": "Reading and Writing",
+    "text": "By far the favourite dessert in Australia is the pavlova, which was named after the famous Russian ballet dancer Anna Pavlova, who visited Australia in the 1920s.\nINGREDIENTS\n4 egg whites\na little salt\n1 cup sugar\n2 teaspoons flour\n2/3 teaspoon vinegar\n2/3 teaspoon vanilla\n2 cups cream\nfresh fruit\nWhisk the egg whites until they are stiff. Add the salt. Add the sugar a little at a time and continue whisking until you have a meringue. Mix the flour, vinegar, and vanilla together. Add to the meringue. Spread the meringue on a baking sheet. Put it into a heated oven and cook at 120°C for 1 hour. Turn off the oven. Leave the meringue in the oven until it is cool. Whip the cream. Cover the meringue with the whipped cream. Top the whipped cream with your choice of chopped fresh fruit.",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "By far the favourite dessert in Australia is the pavlova, which was named after the famous Russian ballet dancer Anna Pavlova, who visited Australia in the 1920s."
+      },
+      {
+        "type": "subheading",
+        "lang": "en",
+        "text": "INGREDIENTS"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "4 egg whites\na little salt\n1 cup sugar\n2 teaspoons flour\n2/3 teaspoon vinegar\n2/3 teaspoon vanilla\n2 cups cream\nfresh fruit"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Whisk the egg whites until they are stiff. Add the salt. Add the sugar a little at a time and continue whisking until you have a meringue. Mix the flour, vinegar, and vanilla together. Add to the meringue. Spread the meringue on a baking sheet. Put it into a heated oven and cook at 120°C for 1 hour. Turn off the oven. Leave the meringue in the oven until it is cool. Whip the cream. Cover the meringue with the whipped cream. Top the whipped cream with your choice of chopped fresh fruit."
+      }
+    ]
+  },
+  "display": {
+    "title": "Pavlova",
+    "section": "Reading and Writing",
+    "text": "By far the favourite dessert in Australia is the pavlova, which was named after the famous Russian ballet dancer Anna Pavlova, who visited Australia in the 1920s.\nINGREDIENTS 4 egg whites a little salt 1 cup sugar 2 teaspoons flour 2/3 teaspoon vinegar 2/3 teaspoon vanilla 2 cups cream fresh fruit\nWhisk the egg whites until they are stiff. Add the salt. Add the sugar a little at a time and continue whisking until you have a meringue. Mix the flour, vinegar, and vanilla together. Add to the meringue. Spread the meringue on a baking sheet. Put it into a heated oven and cook at 120˚C for 1 hour. Turn off the oven. Leave the meringue in the oven until it is cool. Whip the cream. Cover the meringue with the whipped cream. Top the whipped cream with your choice of chopped fresh fruit.",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "By far the favourite dessert in Australia is the pavlova, which was named after the famous Russian ballet dancer Anna Pavlova, who visited Australia in the 1920s."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "INGREDIENTS 4 egg whites a little salt 1 cup sugar 2 teaspoons flour 2/3 teaspoon vinegar 2/3 teaspoon vanilla 2 cups cream fresh fruit"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Whisk the egg whites until they are stiff. Add the salt. Add the sugar a little at a time and continue whisking until you have a meringue. Mix the flour, vinegar, and vanilla together. Add to the meringue. Spread the meringue on a baking sheet. Put it into a heated oven and cook at 120˚C for 1 hour. Turn off the oven. Leave the meringue in the oven until it is cool. Whip the cream. Cover the meringue with the whipped cream. Top the whipped cream with your choice of chopped fresh fruit."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "path": "content/pep-english/raw/senior-selective-4.pdf",
+      "locator": "PDF第79-79页，标题与完整正文逐行核对",
+      "checked": true,
+      "sha256": "2ad7555a13eb420aa70497f9faa2541fdb502b7ffc4e063e87c60cce88f1b4a3"
+    },
+    {
+      "path": "content/pep-english/raw/senior-selective-4/senior-selective-4_79.jpg",
+      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
+      "checked": true,
+      "sha256": "1483ab95728f3b7e8ac0c5c5ffa608f9da25b331e09b7681e38e7667dd49d6e3"
+    },
+    {
+      "path": "content/article-review/cleanup-2026-10-06.json",
+      "sha256": "cea27c1c69e32939ff83196bd29cce9a128d8d0d6f248611217179e037971889",
+      "locator": "public/pep-english/lessons/pephs4/028.json",
+      "checked": true
+    }
+  ],
+  "corrections": [
+    {
+      "field": "text",
+      "before": "By far the favourite dessert in Australia is the pavlova, which was named after the famous Russian ballet dancer Anna Pavlova, who visited Australia in the 1920s.\nINGREDIENTS\n4 egg whites\na little salt\n1 cup sugar\n2 teaspoons flour\n2/3 teaspoon vinegar\n2/3 teaspoon vanilla\n2 cups cream\nfresh fruit\nWhisk the egg whites until they are stiff. Add the salt. Add the sugar a little at a time and continue whisking until you have a meringue. Mix the flour, vinegar, and vanilla together. Add to the meringue. Spread the meringue on a baking sheet. Put it into a heated oven and cook at 120°C for 1 hour. Turn off the oven. Leave the meringue in the oven until it is cool. Whip the cream. Cover the meringue with the whipped cream. Top the whipped cream with your choice of chopped fresh fruit.",
+      "after": "By far the favourite dessert in Australia is the pavlova, which was named after the famous Russian ballet dancer Anna Pavlova, who visited Australia in the 1920s.\nINGREDIENTS 4 egg whites a little salt 1 cup sugar 2 teaspoons flour 2/3 teaspoon vinegar 2/3 teaspoon vanilla 2 cups cream fresh fruit\nWhisk the egg whites until they are stiff. Add the salt. Add the sugar a little at a time and continue whisking until you have a meringue. Mix the flour, vinegar, and vanilla together. Add to the meringue. Spread the meringue on a baking sheet. Put it into a heated oven and cook at 120˚C for 1 hour. Turn off the oven. Leave the meringue in the oven until it is cool. Whip the cream. Cover the meringue with the whipped cream. Top the whipped cream with your choice of chopped fresh fruit.",
+      "evidence": "User-directed source-fidelity restoration; content/article-review/cleanup-2026-10-06.json"
+    }
+  ],
+  "fullReadConfirmed": false,
+  "recheckConfirmed": false,
+  "reviewMode": "source-fidelity-rules-v1",
+  "reviewer": "Codex (user-directed restoration)",
+  "reviewedAt": "2026-10-05T17:15:10+00:00",
+  "notes": "Rule-based restoration; original full-read review remains historical. content/article-review/cleanup-2026-10-06.json",
+  "issues": [],
+  "status": "passed_edited",
+  "previousRevisionSha256": "95c0cd72b70a96b11012296d0e09ad617e6e94e04d1a8be46803cc37464e4a1d",
+  "ruleRestoration": {
+    "policy": "source-fidelity-rules-v1",
+    "report": "content/article-review/cleanup-2026-10-06.json",
+    "reportSha256": "cea27c1c69e32939ff83196bd29cce9a128d8d0d6f248611217179e037971889"
+  }
+}
