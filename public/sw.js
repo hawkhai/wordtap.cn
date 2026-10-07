@@ -39,8 +39,10 @@ self.addEventListener("fetch", (event) => {
   if (url.origin !== self.location.origin) return;
   if (url.hostname === "localhost" || url.hostname === "127.0.0.1") return;
 
-  const isCourseManifest = /\/(?:pep-english|nce|shuimu|postgraduate|college-english|cet|kaoyan-english)\/manifest\.json$/.test(url.pathname);
-  if (isCourseManifest) {
+  // Course JSON keeps stable URLs across content corrections. Revalidate both
+  // catalogs and lessons; retain cached copies for offline reading.
+  const isCourseData = /\/(?:pep-english|nce|shuimu|postgraduate|college-english|cet|kaoyan-english)\/(?:manifest\.json|lessons\/.+\.json)$/.test(url.pathname);
+  if (isCourseData) {
     event.respondWith(
       fetchAndCache(event.request, { cache: "no-cache" })
         .catch(() => caches.match(event.request)),

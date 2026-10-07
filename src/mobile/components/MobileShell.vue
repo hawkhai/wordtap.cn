@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { computed, onMounted, onUnmounted, ref } from "vue";
+import ReadingText from "../../shared/components/ReadingText.vue";
 import { useWordTap } from "../../shared/composables/useWordTap";
 import { appSectionUrl } from "../../shared/utils/assetUrls";
 import { isWindows } from "../../shared/utils/device";
@@ -42,6 +43,7 @@ const {
   translateModeOptions, defaultGatewayVoice, gatewayVoiceOptions, fallbackDictionary,
   logoMarkUrl, wordTapWindowsDownloadUrl,
   gatewayDownloadUrl, gatewayReleaseManifestUrl,
+  readingRuns, activeSentenceId, sentenceSpeechState, sentenceSpeechDisabled, readSentence,
   sourceText, segments, selectedSegmentId, currentWord, meaning, status,
   dictionaryInfo, selectedRate, selectedRepeat, selectedTranslateMode,
   isWordSpeaking, isFullTextSpeaking, browserSpeechSupported, isGatewayRunning,
@@ -488,34 +490,16 @@ onUnmounted(() => {
                 {{ wordCountLabel }}
               </span>
             </div>
-            <div
-              class="study-reader overflow-auto whitespace-pre-wrap text-2xl leading-[2.4rem]"
-              lang="en"
-              data-testid="study-text"
-            >
-              <template
-                v-for="segment in segments"
-                :key="segment.id"
-              >
-                <span v-if="segment.type === 'text'">{{ segment.text }}</span>
-                <span
-                  v-else-if="segment.type === 'blank-line'"
-                  class="study-blank-line"
-                  aria-hidden="true"
-                ></span>
-                <span v-else class="study-word-cluster">
-                  <button
-                    type="button"
-                    class="study-word inline px-0.5 align-baseline leading-[inherit]"
-                    :class="segment.id === selectedSegmentId ? 'study-word-selected' : learnedClassForWord(segment.text)"
-                    :data-word-index="segment.index"
-                    @click="studyWord(segment, $event)"
-                  >
-                    {{ segment.text }}
-                  </button>{{ segment.trailingText ?? "" }}
-                </span>
-              </template>
-            </div>
+            <ReadingText
+              :runs="readingRuns"
+              :selected-id="selectedSegmentId"
+              :learned-class="learnedClassForWord"
+              :active-sentence-id="activeSentenceId"
+              :preparing="sentenceSpeechState === 'preparing'"
+              :disabled="sentenceSpeechDisabled"
+              @word="studyWord"
+              @sentence="readSentence"
+            />
           </section>
         </div>
         <aside

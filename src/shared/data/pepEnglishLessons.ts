@@ -23,7 +23,7 @@ export interface PepEnglishLessonDetail extends PepEnglishLessonSummary {
   };
 }
 
-async function fetchJson<T>(path: string, cache: RequestCache = "force-cache"): Promise<T> {
+async function fetchJson<T>(path: string, cache: RequestCache = "no-cache"): Promise<T> {
   const response = await fetch(appAssetUrl(path), { cache });
   if (!response.ok) throw new Error(`Unable to load ${path}: ${response.status}`);
   return (await response.json()) as T;

@@ -79,7 +79,6 @@ import {
   NETWORK_LARGE_DOWNLOAD_HEAD_PROBE,
   NETWORK_RELEASE_MANIFEST,
   SPEECH_WATCHDOG_BASE,
-  SPEECH_BROWSER_CHAR_MS,
   SPEECH_YOUDAO_CHAR_MS,
   SPEECH_READ_AUDIO_BLOB,
   RESPONSE_READ_ERROR_TEXT,
@@ -106,6 +105,10 @@ import type {
   CourseLessonSelection,
 } from "../types/app";
 
+import { buildReadingRuns, indexReadingSentences, type ReadingSentence } from "../utils/readingSentences";
+import { playBrowserSpeech } from "../utils/browserSpeech";
+import { SentenceSpeechSession } from "../utils/sentenceSpeech";
+
 export function useWordTap() {
 const copy = siteCopy;
 const defaultText = copy.defaultText;
@@ -130,6 +133,19 @@ const youdaoDictVoiceBaseUrl = "https://dict.youdao.com/dictvoice";
 const storedSettings = readStoredSettings();
 const sourceText = ref("");
 const segments = ref<Segment[]>([]);
+const sentences = ref<ReadingSentence[]>([]);
+const readingSnapshot = ref("");
+const activeSentenceId = ref("");
+const sentenceSpeechState = ref<"idle" | "preparing" | "playing">("idle");
+let sentenceSpeechSession: SentenceSpeechSession | null = null;
+let wordBrowserAbort: AbortController | null = null;
+let fullTextBrowserAbort: AbortController | null = null;
+let wordAudioCancel: (() => void) | null = null;
+// Also invalidates full-text starts waiting for an asynchronous history save.
+let speechIntent = 0;
+const readingRuns = computed(() => buildReadingRuns(segments.value, sentences.value));
+const sentenceSpeechDisabled = computed(() =>
+  sourceText.value.trim() !== readingSnapshot.value || fullTextSpeechDisabled.value);
 const selectedSegmentId = ref("");
 const currentWord = ref<string>(copy.state.currentWordEmpty);
 const meaning = ref<string>(copy.state.meaningHint);
@@ -364,7 +380,7 @@ function bumpDefaultTextRunCount(current: number): void {
 
 const wordCount = computed(() => segments.value.filter((segment) => segment.type === "word").length);
 const wordCountLabel = computed(() => copy.computed.wordCount(wordCount.value));
-const isSpeaking = computed(() => isWordSpeaking.value || isFullTextSpeaking.value);
+const isSpeaking = computed(() => isWordSpeaking.value || isFullTextSpeaking.value || sentenceSpeechState.value !== "idle");
 const historyStats = computed(() => {
   const clickTotal = historyRecords.value.reduce((sum, record) => sum + record.count, 0);
   return {
@@ -2303,6 +2319,10 @@ function browserSpeechRate(): number {
 
 function cancelWordSpeech(): void {
   wordSpeechRunId.value += 1;
+  wordBrowserAbort?.abort();
+  wordBrowserAbort = null;
+  wordAudioCancel?.();
+  wordAudioCancel = null;
   if (isBrowserSpeechSupported()) {
     window.speechSynthesis.cancel();
     // Chrome workaround: cancel() 后队列可能残留，用空 utterance 冲刷
@@ -2321,6 +2341,8 @@ function cancelWordSpeech(): void {
 
 function cancelFullTextSpeech(): void {
   fullTextSpeechRunId.value += 1;
+  fullTextBrowserAbort?.abort();
+  fullTextBrowserAbort = null;
   gatewaySpeechSession?.cancel();
   gatewaySpeechSession = null;
   // browser 降级路径也可能在播放，一并取消
@@ -2330,7 +2352,16 @@ function cancelFullTextSpeech(): void {
   isFullTextSpeaking.value = false;
 }
 
+function cancelSentenceSpeech(): void {
+  sentenceSpeechSession?.cancel();
+  sentenceSpeechSession = null;
+  activeSentenceId.value = "";
+  sentenceSpeechState.value = "idle";
+}
+
 function cancelSpeech(message?: string): void {
+  speechIntent += 1;
+  cancelSentenceSpeech();
   cancelWordSpeech();
   cancelFullTextSpeech();
   if (message) {
@@ -2420,64 +2451,15 @@ function cancelYoudaoSpeech(): void {
   youdaoSpeechAudio = null;
 }
 
-function speakWithBrowserOnce(text: string, runId: number): Promise<void> {
-  return new Promise((resolve, reject) => {
-    if (!isBrowserSpeechSupported()) {
-      reject(new Error(copy.speechErrors.browserSpeechUnsupported));
-      return;
-    }
-    if (runId !== wordSpeechRunId.value) {
-      resolve();
-      return;
-    }
-
-    const utterance = new SpeechSynthesisUtterance(text);
-    const selectedVoice = selectEnglishVoice();
-    utterance.lang = selectedVoice?.lang ?? "en-US";
-    utterance.rate = browserSpeechRate();
-    if (selectedVoice) {
-      utterance.voice = selectedVoice;
-    }
-
-    let settled = false;
-    const finish = (error?: Error) => {
-      if (settled) {
-        return;
-      }
-      settled = true;
-      window.clearTimeout(watchdog);
-      window.clearInterval(chromeResumeTimer);
-      utterance.onend = null;
-      utterance.onerror = null;
-      if (error) {
-        reject(error);
-        return;
-      }
-      resolve();
-    };
-
-    const watchdog = window.setTimeout(() => {
-      finish(new Error(copy.speechErrors.browserSpeechNoResponse));
-    }, Math.max(speechPlaybackWatchdogMs, text.length * SPEECH_BROWSER_CHAR_MS));
-
-    // Chrome workaround: 长文本朗读会卡住，定期 resume 防死锁
-    const chromeResumeTimer = window.setInterval(() => {
-      try {
-        if (window.speechSynthesis.paused) {
-          window.speechSynthesis.resume();
-        }
-      } catch {
-        // ignore
-      }
-    }, 14000);
-
-    utterance.onend = () => finish();
-    utterance.onerror = (event) => {
-      const reason = event.error ? `：${event.error}` : "";
-      finish(new Error(copy.speechErrors.browserSpeechFailed(reason)));
-    };
-    window.speechSynthesis.speak(utterance);
-  });
+async function speakWithBrowserOnce(text: string, runId: number): Promise<void> {
+  if (runId !== wordSpeechRunId.value) return;
+  const controller = new AbortController();
+  wordBrowserAbort = controller;
+  try {
+    await playBrowserSpeech(text, { signal: controller.signal, voice: selectEnglishVoice(), rate: browserSpeechRate() });
+  } finally {
+    if (wordBrowserAbort === controller) wordBrowserAbort = null;
+  }
 }
 
 function speakWithYoudaoOnce(text: string, runId: number): Promise<void> {
@@ -2503,6 +2485,7 @@ function speakWithYoudaoOnce(text: string, runId: number): Promise<void> {
         return;
       }
       settled = true;
+      wordAudioCancel = null;
       window.clearTimeout(watchdog);
       audio.onended = null;
       audio.onerror = null;
@@ -2524,6 +2507,7 @@ function speakWithYoudaoOnce(text: string, runId: number): Promise<void> {
       finish(new Error(copy.speechErrors.fallbackSpeechNoResponse));
     }, Math.max(speechPlaybackWatchdogMs, text.length * SPEECH_YOUDAO_CHAR_MS));
 
+    wordAudioCancel = () => finish();
     audio.onended = () => finish();
     audio.onerror = () => {
       const reason = audio.error?.message ? `：${audio.error.message}` : "";
@@ -2537,6 +2521,7 @@ function speakWithYoudaoOnce(text: string, runId: number): Promise<void> {
 }
 
 function speakWord(text: string, label: string): void {
+  cancelSpeech();
   const phrase = text.trim();
   if (!phrase) {
     status.value = copy.status.noSpeechContent;
@@ -2740,93 +2725,36 @@ function speakFullTextWithBrowser(text: string, label: string): void {
     status.value = copy.status.fullTextSpeechUnavailable;
     return;
   }
-
-  const sentences = splitSentencesForBrowser(text);
-  if (!sentences.length) {
-    status.value = copy.status.noSpeechContent;
-    return;
-  }
-
+  const parts = splitSentencesForBrowser(text);
+  if (!parts.length) return;
   cancelFullTextSpeech();
-  fullTextSpeechRunId.value += 1;
   const runId = fullTextSpeechRunId.value;
+  const controller = new AbortController();
+  fullTextBrowserAbort = controller;
   const total = selectedRepeat.value;
-  let played = 0;
-
   const voice = selectEnglishVoice();
   const rate = browserSpeechRate();
-
-  // Chrome workaround: 定期 resume 防卡住
-  const chromeResumeTimer = window.setInterval(() => {
-    try {
-      if (window.speechSynthesis.paused) {
-        window.speechSynthesis.resume();
+  isFullTextSpeaking.value = true;
+  void (async () => {
+    for (let played = 1; played <= total; played += 1) {
+      if (runId !== fullTextSpeechRunId.value) return;
+      status.value = copy.status.speakingFullText(label, played, total);
+      for (const part of parts) {
+        if (runId !== fullTextSpeechRunId.value) return;
+        try {
+          await playBrowserSpeech(part, { signal: controller.signal, voice, rate });
+        } catch (error) {
+          if (runId !== fullTextSpeechRunId.value) return;
+          console.warn("Browser full-text sentence error:", error);
+        }
       }
-    } catch {
-      // ignore
     }
-  }, 14000);
-
-  const cleanup = () => {
-    window.clearInterval(chromeResumeTimer);
-  };
-
-  const playNext = () => {
-    if (runId !== fullTextSpeechRunId.value) {
-      cleanup();
-      return;
-    }
-    if (played >= total) {
-      cleanup();
+    if (runId === fullTextSpeechRunId.value) {
+      fullTextBrowserAbort = null;
       isFullTextSpeaking.value = false;
       status.value = copy.status.playDone(label, total);
-      return;
     }
-
-    played += 1;
-    isFullTextSpeaking.value = true;
-    status.value = copy.status.speakingFullText(label, played, total);
-
-    let sentenceIndex = 0;
-
-    const speakNextSentence = () => {
-      if (runId !== fullTextSpeechRunId.value) {
-        cleanup();
-        return;
-      }
-      if (sentenceIndex >= sentences.length) {
-        // 本轮完成，进入下一遍
-        playNext();
-        return;
-      }
-
-      const sentence = sentences[sentenceIndex];
-      sentenceIndex += 1;
-      const utterance = new SpeechSynthesisUtterance(sentence);
-      utterance.lang = voice?.lang ?? "en-US";
-      utterance.rate = rate;
-      if (voice) {
-        utterance.voice = voice;
-      }
-
-      utterance.onend = () => speakNextSentence();
-      utterance.onerror = (event) => {
-        if (runId !== fullTextSpeechRunId.value) {
-          cleanup();
-          return;
-        }
-        // 单句失败不中断整篇，跳到下一句
-        console.warn("Browser full-text sentence error:", event.error);
-        speakNextSentence();
-      };
-
-      window.speechSynthesis.speak(utterance);
-    };
-
-    speakNextSentence();
-  };
-
-  playNext();
+  })();
 }
 
 function speakFullTextWithGateway(text: string, label: string): void {
@@ -2894,6 +2822,7 @@ function speakFullTextWithGateway(text: string, label: string): void {
         if (runId !== fullTextSpeechRunId.value || isGatewaySpeechCancelError(error)) {
           return;
         }
+        session.cancel();
         gatewaySpeechSession = null;
         if (error instanceof Error && error.message.includes(copy.speechErrors.gatewayNotStartedNeedle)) {
           isGatewayRunning.value = false;
@@ -2915,12 +2844,20 @@ function speakFullTextWithGateway(text: string, label: string): void {
 }
 
 function splitWords(options: { announce?: boolean; recordTextHistory?: boolean } = {}): void {
+  // Article loading can split immediately after the source watcher queued a split.
+  // Do not let that stale timer interrupt playback started on the new article.
+  if (splitWordsTimer !== null) {
+    window.clearTimeout(splitWordsTimer);
+    splitWordsTimer = null;
+  }
   const announce = options.announce ?? false;
   const recordTextHistory = options.recordTextHistory ?? true;
-  cancelWordSpeech();
+  cancelSpeech();
   cancelLookup();
   hideWordPopover();
   const text = sourceText.value.trim();
+  readingSnapshot.value = text;
+  sentences.value = [];
   if (!text) {
     clearScheduledTextHistorySave();
     segments.value = [];
@@ -2932,16 +2869,6 @@ function splitWords(options: { announce?: boolean; recordTextHistory?: boolean }
   }
 
   const matches = Array.from(text.matchAll(wordPattern));
-  if (!matches.length) {
-    clearScheduledTextHistorySave();
-    segments.value = [];
-    selectedSegmentId.value = "";
-    if (announce) {
-      status.value = copy.status.noEnglishWordsFound;
-    }
-    return;
-  }
-
   const nextSegments: Segment[] = [];
   let lastPosition = 0;
   const appendTextSegments = (text: string, id: string): void => {
@@ -3002,6 +2929,7 @@ function splitWords(options: { announce?: boolean; recordTextHistory?: boolean }
   }
 
   segments.value = nextSegments;
+  sentences.value = indexReadingSentences(text, nextSegments);
   selectedSegmentId.value = "";
   currentWord.value = copy.state.currentWordEmpty;
   meaning.value = copy.state.meaningHint;
@@ -3029,7 +2957,7 @@ function extractSentenceContext(segment: Extract<Segment, { type: "word" }>): st
   const segmentText = (item: Segment): string => item.type === "word" ? `${item.text}${item.trailingText ?? ""}` : item.text;
   const startOffset = segments.value.slice(0, targetIndex).reduce((sum, item) => sum + segmentText(item).length, 0);
   const endOffset = startOffset + segment.text.length;
-  const text = sourceText.value;
+  const text = readingSnapshot.value;
   const leftText = text.slice(0, startOffset);
   const leftMatch = Math.max(leftText.lastIndexOf("."), leftText.lastIndexOf("!"), leftText.lastIndexOf("?"), leftText.lastIndexOf("\n"));
   const rightText = text.slice(endOffset);
@@ -3114,6 +3042,47 @@ async function studyWord(segment: Extract<Segment, { type: "word" }>, event: Mou
   });
 }
 
+async function readSentence(sentenceId: string): Promise<void> {
+  if (activeSentenceId.value === sentenceId) {
+    cancelSpeech(copy.status.stoppedSpeech);
+    return;
+  }
+  if (sentenceSpeechDisabled.value) return;
+  const sentence = sentences.value.find((item) => item.id === sentenceId);
+  if (!sentence) return;
+  cancelSpeech();
+  cancelLookup();
+  hideWordPopover();
+  const session = new SentenceSpeechSession();
+  sentenceSpeechSession = session;
+  activeSentenceId.value = sentence.id;
+  sentenceSpeechState.value = "preparing";
+  status.value = "正在准备本句朗读…";
+  const isCurrent = () => sentenceSpeechSession === session;
+  try {
+    await session.speak(sentence.text, {
+      useGateway: isGatewayRunning.value,
+      gatewayVoice: selectedGatewayVoice.value,
+      gatewayRate: selectedRate.value,
+      browserVoice: selectEnglishVoice(),
+      browserRate: browserSpeechRate(),
+      onPlaying: () => {
+        if (!isCurrent()) return;
+        sentenceSpeechState.value = "playing";
+        status.value = "正在朗读本句，点击句末按钮可停止。";
+      },
+      onFallback: () => {
+        if (isCurrent()) status.value = "本地语音暂不可用，正在使用浏览器朗读本句。";
+      },
+    });
+    if (isCurrent()) status.value = "本句朗读完成，可再次点击重读。";
+  } catch (error) {
+    if (isCurrent()) status.value = `本句朗读失败：${formatSpeechError(error)}；可再次点击重试。`;
+  } finally {
+    if (isCurrent()) cancelSentenceSpeech();
+  }
+}
+
 async function readFullText(): Promise<void> {
   const text = sourceText.value.trim();
   if (!text) {
@@ -3127,12 +3096,16 @@ async function readFullText(): Promise<void> {
     return;
   }
 
+  cancelSpeech();
+  const intent = speechIntent;
+  isFullTextSpeaking.value = true;
   cancelLookup();
   hideWordPopover();
   selectedSegmentId.value = "";
   currentWord.value = copy.template.readFullText;
   meaning.value = copy.status.preparingFullTextSpeech(copy.template.readFullText);
   await saveCurrentTextHistory({ announce: false });
+  if (intent !== speechIntent) return;
 
   if (isGatewayRunning.value) {
     // gateway 可用，优先走 gateway（失败时内部会自动降级到 browser）
@@ -3144,6 +3117,8 @@ async function readFullText(): Promise<void> {
 }
 
 watch(sourceText, () => {
+  cancelSpeech();
+  sentences.value = [];
   if (!sourceTextHydrating) {
     sourceTextTouched = true;
     if (sourceText.value.trim() !== defaultText.trim()) {
@@ -3157,10 +3132,12 @@ watch(sourceText, () => {
     }
   }
   scheduleSplitWords();
-});
+}, { flush: "sync" });
+watch(activeView, () => cancelSpeech(), { flush: "sync" });
 watch([selectedRate, selectedRepeat, selectedTranslateMode, markLearned, selectedBrowserVoiceUri, selectedGatewayVoice], persistCurrentSettings);
 
 function handlePageHide(): void {
+  cancelSpeech();
   void saveCurrentTextHistory({ announce: false });
 }
 
@@ -3228,6 +3205,7 @@ onBeforeUnmount(() => {
     logoMarkUrl, wordTapWindowsDownloadUrl,
     gatewayDownloadUrl, gatewayReleaseManifestUrl, examNotice,
     // Refs
+    sentences, readingRuns, activeSentenceId, sentenceSpeechState, sentenceSpeechDisabled, readSentence,
     sourceText, segments, selectedSegmentId, currentWord, meaning, status,
     dictionaryInfo, selectedRate, selectedRepeat, selectedTranslateMode,
     isWordSpeaking, isFullTextSpeaking, browserSpeechSupported, isGatewayRunning,

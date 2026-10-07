@@ -61,6 +61,7 @@ export class GatewaySpeechSession {
   private audio: HTMLAudioElement | null = null;
   private objectUrl = "";
   private cancelled = false;
+  private finishPlayback: ((error?: Error) => void) | null = null;
 
   async speak(text: string, options: GatewaySpeechOptions = {}): Promise<void> {
     this.cancelled = false;
@@ -113,6 +114,7 @@ export class GatewaySpeechSession {
 
   cancel(): void {
     this.cancelled = true;
+    this.finishPlayback?.(new GatewaySpeechCancelledError());
     for (const controller of this.abortControllers) {
       controller.abort();
     }
@@ -151,6 +153,7 @@ export class GatewaySpeechSession {
       gatewaySpeechEngineVersion,
     ]);
     const cachedAudio = await getCachedAudio(cacheKey).catch(() => undefined);
+    this.throwIfCancelled();
     if (cachedAudio?.blob?.size) {
       options.onProgress?.({
         phase: "cache-hit",
@@ -165,7 +168,7 @@ export class GatewaySpeechSession {
     this.abortControllers.add(abortController);
     options.onProgress?.({ phase: "connecting", chunkIndex, chunkCount });
 
-    let response: Response;
+    let response: Response | undefined;
     try {
       response = await fetch(`${localGatewayBaseUrl}/v1/recipes/speech`, {
         method: "POST",
@@ -181,26 +184,24 @@ export class GatewaySpeechSession {
         }),
         signal: abortController.signal,
       });
+      this.throwIfCancelled();
+      if (!response.ok) throw new Error(await readErrorMessage(response));
+      const audio = await response.blob();
+      this.throwIfCancelled();
+      options.onProgress?.({ phase: "receiving", audioBytes: audio.size, chunkIndex, chunkCount });
+      void putCachedAudio(cacheKey, audio, gatewaySpeechEngineVersion).catch(() => {
+        // Audio cache is best-effort, including when storage is full or blocked.
+      });
+      return audio;
     } catch (error) {
       if (isGatewaySpeechCancelError(error)) {
         throw error;
       }
+      if (response) throw error;
       throw new Error(siteCopy.gatewaySpeech.gatewayNotStarted);
     } finally {
       this.abortControllers.delete(abortController);
     }
-
-    this.throwIfCancelled();
-    if (!response.ok) {
-      throw new Error(await readErrorMessage(response));
-    }
-
-    const audio = await response.blob();
-    options.onProgress?.({ phase: "receiving", audioBytes: audio.size, chunkIndex, chunkCount });
-    void putCachedAudio(cacheKey, audio, gatewaySpeechEngineVersion).catch(() => {
-      // Audio cache is an optimization; playback should not fail if storage is full or blocked.
-    });
-    return audio;
   }
 
   private async play(
@@ -224,23 +225,32 @@ export class GatewaySpeechSession {
         return;
       }
 
-      this.audio.onended = () => {
+      const audio = this.audio;
+      let settled = false;
+      const finish = (error?: Error) => {
+        if (settled) return;
+        settled = true;
+        audio.onended = null;
+        audio.onerror = null;
+        this.finishPlayback = null;
         this.releaseAudio();
-        resolve();
+        if (error) reject(error); else resolve();
       };
-      this.audio.onerror = () => {
-        this.releaseAudio();
-        reject(new Error(siteCopy.gatewaySpeech.audioPlaybackFailed));
-      };
-
-      this.audio.play().catch((error: unknown) => {
-        this.releaseAudio();
-        reject(error instanceof Error ? error : new Error(siteCopy.gatewaySpeech.audioPlaybackFailed));
+      this.finishPlayback = finish;
+      audio.onended = () => finish();
+      audio.onerror = () => finish(new Error(siteCopy.gatewaySpeech.audioPlaybackFailed));
+      audio.play().catch((error: unknown) => {
+        finish(error instanceof Error ? error : new Error(siteCopy.gatewaySpeech.audioPlaybackFailed));
       });
     });
   }
 
   private releaseAudio(): void {
+    if (this.audio) {
+      this.audio.pause();
+      this.audio.removeAttribute("src");
+      this.audio.load();
+    }
     this.audio = null;
     if (this.objectUrl) {
       URL.revokeObjectURL(this.objectUrl);
