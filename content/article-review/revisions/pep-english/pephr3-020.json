@@ -60,24 +60,45 @@
   },
   "sources": [
     {
-      "path": "content/pep-english/raw/senior-required-3.pdf",
-      "locator": "PDF第71-71页，标题与完整正文逐行核对",
+      "path": "content/article-review/history/e298d48b963b07ca3665b9a99f420d819d249e02053b5fff5bb3fe6979cc4f1f.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
       "checked": true,
-      "sha256": "fe9c8e15e62f4aec56efc60b8de43f4a55d40f3114d6505affaef78a8b7a1af2"
-    },
-    {
-      "path": "content/pep-english/raw/senior-required-3/senior-required-3_71.jpg",
-      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
-      "checked": true,
-      "sha256": "846612e525304f94064f3b11ebb9017ed2b8ca10a3b77a83ee7dc088850ea169"
+      "sha256": "1316c8112fc66f02bf043bd91f68b2d0d5fe65926ebf2f67fa867f22c78f7e4e"
     }
   ],
   "corrections": [],
   "fullReadConfirmed": true,
   "recheckConfirmed": true,
   "reviewer": "Codex",
-  "reviewedAt": "2026-10-02T05:59:09+00:00",
-  "notes": "通读PDF第71页四段春节说明文，节前扫尘春联年夜饭、鱼余谐音、红包拜年礼物和舞龙舞狮完整；第二段虽长但确为原页单段，保留原逻辑及拼音祝福语。",
+  "reviewedAt": "2026-10-07T07:32:21+00:00",
+  "notes": "春节介绍按总介、节前准备团圆、年内活动、文化意义四段，保留多句完整说明。",
   "issues": [],
-  "status": "passed_unchanged"
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "a10f564a2fda63de9ca81d5d34fe929097fd642124340dc115c266ebf11355c5",
+    "afterFileSha256": "a10f564a2fda63de9ca81d5d34fe929097fd642124340dc115c266ebf11355c5",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "a10f564a2fda63de9ca81d5d34fe929097fd642124340dc115c266ebf11355c5",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..3] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "春节介绍按总介、节前准备团圆、年内活动、文化意义四段，保留多句完整说明。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/e298d48b963b07ca3665b9a99f420d819d249e02053b5fff5bb3fe6979cc4f1f.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "1316c8112fc66f02bf043bd91f68b2d0d5fe65926ebf2f67fa867f22c78f7e4e"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "e298d48b963b07ca3665b9a99f420d819d249e02053b5fff5bb3fe6979cc4f1f"
 }

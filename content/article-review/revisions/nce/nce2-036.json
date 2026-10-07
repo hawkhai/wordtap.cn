@@ -2,76 +2,9 @@
   "schemaVersion": 1,
   "course": "nce",
   "articleId": "nce2-036",
-  "beforeDisplaySha256": "38f83367d54ea3616c56d2d6cf1baf85c00a66babe4b6af9ca2ce885f4901211",
-  "afterDisplaySha256": "2c1c93c7a80dce9d9c9ce50fdc4ad1fc14fbab941141667a7059404565ad694b",
+  "beforeDisplaySha256": "2c1c93c7a80dce9d9c9ce50fdc4ad1fc14fbab941141667a7059404565ad694b",
+  "afterDisplaySha256": "814f71081690fb59c3d2812fe62bf86c8758c7de2b16be665f7c6631bc2fb3c3",
   "baselineDisplay": {
-    "title": "Across the Channel",
-    "titleZh": "越过英吉利海峡",
-    "question": "What is Debbie going to try to do?",
-    "questionZh": "黛比打算做什么呢？",
-    "text": "What is Debbie going to try to do?\n\nDebbie Hart is going to swim across the English Channel tomorrow.\nShe is going to set out from the French coast at five o'clock in the morning.\nDebbie is only eleven years old and she hopes to set up a new world record.\nShe is a strong swimmer and many people feel that she is sure to succeed.\nDebbie's father will set out with her in a small boat.\nMr. Hart has trained his daughter for years.\nTomorrow he will be watching her anxiously as she swims the long distance to England.\nDebbie intends to take short rests every two hours.\nShe will have something to drink but she will not eat any solid food.\nMost of Debbie's school friends will be waiting for her on the English coast.\nAmong them will be Debbie's mother, who swam the Channel herself when she was a girl.",
-    "bodyText": "Debbie Hart is going to swim across the English Channel tomorrow.\nShe is going to set out from the French coast at five o'clock in the morning.\nDebbie is only eleven years old and she hopes to set up a new world record.\nShe is a strong swimmer and many people feel that she is sure to succeed.\nDebbie's father will set out with her in a small boat.\nMr. Hart has trained his daughter for years.\nTomorrow he will be watching her anxiously as she swims the long distance to England.\nDebbie intends to take short rests every two hours.\nShe will have something to drink but she will not eat any solid food.\nMost of Debbie's school friends will be waiting for her on the English coast.\nAmong them will be Debbie's mother, who swam the Channel herself when she was a girl.",
-    "bodyTextZh": "黛比·哈特明天将游泳横渡英吉利海峡。\n她将于早上五点从法国海岸出发。\n黛比只有十一岁。她希望能够创造一项新的世界纪录。\n她是个游泳健将，很多人都认为她一定会成功。\n黛比的父亲将乘一艘小船陪她一起出发。\n哈特先生多年来一直在训练他的女儿。\n明天，当她长途游向英格兰时，他会焦急地注视着她。\n黛比打算每两小时休息一会儿。\n她会喝点东西，但不会吃任何固体食物。\n黛比的大多数同学都会在英格兰的海岸边等待着她。\n其中会有黛比的母亲，她在少女时代也曾亲自游过英吉利海峡。",
-    "sentences": [
-      {
-        "en": "Lesson 36",
-        "zh": "第 36 课"
-      },
-      {
-        "en": "Across the Channel",
-        "zh": "越过英吉利海峡"
-      },
-      {
-        "en": "What is Debbie going to try to do?",
-        "zh": "黛比打算做什么呢？"
-      },
-      {
-        "en": "Debbie Hart is going to swim across the English Channel tomorrow.",
-        "zh": "黛比·哈特明天将游泳横渡英吉利海峡。"
-      },
-      {
-        "en": "She is going to set out from the French coast at five o'clock in the morning.",
-        "zh": "她将于早上五点从法国海岸出发。"
-      },
-      {
-        "en": "Debbie is only eleven years old and she hopes to set up a new world record.",
-        "zh": "黛比只有十一岁。她希望能够创造一项新的世界纪录。"
-      },
-      {
-        "en": "She is a strong swimmer and many people feel that she is sure to succeed.",
-        "zh": "她是个游泳健将，很多人都认为她一定会成功。"
-      },
-      {
-        "en": "Debbie's father will set out with her in a small boat.",
-        "zh": "黛比的父亲将乘一艘小船陪她一起出发。"
-      },
-      {
-        "en": "Mr. Hart has trained his daughter for years.",
-        "zh": "哈特先生多年来一直在训练他的女儿。"
-      },
-      {
-        "en": "Tomorrow he will be watching her anxiously as she swims the long distance to England.",
-        "zh": "明天，当她长途游向英格兰时，他会焦急地注视着她。"
-      },
-      {
-        "en": "Debbie intends to take short rests every two hours.",
-        "zh": "黛比打算每两小时休息一会儿。"
-      },
-      {
-        "en": "She will have something to drink but she will not eat any solid food.",
-        "zh": "她会喝点东西，但不会吃任何固体食物。"
-      },
-      {
-        "en": "Most of Debbie's school friends will be waiting for her on the English coast.",
-        "zh": "黛比的大多数同学都会在英格兰的海岸边等待着她。"
-      },
-      {
-        "en": "Among them will be Debbie's mother, who swam the Channel herself when she was a girl.",
-        "zh": "其中会有黛比的母亲，她在少女时代也曾亲自游过英吉利海峡。"
-      }
-    ]
-  },
-  "display": {
     "title": "Across the Channel",
     "titleZh": "越过英吉利海峡",
     "question": "What is Debbie going to try to do?",
@@ -138,40 +71,119 @@
       }
     ]
   },
+  "display": {
+    "title": "Across the Channel",
+    "titleZh": "越过英吉利海峡",
+    "question": "What is Debbie going to try to do?",
+    "questionZh": "黛比打算做什么呢？",
+    "text": "What is Debbie going to try to do?\n\nDebbie Hart is going to swim across the English Channel tomorrow. She is going to set out from the French coast at five o'clock in the morning. Debbie is only eleven years old and she hopes to set up a new world record. She is a strong swimmer and many people feel that she is sure to succeed.\nDebbie's father will set out with her in a small boat. Mr. Hart has trained his daughter for years. Tomorrow he will be watching her anxiously as she swims the long distance to England.\nDebbie intends to take short rests every two hours. She will have something to drink but she will not eat any solid food.\nMost of Debbie's school friends will be waiting for her on the English coast. Among them will be Debbie's mother, who swam the Channel herself when she was a girl.",
+    "bodyText": "Debbie Hart is going to swim across the English Channel tomorrow. She is going to set out from the French coast at five o'clock in the morning. Debbie is only eleven years old and she hopes to set up a new world record. She is a strong swimmer and many people feel that she is sure to succeed.\nDebbie's father will set out with her in a small boat. Mr. Hart has trained his daughter for years. Tomorrow he will be watching her anxiously as she swims the long distance to England.\nDebbie intends to take short rests every two hours. She will have something to drink but she will not eat any solid food.\nMost of Debbie's school friends will be waiting for her on the English coast. Among them will be Debbie's mother, who swam the Channel herself when she was a girl.",
+    "bodyTextZh": "黛比·哈特将要游泳横渡英吉利海峡。她将从法国海岸出发。早上五点。黛比只有十一岁。她希望能够创造一项新的世界纪录。她是个游泳健将，很多人都认为她一定会成功。\n黛比的父亲会和她一起出发。乘坐一艘小船。哈特先生多年来一直在训练他的女儿。明天，他会焦急地注视着她。当她游向遥远的英格兰时。\n黛比打算每两小时休息一会儿。她会喝点东西但她不吃任何固体食物。\n黛比的大多数同学都会在英格兰的海岸边等待着她。其中会包括黛比的母亲。她自己也曾经游过英吉利海峡当她还是个女孩的时候。",
+    "sentences": [
+      {
+        "en": "Lesson 36",
+        "zh": "第 36 课"
+      },
+      {
+        "en": "Across the Channel",
+        "zh": "越过英吉利海峡"
+      },
+      {
+        "en": "What is Debbie going to try to do?",
+        "zh": "黛比打算做什么呢？"
+      },
+      {
+        "en": "Debbie Hart is going to swim across the English Channel tomorrow.",
+        "zh": "黛比·哈特将要游泳横渡英吉利海峡。"
+      },
+      {
+        "en": "She is going to set out from the French coast at five o'clock in the morning.",
+        "zh": "她将从法国海岸出发。早上五点。"
+      },
+      {
+        "en": "Debbie is only eleven years old and she hopes to set up a new world record.",
+        "zh": "黛比只有十一岁。她希望能够创造一项新的世界纪录。"
+      },
+      {
+        "en": "She is a strong swimmer and many people feel that she is sure to succeed.",
+        "zh": "她是个游泳健将，很多人都认为她一定会成功。"
+      },
+      {
+        "en": "Debbie's father will set out with her in a small boat.",
+        "zh": "黛比的父亲会和她一起出发。乘坐一艘小船。"
+      },
+      {
+        "en": "Mr. Hart has trained his daughter for years.",
+        "zh": "哈特先生多年来一直在训练他的女儿。"
+      },
+      {
+        "en": "Tomorrow he will be watching her anxiously as she swims the long distance to England.",
+        "zh": "明天，他会焦急地注视着她。当她游向遥远的英格兰时。"
+      },
+      {
+        "en": "Debbie intends to take short rests every two hours.",
+        "zh": "黛比打算每两小时休息一会儿。"
+      },
+      {
+        "en": "She will have something to drink but she will not eat any solid food.",
+        "zh": "她会喝点东西但她不吃任何固体食物。"
+      },
+      {
+        "en": "Most of Debbie's school friends will be waiting for her on the English coast.",
+        "zh": "黛比的大多数同学都会在英格兰的海岸边等待着她。"
+      },
+      {
+        "en": "Among them will be Debbie's mother, who swam the Channel herself when she was a girl.",
+        "zh": "其中会包括黛比的母亲。她自己也曾经游过英吉利海峡当她还是个女孩的时候。"
+      }
+    ]
+  },
   "sources": [
     {
-      "path": "content/NCE-Flow/NCE2/36－Across the Channel.lrc",
-      "locator": "完整LRC元数据、标题、问题和全部中英字幕，校勘位置见逐项证据",
+      "path": "content/article-review/history/ac049ee642fa3b0d5e0352d8c76ce421105e65fc432c6e924a5d3800a6830824.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
       "checked": true,
-      "sha256": "9d71972b4473e5145e3f728a40e7cfd34db41a96247620c9601416248fda984a"
-    },
-    {
-      "path": "content/article-review/cleanup-2026-10-06.json",
-      "sha256": "cea27c1c69e32939ff83196bd29cce9a128d8d0d6f248611217179e037971889",
-      "locator": "public/nce/lessons/nce2/036.json",
-      "checked": true
+      "sha256": "3121d4ada8cf4c074da27e8b6b502c5916d6bca6dec65c4649707619d6d55cc9"
     }
   ],
-  "corrections": [
-    {
-      "field": "bodyTextZh",
-      "before": "黛比·哈特明天将游泳横渡英吉利海峡。\n她将于早上五点从法国海岸出发。\n黛比只有十一岁。她希望能够创造一项新的世界纪录。\n她是个游泳健将，很多人都认为她一定会成功。\n黛比的父亲将乘一艘小船陪她一起出发。\n哈特先生多年来一直在训练他的女儿。\n明天，当她长途游向英格兰时，他会焦急地注视着她。\n黛比打算每两小时休息一会儿。\n她会喝点东西，但不会吃任何固体食物。\n黛比的大多数同学都会在英格兰的海岸边等待着她。\n其中会有黛比的母亲，她在少女时代也曾亲自游过英吉利海峡。",
-      "after": "黛比·哈特将要游泳横渡英吉利海峡。\n她将从法国海岸出发。早上五点。\n黛比只有十一岁。她希望能够创造一项新的世界纪录。\n她是个游泳健将，很多人都认为她一定会成功。\n黛比的父亲会和她一起出发。乘坐一艘小船。\n哈特先生多年来一直在训练他的女儿。\n明天，他会焦急地注视着她。当她游向遥远的英格兰时。\n黛比打算每两小时休息一会儿。\n她会喝点东西但她不吃任何固体食物。\n黛比的大多数同学都会在英格兰的海岸边等待着她。\n其中会包括黛比的母亲。她自己也曾经游过英吉利海峡当她还是个女孩的时候。",
-      "evidence": "User-directed source-fidelity restoration; content/article-review/cleanup-2026-10-06.json"
-    }
-  ],
-  "fullReadConfirmed": false,
-  "recheckConfirmed": false,
-  "reviewMode": "source-fidelity-rules-v1",
-  "reviewer": "Codex (user-directed restoration)",
-  "reviewedAt": "2026-10-05T17:15:10+00:00",
-  "notes": "Rule-based restoration; original full-read review remains historical. content/article-review/cleanup-2026-10-06.json",
+  "corrections": [],
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "reviewer": "Codex",
+  "reviewedAt": "2026-10-07T07:50:54+00:00",
+  "notes": "Debbie横渡；年龄出发及目标、父亲伴随、休息饮食安排、同学母亲迎接四段。 text与bodyText同步；sentences对象及时间、角色、索引原样保留。",
   "issues": [],
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "b0e35aaa32856690e001823175a1e94755d383cafd1f4320ba1b4b9705241bad",
+    "afterFileSha256": "7f21e0441466829338389c7ca1abe6ec2eec25f6049c8890c30b8da4c26df9a1",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "b0e35aaa32856690e001823175a1e94755d383cafd1f4320ba1b4b9705241bad",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title/titleZh、question/questionZh、bodyText全部11行、bodyTextZh全部11行及sentences[0..13]的完整文字；重复正文与字幕文本逐字比对，非正文字幕另读。操作在内存应用并validate_layout_change，修复后的双语全文重新通读。",
+      "notes": "Debbie横渡；年龄出发及目标、父亲伴随、休息饮食安排、同学母亲迎接四段。 text与bodyText同步；sentences对象及时间、角色、索引原样保留。",
+      "issues": [],
+      "display": {
+        "text": "What is Debbie going to try to do?\n\nDebbie Hart is going to swim across the English Channel tomorrow. She is going to set out from the French coast at five o'clock in the morning. Debbie is only eleven years old and she hopes to set up a new world record. She is a strong swimmer and many people feel that she is sure to succeed.\nDebbie's father will set out with her in a small boat. Mr. Hart has trained his daughter for years. Tomorrow he will be watching her anxiously as she swims the long distance to England.\nDebbie intends to take short rests every two hours. She will have something to drink but she will not eat any solid food.\nMost of Debbie's school friends will be waiting for her on the English coast. Among them will be Debbie's mother, who swam the Channel herself when she was a girl.",
+        "bodyText": "Debbie Hart is going to swim across the English Channel tomorrow. She is going to set out from the French coast at five o'clock in the morning. Debbie is only eleven years old and she hopes to set up a new world record. She is a strong swimmer and many people feel that she is sure to succeed.\nDebbie's father will set out with her in a small boat. Mr. Hart has trained his daughter for years. Tomorrow he will be watching her anxiously as she swims the long distance to England.\nDebbie intends to take short rests every two hours. She will have something to drink but she will not eat any solid food.\nMost of Debbie's school friends will be waiting for her on the English coast. Among them will be Debbie's mother, who swam the Channel herself when she was a girl.",
+        "bodyTextZh": "黛比·哈特将要游泳横渡英吉利海峡。她将从法国海岸出发。早上五点。黛比只有十一岁。她希望能够创造一项新的世界纪录。她是个游泳健将，很多人都认为她一定会成功。\n黛比的父亲会和她一起出发。乘坐一艘小船。哈特先生多年来一直在训练他的女儿。明天，他会焦急地注视着她。当她游向遥远的英格兰时。\n黛比打算每两小时休息一会儿。她会喝点东西但她不吃任何固体食物。\n黛比的大多数同学都会在英格兰的海岸边等待着她。其中会包括黛比的母亲。她自己也曾经游过英吉利海峡当她还是个女孩的时候。"
+      },
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/ac049ee642fa3b0d5e0352d8c76ce421105e65fc432c6e924a5d3800a6830824.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "3121d4ada8cf4c074da27e8b6b502c5916d6bca6dec65c4649707619d6d55cc9"
+        }
+      ]
+    }
+  },
   "status": "passed_edited",
-  "previousRevisionSha256": "1856b443f841ec024c5e4417e810b0e67c4f7de70ddb1f11a8b534fc6657fe50",
-  "ruleRestoration": {
-    "policy": "source-fidelity-rules-v1",
-    "report": "content/article-review/cleanup-2026-10-06.json",
-    "reportSha256": "cea27c1c69e32939ff83196bd29cce9a128d8d0d6f248611217179e037971889"
-  }
+  "previousRevisionSha256": "ac049ee642fa3b0d5e0352d8c76ce421105e65fc432c6e924a5d3800a6830824"
 }

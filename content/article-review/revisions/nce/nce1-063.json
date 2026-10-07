@@ -2,116 +2,9 @@
   "schemaVersion": 1,
   "course": "nce",
   "articleId": "nce1-063",
-  "beforeDisplaySha256": "3a7890ab88aa15b89a6295452c88892d3fc19cc1f4d0ba017bad4975ab3a39ea",
-  "afterDisplaySha256": "fd3c37892bf2378260334f955034fb0873be92bba77b86a86a7983922e0b98cd",
+  "beforeDisplaySha256": "fd3c37892bf2378260334f955034fb0873be92bba77b86a86a7983922e0b98cd",
+  "afterDisplaySha256": "68242cacc35a786a30a13138ba300ae514bdcc1f97e66ffe6243a1e355df187e",
   "baselineDisplay": {
-    "title": "Thank You, Doctor.",
-    "titleZh": "谢谢您，医生。",
-    "question": "Who else is in bed today? Why?",
-    "questionZh": "今天还有谁在床上？为什么？",
-    "text": "Who else is in bed today? Why?\n\nHow's Jimmy today?\nBetter.\nThank you, doctor.\nCan I see him please, Mrs. Williams?\nCertainly, doctor.\nCome upstairs.\nYou look very well, Jimmy.\nYou are better now, but you mustn't get up yet.\nYou must stay in bed for another two days.\nThe boy mustn't go to school yet, Mrs. Williams.\nAnd he mustn't eat rich food.\nDoes he have a temperature, doctor?\nNo, he doesn't.\nMust he stay in bed?\nYes. He must remain in bed for another two days.\nHe can get up for about two hours each day, but you must keep the room warm.\nWhere's Mr. Williams this evening?\nHe's in bed, doctor.\nCan you see him please?\nHe has a bad cold, too!",
-    "bodyText": "How's Jimmy today?\nBetter.\nThank you, doctor.\nCan I see him please, Mrs. Williams?\nCertainly, doctor.\nCome upstairs.\nYou look very well, Jimmy.\nYou are better now, but you mustn't get up yet.\nYou must stay in bed for another two days.\nThe boy mustn't go to school yet, Mrs. Williams.\nAnd he mustn't eat rich food.\nDoes he have a temperature, doctor?\nNo, he doesn't.\nMust he stay in bed?\nYes. He must remain in bed for another two days.\nHe can get up for about two hours each day, but you must keep the room warm.\nWhere's Mr. Williams this evening?\nHe's in bed, doctor.\nCan you see him please?\nHe has a bad cold, too!",
-    "bodyTextZh": "Jimmy今天怎么样？\n更好了。\n谢谢您，医生。\n请问威廉姆斯夫人，我能见见他吗？\n当然可以，医生。\n上来吧。\n你看起来气色很好，吉米。\n你现在好多了，但还不能起床哦。\n你必须再卧床休息两天。\n这个男孩还不能去上学，威廉姆斯夫人。\n而且他也不能吃油腻的食物。\n医生，他发烧了吗？\n没有，他没有发烧。\n他必须继续卧床吗？\n是的，他必须再卧床两天。\n他每天可以起来大约两个小时，但你们必须保持房间温暖。\n威廉姆斯先生今晚在哪儿？\n他也在床上，医生。\n您能去看看他吗？\n他也得了重感冒！",
-    "sentences": [
-      {
-        "en": "Lesson 63",
-        "zh": "第63课"
-      },
-      {
-        "en": "Thank you, doctor.",
-        "zh": "谢谢您，医生。"
-      },
-      {
-        "en": "Listen to the tape then answer this question.",
-        "zh": "先听这段录音，然后再回答这个问题。"
-      },
-      {
-        "en": "Who else is in bed today? Why?",
-        "zh": "今天还有谁在床上？为什么？"
-      },
-      {
-        "en": "How's Jimmy today?",
-        "zh": "Jimmy今天怎么样？"
-      },
-      {
-        "en": "Better.",
-        "zh": "更好了。"
-      },
-      {
-        "en": "Thank you, doctor.",
-        "zh": "谢谢您，医生。"
-      },
-      {
-        "en": "Can I see him please, Mrs. Williams?",
-        "zh": "请问威廉姆斯夫人，我能见见他吗？"
-      },
-      {
-        "en": "Certainly, doctor.",
-        "zh": "当然可以，医生。"
-      },
-      {
-        "en": "Come upstairs.",
-        "zh": "上来吧。"
-      },
-      {
-        "en": "You look very well, Jimmy.",
-        "zh": "你看起来气色很好，吉米。"
-      },
-      {
-        "en": "You are better now, but you mustn't get up yet.",
-        "zh": "你现在好多了，但还不能起床哦。"
-      },
-      {
-        "en": "You must stay in bed for another two days.",
-        "zh": "你必须再卧床休息两天。"
-      },
-      {
-        "en": "The boy mustn't go to school yet, Mrs. Williams.",
-        "zh": "这个男孩还不能去上学，威廉姆斯夫人。"
-      },
-      {
-        "en": "And he mustn't eat rich food.",
-        "zh": "而且他也不能吃油腻的食物。"
-      },
-      {
-        "en": "Does he have a temperature, doctor?",
-        "zh": "医生，他发烧了吗？"
-      },
-      {
-        "en": "No, he doesn't.",
-        "zh": "没有，他没有发烧。"
-      },
-      {
-        "en": "Must he stay in bed?",
-        "zh": "他必须继续卧床吗？"
-      },
-      {
-        "en": "Yes. He must remain in bed for another two days.",
-        "zh": "是的，他必须再卧床两天。"
-      },
-      {
-        "en": "He can get up for about two hours each day, but you must keep the room warm.",
-        "zh": "他每天可以起来大约两个小时，但你们必须保持房间温暖。"
-      },
-      {
-        "en": "Where's Mr. Williams this evening?",
-        "zh": "威廉姆斯先生今晚在哪儿？"
-      },
-      {
-        "en": "He's in bed, doctor.",
-        "zh": "他也在床上，医生。"
-      },
-      {
-        "en": "Can you see him please?",
-        "zh": "您能去看看他吗？"
-      },
-      {
-        "en": "He has a bad cold, too!",
-        "zh": "他也得了重感冒！"
-      }
-    ]
-  },
-  "display": {
     "title": "Thank You, Doctor.",
     "titleZh": "谢谢您，医生。",
     "question": "Who else is in bed today? Why?",
@@ -218,20 +111,159 @@
       }
     ]
   },
+  "display": {
+    "title": "Thank You, Doctor.",
+    "titleZh": "谢谢您，医生。",
+    "question": "Who else is in bed today? Why?",
+    "questionZh": "今天还有谁在床上？为什么？",
+    "text": "Who else is in bed today? Why?\n\nHow's Jimmy today?\nBetter. Thank you, doctor.\nCan I see him please, Mrs. Williams?\nCertainly, doctor. Come upstairs.\nYou look very well, Jimmy. You are better now, but you mustn't get up yet. You must stay in bed for another two days.\nThe boy mustn't go to school yet, Mrs. Williams. And he mustn't eat rich food.\nDoes he have a temperature, doctor?\nNo, he doesn't.\nMust he stay in bed?\nYes. He must remain in bed for another two days. He can get up for about two hours each day, but you must keep the room warm.\nWhere's Mr. Williams this evening?\nHe's in bed, doctor. Can you see him please? He has a bad cold, too!",
+    "bodyText": "How's Jimmy today?\nBetter. Thank you, doctor.\nCan I see him please, Mrs. Williams?\nCertainly, doctor. Come upstairs.\nYou look very well, Jimmy. You are better now, but you mustn't get up yet. You must stay in bed for another two days.\nThe boy mustn't go to school yet, Mrs. Williams. And he mustn't eat rich food.\nDoes he have a temperature, doctor?\nNo, he doesn't.\nMust he stay in bed?\nYes. He must remain in bed for another two days. He can get up for about two hours each day, but you must keep the room warm.\nWhere's Mr. Williams this evening?\nHe's in bed, doctor. Can you see him please? He has a bad cold, too!",
+    "bodyTextZh": "Jimmy 今天怎么样？\n更好了。谢谢您，医生。\n请问威廉姆斯夫人，我能见见他吗？\n当然可以，医生。上来吧。\n你看起来气色很好，吉米。你现在好多了，但还不能起床哦。你必须再卧床休息两天。\n这个男孩还不能去上学，威廉姆斯夫人。而且他也不能吃油腻的食物。\n医生，他发烧了吗？\n没有，他没有发烧。\n他必须继续卧床吗？\n是的，他必须再卧床两天。他每天可以起来大约两个小时，但你们必须保持房间温暖。\n威廉姆斯先生今晚在哪儿？\n他也在床上，医生。您能去看看他吗？他也得了重感冒！",
+    "sentences": [
+      {
+        "en": "Lesson 63",
+        "zh": "第 63 课"
+      },
+      {
+        "en": "Thank you, doctor.",
+        "zh": "谢谢您，医生。"
+      },
+      {
+        "en": "Listen to the tape then answer this question.",
+        "zh": "先听这段录音，然后再回答这个问题。"
+      },
+      {
+        "en": "Who else is in bed today? Why?",
+        "zh": "今天还有谁在床上？为什么？"
+      },
+      {
+        "en": "How's Jimmy today?",
+        "zh": "Jimmy 今天怎么样？"
+      },
+      {
+        "en": "Better.",
+        "zh": "更好了。"
+      },
+      {
+        "en": "Thank you, doctor.",
+        "zh": "谢谢您，医生。"
+      },
+      {
+        "en": "Can I see him please, Mrs. Williams?",
+        "zh": "请问威廉姆斯夫人，我能见见他吗？"
+      },
+      {
+        "en": "Certainly, doctor.",
+        "zh": "当然可以，医生。"
+      },
+      {
+        "en": "Come upstairs.",
+        "zh": "上来吧。"
+      },
+      {
+        "en": "You look very well, Jimmy.",
+        "zh": "你看起来气色很好，吉米。"
+      },
+      {
+        "en": "You are better now, but you mustn't get up yet.",
+        "zh": "你现在好多了，但还不能起床哦。"
+      },
+      {
+        "en": "You must stay in bed for another two days.",
+        "zh": "你必须再卧床休息两天。"
+      },
+      {
+        "en": "The boy mustn't go to school yet, Mrs. Williams.",
+        "zh": "这个男孩还不能去上学，威廉姆斯夫人。"
+      },
+      {
+        "en": "And he mustn't eat rich food.",
+        "zh": "而且他也不能吃油腻的食物。"
+      },
+      {
+        "en": "Does he have a temperature, doctor?",
+        "zh": "医生，他发烧了吗？"
+      },
+      {
+        "en": "No, he doesn't.",
+        "zh": "没有，他没有发烧。"
+      },
+      {
+        "en": "Must he stay in bed?",
+        "zh": "他必须继续卧床吗？"
+      },
+      {
+        "en": "Yes. He must remain in bed for another two days.",
+        "zh": "是的，他必须再卧床两天。"
+      },
+      {
+        "en": "He can get up for about two hours each day, but you must keep the room warm.",
+        "zh": "他每天可以起来大约两个小时，但你们必须保持房间温暖。"
+      },
+      {
+        "en": "Where's Mr. Williams this evening?",
+        "zh": "威廉姆斯先生今晚在哪儿？"
+      },
+      {
+        "en": "He's in bed, doctor.",
+        "zh": "他也在床上，医生。"
+      },
+      {
+        "en": "Can you see him please?",
+        "zh": "您能去看看他吗？"
+      },
+      {
+        "en": "He has a bad cold, too!",
+        "zh": "他也得了重感冒！"
+      }
+    ]
+  },
   "sources": [
     {
-      "path": "content/NCE-Flow/NCE1/063&064－Thank You, Doctor..lrc",
-      "locator": "完整LRC元数据、标题、提问及全部中英文逐句字幕和时间戳",
+      "path": "content/article-review/history/8caf56abd31c7514dadb5068c5b8650a6038ae5e131aa7db7831115c3694eab0.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
       "checked": true,
-      "sha256": "6bd075d5b535d3e9be97668c9ec362b2ea6b589ed3039c830acf4b4c93e9e035"
+      "sha256": "b5739cc8bfc1a8b568e5f0d7039a2e5e71307d8b5def8b5e46f12b7417ef29c1"
     }
   ],
   "corrections": [],
   "fullReadConfirmed": true,
   "recheckConfirmed": true,
   "reviewer": "Codex",
-  "reviewedAt": "2026-10-02T02:29:49+00:00",
-  "notes": "逐句复核20句复诊对话及中译：Jimmy好转、两天/每天约两小时、禁止事项与父亲也感冒的结尾信息完整。保留教材祈使语气和否定词，补齐Jimmy与中文间空格及第63课间距，时间戳不变。",
+  "reviewedAt": "2026-10-07T07:41:57+00:00",
+  "notes": "医生复诊；母亲回答感谢、邀请上楼、对Jimmy及母亲的嘱咐分段，卧床与起床时长说明、父亲也感冒的请求合为各自轮次。 text与bodyText同步；sentences对象及时间、角色、索引原样保留。",
   "issues": [],
-  "status": "passed_edited"
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "da5fd3ece859beae75ce7c016d5d7a699872f966bffd200482d61ac72e06abdc",
+    "afterFileSha256": "86049565271be0b2ce27bb7373bd687103dc3fbe16e9d17ffe5ff48479407890",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "da5fd3ece859beae75ce7c016d5d7a699872f966bffd200482d61ac72e06abdc",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title/titleZh、question/questionZh、bodyText全部20行、bodyTextZh全部20行及sentences[0..23]的完整文字；重复正文与字幕文本逐字比对，非正文字幕另读。操作在内存应用并validate_layout_change，修复后的双语全文重新通读。",
+      "notes": "医生复诊；母亲回答感谢、邀请上楼、对Jimmy及母亲的嘱咐分段，卧床与起床时长说明、父亲也感冒的请求合为各自轮次。 text与bodyText同步；sentences对象及时间、角色、索引原样保留。",
+      "issues": [],
+      "display": {
+        "text": "Who else is in bed today? Why?\n\nHow's Jimmy today?\nBetter. Thank you, doctor.\nCan I see him please, Mrs. Williams?\nCertainly, doctor. Come upstairs.\nYou look very well, Jimmy. You are better now, but you mustn't get up yet. You must stay in bed for another two days.\nThe boy mustn't go to school yet, Mrs. Williams. And he mustn't eat rich food.\nDoes he have a temperature, doctor?\nNo, he doesn't.\nMust he stay in bed?\nYes. He must remain in bed for another two days. He can get up for about two hours each day, but you must keep the room warm.\nWhere's Mr. Williams this evening?\nHe's in bed, doctor. Can you see him please? He has a bad cold, too!",
+        "bodyText": "How's Jimmy today?\nBetter. Thank you, doctor.\nCan I see him please, Mrs. Williams?\nCertainly, doctor. Come upstairs.\nYou look very well, Jimmy. You are better now, but you mustn't get up yet. You must stay in bed for another two days.\nThe boy mustn't go to school yet, Mrs. Williams. And he mustn't eat rich food.\nDoes he have a temperature, doctor?\nNo, he doesn't.\nMust he stay in bed?\nYes. He must remain in bed for another two days. He can get up for about two hours each day, but you must keep the room warm.\nWhere's Mr. Williams this evening?\nHe's in bed, doctor. Can you see him please? He has a bad cold, too!",
+        "bodyTextZh": "Jimmy 今天怎么样？\n更好了。谢谢您，医生。\n请问威廉姆斯夫人，我能见见他吗？\n当然可以，医生。上来吧。\n你看起来气色很好，吉米。你现在好多了，但还不能起床哦。你必须再卧床休息两天。\n这个男孩还不能去上学，威廉姆斯夫人。而且他也不能吃油腻的食物。\n医生，他发烧了吗？\n没有，他没有发烧。\n他必须继续卧床吗？\n是的，他必须再卧床两天。他每天可以起来大约两个小时，但你们必须保持房间温暖。\n威廉姆斯先生今晚在哪儿？\n他也在床上，医生。您能去看看他吗？他也得了重感冒！"
+      },
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/8caf56abd31c7514dadb5068c5b8650a6038ae5e131aa7db7831115c3694eab0.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "b5739cc8bfc1a8b568e5f0d7039a2e5e71307d8b5def8b5e46f12b7417ef29c1"
+        }
+      ]
+    }
+  },
+  "status": "passed_edited",
+  "previousRevisionSha256": "8caf56abd31c7514dadb5068c5b8650a6038ae5e131aa7db7831115c3694eab0"
 }

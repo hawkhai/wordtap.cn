@@ -2,12 +2,12 @@
   "schemaVersion": 1,
   "course": "pep-english",
   "articleId": "pepj9-022",
-  "beforeDisplaySha256": "8ed5ccdb442d35c2ed68032ff3590e34ecd04a6dc5c331e6c344c65f323fe3d0",
+  "beforeDisplaySha256": "b54ed9728753f2875a7c960b2323ebe6ae133f8e006e9aa6187c63496aff06d2",
   "afterDisplaySha256": "b54ed9728753f2875a7c960b2323ebe6ae133f8e006e9aa6187c63496aff06d2",
   "baselineDisplay": {
     "title": "Mom Knows Best",
     "section": "Section A",
-    "text": "When I was a tiny baby crying all night, my mom sang to me and stayed by my side.\nWhen I was tired and hungry, she gave me food and warm arms to sleep in.\nWhen I was two running through the field, she made sure I was safe and kept me from danger.\nWhen I fell and hurt myself, she gave me a hug and lifted me up.\nWhen I was seven coughing badly, she said no ice-cream for me.\nBut I talked back loudly, \"I should be allowed to eat some! Give it to me now!\" When I was nine watching scary movies, she said it'd give me awful dreams.\nBut I shouted back angrily, \"I should be allowed to watch it! I'm not a baby!\"\nWhen I was a teen going out with friends, she said, \"Please be back by ten!\" But I talked back again — \"I should not be told what to do! I'm seventeen now!\"\nNow I'm an adult, thinking back to those times.\nI coughed for days after eating that ice-cream And had scary dreams after watching that film.\nI was late for school from staying out past ten.\nI regret talking back, not listening to Mom.\nMom knows best, and for me she wanted only the best!",
+    "text": "When I was a tiny baby crying all night, my mom sang to me and stayed by my side.\nWhen I was tired and hungry, she gave me food and warm arms to sleep in.\nWhen I was two running through the field, she made sure I was safe and kept me from danger.\nWhen I fell and hurt myself, she gave me a hug and lifted me up.\nWhen I was seven coughing badly, she said no ice-cream for me.\nBut I talked back loudly, \"I should be allowed to eat some! Give it to me now!\"\nWhen I was nine watching scary movies, she said it'd give me awful dreams.\nBut I shouted back angrily, \"I should be allowed to watch it! I'm not a baby!\"\nWhen I was a teen going out with friends, she said, \"Please be back by ten!\"\nBut I talked back again — \"I should not be told what to do! I'm seventeen now!\"\nNow I'm an adult, thinking back to those times.\nI coughed for days after eating that ice-cream\nAnd had scary dreams after watching that film.\nI was late for school from staying out past ten.\nI regret talking back, not listening to Mom.\nMom knows best, and for me she wanted only the best!",
     "blocks": [
       {
         "type": "paragraph",
@@ -17,17 +17,17 @@
       {
         "type": "paragraph",
         "lang": "en",
-        "text": "When I was seven coughing badly, she said no ice-cream for me.\nBut I talked back loudly, \"I should be allowed to eat some! Give it to me now!\" When I was nine watching scary movies, she said it'd give me awful dreams.\nBut I shouted back angrily, \"I should be allowed to watch it! I'm not a baby!\""
+        "text": "When I was seven coughing badly, she said no ice-cream for me.\nBut I talked back loudly, \"I should be allowed to eat some! Give it to me now!\"\nWhen I was nine watching scary movies, she said it'd give me awful dreams.\nBut I shouted back angrily, \"I should be allowed to watch it! I'm not a baby!\""
       },
       {
         "type": "paragraph",
         "lang": "en",
-        "text": "When I was a teen going out with friends, she said, \"Please be back by ten!\" But I talked back again — \"I should not be told what to do! I'm seventeen now!\""
+        "text": "When I was a teen going out with friends, she said, \"Please be back by ten!\"\nBut I talked back again — \"I should not be told what to do! I'm seventeen now!\""
       },
       {
         "type": "paragraph",
         "lang": "en",
-        "text": "Now I'm an adult, thinking back to those times.\nI coughed for days after eating that ice-cream And had scary dreams after watching that film.\nI was late for school from staying out past ten.\nI regret talking back, not listening to Mom.\nMom knows best, and for me she wanted only the best!"
+        "text": "Now I'm an adult, thinking back to those times.\nI coughed for days after eating that ice-cream\nAnd had scary dreams after watching that film.\nI was late for school from staying out past ten.\nI regret talking back, not listening to Mom.\nMom knows best, and for me she wanted only the best!"
       }
     ]
   },
@@ -60,24 +60,46 @@
   },
   "sources": [
     {
-      "path": "content/pep-english/raw/junior-9.pdf",
-      "locator": "PDF第65-65页，标题与完整正文逐行核对",
+      "path": "content/article-review/history/4c7435e2efc47b7c7f81441a3498c09aa37e59c1d039a0cb4104cf5614c05e39.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
       "checked": true,
-      "sha256": "9c4118021048d901610b673f590ed28c39c04cb2d4f7fd940f83a2d8b2741af7"
-    },
-    {
-      "path": "content/pep-english/raw/junior-9/junior-9_65.jpg",
-      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
-      "checked": true,
-      "sha256": "d2f5a6ece1a225bc3851f70676347a6cafec54d697005499acbc4ef94c889fe2"
+      "sha256": "68a1d22580ca1ab7112d41cba1d5ef5d2a0dcb594b5449d6e08a3bce22a44463"
     }
   ],
   "corrections": [],
   "fullReadConfirmed": true,
   "recheckConfirmed": true,
   "reviewer": "Codex",
-  "reviewedAt": "2026-10-02T05:11:07+00:00",
-  "notes": "PDF65页印刷51页Mom Knows Best四节诗逐行核对，婴幼儿、7/9岁、17岁与成年反思文字齐全。恢复被粘连的三处诗行：When I was nine、But I talked back again、And had scary dreams前换行。依原页四节结构保留，改后全诗复读，未改变文字和引语。",
+  "reviewedAt": "2026-10-07T07:42:02+00:00",
+  "notes": "Mom Knows Best四节成长反思诗，保持母亲劝告与回嘴的诗行及最后成人感悟诗节。",
   "issues": [],
-  "status": "passed_edited"
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "0e20e139d94f7a667f13cbfc5f42f678e76f1cacda6cdfbf39d8afbe6f5001c9",
+    "afterFileSha256": "0e20e139d94f7a667f13cbfc5f42f678e76f1cacda6cdfbf39d8afbe6f5001c9",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "0e20e139d94f7a667f13cbfc5f42f678e76f1cacda6cdfbf39d8afbe6f5001c9",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..3] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "Mom Knows Best四节成长反思诗，保持母亲劝告与回嘴的诗行及最后成人感悟诗节。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "blockEdits": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/4c7435e2efc47b7c7f81441a3498c09aa37e59c1d039a0cb4104cf5614c05e39.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "68a1d22580ca1ab7112d41cba1d5ef5d2a0dcb594b5449d6e08a3bce22a44463"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "4c7435e2efc47b7c7f81441a3498c09aa37e59c1d039a0cb4104cf5614c05e39"
 }

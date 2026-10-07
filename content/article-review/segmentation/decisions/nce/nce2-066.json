@@ -1,0 +1,26 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "4146780a0273276623f549d3cb7376492a69a2b6947fba942d7a2281b47e65a5",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title/titleZh、question/questionZh、bodyText全部9行、bodyTextZh全部9行及sentences[0..11]的完整文字；重复正文与字幕文本逐字比对，非正文字幕另读。操作在内存应用并validate_layout_change，修复后的双语全文重新通读。",
+  "notes": "蜂蜡护发动机；坠机遗忘、航测发现运返、修复时发现蜂巢保存三段。 text与bodyText同步；sentences对象及时间、角色、索引原样保留。",
+  "issues": [],
+  "display": {
+    "text": "What was 'sweet as honey' and why?\n\nIn 1963 a Lancaster bomber crashed on Wallis Island, a remote place in the South Pacific, a long way west of Samoa. The plane wasn't too badly damaged, but over the years the crash was forgotten and the wreck remained undisturbed.\nThen in 1989, twenty-six years after the crash, the plane was accidentally rediscovered in an aerial survey of the island. By this time, a Lancaster bomber in reasonable condition was rare and worth rescuing. The French authorities had the plane packaged and moved in parts back to France.\nNow a group of enthusiasts are going to have the plane restored. It has four Rolls-Royce Merlin engines but the group will need to have only three of them rebuilt. Imagine their surprise and delight when they broke open the packing cases and found that the fourth engine was sweet as honey -- still in perfect condition. A colony of bees had turned the engine into a hive and it was totally preserved in beeswax!",
+    "bodyText": "In 1963 a Lancaster bomber crashed on Wallis Island, a remote place in the South Pacific, a long way west of Samoa. The plane wasn't too badly damaged, but over the years the crash was forgotten and the wreck remained undisturbed.\nThen in 1989, twenty-six years after the crash, the plane was accidentally rediscovered in an aerial survey of the island. By this time, a Lancaster bomber in reasonable condition was rare and worth rescuing. The French authorities had the plane packaged and moved in parts back to France.\nNow a group of enthusiasts are going to have the plane restored. It has four Rolls-Royce Merlin engines but the group will need to have only three of them rebuilt. Imagine their surprise and delight when they broke open the packing cases and found that the fourth engine was sweet as honey -- still in perfect condition. A colony of bees had turned the engine into a hive and it was totally preserved in beeswax!",
+    "bodyTextZh": "1963年，一架兰开斯特轰炸机在沃利斯岛上坠毁了。一个位于南太平洋的偏远之地，在萨摩亚以西很远的地方。飞机的损坏程度并不严重。然而，随着时间的推移，这场坠机事故被人们遗忘了，飞机残骸也一直无人打扰。\n然后在 1989 年，也就是飞机失事 26 年后，这架飞机在一次对该岛屿的航空勘测中被意外重新发现了。到了这个时候，一架状况良好的兰开斯特轰炸机已经非常稀少，值得抢救。法国当局将飞机打包，分部件运回了法国。\n现在，一群爱好者正着手修复这架飞机。这架飞机有四台罗尔斯-罗伊斯“梅林”发动机，但这群人只需要重建其中三台。想象一下，当他们打开包装箱时，他们的惊讶和喜悦之情吧！结果发现第四台发动机“甜如蜜”——状况依然完好。一群蜜蜂将那台发动机改造成了一个蜂巢，并且整个发动机都被完美地保存在了蜂蜡之中！"
+  },
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/977bf6e97e73e898c97f0a1f0a1a3e48477c2fcda279386988ff7720e22dda8a.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "6c2c68e2a13d47a83d2321c580de1637f4414f3b205e1ebe1f174dd4dcc8ce83"
+    }
+  ]
+}

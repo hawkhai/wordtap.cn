@@ -2,17 +2,17 @@
   "schemaVersion": 1,
   "course": "pep-english",
   "articleId": "pephs4-005",
-  "beforeDisplaySha256": "edec278e695959b31680597ff7f3e34aa0a28153f39b24678c217225fd70d4dc",
+  "beforeDisplaySha256": "f02f7ba872d45978da7eda10f149dff6b50ed0df0b508eaadcd76e0302feed93",
   "afterDisplaySha256": "f02f7ba872d45978da7eda10f149dff6b50ed0df0b508eaadcd76e0302feed93",
   "baselineDisplay": {
     "title": "Dujiangyan",
     "section": "Project",
-    "text": "Originally constructed around 256 BCE by the State of Qin as an irrigation and flood control system, Dujiangyan is a remarkable example of ancient engineering skill and is still in use today. During the Warring States period, people who lived along the banks of the Min River were troubled by annual flooding. Qin governor and irrigation engineer Li Bing investigated the problem thoroughly. He led a team to construct a levee to redirect a portion of the river’s flow. Then they cut a channel through Mount Yulei to direct water into the irrigation system. After the system was finished, it greatly reduced the threat of flooding. What’s more, it made Sichuan one of the most productive agricultural regions in China because the redirected water from the Min River could be used for irrigation. If you visit Dujiangyan, you will see an unusual construction that resembles a fish’s mouth. This famous attraction, Yuzui, together with two other important parts, namely, Feishayan and Baopingkou, was scientifically designed to control the water flow throughout the year. Recognised as a UNESCO heritage site, Dujiangyan has irrigated farms while preventing floods for over 2,000 years.",
+    "text": "Originally constructed around 256 BCE by the State of Qin as an irrigation and flood control system, Dujiangyan is a remarkable example of ancient engineering skill and is still in use today. During the Warring States period, people who lived along the banks of the Min River were troubled by annual flooding. Qin governor and irrigation engineer Li Bing investigated the problem thoroughly. He led a team to construct a levee to redirect a portion of the river’s flow. Then they cut a channel through Mount Yulei to discharge the excess water. After the system was finished, no more floods occurred. What’s more, it made Sichuan one of the most productive agricultural regions in China because the redirected water from the Min River could be used for irrigation. If you visit Dujiangyan, you will see an unusual construction that resembles a fish’s mouth. This famous attraction, Yuzui, together with two other important parts, namely, Feishayan and Baopingkou, was scientifically designed to control the water flow throughout the year. Recognised as a UNESCO heritage site, Dujiangyan has irrigated farms while preventing floods for over 2,000 years.",
     "blocks": [
       {
         "type": "paragraph",
         "lang": "en",
-        "text": "Originally constructed around 256 BCE by the State of Qin as an irrigation and flood control system, Dujiangyan is a remarkable example of ancient engineering skill and is still in use today. During the Warring States period, people who lived along the banks of the Min River were troubled by annual flooding. Qin governor and irrigation engineer Li Bing investigated the problem thoroughly. He led a team to construct a levee to redirect a portion of the river’s flow. Then they cut a channel through Mount Yulei to direct water into the irrigation system. After the system was finished, it greatly reduced the threat of flooding. What’s more, it made Sichuan one of the most productive agricultural regions in China because the redirected water from the Min River could be used for irrigation. If you visit Dujiangyan, you will see an unusual construction that resembles a fish’s mouth. This famous attraction, Yuzui, together with two other important parts, namely, Feishayan and Baopingkou, was scientifically designed to control the water flow throughout the year. Recognised as a UNESCO heritage site, Dujiangyan has irrigated farms while preventing floods for over 2,000 years."
+        "text": "Originally constructed around 256 BCE by the State of Qin as an irrigation and flood control system, Dujiangyan is a remarkable example of ancient engineering skill and is still in use today. During the Warring States period, people who lived along the banks of the Min River were troubled by annual flooding. Qin governor and irrigation engineer Li Bing investigated the problem thoroughly. He led a team to construct a levee to redirect a portion of the river’s flow. Then they cut a channel through Mount Yulei to discharge the excess water. After the system was finished, no more floods occurred. What’s more, it made Sichuan one of the most productive agricultural regions in China because the redirected water from the Min River could be used for irrigation. If you visit Dujiangyan, you will see an unusual construction that resembles a fish’s mouth. This famous attraction, Yuzui, together with two other important parts, namely, Feishayan and Baopingkou, was scientifically designed to control the water flow throughout the year. Recognised as a UNESCO heritage site, Dujiangyan has irrigated farms while preventing floods for over 2,000 years."
       }
     ]
   },
@@ -30,50 +30,45 @@
   },
   "sources": [
     {
-      "path": "content/pep-english/raw/senior-selective-4.pdf",
-      "locator": "PDF第30-30页，标题与完整正文逐行核对",
+      "path": "content/article-review/history/bb0c6d38c8eb869e257289f17a095ea6c71c73c5510028f49c4cec8b4b806722.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
       "checked": true,
-      "sha256": "2ad7555a13eb420aa70497f9faa2541fdb502b7ffc4e063e87c60cce88f1b4a3"
-    },
-    {
-      "path": "content/pep-english/raw/senior-selective-4/senior-selective-4_30.jpg",
-      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
-      "checked": true,
-      "sha256": "839dfe1e26157aefa8af5ea35fa7e1ec8d227b9673d3366645b7d1692274ee0e"
-    },
-    {
-      "path": "content/article-review/source-evidence/pephs4-005-dujiangyan.json",
-      "locator": "UNESCO、原始水利研究与成都防洪规划摘要",
-      "checked": true,
-      "sha256": "effe0a2fb2fd5d2868303eac5eec289267838feecfd4a4b50d24afb6d70b43b4"
-    },
-    {
-      "path": "content/article-review/cleanup-2026-10-06.json",
-      "sha256": "cea27c1c69e32939ff83196bd29cce9a128d8d0d6f248611217179e037971889",
-      "locator": "public/pep-english/lessons/pephs4/005.json",
-      "checked": true
+      "sha256": "e9ed34adee47d1f8829b6491eab95555b4da8e16f512e8b66ee84f38537d9df9"
     }
   ],
-  "corrections": [
-    {
-      "field": "text",
-      "before": "Originally constructed around 256 BCE by the State of Qin as an irrigation and flood control system, Dujiangyan is a remarkable example of ancient engineering skill and is still in use today. During the Warring States period, people who lived along the banks of the Min River were troubled by annual flooding. Qin governor and irrigation engineer Li Bing investigated the problem thoroughly. He led a team to construct a levee to redirect a portion of the river’s flow. Then they cut a channel through Mount Yulei to direct water into the irrigation system. After the system was finished, it greatly reduced the threat of flooding. What’s more, it made Sichuan one of the most productive agricultural regions in China because the redirected water from the Min River could be used for irrigation. If you visit Dujiangyan, you will see an unusual construction that resembles a fish’s mouth. This famous attraction, Yuzui, together with two other important parts, namely, Feishayan and Baopingkou, was scientifically designed to control the water flow throughout the year. Recognised as a UNESCO heritage site, Dujiangyan has irrigated farms while preventing floods for over 2,000 years.",
-      "after": "Originally constructed around 256 BCE by the State of Qin as an irrigation and flood control system, Dujiangyan is a remarkable example of ancient engineering skill and is still in use today. During the Warring States period, people who lived along the banks of the Min River were troubled by annual flooding. Qin governor and irrigation engineer Li Bing investigated the problem thoroughly. He led a team to construct a levee to redirect a portion of the river’s flow. Then they cut a channel through Mount Yulei to discharge the excess water. After the system was finished, no more floods occurred. What’s more, it made Sichuan one of the most productive agricultural regions in China because the redirected water from the Min River could be used for irrigation. If you visit Dujiangyan, you will see an unusual construction that resembles a fish’s mouth. This famous attraction, Yuzui, together with two other important parts, namely, Feishayan and Baopingkou, was scientifically designed to control the water flow throughout the year. Recognised as a UNESCO heritage site, Dujiangyan has irrigated farms while preventing floods for over 2,000 years.",
-      "evidence": "User-directed source-fidelity restoration; content/article-review/cleanup-2026-10-06.json"
-    }
-  ],
-  "fullReadConfirmed": false,
-  "recheckConfirmed": false,
-  "reviewMode": "source-fidelity-rules-v1",
-  "reviewer": "Codex (user-directed restoration)",
-  "reviewedAt": "2026-10-05T17:15:10+00:00",
-  "notes": "Rule-based restoration; original full-read review remains historical. content/article-review/cleanup-2026-10-06.json",
+  "corrections": [],
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "reviewer": "Codex",
+  "reviewedAt": "2026-10-07T07:35:55+00:00",
+  "notes": "都江堰从历史建造、治水工程到鱼嘴及持续作用为完整说明单段，保留。",
   "issues": [],
-  "status": "passed_edited",
-  "previousRevisionSha256": "c5aec6c481ceaf663b56fb1c7552f2e6d92b7352257aa7455de7ac63fe5edc03",
-  "ruleRestoration": {
-    "policy": "source-fidelity-rules-v1",
-    "report": "content/article-review/cleanup-2026-10-06.json",
-    "reportSha256": "cea27c1c69e32939ff83196bd29cce9a128d8d0d6f248611217179e037971889"
-  }
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "a90f070b1858d727ee1a06959d361ffab421ae84d01d6e91634de66f745d485c",
+    "afterFileSha256": "a90f070b1858d727ee1a06959d361ffab421ae84d01d6e91634de66f745d485c",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "a90f070b1858d727ee1a06959d361ffab421ae84d01d6e91634de66f745d485c",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..0] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "都江堰从历史建造、治水工程到鱼嘴及持续作用为完整说明单段，保留。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/bb0c6d38c8eb869e257289f17a095ea6c71c73c5510028f49c4cec8b4b806722.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "e9ed34adee47d1f8829b6491eab95555b4da8e16f512e8b66ee84f38537d9df9"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "bb0c6d38c8eb869e257289f17a095ea6c71c73c5510028f49c4cec8b4b806722"
 }

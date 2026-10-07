@@ -60,30 +60,45 @@
   },
   "sources": [
     {
-      "path": "content/pep-english/raw/senior-selective-3.pdf",
-      "locator": "PDF第39-40页，标题与完整正文逐行核对",
+      "path": "content/article-review/history/767a3e59b1eecef58c5da1ab2842088293edcce525adba0a344ebdb40b462c9f.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
       "checked": true,
-      "sha256": "ed8eb9e5988b44a1ff4f8bc11ed3cfae406decefae7982477362720788e1998b"
-    },
-    {
-      "path": "content/pep-english/raw/senior-selective-3/senior-selective-3_39.jpg",
-      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
-      "checked": true,
-      "sha256": "12a6072e0620c54c2e974965838dc3a68daab02923659b15414aac2a5cb4a456"
-    },
-    {
-      "path": "content/pep-english/raw/senior-selective-3/senior-selective-3_40.jpg",
-      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
-      "checked": true,
-      "sha256": "99d4df81aed42890f016fbd7f2963fa8e6a714067e82522ff4fbda13158caf8c"
+      "sha256": "0c0e36e1ffda68ab242c57f619ab7ccefedd8134127bd94d880206422794f840"
     }
   ],
   "corrections": [],
   "fullReadConfirmed": true,
   "recheckConfirmed": true,
   "reviewer": "Codex",
-  "reviewedAt": "2026-10-02T07:07:25+00:00",
-  "notes": "逐行核对PDF第39–40页四段漓江治理报告；第三段跨页Furthermore后衔接完整，正文与后页练习表的四段结构一致。保留教材发表时的政策背景与展望，未见错字、缺文或错误分段。",
+  "reviewedAt": "2026-10-07T07:35:49+00:00",
+  "notes": "漓江污染报告四段问题引入、成因、综合措施、全国计划，措施并列句属于完整说明段不碎拆。",
   "issues": [],
-  "status": "passed_unchanged"
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "4a6a354e5d5f69a79f546cc6a15310de55ebdc92f0667ab67363969c103520fa",
+    "afterFileSha256": "4a6a354e5d5f69a79f546cc6a15310de55ebdc92f0667ab67363969c103520fa",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "4a6a354e5d5f69a79f546cc6a15310de55ebdc92f0667ab67363969c103520fa",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..3] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "漓江污染报告四段问题引入、成因、综合措施、全国计划，措施并列句属于完整说明段不碎拆。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/767a3e59b1eecef58c5da1ab2842088293edcce525adba0a344ebdb40b462c9f.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "0c0e36e1ffda68ab242c57f619ab7ccefedd8134127bd94d880206422794f840"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "767a3e59b1eecef58c5da1ab2842088293edcce525adba0a344ebdb40b462c9f"
 }

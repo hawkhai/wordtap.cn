@@ -30,24 +30,45 @@
   },
   "sources": [
     {
-      "path": "content/pep-english/raw/senior-required-3.pdf",
-      "locator": "PDF第25-25页，标题与完整正文逐行核对",
+      "path": "content/article-review/history/3d78f6a548b65c3c1113bcc06172984f59b4216e64c51a4a8eb5341fb24c9e74.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
       "checked": true,
-      "sha256": "fe9c8e15e62f4aec56efc60b8de43f4a55d40f3114d6505affaef78a8b7a1af2"
-    },
-    {
-      "path": "content/pep-english/raw/senior-required-3/senior-required-3_25.jpg",
-      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
-      "checked": true,
-      "sha256": "839f180efa1d58f19e4ba16a106da33bbb50956d10e3eebe06336a0c36de932b"
+      "sha256": "fd25d93f23c477c4c49583ba408842081aa6655ccd6c5209ded015bfedc48b20"
     }
   ],
   "corrections": [],
   "fullReadConfirmed": true,
   "recheckConfirmed": true,
   "reviewer": "Codex",
-  "reviewedAt": "2026-10-02T05:54:50+00:00",
-  "notes": "核对PDF第25页白求恩完整传记段，Henry Norman Bethune姓名、1916毕业、1938赴华、次年11月逝世以及纪念文章结尾均一致；保留练习所用完整原句，未用改写答案替换。",
+  "reviewedAt": "2026-10-07T07:30:19+00:00",
+  "notes": "白求恩生平单段按学习、医疗创新、援华、去世与纪念连续叙述，保留完整段。",
   "issues": [],
-  "status": "passed_unchanged"
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "65d97589dd797a769576b650f220cefa4e470847a79bfd004205bfafcf7abe78",
+    "afterFileSha256": "65d97589dd797a769576b650f220cefa4e470847a79bfd004205bfafcf7abe78",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "65d97589dd797a769576b650f220cefa4e470847a79bfd004205bfafcf7abe78",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..0] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "白求恩生平单段按学习、医疗创新、援华、去世与纪念连续叙述，保留完整段。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/3d78f6a548b65c3c1113bcc06172984f59b4216e64c51a4a8eb5341fb24c9e74.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "fd25d93f23c477c4c49583ba408842081aa6655ccd6c5209ded015bfedc48b20"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "3d78f6a548b65c3c1113bcc06172984f59b4216e64c51a4a8eb5341fb24c9e74"
 }

@@ -82,30 +82,45 @@
   },
   "sources": [
     {
-      "path": "content/College-English/NHCE4-RW2.pdf",
-      "locator": "PDF 92-93，印刷页 77-78，完整正文与标题逐段核对",
+      "path": "content/article-review/history/7d08df57ab2fc6af9bac849511d5cf4b4c9ade44f79a2fad36a5a941332519ea.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
       "checked": true,
-      "sha256": "67f2efd99fc8d9779b945b5714857c2e608b39d42a1ce254c7d501abb21ab978"
-    },
-    {
-      "path": "content/College-English/NHCE4-RW2/NHCE4-RW2_92.jpg",
-      "locator": "已打开教材图页并通读复核正文",
-      "checked": true,
-      "sha256": "aaed5241b8fa607c1255ecb3a0eef092cf4b48fd8563c7f5cb6755cc88e3cbd2"
-    },
-    {
-      "path": "content/College-English/NHCE4-RW2/NHCE4-RW2_93.jpg",
-      "locator": "已打开教材图页并通读复核正文",
-      "checked": true,
-      "sha256": "5c5747316856d69d506dd27fee0c448787c99ae630728c0b511af48be3a1ef80"
+      "sha256": "d957d5e8694ef1a4329fb1c1248f0b29ee707bab932f0e21a9a9c2f30e69f8bf"
     }
   ],
   "corrections": [],
   "fullReadConfirmed": true,
   "recheckConfirmed": true,
   "reviewer": "Codex",
-  "reviewedAt": "2026-10-02T08:51:03+00:00",
-  "notes": "全文6段复核PDF92–93双栏，第四段跨页衔接正确。Gou Yingda姓名、创业经历、摄像头直播和业务模式均与图页一致。末段without any chemicals为人物直接引语的产品承诺，按引语忠实保留，不当作化学成分或有机认证的科学定义；未混入翻译题。",
+  "reviewedAt": "2026-10-07T07:30:05+00:00",
+  "notes": "全文及未改动输出复核：95后创业者背景、采访印象、咖啡屋启发、农业直供业务、摄像透明生产、品牌志向六段完整；括号词注与采访引语保持原有对应。",
   "issues": [],
-  "status": "passed_unchanged"
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "49b21dfaf2f19f120aa8a268c7965ae8b4856b41cb55e000bbf5799e1e228161",
+    "afterFileSha256": "49b21dfaf2f19f120aa8a268c7965ae8b4856b41cb55e000bbf5799e1e228161",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "49b21dfaf2f19f120aa8a268c7965ae8b4856b41cb55e000bbf5799e1e228161",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "完整 title、blocks[0..5]及完全相同的text；正文及内嵌中文、引语、对话和列举均已逐项通读；无改动输出按全文再次复核。",
+      "notes": "全文及未改动输出复核：95后创业者背景、采访印象、咖啡屋启发、农业直供业务、摄像透明生产、品牌志向六段完整；括号词注与采访引语保持原有对应。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/7d08df57ab2fc6af9bac849511d5cf4b4c9ade44f79a2fad36a5a941332519ea.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "d957d5e8694ef1a4329fb1c1248f0b29ee707bab932f0e21a9a9c2f30e69f8bf"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "7d08df57ab2fc6af9bac849511d5cf4b4c9ade44f79a2fad36a5a941332519ea"
 }

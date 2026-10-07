@@ -50,24 +50,46 @@
   },
   "sources": [
     {
-      "path": "content/pep-english/raw/junior-8b.pdf",
-      "locator": "PDF第71-71页，标题与完整正文逐行核对",
+      "path": "content/article-review/history/504645e460cc4ff664d6a833ff56f527a30cf087c0eb8dce014d2d1d29b184a2.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
       "checked": true,
-      "sha256": "1be886980dc0833b9c87ced7c9de0c8e3e7e19d990c1172f62504576d2554284"
-    },
-    {
-      "path": "content/pep-english/raw/junior-8b/junior-8b_71.jpg",
-      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
-      "checked": true,
-      "sha256": "46cc6b4fe7050124540aefd920a62888197be55b0f160b65a76e5d170d4e6f83"
+      "sha256": "59fe08f6a1fc0f21596cd8614a258bb7c916c829249f45bad2aa90985767adbe"
     }
   ],
   "corrections": [],
   "fullReadConfirmed": true,
   "recheckConfirmed": true,
   "reviewer": "Codex",
-  "reviewedAt": "2026-10-02T05:03:12+00:00",
-  "notes": "PDF71页印刷62页乡村音乐三段逐行双轮复核；Sarah在英留学思乡、Nashville/Tennessee及博物馆名称、Garth Brooks和原书120 million记录均准确。引语及插入破折号完整，标题与正文一致，未混入摘要学习框，无修改。",
+  "reviewedAt": "2026-10-07T07:42:00+00:00",
+  "notes": "Sarah乡村音乐三段为个人改变、音乐精神、Nashville梦想，长引语仍归本段。",
   "issues": [],
-  "status": "passed_unchanged"
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "3265b7301b7d93a3fafb8c92d4e0ed687746cfc3d0347e6d9b038c7431199154",
+    "afterFileSha256": "3265b7301b7d93a3fafb8c92d4e0ed687746cfc3d0347e6d9b038c7431199154",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "3265b7301b7d93a3fafb8c92d4e0ed687746cfc3d0347e6d9b038c7431199154",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..2] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "Sarah乡村音乐三段为个人改变、音乐精神、Nashville梦想，长引语仍归本段。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "blockEdits": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/504645e460cc4ff664d6a833ff56f527a30cf087c0eb8dce014d2d1d29b184a2.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "59fe08f6a1fc0f21596cd8614a258bb7c916c829249f45bad2aa90985767adbe"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "504645e460cc4ff664d6a833ff56f527a30cf087c0eb8dce014d2d1d29b184a2"
 }

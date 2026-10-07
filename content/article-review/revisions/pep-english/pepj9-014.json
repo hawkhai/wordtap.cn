@@ -50,24 +50,46 @@
   },
   "sources": [
     {
-      "path": "content/pep-english/raw/junior-9.pdf",
-      "locator": "PDF第41-41页，标题与完整正文逐行核对",
+      "path": "content/article-review/history/440f1ceac2286f255c99a887c114cc5bc3e3d1d470c6c930cf5bb3e73d15113a.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
       "checked": true,
-      "sha256": "9c4118021048d901610b673f590ed28c39c04cb2d4f7fd940f83a2d8b2741af7"
-    },
-    {
-      "path": "content/pep-english/raw/junior-9/junior-9_41.jpg",
-      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
-      "checked": true,
-      "sha256": "b245b7f618ad3e1beb120ec055a062fa3daa9281d63a9c0acfdcc1f2081805df"
+      "sha256": "d03a19e0068386a37d061c7ac59b8fab00e246f1eb00092eeb65352480dced79"
     }
   ],
   "corrections": [],
   "fullReadConfirmed": true,
   "recheckConfirmed": true,
   "reviewer": "Codex",
-  "reviewedAt": "2026-10-02T05:08:41+00:00",
-  "notes": "PDF41页印刷27页采访Candy Wang三段逐行核对，19岁、Young World、克服害羞、成名利弊及付出建议完整。原页1至3是段落练习编号，不是正文；现三段分界正确，人名、引语及最后少数登顶句复读准确，无修改。",
+  "reviewedAt": "2026-10-07T07:42:02+00:00",
+  "notes": "Candy采访报道三段为克服害羞、成名利弊、给年轻人建议，长引语与自然段完整保留。",
   "issues": [],
-  "status": "passed_unchanged"
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "33d59f6bbd59ddfc61e4f35c91aaedc1567be541366320615c222e71e81bed90",
+    "afterFileSha256": "33d59f6bbd59ddfc61e4f35c91aaedc1567be541366320615c222e71e81bed90",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "33d59f6bbd59ddfc61e4f35c91aaedc1567be541366320615c222e71e81bed90",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..2] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "Candy采访报道三段为克服害羞、成名利弊、给年轻人建议，长引语与自然段完整保留。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "blockEdits": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/440f1ceac2286f255c99a887c114cc5bc3e3d1d470c6c930cf5bb3e73d15113a.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "d03a19e0068386a37d061c7ac59b8fab00e246f1eb00092eeb65352480dced79"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "440f1ceac2286f255c99a887c114cc5bc3e3d1d470c6c930cf5bb3e73d15113a"
 }

@@ -12,6 +12,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 import article_review as review
+from review_archive import evidence_exists, evidence_json
 import college_english_review as college
 from article_cleanup import POLICY, REPORT, clean_display, restore_display, reversal_corrections
 
@@ -19,7 +20,7 @@ ROOT = review.ROOT
 REPORT_PATH = ROOT / REPORT
 
 
-def load(path): return json.loads(path.read_text(encoding="utf-8"))
+def load(path): return evidence_json(path)
 
 
 def write(path, value):
@@ -40,8 +41,8 @@ def archive_source(path):
 
 def archive_revision(revision):
     target = review.REVIEW_ROOT / "history" / f"{review.canonical_hash(revision)}.json"
-    if target.exists() and load(target) != revision: raise ValueError("Revision archive collision")
-    if not target.exists(): write(target, revision)
+    if evidence_exists(target) and load(target) != revision: raise ValueError("Revision archive collision")
+    if not evidence_exists(target): write(target, revision)
 
 
 def cli_module():
@@ -175,12 +176,17 @@ def check():
         # The before-display is needed for deterministic retention of old spacing.
         before = restore_display(detail, previous["display"])
         payload, expected_audit = clean_display(previous, before)
-        if payload != review.display_payload(detail) or audit["afterDisplaySha256"] != review.display_hash(detail):
+        revision = load(review.revision_path(audit["course"], audit["articleId"]))
+        if revision.get("reviewMode") == "json-segmentation-v1":
+            from segmentation_review import validate_advance
+            revision = validate_advance(revision, audit["afterDisplaySha256"], detail, review.REVIEW_ROOT / "history")
+            if payload != revision["display"]:
+                raise ValueError(f"Layout history does not reach cleanup output: {audit['path']}")
+        elif payload != review.display_payload(detail) or audit["afterDisplaySha256"] != review.display_hash(detail):
             raise ValueError(f"Cleanup output changed: {audit['path']}")
         for key in ("actions", "legacyCorrections", "oldestRevisionSha256", "revisionsExamined", "baselineDiscontinuities"):
             if audit[key] != expected_audit[key]: raise ValueError("Cleanup decisions changed")
         if audit["changed"]:
-            revision = load(review.revision_path(audit["course"], audit["articleId"]))
             if revision.get("ruleRestoration", {}).get("reportSha256") != report_sha:
                 raise ValueError("Cleanup proof no longer matches signed revision")
     print(f"Verified deterministic cleanup of 1054 articles ({report['changed']} changed); no new full-read claim.")

@@ -60,24 +60,45 @@
   },
   "sources": [
     {
-      "path": "content/pep-english/raw/senior-required-1.pdf",
-      "locator": "PDF第11-11页，标题与完整正文逐行核对",
+      "path": "content/article-review/history/33be6cb6c2b474aeb04dd341d0644c7bae3151d0d07692032c7f87b11a879094.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
       "checked": true,
-      "sha256": "ffe985a370964820aa003008f48c7cf17b5e0dff8eb29fe54cd4743b0c4e8c79"
-    },
-    {
-      "path": "content/pep-english/raw/senior-required-1/senior-required-1_11.jpg",
-      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
-      "checked": true,
-      "sha256": "46ee5ebee7473c6e17fe7d307281a8efdccbeb8a7db3f27a7409a05d5ceb19ad"
+      "sha256": "f84ba50950bf34a830c4efc779f3cfac9198758b106f590c56cef69dd4cc8e82"
     }
   ],
   "corrections": [],
   "fullReadConfirmed": true,
   "recheckConfirmed": true,
   "reviewer": "Codex",
-  "reviewedAt": "2026-10-02T05:20:30+00:00",
-  "notes": "核对PDF第11页韩静首日四则日记，7:00、12:30、5:32、10:29时间及数学、化学课与情绪变化逐行一致。保留每则时间换行及四段划分，无修改。",
+  "reviewedAt": "2026-10-07T07:30:09+00:00",
+  "notes": "四个时间标签各引领一则完整校园日记，保留标签与对应多句段落。",
   "issues": [],
-  "status": "passed_unchanged"
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "e929700b4e496c00950bb8d329687b24aef01f35f9ff63ee21c0087800463230",
+    "afterFileSha256": "e929700b4e496c00950bb8d329687b24aef01f35f9ff63ee21c0087800463230",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "e929700b4e496c00950bb8d329687b24aef01f35f9ff63ee21c0087800463230",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..3] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "四个时间标签各引领一则完整校园日记，保留标签与对应多句段落。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/33be6cb6c2b474aeb04dd341d0644c7bae3151d0d07692032c7f87b11a879094.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "f84ba50950bf34a830c4efc779f3cfac9198758b106f590c56cef69dd4cc8e82"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "33be6cb6c2b474aeb04dd341d0644c7bae3151d0d07692032c7f87b11a879094"
 }

@@ -1,0 +1,316 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "ddc945d6d2189fe99d60a766df8a8db12137752f66ce1bf44909f3e99cd8a87e",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "coverage": "全文 blocks[0..206]；按 JSON 上下文逐项复核对话、解释、题目、表格、词表及修复后的边界。",
+  "notes": "全文复核商店售货员故事、摘要、12题及关系代词选择上篇。修复英文词间/中文句中断段，保留正文多句对应单位；that/who十项与that/which八项各为独立说明，un-/im-等选项词缀不合并。",
+  "issues": [],
+  "mergeBlocks": [
+    {
+      "start": 19,
+      "end": 20,
+      "before": [
+        "Though she hesitated for a moment, she finally went in and asked to see a dress that",
+        "was in the window."
+      ],
+      "text": "Though she hesitated for a moment, she finally went in and asked to see a dress that was in the window.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 21,
+      "end": 22,
+      "before": [
+        "她虽然犹豫了片刻，但终于还是走进了商店，要求把陈列在橱窗里的一件衣服",
+        "拿给她看。"
+      ],
+      "text": "她虽然犹豫了片刻，但终于还是走进了商店，要求把陈列在橱窗里的一件衣服拿给她看。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 23,
+      "end": 24,
+      "before": [
+        "The assistant who served her did not like the way she was dressed. Glancing at her",
+        "scornfully, he told her that the dress was sold."
+      ],
+      "text": "The assistant who served her did not like the way she was dressed. Glancing at her scornfully, he told her that the dress was sold.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 25,
+      "end": 26,
+      "before": [
+        "接待她的售货员不喜欢她的那副打扮，轻蔑地看了她一眼后，便告诉她那件衣",
+        "服已经卖出去了。"
+      ],
+      "text": "接待她的售货员不喜欢她的那副打扮，轻蔑地看了她一眼后，便告诉她那件衣服已经卖出去了。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 27,
+      "end": 28,
+      "before": [
+        "The woman walked out of the shop angirly and decided to punish the assistant next",
+        "day."
+      ],
+      "text": "The woman walked out of the shop angirly and decided to punish the assistant next day.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 30,
+      "end": 31,
+      "before": [
+        "She returned to the shop the following morning dressed in a fur coat, with a handbag",
+        "in one hand and a long umbrella in the other."
+      ],
+      "text": "She returned to the shop the following morning dressed in a fur coat, with a handbag in one hand and a long umbrella in the other.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 32,
+      "end": 33,
+      "before": [
+        "第二天上午，她又来到这家商店，穿了一件裘皮大衣，一只手拎着一只手提",
+        "包，另一只手拿着一把长柄伞。"
+      ],
+      "text": "第二天上午，她又来到这家商店，穿了一件裘皮大衣，一只手拎着一只手提包，另一只手拿着一把长柄伞。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 34,
+      "end": 35,
+      "before": [
+        "After seeking out the rude assistant, she asked for the same dress. Not realizing who",
+        "she was, the assistant was eager to serve her this time."
+      ],
+      "text": "After seeking out the rude assistant, she asked for the same dress. Not realizing who she was, the assistant was eager to serve her this time.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 36,
+      "end": 37,
+      "before": [
+        "找到那个无礼的售货员后，她还要看昨天的那件衣服。那个售货员没有认出她",
+        "是谁，这一回接待她的态度非常殷勤。"
+      ],
+      "text": "找到那个无礼的售货员后，她还要看昨天的那件衣服。那个售货员没有认出她是谁，这一回接待她的态度非常殷勤。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 38,
+      "end": 39,
+      "before": [
+        "With great difficulty, he climbed into the shop window to get the dress. As soon as",
+        "she saw it, the woman said she did not like it."
+      ],
+      "text": "With great difficulty, he climbed into the shop window to get the dress. As soon as she saw it, the woman said she did not like it.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 40,
+      "end": 41,
+      "before": [
+        "费了好大劲儿，他爬进橱窗去取那件衣服。这位妇女对那件衣服只看一眼，就",
+        "说不喜欢。"
+      ],
+      "text": "费了好大劲儿，他爬进橱窗去取那件衣服。这位妇女对那件衣服只看一眼，就说不喜欢。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 42,
+      "end": 43,
+      "before": [
+        "She enjoyed herself making the assistant bring almost everything in the window",
+        "before finally buying the dress she had first asked for."
+      ],
+      "text": "She enjoyed herself making the assistant bring almost everything in the window before finally buying the dress she had first asked for.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 44,
+      "end": 45,
+      "before": [
+        "她开心地迫使那位售货员把橱窗里几乎所有的东西都拿了出来，最后才买下了",
+        "她最先要看的那一件。"
+      ],
+      "text": "她开心地迫使那位售货员把橱窗里几乎所有的东西都拿了出来，最后才买下了她最先要看的那一件。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 48,
+      "end": 49,
+      "before": [
+        "1 Did the woman in jeans hesitate for a moment or not? Did she enter an expensive",
+        "shop or not? What did she ask to see? (Though... and)"
+      ],
+      "text": "1 Did the woman in jeans hesitate for a moment or not? Did she enter an expensive shop or not? What did she ask to see? (Though... and)",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 50,
+      "end": 51,
+      "before": [
+        "2 What did an assistant tell her? When did the woman return? Was she dressed in a",
+        "fur coat or not? (On being told by)"
+      ],
+      "text": "2 What did an assistant tell her? When did the woman return? Was she dressed in a fur coat or not? (On being told by)",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 53,
+      "end": 54,
+      "before": [
+        "4 What did she make him bring her? What did the woman finally buy? (After",
+        "making)"
+      ],
+      "text": "4 What did she make him bring her? What did the woman finally buy? (After making)",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 55,
+      "end": 60,
+      "before": [
+        "Answer: Though the woman in jeans hesitated for a moment, she entered an",
+        "expensive shop and asked to see a dress that was in the window. On being told",
+        "by an assistant that the dress was sold, the woman returned the following",
+        "morning dressed in a fur coat. The assistant was eager to serve her this time.",
+        "After making him bring her almost everything in the window, the woman",
+        "finally bought the dress she had first asked for."
+      ],
+      "text": "Answer: Though the woman in jeans hesitated for a moment, she entered an expensive shop and asked to see a dress that was in the window. On being told by an assistant that the dress was sold, the woman returned the following morning dressed in a fur coat. The assistant was eager to serve her this time. After making him bring her almost everything in the window, the woman finally bought the dress she had first asked for.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 126,
+      "end": 127,
+      "before": [
+        "▶ 学习定语从句的关键在于正确运用关系代词，而关系代词的选择取决于以",
+        "下几个因素："
+      ],
+      "text": "▶ 学习定语从句的关键在于正确运用关系代词，而关系代词的选择取决于以下几个因素：",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 129,
+      "end": 130,
+      "before": [
+        "2. 关系代词在从句中的句法功能，即关系代词是作定语从句的主语还是宾语,",
+        "还是句子的其他成分。"
+      ],
+      "text": "2. 关系代词在从句中的句法功能，即关系代词是作定语从句的主语还是宾语,还是句子的其他成分。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 131,
+      "end": 132,
+      "before": [
+        "3. 定语从句与先行词的关系，即定语从句是限制性定语从句还是非限制性的",
+        "定语从句。"
+      ],
+      "text": "3. 定语从句与先行词的关系，即定语从句是限制性定语从句还是非限制性的定语从句。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 136,
+      "end": 138,
+      "before": [
+        "关系代词that与who都可以表示人，但that不可引导非限制性定语从句。一般",
+        "而言，that多用于口语或非正式文体, who 多用于正式文体。两者在限制性定语",
+        "从句中的用法有以下区别："
+      ],
+      "text": "关系代词that与who都可以表示人，但that不可引导非限制性定语从句。一般而言，that多用于口语或非正式文体, who 多用于正式文体。两者在限制性定语从句中的用法有以下区别：",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 141,
+      "end": 142,
+      "before": [
+        "(2)当先行词被一个最高级形容词或限定词如any, first, last, only等修饰时，用that",
+        "而不用who。"
+      ],
+      "text": "(2)当先行词被一个最高级形容词或限定词如any, first, last, only等修饰时，用that 而不用who。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 151,
+      "end": 152,
+      "before": [
+        "(5)当定语从句为there be结构时，在从句作主语的关系代词只能是that, that常可",
+        "省略。"
+      ],
+      "text": "(5)当定语从句为there be结构时，在从句作主语的关系代词只能是that, that常可省略。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 166,
+      "end": 167,
+      "before": [
+        "(9)在限制性定语从句中，有时为了明确所指对象避免歧义，必须根据句子的意",
+        "思来选择关系代词。如果指人的先行词被其他成分隔开时，通常用who。"
+      ],
+      "text": "(9)在限制性定语从句中，有时为了明确所指对象避免歧义，必须根据句子的意思来选择关系代词。如果指人的先行词被其他成分隔开时，通常用who。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 172,
+      "end": 173,
+      "before": [
+        "(10)在正式文体中，人称代词he可以用作先行词表示类指，但复数人称代词they",
+        "则不能。此外，he后面的定语从句中的引导词可以是who或that。"
+      ],
+      "text": "(10)在正式文体中，人称代词he可以用作先行词表示类指，但复数人称代词they 则不能。此外，he后面的定语从句中的引导词可以是who或that。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 179,
+      "end": 180,
+      "before": [
+        "(2)当先行词为all, everything, nothing, anything, something, little, much, a few 等不",
+        "定代词时，用that而不用which。"
+      ],
+      "text": "(2)当先行词为all, everything, nothing, anything, something, little, much, a few 等不定代词时，用that而不用which。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 184,
+      "end": 185,
+      "before": [
+        "(3)先行词有形容词最高级形式、序数词、限定词(some, any, no, every, little few,",
+        "much, all等)或only, very等词修饰时，通常用that。"
+      ],
+      "text": "(3)先行词有形容词最高级形式、序数词、限定词(some, any, no, every, little few, much, all等)或only, very等词修饰时，通常用that。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 197,
+      "end": 198,
+      "before": [
+        "• I use the word not in the present depreciatory sense, but in that which was",
+        "held in the nineteenth century."
+      ],
+      "text": "• I use the word not in the present depreciatory sense, but in that which was held in the nineteenth century.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 203,
+      "end": 204,
+      "before": [
+        "(8)当定语从句为“there be”结构时，作从句主语的关系代词只能用that, that常",
+        "可省略。"
+      ],
+      "text": "(8)当定语从句为“there be”结构时，作从句主语的关系代词只能用that, that常可省略。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    }
+  ],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/7415c51a3ec6e77c2eb33902010bdcddf0406ddfcdae29d9a4f6ac646537b9b7.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "cc712531738b1805d426b5ced3f558d29dbe2581d55c60ed89ab8b5ad03387bf"
+    }
+  ]
+}

@@ -2,10 +2,10 @@
   "schemaVersion": 1,
   "course": "nce",
   "articleId": "nce1-099",
-  "beforeDisplaySha256": "ea1454351ee28662acfc91b88dfebac7a5f1641c559270b9422d454f72016be6",
-  "afterDisplaySha256": "e8420f60858f6a33fe29beec4c43d0d9950c5bc4be68984a878cfa359775a0fd",
+  "beforeDisplaySha256": "e8420f60858f6a33fe29beec4c43d0d9950c5bc4be68984a878cfa359775a0fd",
+  "afterDisplaySha256": "84e0ffdc10dd44d50bdf16186b29904909e1af36232d0e7b1bdc95f0b8a301f0",
   "baselineDisplay": {
-    "title": "Ow!",
+    "title": "Ow",
     "titleZh": "哎哟！",
     "question": "Must Andy go to see the doctor?",
     "questionZh": "安迪必须去看医生吗？",
@@ -100,9 +100,9 @@
     "titleZh": "哎哟！",
     "question": "Must Andy go to see the doctor?",
     "questionZh": "安迪必须去看医生吗？",
-    "text": "Must Andy go to see the doctor?\n\nOw!\nWhat's the matter, Andy?\nI slipped and fell downstairs.\nHave you hurt yourself?\nYes, I have.\nI think that I've hurt my back.\nTry and stand up.\nCan you stand up?\nHere.\nLet me help you.\nI'm sorry, Lucy.\nI'm afraid that I can't get up.\nI think that the doctor had better see you.\nI'll phone Dr. Carter.\nThe doctor says that he will come at once.\nI'm sure that you need an X-ray, Andy.",
-    "bodyText": "Ow!\nWhat's the matter, Andy?\nI slipped and fell downstairs.\nHave you hurt yourself?\nYes, I have.\nI think that I've hurt my back.\nTry and stand up.\nCan you stand up?\nHere.\nLet me help you.\nI'm sorry, Lucy.\nI'm afraid that I can't get up.\nI think that the doctor had better see you.\nI'll phone Dr. Carter.\nThe doctor says that he will come at once.\nI'm sure that you need an X-ray, Andy.",
-    "bodyTextZh": "哎哟！\n怎么了，安迪？\n我在楼梯上滑倒了。\n你受伤了吗？\n是的，我受伤了。\n我觉得我的背部受了伤。\n试着站起来吧。\n你能站起来吗？\n给你。\n让我来帮你吧。\n对不起，露西。\n恐怕我站不起来了。\n我觉得医生最好还是来看看你。\n我会给卡特医生打电话。\n医生说他会立刻过来。\n我肯定你需要做一次 X 光检查，安迪。",
+    "text": "Must Andy go to see the doctor?\n\nOw!\nWhat's the matter, Andy?\nI slipped and fell downstairs.\nHave you hurt yourself?\nYes, I have. I think that I've hurt my back.\nTry and stand up. Can you stand up? Here. Let me help you.\nI'm sorry, Lucy. I'm afraid that I can't get up.\nI think that the doctor had better see you. I'll phone Dr. Carter.\nThe doctor says that he will come at once. I'm sure that you need an X-ray, Andy.",
+    "bodyText": "Ow!\nWhat's the matter, Andy?\nI slipped and fell downstairs.\nHave you hurt yourself?\nYes, I have. I think that I've hurt my back.\nTry and stand up. Can you stand up? Here. Let me help you.\nI'm sorry, Lucy. I'm afraid that I can't get up.\nI think that the doctor had better see you. I'll phone Dr. Carter.\nThe doctor says that he will come at once. I'm sure that you need an X-ray, Andy.",
+    "bodyTextZh": "哎哟！\n怎么了，安迪？\n我在楼梯上滑倒了。\n你受伤了吗？\n是的，我受伤了。我觉得我的背部受了伤。\n试着站起来吧。你能站起来吗？给你。让我来帮你吧。\n对不起，露西。恐怕我站不起来了。\n我觉得医生最好还是来看看你。我会给卡特医生打电话。\n医生说他会立刻过来。我肯定你需要做一次 X 光检查，安迪。",
     "sentences": [
       {
         "en": "Lesson 99",
@@ -188,38 +188,50 @@
   },
   "sources": [
     {
-      "path": "content/NCE-Flow/NCE1/099&100－Ow.lrc",
-      "locator": "完整LRC，ti元数据和00:02.85标题及全部中英字幕",
+      "path": "content/article-review/history/c06d901675dd0454d0002b3399e8adb57a66fc244a5d1c9d0c793db6662b0198.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
       "checked": true,
-      "sha256": "aff6cf86d9e9d6faf0ea1693e9718177a245543e36a74005145c3b4772856757"
-    },
-    {
-      "path": "content/article-review/cleanup-2026-10-06.json",
-      "sha256": "cea27c1c69e32939ff83196bd29cce9a128d8d0d6f248611217179e037971889",
-      "locator": "public/nce/lessons/nce1/099.json",
-      "checked": true
+      "sha256": "f6e1dfb7748a9bd2a839c832be6c20050b20fd4f6dc8e7a9bdc03baa0ca02be9"
     }
   ],
-  "corrections": [
-    {
-      "field": "title",
-      "before": "Ow!",
-      "after": "Ow",
-      "evidence": "User-directed source-fidelity restoration; content/article-review/cleanup-2026-10-06.json"
-    }
-  ],
-  "fullReadConfirmed": false,
-  "recheckConfirmed": false,
-  "reviewMode": "source-fidelity-rules-v1",
-  "reviewer": "Codex (user-directed restoration)",
-  "reviewedAt": "2026-10-05T17:15:10+00:00",
-  "notes": "Rule-based restoration; original full-read review remains historical. content/article-review/cleanup-2026-10-06.json",
+  "corrections": [],
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "reviewer": "Codex",
+  "reviewedAt": "2026-10-07T07:41:59+00:00",
+  "notes": "Andy摔伤；确认背伤、Lucy扶起指令、起不来说明、联系医生及电话后回话分别合段，电话前后情境保留断开。 text与bodyText同步；sentences对象及时间、角色、索引原样保留。",
   "issues": [],
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "d3e9f024cd98ede38a8ed9f79eed8fa837684fa919a3021b3768fb37786d9820",
+    "afterFileSha256": "ba9dea634ea8b49e6d331e41ffaabafd98524d2863e8d8335a3803c7ae03c454",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "d3e9f024cd98ede38a8ed9f79eed8fa837684fa919a3021b3768fb37786d9820",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title/titleZh、question/questionZh、bodyText全部16行、bodyTextZh全部16行及sentences[0..19]的完整文字；重复正文与字幕文本逐字比对，非正文字幕另读。操作在内存应用并validate_layout_change，修复后的双语全文重新通读。",
+      "notes": "Andy摔伤；确认背伤、Lucy扶起指令、起不来说明、联系医生及电话后回话分别合段，电话前后情境保留断开。 text与bodyText同步；sentences对象及时间、角色、索引原样保留。",
+      "issues": [],
+      "display": {
+        "text": "Must Andy go to see the doctor?\n\nOw!\nWhat's the matter, Andy?\nI slipped and fell downstairs.\nHave you hurt yourself?\nYes, I have. I think that I've hurt my back.\nTry and stand up. Can you stand up? Here. Let me help you.\nI'm sorry, Lucy. I'm afraid that I can't get up.\nI think that the doctor had better see you. I'll phone Dr. Carter.\nThe doctor says that he will come at once. I'm sure that you need an X-ray, Andy.",
+        "bodyText": "Ow!\nWhat's the matter, Andy?\nI slipped and fell downstairs.\nHave you hurt yourself?\nYes, I have. I think that I've hurt my back.\nTry and stand up. Can you stand up? Here. Let me help you.\nI'm sorry, Lucy. I'm afraid that I can't get up.\nI think that the doctor had better see you. I'll phone Dr. Carter.\nThe doctor says that he will come at once. I'm sure that you need an X-ray, Andy.",
+        "bodyTextZh": "哎哟！\n怎么了，安迪？\n我在楼梯上滑倒了。\n你受伤了吗？\n是的，我受伤了。我觉得我的背部受了伤。\n试着站起来吧。你能站起来吗？给你。让我来帮你吧。\n对不起，露西。恐怕我站不起来了。\n我觉得医生最好还是来看看你。我会给卡特医生打电话。\n医生说他会立刻过来。我肯定你需要做一次 X 光检查，安迪。"
+      },
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/c06d901675dd0454d0002b3399e8adb57a66fc244a5d1c9d0c793db6662b0198.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "f6e1dfb7748a9bd2a839c832be6c20050b20fd4f6dc8e7a9bdc03baa0ca02be9"
+        }
+      ]
+    }
+  },
   "status": "passed_edited",
-  "previousRevisionSha256": "6cdbda83b63042fb57a779e3408c144dc8ac238c9de038f148ec1d9ce74857f8",
-  "ruleRestoration": {
-    "policy": "source-fidelity-rules-v1",
-    "report": "content/article-review/cleanup-2026-10-06.json",
-    "reportSha256": "cea27c1c69e32939ff83196bd29cce9a128d8d0d6f248611217179e037971889"
-  }
+  "previousRevisionSha256": "c06d901675dd0454d0002b3399e8adb57a66fc244a5d1c9d0c793db6662b0198"
 }

@@ -30,24 +30,45 @@
   },
   "sources": [
     {
-      "path": "content/pep-english/raw/senior-required-1.pdf",
-      "locator": "PDF第27-27页，标题与完整正文逐行核对",
+      "path": "content/article-review/history/0e33348279f73e7ac7dd0c16cf8ddaff26db61b324e3c0ca63256d4874d4fba5.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
       "checked": true,
-      "sha256": "ffe985a370964820aa003008f48c7cf17b5e0dff8eb29fe54cd4743b0c4e8c79"
-    },
-    {
-      "path": "content/pep-english/raw/senior-required-1/senior-required-1_27.jpg",
-      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
-      "checked": true,
-      "sha256": "520cc464a4c8565d5c8d05a2059b677ee866f6f36c0e6fff876924f59b7ca64e"
+      "sha256": "f11c3494d9a79bf52e3fe88fed35f5609135447e3a5d072f23c616af341a009e"
     }
   ],
   "corrections": [],
   "fullReadConfirmed": true,
   "recheckConfirmed": true,
   "reviewer": "Codex",
-  "reviewedAt": "2026-10-02T05:21:49+00:00",
-  "notes": "PDF第27页双栏教育短文按左栏接右栏逐行核对，one eleventh/9 percent/one in 11及2013年数据均为教材原文。全文单段衔接正确，未把讨论题纳入正文，无修改。",
+  "reviewedAt": "2026-10-07T07:30:10+00:00",
+  "notes": "失学比例引出珍惜教育机会，例证与劝告形成完整论述，现有段落不按句拆碎。",
   "issues": [],
-  "status": "passed_unchanged"
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "fd4148a28fa9e2ae6d6b5c0f077e9cb13bb617dbc6e88abcd48cac4198d3557d",
+    "afterFileSha256": "fd4148a28fa9e2ae6d6b5c0f077e9cb13bb617dbc6e88abcd48cac4198d3557d",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "fd4148a28fa9e2ae6d6b5c0f077e9cb13bb617dbc6e88abcd48cac4198d3557d",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..0] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "失学比例引出珍惜教育机会，例证与劝告形成完整论述，现有段落不按句拆碎。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/0e33348279f73e7ac7dd0c16cf8ddaff26db61b324e3c0ca63256d4874d4fba5.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "f11c3494d9a79bf52e3fe88fed35f5609135447e3a5d072f23c616af341a009e"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "0e33348279f73e7ac7dd0c16cf8ddaff26db61b324e3c0ca63256d4874d4fba5"
 }

@@ -2,22 +2,22 @@
   "schemaVersion": 1,
   "course": "pep-english",
   "articleId": "pepj8a-001",
-  "beforeDisplaySha256": "a5712da3d7ac81f7f98d89f011f9964e0d7f0696b9ec7cf3b22d379e6f96d7fc",
+  "beforeDisplaySha256": "fa4f9a278b7cef9107781ba077cc2a38f4ef307741637ae4351304c572252bf0",
   "afterDisplaySha256": "fa4f9a278b7cef9107781ba077cc2a38f4ef307741637ae4351304c572252bf0",
   "baselineDisplay": {
     "title": "Jane's Vacation Diaries",
     "section": "Section B",
-    "text": "Monday, July 15th I arrived in Penang in Malaysia this morning with my family. It was sunny and hot, so we decided to go to the beach near our hotel. My sister and I tried paragliding. I felt like I was a bird. It was so exciting! For lunch, we had something very special — Malaysian yellow noodles. They were delicious! In the afternoon, we rode bicycles to Georgetown. There are a lot of new buildings now, but many of the old buildings are still there. In Weld Quay, a really old place in Georgetown, we saw the houses of the Chinese traders from 100 years ago. I wonder what life was like here in the past. I really enjoyed walking around the town.\nTuesday, July 16th What a difference a day makes! My father and I decided to go to Penang Hill today. We wanted to walk up to the top, but then it started raining a little so we decided to take the train. We waited over an hour for the train because there were too many people. When we got to the top, it was raining really hard. We didn't have an umbrella so we were wet and cold. It was terrible! And because of the bad weather, we couldn't see anything below. My father didn't bring enough money, so we only had one bowl of rice and some fish. The food tasted great because I was so hungry!",
+    "text": "Monday, July 15th\nI arrived in Penang in Malaysia this morning with my family. It was sunny and hot, so we decided to go to the beach near our hotel. My sister and I tried paragliding. I felt like I was a bird. It was so exciting! For lunch, we had something very special — Malaysian yellow noodles. They were delicious! In the afternoon, we rode bicycles to Georgetown. There are a lot of new buildings now, but many of the old buildings are still there. In Weld Quay, a really old place in Georgetown, we saw the houses of the Chinese traders from 100 years ago. I wonder what life was like here in the past. I really enjoyed walking around the town.\nTuesday, July 16th\nWhat a difference a day makes! My father and I decided to go to Penang Hill today. We wanted to walk up to the top, but then it started raining a little so we decided to take the train. We waited over an hour for the train because there were too many people. When we got to the top, it was raining really hard. We didn't have an umbrella so we were wet and cold. It was terrible! And because of the bad weather, we couldn't see anything below. My father didn't bring enough money, so we only had one bowl of rice and some fish. The food tasted great because I was so hungry!",
     "blocks": [
       {
         "type": "paragraph",
         "lang": "en",
-        "text": "Monday, July 15th I arrived in Penang in Malaysia this morning with my family. It was sunny and hot, so we decided to go to the beach near our hotel. My sister and I tried paragliding. I felt like I was a bird. It was so exciting! For lunch, we had something very special — Malaysian yellow noodles. They were delicious! In the afternoon, we rode bicycles to Georgetown. There are a lot of new buildings now, but many of the old buildings are still there. In Weld Quay, a really old place in Georgetown, we saw the houses of the Chinese traders from 100 years ago. I wonder what life was like here in the past. I really enjoyed walking around the town."
+        "text": "Monday, July 15th\nI arrived in Penang in Malaysia this morning with my family. It was sunny and hot, so we decided to go to the beach near our hotel. My sister and I tried paragliding. I felt like I was a bird. It was so exciting! For lunch, we had something very special — Malaysian yellow noodles. They were delicious! In the afternoon, we rode bicycles to Georgetown. There are a lot of new buildings now, but many of the old buildings are still there. In Weld Quay, a really old place in Georgetown, we saw the houses of the Chinese traders from 100 years ago. I wonder what life was like here in the past. I really enjoyed walking around the town."
       },
       {
         "type": "paragraph",
         "lang": "en",
-        "text": "Tuesday, July 16th What a difference a day makes! My father and I decided to go to Penang Hill today. We wanted to walk up to the top, but then it started raining a little so we decided to take the train. We waited over an hour for the train because there were too many people. When we got to the top, it was raining really hard. We didn't have an umbrella so we were wet and cold. It was terrible! And because of the bad weather, we couldn't see anything below. My father didn't bring enough money, so we only had one bowl of rice and some fish. The food tasted great because I was so hungry!"
+        "text": "Tuesday, July 16th\nWhat a difference a day makes! My father and I decided to go to Penang Hill today. We wanted to walk up to the top, but then it started raining a little so we decided to take the train. We waited over an hour for the train because there were too many people. When we got to the top, it was raining really hard. We didn't have an umbrella so we were wet and cold. It was terrible! And because of the bad weather, we couldn't see anything below. My father didn't bring enough money, so we only had one bowl of rice and some fish. The food tasted great because I was so hungry!"
       }
     ]
   },
@@ -40,24 +40,46 @@
   },
   "sources": [
     {
-      "path": "content/pep-english/raw/junior-8a.pdf",
-      "locator": "PDF第16-16页，标题与完整正文逐行核对",
+      "path": "content/article-review/history/21b19012809943fb1bc3ff4b5cd0f1b096833d83b6d173f0b7032f45892f6bb8.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
       "checked": true,
-      "sha256": "b6aede721a90f5e18420e01a9030709ebf3d9231121db71f8474d0034a10e781"
-    },
-    {
-      "path": "content/pep-english/raw/junior-8a/junior-8a_16.jpg",
-      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
-      "checked": true,
-      "sha256": "cafaa7bc560da33b75c6cf19926d1d9ff9047446eff627bac4418d725fed140f"
+      "sha256": "bdb93fd762ae2cbbcc786f069e4c054fc00bb55568c6091d6e4e6b9dd65d3bf1"
     }
   ],
   "corrections": [],
   "fullReadConfirmed": true,
   "recheckConfirmed": true,
   "reviewer": "Codex",
-  "reviewedAt": "2026-10-02T04:48:33+00:00",
-  "notes": "PDF16页印刷5页两篇完整日记逐行核对并复读；Penang/Malaysia/Georgetown/Weld Quay等专名、滑翔伞、黄面、骑车、百年前商人房屋与次日登山雨景、等车超一小时、米饭鱼均准确。恢复Monday July15th和Tuesday July16th日期独立成行，正文绕图连接无遗漏。Unit1 SectionB与概括标题正确。",
+  "reviewedAt": "2026-10-07T07:39:48+00:00",
+  "notes": "Jane槟城两日日记各自日期加完整旅行段，海滩城镇与雨中登山两日体验边界保留。",
   "issues": [],
-  "status": "passed_edited"
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "d7354058edb7b5053e9fbe5471a0e3166d81bfe05d58914a6cc36b8031c8a9bc",
+    "afterFileSha256": "d7354058edb7b5053e9fbe5471a0e3166d81bfe05d58914a6cc36b8031c8a9bc",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "d7354058edb7b5053e9fbe5471a0e3166d81bfe05d58914a6cc36b8031c8a9bc",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..1] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "Jane槟城两日日记各自日期加完整旅行段，海滩城镇与雨中登山两日体验边界保留。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "blockEdits": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/21b19012809943fb1bc3ff4b5cd0f1b096833d83b6d173f0b7032f45892f6bb8.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "bdb93fd762ae2cbbcc786f069e4c054fc00bb55568c6091d6e4e6b9dd65d3bf1"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "21b19012809943fb1bc3ff4b5cd0f1b096833d83b6d173f0b7032f45892f6bb8"
 }

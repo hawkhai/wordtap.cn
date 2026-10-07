@@ -1,0 +1,26 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "7864ae1cfd2bfd482ae7ab26670a25678b5c8cb857bbc0556b3ef7ee13058dc6",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title/titleZh、question/questionZh、bodyText全部11行、bodyTextZh全部11行及sentences[0..13]的完整文字；重复正文与字幕文本逐字比对，非正文字幕另读。操作在内存应用并validate_layout_change，修复后的双语全文重新通读。",
+  "notes": "明信片烦恼；意大利游览学语言、天天惦记却没寄、末日买卡仍没写三个自然段，开篇概括独立。 text与bodyText同步；sentences对象及时间、角色、索引原样保留。",
+  "issues": [],
+  "display": {
+    "text": "How many cards did the writer send?\n\nPostcards always spoil my holidays.\nLast summer, I went to Italy. I visited museums and sat in public gardens. A friendly waiter taught me a few words of Italian. Then he lent me a book. I read a few lines, but I did not understand a word.\nEvery day I thought about postcards. My holidays passed quickly, but I did not send cards to my friends.\nOn the last day I made a big decision. I got up early and bought thirty-seven cards. I spent the whole day in my room, but I did not write a single card!",
+    "bodyText": "Postcards always spoil my holidays.\nLast summer, I went to Italy. I visited museums and sat in public gardens. A friendly waiter taught me a few words of Italian. Then he lent me a book. I read a few lines, but I did not understand a word.\nEvery day I thought about postcards. My holidays passed quickly, but I did not send cards to my friends.\nOn the last day I made a big decision. I got up early and bought thirty-seven cards. I spent the whole day in my room, but I did not write a single card!",
+    "bodyTextZh": "明信片总是把我的假期搅得一团糟。\n去年夏天，我去了意大利。我参观了博物馆，还坐在公共花园里休息。一位友好的服务员教了我几句意大利语。之后他还借给我一本书。我读了几行，但一个词儿也不懂。\n我每天都想着明信片的事。假期很快就过去了，但我却没有给朋友们寄任何卡片。\n在最后一天，我下了一个大决心。我早早起床，买了三十七张明信片。我一整天都待在房间里，却一张卡片都没写！"
+  },
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/836e98b3522f4be5edf98a307fe2ff861e0fc09c6d2b50268fab3790797eb687.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "4d6f077dafc2aba48f48a5e11a1248d19aee53c8e827075798ee88fb7c29f5a6"
+    }
+  ]
+}

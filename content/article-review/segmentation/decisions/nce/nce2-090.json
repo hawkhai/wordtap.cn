@@ -1,0 +1,26 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "b32519dfc26d11414ec77f6bae35b7c6a639d0f541f007fd65d582b9b57854a2",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title/titleZh、question/questionZh、bodyText全部8行、bodyTextZh全部8行及sentences[0..10]的完整文字；重复正文与字幕文本逐字比对，非正文字幕另读。操作在内存应用并validate_layout_change，修复后的双语全文重新通读。",
+  "notes": "钻井平台巨鱼；鱼价背景与潜水员受惊防护、食用鱼品种和三个生长原因两段，谁吃谁问句独立。 text与bodyText同步；sentences对象及时间、角色、索引原样保留。",
+  "issues": [],
+  "display": {
+    "text": "What kind of fish are they?\n\nFish and chips has always been a favourite dish in Britain, but as the oceans have been overfished, fish has become more and more expensive. So it comes as a surprise to learn that giant fish are terrifying the divers on North Sea oil rigs. Oil rigs have to be repaired frequently and divers, who often have to work in darkness a hundred feet under water, have been frightened out of their wits by giant fish bumping into them as they work. Now they have had special cages made to protect them from these monsters.\nThe fish are not sharks or killer whales, but favourite eating varieties like cod and skate which grow to unnatural sizes, sometimes as much as twelve feet in length. Three factors have caused these fish to grow so large: the warm water round the hot oil pipes under the sea; the plentiful supply of food thrown overboard by the crews on the rigs; the total absence of fishing boats around the oil rigs. As a result, the fish just eat and eat and grow and grow in the lovely warm water.\nWho eats who?",
+    "bodyText": "Fish and chips has always been a favourite dish in Britain, but as the oceans have been overfished, fish has become more and more expensive. So it comes as a surprise to learn that giant fish are terrifying the divers on North Sea oil rigs. Oil rigs have to be repaired frequently and divers, who often have to work in darkness a hundred feet under water, have been frightened out of their wits by giant fish bumping into them as they work. Now they have had special cages made to protect them from these monsters.\nThe fish are not sharks or killer whales, but favourite eating varieties like cod and skate which grow to unnatural sizes, sometimes as much as twelve feet in length. Three factors have caused these fish to grow so large: the warm water round the hot oil pipes under the sea; the plentiful supply of food thrown overboard by the crews on the rigs; the total absence of fishing boats around the oil rigs. As a result, the fish just eat and eat and grow and grow in the lovely warm water.\nWho eats who?",
+    "bodyTextZh": "炸鱼薯条一直是英国人喜爱的美食，但由于海洋过度捕捞，鱼类的价格越来越高。因此，当人们得知巨大的鱼类正在北海石油钻井平台恐吓潜水员时，确实感到十分惊讶。这些石油钻井平台需要频繁维修，而潜水员往往必须在百英尺深的水下工作；巨大的鱼类在潜水员作业时突然撞上他们，把他们吓得魂不附体。现在，他们专门制作了防护笼来保护自己免受这些怪物的伤害。\n这些鱼既不是鲨鱼，也不是虎鲸，而是人们常吃的鳕鱼和鳐鱼等鱼类，它们长得异常巨大，有些甚至长达十二英尺。导致这些鱼类体型如此庞大的原因有三个：一是海底热油管道周围的温暖海水；二是钻井平台工作人员扔到海里的大量食物；三是石油钻井平台周围完全没有渔船。因此，鱼儿在这片温暖舒适的海水里不停地吃啊吃，长啊长。\n到底谁吃谁呢？"
+  },
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/9509d9c1f3fcf23bc99eb58ba010bb3e79209eb10418a4acddaca8b54787cf87.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "ead6520dba1d91c1249eb0bf2f9272542c4055bfe6ca7b574117b1261d2ecaac"
+    }
+  ]
+}

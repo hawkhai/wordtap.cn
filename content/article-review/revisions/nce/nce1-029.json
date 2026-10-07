@@ -2,72 +2,9 @@
   "schemaVersion": 1,
   "course": "nce",
   "articleId": "nce1-029",
-  "beforeDisplaySha256": "5c0bfc7aa9a77b45937576ebb2e925d6523b7b34af5f4224621c0f6ce927d0d9",
-  "afterDisplaySha256": "4ffffa8152a57a3333ae096247c034f4c26bbd2e5f29c6c0e9c264b562f4bee1",
+  "beforeDisplaySha256": "4ffffa8152a57a3333ae096247c034f4c26bbd2e5f29c6c0e9c264b562f4bee1",
+  "afterDisplaySha256": "1f6f06f1ff452f07cbbaddac8e955d33baf8d5324b77d362ab958ad1fe1bb2b5",
   "baselineDisplay": {
-    "title": "Come In, Amy.",
-    "titleZh": "进来，艾米。",
-    "question": "How must Amy clean the floor?",
-    "questionZh": "艾米应该怎样打扫地板呢？",
-    "text": "How must Amy clean the floor?\n\nCome in, Amy.\nShut the door, please.\nThis bedroom's very untidy.\nWhat must I do, Mrs. Jones?\nOpen the window and air the room.\nThen put these clothes in the wardrobe.\nThen make the bed.\nDust the dressing table.\nThen sweep the floor.",
-    "bodyText": "Come in, Amy.\nShut the door, please.\nThis bedroom's very untidy.\nWhat must I do, Mrs. Jones?\nOpen the window and air the room.\nThen put these clothes in the wardrobe.\nThen make the bed.\nDust the dressing table.\nThen sweep the floor.",
-    "bodyTextZh": "进来，艾米。\n请把门关上。\n这个卧室非常乱糟糟的。\n我该怎么办，琼斯太太？\n打开窗户让房间通风。\n然后把这些衣服放进衣柜里。\n接着整理床铺。\n擦掉梳妆台上的灰尘。\n然后扫地。",
-    "sentences": [
-      {
-        "en": "Lesson 29",
-        "zh": "第29课"
-      },
-      {
-        "en": "Come in, Amy.",
-        "zh": "进来，艾米。"
-      },
-      {
-        "en": "Listen to the tape then answer this question.",
-        "zh": "先听这段录音，然后再回答这个问题。"
-      },
-      {
-        "en": "How must Amy clean the floor?",
-        "zh": "艾米应该怎样打扫地板呢？"
-      },
-      {
-        "en": "Come in, Amy.",
-        "zh": "进来，艾米。"
-      },
-      {
-        "en": "Shut the door, please.",
-        "zh": "请把门关上。"
-      },
-      {
-        "en": "This bedroom's very untidy.",
-        "zh": "这个卧室非常乱糟糟的。"
-      },
-      {
-        "en": "What must I do, Mrs. Jones?",
-        "zh": "我该怎么办，琼斯太太？"
-      },
-      {
-        "en": "Open the window and air the room.",
-        "zh": "打开窗户让房间通风。"
-      },
-      {
-        "en": "Then put these clothes in the wardrobe.",
-        "zh": "然后把这些衣服放进衣柜里。"
-      },
-      {
-        "en": "Then make the bed.",
-        "zh": "接着整理床铺。"
-      },
-      {
-        "en": "Dust the dressing table.",
-        "zh": "擦掉梳妆台上的灰尘。"
-      },
-      {
-        "en": "Then sweep the floor.",
-        "zh": "然后扫地。"
-      }
-    ]
-  },
-  "display": {
     "title": "Come In, Amy.",
     "titleZh": "进来，艾米。",
     "question": "How must Amy clean the floor?",
@@ -130,20 +67,115 @@
       }
     ]
   },
+  "display": {
+    "title": "Come In, Amy.",
+    "titleZh": "进来，艾米。",
+    "question": "How must Amy clean the floor?",
+    "questionZh": "艾米应该怎样打扫地板呢？",
+    "text": "How must Amy clean the floor?\n\nCome in, Amy. Shut the door, please. This bedroom's very untidy.\nWhat must I do, Mrs. Jones?\nOpen the window and air the room. Then put these clothes in the wardrobe. Then make the bed. Dust the dressing table. Then sweep the floor.",
+    "bodyText": "Come in, Amy. Shut the door, please. This bedroom's very untidy.\nWhat must I do, Mrs. Jones?\nOpen the window and air the room. Then put these clothes in the wardrobe. Then make the bed. Dust the dressing table. Then sweep the floor.",
+    "bodyTextZh": "进来，艾米。请把门关上。这个卧室非常乱糟糟的。\n我该怎么办，琼斯太太？\n打开窗户让房间通风。然后把这些衣服放进衣柜里。接着整理床铺。擦掉梳妆台上的灰尘。然后扫地。",
+    "sentences": [
+      {
+        "en": "Lesson 29",
+        "zh": "第 29 课"
+      },
+      {
+        "en": "Come in, Amy.",
+        "zh": "进来，艾米。"
+      },
+      {
+        "en": "Listen to the tape then answer this question.",
+        "zh": "先听这段录音，然后再回答这个问题。"
+      },
+      {
+        "en": "How must Amy clean the floor?",
+        "zh": "艾米应该怎样打扫地板呢？"
+      },
+      {
+        "en": "Come in, Amy.",
+        "zh": "进来，艾米。"
+      },
+      {
+        "en": "Shut the door, please.",
+        "zh": "请把门关上。"
+      },
+      {
+        "en": "This bedroom's very untidy.",
+        "zh": "这个卧室非常乱糟糟的。"
+      },
+      {
+        "en": "What must I do, Mrs. Jones?",
+        "zh": "我该怎么办，琼斯太太？"
+      },
+      {
+        "en": "Open the window and air the room.",
+        "zh": "打开窗户让房间通风。"
+      },
+      {
+        "en": "Then put these clothes in the wardrobe.",
+        "zh": "然后把这些衣服放进衣柜里。"
+      },
+      {
+        "en": "Then make the bed.",
+        "zh": "接着整理床铺。"
+      },
+      {
+        "en": "Dust the dressing table.",
+        "zh": "擦掉梳妆台上的灰尘。"
+      },
+      {
+        "en": "Then sweep the floor.",
+        "zh": "然后扫地。"
+      }
+    ]
+  },
   "sources": [
     {
-      "path": "content/NCE-Flow/NCE1/029&030－Come In, Amy..lrc",
-      "locator": "完整LRC元数据、标题、提问及全部中英文逐句字幕和时间戳",
+      "path": "content/article-review/history/ab110e630284ab2b5c36673b10a25406b61e0298e061f65b565247ce0121d583.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
       "checked": true,
-      "sha256": "e45604cf036f190933c2031f8a1127290e39a814633749c56c641dccc85e8c1a"
+      "sha256": "0d8455921277926a081a9c8597929aea977083256a118cd3f0b51b539732cdd4"
     }
   ],
   "corrections": [],
   "fullReadConfirmed": true,
   "recheckConfirmed": true,
   "reviewer": "Codex",
-  "reviewedAt": "2026-10-02T02:24:27+00:00",
-  "notes": "逐句复核9句清扫卧室对话与LRC中译，关门/通风/收衣/铺床/除尘/扫地顺序清楚，问题答案sweep the floor完整。保留Mrs. Jones及祈使句行，只有第29课空格调整。",
+  "reviewedAt": "2026-10-07T07:39:39+00:00",
+  "notes": "琼斯太太召唤和描述卧室为同轮，艾米提问独立，随后通风收衣铺床除尘扫地的一串指令保持顺序合段。 text与bodyText同步；sentences对象及时间、角色、索引原样保留。",
   "issues": [],
-  "status": "passed_edited"
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "bc3192ed6b31c26860d01cf3d86f71270341d3c9e399cac4dd5f954f72bfcdde",
+    "afterFileSha256": "45cccca0f3a71c074a04fa351d8a4bc3f09b55ff371721030a073ec57be08d30",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "bc3192ed6b31c26860d01cf3d86f71270341d3c9e399cac4dd5f954f72bfcdde",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title/titleZh、question/questionZh、bodyText全部9行、bodyTextZh全部9行及sentences[0..12]的完整文字；重复正文与字幕文本逐字比对，非正文字幕另读。操作在内存应用并validate_layout_change，修复后的双语全文重新通读。",
+      "notes": "琼斯太太召唤和描述卧室为同轮，艾米提问独立，随后通风收衣铺床除尘扫地的一串指令保持顺序合段。 text与bodyText同步；sentences对象及时间、角色、索引原样保留。",
+      "issues": [],
+      "display": {
+        "text": "How must Amy clean the floor?\n\nCome in, Amy. Shut the door, please. This bedroom's very untidy.\nWhat must I do, Mrs. Jones?\nOpen the window and air the room. Then put these clothes in the wardrobe. Then make the bed. Dust the dressing table. Then sweep the floor.",
+        "bodyText": "Come in, Amy. Shut the door, please. This bedroom's very untidy.\nWhat must I do, Mrs. Jones?\nOpen the window and air the room. Then put these clothes in the wardrobe. Then make the bed. Dust the dressing table. Then sweep the floor.",
+        "bodyTextZh": "进来，艾米。请把门关上。这个卧室非常乱糟糟的。\n我该怎么办，琼斯太太？\n打开窗户让房间通风。然后把这些衣服放进衣柜里。接着整理床铺。擦掉梳妆台上的灰尘。然后扫地。"
+      },
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/ab110e630284ab2b5c36673b10a25406b61e0298e061f65b565247ce0121d583.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "0d8455921277926a081a9c8597929aea977083256a118cd3f0b51b539732cdd4"
+        }
+      ]
+    }
+  },
+  "status": "passed_edited",
+  "previousRevisionSha256": "ab110e630284ab2b5c36673b10a25406b61e0298e061f65b565247ce0121d583"
 }

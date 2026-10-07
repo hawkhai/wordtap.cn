@@ -120,30 +120,45 @@
   },
   "sources": [
     {
-      "path": "content/pep-english/raw/senior-selective-3.pdf",
-      "locator": "PDF第21-22页，标题与完整正文逐行核对",
+      "path": "content/article-review/history/96220402d362e793d2cef67eedded3f9e5160fbcc7da5be34986ea55a59766c2.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
       "checked": true,
-      "sha256": "ed8eb9e5988b44a1ff4f8bc11ed3cfae406decefae7982477362720788e1998b"
-    },
-    {
-      "path": "content/pep-english/raw/senior-selective-3/senior-selective-3_21.jpg",
-      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
-      "checked": true,
-      "sha256": "9c6770e06ff8c02683dc96b01c71a7794660c03b6667132d09dbf2e8289e827a"
-    },
-    {
-      "path": "content/pep-english/raw/senior-selective-3/senior-selective-3_22.jpg",
-      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
-      "checked": true,
-      "sha256": "2a6b1c828148c70364840a2accc5beac26de5923f17357c9c6cdbb9d29076136"
+      "sha256": "1d3e97a4943b20865f252af481d1384fdccb4d793e5ff773ebde5e9e4b0cbb86"
     }
   ],
   "corrections": [],
   "fullReadConfirmed": true,
   "recheckConfirmed": true,
   "reviewer": "Codex",
-  "reviewedAt": "2026-10-02T07:05:43+00:00",
-  "notes": "通读PDF第21–22页并对照完整十块正文；习惯循环三步骤顺序、跨页例子、老子引文均齐全。Aristotle处明确为based on其哲学，未误作本人直接引语。保留教材一般习惯养成说明，未发现需改的转录或分段问题。",
+  "reviewedAt": "2026-10-07T07:35:49+00:00",
+  "notes": "健康习惯说明保留习惯循环的cue、routine、reward三独立条目；实例、改变方法、渐进建议及结论保持完整段。",
   "issues": [],
-  "status": "passed_unchanged"
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "43ebd270d21ea53b428ee8c51a543e77c3141506a985843d42a4553abeee10e6",
+    "afterFileSha256": "43ebd270d21ea53b428ee8c51a543e77c3141506a985843d42a4553abeee10e6",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "43ebd270d21ea53b428ee8c51a543e77c3141506a985843d42a4553abeee10e6",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..9] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "健康习惯说明保留习惯循环的cue、routine、reward三独立条目；实例、改变方法、渐进建议及结论保持完整段。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/96220402d362e793d2cef67eedded3f9e5160fbcc7da5be34986ea55a59766c2.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "1d3e97a4943b20865f252af481d1384fdccb4d793e5ff773ebde5e9e4b0cbb86"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "96220402d362e793d2cef67eedded3f9e5160fbcc7da5be34986ea55a59766c2"
 }

@@ -1,0 +1,310 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "94bb34d6d783f27c681a8c425a2aa449e9cd3413011ef8f924f153551273c70d",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "coverage": "全文 blocks[0..90]；按 JSON 上下文逐项复核对话、解释、题目、表格、词表及修复后的边界。",
+  "notes": "时间场景十六组英中单元及 B 的独立答语拆块；词表、时间表达公式、A/B 问答轮次与原有列表内双语说明保持。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [
+    {
+      "index": 3,
+      "before": [
+        "——What's the time?\n几点了？"
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "——What's the time?"
+        },
+        {
+          "type": "paragraph",
+          "text": "几点了？"
+        }
+      ],
+      "reason": "现有换行明确区分英文与对应中文，各自成块，保留原文顺序和对话轮次。"
+    },
+    {
+      "index": 4,
+      "before": [
+        "——It is eight o'clock.\n八点了。"
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "——It is eight o'clock."
+        },
+        {
+          "type": "paragraph",
+          "text": "八点了。"
+        }
+      ],
+      "reason": "现有换行明确区分英文与对应中文，各自成块，保留原文顺序和对话轮次。"
+    },
+    {
+      "index": 5,
+      "before": [
+        "——The children should go to school.\n孩子们该去上学了。"
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "——The children should go to school."
+        },
+        {
+          "type": "paragraph",
+          "text": "孩子们该去上学了。"
+        }
+      ],
+      "reason": "现有换行明确区分英文与对应中文，各自成块，保留原文顺序和对话轮次。"
+    },
+    {
+      "index": 6,
+      "before": [
+        "Today they are going to school on foot.\n今天他们走路去上学。"
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Today they are going to school on foot."
+        },
+        {
+          "type": "paragraph",
+          "text": "今天他们走路去上学。"
+        }
+      ],
+      "reason": "现有换行明确区分英文与对应中文，各自成块，保留原文顺序和对话轮次。"
+    },
+    {
+      "index": 7,
+      "before": [
+        "——What time is it now?\n几点了？"
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "——What time is it now?"
+        },
+        {
+          "type": "paragraph",
+          "text": "几点了？"
+        }
+      ],
+      "reason": "现有换行明确区分英文与对应中文，各自成块，保留原文顺序和对话轮次。"
+    },
+    {
+      "index": 8,
+      "before": [
+        "——It is ten o'clock.\n十点了。"
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "——It is ten o'clock."
+        },
+        {
+          "type": "paragraph",
+          "text": "十点了。"
+        }
+      ],
+      "reason": "现有换行明确区分英文与对应中文，各自成块，保留原文顺序和对话轮次。"
+    },
+    {
+      "index": 9,
+      "before": [
+        "——I usually stay at home in the morning.\n上午我一般是待在家里。"
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "——I usually stay at home in the morning."
+        },
+        {
+          "type": "paragraph",
+          "text": "上午我一般是待在家里。"
+        }
+      ],
+      "reason": "现有换行明确区分英文与对应中文，各自成块，保留原文顺序和对话轮次。"
+    },
+    {
+      "index": 10,
+      "before": [
+        "But this morning, I have to go to the supermarket.\n但是今天我要去一趟超市。"
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "But this morning, I have to go to the supermarket."
+        },
+        {
+          "type": "paragraph",
+          "text": "但是今天我要去一趟超市。"
+        }
+      ],
+      "reason": "现有换行明确区分英文与对应中文，各自成块，保留原文顺序和对话轮次。"
+    },
+    {
+      "index": 11,
+      "before": [
+        "——What's the time?\n几点了？"
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "——What's the time?"
+        },
+        {
+          "type": "paragraph",
+          "text": "几点了？"
+        }
+      ],
+      "reason": "现有换行明确区分英文与对应中文，各自成块，保留原文顺序和对话轮次。"
+    },
+    {
+      "index": 12,
+      "before": [
+        "——It is four o'clock in the afternoon.\n下午四点了。"
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "——It is four o'clock in the afternoon."
+        },
+        {
+          "type": "paragraph",
+          "text": "下午四点了。"
+        }
+      ],
+      "reason": "现有换行明确区分英文与对应中文，各自成块，保留原文顺序和对话轮次。"
+    },
+    {
+      "index": 13,
+      "before": [
+        "——I would like to drink some tea.\n我想喝点茶。"
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "——I would like to drink some tea."
+        },
+        {
+          "type": "paragraph",
+          "text": "我想喝点茶。"
+        }
+      ],
+      "reason": "现有换行明确区分英文与对应中文，各自成块，保留原文顺序和对话轮次。"
+    },
+    {
+      "index": 14,
+      "before": [
+        "——What time is it now?\n现在几点了？"
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "——What time is it now?"
+        },
+        {
+          "type": "paragraph",
+          "text": "现在几点了？"
+        }
+      ],
+      "reason": "现有换行明确区分英文与对应中文，各自成块，保留原文顺序和对话轮次。"
+    },
+    {
+      "index": 15,
+      "before": [
+        "——Now it is six o'clock.\n六点了。"
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "——Now it is six o'clock."
+        },
+        {
+          "type": "paragraph",
+          "text": "六点了。"
+        }
+      ],
+      "reason": "现有换行明确区分英文与对应中文，各自成块，保留原文顺序和对话轮次。"
+    },
+    {
+      "index": 16,
+      "before": [
+        "——In the evening, the children usually do their homework.\n傍晚，孩子们通常会写作业。"
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "——In the evening, the children usually do their homework."
+        },
+        {
+          "type": "paragraph",
+          "text": "傍晚，孩子们通常会写作业。"
+        }
+      ],
+      "reason": "现有换行明确区分英文与对应中文，各自成块，保留原文顺序和对话轮次。"
+    },
+    {
+      "index": 17,
+      "before": [
+        "But this evening, they are not doing their homework.\n但是今天，他们没有写作业。"
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "But this evening, they are not doing their homework."
+        },
+        {
+          "type": "paragraph",
+          "text": "但是今天，他们没有写作业。"
+        }
+      ],
+      "reason": "现有换行明确区分英文与对应中文，各自成块，保留原文顺序和对话轮次。"
+    },
+    {
+      "index": 18,
+      "before": [
+        "At the moment, they are playing in the garden.\n他们正在花园里玩耍。"
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "At the moment, they are playing in the garden."
+        },
+        {
+          "type": "paragraph",
+          "text": "他们正在花园里玩耍。"
+        }
+      ],
+      "reason": "现有换行明确区分英文与对应中文，各自成块，保留原文顺序和对话轮次。"
+    },
+    {
+      "index": 65,
+      "before": [
+        "B: It's seven (o'clock).\n七点整。"
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "B: It's seven (o'clock)."
+        },
+        {
+          "type": "paragraph",
+          "text": "七点整。"
+        }
+      ],
+      "reason": "现有换行明确区分英文与对应中文，各自成块，保留原文顺序和对话轮次。"
+    }
+  ],
+  "sources": [
+    {
+      "path": "content/article-review/history/bc8a25d5d61f6a2bc5036ff2a4ead8f0cec4180977a88b88c56c2b5207596649.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "d998f6f0f5a3c0d65af27e20b4af42017378116f91ddad1ca94b61bd4ddd860d"
+    }
+  ]
+}

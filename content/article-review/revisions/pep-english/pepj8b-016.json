@@ -50,24 +50,46 @@
   },
   "sources": [
     {
-      "path": "content/pep-english/raw/junior-8b.pdf",
-      "locator": "PDF第76-76页，标题与完整正文逐行核对",
+      "path": "content/article-review/history/85d1a273626804453a56cbf678bf386ed15c8e6297d9eb84f6e9c7583276036a.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
       "checked": true,
-      "sha256": "1be886980dc0833b9c87ced7c9de0c8e3e7e19d990c1172f62504576d2554284"
-    },
-    {
-      "path": "content/pep-english/raw/junior-8b/junior-8b_76.jpg",
-      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
-      "checked": true,
-      "sha256": "d9fa40298b364d5cb960ed2498aaa8fd479d1eead5801f91a1f5285532845e0d"
+      "sha256": "2ba5ce2aebc8e43bd52c2a06697c8143bb72e0d11d82b090329619f981f646ba"
     }
   ],
   "corrections": [],
   "fullReadConfirmed": true,
   "recheckConfirmed": true,
   "reviewer": "Codex",
-  "reviewedAt": "2026-10-02T05:03:24+00:00",
-  "notes": "PDF76页印刷67页Ken/Amy/Linlin三段逐行核对，计算机馆、印度厕所馆、杭州茶博物馆各自角色与完整叙述正确；原页下划线仅词汇练习标注，无需混入正文格式。标题概括准确，词形、疑问从句和段落再次复读无误。",
+  "reviewedAt": "2026-10-07T07:42:00+00:00",
+  "notes": "Ken、Amy、Linlin三个博物馆推荐各独立署名段，多句场馆体验完整保留。",
   "issues": [],
-  "status": "passed_unchanged"
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "cc5d8db6eee3aa6e1220c4e74e6202c616dcb6444e51e01334fe9ae49cc92971",
+    "afterFileSha256": "cc5d8db6eee3aa6e1220c4e74e6202c616dcb6444e51e01334fe9ae49cc92971",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "cc5d8db6eee3aa6e1220c4e74e6202c616dcb6444e51e01334fe9ae49cc92971",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..2] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "Ken、Amy、Linlin三个博物馆推荐各独立署名段，多句场馆体验完整保留。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "blockEdits": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/85d1a273626804453a56cbf678bf386ed15c8e6297d9eb84f6e9c7583276036a.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "2ba5ce2aebc8e43bd52c2a06697c8143bb72e0d11d82b090329619f981f646ba"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "85d1a273626804453a56cbf678bf386ed15c8e6297d9eb84f6e9c7583276036a"
 }

@@ -102,36 +102,45 @@
   },
   "sources": [
     {
-      "path": "content/College-English/NHCE4-RW1.pdf",
-      "locator": "PDF 19-21，印刷页 4-6，完整正文与标题逐段核对",
+      "path": "content/article-review/history/f4f506e8b3649dc9d115329caa1753b5f5bbd240d7c7f9292c7339a9e0cc3591.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
       "checked": true,
-      "sha256": "05d7a57fb09156e13d02ce498271c86917869b5327e8981f1eedf205ceb465ec"
-    },
-    {
-      "path": "content/College-English/NHCE4-RW1/NHCE4-RW1_19.jpg",
-      "locator": "已打开教材图页并通读复核正文",
-      "checked": true,
-      "sha256": "00854963574019c7ed3030a94b1cf6d1b8963ee188508778f1f9cb940ba1737a"
-    },
-    {
-      "path": "content/College-English/NHCE4-RW1/NHCE4-RW1_20.jpg",
-      "locator": "已打开教材图页并通读复核正文",
-      "checked": true,
-      "sha256": "6eda0f6d13a64c200297ece63def25d7c9d610b0fb8b238559fac70f1c0898b9"
-    },
-    {
-      "path": "content/College-English/NHCE4-RW1/NHCE4-RW1_21.jpg",
-      "locator": "已打开教材图页并通读复核正文",
-      "checked": true,
-      "sha256": "3e7236021dcc1ff1ed5ff56a10cefe3d1fe2446702ee31206c7fa377a03c29db"
+      "sha256": "112a802bf46d7c7c46f3c340867ee5332b440fbba638be629b6254e4c98ab0d0"
     }
   ],
   "corrections": [],
   "fullReadConfirmed": true,
   "recheckConfirmed": true,
   "reviewer": "Codex",
-  "reviewedAt": "2026-10-02T08:18:13+00:00",
-  "notes": "完整通读八段校长欢迎演讲，并逐行核对PDF19—21页原图。第4、6段跨页续文完整，保留第5段达芬奇例子及第7段匿名引语；原书为more broadly-educated，保留其用词和标点。正文与八个语义段一致，无需新增修改。",
+  "reviewedAt": "2026-10-07T07:29:59+00:00",
+  "notes": "全文及未改动输出复核：迎新致辞按欢迎、毕业回忆、大学资源、选课建议、宿舍体验、传承责任和结语展开；达芬奇例证属于选课段内部，多句段落完整，保留八段。",
   "issues": [],
-  "status": "passed_unchanged"
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "60d13ff3309873a8e3b856f5d561e91c2827e1637cdba564175f2486ff597aa1",
+    "afterFileSha256": "60d13ff3309873a8e3b856f5d561e91c2827e1637cdba564175f2486ff597aa1",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "60d13ff3309873a8e3b856f5d561e91c2827e1637cdba564175f2486ff597aa1",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "完整 title、blocks[0..7]及完全相同的text；正文及内嵌中文、引语、对话和列举均已逐项通读；无改动输出按全文再次复核。",
+      "notes": "全文及未改动输出复核：迎新致辞按欢迎、毕业回忆、大学资源、选课建议、宿舍体验、传承责任和结语展开；达芬奇例证属于选课段内部，多句段落完整，保留八段。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/f4f506e8b3649dc9d115329caa1753b5f5bbd240d7c7f9292c7339a9e0cc3591.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "112a802bf46d7c7c46f3c340867ee5332b440fbba638be629b6254e4c98ab0d0"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "f4f506e8b3649dc9d115329caa1753b5f5bbd240d7c7f9292c7339a9e0cc3591"
 }

@@ -70,24 +70,45 @@
   },
   "sources": [
     {
-      "path": "content/pep-english/raw/senior-required-1.pdf",
-      "locator": "PDF第57-57页，标题与完整正文逐行核对",
+      "path": "content/article-review/history/c3fd7b791fa573a42e7afa7c710c9a67878d265d2d09b5bb68365864da160be8.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
       "checked": true,
-      "sha256": "ffe985a370964820aa003008f48c7cf17b5e0dff8eb29fe54cd4743b0c4e8c79"
-    },
-    {
-      "path": "content/pep-english/raw/senior-required-1/senior-required-1_57.jpg",
-      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
-      "checked": true,
-      "sha256": "03513bb4abb2d5f77e2926c3bacd17455c4350635c458491d266c75817cd7d71"
+      "sha256": "15e286298ed021968bd724141dd0a1352fa8448e0d3e4b148222df4eb2c71b73"
     }
   ],
   "corrections": [],
   "fullReadConfirmed": true,
   "recheckConfirmed": true,
   "reviewer": "Codex",
-  "reviewedAt": "2026-10-02T05:24:40+00:00",
-  "notes": "PDF第57页唐山地震五段全文逐行复核，1976年7月28日、3:00/3:42、11/150/8公里、30米、40万死伤、75%/90%、15万军人及1万医护均转录一致。末段700万人是教材时点数据，保留原文；段落完整，无修改。",
+  "reviewedAt": "2026-10-07T07:30:11+00:00",
+  "notes": "唐山地震按预兆、震发、破坏、救援、重建五个完整自然段推进，边界合理。",
   "issues": [],
-  "status": "passed_unchanged"
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "c22d2774a6d4b7672e144629c047d7daebea004f4bdff603af1c89b7cf3f8a82",
+    "afterFileSha256": "c22d2774a6d4b7672e144629c047d7daebea004f4bdff603af1c89b7cf3f8a82",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "c22d2774a6d4b7672e144629c047d7daebea004f4bdff603af1c89b7cf3f8a82",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..4] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "唐山地震按预兆、震发、破坏、救援、重建五个完整自然段推进，边界合理。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/c3fd7b791fa573a42e7afa7c710c9a67878d265d2d09b5bb68365864da160be8.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "15e286298ed021968bd724141dd0a1352fa8448e0d3e4b148222df4eb2c71b73"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "c3fd7b791fa573a42e7afa7c710c9a67878d265d2d09b5bb68365864da160be8"
 }

@@ -1,0 +1,21 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "06285e0bc2fdb2baf804d25acbb34341299e374a539f4b17b737f91af71adcf6",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title；全文 blocks[0..3] 与对应 text；现有正文/对话/题干逐块通读复核。",
+  "notes": "动物肢体语言引言后按狗、大象、海豚各为完整介绍段，动作与情绪例证不拆碎。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/d0dd0735650ae9a10a098b230b7445c732a0177d5aaf189f5839843ccd8e2e8e.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "8362804c3a0479a1deefd7c52c8ac26e3cc0ca94dbf402b072db9b06e5501589"
+    }
+  ]
+}

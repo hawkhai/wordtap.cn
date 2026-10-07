@@ -50,24 +50,46 @@
   },
   "sources": [
     {
-      "path": "content/pep-english/raw/junior-9.pdf",
-      "locator": "PDF第26-26页，标题与完整正文逐行核对",
+      "path": "content/article-review/history/339423a63cdd52e31138faec56940b4baf8e3524b5f4671f4e32021a97c00ad5.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
       "checked": true,
-      "sha256": "9c4118021048d901610b673f590ed28c39c04cb2d4f7fd940f83a2d8b2741af7"
-    },
-    {
-      "path": "content/pep-english/raw/junior-9/junior-9_26.jpg",
-      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
-      "checked": true,
-      "sha256": "bbd4c4766108ee53d44f2023658fbbb7d8bcb8d5f6dc1137f03b93b53a536850"
+      "sha256": "837eacbb118238c3335f255d8a118a2c32da87b509469e4fbee86f2da2ccf921"
     }
   ],
   "corrections": [],
   "fullReadConfirmed": true,
   "recheckConfirmed": true,
   "reviewer": "Codex",
-  "reviewedAt": "2026-10-02T05:06:40+00:00",
-  "notes": "PDF26页印刷12页June给Xia Yu的完整信逐行复核，五月第二周日/六月第三周日、母亲鲜花卡片/父亲衬衫领带与不必多花钱的结论均一致。称呼、正文和署名三块正确，未混入语法表与练习，复读无修改。",
+  "reviewedAt": "2026-10-07T07:42:01+00:00",
+  "notes": "June给Xia Yu父母节书信称呼、完整习俗建议段、署名清楚，保留。",
   "issues": [],
-  "status": "passed_unchanged"
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "5c93f78fbff7c7a48228f8adf7ef5765bb0d4db36e76afd30cc576771372a60e",
+    "afterFileSha256": "5c93f78fbff7c7a48228f8adf7ef5765bb0d4db36e76afd30cc576771372a60e",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "5c93f78fbff7c7a48228f8adf7ef5765bb0d4db36e76afd30cc576771372a60e",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..2] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "June给Xia Yu父母节书信称呼、完整习俗建议段、署名清楚，保留。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "blockEdits": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/339423a63cdd52e31138faec56940b4baf8e3524b5f4671f4e32021a97c00ad5.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "837eacbb118238c3335f255d8a118a2c32da87b509469e4fbee86f2da2ccf921"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "339423a63cdd52e31138faec56940b4baf8e3524b5f4671f4e32021a97c00ad5"
 }

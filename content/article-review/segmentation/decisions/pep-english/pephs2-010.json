@@ -1,0 +1,21 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "41a3849ba60c0d086fc5e1c6aa704efa90de07e8ba368bfe7d5b1ef1aae14406",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title；全文 blocks[0..6] 与对应 text；现有正文/对话/题干逐块通读复核。",
+  "notes": "饮食文化七段随美国、北京、山东、新疆、南方中原行程展开并总结，文化分析与食物例证各段连贯。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/89c73783aafee1026f33a77245a6ab5cf94124fa7e7caa27482feb88a2c18452.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "47e87a093db9635bb62bd359f5f3c04794c2d80b17e5976f4934ab4550ef5f6a"
+    }
+  ]
+}

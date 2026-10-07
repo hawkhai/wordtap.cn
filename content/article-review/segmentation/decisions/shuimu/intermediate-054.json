@@ -1,0 +1,270 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "10573894449cdc93e03bc8183cd3509fe8e76b1b9641ca7750eee95197c53c80",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "coverage": "全文 blocks[0..204]；按 JSON 上下文逐项复核对话、解释、题目、表格、词表及修复后的边界。",
+  "notes": "全文复核醉汉斗牛、摘要、12题与全部/部分倒装。保留段内连续叙述句及中英对应，合并题干和解释续行；here/there、only、否定词等例句各自成段，不更正住旁边等原字误。",
+  "issues": [],
+  "mergeBlocks": [
+    {
+      "start": 25,
+      "end": 26,
+      "before": [
+        "During a bullfight, a drunk suddenly wandered into the middle of the ring. The crowd",
+        "began to shout, but the drunk was unaware of the danger."
+      ],
+      "text": "During a bullfight, a drunk suddenly wandered into the middle of the ring. The crowd began to shout, but the drunk was unaware of the danger.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 27,
+      "end": 28,
+      "before": [
+        "在一次斗牛时，一个醉汉突然溜达到斗牛场中间，人们开始大叫起来，但醉汉",
+        "却没有意识到危险。"
+      ],
+      "text": "在一次斗牛时，一个醉汉突然溜达到斗牛场中间，人们开始大叫起来，但醉汉却没有意识到危险。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 29,
+      "end": 30,
+      "before": [
+        "The bull was busy with the matador at the time, but it suddenly caught sight of the",
+        "drunk who was shouting rude remarks and waving a red cap."
+      ],
+      "text": "The bull was busy with the matador at the time, but it suddenly caught sight of the drunk who was shouting rude remarks and waving a red cap.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 31,
+      "end": 32,
+      "before": [
+        "当时那公牛正忙于对付斗牛士，但突然它看见了醉汉，只见他正大声说着粗鲁",
+        "的 话，手里挥动着一顶红帽子。"
+      ],
+      "text": "当时那公牛正忙于对付斗牛士，但突然它看见了醉汉，只见他正大声说着粗鲁的 话，手里挥动着一顶红帽子。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 33,
+      "end": 34,
+      "before": [
+        "Apparently sensitive to criticism, the bull forgot all about the matador and charged at",
+        "the drunk."
+      ],
+      "text": "Apparently sensitive to criticism, the bull forgot all about the matador and charged at the drunk.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 38,
+      "end": 39,
+      "before": [
+        "When the bull got close to him, he clumsily stepped aside to let it pass. The crowd",
+        "broke into cheers and the drunk bowed."
+      ],
+      "text": "When the bull got close to him, he clumsily stepped aside to let it pass. The crowd broke into cheers and the drunk bowed.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 40,
+      "end": 41,
+      "before": [
+        "当公牛逼近他时，他踉跄地住旁边一闪，牛扑空了。观众欢呼起来，醉汉向人",
+        "们鞠躬致谢。"
+      ],
+      "text": "当公牛逼近他时，他踉跄地住旁边一闪，牛扑空了。观众欢呼起来，醉汉向人们鞠躬致谢。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 42,
+      "end": 43,
+      "before": [
+        "By this time, however, three men had come into the ring and they quickly dragged the",
+        "drunk to safety."
+      ],
+      "text": "By this time, however, three men had come into the ring and they quickly dragged the drunk to safety.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 45,
+      "end": 46,
+      "before": [
+        "Even the bull seemed to feel sorry for him, for it looked on sympathetically until the",
+        "drunk was out of the way before once more turning its attention to the matador."
+      ],
+      "text": "Even the bull seemed to feel sorry for him, for it looked on sympathetically until the drunk was out of the way before once more turning its attention to the matador.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 47,
+      "end": 48,
+      "before": [
+        "好像连牛也在为他感到遗憾，因为它一直同情地看着醉汉，直到他的背影消",
+        "逝，才重新将注意力转向斗牛士。"
+      ],
+      "text": "好像连牛也在为他感到遗憾，因为它一直同情地看着醉汉，直到他的背影消逝，才重新将注意力转向斗牛士。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 51,
+      "end": 52,
+      "before": [
+        "1 Did a drunk suddenly wander into the middle of the ring during a bullfight or not?",
+        "What did he do? (and)"
+      ],
+      "text": "1 Did a drunk suddenly wander into the middle of the ring during a bullfight or not? What did he do? (and)",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 53,
+      "end": 54,
+      "before": [
+        "2 Did the bull ignore the matador or not? What did it do? Why did he step aside?",
+        "(Ignoring... but)"
+      ],
+      "text": "2 Did the bull ignore the matador or not? What did it do? Why did he step aside? (Ignoring... but)",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 56,
+      "end": 58,
+      "before": [
+        "4 Did three men drag the drunk to safety just after this or not? Did the bull look on",
+        "sympathetically or not? Did it once more turn its attention to the matador or not?",
+        "(Just after this... while … before it...)"
+      ],
+      "text": "4 Did three men drag the drunk to safety just after this or not? Did the bull look on sympathetically or not? Did it once more turn its attention to the matador or not? (Just after this... while … before it...)",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 59,
+      "end": 64,
+      "before": [
+        "Answer: A drunk suddenly wandered into the middle of the ring during a",
+        "bullfight and shouted rude remarks and waved a red cap. Ignoring the",
+        "matador, the bull charged at the drunk, but he stepped aside to let it pass. The",
+        "crowd cheered and the drunk bowed. Just after this, three men dragged the",
+        "drunk to safety while the bull looked on sympathetically before it once more",
+        "turned its attention to the matador."
+      ],
+      "text": "Answer: A drunk suddenly wandered into the middle of the ring during a bullfight and shouted rude remarks and waved a red cap. Ignoring the matador, the bull charged at the drunk, but he stepped aside to let it pass. The crowd cheered and the drunk bowed. Just after this, three men dragged the drunk to safety while the bull looked on sympathetically before it once more turned its attention to the matador.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 130,
+      "end": 134,
+      "before": [
+        "有时为了语法和修辞上的需要，将谓语置于主语之前,这样的语序被称为倒装语",
+        "序。倒装语序分为全部倒装，即将整个谓语置于主语之前；部分倒装，即只将",
+        "谓语的一部分(通常是助动词和情态动词)置于主语之前。此外，有时句子的语",
+        "序没有变,但句子的某一成分通常是宾语、表语和状语移至句首。这种情况被称",
+        "为前置。"
+      ],
+      "text": "有时为了语法和修辞上的需要，将谓语置于主语之前,这样的语序被称为倒装语序。倒装语序分为全部倒装，即将整个谓语置于主语之前；部分倒装，即只将谓语的一部分(通常是助动词和情态动词)置于主语之前。此外，有时句子的语序没有变,但句子的某一成分通常是宾语、表语和状语移至句首。这种情况被称为前置。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 140,
+      "end": 141,
+      "before": [
+        "(1)语法倒装：由于语法结构的需要而必须进行的倒装，否则就会出现语法错",
+        "误。"
+      ],
+      "text": "(1)语法倒装：由于语法结构的需要而必须进行的倒装，否则就会出现语法错误。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 145,
+      "end": 146,
+      "before": [
+        "• At the top of the hill stands a weather station. 小山顶上矗立着一个气象",
+        "站。"
+      ],
+      "text": "• At the top of the hill stands a weather station. 小山顶上矗立着一个气象站。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 154,
+      "end": 155,
+      "before": [
+        "• Seated in a ring on the ground were a group of college students talking",
+        "heartily."
+      ],
+      "text": "• Seated in a ring on the ground were a group of college students talking heartily.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 157,
+      "end": 158,
+      "before": [
+        "▪当句首状语为方位词如here, there和时间副词如now, then等，谓语动词为be,",
+        "go, come等表示位置转移的动词而主语又较长时，通常用全部倒装。"
+      ],
+      "text": "▪当句首状语为方位词如here, there和时间副词如now, then等，谓语动词为be, go, come等表示位置转移的动词而主语又较长时，通常用全部倒装。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 170,
+      "end": 172,
+      "before": [
+        "部分倒装是指谓语的一部分，即助动词be, do, does, did, have, has, had以及情态",
+        "动词can, could, may, might, shall, will, should, would, ought等置于主语之前，其余",
+        "部分包括谓语动词仍在主语之后。"
+      ],
+      "text": "部分倒装是指谓语的一部分，即助动词be, do, does, did, have, has, had以及情态动词can, could, may, might, shall, will, should, would, ought等置于主语之前，其余部分包括谓语动词仍在主语之后。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 175,
+      "end": 176,
+      "before": [
+        "• At no time and under no circumstances will China be the first to use nuclear",
+        "weapons."
+      ],
+      "text": "• At no time and under no circumstances will China be the first to use nuclear weapons.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 192,
+      "end": 193,
+      "before": [
+        "▪在 以 not only... but(also), hardly/scarcely/barely... when, no sooner... than, not",
+        "until等开头的句子，常用部分倒装。"
+      ],
+      "text": "▪在 以 not only... but(also), hardly/scarcely/barely... when, no sooner... than, not until等开头的句子，常用部分倒装。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 198,
+      "end": 199,
+      "before": [
+        "▪在as引导的方式状语从句，than引导的比较状语从句以及the more..., the",
+        "more...的结构中，也可以用部分倒装。"
+      ],
+      "text": "▪在as引导的方式状语从句，than引导的比较状语从句以及the more..., the more...的结构中，也可以用部分倒装。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 202,
+      "end": 203,
+      "before": [
+        "• Silver conducts heat and electricity much better than do most metals in the",
+        "world."
+      ],
+      "text": "• Silver conducts heat and electricity much better than do most metals in the world.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    }
+  ],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/96531b090d74b3b0f3773fb1726bbad071477530d531ec6f7a314e1c96b285b6.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "8976164126fdc84cd0987667b34f0d3fe38bbafffca582b31a76765a854ba724"
+    }
+  ]
+}

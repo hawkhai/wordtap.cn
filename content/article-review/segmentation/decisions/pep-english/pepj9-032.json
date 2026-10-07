@@ -1,0 +1,22 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "264644c4b5e857e02e51327d312e5677778490b539589033d9dac8bc7f57d7de",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title；全文 blocks[0..4] 与对应 text；现有正文/对话/题干逐块通读复核。",
+  "notes": "Lin Yue法国交换书信保留称呼、寄宿与语言、餐桌习俗、结语、落款，习俗长段例证连贯。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "blockEdits": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/ad177a0aee4ae4bbca5f1fe4f1a0b0385fdbbfde7edb90e52cce45eed5ab6aae.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "d6deb4c16c821c927ab8c6af79e75ddb016168f545e653a35ee6ab27da9511ba"
+    }
+  ]
+}

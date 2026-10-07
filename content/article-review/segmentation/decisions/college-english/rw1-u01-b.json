@@ -1,0 +1,21 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "af9e9b3e3a2db7d7397f4380db356917757b7e3e7b8cc0530fa3154291e3f00d",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "完整 title、blocks[0..10]及完全相同的text；正文及内嵌中文、引语、对话和列举均已逐项通读；无改动输出按全文再次复核。",
+  "notes": "全文及未改动输出复核：家书称呼独立；学习、选课、成绩、交友、青春各为完整建议段；College is the time下四行并列和Love/Your father落款为有意换行，保留其独立行及原段。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/38443e7bfd7a1c2ddb294d9faa1c6b6755072c3678c9dc9f699ba5ab73c744c3.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "6b3dd63fdcfcd1ab6d3f015b98b57f096b41dbc7de8772a204eb315c452e0969"
+    }
+  ]
+}

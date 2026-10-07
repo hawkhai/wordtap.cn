@@ -1,0 +1,21 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "18c09801625f657e06b7b7de430b3a8ab8023803b14ed964816dd83fbdd574d5",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title；全文 blocks[0..16] 与对应 text；现有正文/对话/题干逐块通读复核。",
+  "notes": "Endurance日记保留三个日期标题、各日完整叙事、末段对白与短感悟段，不把有意短段误并。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/c9409df76ae750d7b2cb617f2fb93a2adb6a7a988c06230718b62f11e9a84b4f.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "ac7fb691a6677f9ad65569f412a2ae0c2e048603abd6fe0210aa2bf15c671fc0"
+    }
+  ]
+}

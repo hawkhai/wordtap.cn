@@ -1,0 +1,294 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "0ef29629253527504295f26bd4dfb7239eb1ae05b2a3f8d1d050581cd2da3009",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title；全文 blocks[0..201] 与对应 text；现有正文/对话/题干逐块通读复核。",
+  "notes": "通读A lost ship词表、三组英汉打捞叙事、七条注释、21题理解问答、The last day日志提纲及四段范文、全部选择题答案。日志按此前航程、首次潜艇袭击、反击、15:15最后记录四段保留；结尾The captain has just announced--为有意未完日志，保持不续写。",
+  "issues": [],
+  "mergeBlocks": [
+    {
+      "start": 24,
+      "end": 28,
+      "before": [
+        "The salvage operation had been a complete failure. The small ship, Elkor, which had",
+        "been searching the Barents Sea for weeks, was on its way home. A radio message",
+        "from the mainland had been received by the ship's captain instructing him to give up",
+        "the search. The captain knew that another attempt would be made later, for the sunken",
+        "ship he was trying to find had been carrying a precious cargo of gold bullion."
+      ],
+      "text": "The salvage operation had been a complete failure. The small ship, Elkor, which had been searching the Barents Sea for weeks, was on its way home. A radio message from the mainland had been received by the ship's captain instructing him to give up the search. The captain knew that another attempt would be made later, for the sunken ship he was trying to find had been carrying a precious cargo of gold bullion.",
+      "reason": "打捞失败、意外发现和辨认沉船三组英汉段及注释/题目内部断行恢复完整句段，日志范文四段保持。"
+    },
+    {
+      "start": 29,
+      "end": 31,
+      "before": [
+        "打捞工作彻底失败了。小船“埃尔科”号在巴伦支海搜寻了几个星期之后，正在返",
+        "航途中。返航前，该船船长收到了大陆上发来的电报，指示他们放弃这次搜寻。",
+        "船长知道日后还会再作尝试，因为他试图寻找的沉船上载有一批珍贵的金条。"
+      ],
+      "text": "打捞工作彻底失败了。小船“埃尔科”号在巴伦支海搜寻了几个星期之后，正在返航途中。返航前，该船船长收到了大陆上发来的电报，指示他们放弃这次搜寻。船长知道日后还会再作尝试，因为他试图寻找的沉船上载有一批珍贵的金条。",
+      "reason": "打捞失败、意外发现和辨认沉船三组英汉段及注释/题目内部断行恢复完整句段，日志范文四段保持。"
+    },
+    {
+      "start": 34,
+      "end": 35,
+      "before": [
+        "2 for the sunken ship he was trying to find …,for 作“因为”讲，引导并列句； he was",
+        "trying to find 是定语从句修饰主语 ship。"
+      ],
+      "text": "2 for the sunken ship he was trying to find …,for 作“因为”讲，引导并列句； he was trying to find 是定语从句修饰主语 ship。",
+      "reason": "打捞失败、意外发现和辨认沉船三组英汉段及注释/题目内部断行恢复完整句段，日志范文四段保持。"
+    },
+    {
+      "start": 36,
+      "end": 41,
+      "before": [
+        "Despite the message, the captain of the Elkor decided to try once more. The sea bed",
+        "was scoured with powerful nets and there was tremendous excitement on board when",
+        "a chest was raised from the bottom. Though the crew were at first under the",
+        "impression that the lost ship had been found, the contents of the chest proved them",
+        "wrong. What they had in fact found was a ship which had been sunk many years",
+        "before."
+      ],
+      "text": "Despite the message, the captain of the Elkor decided to try once more. The sea bed was scoured with powerful nets and there was tremendous excitement on board when a chest was raised from the bottom. Though the crew were at first under the impression that the lost ship had been found, the contents of the chest proved them wrong. What they had in fact found was a ship which had been sunk many years before.",
+      "reason": "打捞失败、意外发现和辨认沉船三组英汉段及注释/题目内部断行恢复完整句段，日志范文四段保持。"
+    },
+    {
+      "start": 42,
+      "end": 45,
+      "before": [
+        "尽管船长接到了电报，他还是决定再试一试。他们用结实的网把海床搜索了一遍。",
+        "当一只箱子从海底被打捞上来时，甲板上人们激动不已。船员们开始认为沉船找",
+        "着了，但海底沉箱内的物品证明他们弄错了。事实上，他们发现的是另一艘沉没",
+        "多年的船。"
+      ],
+      "text": "尽管船长接到了电报，他还是决定再试一试。他们用结实的网把海床搜索了一遍。当一只箱子从海底被打捞上来时，甲板上人们激动不已。船员们开始认为沉船找着了，但海底沉箱内的物品证明他们弄错了。事实上，他们发现的是另一艘沉没多年的船。",
+      "reason": "打捞失败、意外发现和辨认沉船三组英汉段及注释/题目内部断行恢复完整句段，日志范文四段保持。"
+    },
+    {
+      "start": 46,
+      "end": 59,
+      "before": [
+        "The chest contained the personal belongings of a seaman, Alan Fielding. There were",
+        "books, clothing and photographs, together with letters which the seaman had once",
+        "received from his wife. The captain of the Elkor ordered his men to salvage as much",
+        "as possible from the wreck. Nothing of value was found, but the numerous items",
+        "which were brought to the surface proved to be of great interest. From a heavy gun",
+        "that was raised, the captain realized that the ship must have been a cruiser. In another",
+        "chest, which contained the belongings of a ship's officer, there was an unfinished",
+        "letter which had been written on March 14th, 1943. The captain learnt from the letter",
+        "that the name of the lost ship was the Karen. The most valuable find of all was the",
+        "ship's log book, parts of which it was still possible to read. From this the captain was",
+        "able to piece together all the information that had come to light. The Karen had been",
+        "sailing in a convoy to Russia when she was torpedoed by an enemy submarine. This",
+        "was later confirmed by a naval official at the Ministry of Defence after the Elkor had",
+        "returned home. All the items that were found were sent to the War Museum."
+      ],
+      "text": "The chest contained the personal belongings of a seaman, Alan Fielding. There were books, clothing and photographs, together with letters which the seaman had once received from his wife. The captain of the Elkor ordered his men to salvage as much as possible from the wreck. Nothing of value was found, but the numerous items which were brought to the surface proved to be of great interest. From a heavy gun that was raised, the captain realized that the ship must have been a cruiser. In another chest, which contained the belongings of a ship's officer, there was an unfinished letter which had been written on March 14th, 1943. The captain learnt from the letter that the name of the lost ship was the Karen. The most valuable find of all was the ship's log book, parts of which it was still possible to read. From this the captain was able to piece together all the information that had come to light. The Karen had been sailing in a convoy to Russia when she was torpedoed by an enemy submarine. This was later confirmed by a naval official at the Ministry of Defence after the Elkor had returned home. All the items that were found were sent to the War Museum.",
+      "reason": "打捞失败、意外发现和辨认沉船三组英汉段及注释/题目内部断行恢复完整句段，日志范文四段保持。"
+    },
+    {
+      "start": 60,
+      "end": 69,
+      "before": [
+        "木箱内装有水手艾伦·菲尔丁的私人财物，其中有书籍、衣服、照片以及水手收",
+        "到的妻子的来信。“埃尔科”号船长命令船员尽量从沉船中打捞物品，但没发现什",
+        "么值钱的东西，不过打捞出来的众多的物品还是引起了大家极大的兴趣。从捞起",
+        "的一门大炮来看，船长认为那艘船一定是艘巡洋舰。另一只海底沉箱中装的是船",
+        "上一位军官的财物，其中有一封写于 1943 年 3 月 14 日的信，但没有写完。从这",
+        "封信中船长了解到沉船船名是“卡伦”号。打捞到的东西中最有价值的是船上的航",
+        "海日志，其中有一部分仍然清晰可读。据此，船长可以将所有的那些已经搞清的",
+        "材料拼凑起来。“卡伦”号当年在为其他船只护航驶往俄国途中突然遭到敌方潜水",
+        "艇鱼雷的袭击。这一说法在“埃尔科”号返航后得到国防部一位海军官员的证实。",
+        "那次打捞到的所有物品均被送往军事博物馆。"
+      ],
+      "text": "木箱内装有水手艾伦·菲尔丁的私人财物，其中有书籍、衣服、照片以及水手收到的妻子的来信。“埃尔科”号船长命令船员尽量从沉船中打捞物品，但没发现什么值钱的东西，不过打捞出来的众多的物品还是引起了大家极大的兴趣。从捞起的一门大炮来看，船长认为那艘船一定是艘巡洋舰。另一只海底沉箱中装的是船上一位军官的财物，其中有一封写于 1943 年 3 月 14 日的信，但没有写完。从这封信中船长了解到沉船船名是“卡伦”号。打捞到的东西中最有价值的是船上的航海日志，其中有一部分仍然清晰可读。据此，船长可以将所有的那些已经搞清的材料拼凑起来。“卡伦”号当年在为其他船只护航驶往俄国途中突然遭到敌方潜水艇鱼雷的袭击。这一说法在“埃尔科”号返航后得到国防部一位海军官员的证实。那次打捞到的所有物品均被送往军事博物馆。",
+      "reason": "打捞失败、意外发现和辨认沉船三组英汉段及注释/题目内部断行恢复完整句段，日志范文四段保持。"
+    },
+    {
+      "start": 73,
+      "end": 74,
+      "before": [
+        "5 parts of which it was possible to read, which 指先行词 log book，所引起的是定语",
+        "从句，it 是形式主语，不定式 to 是真实主语，parts of which 作 read 的宾语。"
+      ],
+      "text": "5 parts of which it was possible to read, which 指先行词 log book，所引起的是定语从句，it 是形式主语，不定式 to 是真实主语，parts of which 作 read 的宾语。",
+      "reason": "打捞失败、意外发现和辨认沉船三组英汉段及注释/题目内部断行恢复完整句段，日志范文四段保持。"
+    },
+    {
+      "start": 75,
+      "end": 76,
+      "before": [
+        "6 piece together …（或 piece… together），作“综合”“拼凑”讲。come to light，被",
+        "摘清，被知道。"
+      ],
+      "text": "6 piece together …（或 piece… together），作“综合”“拼凑”讲。come to light，被摘清，被知道。",
+      "reason": "打捞失败、意外发现和辨认沉船三组英汉段及注释/题目内部断行恢复完整句段，日志范文四段保持。"
+    },
+    {
+      "start": 77,
+      "end": 78,
+      "before": [
+        "7 War Museum ，军事博物馆。指伦敦的帝国军事博物馆，其中展出第一次世界",
+        "大战和第二次世界大战的军事物品。"
+      ],
+      "text": "7 War Museum ，军事博物馆。指伦敦的帝国军事博物馆，其中展出第一次世界大战和第二次世界大战的军事物品。",
+      "reason": "打捞失败、意外发现和辨认沉船三组英汉段及注释/题目内部断行恢复完整句段，日志范文四段保持。"
+    },
+    {
+      "start": 93,
+      "end": 94,
+      "before": [
+        "13 What did the personal belongings consist of? (Books, clothes, photographs and",
+        "letters.)"
+      ],
+      "text": "13 What did the personal belongings consist of? (Books, clothes, photographs and letters.)",
+      "reason": "打捞失败、意外发现和辨认沉船三组英汉段及注释/题目内部断行恢复完整句段，日志范文四段保持。"
+    },
+    {
+      "start": 95,
+      "end": 96,
+      "before": [
+        "14 What did the captain of the Elkor order his men to do? (Salvage as much as",
+        "possible.)"
+      ],
+      "text": "14 What did the captain of the Elkor order his men to do? (Salvage as much as possible.)",
+      "reason": "打捞失败、意外发现和辨认沉船三组英汉段及注释/题目内部断行恢复完整句段，日志范文四段保持。"
+    },
+    {
+      "start": 98,
+      "end": 99,
+      "before": [
+        "16 Why did the captain think that the lost ship had been a cruiser? (Because they",
+        "brought up a heavy gun.)"
+      ],
+      "text": "16 Why did the captain think that the lost ship had been a cruiser? (Because they brought up a heavy gun.)",
+      "reason": "打捞失败、意外发现和辨认沉船三组英汉段及注释/题目内部断行恢复完整句段，日志范文四段保持。"
+    },
+    {
+      "start": 100,
+      "end": 101,
+      "before": [
+        "17 In a chest which had belonged to a ship's officer they found an unfinished letter.",
+        "What was the date on it? (March 14th, 1943.)"
+      ],
+      "text": "17 In a chest which had belonged to a ship's officer they found an unfinished letter. What was the date on it? (March 14th, 1943.)",
+      "reason": "打捞失败、意外发现和辨认沉船三组英汉段及注释/题目内部断行恢复完整句段，日志范文四段保持。"
+    },
+    {
+      "start": 108,
+      "end": 110,
+      "before": [
+        "In not more than 250 words write the page of Karen's log book which was dated",
+        "March 14th, 1943. Use the ideas given below. Do not write more than four",
+        "paragraphs."
+      ],
+      "text": "In not more than 250 words write the page of Karen's log book which was dated March 14th, 1943. Use the ideas given below. Do not write more than four paragraphs.",
+      "reason": "打捞失败、意外发现和辨认沉船三组英汉段及注释/题目内部断行恢复完整句段，日志范文四段保持。"
+    },
+    {
+      "start": 112,
+      "end": 113,
+      "before": [
+        "Introduction: Journey has gone well so far--convoy successfully fought off an air",
+        "attack --early morning—no ships lost."
+      ],
+      "text": "Introduction: Journey has gone well so far--convoy successfully fought off an air attack --early morning—no ships lost.",
+      "reason": "打捞失败、意外发现和辨认沉船三组英汉段及注释/题目内部断行恢复完整句段，日志范文四段保持。"
+    },
+    {
+      "start": 114,
+      "end": 117,
+      "before": [
+        "Development and Conclusion: 10 a.m. First attack by U-boat --ship ahead, the",
+        "Dauntless sunk --men in sea—Karen picked up survivors --720 men--50 lives",
+        "lost--crowded on board--attack on U-boat--puts it out of action with depth",
+        "charges--3.15 p.m. (last entry) -- second U-boat attack…"
+      ],
+      "text": "Development and Conclusion: 10 a.m. First attack by U-boat --ship ahead, the Dauntless sunk --men in sea—Karen picked up survivors --720 men--50 lives lost--crowded on board--attack on U-boat--puts it out of action with depth charges--3.15 p.m. (last entry) -- second U-boat attack…",
+      "reason": "打捞失败、意外发现和辨认沉船三组英汉段及注释/题目内部断行恢复完整句段，日志范文四段保持。"
+    },
+    {
+      "start": 121,
+      "end": 124,
+      "before": [
+        "The journey has gone well so far. We are now on the way to Russia and hope that",
+        "we shall arrive with no more problems. But we are watching the sea and sky. The",
+        "convoy successfully fought off an air attack early this morning. No ships were lost",
+        "and we managed to shoot down three enemy aircraft before they broke off the attack."
+      ],
+      "text": "The journey has gone well so far. We are now on the way to Russia and hope that we shall arrive with no more problems. But we are watching the sea and sky. The convoy successfully fought off an air attack early this morning. No ships were lost and we managed to shoot down three enemy aircraft before they broke off the attack.",
+      "reason": "打捞失败、意外发现和辨认沉船三组英汉段及注释/题目内部断行恢复完整句段，日志范文四段保持。"
+    },
+    {
+      "start": 125,
+      "end": 130,
+      "before": [
+        "At 10 a.m. this morning we were attacked by a U-boat. This was the first time we",
+        "had been attacked and for most men on board this was the first time they had been in",
+        "action at sea. We were fortuneate, but the ship ahead of us, the Dauntless, was",
+        "torpedoed and sunk. After the ship sank, there were hundreds of men in the sea. We",
+        "picked up as many survivors as we could in the Karen. In fact, in the end, we picked",
+        "up 720 men, which meant that 50 men lost their lives in the attack on the Dauntless."
+      ],
+      "text": "At 10 a.m. this morning we were attacked by a U-boat. This was the first time we had been attacked and for most men on board this was the first time they had been in action at sea. We were fortuneate, but the ship ahead of us, the Dauntless, was torpedoed and sunk. After the ship sank, there were hundreds of men in the sea. We picked up as many survivors as we could in the Karen. In fact, in the end, we picked up 720 men, which meant that 50 men lost their lives in the attack on the Dauntless.",
+      "reason": "打捞失败、意外发现和辨认沉船三组英汉段及注释/题目内部断行恢复完整句段，日志范文四段保持。"
+    },
+    {
+      "start": 131,
+      "end": 133,
+      "before": [
+        "The Karen was packed with men, many crowded on the open decks, when we",
+        "turned and attacked the U-boat, depth charges were dropped and the U-boat was put",
+        "out of action."
+      ],
+      "text": "The Karen was packed with men, many crowded on the open decks, when we turned and attacked the U-boat, depth charges were dropped and the U-boat was put out of action.",
+      "reason": "打捞失败、意外发现和辨认沉船三组英汉段及注释/题目内部断行恢复完整句段，日志范文四段保持。"
+    },
+    {
+      "start": 134,
+      "end": 136,
+      "before": [
+        "It is now 3.15 p.m., the light is already beginning to fade and storm clouds are",
+        "gathering. We are about to be attacked by a second U-boat, this time from the north.",
+        "The captain has just announced--"
+      ],
+      "text": "It is now 3.15 p.m., the light is already beginning to fade and storm clouds are gathering. We are about to be attacked by a second U-boat, this time from the north. The captain has just announced--",
+      "reason": "打捞失败、意外发现和辨认沉船三组英汉段及注释/题目内部断行恢复完整句段，日志范文四段保持。"
+    },
+    {
+      "start": 144,
+      "end": 145,
+      "before": [
+        "2 In ordering as much as possible to be salvaged from the wreck, the captain",
+        "__________."
+      ],
+      "text": "2 In ordering as much as possible to be salvaged from the wreck, the captain __________.",
+      "reason": "打捞失败、意外发现和辨认沉船三组英汉段及注释/题目内部断行恢复完整句段，日志范文四段保持。"
+    },
+    {
+      "start": 180,
+      "end": 181,
+      "before": [
+        "9 The ship's captain had received instructions to give up the search ________ a radio",
+        "message from the mainland."
+      ],
+      "text": "9 The ship's captain had received instructions to give up the search ________ a radio message from the mainland.",
+      "reason": "打捞失败、意外发现和辨认沉船三组英汉段及注释/题目内部断行恢复完整句段，日志范文四段保持。"
+    }
+  ],
+  "splitBlocks": [],
+  "blockEdits": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/765961c7508aa47d0a4b59ac5a0e9a527f0c9fb42ddbc7e77f5f726d4fd09bac.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "4a762ad089d1036ac13c2b943464697c2d8e25f0ec5333a7fa6ea3f240a611e4"
+    }
+  ]
+}

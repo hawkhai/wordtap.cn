@@ -2,96 +2,9 @@
   "schemaVersion": 1,
   "course": "nce",
   "articleId": "nce1-073",
-  "beforeDisplaySha256": "0ba39e85206d873c8b012444ba25156f107c9ec934530e4e1d3dcce3c629ed79",
-  "afterDisplaySha256": "d93c0ddaecb975e40ecf5f5dfe9dcd9a3c8b5568aa4e9fd95e41e0fd34b2d1c2",
+  "beforeDisplaySha256": "d93c0ddaecb975e40ecf5f5dfe9dcd9a3c8b5568aa4e9fd95e41e0fd34b2d1c2",
+  "afterDisplaySha256": "25e1ebc2c8c8361105f856d16d25234fe3d159b009c92848521cf79f37356586",
   "baselineDisplay": {
-    "title": "The Way to King Street",
-    "titleZh": "通往国王街的路",
-    "question": "Why did the man need a phrasebook?",
-    "questionZh": "为什么那个人需要一本短语手册呢？",
-    "text": "Why did the man need a phrasebook?\n\nLast week Mrs. Mills went to London.\nShe does not know London very well, and she lost her way.\nSuddenly, she saw a man near a bus stop.\n'I can ask him the way,' she said to herself.\n'Excuse me,' she said.\n'Can you tell me the way to King Street, please?'\nThe man smiled pleasantly.\nHe did not understand English!\nHe spoke German.\nHe was a tourist.\nThen he put his hand into his pocket, and took out a phrasebook.\nHe opened the book and found a phrase.\nHe read the phrase slowly.\n'I am sorry,' he said.\n'I do not speak English.'",
-    "bodyText": "Last week Mrs. Mills went to London.\nShe does not know London very well, and she lost her way.\nSuddenly, she saw a man near a bus stop.\n'I can ask him the way,' she said to herself.\n'Excuse me,' she said.\n'Can you tell me the way to King Street, please?'\nThe man smiled pleasantly.\nHe did not understand English!\nHe spoke German.\nHe was a tourist.\nThen he put his hand into his pocket, and took out a phrasebook.\nHe opened the book and found a phrase.\nHe read the phrase slowly.\n'I am sorry,' he said.\n'I do not speak English.'",
-    "bodyTextZh": "上周，米尔斯夫人去了伦敦。\n她对伦敦不太熟悉，结果迷路了。\n突然，她在公交车站附近看到一个男人。\n“我可以问他路该怎么走，”她自言自语道。\n“对不起，”她说。\n“请问您能告诉我去国王街的路吗？”\n那个男人愉快地笑了。\n他不懂英语！\n他会说德语。\n他是一名游客。\n然后他把手伸进口袋，拿出一本短语手册。\n他打开书，找到了一句话。\n他慢慢地读了这个短语。\n“我很抱歉，”他说。\n“我不会说英语。”",
-    "sentences": [
-      {
-        "en": "Lesson 73",
-        "zh": "第73课"
-      },
-      {
-        "en": "The way to King Street",
-        "zh": "通往国王街的路"
-      },
-      {
-        "en": "Listen to the tape then answer this question.",
-        "zh": "先听这段录音，然后再回答这个问题。"
-      },
-      {
-        "en": "Why did the man need a phrasebook?",
-        "zh": "为什么那个人需要一本短语手册呢？"
-      },
-      {
-        "en": "Last week Mrs. Mills went to London.",
-        "zh": "上周，米尔斯夫人去了伦敦。"
-      },
-      {
-        "en": "She does not know London very well, and she lost her way.",
-        "zh": "她对伦敦不太熟悉，结果迷路了。"
-      },
-      {
-        "en": "Suddenly, she saw a man near a bus stop.",
-        "zh": "突然，她在公交车站附近看到一个男人。"
-      },
-      {
-        "en": "'I can ask him the way,' she said to herself.",
-        "zh": "“我可以问他路该怎么走，”她自言自语道。"
-      },
-      {
-        "en": "'Excuse me,' she said.",
-        "zh": "“对不起，”她说。"
-      },
-      {
-        "en": "'Can you tell me the way to King Street, please?'",
-        "zh": "“请问您能告诉我去国王街的路吗？”"
-      },
-      {
-        "en": "The man smiled pleasantly.",
-        "zh": "那个男人愉快地笑了。"
-      },
-      {
-        "en": "He did not understand English!",
-        "zh": "他不懂英语！"
-      },
-      {
-        "en": "He spoke German.",
-        "zh": "他会说德语。"
-      },
-      {
-        "en": "He was a tourist.",
-        "zh": "他是一名游客。"
-      },
-      {
-        "en": "Then he put his hand into his pocket, and took out a phrasebook.",
-        "zh": "然后他把手伸进口袋，拿出一本短语手册。"
-      },
-      {
-        "en": "He opened the book and found a phrase.",
-        "zh": "他打开书，找到了一句话。"
-      },
-      {
-        "en": "He read the phrase slowly.",
-        "zh": "他慢慢地读了这个短语。"
-      },
-      {
-        "en": "'I am sorry,' he said.",
-        "zh": "“我很抱歉，”他说。"
-      },
-      {
-        "en": "'I do not speak English.'",
-        "zh": "“我不会说英语。”"
-      }
-    ]
-  },
-  "display": {
     "title": "The Way to King Street",
     "titleZh": "通往国王街的路",
     "question": "Why did the man need a phrasebook?",
@@ -178,20 +91,139 @@
       }
     ]
   },
+  "display": {
+    "title": "The Way to King Street",
+    "titleZh": "通往国王街的路",
+    "question": "Why did the man need a phrasebook?",
+    "questionZh": "为什么那个人需要一本短语手册呢？",
+    "text": "Why did the man need a phrasebook?\n\nLast week Mrs. Mills went to London. She does not know London very well, and she lost her way.\nSuddenly, she saw a man near a bus stop. 'I can ask him the way,' she said to herself. 'Excuse me,' she said. 'Can you tell me the way to King Street, please?'\nThe man smiled pleasantly. He did not understand English! He spoke German. He was a tourist.\nThen he put his hand into his pocket, and took out a phrasebook. He opened the book and found a phrase. He read the phrase slowly. 'I am sorry,' he said. 'I do not speak English.'",
+    "bodyText": "Last week Mrs. Mills went to London. She does not know London very well, and she lost her way.\nSuddenly, she saw a man near a bus stop. 'I can ask him the way,' she said to herself. 'Excuse me,' she said. 'Can you tell me the way to King Street, please?'\nThe man smiled pleasantly. He did not understand English! He spoke German. He was a tourist.\nThen he put his hand into his pocket, and took out a phrasebook. He opened the book and found a phrase. He read the phrase slowly. 'I am sorry,' he said. 'I do not speak English.'",
+    "bodyTextZh": "上周，米尔斯夫人去了伦敦。她对伦敦不太熟悉，结果迷路了。\n突然，她在公交车站附近看到一个男人。“我可以问他路该怎么走，”她自言自语道。“对不起，”她说。“请问您能告诉我去国王街的路吗？”\n那个男人愉快地笑了。他不懂英语！他会说德语。他是一名游客。\n然后他把手伸进口袋，拿出一本短语手册。他打开书，找到了一句话。他慢慢地读了这个短语。“我很抱歉，”他说。“我不会说英语。”",
+    "sentences": [
+      {
+        "en": "Lesson 73",
+        "zh": "第 73 课"
+      },
+      {
+        "en": "The way to King Street",
+        "zh": "通往国王街的路"
+      },
+      {
+        "en": "Listen to the tape then answer this question.",
+        "zh": "先听这段录音，然后再回答这个问题。"
+      },
+      {
+        "en": "Why did the man need a phrasebook?",
+        "zh": "为什么那个人需要一本短语手册呢？"
+      },
+      {
+        "en": "Last week Mrs. Mills went to London.",
+        "zh": "上周，米尔斯夫人去了伦敦。"
+      },
+      {
+        "en": "She does not know London very well, and she lost her way.",
+        "zh": "她对伦敦不太熟悉，结果迷路了。"
+      },
+      {
+        "en": "Suddenly, she saw a man near a bus stop.",
+        "zh": "突然，她在公交车站附近看到一个男人。"
+      },
+      {
+        "en": "'I can ask him the way,' she said to herself.",
+        "zh": "“我可以问他路该怎么走，”她自言自语道。"
+      },
+      {
+        "en": "'Excuse me,' she said.",
+        "zh": "“对不起，”她说。"
+      },
+      {
+        "en": "'Can you tell me the way to King Street, please?'",
+        "zh": "“请问您能告诉我去国王街的路吗？”"
+      },
+      {
+        "en": "The man smiled pleasantly.",
+        "zh": "那个男人愉快地笑了。"
+      },
+      {
+        "en": "He did not understand English!",
+        "zh": "他不懂英语！"
+      },
+      {
+        "en": "He spoke German.",
+        "zh": "他会说德语。"
+      },
+      {
+        "en": "He was a tourist.",
+        "zh": "他是一名游客。"
+      },
+      {
+        "en": "Then he put his hand into his pocket, and took out a phrasebook.",
+        "zh": "然后他把手伸进口袋，拿出一本短语手册。"
+      },
+      {
+        "en": "He opened the book and found a phrase.",
+        "zh": "他打开书，找到了一句话。"
+      },
+      {
+        "en": "He read the phrase slowly.",
+        "zh": "他慢慢地读了这个短语。"
+      },
+      {
+        "en": "'I am sorry,' he said.",
+        "zh": "“我很抱歉，”他说。"
+      },
+      {
+        "en": "'I do not speak English.'",
+        "zh": "“我不会说英语。”"
+      }
+    ]
+  },
   "sources": [
     {
-      "path": "content/NCE-Flow/NCE1/073&074－The Way to King Street.lrc",
-      "locator": "完整LRC元数据、标题、提问及全部中英文逐句字幕和时间戳",
+      "path": "content/article-review/history/1a855553dbd5de1777fb1c6323567a4c213d53cdc027616f27c2ec0a1602d593.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
       "checked": true,
-      "sha256": "1bc94b9c755dacddb573979ce8b5312dea744427d94ccaa73f3f26180abc9193"
+      "sha256": "201b0288a30ccd8c5c5006bf302ae057d91b2cd3ed94c25061662feef489eefc"
     }
   ],
   "corrections": [],
   "fullReadConfirmed": true,
   "recheckConfirmed": true,
   "reviewer": "Codex",
-  "reviewedAt": "2026-10-02T02:31:07+00:00",
-  "notes": "通读15句伦敦问路故事与中译，核对Mrs. Mills、King Street、讲德语游客取出短语手册的转折；引号与说话人边界成对，过去时与原文一致。只规范课号空格，句子音频位置保持。",
+  "reviewedAt": "2026-10-07T07:41:58+00:00",
+  "notes": "Mills夫人问路；迷路、发现男子并问路、男子身份、拿短语书读答四个叙述阶段合为自然段，保留所有引语。 text与bodyText同步；sentences对象及时间、角色、索引原样保留。",
   "issues": [],
-  "status": "passed_edited"
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "26d9a363c1b63d65074b72cc70195976759450968a42e1f71f1d9a58c8da9301",
+    "afterFileSha256": "07de02e5afe18a291b99d6805d83fbf48731103cdf232bc898e2b2b37b3c0d71",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "26d9a363c1b63d65074b72cc70195976759450968a42e1f71f1d9a58c8da9301",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title/titleZh、question/questionZh、bodyText全部15行、bodyTextZh全部15行及sentences[0..18]的完整文字；重复正文与字幕文本逐字比对，非正文字幕另读。操作在内存应用并validate_layout_change，修复后的双语全文重新通读。",
+      "notes": "Mills夫人问路；迷路、发现男子并问路、男子身份、拿短语书读答四个叙述阶段合为自然段，保留所有引语。 text与bodyText同步；sentences对象及时间、角色、索引原样保留。",
+      "issues": [],
+      "display": {
+        "text": "Why did the man need a phrasebook?\n\nLast week Mrs. Mills went to London. She does not know London very well, and she lost her way.\nSuddenly, she saw a man near a bus stop. 'I can ask him the way,' she said to herself. 'Excuse me,' she said. 'Can you tell me the way to King Street, please?'\nThe man smiled pleasantly. He did not understand English! He spoke German. He was a tourist.\nThen he put his hand into his pocket, and took out a phrasebook. He opened the book and found a phrase. He read the phrase slowly. 'I am sorry,' he said. 'I do not speak English.'",
+        "bodyText": "Last week Mrs. Mills went to London. She does not know London very well, and she lost her way.\nSuddenly, she saw a man near a bus stop. 'I can ask him the way,' she said to herself. 'Excuse me,' she said. 'Can you tell me the way to King Street, please?'\nThe man smiled pleasantly. He did not understand English! He spoke German. He was a tourist.\nThen he put his hand into his pocket, and took out a phrasebook. He opened the book and found a phrase. He read the phrase slowly. 'I am sorry,' he said. 'I do not speak English.'",
+        "bodyTextZh": "上周，米尔斯夫人去了伦敦。她对伦敦不太熟悉，结果迷路了。\n突然，她在公交车站附近看到一个男人。“我可以问他路该怎么走，”她自言自语道。“对不起，”她说。“请问您能告诉我去国王街的路吗？”\n那个男人愉快地笑了。他不懂英语！他会说德语。他是一名游客。\n然后他把手伸进口袋，拿出一本短语手册。他打开书，找到了一句话。他慢慢地读了这个短语。“我很抱歉，”他说。“我不会说英语。”"
+      },
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/1a855553dbd5de1777fb1c6323567a4c213d53cdc027616f27c2ec0a1602d593.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "201b0288a30ccd8c5c5006bf302ae057d91b2cd3ed94c25061662feef489eefc"
+        }
+      ]
+    }
+  },
+  "status": "passed_edited",
+  "previousRevisionSha256": "1a855553dbd5de1777fb1c6323567a4c213d53cdc027616f27c2ec0a1602d593"
 }

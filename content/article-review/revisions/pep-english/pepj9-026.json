@@ -50,24 +50,46 @@
   },
   "sources": [
     {
-      "path": "content/pep-english/raw/junior-9.pdf",
-      "locator": "PDF第73-73页，标题与完整正文逐行核对",
+      "path": "content/article-review/history/402da93c99adcce6fa0225dc5a78b7c4d8e696e5765f995309997f9edafa7487.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
       "checked": true,
-      "sha256": "9c4118021048d901610b673f590ed28c39c04cb2d4f7fd940f83a2d8b2741af7"
-    },
-    {
-      "path": "content/pep-english/raw/junior-9/junior-9_73.jpg",
-      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
-      "checked": true,
-      "sha256": "bfb64c23cd592998ab9d4c6c100fd376268ad538c5c92ec1b64e04dbfc53c7ab"
+      "sha256": "9f80cf037208ec18aa1dc843a961e55cb037875760cc306493a51e9fa80a847e"
     }
   ],
   "corrections": [],
   "fullReadConfirmed": true,
   "recheckConfirmed": true,
   "reviewer": "Codex",
-  "reviewedAt": "2026-10-02T05:12:07+00:00",
-  "notes": "PDF73页印刷59页小镇怪声三段逐行核对，Victor及妻子朋友警察、Helen和另一女子的各类猜测归属准确，末段未知来源和noise-maker结尾完整。标题选自原页B项并符合内容；连字符、引号和段落复读无误，无修改。",
+  "reviewedAt": "2026-10-07T07:42:02+00:00",
+  "notes": "小镇怪声三段为Victor及家人、Helen等邻居、整体不安，各猜测引语归属保持。",
   "issues": [],
-  "status": "passed_unchanged"
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "bea0733839ae0416ca44e145f3b2131e0d5923324e1768371507a4b2a3b00ea2",
+    "afterFileSha256": "bea0733839ae0416ca44e145f3b2131e0d5923324e1768371507a4b2a3b00ea2",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "bea0733839ae0416ca44e145f3b2131e0d5923324e1768371507a4b2a3b00ea2",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..2] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "小镇怪声三段为Victor及家人、Helen等邻居、整体不安，各猜测引语归属保持。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "blockEdits": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/402da93c99adcce6fa0225dc5a78b7c4d8e696e5765f995309997f9edafa7487.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "9f80cf037208ec18aa1dc843a961e55cb037875760cc306493a51e9fa80a847e"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "402da93c99adcce6fa0225dc5a78b7c4d8e696e5765f995309997f9edafa7487"
 }

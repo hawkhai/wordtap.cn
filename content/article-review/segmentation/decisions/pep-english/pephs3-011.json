@@ -1,0 +1,21 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "87ebbd4f56236e881aaaefd260d7108008d98d3bbc9ef8fd0bccd113b6cff339",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title；全文 blocks[0..0] 与对应 text；现有正文/对话/题干逐块通读复核。",
+  "notes": "勃朗宁夫妇从诗歌吸引、通信、探访、秘密婚姻至意大利与十四行诗为连贯人物短史，完整单段保留。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/fa1ad28991d6c57b4a53d869b0a6499577a5da1b2679eabb74a45be62beedd3c.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "151fd360253837746011a4c714bc75ffcb0c743c5d25ff45326440a11c222156"
+    }
+  ]
+}

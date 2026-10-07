@@ -1,0 +1,26 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "5f909177b16a2dde0b42d97fab80371f71201de83c2c977f216f13def80c0044",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title/titleZh、question/questionZh、bodyText全部11行、bodyTextZh全部11行及sentences[0..13]的完整文字；重复正文与字幕文本逐字比对，非正文字幕另读。操作在内存应用并validate_layout_change，修复后的双语全文重新通读。",
+  "notes": "Hawkwood保护费；现代黑帮与古代引入、赴意及战时和平获利、英雄国葬讽刺三段。 text与bodyText同步；sentences对象及时间、角色、索引原样保留。",
+  "issues": [],
+  "display": {
+    "text": "How did Hawkwood make money in times of peace?\n\nThere was a time when the owners of shops and businesses in Chicago had to pay large sums of money to gangsters in return for 'protection'. If the money was not paid promptly, the gangsters would quickly put a man out of business by destroying his shop. Obtaining 'protection money' is not a modern crime. As long ago as the fourteenth century, an Englishman, Sir John Hawkwood, made the remarkable discovery that people would rather pay large sums of money than have their life work destroyed by gangsters.\nSix hundred years ago, Sir John Hawkwood arrived in Italy with a band of soldiers and settled near Florence. He soon made a name for himself and came to be known to the Italians as Giovanni Acuto. Whenever the Italian city-states were at war with each other, Hawkwood used to hire his soldiers to princes who were willing to pay the high price he demanded. In times of peace, when business was bad, Hawkwood and his men would march into a city-state, and after burning down a few farms, would offer to go away if protection money was paid to them. Hawkwood made large sums of money in this way.\nIn spite of this, the Italians regarded him as a sort of hero. When he died at the age of eighty, the Florentines gave him a state funeral and had a picture painted which was dedicated to the memory of 'the most valiant soldier and most notable leader, Signor Giovanni Haukodue'.",
+    "bodyText": "There was a time when the owners of shops and businesses in Chicago had to pay large sums of money to gangsters in return for 'protection'. If the money was not paid promptly, the gangsters would quickly put a man out of business by destroying his shop. Obtaining 'protection money' is not a modern crime. As long ago as the fourteenth century, an Englishman, Sir John Hawkwood, made the remarkable discovery that people would rather pay large sums of money than have their life work destroyed by gangsters.\nSix hundred years ago, Sir John Hawkwood arrived in Italy with a band of soldiers and settled near Florence. He soon made a name for himself and came to be known to the Italians as Giovanni Acuto. Whenever the Italian city-states were at war with each other, Hawkwood used to hire his soldiers to princes who were willing to pay the high price he demanded. In times of peace, when business was bad, Hawkwood and his men would march into a city-state, and after burning down a few farms, would offer to go away if protection money was paid to them. Hawkwood made large sums of money in this way.\nIn spite of this, the Italians regarded him as a sort of hero. When he died at the age of eighty, the Florentines gave him a state funeral and had a picture painted which was dedicated to the memory of 'the most valiant soldier and most notable leader, Signor Giovanni Haukodue'.",
+    "bodyTextZh": "曾经有一段时间，芝加哥的商店和企业的老板们不得不向黑帮支付巨额费用，以换取他们的“保护”。如果钱没有及时支付，黑帮分子会迅速毁掉他的店铺，让他破产。收取“保护费”这种行为其实并非现代才有的犯罪行为。早在十四世纪，一位名叫约翰·霍克伍德（Sir John Hawkwood）的英国人就发现了一个惊人的事实：人们宁愿花大钱，也不愿自己的毕生心血被强盗毁掉。\n六百年前，约翰·霍克伍德带着一队士兵来到意大利，并在佛罗伦萨附近安顿下来。他很快就声名鹊起，在意大利人中被称为乔瓦尼·阿库托（Giovanni Acuto）。每当意大利各城邦之间发生战争时，霍克伍德就会把他的士兵雇佣给那些愿意出高价的王子们。在和平时期，当没生意可做时，霍克伍德和他的手下就会开进某个城邦，烧毁几个农场，然后提出只要付给他们保护费，他们就会离开。霍克伍德就是通过这种方式赚到了大量的钱。\n尽管如此，意大利人仍将他视为一位英雄。他八十岁去世时，佛罗伦萨人为他举行了国葬，还请人画了一幅像，以纪念'最勇敢的战士和最杰出的领袖，乔瓦尼·阿库托先生'。"
+  },
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/c891b7e1a8eaf1d83335898859f233c894b6b1e77b386df1630290f78cefbd13.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "3d39b4bea06e702e124508cb70f3bc9f45c19e17826dd8dc26cd4041e5d0cee5"
+    }
+  ]
+}

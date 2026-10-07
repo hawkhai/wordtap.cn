@@ -1,0 +1,169 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "944cbdf89aebab682cbf3a943fa9712b437c0c27a90ee8948fda23ef732f1d42",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "coverage": "全文 blocks[0..166]；按 JSON 上下文逐项复核对话、解释、题目、表格、词表及修复后的边界。",
+  "notes": "全文复核钻石故事、全部题目及摘要、时间状语语法、阿凡达三组文化段落。修复main building、题干和by the time等跨行；文化介绍/背景/剧情按英汉对应保留多句自然段。保持列表、例句改写及末尾单元标记，未补原文缺引号。",
+  "issues": [
+    "原始blocks[25..28] police与that thieves从句之间、[29..33] main building与while others之间有中文半句，合完整英汉段需字符重排，保留待确认。"
+  ],
+  "mergeBlocks": [
+    {
+      "start": 29,
+      "end": 30,
+      "before": [
+        "When the plane arrived, some of the detectives were waiting inside the main",
+        "building"
+      ],
+      "text": "When the plane arrived, some of the detectives were waiting inside the main building",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 47,
+      "end": 50,
+      "before": [
+        "Answer: Detectives were waiting at the airport all morning. They were",
+        "expecting a valuable parcel of diamonds from South Africa. Two men took the",
+        "parcel into the Customs House after the arrival of the plane. Two detectives",
+        "opened it. The parcel was full of stones and sand."
+      ],
+      "text": "Answer: Detectives were waiting at the airport all morning. They were expecting a valuable parcel of diamonds from South Africa. Two men took the parcel into the Customs House after the arrival of the plane. Two detectives opened it. The parcel was full of stones and sand.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 57,
+      "end": 58,
+      "before": [
+        "3. Someone had told the police that thieves would try to steal the diamonds. This",
+        "happened ____ the plane arrived."
+      ],
+      "text": "3. Someone had told the police that thieves would try to steal the diamonds. This happened ____ the plane arrived.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 97,
+      "end": 99,
+      "before": [
+        "by the time的意思是“截至……(时间)”，可以引导时间状语从句。by the",
+        "time引导的从句若是一般现在时，主句要用将来完成时；若是一般过去",
+        "时，主句则要用过去完成时。"
+      ],
+      "text": "by the time的意思是“截至……(时间)”，可以引导时间状语从句。by the time引导的从句若是一般现在时，主句要用将来完成时；若是一般过去时，主句则要用过去完成时。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 100,
+      "end": 101,
+      "before": [
+        "▶ By the time you receive this letter, I will have left this city for my",
+        "hometown."
+      ],
+      "text": "▶ By the time you receive this letter, I will have left this city for my hometown.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 119,
+      "end": 120,
+      "before": [
+        "▶ once引导状语从句时，若从句的主语和主句的主语一致，有时可以",
+        "将从句的主语和be动词省略。"
+      ],
+      "text": "▶ once引导状语从句时，若从句的主语和主句的主语一致，有时可以将从句的主语和be动词省略。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 131,
+      "end": 134,
+      "before": [
+        "Avatar is an American epic science fiction premiered in 2009. It broke several box",
+        "office records and became the highest-grossing film of all time, as well as in the",
+        "United States and Canada, surpassing Titanic which was also directed by James",
+        "Cameron."
+      ],
+      "text": "Avatar is an American epic science fiction premiered in 2009. It broke several box office records and became the highest-grossing film of all time, as well as in the United States and Canada, surpassing Titanic which was also directed by James Cameron.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 135,
+      "end": 137,
+      "before": [
+        "《阿凡达》是2009年上映的一部美国史诗级别的科幻电影，在美国和加拿大打",
+        "破几项票房纪录，成为有史以来票房收入最高的电影，超越了同样由詹姆斯·卡",
+        "梅隆执导的电影《泰坦尼克号》。"
+      ],
+      "text": "《阿凡达》是2009年上映的一部美国史诗级别的科幻电影，在美国和加拿大打破几项票房纪录，成为有史以来票房收入最高的电影，超越了同样由詹姆斯·卡梅隆执导的电影《泰坦尼克号》。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 138,
+      "end": 144,
+      "before": [
+        "By 2154, natural resources are scarce on Earth. The Resources Development",
+        "Administration mines on Pandora, whose atmosphere is poisonous to humans. The",
+        "Na’vi, 10-foot tall, blue-skinned humanoids inhabit there. To explore pandora’s",
+        "biosphere, scientists use Na’vi-human hybrids called “avatars”, operated by",
+        "genetically matched humans. Against this background, Jake Sully (starred by Sam",
+        "Worthington), paraplegic former marine, is found by RDA to replace his brother to",
+        "finish the mission to research on Navi’s ways in order to relocate them."
+      ],
+      "text": "By 2154, natural resources are scarce on Earth. The Resources Development Administration mines on Pandora, whose atmosphere is poisonous to humans. The Na’vi, 10-foot tall, blue-skinned humanoids inhabit there. To explore pandora’s biosphere, scientists use Na’vi-human hybrids called “avatars”, operated by genetically matched humans. Against this background, Jake Sully (starred by Sam Worthington), paraplegic former marine, is found by RDA to replace his brother to finish the mission to research on Navi’s ways in order to relocate them.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 145,
+      "end": 151,
+      "before": [
+        "到2154年，地球上的自然资源已十分稀缺。资源开发局在潘多拉星球上开采资",
+        "源。潘多拉星球的大气对人类有害。身高10英尺、蓝色皮肤的纳威人住在潘多",
+        "拉星球上。为了探索潘多拉生物圈，科学家把人类基因和纳威人的基因结合在",
+        "一起，制造了克隆纳威人，叫作“阿凡达”。只有基因与该克隆人相配的人可以",
+        "操控克隆人。 在这个背景下，杰克·萨利（萨姆·沃辛顿饰演），一名身患截瘫",
+        "的退伍海军，被资源开发局找到以接替他的哥哥完成这项任务——调查纳威人",
+        "的行为方式，为他们重新安排住所。"
+      ],
+      "text": "到2154年，地球上的自然资源已十分稀缺。资源开发局在潘多拉星球上开采资源。潘多拉星球的大气对人类有害。身高10英尺、蓝色皮肤的纳威人住在潘多拉星球上。为了探索潘多拉生物圈，科学家把人类基因和纳威人的基因结合在一起，制造了克隆纳威人，叫作“阿凡达”。只有基因与该克隆人相配的人可以操控克隆人。 在这个背景下，杰克·萨利（萨姆·沃辛顿饰演），一名身患截瘫的退伍海军，被资源开发局找到以接替他的哥哥完成这项任务——调查纳威人的行为方式，为他们重新安排住所。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 152,
+      "end": 159,
+      "before": [
+        "During one mission, he is rescued by Neytiri, the daughter of the clan’s spiritual",
+        "leader. He gets to know more about Pandora. It is contradictory for him to decide",
+        "which side he should fight for. Finally, under the leadership of Jake, the clan unites",
+        "together to battle against the RDA. After that, with the exception of Jake, Max, Norm",
+        "and a few other scientists, all humans are expelled from Pandora and sent back to",
+        "Earth and Jake is transferred permanently into his avatar. Avatar is primarily an",
+        "action-adventure journey of self-discovery, in the context of imperialism and deep",
+        "ecology."
+      ],
+      "text": "During one mission, he is rescued by Neytiri, the daughter of the clan’s spiritual leader. He gets to know more about Pandora. It is contradictory for him to decide which side he should fight for. Finally, under the leadership of Jake, the clan unites together to battle against the RDA. After that, with the exception of Jake, Max, Norm and a few other scientists, all humans are expelled from Pandora and sent back to Earth and Jake is transferred permanently into his avatar. Avatar is primarily an action-adventure journey of self-discovery, in the context of imperialism and deep ecology.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 160,
+      "end": 165,
+      "before": [
+        "在一次任务中，杰克被纳威族精神领袖的女儿奈蒂丽救助，他得以对潘多拉星",
+        "球有更深的了解。杰克十分矛盾，不知道他应该帮助哪一方。最终，在杰克的",
+        "领导下，潘多拉部落联合抗击资源开发局。那场战役之后，除了杰克、麦克",
+        "斯、诺姆和其他一些科学家，所有的人类都被驱逐出潘多拉星球返回地球。杰",
+        "克永远地转化为阿凡达。《阿凡达》是在帝国主义和深层次生态主义背景下的",
+        "一部关于自我发现的探险历程的电影。"
+      ],
+      "text": "在一次任务中，杰克被纳威族精神领袖的女儿奈蒂丽救助，他得以对潘多拉星球有更深的了解。杰克十分矛盾，不知道他应该帮助哪一方。最终，在杰克的领导下，潘多拉部落联合抗击资源开发局。那场战役之后，除了杰克、麦克斯、诺姆和其他一些科学家，所有的人类都被驱逐出潘多拉星球返回地球。杰克永远地转化为阿凡达。《阿凡达》是在帝国主义和深层次生态主义背景下的一部关于自我发现的探险历程的电影。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    }
+  ],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/c9cbcb0c6b57d1a0ed2eff9be3f786ebd4034c4c25c371733f111c440250d585.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "ed7620b33a76c92e9d5bfde5a957939f27e49008c111da1bfb852a26898aebd0"
+    }
+  ]
+}

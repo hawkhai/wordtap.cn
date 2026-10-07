@@ -1,0 +1,26 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "91806b68811391ff6aef63f22291f98bb5b4a415987764671c7f1f7bd3202b3c",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title/titleZh、question/questionZh、bodyText全部8行、bodyTextZh全部8行及sentences[0..10]的完整文字；重复正文与字幕文本逐字比对，非正文字幕另读。操作在内存应用并validate_layout_change，修复后的双语全文重新通读。",
+  "notes": "Sterling追贼；抢包背景、追逐夺回两个自然段，事后肩带与未失财物引语独立。 text与bodyText同步；sentences对象及时间、角色、索引原样保留。",
+  "issues": [],
+  "display": {
+    "text": "How did Mrs. Sterling get her bag back?\n\nMrs. Anne Sterling did not think of the risk she was taking when she ran through a forest after two men. They had rushed up to her while she was having a picnic at the edge of a forest with her children and tried to steal her handbag. In the struggle, the strap broke and, with the bag in their possession, both men started running through the trees.\nMrs. Sterling got so angry that she ran after them. She was soon out of breath, but she continued to run. When she caught up with them, she saw that they had sat down and were going through the contents of the bag, so she ran straight at them. The men got such a fright that they dropped the bag and ran away.\n'The strap needs mending,' said Mrs. Sterling later, 'but they did not steal anything.'",
+    "bodyText": "Mrs. Anne Sterling did not think of the risk she was taking when she ran through a forest after two men. They had rushed up to her while she was having a picnic at the edge of a forest with her children and tried to steal her handbag. In the struggle, the strap broke and, with the bag in their possession, both men started running through the trees.\nMrs. Sterling got so angry that she ran after them. She was soon out of breath, but she continued to run. When she caught up with them, she saw that they had sat down and were going through the contents of the bag, so she ran straight at them. The men got such a fright that they dropped the bag and ran away.\n'The strap needs mending,' said Mrs. Sterling later, 'but they did not steal anything.'",
+    "bodyTextZh": "安妮·斯特林夫人并没有考虑到其中的风险。她追赶那两个男人时，穿过了一片森林。当她在森林边缘野餐时，他们立刻跑向了她。她带着孩子们野餐时，他们冲上来试图偷她的手提包。在挣扎的过程中，那根带子断了。拿着那个包，两名男子开始在树林中奔跑。\n斯特林太太气得冲了上去追赶他们。她很快就气喘吁吁了。但她还是继续奔跑着。当她追上他们时，她看到他们已经坐下来，正在翻看包里的东西。于是她直接朝他们冲了过去。那两个男人吓了一大跳，扔下包就跑了。\n“这条带子需要修理了，”斯特林夫人后来说道，“但他们什么也没偷。”"
+  },
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/de6c946d1928900dbd5fe8b454d9adf978d67c0297759bed9a2e0bd18b117625.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "e3c8d69beebc8c31b2a52277f570d8001aca267a4b824b5db8e2312881e5d929"
+    }
+  ]
+}

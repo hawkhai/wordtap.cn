@@ -70,24 +70,45 @@
   },
   "sources": [
     {
-      "path": "content/pep-english/raw/senior-required-2.pdf",
-      "locator": "PDF第63-63页，标题与完整正文逐行核对",
+      "path": "content/article-review/history/39f46f4ffef2422382f9237e4290ecb4f0f25877e0a21fdc78430bcfc3916c73.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
       "checked": true,
-      "sha256": "33b74bf42b22b32fdbe3201e6f61cf8099be047ef0af8a1740f6013dee4a619d"
-    },
-    {
-      "path": "content/pep-english/raw/senior-required-2/senior-required-2_63.jpg",
-      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
-      "checked": true,
-      "sha256": "5767cd92236788d7a364c62747a0923597ce75185850ae30ed24b0e74ccd083b"
+      "sha256": "450e8b263416ccce6740f3475c112c491801a08447df82319dfd5a74c134148c"
     }
   ],
   "corrections": [],
   "fullReadConfirmed": true,
   "recheckConfirmed": true,
   "reviewer": "Codex",
-  "reviewedAt": "2026-10-02T05:44:44+00:00",
-  "notes": "通读并核对PDF第63页Sarah Williams五段演讲，两年前患病、两小时治疗、Happy歌曲、Logan引语和三个Music gave me排比均一致；保留教材叙述及五段结构。",
+  "reviewedAt": "2026-10-07T07:30:16+00:00",
+  "notes": "Sarah音乐康复演讲按开场、患病经历、音乐作用、听众建议、致谢分块，保留排比多句段。",
   "issues": [],
-  "status": "passed_unchanged"
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "6fe8cacc4a7fd76b73a07e686af0afaf2a03a609bfbccde59e51b9a9439436a1",
+    "afterFileSha256": "6fe8cacc4a7fd76b73a07e686af0afaf2a03a609bfbccde59e51b9a9439436a1",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "6fe8cacc4a7fd76b73a07e686af0afaf2a03a609bfbccde59e51b9a9439436a1",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..4] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "Sarah音乐康复演讲按开场、患病经历、音乐作用、听众建议、致谢分块，保留排比多句段。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/39f46f4ffef2422382f9237e4290ecb4f0f25877e0a21fdc78430bcfc3916c73.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "450e8b263416ccce6740f3475c112c491801a08447df82319dfd5a74c134148c"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "39f46f4ffef2422382f9237e4290ecb4f0f25877e0a21fdc78430bcfc3916c73"
 }

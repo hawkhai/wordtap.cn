@@ -1,0 +1,140 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "38bb8450dde5ffa9f775d0e6795350713083ba0d9958a4a9d7c4b2d7a81990dc",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "coverage": "全文 blocks[0..69]；逐条比较双语、表格、例句、列表边界及修改结果。",
+  "notes": "七个对话单元按现有换行拆成英文、中文各一块；保留对话轮次和 Thank you 单元。40/41/45/46 为主谓宾及主系表对齐教学块，不拆散。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [
+    {
+      "index": 3,
+      "before": [
+        "——Excuse me!\n不好意思，打扰一下！"
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "——Excuse me!"
+        },
+        {
+          "type": "paragraph",
+          "text": "不好意思，打扰一下！"
+        }
+      ],
+      "reason": "该对话单元英文及对应中文由原换行明确分隔，各自成块，顺序及轮次不变。"
+    },
+    {
+      "index": 4,
+      "before": [
+        "——Yes?\n怎么了？"
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "——Yes?"
+        },
+        {
+          "type": "paragraph",
+          "text": "怎么了？"
+        }
+      ],
+      "reason": "该对话单元英文及对应中文由原换行明确分隔，各自成块，顺序及轮次不变。"
+    },
+    {
+      "index": 5,
+      "before": [
+        "——Is this your handbag?\n这是你的手提包吗？"
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "——Is this your handbag?"
+        },
+        {
+          "type": "paragraph",
+          "text": "这是你的手提包吗？"
+        }
+      ],
+      "reason": "该对话单元英文及对应中文由原换行明确分隔，各自成块，顺序及轮次不变。"
+    },
+    {
+      "index": 6,
+      "before": [
+        "——Pardon?\n对不起，我没听清楚。"
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "——Pardon?"
+        },
+        {
+          "type": "paragraph",
+          "text": "对不起，我没听清楚。"
+        }
+      ],
+      "reason": "该对话单元英文及对应中文由原换行明确分隔，各自成块，顺序及轮次不变。"
+    },
+    {
+      "index": 7,
+      "before": [
+        "——Is this your handbag?\n这是你的手提包吗？"
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "——Is this your handbag?"
+        },
+        {
+          "type": "paragraph",
+          "text": "这是你的手提包吗？"
+        }
+      ],
+      "reason": "该对话单元英文及对应中文由原换行明确分隔，各自成块，顺序及轮次不变。"
+    },
+    {
+      "index": 8,
+      "before": [
+        "——Yes, it is.\n是的，是我的手提包。"
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "——Yes, it is."
+        },
+        {
+          "type": "paragraph",
+          "text": "是的，是我的手提包。"
+        }
+      ],
+      "reason": "该对话单元英文及对应中文由原换行明确分隔，各自成块，顺序及轮次不变。"
+    },
+    {
+      "index": 9,
+      "before": [
+        "Thank you very much.\n非常感谢！"
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Thank you very much."
+        },
+        {
+          "type": "paragraph",
+          "text": "非常感谢！"
+        }
+      ],
+      "reason": "该对话单元英文及对应中文由原换行明确分隔，各自成块，顺序及轮次不变。"
+    }
+  ],
+  "sources": [
+    {
+      "path": "content/article-review/history/70d8339c944ab5bfc513b1f9098436a97085d468821af618d79c59fffbab2739.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "fea9b55093b0bc4480400b65336d8fe8188f8d6786171c012fdca5dd4370b3e9"
+    }
+  ]
+}

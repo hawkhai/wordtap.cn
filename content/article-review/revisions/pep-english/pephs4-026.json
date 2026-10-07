@@ -2,22 +2,17 @@
   "schemaVersion": 1,
   "course": "pep-english",
   "articleId": "pephs4-026",
-  "beforeDisplaySha256": "fb8b12f8b75c76854ce197cd3d12ab68776e303f41c629bceed858c33c87bbae",
+  "beforeDisplaySha256": "e6e2eba94e0c00fafaeb6a1dff1fc9eed956867282b31e7e5cbb26d543756c47",
   "afterDisplaySha256": "e6e2eba94e0c00fafaeb6a1dff1fc9eed956867282b31e7e5cbb26d543756c47",
   "baselineDisplay": {
-    "title": "Australian Aboriginal Rock Art",
+    "title": "Using Structures",
     "section": "Reading",
-    "text": "Australian Aboriginal rock art is among the most highly prized in the world, thanks to its age, detail, freshness, and range of colour. Australia is estimated to have as many as 100,000 rock art sites. In many areas it’s possible to visit this rock art accompanied by an Aboriginal person who can provide explanations and cultural interpretations of each work’s complicated meaning. A painted rock fragment from Nawarla Gabarnmang has been estimated to be about 28,000 years old. Some sites are among the oldest in the world, estimated to be 40,000 years old.\nThe rock art is also a record of Aboriginal life many centuries ago. You can admire ancient figures carrying spears, boomerangs, bows and arrows, frogs and other animals, a sailing ship, and a female spirit with four arms.",
+    "text": "myself my time burn tidy person w ho can prov ide ex planations and cultural her paintings perform throw inter pretations of each work's complicated your bedroom take up display meaning. Many samples of A borig inal rock ar t the play sausage start their car acc uratel y dated back as f ar as 28,000 years. Some EXAMPLE sites are among the oldest in the world, estimating Lisa was the leading actress! We saw t h e to be 40,000 years old. play per formed on stage yesterday evening. The rock ar t is also a record of Aboriginal life",
     "blocks": [
       {
         "type": "paragraph",
         "lang": "en",
-        "text": "Australian Aboriginal rock art is among the most highly prized in the world, thanks to its age, detail, freshness, and range of colour. Australia is estimated to have as many as 100,000 rock art sites. In many areas it’s possible to visit this rock art accompanied by an Aboriginal person who can provide explanations and cultural interpretations of each work’s complicated meaning. A painted rock fragment from Nawarla Gabarnmang has been estimated to be about 28,000 years old. Some sites are among the oldest in the world, estimated to be 40,000 years old."
-      },
-      {
-        "type": "paragraph",
-        "lang": "en",
-        "text": "The rock art is also a record of Aboriginal life many centuries ago. You can admire ancient figures carrying spears, boomerangs, bows and arrows, frogs and other animals, a sailing ship, and a female spirit with four arms."
+        "text": "myself my time burn tidy person w ho can prov ide ex planations and cultural her paintings perform throw inter pretations of each work's complicated your bedroom take up display meaning. Many samples of A borig inal rock ar t the play sausage start their car acc uratel y dated back as f ar as 28,000 years. Some EXAMPLE sites are among the oldest in the world, estimating Lisa was the leading actress! We saw t h e to be 40,000 years old. play per formed on stage yesterday evening. The rock ar t is also a record of Aboriginal life"
       }
     ]
   },
@@ -35,56 +30,50 @@
   },
   "sources": [
     {
-      "path": "content/pep-english/raw/senior-selective-4.pdf",
-      "locator": "PDF第76-76页，标题与完整正文逐行核对",
+      "path": "content/article-review/history/288268ea6e7bfeb9aed3ee6152478ba30d6e654b8156c7965f58eca8051084a9.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
       "checked": true,
-      "sha256": "2ad7555a13eb420aa70497f9faa2541fdb502b7ffc4e063e87c60cce88f1b4a3"
-    },
-    {
-      "path": "content/pep-english/raw/senior-selective-4/senior-selective-4_76.jpg",
-      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
-      "checked": true,
-      "sha256": "f18d4d5d2e1e0534e6ca1790acc5ff70963692cd74d94517e836a2d4669d02bf"
-    },
-    {
-      "path": "content/article-review/source-evidence/pephs4-026-rock-art.json",
-      "locator": "原考古研究摘要及博物馆对遗址数量、岩画年代的说明",
-      "checked": true,
-      "sha256": "e794e5292548fb8e15f7673fba1db4c767d064b9c0b5e3c20e9ba58fd9c1a923"
-    },
-    {
-      "path": "content/article-review/cleanup-2026-10-06.json",
-      "sha256": "cea27c1c69e32939ff83196bd29cce9a128d8d0d6f248611217179e037971889",
-      "locator": "public/pep-english/lessons/pephs4/026.json",
-      "checked": true
+      "sha256": "1c2f3d01d79bb67790b17a56ac2b710bd7f5e485de5d32d7fa0cf0ff37289ccf"
     }
   ],
-  "corrections": [
-    {
-      "field": "title",
-      "before": "Australian Aboriginal Rock Art",
-      "after": "Using Structures",
-      "evidence": "User-directed source-fidelity restoration; content/article-review/cleanup-2026-10-06.json"
-    },
-    {
-      "field": "text",
-      "before": "Australian Aboriginal rock art is among the most highly prized in the world, thanks to its age, detail, freshness, and range of colour. Australia is estimated to have as many as 100,000 rock art sites. In many areas it’s possible to visit this rock art accompanied by an Aboriginal person who can provide explanations and cultural interpretations of each work’s complicated meaning. A painted rock fragment from Nawarla Gabarnmang has been estimated to be about 28,000 years old. Some sites are among the oldest in the world, estimated to be 40,000 years old.\nThe rock art is also a record of Aboriginal life many centuries ago. You can admire ancient figures carrying spears, boomerangs, bows and arrows, frogs and other animals, a sailing ship, and a female spirit with four arms.",
-      "after": "myself my time burn tidy person w ho can prov ide ex planations and cultural her paintings perform throw inter pretations of each work's complicated your bedroom take up display meaning. Many samples of A borig inal rock ar t the play sausage start their car acc uratel y dated back as f ar as 28,000 years. Some EXAMPLE sites are among the oldest in the world, estimating Lisa was the leading actress! We saw t h e to be 40,000 years old. play per formed on stage yesterday evening. The rock ar t is also a record of Aboriginal life",
-      "evidence": "User-directed source-fidelity restoration; content/article-review/cleanup-2026-10-06.json"
-    }
+  "corrections": [],
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "reviewer": "Codex",
+  "reviewedAt": "2026-10-07T07:39:43+00:00",
+  "notes": "完整读到末尾Aboriginal life；语法练习词组选项和原住民岩画说明在单块交织，不能保序拆成合理独立项目，未猜测处理。",
+  "issues": [
+    "myself my time burn tidy等练习词组与person who can provide explanations...及岩画段连续交叉插入，例句亦与岩画年代交织。恢复词表、例句与说明自然段需要重排，无法仅调空白安全修复。"
   ],
-  "fullReadConfirmed": false,
-  "recheckConfirmed": false,
-  "reviewMode": "source-fidelity-rules-v1",
-  "reviewer": "Codex (user-directed restoration)",
-  "reviewedAt": "2026-10-05T17:15:10+00:00",
-  "notes": "Rule-based restoration; original full-read review remains historical. content/article-review/cleanup-2026-10-06.json",
-  "issues": [],
-  "status": "passed_edited",
-  "previousRevisionSha256": "0ffe85825bf4e36f0b24b03d33da50d786bba598b02e64c34789f0d7a91c2643",
-  "ruleRestoration": {
-    "policy": "source-fidelity-rules-v1",
-    "report": "content/article-review/cleanup-2026-10-06.json",
-    "reportSha256": "cea27c1c69e32939ff83196bd29cce9a128d8d0d6f248611217179e037971889"
-  }
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "3270cb4eee6af200b36530f1cbd01d5d87e59ef64465985642f3ea7a57346b0a",
+    "afterFileSha256": "3270cb4eee6af200b36530f1cbd01d5d87e59ef64465985642f3ea7a57346b0a",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "3270cb4eee6af200b36530f1cbd01d5d87e59ef64465985642f3ea7a57346b0a",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..0] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "完整读到末尾Aboriginal life；语法练习词组选项和原住民岩画说明在单块交织，不能保序拆成合理独立项目，未猜测处理。",
+      "issues": [
+        "myself my time burn tidy等练习词组与person who can provide explanations...及岩画段连续交叉插入，例句亦与岩画年代交织。恢复词表、例句与说明自然段需要重排，无法仅调空白安全修复。"
+      ],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "blockEdits": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/288268ea6e7bfeb9aed3ee6152478ba30d6e654b8156c7965f58eca8051084a9.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "1c2f3d01d79bb67790b17a56ac2b710bd7f5e485de5d32d7fa0cf0ff37289ccf"
+        }
+      ]
+    }
+  },
+  "status": "needs_source_check",
+  "previousRevisionSha256": "288268ea6e7bfeb9aed3ee6152478ba30d6e654b8156c7965f58eca8051084a9"
 }

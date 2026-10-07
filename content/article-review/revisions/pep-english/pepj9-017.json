@@ -60,24 +60,46 @@
   },
   "sources": [
     {
-      "path": "content/pep-english/raw/junior-9.pdf",
-      "locator": "PDF第52-52页，标题与完整正文逐行核对",
+      "path": "content/article-review/history/a6f0ce38ee30aaddfaee37464d3ff155a653173643ca660f112f978eaacbe9c2.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
       "checked": true,
-      "sha256": "9c4118021048d901610b673f590ed28c39c04cb2d4f7fd940f83a2d8b2741af7"
-    },
-    {
-      "path": "content/pep-english/raw/junior-9/junior-9_52.jpg",
-      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
-      "checked": true,
-      "sha256": "abe082d958c454a10312adeb9c2aa2cddf4a422389cc8483ae0cba28ecb2ee21"
+      "sha256": "9fcdc4e9fc6d4cd660e85f61f4484e3a972e02325e6f23130dd749d22a944c94"
     }
   ],
   "corrections": [],
   "fullReadConfirmed": true,
   "recheckConfirmed": true,
   "reviewer": "Codex",
-  "reviewedAt": "2026-10-02T05:10:23+00:00",
-  "notes": "PDF52页印刷38页Beauty in Common Things四段逐行核对，孔明灯叙述、剪纸1500多年与剪前折纸、泥塑风干烧制抛光上色的顺序均吻合。air-dry/hot-air拼写与段落完整，教材传统叙述照录，未混入教学框和表格，复读无修改。",
+  "reviewedAt": "2026-10-07T07:42:02+00:00",
+  "notes": "传统艺术四段为总述、孔明灯、剪纸、泥塑，制作步骤留在各艺术完整段内。",
   "issues": [],
-  "status": "passed_unchanged"
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "b72cf4efa7ee1d6bce500da9c895ae4f308240ef96401b1290fc31f53e849dce",
+    "afterFileSha256": "b72cf4efa7ee1d6bce500da9c895ae4f308240ef96401b1290fc31f53e849dce",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "b72cf4efa7ee1d6bce500da9c895ae4f308240ef96401b1290fc31f53e849dce",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..3] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "传统艺术四段为总述、孔明灯、剪纸、泥塑，制作步骤留在各艺术完整段内。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "blockEdits": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/a6f0ce38ee30aaddfaee37464d3ff155a653173643ca660f112f978eaacbe9c2.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "9fcdc4e9fc6d4cd660e85f61f4484e3a972e02325e6f23130dd749d22a944c94"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "a6f0ce38ee30aaddfaee37464d3ff155a653173643ca660f112f978eaacbe9c2"
 }

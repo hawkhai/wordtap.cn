@@ -1,0 +1,21 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "e9897c242abc8f65b376a0ba7b2e3bfd2567e214ad5e6a4e3398d8342c531a1f",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title；全文 blocks[0..14] 与对应 text；现有正文/对话/题干逐块通读复核。",
+  "notes": "烧伤文本皮肤介绍、原因、三级分类及症状、六项编号急救步骤边界清晰，全部独立项目保持。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/891daf0829146ef7087be8b0728d160b6203177221387423aa3160cf27fe6f57.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "08c2f2ac37537b08d4259e6cf2962674a61d1e295648257abbb8f2fb6f96ad34"
+    }
+  ]
+}

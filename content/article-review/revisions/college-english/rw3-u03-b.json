@@ -162,30 +162,45 @@
   },
   "sources": [
     {
-      "path": "content/College-English/NHCE4-RW3.pdf",
-      "locator": "PDF 89-90，印刷页 74-75，完整正文与标题逐段核对",
+      "path": "content/article-review/history/6a660eda68a6c8b910e6b2a81b0acb7cf299de6e9a05eaca1d5c6c47dda0d511.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
       "checked": true,
-      "sha256": "40418e1f32f5db4eaf6f091227217121109219515e2ffd6b68791927d506afe8"
-    },
-    {
-      "path": "content/College-English/NHCE4-RW3/NHCE4-RW3_89.jpg",
-      "locator": "已打开教材图页并通读复核正文",
-      "checked": true,
-      "sha256": "e0f3be504ebf4ecaf7d1b36415ac6aa2b35cbb913d73ddc27e247dfb49142a16"
-    },
-    {
-      "path": "content/College-English/NHCE4-RW3/NHCE4-RW3_90.jpg",
-      "locator": "已打开教材图页并通读复核正文",
-      "checked": true,
-      "sha256": "cac2fa93bf84af5f01f08ce8f37977379d31f0f77825c948189584ccec95bc51"
+      "sha256": "6e34ca6fd46f34d6caaf948ebb2c0090abdba18db27b1968b4acf07d43481a4d"
     }
   ],
   "corrections": [],
   "fullReadConfirmed": true,
   "recheckConfirmed": true,
   "reviewer": "Codex",
-  "reviewedAt": "2026-10-02T09:11:16+00:00",
-  "notes": "完整14段与PDF89–90图页通读复核，标题分跨页但发布标题完整，所有旅行地点、人物数量及叙事转折均一致。保留作者独旅经历、比喻及建议；怀孕不能出行是示例中姐姐个人处境，不是普遍医学规则；巧克力照料为亲历叙述，不改成治疗建议。无漏句错字需修。",
+  "reviewedAt": "2026-10-07T07:32:12+00:00",
+  "notes": "全文及未改动输出复核：赴华愿望、出行困难、缺同伴、独行选择、他人反应、助人经历、风险、交往机会、谨慎和鼓励十四段完整，各地经历按上下文保留。",
   "issues": [],
-  "status": "passed_unchanged"
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "789ff70c101304079eded2e5bef46be8ab45d182cbb4a2c15859917f05057977",
+    "afterFileSha256": "789ff70c101304079eded2e5bef46be8ab45d182cbb4a2c15859917f05057977",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "789ff70c101304079eded2e5bef46be8ab45d182cbb4a2c15859917f05057977",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "完整 title、blocks[0..13]及完全相同的text；正文及内嵌中文、引语、对话和列举均已逐项通读；无改动输出按全文再次复核。",
+      "notes": "全文及未改动输出复核：赴华愿望、出行困难、缺同伴、独行选择、他人反应、助人经历、风险、交往机会、谨慎和鼓励十四段完整，各地经历按上下文保留。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/6a660eda68a6c8b910e6b2a81b0acb7cf299de6e9a05eaca1d5c6c47dda0d511.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "6e34ca6fd46f34d6caaf948ebb2c0090abdba18db27b1968b4acf07d43481a4d"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "6a660eda68a6c8b910e6b2a81b0acb7cf299de6e9a05eaca1d5c6c47dda0d511"
 }

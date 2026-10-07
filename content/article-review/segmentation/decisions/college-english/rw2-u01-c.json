@@ -1,0 +1,21 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "c0be75883c3b192c6b3b367bb3f780659bf655dd67ae3ae87b2ad5c524af8ed8",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "完整 title、blocks[0..5]及完全相同的text；正文及内嵌中文、引语、对话和列举均已逐项通读；无改动输出按全文再次复核。",
+  "notes": "全文及未改动输出复核：来华学习总起、声调睡觉水饺、表意文字、量词、学习乐趣和展望六段明确；汉字拼音及英文释义留在例子同段，未误作跨段译文。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/93295baea890e09315cf7a9db0364717f17ce68d417997e623405ee75e853518.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "3ec686de26f806e57f689ff521d99238e3581855655374f695499ea4fe0d9125"
+    }
+  ]
+}

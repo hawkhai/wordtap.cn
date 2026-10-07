@@ -30,24 +30,45 @@
   },
   "sources": [
     {
-      "path": "content/pep-english/raw/senior-required-1.pdf",
-      "locator": "PDF第91-91页，标题与完整正文逐行核对",
+      "path": "content/article-review/history/66b667806e21ee5eb0b99ab2d7a506d90495ff1ff19ccab1ca8192c328797040.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
       "checked": true,
-      "sha256": "ffe985a370964820aa003008f48c7cf17b5e0dff8eb29fe54cd4743b0c4e8c79"
-    },
-    {
-      "path": "content/pep-english/raw/senior-required-1/senior-required-1_91.jpg",
-      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
-      "checked": true,
-      "sha256": "96b779aeef96d3c2d6db524b92e2fc4b95f91c2ccb79fb0a0bc28264ec05d79a"
+      "sha256": "6eeab36f5d5a8937ba642b99f091dc1e606ad2cb4c10b7b24da5f4fa8068a1b5"
     }
   ],
   "corrections": [],
   "fullReadConfirmed": true,
   "recheckConfirmed": true,
   "reviewer": "Codex",
-  "reviewedAt": "2026-10-02T05:33:03+00:00",
-  "notes": "PDF第91页左栏运动员品质短文全文单段核对，竞争、自信、抗压及专注四点和结语完整一致；不混入右栏问题与对话，无修改。",
+  "reviewedAt": "2026-10-07T07:30:13+00:00",
+  "notes": "优秀运动员四种共同特质用First、Second、Finally串联成完整短论述，保留现有段落。",
   "issues": [],
-  "status": "passed_unchanged"
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "69478e7105dad418ff1f9ba6bc8d648b62848d3942518aa328c83aff5acd5529",
+    "afterFileSha256": "69478e7105dad418ff1f9ba6bc8d648b62848d3942518aa328c83aff5acd5529",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "69478e7105dad418ff1f9ba6bc8d648b62848d3942518aa328c83aff5acd5529",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..0] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "优秀运动员四种共同特质用First、Second、Finally串联成完整短论述，保留现有段落。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/66b667806e21ee5eb0b99ab2d7a506d90495ff1ff19ccab1ca8192c328797040.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "6eeab36f5d5a8937ba642b99f091dc1e606ad2cb4c10b7b24da5f4fa8068a1b5"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "66b667806e21ee5eb0b99ab2d7a506d90495ff1ff19ccab1ca8192c328797040"
 }

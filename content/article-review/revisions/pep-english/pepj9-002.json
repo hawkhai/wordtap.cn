@@ -50,24 +50,46 @@
   },
   "sources": [
     {
-      "path": "content/pep-english/raw/junior-9.pdf",
-      "locator": "PDF第17-17页，标题与完整正文逐行核对",
+      "path": "content/article-review/history/0e091a89e6020538b8ed52677cc9d6f4d685b5d8b9b9282245313e4b6c55dec4.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
       "checked": true,
-      "sha256": "9c4118021048d901610b673f590ed28c39c04cb2d4f7fd940f83a2d8b2741af7"
-    },
-    {
-      "path": "content/pep-english/raw/junior-9/junior-9_17.jpg",
-      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
-      "checked": true,
-      "sha256": "bab30d843e0216f31d0a767f139b67232953885cca9bc4fcb506aa5c642d1587"
+      "sha256": "63a6a5dd2e796c375be969ea019f4f7b9954da714177a0e5c347fdef0b6f0cdf"
     }
   ],
   "corrections": [],
   "fullReadConfirmed": true,
   "recheckConfirmed": true,
   "reviewer": "Codex",
-  "reviewedAt": "2026-10-02T05:05:14+00:00",
-  "notes": "PDF17页印刷3页Wei Fen学英语三段完整逐行复核，Toy Story、肢体表情、关键词听力、发音与词典学习的因果关系准确。两处英语习语与标题正确，正文段落清楚，末段学习愿望完整，复读无缺漏，无修改。",
+  "reviewedAt": "2026-10-07T07:42:01+00:00",
+  "notes": "英语学习三段按过去困难、Toy Story启发与方法、现在目标推进，保留多句学习过程段。",
   "issues": [],
-  "status": "passed_unchanged"
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "019fad4ca7fed0091bc12687925c887683646aea530cadd5066c84a80e622df7",
+    "afterFileSha256": "019fad4ca7fed0091bc12687925c887683646aea530cadd5066c84a80e622df7",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "019fad4ca7fed0091bc12687925c887683646aea530cadd5066c84a80e622df7",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..2] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "英语学习三段按过去困难、Toy Story启发与方法、现在目标推进，保留多句学习过程段。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "blockEdits": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/0e091a89e6020538b8ed52677cc9d6f4d685b5d8b9b9282245313e4b6c55dec4.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "63a6a5dd2e796c375be969ea019f4f7b9954da714177a0e5c347fdef0b6f0cdf"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "0e091a89e6020538b8ed52677cc9d6f4d685b5d8b9b9282245313e4b6c55dec4"
 }

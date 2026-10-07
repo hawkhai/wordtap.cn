@@ -112,30 +112,45 @@
   },
   "sources": [
     {
-      "path": "content/College-English/NHCE4-RW3.pdf",
-      "locator": "PDF 102-103，印刷页 87-88，完整正文与标题逐段核对",
+      "path": "content/article-review/history/b69cfa800846ac042dfe9bbae8a9d5aca2978c879e0a0ab49c06cb9221e2a3d4.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
       "checked": true,
-      "sha256": "40418e1f32f5db4eaf6f091227217121109219515e2ffd6b68791927d506afe8"
-    },
-    {
-      "path": "content/College-English/NHCE4-RW3/NHCE4-RW3_102.jpg",
-      "locator": "已打开教材图页并通读复核正文",
-      "checked": true,
-      "sha256": "aea2b567737c2dc0d704b24a69ff247c4de70dec0ba8edea496dec841a8ed61f"
-    },
-    {
-      "path": "content/College-English/NHCE4-RW3/NHCE4-RW3_103.jpg",
-      "locator": "已打开教材图页并通读复核正文",
-      "checked": true,
-      "sha256": "a37897029e35ee0d6444c732647637fa2e7e82f1b75ed02143cccb73fb60788b"
+      "sha256": "e9a6fdb7fddef950a396ca37a7d41aaf58add3cd591d49c01e0e55674c5850e6"
     }
   ],
   "corrections": [],
   "fullReadConfirmed": true,
   "recheckConfirmed": true,
   "reviewer": "Codex",
-  "reviewedAt": "2026-10-02T09:12:25+00:00",
-  "notes": "9段与PDF102–103图页逐段通读复核，work/labor/play是本文自定论证区分，不替换成通用职业分类。保留现代工资奴隶比喻、自动化及闲暇社会展望、态度决定一切的作者观点；段序、标点、首末句完整，无需改动。",
+  "reviewedAt": "2026-10-07T07:32:13+00:00",
+  "notes": "全文及未改动输出复核：幸福前提、labor/play/work定义、休闲态度、满足感、自动化、终身学习、态度与选择九段对比清晰；园丁市长例证和排比未拆碎。",
   "issues": [],
-  "status": "passed_unchanged"
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "6b6dde58ef4ca3a8340be61b0f9d72f3fc91d6d3df42af1d6f2872a6b4aba585",
+    "afterFileSha256": "6b6dde58ef4ca3a8340be61b0f9d72f3fc91d6d3df42af1d6f2872a6b4aba585",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "6b6dde58ef4ca3a8340be61b0f9d72f3fc91d6d3df42af1d6f2872a6b4aba585",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "完整 title、blocks[0..8]及完全相同的text；正文及内嵌中文、引语、对话和列举均已逐项通读；无改动输出按全文再次复核。",
+      "notes": "全文及未改动输出复核：幸福前提、labor/play/work定义、休闲态度、满足感、自动化、终身学习、态度与选择九段对比清晰；园丁市长例证和排比未拆碎。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/b69cfa800846ac042dfe9bbae8a9d5aca2978c879e0a0ab49c06cb9221e2a3d4.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "e9a6fdb7fddef950a396ca37a7d41aaf58add3cd591d49c01e0e55674c5850e6"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "b69cfa800846ac042dfe9bbae8a9d5aca2978c879e0a0ab49c06cb9221e2a3d4"
 }

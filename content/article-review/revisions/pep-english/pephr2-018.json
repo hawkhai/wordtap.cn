@@ -30,24 +30,45 @@
   },
   "sources": [
     {
-      "path": "content/pep-english/raw/senior-required-2.pdf",
-      "locator": "PDF第71-71页，标题与完整正文逐行核对",
+      "path": "content/article-review/history/31bd6bd95793090e143544f931429e3464d5b57f455f38236cc65b0b91be8448.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
       "checked": true,
-      "sha256": "33b74bf42b22b32fdbe3201e6f61cf8099be047ef0af8a1740f6013dee4a619d"
-    },
-    {
-      "path": "content/pep-english/raw/senior-required-2/senior-required-2_71.jpg",
-      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
-      "checked": true,
-      "sha256": "47fb56b3b1526225982cedb37796741795235c2761f4a452c14df629ecbf61fe"
+      "sha256": "49e34dc481351f3d0f4bf076727ce8c56f789c46f54554af4291594216061de5"
     }
   ],
   "corrections": [],
   "fullReadConfirmed": true,
   "recheckConfirmed": true,
   "reviewer": "Codex",
-  "reviewedAt": "2026-10-02T05:46:30+00:00",
-  "notes": "逐行核对PDF第71页右下海昏侯展览报道，2016年2月25日电头、400件/两万余件、2011年起发掘和三月开始为期三个月均与原文一致，完整独立报道保留。",
+  "reviewedAt": "2026-10-07T07:30:16+00:00",
+  "notes": "海昏侯文物展新闻从电头、展品、发掘和保护至展期构成完整简讯，保留。",
   "issues": [],
-  "status": "passed_unchanged"
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "2de67a0b393880c105cecdec76f10c9fd1fa5f4906399aa6df12bdbb94c9e539",
+    "afterFileSha256": "2de67a0b393880c105cecdec76f10c9fd1fa5f4906399aa6df12bdbb94c9e539",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "2de67a0b393880c105cecdec76f10c9fd1fa5f4906399aa6df12bdbb94c9e539",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..0] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "海昏侯文物展新闻从电头、展品、发掘和保护至展期构成完整简讯，保留。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/31bd6bd95793090e143544f931429e3464d5b57f455f38236cc65b0b91be8448.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "49e34dc481351f3d0f4bf076727ce8c56f789c46f54554af4291594216061de5"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "31bd6bd95793090e143544f931429e3464d5b57f455f38236cc65b0b91be8448"
 }

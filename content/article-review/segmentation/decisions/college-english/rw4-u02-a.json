@@ -1,0 +1,21 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "ef507deff5412dbb460c5810ba6175cacc631fed79876663083cd804fad9bda2",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "完整 title、blocks[0..11]及完全相同的text；正文及内嵌中文、引语、对话和列举均已逐项通读；无改动输出按全文再次复核。",
+  "notes": "全文及未改动输出复核：外貌追求、内在美、丈夫、心理咨询、消费误区、感受与关系、共同成长、可见精神、选择及未来十二段自然；情感叙事和长排比保留完整段。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/251999d2264f76be9e1b93a9965dd37a0ce70f385f40d93cd543e703aeaa5460.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "c300bfc4356f5590ef7d9903e10dbe67588453290d5b26b87bf1cb3de4a3427d"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "03bf564471eb05100d98877998487caacecb15658c85f4376b191befb1be83cb",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "coverage": "全文 blocks[0..140]；按 JSON 上下文逐项复核对话、解释、题目、表格、词表及修复后的边界。",
+  "notes": "接回两条车票例句译文及 catch 过去分词 caught；39 英文时间短答完整，感叹句同义例句和共同译文保持独立顺序。",
+  "issues": [],
+  "mergeBlocks": [
+    {
+      "start": 46,
+      "end": 47,
+      "before": [
+        "▪ The price of a single ticket is thirty-nine pounds. 单程票的价格是 39",
+        "英镑。"
+      ],
+      "text": "▪ The price of a single ticket is thirty-nine pounds. 单程票的价格是 39 英镑。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 48,
+      "end": 49,
+      "before": [
+        "▪ I want to buy a return ticket because it's cheaper. 我想买往返票，",
+        "因为它更便宜。"
+      ],
+      "text": "▪ I want to buy a return ticket because it's cheaper. 我想买往返票，因为它更便宜。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 74,
+      "end": 75,
+      "before": [
+        "◦ 第三人称单数：catches 现在分词：catching 过去式：caught 过去分词：",
+        "caught"
+      ],
+      "text": "◦ 第三人称单数：catches 现在分词：catching 过去式：caught 过去分词： caught",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    }
+  ],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/11b8ae9b97a0d7ff7ec5f7051e90e29c0aec6eacd6997bdfebe3783d80c01a32.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "d07acec192b71c9c5e972e92ed4a97190ef6149a4fbd7e25d6c496f89aba0123"
+    }
+  ]
+}

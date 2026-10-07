@@ -60,24 +60,46 @@
   },
   "sources": [
     {
-      "path": "content/pep-english/raw/junior-9.pdf",
-      "locator": "PDF第36-36页，标题与完整正文逐行核对",
+      "path": "content/article-review/history/7c6c42d0b9ac2bf11c00e5b4c4fcd65a5aa468378e14f1aaa3b63d7ddf31df20.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
       "checked": true,
-      "sha256": "9c4118021048d901610b673f590ed28c39c04cb2d4f7fd940f83a2d8b2741af7"
-    },
-    {
-      "path": "content/pep-english/raw/junior-9/junior-9_36.jpg",
-      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
-      "checked": true,
-      "sha256": "dd5d76fd720e6ad4600e7bfcb9260413d1abb33c350f1767cb26a0456071d124"
+      "sha256": "01e52fd0cd2543a1929f3321311e8f10379cfdd2cf8051f3fcae3b179059aff0"
     }
   ],
   "corrections": [],
   "fullReadConfirmed": true,
   "recheckConfirmed": true,
   "reviewer": "Codex",
-  "reviewedAt": "2026-10-02T05:07:57+00:00",
-  "notes": "PDF36页印刷22页四段全文逐行核对，直接/委婉问路、对同学及Mr West的不同说法、邮件地址及请求铺垫例句准确。原书问句引号后逗号和省略号保留，正文完整，教学框与附图气泡未误混，复读无修改。",
+  "reviewedAt": "2026-10-07T07:42:01+00:00",
+  "notes": "礼貌请求四段分别重要性、对象差异、表达长度与引入、总结，各对比例句归所属完整说明段。",
   "issues": [],
-  "status": "passed_unchanged"
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "9328f3a2b6e86fac9ac6c9e69ae2125c92df643690f6e4f7578cc460c99e7bea",
+    "afterFileSha256": "9328f3a2b6e86fac9ac6c9e69ae2125c92df643690f6e4f7578cc460c99e7bea",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "9328f3a2b6e86fac9ac6c9e69ae2125c92df643690f6e4f7578cc460c99e7bea",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..3] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "礼貌请求四段分别重要性、对象差异、表达长度与引入、总结，各对比例句归所属完整说明段。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "blockEdits": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/7c6c42d0b9ac2bf11c00e5b4c4fcd65a5aa468378e14f1aaa3b63d7ddf31df20.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "01e52fd0cd2543a1929f3321311e8f10379cfdd2cf8051f3fcae3b179059aff0"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "7c6c42d0b9ac2bf11c00e5b4c4fcd65a5aa468378e14f1aaa3b63d7ddf31df20"
 }

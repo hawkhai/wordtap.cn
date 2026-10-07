@@ -212,30 +212,45 @@
   },
   "sources": [
     {
-      "path": "content/College-English/NHCE4-RW3.pdf",
-      "locator": "PDF 114-115，印刷页 99-100，完整正文与标题逐段核对",
+      "path": "content/article-review/history/da19b30e982d9d8190044f8c9c308bd38be9963591ff0352cc529b77f2724dff.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
       "checked": true,
-      "sha256": "40418e1f32f5db4eaf6f091227217121109219515e2ffd6b68791927d506afe8"
-    },
-    {
-      "path": "content/College-English/NHCE4-RW3/NHCE4-RW3_114.jpg",
-      "locator": "已打开教材图页并通读复核正文",
-      "checked": true,
-      "sha256": "72fbcffe7563431912640c5600e5ac1a6c881d6d0cf7b343b1499901098e647d"
-    },
-    {
-      "path": "content/College-English/NHCE4-RW3/NHCE4-RW3_115.jpg",
-      "locator": "已打开教材图页并通读复核正文",
-      "checked": true,
-      "sha256": "14e94fc7a1664b010c01fdd08cf7cf7d0670b9632b9de156d4c3b17ffbcac51f"
+      "sha256": "39f2b5862e5e45d27ae95b7820817e6cd15c1e08335cc6cb8c2c7449fae6ae2b"
     }
   ],
   "corrections": [],
   "fullReadConfirmed": true,
   "recheckConfirmed": true,
   "reviewer": "Codex",
-  "reviewedAt": "2026-10-02T09:12:55+00:00",
-  "notes": "19段与PDF114–115图页全文核对，1965开篇、补鞋至友人去世的顺序以及第11段跨页接续均完整。对话内嵌父亲引言的双层引号正确，单句对话独立成段；人物关于职业自豪带来幸福的信念为叙事内容，保留。未发现需改字句。",
+  "reviewedAt": "2026-10-07T07:32:13+00:00",
+  "notes": "全文及未改动输出复核：初识鞋匠、催促与传统对话、友谊、邻里形象、油漆工抱怨、传承回答、死亡和遗训十九段自然；问答轮次及叙事短段完整保留。",
   "issues": [],
-  "status": "passed_unchanged"
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "65a5a3a1eeb6e16fd62cc442996218cbbb086254839b27d903205398e56d89f3",
+    "afterFileSha256": "65a5a3a1eeb6e16fd62cc442996218cbbb086254839b27d903205398e56d89f3",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "65a5a3a1eeb6e16fd62cc442996218cbbb086254839b27d903205398e56d89f3",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "完整 title、blocks[0..18]及完全相同的text；正文及内嵌中文、引语、对话和列举均已逐项通读；无改动输出按全文再次复核。",
+      "notes": "全文及未改动输出复核：初识鞋匠、催促与传统对话、友谊、邻里形象、油漆工抱怨、传承回答、死亡和遗训十九段自然；问答轮次及叙事短段完整保留。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/da19b30e982d9d8190044f8c9c308bd38be9963591ff0352cc529b77f2724dff.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "39f2b5862e5e45d27ae95b7820817e6cd15c1e08335cc6cb8c2c7449fae6ae2b"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "da19b30e982d9d8190044f8c9c308bd38be9963591ff0352cc529b77f2724dff"
 }

@@ -60,24 +60,45 @@
   },
   "sources": [
     {
-      "path": "content/pep-english/raw/senior-required-2.pdf",
-      "locator": "PDF第91-91页，标题与完整正文逐行核对",
+      "path": "content/article-review/history/578c881965cb2be7a0cea5f027861cf249595962dd027a30974213f711973d6f.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
       "checked": true,
-      "sha256": "33b74bf42b22b32fdbe3201e6f61cf8099be047ef0af8a1740f6013dee4a619d"
-    },
-    {
-      "path": "content/pep-english/raw/senior-required-2/senior-required-2_91.jpg",
-      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
-      "checked": true,
-      "sha256": "c1b633232cb5bee03092834b90e683e735baa02b1f138d9074bd63b0da37c974"
+      "sha256": "d6a3d3d12706202ea3f64eb131087f8edf9bcb3a4506054ea224e90d099ebc91"
     }
   ],
   "corrections": [],
   "fullReadConfirmed": true,
   "recheckConfirmed": true,
   "reviewer": "Codex",
-  "reviewedAt": "2026-10-02T05:48:21+00:00",
-  "notes": "逐行核对PDF第91页四段Samovar演讲，祖辈购买茶炊的四小时雪地行程、两步泡茶、含糖饮茶及家庭传承结尾完整；保留演讲第一人称和原四段。",
+  "reviewedAt": "2026-10-07T07:30:18+00:00",
+  "notes": "俄式茶炊演讲四段为家庭传承引入、祖先购置、泡茶步骤及结束语，步骤保留完整说明段。",
   "issues": [],
-  "status": "passed_unchanged"
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "a70f808a542489cb0c1eb2e4bbd189895962f467bddbc65a57f99657737872b8",
+    "afterFileSha256": "a70f808a542489cb0c1eb2e4bbd189895962f467bddbc65a57f99657737872b8",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "a70f808a542489cb0c1eb2e4bbd189895962f467bddbc65a57f99657737872b8",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..3] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "俄式茶炊演讲四段为家庭传承引入、祖先购置、泡茶步骤及结束语，步骤保留完整说明段。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/578c881965cb2be7a0cea5f027861cf249595962dd027a30974213f711973d6f.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "d6a3d3d12706202ea3f64eb131087f8edf9bcb3a4506054ea224e90d099ebc91"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "578c881965cb2be7a0cea5f027861cf249595962dd027a30974213f711973d6f"
 }

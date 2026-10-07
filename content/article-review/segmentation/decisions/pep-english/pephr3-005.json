@@ -1,0 +1,21 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "93f10e1d2f3bda75cde49c062d7021f2cfb53937730a7f4d560ffb8e815a0388",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title；全文 blocks[0..6] 与对应 text；现有正文/对话/题干逐块通读复核。",
+  "notes": "腊八粥介绍、材料步骤标题、分号材料清单及四个编号步骤各自完整，保留独立步骤。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/07c0f6f076826173829e8fdef27f7056e66551fd41173ff7ce6141406ec6e18c.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "c267b448bf67e7fdc5cb48cae4f43f22f7ef5ffcc70387f57d54c5d874c419a2"
+    }
+  ]
+}

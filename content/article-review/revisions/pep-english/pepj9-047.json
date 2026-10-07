@@ -70,24 +70,46 @@
   },
   "sources": [
     {
-      "path": "content/pep-english/raw/junior-9.pdf",
-      "locator": "PDF第124-124页，标题与完整正文逐行核对",
+      "path": "content/article-review/history/247f00b84ccc277cd9d4d892c9926e11806dc823e6607dafb8680158501a7092.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
       "checked": true,
-      "sha256": "9c4118021048d901610b673f590ed28c39c04cb2d4f7fd940f83a2d8b2741af7"
-    },
-    {
-      "path": "content/pep-english/raw/junior-9/junior-9_124.jpg",
-      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
-      "checked": true,
-      "sha256": "9b34c97676a6441b9ebc63c480d5a2745d4cb0e51b26bbf2d814ab19cee53379"
+      "sha256": "681e3ff7323bd749971b7fafdcfc9cd446c08f9a3b966af06ee73cdc99bbe5b3"
     }
   ],
   "corrections": [],
   "fullReadConfirmed": true,
   "recheckConfirmed": true,
   "reviewer": "Codex",
-  "reviewedAt": "2026-10-02T05:20:18+00:00",
-  "notes": "逐行核对PDF第124页毕业演讲全文。保留称呼、三段演讲和祝语共五块；No. 3、Grade 7、三年学习经历、感谢亲友及自主选择与责任的表述均与原页一致，无需修改。",
+  "reviewedAt": "2026-10-07T07:42:04+00:00",
+  "notes": "毕业演讲称呼、祝贺成长、感恩、未来责任、祝福五块，保留长展望段及演讲结构。",
   "issues": [],
-  "status": "passed_unchanged"
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "45a7abd2e18e52623663cfc93f0de878df1c42a00d816a92d9a02e8f8f3868f3",
+    "afterFileSha256": "45a7abd2e18e52623663cfc93f0de878df1c42a00d816a92d9a02e8f8f3868f3",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "45a7abd2e18e52623663cfc93f0de878df1c42a00d816a92d9a02e8f8f3868f3",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..4] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "毕业演讲称呼、祝贺成长、感恩、未来责任、祝福五块，保留长展望段及演讲结构。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "blockEdits": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/247f00b84ccc277cd9d4d892c9926e11806dc823e6607dafb8680158501a7092.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "681e3ff7323bd749971b7fafdcfc9cd446c08f9a3b966af06ee73cdc99bbe5b3"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "247f00b84ccc277cd9d4d892c9926e11806dc823e6607dafb8680158501a7092"
 }

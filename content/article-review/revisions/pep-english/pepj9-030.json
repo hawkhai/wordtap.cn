@@ -3,7 +3,7 @@
   "course": "pep-english",
   "articleId": "pepj9-030",
   "beforeDisplaySha256": "94f1fe14a1faa6ad239cbd065f2df43e9732e72b8fcb2cad6f6def606e6ef8f7",
-  "afterDisplaySha256": "94f1fe14a1faa6ad239cbd065f2df43e9732e72b8fcb2cad6f6def606e6ef8f7",
+  "afterDisplaySha256": "a8b553659c390f7481f0d595791d1bd972af728206d9211fd4d2a3f8b2cd0ce3",
   "baselineDisplay": {
     "title": "Greeting Customs in Japan and France",
     "section": "Section A",
@@ -24,30 +24,138 @@
       {
         "type": "paragraph",
         "lang": "en",
-        "text": "Katie: How was the welcome party for foreign students last night?\nJohn: Great! I made some new friends. But a funny thing happened.\nKatie: What?\nJohn: I met a Japanese boy called Sato, and as soon as I held out my hand, he bowed.\nKatie: That's how people in Japan are expected to greet each other. It's impolite if you don't bow.\nJohn: I didn't know that. So I just stood there with my hand out. Finally, I returned the bow.\nKatie: I remember when I first met Marie last year, I did the same thing. I held out my hand and to my surprise, she kissed me on both sides of my face!\nJohn: I wouldn't mind that!\nKatie: Very funny. Later I found out French people are supposed to kiss when they see each other."
+        "text": "Katie: How was the welcome party for foreign students last night?"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "John: Great! I made some new friends. But a funny thing happened."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Katie: What?"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "John: I met a Japanese boy called Sato, and as soon as I held out my hand, he bowed."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Katie: That's how people in Japan are expected to greet each other. It's impolite if you don't bow."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "John: I didn't know that. So I just stood there with my hand out. Finally, I returned the bow."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Katie: I remember when I first met Marie last year, I did the same thing. I held out my hand and to my surprise, she kissed me on both sides of my face!"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "John: I wouldn't mind that!"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Katie: Very funny. Later I found out French people are supposed to kiss when they see each other."
       }
     ]
   },
   "sources": [
     {
-      "path": "content/pep-english/raw/junior-9.pdf",
-      "locator": "PDF第88-88页，标题与完整正文逐行核对",
+      "path": "content/article-review/history/f3cecec1e920ce56866237e8865cf0f7c9f053234f989914934c287d654ff4ad.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
       "checked": true,
-      "sha256": "9c4118021048d901610b673f590ed28c39c04cb2d4f7fd940f83a2d8b2741af7"
-    },
-    {
-      "path": "content/pep-english/raw/junior-9/junior-9_88.jpg",
-      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
-      "checked": true,
-      "sha256": "633f6d99a087d24e191b891f10e4dfa153b400a25114aece127937120f073625"
+      "sha256": "981943bdb6749e2dfd73ea5253ec0868a4a68cfc7c725bf2bfd7f973fb558462"
     }
   ],
   "corrections": [],
   "fullReadConfirmed": true,
   "recheckConfirmed": true,
   "reviewer": "Codex",
-  "reviewedAt": "2026-10-02T05:13:01+00:00",
-  "notes": "PDF88页印刷74页Katie/John九轮迎新会对话逐行核对，Sato鞠躬与Marie贴面礼两个经历、双方反应完整。概括标题准确，未混入Maria/Dan晚餐练习；文化说法是教材角色原话，角色换行及全文复读无误，无修改。",
+  "reviewedAt": "2026-10-07T07:42:03+00:00",
+  "notes": "Katie与John日法问候九轮对话拆分，鞠躬和亲面颊故事各轮完整保留。",
   "issues": [],
-  "status": "passed_unchanged"
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "7284629567dea170622cdb3ae47db2282aef3b2429332310317f81e82cd2b1e0",
+    "afterFileSha256": "9b4ae733ebbea79d2ed620095db1e37c1ef5d1e0842fcb7739152f7c8a94f3af",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "7284629567dea170622cdb3ae47db2282aef3b2429332310317f81e82cd2b1e0",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..0] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "Katie与John日法问候九轮对话拆分，鞠躬和亲面颊故事各轮完整保留。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [
+        {
+          "index": 0,
+          "before": [
+            "Katie: How was the welcome party for foreign students last night?\nJohn: Great! I made some new friends. But a funny thing happened.\nKatie: What?\nJohn: I met a Japanese boy called Sato, and as soon as I held out my hand, he bowed.\nKatie: That's how people in Japan are expected to greet each other. It's impolite if you don't bow.\nJohn: I didn't know that. So I just stood there with my hand out. Finally, I returned the bow.\nKatie: I remember when I first met Marie last year, I did the same thing. I held out my hand and to my surprise, she kissed me on both sides of my face!\nJohn: I wouldn't mind that!\nKatie: Very funny. Later I found out French people are supposed to kiss when they see each other."
+          ],
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Katie: How was the welcome party for foreign students last night?"
+            },
+            {
+              "type": "paragraph",
+              "text": "John: Great! I made some new friends. But a funny thing happened."
+            },
+            {
+              "type": "paragraph",
+              "text": "Katie: What?"
+            },
+            {
+              "type": "paragraph",
+              "text": "John: I met a Japanese boy called Sato, and as soon as I held out my hand, he bowed."
+            },
+            {
+              "type": "paragraph",
+              "text": "Katie: That's how people in Japan are expected to greet each other. It's impolite if you don't bow."
+            },
+            {
+              "type": "paragraph",
+              "text": "John: I didn't know that. So I just stood there with my hand out. Finally, I returned the bow."
+            },
+            {
+              "type": "paragraph",
+              "text": "Katie: I remember when I first met Marie last year, I did the same thing. I held out my hand and to my surprise, she kissed me on both sides of my face!"
+            },
+            {
+              "type": "paragraph",
+              "text": "John: I wouldn't mind that!"
+            },
+            {
+              "type": "paragraph",
+              "text": "Katie: Very funny. Later I found out French people are supposed to kiss when they see each other."
+            }
+          ],
+          "reason": "每行具有明确的发言人及完整轮次，分块保留各对话轮次。"
+        }
+      ],
+      "blockEdits": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/f3cecec1e920ce56866237e8865cf0f7c9f053234f989914934c287d654ff4ad.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "981943bdb6749e2dfd73ea5253ec0868a4a68cfc7c725bf2bfd7f973fb558462"
+        }
+      ]
+    }
+  },
+  "status": "passed_edited",
+  "previousRevisionSha256": "f3cecec1e920ce56866237e8865cf0f7c9f053234f989914934c287d654ff4ad"
 }

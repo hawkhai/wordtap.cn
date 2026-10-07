@@ -1,0 +1,48 @@
+{
+  "date": "2026-10-07",
+  "baselineCommit": "4a51efb94f8bb63765b1c82c6139a6b2679dab3d",
+  "before": {
+    "files": 5000,
+    "bytes": 222004277
+  },
+  "afterExcludingThisReport": {
+    "files": 3029,
+    "bytes": 126771601
+  },
+  "bytesSaved": 95232676,
+  "archive": {
+    "path": "history.zip",
+    "entries": 1958,
+    "originalBytes": 114751987,
+    "compressedBytes": 20091520,
+    "sha256": "21c70dc2eaf21c714990864cfe3f4b2c3903e916500a228d486185cc71153693",
+    "preservation": "All entry bytes and canonical revision hashes verified before loose-file removal."
+  },
+  "removedObsoleteFiles": [
+    "browser-checkpoint-2026-10-02.json",
+    "browser-final-2026-10-04.json",
+    "build-final.log",
+    "checkpoint-2026-10-02.json",
+    "completion-2026-10-04.json",
+    "followups-completed.json",
+    "merge-main-2026-10-04.json",
+    "verification-final.log",
+    "verification-summary.json",
+    "cleanup-verification-2026-10-06.json",
+    "checkpoints/verification-1000.json",
+    "segmentation/batches/2026-10-07-shuimu-first-batch.json",
+    "world-map.jpg",
+    "world-physical-map.jpg"
+  ],
+  "retained": "Current 1054-article decisions and ledgers, 120 unresolved articles, latest revisions, event chain, restoration report, generator baselines and referenced source evidence.",
+  "verification": {
+    "unitTestsPassed": 41,
+    "segmentationCheck": 1054,
+    "publishedSnapshotCheck": 1054,
+    "restorationChainCheck": 1054,
+    "publicLessonDiff": "empty",
+    "completeAcceptance": false,
+    "needsConfirmation": 120
+  },
+  "recovery": "Deleted obsolete reports and original loose history are available from baselineCommit. Git history was not rewritten."
+}

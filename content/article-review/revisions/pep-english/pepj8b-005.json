@@ -80,24 +80,46 @@
   },
   "sources": [
     {
-      "path": "content/pep-english/raw/junior-8b.pdf",
-      "locator": "PDF第31-31页，标题与完整正文逐行核对",
+      "path": "content/article-review/history/71d55156ffa80b5a8d48af3675d4b5ce012b39eff45368dfaf2ade0014092cd1.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
       "checked": true,
-      "sha256": "1be886980dc0833b9c87ced7c9de0c8e3e7e19d990c1172f62504576d2554284"
-    },
-    {
-      "path": "content/pep-english/raw/junior-8b/junior-8b_31.jpg",
-      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
-      "checked": true,
-      "sha256": "dba265ec3e901367839a2f1728354cb51bd888a6f71513bdbb66ed2b22a8bc28"
+      "sha256": "d01a605a5f2842bd1dae9d3262ddc7f6144803a3df62e9e07d2bfb1c3c5ca10a"
     }
   ],
   "corrections": [],
   "fullReadConfirmed": true,
   "recheckConfirmed": true,
   "reviewer": "Codex",
-  "reviewedAt": "2026-10-02T04:57:51+00:00",
-  "notes": "PDF31页印刷22页两封家务议论信逐行双轮复核，Ms Miller反对与Mr Smith赞成的完整论据、neighbors复数所有格和末句越早越好都准确。两组称呼/正文/署名边界正确，没有将蓝色Skimming教学框混入；观点相反为原题设置，均保留，概括标题准确，无修改。",
+  "reviewedAt": "2026-10-07T07:41:59+00:00",
+  "notes": "Ms. Miller与Mr. Smith两封相反家务观来信各称呼正文署名明确，两篇多句论证保留完整段。",
   "issues": [],
-  "status": "passed_unchanged"
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "660e5825ceacab9f65a1680ae57f05d2459ccf80c7d3e9eef324f3db6bcea2fd",
+    "afterFileSha256": "660e5825ceacab9f65a1680ae57f05d2459ccf80c7d3e9eef324f3db6bcea2fd",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "660e5825ceacab9f65a1680ae57f05d2459ccf80c7d3e9eef324f3db6bcea2fd",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..5] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "Ms. Miller与Mr. Smith两封相反家务观来信各称呼正文署名明确，两篇多句论证保留完整段。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "blockEdits": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/71d55156ffa80b5a8d48af3675d4b5ce012b39eff45368dfaf2ade0014092cd1.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "d01a605a5f2842bd1dae9d3262ddc7f6144803a3df62e9e07d2bfb1c3c5ca10a"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "71d55156ffa80b5a8d48af3675d4b5ce012b39eff45368dfaf2ade0014092cd1"
 }

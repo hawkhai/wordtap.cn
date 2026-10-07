@@ -2,72 +2,9 @@
   "schemaVersion": 1,
   "course": "nce",
   "articleId": "nce1-023",
-  "beforeDisplaySha256": "81501c36dc11bfdd4a4907de2085e389e195d3ccc193008a985e81a73db78d53",
-  "afterDisplaySha256": "f69077cefb451d636c34cac6adaefef0d9b8ac63b2e65ac8fc332df3353b4de2",
+  "beforeDisplaySha256": "f69077cefb451d636c34cac6adaefef0d9b8ac63b2e65ac8fc332df3353b4de2",
+  "afterDisplaySha256": "af8ba37707aacc2c73fbb944bf7b91987694055ae16d64414e37dc7f84321e8f",
   "baselineDisplay": {
-    "title": "Which Glasses",
-    "titleZh": "哪些杯子？",
-    "question": "Which glasses does the man want?",
-    "questionZh": "那个男人想要哪些杯子？",
-    "text": "Which glasses does the man want?\n\nGive me some glasses please, Jane.\nWhich glasses?\nThese glasses?\nNo, not those.\nThe ones on the shelf.\nThese?\nYes, please.\nHere you are.\nThanks.",
-    "bodyText": "Give me some glasses please, Jane.\nWhich glasses?\nThese glasses?\nNo, not those.\nThe ones on the shelf.\nThese?\nYes, please.\nHere you are.\nThanks.",
-    "bodyTextZh": "简，请给我拿些杯子来。\n哪些杯子？\n这些杯子？\n不，不是那些。\n架子上的那些（杯子）。\n这些（杯子）？\n对，请（就这些）。\n给你。\n谢谢。",
-    "sentences": [
-      {
-        "en": "Lesson 23",
-        "zh": "第 23 课"
-      },
-      {
-        "en": "Which glasses?",
-        "zh": "哪些杯子？"
-      },
-      {
-        "en": "Listen to the tape then answer this question.",
-        "zh": "先听这段录音，然后回答这个问题。"
-      },
-      {
-        "en": "Which glasses does the man want?",
-        "zh": "那个男人想要哪些杯子？"
-      },
-      {
-        "en": "Give me some glasses please, Jane.",
-        "zh": "简，请给我拿些杯子来。"
-      },
-      {
-        "en": "Which glasses?",
-        "zh": "哪些杯子？"
-      },
-      {
-        "en": "These glasses?",
-        "zh": "这些杯子？"
-      },
-      {
-        "en": "No, not those.",
-        "zh": "不，不是那些。"
-      },
-      {
-        "en": "The ones on the shelf.",
-        "zh": "架子上的那些（杯子）。"
-      },
-      {
-        "en": "These?",
-        "zh": "这些（杯子）？"
-      },
-      {
-        "en": "Yes, please.",
-        "zh": "对，请（就这些）。"
-      },
-      {
-        "en": "Here you are.",
-        "zh": "给你。"
-      },
-      {
-        "en": "Thanks.",
-        "zh": "谢谢。"
-      }
-    ]
-  },
-  "display": {
     "title": "Which Glasses",
     "titleZh": "哪些眼镜？",
     "question": "Which glasses does the man want?",
@@ -130,74 +67,115 @@
       }
     ]
   },
+  "display": {
+    "title": "Which Glasses",
+    "titleZh": "哪些眼镜？",
+    "question": "Which glasses does the man want?",
+    "questionZh": "那个男人想要哪些眼镜？",
+    "text": "Which glasses does the man want?\n\nGive me some glasses please, Jane.\nWhich glasses? These glasses?\nNo, not those. The ones on the shelf.\nThese?\nYes, please.\nHere you are.\nThanks.",
+    "bodyText": "Give me some glasses please, Jane.\nWhich glasses? These glasses?\nNo, not those. The ones on the shelf.\nThese?\nYes, please.\nHere you are.\nThanks.",
+    "bodyTextZh": "简，请给我拿些眼镜来。\n哪些眼镜？这些眼镜？\n不，不是那些。架子上的那些（眼镜）。\n这些（眼镜）？\n对，请（就这些）。\n给你。\n谢谢。",
+    "sentences": [
+      {
+        "en": "Lesson 23",
+        "zh": "第 23 课"
+      },
+      {
+        "en": "Which glasses?",
+        "zh": "哪些眼镜？"
+      },
+      {
+        "en": "Listen to the tape then answer this question.",
+        "zh": "先听这段录音，然后回答这个问题。"
+      },
+      {
+        "en": "Which glasses does the man want?",
+        "zh": "那个男人想要哪些眼镜？"
+      },
+      {
+        "en": "Give me some glasses please, Jane.",
+        "zh": "简，请给我拿些眼镜来。"
+      },
+      {
+        "en": "Which glasses?",
+        "zh": "哪些眼镜？"
+      },
+      {
+        "en": "These glasses?",
+        "zh": "这些眼镜？"
+      },
+      {
+        "en": "No, not those.",
+        "zh": "不，不是那些。"
+      },
+      {
+        "en": "The ones on the shelf.",
+        "zh": "架子上的那些（眼镜）。"
+      },
+      {
+        "en": "These?",
+        "zh": "这些（眼镜）？"
+      },
+      {
+        "en": "Yes, please.",
+        "zh": "对，请（就这些）。"
+      },
+      {
+        "en": "Here you are.",
+        "zh": "给你。"
+      },
+      {
+        "en": "Thanks.",
+        "zh": "谢谢。"
+      }
+    ]
+  },
   "sources": [
     {
-      "path": "content/NCE-Flow/NCE1/023&024－Which Glasses.lrc",
-      "locator": "全部13条中英字幕，00:02.92标题、00:11.83提问及正文",
+      "path": "content/article-review/history/a16bc00141c96bc196d1b4d274803d140bdb37d699851a4e19dee0c24b07ebe6.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
       "checked": true,
-      "sha256": "5bfba006916d6801f71c466770e0c85f2ea7c41c592a31ae478d952b7d5570ed"
-    },
-    {
-      "path": "content/article-review/source-evidence/nce1-023.json",
-      "locator": "Lesson 23杯子词义及课文译文",
-      "checked": true,
-      "sha256": "889250c7106edf34d3e3748ba76bee705265562744f4539c1d7a5b217e0762c3"
-    },
-    {
-      "path": "content/article-review/cleanup-2026-10-06.json",
-      "sha256": "cea27c1c69e32939ff83196bd29cce9a128d8d0d6f248611217179e037971889",
-      "locator": "public/nce/lessons/nce1/023.json",
-      "checked": true
+      "sha256": "366de04d1806eb36862ddbb07bc3dcf3fc5059fa9529cfb36759f9cd7d191dc3"
     }
   ],
-  "corrections": [
-    {
-      "field": "titleZh",
-      "before": "哪些杯子？",
-      "after": "哪些眼镜？",
-      "evidence": "User-directed source-fidelity restoration; content/article-review/cleanup-2026-10-06.json"
-    },
-    {
-      "field": "questionZh",
-      "before": "那个男人想要哪些杯子？",
-      "after": "那个男人想要哪些眼镜？",
-      "evidence": "User-directed source-fidelity restoration; content/article-review/cleanup-2026-10-06.json"
-    },
-    {
-      "field": "bodyTextZh",
-      "before": "简，请给我拿些杯子来。\n哪些杯子？\n这些杯子？\n不，不是那些。\n架子上的那些（杯子）。\n这些（杯子）？\n对，请（就这些）。\n给你。\n谢谢。",
-      "after": "简，请给我拿些眼镜来。\n哪些眼镜？\n这些眼镜？\n不，不是那些。\n架子上的那些（眼镜）。\n这些（眼镜）？\n对，请（就这些）。\n给你。\n谢谢。",
-      "evidence": "User-directed source-fidelity restoration; content/article-review/cleanup-2026-10-06.json"
-    },
-    {
-      "field": "sentences",
-      "index": 1,
-      "language": "zh",
-      "before": "哪些杯子？",
-      "after": "哪些眼镜？",
-      "evidence": "Historical subtitle restoration; content/article-review/cleanup-2026-10-06.json"
-    },
-    {
-      "field": "sentences",
-      "index": 3,
-      "language": "zh",
-      "before": "那个男人想要哪些杯子？",
-      "after": "那个男人想要哪些眼镜？",
-      "evidence": "Historical subtitle restoration; content/article-review/cleanup-2026-10-06.json"
-    }
-  ],
-  "fullReadConfirmed": false,
-  "recheckConfirmed": false,
-  "reviewMode": "source-fidelity-rules-v1",
-  "reviewer": "Codex (user-directed restoration)",
-  "reviewedAt": "2026-10-05T17:15:10+00:00",
-  "notes": "Rule-based restoration; original full-read review remains historical. content/article-review/cleanup-2026-10-06.json",
+  "corrections": [],
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "reviewer": "Codex",
+  "reviewedAt": "2026-10-07T07:39:39+00:00",
+  "notes": "索取架上杯具对话；询问哪些与确认这些合段，否定那些与指定架上物品合段，不修改译词。 text与bodyText同步；sentences对象及时间、角色、索引原样保留。",
   "issues": [],
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "68b57900f811fe000ad8494f17e9a20524b10b95f30fad1c0fe4902b167cee14",
+    "afterFileSha256": "462ce30a37a1fc172709245c0c508fdf7221ba14a4147fc8112509f78c25435e",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "68b57900f811fe000ad8494f17e9a20524b10b95f30fad1c0fe4902b167cee14",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title/titleZh、question/questionZh、bodyText全部9行、bodyTextZh全部9行及sentences[0..12]的完整文字；重复正文与字幕文本逐字比对，非正文字幕另读。操作在内存应用并validate_layout_change，修复后的双语全文重新通读。",
+      "notes": "索取架上杯具对话；询问哪些与确认这些合段，否定那些与指定架上物品合段，不修改译词。 text与bodyText同步；sentences对象及时间、角色、索引原样保留。",
+      "issues": [],
+      "display": {
+        "text": "Which glasses does the man want?\n\nGive me some glasses please, Jane.\nWhich glasses? These glasses?\nNo, not those. The ones on the shelf.\nThese?\nYes, please.\nHere you are.\nThanks.",
+        "bodyText": "Give me some glasses please, Jane.\nWhich glasses? These glasses?\nNo, not those. The ones on the shelf.\nThese?\nYes, please.\nHere you are.\nThanks.",
+        "bodyTextZh": "简，请给我拿些眼镜来。\n哪些眼镜？这些眼镜？\n不，不是那些。架子上的那些（眼镜）。\n这些（眼镜）？\n对，请（就这些）。\n给你。\n谢谢。"
+      },
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/a16bc00141c96bc196d1b4d274803d140bdb37d699851a4e19dee0c24b07ebe6.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "366de04d1806eb36862ddbb07bc3dcf3fc5059fa9529cfb36759f9cd7d191dc3"
+        }
+      ]
+    }
+  },
   "status": "passed_edited",
-  "previousRevisionSha256": "2406182b6e1f442ad56a7fdcd5e22a4619343a7854d876e10be41d2a1bd569f9",
-  "ruleRestoration": {
-    "policy": "source-fidelity-rules-v1",
-    "report": "content/article-review/cleanup-2026-10-06.json",
-    "reportSha256": "cea27c1c69e32939ff83196bd29cce9a128d8d0d6f248611217179e037971889"
-  }
+  "previousRevisionSha256": "a16bc00141c96bc196d1b4d274803d140bdb37d699851a4e19dee0c24b07ebe6"
 }

@@ -3,7 +3,7 @@
   "course": "pep-english",
   "articleId": "pephr2-011",
   "beforeDisplaySha256": "a4afe664408d108cd8a51722515aae5f5892acf3cdf69a7ffe20cb893ddc4ddd",
-  "afterDisplaySha256": "a4afe664408d108cd8a51722515aae5f5892acf3cdf69a7ffe20cb893ddc4ddd",
+  "afterDisplaySha256": "61fa63d22b67b4eeafdf1e519a8f744e25bd2980bb2215adc829c0efc57e7701",
   "baselineDisplay": {
     "title": "Why I Like Techno Music",
     "section": "Listening and Speaking",
@@ -24,30 +24,92 @@
       {
         "type": "paragraph",
         "lang": "en",
-        "text": "A: What kind of music do you like?\nB: I like techno music.\nA: What makes it so special to you?\nB: I like to listen to it when I exercise. It gives me energy."
+        "text": "A: What kind of music do you like?"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "B: I like techno music."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "A: What makes it so special to you?"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "B: I like to listen to it when I exercise. It gives me energy."
       }
     ]
   },
   "sources": [
     {
-      "path": "content/pep-english/raw/senior-required-2.pdf",
-      "locator": "PDF第58-58页，标题与完整正文逐行核对",
+      "path": "content/article-review/history/128da069137e26d3a869ea4637136bb27b553ecd58c049103bcf793ad0198bbe.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
       "checked": true,
-      "sha256": "33b74bf42b22b32fdbe3201e6f61cf8099be047ef0af8a1740f6013dee4a619d"
-    },
-    {
-      "path": "content/pep-english/raw/senior-required-2/senior-required-2_58.jpg",
-      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
-      "checked": true,
-      "sha256": "3ddb6cf8facdffebe4180bf372dd149d2a5c3d72a28288577917f07a4263f90f"
+      "sha256": "e6c3501a85039fc6fb2c1273397c6a340cc8ed013d14fbdb6f0a1fef0419af0f"
     }
   ],
   "corrections": [],
   "fullReadConfirmed": true,
   "recheckConfirmed": true,
   "reviewer": "Codex",
-  "reviewedAt": "2026-10-02T05:41:12+00:00",
-  "notes": "PDF第58页上方音乐喜好四轮对话逐句核对，techno music和运动时获得能量的理由一致，保留角色换行，无修改。",
+  "reviewedAt": "2026-10-07T07:30:16+00:00",
+  "notes": "techno音乐喜好四轮短问答逐轮拆分。",
   "issues": [],
-  "status": "passed_unchanged"
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "7819ae0fc9785a63ccb744e2a911e065bffa47360d2013d3798359151261e7e4",
+    "afterFileSha256": "b646b8ab5dc8c355ff416f83438506dd8ffb4fb9c49a94f26ea7514653bf32e4",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "7819ae0fc9785a63ccb744e2a911e065bffa47360d2013d3798359151261e7e4",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..0] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "techno音乐喜好四轮短问答逐轮拆分。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [
+        {
+          "index": 0,
+          "before": [
+            "A: What kind of music do you like?\nB: I like techno music.\nA: What makes it so special to you?\nB: I like to listen to it when I exercise. It gives me energy."
+          ],
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "A: What kind of music do you like?"
+            },
+            {
+              "type": "paragraph",
+              "text": "B: I like techno music."
+            },
+            {
+              "type": "paragraph",
+              "text": "A: What makes it so special to you?"
+            },
+            {
+              "type": "paragraph",
+              "text": "B: I like to listen to it when I exercise. It gives me energy."
+            }
+          ],
+          "reason": "每行具有明确的发言人及完整轮次，分块保留各对话轮次。"
+        }
+      ],
+      "sources": [
+        {
+          "path": "content/article-review/history/128da069137e26d3a869ea4637136bb27b553ecd58c049103bcf793ad0198bbe.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "e6c3501a85039fc6fb2c1273397c6a340cc8ed013d14fbdb6f0a1fef0419af0f"
+        }
+      ]
+    }
+  },
+  "status": "passed_edited",
+  "previousRevisionSha256": "128da069137e26d3a869ea4637136bb27b553ecd58c049103bcf793ad0198bbe"
 }

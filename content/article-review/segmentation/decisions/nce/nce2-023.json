@@ -1,0 +1,26 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "7251beb80a3280bc857858ac60ea09eef1226402d22e045f790bb8e4add033eb",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title/titleZh、question/questionZh、bodyText全部11行、bodyTextZh全部11行及sentences[0..13]的完整文字；重复正文与字幕文本逐字比对，非正文字幕另读。操作在内存应用并validate_layout_change，修复后的双语全文重新通读。",
+  "notes": "姐姐来信与现代新房；回英消息、建房惊喜、邀请居住及房屋特点三段。 text与bodyText同步；sentences对象及时间、角色、索引原样保留。",
+  "issues": [],
+  "display": {
+    "text": "Why is the new house special?\n\nI had a letter from my sister yesterday. She lives in Nigeria. In her letter, she said that she would come to England next year.\nIf she comes, she will get a surprise. We are now living in a beautiful new house in the country. Work on it had begun before my sister left. The house was completed five months ago.\nIn my letter, I told her that she could stay with us. The house has many large rooms and there is a lovely garden. It is a very modern house, so it looks strange to some people. It must be the only modern house in the district.",
+    "bodyText": "I had a letter from my sister yesterday. She lives in Nigeria. In her letter, she said that she would come to England next year.\nIf she comes, she will get a surprise. We are now living in a beautiful new house in the country. Work on it had begun before my sister left. The house was completed five months ago.\nIn my letter, I told her that she could stay with us. The house has many large rooms and there is a lovely garden. It is a very modern house, so it looks strange to some people. It must be the only modern house in the district.",
+    "bodyTextZh": "我昨天收到了姐姐的一封信。她住在尼日利亚。她在信中说，她明年会来英格兰。\n如果她来了，她会收到一个惊喜。我们现在住在乡下的一栋漂亮的新房子里。我妹妹离开前，这栋房子就已经开始建了。这栋房子是在五个月前建成的。\n我在信里告诉她，她可以和我们住在一起。这栋房子有很多宽敞的房间，还有一个非常漂亮的花园。这是一栋非常现代化的房子，因此有些人会觉得它看起来很奇怪。这一定是这个地区唯一的一栋现代化房子了。"
+  },
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/7b2614368885cb8bc2fc74a2ca526d2221e9fa712669fed528863002dfd873af.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "1c716f9d9b280510772cf8800698abca0181cc138a4b968c9771f63f4998220d"
+    }
+  ]
+}

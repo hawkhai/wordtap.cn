@@ -2,21 +2,9 @@
   "schemaVersion": 1,
   "course": "pep-english",
   "articleId": "pephs3-019",
-  "beforeDisplaySha256": "e6765169934bdfede6803875952ead5f1033979ea6d43ec81adb8d29a1742ec2",
-  "afterDisplaySha256": "26e4cf0fda2698fe0dc897d45d0dcc7ce850fe6cd686ef47bb1db86c8e24aaed",
+  "beforeDisplaySha256": "26e4cf0fda2698fe0dc897d45d0dcc7ce850fe6cd686ef47bb1db86c8e24aaed",
+  "afterDisplaySha256": "396a5fa2d8d13bf109a826368dedfec3fda482e3d81464468fd10995488c3063",
   "baselineDisplay": {
-    "title": "Who Was Langston Hughes?",
-    "section": "Assessing Your Progress",
-    "text": "A: Who was Langston Hughes?\nB: He was a famous African-American poet.\nA: What’s special about his poems?\nB: Well, his poems mainly tell the story of black people in America, including their joys and pain.\nA: Can you give me an example?\nB: Dream Variations, for example. It was one of his most celebrated poems. The poem is about the dream of a world free of inequality and racial prejudice.",
-    "blocks": [
-      {
-        "type": "paragraph",
-        "lang": "en",
-        "text": "A: Who was Langston Hughes?\nB: He was a famous African-American poet.\nA: What’s special about his poems?\nB: Well, his poems mainly tell the story of black people in America, including their joys and pain.\nA: Can you give me an example?\nB: Dream Variations, for example. It was one of his most celebrated poems. The poem is about the dream of a world free of inequality and racial prejudice."
-      }
-    ]
-  },
-  "display": {
     "title": "Who Was Langston Hughes?",
     "section": "Assessing Your Progress",
     "text": "A: Who was Langston Hughes?\nB: He was a famous African-American poet.\nA: What’s special about his poems?\nB: Well, his poems mainly tell the story of black people in America, including their joys and pain.\nA: Can you give me an example?\nB: Dream Variation, for example. It was one of his most celebrated poems. The poem is about the dream of a world free of inequality and racial prejudice.",
@@ -28,52 +16,118 @@
       }
     ]
   },
+  "display": {
+    "title": "Who Was Langston Hughes?",
+    "section": "Assessing Your Progress",
+    "text": "A: Who was Langston Hughes?\nB: He was a famous African-American poet.\nA: What’s special about his poems?\nB: Well, his poems mainly tell the story of black people in America, including their joys and pain.\nA: Can you give me an example?\nB: Dream Variation, for example. It was one of his most celebrated poems. The poem is about the dream of a world free of inequality and racial prejudice.",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "A: Who was Langston Hughes?"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "B: He was a famous African-American poet."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "A: What’s special about his poems?"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "B: Well, his poems mainly tell the story of black people in America, including their joys and pain."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "A: Can you give me an example?"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "B: Dream Variation, for example. It was one of his most celebrated poems. The poem is about the dream of a world free of inequality and racial prejudice."
+      }
+    ]
+  },
   "sources": [
     {
-      "path": "content/pep-english/raw/senior-selective-3.pdf",
-      "locator": "PDF第65-65页，标题与完整正文逐行核对",
+      "path": "content/article-review/history/012866815ea18de63e2236fa6029ee6beeebac97df85ca171a436cc69ff52484.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
       "checked": true,
-      "sha256": "ed8eb9e5988b44a1ff4f8bc11ed3cfae406decefae7982477362720788e1998b"
-    },
-    {
-      "path": "content/pep-english/raw/senior-selective-3/senior-selective-3_65.jpg",
-      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
-      "checked": true,
-      "sha256": "f4f351cffb0977661911c26096d4999f7475a893ec40e30032fcfcc0e74760fe"
-    },
-    {
-      "path": "content/article-review/source-evidence/pephs3-019-hughes.json",
-      "locator": "授权诗集篇名",
-      "checked": true,
-      "sha256": "98b37d0733a993ac3a11b4d26205f1383b23380a7a7a71c30fa8feb381b4c974"
-    },
-    {
-      "path": "content/article-review/cleanup-2026-10-06.json",
-      "sha256": "cea27c1c69e32939ff83196bd29cce9a128d8d0d6f248611217179e037971889",
-      "locator": "public/pep-english/lessons/pephs3/019.json",
-      "checked": true
+      "sha256": "1eb8dc426772bcde71cdb9a3a44427b7be825f88238dbcc5bdf63ecac8c89983"
     }
   ],
-  "corrections": [
-    {
-      "field": "text",
-      "before": "A: Who was Langston Hughes?\nB: He was a famous African-American poet.\nA: What’s special about his poems?\nB: Well, his poems mainly tell the story of black people in America, including their joys and pain.\nA: Can you give me an example?\nB: Dream Variations, for example. It was one of his most celebrated poems. The poem is about the dream of a world free of inequality and racial prejudice.",
-      "after": "A: Who was Langston Hughes?\nB: He was a famous African-American poet.\nA: What’s special about his poems?\nB: Well, his poems mainly tell the story of black people in America, including their joys and pain.\nA: Can you give me an example?\nB: Dream Variation, for example. It was one of his most celebrated poems. The poem is about the dream of a world free of inequality and racial prejudice.",
-      "evidence": "User-directed source-fidelity restoration; content/article-review/cleanup-2026-10-06.json"
-    }
-  ],
-  "fullReadConfirmed": false,
-  "recheckConfirmed": false,
-  "reviewMode": "source-fidelity-rules-v1",
-  "reviewer": "Codex (user-directed restoration)",
-  "reviewedAt": "2026-10-05T17:15:10+00:00",
-  "notes": "Rule-based restoration; original full-read review remains historical. content/article-review/cleanup-2026-10-06.json",
+  "corrections": [],
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "reviewer": "Codex",
+  "reviewedAt": "2026-10-07T07:35:51+00:00",
+  "notes": "Langston Hughes介绍六轮问答逐轮拆分，Dream Variation解释的多句发言完整保留。",
   "issues": [],
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "a57bd26b8b5b57a20c33e14d86090f248beccba0fbdfc37851966b8a15dd8093",
+    "afterFileSha256": "7577bdb0dd5e234ab3f61e529d918763894932fba32d11f5f62c21b42b448bf0",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "a57bd26b8b5b57a20c33e14d86090f248beccba0fbdfc37851966b8a15dd8093",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..0] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "Langston Hughes介绍六轮问答逐轮拆分，Dream Variation解释的多句发言完整保留。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [
+        {
+          "index": 0,
+          "before": [
+            "A: Who was Langston Hughes?\nB: He was a famous African-American poet.\nA: What’s special about his poems?\nB: Well, his poems mainly tell the story of black people in America, including their joys and pain.\nA: Can you give me an example?\nB: Dream Variation, for example. It was one of his most celebrated poems. The poem is about the dream of a world free of inequality and racial prejudice."
+          ],
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "A: Who was Langston Hughes?"
+            },
+            {
+              "type": "paragraph",
+              "text": "B: He was a famous African-American poet."
+            },
+            {
+              "type": "paragraph",
+              "text": "A: What’s special about his poems?"
+            },
+            {
+              "type": "paragraph",
+              "text": "B: Well, his poems mainly tell the story of black people in America, including their joys and pain."
+            },
+            {
+              "type": "paragraph",
+              "text": "A: Can you give me an example?"
+            },
+            {
+              "type": "paragraph",
+              "text": "B: Dream Variation, for example. It was one of his most celebrated poems. The poem is about the dream of a world free of inequality and racial prejudice."
+            }
+          ],
+          "reason": "每行具有明确的发言人及完整轮次，分块保留各对话轮次。"
+        }
+      ],
+      "sources": [
+        {
+          "path": "content/article-review/history/012866815ea18de63e2236fa6029ee6beeebac97df85ca171a436cc69ff52484.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "1eb8dc426772bcde71cdb9a3a44427b7be825f88238dbcc5bdf63ecac8c89983"
+        }
+      ]
+    }
+  },
   "status": "passed_edited",
-  "previousRevisionSha256": "7dcf483e87263f370a998f22505e33bea77a260381a13775e5469ab39987b5b6",
-  "ruleRestoration": {
-    "policy": "source-fidelity-rules-v1",
-    "report": "content/article-review/cleanup-2026-10-06.json",
-    "reportSha256": "cea27c1c69e32939ff83196bd29cce9a128d8d0d6f248611217179e037971889"
-  }
+  "previousRevisionSha256": "012866815ea18de63e2236fa6029ee6beeebac97df85ca171a436cc69ff52484"
 }

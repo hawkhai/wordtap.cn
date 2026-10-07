@@ -1,0 +1,180 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "3badb8a7b1450c5500159c016018eedcd62f63d41fe7e2da9aeee9c3758b9a5e",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "coverage": "全文 blocks[0..162]；按 JSON 上下文逐项复核对话、解释、题目、表格、词表及修复后的边界。",
+  "notes": "通读拔错牙正文、摘要、12道练习及名词性从句连接词。合并完整双语单元和关系词定义续行；what/whatever等三个类别的等号词条各行保留，语法说明括号独立不机械合并。米柴盒等原文字误仅备注。",
+  "issues": [],
+  "mergeBlocks": [
+    {
+      "start": 16,
+      "end": 17,
+      "before": [
+        "My dentist had just pulled out one of my teeth and had told me to rest for a while. I",
+        "tried to say something, but my mouth was full of cotton wool."
+      ],
+      "text": "My dentist had just pulled out one of my teeth and had told me to rest for a while. I tried to say something, but my mouth was full of cotton wool.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 18,
+      "end": 19,
+      "before": [
+        "我的牙科医生刚刚给我拔掉了一颗牙，叫我休息一会儿。我想说点什么，但我",
+        "嘴里塞满了药棉。"
+      ],
+      "text": "我的牙科医生刚刚给我拔掉了一颗牙，叫我休息一会儿。我想说点什么，但我嘴里塞满了药棉。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 26,
+      "end": 27,
+      "before": [
+        "Meanwhile, my tongue was busy searching out the hole where the tooth had been. I",
+        "suddenly felt very worried, but could not say anything."
+      ],
+      "text": "Meanwhile, my tongue was busy searching out the hole where the tooth had been. I suddenly felt very worried, but could not say anything.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 28,
+      "end": 29,
+      "before": [
+        "与此同时，我的舌头正在忙着寻找刚拔掉的那颗牙的伤口。我突然非常着急起",
+        "来，但却什么也说不出来。"
+      ],
+      "text": "与此同时，我的舌头正在忙着寻找刚拔掉的那颗牙的伤口。我突然非常着急起来，但却什么也说不出来。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 30,
+      "end": 31,
+      "before": [
+        "When the dentist at last removed the cotton wool from my mouth, I was able to tell",
+        "him that he had pulled out the wrong tooth."
+      ],
+      "text": "When the dentist at last removed the cotton wool from my mouth, I was able to tell him that he had pulled out the wrong tooth.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 35,
+      "end": 36,
+      "before": [
+        "1 Had the dentist in the story pulled out one of the writer’s teeth or not? What had",
+        "he told him to do?"
+      ],
+      "text": "1 Had the dentist in the story pulled out one of the writer’s teeth or not? What had he told him to do?",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 40,
+      "end": 41,
+      "before": [
+        "5 What did the dentist eventually remove from his mouth? What did the writer tell",
+        "him?"
+      ],
+      "text": "5 What did the dentist eventually remove from his mouth? What did the writer tell him?",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 42,
+      "end": 47,
+      "before": [
+        "Answer: The dentist in the story had pulled out one of the writer’s teeth and",
+        "(had) told him to rest for a while. He asked several questions but the writer",
+        "could not answer them. His mouth was full of cotton wool. He suddenly",
+        "discovered something wrong but he could not say anything. The dentist",
+        "eventually removed the cotton wool from his mouth and the writer told him",
+        "that he had pulled out the wrong tooth."
+      ],
+      "text": "Answer: The dentist in the story had pulled out one of the writer’s teeth and (had) told him to rest for a while. He asked several questions but the writer could not answer them. His mouth was full of cotton wool. He suddenly discovered something wrong but he could not say anything. The dentist eventually removed the cotton wool from his mouth and the writer told him that he had pulled out the wrong tooth.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 113,
+      "end": 116,
+      "before": [
+        "在句中起名词作用的句子称为名词性从句。名词性从句的功能相当于名词词",
+        "组，在复合句中能充当主语、表语、宾语、补语、同位语等，因此根据其在句",
+        "中所起的语法作用名词性从句又可分别称为主语从句、宾语从句表语从句和同",
+        "位语从句,引导这四种从句的从属连词大同小异。"
+      ],
+      "text": "在句中起名词作用的句子称为名词性从句。名词性从句的功能相当于名词词组，在复合句中能充当主语、表语、宾语、补语、同位语等，因此根据其在句中所起的语法作用名词性从句又可分别称为主语从句、宾语从句表语从句和同位语从句,引导这四种从句的从属连词大同小异。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 124,
+      "end": 126,
+      "before": [
+        "• Wh-疑问词：保留疑问词义，在句中担任一个成分。这类词包括who,",
+        "whom, when, what, which, where, how和why。这些疑问词被称为连接代",
+        "词或连接副词"
+      ],
+      "text": "• Wh-疑问词：保留疑问词义，在句中担任一个成分。这类词包括who, whom, when, what, which, where, how和why。这些疑问词被称为连接代词或连接副词",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 129,
+      "end": 130,
+      "before": [
+        "注意：从句法作用的角度考虑，可以把whether和if归于这一类。这两个",
+        "连词虽然有词义，但在句中不担任句子成分。"
+      ],
+      "text": "注意：从句法作用的角度考虑，可以把whether和if归于这一类。这两个连词虽然有词义，但在句中不担任句子成分。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 133,
+      "end": 135,
+      "before": [
+        "• 名词性关系词：这一类词不像wh-疑问词那样具有疑问意义，但是区别",
+        "于其他关系词。其特点是：它们本身是先行词与另一关系代词或关系副",
+        "词的结合，因而它所引导的名词性从句是先行词与定语从句的结合"
+      ],
+      "text": "• 名词性关系词：这一类词不像wh-疑问词那样具有疑问意义，但是区别于其他关系词。其特点是：它们本身是先行词与另一关系代词或关系副词的结合，因而它所引导的名词性从句是先行词与定语从句的结合",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 137,
+      "end": 139,
+      "before": [
+        "无 论 谁 想 看 这 你 电 影 今 晚 可 以 和 我 们 一 起 去。 (Whoever wants=",
+        "Anybody who wants，在句中充当先行词和关系代词的双重作用，是先",
+        "行词与定语从句的结合)"
+      ],
+      "text": "无 论 谁 想 看 这 你 电 影 今 晚 可 以 和 我 们 一 起 去。 (Whoever wants= Anybody who wants，在句中充当先行词和关系代词的双重作用，是先行词与定语从句的结合)",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 141,
+      "end": 142,
+      "before": [
+        "( whatever= the thing which/ that，在句中充当先行词和关系代词的双重",
+        "作用，是先行词与定语从句的结合)"
+      ],
+      "text": "( whatever= the thing which/ that，在句中充当先行词和关系代词的双重作用，是先行词与定语从句的结合)",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 143,
+      "end": 144,
+      "before": [
+        "◆ 名词性关系词包括名词性关系代词、名词性关系副词和名词性关系",
+        "限定词："
+      ],
+      "text": "◆ 名词性关系词包括名词性关系代词、名词性关系副词和名词性关系限定词：",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    }
+  ],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/9defd3511012fa040816bfa8165b90eb1c4b974e8834c12bb02ae1ff0adb3cdb.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "e3921ba7c51618fc70540d3442ff766871722f5ffa6077de008a9a8c8e0b7c7c"
+    }
+  ]
+}

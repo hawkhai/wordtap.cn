@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "course": "pep-english",
   "articleId": "pephs4-013",
-  "beforeDisplaySha256": "69f6b6883f3289489731e149c6b8b77950705679aa285dcde4989a0b9a2115cc",
+  "beforeDisplaySha256": "6fc47624e3d1d1d51ca489222a3345977690667b20ad7d4f241e9062bc9de2be",
   "afterDisplaySha256": "6fc47624e3d1d1d51ca489222a3345977690667b20ad7d4f241e9062bc9de2be",
   "baselineDisplay": {
     "title": "People’s Shoes",
@@ -10,24 +10,44 @@
     "text": "Who are we?\nPeople’s Shoes is a company committed to creating a better world.\nWhat do we do?\nFor every pair of shoes you buy, we donate a pair of shoes to someone in need. We also provide surgery and medical treatment to people with eye problems, and water systems to countries with unsafe drinking water.\nWhere do we work?\nWe work in 70 countries around the world.\nHow can you help?\nYou can buy our products, so we can give to others.",
     "blocks": [
       {
-        "type": "paragraph",
+        "type": "subheading",
         "lang": "en",
-        "text": "Who are we?\nPeople’s Shoes is a company committed to creating a better world."
+        "text": "Who are we?"
       },
       {
         "type": "paragraph",
         "lang": "en",
-        "text": "What do we do?\nFor every pair of shoes you buy, we donate a pair of shoes to someone in need. We also provide surgery and medical treatment to people with eye problems, and water systems to countries with unsafe drinking water."
+        "text": "People’s Shoes is a company committed to creating a better world."
+      },
+      {
+        "type": "subheading",
+        "lang": "en",
+        "text": "What do we do?"
       },
       {
         "type": "paragraph",
         "lang": "en",
-        "text": "Where do we work?\nWe work in 70 countries around the world."
+        "text": "For every pair of shoes you buy, we donate a pair of shoes to someone in need. We also provide surgery and medical treatment to people with eye problems, and water systems to countries with unsafe drinking water."
+      },
+      {
+        "type": "subheading",
+        "lang": "en",
+        "text": "Where do we work?"
       },
       {
         "type": "paragraph",
         "lang": "en",
-        "text": "How can you help?\nYou can buy our products, so we can give to others."
+        "text": "We work in 70 countries around the world."
+      },
+      {
+        "type": "subheading",
+        "lang": "en",
+        "text": "How can you help?"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "You can buy our products, so we can give to others."
       }
     ]
   },
@@ -80,24 +100,46 @@
   },
   "sources": [
     {
-      "path": "content/pep-english/raw/senior-selective-4.pdf",
-      "locator": "PDF第54-54页，标题与完整正文逐行核对",
+      "path": "content/article-review/history/ef3f9a5292a92e6db1d0a7c2bcd992807fe7a8881ad1a41694858eb127f70489.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
       "checked": true,
-      "sha256": "2ad7555a13eb420aa70497f9faa2541fdb502b7ffc4e063e87c60cce88f1b4a3"
-    },
-    {
-      "path": "content/pep-english/raw/senior-selective-4/senior-selective-4_54.jpg",
-      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
-      "checked": true,
-      "sha256": "a800519cfe88bf8f729e37672708725412db1aa1769341eae1ea1f5c73d6c266"
+      "sha256": "e1c9e2fdbe6928b13701a0bea0b472491799451676b22e00cb6290af596bee7f"
     }
   ],
   "corrections": [],
   "fullReadConfirmed": true,
   "recheckConfirmed": true,
   "reviewer": "Codex",
-  "reviewedAt": "2026-10-02T07:39:31+00:00",
-  "notes": "逐行核对PDF54页左侧People’s Shoes教学海报四组问答；恢复四个粗体小标题，保留示例公司信息与捐助内容，未混入右侧另一份海报。",
+  "reviewedAt": "2026-10-07T07:39:41+00:00",
+  "notes": "People’s Shoes四个问句小标题及对应回答各自独立，保留公司使命、项目、范围与支持方式。",
   "issues": [],
-  "status": "passed_edited"
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "e95f9e8d95f18f638d7aba1f62d944d4a56a3969f83c7eac62a4732e1711f3f6",
+    "afterFileSha256": "e95f9e8d95f18f638d7aba1f62d944d4a56a3969f83c7eac62a4732e1711f3f6",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "e95f9e8d95f18f638d7aba1f62d944d4a56a3969f83c7eac62a4732e1711f3f6",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..7] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "People’s Shoes四个问句小标题及对应回答各自独立，保留公司使命、项目、范围与支持方式。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "blockEdits": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/ef3f9a5292a92e6db1d0a7c2bcd992807fe7a8881ad1a41694858eb127f70489.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "e1c9e2fdbe6928b13701a0bea0b472491799451676b22e00cb6290af596bee7f"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "ef3f9a5292a92e6db1d0a7c2bcd992807fe7a8881ad1a41694858eb127f70489"
 }

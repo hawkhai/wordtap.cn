@@ -1,0 +1,26 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "da5fd3ece859beae75ce7c016d5d7a699872f966bffd200482d61ac72e06abdc",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title/titleZh、question/questionZh、bodyText全部20行、bodyTextZh全部20行及sentences[0..23]的完整文字；重复正文与字幕文本逐字比对，非正文字幕另读。操作在内存应用并validate_layout_change，修复后的双语全文重新通读。",
+  "notes": "医生复诊；母亲回答感谢、邀请上楼、对Jimmy及母亲的嘱咐分段，卧床与起床时长说明、父亲也感冒的请求合为各自轮次。 text与bodyText同步；sentences对象及时间、角色、索引原样保留。",
+  "issues": [],
+  "display": {
+    "text": "Who else is in bed today? Why?\n\nHow's Jimmy today?\nBetter. Thank you, doctor.\nCan I see him please, Mrs. Williams?\nCertainly, doctor. Come upstairs.\nYou look very well, Jimmy. You are better now, but you mustn't get up yet. You must stay in bed for another two days.\nThe boy mustn't go to school yet, Mrs. Williams. And he mustn't eat rich food.\nDoes he have a temperature, doctor?\nNo, he doesn't.\nMust he stay in bed?\nYes. He must remain in bed for another two days. He can get up for about two hours each day, but you must keep the room warm.\nWhere's Mr. Williams this evening?\nHe's in bed, doctor. Can you see him please? He has a bad cold, too!",
+    "bodyText": "How's Jimmy today?\nBetter. Thank you, doctor.\nCan I see him please, Mrs. Williams?\nCertainly, doctor. Come upstairs.\nYou look very well, Jimmy. You are better now, but you mustn't get up yet. You must stay in bed for another two days.\nThe boy mustn't go to school yet, Mrs. Williams. And he mustn't eat rich food.\nDoes he have a temperature, doctor?\nNo, he doesn't.\nMust he stay in bed?\nYes. He must remain in bed for another two days. He can get up for about two hours each day, but you must keep the room warm.\nWhere's Mr. Williams this evening?\nHe's in bed, doctor. Can you see him please? He has a bad cold, too!",
+    "bodyTextZh": "Jimmy 今天怎么样？\n更好了。谢谢您，医生。\n请问威廉姆斯夫人，我能见见他吗？\n当然可以，医生。上来吧。\n你看起来气色很好，吉米。你现在好多了，但还不能起床哦。你必须再卧床休息两天。\n这个男孩还不能去上学，威廉姆斯夫人。而且他也不能吃油腻的食物。\n医生，他发烧了吗？\n没有，他没有发烧。\n他必须继续卧床吗？\n是的，他必须再卧床两天。他每天可以起来大约两个小时，但你们必须保持房间温暖。\n威廉姆斯先生今晚在哪儿？\n他也在床上，医生。您能去看看他吗？他也得了重感冒！"
+  },
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/8caf56abd31c7514dadb5068c5b8650a6038ae5e131aa7db7831115c3694eab0.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "b5739cc8bfc1a8b568e5f0d7039a2e5e71307d8b5def8b5e46f12b7417ef29c1"
+    }
+  ]
+}

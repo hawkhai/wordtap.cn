@@ -1,0 +1,209 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "9a4d19cff19a88a6061513e11508ae24aba0dcc7202d0283a0270e00a1564433",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "coverage": "全文 blocks[0..133]；按 JSON 上下文逐项复核对话、解释、题目、表格、词表及修复后的边界。",
+  "notes": "全文复核足球彩票对话、win/return/depend、条件从句及词表。恢复对话中的同一英语句子、解释的截词及同段多句；保留对话轮次、独立例句译文。原译‘花光的所有的钱’及英文句末中文句号等保持原样。",
+  "issues": [],
+  "mergeBlocks": [
+    {
+      "start": 14,
+      "end": 15,
+      "before": [
+        "——All right. If we win a lot of money, we shall travel around the world and we",
+        "shall stay at the best hotels."
+      ],
+      "text": "——All right. If we win a lot of money, we shall travel around the world and we shall stay at the best hotels.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 17,
+      "end": 18,
+      "before": [
+        "Then we shall return home and buy a big house in the country. We shall have",
+        "a beautiful garden and…"
+      ],
+      "text": "Then we shall return home and buy a big house in the country. We shall have a beautiful garden and…",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 20,
+      "end": 21,
+      "before": [
+        "——But if we spend all that money we shall be poor again. What shall we do",
+        "then?"
+      ],
+      "text": "——But if we spend all that money we shall be poor again. What shall we do then?",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 28,
+      "end": 31,
+      "before": [
+        "◦ win 的基本意思是“获胜”“赢得”,指人、参赛队、赛马、赛犬等在竞赛中",
+        "或战斗中“击败对方”,也可指通过努力获得,还可指偶然获得。引申可表示经",
+        "过努力“取得成功”“到达(山顶等)”“猜中,猜对”。当宾语为人称代词时,",
+        "还可作“说服”解。win 的过去式和过去分词都是 won。"
+      ],
+      "text": "◦ win 的基本意思是“获胜”“赢得”,指人、参赛队、赛马、赛犬等在竞赛中或战斗中“击败对方”,也可指通过努力获得,还可指偶然获得。引申可表示经过努力“取得成功”“到达(山顶等)”“猜中,猜对”。当宾语为人称代词时,还可作“说服”解。win 的过去式和过去分词都是 won。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 37,
+      "end": 38,
+      "before": [
+        "▫ She needs to win this point to level the score.她要赢得这一分才能",
+        "将比分扳平。"
+      ],
+      "text": "▫ She needs to win this point to level the score.她要赢得这一分才能将比分扳平。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 39,
+      "end": 40,
+      "before": [
+        "◦ win 用作名词的意思是“胜,赢”,常指游戏、竞赛中的胜利或赢,其复数形式可",
+        "表示“赢得物”,不可以用它表示政治斗争或军事上的胜利。"
+      ],
+      "text": "◦ win 用作名词的意思是“胜,赢”,常指游戏、竞赛中的胜利或赢,其复数形式可表示“赢得物”,不可以用它表示政治斗争或军事上的胜利。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 46,
+      "end": 48,
+      "before": [
+        "◦ return 的基本意思是“回到原来的位置或状态”,可指人、物回到某处,也可指",
+        "某人把某物送还,归还给某人；还可指病痛、情绪等的复发，状态的恢复，季",
+        "节的再次来临等。"
+      ],
+      "text": "◦ return 的基本意思是“回到原来的位置或状态”,可指人、物回到某处,也可指某人把某物送还,归还给某人；还可指病痛、情绪等的复发，状态的恢复，季节的再次来临等。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 49,
+      "end": 50,
+      "before": [
+        "▪ return 用作及物动词时，可接名词、代词或 that 从句作宾语，还可接双",
+        "宾语，其间接宾语可转化为介词 to 的宾语"
+      ],
+      "text": "▪ return 用作及物动词时，可接名词、代词或 that 从句作宾语，还可接双宾语，其间接宾语可转化为介词 to 的宾语",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 51,
+      "end": 52,
+      "before": [
+        "▫ We must return to Dalian within three days.我们必须在 3 天内回",
+        "到大连。"
+      ],
+      "text": "▫ We must return to Dalian within three days.我们必须在 3 天内回到大连。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 53,
+      "end": 54,
+      "before": [
+        "▫ What time does your husband return from work?你丈夫什么时候",
+        "下班回家？"
+      ],
+      "text": "▫ What time does your husband return from work?你丈夫什么时候下班回家？",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 56,
+      "end": 59,
+      "before": [
+        "▪ return 用作名词的基本意思是“返回，回来，恢复”，指重新回到或返",
+        "回原来的位置或状态。可用作可数名词,也可用作不可数名词。引申还可",
+        "作“归还”“回报”解，是不可数名词。return 还可作“利润”“收",
+        "益”解，是可数名词。"
+      ],
+      "text": "▪ return 用作名词的基本意思是“返回，回来，恢复”，指重新回到或返回原来的位置或状态。可用作可数名词,也可用作不可数名词。引申还可作“归还”“回报”解，是不可数名词。return 还可作“利润”“收益”解，是可数名词。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 67,
+      "end": 70,
+      "before": [
+        "◦ depend 是一个不及物动词，基本意思是“吊”“悬”“挂”,作“依赖",
+        "于”“依靠”解时主要指某种要出现的情况、未知的事实及待作出的决定等",
+        "有关的事物的不确定性。引申可指信心十足或对某人充分相信。过去式:",
+        "depended； 现在分词：depending； 过去分词：depended"
+      ],
+      "text": "◦ depend 是一个不及物动词，基本意思是“吊”“悬”“挂”,作“依赖于”“依靠”解时主要指某种要出现的情况、未知的事实及待作出的决定等有关的事物的不确定性。引申可指信心十足或对某人充分相信。过去式: depended； 现在分词：depending； 过去分词：depended",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 71,
+      "end": 72,
+      "before": [
+        "▪ Children depend on their parents for food and clothing.小孩依赖他",
+        "们的父母供给衣食。"
+      ],
+      "text": "▪ Children depend on their parents for food and clothing.小孩依赖他们的父母供给衣食。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 73,
+      "end": 74,
+      "before": [
+        "▪ Happiness doesn't depend upon who you are or what you",
+        "have.请记住，幸福不在于你是谁或者你拥有什么。"
+      ],
+      "text": "▪ Happiness doesn't depend upon who you are or what you have.请记住，幸福不在于你是谁或者你拥有什么。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 75,
+      "end": 76,
+      "before": [
+        "▪ The country depends heavily on its tourist trade.这个国家的经济在",
+        "很大程度上依靠其旅游业。"
+      ],
+      "text": "▪ The country depends heavily on its tourist trade.这个国家的经济在很大程度上依靠其旅游业。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 77,
+      "end": 79,
+      "before": [
+        "◦ depend 多与 on/upon 连用，只有当主语是 it/that 时，才可省略",
+        "on/upon，且只能接疑问词从句，其他情况都用作普通不及物动词。It all",
+        "depends 或 That depends 表示“这很难说”“得看情况”。"
+      ],
+      "text": "◦ depend 多与 on/upon 连用，只有当主语是 it/that 时，才可省略 on/upon，且只能接疑问词从句，其他情况都用作普通不及物动词。It all depends 或 That depends 表示“这很难说”“得看情况”。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 81,
+      "end": 82,
+      "before": [
+        "▪ Whether such properties are a good deal will depend on",
+        "individual situations。"
+      ],
+      "text": "▪ Whether such properties are a good deal will depend on individual situations。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 89,
+      "end": 90,
+      "before": [
+        "• 主句是一般将来时，从句要用一般现在时，极少数情况会用现在进行时或现在完",
+        "成时"
+      ],
+      "text": "• 主句是一般将来时，从句要用一般现在时，极少数情况会用现在进行时或现在完成时",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    }
+  ],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/cbab31ffa4194cdceb31b2ffe04450805399654d82e62f503db6f516f209312d.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "75e1d376838c7f6df74d90e6ea9bb40a4b286eec419b5800d70cbdb465a1c242"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "6c764535a1d4a3443b64180f3884559d6e38ce5713209ce541fed92e7ffa2dd3",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title与blocks[0..13]全文逐段阅读；text等于完整blocks连接。内存应用明确决定并验证后，复核输出blocks[0..13]全文与标题/引语/自然段边界。",
+  "notes": "14块从体育与金钱引子、运动失败和天赋局限、自身经历到为失败者鼓掌；例证列举及结语完整，无续行截断。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/7bc1044877ba6c2d3d349cfe0b747c93135cd999321e29391219a6333a3e9173.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "8a1999cdf6796333ac95308fcbb084e166af2480cc84de14b17e89c4bb0e4143"
+    }
+  ]
+}

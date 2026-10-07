@@ -1,0 +1,22 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "b311eae84fc0e0a8c7cc82510c30501557ef98e9770268e8dd71f73ae22404db",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "完整读取title及blocks[0..17]全部正文、译文和标题署名；text已验证与全块连接逐字一致。无变更方案在内存应用并验证后，再次复核上述全文及各段衔接。",
+  "notes": "全文从简短导言、纽约孤独与隐私到18英寸的联系、活动的可选择性及精神滋养；18块为9对中英自然段。城市事件列举虽长但主题连贯，不拆成逐句段。 内容旁注（不属本轮句段验收）：blocks[10]“A cornice falls, that it hits every citizen on the head”连接关系可疑；现有完整句内文字问题无法以段落边界或空白确证修复，保持原文待确认。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "revisit": true,
+  "sources": [
+    {
+      "path": "content/article-review/history/bdc4bcb49a87ebf9b92069dfa63dd1695f5972e7a3aa2cb96b7049f41d57d61b.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "0fd0eac76eeb3265bfc7550105008dd2b7aa1f551f72bb7169c6b3c8fbcc1d76"
+    }
+  ]
+}

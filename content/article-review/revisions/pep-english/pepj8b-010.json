@@ -50,24 +50,46 @@
   },
   "sources": [
     {
-      "path": "content/pep-english/raw/junior-8b.pdf",
-      "locator": "PDF第52-52页，标题与完整正文逐行核对",
+      "path": "content/article-review/history/483df0f80a31dbade6a2514bde1b235252071bede52abd721cc88b07b85a29e5.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
       "checked": true,
-      "sha256": "1be886980dc0833b9c87ced7c9de0c8e3e7e19d990c1172f62504576d2554284"
-    },
-    {
-      "path": "content/pep-english/raw/junior-8b/junior-8b_52.jpg",
-      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
-      "checked": true,
-      "sha256": "e938047005d5c812c0e4540673fcbd55ab7b57db6f40dcb5ac2a9ac1c72309a5"
+      "sha256": "4076eda2df3120182f495047f69ed4f45cecbf306e3ede756fa8444009e18905"
     }
   ],
   "corrections": [],
   "fullReadConfirmed": true,
   "recheckConfirmed": true,
   "reviewer": "Codex",
-  "reviewedAt": "2026-10-02T05:02:00+00:00",
-  "notes": "PDF52页印刷43页三段逐行对照，1979年11月英国Monkey节目、72变、尾巴限制、金箍棒大小与扶弱主题均准确。30多年前为教材出版语境；概括标题合适，正文再次通读无漏句和OCR错字，保留原文。",
+  "reviewedAt": "2026-10-07T07:42:00+00:00",
+  "notes": "孙悟空三段为英国节目引入、七十二变金箍棒、影响和品质，各完整段保留。",
   "issues": [],
-  "status": "passed_unchanged"
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "0f8b7b3f684a8c19bbb23702f0b027e710775287e888586f3e99f96d91381b37",
+    "afterFileSha256": "0f8b7b3f684a8c19bbb23702f0b027e710775287e888586f3e99f96d91381b37",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "0f8b7b3f684a8c19bbb23702f0b027e710775287e888586f3e99f96d91381b37",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..2] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "孙悟空三段为英国节目引入、七十二变金箍棒、影响和品质，各完整段保留。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "blockEdits": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/483df0f80a31dbade6a2514bde1b235252071bede52abd721cc88b07b85a29e5.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "4076eda2df3120182f495047f69ed4f45cecbf306e3ede756fa8444009e18905"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "483df0f80a31dbade6a2514bde1b235252071bede52abd721cc88b07b85a29e5"
 }

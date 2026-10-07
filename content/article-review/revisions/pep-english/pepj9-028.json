@@ -60,24 +60,46 @@
   },
   "sources": [
     {
-      "path": "content/pep-english/raw/junior-9.pdf",
-      "locator": "PDF第81-81页，标题与完整正文逐行核对",
+      "path": "content/article-review/history/94e3c95fa8bfc70ab327b77d58fbd1ffd5c036e8d8eae9b3c383aeadb8bae5a3.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
       "checked": true,
-      "sha256": "9c4118021048d901610b673f590ed28c39c04cb2d4f7fd940f83a2d8b2741af7"
-    },
-    {
-      "path": "content/pep-english/raw/junior-9/junior-9_81.jpg",
-      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
-      "checked": true,
-      "sha256": "6d8a8e0661be68bec1160a60d5488c794c9cd9948e7fe5f659420111e43d7055"
+      "sha256": "c8638d6e35170834179fdc4d7ceb5d5ec92ee708372827d747655338a3b2940b"
     }
   ],
   "corrections": [],
   "fullReadConfirmed": true,
   "recheckConfirmed": true,
   "reviewer": "Codex",
-  "reviewedAt": "2026-10-02T05:12:33+00:00",
-  "notes": "PDF81页印刷67页电影偏好四段逐行复核，Men in Black/Kung Fu Panda/Titanic/March of the Penguins/Spider-Man标题拼写与各自例子归属准确。随情绪选片及惊悚片约伴结尾完整，段落未混入练习，全文复读无修改。",
+  "reviewedAt": "2026-10-07T07:42:02+00:00",
+  "notes": "观影偏好四段按总述、喜剧动画、剧情纪录动作片、恐怖片分主题，片名例子保持完整段。",
   "issues": [],
-  "status": "passed_unchanged"
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "b6a89e2d0e886333bc12124102b2c5fd4c1e65029b3c25a2121fdfa674a358a7",
+    "afterFileSha256": "b6a89e2d0e886333bc12124102b2c5fd4c1e65029b3c25a2121fdfa674a358a7",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "b6a89e2d0e886333bc12124102b2c5fd4c1e65029b3c25a2121fdfa674a358a7",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..3] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "观影偏好四段按总述、喜剧动画、剧情纪录动作片、恐怖片分主题，片名例子保持完整段。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "blockEdits": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/94e3c95fa8bfc70ab327b77d58fbd1ffd5c036e8d8eae9b3c383aeadb8bae5a3.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "c8638d6e35170834179fdc4d7ceb5d5ec92ee708372827d747655338a3b2940b"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "94e3c95fa8bfc70ab327b77d58fbd1ffd5c036e8d8eae9b3c383aeadb8bae5a3"
 }

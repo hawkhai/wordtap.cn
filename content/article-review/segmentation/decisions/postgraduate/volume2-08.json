@@ -1,0 +1,21 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "ba2366bcaacc220cc5569ed279b6253a8a52d9888bc5f5dfa88ddc42b55e2d7f",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "完整通读title及原始blocks[0..19]，含正文、译文、标题及引语；text与全块连接一致。内存应用明确操作并validate_layout_change后复核修复全文blocks[0..19]。",
+  "notes": "20块全文覆盖狼嚎各层含义、射狼经历、鹿群失控、生态反思和结语；10对中英段落连贯，长列举与因果说明均保留为自然段。 内容旁注（不属本轮句段验收）：blocks[7]狼息、blocks[13]整夭与博客来源语、blocks[19]徽散等疑似字词/混入文本问题不能靠段落边界修复，保留待确认。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/bad82b22271ae161233f20f35b4a7628882e52e600d86266127fd5b8520c0130.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "55a4cd29cb51bfceb28937f700922e691a89fc44f9f1703d0ba516987ec90458"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "92220aa7433f787ef717ccfebadbee9668c88e6f92a3e69c826eb36799843967",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title；全文 blocks[0..8] 与对应 text；现有正文/对话/题干逐块通读复核。",
+  "notes": "UNICEF演讲九段依志愿经历、贫困债务、职责、营养、个人受助、贫困隐蔽性、儿童代价、呼吁和致谢，长段完整。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "blockEdits": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/33eddcac361c4205422448182418b40cf747abb21ac4300e11d14c1f16289f71.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "dc34f2fa57495fd71d82f603ecfedb697017b259d39c56af6e9f4e42cd8f8a04"
+    }
+  ]
+}

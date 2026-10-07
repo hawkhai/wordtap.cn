@@ -2,12 +2,12 @@
   "schemaVersion": 1,
   "course": "pep-english",
   "articleId": "pephr1-022",
-  "beforeDisplaySha256": "f0a0d627cf8771e6693804424b0487ef0374ffb4395cc8a29b24317cb491aea9",
+  "beforeDisplaySha256": "7702453cf3ea9d3fe8e8ff3262e68e3a94b00bc5fa516d7ed04931fe8a47a80c",
   "afterDisplaySha256": "7702453cf3ea9d3fe8e8ff3262e68e3a94b00bc5fa516d7ed04931fe8a47a80c",
   "baselineDisplay": {
     "title": "A Daughter Who No Longer Asks for Advice",
     "section": "Writing",
-    "text": "Dear Talking Teens,\nI have a daughter who has just started senior high school. She wants to choose her own courses and decide everything by herself. In the past, she would always ask me for advice, but now she talks to her friends instead. Why doesn't she want my advice any more?\nBest regards, Confused Mum",
+    "text": "Dear Talking Teens,\nI have a daughter who has just started senior high school. She wants to choose her own courses and decide everything by herself. In the past, she would always ask me for advice, but now she talks to her friends instead. Why doesn't she want my advice any more?\nBest regards,\nConfused Mum",
     "blocks": [
       {
         "type": "paragraph",
@@ -22,7 +22,7 @@
       {
         "type": "paragraph",
         "lang": "en",
-        "text": "Best regards, Confused Mum"
+        "text": "Best regards,\nConfused Mum"
       }
     ]
   },
@@ -50,24 +50,45 @@
   },
   "sources": [
     {
-      "path": "content/pep-english/raw/senior-required-1.pdf",
-      "locator": "PDF第82-82页，标题与完整正文逐行核对",
+      "path": "content/article-review/history/9272d8c9bc84c238232a4dae34140b1294acb68aed1dda8cbf350bccebce6ccd.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
       "checked": true,
-      "sha256": "ffe985a370964820aa003008f48c7cf17b5e0dff8eb29fe54cd4743b0c4e8c79"
-    },
-    {
-      "path": "content/pep-english/raw/senior-required-1/senior-required-1_82.jpg",
-      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
-      "checked": true,
-      "sha256": "53ea068d51c036d10dad6544a1557476644eafbf835265ae7fef8a903246f1f4"
+      "sha256": "06bb01878ea9dc3e4d2bbcdee7c0c5917771433cfe8401b10e4c13c9ffdecbc8"
     }
   ],
   "corrections": [],
   "fullReadConfirmed": true,
   "recheckConfirmed": true,
   "reviewer": "Codex",
-  "reviewedAt": "2026-10-02T05:30:44+00:00",
-  "notes": "PDF第82页Confused Mum求助信完整核对，女儿升高中后自行选课、改向朋友求建议内容一致；恢复结语与署名换行。",
+  "reviewedAt": "2026-10-07T07:30:12+00:00",
+  "notes": "母亲询问女儿不再征求意见，称呼、完整来信段、落款边界清楚。",
   "issues": [],
-  "status": "passed_edited"
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "af0b6159d4ff8c15c604b481d3e01ee019faec64556947c631af034a0b915bc4",
+    "afterFileSha256": "af0b6159d4ff8c15c604b481d3e01ee019faec64556947c631af034a0b915bc4",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "af0b6159d4ff8c15c604b481d3e01ee019faec64556947c631af034a0b915bc4",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..2] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "母亲询问女儿不再征求意见，称呼、完整来信段、落款边界清楚。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/9272d8c9bc84c238232a4dae34140b1294acb68aed1dda8cbf350bccebce6ccd.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "06bb01878ea9dc3e4d2bbcdee7c0c5917771433cfe8401b10e4c13c9ffdecbc8"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "9272d8c9bc84c238232a4dae34140b1294acb68aed1dda8cbf350bccebce6ccd"
 }

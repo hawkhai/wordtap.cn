@@ -1,0 +1,596 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "6b5796d72322520242759cd90d9d55ee6405381d24544cbc3c70030a559219be",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "完整title、blocks[0..4]及等同text；未来生活完形1—10全部选项，金星、妇女就业、天才儿童三篇11—20题全部选项，先天后天论21—28划线翻译所在全部正文；JSON无中文译文或答案。 修后全部blocks[0..139]全文及对应自然段均已再次复核，validate_layout_change通过。",
+  "notes": "家居预测⑦至○11同一多句段，工作、休闲与旅行另段；金星气候实验室论述③④合段，游行开头①②及职业变化③④合段。天才研究结果跨页接续，nature论极端推论与nurture机械刺激说明各归其主题段。只修明确词内空白；Megallan、l, 500、in employment及two passages等原文疑误不改。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [
+    {
+      "index": 0,
+      "end": 4,
+      "before": [
+        "1990 年全国硕士研究生入学统一考试英语试题 Section I Close T est For each numbered blank in the following passage there are four choice s labeled ［A］, ［B］, ［C］, and ［D］.\nChoose the best one and put your choice in the ANSWER SHEET. Read the whole passage before making your choice. (10 points)\n①No one knows for sure what the world would be like in the year 2001. ②Many books have been writte n 1 the future. ③But the 19th-century French novelist Jules Verne may be called a futurologist in the fullest 2 of the word. ④In his fantastic novels “A Trip to the Moon” and “80 Days Around the World,” he described with detail the aeroplane and ev en the helicopter. ⑤ These novels still have a great attraction 3 young readers of today because of their bold imagination and scientific accuracy.\n⑥Below is a description of what our life will be in the year 2001 as predicted by a 4 writer.\n⑦In 2001, in the home, cookers will be set so that you can cook a complete meal at the touch of a switch.\n⑧Television will provide information on prices at the 5 shops as well as news and entertainment.\n⑨Videophones will bring pictures as well as 6 to telephone conversations.\n⑩Machines will control temperature, lighting, entertainment, security alarms, laundry and gardening.\n○11Lighting will provide decoration as well as wallpaper.\n○12At work, robots will take 7 most jobs i n the manufacturing industries. ○13Working hours will fall to under 30 hours a week. ○14Holidays will get longer; six weeks will be the normal annual holiday. ○15Men and women will retire at the same age.\n○16Our leisure will be different too. ○17The home will become the center of entertainment through television and electronic games. ○18More people will eat out in restaurants 8 they do today; also they will have a much w ider variety of food available. ○19There will be a change of taste towards a more savoury -flavored menu. ○20New synthetic foods will form a 9 part of people’s diets.\n○21Foreign travel will 10; winter holida ys will become more popular than summer ones. ○22Also non -stop flights from Britain to Australia and New Zealand will be easily available and much cheaper. ○23Education will become increasingly more important than ever before. （321 words）\n1. ［A］ in ［B］ of ［C］ about ［D］ for\n2. ［A］ sense ［B］ meaning ［C］ detail ［D］ implication\n3. ［A］ for ［B］ of ［C］ on ［D］ towards\n4. ［A］ today ［B］ nowadays ［C］ present-day ［D］ present\n5. ［A］ near ［B］ nearby ［C］ nearly ［D］ nearer\n6. ［A］ noise ［B］ sound ［C］ tone ［D］ tune\n7. ［A］ to ［B］ away ［C］ off ［D］ over\n8. ［A］ than ［B］ as ［C］ when ［D］ while\n9. ［A］ usual ［B］ popular ［C］ daily ［D］ regular 10.［A］ add ［B］ increase ［C］ raise ［D］ arise Section II Reading Comprehension Each of the two passages below is followed by five questions. For each question there are four answers.\nRead the passages carefully and choose the best answer to each of the questions. Put your choice in the brackets on the left. (10 points)\nT ext 1 ①In May 1989, space shuttle “Atlantis” released in outer space the space probe “Megallan,” which is now on her 15-month and one-billion-kilometer flight to Venus. ②A new phase in space exploration has begun.\n①The planet Venus is only slightly smaller tha n Earth; it is the only other object in the solar system, in fact, that even comes close to earth’s size. ②Venus has a similar density, so it is probably made of approximately the same",
+        "stuff, and it has an atmosphere, complete with clouds. ③It is also the closest planet to earth, and thus the most similar in distance from the sun. ④In short, Venus seems to justify its long-held nickname of “earth’s twin.”\n①The surface temperature of Venus reaches some 900F. ②Added to that is an atmospheric pressure about 90 times Earth’s: High overhead in the carbon dioxide (CO 2) that passes for air is a layer of clouds, perhaps 10 to 20 miles thick, whose little drops consist mostly of sulfuric acid (H 2SO4). ③Water is all but nonexistent.\n①Born with so many fundamental simi larities to earth, how did Venus get to be so radically different: It is not just an academic matter. ②For all its extremes, Venus is a valuable laboratory for researchers studying the weather and climate of earth. ③It has no earth’s oceans, so the heat tr ansport and other mechanisms are greatly simplified.\n④In addition, the planet Venus takes 243 earth -days to turn once on its axis, so incoming heat from the sun is added and distributed at a more leisurely, observable pace.\n11. Venus is similar to Earth in ________.\n[A] size and density [B] distance from the sun [C] having atmosphere [D] all of the above\n12. The greatest value in studying Venus should be to ________.\n[A] allow us to visit there [B] understand Earth better [C] find a new source of energy [D] promote a new space program\n13. The main idea of this passage is about ________.\n[A] problems of space travel [B] scientific methods in space exploration [C] the importance of Venus to Earth [D] conditions on Venus T ext 2 ①Tourists were surprised to see a woman driving a huge orange tractor down one of Rome’s main avenues.\n②Italy’s political leaders and some of its male union chiefs are said to have been even more puzzled to see that the tractor was followed by about 200,0 00 women in a parading procession that took more than three hours to snake through central Rome.\n①Shouting slogans, waving flags and dancing to drumbeats, the women had come to the capital from all over Italy to demonstrate for “a job for each of us, a dif ferent type of job, and a society without violence.” ②So far, action to improve women’s opportunities in employment has been the province of collective industrial bargaining. ③“But there is a growing awareness that this is not enough,” says a researcher on female labor at the government -funded Institute for the Development of Professional Training for Workers.\n①Women, who constitute 52 per cent of Italy’s population, today represent only 35 per cent of Italy’s total workforce and 33 per cent of the total nu mber of Italians with jobs. ②However, their presence in the workplace is growing. ③The employment of women is expanding considerably in services, next to the public administration and commerce as their principal workplace. ④Official statistics also show th at women have also made significant strides in self-employment. ⑤More and more women are going into business for themselves. ⑥Many young women are turning to business because of the growing overall in employment. ⑦It is also a fact that today many prejudic es have disappeared, so that banks and other financial institutes make judgments on purely business considerations without",
+        "caring if it is a man or a woman.\n①Such changes are occurring in the professions too. ②The number of women doctors, dentists, lawyers, engineers and university professors increased two to three fold. ③Some of the changes are immediately visible.\n④For example, women have appeared on the scene for the first time as state police, railway workers and street cleaners.\n①However, the present s ituation is far from satisfactory though some progress has been made. ②A breakthrough in equal opportunities for women is now demanded.\n14. The expression “snake through central Rome” probably means “to move ________.\n[A] quietly through central Rome.”\n[B] violently through central Rome.”\n[C] in a long winding line through central Rome.”\n[D] at a leisurely pace through central Rome.”\n15. Which of the following statements is NOT true?\n[A] There are more women than men in Italy.\n[B] In Italy, women are chiefly employed in services.\n[C] In Italy, women are still at a disadvantage in employment.\n[D] In Italy, about two -thirds of the jobs are held by men.\n16. About 200,000 women in Rome demonstrated for ________.\n[A] more job opportunities [B] a greater variety of jobs [C] “equal job, equal pay”\n[D] both A and B\n17. The best title for this passage would be ________.\n[A] The Role of Women in Society [B] Women Demonstrate for Equality in Employment [C] Women as Self-employed Professionals [D] Women and the Jobs Market T ext 3 ①The old idea that talented children “burn themselves out” in the early years, and, therefore, are subjected to failure and at worst, mental illness is unfounded. ②As a matter of fact, the outstanding thing that happens to bright kids is that they are very likely to grow into bright adults.\nTo find this out, l, 500 gifted persons were followed up to their thirty -fifth year with these results:\n①On adult intelligence tests, they scored as high as they had as children. ②They were, as a group, in good",
+        "health, physically and mentally. ③84 per cent of their group were married and seemed content with their lives.\n①About 70 per cent had graduated from college, though only 30 per cent had graduated with honors. ②A few had even dropped out, but nearly half of these had returned to graduate. ③Of the men, 80 per cent were in one of the professions or in business management or semiprofessional jobs. ④The women who had remained single had office, business, or professional occupations.\nThe group had published 90 books and 1,500 articles in scientific, scholarly, and literary magazines and had collected more than 100 patents.\n①In a material way they did not do badly either. ②Average income was considerably higher among th e gifted people, especially the men, than for the country as a whole, despite their comparative youth.\nIn fact, far from being strange, most of the gifted were turning their early promise into practical reality.\n18. The old idea that talented children “bu rn themselves out” in the early years is ________.\n[A] true in all senses [B] refuted by the author [C] medically proven [D] a belief of the author\n19. The survey of bright children was made to ________.\n[A] find out what had happened to talen ted children when they became adults [B] prove that talented children “burn themselves out” in the early years [C] discover the percentage of those mentally ill among the gifted [D] prove that talented children never burn themselves out\n20. Intelligence tests showed that ________.\n[A] bright children were unlikely to be mentally healthy [B] between childhood and adulthood there was a considerable loss of intelligence [C] talented children were most likely to become gifted adults [D] when ta lented children grew into adults, they made low scores Section III English-Chinese Translation Read the following passage carefully and then translate the sentences underlined into Chinese. (20 points)\nPeople have wondered for a long time how their pers onalities and behaviors are formed. It is not easy to explain why one person is intelligent and another is not, or why one is cooperative and another is competitive.\nSocial scientists are, of course, extremely interested in these types of questions. (21) They want to explain why we possess certain characteristics and exhibit certain behaviors. There are no clear answers yet, but two distinct schools of thought on the matter have developed. As one might expect, the two approaches are very different from",
+        "each other. The controversy is often conveniently referred to as “nature vs. nurture.”\n(22) Those who support the “nature” side of the conflict believe that our personalities and behavior patterns are largely determined by biological factors. (23) That our env ironment has little, if anything, to do with our abilities, characteristics and behavior is central to this theory.\nTaken to an extreme, this theory maintains that our behavior is pre -determined to such a great degree that we are almost completely governed by our instincts.\nThose who support the “nurture” theory, that is, they advocate education, are often called behaviorists. They claim that our environment is more important than our biologically based instincts in determining how we will act. A behaviorist, B. F. Skinner, sees humans as beings whose behavior is almost completely shaped by their surroundings.\n(24) The behaviorists maintain that, like machines, humans respond to environmental stimuli as the basis of their behavior.\nLet us examine the differe nt explanations about one human characteristic, intelligence, offered by the two theories. (25) Supporters of the “nature” theory insist that we are born with a certain capacity for learning that is biologically determined. Needless to say: They don’t beli eve that factors in the environment have much influence on what is basically a predetermined characteristic. On the other hand, behaviorists argue that our intelligence levels are the product of our experiences. (26) Behaviorists suggest that the child who is raised in an environment where there are many stimuli which develop his or her capacity for appropriate responses will experience greater intellectual development.\nThe social and political implications of these two theories are profound. (27) In the Un ited States, blacks often score below whites on standardized intelligence tests. This leads some “nature” proponents to conclude that blacks are biologically inferior to whites. (28) Behaviorists, in contrast, say that differences in scores are due to the fact that blacks are often deprived of many of the educational and other environmental advantages that whites enjoy.\nMost people think neither of these theories can yet fully explain human behavior."
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "1990 年全国硕士研究生入学统一考试英语试题"
+        },
+        {
+          "type": "paragraph",
+          "text": "Section I Close Test"
+        },
+        {
+          "type": "paragraph",
+          "text": "For each numbered blank in the following passage there are four choices labeled ［A］, ［B］, ［C］, and ［D］. Choose the best one and put your choice in the ANSWER SHEET. Read the whole passage before making your choice. (10 points)"
+        },
+        {
+          "type": "paragraph",
+          "text": "①No one knows for sure what the world would be like in the year 2001. ②Many books have been written 1 the future. ③But the 19th-century French novelist Jules Verne may be called a futurologist in the fullest 2 of the word. ④In his fantastic novels “A Trip to the Moon” and “80 Days Around the World,” he described with detail the aeroplane and even the helicopter. ⑤ These novels still have a great attraction 3 young readers of today because of their bold imagination and scientific accuracy."
+        },
+        {
+          "type": "paragraph",
+          "text": "⑥Below is a description of what our life will be in the year 2001 as predicted by a 4 writer."
+        },
+        {
+          "type": "paragraph",
+          "text": "⑦In 2001, in the home, cookers will be set so that you can cook a complete meal at the touch of a switch. ⑧Television will provide information on prices at the 5 shops as well as news and entertainment. ⑨Videophones will bring pictures as well as 6 to telephone conversations. ⑩Machines will control temperature, lighting, entertainment, security alarms, laundry and gardening. ○11Lighting will provide decoration as well as wallpaper."
+        },
+        {
+          "type": "paragraph",
+          "text": "○12At work, robots will take 7 most jobs in the manufacturing industries. ○13Working hours will fall to under 30 hours a week. ○14Holidays will get longer; six weeks will be the normal annual holiday. ○15Men and women will retire at the same age."
+        },
+        {
+          "type": "paragraph",
+          "text": "○16Our leisure will be different too. ○17The home will become the center of entertainment through television and electronic games. ○18More people will eat out in restaurants 8 they do today; also they will have a much wider variety of food available. ○19There will be a change of taste towards a more savoury-flavored menu. ○20New synthetic foods will form a 9 part of people’s diets."
+        },
+        {
+          "type": "paragraph",
+          "text": "○21Foreign travel will 10; winter holidays will become more popular than summer ones. ○22Also non-stop flights from Britain to Australia and New Zealand will be easily available and much cheaper. ○23Education will become increasingly more important than ever before."
+        },
+        {
+          "type": "paragraph",
+          "text": "（321 words）"
+        },
+        {
+          "type": "paragraph",
+          "text": "1."
+        },
+        {
+          "type": "paragraph",
+          "text": "［A］ in"
+        },
+        {
+          "type": "paragraph",
+          "text": "［B］ of"
+        },
+        {
+          "type": "paragraph",
+          "text": "［C］ about"
+        },
+        {
+          "type": "paragraph",
+          "text": "［D］ for"
+        },
+        {
+          "type": "paragraph",
+          "text": "2."
+        },
+        {
+          "type": "paragraph",
+          "text": "［A］ sense"
+        },
+        {
+          "type": "paragraph",
+          "text": "［B］ meaning"
+        },
+        {
+          "type": "paragraph",
+          "text": "［C］ detail"
+        },
+        {
+          "type": "paragraph",
+          "text": "［D］ implication"
+        },
+        {
+          "type": "paragraph",
+          "text": "3."
+        },
+        {
+          "type": "paragraph",
+          "text": "［A］ for"
+        },
+        {
+          "type": "paragraph",
+          "text": "［B］ of"
+        },
+        {
+          "type": "paragraph",
+          "text": "［C］ on"
+        },
+        {
+          "type": "paragraph",
+          "text": "［D］ towards"
+        },
+        {
+          "type": "paragraph",
+          "text": "4."
+        },
+        {
+          "type": "paragraph",
+          "text": "［A］ today"
+        },
+        {
+          "type": "paragraph",
+          "text": "［B］ nowadays"
+        },
+        {
+          "type": "paragraph",
+          "text": "［C］ present-day"
+        },
+        {
+          "type": "paragraph",
+          "text": "［D］ present"
+        },
+        {
+          "type": "paragraph",
+          "text": "5."
+        },
+        {
+          "type": "paragraph",
+          "text": "［A］ near"
+        },
+        {
+          "type": "paragraph",
+          "text": "［B］ nearby"
+        },
+        {
+          "type": "paragraph",
+          "text": "［C］ nearly"
+        },
+        {
+          "type": "paragraph",
+          "text": "［D］ nearer"
+        },
+        {
+          "type": "paragraph",
+          "text": "6."
+        },
+        {
+          "type": "paragraph",
+          "text": "［A］ noise"
+        },
+        {
+          "type": "paragraph",
+          "text": "［B］ sound"
+        },
+        {
+          "type": "paragraph",
+          "text": "［C］ tone"
+        },
+        {
+          "type": "paragraph",
+          "text": "［D］ tune"
+        },
+        {
+          "type": "paragraph",
+          "text": "7."
+        },
+        {
+          "type": "paragraph",
+          "text": "［A］ to"
+        },
+        {
+          "type": "paragraph",
+          "text": "［B］ away"
+        },
+        {
+          "type": "paragraph",
+          "text": "［C］ off"
+        },
+        {
+          "type": "paragraph",
+          "text": "［D］ over"
+        },
+        {
+          "type": "paragraph",
+          "text": "8."
+        },
+        {
+          "type": "paragraph",
+          "text": "［A］ than"
+        },
+        {
+          "type": "paragraph",
+          "text": "［B］ as"
+        },
+        {
+          "type": "paragraph",
+          "text": "［C］ when"
+        },
+        {
+          "type": "paragraph",
+          "text": "［D］ while"
+        },
+        {
+          "type": "paragraph",
+          "text": "9."
+        },
+        {
+          "type": "paragraph",
+          "text": "［A］ usual"
+        },
+        {
+          "type": "paragraph",
+          "text": "［B］ popular"
+        },
+        {
+          "type": "paragraph",
+          "text": "［C］ daily"
+        },
+        {
+          "type": "paragraph",
+          "text": "［D］ regular"
+        },
+        {
+          "type": "paragraph",
+          "text": "10."
+        },
+        {
+          "type": "paragraph",
+          "text": "［A］ add"
+        },
+        {
+          "type": "paragraph",
+          "text": "［B］ increase"
+        },
+        {
+          "type": "paragraph",
+          "text": "［C］ raise"
+        },
+        {
+          "type": "paragraph",
+          "text": "［D］ arise"
+        },
+        {
+          "type": "paragraph",
+          "text": "Section II Reading Comprehension"
+        },
+        {
+          "type": "paragraph",
+          "text": "Each of the two passages below is followed by five questions. For each question there are four answers. Read the passages carefully and choose the best answer to each of the questions. Put your choice in the brackets on the left. (10 points)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Text 1"
+        },
+        {
+          "type": "paragraph",
+          "text": "①In May 1989, space shuttle “Atlantis” released in outer space the space probe “Megallan,” which is now on her 15-month and one-billion-kilometer flight to Venus. ②A new phase in space exploration has begun."
+        },
+        {
+          "type": "paragraph",
+          "text": "①The planet Venus is only slightly smaller than Earth; it is the only other object in the solar system, in fact, that even comes close to earth’s size. ②Venus has a similar density, so it is probably made of approximately the same stuff, and it has an atmosphere, complete with clouds. ③It is also the closest planet to earth, and thus the most similar in distance from the sun. ④In short, Venus seems to justify its long-held nickname of “earth’s twin.”"
+        },
+        {
+          "type": "paragraph",
+          "text": "①The surface temperature of Venus reaches some 900F. ②Added to that is an atmospheric pressure about 90 times Earth’s: High overhead in the carbon dioxide (CO 2) that passes for air is a layer of clouds, perhaps 10 to 20 miles thick, whose little drops consist mostly of sulfuric acid (H 2SO4). ③Water is all but nonexistent."
+        },
+        {
+          "type": "paragraph",
+          "text": "①Born with so many fundamental similarities to earth, how did Venus get to be so radically different: It is not just an academic matter. ②For all its extremes, Venus is a valuable laboratory for researchers studying the weather and climate of earth. ③It has no earth’s oceans, so the heat transport and other mechanisms are greatly simplified. ④In addition, the planet Venus takes 243 earth-days to turn once on its axis, so incoming heat from the sun is added and distributed at a more leisurely, observable pace."
+        },
+        {
+          "type": "paragraph",
+          "text": "11. Venus is similar to Earth in ________."
+        },
+        {
+          "type": "paragraph",
+          "text": "[A] size and density"
+        },
+        {
+          "type": "paragraph",
+          "text": "[B] distance from the sun"
+        },
+        {
+          "type": "paragraph",
+          "text": "[C] having atmosphere"
+        },
+        {
+          "type": "paragraph",
+          "text": "[D] all of the above"
+        },
+        {
+          "type": "paragraph",
+          "text": "12. The greatest value in studying Venus should be to ________."
+        },
+        {
+          "type": "paragraph",
+          "text": "[A] allow us to visit there"
+        },
+        {
+          "type": "paragraph",
+          "text": "[B] understand Earth better"
+        },
+        {
+          "type": "paragraph",
+          "text": "[C] find a new source of energy"
+        },
+        {
+          "type": "paragraph",
+          "text": "[D] promote a new space program"
+        },
+        {
+          "type": "paragraph",
+          "text": "13. The main idea of this passage is about ________."
+        },
+        {
+          "type": "paragraph",
+          "text": "[A] problems of space travel"
+        },
+        {
+          "type": "paragraph",
+          "text": "[B] scientific methods in space exploration"
+        },
+        {
+          "type": "paragraph",
+          "text": "[C] the importance of Venus to Earth"
+        },
+        {
+          "type": "paragraph",
+          "text": "[D] conditions on Venus"
+        },
+        {
+          "type": "paragraph",
+          "text": "Text 2"
+        },
+        {
+          "type": "paragraph",
+          "text": "①Tourists were surprised to see a woman driving a huge orange tractor down one of Rome’s main avenues. ②Italy’s political leaders and some of its male union chiefs are said to have been even more puzzled to see that the tractor was followed by about 200,000 women in a parading procession that took more than three hours to snake through central Rome."
+        },
+        {
+          "type": "paragraph",
+          "text": "①Shouting slogans, waving flags and dancing to drumbeats, the women had come to the capital from all over Italy to demonstrate for “a job for each of us, a different type of job, and a society without violence.” ②So far, action to improve women’s opportunities in employment has been the province of collective industrial bargaining. ③“But there is a growing awareness that this is not enough,” says a researcher on female labor at the government-funded Institute for the Development of Professional Training for Workers."
+        },
+        {
+          "type": "paragraph",
+          "text": "①Women, who constitute 52 per cent of Italy’s population, today represent only 35 per cent of Italy’s total workforce and 33 per cent of the total number of Italians with jobs. ②However, their presence in the workplace is growing. ③The employment of women is expanding considerably in services, next to the public administration and commerce as their principal workplace. ④Official statistics also show that women have also made significant strides in self-employment. ⑤More and more women are going into business for themselves. ⑥Many young women are turning to business because of the growing overall in employment. ⑦It is also a fact that today many prejudices have disappeared, so that banks and other financial institutes make judgments on purely business considerations without caring if it is a man or a woman."
+        },
+        {
+          "type": "paragraph",
+          "text": "①Such changes are occurring in the professions too. ②The number of women doctors, dentists, lawyers, engineers and university professors increased two to three fold. ③Some of the changes are immediately visible. ④For example, women have appeared on the scene for the first time as state police, railway workers and street cleaners."
+        },
+        {
+          "type": "paragraph",
+          "text": "①However, the present situation is far from satisfactory though some progress has been made. ②A breakthrough in equal opportunities for women is now demanded."
+        },
+        {
+          "type": "paragraph",
+          "text": "14. The expression “snake through central Rome” probably means “to move ________."
+        },
+        {
+          "type": "paragraph",
+          "text": "[A] quietly through central Rome.”"
+        },
+        {
+          "type": "paragraph",
+          "text": "[B] violently through central Rome.”"
+        },
+        {
+          "type": "paragraph",
+          "text": "[C] in a long winding line through central Rome.”"
+        },
+        {
+          "type": "paragraph",
+          "text": "[D] at a leisurely pace through central Rome.”"
+        },
+        {
+          "type": "paragraph",
+          "text": "15. Which of the following statements is NOT true?"
+        },
+        {
+          "type": "paragraph",
+          "text": "[A] There are more women than men in Italy."
+        },
+        {
+          "type": "paragraph",
+          "text": "[B] In Italy, women are chiefly employed in services."
+        },
+        {
+          "type": "paragraph",
+          "text": "[C] In Italy, women are still at a disadvantage in employment."
+        },
+        {
+          "type": "paragraph",
+          "text": "[D] In Italy, about two-thirds of the jobs are held by men."
+        },
+        {
+          "type": "paragraph",
+          "text": "16. About 200,000 women in Rome demonstrated for ________."
+        },
+        {
+          "type": "paragraph",
+          "text": "[A] more job opportunities"
+        },
+        {
+          "type": "paragraph",
+          "text": "[B] a greater variety of jobs"
+        },
+        {
+          "type": "paragraph",
+          "text": "[C] “equal job, equal pay”"
+        },
+        {
+          "type": "paragraph",
+          "text": "[D] both A and B"
+        },
+        {
+          "type": "paragraph",
+          "text": "17. The best title for this passage would be ________."
+        },
+        {
+          "type": "paragraph",
+          "text": "[A] The Role of Women in Society"
+        },
+        {
+          "type": "paragraph",
+          "text": "[B] Women Demonstrate for Equality in Employment"
+        },
+        {
+          "type": "paragraph",
+          "text": "[C] Women as Self-employed Professionals"
+        },
+        {
+          "type": "paragraph",
+          "text": "[D] Women and the Jobs Market"
+        },
+        {
+          "type": "paragraph",
+          "text": "Text 3"
+        },
+        {
+          "type": "paragraph",
+          "text": "①The old idea that talented children “burn themselves out” in the early years, and, therefore, are subjected to failure and at worst, mental illness is unfounded. ②As a matter of fact, the outstanding thing that happens to bright kids is that they are very likely to grow into bright adults."
+        },
+        {
+          "type": "paragraph",
+          "text": "To find this out, l, 500 gifted persons were followed up to their thirty-fifth year with these results:"
+        },
+        {
+          "type": "paragraph",
+          "text": "①On adult intelligence tests, they scored as high as they had as children. ②They were, as a group, in good health, physically and mentally. ③84 per cent of their group were married and seemed content with their lives."
+        },
+        {
+          "type": "paragraph",
+          "text": "①About 70 per cent had graduated from college, though only 30 per cent had graduated with honors. ②A few had even dropped out, but nearly half of these had returned to graduate. ③Of the men, 80 per cent were in one of the professions or in business management or semiprofessional jobs. ④The women who had remained single had office, business, or professional occupations."
+        },
+        {
+          "type": "paragraph",
+          "text": "The group had published 90 books and 1,500 articles in scientific, scholarly, and literary magazines and had collected more than 100 patents."
+        },
+        {
+          "type": "paragraph",
+          "text": "①In a material way they did not do badly either. ②Average income was considerably higher among the gifted people, especially the men, than for the country as a whole, despite their comparative youth."
+        },
+        {
+          "type": "paragraph",
+          "text": "In fact, far from being strange, most of the gifted were turning their early promise into practical reality."
+        },
+        {
+          "type": "paragraph",
+          "text": "18. The old idea that talented children “burn themselves out” in the early years is ________."
+        },
+        {
+          "type": "paragraph",
+          "text": "[A] true in all senses"
+        },
+        {
+          "type": "paragraph",
+          "text": "[B] refuted by the author"
+        },
+        {
+          "type": "paragraph",
+          "text": "[C] medically proven"
+        },
+        {
+          "type": "paragraph",
+          "text": "[D] a belief of the author"
+        },
+        {
+          "type": "paragraph",
+          "text": "19. The survey of bright children was made to ________."
+        },
+        {
+          "type": "paragraph",
+          "text": "[A] find out what had happened to talented children when they became adults"
+        },
+        {
+          "type": "paragraph",
+          "text": "[B] prove that talented children “burn themselves out” in the early years"
+        },
+        {
+          "type": "paragraph",
+          "text": "[C] discover the percentage of those mentally ill among the gifted"
+        },
+        {
+          "type": "paragraph",
+          "text": "[D] prove that talented children never burn themselves out"
+        },
+        {
+          "type": "paragraph",
+          "text": "20. Intelligence tests showed that ________."
+        },
+        {
+          "type": "paragraph",
+          "text": "[A] bright children were unlikely to be mentally healthy"
+        },
+        {
+          "type": "paragraph",
+          "text": "[B] between childhood and adulthood there was a considerable loss of intelligence"
+        },
+        {
+          "type": "paragraph",
+          "text": "[C] talented children were most likely to become gifted adults"
+        },
+        {
+          "type": "paragraph",
+          "text": "[D] when talented children grew into adults, they made low scores"
+        },
+        {
+          "type": "paragraph",
+          "text": "Section III English-Chinese Translation"
+        },
+        {
+          "type": "paragraph",
+          "text": "Read the following passage carefully and then translate the sentences underlined into Chinese. (20 points)"
+        },
+        {
+          "type": "paragraph",
+          "text": "People have wondered for a long time how their personalities and behaviors are formed. It is not easy to explain why one person is intelligent and another is not, or why one is cooperative and another is competitive."
+        },
+        {
+          "type": "paragraph",
+          "text": "Social scientists are, of course, extremely interested in these types of questions. (21) They want to explain why we possess certain characteristics and exhibit certain behaviors. There are no clear answers yet, but two distinct schools of thought on the matter have developed. As one might expect, the two approaches are very different from each other. The controversy is often conveniently referred to as “nature vs. nurture.”"
+        },
+        {
+          "type": "paragraph",
+          "text": "(22) Those who support the “nature” side of the conflict believe that our personalities and behavior patterns are largely determined by biological factors. (23) That our environment has little, if anything, to do with our abilities, characteristics and behavior is central to this theory. Taken to an extreme, this theory maintains that our behavior is pre-determined to such a great degree that we are almost completely governed by our instincts."
+        },
+        {
+          "type": "paragraph",
+          "text": "Those who support the “nurture” theory, that is, they advocate education, are often called behaviorists. They claim that our environment is more important than our biologically based instincts in determining how we will act. A behaviorist, B. F. Skinner, sees humans as beings whose behavior is almost completely shaped by their surroundings. (24) The behaviorists maintain that, like machines, humans respond to environmental stimuli as the basis of their behavior."
+        },
+        {
+          "type": "paragraph",
+          "text": "Let us examine the different explanations about one human characteristic, intelligence, offered by the two theories. (25) Supporters of the “nature” theory insist that we are born with a certain capacity for learning that is biologically determined. Needless to say: They don’t believe that factors in the environment have much influence on what is basically a predetermined characteristic. On the other hand, behaviorists argue that our intelligence levels are the product of our experiences. (26) Behaviorists suggest that the child who is raised in an environment where there are many stimuli which develop his or her capacity for appropriate responses will experience greater intellectual development."
+        },
+        {
+          "type": "paragraph",
+          "text": "The social and political implications of these two theories are profound. (27) In the United States, blacks often score below whites on standardized intelligence tests. This leads some “nature” proponents to conclude that blacks are biologically inferior to whites. (28) Behaviorists, in contrast, say that differences in scores are due to the fact that blacks are often deprived of many of the educational and other environmental advantages that whites enjoy."
+        },
+        {
+          "type": "paragraph",
+          "text": "Most people think neither of these theories can yet fully explain human behavior."
+        }
+      ],
+      "reason": "依据2001年生活预测、金星、妇女就业、天才儿童与先天后天论全文，拆出题号选项等结构；页间same/stuff、without/caring、good/health、from/each直接接续，圈码段内续行并回各自然段。"
+    }
+  ],
+  "sources": [
+    {
+      "path": "content/article-review/history/c55cce817119cc3ac6fdb98bef6d0ad99bd21e4b92554d2952a9051f6ca9a86b.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "dfd58a418fe6d4ee9f1b2a851c7332f2930e70b40b4e0d3f10af58401a85352c"
+    }
+  ]
+}

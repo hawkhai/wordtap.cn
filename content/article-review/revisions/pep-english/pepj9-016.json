@@ -40,24 +40,46 @@
   },
   "sources": [
     {
-      "path": "content/pep-english/raw/junior-9.pdf",
-      "locator": "PDF第49-49页，标题与完整正文逐行核对",
+      "path": "content/article-review/history/fdb5497341e386be303a6c0e53d4125aa9a9375039820637eafb3b66eae302a9.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
       "checked": true,
-      "sha256": "9c4118021048d901610b673f590ed28c39c04cb2d4f7fd940f83a2d8b2741af7"
-    },
-    {
-      "path": "content/pep-english/raw/junior-9/junior-9_49.jpg",
-      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
-      "checked": true,
-      "sha256": "920b3d64d5053d706baaf6e7cd39a1ec705180ea8daa388c51bc6aa1c9c0f260"
+      "sha256": "f4baf65d86d0229cd65594f410defe67c8951d32a21fb83ac5d511291d2b9496"
     }
   ],
   "corrections": [],
   "fullReadConfirmed": true,
   "recheckConfirmed": true,
   "reviewer": "Codex",
-  "reviewedAt": "2026-10-02T05:10:10+00:00",
-  "notes": "PDF49页印刷35页Kang Jian美国购物两段逐行复核，17岁上海学生探亲旧金山、玩具车与篮球鞋、五六家店和中国制造产品列举完整。原书年代观点不改写为当前产业统计；引语、破折号及high-technology拼写正确，复读无修改。",
+  "reviewedAt": "2026-10-07T07:42:02+00:00",
+  "notes": "美国购物两段分别玩具和鞋等中国制造发现，并保留Kang Jian对未来的愿望与本段说明。",
   "issues": [],
-  "status": "passed_unchanged"
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "54580f28e42aba0182861d407c081fea9b5647f31e1f7a8f2f0af6ff85c2e42c",
+    "afterFileSha256": "54580f28e42aba0182861d407c081fea9b5647f31e1f7a8f2f0af6ff85c2e42c",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "54580f28e42aba0182861d407c081fea9b5647f31e1f7a8f2f0af6ff85c2e42c",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..1] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "美国购物两段分别玩具和鞋等中国制造发现，并保留Kang Jian对未来的愿望与本段说明。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "blockEdits": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/fdb5497341e386be303a6c0e53d4125aa9a9375039820637eafb3b66eae302a9.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "f4baf65d86d0229cd65594f410defe67c8951d32a21fb83ac5d511291d2b9496"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "fdb5497341e386be303a6c0e53d4125aa9a9375039820637eafb3b66eae302a9"
 }

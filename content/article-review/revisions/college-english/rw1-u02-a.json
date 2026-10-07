@@ -242,36 +242,45 @@
   },
   "sources": [
     {
-      "path": "content/College-English/NHCE4-RW1.pdf",
-      "locator": "PDF 45-47，印刷页 30-32，完整正文与标题逐段核对",
+      "path": "content/article-review/history/05f94ff4a1c5fa33203276d45e0b05386be0482e6bdd6bffc9982a1ba7ebfffa.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
       "checked": true,
-      "sha256": "05d7a57fb09156e13d02ce498271c86917869b5327e8981f1eedf205ceb465ec"
-    },
-    {
-      "path": "content/College-English/NHCE4-RW1/NHCE4-RW1_45.jpg",
-      "locator": "已打开教材图页并通读复核正文",
-      "checked": true,
-      "sha256": "692e049d776f757e6c3e139193a7e362f8d59f878ab9921b362cd33bf61a47cb"
-    },
-    {
-      "path": "content/College-English/NHCE4-RW1/NHCE4-RW1_46.jpg",
-      "locator": "已打开教材图页并通读复核正文",
-      "checked": true,
-      "sha256": "d79afde1d951da4fc572c7b1bd6ddc82fe21661a844e6f34a9558811ef5f540b"
-    },
-    {
-      "path": "content/College-English/NHCE4-RW1/NHCE4-RW1_47.jpg",
-      "locator": "已打开教材图页并通读复核正文",
-      "checked": true,
-      "sha256": "e1ca321a36e09d7c832fc2068cabe4df98d8cddc6da3b915d4881854fca371b1"
+      "sha256": "5fca3e46d6c683a50d64fd649add2a4efcf1391e6c4cf6c58e26ef0d4ded218b"
     }
   ],
   "corrections": [],
   "fullReadConfirmed": true,
   "recheckConfirmed": true,
   "reviewer": "Codex",
-  "reviewedAt": "2026-10-02T08:22:00+00:00",
-  "notes": "完整通读22段母女离家叙事，对照PDF45—47页标题及所有编号段落。第6段跨页完整，保留第14段独立的DO NOT THROW AWAY强调和第17—21段对话顺序，破折号及所有格、连字符均与教材一致。文学性短句Each book beloved等不作语法扩写，无需修改。",
+  "reviewedAt": "2026-10-07T07:29:59+00:00",
+  "notes": "全文及未改动输出复核：女儿离家、逐项收拾、信封发现、撤回清理、夫妻对话、等待归来叙述连续；DO NOT THROW AWAY为独立强调，末部对话轮次保持独立，不把短段机械合并。",
   "issues": [],
-  "status": "passed_unchanged"
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "2cb8f8b6ffe547f9b8f2ee22a024db301cc1312c07f0ef37fc6bc210b9ba32fa",
+    "afterFileSha256": "2cb8f8b6ffe547f9b8f2ee22a024db301cc1312c07f0ef37fc6bc210b9ba32fa",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "2cb8f8b6ffe547f9b8f2ee22a024db301cc1312c07f0ef37fc6bc210b9ba32fa",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "完整 title、blocks[0..21]及完全相同的text；正文及内嵌中文、引语、对话和列举均已逐项通读；无改动输出按全文再次复核。",
+      "notes": "全文及未改动输出复核：女儿离家、逐项收拾、信封发现、撤回清理、夫妻对话、等待归来叙述连续；DO NOT THROW AWAY为独立强调，末部对话轮次保持独立，不把短段机械合并。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/05f94ff4a1c5fa33203276d45e0b05386be0482e6bdd6bffc9982a1ba7ebfffa.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "5fca3e46d6c683a50d64fd649add2a4efcf1391e6c4cf6c58e26ef0d4ded218b"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "05f94ff4a1c5fa33203276d45e0b05386be0482e6bdd6bffc9982a1ba7ebfffa"
 }

@@ -70,24 +70,45 @@
   },
   "sources": [
     {
-      "path": "content/pep-english/raw/senior-required-3.pdf",
-      "locator": "PDF第83-83页，标题与完整正文逐行核对",
+      "path": "content/article-review/history/aab0c043acc3c7cf6c37e637b524954248319e7f089f7fc90c03f2af4fab6ce4.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
       "checked": true,
-      "sha256": "fe9c8e15e62f4aec56efc60b8de43f4a55d40f3114d6505affaef78a8b7a1af2"
-    },
-    {
-      "path": "content/pep-english/raw/senior-required-3/senior-required-3_83.jpg",
-      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
-      "checked": true,
-      "sha256": "b600d2db22bb2214c5c6ef956dca9293c31ce5022923372c5f4609e1231e5d6b"
+      "sha256": "391b703b6a01ebdff7f16a38d639a9915a3f6b02b7723b05b082c10540022c12"
     }
   ],
   "corrections": [],
   "fullReadConfirmed": true,
   "recheckConfirmed": true,
   "reviewer": "Codex",
-  "reviewedAt": "2026-10-02T06:01:07+00:00",
-  "notes": "核对PDF第83页五段美国文化符号，drive-ins/drive-throughs对照、棒球现场观赛范围、Louis Armstrong 1901—1971与爵士段均一致；20%及10%数字确为教材原文，保留出版时的文化介绍和作者概括。",
+  "reviewedAt": "2026-10-07T07:32:22+00:00",
+  "notes": "美国文化符号五段为引言、快餐、棒球、爵士及其他符号，论述段与事例连贯保留。",
   "issues": [],
-  "status": "passed_unchanged"
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "4f18393646e737da749dd78502bf15256e7a64d075c3f0429c5af45880f796bf",
+    "afterFileSha256": "4f18393646e737da749dd78502bf15256e7a64d075c3f0429c5af45880f796bf",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "4f18393646e737da749dd78502bf15256e7a64d075c3f0429c5af45880f796bf",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..4] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "美国文化符号五段为引言、快餐、棒球、爵士及其他符号，论述段与事例连贯保留。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/aab0c043acc3c7cf6c37e637b524954248319e7f089f7fc90c03f2af4fab6ce4.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "391b703b6a01ebdff7f16a38d639a9915a3f6b02b7723b05b082c10540022c12"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "aab0c043acc3c7cf6c37e637b524954248319e7f089f7fc90c03f2af4fab6ce4"
 }

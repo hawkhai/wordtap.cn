@@ -102,36 +102,45 @@
   },
   "sources": [
     {
-      "path": "content/College-English/NHCE4-RW4.pdf",
-      "locator": "PDF 130-131，印刷页 115-116，完整正文与标题逐段核对",
+      "path": "content/article-review/history/4666798ea128418b2550bb755bf5222c4d6bef368eabfd0e9332bb2b47b5a0a5.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
       "checked": true,
-      "sha256": "5b70c28492928eefbb43a4832275c6fff070e12c7b70455ae03dc64bfa7a0a53"
-    },
-    {
-      "path": "content/College-English/NHCE4-RW4/NHCE4-RW4_130.jpg",
-      "locator": "已打开教材图页并通读复核正文",
-      "checked": true,
-      "sha256": "ee21412c1691c1ff1238bc0a42b54740bc8b625d92f0915970a4911b510971b0"
-    },
-    {
-      "path": "content/College-English/NHCE4-RW4/NHCE4-RW4_131.jpg",
-      "locator": "已打开教材图页并通读复核正文",
-      "checked": true,
-      "sha256": "4330514cee89191c0583c1876f87c279625705ac19234a0d0a0a7f50158eeb4e"
-    },
-    {
-      "path": "content/article-review/source-evidence/rw4-u04-c-award.json",
-      "locator": "UNEP2017官方获奖记录",
-      "checked": true,
-      "sha256": "5fb3de25d2eafe7b5457ddedefd42005d1000ce6b488d21e4a51d8df78465edf"
+      "sha256": "e67ab87a7f5c3eda5b3b255ab2f1062aec7fe7c4f981a4916aa5897386b2e136"
     }
   ],
   "corrections": [],
   "fullReadConfirmed": true,
   "recheckConfirmed": true,
   "reviewer": "Codex",
-  "reviewedAt": "2026-10-02T09:36:57+00:00",
-  "notes": "全文8段与PDF130–131页通读核对。1988盐厂创业、67km直线/350km绕行及1999公路叙事保留历史语境；甘草根共生菌改善土壤与商业治沙论证一致。UNEP官方获奖介绍确认地球卫士荣誉；保留30年相对报道时间、不改现任信息。第5段跨页和7段跨栏完整，无需修改。",
+  "reviewedAt": "2026-10-07T07:32:18+00:00",
+  "notes": "全文及未改动输出复核：王文彪与库布齐、盐厂、运输、道路被沙吞、甘草模式、农民收益、产业与获奖八段逻辑完整；植物土壤解释未断句。",
   "issues": [],
-  "status": "passed_unchanged"
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "e06d63ab4efd68169936b3a1e41fd0a2702f1dfba779f2b3ae5359c5c5235547",
+    "afterFileSha256": "e06d63ab4efd68169936b3a1e41fd0a2702f1dfba779f2b3ae5359c5c5235547",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "e06d63ab4efd68169936b3a1e41fd0a2702f1dfba779f2b3ae5359c5c5235547",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "完整 title、blocks[0..7]及完全相同的text；正文及内嵌中文、引语、对话和列举均已逐项通读；无改动输出按全文再次复核。",
+      "notes": "全文及未改动输出复核：王文彪与库布齐、盐厂、运输、道路被沙吞、甘草模式、农民收益、产业与获奖八段逻辑完整；植物土壤解释未断句。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/4666798ea128418b2550bb755bf5222c4d6bef368eabfd0e9332bb2b47b5a0a5.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "e67ab87a7f5c3eda5b3b255ab2f1062aec7fe7c4f981a4916aa5897386b2e136"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "4666798ea128418b2550bb755bf5222c4d6bef368eabfd0e9332bb2b47b5a0a5"
 }

@@ -70,24 +70,45 @@
   },
   "sources": [
     {
-      "path": "content/pep-english/raw/senior-required-2.pdf",
-      "locator": "PDF第97-97页，标题与完整正文逐行核对",
+      "path": "content/article-review/history/fd11cd9d031468e9184c2078f6a759ba785c05d4363f5b97b4dd9d8e723c1400.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
       "checked": true,
-      "sha256": "33b74bf42b22b32fdbe3201e6f61cf8099be047ef0af8a1740f6013dee4a619d"
-    },
-    {
-      "path": "content/pep-english/raw/senior-required-2/senior-required-2_97.jpg",
-      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
-      "checked": true,
-      "sha256": "1576227dc4053304a972aee64c576ab0734bbed62a48e802aebb0d6f196f8025"
+      "sha256": "1b19bc508fc1baec0cb9bdda9545dd1705d33b924b43f4c46686cf0f10dfcc9f"
     }
   ],
   "corrections": [],
   "fullReadConfirmed": true,
   "recheckConfirmed": true,
   "reviewer": "Codex",
-  "reviewedAt": "2026-10-02T05:49:08+00:00",
-  "notes": "通读PDF第97页五段电影配乐博客，John Williams、Hans Zimmer、Tan Dun三部分及电影名完整一致；作者对配乐效果和高雅艺术的评价按原文保留，未将主观观点改写为校勘。",
+  "reviewedAt": "2026-10-07T07:30:18+00:00",
+  "notes": "电影配乐博客开场后分别讨论Williams、Zimmer、谭盾再总结，电影名和引语保持各自论述段。",
   "issues": [],
-  "status": "passed_unchanged"
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "d2adc16b74473fccec98ca6bd7fae5ee04f0636292150a56a49284e61fbca75e",
+    "afterFileSha256": "d2adc16b74473fccec98ca6bd7fae5ee04f0636292150a56a49284e61fbca75e",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "d2adc16b74473fccec98ca6bd7fae5ee04f0636292150a56a49284e61fbca75e",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..4] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "电影配乐博客开场后分别讨论Williams、Zimmer、谭盾再总结，电影名和引语保持各自论述段。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/fd11cd9d031468e9184c2078f6a759ba785c05d4363f5b97b4dd9d8e723c1400.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "1b19bc508fc1baec0cb9bdda9545dd1705d33b924b43f4c46686cf0f10dfcc9f"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "fd11cd9d031468e9184c2078f6a759ba785c05d4363f5b97b4dd9d8e723c1400"
 }

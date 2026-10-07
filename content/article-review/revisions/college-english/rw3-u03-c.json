@@ -82,30 +82,45 @@
   },
   "sources": [
     {
-      "path": "content/College-English/NHCE4-RW3.pdf",
-      "locator": "PDF 96-97，印刷页 81-82，完整正文与标题逐段核对",
+      "path": "content/article-review/history/461c6b309b5e49f739cd3bf6db4f7b29b3aef71c8ba9dcaf703075e6deb8493e.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
       "checked": true,
-      "sha256": "40418e1f32f5db4eaf6f091227217121109219515e2ffd6b68791927d506afe8"
-    },
-    {
-      "path": "content/College-English/NHCE4-RW3/NHCE4-RW3_96.jpg",
-      "locator": "已打开教材图页并通读复核正文",
-      "checked": true,
-      "sha256": "2439d7ae085b1a6fe59332d30106fe484280e6b48a6bb5eb1f2fe091be449222"
-    },
-    {
-      "path": "content/College-English/NHCE4-RW3/NHCE4-RW3_97.jpg",
-      "locator": "已打开教材图页并通读复核正文",
-      "checked": true,
-      "sha256": "99232d039b37f88372be3399dfc43147604c8ba5b9c3c6d9b803449485da5666"
+      "sha256": "65e52f9088837e4a0ac3d5202fb31884cbf22bc6194acee7f7ff220730f7ad74"
     }
   ],
   "corrections": [],
   "fullReadConfirmed": true,
   "recheckConfirmed": true,
   "reviewer": "Codex",
-  "reviewedAt": "2026-10-02T09:11:47+00:00",
-  "notes": "6段与PDF96–97图页全文核对，张广柱王钟津旅游经历、88日16国、5200米与引述均完整。60多岁为文章当时人物年龄，退休后20–30年为人物展望而非医学保证，不改写为当前年龄或统计。保留中文词注、独立段落及旅行主题，无需改动。",
+  "reviewedAt": "2026-10-07T07:32:12+00:00",
+  "notes": "全文及未改动输出复核：退休夫妇环球足迹、退休决定、虎跳峡启发、欧洲首旅、半年旅行习惯及社会背景六段；长旅行感言和引述语同段连续。",
   "issues": [],
-  "status": "passed_unchanged"
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "9b7d0d694eb8d29a9353219308061fda0c4761e54b98947aa6e59d9b5311bc75",
+    "afterFileSha256": "9b7d0d694eb8d29a9353219308061fda0c4761e54b98947aa6e59d9b5311bc75",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "9b7d0d694eb8d29a9353219308061fda0c4761e54b98947aa6e59d9b5311bc75",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "完整 title、blocks[0..5]及完全相同的text；正文及内嵌中文、引语、对话和列举均已逐项通读；无改动输出按全文再次复核。",
+      "notes": "全文及未改动输出复核：退休夫妇环球足迹、退休决定、虎跳峡启发、欧洲首旅、半年旅行习惯及社会背景六段；长旅行感言和引述语同段连续。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/461c6b309b5e49f739cd3bf6db4f7b29b3aef71c8ba9dcaf703075e6deb8493e.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "65e52f9088837e4a0ac3d5202fb31884cbf22bc6194acee7f7ff220730f7ad74"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "461c6b309b5e49f739cd3bf6db4f7b29b3aef71c8ba9dcaf703075e6deb8493e"
 }

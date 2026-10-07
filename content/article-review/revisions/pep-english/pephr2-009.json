@@ -70,30 +70,45 @@
   },
   "sources": [
     {
-      "path": "content/pep-english/raw/senior-required-2.pdf",
-      "locator": "PDF第47-48页，标题与完整正文逐行核对",
+      "path": "content/article-review/history/7fac36de685e02b1100e46b784de4d60d77deef7a5a505527cfdd892e7f08d7a.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
       "checked": true,
-      "sha256": "33b74bf42b22b32fdbe3201e6f61cf8099be047ef0af8a1740f6013dee4a619d"
-    },
-    {
-      "path": "content/pep-english/raw/senior-required-2/senior-required-2_47.jpg",
-      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
-      "checked": true,
-      "sha256": "50718ec87ab46882d62989ed90425017c5c84e56636fe737d48471afeab88695"
-    },
-    {
-      "path": "content/pep-english/raw/senior-required-2/senior-required-2_48.jpg",
-      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
-      "checked": true,
-      "sha256": "964fa4777712c7d3b866c82c889d8aee48eee87415e76e708aa93089bcd8f458"
+      "sha256": "ed2b65be52c1607d7c816e38dfd69747e481249552182698e4641603be3c5cd2"
     }
   ],
   "corrections": [],
   "fullReadConfirmed": true,
   "recheckConfirmed": true,
   "reviewer": "Codex",
-  "reviewedAt": "2026-10-02T05:40:15+00:00",
-  "notes": "PDF第47-48页英国名称与历史五段全文逐行核对，第四段English language跨页续接正确，未错误分段。各世纪、Union Jack及Romans/Anglo-Saxons/Vikings/Normans名称均与原页一致，保留教材叙述，无转录修改。",
+  "reviewedAt": "2026-10-07T07:30:15+00:00",
+  "notes": "英国名称文章由疑问、形成历史、四国关系、历史族群、游览建议五段组成，现有长段主题完整。",
   "issues": [],
-  "status": "passed_unchanged"
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "b3dc87ce04f7700caa99e9eccc7d0096adcfdfbaa308157767d6a9febb04af25",
+    "afterFileSha256": "b3dc87ce04f7700caa99e9eccc7d0096adcfdfbaa308157767d6a9febb04af25",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "b3dc87ce04f7700caa99e9eccc7d0096adcfdfbaa308157767d6a9febb04af25",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..4] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "英国名称文章由疑问、形成历史、四国关系、历史族群、游览建议五段组成，现有长段主题完整。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/7fac36de685e02b1100e46b784de4d60d77deef7a5a505527cfdd892e7f08d7a.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "ed2b65be52c1607d7c816e38dfd69747e481249552182698e4641603be3c5cd2"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "7fac36de685e02b1100e46b784de4d60d77deef7a5a505527cfdd892e7f08d7a"
 }

@@ -1,0 +1,22 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "d28eec8c123ae04f2a67a7959e96fc06810bd4c87297f4fae7383f89800adb9b",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title；全文 blocks[0..4] 与对应 text；现有正文/对话/题干逐块通读复核。",
+  "notes": "澳洲饮食五段为地理、袋鼠肉、海鲜、烧烤、文化多样性，保留各完整介绍段。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "blockEdits": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/dfc9c9114d0a8b1162dbd6b96aa0a9aee99d1ff9b76be50fd56fe41afb77e115.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "68f6e8d5172f53f5fa47a4ef01666c01a12bc71b569ede62f1fb340ef72b4007"
+    }
+  ]
+}

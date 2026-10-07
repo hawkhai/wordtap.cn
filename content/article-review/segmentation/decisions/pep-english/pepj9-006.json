@@ -1,0 +1,22 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "5c93f78fbff7c7a48228f8adf7ef5765bb0d4db36e76afd30cc576771372a60e",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title；全文 blocks[0..2] 与对应 text；现有正文/对话/题干逐块通读复核。",
+  "notes": "June给Xia Yu父母节书信称呼、完整习俗建议段、署名清楚，保留。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "blockEdits": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/339423a63cdd52e31138faec56940b4baf8e3524b5f4671f4e32021a97c00ad5.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "837eacbb118238c3335f255d8a118a2c32da87b509469e4fbee86f2da2ccf921"
+    }
+  ]
+}

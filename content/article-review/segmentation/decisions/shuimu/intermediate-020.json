@@ -1,0 +1,184 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "bead0e5689caf85df23f20c74a791daa332f5a0ac4beb2fb375d7f2b57b4349a",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "coverage": "全文 blocks[0..179]；按 JSON 上下文逐项复核对话、解释、题目、表格、词表及修复后的边界。",
+  "notes": "全文复核小狗藏包故事、问答摘要、12题及全部地点介词比较。正文和摘要各自恢复多句段，San Francisco、Haidian District及中文山镇/海/坑等截断接回；保留对话、介词编号、对比例句及单元标记。bil等文字疑义原样保留。",
+  "issues": [],
+  "mergeBlocks": [
+    {
+      "start": 12,
+      "end": 13,
+      "before": [
+        "After I had had lunch at a village pub, I looked for my bag. I had left it on a chair",
+        "beside the door and now it wasn’t there! As I was looking for it, the landlord came in."
+      ],
+      "text": "After I had had lunch at a village pub, I looked for my bag. I had left it on a chair beside the door and now it wasn’t there! As I was looking for it, the landlord came in.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 14,
+      "end": 15,
+      "before": [
+        "我在一家乡村小酒馆吃过午饭后，就在找我的手提包。我之前把它放在门边的",
+        "椅子上，可这会儿不见了!当我正在寻找时，店主走了进来。"
+      ],
+      "text": "我在一家乡村小酒馆吃过午饭后，就在找我的手提包。我之前把它放在门边的椅子上，可这会儿不见了!当我正在寻找时，店主走了进来。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 20,
+      "end": 21,
+      "before": [
+        "The landlord smiled and immediately went out. In a few minutes he returned with my",
+        "bag and gave it back to me."
+      ],
+      "text": "The landlord smiled and immediately went out. In a few minutes he returned with my bag and gave it back to me.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 22,
+      "end": 23,
+      "before": [
+        "店主笑了笑，马上走了出去。一会儿工夫他拿着我的手提包回来了，把它还给",
+        "了我。"
+      ],
+      "text": "店主笑了笑，马上走了出去。一会儿工夫他拿着我的手提包回来了，把它还给了我。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 35,
+      "end": 37,
+      "before": [
+        "Answer: The writer had lunch at a village pub. She could not find her bag",
+        "after her meal. She could not pay the bill. The landlord soon found it for her.",
+        "His dog had taken it into the garden."
+      ],
+      "text": "Answer: The writer had lunch at a village pub. She could not find her bag after her meal. She could not pay the bill. The landlord soon found it for her. His dog had taken it into the garden.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 104,
+      "end": 105,
+      "before": [
+        "1 at表示在小地方，表示“在……附近，在……旁边”。对于市、镇，",
+        "既可以用at，也可以用in。"
+      ],
+      "text": "1 at表示在小地方，表示“在……附近，在……旁边”。对于市、镇，既可以用at，也可以用in。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 107,
+      "end": 108,
+      "before": [
+        "• She has been living in Haidian for ten years.10年来她一直住在海淀",
+        "区。"
+      ],
+      "text": "• She has been living in Haidian for ten years.10年来她一直住在海淀区。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 109,
+      "end": 112,
+      "before": [
+        "用at仅仅把海淀区看作地图上一个地点，不管其内部情况怎样；用in则把海",
+        "淀看作具有一定幅员的具体城镇，居住在其中哪条街道、哪个建筑物、在概念",
+        "上比较具体。对于大城市和大城市的街区，通常用in，如 in Beijing, in Haidian",
+        "District(海淀区)。但是，当把大城市仅仅看作地图上一点时，就可以用at。"
+      ],
+      "text": "用at仅仅把海淀区看作地图上一个地点，不管其内部情况怎样；用in则把海淀看作具有一定幅员的具体城镇，居住在其中哪条街道、哪个建筑物、在概念上比较具体。对于大城市和大城市的街区，通常用in，如 in Beijing, in Haidian District(海淀区)。但是，当把大城市仅仅看作地图上一点时，就可以用at。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 113,
+      "end": 114,
+      "before": [
+        "• They stopped first at Shanghai, then at Tokyo on their way to San",
+        "Francisco."
+      ],
+      "text": "• They stopped first at Shanghai, then at Tokyo on their way to San Francisco.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 121,
+      "end": 122,
+      "before": [
+        "◆ 对于一个建筑物或一组建筑物既可用at，也可用in。用at是仅把它看作一个",
+        "机关，用in则是把它看作具体的建筑物。"
+      ],
+      "text": "◆ 对于一个建筑物或一组建筑物既可用at，也可用in。用at是仅把它看作一个机关，用in则是把它看作具体的建筑物。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 127,
+      "end": 128,
+      "before": [
+        "• It is a beautiful mountain town on the river.这是一个美丽的临河山",
+        "镇。"
+      ],
+      "text": "• It is a beautiful mountain town on the river.这是一个美丽的临河山镇。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 142,
+      "end": 143,
+      "before": [
+        "2 over“在……之上”，指垂直的上方，与 under相对。但over与物体有一定",
+        "的空间，不直接接触。"
+      ],
+      "text": "2 over“在……之上”，指垂直的上方，与 under相对。但over与物体有一定的空间，不直接接触。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 148,
+      "end": 149,
+      "before": [
+        "• He stood on the clifftop looking out to the sea.他站在悬崖顶上眺望大",
+        "海。"
+      ],
+      "text": "• He stood on the clifftop looking out to the sea.他站在悬崖顶上眺望大海。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 160,
+      "end": 161,
+      "before": [
+        "2 in the front of= in the front part of，意思是“在……的前部”，其反义词是",
+        "at the back of(在……的后部)。"
+      ],
+      "text": "2 in the front of= in the front part of，意思是“在……的前部”，其反义词是 at the back of(在……的后部)。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 165,
+      "end": 166,
+      "before": [
+        "• There was a large hole in front of the building.大楼的前面有一个大",
+        "坑。"
+      ],
+      "text": "• There was a large hole in front of the building.大楼的前面有一个大坑。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 167,
+      "end": 168,
+      "before": [
+        "• There was a large hole in the front of the building.大楼的前部有一个大",
+        "坑。"
+      ],
+      "text": "• There was a large hole in the front of the building.大楼的前部有一个大坑。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    }
+  ],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/fd5c7b358b4fe4c10288d50d5ae91a6fcc2ed3f67c1e871dfa440e14f4fe24ba.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "f03a94e1eaad64458e53b403add1f279895ed8e077a8587c9dc29fc38691d71d"
+    }
+  ]
+}

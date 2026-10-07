@@ -1,0 +1,282 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "f7a4c4324ea7673e3b57feecc90efb8470359bb1fdd91548ce23514bae507685",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "coverage": "全文 blocks[0..276]；按 JSON 上下文逐项复核对话、解释、题目、表格、词表及修复后的边界。",
+  "notes": "全文复核矿井救援、摘要、12道词汇题及综合测试十一20题和解析。合并完整中英单元和解释中的续行，保留说法、答案和原有缺失标点；第15题解析缺尾只记文字疑义。",
+  "issues": [
+    "blocks[53..54]：摘要连接词because插入seventeen / hours短语，连接词列与内容列交错。边界无法仅靠不重排字符的合并恢复，保留待确认。"
+  ],
+  "mergeBlocks": [
+    {
+      "start": 20,
+      "end": 21,
+      "before": [
+        "Six men have been trapped in a mine for seventeen hours. If they are not brought to",
+        "the surface soon, they may lose their lives."
+      ],
+      "text": "Six men have been trapped in a mine for seventeen hours. If they are not brought to the surface soon, they may lose their lives.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 22,
+      "end": 23,
+      "before": [
+        "6个人被困在矿井里已有17个小时了。如果不把他们尽快救到地面上来，他们就",
+        "有可能丧生。"
+      ],
+      "text": "6个人被困在矿井里已有17个小时了。如果不把他们尽快救到地面上来，他们就有可能丧生。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 32,
+      "end": 33,
+      "before": [
+        "If there had not been a hard layer of rock beneath the soil, they would have completed",
+        "the job in a few hours."
+      ],
+      "text": "If there had not been a hard layer of rock beneath the soil, they would have completed the job in a few hours.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 34,
+      "end": 35,
+      "before": [
+        "如果不是因为土壤下面有一层坚硬的岩石，他们的营救工作仅用几个小时就可",
+        "以完成了。"
+      ],
+      "text": "如果不是因为土壤下面有一层坚硬的岩石，他们的营救工作仅用几个小时就可以完成了。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 38,
+      "end": 39,
+      "before": [
+        "Meanwhile, a microphone, which was lowered into the mine two hours ago, has",
+        "enabled the men to keep in touch with their closest relatives."
+      ],
+      "text": "Meanwhile, a microphone, which was lowered into the mine two hours ago, has enabled the men to keep in touch with their closest relatives.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 40,
+      "end": 41,
+      "before": [
+        "与此同时，两个小时以前放下井去的一只麦克风使井下的人可以与其亲属保持",
+        "联系。"
+      ],
+      "text": "与此同时，两个小时以前放下井去的一只麦克风使井下的人可以与其亲属保持联系。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 42,
+      "end": 43,
+      "before": [
+        "Though they are running out of food and drink, the men are cheerful and confident",
+        "that they will get out soon."
+      ],
+      "text": "Though they are running out of food and drink, the men are cheerful and confident that they will get out soon.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 44,
+      "end": 45,
+      "before": [
+        "虽然他们的食物和饮料都快消耗尽了，但这些人的心情很好，坚信他们很快就",
+        "会出去。"
+      ],
+      "text": "虽然他们的食物和饮料都快消耗尽了，但这些人的心情很好，坚信他们很快就会出去。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 64,
+      "end": 69,
+      "before": [
+        "Answer: Six men who have been trapped in a mine for seventeen hours may",
+        "lose their lives because rescue operations are proving difficult. Since explosives",
+        "might cause the roof of the mine to collapse, rescue workers are drilling a hole",
+        "through hard rock, but progress is slow. Two hours ago, a microphone was",
+        "lowered into the mine and the men have been in touch with their relatives.",
+        "They are running short of food and drink but they are in good spirits."
+      ],
+      "text": "Answer: Six men who have been trapped in a mine for seventeen hours may lose their lives because rescue operations are proving difficult. Since explosives might cause the roof of the mine to collapse, rescue workers are drilling a hole through hard rock, but progress is slow. Two hours ago, a microphone was lowered into the mine and the men have been in touch with their relatives. They are running short of food and drink but they are in good spirits.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 82,
+      "end": 83,
+      "before": [
+        "3. They have been trapped for seventeen hours. They tried to come up seventeen",
+        "hours _______."
+      ],
+      "text": "3. They have been trapped for seventeen hours. They tried to come up seventeen hours _______.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 113,
+      "end": 114,
+      "before": [
+        "9. The microphone enabled them to keep in touch. It made it _____ for them to keep in",
+        "touch."
+      ],
+      "text": "9. The microphone enabled them to keep in touch. It made it _____ for them to keep in touch.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 137,
+      "end": 138,
+      "before": [
+        "1. The speaker, ________for her splendid speeches, was warmly received by the",
+        "audience."
+      ],
+      "text": "1. The speaker, ________for her splendid speeches, was warmly received by the audience.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 150,
+      "end": 151,
+      "before": [
+        "3. While _______the sun, the satellite has sent more than four billion bits of",
+        "information back to earth."
+      ],
+      "text": "3. While _______the sun, the satellite has sent more than four billion bits of information back to earth.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 157,
+      "end": 158,
+      "before": [
+        "4. The students were participating ______ an international energy-saving competition",
+        "between towns in New England and Canada."
+      ],
+      "text": "4. The students were participating ______ an international energy-saving competition between towns in New England and Canada.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 170,
+      "end": 171,
+      "before": [
+        "6. The manager assured the customer that his complaint would be seen ______",
+        "immediately."
+      ],
+      "text": "6. The manager assured the customer that his complaint would be seen ______ immediately.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 177,
+      "end": 178,
+      "before": [
+        "7. Some plants are so sensitive _______ pollution that they can only survive in a",
+        "perfectly clean environment."
+      ],
+      "text": "7. Some plants are so sensitive _______ pollution that they can only survive in a perfectly clean environment.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 190,
+      "end": 191,
+      "before": [
+        "9. Being a pop star can be quite a hard life, with a lot of traveling ______ heavy",
+        "schedule."
+      ],
+      "text": "9. Being a pop star can be quite a hard life, with a lot of traveling ______ heavy schedule.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 208,
+      "end": 210,
+      "before": [
+        "11. B.虚拟语气结构。在以it为形式宾语的复合宾语从句中,也可使用虚拟语气。",
+        "这类句型是否用虚拟语气,主要取决于it后面的补足语,表示虚拟语气的形容词。",
+        "这类形容词与主语从句中的虚拟语气所使用的形容词相同。"
+      ],
+      "text": "11. B.虚拟语气结构。在以it为形式宾语的复合宾语从句中,也可使用虚拟语气。这类句型是否用虚拟语气,主要取决于it后面的补足语,表示虚拟语气的形容词。这类形容词与主语从句中的虚拟语气所使用的形容词相同。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 216,
+      "end": 218,
+      "before": [
+        "12. A.同位语从句中的虚拟语气结构。在表示建议命令、主张、目的、愿望等名",
+        "词后面的同位语从句中,谓语动词要用虚拟语气结构。其形式为(should)动词原",
+        "形。通常情况下可省去should."
+      ],
+      "text": "12. A.同位语从句中的虚拟语气结构。在表示建议命令、主张、目的、愿望等名词后面的同位语从句中,谓语动词要用虚拟语气结构。其形式为(should)动词原形。通常情况下可省去should.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 230,
+      "end": 232,
+      "before": [
+        "14. D.宾语从句中的虚拟语气。某些表示建议命令、要求等的动词后面所接宾语",
+        "从句要用虚拟语气结构,其形式为 (should)+动词原形。通常情况下可省去",
+        "should。"
+      ],
+      "text": "14. D.宾语从句中的虚拟语气。某些表示建议命令、要求等的动词后面所接宾语从句要用虚拟语气结构,其形式为 (should)+动词原形。通常情况下可省去should。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 244,
+      "end": 246,
+      "before": [
+        "16. B.介词+关系代词引导定语从句的用法。 have confidence in为固定搭配,意为",
+        "“相信,信任”。句中whom代替先行词 chairman引导定语从句,并在从句中作介词",
+        "宾语。句中的介词也可放在句后,这时的whom也可换成who或省去。"
+      ],
+      "text": "16. B.介词+关系代词引导定语从句的用法。 have confidence in为固定搭配,意为“相信,信任”。句中whom代替先行词 chairman引导定语从句,并在从句中作介词宾语。句中的介词也可放在句后,这时的whom也可换成who或省去。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 247,
+      "end": 248,
+      "before": [
+        "17. Before the first non-stop flight made in 1949, it _______ necessary for all planes",
+        "to land for refueling."
+      ],
+      "text": "17. Before the first non-stop flight made in 1949, it _______ necessary for all planes to land for refueling.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 260,
+      "end": 261,
+      "before": [
+        "19. It is useful to be able to predict the extent ______ which a price change will affect",
+        "supply and demand."
+      ],
+      "text": "19. It is useful to be able to predict the extent ______ which a price change will affect supply and demand.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 266,
+      "end": 268,
+      "before": [
+        "19. C.介词+关系代词引导定语从句的用法。 to the extent为固定搭配,意为“到某",
+        "种程度”。关系代词 which代替先行词 the extent引导定语从句,并在从句中作介词",
+        "宾语。"
+      ],
+      "text": "19. C.介词+关系代词引导定语从句的用法。 to the extent为固定搭配,意为“到某种程度”。关系代词 which代替先行词 the extent引导定语从句,并在从句中作介词宾语。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 274,
+      "end": 275,
+      "before": [
+        "20. A. regret doing.意味着“后悔做了…”,指已经做过的事; regret to do...意味着“很",
+        "遗憾地去做……”,指还没做。"
+      ],
+      "text": "20. A. regret doing.意味着“后悔做了…”,指已经做过的事; regret to do...意味着“很遗憾地去做……”,指还没做。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    }
+  ],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/a9fd945480d28c81bde74d915bdf92f417c1e46b0dfa24ecc0bcf4c9353265fe.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "3263ed489ddee901036c30f9b8631379cc3f28d02a68de6c1ee9413c20e1afcc"
+    }
+  ]
+}

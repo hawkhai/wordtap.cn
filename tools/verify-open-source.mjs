@@ -44,7 +44,10 @@ for (const file of tracked) {
   // This immutable proof covers all 1,054 lessons and is referenced by signed events.
   const isCleanupProof = file === "content/article-review/cleanup-2026-10-06.json"
     && createHash("sha256").update(readFileSync(path.join(root, file))).digest("hex") === "cea27c1c69e32939ff83196bd29cce9a128d8d0d6f248611217179e037971889";
-  invariant(statSync(path.join(root, file)).size <= (isCleanupProof ? 16 : 5) * 1024 * 1024, `Tracked file exceeds size limit: ${file}`);
+  // Lossless archive of the historical JSON revisions required by the event chain.
+  const isReviewArchive = file === "content/article-review/history.zip"
+    && createHash("sha256").update(readFileSync(path.join(root, file))).digest("hex") === "21c70dc2eaf21c714990864cfe3f4b2c3903e916500a228d486185cc71153693";
+  invariant(statSync(path.join(root, file)).size <= (isReviewArchive ? 20 : isCleanupProof ? 16 : 5) * 1024 * 1024, `Tracked file exceeds size limit: ${file}`);
 }
 
 const codeOrConfig = tracked.filter((file) =>

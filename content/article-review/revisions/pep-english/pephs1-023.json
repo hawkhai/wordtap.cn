@@ -130,24 +130,45 @@
   },
   "sources": [
     {
-      "path": "content/pep-english/raw/senior-selective-1.pdf",
-      "locator": "PDF第85-85页，标题与完整正文逐行核对",
+      "path": "content/article-review/history/67c73cb31f597349658f5c17585113fb505ff2564cf5dbac31b6ef6cc71a7975.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
       "checked": true,
-      "sha256": "94ec493439239c436326e228e3d3ad78c7053ac5abc005db5739119f6a98c33d"
-    },
-    {
-      "path": "content/pep-english/raw/senior-selective-1/senior-selective-1_85.jpg",
-      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
-      "checked": true,
-      "sha256": "4001f5599d89149a128e26f16e25aebc9d06db378ffd5c91d8907fe8d3532610"
+      "sha256": "09771a87a2abcd093076c1f9c1ad02f3f71f6546df0fd5a2b8ef011eddf4ded9"
     }
   ],
   "corrections": [],
   "fullReadConfirmed": true,
   "recheckConfirmed": true,
   "reviewer": "Codex",
-  "reviewedAt": "2026-10-02T06:22:07+00:00",
-  "notes": "逐行通读PDF第85页Chris写给姐姐的邮件11块，正文八段及称呼/结束语/署名齐全。Lhasa转机、Potatso、Shudu/Bita湖及Tiger Leaping Gorge拼写、破折号插语和时间顺序与原页一致；保留旅游叙述原语境，复核无修改。",
+  "reviewedAt": "2026-10-07T07:32:27+00:00",
+  "notes": "香格里拉书信全文复核含Potatso全景及生物多样性段，称呼、行程、两湖、次日计划、落款十一块均合理。",
   "issues": [],
-  "status": "passed_unchanged"
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "218b84ff4ddbc68aff2a241a084289801244471b2cdc531207b076e7e930d781",
+    "afterFileSha256": "218b84ff4ddbc68aff2a241a084289801244471b2cdc531207b076e7e930d781",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "218b84ff4ddbc68aff2a241a084289801244471b2cdc531207b076e7e930d781",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..10] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "香格里拉书信全文复核含Potatso全景及生物多样性段，称呼、行程、两湖、次日计划、落款十一块均合理。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/67c73cb31f597349658f5c17585113fb505ff2564cf5dbac31b6ef6cc71a7975.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "09771a87a2abcd093076c1f9c1ad02f3f71f6546df0fd5a2b8ef011eddf4ded9"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "67c73cb31f597349658f5c17585113fb505ff2564cf5dbac31b6ef6cc71a7975"
 }

@@ -2,17 +2,17 @@
   "schemaVersion": 1,
   "course": "pep-english",
   "articleId": "pephs3-011",
-  "beforeDisplaySha256": "3226c7b27d85aafea7c738fa677bce6feed03edda62c91e438de52a1fcaf796c",
+  "beforeDisplaySha256": "7cf63dd1c3c8b723038e6cec62ded9517d8b9c584805882a2b2c2dd3c3b8e36c",
   "afterDisplaySha256": "7cf63dd1c3c8b723038e6cec62ded9517d8b9c584805882a2b2c2dd3c3b8e36c",
   "baselineDisplay": {
     "title": "Robert and Elizabeth Barrett Browning",
     "section": "Learning About Language",
-    "text": "If you study the history of English literature, you will find the names of Robert and Elizabeth Barrett Browning. They were one of the most romantic literary couples of the Victorian era. Elizabeth Barrett started to write poetry from about the age of six. In 1844, Elizabeth’s Poems brought her great success. It also attracted the admiration of poet Robert Browning. Browning fell in love with her poetry and then they entered into personal correspondence. The couple exchanged many letters. These letters obviously helped sow the seeds of love between the two. Elizabeth had been ill for many years. She stayed at home and almost never saw visitors. Browning was sure about his love, so he found a way to visit her in 1845. Their courtship continued until they married in September 1846. However, their subsequent marriage was carried out in secret. It was because Barrett’s father was a dominant and selfish man. He would refuse to let his daughter go. The couple moved to Italy in 1846. Elizabeth lived there for the rest of her life. Browning had a great influence on Elizabeth’s writing. The best evidence that can be found is Sonnets from the Portuguese. The sonnets were written during the time when she was in love with Robert Browning.",
+    "text": "If you study the history of English literature, you will find the names of Robert and Elizabeth Barrett Browning. They were one of the most romantic literary couples of the Victorian era. Elizabeth Barrett started to write poetry from about the age of six. In 1844, Elizabeth’s Poems brought her great success. It also attracted the admiration of poet Robert Browning. Browning fell in love with her poetry and then they entered into personal correspondence. The couple exchanged many letters. These letters obviously helped sow the seeds of love between the two. Elizabeth had been ill for many years. She stayed at home and almost never saw visitors. Browning was sure about his love, so he found a way to visit her, and immediately convinced her to become his bride. However, their subsequent marriage was carried out in secret. It was because Barrett’s father was a dominant and selfish man. He would refuse to let his daughter go. The couple moved to Italy in 1846. Elizabeth lived there for the rest of her life. Browning had a great influence on Elizabeth’s writing. The best evidence that can be found is Sonnets from the Portuguese. The sonnets were written during the time when she was in love with Robert Browning.",
     "blocks": [
       {
         "type": "paragraph",
         "lang": "en",
-        "text": "If you study the history of English literature, you will find the names of Robert and Elizabeth Barrett Browning. They were one of the most romantic literary couples of the Victorian era. Elizabeth Barrett started to write poetry from about the age of six. In 1844, Elizabeth’s Poems brought her great success. It also attracted the admiration of poet Robert Browning. Browning fell in love with her poetry and then they entered into personal correspondence. The couple exchanged many letters. These letters obviously helped sow the seeds of love between the two. Elizabeth had been ill for many years. She stayed at home and almost never saw visitors. Browning was sure about his love, so he found a way to visit her in 1845. Their courtship continued until they married in September 1846. However, their subsequent marriage was carried out in secret. It was because Barrett’s father was a dominant and selfish man. He would refuse to let his daughter go. The couple moved to Italy in 1846. Elizabeth lived there for the rest of her life. Browning had a great influence on Elizabeth’s writing. The best evidence that can be found is Sonnets from the Portuguese. The sonnets were written during the time when she was in love with Robert Browning."
+        "text": "If you study the history of English literature, you will find the names of Robert and Elizabeth Barrett Browning. They were one of the most romantic literary couples of the Victorian era. Elizabeth Barrett started to write poetry from about the age of six. In 1844, Elizabeth’s Poems brought her great success. It also attracted the admiration of poet Robert Browning. Browning fell in love with her poetry and then they entered into personal correspondence. The couple exchanged many letters. These letters obviously helped sow the seeds of love between the two. Elizabeth had been ill for many years. She stayed at home and almost never saw visitors. Browning was sure about his love, so he found a way to visit her, and immediately convinced her to become his bride. However, their subsequent marriage was carried out in secret. It was because Barrett’s father was a dominant and selfish man. He would refuse to let his daughter go. The couple moved to Italy in 1846. Elizabeth lived there for the rest of her life. Browning had a great influence on Elizabeth’s writing. The best evidence that can be found is Sonnets from the Portuguese. The sonnets were written during the time when she was in love with Robert Browning."
       }
     ]
   },
@@ -30,50 +30,45 @@
   },
   "sources": [
     {
-      "path": "content/pep-english/raw/senior-selective-3.pdf",
-      "locator": "PDF第60-60页，标题与完整正文逐行核对",
+      "path": "content/article-review/history/fa1ad28991d6c57b4a53d869b0a6499577a5da1b2679eabb74a45be62beedd3c.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
       "checked": true,
-      "sha256": "ed8eb9e5988b44a1ff4f8bc11ed3cfae406decefae7982477362720788e1998b"
-    },
-    {
-      "path": "content/pep-english/raw/senior-selective-3/senior-selective-3_60.jpg",
-      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
-      "checked": true,
-      "sha256": "53ad9c9209e9be387a56a35b8897b5b64c1ddf372de1266d57cf5ef9904d8519"
-    },
-    {
-      "path": "content/article-review/source-evidence/pephs3-011-brownings.json",
-      "locator": "两诗人1845会面、1846九月婚姻及通信档案",
-      "checked": true,
-      "sha256": "1c23abe9b524325a6c6335792e1f5a07d14eca6b7dd626d40bdbd49cf2534204"
-    },
-    {
-      "path": "content/article-review/cleanup-2026-10-06.json",
-      "sha256": "cea27c1c69e32939ff83196bd29cce9a128d8d0d6f248611217179e037971889",
-      "locator": "public/pep-english/lessons/pephs3/011.json",
-      "checked": true
+      "sha256": "151fd360253837746011a4c714bc75ffcb0c743c5d25ff45326440a11c222156"
     }
   ],
-  "corrections": [
-    {
-      "field": "text",
-      "before": "If you study the history of English literature, you will find the names of Robert and Elizabeth Barrett Browning. They were one of the most romantic literary couples of the Victorian era. Elizabeth Barrett started to write poetry from about the age of six. In 1844, Elizabeth’s Poems brought her great success. It also attracted the admiration of poet Robert Browning. Browning fell in love with her poetry and then they entered into personal correspondence. The couple exchanged many letters. These letters obviously helped sow the seeds of love between the two. Elizabeth had been ill for many years. She stayed at home and almost never saw visitors. Browning was sure about his love, so he found a way to visit her in 1845. Their courtship continued until they married in September 1846. However, their subsequent marriage was carried out in secret. It was because Barrett’s father was a dominant and selfish man. He would refuse to let his daughter go. The couple moved to Italy in 1846. Elizabeth lived there for the rest of her life. Browning had a great influence on Elizabeth’s writing. The best evidence that can be found is Sonnets from the Portuguese. The sonnets were written during the time when she was in love with Robert Browning.",
-      "after": "If you study the history of English literature, you will find the names of Robert and Elizabeth Barrett Browning. They were one of the most romantic literary couples of the Victorian era. Elizabeth Barrett started to write poetry from about the age of six. In 1844, Elizabeth’s Poems brought her great success. It also attracted the admiration of poet Robert Browning. Browning fell in love with her poetry and then they entered into personal correspondence. The couple exchanged many letters. These letters obviously helped sow the seeds of love between the two. Elizabeth had been ill for many years. She stayed at home and almost never saw visitors. Browning was sure about his love, so he found a way to visit her, and immediately convinced her to become his bride. However, their subsequent marriage was carried out in secret. It was because Barrett’s father was a dominant and selfish man. He would refuse to let his daughter go. The couple moved to Italy in 1846. Elizabeth lived there for the rest of her life. Browning had a great influence on Elizabeth’s writing. The best evidence that can be found is Sonnets from the Portuguese. The sonnets were written during the time when she was in love with Robert Browning.",
-      "evidence": "User-directed source-fidelity restoration; content/article-review/cleanup-2026-10-06.json"
-    }
-  ],
-  "fullReadConfirmed": false,
-  "recheckConfirmed": false,
-  "reviewMode": "source-fidelity-rules-v1",
-  "reviewer": "Codex (user-directed restoration)",
-  "reviewedAt": "2026-10-05T17:15:10+00:00",
-  "notes": "Rule-based restoration; original full-read review remains historical. content/article-review/cleanup-2026-10-06.json",
+  "corrections": [],
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "reviewer": "Codex",
+  "reviewedAt": "2026-10-07T07:35:50+00:00",
+  "notes": "勃朗宁夫妇从诗歌吸引、通信、探访、秘密婚姻至意大利与十四行诗为连贯人物短史，完整单段保留。",
   "issues": [],
-  "status": "passed_edited",
-  "previousRevisionSha256": "fb902d562e8fae9e9c6af5104e6af713ffa4c9b8f077345d2767c2df79b10c76",
-  "ruleRestoration": {
-    "policy": "source-fidelity-rules-v1",
-    "report": "content/article-review/cleanup-2026-10-06.json",
-    "reportSha256": "cea27c1c69e32939ff83196bd29cce9a128d8d0d6f248611217179e037971889"
-  }
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "87ebbd4f56236e881aaaefd260d7108008d98d3bbc9ef8fd0bccd113b6cff339",
+    "afterFileSha256": "87ebbd4f56236e881aaaefd260d7108008d98d3bbc9ef8fd0bccd113b6cff339",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "87ebbd4f56236e881aaaefd260d7108008d98d3bbc9ef8fd0bccd113b6cff339",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..0] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "勃朗宁夫妇从诗歌吸引、通信、探访、秘密婚姻至意大利与十四行诗为连贯人物短史，完整单段保留。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/fa1ad28991d6c57b4a53d869b0a6499577a5da1b2679eabb74a45be62beedd3c.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "151fd360253837746011a4c714bc75ffcb0c743c5d25ff45326440a11c222156"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "fa1ad28991d6c57b4a53d869b0a6499577a5da1b2679eabb74a45be62beedd3c"
 }

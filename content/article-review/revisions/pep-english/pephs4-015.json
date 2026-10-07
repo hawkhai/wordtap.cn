@@ -90,30 +90,46 @@
   },
   "sources": [
     {
-      "path": "content/pep-english/raw/senior-selective-4.pdf",
-      "locator": "PDF第57-58页，标题与完整正文逐行核对",
+      "path": "content/article-review/history/0cef3ce261df3c9e1efffc19c903a2caf4b026698e18339844235b8330abdd43.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
       "checked": true,
-      "sha256": "2ad7555a13eb420aa70497f9faa2541fdb502b7ffc4e063e87c60cce88f1b4a3"
-    },
-    {
-      "path": "content/pep-english/raw/senior-selective-4/senior-selective-4_57.jpg",
-      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
-      "checked": true,
-      "sha256": "d191f9c8a93745ac843a8773b51b69f4500cc9697791778b88387689f87bcdc8"
-    },
-    {
-      "path": "content/pep-english/raw/senior-selective-4/senior-selective-4_58.jpg",
-      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
-      "checked": true,
-      "sha256": "017fc771b47300d88a21e562b632c09e6e34b38e4efa3dd39af14cbf334ac154"
+      "sha256": "e1643ce5ebcce6a8a572e53b51a981407546f812e08864e04e33fab0ff407767"
     }
   ],
   "corrections": [],
   "fullReadConfirmed": true,
   "recheckConfirmed": true,
   "reviewer": "Codex",
-  "reviewedAt": "2026-10-02T07:40:17+00:00",
-  "notes": "完整通读并逐行核对PDF57—58页职业方向说明七段，正文跨页衔接正确；图中示范测试与结果图未混入连续正文。保留作者建议及仅供指导的限定，未发现需修改的文字或段落。",
+  "reviewedAt": "2026-10-07T07:39:41+00:00",
+  "notes": "职业测评七段按职业意义、时机、工具、类型、评分、建议层级和结论组织，保留自然段。",
   "issues": [],
-  "status": "passed_unchanged"
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "d857f1ee81cbffb9542fc84aa2f41a85c9098354ccb0ea258862287893ad2d5d",
+    "afterFileSha256": "d857f1ee81cbffb9542fc84aa2f41a85c9098354ccb0ea258862287893ad2d5d",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "d857f1ee81cbffb9542fc84aa2f41a85c9098354ccb0ea258862287893ad2d5d",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..6] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "职业测评七段按职业意义、时机、工具、类型、评分、建议层级和结论组织，保留自然段。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "blockEdits": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/0cef3ce261df3c9e1efffc19c903a2caf4b026698e18339844235b8330abdd43.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "e1643ce5ebcce6a8a572e53b51a981407546f812e08864e04e33fab0ff407767"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "0cef3ce261df3c9e1efffc19c903a2caf4b026698e18339844235b8330abdd43"
 }

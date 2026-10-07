@@ -1,0 +1,302 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "e3a284f6d243abc42171a238c49e861235d842f57bb887d2fcc1d9d0fbfbf3fc",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title；全文 blocks[0..241] 与对应 text；现有正文/对话/题干逐块通读复核。",
+  "notes": "完整通读New Year resolutions词表、两组英汉正文、12条注释、20问答、Broken resolutions提纲四段范文及12题答案。保留决心与计划、锻炼阅读失败两组长段；范文虚弱决心/大学计划/执行放弃/不再立志四段和字数标记分明。",
+  "issues": [],
+  "mergeBlocks": [
+    {
+      "start": 34,
+      "end": 49,
+      "before": [
+        "The New Year is a time for resolutions. Mentally, at least, most of us could compile",
+        "formidable lists of ‘dos’ and ‘don'ts’. The same old favourites recur year in year out",
+        "with monotonous regularity. We resolve to get up earlier each morning, eat less, find",
+        "more time to play with the children, do a thousand and one jobs about the house, be",
+        "nice to people we don't like, drive carefully, and take the dog for a walk every day.",
+        "Past experience has taught us that certain accomplishments are beyond attainment. If",
+        "we remain inveterate smokers, it is only because we have so often experienced the",
+        "frustration that results from failure. Most of us fail in our efforts at self-improvement",
+        "because our schemes are too ambitious and we never have time to carry them out. We",
+        "also make the fundamental error of announcing our resolutions to everybody so that",
+        "we look even more foolish when we slip back into our bad old ways. Aware of these",
+        "pitfalls, this year I attempted to keep my resolutions to myself. I limited myself to two",
+        "modest ambitions: to do physical exercises every morning and to read more of an",
+        "evening. An all-night party on New Year's Eve provided me with a good excuse for",
+        "not carrying on either of these new resolutions on the first day of the year, but on the",
+        "second, I applied myself assiduously to the task."
+      ],
+      "text": "The New Year is a time for resolutions. Mentally, at least, most of us could compile formidable lists of ‘dos’ and ‘don'ts’. The same old favourites recur year in year out with monotonous regularity. We resolve to get up earlier each morning, eat less, find more time to play with the children, do a thousand and one jobs about the house, be nice to people we don't like, drive carefully, and take the dog for a walk every day. Past experience has taught us that certain accomplishments are beyond attainment. If we remain inveterate smokers, it is only because we have so often experienced the frustration that results from failure. Most of us fail in our efforts at self-improvement because our schemes are too ambitious and we never have time to carry them out. We also make the fundamental error of announcing our resolutions to everybody so that we look even more foolish when we slip back into our bad old ways. Aware of these pitfalls, this year I attempted to keep my resolutions to myself. I limited myself to two modest ambitions: to do physical exercises every morning and to read more of an evening. An all-night party on New Year's Eve provided me with a good excuse for not carrying on either of these new resolutions on the first day of the year, but on the second, I applied myself assiduously to the task.",
+      "reason": "将语义连贯的完整自然段和对应译文恢复，注释问答提纲及单题续行归并，结构标题词条选项独立。"
+    },
+    {
+      "start": 50,
+      "end": 61,
+      "before": [
+        "新年是下决心的时候，至少在大多数人的心里会编排出一份“应做什么”和“不应",
+        "做什么” 的令人生畏的单子。相同的决心以单调的规律年复一年地出现。我们决",
+        "心每天早晨起得早些；吃得少些；多花点时间与孩子们一起做游戏；做大量的家",
+        "务；对不喜欢的人友善一些；小心驾车；每天都要带着狗散步；等等。以往的经",
+        "验告诉我们有些事是办不到的。如果我们烟瘾大，戒不掉，那是因为屡戒屡败，",
+        "失去了信心。我们大多数人想自我完善却遭到失败，这是因为我们的规划过于宏",
+        "大，而又根本没有时间去实施。我们还犯有一个根本性的错误，即把我们的决心",
+        "向大家宣布。这样一旦滑回到那些坏的老习惯上去，我们在别人眼里会显得更加",
+        "难堪。我深知这些问题，于是，今年我对自己的计划要严加保密，只给自己定下",
+        "两项适中的任务：每天早上锻炼身体，每天晚上多看点书。新年除夕举办的一次",
+        "通宵晚会，使我理直气壮地在新年头一天免去了这两项任务。不过，新年第二天，",
+        "我全力以赴地照着去做了。"
+      ],
+      "text": "新年是下决心的时候，至少在大多数人的心里会编排出一份“应做什么”和“不应做什么” 的令人生畏的单子。相同的决心以单调的规律年复一年地出现。我们决心每天早晨起得早些；吃得少些；多花点时间与孩子们一起做游戏；做大量的家务；对不喜欢的人友善一些；小心驾车；每天都要带着狗散步；等等。以往的经验告诉我们有些事是办不到的。如果我们烟瘾大，戒不掉，那是因为屡戒屡败，失去了信心。我们大多数人想自我完善却遭到失败，这是因为我们的规划过于宏大，而又根本没有时间去实施。我们还犯有一个根本性的错误，即把我们的决心向大家宣布。这样一旦滑回到那些坏的老习惯上去，我们在别人眼里会显得更加难堪。我深知这些问题，于是，今年我对自己的计划要严加保密，只给自己定下两项适中的任务：每天早上锻炼身体，每天晚上多看点书。新年除夕举办的一次通宵晚会，使我理直气壮地在新年头一天免去了这两项任务。不过，新年第二天，我全力以赴地照着去做了。",
+      "reason": "将语义连贯的完整自然段和对应译文恢复，注释问答提纲及单题续行归并，结构标题词条选项独立。"
+    },
+    {
+      "start": 72,
+      "end": 91,
+      "before": [
+        "The daily exercises lasted only eleven minutes and I proposed to do them early in the",
+        "morning before anyone had got up. The self-discipline required to drag myself out of",
+        "bed eleven minutes earlier than usual was considerable. Nevertheless, I managed to",
+        "creep down into the living room for two days before anyone found me out. After",
+        "jumping about on the carpet and twisting the human frame into uncomfortable",
+        "positions, I sat down at the breakfast table in an exhausted condition. It was this that",
+        "betrayed me. The next morning the whole family trooped in to watch the performance.",
+        "That was really unsettling, but I fended off the taunts and jibes of the family",
+        "good-humouredly and soon everybody got used to the idea. However, my enthusiasm",
+        "waned. The time I spent at exercise gradually diminished. Little by little the eleven",
+        "minutes fell to zero. By January 10th, I was back to where I had started from. I argued",
+        "that if I spent less time exhausting myself at exercises in the morning, I would keep",
+        "my mind fresh for reading when I got home from work. Resisting the hypnotizing",
+        "effect of television, I sat in my room for a few evenings with my eyes glued to a book.",
+        "One night, however, feeling cold and lonely, I went downstairs and sat in front of the",
+        "television pretending to read. That proved to be my undoing, for I soon got back to",
+        "my old bad habit of dozing off in front of the screen. I still haven't given up my",
+        "resolution to do more reading. In fact, I have just bought a book entitled How to Read",
+        "a Thousand Words a Minute. Perhaps it will solve my problem, but I just haven't had",
+        "time to read it!"
+      ],
+      "text": "The daily exercises lasted only eleven minutes and I proposed to do them early in the morning before anyone had got up. The self-discipline required to drag myself out of bed eleven minutes earlier than usual was considerable. Nevertheless, I managed to creep down into the living room for two days before anyone found me out. After jumping about on the carpet and twisting the human frame into uncomfortable positions, I sat down at the breakfast table in an exhausted condition. It was this that betrayed me. The next morning the whole family trooped in to watch the performance. That was really unsettling, but I fended off the taunts and jibes of the family good-humouredly and soon everybody got used to the idea. However, my enthusiasm waned. The time I spent at exercise gradually diminished. Little by little the eleven minutes fell to zero. By January 10th, I was back to where I had started from. I argued that if I spent less time exhausting myself at exercises in the morning, I would keep my mind fresh for reading when I got home from work. Resisting the hypnotizing effect of television, I sat in my room for a few evenings with my eyes glued to a book. One night, however, feeling cold and lonely, I went downstairs and sat in front of the television pretending to read. That proved to be my undoing, for I soon got back to my old bad habit of dozing off in front of the screen. I still haven't given up my resolution to do more reading. In fact, I have just bought a book entitled How to Read a Thousand Words a Minute. Perhaps it will solve my problem, but I just haven't had time to read it!",
+      "reason": "将语义连贯的完整自然段和对应译文恢复，注释问答提纲及单题续行归并，结构标题词条选项独立。"
+    },
+    {
+      "start": 92,
+      "end": 105,
+      "before": [
+        "早锻炼一共只有 11 分钟，我打算在别人起床之前进行。这就要求我比平日早 11",
+        "分钟把自己从床上拽起来，这种自我约束是很艰苦的。不过开头两天我还是成功",
+        "地蹑手蹑脚地来到楼下起居室，被谁也没发现。我在地毯上跳过来蹦过去，扭曲",
+        "身子，摆出各种姿势，弄得浑身不舒服，然后坐到桌边吃早饭，一副筋疲力尽的",
+        "样子。正是这副模样泄露了我的秘密。第二天早晨全家人结队来到起居室看我表",
+        "演。这真叫人不好意思，但我心平气和地顶住了全家人的嘲笑和奚落。不久，大",
+        "家对我习以为常了，而这时我的热情却减退了。我花在锻炼上的时间逐渐减少，",
+        "慢慢地从 11 分钟减到了零。到了 1 月 10 日，我恢复了原来的作息时间。我辩解",
+        "说，早晨少耗费精力锻炼，晚上下班回家看书时头脑更清醒些。有几天晚上，我",
+        "极力摆脱了电视的诱惑，坐在自己房间里，两眼盯在书上。可是，有一天夜里，",
+        "我感到又冷又孤单，便来到楼下坐在电视机前假装看书。这下我可完了，因为不",
+        "一会儿，我就恢复了以前的坏习惯，在屏幕前打起瞌睡来。但我还没有放弃多看",
+        "些书的决心。事实上，我刚买来一本叫《一分钟读一千字的诀窍》的书。也许这",
+        "本书能解决我的问题，但我一直还没时间去看这本书！"
+      ],
+      "text": "早锻炼一共只有 11 分钟，我打算在别人起床之前进行。这就要求我比平日早 11分钟把自己从床上拽起来，这种自我约束是很艰苦的。不过开头两天我还是成功地蹑手蹑脚地来到楼下起居室，被谁也没发现。我在地毯上跳过来蹦过去，扭曲身子，摆出各种姿势，弄得浑身不舒服，然后坐到桌边吃早饭，一副筋疲力尽的样子。正是这副模样泄露了我的秘密。第二天早晨全家人结队来到起居室看我表演。这真叫人不好意思，但我心平气和地顶住了全家人的嘲笑和奚落。不久，大家对我习以为常了，而这时我的热情却减退了。我花在锻炼上的时间逐渐减少，慢慢地从 11 分钟减到了零。到了 1 月 10 日，我恢复了原来的作息时间。我辩解说，早晨少耗费精力锻炼，晚上下班回家看书时头脑更清醒些。有几天晚上，我极力摆脱了电视的诱惑，坐在自己房间里，两眼盯在书上。可是，有一天夜里，我感到又冷又孤单，便来到楼下坐在电视机前假装看书。这下我可完了，因为不一会儿，我就恢复了以前的坏习惯，在屏幕前打起瞌睡来。但我还没有放弃多看些书的决心。事实上，我刚买来一本叫《一分钟读一千字的诀窍》的书。也许这本书能解决我的问题，但我一直还没时间去看这本书！",
+      "reason": "将语义连贯的完整自然段和对应译文恢复，注释问答提纲及单题续行归并，结构标题词条选项独立。"
+    },
+    {
+      "start": 107,
+      "end": 108,
+      "before": [
+        "10 It was this that betrayed me.这是强调句型，被强调的部分this 指 sat down…in an",
+        "exhausted condition。"
+      ],
+      "text": "10 It was this that betrayed me.这是强调句型，被强调的部分this 指 sat down…in an exhausted condition。",
+      "reason": "将语义连贯的完整自然段和对应译文恢复，注释问答提纲及单题续行归并，结构标题词条选项独立。"
+    },
+    {
+      "start": 116,
+      "end": 118,
+      "before": [
+        "4 What kinds of things do we resolve to do? (Get up earlier, eat less, find more time to",
+        "play with the children, do jobs around the house, drive carefully, be nice to people we",
+        "don't like, take the dog for a walk every day.)"
+      ],
+      "text": "4 What kinds of things do we resolve to do? (Get up earlier, eat less, find more time to play with the children, do jobs around the house, drive carefully, be nice to people we don't like, take the dog for a walk every day.)",
+      "reason": "将语义连贯的完整自然段和对应译文恢复，注释问答提纲及单题续行归并，结构标题词条选项独立。"
+    },
+    {
+      "start": 119,
+      "end": 120,
+      "before": [
+        "5 Why do most of us fail in our efforts at self-improvement? (Because our schemes",
+        "are too ambitious.)"
+      ],
+      "text": "5 Why do most of us fail in our efforts at self-improvement? (Because our schemes are too ambitious.)",
+      "reason": "将语义连贯的完整自然段和对应译文恢复，注释问答提纲及单题续行归并，结构标题词条选项独立。"
+    },
+    {
+      "start": 121,
+      "end": 122,
+      "before": [
+        "6 What fundamental error do many of us make? (We announce our resolutions to",
+        "everybody.)"
+      ],
+      "text": "6 What fundamental error do many of us make? (We announce our resolutions to everybody.)",
+      "reason": "将语义连贯的完整自然段和对应译文恢复，注释问答提纲及单题续行归并，结构标题词条选项独立。"
+    },
+    {
+      "start": 124,
+      "end": 125,
+      "before": [
+        "8 What did the writer resolve to do this year? (Do physical exercise every morning",
+        "and read more in the evening.)"
+      ],
+      "text": "8 What did the writer resolve to do this year? (Do physical exercise every morning and read more in the evening.)",
+      "reason": "将语义连贯的完整自然段和对应译文恢复，注释问答提纲及单题续行归并，结构标题词条选项独立。"
+    },
+    {
+      "start": 128,
+      "end": 129,
+      "before": [
+        "11 How long did he manage to do his exercises before anyone found him out? (Two",
+        "days.)"
+      ],
+      "text": "11 How long did he manage to do his exercises before anyone found him out? (Two days.)",
+      "reason": "将语义连贯的完整自然段和对应译文恢复，注释问答提纲及单题续行归并，结构标题词条选项独立。"
+    },
+    {
+      "start": 133,
+      "end": 134,
+      "before": [
+        "15 Why did he sit in his room for a few evenings? (To read [and to resist the",
+        "hypnotizing effect of television].)"
+      ],
+      "text": "15 Why did he sit in his room for a few evenings? (To read [and to resist the hypnotizing effect of television].)",
+      "reason": "将语义连贯的完整自然段和对应译文恢复，注释问答提纲及单题续行归并，结构标题词条选项独立。"
+    },
+    {
+      "start": 137,
+      "end": 138,
+      "before": [
+        "18 He soon got back into an old bad habit. What was that? (The habit of dozing off in",
+        "front of the screen.)"
+      ],
+      "text": "18 He soon got back into an old bad habit. What was that? (The habit of dozing off in front of the screen.)",
+      "reason": "将语义连贯的完整自然段和对应译文恢复，注释问答提纲及单题续行归并，结构标题词条选项独立。"
+    },
+    {
+      "start": 148,
+      "end": 149,
+      "before": [
+        "Introduction: New Year resolutions—made to be broken? — some people serious",
+        "—most know they won't succeed —so ridiculous resolutions"
+      ],
+      "text": "Introduction: New Year resolutions—made to be broken? — some people serious —most know they won't succeed —so ridiculous resolutions",
+      "reason": "将语义连贯的完整自然段和对应译文恢复，注释问答提纲及单题续行归并，结构标题词条选项独立。"
+    },
+    {
+      "start": 150,
+      "end": 153,
+      "before": [
+        "Development: Last time made list of resolutions—five years ago—always do college",
+        "work on time — keep room tidy—have nothing to do with girls in nearby college—",
+        "write home once a week — wash clothes regularly — have haircut once a month —",
+        "Impossible!—girlfriend helped—eventually gave up in despair"
+      ],
+      "text": "Development: Last time made list of resolutions—five years ago—always do college work on time — keep room tidy—have nothing to do with girls in nearby college— write home once a week — wash clothes regularly — have haircut once a month — Impossible!—girlfriend helped—eventually gave up in despair",
+      "reason": "将语义连贯的完整自然段和对应译文恢复，注释问答提纲及单题续行归并，结构标题词条选项独立。"
+    },
+    {
+      "start": 154,
+      "end": 155,
+      "before": [
+        "Conclusion: Don't make New Year resolutions any more — little point—why break",
+        "habits—years to establish"
+      ],
+      "text": "Conclusion: Don't make New Year resolutions any more — little point—why break habits—years to establish",
+      "reason": "将语义连贯的完整自然段和对应译文恢复，注释问答提纲及单题续行归并，结构标题词条选项独立。"
+    },
+    {
+      "start": 157,
+      "end": 162,
+      "before": [
+        "Are New Year resolutions made to be broken? I think so. Some people are serious",
+        "about them of course, but most know that they won't succeed in keeping them. That's",
+        "probably why they make resolutions such as ‘I must be polite to Aunt Harriet' when",
+        "they only see Aunt Harriet twice a year! — or ‘I must cut down on my smoking’",
+        "when they only ever have a cigarette after a family lunch on Sundays! Such",
+        "resolutions, then, are not only ridiculous, but hardly resolutions at all!"
+      ],
+      "text": "Are New Year resolutions made to be broken? I think so. Some people are serious about them of course, but most know that they won't succeed in keeping them. That's probably why they make resolutions such as ‘I must be polite to Aunt Harriet' when they only see Aunt Harriet twice a year! — or ‘I must cut down on my smoking’ when they only ever have a cigarette after a family lunch on Sundays! Such resolutions, then, are not only ridiculous, but hardly resolutions at all!",
+      "reason": "将语义连贯的完整自然段和对应译文恢复，注释问答提纲及单题续行归并，结构标题词条选项独立。"
+    },
+    {
+      "start": 163,
+      "end": 168,
+      "before": [
+        "The last time I ever made a list of resolutions was five years ago. I remember now",
+        "that I resolved always to do my college work on time, to keep my room tidy, to have",
+        "nothing to do with the girls in the nearby girls’ college, to write home at least once a",
+        "week, to wash my dirty clothes regularly and to have a haircut once a month. What",
+        "was I thinking of?! For most college students such resolutions would be impossible",
+        "and of course they were for me!"
+      ],
+      "text": "The last time I ever made a list of resolutions was five years ago. I remember now that I resolved always to do my college work on time, to keep my room tidy, to have nothing to do with the girls in the nearby girls’ college, to write home at least once a week, to wash my dirty clothes regularly and to have a haircut once a month. What was I thinking of?! For most college students such resolutions would be impossible and of course they were for me!",
+      "reason": "将语义连贯的完整自然段和对应译文恢复，注释问答提纲及单题续行归并，结构标题词条选项独立。"
+    },
+    {
+      "start": 169,
+      "end": 173,
+      "before": [
+        "I kept three of the resolutions for a week, and a girlfriend from the nearby girls'",
+        "college helped me to keep two more (the ones about keeping my room tidy and",
+        "washing my dirty clothes regularly!) for another week. After that, I gave up in despair.",
+        "Instead, I resolved just to try to be just a little bit more tidy and a little more",
+        "thoughtful, generally."
+      ],
+      "text": "I kept three of the resolutions for a week, and a girlfriend from the nearby girls' college helped me to keep two more (the ones about keeping my room tidy and washing my dirty clothes regularly!) for another week. After that, I gave up in despair. Instead, I resolved just to try to be just a little bit more tidy and a little more thoughtful, generally.",
+      "reason": "将语义连贯的完整自然段和对应译文恢复，注释问答提纲及单题续行归并，结构标题词条选项独立。"
+    },
+    {
+      "start": 174,
+      "end": 176,
+      "before": [
+        "I don't bother to make New Year resolutions any more since I have proved to",
+        "myself and others that I can't keep them. There seems to be little point in breaking",
+        "habits which have taken years to establish."
+      ],
+      "text": "I don't bother to make New Year resolutions any more since I have proved to myself and others that I can't keep them. There seems to be little point in breaking habits which have taken years to establish.",
+      "reason": "将语义连贯的完整自然段和对应译文恢复，注释问答提纲及单题续行归并，结构标题词条选项独立。"
+    },
+    {
+      "start": 199,
+      "end": 200,
+      "before": [
+        "5 -we look even more foolish than we when we slip back into our old",
+        "ways."
+      ],
+      "text": "5 -we look even more foolish than we when we slip back into our old ways.",
+      "reason": "将语义连贯的完整自然段和对应译文恢复，注释问答提纲及单题续行归并，结构标题词条选项独立。"
+    },
+    {
+      "start": 205,
+      "end": 206,
+      "before": [
+        "6 I jumped about on the carpet and uncomfortable positions that I sat down",
+        "exhausted."
+      ],
+      "text": "6 I jumped about on the carpet and uncomfortable positions that I sat down exhausted.",
+      "reason": "将语义连贯的完整自然段和对应译文恢复，注释问答提纲及单题续行归并，结构标题词条选项独立。"
+    }
+  ],
+  "splitBlocks": [],
+  "blockEdits": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/a74206ef35229938cf1cf9fa396acc55eb4ef5545c9da98b33bafa72e5320742.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "89931840e32116a1c5a8546d614fa6ac734ae10f37654fb7c2c9fb48db01eb50"
+    }
+  ]
+}

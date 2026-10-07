@@ -30,24 +30,45 @@
   },
   "sources": [
     {
-      "path": "content/pep-english/raw/senior-required-1.pdf",
-      "locator": "PDF第13-13页，标题与完整正文逐行核对",
+      "path": "content/article-review/history/200bcba96c51ad9f499b4936101f411680cbcc4d3b0d60674f061b8abec7779b.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
       "checked": true,
-      "sha256": "ffe985a370964820aa003008f48c7cf17b5e0dff8eb29fe54cd4743b0c4e8c79"
-    },
-    {
-      "path": "content/pep-english/raw/senior-required-1/senior-required-1_13.jpg",
-      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
-      "checked": true,
-      "sha256": "a0ef4aba7eae396feb05f147b975593508c2139507a1390875a402cec46a39a9"
+      "sha256": "65c7a9c44e837f5c2bbd5d7c7fc79a71cebd7af6a21e51c91ac5c4b1a4db7ded"
     }
   ],
   "corrections": [],
   "fullReadConfirmed": true,
   "recheckConfirmed": true,
   "reviewer": "Codex",
-  "reviewedAt": "2026-10-02T05:20:48+00:00",
-  "notes": "PDF第13页船上学习短文完整核对。Tim与同学住船、同样课程、每周邮件及日落星空结尾一致；练习下划线不改变正文，单段无修改。",
+  "reviewedAt": "2026-10-07T07:30:09+00:00",
+  "notes": "Tim船上学习从课程、家书到观星为连贯介绍，完整单段保留。",
   "issues": [],
-  "status": "passed_unchanged"
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "5a070b57386fcdf9b832e18d0b585922bce6e1522967cd593f004f47f95594ab",
+    "afterFileSha256": "5a070b57386fcdf9b832e18d0b585922bce6e1522967cd593f004f47f95594ab",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "5a070b57386fcdf9b832e18d0b585922bce6e1522967cd593f004f47f95594ab",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..0] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "Tim船上学习从课程、家书到观星为连贯介绍，完整单段保留。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/200bcba96c51ad9f499b4936101f411680cbcc4d3b0d60674f061b8abec7779b.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "65c7a9c44e837f5c2bbd5d7c7fc79a71cebd7af6a21e51c91ac5c4b1a4db7ded"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "200bcba96c51ad9f499b4936101f411680cbcc4d3b0d60674f061b8abec7779b"
 }

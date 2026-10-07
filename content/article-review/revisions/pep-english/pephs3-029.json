@@ -2,22 +2,22 @@
   "schemaVersion": 1,
   "course": "pep-english",
   "articleId": "pephs3-029",
-  "beforeDisplaySha256": "4d76f45a1d56561d43f5ad22b19801aa5cfe3916e3128f628200d1090a316799",
+  "beforeDisplaySha256": "6e5fd6b752292ce513ea73bfccc2f60634893509aa16d57459de3658599d5352",
   "afterDisplaySha256": "6e5fd6b752292ce513ea73bfccc2f60634893509aa16d57459de3658599d5352",
   "baselineDisplay": {
     "title": "Auld Lang Syne (excerpt by Robert Burns)",
     "section": "Listening and Speaking",
-    "text": "Should old acquaintance be forgot, and never brought to mind?\nShould old acquaintance be forgot, and auld lang syne?\nFor auld lang syne, my dear, for auld lang syne, we’ll take a cup of kindness yet, for auld lang syne.\nAnd surely you’ll buy your pint cup!\nand surely I’ll buy mine!\nAnd we’ll take a cup o’ kindness yet, for auld lang syne.\nFor auld lang syne, my dear, for auld lang syne, we’ll take a cup of kindness yet, for auld lang syne.",
+    "text": "Should old acquaintance be\nforgot, and never brought to mind?\nShould old acquaintance be\nforgot, and auld lang syne?\nFor auld lang syne, my dear,\nfor auld lang syne,\nwe’ll take a cup of kindness yet,\nfor auld lang syne.\nAnd surely you’ll buy your pint cup!\nand surely I’ll buy mine!\nAnd we’ll take a cup o’ kindness yet,\nfor auld lang syne.\nFor auld lang syne, my dear,\nfor auld lang syne,\nwe’ll take a cup of kindness yet,\nfor auld lang syne.",
     "blocks": [
       {
         "type": "paragraph",
         "lang": "en",
-        "text": "Should old acquaintance be forgot, and never brought to mind?\nShould old acquaintance be forgot, and auld lang syne?\nFor auld lang syne, my dear, for auld lang syne, we’ll take a cup of kindness yet, for auld lang syne."
+        "text": "Should old acquaintance be\nforgot, and never brought to mind?\nShould old acquaintance be\nforgot, and auld lang syne?\nFor auld lang syne, my dear,\nfor auld lang syne,\nwe’ll take a cup of kindness yet,\nfor auld lang syne."
       },
       {
         "type": "paragraph",
         "lang": "en",
-        "text": "And surely you’ll buy your pint cup!\nand surely I’ll buy mine!\nAnd we’ll take a cup o’ kindness yet, for auld lang syne.\nFor auld lang syne, my dear, for auld lang syne, we’ll take a cup of kindness yet, for auld lang syne."
+        "text": "And surely you’ll buy your pint cup!\nand surely I’ll buy mine!\nAnd we’ll take a cup o’ kindness yet,\nfor auld lang syne.\nFor auld lang syne, my dear,\nfor auld lang syne,\nwe’ll take a cup of kindness yet,\nfor auld lang syne."
       }
     ]
   },
@@ -40,24 +40,45 @@
   },
   "sources": [
     {
-      "path": "content/pep-english/raw/senior-selective-3.pdf",
-      "locator": "PDF第98-98页，标题与完整正文逐行核对",
+      "path": "content/article-review/history/9794e73d72c08da41a9f976185afce9cd110e64de96907f1819c6f09880e4a17.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
       "checked": true,
-      "sha256": "ed8eb9e5988b44a1ff4f8bc11ed3cfae406decefae7982477362720788e1998b"
-    },
-    {
-      "path": "content/pep-english/raw/senior-selective-3/senior-selective-3_98.jpg",
-      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
-      "checked": true,
-      "sha256": "bce5c1276b4d5b4b1643fb9569c23bfa9dc44144df7b929101007101b2f2f23b"
+      "sha256": "314220f43c2a08ea9b13d28067861cee854b20c3736d965361dee35435815a13"
     }
   ],
   "corrections": [],
   "fullReadConfirmed": true,
   "recheckConfirmed": true,
   "reviewer": "Codex",
-  "reviewedAt": "2026-10-02T07:26:06+00:00",
-  "notes": "全文与PDF98页左右两栏逐行对照，恢复两节各八行的教材诗歌排版，保留Burns节选的词语及大小写。",
+  "reviewedAt": "2026-10-07T07:35:53+00:00",
+  "notes": "友谊地久天长两节各八行含副歌，保留be/forgot等现有歌词跨行与重复副歌。",
   "issues": [],
-  "status": "passed_edited"
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "b8c9885d2a4ce2047592c962219cd178a4c518815f87eee9a6b85d3e16a71332",
+    "afterFileSha256": "b8c9885d2a4ce2047592c962219cd178a4c518815f87eee9a6b85d3e16a71332",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "b8c9885d2a4ce2047592c962219cd178a4c518815f87eee9a6b85d3e16a71332",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..1] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "友谊地久天长两节各八行含副歌，保留be/forgot等现有歌词跨行与重复副歌。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/9794e73d72c08da41a9f976185afce9cd110e64de96907f1819c6f09880e4a17.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "314220f43c2a08ea9b13d28067861cee854b20c3736d965361dee35435815a13"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "9794e73d72c08da41a9f976185afce9cd110e64de96907f1819c6f09880e4a17"
 }

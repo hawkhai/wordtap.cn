@@ -1,0 +1,71 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "d1a9baccc62dd1b877e21fe47914d8d7bac3e529ced533101ced3ca63dee6921",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "coverage": "全文 blocks[0..101]；按 JSON 上下文逐项复核对话、解释、题目、表格、词表及修复后的边界。",
+  "notes": "合并 come from 说明、国籍括号注释、疑问句说明、favourite colour 例句和时间介词定义的续行；国家词表和 at/on/in 对照行保留。",
+  "issues": [],
+  "mergeBlocks": [
+    {
+      "start": 22,
+      "end": 23,
+      "before": [
+        "◦ come from 是一个动词+介词的词组，from 后面加具体的国家/城市/县城或",
+        "其他地点"
+      ],
+      "text": "◦ come from 是一个动词+介词的词组，from 后面加具体的国家/城市/县城或其他地点",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 25,
+      "end": 26,
+      "before": [
+        "▪ Where are you from?= Which country/city are you from?(询问国籍/",
+        "城市籍贯)"
+      ],
+      "text": "▪ Where are you from?= Which country/city are you from?(询问国籍/城市籍贯)",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 33,
+      "end": 34,
+      "before": [
+        "◦ what 是一个疑问代词，指代具体的语言，do 是助动词，辅助 speak 完成疑",
+        "问句"
+      ],
+      "text": "◦ what 是一个疑问代词，指代具体的语言，do 是助动词，辅助 speak 完成疑问句",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 36,
+      "end": 37,
+      "before": [
+        "▪ What color do you like?你喜欢什么颜色呢？=What's your favourite",
+        "colour?"
+      ],
+      "text": "▪ What color do you like?你喜欢什么颜色呢？=What's your favourite colour?",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 52,
+      "end": 53,
+      "before": [
+        "表示时间的介词可以称为时间介词。初级阶段要掌握的表示时间的介词有：at, on, in,",
+        "before, after 等。"
+      ],
+      "text": "表示时间的介词可以称为时间介词。初级阶段要掌握的表示时间的介词有：at, on, in, before, after 等。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    }
+  ],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/6a1ba9aa347bbc91527c8a4f5400235015ebb9210d43f8b665b926fc96b2e1cb.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "96dd4b9a3144651522ea77b78fd8412e4bf5b71e2fc4620c0fb6b37c7f64e426"
+    }
+  ]
+}

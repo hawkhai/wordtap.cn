@@ -1,0 +1,276 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "c639b8433210313f1c879052ac93ba05999f0535287fdcab29887cb924362139",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "coverage": "全文 blocks[0..224]；按 JSON 上下文逐项复核对话、解释、题目、表格、词表及修复后的边界。",
+  "notes": "全文复核艺术评论故事、全部复述题/摘要/选择题、形容词功能及顺序说明。恢复正文和题干断行、英文词组及中文截词；保留前后置比较词组、误/正例句和主动被动形容词词表。引号方向及原文空用的等疑义未校改。",
+  "issues": [],
+  "mergeBlocks": [
+    {
+      "start": 23,
+      "end": 24,
+      "before": [
+        "Many people pretend that they understand modern art. They always tell you what a",
+        "picture is ‘about’."
+      ],
+      "text": "Many people pretend that they understand modern art. They always tell you what a picture is ‘about’.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 26,
+      "end": 27,
+      "before": [
+        "Of course, many pictures are not ‘about’ anything. They are just pretty patterns. We",
+        "like them in the same way that we like pretty curtain material."
+      ],
+      "text": "Of course, many pictures are not ‘about’ anything. They are just pretty patterns. We like them in the same way that we like pretty curtain material.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 28,
+      "end": 29,
+      "before": [
+        "当然，有很多画是什么“意思”也没有的。它们就是些好看的图案， 我们喜爱",
+        "它们就像我们喜欢漂亮的窗帘布一样。"
+      ],
+      "text": "当然，有很多画是什么“意思”也没有的。它们就是些好看的图案， 我们喜爱它们就像我们喜欢漂亮的窗帘布一样。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 30,
+      "end": 31,
+      "before": [
+        "I think that young children often appreciate modern pictures better than anyone else.",
+        "They notice more."
+      ],
+      "text": "I think that young children often appreciate modern pictures better than anyone else. They notice more.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 32,
+      "end": 33,
+      "before": [
+        "我觉得小孩子们往往比任何人都更能欣赏现代绘画，他们观察到的东西更",
+        "多。"
+      ],
+      "text": "我觉得小孩子们往往比任何人都更能欣赏现代绘画，他们观察到的东西更多。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 34,
+      "end": 35,
+      "before": [
+        "My sister is only seven, but she always tells me whether my pictures are good or",
+        "not. She came into my room yesterday."
+      ],
+      "text": "My sister is only seven, but she always tells me whether my pictures are good or not. She came into my room yesterday.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 41,
+      "end": 42,
+      "before": [
+        "She looked at it critically for a moment. ‘It’s all right,’ she said, ‘but isn’t it upside",
+        "down?’ I looked at it again. She was right! It was!"
+      ],
+      "text": "She looked at it critically for a moment. ‘It’s all right,’ she said, ‘but isn’t it upside down?’ I looked at it again. She was right! It was!",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 43,
+      "end": 44,
+      "before": [
+        "她用挑剔的目光看了一会儿。“还可以吧。”她说，“不过，是不是上下反过来",
+        "了？”我再次看了看画。她说对了，我的确是挂反了。"
+      ],
+      "text": "她用挑剔的目光看了一会儿。“还可以吧。”她说，“不过，是不是上下反过来了？”我再次看了看画。她说对了，我的确是挂反了。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 49,
+      "end": 50,
+      "before": [
+        "1 Does the writer study art, or does he study music? Does he paint lot of pictures or",
+        "not? (and)"
+      ],
+      "text": "1 Does the writer study art, or does he study music? Does he paint lot of pictures or not? (and)",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 54,
+      "end": 55,
+      "before": [
+        "5 Do young children appreciate modern paintings better than others or not? Do they",
+        "notice more or not? (not only … but)"
+      ],
+      "text": "5 Do young children appreciate modern paintings better than others or not? Do they notice more or not? (not only … but)",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 56,
+      "end": 57,
+      "before": [
+        "6 When did the writer’s young sister go into his room? Did she examine his new",
+        "picture or not?(and)"
+      ],
+      "text": "6 When did the writer’s young sister go into his room? Did she examine his new picture or not?(and)",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 58,
+      "end": 59,
+      "before": [
+        "7 Had he hung it upside down, or had he hung it the right way up? Did she notice",
+        "this immediately or not?(and)"
+      ],
+      "text": "7 Had he hung it upside down, or had he hung it the right way up? Did she notice this immediately or not?(and)",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 60,
+      "end": 65,
+      "before": [
+        "Answer: The writer studies art and paints a lot of pictures. Many people do",
+        "not really understand modern art. Paintings do not always have a meaning.",
+        "They are sometimes pretty patterns. Young children not only appreciate",
+        "modern paintings better than others but they notice more. The writer’s young",
+        "sister went into his room yesterday and examined his new picture. He had",
+        "hung it upside down and she noticed this immediately."
+      ],
+      "text": "Answer: The writer studies art and paints a lot of pictures. Many people do not really understand modern art. Paintings do not always have a meaning. They are sometimes pretty patterns. Young children not only appreciate modern paintings better than others but they notice more. The writer’s young sister went into his room yesterday and examined his new picture. He had hung it upside down and she noticed this immediately.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 131,
+      "end": 132,
+      "before": [
+        "形容词用于修饰名词或代词，表示人或事物的性质或特征，在句中作定语、表",
+        "语或补语等。副词主要用作状语，修饰动词、形容词或副词本身。"
+      ],
+      "text": "形容词用于修饰名词或代词，表示人或事物的性质或特征，在句中作定语、表语或补语等。副词主要用作状语，修饰动词、形容词或副词本身。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 133,
+      "end": 134,
+      "before": [
+        "绝大部分的形容词既可作定语又可作表语，但有些形容词只可作前置定语，而",
+        "有些则往往用作后置定语；有些形容词只能作表语，而另一些则不能作表语。"
+      ],
+      "text": "绝大部分的形容词既可作定语又可作表语，但有些形容词只可作前置定语，而有些则往往用作后置定语；有些形容词只能作表语，而另一些则不能作表语。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 137,
+      "end": 138,
+      "before": [
+        "(1)possible, notable, reliable, present, involved, concerned, imaginable,",
+        "conceivable(可想像的), responsible等。有些词也可作前置定语，但意思不同。"
+      ],
+      "text": "(1)possible, notable, reliable, present, involved, concerned, imaginable, conceivable(可想像的), responsible等。有些词也可作前置定语，但意思不同。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 152,
+      "end": 153,
+      "before": [
+        "(2)以a-开始的形容词：alive, asleep, awake, alone, ahead, alike, ashamed, aware",
+        "等。"
+      ],
+      "text": "(2)以a-开始的形容词：alive, asleep, awake, alone, ahead, alike, ashamed, aware 等。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 158,
+      "end": 159,
+      "before": [
+        "▪ 只能用作前置定语的形容词：daily, weekly, monthly, quarterly, yearly, former,",
+        "golden, latter, little, wooden, elder, outer, spare(空用的)， inner(内部的)等"
+      ],
+      "text": "▪ 只能用作前置定语的形容词：daily, weekly, monthly, quarterly, yearly, former, golden, latter, little, wooden, elder, outer, spare(空用的)， inner(内部的)等",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 162,
+      "end": 163,
+      "before": [
+        "(2)有些形容词，表示某一意义时，只能作表语，如ill(有病的)，用作定语时意",
+        "义则有所不同。"
+      ],
+      "text": "(2)有些形容词，表示某一意义时，只能作表语，如ill(有病的)，用作定语时意义则有所不同。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 171,
+      "end": 172,
+      "before": [
+        "注：按英语习惯用法，表语形容词一般不用very修饰，而应用much或very much",
+        "或用习惯搭配的副词来修饰。"
+      ],
+      "text": "注：按英语习惯用法，表语形容词一般不用very修饰，而应用much或very much 或用习惯搭配的副词来修饰。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 184,
+      "end": 185,
+      "before": [
+        "▪ 由现在分词转化来的形容词一般都具有主动意义，而由及物动词转化来的",
+        "形容词通常具有被动意义。例如:"
+      ],
+      "text": "▪ 由现在分词转化来的形容词一般都具有主动意义，而由及物动词转化来的形容词通常具有被动意义。例如:",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 194,
+      "end": 195,
+      "before": [
+        "▪ 以-ful, -ous, -some等结尾的形容词具有主动意义，以-able, -ible, -uble结尾的",
+        "形容词具有被动意义。"
+      ],
+      "text": "▪ 以-ful, -ous, -some等结尾的形容词具有主动意义，以-able, -ible, -uble结尾的形容词具有被动意义。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 213,
+      "end": 214,
+      "before": [
+        "▪ 表示原料、来源(国籍)、出处和作为形容词用的名词经常出现在所修饰的名",
+        "词之前。例如:"
+      ],
+      "text": "▪ 表示原料、来源(国籍)、出处和作为形容词用的名词经常出现在所修饰的名词之前。例如:",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 217,
+      "end": 218,
+      "before": [
+        "总之,当名词中心词带有多个形容词作前置定语时,它们的先后次序为:限定词→",
+        "品质→大小、长短、高低→形状→年龄、新旧→颜色→起源→名词→中心词。"
+      ],
+      "text": "总之,当名词中心词带有多个形容词作前置定语时,它们的先后次序为:限定词→品质→大小、长短、高低→形状→年龄、新旧→颜色→起源→名词→中心词。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 222,
+      "end": 224,
+      "before": [
+        "然而，在实际应用中,一个名词词组不可能带有这么多的修饰语。因此，以上的",
+        "规则不是刻板不变的。事实上，由于修辞或为避免歧义等原因，有时是可以改",
+        "变这种次序的。"
+      ],
+      "text": "然而，在实际应用中,一个名词词组不可能带有这么多的修饰语。因此，以上的规则不是刻板不变的。事实上，由于修辞或为避免歧义等原因，有时是可以改变这种次序的。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    }
+  ],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/96707388cad5fd61622ee7111ab07b2296464d05a582c6955d2669c487a8f182.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "5b98e1af33ad760312f6847207e0fad9d7a59cbdc605a880fa8d1a0019cae5a0"
+    }
+  ]
+}

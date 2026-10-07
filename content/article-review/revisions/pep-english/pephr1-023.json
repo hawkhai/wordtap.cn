@@ -2,12 +2,12 @@
   "schemaVersion": 1,
   "course": "pep-english",
   "articleId": "pephr1-023",
-  "beforeDisplaySha256": "4eef9e9449aaee17476f980ab6c6cda733e8f2a6f215d0cccc1e358e9ee04b03",
+  "beforeDisplaySha256": "29fa93ab7d30cfb21f437f17abe710575b954cf443d68d4989f079d66002fb0f",
   "afterDisplaySha256": "29fa93ab7d30cfb21f437f17abe710575b954cf443d68d4989f079d66002fb0f",
   "baselineDisplay": {
     "title": "A Son Who Wants a Girlfriend",
     "section": "Writing",
-    "text": "Dear Talking Teens,\nMy son is 16 and wants to get a girlfriend. I think he is too young and should focus on school instead. He says that his friends have girlfriends and that I am being too old-fashioned. Is he right?\nYours truly, Old-school Dad",
+    "text": "Dear Talking Teens,\nMy son is 16 and wants to get a girlfriend. I think he is too young and should focus on school instead. He says that his friends have girlfriends and that I am being too old-fashioned. Is he right?\nYours truly,\nOld-school Dad",
     "blocks": [
       {
         "type": "paragraph",
@@ -22,7 +22,7 @@
       {
         "type": "paragraph",
         "lang": "en",
-        "text": "Yours truly, Old-school Dad"
+        "text": "Yours truly,\nOld-school Dad"
       }
     ]
   },
@@ -50,24 +50,45 @@
   },
   "sources": [
     {
-      "path": "content/pep-english/raw/senior-required-1.pdf",
-      "locator": "PDF第82-82页，标题与完整正文逐行核对",
+      "path": "content/article-review/history/9df7b5073d4c34137193b84cf715bff85e792b36c19705366aa7afafbd121533.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
       "checked": true,
-      "sha256": "ffe985a370964820aa003008f48c7cf17b5e0dff8eb29fe54cd4743b0c4e8c79"
-    },
-    {
-      "path": "content/pep-english/raw/senior-required-1/senior-required-1_82.jpg",
-      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
-      "checked": true,
-      "sha256": "53ea068d51c036d10dad6544a1557476644eafbf835265ae7fef8a903246f1f4"
+      "sha256": "c0662d90c86d52be7a67059c9a1bb8dd82405240a5c30a7aeddb51d7ba0289a0"
     }
   ],
   "corrections": [],
   "fullReadConfirmed": true,
   "recheckConfirmed": true,
   "reviewer": "Codex",
-  "reviewedAt": "2026-10-02T05:31:06+00:00",
-  "notes": "PDF第82页左下Old-school Dad来信全文核对，16岁儿子谈恋爱及父亲观点完整；恢复Yours truly与署名换行，连字符保留。",
+  "reviewedAt": "2026-10-07T07:30:12+00:00",
+  "notes": "父亲询问十六岁儿子恋爱问题，正文单段及书信首尾独立保留。",
   "issues": [],
-  "status": "passed_edited"
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "1570eead73c4fdf645a394312b9da475462130beed5f84491b42284c3143d63b",
+    "afterFileSha256": "1570eead73c4fdf645a394312b9da475462130beed5f84491b42284c3143d63b",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "1570eead73c4fdf645a394312b9da475462130beed5f84491b42284c3143d63b",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..2] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "父亲询问十六岁儿子恋爱问题，正文单段及书信首尾独立保留。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/9df7b5073d4c34137193b84cf715bff85e792b36c19705366aa7afafbd121533.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "c0662d90c86d52be7a67059c9a1bb8dd82405240a5c30a7aeddb51d7ba0289a0"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "9df7b5073d4c34137193b84cf715bff85e792b36c19705366aa7afafbd121533"
 }

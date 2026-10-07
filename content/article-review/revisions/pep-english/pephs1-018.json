@@ -2,12 +2,12 @@
   "schemaVersion": 1,
   "course": "pep-english",
   "articleId": "pephs1-018",
-  "beforeDisplaySha256": "2d84b999b60d9afa40e3a5409919889c87c4f8d2f5738e703cc2430496a7e434",
+  "beforeDisplaySha256": "8b70bc22dcf56af714c2fcec72519e1256cbdc4f773b1c29033efd4c0bba0a7c",
   "afterDisplaySha256": "8b70bc22dcf56af714c2fcec72519e1256cbdc4f773b1c29033efd4c0bba0a7c",
   "baselineDisplay": {
     "title": "The Teachers of Changyu Island",
     "section": "Reading and Writing",
-    "text": "I want to tell everyone about two teachers on Changyu Island, Wang Kaiquan and Lin Zhujin.\nFew people know about this hometown of mine. The island is beautiful, but it’s quite isolated, and there aren’t many modern conveniences. In bad weather, even our water and power supplies are unstable. People who have never been to our island are often surprised by this and find it hard to adjust. Many who live on the island dream of leaving. These two primary school teachers, however, have stayed on for 23 long years! They are the only teachers here, and they plan to stay for as long as there are children who need to attend school.\nI want to thank them, and let the world know about these teachers who work tirelessly every day for the sake of the children.\n(Chen Xueyin, Fujian)",
+    "text": "I want to tell everyone about two teachers on Changyu Island, Wang Kaiquan and Lin Zhujin.\nFew people know about this hometown of mine. The island is beautiful, but it’s quite isolated, and there aren’t many modern conveniences. In bad weather, even our water and power supplies are unstable. People who have never been to our island are often surprised by this and find it hard to adjust. Many who live on the island dream of leaving. These two primary school teachers, however, have stayed on for 23 long years! They are the only teachers here, and they plan to stay for as long as there are children who need to attend school.\nI want to thank them, and let the world know about these teachers who work tirelessly every day for the sake of the children.",
     "blocks": [
       {
         "type": "paragraph",
@@ -23,11 +23,6 @@
         "type": "paragraph",
         "lang": "en",
         "text": "I want to thank them, and let the world know about these teachers who work tirelessly every day for the sake of the children."
-      },
-      {
-        "type": "paragraph",
-        "lang": "en",
-        "text": "(Chen Xueyin, Fujian)"
       }
     ]
   },
@@ -55,44 +50,45 @@
   },
   "sources": [
     {
-      "path": "content/pep-english/raw/senior-selective-1.pdf",
-      "locator": "PDF第71-71页，标题与完整正文逐行核对",
+      "path": "content/article-review/history/4cf29778c1a67ba1694f769934aca65268acb9c327466898bd16780e609898ac.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
       "checked": true,
-      "sha256": "94ec493439239c436326e228e3d3ad78c7053ac5abc005db5739119f6a98c33d"
-    },
-    {
-      "path": "content/pep-english/raw/senior-selective-1/senior-selective-1_71.jpg",
-      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
-      "checked": true,
-      "sha256": "3cee1bcbd1e9b126b3b2ddcedee99e9f542ed99ce342c16aa7b544b99c5fd0dc"
-    },
-    {
-      "path": "content/article-review/cleanup-2026-10-06.json",
-      "sha256": "cea27c1c69e32939ff83196bd29cce9a128d8d0d6f248611217179e037971889",
-      "locator": "public/pep-english/lessons/pephs1/018.json",
-      "checked": true
+      "sha256": "c60f7e8d675e3e2f405713feb51c9316168d9b2e180631b98b2d614cd1acd913"
     }
   ],
-  "corrections": [
-    {
-      "field": "text",
-      "before": "I want to tell everyone about two teachers on Changyu Island, Wang Kaiquan and Lin Zhujin.\nFew people know about this hometown of mine. The island is beautiful, but it’s quite isolated, and there aren’t many modern conveniences. In bad weather, even our water and power supplies are unstable. People who have never been to our island are often surprised by this and find it hard to adjust. Many who live on the island dream of leaving. These two primary school teachers, however, have stayed on for 23 long years! They are the only teachers here, and they plan to stay for as long as there are children who need to attend school.\nI want to thank them, and let the world know about these teachers who work tirelessly every day for the sake of the children.\n(Chen Xueyin, Fujian)",
-      "after": "I want to tell everyone about two teachers on Changyu Island, Wang Kaiquan and Lin Zhujin.\nFew people know about this hometown of mine. The island is beautiful, but it’s quite isolated, and there aren’t many modern conveniences. In bad weather, even our water and power supplies are unstable. People who have never been to our island are often surprised by this and find it hard to adjust. Many who live on the island dream of leaving. These two primary school teachers, however, have stayed on for 23 long years! They are the only teachers here, and they plan to stay for as long as there are children who need to attend school.\nI want to thank them, and let the world know about these teachers who work tirelessly every day for the sake of the children.",
-      "evidence": "User-directed source-fidelity restoration; content/article-review/cleanup-2026-10-06.json"
-    }
-  ],
-  "fullReadConfirmed": false,
-  "recheckConfirmed": false,
-  "reviewMode": "source-fidelity-rules-v1",
-  "reviewer": "Codex (user-directed restoration)",
-  "reviewedAt": "2026-10-05T17:15:10+00:00",
-  "notes": "Rule-based restoration; original full-read review remains historical. content/article-review/cleanup-2026-10-06.json",
+  "corrections": [],
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "reviewer": "Codex",
+  "reviewedAt": "2026-10-07T07:32:26+00:00",
+  "notes": "长屿岛教师短文引入、岛屿困难及二十三年坚守、致谢三段明确。",
   "issues": [],
-  "status": "passed_edited",
-  "previousRevisionSha256": "f861f033a267228ac5e3171eab4713912688cdebb317aa48eabad9eb3b23ab4d",
-  "ruleRestoration": {
-    "policy": "source-fidelity-rules-v1",
-    "report": "content/article-review/cleanup-2026-10-06.json",
-    "reportSha256": "cea27c1c69e32939ff83196bd29cce9a128d8d0d6f248611217179e037971889"
-  }
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "daebc770a964895025070e3b25e01ce8c9b2d238a538dbfd856f316eef7791c1",
+    "afterFileSha256": "daebc770a964895025070e3b25e01ce8c9b2d238a538dbfd856f316eef7791c1",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "daebc770a964895025070e3b25e01ce8c9b2d238a538dbfd856f316eef7791c1",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..2] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "长屿岛教师短文引入、岛屿困难及二十三年坚守、致谢三段明确。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/4cf29778c1a67ba1694f769934aca65268acb9c327466898bd16780e609898ac.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "c60f7e8d675e3e2f405713feb51c9316168d9b2e180631b98b2d614cd1acd913"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "4cf29778c1a67ba1694f769934aca65268acb9c327466898bd16780e609898ac"
 }

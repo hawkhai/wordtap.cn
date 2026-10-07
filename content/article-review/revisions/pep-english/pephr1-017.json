@@ -70,24 +70,45 @@
   },
   "sources": [
     {
-      "path": "content/pep-english/raw/senior-required-1.pdf",
-      "locator": "PDF第61-61页，标题与完整正文逐行核对",
+      "path": "content/article-review/history/c32314188492dae71cffc3669296ac840df4074a2dfb4af7d5eb4ff7b45dc5c2.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
       "checked": true,
-      "sha256": "ffe985a370964820aa003008f48c7cf17b5e0dff8eb29fe54cd4743b0c4e8c79"
-    },
-    {
-      "path": "content/pep-english/raw/senior-required-1/senior-required-1_61.jpg",
-      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
-      "checked": true,
-      "sha256": "53707d72345ed4119213415c5a9d411b66c732e5dfebdb491dff4ccd370765e1"
+      "sha256": "2e048038ea41aab7c0a7fe52c3531813e0093714029a6ea5d23954ad66877ebc"
     }
   ],
   "corrections": [],
   "fullReadConfirmed": true,
   "recheckConfirmed": true,
   "reviewer": "Codex",
-  "reviewedAt": "2026-10-02T05:24:56+00:00",
-  "notes": "PDF第61页三栏新闻按顺序核对，署名Robert Woodhouse及2004年12月27日保留，四正文段完整。6500/9.0/1870/2498/1900/254/54均是灾后次日报道数字，不替换成最终统计；引语及末段救援信息一致，无修改。",
+  "reviewedAt": "2026-10-07T07:30:11+00:00",
+  "notes": "海啸报道署名日期独立，主体按事件、各国损失、当事人引语、救援障碍分段，保留现有结构。",
   "issues": [],
-  "status": "passed_unchanged"
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "98e9e1826df4375403e5e73f1b7d0b13a0a19a2657e14973131ee4acf018a135",
+    "afterFileSha256": "98e9e1826df4375403e5e73f1b7d0b13a0a19a2657e14973131ee4acf018a135",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "98e9e1826df4375403e5e73f1b7d0b13a0a19a2657e14973131ee4acf018a135",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..4] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "海啸报道署名日期独立，主体按事件、各国损失、当事人引语、救援障碍分段，保留现有结构。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/c32314188492dae71cffc3669296ac840df4074a2dfb4af7d5eb4ff7b45dc5c2.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "2e048038ea41aab7c0a7fe52c3531813e0093714029a6ea5d23954ad66877ebc"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "c32314188492dae71cffc3669296ac840df4074a2dfb4af7d5eb4ff7b45dc5c2"
 }

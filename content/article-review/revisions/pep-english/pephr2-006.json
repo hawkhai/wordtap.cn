@@ -70,24 +70,45 @@
   },
   "sources": [
     {
-      "path": "content/pep-english/raw/senior-required-2.pdf",
-      "locator": "PDF第35-35页，标题与完整正文逐行核对",
+      "path": "content/article-review/history/b89ffacc48dee01c1a7f123a957d019974b49ca03f8c5ad6e5bdd96c5087daad.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
       "checked": true,
-      "sha256": "33b74bf42b22b32fdbe3201e6f61cf8099be047ef0af8a1740f6013dee4a619d"
-    },
-    {
-      "path": "content/pep-english/raw/senior-required-2/senior-required-2_35.jpg",
-      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
-      "checked": true,
-      "sha256": "f73e4d01dc75929d3fb5361a02a4ca2e190a41cca3e0360b987dafb7cabba154"
+      "sha256": "a4df2478180020c7f86a77a7120679bf088bf673b523607751dc98bbc6e69752"
     }
   ],
   "corrections": [],
   "fullReadConfirmed": true,
   "recheckConfirmed": true,
   "reviewer": "Codex",
-  "reviewedAt": "2026-10-02T05:39:11+00:00",
-  "notes": "PDF第35页Stronger Together五段全文核对，Jan Tchamani/Birmingham、50/59/61岁、IT俱乐部、digital divide与末段两处引语逐行一致，段落完整，无修改。",
+  "reviewedAt": "2026-10-07T07:30:15+00:00",
+  "notes": "Jan故事按互联网作用、患病与社群、IT俱乐部、未来目标、总结五段展开，保留多句段落。",
   "issues": [],
-  "status": "passed_unchanged"
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "78dd30e2ca11aaa4c4dcd1b21ce08b9e0d8479935709db36eeeeae96abd4a94a",
+    "afterFileSha256": "78dd30e2ca11aaa4c4dcd1b21ce08b9e0d8479935709db36eeeeae96abd4a94a",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "78dd30e2ca11aaa4c4dcd1b21ce08b9e0d8479935709db36eeeeae96abd4a94a",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..4] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "Jan故事按互联网作用、患病与社群、IT俱乐部、未来目标、总结五段展开，保留多句段落。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/b89ffacc48dee01c1a7f123a957d019974b49ca03f8c5ad6e5bdd96c5087daad.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "a4df2478180020c7f86a77a7120679bf088bf673b523607751dc98bbc6e69752"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "b89ffacc48dee01c1a7f123a957d019974b49ca03f8c5ad6e5bdd96c5087daad"
 }

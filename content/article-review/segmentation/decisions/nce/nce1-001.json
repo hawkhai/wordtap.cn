@@ -1,0 +1,22 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "0375f1e903ff52d42e9f82001f26505c5885f11a046beaaf6b5c61ce49baa79e",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title/titleZh、question/questionZh、bodyText全部7行、bodyTextZh全部7行及sentences[0..10]的完整文字；重复正文与字幕文本逐字比对，非正文字幕另读。操作在内存应用并validate_layout_change，修复后的双语全文重新通读。",
+  "notes": "手提包问答从Excuse me到致谢逐句复核，现有短行各有明确问答或礼貌停顿作用，保留。 text与bodyText同步；sentences对象及时间、角色、索引原样保留。",
+  "issues": [],
+  "display": {},
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/b37f4d9965ece98187c2f06089aabb1b0322bc7a9d66c36635294be5fbf1b6b3.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "b01cacde6258f7fdac36252bdb77a0369a6cfe644f19b116669efe6b7460a5ab"
+    }
+  ]
+}

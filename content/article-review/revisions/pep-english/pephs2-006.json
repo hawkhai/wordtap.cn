@@ -100,30 +100,45 @@
   },
   "sources": [
     {
-      "path": "content/pep-english/raw/senior-selective-2.pdf",
-      "locator": "PDF第21-22页，标题与完整正文逐行核对",
+      "path": "content/article-review/history/346d7163b8d24d8072b9ea88756cb19a448ce319cafb2db36e3efa9739f0a867.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
       "checked": true,
-      "sha256": "cafaee5fe508dfced31ba02877251ffeb01e98b1a48767fe30b2b7187edb0050"
-    },
-    {
-      "path": "content/pep-english/raw/senior-selective-2/senior-selective-2_21.jpg",
-      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
-      "checked": true,
-      "sha256": "23be32d3de8a7f0cb7206c83c1aee0cddc97fb50297c3c786ecb40e27876f908"
-    },
-    {
-      "path": "content/pep-english/raw/senior-selective-2/senior-selective-2_22.jpg",
-      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
-      "checked": true,
-      "sha256": "d935bc53ee4d107ebf5193ff67498221cfd7cb7f2f6036210991ae4aa067bf03"
+      "sha256": "7486c4bd1d403f93bb6abf69268f8876d75a54d9d9ac341b1e179b7aff3699cb"
     }
   ],
   "corrections": [],
   "fullReadConfirmed": true,
   "recheckConfirmed": true,
   "reviewer": "Codex",
-  "reviewedAt": "2026-10-02T06:35:36+00:00",
-  "notes": "通读核对PDF21—22页谢蕾交换学习全文八段及两层标题，跨栏换页、引语、寄宿家庭与课堂参与内容完整，未发现漏词或断段，保留无修改。",
+  "reviewedAt": "2026-10-07T07:32:29+00:00",
+  "notes": "谢蕾交流学习八段按出国、目标、生活适应、寄宿家庭、论文、课堂、文化交流、祝愿展开，引语保持所在段。",
   "issues": [],
-  "status": "passed_unchanged"
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "57cdcddbd12ecbd55d1869c042f27950da5a047ba21d2c92236087932b97bc3e",
+    "afterFileSha256": "57cdcddbd12ecbd55d1869c042f27950da5a047ba21d2c92236087932b97bc3e",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "57cdcddbd12ecbd55d1869c042f27950da5a047ba21d2c92236087932b97bc3e",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..7] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "谢蕾交流学习八段按出国、目标、生活适应、寄宿家庭、论文、课堂、文化交流、祝愿展开，引语保持所在段。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/346d7163b8d24d8072b9ea88756cb19a448ce319cafb2db36e3efa9739f0a867.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "7486c4bd1d403f93bb6abf69268f8876d75a54d9d9ac341b1e179b7aff3699cb"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "346d7163b8d24d8072b9ea88756cb19a448ce319cafb2db36e3efa9739f0a867"
 }

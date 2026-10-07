@@ -90,24 +90,45 @@
   },
   "sources": [
     {
-      "path": "content/pep-english/raw/senior-selective-1.pdf",
-      "locator": "PDF第30-30页，标题与完整正文逐行核对",
+      "path": "content/article-review/history/bb8a05ce8b3e83ab987c1f93b0971f829fcd7086d72c4c70a02016fd2252feee.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
       "checked": true,
-      "sha256": "94ec493439239c436326e228e3d3ad78c7053ac5abc005db5739119f6a98c33d"
-    },
-    {
-      "path": "content/pep-english/raw/senior-selective-1/senior-selective-1_30.jpg",
-      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
-      "checked": true,
-      "sha256": "282a49c0d8000605ddb17c4bafaaff37daaa4b6b8121d085dc9f8a96cb5bc4e5"
+      "sha256": "5ddb2ac216dbfa4b257f9698267ffd0821b374d97f283c5dce4da4f1723b2f75"
     }
   ],
   "corrections": [],
   "fullReadConfirmed": true,
   "recheckConfirmed": true,
   "reviewer": "Codex",
-  "reviewedAt": "2026-10-02T06:12:10+00:00",
-  "notes": "通读PDF第30页未来写给过去的信，称呼、四段正文、结束语及署名均齐全。jet pack air traffic controller职业想象、VR工作场景及直/弯撇号与原页一致，正文无误，保留既有七块书信结构。",
+  "reviewedAt": "2026-10-07T07:32:24+00:00",
+  "notes": "未来Bingbing书信称呼、引入、职业变化、工作利弊、宽慰、祝语和署名清楚；落款两块合法，不任意合并。",
   "issues": [],
-  "status": "passed_unchanged"
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "2d69e325955f6468e271b4c8c18510dfacb0e246c36f01a42943b494ce352da5",
+    "afterFileSha256": "2d69e325955f6468e271b4c8c18510dfacb0e246c36f01a42943b494ce352da5",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "2d69e325955f6468e271b4c8c18510dfacb0e246c36f01a42943b494ce352da5",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..6] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "未来Bingbing书信称呼、引入、职业变化、工作利弊、宽慰、祝语和署名清楚；落款两块合法，不任意合并。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/bb8a05ce8b3e83ab987c1f93b0971f829fcd7086d72c4c70a02016fd2252feee.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "5ddb2ac216dbfa4b257f9698267ffd0821b374d97f283c5dce4da4f1723b2f75"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "bb8a05ce8b3e83ab987c1f93b0971f829fcd7086d72c4c70a02016fd2252feee"
 }

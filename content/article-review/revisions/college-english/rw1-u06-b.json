@@ -92,36 +92,45 @@
   },
   "sources": [
     {
-      "path": "content/College-English/NHCE4-RW1.pdf",
-      "locator": "PDF 162-164，印刷页 147-149，完整正文与标题逐段核对",
+      "path": "content/article-review/history/2015076ebc41f13332b2716547057db1084e00704987342faad7550b42158ecb.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
       "checked": true,
-      "sha256": "05d7a57fb09156e13d02ce498271c86917869b5327e8981f1eedf205ceb465ec"
-    },
-    {
-      "path": "content/College-English/NHCE4-RW1/NHCE4-RW1_162.jpg",
-      "locator": "已打开教材图页并通读复核正文",
-      "checked": true,
-      "sha256": "882c7978106d8faf0fc1102f05a9b9ccbef725bc6beafa39f49a82ca553cad72"
-    },
-    {
-      "path": "content/College-English/NHCE4-RW1/NHCE4-RW1_163.jpg",
-      "locator": "已打开教材图页并通读复核正文",
-      "checked": true,
-      "sha256": "125d128e30f81111db9b6b9ccca81f0c41071c3b1a60852b7f24563bb1b61906"
-    },
-    {
-      "path": "content/College-English/NHCE4-RW1/NHCE4-RW1_164.jpg",
-      "locator": "已打开教材图页并通读复核正文",
-      "checked": true,
-      "sha256": "378d130f2da8dfff5ef468d78b73bb2c626cbabacb54af57695b8577e708afb5"
+      "sha256": "cfd5ab41ce4c77548a21a86bd6c32acfb2adf0afb3a009d57f5fecce6e1de7fa"
     }
   ],
   "corrections": [],
   "fullReadConfirmed": true,
   "recheckConfirmed": true,
   "reviewer": "Codex",
-  "reviewedAt": "2026-10-02T08:37:40+00:00",
-  "notes": "全文7段通读并逐页核对PDF162—164页，核对第4段跨页接续、Juvenal引语、胜负观的两组引语及团队运动利弊论证。内容无OCR错漏，保留议论文的劝导立场及对过度竞争的限定，无修订。",
+  "reviewedAt": "2026-10-07T07:30:02+00:00",
+  "notes": "全文及未改动输出复核：青少年身心、团队技能、经验学习、天赋、勤奋、过度争胜风险和全面收益七段自然；柠檬蜂蜜比喻及两处体育格言均与所在论证同段合理。",
   "issues": [],
-  "status": "passed_unchanged"
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "5b86f2c3e882eac53d1425a7719a4a7b71018bc323194e55900ff16ed8932e50",
+    "afterFileSha256": "5b86f2c3e882eac53d1425a7719a4a7b71018bc323194e55900ff16ed8932e50",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "5b86f2c3e882eac53d1425a7719a4a7b71018bc323194e55900ff16ed8932e50",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "完整 title、blocks[0..6]及完全相同的text；正文及内嵌中文、引语、对话和列举均已逐项通读；无改动输出按全文再次复核。",
+      "notes": "全文及未改动输出复核：青少年身心、团队技能、经验学习、天赋、勤奋、过度争胜风险和全面收益七段自然；柠檬蜂蜜比喻及两处体育格言均与所在论证同段合理。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/2015076ebc41f13332b2716547057db1084e00704987342faad7550b42158ecb.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "cfd5ab41ce4c77548a21a86bd6c32acfb2adf0afb3a009d57f5fecce6e1de7fa"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "2015076ebc41f13332b2716547057db1084e00704987342faad7550b42158ecb"
 }

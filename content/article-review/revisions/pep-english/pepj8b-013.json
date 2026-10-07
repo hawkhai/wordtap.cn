@@ -60,24 +60,46 @@
   },
   "sources": [
     {
-      "path": "content/pep-english/raw/junior-8b.pdf",
-      "locator": "PDF第63-63页，标题与完整正文逐行核对",
+      "path": "content/article-review/history/0efff9c856001e79c2d1b68b32cd11f5cbf1b24875d51ec5517508db15e9b3ae.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
       "checked": true,
-      "sha256": "1be886980dc0833b9c87ced7c9de0c8e3e7e19d990c1172f62504576d2554284"
-    },
-    {
-      "path": "content/pep-english/raw/junior-8b/junior-8b_63.jpg",
-      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
-      "checked": true,
-      "sha256": "b6ea78d4063ddaa623ccb68a68adc972649ad51426f0a1e995d6cbad430a74d3"
+      "sha256": "a3150d16408f7240a2d69ee7469510ab9c9eb3b458560988ff806277005686fb"
     }
   ],
   "corrections": [],
   "fullReadConfirmed": true,
   "recheckConfirmed": true,
   "reviewer": "Codex",
-  "reviewedAt": "2026-10-02T05:02:36+00:00",
-  "notes": "PDF63页印刷54页四段完整逐行对照；8:30准备牛奶、9点幼崽醒来、Lin Wei引语、教材年代的2000/300/12/10数据与保护教育均准确。未将Scanning栏或练习抄入，概括标题符合内容，保留原版统计时点，再次复读无修改。",
+  "reviewedAt": "2026-10-07T07:42:00+00:00",
+  "notes": "熊猫四段为早晨照料、饲养员感情、数量和生存压力、保护措施，保留自然段。",
   "issues": [],
-  "status": "passed_unchanged"
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "9fc77ff823db578a6652240b1327aab96e642ec08b3b827d33fe0c740cd909e6",
+    "afterFileSha256": "9fc77ff823db578a6652240b1327aab96e642ec08b3b827d33fe0c740cd909e6",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "9fc77ff823db578a6652240b1327aab96e642ec08b3b827d33fe0c740cd909e6",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..3] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "熊猫四段为早晨照料、饲养员感情、数量和生存压力、保护措施，保留自然段。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "blockEdits": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/0efff9c856001e79c2d1b68b32cd11f5cbf1b24875d51ec5517508db15e9b3ae.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "a3150d16408f7240a2d69ee7469510ab9c9eb3b458560988ff806277005686fb"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "0efff9c856001e79c2d1b68b32cd11f5cbf1b24875d51ec5517508db15e9b3ae"
 }

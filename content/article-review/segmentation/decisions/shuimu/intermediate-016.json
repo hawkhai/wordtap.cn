@@ -1,0 +1,167 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "85306297bb373814c64ddc4463f0b66492f255e807584a39e9038edca0ad0405",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "coverage": "全文 blocks[0..180]；按 JSON 上下文逐项复核对话、解释、题目、表格、词表及修复后的边界。",
+  "notes": "全文复核机场房子故事、摘要、12题选项、主动被动时态转换。恢复正文截句、摘要、转换说明及长例句；保留五步操作和逐组主动/被动比较。原文尾句缺失及英汉对应错位无法仅靠分段完全修复，已保留。",
+  "issues": [
+    "原始blocks[15..19] Last year机场启用的中文放在后一英文‘Over a hundred people’之后，英汉对应需字符重排。",
+    "原始blocks[179..180] 最后注释止于‘等的主动语态’，JSON没有后续谓语；只能合并现有两行，不能补写结尾，待确认。"
+  ],
+  "mergeBlocks": [
+    {
+      "start": 12,
+      "end": 13,
+      "before": [
+        "Aeroplanes are slowly driving me mad. I live near an airport and passing planes can",
+        "be heard night and day."
+      ],
+      "text": "Aeroplanes are slowly driving me mad. I live near an airport and passing planes can be heard night and day.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 15,
+      "end": 16,
+      "before": [
+        "The airport was built years ago, but for some reason it could not be used then. Last",
+        "year, however, it came into use."
+      ],
+      "text": "The airport was built years ago, but for some reason it could not be used then. Last year, however, it came into use.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 20,
+      "end": 21,
+      "before": [
+        "I am one of the few people left. Sometimes I think this house will be knocked down",
+        "by a passing plane."
+      ],
+      "text": "I am one of the few people left. Sometimes I think this house will be knocked down by a passing plane.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 22,
+      "end": 23,
+      "before": [
+        "我是少数留下来的人中的一个。有时我觉得这房子就要被一架飞过的飞机撞",
+        "倒。"
+      ],
+      "text": "我是少数留下来的人中的一个。有时我觉得这房子就要被一架飞过的飞机撞倒。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 24,
+      "end": 25,
+      "before": [
+        "I have been offered a large sum of money to go away, but I am determined to stay",
+        "here. Everybody says I must be mad and they are probably right."
+      ],
+      "text": "I have been offered a large sum of money to go away, but I am determined to stay here. Everybody says I must be mad and they are probably right.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 26,
+      "end": 27,
+      "before": [
+        "他们曾向我提供一大笔钱让我搬走，但我决定留在这儿。大家都说我肯定是疯",
+        "了， 也许他们说的是对的。"
+      ],
+      "text": "他们曾向我提供一大笔钱让我搬走，但我决定留在这儿。大家都说我肯定是疯了， 也许他们说的是对的。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 39,
+      "end": 42,
+      "before": [
+        "Answer: The writer is slowly going mad. He lives near an airport. Passing",
+        "planes can be heard night and day. Most of his neighbours have left their",
+        "homes. He has been offered money to leave. He is determined to stay.",
+        "Everyone says he must be mad. They are probably right."
+      ],
+      "text": "Answer: The writer is slowly going mad. He lives near an airport. Passing planes can be heard night and day. Most of his neighbours have left their homes. He has been offered money to leave. He is determined to stay. Everyone says he must be mad. They are probably right.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 108,
+      "end": 110,
+      "before": [
+        "英语中的大多数含有及物动词的主动句都可以转变成被动句，这些主动句包括",
+        "单宾语主动句、双宾语主动句、复合宾语主动句、短语动词主动句、介词短语",
+        "主动句和成语动词主动句。"
+      ],
+      "text": "英语中的大多数含有及物动词的主动句都可以转变成被动句，这些主动句包括单宾语主动句、双宾语主动句、复合宾语主动句、短语动词主动句、介词短语主动句和成语动词主动句。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 156,
+      "end": 157,
+      "before": [
+        "• The workers had completed the high-rise building by the end of last",
+        "November."
+      ],
+      "text": "• The workers had completed the high-rise building by the end of last November.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 166,
+      "end": 167,
+      "before": [
+        "• By the end of this month, we surely shall have found a satisfactory",
+        "solution to the problem."
+      ],
+      "text": "• By the end of this month, we surely shall have found a satisfactory solution to the problem.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 169,
+      "end": 170,
+      "before": [
+        "A satisfactory solution to the problem surely will have been found by the",
+        "end of this month."
+      ],
+      "text": "A satisfactory solution to the problem surely will have been found by the end of this month.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 173,
+      "end": 174,
+      "before": [
+        "• They told me that they would have completed the giant project by the",
+        "end of the year."
+      ],
+      "text": "• They told me that they would have completed the giant project by the end of the year.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 176,
+      "end": 177,
+      "before": [
+        "I was told that the giant project would have been completed by the end",
+        "of the year."
+      ],
+      "text": "I was told that the giant project would have been completed by the end of the year.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 179,
+      "end": 180,
+      "before": [
+        "注：其他进行时态的被动语态非常罕用，因此诸如现在完成进行时、过去完成",
+        "进行时、将来进行时、过去将来进行时等的主动语态"
+      ],
+      "text": "注：其他进行时态的被动语态非常罕用，因此诸如现在完成进行时、过去完成进行时、将来进行时、过去将来进行时等的主动语态",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    }
+  ],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/74518faab54762adfcd50daa3c4612594fc6f97183b8f97515c4401b002b17cd.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "28c423db227611aaeee00a850c7a13b34018ddf30121c39bc2b00d2e8f4a79a6"
+    }
+  ]
+}

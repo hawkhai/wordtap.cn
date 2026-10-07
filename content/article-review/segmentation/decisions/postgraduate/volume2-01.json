@@ -1,0 +1,32 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "bb814de7f22b49245a9833ff64266becf94f806ed1588385a177098e9809361b",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "完整通读title及原始blocks[0..36]，含正文、译文、标题及引语；text与全块连接一致。内存应用明确操作并validate_layout_change后复核修复全文blocks[0..35]。",
+  "notes": "从灾难与幸福的悖论、Tracy Cyr经历、创伤后成长到耐力运动和育儿均逐段通读。合并中文引语内“自我形象、/对事物的看法”被截开的同一列举句，其余多句自然段保留。 内容旁注（不属本轮句段验收）：blocks[3,11,13,15,17,22,32]可见姓名或词间异常问号，blocks[11]夹入博客来源语；blocks[12]的fqr、blocks[19]的l felt、blocks[30]缺闭引号、blocks[36]的重复点等需非空白文字确认，本次不猜测删除或替换。",
+  "issues": [],
+  "mergeBlocks": [
+    {
+      "start": 17,
+      "end": 18,
+      "before": [
+        "然而，在经历了若干个不眠之夜后，她想自杀的念头开始被新的感激之情所打断。 虽然她仍然感到痛苦，但一种新的意识每一夜都变得更加强烈:一种令人惊叹的解脱感，结合着一种包容一切的同情和怜悯的情感。 “我感到一切我曾经用来认同?自己身份的东西都被剥夺了，”六个月后她这样说道，“一切我认为我知道或相信的事物—时间、金钱、自我形象、",
+        "对事物的看法—都毫无价值了。 意识到这一点真是让我感到解脱。”"
+      ],
+      "text": "然而，在经历了若干个不眠之夜后，她想自杀的念头开始被新的感激之情所打断。 虽然她仍然感到痛苦，但一种新的意识每一夜都变得更加强烈:一种令人惊叹的解脱感，结合着一种包容一切的同情和怜悯的情感。 “我感到一切我曾经用来认同?自己身份的东西都被剥夺了，”六个月后她这样说道，“一切我认为我知道或相信的事物—时间、金钱、自我形象、对事物的看法—都毫无价值了。 意识到这一点真是让我感到解脱。”",
+      "reason": "中文译文引语中的枚举“自我形象、对事物的看法”被切断，后块继续同一句和同一引语。"
+    }
+  ],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/da2926fa6af2d12cacef2342d5711b8aa938261da5489b4a382f81daf3755c53.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "dbcb81ffb28fbb5e8b1ee0edc570034802be643681efc252a1dc47be3e96a637"
+    }
+  ]
+}

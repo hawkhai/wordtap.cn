@@ -21,75 +21,147 @@
     },
     {
       "type": "paragraph",
-      "text": "——How was the examination?\n你考得怎么样？"
+      "text": "——How was the examination?"
     },
     {
       "type": "paragraph",
-      "text": "——Not too bad. I think I passed in English and Mathematics.\n还不错。我觉得我的英语和数学考试应该都及格了。"
+      "text": "你考得怎么样？"
     },
     {
       "type": "paragraph",
-      "text": "The questions were very easy.\n那些问题都很简单。"
+      "text": "——Not too bad. I think I passed in English and Mathematics."
     },
     {
       "type": "paragraph",
-      "text": "How about you?\n你呢？"
+      "text": "还不错。我觉得我的英语和数学考试应该都及格了。"
     },
     {
       "type": "paragraph",
-      "text": "——The English and Maths papers weren't easy enough for me.\n英语和数学对我来说都不简单。"
+      "text": "The questions were very easy."
     },
     {
       "type": "paragraph",
-      "text": "I hope I haven't failed.\n希望我没有不及格。"
+      "text": "那些问题都很简单。"
     },
     {
       "type": "paragraph",
-      "text": "——I think I failed the French test.\n我觉得我的法语考试应该是没通过。"
+      "text": "How about you?"
     },
     {
       "type": "paragraph",
-      "text": "I could answer sixteen of the questions.\n我只能回答其中的 16 道题。"
+      "text": "你呢？"
     },
     {
       "type": "paragraph",
-      "text": "They were very easy.\n它们很简单。"
+      "text": "——The English and Maths papers weren't easy enough for me."
     },
     {
       "type": "paragraph",
-      "text": "But I couldn't answer the rest.\n但是其他的题目我不会。"
+      "text": "英语和数学对我来说都不简单。"
     },
     {
       "type": "paragraph",
-      "text": "They were too difficult for me.\n对我来说太难了。"
+      "text": "I hope I haven't failed."
     },
     {
       "type": "paragraph",
-      "text": "——French tests are awful, aren't they?\n法语考试太可怕了，对吧？"
+      "text": "希望我没有不及格。"
     },
     {
       "type": "paragraph",
-      "text": "I hate them. I'm sure I've got a low mark.\n我真的很讨厌法语考试，我的分数肯定很低。"
+      "text": "——I think I failed the French test."
     },
     {
       "type": "paragraph",
-      "text": "——Oh, cheer up! Perhaps we didn't do too badly.\n啊，别灰心！也许我们没有那么糟糕呢！"
+      "text": "我觉得我的法语考试应该是没通过。"
     },
     {
       "type": "paragraph",
-      "text": "The guy next to me wrote his name at the top of the paper.\n我旁边的那个人在试卷的最上面写了他的名字。"
+      "text": "I could answer sixteen of the questions."
     },
     {
       "type": "paragraph",
-      "text": "——Yes?\n然后呢？"
+      "text": "我只能回答其中的 16 道题。"
     },
     {
       "type": "paragraph",
-      "text": "——Then he sat there and looked at it for three hours!\n然后他就坐在那里看着自己的名字，坐了 3 个小时！"
+      "text": "They were very easy."
     },
     {
       "type": "paragraph",
-      "text": "He didn't write a word!\n一个字也没写！"
+      "text": "它们很简单。"
+    },
+    {
+      "type": "paragraph",
+      "text": "But I couldn't answer the rest."
+    },
+    {
+      "type": "paragraph",
+      "text": "但是其他的题目我不会。"
+    },
+    {
+      "type": "paragraph",
+      "text": "They were too difficult for me."
+    },
+    {
+      "type": "paragraph",
+      "text": "对我来说太难了。"
+    },
+    {
+      "type": "paragraph",
+      "text": "——French tests are awful, aren't they?"
+    },
+    {
+      "type": "paragraph",
+      "text": "法语考试太可怕了，对吧？"
+    },
+    {
+      "type": "paragraph",
+      "text": "I hate them. I'm sure I've got a low mark."
+    },
+    {
+      "type": "paragraph",
+      "text": "我真的很讨厌法语考试，我的分数肯定很低。"
+    },
+    {
+      "type": "paragraph",
+      "text": "——Oh, cheer up! Perhaps we didn't do too badly."
+    },
+    {
+      "type": "paragraph",
+      "text": "啊，别灰心！也许我们没有那么糟糕呢！"
+    },
+    {
+      "type": "paragraph",
+      "text": "The guy next to me wrote his name at the top of the paper."
+    },
+    {
+      "type": "paragraph",
+      "text": "我旁边的那个人在试卷的最上面写了他的名字。"
+    },
+    {
+      "type": "paragraph",
+      "text": "——Yes?"
+    },
+    {
+      "type": "paragraph",
+      "text": "然后呢？"
+    },
+    {
+      "type": "paragraph",
+      "text": "——Then he sat there and looked at it for three hours!"
+    },
+    {
+      "type": "paragraph",
+      "text": "然后他就坐在那里看着自己的名字，坐了 3 个小时！"
+    },
+    {
+      "type": "paragraph",
+      "text": "He didn't write a word!"
+    },
+    {
+      "type": "paragraph",
+      "text": "一个字也没写！"
     },
     {
       "type": "list",
@@ -261,7 +333,11 @@
     },
     {
       "type": "paragraph",
-      "text": "Yes, it is.\n是的，准备好了。"
+      "text": "Yes, it is."
+    },
+    {
+      "type": "paragraph",
+      "text": "是的，准备好了。"
     },
     {
       "type": "list",
@@ -301,7 +377,11 @@
     },
     {
       "type": "paragraph",
-      "text": "Yes, they are.\n是的，他们很开心。"
+      "text": "Yes, they are."
+    },
+    {
+      "type": "paragraph",
+      "text": "是的，他们很开心。"
     },
     {
       "type": "list",
@@ -317,7 +397,11 @@
     },
     {
       "type": "paragraph",
-      "text": "Yes, he does./No, he doesn't.\n不，他喜欢。/是的，他不喜欢。"
+      "text": "Yes, he does./No, he doesn't."
+    },
+    {
+      "type": "paragraph",
+      "text": "不，他喜欢。/是的，他不喜欢。"
     },
     {
       "type": "heading",

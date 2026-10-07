@@ -1,0 +1,304 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "251ddd3a159114261971a89e591f3114f8c5892f76fdbbc97ce719c1cddae115",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "coverage": "全文 blocks[0..215]；按 JSON 上下文逐项复核对话、解释、题目、表格、词表及修复后的边界。",
+  "notes": "通读哈里森退休故事、全部摘要题和练习、动名词形式及六种语法功能。恢复多句对应单元和动名词列表说明；No smoking等警示语与例句/等号转换均分别保留。语法小标题动词不定式等文字疑误仅备注，不改字。",
+  "issues": [],
+  "mergeBlocks": [
+    {
+      "start": 14,
+      "end": 15,
+      "before": [
+        "My old friend, Harrison, had lived in the Mediterranean for many years before he",
+        "returned to England."
+      ],
+      "text": "My old friend, Harrison, had lived in the Mediterranean for many years before he returned to England.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 17,
+      "end": 18,
+      "before": [
+        "He had often dreamed of retiring in England and had planned to settle down in the",
+        "country."
+      ],
+      "text": "He had often dreamed of retiring in England and had planned to settle down in the country.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 22,
+      "end": 23,
+      "before": [
+        "Almost immediately he began to complain about the weather, for even though it",
+        "was still summer, it rained continually and it was often bitterly cold."
+      ],
+      "text": "Almost immediately he began to complain about the weather, for even though it was still summer, it rained continually and it was often bitterly cold.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 24,
+      "end": 25,
+      "before": [
+        "但紧接着他就开始抱怨那里的天气了。因为即使那时仍为夏季，但雨总是下",
+        "个不停，而且常常冷得厉害。"
+      ],
+      "text": "但紧接着他就开始抱怨那里的天气了。因为即使那时仍为夏季，但雨总是下个不停，而且常常冷得厉害。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 26,
+      "end": 27,
+      "before": [
+        "After so many years of sunshine, Harrison got a shock. He acted as if he had never",
+        "lived in England before."
+      ],
+      "text": "After so many years of sunshine, Harrison got a shock. He acted as if he had never lived in England before.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 28,
+      "end": 29,
+      "before": [
+        "在阳光下生活了那么多年的哈里森对此感到惊奇。他的举动就好像他从未在",
+        "英国生活过一样。"
+      ],
+      "text": "在阳光下生活了那么多年的哈里森对此感到惊奇。他的举动就好像他从未在英国生活过一样。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 30,
+      "end": 31,
+      "before": [
+        "In the end, it was more than he could bear. He had hardly had time to settle down",
+        "when he sold the house and left the country."
+      ],
+      "text": "In the end, it was more than he could bear. He had hardly had time to settle down when he sold the house and left the country.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 33,
+      "end": 34,
+      "before": [
+        "The dream he had had for so many years ended there. Harrison had thought of",
+        "everything except the weather."
+      ],
+      "text": "The dream he had had for so many years ended there. Harrison had thought of everything except the weather.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 35,
+      "end": 36,
+      "before": [
+        "他多年来的幻想从此破灭。哈里森把每件事情都考虑到了，唯独没想到天",
+        "气。"
+      ],
+      "text": "他多年来的幻想从此破灭。哈里森把每件事情都考虑到了，唯独没想到天气。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 39,
+      "end": 40,
+      "before": [
+        "1 Where had the writer's friend, Harrison, spent many years? What did he want to",
+        "do? What did he buy?"
+      ],
+      "text": "1 Where had the writer's friend, Harrison, spent many years? What did he want to do? What did he buy?",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 41,
+      "end": 42,
+      "before": [
+        "2 Was the summer that year very good, or was it very bad? What did he complain",
+        "about? (and)"
+      ],
+      "text": "2 Was the summer that year very good, or was it very bad? What did he complain about? (and)",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 43,
+      "end": 44,
+      "before": [
+        "3 Did Harrison sell the house in the end or not? Did he leave the country or not?",
+        "(Harrison not only... but also)"
+      ],
+      "text": "3 Did Harrison sell the house in the end or not? Did he leave the country or not? (Harrison not only... but also)",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 45,
+      "end": 48,
+      "before": [
+        "Answer: The writer’s friend, Harrison, had spent many years in the",
+        "Mediterranean, but he wanted to retire in England so he bought a house in the",
+        "country. The summer that year was very bad and he complained about the",
+        "weather. In the end Harrison not only sold the house but also left the country."
+      ],
+      "text": "Answer: The writer’s friend, Harrison, had spent many years in the Mediterranean, but he wanted to retire in England so he bought a house in the country. The summer that year was very bad and he complained about the weather. In the end Harrison not only sold the house but also left the country.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 76,
+      "end": 77,
+      "before": [
+        "6 He had hardly had time to settle down ________he sold the house and left the",
+        "country."
+      ],
+      "text": "6 He had hardly had time to settle down ________he sold the house and left the country.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 115,
+      "end": 118,
+      "before": [
+        "动名词由动词原形加-ing构成，与现在分词同形。动名词具有名词的性质，又",
+        "具有动词的某些性质，因此可以带自己的宾语、表语或状语等，在句中作主",
+        "语、宾语、表语、定语、宾语补语等。动名词有一般式和完成式，有主动式和",
+        "被动式，其否定式是在-ing前面加否定词not。"
+      ],
+      "text": "动名词由动词原形加-ing构成，与现在分词同形。动名词具有名词的性质，又具有动词的某些性质，因此可以带自己的宾语、表语或状语等，在句中作主语、宾语、表语、定语、宾语补语等。动名词有一般式和完成式，有主动式和被动式，其否定式是在-ing前面加否定词not。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 124,
+      "end": 125,
+      "before": [
+        "(2)用it作形式主语,把动名词(实际主语)置于句尾作后置主语,常见于“It is no",
+        "good/no use/useless/fun/hard work/worthwhile/dangerous”的句型中"
+      ],
+      "text": "(2)用it作形式主语,把动名词(实际主语)置于句尾作后置主语,常见于“It is no good/no use/useless/fun/hard work/worthwhile/dangerous”的句型中",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 141,
+      "end": 142,
+      "before": [
+        "(5)当动名词有自己的逻辑主语时，常可以在前面加上一个名词所有格或物主代",
+        "词，构成动名词复合结构，可以在句中作主语"
+      ],
+      "text": "(5)当动名词有自己的逻辑主语时，常可以在前面加上一个名词所有格或物主代词，构成动名词复合结构，可以在句中作主语",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 147,
+      "end": 153,
+      "before": [
+        "abandon(放弃), acknowledge(承认), admit(to)(承认), advise, anticipate(预期,期待),",
+        "appreciate(感激;欣赏) avoid, confess(to)(承认), consider, delay(耽搁),deny(否认),",
+        "discuss, dislike, enjoy, escape, excuse, face, facilitate(使容易), fancy(想象), favor,",
+        "finish, forbid( 禁 止 ), forgive( 原 谅, 宽 恕 ),can’t help( 不 禁, 情 不 自 禁 ), imagine,",
+        "involve(包括),mind, miss, pardon, permit(允许), postpone(推迟), practice, prevent,",
+        "quit(放弃;停止),recall, recollect(o忆,回想), recommend, report, resent(怨恨), resist,",
+        "resume(重新开始),risk, suggest, tolerate(忍), understand等"
+      ],
+      "text": "abandon(放弃), acknowledge(承认), admit(to)(承认), advise, anticipate(预期,期待), appreciate(感激;欣赏) avoid, confess(to)(承认), consider, delay(耽搁),deny(否认), discuss, dislike, enjoy, escape, excuse, face, facilitate(使容易), fancy(想象), favor, finish, forbid( 禁 止 ), forgive( 原 谅, 宽 恕 ),can’t help( 不 禁, 情 不 自 禁 ), imagine, involve(包括),mind, miss, pardon, permit(允许), postpone(推迟), practice, prevent, quit(放弃;停止),recall, recollect(o忆,回想), recommend, report, resent(怨恨), resist, resume(重新开始),risk, suggest, tolerate(忍), understand等",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 160,
+      "end": 161,
+      "before": [
+        "(2)在上述动词中, forgive, pardon, tolerate, understand等表示“忍受、理解、原",
+        "谅”意义的动词后面必须跟动名词的复合结构"
+      ],
+      "text": "(2)在上述动词中, forgive, pardon, tolerate, understand等表示“忍受、理解、原谅”意义的动词后面必须跟动名词的复合结构",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 167,
+      "end": 169,
+      "before": [
+        "(3)注意两个近义结构:can’t help doing sth., can’t help but do sth.前者作“情不自",
+        "禁”解，必须跟动名词,后者如前所述, 作“不得不,不能不,不免”解,必须接不带",
+        "to的不定式"
+      ],
+      "text": "(3)注意两个近义结构:can’t help doing sth., can’t help but do sth.前者作“情不自禁”解，必须跟动名词,后者如前所述, 作“不得不,不能不,不免”解,必须接不带 to的不定式",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 173,
+      "end": 174,
+      "before": [
+        "(4)在某些含有介词的短语动词中，如 look forward to, get used to, accustomed",
+        "to(习惯于)等，接动名词作宾语"
+      ],
+      "text": "(4)在某些含有介词的短语动词中，如 look forward to, get used to, accustomed to(习惯于)等，接动名词作宾语",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 183,
+      "end": 185,
+      "before": [
+        "(6)动名词前的介词有时可以省略,如: have difficulty(in) doing, have no trouble",
+        "(in)doing, lose no time (in)doing, prevent/stop...( from)doing, there is no use(in)",
+        "doing, to spend time(in)doing等"
+      ],
+      "text": "(6)动名词前的介词有时可以省略,如: have difficulty(in) doing, have no trouble (in)doing, lose no time (in)doing, prevent/stop...( from)doing, there is no use(in) doing, to spend time(in)doing等",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 192,
+      "end": 194,
+      "before": [
+        "3. 作定语: 动名词作定语是表示它修饰的名词的用途、性质及场合,它和所修饰",
+        "的名词在逻辑上没有主谓关系；现在分词作定语时,表示它所修饰的名词的动作",
+        "或行为和它所修饰的名词在逻辑上有主谓关系(可以扩展为定语从句)"
+      ],
+      "text": "3. 作定语: 动名词作定语是表示它修饰的名词的用途、性质及场合,它和所修饰的名词在逻辑上没有主谓关系；现在分词作定语时,表示它所修饰的名词的动作或行为和它所修饰的名词在逻辑上有主谓关系(可以扩展为定语从句)",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 195,
+      "end": 196,
+      "before": [
+        "• a sleeping car = a car used for sleeping一节卧车( sleeping此处为动名词，表示",
+        "用途，a car和sleeping之间不存在逻辑上的主谓关系)"
+      ],
+      "text": "• a sleeping car = a car used for sleeping一节卧车( sleeping此处为动名词，表示用途，a car和sleeping之间不存在逻辑上的主谓关系)",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 197,
+      "end": 198,
+      "before": [
+        "• a sleeping child= a child who is sleeping一个睡着的孩子(sleeping此处为现在",
+        "分词, child和sleeping之间存在逻辑上的主谓关系)"
+      ],
+      "text": "• a sleeping child= a child who is sleeping一个睡着的孩子(sleeping此处为现在分词, child和sleeping之间存在逻辑上的主谓关系)",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 200,
+      "end": 201,
+      "before": [
+        "• a washing machine =a machine for washing= a machine which is used for",
+        "washing 洗衣机"
+      ],
+      "text": "• a washing machine =a machine for washing= a machine which is used for washing 洗衣机",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 204,
+      "end": 206,
+      "before": [
+        "4. 作表语: 动名词作表语往往表示一种概念、习惯或经验，或说明主语的内容",
+        "作表语的动名词与主语指的是同一件事，这时系动词意为“是”，通常主语和",
+        "表语的位置可以互换，但语法和意思不变"
+      ],
+      "text": "4. 作表语: 动名词作表语往往表示一种概念、习惯或经验，或说明主语的内容作表语的动名词与主语指的是同一件事，这时系动词意为“是”，通常主语和表语的位置可以互换，但语法和意思不变",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    }
+  ],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/e9b08dcf405560b7a28b689cbf2586e888c8ef3e8ea905318b2847345d6a6c57.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "6f9396bd0eb2efd26d48b524326ad35410c483f08139f839b83fbf0b890e7221"
+    }
+  ]
+}

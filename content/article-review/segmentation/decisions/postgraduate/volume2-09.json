@@ -1,0 +1,39 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "f719defa44bc3cc62ca0973c011dcd04ca9a8507a5489a2ff5d4d24cac383fa3",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "完整通读title及原始blocks[0..32]，含正文、译文、标题及引语；text与全块连接一致。内存应用明确操作并validate_layout_change后复核修复全文blocks[0..33]。",
+  "notes": "33块全文从911媒体转向、媒体经济与情绪吸引到媒体集中和平民化；拆开第5块中文译文后粘连的第4英文段，完整保留前后中英配对。 内容旁注（不属本轮句段验收）：blocks[1,8,24]的9“11、blocks[11]tolerate of、blocks[28]开头多余点等需要非空白字符确认；拆分时保留blocks[5]已有4.段号。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [
+    {
+      "index": 5,
+      "before": [
+        "大众传媒和交通运输在过去 50 年里迅猛发展，把世界真真切切地变成了一个地球村，一 个大众社会。 如今，任何地方发生的事件都会迅速地传播到世界的每一个角落。 大众传媒不 仅用铺天盖地的信息将我们淹没，也帮助我们对这些信息加以分类整理。 4. Mass media seek a broad audience for a typically narrow (and often biased) message that's typically embedded in entertainment or useful information/opinion. Mass media communication is expensive, so it's funded through participant admissions/subscriptions and contributions, or through sponsorships and advertising (or a combination of these funding sources). It thus must provide something sufficiently valuable to its potential audience to gain that necessary financial support."
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "大众传媒和交通运输在过去 50 年里迅猛发展，把世界真真切切地变成了一个地球村，一 个大众社会。 如今，任何地方发生的事件都会迅速地传播到世界的每一个角落。 大众传媒不 仅用铺天盖地的信息将我们淹没，也帮助我们对这些信息加以分类整理。"
+        },
+        {
+          "type": "paragraph",
+          "text": "4. Mass media seek a broad audience for a typically narrow (and often biased) message that's typically embedded in entertainment or useful information/opinion. Mass media communication is expensive, so it's funded through participant admissions/subscriptions and contributions, or through sponsorships and advertising (or a combination of these funding sources). It thus must provide something sufficiently valuable to its potential audience to gain that necessary financial support."
+        }
+      ],
+      "reason": "原块粘连了相邻的中英正文/译文或下一对话轮次，按现有完整句及语言转换分块，保留所有字词与先后顺序。"
+    }
+  ],
+  "sources": [
+    {
+      "path": "content/article-review/history/e4a237b3878a36405e91068103bca634ab372585d4dbdf066826eb09243bc6e6.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "c0e034939f7868916181c8f00ffd01bbffcdd643c6697945c7a0f325adb168c3"
+    }
+  ]
+}

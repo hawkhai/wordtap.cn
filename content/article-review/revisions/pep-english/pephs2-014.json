@@ -2,12 +2,12 @@
   "schemaVersion": 1,
   "course": "pep-english",
   "articleId": "pephs2-014",
-  "beforeDisplaySha256": "c6eaf4d9db426beff59904c922a62001d43a30b181649acf574272b0f6c433c7",
+  "beforeDisplaySha256": "1b2e2a59038974b0e0a42ac4036c1e5d8066289d4e1f84887e4b749574417392",
   "afterDisplaySha256": "1b2e2a59038974b0e0a42ac4036c1e5d8066289d4e1f84887e4b749574417392",
   "baselineDisplay": {
     "title": "First Aid for Burns",
     "section": "Reading and Thinking",
-    "text": "The skin is an essential part of your body and is its largest organ. Your skin acts as a barrier against disease, toxins, and the sun’s rays. It also helps control your body temperature, prevents your body from losing too much water, warns you when things are too hot or cold, and gives you your sense of touch. As you can imagine, getting burnt can lead to very serious injuries. The first and most important step in the treatment of burns is giving first aid.\nCauses of Burns\nYou can get burnt by a variety of things: hot liquids, steam, fire, radiation, the sun, electricity, acids, or other chemicals.\nTypes of Burns\nBurns are divided into three types, depending on the depth of skin damage.\nFirst-degree burns: These affect only the epidermis, the outer layer of the skin. Small superficial burns are usually minor. Examples include mild sunburn and burns caused by other minor household incidents.\nSecond-degree burns: These affect the epidermis and part of the dermis beneath it. They can be serious. Examples include burns caused by hot liquids.\nThird-degree burns: These destroy the epidermis and dermis and may damage deeper tissues. Examples include burns caused by electric shocks, burning clothes, or petrol fires. These burns require urgent hospital treatment.\nCharacteristics of Burns\nFirst-degree burns: dry, red, and mildly swollen; mildly painful; turn white when pressed.\nSecond-degree burns: red and swollen; blisters; watery surface; extremely painful.\nThird-degree burns: black and white; swollen; the tissue underneath can often be seen; little or no pain if nerves are damaged; may be painful around the edges of the burn.\nFirst-Aid Treatment\n1. Cool the burn under cool running water for 20 minutes as soon as possible.\n2. Remove nearby clothing and jewellery, but leave anything stuck to the burn in place.\n3. Do not burst blisters or apply creams, oils, or butter.\n4. After cooling, lay cling film loosely over the burn. Do not wrap it around the injured area or use sticky dressings.\n5. Burns on the face or breathing difficulties require emergency medical help. Call the local emergency number.\n6. Seek emergency care for large or deep burns and all chemical or electrical burns. Get medical advice if you are unsure how serious a burn is.",
+    "text": "The skin is an essential part of your body and is its largest organ. Your skin acts as a barrier against disease, toxins, and the sun’s rays. It also helps control your body temperature, prevents your body from losing too much water, warns you when things are too hot or cold, and gives you your sense of touch. As you can imagine, getting burnt can lead to very serious injuries. The first and most important step in the treatment of burns is giving first aid.\nYou can get burnt by a variety of things: hot liquids, steam, fire, radiation, the sun, electricity, acids, or other chemicals.\nBurns are divided into three types, depending on the depth of skin damage.\nFirst-degree burns: These affect only the top few millimetres of the skin. These burns are not serious. Examples include mild sunburn and burns caused by other minor household incidents.\nSecond-degree burns: These go below the top layer of the skin. They are serious and take a few weeks to get better. Examples include burns caused by hot liquids.\nThird-degree burns: These affect every layer of the skin, and sometimes the tissue under it. Examples include burns caused by electric shocks, burning clothes, or petrol fires. These burns cause very severe internal injuries and the victim must go to the hospital at once.\nFirst-degree burns: dry, red, and mildly swollen; mildly painful; turn white when pressed.\nSecond-degree burns: red and swollen; blisters; watery surface; extremely painful.\nThird-degree burns: black and white; swollen; the tissue underneath can often be seen; little or no pain if nerves are damaged; may be painful around the edges of the burn.\n1. Place burns under cool running water, especially within the first ten minutes. The cool water stops the burning process and reduces the pain and swelling.\n2. Dry the burnt area gently with a clean cloth.\n3. Remove any clothes using scissors if necessary, unless you see the fabric sticking to the burnt skin.\n4. Cover the burnt area with a loose clean cloth. Applying oil to the injured areas is a bad idea, as it will keep the heat in the wounds and may cause infection.\n5. If burns are on the face, make sure the victim can still breathe.\n6. If the victim is suffering from second or third-degree burns, there is an urgent need to take him/her to the hospital at once.",
     "blocks": [
       {
         "type": "paragraph",
@@ -15,19 +15,9 @@
         "text": "The skin is an essential part of your body and is its largest organ. Your skin acts as a barrier against disease, toxins, and the sun’s rays. It also helps control your body temperature, prevents your body from losing too much water, warns you when things are too hot or cold, and gives you your sense of touch. As you can imagine, getting burnt can lead to very serious injuries. The first and most important step in the treatment of burns is giving first aid."
       },
       {
-        "type": "subheading",
-        "lang": "en",
-        "text": "Causes of Burns"
-      },
-      {
         "type": "paragraph",
         "lang": "en",
         "text": "You can get burnt by a variety of things: hot liquids, steam, fire, radiation, the sun, electricity, acids, or other chemicals."
-      },
-      {
-        "type": "subheading",
-        "lang": "en",
-        "text": "Types of Burns"
       },
       {
         "type": "paragraph",
@@ -37,22 +27,17 @@
       {
         "type": "paragraph",
         "lang": "en",
-        "text": "First-degree burns: These affect only the epidermis, the outer layer of the skin. Small superficial burns are usually minor. Examples include mild sunburn and burns caused by other minor household incidents."
+        "text": "First-degree burns: These affect only the top few millimetres of the skin. These burns are not serious. Examples include mild sunburn and burns caused by other minor household incidents."
       },
       {
         "type": "paragraph",
         "lang": "en",
-        "text": "Second-degree burns: These affect the epidermis and part of the dermis beneath it. They can be serious. Examples include burns caused by hot liquids."
+        "text": "Second-degree burns: These go below the top layer of the skin. They are serious and take a few weeks to get better. Examples include burns caused by hot liquids."
       },
       {
         "type": "paragraph",
         "lang": "en",
-        "text": "Third-degree burns: These destroy the epidermis and dermis and may damage deeper tissues. Examples include burns caused by electric shocks, burning clothes, or petrol fires. These burns require urgent hospital treatment."
-      },
-      {
-        "type": "subheading",
-        "lang": "en",
-        "text": "Characteristics of Burns"
+        "text": "Third-degree burns: These affect every layer of the skin, and sometimes the tissue under it. Examples include burns caused by electric shocks, burning clothes, or petrol fires. These burns cause very severe internal injuries and the victim must go to the hospital at once."
       },
       {
         "type": "paragraph",
@@ -70,39 +55,34 @@
         "text": "Third-degree burns: black and white; swollen; the tissue underneath can often be seen; little or no pain if nerves are damaged; may be painful around the edges of the burn."
       },
       {
-        "type": "subheading",
+        "type": "paragraph",
         "lang": "en",
-        "text": "First-Aid Treatment"
+        "text": "1. Place burns under cool running water, especially within the first ten minutes. The cool water stops the burning process and reduces the pain and swelling."
       },
       {
         "type": "paragraph",
         "lang": "en",
-        "text": "1. Cool the burn under cool running water for 20 minutes as soon as possible."
+        "text": "2. Dry the burnt area gently with a clean cloth."
       },
       {
         "type": "paragraph",
         "lang": "en",
-        "text": "2. Remove nearby clothing and jewellery, but leave anything stuck to the burn in place."
+        "text": "3. Remove any clothes using scissors if necessary, unless you see the fabric sticking to the burnt skin."
       },
       {
         "type": "paragraph",
         "lang": "en",
-        "text": "3. Do not burst blisters or apply creams, oils, or butter."
+        "text": "4. Cover the burnt area with a loose clean cloth. Applying oil to the injured areas is a bad idea, as it will keep the heat in the wounds and may cause infection."
       },
       {
         "type": "paragraph",
         "lang": "en",
-        "text": "4. After cooling, lay cling film loosely over the burn. Do not wrap it around the injured area or use sticky dressings."
+        "text": "5. If burns are on the face, make sure the victim can still breathe."
       },
       {
         "type": "paragraph",
         "lang": "en",
-        "text": "5. Burns on the face or breathing difficulties require emergency medical help. Call the local emergency number."
-      },
-      {
-        "type": "paragraph",
-        "lang": "en",
-        "text": "6. Seek emergency care for large or deep burns and all chemical or electrical burns. Get medical advice if you are unsure how serious a burn is."
+        "text": "6. If the victim is suffering from second or third-degree burns, there is an urgent need to take him/her to the hospital at once."
       }
     ]
   },
@@ -190,56 +170,45 @@
   },
   "sources": [
     {
-      "path": "content/pep-english/raw/senior-selective-2.pdf",
-      "locator": "PDF第57-58页，标题与完整正文逐行核对",
+      "path": "content/article-review/history/891daf0829146ef7087be8b0728d160b6203177221387423aa3160cf27fe6f57.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
       "checked": true,
-      "sha256": "cafaee5fe508dfced31ba02877251ffeb01e98b1a48767fe30b2b7187edb0050"
-    },
-    {
-      "path": "content/pep-english/raw/senior-selective-2/senior-selective-2_57.jpg",
-      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
-      "checked": true,
-      "sha256": "3c8bd5eb3709fe5524039485089448e034ab6cf3bafe2db1d1a1cddf3dbd0b8d"
-    },
-    {
-      "path": "content/pep-english/raw/senior-selective-2/senior-selective-2_58.jpg",
-      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
-      "checked": true,
-      "sha256": "b95a502bf2498a4a9360bbddbb0af6900819e183ddb51391d1de61eec19d07d9"
-    },
-    {
-      "path": "content/article-review/source-evidence/pephs2-014-burns.json",
-      "locator": "NHS current first aid and Johns Hopkins burn classifications, opened and read",
-      "checked": true,
-      "sha256": "fe2153aea49851a7775b02d5dfa3b887329abed482095b581c311690807006be"
-    },
-    {
-      "path": "content/article-review/cleanup-2026-10-06.json",
-      "sha256": "cea27c1c69e32939ff83196bd29cce9a128d8d0d6f248611217179e037971889",
-      "locator": "public/pep-english/lessons/pephs2/014.json",
-      "checked": true
+      "sha256": "08c2f2ac37537b08d4259e6cf2962674a61d1e295648257abbb8f2fb6f96ad34"
     }
   ],
-  "corrections": [
-    {
-      "field": "text",
-      "before": "The skin is an essential part of your body and is its largest organ. Your skin acts as a barrier against disease, toxins, and the sun’s rays. It also helps control your body temperature, prevents your body from losing too much water, warns you when things are too hot or cold, and gives you your sense of touch. As you can imagine, getting burnt can lead to very serious injuries. The first and most important step in the treatment of burns is giving first aid.\nCauses of Burns\nYou can get burnt by a variety of things: hot liquids, steam, fire, radiation, the sun, electricity, acids, or other chemicals.\nTypes of Burns\nBurns are divided into three types, depending on the depth of skin damage.\nFirst-degree burns: These affect only the epidermis, the outer layer of the skin. Small superficial burns are usually minor. Examples include mild sunburn and burns caused by other minor household incidents.\nSecond-degree burns: These affect the epidermis and part of the dermis beneath it. They can be serious. Examples include burns caused by hot liquids.\nThird-degree burns: These destroy the epidermis and dermis and may damage deeper tissues. Examples include burns caused by electric shocks, burning clothes, or petrol fires. These burns require urgent hospital treatment.\nCharacteristics of Burns\nFirst-degree burns: dry, red, and mildly swollen; mildly painful; turn white when pressed.\nSecond-degree burns: red and swollen; blisters; watery surface; extremely painful.\nThird-degree burns: black and white; swollen; the tissue underneath can often be seen; little or no pain if nerves are damaged; may be painful around the edges of the burn.\nFirst-Aid Treatment\n1. Cool the burn under cool running water for 20 minutes as soon as possible.\n2. Remove nearby clothing and jewellery, but leave anything stuck to the burn in place.\n3. Do not burst blisters or apply creams, oils, or butter.\n4. After cooling, lay cling film loosely over the burn. Do not wrap it around the injured area or use sticky dressings.\n5. Burns on the face or breathing difficulties require emergency medical help. Call the local emergency number.\n6. Seek emergency care for large or deep burns and all chemical or electrical burns. Get medical advice if you are unsure how serious a burn is.",
-      "after": "The skin is an essential part of your body and is its largest organ. Your skin acts as a barrier against disease, toxins, and the sun’s rays. It also helps control your body temperature, prevents your body from losing too much water, warns you when things are too hot or cold, and gives you your sense of touch. As you can imagine, getting burnt can lead to very serious injuries. The first and most important step in the treatment of burns is giving first aid.\nYou can get burnt by a variety of things: hot liquids, steam, fire, radiation, the sun, electricity, acids, or other chemicals.\nBurns are divided into three types, depending on the depth of skin damage.\nFirst-degree burns: These affect only the top few millimetres of the skin. These burns are not serious. Examples include mild sunburn and burns caused by other minor household incidents.\nSecond-degree burns: These go below the top layer of the skin. They are serious and take a few weeks to get better. Examples include burns caused by hot liquids.\nThird-degree burns: These affect every layer of the skin, and sometimes the tissue under it. Examples include burns caused by electric shocks, burning clothes, or petrol fires. These burns cause very severe internal injuries and the victim must go to the hospital at once.\nFirst-degree burns: dry, red, and mildly swollen; mildly painful; turn white when pressed.\nSecond-degree burns: red and swollen; blisters; watery surface; extremely painful.\nThird-degree burns: black and white; swollen; the tissue underneath can often be seen; little or no pain if nerves are damaged; may be painful around the edges of the burn.\n1. Place burns under cool running water, especially within the first ten minutes. The cool water stops the burning process and reduces the pain and swelling.\n2. Dry the burnt area gently with a clean cloth.\n3. Remove any clothes using scissors if necessary, unless you see the fabric sticking to the burnt skin.\n4. Cover the burnt area with a loose clean cloth. Applying oil to the injured areas is a bad idea, as it will keep the heat in the wounds and may cause infection.\n5. If burns are on the face, make sure the victim can still breathe.\n6. If the victim is suffering from second or third-degree burns, there is an urgent need to take him/her to the hospital at once.",
-      "evidence": "User-directed source-fidelity restoration; content/article-review/cleanup-2026-10-06.json"
-    }
-  ],
-  "fullReadConfirmed": false,
-  "recheckConfirmed": false,
-  "reviewMode": "source-fidelity-rules-v1",
-  "reviewer": "Codex (user-directed restoration)",
-  "reviewedAt": "2026-10-05T17:15:10+00:00",
-  "notes": "Rule-based restoration; original full-read review remains historical. content/article-review/cleanup-2026-10-06.json",
+  "corrections": [],
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "reviewer": "Codex",
+  "reviewedAt": "2026-10-07T07:35:46+00:00",
+  "notes": "烧伤文本皮肤介绍、原因、三级分类及症状、六项编号急救步骤边界清晰，全部独立项目保持。",
   "issues": [],
-  "status": "passed_edited",
-  "previousRevisionSha256": "65276fb117f54102e177f0da91db08326633ee66d9286b8244a9e44457cb2307",
-  "ruleRestoration": {
-    "policy": "source-fidelity-rules-v1",
-    "report": "content/article-review/cleanup-2026-10-06.json",
-    "reportSha256": "cea27c1c69e32939ff83196bd29cce9a128d8d0d6f248611217179e037971889"
-  }
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "e9897c242abc8f65b376a0ba7b2e3bfd2567e214ad5e6a4e3398d8342c531a1f",
+    "afterFileSha256": "e9897c242abc8f65b376a0ba7b2e3bfd2567e214ad5e6a4e3398d8342c531a1f",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "e9897c242abc8f65b376a0ba7b2e3bfd2567e214ad5e6a4e3398d8342c531a1f",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..14] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "烧伤文本皮肤介绍、原因、三级分类及症状、六项编号急救步骤边界清晰，全部独立项目保持。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/891daf0829146ef7087be8b0728d160b6203177221387423aa3160cf27fe6f57.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "08c2f2ac37537b08d4259e6cf2962674a61d1e295648257abbb8f2fb6f96ad34"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "891daf0829146ef7087be8b0728d160b6203177221387423aa3160cf27fe6f57"
 }

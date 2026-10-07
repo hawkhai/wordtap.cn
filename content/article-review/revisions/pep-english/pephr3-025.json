@@ -60,24 +60,45 @@
   },
   "sources": [
     {
-      "path": "content/pep-english/raw/senior-required-3.pdf",
-      "locator": "PDF第89-89页，标题与完整正文逐行核对",
+      "path": "content/article-review/history/ab8a972de4830ddf97ecbc716de09a90420060380117d90686b2e54dde72ea24.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
       "checked": true,
-      "sha256": "fe9c8e15e62f4aec56efc60b8de43f4a55d40f3114d6505affaef78a8b7a1af2"
-    },
-    {
-      "path": "content/pep-english/raw/senior-required-3/senior-required-3_89.jpg",
-      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
-      "checked": true,
-      "sha256": "db30c05d1772c4a4f799c8d3152ea84a96a838be54cca244bd32199502c37c1a"
+      "sha256": "970af7fad7462f9fcde19d4050893ce3b8288ebd802c077bbda57b3294e0de86"
     }
   ],
   "corrections": [],
   "fullReadConfirmed": true,
   "recheckConfirmed": true,
   "reviewer": "Codex",
-  "reviewedAt": "2026-10-02T06:01:51+00:00",
-  "notes": "通读PDF第89页四段Homes on Mars，Hawking/Zubrin观点、地球化设想、夏威夷六人一年实验及2030年前计划与成本比较均转录完整；明确保留教材当时预测和预算估计，未将其当作当前已实现事实。",
+  "reviewedAt": "2026-10-07T07:32:22+00:00",
+  "notes": "火星居住四段分别论观点、环境改造、身心健康、组织计划与费用，保留自然段。",
   "issues": [],
-  "status": "passed_unchanged"
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "a28f814a0427475bd2dbdf0f983247686f278ea57f864fdf1a3b1e09ea30b255",
+    "afterFileSha256": "a28f814a0427475bd2dbdf0f983247686f278ea57f864fdf1a3b1e09ea30b255",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "a28f814a0427475bd2dbdf0f983247686f278ea57f864fdf1a3b1e09ea30b255",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..3] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "火星居住四段分别论观点、环境改造、身心健康、组织计划与费用，保留自然段。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/ab8a972de4830ddf97ecbc716de09a90420060380117d90686b2e54dde72ea24.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "970af7fad7462f9fcde19d4050893ce3b8288ebd802c077bbda57b3294e0de86"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "ab8a972de4830ddf97ecbc716de09a90420060380117d90686b2e54dde72ea24"
 }

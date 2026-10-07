@@ -2,17 +2,17 @@
   "schemaVersion": 1,
   "course": "pep-english",
   "articleId": "pephr3-029",
-  "beforeDisplaySha256": "89a892bb107896e90b48faa850e8ab6ccadf8a36e3e5123a5846d55610cebdf2",
+  "beforeDisplaySha256": "8d0486101de72ba0405011f38a4318623450bcfac6442ecf7fac7f0e05c61948",
   "afterDisplaySha256": "8d0486101de72ba0405011f38a4318623450bcfac6442ecf7fac7f0e05c61948",
   "baselineDisplay": {
     "title": "What Is a Quantum Satellite?",
     "section": "Expanding Your World",
-    "text": "On 16 August 2016, China became the first country in the world to launch a quantum communications satellite into space. A quantum communications satellite can use particles of light, called photons, to help share secret keys for encrypting information. Quantum key distribution allows users to detect eavesdropping on the quantum signals.",
+    "text": "On 16 August 2016, China became the first country in the world to launch a quantum communications satellite into space. A quantum satellite is different from other satellites because it links together very small things, called subatomic particles, and uses them to send and receive information. Unlike other information, this information is completely safe from people who may want to steal it. If anyone tries, the link between the subatomic particles changes and the information becomes unreadable.",
     "blocks": [
       {
         "type": "paragraph",
         "lang": "en",
-        "text": "On 16 August 2016, China became the first country in the world to launch a quantum communications satellite into space. A quantum communications satellite can use particles of light, called photons, to help share secret keys for encrypting information. Quantum key distribution allows users to detect eavesdropping on the quantum signals."
+        "text": "On 16 August 2016, China became the first country in the world to launch a quantum communications satellite into space. A quantum satellite is different from other satellites because it links together very small things, called subatomic particles, and uses them to send and receive information. Unlike other information, this information is completely safe from people who may want to steal it. If anyone tries, the link between the subatomic particles changes and the information becomes unreadable."
       }
     ]
   },
@@ -30,50 +30,45 @@
   },
   "sources": [
     {
-      "path": "content/pep-english/raw/senior-required-3.pdf",
-      "locator": "PDF第91-91页，标题与完整正文逐行核对",
+      "path": "content/article-review/history/8206eabc11896271e9a2430709f7c3acb7f6aea0e2a5afe0c07ed2cdef970931.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
       "checked": true,
-      "sha256": "fe9c8e15e62f4aec56efc60b8de43f4a55d40f3114d6505affaef78a8b7a1af2"
-    },
-    {
-      "path": "content/pep-english/raw/senior-required-3/senior-required-3_91.jpg",
-      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
-      "checked": true,
-      "sha256": "ea8b4d790f5a67b6775f5beb4be2532ed2be3239ea0d3384ed1ee09a462b09a2"
-    },
-    {
-      "path": "content/article-review/source-evidence/pephr3-029-quantum.json",
-      "locator": "原始论文摘要，已打开核实光子、密钥分发及窃听检测",
-      "checked": true,
-      "sha256": "29b86ee742f3f1f687e21029f823dbc740d55c1cc6ce7f8020cef698d199ccb5"
-    },
-    {
-      "path": "content/article-review/cleanup-2026-10-06.json",
-      "sha256": "cea27c1c69e32939ff83196bd29cce9a128d8d0d6f248611217179e037971889",
-      "locator": "public/pep-english/lessons/pephr3/029.json",
-      "checked": true
+      "sha256": "fb1e3248abe8466deb04e3306bce78a12139b9f2cf628c03bb286d9f909ec385"
     }
   ],
-  "corrections": [
-    {
-      "field": "text",
-      "before": "On 16 August 2016, China became the first country in the world to launch a quantum communications satellite into space. A quantum communications satellite can use particles of light, called photons, to help share secret keys for encrypting information. Quantum key distribution allows users to detect eavesdropping on the quantum signals.",
-      "after": "On 16 August 2016, China became the first country in the world to launch a quantum communications satellite into space. A quantum satellite is different from other satellites because it links together very small things, called subatomic particles, and uses them to send and receive information. Unlike other information, this information is completely safe from people who may want to steal it. If anyone tries, the link between the subatomic particles changes and the information becomes unreadable.",
-      "evidence": "User-directed source-fidelity restoration; content/article-review/cleanup-2026-10-06.json"
-    }
-  ],
-  "fullReadConfirmed": false,
-  "recheckConfirmed": false,
-  "reviewMode": "source-fidelity-rules-v1",
-  "reviewer": "Codex (user-directed restoration)",
-  "reviewedAt": "2026-10-05T17:15:10+00:00",
-  "notes": "Rule-based restoration; original full-read review remains historical. content/article-review/cleanup-2026-10-06.json",
+  "corrections": [],
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "reviewer": "Codex",
+  "reviewedAt": "2026-10-07T07:32:22+00:00",
+  "notes": "量子卫星发射、粒子关联通信和安全性组成完整短说明，保留原文无事实改写。",
   "issues": [],
-  "status": "passed_edited",
-  "previousRevisionSha256": "9f7b6e3ee7df2bf4fe611c41491486c31c1c5ecd3ae283f4d36a2247ae690fac",
-  "ruleRestoration": {
-    "policy": "source-fidelity-rules-v1",
-    "report": "content/article-review/cleanup-2026-10-06.json",
-    "reportSha256": "cea27c1c69e32939ff83196bd29cce9a128d8d0d6f248611217179e037971889"
-  }
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "26c22732abbc192aa8cfb64e58031aa011c9da9991409b32987bb24a1a23eb28",
+    "afterFileSha256": "26c22732abbc192aa8cfb64e58031aa011c9da9991409b32987bb24a1a23eb28",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "26c22732abbc192aa8cfb64e58031aa011c9da9991409b32987bb24a1a23eb28",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..0] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "量子卫星发射、粒子关联通信和安全性组成完整短说明，保留原文无事实改写。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/8206eabc11896271e9a2430709f7c3acb7f6aea0e2a5afe0c07ed2cdef970931.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "fb1e3248abe8466deb04e3306bce78a12139b9f2cf628c03bb286d9f909ec385"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "8206eabc11896271e9a2430709f7c3acb7f6aea0e2a5afe0c07ed2cdef970931"
 }

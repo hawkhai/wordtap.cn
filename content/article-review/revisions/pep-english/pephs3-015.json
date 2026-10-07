@@ -2,17 +2,22 @@
   "schemaVersion": 1,
   "course": "pep-english",
   "articleId": "pephs3-015",
-  "beforeDisplaySha256": "6b7d376dc1390ef7e96252ed9c911d963574d1107e964da2b8f85a474c65d56e",
+  "beforeDisplaySha256": "4818a1bbdda9e8353a8c2f4e218686a2712d8b6acc918d550fdbd92a70478d90",
   "afterDisplaySha256": "4818a1bbdda9e8353a8c2f4e218686a2712d8b6acc918d550fdbd92a70478d90",
   "baselineDisplay": {
     "title": "Dream (Langston Hughes)",
     "section": "Using Language",
-    "text": "Hold fast to dreams, For if dreams die Life is a broken-winged bird That cannot fly.\nHold fast to dreams, For when dreams go Life is a barren field Frozen with snow.",
+    "text": "Hold fast to dreams,\nFor if dreams die\nLife is a broken-winged bird\nThat cannot fly.\nHold fast to dreams,\nFor when dreams go\nLife is a barren field\nFrozen with snow.",
     "blocks": [
       {
         "type": "paragraph",
         "lang": "en",
-        "text": "Hold fast to dreams, For if dreams die Life is a broken-winged bird That cannot fly.\nHold fast to dreams, For when dreams go Life is a barren field Frozen with snow."
+        "text": "Hold fast to dreams,\nFor if dreams die\nLife is a broken-winged bird\nThat cannot fly."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Hold fast to dreams,\nFor when dreams go\nLife is a barren field\nFrozen with snow."
       }
     ]
   },
@@ -35,24 +40,45 @@
   },
   "sources": [
     {
-      "path": "content/pep-english/raw/senior-selective-3.pdf",
-      "locator": "PDF第63-63页，标题与完整正文逐行核对",
+      "path": "content/article-review/history/d6c2d50de387fb39a0f91d0fb2e36582e3aba19dbb4fcdffe36bf45c4a769b56.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
       "checked": true,
-      "sha256": "ed8eb9e5988b44a1ff4f8bc11ed3cfae406decefae7982477362720788e1998b"
-    },
-    {
-      "path": "content/pep-english/raw/senior-selective-3/senior-selective-3_63.jpg",
-      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
-      "checked": true,
-      "sha256": "543f414c94eb5364888bedf0ea394161c8d276d596cab3883f12a5d4e450e630"
+      "sha256": "6eff95ef23edd04b6e4f2900da61c1918eb67a1491acd2a66c1c1f1d10215d69"
     }
   ],
   "corrections": [],
   "fullReadConfirmed": true,
   "recheckConfirmed": true,
   "reviewer": "Codex",
-  "reviewedAt": "2026-10-02T07:11:17+00:00",
-  "notes": "核对PDF第63页左下Hughes诗，恢复两节各四行，保留教材题名Dream及正文broken-winged连字符，作者在标题中。",
+  "reviewedAt": "2026-10-07T07:35:51+00:00",
+  "notes": "Dream两节各四行并列重复Hold fast to dreams，保留鸟与荒田两组意象诗节。",
   "issues": [],
-  "status": "passed_edited"
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "c7b07df92e6bc6bf3989cee525a6aa35fe04be9dc7e90885b6157cbabb77f09f",
+    "afterFileSha256": "c7b07df92e6bc6bf3989cee525a6aa35fe04be9dc7e90885b6157cbabb77f09f",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "c7b07df92e6bc6bf3989cee525a6aa35fe04be9dc7e90885b6157cbabb77f09f",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..1] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "Dream两节各四行并列重复Hold fast to dreams，保留鸟与荒田两组意象诗节。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/d6c2d50de387fb39a0f91d0fb2e36582e3aba19dbb4fcdffe36bf45c4a769b56.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "6eff95ef23edd04b6e4f2900da61c1918eb67a1491acd2a66c1c1f1d10215d69"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "d6c2d50de387fb39a0f91d0fb2e36582e3aba19dbb4fcdffe36bf45c4a769b56"
 }

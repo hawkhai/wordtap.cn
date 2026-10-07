@@ -2,12 +2,12 @@
   "schemaVersion": 1,
   "course": "pep-english",
   "articleId": "pephs4-027",
-  "beforeDisplaySha256": "71e889af4e8e7adc597ef5cbfb9bf144e94947f5ec948f82919491a1cd5dcb47",
+  "beforeDisplaySha256": "ffab3533ca8b871fbe5d2769f550fad3b2c45d8e103d67c1084d46e3138a6aa4",
   "afterDisplaySha256": "ffab3533ca8b871fbe5d2769f550fad3b2c45d8e103d67c1084d46e3138a6aa4",
   "baselineDisplay": {
     "title": "What’s Cooking in Australia?",
     "section": "Reading and Writing",
-    "text": "To fully appreciate Australian cuisine, you have to consider the unique nature of its wildlife and geography. For one thing, there are the wide plains in the interior of the country, which are home to millions of grazing animals. For another, there is Australia’s long coastline, which is next to all the riches of the sea. It is no wonder then that much of Australian cuisine centres around red meat and seafood.\nOne distinctive red meat eaten in Australia comes from a native animal: the kangaroo. This may seem strange as the kangaroo is a national symbol of Australia. In 2016, surveyed commercial-harvest areas in four Australian states held an estimated 47.2 million kangaroos; this was not a count of the entire national population. These kangaroos wander onto the roads and into cities, making trouble. Their increased numbers have also harmed plants and other wildlife. Commercial harvesting is permitted under state management plans, and kangaroo meat is sold for human consumption as well as pet food.\nAs for seafood, many of the first Europeans who came to Australia loved the sea. Perhaps this is one reason why so many Australians live near the coast. Since the coastline is so long, each region has its own dishes that are related to the seafood found in its waters. The list of seafood available at the local fish market is like a tour of the coast: salmon, prawns, oysters, tuna, shark, crab, and many more. However, if you want to really take in the full experience, you should go to the fish market in Sydney early in the morning and see the fish being prepared for sale. Better yet, you can sign up to go deep-sea fishing.\nBut then, how is all this food cooked? Perhaps the favourite way of cooking food in Australia is the barbecue, or “barbie”. Given the fine weather, Australians love to eat outside. Casual friendliness is the key to such meals. It is a time for friends and relatives to get together and have fun. Even strangers passing through will be offered a seat, a cold drink, and something off the grill. Often these barbecues feature a “mixed grill”, which means cooking all kinds of meat, seafood, and vegetables. So, at an Australian barbecue, you don’t have to eat kangaroo—or even eat meat at all—if you don’t want to.\nBeyond this, what is Australian cooking? As Australia is a diverse country with people from many nations, Australian cooking now has flavours and cuisines from around the globe. No matter who you are and no matter what cuisine interests you, you are always sure to find a warm welcome and a full plate waiting for you in Australia.",
+    "text": "To fully appreciate Australian cuisine, you have to consider the unique nature of its wildlife and geography. For one thing, there are the wide plains in the interior of the country, which are home to millions of grazing animals. For another, there is Australia’s long coastline, which is next to all the riches of the sea. It is no wonder then that much of Australian cuisine centres around red meat and seafood.\nOne of the most popular red meats in Australia is also unique to the continent: kangaroo. This may seem strange as the kangaroo is a national symbol of Australia. However, in recent years, kangaroos have increased in number to around 45 million. These kangaroos wander onto the roads and into cities, making trouble. Their increased numbers have also harmed plants and other wildlife. As a consequence, the government is encouraging people to use these animals as food, and kangaroo has become one of the most popular items on the Australian dinner table.\nAs for seafood, many of the first Europeans who came to Australia loved the sea. Perhaps this is one reason why so many Australians live near the coast. Since the coastline is so long, each region has its own dishes that are related to the seafood found in its waters. The list of seafood available at the local fish market is like a tour of the coast: salmon, prawns, oysters, tuna, shark, crab, and many more. However, if you want to really take in the full experience, you should go to the fish market in Sydney early in the morning and see the fish being prepared for sale. Better yet, you can sign up to go deep-sea fishing.\nBut then, how is all this food cooked? Perhaps the favourite way of cooking food in Australia is the barbecue, or “barbie”. Given the fine weather, Australians love to eat outside. Casual friendliness is the key to such meals. It is a time for friends and relatives to get together and have fun. Even strangers passing through will be offered a seat, a cold drink, and something off the grill. Often these barbecues feature a “mixed grill”, which means cooking all kinds of meat, seafood, and vegetables. So, at an Australian barbecue, you don’t have to eat kangaroo—or even eat meat at all—if you don’t want to.\nBeyond this, what is Australian cooking? As Australia is a diverse country with people from many nations, Australian cooking now has flavours and cuisines from around the globe. No matter who you are and no matter what cuisine interests you, you are always sure to find a warm welcome and a full plate waiting for you in Australia.",
     "blocks": [
       {
         "type": "paragraph",
@@ -17,7 +17,7 @@
       {
         "type": "paragraph",
         "lang": "en",
-        "text": "One distinctive red meat eaten in Australia comes from a native animal: the kangaroo. This may seem strange as the kangaroo is a national symbol of Australia. In 2016, surveyed commercial-harvest areas in four Australian states held an estimated 47.2 million kangaroos; this was not a count of the entire national population. These kangaroos wander onto the roads and into cities, making trouble. Their increased numbers have also harmed plants and other wildlife. Commercial harvesting is permitted under state management plans, and kangaroo meat is sold for human consumption as well as pet food."
+        "text": "One of the most popular red meats in Australia is also unique to the continent: kangaroo. This may seem strange as the kangaroo is a national symbol of Australia. However, in recent years, kangaroos have increased in number to around 45 million. These kangaroos wander onto the roads and into cities, making trouble. Their increased numbers have also harmed plants and other wildlife. As a consequence, the government is encouraging people to use these animals as food, and kangaroo has become one of the most popular items on the Australian dinner table."
       },
       {
         "type": "paragraph",
@@ -70,56 +70,46 @@
   },
   "sources": [
     {
-      "path": "content/pep-english/raw/senior-selective-4.pdf",
-      "locator": "PDF第78-79页，标题与完整正文逐行核对",
+      "path": "content/article-review/history/dfc9c9114d0a8b1162dbd6b96aa0a9aee99d1ff9b76be50fd56fe41afb77e115.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
       "checked": true,
-      "sha256": "2ad7555a13eb420aa70497f9faa2541fdb502b7ffc4e063e87c60cce88f1b4a3"
-    },
-    {
-      "path": "content/pep-english/raw/senior-selective-4/senior-selective-4_78.jpg",
-      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
-      "checked": true,
-      "sha256": "303d6d9613774e304768cd66614eabd9ab66e7681b4eb282526f507b9cfc6867"
-    },
-    {
-      "path": "content/pep-english/raw/senior-selective-4/senior-selective-4_79.jpg",
-      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
-      "checked": true,
-      "sha256": "1483ab95728f3b7e8ac0c5c5ffa608f9da25b331e09b7681e38e7667dd49d6e3"
-    },
-    {
-      "path": "content/article-review/source-evidence/pephs4-027-kangaroo.json",
-      "locator": "DCCEEW历史统计和范围注释、AgriFutures产业说明",
-      "checked": true,
-      "sha256": "df95c82b1b8915ceebaa36d1c2af3694ddef756615b074e6119b6448c6b698a8"
-    },
-    {
-      "path": "content/article-review/cleanup-2026-10-06.json",
-      "sha256": "cea27c1c69e32939ff83196bd29cce9a128d8d0d6f248611217179e037971889",
-      "locator": "public/pep-english/lessons/pephs4/027.json",
-      "checked": true
+      "sha256": "68f6e8d5172f53f5fa47a4ef01666c01a12bc71b569ede62f1fb340ef72b4007"
     }
   ],
-  "corrections": [
-    {
-      "field": "text",
-      "before": "To fully appreciate Australian cuisine, you have to consider the unique nature of its wildlife and geography. For one thing, there are the wide plains in the interior of the country, which are home to millions of grazing animals. For another, there is Australia’s long coastline, which is next to all the riches of the sea. It is no wonder then that much of Australian cuisine centres around red meat and seafood.\nOne distinctive red meat eaten in Australia comes from a native animal: the kangaroo. This may seem strange as the kangaroo is a national symbol of Australia. In 2016, surveyed commercial-harvest areas in four Australian states held an estimated 47.2 million kangaroos; this was not a count of the entire national population. These kangaroos wander onto the roads and into cities, making trouble. Their increased numbers have also harmed plants and other wildlife. Commercial harvesting is permitted under state management plans, and kangaroo meat is sold for human consumption as well as pet food.\nAs for seafood, many of the first Europeans who came to Australia loved the sea. Perhaps this is one reason why so many Australians live near the coast. Since the coastline is so long, each region has its own dishes that are related to the seafood found in its waters. The list of seafood available at the local fish market is like a tour of the coast: salmon, prawns, oysters, tuna, shark, crab, and many more. However, if you want to really take in the full experience, you should go to the fish market in Sydney early in the morning and see the fish being prepared for sale. Better yet, you can sign up to go deep-sea fishing.\nBut then, how is all this food cooked? Perhaps the favourite way of cooking food in Australia is the barbecue, or “barbie”. Given the fine weather, Australians love to eat outside. Casual friendliness is the key to such meals. It is a time for friends and relatives to get together and have fun. Even strangers passing through will be offered a seat, a cold drink, and something off the grill. Often these barbecues feature a “mixed grill”, which means cooking all kinds of meat, seafood, and vegetables. So, at an Australian barbecue, you don’t have to eat kangaroo—or even eat meat at all—if you don’t want to.\nBeyond this, what is Australian cooking? As Australia is a diverse country with people from many nations, Australian cooking now has flavours and cuisines from around the globe. No matter who you are and no matter what cuisine interests you, you are always sure to find a warm welcome and a full plate waiting for you in Australia.",
-      "after": "To fully appreciate Australian cuisine, you have to consider the unique nature of its wildlife and geography. For one thing, there are the wide plains in the interior of the country, which are home to millions of grazing animals. For another, there is Australia’s long coastline, which is next to all the riches of the sea. It is no wonder then that much of Australian cuisine centres around red meat and seafood.\nOne of the most popular red meats in Australia is also unique to the continent: kangaroo. This may seem strange as the kangaroo is a national symbol of Australia. However, in recent years, kangaroos have increased in number to around 45 million. These kangaroos wander onto the roads and into cities, making trouble. Their increased numbers have also harmed plants and other wildlife. As a consequence, the government is encouraging people to use these animals as food, and kangaroo has become one of the most popular items on the Australian dinner table.\nAs for seafood, many of the first Europeans who came to Australia loved the sea. Perhaps this is one reason why so many Australians live near the coast. Since the coastline is so long, each region has its own dishes that are related to the seafood found in its waters. The list of seafood available at the local fish market is like a tour of the coast: salmon, prawns, oysters, tuna, shark, crab, and many more. However, if you want to really take in the full experience, you should go to the fish market in Sydney early in the morning and see the fish being prepared for sale. Better yet, you can sign up to go deep-sea fishing.\nBut then, how is all this food cooked? Perhaps the favourite way of cooking food in Australia is the barbecue, or “barbie”. Given the fine weather, Australians love to eat outside. Casual friendliness is the key to such meals. It is a time for friends and relatives to get together and have fun. Even strangers passing through will be offered a seat, a cold drink, and something off the grill. Often these barbecues feature a “mixed grill”, which means cooking all kinds of meat, seafood, and vegetables. So, at an Australian barbecue, you don’t have to eat kangaroo—or even eat meat at all—if you don’t want to.\nBeyond this, what is Australian cooking? As Australia is a diverse country with people from many nations, Australian cooking now has flavours and cuisines from around the globe. No matter who you are and no matter what cuisine interests you, you are always sure to find a warm welcome and a full plate waiting for you in Australia.",
-      "evidence": "User-directed source-fidelity restoration; content/article-review/cleanup-2026-10-06.json"
-    }
-  ],
-  "fullReadConfirmed": false,
-  "recheckConfirmed": false,
-  "reviewMode": "source-fidelity-rules-v1",
-  "reviewer": "Codex (user-directed restoration)",
-  "reviewedAt": "2026-10-05T17:15:10+00:00",
-  "notes": "Rule-based restoration; original full-read review remains historical. content/article-review/cleanup-2026-10-06.json",
+  "corrections": [],
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "reviewer": "Codex",
+  "reviewedAt": "2026-10-07T07:39:43+00:00",
+  "notes": "澳洲饮食五段为地理、袋鼠肉、海鲜、烧烤、文化多样性，保留各完整介绍段。",
   "issues": [],
-  "status": "passed_edited",
-  "previousRevisionSha256": "b081694cc7ddade26bf75ba745aefe03d46a1e9154d4dde18b736d4b17d960d3",
-  "ruleRestoration": {
-    "policy": "source-fidelity-rules-v1",
-    "report": "content/article-review/cleanup-2026-10-06.json",
-    "reportSha256": "cea27c1c69e32939ff83196bd29cce9a128d8d0d6f248611217179e037971889"
-  }
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "d28eec8c123ae04f2a67a7959e96fc06810bd4c87297f4fae7383f89800adb9b",
+    "afterFileSha256": "d28eec8c123ae04f2a67a7959e96fc06810bd4c87297f4fae7383f89800adb9b",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "d28eec8c123ae04f2a67a7959e96fc06810bd4c87297f4fae7383f89800adb9b",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..4] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "澳洲饮食五段为地理、袋鼠肉、海鲜、烧烤、文化多样性，保留各完整介绍段。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "blockEdits": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/dfc9c9114d0a8b1162dbd6b96aa0a9aee99d1ff9b76be50fd56fe41afb77e115.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "68f6e8d5172f53f5fa47a4ef01666c01a12bc71b569ede62f1fb340ef72b4007"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "dfc9c9114d0a8b1162dbd6b96aa0a9aee99d1ff9b76be50fd56fe41afb77e115"
 }

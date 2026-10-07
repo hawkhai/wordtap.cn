@@ -30,24 +30,45 @@
   },
   "sources": [
     {
-      "path": "content/pep-english/raw/senior-required-3.pdf",
-      "locator": "PDF第91-91页，标题与完整正文逐行核对",
+      "path": "content/article-review/history/70d215297e0e9336caac122a50d4fb24f49dfbfdbbada7b6c058856fda22b0c9.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
       "checked": true,
-      "sha256": "fe9c8e15e62f4aec56efc60b8de43f4a55d40f3114d6505affaef78a8b7a1af2"
-    },
-    {
-      "path": "content/pep-english/raw/senior-required-3/senior-required-3_91.jpg",
-      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
-      "checked": true,
-      "sha256": "ea8b4d790f5a67b6775f5beb4be2532ed2be3239ea0d3384ed1ee09a462b09a2"
+      "sha256": "d34ea28c812cd9332338c35f504573dadbd59226c9a90839a65bc2116b139989"
     }
   ],
   "corrections": [],
   "fullReadConfirmed": true,
   "recheckConfirmed": true,
   "reviewer": "Codex",
-  "reviewedAt": "2026-10-02T06:03:00+00:00",
-  "notes": "核对PDF第91页FAST独立知识框，英文全称、贵州、2016年9月25日和500米口径正确转录；保留搜索地外信号的条件推测，不将其写成已经发现。",
+  "reviewedAt": "2026-10-07T07:32:22+00:00",
+  "notes": "FAST地点、使用时间、口径与科学用途连贯成段，保留现有单段。",
   "issues": [],
-  "status": "passed_unchanged"
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "658fa272654ca172e30d7ae3ce036cb462872bba48e9efee3465561eb5155119",
+    "afterFileSha256": "658fa272654ca172e30d7ae3ce036cb462872bba48e9efee3465561eb5155119",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "658fa272654ca172e30d7ae3ce036cb462872bba48e9efee3465561eb5155119",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..0] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "FAST地点、使用时间、口径与科学用途连贯成段，保留现有单段。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/70d215297e0e9336caac122a50d4fb24f49dfbfdbbada7b6c058856fda22b0c9.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "d34ea28c812cd9332338c35f504573dadbd59226c9a90839a65bc2116b139989"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "70d215297e0e9336caac122a50d4fb24f49dfbfdbbada7b6c058856fda22b0c9"
 }

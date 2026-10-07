@@ -50,24 +50,46 @@
   },
   "sources": [
     {
-      "path": "content/pep-english/raw/junior-7b.pdf",
-      "locator": "PDF第39-39页，标题与完整正文逐行核对",
+      "path": "content/article-review/history/86f897b06221cf1bb46cfd636280f99476bb3b8ef11bcec77cc717edd1afb376.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
       "checked": true,
-      "sha256": "7041d787738bdf5f4f556765acdfe8033ac2f69d03e67ccc62516375f6a46f37"
-    },
-    {
-      "path": "content/pep-english/raw/junior-7b/junior-7b_39.jpg",
-      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
-      "checked": true,
-      "sha256": "550d22e6a1bc823872685ec847e9335f648dc45bb3692d8bdbb84330a3e6f409"
+      "sha256": "36b9266f0d957f3b482fb0a25e4e960d818ecbb7007deac72a5e6a642f45f1fd"
     }
   ],
   "corrections": [],
   "fullReadConfirmed": true,
   "recheckConfirmed": true,
   "reviewer": "Codex",
-  "reviewedAt": "2026-10-02T04:46:41+00:00",
-  "notes": "PDF39页印刷29页完整三段逐行双轮核对，象旗、记忆、森林与象牙及保护倡议无遗漏。3000/100000与March13th均照教材原数保留，本文旧统计不作为当前数量更新；an elephant never forgets引号准确，标题采用原页最佳标题选项。段落与绕图续接正确，无修改。",
+  "reviewedAt": "2026-10-07T07:39:47+00:00",
+  "notes": "保护大象三段为泰国象征、能力、威胁和行动，保留完整自然段。",
   "issues": [],
-  "status": "passed_unchanged"
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "1fdf3736e49e07b7b5a7b4f3c9b499357ed8ba31fdd93028282b952bdff6dbfc",
+    "afterFileSha256": "1fdf3736e49e07b7b5a7b4f3c9b499357ed8ba31fdd93028282b952bdff6dbfc",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "1fdf3736e49e07b7b5a7b4f3c9b499357ed8ba31fdd93028282b952bdff6dbfc",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..2] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "保护大象三段为泰国象征、能力、威胁和行动，保留完整自然段。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "blockEdits": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/86f897b06221cf1bb46cfd636280f99476bb3b8ef11bcec77cc717edd1afb376.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "36b9266f0d957f3b482fb0a25e4e960d818ecbb7007deac72a5e6a642f45f1fd"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "86f897b06221cf1bb46cfd636280f99476bb3b8ef11bcec77cc717edd1afb376"
 }

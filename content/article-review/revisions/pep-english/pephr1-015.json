@@ -50,24 +50,45 @@
   },
   "sources": [
     {
-      "path": "content/pep-english/raw/senior-required-1.pdf",
-      "locator": "PDF第49-49页，标题与完整正文逐行核对",
+      "path": "content/article-review/history/f41afed424a644ded6b6c44cc3d25c18bdba774785e4b89a1fce1d38a83f93f4.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
       "checked": true,
-      "sha256": "ffe985a370964820aa003008f48c7cf17b5e0dff8eb29fe54cd4743b0c4e8c79"
-    },
-    {
-      "path": "content/pep-english/raw/senior-required-1/senior-required-1_49.jpg",
-      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
-      "checked": true,
-      "sha256": "bf206efddff847041647bce887e7d4875b947393429921f4aba0ef0cbae17495"
+      "sha256": "dbd78a9296249b5cbef331b7951d9ca026dc6bc906af4c442227e51650db112c"
     }
   ],
   "corrections": [],
   "fullReadConfirmed": true,
   "recheckConfirmed": true,
   "reviewer": "Codex",
-  "reviewedAt": "2026-10-02T05:24:22+00:00",
-  "notes": "PDF第49页Going Positive三段全文逐行核对，5:2、fat/fit文字对照、三公斤/两公里八分钟/30俯卧撑及积极看待身体结尾一致。保留原文引号及段落，无修改。",
+  "reviewedAt": "2026-10-07T07:30:11+00:00",
+  "notes": "Going Positive由体重焦虑、转向体能、积极自我评价三段递进，保留多句自然段。",
   "issues": [],
-  "status": "passed_unchanged"
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "e7c2a8cf11cec3f06d9ca4b76ec336d266c679902e00b54f8cd117c257611554",
+    "afterFileSha256": "e7c2a8cf11cec3f06d9ca4b76ec336d266c679902e00b54f8cd117c257611554",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "e7c2a8cf11cec3f06d9ca4b76ec336d266c679902e00b54f8cd117c257611554",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..2] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "Going Positive由体重焦虑、转向体能、积极自我评价三段递进，保留多句自然段。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/f41afed424a644ded6b6c44cc3d25c18bdba774785e4b89a1fce1d38a83f93f4.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "dbd78a9296249b5cbef331b7951d9ca026dc6bc906af4c442227e51650db112c"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "f41afed424a644ded6b6c44cc3d25c18bdba774785e4b89a1fce1d38a83f93f4"
 }

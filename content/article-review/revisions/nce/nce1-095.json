@@ -2,124 +2,9 @@
   "schemaVersion": 1,
   "course": "nce",
   "articleId": "nce1-095",
-  "beforeDisplaySha256": "ccf5629543e988a0523847bfd2319f6727b5bac0b52b38eec910c3b92dbd00f8",
-  "afterDisplaySha256": "2ec27b5af3d6aa82f2cc7497cd85d50210f1b58342893959d3a0e12fb3b6dc11",
+  "beforeDisplaySha256": "2ec27b5af3d6aa82f2cc7497cd85d50210f1b58342893959d3a0e12fb3b6dc11",
+  "afterDisplaySha256": "b07762c5df922b289710935ac75c224c9ebecec226ee0af7d1d09554d68a4d4f",
   "baselineDisplay": {
-    "title": "Tickets, Please.",
-    "titleZh": "请给我票。",
-    "question": "Why did George and Ken miss the train?",
-    "questionZh": "为什么乔治和肯错过了火车？",
-    "text": "Why did George and Ken miss the train?\n\nTwo return tickets to London, please.\nWhat time will the next train leave?\nAt nineteen minutes past eight.\nWhich platform?\nPlatform Two.\nOver the bridge.\nWhat time will the next train leave?\nAt eight nineteen.\nWe've got plenty of time.\nIt's only three minutes to eight.\nLet's go and have a drink.\nThere's a bar next door to the station.\nWe had better go back to the station now, Ken.\nTickets, please.\nWe want to catch the eight nineteen to London.\nYou've just missed it!\nWhat!\nIt's only eight fifteen.\nI'm sorry, sir.\nThat clock's ten minutes slow.\nWhen's the next train?\nIn five hours' time!",
-    "bodyText": "Two return tickets to London, please.\nWhat time will the next train leave?\nAt nineteen minutes past eight.\nWhich platform?\nPlatform Two.\nOver the bridge.\nWhat time will the next train leave?\nAt eight nineteen.\nWe've got plenty of time.\nIt's only three minutes to eight.\nLet's go and have a drink.\nThere's a bar next door to the station.\nWe had better go back to the station now, Ken.\nTickets, please.\nWe want to catch the eight nineteen to London.\nYou've just missed it!\nWhat!\nIt's only eight fifteen.\nI'm sorry, sir.\nThat clock's ten minutes slow.\nWhen's the next train?\nIn five hours' time!",
-    "bodyTextZh": "请给我两张去伦敦的往返票。\n下一班火车什么时候出发？\n八点十九分。\n哪个站台？\n第二站台。\n过桥。\n下一班火车什么时候出发？\n八点十九分。\n我们还有充足的时间。\n现在才八点差三分。\n我们一起去喝一杯吧。\n车站旁边有一家酒吧。\n我们最好现在就回车站去，肯。\n请给我票。\n我们要赶八点十九分去伦敦的火车。\n你刚刚错过了它！\n什么！\n现在才八点十五分。\n对不起，先生。\n那个钟慢了十分钟。\n下一班火车什么时候开？\n五小时后！",
-    "sentences": [
-      {
-        "en": "Lesson 95",
-        "zh": "第95课"
-      },
-      {
-        "en": "Tickets, please.",
-        "zh": "请给我票。"
-      },
-      {
-        "en": "Listen to the tape then answer this question.",
-        "zh": "先听这段录音，然后再回答这个问题。"
-      },
-      {
-        "en": "Why did George and Ken miss the train?",
-        "zh": "为什么乔治和肯错过了火车？"
-      },
-      {
-        "en": "Two return tickets to London, please.",
-        "zh": "请给我两张去伦敦的往返票。"
-      },
-      {
-        "en": "What time will the next train leave?",
-        "zh": "下一班火车什么时候出发？"
-      },
-      {
-        "en": "At nineteen minutes past eight.",
-        "zh": "八点十九分。"
-      },
-      {
-        "en": "Which platform?",
-        "zh": "哪个站台？"
-      },
-      {
-        "en": "Platform Two.",
-        "zh": "第二站台。"
-      },
-      {
-        "en": "Over the bridge.",
-        "zh": "过桥。"
-      },
-      {
-        "en": "What time will the next train leave?",
-        "zh": "下一班火车什么时候出发？"
-      },
-      {
-        "en": "At eight nineteen.",
-        "zh": "八点十九分。"
-      },
-      {
-        "en": "We've got plenty of time.",
-        "zh": "我们还有充足的时间。"
-      },
-      {
-        "en": "It's only three minutes to eight.",
-        "zh": "现在才八点差三分。"
-      },
-      {
-        "en": "Let's go and have a drink.",
-        "zh": "我们一起去喝一杯吧。"
-      },
-      {
-        "en": "There's a bar next door to the station.",
-        "zh": "车站旁边有一家酒吧。"
-      },
-      {
-        "en": "We had better go back to the station now, Ken.",
-        "zh": "我们最好现在就回车站去，肯。"
-      },
-      {
-        "en": "Tickets, please.",
-        "zh": "请给我票。"
-      },
-      {
-        "en": "We want to catch the eight nineteen to London.",
-        "zh": "我们要赶八点十九分去伦敦的火车。"
-      },
-      {
-        "en": "You've just missed it!",
-        "zh": "你刚刚错过了它！"
-      },
-      {
-        "en": "What!",
-        "zh": "什么！"
-      },
-      {
-        "en": "It's only eight fifteen.",
-        "zh": "现在才八点十五分。"
-      },
-      {
-        "en": "I'm sorry, sir.",
-        "zh": "对不起，先生。"
-      },
-      {
-        "en": "That clock's ten minutes slow.",
-        "zh": "那个钟慢了十分钟。"
-      },
-      {
-        "en": "When's the next train?",
-        "zh": "下一班火车什么时候开？"
-      },
-      {
-        "en": "In five hours' time!",
-        "zh": "五小时后！"
-      }
-    ]
-  },
-  "display": {
     "title": "Tickets, Please.",
     "titleZh": "请给我票。",
     "question": "Why did George and Ken miss the train?",
@@ -234,20 +119,167 @@
       }
     ]
   },
+  "display": {
+    "title": "Tickets, Please.",
+    "titleZh": "请给我票。",
+    "question": "Why did George and Ken miss the train?",
+    "questionZh": "为什么乔治和肯错过了火车？",
+    "text": "Why did George and Ken miss the train?\n\nTwo return tickets to London, please. What time will the next train leave?\nAt nineteen minutes past eight.\nWhich platform?\nPlatform Two. Over the bridge.\nWhat time will the next train leave?\nAt eight nineteen.\nWe've got plenty of time. It's only three minutes to eight.\nLet's go and have a drink. There's a bar next door to the station.\nWe had better go back to the station now, Ken.\nTickets, please.\nWe want to catch the eight nineteen to London.\nYou've just missed it!\nWhat! It's only eight fifteen.\nI'm sorry, sir. That clock's ten minutes slow.\nWhen's the next train?\nIn five hours' time!",
+    "bodyText": "Two return tickets to London, please. What time will the next train leave?\nAt nineteen minutes past eight.\nWhich platform?\nPlatform Two. Over the bridge.\nWhat time will the next train leave?\nAt eight nineteen.\nWe've got plenty of time. It's only three minutes to eight.\nLet's go and have a drink. There's a bar next door to the station.\nWe had better go back to the station now, Ken.\nTickets, please.\nWe want to catch the eight nineteen to London.\nYou've just missed it!\nWhat! It's only eight fifteen.\nI'm sorry, sir. That clock's ten minutes slow.\nWhen's the next train?\nIn five hours' time!",
+    "bodyTextZh": "请给我两张去伦敦的往返票。下一班火车什么时候出发？\n八点十九分。\n哪个站台？\n第二站台。过桥。\n下一班火车什么时候出发？\n八点十九分。\n我们还有充足的时间。现在才八点差三分。\n我们一起去喝一杯吧。车站旁边有一家酒吧。\n我们最好现在就回车站去，肯。\n请给我票。\n我们要赶八点十九分去伦敦的火车。\n你刚刚错过了它！\n什么！现在才八点十五分。\n对不起，先生。那个钟慢了十分钟。\n下一班火车什么时候开？\n五小时后！",
+    "sentences": [
+      {
+        "en": "Lesson 95",
+        "zh": "第 95 课"
+      },
+      {
+        "en": "Tickets, please.",
+        "zh": "请给我票。"
+      },
+      {
+        "en": "Listen to the tape then answer this question.",
+        "zh": "先听这段录音，然后再回答这个问题。"
+      },
+      {
+        "en": "Why did George and Ken miss the train?",
+        "zh": "为什么乔治和肯错过了火车？"
+      },
+      {
+        "en": "Two return tickets to London, please.",
+        "zh": "请给我两张去伦敦的往返票。"
+      },
+      {
+        "en": "What time will the next train leave?",
+        "zh": "下一班火车什么时候出发？"
+      },
+      {
+        "en": "At nineteen minutes past eight.",
+        "zh": "八点十九分。"
+      },
+      {
+        "en": "Which platform?",
+        "zh": "哪个站台？"
+      },
+      {
+        "en": "Platform Two.",
+        "zh": "第二站台。"
+      },
+      {
+        "en": "Over the bridge.",
+        "zh": "过桥。"
+      },
+      {
+        "en": "What time will the next train leave?",
+        "zh": "下一班火车什么时候出发？"
+      },
+      {
+        "en": "At eight nineteen.",
+        "zh": "八点十九分。"
+      },
+      {
+        "en": "We've got plenty of time.",
+        "zh": "我们还有充足的时间。"
+      },
+      {
+        "en": "It's only three minutes to eight.",
+        "zh": "现在才八点差三分。"
+      },
+      {
+        "en": "Let's go and have a drink.",
+        "zh": "我们一起去喝一杯吧。"
+      },
+      {
+        "en": "There's a bar next door to the station.",
+        "zh": "车站旁边有一家酒吧。"
+      },
+      {
+        "en": "We had better go back to the station now, Ken.",
+        "zh": "我们最好现在就回车站去，肯。"
+      },
+      {
+        "en": "Tickets, please.",
+        "zh": "请给我票。"
+      },
+      {
+        "en": "We want to catch the eight nineteen to London.",
+        "zh": "我们要赶八点十九分去伦敦的火车。"
+      },
+      {
+        "en": "You've just missed it!",
+        "zh": "你刚刚错过了它！"
+      },
+      {
+        "en": "What!",
+        "zh": "什么！"
+      },
+      {
+        "en": "It's only eight fifteen.",
+        "zh": "现在才八点十五分。"
+      },
+      {
+        "en": "I'm sorry, sir.",
+        "zh": "对不起，先生。"
+      },
+      {
+        "en": "That clock's ten minutes slow.",
+        "zh": "那个钟慢了十分钟。"
+      },
+      {
+        "en": "When's the next train?",
+        "zh": "下一班火车什么时候开？"
+      },
+      {
+        "en": "In five hours' time!",
+        "zh": "五小时后！"
+      }
+    ]
+  },
   "sources": [
     {
-      "path": "content/NCE-Flow/NCE1/095&096－Tickets, Please..lrc",
-      "locator": "完整LRC元数据、标题、提问及全部中英文逐句字幕和时间戳",
+      "path": "content/article-review/history/f722bdb011f71ab1dfd1de586f0977b8a63eac66a6b08b74df7e6a25d0caf6b2.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
       "checked": true,
-      "sha256": "2e3ad651c897e905af00daf8470c6bd45ee9f876a912b59973442eeb94d00e62"
+      "sha256": "4c9d276b058823f7f5becefaf174c9040afc42bf4c710316f4ab72f2642f9806"
     }
   ],
   "corrections": [],
   "fullReadConfirmed": true,
   "recheckConfirmed": true,
   "reviewer": "Codex",
-  "reviewedAt": "2026-10-02T02:44:11+00:00",
-  "notes": "通读对照购票及误车对话。8:19列车、钟慢十分钟和五小时后下班车的时间关系在中英字幕中一致；保留hours的所有格与全部轮次，只规范课号空格。",
+  "reviewedAt": "2026-10-07T07:41:59+00:00",
+  "notes": "买票误车；索票问时间、站台方向、时间充裕判断、喝酒建议、惊讶报时及慢钟解释合轮；两人间复述开车时间不跨轮合并。 text与bodyText同步；sentences对象及时间、角色、索引原样保留。",
   "issues": [],
-  "status": "passed_edited"
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "0e36bdadff571321c29f7735625a0a8fba7e017d5448373c52d97c611e49124c",
+    "afterFileSha256": "277ac60e30b598a7b814c14f6d9aff054895634cd9c726e639ce461a64e5d2b0",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "0e36bdadff571321c29f7735625a0a8fba7e017d5448373c52d97c611e49124c",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title/titleZh、question/questionZh、bodyText全部22行、bodyTextZh全部22行及sentences[0..25]的完整文字；重复正文与字幕文本逐字比对，非正文字幕另读。操作在内存应用并validate_layout_change，修复后的双语全文重新通读。",
+      "notes": "买票误车；索票问时间、站台方向、时间充裕判断、喝酒建议、惊讶报时及慢钟解释合轮；两人间复述开车时间不跨轮合并。 text与bodyText同步；sentences对象及时间、角色、索引原样保留。",
+      "issues": [],
+      "display": {
+        "text": "Why did George and Ken miss the train?\n\nTwo return tickets to London, please. What time will the next train leave?\nAt nineteen minutes past eight.\nWhich platform?\nPlatform Two. Over the bridge.\nWhat time will the next train leave?\nAt eight nineteen.\nWe've got plenty of time. It's only three minutes to eight.\nLet's go and have a drink. There's a bar next door to the station.\nWe had better go back to the station now, Ken.\nTickets, please.\nWe want to catch the eight nineteen to London.\nYou've just missed it!\nWhat! It's only eight fifteen.\nI'm sorry, sir. That clock's ten minutes slow.\nWhen's the next train?\nIn five hours' time!",
+        "bodyText": "Two return tickets to London, please. What time will the next train leave?\nAt nineteen minutes past eight.\nWhich platform?\nPlatform Two. Over the bridge.\nWhat time will the next train leave?\nAt eight nineteen.\nWe've got plenty of time. It's only three minutes to eight.\nLet's go and have a drink. There's a bar next door to the station.\nWe had better go back to the station now, Ken.\nTickets, please.\nWe want to catch the eight nineteen to London.\nYou've just missed it!\nWhat! It's only eight fifteen.\nI'm sorry, sir. That clock's ten minutes slow.\nWhen's the next train?\nIn five hours' time!",
+        "bodyTextZh": "请给我两张去伦敦的往返票。下一班火车什么时候出发？\n八点十九分。\n哪个站台？\n第二站台。过桥。\n下一班火车什么时候出发？\n八点十九分。\n我们还有充足的时间。现在才八点差三分。\n我们一起去喝一杯吧。车站旁边有一家酒吧。\n我们最好现在就回车站去，肯。\n请给我票。\n我们要赶八点十九分去伦敦的火车。\n你刚刚错过了它！\n什么！现在才八点十五分。\n对不起，先生。那个钟慢了十分钟。\n下一班火车什么时候开？\n五小时后！"
+      },
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/f722bdb011f71ab1dfd1de586f0977b8a63eac66a6b08b74df7e6a25d0caf6b2.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "4c9d276b058823f7f5becefaf174c9040afc42bf4c710316f4ab72f2642f9806"
+        }
+      ]
+    }
+  },
+  "status": "passed_edited",
+  "previousRevisionSha256": "f722bdb011f71ab1dfd1de586f0977b8a63eac66a6b08b74df7e6a25d0caf6b2"
 }

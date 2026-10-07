@@ -2,72 +2,9 @@
   "schemaVersion": 1,
   "course": "nce",
   "articleId": "nce2-024",
-  "beforeDisplaySha256": "dfd67ac74025f2099688c7046172d0d5b98a72fd6a40b022a02f3a89b14ebfd6",
-  "afterDisplaySha256": "c09b9fc2892e5627fc2bf68bff9208756184d2c34ec32b0cb1cc39f1117f5da2",
+  "beforeDisplaySha256": "c09b9fc2892e5627fc2bf68bff9208756184d2c34ec32b0cb1cc39f1117f5da2",
+  "afterDisplaySha256": "c8f2f104afb07de5ef5fdf29067907721402eb14db3e82a0891c1ef0275209a7",
   "baselineDisplay": {
-    "title": "It Could be Worse",
-    "titleZh": "可能更糟",
-    "question": "Had the writer's money been stolen?",
-    "questionZh": "那位作家的钱被偷了吗？",
-    "text": "Had the writer's money been stolen?\n\nI entered the hotel manager's office and sat down.\nI had just lost ￡50 and I felt very upset.\n'I left the money in my room,' I said, 'and it's not there now. '\nThe manager was sympathetic, but he could do nothing.\n'Everyone's losing money these days,' he said.\nHe started to complain about this wicked world but was interrupted by a knock at the door.\nA girl came in and put an envelope on his desk.\nIt contained ￡50.\n'I found this outside this gentleman's room,' she said.\n'Well,' I said to the manager,'there is still some honesty in this world!'",
-    "bodyText": "I entered the hotel manager's office and sat down.\nI had just lost ￡50 and I felt very upset.\n'I left the money in my room,' I said, 'and it's not there now.  '\nThe manager was sympathetic, but he could do nothing.\n'Everyone's losing money these days,' he said.\nHe started to complain about this wicked world but was interrupted by a knock at the door.\nA girl came in and put an envelope on his desk.\nIt contained ￡50.\n'I found this outside this gentleman's room,' she said.\n'Well,' I said to the manager,'there is still some honesty in this world!'",
-    "bodyTextZh": "我走进酒店经理的办公室，坐了下来。\n我刚刚损失了50英镑，感到非常沮丧。\n“我把钱放在房间里了，但现在钱不见了。”我说。\n经理很同情我，但他无能为力。\n“如今大家都在丢钱，”他说。\n他开始抱怨这个邪恶的世界，但被一阵敲门声打断了。\n一个女孩走了进来，把一个信封放在他的桌子上。\n信封里装着50英镑。\n“我在这位先生的房间外面发现了这个。”她说。\n“嗯，”我对经理说，“这个世界上还是有一些诚实的人的！”",
-    "sentences": [
-      {
-        "en": "Lesson 24",
-        "zh": "第24课"
-      },
-      {
-        "en": "It Could be Worse",
-        "zh": "可能更糟"
-      },
-      {
-        "en": "Had the writer's money been stolen?",
-        "zh": "那位作家的钱被偷了吗？"
-      },
-      {
-        "en": "I entered the hotel manager's office and sat down.",
-        "zh": "我走进酒店经理的办公室，坐了下来。"
-      },
-      {
-        "en": "I had just lost ￡50 and I felt very upset.",
-        "zh": "我刚刚损失了50英镑，感到非常沮丧。"
-      },
-      {
-        "en": "'I left the money in my room,' I said, 'and it's not there now.  '",
-        "zh": "“我把钱放在房间里了，但现在钱不见了。”我说。"
-      },
-      {
-        "en": "The manager was sympathetic, but he could do nothing.",
-        "zh": "经理很同情我，但他无能为力。"
-      },
-      {
-        "en": "'Everyone's losing money these days,' he said.",
-        "zh": "“如今大家都在丢钱，”他说。"
-      },
-      {
-        "en": "He started to complain about this wicked world but was interrupted by a knock at the door.",
-        "zh": "他开始抱怨这个邪恶的世界，但被一阵敲门声打断了。"
-      },
-      {
-        "en": "A girl came in and put an envelope on his desk.",
-        "zh": "一个女孩走了进来，把一个信封放在他的桌子上。"
-      },
-      {
-        "en": "It contained ￡50.",
-        "zh": "信封里装着50英镑。"
-      },
-      {
-        "en": "'I found this outside this gentleman's room,' she said.",
-        "zh": "“我在这位先生的房间外面发现了这个。”她说。"
-      },
-      {
-        "en": "'Well,' I said to the manager,'there is still some honesty in this world!'",
-        "zh": "“嗯，”我对经理说，“这个世界上还是有一些诚实的人的！”"
-      }
-    ]
-  },
-  "display": {
     "title": "It Could be Worse",
     "titleZh": "可能更糟",
     "question": "Had the writer's money been stolen?",
@@ -130,20 +67,115 @@
       }
     ]
   },
+  "display": {
+    "title": "It Could be Worse",
+    "titleZh": "可能更糟",
+    "question": "Had the writer's money been stolen?",
+    "questionZh": "那位作家的钱被偷了吗？",
+    "text": "Had the writer's money been stolen?\n\nI entered the hotel manager's office and sat down. I had just lost ￡50 and I felt very upset. 'I left the money in my room,' I said, 'and it's not there now.'\nThe manager was sympathetic, but he could do nothing. 'Everyone's losing money these days,' he said. He started to complain about this wicked world but was interrupted by a knock at the door.\nA girl came in and put an envelope on his desk. It contained ￡50. 'I found this outside this gentleman's room,' she said.\n'Well,' I said to the manager, 'there is still some honesty in this world!'",
+    "bodyText": "I entered the hotel manager's office and sat down. I had just lost ￡50 and I felt very upset. 'I left the money in my room,' I said, 'and it's not there now.'\nThe manager was sympathetic, but he could do nothing. 'Everyone's losing money these days,' he said. He started to complain about this wicked world but was interrupted by a knock at the door.\nA girl came in and put an envelope on his desk. It contained ￡50. 'I found this outside this gentleman's room,' she said.\n'Well,' I said to the manager, 'there is still some honesty in this world!'",
+    "bodyTextZh": "我走进酒店经理的办公室，坐了下来。我刚刚损失了 50 英镑，感到非常沮丧。“我把钱放在房间里了，但现在钱不见了。”我说。\n经理很同情我，但他无能为力。“如今大家都在丢钱，”他说。他开始抱怨这个邪恶的世界，但被一阵敲门声打断了。\n一个女孩走了进来，把一个信封放在他的桌子上。信封里装着 50 英镑。“我在这位先生的房间外面发现了这个。”她说。\n“嗯，”我对经理说，“这个世界上还是有一些诚实的人的！”",
+    "sentences": [
+      {
+        "en": "Lesson 24",
+        "zh": "第 24 课"
+      },
+      {
+        "en": "It Could be Worse",
+        "zh": "可能更糟"
+      },
+      {
+        "en": "Had the writer's money been stolen?",
+        "zh": "那位作家的钱被偷了吗？"
+      },
+      {
+        "en": "I entered the hotel manager's office and sat down.",
+        "zh": "我走进酒店经理的办公室，坐了下来。"
+      },
+      {
+        "en": "I had just lost ￡50 and I felt very upset.",
+        "zh": "我刚刚损失了 50 英镑，感到非常沮丧。"
+      },
+      {
+        "en": "'I left the money in my room,' I said, 'and it's not there now.'",
+        "zh": "“我把钱放在房间里了，但现在钱不见了。”我说。"
+      },
+      {
+        "en": "The manager was sympathetic, but he could do nothing.",
+        "zh": "经理很同情我，但他无能为力。"
+      },
+      {
+        "en": "'Everyone's losing money these days,' he said.",
+        "zh": "“如今大家都在丢钱，”他说。"
+      },
+      {
+        "en": "He started to complain about this wicked world but was interrupted by a knock at the door.",
+        "zh": "他开始抱怨这个邪恶的世界，但被一阵敲门声打断了。"
+      },
+      {
+        "en": "A girl came in and put an envelope on his desk.",
+        "zh": "一个女孩走了进来，把一个信封放在他的桌子上。"
+      },
+      {
+        "en": "It contained ￡50.",
+        "zh": "信封里装着 50 英镑。"
+      },
+      {
+        "en": "'I found this outside this gentleman's room,' she said.",
+        "zh": "“我在这位先生的房间外面发现了这个。”她说。"
+      },
+      {
+        "en": "'Well,' I said to the manager, 'there is still some honesty in this world!'",
+        "zh": "“嗯，”我对经理说，“这个世界上还是有一些诚实的人的！”"
+      }
+    ]
+  },
   "sources": [
     {
-      "path": "content/NCE-Flow/NCE2/24－It Could be Worse.lrc",
-      "locator": "完整LRC元数据、标题、问题和全部中英字幕，校勘位置见逐项证据",
+      "path": "content/article-review/history/e508b9600e62b388af4f84f18920670688693d038eea8a3c10376d5933571f59.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
       "checked": true,
-      "sha256": "c6ec82807d543c8ae43846c56b6f85f3e03d5c26e9be7982d5341e5598c73dfa"
+      "sha256": "e68cdf42bf5c77879540beed80eeed8e380c0194037fa0695293d3b4d775b05a"
     }
   ],
   "corrections": [],
   "fullReadConfirmed": true,
   "recheckConfirmed": true,
   "reviewer": "Codex",
-  "reviewedAt": "2026-10-02T02:59:01+00:00",
-  "notes": "通读酒店寻钱故事和中译，核对50英镑、房间外捡到信封及诚实结尾；删除now句点与闭引号间误空格，补齐manager逗号后对白引号前间距，保留英镑符号及全部引语标点。",
+  "reviewedAt": "2026-10-07T07:50:52+00:00",
+  "notes": "旅馆丢钱；作者陈述、经理抱怨、女孩交回信封各成段，末尾作者感叹独立；text引号前多余空格同步为bodyText。 text与bodyText同步；sentences对象及时间、角色、索引原样保留。",
   "issues": [],
-  "status": "passed_edited"
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "3a7bd381c70c178d828958d8910e20f007d0e298ed6cc1a0800184d7c0d92226",
+    "afterFileSha256": "14cbe4febefed9e9eec7fb9196745d6efe69589da727d9aca431db603b4c0f93",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "3a7bd381c70c178d828958d8910e20f007d0e298ed6cc1a0800184d7c0d92226",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title/titleZh、question/questionZh、bodyText全部10行、bodyTextZh全部10行及sentences[0..12]的完整文字；重复正文与字幕文本逐字比对，非正文字幕另读。操作在内存应用并validate_layout_change，修复后的双语全文重新通读。",
+      "notes": "旅馆丢钱；作者陈述、经理抱怨、女孩交回信封各成段，末尾作者感叹独立；text引号前多余空格同步为bodyText。 text与bodyText同步；sentences对象及时间、角色、索引原样保留。",
+      "issues": [],
+      "display": {
+        "text": "Had the writer's money been stolen?\n\nI entered the hotel manager's office and sat down. I had just lost ￡50 and I felt very upset. 'I left the money in my room,' I said, 'and it's not there now.'\nThe manager was sympathetic, but he could do nothing. 'Everyone's losing money these days,' he said. He started to complain about this wicked world but was interrupted by a knock at the door.\nA girl came in and put an envelope on his desk. It contained ￡50. 'I found this outside this gentleman's room,' she said.\n'Well,' I said to the manager, 'there is still some honesty in this world!'",
+        "bodyText": "I entered the hotel manager's office and sat down. I had just lost ￡50 and I felt very upset. 'I left the money in my room,' I said, 'and it's not there now.'\nThe manager was sympathetic, but he could do nothing. 'Everyone's losing money these days,' he said. He started to complain about this wicked world but was interrupted by a knock at the door.\nA girl came in and put an envelope on his desk. It contained ￡50. 'I found this outside this gentleman's room,' she said.\n'Well,' I said to the manager, 'there is still some honesty in this world!'",
+        "bodyTextZh": "我走进酒店经理的办公室，坐了下来。我刚刚损失了 50 英镑，感到非常沮丧。“我把钱放在房间里了，但现在钱不见了。”我说。\n经理很同情我，但他无能为力。“如今大家都在丢钱，”他说。他开始抱怨这个邪恶的世界，但被一阵敲门声打断了。\n一个女孩走了进来，把一个信封放在他的桌子上。信封里装着 50 英镑。“我在这位先生的房间外面发现了这个。”她说。\n“嗯，”我对经理说，“这个世界上还是有一些诚实的人的！”"
+      },
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/e508b9600e62b388af4f84f18920670688693d038eea8a3c10376d5933571f59.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "e68cdf42bf5c77879540beed80eeed8e380c0194037fa0695293d3b4d775b05a"
+        }
+      ]
+    }
+  },
+  "status": "passed_edited",
+  "previousRevisionSha256": "e508b9600e62b388af4f84f18920670688693d038eea8a3c10376d5933571f59"
 }

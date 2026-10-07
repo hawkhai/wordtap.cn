@@ -90,30 +90,45 @@
   },
   "sources": [
     {
-      "path": "content/pep-english/raw/senior-selective-4.pdf",
-      "locator": "PDF第33-34页，标题与完整正文逐行核对",
+      "path": "content/article-review/history/165a0e05f8845fe73e3958685fd716392798127f409c6aa4dbe51818fcfc3337.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
       "checked": true,
-      "sha256": "2ad7555a13eb420aa70497f9faa2541fdb502b7ffc4e063e87c60cce88f1b4a3"
-    },
-    {
-      "path": "content/pep-english/raw/senior-selective-4/senior-selective-4_33.jpg",
-      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
-      "checked": true,
-      "sha256": "36b5de7d93fdeaffc2c6c8c6f2641846052972c203fb68bf31a02c7f8320aaed"
-    },
-    {
-      "path": "content/pep-english/raw/senior-selective-4/senior-selective-4_34.jpg",
-      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
-      "checked": true,
-      "sha256": "c25b68cf2fd8e34c985a367a7c9ef32fa4b11e5de8de66651372c2f2c8121b94"
+      "sha256": "73110713403412328a5219bed53ed855cba7e608d1222445c89179e0b0f5acfc"
     }
   ],
   "corrections": [],
   "fullReadConfirmed": true,
   "recheckConfirmed": true,
   "reviewer": "Codex",
-  "reviewedAt": "2026-10-02T07:35:32+00:00",
-  "notes": "逐行核对PDF33—34页海上交流全文七段，跨页连接、郑和年代、专名与段落完整。保留教材历史叙述、政策目标和对未来的预测语气，未发现转录或排版错误。",
+  "reviewedAt": "2026-10-07T07:35:55+00:00",
+  "notes": "海上交流七段含古丝路、郑和、现代倡议及其目的、北极合作和展望；倡议引入及阐述各完整段保留。",
   "issues": [],
-  "status": "passed_unchanged"
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "e572d1899df470f22f109fc4db8bce3fd75598fc8f84042a9332e91f5a766317",
+    "afterFileSha256": "e572d1899df470f22f109fc4db8bce3fd75598fc8f84042a9332e91f5a766317",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "e572d1899df470f22f109fc4db8bce3fd75598fc8f84042a9332e91f5a766317",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..6] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "海上交流七段含古丝路、郑和、现代倡议及其目的、北极合作和展望；倡议引入及阐述各完整段保留。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/165a0e05f8845fe73e3958685fd716392798127f409c6aa4dbe51818fcfc3337.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "73110713403412328a5219bed53ed855cba7e608d1222445c89179e0b0f5acfc"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "165a0e05f8845fe73e3958685fd716392798127f409c6aa4dbe51818fcfc3337"
 }

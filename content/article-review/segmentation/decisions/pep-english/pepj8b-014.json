@@ -1,0 +1,22 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "d677c547879a9e4d382ab9c7621f06e56e238c769ce0f759c2206ac4fd2c64b8",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title；全文 blocks[0..1] 与对应 text；现有正文/对话/题干逐块通读复核。",
+  "notes": "鲁滨逊两段分别岛上生存及救Friday，完整经历与时间转折保持。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "blockEdits": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/db9ece931f86d159d1fad09badb2f86d81cd6d5585243c52b09b658ad3a5070c.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "ad01b32a3dc1372f0c7663bdee7d7478d1bb0813480f0ce785cf34f5d2abafa5"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "dcc300e541d7dc4b13a6b1e7b922fb1c368685a0bb13c63952a0f22055462530",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "coverage": "全文 blocks[0..17]，逐处核对合并结果及所有未修改边界。",
+  "notes": "两组合口双元音解析和练习完整，Today is cold 开头的三句保持一个练习单元。",
+  "issues": [],
+  "mergeBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/276272a1a6f2f39cc65c137c5bdcb2ef479ff749e7a2b47ad188bbb4253ffd7f.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "44a80a9e56ee57d2df283652918c9daf2024a263e1b932b4c2947a2ac17cec9d"
+    }
+  ]
+}

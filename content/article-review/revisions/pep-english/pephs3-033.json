@@ -2,17 +2,17 @@
   "schemaVersion": 1,
   "course": "pep-english",
   "articleId": "pephs3-033",
-  "beforeDisplaySha256": "c5bb651d26eecc72a8fe31914ea94f0138cefd8cdb3636a011ff0f61474a798f",
+  "beforeDisplaySha256": "b4fa431475d9757d3aba4366b60bd046bb91017b373c0ad43f812196ac85382a",
   "afterDisplaySha256": "b4fa431475d9757d3aba4366b60bd046bb91017b373c0ad43f812196ac85382a",
   "baselineDisplay": {
     "title": "The Road Not Taken (Robert Frost)",
     "section": "Expanding Your World",
-    "text": "Two roads diverged in a yellow wood And sorry I could not travel both And be one traveler, long I stood And looked down one as far as I could To where it bent in the undergrowth;\nThen took the other, as just as fair, And having perhaps the better claim, Because it was grassy and wanted wear;\nThough as for that the passing there Had worn them really about the same, And both that morning equally lay In leaves no step had trodden black.\nOh, I kept the first for another day!\nYet knowing how way leads on to way, I doubted if I should ever come back.\nI shall be telling this with a sigh Somewhere ages and ages hence:\nTwo roads diverged in a wood, and I— I took the one less traveled by, And that has made all the difference.",
+    "text": "Two roads diverged in a yellow wood\nAnd sorry I could not travel both\nAnd be one traveler, long I stood\nAnd looked down one as far as I could\nTo where it bent in the undergrowth;\nThen took the other, as just as fair,\nAnd having perhaps the better claim,\nBecause it was grassy and wanted wear;\nThough as for that the passing there\nHad worn them really about the same,\nAnd both that morning equally lay\nIn leaves no step had trodden black.\nOh, I kept the first for another day!\nYet knowing how way leads on to way,\nI doubted if I should ever come back.\nI shall be telling this with a sigh\nSomewhere ages and ages hence:\nTwo roads diverged in a wood, and I—\nI took the one less traveled by,\nAnd that has made all the difference.",
     "blocks": [
       {
         "type": "paragraph",
         "lang": "en",
-        "text": "Two roads diverged in a yellow wood And sorry I could not travel both And be one traveler, long I stood And looked down one as far as I could To where it bent in the undergrowth;\nThen took the other, as just as fair, And having perhaps the better claim, Because it was grassy and wanted wear;\nThough as for that the passing there Had worn them really about the same, And both that morning equally lay In leaves no step had trodden black.\nOh, I kept the first for another day!\nYet knowing how way leads on to way, I doubted if I should ever come back.\nI shall be telling this with a sigh Somewhere ages and ages hence:\nTwo roads diverged in a wood, and I— I took the one less traveled by, And that has made all the difference."
+        "text": "Two roads diverged in a yellow wood\nAnd sorry I could not travel both\nAnd be one traveler, long I stood\nAnd looked down one as far as I could\nTo where it bent in the undergrowth;\nThen took the other, as just as fair,\nAnd having perhaps the better claim,\nBecause it was grassy and wanted wear;\nThough as for that the passing there\nHad worn them really about the same,\nAnd both that morning equally lay\nIn leaves no step had trodden black.\nOh, I kept the first for another day!\nYet knowing how way leads on to way,\nI doubted if I should ever come back.\nI shall be telling this with a sigh\nSomewhere ages and ages hence:\nTwo roads diverged in a wood, and I—\nI took the one less traveled by,\nAnd that has made all the difference."
       }
     ]
   },
@@ -30,24 +30,45 @@
   },
   "sources": [
     {
-      "path": "content/pep-english/raw/senior-selective-3.pdf",
-      "locator": "PDF第101-101页，标题与完整正文逐行核对",
+      "path": "content/article-review/history/e508c5c6165f8746a62ddd8f21408989cb461abb0d6169f01a8933d697ab82f9.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
       "checked": true,
-      "sha256": "ed8eb9e5988b44a1ff4f8bc11ed3cfae406decefae7982477362720788e1998b"
-    },
-    {
-      "path": "content/pep-english/raw/senior-selective-3/senior-selective-3_101.jpg",
-      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
-      "checked": true,
-      "sha256": "7cf48fa236a8c46cff6c9faa4aad08b249bd49a81fcd2d4b0e405b86bd4fe58f"
+      "sha256": "ea5a7c9cb48d2c4855e9ca0b165f2ffa2f443fbb3f6a4d54d42fb1efd42893f8"
     }
   ],
   "corrections": [],
   "fullReadConfirmed": true,
   "recheckConfirmed": true,
   "reviewer": "Codex",
-  "reviewedAt": "2026-10-02T07:28:12+00:00",
-  "notes": "逐行核对PDF101页Frost诗歌两栏，从左栏十行接右栏十行恢复二十行原页排版；保留教材标点与标题署名。",
+  "reviewedAt": "2026-10-07T07:35:54+00:00",
+  "notes": "The Road Not Taken二十行连续诗块，保留全部现有诗行，不凭外部版本推定空白诗节。",
   "issues": [],
-  "status": "passed_edited"
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "3839e0bdb6cd96c89d09ba5a1c622e4ff55f07d26636d59deb4b96d674e42058",
+    "afterFileSha256": "3839e0bdb6cd96c89d09ba5a1c622e4ff55f07d26636d59deb4b96d674e42058",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "3839e0bdb6cd96c89d09ba5a1c622e4ff55f07d26636d59deb4b96d674e42058",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..0] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "The Road Not Taken二十行连续诗块，保留全部现有诗行，不凭外部版本推定空白诗节。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/e508c5c6165f8746a62ddd8f21408989cb461abb0d6169f01a8933d697ab82f9.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "ea5a7c9cb48d2c4855e9ca0b165f2ffa2f443fbb3f6a4d54d42fb1efd42893f8"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "e508c5c6165f8746a62ddd8f21408989cb461abb0d6169f01a8933d697ab82f9"
 }

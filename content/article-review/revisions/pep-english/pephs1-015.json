@@ -30,24 +30,45 @@
   },
   "sources": [
     {
-      "path": "content/pep-english/raw/senior-selective-1.pdf",
-      "locator": "PDF第60-60页，标题与完整正文逐行核对",
+      "path": "content/article-review/history/181d56eb44ab5588cd97601a561473e5459f0f16b53ed6749fe6acc87650e63b.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
       "checked": true,
-      "sha256": "94ec493439239c436326e228e3d3ad78c7053ac5abc005db5739119f6a98c33d"
-    },
-    {
-      "path": "content/pep-english/raw/senior-selective-1/senior-selective-1_60.jpg",
-      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
-      "checked": true,
-      "sha256": "2accd0dd2fe48e4a0e2eded5b18f12c1427ad963527672703870b0759a2a063b"
+      "sha256": "63a467cd1de2c3a93c90a511e904fbe44f3cd681239825278d0c8b2d01285cb6"
     }
   ],
   "corrections": [],
   "fullReadConfirmed": true,
   "recheckConfirmed": true,
   "reviewer": "Codex",
-  "reviewedAt": "2026-10-02T06:15:32+00:00",
-  "notes": "通读PDF第60页练习3独立短文六句。that/what/how/Whether主语从句完整，奶奶对食物的看法明确归属于人物，与原页一致，不以当前营养结论改写教学情境。正文标点及段落复核无误。",
+  "reviewedAt": "2026-10-07T07:32:25+00:00",
+  "notes": "祖父母因蔬菜品质考虑搬乡下，原因、退休决定及绿色生活同一连贯短段，保留。",
   "issues": [],
-  "status": "passed_unchanged"
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "0391dda5bf01f1020f4823e060b0c330be8a9c2b000ac0db7ea2624220f25aaa",
+    "afterFileSha256": "0391dda5bf01f1020f4823e060b0c330be8a9c2b000ac0db7ea2624220f25aaa",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "0391dda5bf01f1020f4823e060b0c330be8a9c2b000ac0db7ea2624220f25aaa",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..0] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "祖父母因蔬菜品质考虑搬乡下，原因、退休决定及绿色生活同一连贯短段，保留。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/181d56eb44ab5588cd97601a561473e5459f0f16b53ed6749fe6acc87650e63b.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "63a467cd1de2c3a93c90a511e904fbe44f3cd681239825278d0c8b2d01285cb6"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "181d56eb44ab5588cd97601a561473e5459f0f16b53ed6749fe6acc87650e63b"
 }

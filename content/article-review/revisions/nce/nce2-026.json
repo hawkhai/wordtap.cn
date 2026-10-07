@@ -2,96 +2,9 @@
   "schemaVersion": 1,
   "course": "nce",
   "articleId": "nce2-026",
-  "beforeDisplaySha256": "43333bceb01581d7d18c5b29480b78e233ffeb56d5ef1bdf559eaeea1a9ccbd2",
-  "afterDisplaySha256": "13b3edb26ad8f84d0f9a595d4540a69c8edcd5588fe43f5a21c163fedc63870f",
+  "beforeDisplaySha256": "13b3edb26ad8f84d0f9a595d4540a69c8edcd5588fe43f5a21c163fedc63870f",
+  "afterDisplaySha256": "b1c97a70a8fcf906f4afd99eb22f1d72f9145ddbdcf8a6b43428ebf0de967dc6",
   "baselineDisplay": {
-    "title": "The Best Art Critics",
-    "titleZh": "最佳艺术评论家",
-    "question": "Who is the student's best critic?",
-    "questionZh": "谁是这位学生最好的评论家？",
-    "text": "Who is the student's best critic?\n\nI am an art student and I paint a lot of pictures.\nMany people pretend that they understand modern art.\nThey always tell you what a picture is 'about'.\nOf course, many pictures are not 'about' anything.\nThey are just pretty patterns.\nWe like them in the same way that we like pretty curtain material.\nI think that young children often appreciate modern pictures better than anyone else.\nThey notice more.\nMy sister is only seven, but she always tells me whether my pictures are good or not.\nShe came into my room yesterday.\n'What are you doing?' she asked.\n'I'm hanging this picture on the wall,' I answered. 'It's a new one. Do you like it?'\nShe looked at it critically for a moment.\n'It's all right,' she said, 'but isn't it upside down?'\nI looked at it again.\nShe was right! It was!",
-    "bodyText": "I am an art student and I paint a lot of pictures.\nMany people pretend that they understand modern art.\nThey always tell you what a picture is 'about'.\nOf course, many pictures are not 'about' anything.\nThey are just pretty patterns.\nWe like them in the same way that we like pretty curtain material.\nI think that young children often appreciate modern pictures better than anyone else.\nThey notice more.\nMy sister is only seven, but she always tells me whether my pictures are good or not.\nShe came into my room yesterday.\n'What are you doing?' she asked.\n'I'm hanging this picture on the wall,' I answered. 'It's a new one. Do you like it?'\nShe looked at it critically for a moment.\n'It's all right,' she said, 'but isn't it upside down?'\nI looked at it again.\nShe was right! It was!",
-    "bodyTextZh": "我是一名艺术学生，经常画很多画。\n很多人假装自己理解现代艺术。\n他们总会告诉你一幅画“表现的是什么”。\n当然，许多画其实并不“表现”什么。\n它们只不过是一些漂亮的图案罢了。\n我们喜欢它们的方式，就如同我们喜欢漂亮的窗帘面料一样。\n我认为，小孩子往往比任何人都更懂得欣赏现代画。\n他们看到的更多。\n我妹妹才七岁。但她总会告诉我我的画好不好。\n她昨天进了我的房间。\n“你在做什么？”她问。\n“我在把这幅画挂在墙上。”我回答说，“这是一幅新画。你喜欢吗？”\n她挑剔地看了一会儿。\n“还行吧，”她说，“不过它不是倒挂了吗？”\n我又看了一遍。\n她说得对！确实是这样！",
-    "sentences": [
-      {
-        "en": "Lesson 26",
-        "zh": "第 26 课"
-      },
-      {
-        "en": "The Best Art Critics",
-        "zh": "最佳艺术评论家"
-      },
-      {
-        "en": "Who is the student's best critic?",
-        "zh": "谁是这位学生最好的评论家？"
-      },
-      {
-        "en": "I am an art student and I paint a lot of pictures.",
-        "zh": "我是一名艺术学生，经常画很多画。"
-      },
-      {
-        "en": "Many people pretend that they understand modern art.",
-        "zh": "很多人假装自己理解现代艺术。"
-      },
-      {
-        "en": "They always tell you what a picture is 'about'.",
-        "zh": "他们总会告诉你一幅画“表现的是什么”。"
-      },
-      {
-        "en": "Of course, many pictures are not 'about' anything.",
-        "zh": "当然，许多画其实并不“表现”什么。"
-      },
-      {
-        "en": "They are just pretty patterns.",
-        "zh": "它们只不过是一些漂亮的图案罢了。"
-      },
-      {
-        "en": "We like them in the same way that we like pretty curtain material.",
-        "zh": "我们喜欢它们的方式，就如同我们喜欢漂亮的窗帘面料一样。"
-      },
-      {
-        "en": "I think that young children often appreciate modern pictures better than anyone else.",
-        "zh": "我认为，小孩子往往比任何人都更懂得欣赏现代画。"
-      },
-      {
-        "en": "They notice more.",
-        "zh": "他们看到的更多。"
-      },
-      {
-        "en": "My sister is only seven, but she always tells me whether my pictures are good or not.",
-        "zh": "我妹妹才七岁。但她总会告诉我我的画好不好。"
-      },
-      {
-        "en": "She came into my room yesterday.",
-        "zh": "她昨天进了我的房间。"
-      },
-      {
-        "en": "'What are you doing?' she asked.",
-        "zh": "“你在做什么？”她问。"
-      },
-      {
-        "en": "'I'm hanging this picture on the wall,' I answered. 'It's a new one. Do you like it?'",
-        "zh": "“我在把这幅画挂在墙上。”我回答说，“这是一幅新画。你喜欢吗？”"
-      },
-      {
-        "en": "She looked at it critically for a moment.",
-        "zh": "她挑剔地看了一会儿。"
-      },
-      {
-        "en": "'It's all right,' she said, 'but isn't it upside down?'",
-        "zh": "“还行吧，”她说，“不过它不是倒挂了吗？”"
-      },
-      {
-        "en": "I looked at it again.",
-        "zh": "我又看了一遍。"
-      },
-      {
-        "en": "She was right! It was!",
-        "zh": "她说得对！确实是这样！"
-      }
-    ]
-  },
-  "display": {
     "title": "The Best Art Critics",
     "titleZh": "最佳艺术评论家",
     "question": "Who is the student's best critic?",
@@ -178,40 +91,139 @@
       }
     ]
   },
+  "display": {
+    "title": "The Best Art Critics",
+    "titleZh": "最佳艺术评论家",
+    "question": "Who is the student's best critic?",
+    "questionZh": "谁是这位学生最好的评论家？",
+    "text": "Who is the student's best critic?\n\nI am an art student and I paint a lot of pictures. Many people pretend that they understand modern art. They always tell you what a picture is 'about'. Of course, many pictures are not 'about' anything. They are just pretty patterns. We like them in the same way that we like pretty curtain material.\nI think that young children often appreciate modern pictures better than anyone else. They notice more. My sister is only seven, but she always tells me whether my pictures are good or not.\nShe came into my room yesterday. 'What are you doing?' she asked.\n'I'm hanging this picture on the wall,' I answered. 'It's a new one. Do you like it?'\nShe looked at it critically for a moment. 'It's all right,' she said, 'but isn't it upside down?'\nI looked at it again. She was right! It was!",
+    "bodyText": "I am an art student and I paint a lot of pictures. Many people pretend that they understand modern art. They always tell you what a picture is 'about'. Of course, many pictures are not 'about' anything. They are just pretty patterns. We like them in the same way that we like pretty curtain material.\nI think that young children often appreciate modern pictures better than anyone else. They notice more. My sister is only seven, but she always tells me whether my pictures are good or not.\nShe came into my room yesterday. 'What are you doing?' she asked.\n'I'm hanging this picture on the wall,' I answered. 'It's a new one. Do you like it?'\nShe looked at it critically for a moment. 'It's all right,' she said, 'but isn't it upside down?'\nI looked at it again. She was right! It was!",
+    "bodyTextZh": "我是一名艺术学生，经常画很多画。很多人假装自己理解现代艺术。当然，很多画其实什么也不是。当然，很多图片其实并没有明确的主题或意义（即它们“并不表达任何特定的内容”）。它们只不过是一些漂亮的图案罢了。我们喜欢它们的方式，就如同我们喜欢漂亮的窗帘面料一样。\n我认为，小孩子往往比任何人都更懂得欣赏现代画。他们看到的更多。我妹妹才七岁。但她总会告诉我我的画好不好。\n她昨天进了我的房间。“你在做什么？”她问。\n“我在把这幅画挂在墙上。”我回答说，“这是一幅新画。你喜欢吗？”\n她挑剔地看了一会儿。“还行吧，”她说，“不过它不是倒挂了吗？”\n我又看了一遍。她说得对！确实是这样！",
+    "sentences": [
+      {
+        "en": "Lesson 26",
+        "zh": "第 26 课"
+      },
+      {
+        "en": "The Best Art Critics",
+        "zh": "最佳艺术评论家"
+      },
+      {
+        "en": "Who is the student's best critic?",
+        "zh": "谁是这位学生最好的评论家？"
+      },
+      {
+        "en": "I am an art student and I paint a lot of pictures.",
+        "zh": "我是一名艺术学生，经常画很多画。"
+      },
+      {
+        "en": "Many people pretend that they understand modern art.",
+        "zh": "很多人假装自己理解现代艺术。"
+      },
+      {
+        "en": "They always tell you what a picture is 'about'.",
+        "zh": "当然，很多画其实什么也不是。"
+      },
+      {
+        "en": "Of course, many pictures are not 'about' anything.",
+        "zh": "当然，很多图片其实并没有明确的主题或意义（即它们“并不表达任何特定的内容”）。"
+      },
+      {
+        "en": "They are just pretty patterns.",
+        "zh": "它们只不过是一些漂亮的图案罢了。"
+      },
+      {
+        "en": "We like them in the same way that we like pretty curtain material.",
+        "zh": "我们喜欢它们的方式，就如同我们喜欢漂亮的窗帘面料一样。"
+      },
+      {
+        "en": "I think that young children often appreciate modern pictures better than anyone else.",
+        "zh": "我认为，小孩子往往比任何人都更懂得欣赏现代画。"
+      },
+      {
+        "en": "They notice more.",
+        "zh": "他们看到的更多。"
+      },
+      {
+        "en": "My sister is only seven, but she always tells me whether my pictures are good or not.",
+        "zh": "我妹妹才七岁。但她总会告诉我我的画好不好。"
+      },
+      {
+        "en": "She came into my room yesterday.",
+        "zh": "她昨天进了我的房间。"
+      },
+      {
+        "en": "'What are you doing?' she asked.",
+        "zh": "“你在做什么？”她问。"
+      },
+      {
+        "en": "'I'm hanging this picture on the wall,' I answered. 'It's a new one. Do you like it?'",
+        "zh": "“我在把这幅画挂在墙上。”我回答说，“这是一幅新画。你喜欢吗？”"
+      },
+      {
+        "en": "She looked at it critically for a moment.",
+        "zh": "她挑剔地看了一会儿。"
+      },
+      {
+        "en": "'It's all right,' she said, 'but isn't it upside down?'",
+        "zh": "“还行吧，”她说，“不过它不是倒挂了吗？”"
+      },
+      {
+        "en": "I looked at it again.",
+        "zh": "我又看了一遍。"
+      },
+      {
+        "en": "She was right! It was!",
+        "zh": "她说得对！确实是这样！"
+      }
+    ]
+  },
   "sources": [
     {
-      "path": "content/NCE-Flow/NCE2/26－The Best Art Critics.lrc",
-      "locator": "完整LRC元数据、标题、问题和全部中英字幕，校勘位置见逐项证据",
+      "path": "content/article-review/history/89ce03e7bc1b8fa833501eb1b105a83e0fafa8495c6e220d15381f109966696a.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
       "checked": true,
-      "sha256": "8247b48b6db74471e8ec9650f903276fa54191d74ce671983758d226a451bcc1"
-    },
-    {
-      "path": "content/article-review/cleanup-2026-10-06.json",
-      "sha256": "cea27c1c69e32939ff83196bd29cce9a128d8d0d6f248611217179e037971889",
-      "locator": "public/nce/lessons/nce2/026.json",
-      "checked": true
+      "sha256": "ebe82be7c496ffa959fe0cdf4f405afc0d29b2df9ccf173440437cd33d0be9a1"
     }
   ],
-  "corrections": [
-    {
-      "field": "bodyTextZh",
-      "before": "我是一名艺术学生，经常画很多画。\n很多人假装自己理解现代艺术。\n他们总会告诉你一幅画“表现的是什么”。\n当然，许多画其实并不“表现”什么。\n它们只不过是一些漂亮的图案罢了。\n我们喜欢它们的方式，就如同我们喜欢漂亮的窗帘面料一样。\n我认为，小孩子往往比任何人都更懂得欣赏现代画。\n他们看到的更多。\n我妹妹才七岁。但她总会告诉我我的画好不好。\n她昨天进了我的房间。\n“你在做什么？”她问。\n“我在把这幅画挂在墙上。”我回答说，“这是一幅新画。你喜欢吗？”\n她挑剔地看了一会儿。\n“还行吧，”她说，“不过它不是倒挂了吗？”\n我又看了一遍。\n她说得对！确实是这样！",
-      "after": "我是一名艺术学生，经常画很多画。\n很多人假装自己理解现代艺术。\n当然，很多画其实什么也不是。\n当然，很多图片其实并没有明确的主题或意义（即它们“并不表达任何特定的内容”）。\n它们只不过是一些漂亮的图案罢了。\n我们喜欢它们的方式，就如同我们喜欢漂亮的窗帘面料一样。\n我认为，小孩子往往比任何人都更懂得欣赏现代画。\n他们看到的更多。\n我妹妹才七岁。但她总会告诉我我的画好不好。\n她昨天进了我的房间。\n“你在做什么？”她问。\n“我在把这幅画挂在墙上。”我回答说，“这是一幅新画。你喜欢吗？”\n她挑剔地看了一会儿。\n“还行吧，”她说，“不过它不是倒挂了吗？”\n我又看了一遍。\n她说得对！确实是这样！",
-      "evidence": "User-directed source-fidelity restoration; content/article-review/cleanup-2026-10-06.json"
-    }
-  ],
-  "fullReadConfirmed": false,
-  "recheckConfirmed": false,
-  "reviewMode": "source-fidelity-rules-v1",
-  "reviewer": "Codex (user-directed restoration)",
-  "reviewedAt": "2026-10-05T17:15:10+00:00",
-  "notes": "Rule-based restoration; original full-read review remains historical. content/article-review/cleanup-2026-10-06.json",
+  "corrections": [],
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "reviewer": "Codex",
+  "reviewedAt": "2026-10-07T07:50:52+00:00",
+  "notes": "艺术评论；现代画观点、儿童理解、妹妹来问、挑评倒挂、作者确认各成段。中文2与3近似重复属校勘保留。 text与bodyText同步；sentences对象及时间、角色、索引原样保留。",
   "issues": [],
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "134f28f015b54a4888dc66e4af3ab6bc71594dcd01cf828920a26bd85d46201c",
+    "afterFileSha256": "4aa813c5e7dc93730d9a7ca32a6d66ae248e64ae23fdc322da62b67271990c99",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "134f28f015b54a4888dc66e4af3ab6bc71594dcd01cf828920a26bd85d46201c",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title/titleZh、question/questionZh、bodyText全部16行、bodyTextZh全部16行及sentences[0..18]的完整文字；重复正文与字幕文本逐字比对，非正文字幕另读。操作在内存应用并validate_layout_change，修复后的双语全文重新通读。",
+      "notes": "艺术评论；现代画观点、儿童理解、妹妹来问、挑评倒挂、作者确认各成段。中文2与3近似重复属校勘保留。 text与bodyText同步；sentences对象及时间、角色、索引原样保留。",
+      "issues": [],
+      "display": {
+        "text": "Who is the student's best critic?\n\nI am an art student and I paint a lot of pictures. Many people pretend that they understand modern art. They always tell you what a picture is 'about'. Of course, many pictures are not 'about' anything. They are just pretty patterns. We like them in the same way that we like pretty curtain material.\nI think that young children often appreciate modern pictures better than anyone else. They notice more. My sister is only seven, but she always tells me whether my pictures are good or not.\nShe came into my room yesterday. 'What are you doing?' she asked.\n'I'm hanging this picture on the wall,' I answered. 'It's a new one. Do you like it?'\nShe looked at it critically for a moment. 'It's all right,' she said, 'but isn't it upside down?'\nI looked at it again. She was right! It was!",
+        "bodyText": "I am an art student and I paint a lot of pictures. Many people pretend that they understand modern art. They always tell you what a picture is 'about'. Of course, many pictures are not 'about' anything. They are just pretty patterns. We like them in the same way that we like pretty curtain material.\nI think that young children often appreciate modern pictures better than anyone else. They notice more. My sister is only seven, but she always tells me whether my pictures are good or not.\nShe came into my room yesterday. 'What are you doing?' she asked.\n'I'm hanging this picture on the wall,' I answered. 'It's a new one. Do you like it?'\nShe looked at it critically for a moment. 'It's all right,' she said, 'but isn't it upside down?'\nI looked at it again. She was right! It was!",
+        "bodyTextZh": "我是一名艺术学生，经常画很多画。很多人假装自己理解现代艺术。当然，很多画其实什么也不是。当然，很多图片其实并没有明确的主题或意义（即它们“并不表达任何特定的内容”）。它们只不过是一些漂亮的图案罢了。我们喜欢它们的方式，就如同我们喜欢漂亮的窗帘面料一样。\n我认为，小孩子往往比任何人都更懂得欣赏现代画。他们看到的更多。我妹妹才七岁。但她总会告诉我我的画好不好。\n她昨天进了我的房间。“你在做什么？”她问。\n“我在把这幅画挂在墙上。”我回答说，“这是一幅新画。你喜欢吗？”\n她挑剔地看了一会儿。“还行吧，”她说，“不过它不是倒挂了吗？”\n我又看了一遍。她说得对！确实是这样！"
+      },
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/89ce03e7bc1b8fa833501eb1b105a83e0fafa8495c6e220d15381f109966696a.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "ebe82be7c496ffa959fe0cdf4f405afc0d29b2df9ccf173440437cd33d0be9a1"
+        }
+      ]
+    }
+  },
   "status": "passed_edited",
-  "previousRevisionSha256": "c11aa84c5873901169aef86f593484e489a113661ebe48cf0f63546887cb879a",
-  "ruleRestoration": {
-    "policy": "source-fidelity-rules-v1",
-    "report": "content/article-review/cleanup-2026-10-06.json",
-    "reportSha256": "cea27c1c69e32939ff83196bd29cce9a128d8d0d6f248611217179e037971889"
-  }
+  "previousRevisionSha256": "89ce03e7bc1b8fa833501eb1b105a83e0fafa8495c6e220d15381f109966696a"
 }

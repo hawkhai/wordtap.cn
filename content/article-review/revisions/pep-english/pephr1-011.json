@@ -30,24 +30,45 @@
   },
   "sources": [
     {
-      "path": "content/pep-english/raw/senior-required-1.pdf",
-      "locator": "PDF第37-37页，标题与完整正文逐行核对",
+      "path": "content/article-review/history/2611f41da7a9aedb2b071a490c2c3d34e8b686fb8b4812b6acad2f02343c3193.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
       "checked": true,
-      "sha256": "ffe985a370964820aa003008f48c7cf17b5e0dff8eb29fe54cd4743b0c4e8c79"
-    },
-    {
-      "path": "content/pep-english/raw/senior-required-1/senior-required-1_37.jpg",
-      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
-      "checked": true,
-      "sha256": "8619920149e5f171465f5333f9fd34879f1a8115bde1c13e4a6ba8e9683ad5d6"
+      "sha256": "d943419d3f93219297861e1f442f4fb6e592520fdde759f944c048f7627e1312"
     }
   ],
   "corrections": [],
   "fullReadConfirmed": true,
   "recheckConfirmed": true,
   "reviewer": "Codex",
-  "reviewedAt": "2026-10-02T05:23:17+00:00",
-  "notes": "PDF第37页下方Terracotta Army宣传文逐行一致。8000、third century BCE、700000、nearly 40 years及1974均按教材保留，单段边界正确，无修改。",
+  "reviewedAt": "2026-10-07T07:30:10+00:00",
+  "notes": "兵马俑介绍从雕像特点到陵墓建造和发现，完整段落连贯，无句内断行。",
   "issues": [],
-  "status": "passed_unchanged"
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "aeae23de5881976b257ae27440052969cdd8f62a1454c25dc95cbf62966ae4b7",
+    "afterFileSha256": "aeae23de5881976b257ae27440052969cdd8f62a1454c25dc95cbf62966ae4b7",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "aeae23de5881976b257ae27440052969cdd8f62a1454c25dc95cbf62966ae4b7",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..0] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "兵马俑介绍从雕像特点到陵墓建造和发现，完整段落连贯，无句内断行。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/2611f41da7a9aedb2b071a490c2c3d34e8b686fb8b4812b6acad2f02343c3193.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "d943419d3f93219297861e1f442f4fb6e592520fdde759f944c048f7627e1312"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "2611f41da7a9aedb2b071a490c2c3d34e8b686fb8b4812b6acad2f02343c3193"
 }

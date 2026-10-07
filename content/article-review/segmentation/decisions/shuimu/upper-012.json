@@ -1,0 +1,256 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "338111c4aef4e153eca400f0b65530588c4d65319c3bffef04b9c651e3a232ab",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title；全文 blocks[0..192] 与对应 text；现有正文/对话/题干逐块通读复核。",
+  "notes": "完整通读Not guilty的词汇、英汉正文全部海关问答轮次、语法注释、21道问答、走私宝石写作模板与单段范文、12道选择题答案。开箱及香水/发胶对话保持轮次；中文回答后紧随的叙述未跨越下一发言。作文按明确单段要求完整保留，文字符号异常不改。",
+  "issues": [],
+  "mergeBlocks": [
+    {
+      "start": 25,
+      "end": 30,
+      "before": [
+        "Customs Officers are quite tolerant these days, but they can still stop you when you",
+        "are going through the Green Channel and have nothing to declare. Even really honest",
+        "people are often made to feel guilty. The hardened professional smuggler, on the other",
+        "hand, is never troubled by such feelings, even if he has five hundred gold watches",
+        "hidden in his suitcase. When I returned from abroad recently, a particularly officious",
+        "young Customs Officer clearly regarded me as a smuggler."
+      ],
+      "text": "Customs Officers are quite tolerant these days, but they can still stop you when you are going through the Green Channel and have nothing to declare. Even really honest people are often made to feel guilty. The hardened professional smuggler, on the other hand, is never troubled by such feelings, even if he has five hundred gold watches hidden in his suitcase. When I returned from abroad recently, a particularly officious young Customs Officer clearly regarded me as a smuggler.",
+      "reason": "海关检查故事的叙事和译文段及注释/题目连续断行接续；对话按各发言人轮次保留。"
+    },
+    {
+      "start": 31,
+      "end": 34,
+      "before": [
+        "现在的海关官员往往相当宽容。但是，当你通过绿色通道，没有任何东西需要申",
+        "报时，他们仍可以拦住你。甚至是最诚实的人也常被弄得觉得有罪似的，而老练",
+        "的职业走私犯即使在手提箱里藏着 500 只金表，却也处之泰然。最近一次，我出",
+        "国归来，碰上一位特别好管闲事的年轻海关官员，他显然把我当成了走私犯。"
+      ],
+      "text": "现在的海关官员往往相当宽容。但是，当你通过绿色通道，没有任何东西需要申报时，他们仍可以拦住你。甚至是最诚实的人也常被弄得觉得有罪似的，而老练的职业走私犯即使在手提箱里藏着 500 只金表，却也处之泰然。最近一次，我出国归来，碰上一位特别好管闲事的年轻海关官员，他显然把我当成了走私犯。",
+      "reason": "海关检查故事的叙事和译文段及注释/题目连续断行接续；对话按各发言人轮次保留。"
+    },
+    {
+      "start": 44,
+      "end": 45,
+      "before": [
+        "1 the Green Channel ，绿色通道，指海关专供没有携带征税物品进关的旅客所走",
+        "的通道。"
+      ],
+      "text": "1 the Green Channel ，绿色通道，指海关专供没有携带征税物品进关的旅客所走的通道。",
+      "reason": "海关检查故事的叙事和译文段及注释/题目连续断行接续；对话按各发言人轮次保留。"
+    },
+    {
+      "start": 46,
+      "end": 47,
+      "before": [
+        "2 hidden in his suitcase 是过去分词短语作定语，修饰 watches，它相当于一个定语",
+        "从句：which were hidden in his suitcase."
+      ],
+      "text": "2 hidden in his suitcase 是过去分词短语作定语，修饰 watches，它相当于一个定语从句：which were hidden in his suitcase.",
+      "reason": "海关检查故事的叙事和译文段及注释/题目连续断行接续；对话按各发言人轮次保留。"
+    },
+    {
+      "start": 48,
+      "end": 49,
+      "before": [
+        "3 looking me in the eye ，直盯着我的眼睛，这是分词短语作状语，表示方式，修",
+        "饰 asked。"
+      ],
+      "text": "3 looking me in the eye ，直盯着我的眼睛，这是分词短语作状语，表示方式，修饰 asked。",
+      "reason": "海关检查故事的叙事和译文段及注释/题目连续断行接续；对话按各发言人轮次保留。"
+    },
+    {
+      "start": 50,
+      "end": 53,
+      "before": [
+        "The Officer went through the case with great care. All the things I had packed so",
+        "carefully were soon in a dreadful mess. I felt sure I would never be able to close the",
+        "case again. Suddenly, I saw the Officer's face light up. He had spotted a tiny bottle at",
+        "the bottom of my case and he pounced on it with delight."
+      ],
+      "text": "The Officer went through the case with great care. All the things I had packed so carefully were soon in a dreadful mess. I felt sure I would never be able to close the case again. Suddenly, I saw the Officer's face light up. He had spotted a tiny bottle at the bottom of my case and he pounced on it with delight.",
+      "reason": "海关检查故事的叙事和译文段及注释/题目连续断行接续；对话按各发言人轮次保留。"
+    },
+    {
+      "start": 54,
+      "end": 56,
+      "before": [
+        "那位官员十分仔细地把箱子检查了一遍。所有细心包装好的东西一会儿工夫就乱",
+        "成了一团。我相信那箱子再也关不上了。突然，我看到官员脸上露出了得意的神",
+        "色。他在我的箱底发现了一只小瓶，高兴地一把抓了起来。"
+      ],
+      "text": "那位官员十分仔细地把箱子检查了一遍。所有细心包装好的东西一会儿工夫就乱成了一团。我相信那箱子再也关不上了。突然，我看到官员脸上露出了得意的神色。他在我的箱底发现了一只小瓶，高兴地一把抓了起来。",
+      "reason": "海关检查故事的叙事和译文段及注释/题目连续断行接续；对话按各发言人轮次保留。"
+    },
+    {
+      "start": 61,
+      "end": 62,
+      "before": [
+        "‘Perfume, eh?’ he asked sarcastically. ‘You should have declared that. Perfume is not",
+        "exempt from import duty.’"
+      ],
+      "text": "‘Perfume, eh?’ he asked sarcastically. ‘You should have declared that. Perfume is not exempt from import duty.’",
+      "reason": "海关检查故事的叙事和译文段及注释/题目连续断行接续；对话按各发言人轮次保留。"
+    },
+    {
+      "start": 63,
+      "end": 64,
+      "before": [
+        "‘But it isn't perfume,’ I said. ‘It's hair gel.’ Then I added with a smile, ‘It's a strange",
+        "mixture I make myself.’"
+      ],
+      "text": "‘But it isn't perfume,’ I said. ‘It's hair gel.’ Then I added with a smile, ‘It's a strange mixture I make myself.’",
+      "reason": "海关检查故事的叙事和译文段及注释/题目连续断行接续；对话按各发言人轮次保留。"
+    },
+    {
+      "start": 68,
+      "end": 69,
+      "before": [
+        "“不，这不是香水，”我说，“是发胶。”接着我脸带微笑补充说：“这是一种我自",
+        "己配制的奇特的混合物。”果不出所料，他并不相信我。"
+      ],
+      "text": "“不，这不是香水，”我说，“是发胶。”接着我脸带微笑补充说：“这是一种我自己配制的奇特的混合物。”果不出所料，他并不相信我。",
+      "reason": "海关检查故事的叙事和译文段及注释/题目连续断行接续；对话按各发言人轮次保留。"
+    },
+    {
+      "start": 72,
+      "end": 73,
+      "before": [
+        "7 You should have declared that.你早该申报了。“should +不定式的完成式”表示",
+        "本该做而未做之事。"
+      ],
+      "text": "7 You should have declared that.你早该申报了。“should +不定式的完成式”表示本该做而未做之事。",
+      "reason": "海关检查故事的叙事和译文段及注释/题目连续断行接续；对话按各发言人轮次保留。"
+    },
+    {
+      "start": 75,
+      "end": 77,
+      "before": [
+        "The Officer unscrewed the cap and put the bottle to his nostrils. He was greeted by an",
+        "unpleasant smell which convinced him that I was telling the truth. A few minutes later,",
+        "I was able to hurry away with precious chalk marks on my baggage."
+      ],
+      "text": "The Officer unscrewed the cap and put the bottle to his nostrils. He was greeted by an unpleasant smell which convinced him that I was telling the truth. A few minutes later, I was able to hurry away with precious chalk marks on my baggage.",
+      "reason": "海关检查故事的叙事和译文段及注释/题目连续断行接续；对话按各发言人轮次保留。"
+    },
+    {
+      "start": 78,
+      "end": 79,
+      "before": [
+        "海关官员拧开瓶盖，把瓶子放到鼻子底下。一股怪味袭来，使他相信了我说的是",
+        "真话。几分钟后，我终于被放行，手提划着宝贵的粉笔记号的行李，匆匆离去。"
+      ],
+      "text": "海关官员拧开瓶盖，把瓶子放到鼻子底下。一股怪味袭来，使他相信了我说的是真话。几分钟后，我终于被放行，手提划着宝贵的粉笔记号的行李，匆匆离去。",
+      "reason": "海关检查故事的叙事和译文段及注释/题目连续断行接续；对话按各发言人轮次保留。"
+    },
+    {
+      "start": 83,
+      "end": 84,
+      "before": [
+        "1 What does it mean if you go through the Green Channel? (You have nothing to",
+        "declare.)"
+      ],
+      "text": "1 What does it mean if you go through the Green Channel? (You have nothing to declare.)",
+      "reason": "海关检查故事的叙事和译文段及注释/题目连续断行接续；对话按各发言人轮次保留。"
+    },
+    {
+      "start": 88,
+      "end": 89,
+      "before": [
+        "5 What about the hardened professional smuggler? (He's never troubled by such",
+        "feelings. )"
+      ],
+      "text": "5 What about the hardened professional smuggler? (He's never troubled by such feelings. )",
+      "reason": "海关检查故事的叙事和译文段及注释/题目连续断行接续；对话按各发言人轮次保留。"
+    },
+    {
+      "start": 95,
+      "end": 96,
+      "before": [
+        "11 What happened to all the things you had packed so carefully? (They were in a",
+        "dreadful mess.)"
+      ],
+      "text": "11 What happened to all the things you had packed so carefully? (They were in a dreadful mess.)",
+      "reason": "海关检查故事的叙事和译文段及注释/题目连续断行接续；对话按各发言人轮次保留。"
+    },
+    {
+      "start": 98,
+      "end": 99,
+      "before": [
+        "13 Why did the Customs Officer's face light up? (Because he spotted a tiny bottle at",
+        "the bottom of my case)"
+      ],
+      "text": "13 Why did the Customs Officer's face light up? (Because he spotted a tiny bottle at the bottom of my case)",
+      "reason": "海关检查故事的叙事和译文段及注释/题目连续断行接续；对话按各发言人轮次保留。"
+    },
+    {
+      "start": 105,
+      "end": 106,
+      "before": [
+        "19 What did the Customs Officer do then? (He unscrewed the cap and put the bottle to",
+        "his nostrils.)"
+      ],
+      "text": "19 What did the Customs Officer do then? (He unscrewed the cap and put the bottle to his nostrils.)",
+      "reason": "海关检查故事的叙事和译文段及注释/题目连续断行接续；对话按各发言人轮次保留。"
+    },
+    {
+      "start": 111,
+      "end": 112,
+      "before": [
+        "Imagine that a man tries to smuggle something valuable through the Customs. Expand",
+        "the following into a paragraph of about 150 words."
+      ],
+      "text": "Imagine that a man tries to smuggle something valuable through the Customs. Expand the following into a paragraph of about 150 words.",
+      "reason": "海关检查故事的叙事和译文段及注释/题目连续断行接续；对话按各发言人轮次保留。"
+    },
+    {
+      "start": 113,
+      "end": 119,
+      "before": [
+        "When the Customs Officer… the man said that he had nothing to declare. The Officer",
+        "asked the man to... Although the case contained only... and... it was very heavy.",
+        "This made the Officer suspicious, so he...The case was soon empty and when the",
+        "Officer... he found that... The officer examined the case carefully and saw that... He...",
+        "and removed the bottom part of the case which contained... While the Officer was",
+        "looking at... the man tried to... For a moment, the man disappeared among... but he",
+        "was soon... and placed under arrest."
+      ],
+      "text": "When the Customs Officer… the man said that he had nothing to declare. The Officer asked the man to... Although the case contained only... and... it was very heavy. This made the Officer suspicious, so he...The case was soon empty and when the Officer... he found that... The officer examined the case carefully and saw that... He... and removed the bottom part of the case which contained... While the Officer was looking at... the man tried to... For a moment, the man disappeared among... but he was soon... and placed under arrest.",
+      "reason": "海关检查故事的叙事和译文段及注释/题目连续断行接续；对话按各发言人轮次保留。"
+    },
+    {
+      "start": 121,
+      "end": 130,
+      "before": [
+        "When the Customs Officer asked the traveller if he was carrying anything",
+        "valuable, the man said that he had nothing to declare. The Officer asked the man to",
+        "open his suitcase. Although the case contained only a suit and some dirty clothes, it",
+        "was very heavy. This made the Customs Officer suspicious so he removed all the",
+        "clothes from the case. The case was soon empty and when the Officer lifted it, he",
+        "found that it was still very heavy. The Officer examined the case carefully and saw",
+        "that the bottom was very shallow. He pressed the base hard and removed the bottom",
+        "part of the case which contained a quantity of precious stones. While the Officer was",
+        "looking at a stone, the man tried to escape. For a moment, the man disappeared among",
+        "the passing holiday travellers, but he was soon caught and placed under arrest."
+      ],
+      "text": "When the Customs Officer asked the traveller if he was carrying anything valuable, the man said that he had nothing to declare. The Officer asked the man to open his suitcase. Although the case contained only a suit and some dirty clothes, it was very heavy. This made the Customs Officer suspicious so he removed all the clothes from the case. The case was soon empty and when the Officer lifted it, he found that it was still very heavy. The Officer examined the case carefully and saw that the bottom was very shallow. He pressed the base hard and removed the bottom part of the case which contained a quantity of precious stones. While the Officer was looking at a stone, the man tried to escape. For a moment, the man disappeared among the passing holiday travellers, but he was soon caught and placed under arrest.",
+      "reason": "海关检查故事的叙事和译文段及注释/题目连续断行接续；对话按各发言人轮次保留。"
+    }
+  ],
+  "splitBlocks": [],
+  "blockEdits": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/7a1b1098859f091cbed3842432021f29df0ba6c905832c0e508ca44058c1d89e.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "c62ca1d570629eea37a58a898a710c7d471daa92954435c4095a7620f3d20001"
+    }
+  ]
+}

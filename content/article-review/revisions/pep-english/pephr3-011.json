@@ -70,30 +70,45 @@
   },
   "sources": [
     {
-      "path": "content/pep-english/raw/senior-required-3.pdf",
-      "locator": "PDF第35-36页，标题与完整正文逐行核对",
+      "path": "content/article-review/history/9906945bfe80b9640d4041677163413ff476a6136634f05c8f8001f282de5e81.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
       "checked": true,
-      "sha256": "fe9c8e15e62f4aec56efc60b8de43f4a55d40f3114d6505affaef78a8b7a1af2"
-    },
-    {
-      "path": "content/pep-english/raw/senior-required-3/senior-required-3_35.jpg",
-      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
-      "checked": true,
-      "sha256": "cef7183fddfb16c84f1b62c268be48bb7c3973777be0fd733af2bdf2496a6108"
-    },
-    {
-      "path": "content/pep-english/raw/senior-required-3/senior-required-3_36.jpg",
-      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
-      "checked": true,
-      "sha256": "6c76fcda008e7ee759989f08d1f422bbbb334872ce7cc45d9679fe6f4682e2b5"
+      "sha256": "ca1b7274503b1cffd52927ef5247c56021424fa962af822ddb60fd70a2cd5d1b"
     }
   ],
   "corrections": [],
   "fullReadConfirmed": true,
   "recheckConfirmed": true,
   "reviewer": "Codex",
-  "reviewedAt": "2026-10-02T05:56:12+00:00",
-  "notes": "核对PDF第35—36页Li Lan旧金山五段日记，日期已保存在文章标题；Mission District、1848淘金及移民博物馆、粤菜餐厅和Richmond爵士酒吧全文一致，跨页最后两段完整。",
+  "reviewedAt": "2026-10-07T07:30:20+00:00",
+  "notes": "旧金山日记按回城、Mission区、下午博物馆、晚餐和次日计划五段组织，保留多句见闻段。",
   "issues": [],
-  "status": "passed_unchanged"
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "25c11f3cd104a4323ecff9d20169153a0773ebeb82ba3156736fa019410409bf",
+    "afterFileSha256": "25c11f3cd104a4323ecff9d20169153a0773ebeb82ba3156736fa019410409bf",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "25c11f3cd104a4323ecff9d20169153a0773ebeb82ba3156736fa019410409bf",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..4] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "旧金山日记按回城、Mission区、下午博物馆、晚餐和次日计划五段组织，保留多句见闻段。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/9906945bfe80b9640d4041677163413ff476a6136634f05c8f8001f282de5e81.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "ca1b7274503b1cffd52927ef5247c56021424fa962af822ddb60fd70a2cd5d1b"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "9906945bfe80b9640d4041677163413ff476a6136634f05c8f8001f282de5e81"
 }

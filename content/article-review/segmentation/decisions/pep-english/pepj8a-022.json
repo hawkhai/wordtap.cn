@@ -1,0 +1,22 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "7805aecc3946f199da545e40b502dea076aaaed4a51d0fc66593b8abbfbcc55b",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title；全文 blocks[0..5] 与对应 text；现有正文/对话/题干逐块通读复核。",
+  "notes": "Jeff邀请Nick六轮已独立，周六与周一晚安排对应清楚保留。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "blockEdits": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/5e2df74bff0b37b9281ef9c0a5f415df0e4ceb0a820df3580753dde756f3056c.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "0e1534c49124393e62937c53d6dc39bffa4ec4784ab3c8bcb0c843aa73198d71"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "3730beadd2434dfc028ae8e902fa9afead7ce3a510c9a5caab1262f79507a024",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title/titleZh、question/questionZh、bodyText全部14行、bodyTextZh全部14行及sentences[0..16]的完整文字；重复正文与字幕文本逐字比对，非正文字幕另读。操作在内存应用并validate_layout_change，修复后的双语全文重新通读。",
+  "notes": "选举后反复询问；政敌背景、首访、次访、第三访警察完整怒答四段，Patrick爱听的回应独立。 text与bodyText同步；sentences对象及时间、角色、索引原样保留。",
+  "issues": [],
+  "display": {
+    "text": "Why did Patrick keep on asking the same question?\n\nThe former Prime Minister, Mr. Wentworth Lane, was defeated in the recent elections. He is now retiring from political life and has gone abroad. My friend, Patrick, has always been a fanatical opponent of Mr. Lane's Radical Progressive Party.\nAfter the elections, Patrick went to the former Prime Minister's house. When he asked if Mr. Lane lived there, the policeman on duty told him that since his defeat, the ex-Prime Minister had gone abroad.\nOn the following day Patrick went to the house again. The same policeman was just walking slowly past the entrance, when Patrick asked the same question. Though a little suspicious this time the policeman gave him the same answer.\nThe day after, Patrick went to the house once more and asked exactly the same question. This time, the policeman lost his temper. 'I told you yesterday and the day before yesterday,' he shouted, 'Mr. Lane was defeated in the elections. He has retired from political life and gone to live abroad!'\n'I know,' answered Patrick, 'but I love to hear you say it!'",
+    "bodyText": "The former Prime Minister, Mr. Wentworth Lane, was defeated in the recent elections. He is now retiring from political life and has gone abroad. My friend, Patrick, has always been a fanatical opponent of Mr. Lane's Radical Progressive Party.\nAfter the elections, Patrick went to the former Prime Minister's house. When he asked if Mr. Lane lived there, the policeman on duty told him that since his defeat, the ex-Prime Minister had gone abroad.\nOn the following day Patrick went to the house again. The same policeman was just walking slowly past the entrance, when Patrick asked the same question. Though a little suspicious this time the policeman gave him the same answer.\nThe day after, Patrick went to the house once more and asked exactly the same question. This time, the policeman lost his temper. 'I told you yesterday and the day before yesterday,' he shouted, 'Mr. Lane was defeated in the elections. He has retired from political life and gone to live abroad!'\n'I know,' answered Patrick, 'but I love to hear you say it!'",
+    "bodyTextZh": "前首相温特沃斯·莱恩先生在最近的选举中落败了。他现在已经退出政坛，并已出国。我的朋友帕特里克一直是莱恩先生领导的激进进步党的强烈反对者。\n选举结束后，帕特里克去了前首相的住所。当他询问莱恩先生是否住在那里时，值班的警察告诉他，自从落败后，前首相就已经出国了。\n第二天，帕特里克再次来到那栋房子前。还是那位警察，他正缓缓地从门口走过，这时帕特里克又问了同样的问题。虽然这次警察有些起疑，但他还是给出了同样的回答。\n第三天，帕特里克再次来到那里，问了完全相同的问题。这一次，警察终于发火了。“我昨天和前天都告诉过你！”他大声说道。莱恩先生在选举中落败了。他已经退出政坛，到国外定居去了！\n“我知道，”帕特里克回答道，“可我就是爱听你这么说！”"
+  },
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/fc74b94f3e67f23ba9d397c4bfb97ceb74cadf62e71ea2cdddce766e7c45921f.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "43c6b70f67bd515e2497b0fdf51c6305c7dddcd2af8e4e436edd8af22c883b7e"
+    }
+  ]
+}

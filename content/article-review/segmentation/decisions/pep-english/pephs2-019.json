@@ -1,0 +1,21 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "95a387275156682c4f0fdf1a1325f5f0930eb98495edbbd6b09a148573767989",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title；全文 blocks[0..3] 与对应 text；现有正文/对话/题干逐块通读复核。",
+  "notes": "新鲜食物四段分别呈现Mei Lin、Su Bo、忙碌时例外、趋势判断，访谈引语归属完整。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/493796f0b62af55a168fca11155d7097bd899c9105976e84f94c1ab0afe49c55.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "a7cf1becca3c7493ee1f8b9e9c0e4c07448056542951dc6238eb92b2c2cfc5e1"
+    }
+  ]
+}

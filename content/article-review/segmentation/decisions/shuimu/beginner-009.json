@@ -1,0 +1,51 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "a6aac9bff1649287e3ed02c575826a5ea4ace66570cf33c50e721bd4304a6c9c",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "coverage": "全文 blocks[0..100]；按 JSON 上下文逐项复核对话、解释、题目、表格、词表及修复后的边界。",
+  "notes": "合并 one 例句的译文、定冠词定义和 watch 例句译文三处续行；两组对话轮次、定冠词分类与词表保持。",
+  "issues": [],
+  "mergeBlocks": [
+    {
+      "start": 56,
+      "end": 57,
+      "before": [
+        "▪ I've lost my pen. I want to buy a new one.我的钢笔丢了，我想买一支",
+        "新的。"
+      ],
+      "text": "▪ I've lost my pen. I want to buy a new one.我的钢笔丢了，我想买一支新的。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 62,
+      "end": 63,
+      "before": [
+        "定冠词放在名词前面，主要用来特指某些人或某些事物。the 在以元音音素开头的单",
+        "词前读作[ði]，在以辅音音素开头的单词前读作[ðə]。"
+      ],
+      "text": "定冠词放在名词前面，主要用来特指某些人或某些事物。the 在以元音音素开头的单词前读作[ði]，在以辅音音素开头的单词前读作[ðə]。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 69,
+      "end": 70,
+      "before": [
+        "◦ I bought a watch.The watch is very beautiful.我买了一只手表，这只手表",
+        "非常漂亮。"
+      ],
+      "text": "◦ I bought a watch.The watch is very beautiful.我买了一只手表，这只手表非常漂亮。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    }
+  ],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/3cb1b0c250d8ed984d59e5534dd6edcad427c1fd8a760ca096d63a7abd231166.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "77a7585ca59d7462e420f10cbabf2dbcbff757fbc8d9a93a852bdc02f7729374"
+    }
+  ]
+}

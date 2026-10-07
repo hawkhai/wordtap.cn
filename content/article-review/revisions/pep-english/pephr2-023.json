@@ -50,24 +50,45 @@
   },
   "sources": [
     {
-      "path": "content/pep-english/raw/senior-required-2.pdf",
-      "locator": "PDF第89-89页，标题与完整正文逐行核对",
+      "path": "content/article-review/history/566764f6d196bbf9e50b5189880c3f431084d5dad67553493fb0b07a2d061741.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
       "checked": true,
-      "sha256": "33b74bf42b22b32fdbe3201e6f61cf8099be047ef0af8a1740f6013dee4a619d"
-    },
-    {
-      "path": "content/pep-english/raw/senior-required-2/senior-required-2_89.jpg",
-      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
-      "checked": true,
-      "sha256": "6d3256d3d9da628bfe32978d26e5452db9443932bd327eee378d31c6cc273d1d"
+      "sha256": "bc5035972d73cc98d7f6bb5919f0dad3e26835736f380a75852db1663e557471"
     }
   ],
   "corrections": [],
   "fullReadConfirmed": true,
   "recheckConfirmed": true,
   "reviewer": "Codex",
-  "reviewedAt": "2026-10-02T05:47:50+00:00",
-  "notes": "核对PDF第89页上方Cleo开罗邮件，称呼、单段旅行正文及Love, Cleo同一行署名均与原页一致；保留尼罗河、面具、骆驼、项链和米饭细节。",
+  "reviewedAt": "2026-10-07T07:30:17+00:00",
+  "notes": "Cleo开罗邮件称呼与落款独立，博物馆、金字塔、市场及食物在同一旅行叙述段完整保留。",
   "issues": [],
-  "status": "passed_unchanged"
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "e9f47228f3ac787de99ee90619ade96325d86a2e297baa915285ad8ac630a252",
+    "afterFileSha256": "e9f47228f3ac787de99ee90619ade96325d86a2e297baa915285ad8ac630a252",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "e9f47228f3ac787de99ee90619ade96325d86a2e297baa915285ad8ac630a252",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..2] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "Cleo开罗邮件称呼与落款独立，博物馆、金字塔、市场及食物在同一旅行叙述段完整保留。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/566764f6d196bbf9e50b5189880c3f431084d5dad67553493fb0b07a2d061741.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "bc5035972d73cc98d7f6bb5919f0dad3e26835736f380a75852db1663e557471"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "566764f6d196bbf9e50b5189880c3f431084d5dad67553493fb0b07a2d061741"
 }

@@ -60,24 +60,45 @@
   },
   "sources": [
     {
-      "path": "content/pep-english/raw/senior-selective-4.pdf",
-      "locator": "PDF第39-39页，标题与完整正文逐行核对",
+      "path": "content/article-review/history/73cf510aa19bd82361a09f8a0253cb74b0c566277408599294832300bba354f2.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
       "checked": true,
-      "sha256": "2ad7555a13eb420aa70497f9faa2541fdb502b7ffc4e063e87c60cce88f1b4a3"
-    },
-    {
-      "path": "content/pep-english/raw/senior-selective-4/senior-selective-4_39.jpg",
-      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
-      "checked": true,
-      "sha256": "12f17ba133830f17128dd829ca0453ca4de489d5d4e9315c387aea32cecdd3ff"
+      "sha256": "781fe6020b8f88761c947a884d471428e29fd7c4f7316261007db393ba0c3df2"
     }
   ],
   "corrections": [],
   "fullReadConfirmed": true,
   "recheckConfirmed": true,
   "reviewer": "Codex",
-  "reviewedAt": "2026-10-02T07:37:12+00:00",
-  "notes": "逐行核对PDF39页右栏正方论述四段，文字、顺序、标点和段落一致。保留may/probably/hopefully限定的科研前景设想，包括地震预测愿景，不将其表述为已实现能力。",
+  "reviewedAt": "2026-10-07T07:35:55+00:00",
+  "notes": "支持海洋探索四段为科研、资源认识、发展需求、风险平衡，保留多句论述段。",
   "issues": [],
-  "status": "passed_unchanged"
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "9ad1c196a4f222eab70a8de2fe2588c7fb9a6e009753b73d632e8356f79c7d45",
+    "afterFileSha256": "9ad1c196a4f222eab70a8de2fe2588c7fb9a6e009753b73d632e8356f79c7d45",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "9ad1c196a4f222eab70a8de2fe2588c7fb9a6e009753b73d632e8356f79c7d45",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..3] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "支持海洋探索四段为科研、资源认识、发展需求、风险平衡，保留多句论述段。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/73cf510aa19bd82361a09f8a0253cb74b0c566277408599294832300bba354f2.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "781fe6020b8f88761c947a884d471428e29fd7c4f7316261007db393ba0c3df2"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "73cf510aa19bd82361a09f8a0253cb74b0c566277408599294832300bba354f2"
 }

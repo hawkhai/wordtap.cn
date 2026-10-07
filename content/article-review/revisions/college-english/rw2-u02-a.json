@@ -122,36 +122,45 @@
   },
   "sources": [
     {
-      "path": "content/College-English/NHCE4-RW2.pdf",
-      "locator": "PDF 45-47，印刷页 30-32，完整正文与标题逐段核对",
+      "path": "content/article-review/history/bd25ae313df4126d0b760686ddc5dfc1d970c7ba6cb86cb19b26a8422b223057.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
       "checked": true,
-      "sha256": "67f2efd99fc8d9779b945b5714857c2e608b39d42a1ce254c7d501abb21ab978"
-    },
-    {
-      "path": "content/College-English/NHCE4-RW2/NHCE4-RW2_45.jpg",
-      "locator": "已打开教材图页并通读复核正文",
-      "checked": true,
-      "sha256": "76db9fb7d46e7beeff75447d77468af983567eb16b9bdb5b5397d4fb3e21a2e0"
-    },
-    {
-      "path": "content/College-English/NHCE4-RW2/NHCE4-RW2_46.jpg",
-      "locator": "已打开教材图页并通读复核正文",
-      "checked": true,
-      "sha256": "31b7560752631f08e6d9d0c694c6ef5145b70e65e178c80f1f25b1c2c074e000"
-    },
-    {
-      "path": "content/College-English/NHCE4-RW2/NHCE4-RW2_47.jpg",
-      "locator": "已打开教材图页并通读复核正文",
-      "checked": true,
-      "sha256": "41ca87c058dbb7b902c3993e91c9cf825faea511fbb9ace7be81ece0f6026af5"
+      "sha256": "7baa320f965b79a2babb85c7a9e86d25e36eeb758399488b1510854638594f4e"
     }
   ],
   "corrections": [],
   "fullReadConfirmed": true,
   "recheckConfirmed": true,
   "reviewer": "Codex",
-  "reviewedAt": "2026-10-02T08:43:45+00:00",
-  "notes": "完整通读10段并核对PDF45—47页，确认第3段跨页和第5段跨栏接续、AP全称、engineering/graphic design/journalism三次选择。Goldilocks及粥冷热为首尾连贯的幽默比喻，保留作者个人经历、语气及碎句，无OCR或段序问题。",
+  "reviewedAt": "2026-10-07T07:30:03+00:00",
+  "notes": "全文及未改动输出复核：三只熊粥喻贯穿工程、平面设计、新闻专业三个尝试；父亲电话点醒、写作能力回顾、新闻专业综合优势和结局自然分段，保留十段。",
   "issues": [],
-  "status": "passed_unchanged"
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "d551f951e405b35d5c64572b1bdf42c0adf95c2e7ef4b29a0993296baf268d6a",
+    "afterFileSha256": "d551f951e405b35d5c64572b1bdf42c0adf95c2e7ef4b29a0993296baf268d6a",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "d551f951e405b35d5c64572b1bdf42c0adf95c2e7ef4b29a0993296baf268d6a",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "完整 title、blocks[0..9]及完全相同的text；正文及内嵌中文、引语、对话和列举均已逐项通读；无改动输出按全文再次复核。",
+      "notes": "全文及未改动输出复核：三只熊粥喻贯穿工程、平面设计、新闻专业三个尝试；父亲电话点醒、写作能力回顾、新闻专业综合优势和结局自然分段，保留十段。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/bd25ae313df4126d0b760686ddc5dfc1d970c7ba6cb86cb19b26a8422b223057.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "7baa320f965b79a2babb85c7a9e86d25e36eeb758399488b1510854638594f4e"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "bd25ae313df4126d0b760686ddc5dfc1d970c7ba6cb86cb19b26a8422b223057"
 }

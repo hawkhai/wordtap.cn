@@ -2,68 +2,9 @@
   "schemaVersion": 1,
   "course": "nce",
   "articleId": "nce2-016",
-  "beforeDisplaySha256": "7c2d3ced5a2bcf3db02044e58d8c8ed9d6a51a971414549c96619622f8a70f47",
-  "afterDisplaySha256": "a4c2a550f04761b4c47cb24cb7ed4fe5c13f3837575a6054a47b4fc5892a3a5a",
+  "beforeDisplaySha256": "a4c2a550f04761b4c47cb24cb7ed4fe5c13f3837575a6054a47b4fc5892a3a5a",
+  "afterDisplaySha256": "f11b209c66903caa225e365333bb916f88c4b0d34867310f8eb2dc9a0693a502",
   "baselineDisplay": {
-    "title": "A Polite Request",
-    "titleZh": "彬彬有礼的要求",
-    "question": "What was the polite request?",
-    "questionZh": "那个礼貌的请求是什么？",
-    "text": "What was the polite request?\n\nIf you park your car in the wrong place, a traffic policeman will soon find it.\nYou will be very lucky if he lets you go without a ticket.\nHowever, this does not always happen.\nTraffic police are sometimes very polite.\nDuring a holiday in Sweden,\nI found this note on my car:\n'Sir, we welcome you to our city. This is a No Parking area.\nYou will enjoy your stay here if you pay attention to our street signs. This note is only a reminder.'\nIf you receive a request like this, you cannot fail to obey it!",
-    "bodyText": "If you park your car in the wrong place, a traffic policeman will soon find it.\nYou will be very lucky if he lets you go without a ticket.\nHowever, this does not always happen.\nTraffic police are sometimes very polite.\nDuring a holiday in Sweden,\nI found this note on my car:\n'Sir, we welcome you to our city. This is a No Parking area.\nYou will enjoy your stay here if you pay attention to our street signs. This note is only a reminder.'\nIf you receive a request like this, you cannot fail to obey it!",
-    "bodyTextZh": "如果你把车停在了错误的地方，交通警察很快就会发现它。\n如果他没开罚单就放你走，那你就非常幸运了。\n不过，这种情况并不总是发生。\n有时候，交通警察会非常礼貌。\n在瑞典的一个假期里，\n我在我的车上发现了一张纸条：\n“先生，欢迎您来到我们的城市。这里是禁止停车区。\n如果您注意看街道上的标志，您的停留会非常愉快。这张纸条只是为了提醒您而已。”\n如果你收到这样的请求，你一定会遵守的！",
-    "sentences": [
-      {
-        "en": "Lesson 16",
-        "zh": "第 16 课"
-      },
-      {
-        "en": "A Polite Request",
-        "zh": "彬彬有礼的要求"
-      },
-      {
-        "en": "What was the polite request?",
-        "zh": "那个礼貌的请求是什么？"
-      },
-      {
-        "en": "If you park your car in the wrong place, a traffic policeman will soon find it.",
-        "zh": "如果你把车停在了错误的地方，交通警察很快就会发现它。"
-      },
-      {
-        "en": "You will be very lucky if he lets you go without a ticket.",
-        "zh": "如果他没开罚单就放你走，那你就非常幸运了。"
-      },
-      {
-        "en": "However, this does not always happen.",
-        "zh": "不过，这种情况并不总是发生。"
-      },
-      {
-        "en": "Traffic police are sometimes very polite.",
-        "zh": "有时候，交通警察会非常礼貌。"
-      },
-      {
-        "en": "During a holiday in Sweden,",
-        "zh": "在瑞典的一个假期里，"
-      },
-      {
-        "en": "I found this note on my car:",
-        "zh": "我在我的车上发现了一张纸条："
-      },
-      {
-        "en": "'Sir, we welcome you to our city. This is a No Parking area.",
-        "zh": "“先生，欢迎您来到我们的城市。这里是禁止停车区。"
-      },
-      {
-        "en": "You will enjoy your stay here if you pay attention to our street signs. This note is only a reminder.'",
-        "zh": "如果您注意看街道上的标志，您的停留会非常愉快。这张纸条只是为了提醒您而已。”"
-      },
-      {
-        "en": "If you receive a request like this, you cannot fail to obey it!",
-        "zh": "如果你收到这样的请求，你一定会遵守的！"
-      }
-    ]
-  },
-  "display": {
     "title": "A Polite Request",
     "titleZh": "彬彬有礼的要求",
     "question": "What was the polite request?",
@@ -122,52 +63,111 @@
       }
     ]
   },
+  "display": {
+    "title": "A Polite Request",
+    "titleZh": "彬彬有礼的要求",
+    "question": "What was the polite request?",
+    "questionZh": "那个礼貌的请求是什么？",
+    "text": "What was the polite request?\n\nIf you park your car in the wrong place, a traffic policeman will soon find it. You will be very lucky if he lets you go without a ticket. However, this does not always happen. Traffic police are sometimes very polite.\nDuring a holiday in Sweden, I found this note on my car:\n'sir, we welcome you to our city. This is a No Parking area. You will enjoy your stay here if you pay attention to our street signs. This note is only a reminder.'\nIf you receive a request like this, you cannot fail to obey it!",
+    "bodyText": "If you park your car in the wrong place, a traffic policeman will soon find it. You will be very lucky if he lets you go without a ticket. However, this does not always happen. Traffic police are sometimes very polite.\nDuring a holiday in Sweden, I found this note on my car:\n'sir, we welcome you to our city. This is a No Parking area. You will enjoy your stay here if you pay attention to our street signs. This note is only a reminder.'\nIf you receive a request like this, you cannot fail to obey it!",
+    "bodyTextZh": "如果你把车停在了错误的地方，交通警察很快就会发现它。如果你能不被开罚单就放你走，那你就非常幸运了。不过，这种情况并不总是发生。有时候，交通警察会非常礼貌。\n在瑞典的一个假期里，我在我的车上发现了一张纸条：\n“先生，欢迎您来到我们的城市。这里是禁止停车区。如果您注意看街道上的标志，您的停留会非常愉快。这张纸条只是为了提醒您而已。”\n如果你收到这样的请求，你一定会遵守的！",
+    "sentences": [
+      {
+        "en": "Lesson 16",
+        "zh": "第 16 课"
+      },
+      {
+        "en": "A Polite Request",
+        "zh": "彬彬有礼的要求"
+      },
+      {
+        "en": "What was the polite request?",
+        "zh": "那个礼貌的请求是什么？"
+      },
+      {
+        "en": "If you park your car in the wrong place, a traffic policeman will soon find it.",
+        "zh": "如果你把车停在了错误的地方，交通警察很快就会发现它。"
+      },
+      {
+        "en": "You will be very lucky if he lets you go without a ticket.",
+        "zh": "如果你能不被开罚单就放你走，那你就非常幸运了。"
+      },
+      {
+        "en": "However, this does not always happen.",
+        "zh": "不过，这种情况并不总是发生。"
+      },
+      {
+        "en": "Traffic police are sometimes very polite.",
+        "zh": "有时候，交通警察会非常礼貌。"
+      },
+      {
+        "en": "During a holiday in Sweden,",
+        "zh": "在瑞典的一个假期里，"
+      },
+      {
+        "en": "I found this note on my car:",
+        "zh": "我在我的车上发现了一张纸条："
+      },
+      {
+        "en": "'sir, we welcome you to our city. This is a No Parking area.",
+        "zh": "“先生，欢迎您来到我们的城市。这里是禁止停车区。"
+      },
+      {
+        "en": "You will enjoy your stay here if you pay attention to our street signs. This note is only a reminder.'",
+        "zh": "如果您注意看街道上的标志，您的停留会非常愉快。这张纸条只是为了提醒您而已。”"
+      },
+      {
+        "en": "If you receive a request like this, you cannot fail to obey it!",
+        "zh": "如果你收到这样的请求，你一定会遵守的！"
+      }
+    ]
+  },
   "sources": [
     {
-      "path": "content/NCE-Flow/NCE2/16－A Polite Request.lrc",
-      "locator": "完整LRC元数据、标题、问题和全部中英字幕，校勘位置见逐项证据",
+      "path": "content/article-review/history/6e42e5d1537e773cbf8e118cb45ab5c6b54690d5297d5a03d2e6cdaaf5bfd2bc.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
       "checked": true,
-      "sha256": "cff3b560d31411c0d03d4240c06901f69b8d4d733aa8958c6b33249923e61baa"
-    },
-    {
-      "path": "content/article-review/cleanup-2026-10-06.json",
-      "sha256": "cea27c1c69e32939ff83196bd29cce9a128d8d0d6f248611217179e037971889",
-      "locator": "public/nce/lessons/nce2/016.json",
-      "checked": true
+      "sha256": "7e270771f0b5ffdac33fbdc17d8a064bb2808801ba9c93fb630afd5c267591d9"
     }
   ],
-  "corrections": [
-    {
-      "field": "text",
-      "before": "What was the polite request?\n\nIf you park your car in the wrong place, a traffic policeman will soon find it.\nYou will be very lucky if he lets you go without a ticket.\nHowever, this does not always happen.\nTraffic police are sometimes very polite.\nDuring a holiday in Sweden,\nI found this note on my car:\n'Sir, we welcome you to our city. This is a No Parking area.\nYou will enjoy your stay here if you pay attention to our street signs. This note is only a reminder.'\nIf you receive a request like this, you cannot fail to obey it!",
-      "after": "What was the polite request?\n\nIf you park your car in the wrong place, a traffic policeman will soon find it.\nYou will be very lucky if he lets you go without a ticket.\nHowever, this does not always happen.\nTraffic police are sometimes very polite.\nDuring a holiday in Sweden,\nI found this note on my car:\n'sir, we welcome you to our city. This is a No Parking area.\nYou will enjoy your stay here if you pay attention to our street signs. This note is only a reminder.'\nIf you receive a request like this, you cannot fail to obey it!",
-      "evidence": "User-directed source-fidelity restoration; content/article-review/cleanup-2026-10-06.json"
-    },
-    {
-      "field": "bodyText",
-      "before": "If you park your car in the wrong place, a traffic policeman will soon find it.\nYou will be very lucky if he lets you go without a ticket.\nHowever, this does not always happen.\nTraffic police are sometimes very polite.\nDuring a holiday in Sweden,\nI found this note on my car:\n'Sir, we welcome you to our city. This is a No Parking area.\nYou will enjoy your stay here if you pay attention to our street signs. This note is only a reminder.'\nIf you receive a request like this, you cannot fail to obey it!",
-      "after": "If you park your car in the wrong place, a traffic policeman will soon find it.\nYou will be very lucky if he lets you go without a ticket.\nHowever, this does not always happen.\nTraffic police are sometimes very polite.\nDuring a holiday in Sweden,\nI found this note on my car:\n'sir, we welcome you to our city. This is a No Parking area.\nYou will enjoy your stay here if you pay attention to our street signs. This note is only a reminder.'\nIf you receive a request like this, you cannot fail to obey it!",
-      "evidence": "User-directed source-fidelity restoration; content/article-review/cleanup-2026-10-06.json"
-    },
-    {
-      "field": "bodyTextZh",
-      "before": "如果你把车停在了错误的地方，交通警察很快就会发现它。\n如果他没开罚单就放你走，那你就非常幸运了。\n不过，这种情况并不总是发生。\n有时候，交通警察会非常礼貌。\n在瑞典的一个假期里，\n我在我的车上发现了一张纸条：\n“先生，欢迎您来到我们的城市。这里是禁止停车区。\n如果您注意看街道上的标志，您的停留会非常愉快。这张纸条只是为了提醒您而已。”\n如果你收到这样的请求，你一定会遵守的！",
-      "after": "如果你把车停在了错误的地方，交通警察很快就会发现它。\n如果你能不被开罚单就放你走，那你就非常幸运了。\n不过，这种情况并不总是发生。\n有时候，交通警察会非常礼貌。\n在瑞典的一个假期里，\n我在我的车上发现了一张纸条：\n“先生，欢迎您来到我们的城市。这里是禁止停车区。\n如果您注意看街道上的标志，您的停留会非常愉快。这张纸条只是为了提醒您而已。”\n如果你收到这样的请求，你一定会遵守的！",
-      "evidence": "User-directed source-fidelity restoration; content/article-review/cleanup-2026-10-06.json"
-    }
-  ],
-  "fullReadConfirmed": false,
-  "recheckConfirmed": false,
-  "reviewMode": "source-fidelity-rules-v1",
-  "reviewer": "Codex (user-directed restoration)",
-  "reviewedAt": "2026-10-05T17:15:10+00:00",
-  "notes": "Rule-based restoration; original full-read review remains historical. content/article-review/cleanup-2026-10-06.json",
+  "corrections": [],
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "reviewer": "Codex",
+  "reviewedAt": "2026-10-07T07:50:51+00:00",
+  "notes": "停车礼貌便条；常见罚单与反例概述、瑞典发现便条、完整纸条三段，保留最后评论，恢复During从句。 text与bodyText同步；sentences对象及时间、角色、索引原样保留。",
   "issues": [],
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "73d9539afd4574102f53853b88e9b76d602b4df4153619bd13b9fdbecae5adf1",
+    "afterFileSha256": "a6ff09152ea23f5a8c445ec91bb4b92696195c76e882bd08e9c3502b681bf8d8",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "73d9539afd4574102f53853b88e9b76d602b4df4153619bd13b9fdbecae5adf1",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title/titleZh、question/questionZh、bodyText全部9行、bodyTextZh全部9行及sentences[0..11]的完整文字；重复正文与字幕文本逐字比对，非正文字幕另读。操作在内存应用并validate_layout_change，修复后的双语全文重新通读。",
+      "notes": "停车礼貌便条；常见罚单与反例概述、瑞典发现便条、完整纸条三段，保留最后评论，恢复During从句。 text与bodyText同步；sentences对象及时间、角色、索引原样保留。",
+      "issues": [],
+      "display": {
+        "text": "What was the polite request?\n\nIf you park your car in the wrong place, a traffic policeman will soon find it. You will be very lucky if he lets you go without a ticket. However, this does not always happen. Traffic police are sometimes very polite.\nDuring a holiday in Sweden, I found this note on my car:\n'sir, we welcome you to our city. This is a No Parking area. You will enjoy your stay here if you pay attention to our street signs. This note is only a reminder.'\nIf you receive a request like this, you cannot fail to obey it!",
+        "bodyText": "If you park your car in the wrong place, a traffic policeman will soon find it. You will be very lucky if he lets you go without a ticket. However, this does not always happen. Traffic police are sometimes very polite.\nDuring a holiday in Sweden, I found this note on my car:\n'sir, we welcome you to our city. This is a No Parking area. You will enjoy your stay here if you pay attention to our street signs. This note is only a reminder.'\nIf you receive a request like this, you cannot fail to obey it!",
+        "bodyTextZh": "如果你把车停在了错误的地方，交通警察很快就会发现它。如果你能不被开罚单就放你走，那你就非常幸运了。不过，这种情况并不总是发生。有时候，交通警察会非常礼貌。\n在瑞典的一个假期里，我在我的车上发现了一张纸条：\n“先生，欢迎您来到我们的城市。这里是禁止停车区。如果您注意看街道上的标志，您的停留会非常愉快。这张纸条只是为了提醒您而已。”\n如果你收到这样的请求，你一定会遵守的！"
+      },
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/6e42e5d1537e773cbf8e118cb45ab5c6b54690d5297d5a03d2e6cdaaf5bfd2bc.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "7e270771f0b5ffdac33fbdc17d8a064bb2808801ba9c93fb630afd5c267591d9"
+        }
+      ]
+    }
+  },
   "status": "passed_edited",
-  "previousRevisionSha256": "1b4b1bb4f97529d2ce2a14b3b5845a58eed8d4e62ec4da449543d3907f7f1fe0",
-  "ruleRestoration": {
-    "policy": "source-fidelity-rules-v1",
-    "report": "content/article-review/cleanup-2026-10-06.json",
-    "reportSha256": "cea27c1c69e32939ff83196bd29cce9a128d8d0d6f248611217179e037971889"
-  }
+  "previousRevisionSha256": "6e42e5d1537e773cbf8e118cb45ab5c6b54690d5297d5a03d2e6cdaaf5bfd2bc"
 }

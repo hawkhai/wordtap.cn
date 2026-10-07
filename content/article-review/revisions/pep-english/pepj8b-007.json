@@ -60,24 +60,46 @@
   },
   "sources": [
     {
-      "path": "content/pep-english/raw/junior-8b.pdf",
-      "locator": "PDF第39-39页，标题与完整正文逐行核对",
+      "path": "content/article-review/history/3c230e69f4d47f16365b1e81b2f331129c999bb695477acc79e3e7577df36737.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
       "checked": true,
-      "sha256": "1be886980dc0833b9c87ced7c9de0c8e3e7e19d990c1172f62504576d2554284"
-    },
-    {
-      "path": "content/pep-english/raw/junior-8b/junior-8b_39.jpg",
-      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
-      "checked": true,
-      "sha256": "ed6dfb76e8fceb5ae60a0d883e625e66c22ee3bc1a214c744395901fe34daa67"
+      "sha256": "ca4278d6ae1369f98a6c29dd311286498ef33f062dd359d481e1a3fd297605ea"
     }
   ],
   "corrections": [],
   "fullReadConfirmed": true,
   "recheckConfirmed": true,
   "reviewer": "Codex",
-  "reviewedAt": "2026-10-02T05:00:58+00:00",
-  "notes": "PDF39页印刷30页四段完整逐行对照，Cathy三个孩子篮球/足球/钢琴课、7点后回家，Linda与Alice的不同发言与原页一致；标题完整，教学提示框和问题未混入。四段再次通读，拼写、引语及段落均准确，无修改。",
+  "reviewedAt": "2026-10-07T07:42:00+00:00",
+  "notes": "课外压力四段为中国概况、Taylor家庭、Linda观点、医生建议，各来源引语清楚保留。",
   "issues": [],
-  "status": "passed_unchanged"
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "9b614f284d3d96ad4b88170585c1042eadd166b686a40cd31667a379b77cd4f4",
+    "afterFileSha256": "9b614f284d3d96ad4b88170585c1042eadd166b686a40cd31667a379b77cd4f4",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "9b614f284d3d96ad4b88170585c1042eadd166b686a40cd31667a379b77cd4f4",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..3] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "课外压力四段为中国概况、Taylor家庭、Linda观点、医生建议，各来源引语清楚保留。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "blockEdits": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/3c230e69f4d47f16365b1e81b2f331129c999bb695477acc79e3e7577df36737.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "ca4278d6ae1369f98a6c29dd311286498ef33f062dd359d481e1a3fd297605ea"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "3c230e69f4d47f16365b1e81b2f331129c999bb695477acc79e3e7577df36737"
 }

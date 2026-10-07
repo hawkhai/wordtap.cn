@@ -1,0 +1,365 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "fc66e9d901420ce3860bc094b3a92487fc7a8fb18d9caee618c46bdac169c7c2",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "coverage": "全文 blocks[0..233]；按 JSON 上下文逐项复核对话、解释、题目、表格、词表及修复后的边界。",
+  "notes": "通读横渡海峡、摘要、12道选择题及不定式作状语/各类补语/独立成分。按中英对应合并含多句的正文段，选项a与d各自续行恢复；语法六类列表保留独立身份，缩写和例句内标点不作拆分。",
+  "issues": [],
+  "mergeBlocks": [
+    {
+      "start": 17,
+      "end": 18,
+      "before": [
+        "Debbie is going to swim across the English Channel tomorrow. She is going to set",
+        "out from the French coast at five o’clock in the morning."
+      ],
+      "text": "Debbie is going to swim across the English Channel tomorrow. She is going to set out from the French coast at five o’clock in the morning.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 20,
+      "end": 21,
+      "before": [
+        "Debbie is only eleven years old and she hopes to set up a new world record. She is",
+        "a strong swimmer and many people feel that she is sure to succeed."
+      ],
+      "text": "Debbie is only eleven years old and she hopes to set up a new world record. She is a strong swimmer and many people feel that she is sure to succeed.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 22,
+      "end": 23,
+      "before": [
+        "黛比只有11岁，她希望创造一项新的世界纪录。她是一个游泳能手，很多人",
+        "认为她一定能成功。"
+      ],
+      "text": "黛比只有11岁，她希望创造一项新的世界纪录。她是一个游泳能手，很多人认为她一定能成功。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 24,
+      "end": 25,
+      "before": [
+        "Debbie’s father will set out with her in a small boat. Mr. Hart has trained his",
+        "daughter for many years."
+      ],
+      "text": "Debbie’s father will set out with her in a small boat. Mr. Hart has trained his daughter for many years.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 26,
+      "end": 27,
+      "before": [
+        "黛比的父亲将乘一条小船同她一道出发。哈特先生训练她的女儿已经多年",
+        "了。"
+      ],
+      "text": "黛比的父亲将乘一条小船同她一道出发。哈特先生训练她的女儿已经多年了。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 28,
+      "end": 29,
+      "before": [
+        "Tomorrow he will be watching her anxiously as she swims the long distance to",
+        "England."
+      ],
+      "text": "Tomorrow he will be watching her anxiously as she swims the long distance to England.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 31,
+      "end": 32,
+      "before": [
+        "Debbie intends to take short rests every two hours. She will have something to",
+        "drink but she will not eat any solid food."
+      ],
+      "text": "Debbie intends to take short rests every two hours. She will have something to drink but she will not eat any solid food.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 34,
+      "end": 36,
+      "before": [
+        "Most of Debbie’s school friends will be waiting for her on the English coast.",
+        "Among them will be Debbie’s mother, who swam the Channel herself when she was a",
+        "girl."
+      ],
+      "text": "Most of Debbie’s school friends will be waiting for her on the English coast. Among them will be Debbie’s mother, who swam the Channel herself when she was a girl.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 37,
+      "end": 38,
+      "before": [
+        "黛比的大部分同学将在英国海岸等候她。他们当中还会有黛比的母亲，她本",
+        "人还是个姑娘时，也曾横渡过英吉利海峡!"
+      ],
+      "text": "黛比的大部分同学将在英国海岸等候她。他们当中还会有黛比的母亲，她本人还是个姑娘时，也曾横渡过英吉利海峡!",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 47,
+      "end": 50,
+      "before": [
+        "Answer: Debbie is going to swim across the English Channel tomorrow. She is",
+        "eleven and she is a strong swimmer. Debbie has been trained by her father. He",
+        "will follow her in a small boat. Debbie’s mother will be waiting on the English",
+        "coast. She swam the Channel herself when she was a girl."
+      ],
+      "text": "Answer: Debbie is going to swim across the English Channel tomorrow. She is eleven and she is a strong swimmer. Debbie has been trained by her father. He will follow her in a small boat. Debbie’s mother will be waiting on the English coast. She swam the Channel herself when she was a girl.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 54,
+      "end": 55,
+      "before": [
+        "(a)Both Debbie's parents are very interested in their daughter's attempt to swim the",
+        "Channel."
+      ],
+      "text": "(a)Both Debbie's parents are very interested in their daughter's attempt to swim the Channel.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 58,
+      "end": 59,
+      "before": [
+        "(d) Debbie's mother and father aren't interested in their daughter's attempt to swim",
+        "the Channel."
+      ],
+      "text": "(d) Debbie's mother and father aren't interested in their daughter's attempt to swim the Channel.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 70,
+      "end": 71,
+      "before": [
+        "4 He will be watching her anxiously_______ she swims the long distance to",
+        "England."
+      ],
+      "text": "4 He will be watching her anxiously_______ she swims the long distance to England.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 126,
+      "end": 127,
+      "before": [
+        "• To become a teacher in a university, it is necessary to have at least a master’s",
+        "degree."
+      ],
+      "text": "• To become a teacher in a university, it is necessary to have at least a master’s degree.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 131,
+      "end": 132,
+      "before": [
+        "不定式在“so+形容词/副词+as to”之后作结果状语，有时这种结构可表现为:",
+        "“such+名词+as to”"
+      ],
+      "text": "不定式在“so+形容词/副词+as to”之后作结果状语，有时这种结构可表现为:“such+名词+as to”",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 139,
+      "end": 140,
+      "before": [
+        "◆ to find, to hear, to learn, to see等谓语动词后可作结果状语，为了表示强调结",
+        "果,常在不定式前加only，往往表示意想不到的事"
+      ],
+      "text": "◆ to find, to hear, to learn, to see等谓语动词后可作结果状语，为了表示强调结果,常在不定式前加only，往往表示意想不到的事",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 141,
+      "end": 142,
+      "before": [
+        "• At last she left her house and got to the airport, only to see the plane flying",
+        "away."
+      ],
+      "text": "• At last she left her house and got to the airport, only to see the plane flying away.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 150,
+      "end": 151,
+      "before": [
+        "• Christie stared angirly at her boss and turned away, as though to go out of the",
+        "office."
+      ],
+      "text": "• Christie stared angirly at her boss and turned away, as though to go out of the office.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 156,
+      "end": 159,
+      "before": [
+        "(1)在表示思维活动的动词后作宾补。这类词除find外，还有:accept, account(认",
+        "为 ), acknowledge( 承 认 ), admit( 承 认 ), believe, consider, deem( 认 为 ), discover,",
+        "fancy( 想象, 设想),feel, hold, imagine( 想象 ), judge, know, presume( 假定, 假设 ),",
+        "reckon(估计,猜想), suppose(推想,假设), suspect(怀疑,猜想), think等"
+      ],
+      "text": "(1)在表示思维活动的动词后作宾补。这类词除find外，还有:accept, account(认为 ), acknowledge( 承 认 ), admit( 承 认 ), believe, consider, deem( 认 为 ), discover, fancy( 想象, 设想),feel, hold, imagine( 想象 ), judge, know, presume( 假定, 假设 ), reckon(估计,猜想), suppose(推想,假设), suspect(怀疑,猜想), think等",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 162,
+      "end": 166,
+      "before": [
+        "(2)另外，在表示请求、允许、命令等的动词后作宾补。这类动词常见的",
+        "有:advise, allow, ask, beg, bid, caution(警告,告诫), command, convince(使相信,使",
+        "信服), direct, forbid(禁止), instruct(指示,命令), invite, order, permit(允许,准许),",
+        "persuade(说服,劝说),pray, recommend, remind(提醒), request(请求), require, teach,",
+        "tell, warn等"
+      ],
+      "text": "(2)另外，在表示请求、允许、命令等的动词后作宾补。这类动词常见的有:advise, allow, ask, beg, bid, caution(警告,告诫), command, convince(使相信,使信服), direct, forbid(禁止), instruct(指示,命令), invite, order, permit(允许,准许), persuade(说服,劝说),pray, recommend, remind(提醒), request(请求), require, teach, tell, warn等",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 170,
+      "end": 171,
+      "before": [
+        "(3)在表示意愿、爱憎等的动词后作宾补，这类动词常见的有 dislike, expect,",
+        "intend, like, love, mean, prefer, want, wish等"
+      ],
+      "text": "(3)在表示意愿、爱憎等的动词后作宾补，这类动词常见的有 dislike, expect, intend, like, love, mean, prefer, want, wish等",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 172,
+      "end": 173,
+      "before": [
+        "• If you want your film to be properly processed, you will have to wait and",
+        "pick it up on Friday, which is the day after tomorrow."
+      ],
+      "text": "• If you want your film to be properly processed, you will have to wait and pick it up on Friday, which is the day after tomorrow.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 175,
+      "end": 177,
+      "before": [
+        "(4)在使役动词后作宾补。这类动词常见的有: cause, compel(迫使;强迫), drive(迫",
+        "使), enable, enforce(强制,迫使), force, get, lead(使), leave(使), oblige(迫使;责成),",
+        "press(逼迫,力劝)等"
+      ],
+      "text": "(4)在使役动词后作宾补。这类动词常见的有: cause, compel(迫使;强迫), drive(迫使), enable, enforce(强制,迫使), force, get, lead(使), leave(使), oblige(迫使;责成), press(逼迫,力劝)等",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 185,
+      "end": 186,
+      "before": [
+        "• My sister’s professor had her rewrite her paper many times before allowing",
+        "her to present it to the committee."
+      ],
+      "text": "• My sister’s professor had her rewrite her paper many times before allowing her to present it to the committee.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 188,
+      "end": 189,
+      "before": [
+        "使役动词have, let, make以及感官动词feel, hear, listen to, look at, notice, observe,",
+        "overhear, see, smell, watch等后的不定式作宾语补语通常不带to。"
+      ],
+      "text": "使役动词have, let, make以及感官动词feel, hear, listen to, look at, notice, observe, overhear, see, smell, watch等后的不定式作宾语补语通常不带to。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 194,
+      "end": 196,
+      "before": [
+        "不定式作主语补足语只存在于被动句中，而且该被动句可以转化成以it作形式主",
+        "语的被动句。这种句型常用的谓语动词有: suppose, assume, acknowledge, believe,",
+        "claim(声称), consider, estimate(估计), expect, find, know, report, say, think, agree等"
+      ],
+      "text": "不定式作主语补足语只存在于被动句中，而且该被动句可以转化成以it作形式主语的被动句。这种句型常用的谓语动词有: suppose, assume, acknowledge, believe, claim(声称), consider, estimate(估计), expect, find, know, report, say, think, agree等",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 201,
+      "end": 202,
+      "before": [
+        "• If the letter to be mailed was placed on the writing table an hour ago, it is",
+        "certain to be there now."
+      ],
+      "text": "• If the letter to be mailed was placed on the writing table an hour ago, it is certain to be there now.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 205,
+      "end": 206,
+      "before": [
+        "(1)句中不定式表示原因。这类形容词常用的有: fortuneate, glad, happy, lucky,",
+        "proud, sorry等。"
+      ],
+      "text": "(1)句中不定式表示原因。这类形容词常用的有: fortuneate, glad, happy, lucky, proud, sorry等。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 210,
+      "end": 213,
+      "before": [
+        "(2)在表示人的品质的形容词之后，常是句子主语发出的动作，这类形容词常见",
+        "的 有: brave, careful, careless, clever, clumsy( 笨 拙 的 ), courageous, cruel, foolish,",
+        "generous, honest, kind, nice, polite, reasonable, right, rude, selfish, silly, sweet,",
+        "wicked, wise等"
+      ],
+      "text": "(2)在表示人的品质的形容词之后，常是句子主语发出的动作，这类形容词常见的 有: brave, careful, careless, clever, clumsy( 笨 拙 的 ), courageous, cruel, foolish, generous, honest, kind, nice, polite, reasonable, right, rude, selfish, silly, sweet, wicked, wise等",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 215,
+      "end": 216,
+      "before": [
+        "(3)句子主语和不定式之间为被动关系。这类形容词常见的有: agreeable, amusing,",
+        "difficult, easy, hard, hopeless, impossible, interesting, nice, pleasant等"
+      ],
+      "text": "(3)句子主语和不定式之间为被动关系。这类形容词常见的有: agreeable, amusing, difficult, easy, hard, hopeless, impossible, interesting, nice, pleasant等",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 218,
+      "end": 220,
+      "before": [
+        "(4)句中不定式表示可能最终没有发生的未来动作。这类形容词常见的有:able，",
+        "afraid, anxious, curious, eager, free, fit, keen, ready, reluctant(不愿意的), welcome,",
+        "willing等"
+      ],
+      "text": "(4)句中不定式表示可能最终没有发生的未来动作。这类形容词常见的有:able， afraid, anxious, curious, eager, free, fit, keen, ready, reluctant(不愿意的), welcome, willing等",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 222,
+      "end": 224,
+      "before": [
+        "(5)句中不定式位于表示说话人看法的形容词之后。这类形容词常见的有:apt(易",
+        "于……), bound(一定的,必然的), certain, inclined, liable(易于…的,有……倾向的),",
+        "likely, prone(易于……的;倾向于…的), sure等"
+      ],
+      "text": "(5)句中不定式位于表示说话人看法的形容词之后。这类形容词常见的有:apt(易于……), bound(一定的,必然的), certain, inclined, liable(易于…的,有……倾向的), likely, prone(易于……的;倾向于…的), sure等",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 226,
+      "end": 227,
+      "before": [
+        "▶ 用作独立成分。动词不定式用作独立成分通常是一些固定短语，表示总",
+        "结、顺序、让步等意思"
+      ],
+      "text": "▶ 用作独立成分。动词不定式用作独立成分通常是一些固定短语，表示总结、顺序、让步等意思",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    }
+  ],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/fce2c419cedf0d330d5efce4d2b1d81b0180e055aba8442932dcc1776b4bf67b.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "3669edecea8f580483ca3b5eb128b12f02c095e473b0290daffaca906f1e9ce9"
+    }
+  ]
+}

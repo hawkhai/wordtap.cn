@@ -1,0 +1,21 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "b61f7368c3a2e0db838d83c74e6e547f990a3207384f8eaa2a89acbb58683059",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title；全文 blocks[0..4] 与对应 text；现有正文/对话/题干逐块通读复核。",
+  "notes": "Small Waste五段为问题引入、烟头、塑料袋、收费方法、总结，保留完整说明。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/fe95f9d56bc7f4c71ba963b2c0de7bcdf38019c2a1de6480253c8b1c4367c373.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "a2e791d12d3ef5ca75de9097e69c3561bced717cfdb4e9299e890536d49ae141"
+    }
+  ]
+}

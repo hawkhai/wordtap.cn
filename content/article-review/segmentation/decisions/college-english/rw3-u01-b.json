@@ -1,0 +1,21 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "ea4a4b2387ac898c19dc9e5e6020affd6ebe58501664dd59766bb4f5df826642",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "完整 title、blocks[0..8]及完全相同的text；正文及内嵌中文、引语、对话和列举均已逐项通读；无改动输出按全文再次复核。",
+  "notes": "全文及未改动输出复核：数字革命总起后按教学、儿童、家庭、职场、旅游、日常事务、社交和未来分为九段；排比While句保留同一日常事务段。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/91354532a6cc9b675f275e45ebe85e8d2b907f79465a8a4d7eed6072f90ddc8b.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "881c71ba87bc10ab385454fe78b916d08c30829a74c425358b100f09f6931c08"
+    }
+  ]
+}

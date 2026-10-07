@@ -1,0 +1,21 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "9be4907d28d5372f7d782cb0b1f6201c6b528c6258c66951ae677e1568005e52",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title；全文 blocks[0..3] 与对应 text；现有正文/对话/题干逐块通读复核。",
+  "notes": "Dream赏析四段分别韵脚、意象、词义、主题理解，完整段落及词义例子保留。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/db2fdc5a72ddb215619ee75cc03f7e4ad9fab6d233b551961316231751b10a8a.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "9822a210dd8e194733f2d732740a8320300f40a9903c6beb6d13126898d1350f"
+    }
+  ]
+}

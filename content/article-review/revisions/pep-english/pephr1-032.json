@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "course": "pep-english",
   "articleId": "pephr1-032",
-  "beforeDisplaySha256": "b4d6475b480c8e21471d45ba0ca80624c220a2de69779b07f45ff14b7e86c5f2",
+  "beforeDisplaySha256": "a6192c4828e80d351cfc472b70995cff48df676c84c1a6a285704dba52c8562e",
   "afterDisplaySha256": "a6192c4828e80d351cfc472b70995cff48df676c84c1a6a285704dba52c8562e",
   "baselineDisplay": {
     "title": "Hot Tickets",
@@ -15,19 +15,34 @@
         "text": "What makes a sports event a winner? Exciting action? Tick. Athletes competing to win honour and glory for their club or motherland? Tick. History and tradition? Tick. Delicious snacks? Tick. Most people think global events such as the Olympic Games and the World Cup are the most exciting, but there is some serious competition. Here's a look at some of the hottest tickets in sports."
       },
       {
-        "type": "paragraph",
+        "type": "subheading",
         "lang": "en",
-        "text": "The World Series (baseball, USA)\nThe World Series is the final championship of the American baseball leagues. The seven-game series is played in October or November and attracts a great number of fans. Baseball is one of America's favourite sports and has many traditions, such as the “seventh-inning stretch”. The song “Take Me Out to the Ball Game” is played so that everyone can get up after sitting for a long time. The break is also a good time for a snack. Hot peanuts are a hit with hungry baseball fans, but the hot dog is the real winner!"
+        "text": "The World Series (baseball, USA)"
       },
       {
         "type": "paragraph",
         "lang": "en",
-        "text": "Indian Premier League (cricket, India)\nCricket is from England but has become as Indian as saris and curry. The Indian Premier League has the largest audience of all cricket leagues in the world and is the sixth most-watched sports league in the world. Cricket is a unique sport and may seem a little confusing at first, but once you start learning the rules, you'll love it. The most popular cricket snacks are finger foods like biscuits and cucumber sandwiches."
+        "text": "The World Series is the final championship of the American baseball leagues. The seven-game series is played in October or November and attracts a great number of fans. Baseball is one of America's favourite sports and has many traditions, such as the “seventh-inning stretch”. The song “Take Me Out to the Ball Game” is played so that everyone can get up after sitting for a long time. The break is also a good time for a snack. Hot peanuts are a hit with hungry baseball fans, but the hot dog is the real winner!"
+      },
+      {
+        "type": "subheading",
+        "lang": "en",
+        "text": "Indian Premier League (cricket, India)"
       },
       {
         "type": "paragraph",
         "lang": "en",
-        "text": "Wimbledon (tennis, England)\nWimbledon is a treat for all tennis fans. The tournament started in 1877 and many of the rules are the same today. For example, the players may only wear white clothes. The event, however, is quite colourful since fans often dress up for the games and wear amazing hats. And when it comes to snacks, it's “game, set, and match” at Wimbledon. Where else can you enjoy champagne and strawberries as you cheer for the champion?"
+        "text": "Cricket is from England but has become as Indian as saris and curry. The Indian Premier League has the largest audience of all cricket leagues in the world and is the sixth most-watched sports league in the world. Cricket is a unique sport and may seem a little confusing at first, but once you start learning the rules, you'll love it. The most popular cricket snacks are finger foods like biscuits and cucumber sandwiches."
+      },
+      {
+        "type": "subheading",
+        "lang": "en",
+        "text": "Wimbledon (tennis, England)"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Wimbledon is a treat for all tennis fans. The tournament started in 1877 and many of the rules are the same today. For example, the players may only wear white clothes. The event, however, is quite colourful since fans often dress up for the games and wear amazing hats. And when it comes to snacks, it's “game, set, and match” at Wimbledon. Where else can you enjoy champagne and strawberries as you cheer for the champion?"
       }
     ]
   },
@@ -75,24 +90,45 @@
   },
   "sources": [
     {
-      "path": "content/pep-english/raw/senior-required-1.pdf",
-      "locator": "PDF第95-95页，标题与完整正文逐行核对",
+      "path": "content/article-review/history/77dc208a385cf7afd7b595a6c52ece1c51e868c2f5f38c63a6658c8984464848.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
       "checked": true,
-      "sha256": "ffe985a370964820aa003008f48c7cf17b5e0dff8eb29fe54cd4743b0c4e8c79"
-    },
-    {
-      "path": "content/pep-english/raw/senior-required-1/senior-required-1_95.jpg",
-      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
-      "checked": true,
-      "sha256": "ac5d1daf382c7fc1c1f6f01ef3cc4a88c78c89758515f4585c6347ede2134721"
+      "sha256": "6f7e860f6311a4d4e816e7c476d7eea6cf0996c02c5192055d2a350fbe7369e4"
     }
   ],
   "corrections": [],
   "fullReadConfirmed": true,
   "recheckConfirmed": true,
   "reviewer": "Codex",
-  "reviewedAt": "2026-10-02T05:34:00+00:00",
-  "notes": "PDF第95页Hot Tickets四段全文核对，三项赛事名称与括号说明独立为小标题。World Series七场、IPL排名为教材原数据、Wimbledon1877及小吃描述均一致，保留引言。",
+  "reviewedAt": "2026-10-07T07:30:13+00:00",
+  "notes": "Hot Tickets引言及棒球、板球、温网三个标题和介绍配对清楚，小吃说明仍归各项目段落。",
   "issues": [],
-  "status": "passed_edited"
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "c530c7e5f37ddce5e14c32f08a0d09de7b65126ed5695d6aa6653114aab50bd8",
+    "afterFileSha256": "c530c7e5f37ddce5e14c32f08a0d09de7b65126ed5695d6aa6653114aab50bd8",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "c530c7e5f37ddce5e14c32f08a0d09de7b65126ed5695d6aa6653114aab50bd8",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..6] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "Hot Tickets引言及棒球、板球、温网三个标题和介绍配对清楚，小吃说明仍归各项目段落。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/77dc208a385cf7afd7b595a6c52ece1c51e868c2f5f38c63a6658c8984464848.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "6f7e860f6311a4d4e816e7c476d7eea6cf0996c02c5192055d2a350fbe7369e4"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "77dc208a385cf7afd7b595a6c52ece1c51e868c2f5f38c63a6658c8984464848"
 }

@@ -1,0 +1,26 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "f4b7e051a0d216475472d5659826f112bdfd659043fd264a0f0d3cad9a62c260",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title/titleZh、question/questionZh、bodyText全部18行、bodyTextZh全部18行及sentences[0..21]的完整文字；重复正文与字幕文本逐字比对，非正文字幕另读。操作在内存应用并validate_layout_change，修复后的双语全文重新通读。",
+  "notes": "老板信件；办公室位置答复、老板请求、Bob回应和追问、Pamela解释无法辨字各自合轮，转去找Pamela处保留转换。 text与bodyText同步；sentences对象及时间、角色、索引原样保留。",
+  "issues": [],
+  "display": {
+    "text": "Why can't Pamela type the letter?\n\nCan you come here a minute please, Bob?\nYes, sir?\nWhere's Pamela?\nShe's next door. She's in her office, sir.\nCan she type this letter for me? Ask her please.\nYes, sir.\nCan you type this letter for the boss please, Pamela?\nYes, of course I can.\nHere you are.\nThank you, Bob.\nBob!\nYes? What's the matter?\nI can't type this letter. I can't read it! The boss's handwriting is terrible!",
+    "bodyText": "Can you come here a minute please, Bob?\nYes, sir?\nWhere's Pamela?\nShe's next door. She's in her office, sir.\nCan she type this letter for me? Ask her please.\nYes, sir.\nCan you type this letter for the boss please, Pamela?\nYes, of course I can.\nHere you are.\nThank you, Bob.\nBob!\nYes? What's the matter?\nI can't type this letter. I can't read it! The boss's handwriting is terrible!",
+    "bodyTextZh": "鲍勃，你能过来一下吗？\n先生，有什么事吗？\n帕梅拉在哪里？\n她在隔壁。她现在在她的办公室里，先生。\n她能帮我打这封信吗？请去问她。\n是的，先生。\n帕梅拉，你能帮老板把这封信打出来吗？\n当然可以。\n给你。\n谢谢你，鲍勃。\n鲍勃！\n怎么了？怎么了？\n我打不了这封信。我看不懂！老板的笔迹太糟糕了！"
+  },
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/9cb19fc4db094dfd6c8201efd53374c9bfaddf40f1c1495ac949bc8429c7e006.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "b8cf8b73a9c844d01a7299983503b62d6e0b442d7b5eb2c1b504e2694865e2b6"
+    }
+  ]
+}

@@ -70,24 +70,46 @@
   },
   "sources": [
     {
-      "path": "content/pep-english/raw/junior-8a.pdf",
-      "locator": "PDF第85-85页，标题与完整正文逐行核对",
+      "path": "content/article-review/history/8cdf5e8c57cf01ec68affda5a48154fced948f1977eb5071219eb5bef11dc1cf.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
       "checked": true,
-      "sha256": "b6aede721a90f5e18420e01a9030709ebf3d9231121db71f8474d0034a10e781"
-    },
-    {
-      "path": "content/pep-english/raw/junior-8a/junior-8a_85.jpg",
-      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
-      "checked": true,
-      "sha256": "a395d2af2b2aeb7c757cfc1345f563303c84e87d3e9a1da13726894ecf27531f"
+      "sha256": "5cd82b914207fa828b94055b662ff103242948ed17f7a60bd4c82c1cdd8c622b"
     }
   ],
   "corrections": [],
   "fullReadConfirmed": true,
   "recheckConfirmed": true,
   "reviewer": "Codex",
-  "reviewedAt": "2026-10-02T04:52:58+00:00",
-  "notes": "PDF85页印刷74页2d完整五轮Jeff/Ben对话逐行复读，向餐馆订餐、薯片巧克力原因、给获胜者小礼物与更多人参加的条件关系准确。保持每轮分段，未把上方Nelly/Mark练习和题干并入；Unit10 SectionA、概括标题及所有首尾标点一致，无修改。",
+  "reviewedAt": "2026-10-07T07:39:49+00:00",
+  "notes": "Jeff与Ben派对食物游戏五轮已经独立，条件句解释保留本轮。",
   "issues": [],
-  "status": "passed_unchanged"
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "4c8359956218c82a604dcb47a4620fa4bc40b43cc74cd1ff9738c960f5a8d2c8",
+    "afterFileSha256": "4c8359956218c82a604dcb47a4620fa4bc40b43cc74cd1ff9738c960f5a8d2c8",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "4c8359956218c82a604dcb47a4620fa4bc40b43cc74cd1ff9738c960f5a8d2c8",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..4] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "Jeff与Ben派对食物游戏五轮已经独立，条件句解释保留本轮。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "blockEdits": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/8cdf5e8c57cf01ec68affda5a48154fced948f1977eb5071219eb5bef11dc1cf.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "5cd82b914207fa828b94055b662ff103242948ed17f7a60bd4c82c1cdd8c622b"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "8cdf5e8c57cf01ec68affda5a48154fced948f1977eb5071219eb5bef11dc1cf"
 }

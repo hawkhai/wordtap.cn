@@ -1,0 +1,22 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "9fc77ff823db578a6652240b1327aab96e642ec08b3b827d33fe0c740cd909e6",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title；全文 blocks[0..3] 与对应 text；现有正文/对话/题干逐块通读复核。",
+  "notes": "熊猫四段为早晨照料、饲养员感情、数量和生存压力、保护措施，保留自然段。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "blockEdits": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/0efff9c856001e79c2d1b68b32cd11f5cbf1b24875d51ec5517508db15e9b3ae.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "a3150d16408f7240a2d69ee7469510ab9c9eb3b458560988ff806277005686fb"
+    }
+  ]
+}

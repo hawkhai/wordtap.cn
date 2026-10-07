@@ -40,24 +40,46 @@
   },
   "sources": [
     {
-      "path": "content/pep-english/raw/junior-7b.pdf",
-      "locator": "PDF第45-45页，标题与完整正文逐行核对",
+      "path": "content/article-review/history/4c18979770306ae1b0d36f27442c5d7dbade5c2db76c57552fd5a1791121f48b.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
       "checked": true,
-      "sha256": "7041d787738bdf5f4f556765acdfe8033ac2f69d03e67ccc62516375f6a46f37"
-    },
-    {
-      "path": "content/pep-english/raw/junior-7b/junior-7b_45.jpg",
-      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
-      "checked": true,
-      "sha256": "28f9bbfc09c4b9446213a0149ae279291b9f0481a8ca2999f99f51052f9025b2"
+      "sha256": "a83ec02139e807a175dbb01930e04dabc835df292ebe6bb9ec457259e5207bfa"
     }
   ],
   "corrections": [],
   "fullReadConfirmed": true,
   "recheckConfirmed": true,
   "reviewer": "Codex",
-  "reviewedAt": "2026-10-02T04:46:58+00:00",
-  "notes": "PDF45页印刷35页电视报道两段完整逐行双轮核对。深圳9:00 a.m.与纽约前晚9:00 p.m.、母亲姨妈包粽子/父亲叔叔看赛、寄宿家庭活动和给cousin打电话均正确，no place like home引语完整。照片绕排接续正确，原有概括标题、Unit6 SectionB准确，未混入上方问题及下方搭配练习，无修改。",
+  "reviewedAt": "2026-10-07T07:39:47+00:00",
+  "notes": "Zhu Hui端午故事两段对照深圳早晨家人与纽约前夜寄宿家庭，完整场景段保留。",
   "issues": [],
-  "status": "passed_unchanged"
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "0a283226e20b07a66723cb32127c332b71fa513cf1524a181f5a2599f5b31f17",
+    "afterFileSha256": "0a283226e20b07a66723cb32127c332b71fa513cf1524a181f5a2599f5b31f17",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "0a283226e20b07a66723cb32127c332b71fa513cf1524a181f5a2599f5b31f17",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..1] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "Zhu Hui端午故事两段对照深圳早晨家人与纽约前夜寄宿家庭，完整场景段保留。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "blockEdits": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/4c18979770306ae1b0d36f27442c5d7dbade5c2db76c57552fd5a1791121f48b.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "a83ec02139e807a175dbb01930e04dabc835df292ebe6bb9ec457259e5207bfa"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "4c18979770306ae1b0d36f27442c5d7dbade5c2db76c57552fd5a1791121f48b"
 }

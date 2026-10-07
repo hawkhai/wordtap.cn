@@ -1,0 +1,18 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "75cf878f3bf776e6b88e38fbf8937ac6aac5f227c224293cebb5140bfeb5e3ca",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "coverage": "全文 blocks[0..27]，复核所有相邻边界。",
+  "notes": "三组合口双元音解析与词表边界正确；/aɪ/ 多句绕口令为同一单元，不逐句拆段。",
+  "issues": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/8f1e7f43bf5a2660e952a47946927e750a730493e4e4658ac68eb69408e62947.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "46ec20634df042af8ca021064f594d6a48fe9d8dea38dac5eea0fd88dc247f8e"
+    }
+  ]
+}

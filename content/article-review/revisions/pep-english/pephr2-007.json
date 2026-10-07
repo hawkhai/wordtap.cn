@@ -3,7 +3,7 @@
   "course": "pep-english",
   "articleId": "pephr2-007",
   "beforeDisplaySha256": "755cac7e09fff614cc94baa2e15b0c5fafc0aa1f411a925fd645412631ae39b5",
-  "afterDisplaySha256": "755cac7e09fff614cc94baa2e15b0c5fafc0aa1f411a925fd645412631ae39b5",
+  "afterDisplaySha256": "31c5f86c610af97f0a53cae02c6e10477194a0d9b620e9c302476bc31e953883",
   "baselineDisplay": {
     "title": "Choosing the Best App",
     "section": "Listening and Talking",
@@ -24,30 +24,74 @@
       {
         "type": "paragraph",
         "lang": "en",
-        "text": "A: I imagine that TV Me would be more popular. Everyone watches TV and I think lots of people imagine themselves as actors in the TV shows, so putting the two together would be great. What do you think?\nB: My guess would be Hear It First because it's both interesting and useful. You could find out more about the stories you like and make sure that you don't miss anything important. I believe both the young and old would like it."
+        "text": "A: I imagine that TV Me would be more popular. Everyone watches TV and I think lots of people imagine themselves as actors in the TV shows, so putting the two together would be great. What do you think?"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "B: My guess would be Hear It First because it's both interesting and useful. You could find out more about the stories you like and make sure that you don't miss anything important. I believe both the young and old would like it."
       }
     ]
   },
   "sources": [
     {
-      "path": "content/pep-english/raw/senior-required-2.pdf",
-      "locator": "PDF第38-38页，标题与完整正文逐行核对",
+      "path": "content/article-review/history/5bb9b6a1e10a6b14b726f1683291c4e738d5d05463112c0a56a9c088d7d72735.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
       "checked": true,
-      "sha256": "33b74bf42b22b32fdbe3201e6f61cf8099be047ef0af8a1740f6013dee4a619d"
-    },
-    {
-      "path": "content/pep-english/raw/senior-required-2/senior-required-2_38.jpg",
-      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
-      "checked": true,
-      "sha256": "e2df67c51b5b310fce0da0c26d92ffcf3290427d31cc2ee04f23b7391cac466d"
+      "sha256": "13c3a18fbe33baff3e42fca193aed0e218a1dc7f9a9dd481eb7ffb15b8ff2ad3"
     }
   ],
   "corrections": [],
   "fullReadConfirmed": true,
   "recheckConfirmed": true,
   "reviewer": "Codex",
-  "reviewedAt": "2026-10-02T05:39:31+00:00",
-  "notes": "PDF第38页右下应用选择两轮对话逐句一致，A选择TV Me与B选择Hear It First的理由完整，保留各角色换行，不并入左侧应用说明卡，无修改。",
+  "reviewedAt": "2026-10-07T07:30:15+00:00",
+  "notes": "两个说话者比较TV Me与Hear It First，每人完整论述为一轮，拆为两块。",
   "issues": [],
-  "status": "passed_unchanged"
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "0dad442107a191ccd4d916d6060d85a095e4539fe6bedde495a13d26f69602e1",
+    "afterFileSha256": "4484ce10a5fa25f66e01d21a2d258488f4c7ae22c24611f70d41a6c0e4355117",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "0dad442107a191ccd4d916d6060d85a095e4539fe6bedde495a13d26f69602e1",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..0] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "两个说话者比较TV Me与Hear It First，每人完整论述为一轮，拆为两块。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [
+        {
+          "index": 0,
+          "before": [
+            "A: I imagine that TV Me would be more popular. Everyone watches TV and I think lots of people imagine themselves as actors in the TV shows, so putting the two together would be great. What do you think?\nB: My guess would be Hear It First because it's both interesting and useful. You could find out more about the stories you like and make sure that you don't miss anything important. I believe both the young and old would like it."
+          ],
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "A: I imagine that TV Me would be more popular. Everyone watches TV and I think lots of people imagine themselves as actors in the TV shows, so putting the two together would be great. What do you think?"
+            },
+            {
+              "type": "paragraph",
+              "text": "B: My guess would be Hear It First because it's both interesting and useful. You could find out more about the stories you like and make sure that you don't miss anything important. I believe both the young and old would like it."
+            }
+          ],
+          "reason": "每行具有明确的发言人及完整轮次，分块保留各对话轮次。"
+        }
+      ],
+      "sources": [
+        {
+          "path": "content/article-review/history/5bb9b6a1e10a6b14b726f1683291c4e738d5d05463112c0a56a9c088d7d72735.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "13c3a18fbe33baff3e42fca193aed0e218a1dc7f9a9dd481eb7ffb15b8ff2ad3"
+        }
+      ]
+    }
+  },
+  "status": "passed_edited",
+  "previousRevisionSha256": "5bb9b6a1e10a6b14b726f1683291c4e738d5d05463112c0a56a9c088d7d72735"
 }

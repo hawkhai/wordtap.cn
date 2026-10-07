@@ -30,24 +30,45 @@
   },
   "sources": [
     {
-      "path": "content/pep-english/raw/senior-required-3.pdf",
-      "locator": "PDF第34-34页，标题与完整正文逐行核对",
+      "path": "content/article-review/history/8ce41cb9907440db6f188e3a3f47f732bb943912cb7d568c2077dfe32b67c133.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
       "checked": true,
-      "sha256": "fe9c8e15e62f4aec56efc60b8de43f4a55d40f3114d6505affaef78a8b7a1af2"
-    },
-    {
-      "path": "content/pep-english/raw/senior-required-3/senior-required-3_34.jpg",
-      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
-      "checked": true,
-      "sha256": "ecdc176cd7f16ec9c9fbeb1aa2ee7159e7b937e8e1116e6cc7a1b7de39538341"
+      "sha256": "9bc3c3d922f17000612e426f25cdbafe2b278c9cd19dd85517c565a2b07492d3"
     }
   ],
   "corrections": [],
   "fullReadConfirmed": true,
   "recheckConfirmed": true,
   "reviewer": "Codex",
-  "reviewedAt": "2026-10-02T05:55:48+00:00",
-  "notes": "核对PDF第34页底部发音阅读段，原住民迁徙、白令陆桥和殖民灾难叙述完整；首句语音停顿竖线为教学标记，正文省略合理，保留原教材人口表述与单段。",
+  "reviewedAt": "2026-10-07T07:30:20+00:00",
+  "notes": "加州原住民迁徙、受迫害及今日分布构成完整历史说明短段，保留。",
   "issues": [],
-  "status": "passed_unchanged"
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "58395bdf39c87b8d722f1915c65ab30fbe230bc5072b152cf49441ee0d66b69d",
+    "afterFileSha256": "58395bdf39c87b8d722f1915c65ab30fbe230bc5072b152cf49441ee0d66b69d",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "58395bdf39c87b8d722f1915c65ab30fbe230bc5072b152cf49441ee0d66b69d",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..0] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "加州原住民迁徙、受迫害及今日分布构成完整历史说明短段，保留。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/8ce41cb9907440db6f188e3a3f47f732bb943912cb7d568c2077dfe32b67c133.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "9bc3c3d922f17000612e426f25cdbafe2b278c9cd19dd85517c565a2b07492d3"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "8ce41cb9907440db6f188e3a3f47f732bb943912cb7d568c2077dfe32b67c133"
 }

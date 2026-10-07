@@ -3,7 +3,7 @@
   "course": "pep-english",
   "articleId": "pephr2-013",
   "beforeDisplaySha256": "36b6f60a0d41e253a4b109d28ebac0dfa623236dfc9ae6699a3160c0b816e321",
-  "afterDisplaySha256": "36b6f60a0d41e253a4b109d28ebac0dfa623236dfc9ae6699a3160c0b816e321",
+  "afterDisplaySha256": "ffcea213743a7d22488e9d401ca4be8b61e35e0659cafe852d3d0ddadb089cfd",
   "baselineDisplay": {
     "title": "Planning a Music Festival",
     "section": "Listening and Talking",
@@ -24,30 +24,146 @@
       {
         "type": "paragraph",
         "lang": "en",
-        "text": "Debbie: Where have you been? You missed the announcement about the music festival.\nJohn: I was at the doctor's office. Music festival?\nFrank: Yes, it's going to be next month on the school sports field. John, you can play the piano. How about playing it at the festival?\nJohn: Well, I'd rather play the violin. I can play Liang Zhu.\nFrank: Wow! Sounds good. What about you, Debbie?\nDebbie: Actually, I don't have much musical ability. I'd prefer just to help out with the crowds.\nFrank: You can sell tickets or work at a food stand.\nJohn: So can I assume that the aim of the festival is to raise money?\nDebbie: Yes. All of the money will go to charity.\nJohn: Well, if it's for a good cause, everyone should take part!"
+        "text": "Debbie: Where have you been? You missed the announcement about the music festival."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "John: I was at the doctor's office. Music festival?"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Frank: Yes, it's going to be next month on the school sports field. John, you can play the piano. How about playing it at the festival?"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "John: Well, I'd rather play the violin. I can play Liang Zhu."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Frank: Wow! Sounds good. What about you, Debbie?"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Debbie: Actually, I don't have much musical ability. I'd prefer just to help out with the crowds."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Frank: You can sell tickets or work at a food stand."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "John: So can I assume that the aim of the festival is to raise money?"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Debbie: Yes. All of the money will go to charity."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "John: Well, if it's for a good cause, everyone should take part!"
       }
     ]
   },
   "sources": [
     {
-      "path": "content/pep-english/raw/senior-required-2.pdf",
-      "locator": "PDF第62-62页，标题与完整正文逐行核对",
+      "path": "content/article-review/history/6a6abef7478ef26cd3240031108d786b4d01b3a29d6d9b1d58cdf278b166a490.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
       "checked": true,
-      "sha256": "33b74bf42b22b32fdbe3201e6f61cf8099be047ef0af8a1740f6013dee4a619d"
-    },
-    {
-      "path": "content/pep-english/raw/senior-required-2/senior-required-2_62.jpg",
-      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
-      "checked": true,
-      "sha256": "56161bf010bd266fcccd46dfeda262427379a609ee2c1d3079430f25973f091c"
+      "sha256": "5948e02c1b239824d9c5a7ccfee4d416f1e11b7b7ad7bec7976a2aeeedf33914"
     }
   ],
   "corrections": [],
   "fullReadConfirmed": true,
   "recheckConfirmed": true,
   "reviewer": "Codex",
-  "reviewedAt": "2026-10-02T05:44:30+00:00",
-  "notes": "逐行核对PDF第62页完整十轮对话：Debbie、John、Frank讨论下月学校运动场音乐节；钢琴与小提琴《梁祝》、售票及食品摊、慈善募款均与原页一致，保留原文。",
+  "reviewedAt": "2026-10-07T07:30:16+00:00",
+  "notes": "Debbie、John、Frank筹备音乐节十轮对话逐轮拆分，演奏和募款安排保留发言完整。",
   "issues": [],
-  "status": "passed_unchanged"
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "0a6a8aca994e6a5fb5e9873853d2c10f83ec6c1371b2d4fa23524fadc67c7ad4",
+    "afterFileSha256": "e7b3d6967d4237b3c621f1fa487aa2286a42a0335554b1fa3f02fcd76cb491e0",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "0a6a8aca994e6a5fb5e9873853d2c10f83ec6c1371b2d4fa23524fadc67c7ad4",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..0] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "Debbie、John、Frank筹备音乐节十轮对话逐轮拆分，演奏和募款安排保留发言完整。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [
+        {
+          "index": 0,
+          "before": [
+            "Debbie: Where have you been? You missed the announcement about the music festival.\nJohn: I was at the doctor's office. Music festival?\nFrank: Yes, it's going to be next month on the school sports field. John, you can play the piano. How about playing it at the festival?\nJohn: Well, I'd rather play the violin. I can play Liang Zhu.\nFrank: Wow! Sounds good. What about you, Debbie?\nDebbie: Actually, I don't have much musical ability. I'd prefer just to help out with the crowds.\nFrank: You can sell tickets or work at a food stand.\nJohn: So can I assume that the aim of the festival is to raise money?\nDebbie: Yes. All of the money will go to charity.\nJohn: Well, if it's for a good cause, everyone should take part!"
+          ],
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Debbie: Where have you been? You missed the announcement about the music festival."
+            },
+            {
+              "type": "paragraph",
+              "text": "John: I was at the doctor's office. Music festival?"
+            },
+            {
+              "type": "paragraph",
+              "text": "Frank: Yes, it's going to be next month on the school sports field. John, you can play the piano. How about playing it at the festival?"
+            },
+            {
+              "type": "paragraph",
+              "text": "John: Well, I'd rather play the violin. I can play Liang Zhu."
+            },
+            {
+              "type": "paragraph",
+              "text": "Frank: Wow! Sounds good. What about you, Debbie?"
+            },
+            {
+              "type": "paragraph",
+              "text": "Debbie: Actually, I don't have much musical ability. I'd prefer just to help out with the crowds."
+            },
+            {
+              "type": "paragraph",
+              "text": "Frank: You can sell tickets or work at a food stand."
+            },
+            {
+              "type": "paragraph",
+              "text": "John: So can I assume that the aim of the festival is to raise money?"
+            },
+            {
+              "type": "paragraph",
+              "text": "Debbie: Yes. All of the money will go to charity."
+            },
+            {
+              "type": "paragraph",
+              "text": "John: Well, if it's for a good cause, everyone should take part!"
+            }
+          ],
+          "reason": "每行具有明确的发言人及完整轮次，分块保留各对话轮次。"
+        }
+      ],
+      "sources": [
+        {
+          "path": "content/article-review/history/6a6abef7478ef26cd3240031108d786b4d01b3a29d6d9b1d58cdf278b166a490.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "5948e02c1b239824d9c5a7ccfee4d416f1e11b7b7ad7bec7976a2aeeedf33914"
+        }
+      ]
+    }
+  },
+  "status": "passed_edited",
+  "previousRevisionSha256": "6a6abef7478ef26cd3240031108d786b4d01b3a29d6d9b1d58cdf278b166a490"
 }

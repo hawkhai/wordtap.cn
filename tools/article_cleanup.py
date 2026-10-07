@@ -14,6 +14,7 @@ from functools import lru_cache
 from pathlib import Path
 
 from article_review import REVIEW_ROOT, canonical_hash, display_payload, without_spacing
+from review_archive import evidence_json
 
 POLICY = "source-fidelity-rules-v1"
 REPORT = "content/article-review/cleanup-2026-10-06.json"
@@ -98,7 +99,7 @@ def read_chain(latest: dict, history: Path | None = None) -> list[dict]:
         current = chain[-1]; digest = current["previousRevisionSha256"]
         if digest in seen or not re.fullmatch(r"[a-f0-9]{64}", digest):
             raise ValueError("Invalid cleanup revision chain")
-        previous = json.loads((history / f"{digest}.json").read_text(encoding="utf-8"))
+        previous = evidence_json(history / f"{digest}.json")
         if (canonical_hash(previous) != digest
                 or previous["course"] != current["course"] or previous["articleId"] != current["articleId"]):
             raise ValueError("Cleanup history identity/hash mismatch")

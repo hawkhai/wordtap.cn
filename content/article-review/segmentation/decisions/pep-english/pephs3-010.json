@@ -1,0 +1,21 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "250fa5da93740b6588c339528c9a18df762526f37242d7fefa942bc7651c886d",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title；全文 blocks[0..14] 与对应 text；现有正文/对话/题干逐块通读复核。",
+  "notes": "英语诗体介绍中童谣、Only One Mother、LIFE、五行诗、俳句、望夫石译诗均保留原诗行及作者署名；讲解段和作品单元界限清晰。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/8f92322357f9fe406cb582738cee45d48d5aa815d02a74c946dabe0b8b99b6db.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "b23d1e4673b4d8a3ae23a6b92fe4ed001f7d2abc393521a8b0cdf094d3babc88"
+    }
+  ]
+}

@@ -112,30 +112,45 @@
   },
   "sources": [
     {
-      "path": "content/College-English/NHCE4-RW3.pdf",
-      "locator": "PDF 35-36，印刷页 20-21，完整正文与标题逐段核对",
+      "path": "content/article-review/history/91354532a6cc9b675f275e45ebe85e8d2b907f79465a8a4d7eed6072f90ddc8b.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
       "checked": true,
-      "sha256": "40418e1f32f5db4eaf6f091227217121109219515e2ffd6b68791927d506afe8"
-    },
-    {
-      "path": "content/College-English/NHCE4-RW3/NHCE4-RW3_35.jpg",
-      "locator": "已打开教材图页并通读复核正文",
-      "checked": true,
-      "sha256": "cf37cd43b52cdca190e611a972c34f67a962185be7cf5a6abb521747f482f76f"
-    },
-    {
-      "path": "content/College-English/NHCE4-RW3/NHCE4-RW3_36.jpg",
-      "locator": "已打开教材图页并通读复核正文",
-      "checked": true,
-      "sha256": "3e03f2e52e2947254a7671cbac7a8e80dbdf446b8b6964625458e53b3ada5a30"
+      "sha256": "881c71ba87bc10ab385454fe78b916d08c30829a74c425358b100f09f6931c08"
     }
   ],
   "corrections": [],
   "fullReadConfirmed": true,
   "recheckConfirmed": true,
   "reviewer": "Codex",
-  "reviewedAt": "2026-10-02T09:01:30+00:00",
-  "notes": "全文9段与PDF35–36双栏逐段核对，技术、学校、家庭、远程办公、休闲、日常及社交各部分无缺漏。almost never、cannot survive、invariably等为作者对所观察数字生活的概括和夸张，保留其评论语境，不据此宣称全球学校已无黑板或所有儿童都有设备。页间会议句及第7段右栏续接正确。",
+  "reviewedAt": "2026-10-07T07:30:08+00:00",
+  "notes": "全文及未改动输出复核：数字革命总起后按教学、儿童、家庭、职场、旅游、日常事务、社交和未来分为九段；排比While句保留同一日常事务段。",
   "issues": [],
-  "status": "passed_unchanged"
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "ea4a4b2387ac898c19dc9e5e6020affd6ebe58501664dd59766bb4f5df826642",
+    "afterFileSha256": "ea4a4b2387ac898c19dc9e5e6020affd6ebe58501664dd59766bb4f5df826642",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "ea4a4b2387ac898c19dc9e5e6020affd6ebe58501664dd59766bb4f5df826642",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "完整 title、blocks[0..8]及完全相同的text；正文及内嵌中文、引语、对话和列举均已逐项通读；无改动输出按全文再次复核。",
+      "notes": "全文及未改动输出复核：数字革命总起后按教学、儿童、家庭、职场、旅游、日常事务、社交和未来分为九段；排比While句保留同一日常事务段。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/91354532a6cc9b675f275e45ebe85e8d2b907f79465a8a4d7eed6072f90ddc8b.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "881c71ba87bc10ab385454fe78b916d08c30829a74c425358b100f09f6931c08"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "91354532a6cc9b675f275e45ebe85e8d2b907f79465a8a4d7eed6072f90ddc8b"
 }

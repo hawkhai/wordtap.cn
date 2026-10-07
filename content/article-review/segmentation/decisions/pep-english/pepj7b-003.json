@@ -1,0 +1,64 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "104c7443180cc003fbad00e6a6a85a6c5d3fec506771ce05d06e35152c2fd328",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title；全文 blocks[0..0] 与对应 text；现有正文/对话/题干逐块通读复核。",
+  "notes": "Lisa与Jane通学八轮对话拆为独立发言，距离和时长说明保持本轮。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [
+    {
+      "index": 0,
+      "before": [
+        "Lisa: Hey, Jane. Is this your new bike?\nJane: Yes. I ride it to school every day. How do you get to school?\nLisa: I usually take the bus.\nJane: How far is it from your home to school?\nLisa: I'm not sure... about 10 kilometers? The bus ride takes about 20 minutes. How long does it take you to get to school?\nJane: About 15 minutes by bike. It's good exercise.\nLisa: Yeah. Well, have a good day at school.\nJane: You, too."
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Lisa: Hey, Jane. Is this your new bike?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Jane: Yes. I ride it to school every day. How do you get to school?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Lisa: I usually take the bus."
+        },
+        {
+          "type": "paragraph",
+          "text": "Jane: How far is it from your home to school?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Lisa: I'm not sure... about 10 kilometers? The bus ride takes about 20 minutes. How long does it take you to get to school?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Jane: About 15 minutes by bike. It's good exercise."
+        },
+        {
+          "type": "paragraph",
+          "text": "Lisa: Yeah. Well, have a good day at school."
+        },
+        {
+          "type": "paragraph",
+          "text": "Jane: You, too."
+        }
+      ],
+      "reason": "每行具有明确的发言人及完整轮次，分块保留各对话轮次。"
+    }
+  ],
+  "blockEdits": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/1a372da03c029abb39a8b4e316a56526ec1d8cce0edf49cb3e66f66dffc9a46b.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "547a6d8bfdc904babdb2d76f0b9a3d005e08cae61f43bc58fccaeae4678aad14"
+    }
+  ]
+}

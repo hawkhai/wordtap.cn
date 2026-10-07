@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "course": "shuimu",
   "articleId": "phonetics-001",
-  "beforeDisplaySha256": "7d42c0280b2c4ffe343945360b35319df3284f757a4ecf9e5fcad3ae963cd2ff",
+  "beforeDisplaySha256": "374597616cf924242336c5dd3d903cd24ea8b285b6d9800c04d93d8af25c2377",
   "afterDisplaySha256": "374597616cf924242336c5dd3d903cd24ea8b285b6d9800c04d93d8af25c2377",
   "baselineDisplay": {
     "title": "入门课：认识 26 个英文字母",
@@ -13,7 +13,7 @@
         "text": "入门课：认识 26 个英文字母"
       },
       {
-        "type": "paragraph",
+        "type": "subheading",
         "text": "英语是一门拼读语言"
       },
       {
@@ -33,7 +33,7 @@
         "text": "• 英语的读音和拼写存在必然联系"
       },
       {
-        "type": "paragraph",
+        "type": "subheading",
         "text": "认识 26 个字母"
       },
       {
@@ -73,7 +73,7 @@
         "text": "Uu：[ju:] Vv：[vi:] Ww：[′d∧blju:] Xx：[eks] Yy：[wai] Zz：[zi:]"
       },
       {
-        "type": "paragraph",
+        "type": "subheading",
         "text": "英文字母的书写"
       },
       {
@@ -85,7 +85,7 @@
         "text": "• 斜度：每个字母都要稍向右倾斜约 10°左右，斜度要一致"
       },
       {
-        "type": "paragraph",
+        "type": "subheading",
         "text": "要注意书写的规范"
       },
       {
@@ -202,18 +202,42 @@
   },
   "sources": [
     {
-      "path": "D:/kSource/pythonx/study/入门英语/英语入门讲义-英语国际音标课.pdf",
-      "locator": "PDF 页 1 全页和页 2 顶部，原文与页面图逐条对照",
+      "path": "content/article-review/history/0edecb8ce830489eb3d0d2b8bf3f9a7a65c5ab15b3d690f5d640c097574d31d5.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
       "checked": true,
-      "sha256": "7fed8380302041c1b383efe037f721194a0ab1b9f1e81b78d5ca48ae3e2aee73"
+      "sha256": "3a5a8c40432c3da18c2022c777fb0db927231eb301f77a4de3315e1d9684bbaa"
     }
   ],
   "corrections": [],
   "fullReadConfirmed": true,
   "recheckConfirmed": true,
   "reviewer": "Codex",
-  "reviewedAt": "2026-10-01T08:15:57+00:00",
-  "notes": "通读全部 23 块并核对 PDF 页 1–2。字母序列及所有音标与原页一致，保留来源的音标写法；依据黄色章节标题将说明标题标为 subheading，不拆列表、音标行或解释。没有 OCR 改词。",
+  "reviewedAt": "2026-10-07T06:58:20+00:00",
+  "notes": "字母表、分组音标和书写要点分别完整；11–15 是字母音标的分组，不合成散文段落。",
   "issues": [],
-  "status": "passed_edited"
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "2a32eb7b808dee8a3fd3ab6a094fd12193d9242fc6b34eb7557a661023663b16",
+    "afterFileSha256": "2a32eb7b808dee8a3fd3ab6a094fd12193d9242fc6b34eb7557a661023663b16",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "2a32eb7b808dee8a3fd3ab6a094fd12193d9242fc6b34eb7557a661023663b16",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "coverage": "全文 blocks[0..22]，逐项检查前后边界。",
+      "notes": "字母表、分组音标和书写要点分别完整；11–15 是字母音标的分组，不合成散文段落。",
+      "issues": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/0edecb8ce830489eb3d0d2b8bf3f9a7a65c5ab15b3d690f5d640c097574d31d5.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "3a5a8c40432c3da18c2022c777fb0db927231eb301f77a4de3315e1d9684bbaa"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "0edecb8ce830489eb3d0d2b8bf3f9a7a65c5ab15b3d690f5d640c097574d31d5"
 }

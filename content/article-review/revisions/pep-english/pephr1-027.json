@@ -60,24 +60,45 @@
   },
   "sources": [
     {
-      "path": "content/pep-english/raw/senior-required-1.pdf",
-      "locator": "PDF第87-87页，标题与完整正文逐行核对",
+      "path": "content/article-review/history/4740ce3a79c76ed50ec32c5ff999c129801356704706efcb254adec545255a90.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
       "checked": true,
-      "sha256": "ffe985a370964820aa003008f48c7cf17b5e0dff8eb29fe54cd4743b0c4e8c79"
-    },
-    {
-      "path": "content/pep-english/raw/senior-required-1/senior-required-1_87.jpg",
-      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
-      "checked": true,
-      "sha256": "1cd623d73b2f32e26d8a2525da2347361a46db582a7dc6dc89d3022952817910"
+      "sha256": "6d141d5e7bddb99c04ca958c238ceb7af25161926372021b6d908ad7c94e94d9"
     }
   ],
   "corrections": [],
   "fullReadConfirmed": true,
   "recheckConfirmed": true,
   "reviewer": "Codex",
-  "reviewedAt": "2026-10-02T05:32:23+00:00",
-  "notes": "PDF第87页文明旅游社论四段全文逐行一致，Luxor/Colosseum/Stonehenge/Qomolangma、Chiang Mai/Yonsei/Sanlitun专名和两处three words正确。中文词义括注属于教材辅助注释，英文正文及段落完整，无修改。",
+  "reviewedAt": "2026-10-07T07:30:13+00:00",
+  "notes": "文明旅游论述由总起、破坏景点、打扰居民、总结建议四段组成，事例与评价属于同段。",
   "issues": [],
-  "status": "passed_unchanged"
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "ec16b406ea6e89dbdb61d0e18a20daabcfd07d7e3cb6764e8cdc8fc783d20b6d",
+    "afterFileSha256": "ec16b406ea6e89dbdb61d0e18a20daabcfd07d7e3cb6764e8cdc8fc783d20b6d",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "ec16b406ea6e89dbdb61d0e18a20daabcfd07d7e3cb6764e8cdc8fc783d20b6d",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..3] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "文明旅游论述由总起、破坏景点、打扰居民、总结建议四段组成，事例与评价属于同段。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/4740ce3a79c76ed50ec32c5ff999c129801356704706efcb254adec545255a90.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "6d141d5e7bddb99c04ca958c238ceb7af25161926372021b6d908ad7c94e94d9"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "4740ce3a79c76ed50ec32c5ff999c129801356704706efcb254adec545255a90"
 }

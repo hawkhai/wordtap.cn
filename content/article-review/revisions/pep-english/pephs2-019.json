@@ -60,24 +60,45 @@
   },
   "sources": [
     {
-      "path": "content/pep-english/raw/senior-selective-2.pdf",
-      "locator": "PDF第85-85页，标题与完整正文逐行核对",
+      "path": "content/article-review/history/493796f0b62af55a168fca11155d7097bd899c9105976e84f94c1ab0afe49c55.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
       "checked": true,
-      "sha256": "cafaee5fe508dfced31ba02877251ffeb01e98b1a48767fe30b2b7187edb0050"
-    },
-    {
-      "path": "content/pep-english/raw/senior-selective-2/senior-selective-2_85.jpg",
-      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
-      "checked": true,
-      "sha256": "672eb79173878eeae99f64a29957841215a6aade00441003cf68d5c564789d3f"
+      "sha256": "a7cf1becca3c7493ee1f8b9e9c0e4c07448056542951dc6238eb92b2c2cfc5e1"
     }
   ],
   "corrections": [],
   "fullReadConfirmed": true,
   "recheckConfirmed": true,
   "reviewer": "Codex",
-  "reviewedAt": "2026-10-02T06:49:35+00:00",
-  "notes": "通读四段并对照PDF85页，Mei Lin与Su Bo的引语、饮食选择和末段保留意见完整。旧manual-review-ledger中原ID036明确排除读者评论与练习，故正文不补入runnerSZ95评论；个人体验不改写为医学结论。无需修改。",
+  "reviewedAt": "2026-10-07T07:35:47+00:00",
+  "notes": "新鲜食物四段分别呈现Mei Lin、Su Bo、忙碌时例外、趋势判断，访谈引语归属完整。",
   "issues": [],
-  "status": "passed_unchanged"
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "95a387275156682c4f0fdf1a1325f5f0930eb98495edbbd6b09a148573767989",
+    "afterFileSha256": "95a387275156682c4f0fdf1a1325f5f0930eb98495edbbd6b09a148573767989",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "95a387275156682c4f0fdf1a1325f5f0930eb98495edbbd6b09a148573767989",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..3] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "新鲜食物四段分别呈现Mei Lin、Su Bo、忙碌时例外、趋势判断，访谈引语归属完整。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/493796f0b62af55a168fca11155d7097bd899c9105976e84f94c1ab0afe49c55.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "a7cf1becca3c7493ee1f8b9e9c0e4c07448056542951dc6238eb92b2c2cfc5e1"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "493796f0b62af55a168fca11155d7097bd899c9105976e84f94c1ab0afe49c55"
 }

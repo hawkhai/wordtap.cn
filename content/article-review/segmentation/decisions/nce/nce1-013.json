@@ -1,0 +1,26 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "7bf1a90a657bfb68c965ecd5a1d379416e6e04885cd1612d89eb5fc0a068ccae",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title/titleZh、question/questionZh、bodyText全部13行、bodyTextZh全部13行及sentences[0..16]的完整文字；重复正文与字幕文本逐字比对，非正文字幕另读。操作在内存应用并validate_layout_change，修复后的双语全文重新通读。",
+  "notes": "新裙子与帽子；颜色回答加邀请、展示、评价及同色说明合为完整话轮，帽子新话题与追问保留。 text与bodyText同步；sentences对象及时间、角色、索引原样保留。",
+  "issues": [],
+  "display": {
+    "text": "What colour is Anna's hat?\n\nWhat colour's your new dress?\nIt's green. Come upstairs and see it.\nThank you.\nLook! Here it is!\nThat's a nice dress. It's very smart.\nMy hat's new too.\nWhat colour is it?\nIt's the same colour. It's green too.\nThat is a lovely hat!",
+    "bodyText": "What colour's your new dress?\nIt's green. Come upstairs and see it.\nThank you.\nLook! Here it is!\nThat's a nice dress. It's very smart.\nMy hat's new too.\nWhat colour is it?\nIt's the same colour. It's green too.\nThat is a lovely hat!",
+    "bodyTextZh": "你的新裙子是什么颜色的？\n它是绿色的。上来看看吧。\n谢谢。\n看！给你！\n那条裙子真漂亮。它很时髦。\n我的帽子也是新买的。\n它是什么颜色的？\n颜色是一样的。也是绿色的。\n那是一顶非常漂亮的帽子！"
+  },
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/0709cc3a208d3a1c708467847412af54946c64176090d59e60c3bd21f2f5784f.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "d2ca130c575b3ac9c2f148434b7ee10adf9f9294f804186ea4d7ea66d1027c14"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "65edf9796c2c848b3024c2d2e43ba5cd2f0552df6aac945269e9c6a753aa3efd",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title；全文 blocks[0..0] 与对应 text；现有正文/对话/题干逐块通读复核。",
+  "notes": "海伦凯勒自传简介两句构成完整推荐单元，保留。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/f65a63833f9a69c52a5631a1d1b4aa4f5e4132aec41385b77c5b615f5d662f83.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "3f2c39c6bc45e3bf9c141e760bb86d43349708c392b34c08dee61920ec3904bc"
+    }
+  ]
+}

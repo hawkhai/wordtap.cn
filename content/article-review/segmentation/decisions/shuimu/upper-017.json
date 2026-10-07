@@ -1,0 +1,206 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "98cdeef24e0dd7a06fd9692c891adc7726aa3805623c3ff872c04802f57dd2c8",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title；全文 blocks[0..171] 与对应 text；现有正文/对话/题干逐块通读复核。",
+  "notes": "全文通读The longest suspension bridge in the world标题、词汇、三组桥梁英汉正文、七条注释、15道问答、悉尼海港桥单段写作模板范文、12道选择题与答案。保留各多句桥梁说明段及英文中文对应，作文按150词单段要求接续；残缺选项bridge's b属字词问题，不猜补。",
+  "issues": [],
+  "mergeBlocks": [
+    {
+      "start": 22,
+      "end": 27,
+      "before": [
+        "Verrazano, an Italian about whom little is known, sailed into New York Harbour in",
+        "1524 and named it Angoulême. He described it as ‘a very agreeable situation located",
+        "within two small hills in the midst of which flowed a great river’. Though Verrazano",
+        "is by no means considered to be a great explorer, his name will probably remain",
+        "immortal, for on November 21st, 1964, the longest suspension bridge in the world",
+        "was named after him."
+      ],
+      "text": "Verrazano, an Italian about whom little is known, sailed into New York Harbour in 1524 and named it Angoulême. He described it as ‘a very agreeable situation located within two small hills in the midst of which flowed a great river’. Though Verrazano is by no means considered to be a great explorer, his name will probably remain immortal, for on November 21st, 1964, the longest suspension bridge in the world was named after him.",
+      "reason": "桥梁命名、桥塔结构和钢缆承载各英汉单元及注释/练习中相邻机械断行恢复为完整段。"
+    },
+    {
+      "start": 28,
+      "end": 32,
+      "before": [
+        "1524 年，一位鲜为人知的意大利人维拉萨诺驾船驶进纽约港，并将该港命名为",
+        "安古拉姆。他对该港作了这样的描述：“地理位置十分适宜，位于两座小山的中",
+        "间，一条大河从中间流过” 。虽然维拉萨诺绝对算不上一个伟大的探险家，但他",
+        "的名字将流芳百世，因为 1964 年 11 月 21 日建成的一座世界上最长的吊桥是以",
+        "他的名字命名的。"
+      ],
+      "text": "1524 年，一位鲜为人知的意大利人维拉萨诺驾船驶进纽约港，并将该港命名为安古拉姆。他对该港作了这样的描述：“地理位置十分适宜，位于两座小山的中间，一条大河从中间流过” 。虽然维拉萨诺绝对算不上一个伟大的探险家，但他的名字将流芳百世，因为 1964 年 11 月 21 日建成的一座世界上最长的吊桥是以他的名字命名的。",
+      "reason": "桥梁命名、桥塔结构和钢缆承载各英汉单元及注释/练习中相邻机械断行恢复为完整段。"
+    },
+    {
+      "start": 35,
+      "end": 38,
+      "before": [
+        "2 located within two small hills in the midst of which flowed a great river, 位于两座",
+        "小山之间，一条大河滔滔流过。",
+        "located…是过去分词短语作定语，修饰 situation; in the midst of which 引导一个定",
+        "语从句，which 指 two small hills。in the midst of, 在……之中。"
+      ],
+      "text": "2 located within two small hills in the midst of which flowed a great river, 位于两座小山之间，一条大河滔滔流过。located…是过去分词短语作定语，修饰 situation; in the midst of which 引导一个定语从句，which 指 two small hills。in the midst of, 在……之中。",
+      "reason": "桥梁命名、桥塔结构和钢缆承载各英汉单元及注释/练习中相邻机械断行恢复为完整段。"
+    },
+    {
+      "start": 41,
+      "end": 47,
+      "before": [
+        "The Verrazano Bridge, which was designed by Othmar Ammann, joins Brooklyn to",
+        "Staten Island. It has a span of 4, 260 feet. The bridge is so long that the shape of the",
+        "earth had to be taken into account by its designer. Two great towers support four huge",
+        "cables. The towers are built on immense underwater platforms made of steel and",
+        "concrete. The platforms extend to a depth of over 100 feet under the sea. These alone",
+        "took sixteen months to build. Above the surface of the water, the towers rise to a",
+        "height of nearly 700 feet."
+      ],
+      "text": "The Verrazano Bridge, which was designed by Othmar Ammann, joins Brooklyn to Staten Island. It has a span of 4, 260 feet. The bridge is so long that the shape of the earth had to be taken into account by its designer. Two great towers support four huge cables. The towers are built on immense underwater platforms made of steel and concrete. The platforms extend to a depth of over 100 feet under the sea. These alone took sixteen months to build. Above the surface of the water, the towers rise to a height of nearly 700 feet.",
+      "reason": "桥梁命名、桥塔结构和钢缆承载各英汉单元及注释/练习中相邻机械断行恢复为完整段。"
+    },
+    {
+      "start": 48,
+      "end": 51,
+      "before": [
+        "维拉萨诺大桥由奥斯马·阿曼设计，连结着布鲁克林与斯塔顿岛，桥长 4，260 英",
+        "尺。由于桥身太长，设计者不得不考虑了地表的形状。两座巨塔支撑着 4 根粗大",
+        "的钢缆。塔身建在巨大的水下钢筋混凝土平台上。平台深入海底 100 英尺。仅这",
+        "两座塔就花了 16 个月才建成。塔身高出水面将近 700 英尺。"
+      ],
+      "text": "维拉萨诺大桥由奥斯马·阿曼设计，连结着布鲁克林与斯塔顿岛，桥长 4，260 英尺。由于桥身太长，设计者不得不考虑了地表的形状。两座巨塔支撑着 4 根粗大的钢缆。塔身建在巨大的水下钢筋混凝土平台上。平台深入海底 100 英尺。仅这两座塔就花了 16 个月才建成。塔身高出水面将近 700 英尺。",
+      "reason": "桥梁命名、桥塔结构和钢缆承载各英汉单元及注释/练习中相邻机械断行恢复为完整段。"
+    },
+    {
+      "start": 54,
+      "end": 59,
+      "before": [
+        "They support the cables from which the bridge has been suspended. Each of the four",
+        "cables contains 26, 108 lengths of wire. It has been estimated that if the bridge were",
+        "packed with cars, it would still only be carrying a third of its total capacity. However,",
+        "size and strength are not the only important things about this bridge. Despite its",
+        "immensity, it is both simple and elegant, fulfilling its designer's dream to create ‘an",
+        "enormous object drawn as faintly as possible’."
+      ],
+      "text": "They support the cables from which the bridge has been suspended. Each of the four cables contains 26, 108 lengths of wire. It has been estimated that if the bridge were packed with cars, it would still only be carrying a third of its total capacity. However, size and strength are not the only important things about this bridge. Despite its immensity, it is both simple and elegant, fulfilling its designer's dream to create ‘an enormous object drawn as faintly as possible’.",
+      "reason": "桥梁命名、桥塔结构和钢缆承载各英汉单元及注释/练习中相邻机械断行恢复为完整段。"
+    },
+    {
+      "start": 60,
+      "end": 63,
+      "before": [
+        "高塔支撑着钢缆，而钢缆又悬吊着大桥。4 根钢缆中的每根由 26，108 股钢绳组",
+        "成。据估计，若桥上摆满了汽车，也只不过是桥的总承载力的 1／3 。然而，这",
+        "座桥的重要特点不仅是它的规模与强度。尽管此桥很大，但它的结构简单，造型",
+        "优美，实现了设计者企图创造一个“尽量用细线条勾画出一个庞然大物”的梦想。"
+      ],
+      "text": "高塔支撑着钢缆，而钢缆又悬吊着大桥。4 根钢缆中的每根由 26，108 股钢绳组成。据估计，若桥上摆满了汽车，也只不过是桥的总承载力的 1／3 。然而，这座桥的重要特点不仅是它的规模与强度。尽管此桥很大，但它的结构简单，造型优美，实现了设计者企图创造一个“尽量用细线条勾画出一个庞然大物”的梦想。",
+      "reason": "桥梁命名、桥塔结构和钢缆承载各英汉单元及注释/练习中相邻机械断行恢复为完整段。"
+    },
+    {
+      "start": 72,
+      "end": 73,
+      "before": [
+        "3 How did Verrazano describe New York Harbour? (As ‘a very agreeable situation",
+        "located within two mall hills in the midst of which flowed a great river’.)"
+      ],
+      "text": "3 How did Verrazano describe New York Harbour? (As ‘a very agreeable situation located within two mall hills in the midst of which flowed a great river’.)",
+      "reason": "桥梁命名、桥塔结构和钢缆承载各英汉单元及注释/练习中相邻机械断行恢复为完整段。"
+    },
+    {
+      "start": 74,
+      "end": 75,
+      "before": [
+        "4 Why will Verrazano's name be remembered? (Because the longest suspension bridge",
+        "in the world was named after him.)"
+      ],
+      "text": "4 Why will Verrazano's name be remembered? (Because the longest suspension bridge in the world was named after him.)",
+      "reason": "桥梁命名、桥塔结构和钢缆承载各英汉单元及注释/练习中相邻机械断行恢复为完整段。"
+    },
+    {
+      "start": 79,
+      "end": 80,
+      "before": [
+        "8 What did Ammann have to take account of when designing the bridge? (The shape",
+        "of the earth.)"
+      ],
+      "text": "8 What did Ammann have to take account of when designing the bridge? (The shape of the earth.)",
+      "reason": "桥梁命名、桥塔结构和钢缆承载各英汉单元及注释/练习中相邻机械断行恢复为完整段。"
+    },
+    {
+      "start": 86,
+      "end": 87,
+      "before": [
+        "14 Why are these cables so strong? (Because each one contains twenty-six thousand",
+        "one hundred and eight lengths of wire.)"
+      ],
+      "text": "14 Why are these cables so strong? (Because each one contains twenty-six thousand one hundred and eight lengths of wire.)",
+      "reason": "桥梁命名、桥塔结构和钢缆承载各英汉单元及注释/练习中相邻机械断行恢复为完整段。"
+    },
+    {
+      "start": 88,
+      "end": 89,
+      "before": [
+        "15 Why doesn't the bridge collapse when it is packed with cars? (Because it is",
+        "carrying only one third of its capacity.)"
+      ],
+      "text": "15 Why doesn't the bridge collapse when it is packed with cars? (Because it is carrying only one third of its capacity.)",
+      "reason": "桥梁命名、桥塔结构和钢缆承载各英汉单元及注释/练习中相邻机械断行恢复为完整段。"
+    },
+    {
+      "start": 92,
+      "end": 93,
+      "before": [
+        "Describe any bridge you know well. Expand the following into a paragraph of about",
+        "150 words."
+      ],
+      "text": "Describe any bridge you know well. Expand the following into a paragraph of about 150 words.",
+      "reason": "桥梁命名、桥塔结构和钢缆承载各英汉单元及注释/练习中相邻机械断行恢复为完整段。"
+    },
+    {
+      "start": 94,
+      "end": 98,
+      "before": [
+        "The bridge I know best is called... It joins... to... From far away it looks... but when",
+        "you get near… It is made of...and supported by... If you stand on the bridge early in",
+        "the morning, you can see... At this time everything is quiet. During the day,",
+        "however,... I enjoy standing on the bridge at night when...In the darkness, you can",
+        "see... In the stillness... are the only sounds that can be heard."
+      ],
+      "text": "The bridge I know best is called... It joins... to... From far away it looks... but when you get near… It is made of...and supported by... If you stand on the bridge early in the morning, you can see... At this time everything is quiet. During the day, however,... I enjoy standing on the bridge at night when...In the darkness, you can see... In the stillness... are the only sounds that can be heard.",
+      "reason": "桥梁命名、桥塔结构和钢缆承载各英汉单元及注释/练习中相邻机械断行恢复为完整段。"
+    },
+    {
+      "start": 100,
+      "end": 109,
+      "before": [
+        "The bridge I know best is called the Sydney Harbour Bridge. It joins either side",
+        "of Sydney Harbour. From far away it looks like a great arch, but when you get near,",
+        "you can see a great deck under the arch. It is made of steel and supported by two",
+        "towers. If you stand on the bridge early in the morning, you can see the Parramatta",
+        "River to the west and the open sea to the east. At this time everything is quiet. During",
+        "the day, however, the harbour becomes busy with small boats and large ships moving",
+        "in all directions. I enjoy standing on the bridge at night when you see the magnificent",
+        "Opera House looking like a great sailing ship. In the darkness you can see the city",
+        "lights. In the stillness the traffic and the movement of the sea are the only sounds that",
+        "can be heard."
+      ],
+      "text": "The bridge I know best is called the Sydney Harbour Bridge. It joins either side of Sydney Harbour. From far away it looks like a great arch, but when you get near, you can see a great deck under the arch. It is made of steel and supported by two towers. If you stand on the bridge early in the morning, you can see the Parramatta River to the west and the open sea to the east. At this time everything is quiet. During the day, however, the harbour becomes busy with small boats and large ships moving in all directions. I enjoy standing on the bridge at night when you see the magnificent Opera House looking like a great sailing ship. In the darkness you can see the city lights. In the stillness the traffic and the movement of the sea are the only sounds that can be heard.",
+      "reason": "桥梁命名、桥塔结构和钢缆承载各英汉单元及注释/练习中相邻机械断行恢复为完整段。"
+    }
+  ],
+  "splitBlocks": [],
+  "blockEdits": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/942d57ff0cfa79c9eb91e0b91f077225413112fbaba069e309a1dfc8751de5fe.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "ad9fdac69f48c80858ad838ea841947f1e8549c3b3d58d7f1dae7fa57bf27f83"
+    }
+  ]
+}

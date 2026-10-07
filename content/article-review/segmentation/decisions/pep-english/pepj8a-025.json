@@ -1,0 +1,22 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "4c8359956218c82a604dcb47a4620fa4bc40b43cc74cd1ff9738c960f5a8d2c8",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title；全文 blocks[0..4] 与对应 text；现有正文/对话/题干逐块通读复核。",
+  "notes": "Jeff与Ben派对食物游戏五轮已经独立，条件句解释保留本轮。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "blockEdits": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/8cdf5e8c57cf01ec68affda5a48154fced948f1977eb5071219eb5bef11dc1cf.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "5cd82b914207fa828b94055b662ff103242948ed17f7a60bd4c82c1cdd8c622b"
+    }
+  ]
+}

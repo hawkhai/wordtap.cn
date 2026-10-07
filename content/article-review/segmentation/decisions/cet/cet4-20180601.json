@@ -1,0 +1,1197 @@
+{
+  "parallelReview": true,
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "a0063796cb29cf2bed0a76fc8f7a15b57de666faf0867a7c2b5a7215f4367792",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "coverage": "blocks[0..39]全文：作文、听力1..25、选词、匹配36..45、阅读46..55和中文翻译，修后全文复核。",
+  "notes": "201806四级第1套：太阳能写字楼、数字教材收费、记忆力及达尔文信件四篇均逐段通读。拆开题号选项、词库、考试分部及正文粘连；H段跨页续句合并。重复Passage One/Two提示和OCR文字不删除；中文航空译题保留原有两段。",
+  "issues": [],
+  "mergeBlocks": [
+    {
+      "start": 13,
+      "end": 14,
+      "before": [
+        "H) A Pearson spokesperson told BuzzFeed News that \"digital materials are less expensive and a",
+        "good investment\" that offer new features, like audio texts, personalized knowledge checks and expert videos. Its digital course materials save students up to 60% compared to traditional printed textbooks, the company added. McGraw Hill didn't respond to a request for comment, but its CEO David Levin told the Financial Times in August that \"in higher education, the era of the printed textbook is now over.\""
+      ],
+      "text": "H) A Pearson spokesperson told BuzzFeed News that \"digital materials are less expensive and a good investment\" that offer new features, like audio texts, personalized knowledge checks and expert videos. Its digital course materials save students up to 60% compared to traditional printed textbooks, the company added. McGraw Hill didn't respond to a request for comment, but its CEO David Levin told the Financial Times in August that \"in higher education, the era of the printed textbook is now over.\"",
+      "reason": "H段报价引语expensive and a / good investment跨页续接，同一完整自然段。"
+    }
+  ],
+  "splitBlocks": [
+    {
+      "index": 0,
+      "before": [
+        "2018 年 6 月大学英语四级真题（第 1 套)\nPart I Writing （30 minutes）"
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "2018 年 6 月大学英语四级真题（第 1 套)"
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "Part I Writing （30 minutes）"
+        }
+      ],
+      "reason": "全文上下文与题号、选项、考试分部标签确认独立条目；修复粘连，保留完整自然段和原文顺序。"
+    },
+    {
+      "index": 1,
+      "before": [
+        "Directions: For this part, you are allowed 30minutes to write a short essay on the importance of reading ability and how to develop it. You should write at least 120 words but no more than 180 words.\n________________________________________________________________________ ________________________________________________________________________ ________________________________________________________________________ Part II Listening Comprehension (25 minutes)\nSection A Directions: In this section, you will hear three news reports. At the end of each news report, you will hear two or three questions. Both the news report and the questions will be spoken only once. After you hear a question, you must choose the best answer from the four choices marked A), B), C) and D). Then mark the corresponding letter on Answer Sheet 1 with a single line through the centre.\nQuestions 1 and 2 are based on the news report you have just heard.\n1. A) The return of a bottled message to its owner's daughter.\nB) A New Hampshire man's joke with friends on his wife.\nC) A father's message for his daughter.\nD) The history of a century-old motel.\n2. A) She wanted to show gratitude for his kindness.\nB) She wanted to honor her father's promise.\nC) She had been asked by her father to do so.\nD) She was excited to see her father's handwriting.\nQuestions 3 and 4 are based on the news report you have just heard.\n3. A) People were concerned about the number of bees.\nB) Several cases of Zika disease had been identified.\nC) Two million bees were infected with disease.\nD) Zika virus had destroyed some bee farms.\n4. A) It apologized to its customers.\nB) It was forced to kill its bees.\nC) It lost a huge stock of bees.\nD) It lost 2.5 million dollars.\nQuestions 5 to 7 are based on the news report you have just heard.\n5. A) It stayed in the air for about two hours.\nB) It took off and landed on a football field.\nC) It proved to be of high commercial value.\nD) It made a series of sharp turns in the sky.\n6. A) Engineering problems.\nB) The air pollution it produced."
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "Directions: For this part, you are allowed 30minutes to write a short essay on the importance of reading ability and how to develop it. You should write at least 120 words but no more than 180 words."
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "________________________________________________________________________ ________________________________________________________________________ ________________________________________________________________________"
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "Part II Listening Comprehension (25 minutes)"
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "Section A"
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "Directions: In this section, you will hear three news reports. At the end of each news report, you will hear two or three questions. Both the news report and the questions will be spoken only once. After you hear a question, you must choose the best answer from the four choices marked A), B), C) and D). Then mark the corresponding letter on Answer Sheet 1 with a single line through the centre."
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "Questions 1 and 2 are based on the news report you have just heard."
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "1. A) The return of a bottled message to its owner's daughter."
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "B) A New Hampshire man's joke with friends on his wife."
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "C) A father's message for his daughter."
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "D) The history of a century-old motel."
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "2. A) She wanted to show gratitude for his kindness."
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "B) She wanted to honor her father's promise."
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "C) She had been asked by her father to do so."
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "D) She was excited to see her father's handwriting."
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "Questions 3 and 4 are based on the news report you have just heard."
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "3. A) People were concerned about the number of bees."
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "B) Several cases of Zika disease had been identified."
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "C) Two million bees were infected with disease."
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "D) Zika virus had destroyed some bee farms."
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "4. A) It apologized to its customers."
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "B) It was forced to kill its bees."
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "C) It lost a huge stock of bees."
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "D) It lost 2.5 million dollars."
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "Questions 5 to 7 are based on the news report you have just heard."
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "5. A) It stayed in the air for about two hours."
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "B) It took off and landed on a football field."
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "C) It proved to be of high commercial value."
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "D) It made a series of sharp turns in the sky."
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "6. A) Engineering problems."
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "B) The air pollution it produced."
+        }
+      ],
+      "reason": "全文上下文与题号、选项、考试分部标签确认独立条目；修复粘连，保留完整自然段和原文顺序。"
+    },
+    {
+      "index": 2,
+      "before": [
+        "C) Inadequate funding.\nD) The opposition from the military.\n7. A) It uses the latest aviation technology.\nB) It flies faster than a commercial jet.\nC) It is a safer means of transportation.\nD) It is more environmentally friendly.\nSection B Directions: In this section, you will hear two long conversations. At the end of each conversation, you will hear four questions. Both the conversation and the questions will bespo ken only once. After you hear a question, you must choose the best answer from the four choices marked A), B), C) and D). Then mark the corresponding letter on Answer Sheet 1with a single line through the centre.\nQuestions 8 to 11 are based on the conversation you have just heard.\n8. A) It seems a depressing topic.\nB) It sounds quite alarming.\nC) It has little impact on our daily life.\nD) It is getting more serious these days.\n9. A) The man doesn't understand Spanish.\nB) The woman doesn't really like dancing.\nC) They don't want something too noisy.\nD) They can't make it to the theatre in time.\n10. A) It would be more fun without Mr. Whitehead hosting.\nB) It has too many acts to hold the audience's attention.\nC) It is the most amusing show he has ever watched.\nD) It is a show inappropriate for a night of charity.\n11. A) Watch a comedy.\nB) Go and see the dance.\nC) Book the tickets online.\nD) See a film with the man.\nQuestions 12 to 15 are based on the conversation you have just heard.\n12. A) Most of her schoolmates are younger than she is.\nB) She simply has no idea what school to transfer to.\nC) There are too many activities for her to cope with.\nD) She worries she won't fit in as a transfer student.\n13. A) Seek advice from senior students.\nB) Pick up some meaningful hobbies.\nC) Participate in after-school activities.\nD) Look into what the school offers.\n14. A) Give her help whenever she needs it.\nB) Accept her as a transfer student.\nC) Find her accommodation on campus.\nD) Introduce her to her roommates.\n15. A) She has interests similar to Mr. Lee's.\nB) She has become friends with Catherine."
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "C) Inadequate funding."
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "D) The opposition from the military."
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "7. A) It uses the latest aviation technology."
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "B) It flies faster than a commercial jet."
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "C) It is a safer means of transportation."
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "D) It is more environmentally friendly."
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "Section B"
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "Directions: In this section, you will hear two long conversations. At the end of each conversation, you will hear four questions. Both the conversation and the questions will bespo ken only once. After you hear a question, you must choose the best answer from the four choices marked A), B), C) and D). Then mark the corresponding letter on Answer Sheet 1with a single line through the centre."
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "Questions 8 to 11 are based on the conversation you have just heard."
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "8. A) It seems a depressing topic."
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "B) It sounds quite alarming."
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "C) It has little impact on our daily life."
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "D) It is getting more serious these days."
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "9. A) The man doesn't understand Spanish."
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "B) The woman doesn't really like dancing."
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "C) They don't want something too noisy."
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "D) They can't make it to the theatre in time."
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "10. A) It would be more fun without Mr. Whitehead hosting."
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "B) It has too many acts to hold the audience's attention."
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "C) It is the most amusing show he has ever watched."
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "D) It is a show inappropriate for a night of charity."
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "11. A) Watch a comedy."
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "B) Go and see the dance."
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "C) Book the tickets online."
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "D) See a film with the man."
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "Questions 12 to 15 are based on the conversation you have just heard."
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "12. A) Most of her schoolmates are younger than she is."
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "B) She simply has no idea what school to transfer to."
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "C) There are too many activities for her to cope with."
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "D) She worries she won't fit in as a transfer student."
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "13. A) Seek advice from senior students."
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "B) Pick up some meaningful hobbies."
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "C) Participate in after-school activities."
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "D) Look into what the school offers."
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "14. A) Give her help whenever she needs it."
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "B) Accept her as a transfer student."
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "C) Find her accommodation on campus."
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "D) Introduce her to her roommates."
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "15. A) She has interests similar to Mr. Lee's."
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "B) She has become friends with Catherine."
+        }
+      ],
+      "reason": "全文上下文与题号、选项、考试分部标签确认独立条目；修复粘连，保留完整自然段和原文顺序。"
+    },
+    {
+      "index": 3,
+      "before": [
+        "C) She has chosen the major Catherine has.\nD) She has just transferred to the college.\nSection C Directions: In this section, you will hear three passages. At the end of each passage, you will hear three or four questions. Both the passage and the questions will be spoken only once.Afte r you hear a question, you must choose the best answer from the four choices marked A),B), C)\nand D). Then mark the corresponding letter on Answer Sheet 1 with a single line through the centre.\nQuestions 16 to 18 are based on the passage you have just heard.\n16. A) To investigate how being overweight impacts on health.\nB) To find out which physical drive is the most powerful.\nC) To discover what most mice like to eat.\nD) To determine what feelings mice have.\n17. A) When they are hungry.\nB) When they are thirsty.\nC) When they smell food.\nD) When they want company.\n18. A) They search for food in groups.\nB) They are overweight when food is plenty.\nC) They prefer to be with other mice.\nD) They enjoy the company of other animals.\nQuestions 19 to 21 are based on the passage you have just heard.\n19. A) Its construction started before World War I.\nB) Its construction cost more than $ 40 billion.\nC) It is efficiently used for transport.\nD) It is one of the best in the world.\n20. A) To improve transportation in the countryside.\nB) To move troops quickly from place to place.\nC) To enable people to travel at a higher speed.\nD) To speed up the transportation of goods.\n21. A) In the 1970s.\nB) In the 1960s.\nC) In the 1950s.\nD) In the 1940s.\nQuestions 22 to 25 are based on the passage you have just heard.\n22. A) Chatting while driving.\nB) Messaging while driving.\nC) Driving under age.\nD) Speeding on highways.\n23. A) A gadget to hold a phone on the steering wheel.\nB) A gadget to charge the phone in a car.\nC) A device to control the speed of a vehicle.\nD) A device to ensure people drive with both hands.\n24. A) The car keeps flashing its headlights."
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "C) She has chosen the major Catherine has."
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "D) She has just transferred to the college."
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "Section C"
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "Directions: In this section, you will hear three passages. At the end of each passage, you will hear three or four questions. Both the passage and the questions will be spoken only once.Afte r you hear a question, you must choose the best answer from the four choices marked A),B), C) and D). Then mark the corresponding letter on Answer Sheet 1 with a single line through the centre."
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "Questions 16 to 18 are based on the passage you have just heard."
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "16. A) To investigate how being overweight impacts on health."
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "B) To find out which physical drive is the most powerful."
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "C) To discover what most mice like to eat."
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "D) To determine what feelings mice have."
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "17. A) When they are hungry."
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "B) When they are thirsty."
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "C) When they smell food."
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "D) When they want company."
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "18. A) They search for food in groups."
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "B) They are overweight when food is plenty."
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "C) They prefer to be with other mice."
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "D) They enjoy the company of other animals."
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "Questions 19 to 21 are based on the passage you have just heard."
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "19. A) Its construction started before World War I."
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "B) Its construction cost more than $ 40 billion."
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "C) It is efficiently used for transport."
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "D) It is one of the best in the world."
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "20. A) To improve transportation in the countryside."
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "B) To move troops quickly from place to place."
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "C) To enable people to travel at a higher speed."
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "D) To speed up the transportation of goods."
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "21. A) In the 1970s."
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "B) In the 1960s."
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "C) In the 1950s."
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "D) In the 1940s."
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "Questions 22 to 25 are based on the passage you have just heard."
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "22. A) Chatting while driving."
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "B) Messaging while driving."
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "C) Driving under age."
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "D) Speeding on highways."
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "23. A) A gadget to hold a phone on the steering wheel."
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "B) A gadget to charge the phone in a car."
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "C) A device to control the speed of a vehicle."
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "D) A device to ensure people drive with both hands."
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "24. A) The car keeps flashing its headlights."
+        }
+      ],
+      "reason": "全文上下文与题号、选项、考试分部标签确认独立条目；修复粘连，保留完整自然段和原文顺序。"
+    },
+    {
+      "index": 4,
+      "before": [
+        "B) The car slows down gradually to a halt.\nC) They are alerted with a light and a sound.\nD) They get a warning on their smart phone.\n25. A) Installing a camera.\nB) Using a connected app.\nC) Checking their emails.\nD) Keeping a daily record Part Ⅲ Reading Comprehension (40 minutes)\nSection A Directions: In this section, there is a passage with10 blanks. You are required to select one word for each blank from a list of choices given in a word bank following the passage. Read the passage through carefully before making your choices. Each choice in the bank is identified by a letter. Please mark the corresponding letter for each item on Answer Sheet 2 with a single line through the centre. You may not use any of the words in the bank more than once.\nAn office tower on Miller Street in Manchester is completely covered in solar panels.\nThey are used to create some of the energy used by the insurance company inside. When the tower was first __26__ in 1962, it was covered with thin square stones. These small square stones became a problem for the building and continued to fall off the face for 40 years until a major renovation was __27__. During this renovation the building's owners, CIS, __28__ the solar panel company, Solar century. They agreed to cover the entire building in solar panels. In 2004, the completed CIS tower became Europe's largest __29__ of vertical solar panels. A vertical solar project on such a large __30__ has never been repeated since.\nCovering a skyscraper with solar panels had never been done before, and the CIS tower was chosen as one of the \"10 best green energy projects\". For a long time after this renovation project, it was the tallest building in the United Kingdom, but it was __31__ overtaken by the Mill bank Tower.\nGreen buildings like this aren't __32__ cost-efficient for the investor, but it does produce much less pollution than that caused by energy __33__ through fossil fuels. As solar panels get __34__, the world is likely to see more skyscrapers covered in solar panels, collecting energy much like trees do. Imagine a world where building the tallest skyscraper wasn't a race of __35__, but rather one to collect the most solar energy.\nA)\ncheaper B) cleaner C) collection D) competed E) constructed F) consulted G) dimension H) discovered I) eventually J) height K) necessarily L) production M) range N)scale O) undertaken Section B Directions: In this section, you are going to read a passage with ten statements attached to it. Each statement contains information given in one of the paragraphs. Identify the paragraph from which the information is derived. You may choose a paragraph more than once. Each paragraph is marked with a letter. Answer the questions by marking the corresponding letter on Answer Sheet 2."
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "B) The car slows down gradually to a halt."
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "C) They are alerted with a light and a sound."
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "D) They get a warning on their smart phone."
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "25. A) Installing a camera."
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "B) Using a connected app."
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "C) Checking their emails."
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "D) Keeping a daily record"
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "Part Ⅲ Reading Comprehension (40 minutes)"
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "Section A"
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "Directions: In this section, there is a passage with10 blanks. You are required to select one word for each blank from a list of choices given in a word bank following the passage. Read the passage through carefully before making your choices. Each choice in the bank is identified by a letter. Please mark the corresponding letter for each item on Answer Sheet 2 with a single line through the centre. You may not use any of the words in the bank more than once."
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "An office tower on Miller Street in Manchester is completely covered in solar panels. They are used to create some of the energy used by the insurance company inside. When the tower was first __26__ in 1962, it was covered with thin square stones. These small square stones became a problem for the building and continued to fall off the face for 40 years until a major renovation was __27__. During this renovation the building's owners, CIS, __28__ the solar panel company, Solar century. They agreed to cover the entire building in solar panels. In 2004, the completed CIS tower became Europe's largest __29__ of vertical solar panels. A vertical solar project on such a large __30__ has never been repeated since."
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "Covering a skyscraper with solar panels had never been done before, and the CIS tower was chosen as one of the \"10 best green energy projects\". For a long time after this renovation project, it was the tallest building in the United Kingdom, but it was __31__ overtaken by the Mill bank Tower."
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "Green buildings like this aren't __32__ cost-efficient for the investor, but it does produce much less pollution than that caused by energy __33__ through fossil fuels. As solar panels get __34__, the world is likely to see more skyscrapers covered in solar panels, collecting energy much like trees do. Imagine a world where building the tallest skyscraper wasn't a race of __35__, but rather one to collect the most solar energy."
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "A) cheaper"
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "B) cleaner"
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "C) collection"
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "D) competed"
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "E) constructed"
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "F) consulted"
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "G) dimension"
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "H) discovered"
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "I) eventually"
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "J) height"
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "K) necessarily"
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "L) production"
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "M) range"
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "N)scale"
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "O) undertaken"
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "Section B"
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "Directions: In this section, you are going to read a passage with ten statements attached to it. Each statement contains information given in one of the paragraphs. Identify the paragraph from which the information is derived. You may choose a paragraph more than once. Each paragraph is marked with a letter. Answer the questions by marking the corresponding letter on Answer Sheet 2."
+        }
+      ],
+      "reason": "全文上下文与题号、选项、考试分部标签确认独立条目；修复粘连，保留完整自然段和原文顺序。"
+    },
+    {
+      "index": 21,
+      "before": [
+        "36. A student's yearly expenses on access codes may amount to their rent for two months.\n37. The online access codes may be seen as a way to tie the students to the digital system.\n38. If a student takes a course again, they may have to buy a new access code to submit their assignments.\n39. McGraw Hill accounts for over one-fifth of the market share of college textbooks.\n40. Many traditional textbook publishers are now offering online digital products, whi ch they believe will be the future of the publishing business.\n41. One student complained that they now had to pay for access codes in addition to the high tuition.\n42. Digital materials can cost students less than half the price of traditional printed boo ks according to a publisher.\n43. One student decided not to buy her access code until she received the pay for her part-time job.\n44. Online systems may deprive teachers of opportunities to make the best use of their expertise for their students.\n45. Digit al access codes are criticized because they are profit -driven just like the textbook business.Section C Directions:\nThere are 2 passages in this section. Each passage is followed by some questions or unfinished statements. For each of them there are four choices marked A), B), C) and D). You should decide on the best choice and mark the corresponding letter on Answer Sheet2 with a single line through the centre.\nPassage One Questions 46 and 50 are based on the following passage.\nPassage One Questions 46 to 50 are based on the following passage."
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "36. A student's yearly expenses on access codes may amount to their rent for two months."
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "37. The online access codes may be seen as a way to tie the students to the digital system."
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "38. If a student takes a course again, they may have to buy a new access code to submit their assignments."
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "39. McGraw Hill accounts for over one-fifth of the market share of college textbooks."
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "40. Many traditional textbook publishers are now offering online digital products, whi ch they believe will be the future of the publishing business."
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "41. One student complained that they now had to pay for access codes in addition to the high tuition."
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "42. Digital materials can cost students less than half the price of traditional printed boo ks according to a publisher."
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "43. One student decided not to buy her access code until she received the pay for her part-time job."
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "44. Online systems may deprive teachers of opportunities to make the best use of their expertise for their students."
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "45. Digit al access codes are criticized because they are profit -driven just like the textbook business."
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "Section C"
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "Directions: There are 2 passages in this section. Each passage is followed by some questions or unfinished statements. For each of them there are four choices marked A), B), C) and D). You should decide on the best choice and mark the corresponding letter on Answer Sheet2 with a single line through the centre."
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "Passage One Questions 46 and 50 are based on the following passage."
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "Passage One Questions 46 to 50 are based on the following passage."
+        }
+      ],
+      "reason": "全文上下文与题号、选项、考试分部标签确认独立条目；修复粘连，保留完整自然段和原文顺序。"
+    },
+    {
+      "index": 30,
+      "before": [
+        "46. Why does the author say that one needn't be concerned about memory slips?\nA.Not all of them are symptoms of dementia.\nB.They occur only among certain groups of people.\nC.Not all of them are related to one's age.\nD.They are quite common among fifty-year-olds.\n47. What happens as we become aged according to the passage?\nA.Our interaction skills deteriorate.\nB.Some parts of our brain stop functioning.\nC.Communication within our brain weakens.\nD.Our whole brain starts shrinking.\n48. Which memory-related symptom should people take seriously?\nA.Totally forgetting how to do one's daily routines.\nB.Inability to recall details of one's life experiences.\nC.Failure to remember the names of movies or actors.\nD.Occasionally confusing the addresses of one's friends.\n49. What should people do when signs of serious memory loss show up?\nA.Check the brain's cognitive reserve.\nB.Stop medications affecting memory.\nC.Turn to a professional for assistance.\nD.Exercise to improve their well-being.\n50. What is Dr. Daffner's advice for combating memory loss?"
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "46. Why does the author say that one needn't be concerned about memory slips?"
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "A.Not all of them are symptoms of dementia."
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "B.They occur only among certain groups of people."
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "C.Not all of them are related to one's age."
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "D.They are quite common among fifty-year-olds."
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "47. What happens as we become aged according to the passage?"
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "A.Our interaction skills deteriorate."
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "B.Some parts of our brain stop functioning."
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "C.Communication within our brain weakens."
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "D.Our whole brain starts shrinking."
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "48. Which memory-related symptom should people take seriously?"
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "A.Totally forgetting how to do one's daily routines."
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "B.Inability to recall details of one's life experiences."
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "C.Failure to remember the names of movies or actors."
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "D.Occasionally confusing the addresses of one's friends."
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "49. What should people do when signs of serious memory loss show up?"
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "A.Check the brain's cognitive reserve."
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "B.Stop medications affecting memory."
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "C.Turn to a professional for assistance."
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "D.Exercise to improve their well-being."
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "50. What is Dr. Daffner's advice for combating memory loss?"
+        }
+      ],
+      "reason": "全文上下文与题号、选项、考试分部标签确认独立条目；修复粘连，保留完整自然段和原文顺序。"
+    },
+    {
+      "index": 31,
+      "before": [
+        "A.Having regular physical and mental checkups.\nB.Taking medicine that helps boost one's brain.\nC.Engaging in known memory repair activities.\nD.Staying active both physically and mentally.Passage Two"
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "A.Having regular physical and mental checkups."
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "B.Taking medicine that helps boost one's brain."
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "C.Engaging in known memory repair activities."
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "D.Staying active both physically and mentally."
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "Passage Two"
+        }
+      ],
+      "reason": "全文上下文与题号、选项、考试分部标签确认独立条目；修复粘连，保留完整自然段和原文顺序。"
+    },
+    {
+      "index": 32,
+      "before": [
+        "Passage Two Questions 51 to 55 are based on the following passage.\nA letter written by Charles Darwin in 1875 has been returned to the Smithsonian Institution Archives (档案馆) by the FBI after being stolen twice."
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "Passage Two Questions 51 to 55 are based on the following passage."
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "A letter written by Charles Darwin in 1875 has been returned to the Smithsonian Institution Archives (档案馆) by the FBI after being stolen twice."
+        }
+      ],
+      "reason": "全文上下文与题号、选项、考试分部标签确认独立条目；修复粘连，保留完整自然段和原文顺序。"
+    },
+    {
+      "index": 38,
+      "before": [
+        "51. What happened to Darwin's letter in the 1970s?\nA.It was recovered by the FBI.\nB.It was stolen more than once.\nC.It was put in the archives for research purposes.\nD.It was purchased by the Smithsonian Archives.\n52. What did the FBI do after the recovery of the letter?\nA.They proved its authenticity.\nB.They kept it in a special safe."
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "51. What happened to Darwin's letter in the 1970s?"
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "A.It was recovered by the FBI."
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "B.It was stolen more than once."
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "C.It was put in the archives for research purposes."
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "D.It was purchased by the Smithsonian Archives."
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "52. What did the FBI do after the recovery of the letter?"
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "A.They proved its authenticity."
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "B.They kept it in a special safe."
+        }
+      ],
+      "reason": "全文上下文与题号、选项、考试分部标签确认独立条目；修复粘连，保留完整自然段和原文顺序。"
+    },
+    {
+      "index": 39,
+      "before": [
+        "C.They arrested the suspect immediately.\nD.They pressed criminal charges in vain.\n53. What is Darwin's letter about?\nA.The evolution of Yellowstone National Park.\nB.His cooperation with an American geologist.\nC.Some geological evidence supporting his theory.\nD.His acknowledgement of help from a professional.\n54. What will the Smithsonian Institution Archives do with the letter according to Kapsalis?\nA.Reserve it for research purposes only.\nB.Turn it into an object of high interest.\nC.Keep it a permanent secret.\nD.Make it available online.\n55. What has the past half century witnessed according to Kapsalis?\nA.Growing interest in rare art objects.\nB.Radical changes in archiving practices.\nC.Recovery of various missing documents.\nD.Increases in the value of museum exhibits.\nPart IV Translation (30 minutes)\nDirections: For this part, you are allowed 30minutes to translate a passage from Chinese into English. You should write your answer on Answer Sheet 2.\n过去， 乘飞机出行对大多数中国人来说是难以想象的。 如今， 随着经济的发展和生活水平的提高， 越来越多的中国人包括许多农民和外出务工人员都能乘飞机出行。 他们可以乘飞机到达所有大城市， 还有很多城市也在筹建机场。 航空服务不断改进， 而且经常会有廉价机票。\n近年来，节假日期间选择乘飞机外出旅游的人数在不断增加。"
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "C.They arrested the suspect immediately."
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "D.They pressed criminal charges in vain."
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "53. What is Darwin's letter about?"
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "A.The evolution of Yellowstone National Park."
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "B.His cooperation with an American geologist."
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "C.Some geological evidence supporting his theory."
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "D.His acknowledgement of help from a professional."
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "54. What will the Smithsonian Institution Archives do with the letter according to Kapsalis?"
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "A.Reserve it for research purposes only."
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "B.Turn it into an object of high interest."
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "C.Keep it a permanent secret."
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "D.Make it available online."
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "55. What has the past half century witnessed according to Kapsalis?"
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "A.Growing interest in rare art objects."
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "B.Radical changes in archiving practices."
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "C.Recovery of various missing documents."
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "D.Increases in the value of museum exhibits."
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "Part IV Translation (30 minutes)"
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "Directions: For this part, you are allowed 30minutes to translate a passage from Chinese into English. You should write your answer on Answer Sheet 2."
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "过去， 乘飞机出行对大多数中国人来说是难以想象的。 如今， 随着经济的发展和生活水平的提高， 越来越多的中国人包括许多农民和外出务工人员都能乘飞机出行。 他们可以乘飞机到达所有大城市， 还有很多城市也在筹建机场。 航空服务不断改进， 而且经常会有廉价机票。"
+        },
+        {
+          "type": "paragraph",
+          "lang": "en",
+          "text": "近年来，节假日期间选择乘飞机外出旅游的人数在不断增加。"
+        }
+      ],
+      "reason": "全文上下文与题号、选项、考试分部标签确认独立条目；修复粘连，保留完整自然段和原文顺序。"
+    }
+  ],
+  "sources": [
+    {
+      "path": "content/article-review/history/2d6c4de32bf9e9b8275ac3d08a7b5730a6713c52cd54b2f09500e9cab310e9f6.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "86ee14f7b62f7a1a27b99682c0b2924e193218a9c5bb159ed28bd4bb76970e37"
+    }
+  ]
+}

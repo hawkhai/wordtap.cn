@@ -100,24 +100,45 @@
   },
   "sources": [
     {
-      "path": "content/pep-english/raw/senior-selective-2.pdf",
-      "locator": "PDF第27-27页，标题与完整正文逐行核对",
+      "path": "content/article-review/history/51529641dda513269eabb459a9fbf2d2ac595286c923a2c2796700c0f4f6175b.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
       "checked": true,
-      "sha256": "cafaee5fe508dfced31ba02877251ffeb01e98b1a48767fe30b2b7187edb0050"
-    },
-    {
-      "path": "content/pep-english/raw/senior-selective-2/senior-selective-2_27.jpg",
-      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
-      "checked": true,
-      "sha256": "166a31a11e2fc98573e98fdd3d1569e5a525c6d3661ee8fbecab14b838f7d61d"
+      "sha256": "bcd6353225cf397dd6ead1e7821af8d1169d3d69889b96e4afff41d5873d2a7a"
     }
   ],
   "corrections": [],
   "fullReadConfirmed": true,
   "recheckConfirmed": true,
   "reviewer": "Codex",
-  "reviewedAt": "2026-10-02T06:36:56+00:00",
-  "notes": "通读核对PDF27页右栏张毅来信，称呼、五段论述、结束语及父亲身份署名完整。与上一封反方来信分篇正确，拆分标题准确，保留来信者关于个人成长和文化交流的观点，无修改。",
+  "reviewedAt": "2026-10-07T07:32:29+00:00",
+  "notes": "支持留学来信保留称呼、立场、个人成长、文化交流、报国机会、总结及落款，未碎拆论述段。",
   "issues": [],
-  "status": "passed_unchanged"
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "4c00d777e21544acd705fabfb78511dfce36d71a3390f24d35c656f708422586",
+    "afterFileSha256": "4c00d777e21544acd705fabfb78511dfce36d71a3390f24d35c656f708422586",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "4c00d777e21544acd705fabfb78511dfce36d71a3390f24d35c656f708422586",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..7] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "支持留学来信保留称呼、立场、个人成长、文化交流、报国机会、总结及落款，未碎拆论述段。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/51529641dda513269eabb459a9fbf2d2ac595286c923a2c2796700c0f4f6175b.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "bcd6353225cf397dd6ead1e7821af8d1169d3d69889b96e4afff41d5873d2a7a"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "51529641dda513269eabb459a9fbf2d2ac595286c923a2c2796700c0f4f6175b"
 }

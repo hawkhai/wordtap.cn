@@ -1,0 +1,18 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "d72516edad32ec1ffb8817f67f9c5af9f58583df406c3d8816f4c0e65f7024a6",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "coverage": "全文 blocks[0..34]，复核所有相邻边界。",
+  "notes": "五种后元音解释、发音组合词表及分组绕口令均完整，没有句中断段。",
+  "issues": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/6d2eb69579d290d1d507f3890d28ef8580d402f7e489bac1ee4921c4c654e173.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "228a0f6ca33eae583f294e68a797f042e5c44d87a93e68bb844f37b3311a6a04"
+    }
+  ]
+}

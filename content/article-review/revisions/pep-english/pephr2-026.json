@@ -40,24 +40,45 @@
   },
   "sources": [
     {
-      "path": "content/pep-english/raw/senior-required-2.pdf",
-      "locator": "PDF第96-96页，标题与完整正文逐行核对",
+      "path": "content/article-review/history/3276c25692869ded408cce663f7e319efa9c6d5472f520db8428930d355b5fa4.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
       "checked": true,
-      "sha256": "33b74bf42b22b32fdbe3201e6f61cf8099be047ef0af8a1740f6013dee4a619d"
-    },
-    {
-      "path": "content/pep-english/raw/senior-required-2/senior-required-2_96.jpg",
-      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
-      "checked": true,
-      "sha256": "86b3b399c07b4f209517aa9b5affbab3a02a0f00ccdbe22e6e453574132b2bb8"
+      "sha256": "0a076c1e1a718bcbcd2edbfbe2e08d318ea82ab0bc844e93f0b4b35f6f7f6e76"
     }
   ],
   "corrections": [],
   "fullReadConfirmed": true,
   "recheckConfirmed": true,
   "reviewer": "Codex",
-  "reviewedAt": "2026-10-02T05:48:37+00:00",
-  "notes": "核对PDF第96页上方Jill短评，歌曲概述、父女相处的个人感想及独立署名完整一致，保留原文引语和评价。",
+  "reviewedAt": "2026-10-07T07:30:18+00:00",
+  "notes": "Jill歌曲评论联系与父亲相处的愿望为完整一段，署名另块保留。",
   "issues": [],
-  "status": "passed_unchanged"
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "9a1be435bc3bc3412aac1ff346be15fd350ec2021e3e5f9278caa03c79fc4905",
+    "afterFileSha256": "9a1be435bc3bc3412aac1ff346be15fd350ec2021e3e5f9278caa03c79fc4905",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "9a1be435bc3bc3412aac1ff346be15fd350ec2021e3e5f9278caa03c79fc4905",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..1] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "Jill歌曲评论联系与父亲相处的愿望为完整一段，署名另块保留。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/3276c25692869ded408cce663f7e319efa9c6d5472f520db8428930d355b5fa4.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "0a076c1e1a718bcbcd2edbfbe2e08d318ea82ab0bc844e93f0b4b35f6f7f6e76"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "3276c25692869ded408cce663f7e319efa9c6d5472f520db8428930d355b5fa4"
 }

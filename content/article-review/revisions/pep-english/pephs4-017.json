@@ -2,51 +2,9 @@
   "schemaVersion": 1,
   "course": "pep-english",
   "articleId": "pephs4-017",
-  "beforeDisplaySha256": "3101dd298232199d4865c9b4cfab35441fcacd39b1295d4d5c2c5cc47de74816",
-  "afterDisplaySha256": "54c500c647c5d412e98311f13f421eb7e0fe4db1def8025f02fddb2569bc5e20",
+  "beforeDisplaySha256": "54c500c647c5d412e98311f13f421eb7e0fe4db1def8025f02fddb2569bc5e20",
+  "afterDisplaySha256": "aa73d303307fb17cecfdc6a504d9c1573d4602450cfcb41ad8c637c3eb72d930",
   "baselineDisplay": {
-    "title": "Summer Camp Helpers Wanted!",
-    "section": "Using Language",
-    "text": "Are you an active and outgoing person? Are you passionate about Chinese culture? Would you like to meet and help young people from other countries?\nThe Frog & Fox Summer Camp Council is looking for enthusiastic high school students to join our team as camp helpers at our summer camp next year! Our camp is located in a beautiful area near a quiet canal, where you will sleep in tents under the stars.\nWe are building a team of keen young people to help us attend to hundreds of students from all over the world. You will be required to supervise and/or help out in a variety of tasks[1] and recreational activities[2].\nSuccessful applicants will ideally have the following:\n• a good level of English;\n• good organisational and teamwork skills;\n• a passion for Chinese and international culture;\n• experience with animals;\n• a friendly, welcoming attitude, and good handwriting!\nSend your CV and cover letter to: receptionist@FAFSC.com (FYI: Applications can also be made on paper or disk.)\n1 Keep the parking area clean, guide new guests to the reception area, etc.\n2 Camel rides, barbecue & fry, calligraphy, purse sewing, knitting with wool, etc.",
-    "blocks": [
-      {
-        "type": "paragraph",
-        "lang": "en",
-        "text": "Are you an active and outgoing person? Are you passionate about Chinese culture? Would you like to meet and help young people from other countries?"
-      },
-      {
-        "type": "paragraph",
-        "lang": "en",
-        "text": "The Frog & Fox Summer Camp Council is looking for enthusiastic high school students to join our team as camp helpers at our summer camp next year! Our camp is located in a beautiful area near a quiet canal, where you will sleep in tents under the stars."
-      },
-      {
-        "type": "paragraph",
-        "lang": "en",
-        "text": "We are building a team of keen young people to help us attend to hundreds of students from all over the world. You will be required to supervise and/or help out in a variety of tasks[1] and recreational activities[2]."
-      },
-      {
-        "type": "paragraph",
-        "lang": "en",
-        "text": "Successful applicants will ideally have the following:\n• a good level of English;\n• good organisational and teamwork skills;\n• a passion for Chinese and international culture;\n• experience with animals;\n• a friendly, welcoming attitude, and good handwriting!"
-      },
-      {
-        "type": "paragraph",
-        "lang": "en",
-        "text": "Send your CV and cover letter to: receptionist@FAFSC.com (FYI: Applications can also be made on paper or disk.)"
-      },
-      {
-        "type": "paragraph",
-        "lang": "en",
-        "text": "1 Keep the parking area clean, guide new guests to the reception area, etc."
-      },
-      {
-        "type": "paragraph",
-        "lang": "en",
-        "text": "2 Camel rides, barbecue & fry, calligraphy, purse sewing, knitting with wool, etc."
-      }
-    ]
-  },
-  "display": {
     "title": "Summer Camp Helpers Wanted!",
     "section": "Using Language",
     "text": "Are you an active and outgoing person? Are you passionate about Chinese culture? Would you like to meet and help young people from other countries?\nThe Frog & Fox Summer Camp Council is looking for enthusiastic high school students to join our team as camp helpers at our summer camp next year! Our camp is located in a beautiful area near a quiet canal, where you will sleep in tents under the stars.\nWe are building a team of keen young people to help us attend to hundreds of students from all over the world. You will be required to supervise and/or help out in a variety of tasks and recreational activities.\nSuccessful applicants will ideally have the following:\n• a good level of English;\n• good organisational and teamwork skills;\n• a passion for Chinese and international culture;\n• experience with animals;\n• a friendly, welcoming attitude, and good handwriting!\nSend your CV and cover letter to: receptionist@FAFSC.com (FYI: Applications can also be made on paper or disk.)",
@@ -78,52 +36,139 @@
       }
     ]
   },
+  "display": {
+    "title": "Summer Camp Helpers Wanted!",
+    "section": "Using Language",
+    "text": "Are you an active and outgoing person? Are you passionate about Chinese culture? Would you like to meet and help young people from other countries?\nThe Frog & Fox Summer Camp Council is looking for enthusiastic high school students to join our team as camp helpers at our summer camp next year! Our camp is located in a beautiful area near a quiet canal, where you will sleep in tents under the stars.\nWe are building a team of keen young people to help us attend to hundreds of students from all over the world. You will be required to supervise and/or help out in a variety of tasks and recreational activities.\nSuccessful applicants will ideally have the following:\n• a good level of English;\n• good organisational and teamwork skills;\n• a passion for Chinese and international culture;\n• experience with animals;\n• a friendly, welcoming attitude, and good handwriting!\nSend your CV and cover letter to: receptionist@FAFSC.com (FYI: Applications can also be made on paper or disk.)",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Are you an active and outgoing person? Are you passionate about Chinese culture? Would you like to meet and help young people from other countries?"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "The Frog & Fox Summer Camp Council is looking for enthusiastic high school students to join our team as camp helpers at our summer camp next year! Our camp is located in a beautiful area near a quiet canal, where you will sleep in tents under the stars."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "We are building a team of keen young people to help us attend to hundreds of students from all over the world. You will be required to supervise and/or help out in a variety of tasks and recreational activities."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Successful applicants will ideally have the following:"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "• a good level of English;"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "• good organisational and teamwork skills;"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "• a passion for Chinese and international culture;"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "• experience with animals;"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "• a friendly, welcoming attitude, and good handwriting!"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Send your CV and cover letter to: receptionist@FAFSC.com (FYI: Applications can also be made on paper or disk.)"
+      }
+    ]
+  },
   "sources": [
     {
-      "path": "content/pep-english/raw/senior-selective-4.pdf",
-      "locator": "PDF第62-63页，标题与完整正文逐行核对",
+      "path": "content/article-review/history/1b37d6042dc3f7d8e5f9d60b1fc37e835643dc739a600cb5a43c6acfdf5e93f9.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
       "checked": true,
-      "sha256": "2ad7555a13eb420aa70497f9faa2541fdb502b7ffc4e063e87c60cce88f1b4a3"
-    },
-    {
-      "path": "content/pep-english/raw/senior-selective-4/senior-selective-4_62.jpg",
-      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
-      "checked": true,
-      "sha256": "6079a8ccedb4f50c5de01e67269f4001f0a6b5b70bc7f9532fb5b70c0fe51302"
-    },
-    {
-      "path": "content/pep-english/raw/senior-selective-4/senior-selective-4_63.jpg",
-      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
-      "checked": true,
-      "sha256": "9e6f012ce4c9c03fffd9124f3bb275c1a5b40eb462ca2f59028ad34572d70d01"
-    },
-    {
-      "path": "content/article-review/cleanup-2026-10-06.json",
-      "sha256": "cea27c1c69e32939ff83196bd29cce9a128d8d0d6f248611217179e037971889",
-      "locator": "public/pep-english/lessons/pephs4/017.json",
-      "checked": true
+      "sha256": "21baf3c5265269eb98b59151c6aa4216901cd0bbb1a0532c1645c22ea2b9f6d9"
     }
   ],
-  "corrections": [
-    {
-      "field": "text",
-      "before": "Are you an active and outgoing person? Are you passionate about Chinese culture? Would you like to meet and help young people from other countries?\nThe Frog & Fox Summer Camp Council is looking for enthusiastic high school students to join our team as camp helpers at our summer camp next year! Our camp is located in a beautiful area near a quiet canal, where you will sleep in tents under the stars.\nWe are building a team of keen young people to help us attend to hundreds of students from all over the world. You will be required to supervise and/or help out in a variety of tasks[1] and recreational activities[2].\nSuccessful applicants will ideally have the following:\n• a good level of English;\n• good organisational and teamwork skills;\n• a passion for Chinese and international culture;\n• experience with animals;\n• a friendly, welcoming attitude, and good handwriting!\nSend your CV and cover letter to: receptionist@FAFSC.com (FYI: Applications can also be made on paper or disk.)\n1 Keep the parking area clean, guide new guests to the reception area, etc.\n2 Camel rides, barbecue & fry, calligraphy, purse sewing, knitting with wool, etc.",
-      "after": "Are you an active and outgoing person? Are you passionate about Chinese culture? Would you like to meet and help young people from other countries?\nThe Frog & Fox Summer Camp Council is looking for enthusiastic high school students to join our team as camp helpers at our summer camp next year! Our camp is located in a beautiful area near a quiet canal, where you will sleep in tents under the stars.\nWe are building a team of keen young people to help us attend to hundreds of students from all over the world. You will be required to supervise and/or help out in a variety of tasks and recreational activities.\nSuccessful applicants will ideally have the following:\n• a good level of English;\n• good organisational and teamwork skills;\n• a passion for Chinese and international culture;\n• experience with animals;\n• a friendly, welcoming attitude, and good handwriting!\nSend your CV and cover letter to: receptionist@FAFSC.com (FYI: Applications can also be made on paper or disk.)",
-      "evidence": "User-directed source-fidelity restoration; content/article-review/cleanup-2026-10-06.json"
-    }
-  ],
-  "fullReadConfirmed": false,
-  "recheckConfirmed": false,
-  "reviewMode": "source-fidelity-rules-v1",
-  "reviewer": "Codex (user-directed restoration)",
-  "reviewedAt": "2026-10-05T17:15:10+00:00",
-  "notes": "Rule-based restoration; original full-read review remains historical. content/article-review/cleanup-2026-10-06.json",
+  "corrections": [],
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "reviewer": "Codex",
+  "reviewedAt": "2026-10-07T07:39:42+00:00",
+  "notes": "夏令营招聘三段说明后资格清单原混在一个段块，按引导句及五条明确圆点项目拆分，申请地址保持独立。",
   "issues": [],
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "a22204785bdc338c22d83408e13f7fe188158649ad862bdbbdc83af78b1c329c",
+    "afterFileSha256": "32129f1c94d64fec61440a90a11468c05a2b97726dab844e257358a1f2fe60c8",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "a22204785bdc338c22d83408e13f7fe188158649ad862bdbbdc83af78b1c329c",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..4] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "夏令营招聘三段说明后资格清单原混在一个段块，按引导句及五条明确圆点项目拆分，申请地址保持独立。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [
+        {
+          "index": 3,
+          "before": [
+            "Successful applicants will ideally have the following:\n• a good level of English;\n• good organisational and teamwork skills;\n• a passion for Chinese and international culture;\n• experience with animals;\n• a friendly, welcoming attitude, and good handwriting!"
+          ],
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Successful applicants will ideally have the following:"
+            },
+            {
+              "type": "paragraph",
+              "text": "• a good level of English;"
+            },
+            {
+              "type": "paragraph",
+              "text": "• good organisational and teamwork skills;"
+            },
+            {
+              "type": "paragraph",
+              "text": "• a passion for Chinese and international culture;"
+            },
+            {
+              "type": "paragraph",
+              "text": "• experience with animals;"
+            },
+            {
+              "type": "paragraph",
+              "text": "• a friendly, welcoming attitude, and good handwriting!"
+            }
+          ],
+          "reason": "已有圆点换行明确区分五条资格要求，和引导句各自分块，保留项目次序与文字。"
+        }
+      ],
+      "blockEdits": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/1b37d6042dc3f7d8e5f9d60b1fc37e835643dc739a600cb5a43c6acfdf5e93f9.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "21baf3c5265269eb98b59151c6aa4216901cd0bbb1a0532c1645c22ea2b9f6d9"
+        }
+      ]
+    }
+  },
   "status": "passed_edited",
-  "previousRevisionSha256": "9d4bd8413353124e979ae819ee6db7d688282a7f669426af7a0d7c582fab897b",
-  "ruleRestoration": {
-    "policy": "source-fidelity-rules-v1",
-    "report": "content/article-review/cleanup-2026-10-06.json",
-    "reportSha256": "cea27c1c69e32939ff83196bd29cce9a128d8d0d6f248611217179e037971889"
-  }
+  "previousRevisionSha256": "1b37d6042dc3f7d8e5f9d60b1fc37e835643dc739a600cb5a43c6acfdf5e93f9"
 }

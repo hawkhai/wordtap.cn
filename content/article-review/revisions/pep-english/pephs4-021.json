@@ -2,22 +2,17 @@
   "schemaVersion": 1,
   "course": "pep-english",
   "articleId": "pephs4-021",
-  "beforeDisplaySha256": "84249d41b01096a2994c76de547f0524cd2024e27c7c3657be8870d4676fb2e9",
+  "beforeDisplaySha256": "846f4d656d2b034427ea3c55b1ab07ddf08aa85489a3d7a06510808ab1b289c1",
   "afterDisplaySha256": "846f4d656d2b034427ea3c55b1ab07ddf08aa85489a3d7a06510808ab1b289c1",
   "baselineDisplay": {
     "title": "Using Words and Expressions",
     "section": "Reading",
-    "text": "Like humans, language tends to carry biases, which can lead to discrimination. Academic writing needs to be objective and scientific: neither gender should be preferred. Historically, writing has reflected a bias towards males such as the words ________ and postman. Now, writers are more careful. Many words that included man have been replaced. For example, police officer is used instead of ________, ________ instead of chairman, salesperson instead of ________, humankind instead of ________ and postal worker instead of ________. The title Ms is used for women instead of Miss or Mrs, since it does not show whether a woman is married or not.\nTime travel, alien invasions, and artificial intelligence have always been popular themes in science fiction. However, these were never the exclusive domains of sci-fi writers. Some scientists also ________ explore these themes ________. Take time travel as an example. Many fascinating stories based on time travel go either ________ or forwards in time. However, the former is not really an option. World-famous scientist Stephen Hawking once explained that travelling into the past would ________ the basic rule that cause comes before effect. But it would be possible to travel into the future in a vastly ________ spaceship approaching the speed of light. In addition to the question of time travel, Hawking also expressed his opinions on alien invasions and AI development. When many scientists and scholars were still arguing about the ________ of alien existence and AI development, Hawking warned that encounters with advanced aliens could be dangerous, and that humans could eventually ________ by AI and robots.",
+    "text": "Time travel, alien invasions, and ar tif icial chairman policeman chairperson intel ligence have al ways been popular themes in mankind postman salesman science f iction. However, these were never the Like humans, language tends to carr y biases, exclusive domains of sci-f i w riters. Some which can lead to discrimination. Academic scientists also ex plore these w riting needs to be objective and scientif ic: themes. Take time travel as neither gender should be preferred. Historical ly, an ex ample. Many f ascinating stor ies based on w riting has reflected a bias towards males such time travel go either o r as the words and postman. f or wards in time. However, the f ormer is not Now, w riters are more caref ul. Many words that real l y an option. Wor ld-f amous scientist Stephen included man have been replaced. For ex ample, Haw king once ex plained that travel ling into the police officer is used instead of, past would the basic r ule that instead of chairman, salesperson instead of, humankind instead cause comes bef ore ef f ect. But it would be of and postal worker instead possible to travel into the f uture in a vastly of. The title Ms is used for spaceship approaching the women instead of Miss or Mrs, since it does speed of light. In addition to the question of time not show w hether a woman is married or not. travel, Haw k ing also ex pressed his opinions on",
     "blocks": [
       {
         "type": "paragraph",
         "lang": "en",
-        "text": "Like humans, language tends to carry biases, which can lead to discrimination. Academic writing needs to be objective and scientific: neither gender should be preferred. Historically, writing has reflected a bias towards males such as the words ________ and postman. Now, writers are more careful. Many words that included man have been replaced. For example, police officer is used instead of ________, ________ instead of chairman, salesperson instead of ________, humankind instead of ________ and postal worker instead of ________. The title Ms is used for women instead of Miss or Mrs, since it does not show whether a woman is married or not."
-      },
-      {
-        "type": "paragraph",
-        "lang": "en",
-        "text": "Time travel, alien invasions, and artificial intelligence have always been popular themes in science fiction. However, these were never the exclusive domains of sci-fi writers. Some scientists also ________ explore these themes ________. Take time travel as an example. Many fascinating stories based on time travel go either ________ or forwards in time. However, the former is not really an option. World-famous scientist Stephen Hawking once explained that travelling into the past would ________ the basic rule that cause comes before effect. But it would be possible to travel into the future in a vastly ________ spaceship approaching the speed of light. In addition to the question of time travel, Hawking also expressed his opinions on alien invasions and AI development. When many scientists and scholars were still arguing about the ________ of alien existence and AI development, Hawking warned that encounters with advanced aliens could be dangerous, and that humans could eventually ________ by AI and robots."
+        "text": "Time travel, alien invasions, and ar tif icial chairman policeman chairperson intel ligence have al ways been popular themes in mankind postman salesman science f iction. However, these were never the Like humans, language tends to carr y biases, exclusive domains of sci-f i w riters. Some which can lead to discrimination. Academic scientists also ex plore these w riting needs to be objective and scientif ic: themes. Take time travel as neither gender should be preferred. Historical ly, an ex ample. Many f ascinating stor ies based on w riting has reflected a bias towards males such time travel go either o r as the words and postman. f or wards in time. However, the f ormer is not Now, w riters are more caref ul. Many words that real l y an option. Wor ld-f amous scientist Stephen included man have been replaced. For ex ample, Haw king once ex plained that travel ling into the police officer is used instead of, past would the basic r ule that instead of chairman, salesperson instead of, humankind instead cause comes bef ore ef f ect. But it would be of and postal worker instead possible to travel into the f uture in a vastly of. The title Ms is used for spaceship approaching the women instead of Miss or Mrs, since it does speed of light. In addition to the question of time not show w hether a woman is married or not. travel, Haw k ing also ex pressed his opinions on"
       }
     ]
   },
@@ -35,50 +30,50 @@
   },
   "sources": [
     {
-      "path": "content/pep-english/raw/senior-selective-4.pdf",
-      "locator": "PDF第68-68页，标题与完整正文逐行核对",
+      "path": "content/article-review/history/c00e0dabc50e7f2ea530e1b640bfe5f13580726c104e3235ba799bd944e4ab3d.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
       "checked": true,
-      "sha256": "2ad7555a13eb420aa70497f9faa2541fdb502b7ffc4e063e87c60cce88f1b4a3"
-    },
-    {
-      "path": "content/pep-english/raw/senior-selective-4/senior-selective-4_68.jpg",
-      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
-      "checked": true,
-      "sha256": "a9a4a73eaf5fef5a409d3acd628033e3660708148650eb8348ecac12198e7a43"
-    },
-    {
-      "path": "content/article-review/source-evidence/pephs4-021-hawking.json",
-      "locator": "霍金1996讲稿与剑桥2016讲话报道，风险条件性",
-      "checked": true,
-      "sha256": "1e6764bec831f3d8fafb19f837f79f3ed797e714ca1e7de04fdd59275f98fbee"
-    },
-    {
-      "path": "content/article-review/cleanup-2026-10-06.json",
-      "sha256": "cea27c1c69e32939ff83196bd29cce9a128d8d0d6f248611217179e037971889",
-      "locator": "public/pep-english/lessons/pephs4/021.json",
-      "checked": true
+      "sha256": "fe1875598dffac54fae2ada0b0c7fbb2d7a90efae5cfdea514f2e83db9f60dfe"
     }
   ],
-  "corrections": [
-    {
-      "field": "text",
-      "before": "Like humans, language tends to carry biases, which can lead to discrimination. Academic writing needs to be objective and scientific: neither gender should be preferred. Historically, writing has reflected a bias towards males such as the words ________ and postman. Now, writers are more careful. Many words that included man have been replaced. For example, police officer is used instead of ________, ________ instead of chairman, salesperson instead of ________, humankind instead of ________ and postal worker instead of ________. The title Ms is used for women instead of Miss or Mrs, since it does not show whether a woman is married or not.\nTime travel, alien invasions, and artificial intelligence have always been popular themes in science fiction. However, these were never the exclusive domains of sci-fi writers. Some scientists also ________ explore these themes ________. Take time travel as an example. Many fascinating stories based on time travel go either ________ or forwards in time. However, the former is not really an option. World-famous scientist Stephen Hawking once explained that travelling into the past would ________ the basic rule that cause comes before effect. But it would be possible to travel into the future in a vastly ________ spaceship approaching the speed of light. In addition to the question of time travel, Hawking also expressed his opinions on alien invasions and AI development. When many scientists and scholars were still arguing about the ________ of alien existence and AI development, Hawking warned that encounters with advanced aliens could be dangerous, and that humans could eventually ________ by AI and robots.",
-      "after": "Time travel, alien invasions, and ar tif icial chairman policeman chairperson intel ligence have al ways been popular themes in mankind postman salesman science f iction. However, these were never the Like humans, language tends to carr y biases, exclusive domains of sci-f i w riters. Some which can lead to discrimination. Academic scientists also ex plore these w riting needs to be objective and scientif ic: themes. Take time travel as neither gender should be preferred. Historical ly, an ex ample. Many f ascinating stor ies based on w riting has reflected a bias towards males such time travel go either o r as the words and postman. f or wards in time. However, the f ormer is not Now, w riters are more caref ul. Many words that real l y an option. Wor ld-f amous scientist Stephen included man have been replaced. For ex ample, Haw king once ex plained that travel ling into the police officer is used instead of, past would the basic r ule that instead of chairman, salesperson instead of, humankind instead cause comes bef ore ef f ect. But it would be of and postal worker instead possible to travel into the f uture in a vastly of. The title Ms is used for spaceship approaching the women instead of Miss or Mrs, since it does speed of light. In addition to the question of time not show w hether a woman is married or not. travel, Haw k ing also ex pressed his opinions on",
-      "evidence": "User-directed source-fidelity restoration; content/article-review/cleanup-2026-10-06.json"
-    }
+  "corrections": [],
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "reviewer": "Codex",
+  "reviewedAt": "2026-10-07T07:39:42+00:00",
+  "notes": "完整读到末尾opinions on；时间旅行科幻段与chairman/policeman等词表及性别语言说明交叉插入，不能保序合并成合理自然段，保持原文待确认。",
+  "issues": [
+    "全文将科幻说明与性别语言词表/练习交叉穿插，如artificial与intelligence间夹chairman policeman chairperson；后文亦持续双内容交织且句尾截断。需重排或补字才可恢复句段，超出只调空白边界权限。"
   ],
-  "fullReadConfirmed": false,
-  "recheckConfirmed": false,
-  "reviewMode": "source-fidelity-rules-v1",
-  "reviewer": "Codex (user-directed restoration)",
-  "reviewedAt": "2026-10-05T17:15:10+00:00",
-  "notes": "Rule-based restoration; original full-read review remains historical. content/article-review/cleanup-2026-10-06.json",
-  "issues": [],
-  "status": "passed_edited",
-  "previousRevisionSha256": "4ca9c43d2b3e0ee351f57213e8845e6b9266b1593ed33abf7c12accb7e9b4a31",
-  "ruleRestoration": {
-    "policy": "source-fidelity-rules-v1",
-    "report": "content/article-review/cleanup-2026-10-06.json",
-    "reportSha256": "cea27c1c69e32939ff83196bd29cce9a128d8d0d6f248611217179e037971889"
-  }
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "d3a9fea80997397545f1368c87074c515d2abd2ba28266007f9ad5f869f22e23",
+    "afterFileSha256": "d3a9fea80997397545f1368c87074c515d2abd2ba28266007f9ad5f869f22e23",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "d3a9fea80997397545f1368c87074c515d2abd2ba28266007f9ad5f869f22e23",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..0] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "完整读到末尾opinions on；时间旅行科幻段与chairman/policeman等词表及性别语言说明交叉插入，不能保序合并成合理自然段，保持原文待确认。",
+      "issues": [
+        "全文将科幻说明与性别语言词表/练习交叉穿插，如artificial与intelligence间夹chairman policeman chairperson；后文亦持续双内容交织且句尾截断。需重排或补字才可恢复句段，超出只调空白边界权限。"
+      ],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "blockEdits": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/c00e0dabc50e7f2ea530e1b640bfe5f13580726c104e3235ba799bd944e4ab3d.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "fe1875598dffac54fae2ada0b0c7fbb2d7a90efae5cfdea514f2e83db9f60dfe"
+        }
+      ]
+    }
+  },
+  "status": "needs_source_check",
+  "previousRevisionSha256": "c00e0dabc50e7f2ea530e1b640bfe5f13580726c104e3235ba799bd944e4ab3d"
 }

@@ -2,17 +2,17 @@
   "schemaVersion": 1,
   "course": "pep-english",
   "articleId": "pephs3-016",
-  "beforeDisplaySha256": "4afdd93fdd99631477c1c9669ded4d7cfe5098f3e5d553e6af9c80c7143e106e",
+  "beforeDisplaySha256": "050c0ea173875719ec0bfc2db11e1931d4783ff2d74fcb033a342ddb4770169a",
   "afterDisplaySha256": "050c0ea173875719ec0bfc2db11e1931d4783ff2d74fcb033a342ddb4770169a",
   "baselineDisplay": {
     "title": "A Match (A. C. Swinburne)",
     "section": "Using Language",
-    "text": "If love were what the rose is, And I were the leaf, Our lives would grow together In sad or singing weather, Brown fields or flowerful closes, Green pleasure or grey grief;\nIf love were what the rose is, And I were like the leaf.",
+    "text": "If love were what the rose is,\nAnd I were the leaf,\nOur lives would grow together\nIn sad or singing weather,\nBrown fields or flowerful closes,\nGreen pleasure or grey grief;\nIf love were what the rose is,\nAnd I were like the leaf.",
     "blocks": [
       {
         "type": "paragraph",
         "lang": "en",
-        "text": "If love were what the rose is, And I were the leaf, Our lives would grow together In sad or singing weather, Brown fields or flowerful closes, Green pleasure or grey grief;\nIf love were what the rose is, And I were like the leaf."
+        "text": "If love were what the rose is,\nAnd I were the leaf,\nOur lives would grow together\nIn sad or singing weather,\nBrown fields or flowerful closes,\nGreen pleasure or grey grief;\nIf love were what the rose is,\nAnd I were like the leaf."
       }
     ]
   },
@@ -30,24 +30,45 @@
   },
   "sources": [
     {
-      "path": "content/pep-english/raw/senior-selective-3.pdf",
-      "locator": "PDF第63-63页，标题与完整正文逐行核对",
+      "path": "content/article-review/history/a28d41f33007d6e12e01af2fd5702339a1c922048ba387fdae207bc639f53507.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
       "checked": true,
-      "sha256": "ed8eb9e5988b44a1ff4f8bc11ed3cfae406decefae7982477362720788e1998b"
-    },
-    {
-      "path": "content/pep-english/raw/senior-selective-3/senior-selective-3_63.jpg",
-      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
-      "checked": true,
-      "sha256": "543f414c94eb5364888bedf0ea394161c8d276d596cab3883f12a5d4e450e630"
+      "sha256": "b581e861f95004d75ff2d33817a23206a5270dbae5eb0d29e2437fd2dcc83e7c"
     }
   ],
   "corrections": [],
   "fullReadConfirmed": true,
   "recheckConfirmed": true,
   "reviewer": "Codex",
-  "reviewedAt": "2026-10-02T07:11:41+00:00",
-  "notes": "核对PDF第63页右下Swinburne诗选，恢复原页八行；保留两次And I were中第二次才有like的原文差别、flowerful和英式grey，不改诗语。",
+  "reviewedAt": "2026-10-07T07:35:51+00:00",
+  "notes": "A Match八行玫瑰叶子比喻诗，保留现有行界及首尾重复句。",
   "issues": [],
-  "status": "passed_edited"
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "2d490f6d424f017c27a7ff24cc91d3f335f905aed8b1bee124b20d50ef167daa",
+    "afterFileSha256": "2d490f6d424f017c27a7ff24cc91d3f335f905aed8b1bee124b20d50ef167daa",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "2d490f6d424f017c27a7ff24cc91d3f335f905aed8b1bee124b20d50ef167daa",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..0] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "A Match八行玫瑰叶子比喻诗，保留现有行界及首尾重复句。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/a28d41f33007d6e12e01af2fd5702339a1c922048ba387fdae207bc639f53507.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "b581e861f95004d75ff2d33817a23206a5270dbae5eb0d29e2437fd2dcc83e7c"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "a28d41f33007d6e12e01af2fd5702339a1c922048ba387fdae207bc639f53507"
 }

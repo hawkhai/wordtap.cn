@@ -70,30 +70,45 @@
   },
   "sources": [
     {
-      "path": "content/pep-english/raw/senior-required-3.pdf",
-      "locator": "PDF第11-12页，标题与完整正文逐行核对",
+      "path": "content/article-review/history/efce75b8f32290b2445bef67f4b21a41dc09694105ef2a604b18e9c42efe2dc7.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
       "checked": true,
-      "sha256": "fe9c8e15e62f4aec56efc60b8de43f4a55d40f3114d6505affaef78a8b7a1af2"
-    },
-    {
-      "path": "content/pep-english/raw/senior-required-3/senior-required-3_11.jpg",
-      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
-      "checked": true,
-      "sha256": "83aef3fe0f1791c6132d83d0326d0331e5b944fd5241bdbdbb9bc498d4cbd2c5"
-    },
-    {
-      "path": "content/pep-english/raw/senior-required-3/senior-required-3_12.jpg",
-      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
-      "checked": true,
-      "sha256": "4ba5ee197568e7a671d598077b186cc4a3b7c518012213fa80f88992eac3cce7"
+      "sha256": "dca5bdfa387dba3d45318fe5a154f882667134d9561bf3a85cdfcda7985585ef"
     }
   ],
   "corrections": [],
   "fullReadConfirmed": true,
   "recheckConfirmed": true,
   "reviewer": "Codex",
-  "reviewedAt": "2026-10-02T05:52:44+00:00",
-  "notes": "通读并逐句核对PDF第11—12页五段节庆说明文，收获节、习俗变化、商业化与共同价值段落完整，跨页处正确接续第四段，保留作者观点与五段结构。",
+  "reviewedAt": "2026-10-07T07:30:18+00:00",
+  "notes": "节日文章依次讨论共同精神、丰收节、习俗变化、商业化及社会意义，五段完整保留。",
   "issues": [],
-  "status": "passed_unchanged"
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "5251d6b5d22a7d3b29a44301a4154bd8576cb761e0608033f2ba52918b510379",
+    "afterFileSha256": "5251d6b5d22a7d3b29a44301a4154bd8576cb761e0608033f2ba52918b510379",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "5251d6b5d22a7d3b29a44301a4154bd8576cb761e0608033f2ba52918b510379",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..4] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "节日文章依次讨论共同精神、丰收节、习俗变化、商业化及社会意义，五段完整保留。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/efce75b8f32290b2445bef67f4b21a41dc09694105ef2a604b18e9c42efe2dc7.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "dca5bdfa387dba3d45318fe5a154f882667134d9561bf3a85cdfcda7985585ef"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "efce75b8f32290b2445bef67f4b21a41dc09694105ef2a604b18e9c42efe2dc7"
 }

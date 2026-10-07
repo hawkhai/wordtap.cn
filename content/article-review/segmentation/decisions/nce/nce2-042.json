@@ -1,0 +1,26 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "c0543e91283f3b6d2d6394f0b1c141b05a48b90f40e655e097f3117b71a7d43c",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title/titleZh、question/questionZh、bodyText全部8行、bodyTextZh全部8行及sentences[0..10]的完整文字；重复正文与字幕文本逐字比对，非正文字幕另读。操作在内存应用并validate_layout_change，修复后的双语全文重新通读。",
+  "notes": "德里耍蛇；广场休息发现艺人、吹笛蛇舞、爵士与蛇无差别反应三段。 text与bodyText同步；sentences对象及时间、角色、索引原样保留。",
+  "issues": [],
+  "display": {
+    "text": "What happened when the snake charmer began to play jazz?\n\nAs we had had a long walk through one of the markets of old Delhi, we stopped at a square to have a rest. After a time, we noticed a snake charmer with two large baskets at the other side of the square, so we went to have a look at him.\nAs soon as he saw us, he picked up a long pipe which was covered with coins and opened one of the baskets. When he began to play a tune, we had our first glimpse of the snake. It rose out of the basket and began to follow the movements of the pipe.\nWe were very much surprised when the snake charmer suddenly began to play jazz and modern pop songs. The snake, however, continued to 'dance' slowly. It obviously could not tell the difference between Indian music and jazz!",
+    "bodyText": "As we had had a long walk through one of the markets of old Delhi, we stopped at a square to have a rest. After a time, we noticed a snake charmer with two large baskets at the other side of the square, so we went to have a look at him.\nAs soon as he saw us, he picked up a long pipe which was covered with coins and opened one of the baskets. When he began to play a tune, we had our first glimpse of the snake. It rose out of the basket and began to follow the movements of the pipe.\nWe were very much surprised when the snake charmer suddenly began to play jazz and modern pop songs. The snake, however, continued to 'dance' slowly. It obviously could not tell the difference between Indian music and jazz!",
+    "bodyTextZh": "我们沿着旧德里的一个市场走了很长一段路后，我们在一个广场上停下来休息。过了一段时间，我们注意到有一个耍蛇的人……在广场的另一边，带着两个大篮子。于是我们便走过去看看他。\n他一看到我们，他拿起一根缀满硬币的长笛，然后打开了其中一个篮子。当他开始演奏一首曲子时，我们第一次看到了那条蛇。它从篮子里探出身来，开始随着笛子的摆动而舞动。\n当那个耍蛇的人突然开始演奏爵士乐和现代流行歌曲时，我们非常惊讶。他突然开始演奏爵士乐和现代流行歌曲。然而，那条蛇仍然继续缓慢地“跳舞”。显然，它根本分不清印度音乐和爵士乐的区别！"
+  },
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/9840fa5414a9c4e34ae3b189adf21be94838dd9d6ee1be361bbb2dd301a73e28.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "2473a61a1a04afeae0779b66e0013706d327d5e0f5d3aa412319f24cd2a4af8c"
+    }
+  ]
+}

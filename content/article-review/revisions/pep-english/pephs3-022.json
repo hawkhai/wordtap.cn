@@ -30,24 +30,45 @@
   },
   "sources": [
     {
-      "path": "content/pep-english/raw/senior-selective-3.pdf",
-      "locator": "PDF第76-76页，标题与完整正文逐行核对",
+      "path": "content/article-review/history/857ecba29d674079e5206bf9e592c52c92830901e86db2dac74d82a655821c4b.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
       "checked": true,
-      "sha256": "ed8eb9e5988b44a1ff4f8bc11ed3cfae406decefae7982477362720788e1998b"
-    },
-    {
-      "path": "content/pep-english/raw/senior-selective-3/senior-selective-3_76.jpg",
-      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
-      "checked": true,
-      "sha256": "efa3f4eb4bfc3ddfcbc110145506ff63f5563a214ab1bf0d7ad1a15a72608a6c"
+      "sha256": "888a618348f3a826006376aeb766b10a8d77a060acdc44a582a187989a585529"
     }
   ],
   "corrections": [],
   "fullReadConfirmed": true,
   "recheckConfirmed": true,
   "reviewer": "Codex",
-  "reviewedAt": "2026-10-02T07:15:24+00:00",
-  "notes": "通读PDF第76页不定式短文，按左下栏到右上栏衔接核对，未混入杭州旅行填空；food pyramid引号、short-term/long-term连字符完整。教材一般饮食论述保留，转录无修改。",
+  "reviewedAt": "2026-10-07T07:35:52+00:00",
+  "notes": "均衡饮食建议从口味问题到食物金字塔及健康益处连贯成短段，保留。",
   "issues": [],
-  "status": "passed_unchanged"
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "667796c5a5109be4b405f48a8a73c1346c83f604c258889b539e87e18e88ecf6",
+    "afterFileSha256": "667796c5a5109be4b405f48a8a73c1346c83f604c258889b539e87e18e88ecf6",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "667796c5a5109be4b405f48a8a73c1346c83f604c258889b539e87e18e88ecf6",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..0] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "均衡饮食建议从口味问题到食物金字塔及健康益处连贯成短段，保留。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/857ecba29d674079e5206bf9e592c52c92830901e86db2dac74d82a655821c4b.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "888a618348f3a826006376aeb766b10a8d77a060acdc44a582a187989a585529"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "857ecba29d674079e5206bf9e592c52c92830901e86db2dac74d82a655821c4b"
 }

@@ -1,0 +1,21 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "fce55f501e4558ed20e124f7a952c1a87a9c851cf1d47240d7804e1c87999894",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title与blocks[0..9]全文逐段阅读；text等于完整blocks连接。内存应用明确决定并验证后，复核输出blocks[0..9]全文与标题/引语/自然段边界。",
+  "notes": "10块全文核读三种记忆、图书馆、纸书便携性、按需印刷、电子书及技术共存与打印结论；段内论证连贯，保留多句自然段。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/523653a9f54e45446cef18668067cf2479b21514c1fe2ffc5a80c0615bc83347.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "6791c20dc3423c4d28a7f66afdd98e812fc6f3008e6a3888cd7e020f63d85f45"
+    }
+  ]
+}

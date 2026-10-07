@@ -102,30 +102,45 @@
   },
   "sources": [
     {
-      "path": "content/College-English/NHCE4-RW4.pdf",
-      "locator": "PDF 42-43，印刷页 27-28，完整正文与标题逐段核对",
+      "path": "content/article-review/history/c0efcd9edf14a0d853aed8a37d7f8337eb52cb68087ab9ea29a40c572aa90496.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
       "checked": true,
-      "sha256": "5b70c28492928eefbb43a4832275c6fff070e12c7b70455ae03dc64bfa7a0a53"
-    },
-    {
-      "path": "content/College-English/NHCE4-RW4/NHCE4-RW4_42.jpg",
-      "locator": "已打开教材图页并通读复核正文",
-      "checked": true,
-      "sha256": "59752b955fac7d2cabd64a6192dc5d6782749722a632112e124700209b1931ad"
-    },
-    {
-      "path": "content/College-English/NHCE4-RW4/NHCE4-RW4_43.jpg",
-      "locator": "已打开教材图页并通读复核正文",
-      "checked": true,
-      "sha256": "f3119acf3531b45e8ad995baa234fe10a3cfbd71974d280c92b446c36f333d3e"
+      "sha256": "ade30d5a1be68e99fdeb83103401ab12c3963a8d71b0d65e6e6de18f1324439b"
     }
   ],
   "corrections": [],
   "fullReadConfirmed": true,
   "recheckConfirmed": true,
   "reviewer": "Codex",
-  "reviewedAt": "2026-10-02T09:30:04+00:00",
-  "notes": "全文8段与PDF42–43页完整核对。杭州钱塘江北岸、上城区数字产业和智能井盖/养老案例叙述连贯；4,000-plus为报道时期本区装置数，末句无限增长为官员比喻引语。保留中文词注、引用标点及8段结构，无漏句和需修改之处。",
+  "reviewedAt": "2026-10-07T07:32:15+00:00",
+  "notes": "全文及未改动输出复核：杭州景观工业、数字产业、扫码生活、钱塘江基础设施、智慧管理、井盖、居家养老、官员总结八段；每个实例语义完整且中文词注贴合。",
   "issues": [],
-  "status": "passed_unchanged"
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "d7d5444bd8efb8103abc9e01ddcdde9b6502d277c624570cebdc34399b51e180",
+    "afterFileSha256": "d7d5444bd8efb8103abc9e01ddcdde9b6502d277c624570cebdc34399b51e180",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "d7d5444bd8efb8103abc9e01ddcdde9b6502d277c624570cebdc34399b51e180",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "完整 title、blocks[0..7]及完全相同的text；正文及内嵌中文、引语、对话和列举均已逐项通读；无改动输出按全文再次复核。",
+      "notes": "全文及未改动输出复核：杭州景观工业、数字产业、扫码生活、钱塘江基础设施、智慧管理、井盖、居家养老、官员总结八段；每个实例语义完整且中文词注贴合。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/c0efcd9edf14a0d853aed8a37d7f8337eb52cb68087ab9ea29a40c572aa90496.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "ade30d5a1be68e99fdeb83103401ab12c3963a8d71b0d65e6e6de18f1324439b"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "c0efcd9edf14a0d853aed8a37d7f8337eb52cb68087ab9ea29a40c572aa90496"
 }

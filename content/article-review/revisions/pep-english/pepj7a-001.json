@@ -50,24 +50,46 @@
   },
   "sources": [
     {
-      "path": "content/pep-english/raw/junior-7a.pdf",
-      "locator": "PDF第52-52页，标题与完整正文逐行核对",
+      "path": "content/article-review/history/47c6fd69f5501ae4566ce32f880cb41396e863ca7fa9754c07fec52d0d4ffbbb.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
       "checked": true,
-      "sha256": "4cdfd213e2c54164b6b97bcd6d15e93b71e6b243e8aea958f330e6bf8822f46e"
-    },
-    {
-      "path": "content/pep-english/raw/junior-7a/junior-7a_52.jpg",
-      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
-      "checked": true,
-      "sha256": "1d051ba376efd8c9d60dd16a7500d2383bbfa17e812f0eb4f92a085b1cb4fe23"
+      "sha256": "630fab9b9201f85c270fdae408aa645824f8474e20eabe66eb26344d2b510786"
     }
   ],
   "corrections": [],
   "fullReadConfirmed": true,
   "recheckConfirmed": true,
   "reviewer": "Codex",
-  "reviewedAt": "2026-10-02T04:42:59+00:00",
-  "notes": "对照PDF第52页（印刷页29）完整三人资料及标题，Frank/Alan关系、Gina五类球与球棒数量、Wang Wei课后活动逐句一致。原图Gina句中长破折号与UTF-8发布正文一致；先前终端默认编码造成的显示乱码并非文件损坏，不改正确字符。三个人物各自一段及双栏续接次序正确，全文重读复核无需修改。",
+  "reviewedAt": "2026-10-07T07:39:46+00:00",
+  "notes": "Frank、Gina、Wang Wei三份运动自述各为一个完整人物单元，保留姓名行和对应多句正文。",
   "issues": [],
-  "status": "passed_unchanged"
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "9208fbd7ef6a6b7e1898478ed2f989e5917b0822920e933de2b9bf68f1a6581a",
+    "afterFileSha256": "9208fbd7ef6a6b7e1898478ed2f989e5917b0822920e933de2b9bf68f1a6581a",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "9208fbd7ef6a6b7e1898478ed2f989e5917b0822920e933de2b9bf68f1a6581a",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..2] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "Frank、Gina、Wang Wei三份运动自述各为一个完整人物单元，保留姓名行和对应多句正文。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "blockEdits": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/47c6fd69f5501ae4566ce32f880cb41396e863ca7fa9754c07fec52d0d4ffbbb.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "630fab9b9201f85c270fdae408aa645824f8474e20eabe66eb26344d2b510786"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "47c6fd69f5501ae4566ce32f880cb41396e863ca7fa9754c07fec52d0d4ffbbb"
 }

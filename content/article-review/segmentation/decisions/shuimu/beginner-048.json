@@ -1,0 +1,187 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "c98773ce285612284cc8c908162c619e7d715c57acda8824447de27f46c869b9",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "coverage": "全文 blocks[0..167]；按 JSON 上下文逐项复核对话、解释、题目、表格、词表及修复后的边界。",
+  "notes": "全文复核火车故事、get on/curious/amuse、被动语态及词表。合并英文截句、中文截词和同段解释，保留语态对照表各行。原文wroking等拼写疑义保持原样。正文一处中英半句交错保留待确认。",
+  "issues": [
+    "原始blocks[16:20] After the train...and/火车开出站后…/took out her powder compact./拿出了粉盒，完成双语句段需重排非空白字符。"
+  ],
+  "mergeBlocks": [
+    {
+      "start": 39,
+      "end": 40,
+      "before": [
+        "▫ They just can't get on after all these years.这么多年来，他们就是",
+        "处不好。"
+      ],
+      "text": "▫ They just can't get on after all these years.这么多年来，他们就是处不好。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 41,
+      "end": 42,
+      "before": [
+        "▫ She is a nice girl and we get on well.她是一个好姑娘，我们相处得",
+        "很愉快。"
+      ],
+      "text": "▫ She is a nice girl and we get on well.她是一个好姑娘，我们相处得很愉快。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 50,
+      "end": 51,
+      "before": [
+        "▫ I am nearly 35 and that's getting on for a professional sports",
+        "player."
+      ],
+      "text": "▫ I am nearly 35 and that's getting on for a professional sports player.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 54,
+      "end": 55,
+      "before": [
+        "◦ curious 的意思是“好奇的、好求知的，奇妙的、稀奇的”，可用作定语或表",
+        "语。"
+      ],
+      "text": "◦ curious 的意思是“好奇的、好求知的，奇妙的、稀奇的”，可用作定语或表语。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 58,
+      "end": 59,
+      "before": [
+        "▫ She was awakened by a curious noise.她被一种很奇怪的声音吵醒",
+        "了。"
+      ],
+      "text": "▫ She was awakened by a curious noise.她被一种很奇怪的声音吵醒了。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 60,
+      "end": 61,
+      "before": [
+        "▫ You had better hide it where his curious eyes can't see.你最好把",
+        "它藏到他那双犀利的眼睛看不到的地方。"
+      ],
+      "text": "▫ You had better hide it where his curious eyes can't see.你最好把它藏到他那双犀利的眼睛看不到的地方。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 67,
+      "end": 68,
+      "before": [
+        "▪ curious 可以和介词 about 连用或接不定式，表示“对······好奇”或“很",
+        "想做某事”"
+      ],
+      "text": "▪ curious 可以和介词 about 连用或接不定式，表示“对······好奇”或“很想做某事”",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 69,
+      "end": 70,
+      "before": [
+        "▫ He was curious about everything he saw.他对所看到的一切东西都",
+        "很好奇。"
+      ],
+      "text": "▫ He was curious about everything he saw.他对所看到的一切东西都很好奇。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 72,
+      "end": 73,
+      "before": [
+        "▫ I am curious to know how the clock works.我非常想知道这个时钟",
+        "的工作原理。"
+      ],
+      "text": "▫ I am curious to know how the clock works.我非常想知道这个时钟的工作原理。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 74,
+      "end": 75,
+      "before": [
+        "▫ We were curious to know where she had gone.我们想知道她到底",
+        "去哪里了。"
+      ],
+      "text": "▫ We were curious to know where she had gone.我们想知道她到底去哪里了。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 82,
+      "end": 86,
+      "before": [
+        "◦ amuse 的基本意思是“逗乐”,可指使人觉得有趣,也可指逗得人捧腹大笑。",
+        "amuse 也可指以轻松或逗人的事物来消遣时间。amuse 强调娱乐时的专心致",
+        "志,通常没有什么特殊的目的。amuse 是及物动词,主语可以是人、物、事物,",
+        "宾语则总是人。表示“逗乐”时接 with; 表示“通过做某事而逗乐”时可接",
+        "by; 用于被动结构时可接 at,表示“感到好笑”。"
+      ],
+      "text": "◦ amuse 的基本意思是“逗乐”,可指使人觉得有趣,也可指逗得人捧腹大笑。 amuse 也可指以轻松或逗人的事物来消遣时间。amuse 强调娱乐时的专心致志,通常没有什么特殊的目的。amuse 是及物动词,主语可以是人、物、事物,宾语则总是人。表示“逗乐”时接 with; 表示“通过做某事而逗乐”时可接 by; 用于被动结构时可接 at,表示“感到好笑”。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 97,
+      "end": 98,
+      "before": [
+        "▪ amuse 指使人通过关注某些有趣或悦人的事物而消遣，着重使人愉快的",
+        "效果"
+      ],
+      "text": "▪ amuse 指使人通过关注某些有趣或悦人的事物而消遣，着重使人愉快的效果",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 99,
+      "end": 100,
+      "before": [
+        "▪ entertain 指通过给他人快乐感的消遣活动，使自己或他人从单调中解脱",
+        "出来"
+      ],
+      "text": "▪ entertain 指通过给他人快乐感的消遣活动，使自己或他人从单调中解脱出来",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 101,
+      "end": 102,
+      "before": [
+        "▪ interest 指出于任何原因使人兴奋或对某事物保持好奇心或注意力，侧",
+        "重引起兴趣或注意"
+      ],
+      "text": "▪ interest 指出于任何原因使人兴奋或对某事物保持好奇心或注意力，侧重引起兴趣或注意",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 106,
+      "end": 108,
+      "before": [
+        "语态是动词的一种形式，用来表示主语和谓语的关系。英语有两种语态——主动语态",
+        "和被动语态。在主动语态中，主语是动作的执行者；在被动语态中，主语是动作的承",
+        "受者。主动语态变为被动语态时，谓语部分要做相应的变化。"
+      ],
+      "text": "语态是动词的一种形式，用来表示主语和谓语的关系。英语有两种语态——主动语态和被动语态。在主动语态中，主语是动作的执行者；在被动语态中，主语是动作的承受者。主动语态变为被动语态时，谓语部分要做相应的变化。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 119,
+      "end": 120,
+      "before": [
+        "◦ 被动语态的一般形式是“助动词 be+过去分词”。人称、数量、时态的变化",
+        "都体现在 be 上。主动语态与被动语态的谓语对比见下表。"
+      ],
+      "text": "◦ 被动语态的一般形式是“助动词 be+过去分词”。人称、数量、时态的变化都体现在 be 上。主动语态与被动语态的谓语对比见下表。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    }
+  ],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/41a03e97e4a438492d5a1486ab4d83679a3339ad133ba51464bacbb625334cd7.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "475540b3465c0c058ce28e850160bbc928fd3c0ca2463959e5697abf795eef9e"
+    }
+  ]
+}

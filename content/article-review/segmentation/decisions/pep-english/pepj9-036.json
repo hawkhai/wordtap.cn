@@ -1,0 +1,22 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "a5f2d9ed64060880283150934cefc58c65ea2f508799d88edaa26400602c35fe",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title；全文 blocks[0..10] 与对应 text；现有正文/对话/题干逐块通读复核。",
+  "notes": "Peter团队故事十一段按失误内心、回家、父子对白、训练道歉、队友回应和释怀组织，已分轮短段保留。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "blockEdits": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/e4f9cdd171573c245a973b918df694267b8abc7feac1b60705be59afc47e0a96.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "e921ee0fccad2d78524f2c77e7365f402c1b9f637fbae378d4925d3d8fbc0360"
+    }
+  ]
+}

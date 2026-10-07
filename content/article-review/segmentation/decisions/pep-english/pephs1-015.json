@@ -1,0 +1,21 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "0391dda5bf01f1020f4823e060b0c330be8a9c2b000ac0db7ea2624220f25aaa",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title；全文 blocks[0..0] 与对应 text；现有正文/对话/题干逐块通读复核。",
+  "notes": "祖父母因蔬菜品质考虑搬乡下，原因、退休决定及绿色生活同一连贯短段，保留。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/181d56eb44ab5588cd97601a561473e5459f0f16b53ed6749fe6acc87650e63b.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "63a467cd1de2c3a93c90a511e904fbe44f3cd681239825278d0c8b2d01285cb6"
+    }
+  ]
+}

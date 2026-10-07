@@ -70,24 +70,45 @@
   },
   "sources": [
     {
-      "path": "content/pep-english/raw/senior-required-2.pdf",
-      "locator": "PDF第77-77页，标题与完整正文逐行核对",
+      "path": "content/article-review/history/777550ee33c58f00120f3d285da5cbcd384ae40661d61d7851923b238be869fc.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
       "checked": true,
-      "sha256": "33b74bf42b22b32fdbe3201e6f61cf8099be047ef0af8a1740f6013dee4a619d"
-    },
-    {
-      "path": "content/pep-english/raw/senior-required-2/senior-required-2_77.jpg",
-      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
-      "checked": true,
-      "sha256": "a4dd2408f2f1595d411004637720421af1631ba30cd5cf508fd00ea9b2dd74b3"
+      "sha256": "84b043b319ea90af6a6db718ca3b08a43deec25c453066fbb46f649cd930cdc2"
     }
   ],
   "corrections": [],
   "fullReadConfirmed": true,
   "recheckConfirmed": true,
   "reviewer": "Codex",
-  "reviewedAt": "2026-10-02T05:46:59+00:00",
-  "notes": "对照PDF第77页完整五段麋鹿故事，动物外形四项比喻、1900年消失、1985年20只/次年39只和1990年代64只等转录一致；保留原文保护区及重返野外的历史叙述。",
+  "reviewedAt": "2026-10-07T07:30:17+00:00",
+  "notes": "麋鹿外形、在华消失、欧洲保护与回归、保护区扩展、未来放归五段，保留叙述顺序和自然段。",
   "issues": [],
-  "status": "passed_unchanged"
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "f20225943caa3a91f5a2e38451ceca3e33f77d541f9d192a7e08351b8910fda0",
+    "afterFileSha256": "f20225943caa3a91f5a2e38451ceca3e33f77d541f9d192a7e08351b8910fda0",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "f20225943caa3a91f5a2e38451ceca3e33f77d541f9d192a7e08351b8910fda0",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..4] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "麋鹿外形、在华消失、欧洲保护与回归、保护区扩展、未来放归五段，保留叙述顺序和自然段。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/777550ee33c58f00120f3d285da5cbcd384ae40661d61d7851923b238be869fc.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "84b043b319ea90af6a6db718ca3b08a43deec25c453066fbb46f649cd930cdc2"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "777550ee33c58f00120f3d285da5cbcd384ae40661d61d7851923b238be869fc"
 }

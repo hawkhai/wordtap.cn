@@ -92,30 +92,45 @@
   },
   "sources": [
     {
-      "path": "content/College-English/NHCE4-RW1.pdf",
-      "locator": "PDF 66-67，印刷页 51-52，完整正文与标题逐段核对",
+      "path": "content/article-review/history/3b5422455c16a7a9a00ce38cf2409a80eed49b2733d3c850a4cc875706c4e017.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
       "checked": true,
-      "sha256": "05d7a57fb09156e13d02ce498271c86917869b5327e8981f1eedf205ceb465ec"
-    },
-    {
-      "path": "content/College-English/NHCE4-RW1/NHCE4-RW1_66.jpg",
-      "locator": "已打开教材图页并通读复核正文",
-      "checked": true,
-      "sha256": "8db14d1f3db923b656936089b6811fcdb3b1f8eaf06ca8d94dc9ad494b12b69f"
-    },
-    {
-      "path": "content/College-English/NHCE4-RW1/NHCE4-RW1_67.jpg",
-      "locator": "已打开教材图页并通读复核正文",
-      "checked": true,
-      "sha256": "c6fa1abf61cb9945cabe28f7ec849c51f5880f2bed3acc8bbbe7335d0932721d"
+      "sha256": "0a9aa2c07690f103563b106bb1bb404be5c8c956622c8d2cf8c2618c45d4b5c0"
     }
   ],
   "corrections": [],
   "fullReadConfirmed": true,
   "recheckConfirmed": true,
   "reviewer": "Codex",
-  "reviewedAt": "2026-10-02T08:22:49+00:00",
-  "notes": "通读七段家庭回忆并对照PDF66—67页原图，核查第4段跨栏续文、三处童年物品词注及cosmopolitan词注。保持母女回忆与育儿观点原意，保留U.K.缩写、silly-looking/half-finished/well-rounded连字符；英文正文未混入下方翻译练习，无需修改。",
+  "reviewedAt": "2026-10-07T07:30:00+00:00",
+  "notes": "全文及未改动输出复核：归家怀旧、童年物件、留学独立、亚洲教养刻板印象、母女回忆、新式教养、感恩总结为七个完整语义段；中文词注没有切断句子。",
   "issues": [],
-  "status": "passed_unchanged"
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "de53789e45fa9409ddc67dbff8720b02dc74b7d86d3017b67557ec2ef0f0f29e",
+    "afterFileSha256": "de53789e45fa9409ddc67dbff8720b02dc74b7d86d3017b67557ec2ef0f0f29e",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "de53789e45fa9409ddc67dbff8720b02dc74b7d86d3017b67557ec2ef0f0f29e",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "完整 title、blocks[0..6]及完全相同的text；正文及内嵌中文、引语、对话和列举均已逐项通读；无改动输出按全文再次复核。",
+      "notes": "全文及未改动输出复核：归家怀旧、童年物件、留学独立、亚洲教养刻板印象、母女回忆、新式教养、感恩总结为七个完整语义段；中文词注没有切断句子。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/3b5422455c16a7a9a00ce38cf2409a80eed49b2733d3c850a4cc875706c4e017.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "0a9aa2c07690f103563b106bb1bb404be5c8c956622c8d2cf8c2618c45d4b5c0"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "3b5422455c16a7a9a00ce38cf2409a80eed49b2733d3c850a4cc875706c4e017"
 }

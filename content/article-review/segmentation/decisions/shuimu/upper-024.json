@@ -1,0 +1,290 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "70d87d7759c654d799706bf32d8cd694e258dc424b6cc96ec87f753903b42147",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title；全文 blocks[0..204] 与对应 text；现有正文/对话/题干逐块通读复核。",
+  "notes": "通读A skeleton in the cupboard导入、词表、两组英汉正文及六条注释、20道理解问答、A weekend with Sebastian四段续写提纲范文及12道选择题答案。范文按拒绝挪走骷髅、夜间搬运、女仆惊吓、两年后小说四段保留；完整正文段中的引语保持叙事上下文。",
+  "issues": [],
+  "mergeBlocks": [
+    {
+      "start": 27,
+      "end": 34,
+      "before": [
+        "We often read in novels how a seemingly respectable person or family has some",
+        "terrible secret which has been concealed from strangers for years. The English",
+        "language possesses a vivid saying to describe this sort of situation. The terrible secret",
+        "is called ‘a skeleton in the cupboard’. At some dramatic moment in the story, the",
+        "terrible secret becomes known and a reputation is ruined. The reader's hair stands on",
+        "end when he reads in the final pages of the novel that the heroine, a dear old lady who",
+        "had always been so kind to everybody, had, in her youth, poisoned every one of her",
+        "five husbands."
+      ],
+      "text": "We often read in novels how a seemingly respectable person or family has some terrible secret which has been concealed from strangers for years. The English language possesses a vivid saying to describe this sort of situation. The terrible secret is called ‘a skeleton in the cupboard’. At some dramatic moment in the story, the terrible secret becomes known and a reputation is ruined. The reader's hair stands on end when he reads in the final pages of the novel that the heroine, a dear old lady who had always been so kind to everybody, had, in her youth, poisoned every one of her five husbands.",
+      "reason": "柜中骷髅习语及真实骷髅故事两组英汉段、注释、问答和作文内的连续行宽断块恢复完整语义单元。"
+    },
+    {
+      "start": 35,
+      "end": 39,
+      "before": [
+        "在小说中，我们经常读到一个表面上受人尊重的人物或家族，却有着某种多年不",
+        "为人所知的骇人听闻的秘密。英语中有一个生动的说法来形容这种情况。惊人的",
+        "秘密被称作“柜中骷髅”。在小说的某个戏剧性时刻，可怕的秘密泄漏出来，接着",
+        "便是某人的声誉扫地。当读者读到小说最后几页了解到书中女主人公，那位一向",
+        "待大家很好的可爱的老妇人年轻时一连毒死了她的 5 个丈夫时，不禁会毛骨悚然。"
+      ],
+      "text": "在小说中，我们经常读到一个表面上受人尊重的人物或家族，却有着某种多年不为人所知的骇人听闻的秘密。英语中有一个生动的说法来形容这种情况。惊人的秘密被称作“柜中骷髅”。在小说的某个戏剧性时刻，可怕的秘密泄漏出来，接着便是某人的声誉扫地。当读者读到小说最后几页了解到书中女主人公，那位一向待大家很好的可爱的老妇人年轻时一连毒死了她的 5 个丈夫时，不禁会毛骨悚然。",
+      "reason": "柜中骷髅习语及真实骷髅故事两组英汉段、注释、问答和作文内的连续行宽断块恢复完整语义单元。"
+    },
+    {
+      "start": 44,
+      "end": 59,
+      "before": [
+        "It is all very well for such things to occur in fiction. To varying degrees, we all have",
+        "secrets which we do not want even our closest friends to learn, but few of us have",
+        "skeletons in the cupboard. The only person I know who has a skeleton in the cupboard",
+        "is George Carlton, and he is very proud of the fact. George studied medicine in his",
+        "youth. Instead of becoming a doctor, however, he became a successful writer of",
+        "detective stories. I once spent an uncomfortable weekend which I shall never forget at",
+        "his house. George showed me to the guestroom which, he said, was rarely used. He",
+        "told me to unpack my things and then come down to dinner. After I had stacked my",
+        "shirts and underclothes in two empty drawers, I decided to hang one of the two suits I",
+        "had brought with me in the cupboard. I opened the cupboard door and then stood in",
+        "front of it petrified. A skeleton was dangling before my eyes. The sudden movement",
+        "of the door made it sway slightly and it gave me the impression that it was about to",
+        "leap out at me. Dropping my suit, I dashed downstairs to tell George. This was worse",
+        "than ‘a terrible secret’; this was a real skeleton! But George was unsympathetic. ‘Oh,",
+        "that,’ he said with a smile as if he were talking about an old friend. ‘That's Sebastian.",
+        "You forget that I was a medical student once upon a time.’"
+      ],
+      "text": "It is all very well for such things to occur in fiction. To varying degrees, we all have secrets which we do not want even our closest friends to learn, but few of us have skeletons in the cupboard. The only person I know who has a skeleton in the cupboard is George Carlton, and he is very proud of the fact. George studied medicine in his youth. Instead of becoming a doctor, however, he became a successful writer of detective stories. I once spent an uncomfortable weekend which I shall never forget at his house. George showed me to the guestroom which, he said, was rarely used. He told me to unpack my things and then come down to dinner. After I had stacked my shirts and underclothes in two empty drawers, I decided to hang one of the two suits I had brought with me in the cupboard. I opened the cupboard door and then stood in front of it petrified. A skeleton was dangling before my eyes. The sudden movement of the door made it sway slightly and it gave me the impression that it was about to leap out at me. Dropping my suit, I dashed downstairs to tell George. This was worse than ‘a terrible secret’; this was a real skeleton! But George was unsympathetic. ‘Oh, that,’ he said with a smile as if he were talking about an old friend. ‘That's Sebastian. You forget that I was a medical student once upon a time.’",
+      "reason": "柜中骷髅习语及真实骷髅故事两组英汉段、注释、问答和作文内的连续行宽断块恢复完整语义单元。"
+    },
+    {
+      "start": 60,
+      "end": 71,
+      "before": [
+        "这种事发生在小说中是无可非议的。尽管我们人人都有各种大小秘密，连最亲密",
+        "的朋友都不愿让他们知道，但我们当中极少有人有柜中骷髅。我所认识的唯一的",
+        "在柜中藏骷髅的人便是乔治 ·卡尔顿，他甚至引以为自豪。乔治年轻时学过医，",
+        "然而，他后来没当上医生，却成了一位成功的侦探小说作家。有一次，我在他家",
+        "里度周末，过得很不愉快。这事我永远不会忘记。乔治把我领进客房，说这间房",
+        "间很少使用。他让我打开行装后下楼吃饭。我将衬衫、内衣放进两个空抽屉里，",
+        "然后我想把随身带来的两套西服中的一套挂到大衣柜里去。我打开柜门，站在柜",
+        "门前一下子惊呆了。一具骷髅悬挂在眼前，由于柜门突然打开，它也随之轻微摇",
+        "晃起来，让我觉得它好像马上要跳出柜门朝我扑过来似的。我扔下西服冲下楼去",
+        "告诉乔治。这是比“骇人听闻的秘密”更加惊人的东西，这是一具真正的骷髅啊！",
+        "但乔治却无动于衷。“噢，是它呀！他笑着说道，俨然在谈论一位老朋友。“那是",
+        "塞巴斯蒂安。你忘了我以前是学医的了。”"
+      ],
+      "text": "这种事发生在小说中是无可非议的。尽管我们人人都有各种大小秘密，连最亲密的朋友都不愿让他们知道，但我们当中极少有人有柜中骷髅。我所认识的唯一的在柜中藏骷髅的人便是乔治 ·卡尔顿，他甚至引以为自豪。乔治年轻时学过医，然而，他后来没当上医生，却成了一位成功的侦探小说作家。有一次，我在他家里度周末，过得很不愉快。这事我永远不会忘记。乔治把我领进客房，说这间房间很少使用。他让我打开行装后下楼吃饭。我将衬衫、内衣放进两个空抽屉里，然后我想把随身带来的两套西服中的一套挂到大衣柜里去。我打开柜门，站在柜门前一下子惊呆了。一具骷髅悬挂在眼前，由于柜门突然打开，它也随之轻微摇晃起来，让我觉得它好像马上要跳出柜门朝我扑过来似的。我扔下西服冲下楼去告诉乔治。这是比“骇人听闻的秘密”更加惊人的东西，这是一具真正的骷髅啊！但乔治却无动于衷。“噢，是它呀！他笑着说道，俨然在谈论一位老朋友。“那是塞巴斯蒂安。你忘了我以前是学医的了。”",
+      "reason": "柜中骷髅习语及真实骷髅故事两组英汉段、注释、问答和作文内的连续行宽断块恢复完整语义单元。"
+    },
+    {
+      "start": 74,
+      "end": 76,
+      "before": [
+        "5 stood in front of it petrified，站在柜前吓呆了。",
+        "stand 此处表示处于某种状态，起系动词的作用，后面常接形容词、介词短语或",
+        "过去分词，表示主语处于某种状态中的特征，可视作表语。"
+      ],
+      "text": "5 stood in front of it petrified，站在柜前吓呆了。stand 此处表示处于某种状态，起系动词的作用，后面常接形容词、介词短语或过去分词，表示主语处于某种状态中的特征，可视作表语。",
+      "reason": "柜中骷髅习语及真实骷髅故事两组英汉段、注释、问答和作文内的连续行宽断块恢复完整语义单元。"
+    },
+    {
+      "start": 77,
+      "end": 79,
+      "before": [
+        "6 the impression that it was about to leap out…，",
+        "that 引导的从句作 impression 的同位语。be about to do sth. ，表示按照计划即将",
+        "做的动作。"
+      ],
+      "text": "6 the impression that it was about to leap out…，that 引导的从句作 impression 的同位语。be about to do sth. ，表示按照计划即将做的动作。",
+      "reason": "柜中骷髅习语及真实骷髅故事两组英汉段、注释、问答和作文内的连续行宽断块恢复完整语义单元。"
+    },
+    {
+      "start": 83,
+      "end": 84,
+      "before": [
+        "2 When does the terrible secret become known (in novel or story)? (At some dramatic",
+        "moment.)"
+      ],
+      "text": "2 When does the terrible secret become known (in novel or story)? (At some dramatic moment.)",
+      "reason": "柜中骷髅习语及真实骷髅故事两组英汉段、注释、问答和作文内的连续行宽断块恢复完整语义单元。"
+    },
+    {
+      "start": 85,
+      "end": 86,
+      "before": [
+        "3 What does the reader's hair do when he reads the final pages of the novel? (It stands",
+        "on end.)"
+      ],
+      "text": "3 What does the reader's hair do when he reads the final pages of the novel? (It stands on end.)",
+      "reason": "柜中骷髅习语及真实骷髅故事两组英汉段、注释、问答和作文内的连续行宽断块恢复完整语义单元。"
+    },
+    {
+      "start": 87,
+      "end": 88,
+      "before": [
+        "4 What has the dear old lady done in her youth? (She has poisoned every one of her",
+        "five husbands.)"
+      ],
+      "text": "4 What has the dear old lady done in her youth? (She has poisoned every one of her five husbands.)",
+      "reason": "柜中骷髅习语及真实骷髅故事两组英汉段、注释、问答和作文内的连续行宽断块恢复完整语义单元。"
+    },
+    {
+      "start": 89,
+      "end": 90,
+      "before": [
+        "5 What kind of secrets do we all have? (Ones that we don't want our closest friends to",
+        "learn.)"
+      ],
+      "text": "5 What kind of secrets do we all have? (Ones that we don't want our closest friends to learn.)",
+      "reason": "柜中骷髅习语及真实骷髅故事两组英汉段、注释、问答和作文内的连续行宽断块恢复完整语义单元。"
+    },
+    {
+      "start": 92,
+      "end": 93,
+      "before": [
+        "7 The writer knows someone who has a skeleton in his cupboard, Who is it? (George",
+        "Carlton.)"
+      ],
+      "text": "7 The writer knows someone who has a skeleton in his cupboard, Who is it? (George Carlton.)",
+      "reason": "柜中骷髅习语及真实骷髅故事两组英汉段、注释、问答和作文内的连续行宽断块恢复完整语义单元。"
+    },
+    {
+      "start": 97,
+      "end": 98,
+      "before": [
+        "11 What word did the writer use to describe the weekend he once spent at George's",
+        "house? (‘Uncomfortable’)"
+      ],
+      "text": "11 What word did the writer use to describe the weekend he once spent at George's house? (‘Uncomfortable’)",
+      "reason": "柜中骷髅习语及真实骷髅故事两组英汉段、注释、问答和作文内的连续行宽断块恢复完整语义单元。"
+    },
+    {
+      "start": 105,
+      "end": 106,
+      "before": [
+        "18 What did the writer do? (He dropped his suit and rushed downstairs to tell",
+        "George.)"
+      ],
+      "text": "18 What did the writer do? (He dropped his suit and rushed downstairs to tell George.)",
+      "reason": "柜中骷髅习语及真实骷髅故事两组英汉段、注释、问答和作文内的连续行宽断块恢复完整语义单元。"
+    },
+    {
+      "start": 111,
+      "end": 112,
+      "before": [
+        "In not more than 250 words write a continuation of the above passage in the first",
+        "person. Use the ideas given below. Do not write more than four paragraphs."
+      ],
+      "text": "In not more than 250 words write a continuation of the above passage in the first person. Use the ideas given below. Do not write more than four paragraphs.",
+      "reason": "柜中骷髅习语及真实骷髅故事两组英汉段、注释、问答和作文内的连续行宽断块恢复完整语义单元。"
+    },
+    {
+      "start": 115,
+      "end": 118,
+      "before": [
+        "Development: How I spent the night very uncomfortable — took Sebastian out of the",
+        "cupboard — walked around the house with him looking for somewhere to put him —",
+        "maid just going to bed-- saw Sebastian walking around—screamed — Carlton",
+        "appeared — the scene."
+      ],
+      "text": "Development: How I spent the night very uncomfortable — took Sebastian out of the cupboard — walked around the house with him looking for somewhere to put him — maid just going to bed-- saw Sebastian walking around—screamed — Carlton appeared — the scene.",
+      "reason": "柜中骷髅习语及真实骷髅故事两组英汉段、注释、问答和作文内的连续行宽断块恢复完整语义单元。"
+    },
+    {
+      "start": 119,
+      "end": 120,
+      "before": [
+        "Conclusion: Two years later I read about myself and Sebastian in one of Carlton's",
+        "detective stories."
+      ],
+      "text": "Conclusion: Two years later I read about myself and Sebastian in one of Carlton's detective stories.",
+      "reason": "柜中骷髅习语及真实骷髅故事两组英汉段、注释、问答和作文内的连续行宽断块恢复完整语义单元。"
+    },
+    {
+      "start": 123,
+      "end": 126,
+      "before": [
+        "Now that George had explained about the skeleton, I felt better, but I still didn't",
+        "want to sleep in the room a with a skeleton hanging in the cupboard. I asked George",
+        "to remove him, but he refused. ‘There's nowhere else to put him,’ said George, ‘so",
+        "he'll have to stay.’"
+      ],
+      "text": "Now that George had explained about the skeleton, I felt better, but I still didn't want to sleep in the room a with a skeleton hanging in the cupboard. I asked George to remove him, but he refused. ‘There's nowhere else to put him,’ said George, ‘so he'll have to stay.’",
+      "reason": "柜中骷髅习语及真实骷髅故事两组英汉段、注释、问答和作文内的连续行宽断块恢复完整语义单元。"
+    },
+    {
+      "start": 127,
+      "end": 131,
+      "before": [
+        "I couldn't disagree of course, but the moment I lay down to sleep, I knew it was",
+        "going to be an uncomfortable night. In the end, I decided that I would take Sebastian",
+        "somewhere for the night and bring him back up to my room early in the morning. So I",
+        "took him out of cupboard and walked around the house with him trying to find",
+        "somewhere to put him."
+      ],
+      "text": "I couldn't disagree of course, but the moment I lay down to sleep, I knew it was going to be an uncomfortable night. In the end, I decided that I would take Sebastian somewhere for the night and bring him back up to my room early in the morning. So I took him out of cupboard and walked around the house with him trying to find somewhere to put him.",
+      "reason": "柜中骷髅习语及真实骷髅故事两组英汉段、注释、问答和作文内的连续行宽断块恢复完整语义单元。"
+    },
+    {
+      "start": 132,
+      "end": 136,
+      "before": [
+        "George’s maid was just going to bed as I walked along the landing. She saw",
+        "Sebastian apparently walking around, screamed and fainted. She had obviously woken",
+        "Carlton who appeared from his bedroom and, when the girl had regained",
+        "consciousness, explained everything to her. He accused me of being stupid and sent",
+        "me and Sebastian back to 'our' room where I hung him up in the cupboard again."
+      ],
+      "text": "George’s maid was just going to bed as I walked along the landing. She saw Sebastian apparently walking around, screamed and fainted. She had obviously woken Carlton who appeared from his bedroom and, when the girl had regained consciousness, explained everything to her. He accused me of being stupid and sent me and Sebastian back to 'our' room where I hung him up in the cupboard again.",
+      "reason": "柜中骷髅习语及真实骷髅故事两组英汉段、注释、问答和作文内的连续行宽断块恢复完整语义单元。"
+    },
+    {
+      "start": 137,
+      "end": 140,
+      "before": [
+        "Imagine my surprise when picked up one of Carlton's detective stories two years",
+        "later. There Was, with Sebastian the skeleton, as the main characters in one of his",
+        "stories for the whole world to read. Still, he didn't use my real name, so I should be",
+        "glad of that! (240 words)"
+      ],
+      "text": "Imagine my surprise when picked up one of Carlton's detective stories two years later. There Was, with Sebastian the skeleton, as the main characters in one of his stories for the whole world to read. Still, he didn't use my real name, so I should be glad of that! (240 words)",
+      "reason": "柜中骷髅习语及真实骷髅故事两组英汉段、注释、问答和作文内的连续行宽断块恢复完整语义单元。"
+    },
+    {
+      "start": 142,
+      "end": 143,
+      "before": [
+        "1 In what respect does fact differ from fiction concerning the secrets that people keep",
+        "to themselves?"
+      ],
+      "text": "1 In what respect does fact differ from fiction concerning the secrets that people keep to themselves?",
+      "reason": "柜中骷髅习语及真实骷髅故事两组英汉段、注释、问答和作文内的连续行宽断块恢复完整语义单元。"
+    },
+    {
+      "start": 158,
+      "end": 159,
+      "before": [
+        "4 We often read in novels of a seemingly respectable person or family",
+        "some terrible secret…"
+      ],
+      "text": "4 We often read in novels of a seemingly respectable person or family some terrible secret…",
+      "reason": "柜中骷髅习语及真实骷髅故事两组英汉段、注释、问答和作文内的连续行宽断块恢复完整语义单元。"
+    }
+  ],
+  "splitBlocks": [],
+  "blockEdits": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/df344c9c4cbabb7d10fad934b9c21a417a0fa79017525e1d0451eed79436fb33.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "2646caa79afb6a7c368782f1e43083c4f9a17b287e7beb0f0f30ae602d640e32"
+    }
+  ]
+}

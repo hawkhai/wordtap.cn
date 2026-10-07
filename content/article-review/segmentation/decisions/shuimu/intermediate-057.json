@@ -1,0 +1,265 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "555f6a74c6b8f2c91c4ad4eee8bab7e50d6aaa4c12422ae968970a0e73ee5e24",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "coverage": "全文 blocks[0..176]；按 JSON 上下文逐项复核对话、解释、题目、表格、词表及修复后的边界。",
+  "notes": "全文复核逃学儿童从Dover到Perpignan的故事、摘要连接点与答案、全部选择题及强调句解析。摘要各编号保持独立，合并答案自然段和语法解释中的句中断行。",
+  "issues": [],
+  "mergeBlocks": [
+    {
+      "start": 19,
+      "end": 20,
+      "before": [
+        "A quiet day’s fishing, or eight hours in a cinema seeing the same film over and over",
+        "again, is usually as far as they get."
+      ],
+      "text": "A quiet day’s fishing, or eight hours in a cinema seeing the same film over and over again, is usually as far as they get.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 21,
+      "end": 22,
+      "before": [
+        "他们通常能够做到的，至多也就是安静地钓上一天鱼，或在电影院里坐上8个小",
+        "时，一遍遍地看同一部电影。"
+      ],
+      "text": "他们通常能够做到的，至多也就是安静地钓上一天鱼，或在电影院里坐上8个小时，一遍遍地看同一部电影。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 23,
+      "end": 24,
+      "before": [
+        "They have all been put to shame by a boy who, while playing truant, travelled 1,600",
+        "miles."
+      ],
+      "text": "They have all been put to shame by a boy who, while playing truant, travelled 1,600 miles.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 25,
+      "end": 26,
+      "before": [
+        "而有那么一个小男孩，他在逃学期间旅行了1,600英里，从而使上述所有逃学的",
+        "孩子们都相形见绌了。"
+      ],
+      "text": "而有那么一个小男孩，他在逃学期间旅行了1,600英里，从而使上述所有逃学的孩子们都相形见绌了。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 27,
+      "end": 28,
+      "before": [
+        "He hitchhiked to Dover and, towards evening, went into a boat to find somewhere to",
+        "sleep."
+      ],
+      "text": "He hitchhiked to Dover and, towards evening, went into a boat to find somewhere to sleep.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 30,
+      "end": 31,
+      "before": [
+        "When he woke up next morning, he discovered that the boat had, in the meantime,",
+        "travelled to Calais. No one noticed the boy as he crept off."
+      ],
+      "text": "When he woke up next morning, he discovered that the boat had, in the meantime, travelled to Calais. No one noticed the boy as he crept off.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 32,
+      "end": 33,
+      "before": [
+        "第二天早上他醒来时，发现船在这段时间已经到了加来市。当男孩从船里爬出",
+        "来时，谁也没有发现他。"
+      ],
+      "text": "第二天早上他醒来时，发现船在这段时间已经到了加来市。当男孩从船里爬出来时，谁也没有发现他。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 34,
+      "end": 35,
+      "before": [
+        "From there, he hitchhiked to Paris in a lorry. The driver gave him a few biscuits and a",
+        "cup of coffee and left him just outside the city."
+      ],
+      "text": "From there, he hitchhiked to Paris in a lorry. The driver gave him a few biscuits and a cup of coffee and left him just outside the city.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 36,
+      "end": 37,
+      "before": [
+        "从那里他又搭上卡车到了巴黎。司机给了他几块饼干和一杯咖啡，就把他丢在",
+        "了城外。"
+      ],
+      "text": "从那里他又搭上卡车到了巴黎。司机给了他几块饼干和一杯咖啡，就把他丢在了城外。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 38,
+      "end": 39,
+      "before": [
+        "The next car the boy stopped did not take him into the center of Paris as he hoped it",
+        "would, but to Perpignan on the French-Spanish border."
+      ],
+      "text": "The next car the boy stopped did not take him into the center of Paris as he hoped it would, but to Perpignan on the French-Spanish border.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 40,
+      "end": 41,
+      "before": [
+        "男孩截住的下一辆车，没有像他希望的那样把他带到巴黎市中心，而是把他带",
+        "到了法国和西班牙边界上的佩皮尼昂。"
+      ],
+      "text": "男孩截住的下一辆车，没有像他希望的那样把他带到巴黎市中心，而是把他带到了法国和西班牙边界上的佩皮尼昂。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 42,
+      "end": 43,
+      "before": [
+        "There he was picked up by a policeman and sent back to England by the local",
+        "authorities."
+      ],
+      "text": "There he was picked up by a policeman and sent back to England by the local authorities.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 45,
+      "end": 46,
+      "before": [
+        "He has surely set up a record for the thousands of children who dream of evading",
+        "school."
+      ],
+      "text": "He has surely set up a record for the thousands of children who dream of evading school.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 62,
+      "end": 67,
+      "before": [
+        "Answer: A boy who played truant travelled 1, 600 miles. He hitchhiked to",
+        "Dover where he slept in a boat, only to find himself in Calais the next morning.",
+        "A lorry driver gave him a lift and something to eat, and the boy got off near",
+        "Paris. He stopped another car but, instead of being taken to Paris, he was",
+        "taken to Perpignan on the French-Spanish border. After being picked up by a",
+        "policeman, he was sent home by the local authorities."
+      ],
+      "text": "Answer: A boy who played truant travelled 1, 600 miles. He hitchhiked to Dover where he slept in a boat, only to find himself in Calais the next morning. A lorry driver gave him a lift and something to eat, and the boy got off near Paris. He stopped another car but, instead of being taken to Paris, he was taken to Perpignan on the French-Spanish border. After being picked up by a policeman, he was sent home by the local authorities.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 134,
+      "end": 135,
+      "before": [
+        "• Albert Einstein advanced the theory of relativity at the beginning of the last",
+        "century."
+      ],
+      "text": "• Albert Einstein advanced the theory of relativity at the beginning of the last century.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 137,
+      "end": 138,
+      "before": [
+        "• It was Albert Einstein who/that advanced the theory of relativity at the",
+        "beginning of the last century.(强调主语)"
+      ],
+      "text": "• It was Albert Einstein who/that advanced the theory of relativity at the beginning of the last century.(强调主语)",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 139,
+      "end": 140,
+      "before": [
+        "• It was the theory of relativity that Albert Einstein advanced at the beginning",
+        "of the last century.(强调宾语)"
+      ],
+      "text": "• It was the theory of relativity that Albert Einstein advanced at the beginning of the last century.(强调宾语)",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 141,
+      "end": 142,
+      "before": [
+        "• It was at the beginning of the last century that Albert Einstein advanced the",
+        "theory of relativity.(强调时间状语)"
+      ],
+      "text": "• It was at the beginning of the last century that Albert Einstein advanced the theory of relativity.(强调时间状语)",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 146,
+      "end": 147,
+      "before": [
+        "• Tom did buy a new computer yesterday.汤姆昨天的确买了一台新计算",
+        "机。"
+      ],
+      "text": "• Tom did buy a new computer yesterday.汤姆昨天的确买了一台新计算机。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 153,
+      "end": 154,
+      "before": [
+        "▪不能强调since或as引导的原因状语从句，也不能强调although或whereas引导",
+        "的让步状语从句或并列句，但可以强调because引导的原因状语从句。"
+      ],
+      "text": "▪不能强调since或as引导的原因状语从句，也不能强调although或whereas引导的让步状语从句或并列句，但可以强调because引导的原因状语从句。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 155,
+      "end": 156,
+      "before": [
+        "• It was just because she had forgotten to wind the alarm clock that Mary was",
+        "late."
+      ],
+      "text": "• It was just because she had forgotten to wind the alarm clock that Mary was late.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 158,
+      "end": 159,
+      "before": [
+        "▪凡是强调状语，如时间状语、地点状语、方式状语等，只能用that，而不用",
+        "which, when或where。"
+      ],
+      "text": "▪凡是强调状语，如时间状语、地点状语、方式状语等，只能用that，而不用 which, when或where。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 169,
+      "end": 170,
+      "before": [
+        "▪被强调的句子的谓语动词如果是过去时，强调结构中的谓语动词be一般只",
+        "能用was，而不可用is。"
+      ],
+      "text": "▪被强调的句子的谓语动词如果是过去时，强调结构中的谓语动词be一般只能用was，而不可用is。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 173,
+      "end": 174,
+      "before": [
+        "▪在 下 面 句 子 中， 通 常 用 It has been+ 时 间 +since…, 而 不 用 强 调 句 It",
+        "is…that...。"
+      ],
+      "text": "▪在 下 面 句 子 中， 通 常 用 It has been+ 时 间 +since…, 而 不 用 强 调 句 It is…that...。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    }
+  ],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/d984154d13dca2475caba0d6365134e215c26159ff8934bef54245547fedd2c6.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "35da0d2711dd7dc5aee9be81f2f0d2c0a6e89b24dfe0bba22f779991c9af7310"
+    }
+  ]
+}

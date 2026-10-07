@@ -1,0 +1,21 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "8ac6b69f049019b8b9e933556616e06fa29d7b9222e50e4209c01beed08331d1",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title；全文 blocks[0..0] 与对应 text；现有正文/对话/题干逐块通读复核。",
+  "notes": "Wind on the Hill二十行连续诗作，现有诗行明确，保留整体诗块及全部行界。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/db44db10e606accfbc52f19d2eb145822f1fb7d6db09d0cef1fe56c55d29eb7b.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "c5d3468f592797fbba97c4e50931b7fb208dcb2d366e16eeae18e795856c5eb9"
+    }
+  ]
+}

@@ -50,24 +50,46 @@
   },
   "sources": [
     {
-      "path": "content/pep-english/raw/junior-7b.pdf",
-      "locator": "PDF第81-81页，标题与完整正文逐行核对",
+      "path": "content/article-review/history/4b67622dc5c3ac0609e729aa6fe40095c84504fc15e225b2815d712ff2110308.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
       "checked": true,
-      "sha256": "7041d787738bdf5f4f556765acdfe8033ac2f69d03e67ccc62516375f6a46f37"
-    },
-    {
-      "path": "content/pep-english/raw/junior-7b/junior-7b_81.jpg",
-      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
-      "checked": true,
-      "sha256": "0d02d092e343b5afd9b01b70817e6ef7fcd1f22aebd57894dda3827a7a215deb"
+      "sha256": "6f962bdbf93ea081bddb7673dc5610f7395af2d99505b1eb1696d18db97183ad"
     }
   ],
   "corrections": [],
   "fullReadConfirmed": true,
   "recheckConfirmed": true,
   "reviewer": "Codex",
-  "reviewedAt": "2026-10-02T04:48:01+00:00",
-  "notes": "PDF81页印刷71页三段完整故事逐行核对并第二遍按双栏重读，左末big snake接右首sleeping正确；两周前毕业、印度露营、湖边帐篷、次晨蛇及父亲的行动顺序完整。末段关于蛇的说法保留为课文人物转述，不扩写为现代动物学结论或操作建议。正文未混入下方snakes can’t hear练习概括；标题与Unit12/SectionB一致，无转录修改。",
+  "reviewedAt": "2026-10-07T07:39:48+00:00",
+  "notes": "印度周末三段引入、露营首夜、遇蛇及经验，保留完整叙事段与父亲解释。",
   "issues": [],
-  "status": "passed_unchanged"
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "757b416e884092c12ac44ef80de4cc036e612625e3d96412a33eb02ba1406d09",
+    "afterFileSha256": "757b416e884092c12ac44ef80de4cc036e612625e3d96412a33eb02ba1406d09",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "757b416e884092c12ac44ef80de4cc036e612625e3d96412a33eb02ba1406d09",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..2] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "印度周末三段引入、露营首夜、遇蛇及经验，保留完整叙事段与父亲解释。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "blockEdits": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/4b67622dc5c3ac0609e729aa6fe40095c84504fc15e225b2815d712ff2110308.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "6f962bdbf93ea081bddb7673dc5610f7395af2d99505b1eb1696d18db97183ad"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "4b67622dc5c3ac0609e729aa6fe40095c84504fc15e225b2815d712ff2110308"
 }

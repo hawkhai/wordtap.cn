@@ -1,0 +1,22 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "4aaca301c6d5c580273b7f50f8ba5cb8a7e8da88946b2509633d9d3868da7517",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title；全文 blocks[0..7] 与对应 text；现有正文/对话/题干逐块通读复核。",
+  "notes": "感恩节日期意义、家庭餐两段后烤火鸡引导及五步分别成块，保留独立步骤。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "blockEdits": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/7395fbfcc77db1447f446f854e918d1df7791aeafd171f202b3fdad0da99d517.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "b72f4f2b1f21039390d5dc2a08be35e9a9d3b46c1863163c9be8d9dc0fd9e0c4"
+    }
+  ]
+}

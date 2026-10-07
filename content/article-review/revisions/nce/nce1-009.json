@@ -2,92 +2,9 @@
   "schemaVersion": 1,
   "course": "nce",
   "articleId": "nce1-009",
-  "beforeDisplaySha256": "1cba30d11b7446ff1aca80890e583d9feafef7bc0f148c5182f79a1fc60e51e9",
-  "afterDisplaySha256": "1cd946d9dcdc740a72d3f77a726d5fb040f405581508e674d5806a533a3b3237",
+  "beforeDisplaySha256": "1cd946d9dcdc740a72d3f77a726d5fb040f405581508e674d5806a533a3b3237",
+  "afterDisplaySha256": "3e66d0c7daa39fbe3fa715c409af59431b4eb4367755622f8c52e8b2c9c7b324",
   "baselineDisplay": {
-    "title": "How Are You Today",
-    "titleZh": "你今天好吗？",
-    "question": "How is Emma?",
-    "questionZh": "艾玛最近怎么样？",
-    "text": "How is Emma?\n\nHello Helen.\nHi Steven.\nHow are you today?\nI'm very well thank you.\nAnd you?\nI'm fine thanks.\nHow is Tony?\nHe's fine thanks.\nHow's Emma?\nShe's very well too Helen.\nGoodbye Helen.\nNice to see you.\nNice to see you too Steven.\nGoodbye.",
-    "bodyText": "Hello Helen.\nHi Steven.\nHow are you today?\nI'm very well thank you.\nAnd you?\nI'm fine thanks.\nHow is Tony?\nHe's fine thanks.\nHow's Emma?\nShe's very well too Helen.\nGoodbye Helen.\nNice to see you.\nNice to see you too Steven.\nGoodbye.",
-    "bodyTextZh": "你好，海伦。\n嗨，史蒂文。\n你今天好吗？\n我很好，谢谢。\n你呢？\n我也很好，谢谢。\n托尼好吗？\n他也很好，谢谢。\n艾玛好吗？\n她也很好，海伦。\n再见，海伦。\n很高兴见到你。\n我也很高兴见到你，史蒂文。\n再见。",
-    "sentences": [
-      {
-        "en": "Lesson 9",
-        "zh": "第9课"
-      },
-      {
-        "en": "How are you today?",
-        "zh": "你今天好吗？"
-      },
-      {
-        "en": "Listen to the tape then answer this question.",
-        "zh": "请听录音，然后回答这个问题。"
-      },
-      {
-        "en": "How is Emma?",
-        "zh": "艾玛最近怎么样？"
-      },
-      {
-        "en": "Hello Helen.",
-        "zh": "你好，海伦。"
-      },
-      {
-        "en": "Hi Steven.",
-        "zh": "嗨，史蒂文。"
-      },
-      {
-        "en": "How are you today?",
-        "zh": "你今天好吗？"
-      },
-      {
-        "en": "I'm very well thank you.",
-        "zh": "我很好，谢谢。"
-      },
-      {
-        "en": "And you?",
-        "zh": "你呢？"
-      },
-      {
-        "en": "I'm fine thanks.",
-        "zh": "我也很好，谢谢。"
-      },
-      {
-        "en": "How is Tony?",
-        "zh": "托尼好吗？"
-      },
-      {
-        "en": "He's fine thanks.",
-        "zh": "他也很好，谢谢。"
-      },
-      {
-        "en": "How's Emma?",
-        "zh": "艾玛好吗？"
-      },
-      {
-        "en": "She's very well too Helen.",
-        "zh": "她也很好，海伦。"
-      },
-      {
-        "en": "Goodbye Helen.",
-        "zh": "再见，海伦。"
-      },
-      {
-        "en": "Nice to see you.",
-        "zh": "很高兴见到你。"
-      },
-      {
-        "en": "Nice to see you too Steven.",
-        "zh": "我也很高兴见到你，史蒂文。"
-      },
-      {
-        "en": "Goodbye.",
-        "zh": "再见。"
-      }
-    ]
-  },
-  "display": {
     "title": "How Are You Today",
     "titleZh": "你今天好吗？",
     "question": "How is Emma?",
@@ -170,20 +87,135 @@
       }
     ]
   },
+  "display": {
+    "title": "How Are You Today",
+    "titleZh": "你今天好吗？",
+    "question": "How is Emma?",
+    "questionZh": "艾玛最近怎么样？",
+    "text": "How is Emma?\n\nHello Helen.\nHi Steven.\nHow are you today?\nI'm very well thank you. And you?\nI'm fine thanks.\nHow is Tony?\nHe's fine thanks.\nHow's Emma?\nShe's very well too Helen.\nGoodbye Helen. Nice to see you.\nNice to see you too Steven. Goodbye.",
+    "bodyText": "Hello Helen.\nHi Steven.\nHow are you today?\nI'm very well thank you. And you?\nI'm fine thanks.\nHow is Tony?\nHe's fine thanks.\nHow's Emma?\nShe's very well too Helen.\nGoodbye Helen. Nice to see you.\nNice to see you too Steven. Goodbye.",
+    "bodyTextZh": "你好，海伦。\n嗨，史蒂文。\n你今天好吗？\n我很好，谢谢。你呢？\n我也很好，谢谢。\n托尼好吗？\n他也很好，谢谢。\n艾玛好吗？\n她也很好，海伦。\n再见，海伦。很高兴见到你。\n我也很高兴见到你，史蒂文。再见。",
+    "sentences": [
+      {
+        "en": "Lesson 9",
+        "zh": "第 9 课"
+      },
+      {
+        "en": "How are you today?",
+        "zh": "你今天好吗？"
+      },
+      {
+        "en": "Listen to the tape then answer this question.",
+        "zh": "请听录音，然后回答这个问题。"
+      },
+      {
+        "en": "How is Emma?",
+        "zh": "艾玛最近怎么样？"
+      },
+      {
+        "en": "Hello Helen.",
+        "zh": "你好，海伦。"
+      },
+      {
+        "en": "Hi Steven.",
+        "zh": "嗨，史蒂文。"
+      },
+      {
+        "en": "How are you today?",
+        "zh": "你今天好吗？"
+      },
+      {
+        "en": "I'm very well thank you.",
+        "zh": "我很好，谢谢。"
+      },
+      {
+        "en": "And you?",
+        "zh": "你呢？"
+      },
+      {
+        "en": "I'm fine thanks.",
+        "zh": "我也很好，谢谢。"
+      },
+      {
+        "en": "How is Tony?",
+        "zh": "托尼好吗？"
+      },
+      {
+        "en": "He's fine thanks.",
+        "zh": "他也很好，谢谢。"
+      },
+      {
+        "en": "How's Emma?",
+        "zh": "艾玛好吗？"
+      },
+      {
+        "en": "She's very well too Helen.",
+        "zh": "她也很好，海伦。"
+      },
+      {
+        "en": "Goodbye Helen.",
+        "zh": "再见，海伦。"
+      },
+      {
+        "en": "Nice to see you.",
+        "zh": "很高兴见到你。"
+      },
+      {
+        "en": "Nice to see you too Steven.",
+        "zh": "我也很高兴见到你，史蒂文。"
+      },
+      {
+        "en": "Goodbye.",
+        "zh": "再见。"
+      }
+    ]
+  },
   "sources": [
     {
-      "path": "content/NCE-Flow/NCE1/009&010－How Are You Today.lrc",
-      "locator": "完整LRC元数据、标题、提问及全部中英文逐句字幕和时间戳",
+      "path": "content/article-review/history/dcd388c4f9e14fe1fe3a2f5c35bd58b13703b17051ebe8d1f5477790944bf234.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
       "checked": true,
-      "sha256": "afb5e613ac7640aeb70db9c72e297969dc8267a60f9fd8e1a8a57b6d6903ff57"
+      "sha256": "64e56c355b750742485c7f6b631466af996e579c5942c39b761e001609f1a29f"
     }
   ],
   "corrections": [],
   "fullReadConfirmed": true,
   "recheckConfirmed": true,
   "reviewer": "Codex",
-  "reviewedAt": "2026-10-02T02:20:41+00:00",
-  "notes": "全文核对14句问候与告别及提问；Helen/Steven对话中Tony和Emma的状态、中译和缩写一致。保留短对话逐句结构，仅调整第9课空格，未变更任何句子时间或角色。",
+  "reviewedAt": "2026-10-07T07:39:38+00:00",
+  "notes": "海伦与史蒂文问候；合并海伦回答反问及两方各自告别语，关于托尼艾玛的问答不跨说话人合并，I’m fine与How is Tony保留分行。 text与bodyText同步；sentences对象及时间、角色、索引原样保留。",
   "issues": [],
-  "status": "passed_edited"
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "dda402680386f707a59fdeb5e765e0d2b3ea7e1339ad29da6b5073da30871908",
+    "afterFileSha256": "d66babff4ee8926a90a3b10d15dfe011576e57d07ad02e6cf1874e947d57d124",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "dda402680386f707a59fdeb5e765e0d2b3ea7e1339ad29da6b5073da30871908",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title/titleZh、question/questionZh、bodyText全部14行、bodyTextZh全部14行及sentences[0..17]的完整文字；重复正文与字幕文本逐字比对，非正文字幕另读。操作在内存应用并validate_layout_change，修复后的双语全文重新通读。",
+      "notes": "海伦与史蒂文问候；合并海伦回答反问及两方各自告别语，关于托尼艾玛的问答不跨说话人合并，I’m fine与How is Tony保留分行。 text与bodyText同步；sentences对象及时间、角色、索引原样保留。",
+      "issues": [],
+      "display": {
+        "text": "How is Emma?\n\nHello Helen.\nHi Steven.\nHow are you today?\nI'm very well thank you. And you?\nI'm fine thanks.\nHow is Tony?\nHe's fine thanks.\nHow's Emma?\nShe's very well too Helen.\nGoodbye Helen. Nice to see you.\nNice to see you too Steven. Goodbye.",
+        "bodyText": "Hello Helen.\nHi Steven.\nHow are you today?\nI'm very well thank you. And you?\nI'm fine thanks.\nHow is Tony?\nHe's fine thanks.\nHow's Emma?\nShe's very well too Helen.\nGoodbye Helen. Nice to see you.\nNice to see you too Steven. Goodbye.",
+        "bodyTextZh": "你好，海伦。\n嗨，史蒂文。\n你今天好吗？\n我很好，谢谢。你呢？\n我也很好，谢谢。\n托尼好吗？\n他也很好，谢谢。\n艾玛好吗？\n她也很好，海伦。\n再见，海伦。很高兴见到你。\n我也很高兴见到你，史蒂文。再见。"
+      },
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/dcd388c4f9e14fe1fe3a2f5c35bd58b13703b17051ebe8d1f5477790944bf234.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "64e56c355b750742485c7f6b631466af996e579c5942c39b761e001609f1a29f"
+        }
+      ]
+    }
+  },
+  "status": "passed_edited",
+  "previousRevisionSha256": "dcd388c4f9e14fe1fe3a2f5c35bd58b13703b17051ebe8d1f5477790944bf234"
 }

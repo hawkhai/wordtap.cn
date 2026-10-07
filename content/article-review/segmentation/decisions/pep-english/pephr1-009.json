@@ -1,0 +1,55 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "ee4f6f03a5edfc7473e915f7ee6d1930a0da925ada45331058f24b5f605119d6",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title；全文 blocks[0..0] 与对应 text；现有正文/对话/题干逐块通读复核。",
+  "notes": "Amy与Jeremy约定水上公园出行，六个具名轮次原被装在同块，逐轮拆分，保留轮内多句。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [
+    {
+      "index": 0,
+      "before": [
+        "Amy: Hello, Jeremy! What are you doing this weekend?\nJeremy: Hi, Amy! Some friends and I are going to that new water park on Saturday. Do you want to join us?\nAmy: Sure, I'd love to! What time and where?\nJeremy: We're meeting at 10:00 a.m. at the bus stop near our school.\nAmy: How about lunch? Are you eating at the water park?\nJeremy: Well, I'm bringing my own lunch. I think some of the others are eating at the park, but the food there is really expensive."
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Amy: Hello, Jeremy! What are you doing this weekend?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Jeremy: Hi, Amy! Some friends and I are going to that new water park on Saturday. Do you want to join us?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Amy: Sure, I'd love to! What time and where?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Jeremy: We're meeting at 10:00 a.m. at the bus stop near our school."
+        },
+        {
+          "type": "paragraph",
+          "text": "Amy: How about lunch? Are you eating at the water park?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Jeremy: Well, I'm bringing my own lunch. I think some of the others are eating at the park, but the food there is really expensive."
+        }
+      ],
+      "reason": "每行具有明确的发言人及完整轮次，分块保留各对话轮次。"
+    }
+  ],
+  "sources": [
+    {
+      "path": "content/article-review/history/8082e86980053bd7b6f8f14f229ca110f1ec24c2bd253c7b8dfd4d666657c15b.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "6e8b9e373f7768c567cafb15a0f0a7f1688f0f0546e54a06c9429ce4363610df"
+    }
+  ]
+}

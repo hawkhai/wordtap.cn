@@ -80,24 +80,45 @@
   },
   "sources": [
     {
-      "path": "content/pep-english/raw/senior-required-1.pdf",
-      "locator": "PDF第107-107页，标题与完整正文逐行核对",
+      "path": "content/article-review/history/035cd5e99782457a0da548668602d03176dcfe941f1513e90deb85b6442f79a7.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
       "checked": true,
-      "sha256": "ffe985a370964820aa003008f48c7cf17b5e0dff8eb29fe54cd4743b0c4e8c79"
-    },
-    {
-      "path": "content/pep-english/raw/senior-required-1/senior-required-1_107.jpg",
-      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
-      "checked": true,
-      "sha256": "f82d20c2565f36fa3dacaf7bd0b3571f3836b9b87d28c53f6bd3000718a78774"
+      "sha256": "9f4b9b6cfe3d712596ed1beebcf1ee52b49ee43b124fa5a192b1a9a407829064"
     }
   ],
   "corrections": [],
   "fullReadConfirmed": true,
   "recheckConfirmed": true,
   "reviewer": "Codex",
-  "reviewedAt": "2026-10-02T05:35:40+00:00",
-  "notes": "PDF第107页OED六段全文逐行核对，1857/1870s/1837–1915/1928/1933/1972–1986/1989、册数页数词条数及CD-ROM拼写均与教材一致；保留其出版时点陈述与原文段落，无修改。",
+  "reviewedAt": "2026-10-07T07:30:14+00:00",
+  "notes": "OED文章由书籍引入到起源、Murray工作、出版、更新及文化价值六段展开，日期和引文没有错误断段。",
   "issues": [],
-  "status": "passed_unchanged"
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "68e9362e21cc1f82aa885a7b27d2f01a196fcf3b7aa71134e0cb9d8ee9d4bd61",
+    "afterFileSha256": "68e9362e21cc1f82aa885a7b27d2f01a196fcf3b7aa71134e0cb9d8ee9d4bd61",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "68e9362e21cc1f82aa885a7b27d2f01a196fcf3b7aa71134e0cb9d8ee9d4bd61",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..5] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "OED文章由书籍引入到起源、Murray工作、出版、更新及文化价值六段展开，日期和引文没有错误断段。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/035cd5e99782457a0da548668602d03176dcfe941f1513e90deb85b6442f79a7.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "9f4b9b6cfe3d712596ed1beebcf1ee52b49ee43b124fa5a192b1a9a407829064"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "035cd5e99782457a0da548668602d03176dcfe941f1513e90deb85b6442f79a7"
 }

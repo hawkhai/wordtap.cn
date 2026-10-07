@@ -1,0 +1,26 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "46bf81c6267cee3f637a07820b375c3e3b35d37d6b82dbd12ce4ed1998cbd086",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title/titleZh、question/questionZh、bodyText全部21行、bodyTextZh全部21行及sentences[0..24]的完整文字；重复正文与字幕文本逐字比对，非正文字幕另读。操作在内存应用并validate_layout_change，修复后的双语全文重新通读。",
+  "notes": "辨认女演员；人物确认、身旁人追问、演员怀疑再看、丈夫次数及显老、年龄推测和自己29岁反驳各自合轮。 text与bodyText同步；sentences对象及时间、角色、索引原样保留。",
+  "issues": [],
+  "display": {
+    "text": "Who is only twenty-nine, and why is it so unclear?\n\nCan you recognize that woman, Liz?\nI think I can, Kate. It must be Karen Marsh, the actress.\nI thought so. Who's that beside her?\nThat must be Conrad Reeves.\nConrad Reeves, the actor? It can't be. Let me have another look. I think you're right! Isn't he her third husband?\nNo. He must be her fourth or fifth. Doesn't Karen Marsh look old!\nShe does, doesn't she! I read she's twenty-nine, but she must be at least forty.\nI'm sure she is. She was a famous actress when I was still at school.\nThat was a long time ago, wasn't it?\nNot that long ago! I'm not more than twenty-nine myself.",
+    "bodyText": "Can you recognize that woman, Liz?\nI think I can, Kate. It must be Karen Marsh, the actress.\nI thought so. Who's that beside her?\nThat must be Conrad Reeves.\nConrad Reeves, the actor? It can't be. Let me have another look. I think you're right! Isn't he her third husband?\nNo. He must be her fourth or fifth. Doesn't Karen Marsh look old!\nShe does, doesn't she! I read she's twenty-nine, but she must be at least forty.\nI'm sure she is. She was a famous actress when I was still at school.\nThat was a long time ago, wasn't it?\nNot that long ago! I'm not more than twenty-nine myself.",
+    "bodyTextZh": "你能认出那个女人吗，莉兹？\n我想我能认出来，凯特。那一定是凯伦·马什，那位女演员。\n我也这么认为。她旁边的是谁？\n那一定是康拉德·里夫斯。\n康拉德·里夫斯，那位演员？不可能是他。让我再看看。我觉得你是对的！他不是她的第三任丈夫吗？\n不是。他一定是她的第四或第五任丈夫。凯伦·马什看起来真老啊！\n是啊，她看起来是挺老的。我记得她才29岁，但实际上她至少有40岁了。\n我肯定她有。我还在上学的时候，她就已经是著名演员了。\n那已经是很久以前的事了，对吧？\n没那么久吧！我自己也才 29 岁。"
+  },
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/c369ef3b390ff77cf62777438b565d6fcb1b0044143d7bc2d11a720d7220d55d.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "3dbc7ab78d89357554ed2b00fbca5998c57818c6b74536da904f6c93f68fed8c"
+    }
+  ]
+}

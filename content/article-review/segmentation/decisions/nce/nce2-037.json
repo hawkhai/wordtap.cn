@@ -1,0 +1,25 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "4874466a7aeb89b42daea65357a5f9bea22d4fdbc6cc53c3e4321ca499cb057b",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title/titleZh、question/questionZh、bodyText全部9行、bodyTextZh全部9行及sentences[0..11]的完整文字；重复正文与字幕文本逐字比对，非正文字幕另读。操作在内存应用并validate_layout_change，修复后的双语全文重新通读。",
+  "notes": "奥运建设；英文按场馆交通计划、工程进度设计、期待举办三段；中文多处句末无标点且有重复错接，只保留原行界以免粘连句子，文字校勘不在本轮改动。 text与bodyText同步；sentences对象及时间、角色、索引原样保留。",
+  "issues": [],
+  "display": {
+    "text": "When was the last time this country hosted the Olympic Games?\n\nThe Olympic Games will be held in our country in four years' time. As a great many people will be visiting the country, the government will be building new hotels, an immense stadium, and a new Olympic-standard swimming pool. They will also be building new roads and a special railway line. The Games will be held just outside the capital and the whole area will be called 'Olympic City'.\nWorkers will have completed the new roads by the end of this year. By the end of next year, they will have finished work on the new stadium. The fantastic modern buildings have been designed by Kurt Gunter.\nEverybody will be watching anxiously as the new buildings go up. We are all very excited and are looking forward to the Olympic Games because they have never been held before in this country.",
+    "bodyText": "The Olympic Games will be held in our country in four years' time. As a great many people will be visiting the country, the government will be building new hotels, an immense stadium, and a new Olympic-standard swimming pool. They will also be building new roads and a special railway line. The Games will be held just outside the capital and the whole area will be called 'Olympic City'.\nWorkers will have completed the new roads by the end of this year. By the end of next year, they will have finished work on the new stadium. The fantastic modern buildings have been designed by Kurt Gunter.\nEverybody will be watching anxiously as the new buildings go up. We are all very excited and are looking forward to the Olympic Games because they have never been held before in this country."
+  },
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/71fd8a916d2352cee176dbbbf95c6eb1f7f230ad70b09f61eb20664a4cc0ff77.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "082e11ab1e5b3f57673a07e6e0aecdfb5cce55018d25a0c25cc923dd3475a43b"
+    }
+  ]
+}

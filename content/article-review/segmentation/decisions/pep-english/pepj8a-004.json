@@ -1,0 +1,22 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "8b21ca348bd954743257c97df954499d6d486d90e5e1c2e30edd299e1e651c90",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title；全文 blocks[0..10] 与对应 text；现有正文/对话/题干逐块通读复核。",
+  "notes": "Jack与Claire下周计划十一轮已分别成块，舞蹈钢琴网球问答多句轮次完整，无需改动。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "blockEdits": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/4792437f46ab4495cef4b91aaf4e08dd84e09f8dc021ff58f99be21a155ab39b.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "d2698943b5932f5b819601c5217d3529a9040bcbdab8fbeb30b6366b32a89692"
+    }
+  ]
+}

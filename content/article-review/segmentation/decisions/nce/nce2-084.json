@@ -1,0 +1,26 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "90307758c5407465f794fe10cb9942d5e4b09a3e149284cbaa123bcf81987764",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title/titleZh、question/questionZh、bodyText全部13行、bodyTextZh全部13行及sentences[0..15]的完整文字；重复正文与字幕文本逐字比对，非正文字幕另读。操作在内存应用并validate_layout_change，修复后的双语全文重新通读。",
+  "notes": "司机罢工；原因预计时长、私车搭乘、学生志愿测试、公众反应四段。 text与bodyText同步；sentences对象及时间、角色、索引原样保留。",
+  "issues": [],
+  "display": {
+    "text": "Who will be driving the buses next week?\n\nBusmen have decided to go on strike next week. The strike is due to begin on Tuesday. No one knows how long it will last. The busmen have stated that the strike will continue until general agreement is reached about pay and working conditions. Most people believe that the strike will last for at least a week.\nMany owners of private cars are going to offer 'free rides' to people on their way to work. This will relieve pressure on the trains to some extent.\nMeanwhile, a number of university students have volunteered to drive buses while the strike lasts. All the students are expert drivers, but before they drive any of the buses, they will have to pass a special test. The students are going to take the test in two days' time.\nEven so, people are going to find it difficult to get to work. But so far, the public has expressed its gratitude to the students in letters to the Press. Only one or two people have objected that the students will drive too fast!",
+    "bodyText": "Busmen have decided to go on strike next week. The strike is due to begin on Tuesday. No one knows how long it will last. The busmen have stated that the strike will continue until general agreement is reached about pay and working conditions. Most people believe that the strike will last for at least a week.\nMany owners of private cars are going to offer 'free rides' to people on their way to work. This will relieve pressure on the trains to some extent.\nMeanwhile, a number of university students have volunteered to drive buses while the strike lasts. All the students are expert drivers, but before they drive any of the buses, they will have to pass a special test. The students are going to take the test in two days' time.\nEven so, people are going to find it difficult to get to work. But so far, the public has expressed its gratitude to the students in letters to the Press. Only one or two people have objected that the students will drive too fast!",
+    "bodyTextZh": "公交司机们已经决定下周举行罢工。罢工定于周二开始。没有人知道这种情况会持续多久。公交司机们表示，罢工将持续进行，直到就工资和工作条件达成全面共识为止。大多数人认为这次罢工至少会持续一周。\n许多私家车主打算为上班途中的人们提供“免费搭乘”服务。这将在一定程度上缓解火车的运行压力。\n与此同时，许多大学生志愿在罢工期间驾驶公交车。所有的学生都是驾驶技术高超的驾驶员。但在他们驾驶任何一辆公交车之前，都必须通过一项特殊的测试。学生们将在两天后参加考试。\n即便如此，人们仍然会发现上班变得很困难。不过到目前为止，公众已经通过致信媒体的方式表达了对学生的感激之情。只有寥寥一两个人提出反对意见，认为学生们开车时可能会太快！"
+  },
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/b966379d71efcffaddb0724d532df4a0df010a15520a13c3445bddd2f5fd6d09.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "7df0b28e42b03a25ad6cf4b85bdb8a83043ae9128927b2c96ef426a9abdf9d54"
+    }
+  ]
+}

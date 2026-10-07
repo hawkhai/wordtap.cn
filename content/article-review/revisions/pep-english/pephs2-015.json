@@ -70,24 +70,45 @@
   },
   "sources": [
     {
-      "path": "content/pep-english/raw/senior-selective-2.pdf",
-      "locator": "PDF第71-71页，标题与完整正文逐行核对",
+      "path": "content/article-review/history/730c051059a7ba896e5bc2ae908e63d00566d13bce6cbfdc2352ff81b2ab16f5.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
       "checked": true,
-      "sha256": "cafaee5fe508dfced31ba02877251ffeb01e98b1a48767fe30b2b7187edb0050"
-    },
-    {
-      "path": "content/pep-english/raw/senior-selective-2/senior-selective-2_71.jpg",
-      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
-      "checked": true,
-      "sha256": "080ea5473fb9858d7766a339f71ad8ae72c899660f58be1010fcccb52a6ec922"
+      "sha256": "79cab9e5764bd090bc4e522d0a683bb36ab40fc5f8e6fb2ac4fa9afd6aa0f6ad"
     }
   ],
   "corrections": [],
   "fullReadConfirmed": true,
   "recheckConfirmed": true,
   "reviewer": "Codex",
-  "reviewedAt": "2026-10-02T06:46:10+00:00",
-  "notes": "通读五段并对照PDF71页原图，AI定义、能力讨论、应用例子及结尾设问完整；保留教材成文时的研究进展和未来预测，不用今天的产品状态改写历史语境。原文一致，无需修改。",
+  "reviewedAt": "2026-10-07T07:35:46+00:00",
+  "notes": "AI与人类五段为思考能力、恐惧、陪伴需求、应用、开放问题，保留完整论述段。",
   "issues": [],
-  "status": "passed_unchanged"
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "dc80787930804a87684fc41f136bb8ea44954d854cdfb8f5b37e772e9c6de5b3",
+    "afterFileSha256": "dc80787930804a87684fc41f136bb8ea44954d854cdfb8f5b37e772e9c6de5b3",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "dc80787930804a87684fc41f136bb8ea44954d854cdfb8f5b37e772e9c6de5b3",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..4] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "AI与人类五段为思考能力、恐惧、陪伴需求、应用、开放问题，保留完整论述段。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/730c051059a7ba896e5bc2ae908e63d00566d13bce6cbfdc2352ff81b2ab16f5.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "79cab9e5764bd090bc4e522d0a683bb36ab40fc5f8e6fb2ac4fa9afd6aa0f6ad"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "730c051059a7ba896e5bc2ae908e63d00566d13bce6cbfdc2352ff81b2ab16f5"
 }

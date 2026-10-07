@@ -60,24 +60,45 @@
   },
   "sources": [
     {
-      "path": "content/pep-english/raw/senior-required-2.pdf",
-      "locator": "PDF第85-85页，标题与完整正文逐行核对",
+      "path": "content/article-review/history/f17be9673d5080d34996a02f788b25ee3079ac5bbdf7244dcd16eefb9fd32398.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
       "checked": true,
-      "sha256": "33b74bf42b22b32fdbe3201e6f61cf8099be047ef0af8a1740f6013dee4a619d"
-    },
-    {
-      "path": "content/pep-english/raw/senior-required-2/senior-required-2_85.jpg",
-      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
-      "checked": true,
-      "sha256": "6c6d851ea4efa3f63a8ecb2a8ff337d011053e9496c517ae01d2e03f3882ed35"
+      "sha256": "24348bc92506e655fba9604446cb2557fbc4a517c4af7cef3b32397798f2aa42"
     }
   ],
   "corrections": [],
   "fullReadConfirmed": true,
   "recheckConfirmed": true,
   "reviewer": "Codex",
-  "reviewedAt": "2026-10-02T05:47:30+00:00",
-  "notes": "核对PDF第85页四段E-Learning，在线课程、新加坡八所学校、2011年起韩国课堂远程教师机器人及结尾均与原页逐句一致；保留当时技术讨论与预测语气。",
+  "reviewedAt": "2026-10-07T07:30:17+00:00",
+  "notes": "E-Learning课程概况、新加坡课堂、韩国远程机器人与总结四段各自完整，保留。",
   "issues": [],
-  "status": "passed_unchanged"
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "28fb34d0efe2b06d4c289a00c6ddcc82143b2482275ad225cf034b8cf856fe1d",
+    "afterFileSha256": "28fb34d0efe2b06d4c289a00c6ddcc82143b2482275ad225cf034b8cf856fe1d",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "28fb34d0efe2b06d4c289a00c6ddcc82143b2482275ad225cf034b8cf856fe1d",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..3] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "E-Learning课程概况、新加坡课堂、韩国远程机器人与总结四段各自完整，保留。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/f17be9673d5080d34996a02f788b25ee3079ac5bbdf7244dcd16eefb9fd32398.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "24348bc92506e655fba9604446cb2557fbc4a517c4af7cef3b32397798f2aa42"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "f17be9673d5080d34996a02f788b25ee3079ac5bbdf7244dcd16eefb9fd32398"
 }

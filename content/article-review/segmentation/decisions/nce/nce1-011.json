@@ -1,0 +1,26 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "cb5804e20bfda15798719b97307f7a9390a24eb7b661d1fd71b92a7759723407",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title/titleZh、question/questionZh、bodyText全部16行、bodyTextZh全部16行及sentences[0..19]的完整文字；重复正文与字幕文本逐字比对，非正文字幕另读。操作在内存应用并validate_layout_change，修复后的双语全文重新通读。",
+  "notes": "认领衬衫；老师问戴夫、戴夫解释颜色、蒂姆白衬衫的提示及交衣指令各自合段，Tim呼唤与回应分开。 text与bodyText同步；sentences对象及时间、角色、索引原样保留。",
+  "issues": [],
+  "display": {
+    "text": "Whose shirt is white?\n\nWhose shirt is that? Is this your shirt Dave?\nNo. Sir. It's not my shirt. This is my shirt. My shirt's blue.\nIs this shirt Tim's?\nPerhaps it is sir. Tim's shirt's white.\nTim!\nYes sir?\nIs this your shirt?\nYes sir.\nHere you are. Catch!\nThank you sir.",
+    "bodyText": "Whose shirt is that? Is this your shirt Dave?\nNo. Sir. It's not my shirt. This is my shirt. My shirt's blue.\nIs this shirt Tim's?\nPerhaps it is sir. Tim's shirt's white.\nTim!\nYes sir?\nIs this your shirt?\nYes sir.\nHere you are. Catch!\nThank you sir.",
+    "bodyTextZh": "那是谁的衬衫？这是你的衬衫吗，戴夫？\n不，先生。这不是我的衬衫。这是我的衬衫。我的衬衫是蓝色的。\n这是蒂姆的衬衫吗？\n也许是的，先生。蒂姆的衬衫是白色的。\n蒂姆！\n先生，什么事？\n这是你的衬衫吗？\n是的，先生。\n给你。接住！\n谢谢您，先生。"
+  },
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/d77d32b29a4feee60393329ab69517607bec337cf5c0406b116492d2de843175.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "3da95f7e60cfc798e44ea99661c89940c09fade2c6110c2d09f2b6b90f4eb1ef"
+    }
+  ]
+}

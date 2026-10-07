@@ -1,0 +1,21 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "aa5ebd26c3578b76a84e457a7778bdde886374edcac44ca72c8dae87fc12e268",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title；全文 blocks[0..0] 与对应 text；现有正文/对话/题干逐块通读复核。",
+  "notes": "希腊沉船文物简讯电头和发现抢救及引语连续成段，保留完整新闻短段。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/7245caf7f193bc0aa10d3b59aaa3a2c36710a82df65222ad50da88f8384736c4.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "9348b90bc132f82f71ecc48afdd12aa973aafc6eaefbd1d858f5260ec5166e32"
+    }
+  ]
+}

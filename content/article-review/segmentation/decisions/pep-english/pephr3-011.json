@@ -1,0 +1,21 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "25c11f3cd104a4323ecff9d20169153a0773ebeb82ba3156736fa019410409bf",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title；全文 blocks[0..4] 与对应 text；现有正文/对话/题干逐块通读复核。",
+  "notes": "旧金山日记按回城、Mission区、下午博物馆、晚餐和次日计划五段组织，保留多句见闻段。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/9906945bfe80b9640d4041677163413ff476a6136634f05c8f8001f282de5e81.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "ca1b7274503b1cffd52927ef5247c56021424fa962af822ddb60fd70a2cd5d1b"
+    }
+  ]
+}

@@ -3,7 +3,7 @@
   "course": "pep-english",
   "articleId": "pephr1-018",
   "beforeDisplaySha256": "bf19a8b87abb59d7dcbbaa88e880ae27562250a45660244dcd3b9739c349e3b7",
-  "afterDisplaySha256": "bf19a8b87abb59d7dcbbaa88e880ae27562250a45660244dcd3b9739c349e3b7",
+  "afterDisplaySha256": "305a35a4ae8d599c6d302e6b50f52a3229e0e60ce92e714690313be18dc40c1f",
   "baselineDisplay": {
     "title": "Why Study French?",
     "section": "Listening and Speaking",
@@ -24,30 +24,101 @@
       {
         "type": "paragraph",
         "lang": "en",
-        "text": "A: What language do you want to study?\nB: I really want to study French. I think that the French language sounds beautiful.\nA: Why? Do you want to go to France some day?\nB: Yes, I'd love to. Also, French is used by many international organisations around the world. Do you know that FIFA's full name is in French?\nA: Oh, I remember that. But I don't know how to pronounce it."
+        "text": "A: What language do you want to study?"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "B: I really want to study French. I think that the French language sounds beautiful."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "A: Why? Do you want to go to France some day?"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "B: Yes, I'd love to. Also, French is used by many international organisations around the world. Do you know that FIFA's full name is in French?"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "A: Oh, I remember that. But I don't know how to pronounce it."
       }
     ]
   },
   "sources": [
     {
-      "path": "content/pep-english/raw/senior-required-1.pdf",
-      "locator": "PDF第68-68页，标题与完整正文逐行核对",
+      "path": "content/article-review/history/12d25c0190ac5f6c51b1b565d3734d41afc850340a67dce3cad5976170e00778.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
       "checked": true,
-      "sha256": "ffe985a370964820aa003008f48c7cf17b5e0dff8eb29fe54cd4743b0c4e8c79"
-    },
-    {
-      "path": "content/pep-english/raw/senior-required-1/senior-required-1_68.jpg",
-      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
-      "checked": true,
-      "sha256": "345d0dd1752ac29d976c64145b5bf249eb425993f5798fd483ae70e616a4bae5"
+      "sha256": "222ea6984065e90b997e3ba417bae98c8b2510599a54ff650dc044b512c77699"
     }
   ],
   "corrections": [],
   "fullReadConfirmed": true,
   "recheckConfirmed": true,
   "reviewer": "Codex",
-  "reviewedAt": "2026-10-02T05:29:33+00:00",
-  "notes": "PDF第68页学习法语的A/B五轮示例对话逐句一致，包括international organisations及FIFA全名法语的说法。角色、句读和换行保留，无修改。",
+  "reviewedAt": "2026-10-07T07:30:11+00:00",
+  "notes": "学习法语的A/B问答五轮逐轮拆分，理由解释维持在同一发言内。",
   "issues": [],
-  "status": "passed_unchanged"
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "d871403d3742d0584a43e4d710159ec54f375048b084328eb9efda793e1bdae4",
+    "afterFileSha256": "3aec59403884fbbe7fb2b1c68a13bd716346bc6d6e92433bd85ad71434c7fc82",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "d871403d3742d0584a43e4d710159ec54f375048b084328eb9efda793e1bdae4",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..0] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "学习法语的A/B问答五轮逐轮拆分，理由解释维持在同一发言内。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [
+        {
+          "index": 0,
+          "before": [
+            "A: What language do you want to study?\nB: I really want to study French. I think that the French language sounds beautiful.\nA: Why? Do you want to go to France some day?\nB: Yes, I'd love to. Also, French is used by many international organisations around the world. Do you know that FIFA's full name is in French?\nA: Oh, I remember that. But I don't know how to pronounce it."
+          ],
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "A: What language do you want to study?"
+            },
+            {
+              "type": "paragraph",
+              "text": "B: I really want to study French. I think that the French language sounds beautiful."
+            },
+            {
+              "type": "paragraph",
+              "text": "A: Why? Do you want to go to France some day?"
+            },
+            {
+              "type": "paragraph",
+              "text": "B: Yes, I'd love to. Also, French is used by many international organisations around the world. Do you know that FIFA's full name is in French?"
+            },
+            {
+              "type": "paragraph",
+              "text": "A: Oh, I remember that. But I don't know how to pronounce it."
+            }
+          ],
+          "reason": "每行具有明确的发言人及完整轮次，分块保留各对话轮次。"
+        }
+      ],
+      "sources": [
+        {
+          "path": "content/article-review/history/12d25c0190ac5f6c51b1b565d3734d41afc850340a67dce3cad5976170e00778.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "222ea6984065e90b997e3ba417bae98c8b2510599a54ff650dc044b512c77699"
+        }
+      ]
+    }
+  },
+  "status": "passed_edited",
+  "previousRevisionSha256": "12d25c0190ac5f6c51b1b565d3734d41afc850340a67dce3cad5976170e00778"
 }

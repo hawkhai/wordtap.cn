@@ -1,0 +1,279 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "e2a42e3f8f8dd4cdcee6024c7231a59ff2c65a87d36d8a36181dae86f1ffc70f",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title；全文 blocks[0..205] 与对应 text；现有正文/对话/题干逐块通读复核。",
+  "notes": "通读The Westhaven Express词表、三组英汉正文、八条注释、19问答、四段误乘快车范文和12题答案。正文保留列车准点信念/上车观感/发现停运说明三段；范文上车、错过站、补票、返程四段。angirly和rain等原字符保留。",
+  "issues": [],
+  "mergeBlocks": [
+    {
+      "start": 28,
+      "end": 34,
+      "before": [
+        "We have learnt to expect that trains will be punctual. After years of conditioning,",
+        "most of us have developed an unshakable faith in railway timetables. Ships may be",
+        "delayed by storms; flights maybe cancelled because of bad weather; but trains must be",
+        "on time. Only an exceptionally heavy snowfall might temporarily dislocate railway",
+        "services. It is all too easy to blame the railway authorities when something does go",
+        "wrong. The truth is that when mistakes occur, they are more likely to be ours than",
+        "theirs."
+      ],
+      "text": "We have learnt to expect that trains will be punctual. After years of conditioning, most of us have developed an unshakable faith in railway timetables. Ships may be delayed by storms; flights maybe cancelled because of bad weather; but trains must be on time. Only an exceptionally heavy snowfall might temporarily dislocate railway services. It is all too easy to blame the railway authorities when something does go wrong. The truth is that when mistakes occur, they are more likely to be ours than theirs.",
+      "reason": "依英汉对应及语义续接恢复自然段、注释、问答与题干，保留各编号和四段范文。"
+    },
+    {
+      "start": 35,
+      "end": 39,
+      "before": [
+        "我们已经习惯于相信火车总是准点的。经过多年的适应，大多数人对火车时刻表",
+        "产生了一种不可动摇的信念。轮船船期可能因风暴而推延，飞机航班可能因恶劣",
+        "天气而取消，唯有火车必然是准点的。只有非同寻常的大雪才可能暂时打乱铁路",
+        "运行。因此，一旦铁路上真出了问题，人们便不加思索地责备铁路当局。事实上，",
+        "差错很可能是我们自己，而不是铁路当局的。"
+      ],
+      "text": "我们已经习惯于相信火车总是准点的。经过多年的适应，大多数人对火车时刻表产生了一种不可动摇的信念。轮船船期可能因风暴而推延，飞机航班可能因恶劣天气而取消，唯有火车必然是准点的。只有非同寻常的大雪才可能暂时打乱铁路运行。因此，一旦铁路上真出了问题，人们便不加思索地责备铁路当局。事实上，差错很可能是我们自己，而不是铁路当局的。",
+      "reason": "依英汉对应及语义续接恢复自然段、注释、问答与题干，保留各编号和四段范文。"
+    },
+    {
+      "start": 41,
+      "end": 42,
+      "before": [
+        "1 they are more likely to be ours than theirs，这些错误往往是我们而不是铁路当局",
+        "造成的。they 指 mistakes; ours, theirs 此处用斜体字表示强调，应该重读。"
+      ],
+      "text": "1 they are more likely to be ours than theirs，这些错误往往是我们而不是铁路当局造成的。they 指 mistakes; ours, theirs 此处用斜体字表示强调，应该重读。",
+      "reason": "依英汉对应及语义续接恢复自然段、注释、问答与题干，保留各编号和四段范文。"
+    },
+    {
+      "start": 43,
+      "end": 50,
+      "before": [
+        "After consulting my railway timetable, I noted with satisfaction that there was an",
+        "express train to Westhaven. It went direct from my local station and the journey lasted",
+        "a mere hour and seventeen minutes. When I boarded the train, I could not help",
+        "noticing that a great many local people got on as well. At the time, this did not strike",
+        "me as odd. I reflected that there must be a great many people besides myself who",
+        "wished to take advantage of this excellent service. Neither was I surprised when the",
+        "train stopped at Widley, a tiny station a few miles along the line. Even a mighty",
+        "express train can be held up by signals."
+      ],
+      "text": "After consulting my railway timetable, I noted with satisfaction that there was an express train to Westhaven. It went direct from my local station and the journey lasted a mere hour and seventeen minutes. When I boarded the train, I could not help noticing that a great many local people got on as well. At the time, this did not strike me as odd. I reflected that there must be a great many people besides myself who wished to take advantage of this excellent service. Neither was I surprised when the train stopped at Widley, a tiny station a few miles along the line. Even a mighty express train can be held up by signals.",
+      "reason": "依英汉对应及语义续接恢复自然段、注释、问答与题干，保留各编号和四段范文。"
+    },
+    {
+      "start": 51,
+      "end": 55,
+      "before": [
+        "我查看了列车时刻表，满意地了解到有一趟去威斯特海温的快车。这是趟直达车，",
+        "旅途总共才需 1 小时 17 分钟。上车后，我不禁注意到许多当地人也上了车。一",
+        "开始，我并不感到奇怪，我想除我之外，想利用快车之便的也一定大有人在。火",
+        "车开出几英里即在一个小站威德里停了下来。对此，我不觉得奇怪，因为即便是",
+        "特别快车也可能被信号拦住。"
+      ],
+      "text": "我查看了列车时刻表，满意地了解到有一趟去威斯特海温的快车。这是趟直达车，旅途总共才需 1 小时 17 分钟。上车后，我不禁注意到许多当地人也上了车。一开始，我并不感到奇怪，我想除我之外，想利用快车之便的也一定大有人在。火车开出几英里即在一个小站威德里停了下来。对此，我不觉得奇怪，因为即便是特别快车也可能被信号拦住。",
+      "reason": "依英汉对应及语义续接恢复自然段、注释、问答与题干，保留各编号和四段范文。"
+    },
+    {
+      "start": 57,
+      "end": 58,
+      "before": [
+        "2 I could not help noticing that…，我不禁注意到……，can't help doing 是“禁不",
+        "住……”的意思。"
+      ],
+      "text": "2 I could not help noticing that…，我不禁注意到……，can't help doing 是“禁不住……”的意思。",
+      "reason": "依英汉对应及语义续接恢复自然段、注释、问答与题干，保留各编号和四段范文。"
+    },
+    {
+      "start": 62,
+      "end": 71,
+      "before": [
+        "But when the train dawdled at station after station, I began to wonder. It suddenly",
+        "dawned on me that this express was not roaring down the line at ninety miles an hour,",
+        "but barely chugging along at thirty. One hour and seventeen minutes passed and we",
+        "had not even covered half the distance. I asked a passenger if this was the Westhaven",
+        "Express, but he had not even heard of it. I determined to lodge a complaint as soon as",
+        "we arrived. Two hours later, I was talking angirly to the station master at Westhaven.",
+        "When he denied the train's existence, I borrowed his copy of the timetable. There was",
+        "a note of triumph in my voice when I told him that it was there in black and white.",
+        "Glancing at it briefly, he told me to look again. A tiny asterisk conducted me to a",
+        "footnote at the bottom of the page. It said: ‘This service has been suspended.’"
+      ],
+      "text": "But when the train dawdled at station after station, I began to wonder. It suddenly dawned on me that this express was not roaring down the line at ninety miles an hour, but barely chugging along at thirty. One hour and seventeen minutes passed and we had not even covered half the distance. I asked a passenger if this was the Westhaven Express, but he had not even heard of it. I determined to lodge a complaint as soon as we arrived. Two hours later, I was talking angirly to the station master at Westhaven. When he denied the train's existence, I borrowed his copy of the timetable. There was a note of triumph in my voice when I told him that it was there in black and white. Glancing at it briefly, he told me to look again. A tiny asterisk conducted me to a footnote at the bottom of the page. It said: ‘This service has been suspended.’",
+      "reason": "依英汉对应及语义续接恢复自然段、注释、问答与题干，保留各编号和四段范文。"
+    },
+    {
+      "start": 72,
+      "end": 80,
+      "before": [
+        "但是，当火车一站接着一站往前蠕动时，我便产生了怀疑。我突然感到这趟快车",
+        "并没以时速 90 英里的速度呼啸前进，而是卟哧卟哧地向前爬行，时速仅 30 英里。",
+        "1 小时 17 分过去了，走了还不到一半路程。我问一位乘客，这是不是开往威斯",
+        "特海温的那趟快车，他说从未听说过有这么一趟快车。我决定一到目的地就给铁",
+        "路部门提意见。两小时后，我气呼呼地同威斯特海温站站长说起此事。他说根本",
+        "没有这趟车。于是我借了他本人的列车时刻表，我带着一种胜利者的调子告诉他",
+        "那趟车白纸黑字、明明白白印在时刻表上。他迅速地扫视了一眼，让我再看一遍。",
+        "一个小小的星形符号把我的目光引到了那页底部的一个说明上。上面写着：“此",
+        "趟列车暂停运行。”"
+      ],
+      "text": "但是，当火车一站接着一站往前蠕动时，我便产生了怀疑。我突然感到这趟快车并没以时速 90 英里的速度呼啸前进，而是卟哧卟哧地向前爬行，时速仅 30 英里。1 小时 17 分过去了，走了还不到一半路程。我问一位乘客，这是不是开往威斯特海温的那趟快车，他说从未听说过有这么一趟快车。我决定一到目的地就给铁路部门提意见。两小时后，我气呼呼地同威斯特海温站站长说起此事。他说根本没有这趟车。于是我借了他本人的列车时刻表，我带着一种胜利者的调子告诉他那趟车白纸黑字、明明白白印在时刻表上。他迅速地扫视了一眼，让我再看一遍。一个小小的星形符号把我的目光引到了那页底部的一个说明上。上面写着：“此趟列车暂停运行。”",
+      "reason": "依英汉对应及语义续接恢复自然段、注释、问答与题干，保留各编号和四段范文。"
+    },
+    {
+      "start": 92,
+      "end": 93,
+      "before": [
+        "6 What might temporarily dislocate railway services? (An exceptionally heavy",
+        "snowfall. or A very heavy fall of snow.)"
+      ],
+      "text": "6 What might temporarily dislocate railway services? (An exceptionally heavy snowfall. or A very heavy fall of snow.)",
+      "reason": "依英汉对应及语义续接恢复自然段、注释、问答与题干，保留各编号和四段范文。"
+    },
+    {
+      "start": 94,
+      "end": 95,
+      "before": [
+        "7 How did the writer know that there was an express train to Westhaven? (He",
+        "consulted his railway timetable.)"
+      ],
+      "text": "7 How did the writer know that there was an express train to Westhaven? (He consulted his railway timetable.)",
+      "reason": "依英汉对应及语义续接恢复自然段、注释、问答与题干，保留各编号和四段范文。"
+    },
+    {
+      "start": 102,
+      "end": 103,
+      "before": [
+        "14 Was the train roaring down the line at ninety miles an hour? (No, it wasn't. It was",
+        "chugging along at thirty [miles an hour]）"
+      ],
+      "text": "14 Was the train roaring down the line at ninety miles an hour? (No, it wasn't. It was chugging along at thirty [miles an hour]）",
+      "reason": "依英汉对应及语义续接恢复自然段、注释、问答与题干，保留各编号和四段范文。"
+    },
+    {
+      "start": 104,
+      "end": 105,
+      "before": [
+        "15 How far had they gone after an hour and seventeen minutes? (Not even half the",
+        "distance.)"
+      ],
+      "text": "15 How far had they gone after an hour and seventeen minutes? (Not even half the distance.)",
+      "reason": "依英汉对应及语义续接恢复自然段、注释、问答与题干，保留各编号和四段范文。"
+    },
+    {
+      "start": 109,
+      "end": 110,
+      "before": [
+        "19 Where did the writer find the train ‘in black and white’? (In the station master's",
+        "timetable.)"
+      ],
+      "text": "19 Where did the writer find the train ‘in black and white’? (In the station master's timetable.)",
+      "reason": "依英汉对应及语义续接恢复自然段、注释、问答与题干，保留各编号和四段范文。"
+    },
+    {
+      "start": 113,
+      "end": 116,
+      "before": [
+        "In not more than 250 words describe a journey by train. Though you wished to take a",
+        "slow train, you accidentally got on a fast one. Expand the ideas given below into a",
+        "plan and provide a suitable title. Your composition should not be more than four",
+        "paragraphs."
+      ],
+      "text": "In not more than 250 words describe a journey by train. Though you wished to take a slow train, you accidentally got on a fast one. Expand the ideas given below into a plan and provide a suitable title. Your composition should not be more than four paragraphs.",
+      "reason": "依英汉对应及语义续接恢复自然段、注释、问答与题干，保留各编号和四段范文。"
+    },
+    {
+      "start": 117,
+      "end": 121,
+      "before": [
+        "Ideas: Got on train ---expected it to stop---prepared to alight --- it went straight",
+        "on---very fast--- you asked passengers---learnt it was an express---ticket collector",
+        "came along---you explained situation---had to pay full fare---journey lasted two",
+        "hours---arrived miles away from destination ---no fast train back -had to board a slow",
+        "one!"
+      ],
+      "text": "Ideas: Got on train ---expected it to stop---prepared to alight --- it went straight on---very fast--- you asked passengers---learnt it was an express---ticket collector came along---you explained situation---had to pay full fare---journey lasted two hours---arrived miles away from destination ---no fast train back -had to board a slow one!",
+      "reason": "依英汉对应及语义续接恢复自然段、注释、问答与题干，保留各编号和四段范文。"
+    },
+    {
+      "start": 125,
+      "end": 127,
+      "before": [
+        "When I finally boarded the train, I was looking forward to a pleasant journey to",
+        "the village of Slowleigh where my friends live. I sat in my seat, got out book and was",
+        "already reading when the train started."
+      ],
+      "text": "When I finally boarded the train, I was looking forward to a pleasant journey to the village of Slowleigh where my friends live. I sat in my seat, got out book and was already reading when the train started.",
+      "reason": "依英汉对应及语义续接恢复自然段、注释、问答与题干，保留各编号和四段范文。"
+    },
+    {
+      "start": 128,
+      "end": 133,
+      "before": [
+        "According to the timetable, the train was due to arrive in Slowleigh at 4.30. I had",
+        "been so interested in my book that I had a shock when I looked at my watch. It was",
+        "almost 4.30. I closed my book and waited for the train to slow down. It didn't. In fact,",
+        "the train was going very fast and that was Slowleigh, wasn't it? The train went straight",
+        "on. I asked the other passengers why the train hadn't stopped and they told me it was",
+        "the express to the city. I didn't believe it."
+      ],
+      "text": "According to the timetable, the train was due to arrive in Slowleigh at 4.30. I had been so interested in my book that I had a shock when I looked at my watch. It was almost 4.30. I closed my book and waited for the train to slow down. It didn't. In fact, the train was going very fast and that was Slowleigh, wasn't it? The train went straight on. I asked the other passengers why the train hadn't stopped and they told me it was the express to the city. I didn't believe it.",
+      "reason": "依英汉对应及语义续接恢复自然段、注释、问答与题干，保留各编号和四段范文。"
+    },
+    {
+      "start": 134,
+      "end": 135,
+      "before": [
+        "Then the ticket collector came along. He looked at my ticket and I tried to explain,",
+        "but in the end I had to pay the full fare to the city."
+      ],
+      "text": "Then the ticket collector came along. He looked at my ticket and I tried to explain, but in the end I had to pay the full fare to the city.",
+      "reason": "依英汉对应及语义续接恢复自然段、注释、问答与题干，保留各编号和四段范文。"
+    },
+    {
+      "start": 136,
+      "end": 141,
+      "before": [
+        "By the time we arrived in the city it was six o'clock. The journey had lasted two",
+        "hours and I was miles away from my original destination. I rang my friends and said I",
+        "would get a fast train back. Then I checked the timetable: there was no fast rain back",
+        "to Slowleigh, only a slow one, at 7 o'clock. By the time I finally reached Slowleigh",
+        "Station, it was nine o'clock at night. My pleasant little train journey had taken 4.5",
+        "hours! (250 words)"
+      ],
+      "text": "By the time we arrived in the city it was six o'clock. The journey had lasted two hours and I was miles away from my original destination. I rang my friends and said I would get a fast train back. Then I checked the timetable: there was no fast rain back to Slowleigh, only a slow one, at 7 o'clock. By the time I finally reached Slowleigh Station, it was nine o'clock at night. My pleasant little train journey had taken 4.5 hours! (250 words)",
+      "reason": "依英汉对应及语义续接恢复自然段、注释、问答与题干，保留各编号和四段范文。"
+    },
+    {
+      "start": 148,
+      "end": 149,
+      "before": [
+        "2 At what point did the writer realize that the train was not travelling at the speed of",
+        "an express train?"
+      ],
+      "text": "2 At what point did the writer realize that the train was not travelling at the speed of an express train?",
+      "reason": "依英汉对应及语义续接恢复自然段、注释、问答与题干，保留各编号和四段范文。"
+    },
+    {
+      "start": 169,
+      "end": 170,
+      "before": [
+        "6 The express train went direct from my local station to Westhaven ________ a mere",
+        "hour and seventeen minutes."
+      ],
+      "text": "6 The express train went direct from my local station to Westhaven ________ a mere hour and seventeen minutes.",
+      "reason": "依英汉对应及语义续接恢复自然段、注释、问答与题干，保留各编号和四段范文。"
+    }
+  ],
+  "splitBlocks": [],
+  "blockEdits": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/5a6079b9f89708f3ec46dd2e19fa1a08f52f39c0ced88035cb8877dc70b7741f.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "001bf2dc1e208440b2adab61dfd9a46f09d4d058bb47b4f2134764828888d1b3"
+    }
+  ]
+}

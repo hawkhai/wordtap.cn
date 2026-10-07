@@ -1,0 +1,22 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "1fdf3736e49e07b7b5a7b4f3c9b499357ed8ba31fdd93028282b952bdff6dbfc",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title；全文 blocks[0..2] 与对应 text；现有正文/对话/题干逐块通读复核。",
+  "notes": "保护大象三段为泰国象征、能力、威胁和行动，保留完整自然段。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "blockEdits": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/86f897b06221cf1bb46cfd636280f99476bb3b8ef11bcec77cc717edd1afb376.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "36b9266f0d957f3b482fb0a25e4e960d818ecbb7007deac72a5e6a642f45f1fd"
+    }
+  ]
+}

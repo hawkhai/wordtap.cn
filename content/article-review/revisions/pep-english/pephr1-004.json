@@ -30,24 +30,45 @@
   },
   "sources": [
     {
-      "path": "content/pep-english/raw/senior-required-1.pdf",
-      "locator": "PDF第23-23页，标题与完整正文逐行核对",
+      "path": "content/article-review/history/6c1cd392e97f0413971d2a4db4a58b4e7e3adb0b398ec730882a4b4727d3ad2d.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
       "checked": true,
-      "sha256": "ffe985a370964820aa003008f48c7cf17b5e0dff8eb29fe54cd4743b0c4e8c79"
-    },
-    {
-      "path": "content/pep-english/raw/senior-required-1/senior-required-1_23.jpg",
-      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
-      "checked": true,
-      "sha256": "1110d18154a0a1a03f9a822dcfd4c3aaf98a6df573f43ee7a9181bfcfd4a8cf3"
+      "sha256": "daf358798ccd0be463ea2f11d61f79342db7e9495bbb2e762cc59829ad9be15b"
     }
   ],
   "corrections": [],
   "fullReadConfirmed": true,
   "recheckConfirmed": true,
   "reviewer": "Codex",
-  "reviewedAt": "2026-10-02T05:21:20+00:00",
-  "notes": "PDF第23页Joyce啦啦队选拔原稿全文一致，跳舞、唱歌、托举顺序及结尾保留；下方手写扩写示例为练习而非原稿续文，不混入正文。",
+  "reviewedAt": "2026-10-07T07:30:10+00:00",
+  "notes": "啦啦队选拔按First、Second、Finally连续叙事并以担心结果收束，完整单段保留。",
   "issues": [],
-  "status": "passed_unchanged"
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "7a8f066178e0f4f1fa443fb292b15f529f8272326a8a5e14f6fd75902e18b5ce",
+    "afterFileSha256": "7a8f066178e0f4f1fa443fb292b15f529f8272326a8a5e14f6fd75902e18b5ce",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "7a8f066178e0f4f1fa443fb292b15f529f8272326a8a5e14f6fd75902e18b5ce",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..0] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "啦啦队选拔按First、Second、Finally连续叙事并以担心结果收束，完整单段保留。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/6c1cd392e97f0413971d2a4db4a58b4e7e3adb0b398ec730882a4b4727d3ad2d.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "daf358798ccd0be463ea2f11d61f79342db7e9495bbb2e762cc59829ad9be15b"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "6c1cd392e97f0413971d2a4db4a58b4e7e3adb0b398ec730882a4b4727d3ad2d"
 }

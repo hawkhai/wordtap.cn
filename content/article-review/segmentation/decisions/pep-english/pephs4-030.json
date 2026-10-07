@@ -1,0 +1,22 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "692555d2103cada72a6dfcd810ccc1a728fb4b70018d643870f392fd22486158",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title；全文 blocks[0..4] 与对应 text；现有正文/对话/题干逐块通读复核。",
+  "notes": "Kiwi总介后按水果、人、鸟及保护展开，Fruit/People/Bird标签与各自完整说明同块且项目界限清楚，保留。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "blockEdits": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/49b259e093fbe74c5f382aa7be7376cbed283a81a07bba3dbbb6351c456c14c3.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "b349f508f9000f8b143c32cb3ea9443b26f92707d9b7f809f76e21ef6f601daf"
+    }
+  ]
+}

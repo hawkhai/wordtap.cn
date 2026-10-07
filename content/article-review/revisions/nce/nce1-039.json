@@ -2,84 +2,9 @@
   "schemaVersion": 1,
   "course": "nce",
   "articleId": "nce1-039",
-  "beforeDisplaySha256": "6e6fd2ab27ee2f01271e39476e66db0744716e95f350a152f10209147e2bab8b",
-  "afterDisplaySha256": "c03074cf737c9eccef589956e8d92a34c8467185b8bee11fcab1251360a65a22",
+  "beforeDisplaySha256": "c03074cf737c9eccef589956e8d92a34c8467185b8bee11fcab1251360a65a22",
+  "afterDisplaySha256": "9c71c0646d0624e691c63c875a8fbe6b565ef86ce9745f697e9e21602282c7e0",
   "baselineDisplay": {
-    "title": "Don't Drop It",
-    "titleZh": "别把它掉下来！",
-    "question": "Where does Sam put the vase in the end?",
-    "questionZh": "最后萨姆把花瓶放在了哪里？",
-    "text": "Where does Sam put the vase in the end?\n\nWhat are you going to do with that vase, Penny?\nI'm going to put it on this table, Sam.\nDon't do that.\nGive it to me.\nWhat are you going to do with it?\nI'm going to put it here, in front of the window.\nBe careful! Don't drop it!\nDon't put it there, Sam.\nPut it here, on this shelf.\nThere we are!\nIt's a lovely vase.\nThose flowers are lovely, too.",
-    "bodyText": "What are you going to do with that vase, Penny?\nI'm going to put it on this table, Sam.\nDon't do that.\nGive it to me.\nWhat are you going to do with it?\nI'm going to put it here, in front of the window.\nBe careful! Don't drop it!\nDon't put it there, Sam.\nPut it here, on this shelf.\nThere we are!\nIt's a lovely vase.\nThose flowers are lovely, too.",
-    "bodyTextZh": "佩妮，你打算怎么处理那个花瓶？\n我要把它放在这张桌子上，萨姆。\n别那么做。\n把它给我。\n你打算怎么处理它？\n“我要把它放在这里，窗子前面。”\n小心！别把它掉下来！\n“别放在那儿，萨姆。”\n把它放在这儿，这个架子上。\n好了，放好了！\n这是一个很漂亮的花瓶。\n那些花也很漂亮。",
-    "sentences": [
-      {
-        "en": "Lesson 39",
-        "zh": "第39课"
-      },
-      {
-        "en": "Don't drop it!",
-        "zh": "别把它掉下来！"
-      },
-      {
-        "en": "Listen to the tape then answer this question.",
-        "zh": "先听录音，然后回答这个问题："
-      },
-      {
-        "en": "Where does Sam put the vase in the end?",
-        "zh": "最后萨姆把花瓶放在了哪里？"
-      },
-      {
-        "en": "What are you going to do with that vase, Penny?",
-        "zh": "佩妮，你打算怎么处理那个花瓶？"
-      },
-      {
-        "en": "I'm going to put it on this table, Sam.",
-        "zh": "我要把它放在这张桌子上，萨姆。"
-      },
-      {
-        "en": "Don't do that.",
-        "zh": "别那么做。"
-      },
-      {
-        "en": "Give it to me.",
-        "zh": "把它给我。"
-      },
-      {
-        "en": "What are you going to do with it?",
-        "zh": "你打算怎么处理它？"
-      },
-      {
-        "en": "I'm going to put it here, in front of the window.",
-        "zh": "“我要把它放在这里，窗子前面。”"
-      },
-      {
-        "en": "Be careful! Don't drop it!",
-        "zh": "小心！别把它掉下来！"
-      },
-      {
-        "en": "Don't put it there, Sam.",
-        "zh": "“别放在那儿，萨姆。”"
-      },
-      {
-        "en": "Put it here, on this shelf.",
-        "zh": "把它放在这儿，这个架子上。"
-      },
-      {
-        "en": "There we are!",
-        "zh": "好了，放好了！"
-      },
-      {
-        "en": "It's a lovely vase.",
-        "zh": "这是一个很漂亮的花瓶。"
-      },
-      {
-        "en": "Those flowers are lovely, too.",
-        "zh": "那些花也很漂亮。"
-      }
-    ]
-  },
-  "display": {
     "title": "Don't Drop It",
     "titleZh": "别把它掉下来！",
     "question": "Where does Sam put the vase in the end?",
@@ -154,20 +79,127 @@
       }
     ]
   },
+  "display": {
+    "title": "Don't Drop It",
+    "titleZh": "别把它掉下来！",
+    "question": "Where does Sam put the vase in the end?",
+    "questionZh": "最后萨姆把花瓶放在了哪里？",
+    "text": "Where does Sam put the vase in the end?\n\nWhat are you going to do with that vase, Penny?\nI'm going to put it on this table, Sam.\nDon't do that. Give it to me.\nWhat are you going to do with it?\nI'm going to put it here, in front of the window.\nBe careful! Don't drop it! Don't put it there, Sam. Put it here, on this shelf.\nThere we are!\nIt's a lovely vase.\nThose flowers are lovely, too.",
+    "bodyText": "What are you going to do with that vase, Penny?\nI'm going to put it on this table, Sam.\nDon't do that. Give it to me.\nWhat are you going to do with it?\nI'm going to put it here, in front of the window.\nBe careful! Don't drop it! Don't put it there, Sam. Put it here, on this shelf.\nThere we are!\nIt's a lovely vase.\nThose flowers are lovely, too.",
+    "bodyTextZh": "佩妮，你打算怎么处理那个花瓶？\n我要把它放在这张桌子上，萨姆。\n别那么做。把它给我。\n你打算怎么处理它？\n“我要把它放在这里，窗子前面。”\n小心！别把它掉下来！“别放在那儿，萨姆。”把它放在这儿，这个架子上。\n好了，放好了！\n这是一个很漂亮的花瓶。\n那些花也很漂亮。",
+    "sentences": [
+      {
+        "en": "Lesson 39",
+        "zh": "第 39 课"
+      },
+      {
+        "en": "Don't drop it!",
+        "zh": "别把它掉下来！"
+      },
+      {
+        "en": "Listen to the tape then answer this question.",
+        "zh": "先听录音，然后回答这个问题："
+      },
+      {
+        "en": "Where does Sam put the vase in the end?",
+        "zh": "最后萨姆把花瓶放在了哪里？"
+      },
+      {
+        "en": "What are you going to do with that vase, Penny?",
+        "zh": "佩妮，你打算怎么处理那个花瓶？"
+      },
+      {
+        "en": "I'm going to put it on this table, Sam.",
+        "zh": "我要把它放在这张桌子上，萨姆。"
+      },
+      {
+        "en": "Don't do that.",
+        "zh": "别那么做。"
+      },
+      {
+        "en": "Give it to me.",
+        "zh": "把它给我。"
+      },
+      {
+        "en": "What are you going to do with it?",
+        "zh": "你打算怎么处理它？"
+      },
+      {
+        "en": "I'm going to put it here, in front of the window.",
+        "zh": "“我要把它放在这里，窗子前面。”"
+      },
+      {
+        "en": "Be careful! Don't drop it!",
+        "zh": "小心！别把它掉下来！"
+      },
+      {
+        "en": "Don't put it there, Sam.",
+        "zh": "“别放在那儿，萨姆。”"
+      },
+      {
+        "en": "Put it here, on this shelf.",
+        "zh": "把它放在这儿，这个架子上。"
+      },
+      {
+        "en": "There we are!",
+        "zh": "好了，放好了！"
+      },
+      {
+        "en": "It's a lovely vase.",
+        "zh": "这是一个很漂亮的花瓶。"
+      },
+      {
+        "en": "Those flowers are lovely, too.",
+        "zh": "那些花也很漂亮。"
+      }
+    ]
+  },
   "sources": [
     {
-      "path": "content/NCE-Flow/NCE1/039&040－Don't Drop It.lrc",
-      "locator": "完整LRC元数据、标题、提问及全部中英文逐句字幕和时间戳",
+      "path": "content/article-review/history/7b5932fafccf62377cffbc7479e53f38a147e325e1407fdddb348bc5c34b4523.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
       "checked": true,
-      "sha256": "5b028919803e988ba03a6f88f5db770bab30e4278dfee3ea0c0ce65741cbb863"
+      "sha256": "083ce4705e2234a48b10b8840ace03f2092fcb25128554935bf0776fc4d46fcf"
     }
   ],
   "corrections": [],
   "fullReadConfirmed": true,
   "recheckConfirmed": true,
   "reviewer": "Codex",
-  "reviewedAt": "2026-10-02T02:25:20+00:00",
-  "notes": "通读12句摆花瓶对话和提问中译；区分初拟桌子、窗前与最终架子的位置，保留小心与别摔两个祈使句同一时间段及译文引号。核对Sam/Penny及花与花瓶的指代，只调整课号空格。",
+  "reviewedAt": "2026-10-07T07:39:39+00:00",
+  "notes": "搬花瓶；Sam阻止与索要合轮，Penny小心别掉及改放架子的连续指示合轮；末尾花瓶与花的评价保留各行。 text与bodyText同步；sentences对象及时间、角色、索引原样保留。",
   "issues": [],
-  "status": "passed_edited"
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "8ea00833a0f1a7808590c3cd6b178ea321197aa3962e5d36d424213db04a8650",
+    "afterFileSha256": "405a058c97bc64eb828dbc37837b2435b5ac1c0beabbd94012848b3fa4c91feb",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "8ea00833a0f1a7808590c3cd6b178ea321197aa3962e5d36d424213db04a8650",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title/titleZh、question/questionZh、bodyText全部12行、bodyTextZh全部12行及sentences[0..15]的完整文字；重复正文与字幕文本逐字比对，非正文字幕另读。操作在内存应用并validate_layout_change，修复后的双语全文重新通读。",
+      "notes": "搬花瓶；Sam阻止与索要合轮，Penny小心别掉及改放架子的连续指示合轮；末尾花瓶与花的评价保留各行。 text与bodyText同步；sentences对象及时间、角色、索引原样保留。",
+      "issues": [],
+      "display": {
+        "text": "Where does Sam put the vase in the end?\n\nWhat are you going to do with that vase, Penny?\nI'm going to put it on this table, Sam.\nDon't do that. Give it to me.\nWhat are you going to do with it?\nI'm going to put it here, in front of the window.\nBe careful! Don't drop it! Don't put it there, Sam. Put it here, on this shelf.\nThere we are!\nIt's a lovely vase.\nThose flowers are lovely, too.",
+        "bodyText": "What are you going to do with that vase, Penny?\nI'm going to put it on this table, Sam.\nDon't do that. Give it to me.\nWhat are you going to do with it?\nI'm going to put it here, in front of the window.\nBe careful! Don't drop it! Don't put it there, Sam. Put it here, on this shelf.\nThere we are!\nIt's a lovely vase.\nThose flowers are lovely, too.",
+        "bodyTextZh": "佩妮，你打算怎么处理那个花瓶？\n我要把它放在这张桌子上，萨姆。\n别那么做。把它给我。\n你打算怎么处理它？\n“我要把它放在这里，窗子前面。”\n小心！别把它掉下来！“别放在那儿，萨姆。”把它放在这儿，这个架子上。\n好了，放好了！\n这是一个很漂亮的花瓶。\n那些花也很漂亮。"
+      },
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/7b5932fafccf62377cffbc7479e53f38a147e325e1407fdddb348bc5c34b4523.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "083ce4705e2234a48b10b8840ace03f2092fcb25128554935bf0776fc4d46fcf"
+        }
+      ]
+    }
+  },
+  "status": "passed_edited",
+  "previousRevisionSha256": "7b5932fafccf62377cffbc7479e53f38a147e325e1407fdddb348bc5c34b4523"
 }

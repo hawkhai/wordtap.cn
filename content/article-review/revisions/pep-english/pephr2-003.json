@@ -30,24 +30,45 @@
   },
   "sources": [
     {
-      "path": "content/pep-english/raw/senior-required-2.pdf",
-      "locator": "PDF第27-27页，标题与完整正文逐行核对",
+      "path": "content/article-review/history/ce62125a63a3ebde1ec6bf0225022498c27c2f6065d06fb973baa7a4b0599e90.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
       "checked": true,
-      "sha256": "33b74bf42b22b32fdbe3201e6f61cf8099be047ef0af8a1740f6013dee4a619d"
-    },
-    {
-      "path": "content/pep-english/raw/senior-required-2/senior-required-2_27.jpg",
-      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
-      "checked": true,
-      "sha256": "829179f9481d865dfb5eb2bbc6f98c94e5227ec1b2d1242d7a3ed5e0853161f3"
+      "sha256": "490121bdfe2ce4a53e8c128763ff167794a4c7d55e8da7631bca52995174451d"
     }
   ],
   "corrections": [],
   "fullReadConfirmed": true,
   "recheckConfirmed": true,
   "reviewer": "Codex",
-  "reviewedAt": "2026-10-02T05:38:20+00:00",
-  "notes": "PDF第27页左侧Give Ugly a Chance海报标题和正文完整一致，破折号插入语及最后give ugly a chance保持，无修改。",
+  "reviewedAt": "2026-10-07T07:30:14+00:00",
+  "notes": "Give Ugly a Chance海报从平等保护到物种多样性和呼吁构成完整短段，保留。",
   "issues": [],
-  "status": "passed_unchanged"
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "75de41922e14295fe8fa297f2d1ab58dad7eed1e93f2864ac02c65e7d0a0a59e",
+    "afterFileSha256": "75de41922e14295fe8fa297f2d1ab58dad7eed1e93f2864ac02c65e7d0a0a59e",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "75de41922e14295fe8fa297f2d1ab58dad7eed1e93f2864ac02c65e7d0a0a59e",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..0] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "Give Ugly a Chance海报从平等保护到物种多样性和呼吁构成完整短段，保留。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/ce62125a63a3ebde1ec6bf0225022498c27c2f6065d06fb973baa7a4b0599e90.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "490121bdfe2ce4a53e8c128763ff167794a4c7d55e8da7631bca52995174451d"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "ce62125a63a3ebde1ec6bf0225022498c27c2f6065d06fb973baa7a4b0599e90"
 }

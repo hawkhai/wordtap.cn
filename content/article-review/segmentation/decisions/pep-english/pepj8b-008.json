@@ -1,0 +1,22 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "23b2a156c7e85fd0875ffa77c90d9df922a774af25d23c20c4df470b169fe9db",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title；全文 blocks[0..3] 与对应 text；现有正文/对话/题干逐块通读复核。",
+  "notes": "暴风雨四段按预兆、准备、风暴中、雨后互助推进，末段事件和主题感悟连贯保留。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "blockEdits": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/185161a477b186e549b34685e345cfd396d8d672d47408131eb5922de2f7ae4f.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "0609a307801849c54464cdd0e3e7bfb19f09e2a1db91a3af339669efd6b57bb9"
+    }
+  ]
+}

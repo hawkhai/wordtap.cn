@@ -80,24 +80,45 @@
   },
   "sources": [
     {
-      "path": "content/pep-english/raw/senior-required-3.pdf",
-      "locator": "PDF第39-39页，标题与完整正文逐行核对",
+      "path": "content/article-review/history/d90fe974cfc316afd8d58272767474d6bd5df0ca18d140a9a1ed85f7fb4e85a8.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
       "checked": true,
-      "sha256": "fe9c8e15e62f4aec56efc60b8de43f4a55d40f3114d6505affaef78a8b7a1af2"
-    },
-    {
-      "path": "content/pep-english/raw/senior-required-3/senior-required-3_39.jpg",
-      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
-      "checked": true,
-      "sha256": "9a9e3a229e80bd45a52552538676cbbb4739a2d511e549528a89f4177428f19f"
+      "sha256": "e1c3866df4fbb4917b1062d5f98f28d4c76dbdd1e52f1fdd402f38e6be946ffc"
     }
   ],
   "corrections": [],
   "fullReadConfirmed": true,
   "recheckConfirmed": true,
   "reviewer": "Codex",
-  "reviewedAt": "2026-10-02T05:56:51+00:00",
-  "notes": "逐行核对PDF第39页六段唐人街介绍，Dragon Gate、Tin How Temple、Bank of Canton、Portsmouth Square及商店美食段均完整；保留教材旅游介绍口吻和原段落。",
+  "reviewedAt": "2026-10-07T07:30:20+00:00",
+  "notes": "唐人街介绍六段分别总览、历史人口、建筑景点、购物、中餐、文化价值，边界完整。",
   "issues": [],
-  "status": "passed_unchanged"
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "9c959c63a3c1c5fd3e9bac74215d4ab00b1e55fd773a65aac218e01af8c43218",
+    "afterFileSha256": "9c959c63a3c1c5fd3e9bac74215d4ab00b1e55fd773a65aac218e01af8c43218",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "9c959c63a3c1c5fd3e9bac74215d4ab00b1e55fd773a65aac218e01af8c43218",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..5] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "唐人街介绍六段分别总览、历史人口、建筑景点、购物、中餐、文化价值，边界完整。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/d90fe974cfc316afd8d58272767474d6bd5df0ca18d140a9a1ed85f7fb4e85a8.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "e1c3866df4fbb4917b1062d5f98f28d4c76dbdd1e52f1fdd402f38e6be946ffc"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "d90fe974cfc316afd8d58272767474d6bd5df0ca18d140a9a1ed85f7fb4e85a8"
 }

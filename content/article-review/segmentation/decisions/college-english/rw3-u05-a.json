@@ -1,0 +1,21 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "1ba7732650be7583c522bf707c8ee2900d5a7058bd7ac5fc5210f7f491591670",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "完整 title、blocks[0..11]及完全相同的text；正文及内嵌中文、引语、对话和列举均已逐项通读；无改动输出按全文再次复核。",
+  "notes": "全文及未改动输出复核：神舟十二里程碑、选拔、杨利伟、任务成就、训练、课程、体能、险情、宇宙感受、奖章、青年激励和未来十二段；任务引语没有续行断裂。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/6b3571b8103b2b3a0c14480e593b9e854304b7d6fdbae5786914c8539955fb74.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "fcc48116692d79c73771c97eee2150b4477f06ece64bef4c1f8e92a379761a59"
+    }
+  ]
+}

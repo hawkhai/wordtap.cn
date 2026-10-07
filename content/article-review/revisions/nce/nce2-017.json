@@ -2,64 +2,9 @@
   "schemaVersion": 1,
   "course": "nce",
   "articleId": "nce2-017",
-  "beforeDisplaySha256": "2c2358557a504fddfc6ae483f014b32d591fab8ca597d34d4bcf3bd7da8ca820",
-  "afterDisplaySha256": "2d01a9d9fafe99b5c1e1d52966473e344c1323b62d2a4e1c97bef0b432b36ee5",
+  "beforeDisplaySha256": "2d01a9d9fafe99b5c1e1d52966473e344c1323b62d2a4e1c97bef0b432b36ee5",
+  "afterDisplaySha256": "befcbc918d40f1fcd9fc583ccaa3550009ad62fb3098df6ddf0970f242be84ab",
   "baselineDisplay": {
-    "title": "Always Young",
-    "titleZh": "青春常驻",
-    "question": "Why doesn't Aunt Jennifer tell anyone how old she is?",
-    "questionZh": "为什么詹妮弗阿姨从不告诉别人她的真实年龄呢？",
-    "text": "Why doesn't Aunt Jennifer tell anyone how old she is?\n\nMy aunt Jennifer is an actress.\nShe must be at least thirty-five years old.\nIn spite of this, she often appears on the stage as a young girl.\nJennifer will have to take part in a new play soon.\nThis time, she will be a girl of seventeen.\nIn the play, she must appear in a bright red dress and long black stockings.\nLast year in another play, she had to wear short socks and a bright, orange-coloured dress.\nIf anyone ever asks her how old she is, she always answers, 'Darling, it must be terrible to be grown up!'",
-    "bodyText": "My aunt Jennifer is an actress.\nShe must be at least thirty-five years old.\nIn spite of this, she often appears on the stage as a young girl.\nJennifer will have to take part in a new play soon.\nThis time, she will be a girl of seventeen.\nIn the play, she must appear in a bright red dress and long black stockings.\nLast year in another play, she had to wear short socks and a bright, orange-coloured dress.\nIf anyone ever asks her how old she is, she always answers, 'Darling, it must be terrible to be grown up!'",
-    "bodyTextZh": "我的阿姨詹妮弗是一名演员。\n她至少有三十五岁了。\n尽管如此，她仍然经常以年轻女孩的形象出现在舞台上。\n詹妮弗很快将出演一部新剧。\n这一次，她将是一个十七岁的女孩。\n在剧中，她必须穿着鲜红色的连衣裙和黑色长筒袜出场。\n去年，在另一部戏剧中……她不得不穿短袜和一条鲜艳的橙色连衣裙。\n如果有人问她多大了，她总是回答：“亲爱的，长大一定很可怕吧！”",
-    "sentences": [
-      {
-        "en": "Lesson 17",
-        "zh": "第17课"
-      },
-      {
-        "en": "Always Young",
-        "zh": "青春常驻"
-      },
-      {
-        "en": "Why doesn't Aunt Jennifer tell anyone how old she is?",
-        "zh": "为什么詹妮弗阿姨从不告诉别人她的真实年龄呢？"
-      },
-      {
-        "en": "My aunt Jennifer is an actress.",
-        "zh": "我的阿姨詹妮弗是一名演员。"
-      },
-      {
-        "en": "She must be at least thirty-five years old.",
-        "zh": "她至少有三十五岁了。"
-      },
-      {
-        "en": "In spite of this, she often appears on the stage as a young girl.",
-        "zh": "尽管如此，她仍然经常以年轻女孩的形象出现在舞台上。"
-      },
-      {
-        "en": "Jennifer will have to take part in a new play soon.",
-        "zh": "詹妮弗很快将出演一部新剧。"
-      },
-      {
-        "en": "This time, she will be a girl of seventeen.",
-        "zh": "这一次，她将是一个十七岁的女孩。"
-      },
-      {
-        "en": "In the play, she must appear in a bright red dress and long black stockings.",
-        "zh": "在剧中，她必须穿着鲜红色的连衣裙和黑色长筒袜出场。"
-      },
-      {
-        "en": "Last year in another play, she had to wear short socks and a bright, orange-coloured dress.",
-        "zh": "去年，在另一部戏剧中……她不得不穿短袜和一条鲜艳的橙色连衣裙。"
-      },
-      {
-        "en": "If anyone ever asks her how old she is, she always answers, 'Darling, it must be terrible to be grown up!'",
-        "zh": "如果有人问她多大了，她总是回答：“亲爱的，长大一定很可怕吧！”"
-      }
-    ]
-  },
-  "display": {
     "title": "Always Young",
     "titleZh": "青春常驻",
     "question": "Why doesn't Aunt Jennifer tell anyone how old she is?",
@@ -114,20 +59,107 @@
       }
     ]
   },
+  "display": {
+    "title": "Always Young",
+    "titleZh": "青春常驻",
+    "question": "Why doesn't Aunt Jennifer tell anyone how old she is?",
+    "questionZh": "为什么詹妮弗阿姨从不告诉别人她的真实年龄呢？",
+    "text": "Why doesn't Aunt Jennifer tell anyone how old she is?\n\nMy aunt Jennifer is an actress. She must be at least thirty-five years old. In spite of this, she often appears on the stage as a young girl.\nJennifer will have to take part in a new play soon. This time, she will be a girl of seventeen. In the play, she must appear in a bright red dress and long black stockings. Last year in another play, she had to wear short socks and a bright, orange-coloured dress.\nIf anyone ever asks her how old she is, she always answers, 'Darling, it must be terrible to be grown up!'",
+    "bodyText": "My aunt Jennifer is an actress. She must be at least thirty-five years old. In spite of this, she often appears on the stage as a young girl.\nJennifer will have to take part in a new play soon. This time, she will be a girl of seventeen. In the play, she must appear in a bright red dress and long black stockings. Last year in another play, she had to wear short socks and a bright, orange-coloured dress.\nIf anyone ever asks her how old she is, she always answers, 'Darling, it must be terrible to be grown up!'",
+    "bodyTextZh": "我的阿姨詹妮弗是一名演员。她至少有三十五岁了。尽管如此，她仍然经常以年轻女孩的形象出现在舞台上。\n詹妮弗很快将出演一部新剧。这一次，她将是一个十七岁的女孩。在剧中，她必须穿着鲜红色的连衣裙和黑色长筒袜出场。去年，在另一部戏剧中……她不得不穿短袜和一条鲜艳的橙色连衣裙。\n如果有人问她多大了，她总是回答：“亲爱的，长大一定很可怕吧！”",
+    "sentences": [
+      {
+        "en": "Lesson 17",
+        "zh": "第 17 课"
+      },
+      {
+        "en": "Always Young",
+        "zh": "青春常驻"
+      },
+      {
+        "en": "Why doesn't Aunt Jennifer tell anyone how old she is?",
+        "zh": "为什么詹妮弗阿姨从不告诉别人她的真实年龄呢？"
+      },
+      {
+        "en": "My aunt Jennifer is an actress.",
+        "zh": "我的阿姨詹妮弗是一名演员。"
+      },
+      {
+        "en": "She must be at least thirty-five years old.",
+        "zh": "她至少有三十五岁了。"
+      },
+      {
+        "en": "In spite of this, she often appears on the stage as a young girl.",
+        "zh": "尽管如此，她仍然经常以年轻女孩的形象出现在舞台上。"
+      },
+      {
+        "en": "Jennifer will have to take part in a new play soon.",
+        "zh": "詹妮弗很快将出演一部新剧。"
+      },
+      {
+        "en": "This time, she will be a girl of seventeen.",
+        "zh": "这一次，她将是一个十七岁的女孩。"
+      },
+      {
+        "en": "In the play, she must appear in a bright red dress and long black stockings.",
+        "zh": "在剧中，她必须穿着鲜红色的连衣裙和黑色长筒袜出场。"
+      },
+      {
+        "en": "Last year in another play, she had to wear short socks and a bright, orange-coloured dress.",
+        "zh": "去年，在另一部戏剧中……她不得不穿短袜和一条鲜艳的橙色连衣裙。"
+      },
+      {
+        "en": "If anyone ever asks her how old she is, she always answers, 'Darling, it must be terrible to be grown up!'",
+        "zh": "如果有人问她多大了，她总是回答：“亲爱的，长大一定很可怕吧！”"
+      }
+    ]
+  },
   "sources": [
     {
-      "path": "content/NCE-Flow/NCE2/17－Always Young.lrc",
-      "locator": "完整LRC元数据、标题、提问及全部中英文逐句字幕和时间戳",
+      "path": "content/article-review/history/1ba69d461bf17acfa818c319ce5e7772de6261235d1ce2306ba3eef9f924b598.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
       "checked": true,
-      "sha256": "e3990c51dae15f8bc62b56f8136109404de93430b1cdd5045ceca7acf7677af0"
+      "sha256": "e605c84b47ba3ddfb5f23f5a07bfd1ee68c951e651857b3f0ecea6b5565a2864"
     }
   ],
   "corrections": [],
   "fullReadConfirmed": true,
   "recheckConfirmed": true,
   "reviewer": "Codex",
-  "reviewedAt": "2026-10-02T02:57:12+00:00",
-  "notes": "通读Jennifer扮演少女的故事，核对至少三十五岁、十七岁角色、红裙黑长袜和去年橙裙短袜；保留thirty-five和orange-coloured连字符及末句引语，课号整理空格。",
+  "reviewedAt": "2026-10-07T07:50:51+00:00",
+  "notes": "姑妈扮少女；年龄和舞台形象概述、新旧戏服对比两个自然段，拒报年龄引语作为结尾独立。 text与bodyText同步；sentences对象及时间、角色、索引原样保留。",
   "issues": [],
-  "status": "passed_edited"
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "55a504ac6c49d8fd10f43f824a12620ca1a4dd7153d5d7a6ecc7da11944eab61",
+    "afterFileSha256": "ab7e5699b985154e491220710dd6a9757fc9592ba9d84b9dc917e0d3590c11c8",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "55a504ac6c49d8fd10f43f824a12620ca1a4dd7153d5d7a6ecc7da11944eab61",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title/titleZh、question/questionZh、bodyText全部8行、bodyTextZh全部8行及sentences[0..10]的完整文字；重复正文与字幕文本逐字比对，非正文字幕另读。操作在内存应用并validate_layout_change，修复后的双语全文重新通读。",
+      "notes": "姑妈扮少女；年龄和舞台形象概述、新旧戏服对比两个自然段，拒报年龄引语作为结尾独立。 text与bodyText同步；sentences对象及时间、角色、索引原样保留。",
+      "issues": [],
+      "display": {
+        "text": "Why doesn't Aunt Jennifer tell anyone how old she is?\n\nMy aunt Jennifer is an actress. She must be at least thirty-five years old. In spite of this, she often appears on the stage as a young girl.\nJennifer will have to take part in a new play soon. This time, she will be a girl of seventeen. In the play, she must appear in a bright red dress and long black stockings. Last year in another play, she had to wear short socks and a bright, orange-coloured dress.\nIf anyone ever asks her how old she is, she always answers, 'Darling, it must be terrible to be grown up!'",
+        "bodyText": "My aunt Jennifer is an actress. She must be at least thirty-five years old. In spite of this, she often appears on the stage as a young girl.\nJennifer will have to take part in a new play soon. This time, she will be a girl of seventeen. In the play, she must appear in a bright red dress and long black stockings. Last year in another play, she had to wear short socks and a bright, orange-coloured dress.\nIf anyone ever asks her how old she is, she always answers, 'Darling, it must be terrible to be grown up!'",
+        "bodyTextZh": "我的阿姨詹妮弗是一名演员。她至少有三十五岁了。尽管如此，她仍然经常以年轻女孩的形象出现在舞台上。\n詹妮弗很快将出演一部新剧。这一次，她将是一个十七岁的女孩。在剧中，她必须穿着鲜红色的连衣裙和黑色长筒袜出场。去年，在另一部戏剧中……她不得不穿短袜和一条鲜艳的橙色连衣裙。\n如果有人问她多大了，她总是回答：“亲爱的，长大一定很可怕吧！”"
+      },
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/1ba69d461bf17acfa818c319ce5e7772de6261235d1ce2306ba3eef9f924b598.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "e605c84b47ba3ddfb5f23f5a07bfd1ee68c951e651857b3f0ecea6b5565a2864"
+        }
+      ]
+    }
+  },
+  "status": "passed_edited",
+  "previousRevisionSha256": "1ba69d461bf17acfa818c319ce5e7772de6261235d1ce2306ba3eef9f924b598"
 }

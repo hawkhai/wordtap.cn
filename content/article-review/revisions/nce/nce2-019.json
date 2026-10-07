@@ -2,92 +2,9 @@
   "schemaVersion": 1,
   "course": "nce",
   "articleId": "nce2-019",
-  "beforeDisplaySha256": "d616b33c5311017d59f31074accc596328f9c69424eaa2586f17e82eed38a9e7",
-  "afterDisplaySha256": "64d3faf8e4d71c2cc628827ea7781f62b5633f88c174c18287519c00a94866f1",
+  "beforeDisplaySha256": "64d3faf8e4d71c2cc628827ea7781f62b5633f88c174c18287519c00a94866f1",
+  "afterDisplaySha256": "5e8c3ac7625afa760f2ab4201f558f23d9bc490b3ac748352caeecabba9980f8",
   "baselineDisplay": {
-    "title": "Sold Out",
-    "titleZh": "票已售完",
-    "question": "When will the writer see the play?",
-    "questionZh": "作者什么时候能看到这部剧呢？",
-    "text": "When will the writer see the play?\n\n'The play may begin at any moment,' I said.\n'It may have begun already,' Susan answered.\nI hurried to the ticket office.\n'May I have two tickets please?' I asked.\n'I'm sorry, we've sold out,' the girl said.\n'What a pity!' Susan exclaimed.\nJust then, a man hurried to the ticket office.\n'Can I return these two tickets?' he asked.\n'Certainly,' the girl said.\nI went back to the ticket office at once.\n'Could I have those two tickets please?' I asked.\n'Certainly,' the girl said,\n'but they're for next Wednesday's performance.\nDo you still want them?'\n'I might as well have them,' I said sadly.",
-    "bodyText": "'The play may begin at any moment,' I said.\n'It may have begun already,' Susan answered.\nI hurried to the ticket office.\n'May I have two tickets please?' I asked.\n'I'm sorry, we've sold out,' the girl said.\n'What a pity!' Susan exclaimed.\nJust then, a man hurried to the ticket office.\n'Can I return these two tickets?' he asked.\n'Certainly,' the girl said.\nI went back to the ticket office at once.\n'Could I have those two tickets please?' I asked.\n'Certainly,' the girl said,\n'but they're for next Wednesday's performance.\nDo you still want them?'\n'I might as well have them,' I said sadly.",
-    "bodyTextZh": "“演出随时可能开始，”我说。\n“可能已经开始了，”苏珊回答。\n我赶紧跑向售票处。\n“请给我两张票，好吗？”我问。\n“很抱歉，票已经卖完了，”女孩说。\n“真遗憾！”苏珊感叹道。\n就在这时，一个男人匆匆跑到了售票处。\n“我可以退掉这两张票吗？”他问道。\n“当然可以，”女孩回答。\n我立刻又回到了售票处。\n“请把那两张票给我，好吗？”我问。\n“当然可以，”女孩说道。\n“但这是下周三演出的票。\n你还要吗？”\n“那我就要了吧，”我沮丧地说。",
-    "sentences": [
-      {
-        "en": "Lesson 19",
-        "zh": "第 19 课"
-      },
-      {
-        "en": "Sold Out",
-        "zh": "票已售完"
-      },
-      {
-        "en": "When will the writer see the play?",
-        "zh": "作者什么时候能看到这部剧呢？"
-      },
-      {
-        "en": "'The play may begin at any moment,' I said.",
-        "zh": "“演出随时可能开始，”我说。"
-      },
-      {
-        "en": "'It may have begun already,' Susan answered.",
-        "zh": "“可能已经开始了，”苏珊回答。"
-      },
-      {
-        "en": "I hurried to the ticket office.",
-        "zh": "我赶紧跑向售票处。"
-      },
-      {
-        "en": "'May I have two tickets please?' I asked.",
-        "zh": "“请给我两张票，好吗？”我问。"
-      },
-      {
-        "en": "'I'm sorry, we've sold out,' the girl said.",
-        "zh": "“很抱歉，票已经卖完了，”女孩说。"
-      },
-      {
-        "en": "'What a pity!' Susan exclaimed.",
-        "zh": "“真遗憾！”苏珊感叹道。"
-      },
-      {
-        "en": "Just then, a man hurried to the ticket office.",
-        "zh": "就在这时，一个男人匆匆跑到了售票处。"
-      },
-      {
-        "en": "'Can I return these two tickets?' he asked.",
-        "zh": "“我可以退掉这两张票吗？”他问道。"
-      },
-      {
-        "en": "'Certainly,' the girl said.",
-        "zh": "“当然可以，”女孩回答。"
-      },
-      {
-        "en": "I went back to the ticket office at once.",
-        "zh": "我立刻又回到了售票处。"
-      },
-      {
-        "en": "'Could I have those two tickets please?' I asked.",
-        "zh": "“请把那两张票给我，好吗？”我问。"
-      },
-      {
-        "en": "'Certainly,' the girl said,",
-        "zh": "“当然可以，”女孩说道。"
-      },
-      {
-        "en": "'but they're for next Wednesday's performance.",
-        "zh": "“但这是下周三演出的票。"
-      },
-      {
-        "en": "Do you still want them?'",
-        "zh": "你还要吗？”"
-      },
-      {
-        "en": "'I might as well have them,' I said sadly.",
-        "zh": "“那我就要了吧，”我沮丧地说。"
-      }
-    ]
-  },
-  "display": {
     "title": "Sold Out",
     "titleZh": "票已售完",
     "question": "When will the writer see the play?",
@@ -170,40 +87,135 @@
       }
     ]
   },
+  "display": {
+    "title": "Sold Out",
+    "titleZh": "票已售完",
+    "question": "When will the writer see the play?",
+    "questionZh": "作者什么时候能看到这部剧呢？",
+    "text": "When will the writer see the play?\n\n'The play may begin at any moment,' I said.\n'It may have begun already,' Susan answered.\nI hurried to the ticket office. 'May I have two tickets please?' I asked.\n'I'm sorry, we've sold out,' the girl said.\n'What a pity!' Susan exclaimed.\nJust then, a man hurried to the ticket office. 'Can I return these two tickets?' he asked.\n'Certainly,' the girl said.\nI went back to the ticket office at once. 'Could I have those two tickets please?' I asked.\n'Certainly,' the girl said, 'but they're for next Wednesday's performance. Do you still want them?'\n'I might as well have them,' I said sadly.",
+    "bodyText": "'The play may begin at any moment,' I said.\n'It may have begun already,' Susan answered.\nI hurried to the ticket office. 'May I have two tickets please?' I asked.\n'I'm sorry, we've sold out,' the girl said.\n'What a pity!' Susan exclaimed.\nJust then, a man hurried to the ticket office. 'Can I return these two tickets?' he asked.\n'Certainly,' the girl said.\nI went back to the ticket office at once. 'Could I have those two tickets please?' I asked.\n'Certainly,' the girl said, 'but they're for next Wednesday's performance. Do you still want them?'\n'I might as well have them,' I said sadly.",
+    "bodyTextZh": "“演出随时可能开始，”我说。\n“可能已经开始了，”苏珊回答。\n我赶紧跑向售票处。“请给我两张票，好吗？”我问。\n“很抱歉，票已经卖完了，”女孩说。\n“真遗憾！”苏珊感叹道。\n就在这时，一个男人匆匆跑到了售票处。“我可以退掉这两张票吗？”他问道。\n“当然可以，”女孩回答。\n我立刻又回到了售票处。“请把那两张票给我，好吗？”我问。\n“当然可以，”女孩说道。但这是下周三演出的票。你还要吗？\n“那我就要了吧，”我沮丧地说。",
+    "sentences": [
+      {
+        "en": "Lesson 19",
+        "zh": "第 19 课"
+      },
+      {
+        "en": "Sold Out",
+        "zh": "票已售完"
+      },
+      {
+        "en": "When will the writer see the play?",
+        "zh": "作者什么时候能看到这部剧呢？"
+      },
+      {
+        "en": "'The play may begin at any moment,' I said.",
+        "zh": "“演出随时可能开始，”我说。"
+      },
+      {
+        "en": "'It may have begun already,' Susan answered.",
+        "zh": "“可能已经开始了，”苏珊回答。"
+      },
+      {
+        "en": "I hurried to the ticket office.",
+        "zh": "我赶紧跑向售票处。"
+      },
+      {
+        "en": "'May I have two tickets please?' I asked.",
+        "zh": "“请给我两张票，好吗？”我问。"
+      },
+      {
+        "en": "'I'm sorry, we've sold out,' the girl said.",
+        "zh": "“很抱歉，票已经卖完了，”女孩说。"
+      },
+      {
+        "en": "'What a pity!' Susan exclaimed.",
+        "zh": "“真遗憾！”苏珊感叹道。"
+      },
+      {
+        "en": "Just then, a man hurried to the ticket office.",
+        "zh": "就在这时，一个男人匆匆跑到了售票处。"
+      },
+      {
+        "en": "'Can I return these two tickets?' he asked.",
+        "zh": "“我可以退掉这两张票吗？”他问道。"
+      },
+      {
+        "en": "'Certainly,' the girl said.",
+        "zh": "“当然可以，”女孩回答。"
+      },
+      {
+        "en": "I went back to the ticket office at once.",
+        "zh": "我立刻又回到了售票处。"
+      },
+      {
+        "en": "'Could I have those two tickets please?' I asked.",
+        "zh": "“请把那两张票给我，好吗？”我问。"
+      },
+      {
+        "en": "'Certainly,' the girl said,",
+        "zh": "“当然可以，”女孩说道。"
+      },
+      {
+        "en": "'but they're for next Wednesday's performance.",
+        "zh": "但这是下周三演出的票。"
+      },
+      {
+        "en": "Do you still want them?'",
+        "zh": "你还要吗？"
+      },
+      {
+        "en": "'I might as well have them,' I said sadly.",
+        "zh": "“那我就要了吧，”我沮丧地说。"
+      }
+    ]
+  },
   "sources": [
     {
-      "path": "content/NCE-Flow/NCE2/19－Sold Out.lrc",
-      "locator": "完整LRC元数据、标题、问题和全部中英字幕，校勘位置见逐项证据",
+      "path": "content/article-review/history/d806ec3432184d479566278f1273aaa332735230ed46b3111e3b9afd503e9037.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
       "checked": true,
-      "sha256": "0496ece3ad13df968bccde6e2009bd314d47ad806baf145a3e3b78edf92791b6"
-    },
-    {
-      "path": "content/article-review/cleanup-2026-10-06.json",
-      "sha256": "cea27c1c69e32939ff83196bd29cce9a128d8d0d6f248611217179e037971889",
-      "locator": "public/nce/lessons/nce2/019.json",
-      "checked": true
+      "sha256": "11fa138fc23f2abe1c86cb469172e6fdde6ca2e88e094d913b852668be25a8eb"
     }
   ],
-  "corrections": [
-    {
-      "field": "bodyTextZh",
-      "before": "“演出随时可能开始，”我说。\n“可能已经开始了，”苏珊回答。\n我赶紧跑向售票处。\n“请给我两张票，好吗？”我问。\n“很抱歉，票已经卖完了，”女孩说。\n“真遗憾！”苏珊感叹道。\n就在这时，一个男人匆匆跑到了售票处。\n“我可以退掉这两张票吗？”他问道。\n“当然可以，”女孩回答。\n我立刻又回到了售票处。\n“请把那两张票给我，好吗？”我问。\n“当然可以，”女孩说道。\n“但这是下周三演出的票。\n你还要吗？”\n“那我就要了吧，”我沮丧地说。",
-      "after": "“演出随时可能开始，”我说。\n“可能已经开始了，”苏珊回答。\n我赶紧跑向售票处。\n“请给我两张票，好吗？”我问。\n“很抱歉，票已经卖完了，”女孩说。\n“真遗憾！”苏珊感叹道。\n就在这时，一个男人匆匆跑到了售票处。\n“我可以退掉这两张票吗？”他问道。\n“当然可以，”女孩回答。\n我立刻又回到了售票处。\n“请把那两张票给我，好吗？”我问。\n“当然可以，”女孩说道。\n但这是下周三演出的票。\n你还要吗？\n“那我就要了吧，”我沮丧地说。",
-      "evidence": "User-directed source-fidelity restoration; content/article-review/cleanup-2026-10-06.json"
-    }
-  ],
-  "fullReadConfirmed": false,
-  "recheckConfirmed": false,
-  "reviewMode": "source-fidelity-rules-v1",
-  "reviewer": "Codex (user-directed restoration)",
-  "reviewedAt": "2026-10-05T17:15:10+00:00",
-  "notes": "Rule-based restoration; original full-read review remains historical. content/article-review/cleanup-2026-10-06.json",
+  "corrections": [],
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "reviewer": "Codex",
+  "reviewedAt": "2026-10-07T07:50:51+00:00",
+  "notes": "买到下周票；各角色动作与对应提问合段，售票员对日期与是否仍要的回复完整合轮，不合并不同角色。 text与bodyText同步；sentences对象及时间、角色、索引原样保留。",
   "issues": [],
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "81c0b46c1ea5e6d49f8417103e6856a72322168579af95c1ef7c1f991777b4b5",
+    "afterFileSha256": "8f5edf3f2eb3b258177dceabca90fc1529b3c482e4ed7b6dd3a04c048bb48cd7",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "81c0b46c1ea5e6d49f8417103e6856a72322168579af95c1ef7c1f991777b4b5",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title/titleZh、question/questionZh、bodyText全部15行、bodyTextZh全部15行及sentences[0..17]的完整文字；重复正文与字幕文本逐字比对，非正文字幕另读。操作在内存应用并validate_layout_change，修复后的双语全文重新通读。",
+      "notes": "买到下周票；各角色动作与对应提问合段，售票员对日期与是否仍要的回复完整合轮，不合并不同角色。 text与bodyText同步；sentences对象及时间、角色、索引原样保留。",
+      "issues": [],
+      "display": {
+        "text": "When will the writer see the play?\n\n'The play may begin at any moment,' I said.\n'It may have begun already,' Susan answered.\nI hurried to the ticket office. 'May I have two tickets please?' I asked.\n'I'm sorry, we've sold out,' the girl said.\n'What a pity!' Susan exclaimed.\nJust then, a man hurried to the ticket office. 'Can I return these two tickets?' he asked.\n'Certainly,' the girl said.\nI went back to the ticket office at once. 'Could I have those two tickets please?' I asked.\n'Certainly,' the girl said, 'but they're for next Wednesday's performance. Do you still want them?'\n'I might as well have them,' I said sadly.",
+        "bodyText": "'The play may begin at any moment,' I said.\n'It may have begun already,' Susan answered.\nI hurried to the ticket office. 'May I have two tickets please?' I asked.\n'I'm sorry, we've sold out,' the girl said.\n'What a pity!' Susan exclaimed.\nJust then, a man hurried to the ticket office. 'Can I return these two tickets?' he asked.\n'Certainly,' the girl said.\nI went back to the ticket office at once. 'Could I have those two tickets please?' I asked.\n'Certainly,' the girl said, 'but they're for next Wednesday's performance. Do you still want them?'\n'I might as well have them,' I said sadly.",
+        "bodyTextZh": "“演出随时可能开始，”我说。\n“可能已经开始了，”苏珊回答。\n我赶紧跑向售票处。“请给我两张票，好吗？”我问。\n“很抱歉，票已经卖完了，”女孩说。\n“真遗憾！”苏珊感叹道。\n就在这时，一个男人匆匆跑到了售票处。“我可以退掉这两张票吗？”他问道。\n“当然可以，”女孩回答。\n我立刻又回到了售票处。“请把那两张票给我，好吗？”我问。\n“当然可以，”女孩说道。但这是下周三演出的票。你还要吗？\n“那我就要了吧，”我沮丧地说。"
+      },
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/d806ec3432184d479566278f1273aaa332735230ed46b3111e3b9afd503e9037.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "11fa138fc23f2abe1c86cb469172e6fdde6ca2e88e094d913b852668be25a8eb"
+        }
+      ]
+    }
+  },
   "status": "passed_edited",
-  "previousRevisionSha256": "bd7170401168a9e27b1462a5cff9897181168239fc1296e4b7e6d6745c896155",
-  "ruleRestoration": {
-    "policy": "source-fidelity-rules-v1",
-    "report": "content/article-review/cleanup-2026-10-06.json",
-    "reportSha256": "cea27c1c69e32939ff83196bd29cce9a128d8d0d6f248611217179e037971889"
-  }
+  "previousRevisionSha256": "d806ec3432184d479566278f1273aaa332735230ed46b3111e3b9afd503e9037"
 }

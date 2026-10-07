@@ -1,0 +1,21 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "7a13ce1a443202d1a439cf983bcd8981b2deb2a451b46c58d7762db867ebd777",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title；全文 blocks[0..3] 与对应 text；现有正文/对话/题干逐块通读复核。",
+  "notes": "返乡创业四段由趋势、Li Dan案例、政府支持、家乡网络优势构成，引语与分析同段保留。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/fab35578e620b8addac1e33945c228ef4f82791e81a2bd929869ba6d0bfefaed.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "f91cf624098edd19420e5172421b27810bc59bda91fdb937aebae4ec24a1d8c1"
+    }
+  ]
+}

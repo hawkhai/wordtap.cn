@@ -1,0 +1,26 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "de345d41ff624f4df23202d2d0bf5cc574e1f9997440dc392190bd685ea2ac5d",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title/titleZh、question/questionZh、bodyText全部19行、bodyTextZh全部19行及sentences[0..22]的完整文字；重复正文与字幕文本逐字比对，非正文字幕另读。操作在内存应用并validate_layout_change，修复后的双语全文重新通读。",
+  "notes": "Pauline诉说骚扰电话；办公室来电、老板引语、回家后电话、九点电话和冒充母亲引语分别完整合段，提问者轮次保留。 text与bodyText同步；sentences对象及时间、角色、索引原样保留。",
+  "issues": [],
+  "display": {
+    "text": "How did Pauline answer the telephone at nine o'clock?\n\nWhat's Ron Marston like, Pauline?\nHe's awful! He telephoned me four times yesterday and three times the day before yesterday. He telephoned the office yesterday morning and yesterday afternoon. My boss answered the telephone.\nWhat did your boss say to him?\nHe said, 'Pauline is typing letters. She can't speak to you now!'\nThen I arrived home at six o'clock yesterday evening. He telephoned again. But I didn't answer the phone!\nDid he telephone again last night?\nYes, he did. He telephoned at nine o'clock.\nWhat did you say to him?\nI said, 'This is Pauline's mother. Please don't telephone my daughter again!'\nDid he telephone again?\nNo, he didn't!",
+    "bodyText": "What's Ron Marston like, Pauline?\nHe's awful! He telephoned me four times yesterday and three times the day before yesterday. He telephoned the office yesterday morning and yesterday afternoon. My boss answered the telephone.\nWhat did your boss say to him?\nHe said, 'Pauline is typing letters. She can't speak to you now!'\nThen I arrived home at six o'clock yesterday evening. He telephoned again. But I didn't answer the phone!\nDid he telephone again last night?\nYes, he did. He telephoned at nine o'clock.\nWhat did you say to him?\nI said, 'This is Pauline's mother. Please don't telephone my daughter again!'\nDid he telephone again?\nNo, he didn't!",
+    "bodyTextZh": "罗恩·马斯顿是个什么样的人啊，保罗琳？\n他太糟糕了！他昨天给我打了四次电话，前天则打了三次电话。他昨天上午和昨天下午都给办公室打了电话。我的老板接了电话。\n你的老板对他说了什么？\n他说：“保罗琳正在打信件。“她现在没法和你说话！”\n然后我昨天晚上六点钟回到了家。他又打了一次电话。但我没有接电话啊！\n他昨晚又打电话来了吗？\n是的，他确实这么做了。他是在九点钟打来的电话。\n你对他说了什么？\n我说：“我是保罗琳的母亲。“请不要再给我女儿打电话了！”\n他又打电话来了吗？\n不，他并没有！"
+  },
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/9cc10084e8b5f5da814aa6b258e49b5cc47cc992346c1b5c871c213b9ce96517.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "c1903d6d3cb06733472d30d9672441f3c61fe80192432aea2b785fb735570495"
+    }
+  ]
+}

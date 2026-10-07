@@ -1,0 +1,292 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "679e6be959838a9fb057d5b25e66b40e56741a72481508ffee1715d5ed8bf18a",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title；全文 blocks[0..172] 与对应 text；现有正文/对话/题干逐块通读复核。",
+  "notes": "教堂钟课0..172块全文复核；合并两组英中叙事段、各段内牧师/Bill五轮英文和中文续行、Notes1/3/4、问答2/3/16/17、三个写作提纲及范文三自然段。词表、选择项和双语独立译句保持。末尾下一课标题归属待确认。",
+  "issues": [
+    "blocks[172]为孤立heading：2.1【故事精讲】An unknown goddess，出现在本课答案之后且无后续正文；仅凭本JSON无法判定跨课标题归属，不删除或移动。"
+  ],
+  "mergeBlocks": [
+    {
+      "start": 10,
+      "end": 13,
+      "before": [
+        "Our vicar is always raising money for one cause or another, but he has never managed",
+        "to get enough money to have the church clock repaired. The big clock which used to",
+        "strike the hours day and night was damaged many years ago and has been silent ever",
+        "since."
+      ],
+      "text": "Our vicar is always raising money for one cause or another, but he has never managed to get enough money to have the church clock repaired. The big clock which used to strike the hours day and night was damaged many years ago and has been silent ever since.",
+      "reason": "按修钟故事连续叙述、同一发言轮次或同一题解的语义恢复被机械行宽切开的文本；写作范文依据背景、发现蜂巢、处理结果三个自然段合并。"
+    },
+    {
+      "start": 14,
+      "end": 16,
+      "before": [
+        "我们教区的牧师总是为各种各样的事筹集资金。但始终未能筹足资金把教堂的钟",
+        "修好。教堂的钟很大，以前不分昼夜打点报时，但很多年前遭到毁坏，从此便无",
+        "声无息了。"
+      ],
+      "text": "我们教区的牧师总是为各种各样的事筹集资金。但始终未能筹足资金把教堂的钟修好。教堂的钟很大，以前不分昼夜打点报时，但很多年前遭到毁坏，从此便无声无息了。",
+      "reason": "按修钟故事连续叙述、同一发言轮次或同一题解的语义恢复被机械行宽切开的文本；写作范文依据背景、发现蜂巢、处理结果三个自然段合并。"
+    },
+    {
+      "start": 17,
+      "end": 21,
+      "before": [
+        "One night, however, our vicar woke up with a start: the clock was striking the hours!",
+        "Looking at his watch, he saw that it was one o'clock, but the bell struck thirteen times",
+        "before it stopped. Armed with a torch, the vicar went up into the clock tower to see",
+        "what was going on. In the torchlight, he caught sight of a figure whom he",
+        "immediately recognized as Bill Wilkins, our local grocer."
+      ],
+      "text": "One night, however, our vicar woke up with a start: the clock was striking the hours! Looking at his watch, he saw that it was one o'clock, but the bell struck thirteen times before it stopped. Armed with a torch, the vicar went up into the clock tower to see what was going on. In the torchlight, he caught sight of a figure whom he immediately recognized as Bill Wilkins, our local grocer.",
+      "reason": "按修钟故事连续叙述、同一发言轮次或同一题解的语义恢复被机械行宽切开的文本；写作范文依据背景、发现蜂巢、处理结果三个自然段合并。"
+    },
+    {
+      "start": 22,
+      "end": 25,
+      "before": [
+        "一天夜里，我们的牧师突然被惊醒了，大钟又在“打点”报时了！他一看表，才 1",
+        "点钟，可是那钟一边敲了 13 下才停。牧师拿着一支电筒走上钟楼想去看看究竟",
+        "发生了什么事情。借着电筒光，他看见一个人，马上认出那是本地杂货店主比",
+        "尔·威尔金斯。"
+      ],
+      "text": "一天夜里，我们的牧师突然被惊醒了，大钟又在“打点”报时了！他一看表，才 1点钟，可是那钟一边敲了 13 下才停。牧师拿着一支电筒走上钟楼想去看看究竟发生了什么事情。借着电筒光，他看见一个人，马上认出那是本地杂货店主比尔·威尔金斯。",
+      "reason": "按修钟故事连续叙述、同一发言轮次或同一题解的语义恢复被机械行宽切开的文本；写作范文依据背景、发现蜂巢、处理结果三个自然段合并。"
+    },
+    {
+      "start": 27,
+      "end": 28,
+      "before": [
+        "1 woke up with a start:...with a start，被惊醒了。冒号后面是一个解释性的分句，",
+        "是对 start 所作的具体说明。"
+      ],
+      "text": "1 woke up with a start:...with a start，被惊醒了。冒号后面是一个解释性的分句，是对 start 所作的具体说明。",
+      "reason": "按修钟故事连续叙述、同一发言轮次或同一题解的语义恢复被机械行宽切开的文本；写作范文依据背景、发现蜂巢、处理结果三个自然段合并。"
+    },
+    {
+      "start": 31,
+      "end": 32,
+      "before": [
+        "'I'm trying to repair the bell,' answered Bill. 'I've been coming up here night after night",
+        "for weeks now. You see, I was hoping to give you a surprise.'"
+      ],
+      "text": "'I'm trying to repair the bell,' answered Bill. 'I've been coming up here night after night for weeks now. You see, I was hoping to give you a surprise.'",
+      "reason": "按修钟故事连续叙述、同一发言轮次或同一题解的语义恢复被机械行宽切开的文本；写作范文依据背景、发现蜂巢、处理结果三个自然段合并。"
+    },
+    {
+      "start": 33,
+      "end": 34,
+      "before": [
+        "'You certainly did give me a surprise!' said the vicar. 'You've probably woken up",
+        "everyone in the village as well. Still, I'm glad the bell is working again.'"
+      ],
+      "text": "'You certainly did give me a surprise!' said the vicar. 'You've probably woken up everyone in the village as well. Still, I'm glad the bell is working again.'",
+      "reason": "按修钟故事连续叙述、同一发言轮次或同一题解的语义恢复被机械行宽切开的文本；写作范文依据背景、发现蜂巢、处理结果三个自然段合并。"
+    },
+    {
+      "start": 35,
+      "end": 36,
+      "before": [
+        "That's the trouble, vicar,' answered Bill. 'It's working all right, but I'm afraid that at",
+        "one o'clock it will strike thirteen times and there's nothing I can do about it.\""
+      ],
+      "text": "That's the trouble, vicar,' answered Bill. 'It's working all right, but I'm afraid that at one o'clock it will strike thirteen times and there's nothing I can do about it.\"",
+      "reason": "按修钟故事连续叙述、同一发言轮次或同一题解的语义恢复被机械行宽切开的文本；写作范文依据背景、发现蜂巢、处理结果三个自然段合并。"
+    },
+    {
+      "start": 37,
+      "end": 38,
+      "before": [
+        "We'll get used to that, Bill,' said the vicar. \"Thirteen is not as good as one, but it's",
+        "better than nothing. '"
+      ],
+      "text": "We'll get used to that, Bill,' said the vicar. \"Thirteen is not as good as one, but it's better than nothing. '",
+      "reason": "按修钟故事连续叙述、同一发言轮次或同一题解的语义恢复被机械行宽切开的文本；写作范文依据背景、发现蜂巢、处理结果三个自然段合并。"
+    },
+    {
+      "start": 40,
+      "end": 41,
+      "before": [
+        "“我想把这口钟修好，” 比尔回答说。“好几个星期了，我天天夜里到钟楼上来。",
+        "嗯，我是想让你大吃一惊。”"
+      ],
+      "text": "“我想把这口钟修好，” 比尔回答说。“好几个星期了，我天天夜里到钟楼上来。嗯，我是想让你大吃一惊。”",
+      "reason": "按修钟故事连续叙述、同一发言轮次或同一题解的语义恢复被机械行宽切开的文本；写作范文依据背景、发现蜂巢、处理结果三个自然段合并。"
+    },
+    {
+      "start": 42,
+      "end": 43,
+      "before": [
+        "“你确实使我大吃了一惊！”牧师说，“也许同时你把村里所有的人都吵醒了。不",
+        "过，钟又能报时了，我还是很高兴的。”"
+      ],
+      "text": "“你确实使我大吃了一惊！”牧师说，“也许同时你把村里所有的人都吵醒了。不过，钟又能报时了，我还是很高兴的。”",
+      "reason": "按修钟故事连续叙述、同一发言轮次或同一题解的语义恢复被机械行宽切开的文本；写作范文依据背景、发现蜂巢、处理结果三个自然段合并。"
+    },
+    {
+      "start": 44,
+      "end": 45,
+      "before": [
+        "“问题就在这里，牧师，”比尔回答说。“不错，钟能报时了，但是，恐怕每到 1",
+        "点钟，它总要敲 13 下，对此我已无能为力了。”"
+      ],
+      "text": "“问题就在这里，牧师，”比尔回答说。“不错，钟能报时了，但是，恐怕每到 1点钟，它总要敲 13 下，对此我已无能为力了。”",
+      "reason": "按修钟故事连续叙述、同一发言轮次或同一题解的语义恢复被机械行宽切开的文本；写作范文依据背景、发现蜂巢、处理结果三个自然段合并。"
+    },
+    {
+      "start": 46,
+      "end": 47,
+      "before": [
+        "“大家慢慢就习惯了，比尔，”牧师说。“13 下是不如 1 下好，但总比 1 下也不敲",
+        "强。”"
+      ],
+      "text": "“大家慢慢就习惯了，比尔，”牧师说。“13 下是不如 1 下好，但总比 1 下也不敲强。”",
+      "reason": "按修钟故事连续叙述、同一发言轮次或同一题解的语义恢复被机械行宽切开的文本；写作范文依据背景、发现蜂巢、处理结果三个自然段合并。"
+    },
+    {
+      "start": 49,
+      "end": 51,
+      "before": [
+        "3 Whatever are you doing up here? 你究竟在这上面干什么？",
+        "whatever 用于疑问句中，用以加强 what 的语气，作“究竟什么”解，口语中很常",
+        "用。"
+      ],
+      "text": "3 Whatever are you doing up here? 你究竟在这上面干什么？ whatever 用于疑问句中，用以加强 what 的语气，作“究竟什么”解，口语中很常用。",
+      "reason": "按修钟故事连续叙述、同一发言轮次或同一题解的语义恢复被机械行宽切开的文本；写作范文依据背景、发现蜂巢、处理结果三个自然段合并。"
+    },
+    {
+      "start": 52,
+      "end": 53,
+      "before": [
+        "4 You certainly did give me a surprise!你确实使我感到意外！在英语中助动词 do",
+        "可以用来表示强调。此时助动词 do放在谓语动词之前。"
+      ],
+      "text": "4 You certainly did give me a surprise!你确实使我感到意外！在英语中助动词 do 可以用来表示强调。此时助动词 do放在谓语动词之前。",
+      "reason": "按修钟故事连续叙述、同一发言轮次或同一题解的语义恢复被机械行宽切开的文本；写作范文依据背景、发现蜂巢、处理结果三个自然段合并。"
+    },
+    {
+      "start": 60,
+      "end": 61,
+      "before": [
+        "2 Why has the church clock never been repaired? (Because the vicar has never",
+        "managed to raise enough money.)"
+      ],
+      "text": "2 Why has the church clock never been repaired? (Because the vicar has never managed to raise enough money.)",
+      "reason": "按修钟故事连续叙述、同一发言轮次或同一题解的语义恢复被机械行宽切开的文本；写作范文依据背景、发现蜂巢、处理结果三个自然段合并。"
+    },
+    {
+      "start": 62,
+      "end": 63,
+      "before": [
+        "3 why doesn't the church clock strike the hours any more? (Because it was damaged",
+        "many years ago.)"
+      ],
+      "text": "3 why doesn't the church clock strike the hours any more? (Because it was damaged many years ago.)",
+      "reason": "按修钟故事连续叙述、同一发言轮次或同一题解的语义恢复被机械行宽切开的文本；写作范文依据背景、发现蜂巢、处理结果三个自然段合并。"
+    },
+    {
+      "start": 76,
+      "end": 77,
+      "before": [
+        "16 What did the vicar say about the village? (That Bill had probably woken everyone",
+        "up.)"
+      ],
+      "text": "16 What did the vicar say about the village? (That Bill had probably woken everyone up.)",
+      "reason": "按修钟故事连续叙述、同一发言轮次或同一题解的语义恢复被机械行宽切开的文本；写作范文依据背景、发现蜂巢、处理结果三个自然段合并。"
+    },
+    {
+      "start": 78,
+      "end": 79,
+      "before": [
+        "17 Why hadn't the clock been properly repaired (Because it struck thirteen times at",
+        "one o'clock.)"
+      ],
+      "text": "17 Why hadn't the clock been properly repaired (Because it struck thirteen times at one o'clock.)",
+      "reason": "按修钟故事连续叙述、同一发言轮次或同一题解的语义恢复被机械行宽切开的文本；写作范文依据背景、发现蜂巢、处理结果三个自然段合并。"
+    },
+    {
+      "start": 87,
+      "end": 88,
+      "before": [
+        "Introduction: A small village—the church clock suddenly stopped—no one could",
+        "explain why."
+      ],
+      "text": "Introduction: A small village—the church clock suddenly stopped—no one could explain why.",
+      "reason": "按修钟故事连续叙述、同一发言轮次或同一题解的语义恢复被机械行宽切开的文本；写作范文依据背景、发现蜂巢、处理结果三个自然段合并。"
+    },
+    {
+      "start": 89,
+      "end": 90,
+      "before": [
+        "Development: The vicar climbed into the clock tower—found that the clock had been",
+        "invaded by bees—full of honey and wax."
+      ],
+      "text": "Development: The vicar climbed into the clock tower—found that the clock had been invaded by bees—full of honey and wax.",
+      "reason": "按修钟故事连续叙述、同一发言轮次或同一题解的语义恢复被机械行宽切开的文本；写作范文依据背景、发现蜂巢、处理结果三个自然段合并。"
+    },
+    {
+      "start": 91,
+      "end": 92,
+      "before": [
+        "Conclusion: A bee keeper was called—removed the queen bee—the other bees",
+        "followed—the clock was cleaned—working again."
+      ],
+      "text": "Conclusion: A bee keeper was called—removed the queen bee—the other bees followed—the clock was cleaned—working again.",
+      "reason": "按修钟故事连续叙述、同一发言轮次或同一题解的语义恢复被机械行宽切开的文本；写作范文依据背景、发现蜂巢、处理结果三个自然段合并。"
+    },
+    {
+      "start": 95,
+      "end": 99,
+      "before": [
+        "We were used to hearing our church bell striking the hours in our small village.",
+        "For as long as anyone could remember, the bell had struck the hours day and night.",
+        "However, one night the church bell remained silent and the next morning we saw that",
+        "the clock had stopped at exactly one a.m. Our clock was clearly damaged, but no one",
+        "could explain how this had happened."
+      ],
+      "text": "We were used to hearing our church bell striking the hours in our small village. For as long as anyone could remember, the bell had struck the hours day and night. However, one night the church bell remained silent and the next morning we saw that the clock had stopped at exactly one a.m. Our clock was clearly damaged, but no one could explain how this had happened.",
+      "reason": "按修钟故事连续叙述、同一发言轮次或同一题解的语义恢复被机械行宽切开的文本；写作范文依据背景、发现蜂巢、处理结果三个自然段合并。"
+    },
+    {
+      "start": 100,
+      "end": 104,
+      "before": [
+        "Armed with a torch, our vicar climbed into the church tower to see what was",
+        "going on. He heard a loud buzz as he went towards the clock and in the torchlight he",
+        "found it had been invaded by bees. He was lucky they didn't sting him! He shone his",
+        "torch into the great bell and saw that it was full of wax and honey. No wonder it",
+        "wasn't working!"
+      ],
+      "text": "Armed with a torch, our vicar climbed into the church tower to see what was going on. He heard a loud buzz as he went towards the clock and in the torchlight he found it had been invaded by bees. He was lucky they didn't sting him! He shone his torch into the great bell and saw that it was full of wax and honey. No wonder it wasn't working!",
+      "reason": "按修钟故事连续叙述、同一发言轮次或同一题解的语义恢复被机械行宽切开的文本；写作范文依据背景、发现蜂巢、处理结果三个自然段合并。"
+    },
+    {
+      "start": 105,
+      "end": 108,
+      "before": [
+        "A bee keeper was called in to deal with the situation. He immediately removed",
+        "the queen bee to one of his bee hives and the other bees followed. The clock was",
+        "cleaned and was soon working again. We not only enjoyed hearing it strike the hours",
+        "day and night, but we enjoyed eating the honey as well. (195 words)"
+      ],
+      "text": "A bee keeper was called in to deal with the situation. He immediately removed the queen bee to one of his bee hives and the other bees followed. The clock was cleaned and was soon working again. We not only enjoyed hearing it strike the hours day and night, but we enjoyed eating the honey as well. (195 words)",
+      "reason": "按修钟故事连续叙述、同一发言轮次或同一题解的语义恢复被机械行宽切开的文本；写作范文依据背景、发现蜂巢、处理结果三个自然段合并。"
+    }
+  ],
+  "splitBlocks": [],
+  "blockEdits": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/75f243598589d8bb021179f41a0f6cafc86a7ec34af5996cc6caf673453e149f.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "f7853956272aeb4dfe0bd9b779e21714780e87f6bff840b7558198debac8c17a"
+    }
+  ]
+}

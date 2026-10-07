@@ -1,0 +1,225 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "4cbf8d2df89182341ca8a2b26705bc17d1f4d9bab8cc87b9ea8dbd3a366db750",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "coverage": "全文 blocks[0..78]；按 JSON 上下文逐项复核对话、解释、题目、表格、词表及修复后的边界。",
+  "notes": "十二个关心对话单元按现有中英换行拆块；There be 公式两行和问答例句列表保持原教学结构，没有同语言句中断行。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [
+    {
+      "index": 3,
+      "before": [
+        "——What’s the matter, children?\n孩子们，怎么了？"
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "——What’s the matter, children?"
+        },
+        {
+          "type": "paragraph",
+          "text": "孩子们，怎么了？"
+        }
+      ],
+      "reason": "现有换行明确区分英文与对应中文，各自成块，保留原文顺序和对话轮次。"
+    },
+    {
+      "index": 4,
+      "before": [
+        "——We are tired and thirsty, Mum.\n妈妈，我们又累又渴。"
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "——We are tired and thirsty, Mum."
+        },
+        {
+          "type": "paragraph",
+          "text": "妈妈，我们又累又渴。"
+        }
+      ],
+      "reason": "现有换行明确区分英文与对应中文，各自成块，保留原文顺序和对话轮次。"
+    },
+    {
+      "index": 5,
+      "before": [
+        "——Sit down here.\n坐在这儿吧。"
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "——Sit down here."
+        },
+        {
+          "type": "paragraph",
+          "text": "坐在这儿吧。"
+        }
+      ],
+      "reason": "现有换行明确区分英文与对应中文，各自成块，保留原文顺序和对话轮次。"
+    },
+    {
+      "index": 6,
+      "before": [
+        "Are you all right now?\n你们现在好些了吗？"
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Are you all right now?"
+        },
+        {
+          "type": "paragraph",
+          "text": "你们现在好些了吗？"
+        }
+      ],
+      "reason": "现有换行明确区分英文与对应中文，各自成块，保留原文顺序和对话轮次。"
+    },
+    {
+      "index": 7,
+      "before": [
+        "——No, we aren’t.\n不，还没有。"
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "——No, we aren’t."
+        },
+        {
+          "type": "paragraph",
+          "text": "不，还没有。"
+        }
+      ],
+      "reason": "现有换行明确区分英文与对应中文，各自成块，保留原文顺序和对话轮次。"
+    },
+    {
+      "index": 8,
+      "before": [
+        "——Look! There’s an ice cream man.\n看！有个卖冰激凌的。"
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "——Look! There’s an ice cream man."
+        },
+        {
+          "type": "paragraph",
+          "text": "看！有个卖冰激凌的。"
+        }
+      ],
+      "reason": "现有换行明确区分英文与对应中文，各自成块，保留原文顺序和对话轮次。"
+    },
+    {
+      "index": 9,
+      "before": [
+        "Two ice creams please.\n给我两份冰激凌。"
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Two ice creams please."
+        },
+        {
+          "type": "paragraph",
+          "text": "给我两份冰激凌。"
+        }
+      ],
+      "reason": "现有换行明确区分英文与对应中文，各自成块，保留原文顺序和对话轮次。"
+    },
+    {
+      "index": 10,
+      "before": [
+        "Here you are, children.\n孩子们，拿着吧。"
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Here you are, children."
+        },
+        {
+          "type": "paragraph",
+          "text": "孩子们，拿着吧。"
+        }
+      ],
+      "reason": "现有换行明确区分英文与对应中文，各自成块，保留原文顺序和对话轮次。"
+    },
+    {
+      "index": 11,
+      "before": [
+        "——Thanks, Mum.\n谢谢妈妈。"
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "——Thanks, Mum."
+        },
+        {
+          "type": "paragraph",
+          "text": "谢谢妈妈。"
+        }
+      ],
+      "reason": "现有换行明确区分英文与对应中文，各自成块，保留原文顺序和对话轮次。"
+    },
+    {
+      "index": 12,
+      "before": [
+        "These ice creams are nice.\n这些冰激凌真好吃。"
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "These ice creams are nice."
+        },
+        {
+          "type": "paragraph",
+          "text": "这些冰激凌真好吃。"
+        }
+      ],
+      "reason": "现有换行明确区分英文与对应中文，各自成块，保留原文顺序和对话轮次。"
+    },
+    {
+      "index": 13,
+      "before": [
+        "——Are you all right now?\n你们现在好了吗？"
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "——Are you all right now?"
+        },
+        {
+          "type": "paragraph",
+          "text": "你们现在好了吗？"
+        }
+      ],
+      "reason": "现有换行明确区分英文与对应中文，各自成块，保留原文顺序和对话轮次。"
+    },
+    {
+      "index": 14,
+      "before": [
+        "——Yes, we are, thank you.\n是的，现在好了，谢谢妈妈！"
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "——Yes, we are, thank you."
+        },
+        {
+          "type": "paragraph",
+          "text": "是的，现在好了，谢谢妈妈！"
+        }
+      ],
+      "reason": "现有换行明确区分英文与对应中文，各自成块，保留原文顺序和对话轮次。"
+    }
+  ],
+  "sources": [
+    {
+      "path": "content/article-review/history/24430e467bd5c21b5520e7c89942ecfea064dace0eb5b4d76b356422763b85c4.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "f3d4ec03cb86e4a3ba60238297017a20a32dda9bda63311c4f1153f682a49c12"
+    }
+  ]
+}

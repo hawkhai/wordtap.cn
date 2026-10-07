@@ -390,30 +390,45 @@
   },
   "sources": [
     {
-      "path": "content/pep-english/raw/senior-selective-3.pdf",
-      "locator": "PDF第80-81页，标题与完整正文逐行核对",
+      "path": "content/article-review/history/eab60e7aad2b4694ba6f91417ad8f255e6d3c54179d58e9f741aec9fd6829f37.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
       "checked": true,
-      "sha256": "ed8eb9e5988b44a1ff4f8bc11ed3cfae406decefae7982477362720788e1998b"
-    },
-    {
-      "path": "content/pep-english/raw/senior-selective-3/senior-selective-3_80.jpg",
-      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
-      "checked": true,
-      "sha256": "d0b6fd5019f1f956adac02f955b95162ecd99589c5a0897c4728ee673f3b93fe"
-    },
-    {
-      "path": "content/pep-english/raw/senior-selective-3/senior-selective-3_81.jpg",
-      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
-      "checked": true,
-      "sha256": "933c827579237d92fa8b4ca21396aa288f9f84c0cc86caf4fd6e9d7d7a9e7e96"
+      "sha256": "dca8670abc1430da24b8dbe37df45477f885275df610aa8d6967c546b665c00f"
     }
   ],
   "corrections": [],
   "fullReadConfirmed": true,
   "recheckConfirmed": true,
   "reviewer": "Codex",
-  "reviewedAt": "2026-10-02T07:16:43+00:00",
-  "notes": "通读PDF第80–81页37段The Experiment，逐一核对四姐妹、母亲对白与叙事，跨页及绕图顺序无缺漏。原manual-review-ledger.tsv的pephs3-032明确书目简介移至元数据、正文37段，遵循该范围，标题已含改编来源与作者；无需修改。",
+  "reviewedAt": "2026-10-07T07:35:52+00:00",
+  "notes": "小妇人实验改编37块按人物对白与日常叙事分段，开头姐妹轮流发言、晚间母亲教诲边界清晰，无需合并短轮次。",
   "issues": [],
-  "status": "passed_unchanged"
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "c0a3a4247a2186bd9770bb74759556cc381e5ee69dcbf1f390e61d2ea7334052",
+    "afterFileSha256": "c0a3a4247a2186bd9770bb74759556cc381e5ee69dcbf1f390e61d2ea7334052",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "c0a3a4247a2186bd9770bb74759556cc381e5ee69dcbf1f390e61d2ea7334052",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..36] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "小妇人实验改编37块按人物对白与日常叙事分段，开头姐妹轮流发言、晚间母亲教诲边界清晰，无需合并短轮次。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/eab60e7aad2b4694ba6f91417ad8f255e6d3c54179d58e9f741aec9fd6829f37.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "dca8670abc1430da24b8dbe37df45477f885275df610aa8d6967c546b665c00f"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "eab60e7aad2b4694ba6f91417ad8f255e6d3c54179d58e9f741aec9fd6829f37"
 }

@@ -1,0 +1,26 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "d09e7eef9fc87275d91d3d8881adf8f89d05df80960c5867235c9c317a74bf39",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title/titleZh、question/questionZh、bodyText全部12行、bodyTextZh全部12行及sentences[0..14]的完整文字；重复正文与字幕文本逐字比对，非正文字幕另读。操作在内存应用并validate_layout_change，修复后的双语全文重新通读。",
+  "notes": "蝙蝠回声定位；实用声音引入、测海深、测鱼群、蝙蝠用途四段，题干中文错位原样。 text与bodyText同步；sentences对象及时间、角色、索引原样保留。",
+  "issues": [],
+  "display": {
+    "text": "In what way does echo-location in bats play an utilitarian role?\n\nNot all sounds made by animals serve as language, and we have only to turn to that extraordinary discovery of echo-location in bats to see a case in which the voice plays a strictly utilitarian role. To get a full appreciation of what this means we must turn first to some recent human inventions.\nEveryone knows that if he shouts in the vicinity of a wall or a mountainside, an echo will come back. The further off this solid obstruction, the longer time will elapse for the return of the echo. A sound made by tapping on the hull of a ship will be reflected from the sea bottom, and by measuring the time interval between the taps and the receipt of the echoes the depth of the sea at that point can be calculated. So was born the echo-sounding apparatus, now in general use in ships.\nEvery solid object will reflect a sound, varying according to the size and nature of the object. A shoal of fish will do this. So it is a comparatively simple step from locating the sea bottom to locating a shoal of fish. With experience, and with improved apparatus, it is now possible not only to locate a shoal but to tell if it is herring, cod, or other well-known fish, by the pattern of its echo.\nIt has been found that certain bats emit squeaks and by receiving the echoes, they can locate and steer clear of obstacles -- or locate flying insects on which they feed. This echo-location in bats is often compared with radar, the principle of which is similar.",
+    "bodyText": "Not all sounds made by animals serve as language, and we have only to turn to that extraordinary discovery of echo-location in bats to see a case in which the voice plays a strictly utilitarian role. To get a full appreciation of what this means we must turn first to some recent human inventions.\nEveryone knows that if he shouts in the vicinity of a wall or a mountainside, an echo will come back. The further off this solid obstruction, the longer time will elapse for the return of the echo. A sound made by tapping on the hull of a ship will be reflected from the sea bottom, and by measuring the time interval between the taps and the receipt of the echoes the depth of the sea at that point can be calculated. So was born the echo-sounding apparatus, now in general use in ships.\nEvery solid object will reflect a sound, varying according to the size and nature of the object. A shoal of fish will do this. So it is a comparatively simple step from locating the sea bottom to locating a shoal of fish. With experience, and with improved apparatus, it is now possible not only to locate a shoal but to tell if it is herring, cod, or other well-known fish, by the pattern of its echo.\nIt has been found that certain bats emit squeaks and by receiving the echoes, they can locate and steer clear of obstacles -- or locate flying insects on which they feed. This echo-location in bats is often compared with radar, the principle of which is similar.",
+    "bodyTextZh": "并非所有动物发出的声音都属于“语言”范畴；我们只需看看蝙蝠的回声定位能力这一非凡的生理现象，就能明白：在某些情况下，声音仅仅起着实用性的作用（即用于获取信息或导航）。要充分理解这意味着什么，我们首先必须看看一些最近的人类发明。\n大家都知道，如果在墙壁或山坡附近大声喊叫，就会听到回声。距离这个固体障碍物越远，回声返回所需的时间就越长。当敲击船体时，声音会从海底反射回来；通过测量敲击声与接收到回声之间的时间间隔，就可以计算出该位置的海水深度。就这样，回声探测装置诞生了，如今已广泛应用于各类船舶。\n每个固体物体都会反射声音，反射效果会因物体的大小和材质而有所不同。鱼群也会反射声音。因此，从确定海底的位置到找到鱼群的位置，这个过程相对来说是相当简单的。凭借丰富的经验以及更先进的设备，现在不仅能够定位鱼群的位置，还能通过鱼群产生的回声信号来判断它们是鲱鱼、鳕鱼，还是其他常见的鱼类。\n人们发现，某些蝙蝠会发出尖叫声，并通过接收回声它们能够识别并避开障碍物，同时也能找到可供它们捕食的飞虫。蝙蝠的回声定位系统常被比作雷达，因为它们的工作原理是相似的。"
+  },
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/70377d7d6e9bc1d36f467eda85d56488358601aabef06a10f475400f7a1fe122.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "2988694ee54880a249363a9b00f69d0b6a7e3a8026656b4cec8f05f1803aeba7"
+    }
+  ]
+}

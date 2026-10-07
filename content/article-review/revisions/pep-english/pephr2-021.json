@@ -80,24 +80,45 @@
   },
   "sources": [
     {
-      "path": "content/pep-english/raw/senior-required-2.pdf",
-      "locator": "PDF第79-79页，标题与完整正文逐行核对",
+      "path": "content/article-review/history/a2adeedd9226f6288277a901e236499c8dbe946112b706bf20830dd5cdd7dd05.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
       "checked": true,
-      "sha256": "33b74bf42b22b32fdbe3201e6f61cf8099be047ef0af8a1740f6013dee4a619d"
-    },
-    {
-      "path": "content/pep-english/raw/senior-required-2/senior-required-2_79.jpg",
-      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
-      "checked": true,
-      "sha256": "e183212e47c9f5dad5153c88ad89673f0375be8a060c3fb48662e1cc5dd1e455"
+      "sha256": "9182a86d7da8bc48910bb461ed9856d3ab73f360c86f13d5624d736ccd8324f5"
     }
   ],
   "corrections": [],
   "fullReadConfirmed": true,
   "recheckConfirmed": true,
   "reviewer": "Codex",
-  "reviewedAt": "2026-10-02T05:47:16+00:00",
-  "notes": "核对PDF第79页六段城市野生动物全文，Austin桥下蝙蝠、北京奥林匹克森林公园160余鸟种和2011年Birdscraper提案三例无漏句；保留提案条件语气、原段落及教材时点数据。",
+  "reviewedAt": "2026-10-07T07:30:17+00:00",
+  "notes": "城市野生动物按引入、栖息地问题、蝙蝠、北京森林公园、Birdscraper及总结分段，案例边界清晰。",
   "issues": [],
-  "status": "passed_unchanged"
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "6787f65bc0cd88860c9cc0c015b7f9edb649e13fcc14d64396199fdbdbd2c825",
+    "afterFileSha256": "6787f65bc0cd88860c9cc0c015b7f9edb649e13fcc14d64396199fdbdbd2c825",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "6787f65bc0cd88860c9cc0c015b7f9edb649e13fcc14d64396199fdbdbd2c825",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..5] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "城市野生动物按引入、栖息地问题、蝙蝠、北京森林公园、Birdscraper及总结分段，案例边界清晰。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/a2adeedd9226f6288277a901e236499c8dbe946112b706bf20830dd5cdd7dd05.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "9182a86d7da8bc48910bb461ed9856d3ab73f360c86f13d5624d736ccd8324f5"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "a2adeedd9226f6288277a901e236499c8dbe946112b706bf20830dd5cdd7dd05"
 }

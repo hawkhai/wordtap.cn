@@ -1,0 +1,21 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "9dd46d10b44f3a16e1284d3509639e90f68b922e74c4780d8a5cc5a7bcec804e",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title；全文 blocks[0..4] 与对应 text；现有正文/对话/题干逐块通读复核。",
+  "notes": "劝慰信日期、称呼、说明问题、建议、落款五块结构清楚，Susan署名内部换行保留。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/72cb5a477be03f418e4d911f8f29c698afe1d59db60fbc9e79dfb4d4772c537b.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "1e6b2c3984b38a68183ddd2d1d28f1a7b9eef9b25cf94fc37b1428688e8914ea"
+    }
+  ]
+}

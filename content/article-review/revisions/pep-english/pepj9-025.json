@@ -3,7 +3,7 @@
   "course": "pep-english",
   "articleId": "pepj9-025",
   "beforeDisplaySha256": "ddb7651ec97a073560d0d2e005eb38786bc37c2b103fe4dae1af84a704bfbc72",
-  "afterDisplaySha256": "ddb7651ec97a073560d0d2e005eb38786bc37c2b103fe4dae1af84a704bfbc72",
+  "afterDisplaySha256": "0f3f6ce19e42deaa3356a9d15dda5760a35d32b330a4a08f96d03faf6778f253",
   "baselineDisplay": {
     "title": "Where Is Linda's Schoolbag?",
     "section": "Section A",
@@ -24,30 +24,156 @@
       {
         "type": "paragraph",
         "lang": "en",
-        "text": "Linda: Mom, I'm really worried.\nMom: Why? What's wrong?\nLinda: I can't find my schoolbag.\nMom: Well, where did you last put it?\nLinda: I can't remember! I attended a concert yesterday so it might still be in the music hall.\nMom: Do you have anything valuable in your schoolbag?\nLinda: No, just my books, my pink hair band and some tennis balls.\nMom: So it can't be stolen.\nLinda: Oh, wait! I went to a picnic after the concert. I remember I had my schoolbag with me at the picnic.\nMom: So could it still be at the park?\nLinda: Yes. I left early, before the rest of my friends. I think somebody must have picked it up. I'll call them now to check if anybody has it."
+        "text": "Linda: Mom, I'm really worried."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Mom: Why? What's wrong?"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Linda: I can't find my schoolbag."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Mom: Well, where did you last put it?"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Linda: I can't remember! I attended a concert yesterday so it might still be in the music hall."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Mom: Do you have anything valuable in your schoolbag?"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Linda: No, just my books, my pink hair band and some tennis balls."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Mom: So it can't be stolen."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Linda: Oh, wait! I went to a picnic after the concert. I remember I had my schoolbag with me at the picnic."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Mom: So could it still be at the park?"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Linda: Yes. I left early, before the rest of my friends. I think somebody must have picked it up. I'll call them now to check if anybody has it."
       }
     ]
   },
   "sources": [
     {
-      "path": "content/pep-english/raw/junior-9.pdf",
-      "locator": "PDF第72-72页，标题与完整正文逐行核对",
+      "path": "content/article-review/history/2997c60917bd48fb0a47d5ea3ed3c50ffe388e531690ffa8ec9c0d2ab01cf114.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
       "checked": true,
-      "sha256": "9c4118021048d901610b673f590ed28c39c04cb2d4f7fd940f83a2d8b2741af7"
-    },
-    {
-      "path": "content/pep-english/raw/junior-9/junior-9_72.jpg",
-      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
-      "checked": true,
-      "sha256": "8eb6d5c0048b52c6973c329ebd20c45352a5eca2e60bf8e7c2aab948fa1def20"
+      "sha256": "240682fe2f50c19409ce9fc691f34771683d0fdaccd5d4db15730979e748fc99"
     }
   ],
   "corrections": [],
   "fullReadConfirmed": true,
   "recheckConfirmed": true,
   "reviewer": "Codex",
-  "reviewedAt": "2026-10-02T05:11:52+00:00",
-  "notes": "PDF72页印刷58页Linda/Mom十一轮逐行复核，音乐会后野餐、书/粉色发带/网球、早走猜同伴捡包及打电话查询完整。母亲关于被盗的判断是原对话推测而非新增事实，角色换行和情态动词准确，复读无修改。",
+  "reviewedAt": "2026-10-07T07:42:02+00:00",
+  "notes": "Linda和妈妈找书包十一轮对话拆分，音乐会与野餐回忆保持完整发言。",
   "issues": [],
-  "status": "passed_unchanged"
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "715563e15a1ce77e36a2a066e61fc2f5ee23e27833cfad84bbba43c8b6bd9956",
+    "afterFileSha256": "f3fcff86a7f1d99cbaa1f17da92d1c00c18f8d7e21e202b9f16f0d6e80a8fb84",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "715563e15a1ce77e36a2a066e61fc2f5ee23e27833cfad84bbba43c8b6bd9956",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..0] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "Linda和妈妈找书包十一轮对话拆分，音乐会与野餐回忆保持完整发言。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [
+        {
+          "index": 0,
+          "before": [
+            "Linda: Mom, I'm really worried.\nMom: Why? What's wrong?\nLinda: I can't find my schoolbag.\nMom: Well, where did you last put it?\nLinda: I can't remember! I attended a concert yesterday so it might still be in the music hall.\nMom: Do you have anything valuable in your schoolbag?\nLinda: No, just my books, my pink hair band and some tennis balls.\nMom: So it can't be stolen.\nLinda: Oh, wait! I went to a picnic after the concert. I remember I had my schoolbag with me at the picnic.\nMom: So could it still be at the park?\nLinda: Yes. I left early, before the rest of my friends. I think somebody must have picked it up. I'll call them now to check if anybody has it."
+          ],
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Linda: Mom, I'm really worried."
+            },
+            {
+              "type": "paragraph",
+              "text": "Mom: Why? What's wrong?"
+            },
+            {
+              "type": "paragraph",
+              "text": "Linda: I can't find my schoolbag."
+            },
+            {
+              "type": "paragraph",
+              "text": "Mom: Well, where did you last put it?"
+            },
+            {
+              "type": "paragraph",
+              "text": "Linda: I can't remember! I attended a concert yesterday so it might still be in the music hall."
+            },
+            {
+              "type": "paragraph",
+              "text": "Mom: Do you have anything valuable in your schoolbag?"
+            },
+            {
+              "type": "paragraph",
+              "text": "Linda: No, just my books, my pink hair band and some tennis balls."
+            },
+            {
+              "type": "paragraph",
+              "text": "Mom: So it can't be stolen."
+            },
+            {
+              "type": "paragraph",
+              "text": "Linda: Oh, wait! I went to a picnic after the concert. I remember I had my schoolbag with me at the picnic."
+            },
+            {
+              "type": "paragraph",
+              "text": "Mom: So could it still be at the park?"
+            },
+            {
+              "type": "paragraph",
+              "text": "Linda: Yes. I left early, before the rest of my friends. I think somebody must have picked it up. I'll call them now to check if anybody has it."
+            }
+          ],
+          "reason": "每行具有明确的发言人及完整轮次，分块保留各对话轮次。"
+        }
+      ],
+      "blockEdits": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/2997c60917bd48fb0a47d5ea3ed3c50ffe388e531690ffa8ec9c0d2ab01cf114.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "240682fe2f50c19409ce9fc691f34771683d0fdaccd5d4db15730979e748fc99"
+        }
+      ]
+    }
+  },
+  "status": "passed_edited",
+  "previousRevisionSha256": "2997c60917bd48fb0a47d5ea3ed3c50ffe388e531690ffa8ec9c0d2ab01cf114"
 }

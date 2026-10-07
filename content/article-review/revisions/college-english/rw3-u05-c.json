@@ -82,30 +82,45 @@
   },
   "sources": [
     {
-      "path": "content/College-English/NHCE4-RW3.pdf",
-      "locator": "PDF 148-149，印刷页 133-134，完整正文与标题逐段核对",
+      "path": "content/article-review/history/7dfc876e089bcda3e75d0618bb9acdf4596f22a2059103bb52cf2a7df13351d7.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
       "checked": true,
-      "sha256": "40418e1f32f5db4eaf6f091227217121109219515e2ffd6b68791927d506afe8"
-    },
-    {
-      "path": "content/College-English/NHCE4-RW3/NHCE4-RW3_148.jpg",
-      "locator": "已打开教材图页并通读复核正文",
-      "checked": true,
-      "sha256": "994e355593d2b2ada2a8fb5d69760702b62f16e712fa3ac37f361dcd63633a06"
-    },
-    {
-      "path": "content/College-English/NHCE4-RW3/NHCE4-RW3_149.jpg",
-      "locator": "已打开教材图页并通读复核正文",
-      "checked": true,
-      "sha256": "2b19baf90fbe90021caace1b08fe9bc23b6bbd202a87846968c679d1cd8906fd"
+      "sha256": "b6639f24d4f1dd26f618aa8b98cc4f3efe33cc4444612896bd769260228ebd34"
     }
   ],
   "corrections": [],
   "fullReadConfirmed": true,
   "recheckConfirmed": true,
   "reviewer": "Codex",
-  "reviewedAt": "2026-10-02T09:16:23+00:00",
-  "notes": "6段全文与PDF148–149图页通读核对，第3段跨页及第5段跨栏完整。保留嫦娥五号、天宫核心舱、天问一号/祝融的文章历史背景；2035月球站是当时路线图与预测，后续和平发展和非零和观点属于作者评论，不当作已完成事件或改写政策立场。无排版/OCR或语义改动。",
+  "reviewedAt": "2026-10-07T07:32:14+00:00",
+  "notes": "全文及未改动输出复核：探月火星与空间站成果、和平愿景、太空资源、民用改变、未来科研与合作六段完整；短未来科研段为概括，不与相邻主题强并。",
   "issues": [],
-  "status": "passed_unchanged"
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "e0510c2282567aae559de46c9a412460ed90cd54ed4bd39187023e5a4a541e5d",
+    "afterFileSha256": "e0510c2282567aae559de46c9a412460ed90cd54ed4bd39187023e5a4a541e5d",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "e0510c2282567aae559de46c9a412460ed90cd54ed4bd39187023e5a4a541e5d",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "完整 title、blocks[0..5]及完全相同的text；正文及内嵌中文、引语、对话和列举均已逐项通读；无改动输出按全文再次复核。",
+      "notes": "全文及未改动输出复核：探月火星与空间站成果、和平愿景、太空资源、民用改变、未来科研与合作六段完整；短未来科研段为概括，不与相邻主题强并。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/7dfc876e089bcda3e75d0618bb9acdf4596f22a2059103bb52cf2a7df13351d7.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "b6639f24d4f1dd26f618aa8b98cc4f3efe33cc4444612896bd769260228ebd34"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "7dfc876e089bcda3e75d0618bb9acdf4596f22a2059103bb52cf2a7df13351d7"
 }

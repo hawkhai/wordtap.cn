@@ -1,0 +1,21 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "cb8cd2a201ae12fe1bf772dfde7669537b0a049a7b0c1a02649eb4f973940dd5",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title与blocks[0..5]全文逐段阅读；text等于完整blocks连接。内存应用明确决定并验证后，复核输出blocks[0..5]全文与标题/引语/自然段边界。",
+  "notes": "6块全文核读命令执行与习惯模式、销售三阶段、员工训练和场景距离影响；列举、心理学术语及例证同属对应主题段，无断裂句。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/fe578e058bdefe5f6ddabf03df2755c9eca88922c58013334e239e405926596a.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "53355d1a2929a4f4c3c619298420f54b18563c9b806a83a3dad6dd9ac1fdbcbe"
+    }
+  ]
+}

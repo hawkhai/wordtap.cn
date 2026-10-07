@@ -40,24 +40,45 @@
   },
   "sources": [
     {
-      "path": "content/pep-english/raw/senior-required-1.pdf",
-      "locator": "PDF第33-33页，标题与完整正文逐行核对",
+      "path": "content/article-review/history/bba0bc7348a18a45c99e033b8fe7fcbfe4349849fa7500d50f2c1b3e8fbddfe2.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
       "checked": true,
-      "sha256": "ffe985a370964820aa003008f48c7cf17b5e0dff8eb29fe54cd4743b0c4e8c79"
-    },
-    {
-      "path": "content/pep-english/raw/senior-required-1/senior-required-1_33.jpg",
-      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
-      "checked": true,
-      "sha256": "3f3a53aef5eeff0490c28d0eb21b93a8e44605cb0c8e48d4fd6c48b0feca728e"
+      "sha256": "f0de5a11529645a5201baa26a7856abff1737d5b54eb2b162ad607854619bc57"
     }
   ],
   "corrections": [],
   "fullReadConfirmed": true,
   "recheckConfirmed": true,
   "reviewer": "Codex",
-  "reviewedAt": "2026-10-02T05:22:08+00:00",
-  "notes": "PDF第33页上半秘鲁地理历史两段逐行核对，海岸/安第斯/雨林、1400s/1500s、16世纪与1821、西班牙语等均与教材一致。下半旅游宣传册为下一篇，不混并。",
+  "reviewedAt": "2026-10-07T07:30:10+00:00",
+  "notes": "秘鲁地理与印加及西班牙历史各自为完整自然段，保持两段。",
   "issues": [],
-  "status": "passed_unchanged"
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "afb859c4abe06d663fc75007092ac76e4f34ceae28a4f2fb67160918800e18bb",
+    "afterFileSha256": "afb859c4abe06d663fc75007092ac76e4f34ceae28a4f2fb67160918800e18bb",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "afb859c4abe06d663fc75007092ac76e4f34ceae28a4f2fb67160918800e18bb",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..1] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "秘鲁地理与印加及西班牙历史各自为完整自然段，保持两段。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/bba0bc7348a18a45c99e033b8fe7fcbfe4349849fa7500d50f2c1b3e8fbddfe2.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "f0de5a11529645a5201baa26a7856abff1737d5b54eb2b162ad607854619bc57"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "bba0bc7348a18a45c99e033b8fe7fcbfe4349849fa7500d50f2c1b3e8fbddfe2"
 }

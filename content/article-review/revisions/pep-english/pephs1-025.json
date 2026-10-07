@@ -60,24 +60,45 @@
   },
   "sources": [
     {
-      "path": "content/pep-english/raw/senior-selective-1.pdf",
-      "locator": "PDF第92-92页，标题与完整正文逐行核对",
+      "path": "content/article-review/history/d0dd0735650ae9a10a098b230b7445c732a0177d5aaf189f5839843ccd8e2e8e.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
       "checked": true,
-      "sha256": "94ec493439239c436326e228e3d3ad78c7053ac5abc005db5739119f6a98c33d"
-    },
-    {
-      "path": "content/pep-english/raw/senior-selective-1/senior-selective-1_92.jpg",
-      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
-      "checked": true,
-      "sha256": "f67ad02bdcd41c9a335642a6adbd7619356084f4eb840e7e34c801e2468380b4"
+      "sha256": "8362804c3a0479a1deefd7c52c8ac26e3cc0ca94dbf402b072db9b06e5501589"
     }
   ],
   "corrections": [],
   "fullReadConfirmed": true,
   "recheckConfirmed": true,
   "reviewer": "Codex",
-  "reviewedAt": "2026-10-02T06:27:04+00:00",
-  "notes": "通读并逐行核对PDF92页四段全文及标题；狗、大象、海豚三类肢体语言示例完整，图片绕排没有形成额外段落，未发现漏字、错词或断句问题，保留教材概括性的动物行为描述。",
+  "reviewedAt": "2026-10-07T07:32:27+00:00",
+  "notes": "动物肢体语言引言后按狗、大象、海豚各为完整介绍段，动作与情绪例证不拆碎。",
   "issues": [],
-  "status": "passed_unchanged"
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "06285e0bc2fdb2baf804d25acbb34341299e374a539f4b17b737f91af71adcf6",
+    "afterFileSha256": "06285e0bc2fdb2baf804d25acbb34341299e374a539f4b17b737f91af71adcf6",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "06285e0bc2fdb2baf804d25acbb34341299e374a539f4b17b737f91af71adcf6",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..3] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "动物肢体语言引言后按狗、大象、海豚各为完整介绍段，动作与情绪例证不拆碎。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/d0dd0735650ae9a10a098b230b7445c732a0177d5aaf189f5839843ccd8e2e8e.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "8362804c3a0479a1deefd7c52c8ac26e3cc0ca94dbf402b072db9b06e5501589"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "d0dd0735650ae9a10a098b230b7445c732a0177d5aaf189f5839843ccd8e2e8e"
 }

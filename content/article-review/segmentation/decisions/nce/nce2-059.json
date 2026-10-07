@@ -1,0 +1,26 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "138518b472d1e5356d5a36da36e0b276410c32251a4d0fd85686c8eb7a50a0a3",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title/titleZh、question/questionZh、bodyText全部11行、bodyTextZh全部11行及sentences[0..13]的完整文字；重复正文与字幕文本逐字比对，非正文字幕另读。操作在内存应用并validate_layout_change，修复后的双语全文重新通读。",
+  "notes": "Rex开门；训练自己进门、求出门发现、进出反复坏习惯三段，拆门后离去结尾独立。 text与bodyText同步；sentences对象及时间、角色、索引原样保留。",
+  "issues": [],
+  "display": {
+    "text": "Why did Rex run away?\n\nOur dog, Rex, used to sit outside our front gate and bark. Every time he wanted to come into the garden he would bark until someone opened the gate. As the neighbours complained of the noise, my husband spent weeks training him to press his paw on the latch to let himself in. Rex soon became an expert at opening the gate.\nHowever, when I was going out shopping last week, I noticed him in the garden near the gate. This time he was barking so that someone would let him out!\nSince then, he has developed another bad habit. As soon as he opens the gate from the outside, he comes into the garden and waits until the gate shuts. Then he sits and barks until someone lets him out. After this he immediately lets himself in and begins barking again.\nYesterday my husband removed the gate and Rex got so annoyed we have not seen him since.",
+    "bodyText": "Our dog, Rex, used to sit outside our front gate and bark. Every time he wanted to come into the garden he would bark until someone opened the gate. As the neighbours complained of the noise, my husband spent weeks training him to press his paw on the latch to let himself in. Rex soon became an expert at opening the gate.\nHowever, when I was going out shopping last week, I noticed him in the garden near the gate. This time he was barking so that someone would let him out!\nSince then, he has developed another bad habit. As soon as he opens the gate from the outside, he comes into the garden and waits until the gate shuts. Then he sits and barks until someone lets him out. After this he immediately lets himself in and begins barking again.\nYesterday my husband removed the gate and Rex got so annoyed we have not seen him since.",
+    "bodyTextZh": "我们的狗雷克斯过去常常坐在前门外吠叫。每次他想进入花园时，都会不停地吠叫，直到有人打开大门。由于邻居们抱怨噪音太大，我丈夫花了好几个星期训练它用爪子按门闩，好让它自己进来。雷克斯很快就掌握了开门的技巧。\n然而，上周我去购物的时候，我在大门附近的花园里看到了他。这次他大声吠叫，就是为了有人能放他出去！\n从那以后，他又养成了一个坏习惯。他一从外面打开大门，就走进花园，然后等待大门关上。然后他就坐着，不停地叫，直到有人放他出去。之后，他立刻自己进了门，又开始吠叫起来。\n昨天我丈夫把门拆了，雷克斯气坏了，从那以后我们就再也没见过它了。"
+  },
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/54cd08f58301874de2d328d04affc574ed0116e0b79610c3dc656147ffeeed73.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "f7ae192cd6ca864bbe98c493ee2cd3e9c6a8a8a00a7641c6958b39c0af94594e"
+    }
+  ]
+}

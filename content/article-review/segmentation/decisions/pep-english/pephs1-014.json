@@ -1,0 +1,21 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "1c97dd3234126726ba10798804c976e15119cace9ca0081e8ca30377a7d903ad",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title；全文 blocks[0..5] 与对应 text；现有正文/对话/题干逐块通读复核。",
+  "notes": "袁隆平六段依人物概述、求学动机、杂交研发、成果、淡泊名利与梦想展开，保留完整自然段。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/45ce761fd314f9ee7ea084bad9da3c3ef32b2959d13f079de7f0471b778cf451.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "bc7468dfd18cd11020ceb142dcd54d1b3d3131a06f99c957cafdb1f398b7ec04"
+    }
+  ]
+}

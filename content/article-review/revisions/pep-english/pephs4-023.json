@@ -3,7 +3,7 @@
   "course": "pep-english",
   "articleId": "pephs4-023",
   "beforeDisplaySha256": "f67c6ae4f33d30eefdb905d689576e4426ac48ccc7687ad0aae56aee30672ef3",
-  "afterDisplaySha256": "f67c6ae4f33d30eefdb905d689576e4426ac48ccc7687ad0aae56aee30672ef3",
+  "afterDisplaySha256": "70923167ebff3a316b2f18668b353cb1c3c8981eaa4f718c847cdb5d7870f588",
   "baselineDisplay": {
     "title": "Journey to the Centre of the Earth",
     "section": "Reading and Writing",
@@ -74,7 +74,12 @@
       {
         "type": "paragraph",
         "lang": "en",
-        "text": "“It’s a … sea!” I cried.\n“Yes,” my uncle replied, “and I shall give it my name, as it was discovered by me!”"
+        "text": "“It’s a … sea!” I cried."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "“Yes,” my uncle replied, “and I shall give it my name, as it was discovered by me!”"
       },
       {
         "type": "paragraph",
@@ -94,7 +99,17 @@
       {
         "type": "paragraph",
         "lang": "en",
-        "text": "“Ready to walk a little now?” asked my uncle.\n“Yes, certainly.”\n“Well, let us follow the shore then,” he said, and we began to explore."
+        "text": "“Ready to walk a little now?” asked my uncle."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "“Yes, certainly.”"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "“Well, let us follow the shore then,” he said, and we began to explore."
       },
       {
         "type": "paragraph",
@@ -104,7 +119,12 @@
       {
         "type": "paragraph",
         "lang": "en",
-        "text": "“Wonderful!” cried my uncle. “A botanist never had such a feast as this! Now look under your feet.”\n“Oh yes!” I exclaimed."
+        "text": "“Wonderful!” cried my uncle. “A botanist never had such a feast as this! Now look under your feet.”"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "“Oh yes!” I exclaimed."
       },
       {
         "type": "paragraph",
@@ -120,30 +140,102 @@
   },
   "sources": [
     {
-      "path": "content/pep-english/raw/senior-selective-4.pdf",
-      "locator": "PDF第71-72页，标题与完整正文逐行核对",
+      "path": "content/article-review/history/140a5a469aa445d09734b840816d2584b561df975975981786c41cf110300b11.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
       "checked": true,
-      "sha256": "2ad7555a13eb420aa70497f9faa2541fdb502b7ffc4e063e87c60cce88f1b4a3"
-    },
-    {
-      "path": "content/pep-english/raw/senior-selective-4/senior-selective-4_71.jpg",
-      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
-      "checked": true,
-      "sha256": "d40164609111fa2e6287bfc73b353a7f09246101321506408fad5c79c541ab73"
-    },
-    {
-      "path": "content/pep-english/raw/senior-selective-4/senior-selective-4_72.jpg",
-      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
-      "checked": true,
-      "sha256": "85a04ab0da63cda60714f162703d3837d445b53fe22e8eb3b0fc0f50b8f3b8c3"
+      "sha256": "7b105f528cb9440c90f9982d20e9e7f55ddb105faea8032a6fc486121fa7fba4"
     }
   ],
   "corrections": [],
   "fullReadConfirmed": true,
   "recheckConfirmed": true,
   "reviewer": "Codex",
-  "reviewedAt": "2026-10-02T07:50:06+00:00",
-  "notes": "完整通读第71—72页《地心游记》改编节选并对照十个显示块，对话换行及跨页衔接正确。地下海、无热光源和巨型蘑菇为凡尔纳小说想象，保留教材文学表达与结尾疑问，未加入页外问答。",
+  "reviewedAt": "2026-10-07T07:39:42+00:00",
+  "notes": "地心游记自然描写段完整，三个原块内叔侄对白按现有换行明确轮次拆开，其余叙述不细拆。",
   "issues": [],
-  "status": "passed_unchanged"
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "8bd044594f53486dc36b6c9b2204d81f5bac6f8e8d27063ffc4a871d4dc847e2",
+    "afterFileSha256": "77311f16873e71fb6d74b9b042c2eba1e9c6e9aff2e203271d3db504cc81f815",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "8bd044594f53486dc36b6c9b2204d81f5bac6f8e8d27063ffc4a871d4dc847e2",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..9] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "地心游记自然描写段完整，三个原块内叔侄对白按现有换行明确轮次拆开，其余叙述不细拆。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [
+        {
+          "index": 1,
+          "before": [
+            "“It’s a … sea!” I cried.\n“Yes,” my uncle replied, “and I shall give it my name, as it was discovered by me!”"
+          ],
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "“It’s a … sea!” I cried."
+            },
+            {
+              "type": "paragraph",
+              "text": "“Yes,” my uncle replied, “and I shall give it my name, as it was discovered by me!”"
+            }
+          ],
+          "reason": "块内原换行分别对应叔叔与叙述者的独立发言，保留每轮及相连动作，拆分不同说话者。"
+        },
+        {
+          "index": 5,
+          "before": [
+            "“Ready to walk a little now?” asked my uncle.\n“Yes, certainly.”\n“Well, let us follow the shore then,” he said, and we began to explore."
+          ],
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "“Ready to walk a little now?” asked my uncle."
+            },
+            {
+              "type": "paragraph",
+              "text": "“Yes, certainly.”"
+            },
+            {
+              "type": "paragraph",
+              "text": "“Well, let us follow the shore then,” he said, and we began to explore."
+            }
+          ],
+          "reason": "块内原换行分别对应叔叔与叙述者的独立发言，保留每轮及相连动作，拆分不同说话者。"
+        },
+        {
+          "index": 7,
+          "before": [
+            "“Wonderful!” cried my uncle. “A botanist never had such a feast as this! Now look under your feet.”\n“Oh yes!” I exclaimed."
+          ],
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "“Wonderful!” cried my uncle. “A botanist never had such a feast as this! Now look under your feet.”"
+            },
+            {
+              "type": "paragraph",
+              "text": "“Oh yes!” I exclaimed."
+            }
+          ],
+          "reason": "块内原换行分别对应叔叔与叙述者的独立发言，保留每轮及相连动作，拆分不同说话者。"
+        }
+      ],
+      "blockEdits": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/140a5a469aa445d09734b840816d2584b561df975975981786c41cf110300b11.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "7b105f528cb9440c90f9982d20e9e7f55ddb105faea8032a6fc486121fa7fba4"
+        }
+      ]
+    }
+  },
+  "status": "passed_edited",
+  "previousRevisionSha256": "140a5a469aa445d09734b840816d2584b561df975975981786c41cf110300b11"
 }

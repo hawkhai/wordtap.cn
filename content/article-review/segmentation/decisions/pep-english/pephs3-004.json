@@ -1,0 +1,21 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "140fa19ad1e22626fa5bf2119734525d2ad66072be9fb0745adba87facc6e176",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title；全文 blocks[0..7] 与对应 text；现有正文/对话/题干逐块通读复核。",
+  "notes": "Wang Lu来信以身体问题、改变决心、减糖、运动、成果五个正文段展开，信件首尾保留。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/b1554c72522cdbae0e4eac2bd74a1d353252f0475e7538a559f16e5538a0eb61.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "eda80861bc818bb92e9c626d3309ce7bbd2ebab64ec2eaf73785d4659e63625c"
+    }
+  ]
+}

@@ -1,0 +1,323 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "a163c71e1872f1c25ee42ead9923ce37f93d8a5a19f0dfc8fe162ea33c75b116",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title；全文 blocks[0..231] 与对应 text；现有正文/对话/题干逐块通读复核。",
+  "notes": "完整通读The silent village词表、三组英汉正文、十注释、22問答、渡溪续写提纲和范文、12题答案。正文偏村印象/林间渡船/村内沉默经历三段保留。范文坐岸叙述、丈夫回忆两次困境与妻子答话分别成块，仅合并丈夫话中断行。",
+  "issues": [],
+  "mergeBlocks": [
+    {
+      "start": 24,
+      "end": 28,
+      "before": [
+        "In this much-travelled world, there are still thousands of places which are inaccessible",
+        "to tourists. We always assume that villagers in remote places are friendly and",
+        "hospitable. But people who are cut off not only from foreign tourists, but even from",
+        "their own countrymen can be hostile to travellers. Visits to really remote villages are",
+        "seldom enjoyable -- as my wife and I discovered during a tour through the Balkans."
+      ],
+      "text": "In this much-travelled world, there are still thousands of places which are inaccessible to tourists. We always assume that villagers in remote places are friendly and hospitable. But people who are cut off not only from foreign tourists, but even from their own countrymen can be hostile to travellers. Visits to really remote villages are seldom enjoyable -- as my wife and I discovered during a tour through the Balkans.",
+      "reason": "按英汉对应与故事自然段归并续行；范文直接引语保持发言轮次，词表及各题选项独立。"
+    },
+    {
+      "start": 29,
+      "end": 32,
+      "before": [
+        "在这个游客往来频繁的世界上，仍有成千上万个游人足迹未至的地方。人们总是",
+        "以为偏僻地方的村民们热情好客。但是，那些不但与外国旅游者隔绝，而且与本",
+        "国同胞隔绝的人们有可能对游客抱有敌意。到真正偏僻的村庄去旅游并不是一件",
+        "愉快的事情，我与妻子在一次周游巴尔干半岛时对此深有体会。"
+      ],
+      "text": "在这个游客往来频繁的世界上，仍有成千上万个游人足迹未至的地方。人们总是以为偏僻地方的村民们热情好客。但是，那些不但与外国旅游者隔绝，而且与本国同胞隔绝的人们有可能对游客抱有敌意。到真正偏僻的村庄去旅游并不是一件愉快的事情，我与妻子在一次周游巴尔干半岛时对此深有体会。",
+      "reason": "按英汉对应与故事自然段归并续行；范文直接引语保持发言轮次，词表及各题选项独立。"
+    },
+    {
+      "start": 33,
+      "end": 45,
+      "before": [
+        "We had spent several days in a small town and visited a number of old churches in the",
+        "vicinity. These attracted many visitors, for they were not only of great architectural",
+        "interest, but contained a large number of beautifully preserved frescoes as well. On",
+        "the day before our departure, several bus loads of tourists descended on the town. This",
+        "was more than we could bear, so we decided to spend our last day exploring the",
+        "countryside. Taking a path which led out of the town, we crossed a few fields until we",
+        "came to a dense wood. We expected the path to end abruptly, but we found that it",
+        "traced its way through the trees. We tramped through the wood for over two hours",
+        "until we arrived at a deep stream. We could see that the path continued on the other",
+        "side, but we had no idea how we could get across the stream. Suddenly my wife",
+        "spotted a boat moored to the bank. In it there was a boatman fast asleep. We gently",
+        "woke him up and asked him to ferry us to the other side. Though he was reluctant to",
+        "do so at first, we eventually persuaded him to take us."
+      ],
+      "text": "We had spent several days in a small town and visited a number of old churches in the vicinity. These attracted many visitors, for they were not only of great architectural interest, but contained a large number of beautifully preserved frescoes as well. On the day before our departure, several bus loads of tourists descended on the town. This was more than we could bear, so we decided to spend our last day exploring the countryside. Taking a path which led out of the town, we crossed a few fields until we came to a dense wood. We expected the path to end abruptly, but we found that it traced its way through the trees. We tramped through the wood for over two hours until we arrived at a deep stream. We could see that the path continued on the other side, but we had no idea how we could get across the stream. Suddenly my wife spotted a boat moored to the bank. In it there was a boatman fast asleep. We gently woke him up and asked him to ferry us to the other side. Though he was reluctant to do so at first, we eventually persuaded him to take us.",
+      "reason": "按英汉对应与故事自然段归并续行；范文直接引语保持发言轮次，词表及各题选项独立。"
+    },
+    {
+      "start": 46,
+      "end": 54,
+      "before": [
+        "我们在一座小镇上逗留了几天，参观了附近的许多古老的教堂。这些教堂吸引了",
+        "大量游客，不仅是因为建筑风格奇特，而且还存有大量保存完好的壁画。我们离",
+        "开小镇的前一天，镇上来了几辆满载游客的公共汽车。人多得使我们难以忍受，",
+        "于是我们决定利用最后一天去乡间一游。我们走上了一条出镇的小路，穿过几块",
+        "农田，来到一片茂密的树林。我们原以为小路会到此突然终止，没想到它在树林",
+        "中继续向前延伸。我们在树林中跋涉了两个多小时，到了一条深溪边。我们可以",
+        "看到小路在深溪对岸继续向前伸展，但却不知如何越过这道深溪。突然，妻子发",
+        "现岸边泊着一条小船，船上有一船夫在呼呼大睡。我们轻轻地把他唤醒，请他把",
+        "我们摆渡过溪。一开始，他很不愿意，但经劝说，终于同意了。"
+      ],
+      "text": "我们在一座小镇上逗留了几天，参观了附近的许多古老的教堂。这些教堂吸引了大量游客，不仅是因为建筑风格奇特，而且还存有大量保存完好的壁画。我们离开小镇的前一天，镇上来了几辆满载游客的公共汽车。人多得使我们难以忍受，于是我们决定利用最后一天去乡间一游。我们走上了一条出镇的小路，穿过几块农田，来到一片茂密的树林。我们原以为小路会到此突然终止，没想到它在树林中继续向前延伸。我们在树林中跋涉了两个多小时，到了一条深溪边。我们可以看到小路在深溪对岸继续向前伸展，但却不知如何越过这道深溪。突然，妻子发现岸边泊着一条小船，船上有一船夫在呼呼大睡。我们轻轻地把他唤醒，请他把我们摆渡过溪。一开始，他很不愿意，但经劝说，终于同意了。",
+      "reason": "按英汉对应与故事自然段归并续行；范文直接引语保持发言轮次，词表及各题选项独立。"
+    },
+    {
+      "start": 59,
+      "end": 60,
+      "before": [
+        "4 Balkans，巴尔干半岛，它位于欧洲东南部，包括阿尔巴尼亚、保加利亚、希腊、",
+        "罗马尼亚东南部分、土耳其欧洲部分和前南斯拉夫各州。"
+      ],
+      "text": "4 Balkans，巴尔干半岛，它位于欧洲东南部，包括阿尔巴尼亚、保加利亚、希腊、罗马尼亚东南部分、土耳其欧洲部分和前南斯拉夫各州。",
+      "reason": "按英汉对应与故事自然段归并续行；范文直接引语保持发言轮次，词表及各题选项独立。"
+    },
+    {
+      "start": 62,
+      "end": 63,
+      "before": [
+        "6 taking a path which led out of the town 是现在分词短语作时间状语，which 引导",
+        "定语从句修饰 path。意即“走上了一条出镇的小路”。"
+      ],
+      "text": "6 taking a path which led out of the town 是现在分词短语作时间状语，which 引导定语从句修饰 path。意即“走上了一条出镇的小路”。",
+      "reason": "按英汉对应与故事自然段归并续行；范文直接引语保持发言轮次，词表及各题选项独立。"
+    },
+    {
+      "start": 65,
+      "end": 82,
+      "before": [
+        "The path led to a tiny village perched on the steep sides of a mountain. The place",
+        "consisted of a straggling unmade road which was lined on either side by small houses.",
+        "Even under a clear blue sky, the village looked forbidding, as all the houses were built",
+        "of grey mud bricks. The village seemed deserted, the only sign of life being an",
+        "ugly-looking black goat on a short length of rope tied to a tree in a field nearby.",
+        "Sitting down on a dilapidated wooden fence near the field, we opened a couple of tins",
+        "of sardines and had a picnic lunch. All at once, I noticed that my wife seemed to be",
+        "filled with alarm. Looking up I saw that we were surrounded by children in rags who",
+        "were looking at us silently as we ate. We offered them food and spoke to them kindly,",
+        "but they remained motionless. I concluded that they were simply shy of strangers.",
+        "When we later walked down the main street of the village, we were followed by a",
+        "silent procession of children. The village which had seemed deserted, immediately",
+        "came to life. Faces appeared at windows. Men in shirt sleeves stood outside their",
+        "houses and glared at us. Old women in black shawls peered at us from doorways. The",
+        "most frightening thing of all was that not a sound could be heard. There was no doubt",
+        "that we were unwelcome visitors. We needed no further warning. Turning back down",
+        "the main street, we quickened our pace and made our way rapidly towards the stream",
+        "where we hoped the boatman was waiting."
+      ],
+      "text": "The path led to a tiny village perched on the steep sides of a mountain. The place consisted of a straggling unmade road which was lined on either side by small houses. Even under a clear blue sky, the village looked forbidding, as all the houses were built of grey mud bricks. The village seemed deserted, the only sign of life being an ugly-looking black goat on a short length of rope tied to a tree in a field nearby. Sitting down on a dilapidated wooden fence near the field, we opened a couple of tins of sardines and had a picnic lunch. All at once, I noticed that my wife seemed to be filled with alarm. Looking up I saw that we were surrounded by children in rags who were looking at us silently as we ate. We offered them food and spoke to them kindly, but they remained motionless. I concluded that they were simply shy of strangers. When we later walked down the main street of the village, we were followed by a silent procession of children. The village which had seemed deserted, immediately came to life. Faces appeared at windows. Men in shirt sleeves stood outside their houses and glared at us. Old women in black shawls peered at us from doorways. The most frightening thing of all was that not a sound could be heard. There was no doubt that we were unwelcome visitors. We needed no further warning. Turning back down the main street, we quickened our pace and made our way rapidly towards the stream where we hoped the boatman was waiting.",
+      "reason": "按英汉对应与故事自然段归并续行；范文直接引语保持发言轮次，词表及各题选项独立。"
+    },
+    {
+      "start": 83,
+      "end": 96,
+      "before": [
+        "顺着小路，我们来到一个座落在陡峭山坡上的小村庄。这儿有一条未经修筑的弯",
+        "弯曲曲的道路，路两边排列着一些矮小的农舍。农舍全用灰色的土坯建成，因此，",
+        "即使在晴朗的蓝天底下，村庄看上去也会令人感到难以亲近。村里似乎无人居住，",
+        "唯一的生命迹象是附近田里一只面目可憎的黑山羊，用一截短绳拴在一棵树上。",
+        "我们在田边一堵东倒西歪的篱笆墙上坐了下来，打开几听沙丁鱼罐头，吃了一顿",
+        "野外午餐。突然，我注意到妻子十分惊恐。我抬头一看，发现我们被一群衣衫褴",
+        "褛的小孩团团围住了，他们在默不作声地看着我们吃饭。我们给他们东西吃，客",
+        "客气气地同他们交谈，但他们却一动也不动。我认为这不过是他们在陌生人面前",
+        "表现出的害羞。后来，我们在村里的主要街道上行走的时候，一队默不作声的孩",
+        "子跟在我们后头。刚才还似乎空荡荡的村庄一下子活跃了起来，窗口露出了一张",
+        "张面孔，只穿着衬衣的男人们站在屋子外面凶狠地盯着我们，披黑纱巾的老妇人",
+        "站在门口偷偷地瞅着我们。最令人害怕的是到处没有一点声音。毫无疑问，我们",
+        "的来访是不受欢迎的。我们不需要进一步的警告了，便掉转身子，沿着那条主要",
+        "的街道加快步伐，快速地朝深溪边走去，希望船夫还在那儿等着我们。"
+      ],
+      "text": "顺着小路，我们来到一个座落在陡峭山坡上的小村庄。这儿有一条未经修筑的弯弯曲曲的道路，路两边排列着一些矮小的农舍。农舍全用灰色的土坯建成，因此，即使在晴朗的蓝天底下，村庄看上去也会令人感到难以亲近。村里似乎无人居住，唯一的生命迹象是附近田里一只面目可憎的黑山羊，用一截短绳拴在一棵树上。我们在田边一堵东倒西歪的篱笆墙上坐了下来，打开几听沙丁鱼罐头，吃了一顿野外午餐。突然，我注意到妻子十分惊恐。我抬头一看，发现我们被一群衣衫褴褛的小孩团团围住了，他们在默不作声地看着我们吃饭。我们给他们东西吃，客客气气地同他们交谈，但他们却一动也不动。我认为这不过是他们在陌生人面前表现出的害羞。后来，我们在村里的主要街道上行走的时候，一队默不作声的孩子跟在我们后头。刚才还似乎空荡荡的村庄一下子活跃了起来，窗口露出了一张张面孔，只穿着衬衣的男人们站在屋子外面凶狠地盯着我们，披黑纱巾的老妇人站在门口偷偷地瞅着我们。最令人害怕的是到处没有一点声音。毫无疑问，我们的来访是不受欢迎的。我们不需要进一步的警告了，便掉转身子，沿着那条主要的街道加快步伐，快速地朝深溪边走去，希望船夫还在那儿等着我们。",
+      "reason": "按英汉对应与故事自然段归并续行；范文直接引语保持发言轮次，词表及各题选项独立。"
+    },
+    {
+      "start": 98,
+      "end": 99,
+      "before": [
+        "8 the only sign of life being an ugly-looking black goat，这是一个由名词和分词组成",
+        "的独立主格结构，作状语，说明 seemed deserted。"
+      ],
+      "text": "8 the only sign of life being an ugly-looking black goat，这是一个由名词和分词组成的独立主格结构，作状语，说明 seemed deserted。",
+      "reason": "按英汉对应与故事自然段归并续行；范文直接引语保持发言轮次，词表及各题选项独立。"
+    },
+    {
+      "start": 105,
+      "end": 106,
+      "before": [
+        "2 What do we always think villagers are like in remote places? (Friendly and",
+        "hospitable.)"
+      ],
+      "text": "2 What do we always think villagers are like in remote places? (Friendly and hospitable.)",
+      "reason": "按英汉对应与故事自然段归并续行；范文直接引语保持发言轮次，词表及各题选项独立。"
+    },
+    {
+      "start": 110,
+      "end": 111,
+      "before": [
+        "6 What did these churches contain? (A large number of beautifully preserved",
+        "frescoes.)"
+      ],
+      "text": "6 What did these churches contain? (A large number of beautifully preserved frescoes.)",
+      "reason": "按英汉对应与故事自然段归并续行；范文直接引语保持发言轮次，词表及各题选项独立。"
+    },
+    {
+      "start": 112,
+      "end": 113,
+      "before": [
+        "7 What happened on the day before their departure? (Several bus loads of tourists",
+        "descended on the town.)"
+      ],
+      "text": "7 What happened on the day before their departure? (Several bus loads of tourists descended on the town.)",
+      "reason": "按英汉对应与故事自然段归并续行；范文直接引语保持发言轮次，词表及各题选项独立。"
+    },
+    {
+      "start": 120,
+      "end": 121,
+      "before": [
+        "14 Why did the village look forbidding? (Because all the houses were built of grey",
+        "mud bricks.)"
+      ],
+      "text": "14 Why did the village look forbidding? (Because all the houses were built of grey mud bricks.)",
+      "reason": "按英汉对应与故事自然段归并续行；范文直接引语保持发言轮次，词表及各题选项独立。"
+    },
+    {
+      "start": 123,
+      "end": 124,
+      "before": [
+        "16 The writer and his wife sat down to have a picnic lunch. Where? (On a dilapidated",
+        "wooden fence.)"
+      ],
+      "text": "16 The writer and his wife sat down to have a picnic lunch. Where? (On a dilapidated wooden fence.)",
+      "reason": "按英汉对应与故事自然段归并续行；范文直接引语保持发言轮次，词表及各题选项独立。"
+    },
+    {
+      "start": 126,
+      "end": 127,
+      "before": [
+        "18 Who were they followed by when they walked down the main street of the village?",
+        "(Children.)"
+      ],
+      "text": "18 Who were they followed by when they walked down the main street of the village? (Children.)",
+      "reason": "按英汉对应与故事自然段归并续行；范文直接引语保持发言轮次，词表及各题选项独立。"
+    },
+    {
+      "start": 135,
+      "end": 136,
+      "before": [
+        "• Continue the above passage. Imagine the boatman was not waiting for the author",
+        "and his wife. Describe what happened."
+      ],
+      "text": "• Continue the above passage. Imagine the boatman was not waiting for the author and his wife. Describe what happened.",
+      "reason": "按英汉对应与故事自然段归并续行；范文直接引语保持发言轮次，词表及各题选项独立。"
+    },
+    {
+      "start": 140,
+      "end": 141,
+      "before": [
+        "Development: At first surprised— mistaken the place? walked along bank —",
+        "definitely not there"
+      ],
+      "text": "Development: At first surprised— mistaken the place? walked along bank — definitely not there",
+      "reason": "按英汉对应与故事自然段归并续行；范文直接引语保持发言轮次，词表及各题选项独立。"
+    },
+    {
+      "start": 143,
+      "end": 144,
+      "before": [
+        "Sat down on bank of stream— discussed problem— wife suggested something —",
+        "take off shirts, tie personal belongings in them — swim to other side"
+      ],
+      "text": "Sat down on bank of stream— discussed problem— wife suggested something — take off shirts, tie personal belongings in them — swim to other side",
+      "reason": "按英汉对应与故事自然段归并续行；范文直接引语保持发言轮次，词表及各题选项独立。"
+    },
+    {
+      "start": 148,
+      "end": 149,
+      "before": [
+        "When we reached the stream where we had stepped out of the ferry and where the",
+        "boatman said he would wait, there was no one. There was no boat and no boatman."
+      ],
+      "text": "When we reached the stream where we had stepped out of the ferry and where the boatman said he would wait, there was no one. There was no boat and no boatman.",
+      "reason": "按英汉对应与故事自然段归并续行；范文直接引语保持发言轮次，词表及各题选项独立。"
+    },
+    {
+      "start": 150,
+      "end": 156,
+      "before": [
+        "At first we were surprised and thought that we had perhaps mistaken the place",
+        "where he said he would wait. We walked along the bank of the stream for a few",
+        "hundred yards in one direction, and then in the other. He was definitely not there. I",
+        "was worried that the villagers would be coming down the mountain after us, but we",
+        "couldn't see anybody, and the only noise was the noise of the running stream. We",
+        "called across the stream to attract the attention of anyone on the other side, but",
+        "nothing happened. It seemed that we were stranded."
+      ],
+      "text": "At first we were surprised and thought that we had perhaps mistaken the place where he said he would wait. We walked along the bank of the stream for a few hundred yards in one direction, and then in the other. He was definitely not there. I was worried that the villagers would be coming down the mountain after us, but we couldn't see anybody, and the only noise was the noise of the running stream. We called across the stream to attract the attention of anyone on the other side, but nothing happened. It seemed that we were stranded.",
+      "reason": "按英汉对应与故事自然段归并续行；范文直接引语保持发言轮次，词表及各题选项独立。"
+    },
+    {
+      "start": 158,
+      "end": 159,
+      "before": [
+        "‘Come on,’ I said. ‘We've been in worse situations than this. What about that time",
+        "we got lost in the forest in Germany, and the time the car broke down in Australia?’"
+      ],
+      "text": "‘Come on,’ I said. ‘We've been in worse situations than this. What about that time we got lost in the forest in Germany, and the time the car broke down in Australia?’",
+      "reason": "按英汉对应与故事自然段归并续行；范文直接引语保持发言轮次，词表及各题选项独立。"
+    },
+    {
+      "start": 161,
+      "end": 166,
+      "before": [
+        "And, since I certainly couldn't think of anything better, we did just what she",
+        "suggested. We both took off our shirts, tied our personal belongings in them (purse,",
+        "money, passport, keys and so on), tied the shirts round our waists, and waded into the",
+        "water until we had to swim. And we swam to the other side, where we",
+        "squeezed out our shirts and put them on again wet. Then we walked back to our small",
+        "hotel in the town."
+      ],
+      "text": "And, since I certainly couldn't think of anything better, we did just what she suggested. We both took off our shirts, tied our personal belongings in them (purse, money, passport, keys and so on), tied the shirts round our waists, and waded into the water until we had to swim. And we swam to the other side, where we squeezed out our shirts and put them on again wet. Then we walked back to our small hotel in the town.",
+      "reason": "按英汉对应与故事自然段归并续行；范文直接引语保持发言轮次，词表及各题选项独立。"
+    },
+    {
+      "start": 167,
+      "end": 168,
+      "before": [
+        "Perhaps the most surprising thing was that when we walked into the hotel still",
+        "wet from our swim across the stream, no one said a word!"
+      ],
+      "text": "Perhaps the most surprising thing was that when we walked into the hotel still wet from our swim across the stream, no one said a word!",
+      "reason": "按英汉对应与故事自然段归并续行；范文直接引语保持发言轮次，词表及各题选项独立。"
+    },
+    {
+      "start": 185,
+      "end": 186,
+      "before": [
+        "4 that the path continued on the other side, we wondered how we could",
+        "get across the stream."
+      ],
+      "text": "4 that the path continued on the other side, we wondered how we could get across the stream.",
+      "reason": "按英汉对应与故事自然段归并续行；范文直接引语保持发言轮次，词表及各题选项独立。"
+    }
+  ],
+  "splitBlocks": [],
+  "blockEdits": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/792fcce9dbb124ba0289a434b193d8c6b8df81e94207b1e994e76c9f81455b4d.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "f4a572a89db57addc08172d40c4696e063b54de0a77e43bf892c8beefa35ccac"
+    }
+  ]
+}

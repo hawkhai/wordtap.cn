@@ -112,30 +112,45 @@
   },
   "sources": [
     {
-      "path": "content/College-English/NHCE4-RW4.pdf",
-      "locator": "PDF 158-159，印刷页 143-144，完整正文与标题逐段核对",
+      "path": "content/article-review/history/6ab1ab89a586e104f3b67cbe8715a53774b69a7e42af0c05c51aff963f24851f.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
       "checked": true,
-      "sha256": "5b70c28492928eefbb43a4832275c6fff070e12c7b70455ae03dc64bfa7a0a53"
-    },
-    {
-      "path": "content/College-English/NHCE4-RW4/NHCE4-RW4_158.jpg",
-      "locator": "已打开教材图页并通读复核正文",
-      "checked": true,
-      "sha256": "7cafba7937a8b315b8b109c87bf8939f04467d804d2d2327872fc04cce654f40"
-    },
-    {
-      "path": "content/College-English/NHCE4-RW4/NHCE4-RW4_159.jpg",
-      "locator": "已打开教材图页并通读复核正文",
-      "checked": true,
-      "sha256": "aefb716d9970c1df670a45a2e652746431fe1741895171cfffb2405d90bf0bd8"
+      "sha256": "6cb963b245cbcdbfa7be09f3aca61413e0136793089085282fc71ea03f010062"
     }
   ],
   "corrections": [],
   "fullReadConfirmed": true,
   "recheckConfirmed": true,
   "reviewer": "Codex",
-  "reviewedAt": "2026-10-02T09:43:07+00:00",
-  "notes": "9段全文及PDF158–159已逐段复核。2007/2010/2013/2018发射与2019-01-03月背着陆时间线相符；保留Wen Bo四张照片、Zhang He和Cheng Ming人物报道、设备数与研发周期。virtually irreparable为无人探测器语境的概述，非绝对不存在在轨维修。无漏段、拼接和明显用法错误，复读后原样保留。",
+  "reviewedAt": "2026-10-07T07:32:19+00:00",
+  "notes": "全文及未改动输出复核：温博四张照片、嫦娥四号月背、张熇感言、研发测试、不可修复性、艰苦试验、家庭牺牲和奉献九段自然；着陆器巡视器词注与技术描述连续。",
   "issues": [],
-  "status": "passed_unchanged"
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "0017ceec086d81c7bacb4ed64edcb39eb44d41b16c3171b9974140d22449ddfe",
+    "afterFileSha256": "0017ceec086d81c7bacb4ed64edcb39eb44d41b16c3171b9974140d22449ddfe",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "0017ceec086d81c7bacb4ed64edcb39eb44d41b16c3171b9974140d22449ddfe",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "完整 title、blocks[0..8]及完全相同的text；正文及内嵌中文、引语、对话和列举均已逐项通读；无改动输出按全文再次复核。",
+      "notes": "全文及未改动输出复核：温博四张照片、嫦娥四号月背、张熇感言、研发测试、不可修复性、艰苦试验、家庭牺牲和奉献九段自然；着陆器巡视器词注与技术描述连续。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/6ab1ab89a586e104f3b67cbe8715a53774b69a7e42af0c05c51aff963f24851f.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "6cb963b245cbcdbfa7be09f3aca61413e0136793089085282fc71ea03f010062"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "6ab1ab89a586e104f3b67cbe8715a53774b69a7e42af0c05c51aff963f24851f"
 }

@@ -1,0 +1,116 @@
+{
+  "schemaVersion": 1,
+  "reviewMode": "json-segmentation-v1",
+  "date": "2026-10-07",
+  "scope": "Existing lesson JSON, published JSON snapshots and review evidence only; no PDFs, images, external sources or frontend changes.",
+  "totalArticles": 1054,
+  "fullReadAndRechecked": 1054,
+  "pending": 0,
+  "modifiedArticles": 677,
+  "statuses": {
+    "passed_unchanged": 373,
+    "passed_edited": 561,
+    "needs_confirmation": 120
+  },
+  "acceptedArticles": 934,
+  "completeAcceptance": false,
+  "checks": [
+    {
+      "command": "python -m unittest discover -s tools -p test_segmentation_review.py",
+      "exitCode": 0,
+      "tests": 12
+    },
+    {
+      "command": "python -m unittest discover -s tools -p test_article_review.py",
+      "exitCode": 0,
+      "tests": 20
+    },
+    {
+      "command": "python -m unittest discover -s tools -p test_article_cleanup.py",
+      "exitCode": 0,
+      "tests": 6
+    },
+    {
+      "command": "python tools/review-segmentation.py check",
+      "exitCode": 0,
+      "verified": 1054,
+      "includes": [
+        "exact coverage",
+        "current hashes",
+        "explicit full-read and recheck evidence",
+        "authored operation replay",
+        "idempotence",
+        "immutable metadata",
+        "display consistency"
+      ]
+    },
+    {
+      "command": "python tools/review-articles.py verify-published",
+      "exitCode": 0,
+      "verified": 1054,
+      "rawSourcesReopened": false
+    },
+    {
+      "command": "python tools/cleanup-articles.py check",
+      "exitCode": 0,
+      "verified": 1054,
+      "note": "Historical restoration report preserved; registered layout history reaches the frozen restored JSON."
+    },
+    {
+      "command": "node tools/verify-shuimu.mjs",
+      "exitCode": 0,
+      "verified": 192
+    },
+    {
+      "command": "node tools/verify-postgraduate.mjs",
+      "exitCode": 0,
+      "verified": 40
+    },
+    {
+      "command": "node tools/verify-pep-english.mjs",
+      "exitCode": 0,
+      "verified": 313
+    },
+    {
+      "command": "python tools/verify-college-english.py --require-complete",
+      "exitCode": 0,
+      "verified": 72,
+      "note": "Existing signed JSON and audit metadata only; no PDF opened."
+    },
+    {
+      "command": "node tools/verify-cet.mjs",
+      "exitCode": 0,
+      "verified": 97
+    },
+    {
+      "command": "node tools/verify-kaoyan-english.mjs",
+      "exitCode": 0,
+      "verified": 64
+    },
+    {
+      "artifact": "baseline-verification.json",
+      "result": "passed",
+      "verified": 1054,
+      "baselineGitRevision": "9bd035d49f0803fc7499a648172e13817b3b805e",
+      "note": "Seven courses including all 276 NCE lessons: non-whitespace characters/order preserved, subtitle objects exact, metadata exact, manifest counts recomputed and other manifest fields exact."
+    },
+    {
+      "command": "git -c core.whitespace=cr-at-eol diff --check",
+      "exitCode": 0
+    },
+    {
+      "command": "python tools/review-segmentation.py check --require-complete",
+      "exitCode": 1,
+      "expected": true,
+      "reason": "120 needs_confirmation articles remain; pending/in_review/edited_pending_recheck are all zero. Full acceptance must fail."
+    }
+  ],
+  "unresolvedDetails": "progress.md",
+  "ledger": "ledger.tsv",
+  "summary": "summary.json",
+  "limitations": [
+    "All articles were read and rechecked, but 120 contain unresolved layout/order problems. Their safe changes are recorded; no non-whitespace characters were moved or removed.",
+    "Original spelling/content omissions are notes when existing boundaries are clear. They are not counted as unresolved segmentation issues.",
+    "No course generators, original textbooks, browser checks or frontend build were used in this JSON-only round."
+  ]
+}

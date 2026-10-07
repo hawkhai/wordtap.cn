@@ -50,24 +50,46 @@
   },
   "sources": [
     {
-      "path": "content/pep-english/raw/junior-8b.pdf",
-      "locator": "PDF第84-84页，标题与完整正文逐行核对",
+      "path": "content/article-review/history/259d506df8cd46a819faaf58833e12cb0fed245d105682ab241bf2a075b602ef.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
       "checked": true,
-      "sha256": "1be886980dc0833b9c87ced7c9de0c8e3e7e19d990c1172f62504576d2554284"
-    },
-    {
-      "path": "content/pep-english/raw/junior-8b/junior-8b_84.jpg",
-      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
-      "checked": true,
-      "sha256": "d9a4fb33519728eca91c3252e0780cb2978505781f2a8bce04b7b53f04bb7945"
+      "sha256": "8e34eba4fa52a1abbddef55e1cc6170014351d65378bca4a56e08da3cb7116a8"
     }
   ],
   "corrections": [],
   "fullReadConfirmed": true,
   "recheckConfirmed": true,
   "reviewer": "Codex",
-  "reviewedAt": "2026-10-02T05:03:55+00:00",
-  "notes": "PDF84页印刷75页父亲叙述三段逐行核对：女儿16岁、每人卖5件、儿子4岁得到火车玩至7岁、玩具猴及父亲球衣均准确。儿童之家捐款目的与最后感叹完整，概括标题正确；未混入下方练习，复读无修改。",
+  "reviewedAt": "2026-10-07T07:42:00+00:00",
+  "notes": "庭院义卖三段介绍动机、子女舍弃玩具、父亲球衣，保留完整家庭人物段。",
   "issues": [],
-  "status": "passed_unchanged"
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "b7ac11389ebdd204d2387f09800a2ce2b05874eb720b78bff575288b71b9c61c",
+    "afterFileSha256": "b7ac11389ebdd204d2387f09800a2ce2b05874eb720b78bff575288b71b9c61c",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "b7ac11389ebdd204d2387f09800a2ce2b05874eb720b78bff575288b71b9c61c",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..2] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "庭院义卖三段介绍动机、子女舍弃玩具、父亲球衣，保留完整家庭人物段。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "blockEdits": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/259d506df8cd46a819faaf58833e12cb0fed245d105682ab241bf2a075b602ef.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "8e34eba4fa52a1abbddef55e1cc6170014351d65378bca4a56e08da3cb7116a8"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "259d506df8cd46a819faaf58833e12cb0fed245d105682ab241bf2a075b602ef"
 }

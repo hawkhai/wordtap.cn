@@ -1,0 +1,60 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "4e8952f4e85600c8fd47fbacb423316d6fbfb026cdca9638b749248f66de3e24",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "coverage": "全文 blocks[0..31]，逐处核对合并结果及所有未修改边界。",
+  "notes": "三处发音解析续行和一处绕口令续行合并；/ə/ 被拆开的斜杠直接接回，/Ⅰə/ 原字形不改；词表和其余完整练习保留。",
+  "issues": [],
+  "mergeBlocks": [
+    {
+      "start": 2,
+      "end": 3,
+      "before": [
+        "首先口腔的肌肉稍微收紧，做好发出/Ⅰ/这个音的准备，然后嘴巴从扁到张开，发出/ə",
+        "/这个音,滑动的过程中声带振动。"
+      ],
+      "text": "首先口腔的肌肉稍微收紧，做好发出/Ⅰ/这个音的准备，然后嘴巴从扁到张开，发出/ə/这个音,滑动的过程中声带振动。",
+      "reason": "同一发音解析或编号绕口令在句中被换行截断；根据前后句法接回，词表和练习边界不变。"
+    },
+    {
+      "start": 9,
+      "end": 10,
+      "before": [
+        "把嘴巴收紧，舌尖抵住下面的牙齿，舌头前部稍微抬起，做好发出/e/这个音的准备，",
+        "然后嘴巴自然放松，舌头中间的部位轻轻抬起，声带振动，过渡到/ə/这个音。"
+      ],
+      "text": "把嘴巴收紧，舌尖抵住下面的牙齿，舌头前部稍微抬起，做好发出/e/这个音的准备，然后嘴巴自然放松，舌头中间的部位轻轻抬起，声带振动，过渡到/ə/这个音。",
+      "reason": "同一发音解析或编号绕口令在句中被换行截断；根据前后句法接回，词表和练习边界不变。"
+    },
+    {
+      "start": 16,
+      "end": 17,
+      "before": [
+        "先嘴巴变成圆形，舌头稍微前移，然后嘴巴快速恢复到正常的形状，舌头中部稍微抬",
+        "起，发出/ə/这个音。快速滑动的过程中声带振动。"
+      ],
+      "text": "先嘴巴变成圆形，舌头稍微前移，然后嘴巴快速恢复到正常的形状，舌头中部稍微抬起，发出/ə/这个音。快速滑动的过程中声带振动。",
+      "reason": "同一发音解析或编号绕口令在句中被换行截断；根据前后句法接回，词表和练习边界不变。"
+    },
+    {
+      "start": 27,
+      "end": 28,
+      "before": [
+        "The man with fair hair dare not repair their chair there because there is a bear",
+        "there."
+      ],
+      "text": "The man with fair hair dare not repair their chair there because there is a bear there.",
+      "reason": "同一发音解析或编号绕口令在句中被换行截断；根据前后句法接回，词表和练习边界不变。"
+    }
+  ],
+  "sources": [
+    {
+      "path": "content/article-review/history/d2b680a7a20272d3aac7d418cb57638183ce85c4c19ade93669bb8936983e05e.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "9aab159709620aabcdad2b52504c87cc9201ab545943b22e8681e5c83dfab989"
+    }
+  ]
+}

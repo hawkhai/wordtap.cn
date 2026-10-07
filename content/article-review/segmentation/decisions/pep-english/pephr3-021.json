@@ -1,0 +1,21 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "3fde4323e49b4380be667d8f0328eae234c8f7aa6f4e63bf976d3b0490eb7217",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title；全文 blocks[0..7] 与对应 text；现有正文/对话/题干逐块通读复核。",
+  "notes": "魁北克冬季嘉年华由咖啡馆场景、总介及滑雪、划船、雪橇、冰屋、夜间、休息八段构成，各活动单元保留。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/563aefd723707cf2ddd4b9ad7081bbf1abb1788b86aabcc1734d85d2e829b38e.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "e88a267b579a93e54eab164c43d9cfa5da6aaa3cfb2ccdaeb309abcdb65ffe20"
+    }
+  ]
+}

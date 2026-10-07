@@ -1,0 +1,312 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "ab7438a85150d2a4c5205ba8dc1d7371a44e137cafa105d03edbb4675a47d7d9",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title；全文 blocks[0..202] 与对应 text；现有正文/对话/题干逐块通读复核。",
+  "notes": "全文通读A lovable eccentric词汇、四组英汉正文、九条注释、21题理解问答、A true eccentric四段人物描写及12题答案。正文保留Dickie买表及画展叙述的现有英汉单元；范文按外貌、商店、政治活动、旁人评价四段恢复。选项末尾乱码等仅视为文字问题原样保留。",
+  "issues": [],
+  "mergeBlocks": [
+    {
+      "start": 23,
+      "end": 26,
+      "before": [
+        "True eccentrics never deliberately set out to draw attention to themselves. They",
+        "disregard social conventions without being conscious that they are doing anything",
+        "extraordinary. This invariably wins them the love and respect of others, for they add",
+        "colour to the dull routine of everyday life."
+      ],
+      "text": "True eccentrics never deliberately set out to draw attention to themselves. They disregard social conventions without being conscious that they are doing anything extraordinary. This invariably wins them the love and respect of others, for they add colour to the dull routine of everyday life.",
+      "reason": "古怪者概述及Dickie经历的英汉对应段、注释和练习机械断行接续；人物描述范文按四段保留。"
+    },
+    {
+      "start": 27,
+      "end": 29,
+      "before": [
+        "真正古怪的人从不有意引人注意。他们不顾社会习俗，意识不到自己所作所为有",
+        "什么特殊之处。他们总能赢得别人的喜爱与尊敬，因为他们给平淡单一的日常生",
+        "活增添了色彩。"
+      ],
+      "text": "真正古怪的人从不有意引人注意。他们不顾社会习俗，意识不到自己所作所为有什么特殊之处。他们总能赢得别人的喜爱与尊敬，因为他们给平淡单一的日常生活增添了色彩。",
+      "reason": "古怪者概述及Dickie经历的英汉对应段、注释和练习机械断行接续；人物描述范文按四段保留。"
+    },
+    {
+      "start": 33,
+      "end": 34,
+      "before": [
+        "3 without being conscious that..., 没有意识到……。",
+        "这是介词短词作状语，be conscious that... 作“意识到……”解。"
+      ],
+      "text": "3 without being conscious that..., 没有意识到……。这是介词短词作状语，be conscious that... 作“意识到……”解。",
+      "reason": "古怪者概述及Dickie经历的英汉对应段、注释和练习机械断行接续；人物描述范文按四段保留。"
+    },
+    {
+      "start": 35,
+      "end": 36,
+      "before": [
+        "4 This invariably wins them the love and respect of others. 这常常赢来人们对他们",
+        "的爱戴和尊敬。win sb. sth., 作“使某人获得某事（物）”讲。"
+      ],
+      "text": "4 This invariably wins them the love and respect of others. 这常常赢来人们对他们的爱戴和尊敬。win sb. sth., 作“使某人获得某事（物）”讲。",
+      "reason": "古怪者概述及Dickie经历的英汉对应段、注释和练习机械断行接续；人物描述范文按四段保留。"
+    },
+    {
+      "start": 38,
+      "end": 41,
+      "before": [
+        "Up to the time of his death, Richard Colson was one of the most notable figures in our",
+        "town. He was a shrewd and wealthy businessman, but most people in the town hardly",
+        "knew anything about this side of his life. He was known to us all as Dickie and his",
+        "eccentricity had become legendary long before he died."
+      ],
+      "text": "Up to the time of his death, Richard Colson was one of the most notable figures in our town. He was a shrewd and wealthy businessman, but most people in the town hardly knew anything about this side of his life. He was known to us all as Dickie and his eccentricity had become legendary long before he died.",
+      "reason": "古怪者概述及Dickie经历的英汉对应段、注释和练习机械断行接续；人物描述范文按四段保留。"
+    },
+    {
+      "start": 42,
+      "end": 44,
+      "before": [
+        "理查德 ·科尔森生前是我们镇上最有名望的人之一。他是个精明能干、有钱的商",
+        "人，但镇上大部分人对他生活中的这一个方面几乎一无所知。大家都管他叫迪基。",
+        "早在他去世前很久，他的古怪行为就成了传奇故事了。"
+      ],
+      "text": "理查德 ·科尔森生前是我们镇上最有名望的人之一。他是个精明能干、有钱的商人，但镇上大部分人对他生活中的这一个方面几乎一无所知。大家都管他叫迪基。早在他去世前很久，他的古怪行为就成了传奇故事了。",
+      "reason": "古怪者概述及Dickie经历的英汉对应段、注释和练习机械断行接续；人物描述范文按四段保留。"
+    },
+    {
+      "start": 45,
+      "end": 52,
+      "before": [
+        "Dickie disliked snobs intensely. Though he owned a large car, he hardly ever used it,",
+        "preferring always to go on foot. Even when it was raining heavily, he refused to carry",
+        "an umbrella. One day, he walked into an expensive shop after having been caught in a",
+        "particularly heavy shower. He wanted to buy a￡300 watch for his wife, but he was in",
+        "such a bedraggled condition that an assistant refused to serve him. Dickie left the shop",
+        "without a word and returned carrying a large cloth bag. As it was extremely heavy, he",
+        "dumped it on the counter. The assistant asked him to leave, but Dickie paid no",
+        "attention to him and requested to see the manager."
+      ],
+      "text": "Dickie disliked snobs intensely. Though he owned a large car, he hardly ever used it, preferring always to go on foot. Even when it was raining heavily, he refused to carry an umbrella. One day, he walked into an expensive shop after having been caught in a particularly heavy shower. He wanted to buy a￡300 watch for his wife, but he was in such a bedraggled condition that an assistant refused to serve him. Dickie left the shop without a word and returned carrying a large cloth bag. As it was extremely heavy, he dumped it on the counter. The assistant asked him to leave, but Dickie paid no attention to him and requested to see the manager.",
+      "reason": "古怪者概述及Dickie经历的英汉对应段、注释和练习机械断行接续；人物描述范文按四段保留。"
+    },
+    {
+      "start": 53,
+      "end": 58,
+      "before": [
+        "迪基痛恨势利小人。尽管他有一辆豪华小轿车，但却很少使用，常常喜欢以步代",
+        "车。即使大雨倾盆，他也总是拒绝带伞。一天，他遇上一场瓢泼大雨，淋得透湿。",
+        "他走进一家高级商店，要为妻子买一块价值 300 英镑的手表。但店员见他浑身泥",
+        "水的样子，竟不肯接待他。迪基二话没说就走了。一会儿，他带着一个大布口袋",
+        "回到店里。布袋很沉，他重重地把布袋扔在柜台上。店员让迪基走开，他置之不",
+        "理，并要求见经理。"
+      ],
+      "text": "迪基痛恨势利小人。尽管他有一辆豪华小轿车，但却很少使用，常常喜欢以步代车。即使大雨倾盆，他也总是拒绝带伞。一天，他遇上一场瓢泼大雨，淋得透湿。他走进一家高级商店，要为妻子买一块价值 300 英镑的手表。但店员见他浑身泥水的样子，竟不肯接待他。迪基二话没说就走了。一会儿，他带着一个大布口袋回到店里。布袋很沉，他重重地把布袋扔在柜台上。店员让迪基走开，他置之不理，并要求见经理。",
+      "reason": "古怪者概述及Dickie经历的英汉对应段、注释和练习机械断行接续；人物描述范文按四段保留。"
+    },
+    {
+      "start": 60,
+      "end": 61,
+      "before": [
+        "6 this side of his life, 他生活中这方面的情况。",
+        "这里指的是 He was a shrewd and wealthy businessman."
+      ],
+      "text": "6 this side of his life, 他生活中这方面的情况。这里指的是 He was a shrewd and wealthy businessman.",
+      "reason": "古怪者概述及Dickie经历的英汉对应段、注释和练习机械断行接续；人物描述范文按四段保留。"
+    },
+    {
+      "start": 63,
+      "end": 71,
+      "before": [
+        "Recognizing who the customer was, the manager was most apologetic and",
+        "reprimanded the assistant severely. When Dickie was given the watch, he presented",
+        "the assistant with the cloth bag. It contained ￡ 300 in pennies. He insisted on the",
+        "assistant's counting the money before he left — 30, 000 pennies in all! On another",
+        "occasion, he invited a number of important critics to see his private collection of",
+        "modern paintings. This exhibition received a great deal of attention in the press, for",
+        "though the pictures were supposed to be the work of famous artists, they had in fact",
+        "been painted by Dickie. It took him four years to stage this elaborate joke simply to",
+        "prove that critics do not always know what they are talking about."
+      ],
+      "text": "Recognizing who the customer was, the manager was most apologetic and reprimanded the assistant severely. When Dickie was given the watch, he presented the assistant with the cloth bag. It contained ￡ 300 in pennies. He insisted on the assistant's counting the money before he left — 30, 000 pennies in all! On another occasion, he invited a number of important critics to see his private collection of modern paintings. This exhibition received a great deal of attention in the press, for though the pictures were supposed to be the work of famous artists, they had in fact been painted by Dickie. It took him four years to stage this elaborate joke simply to prove that critics do not always know what they are talking about.",
+      "reason": "古怪者概述及Dickie经历的英汉对应段、注释和练习机械断行接续；人物描述范文按四段保留。"
+    },
+    {
+      "start": 72,
+      "end": 77,
+      "before": [
+        "经理认出了这位顾客，表示了深深的歉意，还严厉地训斥了店员。店员为迪基拿",
+        "出了那块手表，迪基把布口袋递给他，口袋里面装着 300 镑的便士。他坚持要店",
+        "员点清那些硬币后他才离去。这些硬币加在一起共有 30，000 枚！还有一次，他",
+        "邀请一些著名评论家来参观他私人收藏的现代画。这次展览引起报界广泛注意，",
+        "因为这些画名义上是名家的作品，事实上是迪基自己画的。他花了 4 年时间策划",
+        "这出精心设计的闹剧，只是想证明评论家们有时并不了解他们所谈论的事情。"
+      ],
+      "text": "经理认出了这位顾客，表示了深深的歉意，还严厉地训斥了店员。店员为迪基拿出了那块手表，迪基把布口袋递给他，口袋里面装着 300 镑的便士。他坚持要店员点清那些硬币后他才离去。这些硬币加在一起共有 30，000 枚！还有一次，他邀请一些著名评论家来参观他私人收藏的现代画。这次展览引起报界广泛注意，因为这些画名义上是名家的作品，事实上是迪基自己画的。他花了 4 年时间策划这出精心设计的闹剧，只是想证明评论家们有时并不了解他们所谈论的事情。",
+      "reason": "古怪者概述及Dickie经历的英汉对应段、注释和练习机械断行接续；人物描述范文按四段保留。"
+    },
+    {
+      "start": 80,
+      "end": 81,
+      "before": [
+        "由于经理认出这个顾客是谁了，便竭力陪礼道歉……。这句话用现在分词短语作",
+        "原因状语，most 在这里起加强语气的作用，相当于 very。"
+      ],
+      "text": "由于经理认出这个顾客是谁了，便竭力陪礼道歉……。这句话用现在分词短语作原因状语，most 在这里起加强语气的作用，相当于 very。",
+      "reason": "古怪者概述及Dickie经历的英汉对应段、注释和练习机械断行接续；人物描述范文按四段保留。"
+    },
+    {
+      "start": 82,
+      "end": 83,
+      "before": [
+        "9. insisted on the assistant's counting, 坚持让店员点清。",
+        "insist on 后接动名词，the assistant's 是动名词的逻辑主语。"
+      ],
+      "text": "9. insisted on the assistant's counting, 坚持让店员点清。insist on 后接动名词，the assistant's 是动名词的逻辑主语。",
+      "reason": "古怪者概述及Dickie经历的英汉对应段、注释和练习机械断行接续；人物描述范文按四段保留。"
+    },
+    {
+      "start": 98,
+      "end": 99,
+      "before": [
+        "13 He walked into a shop one day. What did he want to buy, for his wife? (A £300",
+        "watch.)"
+      ],
+      "text": "13 He walked into a shop one day. What did he want to buy, for his wife? (A £300 watch.)",
+      "reason": "古怪者概述及Dickie经历的英汉对应段、注释和练习机械断行接续；人物描述范文按四段保留。"
+    },
+    {
+      "start": 100,
+      "end": 101,
+      "before": [
+        "14 Why did the assistant refuse to serve him? (Because he was in such a bedraggled",
+        "condition.)"
+      ],
+      "text": "14 Why did the assistant refuse to serve him? (Because he was in such a bedraggled condition.)",
+      "reason": "古怪者概述及Dickie经历的英汉对应段、注释和练习机械断行接续；人物描述范文按四段保留。"
+    },
+    {
+      "start": 102,
+      "end": 103,
+      "before": [
+        "15 When Dickie returned, what did he do with the large cloth bag? (He dumped it on",
+        "the counter.)"
+      ],
+      "text": "15 When Dickie returned, what did he do with the large cloth bag? (He dumped it on the counter.)",
+      "reason": "古怪者概述及Dickie经历的英汉对应段、注释和练习机械断行接续；人物描述范文按四段保留。"
+    },
+    {
+      "start": 105,
+      "end": 106,
+      "before": [
+        "17 When he was given the watch, what did Dickie do? (He presented the assistant",
+        "with the cloth bag.)"
+      ],
+      "text": "17 When he was given the watch, what did Dickie do? (He presented the assistant with the cloth bag.)",
+      "reason": "古怪者概述及Dickie经历的英汉对应段、注释和练习机械断行接续；人物描述范文按四段保留。"
+    },
+    {
+      "start": 113,
+      "end": 115,
+      "before": [
+        "In not more than 250 words write an actual or imaginary description of an eccentric",
+        "person. Expand the ideas given below into a plan and provide a suitable title. Your",
+        "composition should be in three or four paragraphs."
+      ],
+      "text": "In not more than 250 words write an actual or imaginary description of an eccentric person. Expand the ideas given below into a plan and provide a suitable title. Your composition should be in three or four paragraphs.",
+      "reason": "古怪者概述及Dickie经历的英汉对应段、注释和练习机械断行接续；人物描述范文按四段保留。"
+    },
+    {
+      "start": 116,
+      "end": 119,
+      "before": [
+        "Ideas: Appearance—dress—behaviour —home — way he or she lives — strange",
+        "actions (e.g. puts up strange notices to passers-by in his garden; stands for parliament",
+        "— gives speeches saying what he would do if he were Prime Minister —gets a few",
+        "votes, etc.) The way other people behave towards him."
+      ],
+      "text": "Ideas: Appearance—dress—behaviour —home — way he or she lives — strange actions (e.g. puts up strange notices to passers-by in his garden; stands for parliament — gives speeches saying what he would do if he were Prime Minister —gets a few votes, etc.) The way other people behave towards him.",
+      "reason": "古怪者概述及Dickie经历的英汉对应段、注释和练习机械断行接续；人物描述范文按四段保留。"
+    },
+    {
+      "start": 122,
+      "end": 125,
+      "before": [
+        "Mr. Chew is a man who has lived in our small town for years. He is a large man",
+        "(Some would say ‘fat’), he has a round face, a big black moustache and a bald head.",
+        "He always wears the same clothes: black trousers, a white shirt and a red waistcoat,",
+        "and is always polite to everyone he meets."
+      ],
+      "text": "Mr. Chew is a man who has lived in our small town for years. He is a large man (Some would say ‘fat’), he has a round face, a big black moustache and a bald head. He always wears the same clothes: black trousers, a white shirt and a red waistcoat, and is always polite to everyone he meets.",
+      "reason": "古怪者概述及Dickie经历的英汉对应段、注释和练习机械断行接续；人物描述范文按四段保留。"
+    },
+    {
+      "start": 126,
+      "end": 128,
+      "before": [
+        "He owns an antiques shop near the river, and he lives ‘over the shop’. No one",
+        "knows where he gets his things, but there are always lots of different interesting",
+        "antiques in the shop window every week."
+      ],
+      "text": "He owns an antiques shop near the river, and he lives ‘over the shop’. No one knows where he gets his things, but there are always lots of different interesting antiques in the shop window every week.",
+      "reason": "古怪者概述及Dickie经历的英汉对应段、注释和练习机械断行接续；人物描述范文按四段保留。"
+    },
+    {
+      "start": 129,
+      "end": 136,
+      "before": [
+        "Mr. Chew is interested in politics, too. Every week he puts up strange notices in",
+        "his shop window to passers-by. Usually the notices are trying to make people save a",
+        "local building or stop a plan to build a road through the town. Every time there is a",
+        "national election, he automatically stands for parliament and gives speeches almost",
+        "every day in the town park saying what he would do if he were Prime Minister. (He",
+        "usually says he would make sure that antiques dealers did not have to pay Income Tax",
+        "and that no cars should be allowed into our little town at all.) Every year he gets a few",
+        "votes, but not enough to worry the serious candidates."
+      ],
+      "text": "Mr. Chew is interested in politics, too. Every week he puts up strange notices in his shop window to passers-by. Usually the notices are trying to make people save a local building or stop a plan to build a road through the town. Every time there is a national election, he automatically stands for parliament and gives speeches almost every day in the town park saying what he would do if he were Prime Minister. (He usually says he would make sure that antiques dealers did not have to pay Income Tax and that no cars should be allowed into our little town at all.) Every year he gets a few votes, but not enough to worry the serious candidates.",
+      "reason": "古怪者概述及Dickie经历的英汉对应段、注释和练习机械断行接续；人物描述范文按四段保留。"
+    },
+    {
+      "start": 137,
+      "end": 138,
+      "before": [
+        "For most people Mr. Chew is a harmless eccentric, and everyone likes talking to",
+        "him. After all, he is someone who adds colour to the dull routine of their daily lives."
+      ],
+      "text": "For most people Mr. Chew is a harmless eccentric, and everyone likes talking to him. After all, he is someone who adds colour to the dull routine of their daily lives.",
+      "reason": "古怪者概述及Dickie经历的英汉对应段、注释和练习机械断行接续；人物描述范文按四段保留。"
+    },
+    {
+      "start": 140,
+      "end": 141,
+      "before": [
+        "1 Most people in the town would have regarded Dickie's behaviour as eccentric on the",
+        "day he visited the shop because."
+      ],
+      "text": "1 Most people in the town would have regarded Dickie's behaviour as eccentric on the day he visited the shop because.",
+      "reason": "古怪者概述及Dickie经历的英汉对应段、注释和练习机械断行接续；人物描述范文按四段保留。"
+    },
+    {
+      "start": 156,
+      "end": 157,
+      "before": [
+        "4 They disregard social conventions and are quite unaware they are doing",
+        "anything extraordinary."
+      ],
+      "text": "4 They disregard social conventions and are quite unaware they are doing anything extraordinary.",
+      "reason": "古怪者概述及Dickie经历的英汉对应段、注释和练习机械断行接续；人物描述范文按四段保留。"
+    }
+  ],
+  "splitBlocks": [],
+  "blockEdits": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/2962f29d3e0d9e99868f844f4eb936dec6077085afaa6e6f9dfe68f8118775af.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "ab536f61306288a107b28108b1816faae1c98e24b4834c006d23b14abbafab2c"
+    }
+  ]
+}

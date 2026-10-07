@@ -80,30 +80,45 @@
   },
   "sources": [
     {
-      "path": "content/pep-english/raw/senior-selective-1.pdf",
-      "locator": "PDF第57-58页，标题与完整正文逐行核对",
+      "path": "content/article-review/history/45ce761fd314f9ee7ea084bad9da3c3ef32b2959d13f079de7f0471b778cf451.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
       "checked": true,
-      "sha256": "94ec493439239c436326e228e3d3ad78c7053ac5abc005db5739119f6a98c33d"
-    },
-    {
-      "path": "content/pep-english/raw/senior-selective-1/senior-selective-1_57.jpg",
-      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
-      "checked": true,
-      "sha256": "e42ee7bc73b3f768c137193339dd5c196886811131c5b897a0fedc410585bcd9"
-    },
-    {
-      "path": "content/pep-english/raw/senior-selective-1/senior-selective-1_58.jpg",
-      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
-      "checked": true,
-      "sha256": "06d89a47efc5fb98d911e75ef1b046caf694175fa5fa9ae5a38bd66f17c7dd1a"
+      "sha256": "bc7468dfd18cd11020ceb142dcd54d1b3d3131a06f99c957cafdb1f398b7ec04"
     }
   ],
   "corrections": [],
   "fullReadConfirmed": true,
   "recheckConfirmed": true,
   "reviewer": "Codex",
-  "reviewedAt": "2026-10-02T06:15:10+00:00",
-  "notes": "逐行通读PDF第57-58页袁隆平传记六段。1930、1953、1974及60 percent/200 million tons等按原文历史叙述保留，第四段跨页is comprised正确接续；末段梦想与potentially限定无遗漏。标题、段落、引号及复合词复核无提取错误，无改动。",
+  "reviewedAt": "2026-10-07T07:32:25+00:00",
+  "notes": "袁隆平六段依人物概述、求学动机、杂交研发、成果、淡泊名利与梦想展开，保留完整自然段。",
   "issues": [],
-  "status": "passed_unchanged"
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "1c97dd3234126726ba10798804c976e15119cace9ca0081e8ca30377a7d903ad",
+    "afterFileSha256": "1c97dd3234126726ba10798804c976e15119cace9ca0081e8ca30377a7d903ad",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "1c97dd3234126726ba10798804c976e15119cace9ca0081e8ca30377a7d903ad",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..5] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "袁隆平六段依人物概述、求学动机、杂交研发、成果、淡泊名利与梦想展开，保留完整自然段。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/45ce761fd314f9ee7ea084bad9da3c3ef32b2959d13f079de7f0471b778cf451.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "bc7468dfd18cd11020ceb142dcd54d1b3d3131a06f99c957cafdb1f398b7ec04"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "45ce761fd314f9ee7ea084bad9da3c3ef32b2959d13f079de7f0471b778cf451"
 }

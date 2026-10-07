@@ -1,0 +1,21 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "14e402dec5cf0c3d49853503d4996ee79dbe872faed6892b7579e1cfd288eb58",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "完整读取title及blocks[0..19]全部正文、译文和标题署名；text已验证与全块连接逐字一致。无变更方案在内存应用并验证后，再次复核上述全文及各段衔接。",
+  "notes": "逐段复核哈利波特销售热潮、宗教争议、经典判断、命名艺术、丧失主题与反派评价；20块中英段落配对，长段保留整体论证，书店引语保持在叙述所属段中。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/c2412b25322f893038a1c87f1a9b8f3f5f78b38464eb2f9d60e4b410942458e4.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "3a43edfca1fe62633ca31713dbef7212e6f1170151c84929fcd9c1e82b4ef746"
+    }
+  ]
+}

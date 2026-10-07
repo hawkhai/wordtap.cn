@@ -30,24 +30,45 @@
   },
   "sources": [
     {
-      "path": "content/pep-english/raw/senior-required-2.pdf",
-      "locator": "PDF第65-65页，标题与完整正文逐行核对",
+      "path": "content/article-review/history/d88e721458903b03a07940d390fe4bacc059660f40c7bb67e8b011e329980172.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
       "checked": true,
-      "sha256": "33b74bf42b22b32fdbe3201e6f61cf8099be047ef0af8a1740f6013dee4a619d"
-    },
-    {
-      "path": "content/pep-english/raw/senior-required-2/senior-required-2_65.jpg",
-      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
-      "checked": true,
-      "sha256": "726938b6d221fe8d77b195cbbfeef4fb706f3cb697e3f2d355455113849db341"
+      "sha256": "8e65edb4102e09688cf6447fe1cfb457fcd20e64790539332bfc538a42b44c4a"
     }
   ],
   "corrections": [],
   "fullReadConfirmed": true,
   "recheckConfirmed": true,
   "reviewer": "Codex",
-  "reviewedAt": "2026-10-02T05:44:59+00:00",
-  "notes": "核对PDF第65页双栏完整故事，左栏agree接右栏无漏读；六岁开始、约六个月后演出邀请、随后两个月每日一小时练习等细节一致，单段保留。",
+  "reviewedAt": "2026-10-07T07:30:16+00:00",
+  "notes": "学琴经历从被动开始到演奏成功并爱上钢琴，是连贯个人短叙事，保留完整段落。",
   "issues": [],
-  "status": "passed_unchanged"
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "be404a5b919a4c7c812cd7663179c64262d134fa95a719af0c915c62e180ddc4",
+    "afterFileSha256": "be404a5b919a4c7c812cd7663179c64262d134fa95a719af0c915c62e180ddc4",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "be404a5b919a4c7c812cd7663179c64262d134fa95a719af0c915c62e180ddc4",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..0] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "学琴经历从被动开始到演奏成功并爱上钢琴，是连贯个人短叙事，保留完整段落。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/d88e721458903b03a07940d390fe4bacc059660f40c7bb67e8b011e329980172.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "8e65edb4102e09688cf6447fe1cfb457fcd20e64790539332bfc538a42b44c4a"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "d88e721458903b03a07940d390fe4bacc059660f40c7bb67e8b011e329980172"
 }

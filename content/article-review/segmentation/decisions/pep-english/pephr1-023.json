@@ -1,0 +1,21 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "1570eead73c4fdf645a394312b9da475462130beed5f84491b42284c3143d63b",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title；全文 blocks[0..2] 与对应 text；现有正文/对话/题干逐块通读复核。",
+  "notes": "父亲询问十六岁儿子恋爱问题，正文单段及书信首尾独立保留。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/9df7b5073d4c34137193b84cf715bff85e792b36c19705366aa7afafbd121533.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "c0662d90c86d52be7a67059c9a1bb8dd82405240a5c30a7aeddb51d7ba0289a0"
+    }
+  ]
+}

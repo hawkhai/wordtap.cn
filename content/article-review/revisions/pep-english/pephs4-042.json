@@ -2,46 +2,9 @@
   "schemaVersion": 1,
   "course": "pep-english",
   "articleId": "pephs4-042",
-  "beforeDisplaySha256": "9b1d49fcba525c132b51ceec0c014279de00fee6dbb55dede94824d2a768fe5a",
-  "afterDisplaySha256": "f466d2037faab8f3fdbece9f81fd7707408d53804fb36ff83aed7e2df9c1224c",
+  "beforeDisplaySha256": "f466d2037faab8f3fdbece9f81fd7707408d53804fb36ff83aed7e2df9c1224c",
+  "afterDisplaySha256": "8780883b40993ed2cd95a60427309b67518f2c2332536bd7a76ff3d03260d4da",
   "baselineDisplay": {
-    "title": "For the Children (Adapted, Continued)",
-    "section": "Reading",
-    "text": "Audrey Hepburn\nI have known UNICEF for a long time. In fact, almost 45 years ago, I was one of the tens of thousands of children in war-ravaged Europe to receive aid from UNICEF immediately after our liberation, a liberation that freed us from hunger, repression, and constant violence, and we were reduced to near total poverty, as is the developing world today. It is poverty that is at the root of all their suffering—not having the means to help themselves, and that is what UNICEF is all about: helping people to help themselves, giving them the aid to develop, and thereby allowing them to become self-reliant and live in dignity.\nUnlike droughts, floods, or earthquakes, the tragedy of poverty cannot easily be captured by the media and brought to the attention of the worldwide public. It is happening not in any one particular place, but in slums and shanties and neglected rural communities across two continents. It is happening not at any one particular time but over long years of increasing poverty, which have not been featured in the nightly news but which have changed the lives of many millions of people.\nUNICEF’s business is children, not the workings of the international economy. In its everyday work in over 100 developing nations, UNICEF is brought up against the face of today’s international economic problems which is not seen in the corridors of financial power, not reflected in the statistics of debt service ratios, not seated at the conference tables of debt negotiations. It is in the face of a child. It is the young child whose growing mind and body is susceptible to permanent damage from even temporary deprivation. The human brain and body are formed within the first five years of life and there is no second chance. It is the young child whose individual development today and whose social contribution tomorrow are being shaped by the economics of now. It is the young child who is paying the highest of all prices.\nIf we are meant to “love thy (your) neighbour as thyself”, then surely we should love these children as our own. Children are our most vital resource, our hope for the future. Children cannot wait. They are too fragile to wait for an economic crisis to pass. Their time is running out. We must help them now not only to survive, but to hope and perhaps even to dream. Every child has a right to health, to tenderness, and to life.\nThank you!",
-    "blocks": [
-      {
-        "type": "paragraph",
-        "lang": "en",
-        "text": "Audrey Hepburn"
-      },
-      {
-        "type": "paragraph",
-        "lang": "en",
-        "text": "I have known UNICEF for a long time. In fact, almost 45 years ago, I was one of the tens of thousands of children in war-ravaged Europe to receive aid from UNICEF immediately after our liberation, a liberation that freed us from hunger, repression, and constant violence, and we were reduced to near total poverty, as is the developing world today. It is poverty that is at the root of all their suffering—not having the means to help themselves, and that is what UNICEF is all about: helping people to help themselves, giving them the aid to develop, and thereby allowing them to become self-reliant and live in dignity."
-      },
-      {
-        "type": "paragraph",
-        "lang": "en",
-        "text": "Unlike droughts, floods, or earthquakes, the tragedy of poverty cannot easily be captured by the media and brought to the attention of the worldwide public. It is happening not in any one particular place, but in slums and shanties and neglected rural communities across two continents. It is happening not at any one particular time but over long years of increasing poverty, which have not been featured in the nightly news but which have changed the lives of many millions of people."
-      },
-      {
-        "type": "paragraph",
-        "lang": "en",
-        "text": "UNICEF’s business is children, not the workings of the international economy. In its everyday work in over 100 developing nations, UNICEF is brought up against the face of today’s international economic problems which is not seen in the corridors of financial power, not reflected in the statistics of debt service ratios, not seated at the conference tables of debt negotiations. It is in the face of a child. It is the young child whose growing mind and body is susceptible to permanent damage from even temporary deprivation. The human brain and body are formed within the first five years of life and there is no second chance. It is the young child whose individual development today and whose social contribution tomorrow are being shaped by the economics of now. It is the young child who is paying the highest of all prices."
-      },
-      {
-        "type": "paragraph",
-        "lang": "en",
-        "text": "If we are meant to “love thy (your) neighbour as thyself”, then surely we should love these children as our own. Children are our most vital resource, our hope for the future. Children cannot wait. They are too fragile to wait for an economic crisis to pass. Their time is running out. We must help them now not only to survive, but to hope and perhaps even to dream. Every child has a right to health, to tenderness, and to life."
-      },
-      {
-        "type": "paragraph",
-        "lang": "en",
-        "text": "Thank you!"
-      }
-    ]
-  },
-  "display": {
     "title": "in over 100 developing nations, UNICEF is brought up against the face of today's international",
     "section": "Reading",
     "text": "UNICEF's business is children, not the workings of the international economy. In its everyday work in over 100 developing nations, UNICEF is brought up against the face of today's international economic problems which is not seen in the corridors of financial power, not reflected in the statistics of debt service ratios, not seated at the conference tables of debt negotiations. It is in the face of a child. It is the young child whose growing mind and body is susceptible to permanent damage from even temporary deprivation. The human brain and body are formed within the first five years of life and there is no second chance. It is the young child whose individual development today and whose social contribution tomorrow are being shaped by the economics of now. It is the young child who is paying the highest of all prices.\nIf we are meant to \"love thy (your) neighbour as thyself\", then surely we should love these children as our own. Children are our most vital resource, our hope for the future. Children cannot wait. They are too fragile to wait for an economic crisis to pass. Their time is running out. We must help them now not only to survive, but to hope and perhaps even to dream. Every child has a right to health, to tenderness, and to life.",
@@ -53,58 +16,83 @@
       }
     ]
   },
+  "display": {
+    "title": "in over 100 developing nations, UNICEF is brought up against the face of today's international",
+    "section": "Reading",
+    "text": "UNICEF's business is children, not the workings of the international economy. In its everyday work in over 100 developing nations, UNICEF is brought up against the face of today's international economic problems which is not seen in the corridors of financial power, not reflected in the statistics of debt service ratios, not seated at the conference tables of debt negotiations. It is in the face of a child. It is the young child whose growing mind and body is susceptible to permanent damage from even temporary deprivation. The human brain and body are formed within the first five years of life and there is no second chance. It is the young child whose individual development today and whose social contribution tomorrow are being shaped by the economics of now. It is the young child who is paying the highest of all prices.\nIf we are meant to \"love thy (your) neighbour as thyself\", then surely we should love these children as our own. Children are our most vital resource, our hope for the future. Children cannot wait. They are too fragile to wait for an economic crisis to pass. Their time is running out. We must help them now not only to survive, but to hope and perhaps even to dream. Every child has a right to health, to tenderness, and to life.",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "UNICEF's business is children, not the workings of the international economy. In its everyday work in over 100 developing nations, UNICEF is brought up against the face of today's international economic problems which is not seen in the corridors of financial power, not reflected in the statistics of debt service ratios, not seated at the conference tables of debt negotiations. It is in the face of a child. It is the young child whose growing mind and body is susceptible to permanent damage from even temporary deprivation. The human brain and body are formed within the first five years of life and there is no second chance. It is the young child whose individual development today and whose social contribution tomorrow are being shaped by the economics of now. It is the young child who is paying the highest of all prices."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "If we are meant to \"love thy (your) neighbour as thyself\", then surely we should love these children as our own. Children are our most vital resource, our hope for the future. Children cannot wait. They are too fragile to wait for an economic crisis to pass. Their time is running out. We must help them now not only to survive, but to hope and perhaps even to dream. Every child has a right to health, to tenderness, and to life."
+      }
+    ]
+  },
   "sources": [
     {
-      "path": "content/pep-english/raw/senior-selective-4.pdf",
-      "locator": "PDF第95-95页，标题与完整正文逐行核对",
+      "path": "content/article-review/history/2bed269f3c53c817051e10ac714fb5b8693d2d16f7c9c5add70ba57ba0514571.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
       "checked": true,
-      "sha256": "2ad7555a13eb420aa70497f9faa2541fdb502b7ffc4e063e87c60cce88f1b4a3"
-    },
-    {
-      "path": "content/pep-english/raw/senior-selective-4/senior-selective-4_94.jpg",
-      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
-      "checked": true,
-      "sha256": "daa851400c7dae8fd2874019c31cdce2053318a6e278ed50ecf4ad09b54240ad"
-    },
-    {
-      "path": "content/pep-english/raw/senior-selective-4/senior-selective-4_95.jpg",
-      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
-      "checked": true,
-      "sha256": "632859a659803ca4d3267f27adc350f2319b53cdbd9b3555577ec3bef69dcfd7"
-    },
-    {
-      "path": "content/article-review/cleanup-2026-10-06.json",
-      "sha256": "cea27c1c69e32939ff83196bd29cce9a128d8d0d6f248611217179e037971889",
-      "locator": "public/pep-english/lessons/pephs4/042.json",
-      "checked": true
+      "sha256": "0d2b692621f46a1ea130a81b4159f68adc36a18e04e42a52c268ed73c2eaa270"
     }
   ],
-  "corrections": [
-    {
-      "field": "title",
-      "before": "For the Children (Adapted, Continued)",
-      "after": "in over 100 developing nations, UNICEF is brought up against the face of today's international",
-      "evidence": "User-directed source-fidelity restoration; content/article-review/cleanup-2026-10-06.json"
-    },
-    {
-      "field": "text",
-      "before": "Audrey Hepburn\nI have known UNICEF for a long time. In fact, almost 45 years ago, I was one of the tens of thousands of children in war-ravaged Europe to receive aid from UNICEF immediately after our liberation, a liberation that freed us from hunger, repression, and constant violence, and we were reduced to near total poverty, as is the developing world today. It is poverty that is at the root of all their suffering—not having the means to help themselves, and that is what UNICEF is all about: helping people to help themselves, giving them the aid to develop, and thereby allowing them to become self-reliant and live in dignity.\nUnlike droughts, floods, or earthquakes, the tragedy of poverty cannot easily be captured by the media and brought to the attention of the worldwide public. It is happening not in any one particular place, but in slums and shanties and neglected rural communities across two continents. It is happening not at any one particular time but over long years of increasing poverty, which have not been featured in the nightly news but which have changed the lives of many millions of people.\nUNICEF’s business is children, not the workings of the international economy. In its everyday work in over 100 developing nations, UNICEF is brought up against the face of today’s international economic problems which is not seen in the corridors of financial power, not reflected in the statistics of debt service ratios, not seated at the conference tables of debt negotiations. It is in the face of a child. It is the young child whose growing mind and body is susceptible to permanent damage from even temporary deprivation. The human brain and body are formed within the first five years of life and there is no second chance. It is the young child whose individual development today and whose social contribution tomorrow are being shaped by the economics of now. It is the young child who is paying the highest of all prices.\nIf we are meant to “love thy (your) neighbour as thyself”, then surely we should love these children as our own. Children are our most vital resource, our hope for the future. Children cannot wait. They are too fragile to wait for an economic crisis to pass. Their time is running out. We must help them now not only to survive, but to hope and perhaps even to dream. Every child has a right to health, to tenderness, and to life.\nThank you!",
-      "after": "UNICEF's business is children, not the workings of the international economy. In its everyday work in over 100 developing nations, UNICEF is brought up against the face of today's international economic problems which is not seen in the corridors of financial power, not reflected in the statistics of debt service ratios, not seated at the conference tables of debt negotiations. It is in the face of a child. It is the young child whose growing mind and body is susceptible to permanent damage from even temporary deprivation. The human brain and body are formed within the first five years of life and there is no second chance. It is the young child whose individual development today and whose social contribution tomorrow are being shaped by the economics of now. It is the young child who is paying the highest of all prices.\nIf we are meant to \"love thy (your) neighbour as thyself\", then surely we should love these children as our own. Children are our most vital resource, our hope for the future. Children cannot wait. They are too fragile to wait for an economic crisis to pass. Their time is running out. We must help them now not only to survive, but to hope and perhaps even to dream. Every child has a right to health, to tenderness, and to life.",
-      "evidence": "User-directed source-fidelity restoration; content/article-review/cleanup-2026-10-06.json"
-    }
-  ],
-  "fullReadConfirmed": false,
-  "recheckConfirmed": false,
-  "reviewMode": "source-fidelity-rules-v1",
-  "reviewer": "Codex (user-directed restoration)",
-  "reviewedAt": "2026-10-05T17:15:10+00:00",
-  "notes": "Rule-based restoration; original full-read review remains historical. content/article-review/cleanup-2026-10-06.json",
+  "corrections": [],
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "reviewer": "Codex",
+  "reviewedAt": "2026-10-07T07:39:45+00:00",
+  "notes": "正文两个完整论述单元被放同块，按现有换行拆开UNICEF儿童处境与呼吁；标题是正文片段但不改元数据。",
   "issues": [],
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "d135c255a4960e1d94cd71f6d771a6dc89fc96db02bdbe50cbc9492a30fc2a32",
+    "afterFileSha256": "6193f44ff9837511f4d777a4bad9603802cb6785789b86767da6e2637f0d261e",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "d135c255a4960e1d94cd71f6d771a6dc89fc96db02bdbe50cbc9492a30fc2a32",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..0] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "正文两个完整论述单元被放同块，按现有换行拆开UNICEF儿童处境与呼吁；标题是正文片段但不改元数据。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [
+        {
+          "index": 0,
+          "before": [
+            "UNICEF's business is children, not the workings of the international economy. In its everyday work in over 100 developing nations, UNICEF is brought up against the face of today's international economic problems which is not seen in the corridors of financial power, not reflected in the statistics of debt service ratios, not seated at the conference tables of debt negotiations. It is in the face of a child. It is the young child whose growing mind and body is susceptible to permanent damage from even temporary deprivation. The human brain and body are formed within the first five years of life and there is no second chance. It is the young child whose individual development today and whose social contribution tomorrow are being shaped by the economics of now. It is the young child who is paying the highest of all prices.\nIf we are meant to \"love thy (your) neighbour as thyself\", then surely we should love these children as our own. Children are our most vital resource, our hope for the future. Children cannot wait. They are too fragile to wait for an economic crisis to pass. Their time is running out. We must help them now not only to survive, but to hope and perhaps even to dream. Every child has a right to health, to tenderness, and to life."
+          ],
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "UNICEF's business is children, not the workings of the international economy. In its everyday work in over 100 developing nations, UNICEF is brought up against the face of today's international economic problems which is not seen in the corridors of financial power, not reflected in the statistics of debt service ratios, not seated at the conference tables of debt negotiations. It is in the face of a child. It is the young child whose growing mind and body is susceptible to permanent damage from even temporary deprivation. The human brain and body are formed within the first five years of life and there is no second chance. It is the young child whose individual development today and whose social contribution tomorrow are being shaped by the economics of now. It is the young child who is paying the highest of all prices."
+            },
+            {
+              "type": "paragraph",
+              "text": "If we are meant to \"love thy (your) neighbour as thyself\", then surely we should love these children as our own. Children are our most vital resource, our hope for the future. Children cannot wait. They are too fragile to wait for an economic crisis to pass. Their time is running out. We must help them now not only to survive, but to hope and perhaps even to dream. Every child has a right to health, to tenderness, and to life."
+            }
+          ],
+          "reason": "已有换行在UNICEF职责后转向love thy neighbour行动呼吁，语义上两个完整自然段，拆块保留。"
+        }
+      ],
+      "blockEdits": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/2bed269f3c53c817051e10ac714fb5b8693d2d16f7c9c5add70ba57ba0514571.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "0d2b692621f46a1ea130a81b4159f68adc36a18e04e42a52c268ed73c2eaa270"
+        }
+      ]
+    }
+  },
   "status": "passed_edited",
-  "previousRevisionSha256": "5521635a75db8dca57f49de33e0696e8f79521b7731616a12e67615af2b9a56e",
-  "ruleRestoration": {
-    "policy": "source-fidelity-rules-v1",
-    "report": "content/article-review/cleanup-2026-10-06.json",
-    "reportSha256": "cea27c1c69e32939ff83196bd29cce9a128d8d0d6f248611217179e037971889"
-  }
+  "previousRevisionSha256": "2bed269f3c53c817051e10ac714fb5b8693d2d16f7c9c5add70ba57ba0514571"
 }

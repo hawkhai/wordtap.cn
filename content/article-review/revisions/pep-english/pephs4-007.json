@@ -2,12 +2,12 @@
   "schemaVersion": 1,
   "course": "pep-english",
   "articleId": "pephs4-007",
-  "beforeDisplaySha256": "de137186d410fffcc97e5f0ab6232d4c8840f8226ff94f7071e3b96a153546e8",
+  "beforeDisplaySha256": "dec1681f1da67f1cd33c7d3052b2ebe41608cd5f7a8ef36fa3afeaffa836bc54",
   "afterDisplaySha256": "dec1681f1da67f1cd33c7d3052b2ebe41608cd5f7a8ef36fa3afeaffa836bc54",
   "baselineDisplay": {
     "title": "The Case Against More Sea Exploration",
     "section": "Using Language",
-    "text": "When people talk of exploring the sea more, they usually mean exploiting it. Sea exploration has caused many problems and will continue to cause more.\nMore exploration means more pollution. The 2010 Deepwater Horizon disaster released approximately 134 million US gallons of oil into the sea, according to NOAA’s later assessment. Plastic pollution is also bad, killing many birds and fish, and has even been found in our tap water.\nMining for resources is very damaging, especially in the Arctic. Because of climate change, there is less ice now, which means we can look for more fossil fuels further north. But if we burn these, the ice will melt more and this negative cycle will continue. Climate change is warning us that something is very wrong.\nOverfishing is another problem. Whales and dolphins are also hunted for their meat or for so-called research. Although a moratorium on commercial whaling was adopted in 1982 and took effect in 1985–86, some countries are still “murdering” these intelligent creatures without mercy.\nThe sea is home to life, not human beings’ possessions. It is huge, but it is more sensitive than we think. If we do not protect it, future generations will not forgive us.",
+    "text": "When people talk of exploring the sea more, they usually mean exploiting it. Sea exploration has caused many problems and will continue to cause more.\nMore exploration means more pollution. The Deepwater Horizon spilled over 200 million gallons of oil into the sea in 2010. Plastic pollution is also bad, killing many birds and fish, and has even been found in our tap water.\nMining for resources is very damaging, especially in the Arctic. Because of climate change, there is less ice now, which means we can look for more fossil fuels further north. But if we burn these, the ice will melt more and this negative cycle will continue. Climate change is warning us that something is very wrong.\nOverfishing is another problem. Whales and dolphins are also hunted for their meat or for so-called research. Although this was banned in 1982, some countries are still “murdering” these intelligent creatures without mercy.\nThe sea is home to life, not human beings’ possessions. It is huge, but it is more sensitive than we think. If we do not protect it, future generations will not forgive us.",
     "blocks": [
       {
         "type": "paragraph",
@@ -17,7 +17,7 @@
       {
         "type": "paragraph",
         "lang": "en",
-        "text": "More exploration means more pollution. The 2010 Deepwater Horizon disaster released approximately 134 million US gallons of oil into the sea, according to NOAA’s later assessment. Plastic pollution is also bad, killing many birds and fish, and has even been found in our tap water."
+        "text": "More exploration means more pollution. The Deepwater Horizon spilled over 200 million gallons of oil into the sea in 2010. Plastic pollution is also bad, killing many birds and fish, and has even been found in our tap water."
       },
       {
         "type": "paragraph",
@@ -27,7 +27,7 @@
       {
         "type": "paragraph",
         "lang": "en",
-        "text": "Overfishing is another problem. Whales and dolphins are also hunted for their meat or for so-called research. Although a moratorium on commercial whaling was adopted in 1982 and took effect in 1985–86, some countries are still “murdering” these intelligent creatures without mercy."
+        "text": "Overfishing is another problem. Whales and dolphins are also hunted for their meat or for so-called research. Although this was banned in 1982, some countries are still “murdering” these intelligent creatures without mercy."
       },
       {
         "type": "paragraph",
@@ -70,50 +70,45 @@
   },
   "sources": [
     {
-      "path": "content/pep-english/raw/senior-selective-4.pdf",
-      "locator": "PDF第39-39页，标题与完整正文逐行核对",
+      "path": "content/article-review/history/a14ebd5b3e6cc31fef5b75b9c81906925e61ee563961f5a2cb8fa14bf882f4cb.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
       "checked": true,
-      "sha256": "2ad7555a13eb420aa70497f9faa2541fdb502b7ffc4e063e87c60cce88f1b4a3"
-    },
-    {
-      "path": "content/pep-english/raw/senior-selective-4/senior-selective-4_39.jpg",
-      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
-      "checked": true,
-      "sha256": "12f17ba133830f17128dd829ca0453ca4de489d5d4e9315c387aea32cecdd3ff"
-    },
-    {
-      "path": "content/article-review/source-evidence/pephs4-007-sea.json",
-      "locator": "NOAA评估与IWC原机构规则说明",
-      "checked": true,
-      "sha256": "cdcbc523b66dc9dd1c6de0277bd8941fab36da1a6786fe0d044213142fe2db9e"
-    },
-    {
-      "path": "content/article-review/cleanup-2026-10-06.json",
-      "sha256": "cea27c1c69e32939ff83196bd29cce9a128d8d0d6f248611217179e037971889",
-      "locator": "public/pep-english/lessons/pephs4/007.json",
-      "checked": true
+      "sha256": "140c95010a9b0469dcee1c784d947dab9636bbeb91aa8465b27f947b274a3eee"
     }
   ],
-  "corrections": [
-    {
-      "field": "text",
-      "before": "When people talk of exploring the sea more, they usually mean exploiting it. Sea exploration has caused many problems and will continue to cause more.\nMore exploration means more pollution. The 2010 Deepwater Horizon disaster released approximately 134 million US gallons of oil into the sea, according to NOAA’s later assessment. Plastic pollution is also bad, killing many birds and fish, and has even been found in our tap water.\nMining for resources is very damaging, especially in the Arctic. Because of climate change, there is less ice now, which means we can look for more fossil fuels further north. But if we burn these, the ice will melt more and this negative cycle will continue. Climate change is warning us that something is very wrong.\nOverfishing is another problem. Whales and dolphins are also hunted for their meat or for so-called research. Although a moratorium on commercial whaling was adopted in 1982 and took effect in 1985–86, some countries are still “murdering” these intelligent creatures without mercy.\nThe sea is home to life, not human beings’ possessions. It is huge, but it is more sensitive than we think. If we do not protect it, future generations will not forgive us.",
-      "after": "When people talk of exploring the sea more, they usually mean exploiting it. Sea exploration has caused many problems and will continue to cause more.\nMore exploration means more pollution. The Deepwater Horizon spilled over 200 million gallons of oil into the sea in 2010. Plastic pollution is also bad, killing many birds and fish, and has even been found in our tap water.\nMining for resources is very damaging, especially in the Arctic. Because of climate change, there is less ice now, which means we can look for more fossil fuels further north. But if we burn these, the ice will melt more and this negative cycle will continue. Climate change is warning us that something is very wrong.\nOverfishing is another problem. Whales and dolphins are also hunted for their meat or for so-called research. Although this was banned in 1982, some countries are still “murdering” these intelligent creatures without mercy.\nThe sea is home to life, not human beings’ possessions. It is huge, but it is more sensitive than we think. If we do not protect it, future generations will not forgive us.",
-      "evidence": "User-directed source-fidelity restoration; content/article-review/cleanup-2026-10-06.json"
-    }
-  ],
-  "fullReadConfirmed": false,
-  "recheckConfirmed": false,
-  "reviewMode": "source-fidelity-rules-v1",
-  "reviewer": "Codex (user-directed restoration)",
-  "reviewedAt": "2026-10-05T17:15:10+00:00",
-  "notes": "Rule-based restoration; original full-read review remains historical. content/article-review/cleanup-2026-10-06.json",
+  "corrections": [],
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "reviewer": "Codex",
+  "reviewedAt": "2026-10-07T07:35:55+00:00",
+  "notes": "反对海洋探索五段为立场、污染、采矿、过捕、保护呼吁，论点边界清晰。",
   "issues": [],
-  "status": "passed_edited",
-  "previousRevisionSha256": "253d8593190484dc759e2676ef55656c746083a5054c4aa5a2f968a7273dfa44",
-  "ruleRestoration": {
-    "policy": "source-fidelity-rules-v1",
-    "report": "content/article-review/cleanup-2026-10-06.json",
-    "reportSha256": "cea27c1c69e32939ff83196bd29cce9a128d8d0d6f248611217179e037971889"
-  }
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "c89b582b80496096f85467ab6d13232805100fc4f8430f3ab278cdab28dbbb0e",
+    "afterFileSha256": "c89b582b80496096f85467ab6d13232805100fc4f8430f3ab278cdab28dbbb0e",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "c89b582b80496096f85467ab6d13232805100fc4f8430f3ab278cdab28dbbb0e",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..4] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "反对海洋探索五段为立场、污染、采矿、过捕、保护呼吁，论点边界清晰。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/a14ebd5b3e6cc31fef5b75b9c81906925e61ee563961f5a2cb8fa14bf882f4cb.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "140c95010a9b0469dcee1c784d947dab9636bbeb91aa8465b27f947b274a3eee"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "a14ebd5b3e6cc31fef5b75b9c81906925e61ee563961f5a2cb8fa14bf882f4cb"
 }

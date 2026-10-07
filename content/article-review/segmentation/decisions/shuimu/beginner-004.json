@@ -1,0 +1,41 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "35f129e95522c0bbad3d9e69551421337266e928f84ae9351c9f63d75edbb0a6",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "coverage": "全文 blocks[0..97]；对话、语法、词表及所有修改逐项复核。",
+  "notes": "合并 job/work 解释与特殊疑问句定义的续行；中英对话、疑问词表和独立例句保持原边界。",
+  "issues": [],
+  "mergeBlocks": [
+    {
+      "start": 52,
+      "end": 53,
+      "before": [
+        "▪ job 表示职业，相对固定的工作，work 表示为了实现目标进行的努力或",
+        "活动"
+      ],
+      "text": "▪ job 表示职业，相对固定的工作，work 表示为了实现目标进行的努力或活动",
+      "reason": "后块在同一例句或说明中续接前块，补齐句中断行，保留首块类别。"
+    },
+    {
+      "start": 62,
+      "end": 63,
+      "before": [
+        "特殊疑问句用来对句子某一部分提问。通常以疑问词 what，which，when，",
+        "where，who，why，how 等开头。"
+      ],
+      "text": "特殊疑问句用来对句子某一部分提问。通常以疑问词 what，which，when，where，who，why，how 等开头。",
+      "reason": "后块在同一例句或说明中续接前块，补齐句中断行，保留首块类别。"
+    }
+  ],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/6647bd4a1399ca0f29332496770456264778fdb29d15bd1a0f8722acd0393054.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "401d5d4283fe150f8cf66fd3ed65abb746e35a8f2cc37af8736516eb67004bb7"
+    }
+  ]
+}

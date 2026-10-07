@@ -60,24 +60,45 @@
   },
   "sources": [
     {
-      "path": "content/pep-english/raw/senior-required-2.pdf",
-      "locator": "PDF第59-59页，标题与完整正文逐行核对",
+      "path": "content/article-review/history/cd375180984b63f34e07d202684c8144764c8febf20347d7d26b2e4da086109a.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
       "checked": true,
-      "sha256": "33b74bf42b22b32fdbe3201e6f61cf8099be047ef0af8a1740f6013dee4a619d"
-    },
-    {
-      "path": "content/pep-english/raw/senior-required-2/senior-required-2_59.jpg",
-      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
-      "checked": true,
-      "sha256": "971ec9f2f9666dbc242f4566b334f1bd2b57b62737c728e3695a7ea4dcfcdb47"
+      "sha256": "c0ad7cb11bee6fda3ec364ec56272bba9a5317356b2405011831c30563a3d929"
     }
   ],
   "corrections": [],
   "fullReadConfirmed": true,
   "recheckConfirmed": true,
   "reviewer": "Codex",
-  "reviewedAt": "2026-10-02T05:41:29+00:00",
-  "notes": "PDF第59页Virtual Choir四段全文逐行一致。Eric Whitacre、1970/1988/1995/1997/2009/2014日期、185人12国与2292人80国、Lux Aurumque/What If及原引语核对正确，无修改。",
+  "reviewedAt": "2026-10-07T07:30:16+00:00",
+  "notes": "虚拟合唱团定义、创办人生平、2009及2014项目、总结四段完整保留，引语属于所在段。",
   "issues": [],
-  "status": "passed_unchanged"
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "786e9fa20611e34adfe18bf04234fc708acafee2370307ee88653ad3d6fb6bb5",
+    "afterFileSha256": "786e9fa20611e34adfe18bf04234fc708acafee2370307ee88653ad3d6fb6bb5",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "786e9fa20611e34adfe18bf04234fc708acafee2370307ee88653ad3d6fb6bb5",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..3] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "虚拟合唱团定义、创办人生平、2009及2014项目、总结四段完整保留，引语属于所在段。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/cd375180984b63f34e07d202684c8144764c8febf20347d7d26b2e4da086109a.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "c0ad7cb11bee6fda3ec364ec56272bba9a5317356b2405011831c30563a3d929"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "cd375180984b63f34e07d202684c8144764c8febf20347d7d26b2e4da086109a"
 }

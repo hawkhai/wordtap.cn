@@ -50,24 +50,45 @@
   },
   "sources": [
     {
-      "path": "content/pep-english/raw/senior-required-1.pdf",
-      "locator": "PDF第105-105页，标题与完整正文逐行核对",
+      "path": "content/article-review/history/be843441b0230b2bfe2e5c22a501c6e363bfa8bea8c00f1ad5b8a457cf538dbc.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
       "checked": true,
-      "sha256": "ffe985a370964820aa003008f48c7cf17b5e0dff8eb29fe54cd4743b0c4e8c79"
-    },
-    {
-      "path": "content/pep-english/raw/senior-required-1/senior-required-1_105.jpg",
-      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
-      "checked": true,
-      "sha256": "5a86908d6d134d6904c24f1739d5b093d5214eabe5611c32989251d3300a28d3"
+      "sha256": "a2bc89eff89549d34042ea94231f85c0340f103e4ec0f77aece5542e9d585aba"
     }
   ],
   "corrections": [],
   "fullReadConfirmed": true,
   "recheckConfirmed": true,
   "reviewer": "Codex",
-  "reviewedAt": "2026-10-02T05:35:21+00:00",
-  "notes": "PDF第105页Polyglots三段全文核对，赵元任/Elizabeth I/Giuseppe Mezzofanti、Tim Doner13岁学习经历、Hebrew/Arabic及末段引语均与教材一致。段落和标点完整，无修改。",
+  "reviewedAt": "2026-10-07T07:30:14+00:00",
+  "notes": "多语者文章以名人和Tim引入、Tim学习过程、语言文化意义三段组织，保留完整多句段。",
   "issues": [],
-  "status": "passed_unchanged"
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "e3ed160389892d25d0612160f9135977a05b2beaf69a0a82ea697ce52daef9d1",
+    "afterFileSha256": "e3ed160389892d25d0612160f9135977a05b2beaf69a0a82ea697ce52daef9d1",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "e3ed160389892d25d0612160f9135977a05b2beaf69a0a82ea697ce52daef9d1",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..2] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "多语者文章以名人和Tim引入、Tim学习过程、语言文化意义三段组织，保留完整多句段。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/be843441b0230b2bfe2e5c22a501c6e363bfa8bea8c00f1ad5b8a457cf538dbc.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "a2bc89eff89549d34042ea94231f85c0340f103e4ec0f77aece5542e9d585aba"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "be843441b0230b2bfe2e5c22a501c6e363bfa8bea8c00f1ad5b8a457cf538dbc"
 }

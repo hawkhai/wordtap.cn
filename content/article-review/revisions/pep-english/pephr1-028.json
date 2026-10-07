@@ -70,24 +70,45 @@
   },
   "sources": [
     {
-      "path": "content/pep-english/raw/senior-required-1.pdf",
-      "locator": "PDF第89-89页，标题与完整正文逐行核对",
+      "path": "content/article-review/history/600f6165e32576c62fea32fb6f6a9261aca2324b9cc16f9437a575db24da765b.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
       "checked": true,
-      "sha256": "ffe985a370964820aa003008f48c7cf17b5e0dff8eb29fe54cd4743b0c4e8c79"
-    },
-    {
-      "path": "content/pep-english/raw/senior-required-1/senior-required-1_89.jpg",
-      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
-      "checked": true,
-      "sha256": "042f5d0e682df1bc1941d5c655711f45652624040e9423251ecb4e67898ceee2"
+      "sha256": "66f5f54bd3b1ab6a41ba88d9c23669011de65368aeb1be8111db3ee29acffe1b"
     }
   ],
   "corrections": [],
   "fullReadConfirmed": true,
   "recheckConfirmed": true,
   "reviewer": "Codex",
-  "reviewedAt": "2026-10-02T05:32:47+00:00",
-  "notes": "PDF第89页Smollett信件称呼、三正文段及署名逐行一致。Pisa历史景况、八层/188英尺/16英尺及Improvisatore/Improvisatori、Corvesi等按教材节选保留；现代照片图注与中文注释不混入正文，无修改。",
+  "reviewedAt": "2026-10-07T07:30:13+00:00",
+  "notes": "Pisa书信保留称呼、城市概况、斜塔、即兴诗人及署名，三段说明边界明确。",
   "issues": [],
-  "status": "passed_unchanged"
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "78577d33ca2008184fc554496b199af44e2cb07412afc8433379d0c1582f5365",
+    "afterFileSha256": "78577d33ca2008184fc554496b199af44e2cb07412afc8433379d0c1582f5365",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "78577d33ca2008184fc554496b199af44e2cb07412afc8433379d0c1582f5365",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..4] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "Pisa书信保留称呼、城市概况、斜塔、即兴诗人及署名，三段说明边界明确。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/600f6165e32576c62fea32fb6f6a9261aca2324b9cc16f9437a575db24da765b.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "66f5f54bd3b1ab6a41ba88d9c23669011de65368aeb1be8111db3ee29acffe1b"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "600f6165e32576c62fea32fb6f6a9261aca2324b9cc16f9437a575db24da765b"
 }

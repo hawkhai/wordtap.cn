@@ -70,24 +70,45 @@
   },
   "sources": [
     {
-      "path": "content/pep-english/raw/senior-required-3.pdf",
-      "locator": "PDF第51-51页，标题与完整正文逐行核对",
+      "path": "content/article-review/history/d12db37215368224dc55df12ba9ad81f803fc8e65e71befdea69937120c608e7.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
       "checked": true,
-      "sha256": "fe9c8e15e62f4aec56efc60b8de43f4a55d40f3114d6505affaef78a8b7a1af2"
-    },
-    {
-      "path": "content/pep-english/raw/senior-required-3/senior-required-3_51.jpg",
-      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
-      "checked": true,
-      "sha256": "fb6d400e8908c6205726a63abf7bbadde5e1a5bae9f91dee73eccef60f281c35"
+      "sha256": "e0a013224389270014078d2b5c95bc681359a15285b03d012aa9cf820ac795dd"
     }
   ],
   "corrections": [],
   "fullReadConfirmed": true,
   "recheckConfirmed": true,
   "reviewer": "Codex",
-  "reviewedAt": "2026-10-02T05:57:47+00:00",
-  "notes": "通读PDF第51页双栏五段太空探索议论文，依左栏两段再右栏三段顺序核对；卫星农业、技术衍生品、未来居住地三项论证及结尾完整，保留原作者论点和推测语气。",
+  "reviewedAt": "2026-10-07T07:32:21+00:00",
+  "notes": "太空探索论证按争议引入、粮食、技术、资源与移居、结论五段，保留论点和例证的完整段。",
   "issues": [],
-  "status": "passed_unchanged"
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "6c5f697a76919ff4bd303ede69bb99738768a8ed00f3adc7dfc1c1e77ff394d3",
+    "afterFileSha256": "6c5f697a76919ff4bd303ede69bb99738768a8ed00f3adc7dfc1c1e77ff394d3",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "6c5f697a76919ff4bd303ede69bb99738768a8ed00f3adc7dfc1c1e77ff394d3",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..4] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "太空探索论证按争议引入、粮食、技术、资源与移居、结论五段，保留论点和例证的完整段。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/d12db37215368224dc55df12ba9ad81f803fc8e65e71befdea69937120c608e7.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "e0a013224389270014078d2b5c95bc681359a15285b03d012aa9cf820ac795dd"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "d12db37215368224dc55df12ba9ad81f803fc8e65e71befdea69937120c608e7"
 }

@@ -2,17 +2,17 @@
   "schemaVersion": 1,
   "course": "pep-english",
   "articleId": "pepj7b-004",
-  "beforeDisplaySha256": "885e550e8d2f5e28e1c3e8101c1eeaccd203d4b82bb3778f902186f291db3767",
+  "beforeDisplaySha256": "b41c61d3d7ec656069dee2289822a562b5e3e5c337fa257c969d3aa0fd30a140",
   "afterDisplaySha256": "b41c61d3d7ec656069dee2289822a562b5e3e5c337fa257c969d3aa0fd30a140",
   "baselineDisplay": {
     "title": "Crossing the River to School",
     "section": "Section B",
-    "text": "How do you get to school? Do you walk or ride a bike? Do you go by bus or by train? For many students, it is easy to get to school. But for the students in one small village in China, it is difficult. There is a very big river between their school and the village. There is no bridge and the river runs too quickly for boats. So these students go on a ropeway to cross the river to school.\nOne 11-year-old boy, Liangliang, crosses the river every school day. But he is not afraid because he loves school. \"I love to play with my classmates. And I love my teacher. He's like a father to me.\"\nMany of the students and villagers never leave the village. It is their dream to have a bridge. Can their dream come true?",
+    "text": "STUDENT LIFE | 2010-04-20\n\nHow do you get to school? Do you walk or ride a bike? Do you go by bus or by train? For many students, it is easy to get to school. But for the students in one small village in China, it is difficult. There is a very big river between their school and the village. There is no bridge and the river runs too quickly for boats. So these students go on a ropeway to cross the river to school.\nOne 11-year-old boy, Liangliang, crosses the river every school day. But he is not afraid because he loves school. \"I love to play with my classmates. And I love my teacher. He's like a father to me.\"\nMany of the students and villagers never leave the village. It is their dream to have a bridge. Can their dream come true?",
     "blocks": [
       {
         "type": "paragraph",
         "lang": "en",
-        "text": "How do you get to school? Do you walk or ride a bike? Do you go by bus or by train? For many students, it is easy to get to school. But for the students in one small village in China, it is difficult. There is a very big river between their school and the village. There is no bridge and the river runs too quickly for boats. So these students go on a ropeway to cross the river to school."
+        "text": "STUDENT LIFE | 2010-04-20\n\nHow do you get to school? Do you walk or ride a bike? Do you go by bus or by train? For many students, it is easy to get to school. But for the students in one small village in China, it is difficult. There is a very big river between their school and the village. There is no bridge and the river runs too quickly for boats. So these students go on a ropeway to cross the river to school."
       },
       {
         "type": "paragraph",
@@ -50,31 +50,46 @@
   },
   "sources": [
     {
-      "path": "content/pep-english/raw/junior-7b.pdf",
-      "locator": "PDF第27-27页，标题与完整正文逐行核对",
+      "path": "content/article-review/history/1738be2a593871b0b36befc6f4b9f7f5f3c625068f1844290c9207638c34fbc6.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
       "checked": true,
-      "sha256": "7041d787738bdf5f4f556765acdfe8033ac2f69d03e67ccc62516375f6a46f37"
-    },
-    {
-      "path": "content/pep-english/raw/junior-7b/junior-7b_27.jpg",
-      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
-      "checked": true,
-      "sha256": "3009b58cf66bfb476ea410260f196dbb052c920aa151c2a331f7e44247ca09f5"
+      "sha256": "2226abb3caabf07a85abaeb9ad7c6d8d07df8b321735587dfbe1c06ad4bfbbb5"
     }
   ],
-  "corrections": [
-    {
-      "field": "text",
-      "before": "How do you get to school?",
-      "after": "STUDENT LIFE | 2010-04-20\n\nHow do you get to school?",
-      "evidence": "PDF第27页新闻框左上明确印有STUDENT LIFE | 2010-04-20，属于文章日期栏；补回原文中漏掉的历史日期。"
-    }
-  ],
+  "corrections": [],
   "fullReadConfirmed": true,
   "recheckConfirmed": true,
   "reviewer": "Codex",
-  "reviewedAt": "2026-10-02T04:45:26+00:00",
-  "notes": "PDF27页印刷17页三段完整正文逐行及第二轮复核，11岁亮亮、索道、老师如父亲及建桥愿望均准确。原页新闻框有STUDENT LIFE与2010-04-20日期，课后明确现已有桥；补回原框日期以保留历史语境，不把旧闻呈现为当前状态。标题采用原选项B，不加入练习题或虚构后续，复读全部。",
+  "reviewedAt": "2026-10-07T07:39:46+00:00",
+  "notes": "上学过河文章三段分别困难、Liangliang感受、桥梁愿望；首块STUDENT LIFE日期栏以空行和正文分明，保持现有栏头排版。",
   "issues": [],
-  "status": "passed_edited"
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "d5d0494a1c75994f9855fb01e860c546f7f3e84511bc22f479e04f77d5ca8e5c",
+    "afterFileSha256": "d5d0494a1c75994f9855fb01e860c546f7f3e84511bc22f479e04f77d5ca8e5c",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "d5d0494a1c75994f9855fb01e860c546f7f3e84511bc22f479e04f77d5ca8e5c",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..2] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "上学过河文章三段分别困难、Liangliang感受、桥梁愿望；首块STUDENT LIFE日期栏以空行和正文分明，保持现有栏头排版。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "blockEdits": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/1738be2a593871b0b36befc6f4b9f7f5f3c625068f1844290c9207638c34fbc6.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "2226abb3caabf07a85abaeb9ad7c6d8d07df8b321735587dfbe1c06ad4bfbbb5"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "1738be2a593871b0b36befc6f4b9f7f5f3c625068f1844290c9207638c34fbc6"
 }

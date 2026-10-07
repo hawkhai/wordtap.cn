@@ -70,24 +70,46 @@
   },
   "sources": [
     {
-      "path": "content/pep-english/raw/junior-9.pdf",
-      "locator": "PDF第68-68页，标题与完整正文逐行核对",
+      "path": "content/article-review/history/889432e72f9c9297d5a649e0c70cb37c976c86ae82896af2f83c4faa8d7941ab.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
       "checked": true,
-      "sha256": "9c4118021048d901610b673f590ed28c39c04cb2d4f7fd940f83a2d8b2741af7"
-    },
-    {
-      "path": "content/pep-english/raw/junior-9/junior-9_68.jpg",
-      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
-      "checked": true,
-      "sha256": "0fe39f6a6f6da12935a21b1c0e6affabc638aaafaaaa7d7b00e5cc88c8a58a4d"
+      "sha256": "88dfef983f4dca8f0b6a05c6b7562b4e95583392dd9fc6796e77e624af2b25fb"
     }
   ],
   "corrections": [],
   "fullReadConfirmed": true,
   "recheckConfirmed": true,
   "reviewer": "Codex",
-  "reviewedAt": "2026-10-02T05:11:22+00:00",
-  "notes": "PDF68页印刷54页Liu Yu跑步梦想五段逐行核对，山东15岁学生、父母支持参赛但担心职业选择、限制夜间训练与本人坚持的不同观点完整。每位说话者归属准确，末句Only then倒装及标题问号正确，复读无修改。",
+  "reviewedAt": "2026-10-07T07:42:02+00:00",
+  "notes": "Liu Yu跑步选择五段引入及父母儿子交替观点，各采访长引语完整保留。",
   "issues": [],
-  "status": "passed_unchanged"
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "10d8e2dc183c21a64d55007ea8fcdff5bb75303934dbed18ba70130962976293",
+    "afterFileSha256": "10d8e2dc183c21a64d55007ea8fcdff5bb75303934dbed18ba70130962976293",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "10d8e2dc183c21a64d55007ea8fcdff5bb75303934dbed18ba70130962976293",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..4] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "Liu Yu跑步选择五段引入及父母儿子交替观点，各采访长引语完整保留。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "blockEdits": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/889432e72f9c9297d5a649e0c70cb37c976c86ae82896af2f83c4faa8d7941ab.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "88dfef983f4dca8f0b6a05c6b7562b4e95583392dd9fc6796e77e624af2b25fb"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "889432e72f9c9297d5a649e0c70cb37c976c86ae82896af2f83c4faa8d7941ab"
 }

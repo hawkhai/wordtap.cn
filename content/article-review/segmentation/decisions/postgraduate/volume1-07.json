@@ -1,0 +1,22 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "9943fe313f78e0b4e1eb137d0615c06304a8c41a5ca801f5764518ee5290cce7",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "完整读取title及blocks[0..26]全部正文、译文和标题署名；text已验证与全块连接逐字一致。无变更方案在内存应用并验证后，再次复核上述全文及各段衔接。",
+  "notes": "全文包含约翰逊题辞、署名、双语标题作者及人性恒定与善行论述；题辞署名分立有明确用途，27块保留。正文各论证段中英对应，结尾完整。 内容旁注（不属本轮句段验收）：blocks[4]英文作者行仅为“and Lydia Hammer”，以and开头；blocks[6]中文作者为“弗兰克，莉迪亚·汉默尔”。疑似英文署名前半缺失，空白或相邻块合并不能恢复，保留待确认。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "revisit": true,
+  "sources": [
+    {
+      "path": "content/article-review/history/00e1f0f0df19e2aa18fecfcc18f55c84eede9d8f862ab3d6f9d317903356566f.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "11fa3cc1b0c54b02f0b75bf744e05039969f8da1c992505e2a1eaeead07e757e"
+    }
+  ]
+}

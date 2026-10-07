@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "course": "pep-english",
   "articleId": "pephs3-008",
-  "beforeDisplaySha256": "9345fb2ec943c270c0676affae89276cdbabb2f96ae6f36f26d96fd6dc223867",
+  "beforeDisplaySha256": "2d3d55ae55d6230242e1eb1830afa7978bb454ca9ba1d1233fccae0a5b10b8f4",
   "afterDisplaySha256": "2d3d55ae55d6230242e1eb1830afa7978bb454ca9ba1d1233fccae0a5b10b8f4",
   "baselineDisplay": {
     "title": "A Successful Failure",
@@ -15,7 +15,7 @@
         "text": "Perce Blackborow joined an expedition with Sir Ernest Shackleton to Antarctica on the ship Endurance in 1914. Shackleton was one of the most famous explorers of his day and it was considered a great honour to be part of his expeditions. Below are some of Blackborow’s diary entries."
       },
       {
-        "type": "paragraph",
+        "type": "subheading",
         "lang": "en",
         "text": "31 Oct 1914"
       },
@@ -35,7 +35,7 @@
         "text": "How everyone will envy me when I come back and tell them about the amazing places I have been to!"
       },
       {
-        "type": "paragraph",
+        "type": "subheading",
         "lang": "en",
         "text": "21 Nov 1915"
       },
@@ -55,7 +55,7 @@
         "text": "We are now camped on the ice and we have been managing to survive, but spring is coming, and the ice will soon begin to melt."
       },
       {
-        "type": "paragraph",
+        "type": "subheading",
         "lang": "en",
         "text": "20 May 1916"
       },
@@ -190,30 +190,45 @@
   },
   "sources": [
     {
-      "path": "content/pep-english/raw/senior-selective-3.pdf",
-      "locator": "PDF第45-46页，标题与完整正文逐行核对",
+      "path": "content/article-review/history/c9409df76ae750d7b2cb617f2fb93a2adb6a7a988c06230718b62f11e9a84b4f.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
       "checked": true,
-      "sha256": "ed8eb9e5988b44a1ff4f8bc11ed3cfae406decefae7982477362720788e1998b"
-    },
-    {
-      "path": "content/pep-english/raw/senior-selective-3/senior-selective-3_45.jpg",
-      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
-      "checked": true,
-      "sha256": "2dcdf57f8ac92d519c625a15a92c294e0358846951f7e506b7e8eb91defe86c5"
-    },
-    {
-      "path": "content/pep-english/raw/senior-selective-3/senior-selective-3_46.jpg",
-      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
-      "checked": true,
-      "sha256": "b19bacbaa40283220bd0cacb63623d75f73cb5be87625289ce82dd08ed02e913"
+      "sha256": "ac7fb691a6677f9ad65569f412a2ae0c2e048603abd6fe0210aa2bf15c671fc0"
     }
   ],
   "corrections": [],
   "fullReadConfirmed": true,
   "recheckConfirmed": true,
   "reviewer": "Codex",
-  "reviewedAt": "2026-10-02T07:07:46+00:00",
-  "notes": "通读PDF第45–46页导语及三篇日记式探险叙述，保留文学化对白、心理活动和原有省略号。三处日期作为独立小标题恢复，未混入页上招募广告练习。",
+  "reviewedAt": "2026-10-07T07:35:49+00:00",
+  "notes": "Endurance日记保留三个日期标题、各日完整叙事、末段对白与短感悟段，不把有意短段误并。",
   "issues": [],
-  "status": "passed_edited"
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "18c09801625f657e06b7b7de430b3a8ab8023803b14ed964816dd83fbdd574d5",
+    "afterFileSha256": "18c09801625f657e06b7b7de430b3a8ab8023803b14ed964816dd83fbdd574d5",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "18c09801625f657e06b7b7de430b3a8ab8023803b14ed964816dd83fbdd574d5",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..16] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "Endurance日记保留三个日期标题、各日完整叙事、末段对白与短感悟段，不把有意短段误并。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/c9409df76ae750d7b2cb617f2fb93a2adb6a7a988c06230718b62f11e9a84b4f.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "ac7fb691a6677f9ad65569f412a2ae0c2e048603abd6fe0210aa2bf15c671fc0"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "c9409df76ae750d7b2cb617f2fb93a2adb6a7a988c06230718b62f11e9a84b4f"
 }

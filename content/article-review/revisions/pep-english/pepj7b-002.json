@@ -40,24 +40,46 @@
   },
   "sources": [
     {
-      "path": "content/pep-english/raw/junior-7b.pdf",
-      "locator": "PDF第21-21页，标题与完整正文逐行核对",
+      "path": "content/article-review/history/f857bf97f403d5cfc166179e45ef63b12ec0e2990ca95a1269e9c1c18ed02882.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
       "checked": true,
-      "sha256": "7041d787738bdf5f4f556765acdfe8033ac2f69d03e67ccc62516375f6a46f37"
-    },
-    {
-      "path": "content/pep-english/raw/junior-7b/junior-7b_21.jpg",
-      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
-      "checked": true,
-      "sha256": "957fd4594ddc1545e2906c1036e5dd780de7c9d3ed241c6047e86ccddc377991"
+      "sha256": "7e123f032b034290e081a1732c117b6ff108182182d9bd5b36f65afd69c02d88"
     }
   ],
   "corrections": [],
   "fullReadConfirmed": true,
   "recheckConfirmed": true,
   "reviewer": "Codex",
-  "reviewedAt": "2026-10-02T04:44:23+00:00",
-  "notes": "PDF21页印刷11页完整两段逐行核对并第二次从头对照原图。Tony8点起/8:30上学/10:30睡，Mary6:30起/8:30上学/9:30睡和所有饮食运动习惯、频率、副词均一致。原图无正文标题，现有概括标题准确；教学提问未混入，两段绕图接续完整，无修改。",
+  "reviewedAt": "2026-10-07T07:39:46+00:00",
+  "notes": "Tony与Mary日常习惯各为完整人物段，时间顺序和对照边界保留。",
   "issues": [],
-  "status": "passed_unchanged"
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "357b86c4dbedbe3538a0404d589b88598a1338ecba3f39b6a3b152aaa8a3b978",
+    "afterFileSha256": "357b86c4dbedbe3538a0404d589b88598a1338ecba3f39b6a3b152aaa8a3b978",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "357b86c4dbedbe3538a0404d589b88598a1338ecba3f39b6a3b152aaa8a3b978",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..1] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "Tony与Mary日常习惯各为完整人物段，时间顺序和对照边界保留。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "blockEdits": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/f857bf97f403d5cfc166179e45ef63b12ec0e2990ca95a1269e9c1c18ed02882.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "7e123f032b034290e081a1732c117b6ff108182182d9bd5b36f65afd69c02d88"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "f857bf97f403d5cfc166179e45ef63b12ec0e2990ca95a1269e9c1c18ed02882"
 }

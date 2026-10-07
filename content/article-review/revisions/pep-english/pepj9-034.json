@@ -3,7 +3,7 @@
   "course": "pep-english",
   "articleId": "pepj9-034",
   "beforeDisplaySha256": "ff1ec4225491d67997598766a0bed06a0799082833d285bc26861dedb7396424",
-  "afterDisplaySha256": "ff1ec4225491d67997598766a0bed06a0799082833d285bc26861dedb7396424",
+  "afterDisplaySha256": "4cb2f98aa923449c64e6a581a1afe5d6181b7c6bec03c33746d3baafe640c91e",
   "baselineDisplay": {
     "title": "Nancy Asks Bert for Friendship Advice",
     "section": "Section A",
@@ -24,30 +24,138 @@
       {
         "type": "paragraph",
         "lang": "en",
-        "text": "Nancy: Hey, Bert. I think I've made Alice mad and I'm not sure what to do about it.\nBert: What happened?\nNancy: You know Julie is Alice's best friend, right?\nBert: Uh-huh.\nNancy: Well, the more I get to know Julie, the more I realize that we have a lot in common. So we've been spending more time together lately.\nBert: But what's wrong with that?\nNancy: Umm... it makes Alice unhappy because she thinks Julie is now better friends with me than with her.\nBert: I see. Mmm... why don't you ask Alice to join you each time you do something with Julie? Then she won't feel left out.\nNancy: Oh, good idea! That can make our friendship stronger."
+        "text": "Nancy: Hey, Bert. I think I've made Alice mad and I'm not sure what to do about it."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Bert: What happened?"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Nancy: You know Julie is Alice's best friend, right?"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Bert: Uh-huh."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Nancy: Well, the more I get to know Julie, the more I realize that we have a lot in common. So we've been spending more time together lately."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Bert: But what's wrong with that?"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Nancy: Umm... it makes Alice unhappy because she thinks Julie is now better friends with me than with her."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Bert: I see. Mmm... why don't you ask Alice to join you each time you do something with Julie? Then she won't feel left out."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Nancy: Oh, good idea! That can make our friendship stronger."
       }
     ]
   },
   "sources": [
     {
-      "path": "content/pep-english/raw/junior-9.pdf",
-      "locator": "PDF第96-96页，标题与完整正文逐行核对",
+      "path": "content/article-review/history/9e1019495873831502e21b8cf9ff1f41d2e420972cf3d30bea06a0a02a59f3b4.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
       "checked": true,
-      "sha256": "9c4118021048d901610b673f590ed28c39c04cb2d4f7fd940f83a2d8b2741af7"
-    },
-    {
-      "path": "content/pep-english/raw/junior-9/junior-9_96.jpg",
-      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
-      "checked": true,
-      "sha256": "ff4fab20f39b3dd228e59e3dfa131be44e9416de2b5be897528d15da4a54bb34"
+      "sha256": "32429e06eac086c1c9c2db37bf1e934a9bacff61c4495078b88101048d6efbca"
     }
   ],
   "corrections": [],
   "fullReadConfirmed": true,
   "recheckConfirmed": true,
   "reviewer": "Codex",
-  "reviewedAt": "2026-10-02T05:13:51+00:00",
-  "notes": "PDF96页印刷82页Nancy/Bert九轮友谊对话逐行对照，Julie与Alice关系、Nancy增多相处时间、邀请Alice避免冷落的建议完整。Uh-huh/Umm/Mmm停顿准确，角色换行正确，未混入上方Tina/Amy听力练习，复读无修改。",
+  "reviewedAt": "2026-10-07T07:42:03+00:00",
+  "notes": "Nancy向Bert求友情建议九轮对话拆分，Julie与Alice关系说明和邀请建议保持整轮。",
   "issues": [],
-  "status": "passed_unchanged"
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "aa693aa8c2534271824620f3f24612bfc55dd3a12c37a05456344ad66082082f",
+    "afterFileSha256": "3845ba745b0208b0bceabfcfbc589f4eeabaa702f7ffbf1a7074e9ad357f2245",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "aa693aa8c2534271824620f3f24612bfc55dd3a12c37a05456344ad66082082f",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..0] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "Nancy向Bert求友情建议九轮对话拆分，Julie与Alice关系说明和邀请建议保持整轮。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [
+        {
+          "index": 0,
+          "before": [
+            "Nancy: Hey, Bert. I think I've made Alice mad and I'm not sure what to do about it.\nBert: What happened?\nNancy: You know Julie is Alice's best friend, right?\nBert: Uh-huh.\nNancy: Well, the more I get to know Julie, the more I realize that we have a lot in common. So we've been spending more time together lately.\nBert: But what's wrong with that?\nNancy: Umm... it makes Alice unhappy because she thinks Julie is now better friends with me than with her.\nBert: I see. Mmm... why don't you ask Alice to join you each time you do something with Julie? Then she won't feel left out.\nNancy: Oh, good idea! That can make our friendship stronger."
+          ],
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Nancy: Hey, Bert. I think I've made Alice mad and I'm not sure what to do about it."
+            },
+            {
+              "type": "paragraph",
+              "text": "Bert: What happened?"
+            },
+            {
+              "type": "paragraph",
+              "text": "Nancy: You know Julie is Alice's best friend, right?"
+            },
+            {
+              "type": "paragraph",
+              "text": "Bert: Uh-huh."
+            },
+            {
+              "type": "paragraph",
+              "text": "Nancy: Well, the more I get to know Julie, the more I realize that we have a lot in common. So we've been spending more time together lately."
+            },
+            {
+              "type": "paragraph",
+              "text": "Bert: But what's wrong with that?"
+            },
+            {
+              "type": "paragraph",
+              "text": "Nancy: Umm... it makes Alice unhappy because she thinks Julie is now better friends with me than with her."
+            },
+            {
+              "type": "paragraph",
+              "text": "Bert: I see. Mmm... why don't you ask Alice to join you each time you do something with Julie? Then she won't feel left out."
+            },
+            {
+              "type": "paragraph",
+              "text": "Nancy: Oh, good idea! That can make our friendship stronger."
+            }
+          ],
+          "reason": "每行具有明确的发言人及完整轮次，分块保留各对话轮次。"
+        }
+      ],
+      "blockEdits": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/9e1019495873831502e21b8cf9ff1f41d2e420972cf3d30bea06a0a02a59f3b4.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "32429e06eac086c1c9c2db37bf1e934a9bacff61c4495078b88101048d6efbca"
+        }
+      ]
+    }
+  },
+  "status": "passed_edited",
+  "previousRevisionSha256": "9e1019495873831502e21b8cf9ff1f41d2e420972cf3d30bea06a0a02a59f3b4"
 }

@@ -102,30 +102,45 @@
   },
   "sources": [
     {
-      "path": "content/College-English/NHCE4-RW3.pdf",
-      "locator": "PDF 42-43，印刷页 27-28，完整正文与标题逐段核对",
+      "path": "content/article-review/history/024816cbc174f59f7b8ee75de553f9dfada45ec5ce432dd45514a6de2cd7f378.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
       "checked": true,
-      "sha256": "40418e1f32f5db4eaf6f091227217121109219515e2ffd6b68791927d506afe8"
-    },
-    {
-      "path": "content/College-English/NHCE4-RW3/NHCE4-RW3_42.jpg",
-      "locator": "已打开教材图页并通读复核正文",
-      "checked": true,
-      "sha256": "975cf2958cc66b7d72b40fe547d8a046f604766d025db22bd8d573b01c22c0c0"
-    },
-    {
-      "path": "content/College-English/NHCE4-RW3/NHCE4-RW3_43.jpg",
-      "locator": "已打开教材图页并通读复核正文",
-      "checked": true,
-      "sha256": "e73456e4502a931b28801a409d3ba45f2b2822f19ef5137cba6a691f011b3b52"
+      "sha256": "ac6f6317bfdf75d914c5ee05f6c7bf2d76f3d99639fb7329e99f149cd71b2beb"
     }
   ],
   "corrections": [],
   "fullReadConfirmed": true,
   "recheckConfirmed": true,
   "reviewer": "Codex",
-  "reviewedAt": "2026-10-02T09:02:01+00:00",
-  "notes": "全文8段通读并核对PDF42–43。北京一天手机支付体验、6元煎饼、优惠券和公共账号等细节一致。末段needed...is与原教材同，不冒充OCR错误；现金成为过去的说法保留为作者体验后的评论，未作支付法律或全国普遍性事实说明。段落边界、跨页续文及中文括注完整。",
+  "reviewedAt": "2026-10-07T07:30:09+00:00",
+  "notes": "全文及未改动输出复核：北京无钱包体验依早餐、超市、交通、商店优惠、缴费理财和总结展开；短转场与招牌引语完整独立，保留八段。",
   "issues": [],
-  "status": "passed_unchanged"
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "00db6baa244b30e9528cb2f5f1df90e39c26d9301276434208286f29ec392c00",
+    "afterFileSha256": "00db6baa244b30e9528cb2f5f1df90e39c26d9301276434208286f29ec392c00",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "00db6baa244b30e9528cb2f5f1df90e39c26d9301276434208286f29ec392c00",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "完整 title、blocks[0..7]及完全相同的text；正文及内嵌中文、引语、对话和列举均已逐项通读；无改动输出按全文再次复核。",
+      "notes": "全文及未改动输出复核：北京无钱包体验依早餐、超市、交通、商店优惠、缴费理财和总结展开；短转场与招牌引语完整独立，保留八段。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/024816cbc174f59f7b8ee75de553f9dfada45ec5ce432dd45514a6de2cd7f378.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "ac6f6317bfdf75d914c5ee05f6c7bf2d76f3d99639fb7329e99f149cd71b2beb"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "024816cbc174f59f7b8ee75de553f9dfada45ec5ce432dd45514a6de2cd7f378"
 }

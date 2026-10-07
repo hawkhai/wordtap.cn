@@ -1,0 +1,21 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "79b6b22353246fa298af3f8d1cd51ccc584cd34115609d800cfaefcf3053da3e",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title；全文 blocks[0..10] 与对应 text；现有正文/对话/题干逐块通读复核。",
+  "notes": "Jim中国生活邮件地址主题及称呼独立，留学动机、城市印象、日常、寄宿计划、邀请与落款结构清楚。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/47762a2bf279298e94e6c09fd455538c830e0d58f9679446afe7513184c307de.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "bd019d4a58ec100af04020faa884eb6493655bc8b1fef89cfe322ad6f88e1535"
+    }
+  ]
+}

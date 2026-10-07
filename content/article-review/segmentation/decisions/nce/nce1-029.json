@@ -1,0 +1,26 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "bc3192ed6b31c26860d01cf3d86f71270341d3c9e399cac4dd5f954f72bfcdde",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title/titleZh、question/questionZh、bodyText全部9行、bodyTextZh全部9行及sentences[0..12]的完整文字；重复正文与字幕文本逐字比对，非正文字幕另读。操作在内存应用并validate_layout_change，修复后的双语全文重新通读。",
+  "notes": "琼斯太太召唤和描述卧室为同轮，艾米提问独立，随后通风收衣铺床除尘扫地的一串指令保持顺序合段。 text与bodyText同步；sentences对象及时间、角色、索引原样保留。",
+  "issues": [],
+  "display": {
+    "text": "How must Amy clean the floor?\n\nCome in, Amy. Shut the door, please. This bedroom's very untidy.\nWhat must I do, Mrs. Jones?\nOpen the window and air the room. Then put these clothes in the wardrobe. Then make the bed. Dust the dressing table. Then sweep the floor.",
+    "bodyText": "Come in, Amy. Shut the door, please. This bedroom's very untidy.\nWhat must I do, Mrs. Jones?\nOpen the window and air the room. Then put these clothes in the wardrobe. Then make the bed. Dust the dressing table. Then sweep the floor.",
+    "bodyTextZh": "进来，艾米。请把门关上。这个卧室非常乱糟糟的。\n我该怎么办，琼斯太太？\n打开窗户让房间通风。然后把这些衣服放进衣柜里。接着整理床铺。擦掉梳妆台上的灰尘。然后扫地。"
+  },
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/ab110e630284ab2b5c36673b10a25406b61e0298e061f65b565247ce0121d583.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "0d8455921277926a081a9c8597929aea977083256a118cd3f0b51b539732cdd4"
+    }
+  ]
+}

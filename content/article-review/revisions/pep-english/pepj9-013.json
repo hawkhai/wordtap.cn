@@ -3,7 +3,7 @@
   "course": "pep-english",
   "articleId": "pepj9-013",
   "beforeDisplaySha256": "dff41ad36d59a4359d80b27d699b9d444e2e18b09e54885ffe1b3cfcc3c0df4c",
-  "afterDisplaySha256": "dff41ad36d59a4359d80b27d699b9d444e2e18b09e54885ffe1b3cfcc3c0df4c",
+  "afterDisplaySha256": "c61c6b4abbf9eb9e526d45ddcc25326da7e548cd6eda9d1dc5c356fdf39c300a",
   "baselineDisplay": {
     "title": "Billy Has Changed So Much",
     "section": "Section A",
@@ -24,30 +24,147 @@
       {
         "type": "paragraph",
         "lang": "en",
-        "text": "Alfred: This party is such a great idea!\nGina: I agree. It's been three years since we last saw our primary school classmates.\nAlfred: It's interesting to see how people have changed.\nGina: Billy has changed so much! He used to be so shy and quiet.\nAlfred: Yeah, his face always turned red when he talked to girls!\nGina: I used to see him reading in the library every day.\nAlfred: That's because he was a really good student. He studied hard and got good scores on his exams.\nGina: Did he use to wear glasses?\nAlfred: Yes, and he used to be thin, too. But look how big and strong he is now!\nGina: He's so popular now. Look at all the girls around him!"
+        "text": "Alfred: This party is such a great idea!"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Gina: I agree. It's been three years since we last saw our primary school classmates."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Alfred: It's interesting to see how people have changed."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Gina: Billy has changed so much! He used to be so shy and quiet."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Alfred: Yeah, his face always turned red when he talked to girls!"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Gina: I used to see him reading in the library every day."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Alfred: That's because he was a really good student. He studied hard and got good scores on his exams."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Gina: Did he use to wear glasses?"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Alfred: Yes, and he used to be thin, too. But look how big and strong he is now!"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Gina: He's so popular now. Look at all the girls around him!"
       }
     ]
   },
   "sources": [
     {
-      "path": "content/pep-english/raw/junior-9.pdf",
-      "locator": "PDF第40-40页，标题与完整正文逐行核对",
+      "path": "content/article-review/history/e4d993262d6d0262592498d89ae003be53ed472401751eccf680b4098f820d4f.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
       "checked": true,
-      "sha256": "9c4118021048d901610b673f590ed28c39c04cb2d4f7fd940f83a2d8b2741af7"
-    },
-    {
-      "path": "content/pep-english/raw/junior-9/junior-9_40.jpg",
-      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
-      "checked": true,
-      "sha256": "3a560c2082e53b733509045a989b7713df419fef5173706af4adbc86c80ffbf9"
+      "sha256": "fac205aea159325aa089a40b02e352af430d00da1e5605387a0a896d38df0508"
     }
   ],
   "corrections": [],
   "fullReadConfirmed": true,
   "recheckConfirmed": true,
   "reviewer": "Codex",
-  "reviewedAt": "2026-10-02T05:08:28+00:00",
-  "notes": "PDF40页印刷26页Alfred/Gina十轮对话逐行对照，三年小学同学重聚、Billy害羞脸红、图书馆苦读、眼镜及体格变化准确。未混入Paula的练习内容，角色与逐轮换行正确，最后受欢迎的描述完整，复读无修改。",
+  "reviewedAt": "2026-10-07T07:42:02+00:00",
+  "notes": "Alfred与Gina谈Billy变化十轮对话拆分，旧印象与现在表现保持每轮完整。",
   "issues": [],
-  "status": "passed_unchanged"
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "c5bfa5faec76c4400b036dac512fc41ee935cc606cfb3898d2ebc7104e1ed6bd",
+    "afterFileSha256": "cdb6cd7ecf69249e0bfbf8bb5d6c4957a07966ee253353268bcccd64c014daa8",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "c5bfa5faec76c4400b036dac512fc41ee935cc606cfb3898d2ebc7104e1ed6bd",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..0] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "Alfred与Gina谈Billy变化十轮对话拆分，旧印象与现在表现保持每轮完整。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [
+        {
+          "index": 0,
+          "before": [
+            "Alfred: This party is such a great idea!\nGina: I agree. It's been three years since we last saw our primary school classmates.\nAlfred: It's interesting to see how people have changed.\nGina: Billy has changed so much! He used to be so shy and quiet.\nAlfred: Yeah, his face always turned red when he talked to girls!\nGina: I used to see him reading in the library every day.\nAlfred: That's because he was a really good student. He studied hard and got good scores on his exams.\nGina: Did he use to wear glasses?\nAlfred: Yes, and he used to be thin, too. But look how big and strong he is now!\nGina: He's so popular now. Look at all the girls around him!"
+          ],
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Alfred: This party is such a great idea!"
+            },
+            {
+              "type": "paragraph",
+              "text": "Gina: I agree. It's been three years since we last saw our primary school classmates."
+            },
+            {
+              "type": "paragraph",
+              "text": "Alfred: It's interesting to see how people have changed."
+            },
+            {
+              "type": "paragraph",
+              "text": "Gina: Billy has changed so much! He used to be so shy and quiet."
+            },
+            {
+              "type": "paragraph",
+              "text": "Alfred: Yeah, his face always turned red when he talked to girls!"
+            },
+            {
+              "type": "paragraph",
+              "text": "Gina: I used to see him reading in the library every day."
+            },
+            {
+              "type": "paragraph",
+              "text": "Alfred: That's because he was a really good student. He studied hard and got good scores on his exams."
+            },
+            {
+              "type": "paragraph",
+              "text": "Gina: Did he use to wear glasses?"
+            },
+            {
+              "type": "paragraph",
+              "text": "Alfred: Yes, and he used to be thin, too. But look how big and strong he is now!"
+            },
+            {
+              "type": "paragraph",
+              "text": "Gina: He's so popular now. Look at all the girls around him!"
+            }
+          ],
+          "reason": "每行具有明确的发言人及完整轮次，分块保留各对话轮次。"
+        }
+      ],
+      "blockEdits": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/e4d993262d6d0262592498d89ae003be53ed472401751eccf680b4098f820d4f.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "fac205aea159325aa089a40b02e352af430d00da1e5605387a0a896d38df0508"
+        }
+      ]
+    }
+  },
+  "status": "passed_edited",
+  "previousRevisionSha256": "e4d993262d6d0262592498d89ae003be53ed472401751eccf680b4098f820d4f"
 }

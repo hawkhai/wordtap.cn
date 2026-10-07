@@ -1,0 +1,21 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "daebc770a964895025070e3b25e01ce8c9b2d238a538dbfd856f316eef7791c1",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title；全文 blocks[0..2] 与对应 text；现有正文/对话/题干逐块通读复核。",
+  "notes": "长屿岛教师短文引入、岛屿困难及二十三年坚守、致谢三段明确。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/4cf29778c1a67ba1694f769934aca65268acb9c327466898bd16780e609898ac.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "c60f7e8d675e3e2f405713feb51c9316168d9b2e180631b98b2d614cd1acd913"
+    }
+  ]
+}

@@ -1,0 +1,270 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "242f36eb2ecda798bea0657c24e952b1e3cc1b1ccb5836fb663eea33e6ac2ec4",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "coverage": "全文 blocks[0..165]；按 JSON 上下文逐项复核对话、解释、题目、表格、词表及修复后的边界。",
+  "notes": "全文复核景区垃圾故事、keep/cover/prosecute、被动语态例句及词表。恢复告示引语、英文句子、中文释义和多句解释；保留疑问句A/B轮次。原始一般现在时说明末尾逗号及其他文误不校改。正文一处交错分句待确认。",
+  "issues": [
+    "原始blocks[6:10] On Sundays...our town/中文/and to walk through the woods./中文，需重排方可合成完整英汉段落，超出本轮范围。"
+  ],
+  "mergeBlocks": [
+    {
+      "start": 12,
+      "end": 13,
+      "before": [
+        "Litter-baskets have been placed under the trees, but people",
+        "still throw their rubbish everywhere."
+      ],
+      "text": "Litter-baskets have been placed under the trees, but people still throw their rubbish everywhere.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 19,
+      "end": 20,
+      "before": [
+        "The litter-baskets were empty and the ground was covered with pieces of",
+        "paper, cigarette-ends, old tyres, empty bottles and rusty tins."
+      ],
+      "text": "The litter-baskets were empty and the ground was covered with pieces of paper, cigarette-ends, old tyres, empty bottles and rusty tins.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 22,
+      "end": 23,
+      "before": [
+        "Among the rubbish I found a sign which said: Anyone who leaves litter in",
+        "these woods will be prosecuted!"
+      ],
+      "text": "Among the rubbish I found a sign which said: Anyone who leaves litter in these woods will be prosecuted!",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 24,
+      "end": 25,
+      "before": [
+        "在垃圾堆中我发现了一块牌子，上面写着：“凡在此树林里丢垃圾者，将依法处",
+        "置。”"
+      ],
+      "text": "在垃圾堆中我发现了一块牌子，上面写着：“凡在此树林里丢垃圾者，将依法处置。”",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 27,
+      "end": 29,
+      "before": [
+        "◦ keep 作及物动词意为“（暂时）保管、存放、保存、保留”“遵守诺言、法",
+        "律、条规”“保守秘密”，有时意为“借”,如果是宾语+宾语补足语，意为",
+        "“使某人一直保持某种状态”"
+      ],
+      "text": "◦ keep 作及物动词意为“（暂时）保管、存放、保存、保留”“遵守诺言、法律、条规”“保守秘密”，有时意为“借”,如果是宾语+宾语补足语，意为“使某人一直保持某种状态”",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 34,
+      "end": 35,
+      "before": [
+        "▫ He kept me thinking when I was doing my work.他让我在工作的",
+        "时候保持思考的状态。"
+      ],
+      "text": "▫ He kept me thinking when I was doing my work.他让我在工作的时候保持思考的状态。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 40,
+      "end": 41,
+      "before": [
+        "▫ Sorry to interrupt, but this problem won't keep.抱歉打扰了，但是",
+        "这个问题不能再拖了。"
+      ],
+      "text": "▫ Sorry to interrupt, but this problem won't keep.抱歉打扰了，但是这个问题不能再拖了。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 42,
+      "end": 43,
+      "before": [
+        "▪ keep+动词 ing 形式或 keep on+动词 ing 形式，意为“一直做某",
+        "事”“反复做某事”"
+      ],
+      "text": "▪ keep+动词 ing 形式或 keep on+动词 ing 形式，意为“一直做某事”“反复做某事”",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 47,
+      "end": 48,
+      "before": [
+        "▪ He keeps in touch with us wherever he goes.他不论去哪里，都会与",
+        "我们保持联系。"
+      ],
+      "text": "▪ He keeps in touch with us wherever he goes.他不论去哪里，都会与我们保持联系。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 50,
+      "end": 52,
+      "before": [
+        "◦ cover 的基本意思是“覆盖、遮盖”，既可以表示无意地将某物放在另一个物",
+        "体的上面，又可以表示有意隐藏、遮掩。有时还可以表示“包括、包含”等",
+        "意思。"
+      ],
+      "text": "◦ cover 的基本意思是“覆盖、遮盖”，既可以表示无意地将某物放在另一个物体的上面，又可以表示有意隐藏、遮掩。有时还可以表示“包括、包含”等意思。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 53,
+      "end": 54,
+      "before": [
+        "▪ cover 作动词可引申表示“走完(一段路程)”“够付(费用)”“(大炮、堡",
+        "垒等的)射程能达到”“能控制”“用枪对准(某人)”。"
+      ],
+      "text": "▪ cover 作动词可引申表示“走完(一段路程)”“够付(费用)”“(大炮、堡垒等的)射程能达到”“能控制”“用枪对准(某人)”。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 57,
+      "end": 58,
+      "before": [
+        "▫ The talks are expected to cover other topics too.会谈估计还会涉",
+        "及别的问题。"
+      ],
+      "text": "▫ The talks are expected to cover other topics too.会谈估计还会涉及别的问题。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 59,
+      "end": 60,
+      "before": [
+        "▫ The dictionary's articles cover a wide range of topics.这本字典的",
+        "文章包含各种各样的话题。"
+      ],
+      "text": "▫ The dictionary's articles cover a wide range of topics.这本字典的文章包含各种各样的话题。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 61,
+      "end": 62,
+      "before": [
+        "▪ cover 作名词基本意思是“盖子”“套子”“覆盖物”,指某具体事物的",
+        "掩蔽物或外套,引申还可指书等的“封皮”“封面”，是可数名词。"
+      ],
+      "text": "▪ cover 作名词基本意思是“盖子”“套子”“覆盖物”,指某具体事物的掩蔽物或外套,引申还可指书等的“封皮”“封面”，是可数名词。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 63,
+      "end": 64,
+      "before": [
+        "▫ The front cover of the novel has been torn off.这本小说的封面已",
+        "被撕掉。"
+      ],
+      "text": "▫ The front cover of the novel has been torn off.这本小说的封面已被撕掉。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 65,
+      "end": 66,
+      "before": [
+        "▫ I can't make the cover of the tin fit on.我无法把这罐头的盖子盖",
+        "上。"
+      ],
+      "text": "▫ I can't make the cover of the tin fit on.我无法把这罐头的盖子盖上。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 67,
+      "end": 71,
+      "before": [
+        "▪ cover 也可作“隐藏物”“躲避处”解,是把事物隐藏起来以确保安全的",
+        "保护物,它既可指野生动物找到的树丛等天然的躲避处,也可指阻挡袭击的",
+        "物体、房屋等,引申可表示“幌子”“伪装”,指隐瞒非法事物、秘密等的",
+        "手段或指虚假的身份; 也可表示为“掩蔽”“掩护”，作此解时只用作单",
+        "数形式。"
+      ],
+      "text": "▪ cover 也可作“隐藏物”“躲避处”解,是把事物隐藏起来以确保安全的保护物,它既可指野生动物找到的树丛等天然的躲避处,也可指阻挡袭击的物体、房屋等,引申可表示“幌子”“伪装”,指隐瞒非法事物、秘密等的手段或指虚假的身份; 也可表示为“掩蔽”“掩护”，作此解时只用作单数形式。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 77,
+      "end": 79,
+      "before": [
+        "◦ 基本意思指对某人由于做错了某事或违反法律而提起诉讼。引申义为“执",
+        "行、履行”。prosecute 可用作及物动词，也可以用作不及物动词。",
+        "prosecute 的过去式和过去分词为 prosecuted，现在分词为 prosecuting."
+      ],
+      "text": "◦ 基本意思指对某人由于做错了某事或违反法律而提起诉讼。引申义为“执行、履行”。prosecute 可用作及物动词，也可以用作不及物动词。 prosecute 的过去式和过去分词为 prosecuted，现在分词为 prosecuting.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 86,
+      "end": 87,
+      "before": [
+        "◦ sue 指为某事正式向法院提出诉讼或打官司，常用于要求经济赔偿的诉讼。常",
+        "用结构：sue sb. for sth."
+      ],
+      "text": "◦ sue 指为某事正式向法院提出诉讼或打官司，常用于要求经济赔偿的诉讼。常用结构：sue sb. for sth.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 100,
+      "end": 101,
+      "before": [
+        "一般现在时态被动句中的 be 动词变化，应按被动句中新主语的人称和数的变化。",
+        "被动句的时态应与主动句的时态保持一致，"
+      ],
+      "text": "一般现在时态被动句中的 be 动词变化，应按被动句中新主语的人称和数的变化。被动句的时态应与主动句的时态保持一致，",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 113,
+      "end": 114,
+      "before": [
+        "◦ （被动句）The printer I bought yesterday was made by the workers",
+        "last month."
+      ],
+      "text": "◦ （被动句）The printer I bought yesterday was made by the workers last month.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 116,
+      "end": 117,
+      "before": [
+        "◦ （否定句）The printer I bought yesterday wasn't made by the workers",
+        "last month."
+      ],
+      "text": "◦ （否定句）The printer I bought yesterday wasn't made by the workers last month.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 124,
+      "end": 125,
+      "before": [
+        "◦ （否定句）His car will not/won't be repaired tomorrow morning by a",
+        "repairman."
+      ],
+      "text": "◦ （否定句）His car will not/won't be repaired tomorrow morning by a repairman.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 128,
+      "end": 130,
+      "before": [
+        "进行时的被动语态谓语部分与一般时态的被动语态谓语部分不同，应为",
+        "“be+being+过去分词”。be 动词要随着新主语的人称、数变化，时态跟主动句保",
+        "持一致，采用现在进行时。"
+      ],
+      "text": "进行时的被动语态谓语部分与一般时态的被动语态谓语部分不同，应为“be+being+过去分词”。be 动词要随着新主语的人称、数变化，时态跟主动句保持一致，采用现在进行时。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    }
+  ],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/7fe7fa6e2771e1b93d1ccd5a0f01aa3254aff9786ed538179acbd28e44ccdc92.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "48c45bc51c3f978095ad396b79aff5f7d8da8c7efe23b621d780184529e10c8f"
+    }
+  ]
+}

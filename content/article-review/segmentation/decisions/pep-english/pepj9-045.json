@@ -1,0 +1,22 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "4f03201c0a524f16a3d9f35f533e55ce73cd85e028f944cb670a341649df47fc",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title；全文 blocks[0..0] 与对应 text；现有正文/对话/题干逐块通读复核。",
+  "notes": "初中回顾按年级叙述学习社团与高中愿望为连贯单段，保留完整回忆不按年度碎拆。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "blockEdits": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/2502137094ee7c50f5eea80645608b586212caf8c9910b1c1770e352a9784340.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "445ebadf609daa9dc08f741331b3ab2e0e54289649fa56d0ecd2d92c1079c4a2"
+    }
+  ]
+}

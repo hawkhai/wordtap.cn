@@ -2,60 +2,9 @@
   "schemaVersion": 1,
   "course": "nce",
   "articleId": "nce2-005",
-  "beforeDisplaySha256": "b1929c58a02506f329c0d395832e288555f0b3de10199646a9fc5ddd3c523926",
-  "afterDisplaySha256": "8e822734204d796109467779897c54c383987c8ff4365af6d8058bacdd583b8f",
+  "beforeDisplaySha256": "8e822734204d796109467779897c54c383987c8ff4365af6d8058bacdd583b8f",
+  "afterDisplaySha256": "b854000fdea4f5bef3461a6907a94d529cf9ce693d88f452595644824b3bfa3f",
   "baselineDisplay": {
-    "title": "No Wrong Numbers",
-    "titleZh": "无错号之虞",
-    "question": "What does 'No wrong numbers' mean?",
-    "questionZh": "“无错号之虞”是什么意思？",
-    "text": "What does 'No wrong numbers' mean?\n\nMr. James Scott has a garage in Silbury and now he has just bought another garage in Pinhurst.\nPinhurst is only five miles from Silbury, but Mr. Scott cannot get a telephone for his new garage, so he has just bought twelve pigeons.\nYesterday, a pigeon carried the first message from Pinhurst to Silbury.\nThe bird covered the distance in three minutes.\nUp to now,\nMr. Scott has sent a great many requests for spare parts and other urgent messages from one garage to the other.\nIn this way, he has begun his own private 'telephone' service.",
-    "bodyText": "Mr. James Scott has a garage in Silbury and now he has just bought another garage in Pinhurst.\nPinhurst is only five miles from Silbury, but Mr. Scott cannot get a telephone for his new garage, so he has just bought twelve pigeons.\nYesterday, a pigeon carried the first message from Pinhurst to Silbury.\nThe bird covered the distance in three minutes.\nUp to now,\nMr. Scott has sent a great many requests for spare parts and other urgent messages from one garage to the other.\nIn this way, he has begun his own private 'telephone' service.",
-    "bodyTextZh": "詹姆斯·斯科特先生在塞尔伯里（Silbury）有一间车库。现在他又在 Pinhurst 买了一个车库。\n平赫斯特（Pinhurst）距离塞尔伯里（Silbury）只有五英里。但是斯科特先生无法为他的新车库配备一部电话。所以他刚刚买了十二只鸽子。\n昨天，一只鸽子把第一封信从平赫斯特送到了塞尔伯里。\n这只鸽子花了三分钟飞完了这段路程。\n到目前为止，\n斯科特先生已经从一个车库向另一个车库发送了大量索取备件的请求以及其他紧急信息。\n通过这种方式，他开始了自己的私人“电话”服务。",
-    "sentences": [
-      {
-        "en": "Lesson 5",
-        "zh": "第 5 课"
-      },
-      {
-        "en": "No Wrong Numbers",
-        "zh": "无错号之虞"
-      },
-      {
-        "en": "What does 'No wrong numbers' mean?",
-        "zh": "“无错号之虞”是什么意思？"
-      },
-      {
-        "en": "Mr. James Scott has a garage in Silbury and now he has just bought another garage in Pinhurst.",
-        "zh": "詹姆斯·斯科特先生在塞尔伯里（Silbury）有一间车库。现在他又在 Pinhurst 买了一个车库。"
-      },
-      {
-        "en": "Pinhurst is only five miles from Silbury, but Mr. Scott cannot get a telephone for his new garage, so he has just bought twelve pigeons.",
-        "zh": "平赫斯特（Pinhurst）距离塞尔伯里（Silbury）只有五英里。但是斯科特先生无法为他的新车库配备一部电话。所以他刚刚买了十二只鸽子。"
-      },
-      {
-        "en": "Yesterday, a pigeon carried the first message from Pinhurst to Silbury.",
-        "zh": "昨天，一只鸽子把第一封信从平赫斯特送到了塞尔伯里。"
-      },
-      {
-        "en": "The bird covered the distance in three minutes.",
-        "zh": "这只鸽子花了三分钟飞完了这段路程。"
-      },
-      {
-        "en": "Up to now,",
-        "zh": "到目前为止，"
-      },
-      {
-        "en": "Mr. Scott has sent a great many requests for spare parts and other urgent messages from one garage to the other.",
-        "zh": "斯科特先生已经从一个车库向另一个车库发送了大量索取备件的请求以及其他紧急信息。"
-      },
-      {
-        "en": "In this way, he has begun his own private 'telephone' service.",
-        "zh": "通过这种方式，他开始了自己的私人“电话”服务。"
-      }
-    ]
-  },
-  "display": {
     "title": "No Wrong Numbers",
     "titleZh": "无错号之虞",
     "question": "What does 'No wrong numbers' mean?",
@@ -106,54 +55,103 @@
       }
     ]
   },
+  "display": {
+    "title": "No Wrong Numbers",
+    "titleZh": "无错号之虞",
+    "question": "What does 'No wrong numbers' mean?",
+    "questionZh": "“没有错误的数字”是什么意思？",
+    "text": "What does 'No wrong numbers' mean?\n\nMr. James Scott has a garage in Silbury and now he has just bought another garage in Pinhurst. Pinhurst is only five miles from Silbury, but Mr. Scott cannot get a telephone for his new garage, so he has just bought twelve pigeons.\nYesterday, a pigeon carried the first message from Pinhurst to Silbury. The bird covered the distance in three minutes.\nUp to now, Mr. Scott has sent a great many requests for spare parts and other urgent messages from one garage to the other. In this way, he has begun his own private 'telephone' service.",
+    "bodyText": "Mr. James Scott has a garage in Silbury and now he has just bought another garage in Pinhurst. Pinhurst is only five miles from Silbury, but Mr. Scott cannot get a telephone for his new garage, so he has just bought twelve pigeons.\nYesterday, a pigeon carried the first message from Pinhurst to Silbury. The bird covered the distance in three minutes.\nUp to now, Mr. Scott has sent a great many requests for spare parts and other urgent messages from one garage to the other. In this way, he has begun his own private 'telephone' service.",
+    "bodyTextZh": "詹姆斯·斯科特先生在塞尔伯里（Silbury）有一间车库。现在他又在 Pinhurst 买了一个车库。平赫斯特（Pinhurst）距离西尔伯里（Silbury）只有五英里。但是斯科特先生无法为他的新车库配备一部电话。所以他刚刚买了十二只鸽子。\n昨天，一只鸽子把第一封信从平赫斯特送到了塞尔伯里。这只鸽子花了三分钟飞完了这段路程。\n到目前为止，斯科特先生已经从一个车库向另一个车库发送了大量索取备件的请求以及其他紧急信息。通过这种方式，他开始了自己的私人“电话”服务。",
+    "sentences": [
+      {
+        "en": "Lesson 5",
+        "zh": "第 5 课"
+      },
+      {
+        "en": "No Wrong Numbers",
+        "zh": "无错号之虞"
+      },
+      {
+        "en": "What does 'No wrong numbers' mean?",
+        "zh": "“没有错误的数字”是什么意思？"
+      },
+      {
+        "en": "Mr. James Scott has a garage in Silbury and now he has just bought another garage in Pinhurst.",
+        "zh": "詹姆斯·斯科特先生在塞尔伯里（Silbury）有一间车库。现在他又在 Pinhurst 买了一个车库。"
+      },
+      {
+        "en": "Pinhurst is only five miles from Silbury, but Mr. Scott cannot get a telephone for his new garage, so he has just bought twelve pigeons.",
+        "zh": "平赫斯特（Pinhurst）距离西尔伯里（Silbury）只有五英里。但是斯科特先生无法为他的新车库配备一部电话。所以他刚刚买了十二只鸽子。"
+      },
+      {
+        "en": "Yesterday, a pigeon carried the first message from Pinhurst to Silbury.",
+        "zh": "昨天，一只鸽子把第一封信从平赫斯特送到了塞尔伯里。"
+      },
+      {
+        "en": "The bird covered the distance in three minutes.",
+        "zh": "这只鸽子花了三分钟飞完了这段路程。"
+      },
+      {
+        "en": "Up to now,",
+        "zh": "到目前为止，"
+      },
+      {
+        "en": "Mr. Scott has sent a great many requests for spare parts and other urgent messages from one garage to the other.",
+        "zh": "斯科特先生已经从一个车库向另一个车库发送了大量索取备件的请求以及其他紧急信息。"
+      },
+      {
+        "en": "In this way, he has begun his own private 'telephone' service.",
+        "zh": "通过这种方式，他开始了自己的私人“电话”服务。"
+      }
+    ]
+  },
   "sources": [
     {
-      "path": "content/NCE-Flow/NCE2/05－No Wrong Numbers.lrc",
-      "locator": "完整LRC元数据、标题、问题和全部中英字幕，校勘位置见逐项证据",
+      "path": "content/article-review/history/78346d73527e3f6fadd22731f4328827fb9d70eef9f804889d613adf1cae14f4.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
       "checked": true,
-      "sha256": "8fd99ae1ad0684853cc390f74bc9ef3983d137d015620018b35b7ade0ccbb1ad"
-    },
-    {
-      "path": "content/article-review/cleanup-2026-10-06.json",
-      "sha256": "cea27c1c69e32939ff83196bd29cce9a128d8d0d6f248611217179e037971889",
-      "locator": "public/nce/lessons/nce2/005.json",
-      "checked": true
+      "sha256": "b9b96c1c4ecb2df07f4535347902d4788f33eee0645503e74d313f2604012949"
     }
   ],
-  "corrections": [
-    {
-      "field": "questionZh",
-      "before": "“无错号之虞”是什么意思？",
-      "after": "“没有错误的数字”是什么意思？",
-      "evidence": "User-directed source-fidelity restoration; content/article-review/cleanup-2026-10-06.json"
-    },
-    {
-      "field": "bodyTextZh",
-      "before": "詹姆斯·斯科特先生在塞尔伯里（Silbury）有一间车库。现在他又在 Pinhurst 买了一个车库。\n平赫斯特（Pinhurst）距离塞尔伯里（Silbury）只有五英里。但是斯科特先生无法为他的新车库配备一部电话。所以他刚刚买了十二只鸽子。\n昨天，一只鸽子把第一封信从平赫斯特送到了塞尔伯里。\n这只鸽子花了三分钟飞完了这段路程。\n到目前为止，\n斯科特先生已经从一个车库向另一个车库发送了大量索取备件的请求以及其他紧急信息。\n通过这种方式，他开始了自己的私人“电话”服务。",
-      "after": "詹姆斯·斯科特先生在塞尔伯里（Silbury）有一间车库。现在他又在 Pinhurst 买了一个车库。\n平赫斯特（Pinhurst）距离西尔伯里（Silbury）只有五英里。但是斯科特先生无法为他的新车库配备一部电话。所以他刚刚买了十二只鸽子。\n昨天，一只鸽子把第一封信从平赫斯特送到了塞尔伯里。\n这只鸽子花了三分钟飞完了这段路程。\n到目前为止，\n斯科特先生已经从一个车库向另一个车库发送了大量索取备件的请求以及其他紧急信息。\n通过这种方式，他开始了自己的私人“电话”服务。",
-      "evidence": "User-directed source-fidelity restoration; content/article-review/cleanup-2026-10-06.json"
-    },
-    {
-      "field": "sentences",
-      "index": 2,
-      "language": "zh",
-      "before": "“无错号之虞”是什么意思？",
-      "after": "“没有错误的数字”是什么意思？",
-      "evidence": "Historical subtitle restoration; content/article-review/cleanup-2026-10-06.json"
-    }
-  ],
-  "fullReadConfirmed": false,
-  "recheckConfirmed": false,
-  "reviewMode": "source-fidelity-rules-v1",
-  "reviewer": "Codex (user-directed restoration)",
-  "reviewedAt": "2026-10-05T17:15:10+00:00",
-  "notes": "Rule-based restoration; original full-read review remains historical. content/article-review/cleanup-2026-10-06.json",
+  "corrections": [],
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "reviewer": "Codex",
+  "reviewedAt": "2026-10-07T07:49:06+00:00",
+  "notes": "鸽子通信；两车库无电话的原因、首次运送、至今私人电话服务三段，恢复Up to now被切开的主句。 text与bodyText同步；sentences对象及时间、角色、索引原样保留。",
   "issues": [],
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "903c207e8d329f81af33809fe74f7bd5d941096f706330521a15b461f899f2e2",
+    "afterFileSha256": "87de01c11d0ecffbe1079a899b484881b9fe0f053d32504bc2082f7cb7c9578f",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "903c207e8d329f81af33809fe74f7bd5d941096f706330521a15b461f899f2e2",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title/titleZh、question/questionZh、bodyText全部7行、bodyTextZh全部7行及sentences[0..9]的完整文字；重复正文与字幕文本逐字比对，非正文字幕另读。操作在内存应用并validate_layout_change，修复后的双语全文重新通读。",
+      "notes": "鸽子通信；两车库无电话的原因、首次运送、至今私人电话服务三段，恢复Up to now被切开的主句。 text与bodyText同步；sentences对象及时间、角色、索引原样保留。",
+      "issues": [],
+      "display": {
+        "text": "What does 'No wrong numbers' mean?\n\nMr. James Scott has a garage in Silbury and now he has just bought another garage in Pinhurst. Pinhurst is only five miles from Silbury, but Mr. Scott cannot get a telephone for his new garage, so he has just bought twelve pigeons.\nYesterday, a pigeon carried the first message from Pinhurst to Silbury. The bird covered the distance in three minutes.\nUp to now, Mr. Scott has sent a great many requests for spare parts and other urgent messages from one garage to the other. In this way, he has begun his own private 'telephone' service.",
+        "bodyText": "Mr. James Scott has a garage in Silbury and now he has just bought another garage in Pinhurst. Pinhurst is only five miles from Silbury, but Mr. Scott cannot get a telephone for his new garage, so he has just bought twelve pigeons.\nYesterday, a pigeon carried the first message from Pinhurst to Silbury. The bird covered the distance in three minutes.\nUp to now, Mr. Scott has sent a great many requests for spare parts and other urgent messages from one garage to the other. In this way, he has begun his own private 'telephone' service.",
+        "bodyTextZh": "詹姆斯·斯科特先生在塞尔伯里（Silbury）有一间车库。现在他又在 Pinhurst 买了一个车库。平赫斯特（Pinhurst）距离西尔伯里（Silbury）只有五英里。但是斯科特先生无法为他的新车库配备一部电话。所以他刚刚买了十二只鸽子。\n昨天，一只鸽子把第一封信从平赫斯特送到了塞尔伯里。这只鸽子花了三分钟飞完了这段路程。\n到目前为止，斯科特先生已经从一个车库向另一个车库发送了大量索取备件的请求以及其他紧急信息。通过这种方式，他开始了自己的私人“电话”服务。"
+      },
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/78346d73527e3f6fadd22731f4328827fb9d70eef9f804889d613adf1cae14f4.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "b9b96c1c4ecb2df07f4535347902d4788f33eee0645503e74d313f2604012949"
+        }
+      ]
+    }
+  },
   "status": "passed_edited",
-  "previousRevisionSha256": "6cce1b9f96747a3bf6a2fe45ce7a7abf01b508c5339c3206565f7264546e807c",
-  "ruleRestoration": {
-    "policy": "source-fidelity-rules-v1",
-    "report": "content/article-review/cleanup-2026-10-06.json",
-    "reportSha256": "cea27c1c69e32939ff83196bd29cce9a128d8d0d6f248611217179e037971889"
-  }
+  "previousRevisionSha256": "78346d73527e3f6fadd22731f4328827fb9d70eef9f804889d613adf1cae14f4"
 }

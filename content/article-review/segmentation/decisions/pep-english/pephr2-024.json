@@ -1,0 +1,21 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "b0dc68561ac6a74610348c513f71a3f56fcc1330233c93919cbd62599357bd72",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title；全文 blocks[0..1] 与对应 text；现有正文/对话/题干逐块通读复核。",
+  "notes": "Sally雅典短讯正文从问候到景点、美食及次日计划连续，署名单独一块合理。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/ffd79f74496fa25b05ef80eaa1a8cb0cd27847f6f160ca867961549022cf6d2e.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "c002c21e9ebed8ae88405806dac4d36edfb84ee1bd3d3191990fc2d77809c11f"
+    }
+  ]
+}

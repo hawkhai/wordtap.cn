@@ -1,0 +1,41 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "bb1fb4ab47b46b779b4996b10137756bd93b300f1a5fbb5f84e8d900d3bbde2b",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title；全文 blocks[0..5] 与对应 text；现有正文/对话/题干逐块通读复核。",
+  "notes": "中国诗歌六个论述段主题完整；末段冒号后的穆旦引诗另起作品单元，仍保留原引诗一行，内部行界疑点单列。",
+  "issues": [
+    "末尾穆旦引诗现为一行 Quietly, we embrace In a world lit up by words.；In在句中大写，可能丢失诗行边界，仅凭JSON不能确定，未猜测另加诗内换行。"
+  ],
+  "mergeBlocks": [],
+  "splitBlocks": [
+    {
+      "index": 5,
+      "before": [
+        "Today, many Chinese people are becoming more interested in reading poems, no matter in what language they are written. Translations can be good, but being able to read in the original language is best. No matter how well a poem is translated, something of the spirit of the original work is lost. Besides, poems and literature can be bridges between East and West. They can help us to understand each other better, or as the poet Mu Dan wrote:\nQuietly, we embrace In a world lit up by words."
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Today, many Chinese people are becoming more interested in reading poems, no matter in what language they are written. Translations can be good, but being able to read in the original language is best. No matter how well a poem is translated, something of the spirit of the original work is lost. Besides, poems and literature can be bridges between East and West. They can help us to understand each other better, or as the poet Mu Dan wrote:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Quietly, we embrace In a world lit up by words."
+        }
+      ],
+      "reason": "末段已有换行把诗歌交流的论述与穆旦引诗分开，按说明段和作品引用两个单元分块。"
+    }
+  ],
+  "sources": [
+    {
+      "path": "content/article-review/history/c6b3486fe601ccfe214ab604f0bc9bc3e0befb798931d25549fc6d38614edb8e.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "c8d04ac1310f015f5b5c6465b89768946cdce120f425c5334e9b304fbcd0dac8"
+    }
+  ]
+}

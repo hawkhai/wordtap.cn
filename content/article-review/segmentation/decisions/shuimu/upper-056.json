@@ -1,0 +1,294 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "dbc64e178693aeb92669558ee9096fc798e0533edf9f7dd67e1111c154e68931",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title；全文 blocks[0..228] 与对应 text；现有正文/对话/题干逐块通读复核。",
+  "notes": "完整通读Our neighbour, the river词表、四组英汉正文、六注释、21问答、暗街经历提纲四段范文及12题答案。正文河流生计/节庆/洪水概述/邻居获救四段对应；范文转入小街、见陌生人、引领、次日感悟四段保留，故事判断原样。",
+  "issues": [],
+  "mergeBlocks": [
+    {
+      "start": 29,
+      "end": 34,
+      "before": [
+        "The river which forms the eastern boundary of our farm has always played an",
+        "important part in our lives. Without it we could not make a living. There is only",
+        "enough spring water to supply the needs of the house, so we have to pump from the",
+        "river for farm use. We tell the river all our secrets. We know instinctively, just as",
+        "beekeepers with their bees, that misfortunee might overtake us if the important events",
+        "of our lives were not related to it."
+      ],
+      "text": "The river which forms the eastern boundary of our farm has always played an important part in our lives. Without it we could not make a living. There is only enough spring water to supply the needs of the house, so we have to pump from the river for farm use. We tell the river all our secrets. We know instinctively, just as beekeepers with their bees, that misfortunee might overtake us if the important events of our lives were not related to it.",
+      "reason": "按英汉语义对应自然段恢复机械断行；单题、注释和提纲续接，四段范文独立保留。"
+    },
+    {
+      "start": 35,
+      "end": 39,
+      "before": [
+        "形成我们农场东部边界的一条河流一直在我们生活中发挥着重要作用。要是没有",
+        "这条河，我们就无法生存下去。泉水只能满足家庭生活用水，因此我们必须从河",
+        "里抽水以用于农业生产。我们向那条河倾诉我们的秘密。我们本能地懂得，就像",
+        "养蜂人和他的蜜蜂那样，要是我们不把生活中的重大事件告诉那条河，就可能大",
+        "祸临头。"
+      ],
+      "text": "形成我们农场东部边界的一条河流一直在我们生活中发挥着重要作用。要是没有这条河，我们就无法生存下去。泉水只能满足家庭生活用水，因此我们必须从河里抽水以用于农业生产。我们向那条河倾诉我们的秘密。我们本能地懂得，就像养蜂人和他的蜜蜂那样，要是我们不把生活中的重大事件告诉那条河，就可能大祸临头。",
+      "reason": "按英汉语义对应自然段恢复机械断行；单题、注释和提纲续接，四段范文独立保留。"
+    },
+    {
+      "start": 40,
+      "end": 47,
+      "before": [
+        "We have special river birthday parties in the summer. Sometimes we go upstream to a",
+        "favourite backwater, sometimes we have our party at the boathouse, which a",
+        "predecessor of ours at the farm built in the meadow hard by the deepest pool for",
+        "swimming and diving. In a heat wave we choose a midnight birthday party and that is",
+        "the most exciting of all. We welcome the seasons by the riverside, crowning the",
+        "youngest girl with flowers in the spring, holding a summer festival on Midsummer",
+        "Eve, giving thanks for the harvest in the autumn, and throwing a holly wreath into the",
+        "current in the winter."
+      ],
+      "text": "We have special river birthday parties in the summer. Sometimes we go upstream to a favourite backwater, sometimes we have our party at the boathouse, which a predecessor of ours at the farm built in the meadow hard by the deepest pool for swimming and diving. In a heat wave we choose a midnight birthday party and that is the most exciting of all. We welcome the seasons by the riverside, crowning the youngest girl with flowers in the spring, holding a summer festival on Midsummer Eve, giving thanks for the harvest in the autumn, and throwing a holly wreath into the current in the winter.",
+      "reason": "按英汉语义对应自然段恢复机械断行；单题、注释和提纲续接，四段范文独立保留。"
+    },
+    {
+      "start": 48,
+      "end": 53,
+      "before": [
+        "夏天，我们为这条河举办特殊的生日宴会。有时，我们溯流而上来到我们喜爱的",
+        "回水河汊举办；有时在船坞举办。那船坞是农场的一位前辈在一块草地上盖的；",
+        "草地紧挨着一个专供游泳、跳水的深水池。天气炎热时，我们便选择在半夜举办",
+        "生日集会，这种集会是最令人激动的。我们在河边迎接一年四季。春天在河边为",
+        "最年轻的姑娘戴上花冠，夏天在河边欢庆“仲夏前夜”，秋天在河边为丰收而感恩，",
+        "冬天往河中抛撒一个冬青花环。"
+      ],
+      "text": "夏天，我们为这条河举办特殊的生日宴会。有时，我们溯流而上来到我们喜爱的回水河汊举办；有时在船坞举办。那船坞是农场的一位前辈在一块草地上盖的；草地紧挨着一个专供游泳、跳水的深水池。天气炎热时，我们便选择在半夜举办生日集会，这种集会是最令人激动的。我们在河边迎接一年四季。春天在河边为最年轻的姑娘戴上花冠，夏天在河边欢庆“仲夏前夜”，秋天在河边为丰收而感恩，冬天往河中抛撒一个冬青花环。",
+      "reason": "按英汉语义对应自然段恢复机械断行；单题、注释和提纲续接，四段范文独立保留。"
+    },
+    {
+      "start": 55,
+      "end": 56,
+      "before": [
+        "1 Without it we could not make a living.没有它我们就无法生存下去。without it 起",
+        "非真实条件句的作用，make a living ，谋生。"
+      ],
+      "text": "1 Without it we could not make a living.没有它我们就无法生存下去。without it 起非真实条件句的作用，make a living ，谋生。",
+      "reason": "按英汉语义对应自然段恢复机械断行；单题、注释和提纲续接，四段范文独立保留。"
+    },
+    {
+      "start": 59,
+      "end": 63,
+      "before": [
+        "After a long period of rain the river may overflow its banks. This is a rare occurrence",
+        "as our climate seldom goes to extremes. We are lucky in that only the lower fields,",
+        "which make up a very small proportion of our farm, are affected by flooding, but",
+        "other farms are less favourably sited, and flooding can sometimes spell disaster for",
+        "their owners."
+      ],
+      "text": "After a long period of rain the river may overflow its banks. This is a rare occurrence as our climate seldom goes to extremes. We are lucky in that only the lower fields, which make up a very small proportion of our farm, are affected by flooding, but other farms are less favourably sited, and flooding can sometimes spell disaster for their owners.",
+      "reason": "按英汉语义对应自然段恢复机械断行；单题、注释和提纲续接，四段范文独立保留。"
+    },
+    {
+      "start": 64,
+      "end": 66,
+      "before": [
+        "久雨之后，河水会泛滥成灾，但是在我们这里，气候很少发生异常；河水极少泛",
+        "滥。值得庆幸的是，只有低洼地受到洪水影响，而低洼地在我们农场比例很小。",
+        "其他农场地势欠佳，洪水有时会给农场主带来灾难。"
+      ],
+      "text": "久雨之后，河水会泛滥成灾，但是在我们这里，气候很少发生异常；河水极少泛滥。值得庆幸的是，只有低洼地受到洪水影响，而低洼地在我们农场比例很小。其他农场地势欠佳，洪水有时会给农场主带来灾难。",
+      "reason": "按英汉语义对应自然段恢复机械断行；单题、注释和提纲续接，四段范文独立保留。"
+    },
+    {
+      "start": 67,
+      "end": 82,
+      "before": [
+        "One bad winter we watched the river creep up the lower meadows. All the cattle had",
+        "been moved into stalls and we stood to lose little. We were, however, worried about",
+        "our nearest neighbours, whose farm was low lying and who were newcomers to the",
+        "district. As the floods had put the telephone out of order, we could not find out how",
+        "they were managing. From an attic window we could get a sweeping view of the river",
+        "where their land joined ours, and at the most critical juncture we took turns in",
+        "watching that point. The first sign of disaster was a dead sheep floating down. Next",
+        "came a horse, swimming bravely, but we were afraid that the strength of the current",
+        "would prevent its landing anywhere before it became exhausted. Suddenly a raft",
+        "appeared, looking rather like Noah's ark, carrying the whole family, a few hens, the",
+        "dogs, a cat, and a bird in a cage. We realized that they must have become unduly",
+        "frightened by the rising flood, for their house, which had sound foundations, would",
+        "have stood stoutly even if it had been almost submerged. The men of our family",
+        "waded down through our flooded meadows with boathooks, in the hope of being able",
+        "to grapple a corner of the raft and pull it out of the current towards our bank. We still",
+        "think it a miracle that they were able to do so."
+      ],
+      "text": "One bad winter we watched the river creep up the lower meadows. All the cattle had been moved into stalls and we stood to lose little. We were, however, worried about our nearest neighbours, whose farm was low lying and who were newcomers to the district. As the floods had put the telephone out of order, we could not find out how they were managing. From an attic window we could get a sweeping view of the river where their land joined ours, and at the most critical juncture we took turns in watching that point. The first sign of disaster was a dead sheep floating down. Next came a horse, swimming bravely, but we were afraid that the strength of the current would prevent its landing anywhere before it became exhausted. Suddenly a raft appeared, looking rather like Noah's ark, carrying the whole family, a few hens, the dogs, a cat, and a bird in a cage. We realized that they must have become unduly frightened by the rising flood, for their house, which had sound foundations, would have stood stoutly even if it had been almost submerged. The men of our family waded down through our flooded meadows with boathooks, in the hope of being able to grapple a corner of the raft and pull it out of the current towards our bank. We still think it a miracle that they were able to do so.",
+      "reason": "按英汉语义对应自然段恢复机械断行；单题、注释和提纲续接，四段范文独立保留。"
+    },
+    {
+      "start": 83,
+      "end": 94,
+      "before": [
+        "有一年冬天，天气不好，我们眼看着河水浸没了地势较低的草场。所有的牲口已",
+        "提前转移到畜圈里，没有造成什么损失。不过，我们很为我们的近邻担心。他们",
+        "的农场地势低洼，而且他们又是新来乍到。由于洪水造成了电话中断，我们无法",
+        "了解他们的情况。从顶楼窗口看去，我们农场与他们农场接壤处的那段河流一览",
+        "无余。在最紧急的时刻，我们轮流监视那段河流的险情。灾难的第一个迹象是一",
+        "只死羊顺流而下，接着是一匹活马勇敢地与水搏击。但我们担心，洪水的力量将",
+        "使它上岸之前就筋疲力尽了。突然，出现了一只筏子，看起来很像诺亚方舟，上",
+        "面载着他们全家老小，还有几只母鸡、几只狗、一只猫与一只鸟笼，那里头有一",
+        "只小鸟。我们意识到他们一定是被不断上涨的洪水吓坏了。因为他们的房子地基",
+        "牢固，即使洪水几乎灭顶也不会倒塌。我家的男人们手拿船篙蹚过被水淹没的草",
+        "场，希望能够钩住筏子一角，将它拽出激流，拖回岸边。他们终于成功了。至今",
+        "我们仍认为这是个奇迹。"
+      ],
+      "text": "有一年冬天，天气不好，我们眼看着河水浸没了地势较低的草场。所有的牲口已提前转移到畜圈里，没有造成什么损失。不过，我们很为我们的近邻担心。他们的农场地势低洼，而且他们又是新来乍到。由于洪水造成了电话中断，我们无法了解他们的情况。从顶楼窗口看去，我们农场与他们农场接壤处的那段河流一览无余。在最紧急的时刻，我们轮流监视那段河流的险情。灾难的第一个迹象是一只死羊顺流而下，接着是一匹活马勇敢地与水搏击。但我们担心，洪水的力量将使它上岸之前就筋疲力尽了。突然，出现了一只筏子，看起来很像诺亚方舟，上面载着他们全家老小，还有几只母鸡、几只狗、一只猫与一只鸟笼，那里头有一只小鸟。我们意识到他们一定是被不断上涨的洪水吓坏了。因为他们的房子地基牢固，即使洪水几乎灭顶也不会倒塌。我家的男人们手拿船篙蹚过被水淹没的草场，希望能够钩住筏子一角，将它拽出激流，拖回岸边。他们终于成功了。至今我们仍认为这是个奇迹。",
+      "reason": "按英汉语义对应自然段恢复机械断行；单题、注释和提纲续接，四段范文独立保留。"
+    },
+    {
+      "start": 98,
+      "end": 100,
+      "before": [
+        "6 Noah's ark，诺亚方舟。这是摘自《圣经 · 旧约》《创世纪》中的典故。诺亚是",
+        "故事中上帝用洪水消灭人类后的新始祖；诺亚借助一方形大船，与他家属及每种",
+        "动物雌雄各一逃脱了洪水之灾。"
+      ],
+      "text": "6 Noah's ark，诺亚方舟。这是摘自《圣经 · 旧约》《创世纪》中的典故。诺亚是故事中上帝用洪水消灭人类后的新始祖；诺亚借助一方形大船，与他家属及每种动物雌雄各一逃脱了洪水之灾。",
+      "reason": "按英汉语义对应自然段恢复机械断行；单题、注释和提纲续接，四段范文独立保留。"
+    },
+    {
+      "start": 103,
+      "end": 104,
+      "before": [
+        "1 What has always played an important part in the lives of the writer and his family?",
+        "(The river.)"
+      ],
+      "text": "1 What has always played an important part in the lives of the writer and his family? (The river.)",
+      "reason": "按英汉语义对应自然段恢复机械断行；单题、注释和提纲续接，四段范文独立保留。"
+    },
+    {
+      "start": 117,
+      "end": 118,
+      "before": [
+        "14 One winter, the writer and his family were worried about their nearest neighbours.",
+        "Why? (Because their farm was low lying and they were newcomers.)"
+      ],
+      "text": "14 One winter, the writer and his family were worried about their nearest neighbours. Why? (Because their farm was low lying and they were newcomers.)",
+      "reason": "按英汉语义对应自然段恢复机械断行；单题、注释和提纲续接，四段范文独立保留。"
+    },
+    {
+      "start": 122,
+      "end": 123,
+      "before": [
+        "18 When the raft appeared, what was it carrying? (The whole family, a few hens, the",
+        "dogs, a cat, and a bird in a cage.)"
+      ],
+      "text": "18 When the raft appeared, what was it carrying? (The whole family, a few hens, the dogs, a cat, and a bird in a cage.)",
+      "reason": "按英汉语义对应自然段恢复机械断行；单题、注释和提纲续接，四段范文独立保留。"
+    },
+    {
+      "start": 130,
+      "end": 131,
+      "before": [
+        "• ‘It was a dark and a gloomy street.’ Continue the story of an adventure you had in",
+        "this street."
+      ],
+      "text": "• ‘It was a dark and a gloomy street.’ Continue the story of an adventure you had in this street.",
+      "reason": "按英汉语义对应自然段恢复机械断行；单题、注释和提纲续接，四段范文独立保留。"
+    },
+    {
+      "start": 136,
+      "end": 138,
+      "before": [
+        "Development: Someone standing at far end, under lamplight — wasn't frightened —",
+        "felt person did not mean to harm me — not sure what to do—decided to walk on",
+        "towards the light"
+      ],
+      "text": "Development: Someone standing at far end, under lamplight — wasn't frightened — felt person did not mean to harm me — not sure what to do—decided to walk on towards the light",
+      "reason": "按英汉语义对应自然段恢复机械断行；单题、注释和提纲续接，四段范文独立保留。"
+    },
+    {
+      "start": 139,
+      "end": 141,
+      "before": [
+        "The ‘guide’ started walking ahead of me —dressed in long gown — dim glow —felt",
+        "safe and followed—part of town, I realized, that I had been warned about — but",
+        "nothing happened to me —and near bright lights—‘guide’ Just disappeared"
+      ],
+      "text": "The ‘guide’ started walking ahead of me —dressed in long gown — dim glow —felt safe and followed—part of town, I realized, that I had been warned about — but nothing happened to me —and near bright lights—‘guide’ Just disappeared",
+      "reason": "按英汉语义对应自然段恢复机械断行；单题、注释和提纲续接，四段范文独立保留。"
+    },
+    {
+      "start": 144,
+      "end": 146,
+      "before": [
+        "It was a dark and gloomy street. I was on my way home from a friend's party and",
+        "had decided to take a short cut. I had just turned the corner from the main street and",
+        "had started walking towards the light at the end of the short street."
+      ],
+      "text": "It was a dark and gloomy street. I was on my way home from a friend's party and had decided to take a short cut. I had just turned the corner from the main street and had started walking towards the light at the end of the short street.",
+      "reason": "按英汉语义对应自然段恢复机械断行；单题、注释和提纲续接，四段范文独立保留。"
+    },
+    {
+      "start": 147,
+      "end": 154,
+      "before": [
+        "Suddenly, almost by magic, I thought, there was someone standing at the far end,",
+        "under the lamplight. Most people would have been frightened, perhaps terrified. I",
+        "wasn't at all frightened. Perhaps I should have been. There was someone there. I felt",
+        "somehow that the person —and I couldn't see whether it was a man or a woman—did",
+        "not mean to harm me. Although I wasn't frightened, I still wasn't sure what to do.",
+        "Should I walk on towards the end of the street and towards the light and towards the",
+        "person? or should I go back the way I had come? I decided to walk on towards the",
+        "light."
+      ],
+      "text": "Suddenly, almost by magic, I thought, there was someone standing at the far end, under the lamplight. Most people would have been frightened, perhaps terrified. I wasn't at all frightened. Perhaps I should have been. There was someone there. I felt somehow that the person —and I couldn't see whether it was a man or a woman—did not mean to harm me. Although I wasn't frightened, I still wasn't sure what to do. Should I walk on towards the end of the street and towards the light and towards the person? or should I go back the way I had come? I decided to walk on towards the light.",
+      "reason": "按英汉语义对应自然段恢复机械断行；单题、注释和提纲续接，四段范文独立保留。"
+    },
+    {
+      "start": 155,
+      "end": 161,
+      "before": [
+        "The ‘guide’, as I called the person later, stood and seemed to wait until I was",
+        "halfway down the street, and then started walking ahead of me. Even now I couldn't",
+        "describe him or her: he or she seemed to be dressed in a long gown, but there was a",
+        "dim glow all around him/her. Certainly I felt safe and followed the person down",
+        "several streets that I did not know. It was a part of town, I realized, that I had been",
+        "warned about — but nothing happened to me—and as soon as we were near the bright",
+        "lights of the main road, my ‘guide’just disappeared."
+      ],
+      "text": "The ‘guide’, as I called the person later, stood and seemed to wait until I was halfway down the street, and then started walking ahead of me. Even now I couldn't describe him or her: he or she seemed to be dressed in a long gown, but there was a dim glow all around him/her. Certainly I felt safe and followed the person down several streets that I did not know. It was a part of town, I realized, that I had been warned about — but nothing happened to me—and as soon as we were near the bright lights of the main road, my ‘guide’just disappeared.",
+      "reason": "按英汉语义对应自然段恢复机械断行；单题、注释和提纲续接，四段范文独立保留。"
+    },
+    {
+      "start": 162,
+      "end": 164,
+      "before": [
+        "The following day I heard that a young person had been killed walking home",
+        "alone not very far from where I was that night. I don't care what other people think. I",
+        "am sure that the ‘guide’ was my guardian angel and that he or she looked after me."
+      ],
+      "text": "The following day I heard that a young person had been killed walking home alone not very far from where I was that night. I don't care what other people think. I am sure that the ‘guide’ was my guardian angel and that he or she looked after me.",
+      "reason": "按英汉语义对应自然段恢复机械断行；单题、注释和提纲续接，四段范文独立保留。"
+    },
+    {
+      "start": 172,
+      "end": 173,
+      "before": [
+        "2 The writer's family suspected that their nearest neighbours might have trouble",
+        "managing."
+      ],
+      "text": "2 The writer's family suspected that their nearest neighbours might have trouble managing.",
+      "reason": "按英汉语义对应自然段恢复机械断行；单题、注释和提纲续接，四段范文独立保留。"
+    }
+  ],
+  "splitBlocks": [],
+  "blockEdits": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/9d1d5879aeb48ad5f1e2bd79847b77b095c595735c5e98452c238a252e910438.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "21776976041367bc6793390804181c054fa4fce255fe6598a5b09559ddbafd85"
+    }
+  ]
+}

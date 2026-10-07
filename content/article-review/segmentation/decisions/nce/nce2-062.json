@@ -1,0 +1,26 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "995cf1918a2bb32edec19130051c79a3dad7f596e21f6d462fe4b1801174d919",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title/titleZh、question/questionZh、bodyText全部9行、bodyTextZh全部9行及sentences[0..11]的完整文字；重复正文与字幕文本逐字比对，非正文字幕另读。操作在内存应用并validate_layout_change，修复后的双语全文重新通读。",
+  "notes": "森林火灾后；毁林洪水威胁、飞机播草、雨来前生根三段。 text与bodyText同步；sentences对象及时间、角色、索引原样保留。",
+  "issues": [],
+  "display": {
+    "text": "What was the danger to the villages after the fire?\n\nFiremen had been fighting the forest fire for nearly three weeks before they could get it under control. A short time before, great trees had covered the countryside for miles around. Now, smoke still rose up from the warm ground over the desolate hills. Winter was coming on and the hills threatened the surrounding villages with destruction, for heavy rain would not only wash away the soil but would cause serious floods as well.\nWhen the fire had at last been put out, the forest authorities ordered several tons of a special type of grass-seed which would grow quickly. The seed was sprayed over the ground in huge quantities by aeroplanes.\nThe planes had been planting seed for nearly a month when it began to rain. By then, however, in many places the grass had already taken root. In place of the great trees which had been growing there for centuries, patches of green had begun to appear in the blackened soil.",
+    "bodyText": "Firemen had been fighting the forest fire for nearly three weeks before they could get it under control. A short time before, great trees had covered the countryside for miles around. Now, smoke still rose up from the warm ground over the desolate hills. Winter was coming on and the hills threatened the surrounding villages with destruction, for heavy rain would not only wash away the soil but would cause serious floods as well.\nWhen the fire had at last been put out, the forest authorities ordered several tons of a special type of grass-seed which would grow quickly. The seed was sprayed over the ground in huge quantities by aeroplanes.\nThe planes had been planting seed for nearly a month when it began to rain. By then, however, in many places the grass had already taken root. In place of the great trees which had been growing there for centuries, patches of green had begun to appear in the blackened soil.",
+    "bodyTextZh": "消防员们与这场森林火灾抗争了近三周，才终于将其控制住。就在不久之前，这片乡村的周围几英里范围内，都长满了高大的树木。此刻，烟雾仍从那片荒凉山丘上温暖的地面中升起。冬天即将来临，那些山丘威胁着周围的村庄，随时可能将其摧毁。因为大雨不仅会冲走土壤，还会引发严重的洪水。\n当大火终于被扑灭后，森林管理部门订购了几吨一种特殊的草籽，这种草籽生长速度非常快。这些种子被飞机大量喷洒到地面上。\n这些飞机已经在进行播种作业近一个月了，就在这时，雨开始下了。然而，到那时为止，草已经在许多地方生根发芽了。取而代之的是，那些已经生长了几个世纪的参天大树不见了。在烧焦的土壤中，开始出现了一小块块绿色的斑点。"
+  },
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/0fa64da58daea66be4ff5c1cfe22ae82f7834d45909e64c09a74bfb5400d08b0.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "edb77a3d103fd575204c180e0294093dedae6f95e2450a522965de37c2558304"
+    }
+  ]
+}

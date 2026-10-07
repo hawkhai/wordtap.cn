@@ -2,112 +2,9 @@
   "schemaVersion": 1,
   "course": "nce",
   "articleId": "nce1-077",
-  "beforeDisplaySha256": "90b6286022151b7ba39d3ac8e070de2826578531202bdf35097fc60bca4caa35",
-  "afterDisplaySha256": "e067af80ce761a5c370998ad8836afa115f4203b7ac8134d56ce34882b4f4987",
+  "beforeDisplaySha256": "e067af80ce761a5c370998ad8836afa115f4203b7ac8134d56ce34882b4f4987",
+  "afterDisplaySha256": "5b0f6fc821b673857043cab2cc8811399903415fd2aeed9cfad8792099b10905",
   "baselineDisplay": {
-    "title": "Terrible Toothache",
-    "titleZh": "牙痛太厉害了！",
-    "question": "What time of day is it, do you think? How do you know?",
-    "questionZh": "你觉得现在是什么时间？你是怎么知道的？",
-    "text": "What time of day is it, do you think? How do you know?\n\nGood morning, Mr. Croft.\nGood morning, nurse.\nI want to see the dentist, please.\nDo you have an appointment?\nNo, I don't.\nIs it urgent?\nYes, it is.\nIt's very urgent.\nI feel awful.\nI have a terrible toothache.\nCan you come at 10 a.m. on Monday, April 24th?\nI must see the dentist now, nurse.\nThe dentist is very busy at the moment.\nCan you come at 2 p.m.?\nThat's very late.\nCan the dentist see me now?\nI'm afraid that he can't, Mr. Croft.\nCan't you wait till this afternoon?\nI can wait, but my toothache can't!",
-    "bodyText": "Good morning, Mr. Croft.\nGood morning, nurse.\nI want to see the dentist, please.\nDo you have an appointment?\nNo, I don't.\nIs it urgent?\nYes, it is.\nIt's very urgent.\nI feel awful.\nI have a terrible toothache.\nCan you come at 10 a.m. on Monday, April 24th?\nI must see the dentist now, nurse.\nThe dentist is very busy at the moment.\nCan you come at 2 p.m. ?\nThat's very late.\nCan the dentist see me now?\nI'm afraid that he can't, Mr. Croft.\nCan't you wait till this afternoon?\nI can wait, but my toothache can't!",
-    "bodyTextZh": "早上好，克罗夫特先生。\n早上好，护士。\n我想去看牙医，请。\n您有预约吗？\n不，我没有。\n这很紧急吗？\n是的，很紧急。\n这件事非常紧急。\n我感觉糟透了。\n我牙疼得非常厉害。\n你能于4月24日星期一上午10点来吗？\n我现在必须去看牙医了，护士。\n牙医现在非常忙。\n你能下午2点来吗？\n那已经太晚了。\n牙医现在可以见我了吗？\n恐怕他不行，克罗夫特先生。\n你就不能等到今天下午吗？\n我可以等待，但我的牙痛却无法忍受！",
-    "sentences": [
-      {
-        "en": "Lesson 77",
-        "zh": "第77课"
-      },
-      {
-        "en": "Terrible toothache",
-        "zh": "牙痛太厉害了！"
-      },
-      {
-        "en": "Listen to the tape then answer this question.",
-        "zh": "先听这段录音，然后再回答这个问题。"
-      },
-      {
-        "en": "What time of day is it, do you think? How do you know?",
-        "zh": "你觉得现在是什么时间？你是怎么知道的？"
-      },
-      {
-        "en": "Good morning, Mr. Croft.",
-        "zh": "早上好，克罗夫特先生。"
-      },
-      {
-        "en": "Good morning, nurse.",
-        "zh": "早上好，护士。"
-      },
-      {
-        "en": "I want to see the dentist, please.",
-        "zh": "我想去看牙医，请。"
-      },
-      {
-        "en": "Do you have an appointment?",
-        "zh": "您有预约吗？"
-      },
-      {
-        "en": "No, I don't.",
-        "zh": "不，我没有。"
-      },
-      {
-        "en": "Is it urgent?",
-        "zh": "这很紧急吗？"
-      },
-      {
-        "en": "Yes, it is.",
-        "zh": "是的，很紧急。"
-      },
-      {
-        "en": "It's very urgent.",
-        "zh": "这件事非常紧急。"
-      },
-      {
-        "en": "I feel awful.",
-        "zh": "我感觉糟透了。"
-      },
-      {
-        "en": "I have a terrible toothache.",
-        "zh": "我牙疼得非常厉害。"
-      },
-      {
-        "en": "Can you come at 10 a.m. on Monday, April 24th?",
-        "zh": "你能于4月24日星期一上午10点来吗？"
-      },
-      {
-        "en": "I must see the dentist now, nurse.",
-        "zh": "我现在必须去看牙医了，护士。"
-      },
-      {
-        "en": "The dentist is very busy at the moment.",
-        "zh": "牙医现在非常忙。"
-      },
-      {
-        "en": "Can you come at 2 p.m. ?",
-        "zh": "你能下午2点来吗？"
-      },
-      {
-        "en": "That's very late.",
-        "zh": "那已经太晚了。"
-      },
-      {
-        "en": "Can the dentist see me now?",
-        "zh": "牙医现在可以见我了吗？"
-      },
-      {
-        "en": "I'm afraid that he can't, Mr. Croft.",
-        "zh": "恐怕他不行，克罗夫特先生。"
-      },
-      {
-        "en": "Can't you wait till this afternoon?",
-        "zh": "你就不能等到今天下午吗？"
-      },
-      {
-        "en": "I can wait, but my toothache can't!",
-        "zh": "我可以等待，但我的牙痛却无法忍受！"
-      }
-    ]
-  },
-  "display": {
     "title": "Terrible Toothache",
     "titleZh": "牙痛太厉害了！",
     "question": "What time of day is it, do you think? How do you know?",
@@ -210,20 +107,155 @@
       }
     ]
   },
+  "display": {
+    "title": "Terrible Toothache",
+    "titleZh": "牙痛太厉害了！",
+    "question": "What time of day is it, do you think? How do you know?",
+    "questionZh": "你觉得现在是什么时间？你是怎么知道的？",
+    "text": "What time of day is it, do you think? How do you know?\n\nGood morning, Mr. Croft.\nGood morning, nurse. I want to see the dentist, please.\nDo you have an appointment?\nNo, I don't.\nIs it urgent?\nYes, it is. It's very urgent. I feel awful. I have a terrible toothache.\nCan you come at 10 a.m. on Monday, April 24th?\nI must see the dentist now, nurse.\nThe dentist is very busy at the moment. Can you come at 2 p.m.?\nThat's very late. Can the dentist see me now?\nI'm afraid that he can't, Mr. Croft. Can't you wait till this afternoon?\nI can wait, but my toothache can't!",
+    "bodyText": "Good morning, Mr. Croft.\nGood morning, nurse. I want to see the dentist, please.\nDo you have an appointment?\nNo, I don't.\nIs it urgent?\nYes, it is. It's very urgent. I feel awful. I have a terrible toothache.\nCan you come at 10 a.m. on Monday, April 24th?\nI must see the dentist now, nurse.\nThe dentist is very busy at the moment. Can you come at 2 p.m.?\nThat's very late. Can the dentist see me now?\nI'm afraid that he can't, Mr. Croft. Can't you wait till this afternoon?\nI can wait, but my toothache can't!",
+    "bodyTextZh": "早上好，克罗夫特先生。\n早上好，护士。我想去看牙医，请。\n您有预约吗？\n不，我没有。\n这很紧急吗？\n是的，很紧急。这件事非常紧急。我感觉糟透了。我牙疼得非常厉害。\n你能于 4 月 24 日星期一上午 10 点来吗？\n我现在必须去看牙医了，护士。\n牙医现在非常忙。你能下午 2 点来吗？\n那已经太晚了。牙医现在可以见我了吗？\n恐怕他不行，克罗夫特先生。你就不能等到今天下午吗？\n我可以等待，但我的牙痛却无法忍受！",
+    "sentences": [
+      {
+        "en": "Lesson 77",
+        "zh": "第 77 课"
+      },
+      {
+        "en": "Terrible toothache",
+        "zh": "牙痛太厉害了！"
+      },
+      {
+        "en": "Listen to the tape then answer this question.",
+        "zh": "先听这段录音，然后再回答这个问题。"
+      },
+      {
+        "en": "What time of day is it, do you think? How do you know?",
+        "zh": "你觉得现在是什么时间？你是怎么知道的？"
+      },
+      {
+        "en": "Good morning, Mr. Croft.",
+        "zh": "早上好，克罗夫特先生。"
+      },
+      {
+        "en": "Good morning, nurse.",
+        "zh": "早上好，护士。"
+      },
+      {
+        "en": "I want to see the dentist, please.",
+        "zh": "我想去看牙医，请。"
+      },
+      {
+        "en": "Do you have an appointment?",
+        "zh": "您有预约吗？"
+      },
+      {
+        "en": "No, I don't.",
+        "zh": "不，我没有。"
+      },
+      {
+        "en": "Is it urgent?",
+        "zh": "这很紧急吗？"
+      },
+      {
+        "en": "Yes, it is.",
+        "zh": "是的，很紧急。"
+      },
+      {
+        "en": "It's very urgent.",
+        "zh": "这件事非常紧急。"
+      },
+      {
+        "en": "I feel awful.",
+        "zh": "我感觉糟透了。"
+      },
+      {
+        "en": "I have a terrible toothache.",
+        "zh": "我牙疼得非常厉害。"
+      },
+      {
+        "en": "Can you come at 10 a.m. on Monday, April 24th?",
+        "zh": "你能于 4 月 24 日星期一上午 10 点来吗？"
+      },
+      {
+        "en": "I must see the dentist now, nurse.",
+        "zh": "我现在必须去看牙医了，护士。"
+      },
+      {
+        "en": "The dentist is very busy at the moment.",
+        "zh": "牙医现在非常忙。"
+      },
+      {
+        "en": "Can you come at 2 p.m.?",
+        "zh": "你能下午 2 点来吗？"
+      },
+      {
+        "en": "That's very late.",
+        "zh": "那已经太晚了。"
+      },
+      {
+        "en": "Can the dentist see me now?",
+        "zh": "牙医现在可以见我了吗？"
+      },
+      {
+        "en": "I'm afraid that he can't, Mr. Croft.",
+        "zh": "恐怕他不行，克罗夫特先生。"
+      },
+      {
+        "en": "Can't you wait till this afternoon?",
+        "zh": "你就不能等到今天下午吗？"
+      },
+      {
+        "en": "I can wait, but my toothache can't!",
+        "zh": "我可以等待，但我的牙痛却无法忍受！"
+      }
+    ]
+  },
   "sources": [
     {
-      "path": "content/NCE-Flow/NCE1/077&078－Terrible Toothache.lrc",
-      "locator": "完整LRC元数据、标题、提问及全部中英文逐句字幕和时间戳",
+      "path": "content/article-review/history/4cb6cf1290f7e99ac9bfd4c03e2afe4a4233182433b949a21b2e359dd6524d09.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
       "checked": true,
-      "sha256": "821defa6ce4c1b7e31718e6b2875a3cdb8f99c2b1e0a586be79dce24ccfb4023"
+      "sha256": "c71db7b418c91451b33e7f65d3559d41b99afb2253dd258c6aa8c6c91e023f86"
     }
   ],
   "corrections": [],
   "fullReadConfirmed": true,
   "recheckConfirmed": true,
   "reviewer": "Codex",
-  "reviewedAt": "2026-10-02T02:31:40+00:00",
-  "notes": "通读19句牙医预约对话，复核Mr. Croft、4月24日星期一上午10点与当天2 p.m.的对照及结尾双关。去掉p.m.与问号之间空格，规范中文日期时刻和课号间距；a.m./p.m.缩写、小数时间戳均完整。",
+  "reviewedAt": "2026-10-07T07:41:58+00:00",
+  "notes": "牙痛预约；患者问候需求、急迫和牙痛解释、护士忙碌并提时间、患者嫌晚追问与护士拒绝反问合为各自轮次。 text与bodyText同步；sentences对象及时间、角色、索引原样保留。",
   "issues": [],
-  "status": "passed_edited"
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "aecf2c37c855079d9964a8ae567c06e969d3e134c3fb56189cf8537083196a22",
+    "afterFileSha256": "c93de46a40a466b1990c30e12b9fe2e5a540ffa226dbf7adcf35502ceb63043b",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "aecf2c37c855079d9964a8ae567c06e969d3e134c3fb56189cf8537083196a22",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title/titleZh、question/questionZh、bodyText全部19行、bodyTextZh全部19行及sentences[0..22]的完整文字；重复正文与字幕文本逐字比对，非正文字幕另读。操作在内存应用并validate_layout_change，修复后的双语全文重新通读。",
+      "notes": "牙痛预约；患者问候需求、急迫和牙痛解释、护士忙碌并提时间、患者嫌晚追问与护士拒绝反问合为各自轮次。 text与bodyText同步；sentences对象及时间、角色、索引原样保留。",
+      "issues": [],
+      "display": {
+        "text": "What time of day is it, do you think? How do you know?\n\nGood morning, Mr. Croft.\nGood morning, nurse. I want to see the dentist, please.\nDo you have an appointment?\nNo, I don't.\nIs it urgent?\nYes, it is. It's very urgent. I feel awful. I have a terrible toothache.\nCan you come at 10 a.m. on Monday, April 24th?\nI must see the dentist now, nurse.\nThe dentist is very busy at the moment. Can you come at 2 p.m.?\nThat's very late. Can the dentist see me now?\nI'm afraid that he can't, Mr. Croft. Can't you wait till this afternoon?\nI can wait, but my toothache can't!",
+        "bodyText": "Good morning, Mr. Croft.\nGood morning, nurse. I want to see the dentist, please.\nDo you have an appointment?\nNo, I don't.\nIs it urgent?\nYes, it is. It's very urgent. I feel awful. I have a terrible toothache.\nCan you come at 10 a.m. on Monday, April 24th?\nI must see the dentist now, nurse.\nThe dentist is very busy at the moment. Can you come at 2 p.m.?\nThat's very late. Can the dentist see me now?\nI'm afraid that he can't, Mr. Croft. Can't you wait till this afternoon?\nI can wait, but my toothache can't!",
+        "bodyTextZh": "早上好，克罗夫特先生。\n早上好，护士。我想去看牙医，请。\n您有预约吗？\n不，我没有。\n这很紧急吗？\n是的，很紧急。这件事非常紧急。我感觉糟透了。我牙疼得非常厉害。\n你能于 4 月 24 日星期一上午 10 点来吗？\n我现在必须去看牙医了，护士。\n牙医现在非常忙。你能下午 2 点来吗？\n那已经太晚了。牙医现在可以见我了吗？\n恐怕他不行，克罗夫特先生。你就不能等到今天下午吗？\n我可以等待，但我的牙痛却无法忍受！"
+      },
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/4cb6cf1290f7e99ac9bfd4c03e2afe4a4233182433b949a21b2e359dd6524d09.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "c71db7b418c91451b33e7f65d3559d41b99afb2253dd258c6aa8c6c91e023f86"
+        }
+      ]
+    }
+  },
+  "status": "passed_edited",
+  "previousRevisionSha256": "4cb6cf1290f7e99ac9bfd4c03e2afe4a4233182433b949a21b2e359dd6524d09"
 }

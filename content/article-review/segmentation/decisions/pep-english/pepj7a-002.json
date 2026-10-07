@@ -1,0 +1,72 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "6b196f33241e04a4e768bd0497de1d5842fa8968123900c7c77aff2c294d006a",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title；全文 blocks[0..1] 与对应 text；现有正文/对话/题干逐块通读复核。",
+  "notes": "Cindy饮食访谈引言独立，David/Cindy十轮对话拆块，早餐午餐晚餐冰激凌问答保持各轮。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [
+    {
+      "index": 1,
+      "before": [
+        "David: Hello, Cindy. What do you like for breakfast?\nCindy: I love fruit. I think it's healthy.\nDavid: OK. So what fruit do you like? Do you like bananas?\nCindy: Well, I don't like bananas. But I like oranges and apples.\nDavid: What about lunch? Do you like salad?\nCindy: Yes, I really like it.\nDavid: Hmm... and do you like hamburgers for dinner?\nCindy: Oh, no, they're not healthy. I like chicken for dinner.\nDavid: OK, well, one last question — do you eat ice-cream after dinner?\nCindy: Err... I like ice-cream... but I don't eat it. I don't want to be fat."
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "David: Hello, Cindy. What do you like for breakfast?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Cindy: I love fruit. I think it's healthy."
+        },
+        {
+          "type": "paragraph",
+          "text": "David: OK. So what fruit do you like? Do you like bananas?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Cindy: Well, I don't like bananas. But I like oranges and apples."
+        },
+        {
+          "type": "paragraph",
+          "text": "David: What about lunch? Do you like salad?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Cindy: Yes, I really like it."
+        },
+        {
+          "type": "paragraph",
+          "text": "David: Hmm... and do you like hamburgers for dinner?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Cindy: Oh, no, they're not healthy. I like chicken for dinner."
+        },
+        {
+          "type": "paragraph",
+          "text": "David: OK, well, one last question — do you eat ice-cream after dinner?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Cindy: Err... I like ice-cream... but I don't eat it. I don't want to be fat."
+        }
+      ],
+      "reason": "每行具有明确的发言人及完整轮次，分块保留各对话轮次。"
+    }
+  ],
+  "blockEdits": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/2395ba6e7e16b5cc9b1385984ad11ff74deab515f22d5ad799cd83aaf8af2e32.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "6765c0949703d164994c277d60c63d9c40b619c78a0d12e3077711138d902be3"
+    }
+  ]
+}

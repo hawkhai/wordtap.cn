@@ -82,30 +82,45 @@
   },
   "sources": [
     {
-      "path": "content/College-English/NHCE4-RW1.pdf",
-      "locator": "PDF 92-93，印刷页 77-78，完整正文与标题逐段核对",
+      "path": "content/article-review/history/27c089e4baae78eac0c8901e760bd12dee84f251f24b270791a127566626e1c8.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
       "checked": true,
-      "sha256": "05d7a57fb09156e13d02ce498271c86917869b5327e8981f1eedf205ceb465ec"
-    },
-    {
-      "path": "content/College-English/NHCE4-RW1/NHCE4-RW1_92.jpg",
-      "locator": "已打开教材图页并通读复核正文",
-      "checked": true,
-      "sha256": "0f7abf5743a055abddb65d7c86eea7f7a216b4c7a7e665c23958e81d2ee82640"
-    },
-    {
-      "path": "content/College-English/NHCE4-RW1/NHCE4-RW1_93.jpg",
-      "locator": "已打开教材图页并通读复核正文",
-      "checked": true,
-      "sha256": "adb056958eb6c9f9112a56126ff742d163a1d9e98636c3c42a42d4ea33e61ad1"
+      "sha256": "cbd40f755b4f7bf565073fa03ace60cc88cf9e6b536febd214fb8516716da390"
     }
   ],
   "corrections": [],
   "fullReadConfirmed": true,
   "recheckConfirmed": true,
   "reviewer": "Codex",
-  "reviewedAt": "2026-10-02T08:27:56+00:00",
-  "notes": "六段全文对照PDF92—93页原图，核查第2段跨栏、第3段跨页及第5段跨栏续文。保留2018年三次清理及5000/1000/2000千克历史统计、2008年奥运摄影经历、四次登顶和七大洲两极报道口径；所有海拔、词注、人物原话完整。正文未混入翻译练习，排版与拼写无需修改。",
+  "reviewedAt": "2026-10-07T07:30:00+00:00",
+  "notes": "全文及未改动输出复核：珠峰垃圾任务、拉环危险、向导经历、环境队清理、海拔风险、获奖感言六段清晰；清理统计与同段背景相关，保留自然段和中文释义。",
   "issues": [],
-  "status": "passed_unchanged"
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "8626899e6b8c8c1b837552697d24fe98268dc5c067962310fbec456fb13ecc6f",
+    "afterFileSha256": "8626899e6b8c8c1b837552697d24fe98268dc5c067962310fbec456fb13ecc6f",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "8626899e6b8c8c1b837552697d24fe98268dc5c067962310fbec456fb13ecc6f",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "完整 title、blocks[0..5]及完全相同的text；正文及内嵌中文、引语、对话和列举均已逐项通读；无改动输出按全文再次复核。",
+      "notes": "全文及未改动输出复核：珠峰垃圾任务、拉环危险、向导经历、环境队清理、海拔风险、获奖感言六段清晰；清理统计与同段背景相关，保留自然段和中文释义。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/27c089e4baae78eac0c8901e760bd12dee84f251f24b270791a127566626e1c8.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "cbd40f755b4f7bf565073fa03ace60cc88cf9e6b536febd214fb8516716da390"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "27c089e4baae78eac0c8901e760bd12dee84f251f24b270791a127566626e1c8"
 }

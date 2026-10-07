@@ -1,0 +1,51 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "2a1fe6075457ab2c79d8f15f3e8aeeef93f53c92c6481a6dc157352e3e52704e",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "coverage": "全文 blocks[0..115]；逐条比较双语、表格、例句、列表边界及修改结果。",
+  "notes": "中英对话本已分块；合并指示代词定义、比较例句 garden 续行、近远指代说明三处断行。国家/国籍表格行与独立同义例句保留。",
+  "issues": [],
+  "mergeBlocks": [
+    {
+      "start": 83,
+      "end": 84,
+      "before": [
+        "指示代词是用来指代或标记人或事物的代词。包括 this（这个）, these（这些）, that",
+        "（那个）,those（那些）等."
+      ],
+      "text": "指示代词是用来指代或标记人或事物的代词。包括 this（这个）, these（这些）, that（那个）,those（那些）等.",
+      "reason": "根据完整句法，后块为同一定义或例句的物理续行；保留首块的列表身份和原字词。"
+    },
+    {
+      "start": 95,
+      "end": 96,
+      "before": [
+        "▪ The flower in Tom's garden is more beautiful than that in Mary's",
+        "garden."
+      ],
+      "text": "▪ The flower in Tom's garden is more beautiful than that in Mary's garden.",
+      "reason": "根据完整句法，后块为同一定义或例句的物理续行；保留首块的列表身份和原字词。"
+    },
+    {
+      "start": 98,
+      "end": 99,
+      "before": [
+        "◦ 指示代词 this 和 these 常用来指代空间上较近的人或物；还可以指下面将要",
+        "说明的事情。指示代词 that 和 those 常用来指代空间上较远的人或物。"
+      ],
+      "text": "◦ 指示代词 this 和 these 常用来指代空间上较近的人或物；还可以指下面将要说明的事情。指示代词 that 和 those 常用来指代空间上较远的人或物。",
+      "reason": "根据完整句法，后块为同一定义或例句的物理续行；保留首块的列表身份和原字词。"
+    }
+  ],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/44973259b9e3690746511f2d8eb708a46feba870870dc53cc5ff59cced1cdd12.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "630b58b191b72b9a393c22d3b9247db1adbacbc21f17af799316d1bc701395bc"
+    }
+  ]
+}

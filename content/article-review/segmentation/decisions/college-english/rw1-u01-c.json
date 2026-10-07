@@ -1,0 +1,21 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "8a02df8afdb3f142d6eb23412183ef9d9ed59c44c2d2311e4f7e0757df7199fd",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "完整 title、blocks[0..6]及完全相同的text；正文及内嵌中文、引语、对话和列举均已逐项通读；无改动输出按全文再次复核。",
+  "notes": "全文及未改动输出复核：行李总起后张悦如传统文化、梁艺欣舞蹈、艺术兴趣、学习准备、农业理想、甘肃支教各自成段；括号中文词注随词保留，无物理断行。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/32e819a201ec24c3561c4b9a73cf0febf836a364d47f6527471f360f31c917c0.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "50bd674846889ee255e61cc78abc70ee4b3660ab9ef7727d9eda6f8395441b80"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "134f28f015b54a4888dc66e4af3ab6bc71594dcd01cf828920a26bd85d46201c",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title/titleZh、question/questionZh、bodyText全部16行、bodyTextZh全部16行及sentences[0..18]的完整文字；重复正文与字幕文本逐字比对，非正文字幕另读。操作在内存应用并validate_layout_change，修复后的双语全文重新通读。",
+  "notes": "艺术评论；现代画观点、儿童理解、妹妹来问、挑评倒挂、作者确认各成段。中文2与3近似重复属校勘保留。 text与bodyText同步；sentences对象及时间、角色、索引原样保留。",
+  "issues": [],
+  "display": {
+    "text": "Who is the student's best critic?\n\nI am an art student and I paint a lot of pictures. Many people pretend that they understand modern art. They always tell you what a picture is 'about'. Of course, many pictures are not 'about' anything. They are just pretty patterns. We like them in the same way that we like pretty curtain material.\nI think that young children often appreciate modern pictures better than anyone else. They notice more. My sister is only seven, but she always tells me whether my pictures are good or not.\nShe came into my room yesterday. 'What are you doing?' she asked.\n'I'm hanging this picture on the wall,' I answered. 'It's a new one. Do you like it?'\nShe looked at it critically for a moment. 'It's all right,' she said, 'but isn't it upside down?'\nI looked at it again. She was right! It was!",
+    "bodyText": "I am an art student and I paint a lot of pictures. Many people pretend that they understand modern art. They always tell you what a picture is 'about'. Of course, many pictures are not 'about' anything. They are just pretty patterns. We like them in the same way that we like pretty curtain material.\nI think that young children often appreciate modern pictures better than anyone else. They notice more. My sister is only seven, but she always tells me whether my pictures are good or not.\nShe came into my room yesterday. 'What are you doing?' she asked.\n'I'm hanging this picture on the wall,' I answered. 'It's a new one. Do you like it?'\nShe looked at it critically for a moment. 'It's all right,' she said, 'but isn't it upside down?'\nI looked at it again. She was right! It was!",
+    "bodyTextZh": "我是一名艺术学生，经常画很多画。很多人假装自己理解现代艺术。当然，很多画其实什么也不是。当然，很多图片其实并没有明确的主题或意义（即它们“并不表达任何特定的内容”）。它们只不过是一些漂亮的图案罢了。我们喜欢它们的方式，就如同我们喜欢漂亮的窗帘面料一样。\n我认为，小孩子往往比任何人都更懂得欣赏现代画。他们看到的更多。我妹妹才七岁。但她总会告诉我我的画好不好。\n她昨天进了我的房间。“你在做什么？”她问。\n“我在把这幅画挂在墙上。”我回答说，“这是一幅新画。你喜欢吗？”\n她挑剔地看了一会儿。“还行吧，”她说，“不过它不是倒挂了吗？”\n我又看了一遍。她说得对！确实是这样！"
+  },
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/89ce03e7bc1b8fa833501eb1b105a83e0fafa8495c6e220d15381f109966696a.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "ebe82be7c496ffa959fe0cdf4f405afc0d29b2df9ccf173440437cd33d0be9a1"
+    }
+  ]
+}

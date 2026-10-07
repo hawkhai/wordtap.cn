@@ -2,21 +2,9 @@
   "schemaVersion": 1,
   "course": "pep-english",
   "articleId": "pephr3-012",
-  "beforeDisplaySha256": "8cf0ad87e8040b49d2b97c8cb633ecf645db312c2f0e019ebcaf9332d3e2dbdc",
-  "afterDisplaySha256": "b6a3fae15c5a894f0938df35698c67508ff21c6e60ff0ecf50976fd2113f4784",
+  "beforeDisplaySha256": "b6a3fae15c5a894f0938df35698c67508ff21c6e60ff0ecf50976fd2113f4784",
+  "afterDisplaySha256": "b6b4bfaea7dfcd54e9f1d396d59cbfdb05a63463b7411dcef70749a8ef41705b",
   "baselineDisplay": {
-    "title": "Recommendations for Visiting Guizhou",
-    "section": "Discovering Useful Structures",
-    "text": "Justin: Linlin, I'm going to Guizhou Province next month. I'm super excited! Any recommendations for places to visit?\nLinlin: Wow, cool! Guizhou is a province with a lot of cultural diversity. Places to visit... well, definitely the Huangguoshu Waterfall first.\nJustin: What's special about the waterfall?\nLinlin: Well, have you ever heard of the Chinese novel Journey to the West?\nJustin: Yes, I have. Why?\nLinlin: In the back of the waterfall, you will find a cave, which is the home of the Monkey King.\nJustin: Really? Cool! I'll definitely check it out.\nLinlin: And I strongly recommend the ethnic minority villages. You'll find Chinese culture is much more diverse than you thought.\nJustin: Sounds great, thanks!",
-    "blocks": [
-      {
-        "type": "paragraph",
-        "lang": "en",
-        "text": "Justin: Linlin, I'm going to Guizhou Province next month. I'm super excited! Any recommendations for places to visit?\nLinlin: Wow, cool! Guizhou is a province with a lot of cultural diversity. Places to visit... well, definitely the Huangguoshu Waterfall first.\nJustin: What's special about the waterfall?\nLinlin: Well, have you ever heard of the Chinese novel Journey to the West?\nJustin: Yes, I have. Why?\nLinlin: In the back of the waterfall, you will find a cave, which is the home of the Monkey King.\nJustin: Really? Cool! I'll definitely check it out.\nLinlin: And I strongly recommend the ethnic minority villages. You'll find Chinese culture is much more diverse than you thought.\nJustin: Sounds great, thanks!"
-      }
-    ]
-  },
-  "display": {
     "title": "Recommendations for Visiting Guizhou",
     "section": "Discovering Useful Structures",
     "text": "Justin: Linlin, I'm going to Guizhou Province next month. I'm super excited! Any recommendations for places to visit?\nLinlin: Wow, cool! Guizhou is a province with a lot of cultural diversity. Places to visit ... well, definitely the Huangguoshu Waterfall first.\nJustin: What's special about the waterfall?\nLinlin: Well, have you ever heard of the Chinese novel Journey to the West?\nJustin: Yes, I have. Why?\nLinlin: In the back of the waterfall, you will find a cave, which is the home of the Monkey King.\nJustin: Really? Cool! I'll definitely check it out.\nLinlin: And I strongly recommend the ethnic minority villages. You'll find Chinese culture is much more diverse than you thought.\nJustin: Sounds great, thanks!",
@@ -28,26 +16,145 @@
       }
     ]
   },
+  "display": {
+    "title": "Recommendations for Visiting Guizhou",
+    "section": "Discovering Useful Structures",
+    "text": "Justin: Linlin, I'm going to Guizhou Province next month. I'm super excited! Any recommendations for places to visit?\nLinlin: Wow, cool! Guizhou is a province with a lot of cultural diversity. Places to visit ... well, definitely the Huangguoshu Waterfall first.\nJustin: What's special about the waterfall?\nLinlin: Well, have you ever heard of the Chinese novel Journey to the West?\nJustin: Yes, I have. Why?\nLinlin: In the back of the waterfall, you will find a cave, which is the home of the Monkey King.\nJustin: Really? Cool! I'll definitely check it out.\nLinlin: And I strongly recommend the ethnic minority villages. You'll find Chinese culture is much more diverse than you thought.\nJustin: Sounds great, thanks!",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Justin: Linlin, I'm going to Guizhou Province next month. I'm super excited! Any recommendations for places to visit?"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Linlin: Wow, cool! Guizhou is a province with a lot of cultural diversity. Places to visit ... well, definitely the Huangguoshu Waterfall first."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Justin: What's special about the waterfall?"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Linlin: Well, have you ever heard of the Chinese novel Journey to the West?"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Justin: Yes, I have. Why?"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Linlin: In the back of the waterfall, you will find a cave, which is the home of the Monkey King."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Justin: Really? Cool! I'll definitely check it out."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Linlin: And I strongly recommend the ethnic minority villages. You'll find Chinese culture is much more diverse than you thought."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Justin: Sounds great, thanks!"
+      }
+    ]
+  },
   "sources": [
     {
-      "path": "content/pep-english/raw/senior-required-3.pdf",
-      "locator": "PDF第37-37页，标题与完整正文逐行核对",
+      "path": "content/article-review/history/38d64f7309095ad894d7ebf5087e1ddfe76341dee7c7412dbe1c77aaf95d1887.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
       "checked": true,
-      "sha256": "fe9c8e15e62f4aec56efc60b8de43f4a55d40f3114d6505affaef78a8b7a1af2"
-    },
-    {
-      "path": "content/pep-english/raw/senior-required-3/senior-required-3_37.jpg",
-      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
-      "checked": true,
-      "sha256": "26457a34e3cf22fb95ee5fce91b49d094d6f1853bda6af37ee7f5649a952a06b"
+      "sha256": "91c616237cbed6cf3a24ac0d230dbc203716149533dca8b83b100872bb772937"
     }
   ],
   "corrections": [],
   "fullReadConfirmed": true,
   "recheckConfirmed": true,
   "reviewer": "Codex",
-  "reviewedAt": "2026-10-02T05:56:31+00:00",
-  "notes": "核对PDF第37页Justin与Linlin九轮对话，黄果树瀑布、《西游记》相关叙事和民族村寨建议一致；按原页恢复visit后省略号前空格，保留省略句教学结构。",
+  "reviewedAt": "2026-10-07T07:30:20+00:00",
+  "notes": "Justin与Linlin贵州建议九轮对话按角色拆分，黄果树与民族村寨介绍各留本轮。",
   "issues": [],
-  "status": "passed_edited"
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "601ae60b560f33d1af2b45ca7ef6d10a5bc0d4d5e4ebc04aa8c71850b4ac21d9",
+    "afterFileSha256": "0b4a896a07b449efb67997afc3675f111b110c61bf977c81c8654faf51640842",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "601ae60b560f33d1af2b45ca7ef6d10a5bc0d4d5e4ebc04aa8c71850b4ac21d9",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..0] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "Justin与Linlin贵州建议九轮对话按角色拆分，黄果树与民族村寨介绍各留本轮。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [
+        {
+          "index": 0,
+          "before": [
+            "Justin: Linlin, I'm going to Guizhou Province next month. I'm super excited! Any recommendations for places to visit?\nLinlin: Wow, cool! Guizhou is a province with a lot of cultural diversity. Places to visit ... well, definitely the Huangguoshu Waterfall first.\nJustin: What's special about the waterfall?\nLinlin: Well, have you ever heard of the Chinese novel Journey to the West?\nJustin: Yes, I have. Why?\nLinlin: In the back of the waterfall, you will find a cave, which is the home of the Monkey King.\nJustin: Really? Cool! I'll definitely check it out.\nLinlin: And I strongly recommend the ethnic minority villages. You'll find Chinese culture is much more diverse than you thought.\nJustin: Sounds great, thanks!"
+          ],
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Justin: Linlin, I'm going to Guizhou Province next month. I'm super excited! Any recommendations for places to visit?"
+            },
+            {
+              "type": "paragraph",
+              "text": "Linlin: Wow, cool! Guizhou is a province with a lot of cultural diversity. Places to visit ... well, definitely the Huangguoshu Waterfall first."
+            },
+            {
+              "type": "paragraph",
+              "text": "Justin: What's special about the waterfall?"
+            },
+            {
+              "type": "paragraph",
+              "text": "Linlin: Well, have you ever heard of the Chinese novel Journey to the West?"
+            },
+            {
+              "type": "paragraph",
+              "text": "Justin: Yes, I have. Why?"
+            },
+            {
+              "type": "paragraph",
+              "text": "Linlin: In the back of the waterfall, you will find a cave, which is the home of the Monkey King."
+            },
+            {
+              "type": "paragraph",
+              "text": "Justin: Really? Cool! I'll definitely check it out."
+            },
+            {
+              "type": "paragraph",
+              "text": "Linlin: And I strongly recommend the ethnic minority villages. You'll find Chinese culture is much more diverse than you thought."
+            },
+            {
+              "type": "paragraph",
+              "text": "Justin: Sounds great, thanks!"
+            }
+          ],
+          "reason": "每行具有明确的发言人及完整轮次，分块保留各对话轮次。"
+        }
+      ],
+      "sources": [
+        {
+          "path": "content/article-review/history/38d64f7309095ad894d7ebf5087e1ddfe76341dee7c7412dbe1c77aaf95d1887.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "91c616237cbed6cf3a24ac0d230dbc203716149533dca8b83b100872bb772937"
+        }
+      ]
+    }
+  },
+  "status": "passed_edited",
+  "previousRevisionSha256": "38d64f7309095ad894d7ebf5087e1ddfe76341dee7c7412dbe1c77aaf95d1887"
 }

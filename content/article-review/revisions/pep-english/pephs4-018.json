@@ -2,12 +2,12 @@
   "schemaVersion": 1,
   "course": "pep-english",
   "articleId": "pephs4-018",
-  "beforeDisplaySha256": "9b4c5839ba40608e5fa75adbf251b92b6673c10fc634ff691adcbd04cb54d9a8",
+  "beforeDisplaySha256": "8ea0e50b0e993bd8a6922d36723d160f9b36fe0158c7d9eae0530108b43dfc15",
   "afterDisplaySha256": "8ea0e50b0e993bd8a6922d36723d160f9b36fe0158c7d9eae0530108b43dfc15",
   "baselineDisplay": {
     "title": "Kelly Xu’s Cover Letter",
     "section": "Using Language",
-    "text": "Dear Sir/Madam,\nI would like to apply for the position of camp helper. Please find my CV attached.\nI believe I would be a valuable addition to your team. My English is at an intermediate level, and I have travelled to several English-speaking countries. I have also helped to organise a three-day tour of my city for visiting exchange students.\nI have experience in working with animals, and I have also volunteered at a local library to help organise the children’s section. I am a team player and I enjoy working with others. I have been captain of my school table tennis team for two years, so I know how to lead and decide on priorities.\nWith my proficiency in Chinese calligraphy, I could also conduct classes for your visitors to help them learn more about this beautiful aspect of Chinese culture.\nThe prospect of welcoming exchange students to our country is very exciting, and I am keen to use my skills to give them a warm welcome and an experience they will always remember.\nI look forward to hearing from you as soon as possible.\nYours faithfully, Kelly Xu",
+    "text": "Dear Sir/Madam,\nI would like to apply for the position of camp helper. Please find my CV attached.\nI believe I would be a valuable addition to your team. My English is at an intermediate level, and I have travelled to several English-speaking countries. I have also helped to organise a three-day tour of my city for visiting exchange students.\nI have experience in working with animals, and I have also volunteered at a local library to help organise the children’s section. I am a team player and I enjoy working with others. I have been captain of my school table tennis team for two years, so I know how to lead and decide on priorities.\nWith my proficiency in Chinese calligraphy, I could also conduct classes for your visitors to help them learn more about this beautiful aspect of Chinese culture.\nThe prospect of welcoming exchange students to our country is very exciting, and I am keen to use my skills to give them a warm welcome and an experience they will always remember.\nI look forward to hearing from you as soon as possible.\nYours faithfully,\nKelly Xu",
     "blocks": [
       {
         "type": "paragraph",
@@ -47,7 +47,7 @@
       {
         "type": "paragraph",
         "lang": "en",
-        "text": "Yours faithfully, Kelly Xu"
+        "text": "Yours faithfully,\nKelly Xu"
       }
     ]
   },
@@ -100,24 +100,46 @@
   },
   "sources": [
     {
-      "path": "content/pep-english/raw/senior-selective-4.pdf",
-      "locator": "PDF第63-63页，标题与完整正文逐行核对",
+      "path": "content/article-review/history/393ca69e3a5f13607f99f0368a1bbc5092ee74841fc63c7030b2bc9062f90707.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
       "checked": true,
-      "sha256": "2ad7555a13eb420aa70497f9faa2541fdb502b7ffc4e063e87c60cce88f1b4a3"
-    },
-    {
-      "path": "content/pep-english/raw/senior-selective-4/senior-selective-4_63.jpg",
-      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
-      "checked": true,
-      "sha256": "9e6f012ce4c9c03fffd9124f3bb275c1a5b40eb462ca2f59028ad34572d70d01"
+      "sha256": "6e0c755be34a6bd40c0245ef870260b27fa03d3afd238631d776df1466ab3c9c"
     }
   ],
   "corrections": [],
   "fullReadConfirmed": true,
   "recheckConfirmed": true,
   "reviewer": "Codex",
-  "reviewedAt": "2026-10-02T07:47:17+00:00",
-  "notes": "逐段核对 Kelly Xu 的求职信原页，八段信息完整。按原信格式将 Yours faithfully 与署名 Kelly Xu 分行，经历、联系方式和措辞保持原文。",
+  "reviewedAt": "2026-10-07T07:39:42+00:00",
+  "notes": "Kelly申请信正文按申请、英语组织能力、动物志愿经验、书法、期待及回信要求分段，落款内部换行保留。",
   "issues": [],
-  "status": "passed_edited"
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "44f3fac86e6ec614b1b1a9cce1357ad2725b0596273ee406ecedfe5ab2e087af",
+    "afterFileSha256": "44f3fac86e6ec614b1b1a9cce1357ad2725b0596273ee406ecedfe5ab2e087af",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "44f3fac86e6ec614b1b1a9cce1357ad2725b0596273ee406ecedfe5ab2e087af",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..7] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "Kelly申请信正文按申请、英语组织能力、动物志愿经验、书法、期待及回信要求分段，落款内部换行保留。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "blockEdits": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/393ca69e3a5f13607f99f0368a1bbc5092ee74841fc63c7030b2bc9062f90707.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "6e0c755be34a6bd40c0245ef870260b27fa03d3afd238631d776df1466ab3c9c"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "393ca69e3a5f13607f99f0368a1bbc5092ee74841fc63c7030b2bc9062f90707"
 }

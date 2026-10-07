@@ -110,24 +110,45 @@
   },
   "sources": [
     {
-      "path": "content/pep-english/raw/senior-required-3.pdf",
-      "locator": "PDF第27-27页，标题与完整正文逐行核对",
+      "path": "content/article-review/history/c1356967282b3342071bab41349a981b9f147b6a7f6e972954831755945d039b.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
       "checked": true,
-      "sha256": "fe9c8e15e62f4aec56efc60b8de43f4a55d40f3114d6505affaef78a8b7a1af2"
-    },
-    {
-      "path": "content/pep-english/raw/senior-required-3/senior-required-3_27.jpg",
-      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
-      "checked": true,
-      "sha256": "d67c9642c004ddc6a834fd90527ebc2723d8e0a49c77f156e03d8882c70067fe"
+      "sha256": "43157a0f6d19a4a6e5df23da0f06c0e99b66fff216b8a8095300dffb55b8b8a6"
     }
   ],
   "corrections": [],
   "fullReadConfirmed": true,
   "recheckConfirmed": true,
   "reviewer": "Codex",
-  "reviewedAt": "2026-10-02T05:55:07+00:00",
-  "notes": "通读PDF第27页九段路上石头寓言，国王藏金币、送奶人、顶水罐妇女、农家女孩移石及最终奖赏情节逐句一致，保留九段及全部人物引语。",
+  "reviewedAt": "2026-10-07T07:30:19+00:00",
+  "notes": "路中石头寓言九段按国王设局、不同路人、小女孩行动和奖赏推进，叙述内引语保留，结尾人物发言分段合理。",
   "issues": [],
-  "status": "passed_unchanged"
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "6f9e9b977c4628d820197d2b207bf59700183d4aff71416bfc86a643126a1bc6",
+    "afterFileSha256": "6f9e9b977c4628d820197d2b207bf59700183d4aff71416bfc86a643126a1bc6",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "6f9e9b977c4628d820197d2b207bf59700183d4aff71416bfc86a643126a1bc6",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..8] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "路中石头寓言九段按国王设局、不同路人、小女孩行动和奖赏推进，叙述内引语保留，结尾人物发言分段合理。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/c1356967282b3342071bab41349a981b9f147b6a7f6e972954831755945d039b.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "43157a0f6d19a4a6e5df23da0f06c0e99b66fff216b8a8095300dffb55b8b8a6"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "c1356967282b3342071bab41349a981b9f147b6a7f6e972954831755945d039b"
 }

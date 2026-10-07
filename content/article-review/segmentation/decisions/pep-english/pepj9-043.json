@@ -1,0 +1,22 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "c0e141c91fdbc61e2b5ec70c8ab854290f522fea1f4ab30ba5a3291d71a7f770",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title；全文 blocks[0..3] 与对应 text；现有正文/对话/题干逐块通读复核。",
+  "notes": "再利用四段为创意引入、Amy房屋、Jessica袋子、Wang Tao金属艺术，各案例段完整保留。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "blockEdits": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/0caa22a590212bc451c5428be3a3a74959b32dafa9f9138788bbaaf47359cbf3.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "a5aad1a343f9b27b0d057436541cdb2f774e620c0827d1ddda252a5d904f9256"
+    }
+  ]
+}

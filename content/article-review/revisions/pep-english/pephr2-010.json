@@ -30,24 +30,45 @@
   },
   "sources": [
     {
-      "path": "content/pep-english/raw/senior-required-2.pdf",
-      "locator": "PDF第51-51页，标题与完整正文逐行核对",
+      "path": "content/article-review/history/0a6460946483a9f489b8b755d47b705c7d5c19998afee357bc928e55ab9b6497.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
       "checked": true,
-      "sha256": "33b74bf42b22b32fdbe3201e6f61cf8099be047ef0af8a1740f6013dee4a619d"
-    },
-    {
-      "path": "content/pep-english/raw/senior-required-2/senior-required-2_51.jpg",
-      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
-      "checked": true,
-      "sha256": "c3b3ebde970262267b4cf563ce5ac3c905624aceb94a122694d1fbce901ab8d1"
+      "sha256": "580cd41d0390fc2c8654f78625f8b4c66cd2e1ecc7a1688ed173a5a0842a6817"
     }
   ],
   "corrections": [],
   "fullReadConfirmed": true,
   "recheckConfirmed": true,
   "reviewer": "Codex",
-  "reviewedAt": "2026-10-02T05:40:35+00:00",
-  "notes": "PDF第51页爱尔兰风景文化完整单段逐句核对，Emerald Isle/green counties、视觉听觉嗅觉等描写及Irish Beef Stew、first-hand结尾一致，保留描写段整体，无修改。",
+  "reviewedAt": "2026-10-07T07:30:15+00:00",
+  "notes": "爱尔兰景观感官描写连至酒吧饮食歌舞体验，完整描写段没有机械按句切分。",
   "issues": [],
-  "status": "passed_unchanged"
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "552ddae31f7ac4777f53c98a59282dec5ab2ca97f324bd39aff0dfcba403d1b1",
+    "afterFileSha256": "552ddae31f7ac4777f53c98a59282dec5ab2ca97f324bd39aff0dfcba403d1b1",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "552ddae31f7ac4777f53c98a59282dec5ab2ca97f324bd39aff0dfcba403d1b1",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..0] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "爱尔兰景观感官描写连至酒吧饮食歌舞体验，完整描写段没有机械按句切分。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/0a6460946483a9f489b8b755d47b705c7d5c19998afee357bc928e55ab9b6497.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "580cd41d0390fc2c8654f78625f8b4c66cd2e1ecc7a1688ed173a5a0842a6817"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "0a6460946483a9f489b8b755d47b705c7d5c19998afee357bc928e55ab9b6497"
 }

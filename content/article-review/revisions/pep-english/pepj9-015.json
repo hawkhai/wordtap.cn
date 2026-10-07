@@ -60,30 +60,46 @@
   },
   "sources": [
     {
-      "path": "content/pep-english/raw/junior-9.pdf",
-      "locator": "PDF第44-44页，标题与完整正文逐行核对",
+      "path": "content/article-review/history/b9fb48160171eae42e58ed5961a76fe57e67b2e35369107c4c04893c79e94dac.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
       "checked": true,
-      "sha256": "9c4118021048d901610b673f590ed28c39c04cb2d4f7fd940f83a2d8b2741af7"
-    },
-    {
-      "path": "content/pep-english/raw/junior-9/junior-9_44.jpg",
-      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
-      "checked": true,
-      "sha256": "d1b3df06793ab38bc25fc413e5ca1f9255dd382c51315772d12eade62f52dd73"
-    },
-    {
-      "path": "content/pep-english/raw/junior-9/junior-9_45.jpg",
-      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
-      "checked": true,
-      "sha256": "97f7307d55d36a94e891d69b6696303f04547a78f292fb988c8832b754ecbff9"
+      "sha256": "d9249ad7ccf2de75c10dccde294b8fe78aced901cb35a5c18cab383b67d5777c"
     }
   ],
   "corrections": [],
   "fullReadConfirmed": true,
   "recheckConfirmed": true,
   "reviewer": "Codex",
-  "reviewedAt": "2026-10-02T05:09:07+00:00",
-  "notes": "PDF44页印刷30页全文及PDF45页Missing language四选项逐行核对；已填四句顺序C/D/A/B准确，非无证据补写。Li Wen15岁、24小时火车加5小时公交、父母长谈与后续变化四段完整。保留当前连续阅读版，复读人名、引语与连字符无误，无修改。",
+  "reviewedAt": "2026-10-07T07:42:02+00:00",
+  "notes": "Li Wen四段从父母外出、学业困难、谈心、改善展开，保留完整事件段及引语。",
   "issues": [],
-  "status": "passed_unchanged"
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "33f62a8a83a660dcef7ed7396973e1f5c323df3b02e1d172f08d86f36d19d692",
+    "afterFileSha256": "33f62a8a83a660dcef7ed7396973e1f5c323df3b02e1d172f08d86f36d19d692",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "33f62a8a83a660dcef7ed7396973e1f5c323df3b02e1d172f08d86f36d19d692",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..3] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "Li Wen四段从父母外出、学业困难、谈心、改善展开，保留完整事件段及引语。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "blockEdits": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/b9fb48160171eae42e58ed5961a76fe57e67b2e35369107c4c04893c79e94dac.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "d9249ad7ccf2de75c10dccde294b8fe78aced901cb35a5c18cab383b67d5777c"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "b9fb48160171eae42e58ed5961a76fe57e67b2e35369107c4c04893c79e94dac"
 }

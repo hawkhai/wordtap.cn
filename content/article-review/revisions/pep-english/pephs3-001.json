@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "course": "pep-english",
   "articleId": "pephs3-001",
-  "beforeDisplaySha256": "1fa594c2bf6762163ce3a1a0ce22e002b7eaa75cc501d3c2e70f2937bfe6ed20",
+  "beforeDisplaySha256": "df58e5704551eb8736e2bcd035c84cbd689781402059f1299f6b9c806b013a87",
   "afterDisplaySha256": "df58e5704551eb8736e2bcd035c84cbd689781402059f1299f6b9c806b013a87",
   "baselineDisplay": {
     "title": "A Short History of Western Painting",
@@ -15,7 +15,7 @@
         "text": "What is Western art? It is hard to give a precise definition. As there have been so many different styles of Western art, it is impossible to describe them all in a short text. Perhaps the best way to understand Western art is to look at the development of Western painting over the centuries."
       },
       {
-        "type": "paragraph",
+        "type": "subheading",
         "lang": "en",
         "text": "The Middle Ages (from the 5th to the 15th century)"
       },
@@ -25,7 +25,7 @@
         "text": "During the Middle Ages, the purpose of Western art was to teach people about Christianity. Thus, artists were not interested in painting realistic scenes. Their works were often primitive and two-dimensional, and the main characters were often made much larger than everyone else to show their importance. This began to change in the 13th century with Giotto di Bondone (1267–1337). While his paintings still had religious themes, they showed real people in a real environment. In particular, his paintings are set apart from other paintings by their realistic human faces and deep emotional impact."
       },
       {
-        "type": "paragraph",
+        "type": "subheading",
         "lang": "en",
         "text": "The Renaissance (from the 14th to the 17th century)"
       },
@@ -45,7 +45,7 @@
         "text": "In subject matter, the emphasis increasingly shifted from religious themes to people and the world around us. Kings, nobles, and people of high rank wanted to purchase accurate pictures of themselves and the people they loved. Others wanted paintings showing important historical events or stories from mythology. Finally, most clients wanted paintings that were beautiful and interesting to look at."
       },
       {
-        "type": "paragraph",
+        "type": "subheading",
         "lang": "en",
         "text": "Impressionism (late 19th to early 20th century)"
       },
@@ -60,7 +60,7 @@
         "text": "While many Impressionists painted scenes of nature or daily life, others, such as Renoir (1841–1919), focused on people. Unlike the cold, black-and-white photographs of that time period, Renoir’s paintings are full of light, shadow, colour, and life. He sought to show not just the outer image of his subjects, but their inner warmth and humanity as well."
       },
       {
-        "type": "paragraph",
+        "type": "subheading",
         "lang": "en",
         "text": "Modern Art (from the 20th century to today)"
       },
@@ -140,30 +140,45 @@
   },
   "sources": [
     {
-      "path": "content/pep-english/raw/senior-selective-3.pdf",
-      "locator": "PDF第9-10页，标题与完整正文逐行核对",
+      "path": "content/article-review/history/a100d442eb0806d6568f317ddc95454457a3ee12d87c4ac2a63cc307b1fd6935.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
       "checked": true,
-      "sha256": "ed8eb9e5988b44a1ff4f8bc11ed3cfae406decefae7982477362720788e1998b"
-    },
-    {
-      "path": "content/pep-english/raw/senior-selective-3/senior-selective-3_9.jpg",
-      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
-      "checked": true,
-      "sha256": "f5570f5a73cacbbff3724e9accdada2404338634a65de9f234100827f891ea84"
-    },
-    {
-      "path": "content/pep-english/raw/senior-selective-3/senior-selective-3_10.jpg",
-      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
-      "checked": true,
-      "sha256": "9bdb3164efc2cbc62edb3034e015be6079fc8dea5188e18b81715c7cd0db8387"
+      "sha256": "a79c799c7a12a40f0ee294118ddc77194280ec05885868d675b9654cf5ed60be"
     }
   ],
   "corrections": [],
   "fullReadConfirmed": true,
   "recheckConfirmed": true,
   "reviewer": "Codex",
-  "reviewedAt": "2026-10-02T07:04:42+00:00",
-  "notes": "逐行核对PDF第9–10页完整艺术史正文，恢复中世纪、文艺复兴、印象派、现代艺术四个独立小标题的语义类型。原文艺术评价与概述保留，人物年代、画名及跨页衔接一致。",
+  "reviewedAt": "2026-10-07T07:35:48+00:00",
+  "notes": "西方绘画史的中世纪、文艺复兴、印象派、现代四标题清楚；文艺复兴透视油画题材分段完整，保留。",
   "issues": [],
-  "status": "passed_edited"
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "a905dcf5562d6bdc248d29cc03e47f39942707b389fe6934aa2b54b7343bf57b",
+    "afterFileSha256": "a905dcf5562d6bdc248d29cc03e47f39942707b389fe6934aa2b54b7343bf57b",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "a905dcf5562d6bdc248d29cc03e47f39942707b389fe6934aa2b54b7343bf57b",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..11] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "西方绘画史的中世纪、文艺复兴、印象派、现代四标题清楚；文艺复兴透视油画题材分段完整，保留。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/a100d442eb0806d6568f317ddc95454457a3ee12d87c4ac2a63cc307b1fd6935.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "a79c799c7a12a40f0ee294118ddc77194280ec05885868d675b9654cf5ed60be"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "a100d442eb0806d6568f317ddc95454457a3ee12d87c4ac2a63cc307b1fd6935"
 }

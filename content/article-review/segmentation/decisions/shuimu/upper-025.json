@@ -1,0 +1,273 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "b0a5964da21eb6500fbb9e240e09cc30d2f952dfbe38f8fc75180cc29ebe4c74",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title；全文 blocks[0..196] 与对应 text；现有正文/对话/题干逐块通读复核。",
+  "notes": "通读The Cutty Sark导入、词表、两组英汉帆船叙述、五条注释、21道理解问答、Ships of the past写作要求提纲与四段范文、12题答案。范文按独木舟、桨帆船、远洋帆船、蒸汽船四段复核；字数标注独立，原文大写或文字缺失不校改。",
+  "issues": [],
+  "mergeBlocks": [
+    {
+      "start": 19,
+      "end": 28,
+      "before": [
+        "One of the most famous sailing ships of the nineteenth century, the Cutty Sark, can",
+        "still be seen at Greenwich. She stands on dry land and is visited by thousands of",
+        "people each year. She serves as an impressive reminder of the great ships of the past.",
+        "Before they were replaced by steamships, sailing vessels like the Cutty Sark were",
+        "used to carry tea from China and wool from Australia. The Cutty Sark was one of the",
+        "fastest sailing ships that has ever been built. The only other ship to match her was the",
+        "Thermopylae. Both these ships set out from Shanghai on June 18th, 1872 on an",
+        "exciting race to England. This race, which went on for exactly four months, was the",
+        "last of its kind. It marked the end of the great tradition of ships with sails and the",
+        "beginning of a new era."
+      ],
+      "text": "One of the most famous sailing ships of the nineteenth century, the Cutty Sark, can still be seen at Greenwich. She stands on dry land and is visited by thousands of people each year. She serves as an impressive reminder of the great ships of the past. Before they were replaced by steamships, sailing vessels like the Cutty Sark were used to carry tea from China and wool from Australia. The Cutty Sark was one of the fastest sailing ships that has ever been built. The only other ship to match her was the Thermopylae. Both these ships set out from Shanghai on June 18th, 1872 on an exciting race to England. This race, which went on for exactly four months, was the last of its kind. It marked the end of the great tradition of ships with sails and the beginning of a new era.",
+      "reason": "Cutty Sark介绍与比赛经过对应的英汉自然段、语法说明及习题续行恢复，船史范文按四个发展阶段保留段落。"
+    },
+    {
+      "start": 29,
+      "end": 36,
+      "before": [
+        "人们在格林威治仍可看到 19 世纪最有名的帆船之一“卡蒂萨克”号。它停在陆地",
+        "上，每年接待成千上万的参观者。它给人们留下深刻的印象，使人们回忆起历史",
+        "上的巨型帆船。在蒸汽船取代帆船之前，“卡蒂萨克”号之类的帆船被用来从中国",
+        "运回茶叶，从澳大利亚运回羊毛。“卡蒂萨克”号是帆船制造史上建造的最快的一",
+        "艘帆船。唯一可以与之一比高低的是“塞姆皮雷”号帆船。两船于 1872 年 6 月 18",
+        "日同时从上海启航驶往英国，途中展开了一场激烈的比赛。这场比赛持续了整整",
+        "4 个月，是这类比赛中的最后一次，它标志着帆船伟大传统的结束与一个新纪元",
+        "的开始。"
+      ],
+      "text": "人们在格林威治仍可看到 19 世纪最有名的帆船之一“卡蒂萨克”号。它停在陆地上，每年接待成千上万的参观者。它给人们留下深刻的印象，使人们回忆起历史上的巨型帆船。在蒸汽船取代帆船之前，“卡蒂萨克”号之类的帆船被用来从中国运回茶叶，从澳大利亚运回羊毛。“卡蒂萨克”号是帆船制造史上建造的最快的一艘帆船。唯一可以与之一比高低的是“塞姆皮雷”号帆船。两船于 1872 年 6 月 18日同时从上海启航驶往英国，途中展开了一场激烈的比赛。这场比赛持续了整整4 个月，是这类比赛中的最后一次，它标志着帆船伟大传统的结束与一个新纪元的开始。",
+      "reason": "Cutty Sark介绍与比赛经过对应的英汉自然段、语法说明及习题续行恢复，船史范文按四个发展阶段保留段落。"
+    },
+    {
+      "start": 38,
+      "end": 39,
+      "before": [
+        "1 Cutty Sark ，“卡蒂萨克”号，19 世纪一艘著名的帆船。现在这艘船在伦敦格林",
+        "威治作为展品被保护了起来。在轮船时代以前，它是那时侯最快的帆船。"
+      ],
+      "text": "1 Cutty Sark ，“卡蒂萨克”号，19 世纪一艘著名的帆船。现在这艘船在伦敦格林威治作为展品被保护了起来。在轮船时代以前，它是那时侯最快的帆船。",
+      "reason": "Cutty Sark介绍与比赛经过对应的英汉自然段、语法说明及习题续行恢复，船史范文按四个发展阶段保留段落。"
+    },
+    {
+      "start": 41,
+      "end": 54,
+      "before": [
+        "The first of the two ships to reach Java after the race had begun was the Thermopylae,",
+        "but on the Indian Ocean, the Cutty Sark took the lead. It seemed certain that she",
+        "would be the first ship home, but during the race she had a lot of bad luck. In August,",
+        "she was struck by a very heavy storm during which her rudder was torn away. The",
+        "Cutty Sark rolled from side to side and it became impossible to steer her. A temporary",
+        "rudder was made on board from spare planks and it was fitted with great difficulty.",
+        "This greatly reduced the speed of the ship, for there was a danger that if she travelled",
+        "too quickly, this rudder would be torn away as well. Because of this, the Cutty Sark",
+        "lost her lead. After crossing the Equator, the captain called in at a port to have a new",
+        "rudder fitted, but by now the Thermopylae was over five hundred miles ahead.",
+        "Though the new rudder was fitted at tremendous speed, it was impossible for the",
+        "Cutty Sark to win. She arrived in England a week after the Thermopylae. Even this",
+        "was remarkable, considering that she had had so many delays. There is no doubt that",
+        "if she had not lost her rudder she would have won the race easily."
+      ],
+      "text": "The first of the two ships to reach Java after the race had begun was the Thermopylae, but on the Indian Ocean, the Cutty Sark took the lead. It seemed certain that she would be the first ship home, but during the race she had a lot of bad luck. In August, she was struck by a very heavy storm during which her rudder was torn away. The Cutty Sark rolled from side to side and it became impossible to steer her. A temporary rudder was made on board from spare planks and it was fitted with great difficulty. This greatly reduced the speed of the ship, for there was a danger that if she travelled too quickly, this rudder would be torn away as well. Because of this, the Cutty Sark lost her lead. After crossing the Equator, the captain called in at a port to have a new rudder fitted, but by now the Thermopylae was over five hundred miles ahead. Though the new rudder was fitted at tremendous speed, it was impossible for the Cutty Sark to win. She arrived in England a week after the Thermopylae. Even this was remarkable, considering that she had had so many delays. There is no doubt that if she had not lost her rudder she would have won the race easily.",
+      "reason": "Cutty Sark介绍与比赛经过对应的英汉自然段、语法说明及习题续行恢复，船史范文按四个发展阶段保留段落。"
+    },
+    {
+      "start": 55,
+      "end": 65,
+      "before": [
+        "比赛开始后，“赛姆皮雷”号率先抵达爪哇岛。但在印度洋上，“卡蒂萨克”号驶到",
+        "了前面。看来，它首先返抵英国是确信无疑的了，但它却在比赛中连遭厄运。8",
+        "月份“卡蒂萨克”号遭到了一场特大风暴的袭击，失去了一只舵。船身左右摇晃，",
+        "无法操纵。船员用备用的木板在船上赶制了一只应急用的舵，并克服重重困难将",
+        "舵安装就位。这样一来，大大降低了船的航速。因为船不能开得太快，否则就有",
+        "危险，应急舵也会被刮走。因为这个缘故，“卡蒂萨克”号落到了后面。跨越赤道",
+        "后，船长将船停靠在一个港口，在那儿换了一只舵。但此时，“塞姆皮雷”号早已",
+        "在 500 多英里之遥了。尽管换装新舵时分秒必争，但“卡蒂萨克”号已经不可能取",
+        "胜了，它抵达英国时比“塞姆皮雷”号晚了 1 个星期。但考虑到路上的多次耽搁，",
+        "这个成绩也已很不容易了。毫无疑问，如果中途没有失去舵，“卡蒂萨克”号肯定",
+        "能在比赛中轻松获胜。"
+      ],
+      "text": "比赛开始后，“赛姆皮雷”号率先抵达爪哇岛。但在印度洋上，“卡蒂萨克”号驶到了前面。看来，它首先返抵英国是确信无疑的了，但它却在比赛中连遭厄运。8月份“卡蒂萨克”号遭到了一场特大风暴的袭击，失去了一只舵。船身左右摇晃，无法操纵。船员用备用的木板在船上赶制了一只应急用的舵，并克服重重困难将舵安装就位。这样一来，大大降低了船的航速。因为船不能开得太快，否则就有危险，应急舵也会被刮走。因为这个缘故，“卡蒂萨克”号落到了后面。跨越赤道后，船长将船停靠在一个港口，在那儿换了一只舵。但此时，“塞姆皮雷”号早已在 500 多英里之遥了。尽管换装新舵时分秒必争，但“卡蒂萨克”号已经不可能取胜了，它抵达英国时比“塞姆皮雷”号晚了 1 个星期。但考虑到路上的多次耽搁，这个成绩也已很不容易了。毫无疑问，如果中途没有失去舵，“卡蒂萨克”号肯定能在比赛中轻松获胜。",
+      "reason": "Cutty Sark介绍与比赛经过对应的英汉自然段、语法说明及习题续行恢复，船史范文按四个发展阶段保留段落。"
+    },
+    {
+      "start": 67,
+      "end": 69,
+      "before": [
+        "3 The first of the two ships to reach Java…，两艘船中首先到达爪哇的…… 。不定",
+        "式短语 to reach Java 此处作定语，修饰 first，中间被另一个修饰 first 的介词短",
+        "语 of the two ships 所分开。"
+      ],
+      "text": "3 The first of the two ships to reach Java…，两艘船中首先到达爪哇的…… 。不定式短语 to reach Java 此处作定语，修饰 first，中间被另一个修饰 first 的介词短语 of the two ships 所分开。",
+      "reason": "Cutty Sark介绍与比赛经过对应的英汉自然段、语法说明及习题续行恢复，船史范文按四个发展阶段保留段落。"
+    },
+    {
+      "start": 71,
+      "end": 73,
+      "before": [
+        "5 There is no doubt that if she had not lost her rudder she would have won the race",
+        "easily. 毫无疑问，如果中途没有失去舵，“卡蒂萨克”号肯定能在比赛中轻易夺冠。",
+        "这是一个虚拟语气的句子，是对过去的一种假设。"
+      ],
+      "text": "5 There is no doubt that if she had not lost her rudder she would have won the race easily. 毫无疑问，如果中途没有失去舵，“卡蒂萨克”号肯定能在比赛中轻易夺冠。这是一个虚拟语气的句子，是对过去的一种假设。",
+      "reason": "Cutty Sark介绍与比赛经过对应的英汉自然段、语法说明及习题续行恢复，船史范文按四个发展阶段保留段落。"
+    },
+    {
+      "start": 81,
+      "end": 82,
+      "before": [
+        "5 What was special about the Cutty Sark? (She was one of the fastest sailing ships that",
+        "has ever been built.)"
+      ],
+      "text": "5 What was special about the Cutty Sark? (She was one of the fastest sailing ships that has ever been built.)",
+      "reason": "Cutty Sark介绍与比赛经过对应的英汉自然段、语法说明及习题续行恢复，船史范文按四个发展阶段保留段落。"
+    },
+    {
+      "start": 84,
+      "end": 85,
+      "before": [
+        "7 On June 18th, 1872, the two ships set out on a race. From where to where? (From",
+        "Shanghai to England.)"
+      ],
+      "text": "7 On June 18th, 1872, the two ships set out on a race. From where to where? (From Shanghai to England.)",
+      "reason": "Cutty Sark介绍与比赛经过对应的英汉自然段、语法说明及习题续行恢复，船史范文按四个发展阶段保留段落。"
+    },
+    {
+      "start": 91,
+      "end": 92,
+      "before": [
+        "13 What happened in August when she was struck by a heavy storm? (Her rudder was",
+        "torn away.)"
+      ],
+      "text": "13 What happened in August when she was struck by a heavy storm? (Her rudder was torn away.)",
+      "reason": "Cutty Sark介绍与比赛经过对应的英汉自然段、语法说明及习题续行恢复，船史范文按四个发展阶段保留段落。"
+    },
+    {
+      "start": 95,
+      "end": 96,
+      "before": [
+        "16 Why did she call in at a port after crossing the Equator? (To have a new rudder",
+        "fitted)"
+      ],
+      "text": "16 Why did she call in at a port after crossing the Equator? (To have a new rudder fitted)",
+      "reason": "Cutty Sark介绍与比赛经过对应的英汉自然段、语法说明及习题续行恢复，船史范文按四个发展阶段保留段落。"
+    },
+    {
+      "start": 101,
+      "end": 102,
+      "before": [
+        "21What would she have done if she had not lost her rudder? (She would have won the",
+        "race easily.)"
+      ],
+      "text": "21What would she have done if she had not lost her rudder? (She would have won the race easily.)",
+      "reason": "Cutty Sark介绍与比赛经过对应的英汉自然段、语法说明及习题续行恢复，船史范文按四个发展阶段保留段落。"
+    },
+    {
+      "start": 105,
+      "end": 106,
+      "before": [
+        "In not more than 250 words write a composition entitled ‘Ships of the past'. Expand",
+        "the ideas given below into a plan."
+      ],
+      "text": "In not more than 250 words write a composition entitled ‘Ships of the past'. Expand the ideas given below into a plan.",
+      "reason": "Cutty Sark介绍与比赛经过对应的英汉自然段、语法说明及习题续行恢复，船史范文按四个发展阶段保留段落。"
+    },
+    {
+      "start": 107,
+      "end": 109,
+      "before": [
+        "Ideas: Ancient ships —oars--galley slaves —Viking ships — Eric the Red —early",
+        "sailing ships — Columbus — galleons — the Spanish Armada — warships —",
+        "Nelson — the coming of steam — the Great Eastern."
+      ],
+      "text": "Ideas: Ancient ships —oars--galley slaves —Viking ships — Eric the Red —early sailing ships — Columbus — galleons — the Spanish Armada — warships — Nelson — the coming of steam — the Great Eastern.",
+      "reason": "Cutty Sark介绍与比赛经过对应的英汉自然段、语法说明及习题续行恢复，船史范文按四个发展阶段保留段落。"
+    },
+    {
+      "start": 112,
+      "end": 116,
+      "before": [
+        "Men have always wanted to cross water. Thousands of years ago, men made",
+        "simple dug-out canoes so that they could cross rivers or go out into lakes to fish. At",
+        "first, then,",
+        "man's earliest boats were small and simple and were powered and steered by paddles",
+        "or oars."
+      ],
+      "text": "Men have always wanted to cross water. Thousands of years ago, men made simple dug-out canoes so that they could cross rivers or go out into lakes to fish. At first, then, man's earliest boats were small and simple and were powered and steered by paddles or oars.",
+      "reason": "Cutty Sark介绍与比赛经过对应的英汉自然段、语法说明及习题续行恢复，船史范文按四个发展阶段保留段落。"
+    },
+    {
+      "start": 117,
+      "end": 121,
+      "before": [
+        "When men wanted to travel greater distances, across very large lakes or small",
+        "seas, for example, boats needed to be larger. We have all seen pictures of ancient",
+        "ships with rows of oars at each side and slaves to row them. In fact these galleys were",
+        "just a larger version of the single-man rowing boat, still made of wood and very much",
+        "the same design as very early boats."
+      ],
+      "text": "When men wanted to travel greater distances, across very large lakes or small seas, for example, boats needed to be larger. We have all seen pictures of ancient ships with rows of oars at each side and slaves to row them. In fact these galleys were just a larger version of the single-man rowing boat, still made of wood and very much the same design as very early boats.",
+      "reason": "Cutty Sark介绍与比赛经过对应的英汉自然段、语法说明及习题续行恢复，船史范文按四个发展阶段保留段落。"
+    },
+    {
+      "start": 122,
+      "end": 126,
+      "before": [
+        "Early ships might have been primitive, they might have been made of wood and",
+        "might have been powered through the water with Oars, but they managed to cross",
+        "oceans. The Viking ships that invaded Britain hundreds of years ago also reached",
+        "North America. Later sailing ships, like those that Columbus sailed in, the galleons",
+        "that formed the Spanish Armada or those that Nelson sailed in, were an advance."
+      ],
+      "text": "Early ships might have been primitive, they might have been made of wood and might have been powered through the water with Oars, but they managed to cross oceans. The Viking ships that invaded Britain hundreds of years ago also reached North America. Later sailing ships, like those that Columbus sailed in, the galleons that formed the Spanish Armada or those that Nelson sailed in, were an advance.",
+      "reason": "Cutty Sark介绍与比赛经过对应的英汉自然段、语法说明及习题续行恢复，船史范文按四个发展阶段保留段落。"
+    },
+    {
+      "start": 127,
+      "end": 131,
+      "before": [
+        "But perhaps the greatest development in the history of ships was when steam",
+        "engines replaced sails. For centuries, ships had depended on the wind to sail across",
+        "the seas and oceans. At last, with an engine to drive a propeller, seamen did not have",
+        "to rely totally on the weather. From then on, ships like the ‘Great Eastern’ could be",
+        "larger, safer and more manoeuvrable in the water."
+      ],
+      "text": "But perhaps the greatest development in the history of ships was when steam engines replaced sails. For centuries, ships had depended on the wind to sail across the seas and oceans. At last, with an engine to drive a propeller, seamen did not have to rely totally on the weather. From then on, ships like the ‘Great Eastern’ could be larger, safer and more manoeuvrable in the water.",
+      "reason": "Cutty Sark介绍与比赛经过对应的英汉自然段、语法说明及习题续行恢复，船史范文按四个发展阶段保留段落。"
+    },
+    {
+      "start": 139,
+      "end": 140,
+      "before": [
+        "2 The race which took place between the Cutty Sark and the Thermopylae was",
+        "_______."
+      ],
+      "text": "2 The race which took place between the Cutty Sark and the Thermopylae was _______.",
+      "reason": "Cutty Sark介绍与比赛经过对应的英汉自然段、语法说明及习题续行恢复，船史范文按四个发展阶段保留段落。"
+    },
+    {
+      "start": 180,
+      "end": 181,
+      "before": [
+        "10 On June 18th, 1872 both these ships ________ an exciting race from Shanghai to",
+        "England."
+      ],
+      "text": "10 On June 18th, 1872 both these ships ________ an exciting race from Shanghai to England.",
+      "reason": "Cutty Sark介绍与比赛经过对应的英汉自然段、语法说明及习题续行恢复，船史范文按四个发展阶段保留段落。"
+    }
+  ],
+  "splitBlocks": [],
+  "blockEdits": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/f712716b5b3d60ede06882ef86bc2497aab907d731abeca62706398ba0778934.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "6765d264a9faa171a4cd78fdba893a6c00ec4b63d4383ad750fc0489af65f71e"
+    }
+  ]
+}

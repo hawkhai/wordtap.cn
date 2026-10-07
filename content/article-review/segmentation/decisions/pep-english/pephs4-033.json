@@ -1,0 +1,22 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "69c18a1f8e3fff629a8aaf0e826a667cb9fd1e39beb626b8107f81f5e4fda59a",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title；全文 blocks[0..0] 与对应 text；现有正文/对话/题干逐块通读复核。",
+  "notes": "浅水鲨袭三句新闻为完整事件与伤势单元，保留单段。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "blockEdits": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/4b4f9099d80e05d71d5bb349c15214c083296479e68f20d58069794c4c05057b.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "b01e0ecc48a2f9fa16758276a443cfd272e18412106ec021cff8469e26339529"
+    }
+  ]
+}

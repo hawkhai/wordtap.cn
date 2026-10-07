@@ -1,0 +1,21 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "70955af3763688daf8eb9e5e8ce5151f568a3c253b3ed93d7f79351c39c19bc4",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title；全文 blocks[0..3] 与对应 text；现有正文/对话/题干逐块通读复核。",
+  "notes": "Sarek游记四段按晨起景观、公园历史、Sami传统和早餐、启程感受展开，保留叙述内多句。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/7e05bb2cdef0372d017390047018adb29264869421ed5e1c6e58ff4bb3b057d0.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "fcb5167bcad7b81ca862dacbbd349eee7c162a3b47d1d206ff51718053f6a10f"
+    }
+  ]
+}

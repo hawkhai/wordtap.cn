@@ -2,18 +2,13 @@
   "schemaVersion": 1,
   "course": "pep-english",
   "articleId": "pephs1-004",
-  "beforeDisplaySha256": "b3950c7f4a7f96b01e31a36805281520ecfb8f55bf2526858aa943ffd12f5b12",
+  "beforeDisplaySha256": "2d52a5a7c15d67b0d8e1ace07b6f7e559ab32babcbeee55b70cc64e513aa66b5",
   "afterDisplaySha256": "2d52a5a7c15d67b0d8e1ace07b6f7e559ab32babcbeee55b70cc64e513aa66b5",
   "baselineDisplay": {
     "title": "The Story of My Life",
     "section": "Project",
-    "text": "by Helen Keller, 1903\nEven though Keller wrote this autobiography when she was only 22 years old, it is considered a great book in American literature. It tells about her dark and silent childhood, and how her teacher, Anne Sullivan, opened up a new world to her by teaching her how to communicate.",
+    "text": "Even though Keller wrote this autobiography when she was only 22 years old, it is considered a great book in American literature. It tells about her dark and silent childhood, and how her teacher, Anne Sullivan, opened up a new world to her by teaching her how to communicate.",
     "blocks": [
-      {
-        "type": "paragraph",
-        "lang": "en",
-        "text": "by Helen Keller, 1903"
-      },
       {
         "type": "paragraph",
         "lang": "en",
@@ -35,44 +30,45 @@
   },
   "sources": [
     {
-      "path": "content/pep-english/raw/senior-selective-1.pdf",
-      "locator": "PDF第18-18页，标题与完整正文逐行核对",
+      "path": "content/article-review/history/f65a63833f9a69c52a5631a1d1b4aa4f5e4132aec41385b77c5b615f5d662f83.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
       "checked": true,
-      "sha256": "94ec493439239c436326e228e3d3ad78c7053ac5abc005db5739119f6a98c33d"
-    },
-    {
-      "path": "content/pep-english/raw/senior-selective-1/senior-selective-1_18.jpg",
-      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
-      "checked": true,
-      "sha256": "0e9a8376b840cd6b3091fd54772aec3159e60b6ead2df06d720c73989123d8c0"
-    },
-    {
-      "path": "content/article-review/cleanup-2026-10-06.json",
-      "sha256": "cea27c1c69e32939ff83196bd29cce9a128d8d0d6f248611217179e037971889",
-      "locator": "public/pep-english/lessons/pephs1/004.json",
-      "checked": true
+      "sha256": "3f2c39c6bc45e3bf9c141e760bb86d43349708c392b34c08dee61920ec3904bc"
     }
   ],
-  "corrections": [
-    {
-      "field": "text",
-      "before": "by Helen Keller, 1903\nEven though Keller wrote this autobiography when she was only 22 years old, it is considered a great book in American literature. It tells about her dark and silent childhood, and how her teacher, Anne Sullivan, opened up a new world to her by teaching her how to communicate.",
-      "after": "Even though Keller wrote this autobiography when she was only 22 years old, it is considered a great book in American literature. It tells about her dark and silent childhood, and how her teacher, Anne Sullivan, opened up a new world to her by teaching her how to communicate.",
-      "evidence": "User-directed source-fidelity restoration; content/article-review/cleanup-2026-10-06.json"
-    }
-  ],
-  "fullReadConfirmed": false,
-  "recheckConfirmed": false,
-  "reviewMode": "source-fidelity-rules-v1",
-  "reviewer": "Codex (user-directed restoration)",
-  "reviewedAt": "2026-10-05T17:15:10+00:00",
-  "notes": "Rule-based restoration; original full-read review remains historical. content/article-review/cleanup-2026-10-06.json",
+  "corrections": [],
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "reviewer": "Codex",
+  "reviewedAt": "2026-10-07T07:32:23+00:00",
+  "notes": "海伦凯勒自传简介两句构成完整推荐单元，保留。",
   "issues": [],
-  "status": "passed_edited",
-  "previousRevisionSha256": "6092f5a7b841399ea44dcea3628c38706793dbe539ee34c7046b9222c8af74da",
-  "ruleRestoration": {
-    "policy": "source-fidelity-rules-v1",
-    "report": "content/article-review/cleanup-2026-10-06.json",
-    "reportSha256": "cea27c1c69e32939ff83196bd29cce9a128d8d0d6f248611217179e037971889"
-  }
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "65edf9796c2c848b3024c2d2e43ba5cd2f0552df6aac945269e9c6a753aa3efd",
+    "afterFileSha256": "65edf9796c2c848b3024c2d2e43ba5cd2f0552df6aac945269e9c6a753aa3efd",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "65edf9796c2c848b3024c2d2e43ba5cd2f0552df6aac945269e9c6a753aa3efd",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..0] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "海伦凯勒自传简介两句构成完整推荐单元，保留。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/f65a63833f9a69c52a5631a1d1b4aa4f5e4132aec41385b77c5b615f5d662f83.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "3f2c39c6bc45e3bf9c141e760bb86d43349708c392b34c08dee61920ec3904bc"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "f65a63833f9a69c52a5631a1d1b4aa4f5e4132aec41385b77c5b615f5d662f83"
 }

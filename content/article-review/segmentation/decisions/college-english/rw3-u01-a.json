@@ -1,0 +1,21 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "7bf5231044fd7f0165884d8ef19a39338859a17b33ad91fd66d4432f0f4872d7",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "完整 title、blocks[0..11]及完全相同的text；正文及内嵌中文、引语、对话和列举均已逐项通读；无改动输出按全文再次复核。",
+  "notes": "全文及未改动输出复核：家庭离线日、在线孤岛、律师办公室、连接幻觉、碎片与交谈、耐心、自省、家庭职场建议、回归对话十二段逻辑完整。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/75ef26ed578512834c52faa063281250fbb386c6155340f05d7f745034374138.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "de542cb2b1e4db481dab592193b89119e5293e5d6db4d402e0fd54869518daaa"
+    }
+  ]
+}

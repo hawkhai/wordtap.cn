@@ -1,0 +1,291 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "570a619faf689183fb23407e7e3ecc18c422e7b647d9828ff9a14f18839bac65",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title；全文 blocks[0..207] 与对应 text；现有正文/对话/题干逐块通读复核。",
+  "notes": "完整通读A chance in a million词表、三组英汉正文、十条注释、20问答、The past四段范文及12道选择题答案。保留小说巧合对比、偶遇疑似兄弟、战后失散解释三段；范文寻找/漂泊/成家就业/重聚计划四段。",
+  "issues": [],
+  "mergeBlocks": [
+    {
+      "start": 22,
+      "end": 29,
+      "before": [
+        "We are less credulous than we used to be. In the nineteenth century, a novelist would",
+        "bring his story to a conclusion by presenting his readers with a series of coincidences",
+        "— most of them wildly improbable. Readers happily accepted the fact that an",
+        "obscure maidservant was really the hero's mother. A long-lost brother, who was",
+        "presumed dead, was really alive all the time and wickedly plotting to bring about the",
+        "hero's downfall. And so on. Modern readers would find such naive solutions totally",
+        "unacceptable. Yet, in real life, circumstances do sometimes conspire to bring about",
+        "coincidences which anyone but a nineteenth century novelist would find incredible."
+      ],
+      "text": "We are less credulous than we used to be. In the nineteenth century, a novelist would bring his story to a conclusion by presenting his readers with a series of coincidences — most of them wildly improbable. Readers happily accepted the fact that an obscure maidservant was really the hero's mother. A long-lost brother, who was presumed dead, was really alive all the time and wickedly plotting to bring about the hero's downfall. And so on. Modern readers would find such naive solutions totally unacceptable. Yet, in real life, circumstances do sometimes conspire to bring about coincidences which anyone but a nineteenth century novelist would find incredible.",
+      "reason": "完整故事和译文按对应自然段恢复，注释、问答及题干跨行续接；范文各阶段段落独立保留。"
+    },
+    {
+      "start": 30,
+      "end": 35,
+      "before": [
+        "我们不再像以往那样轻易相信别人了。在 19 世纪，小说家常在小说结尾处给读",
+        "者准备一系列巧合——大部分是牵强附会，极不可能的。当时的读者却愉快地接",
+        "受这样一些事实：一个低贱的女佣实际上是主人公的母亲；主人公一位长期失散",
+        "的兄弟，大家都以为死了，实际上一直活着，并且正在策划暗算主人公；如此等",
+        "等。现代读者会觉得这种天真的结局完全无法接受。不过，在现实生活中，有时",
+        "确实会出现一些巧合。这些巧合除了 19 世纪小说家外谁也不会相信。"
+      ],
+      "text": "我们不再像以往那样轻易相信别人了。在 19 世纪，小说家常在小说结尾处给读者准备一系列巧合——大部分是牵强附会，极不可能的。当时的读者却愉快地接受这样一些事实：一个低贱的女佣实际上是主人公的母亲；主人公一位长期失散的兄弟，大家都以为死了，实际上一直活着，并且正在策划暗算主人公；如此等等。现代读者会觉得这种天真的结局完全无法接受。不过，在现实生活中，有时确实会出现一些巧合。这些巧合除了 19 世纪小说家外谁也不会相信。",
+      "reason": "完整故事和译文按对应自然段恢复，注释、问答及题干跨行续接；范文各阶段段落独立保留。"
+    },
+    {
+      "start": 41,
+      "end": 49,
+      "before": [
+        "When I was a boy, my grandfather told me how a German taxi driver, Franz Bussman,",
+        "found a brother who was thought to have been killed twenty years before. While on a",
+        "walking tour with his wife, he stopped to talk to a workman. After they had gone on,",
+        "Mrs. Bussman commented on the workman's close resemblance to her husband and",
+        "even suggested that he might be his brother. Franz poured scorn on the idea, pointing",
+        "out that his brother had been killed in action during the war. Though Mrs. Bussman",
+        "was fully acquainted with this story, she thought that there was a chance in a million",
+        "that she might be right. A few days later, she sent a boy to the workman to ask him if",
+        "his name was Hans Bussman."
+      ],
+      "text": "When I was a boy, my grandfather told me how a German taxi driver, Franz Bussman, found a brother who was thought to have been killed twenty years before. While on a walking tour with his wife, he stopped to talk to a workman. After they had gone on, Mrs. Bussman commented on the workman's close resemblance to her husband and even suggested that he might be his brother. Franz poured scorn on the idea, pointing out that his brother had been killed in action during the war. Though Mrs. Bussman was fully acquainted with this story, she thought that there was a chance in a million that she might be right. A few days later, she sent a boy to the workman to ask him if his name was Hans Bussman.",
+      "reason": "完整故事和译文按对应自然段恢复，注释、问答及题干跨行续接；范文各阶段段落独立保留。"
+    },
+    {
+      "start": 50,
+      "end": 56,
+      "before": [
+        "当我是个孩子的时候，我祖父给我讲了一位德国出租汽车司机弗朗兹 · 巴斯曼如",
+        "何找到了据信已在 20 年前死去的兄弟的事。一次，他与妻子徒步旅行。途中，",
+        "停下来与一个工人交谈，接着他们继续往前走去。巴斯曼夫人说那工人与她丈夫",
+        "相貌很像，甚至猜测他可能就是她丈夫的兄弟。弗朗兹对此不屑一顾，指出他兄",
+        "弟已经在战争中阵亡了。尽管巴斯曼夫人熟知这个情况，但她仍然认为自己的想",
+        "法仍有百万分之一的可能性。几天后，她派了一个男孩去问那人是否叫汉斯· 巴",
+        "斯曼。"
+      ],
+      "text": "当我是个孩子的时候，我祖父给我讲了一位德国出租汽车司机弗朗兹 · 巴斯曼如何找到了据信已在 20 年前死去的兄弟的事。一次，他与妻子徒步旅行。途中，停下来与一个工人交谈，接着他们继续往前走去。巴斯曼夫人说那工人与她丈夫相貌很像，甚至猜测他可能就是她丈夫的兄弟。弗朗兹对此不屑一顾，指出他兄弟已经在战争中阵亡了。尽管巴斯曼夫人熟知这个情况，但她仍然认为自己的想法仍有百万分之一的可能性。几天后，她派了一个男孩去问那人是否叫汉斯· 巴斯曼。",
+      "reason": "完整故事和译文按对应自然段恢复，注释、问答及题干跨行续接；范文各阶段段落独立保留。"
+    },
+    {
+      "start": 57,
+      "end": 59,
+      "before": [
+        "5 while on a walking tour…,while 后面省略了主谓结构 he was。在表示时间、地点、",
+        "条件、让步等的状语从句中，从句的主语如与主句的主语相同，常省略从句的主",
+        "语和谓语。"
+      ],
+      "text": "5 while on a walking tour…,while 后面省略了主谓结构 he was。在表示时间、地点、条件、让步等的状语从句中，从句的主语如与主句的主语相同，常省略从句的主语和谓语。",
+      "reason": "完整故事和译文按对应自然段恢复，注释、问答及题干跨行续接；范文各阶段段落独立保留。"
+    },
+    {
+      "start": 63,
+      "end": 71,
+      "before": [
+        "Needless to say, the man's name was Hans Bussman and he really was Franz's",
+        "long-lost brother. When the brothers were reunited, Hans explained how it was that he",
+        "was still alive. After having been wounded towards the end of the war, he had been",
+        "sent to hospital and was separated from his unit. The hospital had been bombed and",
+        "Hans had made his way back into Western Germany on foot. Meanwhile, his unit was",
+        "lost and all records of him had been destroyed. Hans returned to his family home, but",
+        "the house had been bombed and no one in the neighbourhood knew what had become",
+        "of the inhabitants. Assuming that his family had been killed during an air raid, Hans",
+        "settled down in a village fifty miles away where he had remained ever since."
+      ],
+      "text": "Needless to say, the man's name was Hans Bussman and he really was Franz's long-lost brother. When the brothers were reunited, Hans explained how it was that he was still alive. After having been wounded towards the end of the war, he had been sent to hospital and was separated from his unit. The hospital had been bombed and Hans had made his way back into Western Germany on foot. Meanwhile, his unit was lost and all records of him had been destroyed. Hans returned to his family home, but the house had been bombed and no one in the neighbourhood knew what had become of the inhabitants. Assuming that his family had been killed during an air raid, Hans settled down in a village fifty miles away where he had remained ever since.",
+      "reason": "完整故事和译文按对应自然段恢复，注释、问答及题干跨行续接；范文各阶段段落独立保留。"
+    },
+    {
+      "start": 72,
+      "end": 77,
+      "before": [
+        "不出巴斯曼夫人所料，那人的名字真是汉斯· 巴斯曼，他确实是弗朗兹失散了多",
+        "年的兄弟。兄弟俩团聚之时，汉斯说明了他活下来的经过。战争即将结束时，他",
+        "负伤被送进医院，并与部队失去联系。医院遭到轰炸，汉斯步行回到了西德。与",
+        "此同时，他所在的部队被击溃，他的所有档案材料全部毁于战火。汉斯重返故里，",
+        "但他的家已被炸毁，左邻右舍谁也不知原住户的下落。汉斯以为全家人都在空袭",
+        "中遇难，于是便在距此 50 英里外的一座村子里定居下来，直至当日。"
+      ],
+      "text": "不出巴斯曼夫人所料，那人的名字真是汉斯· 巴斯曼，他确实是弗朗兹失散了多年的兄弟。兄弟俩团聚之时，汉斯说明了他活下来的经过。战争即将结束时，他负伤被送进医院，并与部队失去联系。医院遭到轰炸，汉斯步行回到了西德。与此同时，他所在的部队被击溃，他的所有档案材料全部毁于战火。汉斯重返故里，但他的家已被炸毁，左邻右舍谁也不知原住户的下落。汉斯以为全家人都在空袭中遇难，于是便在距此 50 英里外的一座村子里定居下来，直至当日。",
+      "reason": "完整故事和译文按对应自然段恢复，注释、问答及题干跨行续接；范文各阶段段落独立保留。"
+    },
+    {
+      "start": 84,
+      "end": 85,
+      "before": [
+        "2 When did novelists often end their stories with a series of coincidences? (In the",
+        "nineteenth century.)"
+      ],
+      "text": "2 When did novelists often end their stories with a series of coincidences? (In the nineteenth century.)",
+      "reason": "完整故事和译文按对应自然段恢复，注释、问答及题干跨行续接；范文各阶段段落独立保留。"
+    },
+    {
+      "start": 92,
+      "end": 93,
+      "before": [
+        "9 What was Franz doing when he stopped to talk to a workman? (He was on a",
+        "walking tour with his wife)"
+      ],
+      "text": "9 What was Franz doing when he stopped to talk to a workman? (He was on a walking tour with his wife)",
+      "reason": "完整故事和译文按对应自然段恢复，注释、问答及题干跨行续接；范文各阶段段落独立保留。"
+    },
+    {
+      "start": 94,
+      "end": 95,
+      "before": [
+        "10 What did Mrs. Bussman comment on? (The workman's close resemblance to her",
+        "husband.)"
+      ],
+      "text": "10 What did Mrs. Bussman comment on? (The workman's close resemblance to her husband.)",
+      "reason": "完整故事和译文按对应自然段恢复，注释、问答及题干跨行续接；范文各阶段段落独立保留。"
+    },
+    {
+      "start": 98,
+      "end": 99,
+      "before": [
+        "13 Nevertheless, Mrs. Bussman thought she might be right. What did she think the",
+        "chances were? (A chance in a million.)"
+      ],
+      "text": "13 Nevertheless, Mrs. Bussman thought she might be right. What did she think the chances were? (A chance in a million.)",
+      "reason": "完整故事和译文按对应自然段恢复，注释、问答及题干跨行续接；范文各阶段段落独立保留。"
+    },
+    {
+      "start": 101,
+      "end": 102,
+      "before": [
+        "15 What was the workman's name, and who was he? (Hans Bussman, Franz's",
+        "long-lost brother.)"
+      ],
+      "text": "15 What was the workman's name, and who was he? (Hans Bussman, Franz's long-lost brother.)",
+      "reason": "完整故事和译文按对应自然段恢复，注释、问答及题干跨行续接；范文各阶段段落独立保留。"
+    },
+    {
+      "start": 106,
+      "end": 107,
+      "before": [
+        "19 When he got back home, were there any of his family in the neighbourhood? (No,",
+        "there weren't.)"
+      ],
+      "text": "19 When he got back home, were there any of his family in the neighbourhood? (No, there weren't.)",
+      "reason": "完整故事和译文按对应自然段恢复，注释、问答及题干跨行续接；范文各阶段段落独立保留。"
+    },
+    {
+      "start": 108,
+      "end": 109,
+      "before": [
+        "20 What did Hans assume about his family? (He assumed they had been killed in an",
+        "air raid.)"
+      ],
+      "text": "20 What did Hans assume about his family? (He assumed they had been killed in an air raid.)",
+      "reason": "完整故事和译文按对应自然段恢复，注释、问答及题干跨行续接；范文各阶段段落独立保留。"
+    },
+    {
+      "start": 112,
+      "end": 114,
+      "before": [
+        "In not more than 250 words write an imaginary account of Franz Bussman’s life story",
+        "up to the time he was reunited with his brother. Use the ideas given below. Do not",
+        "write more than four paragraphs."
+      ],
+      "text": "In not more than 250 words write an imaginary account of Franz Bussman’s life story up to the time he was reunited with his brother. Use the ideas given below. Do not write more than four paragraphs.",
+      "reason": "完整故事和译文按对应自然段恢复，注释、问答及题干跨行续接；范文各阶段段落独立保留。"
+    },
+    {
+      "start": 117,
+      "end": 121,
+      "before": [
+        "Development: Found it hard to settle down ---moved from place to place and from",
+        "job--- how he met Mrs. Bussman---marriage---settled down at last--- became a",
+        "cook---disliked the work ---went into partnership with a friend---became a taxi",
+        "driver---once visited hometown---block of flats where his house used to be---no one",
+        "remembered him."
+      ],
+      "text": "Development: Found it hard to settle down ---moved from place to place and from job--- how he met Mrs. Bussman---marriage---settled down at last--- became a cook---disliked the work ---went into partnership with a friend---became a taxi driver---once visited hometown---block of flats where his house used to be---no one remembered him.",
+      "reason": "完整故事和译文按对应自然段恢复，注释、问答及题干跨行续接；范文各阶段段落独立保留。"
+    },
+    {
+      "start": 126,
+      "end": 128,
+      "before": [
+        "When the war finished, Franz Bussman did everything he could to get",
+        "information about his brother Hans. With no information, he reluctantly assumed his",
+        "brother was dead, and gave up the search."
+      ],
+      "text": "When the war finished, Franz Bussman did everything he could to get information about his brother Hans. With no information, he reluctantly assumed his brother was dead, and gave up the search.",
+      "reason": "完整故事和译文按对应自然段恢复，注释、问答及题干跨行续接；范文各阶段段落独立保留。"
+    },
+    {
+      "start": 129,
+      "end": 131,
+      "before": [
+        "With no family, and having been unable to find his brother, Franz found it",
+        "difficult to settle down. Over the years he moved from place to place and from job to",
+        "job, never staying very long in one place."
+      ],
+      "text": "With no family, and having been unable to find his brother, Franz found it difficult to settle down. Over the years he moved from place to place and from job to job, never staying very long in one place.",
+      "reason": "完整故事和译文按对应自然段恢复，注释、问答及题干跨行续接；范文各阶段段落独立保留。"
+    },
+    {
+      "start": 132,
+      "end": 138,
+      "before": [
+        "When he met Anna (now Mrs. Bussman), he was working as a waiter in a hotel.",
+        "He and Anna got married and Franz settled down at last. He moved from the dinning",
+        "room into the kitchen of the hotel and became a cook. But this did not last very long.",
+        "He was talking to a friend one day, a taxi driver, who suggested that they should go",
+        "into partnership. So they did, and Franz became a taxi driver. He and the friend drove",
+        "taxis",
+        "themselves, but they also soon owned four more taxis and employed four drivers."
+      ],
+      "text": "When he met Anna (now Mrs. Bussman), he was working as a waiter in a hotel. He and Anna got married and Franz settled down at last. He moved from the dinning room into the kitchen of the hotel and became a cook. But this did not last very long. He was talking to a friend one day, a taxi driver, who suggested that they should go into partnership. So they did, and Franz became a taxi driver. He and the friend drove taxis themselves, but they also soon owned four more taxis and employed four drivers.",
+      "reason": "完整故事和译文按对应自然段恢复，注释、问答及题干跨行续接；范文各阶段段落独立保留。"
+    },
+    {
+      "start": 139,
+      "end": 143,
+      "before": [
+        "He visited his hometown once to visit his old house, but it was a sad visit. There",
+        "was a large modem block of flats where his family house used to be. And although he",
+        "spoke to some of the apartment owners, no one remembered him or his family. Now",
+        "that he has finally found his brother Hans, he and Anna are planning to invite Hans to",
+        "come and live near them and work as a taxi driver in the company."
+      ],
+      "text": "He visited his hometown once to visit his old house, but it was a sad visit. There was a large modem block of flats where his family house used to be. And although he spoke to some of the apartment owners, no one remembered him or his family. Now that he has finally found his brother Hans, he and Anna are planning to invite Hans to come and live near them and work as a taxi driver in the company.",
+      "reason": "完整故事和译文按对应自然段恢复，注释、问答及题干跨行续接；范文各阶段段落独立保留。"
+    },
+    {
+      "start": 150,
+      "end": 151,
+      "before": [
+        "2 When Mrs. Bussman suggested that the workman might be Franz's",
+        "brother."
+      ],
+      "text": "2 When Mrs. Bussman suggested that the workman might be Franz's brother.",
+      "reason": "完整故事和译文按对应自然段恢复，注释、问答及题干跨行续接；范文各阶段段落独立保留。"
+    },
+    {
+      "start": 166,
+      "end": 167,
+      "before": [
+        "5 A long-lost brother had not in fact died and ________ to bring about the hero's",
+        "downfall."
+      ],
+      "text": "5 A long-lost brother had not in fact died and ________ to bring about the hero's downfall.",
+      "reason": "完整故事和译文按对应自然段恢复，注释、问答及题干跨行续接；范文各阶段段落独立保留。"
+    }
+  ],
+  "splitBlocks": [],
+  "blockEdits": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/e546081c929c43b24b261fb52b11365069258d378a2713f11fb37cf37445e7f1.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "b26ab8f926910546199524d9068856df13b91ed1124b4ef841afc23679497e82"
+    }
+  ]
+}

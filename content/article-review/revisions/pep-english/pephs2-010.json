@@ -90,30 +90,45 @@
   },
   "sources": [
     {
-      "path": "content/pep-english/raw/senior-selective-2.pdf",
-      "locator": "PDF第33-34页，标题与完整正文逐行核对",
+      "path": "content/article-review/history/89c73783aafee1026f33a77245a6ab5cf94124fa7e7caa27482feb88a2c18452.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
       "checked": true,
-      "sha256": "cafaee5fe508dfced31ba02877251ffeb01e98b1a48767fe30b2b7187edb0050"
-    },
-    {
-      "path": "content/pep-english/raw/senior-selective-2/senior-selective-2_33.jpg",
-      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
-      "checked": true,
-      "sha256": "28a48cc50589794546ddb4cddbb3479633b23be1ee8df213ec1fb1b8e444ee46"
-    },
-    {
-      "path": "content/pep-english/raw/senior-selective-2/senior-selective-2_34.jpg",
-      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
-      "checked": true,
-      "sha256": "9f9b262c71263ecc1567f2d0ef0c9c7bacf031048b899a2492c248ce695d9460"
+      "sha256": "47e87a093db9635bb62bd359f5f3c04794c2d80b17e5976f4934ab4550ef5f6a"
     }
   ],
   "corrections": [],
   "fullReadConfirmed": true,
   "recheckConfirmed": true,
   "reviewer": "Codex",
-  "reviewedAt": "2026-10-02T06:37:15+00:00",
-  "notes": "逐行核对PDF33—34页七段饮食文化游记，法国作者引语、美国至北京山东新疆广东河南的行程、菜名及跨页段落完整。饮食与性格联系是作者探讨并以Maybe/Maybe not限定，保留其叙述，无修改。",
+  "reviewedAt": "2026-10-07T07:32:30+00:00",
+  "notes": "饮食文化七段随美国、北京、山东、新疆、南方中原行程展开并总结，文化分析与食物例证各段连贯。",
   "issues": [],
-  "status": "passed_unchanged"
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "41a3849ba60c0d086fc5e1c6aa704efa90de07e8ba368bfe7d5b1ef1aae14406",
+    "afterFileSha256": "41a3849ba60c0d086fc5e1c6aa704efa90de07e8ba368bfe7d5b1ef1aae14406",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "41a3849ba60c0d086fc5e1c6aa704efa90de07e8ba368bfe7d5b1ef1aae14406",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..6] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "饮食文化七段随美国、北京、山东、新疆、南方中原行程展开并总结，文化分析与食物例证各段连贯。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/89c73783aafee1026f33a77245a6ab5cf94124fa7e7caa27482feb88a2c18452.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "47e87a093db9635bb62bd359f5f3c04794c2d80b17e5976f4934ab4550ef5f6a"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "89c73783aafee1026f33a77245a6ab5cf94124fa7e7caa27482feb88a2c18452"
 }

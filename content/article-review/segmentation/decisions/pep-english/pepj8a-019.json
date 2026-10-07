@@ -1,0 +1,22 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "85c1e88109ece4e7a572b905e6a3d3dc0b5881c7bb1d8f439d59907a2c894f8e",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title；全文 blocks[0..5] 与对应 text；现有正文/对话/题干逐块通读复核。",
+  "notes": "俄式汤六轮Anna/Sam对话已分块，材料采购和烹饪多句步骤属于Sam整轮，保留。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "blockEdits": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/fe8b25aea45f38630fff6ded31bd4f72bb000301ef8a2755083db6e1414806c3.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "2e396f259df0a96bff5cc849bd047b2e28e52655cf33e1bd61ee5199dd547dc2"
+    }
+  ]
+}

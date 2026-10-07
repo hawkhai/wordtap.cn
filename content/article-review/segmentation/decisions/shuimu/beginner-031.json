@@ -1,0 +1,378 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "3cb41b6acee4fc7c9cae858c92a908226588298e5e51f823cbb76a5d39a8120a",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "coverage": "全文 blocks[0..131]；按 JSON 上下文逐项复核对话、解释、题目、表格、词表及修复后的边界。",
+  "notes": "午餐邀请与度假对话二十一组英中拆块，段内多句保留；holiday 定义中的两条完整说明保留列表内换行，现在完成时例句和词表完整。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [
+    {
+      "index": 3,
+      "before": [
+        "——Hello, John. Come in.\n你好，约翰。快进来。"
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "——Hello, John. Come in."
+        },
+        {
+          "type": "paragraph",
+          "text": "你好，约翰。快进来。"
+        }
+      ],
+      "reason": "现有换行明确区分英文与对应中文，各自成块，保留原文顺序和对话轮次。"
+    },
+    {
+      "index": 4,
+      "before": [
+        "We're having lunch.\n我们正在吃午饭。"
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "We're having lunch."
+        },
+        {
+          "type": "paragraph",
+          "text": "我们正在吃午饭。"
+        }
+      ],
+      "reason": "现有换行明确区分英文与对应中文，各自成块，保留原文顺序和对话轮次。"
+    },
+    {
+      "index": 5,
+      "before": [
+        "Do you want to have lunch with us?\n你要不要和我们共进午餐？"
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Do you want to have lunch with us?"
+        },
+        {
+          "type": "paragraph",
+          "text": "你要不要和我们共进午餐？"
+        }
+      ],
+      "reason": "现有换行明确区分英文与对应中文，各自成块，保留原文顺序和对话轮次。"
+    },
+    {
+      "index": 6,
+      "before": [
+        "——No, thank you, Tom.\n不用了，谢谢，汤姆。"
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "——No, thank you, Tom."
+        },
+        {
+          "type": "paragraph",
+          "text": "不用了，谢谢，汤姆。"
+        }
+      ],
+      "reason": "现有换行明确区分英文与对应中文，各自成块，保留原文顺序和对话轮次。"
+    },
+    {
+      "index": 7,
+      "before": [
+        "I've already had lunch.\n我已经吃过午饭了。"
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "I've already had lunch."
+        },
+        {
+          "type": "paragraph",
+          "text": "我已经吃过午饭了。"
+        }
+      ],
+      "reason": "现有换行明确区分英文与对应中文，各自成块，保留原文顺序和对话轮次。"
+    },
+    {
+      "index": 8,
+      "before": [
+        "I had lunch at half past twelve.\n我十二点半就吃了午饭。"
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "I had lunch at half past twelve."
+        },
+        {
+          "type": "paragraph",
+          "text": "我十二点半就吃了午饭。"
+        }
+      ],
+      "reason": "现有换行明确区分英文与对应中文，各自成块，保留原文顺序和对话轮次。"
+    },
+    {
+      "index": 9,
+      "before": [
+        "——Have a cup of coffee then.\n那就喝杯咖啡吧。"
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "——Have a cup of coffee then."
+        },
+        {
+          "type": "paragraph",
+          "text": "那就喝杯咖啡吧。"
+        }
+      ],
+      "reason": "现有换行明确区分英文与对应中文，各自成块，保留原文顺序和对话轮次。"
+    },
+    {
+      "index": 10,
+      "before": [
+        "——I've just had a cup, thank you.\n我已经喝过了，谢谢。"
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "——I've just had a cup, thank you."
+        },
+        {
+          "type": "paragraph",
+          "text": "我已经喝过了，谢谢。"
+        }
+      ],
+      "reason": "现有换行明确区分英文与对应中文，各自成块，保留原文顺序和对话轮次。"
+    },
+    {
+      "index": 11,
+      "before": [
+        "I had one after my lunch.\n我吃完午饭就喝了一杯了。"
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "I had one after my lunch."
+        },
+        {
+          "type": "paragraph",
+          "text": "我吃完午饭就喝了一杯了。"
+        }
+      ],
+      "reason": "现有换行明确区分英文与对应中文，各自成块，保留原文顺序和对话轮次。"
+    },
+    {
+      "index": 12,
+      "before": [
+        "——Let's go into the living room.\n我们去客厅吧。"
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "——Let's go into the living room."
+        },
+        {
+          "type": "paragraph",
+          "text": "我们去客厅吧。"
+        }
+      ],
+      "reason": "现有换行明确区分英文与对应中文，各自成块，保留原文顺序和对话轮次。"
+    },
+    {
+      "index": 13,
+      "before": [
+        "We can have some fun there.\n我们可以在客厅里玩。"
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "We can have some fun there."
+        },
+        {
+          "type": "paragraph",
+          "text": "我们可以在客厅里玩。"
+        }
+      ],
+      "reason": "现有换行明确区分英文与对应中文，各自成块，保留原文顺序和对话轮次。"
+    },
+    {
+      "index": 14,
+      "before": [
+        "——Excuse the mess, John.\n不好意思，有点乱。"
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "——Excuse the mess, John."
+        },
+        {
+          "type": "paragraph",
+          "text": "不好意思，有点乱。"
+        }
+      ],
+      "reason": "现有换行明确区分英文与对应中文，各自成块，保留原文顺序和对话轮次。"
+    },
+    {
+      "index": 15,
+      "before": [
+        "This room's very untidy.\n客厅里看起来非常乱。"
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "This room's very untidy."
+        },
+        {
+          "type": "paragraph",
+          "text": "客厅里看起来非常乱。"
+        }
+      ],
+      "reason": "现有换行明确区分英文与对应中文，各自成块，保留原文顺序和对话轮次。"
+    },
+    {
+      "index": 16,
+      "before": [
+        "We're packing our suitcases.\n我们在打包行李。"
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "We're packing our suitcases."
+        },
+        {
+          "type": "paragraph",
+          "text": "我们在打包行李。"
+        }
+      ],
+      "reason": "现有换行明确区分英文与对应中文，各自成块，保留原文顺序和对话轮次。"
+    },
+    {
+      "index": 17,
+      "before": [
+        "We're going to leave tomorrow.\n我们明天就要走了。"
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "We're going to leave tomorrow."
+        },
+        {
+          "type": "paragraph",
+          "text": "我们明天就要走了。"
+        }
+      ],
+      "reason": "现有换行明确区分英文与对应中文，各自成块，保留原文顺序和对话轮次。"
+    },
+    {
+      "index": 18,
+      "before": [
+        "We are going to have a holiday.\n明天我们就要去度假了。"
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "We are going to have a holiday."
+        },
+        {
+          "type": "paragraph",
+          "text": "明天我们就要去度假了。"
+        }
+      ],
+      "reason": "现有换行明确区分英文与对应中文，各自成块，保留原文顺序和对话轮次。"
+    },
+    {
+      "index": 19,
+      "before": [
+        "——Great!\n太棒了！"
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "——Great!"
+        },
+        {
+          "type": "paragraph",
+          "text": "太棒了！"
+        }
+      ],
+      "reason": "现有换行明确区分英文与对应中文，各自成块，保留原文顺序和对话轮次。"
+    },
+    {
+      "index": 20,
+      "before": [
+        "——When are you going to have a holiday, John?\n你打算什么时候度假呢，约翰？"
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "——When are you going to have a holiday, John?"
+        },
+        {
+          "type": "paragraph",
+          "text": "你打算什么时候度假呢，约翰？"
+        }
+      ],
+      "reason": "现有换行明确区分英文与对应中文，各自成块，保留原文顺序和对话轮次。"
+    },
+    {
+      "index": 21,
+      "before": [
+        "——I don't know. I've already had my holiday this year.\n我不知道。今年的假我已经休过了。"
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "——I don't know. I've already had my holiday this year."
+        },
+        {
+          "type": "paragraph",
+          "text": "我不知道。今年的假我已经休过了。"
+        }
+      ],
+      "reason": "现有换行明确区分英文与对应中文，各自成块，保留原文顺序和对话轮次。"
+    },
+    {
+      "index": 22,
+      "before": [
+        "——Where did you go?\n你去了哪儿？"
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "——Where did you go?"
+        },
+        {
+          "type": "paragraph",
+          "text": "你去了哪儿？"
+        }
+      ],
+      "reason": "现有换行明确区分英文与对应中文，各自成块，保留原文顺序和对话轮次。"
+    },
+    {
+      "index": 23,
+      "before": [
+        "——I stayed at home!\n宅在家里！"
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "——I stayed at home!"
+        },
+        {
+          "type": "paragraph",
+          "text": "宅在家里！"
+        }
+      ],
+      "reason": "现有换行明确区分英文与对应中文，各自成块，保留原文顺序和对话轮次。"
+    }
+  ],
+  "sources": [
+    {
+      "path": "content/article-review/history/4406aa1e38da35c34932bd37edbecf42991efd8821ea85c6febbffe0c441b463.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "058203a7d73056aee1d1b185c2fcb3b1748ac3a88939921c4dca512c96f83b67"
+    }
+  ]
+}

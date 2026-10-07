@@ -1,0 +1,21 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "eb8483c5564d5d624b2be917ba6253d43a4228c5308ed43477bb9bdf4eb07af1",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title；全文 blocks[0..1] 与对应 text；现有正文/对话/题干逐块通读复核。",
+  "notes": "Cyber Sense两节网络安全押韵诗，各节四行，保留诗节和行内换行不合并。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/f3c9f2283ae7b9e4871cd2e0719e3c72ccadd374e92d7909409879a7425539c4.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "15f3530bcfc1203f12e6b5217fb7f43137ee382799f8120c79306eb3148e9e4b"
+    }
+  ]
+}

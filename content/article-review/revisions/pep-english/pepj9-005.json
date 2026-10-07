@@ -50,24 +50,46 @@
   },
   "sources": [
     {
-      "path": "content/pep-english/raw/junior-9.pdf",
-      "locator": "PDF第25-25页，标题与完整正文逐行核对",
+      "path": "content/article-review/history/903b4c2dcf1cae9f56b1ff9f629fb13ca4a23b18173d28e64d791a140a6b931f.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
       "checked": true,
-      "sha256": "9c4118021048d901610b673f590ed28c39c04cb2d4f7fd940f83a2d8b2741af7"
-    },
-    {
-      "path": "content/pep-english/raw/junior-9/junior-9_25.jpg",
-      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
-      "checked": true,
-      "sha256": "c7f887553a3fc110511f6a7ac8eb61423f930e4e4cc35f38ff4ab93cb62600fb"
+      "sha256": "a864869bab4df500837c191741cd188dc162f8b9dc11b8229b69af2919ce53d3"
     }
   ],
   "corrections": [],
   "fullReadConfirmed": true,
   "recheckConfirmed": true,
   "reviewer": "Codex",
-  "reviewedAt": "2026-10-02T05:06:26+00:00",
-  "notes": "PDF25页印刷11页Full Moon, Full Feelings三段完整逐行核对，Chang’e/Hou Yi/Pang Meng的神话叙事、九个太阳、仙药、奔月和摆水果点心均与原页一致；拼音隔音号已正确保留为直引号形式，段落与末句完整，无修改。",
+  "reviewedAt": "2026-10-07T07:42:01+00:00",
+  "notes": "中秋三段为月饼寓意、嫦娥完整故事、赏月传统，保留长故事自然段。",
   "issues": [],
-  "status": "passed_unchanged"
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "887f2df2ccc7cc0d8c775168abf2271dce48e38b6cc299f2b0ee0ebc4d8e3dfa",
+    "afterFileSha256": "887f2df2ccc7cc0d8c775168abf2271dce48e38b6cc299f2b0ee0ebc4d8e3dfa",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "887f2df2ccc7cc0d8c775168abf2271dce48e38b6cc299f2b0ee0ebc4d8e3dfa",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..2] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "中秋三段为月饼寓意、嫦娥完整故事、赏月传统，保留长故事自然段。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "blockEdits": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/903b4c2dcf1cae9f56b1ff9f629fb13ca4a23b18173d28e64d791a140a6b931f.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "a864869bab4df500837c191741cd188dc162f8b9dc11b8229b69af2919ce53d3"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "903b4c2dcf1cae9f56b1ff9f629fb13ca4a23b18173d28e64d791a140a6b931f"
 }

@@ -2,116 +2,9 @@
   "schemaVersion": 1,
   "course": "nce",
   "articleId": "nce1-005",
-  "beforeDisplaySha256": "53dd0c27c86b364f27e4a7671525dc625f0832fd5ab5c7f174b72efcf18f818d",
-  "afterDisplaySha256": "9ac2eeb60bd6bbec06830702a4e8a0ac14ac753edc851dda38dc76f15a94e8fc",
+  "beforeDisplaySha256": "9ac2eeb60bd6bbec06830702a4e8a0ac14ac753edc851dda38dc76f15a94e8fc",
+  "afterDisplaySha256": "fe7e82d0b7a566d5597eb15f460354cb0e69257e0a810359892c8e45b90a76aa",
   "baselineDisplay": {
-    "title": "Nice to Meet You.",
-    "titleZh": "很高兴见到你。",
-    "question": "Is Chang-woo Chinese?",
-    "questionZh": "昌宇是中国人吗？",
-    "text": "Is Chang-woo Chinese?\n\nGood morning.\nGood morning Mr. Blake.\nThis is Miss Sophie Dupont.\nSophie is a new student.\nShe is French.\nSophie this is Hans.\nHe is German.\nNice to meet you.\nAnd this is Naoko.\nShe's Japanese.\nNice to meet you.\nAnd this is Chang-woo.\nHe's Korean.\nNice to meet you.\nAnd this is Luming.\nHe's Chinese.\nNice to meet you.\nAnd this is Xiaohui.\nShe is Chinese too.\nNice to meet you.",
-    "bodyText": "Good morning.\nGood morning Mr. Blake.\nThis is Miss Sophie Dupont.\nSophie is a new student.\nShe is French.\nSophie this is Hans.\nHe is German.\nNice to meet you.\nAnd this is Naoko.\nShe's Japanese.\nNice to meet you.\nAnd this is Chang-woo.\nHe's Korean.\nNice to meet you.\nAnd this is Luming.\nHe's Chinese.\nNice to meet you.\nAnd this is Xiaohui.\nShe is Chinese too.\nNice to meet you.",
-    "bodyTextZh": "早上好。\n早上好，布莱克先生。\n这位是索菲·杜邦小姐。\n索菲是一名新学生。\n她是法国人。\n索菲，这位是汉斯。\n他是德国人。\n很高兴见到你。\n这是直子。\n她是日本人。\n很高兴见到你。\n这是昌宇。\n他是韩国人。\n很高兴见到你。\n这位是鲁明。\n他是中国人。\n很高兴见到你。\n这是小辉。\n她也是中国人。\n很高兴见到你。",
-    "sentences": [
-      {
-        "en": "Lesson 5",
-        "zh": "第5课"
-      },
-      {
-        "en": "Nice to meet you.",
-        "zh": "很高兴见到你。"
-      },
-      {
-        "en": "Listen to the tape then answer this question.",
-        "zh": "先听这段录音，然后再回答这个问题。"
-      },
-      {
-        "en": "Is Chang-woo Chinese?",
-        "zh": "昌宇是中国人吗？"
-      },
-      {
-        "en": "Good morning.",
-        "zh": "早上好。"
-      },
-      {
-        "en": "Good morning Mr. Blake.",
-        "zh": "早上好，布莱克先生。"
-      },
-      {
-        "en": "This is Miss Sophie Dupont.",
-        "zh": "这位是索菲·杜邦小姐。"
-      },
-      {
-        "en": "Sophie is a new student.",
-        "zh": "索菲是一名新学生。"
-      },
-      {
-        "en": "She is French.",
-        "zh": "她是法国人。"
-      },
-      {
-        "en": "Sophie this is Hans.",
-        "zh": "索菲，这位是汉斯。"
-      },
-      {
-        "en": "He is German.",
-        "zh": "他是德国人。"
-      },
-      {
-        "en": "Nice to meet you.",
-        "zh": "很高兴见到你。"
-      },
-      {
-        "en": "And this is Naoko.",
-        "zh": "这是直子。"
-      },
-      {
-        "en": "She's Japanese.",
-        "zh": "她是日本人。"
-      },
-      {
-        "en": "Nice to meet you.",
-        "zh": "很高兴见到你。"
-      },
-      {
-        "en": "And this is Chang-woo.",
-        "zh": "这是昌宇。"
-      },
-      {
-        "en": "He's Korean.",
-        "zh": "他是韩国人。"
-      },
-      {
-        "en": "Nice to meet you.",
-        "zh": "很高兴见到你。"
-      },
-      {
-        "en": "And this is Luming.",
-        "zh": "这位是鲁明。"
-      },
-      {
-        "en": "He's Chinese.",
-        "zh": "他是中国人。"
-      },
-      {
-        "en": "Nice to meet you.",
-        "zh": "很高兴见到你。"
-      },
-      {
-        "en": "And this is Xiaohui.",
-        "zh": "这是小辉。"
-      },
-      {
-        "en": "She is Chinese too.",
-        "zh": "她也是中国人。"
-      },
-      {
-        "en": "Nice to meet you.",
-        "zh": "很高兴见到你。"
-      }
-    ]
-  },
-  "display": {
     "title": "Nice to Meet You.",
     "titleZh": "很高兴见到你。",
     "question": "Is Chang-woo Chinese?",
@@ -218,20 +111,159 @@
       }
     ]
   },
+  "display": {
+    "title": "Nice to Meet You.",
+    "titleZh": "很高兴见到你。",
+    "question": "Is Chang-woo Chinese?",
+    "questionZh": "昌宇是中国人吗？",
+    "text": "Is Chang-woo Chinese?\n\nGood morning.\nGood morning Mr. Blake.\nThis is Miss Sophie Dupont. Sophie is a new student. She is French.\nSophie this is Hans. He is German.\nNice to meet you.\nAnd this is Naoko. She's Japanese.\nNice to meet you.\nAnd this is Chang-woo. He's Korean.\nNice to meet you.\nAnd this is Luming. He's Chinese.\nNice to meet you.\nAnd this is Xiaohui. She is Chinese too.\nNice to meet you.",
+    "bodyText": "Good morning.\nGood morning Mr. Blake.\nThis is Miss Sophie Dupont. Sophie is a new student. She is French.\nSophie this is Hans. He is German.\nNice to meet you.\nAnd this is Naoko. She's Japanese.\nNice to meet you.\nAnd this is Chang-woo. He's Korean.\nNice to meet you.\nAnd this is Luming. He's Chinese.\nNice to meet you.\nAnd this is Xiaohui. She is Chinese too.\nNice to meet you.",
+    "bodyTextZh": "早上好。\n早上好，布莱克先生。\n这位是索菲·杜邦小姐。索菲是一名新学生。她是法国人。\n索菲，这位是汉斯。他是德国人。\n很高兴见到你。\n这是直子。她是日本人。\n很高兴见到你。\n这是昌宇。他是韩国人。\n很高兴见到你。\n这位是鲁明。他是中国人。\n很高兴见到你。\n这是小辉。她也是中国人。\n很高兴见到你。",
+    "sentences": [
+      {
+        "en": "Lesson 5",
+        "zh": "第 5 课"
+      },
+      {
+        "en": "Nice to meet you.",
+        "zh": "很高兴见到你。"
+      },
+      {
+        "en": "Listen to the tape then answer this question.",
+        "zh": "先听这段录音，然后再回答这个问题。"
+      },
+      {
+        "en": "Is Chang-woo Chinese?",
+        "zh": "昌宇是中国人吗？"
+      },
+      {
+        "en": "Good morning.",
+        "zh": "早上好。"
+      },
+      {
+        "en": "Good morning Mr. Blake.",
+        "zh": "早上好，布莱克先生。"
+      },
+      {
+        "en": "This is Miss Sophie Dupont.",
+        "zh": "这位是索菲·杜邦小姐。"
+      },
+      {
+        "en": "Sophie is a new student.",
+        "zh": "索菲是一名新学生。"
+      },
+      {
+        "en": "She is French.",
+        "zh": "她是法国人。"
+      },
+      {
+        "en": "Sophie this is Hans.",
+        "zh": "索菲，这位是汉斯。"
+      },
+      {
+        "en": "He is German.",
+        "zh": "他是德国人。"
+      },
+      {
+        "en": "Nice to meet you.",
+        "zh": "很高兴见到你。"
+      },
+      {
+        "en": "And this is Naoko.",
+        "zh": "这是直子。"
+      },
+      {
+        "en": "She's Japanese.",
+        "zh": "她是日本人。"
+      },
+      {
+        "en": "Nice to meet you.",
+        "zh": "很高兴见到你。"
+      },
+      {
+        "en": "And this is Chang-woo.",
+        "zh": "这是昌宇。"
+      },
+      {
+        "en": "He's Korean.",
+        "zh": "他是韩国人。"
+      },
+      {
+        "en": "Nice to meet you.",
+        "zh": "很高兴见到你。"
+      },
+      {
+        "en": "And this is Luming.",
+        "zh": "这位是鲁明。"
+      },
+      {
+        "en": "He's Chinese.",
+        "zh": "他是中国人。"
+      },
+      {
+        "en": "Nice to meet you.",
+        "zh": "很高兴见到你。"
+      },
+      {
+        "en": "And this is Xiaohui.",
+        "zh": "这是小辉。"
+      },
+      {
+        "en": "She is Chinese too.",
+        "zh": "她也是中国人。"
+      },
+      {
+        "en": "Nice to meet you.",
+        "zh": "很高兴见到你。"
+      }
+    ]
+  },
   "sources": [
     {
-      "path": "content/NCE-Flow/NCE1/005&006－Nice to Meet You..lrc",
-      "locator": "完整LRC元数据、标题、提问及全部中英文逐句字幕和时间戳",
+      "path": "content/article-review/history/0fdf909cfb7c8633db9ed301c805d78ea16769d12b1e889ea87d1a839f8c006d.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
       "checked": true,
-      "sha256": "b512d480eaad88812d73be306ac6759dd264fdbba785dc797616a1c9f743e02d"
+      "sha256": "492cda60dbda8d755955feacbfd3f32f74f09cd15ff85a91138814bb7b2fc93b"
     }
   ],
   "corrections": [],
   "fullReadConfirmed": true,
   "recheckConfirmed": true,
   "reviewer": "Codex",
-  "reviewedAt": "2026-10-02T02:19:46+00:00",
-  "notes": "通读20句正文并复核LRC全部24行；Sophie/Hans/Naoko/Chang-woo/Luming/Xiaohui的人名、国籍及中译逐一对应，问题与韩国人回答关系清晰。保留Chang-woo连字符、Mr.缩写及对话行，仅规范第5课中数空格。",
+  "reviewedAt": "2026-10-07T07:39:38+00:00",
+  "notes": "新生介绍；每组姓名与国籍合为同一介绍段，各Nice to meet you回应独立保留。 text与bodyText同步；sentences对象及时间、角色、索引原样保留。",
   "issues": [],
-  "status": "passed_edited"
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "555e5bb29090b80e2779fb6baf631724f7d534f0bd1088ccc7a21a1de1024158",
+    "afterFileSha256": "802e52554fd6488aeaf1530e5c42696888cd6dd2960b2a481ad1cd622114c137",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "555e5bb29090b80e2779fb6baf631724f7d534f0bd1088ccc7a21a1de1024158",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title/titleZh、question/questionZh、bodyText全部20行、bodyTextZh全部20行及sentences[0..23]的完整文字；重复正文与字幕文本逐字比对，非正文字幕另读。操作在内存应用并validate_layout_change，修复后的双语全文重新通读。",
+      "notes": "新生介绍；每组姓名与国籍合为同一介绍段，各Nice to meet you回应独立保留。 text与bodyText同步；sentences对象及时间、角色、索引原样保留。",
+      "issues": [],
+      "display": {
+        "text": "Is Chang-woo Chinese?\n\nGood morning.\nGood morning Mr. Blake.\nThis is Miss Sophie Dupont. Sophie is a new student. She is French.\nSophie this is Hans. He is German.\nNice to meet you.\nAnd this is Naoko. She's Japanese.\nNice to meet you.\nAnd this is Chang-woo. He's Korean.\nNice to meet you.\nAnd this is Luming. He's Chinese.\nNice to meet you.\nAnd this is Xiaohui. She is Chinese too.\nNice to meet you.",
+        "bodyText": "Good morning.\nGood morning Mr. Blake.\nThis is Miss Sophie Dupont. Sophie is a new student. She is French.\nSophie this is Hans. He is German.\nNice to meet you.\nAnd this is Naoko. She's Japanese.\nNice to meet you.\nAnd this is Chang-woo. He's Korean.\nNice to meet you.\nAnd this is Luming. He's Chinese.\nNice to meet you.\nAnd this is Xiaohui. She is Chinese too.\nNice to meet you.",
+        "bodyTextZh": "早上好。\n早上好，布莱克先生。\n这位是索菲·杜邦小姐。索菲是一名新学生。她是法国人。\n索菲，这位是汉斯。他是德国人。\n很高兴见到你。\n这是直子。她是日本人。\n很高兴见到你。\n这是昌宇。他是韩国人。\n很高兴见到你。\n这位是鲁明。他是中国人。\n很高兴见到你。\n这是小辉。她也是中国人。\n很高兴见到你。"
+      },
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/0fdf909cfb7c8633db9ed301c805d78ea16769d12b1e889ea87d1a839f8c006d.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "492cda60dbda8d755955feacbfd3f32f74f09cd15ff85a91138814bb7b2fc93b"
+        }
+      ]
+    }
+  },
+  "status": "passed_edited",
+  "previousRevisionSha256": "0fdf909cfb7c8633db9ed301c805d78ea16769d12b1e889ea87d1a839f8c006d"
 }

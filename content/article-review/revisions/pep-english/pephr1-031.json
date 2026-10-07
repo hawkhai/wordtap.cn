@@ -60,24 +60,45 @@
   },
   "sources": [
     {
-      "path": "content/pep-english/raw/senior-required-1.pdf",
-      "locator": "PDF第93-93页，标题与完整正文逐行核对",
+      "path": "content/article-review/history/7aac04389633852b90e2b4325aa85689edc279371b68100367cfc49bd374b74c.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
       "checked": true,
-      "sha256": "ffe985a370964820aa003008f48c7cf17b5e0dff8eb29fe54cd4743b0c4e8c79"
-    },
-    {
-      "path": "content/pep-english/raw/senior-required-1/senior-required-1_93.jpg",
-      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
-      "checked": true,
-      "sha256": "2f7ca430f97a236e86bed2364f79ef389c5a71aa9dc3d3bb8a5c07e4dbd7d069"
+      "sha256": "e9ad546ceb732faff67a44261806e718504fa1a4d589f9cabbd36f214203a571"
     }
   ],
   "corrections": [],
   "fullReadConfirmed": true,
   "recheckConfirmed": true,
   "reviewer": "Codex",
-  "reviewedAt": "2026-10-02T05:33:39+00:00",
-  "notes": "PDF第93页引言及三栏滑雪、滑冰、钢架雪车全文核对，四年一次、1890s、slalom/figure-skating/skeleton/luge均与教材一致。四段顺序完整，无转录修改。",
+  "reviewedAt": "2026-10-07T07:30:13+00:00",
+  "notes": "冬奥总介、滑雪、滑冰、俯式冰橇四段各有明确主题，完整保留。",
   "issues": [],
-  "status": "passed_unchanged"
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "e1c4b5453a4e32665ae526639cd7e55d43b5533119e8220ee99c62319f247896",
+    "afterFileSha256": "e1c4b5453a4e32665ae526639cd7e55d43b5533119e8220ee99c62319f247896",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "e1c4b5453a4e32665ae526639cd7e55d43b5533119e8220ee99c62319f247896",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..3] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "冬奥总介、滑雪、滑冰、俯式冰橇四段各有明确主题，完整保留。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/7aac04389633852b90e2b4325aa85689edc279371b68100367cfc49bd374b74c.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "e9ad546ceb732faff67a44261806e718504fa1a4d589f9cabbd36f214203a571"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "7aac04389633852b90e2b4325aa85689edc279371b68100367cfc49bd374b74c"
 }

@@ -70,24 +70,45 @@
   },
   "sources": [
     {
-      "path": "content/pep-english/raw/senior-selective-3.pdf",
-      "locator": "PDF第78-78页，标题与完整正文逐行核对",
+      "path": "content/article-review/history/6c0dafd53707d1836e4ca0ee145855eb600187ee78c5192928e656b6abcd6041.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
       "checked": true,
-      "sha256": "ed8eb9e5988b44a1ff4f8bc11ed3cfae406decefae7982477362720788e1998b"
-    },
-    {
-      "path": "content/pep-english/raw/senior-selective-3/senior-selective-3_78.jpg",
-      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
-      "checked": true,
-      "sha256": "0c3db2e85ed2ae1b7e609b087d657f7c05f2823ac0474a71708213f927f06efd"
+      "sha256": "52fe7942259c255a36e8e619052cd1bc1b0e93afe18d728938685f1e814f3e5c"
     }
   ],
   "corrections": [],
   "fullReadConfirmed": true,
   "recheckConfirmed": true,
   "reviewer": "Codex",
-  "reviewedAt": "2026-10-02T07:15:42+00:00",
-  "notes": "逐行核对PDF第78页五段第一人称游戏经历，童年、沉迷、朋友重逢与平衡生活的叙述完整，绕图排印未造成截句或段落错序。保留个人体验和原文口吻，无修改。",
+  "reviewedAt": "2026-10-07T07:35:52+00:00",
+  "notes": "游戏经历五段依初玩、发展、成瘾、重遇朋友、平衡反思组织，完整叙事段保留。",
   "issues": [],
-  "status": "passed_unchanged"
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "c6a72d67e572e0746094e536c353485bbb7e9fdecbbe7740c5253aadaa2cc4b3",
+    "afterFileSha256": "c6a72d67e572e0746094e536c353485bbb7e9fdecbbe7740c5253aadaa2cc4b3",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "c6a72d67e572e0746094e536c353485bbb7e9fdecbbe7740c5253aadaa2cc4b3",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..4] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "游戏经历五段依初玩、发展、成瘾、重遇朋友、平衡反思组织，完整叙事段保留。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/6c0dafd53707d1836e4ca0ee145855eb600187ee78c5192928e656b6abcd6041.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "52fe7942259c255a36e8e619052cd1bc1b0e93afe18d728938685f1e814f3e5c"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "6c0dafd53707d1836e4ca0ee145855eb600187ee78c5192928e656b6abcd6041"
 }

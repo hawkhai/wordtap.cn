@@ -1,0 +1,22 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "febc715e6c680d5cccb47d2490f007d2c9fdcde9cee1a3b1d4fec2ea31a29d65",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title；全文 blocks[0..7] 与对应 text；现有正文/对话/题干逐块通读复核。",
+  "notes": "Greg新邻里八轮对话已经逐角色分块，超市及影院介绍完整保留。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "blockEdits": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/70df9f66cfc57148eb64c7da229c75adf1c3a9dd73e04e50fe1bfabfe9e115c8.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "9440213df57ff183484085e30597e9902a7f1700ed03960a9ebf6d5cbb4a2998"
+    }
+  ]
+}

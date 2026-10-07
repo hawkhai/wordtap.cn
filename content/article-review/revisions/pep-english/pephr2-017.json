@@ -30,24 +30,45 @@
   },
   "sources": [
     {
-      "path": "content/pep-english/raw/senior-required-2.pdf",
-      "locator": "PDF第71-71页，标题与完整正文逐行核对",
+      "path": "content/article-review/history/7245caf7f193bc0aa10d3b59aaa3a2c36710a82df65222ad50da88f8384736c4.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
       "checked": true,
-      "sha256": "33b74bf42b22b32fdbe3201e6f61cf8099be047ef0af8a1740f6013dee4a619d"
-    },
-    {
-      "path": "content/pep-english/raw/senior-required-2/senior-required-2_71.jpg",
-      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
-      "checked": true,
-      "sha256": "47fb56b3b1526225982cedb37796741795235c2761f4a452c14df629ecbf61fe"
+      "sha256": "9348b90bc132f82f71ecc48afdd12aa973aafc6eaefbd1d858f5260ec5166e32"
     }
   ],
   "corrections": [],
   "fullReadConfirmed": true,
   "recheckConfirmed": true,
   "reviewer": "Codex",
-  "reviewedAt": "2026-10-02T05:46:17+00:00",
-  "notes": "核对PDF第71页独立希腊沉船报道，标题及一段正文完整，2014年10月8日电头、1900年发现和55米深度一致；保留历史新闻时态及原引语。",
+  "reviewedAt": "2026-10-07T07:30:16+00:00",
+  "notes": "希腊沉船文物简讯电头和发现抢救及引语连续成段，保留完整新闻短段。",
   "issues": [],
-  "status": "passed_unchanged"
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "aa5ebd26c3578b76a84e457a7778bdde886374edcac44ca72c8dae87fc12e268",
+    "afterFileSha256": "aa5ebd26c3578b76a84e457a7778bdde886374edcac44ca72c8dae87fc12e268",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "aa5ebd26c3578b76a84e457a7778bdde886374edcac44ca72c8dae87fc12e268",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..0] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "希腊沉船文物简讯电头和发现抢救及引语连续成段，保留完整新闻短段。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/7245caf7f193bc0aa10d3b59aaa3a2c36710a82df65222ad50da88f8384736c4.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "9348b90bc132f82f71ecc48afdd12aa973aafc6eaefbd1d858f5260ec5166e32"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "7245caf7f193bc0aa10d3b59aaa3a2c36710a82df65222ad50da88f8384736c4"
 }

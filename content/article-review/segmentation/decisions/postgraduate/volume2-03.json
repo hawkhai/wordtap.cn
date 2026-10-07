@@ -1,0 +1,32 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "a53bf2b29340347b254ffe1692fb0754c4af805988b9d8efdf88ec28db9d98e4",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "完整通读title及原始blocks[0..32]，含正文、译文、标题及引语；text与全块连接一致。内存应用明确操作并validate_layout_change后复核修复全文blocks[0..31]。",
+  "notes": "全文覆盖影院座位故事、各国习惯、奥斯陆洗涤剂和电视误解、城市漫游与列车时刻表。合并I loved the idea that you could/never be sure构成完整末句，保留叙述及电视对话轮次。 内容旁注（不属本轮句段验收）：blocks[1,11,22,28,32]夹入博客来源语，blocks[2]and.、blocks[10]upside一down与数字1、blocks[28]中文“几分光突然亮起”等损坏、blocks[29]simly及缺词疑点、blocks[31]with;a和across一storied均需要非空白文字确认；不擅改或重排。；blocks[11,24,26]中文引语缺可见闭引号，不能靠段落合并补回，保留待确认。",
+  "issues": [],
+  "mergeBlocks": [
+    {
+      "start": 14,
+      "end": 15,
+      "before": [
+        "One of the small marvels of my first trip to Europe was the discovery that the world could be so full of variety, that there were so many different ways of doing essentially identical things, like eating and drinking and buying cinema tickets. It fascinated me that Europeans could at once be so alike-that they could be so universally bookish and cerebral, and drive small cars, and live in little houses in ancient towns, and love soccer, and be relatively unmaterialistic and law-abiding, and have chilly hotel rooms and cosy and inviting places to eat and drink-and yet be so endlessly, unpredictably different from each other as well. I loved the idea that you could",
+        "never be sure of anything in Europe."
+      ],
+      "text": "One of the small marvels of my first trip to Europe was the discovery that the world could be so full of variety, that there were so many different ways of doing essentially identical things, like eating and drinking and buying cinema tickets. It fascinated me that Europeans could at once be so alike-that they could be so universally bookish and cerebral, and drive small cars, and live in little houses in ancient towns, and love soccer, and be relatively unmaterialistic and law-abiding, and have chilly hotel rooms and cosy and inviting places to eat and drink-and yet be so endlessly, unpredictably different from each other as well. I loved the idea that you could never be sure of anything in Europe.",
+      "reason": "could后续never be sure of anything in Europe，是同一句宾语从句，不应另段。"
+    }
+  ],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/d7fda5e96ddc1c67eb5f5a238567c9bdd933a2eab06446b016d57907acb64c93.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "df59997ada15882eab8669e9fee75d806a9b8cfa9c982b5037817dcb826517eb"
+    }
+  ]
+}

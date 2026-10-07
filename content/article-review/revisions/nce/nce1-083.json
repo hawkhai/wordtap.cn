@@ -2,132 +2,9 @@
   "schemaVersion": 1,
   "course": "nce",
   "articleId": "nce1-083",
-  "beforeDisplaySha256": "05fbd3082db0212cc86ec0258aa1e668dfb87da2fe83ca9c9a73654f1ea76f37",
-  "afterDisplaySha256": "a8bbfa24b7538ab1b4f054bec3963733c44c5fbf65d81dcc9ceb412c23880e26",
+  "beforeDisplaySha256": "a8bbfa24b7538ab1b4f054bec3963733c44c5fbf65d81dcc9ceb412c23880e26",
+  "afterDisplaySha256": "839d554906433b5c86abf330942c7471821d10494be06b7208853cf94025c67d",
   "baselineDisplay": {
-    "title": "Going on Holiday",
-    "titleZh": "去度假",
-    "question": "Where did Sam go for his holiday this year?",
-    "questionZh": "今年山姆去哪里度假了？",
-    "text": "Where did Sam go for his holiday this year?\n\nHello, Sam.\nCome in.\nHi, Sam.\nWe're having lunch.\nDo you want to have lunch with us?\nNo, thank you, Tom.\nI've already had lunch.\nI had lunch at half past twelve.\nHave a cup of coffee then.\nI've just had a cup, thank you.\nI had one after my lunch.\nLet's go into the living room, Carol.\nWe can have our coffee there.\nExcuse the mess, Sam.\nThis room's very untidy.\nWe're packing our suitcases.\nWe're going to leave tomorrow.\nTom and I are going to have a holiday.\nAren't you lucky!\nWhen are you going to have a holiday, Sam?\nI don't know.\nI've already had my holiday this year.\nWhere did you go?\nI stayed at home!",
-    "bodyText": "Hello, Sam.\nCome in.\nHi, Sam.\nWe're having lunch.\nDo you want to have lunch with us?\nNo, thank you, Tom.\nI've already had lunch.\nI had lunch at half past twelve.\nHave a cup of coffee then.\nI've just had a cup, thank you.\nI had one after my lunch.\nLet's go into the living room, Carol.\nWe can have our coffee there.\nExcuse the mess, Sam.\nThis room's very untidy.\nWe're packing our suitcases.\nWe're going to leave tomorrow.\nTom and I are going to have a holiday.\nAren't you lucky!\nWhen are you going to have a holiday, Sam?\nI don't know.\nI've already had my holiday this year.\nWhere did you go?\nI stayed at home!",
-    "bodyTextZh": "你好，萨姆。\n请进来。\n嗨，萨姆。\n我们正在吃午饭。\n你想和我们一起吃午饭吗？\n不，谢谢你，汤姆。\n我已经吃过午饭了。\n我十二点半吃了午饭。\n那就喝杯咖啡吧。\n我刚刚喝了一杯，谢谢。\n我午饭后喝了一杯。\n我们一起去客厅吧，卡罗尔。\n我们可以在那里喝咖啡。\n萨姆，不好意思，屋里有点乱。\n这个房间非常乱。\n我们正在打包行李箱。\n我们明天就要出发了。\n我和汤姆打算去度个假。\n你真幸运啊！\n萨姆，你什么时候去度假？\n我不知道。\n我今年已经度过了假期。\n你去哪里度假了？\n我待在家里！",
-    "sentences": [
-      {
-        "en": "Lesson 83",
-        "zh": "第 83 课"
-      },
-      {
-        "en": "Going on holiday",
-        "zh": "去度假"
-      },
-      {
-        "en": "Listen to the tape then answer this question.",
-        "zh": "先听这段录音，然后再回答这个问题。"
-      },
-      {
-        "en": "Where did Sam go for his holiday this year?",
-        "zh": "今年山姆去哪里度假了？"
-      },
-      {
-        "en": "Hello, Sam.",
-        "zh": "你好，萨姆。"
-      },
-      {
-        "en": "Come in.",
-        "zh": "请进来。"
-      },
-      {
-        "en": "Hi, Sam.",
-        "zh": "嗨，萨姆。"
-      },
-      {
-        "en": "We're having lunch.",
-        "zh": "我们正在吃午饭。"
-      },
-      {
-        "en": "Do you want to have lunch with us?",
-        "zh": "你想和我们一起吃午饭吗？"
-      },
-      {
-        "en": "No, thank you, Tom.",
-        "zh": "不，谢谢你，汤姆。"
-      },
-      {
-        "en": "I've already had lunch.",
-        "zh": "我已经吃过午饭了。"
-      },
-      {
-        "en": "I had lunch at half past twelve.",
-        "zh": "我十二点半吃了午饭。"
-      },
-      {
-        "en": "Have a cup of coffee then.",
-        "zh": "那就喝杯咖啡吧。"
-      },
-      {
-        "en": "I've just had a cup, thank you.",
-        "zh": "我刚刚喝了一杯，谢谢。"
-      },
-      {
-        "en": "I had one after my lunch.",
-        "zh": "我午饭后喝了一杯。"
-      },
-      {
-        "en": "Let's go into the living room, Carol.",
-        "zh": "我们一起去客厅吧，卡罗尔。"
-      },
-      {
-        "en": "We can have our coffee there.",
-        "zh": "我们可以在那里喝咖啡。"
-      },
-      {
-        "en": "Excuse the mess, Sam.",
-        "zh": "萨姆，不好意思，屋里有点乱。"
-      },
-      {
-        "en": "This room's very untidy.",
-        "zh": "这个房间非常乱。"
-      },
-      {
-        "en": "We're packing our suitcases.",
-        "zh": "我们正在打包行李箱。"
-      },
-      {
-        "en": "We're going to leave tomorrow.",
-        "zh": "我们明天就要出发了。"
-      },
-      {
-        "en": "Tom and I are going to have a holiday.",
-        "zh": "我和汤姆打算去度个假。"
-      },
-      {
-        "en": "Aren't you lucky!",
-        "zh": "你真幸运啊！"
-      },
-      {
-        "en": "When are you going to have a holiday, Sam?",
-        "zh": "萨姆，你什么时候去度假？"
-      },
-      {
-        "en": "I don't know.",
-        "zh": "我不知道。"
-      },
-      {
-        "en": "I've already had my holiday this year.",
-        "zh": "我今年已经度过了假期。"
-      },
-      {
-        "en": "Where did you go?",
-        "zh": "你去哪里度假了？"
-      },
-      {
-        "en": "I stayed at home!",
-        "zh": "我待在家里！"
-      }
-    ]
-  },
-  "display": {
     "title": "Going on Holiday",
     "titleZh": "去度假",
     "question": "Where did Sam go for his holiday this year?",
@@ -250,40 +127,175 @@
       }
     ]
   },
+  "display": {
+    "title": "Going on Holiday",
+    "titleZh": "去度假",
+    "question": "Where did Sam go for his holiday this year?",
+    "questionZh": "今年山姆去哪里度假了？",
+    "text": "Where did Sam go for his holiday this year?\n\nHello, Sam. Come in.\nHi, Sam. We're having lunch. Do you want to have lunch with us?\nNo, thank you, Tom. I've already had lunch. I had lunch at half past twelve.\nHave a cup of coffee then.\nI've just had a cup, thank you. I had one after my lunch.\nLet's go into the living room, Carol. We can have our coffee there.\nExcuse the mess, Sam. This room's very untidy. We're packing our suitcases. We're going to leave tomorrow. Tom and I are going to have a holiday.\nAren't you lucky!\nWhen are you going to have a holiday, Sam?\nI don't know. I've already had my holiday this year.\nWhere did you go?\nI stayed at home!",
+    "bodyText": "Hello, Sam. Come in.\nHi, Sam. We're having lunch. Do you want to have lunch with us?\nNo, thank you, Tom. I've already had lunch. I had lunch at half past twelve.\nHave a cup of coffee then.\nI've just had a cup, thank you. I had one after my lunch.\nLet's go into the living room, Carol. We can have our coffee there.\nExcuse the mess, Sam. This room's very untidy. We're packing our suitcases. We're going to leave tomorrow. Tom and I are going to have a holiday.\nAren't you lucky!\nWhen are you going to have a holiday, Sam?\nI don't know. I've already had my holiday this year.\nWhere did you go?\nI stayed at home!",
+    "bodyTextZh": "你好，萨姆。请进来。\n嗨，萨姆。我们正在吃午饭。你想和我们一起吃午饭吗？\n不，谢谢你，汤姆。我已经吃过午饭了。我十二点半吃了午饭。\n那就喝杯咖啡吧。\n我刚刚喝了一杯，谢谢。我午饭后喝了一杯\n我们一起去客厅吧，卡罗尔。我们可以在那里喝咖啡。\n萨姆，不好意思，屋里有点乱\n这个房间非常乱。我们正在打包行李箱。我们明天就要出发了。我和汤姆打算去度个假。\n你真幸运啊！\n萨姆，你什么时候去度假？\n我不知道。我今年已经度过了假期。\n你去哪里度假了？\n我待在家里！",
+    "sentences": [
+      {
+        "en": "Lesson 83",
+        "zh": "第 83 课"
+      },
+      {
+        "en": "Going on holiday",
+        "zh": "去度假"
+      },
+      {
+        "en": "Listen to the tape then answer this question.",
+        "zh": "先听这段录音，然后再回答这个问题。"
+      },
+      {
+        "en": "Where did Sam go for his holiday this year?",
+        "zh": "今年山姆去哪里度假了？"
+      },
+      {
+        "en": "Hello, Sam.",
+        "zh": "你好，萨姆。"
+      },
+      {
+        "en": "Come in.",
+        "zh": "请进来。"
+      },
+      {
+        "en": "Hi, Sam.",
+        "zh": "嗨，萨姆。"
+      },
+      {
+        "en": "We're having lunch.",
+        "zh": "我们正在吃午饭。"
+      },
+      {
+        "en": "Do you want to have lunch with us?",
+        "zh": "你想和我们一起吃午饭吗？"
+      },
+      {
+        "en": "No, thank you, Tom.",
+        "zh": "不，谢谢你，汤姆。"
+      },
+      {
+        "en": "I've already had lunch.",
+        "zh": "我已经吃过午饭了。"
+      },
+      {
+        "en": "I had lunch at half past twelve.",
+        "zh": "我十二点半吃了午饭。"
+      },
+      {
+        "en": "Have a cup of coffee then.",
+        "zh": "那就喝杯咖啡吧。"
+      },
+      {
+        "en": "I've just had a cup, thank you.",
+        "zh": "我刚刚喝了一杯，谢谢。"
+      },
+      {
+        "en": "I had one after my lunch.",
+        "zh": "我午饭后喝了一杯"
+      },
+      {
+        "en": "Let's go into the living room, Carol.",
+        "zh": "我们一起去客厅吧，卡罗尔。"
+      },
+      {
+        "en": "We can have our coffee there.",
+        "zh": "我们可以在那里喝咖啡。"
+      },
+      {
+        "en": "Excuse the mess, Sam.",
+        "zh": "萨姆，不好意思，屋里有点乱"
+      },
+      {
+        "en": "This room's very untidy.",
+        "zh": "这个房间非常乱。"
+      },
+      {
+        "en": "We're packing our suitcases.",
+        "zh": "我们正在打包行李箱。"
+      },
+      {
+        "en": "We're going to leave tomorrow.",
+        "zh": "我们明天就要出发了。"
+      },
+      {
+        "en": "Tom and I are going to have a holiday.",
+        "zh": "我和汤姆打算去度个假。"
+      },
+      {
+        "en": "Aren't you lucky!",
+        "zh": "你真幸运啊！"
+      },
+      {
+        "en": "When are you going to have a holiday, Sam?",
+        "zh": "萨姆，你什么时候去度假？"
+      },
+      {
+        "en": "I don't know.",
+        "zh": "我不知道。"
+      },
+      {
+        "en": "I've already had my holiday this year.",
+        "zh": "我今年已经度过了假期。"
+      },
+      {
+        "en": "Where did you go?",
+        "zh": "你去哪里度假了？"
+      },
+      {
+        "en": "I stayed at home!",
+        "zh": "我待在家里！"
+      }
+    ]
+  },
   "sources": [
     {
-      "path": "content/NCE-Flow/NCE1/083&084－Going on Holiday.lrc",
-      "locator": "全部28条中英字幕；00:46.25与00:57.12两处完整英语句及中译",
+      "path": "content/article-review/history/fecb0c4a9ca6af1afd6caf90cbd05cf1bae625510f0a60fa33f366cc75e245fb.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
       "checked": true,
-      "sha256": "00077a8e2eb4c905e482a62fa99eeef5afc4a9e69ace337f807bcc0681eac52e"
-    },
-    {
-      "path": "content/article-review/cleanup-2026-10-06.json",
-      "sha256": "cea27c1c69e32939ff83196bd29cce9a128d8d0d6f248611217179e037971889",
-      "locator": "public/nce/lessons/nce1/083.json",
-      "checked": true
+      "sha256": "45d043bb3fb7dc6bbd40aed3b873dbad6d44103c8960ceadd6d3334fa2673207"
     }
   ],
-  "corrections": [
-    {
-      "field": "bodyTextZh",
-      "before": "你好，萨姆。\n请进来。\n嗨，萨姆。\n我们正在吃午饭。\n你想和我们一起吃午饭吗？\n不，谢谢你，汤姆。\n我已经吃过午饭了。\n我十二点半吃了午饭。\n那就喝杯咖啡吧。\n我刚刚喝了一杯，谢谢。\n我午饭后喝了一杯。\n我们一起去客厅吧，卡罗尔。\n我们可以在那里喝咖啡。\n萨姆，不好意思，屋里有点乱。\n这个房间非常乱。\n我们正在打包行李箱。\n我们明天就要出发了。\n我和汤姆打算去度个假。\n你真幸运啊！\n萨姆，你什么时候去度假？\n我不知道。\n我今年已经度过了假期。\n你去哪里度假了？\n我待在家里！",
-      "after": "你好，萨姆。\n请进来。\n嗨，萨姆。\n我们正在吃午饭。\n你想和我们一起吃午饭吗？\n不，谢谢你，汤姆。\n我已经吃过午饭了。\n我十二点半吃了午饭。\n那就喝杯咖啡吧。\n我刚刚喝了一杯，谢谢。\n我午饭后喝了一杯\n我们一起去客厅吧，卡罗尔。\n我们可以在那里喝咖啡。\n萨姆，不好意思，屋里有点乱\n这个房间非常乱。\n我们正在打包行李箱。\n我们明天就要出发了。\n我和汤姆打算去度个假。\n你真幸运啊！\n萨姆，你什么时候去度假？\n我不知道。\n我今年已经度过了假期。\n你去哪里度假了？\n我待在家里！",
-      "evidence": "User-directed source-fidelity restoration; content/article-review/cleanup-2026-10-06.json"
-    }
-  ],
-  "fullReadConfirmed": false,
-  "recheckConfirmed": false,
-  "reviewMode": "source-fidelity-rules-v1",
-  "reviewer": "Codex (user-directed restoration)",
-  "reviewedAt": "2026-10-05T17:15:10+00:00",
-  "notes": "Rule-based restoration; original full-read review remains historical. content/article-review/cleanup-2026-10-06.json",
+  "corrections": [],
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "reviewer": "Codex",
+  "reviewedAt": "2026-10-07T07:41:58+00:00",
+  "notes": "假期来访；问候邀请、午饭邀请与拒绝理由、喝咖啡回应、转客厅、收拾行李明日度假说明以及已休假回答按轮次合段。中文原第13行末缺标点，保留其后换行，避免与下一句粘成无界句串。 text与bodyText同步；sentences对象及时间、角色、索引原样保留。",
   "issues": [],
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "787432d59f3710f8ae1c014d5205a508a34477ffb29e535b268ab4d4dcdfd5e2",
+    "afterFileSha256": "a384a6dd6b4a1fe82066c4d13e1bf18663ca3b20f1f9ab7085e7603fa886e19c",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "787432d59f3710f8ae1c014d5205a508a34477ffb29e535b268ab4d4dcdfd5e2",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title/titleZh、question/questionZh、bodyText全部24行、bodyTextZh全部24行及sentences[0..27]的完整文字；重复正文与字幕文本逐字比对，非正文字幕另读。操作在内存应用并validate_layout_change，修复后的双语全文重新通读。",
+      "notes": "假期来访；问候邀请、午饭邀请与拒绝理由、喝咖啡回应、转客厅、收拾行李明日度假说明以及已休假回答按轮次合段。中文原第13行末缺标点，保留其后换行，避免与下一句粘成无界句串。 text与bodyText同步；sentences对象及时间、角色、索引原样保留。",
+      "issues": [],
+      "display": {
+        "text": "Where did Sam go for his holiday this year?\n\nHello, Sam. Come in.\nHi, Sam. We're having lunch. Do you want to have lunch with us?\nNo, thank you, Tom. I've already had lunch. I had lunch at half past twelve.\nHave a cup of coffee then.\nI've just had a cup, thank you. I had one after my lunch.\nLet's go into the living room, Carol. We can have our coffee there.\nExcuse the mess, Sam. This room's very untidy. We're packing our suitcases. We're going to leave tomorrow. Tom and I are going to have a holiday.\nAren't you lucky!\nWhen are you going to have a holiday, Sam?\nI don't know. I've already had my holiday this year.\nWhere did you go?\nI stayed at home!",
+        "bodyText": "Hello, Sam. Come in.\nHi, Sam. We're having lunch. Do you want to have lunch with us?\nNo, thank you, Tom. I've already had lunch. I had lunch at half past twelve.\nHave a cup of coffee then.\nI've just had a cup, thank you. I had one after my lunch.\nLet's go into the living room, Carol. We can have our coffee there.\nExcuse the mess, Sam. This room's very untidy. We're packing our suitcases. We're going to leave tomorrow. Tom and I are going to have a holiday.\nAren't you lucky!\nWhen are you going to have a holiday, Sam?\nI don't know. I've already had my holiday this year.\nWhere did you go?\nI stayed at home!",
+        "bodyTextZh": "你好，萨姆。请进来。\n嗨，萨姆。我们正在吃午饭。你想和我们一起吃午饭吗？\n不，谢谢你，汤姆。我已经吃过午饭了。我十二点半吃了午饭。\n那就喝杯咖啡吧。\n我刚刚喝了一杯，谢谢。我午饭后喝了一杯\n我们一起去客厅吧，卡罗尔。我们可以在那里喝咖啡。\n萨姆，不好意思，屋里有点乱\n这个房间非常乱。我们正在打包行李箱。我们明天就要出发了。我和汤姆打算去度个假。\n你真幸运啊！\n萨姆，你什么时候去度假？\n我不知道。我今年已经度过了假期。\n你去哪里度假了？\n我待在家里！"
+      },
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/fecb0c4a9ca6af1afd6caf90cbd05cf1bae625510f0a60fa33f366cc75e245fb.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "45d043bb3fb7dc6bbd40aed3b873dbad6d44103c8960ceadd6d3334fa2673207"
+        }
+      ]
+    }
+  },
   "status": "passed_edited",
-  "previousRevisionSha256": "d7f6df03e718cb086c0e16e39f6004ab86158cb74cf4ed41af849317d35197fa",
-  "ruleRestoration": {
-    "policy": "source-fidelity-rules-v1",
-    "report": "content/article-review/cleanup-2026-10-06.json",
-    "reportSha256": "cea27c1c69e32939ff83196bd29cce9a128d8d0d6f248611217179e037971889"
-  }
+  "previousRevisionSha256": "fecb0c4a9ca6af1afd6caf90cbd05cf1bae625510f0a60fa33f366cc75e245fb"
 }

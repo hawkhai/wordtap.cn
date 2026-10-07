@@ -1,0 +1,21 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "4a6a354e5d5f69a79f546cc6a15310de55ebdc92f0667ab67363969c103520fa",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title；全文 blocks[0..3] 与对应 text；现有正文/对话/题干逐块通读复核。",
+  "notes": "漓江污染报告四段问题引入、成因、综合措施、全国计划，措施并列句属于完整说明段不碎拆。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/767a3e59b1eecef58c5da1ab2842088293edcce525adba0a344ebdb40b462c9f.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "0c0e36e1ffda68ab242c57f619ab7ccefedd8134127bd94d880206422794f840"
+    }
+  ]
+}

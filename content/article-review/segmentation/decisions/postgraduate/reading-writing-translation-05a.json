@@ -1,0 +1,21 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "a1e0306b98e6638c2dd024a2e181d9ec6d7ee5fb3a1317f9f0a8f98b7b5cdcaa",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title与blocks[0..11]全文逐段阅读；text等于完整blocks连接。内存应用明确决定并验证后，复核输出blocks[0..11]全文与标题/引语/自然段边界。",
+  "notes": "12块全文从科学定义和五标准到发现者、学者、性格动机及科研建议；段内编号标准和引用是完整论述，保留同段列举，不拆每句。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/903b5dd642c6942317b361a9730201e2be79064b2e2be3c584a100a89addf269.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "1da182132caba56564f424a1b99c4a5e23324e4570cc6993fd32392d53c18410"
+    }
+  ]
+}

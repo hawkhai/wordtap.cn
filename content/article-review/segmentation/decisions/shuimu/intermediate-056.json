@@ -1,0 +1,178 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "3fc82df1f7d52eff7307794f71fca614f602702b07c8552e20d24e2f7209c556",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "coverage": "全文 blocks[0..203]；按 JSON 上下文逐项复核对话、解释、题目、表格、词表及修复后的边界。",
+  "notes": "全文复核愚人节通心粉收获报道、逐条摘要连接点与答案、十二道题及there be语法。恢复句内机械换行，保留列举、题号、时态例句和中英对应；播音员引号等原始文字不校改。",
+  "issues": [],
+  "mergeBlocks": [
+    {
+      "start": 22,
+      "end": 23,
+      "before": [
+        "‘To end our special news bulletin,’ said the voice of the television announcer, ‘we’re",
+        "going over to the macaroni fields."
+      ],
+      "text": "‘To end our special news bulletin,’ said the voice of the television announcer, ‘we’re going over to the macaroni fields.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 24,
+      "end": 25,
+      "before": [
+        "“作为我们专题新闻节目的结尾，”电视广播员说，“我们现在到通心粉田里",
+        "看一下。"
+      ],
+      "text": "“作为我们专题新闻节目的结尾，”电视广播员说，“我们现在到通心粉田里看一下。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 28,
+      "end": 29,
+      "before": [
+        "Two of the leading growers tell me that they have been expecting a splendid crop this",
+        "year and harvesting has begun earlier than usual."
+      ],
+      "text": "Two of the leading growers tell me that they have been expecting a splendid crop this year and harvesting has begun earlier than usual.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 30,
+      "end": 31,
+      "before": [
+        "两位主要种植者告诉我，他们一直期待着今年大丰收，收割工作比往年开始要",
+        "早些。"
+      ],
+      "text": "两位主要种植者告诉我，他们一直期待着今年大丰收，收割工作比往年开始要早些。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 32,
+      "end": 33,
+      "before": [
+        "Here you can see two workers who have just finished cutting three cartloads of golden",
+        "brown macaroni stalks."
+      ],
+      "text": "Here you can see two workers who have just finished cutting three cartloads of golden brown macaroni stalks.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 35,
+      "end": 36,
+      "before": [
+        "The whole village has been working day and night gathering and threshing this year’s",
+        "crop before the September rains."
+      ],
+      "text": "The whole village has been working day and night gathering and threshing this year’s crop before the September rains.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 38,
+      "end": 39,
+      "before": [
+        "On the right, you can see Mrs. Frank herself. She has been helping her husband for",
+        "thirty years now."
+      ],
+      "text": "On the right, you can see Mrs. Frank herself. She has been helping her husband for thirty years now.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 43,
+      "end": 44,
+      "before": [
+        "This last scene shows you what will happen at the end of the harvest: the famous",
+        "macaroni-eating competition!"
+      ],
+      "text": "This last scene shows you what will happen at the end of the harvest: the famous macaroni-eating competition!",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 48,
+      "end": 49,
+      "before": [
+        "And that ends our special bulletin for today, Thursday, April lst. We’re now going",
+        "back to the studio."
+      ],
+      "text": "And that ends our special bulletin for today, Thursday, April lst. We’re now going back to the studio.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 64,
+      "end": 70,
+      "before": [
+        "Answer: To end the special news bulletin, the television announcer showed",
+        "viewers the macaroni fields, where macaroni has been grown for over six",
+        "hundred years. Harvesting has begun earlier this year and the whole village",
+        "has been working hard, gathering and threshing the crop before the",
+        "September rains. The crop is processed in the local factory. After the harvest,",
+        "the famous macaroni-eating competition, which Mr. Frank has won every year,",
+        "will take place. That ended the news bulletin for April 1st."
+      ],
+      "text": "Answer: To end the special news bulletin, the television announcer showed viewers the macaroni fields, where macaroni has been grown for over six hundred years. Harvesting has begun earlier this year and the whole village has been working hard, gathering and threshing the crop before the September rains. The crop is processed in the local factory. After the harvest, the famous macaroni-eating competition, which Mr. Frank has won every year, will take place. That ended the news bulletin for April 1st.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 83,
+      "end": 84,
+      "before": [
+        "3. Giuseppe Moldova and Riccardo Brabante ________they have been expecting a",
+        "splendid crop."
+      ],
+      "text": "3. Giuseppe Moldova and Riccardo Brabante ________they have been expecting a splendid crop.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 151,
+      "end": 154,
+      "before": [
+        "▪there be句型中的谓语动词be，根据需要有时可以用exist, lie, live, remain,",
+        "seem to be, stand, used to be等来代替动词be，这些动词都是表示状态；或",
+        "用来描写某事的发生或某人到达的动词，如: appear, come, enter, follow,",
+        "happen, occur等。"
+      ],
+      "text": "▪there be句型中的谓语动词be，根据需要有时可以用exist, lie, live, remain, seem to be, stand, used to be等来代替动词be，这些动词都是表示状态；或用来描写某事的发生或某人到达的动词，如: appear, come, enter, follow, happen, occur等。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 176,
+      "end": 177,
+      "before": [
+        "• There is no denying that the qualities of our living have gone from bad to",
+        "worse."
+      ],
+      "text": "• There is no denying that the qualities of our living have gone from bad to worse.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 189,
+      "end": 190,
+      "before": [
+        "(1)作动词宾语时,一般用there to be结构。常见动词有: expect, mean, intend, want,",
+        "prefer等。"
+      ],
+      "text": "(1)作动词宾语时,一般用there to be结构。常见动词有: expect, mean, intend, want, prefer等。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 193,
+      "end": 194,
+      "before": [
+        "(2)作介词的宾语一般用there being句式，但当介词是for时，一般用there to be句",
+        "式。"
+      ],
+      "text": "(2)作介词的宾语一般用there being句式，但当介词是for时，一般用there to be句式。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    }
+  ],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/ca50e5e985a35d87eaae65a17765265b62c4c3c125533aa53695326c461158ca.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "5a5f45012827290c32efd8209e83dbaf02abf8e74da235ae1e90af7b75100ab2"
+    }
+  ]
+}

@@ -102,30 +102,45 @@
   },
   "sources": [
     {
-      "path": "content/College-English/NHCE4-RW4.pdf",
-      "locator": "PDF 72-73，印刷页 57-58，完整正文与标题逐段核对",
+      "path": "content/article-review/history/462a54fdfb216c87f2e3e6f4a0a1ca2290b587819ebe47abb70200991d9c9095.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
       "checked": true,
-      "sha256": "5b70c28492928eefbb43a4832275c6fff070e12c7b70455ae03dc64bfa7a0a53"
-    },
-    {
-      "path": "content/College-English/NHCE4-RW4/NHCE4-RW4_72.jpg",
-      "locator": "已打开教材图页并通读复核正文",
-      "checked": true,
-      "sha256": "2860a696f3bae28f5ac523526a3ac6b0b149d713136ae8d063a570e48b5f962b"
-    },
-    {
-      "path": "content/College-English/NHCE4-RW4/NHCE4-RW4_73.jpg",
-      "locator": "已打开教材图页并通读复核正文",
-      "checked": true,
-      "sha256": "0a941d5134768ac981bce4d7af9870bfa469b3a38d771eed81f79217a4d8ecc4"
+      "sha256": "49e4fc38bc496a27a4eed032046b3a42175bc72c2e4d32cd8effe53381ea3686"
     }
   ],
   "corrections": [],
   "fullReadConfirmed": true,
   "recheckConfirmed": true,
   "reviewer": "Codex",
-  "reviewedAt": "2026-10-02T09:32:23+00:00",
-  "notes": "8段全文及PDF72–73页逐段核对。1992办校、2005毕业、五年后2010返乡时间线一致；保留摔跤伤膝、体育与艺术课程、秧歌演出、寄宿学校发展及结尾本人引语。第5段跨页和第7段跨栏续文完整，中文词注无误，无需修改。",
+  "reviewedAt": "2026-10-07T07:32:16+00:00",
+  "notes": "全文及未改动输出复核：马军返乡、学校环境、摔跤梦想受伤、任教选择、教师母亲角色、课程改革、演出、学校成长八段按事迹推进，无异常边界。",
   "issues": [],
-  "status": "passed_unchanged"
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "034ab15778114ea6c7d2217298ae0f81ed168f75729b2591763a76aa936a627a",
+    "afterFileSha256": "034ab15778114ea6c7d2217298ae0f81ed168f75729b2591763a76aa936a627a",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "034ab15778114ea6c7d2217298ae0f81ed168f75729b2591763a76aa936a627a",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "完整 title、blocks[0..7]及完全相同的text；正文及内嵌中文、引语、对话和列举均已逐项通读；无改动输出按全文再次复核。",
+      "notes": "全文及未改动输出复核：马军返乡、学校环境、摔跤梦想受伤、任教选择、教师母亲角色、课程改革、演出、学校成长八段按事迹推进，无异常边界。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/462a54fdfb216c87f2e3e6f4a0a1ca2290b587819ebe47abb70200991d9c9095.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "49e4fc38bc496a27a4eed032046b3a42175bc72c2e4d32cd8effe53381ea3686"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "462a54fdfb216c87f2e3e6f4a0a1ca2290b587819ebe47abb70200991d9c9095"
 }

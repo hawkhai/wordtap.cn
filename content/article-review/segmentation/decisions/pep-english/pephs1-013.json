@@ -1,0 +1,21 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "893561dcc91d042ead790a2fe2b819dfa630c6f5079adb560958fbc5f31bc1a7",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title；全文 blocks[0..5] 与对应 text；现有正文/对话/题干逐块通读复核。",
+  "notes": "课堂肢体语言六段中短答My answer具有独立强调功能；兴趣、走神、困扰及教师职责各段完整保留。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/9897eb6c58fee67894e3e7fb8da56494988d5eb5de50af05d92f09bdbad9fd8f.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "bac0b4ede4bdebfaedb5e8074e7a8d4bde8d6dc560b5df2b1c877323ccf9b850"
+    }
+  ]
+}

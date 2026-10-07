@@ -1,0 +1,26 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "7404fd8f7c5845c8ce0774045e775a4c54ec6ef7b8a4484ce8b308c85380c8c6",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title/titleZh、question/questionZh、bodyText全部10行、bodyTextZh全部10行及sentences[0..12]的完整文字；重复正文与字幕文本逐字比对，非正文字幕另读。操作在内存应用并validate_layout_change，修复后的双语全文重新通读。",
+  "notes": "暴风海上逃生；乘船遇险游八英里、见光攀崖、医院醒来三段，开篇一周后述说独立。 text与bodyText同步；sentences对象及时间、角色、索引原样保留。",
+  "issues": [],
+  "display": {
+    "text": "Why was the girl in hospital?\n\nNearly a week passed before the girl was able to explain what had happened to her.\nOne afternoon she set out from the coast in a small boat and was caught in a storm. Towards evening, the boat struck a rock and the girl jumped into the sea. Then she swam to the shore after spending the whole night in the water. During that time she covered a distance of eight miles.\nEarly next morning, she saw a light ahead. She knew she was near the shore because the light was high up on the cliffs. On arriving at the shore, the girl struggled up the cliff towards the light she had seen.\nThat was all she remembered. When she woke up a day later, she found herself in hospital.",
+    "bodyText": "Nearly a week passed before the girl was able to explain what had happened to her.\nOne afternoon she set out from the coast in a small boat and was caught in a storm. Towards evening, the boat struck a rock and the girl jumped into the sea. Then she swam to the shore after spending the whole night in the water. During that time she covered a distance of eight miles.\nEarly next morning, she saw a light ahead. She knew she was near the shore because the light was high up on the cliffs. On arriving at the shore, the girl struggled up the cliff towards the light she had seen.\nThat was all she remembered. When she woke up a day later, she found herself in hospital.",
+    "bodyTextZh": "差不多过了一个星期，那个女孩才能够解释清楚她身上到底发生了什么事。\n一天下午，她从海岸乘坐一艘小船出发。结果被一场暴风雨困住了。到了傍晚时分，船撞上了一块岩石。那个女孩跳进了海里。然后她游到了岸边。在水中度过了一整夜之后，游了八英里的距离。\n第二天清晨，她看到前方有一道光。她知道自己已经接近海岸了。因为灯光位于悬崖的高处。到达岸边后，那个女孩费力地爬上悬崖，朝着她看到的那道光爬去。\n那就是她所记得的全部内容了。一天后醒来时，她被送进了医院。"
+  },
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/b8ff33b42a7138fff23aa14ff7895be0725cca15139f913ff735af5d93c0e13e.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "ab4ee84e64409875bb7103fb0373e6c237c5aae4d99b1ed14318177232539c78"
+    }
+  ]
+}

@@ -1,0 +1,818 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "ff570e51040c7c1f770f98830e5aef8348720d63d6bcb5ad9fd1c086b027f2e6",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "完整title、blocks[0..6]及等同text；航天飞机完形1—15全部选项、交通礼貌/气候/奥运三篇16—30题和全部选项、智力测试31—35翻译全文，亲子理解写作全部要求及现有残缺大纲；JSON无答案或中文译文。 修后全部blocks[0..194]全文及对应自然段均已再次复核，validate_layout_change通过。",
+  "notes": "Road politeness跨页good-tempered/of drivers、19题each/other、28题was/wrong、智力测试our/culture均直接续接。气候七段因果讨论不拆句；奥运竞技与爱国主义结论三句并段。智力定义与测试范围说明相连，比较有效性保留长段。大纲独立d和缺失内容只保留现有文字，不补写；workhouse、counte-balance等非空白疑误不校勘。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [
+    {
+      "index": 0,
+      "end": 6,
+      "before": [
+        "1992 年全国硕士研究生入学统一考试英语试题 Section ⅠUse of English Directions:\nFor each numbered blank in the following passage, there are four choices marked ［A］，［B］ ， ［C］and ［D］.Choose the best one and put your choice in the ANSWER SHEET. (15 points)\nThe key to the industrialization of space is the U.S. space shuttle. ___1___ it, astronauts will acquire a workhouse vehicle ___2___ of flying into space and returning many times. ___3___ by reusable rockets t hat can lift a load of 65,000 pounds, the shuttle will carry devices for scientific inquiry, as ___4___ as a variety of military hardware. ___5___ more significantly, it will ___6___ materials and machines into space for industrial purposes ___7___ two dec ades ago when “sputnik” (artificial satellite) was ___8___ to the vocabulary. In short, the ___9___ importance of the shuttle lies in its ___10___ as an economic tool.\nWhat makes the space shuttle ___11___ is that it takes off like a rocket but lands like an airplane. ___12___, when it has accomplished its ___13___, it can be ready for ___14___ trip in about two weeks.\nThe space shuttle, the world’s first true spaceship, is a magnificent step ___15___ making the impossible possible for the benefit and survi val of man.\n1. ［A］ In ［B］On ［C］By ［D］ With\n2. ［A］ capable ［B］ suitable ［C］ efficient ［D］ fit\n3. ［A］ Served ［B］ Powered ［C］ Forced ［D］ Reinforced\n4. ［A］ far ［B］ well ［C］ much ［D］ long\n5. ［A］ Then ［B］ Or ［C］ But ［D］ So\n6. ［A］ supply ［B］ introduce ［C］ deliver ［D］ transfer\n7. ［A］ unimagined ［B］ unsettled ［C］ uncovered ［D］unsolved\n8. ［A］ attributed ［B］ contributed ［C］ applied ［D］ added\n9. ［A］ general ［B］ essential ［C］ prevailing ［D］ ultimate\n10. ［A］ promise ［B］ prosperity ［C］ popularity ［D］ priority\n11. ［A］ exceptional ［B］ strange ［C］ unique ［D］ rare\n12. ［A］ Thus ［B］ Whereas ［C］ Nevertheless ［D］ Yet\n13. ［A］ venture ［B］mission ［C］ commission ［D］ responsibility\n14. ［A］ new ［B］ another ［C］ certain ［D］ subsequent\n15. ［A］ for ［B］ by ［C］ in ［D］ through Part ⅡReading Comprehension Part A Directions:\nEach of the passages below is followe d by some questions. For each question four answers are given. Read the passages carefully and choose the best answer to each of the questions. Put your choice in the ANSWER SHEET.(30 points)\nPassage 1 It is all very well to blame traffic jams, the cost o f petrol and the quick pace of modern life, but manners on the roads are becoming horrible. Everybody knows that the nicest men become monsters behind the wheel. It is all very well, again, to have a tiger in the tank, but to have one in the driver’s seat is another matter altogether. You might tolerate the odd road -hog, the rude and inconsiderate driver, but nowadays the well -mannered motorist is the exception to the rule. (Perhaps the situation calls for a “Be Kind to Other Drivers” campaign, otherwise it may get completely out of hand.)\nRoad politeness is not only good manners, but good sense too. It takes the most cool -headed and good-tempered",
+        "of drivers to resist the temptation to revenge when subjected to uncivilized behavior. On the other hand, a litt le politeness goes a long way towards relieving the tensions of motoring. A friendly nod or a wave of acknowledgment in response to an act of politeness helps to create an atmosphere of goodwill and tolerance so necessary in modern traffic conditions. But such acknowledgments of politeness are all too rare today. Many drivers nowadays don’t even seem able to recognize politeness when they see it.\nHowever, misplaced politeness can also be dangerous. Typical examples are the driver who brakes violently to allow a car to emerge from a side street at some hazard to following traffic, when a few seconds later the road would be clear anyway; or the man who waves a child across a zebra crossing into the path of oncoming vehicles that may be unable to stop in time. The same goes for encouraging old ladies to cross the road wherever and whenever they care to. It always amazes me that the highways are not covered with the dead bodies of these grannies.\nA veteran driver, whose manners are faultless, told me it would hel p if motorists learnt to filter correctly into traffic streams one at a time without causing the total blockages that give rise to bad temper. Unfortunately, modern motorists can’t even learn to drive, let alone master the subtler aspects of roadsmanship. Years ago the experts warned us that the car ownership explosion would demand a lot more give -and-take from all road users. It is high time for all of us to take this message to heart.\n16. According to this passage, troubles on the road are primarily caused by________.\n[A] people’s attitude towards the road -hog [B] the rhythm of modern life [C] the behavior of the driver [D] traffic conditions\n17. The sentence “You might tolerate the odd road-hog...the rule.”(Para.1) implies that___.\n[A] our so ciety is unjust towards well-mannered motorists [B] rude drivers can be met only occasionally [C] the well -mannered motorist cannot tolerate the road-hog [D] nowadays impolite drivers constitute the majority of motorists\n18. By “good sense”, the w riter means_____.\n[A] the driver’s ability to understand and react reasonably [B] the driver’s prompt response to difficult and severe conditions [C] the driver’s tolerance of rude or even savage behavior [D] the driver’s acknowledgment of politene ss and regulations\n19. Experts have long pointed out that in the face of car-ownership explosion, __________.\n[A] road users should make more sacrifice [B] drivers should be ready to yield to each",
+        "other [C]drivers should have more communication among themselves [D]drivers will suffer great loss if they pay no respect to others\n20. In the writer’s opinion, ___________.\n[A]strict traffic regulations are badly needed [B]drivers should apply road politeness properly [C] rude drivers should be punished [D] drivers should avoid traffic jams Passage 2 In the atmosphere, carbon dioxide acts rather like a one -way mirror—the glass in the roof of a greenhouse which allows the sun’s rays to enter but prevents the heat from escaping.\nAccording to a weather expert’s prediction, the atmosphere will be 3°C warmer in the year 2050 than it is today, if man continues to burn fuels at the present rate. If this warming up took place, the ice caps in the poles would begin to melt, thus raising sea level s everal metres and severely flooding coastal cities. Also, the increase in atmospheric temperature would lead to great changes in the climate of the northern hemisphere, possibly resulting in an alteration of the earth’s chief food-growing zones.\nIn the past, concern about a man-made warming of the earth has concentrated on the Arctic because the Antarctic is much colder and has a much thicker ice sheet. But the weather experts are now paying more attention to West Antarctic, which may be affected by only a few degrees of warming: in other words, by a warming on the scale that will possibly take place in the next fifty years from the burning of fuels.\nSatellite pictures show that large areas of Antarctic ice are already disappearing. The evidence available su ggests that a warming has taken place. This fits the theory that carbon dioxide warms the earth.\nHowever, most of the fuel is burnt in the northern hemisphere, where temperatures seem to be falling. Scientists conclude, therefore, that up to now natural in fluences on the weather have exceeded those caused by man. The question is: Which natural cause has most effect on the weather?\nOne possibility is the variable behavior of the sun. Astronomers at one research station have studied the hot spots and “cold” spots (that is, the relatively less hot spots) on the sun. As the sun rotates, every 27.5 days, it presents hotter or “colder” faces to the earth, and different aspects to different parts of the earth. This seems to have a considerable effect on the distrib ution of the earth’s atmospheric pressure, and consequently on wind circulation. The sun is also variable over a long term: its heat output goes up and down in cycles, the latest trend being downward.\nScientists are now finding mutual relations between mod els of solar-weather interactions and the actual climate over many thousands of years, including the last Ice Age. The problem is that the models are predicting that the world should be entering a new Ice Age and it is not. One way of solving this theoreti cal difficulty is to assume a delay of thousands of years while the solar effects overcome the inertia( 惯性)of the earth’s climate. If this is right, the warming effect of carbon dioxide might thus be serving as a useful counte -balance to the sun’s diminishing heat.\n21. It can be concluded that a concentration of carbon dioxide in the atmosphere would_____.\n[A] prevent the sun’s rays from reaching the earth’s surface",
+        "[B] mean a warming up in the Arctic [C] account for great changes in the climate in the northern hemisphere [D] raise the temperature of the earth’s surface\n22. The article was written to explain________.\n[A] the greenhouse effect [B] the solar effects on the earth [C] the models of solar-weather interactions [D] the causes affecting weather\n23. Although the fuel consumption is greater in the northern hemisphere, temperatures there seem to be falling. This is___________.\n[A] mainly because the levels of carbon dioxide are rising [B] possibly because the ice caps in the pol es are melting [C] exclusively due to the effect of the inertia of the earth’s climate [D] partly due to variations in the output of solar energy\n24. On the basis of their models, scientists are of the opinion that________.\n[A] the climate of the world should be becoming cooler [B] it will take thousands of years for the inertia of the earth’s climate to take effect [C] the man -made warming effect helps to increase the solar effects [D] the new Ice Age will be delayed by the greenhouse effect\n25. If the assumption about the delay of a new Ice Age is correct, ___________.\n[A] the best way to overcome the cooling effect would be to burn more fuels [B]ice would soon cover the northern hemisphere [C] the increased levels of carbon dioxide in the atmosphere could warm up the earth even more quickly [D] the greenhouse effect could work to the advantage of the earth",
+        "Passage 3 Some people believe that international sport creates goodwill between the nations and that if countries play games together they will learn to live together. Others say that the opposite is true: that international contests encourage false national pride and lead to misunderstanding and hatred. There is probably some truth in both arguments, but in recent years the O lympic Games have done little to support the view that sports encourages international brotherhood. Not only was there the tragic incident involving the murder of athletes, but the Games were also ruined by lesser incidents caused principally by minor national contests.\nOne country received its second-place medals with visible indignation after the hockey( 曲棍球)final. There had been noisy scenes at the end of the hockey match, the losers objecting to the final decisions. They were convinced that one of their goals should not have been disallowed and that their opponents’ victory was unfair. Their manager was in a rage when he said: “This wasn’t hockey. Hockey and the International Hockey Federation are finished.” The president of the Federation said later that s uch behavior could result in the suspension of the team for at least three years.\nThe American basketball team announced that they would not yield first place to Russia, after a disputable end to their contest. The game had ended in disturbance. It was tho ught at first that the United States had won, by a single point, but it was announced that there were three seconds still to play. A Russian player then threw the ball from one end of the court to the other, and another player popped it into the basket. It was the first time the USA had ever lost an Olympic basketball match. An appeal jury debated the matter for four and a half hours before announcing that the result would stand. The American players then voted not to receive the silver medals.\nIncidents of this kind will continue as long as sport is played competitively rather than for the love of the game.\nThe suggestion that athletes should compete as individuals or in non -national teams might be too much to hope for.\nBut in the present organization of the Olympics there is far too much that encourages aggressive patriotism.\n26. According to the author, recent Olympic Games have _______.\n[A] created goodwill between the nations [B] bred only false national pride [C] barely showed any international friendship [D] led to more and more misunderstanding and hatred\n27. What did the manager mean by saying, “...Hockey and the International Hockey Federation are finished”?\n[A] His team would no longer take part in international games.\n[B]Hockey and t he Federation are both ruined by the unfair decisions.\n[C]There should be no more hockey matches organized by the Federation.\n[D] The Federation should be dissolved.\n28. The basketball example implied that______.\n[A] too much patriotism was displa yed in the incident [B] the announcement to prolong the match was",
+        "wrong [C] the appeal jury was too hesitant in making the decision [D] the American team was right in rejecting the silver medals\n29. The author gives the two examples in paragraphs 2 and 3 to show____________.\n[A] how false national pride led to undesirable incidents in international games [B] that sportsmen have been more obedient than they used to be [C] that competitiveness in the games discourages international friendship [D] that unfair decisions are common in Olympic Games\n30. What conclusion can be drawn from the passage?\n[A]The organization of the Olympic Games must be improved.\n[B]Athletes should compete as individuals in the Olympic Games.\n[C] Sport should b e played competitively rather than for the love of the game.\n[D]International contests are liable for misunderstanding between nations.\nPart B Directions:\nRead the following passage carefully and then translate the underlined sentences into Chinese.(1 5 points)\n“Intelligence” at best is an assumptive construct —the meaning of the word has never been clear. 31) There is more agreement on the kinds of behavior referred to by the term than there is on how to interpret or classify them.\nBut it is generally agreed that a person of high intelligence is one who can grasp ideas readily, make distinctions, reason logically, and make use of verbal and mathematical symbols in solving problems. An intelligence test is a rough measure of a child’s capacity for learni ng, particularly for learning the kinds of things required in school. It does not measure character, social adjustment, physical endurance, manual skills, or artistic abilities. It is not supposed to —it was not designed for such purposes. 32) To criticize it for such failure is roughly comparable to criticizing a thermometer for not measuring wind velocity.\nThe other thing we have to notice is that the assessment of the intelligence of any subject is essentially a comparative affair.\n33) Now since the asses sment of intelligence is a comparative matter we must be sure that the scale with which we are comparing our subjects provides a “valid” or “fair” comparison. It is here that some of the difficulties which interest us begin. Any test performed involves at least three factors: the intention to do one’s best, the knowledge required for understanding what you have to do, and the intellectual ability to do it. 34) The first two must be equal for all who are being compared, if any comparison in terms of intellig ence is to be made. In school populations in our",
+        "culture these assumptions can be made fair and reasonable, and the value of intelligence testing has been proved thoroughly. Its value lies, of course, in its providing a satisfactory basis for prediction. N o one is in the least interested in the marks a little child gets on his test; What we are interested in is whether we can conclude from his mark on the test that the child will do better or worse than other children of his age at tasks which we think requ ire “general intelligence”. 35) On the whole such a conclusion can be drawn with a certain degree of confidence, but only if the child can be assumed to have had the same attitude towards the test as the other with whom he is being compared, and only if he was not punished by lack of relevant information which they possessed.\nSection Ⅲ Writing(15points)\nDirections:\nA. Title: FOR A BETTER UNDERSTANDING BETWEEN PARENT AND CHILD\nB. Time limit:40 minutes\nC. Word limit:120-150 words (not including the given opening sentence)\nD. Your composition should be based on the OUTLINE below and should start with the given opening sentence.\nE. Your composition must be written clearly on the ANSWER SHEET.\nOUTLINE:\nd\n1) Different likes and dislikes； 2)Misunderstanding；3)Others\n1) For parents；2) For children"
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "1992 年全国硕士研究生入学统一考试英语试题"
+        },
+        {
+          "type": "paragraph",
+          "text": "Section ⅠUse of English"
+        },
+        {
+          "type": "paragraph",
+          "text": "Directions: For each numbered blank in the following passage, there are four choices marked ［A］，［B］ ， ［C］and ［D］.Choose the best one and put your choice in the ANSWER SHEET. (15 points)"
+        },
+        {
+          "type": "paragraph",
+          "text": "The key to the industrialization of space is the U.S. space shuttle. ___1___ it, astronauts will acquire a workhouse vehicle ___2___ of flying into space and returning many times. ___3___ by reusable rockets that can lift a load of 65,000 pounds, the shuttle will carry devices for scientific inquiry, as ___4___ as a variety of military hardware. ___5___ more significantly, it will ___6___ materials and machines into space for industrial purposes ___7___ two decades ago when “sputnik” (artificial satellite) was ___8___ to the vocabulary. In short, the ___9___ importance of the shuttle lies in its ___10___ as an economic tool."
+        },
+        {
+          "type": "paragraph",
+          "text": "What makes the space shuttle ___11___ is that it takes off like a rocket but lands like an airplane. ___12___, when it has accomplished its ___13___, it can be ready for ___14___ trip in about two weeks."
+        },
+        {
+          "type": "paragraph",
+          "text": "The space shuttle, the world’s first true spaceship, is a magnificent step ___15___ making the impossible possible for the benefit and survival of man."
+        },
+        {
+          "type": "paragraph",
+          "text": "1."
+        },
+        {
+          "type": "paragraph",
+          "text": "［A］ In"
+        },
+        {
+          "type": "paragraph",
+          "text": "［B］On"
+        },
+        {
+          "type": "paragraph",
+          "text": "［C］By"
+        },
+        {
+          "type": "paragraph",
+          "text": "［D］ With"
+        },
+        {
+          "type": "paragraph",
+          "text": "2."
+        },
+        {
+          "type": "paragraph",
+          "text": "［A］ capable"
+        },
+        {
+          "type": "paragraph",
+          "text": "［B］ suitable"
+        },
+        {
+          "type": "paragraph",
+          "text": "［C］ efficient"
+        },
+        {
+          "type": "paragraph",
+          "text": "［D］ fit"
+        },
+        {
+          "type": "paragraph",
+          "text": "3."
+        },
+        {
+          "type": "paragraph",
+          "text": "［A］ Served"
+        },
+        {
+          "type": "paragraph",
+          "text": "［B］ Powered"
+        },
+        {
+          "type": "paragraph",
+          "text": "［C］ Forced"
+        },
+        {
+          "type": "paragraph",
+          "text": "［D］ Reinforced"
+        },
+        {
+          "type": "paragraph",
+          "text": "4."
+        },
+        {
+          "type": "paragraph",
+          "text": "［A］ far"
+        },
+        {
+          "type": "paragraph",
+          "text": "［B］ well"
+        },
+        {
+          "type": "paragraph",
+          "text": "［C］ much"
+        },
+        {
+          "type": "paragraph",
+          "text": "［D］ long"
+        },
+        {
+          "type": "paragraph",
+          "text": "5."
+        },
+        {
+          "type": "paragraph",
+          "text": "［A］ Then"
+        },
+        {
+          "type": "paragraph",
+          "text": "［B］ Or"
+        },
+        {
+          "type": "paragraph",
+          "text": "［C］ But"
+        },
+        {
+          "type": "paragraph",
+          "text": "［D］ So"
+        },
+        {
+          "type": "paragraph",
+          "text": "6."
+        },
+        {
+          "type": "paragraph",
+          "text": "［A］ supply"
+        },
+        {
+          "type": "paragraph",
+          "text": "［B］ introduce"
+        },
+        {
+          "type": "paragraph",
+          "text": "［C］ deliver"
+        },
+        {
+          "type": "paragraph",
+          "text": "［D］ transfer"
+        },
+        {
+          "type": "paragraph",
+          "text": "7."
+        },
+        {
+          "type": "paragraph",
+          "text": "［A］ unimagined"
+        },
+        {
+          "type": "paragraph",
+          "text": "［B］ unsettled"
+        },
+        {
+          "type": "paragraph",
+          "text": "［C］ uncovered"
+        },
+        {
+          "type": "paragraph",
+          "text": "［D］unsolved"
+        },
+        {
+          "type": "paragraph",
+          "text": "8."
+        },
+        {
+          "type": "paragraph",
+          "text": "［A］ attributed"
+        },
+        {
+          "type": "paragraph",
+          "text": "［B］ contributed"
+        },
+        {
+          "type": "paragraph",
+          "text": "［C］ applied"
+        },
+        {
+          "type": "paragraph",
+          "text": "［D］ added"
+        },
+        {
+          "type": "paragraph",
+          "text": "9."
+        },
+        {
+          "type": "paragraph",
+          "text": "［A］ general"
+        },
+        {
+          "type": "paragraph",
+          "text": "［B］ essential"
+        },
+        {
+          "type": "paragraph",
+          "text": "［C］ prevailing"
+        },
+        {
+          "type": "paragraph",
+          "text": "［D］ ultimate"
+        },
+        {
+          "type": "paragraph",
+          "text": "10."
+        },
+        {
+          "type": "paragraph",
+          "text": "［A］ promise"
+        },
+        {
+          "type": "paragraph",
+          "text": "［B］ prosperity"
+        },
+        {
+          "type": "paragraph",
+          "text": "［C］ popularity"
+        },
+        {
+          "type": "paragraph",
+          "text": "［D］ priority"
+        },
+        {
+          "type": "paragraph",
+          "text": "11."
+        },
+        {
+          "type": "paragraph",
+          "text": "［A］ exceptional"
+        },
+        {
+          "type": "paragraph",
+          "text": "［B］ strange"
+        },
+        {
+          "type": "paragraph",
+          "text": "［C］ unique"
+        },
+        {
+          "type": "paragraph",
+          "text": "［D］ rare"
+        },
+        {
+          "type": "paragraph",
+          "text": "12."
+        },
+        {
+          "type": "paragraph",
+          "text": "［A］ Thus"
+        },
+        {
+          "type": "paragraph",
+          "text": "［B］ Whereas"
+        },
+        {
+          "type": "paragraph",
+          "text": "［C］ Nevertheless"
+        },
+        {
+          "type": "paragraph",
+          "text": "［D］ Yet"
+        },
+        {
+          "type": "paragraph",
+          "text": "13."
+        },
+        {
+          "type": "paragraph",
+          "text": "［A］ venture"
+        },
+        {
+          "type": "paragraph",
+          "text": "［B］mission"
+        },
+        {
+          "type": "paragraph",
+          "text": "［C］ commission"
+        },
+        {
+          "type": "paragraph",
+          "text": "［D］ responsibility"
+        },
+        {
+          "type": "paragraph",
+          "text": "14."
+        },
+        {
+          "type": "paragraph",
+          "text": "［A］ new"
+        },
+        {
+          "type": "paragraph",
+          "text": "［B］ another"
+        },
+        {
+          "type": "paragraph",
+          "text": "［C］ certain"
+        },
+        {
+          "type": "paragraph",
+          "text": "［D］ subsequent"
+        },
+        {
+          "type": "paragraph",
+          "text": "15."
+        },
+        {
+          "type": "paragraph",
+          "text": "［A］ for"
+        },
+        {
+          "type": "paragraph",
+          "text": "［B］ by"
+        },
+        {
+          "type": "paragraph",
+          "text": "［C］ in"
+        },
+        {
+          "type": "paragraph",
+          "text": "［D］ through"
+        },
+        {
+          "type": "paragraph",
+          "text": "Part ⅡReading Comprehension"
+        },
+        {
+          "type": "paragraph",
+          "text": "Part A"
+        },
+        {
+          "type": "paragraph",
+          "text": "Directions: Each of the passages below is followed by some questions. For each question four answers are given. Read the passages carefully and choose the best answer to each of the questions. Put your choice in the ANSWER SHEET.(30 points)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Passage 1"
+        },
+        {
+          "type": "paragraph",
+          "text": "It is all very well to blame traffic jams, the cost of petrol and the quick pace of modern life, but manners on the roads are becoming horrible. Everybody knows that the nicest men become monsters behind the wheel. It is all very well, again, to have a tiger in the tank, but to have one in the driver’s seat is another matter altogether. You might tolerate the odd road-hog, the rude and inconsiderate driver, but nowadays the well-mannered motorist is the exception to the rule. (Perhaps the situation calls for a “Be Kind to Other Drivers” campaign, otherwise it may get completely out of hand.)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Road politeness is not only good manners, but good sense too. It takes the most cool-headed and good-tempered of drivers to resist the temptation to revenge when subjected to uncivilized behavior. On the other hand, a little politeness goes a long way towards relieving the tensions of motoring. A friendly nod or a wave of acknowledgment in response to an act of politeness helps to create an atmosphere of goodwill and tolerance so necessary in modern traffic conditions. But such acknowledgments of politeness are all too rare today. Many drivers nowadays don’t even seem able to recognize politeness when they see it."
+        },
+        {
+          "type": "paragraph",
+          "text": "However, misplaced politeness can also be dangerous. Typical examples are the driver who brakes violently to allow a car to emerge from a side street at some hazard to following traffic, when a few seconds later the road would be clear anyway; or the man who waves a child across a zebra crossing into the path of oncoming vehicles that may be unable to stop in time. The same goes for encouraging old ladies to cross the road wherever and whenever they care to. It always amazes me that the highways are not covered with the dead bodies of these grannies."
+        },
+        {
+          "type": "paragraph",
+          "text": "A veteran driver, whose manners are faultless, told me it would help if motorists learnt to filter correctly into traffic streams one at a time without causing the total blockages that give rise to bad temper. Unfortunately, modern motorists can’t even learn to drive, let alone master the subtler aspects of roadsmanship. Years ago the experts warned us that the car ownership explosion would demand a lot more give-and-take from all road users. It is high time for all of us to take this message to heart."
+        },
+        {
+          "type": "paragraph",
+          "text": "16. According to this passage, troubles on the road are primarily caused by________."
+        },
+        {
+          "type": "paragraph",
+          "text": "[A] people’s attitude towards the road-hog"
+        },
+        {
+          "type": "paragraph",
+          "text": "[B] the rhythm of modern life"
+        },
+        {
+          "type": "paragraph",
+          "text": "[C] the behavior of the driver"
+        },
+        {
+          "type": "paragraph",
+          "text": "[D] traffic conditions"
+        },
+        {
+          "type": "paragraph",
+          "text": "17. The sentence “You might tolerate the odd road-hog...the rule.”(Para.1) implies that___."
+        },
+        {
+          "type": "paragraph",
+          "text": "[A] our society is unjust towards well-mannered motorists"
+        },
+        {
+          "type": "paragraph",
+          "text": "[B] rude drivers can be met only occasionally"
+        },
+        {
+          "type": "paragraph",
+          "text": "[C] the well-mannered motorist cannot tolerate the road-hog"
+        },
+        {
+          "type": "paragraph",
+          "text": "[D] nowadays impolite drivers constitute the majority of motorists"
+        },
+        {
+          "type": "paragraph",
+          "text": "18. By “good sense”, the writer means_____."
+        },
+        {
+          "type": "paragraph",
+          "text": "[A] the driver’s ability to understand and react reasonably"
+        },
+        {
+          "type": "paragraph",
+          "text": "[B] the driver’s prompt response to difficult and severe conditions"
+        },
+        {
+          "type": "paragraph",
+          "text": "[C] the driver’s tolerance of rude or even savage behavior"
+        },
+        {
+          "type": "paragraph",
+          "text": "[D] the driver’s acknowledgment of politeness and regulations"
+        },
+        {
+          "type": "paragraph",
+          "text": "19. Experts have long pointed out that in the face of car-ownership explosion, __________."
+        },
+        {
+          "type": "paragraph",
+          "text": "[A] road users should make more sacrifice"
+        },
+        {
+          "type": "paragraph",
+          "text": "[B] drivers should be ready to yield to each other"
+        },
+        {
+          "type": "paragraph",
+          "text": "[C]drivers should have more communication among themselves"
+        },
+        {
+          "type": "paragraph",
+          "text": "[D]drivers will suffer great loss if they pay no respect to others"
+        },
+        {
+          "type": "paragraph",
+          "text": "20. In the writer’s opinion, ___________."
+        },
+        {
+          "type": "paragraph",
+          "text": "[A]strict traffic regulations are badly needed"
+        },
+        {
+          "type": "paragraph",
+          "text": "[B]drivers should apply road politeness properly"
+        },
+        {
+          "type": "paragraph",
+          "text": "[C] rude drivers should be punished"
+        },
+        {
+          "type": "paragraph",
+          "text": "[D] drivers should avoid traffic jams"
+        },
+        {
+          "type": "paragraph",
+          "text": "Passage 2"
+        },
+        {
+          "type": "paragraph",
+          "text": "In the atmosphere, carbon dioxide acts rather like a one-way mirror—the glass in the roof of a greenhouse which allows the sun’s rays to enter but prevents the heat from escaping."
+        },
+        {
+          "type": "paragraph",
+          "text": "According to a weather expert’s prediction, the atmosphere will be 3°C warmer in the year 2050 than it is today, if man continues to burn fuels at the present rate. If this warming up took place, the ice caps in the poles would begin to melt, thus raising sea level several metres and severely flooding coastal cities. Also, the increase in atmospheric temperature would lead to great changes in the climate of the northern hemisphere, possibly resulting in an alteration of the earth’s chief food-growing zones."
+        },
+        {
+          "type": "paragraph",
+          "text": "In the past, concern about a man-made warming of the earth has concentrated on the Arctic because the Antarctic is much colder and has a much thicker ice sheet. But the weather experts are now paying more attention to West Antarctic, which may be affected by only a few degrees of warming: in other words, by a warming on the scale that will possibly take place in the next fifty years from the burning of fuels."
+        },
+        {
+          "type": "paragraph",
+          "text": "Satellite pictures show that large areas of Antarctic ice are already disappearing. The evidence available suggests that a warming has taken place. This fits the theory that carbon dioxide warms the earth."
+        },
+        {
+          "type": "paragraph",
+          "text": "However, most of the fuel is burnt in the northern hemisphere, where temperatures seem to be falling. Scientists conclude, therefore, that up to now natural influences on the weather have exceeded those caused by man. The question is: Which natural cause has most effect on the weather?"
+        },
+        {
+          "type": "paragraph",
+          "text": "One possibility is the variable behavior of the sun. Astronomers at one research station have studied the hot spots and “cold” spots (that is, the relatively less hot spots) on the sun. As the sun rotates, every 27.5 days, it presents hotter or “colder” faces to the earth, and different aspects to different parts of the earth. This seems to have a considerable effect on the distribution of the earth’s atmospheric pressure, and consequently on wind circulation. The sun is also variable over a long term: its heat output goes up and down in cycles, the latest trend being downward."
+        },
+        {
+          "type": "paragraph",
+          "text": "Scientists are now finding mutual relations between models of solar-weather interactions and the actual climate over many thousands of years, including the last Ice Age. The problem is that the models are predicting that the world should be entering a new Ice Age and it is not. One way of solving this theoretical difficulty is to assume a delay of thousands of years while the solar effects overcome the inertia( 惯性)of the earth’s climate. If this is right, the warming effect of carbon dioxide might thus be serving as a useful counte-balance to the sun’s diminishing heat."
+        },
+        {
+          "type": "paragraph",
+          "text": "21. It can be concluded that a concentration of carbon dioxide in the atmosphere would_____."
+        },
+        {
+          "type": "paragraph",
+          "text": "[A] prevent the sun’s rays from reaching the earth’s surface"
+        },
+        {
+          "type": "paragraph",
+          "text": "[B] mean a warming up in the Arctic"
+        },
+        {
+          "type": "paragraph",
+          "text": "[C] account for great changes in the climate in the northern hemisphere"
+        },
+        {
+          "type": "paragraph",
+          "text": "[D] raise the temperature of the earth’s surface"
+        },
+        {
+          "type": "paragraph",
+          "text": "22. The article was written to explain________."
+        },
+        {
+          "type": "paragraph",
+          "text": "[A] the greenhouse effect"
+        },
+        {
+          "type": "paragraph",
+          "text": "[B] the solar effects on the earth"
+        },
+        {
+          "type": "paragraph",
+          "text": "[C] the models of solar-weather interactions"
+        },
+        {
+          "type": "paragraph",
+          "text": "[D] the causes affecting weather"
+        },
+        {
+          "type": "paragraph",
+          "text": "23. Although the fuel consumption is greater in the northern hemisphere, temperatures there seem to be falling. This is___________."
+        },
+        {
+          "type": "paragraph",
+          "text": "[A] mainly because the levels of carbon dioxide are rising"
+        },
+        {
+          "type": "paragraph",
+          "text": "[B] possibly because the ice caps in the poles are melting"
+        },
+        {
+          "type": "paragraph",
+          "text": "[C] exclusively due to the effect of the inertia of the earth’s climate"
+        },
+        {
+          "type": "paragraph",
+          "text": "[D] partly due to variations in the output of solar energy"
+        },
+        {
+          "type": "paragraph",
+          "text": "24. On the basis of their models, scientists are of the opinion that________."
+        },
+        {
+          "type": "paragraph",
+          "text": "[A] the climate of the world should be becoming cooler"
+        },
+        {
+          "type": "paragraph",
+          "text": "[B] it will take thousands of years for the inertia of the earth’s climate to take effect"
+        },
+        {
+          "type": "paragraph",
+          "text": "[C] the man-made warming effect helps to increase the solar effects"
+        },
+        {
+          "type": "paragraph",
+          "text": "[D] the new Ice Age will be delayed by the greenhouse effect"
+        },
+        {
+          "type": "paragraph",
+          "text": "25. If the assumption about the delay of a new Ice Age is correct, ___________."
+        },
+        {
+          "type": "paragraph",
+          "text": "[A] the best way to overcome the cooling effect would be to burn more fuels"
+        },
+        {
+          "type": "paragraph",
+          "text": "[B]ice would soon cover the northern hemisphere"
+        },
+        {
+          "type": "paragraph",
+          "text": "[C] the increased levels of carbon dioxide in the atmosphere could warm up the earth even more quickly"
+        },
+        {
+          "type": "paragraph",
+          "text": "[D] the greenhouse effect could work to the advantage of the earth"
+        },
+        {
+          "type": "paragraph",
+          "text": "Passage 3"
+        },
+        {
+          "type": "paragraph",
+          "text": "Some people believe that international sport creates goodwill between the nations and that if countries play games together they will learn to live together. Others say that the opposite is true: that international contests encourage false national pride and lead to misunderstanding and hatred. There is probably some truth in both arguments, but in recent years the Olympic Games have done little to support the view that sports encourages international brotherhood. Not only was there the tragic incident involving the murder of athletes, but the Games were also ruined by lesser incidents caused principally by minor national contests."
+        },
+        {
+          "type": "paragraph",
+          "text": "One country received its second-place medals with visible indignation after the hockey( 曲棍球)final. There had been noisy scenes at the end of the hockey match, the losers objecting to the final decisions. They were convinced that one of their goals should not have been disallowed and that their opponents’ victory was unfair. Their manager was in a rage when he said: “This wasn’t hockey. Hockey and the International Hockey Federation are finished.” The president of the Federation said later that such behavior could result in the suspension of the team for at least three years."
+        },
+        {
+          "type": "paragraph",
+          "text": "The American basketball team announced that they would not yield first place to Russia, after a disputable end to their contest. The game had ended in disturbance. It was thought at first that the United States had won, by a single point, but it was announced that there were three seconds still to play. A Russian player then threw the ball from one end of the court to the other, and another player popped it into the basket. It was the first time the USA had ever lost an Olympic basketball match. An appeal jury debated the matter for four and a half hours before announcing that the result would stand. The American players then voted not to receive the silver medals."
+        },
+        {
+          "type": "paragraph",
+          "text": "Incidents of this kind will continue as long as sport is played competitively rather than for the love of the game. The suggestion that athletes should compete as individuals or in non-national teams might be too much to hope for. But in the present organization of the Olympics there is far too much that encourages aggressive patriotism."
+        },
+        {
+          "type": "paragraph",
+          "text": "26. According to the author, recent Olympic Games have _______."
+        },
+        {
+          "type": "paragraph",
+          "text": "[A] created goodwill between the nations"
+        },
+        {
+          "type": "paragraph",
+          "text": "[B] bred only false national pride"
+        },
+        {
+          "type": "paragraph",
+          "text": "[C] barely showed any international friendship"
+        },
+        {
+          "type": "paragraph",
+          "text": "[D] led to more and more misunderstanding and hatred"
+        },
+        {
+          "type": "paragraph",
+          "text": "27. What did the manager mean by saying, “...Hockey and the International Hockey Federation are finished”?"
+        },
+        {
+          "type": "paragraph",
+          "text": "[A] His team would no longer take part in international games."
+        },
+        {
+          "type": "paragraph",
+          "text": "[B]Hockey and the Federation are both ruined by the unfair decisions."
+        },
+        {
+          "type": "paragraph",
+          "text": "[C]There should be no more hockey matches organized by the Federation."
+        },
+        {
+          "type": "paragraph",
+          "text": "[D] The Federation should be dissolved."
+        },
+        {
+          "type": "paragraph",
+          "text": "28. The basketball example implied that______."
+        },
+        {
+          "type": "paragraph",
+          "text": "[A] too much patriotism was displayed in the incident"
+        },
+        {
+          "type": "paragraph",
+          "text": "[B] the announcement to prolong the match was wrong"
+        },
+        {
+          "type": "paragraph",
+          "text": "[C] the appeal jury was too hesitant in making the decision"
+        },
+        {
+          "type": "paragraph",
+          "text": "[D] the American team was right in rejecting the silver medals"
+        },
+        {
+          "type": "paragraph",
+          "text": "29. The author gives the two examples in paragraphs 2 and 3 to show____________."
+        },
+        {
+          "type": "paragraph",
+          "text": "[A] how false national pride led to undesirable incidents in international games"
+        },
+        {
+          "type": "paragraph",
+          "text": "[B] that sportsmen have been more obedient than they used to be"
+        },
+        {
+          "type": "paragraph",
+          "text": "[C] that competitiveness in the games discourages international friendship"
+        },
+        {
+          "type": "paragraph",
+          "text": "[D] that unfair decisions are common in Olympic Games"
+        },
+        {
+          "type": "paragraph",
+          "text": "30. What conclusion can be drawn from the passage?"
+        },
+        {
+          "type": "paragraph",
+          "text": "[A]The organization of the Olympic Games must be improved."
+        },
+        {
+          "type": "paragraph",
+          "text": "[B]Athletes should compete as individuals in the Olympic Games."
+        },
+        {
+          "type": "paragraph",
+          "text": "[C] Sport should be played competitively rather than for the love of the game."
+        },
+        {
+          "type": "paragraph",
+          "text": "[D]International contests are liable for misunderstanding between nations."
+        },
+        {
+          "type": "paragraph",
+          "text": "Part B"
+        },
+        {
+          "type": "paragraph",
+          "text": "Directions: Read the following passage carefully and then translate the underlined sentences into Chinese.(15 points)"
+        },
+        {
+          "type": "paragraph",
+          "text": "“Intelligence” at best is an assumptive construct —the meaning of the word has never been clear. 31) There is more agreement on the kinds of behavior referred to by the term than there is on how to interpret or classify them. But it is generally agreed that a person of high intelligence is one who can grasp ideas readily, make distinctions, reason logically, and make use of verbal and mathematical symbols in solving problems. An intelligence test is a rough measure of a child’s capacity for learning, particularly for learning the kinds of things required in school. It does not measure character, social adjustment, physical endurance, manual skills, or artistic abilities. It is not supposed to —it was not designed for such purposes. 32) To criticize it for such failure is roughly comparable to criticizing a thermometer for not measuring wind velocity."
+        },
+        {
+          "type": "paragraph",
+          "text": "The other thing we have to notice is that the assessment of the intelligence of any subject is essentially a comparative affair. 33) Now since the assessment of intelligence is a comparative matter we must be sure that the scale with which we are comparing our subjects provides a “valid” or “fair” comparison. It is here that some of the difficulties which interest us begin. Any test performed involves at least three factors: the intention to do one’s best, the knowledge required for understanding what you have to do, and the intellectual ability to do it. 34) The first two must be equal for all who are being compared, if any comparison in terms of intelligence is to be made. In school populations in our culture these assumptions can be made fair and reasonable, and the value of intelligence testing has been proved thoroughly. Its value lies, of course, in its providing a satisfactory basis for prediction. No one is in the least interested in the marks a little child gets on his test; What we are interested in is whether we can conclude from his mark on the test that the child will do better or worse than other children of his age at tasks which we think require “general intelligence”. 35) On the whole such a conclusion can be drawn with a certain degree of confidence, but only if the child can be assumed to have had the same attitude towards the test as the other with whom he is being compared, and only if he was not punished by lack of relevant information which they possessed."
+        },
+        {
+          "type": "paragraph",
+          "text": "Section Ⅲ Writing(15points)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Directions:"
+        },
+        {
+          "type": "paragraph",
+          "text": "A. Title: FOR A BETTER UNDERSTANDING BETWEEN PARENT AND CHILD"
+        },
+        {
+          "type": "paragraph",
+          "text": "B. Time limit:40 minutes"
+        },
+        {
+          "type": "paragraph",
+          "text": "C. Word limit:120-150 words (not including the given opening sentence)"
+        },
+        {
+          "type": "paragraph",
+          "text": "D. Your composition should be based on the OUTLINE below and should start with the given opening sentence."
+        },
+        {
+          "type": "paragraph",
+          "text": "E. Your composition must be written clearly on the ANSWER SHEET."
+        },
+        {
+          "type": "paragraph",
+          "text": "OUTLINE:"
+        },
+        {
+          "type": "paragraph",
+          "text": "d"
+        },
+        {
+          "type": "paragraph",
+          "text": "1) Different likes and dislikes；"
+        },
+        {
+          "type": "paragraph",
+          "text": "2)Misunderstanding；"
+        },
+        {
+          "type": "paragraph",
+          "text": "3)Others"
+        },
+        {
+          "type": "paragraph",
+          "text": "1) For parents；"
+        },
+        {
+          "type": "paragraph",
+          "text": "2) For children"
+        }
+      ],
+      "reason": "全文阅读交通礼貌、气候、奥运冲突、智力测试及写作指示后，接合明确页间词组，保留各论述自然段，题目选项及大纲分开；奥运结论三句与智力定义解释不拆为单句。"
+    }
+  ],
+  "sources": [
+    {
+      "path": "content/article-review/history/22da45b6850bbb67c7f96fc9f4d861196b0212a6d833a676d3cfc8ab21893bd5.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "f63f6d60c6c1dfb14cede6a5a7a683152a03a5ed791deb0ecb57f360d8626b9f"
+    }
+  ]
+}

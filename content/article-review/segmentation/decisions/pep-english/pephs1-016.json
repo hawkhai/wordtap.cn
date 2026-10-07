@@ -1,0 +1,21 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "7f7fb5a1050afe01b4681c5521c2f9dab99b15f8264aae167f41bb47b3612e19",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title；全文 blocks[0..4] 与对应 text；现有正文/对话/题干逐块通读复核。",
+  "notes": "化学与有机农业五段按现状、影响、有机替代、轮作等方式及粮食需求矛盾组织，保留完整论述。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/1e3c6cb76d6877d80fd739d3db3a3e08ad14b8c90c8024e273ce7a44d9bd6c9b.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "8af95f12d20a0bfe0b8209ff2b584b9bc4217e1bb49580779928dca7c85d69af"
+    }
+  ]
+}

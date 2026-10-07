@@ -1,0 +1,26 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "1ca918628347d2872adcf4cf0f477c8f73726fe5b60f1c0e7adb42bcb6307cd2",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title/titleZh、question/questionZh、bodyText全部10行、bodyTextZh全部10行及sentences[0..12]的完整文字；重复正文与字幕文本逐字比对，非正文字幕另读。操作在内存应用并validate_layout_change，修复后的双语全文重新通读。",
+  "notes": "分次还款的小偷；钱包遗失、三月后还一半、两月后再还、最终全还四阶段，便条各随当次动作合段。 text与bodyText同步；sentences对象及时间、角色、索引原样保留。",
+  "issues": [],
+  "display": {
+    "text": "How did Sam get his money back?\n\nThe whole village soon learnt that a large sum of money had been lost. Sam Benton, the local butcher, had lost his wallet while taking his savings to the post office. Sam was sure that the wallet must have been found by one of the villagers, but it was not returned to him.\nThree months passed, and then one morning, Sam found his wallet outside his front door. It had been wrapped up in newspaper and it contained half the money he had lost, together with a note which said: 'A thief, yes, but only 50 per cent a thief!'\nTwo months later, some more money was sent to Sam with another note: 'Only 25 per cent a thief now!'\nIn time, all Sam's money was paid back in this way. The last note said: 'I am 100 per cent honest now!'",
+    "bodyText": "The whole village soon learnt that a large sum of money had been lost. Sam Benton, the local butcher, had lost his wallet while taking his savings to the post office. Sam was sure that the wallet must have been found by one of the villagers, but it was not returned to him.\nThree months passed, and then one morning, Sam found his wallet outside his front door. It had been wrapped up in newspaper and it contained half the money he had lost, together with a note which said: 'A thief, yes, but only 50 per cent a thief!'\nTwo months later, some more money was sent to Sam with another note: 'Only 25 per cent a thief now!'\nIn time, all Sam's money was paid back in this way. The last note said: 'I am 100 per cent honest now!'",
+    "bodyTextZh": "整个村庄很快都知道有一大笔钱丢失了。山姆·本顿，当地的肉铺老板……他在去邮局存钱的时候丢失了钱包。萨姆确信那个钱包一定是被某个村民找到的。但是，那个东西并没有被归还给他。\n三个月过去了，一天早晨，山姆发现他的钱包放在自家前门外面。它被用报纸包了起来，里面装着他丢失的钱的一半。还附有一张纸条，上面写着：“他确实是个小偷，但只能算是个‘50%的小偷’罢了！”\n两个月后，又有一些钱被寄给了萨姆，并附上了一张便条。“现在只有25%的人是小偷了！”\n随着时间的推移，山姆的所有钱都通过这种方式被还清了。最后一张纸条上写着：“现在我 100%是诚实的了！”"
+  },
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/2543e20e6142af6e63dfb73ca303722d74e5364f29e5f15920dd8ae1c514e7b7.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "b151da18ed0b360cdc1d84b37346fdb5c4aa5278ceeb322908a4183f7e02e693"
+    }
+  ]
+}

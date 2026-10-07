@@ -2,92 +2,9 @@
   "schemaVersion": 1,
   "course": "nce",
   "articleId": "nce2-087",
-  "beforeDisplaySha256": "65bbe9e06e79d098b5d0bf2690ce004d2a3330006206665fdd267bfa12318371",
-  "afterDisplaySha256": "489e104d1a03ceb489d59d2a875c00ea812e8b203afd9ed6eac6e2889e30e68d",
+  "beforeDisplaySha256": "489e104d1a03ceb489d59d2a875c00ea812e8b203afd9ed6eac6e2889e30e68d",
+  "afterDisplaySha256": "0bb38a6be66374d880957fb44232e8e29598c5649f1f11c81f06222c847c1200",
   "baselineDisplay": {
-    "title": "A Perfect Alibi",
-    "titleZh": "绝好的不在场证明",
-    "question": "What was wrong with the man's story?",
-    "questionZh": "这个男人的故事有什么问题吗？",
-    "text": "What was wrong with the man's story?\n\n'At the time the murder was committed, I was travelling on the 8 o'clock train to London,' said the man.\n'Do you always catch such an early train?' asked the inspector.\n'Of course I do,' answered the man.\n'I must be at work at 10 o'clock.\nMy employer will confirm that I was there on time.'\n'Would a later train get you to work on time?' asked the inspector.\n'I suppose it would, but I never catch a later train.'\n'At what time did you arrive at the station?'\n'At ten to eight. I bought a paper and waited for the train.'\n'And you didn't notice anything unusual?'\n'Of course not.'\n'I suggest,' said the inspector, 'that you are not telling the truth.\nI suggest that you did not catch the 8 o'clock train, but that you caught the 8.25 which would still get you to work on time.\nYou see, on the morning of the murder, the 8 o'clock train did not run at all.\nIt broke down at Ferngreen station and was taken off the line.'",
-    "bodyText": "'At the time the murder was committed, I was travelling on the 8 o'clock train to London,' said the man.\n'Do you always catch such an early train?' asked the inspector.\n'Of course I do,' answered the man.\n'I must be at work at 10 o'clock.\nMy employer will confirm that I was there on time.'\n'Would a later train get you to work on time?' asked the inspector.\n'I suppose it would, but I never catch a later train.'\n'At what time did you arrive at the station?'\n'At ten to eight. I bought a paper and waited for the train.'\n'And you didn't notice anything unusual?'\n'Of course not.'\n'I suggest,' said the inspector, 'that you are not telling the truth.\nI suggest that you did not catch the 8 o'clock train, but that you caught the 8.25 which would still get you to work on time.\nYou see, on the morning of the murder, the 8 o'clock train did not run at all.\nIt broke down at Ferngreen station and was taken off the line.'",
-    "bodyTextZh": "“谋杀案发生的时候，我正在乘坐早上 8 点的火车前往伦敦，”那名男子说道。\n“你总是这么早赶火车吗？”警官问道。\n“当然了，”那个男人回答道。\n“我必须在 10 点钟到岗。\n我的雇主会证实我确实准时到达了。”\n“晚一点的火车能让你准时到达工作地点吗？”警官问道。\n“我想可以，但我从不乘坐较晚的班车。”\n“你什么时候到达车站的？”\n“七点五十分。我买了一份报纸，然后等火车。”\n“那你没有注意到任何异常的情况吗？”\n“当然不会。”\n“我认为，”警官说，“你并没有说实话。\n我认为你乘坐的不是 8 点的火车，而是 8 点 25 分的班车，这样仍然可以准时到岗。\n你知道吗，在谋杀案发生的那个早晨，8 点的火车根本就没有运行。\n它在费恩格林车站发生了故障，随后被取消运行了。”",
-    "sentences": [
-      {
-        "en": "Lesson 87",
-        "zh": "第 87 课"
-      },
-      {
-        "en": "A Perfect Alibi",
-        "zh": "绝好的不在场证明"
-      },
-      {
-        "en": "What was wrong with the man's story?",
-        "zh": "这个男人的故事有什么问题吗？"
-      },
-      {
-        "en": "'At the time the murder was committed, I was travelling on the 8 o'clock train to London,' said the man.",
-        "zh": "“谋杀案发生的时候，我正在乘坐早上 8 点的火车前往伦敦，”那名男子说道。"
-      },
-      {
-        "en": "'Do you always catch such an early train?' asked the inspector.",
-        "zh": "“你总是这么早赶火车吗？”警官问道。"
-      },
-      {
-        "en": "'Of course I do,' answered the man.",
-        "zh": "“当然了，”那个男人回答道。"
-      },
-      {
-        "en": "'I must be at work at 10 o'clock.",
-        "zh": "“我必须在 10 点钟到岗。"
-      },
-      {
-        "en": "My employer will confirm that I was there on time.'",
-        "zh": "我的雇主会证实我确实准时到达了。”"
-      },
-      {
-        "en": "'Would a later train get you to work on time?' asked the inspector.",
-        "zh": "“晚一点的火车能让你准时到达工作地点吗？”警官问道。"
-      },
-      {
-        "en": "'I suppose it would, but I never catch a later train.'",
-        "zh": "“我想可以，但我从不乘坐较晚的班车。”"
-      },
-      {
-        "en": "'At what time did you arrive at the station?'",
-        "zh": "“你什么时候到达车站的？”"
-      },
-      {
-        "en": "'At ten to eight. I bought a paper and waited for the train.'",
-        "zh": "“七点五十分。我买了一份报纸，然后等火车。”"
-      },
-      {
-        "en": "'And you didn't notice anything unusual?'",
-        "zh": "“那你没有注意到任何异常的情况吗？”"
-      },
-      {
-        "en": "'Of course not.'",
-        "zh": "“当然不会。”"
-      },
-      {
-        "en": "'I suggest,' said the inspector, 'that you are not telling the truth.",
-        "zh": "“我认为，”警官说，“你并没有说实话。"
-      },
-      {
-        "en": "I suggest that you did not catch the 8 o'clock train, but that you caught the 8.25 which would still get you to work on time.",
-        "zh": "我认为你乘坐的不是 8 点的火车，而是 8 点 25 分的班车，这样仍然可以准时到岗。"
-      },
-      {
-        "en": "You see, on the morning of the murder, the 8 o'clock train did not run at all.",
-        "zh": "你知道吗，在谋杀案发生的那个早晨，8 点的火车根本就没有运行。"
-      },
-      {
-        "en": "It broke down at Ferngreen station and was taken off the line.'",
-        "zh": "它在费恩格林车站发生了故障，随后被取消运行了。”"
-      }
-    ]
-  },
-  "display": {
     "title": "A Perfect Alibi",
     "titleZh": "绝好的不在场证明",
     "question": "What was wrong with the man's story?",
@@ -170,40 +87,135 @@
       }
     ]
   },
+  "display": {
+    "title": "A Perfect Alibi",
+    "titleZh": "绝好的不在场证明",
+    "question": "What was wrong with the man's story?",
+    "questionZh": "这个男人的故事有什么问题吗？",
+    "text": "What was wrong with the man's story?\n\n'At the time the murder was committed, I was travelling on the 8 o'clock train to London,' said the man.\n'Do you always catch such an early train?' asked the inspector.\n'Of course I do,' answered the man. 'I must be at work at 10 o'clock. My employer will confirm that I was there on time.'\n'Would a later train get you to work on time?' asked the inspector.\n'I suppose it would, but I never catch a later train.'\n'At what time did you arrive at the station?'\n'At ten to eight. I bought a paper and waited for the train.'\n'And you didn't notice anything unusual?'\n'Of course not.'\n'I suggest,' said the inspector, 'that you are not telling the truth. I suggest that you did not catch the 8 o'clock train, but that you caught the 8.25 which would still get you to work on time. You see, on the morning of the murder, the 8 o'clock train did not run at all. It broke down at Ferngreen station and was taken off the line.'",
+    "bodyText": "'At the time the murder was committed, I was travelling on the 8 o'clock train to London,' said the man.\n'Do you always catch such an early train?' asked the inspector.\n'Of course I do,' answered the man. 'I must be at work at 10 o'clock. My employer will confirm that I was there on time.'\n'Would a later train get you to work on time?' asked the inspector.\n'I suppose it would, but I never catch a later train.'\n'At what time did you arrive at the station?'\n'At ten to eight. I bought a paper and waited for the train.'\n'And you didn't notice anything unusual?'\n'Of course not.'\n'I suggest,' said the inspector, 'that you are not telling the truth. I suggest that you did not catch the 8 o'clock train, but that you caught the 8.25 which would still get you to work on time. You see, on the morning of the murder, the 8 o'clock train did not run at all. It broke down at Ferngreen station and was taken off the line.'",
+    "bodyTextZh": "“谋杀案发生的时候，我正在乘坐早上 8 点的火车前往伦敦，”那名男子说道。\n“你总是这么早赶火车吗？”检查员问道。\n“当然了，”那个男人回答道。我必须在10点钟去上班。我的雇主会证实我确实准时到达了。\n“晚一点的火车能让你准时到达工作地点吗？”检查员问道。\n“我想应该是这样的，但我从来都赶不上晚点的火车。”\n你什么时候到达车站的？\n“七点五十分。我买了一份报纸，然后等火车。”\n“那你没有注意到任何异常的情况吗？”\n“当然不会。”\n“我认为，”检查员说，“你并没有说实话。”我认为你可能没有赶上8点的火车。不过你赶上了8点25分的班车，这样仍然可以准时到达工作地点。你知道吗，在谋杀案发生的那个早晨，8 点的火车根本就没有运行。它在费恩格林车站发生了故障，随后被从铁路上撤下（即不再允许列车在该站停靠或通过）。",
+    "sentences": [
+      {
+        "en": "Lesson 87",
+        "zh": "第 87 课"
+      },
+      {
+        "en": "A Perfect Alibi",
+        "zh": "绝好的不在场证明"
+      },
+      {
+        "en": "What was wrong with the man's story?",
+        "zh": "这个男人的故事有什么问题吗？"
+      },
+      {
+        "en": "'At the time the murder was committed, I was travelling on the 8 o'clock train to London,' said the man.",
+        "zh": "“谋杀案发生的时候，我正在乘坐早上 8 点的火车前往伦敦，”那名男子说道。"
+      },
+      {
+        "en": "'Do you always catch such an early train?' asked the inspector.",
+        "zh": "“你总是这么早赶火车吗？”检查员问道。"
+      },
+      {
+        "en": "'Of course I do,' answered the man.",
+        "zh": "“当然了，”那个男人回答道。"
+      },
+      {
+        "en": "'I must be at work at 10 o'clock.",
+        "zh": "我必须在10点钟去上班。"
+      },
+      {
+        "en": "My employer will confirm that I was there on time.'",
+        "zh": "我的雇主会证实我确实准时到达了。"
+      },
+      {
+        "en": "'Would a later train get you to work on time?' asked the inspector.",
+        "zh": "“晚一点的火车能让你准时到达工作地点吗？”检查员问道。"
+      },
+      {
+        "en": "'I suppose it would, but I never catch a later train.'",
+        "zh": "“我想应该是这样的，但我从来都赶不上晚点的火车。”"
+      },
+      {
+        "en": "'At what time did you arrive at the station?'",
+        "zh": "你什么时候到达车站的？"
+      },
+      {
+        "en": "'At ten to eight. I bought a paper and waited for the train.'",
+        "zh": "“七点五十分。我买了一份报纸，然后等火车。”"
+      },
+      {
+        "en": "'And you didn't notice anything unusual?'",
+        "zh": "“那你没有注意到任何异常的情况吗？”"
+      },
+      {
+        "en": "'Of course not.'",
+        "zh": "“当然不会。”"
+      },
+      {
+        "en": "'I suggest,' said the inspector, 'that you are not telling the truth.",
+        "zh": "“我认为，”检查员说，“你并没有说实话。”"
+      },
+      {
+        "en": "I suggest that you did not catch the 8 o'clock train, but that you caught the 8.25 which would still get you to work on time.",
+        "zh": "我认为你可能没有赶上8点的火车。不过你赶上了8点25分的班车，这样仍然可以准时到达工作地点。"
+      },
+      {
+        "en": "You see, on the morning of the murder, the 8 o'clock train did not run at all.",
+        "zh": "你知道吗，在谋杀案发生的那个早晨，8 点的火车根本就没有运行。"
+      },
+      {
+        "en": "It broke down at Ferngreen station and was taken off the line.'",
+        "zh": "它在费恩格林车站发生了故障，随后被从铁路上撤下（即不再允许列车在该站停靠或通过）。"
+      }
+    ]
+  },
   "sources": [
     {
-      "path": "content/NCE-Flow/NCE2/87－A Perfect Alibi.lrc",
-      "locator": "完整LRC元数据、标题、问题和全部中英字幕，校勘位置见逐项证据",
+      "path": "content/article-review/history/93dea469f7bdd88b3ea029eca4a11c68dc9fbb31ea1f2d07f9104c65d5c9bea4.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
       "checked": true,
-      "sha256": "60caa787c865b8b91596459dd9b9f0ed264050bb39d07fc303fa6d9e8444072d"
-    },
-    {
-      "path": "content/article-review/cleanup-2026-10-06.json",
-      "sha256": "cea27c1c69e32939ff83196bd29cce9a128d8d0d6f248611217179e037971889",
-      "locator": "public/nce/lessons/nce2/087.json",
-      "checked": true
+      "sha256": "2832cf2a9790b11ea11c609d67ed693f80634ff56af3423fb7ad11f02838c704"
     }
   ],
-  "corrections": [
-    {
-      "field": "bodyTextZh",
-      "before": "“谋杀案发生的时候，我正在乘坐早上 8 点的火车前往伦敦，”那名男子说道。\n“你总是这么早赶火车吗？”警官问道。\n“当然了，”那个男人回答道。\n“我必须在 10 点钟到岗。\n我的雇主会证实我确实准时到达了。”\n“晚一点的火车能让你准时到达工作地点吗？”警官问道。\n“我想可以，但我从不乘坐较晚的班车。”\n“你什么时候到达车站的？”\n“七点五十分。我买了一份报纸，然后等火车。”\n“那你没有注意到任何异常的情况吗？”\n“当然不会。”\n“我认为，”警官说，“你并没有说实话。\n我认为你乘坐的不是 8 点的火车，而是 8 点 25 分的班车，这样仍然可以准时到岗。\n你知道吗，在谋杀案发生的那个早晨，8 点的火车根本就没有运行。\n它在费恩格林车站发生了故障，随后被取消运行了。”",
-      "after": "“谋杀案发生的时候，我正在乘坐早上 8 点的火车前往伦敦，”那名男子说道。\n“你总是这么早赶火车吗？”检查员问道。\n“当然了，”那个男人回答道。\n我必须在10点钟去上班。\n我的雇主会证实我确实准时到达了。\n“晚一点的火车能让你准时到达工作地点吗？”检查员问道。\n“我想应该是这样的，但我从来都赶不上晚点的火车。”\n你什么时候到达车站的？\n“七点五十分。我买了一份报纸，然后等火车。”\n“那你没有注意到任何异常的情况吗？”\n“当然不会。”\n“我认为，”检查员说，“你并没有说实话。”\n我认为你可能没有赶上8点的火车。不过你赶上了8点25分的班车，这样仍然可以准时到达工作地点。\n你知道吗，在谋杀案发生的那个早晨，8 点的火车根本就没有运行。\n它在费恩格林车站发生了故障，随后被从铁路上撤下（即不再允许列车在该站停靠或通过）。",
-      "evidence": "User-directed source-fidelity restoration; content/article-review/cleanup-2026-10-06.json"
-    }
-  ],
-  "fullReadConfirmed": false,
-  "recheckConfirmed": false,
-  "reviewMode": "source-fidelity-rules-v1",
-  "reviewer": "Codex (user-directed restoration)",
-  "reviewedAt": "2026-10-05T17:15:10+00:00",
-  "notes": "Rule-based restoration; original full-read review remains historical. content/article-review/cleanup-2026-10-06.json",
+  "corrections": [],
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "reviewer": "Codex",
+  "reviewedAt": "2026-10-07T07:52:24+00:00",
+  "notes": "不在场证明；男子准时上班依据和警官揭穿八点列车停驶各合完整话轮，其余审问与回答保持分段。 text与bodyText同步；sentences对象及时间、角色、索引原样保留。",
   "issues": [],
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "28df31e974809b8666696e04e4e26dfeb942be99ca9c133a16089f306a369daf",
+    "afterFileSha256": "6b5e274a4f2c79d581a1acb0de8af5ff6656abd5089184de864e45defd49f796",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "28df31e974809b8666696e04e4e26dfeb942be99ca9c133a16089f306a369daf",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title/titleZh、question/questionZh、bodyText全部15行、bodyTextZh全部15行及sentences[0..17]的完整文字；重复正文与字幕文本逐字比对，非正文字幕另读。操作在内存应用并validate_layout_change，修复后的双语全文重新通读。",
+      "notes": "不在场证明；男子准时上班依据和警官揭穿八点列车停驶各合完整话轮，其余审问与回答保持分段。 text与bodyText同步；sentences对象及时间、角色、索引原样保留。",
+      "issues": [],
+      "display": {
+        "text": "What was wrong with the man's story?\n\n'At the time the murder was committed, I was travelling on the 8 o'clock train to London,' said the man.\n'Do you always catch such an early train?' asked the inspector.\n'Of course I do,' answered the man. 'I must be at work at 10 o'clock. My employer will confirm that I was there on time.'\n'Would a later train get you to work on time?' asked the inspector.\n'I suppose it would, but I never catch a later train.'\n'At what time did you arrive at the station?'\n'At ten to eight. I bought a paper and waited for the train.'\n'And you didn't notice anything unusual?'\n'Of course not.'\n'I suggest,' said the inspector, 'that you are not telling the truth. I suggest that you did not catch the 8 o'clock train, but that you caught the 8.25 which would still get you to work on time. You see, on the morning of the murder, the 8 o'clock train did not run at all. It broke down at Ferngreen station and was taken off the line.'",
+        "bodyText": "'At the time the murder was committed, I was travelling on the 8 o'clock train to London,' said the man.\n'Do you always catch such an early train?' asked the inspector.\n'Of course I do,' answered the man. 'I must be at work at 10 o'clock. My employer will confirm that I was there on time.'\n'Would a later train get you to work on time?' asked the inspector.\n'I suppose it would, but I never catch a later train.'\n'At what time did you arrive at the station?'\n'At ten to eight. I bought a paper and waited for the train.'\n'And you didn't notice anything unusual?'\n'Of course not.'\n'I suggest,' said the inspector, 'that you are not telling the truth. I suggest that you did not catch the 8 o'clock train, but that you caught the 8.25 which would still get you to work on time. You see, on the morning of the murder, the 8 o'clock train did not run at all. It broke down at Ferngreen station and was taken off the line.'",
+        "bodyTextZh": "“谋杀案发生的时候，我正在乘坐早上 8 点的火车前往伦敦，”那名男子说道。\n“你总是这么早赶火车吗？”检查员问道。\n“当然了，”那个男人回答道。我必须在10点钟去上班。我的雇主会证实我确实准时到达了。\n“晚一点的火车能让你准时到达工作地点吗？”检查员问道。\n“我想应该是这样的，但我从来都赶不上晚点的火车。”\n你什么时候到达车站的？\n“七点五十分。我买了一份报纸，然后等火车。”\n“那你没有注意到任何异常的情况吗？”\n“当然不会。”\n“我认为，”检查员说，“你并没有说实话。”我认为你可能没有赶上8点的火车。不过你赶上了8点25分的班车，这样仍然可以准时到达工作地点。你知道吗，在谋杀案发生的那个早晨，8 点的火车根本就没有运行。它在费恩格林车站发生了故障，随后被从铁路上撤下（即不再允许列车在该站停靠或通过）。"
+      },
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/93dea469f7bdd88b3ea029eca4a11c68dc9fbb31ea1f2d07f9104c65d5c9bea4.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "2832cf2a9790b11ea11c609d67ed693f80634ff56af3423fb7ad11f02838c704"
+        }
+      ]
+    }
+  },
   "status": "passed_edited",
-  "previousRevisionSha256": "313d7027ddf1906f3c8436cc17227d97f5d1e75c2d272e61695e9bdf4c62d9e3",
-  "ruleRestoration": {
-    "policy": "source-fidelity-rules-v1",
-    "report": "content/article-review/cleanup-2026-10-06.json",
-    "reportSha256": "cea27c1c69e32939ff83196bd29cce9a128d8d0d6f248611217179e037971889"
-  }
+  "previousRevisionSha256": "93dea469f7bdd88b3ea029eca4a11c68dc9fbb31ea1f2d07f9104c65d5c9bea4"
 }

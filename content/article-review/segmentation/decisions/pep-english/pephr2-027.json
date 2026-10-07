@@ -1,0 +1,21 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "d9e2eecf7704cfcc6982d0b655d6543dd454cf383af18bf78e8142ef4177befb",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title；全文 blocks[0..1] 与对应 text；现有正文/对话/题干逐块通读复核。",
+  "notes": "Dennis歌曲评论对照自己良好的父子关系成一段，署名另块保留。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/d46b6a5746c9177e042521990f9ef5313c397015291a04877f7551a34eb3ec52.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "9e6b18c76416ca731a8fbe79234170c05e3e209b9b6730d634d8806127a4db02"
+    }
+  ]
+}

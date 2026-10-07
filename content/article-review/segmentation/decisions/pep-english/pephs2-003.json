@@ -1,0 +1,21 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "9c8652e4b6db8421c35a5d3e4527c629a97858af89532f294771f2a14888209b",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title；全文 blocks[0..6] 与对应 text；现有正文/对话/题干逐块通读复核。",
+  "notes": "钱学森七段概述、教育转向、留美、回国困难、航天成就、艺术素养及逝世边界完整。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/2c3ae7398be56fd7fc778e42716d51592cfc9bfe8cbf2b2535d3c5d5522cb685.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "b9eceedd2cc6b10c97824c01199284b2530bb18d6520d01f2ef34feaff5e667a"
+    }
+  ]
+}

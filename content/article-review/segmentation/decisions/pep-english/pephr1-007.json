@@ -1,0 +1,21 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "afb859c4abe06d663fc75007092ac76e4f34ceae28a4f2fb67160918800e18bb",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title；全文 blocks[0..1] 与对应 text；现有正文/对话/题干逐块通读复核。",
+  "notes": "秘鲁地理与印加及西班牙历史各自为完整自然段，保持两段。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/bba0bc7348a18a45c99e033b8fe7fcbfe4349849fa7500d50f2c1b3e8fbddfe2.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "f0de5a11529645a5201baa26a7856abff1737d5b54eb2b162ad607854619bc57"
+    }
+  ]
+}

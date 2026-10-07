@@ -40,24 +40,46 @@
   },
   "sources": [
     {
-      "path": "content/pep-english/raw/junior-7b.pdf",
-      "locator": "PDF第63-63页，标题与完整正文逐行核对",
+      "path": "content/article-review/history/f2550d61578c02cfd42c76b6a42fa4fb6b9f68875bc652a06dde3328decbc333.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
       "checked": true,
-      "sha256": "7041d787738bdf5f4f556765acdfe8033ac2f69d03e67ccc62516375f6a46f37"
-    },
-    {
-      "path": "content/pep-english/raw/junior-7b/junior-7b_63.jpg",
-      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
-      "checked": true,
-      "sha256": "ac924fe2ea84b0d9dc95679b98f9bc23bc9e55d2a9aace7609d7fc9cedc87208"
+      "sha256": "5c094e7291d76348e3016a55285085e8b6dac382b26b1e56b26b5f6e5bcfae88"
     }
   ],
   "corrections": [],
   "fullReadConfirmed": true,
   "recheckConfirmed": true,
   "reviewer": "Codex",
-  "reviewedAt": "2026-10-02T04:47:13+00:00",
-  "notes": "PDF63页印刷53页完整两段与标题逐行两轮复核。Joe Brown职业、目击者描述流程、两名女子不同身高年龄发色说法、最终矮胖老人短黑发均准确；引语与归属无错接，原文矛盾为故事设定而非需修正的错误。Unit9/SectionB及完整首尾一致，无修改。",
+  "reviewedAt": "2026-10-07T07:39:47+00:00",
+  "notes": "警察画像师两段分别职业流程和证人描述差异，案例引语与结尾真实外貌保持同段。",
   "issues": [],
-  "status": "passed_unchanged"
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "992f8b8760869f39f927324005ee01662f38811472135d858e8b25222a30f2a7",
+    "afterFileSha256": "992f8b8760869f39f927324005ee01662f38811472135d858e8b25222a30f2a7",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "992f8b8760869f39f927324005ee01662f38811472135d858e8b25222a30f2a7",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..1] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "警察画像师两段分别职业流程和证人描述差异，案例引语与结尾真实外貌保持同段。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "blockEdits": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/f2550d61578c02cfd42c76b6a42fa4fb6b9f68875bc652a06dde3328decbc333.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "5c094e7291d76348e3016a55285085e8b6dac382b26b1e56b26b5f6e5bcfae88"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "f2550d61578c02cfd42c76b6a42fa4fb6b9f68875bc652a06dde3328decbc333"
 }

@@ -142,36 +142,45 @@
   },
   "sources": [
     {
-      "path": "content/College-English/NHCE4-RW2.pdf",
-      "locator": "PDF 84-86，印刷页 69-71，完整正文与标题逐段核对",
+      "path": "content/article-review/history/6290db9a285095226aa9bac575b4e2211856fab1bc3e9ce45c23b9987b8d8b58.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
       "checked": true,
-      "sha256": "67f2efd99fc8d9779b945b5714857c2e608b39d42a1ce254c7d501abb21ab978"
-    },
-    {
-      "path": "content/College-English/NHCE4-RW2/NHCE4-RW2_84.jpg",
-      "locator": "已打开教材图页并通读复核正文",
-      "checked": true,
-      "sha256": "85b03dc59588f239c76948e7ebe6fa2d9ca44615e60dcfbd151bc26a817f7950"
-    },
-    {
-      "path": "content/College-English/NHCE4-RW2/NHCE4-RW2_85.jpg",
-      "locator": "已打开教材图页并通读复核正文",
-      "checked": true,
-      "sha256": "4b335ae50db8ee1db19a96f0c746b92908db851a3c70ab599e03f9f72c8fe0a5"
-    },
-    {
-      "path": "content/College-English/NHCE4-RW2/NHCE4-RW2_86.jpg",
-      "locator": "已打开教材图页并通读复核正文",
-      "checked": true,
-      "sha256": "84458bbf7a0aa3b110520cf1f847215a11cf24f75fe7fefa05feda3ee611f767"
+      "sha256": "9692d02e54f29fa1140d58287fedecbdc35efcc132a469a0894359b610df3a80"
     }
   ],
   "corrections": [],
   "fullReadConfirmed": true,
   "recheckConfirmed": true,
   "reviewer": "Codex",
-  "reviewedAt": "2026-10-02T08:50:40+00:00",
-  "notes": "通读12段并对照PDF84–86全部正文。海滩木柴、聚餐主菜及老年员工三段事例完整；Prediction练习框和Culture notes未混入正文。耐心、沟通和理解是作者议论，保留个人叙事及引语，不改写为普遍研究结论。段落与标点无待修问题。",
+  "reviewedAt": "2026-10-07T07:30:04+00:00",
+  "notes": "全文及未改动输出复核：耐心、沟通、理解三主题以女孩烧引火柴、聚餐多领主菜、年龄冲突展开，例子和解释分别成自然段；十二段论证连贯无续句碎段。",
   "issues": [],
-  "status": "passed_unchanged"
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "2b901f61485f8b59821dbcc422958bfbac37f1be82564cd7f4436b3f74d9fbc5",
+    "afterFileSha256": "2b901f61485f8b59821dbcc422958bfbac37f1be82564cd7f4436b3f74d9fbc5",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "2b901f61485f8b59821dbcc422958bfbac37f1be82564cd7f4436b3f74d9fbc5",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "完整 title、blocks[0..11]及完全相同的text；正文及内嵌中文、引语、对话和列举均已逐项通读；无改动输出按全文再次复核。",
+      "notes": "全文及未改动输出复核：耐心、沟通、理解三主题以女孩烧引火柴、聚餐多领主菜、年龄冲突展开，例子和解释分别成自然段；十二段论证连贯无续句碎段。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/6290db9a285095226aa9bac575b4e2211856fab1bc3e9ce45c23b9987b8d8b58.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "9692d02e54f29fa1140d58287fedecbdc35efcc132a469a0894359b610df3a80"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "6290db9a285095226aa9bac575b4e2211856fab1bc3e9ce45c23b9987b8d8b58"
 }

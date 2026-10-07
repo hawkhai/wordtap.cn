@@ -60,24 +60,46 @@
   },
   "sources": [
     {
-      "path": "content/pep-english/raw/junior-9.pdf",
-      "locator": "PDF第116-116页，标题与完整正文逐行核对",
+      "path": "content/article-review/history/0caa22a590212bc451c5428be3a3a74959b32dafa9f9138788bbaaf47359cbf3.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
       "checked": true,
-      "sha256": "9c4118021048d901610b673f590ed28c39c04cb2d4f7fd940f83a2d8b2741af7"
-    },
-    {
-      "path": "content/pep-english/raw/junior-9/junior-9_116.jpg",
-      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
-      "checked": true,
-      "sha256": "d5a0d10b040d4b7951005a942266eac3f8802137c04d907b9499a3c6eca1d010"
+      "sha256": "a5aad1a343f9b27b0d057436541cdb2f774e620c0827d1ddda252a5d904f9256"
     }
   ],
   "corrections": [],
   "fullReadConfirmed": true,
   "recheckConfirmed": true,
   "reviewer": "Codex",
-  "reviewedAt": "2026-10-02T05:16:41+00:00",
-  "notes": "PDF116页印刷102页回收利用四段逐行对照，Amy Hayes旧物建屋、Jessica Wong衣物做包、Wang Tao汽车材料艺术三人及各地名准确。Help Save Our Planet Society、metal art引号和末句创造力主题完整，未混入表格/词缀教学框，复读无修改。",
+  "reviewedAt": "2026-10-07T07:42:03+00:00",
+  "notes": "再利用四段为创意引入、Amy房屋、Jessica袋子、Wang Tao金属艺术，各案例段完整保留。",
   "issues": [],
-  "status": "passed_unchanged"
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "c0e141c91fdbc61e2b5ec70c8ab854290f522fea1f4ab30ba5a3291d71a7f770",
+    "afterFileSha256": "c0e141c91fdbc61e2b5ec70c8ab854290f522fea1f4ab30ba5a3291d71a7f770",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "c0e141c91fdbc61e2b5ec70c8ab854290f522fea1f4ab30ba5a3291d71a7f770",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..3] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "再利用四段为创意引入、Amy房屋、Jessica袋子、Wang Tao金属艺术，各案例段完整保留。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "blockEdits": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/0caa22a590212bc451c5428be3a3a74959b32dafa9f9138788bbaaf47359cbf3.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "a5aad1a343f9b27b0d057436541cdb2f774e620c0827d1ddda252a5d904f9256"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "0caa22a590212bc451c5428be3a3a74959b32dafa9f9138788bbaaf47359cbf3"
 }

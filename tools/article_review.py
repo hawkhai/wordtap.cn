@@ -12,6 +12,7 @@ import json
 import re
 from pathlib import Path
 from functools import lru_cache
+from review_archive import evidence_bytes, evidence_exists, evidence_json
 
 ROOT = Path(__file__).resolve().parents[1]
 REVIEW_ROOT = ROOT / "content" / "article-review"
@@ -58,7 +59,11 @@ def verify_source(source: dict, *, historical: bool = False) -> None:
             if hashlib.sha256(archived.read_bytes()).hexdigest() != source["sha256"]:
                 raise ValueError("Historical source snapshot hash mismatch")
             return
-    if not path.is_file(): raise ValueError(f"Review source missing: {path}")
+    if not path.is_file():
+        if not evidence_exists(path): raise ValueError(f"Review source missing: {path}")
+        if hashlib.sha256(evidence_bytes(path)).hexdigest() != source["sha256"]:
+            raise ValueError("Archived review source changed")
+        return
     stat = path.stat()
     if _file_hash(str(path.resolve()), stat.st_size, stat.st_mtime_ns) != source["sha256"]:
         raise ValueError(f"Review source changed: {path}")
@@ -304,9 +309,9 @@ def find_baseline_revision(revision: dict, before_hash: str) -> dict:
             raise ValueError("Generator proof baseline is not in revision history")
         seen.add(previous_hash)
         file = REVIEW_ROOT / "history" / f"{previous_hash}.json"
-        if not file.is_file():
+        if not evidence_exists(file):
             raise ValueError("Missing generator proof historical baseline")
-        previous = json.loads(file.read_text(encoding="utf-8"))
+        previous = evidence_json(file)
         if (canonical_hash(previous) != previous_hash
                 or previous.get("course") != revision.get("course")
                 or previous.get("articleId") != revision.get("articleId")
@@ -336,9 +341,9 @@ def _apply_revision_record(detail: dict, course: str, revision: dict, seen: set[
             if not re.fullmatch(r"[0-9a-f]{64}", previous_hash):
                 raise ValueError(f"{course}/{detail['id']}: reviewed source changed; re-review required")
             history_file = REVIEW_ROOT / "history" / f"{previous_hash}.json"
-            if not history_file.is_file():
+            if not evidence_exists(history_file):
                 raise ValueError("Missing historical revision")
-            historical_record = json.loads(history_file.read_text(encoding="utf-8"))
+            historical_record = evidence_json(history_file)
             if canonical_hash(historical_record) != previous_hash or historical_record.get("course") != course or historical_record.get("articleId") != detail["id"]:
                 raise ValueError("Historical revision identity/hash mismatch")
             detail = _apply_revision_record(detail, course, historical_record, seen, historical=True)

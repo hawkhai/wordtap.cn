@@ -1,0 +1,21 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "28fb34d0efe2b06d4c289a00c6ddcc82143b2482275ad225cf034b8cf856fe1d",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title；全文 blocks[0..3] 与对应 text；现有正文/对话/题干逐块通读复核。",
+  "notes": "E-Learning课程概况、新加坡课堂、韩国远程机器人与总结四段各自完整，保留。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/f17be9673d5080d34996a02f788b25ee3079ac5bbdf7244dcd16eefb9fd32398.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "24348bc92506e655fba9604446cb2557fbc4a517c4af7cef3b32397798f2aa42"
+    }
+  ]
+}

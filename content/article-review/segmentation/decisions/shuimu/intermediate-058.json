@@ -1,0 +1,286 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "3f3161e86d0a2a95f1471451a2e332945b4d52424aca40723cd26022bd5b88f9",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "coverage": "全文 blocks[0..188]；按 JSON 上下文逐项复核对话、解释、题目、表格、词表及修复后的边界。",
+  "notes": "全文复核演员Gloria与Rockwall伪装、警长对话、摘要、选择题和省略句语法。分别保留说话轮次及中文对应；恢复复合句和状语省略说明的续行，不合并独立例句。",
+  "issues": [],
+  "mergeBlocks": [
+    {
+      "start": 14,
+      "end": 15,
+      "before": [
+        "An ancient bus stopped by a dry river bed and a party of famous actors and actresses",
+        "got off."
+      ],
+      "text": "An ancient bus stopped by a dry river bed and a party of famous actors and actresses got off.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 17,
+      "end": 18,
+      "before": [
+        "Dressed in dark glasses and old clothes, they had taken special precautions so that no",
+        "one should recognize them."
+      ],
+      "text": "Dressed in dark glasses and old clothes, they had taken special precautions so that no one should recognize them.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 24,
+      "end": 25,
+      "before": [
+        "‘It couldn’t be better, Gloria,’ Meers agreed. ‘No newspaper men, no film fans!",
+        "Why don’t we come more often?’"
+      ],
+      "text": "‘It couldn’t be better, Gloria,’ Meers agreed. ‘No newspaper men, no film fans! Why don’t we come more often?’",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 26,
+      "end": 27,
+      "before": [
+        "“是再好不过的了，格格利亚。” 米尔斯表示同意，“没有记者，没有影迷! 我",
+        "们为什么不经常来这里呢?”"
+      ],
+      "text": "“是再好不过的了，格格利亚。” 米尔斯表示同意，“没有记者，没有影迷! 我们为什么不经常来这里呢?”",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 28,
+      "end": 29,
+      "before": [
+        "Meanwhile, two other actors, Rockwall and Merlin, had carried two large food",
+        "baskets to a shady spot under some trees."
+      ],
+      "text": "Meanwhile, two other actors, Rockwall and Merlin, had carried two large food baskets to a shady spot under some trees.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 30,
+      "end": 31,
+      "before": [
+        "此时，另外两位演员，罗克沃尔和默林，已经把两个大食品篮子提到了一片树",
+        "荫下。"
+      ],
+      "text": "此时，另外两位演员，罗克沃尔和默林，已经把两个大食品篮子提到了一片树荫下。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 32,
+      "end": 33,
+      "before": [
+        "When they had all made themselves comfortable, a stranger appeared. He looked very",
+        "angry."
+      ],
+      "text": "When they had all made themselves comfortable, a stranger appeared. He looked very angry.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 35,
+      "end": 36,
+      "before": [
+        "‘Now you get out of here, all of you!’ he shouted. ‘I’m sheriff here. Do you see that",
+        "notice? It says “No Camping” — in case you can’t read!’"
+      ],
+      "text": "‘Now you get out of here, all of you!’ he shouted. ‘I’m sheriff here. Do you see that notice? It says “No Camping” — in case you can’t read!’",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 37,
+      "end": 38,
+      "before": [
+        "“你们都从这里走开，全都走开!”他大叫着，“我是这里的司法长官。你们看到",
+        "那个布告牌了吗? 上面写着“禁止野营”——除非你们不识字!”"
+      ],
+      "text": "“你们都从这里走开，全都走开!”他大叫着，“我是这里的司法长官。你们看到那个布告牌了吗? 上面写着“禁止野营”——除非你们不识字!”",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 39,
+      "end": 40,
+      "before": [
+        "‘Look, sheriff,’ said Rockwall, ‘don’t be too hard on us. I’m Rockwall and this is",
+        "Merlin.’"
+      ],
+      "text": "‘Look, sheriff,’ said Rockwall, ‘don’t be too hard on us. I’m Rockwall and this is Merlin.’",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 41,
+      "end": 42,
+      "before": [
+        "“好了，好了，司法官，”罗克沃尔说，“别使我们难堪。我是罗克沃尔，这",
+        "位是默林。”"
+      ],
+      "text": "“好了，好了，司法官，”罗克沃尔说，“别使我们难堪。我是罗克沃尔，这位是默林。”",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 43,
+      "end": 44,
+      "before": [
+        "‘Oh, is it?’ said the sheriff with a sneer. ‘Well, I’m Meers, and my other name is",
+        "Gloria. Now you get out of here fast!’"
+      ],
+      "text": "‘Oh, is it?’ said the sheriff with a sneer. ‘Well, I’m Meers, and my other name is Gloria. Now you get out of here fast!’",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 45,
+      "end": 46,
+      "before": [
+        "“噢，是吗?”那位司法长官冷笑一声说道，“好，我就是米尔斯。我还有一个名",
+        "字叫格洛莉亚。现在你们赶快滚吧!”"
+      ],
+      "text": "“噢，是吗?”那位司法长官冷笑一声说道，“好，我就是米尔斯。我还有一个名字叫格洛莉亚。现在你们赶快滚吧!”",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 60,
+      "end": 65,
+      "before": [
+        "Answer: After an ancient bus had stopped by a dry river bed, a party of",
+        "famous film stars descended. They were dressed in dark glasses and old",
+        "clothes so as not to be recognized. Two of the actors carried some picnic things",
+        "to a shady spot and everyone sat down. Just then a sheriff arrived and told",
+        "them rudely that they must leave because camping was not allowed. Even",
+        "when they told him who they were, he did not believe them."
+      ],
+      "text": "Answer: After an ancient bus had stopped by a dry river bed, a party of famous film stars descended. They were dressed in dark glasses and old clothes so as not to be recognized. Two of the actors carried some picnic things to a shady spot and everyone sat down. Just then a sheriff arrived and told them rudely that they must leave because camping was not allowed. Even when they told him who they were, he did not believe them.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 134,
+      "end": 135,
+      "before": [
+        "• He dresses, washes and goes out to do morning exercises in the fresh",
+        "morning air."
+      ],
+      "text": "• He dresses, washes and goes out to do morning exercises in the fresh morning air.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 138,
+      "end": 139,
+      "before": [
+        "• In some places we stopped in a house at night, in other places in tents (=in",
+        "other places we stopped in tents at night)."
+      ],
+      "text": "• In some places we stopped in a house at night, in other places in tents (=in other places we stopped in tents at night).",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 140,
+      "end": 141,
+      "before": [
+        "在有些地方，我们停下来在屋内过夜，在其他地方，我们停下来在帐篷",
+        "里过夜。"
+      ],
+      "text": "在有些地方，我们停下来在屋内过夜，在其他地方，我们停下来在帐篷里过夜。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 143,
+      "end": 144,
+      "before": [
+        "• Gradually I became familiar with them and they with me (and they became",
+        "familiar with me)."
+      ],
+      "text": "• Gradually I became familiar with them and they with me (and they became familiar with me).",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 149,
+      "end": 150,
+      "before": [
+        "▪如果主语相同，助动词和主动词及其后续成分也相同，在省略相同成分时",
+        "要保留助动词。"
+      ],
+      "text": "▪如果主语相同，助动词和主动词及其后续成分也相同，在省略相同成分时要保留助动词。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 153,
+      "end": 154,
+      "before": [
+        "▪当宾语为几个动词所共有而且意思又清楚时，就不要重复。这一点与中文",
+        "不同。"
+      ],
+      "text": "▪当宾语为几个动词所共有而且意思又清楚时，就不要重复。这一点与中文不同。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 157,
+      "end": 158,
+      "before": [
+        "▪如果主语和谓语都不同，但宾语或表语相同，省略第一个分句中的宾语或",
+        "表语。"
+      ],
+      "text": "▪如果主语和谓语都不同，但宾语或表语相同，省略第一个分句中的宾语或表语。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 161,
+      "end": 163,
+      "before": [
+        "▪表示时间、地点、条件、原因(since引导)、方式或让步等的状语从句中，如",
+        "果谓语包含有动词be，主语又和句子的主语一致，或者谓语动词是be，",
+        "从句的主语和动词常常省略。"
+      ],
+      "text": "▪表示时间、地点、条件、原因(since引导)、方式或让步等的状语从句中，如果谓语包含有动词be，主语又和句子的主语一致，或者谓语动词是be，从句的主语和动词常常省略。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 170,
+      "end": 171,
+      "before": [
+        "▪在more...than， still less（更何况，更不用说），much less（更不用说；更",
+        "何况），still more（更加；况且）， much more等结构中省略是常见的。"
+      ],
+      "text": "▪在more...than， still less（更何况，更不用说），much less（更不用说；更何况），still more（更加；况且）， much more等结构中省略是常见的。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 178,
+      "end": 179,
+      "before": [
+        "▪在 however, no matter how/what, whatever, whether, whether…or引导的让步状",
+        "语从句中，省略现象也十分常见。"
+      ],
+      "text": "▪在 however, no matter how/what, whatever, whether, whether…or引导的让步状语从句中，省略现象也十分常见。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 182,
+      "end": 183,
+      "before": [
+        "• Whether difficult or not (= Whether it is difficult or not), we will try our best",
+        "to accomplish the task."
+      ],
+      "text": "• Whether difficult or not (= Whether it is difficult or not), we will try our best to accomplish the task.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 186,
+      "end": 187,
+      "before": [
+        "• Another attempt, and success is assured (If another attempt is made, success",
+        "is assured.)"
+      ],
+      "text": "• Another attempt, and success is assured (If another attempt is made, success is assured.)",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    }
+  ],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/3de5e8f1f8b2a02d020575a6b49a0758f58887e6d660ef60d663e14f2dabb225.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "ee31145f7a354bfeef049be48f9d8b0df44b90f323f1ae892bc12a200f2e68c4"
+    }
+  ]
+}

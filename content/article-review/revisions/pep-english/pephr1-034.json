@@ -70,24 +70,45 @@
   },
   "sources": [
     {
-      "path": "content/pep-english/raw/senior-required-1.pdf",
-      "locator": "PDF第101-101页，标题与完整正文逐行核对",
+      "path": "content/article-review/history/9aa88085465459e6aee335c9ee677199862f534068957037a0179a9793749abd.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
       "checked": true,
-      "sha256": "ffe985a370964820aa003008f48c7cf17b5e0dff8eb29fe54cd4743b0c4e8c79"
-    },
-    {
-      "path": "content/pep-english/raw/senior-required-1/senior-required-1_101.jpg",
-      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
-      "checked": true,
-      "sha256": "44908fbc65f57560cbfa97258f7b37e7e3d5c055507d58eed9b4e64a5377b92f"
+      "sha256": "6670d0246a7933e68fa4e5b72080e144701acbae99422314c02f3a38cdee467c"
     }
   ],
   "corrections": [],
   "fullReadConfirmed": true,
   "recheckConfirmed": true,
   "reviewer": "Codex",
-  "reviewedAt": "2026-10-02T05:34:41+00:00",
-  "notes": "PDF第101页CISAR五段全文逐行一致，2001成立/2003国际救援、2006/2010及3000/2500/25000数字均与原页一致。按教材时点保留队伍人数和搜救犬数量，段落完整，无修改。",
+  "reviewedAt": "2026-10-07T07:30:14+00:00",
+  "notes": "中国救援队按成立、首次任务、后续任务、工作要求、精神品质分五段，语义完整。",
   "issues": [],
-  "status": "passed_unchanged"
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "f04f3408e3f30632526d15dbf2b76822073265e0ce6bdff9d78836093384398a",
+    "afterFileSha256": "f04f3408e3f30632526d15dbf2b76822073265e0ce6bdff9d78836093384398a",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "f04f3408e3f30632526d15dbf2b76822073265e0ce6bdff9d78836093384398a",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..4] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "中国救援队按成立、首次任务、后续任务、工作要求、精神品质分五段，语义完整。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/9aa88085465459e6aee335c9ee677199862f534068957037a0179a9793749abd.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "6670d0246a7933e68fa4e5b72080e144701acbae99422314c02f3a38cdee467c"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "9aa88085465459e6aee335c9ee677199862f534068957037a0179a9793749abd"
 }

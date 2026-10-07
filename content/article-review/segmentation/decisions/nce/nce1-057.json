@@ -1,0 +1,26 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "64614d2a5f4e17755f2735f6c3de6a3dcec16fc95c113ac15351d384d9df9ef7",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title/titleZh、question/questionZh、bodyText全部14行、bodyTextZh全部14行及sentences[0..17]的完整文字；重复正文与字幕文本逐字比对，非正文字幕另读。操作在内存应用并validate_layout_change，修复后的双语全文重新通读。",
+  "notes": "不寻常一天按八点、十点、四点、六点、九点五个时间场景合段，每段保留平日与今日对照的完整多句。 text与bodyText同步；sentences对象及时间、角色、索引原样保留。",
+  "issues": [],
+  "display": {
+    "text": "What is Mr. Sawyer doing tonight?\n\nIt is eight o'clock. The children go to school by car every day, but today, they are going to school on foot.\nIt is ten o'clock. Mrs. Sawyer usually stays at home in the morning, but this morning, she is going to the shops.\nIt is four o'clock. In the afternoon, Mrs. Sawyer usually drinks tea in the living room. But this afternoon, she is drinking tea in the garden.\nIt is six o'clock. In the evening, the children usually do their homework, but this evening, they are not doing their homework. At the moment, they are playing in the garden.\nIt is nine o'clock. Mr. Sawyer usually reads his newspaper at night. But he's not reading his newspaper tonight. At the moment, he's reading an interesting book.",
+    "bodyText": "It is eight o'clock. The children go to school by car every day, but today, they are going to school on foot.\nIt is ten o'clock. Mrs. Sawyer usually stays at home in the morning, but this morning, she is going to the shops.\nIt is four o'clock. In the afternoon, Mrs. Sawyer usually drinks tea in the living room. But this afternoon, she is drinking tea in the garden.\nIt is six o'clock. In the evening, the children usually do their homework, but this evening, they are not doing their homework. At the moment, they are playing in the garden.\nIt is nine o'clock. Mr. Sawyer usually reads his newspaper at night. But he's not reading his newspaper tonight. At the moment, he's reading an interesting book.",
+    "bodyTextZh": "现在是八点钟。孩子们每天都乘车去上学。但是今天，他们要步行去上学。\n现在是十点钟。索耶太太早上通常待在家里。但是今天早上，她要去商店。\n现在是四点钟。下午，索耶夫人通常会在客厅里喝茶。但今天下午，她正在花园里喝茶。\n现在是六点钟。晚上，孩子们通常会做作业。但是今晚，他们没有做作业。他们现在正在花园里玩耍。\n现在是九点钟。索耶先生通常在晚上读报纸。但他今晚没在看报纸。此刻，他正在读一本有趣的书。"
+  },
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/70016ffb60b27bf3779ebad3f554cc2096fe8ab5a186f7ef082d3bad56369266.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "5dc37323dcb3c809e2c8af2ea099599d090c807b1abe9fba66bfc12293396900"
+    }
+  ]
+}

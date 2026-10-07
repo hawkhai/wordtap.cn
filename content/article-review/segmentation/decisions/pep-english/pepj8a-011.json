@@ -1,0 +1,22 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "781cb88fa82aa985eb5079c0beae62d80b0510c269ef7b660c7dc8ae87badb03",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title；全文 blocks[0..2] 与对应 text；现有正文/对话/题干逐块通读复核。",
+  "notes": "Mickey三段依诞生历史、受欢迎原因、星光大道与今日影响，保留多句自然段。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "blockEdits": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/a311051463e891d27c3acc7f336e1fb1cb9084864c214ccb905dda3f134f56ed.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "dfbf1cd38357ccde2985e4a57af97a95d1f624a270a0706c0e183ea1e0228e2b"
+    }
+  ]
+}

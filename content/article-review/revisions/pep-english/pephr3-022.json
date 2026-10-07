@@ -2,18 +2,13 @@
   "schemaVersion": 1,
   "course": "pep-english",
   "articleId": "pephr3-022",
-  "beforeDisplaySha256": "b3261fdb5319ce34c77f92f834865545d023a25f5aae7e64770c95f74fbc0d7f",
+  "beforeDisplaySha256": "dc0b021add6ac8274ca47241f76de413d337ef7076e6f2ed65b8828fdf8a32aa",
   "afterDisplaySha256": "dc0b021add6ac8274ca47241f76de413d337ef7076e6f2ed65b8828fdf8a32aa",
   "baselineDisplay": {
     "title": "The Taxi Ride I'll Never Forget",
     "section": "Reading and Writing",
-    "text": "(adapted from the story of the same name by Kent Nerburn)\nTwenty years ago, I drove a taxi. One time, I was called at midnight to pick someone up. When I arrived, the building was completely dark except for one light in a window.\nI walked to the door and knocked. After a long wait, the door opened. A small woman in her 80s stood before me. By her side was a small suitcase.\n“Would you carry my bag out to the car?” she said. I took her suitcase and gave her my arm. We walked slowly to the street. She kept thanking me for my kindness.\n“It’s nothing,” I told her. “I try to treat my passengers how I want my mother treated.”\n“You’re such a good boy,” she said. When we got in the taxi, she gave me an address. Then she asked, “Could you drive through the downtown?”\n“It’s not the shortest way,” I answered.\n“I don’t mind,” she said. “I’m in no hurry. I’m on my way to a hospice.”\nI saw her eyes shining with tears.\n“I don’t have any family left,” she continued. “The doctor says I don’t have very long.”\nI quietly turned off the meter. “What road do you want me to take?” I asked.\nFor hours, we drove through the city. She showed me the building where she had once worked. We drove through the neighbourhood where she and her husband had lived. Sometimes she asked me to just slow down while she sat staring into the darkness, saying nothing.\nAs the sun was coming up, she suddenly said, “I’m tired. Let’s go now.”\nWe drove in silence to the hospice. As we pulled up, two nurses were waiting for us. They helped her into a wheelchair.\n“How much do I owe you?” she asked me, reaching for her purse.\n“Nothing,” I said. Without thinking, I leaned down and gave her a hug. She hugged me tightly.\n“You gave an old woman a little moment of joy,” she said. “Thank you.”\nI squeezed her hand and then walked back to my taxi. For the rest of that day, I could hardly talk.\nI believe I have never done anything more important in my life. We usually think that our lives are defined by great moments. But I now realise that great moments catch us by surprise, because they often seem quite small.",
+    "text": "Twenty years ago, I drove a taxi. One time, I was called at midnight to pick someone up. When I arrived, the building was completely dark except for one light in a window.\nI walked to the door and knocked. After a long wait, the door opened. A small woman in her 80s stood before me. By her side was a small suitcase.\n“Would you carry my bag out to the car?” she said. I took her suitcase and gave her my arm. We walked slowly to the street. She kept thanking me for my kindness.\n“It’s nothing,” I told her. “I try to treat my passengers how I want my mother treated.”\n“You’re such a good boy,” she said. When we got in the taxi, she gave me an address. Then she asked, “Could you drive through the downtown?”\n“It’s not the shortest way,” I answered.\n“I don’t mind,” she said. “I’m in no hurry. I’m on my way to a hospice.”\nI saw her eyes shining with tears.\n“I don’t have any family left,” she continued. “The doctor says I don’t have very long.”\nI quietly turned off the meter. “What road do you want me to take?” I asked.\nFor hours, we drove through the city. She showed me the building where she had once worked. We drove through the neighbourhood where she and her husband had lived. Sometimes she asked me to just slow down while she sat staring into the darkness, saying nothing.\nAs the sun was coming up, she suddenly said, “I’m tired. Let’s go now.”\nWe drove in silence to the hospice. As we pulled up, two nurses were waiting for us. They helped her into a wheelchair.\n“How much do I owe you?” she asked me, reaching for her purse.\n“Nothing,” I said. Without thinking, I leaned down and gave her a hug. She hugged me tightly.\n“You gave an old woman a little moment of joy,” she said. “Thank you.”\nI squeezed her hand and then walked back to my taxi. For the rest of that day, I could hardly talk.\nI believe I have never done anything more important in my life. We usually think that our lives are defined by great moments. But I now realise that great moments catch us by surprise, because they often seem quite small.",
     "blocks": [
-      {
-        "type": "paragraph",
-        "lang": "en",
-        "text": "(adapted from the story of the same name by Kent Nerburn)"
-      },
       {
         "type": "paragraph",
         "lang": "en",
@@ -205,50 +200,45 @@
   },
   "sources": [
     {
-      "path": "content/pep-english/raw/senior-required-3.pdf",
-      "locator": "PDF第77-78页，标题与完整正文逐行核对",
+      "path": "content/article-review/history/6f843ca59e9a7eca8bd391942d55c56fc80d818b7befc5e801edfe826de93ac1.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
       "checked": true,
-      "sha256": "fe9c8e15e62f4aec56efc60b8de43f4a55d40f3114d6505affaef78a8b7a1af2"
-    },
-    {
-      "path": "content/pep-english/raw/senior-required-3/senior-required-3_77.jpg",
-      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
-      "checked": true,
-      "sha256": "39d5a21214fda62b3a62d2056f7ab149d85b6df4c1db01c980296c361d3dabd8"
-    },
-    {
-      "path": "content/pep-english/raw/senior-required-3/senior-required-3_78.jpg",
-      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
-      "checked": true,
-      "sha256": "1be9dd3f613f12dc067f529e2db16ea20e717c72d8f2536dade1dba1290ce62d"
-    },
-    {
-      "path": "content/article-review/cleanup-2026-10-06.json",
-      "sha256": "cea27c1c69e32939ff83196bd29cce9a128d8d0d6f248611217179e037971889",
-      "locator": "public/pep-english/lessons/pephr3/022.json",
-      "checked": true
+      "sha256": "76b0f0abba936a289262a95997144f10bdd626c340beab925abf303c75fe8b5f"
     }
   ],
-  "corrections": [
-    {
-      "field": "text",
-      "before": "(adapted from the story of the same name by Kent Nerburn)\nTwenty years ago, I drove a taxi. One time, I was called at midnight to pick someone up. When I arrived, the building was completely dark except for one light in a window.\nI walked to the door and knocked. After a long wait, the door opened. A small woman in her 80s stood before me. By her side was a small suitcase.\n“Would you carry my bag out to the car?” she said. I took her suitcase and gave her my arm. We walked slowly to the street. She kept thanking me for my kindness.\n“It’s nothing,” I told her. “I try to treat my passengers how I want my mother treated.”\n“You’re such a good boy,” she said. When we got in the taxi, she gave me an address. Then she asked, “Could you drive through the downtown?”\n“It’s not the shortest way,” I answered.\n“I don’t mind,” she said. “I’m in no hurry. I’m on my way to a hospice.”\nI saw her eyes shining with tears.\n“I don’t have any family left,” she continued. “The doctor says I don’t have very long.”\nI quietly turned off the meter. “What road do you want me to take?” I asked.\nFor hours, we drove through the city. She showed me the building where she had once worked. We drove through the neighbourhood where she and her husband had lived. Sometimes she asked me to just slow down while she sat staring into the darkness, saying nothing.\nAs the sun was coming up, she suddenly said, “I’m tired. Let’s go now.”\nWe drove in silence to the hospice. As we pulled up, two nurses were waiting for us. They helped her into a wheelchair.\n“How much do I owe you?” she asked me, reaching for her purse.\n“Nothing,” I said. Without thinking, I leaned down and gave her a hug. She hugged me tightly.\n“You gave an old woman a little moment of joy,” she said. “Thank you.”\nI squeezed her hand and then walked back to my taxi. For the rest of that day, I could hardly talk.\nI believe I have never done anything more important in my life. We usually think that our lives are defined by great moments. But I now realise that great moments catch us by surprise, because they often seem quite small.",
-      "after": "Twenty years ago, I drove a taxi. One time, I was called at midnight to pick someone up. When I arrived, the building was completely dark except for one light in a window.\nI walked to the door and knocked. After a long wait, the door opened. A small woman in her 80s stood before me. By her side was a small suitcase.\n“Would you carry my bag out to the car?” she said. I took her suitcase and gave her my arm. We walked slowly to the street. She kept thanking me for my kindness.\n“It’s nothing,” I told her. “I try to treat my passengers how I want my mother treated.”\n“You’re such a good boy,” she said. When we got in the taxi, she gave me an address. Then she asked, “Could you drive through the downtown?”\n“It’s not the shortest way,” I answered.\n“I don’t mind,” she said. “I’m in no hurry. I’m on my way to a hospice.”\nI saw her eyes shining with tears.\n“I don’t have any family left,” she continued. “The doctor says I don’t have very long.”\nI quietly turned off the meter. “What road do you want me to take?” I asked.\nFor hours, we drove through the city. She showed me the building where she had once worked. We drove through the neighbourhood where she and her husband had lived. Sometimes she asked me to just slow down while she sat staring into the darkness, saying nothing.\nAs the sun was coming up, she suddenly said, “I’m tired. Let’s go now.”\nWe drove in silence to the hospice. As we pulled up, two nurses were waiting for us. They helped her into a wheelchair.\n“How much do I owe you?” she asked me, reaching for her purse.\n“Nothing,” I said. Without thinking, I leaned down and gave her a hug. She hugged me tightly.\n“You gave an old woman a little moment of joy,” she said. “Thank you.”\nI squeezed her hand and then walked back to my taxi. For the rest of that day, I could hardly talk.\nI believe I have never done anything more important in my life. We usually think that our lives are defined by great moments. But I now realise that great moments catch us by surprise, because they often seem quite small.",
-      "evidence": "User-directed source-fidelity restoration; content/article-review/cleanup-2026-10-06.json"
-    }
-  ],
-  "fullReadConfirmed": false,
-  "recheckConfirmed": false,
-  "reviewMode": "source-fidelity-rules-v1",
-  "reviewer": "Codex (user-directed restoration)",
-  "reviewedAt": "2026-10-05T17:15:10+00:00",
-  "notes": "Rule-based restoration; original full-read review remains historical. content/article-review/cleanup-2026-10-06.json",
+  "corrections": [],
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "reviewer": "Codex",
+  "reviewedAt": "2026-10-07T07:32:22+00:00",
+  "notes": "出租车夜行故事十八段兼叙述与人物对白，短段有独立说话和情绪功能，保留原轮次及末尾感悟段。",
   "issues": [],
-  "status": "passed_edited",
-  "previousRevisionSha256": "dd542bc7d8f5159754e70e01554b7c2a264b8533652755484b9cee6a5696aa81",
-  "ruleRestoration": {
-    "policy": "source-fidelity-rules-v1",
-    "report": "content/article-review/cleanup-2026-10-06.json",
-    "reportSha256": "cea27c1c69e32939ff83196bd29cce9a128d8d0d6f248611217179e037971889"
-  }
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "ffce2b43ff823a7b1a6b0fa836e72a81fd191257e5f6515c7fde82b221c6b782",
+    "afterFileSha256": "ffce2b43ff823a7b1a6b0fa836e72a81fd191257e5f6515c7fde82b221c6b782",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "ffce2b43ff823a7b1a6b0fa836e72a81fd191257e5f6515c7fde82b221c6b782",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..17] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "出租车夜行故事十八段兼叙述与人物对白，短段有独立说话和情绪功能，保留原轮次及末尾感悟段。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/6f843ca59e9a7eca8bd391942d55c56fc80d818b7befc5e801edfe826de93ac1.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "76b0f0abba936a289262a95997144f10bdd626c340beab925abf303c75fe8b5f"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "6f843ca59e9a7eca8bd391942d55c56fc80d818b7befc5e801edfe826de93ac1"
 }

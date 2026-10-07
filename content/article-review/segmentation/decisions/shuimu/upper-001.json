@@ -1,0 +1,222 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "656590194aca76a352f4fd7bd00aa39ec53907abb063d4e9b23d1fd27d222f37",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title；全文 blocks[0..176] 与对应 text；现有正文/对话/题干逐块通读复核。",
+  "notes": "美洲狮课全文0..176块通读：合并引入尾词、三个英中对应正文段、Notes第2/4/5条、问答5/11、写作题干与提纲和范文、选择题2题干的机械断行；词表和选项保持独立。末尾孤立1.归属无法判断。",
+  "issues": [
+    "blocks[176]在完整选择题答案后只有孤立的1.，JSON无后续内容，无法确认它是新解析条目还是残留标记；未猜测合并或删除。"
+  ],
+  "mergeBlocks": [
+    {
+      "start": 0,
+      "end": 1,
+      "before": [
+        "Introduce the story: Today we will talk about a puma that is wandering around the",
+        "countryside."
+      ],
+      "text": "Introduce the story: Today we will talk about a puma that is wandering around the countryside.",
+      "reason": "按美洲狮叙事或该编号题解的连续语义合并物理续行，保留三个完整英文自然段及其中文对应单元，独立题目和选项不合并。"
+    },
+    {
+      "start": 22,
+      "end": 26,
+      "before": [
+        "Pumas are large, cat-like animals which are found in America. When reports came",
+        "into London Zoo that a wild puma had been spotted forty-five miles south of London,",
+        "they were not taken seriously. However, as the evidence began to accumulate, experts",
+        "from the Zoo felt obliged to investigate, for the descriptions given by people who",
+        "claimed to have seen the puma were extraordinarily similar."
+      ],
+      "text": "Pumas are large, cat-like animals which are found in America. When reports came into London Zoo that a wild puma had been spotted forty-five miles south of London, they were not taken seriously. However, as the evidence began to accumulate, experts from the Zoo felt obliged to investigate, for the descriptions given by people who claimed to have seen the puma were extraordinarily similar.",
+      "reason": "按美洲狮叙事或该编号题解的连续语义合并物理续行，保留三个完整英文自然段及其中文对应单元，独立题目和选项不合并。"
+    },
+    {
+      "start": 27,
+      "end": 30,
+      "before": [
+        "美洲狮是一种体形似猫的大动物，产于美洲。当伦敦动物园接到报告说，在伦敦",
+        "以南 45 英里处发现一只美洲狮时，这些报告并没有受到重视。可是，随着证据",
+        "越来越多，动物园的专家们感到有必要进行一番调查，因为凡是声称见到过美洲",
+        "狮的人们所描述的情况竟是出奇地相似。"
+      ],
+      "text": "美洲狮是一种体形似猫的大动物，产于美洲。当伦敦动物园接到报告说，在伦敦以南 45 英里处发现一只美洲狮时，这些报告并没有受到重视。可是，随着证据越来越多，动物园的专家们感到有必要进行一番调查，因为凡是声称见到过美洲狮的人们所描述的情况竟是出奇地相似。",
+      "reason": "按美洲狮叙事或该编号题解的连续语义合并物理续行，保留三个完整英文自然段及其中文对应单元，独立题目和选项不合并。"
+    },
+    {
+      "start": 33,
+      "end": 36,
+      "before": [
+        "2 When reports came into London Zoo that a wild puma had been spotted forty-five",
+        "miles south of London, 当伦敦动物园接到报告说，在伦敦以南 45 英里的地方发",
+        "现一头野生美洲狮时。这个从句中以 that 引导的从句是 reports 的同位语，用于",
+        "进一步说明报告的内容。"
+      ],
+      "text": "2 When reports came into London Zoo that a wild puma had been spotted forty-five miles south of London, 当伦敦动物园接到报告说，在伦敦以南 45 英里的地方发现一头野生美洲狮时。这个从句中以 that 引导的从句是 reports 的同位语，用于进一步说明报告的内容。",
+      "reason": "按美洲狮叙事或该编号题解的连续语义合并物理续行，保留三个完整英文自然段及其中文对应单元，独立题目和选项不合并。"
+    },
+    {
+      "start": 38,
+      "end": 44,
+      "before": [
+        "The hunt for the puma began in a small village where a woman picking blackberries",
+        "saw 'a large cat' only five yards away from her. It immediately ran away when she",
+        "saw it, and experts confirmed that a puma will not attack a human being unless it is",
+        "cornered. The search proved difficult, for the puma was often observed at one place in",
+        "the morning and at another place twenty miles away in the evening. Wherever it went,",
+        "it left behind it a trail of dead deer and small animals like rabbits. Paw prints were",
+        "seen in a number of places and puma fur was found clinging to bushes."
+      ],
+      "text": "The hunt for the puma began in a small village where a woman picking blackberries saw 'a large cat' only five yards away from her. It immediately ran away when she saw it, and experts confirmed that a puma will not attack a human being unless it is cornered. The search proved difficult, for the puma was often observed at one place in the morning and at another place twenty miles away in the evening. Wherever it went, it left behind it a trail of dead deer and small animals like rabbits. Paw prints were seen in a number of places and puma fur was found clinging to bushes.",
+      "reason": "按美洲狮叙事或该编号题解的连续语义合并物理续行，保留三个完整英文自然段及其中文对应单元，独立题目和选项不合并。"
+    },
+    {
+      "start": 45,
+      "end": 50,
+      "before": [
+        "搜寻美洲狮的工作是从一座小村庄开始的。那里的一位妇女在采摘黑莓时看见",
+        "“一只大猫” ，离她仅 5 码远，她刚看见它，它就立刻逃走了。专家证实，美洲狮",
+        "非被逼得走投无路，是决不会伤人的。事实上搜寻工作很困难，因为常常是早晨",
+        "在甲地发现那只美洲狮，晚上却在 20 英里外的乙地发现它的踪迹。无论它走哪",
+        "儿，一路上总会留下一串死鹿及死兔子之类的小动物，在许多地方看见爪印，灌",
+        "木丛中发现了粘在上面的美洲狮毛。"
+      ],
+      "text": "搜寻美洲狮的工作是从一座小村庄开始的。那里的一位妇女在采摘黑莓时看见“一只大猫” ，离她仅 5 码远，她刚看见它，它就立刻逃走了。专家证实，美洲狮非被逼得走投无路，是决不会伤人的。事实上搜寻工作很困难，因为常常是早晨在甲地发现那只美洲狮，晚上却在 20 英里外的乙地发现它的踪迹。无论它走哪儿，一路上总会留下一串死鹿及死兔子之类的小动物，在许多地方看见爪印，灌木丛中发现了粘在上面的美洲狮毛。",
+      "reason": "按美洲狮叙事或该编号题解的连续语义合并物理续行，保留三个完整英文自然段及其中文对应单元，独立题目和选项不合并。"
+    },
+    {
+      "start": 52,
+      "end": 53,
+      "before": [
+        "4 it left behind it a trail of, 它身后留下一串 ……a trail of 作 left 的宾语，behind it",
+        "是状语，提到宾语之前是为了使句子结构更紧凑。"
+      ],
+      "text": "4 it left behind it a trail of, 它身后留下一串 ……a trail of 作 left 的宾语，behind it 是状语，提到宾语之前是为了使句子结构更紧凑。",
+      "reason": "按美洲狮叙事或该编号题解的连续语义合并物理续行，保留三个完整英文自然段及其中文对应单元，独立题目和选项不合并。"
+    },
+    {
+      "start": 54,
+      "end": 56,
+      "before": [
+        "5 puma fur was found clinging to bushes 中，clinging 是现在分词，此处作主语 puma",
+        "fur 的主语补足语。下文中As no pumas had been reported missing…一句中，missing",
+        "也是现在分词作主语补足语。"
+      ],
+      "text": "5 puma fur was found clinging to bushes 中，clinging 是现在分词，此处作主语 puma fur 的主语补足语。下文中As no pumas had been reported missing…一句中，missing 也是现在分词作主语补足语。",
+      "reason": "按美洲狮叙事或该编号题解的连续语义合并物理续行，保留三个完整英文自然段及其中文对应单元，独立题目和选项不合并。"
+    },
+    {
+      "start": 57,
+      "end": 63,
+      "before": [
+        "Several people complained of 'cat-like noises' at night and a businessman on a fishing",
+        "trip saw the puma up a tree. The experts were now fully convinced that the animal",
+        "was a puma, but where had it come from? As no pumas had been reported missing",
+        "from any zoo in the country, this one must have been in the possession of a private",
+        "collector and somehow managed to escape. The hunt went on for several weeks, but",
+        "the puma was not caught. It is disturbing to think that a dangerous wild animal is still",
+        "at large in the quiet countryside."
+      ],
+      "text": "Several people complained of 'cat-like noises' at night and a businessman on a fishing trip saw the puma up a tree. The experts were now fully convinced that the animal was a puma, but where had it come from? As no pumas had been reported missing from any zoo in the country, this one must have been in the possession of a private collector and somehow managed to escape. The hunt went on for several weeks, but the puma was not caught. It is disturbing to think that a dangerous wild animal is still at large in the quiet countryside.",
+      "reason": "按美洲狮叙事或该编号题解的连续语义合并物理续行，保留三个完整英文自然段及其中文对应单元，独立题目和选项不合并。"
+    },
+    {
+      "start": 64,
+      "end": 68,
+      "before": [
+        "有人抱怨说夜里听见“像猫一样的叫声”；一位商人去钓鱼，看见那只美洲狮在树",
+        "上。专家们如今已经完全肯定那只动物就是美洲狮，但它是从哪儿来的呢？由于",
+        "全国动物园没有一家报告丢了美洲狮，因此那只美洲狮一定是某位私人收藏豢养",
+        "的，不知怎么设法逃出来了。搜寻工作进行了好几个星期，但始终未能逮住那只",
+        "美洲狮。想到在宁静的乡村里有一头危险的野兽继续逍遥流窜，真令人担心。"
+      ],
+      "text": "有人抱怨说夜里听见“像猫一样的叫声”；一位商人去钓鱼，看见那只美洲狮在树上。专家们如今已经完全肯定那只动物就是美洲狮，但它是从哪儿来的呢？由于全国动物园没有一家报告丢了美洲狮，因此那只美洲狮一定是某位私人收藏豢养的，不知怎么设法逃出来了。搜寻工作进行了好几个星期，但始终未能逮住那只美洲狮。想到在宁静的乡村里有一头危险的野兽继续逍遥流窜，真令人担心。",
+      "reason": "按美洲狮叙事或该编号题解的连续语义合并物理续行，保留三个完整英文自然段及其中文对应单元，独立题目和选项不合并。"
+    },
+    {
+      "start": 77,
+      "end": 78,
+      "before": [
+        "5 Why did the Zoo feel obliged to investigate? (Because the descriptions given by",
+        "people were similar.)"
+      ],
+      "text": "5 Why did the Zoo feel obliged to investigate? (Because the descriptions given by people were similar.)",
+      "reason": "按美洲狮叙事或该编号题解的连续语义合并物理续行，保留三个完整英文自然段及其中文对应单元，独立题目和选项不合并。"
+    },
+    {
+      "start": 84,
+      "end": 85,
+      "before": [
+        "11 Why? (Because it was often seen at one place in the morning and at another place",
+        "in the evening.)"
+      ],
+      "text": "11 Why? (Because it was often seen at one place in the morning and at another place in the evening.)",
+      "reason": "按美洲狮叙事或该编号题解的连续语义合并物理续行，保留三个完整英文自然段及其中文对应单元，独立题目和选项不合并。"
+    },
+    {
+      "start": 93,
+      "end": 94,
+      "before": [
+        "Describe the occasion when the woman picking blackberries saw the puma. Expand",
+        "the following into a paragraph of about 150 words."
+      ],
+      "text": "Describe the occasion when the woman picking blackberries saw the puma. Expand the following into a paragraph of about 150 words.",
+      "reason": "按美洲狮叙事或该编号题解的连续语义合并物理续行，保留三个完整英文自然段及其中文对应单元，独立题目和选项不合并。"
+    },
+    {
+      "start": 95,
+      "end": 100,
+      "before": [
+        "Mrs. stone had spent the whole morning…It was nearly lunch time, so she",
+        "decided…She was just…when she heard a noise in…Then she saw an animal",
+        "which …She knew it was not a cat because…The animal suddenly…and she thought it",
+        "was going to…She dropped her basket and…Hearing the sound, the animal…after",
+        "which, Mrs. Stone…and ran all the way home. She told her neighbors that…but they",
+        "didn’t believe her. She also telephoned the police, but they…"
+      ],
+      "text": "Mrs. stone had spent the whole morning…It was nearly lunch time, so she decided…She was just…when she heard a noise in…Then she saw an animal which …She knew it was not a cat because…The animal suddenly…and she thought it was going to…She dropped her basket and…Hearing the sound, the animal…after which, Mrs. Stone…and ran all the way home. She told her neighbors that…but they didn’t believe her. She also telephoned the police, but they…",
+      "reason": "按美洲狮叙事或该编号题解的连续语义合并物理续行，保留三个完整英文自然段及其中文对应单元，独立题目和选项不合并。"
+    },
+    {
+      "start": 102,
+      "end": 111,
+      "before": [
+        "Mrs. Stone had spent the whole morning picking blackberries in the countryside near",
+        "her home. It was nearly lunch time, so she decided to return home for lunch. She was",
+        "just picking up her basket when she heard a noise in the bushes. Then she saw an",
+        "animal which looked like a cat. She knew it was not a cat because it was so large. The",
+        "animal suddenly turned round to look at her and she thought it was going to come",
+        "towards her and perhaps attack her. She dropped her basket and screamed loudly.",
+        "Hearing the sound, the animal disappeared into the bushes after which Mrs. Stone",
+        "picked up her basket and ran all the way home. She told her neighbors that she had",
+        "seen a puma in the countryside, but they did not believe her. She also telephoned the",
+        "police but they didn't believe her either."
+      ],
+      "text": "Mrs. Stone had spent the whole morning picking blackberries in the countryside near her home. It was nearly lunch time, so she decided to return home for lunch. She was just picking up her basket when she heard a noise in the bushes. Then she saw an animal which looked like a cat. She knew it was not a cat because it was so large. The animal suddenly turned round to look at her and she thought it was going to come towards her and perhaps attack her. She dropped her basket and screamed loudly. Hearing the sound, the animal disappeared into the bushes after which Mrs. Stone picked up her basket and ran all the way home. She told her neighbors that she had seen a puma in the countryside, but they did not believe her. She also telephoned the police but they didn't believe her either.",
+      "reason": "按美洲狮叙事或该编号题解的连续语义合并物理续行，保留三个完整英文自然段及其中文对应单元，独立题目和选项不合并。"
+    },
+    {
+      "start": 119,
+      "end": 120,
+      "before": [
+        "2 What particular piece of evidence persuaded the experts that a puma had been seen",
+        "in the village?"
+      ],
+      "text": "2 What particular piece of evidence persuaded the experts that a puma had been seen in the village?",
+      "reason": "按美洲狮叙事或该编号题解的连续语义合并物理续行，保留三个完整英文自然段及其中文对应单元，独立题目和选项不合并。"
+    }
+  ],
+  "splitBlocks": [],
+  "blockEdits": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/b97fc82154b6ace8dee4ee2a379d49cda96e28b5d52b74762c3f34b5395cd53d.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "6e0f88a09bd210ad49e730eee3b06c5ff9306801d738ee8b0bb34bb747bdc5a1"
+    }
+  ]
+}

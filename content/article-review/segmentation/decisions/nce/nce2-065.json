@@ -1,0 +1,26 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "deed97dd7f78047979f58dbaea87b3bb704f755706f7240bdc8d439714ed1ac8",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title/titleZh、question/questionZh、bodyText全部10行、bodyTextZh全部10行及sentences[0..12]的完整文字；重复正文与字幕文本逐字比对，非正文字幕另读。操作在内存应用并validate_layout_change，修复后的双语全文重新通读。",
+  "notes": "Jumbo堵街；圣诞送礼出发、警察推象、事后诙谐评论三段，恢复警察多句引语。 text与bodyText同步；sentences对象及时间、角色、索引原样保留。",
+  "issues": [],
+  "display": {
+    "text": "Why did the police have to push Jumbo off the main street?\n\nLast Christmas, the circus owner, Jimmy Gates, decided to take some presents to a children's hospital. Dressed up as Father Christmas and accompanied by a 'guard of honour' of six pretty girls, he set off down the main street of the city riding a baby elephant called Jumbo. He should have known that the police would never allow this sort of thing.\nA policeman approached Jimmy and told him he ought to have gone along a side street as Jumbo was holding up the traffic. Though Jimmy agreed to go at once, Jumbo refused to move. Fifteen policemen had to push very hard to get him off the main street. The police had a difficult time, but they were most amused.\n'Jumbo must weigh a few tons,' said a policeman afterwards, 'so it was fortunate that we didn't have to carry him. Of course, we should arrest him, but as he has a good record, we shall let him off this time.'",
+    "bodyText": "Last Christmas, the circus owner, Jimmy Gates, decided to take some presents to a children's hospital. Dressed up as Father Christmas and accompanied by a 'guard of honour' of six pretty girls, he set off down the main street of the city riding a baby elephant called Jumbo. He should have known that the police would never allow this sort of thing.\nA policeman approached Jimmy and told him he ought to have gone along a side street as Jumbo was holding up the traffic. Though Jimmy agreed to go at once, Jumbo refused to move. Fifteen policemen had to push very hard to get him off the main street. The police had a difficult time, but they were most amused.\n'Jumbo must weigh a few tons,' said a policeman afterwards, 'so it was fortunate that we didn't have to carry him. Of course, we should arrest him, but as he has a good record, we shall let him off this time.'",
+    "bodyTextZh": "去年圣诞节，马戏团老板吉米·盖茨决定把一些礼物送到儿童医院去。他装扮成圣诞老人，由六位漂亮的女孩组成的“仪仗队”陪同着他。他骑着一只名叫“Jumbo”的小象，沿着城市的主街道出发了。他本应该知道，警察绝不会允许这种事情发生的。\n一名警察走过来对吉米说：“你应该走小路，因为‘Jumbo’正在阻碍交通。”虽然吉米立刻同意离开，但“Jumbo”却拒绝移动。十五名警察费了很大劲才把他从主街上弄走。警察们遇到了不少困难，不过他们觉得这件事非常有趣（或者说：虽然过程很艰难，但他们觉得这件事很有趣）。\n“Jumbo 肯定有好几吨重，”一名警察事后说道，“所以我们很幸运，不必抬着他走。“当然，我们应该逮捕他，但鉴于他表现良好，这次我们就放他一马吧。"
+  },
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/c7eaac5ff4fd6178935e965a2f452e2498082778054039c90539192d681725ee.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "3d5ea02d05158cde3ddc78fe443ce5358e378431f1d1920d1c4873c328147cd8"
+    }
+  ]
+}

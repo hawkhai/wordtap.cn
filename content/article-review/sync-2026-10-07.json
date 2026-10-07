@@ -1,0 +1,119 @@
+{
+  "date": "2026-10-07",
+  "sourceRepository": "https://github.com/hawkhai/english_word_study_web",
+  "sourceCommit": "be2d7639d70ab54f9bb1c144a2ec67453e0530ad",
+  "destinationBaseCommit": "2b3c986d3057a4c8abce8b81fc90020d50f7ae96",
+  "destinationBranch": "main",
+  "articles": 1054,
+  "courseCounts": {
+    "shuimu": 192,
+    "postgraduate": 40,
+    "nce": 276,
+    "pep-english": 313,
+    "college-english": 72,
+    "cet": 97,
+    "kaoyan-english": 64
+  },
+  "updatedArticles": {
+    "shuimu": 181,
+    "postgraduate": 6,
+    "nce": 275,
+    "pep-english": 54,
+    "college-english": 0,
+    "cet": 97,
+    "kaoyan-english": 64
+  },
+  "updatedArticleTotal": 677,
+  "manifests": 7,
+  "byteEquality": true,
+  "snapshotSha256": "855678efdb5a399089ea99b021da210fabd26a298dbc4f6addcd3fd26feb427e",
+  "snapshotHashDefinition": "Sorted relative POSIX path UTF-8 + NUL + raw SHA256 digest, for 1054 lessons and 7 manifests.",
+  "reviewEvidence": "Current source review data copied byte-for-byte, including 1958 historical JSON records in history.zip; README adapted for this repository. Previous destination sync record retained.",
+  "reviewStatus": {
+    "passed_edited": 561,
+    "passed_unchanged": 373,
+    "needs_confirmation": 120,
+    "pending": 0
+  },
+  "completeAcceptance": false,
+  "scope": "Published lesson JSON, manifests, existing review evidence and portable validation tools only. No original textbooks, images, course data regeneration or frontend changes.",
+  "checks": [
+    {
+      "command": "npm run test:article-review",
+      "exitCode": 0,
+      "tests": 41
+    },
+    {
+      "command": "npm run prebuild",
+      "exitCode": 0,
+      "notes": "Restoration chain, published snapshot and JSON segmentation checks each cover all 1054 articles. Download check skipped absent installer binaries as designed."
+    },
+    {
+      "command": "npm run typecheck",
+      "exitCode": 0
+    },
+    {
+      "command": "node tools/verify-shuimu.mjs",
+      "exitCode": 0,
+      "articles": 192
+    },
+    {
+      "command": "node tools/verify-postgraduate.mjs --require-complete",
+      "exitCode": 0,
+      "articles": 40
+    },
+    {
+      "command": "node tools/verify-pep-english.mjs",
+      "exitCode": 0,
+      "articles": 313
+    },
+    {
+      "command": "python tools/verify-college-english.py --require-complete",
+      "exitCode": 0,
+      "articles": 72,
+      "notes": "Existing JSON signatures and audit metadata only; no PDF opened."
+    },
+    {
+      "command": "node tools/verify-cet.mjs",
+      "exitCode": 0,
+      "articles": 97
+    },
+    {
+      "command": "node tools/verify-kaoyan-english.mjs",
+      "exitCode": 0,
+      "articles": 64
+    },
+    {
+      "command": "python tools/review-segmentation.py check --require-complete",
+      "exitCode": 1,
+      "expected": true,
+      "reason": "120 needs_confirmation records remain; no pending records."
+    },
+    {
+      "check": "Source/staged/working-tree equality",
+      "result": "passed",
+      "files": 1061,
+      "sourceGitLineEndingDifferences": 157,
+      "notes": "All staged lesson and manifest blobs are byte-identical to the source working tree. 157 files differ from source Git blobs only by CRLF/LF normalization; JSON content is identical."
+    },
+    {
+      "check": "Review evidence equality",
+      "result": "passed",
+      "notes": "All current source evidence matches byte-for-byte; only README is adapted for destination context."
+    },
+    {
+      "command": "npm run verify:open-source",
+      "exitCode": 0,
+      "trackedFiles": 14626
+    },
+    {
+      "command": "git -c core.whitespace=cr-at-eol diff --cached --check",
+      "exitCode": 0
+    }
+  ],
+  "buildGate": "prebuild enforces published JSON integrity and registered revisions. Strict complete-review commands remain available and fail until unresolved records are resolved.",
+  "limitations": [
+    "No frontend build, browser check or original-source regeneration performed for this data synchronization.",
+    "120 unresolved articles remain documented in segmentation/progress.md; synchronization does not resolve or reclassify them."
+  ]
+}

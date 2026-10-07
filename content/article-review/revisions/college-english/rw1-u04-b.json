@@ -92,30 +92,45 @@
   },
   "sources": [
     {
-      "path": "content/College-English/NHCE4-RW1.pdf",
-      "locator": "PDF 111-112，印刷页 96-97，完整正文与标题逐段核对",
+      "path": "content/article-review/history/262acd987704075725beceb39c1c285abe0be26eaa472e71874562a7644265ff.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
       "checked": true,
-      "sha256": "05d7a57fb09156e13d02ce498271c86917869b5327e8981f1eedf205ceb465ec"
-    },
-    {
-      "path": "content/College-English/NHCE4-RW1/NHCE4-RW1_111.jpg",
-      "locator": "已打开教材图页并通读复核正文",
-      "checked": true,
-      "sha256": "9cecd66403afb9b6f1ba3616e37e385187d829b11e4c6d75861bd0a050548957"
-    },
-    {
-      "path": "content/College-English/NHCE4-RW1/NHCE4-RW1_112.jpg",
-      "locator": "已打开教材图页并通读复核正文",
-      "checked": true,
-      "sha256": "9f951a6ad661c89a111c8d29ca0cfa53efb3505ad175231924a4cb892928a7b9"
+      "sha256": "70076601d51bba8bda80ccf947a8ebd98b6a3dc0d9f7566dc055c0a16d096686"
     }
   ],
   "corrections": [],
   "fullReadConfirmed": true,
   "recheckConfirmed": true,
   "reviewer": "Codex",
-  "reviewedAt": "2026-10-02T08:33:28+00:00",
-  "notes": "完整通读7段并核对PDF111—112页；核对跨页第3段、朋友引语及末段工具比喻。正文与原页一致，个人经验和作者观点保留，无需文字改动。",
+  "reviewedAt": "2026-10-07T07:30:00+00:00",
+  "notes": "全文及未改动输出复核：Tommy即时联系、寻找失童报道、Jenny与Ryan对社交媒体的矛盾反应、咖啡店观察和工具观七段逻辑完整；同段采访引语属于论证例子，未机械拆句。",
   "issues": [],
-  "status": "passed_unchanged"
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "791a93e0188efe5e0c7f24814c1db3c7285ac483c326159c404bc49f5b6beecd",
+    "afterFileSha256": "791a93e0188efe5e0c7f24814c1db3c7285ac483c326159c404bc49f5b6beecd",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "791a93e0188efe5e0c7f24814c1db3c7285ac483c326159c404bc49f5b6beecd",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "完整 title、blocks[0..6]及完全相同的text；正文及内嵌中文、引语、对话和列举均已逐项通读；无改动输出按全文再次复核。",
+      "notes": "全文及未改动输出复核：Tommy即时联系、寻找失童报道、Jenny与Ryan对社交媒体的矛盾反应、咖啡店观察和工具观七段逻辑完整；同段采访引语属于论证例子，未机械拆句。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/262acd987704075725beceb39c1c285abe0be26eaa472e71874562a7644265ff.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "70076601d51bba8bda80ccf947a8ebd98b6a3dc0d9f7566dc055c0a16d096686"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "262acd987704075725beceb39c1c285abe0be26eaa472e71874562a7644265ff"
 }

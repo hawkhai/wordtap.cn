@@ -30,24 +30,45 @@
   },
   "sources": [
     {
-      "path": "content/pep-english/raw/senior-selective-3.pdf",
-      "locator": "PDF第102-102页，标题与完整正文逐行核对",
+      "path": "content/article-review/history/2b0837018aa42f43405f5ac0fb85d9260b0e49047295fa79fb236f785f539992.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
       "checked": true,
-      "sha256": "ed8eb9e5988b44a1ff4f8bc11ed3cfae406decefae7982477362720788e1998b"
-    },
-    {
-      "path": "content/pep-english/raw/senior-selective-3/senior-selective-3_102.jpg",
-      "locator": "已打开原页图，逐行通读并与修改后的全文对照",
-      "checked": true,
-      "sha256": "837220be7b4d231e77d536f44875850cc628cc9bd608dd1993bc07f1302753a3"
+      "sha256": "c833bace2f37e01f05a3064e4ea54eb80499fad6d250f9bbe94dc352b5990177"
     }
   ],
   "corrections": [],
   "fullReadConfirmed": true,
   "recheckConfirmed": true,
   "reviewer": "Codex",
-  "reviewedAt": "2026-10-02T07:28:28+00:00",
-  "notes": "完整核对PDF102页泰戈尔The Gift七个散文诗句，保留已有语义换行与历史措辞；图片绕排的自然折行无需照搬，作者已在标题。未发现漏字错字。",
+  "reviewedAt": "2026-10-07T07:35:54+00:00",
+  "notes": "The Gift七行散文诗各行可含多句，按原诗行整体保留，不按句子拆碎。",
   "issues": [],
-  "status": "passed_unchanged"
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "e9ca41a96d80232f914b8082164c80f03e1cca2afc8c0d9b529a52c8a534e19e",
+    "afterFileSha256": "e9ca41a96d80232f914b8082164c80f03e1cca2afc8c0d9b529a52c8a534e19e",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "e9ca41a96d80232f914b8082164c80f03e1cca2afc8c0d9b529a52c8a534e19e",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..0] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "The Gift七行散文诗各行可含多句，按原诗行整体保留，不按句子拆碎。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/2b0837018aa42f43405f5ac0fb85d9260b0e49047295fa79fb236f785f539992.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "c833bace2f37e01f05a3064e4ea54eb80499fad6d250f9bbe94dc352b5990177"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "2b0837018aa42f43405f5ac0fb85d9260b0e49047295fa79fb236f785f539992"
 }

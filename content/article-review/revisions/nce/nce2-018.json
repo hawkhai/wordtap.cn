@@ -2,68 +2,9 @@
   "schemaVersion": 1,
   "course": "nce",
   "articleId": "nce2-018",
-  "beforeDisplaySha256": "072482d6cc28ca5c7da8d12f84346532872ff76df10d1a13e03c16be3f9e222f",
-  "afterDisplaySha256": "c2825597fc69e046be44c761e1e1ea2a36876ffd69c8b679310f38c4fd1bb6ed",
+  "beforeDisplaySha256": "c2825597fc69e046be44c761e1e1ea2a36876ffd69c8b679310f38c4fd1bb6ed",
+  "afterDisplaySha256": "cf96947996b8f59d8a5f5ba0c61c7c270f99d8226d90f96b3bbd6aa727928130",
   "baselineDisplay": {
-    "title": "He Often does This",
-    "titleZh": "他经常干这种事！",
-    "question": "What had happened to the writer's bag?",
-    "questionZh": "作者的包发生了什么事？",
-    "text": "What had happened to the writer's bag?\n\nAfter I had had lunch at a village pub, I looked for my bag.\nI had left it on a chair beside the door and now it wasn't there!\nAs I was looking for it, the landlord came in.\n'Did you have a good meal?' he asked.\n'Yes, thank you,' I answered, 'but I can't pay the bill. I haven't got my bag.'\nThe landlord smiled and immediately went out.\nIn a few minutes he returned with my bag and gave it back to me.\n'I'm very sorry,' he said.\n'My dog had taken it into the garden. He often does this!'",
-    "bodyText": "After I had had lunch at a village pub, I looked for my bag.\nI had left it on a chair beside the door and now it wasn't there!\nAs I was looking for it, the landlord came in.\n'Did you have a good meal?' he asked.\n'Yes, thank you,' I answered, 'but I can't pay the bill. I haven't got my bag.'\nThe landlord smiled and immediately went out.\nIn a few minutes he returned with my bag and gave it back to me.\n'I'm very sorry,' he said.\n'My dog had taken it into the garden. He often does this!'",
-    "bodyTextZh": "在一家乡村酒吧吃过午饭后，我开始寻找我的包。\n我之前把它放在门旁边的椅子上，但现在它不见了！\n我正在找包的时候，店主进来了。\n“你吃得怎么样？”他问道。\n“是的，谢谢您，”我回答道，“但我付不了账单。我的包不见了。”\n店主笑了笑，马上就出去了。\n几分钟后，他拿着我的包回来了，并把它交还给了我。\n“我非常抱歉，”他说。\n“我的狗把它叼到花园里去了。它老是干这种事！”",
-    "sentences": [
-      {
-        "en": "Lesson 18",
-        "zh": "第18课"
-      },
-      {
-        "en": "He Often does This",
-        "zh": "他经常干这种事！"
-      },
-      {
-        "en": "What had happened to the writer's bag?",
-        "zh": "作者的包发生了什么事？"
-      },
-      {
-        "en": "After I had had lunch at a village pub, I looked for my bag.",
-        "zh": "在一家乡村酒吧吃过午饭后，我开始寻找我的包。"
-      },
-      {
-        "en": "I had left it on a chair beside the door and now it wasn't there!",
-        "zh": "我之前把它放在门旁边的椅子上，但现在它不见了！"
-      },
-      {
-        "en": "As I was looking for it, the landlord came in.",
-        "zh": "我正在找包的时候，店主进来了。"
-      },
-      {
-        "en": "'Did you have a good meal?' he asked.",
-        "zh": "“你吃得怎么样？”他问道。"
-      },
-      {
-        "en": "'Yes, thank you,' I answered, 'but I can't pay the bill. I haven't got my bag.'",
-        "zh": "“是的，谢谢您，”我回答道，“但我付不了账单。我的包不见了。”"
-      },
-      {
-        "en": "The landlord smiled and immediately went out.",
-        "zh": "店主笑了笑，马上就出去了。"
-      },
-      {
-        "en": "In a few minutes he returned with my bag and gave it back to me.",
-        "zh": "几分钟后，他拿着我的包回来了，并把它交还给了我。"
-      },
-      {
-        "en": "'I'm very sorry,' he said.",
-        "zh": "“我非常抱歉，”他说。"
-      },
-      {
-        "en": "'My dog had taken it into the garden. He often does this!'",
-        "zh": "“我的狗把它叼到花园里去了。它老是干这种事！”"
-      }
-    ]
-  },
-  "display": {
     "title": "He Often does This",
     "titleZh": "他经常干这种事！",
     "question": "What had happened to the writer's bag?",
@@ -122,20 +63,111 @@
       }
     ]
   },
+  "display": {
+    "title": "He Often does This",
+    "titleZh": "他经常干这种事！",
+    "question": "What had happened to the writer's bag?",
+    "questionZh": "作者的包发生了什么事？",
+    "text": "What had happened to the writer's bag?\n\nAfter I had had lunch at a village pub, I looked for my bag. I had left it on a chair beside the door and now it wasn't there!\nAs I was looking for it, the landlord came in. 'Did you have a good meal?' he asked.\n'Yes, thank you,' I answered, 'but I can't pay the bill. I haven't got my bag.'\nThe landlord smiled and immediately went out. In a few minutes he returned with my bag and gave it back to me. 'I'm very sorry,' he said. 'My dog had taken it into the garden. He often does this!'",
+    "bodyText": "After I had had lunch at a village pub, I looked for my bag. I had left it on a chair beside the door and now it wasn't there!\nAs I was looking for it, the landlord came in. 'Did you have a good meal?' he asked.\n'Yes, thank you,' I answered, 'but I can't pay the bill. I haven't got my bag.'\nThe landlord smiled and immediately went out. In a few minutes he returned with my bag and gave it back to me. 'I'm very sorry,' he said. 'My dog had taken it into the garden. He often does this!'",
+    "bodyTextZh": "在一家乡村酒吧吃过午饭后，我开始寻找我的包。我之前把它放在门旁边的椅子上，但现在它不见了！\n我正在找包的时候，店主进来了。“你吃得怎么样？”他问道。\n“是的，谢谢您，”我回答道，“但我付不了账单。我的包不见了。”\n店主笑了笑，马上就出去了。几分钟后，他拿着我的包回来了，并把它交还给了我。“我非常抱歉，”他说。“我的狗把它叼到花园里去了。它老是干这种事！”",
+    "sentences": [
+      {
+        "en": "Lesson 18",
+        "zh": "第 18 课"
+      },
+      {
+        "en": "He Often does This",
+        "zh": "他经常干这种事！"
+      },
+      {
+        "en": "What had happened to the writer's bag?",
+        "zh": "作者的包发生了什么事？"
+      },
+      {
+        "en": "After I had had lunch at a village pub, I looked for my bag.",
+        "zh": "在一家乡村酒吧吃过午饭后，我开始寻找我的包。"
+      },
+      {
+        "en": "I had left it on a chair beside the door and now it wasn't there!",
+        "zh": "我之前把它放在门旁边的椅子上，但现在它不见了！"
+      },
+      {
+        "en": "As I was looking for it, the landlord came in.",
+        "zh": "我正在找包的时候，店主进来了。"
+      },
+      {
+        "en": "'Did you have a good meal?' he asked.",
+        "zh": "“你吃得怎么样？”他问道。"
+      },
+      {
+        "en": "'Yes, thank you,' I answered, 'but I can't pay the bill. I haven't got my bag.'",
+        "zh": "“是的，谢谢您，”我回答道，“但我付不了账单。我的包不见了。”"
+      },
+      {
+        "en": "The landlord smiled and immediately went out.",
+        "zh": "店主笑了笑，马上就出去了。"
+      },
+      {
+        "en": "In a few minutes he returned with my bag and gave it back to me.",
+        "zh": "几分钟后，他拿着我的包回来了，并把它交还给了我。"
+      },
+      {
+        "en": "'I'm very sorry,' he said.",
+        "zh": "“我非常抱歉，”他说。"
+      },
+      {
+        "en": "'My dog had taken it into the garden. He often does this!'",
+        "zh": "“我的狗把它叼到花园里去了。它老是干这种事！”"
+      }
+    ]
+  },
   "sources": [
     {
-      "path": "content/NCE-Flow/NCE2/18－He Often does This.lrc",
-      "locator": "完整LRC元数据、标题、提问及全部中英文逐句字幕和时间戳",
+      "path": "content/article-review/history/af5895a2ec32b6700c4895734c64dbfaeda514bd860160ef268266aa13889bb5.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
       "checked": true,
-      "sha256": "23cc84a403e29e5603f9dfb6e4f41fda80f8daf46baecc2889096a3a28f5f5a7"
+      "sha256": "7dfdd31fa5a56afd8fb6eeeb2c1bb331f9c33860184e99c9f0a2ddf4de5433e7"
     }
   ],
   "corrections": [],
   "fullReadConfirmed": true,
   "recheckConfirmed": true,
   "reviewer": "Codex",
-  "reviewedAt": "2026-10-02T02:57:23+00:00",
-  "notes": "通读酒吧失包故事，核对门边椅子、店主出去找包及狗叼到花园的结尾；保留过去完成时had had/had left/had taken及He指狗的拟人用法，原标题大小写与来源一致，只规范课号。",
+  "reviewedAt": "2026-10-07T07:50:51+00:00",
+  "notes": "酒吧失包；寻包、店主问候、取回包与解释狗的习惯各成段，作者无法付账回答单独保留。 text与bodyText同步；sentences对象及时间、角色、索引原样保留。",
   "issues": [],
-  "status": "passed_edited"
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "eab52aa071ca6dd3405fd80278915de4f8eca5c9ec26f12434474052de376e75",
+    "afterFileSha256": "26be022a2fe770eecd8c3e6c6ba80df6c57800acb0dcda342405328b305cf63e",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "eab52aa071ca6dd3405fd80278915de4f8eca5c9ec26f12434474052de376e75",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title/titleZh、question/questionZh、bodyText全部9行、bodyTextZh全部9行及sentences[0..11]的完整文字；重复正文与字幕文本逐字比对，非正文字幕另读。操作在内存应用并validate_layout_change，修复后的双语全文重新通读。",
+      "notes": "酒吧失包；寻包、店主问候、取回包与解释狗的习惯各成段，作者无法付账回答单独保留。 text与bodyText同步；sentences对象及时间、角色、索引原样保留。",
+      "issues": [],
+      "display": {
+        "text": "What had happened to the writer's bag?\n\nAfter I had had lunch at a village pub, I looked for my bag. I had left it on a chair beside the door and now it wasn't there!\nAs I was looking for it, the landlord came in. 'Did you have a good meal?' he asked.\n'Yes, thank you,' I answered, 'but I can't pay the bill. I haven't got my bag.'\nThe landlord smiled and immediately went out. In a few minutes he returned with my bag and gave it back to me. 'I'm very sorry,' he said. 'My dog had taken it into the garden. He often does this!'",
+        "bodyText": "After I had had lunch at a village pub, I looked for my bag. I had left it on a chair beside the door and now it wasn't there!\nAs I was looking for it, the landlord came in. 'Did you have a good meal?' he asked.\n'Yes, thank you,' I answered, 'but I can't pay the bill. I haven't got my bag.'\nThe landlord smiled and immediately went out. In a few minutes he returned with my bag and gave it back to me. 'I'm very sorry,' he said. 'My dog had taken it into the garden. He often does this!'",
+        "bodyTextZh": "在一家乡村酒吧吃过午饭后，我开始寻找我的包。我之前把它放在门旁边的椅子上，但现在它不见了！\n我正在找包的时候，店主进来了。“你吃得怎么样？”他问道。\n“是的，谢谢您，”我回答道，“但我付不了账单。我的包不见了。”\n店主笑了笑，马上就出去了。几分钟后，他拿着我的包回来了，并把它交还给了我。“我非常抱歉，”他说。“我的狗把它叼到花园里去了。它老是干这种事！”"
+      },
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/af5895a2ec32b6700c4895734c64dbfaeda514bd860160ef268266aa13889bb5.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "7dfdd31fa5a56afd8fb6eeeb2c1bb331f9c33860184e99c9f0a2ddf4de5433e7"
+        }
+      ]
+    }
+  },
+  "status": "passed_edited",
+  "previousRevisionSha256": "af5895a2ec32b6700c4895734c64dbfaeda514bd860160ef268266aa13889bb5"
 }

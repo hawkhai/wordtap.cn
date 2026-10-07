@@ -112,36 +112,45 @@
   },
   "sources": [
     {
-      "path": "content/College-English/NHCE4-RW2.pdf",
-      "locator": "PDF 123-125，印刷页 108-110，完整正文与标题逐段核对",
+      "path": "content/article-review/history/b8d527102c2fe02cb2f54b070feda1094979dd8f144fdec957de7a19742b8937.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
       "checked": true,
-      "sha256": "67f2efd99fc8d9779b945b5714857c2e608b39d42a1ce254c7d501abb21ab978"
-    },
-    {
-      "path": "content/College-English/NHCE4-RW2/NHCE4-RW2_123.jpg",
-      "locator": "已打开教材图页并通读复核正文",
-      "checked": true,
-      "sha256": "e901871d5f067a2bbf310e49d367881c07e07909b1092bb27be2afca9da94941"
-    },
-    {
-      "path": "content/College-English/NHCE4-RW2/NHCE4-RW2_124.jpg",
-      "locator": "已打开教材图页并通读复核正文",
-      "checked": true,
-      "sha256": "cbbe708728fce8f2ec5b6598d92eedea9ca0735154f51ad8b6a9c9fd2a541833"
-    },
-    {
-      "path": "content/College-English/NHCE4-RW2/NHCE4-RW2_125.jpg",
-      "locator": "已打开教材图页并通读复核正文",
-      "checked": true,
-      "sha256": "476aa53dd8552fae045e144848c4adc46658672db3ae0bc91697e9b9e524a33a"
+      "sha256": "a1cca3ebefae5c8a324680e5722761e72bb7582025f17b00287cae9714a57546"
     }
   ],
   "corrections": [],
   "fullReadConfirmed": true,
   "recheckConfirmed": true,
   "reviewer": "Codex",
-  "reviewedAt": "2026-10-02T08:54:40+00:00",
-  "notes": "全文9段复核PDF123–125，核对广告引语跨页接续与spend/save双重信息的论证。经济衰退、银行营销属于原文写作背景；保留作者价值判断与一般预算教育建议，未当作当前利率或具体法律规则。无漏句、串入左栏练习或正文段落错误。",
+  "reviewedAt": "2026-10-07T07:30:06+00:00",
+  "notes": "全文及未改动输出复核：储蓄消费矛盾、信用卡邮件、节制与广告、心理影响、学生财务和求助建议九段完整；广告长引语为论据，与上下文保持同段。",
   "issues": [],
-  "status": "passed_unchanged"
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "49e54bcba48f1e6d53492fbffb94fc8e0ad5bdebdbe9783b59f2cd8d160a057f",
+    "afterFileSha256": "49e54bcba48f1e6d53492fbffb94fc8e0ad5bdebdbe9783b59f2cd8d160a057f",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "49e54bcba48f1e6d53492fbffb94fc8e0ad5bdebdbe9783b59f2cd8d160a057f",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "完整 title、blocks[0..8]及完全相同的text；正文及内嵌中文、引语、对话和列举均已逐项通读；无改动输出按全文再次复核。",
+      "notes": "全文及未改动输出复核：储蓄消费矛盾、信用卡邮件、节制与广告、心理影响、学生财务和求助建议九段完整；广告长引语为论据，与上下文保持同段。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/b8d527102c2fe02cb2f54b070feda1094979dd8f144fdec957de7a19742b8937.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "a1cca3ebefae5c8a324680e5722761e72bb7582025f17b00287cae9714a57546"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "b8d527102c2fe02cb2f54b070feda1094979dd8f144fdec957de7a19742b8937"
 }
