@@ -1,11 +1,12 @@
-import { mkdir, readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 import process from "node:process";
 import { escapeHtml, pageShell, xmlEscape } from "./course-page-shared.mjs";
 
+export async function generatePages(context) {
+  const { readFile, mkdir, writeFile } = context;
 const root = process.cwd();
 const siteUrl = (process.env.SITE_URL ?? "https://wordtap.cn").replace(/\/$/, "");
-const distDir = path.join(root, "dist");
+const distDir = context.dataRoot;
 const sectionDir = path.join(distDir, "exam");
 const [cet, kaoyan, notice] = await Promise.all([
   readFile(path.join(distDir, "cet", "manifest.json"), "utf8").then(JSON.parse),
@@ -69,11 +70,13 @@ await writeFile(path.join(sectionDir, "index.html"), pageShell({
   ogType: "website",
 }), "utf8");
 
-if (siteUrl) {
+if (siteUrl && context.writeSitemap) {
   const sitemapPath = path.join(distDir, "sitemap.xml");
   const entry = `  <url>\n    <loc>${xmlEscape(canonicalUrl)}</loc>\n    <changefreq>weekly</changefreq>\n    <priority>0.9</priority>\n  </url>`;
   const sitemap = (await readFile(sitemapPath, "utf8")).replace("</urlset>", `${entry}\n</urlset>`);
   await writeFile(sitemapPath, sitemap, "utf8");
 }
 
-console.log(`Generated exam portal for ${total} papers.`);
+context.log(`Generated exam portal for ${total} papers.`);
+
+}

@@ -1,8 +1,7 @@
 import { defineConfig } from "vite";
 import vue from "@vitejs/plugin-vue";
 import tailwindcss from "@tailwindcss/vite";
-import { readFile } from "node:fs/promises";
-import path from "node:path";
+import { renderStaticPage, staticSections } from "./tools/static-site.mjs";
 import { siteCopy } from "./src/shared/copy/siteCopy";
 
 function escapeHtmlAttribute(value: string): string {
@@ -106,11 +105,6 @@ export default defineConfig({
   base: "./",
   server: {
     host: "0.0.0.0",
-    hmr: {
-      host: "localhost",
-      protocol: "ws",
-      clientPort: 5173,
-    },
   },
   plugins: [
     {
@@ -123,29 +117,28 @@ export default defineConfig({
           }
 
           const pathname = new URL(req.url, "http://localhost").pathname;
-          const parts = pathname.split("/").filter(Boolean);
-          const sectionIndex = parts.findIndex((part) => part === "pep-english" || part === "nce" || part === "shuimu" || part === "postgraduate" || part === "college-english" || part === "cet" || part === "kaoyan-english" || part === "english-vocabulary" || part === "install");
-          if (sectionIndex < 0) {
+          const base = server.config.base.replace(/\/$/, "");
+          const relativePath = base && pathname.startsWith(base + "/") ? pathname.slice(base.length) : pathname;
+          if (!staticSections.includes(relativePath.split("/").filter(Boolean)[0])) {
             next();
             return;
           }
 
-          const section = parts[sectionIndex];
-          const rest = parts.slice(sectionIndex + 1);
-          const lastPart = rest.at(-1) ?? "";
-          if (lastPart.includes(".")) {
-            next();
-            return;
-          }
-
-          const htmlPath = path.join(process.cwd(), "dist", section, ...rest, "index.html");
           try {
-            const html = await readFile(htmlPath, "utf8");
-            res.statusCode = 200;
+            const html = await renderStaticPage(relativePath, server.config.publicDir);
+            if (html === undefined) { next(); return; }
+            if (html && !pathname.endsWith("/") && !pathname.endsWith("/index.html")) {
+              const query = req.url.includes("?") ? req.url.slice(req.url.indexOf("?")) : "";
+              res.statusCode = 302;
+              res.setHeader("Location", pathname + "/" + query);
+              res.end();
+              return;
+            }
+            res.statusCode = html ? 200 : 404;
             res.setHeader("Content-Type", "text/html; charset=utf-8");
-            res.end(html);
-          } catch {
-            next();
+            res.end(html ?? '<!doctype html><html lang="zh-CN"><meta charset="utf-8"><title>页面不存在 - WordTap</title><main><h1>页面不存在</h1><a href="' + (base || "") + '/">返回 WordTap</a></main></html>');
+          } catch (error) {
+            next(error as Error);
           }
         });
       },

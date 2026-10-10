@@ -1,10 +1,11 @@
-import { mkdir, readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 import process from "node:process";
 import { escapeHtml, pageShell, xmlEscape } from "./course-page-shared.mjs";
 
+export async function generatePages(context) {
+  const { readFile, mkdir, writeFile } = context;
 const siteUrl = (process.env.SITE_URL ?? "https://wordtap.cn").replace(/\/$/, "");
-const distDir = path.join(process.cwd(), "dist");
+const distDir = context.dataRoot;
 const installDir = path.join(distDir, "install");
 const generatedAt = new Date().toISOString();
 
@@ -30,7 +31,7 @@ const guides = [
     title: "WordTap 全文朗读服务安装指引",
     shortTitle: "全文朗读服务",
     fileName: "WordTapGatewaySetup.exe",
-    downloadHref: "../../downloads/WordTapGatewaySetup.exe",
+    downloadHref: "https://wordtap.cn/downloads/WordTapGatewaySetup.exe",
     canonicalPath: "/install/gateway/",
     description:
       "WordTap 全文朗读服务 WordTapGatewaySetup.exe 的 Windows 10 安装说明，解释 SmartScreen 风险提示，并用截图指引用户完成安装、开机启动和卸载入口确认。",
@@ -104,7 +105,7 @@ const guides = [
     title: "WordTap Windows 桌面版安装指引",
     shortTitle: "Windows 桌面版",
     fileName: "WordTap-Setup.exe",
-    downloadHref: "../../downloads/WordTap-Setup.exe",
+    downloadHref: "https://wordtap.cn/downloads/WordTap-Setup.exe",
     canonicalPath: "/install/windows/",
     description:
       "WordTap Windows 桌面版 WordTap-Setup.exe 的 Windows 10 安装说明，解释 SmartScreen 风险提示，并用截图指引用户完成安装、首次运行、点词听读和卸载入口确认。",
@@ -451,11 +452,14 @@ async function updateSitemap() {
 }
 
 for (const guide of guides) {
+  if (!context.wants(`install/${guide.id}/index.html`)) continue;
   const pageDir = path.join(installDir, guide.id);
   await mkdir(pageDir, { recursive: true });
   await writeFile(path.join(pageDir, "index.html"), guideHtml(guide), "utf8");
 }
 
-await updateSitemap();
+if (context.writeSitemap) await updateSitemap();
 
-console.log(`Generated ${guides.length} install guide pages${siteUrl ? " and updated sitemap.xml" : ""}.`);
+context.log(`Generated ${guides.length} install guide pages${siteUrl ? " and updated sitemap.xml" : ""}.`);
+
+}

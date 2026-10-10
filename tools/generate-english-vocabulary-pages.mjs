@@ -1,15 +1,17 @@
-import { mkdir, readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { escapeHtml as esc, lessonToolHref, pageShell, xmlEscape } from "./course-page-shared.mjs";
 
+export async function generatePages(context) {
+  const { readFile, mkdir, writeFile } = context;
 const siteUrl = (process.env.SITE_URL ?? "https://wordtap.cn").replace(/\/$/, "");
-const dist = path.resolve("dist");
+const dist = context.dataRoot;
 const section = path.join(dist, "english-vocabulary");
 const manifest = JSON.parse(await readFile(path.join(section, "manifest.json"), "utf8"));
 const urls = [];
 const source = '<p class="meta">词库来源：<a href="https://github.com/KyleBing/english-vocabulary">KyleBing/english-vocabulary</a> · <a href="LICENSE.txt">BSD-3-Clause 许可证</a></p>';
 
 async function save(relative, { title, description, body, depth, toolHref, ogType = "website" }) {
+  if (!context.wants(`english-vocabulary/${relative}index.html`)) return;
   const canonicalUrl = `${siteUrl}/english-vocabulary/${relative}`;
   const root = Array(depth).fill("..").join("/");
   const extraStyles = `@font-face { font-family: "Charis"; src: url("${root}/fonts/Charis/Charis-Regular.woff2") format("woff2"); font-weight: 400; font-display: swap; }
@@ -29,6 +31,7 @@ async function save(relative, { title, description, body, depth, toolHref, ogTyp
 
 for (const group of manifest.groups) {
   for (const [index, lesson] of group.lessons.entries()) {
+    if (!context.wants(`english-vocabulary/${lesson.id}/index.html`)) continue;
     const detail = JSON.parse(await readFile(path.join(dist, lesson.jsonPath), "utf8"));
     // Same generated text as the workspace, only adding escaped semantic markup.
     const paragraphs = detail.text.split("\n\n").map(part => `<p class="vocabulary-entry">${part.split("\n").map(line => line.startsWith("音标：") ? `<span class="vocabulary-ipa">${esc(line)}</span>` : esc(line)).join("\n")}</p>`).join("\n");
@@ -48,11 +51,13 @@ for (const group of manifest.groups) {
 const books = manifest.groups.map(group => `<section class="collection-card"><h2><a href="books/${group.id}/">${esc(group.title)}</a></h2><p>${group.wordCount} 词 · ${group.lessonCount} 单元</p></section>`).join("\n");
 await save("", { title: "英语词汇学习", description: `23 套正序词库，共 ${manifest.totalWords} 个词条，支持点读、朗读和例句跟打。`,
   body: `<main><h1>英语词汇</h1><p class="intro">按词库选择，每单元最多 20 词。提供原有音标、释义、短语和例句。</p>${books}${source}</main>`, depth: 1, toolHref: "../" });
-if (siteUrl) {
+if (siteUrl && context.writeSitemap) {
   const sitemapPath = path.join(dist, "sitemap.xml");
   // Permit rerunning the generator without duplicate sitemap entries.
   const sitemap = (await readFile(sitemapPath, "utf8")).replace(/\s*<url>\s*<loc>[^<]*\/english-vocabulary\/[^<]*<\/loc>[\s\S]*?<\/url>/g, "");
   const entries = urls.map(url => `  <url><loc>${xmlEscape(url)}</loc><lastmod>${manifest.generatedAt.slice(0, 10)}</lastmod></url>`).join("\n");
   await writeFile(sitemapPath, sitemap.replace("</urlset>", `${entries}\n</urlset>`));
 }
-console.log(`Generated ${urls.length} vocabulary pages`);
+context.log(`Generated ${urls.length} vocabulary pages`);
+
+}

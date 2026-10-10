@@ -1,11 +1,12 @@
-import { mkdir, readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 import process from "node:process";
 import { escapeHtml, lessonToolHref, pageShell, xmlEscape } from "./course-page-shared.mjs";
 
 // Canonical URLs must always use the public origin, including local preview builds.
+export async function generatePages(context) {
+  const { readFile, mkdir, writeFile } = context;
 const siteUrl = (process.env.SITE_URL ?? "https://wordtap.cn").replace(/\/$/, "");
-const distDir = path.join(process.cwd(), "dist");
+const distDir = context.dataRoot;
 const shuimuDir = path.join(distDir, "shuimu");
 const manifestPath = path.join(shuimuDir, "manifest.json");
 
@@ -145,6 +146,7 @@ for (const level of manifest.levels) {
 
 for (let index = 0; index < allLessons.length; index += 1) {
   const { level, lesson } = allLessons[index];
+  if (!context.wants(`shuimu/${lesson.id}/index.html`)) continue;
   const detail = JSON.parse(await readFile(path.join(distDir, lesson.jsonPath), "utf8"));
   const pageDir = path.join(shuimuDir, lesson.id);
   await mkdir(pageDir, { recursive: true });
@@ -153,11 +155,13 @@ for (let index = 0; index < allLessons.length; index += 1) {
 
 await writeFile(path.join(shuimuDir, "index.html"), indexPage(), "utf8");
 
-if (siteUrl) {
+if (siteUrl && context.writeSitemap) {
   const sitemapPath = path.join(distDir, "sitemap.xml");
   let sitemap = await readFile(sitemapPath, "utf8");
   sitemap = sitemap.replace("</urlset>", `${sitemapEntries(allLessons)}\n</urlset>`);
   await writeFile(sitemapPath, sitemap, "utf8");
 }
 
-console.log(`Generated ${allLessons.length} Water & Wood English pages${siteUrl ? " and updated sitemap.xml" : ""}.`);
+context.log(`Generated ${allLessons.length} Water & Wood English pages${siteUrl ? " and updated sitemap.xml" : ""}.`);
+
+}

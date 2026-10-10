@@ -1,4 +1,5 @@
 import { computed, onBeforeUnmount, onMounted, ref, watch } from "vue";
+import { probeDownload, probeGatewayRelease } from "../utils/downloadDiagnostics";
 import { SpeechPlaybackControl } from "../utils/speechPlaybackControl";
 import {
   GatewaySpeechSession,
@@ -1918,16 +1919,9 @@ async function checkEdgeTtsRecipe(): Promise<DiagnosticItem> {
 }
 
 async function checkGatewayReleaseManifest(): Promise<DiagnosticItem> {
-  const payload = await fetchJsonWithTimeout<{ version?: string; sha256?: string; sizeBytes?: number }>(gatewayReleaseManifestUrl, NETWORK_RELEASE_MANIFEST);
-  if (!payload.sha256 || !payload.sizeBytes) {
-    return diagnostic("gateway-release", copy.diagnostics.labels.gateway, "warn", copy.diagnostics.gatewayReleaseIncomplete);
-  }
-  return diagnostic(
-    "gateway-release",
-    copy.diagnostics.labels.gateway,
-    "ok",
-    copy.diagnostics.gatewayReleaseReady,
-  );
+  const result = await probeGatewayRelease(gatewayReleaseManifestUrl,
+    () => fetchJsonWithTimeout(gatewayReleaseManifestUrl, NETWORK_RELEASE_MANIFEST));
+  return diagnostic("gateway-release", copy.diagnostics.labels.gateway, result.status, result.detail);
 }
 
 async function checkHeadUrl(
@@ -1936,11 +1930,9 @@ async function checkHeadUrl(
   url: string,
   timeoutMs = NETWORK_HEAD_PROBE,
 ): Promise<DiagnosticItem> {
-  const response = await fetchWithTimeout(url, { method: "HEAD", cache: "no-store" }, timeoutMs);
-  if (!response.ok) {
-    return diagnostic(id, label, "fail", copy.diagnostics.downloadUnavailable);
-  }
-  return diagnostic(id, label, "ok", copy.diagnostics.downloadReady);
+  const result = await probeDownload(url,
+    () => fetchWithTimeout(url, { method: "HEAD", cache: "no-store" }, timeoutMs));
+  return diagnostic(id, label, result.status, result.detail);
 }
 
 async function checkStorageEstimate(): Promise<DiagnosticItem> {

@@ -1,11 +1,12 @@
-import { mkdir, readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 import process from "node:process";
 import { escapeHtml, lessonToolHref, pageShell, xmlEscape } from "./course-page-shared.mjs";
 
 // Canonical URLs must always use the public origin, including local preview builds.
+export async function generatePages(context) {
+  const { readFile, mkdir, writeFile } = context;
 const siteUrl = (process.env.SITE_URL ?? "https://wordtap.cn").replace(/\/$/, "");
-const distDir = path.join(process.cwd(), "dist");
+const distDir = context.dataRoot;
 const nceDir = path.join(distDir, "nce");
 const manifestPath = path.join(nceDir, "manifest.json");
 
@@ -191,6 +192,7 @@ const allLessons = manifest.books.flatMap((book) => book.lessons.map((lesson) =>
 
 for (let i = 0; i < allLessons.length; i += 1) {
   const { book, lesson } = allLessons[i];
+  if (!context.wants(`nce/${lesson.id}/index.html`)) continue;
   const detailPath = path.join(distDir, lesson.jsonPath);
   const detail = JSON.parse(await readFile(detailPath, "utf8"));
   const pageDir = path.join(nceDir, lesson.id);
@@ -204,9 +206,11 @@ for (let i = 0; i < allLessons.length; i += 1) {
 
 await writeFile(path.join(nceDir, "index.html"), indexHtml(manifest), "utf8");
 
-if (siteUrl) {
+if (siteUrl && context.writeSitemap) {
   await writeFile(path.join(distDir, "sitemap.xml"), sitemapXml(manifest), "utf8");
-  console.log(`Generated ${allLessons.length} NCE lesson pages and sitemap.xml.`);
+  context.log(`Generated ${allLessons.length} NCE lesson pages and sitemap.xml.`);
 } else {
-  console.log(`Generated ${allLessons.length} NCE lesson pages. (Set SITE_URL to also generate sitemap.xml)`);
+  context.log(`Generated ${allLessons.length} NCE lesson pages. (Set SITE_URL to also generate sitemap.xml)`);
+}
+
 }

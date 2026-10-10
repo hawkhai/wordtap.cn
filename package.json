@@ -20,7 +20,7 @@
     "dev": "vite",
     "prebuild": "node tools/verify-published.mjs",
     "build": "vue-tsc --noEmit && vite build",
-    "postbuild": "node tools/generate-nce-pages.mjs && node tools/generate-shuimu-pages.mjs && node tools/generate-postgraduate-pages.mjs && node tools/generate-pep-english-pages.mjs && node tools/generate-college-english-pages.mjs && node tools/generate-cet-pages.mjs && node tools/generate-kaoyan-english-pages.mjs && node tools/generate-english-vocabulary-pages.mjs && node tools/generate-exam-pages.mjs && node tools/generate-install-guide-pages.mjs && node tools/verify-short-links.mjs && node tools/verify-exam.mjs && node tools/verify-static-design.mjs",
+    "postbuild": "node tools/generate-site.mjs && node tools/verify-short-links.mjs && node tools/verify-exam.mjs && node tools/verify-static-design.mjs && node tools/verify-site.mjs",
     "preview": "vite preview --host 127.0.0.1",
     "typecheck": "vue-tsc --noEmit",
     "test": "node tools/test.mjs",

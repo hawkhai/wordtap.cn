@@ -16,13 +16,8 @@ export function appSectionUrl(path: string): string {
 }
 
 const officialDownloadBaseUrl = "https://wordtap.cn/";
-const officialDownloadHosts = new Set(["sunocean.life", "www.sunocean.life", "wordtap.cn", "www.wordtap.cn"]);
 
 export function appDownloadUrl(path: string): string {
   const normalizedPath = path.replace(/^\/+/, "");
-  if (officialDownloadHosts.has(window.location.hostname.toLowerCase())) {
-    return new URL(normalizedPath, officialDownloadBaseUrl).toString();
-  }
-
-  return appAssetUrl(path);
+  return new URL(normalizedPath, officialDownloadBaseUrl).toString();
 }

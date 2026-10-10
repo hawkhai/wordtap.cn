@@ -1,4 +1,4 @@
-import { appAssetUrl, appDownloadUrl } from "./assetUrls";
+import { appDownloadUrl } from "./assetUrls";
 import { getCachedAudio, makeAudioCacheKey, putCachedAudio } from "../stores/historyStore";
 import { siteCopy } from "../copy/siteCopy";
 import { GATEWAY_STATUS_PROBE } from "./timeoutConstants";
@@ -28,7 +28,7 @@ export const localGatewayBaseUrl = "http://127.0.0.1:18765";
 const clientSpeechChunkBytes = 1000;
 export const gatewaySpeechEngineVersion = "edge-tts-recipe-v1";
 export const gatewayDownloadUrl = appDownloadUrl("downloads/WordTapGatewaySetup.exe");
-export const gatewayReleaseManifestUrl = appAssetUrl("downloads/wordtap-gateway-release.json");
+export const gatewayReleaseManifestUrl = appDownloadUrl("downloads/wordtap-gateway-release.json");
 
 export type GatewayReleaseManifest = {
   name: string;

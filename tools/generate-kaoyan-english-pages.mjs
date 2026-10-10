@@ -1,10 +1,11 @@
-import { mkdir, readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 import process from "node:process";
 import { escapeHtml, lessonToolHref, pageShell, xmlEscape } from "./course-page-shared.mjs";
 
+export async function generatePages(context) {
+  const { readFile, mkdir, writeFile } = context;
 const siteUrl = (process.env.SITE_URL ?? "https://wordtap.cn").replace(/\/$/, "");
-const distDir = path.join(process.cwd(), "dist");
+const distDir = context.dataRoot;
 const sectionDir = path.join(distDir, "kaoyan-english");
 const manifest = JSON.parse(await readFile(path.join(sectionDir, "manifest.json"), "utf8"));
 const newestFirst = (lessons) => [...lessons].sort((left, right) => right.year - left.year);
@@ -44,6 +45,7 @@ function indexPage() {
 
 for (let index = 0; index < allLessons.length; index += 1) {
   const { group, lesson } = allLessons[index];
+  if (!context.wants(`kaoyan-english/${lesson.id}/index.html`)) continue;
   const detail = JSON.parse(await readFile(path.join(distDir, lesson.jsonPath), "utf8"));
   const pageDir = path.join(sectionDir, lesson.id);
   await mkdir(pageDir, { recursive: true });
@@ -51,7 +53,7 @@ for (let index = 0; index < allLessons.length; index += 1) {
 }
 
 await writeFile(path.join(sectionDir, "index.html"), indexPage(), "utf8");
-if (siteUrl) {
+if (siteUrl && context.writeSitemap) {
   const lastmod = new Date(manifest.generatedAt).toISOString().slice(0, 10);
   const urls = [`${siteUrl}/kaoyan-english/`, ...allLessons.map(({ lesson }) => `${siteUrl}/kaoyan-english/${lesson.id}/`)];
   const entries = urls.map((url) => `  <url>\n    <loc>${xmlEscape(url)}</loc>\n    <lastmod>${lastmod}</lastmod>\n    <changefreq>monthly</changefreq>\n    <priority>0.8</priority>\n  </url>`).join("\n");
@@ -60,4 +62,6 @@ if (siteUrl) {
   await writeFile(sitemapPath, sitemap, "utf8");
 }
 
-console.log(`Generated ${allLessons.length} Kaoyan English pages${siteUrl ? " and updated sitemap.xml" : ""}.`);
+context.log(`Generated ${allLessons.length} Kaoyan English pages${siteUrl ? " and updated sitemap.xml" : ""}.`);
+
+}
