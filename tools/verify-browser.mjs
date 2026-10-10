@@ -6,10 +6,22 @@ const output = process.env.WORDTAP_TEST_OUTPUT || 'tmp/web-sync';
 fs.mkdirSync(output, {recursive:true});
 import fs from 'node:fs';
 const browser = await chromium.launch({ executablePath: process.env.WORDTAP_CHROMIUM_EXECUTABLE, headless: true });
+let activePage;
 try {
  const context = await browser.newContext();
+ await context.addInitScript(() => {
+  const NativeWebSocket = window.WebSocket;
+  window.WebSocket = class extends NativeWebSocket {
+   constructor(url, protocols) {
+    super(url, protocols);
+    if(protocols === 'vite-hmr') window.__wordtapHmrSocket = this;
+   }
+  };
+ });
  const page = await context.newPage();
- page.on('pageerror', error => console.log('PAGEERROR', error.stack));
+ activePage = page;
+ const pageErrors = [];
+ page.on('pageerror', error => pageErrors.push(error.stack));
  await page.goto(base+'/tools/learning-data.browser.html');
  await page.locator('#run').click();
  await page.waitForFunction(() => ['passed','failed'].includes(document.body.dataset.result), null, {timeout:30000});
@@ -80,6 +92,64 @@ try {
  await page.getByLabel('显示音标',{exact:true}).check();await page.waitForTimeout(700);
  if(await page.evaluate(()=>document.documentElement.scrollWidth)>360)throw new Error('Long phonetic word overflow');
  console.log('PASS long phonetic word on 360px');
+ await page.screenshot({path:path.join(output,'phonetics-360.png'),fullPage:false});
+ await page.setViewportSize({width:1440,height:900}); await page.goto(base+'/');
+ await page.getByRole('button',{name:'考试学习',exact:true}).click();
+ await page.getByLabel('考试分类',{exact:true}).selectOption('e1');
+ await page.getByLabel('搜索试卷',{exact:true}).fill('1980');
+ const paper = page.locator('.exam-paper-row').first();
+ await paper.getByRole('button',{name:'开始学习',exact:true}).click();
+ await page.locator('.study-word').first().click();
+ await page.waitForFunction(async()=> {
+  const store=await import(new URL('src/shared/stores/historyStore.ts',location.href.split('?')[0]).href);
+  return (await store.listStudyHistory()).some(word=>Boolean(word.meaning));
+ });
+ await page.getByRole('button',{name:'考试学习',exact:true}).click();
+ await page.getByRole('button',{name:'考试生词',exact:true}).click();
+ await page.locator('.exam-word-item').first().waitFor();
+ await page.getByRole('button',{name:'认识',exact:true}).first().click();
+ await page.getByLabel('复习状态',{exact:true}).selectOption('known');
+ await page.locator('.exam-word-item').first().waitFor();
+ await page.getByRole('button',{name:'真题与进度',exact:true}).click();
+ await page.getByLabel('考试分类',{exact:true}).selectOption('e1');
+ await page.getByLabel('搜索试卷',{exact:true}).fill('1980');
+ await page.locator('.exam-paper-row').first().getByRole('button',{name:'标记完成',exact:true}).click();
+ await page.locator('.exam-paper-row [data-status="completed"]').first().waitFor();
+ await page.reload();
+ await page.getByLabel('搜索试卷',{exact:true}).fill('1980');
+ await page.locator('.exam-paper-row [data-status="completed"]').first().waitFor();
+ await page.getByRole('button',{name:'开始学习',exact:true}).first().click();
+ await page.locator('textarea.study-input').fill('Export this current article.');
+ await page.getByRole('button',{name:'考试学习',exact:true}).click();
+ const downloaded = page.waitForEvent('download');
+ await page.getByRole('button',{name:'导出学习数据',exact:true}).click();
+ const backup = JSON.parse(fs.readFileSync(await (await downloaded).path(),'utf8'));
+ for(const key of ['words','texts','examProgress','examWords','articleTyping']) if(!backup[key]?.length) throw new Error('UI backup missing '+key);
+ if(!backup.texts.some(article=>article.text==='Export this current article.')) throw new Error('Export lost the current edit');
+ await page.locator('input[type="file"]').setInputFiles({name:'backup.json',mimeType:'application/json',buffer:Buffer.from(JSON.stringify(backup))});
+ await page.locator('.exam-data-feedback').filter({hasText:'导入'}).waitFor();
+ console.log('PASS dictionary click, exam words/progress/review, current-edit export and UI backup import');
+ const routes = ['/nce/', '/nce/nce1-001/', '/english-vocabulary/', '/english-vocabulary/books/evjunior/', '/english-vocabulary/evjunior-001/', '/exam/', '/install/gateway/', '/install/windows/'];
+ for (const width of [1440,390,360]) {
+  await page.setViewportSize({width,height:900});
+  for (const route of routes) {
+   const response = await page.goto(base+route);
+   if(response.status()!==200) throw new Error('Deep route failed: '+route);
+   if(await page.evaluate(()=>Math.max(document.documentElement.scrollWidth,document.body.scrollWidth)>innerWidth)) throw new Error('Static page overflow: '+route+' at '+width);
+   if(route.startsWith('/install/')) {
+    const href = await page.locator('a.install-action-primary').getAttribute('href');
+    if(!href.startsWith('https://wordtap.cn/downloads/')) throw new Error('Installer must use official origin');
+   }
+  }
+ }
+ if((await page.goto(base+'/english-vocabulary/books/not-found/')).status()!==404) throw new Error('Unknown book was not a 404');
+ if((await page.goto(base+'/nce/not-found/')).status()!==404) throw new Error('Unknown lesson was not a 404');
+ console.log('PASS current-data deep routes, official installer links and static layouts');
+ await page.goto(base+'/');
+ await page.waitForFunction(()=>window.__wordtapHmrSocket?.readyState===1);
+ const socket = await page.evaluate(()=>({url:window.__wordtapHmrSocket.url,state:window.__wordtapHmrSocket.readyState}));
+ if(new URL(socket.url).port!==new URL(base).port || socket.state!==1) throw new Error('HMR uses the wrong port');
+ console.log('PASS actual-port HMR WebSocket');
  // A fresh browser profile exercises the shipped worker on a secure localhost
  // subdomain. No production cache, learning database or browser profile is used.
  const cacheContext = await browser.newContext();
@@ -99,5 +169,10 @@ try {
  if(offline!==fresh)throw new Error('Offline cached lesson differs');
  await cacheContext.close();
  console.log('PASS real service worker: old cache -> online release -> offline cached release');
- fs.writeFileSync(path.join(output,'browser-report.json'),JSON.stringify({migration,widths:[1440,390,360,767,768,769],dialogs:true, typing:true, composition:true, phoneticsPreference:true, vocabularySearch:true, vocabularyResume:true, vocabularyTyping:true, phoneticsLongWord:true, serviceWorkerOnlineOffline:true},null,2));
+ if(pageErrors.length) throw new Error('Browser errors: '+pageErrors.join('\n'));
+ fs.writeFileSync(path.join(output,'browser-report.json'),JSON.stringify({migration,widths:[1440,390,360,767,768,769],dialogs:true, typing:true, composition:true, phoneticsPreference:true, vocabularySearch:true, vocabularyResume:true, vocabularyTyping:true, phoneticsLongWord:true, serviceWorkerOnlineOffline:true, dictionaryLookup:true, examProgress:true, examWordReview:true, currentEditExport:true, uiBackupImport:true, deepRoutes:routes, staticWidths:[1440,390,360], officialDownloads:true, actualPortHmr:true, pageErrors},null,2));
+} catch(error) {
+ fs.writeFileSync(path.join(output,'browser-report.json'),JSON.stringify({passed:false,error:String(error),url:activePage?.url()},null,2));
+ await activePage?.screenshot({path:path.join(output,'failure.png'),fullPage:false});
+ throw error;
 } finally {await browser.close();}

@@ -45,8 +45,10 @@ const forbiddenSegments = ["/raw/", "/reports/"];
 for (const file of tracked) {
   invariant(!forbiddenPrefixes.some((prefix) => file.startsWith(prefix)), `Generated or local path is tracked: ${file}`);
   invariant(!forbiddenSegments.some((segment) => file.includes(segment)), `Raw or report path is tracked: ${file}`);
+  invariant(!/(?:^|\/)(?:[^/]*ocr-corrections|[^/]*review-events|[^/]*review-ledger)\./i.test(file), `Private maintenance evidence is tracked: ${file}`);
   invariant(!/\.(?:exe|pfx|p12|pem|key|keystore|jks|log|jsonl|zip|tsv|tmp|bak|orig|rej)$/i.test(file), `Sensitive or generated file type is tracked: ${file}`);
   invariant(statSync(path.join(root, file)).size <= 5 * 1024 * 1024, `Tracked file exceeds 5 MiB: ${file}`);
+  if (file.startsWith('content/')) invariant(file === 'content/README.md' || file.startsWith('content/release/'), `Maintenance content is not part of the public repository: ${file}`);
   if (file.startsWith('content/release/')) invariant(statSync(path.join(root, file)).size <= 1024 * 1024, `Release metadata exceeds 1 MiB: ${file}`);
 }
 
@@ -81,5 +83,20 @@ invariant(readme.includes("https://wordtap.cn/"), "README is missing the project
 
 const packageJson = JSON.parse(readFileSync(path.join(root, "package.json"), "utf8"));
 invariant(packageJson.license === "Apache-2.0", "package.json license must be Apache-2.0");
+
+// Docs are usable interfaces too: no obsolete commands or broken local links.
+for (const file of tracked.filter(file => file.endsWith('.md') && !file.startsWith('public/'))) {
+  const source = readFileSync(path.join(root, file), 'utf8');
+  for (const [, command] of source.matchAll(/npm run ([\w:-]+)/g)) {
+    invariant(packageJson.scripts[command], `${file}: obsolete npm command ${command}`);
+  }
+  for (const [, target] of source.matchAll(/!?\[[^\]\n]*\]\(([^\s)]+)\)/g)) {
+    if (/^(?:[a-z][a-z\d+.-]*:|#)/i.test(target)) continue;
+    const relativePath = decodeURIComponent(target.split('#')[0]);
+    const resolved = path.relative(root, path.resolve(root, path.dirname(file), relativePath)).replaceAll(path.sep, '/');
+    invariant(trackedSet.has(resolved) || tracked.some(file => file.startsWith(resolved.replace(/\/$/, '') + '/')),
+      `${file}: missing document link ${target}`);
+  }
+}
 
 console.log(`Verified open-source repository hygiene for ${tracked.length} tracked files.`);
