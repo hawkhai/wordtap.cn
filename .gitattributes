@@ -8,3 +8,30 @@
 *.png binary
 *.ttf binary
 *.webp binary
+
+# Review evidence uses byte-level hashes; do not rewrite line endings on checkout.
+content/article-review/** -text whitespace=cr-at-eol
+content/College-English/reviewed-articles/** -text whitespace=cr-at-eol
+content/College-English/manual-review-events.jsonl -text whitespace=cr-at-eol
+content/College-English/manual-review-ledger.tsv -text whitespace=cr-at-eol,-blank-at-eol
+public/nce/lessons/** -text whitespace=cr-at-eol
+public/shuimu/lessons/** -text whitespace=cr-at-eol
+public/postgraduate/lessons/** -text whitespace=cr-at-eol
+public/pep-english/lessons/** -text whitespace=cr-at-eol
+public/college-english/lessons/** -text whitespace=cr-at-eol
+public/cet/lessons/** -text whitespace=cr-at-eol
+public/kaoyan-english/lessons/** -text whitespace=cr-at-eol
+content/english-vocabulary/LICENSE -text whitespace=cr-at-eol
+public/english-vocabulary/** -text whitespace=cr-at-eol
+
+# Published course hashes include manifests as well as lessons.
+public/nce/** -text whitespace=cr-at-eol
+public/shuimu/** -text whitespace=cr-at-eol
+public/postgraduate/** -text whitespace=cr-at-eol
+public/pep-english/** -text whitespace=cr-at-eol
+public/college-english/** -text whitespace=cr-at-eol
+public/cet/** -text whitespace=cr-at-eol
+public/kaoyan-english/** -text whitespace=cr-at-eol
+
+# Keep redistributed license text verbatim.
+public/fonts/**/OFL.txt whitespace=-blank-at-eol
