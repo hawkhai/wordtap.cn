@@ -1,0 +1,210 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "e689029a208cde94fb58907973914725408e5768d08380385af3ec0257a97add",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title；全文 blocks[0..172] 与对应 text；现有正文/对话/题干逐块通读复核。",
+  "notes": "完整通读It's only me导入、问题答案、词表、试穿鬼服与误吓抄表员的两组英汉正文、七条注释、19道理解题、单段续写模板和范文及12题答案。范文中there was a ghost / in the storeroom为同一句，接续后保留150词完整段。",
+  "issues": [],
+  "mergeBlocks": [
+    {
+      "start": 18,
+      "end": 24,
+      "before": [
+        "After her husband had gone to work, Mrs. Richards sent her children to school and",
+        "went upstairs to her bedroom. She was too excited to do any housework that morning,",
+        "for in the evening she would be going to a fancy-dress party with her husband. She",
+        "intended to dress up as a ghost and as she had made her costume the night before, she",
+        "was impatient to try it on. Though the costume consisted only of a sheet, it was very",
+        "effective. After putting it on, Mrs. Richards went downstairs. She wanted to find out",
+        "whether it would be comfortable to wear."
+      ],
+      "text": "After her husband had gone to work, Mrs. Richards sent her children to school and went upstairs to her bedroom. She was too excited to do any housework that morning, for in the evening she would be going to a fancy-dress party with her husband. She intended to dress up as a ghost and as she had made her costume the night before, she was impatient to try it on. Though the costume consisted only of a sheet, it was very effective. After putting it on, Mrs. Richards went downstairs. She wanted to find out whether it would be comfortable to wear.",
+      "reason": "化装惊吓故事和对应中文为两组多句自然段，注释与题干内部断行及续写段落恢复为连贯单元。"
+    },
+    {
+      "start": 25,
+      "end": 29,
+      "before": [
+        "理查兹夫人等丈夫上班走后，把孩子送去上学，然后来到楼上自己的卧室。那天",
+        "上午，她兴奋得什么家务活都不想做，因为晚上她要同丈夫一起去参加一个化装",
+        "舞会。她打算装扮成鬼的模样。头天晚上她已把化装服做好，这时她急于想试试。",
+        "尽管化装服仅由一个被单制成，却十分逼真。理查兹夫人穿上化装服后下了楼，",
+        "想看看穿起来是否舒服。"
+      ],
+      "text": "理查兹夫人等丈夫上班走后，把孩子送去上学，然后来到楼上自己的卧室。那天上午，她兴奋得什么家务活都不想做，因为晚上她要同丈夫一起去参加一个化装舞会。她打算装扮成鬼的模样。头天晚上她已把化装服做好，这时她急于想试试。尽管化装服仅由一个被单制成，却十分逼真。理查兹夫人穿上化装服后下了楼，想看看穿起来是否舒服。",
+      "reason": "化装惊吓故事和对应中文为两组多句自然段，注释与题干内部断行及续写段落恢复为连贯单元。"
+    },
+    {
+      "start": 35,
+      "end": 44,
+      "before": [
+        "Just as Mrs. Richards was entering the dining room, there was a knock on the front",
+        "door. She knew that it must be the baker. She had told him to come straight in if ever",
+        "she failed to open the door and to leave the bread on the kitchen table. Not wanting to",
+        "frighten the poor man, Mrs. Richards quickly hid in the small storeroom under the",
+        "stairs. She heard the front door open and heavy footsteps in the hall. Suddenly the",
+        "door of the storeroom was opened and a man entered, Mrs. Richards realized that it",
+        "must be the man from the Electricity Board who had come to read the metre. She tried",
+        "to explain the situation, saying ‘It's only me’, but it was too late. The man let out a cry",
+        "and jumped back several paces. When Mrs. Richards walked towards him, he fled,",
+        "slamming the door behind him."
+      ],
+      "text": "Just as Mrs. Richards was entering the dining room, there was a knock on the front door. She knew that it must be the baker. She had told him to come straight in if ever she failed to open the door and to leave the bread on the kitchen table. Not wanting to frighten the poor man, Mrs. Richards quickly hid in the small storeroom under the stairs. She heard the front door open and heavy footsteps in the hall. Suddenly the door of the storeroom was opened and a man entered, Mrs. Richards realized that it must be the man from the Electricity Board who had come to read the metre. She tried to explain the situation, saying ‘It's only me’, but it was too late. The man let out a cry and jumped back several paces. When Mrs. Richards walked towards him, he fled, slamming the door behind him.",
+      "reason": "化装惊吓故事和对应中文为两组多句自然段，注释与题干内部断行及续写段落恢复为连贯单元。"
+    },
+    {
+      "start": 45,
+      "end": 51,
+      "before": [
+        "理查兹夫人刚刚走进餐厅，前门就传来敲门声。她知道来人一定是面包师。她曾",
+        "告诉过面包师，如果她不去开门，他可直接进门，把面包放在厨房的桌上。理查",
+        "兹夫人不想吓唬这个可怜的人，便赶紧躲到了楼梯下的小储藏室里。她听见前门",
+        "被打开，走廊里响起了重重的脚步声。突然贮藏室门开了，一个男人走了进来。",
+        "理查兹夫人这才想到一定是供电局来人查电表了。她说了声“是我，别怕！”然后",
+        "想进行一番解释，但已来不及了。那人大叫了一声，惊退了几步。理查兹夫人朝",
+        "他走去，只见他“砰”的一声关上门逃走了。"
+      ],
+      "text": "理查兹夫人刚刚走进餐厅，前门就传来敲门声。她知道来人一定是面包师。她曾告诉过面包师，如果她不去开门，他可直接进门，把面包放在厨房的桌上。理查兹夫人不想吓唬这个可怜的人，便赶紧躲到了楼梯下的小储藏室里。她听见前门被打开，走廊里响起了重重的脚步声。突然贮藏室门开了，一个男人走了进来。理查兹夫人这才想到一定是供电局来人查电表了。她说了声“是我，别怕！”然后想进行一番解释，但已来不及了。那人大叫了一声，惊退了几步。理查兹夫人朝他走去，只见他“砰”的一声关上门逃走了。",
+      "reason": "化装惊吓故事和对应中文为两组多句自然段，注释与题干内部断行及续写段落恢复为连贯单元。"
+    },
+    {
+      "start": 54,
+      "end": 57,
+      "before": [
+        "6 She had told him to come straight in if ever she failed to open the door and to leave",
+        "the bread on the kitchen table. 她曾告诉过他，如果她没去开门，他可直接进来，",
+        "把面包放在厨房的桌子上。if ever 在条件句中表示强调，可译作“任何时候” 。to",
+        "come straight in 指“直接进来”。"
+      ],
+      "text": "6 She had told him to come straight in if ever she failed to open the door and to leave the bread on the kitchen table. 她曾告诉过他，如果她没去开门，他可直接进来，把面包放在厨房的桌子上。if ever 在条件句中表示强调，可译作“任何时候” 。to come straight in 指“直接进来”。",
+      "reason": "化装惊吓故事和对应中文为两组多句自然段，注释与题干内部断行及续写段落恢复为连贯单元。"
+    },
+    {
+      "start": 58,
+      "end": 59,
+      "before": [
+        "7 Not wanting to frighten the poor man, 不想去吓唬这个可怜的人。这是现在分词",
+        "短语的否定形式，作原因状语。"
+      ],
+      "text": "7 Not wanting to frighten the poor man, 不想去吓唬这个可怜的人。这是现在分词短语的否定形式，作原因状语。",
+      "reason": "化装惊吓故事和对应中文为两组多句自然段，注释与题干内部断行及续写段落恢复为连贯单元。"
+    },
+    {
+      "start": 64,
+      "end": 65,
+      "before": [
+        "2 Where did Mrs. Richards go after her husband and children had left? (Upstairs to",
+        "her bedroom.)"
+      ],
+      "text": "2 Where did Mrs. Richards go after her husband and children had left? (Upstairs to her bedroom.)",
+      "reason": "化装惊吓故事和对应中文为两组多句自然段，注释与题干内部断行及续写段落恢复为连贯单元。"
+    },
+    {
+      "start": 66,
+      "end": 67,
+      "before": [
+        "3 Why was she too excited to do any housework that morning? (Because she would",
+        "be going to a fancy-dress party with her husband in the evening.)"
+      ],
+      "text": "3 Why was she too excited to do any housework that morning? (Because she would be going to a fancy-dress party with her husband in the evening.)",
+      "reason": "化装惊吓故事和对应中文为两组多句自然段，注释与题干内部断行及续写段落恢复为连贯单元。"
+    },
+    {
+      "start": 75,
+      "end": 76,
+      "before": [
+        "11 What had she told the baker to do if she didn't answer the door? (Come straight in",
+        "and leave the bread on the kitchen table.)"
+      ],
+      "text": "11 What had she told the baker to do if she didn't answer the door? (Come straight in and leave the bread on the kitchen table.)",
+      "reason": "化装惊吓故事和对应中文为两组多句自然段，注释与题干内部断行及续写段落恢复为连贯单元。"
+    },
+    {
+      "start": 77,
+      "end": 78,
+      "before": [
+        "12 Why did Mrs. Richards hide in the storeroom under the stairs? (She didn't want to",
+        "frighten the baker.)"
+      ],
+      "text": "12 Why did Mrs. Richards hide in the storeroom under the stairs? (She didn't want to frighten the baker.)",
+      "reason": "化装惊吓故事和对应中文为两组多句自然段，注释与题干内部断行及续写段落恢复为连贯单元。"
+    },
+    {
+      "start": 88,
+      "end": 90,
+      "before": [
+        "Imagine that the man from the Electricity Board returned to Mrs. Richards’ house",
+        "with a policeman. Mrs. Richards was no longer dressed as a ghost. Expand the",
+        "following into a paragraph of about 150 words."
+      ],
+      "text": "Imagine that the man from the Electricity Board returned to Mrs. Richards’ house with a policeman. Mrs. Richards was no longer dressed as a ghost. Expand the following into a paragraph of about 150 words.",
+      "reason": "化装惊吓故事和对应中文为两组多句自然段，注释与题干内部断行及续写段落恢复为连贯单元。"
+    },
+    {
+      "start": 91,
+      "end": 96,
+      "before": [
+        "Mrs. Richards immediately went upstairs and... She felt sorry for the poor man from...",
+        "but at the same time, she was...Suddenly, there was a knock at the front door and Mrs.",
+        "Richards... The electricity man had returned, accompanied...so she... The man told",
+        "Mrs. Richards that... and that...Though Mrs. Richards explained that... he refused to",
+        "believe her. She told him to open the storeroom door but he … So she... While the",
+        "electricity man and the policeman... Mrs. Richards fetched... She showed it... and..."
+      ],
+      "text": "Mrs. Richards immediately went upstairs and... She felt sorry for the poor man from... but at the same time, she was...Suddenly, there was a knock at the front door and Mrs. Richards... The electricity man had returned, accompanied...so she... The man told Mrs. Richards that... and that...Though Mrs. Richards explained that... he refused to believe her. She told him to open the storeroom door but he … So she... While the electricity man and the policeman... Mrs. Richards fetched... She showed it... and...",
+      "reason": "化装惊吓故事和对应中文为两组多句自然段，注释与题干内部断行及续写段落恢复为连贯单元。"
+    },
+    {
+      "start": 98,
+      "end": 108,
+      "before": [
+        "Mrs. Richards immediately went upstairs and took off her costume. She felt sorry",
+        "for the poor man from the Electricity Board, but at the same time she was rather",
+        "amused. Suddenly, there was a knock at the front door and Mrs. Richards opened it at",
+        "once. The electricity man had returned, accompanied by a policeman, so she invited",
+        "both in. The man told Mrs. Richards that he had tried to read her metre and that there",
+        "was a ghost",
+        "in the storeroom. Though Mrs. Richards explained that she had dressed up as a ghost,",
+        "he refused to believe her. She told him to open the storeroom door, but he was too",
+        "frightened, so she opened it herself. While the electricity man and the policeman were",
+        "looking for the ghost in the storeroom, Mrs. Richards fetched her costume. She",
+        "showed it to both men and only then did they believe her. (150 words)"
+      ],
+      "text": "Mrs. Richards immediately went upstairs and took off her costume. She felt sorry for the poor man from the Electricity Board, but at the same time she was rather amused. Suddenly, there was a knock at the front door and Mrs. Richards opened it at once. The electricity man had returned, accompanied by a policeman, so she invited both in. The man told Mrs. Richards that he had tried to read her metre and that there was a ghost in the storeroom. Though Mrs. Richards explained that she had dressed up as a ghost, he refused to believe her. She told him to open the storeroom door, but he was too frightened, so she opened it herself. While the electricity man and the policeman were looking for the ghost in the storeroom, Mrs. Richards fetched her costume. She showed it to both men and only then did they believe her. (150 words)",
+      "reason": "化装惊吓故事和对应中文为两组多句自然段，注释与题干内部断行及续写段落恢复为连贯单元。"
+    },
+    {
+      "start": 125,
+      "end": 126,
+      "before": [
+        "4 After her husband had gone to work and the children ________ to school, she went",
+        "upstairs..."
+      ],
+      "text": "4 After her husband had gone to work and the children ________ to school, she went upstairs...",
+      "reason": "化装惊吓故事和对应中文为两组多句自然段，注释与题干内部断行及续写段落恢复为连贯单元。"
+    },
+    {
+      "start": 161,
+      "end": 162,
+      "before": [
+        "11 It was the man from the Electricity Board who had come to take a",
+        "meter-________."
+      ],
+      "text": "11 It was the man from the Electricity Board who had come to take a meter-________.",
+      "reason": "化装惊吓故事和对应中文为两组多句自然段，注释与题干内部断行及续写段落恢复为连贯单元。"
+    }
+  ],
+  "splitBlocks": [],
+  "blockEdits": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/f2da26f2c6a37a7ec4bb768e4f504bab42d9b3d2825fa4f958784af9044d9247.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "65f72d10848d8dad3030398b1c12ddfe7f3c9ee71399328fda0db24cc7594951"
+    }
+  ]
+}

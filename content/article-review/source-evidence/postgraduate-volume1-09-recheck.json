@@ -1,0 +1,41 @@
+{
+  "article": "postgraduate/volume1-09",
+  "fullRead": "30块15组英中完整通读；教材OCR262–265（印刷251–254）完整段落；华盛顿邮报原文14–54行全文比对，教材删节不补回。",
+  "sources": [
+    {
+      "url": "https://www.washingtonpost.com/archive/opinions/2006/08/27/the-housing-crisis-goes-suburban/41ae329b-1e1d-45b4-8f5d-ae395951de92/",
+      "read": "原文确认median而非average及overnourished连写。网页显示8月26、归档路径8月27，导读只用2006年8月；其余历史数字保留为作者当时报导，不作当前统计或独立重新统计。"
+    },
+    {
+      "url": "https://www.hud.gov/aboutus/history",
+      "read": "1974Section8certificates、1990HOME，反证原文独一新住房计划及1986后无新建支持的概括。"
+    },
+    {
+      "url": "https://www.fordlibrarymuseum.gov/president-ford-76-fact-book",
+      "read": "Ford原始任职资料明确其1974年8月22日签署住房与社区发展法。"
+    },
+    {
+      "url": "https://archives.hud.gov/budget/fy99/justif99/pih/bpihrevi.cfm",
+      "read": "HUD FY1999预算资料记1993拨款法HOPE VI计划起点，不概括成克林顿原创。"
+    },
+    {
+      "url": "https://archives.hud.gov/budget/fy99/justif99/cpd/bcpdhome.cfm",
+      "read": "同时代HUD预算资料明确HOME资金支持新建、整修、购买及租房援助。"
+    }
+  ],
+  "editorialCorrections": [
+    "加英中编者注限定历史背景、明确改编与政策史修正。median-income与median-priced还原指标含义。",
+    "1974签署人和证书制度、HOPEVI首次拨款时间属于原文事实错误的编辑纠正，非OCR还原。删去only断言，HOME反证1986后没有支持。",
+    "删除福利必属个人联邦权利的粗略对比；保留住房预算有限和支持者限期援助论点，避免将争议建议当确定客观结论。",
+    "不存在独立官方中译可供确认，明确按核实的英文进行15组语义复核，不冒称原译版本恢复。"
+  ],
+  "translationReview": [
+    "首段房价和收入增速、median、54/26比例与9/11万美元准确；罗斯福引语及服务业、借住父母、教师居住背景对应。",
+    "有房/无房/远距通勤族、住房负担比例、意外之财语义保留；1934/1937/1949历史句与新1974法案句对应。",
+    "HOPEVI拆除超过替代、联邦援助停滞、450万/3倍/12000/4000数字及Egan引语对应；studies suggest改提示而非确定表明。",
+    "Smith引语保留意见属性；需求供给错配、1500万家庭、拥挤相关性非因果、62万住宅与通勤表达核对。",
+    "Hudgins委员会名称改监督委员会；低收入项目和高密度项目两个并列类别不再合为单一条件；税收抵免与HOME新句双语对应。",
+    "末两段崩盘反讽与后续否定效果同时保留，25万美元、三分之二/二十分之一、可能放缓语气准确；中产生活质量和体面租住诉求对应。"
+  ],
+  "unresolved": []
+}

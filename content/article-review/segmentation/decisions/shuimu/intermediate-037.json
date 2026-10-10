@@ -1,0 +1,216 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "56d288e2fadbd04225354974db43d17331e85f049dbe439cb99766212f98daff",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "coverage": "全文 blocks[0..171]；按 JSON 上下文逐项复核对话、解释、题目、表格、词表及修复后的边界。",
+  "notes": "完整阅读闹鬼酒吧及全部摘要题/选择题、其他虚拟语气与if省略解析。恢复Mr. Thompson跨块人名、长题干和说明续行；倒装例句与等号改写、原语法例句的字词均保持。",
+  "issues": [],
+  "mergeBlocks": [
+    {
+      "start": 21,
+      "end": 22,
+      "before": [
+        "He told me that he could not go to sleep one night because he heard a strange noise",
+        "coming from the bar."
+      ],
+      "text": "He told me that he could not go to sleep one night because he heard a strange noise coming from the bar.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 24,
+      "end": 25,
+      "before": [
+        "The next morning, he found that the doors had been blocked by chairs and the",
+        "furniture had been moved."
+      ],
+      "text": "The next morning, he found that the doors had been blocked by chairs and the furniture had been moved.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 27,
+      "end": 28,
+      "before": [
+        "Though Mr. Thompson had turned the lights off before he went to bed, they were all",
+        "on in the morning."
+      ],
+      "text": "Though Mr. Thompson had turned the lights off before he went to bed, they were all on in the morning.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 30,
+      "end": 31,
+      "before": [
+        "He also said that he had found five empty whisky bottles which the ghost must have",
+        "drunk the night before."
+      ],
+      "text": "He also said that he had found five empty whisky bottles which the ghost must have drunk the night before.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 33,
+      "end": 34,
+      "before": [
+        "When I suggested that some villagers must have come in for a free drink, Mr.",
+        "Thompson shook his head."
+      ],
+      "text": "When I suggested that some villagers must have come in for a free drink, Mr. Thompson shook his head.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 40,
+      "end": 41,
+      "before": [
+        "1 What did Mr. Thompson buy recently? Is it haunted or not? What is he going to",
+        "do with it?"
+      ],
+      "text": "1 What did Mr. Thompson buy recently? Is it haunted or not? What is he going to do with it?",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 42,
+      "end": 43,
+      "before": [
+        "2 Was there a strange noise in the bar one night or not? Was the room in disorder",
+        "next morning or not?"
+      ],
+      "text": "2 Was there a strange noise in the bar one night or not? Was the room in disorder next morning or not?",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 47,
+      "end": 51,
+      "before": [
+        "Answer: Mr. Thompson bought a public house recently but it is haunted so he",
+        "is going to sell it. There was a strange noise in the bar one night and the room",
+        "was in disorder next morning. Mr. Thompson also found five empty whisky",
+        "bottles. He does not believe that any villagers broke into the bar and had a",
+        "drink. Nobody in the village wants to buy the pub."
+      ],
+      "text": "Answer: Mr. Thompson bought a public house recently but it is haunted so he is going to sell it. There was a strange noise in the bar one night and the room was in disorder next morning. Mr. Thompson also found five empty whisky bottles. He does not believe that any villagers broke into the bar and had a drink. Nobody in the village wants to buy the pub.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 84,
+      "end": 85,
+      "before": [
+        "7 The ghost must have drunk the whisky. In Mr. Thompson's opinion, the ghost",
+        "________ whisky."
+      ],
+      "text": "7 The ghost must have drunk the whisky. In Mr. Thompson's opinion, the ghost ________ whisky.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 118,
+      "end": 120,
+      "before": [
+        "▪ 在would/had rather, would (just) as soon, would sooner和would prefer结构中,也",
+        "用虚拟语气。其共同的特点是：从句中动词用一般过去时，表示现在或将",
+        "来要做的事：用过去完成时，则表示过去的虚拟。"
+      ],
+      "text": "▪ 在would/had rather, would (just) as soon, would sooner和would prefer结构中,也用虚拟语气。其共同的特点是：从句中动词用一般过去时，表示现在或将来要做的事：用过去完成时，则表示过去的虚拟。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 126,
+      "end": 127,
+      "before": [
+        "• I could go myself but would sooner you went.我自己也能去,但我宁愿你",
+        "去。"
+      ],
+      "text": "• I could go myself but would sooner you went.我自己也能去,但我宁愿你去。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 128,
+      "end": 129,
+      "before": [
+        "▪ 在It is (about, high) time(that)的定语从句中,表示早该做而未做的事,常含建议",
+        "的意味。从句中一般用动词的过去式。"
+      ],
+      "text": "▪ 在It is (about, high) time(that)的定语从句中,表示早该做而未做的事,常含建议的意味。从句中一般用动词的过去式。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 134,
+      "end": 135,
+      "before": [
+        "▪ If it weren’t for... 和If it hadn’t been for …, 这是两个很常用的虚拟语气句型,",
+        "意为“若不是/有”“要不是有”。"
+      ],
+      "text": "▪ If it weren’t for... 和If it hadn’t been for …, 这是两个很常用的虚拟语气句型,意为“若不是/有”“要不是有”。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 136,
+      "end": 137,
+      "before": [
+        "• If it weren’t for water, no plant could grow.要是没有水，植物就无法生",
+        "长。"
+      ],
+      "text": "• If it weren’t for water, no plant could grow.要是没有水，植物就无法生长。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 140,
+      "end": 141,
+      "before": [
+        "注:①原则上说, if it weren’t用于谈论现在的情况而 if it hadn’t been for用于谈论过",
+        "去的情况。但实际上 if it weren’t for有时也可用于谈论过去的情况"
+      ],
+      "text": "注:①原则上说, if it weren’t用于谈论现在的情况而 if it hadn’t been for用于谈论过去的情况。但实际上 if it weren’t for有时也可用于谈论过去的情况",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 149,
+      "end": 151,
+      "before": [
+        "▪ 如果虚拟条件句中含有were, had, should, could等词时，连接词if可以省略，",
+        "但必须把were, had, should, could等词移到主语前面，形成部分倒装。这种",
+        "句型主要用于书面形式。"
+      ],
+      "text": "▪ 如果虚拟条件句中含有were, had, should, could等词时，连接词if可以省略，但必须把were, had, should, could等词移到主语前面，形成部分倒装。这种句型主要用于书面形式。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 158,
+      "end": 159,
+      "before": [
+        "注:①若条件从句为否定句，否定词not应置于主语之后，而不能与were, should,",
+        "had等缩略成 Weren’t, Shouldn’t, hadn’t 置于句首。"
+      ],
+      "text": "注:①若条件从句为否定句，否定词not应置于主语之后，而不能与were, should, had等缩略成 Weren’t, Shouldn’t, hadn’t 置于句首。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 167,
+      "end": 168,
+      "before": [
+        "▪ 省略条件句的主语和其后的动词be。若主从句主语一致，且谓语部分包含",
+        "有动词be，通常可将主语和动词be省略。"
+      ],
+      "text": "▪ 省略条件句的主语和其后的动词be。若主从句主语一致，且谓语部分包含有动词be，通常可将主语和动词be省略。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 170,
+      "end": 171,
+      "before": [
+        "要是早点儿修一下，拖拉机就不会抛锚了。(= If it had been repaired",
+        "earlier.)"
+      ],
+      "text": "要是早点儿修一下，拖拉机就不会抛锚了。(= If it had been repaired earlier.)",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    }
+  ],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/9a94880d2d69d0b5acc499d7d1d183687badd07fce8e04f6810aa9fcee405c20.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "150c5c337e95c2479ef90da8f56fc58e922b5b74cb93e3a2b26b41289dbdd195"
+    }
+  ]
+}

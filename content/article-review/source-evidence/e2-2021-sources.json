@@ -1,0 +1,167 @@
+{
+  "article": "e2-2021",
+  "rawRead": {
+    "blocks": 11,
+    "pdfPhysicalPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "allPageImagesRead": true,
+    "pdfSha256": "f1ee5e2cd73d9dbe464906129b91cff9eb62e5e1ad5738bd3d6dfc62891f1b16"
+  },
+  "parallelPdf": {
+    "path": "tmp\\article-review\\e2-2021\\parallel.pdf",
+    "sha256": "a0fe3ce8e2671abdf3aa2b28019a069d1f794f16c676d9746d2470bf1fc512f3",
+    "pagesRead": [
+      115,
+      116
+    ],
+    "purpose": "47补要求及48补图"
+  },
+  "sources": [
+    {
+      "path": "https://www.london.gov.uk/who-we-are/what-london-assembly-does/london-assembly-publications/driven-distraction-tackling-safety-londons-buses",
+      "read": "2017报告页面全部短文及建议读取，讨论安全和准点激励，不能证实完形公交和航班的全部轶事。未确认Business Spotlight原刊页，故不编作者日期；本文经验举例已限定。",
+      "checked": true
+    },
+    {
+      "path": "https://www.theglobeandmail.com/business/commentary/article-is-now-the-time-for-a-reskilling-revolution/",
+      "read": "Linda Nazareth2020-06-22，requests公开返回全文；本地reskill.txt全文读取。原刊也混淆两国失业率及90%空乘，按同期官方数据修正。",
+      "checked": true
+    },
+    {
+      "path": "https://www.weforum.org/stories/education-and-skills/reskilling-revolution-jobs-future-skills/",
+      "read": "2020-01-22正文读取，42%为至2022年预测，不是事后测量。",
+      "checked": true
+    },
+    {
+      "path": "https://www.bls.gov/news.release/archives/empsit_06052020.htm",
+      "read": "2020-06-05发布，完整导言和Household Survey Data前两段读取；5月13.3%，较2月高9.8个百分点，即2月3.5%。非当前就业数据。",
+      "checked": true
+    },
+    {
+      "path": "https://www150.statcan.gc.ca/n1/daily-quotidien/200306/dq200306a-eng.htm",
+      "read": "2020-03-06同期发布，2月5.6%，表格L62–71和说明L410–437读取；不混用后修订5.7%。",
+      "checked": true
+    },
+    {
+      "path": "https://www150.statcan.gc.ca/n1/daily-quotidien/200605/dq200605a-eng.pdf",
+      "read": "2020-06-05发布，搜索返回失业率相关完整段读取，5月13.7%、2月5.6%，没有声称全PDF读完。",
+      "checked": true
+    },
+    {
+      "path": "https://www.sasgroup.net/newsroom/press-releases/2020/sas-temporarily-halt-most-of-the-traffic/",
+      "read": "2020-03-15全文读取，计划临时减工至多10000人/90%全体员工，非90%空乘永久裁员。",
+      "checked": true
+    },
+    {
+      "path": "https://mmw.wallenberg.org/en/press/30-300-skill-shift-initiative-beredskapslyftet-fast-track-medical-training-scales",
+      "read": "2020-03-27核心完整三段读取，30名SAS空乘3天课程3月30日开始，4月6日扩至300人，Novare/Sophiahemmet等合作，医院辅助工作。",
+      "checked": true
+    },
+    {
+      "path": "https://fliphtml5.com/rtmqr/byav/2019-10-26_New_Scientist/",
+      "read": "2019-10-26期p24 James Wong The dream of food self-sufficiency，L437–449完整专栏读取，三列文本交错但对应段连续核对。原文确有85%英国国土的错误；未把原刊重述当独立验证。",
+      "checked": true
+    },
+    {
+      "path": "https://www.sciencedirect.com/science/article/pii/S0959378017301176",
+      "read": "de Ruiter等2017 Global Environmental Change43:72–81，完整Highlights和Abstract读取，1986–2011全球农业用地足迹，85%肉奶生产，48%蛋白32%热量；降反刍产品消费可腾出土地，非英国国土85%。",
+      "checked": true
+    },
+    {
+      "path": "https://www.gov.uk/government/statistics/united-kingdom-food-security-report-2021/united-kingdom-food-security-report-2021-theme-2-uk-food-supply-sources",
+      "read": "2021报告网站后标2024更新；已读导言及L133–180、2.1.1全部定义和数字、2.1.2–2.1.4相关段L182–277，不称1059行全文。60%为农场门口价值生产/供应比，2020实际食物本国产约54%；地形限制不等于永远不能改进产能。",
+      "checked": true
+    },
+    {
+      "path": "https://www.ft.com/content/39b5c3a8-4e1a-11ea-95a0-43d18ec715f5",
+      "read": "2020-02-13标题元数据可见；web和requests均订阅墙，正文未读，不臆定作者。试卷全文已读，金额作为当时报道口径保留；以监管及公司资料修事实边界。",
+      "checked": true
+    },
+    {
+      "path": "https://www.ftc.gov/news-events/news/press-releases/2020/02/ftc-examine-past-acquisitions-large-technology-companies",
+      "read": "2020-02-11完整公告核心段L18–27读取，Alphabet/Amazon/Apple/Facebook/Microsoft，2010-01-01至2019-12-31非HSR申报交易，6(b)研究非特定执法，没有说此前无管辖权。",
+      "checked": true
+    },
+    {
+      "path": "https://learn.microsoft.com/en-us/lifecycle/products/wunderlist",
+      "read": "完整支持日期页读取，机器渲染时区显示5/7/2020 06:59:59，与德文页5/6不同；仅使用2020年5月，避免未核时区换算。",
+      "checked": true
+    },
+    {
+      "path": "https://www.microsoft.com/en-us/microsoft-365/blog/2016/09/13/introducing-outlooks-new-and-improved-calendar-on-ios-and-android/",
+      "read": "微软2016-09-13正文及FAQ全部读取，Sunrise设计/图标进入Outlook；没有从该文推定反竞争动机或特定关闭日期。",
+      "checked": true
+    },
+    {
+      "path": "https://www.psychologytoday.com/us/articles/201912/8-truths-about-intuition",
+      "read": "Matthew Hutson2019-12-19，L19–86已读，第一小节与本卷对应L26–36完整读取；教师判断准确性是与学生评分相关，八任务直觉程度自报相关，不是普遍因果建议。",
+      "checked": true
+    },
+    {
+      "path": "https://citeseerx.ist.psu.edu/document?doi=2751c5c184e84aade722695a63a2956990563919&repid=rep1&type=pdf",
+      "read": "Nalini Ambady2010 The Perils of Pondering，Psychological Inquiry21:271–278，完整摘要读取；直接PDF403，没有声称全文读取。",
+      "checked": true
+    },
+    {
+      "path": "https://hbr.org/2016/03/how-to-disagree-with-someone-more-powerful-than-you",
+      "read": "Amy Gallo2016-03-17，标题、署名、日期、导语可见；requests也仅这些内容。未声称主文全文外部核读，本地五段及原图完整核对。",
+      "checked": true
+    },
+    {
+      "path": "https://hbr.org/tip/2016/05/disagreeing-with-someone-more-powerful-than-you",
+      "read": "相关提示页完整短文读取，不等于原主文完整开放；不向正文补入额外内容。",
+      "checked": true
+    },
+    {
+      "path": "https://www.psychologytoday.com/us/blog/happy-trails/201604/why-you-should-talk-strangers",
+      "read": "Jaime L. Kurtz2016-04-21完整正文L25–40读取；原始开头讨论weak ties，试卷节选有改编；保留试卷内容并指出边界。",
+      "checked": true
+    },
+    {
+      "path": "https://pubmed.ncbi.nlm.nih.gov/25019381/",
+      "read": "Nicholas Epley/Juliana Schroeder2014 Mistakenly seeking solitude，完整摘要及元数据读取，通勤和候车室实验、自报体验、误估他人交流意愿；open验证码而搜索可见完整摘要。",
+      "checked": true
+    },
+    {
+      "path": "https://mba.sues.edu.cn/_upload/article/files/6e/ed/1f718da543609c890e10a18c6581/fb76ab67-4061-43f9-8785-1f321194fe2a.pdf",
+      "read": "171页汇编，仅物理115–116页完整原图读取；47地址要求，48某市居民体育锻炼方式调查54.30/47.70/23.90/15.80；合计141.7，未明确写多选或样本数，不能编造。平行卷Writing误字不带入本地Write。",
+      "checked": true
+    },
+    {
+      "path": "tmp/article-review/e2-2021/parallel-115.jpg",
+      "read": "平行卷物理115页原图完整读取。",
+      "checked": true
+    },
+    {
+      "path": "tmp/article-review/e2-2021/parallel-116.jpg",
+      "read": "平行卷物理116页原图完整读取。",
+      "checked": true
+    }
+  ],
+  "findings": [
+    "20空和题文顺序恢复；按原图6/4/6/7/5段、PartB导语加5段、翻译2段。",
+    "两国失业率及90%全员临时减工口径修订，WEF42%为预测。",
+    "85%全球农业用地足迹非英国国土，第27题同步修，60%为价值生产供应比，其余作者估算限定。",
+    "FTC调查范围和权限边界、Wunderlist关闭时间修正。",
+    "教师评分相关非客观成效、末段自报相关非因果，第39题文本限定。",
+    "写作重复要求删除、缺失图及地址要求按大学平行卷补回；141.7%非互斥总量。"
+  ],
+  "finalReview": {
+    "fullTextRead": true,
+    "blocks": 123,
+    "coverage": "0–61及62–122全部逐块通读，最终语法与SHEET后空格补修后再读受影响块。"
+  },
+  "unresolved": []
+}

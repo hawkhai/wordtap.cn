@@ -1,0 +1,21 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "7801043e64c2e0f8377f3c8032bd4ede432cf06bf3a9f9914cf2fc9121784496",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "完整 title、blocks[0..12]及完全相同的text；正文及内嵌中文、引语、对话和列举均已逐项通读；无改动输出按全文再次复核。",
+  "notes": "全文及未改动输出复核：项羽破釜沉舟、MIT三门实验、点击规则、舍不得关门心理、生活机会成本、减少选项建议和结尾设问十三段自然；实验说明不按句拆分。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/f1a95c40358400bc69cc16841c5b6d682d98d110742112177627bad8dca5bdb0.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "343fac1f0704c1ab34535e5f0f4e604ad2cad177996ed505a7250e781d7ba55c"
+    }
+  ]
+}

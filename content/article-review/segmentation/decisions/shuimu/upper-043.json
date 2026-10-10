@@ -1,0 +1,336 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "d72a879b361442f70c98b49655a0af77b8b919b041bba870d092a13271ca6a06",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title；全文 blocks[0..232] 与对应 text；现有正文/对话/题干逐块通读复核。",
+  "notes": "完整通读Fully insured词表、三组英汉保险和馅饼盘打捞正文、六注释、18问答、沉盘提纲及五段范文、12题答案。正文打捞两次尝试维持完整长段；范文盘子介绍/登盘/滑倒/跳舞翻沉/反思分五段，306 words单独保留。",
+  "issues": [],
+  "mergeBlocks": [
+    {
+      "start": 29,
+      "end": 36,
+      "before": [
+        "Insurance companies are normally willing to insure anything. Insuring public or",
+        "private property is a standard practice in most countries in the world. If, however, you",
+        "were holding an open air garden party or a fete it would be equally possible to insure",
+        "yourself in the event of bad weather. Needless to say, the bigger the risk an insurance",
+        "company takes, the higher the premium you will have to pay. It is not uncommon to",
+        "hear that a shipping company has made a claim for the cost of salvaging a sunken ship.",
+        "But the claim made by a local authority to recover the cost of salvaging a sunken pie",
+        "dish must surely be unique."
+      ],
+      "text": "Insurance companies are normally willing to insure anything. Insuring public or private property is a standard practice in most countries in the world. If, however, you were holding an open air garden party or a fete it would be equally possible to insure yourself in the event of bad weather. Needless to say, the bigger the risk an insurance company takes, the higher the premium you will have to pay. It is not uncommon to hear that a shipping company has made a claim for the cost of salvaging a sunken ship. But the claim made by a local authority to recover the cost of salvaging a sunken pie dish must surely be unique.",
+      "reason": "按英汉对应的完整叙事、范文主题段及单一注释题项合并机械换行，保留独立字数标记。"
+    },
+    {
+      "start": 37,
+      "end": 41,
+      "before": [
+        "保险公司一般说来愿意承保一切东西。承办公共财产或私人财产保险是世界上大",
+        "部分国家的正常业务。如果你要举办一次露天游园会或盛宴，为避免碰上不好的",
+        "天气而遭受损失也同样可以保险。不用说，保险公司承担风险越大，你付的保险",
+        "费也就越高。航运公司为打捞沉船而提出索赔，这是常有的事，但某地当局为打",
+        "捞一只焙制馅饼的盘子提出索赔，倒是件新鲜事儿。"
+      ],
+      "text": "保险公司一般说来愿意承保一切东西。承办公共财产或私人财产保险是世界上大部分国家的正常业务。如果你要举办一次露天游园会或盛宴，为避免碰上不好的天气而遭受损失也同样可以保险。不用说，保险公司承担风险越大，你付的保险费也就越高。航运公司为打捞沉船而提出索赔，这是常有的事，但某地当局为打捞一只焙制馅饼的盘子提出索赔，倒是件新鲜事儿。",
+      "reason": "按英汉对应的完整叙事、范文主题段及单一注释题项合并机械换行，保留独立字数标记。"
+    },
+    {
+      "start": 44,
+      "end": 46,
+      "before": [
+        "2 the bigger the risk an insurance company takes, the higher the premium you will",
+        "have to pay. 保险公司承担的风险越大，你付的保险费就越高。这里又是一个“the+",
+        "形容词比较级， the+形容词比较级”的例子，汉语可译成“越…越……”。"
+      ],
+      "text": "2 the bigger the risk an insurance company takes, the higher the premium you will have to pay. 保险公司承担的风险越大，你付的保险费就越高。这里又是一个“the+形容词比较级， the+形容词比较级”的例子，汉语可译成“越…越……”。",
+      "reason": "按英汉对应的完整叙事、范文主题段及单一注释题项合并机械换行，保留独立字数标记。"
+    },
+    {
+      "start": 48,
+      "end": 55,
+      "before": [
+        "Admittedly it was an unusual pie dish, for it was eighteen feet long and six feet wide.",
+        "It had been purchased by a local authority so that an enormous pie could be baked for",
+        "an annual fair. The pie committee decided that the best way to transport the dish",
+        "would be by canal, so they insured it for the trip. Shortly after it was launched, the pie",
+        "committee went to a local inn to celebrate. At the same time, a number of teenagers",
+        "climbed on to the dish and held a little party of their own. Dancing proved to be more",
+        "than the dish could bear, for during the party it capsized and sank in seven feet of",
+        "water."
+      ],
+      "text": "Admittedly it was an unusual pie dish, for it was eighteen feet long and six feet wide. It had been purchased by a local authority so that an enormous pie could be baked for an annual fair. The pie committee decided that the best way to transport the dish would be by canal, so they insured it for the trip. Shortly after it was launched, the pie committee went to a local inn to celebrate. At the same time, a number of teenagers climbed on to the dish and held a little party of their own. Dancing proved to be more than the dish could bear, for during the party it capsized and sank in seven feet of water.",
+      "reason": "按英汉对应的完整叙事、范文主题段及单一注释题项合并机械换行，保留独立字数标记。"
+    },
+    {
+      "start": 56,
+      "end": 61,
+      "before": [
+        "这个馅饼盘子确实少见，有 18 英尺长，6 英尺宽。某地方当局买下它用来焙制",
+        "一个巨大的馅饼为一年一度交易会助兴。馅饼委员会确认运输这只盘子的最佳方",
+        "案是通过运河水运。于是，他们对这只盘子的运输安全投了保。盘子下水后不久，",
+        "馅饼委员会成员们来到当地一家小酒店庆贺。就在这个时候，许多十几岁的孩子",
+        "爬上盘子举行他们自己的集会。他们跳起了舞，盘子难以承受。舞会进行过程中，",
+        "盘子倾覆，沉入了 7 英尺深的水中。"
+      ],
+      "text": "这个馅饼盘子确实少见，有 18 英尺长，6 英尺宽。某地方当局买下它用来焙制一个巨大的馅饼为一年一度交易会助兴。馅饼委员会确认运输这只盘子的最佳方案是通过运河水运。于是，他们对这只盘子的运输安全投了保。盘子下水后不久，馅饼委员会成员们来到当地一家小酒店庆贺。就在这个时候，许多十几岁的孩子爬上盘子举行他们自己的集会。他们跳起了舞，盘子难以承受。舞会进行过程中，盘子倾覆，沉入了 7 英尺深的水中。",
+      "reason": "按英汉对应的完整叙事、范文主题段及单一注释题项合并机械换行，保留独立字数标记。"
+    },
+    {
+      "start": 62,
+      "end": 80,
+      "before": [
+        "The pie committee telephoned a local garage owner who arrived in a recovery truck to",
+        "salvage the pie dish. Shivering in their wet clothes, the teenagers looked on while",
+        "three men dived repeatedly into the water to locate the dish. They had little difficulty",
+        "in finding it, but hauling it out of the water proved to be a serious problem. The sides",
+        "of the dish were so smooth that it was almost impossible to attach hawsers and chains",
+        "to the rim without damaging it. Eventually chains were fixed to one end of the dish",
+        "and a powerful winch was put into operation. The dish rose to the surface and was",
+        "gently drawn towards the canal bank. For one agonizing moment, the dish was",
+        "perched precariously on the bank of the canal, but it suddenly overbalanced and slid",
+        "back into the water. The men were now obliged to try once more. This time they fixed",
+        "heavy metal clamps to both sides of the dish so that they could fasten the chains. The",
+        "dish now had to be lifted vertically because one edge was resting against the side of",
+        "the canal. The winch was again put into operation and one of the men started up the",
+        "truck. Several minutes later, the dish was successfully hauled above the surface of the",
+        "water. Water streamed in torrents over its sides with such force that it set up a huge",
+        "wave in the canal. There was a danger that the wave would rebound off the other side",
+        "of the bank and send the dish plunging into the water again. By working at",
+        "tremendous speed, the men managed to get the dish on to dry land before the wave",
+        "returned."
+      ],
+      "text": "The pie committee telephoned a local garage owner who arrived in a recovery truck to salvage the pie dish. Shivering in their wet clothes, the teenagers looked on while three men dived repeatedly into the water to locate the dish. They had little difficulty in finding it, but hauling it out of the water proved to be a serious problem. The sides of the dish were so smooth that it was almost impossible to attach hawsers and chains to the rim without damaging it. Eventually chains were fixed to one end of the dish and a powerful winch was put into operation. The dish rose to the surface and was gently drawn towards the canal bank. For one agonizing moment, the dish was perched precariously on the bank of the canal, but it suddenly overbalanced and slid back into the water. The men were now obliged to try once more. This time they fixed heavy metal clamps to both sides of the dish so that they could fasten the chains. The dish now had to be lifted vertically because one edge was resting against the side of the canal. The winch was again put into operation and one of the men started up the truck. Several minutes later, the dish was successfully hauled above the surface of the water. Water streamed in torrents over its sides with such force that it set up a huge wave in the canal. There was a danger that the wave would rebound off the other side of the bank and send the dish plunging into the water again. By working at tremendous speed, the men managed to get the dish on to dry land before the wave returned.",
+      "reason": "按英汉对应的完整叙事、范文主题段及单一注释题项合并机械换行，保留独立字数标记。"
+    },
+    {
+      "start": 81,
+      "end": 92,
+      "before": [
+        "馅饼委员会给当地汽车修理库老板打电话，他闻讯后开着一辆急修车前来打捞盘",
+        "子。那些孩子们穿着湿衣服哆嗦，看着 3 个工人轮番潜入水中以确定盘子的位置。",
+        "他们没费多大事儿就找到了盘子，可是把盘子捞出却是一个很大的难题。盘子四",
+        "边十分光滑，要在盘边拴上绳索或链条而同时又不损坏它是很难办到的。不过，",
+        "他们终于将链条固定在盘子的一端，一台大功率的绞车开动起来。盘子慢慢浮出",
+        "水面，被轻轻地拽向运河岸边。在令人忐忑不安的瞬间，盘子晃晃悠悠地上了岸，",
+        "但它突然失去了平衡，又跌回水中。工人们只得再来一次。这次，他们用沉重的",
+        "金属夹子把盘子夹住，以便往盘子上安装铁链。这次，盘子必须垂直吊出水面，",
+        "因为盘子的一边紧靠着运河河岸。绞盘机再次启动，一位工人发动了急修车的引",
+        "擎。几分钟后，盘子被成功地拽出了水面。波浪从盘子两侧急涌而出，在运河里",
+        "掀起一股大浪。但是当波浪从河对岸折回来时，就有再次把盘子拖进水里的危险。",
+        "工人们动作迅速，终于赶在那股大浪返回之前把盘子拽到了岸上。"
+      ],
+      "text": "馅饼委员会给当地汽车修理库老板打电话，他闻讯后开着一辆急修车前来打捞盘子。那些孩子们穿着湿衣服哆嗦，看着 3 个工人轮番潜入水中以确定盘子的位置。他们没费多大事儿就找到了盘子，可是把盘子捞出却是一个很大的难题。盘子四边十分光滑，要在盘边拴上绳索或链条而同时又不损坏它是很难办到的。不过，他们终于将链条固定在盘子的一端，一台大功率的绞车开动起来。盘子慢慢浮出水面，被轻轻地拽向运河岸边。在令人忐忑不安的瞬间，盘子晃晃悠悠地上了岸，但它突然失去了平衡，又跌回水中。工人们只得再来一次。这次，他们用沉重的金属夹子把盘子夹住，以便往盘子上安装铁链。这次，盘子必须垂直吊出水面，因为盘子的一边紧靠着运河河岸。绞盘机再次启动，一位工人发动了急修车的引擎。几分钟后，盘子被成功地拽出了水面。波浪从盘子两侧急涌而出，在运河里掀起一股大浪。但是当波浪从河对岸折回来时，就有再次把盘子拖进水里的危险。工人们动作迅速，终于赶在那股大浪返回之前把盘子拽到了岸上。",
+      "reason": "按英汉对应的完整叙事、范文主题段及单一注释题项合并机械换行，保留独立字数标记。"
+    },
+    {
+      "start": 100,
+      "end": 101,
+      "before": [
+        "2 Is it possible to insure yourself against bad weather if you are holding an open air",
+        "garden party or a fete? (Yes, it is.)"
+      ],
+      "text": "2 Is it possible to insure yourself against bad weather if you are holding an open air garden party or a fete? (Yes, it is.)",
+      "reason": "按英汉对应的完整叙事、范文主题段及单一注释题项合并机械换行，保留独立字数标记。"
+    },
+    {
+      "start": 102,
+      "end": 103,
+      "before": [
+        "3 What about the premium if the insurance company takes a bigger risk? (It will be",
+        "higher.)"
+      ],
+      "text": "3 What about the premium if the insurance company takes a bigger risk? (It will be higher.)",
+      "reason": "按英汉对应的完整叙事、范文主题段及单一注释题项合并机械换行，保留独立字数标记。"
+    },
+    {
+      "start": 104,
+      "end": 105,
+      "before": [
+        "4 Is it uncommon for a shipping company to claim for the cost of salvaging a sunken",
+        "ship? (No, it isn't.)"
+      ],
+      "text": "4 Is it uncommon for a shipping company to claim for the cost of salvaging a sunken ship? (No, it isn't.)",
+      "reason": "按英汉对应的完整叙事、范文主题段及单一注释题项合并机械换行，保留独立字数标记。"
+    },
+    {
+      "start": 106,
+      "end": 107,
+      "before": [
+        "5 What about a claim made by a local authority to salvage a sunken pie? Is that",
+        "unique? (Yes, it is.)"
+      ],
+      "text": "5 What about a claim made by a local authority to salvage a sunken pie? Is that unique? (Yes, it is.)",
+      "reason": "按英汉对应的完整叙事、范文主题段及单一注释题项合并机械换行，保留独立字数标记。"
+    },
+    {
+      "start": 115,
+      "end": 116,
+      "before": [
+        "13 Why was it difficult to haul the dish out of the water? (Because the sides were",
+        "smooth and it was difficult to attach chains.)"
+      ],
+      "text": "13 Why was it difficult to haul the dish out of the water? (Because the sides were smooth and it was difficult to attach chains.)",
+      "reason": "按英汉对应的完整叙事、范文主题段及单一注释题项合并机械换行，保留独立字数标记。"
+    },
+    {
+      "start": 119,
+      "end": 120,
+      "before": [
+        "16 Why did the dish now have to be lifted vertically? (Because one edge was resting",
+        "against the side of the canal.)"
+      ],
+      "text": "16 Why did the dish now have to be lifted vertically? (Because one edge was resting against the side of the canal.)",
+      "reason": "按英汉对应的完整叙事、范文主题段及单一注释题项合并机械换行，保留独立字数标记。"
+    },
+    {
+      "start": 126,
+      "end": 127,
+      "before": [
+        "• Write an imaginary account of how the pie dish capsized during the party held by",
+        "the teenagers."
+      ],
+      "text": "• Write an imaginary account of how the pie dish capsized during the party held by the teenagers.",
+      "reason": "按英汉对应的完整叙事、范文主题段及单一注释题项合并机械换行，保留独立字数标记。"
+    },
+    {
+      "start": 131,
+      "end": 132,
+      "before": [
+        "Introduction: Dish—anchored to side of canal after launch — eighteen feet long, six",
+        "feet wide — sides about three feet high"
+      ],
+      "text": "Introduction: Dish—anchored to side of canal after launch — eighteen feet long, six feet wide — sides about three feet high",
+      "reason": "按英汉对应的完整叙事、范文主题段及单一注释题项合并机械换行，保留独立字数标记。"
+    },
+    {
+      "start": 134,
+      "end": 136,
+      "before": [
+        "Number of teenagers — canal path — dish looked fascinating — great for party",
+        "— climbed into dish — first thing — slipping and sliding everywhere — all fell down",
+        "in the bottom of the dish"
+      ],
+      "text": "Number of teenagers — canal path — dish looked fascinating — great for party — climbed into dish — first thing — slipping and sliding everywhere — all fell down in the bottom of the dish",
+      "reason": "按英汉对应的完整叙事、范文主题段及单一注释题项合并机械换行，保留独立字数标记。"
+    },
+    {
+      "start": 137,
+      "end": 141,
+      "before": [
+        "Dancing to large portable radio — dish began to move — down one side — then",
+        "down one end — teenagers moved to other end — started dipping — all slid into a",
+        "pile — rim of dish reached level of water — water started to come in — teenagers",
+        "couldn't",
+        "climb back up to other end — water started pouring in"
+      ],
+      "text": "Dancing to large portable radio — dish began to move — down one side — then down one end — teenagers moved to other end — started dipping — all slid into a pile — rim of dish reached level of water — water started to come in — teenagers couldn't climb back up to other end — water started pouring in",
+      "reason": "按英汉对应的完整叙事、范文主题段及单一注释题项合并机械换行，保留独立字数标记。"
+    },
+    {
+      "start": 143,
+      "end": 144,
+      "before": [
+        "Conclusion: Teenagers — not much damage, but — not held party on dish —",
+        "wouldn't have sunk —insurance company wouldn't have had to pay to salvage it"
+      ],
+      "text": "Conclusion: Teenagers — not much damage, but — not held party on dish — wouldn't have sunk —insurance company wouldn't have had to pay to salvage it",
+      "reason": "按英汉对应的完整叙事、范文主题段及单一注释题项合并机械换行，保留独立字数标记。"
+    },
+    {
+      "start": 146,
+      "end": 149,
+      "before": [
+        "It was the biggest pie dish in the world and, floating on the canal, looked very",
+        "inviting. It had been anchored to the side of the canal after it had been launched and",
+        "was as big as many of the boats on the canal. It was about eighteen feet long and",
+        "about six feet wide, and the sides were about three feet high."
+      ],
+      "text": "It was the biggest pie dish in the world and, floating on the canal, looked very inviting. It had been anchored to the side of the canal after it had been launched and was as big as many of the boats on the canal. It was about eighteen feet long and about six feet wide, and the sides were about three feet high.",
+      "reason": "按英汉对应的完整叙事、范文主题段及单一注释题项合并机械换行，保留独立字数标记。"
+    },
+    {
+      "start": 150,
+      "end": 152,
+      "before": [
+        "When a number of teenage girls and boys came along the canal path early in the",
+        "evening, they thought the dish looked fascinating. There were about ten of them and",
+        "they all jumped or climbed into the dish one by one."
+      ],
+      "text": "When a number of teenage girls and boys came along the canal path early in the evening, they thought the dish looked fascinating. There were about ten of them and they all jumped or climbed into the dish one by one.",
+      "reason": "按英汉对应的完整叙事、范文主题段及单一注释题项合并机械换行，保留独立字数标记。"
+    },
+    {
+      "start": 153,
+      "end": 155,
+      "before": [
+        "The first thing that happened was that they started slipping and sliding",
+        "everywhere and all fell down in the bottom of the dish because it was so smooth.",
+        "They all laughed a lot."
+      ],
+      "text": "The first thing that happened was that they started slipping and sliding everywhere and all fell down in the bottom of the dish because it was so smooth. They all laughed a lot.",
+      "reason": "按英汉对应的完整叙事、范文主题段及单一注释题项合并机械换行，保留独立字数标记。"
+    },
+    {
+      "start": 156,
+      "end": 164,
+      "before": [
+        "Then one of them turned on the large portable radio that he had brought with him",
+        "and some of them started dancing. (At least there was no one near the canal to",
+        "complain about the noise.) Suddenly the dish began to move in the water. It went",
+        "down one side, and then down one end, and the teenagers moved to the other end.",
+        "Then it started dipping that end and they all slid into a pile. At that point the rim of the",
+        "dish reached the level of the water. Once that happened, the teenagers couldn't climb",
+        "back up to the other end, and the water started pouring in. It capsized in minutes and",
+        "sank in seven feet of water. Fortunately, they all managed to swim to the bank and",
+        "were safe."
+      ],
+      "text": "Then one of them turned on the large portable radio that he had brought with him and some of them started dancing. (At least there was no one near the canal to complain about the noise.) Suddenly the dish began to move in the water. It went down one side, and then down one end, and the teenagers moved to the other end. Then it started dipping that end and they all slid into a pile. At that point the rim of the dish reached the level of the water. Once that happened, the teenagers couldn't climb back up to the other end, and the water started pouring in. It capsized in minutes and sank in seven feet of water. Fortunately, they all managed to swim to the bank and were safe.",
+      "reason": "按英汉对应的完整叙事、范文主题段及单一注释题项合并机械换行，保留独立字数标记。"
+    },
+    {
+      "start": 165,
+      "end": 167,
+      "before": [
+        "The teenagers may not have done much damage, but if they hadn't held their",
+        "party on the dish, it wouldn't have sunk and the insurance company wouldn't have had",
+        "to pay to salvage it from the canal."
+      ],
+      "text": "The teenagers may not have done much damage, but if they hadn't held their party on the dish, it wouldn't have sunk and the insurance company wouldn't have had to pay to salvage it from the canal.",
+      "reason": "按英汉对应的完整叙事、范文主题段及单一注释题项合并机械换行，保留独立字数标记。"
+    },
+    {
+      "start": 200,
+      "end": 201,
+      "before": [
+        "7 The sides of the dish were so smooth that attaching hawsers and chains to the rim",
+        "almost certain to damage it."
+      ],
+      "text": "7 The sides of the dish were so smooth that attaching hawsers and chains to the rim almost certain to damage it.",
+      "reason": "按英汉对应的完整叙事、范文主题段及单一注释题项合并机械换行，保留独立字数标记。"
+    },
+    {
+      "start": 206,
+      "end": 207,
+      "before": [
+        "8 There was a danger that when the wave ________ off the other side, it would send",
+        "the dish plunging into the water again."
+      ],
+      "text": "8 There was a danger that when the wave ________ off the other side, it would send the dish plunging into the water again.",
+      "reason": "按英汉对应的完整叙事、范文主题段及单一注释题项合并机械换行，保留独立字数标记。"
+    }
+  ],
+  "splitBlocks": [],
+  "blockEdits": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/7053966e493515c5acbdee645551c7c08b0f1c943c00e01731479fd8b0fa9ad7.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "b3413ce3ad6fe04aeb4f1667e90b444c9a883c9ea06d955ee5c5068335e7173b"
+    }
+  ]
+}

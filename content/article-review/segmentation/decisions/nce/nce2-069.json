@@ -1,0 +1,26 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "52849ac4afc7cab6c4a2418b7884efad149074f2220a1808e743dd1971e5c0a3",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title/titleZh、question/questionZh、bodyText全部12行、bodyTextZh全部12行及sentences[0..14]的完整文字；重复正文与字幕文本逐字比对，非正文字幕另读。操作在内存应用并validate_layout_change，修复后的双语全文重新通读。",
+  "notes": "驾考紧急停车；顺利自信、考官假设指令、反应迟缓猛刹、考官结语四段。 text与bodyText同步；sentences对象及时间、角色、索引原样保留。",
+  "issues": [],
+  "display": {
+    "text": "Do you think that the writer passed his driving test? Why?\n\nI was being tested for a driving licence for the third time. I had been asked to drive in heavy traffic and had done so successfully. After having been instructed to drive out of town, I began to acquire confidence. Sure that I had passed, I was almost beginning to enjoy my test.\nThe examiner must have been pleased with my performance, for he smiled and said, 'Just one more thing Mr. Eames. Let us suppose that a child suddenly crosses the road in front of you. As soon as I tap on the window, you must stop within five feet.'\nI continued driving and after some time, the examiner tapped loudly. Though the sound could be heard clearly, it took me a long time to react. I suddenly pressed the brake pedal hard and we were both thrown forward.\nThe examiner looked at me sadly. 'Mr. Eames,' he said, in a mournful voice, 'you have just killed that child!'",
+    "bodyText": "I was being tested for a driving licence for the third time. I had been asked to drive in heavy traffic and had done so successfully. After having been instructed to drive out of town, I began to acquire confidence. Sure that I had passed, I was almost beginning to enjoy my test.\nThe examiner must have been pleased with my performance, for he smiled and said, 'Just one more thing Mr. Eames. Let us suppose that a child suddenly crosses the road in front of you. As soon as I tap on the window, you must stop within five feet.'\nI continued driving and after some time, the examiner tapped loudly. Though the sound could be heard clearly, it took me a long time to react. I suddenly pressed the brake pedal hard and we were both thrown forward.\nThe examiner looked at me sadly. 'Mr. Eames,' he said, in a mournful voice, 'you have just killed that child!'",
+    "bodyTextZh": "这是我第三次参加驾照考试了。我曾被要求在繁忙的交通中驾驶，而且我成功地做到了。在接到“开车离开城镇”的指令后，我开始有了信心。当我确定自己已经通过了考试后，我甚至开始享受这个考试过程了。\n考官一定对我的表现很满意，因为他微笑着对我说：“还有一件事，埃姆斯先生。”假设突然有一个孩子在你面前横穿马路。“我一敲窗户，你就必须在五英尺内停下来。”\n我继续开车，过了一会儿，考官大声地敲了敲车窗。虽然那个声音听得非常清楚，但我还是花了很长时间才做出反应。我突然猛踩刹车，结果我们俩都被向前甩了出去。\n考官难过地看着我。“埃姆斯先生，”他用悲伤的语气说道，“你刚刚撞死了那个孩子！”"
+  },
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/ad4cea01145483cccf6a68d83f0d7e76fdfadda2ba96414bddd10376543350a8.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "989de25ce55c7435d2b84df33fff7fc192292a9dde1decaed418b19b3bcdc4f2"
+    }
+  ]
+}

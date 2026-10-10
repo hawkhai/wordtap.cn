@@ -1,0 +1,21 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "4fcf4e80bf3b7e6f85efb61171aaf53882de11c0aac51708acd03713fdd22a88",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title与blocks[0..9]全文逐段阅读；text等于完整blocks连接。内存应用明确决定并验证后，复核输出blocks[0..9]全文与标题/引语/自然段边界。",
+  "notes": "10块全文从AAA会议争论、Human Terrain项目、知情同意伦理到政府培养人才及政策局限；报告、反方意见与引语段完整，未把引语与发言来源分开。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/499ab77561fe0a72170418f80508d93edb9fb48feff713768512a7b2f8cb6820.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "dbeec1aece5790645732503c5ceecf253f83ee7c1858c5e46657f30d0392d573"
+    }
+  ]
+}

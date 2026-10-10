@@ -1,0 +1,22 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "0a283226e20b07a66723cb32127c332b71fa513cf1524a181f5a2599f5b31f17",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title；全文 blocks[0..1] 与对应 text；现有正文/对话/题干逐块通读复核。",
+  "notes": "Zhu Hui端午故事两段对照深圳早晨家人与纽约前夜寄宿家庭，完整场景段保留。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "blockEdits": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/4c18979770306ae1b0d36f27442c5d7dbade5c2db76c57552fd5a1791121f48b.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "a83ec02139e807a175dbb01930e04dabc835df292ebe6bb9ec457259e5207bfa"
+    }
+  ]
+}

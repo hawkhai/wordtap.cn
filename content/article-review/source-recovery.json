@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "recoveries": [
+    {
+      "source": "content/postgraduate/volume1/01.json",
+      "recoveredFrom": "public/postgraduate/lessons/volume1/01.json",
+      "publishedFileSha256": "0d26707a33f7ed0c680fe96aab8ce4f80a21691d9aebf0997802cff5b7304759",
+      "recoveredSourceSha256": "bfd75d1070ac7ebf0f793173da6189486d19971097c31cafc7916232321df61c",
+      "reviewStatus": "pending",
+      "notes": "恢复当前已发布 JSON 中已有的校订源内容，尚未在本轮对照原 PDF 审核；不作为通过证据。",
+      "snapshot": "content/article-review/source-baselines/postgraduate/volume1/01.json"
+    },
+    {
+      "source": "content/postgraduate/volume1/02.json",
+      "recoveredFrom": "public/postgraduate/lessons/volume1/02.json",
+      "publishedFileSha256": "c3c0ca4d51f885e05c5acb995a82e38e28855fdd6bf7b94591707d40101a9fa0",
+      "recoveredSourceSha256": "53c174b24e53a93b66411fed7b239ad957bc138facca562d009d2d427bf55a5a",
+      "reviewStatus": "pending",
+      "notes": "恢复当前已发布 JSON 中已有的校订源内容，尚未在本轮对照原 PDF 审核；不作为通过证据。",
+      "snapshot": "content/article-review/source-baselines/postgraduate/volume1/02.json"
+    },
+    {
+      "source": "content/postgraduate/volume1/03.json",
+      "recoveredFrom": "public/postgraduate/lessons/volume1/03.json",
+      "publishedFileSha256": "b3c19eb2c22f74be1f0a5a9956663513edd92b88683876ebb3647200bd473556",
+      "recoveredSourceSha256": "2cc13a9c33cf7e25745088e8913c49446cd781ff5cc3832a303b97e9e3d950a6",
+      "reviewStatus": "pending",
+      "notes": "恢复当前已发布 JSON 中已有的校订源内容，尚未在本轮对照原 PDF 审核；不作为通过证据。",
+      "snapshot": "content/article-review/source-baselines/postgraduate/volume1/03.json"
+    },
+    {
+      "source": "content/postgraduate/volume1/06.json",
+      "recoveredFrom": "public/postgraduate/lessons/volume1/06.json",
+      "publishedFileSha256": "7601c14a004fd7753f33099f4b29d661ee515d177490f1bde7bf86e89730146a",
+      "recoveredSourceSha256": "c7f508cfb9daeb51af888cece054d18a7dfd21a97338739e86929651e8d5d8a4",
+      "reviewStatus": "pending",
+      "notes": "恢复当前已发布 JSON 中已有的校订源内容，尚未在本轮对照原 PDF 审核；不作为通过证据。",
+      "snapshot": "content/article-review/source-baselines/postgraduate/volume1/06.json"
+    },
+    {
+      "source": "content/postgraduate/volume1/09.json",
+      "recoveredFrom": "public/postgraduate/lessons/volume1/09.json",
+      "publishedFileSha256": "9639574df186a41a79fb2df83bbbf75026c708f9ffc1a9f112c96bffcf58e684",
+      "recoveredSourceSha256": "95d281a4d284a23d1ed09ccf2e9497e8e0514a9871afdad75612173b94d85690",
+      "reviewStatus": "pending",
+      "notes": "恢复当前已发布 JSON 中已有的校订源内容，尚未在本轮对照原 PDF 审核；不作为通过证据。",
+      "snapshot": "content/article-review/source-baselines/postgraduate/volume1/09.json"
+    },
+    {
+      "source": "content/postgraduate/volume1/10.json",
+      "recoveredFrom": "public/postgraduate/lessons/volume1/10.json",
+      "publishedFileSha256": "94b204ed2965ee223dce766606044657815db08051db313921ac068427d348ab",
+      "recoveredSourceSha256": "509ae9e6d18ab58a244f086ad33518c363123eae1bd8e2281bb5ae8d63fbcd9a",
+      "reviewStatus": "pending",
+      "notes": "恢复当前已发布 JSON 中已有的校订源内容，尚未在本轮对照原 PDF 审核；不作为通过证据。",
+      "snapshot": "content/article-review/source-baselines/postgraduate/volume1/10.json"
+    }
+  ]
+}

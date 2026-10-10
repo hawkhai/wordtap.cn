@@ -1,0 +1,30 @@
+{
+  "article": "cet6-20180603",
+  "checkedAt": "2026-10-03",
+  "sourcePdfPagesRead": 7,
+  "sources": [
+    {"url":"https://www.the-independent.com/voices/editorials/domestic-robots-are-a-not-too-distant-reality-a7093861.html","scope":"2016-06-21原社论72—76行全文已读，机器人愿景与新闻业结尾属于乐观评论；未来移居不能改写成已经实现。"},
+    {"url":"https://www.ap.org/the-definitive-source/announcements/automated-earnings-stories-multiply/","scope":"美联社2015-06-15负责人说明搜索全文：2014年夏启动自动化财报新闻，反证新闻永远不能自动化的断言。"},
+    {"url":"https://qz.com/710390/the-case-for-lower-tier-colleges","scope":"Abby Carney回忆90—123行全文已读，track career打印错为stack；个人态度和求学故事有归属。原文也将纽约大学总费用误称住宿费，未据此照录。"},
+    {"url":"https://www.nber.org/papers/w17159","scope":"2011论文完整摘要搜索已读；控制申请学校选择性后一般回报接近零，但Black、Hispanic及父母教育较低群体是显著例外；题录确认2014年JHR发表。直接页面后来403，不宣称全文论文已读。"},
+    {"url":"https://www.nber.org/papers/w7322","scope":"1999较早论文摘要完整读取，用相似录取/拒绝高校的学生比较及弱势家庭差异；不解释成潜力决定一切。"},
+    {"url":"https://d1y8sb8igg2f8e.cloudfront.net/documents/the-student-debt-review.pdf","scope":"New America2014原报告第4页图表和第12页估算说明搜索全文：有贷款学士完成者2012年312美元、2004年233美元，均2012币值，十年固定5%利率。不是6.8%或所有毕业生实际月供。"},
+    {"url":"https://www.uis.edu/sites/default/files/inline-images/TheRoleOfHigherEducationInCareerDevelopment.pdf","scope":"Chronicle/Marketplace/Maguire2012原报告大学存档，第2—5页方法样本及24—25页八项简历指标图表读取：5万邀请，704答卷，声望总体权重最低，实习和在校就业最高；不能外推所有招聘。"},
+    {"url":"https://lewis.gsu.edu/about/byrdine-legacy/","scope":"校方学院沿革全文搜索，Ken Lewis为商学院校友及前Bank of America CEO。"},
+    {"url":"https://news.gsu.edu/2017/03/14/media-maker/","scope":"校方Ellis Jones人物介绍全文搜索，2007学士，2015年2月成为VICE纸刊首位女主编；作者也是Abby Carney。"},
+    {"url":"https://news.gsu.edu/2022/05/04/georgia-state-presents-honorary-degree-to-multiplatinum-grammy-award-winning-rapper-actor-ludacris","scope":"校方原通告全文搜索，Ludacris九十年代就读后离校，2022获荣誉学位；只保留曾就读，避免把2016时说成正式毕业。"},
+    {"url":"https://www.brookings.edu/articles/are-americans-better-off-than-they-were-a-decade-or-two-ago/","scope":"Bernanke/Olson2016-10-19原文105—107与135—175行全文阅读，福利模型假设、法国2005消费60%、英墨比较日期不一、2007—2015延伸估算及局限。原文收入排除转移支付的误述以Census定义纠正。"},
+    {"url":"https://www.census.gov/content/dam/Census/library/publications/2016/demo/p60-256.pdf","scope":"2016报告导言和附录A第21页How Income Is Measured完整搜索文本：2015实际中位数增5.2%，税前货币收入含社保/失业/公共援助现金，不含非现金福利；调查偏差不等于调查不是数据。"},
+    {"url":"https://www.census.gov/content/dam/Census/newsroom/press-kits/2016/20160913_iphi_remarks.pdf","scope":"第7页SPM与货币收入比较及脚注14原文搜索，现金社保和失业保险已计入原口径。"},
+    {"url":"https://journals.sagepub.com/doi/abs/10.1177/1948550616639648?legid=spspp%3B7%2F5%2F471&patientinform-links=yes","scope":"Polman/Vohs2016摘要全文搜索：三实验957人，自我观调节他人选择的疲劳差异；直接打开失败，不据此宣称无条件免疲劳。"},
+    {"url":"https://carlsonschool.umn.edu/sites/carlsonschool.umn.edu/files/2018-12/polman_vohs_2016_spps_decision_fatigue_0_0.pdf","scope":"作者单位存档论文摘要、实验1方法结果和实验2开头搜索完整段落读取；实验1自己选择后维持现状52%、他人38%、控制35%，解释为自己组增加而非他人组低于基线。"},
+    {"url":"https://pmc.ncbi.nlm.nih.gov/articles/PMC4648561/","scope":"Linder等2014原论文引言、结果和讨论搜索完整读取：21867次ARI就诊、204临床人员、23机构；时段关联、代理指标及未测混杂，不能证明决策疲劳因果或概括全部晚间医疗。"},
+    {"url":"https://healthpolicy.usc.edu/wp-content/uploads/2018/07/2016_Schaeffer-Center-Issue-Brief_Antibiotic-Prescribing.pdf","scope":"作者团队2016说明第3页观察研究方法图表搜索读取，急性呼吸道感染和上午/下午时段范围。"},
+    {"url":"https://app.www.gov.cn/govdata/gov/201708/03/409318/article.html","scope":"2017交通部等指导意见全文搜索：互联网与自行车租赁融合的服务模式、绿色出行、可用车辆/管理条件；不将其表述成中国发明整个自行车共享概念。"}
+  ],
+  "reviewNotes": [
+    "7页原PDF图像逐页读过，修复H跨页接续、2005段重复截断、track误字、决策段Mtigue/omrs/tum和中文缺少流行等。",
+    "十空D/A/N/L/F/E/C/B/J/O；匹配J/G/C/K/B/H/N/A/E/I；阅读A/D/B/D/C和A/C/B/D/A按修订文本逐题推导，未把这些推导发布成原卷官方答案。",
+    "保留原题结构和作者观点，显式标注来源没有听力及答案。正文、46/50/52/53/54/55题和39/41/45匹配题同步限定口径，全文复读检查。"
+  ]
+}

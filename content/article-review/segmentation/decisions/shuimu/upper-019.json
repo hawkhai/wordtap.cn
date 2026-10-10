@@ -1,0 +1,219 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "7abdfe75daced2dfbca46988a3330511df46a5e5730164db0b472e1d3da61050",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title；全文 blocks[0..170] 与对应 text；现有正文/对话/题干逐块通读复核。",
+  "notes": "通读A very dear cat词表、猫失踪及赎回的两组英汉叙事、六条注释、20道理解问答、绑匪背景的单段写作模板范文、12题答案。保持英汉对应自然段和所有选项独立；货币符号和选项disciplined bow we等字词异常保留，不影响确定段落边界。",
+  "issues": [],
+  "mergeBlocks": [
+    {
+      "start": 16,
+      "end": 21,
+      "before": [
+        "Kidnappers are rarely interested in animals, but they recently took considerable",
+        "interest in Mrs. Eleanor Ramsay’s cat. Mrs. Eleanor Ramsay, a very wealthy old lady,",
+        "has shared a flat with her cat, Rastus, for a great many years. Rastus leads an orderly",
+        "life. He usually takes a short walk in the evenings and is always home by seven",
+        "o’clock. One evening, however, he failed to arrive. Mrs. Ramsay got very worried.",
+        "She looked everywhere for him but could not find him."
+      ],
+      "text": "Kidnappers are rarely interested in animals, but they recently took considerable interest in Mrs. Eleanor Ramsay’s cat. Mrs. Eleanor Ramsay, a very wealthy old lady, has shared a flat with her cat, Rastus, for a great many years. Rastus leads an orderly life. He usually takes a short walk in the evenings and is always home by seven o’clock. One evening, however, he failed to arrive. Mrs. Ramsay got very worried. She looked everywhere for him but could not find him.",
+      "reason": "Rastus失踪和付赎金获归叙事及译文为完整自然段，问答、注释和写作内容机械断行接续。"
+    },
+    {
+      "start": 22,
+      "end": 26,
+      "before": [
+        "绑架者很少对动物感兴趣。最近，绑架者却盯上了埃莉诺 ·拉姆齐太太的猫。埃",
+        "莉诺 ·拉姆齐太太是一个非常富有的老妇人，多年来，一直同她养的猫拉斯特斯",
+        "一起住在一所公寓里。拉斯特斯生活很有规律，傍晚常常出去溜达一会儿，并且",
+        "总是在 7 点钟以前回来。可是，有一天晚上，它出去后再也没回来。拉姆齐太太",
+        "急坏了，四处寻找，但没找着。"
+      ],
+      "text": "绑架者很少对动物感兴趣。最近，绑架者却盯上了埃莉诺 ·拉姆齐太太的猫。埃莉诺 ·拉姆齐太太是一个非常富有的老妇人，多年来，一直同她养的猫拉斯特斯一起住在一所公寓里。拉斯特斯生活很有规律，傍晚常常出去溜达一会儿，并且总是在 7 点钟以前回来。可是，有一天晚上，它出去后再也没回来。拉姆齐太太急坏了，四处寻找，但没找着。",
+      "reason": "Rastus失踪和付赎金获归叙事及译文为完整自然段，问答、注释和写作内容机械断行接续。"
+    },
+    {
+      "start": 29,
+      "end": 40,
+      "before": [
+        "Three days after Rastus’ disappearance, Mrs. Ramsay received an anonymous letter.",
+        "The writer stated that Rastus was in safe hands and would be returned immediately if",
+        "Mrs. Ramsay paid a ransom of ￡ 1, 000. Mrs. Ramsay was instructed to place the",
+        "money in a cardboard box and to leave it outside her door. At first, she decided to go",
+        "to the police, but fearing that she would never see Rastus again — the letter had made",
+        "that quite clear— she changed her mind. She withdrew ￡1, 000 from her bank and",
+        "followed the kidnapper’s instructions. The next morning, the box had disappeared but",
+        "Mrs. Ramsay was sure that the kidnapper would keep his word. Sure enough, Rastus",
+        "arrived punctually at seven o’clock that evening. He looked very well, though he was",
+        "rather thirsty, for he drank half a bottle of milk. The police were astounded when Mrs.",
+        "Ramsay told them what she had done. She explained that Rastus was very dear to her.",
+        "Considering the amount she paid, he was dear in more ways than one!"
+      ],
+      "text": "Three days after Rastus’ disappearance, Mrs. Ramsay received an anonymous letter. The writer stated that Rastus was in safe hands and would be returned immediately if Mrs. Ramsay paid a ransom of ￡ 1, 000. Mrs. Ramsay was instructed to place the money in a cardboard box and to leave it outside her door. At first, she decided to go to the police, but fearing that she would never see Rastus again — the letter had made that quite clear— she changed her mind. She withdrew ￡1, 000 from her bank and followed the kidnapper’s instructions. The next morning, the box had disappeared but Mrs. Ramsay was sure that the kidnapper would keep his word. Sure enough, Rastus arrived punctually at seven o’clock that evening. He looked very well, though he was rather thirsty, for he drank half a bottle of milk. The police were astounded when Mrs. Ramsay told them what she had done. She explained that Rastus was very dear to her. Considering the amount she paid, he was dear in more ways than one!",
+      "reason": "Rastus失踪和付赎金获归叙事及译文为完整自然段，问答、注释和写作内容机械断行接续。"
+    },
+    {
+      "start": 41,
+      "end": 49,
+      "before": [
+        "拉斯特斯失踪 3 天后，拉姆齐太太收到一封匿名信。写信人声称拉斯特斯安然",
+        "无恙，只要拉姆齐太太愿意支付 1, 000 英镑赎金，可以立即将猫送还。他让拉",
+        "姆齐太太把钱放在一个纸盒里，然后将纸盒放在门口。一开始拉姆齐太太打算报",
+        "告警察，但又害怕再也见不到拉斯特斯了——这点，信上说得十分明白——于是",
+        "便改变了主意。她从银行取出 1, 000 英镑，并照绑架者的要求做了。第二天早晨，",
+        "放钱的盒子不见了。但拉姆齐太太确信绑架者是会履行诺言的。果然，当天晚上",
+        "7 点正，拉斯特斯准时回来了。它看上去一切正常，只是口渴得很，喝了半瓶牛",
+        "奶。拉姆齐太太把她所做的事告诉了警察，警察听后大为吃惊。拉姆齐太太解释",
+        "说拉斯特斯是一只非常珍贵的猫咪。想到她所花的那笔钱，这只猫就更珍贵了。"
+      ],
+      "text": "拉斯特斯失踪 3 天后，拉姆齐太太收到一封匿名信。写信人声称拉斯特斯安然无恙，只要拉姆齐太太愿意支付 1, 000 英镑赎金，可以立即将猫送还。他让拉姆齐太太把钱放在一个纸盒里，然后将纸盒放在门口。一开始拉姆齐太太打算报告警察，但又害怕再也见不到拉斯特斯了——这点，信上说得十分明白——于是便改变了主意。她从银行取出 1, 000 英镑，并照绑架者的要求做了。第二天早晨，放钱的盒子不见了。但拉姆齐太太确信绑架者是会履行诺言的。果然，当天晚上7 点正，拉斯特斯准时回来了。它看上去一切正常，只是口渴得很，喝了半瓶牛奶。拉姆齐太太把她所做的事告诉了警察，警察听后大为吃惊。拉姆齐太太解释说拉斯特斯是一只非常珍贵的猫咪。想到她所花的那笔钱，这只猫就更珍贵了。",
+      "reason": "Rastus失踪和付赎金获归叙事及译文为完整自然段，问答、注释和写作内容机械断行接续。"
+    },
+    {
+      "start": 55,
+      "end": 57,
+      "before": [
+        "6 Considering … he was dear in more ways than one! considering…是介词短语，作",
+        "“考虑到……”、“就……而言”解，此处作原因状语。in more ways than one(way) 作",
+        "“在更多方面”解。"
+      ],
+      "text": "6 Considering … he was dear in more ways than one! considering…是介词短语，作“考虑到……”、“就……而言”解，此处作原因状语。in more ways than one(way) 作“在更多方面”解。",
+      "reason": "Rastus失踪和付赎金获归叙事及译文为完整自然段，问答、注释和写作内容机械断行接续。"
+    },
+    {
+      "start": 65,
+      "end": 66,
+      "before": [
+        "5 What does he always do in the evenings? (He always takes a short walk and is home",
+        "by seven o’clock.)"
+      ],
+      "text": "5 What does he always do in the evenings? (He always takes a short walk and is home by seven o’clock.)",
+      "reason": "Rastus失踪和付赎金获归叙事及译文为完整自然段，问答、注释和写作内容机械断行接续。"
+    },
+    {
+      "start": 69,
+      "end": 70,
+      "before": [
+        "8 What did she receive three days after Rastus’ disappearance? (An anonymous",
+        "letter. )"
+      ],
+      "text": "8 What did she receive three days after Rastus’ disappearance? (An anonymous letter. )",
+      "reason": "Rastus失踪和付赎金获归叙事及译文为完整自然段，问答、注释和写作内容机械断行接续。"
+    },
+    {
+      "start": 73,
+      "end": 74,
+      "before": [
+        "11 What was Mrs. Ramsay instructed to do? (Place the money in a cardboard box and",
+        "leave it outside her door.)"
+      ],
+      "text": "11 What was Mrs. Ramsay instructed to do? (Place the money in a cardboard box and leave it outside her door.)",
+      "reason": "Rastus失踪和付赎金获归叙事及译文为完整自然段，问答、注释和写作内容机械断行接续。"
+    },
+    {
+      "start": 77,
+      "end": 78,
+      "before": [
+        "14 So what did she do? (She withdrew 王 1000 from her bank and followed the",
+        "kidnapper’s instructions)"
+      ],
+      "text": "14 So what did she do? (She withdrew 王 1000 from her bank and followed the kidnapper’s instructions)",
+      "reason": "Rastus失踪和付赎金获归叙事及译文为完整自然段，问答、注释和写作内容机械断行接续。"
+    },
+    {
+      "start": 80,
+      "end": 81,
+      "before": [
+        "16 When did Rastus arrive home? (He arrived home punctually at seven o’clock that",
+        "evening.)"
+      ],
+      "text": "16 When did Rastus arrive home? (He arrived home punctually at seven o’clock that evening.)",
+      "reason": "Rastus失踪和付赎金获归叙事及译文为完整自然段，问答、注释和写作内容机械断行接续。"
+    },
+    {
+      "start": 82,
+      "end": 83,
+      "before": [
+        "17 How do we know Rastus must have been thirsty? (Because he drank half a bottle",
+        "of milk.)"
+      ],
+      "text": "17 How do we know Rastus must have been thirsty? (Because he drank half a bottle of milk.)",
+      "reason": "Rastus失踪和付赎金获归叙事及译文为完整自然段，问答、注释和写作内容机械断行接续。"
+    },
+    {
+      "start": 86,
+      "end": 87,
+      "before": [
+        "20 Why was he dear in more ways than one? (Because of the amount of money she",
+        "paid for him)"
+      ],
+      "text": "20 Why was he dear in more ways than one? (Because of the amount of money she paid for him)",
+      "reason": "Rastus失踪和付赎金获归叙事及译文为完整自然段，问答、注释和写作内容机械断行接续。"
+    },
+    {
+      "start": 90,
+      "end": 91,
+      "before": [
+        "Describe how the kidnapper came to know that Mrs. Ramsay was so fond of her cat",
+        "and how he stole it. Expand the following into a paragraph of about 150 words."
+      ],
+      "text": "Describe how the kidnapper came to know that Mrs. Ramsay was so fond of her cat and how he stole it. Expand the following into a paragraph of about 150 words.",
+      "reason": "Rastus失踪和付赎金获归叙事及译文为完整自然段，问答、注释和写作内容机械断行接续。"
+    },
+    {
+      "start": 92,
+      "end": 97,
+      "before": [
+        "In a bar one night, Mr. X was talking to a workman who told him that... The workman",
+        "added that Mrs. Ramsay... Every day, Mr. X stood outside...As the cat... that it had",
+        "regular habits. He also found out as much as he could about Mrs. Ramsay and learnt",
+        "that... One evening, as the cat was leaving the block of flats... He took the cat",
+        "to...During the next three days, he walked past Mrs. Ramsay’s flat on several",
+        "occasions and noticed that... Now that he was sure … he wrote.... in which he…"
+      ],
+      "text": "In a bar one night, Mr. X was talking to a workman who told him that... The workman added that Mrs. Ramsay... Every day, Mr. X stood outside...As the cat... that it had regular habits. He also found out as much as he could about Mrs. Ramsay and learnt that... One evening, as the cat was leaving the block of flats... He took the cat to...During the next three days, he walked past Mrs. Ramsay’s flat on several occasions and noticed that... Now that he was sure … he wrote.... in which he…",
+      "reason": "Rastus失踪和付赎金获归叙事及译文为完整自然段，问答、注释和写作内容机械断行接续。"
+    },
+    {
+      "start": 99,
+      "end": 107,
+      "before": [
+        "In a bar one night, Mr. X was talking to a workman who told him that he often",
+        "worked in Mrs. Ramsay’s flat. The workman added that Mrs. Ramsay was wealthy",
+        "and she lived alone with her cat. Every day, Mr. X stood outside Mrs. Ramsay’s block",
+        "of flats. As the cat took a short walk every evening, he saw that it had regular habits.",
+        "He found out as much as he could about Mrs. Ramsay and learnt that she loved this",
+        "cat very much. One evening, as the cat was leaving the block of flats, he kidnapped it.",
+        "He took the cat to a secret address. During the next three days, he walked past Mrs.",
+        "Ramsay’s flat on several occasions and noticed that no other cat ever appeared. Now",
+        "he was sure he had the right cat, so he wrote a letter in which he stated his demands."
+      ],
+      "text": "In a bar one night, Mr. X was talking to a workman who told him that he often worked in Mrs. Ramsay’s flat. The workman added that Mrs. Ramsay was wealthy and she lived alone with her cat. Every day, Mr. X stood outside Mrs. Ramsay’s block of flats. As the cat took a short walk every evening, he saw that it had regular habits. He found out as much as he could about Mrs. Ramsay and learnt that she loved this cat very much. One evening, as the cat was leaving the block of flats, he kidnapped it. He took the cat to a secret address. During the next three days, he walked past Mrs. Ramsay’s flat on several occasions and noticed that no other cat ever appeared. Now he was sure he had the right cat, so he wrote a letter in which he stated his demands.",
+      "reason": "Rastus失踪和付赎金获归叙事及译文为完整自然段，问答、注释和写作内容机械断行接续。"
+    },
+    {
+      "start": 124,
+      "end": 125,
+      "before": [
+        "4 Mrs. Eleanor Ramsay is a very wealthy lady who ________ a flat with her cat Rastus,",
+        "for a great many years."
+      ],
+      "text": "4 Mrs. Eleanor Ramsay is a very wealthy lady who ________ a flat with her cat Rastus, for a great many years.",
+      "reason": "Rastus失踪和付赎金获归叙事及译文为完整自然段，问答、注释和写作内容机械断行接续。"
+    }
+  ],
+  "splitBlocks": [],
+  "blockEdits": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/81a4fdada38e34e8951eeb8f13ac83e364c8e320ab3362f24dc42594930a2319.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "4c0496b6bf5773f9684f3c361ea245fb870be4197ac079182644a1b000385e4e"
+    }
+  ]
+}

@@ -1,0 +1,181 @@
+{
+  "schemaVersion": 1,
+  "course": "pep-english",
+  "articleId": "pephs4-028",
+  "beforeDisplaySha256": "5d8c86c1dea51c27820c7eb61751c8fc0bd99d429865230f2c87192a0b89a4c9",
+  "afterDisplaySha256": "259701075038cc993df5e9a845d2359687a7e824f65f86f047b9fc0c64cbe469",
+  "baselineDisplay": {
+    "title": "Pavlova",
+    "section": "Reading and Writing",
+    "text": "By far the favourite dessert in Australia is the pavlova, which was named after the famous Russian ballet dancer Anna Pavlova, who visited Australia in the 1920s.\nINGREDIENTS 4 egg whites a little salt 1 cup sugar 2 teaspoons flour 2/3 teaspoon vinegar 2/3 teaspoon vanilla 2 cups cream fresh fruit\nWhisk the egg whites until they are stiff. Add the salt. Add the sugar a little at a time and continue whisking until you have a meringue. Mix the flour, vinegar, and vanilla together. Add to the meringue. Spread the meringue on a baking sheet. Put it into a heated oven and cook at 120˚C for 1 hour. Turn off the oven. Leave the meringue in the oven until it is cool. Whip the cream. Cover the meringue with the whipped cream. Top the whipped cream with your choice of chopped fresh fruit.",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "By far the favourite dessert in Australia is the pavlova, which was named after the famous Russian ballet dancer Anna Pavlova, who visited Australia in the 1920s."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "INGREDIENTS 4 egg whites a little salt 1 cup sugar 2 teaspoons flour 2/3 teaspoon vinegar 2/3 teaspoon vanilla 2 cups cream fresh fruit"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Whisk the egg whites until they are stiff. Add the salt. Add the sugar a little at a time and continue whisking until you have a meringue. Mix the flour, vinegar, and vanilla together. Add to the meringue. Spread the meringue on a baking sheet. Put it into a heated oven and cook at 120˚C for 1 hour. Turn off the oven. Leave the meringue in the oven until it is cool. Whip the cream. Cover the meringue with the whipped cream. Top the whipped cream with your choice of chopped fresh fruit."
+      }
+    ]
+  },
+  "display": {
+    "title": "Pavlova",
+    "section": "Reading and Writing",
+    "text": "By far the favourite dessert in Australia is the pavlova, which was named after the famous Russian ballet dancer Anna Pavlova, who visited Australia in the 1920s.\nINGREDIENTS\n4 egg whites\na little salt\n1 cup sugar\n2 teaspoons flour\n2/3 teaspoon vinegar\n2/3 teaspoon vanilla\n2 cups cream\nfresh fruit\nWhisk the egg whites until they are stiff. Add the salt. Add the sugar a little at a time and continue whisking until you have a meringue. Mix the flour, vinegar, and vanilla together. Add to the meringue. Spread the meringue on a baking sheet. Put it into a heated oven and cook at 120˚C for 1 hour. Turn off the oven. Leave the meringue in the oven until it is cool. Whip the cream. Cover the meringue with the whipped cream. Top the whipped cream with your choice of chopped fresh fruit.",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "By far the favourite dessert in Australia is the pavlova, which was named after the famous Russian ballet dancer Anna Pavlova, who visited Australia in the 1920s."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "INGREDIENTS"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "4 egg whites"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "a little salt"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "1 cup sugar"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "2 teaspoons flour"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "2/3 teaspoon vinegar"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "2/3 teaspoon vanilla"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "2 cups cream"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "fresh fruit"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Whisk the egg whites until they are stiff. Add the salt. Add the sugar a little at a time and continue whisking until you have a meringue. Mix the flour, vinegar, and vanilla together. Add to the meringue. Spread the meringue on a baking sheet. Put it into a heated oven and cook at 120˚C for 1 hour. Turn off the oven. Leave the meringue in the oven until it is cool. Whip the cream. Cover the meringue with the whipped cream. Top the whipped cream with your choice of chopped fresh fruit."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "path": "content/article-review/history/7596fd030b0693c709198e96fc164d65effadac683b7e13a655fe6febcbba3e2.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "15d502641b462dec1670ab8964246d6574a7932b3cc2dea08282fb67b12f786a"
+    }
+  ],
+  "corrections": [],
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "reviewer": "Codex",
+  "reviewedAt": "2026-10-07T07:39:43+00:00",
+  "notes": "Pavlova简介及烹饪过程保持完整段；原材料段标题和八项配料黏在一行，按清晰剂量/名称边界拆为独立材料项目。",
+  "issues": [],
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "34d433cc902b3f83df2456237d4e2bcf1962446915c1a652ee3eebde20b191ec",
+    "afterFileSha256": "8555d77e6ac09b1be727e00a4f7a1c2562619c1854443a1d5934ef61238a61ba",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "34d433cc902b3f83df2456237d4e2bcf1962446915c1a652ee3eebde20b191ec",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..2] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "Pavlova简介及烹饪过程保持完整段；原材料段标题和八项配料黏在一行，按清晰剂量/名称边界拆为独立材料项目。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [
+        {
+          "index": 1,
+          "before": [
+            "INGREDIENTS 4 egg whites a little salt 1 cup sugar 2 teaspoons flour 2/3 teaspoon vinegar 2/3 teaspoon vanilla 2 cups cream fresh fruit"
+          ],
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "INGREDIENTS"
+            },
+            {
+              "type": "paragraph",
+              "text": "4 egg whites"
+            },
+            {
+              "type": "paragraph",
+              "text": "a little salt"
+            },
+            {
+              "type": "paragraph",
+              "text": "1 cup sugar"
+            },
+            {
+              "type": "paragraph",
+              "text": "2 teaspoons flour"
+            },
+            {
+              "type": "paragraph",
+              "text": "2/3 teaspoon vinegar"
+            },
+            {
+              "type": "paragraph",
+              "text": "2/3 teaspoon vanilla"
+            },
+            {
+              "type": "paragraph",
+              "text": "2 cups cream"
+            },
+            {
+              "type": "paragraph",
+              "text": "fresh fruit"
+            }
+          ],
+          "reason": "INGREDIENTS后按各剂量与配料名形成八项明确材料，分开标题及材料项目，仅改空白边界。"
+        }
+      ],
+      "blockEdits": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/7596fd030b0693c709198e96fc164d65effadac683b7e13a655fe6febcbba3e2.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "15d502641b462dec1670ab8964246d6574a7932b3cc2dea08282fb67b12f786a"
+        }
+      ]
+    }
+  },
+  "status": "passed_edited",
+  "previousRevisionSha256": "7596fd030b0693c709198e96fc164d65effadac683b7e13a655fe6febcbba3e2"
+}

@@ -1,0 +1,267 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "582521c58a79d6966ddf5eed0021c3e1663ce2a03f288440248e1bc58e3421f2",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title；全文 blocks[0..186] 与对应 text；现有正文/对话/题干逐块通读复核。",
+  "notes": "未知女神课0..186块通读：恢复古城文明、庙宇雕像、拼装女神、外观身份四组英中自然段；合并Notes1/3/4、长问答、写作题干提纲范文、选择题2/3空白线续行；词汇选项独立，末尾下一课标题归属待确认。",
+  "issues": [
+    "blocks[186]为下一故事The double life of Alfred Bloggs的孤立标题，位于本课答案后且无该故事正文；跨课标题归属不能仅靠当前JSON空白调整确定。"
+  ],
+  "mergeBlocks": [
+    {
+      "start": 25,
+      "end": 30,
+      "before": [
+        "Some time ago, an interesting discovery was made by archaeologists on the Aegean",
+        "island of Kea. An American team explored a temple which stands in an ancient city",
+        "on the of Ayia Irini. The city at one time must have been prosperous, for it enjoyed a",
+        "high level of civilization. Houses, often three storeys high, were built of stone. They",
+        "had large rooms with beautifully decorated walls. The city was even equipped with a",
+        "drainage system, for a great many clay pipes were found beneath the narrow streets."
+      ],
+      "text": "Some time ago, an interesting discovery was made by archaeologists on the Aegean island of Kea. An American team explored a temple which stands in an ancient city on the of Ayia Irini. The city at one time must have been prosperous, for it enjoyed a high level of civilization. Houses, often three storeys high, were built of stone. They had large rooms with beautifully decorated walls. The city was even equipped with a drainage system, for a great many clay pipes were found beneath the narrow streets.",
+      "reason": "连续行属于同一考古叙事自然段、中文对应段或同一编号问答/题解，依语义合并物理断行，保留语言切换与独立题目。"
+    },
+    {
+      "start": 31,
+      "end": 35,
+      "before": [
+        "不久之前，在爱琴海的基亚岛上，考古工作者有一项有趣的发现。一个美国考古",
+        "队在阿伊亚.依里尼海角的一座古城里考察了一座庙宇。这座古城肯定一度很繁",
+        "荣，因为它曾享有高度的文明，房子一般有 3 层楼高，用石块修建。里面房间很",
+        "大，墙壁装饰华丽。城里甚至还铺设了排水系统，因为在狭窄的街道底下发现了",
+        "许许多多陶土制作的排水管道。"
+      ],
+      "text": "不久之前，在爱琴海的基亚岛上，考古工作者有一项有趣的发现。一个美国考古队在阿伊亚.依里尼海角的一座古城里考察了一座庙宇。这座古城肯定一度很繁荣，因为它曾享有高度的文明，房子一般有 3 层楼高，用石块修建。里面房间很大，墙壁装饰华丽。城里甚至还铺设了排水系统，因为在狭窄的街道底下发现了许许多多陶土制作的排水管道。",
+      "reason": "连续行属于同一考古叙事自然段、中文对应段或同一编号问答/题解，依语义合并物理断行，保留语言切换与独立题目。"
+    },
+    {
+      "start": 37,
+      "end": 39,
+      "before": [
+        "1 the Aegean island of Kea,爱琴海的基亚岛。爱琴海是东地中海的一部分，位于希",
+        "腊半岛和小亚细亚之间，它包括希腊半岛以外的许多岛屿。基亚岛位于希腊半岛",
+        "东南方的海域里。"
+      ],
+      "text": "1 the Aegean island of Kea,爱琴海的基亚岛。爱琴海是东地中海的一部分，位于希腊半岛和小亚细亚之间，它包括希腊半岛以外的许多岛屿。基亚岛位于希腊半岛东南方的海域里。",
+      "reason": "连续行属于同一考古叙事自然段、中文对应段或同一编号问答/题解，依语义合并物理断行，保留语言切换与独立题目。"
+    },
+    {
+      "start": 41,
+      "end": 44,
+      "before": [
+        "The temple which the archaeologists explored was used as a place of worship from",
+        "the 15th century B.C. until Roman times. In the most sacred room of the temple, clay",
+        "fragments of 15 statues were found. Each of these represented a goddess and had, at",
+        "one time, been painted."
+      ],
+      "text": "The temple which the archaeologists explored was used as a place of worship from the 15th century B.C. until Roman times. In the most sacred room of the temple, clay fragments of 15 statues were found. Each of these represented a goddess and had, at one time, been painted.",
+      "reason": "连续行属于同一考古叙事自然段、中文对应段或同一编号问答/题解，依语义合并物理断行，保留语言切换与独立题目。"
+    },
+    {
+      "start": 45,
+      "end": 47,
+      "before": [
+        "考古工作者考察的这座庙宇从公元前 15 世纪直到罗马时代一直是祭祀祈祷的场",
+        "所。在庙中最神圣的一间殿堂里发现了 15 尊陶雕像的碎片。每一尊雕像代表一",
+        "位女神，而且一度上过色。"
+      ],
+      "text": "考古工作者考察的这座庙宇从公元前 15 世纪直到罗马时代一直是祭祀祈祷的场所。在庙中最神圣的一间殿堂里发现了 15 尊陶雕像的碎片。每一尊雕像代表一位女神，而且一度上过色。",
+      "reason": "连续行属于同一考古叙事自然段、中文对应段或同一编号问答/题解，依语义合并物理断行，保留语言切换与独立题目。"
+    },
+    {
+      "start": 49,
+      "end": 51,
+      "before": [
+        "3 The city at one time must have been prosperous, for it enjoyed a high level of",
+        "civilization.这座古城肯定一度很繁荣，因为它曾享有高度的文明。must have been",
+        "是对过去的推测。at one time,一度。"
+      ],
+      "text": "3 The city at one time must have been prosperous, for it enjoyed a high level of civilization.这座古城肯定一度很繁荣，因为它曾享有高度的文明。must have been 是对过去的推测。at one time,一度。",
+      "reason": "连续行属于同一考古叙事自然段、中文对应段或同一编号问答/题解，依语义合并物理断行，保留语言切换与独立题目。"
+    },
+    {
+      "start": 52,
+      "end": 53,
+      "before": [
+        "4 Roman times,罗马时代。指古罗马（约公元前 200 -公元 400）时期，那时罗马",
+        "人在欧洲建立了帝国。"
+      ],
+      "text": "4 Roman times,罗马时代。指古罗马（约公元前 200 -公元 400）时期，那时罗马人在欧洲建立了帝国。",
+      "reason": "连续行属于同一考古叙事自然段、中文对应段或同一编号问答/题解，依语义合并物理断行，保留语言切换与独立题目。"
+    },
+    {
+      "start": 54,
+      "end": 58,
+      "before": [
+        "The body of one statue was found among remains dating from the 15th century B.C.",
+        "Its missing head happened to be among remains of the 5th century B.C. This head",
+        "must have been found in Classical times and carefully preserved. It was very old and",
+        "precious even then. When the archaeologists reconstructed the fragments, they were",
+        "amazed to find that the goddess turned out to be a very modern-looking woman."
+      ],
+      "text": "The body of one statue was found among remains dating from the 15th century B.C. Its missing head happened to be among remains of the 5th century B.C. This head must have been found in Classical times and carefully preserved. It was very old and precious even then. When the archaeologists reconstructed the fragments, they were amazed to find that the goddess turned out to be a very modern-looking woman.",
+      "reason": "连续行属于同一考古叙事自然段、中文对应段或同一编号问答/题解，依语义合并物理断行，保留语言切换与独立题目。"
+    },
+    {
+      "start": 59,
+      "end": 63,
+      "before": [
+        "其中有一尊雕像，她的躯体是在公元前 15 世纪的历史文物中发现的，而她那身",
+        "异处的脑袋却碰巧是在公元前 5 世纪的文物中找到的。她的脑袋一定是在古希腊",
+        "罗马时代就为人所发现,并受到了精心的保护。即使在当时,它也属历史悠久的珍",
+        "奇之物。考古工作者把这些碎片重新拼装起来后惊奇地发现那位女神原来是一位",
+        "相貌十分摩登的女郎。"
+      ],
+      "text": "其中有一尊雕像，她的躯体是在公元前 15 世纪的历史文物中发现的，而她那身异处的脑袋却碰巧是在公元前 5 世纪的文物中找到的。她的脑袋一定是在古希腊罗马时代就为人所发现,并受到了精心的保护。即使在当时,它也属历史悠久的珍奇之物。考古工作者把这些碎片重新拼装起来后惊奇地发现那位女神原来是一位相貌十分摩登的女郎。",
+      "reason": "连续行属于同一考古叙事自然段、中文对应段或同一编号问答/题解，依语义合并物理断行，保留语言切换与独立题目。"
+    },
+    {
+      "start": 64,
+      "end": 66,
+      "before": [
+        "She stood three feet high and her hands rested on her hips. She was wearing a",
+        "full-length skirt which swept the ground. Despite her great age, she was very graceful",
+        "indeed, but, so far, the archaeologists have been unable to discover her identity."
+      ],
+      "text": "She stood three feet high and her hands rested on her hips. She was wearing a full-length skirt which swept the ground. Despite her great age, she was very graceful indeed, but, so far, the archaeologists have been unable to discover her identity.",
+      "reason": "连续行属于同一考古叙事自然段、中文对应段或同一编号问答/题解，依语义合并物理断行，保留语言切换与独立题目。"
+    },
+    {
+      "start": 67,
+      "end": 68,
+      "before": [
+        "她身高 3 英尺，双手叉腰。身穿一条拖地长裙，尽管上了年纪，但体态确实优美。",
+        "不过，考古工作者至今未能确定这位女神的身份。"
+      ],
+      "text": "她身高 3 英尺，双手叉腰。身穿一条拖地长裙，尽管上了年纪，但体态确实优美。不过，考古工作者至今未能确定这位女神的身份。",
+      "reason": "连续行属于同一考古叙事自然段、中文对应段或同一编号问答/题解，依语义合并物理断行，保留语言切换与独立题目。"
+    },
+    {
+      "start": 79,
+      "end": 80,
+      "before": [
+        "4 How do we know the city must have been prosperous? (Because it enjoyed a high",
+        "level of civilization.)"
+      ],
+      "text": "4 How do we know the city must have been prosperous? (Because it enjoyed a high level of civilization.)",
+      "reason": "连续行属于同一考古叙事自然段、中文对应段或同一编号问答/题解，依语义合并物理断行，保留语言切换与独立题目。"
+    },
+    {
+      "start": 84,
+      "end": 85,
+      "before": [
+        "8 What were these houses like? (They had large rooms and were beautifully",
+        "decorated.)"
+      ],
+      "text": "8 What were these houses like? (They had large rooms and were beautifully decorated.)",
+      "reason": "连续行属于同一考古叙事自然段、中文对应段或同一编号问答/题解，依语义合并物理断行，保留语言切换与独立题目。"
+    },
+    {
+      "start": 87,
+      "end": 88,
+      "before": [
+        "10 How long had the temple they explored been used as a place of worship? (From",
+        "the fifteenth century B.C. until Roman times.)"
+      ],
+      "text": "10 How long had the temple they explored been used as a place of worship? (From the fifteenth century B.C. until Roman times.)",
+      "reason": "连续行属于同一考古叙事自然段、中文对应段或同一编号问答/题解，依语义合并物理断行，保留语言切换与独立题目。"
+    },
+    {
+      "start": 91,
+      "end": 93,
+      "before": [
+        "13 What was interesting about the body and head of one of the statues? (The body",
+        "was among remains dating from the fifteenth century and the head among the remains",
+        "of the fifth century B.C.)"
+      ],
+      "text": "13 What was interesting about the body and head of one of the statues? (The body was among remains dating from the fifteenth century and the head among the remains of the fifth century B.C.)",
+      "reason": "连续行属于同一考古叙事自然段、中文对应段或同一编号问答/题解，依语义合并物理断行，保留语言切换与独立题目。"
+    },
+    {
+      "start": 96,
+      "end": 97,
+      "before": [
+        "16 And what was the result? (The goddess turned out to be a very modern-looking",
+        "woman.)"
+      ],
+      "text": "16 And what was the result? (The goddess turned out to be a very modern-looking woman.)",
+      "reason": "连续行属于同一考古叙事自然段、中文对应段或同一编号问答/题解，依语义合并物理断行，保留语言切换与独立题目。"
+    },
+    {
+      "start": 102,
+      "end": 103,
+      "before": [
+        "Write an imaginary account of how the archaeologists explored the sacred room of the",
+        "ancient temple. Expand the following into a paragraph of about 150 words."
+      ],
+      "text": "Write an imaginary account of how the archaeologists explored the sacred room of the ancient temple. Expand the following into a paragraph of about 150 words.",
+      "reason": "连续行属于同一考古叙事自然段、中文对应段或同一编号问答/题解，依语义合并物理断行，保留语言切换与独立题目。"
+    },
+    {
+      "start": 104,
+      "end": 108,
+      "before": [
+        "After walking around the ancient city, the archaeologists...This temple... On entering",
+        "the sacred room, the archaeologists...After this, workmen began digging and soon",
+        "discovered … They also found…The archaeologists carefully …They were",
+        "astonished to find that... The goddess was... She... Although the archaeologists...",
+        "they were unable to find out her name."
+      ],
+      "text": "After walking around the ancient city, the archaeologists...This temple... On entering the sacred room, the archaeologists...After this, workmen began digging and soon discovered … They also found…The archaeologists carefully …They were astonished to find that... The goddess was... She... Although the archaeologists... they were unable to find out her name.",
+      "reason": "连续行属于同一考古叙事自然段、中文对应段或同一编号问答/题解，依语义合并物理断行，保留语言切换与独立题目。"
+    },
+    {
+      "start": 111,
+      "end": 121,
+      "before": [
+        "After walking around the ancient city, the archaeologists discovered an ancient temple.",
+        "This temple had obviously been a place of worship because it contained a sacred room.",
+        "On entering the sacred room, the archaeologists found the clay fragments of fifteen",
+        "statues, each of which was a goddess which had once been painted. After this,",
+        "workmen began digging and soon discovered the head of a statue among remains",
+        "dating from the fifth century B.C. They also found the body of this statue among",
+        "remains from the fifteenth century B.C. The archaeologists carefully put the",
+        "fragments together. They were astonished to find that the figure was a goddess. The",
+        "goddess was a modern-looking woman. She had her hands on her hips and she was",
+        "wearing a full-length skirt. Although the archaeologists tried very hard to identify her,",
+        "they were unable to find out her name."
+      ],
+      "text": "After walking around the ancient city, the archaeologists discovered an ancient temple. This temple had obviously been a place of worship because it contained a sacred room. On entering the sacred room, the archaeologists found the clay fragments of fifteen statues, each of which was a goddess which had once been painted. After this, workmen began digging and soon discovered the head of a statue among remains dating from the fifth century B.C. They also found the body of this statue among remains from the fifteenth century B.C. The archaeologists carefully put the fragments together. They were astonished to find that the figure was a goddess. The goddess was a modern-looking woman. She had her hands on her hips and she was wearing a full-length skirt. Although the archaeologists tried very hard to identify her, they were unable to find out her name.",
+      "reason": "连续行属于同一考古叙事自然段、中文对应段或同一编号问答/题解，依语义合并物理断行，保留语言切换与独立题目。"
+    },
+    {
+      "start": 128,
+      "end": 129,
+      "before": [
+        "2 The city 'enjoyed a high level of civilization' This is confirmed by the fact that",
+        "______."
+      ],
+      "text": "2 The city 'enjoyed a high level of civilization' This is confirmed by the fact that ______.",
+      "reason": "连续行属于同一考古叙事自然段、中文对应段或同一编号问答/题解，依语义合并物理断行，保留语言切换与独立题目。"
+    },
+    {
+      "start": 134,
+      "end": 135,
+      "before": [
+        "3 In seeking to establish the identity of the reconstructed statue, the archaeologists",
+        "________."
+      ],
+      "text": "3 In seeking to establish the identity of the reconstructed statue, the archaeologists ________.",
+      "reason": "连续行属于同一考古叙事自然段、中文对应段或同一编号问答/题解，依语义合并物理断行，保留语言切换与独立题目。"
+    }
+  ],
+  "splitBlocks": [],
+  "blockEdits": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/891ca6719bdaf9efa47f2a24f3d64465085cd47c0f49dcfe4002ff21c7b53feb.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "e2b2534e20f4e001001aef5d8e8958a713e0cab59cce957c0f4c2d0af31a1f3f"
+    }
+  ]
+}

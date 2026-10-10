@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "course": "pep-english",
+  "articleId": "pephs1-015",
+  "beforeDisplaySha256": "5c103a36629a05acf45b0ba1d06ba7d100a7add52aa91dfcdd62fe406d6d3a74",
+  "afterDisplaySha256": "5c103a36629a05acf45b0ba1d06ba7d100a7add52aa91dfcdd62fe406d6d3a74",
+  "baselineDisplay": {
+    "title": "A Green Life in the Countryside",
+    "section": "Discover Useful Structures",
+    "text": "Grandma has been complaining about the vegetables sold in the supermarket, which have been grown using chemical fertilisers. To her, that they look beautiful on the outside is obvious. However, what she is unhappy about is the lower nutritional value and reduced flavour. Now that both of my grandparents have retired from their jobs in the city, how they are going to spend their retirement is an important decision for them. Whether they can live a healthy life is the first thing they are considering. So they have made up their minds to move to the countryside, where they can live a green life.",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Grandma has been complaining about the vegetables sold in the supermarket, which have been grown using chemical fertilisers. To her, that they look beautiful on the outside is obvious. However, what she is unhappy about is the lower nutritional value and reduced flavour. Now that both of my grandparents have retired from their jobs in the city, how they are going to spend their retirement is an important decision for them. Whether they can live a healthy life is the first thing they are considering. So they have made up their minds to move to the countryside, where they can live a green life."
+      }
+    ]
+  },
+  "display": {
+    "title": "A Green Life in the Countryside",
+    "section": "Discover Useful Structures",
+    "text": "Grandma has been complaining about the vegetables sold in the supermarket, which have been grown using chemical fertilisers. To her, that they look beautiful on the outside is obvious. However, what she is unhappy about is the lower nutritional value and reduced flavour. Now that both of my grandparents have retired from their jobs in the city, how they are going to spend their retirement is an important decision for them. Whether they can live a healthy life is the first thing they are considering. So they have made up their minds to move to the countryside, where they can live a green life.",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Grandma has been complaining about the vegetables sold in the supermarket, which have been grown using chemical fertilisers. To her, that they look beautiful on the outside is obvious. However, what she is unhappy about is the lower nutritional value and reduced flavour. Now that both of my grandparents have retired from their jobs in the city, how they are going to spend their retirement is an important decision for them. Whether they can live a healthy life is the first thing they are considering. So they have made up their minds to move to the countryside, where they can live a green life."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "path": "content/article-review/history/181d56eb44ab5588cd97601a561473e5459f0f16b53ed6749fe6acc87650e63b.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "63a467cd1de2c3a93c90a511e904fbe44f3cd681239825278d0c8b2d01285cb6"
+    }
+  ],
+  "corrections": [],
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "reviewer": "Codex",
+  "reviewedAt": "2026-10-07T07:32:25+00:00",
+  "notes": "祖父母因蔬菜品质考虑搬乡下，原因、退休决定及绿色生活同一连贯短段，保留。",
+  "issues": [],
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "0391dda5bf01f1020f4823e060b0c330be8a9c2b000ac0db7ea2624220f25aaa",
+    "afterFileSha256": "0391dda5bf01f1020f4823e060b0c330be8a9c2b000ac0db7ea2624220f25aaa",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "0391dda5bf01f1020f4823e060b0c330be8a9c2b000ac0db7ea2624220f25aaa",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..0] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "祖父母因蔬菜品质考虑搬乡下，原因、退休决定及绿色生活同一连贯短段，保留。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/181d56eb44ab5588cd97601a561473e5459f0f16b53ed6749fe6acc87650e63b.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "63a467cd1de2c3a93c90a511e904fbe44f3cd681239825278d0c8b2d01285cb6"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "181d56eb44ab5588cd97601a561473e5459f0f16b53ed6749fe6acc87650e63b"
+}

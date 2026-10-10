@@ -1,0 +1,22 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "73161b840422f8fa29d7cb7d19c0b3a9d83be25cb888cae90b5bba9bf84be10c",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title；全文 blocks[0..0] 与对应 text；现有正文/对话/题干逐块通读复核。",
+  "notes": "Sherry鲨袭简讯地点、伤情和父亲说明三句同一完整新闻段，保留。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "blockEdits": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/73651cb95934648bf7924e20a507081a5d56c4456c34b8b52764d87c064c815b.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "53718abbd2ad53656bc1ae940b9087150d30bb01d7f72d75a572eed66d4c3b9d"
+    }
+  ]
+}

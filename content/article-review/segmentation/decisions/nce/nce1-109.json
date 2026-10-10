@@ -1,0 +1,26 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "76cc6fdc709813f608328ec8d554d9377ab25d74b86896bbcd268177a224780a",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title/titleZh、question/questionZh、bodyText全部23行、bodyTextZh全部23行及sentences[0..26]的完整文字；重复正文与字幕文本逐字比对，非正文字幕另读。操作在内存应用并validate_layout_change，修复后的双语全文重新通读。",
+  "notes": "咖啡和香烟；加奶询问、糖量询问与回答、续咖啡索烟、给烟说明和饼干劝告各自合轮；遗憾与不要紧接话保留分行。 text与bodyText同步；sentences对象及时间、角色、索引原样保留。",
+  "issues": [],
+  "display": {
+    "text": "What does Jane have with her coffee?\n\nShall I make some coffee, Jane?\nThat's a good idea, Charlotte.\nIt's ready. Do you want any milk?\nJust a little, please.\nWhat about some sugar? Two teaspoonfuls?\nNo, less than that. One and a half teaspoonfuls, please. That's enough for me.\nThat was very nice.\nWould you like some more?\nYes, please. I'd like a cigarette, too. May I have one?\nOf course. I think there are a few in that box.\nI'm afraid it's empty.\nWhat a pity!\nIt doesn't matter.\nHave a biscuit instead. Eat more and smoke less!\nThat's very good advice!",
+    "bodyText": "Shall I make some coffee, Jane?\nThat's a good idea, Charlotte.\nIt's ready. Do you want any milk?\nJust a little, please.\nWhat about some sugar? Two teaspoonfuls?\nNo, less than that. One and a half teaspoonfuls, please. That's enough for me.\nThat was very nice.\nWould you like some more?\nYes, please. I'd like a cigarette, too. May I have one?\nOf course. I think there are a few in that box.\nI'm afraid it's empty.\nWhat a pity!\nIt doesn't matter.\nHave a biscuit instead. Eat more and smoke less!\nThat's very good advice!",
+    "bodyTextZh": "“我给你煮点咖啡吧，简？”\n“那是个好主意，夏洛特。”\n“咖啡煮好了。”“你要加牛奶吗？”\n“请加一点点。”\n“那加点糖怎么样？”“两茶匙？”\n“不，少一点就好。”请给我一茶匙半。对我来说，这就够了。\n这咖啡真不错。\n您还要再来一些吗？\n好的，再来一点。我也想抽根烟。我可以要一个吗？\n当然。我想那个盒子里有几支烟。\n恐怕它是空的。\n真遗憾！\n没关系。\n“那就吃块饼干吧。”“多吃点，少抽烟！”\n这真是很好的建议！"
+  },
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/e8a59a6f7134377ddaadc4c0bf734fb1ff1b1573f1e06b2c6cfe3f342a1fe2fe.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "fa8af8c246e58575c84726678964d43803185551ab54a4e33b036b77b6f17691"
+    }
+  ]
+}

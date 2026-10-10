@@ -1,0 +1,254 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "cfe3e9d029ca5d5f4acffc0b334494f4c8188d69f850da95f19c4a3ea8f0b51d",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title；全文 blocks[0..180] 与对应 text；现有正文/对话/题干逐块通读复核。",
+  "notes": "完整通读Smash-and-grab三组英汉叙事、词表与三个注释、20个理解问答、追车续写的三段提纲及三段范文、12道选择题答案。范文按追赶开始、街上追逐、弃车逃走保留三个多句自然段，未把句子再拆碎。",
+  "issues": [],
+  "mergeBlocks": [
+    {
+      "start": 20,
+      "end": 25,
+      "before": [
+        "The expensive shops in a famous arcade near Piccadilly were just opening. At this",
+        "time of the morning, the arcade was almost empty. Mr. Taylor, the owner of a",
+        "jewellery shop was admiring a new window display. Two of his assistants had been",
+        "working busily since eight o'clock and had only just finished. Diamond necklaces and",
+        "rings had been beautifully arranged on a background of black velvet. After gazing at",
+        "the display for several minutes, Mr. Taylor went back into his shop."
+      ],
+      "text": "The expensive shops in a famous arcade near Piccadilly were just opening. At this time of the morning, the arcade was almost empty. Mr. Taylor, the owner of a jewellery shop was admiring a new window display. Two of his assistants had been working busily since eight o'clock and had only just finished. Diamond necklaces and rings had been beautifully arranged on a background of black velvet. After gazing at the display for several minutes, Mr. Taylor went back into his shop.",
+      "reason": "珠宝店抢劫叙事、译文与练习续行属于同一语义单元，合并机械断行；各标题词条与选项保持独立。"
+    },
+    {
+      "start": 26,
+      "end": 29,
+      "before": [
+        "皮卡迪利大街附近的一条著名拱廊街道上，几家高档商店刚刚开始营业。在早晨",
+        "的这个时候，拱廊街上几乎空无一人。珠宝店主泰勒先生正在欣赏新布置的橱窗。",
+        "他手下两名店员从早上 8 点就开始忙碌，这时刚刚布置完毕。钻石项链、戒指漂",
+        "亮地陈列在黑色丝绒上面。泰勒先生站在橱窗外凝神欣赏了几分钟就回到了店里。"
+      ],
+      "text": "皮卡迪利大街附近的一条著名拱廊街道上，几家高档商店刚刚开始营业。在早晨的这个时候，拱廊街上几乎空无一人。珠宝店主泰勒先生正在欣赏新布置的橱窗。他手下两名店员从早上 8 点就开始忙碌，这时刚刚布置完毕。钻石项链、戒指漂亮地陈列在黑色丝绒上面。泰勒先生站在橱窗外凝神欣赏了几分钟就回到了店里。",
+      "reason": "珠宝店抢劫叙事、译文与练习续行属于同一语义单元，合并机械断行；各标题词条与选项保持独立。"
+    },
+    {
+      "start": 31,
+      "end": 32,
+      "before": [
+        "1 Piccadilly, 皮卡迪利，这是伦敦市中心一条著名的街。这条街从海德公园通向",
+        "一个著名的广场，叫作“皮卡迪利广场”。"
+      ],
+      "text": "1 Piccadilly, 皮卡迪利，这是伦敦市中心一条著名的街。这条街从海德公园通向一个著名的广场，叫作“皮卡迪利广场”。",
+      "reason": "珠宝店抢劫叙事、译文与练习续行属于同一语义单元，合并机械断行；各标题词条与选项保持独立。"
+    },
+    {
+      "start": 33,
+      "end": 38,
+      "before": [
+        "The silence was suddenly broken when a large car, with its headlights on and its horn",
+        "blaring, roared down the arcade. It came to a stop outside the jeweller's. One man",
+        "stayed at the wheel while two others with black stockings over their faces jumped out",
+        "and smashed the window of the shop with iron bars. While this was going on, Mr.",
+        "Taylor was upstairs. He and his staff began throwing furniture out of the window.",
+        "Chairs and tables went flying into the arcade."
+      ],
+      "text": "The silence was suddenly broken when a large car, with its headlights on and its horn blaring, roared down the arcade. It came to a stop outside the jeweller's. One man stayed at the wheel while two others with black stockings over their faces jumped out and smashed the window of the shop with iron bars. While this was going on, Mr. Taylor was upstairs. He and his staff began throwing furniture out of the window. Chairs and tables went flying into the arcade.",
+      "reason": "珠宝店抢劫叙事、译文与练习续行属于同一语义单元，合并机械断行；各标题词条与选项保持独立。"
+    },
+    {
+      "start": 39,
+      "end": 42,
+      "before": [
+        "宁静突然被打破，一辆大轿车亮着前灯，响着喇叭，呼啸着冲进了拱廊街，在珠",
+        "宝店门口停了下来。一人留在驾驶座上，另外两个用黑色长筒丝袜蒙面的人跳下",
+        "车来。他们用铁棒把商店橱窗玻璃砸碎。这一切发生时，泰勒先生正在楼上。他",
+        "与店员动手向窗外投掷家具，椅子、桌子飞落到拱廊街上。"
+      ],
+      "text": "宁静突然被打破，一辆大轿车亮着前灯，响着喇叭，呼啸着冲进了拱廊街，在珠宝店门口停了下来。一人留在驾驶座上，另外两个用黑色长筒丝袜蒙面的人跳下车来。他们用铁棒把商店橱窗玻璃砸碎。这一切发生时，泰勒先生正在楼上。他与店员动手向窗外投掷家具，椅子、桌子飞落到拱廊街上。",
+      "reason": "珠宝店抢劫叙事、译文与练习续行属于同一语义单元，合并机械断行；各标题词条与选项保持独立。"
+    },
+    {
+      "start": 44,
+      "end": 45,
+      "before": [
+        "2 with its headlights on and its horn blaring, …这是 with 引导的独立主格结构，在",
+        "句中表示伴随状况。"
+      ],
+      "text": "2 with its headlights on and its horn blaring, …这是 with 引导的独立主格结构，在句中表示伴随状况。",
+      "reason": "珠宝店抢劫叙事、译文与练习续行属于同一语义单元，合并机械断行；各标题词条与选项保持独立。"
+    },
+    {
+      "start": 46,
+      "end": 51,
+      "before": [
+        "One of the thieves was struck by a heavy statue, but he was too busy helping himself",
+        "to diamonds to notice any pain. The raid was all over in three minutes, for the men",
+        "scrambled back into the car and it moved off at a fantastic speed. Just as it was",
+        "leaving, Mr. Taylor rushed out and ran after it throwing ashtrays and vases, but it was",
+        "impossible to stop the thieves. They had got away with thousands of pounds worth of",
+        "diamonds."
+      ],
+      "text": "One of the thieves was struck by a heavy statue, but he was too busy helping himself to diamonds to notice any pain. The raid was all over in three minutes, for the men scrambled back into the car and it moved off at a fantastic speed. Just as it was leaving, Mr. Taylor rushed out and ran after it throwing ashtrays and vases, but it was impossible to stop the thieves. They had got away with thousands of pounds worth of diamonds.",
+      "reason": "珠宝店抢劫叙事、译文与练习续行属于同一语义单元，合并机械断行；各标题词条与选项保持独立。"
+    },
+    {
+      "start": 52,
+      "end": 56,
+      "before": [
+        "一个窃贼被一尊很重的雕像击中，但由于他忙着抢钻石首饰，竟连疼痛都顾不上",
+        "了。这场抢劫只持续了 3 分钟，因为窃贼争先恐后地爬上轿车，以惊人的速度开",
+        "跑了。就在轿车离开的时候，泰勒先生从店里冲了出来，跟在车后追赶，一边还",
+        "往车上扔烟灰缸、花瓶。但他已无法抓住那些窃贼了。他们已经带着价值数千镑",
+        "的首饰逃之夭夭了。"
+      ],
+      "text": "一个窃贼被一尊很重的雕像击中，但由于他忙着抢钻石首饰，竟连疼痛都顾不上了。这场抢劫只持续了 3 分钟，因为窃贼争先恐后地爬上轿车，以惊人的速度开跑了。就在轿车离开的时候，泰勒先生从店里冲了出来，跟在车后追赶，一边还往车上扔烟灰缸、花瓶。但他已无法抓住那些窃贼了。他们已经带着价值数千镑的首饰逃之夭夭了。",
+      "reason": "珠宝店抢劫叙事、译文与练习续行属于同一语义单元，合并机械断行；各标题词条与选项保持独立。"
+    },
+    {
+      "start": 58,
+      "end": 60,
+      "before": [
+        "3 but he was too busy helping himself to diamonds to notice any pain.但他只顾忙着",
+        "抢劫钻石，根本顾不上疼痛了。这里 help oneself to sth. 是“擅自取用，侵占某物”",
+        "的意思。"
+      ],
+      "text": "3 but he was too busy helping himself to diamonds to notice any pain.但他只顾忙着抢劫钻石，根本顾不上疼痛了。这里 help oneself to sth. 是“擅自取用，侵占某物”的意思。",
+      "reason": "珠宝店抢劫叙事、译文与练习续行属于同一语义单元，合并机械断行；各标题词条与选项保持独立。"
+    },
+    {
+      "start": 67,
+      "end": 68,
+      "before": [
+        "4 What had Mr. Taylor and his assistants been doing since eight o'clock? (Creating a",
+        "window display.)"
+      ],
+      "text": "4 What had Mr. Taylor and his assistants been doing since eight o'clock? (Creating a window display.)",
+      "reason": "珠宝店抢劫叙事、译文与练习续行属于同一语义单元，合并机械断行；各标题词条与选项保持独立。"
+    },
+    {
+      "start": 70,
+      "end": 71,
+      "before": [
+        "6 What did the window display consist of? (Diamond necklaces and rings arranged on",
+        "a background of black velvet.)"
+      ],
+      "text": "6 What did the window display consist of? (Diamond necklaces and rings arranged on a background of black velvet.)",
+      "reason": "珠宝店抢劫叙事、译文与练习续行属于同一语义单元，合并机械断行；各标题词条与选项保持独立。"
+    },
+    {
+      "start": 79,
+      "end": 80,
+      "before": [
+        "14 What did Mr. Taylor and his staff begin doing? (Throwing furniture out of the",
+        "window.)"
+      ],
+      "text": "14 What did Mr. Taylor and his staff begin doing? (Throwing furniture out of the window.)",
+      "reason": "珠宝店抢劫叙事、译文与练习续行属于同一语义单元，合并机械断行；各标题词条与选项保持独立。"
+    },
+    {
+      "start": 86,
+      "end": 87,
+      "before": [
+        "20 Did the thieves get away with thousands of pounds worth of diamonds? (Yes, they",
+        "did.)"
+      ],
+      "text": "20 Did the thieves get away with thousands of pounds worth of diamonds? (Yes, they did.)",
+      "reason": "珠宝店抢劫叙事、译文与练习续行属于同一语义单元，合并机械断行；各标题词条与选项保持独立。"
+    },
+    {
+      "start": 90,
+      "end": 91,
+      "before": [
+        "In not more than 200 words continue the above passage using the ideas given below.",
+        "Do not write more than three paragraphs."
+      ],
+      "text": "In not more than 200 words continue the above passage using the ideas given below. Do not write more than three paragraphs.",
+      "reason": "珠宝店抢劫叙事、译文与练习续行属于同一语义单元，合并机械断行；各标题词条与选项保持独立。"
+    },
+    {
+      "start": 93,
+      "end": 94,
+      "before": [
+        "Introduction: The thieves’car joined the traffic —Mr. Taylor took a taxi—followed",
+        "the thieves’ car."
+      ],
+      "text": "Introduction: The thieves’car joined the traffic —Mr. Taylor took a taxi—followed the thieves’ car.",
+      "reason": "珠宝店抢劫叙事、译文与练习续行属于同一语义单元，合并机械断行；各标题词条与选项保持独立。"
+    },
+    {
+      "start": 95,
+      "end": 98,
+      "before": [
+        "Development: A mad chase through the streets----the thieves’ car hit another car---did",
+        "not stop---the police chased both taxi and thieves---Mr. Taylor’ s taxi stopped at",
+        "traffic lights ---the thieves got away---taxi driver was stopped by the police---he had",
+        "been speeding--- Mr. Taylor explained the situation."
+      ],
+      "text": "Development: A mad chase through the streets----the thieves’ car hit another car---did not stop---the police chased both taxi and thieves---Mr. Taylor’ s taxi stopped at traffic lights ---the thieves got away---taxi driver was stopped by the police---he had been speeding--- Mr. Taylor explained the situation.",
+      "reason": "珠宝店抢劫叙事、译文与练习续行属于同一语义单元，合并机械断行；各标题词条与选项保持独立。"
+    },
+    {
+      "start": 99,
+      "end": 100,
+      "before": [
+        "Conclusion: The thieves’ car was found ten minutes later---side",
+        "street---abandoned---the thieves escaped on foot."
+      ],
+      "text": "Conclusion: The thieves’ car was found ten minutes later---side street---abandoned---the thieves escaped on foot.",
+      "reason": "珠宝店抢劫叙事、译文与练习续行属于同一语义单元，合并机械断行；各标题词条与选项保持独立。"
+    },
+    {
+      "start": 104,
+      "end": 106,
+      "before": [
+        "Seeing the thieves' car join the traffic on Piccadilly, Mr. Taylor took a taxi and",
+        "followed them. The taxi driver drove at full speed when Mr. Taylor told him what had",
+        "happened."
+      ],
+      "text": "Seeing the thieves' car join the traffic on Piccadilly, Mr. Taylor took a taxi and followed them. The taxi driver drove at full speed when Mr. Taylor told him what had happened.",
+      "reason": "珠宝店抢劫叙事、译文与练习续行属于同一语义单元，合并机械断行；各标题词条与选项保持独立。"
+    },
+    {
+      "start": 107,
+      "end": 115,
+      "before": [
+        "There wasn't too much traffic at this time of the morning so there was a mad",
+        "chase through the streets of London. For a short time, the thieves' car was on the",
+        "wrong side of the road and hit another car, but it did not stop. Two policemen in a",
+        "police car watched in amazement as the two vehicles went past, both breaking the",
+        "speed limit. Lights on and horn blaring, the police car chased both the speeding cars.",
+        "Mr. Taylor's taxi stopped when the traffic lights turned red. The thieves ignored the",
+        "traffic lights and got away Meanwhile, the police caught up with the taxi at the traffic",
+        "lights and the taxi driver was charged with speeding. They refused to let the driver off",
+        "even though Mr. Taylor carefully explained the situation."
+      ],
+      "text": "There wasn't too much traffic at this time of the morning so there was a mad chase through the streets of London. For a short time, the thieves' car was on the wrong side of the road and hit another car, but it did not stop. Two policemen in a police car watched in amazement as the two vehicles went past, both breaking the speed limit. Lights on and horn blaring, the police car chased both the speeding cars. Mr. Taylor's taxi stopped when the traffic lights turned red. The thieves ignored the traffic lights and got away Meanwhile, the police caught up with the taxi at the traffic lights and the taxi driver was charged with speeding. They refused to let the driver off even though Mr. Taylor carefully explained the situation.",
+      "reason": "珠宝店抢劫叙事、译文与练习续行属于同一语义单元，合并机械断行；各标题词条与选项保持独立。"
+    },
+    {
+      "start": 116,
+      "end": 118,
+      "before": [
+        "However, the police informed another police car of the chase and ten minutes",
+        "later the thieves' car was found abandoned in side street. The thieves had escaped on",
+        "foot and disappeared among the crowd."
+      ],
+      "text": "However, the police informed another police car of the chase and ten minutes later the thieves' car was found abandoned in side street. The thieves had escaped on foot and disappeared among the crowd.",
+      "reason": "珠宝店抢劫叙事、译文与练习续行属于同一语义单元，合并机械断行；各标题词条与选项保持独立。"
+    }
+  ],
+  "splitBlocks": [],
+  "blockEdits": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/a583dae76d0c21c93bc6c5f1f5d3afb92242f940f578be5df3f87cc242da884e.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "97bd689813efc5609d839ff74bd577b201766e3c9bdb5547303a93caaafa5193"
+    }
+  ]
+}

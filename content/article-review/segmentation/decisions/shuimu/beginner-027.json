@@ -1,0 +1,55 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "911af93065cb1a516104b83087b1edefc876637ff4c867254b2367d279363fcb",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "coverage": "全文 blocks[0..143]；按 JSON 上下文逐项复核对话、解释、题目、表格、词表及修复后的边界。",
+  "notes": "合并电话引语、名词性物主代词说明及引语定义；对话和表格中需要重排字符的问题记录待确认，不改变措辞或内容次序。",
+  "issues": [
+    "blocks[7..10] 电话次数的英中半句交替，合为完整英中段落需重排字符，本轮保留。",
+    "blocks[79..84] 物主代词表列头被词形列隔开（形容词性物/主代词，名词性物主/代词），仅凭空白改动无法恢复列序，保留待确认。"
+  ],
+  "mergeBlocks": [
+    {
+      "start": 29,
+      "end": 30,
+      "before": [
+        "——I said,\"This is Susan's mother. Please don't telephone my daughter",
+        "again!\""
+      ],
+      "text": "——I said,\"This is Susan's mother. Please don't telephone my daughter again!\"",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 75,
+      "end": 76,
+      "before": [
+        "▪ 名词性物主代词：相当于名词，在句中作主语、宾语或表语。名词性物主",
+        "代词相当于“形容词性物主代词+名词”，后面不能再跟名词"
+      ],
+      "text": "▪ 名词性物主代词：相当于名词，在句中作主语、宾语或表语。名词性物主代词相当于“形容词性物主代词+名词”，后面不能再跟名词",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 94,
+      "end": 96,
+      "before": [
+        "当我们引用别人或者自己说过的话时，可以直接引述别人的原话，也可以用自己的话",
+        "把别人的意思转述出来。如果直接引用原话，被引用的部分就称为直接引语。若是转",
+        "述，则被引用的部分被称为间接引语。"
+      ],
+      "text": "当我们引用别人或者自己说过的话时，可以直接引述别人的原话，也可以用自己的话把别人的意思转述出来。如果直接引用原话，被引用的部分就称为直接引语。若是转述，则被引用的部分被称为间接引语。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    }
+  ],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/15db3bcd012f363a0e07898b167b27bb28a18de598bbe9b16ffe071783bf5918.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "4e14acc224fb5430a6e30110365f9bfd5e3369917de5fbfcc88019835f3ad252"
+    }
+  ]
+}

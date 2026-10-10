@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "course": "pep-english",
+  "articleId": "pephs3-014",
+  "beforeDisplaySha256": "433eebc725ed1de6921d5bda989a6531cc4b9263ccb137a402048f2886a6132c",
+  "afterDisplaySha256": "433eebc725ed1de6921d5bda989a6531cc4b9263ccb137a402048f2886a6132c",
+  "baselineDisplay": {
+    "title": "Wind on the Hill (A. A. Milne)",
+    "section": "Using Language",
+    "text": "No one can tell me,\nNobody knows,\nWhere the wind comes from,\nWhere the wind goes.\nIt’s flying from somewhere\nAs fast as it can,\nI couldn’t keep up with it,\nNot if I ran.\nBut if I stopped holding\nThe string of my kite,\nIt would blow with the wind\nFor a day and a night.\nAnd then when I found it,\nWherever it blew,\nI should know that the wind\nHad been going there too.\nSo then I could tell them\nWhere the wind goes ...\nBut where the wind comes from\nNobody knows.",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "No one can tell me,\nNobody knows,\nWhere the wind comes from,\nWhere the wind goes.\nIt’s flying from somewhere\nAs fast as it can,\nI couldn’t keep up with it,\nNot if I ran.\nBut if I stopped holding\nThe string of my kite,\nIt would blow with the wind\nFor a day and a night.\nAnd then when I found it,\nWherever it blew,\nI should know that the wind\nHad been going there too.\nSo then I could tell them\nWhere the wind goes ...\nBut where the wind comes from\nNobody knows."
+      }
+    ]
+  },
+  "display": {
+    "title": "Wind on the Hill (A. A. Milne)",
+    "section": "Using Language",
+    "text": "No one can tell me,\nNobody knows,\nWhere the wind comes from,\nWhere the wind goes.\nIt’s flying from somewhere\nAs fast as it can,\nI couldn’t keep up with it,\nNot if I ran.\nBut if I stopped holding\nThe string of my kite,\nIt would blow with the wind\nFor a day and a night.\nAnd then when I found it,\nWherever it blew,\nI should know that the wind\nHad been going there too.\nSo then I could tell them\nWhere the wind goes ...\nBut where the wind comes from\nNobody knows.",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "No one can tell me,\nNobody knows,\nWhere the wind comes from,\nWhere the wind goes.\nIt’s flying from somewhere\nAs fast as it can,\nI couldn’t keep up with it,\nNot if I ran.\nBut if I stopped holding\nThe string of my kite,\nIt would blow with the wind\nFor a day and a night.\nAnd then when I found it,\nWherever it blew,\nI should know that the wind\nHad been going there too.\nSo then I could tell them\nWhere the wind goes ...\nBut where the wind comes from\nNobody knows."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "path": "content/article-review/history/db44db10e606accfbc52f19d2eb145822f1fb7d6db09d0cef1fe56c55d29eb7b.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "c5d3468f592797fbba97c4e50931b7fb208dcb2d366e16eeae18e795856c5eb9"
+    }
+  ],
+  "corrections": [],
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "reviewer": "Codex",
+  "reviewedAt": "2026-10-07T07:35:51+00:00",
+  "notes": "Wind on the Hill二十行连续诗作，现有诗行明确，保留整体诗块及全部行界。",
+  "issues": [],
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "8ac6b69f049019b8b9e933556616e06fa29d7b9222e50e4209c01beed08331d1",
+    "afterFileSha256": "8ac6b69f049019b8b9e933556616e06fa29d7b9222e50e4209c01beed08331d1",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "8ac6b69f049019b8b9e933556616e06fa29d7b9222e50e4209c01beed08331d1",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..0] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "Wind on the Hill二十行连续诗作，现有诗行明确，保留整体诗块及全部行界。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/db44db10e606accfbc52f19d2eb145822f1fb7d6db09d0cef1fe56c55d29eb7b.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "c5d3468f592797fbba97c4e50931b7fb208dcb2d366e16eeae18e795856c5eb9"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "db44db10e606accfbc52f19d2eb145822f1fb7d6db09d0cef1fe56c55d29eb7b"
+}

@@ -1,0 +1,26 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "1861c9e3cdb31de64bf15b85515c70465ff305d7d60ce0e0f6aecba529e44f7f",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title/titleZh、question/questionZh、bodyText全部15行、bodyTextZh全部15行及sentences[0..17]的完整文字；重复正文与字幕文本逐字比对，非正文字幕另读。操作在内存应用并validate_layout_change，修复后的双语全文重新通读。",
+  "notes": "演员伪装野餐；背景、同人赞叹、搬食物陌生人出现、警长驱逐、演员自报与警长嘲讽各成段，角色轮次分开。 text与bodyText同步；sentences对象及时间、角色、索引原样保留。",
+  "issues": [],
+  "display": {
+    "text": "Why was their disguise 'too perfect'?\n\nAn ancient bus stopped by a dry river bed and a party of famous actors and actresses got off. Dressed in dark glasses and old clothes, they had taken special precautions so that no one should recognize them. But as they soon discovered, disguises can sometimes be too perfect.\n'This is a wonderful place for a picnic,' said Gloria Gleam.\n'It couldn't be better, Gloria,' Brinksley Meers agreed. 'No newspaper men, no film fans! Why don't we come more often?'\nMeanwhile, two other actors Rockwall Slinger and Merlin Greeves, had carried two large food baskets to a shady spot under some trees. When they had all made themselves comfortable, a stranger appeared. He looked very angry.\n'Now you get out of here, all of you!' he shouted. 'I'm sheriff here. Do you see that notice? It says \"No Camping\" -- in case you can't read!'\n'Look, sheriff,' said Rockwall, 'don't be too hard on us. I'm Rockwall Slinger and this is Merlin Greeves.'\n'Oh, is it?' said the sheriff with a sneer. 'Well, I'm Brinksley Meers, and my other name is Gloria Gleam. Now you get out of here fast!'",
+    "bodyText": "An ancient bus stopped by a dry river bed and a party of famous actors and actresses got off. Dressed in dark glasses and old clothes, they had taken special precautions so that no one should recognize them. But as they soon discovered, disguises can sometimes be too perfect.\n'This is a wonderful place for a picnic,' said Gloria Gleam.\n'It couldn't be better, Gloria,' Brinksley Meers agreed. 'No newspaper men, no film fans! Why don't we come more often?'\nMeanwhile, two other actors Rockwall Slinger and Merlin Greeves, had carried two large food baskets to a shady spot under some trees. When they had all made themselves comfortable, a stranger appeared. He looked very angry.\n'Now you get out of here, all of you!' he shouted. 'I'm sheriff here. Do you see that notice? It says \"No Camping\" -- in case you can't read!'\n'Look, sheriff,' said Rockwall, 'don't be too hard on us. I'm Rockwall Slinger and this is Merlin Greeves.'\n'Oh, is it?' said the sheriff with a sneer. 'Well, I'm Brinksley Meers, and my other name is Gloria Gleam. Now you get out of here fast!'",
+    "bodyTextZh": "一辆古老的公交车停在了干涸的河床旁，一群著名的演员从车上走了下来。他戴着墨镜，穿着旧衣服。他们采取了特别的预防措施，以确保没有人能够认出他们来。但他们很快发现，伪装有时候会过于完美（即伪装得过于逼真，反而容易暴露真相）。\n“这是一个非常适合野餐的好地方，”格洛丽亚·格莱姆说道。\n“再好不过了，格洛丽亚，”布林克斯利·米尔斯同意道。“没有记者，也没有电影迷……我们为什么不多来几次呢？”\n与此同时，另外两位演员——Rockwall Slinger 和 Merlin Greeves——她把两个装满食物的大篮子搬到了树荫下的一处阴凉处。当他们都安顿好自己后，一个陌生人出现了。他看起来非常生气。\n“现在，你们所有人都给我滚出去！”他大声喊道。“我是这里的警长。你们看到那个告示了吗？上面写着‘禁止露营’——以防你们看不清楚！”\n“听着，警长，”罗克沃尔说道，“别对我们太苛刻了。我是 Rockwall Slinger，这位是 Merlin Greeves。”\n“哦，是吗？”警长冷笑着说。“好吧，我叫布林克斯利·米尔斯，我的另一个名字是格洛丽亚·格莱姆。现在，你赶紧离开这里！”"
+  },
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/5e7ff81097380cd898af1e82eb866115ffe857551707fc96f8bbcf2dcc415400.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "677aaa6fb2e19d37f2a51e54edac03dea0ed2263024d984c8fb7e0011441bafe"
+    }
+  ]
+}

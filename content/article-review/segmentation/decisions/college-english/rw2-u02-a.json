@@ -1,0 +1,21 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "d551f951e405b35d5c64572b1bdf42c0adf95c2e7ef4b29a0993296baf268d6a",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "完整 title、blocks[0..9]及完全相同的text；正文及内嵌中文、引语、对话和列举均已逐项通读；无改动输出按全文再次复核。",
+  "notes": "全文及未改动输出复核：三只熊粥喻贯穿工程、平面设计、新闻专业三个尝试；父亲电话点醒、写作能力回顾、新闻专业综合优势和结局自然分段，保留十段。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/bd25ae313df4126d0b760686ddc5dfc1d970c7ba6cb86cb19b26a8422b223057.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "7baa320f965b79a2babb85c7a9e86d25e36eeb758399488b1510854638594f4e"
+    }
+  ]
+}

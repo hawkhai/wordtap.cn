@@ -1,0 +1,26 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "539009095356e41f15eb9d3c5427a52e07e3d96cf41ddc19199ff3add36d8287",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title/titleZh、question/questionZh、bodyText全部19行、bodyTextZh全部19行及sentences[0..22]的完整文字；重复正文与字幕文本逐字比对，非正文字幕另读。操作在内存应用并validate_layout_change，修复后的双语全文重新通读。",
+  "notes": "未定假期；埃及意愿、船费、朋友提醒祝愿、不能成行说明、照料狗房屋花园三个问题、每年留家结局各成自然话段。 text与bodyText同步；sentences对象及时间、角色、索引原样保留。",
+  "issues": [],
+  "display": {
+    "text": "What's the problem about deciding on a holiday?\n\nWhere are you going to spend your holidays this year, Gary?\nWe may go abroad. I'm not sure. My wife wants to go to Egypt. I'd like to go there, too. We can't make up our minds.\nWill you travel by sea or by air?\nWe may travel by sea. It's cheaper, isn't it?\nIt may be cheaper, but it takes a long time. I'm sure you'll enjoy yourselves.\nDon't be so sure. We might not go anywhere. My wife always worries too much.\nWho's going to look after the dog? Who's going to look after the house? Who's going to look after the garden?\nWe have this problem every year. In the end, we stay at home and look after everything!",
+    "bodyText": "Where are you going to spend your holidays this year, Gary?\nWe may go abroad. I'm not sure. My wife wants to go to Egypt. I'd like to go there, too. We can't make up our minds.\nWill you travel by sea or by air?\nWe may travel by sea. It's cheaper, isn't it?\nIt may be cheaper, but it takes a long time. I'm sure you'll enjoy yourselves.\nDon't be so sure. We might not go anywhere. My wife always worries too much.\nWho's going to look after the dog? Who's going to look after the house? Who's going to look after the garden?\nWe have this problem every year. In the end, we stay at home and look after everything!",
+    "bodyTextZh": "加里，今年你打算在哪里度过假期呢？\n我们可能会出国旅行。我还不确定。我妻子想去埃及。我也想去那里。我们还是拿不定主意。\n你们会乘船去还是乘飞机去？\n我们可能会选择乘船。这更便宜，不是吗？\n可能便宜是便宜，但是要花很长时间。我相信你们会玩得很开心的。\n别这么确定。我们可能哪儿也去不成。我妻子总是过于担心了。\n谁来照顾这只狗呢？谁来负责照看这栋房子呢？谁来负责照看这个花园呢？\n我们每年都会遇到这个问题。最终，我们还是待在家里，负责照顾所有的事情！"
+  },
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/4f775822b29aff6ae38ff945e611e99ea975621bd45098f048948aa4fbc49b4a.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "d2babf85c3ca40348c10c0e0bcc30ddd1f4ef8280c5ce749c240430f77da82e6"
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "article": "e1-2000",
+  "checkedAt": "2026-10-03",
+  "sourcePdfPhysicalPagesRead": [
+    26,
+    27,
+    28,
+    29,
+    30,
+    31
+  ],
+  "sources": [
+    {
+      "url": "https://solutions.lg.com/us/business/zenith-electronics",
+      "scope": "web打开内部错误；requests成功200、BS4实际读完整历史主体：1995多数股权，1997品牌计划，1998重组，1999-11全资子公司。"
+    },
+    {
+      "url": "https://zenith.com/",
+      "scope": "检索实际读主页公司介绍，1999以来LG全资子公司；未用现时业务介绍替代1995史实。"
+    },
+    {
+      "url": "https://www.nber.org/research/data/us-business-cycle-expansions-and-contractions",
+      "scope": "检索实际读周期表，1990-07峰值至1991-03谷值、8个月衰退，不支持截至1995连续五年扩张。"
+    },
+    {
+      "url": "https://www.hks.harvard.edu/faculty/richard-cavanagh",
+      "scope": "检索读人物简介全部主体，姓名Cavanagh、曾任executive dean；未找到本篇引语原刊，不宣称网页核实逐字引语。"
+    },
+    {
+      "url": "https://www.computerhistory.org/siliconengine/invention-of-the-point-contact-transistor/",
+      "scope": "检索实际读完整主文：Bardeen/Brattain贝尔实验室1947点接触晶体管，区分器件与半导体材料；参考文献仅浏览书目，未逐篇读取。"
+    },
+    {
+      "url": "https://escholarship.org/uc/item/59b2s3tq",
+      "scope": "检索读2018论文完整摘要和作者/DOI，UK Biobank观察证据与现代自然选择相符，非全论文。"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5776788/",
+      "scope": "直接打开验证码，未以此称读完；检索实际读Discussion主体，从选择梯度及多元回归局限至moving optimum与仍待研究的问题，不把关联写成确定因果。"
+    },
+    {
+      "url": "https://www.nature.com/articles/ncomms15947",
+      "scope": "检索实际读2017研究讨论中108年人口与首次繁殖年龄遗传变化相关的两段，不是全文/数据再分析。"
+    },
+    {
+      "url": "https://open.lib.umn.edu/evolutionbiology/chapter/genetic-drift-2/",
+      "scope": "先超时后成功打开；实际读第373–385行本节主体和图注，列mutation、migration/gene flow、drift、selection；未查看图像或读全书。"
+    },
+    {
+      "url": "https://www.who.int/teams/maternal-newborn-child-adolescent-health-and-ageing/newborn-health/preterm-and-low-birth-weight",
+      "scope": "检索实际读早产/低出生体重定义与健康风险的主体开头、WHO工作概览；未采用其年度人数作为现时精确统计。"
+    },
+    {
+      "url": "https://www.who.int/data/nutrition/nlis/info/low-birth-weight",
+      "scope": "检索实际读指标意义、定义和成因段，未全数据库。"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/17/Modern_poetry_%28IA_modernpoetry00poco%29.pdf",
+      "scope": "直接下载403；web打开198页PDF，find实际返回并通读物理161–163页（印157–159）该短论全部文本、另读版权页1920初版/1922重印信息。截图调用未返回可读图像，未宣称原作扫描图读过。原卷6页本地扫描图均已实际读。"
+    },
+    {
+      "url": "https://www.bloomsbury.com/us/ambition-9780929587189/",
+      "scope": "检索读Epstein图书简介和本版1989书目信息，仅确认论题与书，不是全书；未据二手节录擅改a decade or two years ago。"
+    },
+    {
+      "url": "https://www.fao.org/4/w3592e/w3592e07.htm",
+      "scope": "检索实际读第26–28、43–45、48及过度开发管理措施段，控制能力/死亡率、恢复繁殖群体、监测等；非整份手册。"
+    },
+    {
+      "url": "https://www.fao.org/iuu-fishing",
+      "scope": "检索读主体对IUU危害及监测管理的介绍，未采用无明确基年的最大吨数估计。"
+    }
+  ],
+  "limitations": [
+    "6原块及全部6原图完整通读；漫画另3倍渲染裁切读1900/1995标牌。最终89块全文复读，工具总输出截去26题至雄心第一段部分后单独重读完整该段；将说明中at all costs误定位末段改成文中并复读。30道选择题独立列表。",
+    "原资料Part I写Close Test，明确校成Cloze Test。保留试题题号，删除汇编圈号、阅读定位号和修改后不再准确的原词数。无官方答案或中译。",
+    "原图恢复4处实质漏文：America’s machine前缀；婴儿存活依出生体重整句；印度城市/部落经济背景整句；末段beyond comprehension至however amazed等。均为本地用户资料原图恢复，不从新外部文本大段复制。",
+    "经济材料1995时态保留，LG多数股权/全资化明确区分，NBER复苏起点校正；市场8倍和国家技能最高是原文历史概括，未独立复算。原刊和逐字引语未检得，不编刊名。13D/14B消除重叠。",
+    "人类进化停止为原文历史论点，前置科学说明清楚否定其普遍有效性，不将社会阶层生殖差异作优劣价值判断。80%无研究样本定义、出生体重必死/无影响等均警示不可当医学规律；恢复原句不等于赞同，16A按文本论证比较而改。",
+    "未来主义原作与卷文有系统简化，未逐字恢复成原书；仅据已读原书文本纠conditionallly对应的conditionally为continually及for a century past断句。原书印158–159还有Jack/Jill例子，卷文有删节，不增抄。22D短暂性原文支持不足改为文学评价。",
+    "日本社会材料未找到原刊及调查原表；搜索检得二手1984相关文章线索而不足逐字确认，不据此标注精确原刊日期。保留为明确限定的旧评论，24D原西方价值因果改为末段城市化与家庭纽带。",
+    "雄心价值论说不当统计，出版社书目不是全文比勘；a decade or two years ago本地原图如此，保留并注语意，不猜校成decades。",
+    "译段31–35完整单句按图恢复；industrialization百年/十年的表述保留为历史评论且明确非普遍定律，未查到原刊，不编作者。",
+    "漫画原图1900一船多鱼/1995多船少鱼，标题A Brief History of World Commercial Fishing依图转录。不是计量图表，不推演精确产量/资源百分比；写作至少150词、3点要求齐全。"
+  ],
+  "answerChecks": {
+    "editorReasoningNotOfficial": {
+      "cloze": "CABACDBDCD",
+      "reading": "CDBCCAADBACDBDCAACDB"
+    }
+  },
+  "rawSha256": "17468c0d083d5f313e383b2f030f54328c8f9b28d7bd6b47276ea2149999c5d6",
+  "pdfSha256": "9b755b86b278a933c57aa414312a7472b7523caa59d669204622437eecd9255e"
+}

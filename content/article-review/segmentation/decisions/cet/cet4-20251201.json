@@ -1,0 +1,1168 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "6bb852acf0b74261706c07f1c4fb230942d2861a46713a095dd87691b9f48da4",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title及全文blocks[0..21]全部内嵌行与对应text；写作、听力试题、选词、匹配、篇章阅读、翻译逐项通读，并复核修后全文。",
+  "notes": "全文通读学生会建议写作、听力1-25、选择过多选词、自行车道经济A-O匹配、服药时机及延迟退休阅读、民营经济翻译和KEYS。7题D与Section B、21题D与后题说明分别分离；C段跨块比较数字、A/E/K续段、H引语及退休文章Abraham says归回上下文。55题后孤立句点原样保留，属于字符校勘旁注不删除。全文修后复核完成。",
+  "issues": [],
+  "splitBlocks": [
+    {
+      "index": 0,
+      "before": [
+        "大学英语四级考试 2025 年 12 月真题(第一套)\nPart I Writing (30 minutes)\nDirections: Suppose the student union of your university is collecting opinions on improving its work for the coming year. You are now to write a response by suggesting how it can better enrich student life. You will have 30 minutes to write the essay.\nYou should write at least 120 words but no more than 180 words."
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "大学英语四级考试 2025 年 12 月真题(第一套)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Part I Writing (30 minutes)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Directions: Suppose the student union of your university is collecting opinions on improving its work for the coming year. You are now to write a response by suggesting how it can better enrich student life. You will have 30 minutes to write the essay. You should write at least 120 words but no more than 180 words."
+        }
+      ],
+      "reason": "按语义分离粘连题目说明和独立选项，恢复同字母匹配段及引语的续行，保留阅读多句自然段。"
+    },
+    {
+      "index": 1,
+      "before": [
+        "Part II Listening Comprehension (25 minutes)\nSection A Directions: In this sectio n, you will hear three news reports. At the end of each news report, you will hear two or three questions. Both the news report and the questions will be spoken only once. After you hear a question, you must choose the best answer from the four choices mar ked A), B), C) and D). Then mark the corresponding letter on Answer Sheet 1 with a single line through the centre.\nQuestions 1 and 2 are based on the news report you have just heard.\n1. A) At the gate of a grade school in Kent. C) Inside the car of David King's neighbour.\nB) Under the engine cover of a man’s car. D) Outside the office of a charity foundation.\n2. A) It got reunited with its owner. C) It was placed in the care of a UK charity.\nB) It was injured during the rescue. D) It became a pet of Mr. King’s grandson.\nQuestions 3 and 4 are based on the news report you have just heard.\n3. A) The reunion of this year’s Olympic gold medalists.\nB) The opening of the Special Olympics Spring Games.\nC) The first important political event in the next five years.\nD) The 100th anniversary celebration of Methodist University.\n4. A) V olunteers visit the Games’ website to sign up.\nB) Children play in a fun tent and enjoy themselves fully.\nC) Organizers devote their time and energy to the Games.\nD) Athletes with special needs triumph in the Game.\nQuestions 5 to 7 are based on the news report you have just heard.\n5. A) Compensate for the Swiss manufacturer's loss. C) Destroy its imitation chocolate rabbits.\nB) Change the wrapping of its commodities. D) Defend itself in the country's commercial court.\n6. A) It could be reused in other products.\nB) It could be resold cheaper to avoid waste.\nC) It could be reshaped into animals other than rabbits.\nD) It could be rewrapped and sold by the budget supermarket.\n7. A) To be fair to the German supermarkets. C) To prevent consumers’ possible confusion.\nB) To protect chocolate retailers’ interests. D) To boost the growth of the chocolate industry Section B Directions: In this section, you will hear two long conversations. At the end of each conversation, you will hear four questions.\nBoth the conversation and the questions will be spoken only once. After you hear a question, you must choose the best answer from the four cho ices marked A), B), C) and D). Then mark the corresponding letter on Answer Sheet 1 with a single line through the centre."
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Part II Listening Comprehension (25 minutes)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Section A"
+        },
+        {
+          "type": "paragraph",
+          "text": "Directions: In this sectio n, you will hear three news reports. At the end of each news report, you will hear two or three questions. Both the news report and the questions will be spoken only once. After you hear a question, you must choose the best answer from the four choices mar ked A), B), C) and D). Then mark the corresponding letter on Answer Sheet 1 with a single line through the centre."
+        },
+        {
+          "type": "paragraph",
+          "text": "Questions 1 and 2 are based on the news report you have just heard."
+        },
+        {
+          "type": "paragraph",
+          "text": "1. A) At the gate of a grade school in Kent."
+        },
+        {
+          "type": "paragraph",
+          "text": "C) Inside the car of David King's neighbour."
+        },
+        {
+          "type": "paragraph",
+          "text": "B) Under the engine cover of a man’s car."
+        },
+        {
+          "type": "paragraph",
+          "text": "D) Outside the office of a charity foundation."
+        },
+        {
+          "type": "paragraph",
+          "text": "2. A) It got reunited with its owner."
+        },
+        {
+          "type": "paragraph",
+          "text": "C) It was placed in the care of a UK charity."
+        },
+        {
+          "type": "paragraph",
+          "text": "B) It was injured during the rescue."
+        },
+        {
+          "type": "paragraph",
+          "text": "D) It became a pet of Mr. King’s grandson."
+        },
+        {
+          "type": "paragraph",
+          "text": "Questions 3 and 4 are based on the news report you have just heard."
+        },
+        {
+          "type": "paragraph",
+          "text": "3. A) The reunion of this year’s Olympic gold medalists."
+        },
+        {
+          "type": "paragraph",
+          "text": "B) The opening of the Special Olympics Spring Games."
+        },
+        {
+          "type": "paragraph",
+          "text": "C) The first important political event in the next five years."
+        },
+        {
+          "type": "paragraph",
+          "text": "D) The 100th anniversary celebration of Methodist University."
+        },
+        {
+          "type": "paragraph",
+          "text": "4. A) V olunteers visit the Games’ website to sign up."
+        },
+        {
+          "type": "paragraph",
+          "text": "B) Children play in a fun tent and enjoy themselves fully."
+        },
+        {
+          "type": "paragraph",
+          "text": "C) Organizers devote their time and energy to the Games."
+        },
+        {
+          "type": "paragraph",
+          "text": "D) Athletes with special needs triumph in the Game."
+        },
+        {
+          "type": "paragraph",
+          "text": "Questions 5 to 7 are based on the news report you have just heard."
+        },
+        {
+          "type": "paragraph",
+          "text": "5. A) Compensate for the Swiss manufacturer's loss."
+        },
+        {
+          "type": "paragraph",
+          "text": "C) Destroy its imitation chocolate rabbits."
+        },
+        {
+          "type": "paragraph",
+          "text": "B) Change the wrapping of its commodities."
+        },
+        {
+          "type": "paragraph",
+          "text": "D) Defend itself in the country's commercial court."
+        },
+        {
+          "type": "paragraph",
+          "text": "6. A) It could be reused in other products."
+        },
+        {
+          "type": "paragraph",
+          "text": "B) It could be resold cheaper to avoid waste."
+        },
+        {
+          "type": "paragraph",
+          "text": "C) It could be reshaped into animals other than rabbits."
+        },
+        {
+          "type": "paragraph",
+          "text": "D) It could be rewrapped and sold by the budget supermarket."
+        },
+        {
+          "type": "paragraph",
+          "text": "7. A) To be fair to the German supermarkets."
+        },
+        {
+          "type": "paragraph",
+          "text": "C) To prevent consumers’ possible confusion."
+        },
+        {
+          "type": "paragraph",
+          "text": "B) To protect chocolate retailers’ interests."
+        },
+        {
+          "type": "paragraph",
+          "text": "D) To boost the growth of the chocolate industry"
+        },
+        {
+          "type": "paragraph",
+          "text": "Section B"
+        },
+        {
+          "type": "paragraph",
+          "text": "Directions: In this section, you will hear two long conversations. At the end of each conversation, you will hear four questions. Both the conversation and the questions will be spoken only once. After you hear a question, you must choose the best answer from the four cho ices marked A), B), C) and D). Then mark the corresponding letter on Answer Sheet 1 with a single line through the centre."
+        }
+      ],
+      "reason": "按语义分离粘连题目说明和独立选项，恢复同字母匹配段及引语的续行，保留阅读多句自然段。"
+    },
+    {
+      "index": 2,
+      "before": [
+        "Questions 8 to 11 are based on the conversation you have just heard.\n8. A) Pass a book to him. C) Return the handbook to him.\nB) Make a vegetable dish. D) Meet his sister's boyfriend.\n9. A) It doesn't sound practical for her. C) It would reduce one's protein intake.\nB) It would do harm to one's muscles. D) It doesn't seem to be a balanced diet."
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Questions 8 to 11 are based on the conversation you have just heard."
+        },
+        {
+          "type": "paragraph",
+          "text": "8. A) Pass a book to him."
+        },
+        {
+          "type": "paragraph",
+          "text": "C) Return the handbook to him."
+        },
+        {
+          "type": "paragraph",
+          "text": "B) Make a vegetable dish."
+        },
+        {
+          "type": "paragraph",
+          "text": "D) Meet his sister's boyfriend."
+        },
+        {
+          "type": "paragraph",
+          "text": "9. A) It doesn't sound practical for her."
+        },
+        {
+          "type": "paragraph",
+          "text": "C) It would reduce one's protein intake."
+        },
+        {
+          "type": "paragraph",
+          "text": "B) It would do harm to one's muscles."
+        },
+        {
+          "type": "paragraph",
+          "text": "D) It doesn't seem to be a balanced diet."
+        }
+      ],
+      "reason": "按语义分离粘连题目说明和独立选项，恢复同字母匹配段及引语的续行，保留阅读多句自然段。"
+    },
+    {
+      "index": 3,
+      "before": [
+        "10. A) To improve his health. C) To stick to his religious belief.\nB) To protect animal rights. D) To follow a trendy lifestyle.\n11. A) The torture and distress dolphins suffer in parks. C) The gloomy environments animals are kept in.\nB) The urgency of joining an animal rights group. D) The necessity of having zoos and eating meat.\nQuestions 12 to 15 are based on the conversation you have just heard.\n12. A) The part about not eating on board the plane. C) The part about getting over jetlag.\nB) The part about air travel in the past. D) The part about avoiding sleeping on the plane.\n13. A) Try following the advice given by the expert on the show.\nB) Concentrate on reading articles recommended by experts.\nC) Have meals as usual to stay away from hunger.\nD) Take a nap to adjust to a new time zone.\n14. A) She has been well treated when traveling. C) She can spend a lot of time vacationing.\nB) She does not have to worry about jetlag. D) She does not have any problem flying.\n15. A) It affects twenty-five percent of people. C) It impacts female travelers more seriously.\nB) It has long been ignored by many experts. D) It has caused heavy losses to many airlines."
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "10. A) To improve his health."
+        },
+        {
+          "type": "paragraph",
+          "text": "C) To stick to his religious belief."
+        },
+        {
+          "type": "paragraph",
+          "text": "B) To protect animal rights."
+        },
+        {
+          "type": "paragraph",
+          "text": "D) To follow a trendy lifestyle."
+        },
+        {
+          "type": "paragraph",
+          "text": "11. A) The torture and distress dolphins suffer in parks."
+        },
+        {
+          "type": "paragraph",
+          "text": "C) The gloomy environments animals are kept in."
+        },
+        {
+          "type": "paragraph",
+          "text": "B) The urgency of joining an animal rights group."
+        },
+        {
+          "type": "paragraph",
+          "text": "D) The necessity of having zoos and eating meat."
+        },
+        {
+          "type": "paragraph",
+          "text": "Questions 12 to 15 are based on the conversation you have just heard."
+        },
+        {
+          "type": "paragraph",
+          "text": "12. A) The part about not eating on board the plane."
+        },
+        {
+          "type": "paragraph",
+          "text": "C) The part about getting over jetlag."
+        },
+        {
+          "type": "paragraph",
+          "text": "B) The part about air travel in the past."
+        },
+        {
+          "type": "paragraph",
+          "text": "D) The part about avoiding sleeping on the plane."
+        },
+        {
+          "type": "paragraph",
+          "text": "13. A) Try following the advice given by the expert on the show."
+        },
+        {
+          "type": "paragraph",
+          "text": "B) Concentrate on reading articles recommended by experts."
+        },
+        {
+          "type": "paragraph",
+          "text": "C) Have meals as usual to stay away from hunger."
+        },
+        {
+          "type": "paragraph",
+          "text": "D) Take a nap to adjust to a new time zone."
+        },
+        {
+          "type": "paragraph",
+          "text": "14. A) She has been well treated when traveling."
+        },
+        {
+          "type": "paragraph",
+          "text": "C) She can spend a lot of time vacationing."
+        },
+        {
+          "type": "paragraph",
+          "text": "B) She does not have to worry about jetlag."
+        },
+        {
+          "type": "paragraph",
+          "text": "D) She does not have any problem flying."
+        },
+        {
+          "type": "paragraph",
+          "text": "15. A) It affects twenty-five percent of people."
+        },
+        {
+          "type": "paragraph",
+          "text": "C) It impacts female travelers more seriously."
+        },
+        {
+          "type": "paragraph",
+          "text": "B) It has long been ignored by many experts."
+        },
+        {
+          "type": "paragraph",
+          "text": "D) It has caused heavy losses to many airlines."
+        }
+      ],
+      "reason": "按语义分离粘连题目说明和独立选项，恢复同字母匹配段及引语的续行，保留阅读多句自然段。"
+    },
+    {
+      "index": 4,
+      "before": [
+        "Section C Directions: In this section, you will hear three passages. At the end of each passage, you will hear three or four questions.\nBoth the passage and the questions will be spoken only once. After you hear a question, you must choose the best answer from the four choices marked A), B), C) and D). Then mark the corresponding letter on Answer Sheet 1 with a single line through the centre.\nQuestions 16 to 18 are based on the passage you have just heard.\n16. A) Learning from skilled designers. C) Obtaining real-world experience.\nB) Joining a 6-month training camp. D) Anticipating actual challenges.\n17. A) Core skills. C) Capability.\nB) Higher education. D) Adaptability.\n18. A) Face challenges. C) Pursue roles in teams.\nB) Start anywhere. D) Follow their own path.\nQuestions 19 to 21 are based on the passage you have just heard.\n19. A) To allow students more freedom in their academic work.\nB) To enable teachers to interact more with their students.\nC) To engage students more in their learning.\nD) To respond actively to students' requests.\n20. A) Rearranging most traditional chairs and desks.\nB) Adopting a variety of different seating options.\nC) Shifting from traditional teaching to task-based learning.\nD) Using new furniture to create a comfortable environment.\n21. A) A change to teachers’ opinion of their students. C) A strengthened effect of its discipline.\nB) A harmonious relationship among its students. D) A win for all people involved Questions 22 to 25 are based on the passage you have just heard.\n22. A) They arrived late for their first day of school.\nB) They weren't informed of the school’s updated rules.\nC) They answered their headteacher's email in an impolite way.\nD) They didn't wear the shoes required by the school’s new policy.\n23. A) Panic. C) Disputes.\nB) Anger. D) Riots.\n24. A) They rendered the school unique in the district. C) They improved student behavior and performance.\nB) They enhanced the positive image of the school. D) They strengthened the school's discipline and order."
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Section C"
+        },
+        {
+          "type": "paragraph",
+          "text": "Directions: In this section, you will hear three passages. At the end of each passage, you will hear three or four questions. Both the passage and the questions will be spoken only once. After you hear a question, you must choose the best answer from the four choices marked A), B), C) and D). Then mark the corresponding letter on Answer Sheet 1 with a single line through the centre."
+        },
+        {
+          "type": "paragraph",
+          "text": "Questions 16 to 18 are based on the passage you have just heard."
+        },
+        {
+          "type": "paragraph",
+          "text": "16. A) Learning from skilled designers."
+        },
+        {
+          "type": "paragraph",
+          "text": "C) Obtaining real-world experience."
+        },
+        {
+          "type": "paragraph",
+          "text": "B) Joining a 6-month training camp."
+        },
+        {
+          "type": "paragraph",
+          "text": "D) Anticipating actual challenges."
+        },
+        {
+          "type": "paragraph",
+          "text": "17. A) Core skills."
+        },
+        {
+          "type": "paragraph",
+          "text": "C) Capability."
+        },
+        {
+          "type": "paragraph",
+          "text": "B) Higher education."
+        },
+        {
+          "type": "paragraph",
+          "text": "D) Adaptability."
+        },
+        {
+          "type": "paragraph",
+          "text": "18. A) Face challenges."
+        },
+        {
+          "type": "paragraph",
+          "text": "C) Pursue roles in teams."
+        },
+        {
+          "type": "paragraph",
+          "text": "B) Start anywhere."
+        },
+        {
+          "type": "paragraph",
+          "text": "D) Follow their own path."
+        },
+        {
+          "type": "paragraph",
+          "text": "Questions 19 to 21 are based on the passage you have just heard."
+        },
+        {
+          "type": "paragraph",
+          "text": "19. A) To allow students more freedom in their academic work."
+        },
+        {
+          "type": "paragraph",
+          "text": "B) To enable teachers to interact more with their students."
+        },
+        {
+          "type": "paragraph",
+          "text": "C) To engage students more in their learning."
+        },
+        {
+          "type": "paragraph",
+          "text": "D) To respond actively to students' requests."
+        },
+        {
+          "type": "paragraph",
+          "text": "20. A) Rearranging most traditional chairs and desks."
+        },
+        {
+          "type": "paragraph",
+          "text": "B) Adopting a variety of different seating options."
+        },
+        {
+          "type": "paragraph",
+          "text": "C) Shifting from traditional teaching to task-based learning."
+        },
+        {
+          "type": "paragraph",
+          "text": "D) Using new furniture to create a comfortable environment."
+        },
+        {
+          "type": "paragraph",
+          "text": "21. A) A change to teachers’ opinion of their students."
+        },
+        {
+          "type": "paragraph",
+          "text": "C) A strengthened effect of its discipline."
+        },
+        {
+          "type": "paragraph",
+          "text": "B) A harmonious relationship among its students."
+        },
+        {
+          "type": "paragraph",
+          "text": "D) A win for all people involved"
+        },
+        {
+          "type": "paragraph",
+          "text": "Questions 22 to 25 are based on the passage you have just heard."
+        },
+        {
+          "type": "paragraph",
+          "text": "22. A) They arrived late for their first day of school."
+        },
+        {
+          "type": "paragraph",
+          "text": "B) They weren't informed of the school’s updated rules."
+        },
+        {
+          "type": "paragraph",
+          "text": "C) They answered their headteacher's email in an impolite way."
+        },
+        {
+          "type": "paragraph",
+          "text": "D) They didn't wear the shoes required by the school’s new policy."
+        },
+        {
+          "type": "paragraph",
+          "text": "23. A) Panic."
+        },
+        {
+          "type": "paragraph",
+          "text": "C) Disputes."
+        },
+        {
+          "type": "paragraph",
+          "text": "B) Anger."
+        },
+        {
+          "type": "paragraph",
+          "text": "D) Riots."
+        },
+        {
+          "type": "paragraph",
+          "text": "24. A) They rendered the school unique in the district."
+        },
+        {
+          "type": "paragraph",
+          "text": "C) They improved student behavior and performance."
+        },
+        {
+          "type": "paragraph",
+          "text": "B) They enhanced the positive image of the school."
+        },
+        {
+          "type": "paragraph",
+          "text": "D) They strengthened the school's discipline and order."
+        }
+      ],
+      "reason": "按语义分离粘连题目说明和独立选项，恢复同字母匹配段及引语的续行，保留阅读多句自然段。"
+    },
+    {
+      "index": 5,
+      "before": [
+        "25. A) Tighten her monthly budget. C) Borrow £65 from her friend.\nB) Turn to her parents for help. D) Postpone paying her other bills"
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "25. A) Tighten her monthly budget."
+        },
+        {
+          "type": "paragraph",
+          "text": "C) Borrow £65 from her friend."
+        },
+        {
+          "type": "paragraph",
+          "text": "B) Turn to her parents for help."
+        },
+        {
+          "type": "paragraph",
+          "text": "D) Postpone paying her other bills"
+        }
+      ],
+      "reason": "按语义分离粘连题目说明和独立选项，恢复同字母匹配段及引语的续行，保留阅读多句自然段。"
+    },
+    {
+      "index": 6,
+      "before": [
+        "Part III Reading Comprehension (40 minutes)\nSection A Directions: In this section, there is a passage with ten blanks. You are required to select one word for each blank from a list of choices given in a word bank following the passage. Read the passage through carefully before making your choices. Each choice in the bank is identified by a letter. Please mark the corresponding letter for each item on Answer Sheet 2 with a single line through the centre. You may not use any of the words in the bank more than once."
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Part III Reading Comprehension (40 minutes)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Section A"
+        },
+        {
+          "type": "paragraph",
+          "text": "Directions: In this section, there is a passage with ten blanks. You are required to select one word for each blank from a list of choices given in a word bank following the passage. Read the passage through carefully before making your choices. Each choice in the bank is identified by a letter. Please mark the corresponding letter for each item on Answer Sheet 2 with a single line through the centre. You may not use any of the words in the bank more than once."
+        }
+      ],
+      "reason": "按语义分离粘连题目说明和独立选项，恢复同字母匹配段及引语的续行，保留阅读多句自然段。"
+    },
+    {
+      "index": 7,
+      "before": [
+        "People tend to want as many choices as possible. They believe this will maximize their ___26___ of making the best decision. But research shows that, when it comes to actually making a ___27___ from all of these choices, people can become ___28___ and avoid making a decision altogether. Even worse, when people finally do decide, they are generally less satisfied with their decision and feel more regretful over whatever choice they made.\nWhy does this happen? Research shows that when people choose from many options, they ___29___ more in the decision, but feel less confident in their ability to decide well. In other words, when we are ___30___ with more choices, making the “right” or “correct” decision begins to feel more ___31___ and, at the same time, more difficult to do. This may contribute to the deep fear that we will make the wrong decision.\nHow can we solve this problem? I believe this fear could be tempered by putting decisions into perspective. It might help to remember that many of the choices you make, such as what to have for lunch, will not ___32___ much in the future and that, even more important choices, like accepting a new job, can ___33___ be changed. It could also help to ___34___ these situations with clear guideline s and ideas of what you want from the ___35___ of options, which can narrow the possible choices, and also make you more confident about your ability to make the right decision."
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "People tend to want as many choices as possible. They believe this will maximize their ___26___ of making the best decision. But research shows that, when it comes to actually making a ___27___ from all of these choices, people can become ___28___ and avoid making a decision altogether. Even worse, when people finally do decide, they are generally less satisfied with their decision and feel more regretful over whatever choice they made."
+        },
+        {
+          "type": "paragraph",
+          "text": "Why does this happen? Research shows that when people choose from many options, they ___29___ more in the decision, but feel less confident in their ability to decide well. In other words, when we are ___30___ with more choices, making the “right” or “correct” decision begins to feel more ___31___ and, at the same time, more difficult to do. This may contribute to the deep fear that we will make the wrong decision."
+        },
+        {
+          "type": "paragraph",
+          "text": "How can we solve this problem? I believe this fear could be tempered by putting decisions into perspective. It might help to remember that many of the choices you make, such as what to have for lunch, will not ___32___ much in the future and that, even more important choices, like accepting a new job, can ___33___ be changed. It could also help to ___34___ these situations with clear guideline s and ideas of what you want from the ___35___ of options, which can narrow the possible choices, and also make you more confident about your ability to make the right decision."
+        }
+      ],
+      "reason": "按语义分离粘连题目说明和独立选项，恢复同字母匹配段及引语的续行，保留阅读多句自然段。"
+    },
+    {
+      "index": 8,
+      "before": [
+        "A) approximately I) matter\nB) case J) presented\nC) chance K) range\nD) confused L) regular E) crucial M) seize F) deposited N) selection G) enter O) ultimately H) invest"
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "A) approximately"
+        },
+        {
+          "type": "paragraph",
+          "text": "I) matter"
+        },
+        {
+          "type": "paragraph",
+          "text": "B) case"
+        },
+        {
+          "type": "paragraph",
+          "text": "J) presented"
+        },
+        {
+          "type": "paragraph",
+          "text": "C) chance"
+        },
+        {
+          "type": "paragraph",
+          "text": "K) range"
+        },
+        {
+          "type": "paragraph",
+          "text": "D) confused"
+        },
+        {
+          "type": "paragraph",
+          "text": "L) regular"
+        },
+        {
+          "type": "paragraph",
+          "text": "E) crucial"
+        },
+        {
+          "type": "paragraph",
+          "text": "M) seize"
+        },
+        {
+          "type": "paragraph",
+          "text": "F) deposited"
+        },
+        {
+          "type": "paragraph",
+          "text": "N) selection"
+        },
+        {
+          "type": "paragraph",
+          "text": "G) enter"
+        },
+        {
+          "type": "paragraph",
+          "text": "O) ultimately"
+        },
+        {
+          "type": "paragraph",
+          "text": "H) invest"
+        }
+      ],
+      "reason": "按语义分离粘连题目说明和独立选项，恢复同字母匹配段及引语的续行，保留阅读多句自然段。"
+    },
+    {
+      "index": 9,
+      "before": [
+        "Section B Directions: In this section, you are going to read a passage with ten statements attached to it. Each statement contains information given in one of the paragraphs. Identify the paragraph from which the information is derived. You may choose a paragraph more than once. Each paragraph is marked with a letter. Answer the questions by marking the corresponding letter on Answer Sheet 2.\nThe battle over bike lanes needs a mindset shift\nA) Five years ago, the city of Queens, New York, announced that it would be putting bike lanes onto a stretch of Skillman Ave — and removing 116 parking spots. Cyclists loved the plan, but local business owners got very angry. Taking out those parking spots, as they argued at protests and in letters to the city council, would ruin stores and restaurants along Skillman.\n“Parking here is already a nightmare,” one shouted at a protest rally.\nB) But the bike lanes were a done deal, and soon they were in place. Early this year, Jesse Coburn — an investigative writer with Streetsblog New York — wondered whether those predictions of economic collapse came true. So he asked the city’s Department of Finance to give him a few years’ worth of sales figures for that stretch of Skillman Ave. How had the businesses on that street fared?\nC) Quite well, it turns out. In the year after the bike lanes arrived, businesses on Skillman saw sales rise by 12 percent,",
+        "compared to 3 percent for Queens in general. What’s more, that section of road saw new businesses open, while Queens overall had a net loss.\nD) The thing is, the actual merchants along Skillman? They didn’t believe it. When Coburn spoke to them and described what he’d found, only a few store owners admitted the lanes had helped. Many still insisted the lanes were killing their part of the city. And emotions ran hot: Someone scattered tacks (大头钉) on the bike lane.\nE) This little story turns out to be a fascinating gli mpse at the challenges cities face as they try to update their urban infrastructure — to clean up the air, reduce greenhouse emissions, and speed up travel by making towns more bike-friendly.\nThere’s a rising amount of data showing that installing bike lan es and making streets more pedestrian-friendly boosts the economic fortunes of a place. Removing cars and parking spots works. But the folks who run local businesses simply aren’t convinced, even when their own street performs. Given that sort of mess, can political fights over bike lanes ever end?\nF) In 2013, researchers at New York City’s Department of Transportation studied seven stretches of road that had installed bike lanes or created pedestrian-friendly areas. The city analyzed the data for businesses along those routes and found that by the third year sales grew faster on five of the streets than in the district overall, on average — up to five times faster, in fact.\nG) Beyond New York, a survey of research from 23 cities found that bike lanes and pedestrian-friendly design didn’t hurt local retail and food stores. (“Fears of disastrous consequences for local businesses are unfounded,” the researchers concluded.) More recent work has shown roughly the same.\nH) The truth is that in fairly dense areas, bikes are more efficient at moving people around. You might lose one car driver’s business — but you gain shoppers who now can arrive more easily on bikes. “Cyclists and pedestrians are consumers too,”\nnotes Professor Susan Handy. Plus, streets redesign ed for bikes and pedestrians tend to become more pleasant places to hang around, so “in a lot of cases, that’s created much nicer environments that are really good for those businesses.”\nI) Mom-and-pop shops are usually pretty quick at recognizing situati ons that will help their bottom lines. So why the blind spot here? Perhaps it’s that attention focuses on horror stories — and some merchants do get hit when bike lanes come in.\nJ) I spoke to Cindy Hughes, a hairdresser (理发师) in Cambridge, Massachusetts. She said business fell by at least 40 percent when the city removed nearby parking to put in a bike lane. The majority of her customers drive, with many coming from nearby towns. Only a very few have shifted to cycling, and even those almost certainly won’t cycle in Boston’s snowy winters. So while Hughes supports bike lanes — “cyclists deserve to be safe” — she sees the parking loss as an existential risk. “Look, 90 percent of my customers drive,” she told me. “For our business, the bike lanes are way worse than Covid was.”\nK) For others, the pushback is cultural, says Henry Grabar, a writer f or the Slate Magazine. Small business owners are frequently drivers who commute from other parts of the city by car, Grabar points out. They're also often longtime locals.\n“They tend to be people with deep roots in the city, who have hung around since before the neighborhood became what it is today,” he adds. Driving around town in a car is so normal to them that cycling seems weird and unusual — despite its boost from Covid, when bike sales exploded by 75 percent.\nL) Psychology beats all! Who knew, right? The fierce divide between store owners and bike-lane advocates seems similar to our larger culture wars over climate change. If we’ve learned anything about culture wars, it’s that data isn’t much good at changing minds.\nM) When Janette Sadik -Khan was the head of New York City’s Transportation Department back in the early 2000s, she oversaw a rollout (推出) of bike lanes — and got angry blowback from residents and business owners who claimed there weren’t enough cyclists to justify installing lanes. Now, she notes ironically, the lanes are so full of activity that opponents have turned to claiming the problem is the opposite: There are too many cyclists getting in the way of cars.\nN) Maybe bike lanes will always be charged with emotion, until enough of the public is finally concerned about climate change — and it seems reckless (鲁莽的) to not have them.\nO) Crises, after all, have a way of opening peop le’s eyes to possibilities. During Covid, restaurants and cafes lost so much business that cities nationwide began allowing them to build curbside seating areas where people could sit, safely, in the open air. It greatly reduced parking — but because, well, shop owners didn’t see any way around it. Customers loved the outdoor seating so much that cities are making it permanent: A New York City study of several streets closed during Covid found storeowners making more than before, and diners enjoying the out door lifestyle. If data won’t change minds, customers might."
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Section B"
+        },
+        {
+          "type": "paragraph",
+          "text": "Directions: In this section, you are going to read a passage with ten statements attached to it. Each statement contains information given in one of the paragraphs. Identify the paragraph from which the information is derived. You may choose a paragraph more than once. Each paragraph is marked with a letter. Answer the questions by marking the corresponding letter on Answer Sheet 2."
+        },
+        {
+          "type": "paragraph",
+          "text": "The battle over bike lanes needs a mindset shift"
+        },
+        {
+          "type": "paragraph",
+          "text": "A) Five years ago, the city of Queens, New York, announced that it would be putting bike lanes onto a stretch of Skillman Ave — and removing 116 parking spots. Cyclists loved the plan, but local business owners got very angry. Taking out those parking spots, as they argued at protests and in letters to the city council, would ruin stores and restaurants along Skillman. “Parking here is already a nightmare,” one shouted at a protest rally."
+        },
+        {
+          "type": "paragraph",
+          "text": "B) But the bike lanes were a done deal, and soon they were in place. Early this year, Jesse Coburn — an investigative writer with Streetsblog New York — wondered whether those predictions of economic collapse came true. So he asked the city’s Department of Finance to give him a few years’ worth of sales figures for that stretch of Skillman Ave. How had the businesses on that street fared?"
+        },
+        {
+          "type": "paragraph",
+          "text": "C) Quite well, it turns out. In the year after the bike lanes arrived, businesses on Skillman saw sales rise by 12 percent, compared to 3 percent for Queens in general. What’s more, that section of road saw new businesses open, while Queens overall had a net loss."
+        },
+        {
+          "type": "paragraph",
+          "text": "D) The thing is, the actual merchants along Skillman? They didn’t believe it. When Coburn spoke to them and described what he’d found, only a few store owners admitted the lanes had helped. Many still insisted the lanes were killing their part of the city. And emotions ran hot: Someone scattered tacks (大头钉) on the bike lane."
+        },
+        {
+          "type": "paragraph",
+          "text": "E) This little story turns out to be a fascinating gli mpse at the challenges cities face as they try to update their urban infrastructure — to clean up the air, reduce greenhouse emissions, and speed up travel by making towns more bike-friendly. There’s a rising amount of data showing that installing bike lan es and making streets more pedestrian-friendly boosts the economic fortunes of a place. Removing cars and parking spots works. But the folks who run local businesses simply aren’t convinced, even when their own street performs. Given that sort of mess, can political fights over bike lanes ever end?"
+        },
+        {
+          "type": "paragraph",
+          "text": "F) In 2013, researchers at New York City’s Department of Transportation studied seven stretches of road that had installed bike lanes or created pedestrian-friendly areas. The city analyzed the data for businesses along those routes and found that by the third year sales grew faster on five of the streets than in the district overall, on average — up to five times faster, in fact."
+        },
+        {
+          "type": "paragraph",
+          "text": "G) Beyond New York, a survey of research from 23 cities found that bike lanes and pedestrian-friendly design didn’t hurt local retail and food stores. (“Fears of disastrous consequences for local businesses are unfounded,” the researchers concluded.) More recent work has shown roughly the same."
+        },
+        {
+          "type": "paragraph",
+          "text": "H) The truth is that in fairly dense areas, bikes are more efficient at moving people around. You might lose one car driver’s business — but you gain shoppers who now can arrive more easily on bikes. “Cyclists and pedestrians are consumers too,” notes Professor Susan Handy. Plus, streets redesign ed for bikes and pedestrians tend to become more pleasant places to hang around, so “in a lot of cases, that’s created much nicer environments that are really good for those businesses.”"
+        },
+        {
+          "type": "paragraph",
+          "text": "I) Mom-and-pop shops are usually pretty quick at recognizing situati ons that will help their bottom lines. So why the blind spot here? Perhaps it’s that attention focuses on horror stories — and some merchants do get hit when bike lanes come in."
+        },
+        {
+          "type": "paragraph",
+          "text": "J) I spoke to Cindy Hughes, a hairdresser (理发师) in Cambridge, Massachusetts. She said business fell by at least 40 percent when the city removed nearby parking to put in a bike lane. The majority of her customers drive, with many coming from nearby towns. Only a very few have shifted to cycling, and even those almost certainly won’t cycle in Boston’s snowy winters. So while Hughes supports bike lanes — “cyclists deserve to be safe” — she sees the parking loss as an existential risk. “Look, 90 percent of my customers drive,” she told me. “For our business, the bike lanes are way worse than Covid was.”"
+        },
+        {
+          "type": "paragraph",
+          "text": "K) For others, the pushback is cultural, says Henry Grabar, a writer f or the Slate Magazine. Small business owners are frequently drivers who commute from other parts of the city by car, Grabar points out. They're also often longtime locals. “They tend to be people with deep roots in the city, who have hung around since before the neighborhood became what it is today,” he adds. Driving around town in a car is so normal to them that cycling seems weird and unusual — despite its boost from Covid, when bike sales exploded by 75 percent."
+        },
+        {
+          "type": "paragraph",
+          "text": "L) Psychology beats all! Who knew, right? The fierce divide between store owners and bike-lane advocates seems similar to our larger culture wars over climate change. If we’ve learned anything about culture wars, it’s that data isn’t much good at changing minds."
+        },
+        {
+          "type": "paragraph",
+          "text": "M) When Janette Sadik -Khan was the head of New York City’s Transportation Department back in the early 2000s, she oversaw a rollout (推出) of bike lanes — and got angry blowback from residents and business owners who claimed there weren’t enough cyclists to justify installing lanes. Now, she notes ironically, the lanes are so full of activity that opponents have turned to claiming the problem is the opposite: There are too many cyclists getting in the way of cars."
+        },
+        {
+          "type": "paragraph",
+          "text": "N) Maybe bike lanes will always be charged with emotion, until enough of the public is finally concerned about climate change — and it seems reckless (鲁莽的) to not have them."
+        },
+        {
+          "type": "paragraph",
+          "text": "O) Crises, after all, have a way of opening peop le’s eyes to possibilities. During Covid, restaurants and cafes lost so much business that cities nationwide began allowing them to build curbside seating areas where people could sit, safely, in the open air. It greatly reduced parking — but because, well, shop owners didn’t see any way around it. Customers loved the outdoor seating so much that cities are making it permanent: A New York City study of several streets closed during Covid found storeowners making more than before, and diners enjoying the out door lifestyle. If data won’t change minds, customers might."
+        }
+      ],
+      "reason": "按语义分离粘连题目说明和独立选项，恢复同字母匹配段及引语的续行，保留阅读多句自然段。",
+      "end": 10
+    },
+    {
+      "index": 11,
+      "before": [
+        "36. An increasing amount of data indicates that installing bike lanes raises local business revenues.\n37. According to a magazine writer, some small business owners’ resistance to bike lanes arises from cultural factors.\n38. A stretch of Skillman Ave witnessed not only a big increase in sales but also the opening of new businesses.\n39. When people have no way out in crises, they are more likely to embrace changes.\n40. According to one survey, city design with bike lanes and pedestrian space did not negatively impact local businesses.\n41. Despite increased business activity on Skillman Ave, many store owners insisted the bike lanes were destroying their area.\n42. In a war of culture, data does not help much in changing people’s minds.\n43. A businesswoman said her business dropped sharply when parking space gave way to a bike lane, because most of her customers came by car.\n44. Local business owners on Skillman Ave argued that their businesses would be ruined when parking spots were replaced by bike lanes.\n45. People may find it more pleasant to wander around streets redesigned for cycling and walking."
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "36. An increasing amount of data indicates that installing bike lanes raises local business revenues."
+        },
+        {
+          "type": "paragraph",
+          "text": "37. According to a magazine writer, some small business owners’ resistance to bike lanes arises from cultural factors."
+        },
+        {
+          "type": "paragraph",
+          "text": "38. A stretch of Skillman Ave witnessed not only a big increase in sales but also the opening of new businesses."
+        },
+        {
+          "type": "paragraph",
+          "text": "39. When people have no way out in crises, they are more likely to embrace changes."
+        },
+        {
+          "type": "paragraph",
+          "text": "40. According to one survey, city design with bike lanes and pedestrian space did not negatively impact local businesses."
+        },
+        {
+          "type": "paragraph",
+          "text": "41. Despite increased business activity on Skillman Ave, many store owners insisted the bike lanes were destroying their area."
+        },
+        {
+          "type": "paragraph",
+          "text": "42. In a war of culture, data does not help much in changing people’s minds."
+        },
+        {
+          "type": "paragraph",
+          "text": "43. A businesswoman said her business dropped sharply when parking space gave way to a bike lane, because most of her customers came by car."
+        },
+        {
+          "type": "paragraph",
+          "text": "44. Local business owners on Skillman Ave argued that their businesses would be ruined when parking spots were replaced by bike lanes."
+        },
+        {
+          "type": "paragraph",
+          "text": "45. People may find it more pleasant to wander around streets redesigned for cycling and walking."
+        }
+      ],
+      "reason": "按语义分离粘连题目说明和独立选项，恢复同字母匹配段及引语的续行，保留阅读多句自然段。"
+    },
+    {
+      "index": 12,
+      "before": [
+        "Section C Directions: There are 2 passages in this section. Each passage is followed by some questions or unfinished statements. For each of them there are four choices marked A), B), C) and D). You should decide on the best choice and mark the corresponding letter on Answer Sheet 2 with a single line through the centre.\nPassage One Questions 46 to 50 are based on the following passage.\nAll living organisms on Earth are exposed to a 24-hour day-night cycle. This cycle is the reason why people rest at night and are active during the day. Consequently, all human body functions also follow this daily rhythm, and the timing of behaviors like exercise or food intake can significantly influence your health. For example, eating at night can lead to weight gain over time because food intake at night leads to increased fat storage.\nMany drug targets in the body follow a 24 -hour cycle, too. This means that the specific proteins a drug is designed to modify can react differently to the medicine over the course of a 24 -hour time period. Because how the body responds to a drug can differ depending on the time it is taken, it logically follows that taking medicines at specific times could help increase their effectiveness and reduce unwanted side effects.\nWhen doctors prescribe medicine for people, they rarely consider the best time to take it. There are two main reasons for that oversight. First, many physicians are not aware that some drugs work better during a specific time of the day. And second, most drugs have not been studied for possible different effects during a 24-hour cycle. Therefore, patients are directed to take most drugs during the morning or evening primarily to ensure compliance.\nOver 50 years ago, researchers found that the cholesterol drug simvastatin is more effective at lowering cholesterol levels when taken at night rather than during the day. This is because the liver enzyme (酶) these drugs target is more active at night.\nTaking medicine at the wrong time can even cause harm. My colleagues and I wondered whether midazolam, the most common sedative (镇静剂) used in surgical procedures worldwide, might interfere with the internal clock that protects the heart at night. Currently, there are no guidelines regarding when midazolam should be administered.\nMore research is needed to determine the best times to administer treatments for different diseases. I believe taking drug timing into account could help make treatments more effective and help more people worldwide."
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Section C"
+        },
+        {
+          "type": "paragraph",
+          "text": "Directions: There are 2 passages in this section. Each passage is followed by some questions or unfinished statements. For each of them there are four choices marked A), B), C) and D). You should decide on the best choice and mark the corresponding letter on Answer Sheet 2 with a single line through the centre."
+        },
+        {
+          "type": "paragraph",
+          "text": "Passage One"
+        },
+        {
+          "type": "paragraph",
+          "text": "Questions 46 to 50 are based on the following passage."
+        },
+        {
+          "type": "paragraph",
+          "text": "All living organisms on Earth are exposed to a 24-hour day-night cycle. This cycle is the reason why people rest at night and are active during the day. Consequently, all human body functions also follow this daily rhythm, and the timing of behaviors like exercise or food intake can significantly influence your health. For example, eating at night can lead to weight gain over time because food intake at night leads to increased fat storage."
+        },
+        {
+          "type": "paragraph",
+          "text": "Many drug targets in the body follow a 24 -hour cycle, too. This means that the specific proteins a drug is designed to modify can react differently to the medicine over the course of a 24 -hour time period. Because how the body responds to a drug can differ depending on the time it is taken, it logically follows that taking medicines at specific times could help increase their effectiveness and reduce unwanted side effects."
+        },
+        {
+          "type": "paragraph",
+          "text": "When doctors prescribe medicine for people, they rarely consider the best time to take it. There are two main reasons for that oversight. First, many physicians are not aware that some drugs work better during a specific time of the day. And second, most drugs have not been studied for possible different effects during a 24-hour cycle. Therefore, patients are directed to take most drugs during the morning or evening primarily to ensure compliance."
+        },
+        {
+          "type": "paragraph",
+          "text": "Over 50 years ago, researchers found that the cholesterol drug simvastatin is more effective at lowering cholesterol levels when taken at night rather than during the day. This is because the liver enzyme (酶) these drugs target is more active at night."
+        },
+        {
+          "type": "paragraph",
+          "text": "Taking medicine at the wrong time can even cause harm. My colleagues and I wondered whether midazolam, the most common sedative (镇静剂) used in surgical procedures worldwide, might interfere with the internal clock that protects the heart at night. Currently, there are no guidelines regarding when midazolam should be administered."
+        },
+        {
+          "type": "paragraph",
+          "text": "More research is needed to determine the best times to administer treatments for different diseases. I believe taking drug timing into account could help make treatments more effective and help more people worldwide."
+        }
+      ],
+      "reason": "按语义分离粘连题目说明和独立选项，恢复同字母匹配段及引语的续行，保留阅读多句自然段。"
+    },
+    {
+      "index": 13,
+      "before": [
+        "46. What do we learn from the passage about the timing of our behaviors?\nA) It has a considerable impact on our health. C) It requires us to follow a particular rhythm.\nB) It confines us to a 24-hour day-night cycle. D) It holds the key to all human body functions.\n47. What does the author say about the proteins in our body?\nA) They can modify the effects of medicines in different ways.\nB) They can reduce unwanted side effects of certain medicines.\nC) Their reaction to medicines changes during the day-night cycle.\nD) Their design determines how differently they react to medicines.\n48. What do doctors do when prescribing medicine for people?\nA) They give little thought to the time of taking it for maximum effect."
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "46. What do we learn from the passage about the timing of our behaviors?"
+        },
+        {
+          "type": "paragraph",
+          "text": "A) It has a considerable impact on our health."
+        },
+        {
+          "type": "paragraph",
+          "text": "C) It requires us to follow a particular rhythm."
+        },
+        {
+          "type": "paragraph",
+          "text": "B) It confines us to a 24-hour day-night cycle."
+        },
+        {
+          "type": "paragraph",
+          "text": "D) It holds the key to all human body functions."
+        },
+        {
+          "type": "paragraph",
+          "text": "47. What does the author say about the proteins in our body?"
+        },
+        {
+          "type": "paragraph",
+          "text": "A) They can modify the effects of medicines in different ways."
+        },
+        {
+          "type": "paragraph",
+          "text": "B) They can reduce unwanted side effects of certain medicines."
+        },
+        {
+          "type": "paragraph",
+          "text": "C) Their reaction to medicines changes during the day-night cycle."
+        },
+        {
+          "type": "paragraph",
+          "text": "D) Their design determines how differently they react to medicines."
+        },
+        {
+          "type": "paragraph",
+          "text": "48. What do doctors do when prescribing medicine for people?"
+        },
+        {
+          "type": "paragraph",
+          "text": "A) They give little thought to the time of taking it for maximum effect."
+        }
+      ],
+      "reason": "按语义分离粘连题目说明和独立选项，恢复同字母匹配段及引语的续行，保留阅读多句自然段。"
+    },
+    {
+      "index": 14,
+      "before": [
+        "B) They rarely consider which medicine works better for which patient.\nC) They tell patients its possible side effects during a period of 24 hours.\nD) They tell patients to comply with the directions of drug manufacturers.\n49. Why do doctors advise patients to take most drugs in the morning or in the evening?\nA) To discourage them from making complaints. C) To comply with new research findings strictly.\nB) To ensure they take the drugs as instructed. D) To guarantee the maximum effect of the drugs.\n50. What does the author suggest near the end of the passage?\nA) Considering drug-taking timing when prescribing drugs for patients.\nB) Making treatments less complex by taking drug timing into account.\nC) Conducting more studies to find out the best timing for treating different diseases.\nD) Finding out the most effective drugs for treating diseases through further research."
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "B) They rarely consider which medicine works better for which patient."
+        },
+        {
+          "type": "paragraph",
+          "text": "C) They tell patients its possible side effects during a period of 24 hours."
+        },
+        {
+          "type": "paragraph",
+          "text": "D) They tell patients to comply with the directions of drug manufacturers."
+        },
+        {
+          "type": "paragraph",
+          "text": "49. Why do doctors advise patients to take most drugs in the morning or in the evening?"
+        },
+        {
+          "type": "paragraph",
+          "text": "A) To discourage them from making complaints."
+        },
+        {
+          "type": "paragraph",
+          "text": "C) To comply with new research findings strictly."
+        },
+        {
+          "type": "paragraph",
+          "text": "B) To ensure they take the drugs as instructed."
+        },
+        {
+          "type": "paragraph",
+          "text": "D) To guarantee the maximum effect of the drugs."
+        },
+        {
+          "type": "paragraph",
+          "text": "50. What does the author suggest near the end of the passage?"
+        },
+        {
+          "type": "paragraph",
+          "text": "A) Considering drug-taking timing when prescribing drugs for patients."
+        },
+        {
+          "type": "paragraph",
+          "text": "B) Making treatments less complex by taking drug timing into account."
+        },
+        {
+          "type": "paragraph",
+          "text": "C) Conducting more studies to find out the best timing for treating different diseases."
+        },
+        {
+          "type": "paragraph",
+          "text": "D) Finding out the most effective drugs for treating diseases through further research."
+        }
+      ],
+      "reason": "按语义分离粘连题目说明和独立选项，恢复同字母匹配段及引语的续行，保留阅读多句自然段。"
+    },
+    {
+      "index": 15,
+      "before": [
+        "Passage Two Questions 51 to 55 are based on the following passage.\nKatharine Abraham, an economics professor, was chatting with her hairdresser ( 理发师) about retirement plans. The economist said she plans to continue working because she wants to. The hairdresser agreed but f or a different reason: She needs the money.\nBoth scenarios (情况) are contributing to a big increase in the number of people in the US working into their 70s. Over the past 20 years, the share of Americans working in their 70s has risen from less than 10% to nearly 15%.\nIn addition to people being healthier and living much longer, economists say that a combination of financial considerations such as years of slow rise in real wages and a shi ft away from traditional pensions in the private sector are some of the reasons people delay retirement. The decline of manufacturing and the increase in the number of people working in less labor -intensive occupations also has contributed to the trend, sa ys Abraham, who researches work and retirement decisions of older Americans.\n“Which matters more depends on what your history up until that point has been in the type of work you’re doing,”\nAbraham says.\nThe overall trend is hitting Americans of all different levels of educational attainment, although the percentages vary by category. The share of Americans with bachelor's degrees who were working into their 70s reached nearly 20% in 2018. For those with a high school degree or less, the proportion of tho se working in their 70s had risen to around 10%, while those with some college education were in the middle at around 15%.\nMartin Neil Baily, an economist who is leading a research project on retirement security, notes that quitting a career can lead to feelings of isolation and loneliness, particularly for men. He suggests that many college-educated workers are choosing to stay in the labor force more f or social benefits than for financial reasons. They’re also more likely to be in professional occupations where they tend to enjoy their work more.\nWorkers in more physical jobs, meanwhile, may be more likely to look forward to retiring, Baily says, suggesting those who stay on are more likely doing so for financial reasons."
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Passage Two"
+        },
+        {
+          "type": "paragraph",
+          "text": "Questions 51 to 55 are based on the following passage."
+        },
+        {
+          "type": "paragraph",
+          "text": "Katharine Abraham, an economics professor, was chatting with her hairdresser ( 理发师) about retirement plans. The economist said she plans to continue working because she wants to. The hairdresser agreed but f or a different reason: She needs the money."
+        },
+        {
+          "type": "paragraph",
+          "text": "Both scenarios (情况) are contributing to a big increase in the number of people in the US working into their 70s. Over the past 20 years, the share of Americans working in their 70s has risen from less than 10% to nearly 15%."
+        },
+        {
+          "type": "paragraph",
+          "text": "In addition to people being healthier and living much longer, economists say that a combination of financial considerations such as years of slow rise in real wages and a shi ft away from traditional pensions in the private sector are some of the reasons people delay retirement. The decline of manufacturing and the increase in the number of people working in less labor -intensive occupations also has contributed to the trend, sa ys Abraham, who researches work and retirement decisions of older Americans."
+        },
+        {
+          "type": "paragraph",
+          "text": "“Which matters more depends on what your history up until that point has been in the type of work you’re doing,” Abraham says."
+        },
+        {
+          "type": "paragraph",
+          "text": "The overall trend is hitting Americans of all different levels of educational attainment, although the percentages vary by category. The share of Americans with bachelor's degrees who were working into their 70s reached nearly 20% in 2018. For those with a high school degree or less, the proportion of tho se working in their 70s had risen to around 10%, while those with some college education were in the middle at around 15%."
+        },
+        {
+          "type": "paragraph",
+          "text": "Martin Neil Baily, an economist who is leading a research project on retirement security, notes that quitting a career can lead to feelings of isolation and loneliness, particularly for men. He suggests that many college-educated workers are choosing to stay in the labor force more f or social benefits than for financial reasons. They’re also more likely to be in professional occupations where they tend to enjoy their work more."
+        },
+        {
+          "type": "paragraph",
+          "text": "Workers in more physical jobs, meanwhile, may be more likely to look forward to retiring, Baily says, suggesting those who stay on are more likely doing so for financial reasons."
+        }
+      ],
+      "reason": "按语义分离粘连题目说明和独立选项，恢复同字母匹配段及引语的续行，保留阅读多句自然段。"
+    },
+    {
+      "index": 16,
+      "before": [
+        "51. What do we learn from the passage about the economics professor and her hairdresser?\nA) They differ in their reasons for continuing to work.\nB) They are both committed to working into their 70s.\nC) They are happy about their current financial situation.\nD) They hold different views about postponing retirement.\n52. What is one of the reasons for people to delay retirement?\nA) More and more people have switched to less intellectually challenging jobs.\nB) The number of jobs suitable for older people has increased in the private sector.\nC) The rate of wage increase in terms of purchasing power has slowed down for years.\nD) More and more people in the workplace find it hard to rely on traditional pensions.\n53. What is the general trend in people delaying retirement?\nA) The higher their earnings, the more likely they are tempted to delay retirement."
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "51. What do we learn from the passage about the economics professor and her hairdresser?"
+        },
+        {
+          "type": "paragraph",
+          "text": "A) They differ in their reasons for continuing to work."
+        },
+        {
+          "type": "paragraph",
+          "text": "B) They are both committed to working into their 70s."
+        },
+        {
+          "type": "paragraph",
+          "text": "C) They are happy about their current financial situation."
+        },
+        {
+          "type": "paragraph",
+          "text": "D) They hold different views about postponing retirement."
+        },
+        {
+          "type": "paragraph",
+          "text": "52. What is one of the reasons for people to delay retirement?"
+        },
+        {
+          "type": "paragraph",
+          "text": "A) More and more people have switched to less intellectually challenging jobs."
+        },
+        {
+          "type": "paragraph",
+          "text": "B) The number of jobs suitable for older people has increased in the private sector."
+        },
+        {
+          "type": "paragraph",
+          "text": "C) The rate of wage increase in terms of purchasing power has slowed down for years."
+        },
+        {
+          "type": "paragraph",
+          "text": "D) More and more people in the workplace find it hard to rely on traditional pensions."
+        },
+        {
+          "type": "paragraph",
+          "text": "53. What is the general trend in people delaying retirement?"
+        },
+        {
+          "type": "paragraph",
+          "text": "A) The higher their earnings, the more likely they are tempted to delay retirement."
+        }
+      ],
+      "reason": "按语义分离粘连题目说明和独立选项，恢复同字母匹配段及引语的续行，保留阅读多句自然段。"
+    },
+    {
+      "index": 17,
+      "before": [
+        "B) Those who have more job satisfaction tend to retire later than those who have less.\nC) More men than women are likely to stay in the labor force until their late seventies.\nD) The higher their educational level, the more likely they are to delay retirement.\n54. What is the chief reason for college-educated workers delaying retirement according to an economist?\nA) Enjoying financial security. C) Contributing more professionally.\nB) Staying connected socially. D) Increasing social security payments.\n55. What does the passage say about people doing manual work?\nA) They are eager to enjoy life after retiring. C) They generally don't enjoy doing it.\nB) They are likely to have financial troubles. D) They tend to anticipate retirement.\n.\nPart IV Translation (30 minutes)\nDirections: For this part, you are allowed 30 minutes to translate a passage from Chinese into English. You should write your answer on Answer Sheet 2."
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "B) Those who have more job satisfaction tend to retire later than those who have less."
+        },
+        {
+          "type": "paragraph",
+          "text": "C) More men than women are likely to stay in the labor force until their late seventies."
+        },
+        {
+          "type": "paragraph",
+          "text": "D) The higher their educational level, the more likely they are to delay retirement."
+        },
+        {
+          "type": "paragraph",
+          "text": "54. What is the chief reason for college-educated workers delaying retirement according to an economist?"
+        },
+        {
+          "type": "paragraph",
+          "text": "A) Enjoying financial security."
+        },
+        {
+          "type": "paragraph",
+          "text": "C) Contributing more professionally."
+        },
+        {
+          "type": "paragraph",
+          "text": "B) Staying connected socially."
+        },
+        {
+          "type": "paragraph",
+          "text": "D) Increasing social security payments."
+        },
+        {
+          "type": "paragraph",
+          "text": "55. What does the passage say about people doing manual work?"
+        },
+        {
+          "type": "paragraph",
+          "text": "A) They are eager to enjoy life after retiring."
+        },
+        {
+          "type": "paragraph",
+          "text": "C) They generally don't enjoy doing it."
+        },
+        {
+          "type": "paragraph",
+          "text": "B) They are likely to have financial troubles."
+        },
+        {
+          "type": "paragraph",
+          "text": "D) They tend to anticipate retirement."
+        },
+        {
+          "type": "paragraph",
+          "text": "."
+        },
+        {
+          "type": "paragraph",
+          "text": "Part IV Translation (30 minutes)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Directions: For this part, you are allowed 30 minutes to translate a passage from Chinese into English. You should write your answer on Answer Sheet 2."
+        }
+      ],
+      "reason": "按语义分离粘连题目说明和独立选项，恢复同字母匹配段及引语的续行，保留阅读多句自然段。"
+    },
+    {
+      "index": 20,
+      "before": [
+        "Part II Listening Comprehension 1 2 3 4 5 6 7 8 9 10 B A B D C A C A D B 11 12 13 14 15 16 17 18 19 20 D C A B A C D B C B 21 22 23 24 25 D D A C B"
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Part II Listening Comprehension"
+        },
+        {
+          "type": "paragraph",
+          "text": "1 2 3 4 5 6 7 8 9 10 B A B D C A C A D B 11 12 13 14 15 16 17 18 19 20 D C A B A C D B C B 21 22 23 24 25 D D A C B"
+        }
+      ],
+      "reason": "按语义分离粘连题目说明和独立选项，恢复同字母匹配段及引语的续行，保留阅读多句自然段。"
+    },
+    {
+      "index": 21,
+      "before": [
+        "Part III Reading Comprehension 26 27 28 29 30 31 32 33 34 35 C N D H J E I O G K 36 37 38 39 40 41 42 43 44 45 E K C O G D L J A H 46 47 48 49 50 51 52 53 54 55 A C A B C A C D B D"
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Part III Reading Comprehension"
+        },
+        {
+          "type": "paragraph",
+          "text": "26 27 28 29 30 31 32 33 34 35 C N D H J E I O G K 36 37 38 39 40 41 42 43 44 45 E K C O G D L J A H 46 47 48 49 50 51 52 53 54 55 A C A B C A C D B D"
+        }
+      ],
+      "reason": "按语义分离粘连题目说明和独立选项，恢复同字母匹配段及引语的续行，保留阅读多句自然段。"
+    }
+  ],
+  "mergeBlocks": [],
+  "blockEdits": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/48add5ce619bbf85c8f8107bdb96c47cdfabb8eba85a8802479f940a36967783.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "a00df68a581c543a8aafef20141dc9684d451248098cd3e9f9a9da2a663b39a3"
+    }
+  ]
+}

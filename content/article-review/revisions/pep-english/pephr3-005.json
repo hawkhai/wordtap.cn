@@ -1,0 +1,134 @@
+{
+  "schemaVersion": 1,
+  "course": "pep-english",
+  "articleId": "pephr3-005",
+  "beforeDisplaySha256": "db44a65226b8f5b2b96ea08e9f9b99673d86a1378650a17490ff26548775664e",
+  "afterDisplaySha256": "db44a65226b8f5b2b96ea08e9f9b99673d86a1378650a17490ff26548775664e",
+  "baselineDisplay": {
+    "title": "The Laba Festival and Laba Porridge",
+    "section": "Project",
+    "text": "The Laba Festival usually occurs about a month before the Chinese Spring Festival. The festival's traditional food is Laba porridge.\nPossible ingredients and steps:\n15 Chinese dates; 5 peeled longan fruit; 3 walnuts; 1/2 cup of sticky rice; 1/4 cup of millet; 1/4 cup of peanuts; 1/4 cup of red beans; 1/4 cup of mung beans; 1/4 cup of raisins.\n1. Wash the rice, millet, peanuts, red beans, and mung beans, and soak them in 2 cups of water overnight.\n2. Put these ingredients and the dates into a pot. Pour in 6 cups of water, and bring the pot to a boil before simmering for one and a half hours over low heat.\n3. Wash the raisins, walnuts, and longan fruit, and then put them into the pot with some sugar before simmering for another 30 minutes.\n4. Turn off the heat and then wait for 10 minutes before serving the porridge.",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "The Laba Festival usually occurs about a month before the Chinese Spring Festival. The festival's traditional food is Laba porridge."
+      },
+      {
+        "type": "subheading",
+        "lang": "en",
+        "text": "Possible ingredients and steps:"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "15 Chinese dates; 5 peeled longan fruit; 3 walnuts; 1/2 cup of sticky rice; 1/4 cup of millet; 1/4 cup of peanuts; 1/4 cup of red beans; 1/4 cup of mung beans; 1/4 cup of raisins."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "1. Wash the rice, millet, peanuts, red beans, and mung beans, and soak them in 2 cups of water overnight."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "2. Put these ingredients and the dates into a pot. Pour in 6 cups of water, and bring the pot to a boil before simmering for one and a half hours over low heat."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "3. Wash the raisins, walnuts, and longan fruit, and then put them into the pot with some sugar before simmering for another 30 minutes."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "4. Turn off the heat and then wait for 10 minutes before serving the porridge."
+      }
+    ]
+  },
+  "display": {
+    "title": "The Laba Festival and Laba Porridge",
+    "section": "Project",
+    "text": "The Laba Festival usually occurs about a month before the Chinese Spring Festival. The festival's traditional food is Laba porridge.\nPossible ingredients and steps:\n15 Chinese dates; 5 peeled longan fruit; 3 walnuts; 1/2 cup of sticky rice; 1/4 cup of millet; 1/4 cup of peanuts; 1/4 cup of red beans; 1/4 cup of mung beans; 1/4 cup of raisins.\n1. Wash the rice, millet, peanuts, red beans, and mung beans, and soak them in 2 cups of water overnight.\n2. Put these ingredients and the dates into a pot. Pour in 6 cups of water, and bring the pot to a boil before simmering for one and a half hours over low heat.\n3. Wash the raisins, walnuts, and longan fruit, and then put them into the pot with some sugar before simmering for another 30 minutes.\n4. Turn off the heat and then wait for 10 minutes before serving the porridge.",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "The Laba Festival usually occurs about a month before the Chinese Spring Festival. The festival's traditional food is Laba porridge."
+      },
+      {
+        "type": "subheading",
+        "lang": "en",
+        "text": "Possible ingredients and steps:"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "15 Chinese dates; 5 peeled longan fruit; 3 walnuts; 1/2 cup of sticky rice; 1/4 cup of millet; 1/4 cup of peanuts; 1/4 cup of red beans; 1/4 cup of mung beans; 1/4 cup of raisins."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "1. Wash the rice, millet, peanuts, red beans, and mung beans, and soak them in 2 cups of water overnight."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "2. Put these ingredients and the dates into a pot. Pour in 6 cups of water, and bring the pot to a boil before simmering for one and a half hours over low heat."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "3. Wash the raisins, walnuts, and longan fruit, and then put them into the pot with some sugar before simmering for another 30 minutes."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "4. Turn off the heat and then wait for 10 minutes before serving the porridge."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "path": "content/article-review/history/07c0f6f076826173829e8fdef27f7056e66551fd41173ff7ce6141406ec6e18c.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "c267b448bf67e7fdc5cb48cae4f43f22f7ef5ffcc70387f57d54c5d874c419a2"
+    }
+  ],
+  "corrections": [],
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "reviewer": "Codex",
+  "reviewedAt": "2026-10-07T07:30:19+00:00",
+  "notes": "腊八粥介绍、材料步骤标题、分号材料清单及四个编号步骤各自完整，保留独立步骤。",
+  "issues": [],
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "93f10e1d2f3bda75cde49c062d7021f2cfb53937730a7f4d560ffb8e815a0388",
+    "afterFileSha256": "93f10e1d2f3bda75cde49c062d7021f2cfb53937730a7f4d560ffb8e815a0388",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "93f10e1d2f3bda75cde49c062d7021f2cfb53937730a7f4d560ffb8e815a0388",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..6] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "腊八粥介绍、材料步骤标题、分号材料清单及四个编号步骤各自完整，保留独立步骤。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/07c0f6f076826173829e8fdef27f7056e66551fd41173ff7ce6141406ec6e18c.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "c267b448bf67e7fdc5cb48cae4f43f22f7ef5ffcc70387f57d54c5d874c419a2"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "07c0f6f076826173829e8fdef27f7056e66551fd41173ff7ce6141406ec6e18c"
+}

@@ -1,0 +1,31 @@
+{
+  "articleId": "cet4-20191202",
+  "checkedAt": "2026-10-02",
+  "sources": [
+    {
+      "url": "https://news.emory.edu/stories/2018/03/researchers-determine-routes-respiratory-infectious-disease-transmission-aircraft",
+      "access": "search returned full university research release",
+      "finding": "飞沫接触模型，以10航班活动数据模拟；不是实测感染率。"
+    },
+    {
+      "url": "https://www.eurekalert.org/news-releases/548841",
+      "access": "search returned original PNAS news release",
+      "finding": "2018-03-19模型近邻80%以上、其余小于3%。"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3708498/",
+      "access": "search abstract read; full-page reopening returned browser challenge",
+      "finding": "2013卵DNA基因组研究未发现藻核基因进入E.chlorotica生殖系证据。"
+    },
+    {
+      "url": "https://elifesciences.org/articles/60176",
+      "access": "search detailed results read; open returned challenge",
+      "finding": "2021 P.ocellatus基因组与跨物种既有研究，不支持依赖藻类核基因转移的解释。"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6636991/",
+      "access": "search article summary read; open returned challenge",
+      "finding": "2019海洋扁形动物功能性盗食质体报告，排除唯一动物说法。"
+    }
+  ]
+}

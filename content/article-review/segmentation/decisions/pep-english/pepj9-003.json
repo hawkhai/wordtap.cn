@@ -1,0 +1,22 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "b592d153697c71e5951c8c492f4899712635d9eb9fd652457818ecd1cdc67566",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title；全文 blocks[0..9] 与对应 text；现有正文/对话/题干逐块通读复核。",
+  "notes": "成功学习四个习惯小标题及解释段，首尾引言总结清楚，保持标题和整段例证。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "blockEdits": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/5be3ec573abbca8f5dda42fa39d785ab9d4ffdcdd8559986e5f86f2e4b678c4f.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "129cc253db0e81dbe635418761a105a0ef46a85afcbe72f430e249c688b3629e"
+    }
+  ]
+}

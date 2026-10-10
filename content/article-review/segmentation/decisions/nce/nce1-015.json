@@ -1,0 +1,26 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "d29ba9fa4cde8d9f4a71d8631a331e18861828c15135fbcb79add3c6e182fec3",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title/titleZh、question/questionZh、bodyText全部18行、bodyTextZh全部18行及sentences[0..21]的完整文字；重复正文与字幕文本逐字比对，非正文字幕另读。操作在内存应用并validate_layout_change，修复后的双语全文重新通读。",
+  "notes": "查验护照；否定加国籍说明、箱子归属加颜色展示各自合段，海关提问与旅客回应不混并。 text与bodyText同步；sentences对象及时间、角色、索引原样保留。",
+  "issues": [],
+  "display": {
+    "text": "Is there a problem with the Customs officer?\n\nAre you Swedish?\nNo we are not. We are Danish.\nAre your friends Danish too?\nNo they aren't. They are Norwegian.\nYour passports please.\nHere they are.\nAre these your cases?\nNo they aren't. Our cases are brown. Here they are.\nAre you tourists?\nYes we are.\nAre your friends tourists too?\nYes they are.\nThat's fine.\nThank you very much.",
+    "bodyText": "Are you Swedish?\nNo we are not. We are Danish.\nAre your friends Danish too?\nNo they aren't. They are Norwegian.\nYour passports please.\nHere they are.\nAre these your cases?\nNo they aren't. Our cases are brown. Here they are.\nAre you tourists?\nYes we are.\nAre your friends tourists too?\nYes they are.\nThat's fine.\nThank you very much.",
+    "bodyTextZh": "你是瑞典人吗？\n不，我们不是。我们是丹麦人。\n你的朋友们也是丹麦人吗？\n不，他们不是。他们是挪威人。\n请出示你们的护照。\n给您。\n这些是你的箱子吗？\n不，它们不是。我们的箱子是棕色的。给您。\n你们是游客吗？\n是的，我们是。\n你们的朋友也是游客吗？\n是的，他们也是游客。\n好了。 没问题了。\n非常感谢你们。"
+  },
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/b10ab22c0c3462a724ee92050ffdc8d850add6cf2221ce0599629a38f2d599be.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "664df1a97f313d65f6aaf329dfe8ac06dd686886f974050ef442a1f4ad6c7134"
+    }
+  ]
+}

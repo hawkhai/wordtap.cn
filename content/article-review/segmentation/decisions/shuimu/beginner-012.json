@@ -1,0 +1,259 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "c96fba58f1177d296f8752644361fcf2bc6b642fac2fbed90e2c6e1c83d63b72",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "coverage": "全文 blocks[0..80]；按 JSON 上下文逐项复核对话、解释、题目、表格、词表及修复后的边界。",
+  "notes": "十四组进行时对话英中各自分块；be 动词对应表和语法条目完整，51 为一个双语列表例句保留内部换行。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [
+    {
+      "index": 3,
+      "before": [
+        "——Where’s Sally, Jack?\n杰克，萨利在哪？"
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "——Where’s Sally, Jack?"
+        },
+        {
+          "type": "paragraph",
+          "text": "杰克，萨利在哪？"
+        }
+      ],
+      "reason": "现有换行明确区分英文与对应中文，各自成块，保留原文顺序和对话轮次。"
+    },
+    {
+      "index": 4,
+      "before": [
+        "——She’s in the garden, Jane.\n简，她在花园里。"
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "——She’s in the garden, Jane."
+        },
+        {
+          "type": "paragraph",
+          "text": "简，她在花园里。"
+        }
+      ],
+      "reason": "现有换行明确区分英文与对应中文，各自成块，保留原文顺序和对话轮次。"
+    },
+    {
+      "index": 5,
+      "before": [
+        "——What’s she doing?\n她在干嘛呢？"
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "——What’s she doing?"
+        },
+        {
+          "type": "paragraph",
+          "text": "她在干嘛呢？"
+        }
+      ],
+      "reason": "现有换行明确区分英文与对应中文，各自成块，保留原文顺序和对话轮次。"
+    },
+    {
+      "index": 6,
+      "before": [
+        "——She’s sitting under the tree.\n她正在树下坐着。"
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "——She’s sitting under the tree."
+        },
+        {
+          "type": "paragraph",
+          "text": "她正在树下坐着。"
+        }
+      ],
+      "reason": "现有换行明确区分英文与对应中文，各自成块，保留原文顺序和对话轮次。"
+    },
+    {
+      "index": 7,
+      "before": [
+        "——Is Tim in the garden, too?\n蒂姆也在花园里吗？"
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "——Is Tim in the garden, too?"
+        },
+        {
+          "type": "paragraph",
+          "text": "蒂姆也在花园里吗？"
+        }
+      ],
+      "reason": "现有换行明确区分英文与对应中文，各自成块，保留原文顺序和对话轮次。"
+    },
+    {
+      "index": 8,
+      "before": [
+        "——Yes, he is.\n是的，他也在。"
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "——Yes, he is."
+        },
+        {
+          "type": "paragraph",
+          "text": "是的，他也在。"
+        }
+      ],
+      "reason": "现有换行明确区分英文与对应中文，各自成块，保留原文顺序和对话轮次。"
+    },
+    {
+      "index": 9,
+      "before": [
+        "He’s climbing the tree.\n他在爬树。"
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "He’s climbing the tree."
+        },
+        {
+          "type": "paragraph",
+          "text": "他在爬树。"
+        }
+      ],
+      "reason": "现有换行明确区分英文与对应中文，各自成块，保留原文顺序和对话轮次。"
+    },
+    {
+      "index": 10,
+      "before": [
+        "——I beg your pardon?\n你说什么？"
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "——I beg your pardon?"
+        },
+        {
+          "type": "paragraph",
+          "text": "你说什么？"
+        }
+      ],
+      "reason": "现有换行明确区分英文与对应中文，各自成块，保留原文顺序和对话轮次。"
+    },
+    {
+      "index": 11,
+      "before": [
+        "Who’s climbing the tree?\n谁在爬树？"
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Who’s climbing the tree?"
+        },
+        {
+          "type": "paragraph",
+          "text": "谁在爬树？"
+        }
+      ],
+      "reason": "现有换行明确区分英文与对应中文，各自成块，保留原文顺序和对话轮次。"
+    },
+    {
+      "index": 12,
+      "before": [
+        "——Tim is.\n是蒂姆。"
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "——Tim is."
+        },
+        {
+          "type": "paragraph",
+          "text": "是蒂姆。"
+        }
+      ],
+      "reason": "现有换行明确区分英文与对应中文，各自成块，保留原文顺序和对话轮次。"
+    },
+    {
+      "index": 13,
+      "before": [
+        "——What about the dog?\n那么狗狗呢？"
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "——What about the dog?"
+        },
+        {
+          "type": "paragraph",
+          "text": "那么狗狗呢？"
+        }
+      ],
+      "reason": "现有换行明确区分英文与对应中文，各自成块，保留原文顺序和对话轮次。"
+    },
+    {
+      "index": 14,
+      "before": [
+        "——The dog’s in the garden, too.\n狗也在花园里。"
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "——The dog’s in the garden, too."
+        },
+        {
+          "type": "paragraph",
+          "text": "狗也在花园里。"
+        }
+      ],
+      "reason": "现有换行明确区分英文与对应中文，各自成块，保留原文顺序和对话轮次。"
+    },
+    {
+      "index": 15,
+      "before": [
+        "It’s running across the grass.\n它正在草地上跑。"
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "It’s running across the grass."
+        },
+        {
+          "type": "paragraph",
+          "text": "它正在草地上跑。"
+        }
+      ],
+      "reason": "现有换行明确区分英文与对应中文，各自成块，保留原文顺序和对话轮次。"
+    },
+    {
+      "index": 16,
+      "before": [
+        "It’s running after a cat.\n它在追一只猫。"
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "It’s running after a cat."
+        },
+        {
+          "type": "paragraph",
+          "text": "它在追一只猫。"
+        }
+      ],
+      "reason": "现有换行明确区分英文与对应中文，各自成块，保留原文顺序和对话轮次。"
+    }
+  ],
+  "sources": [
+    {
+      "path": "content/article-review/history/9ef3c3f2cac62f5656c263d598c200e55cb510d0ebc1a4dd8afc28576a997905.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "68d882561fab55a201e3da45cd8ce60b59d68e6d6962bc73bef1e6d3f121262a"
+    }
+  ]
+}

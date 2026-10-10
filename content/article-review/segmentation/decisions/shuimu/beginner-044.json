@@ -1,0 +1,114 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "86761c88aac47d7e6ae0451e924216c895f348be73b12e482b0bdaaf0444f64f",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "coverage": "全文 blocks[0..155]；按 JSON 上下文逐项复核对话、解释、题目、表格、词表及修复后的边界。",
+  "notes": "全文复核旅行对话、worry/look after/stay、插入语及词表。仅衔接中文截词和跨行英文词组；谁照料狗、房子、花园的双语问句各自保留。原文动词不定时等疑义不修改。",
+  "issues": [],
+  "mergeBlocks": [
+    {
+      "start": 33,
+      "end": 35,
+      "before": [
+        "◦ worry 可作及物动词和不及物动词，意为“（使）烦恼”“（使）焦",
+        "虑”“担心”“发愁”等。第三人称单数：worries，现在分词：worrying,",
+        "过去式：worried, 过去分词：worried"
+      ],
+      "text": "◦ worry 可作及物动词和不及物动词，意为“（使）烦恼”“（使）焦虑”“担心”“发愁”等。第三人称单数：worries，现在分词：worrying, 过去式：worried, 过去分词：worried",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 38,
+      "end": 39,
+      "before": [
+        "▫ They are worrying about the terrible weather.他们担心天气很不",
+        "好。"
+      ],
+      "text": "▫ They are worrying about the terrible weather.他们担心天气很不好。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 43,
+      "end": 44,
+      "before": [
+        "◦ worried 和 worrying 都可以作形容词，前者表示“烦恼的”“焦虑的”，用",
+        "来修饰人；后者表示“令人烦恼的”“令人焦虑的”，用来修饰物"
+      ],
+      "text": "◦ worried 和 worrying 都可以作形容词，前者表示“烦恼的”“焦虑的”，用来修饰人；后者表示“令人烦恼的”“令人焦虑的”，用来修饰物",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 53,
+      "end": 54,
+      "before": [
+        "◦ 动词+介词的组成的词组，一般作谓语，意为“照料”“照顾”“注意”“关",
+        "心”等。"
+      ],
+      "text": "◦ 动词+介词的组成的词组，一般作谓语，意为“照料”“照顾”“注意”“关心”等。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 73,
+      "end": 75,
+      "before": [
+        "◦ stay 可用作及物动词和不及物动词，也可以作系动词，还有名词词性。作及",
+        "物动词时意为“停留、停止、坚持、抑制”；作不及物动词时常意为“继续",
+        "处于某种状态”；作名词时意为“逗留、倚靠、忍耐、延期”等。"
+      ],
+      "text": "◦ stay 可用作及物动词和不及物动词，也可以作系动词，还有名词词性。作及物动词时意为“停留、停止、坚持、抑制”；作不及物动词时常意为“继续处于某种状态”；作名词时意为“逗留、倚靠、忍耐、延期”等。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 96,
+      "end": 97,
+      "before": [
+        "插入语在句中的作用，主要是用来表示说话人对某事物的看法、态度和推测，有时起",
+        "到解释、说明、总结等作用。插入语的用法很多，在句中的位置也很灵活。"
+      ],
+      "text": "插入语在句中的作用，主要是用来表示说话人对某事物的看法、态度和推测，有时起到解释、说明、总结等作用。插入语的用法很多，在句中的位置也很灵活。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 99,
+      "end": 100,
+      "before": [
+        "常用作插入语的分词短语有：generally speaking, judging from/by, talking of,",
+        "strictly speaking, considering, putting it mildly 等。"
+      ],
+      "text": "常用作插入语的分词短语有：generally speaking, judging from/by, talking of, strictly speaking, considering, putting it mildly 等。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 113,
+      "end": 114,
+      "before": [
+        "常用作插入语的动词不定时有：to be sure, to be frank, to tell you the truth, so",
+        "to speak, to speak of, to be short, to begin with 等。"
+      ],
+      "text": "常用作插入语的动词不定时有：to be sure, to be frank, to tell you the truth, so to speak, to speak of, to be short, to begin with 等。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 128,
+      "end": 130,
+      "before": [
+        "常用作插入语的短句有：if so, if not, if you don't mind, as you know, as you",
+        "say, if necessary, if convenient, as it happens, I believe/suppose/hope/think,",
+        "do you know, that is to say, what's more 等。"
+      ],
+      "text": "常用作插入语的短句有：if so, if not, if you don't mind, as you know, as you say, if necessary, if convenient, as it happens, I believe/suppose/hope/think, do you know, that is to say, what's more 等。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    }
+  ],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/507c2874bbcb26127061cb3d7ef7e352938147e3672791499b8d5c024846f85e.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "eebf4f10901086c293240c60a6169a826af5d9170057a69b1d6f264118141f8d"
+    }
+  ]
+}

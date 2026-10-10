@@ -1,0 +1,21 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "a90f070b1858d727ee1a06959d361ffab421ae84d01d6e91634de66f745d485c",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title；全文 blocks[0..0] 与对应 text；现有正文/对话/题干逐块通读复核。",
+  "notes": "都江堰从历史建造、治水工程到鱼嘴及持续作用为完整说明单段，保留。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/bb0c6d38c8eb869e257289f17a095ea6c71c73c5510028f49c4cec8b4b806722.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "e9ed34adee47d1f8829b6491eab95555b4da8e16f512e8b66ee84f38537d9df9"
+    }
+  ]
+}

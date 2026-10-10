@@ -1,0 +1,42 @@
+{
+  "article": "postgraduate/volume2-09",
+  "fullRead": "34块17组英中全文；translate2.tex第九节全文逐字对照；独立外部依据只用于明确的事实编辑，不冒充原刊复原。",
+  "originalAccess": {
+    "brainconnection.brainhq.com": "重新请求DNS失败",
+    "brainconnection.positscience.com/content/172_1": "重新请求DNS失败",
+    "brainconnection.com/2001/12/04/how-mass-media-affect-our-perception-of-reality-part-1/": "HTTP404；原刊不可获得，明确使用编辑校订本，不宣称已验证原刊。"
+  },
+  "sources": [
+    {
+      "url": "https://content.ucpress.edu/pages/9436/9436.ch04.pdf",
+      "read": "大学出版社书章印刷138页、PDF物理35页839–851行，作者讨论并引用Daniel Boorstin The Image名人定义，非AndyWarhol；只借用归属和已有教材定义，不扩充书章。"
+    },
+    {
+      "url": "https://www.archives.gov/founding-docs/bill-of-rights/what-does-it-say",
+      "read": "53–57行First Amendment言论新闻出版保护；后续思想市场论证标为观点，不作为所有虚假信息一概豁免的法律规则。"
+    },
+    {
+      "url": "https://collection.911memorial.org/Detail/objects/119115",
+      "read": "9/11博物馆藏品Remembrance策展说明29–32行明确NYT Portraits of Grief遇难者肖像系列；以确认报道存在替换未获支持的所有遇难者办公室职员/所有报纸为所有人写讣告的过度概括。"
+    },
+    {
+      "url": "https://wajofel.org/index.php/wajofel/article/download/308/308",
+      "read": "参考文献212页搜索可读条目证实Sylwester2001题名；不以参考文献代替原文，不以2013博客转载校勘措辞。"
+    }
+  ],
+  "editorialCorrections": [
+    "所有既有疑义采取明确编辑校订路径：原刊和官方中译仍未取得，不再要求先恢复未知版本才可纠错；导读公开说明编辑本身份和2001语境。",
+    "tolerate of不及物误用改直接宾语，several thousands句整句重写以消除错误泛化；孤立4.为编辑统一去除而非臆称原刊无编号；英文中文句号、破折号混排、段内The大写更正。",
+    "名人定义归属改DanielBoorstin；宪法句按第一修正案准确限定；思想市场论点加On that view；遇难者报道改已确认NYT系列，不断言职业、总人数或全面覆盖。",
+    "skyscraper complex楼群非一幢；what to make of如何理解非问怎样改装；festering积累矛盾非必文化衰败；总统问句不加勇于承担责任。",
+    "narrow message狭窄视角讯息，不自相矛盾译为受众面狭小再求受众；admissions门票非加盟许可；program内容非必新闻事件，score迅速争取关注非体育得分。",
+    "contentsequences节目片段非内容顺序；commercialism商业主义；Afghan人国形容词、Afghani货币词在此编辑订正；迸发字形。",
+    "hellandbrimstone与sexualpurity均修饰布道，不直接举实际地狱酷刑；美式足球语境和chips薯片；no新增教会价值判断。",
+    "severely criticized只修饰纽约市长，中文不得扩及全国警察消防员；financialdownturn经济下滑非必金融危机；syndicated多报联合刊登非名为辛迪加的报业公司。",
+    "narrowlydefined专门定位而非狭义概念，网站主题狭窄非局域网；reducedneed减少依赖不夸成完全无需；9“11统一九一一、中文标点与中点。"
+  ],
+  "translationReview": [
+    "全篇17组依次核对：九一一前后、媒介议程、地球村、收入渠道、新闻淡季、宽泛媒体定义、言论自由、竞争、注意力、生存需求、情感内容、教会体育、遇难者报道、集中与意见多样、专业杂志电台、互联网出版及文化悖论；保持作者年代背景与论证，不当成当前统计或神经学定律。"
+  ],
+  "unresolved": []
+}

@@ -1,0 +1,26 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "fa68eb0757704bdc154f38b02796161a74024a7b59160104a5275a530d916645",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title/titleZh、question/questionZh、bodyText全部15行、bodyTextZh全部15行及sentences[0..18]的完整文字；重复正文与字幕文本逐字比对，非正文字幕另读。操作在内存应用并validate_layout_change，修复后的双语全文重新通读。",
+  "notes": "三张村庄照片分别构成完整自然段：村庄地理、河岸夫妇与游泳男孩、学校公园与儿童。 text与bodyText同步；sentences对象及时间、角色、索引原样保留。",
+  "issues": [],
+  "display": {
+    "text": "Are the children coming out of the park or going into it?\n\nThis is a photograph of our village. Our village is in a valley. It is between two hills. The village is on a river.\nHere is another photograph of the village. My wife and I are walking along the banks of the river. We are on the left. There is a boy in the water. He is swimming across the river.\nHere is another photograph. This is the school building. It is beside a park. The park is on the right. Some children are coming out of the building. Some of them are going into the park.",
+    "bodyText": "This is a photograph of our village. Our village is in a valley. It is between two hills. The village is on a river.\nHere is another photograph of the village. My wife and I are walking along the banks of the river. We are on the left. There is a boy in the water. He is swimming across the river.\nHere is another photograph. This is the school building. It is beside a park. The park is on the right. Some children are coming out of the building. Some of them are going into the park.",
+    "bodyTextZh": "这是一张我们村庄的照片。我们的村庄在一个山谷里。它在两座小山之间。这个村庄在一条河边。\n这是另一张村庄的照片。我和我的妻子正在河边散步。我们在左边。水里有一个男孩。他正在游过这条河。\n这是另一张照片。这是学校大楼。它在一个公园旁边。公园在右边。一些孩子正从大楼里走出来。其中一些人正前往公园。"
+  },
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/c0593782acef33a8eea55ab344469d2d974b4fef89920da3b8d3bf9308ba89ed.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "5c97c94f58d95d82258c48514e5a74f7233c31a2a40f856aa0dd305abc7bacb1"
+    }
+  ]
+}

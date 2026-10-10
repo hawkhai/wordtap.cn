@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 1,
+  "course": "pep-english",
+  "articleId": "pephs3-017",
+  "beforeDisplaySha256": "e9ad34bb5409d28f6532509c5630b9062ce20d0e898731187179ff48bce1904f",
+  "afterDisplaySha256": "e9ad34bb5409d28f6532509c5630b9062ce20d0e898731187179ff48bce1904f",
+  "baselineDisplay": {
+    "title": "Appreciating the Poem Dream",
+    "section": "Using Language",
+    "text": "The poem Dream by Langston Hughes is very short with only 8 lines. When I read the poem aloud I can hear that the ends of the second and fourth sentences rhyme—“die” and “fly”. The last word from the sixth and eighth sentences also rhyme—“go” and “snow”. These rhyming words sound nice and make the poem pleasing to read.\nWhen I close my eyes, I can see different images from the poem. For example, I can see two hands being held. I can see a bird flying in the sky. I can see a field and I can imagine what it looks like with lots of snow. I start to feel cold when I read these lines!\nI learnt a new phrase, “hold fast”, which means to hold onto something. “Barren” is also a new word to me, which means empty.\nI think the poet is giving us advice. He wants us to keep dreaming, because life is much better when we dream and have something to look forward to.",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "The poem Dream by Langston Hughes is very short with only 8 lines. When I read the poem aloud I can hear that the ends of the second and fourth sentences rhyme—“die” and “fly”. The last word from the sixth and eighth sentences also rhyme—“go” and “snow”. These rhyming words sound nice and make the poem pleasing to read."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "When I close my eyes, I can see different images from the poem. For example, I can see two hands being held. I can see a bird flying in the sky. I can see a field and I can imagine what it looks like with lots of snow. I start to feel cold when I read these lines!"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "I learnt a new phrase, “hold fast”, which means to hold onto something. “Barren” is also a new word to me, which means empty."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "I think the poet is giving us advice. He wants us to keep dreaming, because life is much better when we dream and have something to look forward to."
+      }
+    ]
+  },
+  "display": {
+    "title": "Appreciating the Poem Dream",
+    "section": "Using Language",
+    "text": "The poem Dream by Langston Hughes is very short with only 8 lines. When I read the poem aloud I can hear that the ends of the second and fourth sentences rhyme—“die” and “fly”. The last word from the sixth and eighth sentences also rhyme—“go” and “snow”. These rhyming words sound nice and make the poem pleasing to read.\nWhen I close my eyes, I can see different images from the poem. For example, I can see two hands being held. I can see a bird flying in the sky. I can see a field and I can imagine what it looks like with lots of snow. I start to feel cold when I read these lines!\nI learnt a new phrase, “hold fast”, which means to hold onto something. “Barren” is also a new word to me, which means empty.\nI think the poet is giving us advice. He wants us to keep dreaming, because life is much better when we dream and have something to look forward to.",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "The poem Dream by Langston Hughes is very short with only 8 lines. When I read the poem aloud I can hear that the ends of the second and fourth sentences rhyme—“die” and “fly”. The last word from the sixth and eighth sentences also rhyme—“go” and “snow”. These rhyming words sound nice and make the poem pleasing to read."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "When I close my eyes, I can see different images from the poem. For example, I can see two hands being held. I can see a bird flying in the sky. I can see a field and I can imagine what it looks like with lots of snow. I start to feel cold when I read these lines!"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "I learnt a new phrase, “hold fast”, which means to hold onto something. “Barren” is also a new word to me, which means empty."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "I think the poet is giving us advice. He wants us to keep dreaming, because life is much better when we dream and have something to look forward to."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "path": "content/article-review/history/db2fdc5a72ddb215619ee75cc03f7e4ad9fab6d233b551961316231751b10a8a.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "9822a210dd8e194733f2d732740a8320300f40a9903c6beb6d13126898d1350f"
+    }
+  ],
+  "corrections": [],
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "reviewer": "Codex",
+  "reviewedAt": "2026-10-07T07:35:51+00:00",
+  "notes": "Dream赏析四段分别韵脚、意象、词义、主题理解，完整段落及词义例子保留。",
+  "issues": [],
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "9be4907d28d5372f7d782cb0b1f6201c6b528c6258c66951ae677e1568005e52",
+    "afterFileSha256": "9be4907d28d5372f7d782cb0b1f6201c6b528c6258c66951ae677e1568005e52",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "9be4907d28d5372f7d782cb0b1f6201c6b528c6258c66951ae677e1568005e52",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..3] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "Dream赏析四段分别韵脚、意象、词义、主题理解，完整段落及词义例子保留。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/db2fdc5a72ddb215619ee75cc03f7e4ad9fab6d233b551961316231751b10a8a.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "9822a210dd8e194733f2d732740a8320300f40a9903c6beb6d13126898d1350f"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "db2fdc5a72ddb215619ee75cc03f7e4ad9fab6d233b551961316231751b10a8a"
+}

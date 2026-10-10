@@ -1,0 +1,21 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "740e95d22ab6646c1b2a7a01b0092e3f7c01cc143dc86eb7b5df47ea4592d357",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title；全文 blocks[0..5] 与对应 text；现有正文/对话/题干逐块通读复核。",
+  "notes": "爱因斯坦传记六段概述、求学、职业科研、流亡、性格轶事与逝世各自完整，保留。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/ae2e59e9078fa8610436338716094ffaf7887406ff8282524958052a0c7b4d48.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "ad84683e84d75e504deb848119d4108f7dbe32482ad07a724682539b0d3f4df4"
+    }
+  ]
+}

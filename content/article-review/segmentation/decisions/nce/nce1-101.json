@@ -1,0 +1,26 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "b9f3838e9b1c1f7cf4f1875ade7d11efacb38e481f432050ad07c8d8ed221637",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title/titleZh、question/questionZh、bodyText全部20行、bodyTextZh全部20行及sentences[0..23]的完整文字；重复正文与字幕文本逐字比对，非正文字幕另读。操作在内存应用并validate_layout_change，修复后的双语全文重新通读。",
+  "notes": "Jimmy明信片；Penny转述到达及旅舍身份、YHA展开、卡片的将写信问候、祖母听不清请求及嫌文字少各按话轮合段，Love Jimmy署名独立。 text与bodyText同步；sentences对象及时间、角色、索引原样保留。",
+  "issues": [],
+  "display": {
+    "text": "Does grandmother seem pleased to get a card from Jimmy? Why/Why not?\n\nRead Jimmy's card to me please, Penny.\n'I have just arrived in Scotland and I'm staying at a Youth Hostel.'\nEh?\nHe says he's just arrived in Scotland. He says he's staying at a Youth Hostel. You know he's a member of the Y.H.A.\nThe what?\nThe Y.H.A., Mum. The Youth Hostels Association.\nWhat else does he say?\n'I'll write a letter soon. I hope you are all well.'\nWhat? Speak up, Penny. I'm afraid I can't hear you.\nHe says he'll write a letter soon. He hopes we are all well.\n'Love, Jimmy.'\nIs that all? He doesn't say very much, does he?\nHe can't write very much on a card, Mum.",
+    "bodyText": "Read Jimmy's card to me please, Penny.\n'I have just arrived in Scotland and I'm staying at a Youth Hostel.'\nEh?\nHe says he's just arrived in Scotland. He says he's staying at a Youth Hostel. You know he's a member of the Y.H.A.\nThe what?\nThe Y.H.A., Mum. The Youth Hostels Association.\nWhat else does he say?\n'I'll write a letter soon. I hope you are all well.'\nWhat? Speak up, Penny. I'm afraid I can't hear you.\nHe says he'll write a letter soon. He hopes we are all well.\n'Love, Jimmy.'\nIs that all? He doesn't say very much, does he?\nHe can't write very much on a card, Mum.",
+    "bodyTextZh": "请把吉米的卡片内容读给我听，佩妮。\n我刚到苏格兰，现在住在一家青年旅舍里。\n啊？\n他说他刚刚抵达苏格兰。他说他现在住在一家青年旅舍里。你知道他是 Y.H.A. 的成员。\n什么协会？\n是 Y.H.A.，妈妈。青年旅舍协会。\n他还说了什么？\n我很快就会写一封信。我希望你们大家都一切都好。\n什么？大声点，佩妮。恐怕我听不清你的话。\n他说他很快就会写一封信。他希望我们都很好。\n“爱你的，吉米。”\n就这些吗？他说话不多，对吧？\n妈妈，他在卡片上写不了太多内容。"
+  },
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/3b8474575457cfd0f9b6a2e8fb518e7efb02aab544a44848c6d895a9c8cb68a5.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "d1b10478399de9f637fc223a9bad7ca2d4fdb4beb31043756f573e87a338c34a"
+    }
+  ]
+}

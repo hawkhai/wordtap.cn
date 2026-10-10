@@ -1,0 +1,196 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "b063abfb4dd54447db0b830ecfdb25a06bfe6558b8439a1259c68b519335ec09",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "coverage": "全文 blocks[0..169]；按 JSON 上下文逐项复核对话、解释、题目、表格、词表及修复后的边界。",
+  "notes": "全文复核跨年故事、练习与答案、原因状语从句、芝加哥热狗文化全文。恢复Town Hall和摘要、Considering释义、说明截词及三组文化段落；保留问答轮次、正确/错误示例和词表。缺引号、热狗译文等文误不改。",
+  "issues": [],
+  "mergeBlocks": [
+    {
+      "start": 17,
+      "end": 18,
+      "before": [
+        "It was the last day of the year and a large crowd of people had gathered under the",
+        "Town Hall clock."
+      ],
+      "text": "It was the last day of the year and a large crowd of people had gathered under the Town Hall clock.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 44,
+      "end": 47,
+      "before": [
+        "Answer: We went to the Town Hall on New Year’s Eve. There were a lot of",
+        "people there. The Town Hall clock would strike twelve in twenty minutes’ time.",
+        "It stopped at five to twelve. It refused to welcome the New Year. Then the",
+        "crowd began to laugh and sing."
+      ],
+      "text": "Answer: We went to the Town Hall on New Year’s Eve. There were a lot of people there. The Town Hall clock would strike twelve in twenty minutes’ time. It stopped at five to twelve. It refused to welcome the New Year. Then the crowd began to laugh and sing.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 75,
+      "end": 76,
+      "before": [
+        "As 由于 Seeing(that) 由于，因为，鉴于 Considering(that)",
+        "考虑到，鉴于"
+      ],
+      "text": "As 由于 Seeing(that) 由于，因为，鉴于 Considering(that) 考虑到，鉴于",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 77,
+      "end": 78,
+      "before": [
+        "▪ because的意思是“因为”，表示直接原因，语气最重，常用来回答why(为什",
+        "么)引导的特殊疑问句。"
+      ],
+      "text": "▪ because的意思是“因为”，表示直接原因，语气最重，常用来回答why(为什么)引导的特殊疑问句。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 85,
+      "end": 86,
+      "before": [
+        "▪ 尽管在汉语中“因为……，所以……”常一起使用，但在英语中because不能",
+        "和so连用。"
+      ],
+      "text": "▪ 尽管在汉语中“因为……，所以……”常一起使用，但在英语中because不能和so连用。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 110,
+      "end": 113,
+      "before": [
+        "• because, since, as都是从属连词。而for是一个并列连词,用来附带解释说",
+        "明",
+        "前一分句的原因或理由，for引导的并列句，一般放在所要说明的句子的后",
+        "面。"
+      ],
+      "text": "• because, since, as都是从属连词。而for是一个并列连词,用来附带解释说明前一分句的原因或理由，for引导的并列句，一般放在所要说明的句子的后面。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 114,
+      "end": 116,
+      "before": [
+        "• because引导的原因状语从句一般放主句后面,也可放主句前面; since和as",
+        "引导的从句则通常位于句首;for不能位于句首,只能置于句中,且前面要有",
+        "逗号与前一分句分开。"
+      ],
+      "text": "• because引导的原因状语从句一般放主句后面,也可放主句前面; since和as 引导的从句则通常位于句首;for不能位于句首,只能置于句中,且前面要有逗号与前一分句分开。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 120,
+      "end": 121,
+      "before": [
+        "now that 的 意 思 是 “既 然”, seeing that 的 意 思 是 “由 于， 因 为， 鉴 于；",
+        "considering that的意思是“考虑到，鉴于”。"
+      ],
+      "text": "now that 的 意 思 是 “既 然”, seeing that 的 意 思 是 “由 于， 因 为， 鉴 于； considering that的意思是“考虑到，鉴于”。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 122,
+      "end": 123,
+      "before": [
+        "• Now that they have taken matters into their hands, the pace of events has",
+        "quickened."
+      ],
+      "text": "• Now that they have taken matters into their hands, the pace of events has quickened.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 137,
+      "end": 145,
+      "before": [
+        "A Chicago-style hot dog, also called Chicago Dog or Chicago Red Hot, is an all-beef",
+        "frankfurter on a poppy seed bun, originating from the city of Chicago, Illinois. The",
+        "hot dog is topped with yellow mustard, chopped white onions, bright green sweet",
+        "pickle relish, a dill pickle spear, tomato slices or wedges, pickled sport peppers and a",
+        "dash of celery salt. The complete assembly of Chicago hot dog is said to be \"dragged",
+        "through the garden\" due to the many toppings. The canonical recipe of Chicago",
+        "Hotdog does not include ketchup, and there is a widely shared, strong opinion among",
+        "many Chicagoans that ketchup is unacceptable. A number of Chicago hot dog vendors",
+        "do not offer ketchup as a condiment."
+      ],
+      "text": "A Chicago-style hot dog, also called Chicago Dog or Chicago Red Hot, is an all-beef frankfurter on a poppy seed bun, originating from the city of Chicago, Illinois. The hot dog is topped with yellow mustard, chopped white onions, bright green sweet pickle relish, a dill pickle spear, tomato slices or wedges, pickled sport peppers and a dash of celery salt. The complete assembly of Chicago hot dog is said to be \"dragged through the garden\" due to the many toppings. The canonical recipe of Chicago Hotdog does not include ketchup, and there is a widely shared, strong opinion among many Chicagoans that ketchup is unacceptable. A number of Chicago hot dog vendors do not offer ketchup as a condiment.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 146,
+      "end": 151,
+      "before": [
+        "芝加哥热狗是在罂粟籽面包里夹裹一根全牛肉的法兰克福香肠,起源于美国伊利",
+        "诺伊州的芝加哥。热狗上蘸有黄芥末、剁碎的白洋葱、鲜绿的带有甜味的腌制",
+        "泡菜、酸黄瓜、片状或楔形的番茄、腌胡椒和少许香芹盐制作完成后的芝加哥",
+        "热狗。由于添加多种食材被称为“扫荡过菜园”。比较权威的标准食谱中,热狗里",
+        "不含番茄酱,并且大量芝加哥人一致强烈地认为番茄酱不能被接受。大部分芝加",
+        "哥热狗零售商不提供番茄酱作为调味品。"
+      ],
+      "text": "芝加哥热狗是在罂粟籽面包里夹裹一根全牛肉的法兰克福香肠,起源于美国伊利诺伊州的芝加哥。热狗上蘸有黄芥末、剁碎的白洋葱、鲜绿的带有甜味的腌制泡菜、酸黄瓜、片状或楔形的番茄、腌胡椒和少许香芹盐制作完成后的芝加哥热狗。由于添加多种食材被称为“扫荡过菜园”。比较权威的标准食谱中,热狗里不含番茄酱,并且大量芝加哥人一致强烈地认为番茄酱不能被接受。大部分芝加哥热狗零售商不提供番茄酱作为调味品。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 152,
+      "end": 157,
+      "before": [
+        "The \"dragged through the garden style is heavily promoted by Vienna Beef and Red",
+        "Hot Chicago, the two most prominent Chicago hot dog manufacturers. Several",
+        "popular hot dog stands serve a simpler version: a steamed natural-casing dog with",
+        "only mustard, onions, plain relish and sport peppers, wrapped up with hand-cut",
+        "French fries. Many vendors offer Chicago-style-dog with cheese sauce, known as",
+        "cheese-dog."
+      ],
+      "text": "The \"dragged through the garden style is heavily promoted by Vienna Beef and Red Hot Chicago, the two most prominent Chicago hot dog manufacturers. Several popular hot dog stands serve a simpler version: a steamed natural-casing dog with only mustard, onions, plain relish and sport peppers, wrapped up with hand-cut French fries. Many vendors offer Chicago-style-dog with cheese sauce, known as cheese-dog.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 158,
+      "end": 161,
+      "before": [
+        "这种“扫荡过菜园”式的热狗被维也纳牛肉和芝加哥热狗(两家主要的芝加哥热狗",
+        "生产商)推广开来。还有几种比较流行的热狗制作方法更加简单：一根蒸熟的天",
+        "然香肠上仅仅加上芥末、洋葱、普通调料和胡椒，外面裹上手切的薯条。许多",
+        "卖主给芝加哥热加上芝士酱，是最有名的芝士热狗。"
+      ],
+      "text": "这种“扫荡过菜园”式的热狗被维也纳牛肉和芝加哥热狗(两家主要的芝加哥热狗生产商)推广开来。还有几种比较流行的热狗制作方法更加简单：一根蒸熟的天然香肠上仅仅加上芥末、洋葱、普通调料和胡椒，外面裹上手切的薯条。许多卖主给芝加哥热加上芝士酱，是最有名的芝士热狗。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 162,
+      "end": 165,
+      "before": [
+        "Hot dogs are American’s favorite foods and regarded as a fun food by most",
+        "Americans. In America, sports and hot dogs go together like cookies and milk. People",
+        "usually eat hot dogs while watching sports, which is an American tradition with a",
+        "long history."
+      ],
+      "text": "Hot dogs are American’s favorite foods and regarded as a fun food by most Americans. In America, sports and hot dogs go together like cookies and milk. People usually eat hot dogs while watching sports, which is an American tradition with a long history.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 166,
+      "end": 168,
+      "before": [
+        "热狗是美国人最爱的食物，他们认为吃热狗可以带来乐趣。在美国，体育运动",
+        "和热狗总是被联系在一起，就像曲奇饼干和牛奶一样密不可分。人们通常一边",
+        "观看体育运动一边吃着热狗，这是美国一种历史悠久的传统。"
+      ],
+      "text": "热狗是美国人最爱的食物，他们认为吃热狗可以带来乐趣。在美国，体育运动和热狗总是被联系在一起，就像曲奇饼干和牛奶一样密不可分。人们通常一边观看体育运动一边吃着热狗，这是美国一种历史悠久的传统。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    }
+  ],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/1c6d30f71e9468246f28ffcb9cad0dc1e43b04207f5ba6dbf20f64bc7bd3268a.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "804539d1519ce4535243a3cd3453bac93228142b80701ebe36e14fab480a5e02"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "41e6d0d2649e7f5ee43573a98e7f1b8fddf8d20a70e71ba2174edb2832de4eff",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title；全文 blocks[0..0] 与对应 text；现有正文/对话/题干逐块通读复核。",
+  "notes": "对给Henry钱的行为评价五轮问答逐轮拆分，保留末尾省略号。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [
+    {
+      "index": 0,
+      "before": [
+        "A: I think it's kind of Roderick and Oliver to give Henry the money.\nB: I'm afraid I disagree. They shouldn't be making a bet on him.\nA: But Henry might get into trouble if they didn't offer him the money.\nB: Well, if they really wanted to help Henry, they could offer him a job.\nA: Maybe you're right. But I guess that would be a different story ..."
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "A: I think it's kind of Roderick and Oliver to give Henry the money."
+        },
+        {
+          "type": "paragraph",
+          "text": "B: I'm afraid I disagree. They shouldn't be making a bet on him."
+        },
+        {
+          "type": "paragraph",
+          "text": "A: But Henry might get into trouble if they didn't offer him the money."
+        },
+        {
+          "type": "paragraph",
+          "text": "B: Well, if they really wanted to help Henry, they could offer him a job."
+        },
+        {
+          "type": "paragraph",
+          "text": "A: Maybe you're right. But I guess that would be a different story ..."
+        }
+      ],
+      "reason": "每行具有明确的发言人及完整轮次，分块保留各对话轮次。"
+    }
+  ],
+  "sources": [
+    {
+      "path": "content/article-review/history/8ed78ae32ffaee5a4b49c77b89aa6fe4cf2436776a3dfa23d4736e0306027ffa.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "4154c3c5e49f9de284989f0745350f522768807b81acc747a9cdbf6a13293e20"
+    }
+  ]
+}

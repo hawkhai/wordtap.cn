@@ -1,0 +1,26 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "b6085123300e2450a651d9696156e7c37369be246e1f0c689b8a4ef176257ca0",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title/titleZh、question/questionZh、bodyText全部11行、bodyTextZh全部11行及sentences[0..13]的完整文字；重复正文与字幕文本逐字比对，非正文字幕另读。操作在内存应用并validate_layout_change，修复后的双语全文重新通读。",
+  "notes": "Percy乞讨；初来与索食表演、用餐离开、邻居介绍月度拜访三段。 text与bodyText同步；sentences对象及时间、角色、索引原样保留。",
+  "issues": [],
+  "display": {
+    "text": "Who is Percy Buttons?\n\nI have just moved to a house in Bridge Street. Yesterday a beggar knocked at my door. He asked me for a meal and a glass of beer. In return for this, the beggar stood on his head and sang songs.\nI gave him a meal. He ate the food and drank the beer. Then he put a piece of cheese in his pocket and went away.\nLater a neighbour told me about him. Everybody knows him. His name is Percy Buttons. He calls at every house in the street once a month and always asks for a meal and a glass of beer.",
+    "bodyText": "I have just moved to a house in Bridge Street. Yesterday a beggar knocked at my door. He asked me for a meal and a glass of beer. In return for this, the beggar stood on his head and sang songs.\nI gave him a meal. He ate the food and drank the beer. Then he put a piece of cheese in his pocket and went away.\nLater a neighbour told me about him. Everybody knows him. His name is Percy Buttons. He calls at every house in the street once a month and always asks for a meal and a glass of beer.",
+    "bodyTextZh": "我刚刚搬到了 Bridge Street 上的一栋房子里。昨天，一个乞丐敲了我的门。他向我要了一顿饭和一杯啤酒。作为对此的回报，那个乞丐倒立着，同时还在唱歌。\n我给他准备了一顿饭。他吃了食物，喝了啤酒。然后他把一块奶酪放进口袋里，就离开了。\n后来，一位邻居跟我讲起了他的情况。每个人都知道他。他的名字叫珀西·巴顿斯（Percy Buttons）。他每个月都会挨家挨户地拜访这条街上的每一户人家。并且总是要求吃一顿饭和喝一杯啤酒。"
+  },
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/20821f72f3b8f6c3042f19165326f50723b9e288489029039f66d2f876736522.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "9efcd69d0ff433fa795d0e40fe70a4f6763b3d7b059147b1b84018af2d91af51"
+    }
+  ]
+}

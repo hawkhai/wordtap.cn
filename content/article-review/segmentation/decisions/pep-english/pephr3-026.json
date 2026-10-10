@@ -1,0 +1,21 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "951c898acfba59203fb2a9ca05ac0594727c8df5e61039de70ae2174389f5302",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title；全文 blocks[0..0] 与对应 text；现有正文/对话/题干逐块通读复核。",
+  "notes": "大爆炸定义、初始状态、膨胀降温及意义为完整科普单段，保留。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/afedaf9a4df706776d4b692f70e69c7076b434298df1998d937856b1b4017afa.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "9f2d1a6eafd649384579e45febef4d15c568e03a59872bc7ccda626ce73cde9e"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "article": "e1-1988",
+  "checkedAt": "2026-10-03",
+  "sourcePdfPhysicalPagesRead": [
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47
+  ],
+  "sources": [
+    {
+      "url": "https://plimoth.org/for-students/homework-help/who-were-the-pilgrims",
+      "scope": "正文全部实际读：迁徙、Hudson目的地、102出航、Cape Cod与Plymouth、疾病死亡、1621-04-05离港、三月条约及原住民农业援助。仅采交叉支持事实，未采用页面条约双向惩罚/武器对等的简化概述。"
+    },
+    {
+      "url": "https://plimoth.org/for-students/homework-help/mayflower-and-mayflower-compact",
+      "scope": "检索实际读航海、首次冬季、4月5日返航和102人居住舱段；未声称整页全文读完。"
+    },
+    {
+      "url": "https://www.pilgrimhall.org/learn-2/mayflower-pilgrims/",
+      "scope": "检索短文全文实际读：Separatists和其他投资者招募殖民者一同出航，102乘客。"
+    },
+    {
+      "url": "https://www.pilgrimhall.org/architecture/",
+      "scope": "Architecture正文全部实际读：1621年底7居所和4库房，其他建筑构造段也已读。"
+    },
+    {
+      "url": "https://americanindian.si.edu/nk360/thanksgiving/sq4ss1.html",
+      "scope": "Treaty and Harvest Celebration正文全部实际读，包括条约原文/释文、文化解释、原住民援助、Winslow丰收聚会记载和Paula Peters的Wampanoag视角；没有观看嵌入声音或另点展图。"
+    },
+    {
+      "url": "https://www.pilgrimhall.org/treaty-with-massasoit/",
+      "scope": "检索开头及Bradford条约摘段实际读，1621春、Ousamequin及Massasoit称号；未声称全部原始文件已读。"
+    },
+    {
+      "url": "https://www.cdc.gov/niosh/noise/prevent/understand.html",
+      "scope": "2024-01-31 Understand Noise Exposure正文全部实际读；85dBA/8小时职业REL、3dB交换率、剂量及听力测试说明。本文只用暴露标准，不扩展为临床诊断或统一法律阈值。"
+    },
+    {
+      "url": "https://www.cdc.gov/niosh/blogs/2016/noise.html",
+      "scope": "2016 NIOSH检索REL段实际读，85dBA/8小时、3dB交换及职业与环境标准区别；未通读全文。"
+    }
+  ],
+  "limitations": [
+    "7原块和7原图全文实际读；76块最终全文复读。没有答案及中译页，不编造官方答案。",
+    "PDF原本有Section III(21–28)和Section VII(61–68)重复翻译；删除第二份前去空白、序号及等价破折号比对全文相等。保留首份有下划线的范围；24只引语、25至medical、28只问句。",
+    "第2题改订后course/route都通，第7题at/over均成立；第14 C最全面但A/B亦文中支持。16限定值守，18/19选项按实际论点修订，不伪装原题唯一正确。",
+    "人物与职业比例按原PDF作为历史考试报道保留；没有找到独立原刊，已在正文标明非当前统计。未更改无证据的人名或引语内容。",
+    "原洗烘几分钟、人造纤维全优表述撤去绝对断言；house-proud不被误译为整个一生奉献家庭，19改为原文直接可支持内容。Cambridge词条请求失败，未登记为已读依据。",
+    "PDF不含前面其他考试部分；本版本按实际收录28题登记，不自补未提供题目。"
+  ],
+  "answerChecks": {
+    "editorReasoningNotOfficial": {
+      "cloze": "B(A或B)DCCD(C或D)BAD",
+      "reading": "BABCAAABAC"
+    }
+  },
+  "rawSha256": "abc351d9a414ff728d62a72d3b74093805b38204c3beb903725378ea21b956b0",
+  "pdfSha256": "802c3d218714a6362731273cc8d2b9d25ab499f210d39194461a3cf5b28c4a39"
+}

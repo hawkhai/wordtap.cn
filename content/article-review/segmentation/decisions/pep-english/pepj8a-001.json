@@ -1,0 +1,22 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "d7354058edb7b5053e9fbe5471a0e3166d81bfe05d58914a6cc36b8031c8a9bc",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title；全文 blocks[0..1] 与对应 text；现有正文/对话/题干逐块通读复核。",
+  "notes": "Jane槟城两日日记各自日期加完整旅行段，海滩城镇与雨中登山两日体验边界保留。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "blockEdits": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/21b19012809943fb1bc3ff4b5cd0f1b096833d83b6d173f0b7032f45892f6bb8.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "bdb93fd762ae2cbbcc786f069e4c054fc00bb55568c6091d6e4e6b9dd65d3bf1"
+    }
+  ]
+}

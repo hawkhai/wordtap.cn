@@ -1,0 +1,21 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "78577d33ca2008184fc554496b199af44e2cb07412afc8433379d0c1582f5365",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title；全文 blocks[0..4] 与对应 text；现有正文/对话/题干逐块通读复核。",
+  "notes": "Pisa书信保留称呼、城市概况、斜塔、即兴诗人及署名，三段说明边界明确。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/600f6165e32576c62fea32fb6f6a9261aca2324b9cc16f9437a575db24da765b.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "66f5f54bd3b1ab6a41ba88d9c23669011de65368aeb1be8111db3ee29acffe1b"
+    }
+  ]
+}

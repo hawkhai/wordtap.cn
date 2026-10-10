@@ -1,0 +1,95 @@
+{
+  "schemaVersion": 1,
+  "course": "pep-english",
+  "articleId": "pepj9-006",
+  "beforeDisplaySha256": "3ddf02085d282ec65b8613d5ca1e4e8d6cac39f11c5408dfb1671c173c68009f",
+  "afterDisplaySha256": "3ddf02085d282ec65b8613d5ca1e4e8d6cac39f11c5408dfb1671c173c68009f",
+  "baselineDisplay": {
+    "title": "Mother's Day and Father's Day in America",
+    "section": "Section A",
+    "text": "Dear Xia Yu,\nDo you know that there are two special days for parents in America? One is Mother's Day on the second Sunday of May, and the other is Father's Day on the third Sunday of June. On these two days, American children often give gifts to their parents or take them out for lunch or dinner. Common gifts are flowers and cards for mothers and shirts or ties for fathers. I heard that it is becoming more and more popular to celebrate Mother's Day and Father's Day in China. I wonder if children over there also give similar gifts to their parents. I believe that there are many ways to show our love. Actually, we don't have to spend a lot of money. It is also a good idea to help parents to do something instead.\nJune",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Dear Xia Yu,"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Do you know that there are two special days for parents in America? One is Mother's Day on the second Sunday of May, and the other is Father's Day on the third Sunday of June. On these two days, American children often give gifts to their parents or take them out for lunch or dinner. Common gifts are flowers and cards for mothers and shirts or ties for fathers. I heard that it is becoming more and more popular to celebrate Mother's Day and Father's Day in China. I wonder if children over there also give similar gifts to their parents. I believe that there are many ways to show our love. Actually, we don't have to spend a lot of money. It is also a good idea to help parents to do something instead."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "June"
+      }
+    ]
+  },
+  "display": {
+    "title": "Mother's Day and Father's Day in America",
+    "section": "Section A",
+    "text": "Dear Xia Yu,\nDo you know that there are two special days for parents in America? One is Mother's Day on the second Sunday of May, and the other is Father's Day on the third Sunday of June. On these two days, American children often give gifts to their parents or take them out for lunch or dinner. Common gifts are flowers and cards for mothers and shirts or ties for fathers. I heard that it is becoming more and more popular to celebrate Mother's Day and Father's Day in China. I wonder if children over there also give similar gifts to their parents. I believe that there are many ways to show our love. Actually, we don't have to spend a lot of money. It is also a good idea to help parents to do something instead.\nJune",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Dear Xia Yu,"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Do you know that there are two special days for parents in America? One is Mother's Day on the second Sunday of May, and the other is Father's Day on the third Sunday of June. On these two days, American children often give gifts to their parents or take them out for lunch or dinner. Common gifts are flowers and cards for mothers and shirts or ties for fathers. I heard that it is becoming more and more popular to celebrate Mother's Day and Father's Day in China. I wonder if children over there also give similar gifts to their parents. I believe that there are many ways to show our love. Actually, we don't have to spend a lot of money. It is also a good idea to help parents to do something instead."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "June"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "path": "content/article-review/history/339423a63cdd52e31138faec56940b4baf8e3524b5f4671f4e32021a97c00ad5.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "837eacbb118238c3335f255d8a118a2c32da87b509469e4fbee86f2da2ccf921"
+    }
+  ],
+  "corrections": [],
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "reviewer": "Codex",
+  "reviewedAt": "2026-10-07T07:42:01+00:00",
+  "notes": "June给Xia Yu父母节书信称呼、完整习俗建议段、署名清楚，保留。",
+  "issues": [],
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "5c93f78fbff7c7a48228f8adf7ef5765bb0d4db36e76afd30cc576771372a60e",
+    "afterFileSha256": "5c93f78fbff7c7a48228f8adf7ef5765bb0d4db36e76afd30cc576771372a60e",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "5c93f78fbff7c7a48228f8adf7ef5765bb0d4db36e76afd30cc576771372a60e",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..2] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "June给Xia Yu父母节书信称呼、完整习俗建议段、署名清楚，保留。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "blockEdits": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/339423a63cdd52e31138faec56940b4baf8e3524b5f4671f4e32021a97c00ad5.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "837eacbb118238c3335f255d8a118a2c32da87b509469e4fbee86f2da2ccf921"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "339423a63cdd52e31138faec56940b4baf8e3524b5f4671f4e32021a97c00ad5"
+}

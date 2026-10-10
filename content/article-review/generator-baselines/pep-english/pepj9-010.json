@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "articleId": "pepj9-010",
+  "course": "pep-english",
+  "publicBeforeDisplaySha256": "f4c2b9d3ae57a7d05f3ad2c8f9cc78cc759775e5826a289e47232a1505824bfc",
+  "generatorBeforeDisplaySha256": "bb6318a57d510cc7746b44a06e3ce73e3c79e67566e687f1d8f70cbac63296da",
+  "display": {
+    "title": "Fun Times Park — Always a Fun Time!",
+    "section": "Section A",
+    "text": "[Alice and He Wei are in Space World.]\nAlice: I wonder where we should go next.\nHe Wei: How about that new ride over there?\nAlice: Well ... it looks scary.\nHe Wei: Come on! I promise it'll be exciting! If you're scared, just shout or hold my hand.\n[After the ride ...]\nAlice: You were right! That was fun! I was scared at first, but shouting did help.\nHe Wei: See, that wasn't so bad, right? You never know until you try something.\nAlice: Yes, I'm so glad I tried it!\nHe Wei: Do you want to go to Water World now?\nAlice: Sure, but I'm getting hungry. Do you know where we can get some good food quickly?\nHe Wei: Of course! I suggest Water City Restaurant in Water World. It serves delicious food.\nAlice: Great! Let's go!\n[On their way to Water City Restaurant, Alice and He Wei pass by Uncle Bob's.]\nAlice: Look! This restaurant looks interesting. The sign says a rock band plays here every evening.\nHe Wei: Why don't we come back here for dinner later? Let's ask what time the band starts playing.\n[Alice and He Wei walk up to a staff person at the door.]\nHe Wei: Excuse me, could you tell us when the band starts playing this evening?\nStaff: Eight o'clock. The restaurant is always busy at that time, so come a little earlier to get a table.\nHe Wei: OK. Thank you!",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "[Alice and He Wei are in Space World.]\nAlice: I wonder where we should go next.\nHe Wei: How about that new ride over there?\nAlice: Well ... it looks scary.\nHe Wei: Come on! I promise it'll be exciting! If you're scared, just shout or hold my hand."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "[After the ride ...]\nAlice: You were right! That was fun! I was scared at first, but shouting did help.\nHe Wei: See, that wasn't so bad, right? You never know until you try something.\nAlice: Yes, I'm so glad I tried it!\nHe Wei: Do you want to go to Water World now?\nAlice: Sure, but I'm getting hungry. Do you know where we can get some good food quickly?\nHe Wei: Of course! I suggest Water City Restaurant in Water World. It serves delicious food.\nAlice: Great! Let's go!"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "[On their way to Water City Restaurant, Alice and He Wei pass by Uncle Bob's.]\nAlice: Look! This restaurant looks interesting. The sign says a rock band plays here every evening.\nHe Wei: Why don't we come back here for dinner later? Let's ask what time the band starts playing."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "[Alice and He Wei walk up to a staff person at the door.]\nHe Wei: Excuse me, could you tell us when the band starts playing this evening?\nStaff: Eight o'clock. The restaurant is always busy at that time, so come a little earlier to get a table.\nHe Wei: OK. Thank you!"
+      }
+    ]
+  },
+  "source": {
+    "path": "content\\pep-english\\raw\\junior-9.pdf",
+    "sha256": "9c4118021048d901610b673f590ed28c39c04cb2d4f7fd940f83a2d8b2741af7",
+    "locator": "PDF第33页Fun Times四场景，四个方括号场景后换行以及Well/After the ride省略号前空格差异；已有审校修复场景换行。"
+  },
+  "notes": "Compared generator and existing public baseline; differences are whitespace only; content and block metadata are identical.",
+  "proofSha256": "504e2cbb76a415ef54796bf8dfb9e66ab3b546f16e5b6348c85e82ee4ba343a9"
+}

@@ -1,0 +1,26 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "cd3b0a0b76ea8cdf53d664f2d41e56be9f40222587d86ea85aa3311d10741a19",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title/titleZh、question/questionZh、bodyText全部11行、bodyTextZh全部11行及sentences[0..13]的完整文字；重复正文与字幕文本逐字比对，非正文字幕另读。操作在内存应用并validate_layout_change，修复后的双语全文重新通读。",
+  "notes": "Harrison退休；归英买房、气候冲击、卖房梦碎三段。中文数行缺句末标点，保留其句际换行，仅合可明确的从句及有标点衔接。 text与bodyText同步；sentences对象及时间、角色、索引原样保留。",
+  "issues": [],
+  "display": {
+    "text": "Why did Harrison sell his house so quickly?\n\nMy old friend, Harrison, had lived in the Mediterranean for many years before he returned to England. He had often dreamed of retiring in England and had planned to settle down in the country. He had no sooner returned than he bought a house and went to live there.\nAlmost immediately he began to complain about the weather, for even though it was still summer, it rained continually and it was often bitterly cold. After so many years of sunshine, Harrison got a shock. He acted as if he had never lived in England before.\nIn the end, it was more than he could bear. He had hardly had time to settle down when he sold the house and left the country. The dream he had had for so many years ended there. Harrison had thought of everything except the weather.",
+    "bodyText": "My old friend, Harrison, had lived in the Mediterranean for many years before he returned to England. He had often dreamed of retiring in England and had planned to settle down in the country. He had no sooner returned than he bought a house and went to live there.\nAlmost immediately he began to complain about the weather, for even though it was still summer, it rained continually and it was often bitterly cold. After so many years of sunshine, Harrison got a shock. He acted as if he had never lived in England before.\nIn the end, it was more than he could bear. He had hardly had time to settle down when he sold the house and left the country. The dream he had had for so many years ended there. Harrison had thought of everything except the weather.",
+    "bodyTextZh": "我的老朋友哈里森曾经住在这里。在地中海地区生活了许多年在他回到英格兰之前。他经常梦想着在英格兰退休。并且计划在乡下安顿下来\n他一回来就买了一栋房子并搬去那里住\n几乎立刻，他就开始抱怨起来。抱怨天气因为尽管还是夏天雨一直下个不停，天气也常常非常寒冷。在享受了多年阳光之后哈里森感到非常震惊。他的举止就好像他以前从未在英国生活过一样。\n最终，这超出了他的承受能力。他几乎还没来得及安顿下来呢。就卖掉了房子离开了这个国家\n他怀揣多年的梦想就此破灭\n哈里森考虑到了所有可能的因素，唯独没有考虑到天气。"
+  },
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/b4c4742ed270fa9cb7ca21f62596c41a03c72fc06182a8688dd555dc5bf393a2.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "6ae7c549a515794b4058dcbe34aaa71ecbdb502586f38980866ed75597585aeb"
+    }
+  ]
+}

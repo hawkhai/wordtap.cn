@@ -1,0 +1,79 @@
+{
+  "schemaVersion": 1,
+  "course": "pep-english",
+  "articleId": "pephs4-021",
+  "beforeDisplaySha256": "846f4d656d2b034427ea3c55b1ab07ddf08aa85489a3d7a06510808ab1b289c1",
+  "afterDisplaySha256": "846f4d656d2b034427ea3c55b1ab07ddf08aa85489a3d7a06510808ab1b289c1",
+  "baselineDisplay": {
+    "title": "Using Words and Expressions",
+    "section": "Reading",
+    "text": "Time travel, alien invasions, and ar tif icial chairman policeman chairperson intel ligence have al ways been popular themes in mankind postman salesman science f iction. However, these were never the Like humans, language tends to carr y biases, exclusive domains of sci-f i w riters. Some which can lead to discrimination. Academic scientists also ex plore these w riting needs to be objective and scientif ic: themes. Take time travel as neither gender should be preferred. Historical ly, an ex ample. Many f ascinating stor ies based on w riting has reflected a bias towards males such time travel go either o r as the words and postman. f or wards in time. However, the f ormer is not Now, w riters are more caref ul. Many words that real l y an option. Wor ld-f amous scientist Stephen included man have been replaced. For ex ample, Haw king once ex plained that travel ling into the police officer is used instead of, past would the basic r ule that instead of chairman, salesperson instead of, humankind instead cause comes bef ore ef f ect. But it would be of and postal worker instead possible to travel into the f uture in a vastly of. The title Ms is used for spaceship approaching the women instead of Miss or Mrs, since it does speed of light. In addition to the question of time not show w hether a woman is married or not. travel, Haw k ing also ex pressed his opinions on",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Time travel, alien invasions, and ar tif icial chairman policeman chairperson intel ligence have al ways been popular themes in mankind postman salesman science f iction. However, these were never the Like humans, language tends to carr y biases, exclusive domains of sci-f i w riters. Some which can lead to discrimination. Academic scientists also ex plore these w riting needs to be objective and scientif ic: themes. Take time travel as neither gender should be preferred. Historical ly, an ex ample. Many f ascinating stor ies based on w riting has reflected a bias towards males such time travel go either o r as the words and postman. f or wards in time. However, the f ormer is not Now, w riters are more caref ul. Many words that real l y an option. Wor ld-f amous scientist Stephen included man have been replaced. For ex ample, Haw king once ex plained that travel ling into the police officer is used instead of, past would the basic r ule that instead of chairman, salesperson instead of, humankind instead cause comes bef ore ef f ect. But it would be of and postal worker instead possible to travel into the f uture in a vastly of. The title Ms is used for spaceship approaching the women instead of Miss or Mrs, since it does speed of light. In addition to the question of time not show w hether a woman is married or not. travel, Haw k ing also ex pressed his opinions on"
+      }
+    ]
+  },
+  "display": {
+    "title": "Using Words and Expressions",
+    "section": "Reading",
+    "text": "Time travel, alien invasions, and ar tif icial chairman policeman chairperson intel ligence have al ways been popular themes in mankind postman salesman science f iction. However, these were never the Like humans, language tends to carr y biases, exclusive domains of sci-f i w riters. Some which can lead to discrimination. Academic scientists also ex plore these w riting needs to be objective and scientif ic: themes. Take time travel as neither gender should be preferred. Historical ly, an ex ample. Many f ascinating stor ies based on w riting has reflected a bias towards males such time travel go either o r as the words and postman. f or wards in time. However, the f ormer is not Now, w riters are more caref ul. Many words that real l y an option. Wor ld-f amous scientist Stephen included man have been replaced. For ex ample, Haw king once ex plained that travel ling into the police officer is used instead of, past would the basic r ule that instead of chairman, salesperson instead of, humankind instead cause comes bef ore ef f ect. But it would be of and postal worker instead possible to travel into the f uture in a vastly of. The title Ms is used for spaceship approaching the women instead of Miss or Mrs, since it does speed of light. In addition to the question of time not show w hether a woman is married or not. travel, Haw k ing also ex pressed his opinions on",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Time travel, alien invasions, and ar tif icial chairman policeman chairperson intel ligence have al ways been popular themes in mankind postman salesman science f iction. However, these were never the Like humans, language tends to carr y biases, exclusive domains of sci-f i w riters. Some which can lead to discrimination. Academic scientists also ex plore these w riting needs to be objective and scientif ic: themes. Take time travel as neither gender should be preferred. Historical ly, an ex ample. Many f ascinating stor ies based on w riting has reflected a bias towards males such time travel go either o r as the words and postman. f or wards in time. However, the f ormer is not Now, w riters are more caref ul. Many words that real l y an option. Wor ld-f amous scientist Stephen included man have been replaced. For ex ample, Haw king once ex plained that travel ling into the police officer is used instead of, past would the basic r ule that instead of chairman, salesperson instead of, humankind instead cause comes bef ore ef f ect. But it would be of and postal worker instead possible to travel into the f uture in a vastly of. The title Ms is used for spaceship approaching the women instead of Miss or Mrs, since it does speed of light. In addition to the question of time not show w hether a woman is married or not. travel, Haw k ing also ex pressed his opinions on"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "path": "content/article-review/history/c00e0dabc50e7f2ea530e1b640bfe5f13580726c104e3235ba799bd944e4ab3d.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "fe1875598dffac54fae2ada0b0c7fbb2d7a90efae5cfdea514f2e83db9f60dfe"
+    }
+  ],
+  "corrections": [],
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "reviewer": "Codex",
+  "reviewedAt": "2026-10-07T07:39:42+00:00",
+  "notes": "完整读到末尾opinions on；时间旅行科幻段与chairman/policeman等词表及性别语言说明交叉插入，不能保序合并成合理自然段，保持原文待确认。",
+  "issues": [
+    "全文将科幻说明与性别语言词表/练习交叉穿插，如artificial与intelligence间夹chairman policeman chairperson；后文亦持续双内容交织且句尾截断。需重排或补字才可恢复句段，超出只调空白边界权限。"
+  ],
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "d3a9fea80997397545f1368c87074c515d2abd2ba28266007f9ad5f869f22e23",
+    "afterFileSha256": "d3a9fea80997397545f1368c87074c515d2abd2ba28266007f9ad5f869f22e23",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "d3a9fea80997397545f1368c87074c515d2abd2ba28266007f9ad5f869f22e23",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..0] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "完整读到末尾opinions on；时间旅行科幻段与chairman/policeman等词表及性别语言说明交叉插入，不能保序合并成合理自然段，保持原文待确认。",
+      "issues": [
+        "全文将科幻说明与性别语言词表/练习交叉穿插，如artificial与intelligence间夹chairman policeman chairperson；后文亦持续双内容交织且句尾截断。需重排或补字才可恢复句段，超出只调空白边界权限。"
+      ],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "blockEdits": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/c00e0dabc50e7f2ea530e1b640bfe5f13580726c104e3235ba799bd944e4ab3d.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "fe1875598dffac54fae2ada0b0c7fbb2d7a90efae5cfdea514f2e83db9f60dfe"
+        }
+      ]
+    }
+  },
+  "status": "needs_source_check",
+  "previousRevisionSha256": "c00e0dabc50e7f2ea530e1b640bfe5f13580726c104e3235ba799bd944e4ab3d"
+}

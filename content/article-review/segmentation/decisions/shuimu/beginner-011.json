@@ -1,0 +1,41 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "40aea8aa3f7d7fe23f2ac5482d2affd305d41271df789653b1fce5dc3dcf67ee",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "coverage": "全文 blocks[0..74]；按 JSON 上下文逐项复核对话、解释、题目、表格、词表及修复后的边界。",
+  "notes": "情态动词定义的“不完全”断开及常用情态动词清单续行接回；祈使对话各英中单元、分组列表与词表完整。",
+  "issues": [],
+  "mergeBlocks": [
+    {
+      "start": 39,
+      "end": 40,
+      "before": [
+        "情态动词本身具有有一定的词义，表达着说话人的情感、态度或语气。因为词义不完",
+        "全，情态动词不能单独作谓语, 只能与实义动词原形一起构成谓语。"
+      ],
+      "text": "情态动词本身具有有一定的词义，表达着说话人的情感、态度或语气。因为词义不完全，情态动词不能单独作谓语, 只能与实义动词原形一起构成谓语。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 41,
+      "end": 42,
+      "before": [
+        "常用的情态动词 can (could), may (might), must, need, ought to, dare (dared),",
+        "shall (should), will (would)"
+      ],
+      "text": "常用的情态动词 can (could), may (might), must, need, ought to, dare (dared), shall (should), will (would)",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    }
+  ],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/398a514ae9da12005329d3d371cbf09defdef26881525945610c8a257a0a0a4a.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "d3a724830378ee1e45ecbfcc6f20dd20b0eb90b69742198172301c1c41e9a1e4"
+    }
+  ]
+}

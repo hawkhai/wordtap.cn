@@ -1,0 +1,22 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "7aef8e532a4b9e261e0c2c013537541c2021020880e9fb66a9c577f96e7123e4",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title；全文 blocks[0..3] 与对应 text；现有正文/对话/题干逐块通读复核。",
+  "notes": "Teresa与Marc两个姓名城市标题及完整文化介绍段配对清楚，时间及拜访习俗对照保留。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "blockEdits": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/df55b10bf4d5ea57a7fac461b497d3332cda19e27ba5d04f80e881ac8674b854.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "806fa89905aa3a1f65e8eec89b12b31bb3f52c47248ccc7f1e63c7fd5f6ea0a9"
+    }
+  ]
+}

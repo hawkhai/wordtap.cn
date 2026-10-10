@@ -1,0 +1,265 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "40f3f99d1817b5639f255517e60424035e0e24b0bf974a229ad70fc129533f8a",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "coverage": "全文 blocks[0..265]；按 JSON 上下文逐项复核对话、解释、题目、表格、词表及修复后的边界。",
+  "notes": "全文复核婴幼儿游泳和水下三轮车故事、摘要、全部词汇选择题与语法综合测试八。英文完整短语恢复同段，中文解析续词连接；各编号摘要要点与选择答案保留，不校改原始语法观点。",
+  "issues": [],
+  "mergeBlocks": [
+    {
+      "start": 17,
+      "end": 18,
+      "before": [
+        "Experiments have proved that children can be instructed in swimming at a very early",
+        "age."
+      ],
+      "text": "Experiments have proved that children can be instructed in swimming at a very early age.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 20,
+      "end": 21,
+      "before": [
+        "At a special swimming pool in Los Angeles, children become expert at holding their",
+        "breath under water even before they can walk."
+      ],
+      "text": "At a special swimming pool in Los Angeles, children become expert at holding their breath under water even before they can walk.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 22,
+      "end": 23,
+      "before": [
+        "在洛杉矶的一个特设的游泳池里，孩子们甚至在还没有学会走路时就已经能熟",
+        "练地在水下屏住呼吸了。"
+      ],
+      "text": "在洛杉矶的一个特设的游泳池里，孩子们甚至在还没有学会走路时就已经能熟练地在水下屏住呼吸了。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 26,
+      "end": 27,
+      "before": [
+        "It is not long before they are so accustomed to swimming that they can pick up",
+        "weights from the floor of the pool."
+      ],
+      "text": "It is not long before they are so accustomed to swimming that they can pick up weights from the floor of the pool.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 29,
+      "end": 30,
+      "before": [
+        "A game that is very popular with these young swimmers is the underwater tricycle",
+        "race."
+      ],
+      "text": "A game that is very popular with these young swimmers is the underwater tricycle race.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 38,
+      "end": 39,
+      "before": [
+        "Some children can cover the whole length of the pool without coming up for breath",
+        "even once."
+      ],
+      "text": "Some children can cover the whole length of the pool without coming up for breath even once.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 43,
+      "end": 44,
+      "before": [
+        "Meanwhile, they should encourage those among us who cannot swim five yards",
+        "before they are gasping for air."
+      ],
+      "text": "Meanwhile, they should encourage those among us who cannot swim five yards before they are gasping for air.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 50,
+      "end": 51,
+      "before": [
+        "2 Children taught-hold breath -",
+        "walk."
+      ],
+      "text": "2 Children taught-hold breath - walk.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 55,
+      "end": 56,
+      "before": [
+        "6 Takes place seven feet under",
+        "water."
+      ],
+      "text": "6 Takes place seven feet under water.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 58,
+      "end": 59,
+      "before": [
+        "and 8 A few get across-without coming",
+        "up for air."
+      ],
+      "text": "and 8 A few get across-without coming up for air.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 60,
+      "end": 65,
+      "before": [
+        "Answer: At a swimming pool in Los Angeles, children are taught to hold their",
+        "breath under water before they can walk. They begin learning when they are",
+        "two months old and, in time, they can pick up weights from the bottom of the",
+        "pool. The game they enjoy most is the tricycle race, which takes place seven",
+        "feet under water. Some children pedal their tricycles, while others push or pull",
+        "them, and a few get across without coming up for air."
+      ],
+      "text": "Answer: At a swimming pool in Los Angeles, children are taught to hold their breath under water before they can walk. They begin learning when they are two months old and, in time, they can pick up weights from the bottom of the pool. The game they enjoy most is the tricycle race, which takes place seven feet under water. Some children pedal their tricycles, while others push or pull them, and a few get across without coming up for air.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 178,
+      "end": 179,
+      "before": [
+        "8. C.“could+动词原形” 用于否定句(nothing)中, 表示对现在发生的事情的否定推",
+        "测。"
+      ],
+      "text": "8. C.“could+动词原形” 用于否定句(nothing)中, 表示对现在发生的事情的否定推测。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 186,
+      "end": 187,
+      "before": [
+        "10. Many species of animals which once lived on the earth _______no longer in",
+        "existence."
+      ],
+      "text": "10. Many species of animals which once lived on the earth _______no longer in existence.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 194,
+      "end": 195,
+      "before": [
+        "11. Not only the whole nation, but the whole Europe, indeed the whole human society",
+        "________ to alter its attitude to racial problems."
+      ],
+      "text": "11. Not only the whole nation, but the whole Europe, indeed the whole human society ________ to alter its attitude to racial problems.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 200,
+      "end": 201,
+      "before": [
+        "11. B。就近一致原则。参看第5题的解释。因句中the whole Europe离谓语动词近,",
+        "所以谓语动词用第三人称单数形式。"
+      ],
+      "text": "11. B。就近一致原则。参看第5题的解释。因句中the whole Europe离谓语动词近,所以谓语动词用第三人称单数形式。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 207,
+      "end": 208,
+      "before": [
+        "12. C.当陈述句部分是 think/ suppose/ believe/ imagine/ expect/ hope that..结构时,反",
+        "意疑问句要重复从句的谓语。"
+      ],
+      "text": "12. C.当陈述句部分是 think/ suppose/ believe/ imagine/ expect/ hope that..结构时,反意疑问句要重复从句的谓语。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 209,
+      "end": 210,
+      "before": [
+        "13. It will not be long ______ man can harness the solar energy and make it serve",
+        "mankind."
+      ],
+      "text": "13. It will not be long ______ man can harness the solar energy and make it serve mankind.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 215,
+      "end": 216,
+      "before": [
+        "13.B before引导的时间状语从句。 It is long before..是一个固定句型,意为“费时间",
+        "(做…),不容易…”;否定形式为 It will not be long before...意“不久…,很快…”"
+      ],
+      "text": "13.B before引导的时间状语从句。 It is long before..是一个固定句型,意为“费时间(做…),不容易…”;否定形式为 It will not be long before...意“不久…,很快…”",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 217,
+      "end": 218,
+      "before": [
+        "14. To listen to fine music and to have stimulating conversation with good friends",
+        "________ two pleasures in life."
+      ],
+      "text": "14. To listen to fine music and to have stimulating conversation with good friends ________ two pleasures in life.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 229,
+      "end": 230,
+      "before": [
+        "15. A。as作为关系代词引导定语从句,并在从句中作主语,as代替整个主句的意",
+        "思。"
+      ],
+      "text": "15. A。as作为关系代词引导定语从句,并在从句中作主语,as代替整个主句的意思。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 236,
+      "end": 237,
+      "before": [
+        "16. D关系代词as与such连用引导定语从句,such在前面起修饰作用,as作为关系代",
+        "词在从句中作表语。"
+      ],
+      "text": "16. D关系代词as与such连用引导定语从句,such在前面起修饰作用,as作为关系代词在从句中作表语。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 238,
+      "end": 239,
+      "before": [
+        "17. When Alma was nine years old he read a school book about science, containing",
+        "some experiments ________ at home."
+      ],
+      "text": "17. When Alma was nine years old he read a school book about science, containing some experiments ________ at home.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 244,
+      "end": 245,
+      "before": [
+        "17. C。当先行词被some, any, only, no等限定词修饰时,定语从句中的关系代词常",
+        "用that。"
+      ],
+      "text": "17. C。当先行词被some, any, only, no等限定词修饰时,定语从句中的关系代词常用that。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 263,
+      "end": 264,
+      "before": [
+        "20. D ought to所在陈述句如果是否定句,则反意疑问句形式既可以用 ought,也可以",
+        "用should。"
+      ],
+      "text": "20. D ought to所在陈述句如果是否定句,则反意疑问句形式既可以用 ought,也可以用should。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    }
+  ],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/b2376bef9a64928441f06e53d6ddbaa0f100ce9115965297b424906560fdd68a.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "e74337409e673347a4215c6c5f622225ac103659c592eae1211b29e19a01c87f"
+    }
+  ]
+}

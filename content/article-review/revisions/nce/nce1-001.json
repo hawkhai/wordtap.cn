@@ -1,0 +1,161 @@
+{
+  "schemaVersion": 1,
+  "course": "nce",
+  "articleId": "nce1-001",
+  "beforeDisplaySha256": "ed7d348b830d5e5270a394e87e1b3eb3f32337bcda55965faf1f7b0094288f17",
+  "afterDisplaySha256": "ed7d348b830d5e5270a394e87e1b3eb3f32337bcda55965faf1f7b0094288f17",
+  "baselineDisplay": {
+    "title": "Excuse Me",
+    "titleZh": "打扰一下！",
+    "question": "Whose handbag is it?",
+    "questionZh": "这是谁的手提包？",
+    "text": "Whose handbag is it?\n\nExcuse me!\nYes?\nIs this your handbag?\nPardon?\nIs this your handbag?\nYes it is.\nThank you very much.",
+    "bodyText": "Excuse me!\nYes?\nIs this your handbag?\nPardon?\nIs this your handbag?\nYes it is.\nThank you very much.",
+    "bodyTextZh": "打扰一下！\n什么事？\n这是你的手提包吗？\n什么？请再说一遍。\n这是你的手提包吗？\n是的，它是。\n非常感谢您。",
+    "sentences": [
+      {
+        "en": "Lesson 1",
+        "zh": "第 1 课"
+      },
+      {
+        "en": "Excuse me!",
+        "zh": "打扰一下！"
+      },
+      {
+        "en": "Listen to the tape then answer this question.",
+        "zh": "先听这段录音，然后再回答这个问题。"
+      },
+      {
+        "en": "Whose handbag is it?",
+        "zh": "这是谁的手提包？"
+      },
+      {
+        "en": "Excuse me!",
+        "zh": "打扰一下！"
+      },
+      {
+        "en": "Yes?",
+        "zh": "什么事？"
+      },
+      {
+        "en": "Is this your handbag?",
+        "zh": "这是你的手提包吗？"
+      },
+      {
+        "en": "Pardon?",
+        "zh": "什么？请再说一遍。"
+      },
+      {
+        "en": "Is this your handbag?",
+        "zh": "这是你的手提包吗？"
+      },
+      {
+        "en": "Yes it is.",
+        "zh": "是的，它是。"
+      },
+      {
+        "en": "Thank you very much.",
+        "zh": "非常感谢您。"
+      }
+    ]
+  },
+  "display": {
+    "title": "Excuse Me",
+    "titleZh": "打扰一下！",
+    "question": "Whose handbag is it?",
+    "questionZh": "这是谁的手提包？",
+    "text": "Whose handbag is it?\n\nExcuse me!\nYes?\nIs this your handbag?\nPardon?\nIs this your handbag?\nYes it is.\nThank you very much.",
+    "bodyText": "Excuse me!\nYes?\nIs this your handbag?\nPardon?\nIs this your handbag?\nYes it is.\nThank you very much.",
+    "bodyTextZh": "打扰一下！\n什么事？\n这是你的手提包吗？\n什么？请再说一遍。\n这是你的手提包吗？\n是的，它是。\n非常感谢您。",
+    "sentences": [
+      {
+        "en": "Lesson 1",
+        "zh": "第 1 课"
+      },
+      {
+        "en": "Excuse me!",
+        "zh": "打扰一下！"
+      },
+      {
+        "en": "Listen to the tape then answer this question.",
+        "zh": "先听这段录音，然后再回答这个问题。"
+      },
+      {
+        "en": "Whose handbag is it?",
+        "zh": "这是谁的手提包？"
+      },
+      {
+        "en": "Excuse me!",
+        "zh": "打扰一下！"
+      },
+      {
+        "en": "Yes?",
+        "zh": "什么事？"
+      },
+      {
+        "en": "Is this your handbag?",
+        "zh": "这是你的手提包吗？"
+      },
+      {
+        "en": "Pardon?",
+        "zh": "什么？请再说一遍。"
+      },
+      {
+        "en": "Is this your handbag?",
+        "zh": "这是你的手提包吗？"
+      },
+      {
+        "en": "Yes it is.",
+        "zh": "是的，它是。"
+      },
+      {
+        "en": "Thank you very much.",
+        "zh": "非常感谢您。"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "path": "content/article-review/history/b37f4d9965ece98187c2f06089aabb1b0322bc7a9d66c36635294be5fbf1b6b3.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "b01cacde6258f7fdac36252bdb77a0369a6cfe644f19b116669efe6b7460a5ab"
+    }
+  ],
+  "corrections": [],
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "reviewer": "Codex",
+  "reviewedAt": "2026-10-07T07:39:38+00:00",
+  "notes": "手提包问答从Excuse me到致谢逐句复核，现有短行各有明确问答或礼貌停顿作用，保留。 text与bodyText同步；sentences对象及时间、角色、索引原样保留。",
+  "issues": [],
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "0375f1e903ff52d42e9f82001f26505c5885f11a046beaaf6b5c61ce49baa79e",
+    "afterFileSha256": "0375f1e903ff52d42e9f82001f26505c5885f11a046beaaf6b5c61ce49baa79e",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "0375f1e903ff52d42e9f82001f26505c5885f11a046beaaf6b5c61ce49baa79e",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title/titleZh、question/questionZh、bodyText全部7行、bodyTextZh全部7行及sentences[0..10]的完整文字；重复正文与字幕文本逐字比对，非正文字幕另读。操作在内存应用并validate_layout_change，修复后的双语全文重新通读。",
+      "notes": "手提包问答从Excuse me到致谢逐句复核，现有短行各有明确问答或礼貌停顿作用，保留。 text与bodyText同步；sentences对象及时间、角色、索引原样保留。",
+      "issues": [],
+      "display": {},
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/b37f4d9965ece98187c2f06089aabb1b0322bc7a9d66c36635294be5fbf1b6b3.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "b01cacde6258f7fdac36252bdb77a0369a6cfe644f19b116669efe6b7460a5ab"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "b37f4d9965ece98187c2f06089aabb1b0322bc7a9d66c36635294be5fbf1b6b3"
+}

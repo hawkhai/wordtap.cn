@@ -1,0 +1,26 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "016e96424b90e86632e8ff0c64182790e00336d30218a6c73df246d719f647b8",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title/titleZh、question/questionZh、bodyText全部16行、bodyTextZh全部16行及sentences[0..19]的完整文字；重复正文与字幕文本逐字比对，非正文字幕另读。操作在内存应用并validate_layout_change，修复后的双语全文重新通读。",
+  "notes": "罗伯特与索菲自我介绍；合并姓名介绍及肯定后反问，后续国籍和职业问答各轮保持。 text与bodyText同步；sentences对象及时间、角色、索引原样保留。",
+  "issues": [],
+  "display": {
+    "text": "What is Robert's job?\n\nI am a new student. My name's Robert.\nNice to meet you. My name's Sophie.\nAre you French?\nYes I am. Are you French too?\nNo I am not.\nWhat nationality are you?\nI'm Italian.\nAre you a teacher?\nNo I'm not.\nWhat's your job?\nI'm a keyboard operator.\nWhat's your job?\nI'm an engineer.",
+    "bodyText": "I am a new student. My name's Robert.\nNice to meet you. My name's Sophie.\nAre you French?\nYes I am. Are you French too?\nNo I am not.\nWhat nationality are you?\nI'm Italian.\nAre you a teacher?\nNo I'm not.\nWhat's your job?\nI'm a keyboard operator.\nWhat's your job?\nI'm an engineer.",
+    "bodyTextZh": "我是一名新学生。我的名字叫罗伯特。\n很高兴见到你。我的名字叫索菲。\n你是法国人吗？\n是的，我是。你也是法国人吗？\n不，我不是。\n你是什么国籍的？\n我是意大利人。\n你是一名老师吗？\n不，我不是。\n你的工作是什么？\n我是一名打字员。\n你的工作是什么？\n我是一名工程师。"
+  },
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/260a228bed47468f79f0127f99b7d1fd87613c23259809a49e168adf11db0b96.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "06c03dcdca851d85e7e19e267fbdd7ba4539bbca527f959b51c92a4af8bd1ebf"
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 1,
+  "course": "pep-english",
+  "articleId": "pepj7b-012",
+  "beforeDisplaySha256": "df5804484dd6264b0dac6a2cef5c9d3365d84924e2674d7975c79b77ad6e2833",
+  "afterDisplaySha256": "df5804484dd6264b0dac6a2cef5c9d3365d84924e2674d7975c79b77ad6e2833",
+  "baselineDisplay": {
+    "title": "Birthday Food Around the World",
+    "section": "Section B",
+    "text": "What would people like to eat on their birthday? The answer would be different in different countries.\nIn many countries, people have birthday cakes with candles. The number of candles is the person's age. The birthday person must make a wish and blow out the candles. If he or she blows out all the candles in one go, the wish will come true. In the UK, people sometimes put a candy in a birthday cake. The child with the candy is lucky.\nIn China, it is getting popular to have cake on your birthday. But many people still eat very long noodles for their birthday. They never cut up the noodles because the long noodles are a symbol of long life. In some places, Chinese people also eat eggs on their birthday. They are a symbol of life and good luck.\nAll of these birthday foods may be different, but the ideas are the same. They bring good luck to the birthday person.",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "What would people like to eat on their birthday? The answer would be different in different countries."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "In many countries, people have birthday cakes with candles. The number of candles is the person's age. The birthday person must make a wish and blow out the candles. If he or she blows out all the candles in one go, the wish will come true. In the UK, people sometimes put a candy in a birthday cake. The child with the candy is lucky."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "In China, it is getting popular to have cake on your birthday. But many people still eat very long noodles for their birthday. They never cut up the noodles because the long noodles are a symbol of long life. In some places, Chinese people also eat eggs on their birthday. They are a symbol of life and good luck."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "All of these birthday foods may be different, but the ideas are the same. They bring good luck to the birthday person."
+      }
+    ]
+  },
+  "display": {
+    "title": "Birthday Food Around the World",
+    "section": "Section B",
+    "text": "What would people like to eat on their birthday? The answer would be different in different countries.\nIn many countries, people have birthday cakes with candles. The number of candles is the person's age. The birthday person must make a wish and blow out the candles. If he or she blows out all the candles in one go, the wish will come true. In the UK, people sometimes put a candy in a birthday cake. The child with the candy is lucky.\nIn China, it is getting popular to have cake on your birthday. But many people still eat very long noodles for their birthday. They never cut up the noodles because the long noodles are a symbol of long life. In some places, Chinese people also eat eggs on their birthday. They are a symbol of life and good luck.\nAll of these birthday foods may be different, but the ideas are the same. They bring good luck to the birthday person.",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "What would people like to eat on their birthday? The answer would be different in different countries."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "In many countries, people have birthday cakes with candles. The number of candles is the person's age. The birthday person must make a wish and blow out the candles. If he or she blows out all the candles in one go, the wish will come true. In the UK, people sometimes put a candy in a birthday cake. The child with the candy is lucky."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "In China, it is getting popular to have cake on your birthday. But many people still eat very long noodles for their birthday. They never cut up the noodles because the long noodles are a symbol of long life. In some places, Chinese people also eat eggs on their birthday. They are a symbol of life and good luck."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "All of these birthday foods may be different, but the ideas are the same. They bring good luck to the birthday person."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "path": "content/article-review/history/b009abef60c2d765f9dc66dc53afd87b7335f573519b67402669733b5150ca64.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "2ff2736aeaeea2c8918be93c4ea766d1619f98604ef401807e8ad09a870468a1"
+    }
+  ],
+  "corrections": [],
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "reviewer": "Codex",
+  "reviewedAt": "2026-10-07T07:39:47+00:00",
+  "notes": "生日食物四段总问、蛋糕、中国面条鸡蛋、共同寓意，保留段落。",
+  "issues": [],
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "95747828b2d41340746a6880083e3bc50618aa15dad8ca4aff80af5203112774",
+    "afterFileSha256": "95747828b2d41340746a6880083e3bc50618aa15dad8ca4aff80af5203112774",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "95747828b2d41340746a6880083e3bc50618aa15dad8ca4aff80af5203112774",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..3] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "生日食物四段总问、蛋糕、中国面条鸡蛋、共同寓意，保留段落。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "blockEdits": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/b009abef60c2d765f9dc66dc53afd87b7335f573519b67402669733b5150ca64.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "2ff2736aeaeea2c8918be93c4ea766d1619f98604ef401807e8ad09a870468a1"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "b009abef60c2d765f9dc66dc53afd87b7335f573519b67402669733b5150ca64"
+}

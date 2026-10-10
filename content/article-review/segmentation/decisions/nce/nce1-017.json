@@ -1,0 +1,26 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "2a088f83a2a412958532c591c14d02f2cda04d78a659ca917b89172d836d1fd0",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title/titleZh、question/questionZh、bodyText全部16行、bodyTextZh全部16行及sentences[0..19]的完整文字；重复正文与字幕文本逐字比对，非正文字幕另读。操作在内存应用并validate_layout_change，修复后的双语全文重新通读。",
+  "notes": "介绍雇员与岗位；销售代表及懒惰评价合段，吉姆和办公室助理说明合段；其他问答和打招呼保留。 text与bodyText同步；sentences对象及时间、角色、索引原样保留。",
+  "issues": [],
+  "display": {
+    "text": "What are Michael Baker and Jeremy Short's jobs?\n\nCome and meet our employees Mr. Richards.\nThank you Mr. Jackson.\nThis is Nicola Grey and this is Claire Taylor.\nHow do you do?\nThose women are very hard-working.\nWhat are their jobs?\nThey're keyboard operators.\nThis is Michael Baker and this is Jeremy Short.\nHow do you do?\nThey aren't very busy!\nWhat are their jobs?\nThey're sales reps. They're very lazy.\nWho is this young man?\nThis is Jim. He's our office assistant.",
+    "bodyText": "Come and meet our employees Mr. Richards.\nThank you Mr. Jackson.\nThis is Nicola Grey and this is Claire Taylor.\nHow do you do?\nThose women are very hard-working.\nWhat are their jobs?\nThey're keyboard operators.\nThis is Michael Baker and this is Jeremy Short.\nHow do you do?\nThey aren't very busy!\nWhat are their jobs?\nThey're sales reps. They're very lazy.\nWho is this young man?\nThis is Jim. He's our office assistant.",
+    "bodyTextZh": "理查兹先生，来认识一下我们的员工吧。\n谢谢杰克逊先生。\n这位是尼古拉·格雷，这位是克莱尔·泰勒。\n你好！\n那些女士工作很勤奋。\n她们是做什么工作的？\n她们是键盘操作员。\n这位是迈克尔·贝克，这位是杰里米·肖特。\n你好！\n他们不怎么忙！\n他们是做什么工作的？\n他们是销售代表。他们很懒。\n这个年轻人是谁？\n这位是吉姆。他是我们的办公室助理。"
+  },
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/4671d31de047dd765cd4841cc00aa2544d5364c6c15a15ec84e771923291eece.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "4d89ce99fc5f54e9053ea1c7e74452157dc0b38fc88c065d009795ee24d11e2e"
+    }
+  ]
+}

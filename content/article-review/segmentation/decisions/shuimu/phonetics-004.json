@@ -1,0 +1,18 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "b25260c43787ff14a8451deef3de6d69f85e34648cc4fe12cecb01f1a63f7dac",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "coverage": "全文 blocks[0..22]，复核所有相邻边界。",
+  "notes": "中元音解析各自完整；两条 /ə/、/3:/ 绕口令及 /Λ/ 多句绕口令分别保留，词表不合并。",
+  "issues": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/9abe5319d47ba8f35ccf7c1512f65428fd15a869a4ae3bddd2a896ea7dd63bdd.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "433fa577e002288c37f599c7ca2460259cdb17beec40d6bb6fd4161bae08b6fe"
+    }
+  ]
+}

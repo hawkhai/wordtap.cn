@@ -1,0 +1,26 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "4abaa9fc741686c350e2a3e5f884d2fc860c263b5c0e9285b3975a5fc2081713",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title/titleZh、question/questionZh、bodyText全部11行、bodyTextZh全部11行及sentences[0..13]的完整文字；重复正文与字幕文本逐字比对，非正文字幕另读。操作在内存应用并validate_layout_change，修复后的双语全文重新通读。",
+  "notes": "逃学纪录；常见逃学与远行男孩对照、搭船至加来、赴巴黎误至边境送回三段，末尾纪录评论独立。 text与bodyText同步；sentences对象及时间、角色、索引原样保留。",
+  "issues": [],
+  "display": {
+    "text": "Did the boy go where he wanted to?\n\nChildren who play truant from school are unimaginative. A quiet days' fishing, or eight hours in a cinema seeing the same film over and over again, is usually as far as they get. They have all been put to shame by a boy who, while playing truant travelled 1, 600 miles.\nHe hitchhiked to Dover and towards evening went into a boat to find somewhere to sleep. When he woke up next morning, he discovered that the boat had, in the meantime, travelled to Calais. No one noticed the boy as he crept off.\nFrom there, he hitchhiked to Paris in a lorry. The driver gave him a few biscuits and a cup of coffee and left him just outside the city. The next car the boy stopped did not take him into the centre of Paris as he hoped it would, but to Perpignan on the French-Spanish border. There he was picked up by a policeman and sent back to England by the local authorities.\nHe has surely set up a record for the thousands of children who dream of evading school.",
+    "bodyText": "Children who play truant from school are unimaginative. A quiet days' fishing, or eight hours in a cinema seeing the same film over and over again, is usually as far as they get. They have all been put to shame by a boy who, while playing truant travelled 1, 600 miles.\nHe hitchhiked to Dover and towards evening went into a boat to find somewhere to sleep. When he woke up next morning, he discovered that the boat had, in the meantime, travelled to Calais. No one noticed the boy as he crept off.\nFrom there, he hitchhiked to Paris in a lorry. The driver gave him a few biscuits and a cup of coffee and left him just outside the city. The next car the boy stopped did not take him into the centre of Paris as he hoped it would, but to Perpignan on the French-Spanish border. There he was picked up by a policeman and sent back to England by the local authorities.\nHe has surely set up a record for the thousands of children who dream of evading school.",
+    "bodyTextZh": "那些逃学玩耍的孩子缺乏想象力。安安静静地钓一天鱼，或者，他们最多也就会在电影院里待上八个小时，一遍又一遍地看同一部电影而已。他们都被一个男孩给比下去了；这个男孩虽然逃学了，却还是跋涉了1,600英里（约2,560公里）去旅行。\n他搭便车到了多佛，傍晚时分上了一艘船想找个地方睡觉。第二天早上他醒来时，发现船已经驶到了加来。没有人注意到那个男孩悄悄地离开了。\n从那里，他搭上一辆卡车去了巴黎。司机给了他几块饼干和一杯咖啡，然后把他留在了城外。男孩接下来拦下的那辆车并没有像他希望的那样带他前往巴黎市中心。而是前往位于法西边境的佩皮尼昂（Perpignan）。他被一名警察带走，随后由当地政府送回了英格兰。\n他无疑为成千上万梦想逃学的孩子们创造了一项纪录。"
+  },
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/57e50091883c6f8c1dce69fa8b92377767dc931633d750a169f7ec9c5f472c8c.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "00c771e90beab0631268242d8eed1a5523153254e9f430ea15f418445aa202b1"
+    }
+  ]
+}

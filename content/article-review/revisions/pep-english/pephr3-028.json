@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "course": "pep-english",
+  "articleId": "pephr3-028",
+  "beforeDisplaySha256": "47661310fba6ce0f36f40b23d84f9c0067f51f824a9321edd3743ff086a4f3b5",
+  "afterDisplaySha256": "47661310fba6ce0f36f40b23d84f9c0067f51f824a9321edd3743ff086a4f3b5",
+  "baselineDisplay": {
+    "title": "What Is FAST?",
+    "section": "Expanding Your World",
+    "text": "China’s Five-hundred-metre Aperture Spherical Telescope is better known as FAST. Located in Guizhou Province in southwestern China, FAST has been used since 25 September 2016. Its 500-metre dish is the world’s largest single-dish radio telescope. As such, scientists can use it to look for various things in the universe that are very far away. They can also use it to search for signs of communication that are not coming from Earth. Finding such things would prove that there is intelligent life somewhere else in the universe!",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "China’s Five-hundred-metre Aperture Spherical Telescope is better known as FAST. Located in Guizhou Province in southwestern China, FAST has been used since 25 September 2016. Its 500-metre dish is the world’s largest single-dish radio telescope. As such, scientists can use it to look for various things in the universe that are very far away. They can also use it to search for signs of communication that are not coming from Earth. Finding such things would prove that there is intelligent life somewhere else in the universe!"
+      }
+    ]
+  },
+  "display": {
+    "title": "What Is FAST?",
+    "section": "Expanding Your World",
+    "text": "China’s Five-hundred-metre Aperture Spherical Telescope is better known as FAST. Located in Guizhou Province in southwestern China, FAST has been used since 25 September 2016. Its 500-metre dish is the world’s largest single-dish radio telescope. As such, scientists can use it to look for various things in the universe that are very far away. They can also use it to search for signs of communication that are not coming from Earth. Finding such things would prove that there is intelligent life somewhere else in the universe!",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "China’s Five-hundred-metre Aperture Spherical Telescope is better known as FAST. Located in Guizhou Province in southwestern China, FAST has been used since 25 September 2016. Its 500-metre dish is the world’s largest single-dish radio telescope. As such, scientists can use it to look for various things in the universe that are very far away. They can also use it to search for signs of communication that are not coming from Earth. Finding such things would prove that there is intelligent life somewhere else in the universe!"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "path": "content/article-review/history/70d215297e0e9336caac122a50d4fb24f49dfbfdbbada7b6c058856fda22b0c9.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "d34ea28c812cd9332338c35f504573dadbd59226c9a90839a65bc2116b139989"
+    }
+  ],
+  "corrections": [],
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "reviewer": "Codex",
+  "reviewedAt": "2026-10-07T07:32:22+00:00",
+  "notes": "FAST地点、使用时间、口径与科学用途连贯成段，保留现有单段。",
+  "issues": [],
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "658fa272654ca172e30d7ae3ce036cb462872bba48e9efee3465561eb5155119",
+    "afterFileSha256": "658fa272654ca172e30d7ae3ce036cb462872bba48e9efee3465561eb5155119",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "658fa272654ca172e30d7ae3ce036cb462872bba48e9efee3465561eb5155119",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..0] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "FAST地点、使用时间、口径与科学用途连贯成段，保留现有单段。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/70d215297e0e9336caac122a50d4fb24f49dfbfdbbada7b6c058856fda22b0c9.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "d34ea28c812cd9332338c35f504573dadbd59226c9a90839a65bc2116b139989"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "70d215297e0e9336caac122a50d4fb24f49dfbfdbbada7b6c058856fda22b0c9"
+}

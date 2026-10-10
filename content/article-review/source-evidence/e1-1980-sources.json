@@ -1,0 +1,80 @@
+{
+  "article": "e1-1980",
+  "checkedAt": "2026-10-03",
+  "sourcePdfPhysicalPagesRead": [
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66
+  ],
+  "sources": [
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/morethe-more-less",
+      "scope": "词典短语说明和例句实际读：the more…the less双比较结构；43A正确，原答案C缺the。"
+    },
+    {
+      "url": "https://dictionary.cambridge.org/us/grammar/british-grammar/between-or-among",
+      "scope": "检索返回between连接两个数值的说明实际读，直接打开内部错误；不称网页全文读取。第3题恢复between 3 and 4配对结构；原PDF也用短横范围，非单纯OCR错。"
+    },
+    {
+      "url": "https://science.nasa.gov/universe/overview/building-blocks/",
+      "scope": "The Universe’s Building Blocks及Normal Matter两段实际读；物质基本定义用mass而非weight，第20题保持given语法考点。"
+    },
+    {
+      "url": "https://science.nasa.gov/ems/03_behaviors/",
+      "scope": "正文Reflection、Absorption、Diffraction、Scatter、Refraction实际读；光可发生衍射和折射，不沿用只有反射装置才使光改变方向的绝对表述。第24题改为特定光学装置，仍考made。"
+    },
+    {
+      "url": "https://research.fs.usda.gov/treesearch/31614",
+      "scope": "Zelinka/Glass/Stone 2008研究书目及摘要全文实际读，未读全文PDF；木材导电与水分相关，第40题限为干木不善导电，不作绝对安全保证。"
+    },
+    {
+      "url": "https://www.fpl.fs.usda.gov/documnts/fplgtr/fpl_gtr190.pdf",
+      "scope": "检索摘录中第4章Electrical Properties电阻率段实际读（干木与纤维饱和木差异），未读整本。"
+    },
+    {
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0016003236910475",
+      "scope": "出版商检索书目实际读，确认Einstein Physics and reality，1936年3月；未取得付费全文。"
+    },
+    {
+      "url": "https://www.informationphilosopher.com/books/einstein/Einstein.pdf",
+      "scope": "实际读附录C所转载爱因斯坦1936原文的物理页411–413（0基410–412），含经验、概念秩序与comprehensibility段；450页全书未通读。试题那句无保留的直接引语改为间接概述，中译同步，评论其他历史观点作明确归属。"
+    },
+    {
+      "url": "https://digitallibrary.un.org/record/3928784?ln=en",
+      "scope": "联合国书目检索摘要实际读：2011年末达到70亿；未冒称全报告读。原题2000年预测保留并加时间语境说明。"
+    },
+    {
+      "url": "https://www.nasa.gov/mission/sts-1/",
+      "scope": "NASA STS-1任务日期、事实、目标与亮点正文实际读，1981年4月12日首飞；原题being developed作为历史背景保留。"
+    },
+    {
+      "url": "https://home.cern/science/physics/superconductivity/",
+      "scope": "CERN科普正文全文实际读：临界温度、电阻零及温度/磁场条件；不泛指所有金属恒为超导。"
+    },
+    {
+      "url": "https://home.web.cern.ch/science/engineering/cryogenics-low-temperatures-high-performance/",
+      "scope": "CERN低温工程正文全文实际读：氦液化与低于2.17K超流、NbTi超导应用；分开超流和超导，删除泛指其他气体的错误。"
+    }
+  ],
+  "limitations": [
+    "8原块和对应8页PDF图全部实际读；合订本其他年份尚不计作已读。",
+    "原PDF并非官方评分细则，答案标为参考；第13/18/19开放时态依语境，保留参考而不冒称唯一。",
+    "初级语言试题保留有意的错误干扰项；恢复辨错下划线范围，题45–49答案逐项说明。",
+    "人物评论政治评价/轶事属于原作者观点，已明确；科学错误按独立来源修订，历史预测不伪装成实际结果。",
+    "翻译漏词与错字在原合订本也存在，依据英文原题逐句修正，未伪称PDF本无错误。"
+  ],
+  "answerChecks": {
+    "prepositions": "from / among / between / of / to / to或into / about / for / because of / with",
+    "verbTenses": "sign / have been set up / had flown / have been / are being painted / study / travels, appears / have…been digging / would undertake",
+    "verbForms": "given / meeting / done / falling / made / getting / to be seen / swept / Having failed / Caught",
+    "multipleChoice": "CCDDBCADCACBBAA",
+    "errorDetection": "A D B A B"
+  },
+  "rawSha256": "7e0439028d4d487a716ef0b51885c124b127a927e5d3c67260e2c20cf3f5d3d3",
+  "pdfSha256": "525227c90a3228ef9191b7aac8949d271348ab9fc9d8d437d41f7937b10bd121"
+}

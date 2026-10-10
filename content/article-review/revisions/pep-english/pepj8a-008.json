@@ -1,0 +1,145 @@
+{
+  "schemaVersion": 1,
+  "course": "pep-english",
+  "articleId": "pepj8a-008",
+  "beforeDisplaySha256": "e68b224bc24bbc75cd1e9db4ed024ae23f56d12b4f52ae02d85f21f853d5b9ff",
+  "afterDisplaySha256": "e68b224bc24bbc75cd1e9db4ed024ae23f56d12b4f52ae02d85f21f853d5b9ff",
+  "baselineDisplay": {
+    "title": "Greg's New Neighborhood",
+    "section": "Section A",
+    "text": "Greg: Hi, I'm Greg. I'm new in town.\nHelen: Hi, I'm Helen. Welcome to the neighborhood! How do you like it so far?\nGreg: It's fantastic, but I still don't really know my way around.\nHelen: Well, the best supermarket is on Center Street. You can buy the freshest food there.\nGreg: Oh, great. Is there a cinema around here? I love watching movies.\nHelen: Yes, Sun Cinema is the newest one. You can sit the most comfortably because they have the biggest seats.\nGreg: Thanks for telling me.\nHelen: No problem.",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Greg: Hi, I'm Greg. I'm new in town."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Helen: Hi, I'm Helen. Welcome to the neighborhood! How do you like it so far?"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Greg: It's fantastic, but I still don't really know my way around."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Helen: Well, the best supermarket is on Center Street. You can buy the freshest food there."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Greg: Oh, great. Is there a cinema around here? I love watching movies."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Helen: Yes, Sun Cinema is the newest one. You can sit the most comfortably because they have the biggest seats."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Greg: Thanks for telling me."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Helen: No problem."
+      }
+    ]
+  },
+  "display": {
+    "title": "Greg's New Neighborhood",
+    "section": "Section A",
+    "text": "Greg: Hi, I'm Greg. I'm new in town.\nHelen: Hi, I'm Helen. Welcome to the neighborhood! How do you like it so far?\nGreg: It's fantastic, but I still don't really know my way around.\nHelen: Well, the best supermarket is on Center Street. You can buy the freshest food there.\nGreg: Oh, great. Is there a cinema around here? I love watching movies.\nHelen: Yes, Sun Cinema is the newest one. You can sit the most comfortably because they have the biggest seats.\nGreg: Thanks for telling me.\nHelen: No problem.",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Greg: Hi, I'm Greg. I'm new in town."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Helen: Hi, I'm Helen. Welcome to the neighborhood! How do you like it so far?"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Greg: It's fantastic, but I still don't really know my way around."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Helen: Well, the best supermarket is on Center Street. You can buy the freshest food there."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Greg: Oh, great. Is there a cinema around here? I love watching movies."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Helen: Yes, Sun Cinema is the newest one. You can sit the most comfortably because they have the biggest seats."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Greg: Thanks for telling me."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Helen: No problem."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "path": "content/article-review/history/70df9f66cfc57148eb64c7da229c75adf1c3a9dd73e04e50fe1bfabfe9e115c8.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "9440213df57ff183484085e30597e9902a7f1700ed03960a9ebf6d5cbb4a2998"
+    }
+  ],
+  "corrections": [],
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "reviewer": "Codex",
+  "reviewedAt": "2026-10-07T07:39:48+00:00",
+  "notes": "Greg新邻里八轮对话已经逐角色分块，超市及影院介绍完整保留。",
+  "issues": [],
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "febc715e6c680d5cccb47d2490f007d2c9fdcde9cee1a3b1d4fec2ea31a29d65",
+    "afterFileSha256": "febc715e6c680d5cccb47d2490f007d2c9fdcde9cee1a3b1d4fec2ea31a29d65",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "febc715e6c680d5cccb47d2490f007d2c9fdcde9cee1a3b1d4fec2ea31a29d65",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..7] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "Greg新邻里八轮对话已经逐角色分块，超市及影院介绍完整保留。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "blockEdits": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/70df9f66cfc57148eb64c7da229c75adf1c3a9dd73e04e50fe1bfabfe9e115c8.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "9440213df57ff183484085e30597e9902a7f1700ed03960a9ebf6d5cbb4a2998"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "70df9f66cfc57148eb64c7da229c75adf1c3a9dd73e04e50fe1bfabfe9e115c8"
+}

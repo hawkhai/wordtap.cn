@@ -91,12 +91,12 @@
     ]
   },
   "manualReview": {
+    "reviewer": "Codex (user-directed restoration)",
+    "reviewedAt": "2026-10-05T17:15:10+00:00",
+    "correctionCount": 1,
+    "evidence": "content/article-review/cleanup-2026-10-06.json",
+    "eventSha256": "24806f21200db61328fa5bef0a4dd4cd38cfb2928a7dc5c17814e3d3480d9818",
     "status": "passed",
-    "reviewer": "Codex",
-    "reviewedAt": "2026-07-30T18:02:20Z",
-    "correctionCount": 4,
-    "evidence": "Codex已第二遍从头到尾视觉通读教材原图20-22与最终稿；12段完整，正文边界5-7，图片标题、词汇着色、页眉页脚和后续练习均排除。",
-    "textSha256": "433c227f18025d7951093f74bb72402e4e3882aa4d0c36a4e465c2f3917d5ae8",
-    "eventSha256": "1bbfb4803f4a842672b52e48a3c4a2d87e5a84d380f3393eb60ba9691031a4b9"
+    "textSha256": "433c227f18025d7951093f74bb72402e4e3882aa4d0c36a4e465c2f3917d5ae8"
   }
 }

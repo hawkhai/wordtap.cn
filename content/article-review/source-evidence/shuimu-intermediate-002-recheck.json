@@ -1,0 +1,21 @@
+{
+  "article":"shuimu/intermediate-002",
+  "fullRead":"现有78块全文与修改后78块全文全部读取。此前PDF物理8–15页全部读取及10/11题目原图校对保留。",
+  "sources":[
+    {"url":"https://www.scribd.com/document/839078637/NCE-2-Lesson-2-Breakfast-or-lunch","read":"L107–122对应NCE第2课及完整练习文本读取；OCR没有保留横线、中文多乱码，未称原图已读。原题3–12对应本地1–10，逐题核对上下文与全部选项后编辑补空，不声称恢复原书精确排印。"},
+    {"url":"https://www.paramountpictures.com/movies/roman-holiday","read":"检索返回完整Synopsis及演员表已读：1953、Gregory Peck、Audrey Hepburn、William Wyler；此官方表使用Princess Anne，故不凭其他网站改Anne。"},
+    {"url":"https://www.oscars.org/oscars/ceremonies/1954/K--O?qt-honorees=0","read":"检索返回Roman Holiday全部10提名及3获奖条目已读：女演员、电影故事、黑白服装设计获奖，Screenplay仅提名。"},
+    {"url":"https://www.tcm.com/articles/featured-directors/218743/william-wyler-profile","read":"Roger Fristoe2009-05-26，L5–16全文已读；36次表演类提名14次获奖，不把导演12次提名或14次表演获奖混作12位影帝影后。"},
+    {"url":"https://www.oxfordlearnersdictionaries.com/us/definition/english/neither_1","read":"L113–126完整定义及Grammar Point读取；neither of后为复数名词/代词，复数谓语偏非正式；不把none of与neither of接不可数名词规则混同。"},
+    {"url":"https://en.wikipedia.org/wiki/Roman_Holiday","read":"只用于查票房出处线索：L298与L377指Variety1954-01-13，但没有取得该期原表，不用百科转述来证明300万的确切统计口径。"}
+  ],
+  "editorialResolution":[
+    "八个新增空位按本地题干+全部选项与对应练习一致位置逐项决定，保留现有答案键，不新填答案。第1题sometimes后、第2题went后、第4题句首、第6题He后、第7题末、第8题her后、第9题first后、第10题was后。",
+    "其他情况的的去重复；out to her room与本地溜出房间相悖，按明确语义校out of her room；delivery truck的back改译后车厢，不称轿车后备厢。",
+    "sweeptakers乱码式专名不猜某一原词；重述为有TCM出处的获奖表演事实。",
+    "删除未获清楚原始统计口径的300万票房事实句，并留下删除理由；不是保留未决断言再强行标通过。"
+  ],
+  "fullReadConfirmed":true,
+  "finalReadConfirmed":true,
+  "unresolved":[]
+}

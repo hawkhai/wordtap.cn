@@ -1,0 +1,22 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "6f5a73b1835ed5c5b7e20b4b7ea94b15f9611f8863d395ef4d767f04c7917835",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title；全文 blocks[0..6] 与对应 text；现有正文/对话/题干逐块通读复核。",
+  "notes": "Dave与Kim姐妹矛盾七轮已逐轮成块，建议的三句发言完整保留。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "blockEdits": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/b9ce34e0f2329f5bd84afef35ba33a001664594015cec25976ca9e5acc8ebd54.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "270fc5aa9b46f3403830a7e5af625fcac4b755fe395fb74aeed87e010e1e548e"
+    }
+  ]
+}

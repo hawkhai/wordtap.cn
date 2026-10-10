@@ -1,0 +1,21 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "98e9e1826df4375403e5e73f1b7d0b13a0a19a2657e14973131ee4acf018a135",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title；全文 blocks[0..4] 与对应 text；现有正文/对话/题干逐块通读复核。",
+  "notes": "海啸报道署名日期独立，主体按事件、各国损失、当事人引语、救援障碍分段，保留现有结构。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/c32314188492dae71cffc3669296ac840df4074a2dfb4af7d5eb4ff7b45dc5c2.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "2e048038ea41aab7c0a7fe52c3531813e0093714029a6ea5d23954ad66877ebc"
+    }
+  ]
+}

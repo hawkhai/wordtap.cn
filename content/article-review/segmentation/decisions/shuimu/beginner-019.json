@@ -1,0 +1,157 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "a34fe2109cf5939bae9f8e05d9d134fad16b5e0c672a4ddaa901b57acecd3678",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "coverage": "全文 blocks[0..76]；按 JSON 上下文逐项复核对话、解释、题目、表格、词表及修复后的边界。",
+  "notes": "八组肉类喜好对话中英拆块，段内多句保留；形容词构词、位置、顺序的分类列表与例句完整。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [
+    {
+      "index": 3,
+      "before": [
+        "——Do you want any meat today?\n您今天要来点肉吗？"
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "——Do you want any meat today?"
+        },
+        {
+          "type": "paragraph",
+          "text": "您今天要来点肉吗？"
+        }
+      ],
+      "reason": "现有换行明确区分英文与对应中文，各自成块，保留原文顺序和对话轮次。"
+    },
+    {
+      "index": 4,
+      "before": [
+        "——Yes, please.\n好的，给我来点。"
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "——Yes, please."
+        },
+        {
+          "type": "paragraph",
+          "text": "好的，给我来点。"
+        }
+      ],
+      "reason": "现有换行明确区分英文与对应中文，各自成块，保留原文顺序和对话轮次。"
+    },
+    {
+      "index": 5,
+      "before": [
+        "——This lamb's very good.\n这羊肉很不错。"
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "——This lamb's very good."
+        },
+        {
+          "type": "paragraph",
+          "text": "这羊肉很不错。"
+        }
+      ],
+      "reason": "现有换行明确区分英文与对应中文，各自成块，保留原文顺序和对话轮次。"
+    },
+    {
+      "index": 6,
+      "before": [
+        "——I like lamb, but my husband doesn't.\n我喜欢羊肉，但是我丈夫不喜欢。"
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "——I like lamb, but my husband doesn't."
+        },
+        {
+          "type": "paragraph",
+          "text": "我喜欢羊肉，但是我丈夫不喜欢。"
+        }
+      ],
+      "reason": "现有换行明确区分英文与对应中文，各自成块，保留原文顺序和对话轮次。"
+    },
+    {
+      "index": 7,
+      "before": [
+        "——What about some steak? This is a nice piece.\n那来点牛排怎么样？这块很好。"
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "——What about some steak? This is a nice piece."
+        },
+        {
+          "type": "paragraph",
+          "text": "那来点牛排怎么样？这块很好。"
+        }
+      ],
+      "reason": "现有换行明确区分英文与对应中文，各自成块，保留原文顺序和对话轮次。"
+    },
+    {
+      "index": 8,
+      "before": [
+        "——Give me that piece please. My husband likes steak.\n好的，给我那块吧。我丈夫喜欢吃牛排。"
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "——Give me that piece please. My husband likes steak."
+        },
+        {
+          "type": "paragraph",
+          "text": "好的，给我那块吧。我丈夫喜欢吃牛排。"
+        }
+      ],
+      "reason": "现有换行明确区分英文与对应中文，各自成块，保留原文顺序和对话轮次。"
+    },
+    {
+      "index": 9,
+      "before": [
+        "——Does your husband like chicken? They're very nice.\n您丈夫喜欢吃鸡肉吗？今天的鸡肉很不错。"
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "——Does your husband like chicken? They're very nice."
+        },
+        {
+          "type": "paragraph",
+          "text": "您丈夫喜欢吃鸡肉吗？今天的鸡肉很不错。"
+        }
+      ],
+      "reason": "现有换行明确区分英文与对应中文，各自成块，保留原文顺序和对话轮次。"
+    },
+    {
+      "index": 10,
+      "before": [
+        "——No, thank you. He doesn't like chicken.\n不用了，谢谢。他不喜欢吃鸡肉。"
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "——No, thank you. He doesn't like chicken."
+        },
+        {
+          "type": "paragraph",
+          "text": "不用了，谢谢。他不喜欢吃鸡肉。"
+        }
+      ],
+      "reason": "现有换行明确区分英文与对应中文，各自成块，保留原文顺序和对话轮次。"
+    }
+  ],
+  "sources": [
+    {
+      "path": "content/article-review/history/85af260a554d8ccf5c49479bcf56d5e4bd58ff7c3bf139ca35768e0180fe6df4.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "815c6a6c35b530fb8a5e82e281864c5ed6966b52c7d8f8ff7474ffdd22016e6c"
+    }
+  ]
+}

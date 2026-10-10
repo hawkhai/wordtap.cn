@@ -1,0 +1,21 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "3953cd1078f0e880a6098937e404bda4c661134979b4fd22d27d86661d37e587",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title；全文 blocks[0..8] 与对应 text；现有正文/对话/题干逐块通读复核。",
+  "notes": "Farm-to-Table九段依餐馆场景、起源、标签、慢食、时令、有机、欺诈、质疑、趋势组织，保留长说明段。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/fd34dcc6870e333be1202a37513d249c42f461a2e2a22f28c39d780a4abf5171.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "ccc2d43f4e45a38f8d260291111bc1db9122e4a9545abae16022567ea0472df8"
+    }
+  ]
+}

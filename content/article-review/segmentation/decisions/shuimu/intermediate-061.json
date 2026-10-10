@@ -1,0 +1,355 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "e40bc76dc20d047e1b384f4550a8ee47c54a2ee171c70369461b62bcc8804006",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "coverage": "逐块全文阅读 blocks[0..283]，包括导入、词表、双语故事、摘要提纲及答案、12 道词汇题、20 道综合题及解析；逐项对照 33 处合并。",
+  "notes": "JSON 上下文审核：33 处续行合并；中英对应单元、提纲条目、32 道题的选项、247/248 对话轮次保持独立。正文末段两组中英对应保留原顺序。原文缺引号、拼写和语法疑义不在本轮改写。未读取教材或图片作为本次审核证据。",
+  "issues": [],
+  "mergeBlocks": [
+    {
+      "start": 21,
+      "end": 22,
+      "before": [
+        "After reading an article entitled ‘Cigarette Smoking and Your Health’ I lit a cigarette",
+        "to calm my nerves."
+      ],
+      "text": "After reading an article entitled ‘Cigarette Smoking and Your Health’ I lit a cigarette to calm my nerves.",
+      "reason": "同一英文句子或段落的续行，补词间空格并保留段内完整句子。"
+    },
+    {
+      "start": 23,
+      "end": 24,
+      "before": [
+        "读完一篇题为《吸烟与健康》的文章之后，我点上了一枝香烟，来镇定一下自",
+        "己紧张的神经。"
+      ],
+      "text": "读完一篇题为《吸烟与健康》的文章之后，我点上了一枝香烟，来镇定一下自己紧张的神经。",
+      "reason": "同一中文译文或解析的续行，拼接跨行词语，不插入中文词内空格。"
+    },
+    {
+      "start": 25,
+      "end": 26,
+      "before": [
+        "I smoked with concentration and pleasure as I was sure that this would be my last",
+        "cigarette."
+      ],
+      "text": "I smoked with concentration and pleasure as I was sure that this would be my last cigarette.",
+      "reason": "同一英文句子或段落的续行，补词间空格并保留段内完整句子。"
+    },
+    {
+      "start": 28,
+      "end": 29,
+      "before": [
+        "For a whole week I did not smoke at all and during this time, my wife suffered",
+        "terribly."
+      ],
+      "text": "For a whole week I did not smoke at all and during this time, my wife suffered terribly.",
+      "reason": "同一英文句子或段落的续行，补词间空格并保留段内完整句子。"
+    },
+    {
+      "start": 31,
+      "end": 32,
+      "before": [
+        "I had all the usual symptoms of someone giving up smoking: a bad temper and an",
+        "enormous appetite."
+      ],
+      "text": "I had all the usual symptoms of someone giving up smoking: a bad temper and an enormous appetite.",
+      "reason": "同一英文句子或段落的续行，补词间空格并保留段内完整句子。"
+    },
+    {
+      "start": 36,
+      "end": 37,
+      "before": [
+        "They made no effort to hide their amusement whenever I produced a packet of sweets",
+        "from my pocket."
+      ],
+      "text": "They made no effort to hide their amusement whenever I produced a packet of sweets from my pocket.",
+      "reason": "同一英文句子或段落的续行，补词间空格并保留段内完整句子。"
+    },
+    {
+      "start": 38,
+      "end": 39,
+      "before": [
+        "每当我从口袋里掏出一包糖果时，他们都毫不掩饰地表现出他们对此感到非常",
+        "好笑。"
+      ],
+      "text": "每当我从口袋里掏出一包糖果时，他们都毫不掩饰地表现出他们对此感到非常好笑。",
+      "reason": "同一中文译文或解析的续行，拼接跨行词语，不插入中文词内空格。"
+    },
+    {
+      "start": 40,
+      "end": 41,
+      "before": [
+        "After seven days of this I went to a party. Everybody around me was smoking and I",
+        "felt extremely uncomfortable."
+      ],
+      "text": "After seven days of this I went to a party. Everybody around me was smoking and I felt extremely uncomfortable.",
+      "reason": "同一英文句子或段落的续行，补词间空格并保留段内完整句子。"
+    },
+    {
+      "start": 42,
+      "end": 43,
+      "before": [
+        "这样过了7天以后，我去参加一次聚会。我周围的每个人都在吸烟，我感到非常",
+        "不自在。"
+      ],
+      "text": "这样过了7天以后，我去参加一次聚会。我周围的每个人都在吸烟，我感到非常不自在。",
+      "reason": "同一中文译文或解析的续行，拼接跨行词语，不插入中文词内空格。"
+    },
+    {
+      "start": 44,
+      "end": 45,
+      "before": [
+        "When my old friend Brian urged me to accept a cigarette, it was more than I could",
+        "bear."
+      ],
+      "text": "When my old friend Brian urged me to accept a cigarette, it was more than I could bear.",
+      "reason": "同一英文句子或段落的续行，补词间空格并保留段内完整句子。"
+    },
+    {
+      "start": 49,
+      "end": 50,
+      "before": [
+        "My wife was delighted that things had returned to normal once more. Anyway, as",
+        "Brian pointed out, it is the easiest thing in the world to give up smoking."
+      ],
+      "text": "My wife was delighted that things had returned to normal once more. Anyway, as Brian pointed out, it is the easiest thing in the world to give up smoking.",
+      "reason": "同一英文句子或段落的续行，补词间空格并保留段内完整句子。"
+    },
+    {
+      "start": 51,
+      "end": 52,
+      "before": [
+        "一切又都恢复了正常，为此我妻子十分高兴。不管怎么说，正如布赖恩指出的",
+        "那样，戒烟是世界上最容易的事情，"
+      ],
+      "text": "一切又都恢复了正常，为此我妻子十分高兴。不管怎么说，正如布赖恩指出的那样，戒烟是世界上最容易的事情，",
+      "reason": "同一中文译文或解析的续行，拼接跨行词语，不插入中文词内空格。"
+    },
+    {
+      "start": 69,
+      "end": 74,
+      "before": [
+        "Answer: Having read an article on smoking, the writer smoked his last",
+        "cigarette. He did not smoke for a week and his wife suffered because he had a",
+        "bad temper and a large appetite. Meanwhile friends offered him cigarettes and",
+        "were amused to see him produce a packet of sweets from his pocket. When he",
+        "went to a party, he accepted cigarette which he was offered by a friend and",
+        "since then things have returned to normal. (77 words)"
+      ],
+      "text": "Answer: Having read an article on smoking, the writer smoked his last cigarette. He did not smoke for a week and his wife suffered because he had a bad temper and a large appetite. Meanwhile friends offered him cigarettes and were amused to see him produce a packet of sweets from his pocket. When he went to a party, he accepted cigarette which he was offered by a friend and since then things have returned to normal. (77 words)",
+      "reason": "Answer 摘要从开头至 (77 words) 是一个完整答案段落，六行连续叙述合并；不更正原文字词或计数。"
+    },
+    {
+      "start": 146,
+      "end": 147,
+      "before": [
+        "2. Everything we eat and drink contains some salt -we can meet the body's need from",
+        "natural sources without turning ________ the salt bottle."
+      ],
+      "text": "2. Everything we eat and drink contains some salt -we can meet the body's need from natural sources without turning ________ the salt bottle.",
+      "reason": "同一英文句子或段落的续行，补词间空格并保留段内完整句子。"
+    },
+    {
+      "start": 153,
+      "end": 154,
+      "before": [
+        "3. Agriculture was a step in human progress _______ which subsequently there was",
+        "not anything comparable until our own machine age."
+      ],
+      "text": "3. Agriculture was a step in human progress _______ which subsequently there was not anything comparable until our own machine age.",
+      "reason": "同一英文句子或段落的续行，补词间空格并保留段内完整句子。"
+    },
+    {
+      "start": 160,
+      "end": 161,
+      "before": [
+        "4. You should have been more patient _______ that customer; I'm sure that selling",
+        "him the watch was possibility."
+      ],
+      "text": "4. You should have been more patient _______ that customer; I'm sure that selling him the watch was possibility.",
+      "reason": "同一英文句子或段落的续行，补词间空格并保留段内完整句子。"
+    },
+    {
+      "start": 167,
+      "end": 168,
+      "before": [
+        "5. We went around the table _______ ourselves and telling our stories as way to break",
+        "the ice."
+      ],
+      "text": "5. We went around the table _______ ourselves and telling our stories as way to break the ice.",
+      "reason": "同一英文句子或段落的续行，补词间空格并保留段内完整句子。"
+    },
+    {
+      "start": 174,
+      "end": 175,
+      "before": [
+        "6. Medical research has shown that the widespread use of cigarettes contributes",
+        "______ the increase of cancers."
+      ],
+      "text": "6. Medical research has shown that the widespread use of cigarettes contributes ______ the increase of cancers.",
+      "reason": "同一英文句子或段落的续行，补词间空格并保留段内完整句子。"
+    },
+    {
+      "start": 181,
+      "end": 182,
+      "before": [
+        "7. Without proper lessons, you could ________ a lot of bad habits when playing the",
+        "piano."
+      ],
+      "text": "7. Without proper lessons, you could ________ a lot of bad habits when playing the piano.",
+      "reason": "同一英文句子或段落的续行，补词间空格并保留段内完整句子。"
+    },
+    {
+      "start": 187,
+      "end": 188,
+      "before": [
+        "7. B. pick up在本句中意为“得到”; keep up意为“维持;保持不变,持续”; draw up意",
+        "为“起草(文件、计划等);拉起;(车等)停止”; catch up意为“赶上,追上”。"
+      ],
+      "text": "7. B. pick up在本句中意为“得到”; keep up意为“维持;保持不变,持续”; draw up意为“起草(文件、计划等);拉起;(车等)停止”; catch up意为“赶上,追上”。",
+      "reason": "同一中文译文或解析的续行，拼接跨行词语，不插入中文词内空格。"
+    },
+    {
+      "start": 189,
+      "end": 190,
+      "before": [
+        "8. In Disneyland every year, some plants are replaced because Disney refused to",
+        "_______ signs asking his “guests”not to step on them."
+      ],
+      "text": "8. In Disneyland every year, some plants are replaced because Disney refused to _______ signs asking his “guests”not to step on them.",
+      "reason": "同一英文句子或段落的续行，补词间空格并保留段内完整句子。"
+    },
+    {
+      "start": 195,
+      "end": 196,
+      "before": [
+        "8. C. put up在本句中意为“竖起,挂起”; put down意为“放下;写下,记下”; put out意",
+        "为“熄灭;伸出(手等)”; put off意为“延期,延后,推迟”。"
+      ],
+      "text": "8. C. put up在本句中意为“竖起,挂起”; put down意为“放下;写下,记下”; put out意为“熄灭;伸出(手等)”; put off意为“延期,延后,推迟”。",
+      "reason": "同一中文译文或解析的续行，拼接跨行词语，不插入中文词内空格。"
+    },
+    {
+      "start": 202,
+      "end": 203,
+      "before": [
+        "9. B. hand down在本句中意为“留下遗产,传给后世”; hand out意为“分发,分配,散",
+        "发”;hand over意为“交出,移交”; hand round意为“分发,传阅”。"
+      ],
+      "text": "9. B. hand down在本句中意为“留下遗产,传给后世”; hand out意为“分发,分配,散发”;hand over意为“交出,移交”; hand round意为“分发,传阅”。",
+      "reason": "同一中文译文或解析的续行，拼接跨行词语，不插入中文词内空格。"
+    },
+    {
+      "start": 209,
+      "end": 211,
+      "before": [
+        "10. C. break down在本句中意为“(机械等)故障毁坏”; break off意为“折断,断掉;中",
+        "断;停止说话”; break up意为“粉碎,拆散;结束,中止”; break out意为“(火灾、战争等)",
+        "突然发生,发”。"
+      ],
+      "text": "10. C. break down在本句中意为“(机械等)故障毁坏”; break off意为“折断,断掉;中断;停止说话”; break up意为“粉碎,拆散;结束,中止”; break out意为“(火灾、战争等)突然发生,发”。",
+      "reason": "同一中文译文或解析的续行，拼接跨行词语，不插入中文词内空格。"
+    },
+    {
+      "start": 213,
+      "end": 214,
+      "before": [
+        "11. It is important that the hotel receptionist _______ that guests are registered",
+        "correctly."
+      ],
+      "text": "11. It is important that the hotel receptionist _______ that guests are registered correctly.",
+      "reason": "同一英文句子或段落的续行，补词间空格并保留段内完整句子。"
+    },
+    {
+      "start": 219,
+      "end": 220,
+      "before": [
+        "11. D.虚拟语气结构。在 it is essential/important that.主语从句结构中,通常要用虚",
+        "拟语气,其形式为(should)+动词原型。should可以省略。"
+      ],
+      "text": "11. D.虚拟语气结构。在 it is essential/important that.主语从句结构中,通常要用虚拟语气,其形式为(should)+动词原型。should可以省略。",
+      "reason": "同一中文译文或解析的续行，拼接跨行词语，不插入中文词内空格。"
+    },
+    {
+      "start": 232,
+      "end": 233,
+      "before": [
+        "13. C.宾语从句中的虚拟语气结构。在 request后面所接宾语从句中,从句谓语动词",
+        "要用虚拟语气结构,其形式为(should)+动词原型。"
+      ],
+      "text": "13. C.宾语从句中的虚拟语气结构。在 request后面所接宾语从句中,从句谓语动词要用虚拟语气结构,其形式为(should)+动词原型。",
+      "reason": "同一中文译文或解析的续行，拼接跨行词语，不插入中文词内空格。"
+    },
+    {
+      "start": 239,
+      "end": 240,
+      "before": [
+        "14. C条件句中的虚拟语气结构。表示与过去事实相反的虚拟语气,主句的形式为",
+        "主语+should/would/could/might+ have done句中省去了连接词if而用了倒装结构"
+      ],
+      "text": "14. C条件句中的虚拟语气结构。表示与过去事实相反的虚拟语气,主句的形式为主语+should/would/could/might+ have done句中省去了连接词if而用了倒装结构",
+      "reason": "同一中文译文或解析的续行，拼接跨行词语，不插入中文词内空格。"
+    },
+    {
+      "start": 254,
+      "end": 255,
+      "before": [
+        "17. My train arrives in New York at eight o'clock tonight. The plane I would like to",
+        "take from there _________ by then."
+      ],
+      "text": "17. My train arrives in New York at eight o'clock tonight. The plane I would like to take from there _________ by then.",
+      "reason": "同一英文句子或段落的续行，补词间空格并保留段内完整句子。"
+    },
+    {
+      "start": 267,
+      "end": 268,
+      "before": [
+        "19. A Dream of the Red Chamber is said _______ into dozens of languages in the last",
+        "decade."
+      ],
+      "text": "19. A Dream of the Red Chamber is said _______ into dozens of languages in the last decade.",
+      "reason": "同一英文句子或段落的续行，补词间空格并保留段内完整句子。"
+    },
+    {
+      "start": 273,
+      "end": 274,
+      "before": [
+        "19. A.动词不定式完成时的用法。动词不定式的完成时表示说话之前不定式动作",
+        "已经发生。由于“小说”是“被翻译”,因此用被动语态。"
+      ],
+      "text": "19. A.动词不定式完成时的用法。动词不定式的完成时表示说话之前不定式动作已经发生。由于“小说”是“被翻译”,因此用被动语态。",
+      "reason": "同一中文译文或解析的续行，拼接跨行词语，不插入中文词内空格。"
+    },
+    {
+      "start": 275,
+      "end": 276,
+      "before": [
+        "20. The professor could hardly find sufficient grounds _______ his arguments in",
+        "favor of the new theory."
+      ],
+      "text": "20. The professor could hardly find sufficient grounds _______ his arguments in favor of the new theory.",
+      "reason": "同一英文句子或段落的续行，补词间空格并保留段内完整句子。"
+    },
+    {
+      "start": 281,
+      "end": 282,
+      "before": [
+        "20. A.不定式短语作定语可用介词+ which+不定式结构,介词与后面的动词搭配,如",
+        "base......."
+      ],
+      "text": "20. A.不定式短语作定语可用介词+ which+不定式结构,介词与后面的动词搭配,如 base.......",
+      "reason": "解析末尾 base....... 承接前行“如”，保留原例子内容，合为同一解析段落。"
+    }
+  ],
+  "sources": [
+    {
+      "path": "content/article-review/history/19928e1ac80626ad7cc99b7648c832d1bdedd33104cec28a57a5f2ffa1aeb760.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "1fa25c198a45242521f888114d021d1cdce9f317d2e660cfbd81dcdf9670079c"
+    }
+  ]
+}

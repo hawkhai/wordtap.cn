@@ -1,0 +1,95 @@
+{
+  "schemaVersion": 1,
+  "course": "pep-english",
+  "articleId": "pepj9-005",
+  "beforeDisplaySha256": "5500d034bac1434cdb3818d7ea94f7a61a08e578a2d3d50f425a501b0ba7b85b",
+  "afterDisplaySha256": "5500d034bac1434cdb3818d7ea94f7a61a08e578a2d3d50f425a501b0ba7b85b",
+  "baselineDisplay": {
+    "title": "Full Moon, Full Feelings",
+    "section": "Section A",
+    "text": "Chinese people have been celebrating the Mid-Autumn Festival and enjoying mooncakes for centuries. Mooncakes are in the shape of a full moon on the Mid-Autumn night. They carry people's wishes to the families they love and miss.\nThere are many traditional folk stories about this festival. However, most people think that the story of Chang'e is the most touching. Chang'e was Hou Yi's beautiful wife. After Hou Yi shot down the nine suns, a goddess gave him magic medicine to thank him. Whoever took this could live forever, and Hou Yi planned to take it with Chang'e. However, a bad man, Pang Meng, tried to steal the medicine when Hou Yi was not home. Chang'e refused to give it to him and took it all. She became very light and flew up to the moon. Hou Yi was so sad that he called out her name to the moon every night. One night, he found that the moon was so bright and round that he could see his wife there. He quickly laid out her favorite fruits and desserts in the garden. How he wished that Chang'e could come back!\nAfter this, people started the tradition of admiring the moon and sharing mooncakes with their families.",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Chinese people have been celebrating the Mid-Autumn Festival and enjoying mooncakes for centuries. Mooncakes are in the shape of a full moon on the Mid-Autumn night. They carry people's wishes to the families they love and miss."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "There are many traditional folk stories about this festival. However, most people think that the story of Chang'e is the most touching. Chang'e was Hou Yi's beautiful wife. After Hou Yi shot down the nine suns, a goddess gave him magic medicine to thank him. Whoever took this could live forever, and Hou Yi planned to take it with Chang'e. However, a bad man, Pang Meng, tried to steal the medicine when Hou Yi was not home. Chang'e refused to give it to him and took it all. She became very light and flew up to the moon. Hou Yi was so sad that he called out her name to the moon every night. One night, he found that the moon was so bright and round that he could see his wife there. He quickly laid out her favorite fruits and desserts in the garden. How he wished that Chang'e could come back!"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "After this, people started the tradition of admiring the moon and sharing mooncakes with their families."
+      }
+    ]
+  },
+  "display": {
+    "title": "Full Moon, Full Feelings",
+    "section": "Section A",
+    "text": "Chinese people have been celebrating the Mid-Autumn Festival and enjoying mooncakes for centuries. Mooncakes are in the shape of a full moon on the Mid-Autumn night. They carry people's wishes to the families they love and miss.\nThere are many traditional folk stories about this festival. However, most people think that the story of Chang'e is the most touching. Chang'e was Hou Yi's beautiful wife. After Hou Yi shot down the nine suns, a goddess gave him magic medicine to thank him. Whoever took this could live forever, and Hou Yi planned to take it with Chang'e. However, a bad man, Pang Meng, tried to steal the medicine when Hou Yi was not home. Chang'e refused to give it to him and took it all. She became very light and flew up to the moon. Hou Yi was so sad that he called out her name to the moon every night. One night, he found that the moon was so bright and round that he could see his wife there. He quickly laid out her favorite fruits and desserts in the garden. How he wished that Chang'e could come back!\nAfter this, people started the tradition of admiring the moon and sharing mooncakes with their families.",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Chinese people have been celebrating the Mid-Autumn Festival and enjoying mooncakes for centuries. Mooncakes are in the shape of a full moon on the Mid-Autumn night. They carry people's wishes to the families they love and miss."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "There are many traditional folk stories about this festival. However, most people think that the story of Chang'e is the most touching. Chang'e was Hou Yi's beautiful wife. After Hou Yi shot down the nine suns, a goddess gave him magic medicine to thank him. Whoever took this could live forever, and Hou Yi planned to take it with Chang'e. However, a bad man, Pang Meng, tried to steal the medicine when Hou Yi was not home. Chang'e refused to give it to him and took it all. She became very light and flew up to the moon. Hou Yi was so sad that he called out her name to the moon every night. One night, he found that the moon was so bright and round that he could see his wife there. He quickly laid out her favorite fruits and desserts in the garden. How he wished that Chang'e could come back!"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "After this, people started the tradition of admiring the moon and sharing mooncakes with their families."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "path": "content/article-review/history/903b4c2dcf1cae9f56b1ff9f629fb13ca4a23b18173d28e64d791a140a6b931f.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "a864869bab4df500837c191741cd188dc162f8b9dc11b8229b69af2919ce53d3"
+    }
+  ],
+  "corrections": [],
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "reviewer": "Codex",
+  "reviewedAt": "2026-10-07T07:42:01+00:00",
+  "notes": "中秋三段为月饼寓意、嫦娥完整故事、赏月传统，保留长故事自然段。",
+  "issues": [],
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "887f2df2ccc7cc0d8c775168abf2271dce48e38b6cc299f2b0ee0ebc4d8e3dfa",
+    "afterFileSha256": "887f2df2ccc7cc0d8c775168abf2271dce48e38b6cc299f2b0ee0ebc4d8e3dfa",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "887f2df2ccc7cc0d8c775168abf2271dce48e38b6cc299f2b0ee0ebc4d8e3dfa",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..2] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "中秋三段为月饼寓意、嫦娥完整故事、赏月传统，保留长故事自然段。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "blockEdits": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/903b4c2dcf1cae9f56b1ff9f629fb13ca4a23b18173d28e64d791a140a6b931f.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "a864869bab4df500837c191741cd188dc162f8b9dc11b8229b69af2919ce53d3"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "903b4c2dcf1cae9f56b1ff9f629fb13ca4a23b18173d28e64d791a140a6b931f"
+}

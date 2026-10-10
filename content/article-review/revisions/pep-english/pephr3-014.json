@@ -1,0 +1,160 @@
+{
+  "schemaVersion": 1,
+  "course": "pep-english",
+  "articleId": "pephr3-014",
+  "beforeDisplaySha256": "6e849b07f04cad7ca91b8c163dab62ea7825870bf5aa71e63039154a25033fcb",
+  "afterDisplaySha256": "2ae46993e7d9797233ec452a17333dc0c1054a1fa0b3c1ae6687e657cf50be4d",
+  "baselineDisplay": {
+    "title": "Regional Music in the United States",
+    "section": "Assessing Your Progress",
+    "text": "A: We've got to write a paper on music in the US. Do you have any ideas about what kinds of music are popular there? I only know hip-hop seems popular.\nB: Yeah. Hip-hop is generally popular in the US, but different parts of the country listen to different types of music.\nA: Can you give an example of this?\nB: Well, for example, in southern US, they have their own culture.\nA: So, do you mean they have something like a subculture?\nB: Right. The history in that region has given them a different identity.\nA: Country music is popular there, right?\nB: Well. Not only is country music popular in the south, but blues, rock and roll, bluegrass, and jazz are popular in the south as well.\nA: Ah, of course they are popular! I forgot about New Orleans jazz!",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "A: We've got to write a paper on music in the US. Do you have any ideas about what kinds of music are popular there? I only know hip-hop seems popular.\nB: Yeah. Hip-hop is generally popular in the US, but different parts of the country listen to different types of music.\nA: Can you give an example of this?\nB: Well, for example, in southern US, they have their own culture.\nA: So, do you mean they have something like a subculture?\nB: Right. The history in that region has given them a different identity.\nA: Country music is popular there, right?\nB: Well. Not only is country music popular in the south, but blues, rock and roll, bluegrass, and jazz are popular in the south as well.\nA: Ah, of course they are popular! I forgot about New Orleans jazz!"
+      }
+    ]
+  },
+  "display": {
+    "title": "Regional Music in the United States",
+    "section": "Assessing Your Progress",
+    "text": "A: We've got to write a paper on music in the US. Do you have any ideas about what kinds of music are popular there? I only know hip-hop seems popular.\nB: Yeah. Hip-hop is generally popular in the US, but different parts of the country listen to different types of music.\nA: Can you give an example of this?\nB: Well, for example, in southern US, they have their own culture.\nA: So, do you mean they have something like a subculture?\nB: Right. The history in that region has given them a different identity.\nA: Country music is popular there, right?\nB: Well. Not only is country music popular in the south, but blues, rock and roll, bluegrass, and jazz are popular in the south as well.\nA: Ah, of course they are popular! I forgot about New Orleans jazz!",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "A: We've got to write a paper on music in the US. Do you have any ideas about what kinds of music are popular there? I only know hip-hop seems popular."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "B: Yeah. Hip-hop is generally popular in the US, but different parts of the country listen to different types of music."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "A: Can you give an example of this?"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "B: Well, for example, in southern US, they have their own culture."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "A: So, do you mean they have something like a subculture?"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "B: Right. The history in that region has given them a different identity."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "A: Country music is popular there, right?"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "B: Well. Not only is country music popular in the south, but blues, rock and roll, bluegrass, and jazz are popular in the south as well."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "A: Ah, of course they are popular! I forgot about New Orleans jazz!"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "path": "content/article-review/history/7cd9e1457e9c05d691138966e1d979f1a0626ea0e224ab7bbc22be7dc9299917.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "4217d92e9c87355ea99663dd72118f53c6aa7a064549408cdf95c9f20f04fead"
+    }
+  ],
+  "corrections": [],
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "reviewer": "Codex",
+  "reviewedAt": "2026-10-07T07:30:20+00:00",
+  "notes": "美国地方音乐九轮A/B问答拆分，南方文化与音乐类型清单保留发言内部。",
+  "issues": [],
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "c67b6b56bf64e039f4c5720babd321ee63ccf384245960fd72881a55b2530cd5",
+    "afterFileSha256": "99c961500c771ae12a3daf9e57b2c3f412ec80c6eac12215cb627f419be03758",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "c67b6b56bf64e039f4c5720babd321ee63ccf384245960fd72881a55b2530cd5",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..0] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "美国地方音乐九轮A/B问答拆分，南方文化与音乐类型清单保留发言内部。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [
+        {
+          "index": 0,
+          "before": [
+            "A: We've got to write a paper on music in the US. Do you have any ideas about what kinds of music are popular there? I only know hip-hop seems popular.\nB: Yeah. Hip-hop is generally popular in the US, but different parts of the country listen to different types of music.\nA: Can you give an example of this?\nB: Well, for example, in southern US, they have their own culture.\nA: So, do you mean they have something like a subculture?\nB: Right. The history in that region has given them a different identity.\nA: Country music is popular there, right?\nB: Well. Not only is country music popular in the south, but blues, rock and roll, bluegrass, and jazz are popular in the south as well.\nA: Ah, of course they are popular! I forgot about New Orleans jazz!"
+          ],
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "A: We've got to write a paper on music in the US. Do you have any ideas about what kinds of music are popular there? I only know hip-hop seems popular."
+            },
+            {
+              "type": "paragraph",
+              "text": "B: Yeah. Hip-hop is generally popular in the US, but different parts of the country listen to different types of music."
+            },
+            {
+              "type": "paragraph",
+              "text": "A: Can you give an example of this?"
+            },
+            {
+              "type": "paragraph",
+              "text": "B: Well, for example, in southern US, they have their own culture."
+            },
+            {
+              "type": "paragraph",
+              "text": "A: So, do you mean they have something like a subculture?"
+            },
+            {
+              "type": "paragraph",
+              "text": "B: Right. The history in that region has given them a different identity."
+            },
+            {
+              "type": "paragraph",
+              "text": "A: Country music is popular there, right?"
+            },
+            {
+              "type": "paragraph",
+              "text": "B: Well. Not only is country music popular in the south, but blues, rock and roll, bluegrass, and jazz are popular in the south as well."
+            },
+            {
+              "type": "paragraph",
+              "text": "A: Ah, of course they are popular! I forgot about New Orleans jazz!"
+            }
+          ],
+          "reason": "每行具有明确的发言人及完整轮次，分块保留各对话轮次。"
+        }
+      ],
+      "sources": [
+        {
+          "path": "content/article-review/history/7cd9e1457e9c05d691138966e1d979f1a0626ea0e224ab7bbc22be7dc9299917.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "4217d92e9c87355ea99663dd72118f53c6aa7a064549408cdf95c9f20f04fead"
+        }
+      ]
+    }
+  },
+  "status": "passed_edited",
+  "previousRevisionSha256": "7cd9e1457e9c05d691138966e1d979f1a0626ea0e224ab7bbc22be7dc9299917"
+}

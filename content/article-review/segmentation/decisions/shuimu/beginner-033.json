@@ -1,0 +1,71 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "810df4f1f4e1584abc7fa6d8ba76675ed2aabc054e46c3cac705c01c706d7438",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "coverage": "全文 blocks[0..119]；按 JSON 上下文逐项复核对话、解释、题目、表格、词表及修复后的边界。",
+  "notes": "接回 sale、worth 三条译文、货币复数说明和泳池尺寸英文例句；住房对话与编号、温度的独立例子保留。",
+  "issues": [],
+  "mergeBlocks": [
+    {
+      "start": 43,
+      "end": 44,
+      "before": [
+        "▪ I asked him whether the car was up for sale. 我问他这辆车是否可出",
+        "售。"
+      ],
+      "text": "▪ I asked him whether the car was up for sale. 我问他这辆车是否可出售。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 49,
+      "end": 50,
+      "before": [
+        "◦ Tickets are on sale from the booking office. 售票处正在售",
+        "票。"
+      ],
+      "text": "◦ Tickets are on sale from the booking office. 售票处正在售票。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 60,
+      "end": 61,
+      "before": [
+        "◦ The local museum is worth a visit.这家当地的博物馆值得参",
+        "观。"
+      ],
+      "text": "◦ The local museum is worth a visit.这家当地的博物馆值得参观。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 81,
+      "end": 82,
+      "before": [
+        "▫ yuan 一般没有复数形式，但 dollar 和 pound 有复数形式，都是在词",
+        "尾加 s"
+      ],
+      "text": "▫ yuan 一般没有复数形式，但 dollar 和 pound 有复数形式，都是在词尾加 s",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 96,
+      "end": 97,
+      "before": [
+        "▫ The pool is fifty meters long, twenty-one meters wide, one point",
+        "eight meters deep."
+      ],
+      "text": "▫ The pool is fifty meters long, twenty-one meters wide, one point eight meters deep.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    }
+  ],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/c375dcf09e05094a18b2212d155917e74ce5a62505b7cdd2cb79c7f4b2f329df.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "287949091f35668a263e46662db098c8f21f38eea29397251c5e91b171834e69"
+    }
+  ]
+}

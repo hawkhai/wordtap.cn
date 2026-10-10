@@ -10,24 +10,44 @@
   "text": "Who are we?\nPeople’s Shoes is a company committed to creating a better world.\nWhat do we do?\nFor every pair of shoes you buy, we donate a pair of shoes to someone in need. We also provide surgery and medical treatment to people with eye problems, and water systems to countries with unsafe drinking water.\nWhere do we work?\nWe work in 70 countries around the world.\nHow can you help?\nYou can buy our products, so we can give to others.",
   "blocks": [
     {
-      "type": "paragraph",
+      "type": "subheading",
       "lang": "en",
-      "text": "Who are we?\nPeople’s Shoes is a company committed to creating a better world."
+      "text": "Who are we?"
     },
     {
       "type": "paragraph",
       "lang": "en",
-      "text": "What do we do?\nFor every pair of shoes you buy, we donate a pair of shoes to someone in need. We also provide surgery and medical treatment to people with eye problems, and water systems to countries with unsafe drinking water."
+      "text": "People’s Shoes is a company committed to creating a better world."
+    },
+    {
+      "type": "subheading",
+      "lang": "en",
+      "text": "What do we do?"
     },
     {
       "type": "paragraph",
       "lang": "en",
-      "text": "Where do we work?\nWe work in 70 countries around the world."
+      "text": "For every pair of shoes you buy, we donate a pair of shoes to someone in need. We also provide surgery and medical treatment to people with eye problems, and water systems to countries with unsafe drinking water."
+    },
+    {
+      "type": "subheading",
+      "lang": "en",
+      "text": "Where do we work?"
     },
     {
       "type": "paragraph",
       "lang": "en",
-      "text": "How can you help?\nYou can buy our products, so we can give to others."
+      "text": "We work in 70 countries around the world."
+    },
+    {
+      "type": "subheading",
+      "lang": "en",
+      "text": "How can you help?"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "You can buy our products, so we can give to others."
     }
   ],
   "source": {

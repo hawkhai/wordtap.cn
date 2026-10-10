@@ -1,0 +1,95 @@
+{
+  "schemaVersion": 1,
+  "course": "pep-english",
+  "articleId": "pepj8b-019",
+  "beforeDisplaySha256": "ce7e20eec6b344087ab060d7cdfe789394ae43380774737556b6b2cecd215fc4",
+  "afterDisplaySha256": "ce7e20eec6b344087ab060d7cdfe789394ae43380774737556b6b2cecd215fc4",
+  "baselineDisplay": {
+    "title": "A Family's Yard Sale",
+    "section": "Section A",
+    "text": "My children are growing up fast. My daughter is 16 and my boy is already in junior high school. As they get bigger, our house seems to get smaller. So we want to sell some of our things in a yard sale and give the money to a children's home.\nWe have already cleared out a lot of things from our bedrooms. We have decided to each sell five things that we no longer use. My son was quite sad at first. Although he has not played with his old toys for a long time, he still wanted to keep them. For example, he has owned a train and railway set since his fourth birthday, and he played with it almost every week until he was about seven. And he did not want to lose his toy monkey, either. He slept next to the monkey every night when he was a child. My daughter was more understanding, although she also felt sad to part with certain toys.\nAs for me, I did not want to give up my football shirts, but, to be honest, I have not played for a while now. I am getting older, too!",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "My children are growing up fast. My daughter is 16 and my boy is already in junior high school. As they get bigger, our house seems to get smaller. So we want to sell some of our things in a yard sale and give the money to a children's home."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "We have already cleared out a lot of things from our bedrooms. We have decided to each sell five things that we no longer use. My son was quite sad at first. Although he has not played with his old toys for a long time, he still wanted to keep them. For example, he has owned a train and railway set since his fourth birthday, and he played with it almost every week until he was about seven. And he did not want to lose his toy monkey, either. He slept next to the monkey every night when he was a child. My daughter was more understanding, although she also felt sad to part with certain toys."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "As for me, I did not want to give up my football shirts, but, to be honest, I have not played for a while now. I am getting older, too!"
+      }
+    ]
+  },
+  "display": {
+    "title": "A Family's Yard Sale",
+    "section": "Section A",
+    "text": "My children are growing up fast. My daughter is 16 and my boy is already in junior high school. As they get bigger, our house seems to get smaller. So we want to sell some of our things in a yard sale and give the money to a children's home.\nWe have already cleared out a lot of things from our bedrooms. We have decided to each sell five things that we no longer use. My son was quite sad at first. Although he has not played with his old toys for a long time, he still wanted to keep them. For example, he has owned a train and railway set since his fourth birthday, and he played with it almost every week until he was about seven. And he did not want to lose his toy monkey, either. He slept next to the monkey every night when he was a child. My daughter was more understanding, although she also felt sad to part with certain toys.\nAs for me, I did not want to give up my football shirts, but, to be honest, I have not played for a while now. I am getting older, too!",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "My children are growing up fast. My daughter is 16 and my boy is already in junior high school. As they get bigger, our house seems to get smaller. So we want to sell some of our things in a yard sale and give the money to a children's home."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "We have already cleared out a lot of things from our bedrooms. We have decided to each sell five things that we no longer use. My son was quite sad at first. Although he has not played with his old toys for a long time, he still wanted to keep them. For example, he has owned a train and railway set since his fourth birthday, and he played with it almost every week until he was about seven. And he did not want to lose his toy monkey, either. He slept next to the monkey every night when he was a child. My daughter was more understanding, although she also felt sad to part with certain toys."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "As for me, I did not want to give up my football shirts, but, to be honest, I have not played for a while now. I am getting older, too!"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "path": "content/article-review/history/259d506df8cd46a819faaf58833e12cb0fed245d105682ab241bf2a075b602ef.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "8e34eba4fa52a1abbddef55e1cc6170014351d65378bca4a56e08da3cb7116a8"
+    }
+  ],
+  "corrections": [],
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "reviewer": "Codex",
+  "reviewedAt": "2026-10-07T07:42:00+00:00",
+  "notes": "庭院义卖三段介绍动机、子女舍弃玩具、父亲球衣，保留完整家庭人物段。",
+  "issues": [],
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "b7ac11389ebdd204d2387f09800a2ce2b05874eb720b78bff575288b71b9c61c",
+    "afterFileSha256": "b7ac11389ebdd204d2387f09800a2ce2b05874eb720b78bff575288b71b9c61c",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "b7ac11389ebdd204d2387f09800a2ce2b05874eb720b78bff575288b71b9c61c",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..2] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "庭院义卖三段介绍动机、子女舍弃玩具、父亲球衣，保留完整家庭人物段。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "blockEdits": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/259d506df8cd46a819faaf58833e12cb0fed245d105682ab241bf2a075b602ef.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "8e34eba4fa52a1abbddef55e1cc6170014351d65378bca4a56e08da3cb7116a8"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "259d506df8cd46a819faaf58833e12cb0fed245d105682ab241bf2a075b602ef"
+}

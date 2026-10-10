@@ -1,0 +1,139 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "9e8f1a32048c8c8e44a58708001dc9f4bd17552e7f64a2eb41d6dc98aeeb0f5a",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title；全文 blocks[0..3] 与对应 text；现有正文/对话/题干逐块通读复核。",
+  "notes": "游乐园四场景原各混对白，现按场景指示与角色轮次拆分，保留每轮多句和场景先后。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [
+    {
+      "index": 0,
+      "before": [
+        "[Alice and He Wei are in Space World.]\nAlice: I wonder where we should go next.\nHe Wei: How about that new ride over there?\nAlice: Well... it looks scary.\nHe Wei: Come on! I promise it'll be exciting! If you're scared, just shout or hold my hand."
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "[Alice and He Wei are in Space World.]"
+        },
+        {
+          "type": "paragraph",
+          "text": "Alice: I wonder where we should go next."
+        },
+        {
+          "type": "paragraph",
+          "text": "He Wei: How about that new ride over there?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Alice: Well... it looks scary."
+        },
+        {
+          "type": "paragraph",
+          "text": "He Wei: Come on! I promise it'll be exciting! If you're scared, just shout or hold my hand."
+        }
+      ],
+      "reason": "现有换行分别标示方括号场景指示或具名角色发言，各是独立戏剧/对话单元。"
+    },
+    {
+      "index": 1,
+      "before": [
+        "[After the ride...]\nAlice: You were right! That was fun! I was scared at first, but shouting did help.\nHe Wei: See, that wasn't so bad, right? You never know until you try something.\nAlice: Yes, I'm so glad I tried it!\nHe Wei: Do you want to go to Water World now?\nAlice: Sure, but I'm getting hungry. Do you know where we can get some good food quickly?\nHe Wei: Of course! I suggest Water City Restaurant in Water World. It serves delicious food.\nAlice: Great! Let's go!"
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "[After the ride...]"
+        },
+        {
+          "type": "paragraph",
+          "text": "Alice: You were right! That was fun! I was scared at first, but shouting did help."
+        },
+        {
+          "type": "paragraph",
+          "text": "He Wei: See, that wasn't so bad, right? You never know until you try something."
+        },
+        {
+          "type": "paragraph",
+          "text": "Alice: Yes, I'm so glad I tried it!"
+        },
+        {
+          "type": "paragraph",
+          "text": "He Wei: Do you want to go to Water World now?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Alice: Sure, but I'm getting hungry. Do you know where we can get some good food quickly?"
+        },
+        {
+          "type": "paragraph",
+          "text": "He Wei: Of course! I suggest Water City Restaurant in Water World. It serves delicious food."
+        },
+        {
+          "type": "paragraph",
+          "text": "Alice: Great! Let's go!"
+        }
+      ],
+      "reason": "现有换行分别标示方括号场景指示或具名角色发言，各是独立戏剧/对话单元。"
+    },
+    {
+      "index": 2,
+      "before": [
+        "[On their way to Water City Restaurant, Alice and He Wei pass by Uncle Bob's.]\nAlice: Look! This restaurant looks interesting. The sign says a rock band plays here every evening.\nHe Wei: Why don't we come back here for dinner later? Let's ask what time the band starts playing."
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "[On their way to Water City Restaurant, Alice and He Wei pass by Uncle Bob's.]"
+        },
+        {
+          "type": "paragraph",
+          "text": "Alice: Look! This restaurant looks interesting. The sign says a rock band plays here every evening."
+        },
+        {
+          "type": "paragraph",
+          "text": "He Wei: Why don't we come back here for dinner later? Let's ask what time the band starts playing."
+        }
+      ],
+      "reason": "现有换行分别标示方括号场景指示或具名角色发言，各是独立戏剧/对话单元。"
+    },
+    {
+      "index": 3,
+      "before": [
+        "[Alice and He Wei walk up to a staff person at the door.]\nHe Wei: Excuse me, could you tell us when the band starts playing this evening?\nStaff: Eight o'clock. The restaurant is always busy at that time, so come a little earlier to get a table.\nHe Wei: OK. Thank you!"
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "[Alice and He Wei walk up to a staff person at the door.]"
+        },
+        {
+          "type": "paragraph",
+          "text": "He Wei: Excuse me, could you tell us when the band starts playing this evening?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Staff: Eight o'clock. The restaurant is always busy at that time, so come a little earlier to get a table."
+        },
+        {
+          "type": "paragraph",
+          "text": "He Wei: OK. Thank you!"
+        }
+      ],
+      "reason": "现有换行分别标示方括号场景指示或具名角色发言，各是独立戏剧/对话单元。"
+    }
+  ],
+  "blockEdits": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/a8d38af2b7e9a4432f48c9cce85d5f08a1684c2bc5ffa1f173c8e402029332ac.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "3192f88e5cdc2c3337148392f05ea531e25fb5731e127573a7c1f49ea68010da"
+    }
+  ]
+}

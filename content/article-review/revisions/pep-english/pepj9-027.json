@@ -1,0 +1,161 @@
+{
+  "schemaVersion": 1,
+  "course": "pep-english",
+  "articleId": "pepj9-027",
+  "beforeDisplaySha256": "3b98e23a2c497d239e7eab7d93b41ed4915382c3af5af0ca8f44271403986058",
+  "afterDisplaySha256": "0728fa243bd8b0992d0d41b523ceaa0ce71d98cd443beef6c80235fc4397886b",
+  "baselineDisplay": {
+    "title": "Jill and Scott Talk About Music and Movies",
+    "section": "Section A",
+    "text": "Jill: What are you doing this weekend, Scott?\nScott: Not much. I suppose I'll just listen to this new CD I bought.\nJill: Oh, what CD is this?\nScott: Well, it's all music. There's no singing. I like smooth music that helps me relax after a long week at work.\nJill: Sounds nice. Well, if you have spare time, do you want to watch a movie with me? The director is really famous.\nScott: Hmm, depends which movie. I only like movies that are funny. I just want to laugh and not think too much. You know what I mean?\nJill: Oh, in that case, I'll ask someone who likes serious movies.\nScott: What's the movie about?\nJill: It's about World War II. I prefer movies that give me something to think about.",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Jill: What are you doing this weekend, Scott?\nScott: Not much. I suppose I'll just listen to this new CD I bought.\nJill: Oh, what CD is this?\nScott: Well, it's all music. There's no singing. I like smooth music that helps me relax after a long week at work.\nJill: Sounds nice. Well, if you have spare time, do you want to watch a movie with me? The director is really famous.\nScott: Hmm, depends which movie. I only like movies that are funny. I just want to laugh and not think too much. You know what I mean?\nJill: Oh, in that case, I'll ask someone who likes serious movies.\nScott: What's the movie about?\nJill: It's about World War II. I prefer movies that give me something to think about."
+      }
+    ]
+  },
+  "display": {
+    "title": "Jill and Scott Talk About Music and Movies",
+    "section": "Section A",
+    "text": "Jill: What are you doing this weekend, Scott?\nScott: Not much. I suppose I'll just listen to this new CD I bought.\nJill: Oh, what CD is this?\nScott: Well, it's all music. There's no singing. I like smooth music that helps me relax after a long week at work.\nJill: Sounds nice. Well, if you have spare time, do you want to watch a movie with me? The director is really famous.\nScott: Hmm, depends which movie. I only like movies that are funny. I just want to laugh and not think too much. You know what I mean?\nJill: Oh, in that case, I'll ask someone who likes serious movies.\nScott: What's the movie about?\nJill: It's about World War II. I prefer movies that give me something to think about.",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Jill: What are you doing this weekend, Scott?"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Scott: Not much. I suppose I'll just listen to this new CD I bought."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Jill: Oh, what CD is this?"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Scott: Well, it's all music. There's no singing. I like smooth music that helps me relax after a long week at work."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Jill: Sounds nice. Well, if you have spare time, do you want to watch a movie with me? The director is really famous."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Scott: Hmm, depends which movie. I only like movies that are funny. I just want to laugh and not think too much. You know what I mean?"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Jill: Oh, in that case, I'll ask someone who likes serious movies."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Scott: What's the movie about?"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Jill: It's about World War II. I prefer movies that give me something to think about."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "path": "content/article-review/history/feb58ff494722ba94a910835cd66f1a0c98b526be2320b3039fdf97a66d2a75b.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "a65d2ba3b1d8904130b8aa31f95876d6481e7c60b12f67a4682484a581c682d7"
+    }
+  ],
+  "corrections": [],
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "reviewer": "Codex",
+  "reviewedAt": "2026-10-07T07:42:02+00:00",
+  "notes": "Jill与Scott音乐电影偏好九轮对话按角色拆分，放松音乐和电影理由留在本轮。",
+  "issues": [],
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "ee5c290f2d0ece476ccead8263badd0c6cbf0951bcc81036151f1063ada52b56",
+    "afterFileSha256": "09081f2702a070d53bd36f2227755ca97b52304cbe1974a037b0927d73aa498d",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "ee5c290f2d0ece476ccead8263badd0c6cbf0951bcc81036151f1063ada52b56",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..0] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "Jill与Scott音乐电影偏好九轮对话按角色拆分，放松音乐和电影理由留在本轮。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [
+        {
+          "index": 0,
+          "before": [
+            "Jill: What are you doing this weekend, Scott?\nScott: Not much. I suppose I'll just listen to this new CD I bought.\nJill: Oh, what CD is this?\nScott: Well, it's all music. There's no singing. I like smooth music that helps me relax after a long week at work.\nJill: Sounds nice. Well, if you have spare time, do you want to watch a movie with me? The director is really famous.\nScott: Hmm, depends which movie. I only like movies that are funny. I just want to laugh and not think too much. You know what I mean?\nJill: Oh, in that case, I'll ask someone who likes serious movies.\nScott: What's the movie about?\nJill: It's about World War II. I prefer movies that give me something to think about."
+          ],
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Jill: What are you doing this weekend, Scott?"
+            },
+            {
+              "type": "paragraph",
+              "text": "Scott: Not much. I suppose I'll just listen to this new CD I bought."
+            },
+            {
+              "type": "paragraph",
+              "text": "Jill: Oh, what CD is this?"
+            },
+            {
+              "type": "paragraph",
+              "text": "Scott: Well, it's all music. There's no singing. I like smooth music that helps me relax after a long week at work."
+            },
+            {
+              "type": "paragraph",
+              "text": "Jill: Sounds nice. Well, if you have spare time, do you want to watch a movie with me? The director is really famous."
+            },
+            {
+              "type": "paragraph",
+              "text": "Scott: Hmm, depends which movie. I only like movies that are funny. I just want to laugh and not think too much. You know what I mean?"
+            },
+            {
+              "type": "paragraph",
+              "text": "Jill: Oh, in that case, I'll ask someone who likes serious movies."
+            },
+            {
+              "type": "paragraph",
+              "text": "Scott: What's the movie about?"
+            },
+            {
+              "type": "paragraph",
+              "text": "Jill: It's about World War II. I prefer movies that give me something to think about."
+            }
+          ],
+          "reason": "每行具有明确的发言人及完整轮次，分块保留各对话轮次。"
+        }
+      ],
+      "blockEdits": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/feb58ff494722ba94a910835cd66f1a0c98b526be2320b3039fdf97a66d2a75b.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "a65d2ba3b1d8904130b8aa31f95876d6481e7c60b12f67a4682484a581c682d7"
+        }
+      ]
+    }
+  },
+  "status": "passed_edited",
+  "previousRevisionSha256": "feb58ff494722ba94a910835cd66f1a0c98b526be2320b3039fdf97a66d2a75b"
+}

@@ -1,0 +1,21 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "a28f814a0427475bd2dbdf0f983247686f278ea57f864fdf1a3b1e09ea30b255",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title；全文 blocks[0..3] 与对应 text；现有正文/对话/题干逐块通读复核。",
+  "notes": "火星居住四段分别论观点、环境改造、身心健康、组织计划与费用，保留自然段。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/ab8a972de4830ddf97ecbc716de09a90420060380117d90686b2e54dde72ea24.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "970af7fad7462f9fcde19d4050893ce3b8288ebd802c077bbda57b3294e0de86"
+    }
+  ]
+}

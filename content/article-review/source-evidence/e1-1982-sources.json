@@ -1,0 +1,66 @@
+{
+  "article": "e1-1982",
+  "checkedAt": "2026-10-03",
+  "sourcePdfPhysicalPagesRead": [
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49
+  ],
+  "sources": [
+    {
+      "url": "https://dictionary.cambridge.org/us/dictionary/english/bring-in?topic=earning-money",
+      "scope": "INTRODUCE释义及例句实际读，bring in引入；第12题保留原题与C，不据相同题干臆造缺题。"
+    },
+    {
+      "url": "https://dictionary.cambridge.org/us/grammar/british-grammar/nouns-singular-and-plural",
+      "scope": "检索的Collective nouns段实际读，按整体或成员可有单复数，不称全文。"
+    },
+    {
+      "url": "https://our-languages.canada.ca/en/writing-tips-plus/pronoun-agreement-collective-nouns",
+      "scope": "加拿大翻译局教学正文全文实际读，集合名词代词依单数整体/复数成员意义判断，第30题说明原预期，不泛化。"
+    },
+    {
+      "url": "https://archeologie.culture.gouv.fr/fr/eynan-mallaha",
+      "scope": "法国文化部考古项目正文实际全文读，CNRS/IAA主持Eynan-Mallaha项目证据：纳图夫人农业之前已定居，有石基房屋，避免永久住所始于农业的泛化。"
+    },
+    {
+      "url": "https://www.iea.org/reports/economic-growth",
+      "scope": "IEA页面检索首段实际读：能效使同样能耗支持更多经济活动。不称整报告读。第46题生产削减与能效提升区别。"
+    },
+    {
+      "url": "https://www.who.int/news-room/fact-sheets/detail/ionizing-radiation-and-health-effects",
+      "scope": "2023-07-27 WHO事实页正文全文实际读，高剂量急性损伤、较低剂量长期风险、剂量率、修复及癌症概率；中译剂量不误作能级。"
+    },
+    {
+      "url": "https://www.unscear.org/unscear/uploads/documents/publications/UNSCEAR_2013_Annex-B.pdf",
+      "scope": "UNSCEAR 2013 Annex B开头Scientific findings，PDF物理页5–7（印页v–vii）实际读，重点47(g)人类遗传效应尚未明确识别。不称279页全读，也不据此证明零风险。"
+    },
+    {
+      "url": "https://www.unscear.org/unscear/en/publications/2012.html",
+      "scope": "检索的报告介绍实际读，区分归因已观察健康效应与根据照射推断风险。不称2012整报告已读。"
+    }
+  ],
+  "limitations": [
+    "10原块与10原图实际全文读；本版是明示的校正版。",
+    "1974原年份在合订本物理47页独行存在，提取清理时被漏掉，按图及中译恢复；约30国、27%以上为原文历史报道，未找到独立统计原表，限定历史文本归属，不声称核实最新数值。",
+    "第25题原题双错，C has been先修复had been再保留D辨错；28题and无错改E。第27题标记依原图仅who，删who成为并列谓语。",
+    "开题参考答案不代表已获取官方原评分细则；15及30题说明表达/语境差异。",
+    "UNSCEAR旧2001PDF工具访问失败，不作为已读报告；日本环境省21页扫描PDF已下载但未读取正文，不作为支撑；实际采用UNSCEAR站2013报告所列页。",
+    "辐射篇按科学证据实质修改并同步中译，不将癌症风险等同确定发病或把后代体弱归因祖辈受照。"
+  ],
+  "answerChecks": {
+    "choices": "DBCCBAACDCAC",
+    "errorDetection": "A/D/E/C/D/A/C/E/C/C（25先修复C；30保留原预期并解释语义一致）",
+    "cloze": "BCADCCADACC",
+    "reading": "DCCAB"
+  },
+  "rawSha256": "55cb3898fe43152a4ca22ecb037eaec6ac91568e6ae00db9879388cbdb1bb489",
+  "pdfSha256": "525227c90a3228ef9191b7aac8949d271348ab9fc9d8d437d41f7937b10bd121"
+}

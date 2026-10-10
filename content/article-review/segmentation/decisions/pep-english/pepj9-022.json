@@ -1,0 +1,22 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "0e20e139d94f7a667f13cbfc5f42f678e76f1cacda6cdfbf39d8afbe6f5001c9",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title；全文 blocks[0..3] 与对应 text；现有正文/对话/题干逐块通读复核。",
+  "notes": "Mom Knows Best四节成长反思诗，保持母亲劝告与回嘴的诗行及最后成人感悟诗节。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "blockEdits": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/4c7435e2efc47b7c7f81441a3498c09aa37e59c1d039a0cb4104cf5614c05e39.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "68a1d22580ca1ab7112d41cba1d5ef5d2a0dcb594b5449d6e08a3bce22a44463"
+    }
+  ]
+}

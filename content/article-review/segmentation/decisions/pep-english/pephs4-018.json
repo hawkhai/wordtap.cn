@@ -1,0 +1,22 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "44f3fac86e6ec614b1b1a9cce1357ad2725b0596273ee406ecedfe5ab2e087af",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title；全文 blocks[0..7] 与对应 text；现有正文/对话/题干逐块通读复核。",
+  "notes": "Kelly申请信正文按申请、英语组织能力、动物志愿经验、书法、期待及回信要求分段，落款内部换行保留。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "blockEdits": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/393ca69e3a5f13607f99f0368a1bbc5092ee74841fc63c7030b2bc9062f90707.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "6e0c755be34a6bd40c0245ef870260b27fa03d3afd238631d776df1466ab3c9c"
+    }
+  ]
+}

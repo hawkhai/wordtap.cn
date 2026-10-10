@@ -1,0 +1,21 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "76b2a640059fa79b82fb24c1b8e20f3f1d5317430e278f35dc57a968a4dc3084",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "完整 title、blocks[0..10]及完全相同的text；正文及内嵌中文、引语、对话和列举均已逐项通读；无改动输出按全文再次复核。",
+  "notes": "全文及未改动输出复核：草原体验、倾听空气、自然污染、动物驯化、鸡笼、人类自我改变、家庭禁令、户外感官、除菌执念、恐惧和笼居十一段；长禁令引语保持一段例证。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/569ca03208125dcd10f6fd1efc6987b56edd534d542e09790c328a3bfd673d14.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "777be486327311169d619ae62455e8dd3db33c72541c489f7499a8cb7312217c"
+    }
+  ]
+}

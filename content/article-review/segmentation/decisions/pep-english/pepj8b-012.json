@@ -1,0 +1,22 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "1a6d04c56ab7ff3d86cf9d7892d7be64874e3d017b6b8a084af2938cc1254a54",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title；全文 blocks[0..2] 与对应 text；现有正文/对话/题干逐块通读复核。",
+  "notes": "珠峰三段依自然风险、登顶历史、挑战精神展开，原高度等内容不做文本更新。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "blockEdits": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/f7acfd30c3fd486901a0fe8b6ee03eba61401e86ac23d2e0e7b97c49e514900d.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "f4d695684e766882a50aa68db1aeb0fc972a0d4a2a691fdf0bb5a3605c3170b6"
+    }
+  ]
+}

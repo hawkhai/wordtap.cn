@@ -1,0 +1,145 @@
+{
+  "schemaVersion": 1,
+  "course": "pep-english",
+  "articleId": "pephs4-018",
+  "beforeDisplaySha256": "8ea0e50b0e993bd8a6922d36723d160f9b36fe0158c7d9eae0530108b43dfc15",
+  "afterDisplaySha256": "8ea0e50b0e993bd8a6922d36723d160f9b36fe0158c7d9eae0530108b43dfc15",
+  "baselineDisplay": {
+    "title": "Kelly Xu’s Cover Letter",
+    "section": "Using Language",
+    "text": "Dear Sir/Madam,\nI would like to apply for the position of camp helper. Please find my CV attached.\nI believe I would be a valuable addition to your team. My English is at an intermediate level, and I have travelled to several English-speaking countries. I have also helped to organise a three-day tour of my city for visiting exchange students.\nI have experience in working with animals, and I have also volunteered at a local library to help organise the children’s section. I am a team player and I enjoy working with others. I have been captain of my school table tennis team for two years, so I know how to lead and decide on priorities.\nWith my proficiency in Chinese calligraphy, I could also conduct classes for your visitors to help them learn more about this beautiful aspect of Chinese culture.\nThe prospect of welcoming exchange students to our country is very exciting, and I am keen to use my skills to give them a warm welcome and an experience they will always remember.\nI look forward to hearing from you as soon as possible.\nYours faithfully,\nKelly Xu",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Dear Sir/Madam,"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "I would like to apply for the position of camp helper. Please find my CV attached."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "I believe I would be a valuable addition to your team. My English is at an intermediate level, and I have travelled to several English-speaking countries. I have also helped to organise a three-day tour of my city for visiting exchange students."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "I have experience in working with animals, and I have also volunteered at a local library to help organise the children’s section. I am a team player and I enjoy working with others. I have been captain of my school table tennis team for two years, so I know how to lead and decide on priorities."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "With my proficiency in Chinese calligraphy, I could also conduct classes for your visitors to help them learn more about this beautiful aspect of Chinese culture."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "The prospect of welcoming exchange students to our country is very exciting, and I am keen to use my skills to give them a warm welcome and an experience they will always remember."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "I look forward to hearing from you as soon as possible."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Yours faithfully,\nKelly Xu"
+      }
+    ]
+  },
+  "display": {
+    "title": "Kelly Xu’s Cover Letter",
+    "section": "Using Language",
+    "text": "Dear Sir/Madam,\nI would like to apply for the position of camp helper. Please find my CV attached.\nI believe I would be a valuable addition to your team. My English is at an intermediate level, and I have travelled to several English-speaking countries. I have also helped to organise a three-day tour of my city for visiting exchange students.\nI have experience in working with animals, and I have also volunteered at a local library to help organise the children’s section. I am a team player and I enjoy working with others. I have been captain of my school table tennis team for two years, so I know how to lead and decide on priorities.\nWith my proficiency in Chinese calligraphy, I could also conduct classes for your visitors to help them learn more about this beautiful aspect of Chinese culture.\nThe prospect of welcoming exchange students to our country is very exciting, and I am keen to use my skills to give them a warm welcome and an experience they will always remember.\nI look forward to hearing from you as soon as possible.\nYours faithfully,\nKelly Xu",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Dear Sir/Madam,"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "I would like to apply for the position of camp helper. Please find my CV attached."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "I believe I would be a valuable addition to your team. My English is at an intermediate level, and I have travelled to several English-speaking countries. I have also helped to organise a three-day tour of my city for visiting exchange students."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "I have experience in working with animals, and I have also volunteered at a local library to help organise the children’s section. I am a team player and I enjoy working with others. I have been captain of my school table tennis team for two years, so I know how to lead and decide on priorities."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "With my proficiency in Chinese calligraphy, I could also conduct classes for your visitors to help them learn more about this beautiful aspect of Chinese culture."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "The prospect of welcoming exchange students to our country is very exciting, and I am keen to use my skills to give them a warm welcome and an experience they will always remember."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "I look forward to hearing from you as soon as possible."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Yours faithfully,\nKelly Xu"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "path": "content/article-review/history/393ca69e3a5f13607f99f0368a1bbc5092ee74841fc63c7030b2bc9062f90707.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "6e0c755be34a6bd40c0245ef870260b27fa03d3afd238631d776df1466ab3c9c"
+    }
+  ],
+  "corrections": [],
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "reviewer": "Codex",
+  "reviewedAt": "2026-10-07T07:39:42+00:00",
+  "notes": "Kelly申请信正文按申请、英语组织能力、动物志愿经验、书法、期待及回信要求分段，落款内部换行保留。",
+  "issues": [],
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "44f3fac86e6ec614b1b1a9cce1357ad2725b0596273ee406ecedfe5ab2e087af",
+    "afterFileSha256": "44f3fac86e6ec614b1b1a9cce1357ad2725b0596273ee406ecedfe5ab2e087af",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "44f3fac86e6ec614b1b1a9cce1357ad2725b0596273ee406ecedfe5ab2e087af",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..7] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "Kelly申请信正文按申请、英语组织能力、动物志愿经验、书法、期待及回信要求分段，落款内部换行保留。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "blockEdits": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/393ca69e3a5f13607f99f0368a1bbc5092ee74841fc63c7030b2bc9062f90707.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "6e0c755be34a6bd40c0245ef870260b27fa03d3afd238631d776df1466ab3c9c"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "393ca69e3a5f13607f99f0368a1bbc5092ee74841fc63c7030b2bc9062f90707"
+}

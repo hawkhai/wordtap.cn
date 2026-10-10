@@ -1,0 +1,69 @@
+{
+  "article": "cet6-20251202",
+  "checkedAt": "2026-10-03",
+  "sourcePdfPagesRead": 8,
+  "sources": [
+    {
+      "url": "https://www.computerhistory.org/revolution/calculators/1/47",
+      "scope": "博物馆展项全文实际读：Schickard约1623制作两台，装置早期机械四则计算器，Pascal在1640年代；不将1623泛称所有加算工具之始。"
+    },
+    {
+      "url": "https://www.ibm.com/history/deep-blue",
+      "scope": "IBM原站比赛历史段实际读：1996首局胜但输整场，1997六局赛胜Kasparov；恢复具体年份，避免四分之一世纪被读成2025或当前。"
+    },
+    {
+      "url": "https://www.copyright.gov/rulings-filings/review-board/docs/Theatre-Dopera-Spatial.pdf",
+      "scope": "2023-09-05文件行政记录第2页实际读：Allen2022获奖及Midjourney、Photoshop、Gigapixel创作过程；仅作获奖作品AI辅助背景核查，不在文章讨论或推断当前版权法。"
+    },
+    {
+      "url": "https://hbr.org/2021/09/do-you-know-when-to-give-up",
+      "scope": "2021-09-08 Dina Denham Smith作者、日期、摘要和开头实际读；其余网页正文不可见，不冒称通读。其余逐段按8页试卷核对。建议归属作者，删除没有具体证据的广泛效果保证。"
+    },
+    {
+      "url": "https://peoplebuilders.com.au/blog/a-solid-look-at-solidarity",
+      "scope": "2018-02-07原站requests取得正文全文实际读，核匹配。原文为规范性评论；保留其论证而避免将一种极端情形泛化为全部社群主义或自由主义。"
+    },
+    {
+      "url": "https://journals.sagepub.com/doi/10.1177/0146167217746341",
+      "scope": "2018 Schaerer等PSPB论文摘要全文读，四研究涉及给建议与权力感及权力欲；不能把研究方向倒置为所有建议者都渴望权力。"
+    },
+    {
+      "url": "https://michael-skocay-udvd.squarespace.com/s/Schaerer-et-al-2018-Advice-Giving.pdf",
+      "scope": "原论文第751页Study1讨论、Study2方法结果实际读：94图书馆参与者，自报建议与权力感关联；没有测本文推断的童年经历和战逃生理反应。不声称整篇论文读。"
+    },
+    {
+      "url": "https://www.researchgate.net/profile/Michael-Schaerer/publication/321081619_Advice_Giving_A_Subtle_Pathway_to_Power/links/5a0c45f00f7e9b9e33a908b4/Advice-Giving-A-Subtle-Pathway-to-Power.pdf",
+      "scope": "作者上传论文第22–23页量表方法段实际读：权力欲6项及给虚构学生建议编码，帮助区分关联变量和个体动机推断。"
+    },
+    {
+      "url": "https://my.clevelandclinic.org/health/symptoms/25065-emotional-dysregulation",
+      "scope": "临床说明定义、症状和多重原因段实际读；情绪调节困难不等于某一种童年经历，不能据爱提建议诊断原因。"
+    },
+    {
+      "url": "https://www.miit.gov.cn/jgsj/yxj/xxfb/art/2026/art_ba84699fb1bc4341af494442525ad142.html",
+      "scope": "官方检索返回的2025年末覆盖段实际读：所有乡镇及95%以上行政村通5G，非全部国土地理点全覆盖。译文改为在全国广泛部署，未将年末统计倒推为12月考试当日。直接网页未取得全文，不声称通读。"
+    },
+    {
+      "url": "https://www.nhc.gov.cn/wjw/jiany/202409/0399803e3493414891618eb7751f0974.shtml",
+      "scope": "2024答复中远程医疗网络段实际读：覆盖地级市和县，支撑远程医疗发展实例；不是每家机构都有同等服务。"
+    },
+    {
+      "url": "https://www.cnsa.gov.cn/n6758823/n6758838/c10565180/content.html",
+      "scope": "2024-06-25官方通报开头和任务段实际读：嫦娥六号月球背面采样返回，为翻译段航天成就的具体实例。"
+    }
+  ],
+  "limitations": [
+    "21原块与8页PDF图包括答案表全部读；听力未据音频重答。",
+    "AI评论与不请自来建议篇原网页作者日期未定位，明确按本卷原PDF核文，另核可验证事实，不伪造出处。",
+    "HBR仅可读网页开头等列明内容；长论文及官方文件只读列明段落，不冒称全部读。",
+    "未来AI经济影响、Ryan案例及决策/沟通建议保留为作者观点或案例，未作为已证实普遍因果规律。"
+  ],
+  "answerChecks": {
+    "cloze": "IBMCKADFJO",
+    "matching": "FKJEMIOCNH",
+    "reading": "ABCBC / DBDAC",
+    "listening": "BACDABDCBC / ACABDCBDDA / CCADB（仅核PDF表）"
+  },
+  "rawSha256": "2ce7ee7c6c2f61e1fc60cf5793fca31481e179017a63b3829b46681505fea542",
+  "pdfSha256": "ad6b856ce3aa9647344d7ad1caa4bfbcbb074effa49f1ab787f7ab20859d52ed"
+}

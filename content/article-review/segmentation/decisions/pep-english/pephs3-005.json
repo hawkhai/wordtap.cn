@@ -1,0 +1,21 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "2a5add7d5d4230d47884ad1043fed68f71a3050af01803b54dc458bad293c46a",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title；全文 blocks[0..7] 与对应 text；现有正文/对话/题干逐块通读复核。",
+  "notes": "George来信按营地反思、游戏问题、替代活动、攀岩、改善感悟分段，署名与祝语清楚。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/e52c427bb69e364e9448983efcc229ff08a65cd27425be76996547eb9f3117c4.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "ec82f7151111e1b8711dc5d0c3be8e72a1296b2dbdf5d36bc5c78baa79eaa057"
+    }
+  ]
+}

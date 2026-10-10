@@ -1,0 +1,24 @@
+{
+  "article": "nce/nce3-020",
+  "fullRead": "现有21条英中与原LRC全文已读，最终21条通读复核。",
+  "sources": [
+    {
+      "url": "https://www.icao.int/sites/default/files/postalhistory/aviation_history_the_conquest_of_the_channel.htm",
+      "readScope": "本轮8–27正文核读，1908年500到1909年1000、1901试验、7月19首次及25日成功。"
+    },
+    {
+      "url": "https://flyingmachines.ru/Site2/Crafts/Craft29112.htm",
+      "readScope": "本轮Flight1909-07-31转录91–103已读，7月25风增强错失、27日第二次尝试及引擎故障；不采用该页现代书籍部分错误25日日期。"
+    },
+    {
+      "path": "content/article-review/source-evidence/shuimu-upper-020-recheck.json",
+      "readScope": "完整重读；Flight1909-07-17的7月13陆上飞行及照片警员证据、Dover约37分钟已于先前复审核读。"
+    }
+  ],
+  "editorialChanges": [
+    "奖金额和等候时间校正；早期飞行器试验与飞机机型区分。",
+    "7月13陆上飞行、7月27二次尝试，删除精确起飞钟点与半英里不一致数字，飞行约37分钟。",
+    "未证实睡过头或警员为第一迎接者，不保留排他断言。"
+  ],
+  "unresolved": []
+}

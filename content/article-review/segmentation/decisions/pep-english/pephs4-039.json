@@ -1,0 +1,22 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "5e68188ee38530ecc30a5ba1b1211bc9e352aa39d49e80f333640165b97374d0",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title；全文 blocks[0..4] 与对应 text；现有正文/对话/题干逐块通读复核。",
+  "notes": "As I Grew Older五诗节含两行Shadow/I am black短节，保留墙、影与破壁意象的行节节奏。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "blockEdits": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/2ceeb0cd1764e053b9db0086a8531b8eb0b4d6a03107a5681219edbb7dce597f.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "11ae48274ed978b00c64bdaecf4da5bd30e99102bf54766d77d5bc0a4c31d85a"
+    }
+  ]
+}

@@ -81,12 +81,12 @@
     ]
   },
   "manualReview": {
+    "reviewer": "Codex (user-directed restoration)",
+    "reviewedAt": "2026-10-05T17:15:10+00:00",
+    "correctionCount": 1,
+    "evidence": "content/article-review/cleanup-2026-10-06.json",
+    "eventSha256": "4dd5a5e3c87e9277630493e1ddb9c9414fdb1ec506ed7ca5d4b82ba9f9a9c9c4",
     "status": "passed",
-    "reviewer": "Codex",
-    "reviewedAt": "2026-07-30T18:30:30Z",
-    "correctionCount": 4,
-    "evidence": "Original PDF/images 63-65; reviewed-articles/rw4-u02-b.json; full visual reread completed",
-    "textSha256": "6529eeb4a4b916e8d2b475cbf2389c4a5206c5077eeb00e99e9ef769b8088b39",
-    "eventSha256": "e77858c14a7358e3f6f6e2b0087155849e9e11bd55d0aa364f92302ffee0aa91"
+    "textSha256": "6529eeb4a4b916e8d2b475cbf2389c4a5206c5077eeb00e99e9ef769b8088b39"
   }
 }

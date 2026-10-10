@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 1,
+  "course": "pep-english",
+  "articleId": "pephs4-034",
+  "beforeDisplaySha256": "b0ec1421bdbf1b88338613e019e2c332b42a4adc17918058c33904bee6a331a6",
+  "afterDisplaySha256": "b0ec1421bdbf1b88338613e019e2c332b42a4adc17918058c33904bee6a331a6",
+  "baselineDisplay": {
+    "title": "Sherry Wilson’s Shark Attack",
+    "section": "Listening and Speaking",
+    "text": "In Hawaii, a shark bit off the right arm of a 23-year-old surfer while she was on her board in clear water. Sherry Wilson lost her right arm just below the shoulder. Daniel Wilson said his daughter was resting in hospital.",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "In Hawaii, a shark bit off the right arm of a 23-year-old surfer while she was on her board in clear water. Sherry Wilson lost her right arm just below the shoulder. Daniel Wilson said his daughter was resting in hospital."
+      }
+    ]
+  },
+  "display": {
+    "title": "Sherry Wilson’s Shark Attack",
+    "section": "Listening and Speaking",
+    "text": "In Hawaii, a shark bit off the right arm of a 23-year-old surfer while she was on her board in clear water. Sherry Wilson lost her right arm just below the shoulder. Daniel Wilson said his daughter was resting in hospital.",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "In Hawaii, a shark bit off the right arm of a 23-year-old surfer while she was on her board in clear water. Sherry Wilson lost her right arm just below the shoulder. Daniel Wilson said his daughter was resting in hospital."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "path": "content/article-review/history/73651cb95934648bf7924e20a507081a5d56c4456c34b8b52764d87c064c815b.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "53718abbd2ad53656bc1ae940b9087150d30bb01d7f72d75a572eed66d4c3b9d"
+    }
+  ],
+  "corrections": [],
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "reviewer": "Codex",
+  "reviewedAt": "2026-10-07T07:39:44+00:00",
+  "notes": "Sherry鲨袭简讯地点、伤情和父亲说明三句同一完整新闻段，保留。",
+  "issues": [],
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "73161b840422f8fa29d7cb7d19c0b3a9d83be25cb888cae90b5bba9bf84be10c",
+    "afterFileSha256": "73161b840422f8fa29d7cb7d19c0b3a9d83be25cb888cae90b5bba9bf84be10c",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "73161b840422f8fa29d7cb7d19c0b3a9d83be25cb888cae90b5bba9bf84be10c",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..0] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "Sherry鲨袭简讯地点、伤情和父亲说明三句同一完整新闻段，保留。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "blockEdits": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/73651cb95934648bf7924e20a507081a5d56c4456c34b8b52764d87c064c815b.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "53718abbd2ad53656bc1ae940b9087150d30bb01d7f72d75a572eed66d4c3b9d"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "73651cb95934648bf7924e20a507081a5d56c4456c34b8b52764d87c064c815b"
+}

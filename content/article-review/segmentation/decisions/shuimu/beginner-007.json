@@ -1,0 +1,20 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "5137071a4207916a58c46c9ad5b1e871c9db125c1ff6365fd8ae9dea1af07e31",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "coverage": "全文 blocks[0..89]；按 JSON 上下文逐项复核对话、解释、题目、表格、词表及修复后的边界。",
+  "notes": "颜色对话中英对应完整；颜色词表、祈使句定义及 let 句型分组均完整，保留独立短语、例句与列表，不需修复。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/270ad0bad6c92f59771485baad7e2644e52f4fd3a0ecf0223d480fd9fd8b9a4e.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "56eafff4a860b96236e66309b2785a6c970446a7cd72386311972a48df3c5535"
+    }
+  ]
+}

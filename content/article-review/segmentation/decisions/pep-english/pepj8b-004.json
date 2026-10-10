@@ -1,0 +1,22 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "08629e6498b053ba4c89771147de53cb88034f8c17f8465e009f660a00c7b3e8",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title；全文 blocks[0..8] 与对应 text；现有正文/对话/题干逐块通读复核。",
+  "notes": "Nancy家务冲突九段含独立母女对白及停做家务叙事，轮次边界已清楚保留。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "blockEdits": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/bf761494d4157578e51bd36bb51793e17e5f82b191fa7f1489f1142f30e3c143.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "f575ee3e63a8c088046c39e5be7d45474742676d68bf0892df17725bd147a967"
+    }
+  ]
+}

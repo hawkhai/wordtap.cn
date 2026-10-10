@@ -1,0 +1,327 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "dfd0d468c22789bbb3c69d7ab886e282c95f156c02be6cbeb99fee3541d17eb8",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "coverage": "全文 blocks[0..274]；按 JSON 上下文逐项复核对话、解释、题目、表格、词表及修复后的边界。",
+  "notes": "全文复核北海钻井平台巨鱼故事及三个成因、摘要、全部词汇与语法题解析。英文末句Who eats who与前句对应同一中文段，合并为该双语单元；保留独立要点、选项和原有答案文字。",
+  "issues": [],
+  "mergeBlocks": [
+    {
+      "start": 23,
+      "end": 24,
+      "before": [
+        "Fish and chips has always been a favorite dish in Britain, but as the oceans have been",
+        "overfished, fish has become more and more expensive."
+      ],
+      "text": "Fish and chips has always been a favorite dish in Britain, but as the oceans have been overfished, fish has become more and more expensive.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 25,
+      "end": 26,
+      "before": [
+        "炸鱼薯条一直是英国人喜爱的一道菜，但是随着海洋里的滥捕滥捞，鱼已经变",
+        "得越来越昂贵。"
+      ],
+      "text": "炸鱼薯条一直是英国人喜爱的一道菜，但是随着海洋里的滥捕滥捞，鱼已经变得越来越昂贵。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 27,
+      "end": 28,
+      "before": [
+        "So it comes as a surprise to learn that giant fish are terrifying the divers on North Sea",
+        "oil rigs."
+      ],
+      "text": "So it comes as a surprise to learn that giant fish are terrifying the divers on North Sea oil rigs.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 29,
+      "end": 30,
+      "before": [
+        "因此，听说北海石油钻井平台上的潜水员受到巨型鱼类的恐吓，确实很让人吃",
+        "惊。"
+      ],
+      "text": "因此，听说北海石油钻井平台上的潜水员受到巨型鱼类的恐吓，确实很让人吃惊。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 31,
+      "end": 33,
+      "before": [
+        "Oil rigs have to be repaired frequently and divers, who often have to work in darkness",
+        "a hundred feet under water, have been frightened out of their wits by giant fish",
+        "bumping into them as they work."
+      ],
+      "text": "Oil rigs have to be repaired frequently and divers, who often have to work in darkness a hundred feet under water, have been frightened out of their wits by giant fish bumping into them as they work.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 34,
+      "end": 35,
+      "before": [
+        "钻井平台需要经常修理，潜水员常常要在水面100英尺以下摸黑工作，他们曾在",
+        "工作时被撞到他们身上的大鱼吓得惊惶失措。"
+      ],
+      "text": "钻井平台需要经常修理，潜水员常常要在水面100英尺以下摸黑工作，他们曾在工作时被撞到他们身上的大鱼吓得惊惶失措。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 38,
+      "end": 39,
+      "before": [
+        "The fish are not sharks or killer whales, but favorite eating varieties like cod and skate",
+        "which grow to unnatural sizes, sometimes as much as twelve feet in length."
+      ],
+      "text": "The fish are not sharks or killer whales, but favorite eating varieties like cod and skate which grow to unnatural sizes, sometimes as much as twelve feet in length.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 40,
+      "end": 41,
+      "before": [
+        "这些鱼并不是鲨鱼或杀人鲸，而是深受人们喜爱的食用鱼品种，如鳕鱼和鳐",
+        "鱼，只不过它们长得出奇地大，有时长达12英尺。"
+      ],
+      "text": "这些鱼并不是鲨鱼或杀人鲸，而是深受人们喜爱的食用鱼品种，如鳕鱼和鳐鱼，只不过它们长得出奇地大，有时长达12英尺。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 42,
+      "end": 44,
+      "before": [
+        "Three factors have caused these fish to grow so large: the warm water round the hot",
+        "oil pipes under the sea; the plentiful supply of food thrown overboard by the crews on",
+        "the rigs; the total absence of fishing boats around the oil rigs."
+      ],
+      "text": "Three factors have caused these fish to grow so large: the warm water round the hot oil pipes under the sea; the plentiful supply of food thrown overboard by the crews on the rigs; the total absence of fishing boats around the oil rigs.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 45,
+      "end": 46,
+      "before": [
+        "这些鱼能长得这么大是由3个因素造成的：海底热的输油管道附近的温暖的海水;",
+        "钻井平台工作人员抛到海里充足的食物;钻井平台周围根本没有捕鱼船只。"
+      ],
+      "text": "这些鱼能长得这么大是由3个因素造成的：海底热的输油管道附近的温暖的海水;钻井平台工作人员抛到海里充足的食物;钻井平台周围根本没有捕鱼船只。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 47,
+      "end": 48,
+      "before": [
+        "As a result, the fish just eat and eat and grow and grow in the lovely warm water.",
+        "Who eats who?"
+      ],
+      "text": "As a result, the fish just eat and eat and grow and grow in the lovely warm water. Who eats who?",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 64,
+      "end": 69,
+      "before": [
+        "Answer: Divers working on North Sea oil rigs are often terrified by giant fish",
+        "that bump into them when they are working in deep water. These fish are not",
+        "sharks or whales. On the contrary, they are favorite eating varieties that grow",
+        "to unnatural sizes. Three factors have caused this to happen: the first is the",
+        "warmth from oil-pipes; the second is the supply of plentiful food; the third is",
+        "the absence of fishing round the rigs."
+      ],
+      "text": "Answer: Divers working on North Sea oil rigs are often terrified by giant fish that bump into them when they are working in deep water. These fish are not sharks or whales. On the contrary, they are favorite eating varieties that grow to unnatural sizes. Three factors have caused this to happen: the first is the warmth from oil-pipes; the second is the supply of plentiful food; the third is the absence of fishing round the rigs.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 72,
+      "end": 73,
+      "before": [
+        "1. It is a surprise to hear the divers on North Sea oil rigs have been frightened by giant",
+        "fish because _______."
+      ],
+      "text": "1. It is a surprise to hear the divers on North Sea oil rigs have been frightened by giant fish because _______.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 88,
+      "end": 89,
+      "before": [
+        "4. There is a total absence of fishing boats around the oil rigs. There are",
+        "_______fishing boats."
+      ],
+      "text": "4. There is a total absence of fishing boats around the oil rigs. There are _______fishing boats.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 155,
+      "end": 156,
+      "before": [
+        "4. ________ difficulties we may come across, we'll help one another to overcome",
+        "them."
+      ],
+      "text": "4. ________ difficulties we may come across, we'll help one another to overcome them.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 162,
+      "end": 163,
+      "before": [
+        "5. In some countries, _______ is called “equality” does not really mean equal rights",
+        "for all people."
+      ],
+      "text": "5. In some countries, _______ is called “equality” does not really mean equal rights for all people.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 169,
+      "end": 170,
+      "before": [
+        "6. Tom looked upon the test as an obstacle _______his classmates regarded it as",
+        "challenge."
+      ],
+      "text": "6. Tom looked upon the test as an obstacle _______his classmates regarded it as challenge.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 188,
+      "end": 189,
+      "before": [
+        "9. _______ with the size of the whole earth, the highest mountain does not seem high",
+        "at all."
+      ],
+      "text": "9. _______ with the size of the whole earth, the highest mountain does not seem high at all.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 195,
+      "end": 196,
+      "before": [
+        "10. _______ in a seemingly endless war, the general was forced to evaluate the",
+        "situation again."
+      ],
+      "text": "10. _______ in a seemingly endless war, the general was forced to evaluate the situation again.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 208,
+      "end": 209,
+      "before": [
+        "11. D.倒装结构。only引导的短语或句子放在句首作状语时,后面主句要用倒装结",
+        "构。"
+      ],
+      "text": "11. D.倒装结构。only引导的短语或句子放在句首作状语时,后面主句要用倒装结构。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 215,
+      "end": 216,
+      "before": [
+        "12. B.分词短语作原因状语。现在分词的完成时表示分词的动作发生在谓语动作",
+        "之前。"
+      ],
+      "text": "12. B.分词短语作原因状语。现在分词的完成时表示分词的动作发生在谓语动作之前。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 217,
+      "end": 218,
+      "before": [
+        "13. If I correct someone, will do it with as much good humor and self-restraint as if I",
+        "were the one _________."
+      ],
+      "text": "13. If I correct someone, will do it with as much good humor and self-restraint as if I were the one _________.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 223,
+      "end": 224,
+      "before": [
+        "13. D.分词被动式的用法。 being+过去分词为分词的被动式,表示某一被动动作正",
+        "在进行。"
+      ],
+      "text": "13. D.分词被动式的用法。 being+过去分词为分词的被动式,表示某一被动动作正在进行。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 225,
+      "end": 226,
+      "before": [
+        "14. Does everyone on earth have an equal right ________ an equal share of its",
+        "resources?"
+      ],
+      "text": "14. Does everyone on earth have an equal right ________ an equal share of its resources?",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 238,
+      "end": 239,
+      "before": [
+        "16. ________ one time, Manchester was the home of the most productive cotton mills",
+        "in the world."
+      ],
+      "text": "16. ________ one time, Manchester was the home of the most productive cotton mills in the world.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 251,
+      "end": 252,
+      "before": [
+        "18. The last time we had a family reunion was ______ my brother's wedding",
+        "ceremony four years ago."
+      ],
+      "text": "18. The last time we had a family reunion was ______ my brother's wedding ceremony four years ago.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 258,
+      "end": 259,
+      "before": [
+        "19. Frequently single-parent children _______ some of the functions that the absent",
+        "adult in the house would have served."
+      ],
+      "text": "19. Frequently single-parent children _______ some of the functions that the absent adult in the house would have served.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 264,
+      "end": 265,
+      "before": [
+        "19. D. take on在本句中意为“呈现”; take off意为“移开;动身,离开;起飞”; take in意",
+        "为“理解,了解;欺骗”; take after意为“(长得)像(父母)”"
+      ],
+      "text": "19. D. take on在本句中意为“呈现”; take off意为“移开;动身,离开;起飞”; take in意为“理解,了解;欺骗”; take after意为“(长得)像(父母)”",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 266,
+      "end": 267,
+      "before": [
+        "20. The new appointment of our president ________ from the very beginning of next",
+        "semester."
+      ],
+      "text": "20. The new appointment of our president ________ from the very beginning of next semester.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 272,
+      "end": 273,
+      "before": [
+        "20. B. take place意为“发生,产生;举办,行”; take effect意为“生效,奏效”; take part in",
+        "意为“参加,参与”; take turns意为“轮流”。"
+      ],
+      "text": "20. B. take place意为“发生,产生;举办,行”; take effect意为“生效,奏效”; take part in意为“参加,参与”; take turns意为“轮流”。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    }
+  ],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/f640d2a021df6e7ccd5d31df91ea81264e1ffa395a8ef02fd578512f50e8e514.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "b4778a1e020eadfdaea83e8108206b77fdb7e8115044f5ce27ca6ca575a73441"
+    }
+  ]
+}

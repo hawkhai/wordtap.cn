@@ -1,0 +1,39 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "0dad442107a191ccd4d916d6060d85a095e4539fe6bedde495a13d26f69602e1",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title；全文 blocks[0..0] 与对应 text；现有正文/对话/题干逐块通读复核。",
+  "notes": "两个说话者比较TV Me与Hear It First，每人完整论述为一轮，拆为两块。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [
+    {
+      "index": 0,
+      "before": [
+        "A: I imagine that TV Me would be more popular. Everyone watches TV and I think lots of people imagine themselves as actors in the TV shows, so putting the two together would be great. What do you think?\nB: My guess would be Hear It First because it's both interesting and useful. You could find out more about the stories you like and make sure that you don't miss anything important. I believe both the young and old would like it."
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "A: I imagine that TV Me would be more popular. Everyone watches TV and I think lots of people imagine themselves as actors in the TV shows, so putting the two together would be great. What do you think?"
+        },
+        {
+          "type": "paragraph",
+          "text": "B: My guess would be Hear It First because it's both interesting and useful. You could find out more about the stories you like and make sure that you don't miss anything important. I believe both the young and old would like it."
+        }
+      ],
+      "reason": "每行具有明确的发言人及完整轮次，分块保留各对话轮次。"
+    }
+  ],
+  "sources": [
+    {
+      "path": "content/article-review/history/5bb9b6a1e10a6b14b726f1683291c4e738d5d05463112c0a56a9c088d7d72735.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "13c3a18fbe33baff3e42fca193aed0e218a1dc7f9a9dd481eb7ffb15b8ff2ad3"
+    }
+  ]
+}

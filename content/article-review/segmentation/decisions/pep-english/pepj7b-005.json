@@ -1,0 +1,64 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "d24707b34e7069ec29d3866b729b44ea4fa03e9f25e0e18e4ebf5e8b1c2ee8a9",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title；全文 blocks[0..0] 与对应 text；现有正文/对话/题干逐块通读复核。",
+  "notes": "John与Alice入校规则八轮对话逐轮拆分，音乐播放器及校服规则保持对应发言。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [
+    {
+      "index": 0,
+      "before": [
+        "John: Hi, my name's John. It's my first day at school.\nAlice: Hi, John. I'm Alice. This is a great school, but there are a lot of rules.\nJohn: Really? What are some of the rules?\nAlice: Well, don't be late for class. This is very important.\nJohn: OK, so we must be on time. Can we bring music players to school?\nAlice: No, we can't. And we always have to wear the school uniform.\nJohn: I see.\nAlice: Oh, and we also have to be quiet in the library."
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "John: Hi, my name's John. It's my first day at school."
+        },
+        {
+          "type": "paragraph",
+          "text": "Alice: Hi, John. I'm Alice. This is a great school, but there are a lot of rules."
+        },
+        {
+          "type": "paragraph",
+          "text": "John: Really? What are some of the rules?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Alice: Well, don't be late for class. This is very important."
+        },
+        {
+          "type": "paragraph",
+          "text": "John: OK, so we must be on time. Can we bring music players to school?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Alice: No, we can't. And we always have to wear the school uniform."
+        },
+        {
+          "type": "paragraph",
+          "text": "John: I see."
+        },
+        {
+          "type": "paragraph",
+          "text": "Alice: Oh, and we also have to be quiet in the library."
+        }
+      ],
+      "reason": "每行具有明确的发言人及完整轮次，分块保留各对话轮次。"
+    }
+  ],
+  "blockEdits": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/394b582497472035ea05a6fcdca720f594e7d719c6ad6e7e9faa996effa963e6.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "89e51252cd6f597566c91c39ebbd1a7f03cb6509df2902aca5a82ee3d2d76ee2"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "article": "cet6-20190601",
+  "checkedAt": "2026-10-03",
+  "sourcePdfPagesRead": 10,
+  "sources": [
+    {"url":"https://bmjopen.bmj.com/content/8/3/e019438","scope":"2018原论文摘要检索读取，直接打开失败；全文通过下列原论文PDF副本读取，二者为同一研究。"},
+    {"url":"https://www.healthyliving.gr/wp-content/uploads/2018/04/Effect-of-pasta-in-the-context-of-low-glycaemic-index-dietary-patterns-on-body-weight-and-markers-of-adiposity-a-systematic-review-and-meta-analysis-of-randomised-controlled-trials-in-adults.pdf","scope":"Chiavaroli等2018原论文PDF的方法、结果、表格与局限读取；29报告32比较2448成人，无意大利面单独试验。11比较可量化摄入，中位3.3份/周；随访中位12周，组间差-0.63kg，不能写成人人吃三餐就减重或四个月平均。"},
+    {"url":"https://www.sciencedaily.com/releases/2018/04/180403085034.htm","scope":"St Michael’s Hospital原研究通报转载正文读取；低GI饮食限制明确，简化的30试验及平均3.3份以原论文更精确口径校正，未把医院通报当独立研究。"},
+    {"url":"https://hbr.org/2016/05/the-best-retailers-combine-bricks-and-clicks","scope":"原刊2016-05-30标题、作者David S Evans/Richard Schmalensee和开头读取；评论时点及主张归属核对。未声称网络原刊全文可读。"},
+    {"url":"https://store.hbr.org/product/the-best-retailers-combine-bricks-and-clicks/H02X2A","scope":"原出版方条目读取核对篇名、作者和2016发布日期。"},
+    {"url":"https://www2.census.gov/retail/releases/historical/ecomm/16q1.pdf","scope":"2016-05-17原统计发布的首两页表格、定义及末页方法全文读取；季调同比15.2%、份额7.8%，未季调份额7.7%与上年6.9%之差0.8个百分点，92.3%为非电商并非纯实体店。覆盖全部零售商、排除餐饮等；各商家分别报电商销售，不能以作者推测断言大量漏计。"},
+    {"url":"https://corporate.walmart.com/news/2016/05/19/walmart-reports-q1-fy17-eps-of-0-98","scope":"公司原财报相关正文读取，2016年5月发布FY2017第一季全球电商恒定汇率同比7%、GMV7.5%，财政年度不可当日历2017；正文保留销售7%并写明口径。"},
+    {"url":"https://www.pymnts.com/wp-content/uploads/2019/07/Checkout-Conversion-Index-August-2016-min.pdf","scope":"发布方Q3 2016原报告第7—10页历史评分及第26—27页方法读取；测试购物者记录网站功能，不是消费者满意度民调。可比635网站Q1 A4/B110约18%，D148/F150；不把所有低分等同F不及格。不同季度样本/修订口径不混算。"},
+    {"url":"https://www.cam.ac.uk/research/news/the-best-or-worst-thing-to-happen-to-humanity-stephen-hawking-launches-centre-for-the-future-of","scope":"剑桥2016-10-19机构通报及Hawking讲话全文读取；中心使命、讲话引文、Boden对不加批判使用的风险观点、开幕日期核验。"},
+    {"url":"https://www.phil.cam.ac.uk/news/launch-cfi","scope":"剑桥哲学系开幕通报相关内容读取，核对2016活动与发言者。"},
+    {"url":"https://www.phil.cam.ac.uk/system/files/documents/philosophy-at-cambridge-16-newsletter-2020.pdf","scope":"Price机构刊物关于2016中心创办的相关段读取；完整CSER名称和LCFI专注AI但涵盖收益与风险，不能写成只研究危害。"},
+    {"url":"https://futureoflife.org/open-letter/ai-open-letter/","scope":"2015研究优先事项公开信及签署人相关检索段读取，Hawking/Musk等支持稳健有益AI研究；与风险警告同属当时观点而非灾难预测已证实。"},
+    {"url":"https://www.capeandislands.org/npr-science-technology/2016-11-12/startups-turn-to-seniors-for-product-feedback","scope":"Ina Jaffe的NPR原稿转载全文检索读取，2016-11-12；2017市场规模是预测，年龄/社区数量为当时值，Rodriguez重视信任与反馈，Busch拒绝因为已有设备；不外推全部老年人。"},
+    {"url":"https://www.prnewswire.com/news-releases/brookdales-entrepreneur-in-residence-program-helps-spark-innovation-for-the-aging-300218856.html","scope":"Brookdale2016-02-16自发公司通报正文读取，五日体验计划、产品例子、服务提供商身份；原文owner改provider，短期住户反馈不视为代表性调查。"},
+    {"url":"https://dict.revised.moe.edu.tw/page.jsp?ID=15&la=1&powerMode=0","scope":"教育部辞典编辑说明成语典故段全文读取；成语来源包括文献及生活，不把所有或大多数简单限定古文学作品。"},
+    {"url":"https://dict.revised.moe.edu.tw/page.jsp?ID=20&la=0&powerMode=0","scope":"辞典说明有关本义/引申义、典故和精简出处的段落读取，出处有助理解但不是理解每个成语的绝对前提。"}
+  ],
+  "reviewNotes": [
+    "10页原PDF均渲染打开全文阅读；源PDFsha256 f57cf88e364e3e0ec8b0e0cfa26bf643cb243fc42c4e9abc09d426eaf088ce31一致。13题you mind、interact、study in history、it; s、CSER简称缺词及中文因为属原卷本身问题，按语义和一手资料修正。",
+    "四处跨页恢复：零售A、Hawking长引文、养老开头、52题CD；保留音频关联与来源字段，听力只校题干/选项排印不推造听力答案。",
+    "内部可解性检查：十空I/L/B/N/G/E/O/A/D/C；匹配M/G/D/I/C/H/F/O/A/K；阅读B/C/A/D/C与B/C/D/A/B。46题原BC重叠、48题扩大为AI研究历史转向、54题推销与原稿取得反馈不符，均同步修题；不发布为官方答案。",
+    "引用属于用户提供原卷已含的文字；研究新增说明均作事实转述。试验饮食/意大利面、增长率/市场份额、非电商/实体店、测试评分/民调分别处理，不以回避问题代替核验。"
+  ]
+}

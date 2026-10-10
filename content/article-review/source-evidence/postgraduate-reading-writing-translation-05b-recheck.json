@@ -1,0 +1,37 @@
+{
+  "article": "reading-writing-translation/05b",
+  "method": "32块课文通读。读取原报告PDF物理页60–66（印刷58–64）全部文字，复核教材节选与四条总结。",
+  "sources": [
+    {
+      "url": "https://www.teachingenglish.org.uk/publications/case-studies-insights-and-research/english-next",
+      "read": "官方书目确认作者David Graddol与British Council委托。"
+    },
+    {
+      "url": "https://roycross.blog/wp-content/uploads/2022/06/english-next-2006.pdf",
+      "path": "tmp/article-review/e1-2017/english-next.pdf",
+      "sha256": "c0b7817a62145c7bff2a14e1a4452606564f279080cd991d409d617b1875a8a3",
+      "read": "已恢复132页原书镜像；本次完整读取物理60–66页。非声称官网下载成功或整本通读。"
+    },
+    {
+      "url": "https://legis.senado.leg.br/norma/572700",
+      "read": "巴西参议院法律记录：11.161号法2005-08-05，2017-02-16第13.415号法废止。"
+    },
+    {
+      "url": "https://www2.camara.leg.br/legin/fed/lei/2005/lei-11161-5-agosto-2005-538072-norma-pl.html",
+      "read": "众议院法律索引交叉确认日期与废止。"
+    },
+    {
+      "url": "https://legis.senado.leg.br/norma/572700/publicacao/15725053",
+      "read": "参议院全文40–66行，Article1与两款：ensino médio即高中阶段，学生自愿选修，五年内实施；初中5–8年级为可选纳入。"
+    }
+  ],
+  "decisions": [
+    "原报告亦有gazetteer单数、both三项all及number falling ... accelerating，均作明确编辑语法校正，非OCR。",
+    "Languages和Trends是原报告分行栏目标题，教材连为Languages trends；用冒号还原层级关系，不改作Language而错误声称原书。",
+    "relationships change主谓及末句指代编辑修复，Davis calculating分句标点。",
+    "原报告巴西July2005改为法律明确颁布日期August5；Spanish选修不等于必须代替English，法律史时点明示。",
+    "特立尼达和多巴哥属加勒比地区，因此将other parts of South America改成Latin America and the Caribbean；删去having ... to be冗余不定式。",
+    "其他预测与历史统计保留作为2006年作者分析，不伪装为2026年现状。",
+    "依Article1精确改成upper-secondary并标明五年实施期。"
+  ]
+}

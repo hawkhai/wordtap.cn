@@ -1,0 +1,21 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "7bc51b9bae0d97755a9a048d4e443134d7d083bafb1073ba42e1ddbbf9003990",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "完整通读title及原始blocks[0..17]，含正文、译文、标题及引语；text与全块连接一致。内存应用明确操作并validate_layout_change后复核修复全文blocks[0..17]。",
+  "notes": "18块全文覆盖体育商业化、观众兴趣、审美与英雄取向、组织控制权；各论述和对应译文完整，保留各段内部例证及列表。 内容旁注（不属本轮句段验收）：blocks[2,6,8,10,12]可见it success、beyond and their、a single slam dunks、an iey、actions signs等文字/句法疑点；blocks[10]heroic orientation In fact之间疑缺标点。均不能凭空白/边界确证恢复，保留待确认。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/c98c0ce4cab47f582f77bcada271d18c937a173a06226918a69eebf1c827af13.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "c6534630749c652ed2b081f7d62efb58118541c468a085e1f5d73d9439c32adf"
+    }
+  ]
+}

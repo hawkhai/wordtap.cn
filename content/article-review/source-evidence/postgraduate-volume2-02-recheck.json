@@ -1,0 +1,34 @@
+{
+  "article": "postgraduate/volume2-02",
+  "fullRead": "18块九组英中完整通读；本地TeX第二节全文逐段核对，修订后英中再次全读。",
+  "sourceScope": "未获得可逐字恢复的原书相应版面，原记录所列损坏在TeX中确实存在。本次采用明确编辑校正，不声称独立原书/OCR还原，也不以二手提纲作逐字证据。",
+  "sources": [
+    {
+      "url": "https://www.usfigureskating.org/sites/default/files/media-files/2025-26%20Rulebook.pdf",
+      "read": "官方List of Jumps定义：triple/quadruple为旋转周数级别而非连续跳跃次数，中译三周跳/四周跳；规则仅核术语，不把新版规则写回历史社会学论述。"
+    },
+    {
+      "url": "https://dictionary.cambridge.org/us/dictionary/english/concession-stand",
+      "read": "场馆经营摊点含食品饮料经营，不仅抽象特许权；中文用场内特许经营收入。"
+    },
+    {
+      "url": "https://www.oxfordlearnersdictionaries.co.uk/definition/english/concession",
+      "read": "词典以体育场burger concessions说明经营场景，仅辅助语义编辑、不用于猜恢复原稿。"
+    }
+  ],
+  "editorialCorrections": [
+    "its success：名词success需所属限定，it不是所有格；a single slam dunk：single+单数；stakes were与project exciting不需要孤立撇号。",
+    "go beyond and their删多余and使介词直接接宾语；heroic orientation后完整新句加句号；损坏an iey may明确编辑为and they may，与同段participants及原中文并列关系一致。",
+    "see heroic actions as signs补as表达视为；英文逗号统一为半角及空格。上述均编辑订正而非仅排版，不把语言推断假装独立书页证明。",
+    "中文收人/儿秒/技木/宜传/搜长及例如顿号、漏逗号按句义纠正；逐项记录整块差异。",
+    "stakes不限奖金，collapse这里为累倒而非输比赛，successfully compete不保证稳操胜券，revenues为收入非利润；三/四周跳非三/四连跳。"
+  ],
+  "translationReview": [
+    "第1段盈亏底线与球门线双关保留，门票、特许经营、转播、市场、收视及广告并列对应。",
+    "第2段悬念/输赢利害/卓越三因素，最后秒数、参与者投入与长久记忆准确；第3段结构相对稳定属于文章论点，微小变化与基本结构不混淆。",
+    "第4段商业取向、非技术观众、宣传、危险和自我代价完整；第5段防守、成套动作、人物公众形象、累倒以及成功参赛区别核实。",
+    "第6段美学/英雄主义倾向并非完全替代，show-time表演秀可读；第7段通常usually不漏，花样滑冰三周术语校正，保留规范批评而非鼓励冒险。",
+    "末2段参赛条件受经理、老板、赞助、广告、传媒、营销、管理、会计及经纪制约逐项对应，经济利益/收入非利润，权力来源与排除运动员参与决策对应。"
+  ],
+  "unresolved": []
+}

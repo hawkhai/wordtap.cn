@@ -1,0 +1,95 @@
+{
+  "schemaVersion": 1,
+  "course": "pep-english",
+  "articleId": "pepj8a-009",
+  "beforeDisplaySha256": "b88a7b7004459cd002389c352fe49a13e971b8c90bf6efe91ba483728a0b6c93",
+  "afterDisplaySha256": "b88a7b7004459cd002389c352fe49a13e971b8c90bf6efe91ba483728a0b6c93",
+  "baselineDisplay": {
+    "title": "Who's Got Talent?",
+    "section": "Section B",
+    "text": "Everyone is good at something, but some people are truly talented. It's always interesting to watch other people show their talents. Talent shows are getting more and more popular. First, there were shows like American Idol and America's Got Talent. Now, there are similar shows around the world, such as China's Got Talent.\nAll these shows have one thing in common: They try to look for the best singers, the most talented dancers, the most exciting magicians, the funniest actors and so on. All kinds of people join these shows. But who can play the piano the best or sing the most beautifully? That's up to you to decide. When people watch the show, they usually play a role in deciding the winner. And the winner always gets a very good prize.\nHowever, not everybody enjoys watching these shows. Some think that the lives of the performers are made up. For example, some people say they are poor farmers, but in fact they are just actors. However, if you don't take these shows too seriously, they are fun to watch. And one great thing about them is that they give people a way to make their dreams come true.",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Everyone is good at something, but some people are truly talented. It's always interesting to watch other people show their talents. Talent shows are getting more and more popular. First, there were shows like American Idol and America's Got Talent. Now, there are similar shows around the world, such as China's Got Talent."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "All these shows have one thing in common: They try to look for the best singers, the most talented dancers, the most exciting magicians, the funniest actors and so on. All kinds of people join these shows. But who can play the piano the best or sing the most beautifully? That's up to you to decide. When people watch the show, they usually play a role in deciding the winner. And the winner always gets a very good prize."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "However, not everybody enjoys watching these shows. Some think that the lives of the performers are made up. For example, some people say they are poor farmers, but in fact they are just actors. However, if you don't take these shows too seriously, they are fun to watch. And one great thing about them is that they give people a way to make their dreams come true."
+      }
+    ]
+  },
+  "display": {
+    "title": "Who's Got Talent?",
+    "section": "Section B",
+    "text": "Everyone is good at something, but some people are truly talented. It's always interesting to watch other people show their talents. Talent shows are getting more and more popular. First, there were shows like American Idol and America's Got Talent. Now, there are similar shows around the world, such as China's Got Talent.\nAll these shows have one thing in common: They try to look for the best singers, the most talented dancers, the most exciting magicians, the funniest actors and so on. All kinds of people join these shows. But who can play the piano the best or sing the most beautifully? That's up to you to decide. When people watch the show, they usually play a role in deciding the winner. And the winner always gets a very good prize.\nHowever, not everybody enjoys watching these shows. Some think that the lives of the performers are made up. For example, some people say they are poor farmers, but in fact they are just actors. However, if you don't take these shows too seriously, they are fun to watch. And one great thing about them is that they give people a way to make their dreams come true.",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Everyone is good at something, but some people are truly talented. It's always interesting to watch other people show their talents. Talent shows are getting more and more popular. First, there were shows like American Idol and America's Got Talent. Now, there are similar shows around the world, such as China's Got Talent."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "All these shows have one thing in common: They try to look for the best singers, the most talented dancers, the most exciting magicians, the funniest actors and so on. All kinds of people join these shows. But who can play the piano the best or sing the most beautifully? That's up to you to decide. When people watch the show, they usually play a role in deciding the winner. And the winner always gets a very good prize."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "However, not everybody enjoys watching these shows. Some think that the lives of the performers are made up. For example, some people say they are poor farmers, but in fact they are just actors. However, if you don't take these shows too seriously, they are fun to watch. And one great thing about them is that they give people a way to make their dreams come true."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "path": "content/article-review/history/31a6b349ab2e649ffcb8f2aaf9fcd92c27fa48e75d931873f0296ca9ca63b690.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "7b4ee5c32ad21ed6e3ed4b10706b75094f4629dcc6502d5702d211ba346fba50"
+    }
+  ],
+  "corrections": [],
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "reviewer": "Codex",
+  "reviewedAt": "2026-10-07T07:39:48+00:00",
+  "notes": "达人秀三段为流行概况、选拔投票、争议和好处，保留完整论述段。",
+  "issues": [],
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "70220e542859442e126ab8dd0d1c9ab66a797af98f9c04fbdc9b32f266cb9301",
+    "afterFileSha256": "70220e542859442e126ab8dd0d1c9ab66a797af98f9c04fbdc9b32f266cb9301",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "70220e542859442e126ab8dd0d1c9ab66a797af98f9c04fbdc9b32f266cb9301",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..2] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "达人秀三段为流行概况、选拔投票、争议和好处，保留完整论述段。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "blockEdits": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/31a6b349ab2e649ffcb8f2aaf9fcd92c27fa48e75d931873f0296ca9ca63b690.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "7b4ee5c32ad21ed6e3ed4b10706b75094f4629dcc6502d5702d211ba346fba50"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "31a6b349ab2e649ffcb8f2aaf9fcd92c27fa48e75d931873f0296ca9ca63b690"
+}

@@ -1,0 +1,22 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "5ed0e79d8775746c7612a88aa06e6c5e8214cc763790ccb548dd9b12ef529133",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title；全文 blocks[0..2] 与对应 text；现有正文/对话/题干逐块通读复核。",
+  "notes": "公交救人三段为发现、司机乘客行动、获救与评价，保留完整事件段。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "blockEdits": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/c1c39abec8454846a48935578c5b90a8e5678b44400f2c662b5798cf7352aeb8.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "b891afda9b709067ad44df8c730d8f67528cadc5c69d7ada89a3f3a1a953bce3"
+    }
+  ]
+}

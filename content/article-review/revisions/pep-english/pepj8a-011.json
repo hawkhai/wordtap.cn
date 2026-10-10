@@ -1,0 +1,95 @@
+{
+  "schemaVersion": 1,
+  "course": "pep-english",
+  "articleId": "pepj8a-011",
+  "beforeDisplaySha256": "2bc3620a8ff179d525d26df5934e167d1d042df0baffedb461d0d9aa834be61e",
+  "afterDisplaySha256": "2bc3620a8ff179d525d26df5934e167d1d042df0baffedb461d0d9aa834be61e",
+  "baselineDisplay": {
+    "title": "Mickey Mouse: A Symbol of American Culture",
+    "section": "Section B",
+    "text": "When people say \"culture,\" we think of art and history. But one very famous symbol in American culture is a cartoon. We all know and love the black mouse with two large round ears — Mickey Mouse. Over 80 years ago, he first appeared in the cartoon Steamboat Willie. When this cartoon came out in New York on November 18, 1928, it was the first cartoon with sound and music. The man behind Mickey was Walt Disney. He became very rich and successful. In the 1930s, he made 87 cartoons with Mickey.\nSome people might ask how this cartoon animal became so popular. One of the main reasons is that Mickey was like a common man, but he always tried to face any danger. In his early films, Mickey was unlucky and had many problems such as losing his house or girlfriend, Minnie. However, he was always ready to try his best. People went to the cinema to see the \"little man\" win. Most of them wanted to be like Mickey.\nOn November 18, 1978, Mickey became the first cartoon character to have a star on the Hollywood Walk of Fame. Today's cartoons are usually not so simple as little Mickey Mouse, but everyone still knows and loves him. Who has a pair of ears more famous than Mickey's?",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "When people say \"culture,\" we think of art and history. But one very famous symbol in American culture is a cartoon. We all know and love the black mouse with two large round ears — Mickey Mouse. Over 80 years ago, he first appeared in the cartoon Steamboat Willie. When this cartoon came out in New York on November 18, 1928, it was the first cartoon with sound and music. The man behind Mickey was Walt Disney. He became very rich and successful. In the 1930s, he made 87 cartoons with Mickey."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Some people might ask how this cartoon animal became so popular. One of the main reasons is that Mickey was like a common man, but he always tried to face any danger. In his early films, Mickey was unlucky and had many problems such as losing his house or girlfriend, Minnie. However, he was always ready to try his best. People went to the cinema to see the \"little man\" win. Most of them wanted to be like Mickey."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "On November 18, 1978, Mickey became the first cartoon character to have a star on the Hollywood Walk of Fame. Today's cartoons are usually not so simple as little Mickey Mouse, but everyone still knows and loves him. Who has a pair of ears more famous than Mickey's?"
+      }
+    ]
+  },
+  "display": {
+    "title": "Mickey Mouse: A Symbol of American Culture",
+    "section": "Section B",
+    "text": "When people say \"culture,\" we think of art and history. But one very famous symbol in American culture is a cartoon. We all know and love the black mouse with two large round ears — Mickey Mouse. Over 80 years ago, he first appeared in the cartoon Steamboat Willie. When this cartoon came out in New York on November 18, 1928, it was the first cartoon with sound and music. The man behind Mickey was Walt Disney. He became very rich and successful. In the 1930s, he made 87 cartoons with Mickey.\nSome people might ask how this cartoon animal became so popular. One of the main reasons is that Mickey was like a common man, but he always tried to face any danger. In his early films, Mickey was unlucky and had many problems such as losing his house or girlfriend, Minnie. However, he was always ready to try his best. People went to the cinema to see the \"little man\" win. Most of them wanted to be like Mickey.\nOn November 18, 1978, Mickey became the first cartoon character to have a star on the Hollywood Walk of Fame. Today's cartoons are usually not so simple as little Mickey Mouse, but everyone still knows and loves him. Who has a pair of ears more famous than Mickey's?",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "When people say \"culture,\" we think of art and history. But one very famous symbol in American culture is a cartoon. We all know and love the black mouse with two large round ears — Mickey Mouse. Over 80 years ago, he first appeared in the cartoon Steamboat Willie. When this cartoon came out in New York on November 18, 1928, it was the first cartoon with sound and music. The man behind Mickey was Walt Disney. He became very rich and successful. In the 1930s, he made 87 cartoons with Mickey."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Some people might ask how this cartoon animal became so popular. One of the main reasons is that Mickey was like a common man, but he always tried to face any danger. In his early films, Mickey was unlucky and had many problems such as losing his house or girlfriend, Minnie. However, he was always ready to try his best. People went to the cinema to see the \"little man\" win. Most of them wanted to be like Mickey."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "On November 18, 1978, Mickey became the first cartoon character to have a star on the Hollywood Walk of Fame. Today's cartoons are usually not so simple as little Mickey Mouse, but everyone still knows and loves him. Who has a pair of ears more famous than Mickey's?"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "path": "content/article-review/history/a311051463e891d27c3acc7f336e1fb1cb9084864c214ccb905dda3f134f56ed.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "dfbf1cd38357ccde2985e4a57af97a95d1f624a270a0706c0e183ea1e0228e2b"
+    }
+  ],
+  "corrections": [],
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "reviewer": "Codex",
+  "reviewedAt": "2026-10-07T07:39:48+00:00",
+  "notes": "Mickey三段依诞生历史、受欢迎原因、星光大道与今日影响，保留多句自然段。",
+  "issues": [],
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "781cb88fa82aa985eb5079c0beae62d80b0510c269ef7b660c7dc8ae87badb03",
+    "afterFileSha256": "781cb88fa82aa985eb5079c0beae62d80b0510c269ef7b660c7dc8ae87badb03",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "781cb88fa82aa985eb5079c0beae62d80b0510c269ef7b660c7dc8ae87badb03",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..2] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "Mickey三段依诞生历史、受欢迎原因、星光大道与今日影响，保留多句自然段。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "blockEdits": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/a311051463e891d27c3acc7f336e1fb1cb9084864c214ccb905dda3f134f56ed.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "dfbf1cd38357ccde2985e4a57af97a95d1f624a270a0706c0e183ea1e0228e2b"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "a311051463e891d27c3acc7f336e1fb1cb9084864c214ccb905dda3f134f56ed"
+}

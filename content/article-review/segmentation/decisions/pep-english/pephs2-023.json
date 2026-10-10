@@ -1,0 +1,21 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "36921915b08cb1f59037243130004aa6b887d2575009ca27de37251887dd48e1",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title；全文 blocks[0..35] 与对应 text；现有正文/对话/题干逐块通读复核。",
+  "notes": "居家安全六类小标题和各项建议、概述独立保留，厨房卧室浴室消防儿童老人项目不能因短句而合并。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/61d6b654b71c00dec80d44560f08a4faf8e02466c3d151b346726e438d09022d.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "731ddf914c62a8fd056344a916fd4683ffa51dbe804e0f6176fa7fcfdc61aac4"
+    }
+  ]
+}

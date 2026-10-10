@@ -1,0 +1,100 @@
+{
+  "article": "e1-2010",
+  "rawRead": {
+    "blocks": 8,
+    "pdfPhysicalPages": [
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56
+    ],
+    "allPageImagesRead": true,
+    "cartoonCropRead": true,
+    "translation50CropRead": true
+  },
+  "sources": [
+    {
+      "url": "https://www.library.hbs.edu/hc/hawthorne/03.html",
+      "readScope": "搜索读取馆藏展览的照明实验正文：1924–1927、三个制造部门、NRC支持和照明/产量关系；未查看档案原件或装配室全部资料。"
+    },
+    {
+      "url": "https://www.nber.org/papers/w15016",
+      "readScope": "搜索取得2009年May工作论文作者/题名；直接网页打开403，不声称网页全文已读。另成功下载同站PDF。"
+    },
+    {
+      "url": "https://www.nber.org/system/files/working_papers/w15016/w15016.pdf",
+      "readScope": "下载481216字节19页，pypdf完整抽取读取物理页2、9、11、12，含摘要、周日调整周一实行、周内比较、仍有细微效应迹象。其他页仅检索，未通读、未看图或复算回归。"
+    },
+    {
+      "url": "https://www.commentary.org/articles/terry-teachout/the-amateur-as-critic/",
+      "readScope": "搜索取得Terry Teachout、2007年11月、题名和开头摘要；直接打开403，未声称阅读全文。"
+    },
+    {
+      "url": "https://guardian.calmview.eu/CalmView/Record.aspx?id=NCA&src=CalmView.Catalog",
+      "readScope": "搜索返回Guardian自有档案Admin History，音乐/板球双重工作、1927首席乐评、1964 CBE和1967受勋；未读取藏件或全目录。"
+    },
+    {
+      "url": "https://www.supremecourt.gov/docketfiles/08-964.htm",
+      "readScope": "搜索读取案名、2008-10-30下院日期、2009申请进程部分；不声称通读全部程序清单。"
+    },
+    {
+      "url": "https://www.law.cornell.edu/supct/html/08-964.ZS.html",
+      "readScope": "完整读取55行判决syllabus，包括2010-06-28、抽象概念、机器或转换非唯一测试及不全面排除商业方法；syllabus并非法院意见正文，未读完整并列意见。"
+    },
+    {
+      "url": "https://supreme.justia.com/cases/federal/us/561/593/",
+      "readScope": "搜索返回并列意见注35承认1952年前少量此类专利；仅用于避免把1998说成绝对首次授权，未阅读全文。"
+    },
+    {
+      "url": "https://law.justia.com/cases/federal/appellate-courts/cafc/07-1130/07-1130-order-2011-03-27.html",
+      "readScope": "搜索完整返回2008年2月全院审理命令转录：12法官、五项待议问题、State Street/AT&T复议和签署日期；网页元数据14日与文件签署15日不同，说明只用月份，不误当2011命令。"
+    },
+    {
+      "url": "https://pdodds.w3.uvm.edu/research/papers/watts2007a/",
+      "readScope": "作者自有网站find取得并完整读取L95–108书目及两段摘要：多数模拟条件、易受影响者临界群体，并不排除影响者的重要性；未读完整论文。"
+    },
+    {
+      "url": "https://storage.fasb.org/FCAG_Report_-_29_July_LD-_final_05_August-internet_posting.pdf",
+      "readScope": "搜索返回FASB官方存档列明2009年4月FSP FAS157-4和115-2/124-2，未通读PDF。"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/77543/000007754309000071/form10q2q09.pdf",
+      "readScope": "搜索读取当事公司报表会计政策段，确认不活跃市场仍以有序交易公允价值为目标及2009年4月指引；未通读全报表，不把个别公司无重大影响泛化。"
+    },
+    {
+      "url": "https://www.ifrs.org/content/dam/ifrs/meetings/2009/april/joint-trustees-monitoring-board/review-of-the-draft-2008-annual-report/apmb2d-draft-iasb-chair-2008-annual-report.pdf",
+      "readScope": "搜索返回FASB压力及不活跃市场指导讨论；未通读草稿，不将草稿措辞作为最终会计准则。"
+    },
+    {
+      "url": "https://economictimes.indiatimes.com/shift-towards-wholesale-can-save-european-retailers/articleshow/34366373.cms?from=mdr",
+      "readScope": "打开读取署名THE MCKINSEY QUARTERLY、2003-01-14及正文L79–136（其余后续country variations未读）。L81为1660亿欧元/1679亿美元，L84–94为段落与两种趋势；这是同期署名刊文，非取得McKinsey期刊原版PDF。未重新计算市场规模或核验预测最终实现情况。"
+    },
+    {
+      "url": "https://www.leopoldwritingprogram.org/uploads/6/7/7/6/6776981/leopold-aldo_land-ethic-1949.pdf",
+      "readScope": "下载48920字节14页，pypdf完整抽取读取物理页5、6、7；本卷对应页6–7，核invent、overworked、sale value、the native forest community及结语。未通读全篇其他页或视觉审图。"
+    },
+    {
+      "url": "https://dmchs.org/aldo-leopold-land-ethic/",
+      "readScope": "搜索读取相关几段原著转录；requests打开406，最终以Leopold Writing Program PDF为校勘证据。"
+    },
+    {
+      "url": "https://www.economist.com/leaders/2009/04/08/messenger-shot",
+      "readScope": "尝试打开受限，未读原刊全文，不以此单独证明文本细节。"
+    }
+  ],
+  "review": {
+    "finalBlocks": 121,
+    "fullFinalRead": true,
+    "changedBlocksReread": true,
+    "clozeReasoned": "ABCBCBDACDCAADBADCBD",
+    "readingReasoned": "BADABCDCBABDACCADABD",
+    "matchingReasoned": "BFDGA",
+    "fixedParagraph": "E between G and A",
+    "answersAreOfficial": false,
+    "notes": "全部原页及121最终块已读。25题B按节选主旨判断；答案不冒称官方。商业方法只作历史后续说明，非当代法律指南。"
+  }
+}

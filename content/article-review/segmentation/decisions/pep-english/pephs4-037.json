@@ -1,0 +1,22 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "39cbe50c7bbe2ddb462ebaed2d96193f1f5ce1fca898dc9512d2ad0171ee4a7a",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title；全文 blocks[0..2] 与对应 text；现有正文/对话/题干逐块通读复核。",
+  "notes": "Sea Fever三节各四行，保留重复开头、跨行句法和诗节，不转换为普通段落。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "blockEdits": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/546bf3825693776168cf5d7acbd12630bcc89124640339e888aa335bbb1b45d1.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "0f9d3e4c2fe6ca1b7588f602c834f9f19e7222ffa098fa4f017cad0ec31ca897"
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "schemaVersion": 1,
+  "course": "pep-english",
+  "articleId": "pephr3-009",
+  "beforeDisplaySha256": "16a96131372163f03c61dd3465eb3d5af4422d1b8159ef8d48ebb4cc53f17e3c",
+  "afterDisplaySha256": "16a96131372163f03c61dd3465eb3d5af4422d1b8159ef8d48ebb4cc53f17e3c",
+  "baselineDisplay": {
+    "title": "Thankfulness",
+    "section": "Project",
+    "text": "Thankfulness is realising and appreciating what you have.\nBe thankful, because you have more than others!\nIf you see no reason for giving thanks, the fault lies in yourself. (Indian proverb)\nI had no shoes and complained, until I met a man who had no feet. (Indian proverb)\nBe thankful, because you have been given much!\nIf you can read this, thank a teacher. (Anonymous)\nWhen eating fruit, think of the person who planted the tree. (Asian proverb)\nBe thankful, because it will shape your whole life!\nBe thankful for what you have; you'll end up having more. If you concentrate on what you don't have, you will never, ever have enough. (Oprah Winfrey)",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Thankfulness is realising and appreciating what you have."
+      },
+      {
+        "type": "subheading",
+        "lang": "en",
+        "text": "Be thankful, because you have more than others!"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "If you see no reason for giving thanks, the fault lies in yourself. (Indian proverb)"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "I had no shoes and complained, until I met a man who had no feet. (Indian proverb)"
+      },
+      {
+        "type": "subheading",
+        "lang": "en",
+        "text": "Be thankful, because you have been given much!"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "If you can read this, thank a teacher. (Anonymous)"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "When eating fruit, think of the person who planted the tree. (Asian proverb)"
+      },
+      {
+        "type": "subheading",
+        "lang": "en",
+        "text": "Be thankful, because it will shape your whole life!"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Be thankful for what you have; you'll end up having more. If you concentrate on what you don't have, you will never, ever have enough. (Oprah Winfrey)"
+      }
+    ]
+  },
+  "display": {
+    "title": "Thankfulness",
+    "section": "Project",
+    "text": "Thankfulness is realising and appreciating what you have.\nBe thankful, because you have more than others!\nIf you see no reason for giving thanks, the fault lies in yourself. (Indian proverb)\nI had no shoes and complained, until I met a man who had no feet. (Indian proverb)\nBe thankful, because you have been given much!\nIf you can read this, thank a teacher. (Anonymous)\nWhen eating fruit, think of the person who planted the tree. (Asian proverb)\nBe thankful, because it will shape your whole life!\nBe thankful for what you have; you'll end up having more. If you concentrate on what you don't have, you will never, ever have enough. (Oprah Winfrey)",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Thankfulness is realising and appreciating what you have."
+      },
+      {
+        "type": "subheading",
+        "lang": "en",
+        "text": "Be thankful, because you have more than others!"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "If you see no reason for giving thanks, the fault lies in yourself. (Indian proverb)"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "I had no shoes and complained, until I met a man who had no feet. (Indian proverb)"
+      },
+      {
+        "type": "subheading",
+        "lang": "en",
+        "text": "Be thankful, because you have been given much!"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "If you can read this, thank a teacher. (Anonymous)"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "When eating fruit, think of the person who planted the tree. (Asian proverb)"
+      },
+      {
+        "type": "subheading",
+        "lang": "en",
+        "text": "Be thankful, because it will shape your whole life!"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Be thankful for what you have; you'll end up having more. If you concentrate on what you don't have, you will never, ever have enough. (Oprah Winfrey)"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "path": "content/article-review/history/dfd230de13d4ad4d082184bb7ee60f1c3431bfc13f4b0154bc52a7cbf78e2cb8.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "412475bca38fbc16cbf5a63d61ca92c5b4aa4e9a315a0d46a08012b18c02d1bd"
+    }
+  ],
+  "corrections": [],
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "reviewer": "Codex",
+  "reviewedAt": "2026-10-07T07:30:20+00:00",
+  "notes": "感恩定义、三组小标题与各条谚语引文均为独立项目，保留标题与引文边界。",
+  "issues": [],
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "0636ae60856caae5b8c7edc0554cf4d9f7fa75510781ace092b87acc38740bc0",
+    "afterFileSha256": "0636ae60856caae5b8c7edc0554cf4d9f7fa75510781ace092b87acc38740bc0",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "0636ae60856caae5b8c7edc0554cf4d9f7fa75510781ace092b87acc38740bc0",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..8] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "感恩定义、三组小标题与各条谚语引文均为独立项目，保留标题与引文边界。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/dfd230de13d4ad4d082184bb7ee60f1c3431bfc13f4b0154bc52a7cbf78e2cb8.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "412475bca38fbc16cbf5a63d61ca92c5b4aa4e9a315a0d46a08012b18c02d1bd"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "dfd230de13d4ad4d082184bb7ee60f1c3431bfc13f4b0154bc52a7cbf78e2cb8"
+}

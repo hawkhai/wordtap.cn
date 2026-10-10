@@ -1,0 +1,21 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "09b4c7e8334bfd6448d13e5c57624bd51243571fbc73cc21a879790e52bb891a",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title；全文 blocks[0..5] 与对应 text；现有正文/对话/题干逐块通读复核。",
+  "notes": "林巧稚传记六段从信念引语至求学、任职、战时行医、新中国贡献、晚年，保留自然段及原引语。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/271e67e66f0082716ff263cd926b69eaf02b2ef369133de3c452b49e63368c4e.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "aba861a2765d592d7bbaf8072eb4f7f332f74509118ef33dbabe3acab8577e17"
+    }
+  ]
+}

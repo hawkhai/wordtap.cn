@@ -1,0 +1,26 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "ee709375c78572a3fa23d8e51a9032a1ac72023de6019e4909bf7324aaa4c938",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title/titleZh、question/questionZh、bodyText全部9行、bodyTextZh全部9行及sentences[0..12]的完整文字；重复正文与字幕文本逐字比对，非正文字幕另读。操作在内存应用并validate_layout_change，修复后的双语全文重新通读。",
+  "notes": "兄长澳洲旅行；来信及工作背景合段，买车赴爱丽丝泉至珀斯的路线合段，首次出国兴奋作结。 text与bodyText同步；sentences对象及时间、角色、索引原样保留。",
+  "issues": [],
+  "display": {
+    "text": "Why is Tim finding this trip exciting?\n\nI have just received a letter from my brother, Tim. He is in Australia. He has been there for six months. Tim is an engineer. He is working for a big firm and he has already visited a great number of different places in Australia.\nHe has just bought an Australian car and has gone to Alice Springs, a small town in the centre of Australia. He will soon visit Darwin. From there, he will fly to Perth.\nMy brother has never been abroad before, so he is finding this trip very exciting.",
+    "bodyText": "I have just received a letter from my brother, Tim. He is in Australia. He has been there for six months. Tim is an engineer. He is working for a big firm and he has already visited a great number of different places in Australia.\nHe has just bought an Australian car and has gone to Alice Springs, a small town in the centre of Australia. He will soon visit Darwin. From there, he will fly to Perth.\nMy brother has never been abroad before, so he is finding this trip very exciting.",
+    "bodyTextZh": "我刚刚收到了我哥哥蒂姆的一封信。他在澳大利亚。他已经在那里待了六个月了。蒂姆是一名工程师。他在一家大公司工作，并且已经去过澳大利亚的许多不同地方。\n他刚买了一辆澳大利亚产的汽车，然后去了爱丽丝泉（Alice Springs）。澳大利亚中部的一个小镇。他很快将会去达尔文。从那里，他将飞往珀斯。\n我哥哥以前从未出过国。所以他觉得这次旅行非常令人兴奋。"
+  },
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/50848b8046f4b925bc9c0c9fc6c1c9d0e445eadb423535b3146428ece6501489.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "843cc8486ad2c5598caea4541260c1173b53f32f8efbbf3ec44db6c79b766d04"
+    }
+  ]
+}

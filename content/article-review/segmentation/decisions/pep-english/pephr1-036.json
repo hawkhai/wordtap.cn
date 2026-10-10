@@ -1,0 +1,21 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "e3ed160389892d25d0612160f9135977a05b2beaf69a0a82ea697ce52daef9d1",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title；全文 blocks[0..2] 与对应 text；现有正文/对话/题干逐块通读复核。",
+  "notes": "多语者文章以名人和Tim引入、Tim学习过程、语言文化意义三段组织，保留完整多句段。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/be843441b0230b2bfe2e5c22a501c6e363bfa8bea8c00f1ad5b8a457cf538dbc.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "a2bc89eff89549d34042ea94231f85c0340f103e4ec0f77aece5542e9d585aba"
+    }
+  ]
+}

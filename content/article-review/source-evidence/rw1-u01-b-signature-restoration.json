@@ -1,0 +1,23 @@
+{
+  "articleId": "rw1-u01-b",
+  "finding": "Published textSha256 had been recomputed for flattened public text and no longer matched its unchanged signed event. Restore the digest from the verified original event and source; the article review separately restores exact display whitespace.",
+  "before": {
+    "status": "passed",
+    "reviewer": "Codex",
+    "reviewedAt": "2026-07-30T01:22:55Z",
+    "correctionCount": 8,
+    "evidence": "content/College-English/reviewed-articles/rw1-u01-b.json; NHCE4-RW1 PDF pages 33-34; images 33-34",
+    "textSha256": "f557fdc9be4f906bdf8342fb896c89880d74866af99f8d65aa541df4552af4f3",
+    "eventSha256": "80294ab83e6b13e624c8dbd074c2fb7d2a9130c88718b606f65c860c5e29bc60"
+  },
+  "source": "content/college-english/manual-review-events.jsonl",
+  "after": {
+    "status": "passed",
+    "reviewer": "Codex",
+    "reviewedAt": "2026-07-30T01:22:55Z",
+    "correctionCount": 8,
+    "evidence": "content/College-English/reviewed-articles/rw1-u01-b.json; NHCE4-RW1 PDF pages 33-34; images 33-34",
+    "textSha256": "1376ffc5fae1805e3781ca26910ea9fe7289d24b0e2da7c453777576b2f9a09c",
+    "eventSha256": "80294ab83e6b13e624c8dbd074c2fb7d2a9130c88718b606f65c860c5e29bc60"
+  }
+}

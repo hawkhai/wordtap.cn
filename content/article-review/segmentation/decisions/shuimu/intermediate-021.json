@@ -1,0 +1,149 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "ee86d3653a06a780041ed184cb328c36301babef24853feab2bb7688302519d8",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "coverage": "全文 blocks[0..210]；按 JSON 上下文逐项复核对话、解释、题目、表格、词表及修复后的边界。",
+  "notes": "全文复核古钢琴故事、问答摘要、12题选项及相关/原因介词全部说明。恢复故事双语多句单元、摘要、thanks to/due to等词组及中文说明断行；保持不同原因介词编号、例译边界。前两题选项a/c/b/d顺序疑义仅记录不重排。",
+  "issues": [],
+  "mergeBlocks": [
+    {
+      "start": 19,
+      "end": 20,
+      "before": [
+        "We have an old musical instrument. It is called a clavichord. It was made in",
+        "Germany in 1681."
+      ],
+      "text": "We have an old musical instrument. It is called a clavichord. It was made in Germany in 1681.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 24,
+      "end": 25,
+      "before": [
+        "It has belonged to our family for a long time. The instrument was bought by my",
+        "grandfather many years ago."
+      ],
+      "text": "It has belonged to our family for a long time. The instrument was bought by my grandfather many years ago.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 31,
+      "end": 32,
+      "before": [
+        "My father was shocked. Now we are not allowed to touch it. It is being repaired by",
+        "a friend of my father’s."
+      ],
+      "text": "My father was shocked. Now we are not allowed to touch it. It is being repaired by a friend of my father’s.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 45,
+      "end": 48,
+      "before": [
+        "Answer: We own an old clavichord. It was made in 1681. My grandfather",
+        "bought the instrument many years ago. A visitor damaged it recently. She",
+        "tried to play jazz on it! She broke two strings. A friend of my father’s is",
+        "repairing it now."
+      ],
+      "text": "Answer: We own an old clavichord. It was made in 1681. My grandfather bought the instrument many years ago. A visitor damaged it recently. She tried to play jazz on it! She broke two strings. A friend of my father’s is repairing it now.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 116,
+      "end": 119,
+      "before": [
+        "一般说来, about用于比较随便的谈话或非正式的文体；on用于正式的讲话，用",
+        "在著作或报告中；of用于动词hear, know, read, speak, talk等的后面，表示关于某",
+        "人或某事物的存在。about所表示的关系，比of所表示的要详细些，将about置于",
+        "上列动词后，则表示关于某人某事物的详情。"
+      ],
+      "text": "一般说来, about用于比较随便的谈话或非正式的文体；on用于正式的讲话，用在著作或报告中；of用于动词hear, know, read, speak, talk等的后面，表示关于某人或某事物的存在。about所表示的关系，比of所表示的要详细些，将about置于上列动词后，则表示关于某人某事物的详情。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 129,
+      "end": 130,
+      "before": [
+        "表示原因的介词有：at, for, from, of, on/upon, through, with, due to, out of, thanks",
+        "to, for fear of, owing to, because of等。"
+      ],
+      "text": "表示原因的介词有：at, for, from, of, on/upon, through, with, due to, out of, thanks to, for fear of, owing to, because of等。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 145,
+      "end": 148,
+      "before": [
+        "注: die from表示“因……而死亡”的意思，常指除了疾病、情感等以外的原因造",
+        "成的死亡。其后常跟cold, hunger, pollution, overwork, accident, wound, drinking",
+        "too much, habit, smoking等一类表示外部原因或灾祸方面的名词。但有时也可以",
+        "用来指由于疾病的原因而造成的死亡，只是 die of比die from更常见。"
+      ],
+      "text": "注: die from表示“因……而死亡”的意思，常指除了疾病、情感等以外的原因造成的死亡。其后常跟cold, hunger, pollution, overwork, accident, wound, drinking too much, habit, smoking等一类表示外部原因或灾祸方面的名词。但有时也可以用来指由于疾病的原因而造成的死亡，只是 die of比die from更常见。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 152,
+      "end": 154,
+      "before": [
+        "die of常常指由于疾病、年老、情感等原因造成的死亡，意为“因……而死”,后常",
+        "跟fever, illness, hunger, thirst, anger, despair, sadness, disappointment, grief等一类",
+        "表示内部原因或情感方面的名词。"
+      ],
+      "text": "die of常常指由于疾病、年老、情感等原因造成的死亡，意为“因……而死”,后常跟fever, illness, hunger, thirst, anger, despair, sadness, disappointment, grief等一类表示内部原因或情感方面的名词。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 160,
+      "end": 161,
+      "before": [
+        "(5)of常用来表示情绪上的原因，因此常与glad, fond, proud, shamed, tired等形容",
+        "词连用。"
+      ],
+      "text": "(5)of常用来表示情绪上的原因，因此常与glad, fond, proud, shamed, tired等形容词连用。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 178,
+      "end": 179,
+      "before": [
+        "还有 due to, owing to, thanks to, because of, on account of五个成语介词表示“因",
+        "为”“由于”，但它们在用法上有区别。"
+      ],
+      "text": "还有 due to, owing to, thanks to, because of, on account of五个成语介词表示“因为”“由于”，但它们在用法上有区别。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 185,
+      "end": 186,
+      "before": [
+        "(11) due to“因为;由……引起;由于”，常用作定语或表语，在英国惯用法中, due",
+        "to作状语被认为是不正确的，尽管在美国英语中有人 due to用作状语。"
+      ],
+      "text": "(11) due to“因为;由……引起;由于”，常用作定语或表语，在英国惯用法中, due to作状语被认为是不正确的，尽管在美国英语中有人 due to用作状语。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 196,
+      "end": 198,
+      "before": [
+        "注：owing to在句中作状语,不作表语,但与because of的用法有些差别。一般说",
+        "来,owing to只引导一个修饰全句的状语,而because of引导的状语可修饰句子中的",
+        "一部分。"
+      ],
+      "text": "注：owing to在句中作状语,不作表语,但与because of的用法有些差别。一般说来,owing to只引导一个修饰全句的状语,而because of引导的状语可修饰句子中的一部分。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    }
+  ],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/0cd38c20a1221e41764747d1cefc3113716e7b2e598852792b3705e36fe308a0.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "f9df5e12748b9649ea9612e3c1d7039ec94c12b719c776f69c94c32052c3afa3"
+    }
+  ]
+}

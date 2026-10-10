@@ -1,0 +1,22 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "0607605a41dd0723a6cd7b9fbb3f80c8228549fbc067fb891b8a128190e74dc9",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title；全文 blocks[0..4] 与对应 text；现有正文/对话/题干逐块通读复核。",
+  "notes": "On the Seashore五诗节，海滩儿童意象与跨行句法保留，诗行不按句合并。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "blockEdits": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/de7961f66d5526ec272c8ae6be6519eaa6275c8b315897d2186ac7603fc0e3d4.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "50d8494c325848a54b74d459ca5cb61aab7e1d594118f09688096a8de17fd2e6"
+    }
+  ]
+}

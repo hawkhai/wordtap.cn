@@ -1,0 +1,163 @@
+{
+  "article": "e2-2023",
+  "rawRead": {
+    "blocks": 12,
+    "pdfPhysicalPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "allPageImagesRead": true,
+    "pdfSha256": "62c1dab8dbd8d9bbec9c39b0f7a88276c0a9a99b424c24a30de0e07b867bb619"
+  },
+  "parallelPdf": {
+    "path": "tmp\\article-review\\e2-2023\\parallel.pdf",
+    "sha256": "390df0f598c481416f4fc274f4dce6a91a8c1b51c5a9c62b2a273f6588ba568a",
+    "pagesRead": [
+      8,
+      9
+    ],
+    "purpose": "补写作图及指标定义"
+  },
+  "sources": [
+    {
+      "path": "https://www.blinkist.com/books/hacking-growth-en",
+      "read": "Hacking Growth的Key idea 1全文L68–80全部读取，原词project-marketing、92%及末段让步句可核；未用站外摘要替代。没有该摘要首次发布日期的独立证明，不编日期。",
+      "checked": true
+    },
+    {
+      "path": "https://english-exam.lazynote.cn/kaoyan/articles/2023-english-two/",
+      "read": "文章目录L43–61全部来源线索读取，仅作发现线索；TIME/Week Junior所称具体日期未由原刊核实，不当成独立证实。",
+      "checked": true
+    },
+    {
+      "path": "https://www.thetimes.com/article/banned-at-the-chelsea-flower-show-plastic-grass-is-growing-out-of-favour-w53phn566",
+      "read": "链接由同期Independent文内明确指向；web无法读取，未称The Times全文外部已读，本地试卷对应6段及原图已全文读取。",
+      "checked": true
+    },
+    {
+      "path": "https://www.the-independent.com/climate-change/sustainable-living/chelsea-flower-show-fake-grass-b2078997.html",
+      "read": "Kate Ng2022-05-14正文L190–216完整读取，发言人Ed Horne和当年展览禁令可核；仅此姓名用于纠错，不把该页不同签名快照强改本卷报道时点数字。",
+      "checked": true
+    },
+    {
+      "path": "https://petition.parliament.uk/archived/petitions/585520",
+      "read": "2021-06-08Defra回应L52–63全文读取，适用英格兰。引文与本卷一致；关闭总签名32727不是报道约30000的精确同期计数。",
+      "checked": true
+    },
+    {
+      "path": "https://petition.parliament.uk/archived/petitions/608295",
+      "read": "2022-05-31HM Treasury回应及请愿发布时间、关闭时间完整读取；关闭26442不替换2022-05中旬11282快照。",
+      "checked": true
+    },
+    {
+      "path": "https://www.latimes.com/opinion/story/2019-12-02/opinion-its-easy-to-dismiss-a-trump-administration-plan-for-national-parks-but-the-parks-are-in-crisis",
+      "read": "Linda J. Bilmes/John B. Loomis2019-12-02，全文L242–257全部读取；保留作者当时预算论证，不冒称当下事实；外部直接署名核验。",
+      "checked": true
+    },
+    {
+      "path": "https://www.nps.gov/orgs/1207/02-28-2018-visitation-certified.htm",
+      "read": "2018-02-28发布，L30–47全部概况读取，2017年330882751 recreation visits，2016年330971689；指标是人次，不是去重人数。",
+      "checked": true
+    },
+    {
+      "path": "https://www.nps.gov/orgs/1207/03-05-2019-visitation-numbers.htm",
+      "read": "2019-03-05发布，L31–55全部总量部分读取，2018年318211833次，修2019评论笼统now330m，用明确年份口径。",
+      "checked": true
+    },
+    {
+      "path": "https://www.hks.harvard.edu/faculty-research/policy-topics/environment-energy/research-shows-americans-overwhelmingly-value",
+      "read": "403未取得正文，不依此声称独立查到原调查方法；81%保留作者原报道并限定受访者意愿，不当作实际税收。",
+      "checked": true
+    },
+    {
+      "path": "https://pdfroom.com/books/time-the-science-of-memory/kon5b3vkd6V",
+      "read": "公开预览核到2018版目录，印刷62页The Digital-Era Brain；未取得对应章正文。不能声称该章外部全文读过，科学结论另查原研究和机构发布。",
+      "checked": true
+    },
+    {
+      "path": "https://news.columbia.edu/news/study-finds-memory-works-differently-age-google",
+      "read": "Eric Sharfstein2011-07-14研究发布L13–34全文全部读取，四实验程序及方向核实，改全无努力/全未记住为表现比较，未凭结果断言主观努力。",
+      "checked": true
+    },
+    {
+      "path": "https://pubmed.ncbi.nlm.nih.gov/21764755/",
+      "read": "搜索可识别原论文身份，open仅页脚；不当成全文或摘要完整读取证明。",
+      "checked": true
+    },
+    {
+      "path": "https://kastalia.medienhaus.udk-berlin.de/community/data/4276.YourBrainOnGoogle.pdf",
+      "read": "Small/Moody/Siddarth/Bookheimer2009原论文PDF完整摘要和刊物时间L0–40读取；24名55–76岁神经学正常成人，各12人经验组；横断面探索性成像，不是临床认知改善试验。2008收稿接受、2009发表，修成发表年份。",
+      "checked": true
+    },
+    {
+      "path": "https://alisongopnik.com/Alison_Gopnik_WSJcolumns.htm",
+      "read": "作者转载Teenage Rebels with a Cause全文L383–391全部读取，目录日期2019-09-12；未把整页所有专栏称全读。原文11–28与论文11.94–28.72不精确，修约12–29；保留原论证及7段。",
+      "checked": true
+    },
+    {
+      "path": "https://onlinelibrary.wiley.com/doi/full/10.1111%2Fcdev.13292",
+      "read": "Blankenstein等，2019-08-27在线发表。完整摘要L161–164、参与者/自报量表相关方法L202–247、年龄效应及偏相关L278–291、讨论年龄轨迹L385–407读取。末轮亲社会263、叛逆226，自报同伴朋友行为；控制年龄性别偏相关r=.197，不是因果。未称整论文全读。",
+      "checked": true
+    },
+    {
+      "path": "https://www.theguardian.com/money/2022/jun/20/net-zero-rules-set-to-send-cost-of-new-homes-and-extensions-soaring",
+      "read": "Shane Hickey2022-06-20，原文L61–100全部读取；12段试卷为删节，价格属于受访人预测，保留引语不补原文删去段。",
+      "checked": true
+    },
+    {
+      "path": "https://www.horsham.gov.uk/__data/assets/pdf_file/0018/113463/Part-L-and-F-extensions-and-alterations-guide-to-the-new-building-regulations-in-june-2022.pdf",
+      "read": "2022年地方建筑监管指南物理2–3页相关文字L3–7及48–83完整读取：2022-06-15/2023-06-15过渡期，玻璃25%包含被覆盖原洞口且可以计算另证，不能说绝对无例外上限。未称全11页均读。",
+      "checked": true
+    },
+    {
+      "path": "https://www.gov.uk/guidance/approved-document-s-infrastructure-for-charging-electric-vehicles-frequently-asked-questions",
+      "read": "2023-04-17Part S问答开头至关联停车位小节L54–154读取，停车位须相关联，非每栋无条件有充电点；本文历史法规限定，不作现行工程建议。",
+      "checked": true
+    },
+    {
+      "path": "https://mba.cuc.edu.cn/_upload/article/files/38/f6/25c0c8b3441e96b4d5d6f017af32/fd52b550-4d9f-4531-ac64-776c09186400.pdf",
+      "read": "中国传媒大学MBA所存2023英语二平行卷9页，只物理8–9页全文原图读取。图示2012–2021十项8.80/9.48/9.79/10.25/11.58/14.18/17.06/19.17/23.15/25.40%，15–69岁城乡居民口径。平行卷中文定义漏素养二字，依上下文补齐。",
+      "checked": true
+    },
+    {
+      "path": "tmp/article-review/e2-2023/parallel-8.jpg",
+      "read": "平行卷物理8页全部图像已读，作文要求及健康素养定义、分母。",
+      "checked": true
+    },
+    {
+      "path": "tmp/article-review/e2-2023/parallel-last.jpg",
+      "read": "平行卷物理9页全图已读。",
+      "checked": true
+    },
+    {
+      "path": "tmp/article-review/e2-2023/chart-detail.png",
+      "read": "物理9页放大图逐项核读十年数值及年份。",
+      "checked": true
+    }
+  ],
+  "findings": [
+    "20空恢复；完形6段、Text1–4分别6/7/4/7段、PartB12段、翻译3段，题文错序及栏位分开。",
+    "Ed Horne姓名修复，2021政府答复限定英格兰，快照数字保留当时口径。",
+    "NPS访问人次和2017/2018年份口径修正，预算评论标2019。",
+    "Sparrow组间回忆表现不等于全无努力或全无记忆；Small成像不等于临床获益。",
+    "青少年年龄、亲社会问卷对象及相关非因果说明；研究人数不混为统一分母。",
+    "建筑规则历史日期、关联车位和玻璃面积例外明确，价格为当时预测。",
+    "缺失健康素养图及定义补齐，15–69岁居民指标而非健康人口率，16.60百分点。"
+  ],
+  "finalReview": {
+    "fullTextRead": true,
+    "blocks": 139,
+    "coverage": "0–69、70–138全文逐块复读；末次37/55及选择题空格受影响块再次读取。"
+  },
+  "unresolved": []
+}

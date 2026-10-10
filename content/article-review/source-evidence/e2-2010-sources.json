@@ -1,0 +1,121 @@
+{
+  "article": "e2-2010",
+  "rawRead": {
+    "blocks": 8,
+    "pdfPhysicalPages": [
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52
+    ],
+    "allPageImagesRead": true,
+    "pdfSha256": "48d3ef0508a66b5dba45250615cff2ca8e1ab836a0b319aa21672df20cca9fb7"
+  },
+  "sources": [
+    {
+      "url": "https://www.who.int/news/item/11-06-2009-dg-statement-following-the-meeting-of-the-emergency-committee",
+      "readScope": "WHO 2009-06-11公告全文搜索读取，phase6及当时moderate，非后见最终严重程度。"
+    },
+    {
+      "url": "https://www.who.int/emergencies/situations/influenza-a-%28h1n1%29-outbreak",
+      "readScope": "WHO2009–2010概述搜索全文读取：2009年4月北美报告，74国家地区至6月，夏季亦有高感染水平。"
+    },
+    {
+      "url": "https://archive.cdc.gov/www_cdc_gov/h1n1flu/vaccination/nasalspray_qa.htm",
+      "readScope": "2009-10-07CDC历史FAQ L108–164读取，2–49健康非孕人群，排除未满2岁、50及以上等；给接触重度免疫抑制患者医护有额外限制。并非当前疫苗指导。"
+    },
+    {
+      "url": "https://stacks.cdc.gov/view/cdc/25209",
+      "readScope": "2009-09-25药师警报正文通过CDC库索引读取：26州广泛流感活动，提交CDC已分型流感病毒99%为新H1N1。不是所有呼吸道样本阳性。"
+    },
+    {
+      "url": "https://archive.cdc.gov/www_cdc_gov/h1n1flu/updates/090409.htm",
+      "readScope": "2009-09-04CDC统计表及注脚搜索全文已读，累计9079住院593死亡，报告统计不是实际总感染数。"
+    },
+    {
+      "url": "https://www.cdc.gov/mmwr/preview/mmwrhtml/mm58e0910a1.htm",
+      "readScope": "CDC MMWR相关监测方法和截至8月30日报告数段落搜索读取，非全文；订正原卷无统一截止日的混合数字。"
+    },
+    {
+      "url": "https://library.toledomuseum.org/bib/4636",
+      "readScope": "Toledo Museum图书馆目录全文读取：Fiammetta Rocco，Economist 2009-11-28印刷号特刊16页。仅元数据，不声称原刊全文。"
+    },
+    {
+      "url": "https://www.curatormagazine.com/alissawilkinson/on-the-art-market/",
+      "readScope": "2009-12-15作者署名短文全文读取，引用Economist开头两段。仅用于原词和题源定位，不将其视作原刊全文。"
+    },
+    {
+      "url": "https://spectator.com/article/the-parable-of-the-golden-calf/",
+      "readScope": "Edie Lush现场报道开头至销售讨论段落已读，2008-09-24网页版、09-27刊期，晚场56件£70.5m及两日£111m有区别，雷曼同日。"
+    },
+    {
+      "url": "https://www.deborahtannen.com/general-audience-articles/",
+      "readScope": "作者书目中Sex, lies, and conversation条目已读，Washington Post 1990-06-24 C3。"
+    },
+    {
+      "url": "https://www.rpaenglish.com/uploads/1/2/5/4/125470473/sex_lies_and_conversation_article.pdf",
+      "readScope": "5页75499字节教学转载，本地物理第1页全文已读，覆盖卷面五段及随后两个设问，未读完整5页。原刊近50%推出数百万宗已有，非OCR错误。"
+    },
+    {
+      "url": "https://stacks.cdc.gov/view/cdc/112483",
+      "readScope": "CDC1995-03-22的1989–90离婚统计报告摘要全文搜索已读，1990年118.2万对，不能说明所有离婚原因。"
+    },
+    {
+      "url": "https://www-new.cdc.gov/nchs/data/series/sr_24/sr24_006.pdf",
+      "readScope": "CDC搜索返回该URL中的1995离婚报告第一页内容已读：总数及每千人口4.7、每千已婚女性20.9；未下载或宣称整份PDF核读。"
+    },
+    {
+      "url": "https://www.sfgate.com/news/article/Changing-the-world-one-lather-at-a-time-3276238.php",
+      "readScope": "Charles Duhigg，NYT转载2008-07-20；L107–166全部读取含卷面对应段落及后文公共卫生用途，非网页全文。用户原卷修改之外仅少量事实订正，不新增长篇转载。"
+    },
+    {
+      "url": "https://supreme.justia.com/cases/federal/us/100/303/",
+      "readScope": "1880-03-01 Strauder裁判提要L55–67全读，另重复提要及判决正文起始至L106读取；不宣称判决全文。"
+    },
+    {
+      "url": "https://supreme.justia.com/cases/federal/us/419/522/",
+      "readScope": "1975-01-21 Taylor提要L60–69和判决起始L108–140全读，系统排除女性违反第六第十四修正案，来源池代表性。"
+    },
+    {
+      "url": "https://www.govinfo.gov/content/pkg/STATUTE-82/pdf/STATUTE-82-Pg53.pdf",
+      "readScope": "Pub.L.90-2741968-03-27原法，11页22012608字节。本地物理1–3及5页全部、6页开头至1866部分读取，1861/1862和1865全部读取；英语能力要求仍在，随机代表性来源池。其余页未读。"
+    },
+    {
+      "url": "https://wyohistory.org/encyclopedia/those-damn-women-louise-graf-and-women-wyoming-juries",
+      "readScope": "Wyoming历史学会2016-10-03署名Rebecca Hein，搜索正文开头至女性陪审历史全读，1870领地和1891州民事个案说明1898Utah不能称美国首次。"
+    },
+    {
+      "url": "https://www.alastairgee.com/oldsite.html",
+      "readScope": "作者作品目录搜索Economist条目读取，V for Victory，2009-12-03；直开超时/证书问题，不声称完整原刊已取得。"
+    },
+    {
+      "url": "https://citeseerx.ist.psu.edu/document?doi=07c6085d7db7e690e758e5be2c94445839c38b89&repid=rep1&type=pdf",
+      "readScope": "2009-3615 Bower、Flanzer、Kroo论文标题作者及摘要开头搜索已读，编队几何、建模和三机倒V，摘要后半未取得，PDF直接下载404；不据此宣称复算了15%或排放数。"
+    },
+    {
+      "url": "https://experiencelife.lifetime.life/article/a-natural-fit/",
+      "readScope": "Laine Bergeson，2009-12-01原刊正文L34–48全读，保留用户卷面删节，晚90年代已历网络泡沫破灭的年代矛盾原刊亦有。"
+    },
+    {
+      "url": "https://www.federalreservehistory.org/essays/great-moderation",
+      "readScope": "联储历史页面搜索涉及2000年dot-com crash的段落读取，非全文；不据此编造Ted个人求职年份。"
+    },
+    {
+      "url": "https://english-exam.lazynote.cn/kaoyan/sections/2010-english-two/section2-part-a-2/",
+      "readScope": "卷面30题参考B与原刊下一句区别校核；民间答案索引不是官方答案。"
+    },
+    {
+      "url": "https://english-exam.lazynote.cn/kaoyan/sections/2010-english-two/section2-part-a-3/",
+      "readScope": "35题参考B已核，与用户删节结尾一致，原刊后续有公共卫生用途，不能混用作者完整观点。"
+    }
+  ],
+  "finalRead": {
+    "allBlocksRead": true,
+    "blocks": 111,
+    "details": "0–52与53–110全部复读，之后所有16处空白/标点更新逐项全文重读，最后61块引号空白再次全文读取。"
+  }
+}

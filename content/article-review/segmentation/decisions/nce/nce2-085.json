@@ -1,0 +1,26 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "0e50ecf4664ea546993a5ce48da3df84c1f462adf191dea72a12e1b58bc4eb23",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title/titleZh、question/questionZh、bodyText全部9行、bodyTextZh全部9行及sentences[0..11]的完整文字；重复正文与字幕文本逐字比对，非正文字幕另读。操作在内存应用并validate_layout_change，修复后的双语全文重新通读。",
+  "notes": "校长退休；来信赠礼与感念、欢送及四十年教龄、园艺新兴趣三段。 text与bodyText同步；sentences对象及时间、角色、索引原样保留。",
+  "issues": [],
+  "display": {
+    "text": "How long has Mr. Page been teaching?\n\nI have just received a letter from my old school, informing me that my former headmaster, Mr. Stuart Page, will be retiring next week. Pupils of the school old and new, will be sending him a present to mark the occasion. All those who have contributed towards the gift will sign their names in a large album which will be sent to the headmaster's home. We shall all remember Mr. Page for his patience and understanding and for the kindly encouragement he gave us when we went so unwillingly to school.\nA great many former pupils will be attending a farewell dinner in his honour next Thursday. It is a curious coincidence that the day before his retirement, Mr. Page will have been teaching for a total of forty years.\nAfter he has retired he will devote himself to gardening. For him, this will be an entirely new hobby. But this does not matter, for, as he has often remarked, one is never too old to learn.",
+    "bodyText": "I have just received a letter from my old school, informing me that my former headmaster, Mr. Stuart Page, will be retiring next week. Pupils of the school old and new, will be sending him a present to mark the occasion. All those who have contributed towards the gift will sign their names in a large album which will be sent to the headmaster's home. We shall all remember Mr. Page for his patience and understanding and for the kindly encouragement he gave us when we went so unwillingly to school.\nA great many former pupils will be attending a farewell dinner in his honour next Thursday. It is a curious coincidence that the day before his retirement, Mr. Page will have been teaching for a total of forty years.\nAfter he has retired he will devote himself to gardening. For him, this will be an entirely new hobby. But this does not matter, for, as he has often remarked, one is never too old to learn.",
+    "bodyTextZh": "我刚刚收到我母校寄来的一封信，信中告诉我，我的前任校长斯图尔特·佩奇先生将于下周退休。学校的历届学生都会送他一份礼物来纪念这个时刻。所有为这份礼物出过力的人都会在一本大纪念册上签名，这本纪念册将被送到校长家中。我们都会永远铭记佩奇先生——他总是充满耐心与理解，每当我们极不情愿地去上学时，他总会给予我们鼓励与支持。\n许多他的老同学将会参加下周四为他举办的告别晚宴。巧合的是，在佩奇先生退休的前一天，他教书正好满四十年。\n退休后，他将全身心投入到园艺活动中去。对他来说，这将是一个全新的爱好。但这并不重要，因为正如他经常说的那样：人永远都不应该停止学习。"
+  },
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/904a489cfc02211af01b062562ac5f97c4e5a46e97bd152da04aed3f1f18c1f9.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "a98bd85a1be466d080c1925fabd1fc25961f445b649d62c7dde0d2755a48b110"
+    }
+  ]
+}

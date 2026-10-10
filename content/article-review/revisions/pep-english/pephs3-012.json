@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "course": "pep-english",
+  "articleId": "pephs3-012",
+  "beforeDisplaySha256": "114293ffc2845e44e0204641754c5cd1c6566902fbf4d9339cd419ec45e08d28",
+  "afterDisplaySha256": "114293ffc2845e44e0204641754c5cd1c6566902fbf4d9339cd419ec45e08d28",
+  "baselineDisplay": {
+    "title": "The Arrow and the Song (H. W. Longfellow)",
+    "section": "Pronunciation",
+    "text": "I shot an arrow into the air,\nIt fell to earth, I knew not where;\nFor, so swiftly it flew, the sight\nCould not follow it in its flight.\nI breathed a song into the air,\nIt fell to earth, I knew not where;\nFor who has sight so keen and strong,\nThat it can follow the flight of song?\nLong, long afterwards, in an oak\nI found the arrow, still unbroke;\nAnd the song, from beginning to end,\nI found again in the heart of a friend.",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "I shot an arrow into the air,\nIt fell to earth, I knew not where;\nFor, so swiftly it flew, the sight\nCould not follow it in its flight."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "I breathed a song into the air,\nIt fell to earth, I knew not where;\nFor who has sight so keen and strong,\nThat it can follow the flight of song?"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Long, long afterwards, in an oak\nI found the arrow, still unbroke;\nAnd the song, from beginning to end,\nI found again in the heart of a friend."
+      }
+    ]
+  },
+  "display": {
+    "title": "The Arrow and the Song (H. W. Longfellow)",
+    "section": "Pronunciation",
+    "text": "I shot an arrow into the air,\nIt fell to earth, I knew not where;\nFor, so swiftly it flew, the sight\nCould not follow it in its flight.\nI breathed a song into the air,\nIt fell to earth, I knew not where;\nFor who has sight so keen and strong,\nThat it can follow the flight of song?\nLong, long afterwards, in an oak\nI found the arrow, still unbroke;\nAnd the song, from beginning to end,\nI found again in the heart of a friend.",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "I shot an arrow into the air,\nIt fell to earth, I knew not where;\nFor, so swiftly it flew, the sight\nCould not follow it in its flight."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "I breathed a song into the air,\nIt fell to earth, I knew not where;\nFor who has sight so keen and strong,\nThat it can follow the flight of song?"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Long, long afterwards, in an oak\nI found the arrow, still unbroke;\nAnd the song, from beginning to end,\nI found again in the heart of a friend."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "path": "content/article-review/history/74769d4edbfae686a285388ce44f6a5de21f69a4830f330884fec9f7a86a859b.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "a65af8f53633ed57abcd22c78f1993854069717a9239eede35c1d131c7eeafc2"
+    }
+  ],
+  "corrections": [],
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "reviewer": "Codex",
+  "reviewedAt": "2026-10-07T07:35:51+00:00",
+  "notes": "The Arrow and the Song三节各四行，保留诗节及跨行句法如sight/Could和oak/I found。",
+  "issues": [],
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "00a2391bbc0f6fe01b8d9167e20ddf8b7e7119b0276af9ce76aca009cfaa9427",
+    "afterFileSha256": "00a2391bbc0f6fe01b8d9167e20ddf8b7e7119b0276af9ce76aca009cfaa9427",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "00a2391bbc0f6fe01b8d9167e20ddf8b7e7119b0276af9ce76aca009cfaa9427",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..2] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "The Arrow and the Song三节各四行，保留诗节及跨行句法如sight/Could和oak/I found。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/74769d4edbfae686a285388ce44f6a5de21f69a4830f330884fec9f7a86a859b.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "a65af8f53633ed57abcd22c78f1993854069717a9239eede35c1d131c7eeafc2"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "74769d4edbfae686a285388ce44f6a5de21f69a4830f330884fec9f7a86a859b"
+}

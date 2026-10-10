@@ -1,0 +1,349 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "2a99e93bcbb34956d4a621e82ec5422c957cfcc8d8403c3a22c15f5fa4d22f58",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "coverage": "全文 blocks[0..277]；按 JSON 上下文逐项复核对话、解释、题目、表格、词表及修复后的边界。",
+  "notes": "全文复核飞机炸弹虚惊、摘要答案、12道词汇题及语法综合测试20题全部解析。仅恢复正文、题干和解析中句中断行；保留各摘要连接点与选项，包括原有重复选项及文字缺漏。",
+  "issues": [],
+  "mergeBlocks": [
+    {
+      "start": 16,
+      "end": 17,
+      "before": [
+        "My parents used to live in South America and I used to fly there from Europe in the",
+        "holidays."
+      ],
+      "text": "My parents used to live in South America and I used to fly there from Europe in the holidays.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 23,
+      "end": 24,
+      "before": [
+        "After taking off, we were flying low over the city and slowly gaining height, when the",
+        "plane suddenly turned round and flew back to the airport."
+      ],
+      "text": "After taking off, we were flying low over the city and slowly gaining height, when the plane suddenly turned round and flew back to the airport.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 25,
+      "end": 26,
+      "before": [
+        "起飞之后，我们在城市上空低低地飞行，然后慢慢爬高。这时飞机突然调转头",
+        "来，飞回了机场。"
+      ],
+      "text": "起飞之后，我们在城市上空低低地飞行，然后慢慢爬高。这时飞机突然调转头来，飞回了机场。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 27,
+      "end": 28,
+      "before": [
+        "While we were waiting to land, a flight attendant told us to keep calm and to get off",
+        "the plane quietly as soon as it had touched down."
+      ],
+      "text": "While we were waiting to land, a flight attendant told us to keep calm and to get off the plane quietly as soon as it had touched down.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 29,
+      "end": 30,
+      "before": [
+        "在我们等待降落时，一位空中乘务员告诉我们要保持镇静，待飞机一着陆，就",
+        "马上不声不响地离开飞机。"
+      ],
+      "text": "在我们等待降落时，一位空中乘务员告诉我们要保持镇静，待飞机一着陆，就马上不声不响地离开飞机。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 55,
+      "end": 60,
+      "before": [
+        "Answer: The plane took off and flew low over the city. When it was slowly",
+        "gaining height, it suddenly had to return to the airport. Meanwhile the",
+        "passengers were told to keep calm. After they had disembarked, they learnt",
+        "that there was a very important person on board. Someone had told the police",
+        "that a bomb had been planted on the plane, but though it was searched,",
+        "nothing was found. Five hours later, it took off again."
+      ],
+      "text": "Answer: The plane took off and flew low over the city. When it was slowly gaining height, it suddenly had to return to the airport. Meanwhile the passengers were told to keep calm. After they had disembarked, they learnt that there was a very important person on board. Someone had told the police that a bomb had been planted on the plane, but though it was searched, nothing was found. Five hours later, it took off again.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 131,
+      "end": 134,
+      "before": [
+        "1. C.分词的独立主格结构。分词作状语时,其逻辑主语必须和主句的主语一致,否",
+        "则,分词必须有自己的主语,这种带主语的分词被称为分词的独立结构。现在分词",
+        "表示主动,即逻辑主语发出、做出某个动作。该句中follow(接着)是 copper(铜)主",
+        "动的行为,因此用现在分词"
+      ],
+      "text": "1. C.分词的独立主格结构。分词作状语时,其逻辑主语必须和主句的主语一致,否则,分词必须有自己的主语,这种带主语的分词被称为分词的独立结构。现在分词表示主动,即逻辑主语发出、做出某个动作。该句中follow(接着)是 copper(铜)主动的行为,因此用现在分词",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 140,
+      "end": 141,
+      "before": [
+        "2. D.定语从句的用法。介词+关系代词引导定语从句。whom代替先行词 three",
+        "sons"
+      ],
+      "text": "2. D.定语从句的用法。介词+关系代词引导定语从句。whom代替先行词 three sons",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 147,
+      "end": 148,
+      "before": [
+        "3. A。时间状语从句。有些表示时间的名词短语可用来引导时间状语从句,如 the",
+        "moment the minute, the instant等。"
+      ],
+      "text": "3. A。时间状语从句。有些表示时间的名词短语可用来引导时间状语从句,如 the moment the minute, the instant等。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 149,
+      "end": 150,
+      "before": [
+        "4. _________ quite recently, most mothers in Britain did not take paid work outside",
+        "the home."
+      ],
+      "text": "4. _________ quite recently, most mothers in Britain did not take paid work outside the home.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 155,
+      "end": 156,
+      "before": [
+        "4. B.时间状语从句的用法。 not... until..引导的是时间状语从句,为了强调,句中把",
+        "until提前。"
+      ],
+      "text": "4. B.时间状语从句的用法。 not... until..引导的是时间状语从句,为了强调,句中把until提前。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 157,
+      "end": 158,
+      "before": [
+        "5. Living in the western part of the country had its problems, _______ obtaining fresh",
+        "water is not the least."
+      ],
+      "text": "5. Living in the western part of the country had its problems, _______ obtaining fresh water is not the least.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 163,
+      "end": 164,
+      "before": [
+        "5. B.介词十关系代词引导定语从句的用法。 which替先行词 problems用介词of表",
+        "示其中的一部分。"
+      ],
+      "text": "5. B.介词十关系代词引导定语从句的用法。 which替先行词 problems用介词of表示其中的一部分。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 165,
+      "end": 166,
+      "before": [
+        "6. A survey was carried out on the death rate of new-born babies in that region, _____",
+        "were surprising."
+      ],
+      "text": "6. A survey was carried out on the death rate of new-born babies in that region, _____ were surprising.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 171,
+      "end": 172,
+      "before": [
+        "6. D.介词+关系代词引导定语从句的用法。 which代替先行词 survey,“调查的结",
+        "果”用表示所属关系的介词…f表示。"
+      ],
+      "text": "6. D.介词+关系代词引导定语从句的用法。 which代替先行词 survey,“调查的结果”用表示所属关系的介词…f表示。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 173,
+      "end": 174,
+      "before": [
+        "7. Scientists say it may be five or ten years ______it is possible to test this medicine",
+        "on human patients."
+      ],
+      "text": "7. Scientists say it may be five or ten years ______it is possible to test this medicine on human patients.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 191,
+      "end": 192,
+      "before": [
+        "9. A.非谓语动词的用法。事情是被考虑的,所以要用表示被动意义的过去分词形",
+        "式。该结构也可看作一个固定用法。"
+      ],
+      "text": "9. A.非谓语动词的用法。事情是被考虑的,所以要用表示被动意义的过去分词形式。该结构也可看作一个固定用法。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 193,
+      "end": 194,
+      "before": [
+        "10._________, a man who expresses himself effectively is sure to succeed more",
+        "rapidly than man whose command of language is poor."
+      ],
+      "text": "10._________, a man who expresses himself effectively is sure to succeed more rapidly than man whose command of language is poor.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 201,
+      "end": 202,
+      "before": [
+        "11. This programme will examine the writer's books in detail ______ an introduction",
+        "to her life."
+      ],
+      "text": "11. This programme will examine the writer's books in detail ______ an introduction to her life.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 213,
+      "end": 215,
+      "before": [
+        "12. D介词的用法。 beyond为介词,意为“(度)超出…,为…所不能及”。 beyond",
+        "one''s",
+        "dreams意为“做梦都没想到的”。"
+      ],
+      "text": "12. D介词的用法。 beyond为介词,意为“(度)超出…,为…所不能及”。 beyond one''s dreams意为“做梦都没想到的”。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 221,
+      "end": 222,
+      "before": [
+        "13. A.介词的用法。 beyond repair意为“无法修复,无法修补”。译文:在我们的皮肤",
+        "被晒得无法修复之前,我们都不当回事。"
+      ],
+      "text": "13. A.介词的用法。 beyond repair意为“无法修复,无法修补”。译文:在我们的皮肤被晒得无法修复之前,我们都不当回事。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 223,
+      "end": 224,
+      "before": [
+        "14. Anne couldn't concentrate _______ what she was doing while her family were",
+        "watching TV."
+      ],
+      "text": "14. Anne couldn't concentrate _______ what she was doing while her family were watching TV.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 229,
+      "end": 230,
+      "before": [
+        "14. B.动词与介词搭配的用法。 concentrate on为固定搭配,意为“集中(注意力、精",
+        "力等)”"
+      ],
+      "text": "14. B.动词与介词搭配的用法。 concentrate on为固定搭配,意为“集中(注意力、精力等)”",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 237,
+      "end": 238,
+      "before": [
+        "16. When a fire _______ at the National Exhibition in London, at least ten priceless",
+        "painting were completely destroyed."
+      ],
+      "text": "16. When a fire _______ at the National Exhibition in London, at least ten priceless painting were completely destroyed.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 243,
+      "end": 245,
+      "before": [
+        "16. C。 break out在本句中意为“(火灾等)突然发生,爆发”; break off意为“折断(树",
+        "枝等),断掉,拆掉”; break down意为“(机械等)故障,毁坏捣毁;镇压”; break up意为",
+        "“结束,中止;(与人)分手,使破裂”"
+      ],
+      "text": "16. C。 break out在本句中意为“(火灾等)突然发生,爆发”; break off意为“折断(树枝等),断掉,拆掉”; break down意为“(机械等)故障,毁坏捣毁;镇压”; break up意为“结束,中止;(与人)分手,使破裂”",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 246,
+      "end": 247,
+      "before": [
+        "17. A well-written composition ______ good choice of words and clear organization",
+        "among other things."
+      ],
+      "text": "17. A well-written composition ______ good choice of words and clear organization among other things.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 252,
+      "end": 253,
+      "before": [
+        "17. c call for在本句中意为“要求,需要”; call on意为“访问,拜访”; call up意为“打电",
+        "话给(某人);使回忆起”; call off意为“取消,停止做”。"
+      ],
+      "text": "17. c call for在本句中意为“要求,需要”; call on意为“访问,拜访”; call up意为“打电话给(某人);使回忆起”; call off意为“取消,停止做”。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 254,
+      "end": 255,
+      "before": [
+        "18. The sports meet, originally due to be held last Friday, was finally ______ because",
+        "of the bad weather."
+      ],
+      "text": "18. The sports meet, originally due to be held last Friday, was finally ______ because of the bad weather.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 260,
+      "end": 261,
+      "before": [
+        "18. D。 call off在本句中意为“取消”; set off为“出发,动身,启程”; wear off意为“磨",
+        "损,磨平,慢慢消失”; break off意为“折断,断掉,中断”。"
+      ],
+      "text": "18. D。 call off在本句中意为“取消”; set off为“出发,动身,启程”; wear off意为“磨损,磨平,慢慢消失”; break off意为“折断,断掉,中断”。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 267,
+      "end": 268,
+      "before": [
+        "19. C carry on在本句中意为“继续”; carry out意为“实施(计划),履行(义务、约定),",
+        "进行(实验)”; carry off意为“获得(奖赏),夺取”; carry forward意为“使(事业)进展”"
+      ],
+      "text": "19. C carry on在本句中意为“继续”; carry out意为“实施(计划),履行(义务、约定),进行(实验)”; carry off意为“获得(奖赏),夺取”; carry forward意为“使(事业)进展”",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 269,
+      "end": 270,
+      "before": [
+        "20. If you happen to ______ my lost papers while you're looking for your book,",
+        "please let me know at once by telephone."
+      ],
+      "text": "20. If you happen to ______ my lost papers while you're looking for your book, please let me know at once by telephone.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 275,
+      "end": 276,
+      "before": [
+        "20. A。 come across在本句中意为“(偶然)发现”; come up意为“上升,(地位)提升,提",
+        "高”;come to意为“到达;恢复知觉,苏醒”; come over意为“从远处来,顺便来访”"
+      ],
+      "text": "20. A。 come across在本句中意为“(偶然)发现”; come up意为“上升,(地位)提升,提高”;come to意为“到达;恢复知觉,苏醒”; come over意为“从远处来,顺便来访”",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    }
+  ],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/09dd2ab2de7ca20b549ee4be0e27a84e304da9beb1e17ddeb65fd51cc00e1da3.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "b6a10ab7c7610cfcf2076852457817fafd7e0f73bcd49602054fd31deee4cd63"
+    }
+  ]
+}

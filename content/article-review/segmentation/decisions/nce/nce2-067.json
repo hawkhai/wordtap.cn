@@ -1,0 +1,26 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "30c2a636507cbf5b59876a88959b1fd3fd362bd35e6bd692796240bedfb8a961",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title/titleZh、question/questionZh、bodyText全部10行、bodyTextZh全部10行及sentences[0..12]的完整文字；重复正文与字幕文本逐字比对，非正文字幕另读。操作在内存应用并validate_layout_change，修复后的双语全文重新通读。",
+  "notes": "Tazieff火山研究；Kituro冒险逃岩流、两日后返测、冒险贡献三段，生平概述独立。 text与bodyText同步；sentences对象及时间、角色、索引原样保留。",
+  "issues": [],
+  "display": {
+    "text": "Why does Tazieff risk his life like this?\n\nHaroun Tazieff, the Polish scientist, has spent his lifetime studying active volcanoes and deep caves in all parts of the world.\nIn 1948, he went to Lake Kivu in the Congo to observe a new volcano which he later named Kituro. Tazieff was able to set up his camp very close to the volcano while it was erupting violently. Though he managed to take a number of brilliant photographs, he could not stay near the volcano for very long. He noticed that a river of liquid rock was coming towards him. It threatened to surround him completely, but Tazieff managed to escape just in time.\nHe waited until the volcano became quiet and he was able to return two days later. This time, he managed to climb into the mouth of Kituro so that he could take photographs and measure temperatures.\nTazieff has often risked his life in this way. He has been able to tell us more about active volcanoes than any man alive.",
+    "bodyText": "Haroun Tazieff, the Polish scientist, has spent his lifetime studying active volcanoes and deep caves in all parts of the world.\nIn 1948, he went to Lake Kivu in the Congo to observe a new volcano which he later named Kituro. Tazieff was able to set up his camp very close to the volcano while it was erupting violently. Though he managed to take a number of brilliant photographs, he could not stay near the volcano for very long. He noticed that a river of liquid rock was coming towards him. It threatened to surround him completely, but Tazieff managed to escape just in time.\nHe waited until the volcano became quiet and he was able to return two days later. This time, he managed to climb into the mouth of Kituro so that he could take photographs and measure temperatures.\nTazieff has often risked his life in this way. He has been able to tell us more about active volcanoes than any man alive.",
+    "bodyTextZh": "波兰科学家哈鲁恩·塔齐夫（Haroun Tazieff）毕生致力于研究世界各地的活火山和深洞穴。\n1948 年，他前往刚果的基伍湖（Lake Kivu），观察一座新发现的火山，并将其命名为“基图罗”（Kituro）。塔齐夫能够在火山剧烈喷发的时候，将他的营地搭建得离火山非常近。尽管他拍到了许多精彩的照片，但他却无法在火山附近停留太久。他注意到一股熔岩流正朝他涌来。岩流眼看就要将他完全包围，但塔齐夫及时脱险了。\n他一直等到火山平息下来，两天后才得以返回。这一次，他设法爬进了基图罗火山口，以便拍照和测量温度。\n塔齐夫经常以这种方式冒着生命危险。他比在世的任何人都更了解活火山的相关情况，能够向我们提供更多关于活火山的详细信息。"
+  },
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/8fa2703270dafbce7e54597d344b16af5f7b78ef62d404a891b57c7394866c26.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "bef2cab1176c73f5b6cdbdc55996e4a338e343528f2afba0e1c370395411883d"
+    }
+  ]
+}

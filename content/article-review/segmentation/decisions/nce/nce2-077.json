@@ -1,0 +1,26 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "e54ac6bf9e58305ae0e705c24238cc62a8251209134742d7f9f7e629ecf8c448",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title/titleZh、question/questionZh、bodyText全部11行、bodyTextZh全部11行及sentences[0..13]的完整文字；重复正文与字幕文本逐字比对，非正文字幕另读。操作在内存应用并validate_layout_change，修复后的双语全文重新通读。",
+  "notes": "木乃伊手术；身份与探因、困难取样和蜡像、死因未定但手术完好三段。 text与bodyText同步；sentences对象及时间、角色、索引原样保留。",
+  "issues": [],
+  "display": {
+    "text": "Did the doctors find out how the woman died?\n\nThe mummy of an Egyptian woman who died in 800 B.C. has just had an operation. The mummy is that of Shepenmut who was once a singer in the Temple of Thebes. As there were strange marks on the X-ray plates taken of the mummy, doctors have been trying to find out whether the woman died of a rare disease. The only way to do this was to operate.\nThe operation, which lasted for over four hours, proved to be very difficult because of the hard resin which covered the skin. The doctors removed a section of the mummy and sent it to a laboratory. They also found something which the X-ray plates did not show: a small wax figure of the god Duamutef. This god which has the head of a cow was normally placed inside a mummy.\nThe doctors have not yet decided how the woman died. They feared that the mummy would fall to pieces when they cut it open, but fortunately this has not happened. The mummy successfully survived the operation.",
+    "bodyText": "The mummy of an Egyptian woman who died in 800 B.C. has just had an operation. The mummy is that of Shepenmut who was once a singer in the Temple of Thebes. As there were strange marks on the X-ray plates taken of the mummy, doctors have been trying to find out whether the woman died of a rare disease. The only way to do this was to operate.\nThe operation, which lasted for over four hours, proved to be very difficult because of the hard resin which covered the skin. The doctors removed a section of the mummy and sent it to a laboratory. They also found something which the X-ray plates did not show: a small wax figure of the god Duamutef. This god which has the head of a cow was normally placed inside a mummy.\nThe doctors have not yet decided how the woman died. They feared that the mummy would fall to pieces when they cut it open, but fortunately this has not happened. The mummy successfully survived the operation.",
+    "bodyTextZh": "这位埃及女性的木乃伊（她死于公元前 800 年）刚刚接受了一次手术。这具木乃伊属于谢彭穆特（Shepenmut），她曾经是底比斯神庙中的一名歌手。由于在拍摄木乃伊的 X 光片上发现了奇怪的痕迹，医生们一直在试图确定这名女性是否死于一种罕见的疾病。唯一的方法就是进行手术。\n这次手术持续了四个多小时。由于皮肤上覆盖着一层坚硬的树脂，手术被证明非常困难。医生们取下木乃伊的一部分，把它送到了实验室。他们还发现了一些 X 光片未能显示的东西：一个微小的、用蜡制成的杜阿穆特夫神像。这个长着牛头的神像通常被放置在木乃伊的体内。\n医生们尚未确定这名妇女的死因。他们担心在打开木乃伊时，木乃伊会碎成碎片。但幸运的是，这种情况并没有发生。这具木乃伊成功度过了手术。"
+  },
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/81b2c3cc68b218fcbe4bf7fadd38fb9824c50e7fef368f8c435fba72ecc5eac3.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "3e2b70295c9fe02a116b29678bc72583e3c89d248296d280a75f76b0666b787e"
+    }
+  ]
+}

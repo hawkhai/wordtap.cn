@@ -1,0 +1,236 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "9da8c9583200c0e82f007887232fe2ed3b7c27d61bc28b6e0d95df99c9107b3e",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title；全文 blocks[0..169] 与对应 text；现有正文/对话/题干逐块通读复核。",
+  "notes": "通读Mutilated ladies的三组双语正文、词汇和残钞/过去分词注释、21道问答、Jane发现烤坏钱包的写作要求及150词单段范文、全部选择题答案。保留同段叙事和引语，不把完整多句段拆成单句；原文缺失引号、币种符号和选项字样不校改。",
+  "issues": [],
+  "mergeBlocks": [
+    {
+      "start": 14,
+      "end": 20,
+      "before": [
+        "Has it ever happened to you? Have you ever put your trousers in the washing machine",
+        "and then remembered there was a large bank note in your back pocket? When you",
+        "rescued your trousers, did you find the note was whiter than white? People who live in",
+        "Britain needn't despair when they make mistakes like this (and a lot of people do)!",
+        "Fortunately for them, the Bank of England has a team called Mutilated Ladies which",
+        "deals with claims from people who fed their money to a machine or to their dogs.",
+        "Dogs, it seems, love to chew up money!"
+      ],
+      "text": "Has it ever happened to you? Have you ever put your trousers in the washing machine and then remembered there was a large bank note in your back pocket? When you rescued your trousers, did you find the note was whiter than white? People who live in Britain needn't despair when they make mistakes like this (and a lot of people do)! Fortunately for them, the Bank of England has a team called Mutilated Ladies which deals with claims from people who fed their money to a machine or to their dogs. Dogs, it seems, love to chew up money!",
+      "reason": "残钞鉴定正文和对应译文、语法注释、问答及单段写作范文的连续机械断行可确定接续，恢复完整段落。"
+    },
+    {
+      "start": 21,
+      "end": 26,
+      "before": [
+        "这种事情在你身上出现过吗？你有没有把裤子塞进洗衣机，然后又想起在裤子的",
+        "后兜有一张大面值的纸币？当你把裤子抢救出来时，你有没有发现那张纸币已经",
+        "变得比白纸还白？当英国人犯这种错误时，他们不必感到绝望（而许多国家的人",
+        "都有这种绝望的感觉）。对英国人来说，值得庆幸的是英国银行有一个残钞鉴别",
+        "组，负责处理那些把钱塞进机器或塞给狗的人提出的索赔要求。看起来，狗很喜",
+        "欢咀嚼钱币。"
+      ],
+      "text": "这种事情在你身上出现过吗？你有没有把裤子塞进洗衣机，然后又想起在裤子的后兜有一张大面值的纸币？当你把裤子抢救出来时，你有没有发现那张纸币已经变得比白纸还白？当英国人犯这种错误时，他们不必感到绝望（而许多国家的人都有这种绝望的感觉）。对英国人来说，值得庆幸的是英国银行有一个残钞鉴别组，负责处理那些把钱塞进机器或塞给狗的人提出的索赔要求。看起来，狗很喜欢咀嚼钱币。",
+      "reason": "残钞鉴定正文和对应译文、语法注释、问答及单段写作范文的连续机械断行可确定接续，恢复完整段落。"
+    },
+    {
+      "start": 28,
+      "end": 29,
+      "before": [
+        "1 Mutilated ladies ，这是英国银行专门负责识别和鉴定残缺或被毁纸币的小组，",
+        "其中的 lady 是指英国纸币上印的女王头像。"
+      ],
+      "text": "1 Mutilated ladies ，这是英国银行专门负责识别和鉴定残缺或被毁纸币的小组，其中的 lady 是指英国纸币上印的女王头像。",
+      "reason": "残钞鉴定正文和对应译文、语法注释、问答及单段写作范文的连续机械断行可确定接续，恢复完整段落。"
+    },
+    {
+      "start": 31,
+      "end": 32,
+      "before": [
+        "3 whiter than white，这是英国有关洗衣粉的电视广告中常用的一句话。这里的意",
+        "思是纸币上的字迹、图案均被洗掉了，可以译为“比白纸还白”。"
+      ],
+      "text": "3 whiter than white，这是英国有关洗衣粉的电视广告中常用的一句话。这里的意思是纸币上的字迹、图案均被洗掉了，可以译为“比白纸还白”。",
+      "reason": "残钞鉴定正文和对应译文、语法注释、问答及单段写作范文的连续机械断行可确定接续，恢复完整段落。"
+    },
+    {
+      "start": 33,
+      "end": 37,
+      "before": [
+        "A recent case concerns Jane Butlin whose fiancé, John, runs a successful furniture",
+        "business. John had a very good day and put his wallet containing ￡ 3, 000 into the",
+        "microwave oven for safekeeping. Then he and Jane went horse-riding. When they got",
+        "home, Jane cooked their dinner in the microwave oven and without realizing it,",
+        "cooked her fiancé's wallet as well."
+      ],
+      "text": "A recent case concerns Jane Butlin whose fiancé, John, runs a successful furniture business. John had a very good day and put his wallet containing ￡ 3, 000 into the microwave oven for safekeeping. Then he and Jane went horse-riding. When they got home, Jane cooked their dinner in the microwave oven and without realizing it, cooked her fiancé's wallet as well.",
+      "reason": "残钞鉴定正文和对应译文、语法注释、问答及单段写作范文的连续机械断行可确定接续，恢复完整段落。"
+    },
+    {
+      "start": 38,
+      "end": 41,
+      "before": [
+        "最近的一个案例与简 ·巴特林有关，她的未婚夫约翰拥有一家生意兴隆的家具店。",
+        "有一天约翰的生意很好，他把一只装有 3000 英镑的钱包放进微波炉内保存。然",
+        "后，他和简一起去骑马。回家后，简用微波炉煮了晚饭，无意之中把她未婚夫的",
+        "钱包也一起煮了。"
+      ],
+      "text": "最近的一个案例与简 ·巴特林有关，她的未婚夫约翰拥有一家生意兴隆的家具店。有一天约翰的生意很好，他把一只装有 3000 英镑的钱包放进微波炉内保存。然后，他和简一起去骑马。回家后，简用微波炉煮了晚饭，无意之中把她未婚夫的钱包也一起煮了。",
+      "reason": "残钞鉴定正文和对应译文、语法注释、问答及单段写作范文的连续机械断行可确定接续，恢复完整段落。"
+    },
+    {
+      "start": 42,
+      "end": 47,
+      "before": [
+        "Imagine their dismay when they found a beautifully-cooked wallet and notes turned to",
+        "ash! John went to see his bank manager who sent the remains of wallet and the money",
+        "to the special department of the Bank of England in Newcastle: the Mutilated Ladies!",
+        "They examined the remains and John got all his money back. ‘So long as there's",
+        "something to identify, we will give people their money back,’said a spokeswoman for",
+        "the Bank. ‘Last year, we paid ￡ 1. 5m on 21, 000 claims."
+      ],
+      "text": "Imagine their dismay when they found a beautifully-cooked wallet and notes turned to ash! John went to see his bank manager who sent the remains of wallet and the money to the special department of the Bank of England in Newcastle: the Mutilated Ladies! They examined the remains and John got all his money back. ‘So long as there's something to identify, we will give people their money back,’said a spokeswoman for the Bank. ‘Last year, we paid ￡ 1. 5m on 21, 000 claims.",
+      "reason": "残钞鉴定正文和对应译文、语法注释、问答及单段写作范文的连续机械断行可确定接续，恢复完整段落。"
+    },
+    {
+      "start": 48,
+      "end": 52,
+      "before": [
+        "可以想像他们发现一只煮得很好看的钱包、钞票已化成灰时的沮丧心情。约翰去",
+        "找银行经理，经理把约翰的钱包和纸币的残留物送到英国银行在纽卡斯尔的一个",
+        "专门部门——残钞鉴别组。他们鉴定了这些残留物。约翰拿回了他损失的全部数",
+        "额。“只要有东西可供识别，我们会把钱还给人家的，”银行的一位女发言人说。",
+        "“去年，我们对 21000 起索赔要求支付了 150 万英镑。”"
+      ],
+      "text": "可以想像他们发现一只煮得很好看的钱包、钞票已化成灰时的沮丧心情。约翰去找银行经理，经理把约翰的钱包和纸币的残留物送到英国银行在纽卡斯尔的一个专门部门——残钞鉴别组。他们鉴定了这些残留物。约翰拿回了他损失的全部数额。“只要有东西可供识别，我们会把钱还给人家的，”银行的一位女发言人说。“去年，我们对 21000 起索赔要求支付了 150 万英镑。”",
+      "reason": "残钞鉴定正文和对应译文、语法注释、问答及单段写作范文的连续机械断行可确定接续，恢复完整段落。"
+    },
+    {
+      "start": 54,
+      "end": 57,
+      "before": [
+        "4 they found a beautifully-cooked wallet and notes turned to ash，他们发现一只煮得",
+        "很好看的钱包，钞票已烧成了灰。后半句 they found… notes turned to ash 中过去",
+        "分词短语 turned to ash 作宾语 notes 的补足语，这后半句话可以看成 they",
+        "found… that notes had been turned to ash。"
+      ],
+      "text": "4 they found a beautifully-cooked wallet and notes turned to ash，他们发现一只煮得很好看的钱包，钞票已烧成了灰。后半句 they found… notes turned to ash 中过去分词短语 turned to ash 作宾语 notes 的补足语，这后半句话可以看成 they found… that notes had been turned to ash。",
+      "reason": "残钞鉴定正文和对应译文、语法注释、问答及单段写作范文的连续机械断行可确定接续，恢复完整段落。"
+    },
+    {
+      "start": 69,
+      "end": 70,
+      "before": [
+        "9 What did John do with his wallet containing E3,000? (He put it in the microwave",
+        "oven for safekeeping.)"
+      ],
+      "text": "9 What did John do with his wallet containing E3,000? (He put it in the microwave oven for safekeeping.)",
+      "reason": "残钞鉴定正文和对应译文、语法注释、问答及单段写作范文的连续机械断行可确定接续，恢复完整段落。"
+    },
+    {
+      "start": 72,
+      "end": 73,
+      "before": [
+        "11 What did John and Jane do after John came home from work? (They went",
+        "horse-riding.)"
+      ],
+      "text": "11 What did John and Jane do after John came home from work? (They went horse-riding.)",
+      "reason": "残钞鉴定正文和对应译文、语法注释、问答及单段写作范文的连续机械断行可确定接续，恢复完整段落。"
+    },
+    {
+      "start": 74,
+      "end": 75,
+      "before": [
+        "12 What did Jane do when they returned home? (She cooked their dinner in the",
+        "microwave oven.)"
+      ],
+      "text": "12 What did Jane do when they returned home? (She cooked their dinner in the microwave oven.)",
+      "reason": "残钞鉴定正文和对应译文、语法注释、问答及单段写作范文的连续机械断行可确定接续，恢复完整段落。"
+    },
+    {
+      "start": 80,
+      "end": 81,
+      "before": [
+        "17 What did the bank manager do? (He sent the remains to the Mutilated Ladies",
+        "department in Newcastle.)"
+      ],
+      "text": "17 What did the bank manager do? (He sent the remains to the Mutilated Ladies department in Newcastle.)",
+      "reason": "残钞鉴定正文和对应译文、语法注释、问答及单段写作范文的连续机械断行可确定接续，恢复完整段落。"
+    },
+    {
+      "start": 83,
+      "end": 84,
+      "before": [
+        "19 Why did the Mutilated Ladies pay the money back? (Because they could identify",
+        "the notes)"
+      ],
+      "text": "19 Why did the Mutilated Ladies pay the money back? (Because they could identify the notes)",
+      "reason": "残钞鉴定正文和对应译文、语法注释、问答及单段写作范文的连续机械断行可确定接续，恢复完整段落。"
+    },
+    {
+      "start": 85,
+      "end": 86,
+      "before": [
+        "20 They don't pay out money unless they can identify damaged notes, do they? (No,",
+        "they don't.)"
+      ],
+      "text": "20 They don't pay out money unless they can identify damaged notes, do they? (No, they don't.)",
+      "reason": "残钞鉴定正文和对应译文、语法注释、问答及单段写作范文的连续机械断行可确定接续，恢复完整段落。"
+    },
+    {
+      "start": 90,
+      "end": 91,
+      "before": [
+        "Describe what happened when Jane got the dinner out of the microwave.",
+        "Expand the following into a paragraph of about 150 words."
+      ],
+      "text": "Describe what happened when Jane got the dinner out of the microwave. Expand the following into a paragraph of about 150 words.",
+      "reason": "残钞鉴定正文和对应译文、语法注释、问答及单段写作范文的连续机械断行可确定接续，恢复完整段落。"
+    },
+    {
+      "start": 92,
+      "end": 95,
+      "before": [
+        "Jane opened the oven door and saw that her meal was... She took the food out of the",
+        "oven and... They both rushed to the oven and... At first, they didn't know what …",
+        "John wanted to … but Jane wouldn't... ‘It's best not to...,’ Jane said. ‘You can see that",
+        "all the money …’ Jane told John to…, so the next day…"
+      ],
+      "text": "Jane opened the oven door and saw that her meal was... She took the food out of the oven and... They both rushed to the oven and... At first, they didn't know what … John wanted to … but Jane wouldn't... ‘It's best not to...,’ Jane said. ‘You can see that all the money …’ Jane told John to…, so the next day…",
+      "reason": "残钞鉴定正文和对应译文、语法注释、问答及单段写作范文的连续机械断行可确定接续，恢复完整段落。"
+    },
+    {
+      "start": 98,
+      "end": 107,
+      "before": [
+        "Jane opened the oven door and saw that her meal was ready to serve. She took the",
+        "food out of the oven and in doing so, noticed something strange inside the oven which",
+        "she couldn't recognize. So she went to find John and told him about it. In dismay,",
+        "John quickly explained that he had put his wallet containing the day's takings into the",
+        "oven for safekeeping. They both rushed to the oven and saw that the money had been",
+        "destroyed. At first, they didn't know what to do. John wanted to throw the money",
+        "away, but Jane wouldn't let him. ‘It's best not to disturb the wallet,’ Jane said. ‘You",
+        "can see all the money is there, even if it has been destroyed.’Jane told John to go and",
+        "see his bank manager for advice, so the next day John took the wallet and the ashes to",
+        "the bank. (150 words)"
+      ],
+      "text": "Jane opened the oven door and saw that her meal was ready to serve. She took the food out of the oven and in doing so, noticed something strange inside the oven which she couldn't recognize. So she went to find John and told him about it. In dismay, John quickly explained that he had put his wallet containing the day's takings into the oven for safekeeping. They both rushed to the oven and saw that the money had been destroyed. At first, they didn't know what to do. John wanted to throw the money away, but Jane wouldn't let him. ‘It's best not to disturb the wallet,’ Jane said. ‘You can see all the money is there, even if it has been destroyed.’Jane told John to go and see his bank manager for advice, so the next day John took the wallet and the ashes to the bank. (150 words)",
+      "reason": "残钞鉴定正文和对应译文、语法注释、问答及单段写作范文的连续机械断行可确定接续，恢复完整段落。"
+    }
+  ],
+  "splitBlocks": [],
+  "blockEdits": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/85e36dc892ba94b6bd23ef4a8dfa706f5585183f830f64172021dff0cab2b7a0.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "bd879d67a2c07882206b6b069be2b47cb8c783058b28dd6d9e0c8901685e61ef"
+    }
+  ]
+}

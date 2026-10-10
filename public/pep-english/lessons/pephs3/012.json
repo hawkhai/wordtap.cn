@@ -7,12 +7,22 @@
   "section": "Pronunciation",
   "title": "The Arrow and the Song (H. W. Longfellow)",
   "jsonPath": "pep-english/lessons/pephs3/012.json",
-  "text": "I shot an arrow into the air, It fell to earth, I knew not where;\nFor, so swiftly it flew, the sight Could not follow it in its flight.\nI breathed a song into the air, It fell to earth, I knew not where;\nFor who has sight so keen and strong, That it can follow the flight of song?\nLong, long afterwards, in an oak I found the arrow, still unbroke;\nAnd the song, from beginning to end, I found again in the heart of a friend.",
+  "text": "I shot an arrow into the air,\nIt fell to earth, I knew not where;\nFor, so swiftly it flew, the sight\nCould not follow it in its flight.\nI breathed a song into the air,\nIt fell to earth, I knew not where;\nFor who has sight so keen and strong,\nThat it can follow the flight of song?\nLong, long afterwards, in an oak\nI found the arrow, still unbroke;\nAnd the song, from beginning to end,\nI found again in the heart of a friend.",
   "blocks": [
     {
       "type": "paragraph",
       "lang": "en",
-      "text": "I shot an arrow into the air, It fell to earth, I knew not where;\nFor, so swiftly it flew, the sight Could not follow it in its flight.\nI breathed a song into the air, It fell to earth, I knew not where;\nFor who has sight so keen and strong, That it can follow the flight of song?\nLong, long afterwards, in an oak I found the arrow, still unbroke;\nAnd the song, from beginning to end, I found again in the heart of a friend."
+      "text": "I shot an arrow into the air,\nIt fell to earth, I knew not where;\nFor, so swiftly it flew, the sight\nCould not follow it in its flight."
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "I breathed a song into the air,\nIt fell to earth, I knew not where;\nFor who has sight so keen and strong,\nThat it can follow the flight of song?"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Long, long afterwards, in an oak\nI found the arrow, still unbroke;\nAnd the song, from beginning to end,\nI found again in the heart of a friend."
     }
   ],
   "source": {

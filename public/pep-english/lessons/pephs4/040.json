@@ -7,7 +7,7 @@
   "section": "Reading and Writing",
   "title": "The World’s Most Useful Gifts",
   "jsonPath": "pep-english/lessons/pephs4/040.json",
-  "text": "Are you looking for a special gift for a special person? Then this is the site for you. The gift you choose here is not something for a loved one to keep but a voluntary contribution in his or her name to people who really need it.\nFirst, choose a truly useful gift for some of the world’s poorest, giving hope for a better future to a community in need. Then, when you purchase the item, we will send you an attractive card for you to send to that loved one. You can use the cards for any special occasion: weddings, births, anniversaries, Christmas, etc.\nGIFTS — COST (AUD)\n20 tree seedlings — $5 A loan to set up a women’s self-help group — $8 3 months’ water supply for one person — $10 Training in vegetable farming — $15 Child vaccinations against 6 killer diseases — $20 School books — $20 Basic adult education — $25 Basic health-care services — $30 One year of primary schooling — $35 A goat — $40 A supply toilet — $50 3 months’ water supply for a family — $65 A loan to set up a small business — $85 A sewing machine — $100 Nutritional supplements for a family — $130 Oxen for ploughing — $180 A set of books on health and medical care — $200 Assistance for families headed by children — $300 A community primary school — $500 A village tractor — $1,000 A well and water pump — $1,350",
+  "text": "Are you looking for a special gift for a special person? Then this is the site for you. The gift you choose here is not something for a loved one to keep but a voluntary contribution in his or her name to people who really need it.\nFirst, choose a truly useful gift for some of the world’s poorest, giving hope for a better future to a community in need. Then, when you purchase the item, we will send you an attractive card for you to send to that loved one. You can use the cards for any special occasion: weddings, births, anniversaries, Christmas, etc.\nGIFTS — COST (AUD)\n20 tree seedlings — $5\nA loan to set up a women’s self-help group — $8\n3 months’ water supply for one person — $10\nTraining in vegetable farming — $15\nChild vaccinations against 6 killer diseases — $20\nSchool books — $20\nBasic adult education — $25\nBasic health-care services — $30\nOne year of primary schooling — $35\nA goat — $40\nA supply toilet — $50\n3 months’ water supply for a family — $65\nA loan to set up a small business — $85\nA sewing machine — $100\nNutritional supplements for a family — $130\nOxen for ploughing — $180\nA set of books on health and medical care — $200\nAssistance for families headed by children — $300\nA community primary school — $500\nA village tractor — $1,000\nA well and water pump — $1,350",
   "blocks": [
     {
       "type": "paragraph",
@@ -20,9 +20,114 @@
       "text": "First, choose a truly useful gift for some of the world’s poorest, giving hope for a better future to a community in need. Then, when you purchase the item, we will send you an attractive card for you to send to that loved one. You can use the cards for any special occasion: weddings, births, anniversaries, Christmas, etc."
     },
     {
+      "type": "subheading",
+      "lang": "en",
+      "text": "GIFTS — COST (AUD)"
+    },
+    {
       "type": "paragraph",
       "lang": "en",
-      "text": "GIFTS — COST (AUD)\n20 tree seedlings — $5 A loan to set up a women’s self-help group — $8 3 months’ water supply for one person — $10 Training in vegetable farming — $15 Child vaccinations against 6 killer diseases — $20 School books — $20 Basic adult education — $25 Basic health-care services — $30 One year of primary schooling — $35 A goat — $40 A supply toilet — $50 3 months’ water supply for a family — $65 A loan to set up a small business — $85 A sewing machine — $100 Nutritional supplements for a family — $130 Oxen for ploughing — $180 A set of books on health and medical care — $200 Assistance for families headed by children — $300 A community primary school — $500 A village tractor — $1,000 A well and water pump — $1,350"
+      "text": "20 tree seedlings — $5"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "A loan to set up a women’s self-help group — $8"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "3 months’ water supply for one person — $10"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Training in vegetable farming — $15"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Child vaccinations against 6 killer diseases — $20"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "School books — $20"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Basic adult education — $25"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Basic health-care services — $30"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "One year of primary schooling — $35"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "A goat — $40"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "A supply toilet — $50"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "3 months’ water supply for a family — $65"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "A loan to set up a small business — $85"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "A sewing machine — $100"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Nutritional supplements for a family — $130"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Oxen for ploughing — $180"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "A set of books on health and medical care — $200"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "Assistance for families headed by children — $300"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "A community primary school — $500"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "A village tractor — $1,000"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "A well and water pump — $1,350"
     }
   ],
   "source": {

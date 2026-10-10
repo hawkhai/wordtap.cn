@@ -1,0 +1,21 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "a9096eae584f2a19914a34b35f1c0899aa7f224deaf61158049536f7a6246296",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title；全文 blocks[0..5] 与对应 text；现有正文/对话/题干逐块通读复核。",
+  "notes": "世界遗产六段分别为计划概况、泰姬陵建造、爱情背景、明清陵总介、文化特点及总结，边界完整。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/c2408f46f391fc065b1036d682f4f0ad158053bc9532d4f5ac65dc67ca73b931.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "70fcced3b814cdd4f94e09768cd08f1e6dad5bf5224996e0d7511140375f31c3"
+    }
+  ]
+}

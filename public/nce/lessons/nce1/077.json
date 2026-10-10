@@ -12,16 +12,16 @@
   "titleZh": "牙痛太厉害了！",
   "question": "What time of day is it, do you think? How do you know?",
   "questionZh": "你觉得现在是什么时间？你是怎么知道的？",
-  "text": "What time of day is it, do you think? How do you know?\n\nGood morning, Mr. Croft.\nGood morning, nurse.\nI want to see the dentist, please.\nDo you have an appointment?\nNo, I don't.\nIs it urgent?\nYes, it is.\nIt's very urgent.\nI feel awful.\nI have a terrible toothache.\nCan you come at 10 a.m. on Monday, April 24th?\nI must see the dentist now, nurse.\nThe dentist is very busy at the moment.\nCan you come at 2 p.m.?\nThat's very late.\nCan the dentist see me now?\nI'm afraid that he can't, Mr. Croft.\nCan't you wait till this afternoon?\nI can wait, but my toothache can't!",
-  "bodyText": "Good morning, Mr. Croft.\nGood morning, nurse.\nI want to see the dentist, please.\nDo you have an appointment?\nNo, I don't.\nIs it urgent?\nYes, it is.\nIt's very urgent.\nI feel awful.\nI have a terrible toothache.\nCan you come at 10 a.m. on Monday, April 24th?\nI must see the dentist now, nurse.\nThe dentist is very busy at the moment.\nCan you come at 2 p.m. ?\nThat's very late.\nCan the dentist see me now?\nI'm afraid that he can't, Mr. Croft.\nCan't you wait till this afternoon?\nI can wait, but my toothache can't!",
-  "bodyTextZh": "早上好，克罗夫特先生。\n早上好，护士。\n我想去看牙医，请。\n您有预约吗？\n不，我没有。\n这很紧急吗？\n是的，很紧急。\n这件事非常紧急。\n我感觉糟透了。\n我牙疼得非常厉害。\n你能于4月24日星期一上午10点来吗？\n我现在必须去看牙医了，护士。\n牙医现在非常忙。\n你能下午2点来吗？\n那已经太晚了。\n牙医现在可以见我了吗？\n恐怕他不行，克罗夫特先生。\n你就不能等到今天下午吗？\n我可以等待，但我的牙痛却无法忍受！",
+  "text": "What time of day is it, do you think? How do you know?\n\nGood morning, Mr. Croft.\nGood morning, nurse. I want to see the dentist, please.\nDo you have an appointment?\nNo, I don't.\nIs it urgent?\nYes, it is. It's very urgent. I feel awful. I have a terrible toothache.\nCan you come at 10 a.m. on Monday, April 24th?\nI must see the dentist now, nurse.\nThe dentist is very busy at the moment. Can you come at 2 p.m.?\nThat's very late. Can the dentist see me now?\nI'm afraid that he can't, Mr. Croft. Can't you wait till this afternoon?\nI can wait, but my toothache can't!",
+  "bodyText": "Good morning, Mr. Croft.\nGood morning, nurse. I want to see the dentist, please.\nDo you have an appointment?\nNo, I don't.\nIs it urgent?\nYes, it is. It's very urgent. I feel awful. I have a terrible toothache.\nCan you come at 10 a.m. on Monday, April 24th?\nI must see the dentist now, nurse.\nThe dentist is very busy at the moment. Can you come at 2 p.m.?\nThat's very late. Can the dentist see me now?\nI'm afraid that he can't, Mr. Croft. Can't you wait till this afternoon?\nI can wait, but my toothache can't!",
+  "bodyTextZh": "早上好，克罗夫特先生。\n早上好，护士。我想去看牙医，请。\n您有预约吗？\n不，我没有。\n这很紧急吗？\n是的，很紧急。这件事非常紧急。我感觉糟透了。我牙疼得非常厉害。\n你能于 4 月 24 日星期一上午 10 点来吗？\n我现在必须去看牙医了，护士。\n牙医现在非常忙。你能下午 2 点来吗？\n那已经太晚了。牙医现在可以见我了吗？\n恐怕他不行，克罗夫特先生。你就不能等到今天下午吗？\n我可以等待，但我的牙痛却无法忍受！",
   "sentences": [
     {
       "index": 0,
       "startTime": 0.56,
       "endTime": 3.02,
       "en": "Lesson 77",
-      "zh": "第77课",
+      "zh": "第 77 课",
       "role": "lesson"
     },
     {
@@ -133,7 +133,7 @@
       "startTime": 50.9,
       "endTime": 57.5,
       "en": "Can you come at 10 a.m. on Monday, April 24th?",
-      "zh": "你能于4月24日星期一上午10点来吗？",
+      "zh": "你能于 4 月 24 日星期一上午 10 点来吗？",
       "role": "body"
     },
     {
@@ -156,8 +156,8 @@
       "index": 17,
       "startTime": 67.34,
       "endTime": 71.24,
-      "en": "Can you come at 2 p.m. ?",
-      "zh": "你能下午2点来吗？",
+      "en": "Can you come at 2 p.m.?",
+      "zh": "你能下午 2 点来吗？",
       "role": "body"
     },
     {

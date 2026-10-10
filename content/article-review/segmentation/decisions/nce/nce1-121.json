@@ -1,0 +1,26 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "5126ea7473eaf2171d54167c29c9a0a9ce85df4fdb31ce47de2588f6ad332c8e",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title/titleZh、question/questionZh、bodyText全部16行、bodyTextZh全部16行及sentences[0..19]的完整文字；重复正文与字幕文本逐字比对，非正文字幕另读。操作在内存应用并validate_layout_change，修复后的双语全文重新通读。",
+  "notes": "戴帽子的顾客认领词典；店员转述、Caroline回忆帽子、最后认出顾客各自合轮，试戴帽子前后问答保留。 text与bodyText同步；sentences对象及时间、角色、索引原样保留。",
+  "issues": [],
+  "display": {
+    "text": "Why didn't Caroline recognize the customer straight away?\n\nI bought two expensive dictionaries here half an hour ago, but I forgot to take them with me.\nWho served you, sir?\nThe lady who is standing behind the counter.\nWhich books did you buy?\nThe books which are on the counter.\nDid you serve this gentleman half an hour ago, Caroline? He says he's the man who bought these books.\nI can't remember. The man who I served was wearing a hat.\nHave you got a hat, sir?\nYes, I have.\nWould you put it on, please?\nAll right.\nIs this the man that you served, Caroline?\nYes. I recognize him now.",
+    "bodyText": "I bought two expensive dictionaries here half an hour ago, but I forgot to take them with me.\nWho served you, sir?\nThe lady who is standing behind the counter.\nWhich books did you buy?\nThe books which are on the counter.\nDid you serve this gentleman half an hour ago, Caroline? He says he's the man who bought these books.\nI can't remember. The man who I served was wearing a hat.\nHave you got a hat, sir?\nYes, I have.\nWould you put it on, please?\nAll right.\nIs this the man that you served, Caroline?\nYes. I recognize him now.",
+    "bodyTextZh": "半小时前我在这里买了两本昂贵的词典，但忘记带走了。\n先生，是谁接待您的？\n是站在柜台后面的那位女士。\n您买了哪些书？\n就是放在柜台上的那些书。\n卡罗琳，半小时前你接待过这位先生吗？他说他就是买这些书的人。\n我记不起来了。我接待过的那位男士戴着帽子。\n先生，您有帽子吗？\n是的，我有。\n请您戴上它好吗？\n好的。\n卡罗琳，这就是你接待过的那位男士吗？\n是的。我现在认出他来了。"
+  },
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/4eba55997f091857936b04b5f920a4fcd241579f1a4e9834431d390a58cdfce6.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "a3e6b0d46af0dce3230447fe5d85cbbc4d0a1979bb31b0b8189a9c0d26ea3b1c"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "bea0733839ae0416ca44e145f3b2131e0d5923324e1768371507a4b2a3b00ea2",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title；全文 blocks[0..2] 与对应 text；现有正文/对话/题干逐块通读复核。",
+  "notes": "小镇怪声三段为Victor及家人、Helen等邻居、整体不安，各猜测引语归属保持。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "blockEdits": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/402da93c99adcce6fa0225dc5a78b7c4d8e696e5765f995309997f9edafa7487.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "9f80cf037208ec18aa1dc843a961e55cb037875760cc306493a51e9fa80a847e"
+    }
+  ]
+}

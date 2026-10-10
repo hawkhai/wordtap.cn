@@ -1,0 +1,85 @@
+{
+  "schemaVersion": 1,
+  "course": "pep-english",
+  "articleId": "pepj7b-011",
+  "beforeDisplaySha256": "02e428af84e0e9faa50edfdbf6d7d869f0056fb1f9e45c4fab78335f11bd2119",
+  "afterDisplaySha256": "02e428af84e0e9faa50edfdbf6d7d869f0056fb1f9e45c4fab78335f11bd2119",
+  "baselineDisplay": {
+    "title": "An Interesting Job",
+    "section": "Section B",
+    "text": "Joe Brown has a very interesting job. He is a police artist. Some people see crimes and then talk to Joe. They tell him what the criminal looks like. Then Joe draws a picture of the criminal, and the police put it in newspapers and on television to find him.\nHe wants to draw a good picture of each criminal, but this job is sometimes difficult. Many people don't always see things the same way so they may describe the same person differently. Also, they don't always remember well. \"The criminal is of medium height and young. He has long straight brown hair and big eyes,\" says one woman. Another woman says, \"He is tall and thin, and he has curly blond hair. He's about thirty years old.\" In the end, the real criminal is a short and heavy old man, and he has short black hair!",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Joe Brown has a very interesting job. He is a police artist. Some people see crimes and then talk to Joe. They tell him what the criminal looks like. Then Joe draws a picture of the criminal, and the police put it in newspapers and on television to find him."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "He wants to draw a good picture of each criminal, but this job is sometimes difficult. Many people don't always see things the same way so they may describe the same person differently. Also, they don't always remember well. \"The criminal is of medium height and young. He has long straight brown hair and big eyes,\" says one woman. Another woman says, \"He is tall and thin, and he has curly blond hair. He's about thirty years old.\" In the end, the real criminal is a short and heavy old man, and he has short black hair!"
+      }
+    ]
+  },
+  "display": {
+    "title": "An Interesting Job",
+    "section": "Section B",
+    "text": "Joe Brown has a very interesting job. He is a police artist. Some people see crimes and then talk to Joe. They tell him what the criminal looks like. Then Joe draws a picture of the criminal, and the police put it in newspapers and on television to find him.\nHe wants to draw a good picture of each criminal, but this job is sometimes difficult. Many people don't always see things the same way so they may describe the same person differently. Also, they don't always remember well. \"The criminal is of medium height and young. He has long straight brown hair and big eyes,\" says one woman. Another woman says, \"He is tall and thin, and he has curly blond hair. He's about thirty years old.\" In the end, the real criminal is a short and heavy old man, and he has short black hair!",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Joe Brown has a very interesting job. He is a police artist. Some people see crimes and then talk to Joe. They tell him what the criminal looks like. Then Joe draws a picture of the criminal, and the police put it in newspapers and on television to find him."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "He wants to draw a good picture of each criminal, but this job is sometimes difficult. Many people don't always see things the same way so they may describe the same person differently. Also, they don't always remember well. \"The criminal is of medium height and young. He has long straight brown hair and big eyes,\" says one woman. Another woman says, \"He is tall and thin, and he has curly blond hair. He's about thirty years old.\" In the end, the real criminal is a short and heavy old man, and he has short black hair!"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "path": "content/article-review/history/f2550d61578c02cfd42c76b6a42fa4fb6b9f68875bc652a06dde3328decbc333.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "5c094e7291d76348e3016a55285085e8b6dac382b26b1e56b26b5f6e5bcfae88"
+    }
+  ],
+  "corrections": [],
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "reviewer": "Codex",
+  "reviewedAt": "2026-10-07T07:39:47+00:00",
+  "notes": "警察画像师两段分别职业流程和证人描述差异，案例引语与结尾真实外貌保持同段。",
+  "issues": [],
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "992f8b8760869f39f927324005ee01662f38811472135d858e8b25222a30f2a7",
+    "afterFileSha256": "992f8b8760869f39f927324005ee01662f38811472135d858e8b25222a30f2a7",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "992f8b8760869f39f927324005ee01662f38811472135d858e8b25222a30f2a7",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..1] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "警察画像师两段分别职业流程和证人描述差异，案例引语与结尾真实外貌保持同段。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "blockEdits": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/f2550d61578c02cfd42c76b6a42fa4fb6b9f68875bc652a06dde3328decbc333.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "5c094e7291d76348e3016a55285085e8b6dac382b26b1e56b26b5f6e5bcfae88"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "f2550d61578c02cfd42c76b6a42fa4fb6b9f68875bc652a06dde3328decbc333"
+}

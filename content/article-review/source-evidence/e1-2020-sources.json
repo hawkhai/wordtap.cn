@@ -1,0 +1,163 @@
+{
+  "article": "e1-2020",
+  "rawRead": {
+    "blocks": 13,
+    "pdfPhysicalPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "allPageImagesRead": true,
+    "pdfSha256": "2c17211a587ef4f30ba6fa9cb04be834bc3c749e18f21eb74a6dd1fa97609b52"
+  },
+  "sources": [
+    {
+      "url": "https://english-exam.lazynote.cn/kaoyan/articles/2020-english-one/section1/",
+      "readScope": "读取题源索引和题文片段，定位Telegraph 2017-01-23 Hands Off Our Roast Potatoes，未取得原报全文，不以辅导站作为医学依据。"
+    },
+    {
+      "url": "https://www.efsa.europa.eu/en/press/news/150604",
+      "readScope": "2015-06-04风险说明正文全文读取。动物致癌与遗传毒性证据；人体膳食暴露与癌症关联证据有限且不确定。其余神经/发育/生殖影响在当时膳食暴露水平并非同样的风险结论。"
+    },
+    {
+      "url": "https://www.gov.uk/government/publications/acrylamide/acrylamide",
+      "readScope": "正文全文读取。金黄色或更浅、遵循包装烹饪要求；网页包含后续冰箱储存更新，不将整页误称2017原始宣传。本文仅使用稳定的风险解释与烹调建议。"
+    },
+    {
+      "url": "https://www.theguardian.com/commentisfree/2018/dec/30/the-guardian-view-on-yvette-coopers-town-of-culture-proposal-a-fine-idea",
+      "readScope": "完整读取正文L62–71，核拼写和结尾被截断的支持提议意思。补回短句为校者概述，不逐字冒充缺失原句。"
+    },
+    {
+      "url": "https://researchbriefings.files.parliament.uk/documents/CDP-2019-0015/CDP-2019-0015.pdf",
+      "readScope": "读取2019-01-22封面、提案开头及搜索呈现的第8页BBC报告摘要；220m摘要归于所引报告，不据此独立断言净收益。开头December 2019与本文件时间矛盾，不照搬该笔误。"
+    },
+    {
+      "url": "https://www.theguardian.com/commentisfree/2019/mar/04/the-guardian-view-on-academic-publishing-disastrous-capitalism",
+      "readScope": "完整读取社论正文；其数字与制度术语另据RELX、Tickell和eLife核对，不把社论数据自动视为准确。"
+    },
+    {
+      "url": "https://www.relx.com/~/media/Files/R/RELX-Group/documents/reports/annual-reports/2018-annual-report.pdf",
+      "readScope": "定向读取STM业务说明，物理页16的论文产出18%、引文25%，并非25%论文产出。未通读184页年报。"
+    },
+    {
+      "url": "https://www.rns-pdf.londonstockexchange.com/rns/6698Q_1-2019-2-20.pdf",
+      "readScope": "读取2018年业绩表4：STM收入2538m、调整后营业利润942m、对应利润率37.1%；不是净利润或全行业统一利润率。"
+    },
+    {
+      "url": "https://www.relx.com/media/press-releases/archive/relx-2018-results",
+      "readScope": "读取2018业绩公告前部至定义说明，补充年度及业务划分。"
+    },
+    {
+      "url": "https://www.gov.uk/government/publications/open-access-to-research-independent-advice-2018",
+      "readScope": "完整读取发布元数据及说明：2018报告于2019-02-04公布。"
+    },
+    {
+      "url": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/774956/Open-access-to-research-publications-2018.pdf",
+      "readScope": "下载并完整读取物理页31–34、55；另在线读取54%与订阅/APC趋势目标段。印刷页31订阅约160m、32页APC约50m，原稿210m不能全算订阅。报告摘要24个月与内文12个月不一致，校勘版不固定该等待期。"
+    },
+    {
+      "url": "https://doi.org/10.7554/eLife.32822",
+      "readScope": "完整读取摘要、成立年份介绍及部分数据/讨论；2017数据中收费论文样本85.1%，所有Crossref样本68.9%。成立于2011，不是2012；并非所有2015后论文均覆盖。"
+    },
+    {
+      "url": "https://www.bostonglobe.com/opinion/2019/08/05/corporate-gender-quotas-reinforce-privilege/WA4QjKBkb2aUxUdF59h0EO/story.htmlfalse",
+      "readScope": "完整读取Jennifer C. Braceras的2019-08-05评论。政策评价明确属于作者，不能用来证明女性任职必然不合格或配额必然有害。"
+    },
+    {
+      "url": "https://archive.gov.ca.gov/archive/gov39/wp-content/uploads/2018/09/SB-826-signing-message.pdf",
+      "readScope": "下载并渲染单页签署函，2018-09-30全文图像通读。适用principal executive offices在加州的publicly held corporation。Brown承认严重法律疑虑与可能影响实施的瑕疵，未直接说probably unconstitutional。"
+    },
+    {
+      "url": "https://www.govinfo.gov/content/pkg/USCOURTS-caed-2_19-cv-02288/pdf/USCOURTS-caed-2_19-cv-02288-8.pdf",
+      "readScope": "搜索读取2021-12-27判决第19页中度审查与不存在配额当然违宪规则的论述。仅用于辨明法律测试，不冒充当前最终诉讼状态；原文2019预测明确保留年代。"
+    },
+    {
+      "url": "https://evolveetfs.com/wp-content/uploads/2017/08/Credit-Suisse-Reward-for-Change_1495660293279_2.pdf",
+      "readScope": "读取Credit Suisse 2016报告第2与第4页相关段落：CS Gender 3000样本2015年末女性董事席位14.7%，相对2010增54%；直接用原报告限定样本，不将该数字视为反配额因果证明。"
+    },
+    {
+      "url": "https://www.nber.org/papers/w20256",
+      "readScope": "完整读取研究摘要，挪威配额后新进入女性较过去女性资历更高，董事会内性别收入差距减少，而对其他女性群体未见稳健外溢。非所有资历/经验指标相同，不能从经验较少推不合格。"
+    },
+    {
+      "url": "https://www.nber.org/digest/nov14/corporate-board-quotas-and-labor-market-outcomes-women",
+      "readScope": "完整读取对应NBER摘要报道，辅助核对样本与外溢范围。"
+    },
+    {
+      "url": "https://taxprofblog.aals.org/2019/06/25/2019_07_13609_-faulhaber-other-nations-will-follow-france-with-their-own-digital-tax/",
+      "readScope": "读取所载NYTimes文章引文及Faulhaber题头信息，页面迁移日期错位，不采URL日期作为原文日期；未称NYTimes全文已读。"
+    },
+    {
+      "url": "https://www.law.nyu.edu/sites/default/files/Digital%20Services%20Taxes%20-%20Shaviro.pdf",
+      "readScope": "读取引用Faulhaber NYTimes 2019-07-15文章的参考信息，非全文。"
+    },
+    {
+      "url": "https://www.impots.gouv.fr/actualite/presentation-de-la-taxe-sur-les-services-fournis-par-les-grandes-entreprises-du-secteur",
+      "readScope": "完整读取2019-11-27税务局说明：2019-07-24法、特定平台与广告/数据服务，750m全球及25m法国门槛，3%法国对应应税收入。不是全部科技营业收入普遍征税。"
+    },
+    {
+      "url": "https://ustr.gov/about-us/policy-offices/press-office/press-releases/2019/july/ustr-announces-initiation-section-301",
+      "readScope": "搜索读取启动公告开头，2019-07-10启动调查，预期参议院次日通过。本文的制裁可能性按当时展望处理。"
+    },
+    {
+      "url": "https://www.psychologytoday.com/au/blog/neuro-behavioral-betterment/201609/how-eye-contact-brings-you-together-or-pulls-you-apart",
+      "readScope": "完整读取2016-09-11 Robert A. Lavine正文L24–57；核对标题配对与Auyeung、fixations等。未将文外手机因果讨论引入试题。"
+    },
+    {
+      "url": "https://www.pure.ed.ac.uk/ws/portalfiles/portal/18598362/tp2014146a.pdf",
+      "readScope": "读取2015 Auyeung等论文完整摘要、设计给药片段、样本排除与结果片段。32 autistic adult males及34 controls为最终分析样本，鼻喷24 IU单次实验、间隔一周交叉设计；不等于长期疗效证明。Nature官网跳转身份服务失败，使用Edinburgh的正式版本镜像。"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25980386/",
+      "readScope": "完整读取Hietanen、Uusberg、Allik 2015论文摘要：神经质与直视下前额EEG不对称相关，并与较短自选直视及回避体验相联；不能据此做个人诚实判断。"
+    },
+    {
+      "url": "https://catalogue.museogalileo.it/multimedia/GalileosTrialBis.html",
+      "readScope": "完整读取博物馆审判历史说明：1616谴责日心说、暂停哥白尼著作，1633审判及强迫撤回。不是所有文艺复兴理性主义者普遍受同一惩罚。"
+    },
+    {
+      "url": "https://www.museogalileo.it/en/galileo/life.html",
+      "readScope": "搜索读取1543书目、1616与1633大事，核伽利略返回Gioiello与限制交流。"
+    },
+    {
+      "url": "https://marcuse.faculty.history.ucsb.edu/classes/4c/kant.o00.htm",
+      "readScope": "完整读取该页Kant 1784开篇节选，sapere aude作为启蒙格言。未称已读整篇文章。"
+    },
+    {
+      "url": "https://www.theguardian.com/politics/2018/dec/29/town-of-culture-letter-to-jeremy-wright-yvette-cooper-labour-mps",
+      "readScope": "搜索读取议员联名信关于220m投资的原始主张；正文明确归为议员所报，未把该总额当独立审计或净收益。"
+    },
+    {
+      "url": "https://warwick.ac.uk/research/partnerships/place-based-research/impact-value/researchresources/cultural-transformations-the-impacts-of-hull-uk-city-of-culture-2017.pdf",
+      "readScope": "下载2018 preliminary outcomes evaluation并检索220/219/capital investment，读取第30、33、90、109页命中段；第30页近100m文化资产和公共基建属于另一口径，未用它证明220m总额。"
+    }
+  ],
+  "review": {
+    "finalBlocks": 137,
+    "fullFinalRead": true,
+    "cloze": "CABDABDADCCABDCBABCD",
+    "reading": "CBDBCADBDCACDCACABCB",
+    "headingMatch": "CEGAD",
+    "corrections": [
+      "词形、人名机构、标点和所有选项排版",
+      "食品风险与官方金黄色烹调建议",
+      "城镇文化奖末尾断句补意",
+      "出版论文和引文份额、利润及费用口径",
+      "董事配额法律范围、54%相对增长和经验与资历区别",
+      "重复数字税段落与2019政策时点",
+      "眼神研究样本及实验限制",
+      "历史概括与原图翻译范围",
+      "双图习惯作文及通知署名要求"
+    ]
+  }
+}

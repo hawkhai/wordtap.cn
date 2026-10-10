@@ -1,0 +1,225 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "2f5c8a8d6bebbc6e0fc86e56e381800a7739a6f821d5c4c2b7adc662c4fb7aa6",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "coverage": "全文 blocks[0..259]；按 JSON 上下文逐项复核对话、解释、题目、表格、词表及修复后的边界。",
+  "notes": "全文复核马达加斯加桨鱼故事、摘要、全部12道选择题及20道语法测试和解释。保留摘要不同编号、连字符及非校勘范围文字，仅合并明确续行，英文词间留空格，中文续句直接连接。",
+  "issues": [],
+  "mergeBlocks": [
+    {
+      "start": 17,
+      "end": 18,
+      "before": [
+        "Though people have often laughed at stories told by seamen, it is now known that",
+        "many of these ‘monsters’ which have at times been sighted are simply strange fish."
+      ],
+      "text": "Though people have often laughed at stories told by seamen, it is now known that many of these ‘monsters’ which have at times been sighted are simply strange fish.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 19,
+      "end": 20,
+      "before": [
+        "虽然人们常常对水手们讲的故事付诸一笑，但现在看来，人们有时看到的这些",
+        "“妖怪”很多不过是些奇怪的鱼。"
+      ],
+      "text": "虽然人们常常对水手们讲的故事付诸一笑，但现在看来，人们有时看到的这些“妖怪”很多不过是些奇怪的鱼。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 21,
+      "end": 22,
+      "before": [
+        "Occasionally, unusual creatures are washed to the shore, but they are rarely caught out",
+        "at sea."
+      ],
+      "text": "Occasionally, unusual creatures are washed to the shore, but they are rarely caught out at sea.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 26,
+      "end": 27,
+      "before": [
+        "A small fishing boat was carried miles out to sea by the powerful fish as it pulled on",
+        "the line."
+      ],
+      "text": "A small fishing boat was carried miles out to sea by the powerful fish as it pulled on the line.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 29,
+      "end": 30,
+      "before": [
+        "Realizing that this was no ordinary fish, the fisherman made every effort not to",
+        "damage it in any way."
+      ],
+      "text": "Realizing that this was no ordinary fish, the fisherman made every effort not to damage it in any way.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 31,
+      "end": 32,
+      "before": [
+        "那位渔民意识到这根本不是一条普通的鱼，于是千方百计不让它受到丝毫伤",
+        "害。"
+      ],
+      "text": "那位渔民意识到这根本不是一条普通的鱼，于是千方百计不让它受到丝毫伤害。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 36,
+      "end": 37,
+      "before": [
+        "它长着一个像马一样的头，有着大的蓝眼睛和闪闪发光的银色皮肤，还有一条",
+        "鲜红色的尾巴。"
+      ],
+      "text": "它长着一个像马一样的头，有着大的蓝眼睛和闪闪发光的银色皮肤，还有一条鲜红色的尾巴。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 38,
+      "end": 39,
+      "before": [
+        "The fish, which has since been sent to a museum where it is being examined by a",
+        "scientist, is called an oarfish."
+      ],
+      "text": "The fish, which has since been sent to a museum where it is being examined by a scientist, is called an oarfish.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 41,
+      "end": 42,
+      "before": [
+        "Such creatures have rarely been seen alive by man as they live at a depth of six",
+        "hundred feet."
+      ],
+      "text": "Such creatures have rarely been seen alive by man as they live at a depth of six hundred feet.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 47,
+      "end": 48,
+      "before": [
+        "After having pulled 1 Strange fish caught-",
+        "Madagascar."
+      ],
+      "text": "After having pulled 1 Strange fish caught- Madagascar.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 51,
+      "end": 52,
+      "before": [
+        "4 Fisherman-brought it to",
+        "shore."
+      ],
+      "text": "4 Fisherman-brought it to shore.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 59,
+      "end": 64,
+      "before": [
+        "Answer: A strange fish was caught near Madagascar after having pulled a",
+        "small fishing boat miles out to sea. Making every effort not to damage the fish,",
+        "the fisherman brought it to shore. The fish, which was over thirteen feet long,",
+        "with a head like a horse, was sent to museum. It is being examined by a",
+        "scientist, who said that it was an oarfish and that such creatures live at depth",
+        "of six hundred feet."
+      ],
+      "text": "Answer: A strange fish was caught near Madagascar after having pulled a small fishing boat miles out to sea. Making every effort not to damage the fish, the fisherman brought it to shore. The fish, which was over thirteen feet long, with a head like a horse, was sent to museum. It is being examined by a scientist, who said that it was an oarfish and that such creatures live at depth of six hundred feet.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 154,
+      "end": 155,
+      "before": [
+        "5. All the students in this class passed the English exam ______ the exception of Li",
+        "Ming."
+      ],
+      "text": "5. All the students in this class passed the English exam ______ the exception of Li Ming.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 161,
+      "end": 162,
+      "before": [
+        "6. When the whole area was _______ by the flood, the government sent food there by",
+        "helicopter."
+      ],
+      "text": "6. When the whole area was _______ by the flood, the government sent food there by helicopter.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 180,
+      "end": 181,
+      "before": [
+        "9. The student was just about to ______ the question, when suddenly he found the",
+        "answer."
+      ],
+      "text": "9. The student was just about to ______ the question, when suddenly he found the answer.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 199,
+      "end": 200,
+      "before": [
+        "11. A虚拟语气结构的用法。表示与过去事实相反的虚拟条件句,句中省去了连接",
+        "词if,而用了倒装结构。"
+      ],
+      "text": "11. A虚拟语气结构的用法。表示与过去事实相反的虚拟条件句,句中省去了连接词if,而用了倒装结构。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 206,
+      "end": 207,
+      "before": [
+        "12、B.虚拟语气结构。在 it is essential/important/necessary that主语从句结构中,",
+        "通常要用虚拟语气,其形式为( should)+动词原型。 should可以省略。"
+      ],
+      "text": "12、B.虚拟语气结构。在 it is essential/important/necessary that主语从句结构中,通常要用虚拟语气,其形式为( should)+动词原型。 should可以省略。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 208,
+      "end": 209,
+      "before": [
+        "13. No matter how the problem of cancer is handled in a family, all the members of",
+        "the family are bound ________ in some way."
+      ],
+      "text": "13. No matter how the problem of cancer is handled in a family, all the members of the family are bound ________ in some way.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 232,
+      "end": 233,
+      "before": [
+        "16. B.在be, hope, intend, plan等动词的过去完成时,后接动词不定式,表示过去想做",
+        "而没有做到。即 had hoped/ planned/intended + to do"
+      ],
+      "text": "16. B.在be, hope, intend, plan等动词的过去完成时,后接动词不定式,表示过去想做而没有做到。即 had hoped/ planned/intended + to do",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 245,
+      "end": 246,
+      "before": [
+        "18. D.将来完成时表示在将来某个动作发生之前已完成的动作,通常与by连用。句",
+        "中的but表示“除……之外”"
+      ],
+      "text": "18. D.将来完成时表示在将来某个动作发生之前已完成的动作,通常与by连用。句中的but表示“除……之外”",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    }
+  ],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/fe90320257ebd3cd526135193cabd3badf072cf5c81c2ceec44bab95a9eb3ede.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "53e424f5d4725607aabe14c65ead7f8a5a0fff69f7787a2d096e44efc61364fc"
+    }
+  ]
+}

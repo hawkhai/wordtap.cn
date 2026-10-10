@@ -1,0 +1,21 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "e0510c2282567aae559de46c9a412460ed90cd54ed4bd39187023e5a4a541e5d",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "完整 title、blocks[0..5]及完全相同的text；正文及内嵌中文、引语、对话和列举均已逐项通读；无改动输出按全文再次复核。",
+  "notes": "全文及未改动输出复核：探月火星与空间站成果、和平愿景、太空资源、民用改变、未来科研与合作六段完整；短未来科研段为概括，不与相邻主题强并。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/7dfc876e089bcda3e75d0618bb9acdf4596f22a2059103bb52cf2a7df13351d7.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "b6639f24d4f1dd26f618aa8b98cc4f3efe33cc4444612896bd769260228ebd34"
+    }
+  ]
+}

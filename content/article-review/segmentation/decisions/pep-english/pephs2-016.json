@@ -1,0 +1,21 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "d0b94d03915c8d46d5003fe1e3c7e0e2dbf9b31efef6c2d513e175e6de60d4f5",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title；全文 blocks[0..7] 与对应 text；现有正文/对话/题干逐块通读复核。",
+  "notes": "达芬奇八段从观画、蒙娜丽莎、生平、笔记到艺术科学关系与启发，长描述段完整保留。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/abbc2c0f2797028a38227a20151222d96cd3e088e6a618dd179229e2863e57c6.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "f4ae42ae264b6c35eec6904f53352e04702c5c6cc891458aa7cbc7f435f04b89"
+    }
+  ]
+}

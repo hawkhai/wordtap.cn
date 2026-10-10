@@ -1,0 +1,21 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "3839e0bdb6cd96c89d09ba5a1c622e4ff55f07d26636d59deb4b96d674e42058",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title；全文 blocks[0..0] 与对应 text；现有正文/对话/题干逐块通读复核。",
+  "notes": "The Road Not Taken二十行连续诗块，保留全部现有诗行，不凭外部版本推定空白诗节。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/e508c5c6165f8746a62ddd8f21408989cb461abb0d6169f01a8933d697ab82f9.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "ea5a7c9cb48d2c4855e9ca0b165f2ffa2f443fbb3f6a4d54d42fb1efd42893f8"
+    }
+  ]
+}

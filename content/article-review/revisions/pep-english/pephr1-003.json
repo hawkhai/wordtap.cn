@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 1,
+  "course": "pep-english",
+  "articleId": "pephr1-003",
+  "beforeDisplaySha256": "088681fae299eab9552f965e2711d214a67e156de4986b144dc8eb0a02fd3a33",
+  "afterDisplaySha256": "088681fae299eab9552f965e2711d214a67e156de4986b144dc8eb0a02fd3a33",
+  "baselineDisplay": {
+    "title": "Student Profiles: Ann and Thando",
+    "section": "Reading for Writing",
+    "text": "Ann, 15\nLakeside High School\nUSA\nMy name is Ann Wells and I'm a Grade 10 student at Lakeside High School. I'm an active person and I love sports. I'm curious about everything. I often ask questions, but I learn best by doing. My favourite subject is physics. Dancing and skating are my hobbies, and I also like to read short stories. I plan to become an engineer in the future.\nThando, 16\nSouth Hill High School\nSouth Africa\nI'm Thando Gowon. I'm 16 this year. I come from South Africa. I'm a Grade 10 student at South Hill High School. I look good, think fast, and play hard. You'll never see me without a book or a pen. If I'm not in class, I'm either in the library or in the computer lab. At the weekends, I play computer games if I'm not busy studying. My dream is to start my own IT company!",
+    "blocks": [
+      {
+        "type": "subheading",
+        "lang": "en",
+        "text": "Ann, 15\nLakeside High School\nUSA"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "My name is Ann Wells and I'm a Grade 10 student at Lakeside High School. I'm an active person and I love sports. I'm curious about everything. I often ask questions, but I learn best by doing. My favourite subject is physics. Dancing and skating are my hobbies, and I also like to read short stories. I plan to become an engineer in the future."
+      },
+      {
+        "type": "subheading",
+        "lang": "en",
+        "text": "Thando, 16\nSouth Hill High School\nSouth Africa"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "I'm Thando Gowon. I'm 16 this year. I come from South Africa. I'm a Grade 10 student at South Hill High School. I look good, think fast, and play hard. You'll never see me without a book or a pen. If I'm not in class, I'm either in the library or in the computer lab. At the weekends, I play computer games if I'm not busy studying. My dream is to start my own IT company!"
+      }
+    ]
+  },
+  "display": {
+    "title": "Student Profiles: Ann and Thando",
+    "section": "Reading for Writing",
+    "text": "Ann, 15\nLakeside High School\nUSA\nMy name is Ann Wells and I'm a Grade 10 student at Lakeside High School. I'm an active person and I love sports. I'm curious about everything. I often ask questions, but I learn best by doing. My favourite subject is physics. Dancing and skating are my hobbies, and I also like to read short stories. I plan to become an engineer in the future.\nThando, 16\nSouth Hill High School\nSouth Africa\nI'm Thando Gowon. I'm 16 this year. I come from South Africa. I'm a Grade 10 student at South Hill High School. I look good, think fast, and play hard. You'll never see me without a book or a pen. If I'm not in class, I'm either in the library or in the computer lab. At the weekends, I play computer games if I'm not busy studying. My dream is to start my own IT company!",
+    "blocks": [
+      {
+        "type": "subheading",
+        "lang": "en",
+        "text": "Ann, 15\nLakeside High School\nUSA"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "My name is Ann Wells and I'm a Grade 10 student at Lakeside High School. I'm an active person and I love sports. I'm curious about everything. I often ask questions, but I learn best by doing. My favourite subject is physics. Dancing and skating are my hobbies, and I also like to read short stories. I plan to become an engineer in the future."
+      },
+      {
+        "type": "subheading",
+        "lang": "en",
+        "text": "Thando, 16\nSouth Hill High School\nSouth Africa"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "I'm Thando Gowon. I'm 16 this year. I come from South Africa. I'm a Grade 10 student at South Hill High School. I look good, think fast, and play hard. You'll never see me without a book or a pen. If I'm not in class, I'm either in the library or in the computer lab. At the weekends, I play computer games if I'm not busy studying. My dream is to start my own IT company!"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "path": "content/article-review/history/fe34c994e384e7ee9e1d3f3d8027ce1eaec7ec00efb3a72a953d3a957d9270e6.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "612501d601e022815c8d28c814cc3793a2c1537139d1fea611c0594a9a644552"
+    }
+  ],
+  "corrections": [],
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "reviewer": "Codex",
+  "reviewedAt": "2026-10-07T07:30:10+00:00",
+  "notes": "Ann与Thando简介各有姓名学校标题及完整自述，标题内部三行和两人边界保留。",
+  "issues": [],
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "e2d52a562363e74defd67fdb572070a27881de428275264d935f99dc72853bfb",
+    "afterFileSha256": "e2d52a562363e74defd67fdb572070a27881de428275264d935f99dc72853bfb",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "e2d52a562363e74defd67fdb572070a27881de428275264d935f99dc72853bfb",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..3] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "Ann与Thando简介各有姓名学校标题及完整自述，标题内部三行和两人边界保留。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/fe34c994e384e7ee9e1d3f3d8027ce1eaec7ec00efb3a72a953d3a957d9270e6.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "612501d601e022815c8d28c814cc3793a2c1537139d1fea611c0594a9a644552"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "fe34c994e384e7ee9e1d3f3d8027ce1eaec7ec00efb3a72a953d3a957d9270e6"
+}

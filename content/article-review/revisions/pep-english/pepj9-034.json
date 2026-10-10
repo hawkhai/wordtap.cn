@@ -1,0 +1,161 @@
+{
+  "schemaVersion": 1,
+  "course": "pep-english",
+  "articleId": "pepj9-034",
+  "beforeDisplaySha256": "ff1ec4225491d67997598766a0bed06a0799082833d285bc26861dedb7396424",
+  "afterDisplaySha256": "4cb2f98aa923449c64e6a581a1afe5d6181b7c6bec03c33746d3baafe640c91e",
+  "baselineDisplay": {
+    "title": "Nancy Asks Bert for Friendship Advice",
+    "section": "Section A",
+    "text": "Nancy: Hey, Bert. I think I've made Alice mad and I'm not sure what to do about it.\nBert: What happened?\nNancy: You know Julie is Alice's best friend, right?\nBert: Uh-huh.\nNancy: Well, the more I get to know Julie, the more I realize that we have a lot in common. So we've been spending more time together lately.\nBert: But what's wrong with that?\nNancy: Umm... it makes Alice unhappy because she thinks Julie is now better friends with me than with her.\nBert: I see. Mmm... why don't you ask Alice to join you each time you do something with Julie? Then she won't feel left out.\nNancy: Oh, good idea! That can make our friendship stronger.",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Nancy: Hey, Bert. I think I've made Alice mad and I'm not sure what to do about it.\nBert: What happened?\nNancy: You know Julie is Alice's best friend, right?\nBert: Uh-huh.\nNancy: Well, the more I get to know Julie, the more I realize that we have a lot in common. So we've been spending more time together lately.\nBert: But what's wrong with that?\nNancy: Umm... it makes Alice unhappy because she thinks Julie is now better friends with me than with her.\nBert: I see. Mmm... why don't you ask Alice to join you each time you do something with Julie? Then she won't feel left out.\nNancy: Oh, good idea! That can make our friendship stronger."
+      }
+    ]
+  },
+  "display": {
+    "title": "Nancy Asks Bert for Friendship Advice",
+    "section": "Section A",
+    "text": "Nancy: Hey, Bert. I think I've made Alice mad and I'm not sure what to do about it.\nBert: What happened?\nNancy: You know Julie is Alice's best friend, right?\nBert: Uh-huh.\nNancy: Well, the more I get to know Julie, the more I realize that we have a lot in common. So we've been spending more time together lately.\nBert: But what's wrong with that?\nNancy: Umm... it makes Alice unhappy because she thinks Julie is now better friends with me than with her.\nBert: I see. Mmm... why don't you ask Alice to join you each time you do something with Julie? Then she won't feel left out.\nNancy: Oh, good idea! That can make our friendship stronger.",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Nancy: Hey, Bert. I think I've made Alice mad and I'm not sure what to do about it."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Bert: What happened?"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Nancy: You know Julie is Alice's best friend, right?"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Bert: Uh-huh."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Nancy: Well, the more I get to know Julie, the more I realize that we have a lot in common. So we've been spending more time together lately."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Bert: But what's wrong with that?"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Nancy: Umm... it makes Alice unhappy because she thinks Julie is now better friends with me than with her."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Bert: I see. Mmm... why don't you ask Alice to join you each time you do something with Julie? Then she won't feel left out."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Nancy: Oh, good idea! That can make our friendship stronger."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "path": "content/article-review/history/9e1019495873831502e21b8cf9ff1f41d2e420972cf3d30bea06a0a02a59f3b4.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "32429e06eac086c1c9c2db37bf1e934a9bacff61c4495078b88101048d6efbca"
+    }
+  ],
+  "corrections": [],
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "reviewer": "Codex",
+  "reviewedAt": "2026-10-07T07:42:03+00:00",
+  "notes": "Nancy向Bert求友情建议九轮对话拆分，Julie与Alice关系说明和邀请建议保持整轮。",
+  "issues": [],
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "aa693aa8c2534271824620f3f24612bfc55dd3a12c37a05456344ad66082082f",
+    "afterFileSha256": "3845ba745b0208b0bceabfcfbc589f4eeabaa702f7ffbf1a7074e9ad357f2245",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "aa693aa8c2534271824620f3f24612bfc55dd3a12c37a05456344ad66082082f",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..0] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "Nancy向Bert求友情建议九轮对话拆分，Julie与Alice关系说明和邀请建议保持整轮。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [
+        {
+          "index": 0,
+          "before": [
+            "Nancy: Hey, Bert. I think I've made Alice mad and I'm not sure what to do about it.\nBert: What happened?\nNancy: You know Julie is Alice's best friend, right?\nBert: Uh-huh.\nNancy: Well, the more I get to know Julie, the more I realize that we have a lot in common. So we've been spending more time together lately.\nBert: But what's wrong with that?\nNancy: Umm... it makes Alice unhappy because she thinks Julie is now better friends with me than with her.\nBert: I see. Mmm... why don't you ask Alice to join you each time you do something with Julie? Then she won't feel left out.\nNancy: Oh, good idea! That can make our friendship stronger."
+          ],
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Nancy: Hey, Bert. I think I've made Alice mad and I'm not sure what to do about it."
+            },
+            {
+              "type": "paragraph",
+              "text": "Bert: What happened?"
+            },
+            {
+              "type": "paragraph",
+              "text": "Nancy: You know Julie is Alice's best friend, right?"
+            },
+            {
+              "type": "paragraph",
+              "text": "Bert: Uh-huh."
+            },
+            {
+              "type": "paragraph",
+              "text": "Nancy: Well, the more I get to know Julie, the more I realize that we have a lot in common. So we've been spending more time together lately."
+            },
+            {
+              "type": "paragraph",
+              "text": "Bert: But what's wrong with that?"
+            },
+            {
+              "type": "paragraph",
+              "text": "Nancy: Umm... it makes Alice unhappy because she thinks Julie is now better friends with me than with her."
+            },
+            {
+              "type": "paragraph",
+              "text": "Bert: I see. Mmm... why don't you ask Alice to join you each time you do something with Julie? Then she won't feel left out."
+            },
+            {
+              "type": "paragraph",
+              "text": "Nancy: Oh, good idea! That can make our friendship stronger."
+            }
+          ],
+          "reason": "每行具有明确的发言人及完整轮次，分块保留各对话轮次。"
+        }
+      ],
+      "blockEdits": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/9e1019495873831502e21b8cf9ff1f41d2e420972cf3d30bea06a0a02a59f3b4.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "32429e06eac086c1c9c2db37bf1e934a9bacff61c4495078b88101048d6efbca"
+        }
+      ]
+    }
+  },
+  "status": "passed_edited",
+  "previousRevisionSha256": "9e1019495873831502e21b8cf9ff1f41d2e420972cf3d30bea06a0a02a59f3b4"
+}

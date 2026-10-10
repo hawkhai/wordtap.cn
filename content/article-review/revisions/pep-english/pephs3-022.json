@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "course": "pep-english",
+  "articleId": "pephs3-022",
+  "beforeDisplaySha256": "001111e2cc339ebf3645a7947a7dfb086e93c897afef5cd104b237c75c21d656",
+  "afterDisplaySha256": "001111e2cc339ebf3645a7947a7dfb086e93c897afef5cd104b237c75c21d656",
+  "baselineDisplay": {
+    "title": "Planning a Balanced Diet",
+    "section": "Using Structures",
+    "text": "These days, the attitude of many people is to just eat food that they think tastes good. However, this can lead to an unbalanced diet, which often results in short-term and long-term health issues. If you want to stay healthy, then you need a balanced diet. Needless to say, it is not always easy to plan such a diet, but the good thing is that there is a lot of advice out there. To save yourself some time, you could try looking at a “food pyramid”—a chart that shows you how much of each type of food to eat. You could also make healthy food at home and try to avoid eating packaged foods or fast food. It is essential for you to eat healthy food. You will feel better, have more energy, and have fewer health problems in later life.",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "These days, the attitude of many people is to just eat food that they think tastes good. However, this can lead to an unbalanced diet, which often results in short-term and long-term health issues. If you want to stay healthy, then you need a balanced diet. Needless to say, it is not always easy to plan such a diet, but the good thing is that there is a lot of advice out there. To save yourself some time, you could try looking at a “food pyramid”—a chart that shows you how much of each type of food to eat. You could also make healthy food at home and try to avoid eating packaged foods or fast food. It is essential for you to eat healthy food. You will feel better, have more energy, and have fewer health problems in later life."
+      }
+    ]
+  },
+  "display": {
+    "title": "Planning a Balanced Diet",
+    "section": "Using Structures",
+    "text": "These days, the attitude of many people is to just eat food that they think tastes good. However, this can lead to an unbalanced diet, which often results in short-term and long-term health issues. If you want to stay healthy, then you need a balanced diet. Needless to say, it is not always easy to plan such a diet, but the good thing is that there is a lot of advice out there. To save yourself some time, you could try looking at a “food pyramid”—a chart that shows you how much of each type of food to eat. You could also make healthy food at home and try to avoid eating packaged foods or fast food. It is essential for you to eat healthy food. You will feel better, have more energy, and have fewer health problems in later life.",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "These days, the attitude of many people is to just eat food that they think tastes good. However, this can lead to an unbalanced diet, which often results in short-term and long-term health issues. If you want to stay healthy, then you need a balanced diet. Needless to say, it is not always easy to plan such a diet, but the good thing is that there is a lot of advice out there. To save yourself some time, you could try looking at a “food pyramid”—a chart that shows you how much of each type of food to eat. You could also make healthy food at home and try to avoid eating packaged foods or fast food. It is essential for you to eat healthy food. You will feel better, have more energy, and have fewer health problems in later life."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "path": "content/article-review/history/857ecba29d674079e5206bf9e592c52c92830901e86db2dac74d82a655821c4b.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "888a618348f3a826006376aeb766b10a8d77a060acdc44a582a187989a585529"
+    }
+  ],
+  "corrections": [],
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "reviewer": "Codex",
+  "reviewedAt": "2026-10-07T07:35:52+00:00",
+  "notes": "均衡饮食建议从口味问题到食物金字塔及健康益处连贯成短段，保留。",
+  "issues": [],
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "667796c5a5109be4b405f48a8a73c1346c83f604c258889b539e87e18e88ecf6",
+    "afterFileSha256": "667796c5a5109be4b405f48a8a73c1346c83f604c258889b539e87e18e88ecf6",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "667796c5a5109be4b405f48a8a73c1346c83f604c258889b539e87e18e88ecf6",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..0] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "均衡饮食建议从口味问题到食物金字塔及健康益处连贯成短段，保留。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/857ecba29d674079e5206bf9e592c52c92830901e86db2dac74d82a655821c4b.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "888a618348f3a826006376aeb766b10a8d77a060acdc44a582a187989a585529"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "857ecba29d674079e5206bf9e592c52c92830901e86db2dac74d82a655821c4b"
+}

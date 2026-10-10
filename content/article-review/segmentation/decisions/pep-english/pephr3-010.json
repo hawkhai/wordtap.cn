@@ -1,0 +1,21 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "58395bdf39c87b8d722f1915c65ab30fbe230bc5072b152cf49441ee0d66b69d",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title；全文 blocks[0..0] 与对应 text；现有正文/对话/题干逐块通读复核。",
+  "notes": "加州原住民迁徙、受迫害及今日分布构成完整历史说明短段，保留。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/8ce41cb9907440db6f188e3a3f47f732bb943912cb7d568c2077dfe32b67c133.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "9bc3c3d922f17000612e426f25cdbafe2b278c9cd19dd85517c565a2b07492d3"
+    }
+  ]
+}

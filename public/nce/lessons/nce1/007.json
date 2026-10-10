@@ -10,18 +10,18 @@
   ],
   "title": "Are You a Teacher",
   "titleZh": "你是一名老师吗？",
-  "question": "What is Rober's job?",
+  "question": "What is Robert's job?",
   "questionZh": "罗伯特的工作是什么？",
-  "text": "What is Rober's job?\n\nI am a new student.\nMy name's Robert.\nNice to meet you.\nMy name's Sophie.\nAre you French?\nYes I am.\nAre you French too?\nNo I am not.\nWhat nationality are you?\nI'm Italian.\nAre you a teacher?\nNo I'm not.\nWhat's your job?\nI'm a keyboard operator.\nWhat's your job?\nI'm an engineer.",
-  "bodyText": "I am a new student.\nMy name's Robert.\nNice to meet you.\nMy name's Sophie.\nAre you French?\nYes I am.\nAre you French too?\nNo I am not.\nWhat nationality are you?\nI'm Italian.\nAre you a teacher?\nNo I'm not.\nWhat's your job?\nI'm a keyboard operator.\nWhat's your job?\nI'm an engineer.",
-  "bodyTextZh": "我是一名新学生。\n我的名字叫罗伯特。\n很高兴见到你。\n我的名字叫索菲。\n你是法国人吗？\n是的，我是。\n你也是法国人吗？\n不，我不是。\n你是什么国籍的？\n我是意大利人。\n你是一名老师吗？\n不，我不是。\n你的工作是什么？\n我是一名打字员。\n你的工作是什么？\n我是一名工程师。",
+  "text": "What is Robert's job?\n\nI am a new student. My name's Robert.\nNice to meet you. My name's Sophie.\nAre you French?\nYes I am. Are you French too?\nNo I am not.\nWhat nationality are you?\nI'm Italian.\nAre you a teacher?\nNo I'm not.\nWhat's your job?\nI'm a keyboard operator.\nWhat's your job?\nI'm an engineer.",
+  "bodyText": "I am a new student. My name's Robert.\nNice to meet you. My name's Sophie.\nAre you French?\nYes I am. Are you French too?\nNo I am not.\nWhat nationality are you?\nI'm Italian.\nAre you a teacher?\nNo I'm not.\nWhat's your job?\nI'm a keyboard operator.\nWhat's your job?\nI'm an engineer.",
+  "bodyTextZh": "我是一名新学生。我的名字叫罗伯特。\n很高兴见到你。我的名字叫索菲。\n你是法国人吗？\n是的，我是。你也是法国人吗？\n不，我不是。\n你是什么国籍的？\n我是意大利人。\n你是一名老师吗？\n不，我不是。\n你的工作是什么？\n我是一名打字员。\n你的工作是什么？\n我是一名工程师。",
   "sentences": [
     {
       "index": 0,
       "startTime": 0.53,
       "endTime": 2.58,
       "en": "Lesson 7",
-      "zh": "第7课",
+      "zh": "第 7 课",
       "role": "lesson"
     },
     {
@@ -44,7 +44,7 @@
       "index": 3,
       "startTime": 10.97,
       "endTime": 15.24,
-      "en": "What is Rober's job?",
+      "en": "What is Robert's job?",
       "zh": "罗伯特的工作是什么？",
       "role": "question"
     },

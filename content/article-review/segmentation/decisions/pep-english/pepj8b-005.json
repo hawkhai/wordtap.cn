@@ -1,0 +1,22 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "660e5825ceacab9f65a1680ae57f05d2459ccf80c7d3e9eef324f3db6bcea2fd",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title；全文 blocks[0..5] 与对应 text；现有正文/对话/题干逐块通读复核。",
+  "notes": "Ms. Miller与Mr. Smith两封相反家务观来信各称呼正文署名明确，两篇多句论证保留完整段。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "blockEdits": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/71d55156ffa80b5a8d48af3675d4b5ce012b39eff45368dfaf2ade0014092cd1.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "d01a605a5f2842bd1dae9d3262ddc7f6144803a3df62e9e07d2bfb1c3c5ca10a"
+    }
+  ]
+}

@@ -1,0 +1,277 @@
+{
+  "schemaVersion": 1,
+  "course": "nce",
+  "articleId": "nce1-123",
+  "beforeDisplaySha256": "f7dae77b8c6decf0d62db994089e7bec76ce49283d4150d0e644ca6c71da08e6",
+  "afterDisplaySha256": "24c837b5816000bcc86a5e47107e5d0821ed22fcb4679fb04096c5d73569030d",
+  "baselineDisplay": {
+    "title": "A Trip to Australia",
+    "titleZh": "澳大利亚之旅",
+    "question": "Who is the man with the beard?",
+    "questionZh": "那个留着胡子的男人是谁？",
+    "text": "Who is the man with the beard?\n\nLook, Scott.\nThis is a photograph I took during my trip to Australia.\nLet me see it, Mike.\nThis is a good photograph.\nWho are these people?\nThey're people I met during the trip.\nThat's the ship we travelled on.\nWhat a beautiful ship!\nWho's this?\nThat's the man I told you about.\nRemember?\nAh yes.\nThe one who offered you a job in Australia.\nThat's right.\nWho's this?\nGuess!\nIt's not you, is it?\nThat's right.\nI grew a beard during the trip, but I shaved it off when I came home.\nWhy did you shave it off?\nMy wife didn't like it!",
+    "bodyText": "Look, Scott.\nThis is a photograph I took during my trip to Australia.\nLet me see it, Mike.\nThis is a good photograph.\nWho are these people?\nThey're people I met during the trip.\nThat's the ship we travelled on.\nWhat a beautiful ship!\nWho's this?\nThat's the man I told you about.\nRemember?\nAh yes.\nThe one who offered you a job in Australia.\nThat's right.\nWho's this?\nGuess!\nIt's not you, is it?\nThat's right.\nI grew a beard during the trip, but I shaved it off when I came home.\nWhy did you shave it off?\nMy wife didn't like it!",
+    "bodyTextZh": "看，斯科特。\n这是我在澳大利亚旅行时拍的照片。\n让我看看，迈克。\n这张照片真不错！\n这些人是谁？\n他们是我在旅行中遇到的人。\n那就是我们乘坐的船。\n多漂亮的船啊！\n这是谁？\n就是我跟你提过的那个人。\n记得吗？\n啊，对。\n就是那个在澳大利亚给你提供工作机会的人。\n没错。\n这是谁？\n猜猜看！\n肯定不是你吧？\n没错。\n我在旅途中留了胡子，但回家后就把它刮掉了。\n你为什么要刮掉胡子呢？\n我妻子不喜欢！",
+    "sentences": [
+      {
+        "en": "Lesson 123",
+        "zh": "第 123 课"
+      },
+      {
+        "en": "A trip to Australia",
+        "zh": "澳大利亚之旅"
+      },
+      {
+        "en": "Listen to the tape then answer this question.",
+        "zh": "听完录音后，请回答这个问题："
+      },
+      {
+        "en": "Who is the man with the beard?",
+        "zh": "那个留着胡子的男人是谁？"
+      },
+      {
+        "en": "Look, Scott.",
+        "zh": "看，斯科特。"
+      },
+      {
+        "en": "This is a photograph I took during my trip to Australia.",
+        "zh": "这是我在澳大利亚旅行时拍的照片。"
+      },
+      {
+        "en": "Let me see it, Mike.",
+        "zh": "让我看看，迈克。"
+      },
+      {
+        "en": "This is a good photograph.",
+        "zh": "这张照片真不错！"
+      },
+      {
+        "en": "Who are these people?",
+        "zh": "这些人是谁？"
+      },
+      {
+        "en": "They're people I met during the trip.",
+        "zh": "他们是我在旅行中遇到的人。"
+      },
+      {
+        "en": "That's the ship we travelled on.",
+        "zh": "那就是我们乘坐的船。"
+      },
+      {
+        "en": "What a beautiful ship!",
+        "zh": "多漂亮的船啊！"
+      },
+      {
+        "en": "Who's this?",
+        "zh": "这是谁？"
+      },
+      {
+        "en": "That's the man I told you about.",
+        "zh": "就是我跟你提过的那个人。"
+      },
+      {
+        "en": "Remember?",
+        "zh": "记得吗？"
+      },
+      {
+        "en": "Ah yes.",
+        "zh": "啊，对。"
+      },
+      {
+        "en": "The one who offered you a job in Australia.",
+        "zh": "就是那个在澳大利亚给你提供工作机会的人。"
+      },
+      {
+        "en": "That's right.",
+        "zh": "没错。"
+      },
+      {
+        "en": "Who's this?",
+        "zh": "这是谁？"
+      },
+      {
+        "en": "Guess!",
+        "zh": "猜猜看！"
+      },
+      {
+        "en": "It's not you, is it?",
+        "zh": "肯定不是你吧？"
+      },
+      {
+        "en": "That's right.",
+        "zh": "没错。"
+      },
+      {
+        "en": "I grew a beard during the trip, but I shaved it off when I came home.",
+        "zh": "我在旅途中留了胡子，但回家后就把它刮掉了。"
+      },
+      {
+        "en": "Why did you shave it off?",
+        "zh": "你为什么要刮掉胡子呢？"
+      },
+      {
+        "en": "My wife didn't like it!",
+        "zh": "我妻子不喜欢！"
+      }
+    ]
+  },
+  "display": {
+    "title": "A Trip to Australia",
+    "titleZh": "澳大利亚之旅",
+    "question": "Who is the man with the beard?",
+    "questionZh": "那个留着胡子的男人是谁？",
+    "text": "Who is the man with the beard?\n\nLook, Scott. This is a photograph I took during my trip to Australia.\nLet me see it, Mike. This is a good photograph. Who are these people?\nThey're people I met during the trip. That's the ship we travelled on.\nWhat a beautiful ship! Who's this?\nThat's the man I told you about. Remember?\nAh yes. The one who offered you a job in Australia.\nThat's right.\nWho's this?\nGuess!\nIt's not you, is it?\nThat's right. I grew a beard during the trip, but I shaved it off when I came home.\nWhy did you shave it off?\nMy wife didn't like it!",
+    "bodyText": "Look, Scott. This is a photograph I took during my trip to Australia.\nLet me see it, Mike. This is a good photograph. Who are these people?\nThey're people I met during the trip. That's the ship we travelled on.\nWhat a beautiful ship! Who's this?\nThat's the man I told you about. Remember?\nAh yes. The one who offered you a job in Australia.\nThat's right.\nWho's this?\nGuess!\nIt's not you, is it?\nThat's right. I grew a beard during the trip, but I shaved it off when I came home.\nWhy did you shave it off?\nMy wife didn't like it!",
+    "bodyTextZh": "看，斯科特。这是我在澳大利亚旅行时拍的照片。\n让我看看，迈克。这张照片真不错！这些人是谁？\n他们是我在旅行中遇到的人。那就是我们乘坐的船。\n多漂亮的船啊！这是谁？\n就是我跟你提过的那个人。记得吗？\n啊，对。就是那个在澳大利亚给你提供工作机会的人。\n没错。\n这是谁？\n猜猜看！\n肯定不是你吧？\n没错。我在旅途中留了胡子，但回家后就把它刮掉了。\n你为什么要刮掉胡子呢？\n我妻子不喜欢！",
+    "sentences": [
+      {
+        "en": "Lesson 123",
+        "zh": "第 123 课"
+      },
+      {
+        "en": "A trip to Australia",
+        "zh": "澳大利亚之旅"
+      },
+      {
+        "en": "Listen to the tape then answer this question.",
+        "zh": "听完录音后，请回答这个问题："
+      },
+      {
+        "en": "Who is the man with the beard?",
+        "zh": "那个留着胡子的男人是谁？"
+      },
+      {
+        "en": "Look, Scott.",
+        "zh": "看，斯科特。"
+      },
+      {
+        "en": "This is a photograph I took during my trip to Australia.",
+        "zh": "这是我在澳大利亚旅行时拍的照片。"
+      },
+      {
+        "en": "Let me see it, Mike.",
+        "zh": "让我看看，迈克。"
+      },
+      {
+        "en": "This is a good photograph.",
+        "zh": "这张照片真不错！"
+      },
+      {
+        "en": "Who are these people?",
+        "zh": "这些人是谁？"
+      },
+      {
+        "en": "They're people I met during the trip.",
+        "zh": "他们是我在旅行中遇到的人。"
+      },
+      {
+        "en": "That's the ship we travelled on.",
+        "zh": "那就是我们乘坐的船。"
+      },
+      {
+        "en": "What a beautiful ship!",
+        "zh": "多漂亮的船啊！"
+      },
+      {
+        "en": "Who's this?",
+        "zh": "这是谁？"
+      },
+      {
+        "en": "That's the man I told you about.",
+        "zh": "就是我跟你提过的那个人。"
+      },
+      {
+        "en": "Remember?",
+        "zh": "记得吗？"
+      },
+      {
+        "en": "Ah yes.",
+        "zh": "啊，对。"
+      },
+      {
+        "en": "The one who offered you a job in Australia.",
+        "zh": "就是那个在澳大利亚给你提供工作机会的人。"
+      },
+      {
+        "en": "That's right.",
+        "zh": "没错。"
+      },
+      {
+        "en": "Who's this?",
+        "zh": "这是谁？"
+      },
+      {
+        "en": "Guess!",
+        "zh": "猜猜看！"
+      },
+      {
+        "en": "It's not you, is it?",
+        "zh": "肯定不是你吧？"
+      },
+      {
+        "en": "That's right.",
+        "zh": "没错。"
+      },
+      {
+        "en": "I grew a beard during the trip, but I shaved it off when I came home.",
+        "zh": "我在旅途中留了胡子，但回家后就把它刮掉了。"
+      },
+      {
+        "en": "Why did you shave it off?",
+        "zh": "你为什么要刮掉胡子呢？"
+      },
+      {
+        "en": "My wife didn't like it!",
+        "zh": "我妻子不喜欢！"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "path": "content/article-review/history/0ddb2d04f5f1dd2fde78fababaac09ee45000a1a0a9df61bbb75e31671b796d3.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "ab057592819aa9862ff4ff9cf8b3f80e1f6d847afa1f4f4bda059e51e2faeee0"
+    }
+  ],
+  "corrections": [],
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "reviewer": "Codex",
+  "reviewedAt": "2026-10-07T07:49:04+00:00",
+  "notes": "澳洲照片对话；展示照片、索看评价提问、人物船只介绍、追问人物、回忆工作邀请和胡子解释各按轮次合并。 text与bodyText同步；sentences对象及时间、角色、索引原样保留。",
+  "issues": [],
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "a5e9d8f210d77cdc670942b5216eb35833ad8d72eb138b5cc0417e09c477196d",
+    "afterFileSha256": "10c0b560a59bcca9f42fe27383717f98857938dcccecf6a8e0d0c6e2c878e8e5",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "a5e9d8f210d77cdc670942b5216eb35833ad8d72eb138b5cc0417e09c477196d",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title/titleZh、question/questionZh、bodyText全部21行、bodyTextZh全部21行及sentences[0..24]的完整文字；重复正文与字幕文本逐字比对，非正文字幕另读。操作在内存应用并validate_layout_change，修复后的双语全文重新通读。",
+      "notes": "澳洲照片对话；展示照片、索看评价提问、人物船只介绍、追问人物、回忆工作邀请和胡子解释各按轮次合并。 text与bodyText同步；sentences对象及时间、角色、索引原样保留。",
+      "issues": [],
+      "display": {
+        "text": "Who is the man with the beard?\n\nLook, Scott. This is a photograph I took during my trip to Australia.\nLet me see it, Mike. This is a good photograph. Who are these people?\nThey're people I met during the trip. That's the ship we travelled on.\nWhat a beautiful ship! Who's this?\nThat's the man I told you about. Remember?\nAh yes. The one who offered you a job in Australia.\nThat's right.\nWho's this?\nGuess!\nIt's not you, is it?\nThat's right. I grew a beard during the trip, but I shaved it off when I came home.\nWhy did you shave it off?\nMy wife didn't like it!",
+        "bodyText": "Look, Scott. This is a photograph I took during my trip to Australia.\nLet me see it, Mike. This is a good photograph. Who are these people?\nThey're people I met during the trip. That's the ship we travelled on.\nWhat a beautiful ship! Who's this?\nThat's the man I told you about. Remember?\nAh yes. The one who offered you a job in Australia.\nThat's right.\nWho's this?\nGuess!\nIt's not you, is it?\nThat's right. I grew a beard during the trip, but I shaved it off when I came home.\nWhy did you shave it off?\nMy wife didn't like it!",
+        "bodyTextZh": "看，斯科特。这是我在澳大利亚旅行时拍的照片。\n让我看看，迈克。这张照片真不错！这些人是谁？\n他们是我在旅行中遇到的人。那就是我们乘坐的船。\n多漂亮的船啊！这是谁？\n就是我跟你提过的那个人。记得吗？\n啊，对。就是那个在澳大利亚给你提供工作机会的人。\n没错。\n这是谁？\n猜猜看！\n肯定不是你吧？\n没错。我在旅途中留了胡子，但回家后就把它刮掉了。\n你为什么要刮掉胡子呢？\n我妻子不喜欢！"
+      },
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/0ddb2d04f5f1dd2fde78fababaac09ee45000a1a0a9df61bbb75e31671b796d3.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "ab057592819aa9862ff4ff9cf8b3f80e1f6d847afa1f4f4bda059e51e2faeee0"
+        }
+      ]
+    }
+  },
+  "status": "passed_edited",
+  "previousRevisionSha256": "0ddb2d04f5f1dd2fde78fababaac09ee45000a1a0a9df61bbb75e31671b796d3"
+}

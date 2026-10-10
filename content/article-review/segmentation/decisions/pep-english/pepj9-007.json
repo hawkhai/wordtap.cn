@@ -1,0 +1,22 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "9a5b9011fc95672f7c47474955c986949f9cdad6d837cc83ac0612cee460b857",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title；全文 blocks[0..3] 与对应 text；现有正文/对话/题干逐块通读复核。",
+  "notes": "圣诞颂歌四段为分享精神、Scrooge背景、三幽灵之旅、转变，完整故事段保留。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "blockEdits": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/d2eef158458a45ee213eaaa2a89a2eb813280741a17c019041c856fc4b3df0e7.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "b6d7ff0d727896263e1f0442eef5d6e59f28c35d1f064f3d24a49511db8a2972"
+    }
+  ]
+}

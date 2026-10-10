@@ -1,0 +1,1252 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "3d2b0ac30486b3b2b7de812cd382f615329571b2159293c539e89b36bb7e6d89",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "完整title、blocks[0..11]及等同text；智力完形现有正文和1—20全部选项/游离数字，四阅读21—40全部题选项及错位标题，AI所有正文/41—45占位符/A—G全文，大学教育翻译全正文及后置46—50，51—52写作全要求。无中文译文答案，未读图。 修后全部blocks[0..300]全文及对应自然段均已再次复核，validate_layout_change通过。",
+  "notes": "只接Indonesia首段One reason、照片Spontaneous句及招聘引语；独立AI五个小标题、原位置的五占位符和选项。全文原有缺词和hundredor-so等不校勘。保留错序结构并明确未解决，绝不按记忆移题或补文。",
+  "issues": [
+    "原blocks[0..3]完形Section I及游离数字后置；阅读Directions从block2的Mark your到block3的answers之间被完形13—20及Section II/Part A隔断。须重排才可接续，本轮原序保留。",
+    "原blocks[3..8]四篇阅读Text标题后置，23—25夹入印尼正文；26—30及Text3夹断Victorians had fun and/could首句；33—35及Text4夹入网络中立正文。跨题边界需重排解决，本轮不移动。",
+    "原blocks[9..10]AI正文五填空位置被集中为文末(41)—(45)中文占位符；C选项advertising funds/will yield best results被整篇高教翻译正文隔断，且PartB Directions前置插入阅读36题前。无法仅改变空白恢复各题结构。",
+    "原block10高教翻译46—50五题句从对应正文抽离并集中在PartC后，正文rate of growth: / Second及within three or four years, / And if等出现缺位；其间又插有PartB选项。需恢复顺序方可接续，本轮保留独立题句。"
+  ],
+  "mergeBlocks": [],
+  "splitBlocks": [
+    {
+      "index": 0,
+      "end": 11,
+      "before": [
+        "考 研 英 语 一 · 英 语 一 真 题 · 2021 年 Directions:\nRead the following text. Choose the best word(s) for each numbered blank and mark A, B, C or D on the ANSWER SHEET. (10 points)\nFluid intelligence is the type of intelligence that has to do with short-term memory and the ability to think quickly, logically, and abstractly in order to solve new problems. It in young adulthood, levels out for a period of time, and then starts to slowly decline as we age. But aging is inevitable, scientists are finding out that certain changes in brain function may not be.\nOne study found that muscle loss and the of body fat around the abdomen are associated with a decline in fluid intelligence. This suggests the that lifestyle factors might help prevent or this type of decline.\nThe researchers looked at data that measurements of lean muscle and abdominal fat from more than 4,000 middle- to older-aged men and women and that data to reported changes in fluid intelligence over a six-year period. They found that middle-aged people higher measures of abdominal fat worse on measures of fluid intelligence as the years.\nFor women, the association may be to changes in immunity that resulted from excess abdominal fat; in men, the immune system did not appear to be. It is hoped that future studies could these differences and perhaps lead to different for men and women.\nthere are steps you can to help reduce abdominal fat and maintain lean muscle mass as you age in order to protect both your physical and mental. The two highly recommended lifestyle approaches are maintaining or increasing your of aerobic exercise and following a Mediterranean-style that is high in fiber and eliminates highly processed foods.\nSection I Use of English 2 3 5 6 9 10 13 14 16 17 1.[ A ] pauses [ B ] returns [ C ] peaks [ D ] fades 2.[ A ] alternatively [ B ] formally [ C ] accidentally [ D ] generally 3.[ A ] while [ B ] since [ C ] once [ D ] until",
+        "4.[ A ] detection [ B ] accumulation [ C ] consumption [ D ] separation 5.[ A ] possibility [ B ] decision [ C ] goal [ D ] requirement 6.[ A ] delay [ B ] ensure [ C ] seek [ D ] utilize 7.[ A ] modified [ B ] supported [ C ] included [ D ] predicted 8.[ A ] devoted [ B ] compared [ C ] converted [ D ] applied 9.[ A ] with [ B ] above [ C ] by [ D ] against 10.[ A ] lived [ B ] managed [ C ] scored [ D ] played 11.[ A ] ran out [ B ] set off [ C ] drew in [ D ] went by 12.[ A ] superior [ B ] attributable [ C ] parallel [ D ] resistant",
+        "Directions:\nRead the following four texts. Answer the questions after each text by choosing A, B, C or D. Mark your 13.[ A ] restored [ B ] isolated [ C ] involved [ D ] controlled 14.[ A ] alter [ B ] spread [ C ] remove [ D ] explain 15.[ A ] compensations [ B ] symptoms [ C ] demands [ D ] treatments 16.[ A ] Likewise [ B ] Meanwhile [ C ] Therefore [ D ] Instead 17.[ A ] change [ B ] watch [ C ] count [ D ] take 18.[ A ] well-being [ B ] process [ C ] formation [ D ] coordination 19.[ A ] level [ B ] love [ C ] knowledge [ D ] space 20.[ A ] design [ B ] routine [ C ] diet [ D ] prescription Section II Reading Comprehension Part A",
+        "answers on the ANSWER SHEET. (40 points)\nHow can the train operators possibly justify yet another increase to rail passenger fares? It has become a grimly reliable annual ritual: every January the cost of travelling by train rises, imposing a significant extra burden on those who have no option but to use the rail network to get to work or otherwise. This year's rise, an average of 2.7 per cent, may be a fraction lower than last year's, but it is still well above the official Consumer Price Index (CPI) measure of inflation.\nSuccessive governments have permitted such increases on the grounds that the cost of investing in and running the rail network should be borne by those who use it, rather than the general taxpayer. Why, the argument goes, should a car-driving pensioner from Lincolnshire have to subsidise the daily commute of a stockbroker from Surrey? Equally, there is a sense that the travails of commuters in the South East, many of whom will face among the biggest rises, have received too much attention compared to those who must endure the relatively poor infrastructure of the Midlands and the North.\nHowever, over the past 12 months, those commuters have also experienced some of the worst rail strikes in years. It is all very well train operators trumpeting the improvements they are making to the network, but passengers should be able to expect a basic level of service for the substantial sums they are now paying to travel. The responsibility for the latest wave of strikes rests on the unions. However, there is a strong case that those who have been worst affected by industrial action should receive compensation for the disruption they have suffered.\nThe Government has pledged to change the law to introduce a minimum service requirement so that, even when strikes occur, services can continue to operate. This should form part of a wider package of measures to address the long-running problems on Britain's railways. Yes, more investment is needed, but passengers will not be willing to pay more indefinitely if they must also endure cramped, unreliable services, punctuated by regular chaos when timetables are changed, or planned maintenance is managed incompetently. The threat of nationalisation may have been seen off for now, but it will return with a vengeance if the justified anger of passengers is not addressed in short order.\nText 1\n21. The author holds that this year's increase in rail passenger fares____ [ A ] has kept pace with inflation.\n[ B ] is a big surprise to commuters.\n[ C ] remains an unreasonable measure.\n[ D ] will ease train operators' burden.\n22. The stockbroker in Paragraph 2 is used to stand for____ [ A ] car drivers.\n[ B ] rail travelers.\n[ C ] local investors.\n[ D ] ordinary taxpayers.",
+        "Last year marked the third year in a row that Indonesia's bleak rate of deforestation has slowed in pace.\nOne reason for the turnaround may be the country's antipoverty program.\nIn 2007, Indonesia started phasing in a program that gives money to its poorest residents under certain conditions, such as requiring people to keep kids in school or get regular medical care. Called conditional cash transfers or CCTs, these social assistance programs are designed to reduce inequality and break the cycle of poverty. They're already used in dozens of countries worldwide. In Indonesia, the program has provided enough food and medicine to substantially reduce severe growth problems among children.\nBut CCT programs don't generally consider effects on the environment. In fact, poverty alleviation and environmental protection are often viewed as conflicting goals, says Paul Ferraro, an economist at Johns Hopkins University.\nThat's because economic growth can be correlated with environmental degradation, while protecting the environment is sometimes correlated with greater poverty. However, those correlations don't prove cause and effect. The only previous study analyzing causality, based on an area in Mexico that had instituted CCTs, supported the traditional view. There, as people got more money, some of them may have more cleared land for cattle to raise for meat, Ferraro says.\nSuch programs do not have to negatively affect the environment, though. Ferraro wanted to see if Indonesia's poverty-alleviation program was affecting deforestation. Indonesia has the third-largest area of tropical forest in the world and one of the highest deforestation rates.\nFerraro analyzed satellite data showing annual forest loss from 2008 to 2012—including during Indonesia's phase-in of the antipoverty program—in 7,468 forested villages across 15 provinces. \"We see that the program is associated with a 30 percent reduction in deforestation,\" Ferraro says.\n23. It is indicated in Paragraph 3 that train operators____ [ A ] are offering compensation to commuters.\n[ B ] are trying to repair relations with the unions.\n[ C ] have failed to provide an adequate service.\n[ D ] have suffered huge losses owing to the strikes.\n24. If unable to calm down passengers, the railways may have to face____ [ A ] the loss of investment.\n[ B ] the collapse of operations.\n[ C ] a reduction of revenue.\n[ D ] a change of ownership.\n25. Which of the following would be the best title for the text?\n[ A ] Who Are to Blame for the Strikes?\n[ B ] Constant Complaining Doesn't Work [ C ] Can Nationalisation Bring Hope?\n[ D ] Ever-rising Fares Aren't Sustainable Text 2",
+        "That's likely because the rural poor are using the money as makeshift insurance policies against inclement weather, Ferraro says. Typically, if rains are delayed, people may clear land to plant more rice to supplement their harvests.\nWhether this research translates elsewhere is anybody's guess. Ferraro suggests the results may transfer to other parts of Asia, due to commonalities such as the importance of growing rice and market access. And regardless of transferability, the study shows that what's good for people may also be good for the environment.\nEven if this program didn't reduce poverty, Ferraro says, \"the value of the avoided deforestation just for carbon dioxide emissions alone is more than the program costs.\" As a historian who's always searching for the text or the image that makes us re-evaluate the past, I've become preoccupied with looking for photographs that show our Victorian ancestors smiling (what better way to shatter the image of 19th-century prudery?). I've found quite a few, and—since I started posting them on Twitter —they have been causing quite a stir. People have been surprised to see evidence that Victorians had fun and\n26. According to the first two paragraphs, CCT programs aim to____ [ A ] facilitate healthcare reform.\n[ B ] help poor families get better off.\n[ C ] improve local education systems.\n[ D ] lower deforestation rates.\n27. The study based on an area in Mexico is cited to show that____ [ A ] cattle raising has been a major means of livelihood for the poor.\n[ B ] CCT programs have helped preserve traditional lifestyles.\n[ C ] antipoverty efforts require the participation of local farmers.\n[ D ] economic growth tends to cause environmental degradation.\n28. In his study about Indonesia, Ferraro intends to find out____ [ A ] its acceptance level of CCTs.\n[ B ] its annual rate of poverty alleviation.\n[ C ] the relation of CCTs to its forest loss.\n[ D ] the role of its forests in climate change.\n29. According to Ferraro, the CCT program in Indonesia is most valuable in that____ [ A ] it will benefit other Asian countries.\n[ B ] it will reduce regional inequality.\n[ C ] it can protect the environment.\n[ D ] it can benefit grain production.\n30. What is the text centered on?\n[ A ] The effects of a program.\n[ B ] The debates over a program.\n[ C ] The process of a study.\n[ D ] The transferability of a study.\nText 3",
+        "could, and did, laugh. They are noting that the Victorians suddenly seem to become more human as the hundredor-so years that separate us fade away through our common experience of laughter.\nOf course, I need to concede that my collection of 'Smiling Victorians' makes up only a tiny percentage of the vast catalogue of photographic portraiture created between 1840 and 1900, the majority of which show sitters posing miserably and stiffly in front of painted backdrops, or staring absently into the middle distance. How do we explain this trend?\nDuring the 1840s and 1850s, in the early days of photography, exposure times were notoriously long: the daguerreotype photographic method (producing an image on a silvered copper plate) could take several minutes to complete, resulting in blurred images as sitters shifted position or adjusted their limbs. The thought of holding a fixed grin as the camera performed its magical duties was too much to contemplate, and so a non-committal blank stare became the norm.\nBut exposure times were much quicker by the 1880s, and the introduction of the Box Brownie and other portable cameras meant that, though slow by today's digital standards, the exposure was almost instantaneous.\nSpontaneous smiles were relatively easy to capture by the 1890s, so we must look elsewhere for an explanation of why Victorians still hesitated to smile.\nOne explanation might be the loss of dignity displayed through a cheesy grin. \"Nature gave us lips to conceal our teeth,\" ran one popular Victorian maxim, alluding to the fact that before the birth of proper dentistry, mouths were often in a shocking state of hygiene. A flashing set of healthy and clean, regular 'pearly whites' was a rare sight in Victorian society, the preserve of the super-rich (and even then, dental hygiene was not guaranteed).\nA toothy grin (especially when there were gaps or blackened gnashers) lacked class: drunks, tramps, and music hall performers might gurn and grin with a smile as wide as Lewis Carroll's gum-exposing Cheshire Cat, but it was not a becoming look for properly bred persons. Even Mark Twain, a man who enjoyed a hearty laugh, said that when it came to photographic portraits there could be \"nothing more damning than a silly, foolish smile fixed forever\".\n31. According to Paragraph 1, the author's posts on Twitter ____ [ A ] changed people's impression of the Victorians.\n[ B ] highlighted social media's role in Victorian studies.\n[ C ] re-evaluated the Victorian's notion of public image.\n[ D ] illustrated the development of Victorian photography.\n32. What does the author say about the Victorian portraits he has collected?\n[ A ] They are in popular use among historians.\n[ B ] They are rare among photographs of that age.\n[ C ] They mirror 19th-century social conventions.\n[ D ] They show effects of different exposure times.",
+        "From the early days of broadband, advocates for consumers and web-based companies worried that the cable and phone companies selling broadband connections had the power and incentive to favor affiliated websites over their rivals'. That's why there has been such a strong demand for rules that would prevent broadband providers from picking winners and losers online, preserving the freedom and innovation that have been the lifeblood of the Internet.\nYet that demand has been almost impossible to fill—in part because of pushback from broadband providers, anti-regulatory conservatives and the courts. A federal appeals court weighed in again Tuesday, but instead of providing a badly needed resolution, it only prolonged the fight. At issue before the U.S. Court of Appeals for the District of Columbia Circuit was the latest take of the Federal Communications Commission (FCC) on net neutrality, adopted on a party-line vote in 2017. The Republican-penned order not only eliminated the strict net neutrality rules the FCC had adopted when it had a Democratic majority in 2015, but rejected the commission's authority to require broadband providers to do much of anything. The order also declared that state and local governments couldn't regulate broadband providers either.\nThe commission argued that other agencies would protect against anti-competitive behavior, such as a broadband-providing conglomerate like AT&T favoring its own video-streaming service at the expense of Netflix and Apple TV. Yet the FCC also ended the investigations of broadband providers that imposed data caps on their rivals' streaming services but not their own.\nOn Tuesday, the appeals court unanimously upheld the 2017 order deregulating broadband providers, citing a Supreme Court ruling from 2005 that upheld a similarly deregulatory move. But Judge Patricia Millett rightly argued in a concurring opinion that \"the result is unhinged from the realities of modern broadband service,\" and said Congress or the Supreme Court could intervene to \"avoid trapping Internet regulation in technological anachronism.\"\n33. What might have kept the Victorians from smiling for pictures in the 1890s?\n[ A ] Their inherent social sensitiveness.\n[ B ] Their tension before the camera.\n[ C ] Their distrust of new inventions.\n[ D ] Their unhealthy dental condition.\n34. Mark Twain is quoted to show that the disapproval of smiles in pictures was____ [ A ] a deep-root belief.\n[ B ] a misguided attitude.\n[ C ] a controversial view.\n[ D ] a thought-provoking idea.\n35. Which of the following questions does the text answer?\n[ A ] Why did most Victorians look stern in photographs?\n[ B ] Why did the Victorians start to view photographs?\n[ C ] What made photography develop in the Victorian period?\n[ D ] How did smiling in photographs become a post-Victorian norm?\nText 4",
+        "In the meantime, the court threw out the FCC's attempt to block all state rules on net neutrality, while preserving the commission's power to preempt individual state laws that undermine its order. That means more battles like the one now going on between the Justice Department and California, which enacted a tough net neutrality law in the wake of the FCC's abdication.\nThe endless legal battles and back-and-forth at the FCC cry out for Congress to act. It needs to give the commission explicit authority once and for all to bar broadband providers from meddling in the traffic on their network and to create clear rules protecting openness and innovation online.\nDirections:\nIn the following text, some sentences have been removed. For Questions 41-45, choose the most suitable one from the list A-G to fit into each of the numbered blanks. There are two extra choices, which do not fit in any of the blanks. Mark your answers on the ANSWER SHEET. (10 points)\n36. There has long been concern that broadband providers would____ [ A ] bring web-based firms under control.\n[ B ] slow down the traffic on their network.\n[ C ] show partiality in treating clients.\n[ D ] intensify competition with their rivals.\n37. Faced with the demand for net neutrality rules, the FCC____ [ A ] sticks to an out-of-date order.\n[ B ] takes an anti-regulatory stance.\n[ C ] has issued a special resolution.\n[ D ] has allowed the states to intervene.\n38. What can be learned about AT&T from Paragraph 3?\n[ A ] It protects against unfair competition.\n[ B ] It engages in anti-competitive practices.\n[ C ] It is under the FCC's investigation.\n[ D ] It is in pursuit of quality service.\n39. Judge Patricia Millett argues that the appeals court's decision____ [ A ] focus on trivialities.\n[ B ] conveys an ambiguous message.\n[ C ] is at odds with its earlier rulings.\n[ D ] is out of touch with reality.\n40. What does the author argue in the last paragraph?\n[ A ] Congress needs to take action to ensure net neutrality.\n[ B ] The FCC should be put under strict supervision.\n[ C ] Rules need to be set to diversify online services.\n[ D ] Broadband providers' rights should be protected.\nPart B",
+        "In the movies and on television, artificial intelligence is typically depicted as something sinister that will upend our way of life. When it comes to AI in business, we often hear about it in relation to automation and the impending loss of jobs, but in what ways is AI changing companies and the larger economy that don't involve doom-and-gloom mass unemployment predictions?\nA recent survey of manufacturing and service industries from Tata Consultancy Services found that companies currently use AI more often in computer-to-computer activities than in automating human activities.\nHere are a few ways AI is aiding companies without replacing employees:\nBetter hiring practices Companies are using artificial intelligence to remove some of the unconscious bias from hiring decisions.\n\"There are experiments that show that, naturally, the results of interviews are much more biased than what AI does,\" says Pedro Domingos, author of The Master Algorithm: How the Quest for the Ultimate Learning Machine Will Remake Our World and a computer science professor at the University of Washington. \" \" One company that's doing this is called Blendoor. It uses analytics to help identify where there may be bias in the hiring process.\nMore effective marketing Some AI software can analyze and optimize marketing email subject lines to increase open rates. One company in the UK, Phrasee, claims their software can outperform humans by up to 10 percent when it comes to email open rates. This can mean millions more in revenue. These are \"tools that help people use data, not a replacement for people,\" says Patrick H. Winston, a professor of artificial intelligence and computer science at MIT.\nSaving customers money Energy companies can use AI to help customers reduce their electricity bills, saving them money while helping the environment. Companies can also optimize their own energy use and cut down on the cost of electricity. Insurance companies, meanwhile, can base their premiums on AI models that more accurately assess risk. Domingos says, \" \" Improved accuracy \"Machine learning often provides a more reliable form of statistics which makes data more valuable,\" says Winston. It \"helps people make smarter decisions.\" Protecting and maintaining infrastructure A number of companies, particularly in energy and transportation, use AI image processing technology to inspect infrastructure and prevent equipment failure or leaks before they happen. \"If they fail first and then you fix them, it's very expensive,\" says Domingos. \" \" (41)占位符这是等待完型填空的句⼦位置 (42)占位符这是等待完型填空的句⼦位置 (43)占位符这是等待完型填空的句⼦位置 (44)占位符这是等待完型填空的句⼦位置 (45)占位符这是等待完型填空的句⼦位置 [ A ] AI replaces the boring parts of your job. If you're doing research, you can have AI go out and look for relevant sources and information that otherwise you just wouldn't have time for.\n[ B ] One accounting firm, BY, uses an AI system that helps review contracts during an audit. This process, along with employees reviewing the contracts, is faster and more accurate.\n[ C ] There are also companies like Acquisio, which analyzes advertising performance across multiple channels like Adwords, Bing and social media and makes adjustments or suggestions about where advertising funds",
+        "Directions:\nRead the following text carefully and then translate the underlined segments into Chinese. Write your answers on the ANSWER SHEET. ( 10 points)\nWorld War II was the watershed event for higher education in modern Western societies.\nBut after the war, great social and political changes arising out of the successful war against Fascism created a growing demand in European and American economies for increasing numbers of graduates with more than a secondary school education.\nThese demands resulted in a very rapid expansion of the systems of higher education, beginning in the 1960s and developing very rapidly (though unevenly) during the 1970s and 1980s.\nThe growth of higher education manifests itself in at least three quite different ways, and these in turn have given rise to different sets of problems. There was first the rate of growth:\nSecond, growth obviously affected the absolute size both of systems and individual institutions. And third, growth was reflected in changes in the proportion of the relevant age group enrolled in institutions of higher education.\nEach of these manifestations of growth carried its own peculiar problems in its wake. For example, a high growth rate placed great strains on the existing structures of governance, of administration, and above all of socialization. When a faculty or department grows from, say, five to 20 members within three or four years, And if the postgraduate student population also grows rapidly and there is loss of a close apprenticeship relationship between faculty members and students, the student culture becomes the chief socializing force for new postgraduate students, with consequences for the intellectual and academic life of the institution-this was seen in America as well as in France, Italy, West Germany, and Japan.\nIn the 1960s and 1970s, European universities saw marked changes in their governance arrangements, with empowerment of junior faculty and to some degree of students as well.\nwill yield best results.\n[ D ] You want to predict if something needs attention now and point to where it's useful for employees to go to.\n[ E ] Before, they might not insure the ones who felt like a high risk or charge them too much, or they would charge them too little and then it would cost the company money.\n[ F ] We're also giving our customers better channels versus picking up the phone to accomplish something beyond human scale.\n[ G ] AI looks at resumes in greater numbers than humans would be able to, and selects the more promising candidates.\nPart C (46)Those societies came out of the war with levels of enrollment that had been roughly constant at 3-5% of the relevant age groups during the decades before the war.\n(47)And the demand that rose in those societies for entry to higher education extended to groups and social classes that had not thought of attending a university before the war.\n(48)in many countries of Western Europe, the numbers of students in higher education doubled within five-year periods during the 1960s and doubled again in seven, eight, or 10 years by the middle of the 1970s.\n(49)and when the new staff are predominantly young men and women fresh from postgraduate study, they largely define the norms of academic life in that faculty.\n(50)High growth rates increased the chances for academic innovation; they also weakened the forms and processes by which teachers and students are admitted into a community of scholars during periods of stability or slow growth.\nSection III Writing",
+        "51. Directions:\nA foreign friend of yours has recently graduated from college and intends to find a job in China. Write him/her an email to make some suggestions.\nYou should write about 100 words on the ANSWER SHEET.\nDo not sign your own name at the end. Use “Li Ming” instead.\nDo not write the address. ( 10 points)\n52. Directions:\nWrite an essay of 160 - 200 words based on the following picture. In your essay, you should\n1) describe the picture briefly,\n2) interpret its intended meaning, and\n3) give your comments.\nYou should write neatly on the ANSWER SHEET. (20 points)\nPart A Part B"
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "考 研 英 语 一 · 英 语 一 真 题 · 2021 年"
+        },
+        {
+          "type": "paragraph",
+          "text": "Directions: Read the following text. Choose the best word(s) for each numbered blank and mark A, B, C or D on the ANSWER SHEET. (10 points)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Fluid intelligence is the type of intelligence that has to do with short-term memory and the ability to think quickly, logically, and abstractly in order to solve new problems. It in young adulthood, levels out for a period of time, and then starts to slowly decline as we age. But aging is inevitable, scientists are finding out that certain changes in brain function may not be."
+        },
+        {
+          "type": "paragraph",
+          "text": "One study found that muscle loss and the of body fat around the abdomen are associated with a decline in fluid intelligence. This suggests the that lifestyle factors might help prevent or this type of decline."
+        },
+        {
+          "type": "paragraph",
+          "text": "The researchers looked at data that measurements of lean muscle and abdominal fat from more than 4,000 middle- to older-aged men and women and that data to reported changes in fluid intelligence over a six-year period. They found that middle-aged people higher measures of abdominal fat worse on measures of fluid intelligence as the years."
+        },
+        {
+          "type": "paragraph",
+          "text": "For women, the association may be to changes in immunity that resulted from excess abdominal fat; in men, the immune system did not appear to be. It is hoped that future studies could these differences and perhaps lead to different for men and women."
+        },
+        {
+          "type": "paragraph",
+          "text": "there are steps you can to help reduce abdominal fat and maintain lean muscle mass as you age in order to protect both your physical and mental. The two highly recommended lifestyle approaches are maintaining or increasing your of aerobic exercise and following a Mediterranean-style that is high in fiber and eliminates highly processed foods."
+        },
+        {
+          "type": "paragraph",
+          "text": "Section I Use of English"
+        },
+        {
+          "type": "paragraph",
+          "text": "2 3 5 6 9 10 13 14 16 17"
+        },
+        {
+          "type": "paragraph",
+          "text": "1."
+        },
+        {
+          "type": "paragraph",
+          "text": "[ A ] pauses"
+        },
+        {
+          "type": "paragraph",
+          "text": "[ B ] returns"
+        },
+        {
+          "type": "paragraph",
+          "text": "[ C ] peaks"
+        },
+        {
+          "type": "paragraph",
+          "text": "[ D ] fades"
+        },
+        {
+          "type": "paragraph",
+          "text": "2."
+        },
+        {
+          "type": "paragraph",
+          "text": "[ A ] alternatively"
+        },
+        {
+          "type": "paragraph",
+          "text": "[ B ] formally"
+        },
+        {
+          "type": "paragraph",
+          "text": "[ C ] accidentally"
+        },
+        {
+          "type": "paragraph",
+          "text": "[ D ] generally"
+        },
+        {
+          "type": "paragraph",
+          "text": "3."
+        },
+        {
+          "type": "paragraph",
+          "text": "[ A ] while"
+        },
+        {
+          "type": "paragraph",
+          "text": "[ B ] since"
+        },
+        {
+          "type": "paragraph",
+          "text": "[ C ] once"
+        },
+        {
+          "type": "paragraph",
+          "text": "[ D ] until"
+        },
+        {
+          "type": "paragraph",
+          "text": "4."
+        },
+        {
+          "type": "paragraph",
+          "text": "[ A ] detection"
+        },
+        {
+          "type": "paragraph",
+          "text": "[ B ] accumulation"
+        },
+        {
+          "type": "paragraph",
+          "text": "[ C ] consumption"
+        },
+        {
+          "type": "paragraph",
+          "text": "[ D ] separation"
+        },
+        {
+          "type": "paragraph",
+          "text": "5."
+        },
+        {
+          "type": "paragraph",
+          "text": "[ A ] possibility"
+        },
+        {
+          "type": "paragraph",
+          "text": "[ B ] decision"
+        },
+        {
+          "type": "paragraph",
+          "text": "[ C ] goal"
+        },
+        {
+          "type": "paragraph",
+          "text": "[ D ] requirement"
+        },
+        {
+          "type": "paragraph",
+          "text": "6."
+        },
+        {
+          "type": "paragraph",
+          "text": "[ A ] delay"
+        },
+        {
+          "type": "paragraph",
+          "text": "[ B ] ensure"
+        },
+        {
+          "type": "paragraph",
+          "text": "[ C ] seek"
+        },
+        {
+          "type": "paragraph",
+          "text": "[ D ] utilize"
+        },
+        {
+          "type": "paragraph",
+          "text": "7."
+        },
+        {
+          "type": "paragraph",
+          "text": "[ A ] modified"
+        },
+        {
+          "type": "paragraph",
+          "text": "[ B ] supported"
+        },
+        {
+          "type": "paragraph",
+          "text": "[ C ] included"
+        },
+        {
+          "type": "paragraph",
+          "text": "[ D ] predicted"
+        },
+        {
+          "type": "paragraph",
+          "text": "8."
+        },
+        {
+          "type": "paragraph",
+          "text": "[ A ] devoted"
+        },
+        {
+          "type": "paragraph",
+          "text": "[ B ] compared"
+        },
+        {
+          "type": "paragraph",
+          "text": "[ C ] converted"
+        },
+        {
+          "type": "paragraph",
+          "text": "[ D ] applied"
+        },
+        {
+          "type": "paragraph",
+          "text": "9."
+        },
+        {
+          "type": "paragraph",
+          "text": "[ A ] with"
+        },
+        {
+          "type": "paragraph",
+          "text": "[ B ] above"
+        },
+        {
+          "type": "paragraph",
+          "text": "[ C ] by"
+        },
+        {
+          "type": "paragraph",
+          "text": "[ D ] against"
+        },
+        {
+          "type": "paragraph",
+          "text": "10."
+        },
+        {
+          "type": "paragraph",
+          "text": "[ A ] lived"
+        },
+        {
+          "type": "paragraph",
+          "text": "[ B ] managed"
+        },
+        {
+          "type": "paragraph",
+          "text": "[ C ] scored"
+        },
+        {
+          "type": "paragraph",
+          "text": "[ D ] played"
+        },
+        {
+          "type": "paragraph",
+          "text": "11."
+        },
+        {
+          "type": "paragraph",
+          "text": "[ A ] ran out"
+        },
+        {
+          "type": "paragraph",
+          "text": "[ B ] set off"
+        },
+        {
+          "type": "paragraph",
+          "text": "[ C ] drew in"
+        },
+        {
+          "type": "paragraph",
+          "text": "[ D ] went by"
+        },
+        {
+          "type": "paragraph",
+          "text": "12."
+        },
+        {
+          "type": "paragraph",
+          "text": "[ A ] superior"
+        },
+        {
+          "type": "paragraph",
+          "text": "[ B ] attributable"
+        },
+        {
+          "type": "paragraph",
+          "text": "[ C ] parallel"
+        },
+        {
+          "type": "paragraph",
+          "text": "[ D ] resistant"
+        },
+        {
+          "type": "paragraph",
+          "text": "Directions: Read the following four texts. Answer the questions after each text by choosing A, B, C or D. Mark your"
+        },
+        {
+          "type": "paragraph",
+          "text": "13."
+        },
+        {
+          "type": "paragraph",
+          "text": "[ A ] restored"
+        },
+        {
+          "type": "paragraph",
+          "text": "[ B ] isolated"
+        },
+        {
+          "type": "paragraph",
+          "text": "[ C ] involved"
+        },
+        {
+          "type": "paragraph",
+          "text": "[ D ] controlled"
+        },
+        {
+          "type": "paragraph",
+          "text": "14."
+        },
+        {
+          "type": "paragraph",
+          "text": "[ A ] alter"
+        },
+        {
+          "type": "paragraph",
+          "text": "[ B ] spread"
+        },
+        {
+          "type": "paragraph",
+          "text": "[ C ] remove"
+        },
+        {
+          "type": "paragraph",
+          "text": "[ D ] explain"
+        },
+        {
+          "type": "paragraph",
+          "text": "15."
+        },
+        {
+          "type": "paragraph",
+          "text": "[ A ] compensations"
+        },
+        {
+          "type": "paragraph",
+          "text": "[ B ] symptoms"
+        },
+        {
+          "type": "paragraph",
+          "text": "[ C ] demands"
+        },
+        {
+          "type": "paragraph",
+          "text": "[ D ] treatments"
+        },
+        {
+          "type": "paragraph",
+          "text": "16."
+        },
+        {
+          "type": "paragraph",
+          "text": "[ A ] Likewise"
+        },
+        {
+          "type": "paragraph",
+          "text": "[ B ] Meanwhile"
+        },
+        {
+          "type": "paragraph",
+          "text": "[ C ] Therefore"
+        },
+        {
+          "type": "paragraph",
+          "text": "[ D ] Instead"
+        },
+        {
+          "type": "paragraph",
+          "text": "17."
+        },
+        {
+          "type": "paragraph",
+          "text": "[ A ] change"
+        },
+        {
+          "type": "paragraph",
+          "text": "[ B ] watch"
+        },
+        {
+          "type": "paragraph",
+          "text": "[ C ] count"
+        },
+        {
+          "type": "paragraph",
+          "text": "[ D ] take"
+        },
+        {
+          "type": "paragraph",
+          "text": "18."
+        },
+        {
+          "type": "paragraph",
+          "text": "[ A ] well-being"
+        },
+        {
+          "type": "paragraph",
+          "text": "[ B ] process"
+        },
+        {
+          "type": "paragraph",
+          "text": "[ C ] formation"
+        },
+        {
+          "type": "paragraph",
+          "text": "[ D ] coordination"
+        },
+        {
+          "type": "paragraph",
+          "text": "19."
+        },
+        {
+          "type": "paragraph",
+          "text": "[ A ] level"
+        },
+        {
+          "type": "paragraph",
+          "text": "[ B ] love"
+        },
+        {
+          "type": "paragraph",
+          "text": "[ C ] knowledge"
+        },
+        {
+          "type": "paragraph",
+          "text": "[ D ] space"
+        },
+        {
+          "type": "paragraph",
+          "text": "20."
+        },
+        {
+          "type": "paragraph",
+          "text": "[ A ] design"
+        },
+        {
+          "type": "paragraph",
+          "text": "[ B ] routine"
+        },
+        {
+          "type": "paragraph",
+          "text": "[ C ] diet"
+        },
+        {
+          "type": "paragraph",
+          "text": "[ D ] prescription"
+        },
+        {
+          "type": "paragraph",
+          "text": "Section II Reading Comprehension"
+        },
+        {
+          "type": "paragraph",
+          "text": "Part A"
+        },
+        {
+          "type": "paragraph",
+          "text": "answers on the ANSWER SHEET. (40 points)"
+        },
+        {
+          "type": "paragraph",
+          "text": "How can the train operators possibly justify yet another increase to rail passenger fares? It has become a grimly reliable annual ritual: every January the cost of travelling by train rises, imposing a significant extra burden on those who have no option but to use the rail network to get to work or otherwise. This year's rise, an average of 2.7 per cent, may be a fraction lower than last year's, but it is still well above the official Consumer Price Index (CPI) measure of inflation."
+        },
+        {
+          "type": "paragraph",
+          "text": "Successive governments have permitted such increases on the grounds that the cost of investing in and running the rail network should be borne by those who use it, rather than the general taxpayer. Why, the argument goes, should a car-driving pensioner from Lincolnshire have to subsidise the daily commute of a stockbroker from Surrey? Equally, there is a sense that the travails of commuters in the South East, many of whom will face among the biggest rises, have received too much attention compared to those who must endure the relatively poor infrastructure of the Midlands and the North."
+        },
+        {
+          "type": "paragraph",
+          "text": "However, over the past 12 months, those commuters have also experienced some of the worst rail strikes in years. It is all very well train operators trumpeting the improvements they are making to the network, but passengers should be able to expect a basic level of service for the substantial sums they are now paying to travel. The responsibility for the latest wave of strikes rests on the unions. However, there is a strong case that those who have been worst affected by industrial action should receive compensation for the disruption they have suffered."
+        },
+        {
+          "type": "paragraph",
+          "text": "The Government has pledged to change the law to introduce a minimum service requirement so that, even when strikes occur, services can continue to operate. This should form part of a wider package of measures to address the long-running problems on Britain's railways. Yes, more investment is needed, but passengers will not be willing to pay more indefinitely if they must also endure cramped, unreliable services, punctuated by regular chaos when timetables are changed, or planned maintenance is managed incompetently. The threat of nationalisation may have been seen off for now, but it will return with a vengeance if the justified anger of passengers is not addressed in short order."
+        },
+        {
+          "type": "paragraph",
+          "text": "Text 1"
+        },
+        {
+          "type": "paragraph",
+          "text": "21. The author holds that this year's increase in rail passenger fares____"
+        },
+        {
+          "type": "paragraph",
+          "text": "[ A ] has kept pace with inflation."
+        },
+        {
+          "type": "paragraph",
+          "text": "[ B ] is a big surprise to commuters."
+        },
+        {
+          "type": "paragraph",
+          "text": "[ C ] remains an unreasonable measure."
+        },
+        {
+          "type": "paragraph",
+          "text": "[ D ] will ease train operators' burden."
+        },
+        {
+          "type": "paragraph",
+          "text": "22. The stockbroker in Paragraph 2 is used to stand for____"
+        },
+        {
+          "type": "paragraph",
+          "text": "[ A ] car drivers."
+        },
+        {
+          "type": "paragraph",
+          "text": "[ B ] rail travelers."
+        },
+        {
+          "type": "paragraph",
+          "text": "[ C ] local investors."
+        },
+        {
+          "type": "paragraph",
+          "text": "[ D ] ordinary taxpayers."
+        },
+        {
+          "type": "paragraph",
+          "text": "Last year marked the third year in a row that Indonesia's bleak rate of deforestation has slowed in pace. One reason for the turnaround may be the country's antipoverty program."
+        },
+        {
+          "type": "paragraph",
+          "text": "In 2007, Indonesia started phasing in a program that gives money to its poorest residents under certain conditions, such as requiring people to keep kids in school or get regular medical care. Called conditional cash transfers or CCTs, these social assistance programs are designed to reduce inequality and break the cycle of poverty. They're already used in dozens of countries worldwide. In Indonesia, the program has provided enough food and medicine to substantially reduce severe growth problems among children."
+        },
+        {
+          "type": "paragraph",
+          "text": "But CCT programs don't generally consider effects on the environment. In fact, poverty alleviation and environmental protection are often viewed as conflicting goals, says Paul Ferraro, an economist at Johns Hopkins University."
+        },
+        {
+          "type": "paragraph",
+          "text": "That's because economic growth can be correlated with environmental degradation, while protecting the environment is sometimes correlated with greater poverty. However, those correlations don't prove cause and effect. The only previous study analyzing causality, based on an area in Mexico that had instituted CCTs, supported the traditional view. There, as people got more money, some of them may have more cleared land for cattle to raise for meat, Ferraro says."
+        },
+        {
+          "type": "paragraph",
+          "text": "Such programs do not have to negatively affect the environment, though. Ferraro wanted to see if Indonesia's poverty-alleviation program was affecting deforestation. Indonesia has the third-largest area of tropical forest in the world and one of the highest deforestation rates."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ferraro analyzed satellite data showing annual forest loss from 2008 to 2012—including during Indonesia's phase-in of the antipoverty program—in 7,468 forested villages across 15 provinces. \"We see that the program is associated with a 30 percent reduction in deforestation,\" Ferraro says."
+        },
+        {
+          "type": "paragraph",
+          "text": "23. It is indicated in Paragraph 3 that train operators____"
+        },
+        {
+          "type": "paragraph",
+          "text": "[ A ] are offering compensation to commuters."
+        },
+        {
+          "type": "paragraph",
+          "text": "[ B ] are trying to repair relations with the unions."
+        },
+        {
+          "type": "paragraph",
+          "text": "[ C ] have failed to provide an adequate service."
+        },
+        {
+          "type": "paragraph",
+          "text": "[ D ] have suffered huge losses owing to the strikes."
+        },
+        {
+          "type": "paragraph",
+          "text": "24. If unable to calm down passengers, the railways may have to face____"
+        },
+        {
+          "type": "paragraph",
+          "text": "[ A ] the loss of investment."
+        },
+        {
+          "type": "paragraph",
+          "text": "[ B ] the collapse of operations."
+        },
+        {
+          "type": "paragraph",
+          "text": "[ C ] a reduction of revenue."
+        },
+        {
+          "type": "paragraph",
+          "text": "[ D ] a change of ownership."
+        },
+        {
+          "type": "paragraph",
+          "text": "25. Which of the following would be the best title for the text?"
+        },
+        {
+          "type": "paragraph",
+          "text": "[ A ] Who Are to Blame for the Strikes?"
+        },
+        {
+          "type": "paragraph",
+          "text": "[ B ] Constant Complaining Doesn't Work"
+        },
+        {
+          "type": "paragraph",
+          "text": "[ C ] Can Nationalisation Bring Hope?"
+        },
+        {
+          "type": "paragraph",
+          "text": "[ D ] Ever-rising Fares Aren't Sustainable"
+        },
+        {
+          "type": "paragraph",
+          "text": "Text 2"
+        },
+        {
+          "type": "paragraph",
+          "text": "That's likely because the rural poor are using the money as makeshift insurance policies against inclement weather, Ferraro says. Typically, if rains are delayed, people may clear land to plant more rice to supplement their harvests."
+        },
+        {
+          "type": "paragraph",
+          "text": "Whether this research translates elsewhere is anybody's guess. Ferraro suggests the results may transfer to other parts of Asia, due to commonalities such as the importance of growing rice and market access. And regardless of transferability, the study shows that what's good for people may also be good for the environment."
+        },
+        {
+          "type": "paragraph",
+          "text": "Even if this program didn't reduce poverty, Ferraro says, \"the value of the avoided deforestation just for carbon dioxide emissions alone is more than the program costs.\""
+        },
+        {
+          "type": "paragraph",
+          "text": "As a historian who's always searching for the text or the image that makes us re-evaluate the past, I've become preoccupied with looking for photographs that show our Victorian ancestors smiling (what better way to shatter the image of 19th-century prudery?). I've found quite a few, and—since I started posting them on Twitter —they have been causing quite a stir. People have been surprised to see evidence that Victorians had fun and"
+        },
+        {
+          "type": "paragraph",
+          "text": "26. According to the first two paragraphs, CCT programs aim to____"
+        },
+        {
+          "type": "paragraph",
+          "text": "[ A ] facilitate healthcare reform."
+        },
+        {
+          "type": "paragraph",
+          "text": "[ B ] help poor families get better off."
+        },
+        {
+          "type": "paragraph",
+          "text": "[ C ] improve local education systems."
+        },
+        {
+          "type": "paragraph",
+          "text": "[ D ] lower deforestation rates."
+        },
+        {
+          "type": "paragraph",
+          "text": "27. The study based on an area in Mexico is cited to show that____"
+        },
+        {
+          "type": "paragraph",
+          "text": "[ A ] cattle raising has been a major means of livelihood for the poor."
+        },
+        {
+          "type": "paragraph",
+          "text": "[ B ] CCT programs have helped preserve traditional lifestyles."
+        },
+        {
+          "type": "paragraph",
+          "text": "[ C ] antipoverty efforts require the participation of local farmers."
+        },
+        {
+          "type": "paragraph",
+          "text": "[ D ] economic growth tends to cause environmental degradation."
+        },
+        {
+          "type": "paragraph",
+          "text": "28. In his study about Indonesia, Ferraro intends to find out____"
+        },
+        {
+          "type": "paragraph",
+          "text": "[ A ] its acceptance level of CCTs."
+        },
+        {
+          "type": "paragraph",
+          "text": "[ B ] its annual rate of poverty alleviation."
+        },
+        {
+          "type": "paragraph",
+          "text": "[ C ] the relation of CCTs to its forest loss."
+        },
+        {
+          "type": "paragraph",
+          "text": "[ D ] the role of its forests in climate change."
+        },
+        {
+          "type": "paragraph",
+          "text": "29. According to Ferraro, the CCT program in Indonesia is most valuable in that____"
+        },
+        {
+          "type": "paragraph",
+          "text": "[ A ] it will benefit other Asian countries."
+        },
+        {
+          "type": "paragraph",
+          "text": "[ B ] it will reduce regional inequality."
+        },
+        {
+          "type": "paragraph",
+          "text": "[ C ] it can protect the environment."
+        },
+        {
+          "type": "paragraph",
+          "text": "[ D ] it can benefit grain production."
+        },
+        {
+          "type": "paragraph",
+          "text": "30. What is the text centered on?"
+        },
+        {
+          "type": "paragraph",
+          "text": "[ A ] The effects of a program."
+        },
+        {
+          "type": "paragraph",
+          "text": "[ B ] The debates over a program."
+        },
+        {
+          "type": "paragraph",
+          "text": "[ C ] The process of a study."
+        },
+        {
+          "type": "paragraph",
+          "text": "[ D ] The transferability of a study."
+        },
+        {
+          "type": "paragraph",
+          "text": "Text 3"
+        },
+        {
+          "type": "paragraph",
+          "text": "could, and did, laugh. They are noting that the Victorians suddenly seem to become more human as the hundredor-so years that separate us fade away through our common experience of laughter."
+        },
+        {
+          "type": "paragraph",
+          "text": "Of course, I need to concede that my collection of 'Smiling Victorians' makes up only a tiny percentage of the vast catalogue of photographic portraiture created between 1840 and 1900, the majority of which show sitters posing miserably and stiffly in front of painted backdrops, or staring absently into the middle distance. How do we explain this trend?"
+        },
+        {
+          "type": "paragraph",
+          "text": "During the 1840s and 1850s, in the early days of photography, exposure times were notoriously long: the daguerreotype photographic method (producing an image on a silvered copper plate) could take several minutes to complete, resulting in blurred images as sitters shifted position or adjusted their limbs. The thought of holding a fixed grin as the camera performed its magical duties was too much to contemplate, and so a non-committal blank stare became the norm."
+        },
+        {
+          "type": "paragraph",
+          "text": "But exposure times were much quicker by the 1880s, and the introduction of the Box Brownie and other portable cameras meant that, though slow by today's digital standards, the exposure was almost instantaneous. Spontaneous smiles were relatively easy to capture by the 1890s, so we must look elsewhere for an explanation of why Victorians still hesitated to smile."
+        },
+        {
+          "type": "paragraph",
+          "text": "One explanation might be the loss of dignity displayed through a cheesy grin. \"Nature gave us lips to conceal our teeth,\" ran one popular Victorian maxim, alluding to the fact that before the birth of proper dentistry, mouths were often in a shocking state of hygiene. A flashing set of healthy and clean, regular 'pearly whites' was a rare sight in Victorian society, the preserve of the super-rich (and even then, dental hygiene was not guaranteed)."
+        },
+        {
+          "type": "paragraph",
+          "text": "A toothy grin (especially when there were gaps or blackened gnashers) lacked class: drunks, tramps, and music hall performers might gurn and grin with a smile as wide as Lewis Carroll's gum-exposing Cheshire Cat, but it was not a becoming look for properly bred persons. Even Mark Twain, a man who enjoyed a hearty laugh, said that when it came to photographic portraits there could be \"nothing more damning than a silly, foolish smile fixed forever\"."
+        },
+        {
+          "type": "paragraph",
+          "text": "31. According to Paragraph 1, the author's posts on Twitter ____"
+        },
+        {
+          "type": "paragraph",
+          "text": "[ A ] changed people's impression of the Victorians."
+        },
+        {
+          "type": "paragraph",
+          "text": "[ B ] highlighted social media's role in Victorian studies."
+        },
+        {
+          "type": "paragraph",
+          "text": "[ C ] re-evaluated the Victorian's notion of public image."
+        },
+        {
+          "type": "paragraph",
+          "text": "[ D ] illustrated the development of Victorian photography."
+        },
+        {
+          "type": "paragraph",
+          "text": "32. What does the author say about the Victorian portraits he has collected?"
+        },
+        {
+          "type": "paragraph",
+          "text": "[ A ] They are in popular use among historians."
+        },
+        {
+          "type": "paragraph",
+          "text": "[ B ] They are rare among photographs of that age."
+        },
+        {
+          "type": "paragraph",
+          "text": "[ C ] They mirror 19th-century social conventions."
+        },
+        {
+          "type": "paragraph",
+          "text": "[ D ] They show effects of different exposure times."
+        },
+        {
+          "type": "paragraph",
+          "text": "From the early days of broadband, advocates for consumers and web-based companies worried that the cable and phone companies selling broadband connections had the power and incentive to favor affiliated websites over their rivals'. That's why there has been such a strong demand for rules that would prevent broadband providers from picking winners and losers online, preserving the freedom and innovation that have been the lifeblood of the Internet."
+        },
+        {
+          "type": "paragraph",
+          "text": "Yet that demand has been almost impossible to fill—in part because of pushback from broadband providers, anti-regulatory conservatives and the courts. A federal appeals court weighed in again Tuesday, but instead of providing a badly needed resolution, it only prolonged the fight. At issue before the U.S. Court of Appeals for the District of Columbia Circuit was the latest take of the Federal Communications Commission (FCC) on net neutrality, adopted on a party-line vote in 2017. The Republican-penned order not only eliminated the strict net neutrality rules the FCC had adopted when it had a Democratic majority in 2015, but rejected the commission's authority to require broadband providers to do much of anything. The order also declared that state and local governments couldn't regulate broadband providers either."
+        },
+        {
+          "type": "paragraph",
+          "text": "The commission argued that other agencies would protect against anti-competitive behavior, such as a broadband-providing conglomerate like AT&T favoring its own video-streaming service at the expense of Netflix and Apple TV. Yet the FCC also ended the investigations of broadband providers that imposed data caps on their rivals' streaming services but not their own."
+        },
+        {
+          "type": "paragraph",
+          "text": "On Tuesday, the appeals court unanimously upheld the 2017 order deregulating broadband providers, citing a Supreme Court ruling from 2005 that upheld a similarly deregulatory move. But Judge Patricia Millett rightly argued in a concurring opinion that \"the result is unhinged from the realities of modern broadband service,\" and said Congress or the Supreme Court could intervene to \"avoid trapping Internet regulation in technological anachronism.\""
+        },
+        {
+          "type": "paragraph",
+          "text": "33. What might have kept the Victorians from smiling for pictures in the 1890s?"
+        },
+        {
+          "type": "paragraph",
+          "text": "[ A ] Their inherent social sensitiveness."
+        },
+        {
+          "type": "paragraph",
+          "text": "[ B ] Their tension before the camera."
+        },
+        {
+          "type": "paragraph",
+          "text": "[ C ] Their distrust of new inventions."
+        },
+        {
+          "type": "paragraph",
+          "text": "[ D ] Their unhealthy dental condition."
+        },
+        {
+          "type": "paragraph",
+          "text": "34. Mark Twain is quoted to show that the disapproval of smiles in pictures was____"
+        },
+        {
+          "type": "paragraph",
+          "text": "[ A ] a deep-root belief."
+        },
+        {
+          "type": "paragraph",
+          "text": "[ B ] a misguided attitude."
+        },
+        {
+          "type": "paragraph",
+          "text": "[ C ] a controversial view."
+        },
+        {
+          "type": "paragraph",
+          "text": "[ D ] a thought-provoking idea."
+        },
+        {
+          "type": "paragraph",
+          "text": "35. Which of the following questions does the text answer?"
+        },
+        {
+          "type": "paragraph",
+          "text": "[ A ] Why did most Victorians look stern in photographs?"
+        },
+        {
+          "type": "paragraph",
+          "text": "[ B ] Why did the Victorians start to view photographs?"
+        },
+        {
+          "type": "paragraph",
+          "text": "[ C ] What made photography develop in the Victorian period?"
+        },
+        {
+          "type": "paragraph",
+          "text": "[ D ] How did smiling in photographs become a post-Victorian norm?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Text 4"
+        },
+        {
+          "type": "paragraph",
+          "text": "In the meantime, the court threw out the FCC's attempt to block all state rules on net neutrality, while preserving the commission's power to preempt individual state laws that undermine its order. That means more battles like the one now going on between the Justice Department and California, which enacted a tough net neutrality law in the wake of the FCC's abdication."
+        },
+        {
+          "type": "paragraph",
+          "text": "The endless legal battles and back-and-forth at the FCC cry out for Congress to act. It needs to give the commission explicit authority once and for all to bar broadband providers from meddling in the traffic on their network and to create clear rules protecting openness and innovation online."
+        },
+        {
+          "type": "paragraph",
+          "text": "Directions: In the following text, some sentences have been removed. For Questions 41-45, choose the most suitable one from the list A-G to fit into each of the numbered blanks. There are two extra choices, which do not fit in any of the blanks. Mark your answers on the ANSWER SHEET. (10 points)"
+        },
+        {
+          "type": "paragraph",
+          "text": "36. There has long been concern that broadband providers would____"
+        },
+        {
+          "type": "paragraph",
+          "text": "[ A ] bring web-based firms under control."
+        },
+        {
+          "type": "paragraph",
+          "text": "[ B ] slow down the traffic on their network."
+        },
+        {
+          "type": "paragraph",
+          "text": "[ C ] show partiality in treating clients."
+        },
+        {
+          "type": "paragraph",
+          "text": "[ D ] intensify competition with their rivals."
+        },
+        {
+          "type": "paragraph",
+          "text": "37. Faced with the demand for net neutrality rules, the FCC____"
+        },
+        {
+          "type": "paragraph",
+          "text": "[ A ] sticks to an out-of-date order."
+        },
+        {
+          "type": "paragraph",
+          "text": "[ B ] takes an anti-regulatory stance."
+        },
+        {
+          "type": "paragraph",
+          "text": "[ C ] has issued a special resolution."
+        },
+        {
+          "type": "paragraph",
+          "text": "[ D ] has allowed the states to intervene."
+        },
+        {
+          "type": "paragraph",
+          "text": "38. What can be learned about AT&T from Paragraph 3?"
+        },
+        {
+          "type": "paragraph",
+          "text": "[ A ] It protects against unfair competition."
+        },
+        {
+          "type": "paragraph",
+          "text": "[ B ] It engages in anti-competitive practices."
+        },
+        {
+          "type": "paragraph",
+          "text": "[ C ] It is under the FCC's investigation."
+        },
+        {
+          "type": "paragraph",
+          "text": "[ D ] It is in pursuit of quality service."
+        },
+        {
+          "type": "paragraph",
+          "text": "39. Judge Patricia Millett argues that the appeals court's decision____"
+        },
+        {
+          "type": "paragraph",
+          "text": "[ A ] focus on trivialities."
+        },
+        {
+          "type": "paragraph",
+          "text": "[ B ] conveys an ambiguous message."
+        },
+        {
+          "type": "paragraph",
+          "text": "[ C ] is at odds with its earlier rulings."
+        },
+        {
+          "type": "paragraph",
+          "text": "[ D ] is out of touch with reality."
+        },
+        {
+          "type": "paragraph",
+          "text": "40. What does the author argue in the last paragraph?"
+        },
+        {
+          "type": "paragraph",
+          "text": "[ A ] Congress needs to take action to ensure net neutrality."
+        },
+        {
+          "type": "paragraph",
+          "text": "[ B ] The FCC should be put under strict supervision."
+        },
+        {
+          "type": "paragraph",
+          "text": "[ C ] Rules need to be set to diversify online services."
+        },
+        {
+          "type": "paragraph",
+          "text": "[ D ] Broadband providers' rights should be protected."
+        },
+        {
+          "type": "paragraph",
+          "text": "Part B"
+        },
+        {
+          "type": "paragraph",
+          "text": "In the movies and on television, artificial intelligence is typically depicted as something sinister that will upend our way of life. When it comes to AI in business, we often hear about it in relation to automation and the impending loss of jobs, but in what ways is AI changing companies and the larger economy that don't involve doom-and-gloom mass unemployment predictions?"
+        },
+        {
+          "type": "paragraph",
+          "text": "A recent survey of manufacturing and service industries from Tata Consultancy Services found that companies currently use AI more often in computer-to-computer activities than in automating human activities."
+        },
+        {
+          "type": "paragraph",
+          "text": "Here are a few ways AI is aiding companies without replacing employees:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Better hiring practices"
+        },
+        {
+          "type": "paragraph",
+          "text": "Companies are using artificial intelligence to remove some of the unconscious bias from hiring decisions. \"There are experiments that show that, naturally, the results of interviews are much more biased than what AI does,\" says Pedro Domingos, author of The Master Algorithm: How the Quest for the Ultimate Learning Machine Will Remake Our World and a computer science professor at the University of Washington. \" \" One company that's doing this is called Blendoor. It uses analytics to help identify where there may be bias in the hiring process."
+        },
+        {
+          "type": "paragraph",
+          "text": "More effective marketing"
+        },
+        {
+          "type": "paragraph",
+          "text": "Some AI software can analyze and optimize marketing email subject lines to increase open rates. One company in the UK, Phrasee, claims their software can outperform humans by up to 10 percent when it comes to email open rates. This can mean millions more in revenue. These are \"tools that help people use data, not a replacement for people,\" says Patrick H. Winston, a professor of artificial intelligence and computer science at MIT."
+        },
+        {
+          "type": "paragraph",
+          "text": "Saving customers money"
+        },
+        {
+          "type": "paragraph",
+          "text": "Energy companies can use AI to help customers reduce their electricity bills, saving them money while helping the environment. Companies can also optimize their own energy use and cut down on the cost of electricity. Insurance companies, meanwhile, can base their premiums on AI models that more accurately assess risk. Domingos says, \" \""
+        },
+        {
+          "type": "paragraph",
+          "text": "Improved accuracy"
+        },
+        {
+          "type": "paragraph",
+          "text": "\"Machine learning often provides a more reliable form of statistics which makes data more valuable,\" says Winston. It \"helps people make smarter decisions.\""
+        },
+        {
+          "type": "paragraph",
+          "text": "Protecting and maintaining infrastructure"
+        },
+        {
+          "type": "paragraph",
+          "text": "A number of companies, particularly in energy and transportation, use AI image processing technology to inspect infrastructure and prevent equipment failure or leaks before they happen. \"If they fail first and then you fix them, it's very expensive,\" says Domingos. \" \""
+        },
+        {
+          "type": "paragraph",
+          "text": "(41)占位符这是等待完型填空的句⼦位置"
+        },
+        {
+          "type": "paragraph",
+          "text": "(42)占位符这是等待完型填空的句⼦位置"
+        },
+        {
+          "type": "paragraph",
+          "text": "(43)占位符这是等待完型填空的句⼦位置"
+        },
+        {
+          "type": "paragraph",
+          "text": "(44)占位符这是等待完型填空的句⼦位置"
+        },
+        {
+          "type": "paragraph",
+          "text": "(45)占位符这是等待完型填空的句⼦位置"
+        },
+        {
+          "type": "paragraph",
+          "text": "[ A ] AI replaces the boring parts of your job. If you're doing research, you can have AI go out and look for relevant sources and information that otherwise you just wouldn't have time for."
+        },
+        {
+          "type": "paragraph",
+          "text": "[ B ] One accounting firm, BY, uses an AI system that helps review contracts during an audit. This process, along with employees reviewing the contracts, is faster and more accurate."
+        },
+        {
+          "type": "paragraph",
+          "text": "[ C ] There are also companies like Acquisio, which analyzes advertising performance across multiple channels like Adwords, Bing and social media and makes adjustments or suggestions about where advertising funds"
+        },
+        {
+          "type": "paragraph",
+          "text": "Directions: Read the following text carefully and then translate the underlined segments into Chinese. Write your answers on the ANSWER SHEET. ( 10 points)"
+        },
+        {
+          "type": "paragraph",
+          "text": "World War II was the watershed event for higher education in modern Western societies."
+        },
+        {
+          "type": "paragraph",
+          "text": "But after the war, great social and political changes arising out of the successful war against Fascism created a growing demand in European and American economies for increasing numbers of graduates with more than a secondary school education."
+        },
+        {
+          "type": "paragraph",
+          "text": "These demands resulted in a very rapid expansion of the systems of higher education, beginning in the 1960s and developing very rapidly (though unevenly) during the 1970s and 1980s."
+        },
+        {
+          "type": "paragraph",
+          "text": "The growth of higher education manifests itself in at least three quite different ways, and these in turn have given rise to different sets of problems. There was first the rate of growth:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Second, growth obviously affected the absolute size both of systems and individual institutions. And third, growth was reflected in changes in the proportion of the relevant age group enrolled in institutions of higher education."
+        },
+        {
+          "type": "paragraph",
+          "text": "Each of these manifestations of growth carried its own peculiar problems in its wake. For example, a high growth rate placed great strains on the existing structures of governance, of administration, and above all of socialization. When a faculty or department grows from, say, five to 20 members within three or four years, And if the postgraduate student population also grows rapidly and there is loss of a close apprenticeship relationship between faculty members and students, the student culture becomes the chief socializing force for new postgraduate students, with consequences for the intellectual and academic life of the institution-this was seen in America as well as in France, Italy, West Germany, and Japan."
+        },
+        {
+          "type": "paragraph",
+          "text": "In the 1960s and 1970s, European universities saw marked changes in their governance arrangements, with empowerment of junior faculty and to some degree of students as well."
+        },
+        {
+          "type": "paragraph",
+          "text": "will yield best results."
+        },
+        {
+          "type": "paragraph",
+          "text": "[ D ] You want to predict if something needs attention now and point to where it's useful for employees to go to."
+        },
+        {
+          "type": "paragraph",
+          "text": "[ E ] Before, they might not insure the ones who felt like a high risk or charge them too much, or they would charge them too little and then it would cost the company money."
+        },
+        {
+          "type": "paragraph",
+          "text": "[ F ] We're also giving our customers better channels versus picking up the phone to accomplish something beyond human scale."
+        },
+        {
+          "type": "paragraph",
+          "text": "[ G ] AI looks at resumes in greater numbers than humans would be able to, and selects the more promising candidates."
+        },
+        {
+          "type": "paragraph",
+          "text": "Part C"
+        },
+        {
+          "type": "paragraph",
+          "text": "(46)Those societies came out of the war with levels of enrollment that had been roughly constant at 3-5% of the relevant age groups during the decades before the war."
+        },
+        {
+          "type": "paragraph",
+          "text": "(47)And the demand that rose in those societies for entry to higher education extended to groups and social classes that had not thought of attending a university before the war."
+        },
+        {
+          "type": "paragraph",
+          "text": "(48)in many countries of Western Europe, the numbers of students in higher education doubled within five-year periods during the 1960s and doubled again in seven, eight, or 10 years by the middle of the 1970s."
+        },
+        {
+          "type": "paragraph",
+          "text": "(49)and when the new staff are predominantly young men and women fresh from postgraduate study, they largely define the norms of academic life in that faculty."
+        },
+        {
+          "type": "paragraph",
+          "text": "(50)High growth rates increased the chances for academic innovation; they also weakened the forms and processes by which teachers and students are admitted into a community of scholars during periods of stability or slow growth."
+        },
+        {
+          "type": "paragraph",
+          "text": "Section III Writing"
+        },
+        {
+          "type": "paragraph",
+          "text": "51."
+        },
+        {
+          "type": "paragraph",
+          "text": "Directions:"
+        },
+        {
+          "type": "paragraph",
+          "text": "A foreign friend of yours has recently graduated from college and intends to find a job in China. Write him/her an email to make some suggestions."
+        },
+        {
+          "type": "paragraph",
+          "text": "You should write about 100 words on the ANSWER SHEET."
+        },
+        {
+          "type": "paragraph",
+          "text": "Do not sign your own name at the end. Use “Li Ming” instead."
+        },
+        {
+          "type": "paragraph",
+          "text": "Do not write the address. ( 10 points)"
+        },
+        {
+          "type": "paragraph",
+          "text": "52."
+        },
+        {
+          "type": "paragraph",
+          "text": "Directions:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Write an essay of 160 - 200 words based on the following picture. In your essay, you should"
+        },
+        {
+          "type": "paragraph",
+          "text": "1) describe the picture briefly,"
+        },
+        {
+          "type": "paragraph",
+          "text": "2) interpret its intended meaning, and"
+        },
+        {
+          "type": "paragraph",
+          "text": "3) give your comments."
+        },
+        {
+          "type": "paragraph",
+          "text": "You should write neatly on the ANSWER SHEET. (20 points)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Part A"
+        },
+        {
+          "type": "paragraph",
+          "text": "Part B"
+        }
+      ],
+      "reason": "原JSON十二块全读后仅原位拆分标题、选项和可判定自然段；跨题穿插及题句被抽离均不重排，列边界issues。"
+    }
+  ],
+  "sources": [
+    {
+      "path": "content/article-review/history/5ba9bc5d4ea27b257c296bcacef9d2d9ead147c1a62467cc680da9678b9c7746.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "11dabfef5935beff44b549d22db4090ef7401335e66e3ee99c7522d3f1be1030"
+    }
+  ]
+}

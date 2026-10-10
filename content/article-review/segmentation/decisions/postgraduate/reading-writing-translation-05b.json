@@ -1,0 +1,39 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "2af370bef204689bc0c16e7411e71b51a8872c82bce9696ea9d2f59191a506e4",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title与blocks[0..24]全文逐段阅读；text等于完整blocks连接。内存应用明确决定并验证后，复核输出blocks[0..25]全文与标题/引语/自然段边界。",
+  "notes": "25块全文包括英语史宏大叙事、世界语言体系、商业语言、汉语和西语；末块的Languages trends是转入总结的独立题语，按随后The world language system起始的完整段分开，其余小标题和多句段保留。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [
+    {
+      "index": 24,
+      "before": [
+        "Languages trends The world language system is being transformed, as the relationship between \"big\" languages change and many smaller languages are disappearing. English is not the main reason for global language loss. The impact of English is mainly on the status of other national languages. The attractiveness of Mandarin to learners across the world is growing, and language schools in many countries are expanding their provision to include it. Unlike the enthusiasm for learning Japanese which was prompted by the economic rise of Japan, there are reasons why interest in Mandarin may remain a long-term trend. Where the global importance of languages used to depend on the number and wealth of native speakers, now the number of people who use it as a second language is becoming a more significant factor."
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Languages trends"
+        },
+        {
+          "type": "paragraph",
+          "text": "The world language system is being transformed, as the relationship between \"big\" languages change and many smaller languages are disappearing. English is not the main reason for global language loss. The impact of English is mainly on the status of other national languages. The attractiveness of Mandarin to learners across the world is growing, and language schools in many countries are expanding their provision to include it. Unlike the enthusiasm for learning Japanese which was prompted by the economic rise of Japan, there are reasons why interest in Mandarin may remain a long-term trend. Where the global importance of languages used to depend on the number and wealth of native speakers, now the number of people who use it as a second language is becoming a more significant factor."
+        }
+      ],
+      "reason": "Languages trends为总结题语，后续The world language system重新起完整正文段；分开题语与正文，保留原块类型和全部非空白字符。"
+    }
+  ],
+  "sources": [
+    {
+      "path": "content/article-review/history/48b9be718c3f131ba90f76c44318923ad3262b66773bb1144d4069bcfc6fb63c.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "f4ddb4dab194b28cbad78175fa89ba2595bf957ced7dedc1d281032fda1538e3"
+    }
+  ]
+}

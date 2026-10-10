@@ -1,0 +1,21 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "c6a72d67e572e0746094e536c353485bbb7e9fdecbbe7740c5253aadaa2cc4b3",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title；全文 blocks[0..4] 与对应 text；现有正文/对话/题干逐块通读复核。",
+  "notes": "游戏经历五段依初玩、发展、成瘾、重遇朋友、平衡反思组织，完整叙事段保留。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/6c0dafd53707d1836e4ca0ee145855eb600187ee78c5192928e656b6abcd6041.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "52fe7942259c255a36e8e619052cd1bc1b0e93afe18d728938685f1e814f3e5c"
+    }
+  ]
+}

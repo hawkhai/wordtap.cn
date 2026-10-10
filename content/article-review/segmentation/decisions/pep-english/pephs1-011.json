@@ -1,0 +1,21 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "2070e6dbf0cf061e61623f32767b491cea4544026fa610df716cd35feba5aaca",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title；全文 blocks[0..5] 与对应 text；现有正文/对话/题干逐块通读复核。",
+  "notes": "肢体语言六段按总引、眼神、OK、点头接触、共同手势、微笑用途组织，保留比较与例证。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/9d96acd2c55b1505cb0c30456fc95ef3f786bfc48e5941ddc106ac08793460fc.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "7387c1e1a04e3dd2aee2b3a05243d37224b2f4b877b1915fc93b370b6bda6db9"
+    }
+  ]
+}

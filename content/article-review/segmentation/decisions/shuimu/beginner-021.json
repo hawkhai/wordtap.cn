@@ -1,0 +1,44 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "543e83d66305c659bcd07eb0d1a0beb658280bd134e2d86fe68289e711072411",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "coverage": "全文 blocks[0..111]；按 JSON 上下文逐项复核对话、解释、题目、表格、词表及修复后的边界。",
+  "notes": "接回 heavy snow 词组和月份缩写连续条目，保留天气对话及独立词表行；序数词口诀表的两处错列无法在不重排字符的前提下恢复，列待确认。",
+  "issues": [
+    "blocks[78..79] third 被放在简称 1st, 2nd, 3rd 后，JSON 无法只用空白修复列顺序，保留。",
+    "blocks[83..84] 口诀末字“序”位于 twenty first 21st 之后，不重排字符，保留待确认。"
+  ],
+  "mergeBlocks": [
+    {
+      "start": 40,
+      "end": 41,
+      "before": [
+        "moderate rain 中雨 heavy rain 大雨 moderate snow 中雪 heavy",
+        "snow 大雪"
+      ],
+      "text": "moderate rain 中雨 heavy rain 大雨 moderate snow 中雪 heavy snow 大雪",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 73,
+      "end": 74,
+      "before": [
+        "◦ 一月 Jan.,二月 Feb.,三月 Mar.,四月 Apr.,五月 May,六月 Jun.,七月 Jul.,八月",
+        "Aug.,九月 Sept.,十月 Oct.,十一月 Nov.,十二月 Dec."
+      ],
+      "text": "◦ 一月 Jan.,二月 Feb.,三月 Mar.,四月 Apr.,五月 May,六月 Jun.,七月 Jul.,八月 Aug.,九月 Sept.,十月 Oct.,十一月 Nov.,十二月 Dec.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    }
+  ],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/a59df9a7ffc2320f4a3e4767a6aa8a8e5558d22ae23b328dea368e6f74401d65.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "cf8bd949a3880a0ef8bcbf4eb01428b5d4a304146fa654fdbb09915ab94f6e51"
+    }
+  ]
+}

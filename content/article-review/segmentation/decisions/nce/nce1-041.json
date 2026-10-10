@@ -1,0 +1,26 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "b77e52186e67820a2614619a2fc26e88000f1805365866d05a1f05b462bbb7c7",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title/titleZh、question/questionZh、bodyText全部16行、bodyTextZh全部16行及sentences[0..19]的完整文字；重复正文与字幕文本逐字比对，非正文字幕另读。操作在内存应用并validate_layout_change，修复后的双语全文重新通读。",
+  "notes": "Penny包中物品；Here与放椅子指令合轮，奶酪至烟草为逐项物品清单保留各行，末尾烟草归属问答独立。 text与bodyText同步；sentences对象及时间、角色、索引原样保留。",
+  "issues": [],
+  "display": {
+    "text": "Who is the tin of tobacco for?\n\nIs that bag heavy, Penny?\nNot very.\nHere! Put it on this chair.\nWhat's in it?\nA piece of cheese.\nA loaf of bread.\nA bar of soap.\nA bar of chocolate.\nA bottle of milk.\nA pound of sugar.\nHalf a pound of coffee.\nA quarter of a pound of tea.\nAnd a tin of tobacco.\nIs that tin of tobacco for me?\nWell, it's certainly not for me!",
+    "bodyText": "Is that bag heavy, Penny?\nNot very.\nHere! Put it on this chair.\nWhat's in it?\nA piece of cheese.\nA loaf of bread.\nA bar of soap.\nA bar of chocolate.\nA bottle of milk.\nA pound of sugar.\nHalf a pound of coffee.\nA quarter of a pound of tea.\nAnd a tin of tobacco.\nIs that tin of tobacco for me?\nWell, it's certainly not for me!",
+    "bodyTextZh": "那个包很重吗，Penny？\n不太重。\n给你！把它放在这把椅子上。\n里面有什么？\n一块奶酪。\n一条面包。\n一块肥皂。\n一块巧克力。\n一瓶牛奶。\n一磅糖。\n半磅咖啡。\n四分之一磅茶叶。\n还有一罐烟草。\n那罐烟草是给我的吗？\n嗯，那肯定不是给我的！"
+  },
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/0ffbc24efa2dbdca72f6e99306e92e77da50b835fdff9fea8744ba4d7f3fe721.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "0cf2cd86c79410e7124ff24ca523a5f29977902a97d7b1d7e53fcf7dad4af8f5"
+    }
+  ]
+}

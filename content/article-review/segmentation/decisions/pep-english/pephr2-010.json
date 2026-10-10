@@ -1,0 +1,21 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "552ddae31f7ac4777f53c98a59282dec5ab2ca97f324bd39aff0dfcba403d1b1",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title；全文 blocks[0..0] 与对应 text；现有正文/对话/题干逐块通读复核。",
+  "notes": "爱尔兰景观感官描写连至酒吧饮食歌舞体验，完整描写段没有机械按句切分。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/0a6460946483a9f489b8b755d47b705c7d5c19998afee357bc928e55ab9b6497.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "580cd41d0390fc2c8654f78625f8b4c66cd2e1ecc7a1688ed173a5a0842a6817"
+    }
+  ]
+}

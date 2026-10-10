@@ -1,0 +1,21 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "b206bd3797ff40f7d2d7182faf19211bec1bb98a3f0a858918d1e0c6d7b0359c",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title；全文 blocks[0..2] 与对应 text；现有正文/对话/题干逐块通读复核。",
+  "notes": "黄大年三段为敬佩总述、回国科研、牺牲与评价，保留段落。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/da1910c8cdd212a50a04bd736b0bfa409af25e4d30dbf58efa3ee3138c94a1dd.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "da0f6bff724feff361b9818ea389af17d085ba95d48637ac4b13cad449a3cfa0"
+    }
+  ]
+}

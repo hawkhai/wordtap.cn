@@ -1,0 +1,21 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "9ee11634192cf6acdf892345efd6e9af8eb9ec27439e6b537b132c3cbb579357",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "完整 title、blocks[0..8]及完全相同的text；正文及内嵌中文、引语、对话和列举均已逐项通读；无改动输出按全文再次复核。",
+  "notes": "全文及未改动输出复核：赶机受挫、旅行必要与自愿、创造性目的、熟悉与距离、保加利亚点头例子、文化差异、回家变化九段完整；Because排比属于同段论证不机械拆句。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/f5f15e5d4378274274c8e8b5df3dc56dc170d0eab57fffb13f1eadea5b3a35a7.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "70fd1d2ff7e9f15e011274726977eb40f40ca8cbe0c43b45f5a4eb3cfb5b8f3b"
+    }
+  ]
+}

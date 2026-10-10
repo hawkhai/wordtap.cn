@@ -24,6 +24,8 @@
     "复核正文边界为印刷页125—127（PDF页140—142），排除页首阅读提示以及后续New words、理解题和练习。",
     "依据正文编号恢复12个段落，并按跨页顺序衔接第3段和第8段。",
     "修正Chang’e、Luna 3、Apollo 8、Queqiao等专名以及soft-landing等连字符和引号。",
-    "删除插图、页眉页脚、页码和(876 words)字数标记。"
+    "删除插图、页眉页脚、页码和(876 words)字数标记。",
+    "2026-10-02: more countries such as China, Japan, and India have joined the lunar exploration club. -> more countries such as China and India have joined Japan, the United States, and Russia in lunar exploration.; 日本Hiten于1990年发射，已在2000年前进入月球探测；修改加入先后。",
+    "User-directed rule restoration; content/article-review/cleanup-2026-10-06.json. No new full-read claim."
   ]
 }

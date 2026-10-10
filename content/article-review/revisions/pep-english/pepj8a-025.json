@@ -1,0 +1,115 @@
+{
+  "schemaVersion": 1,
+  "course": "pep-english",
+  "articleId": "pepj8a-025",
+  "beforeDisplaySha256": "185159d2d4a9fc83d593e69f39aaaea89781763e8c43621bb3761038d208ea1c",
+  "afterDisplaySha256": "185159d2d4a9fc83d593e69f39aaaea89781763e8c43621bb3761038d208ea1c",
+  "baselineDisplay": {
+    "title": "Planning Food and Games for the Party",
+    "section": "Section A",
+    "text": "Jeff: Hey, Ben. For the party next week, should we ask people to bring food?\nBen: No, let's order food from a restaurant. If we ask people to bring food, they'll just bring potato chips and chocolate because they'll be too lazy to cook.\nJeff: OK. For the games, do you think we should give people some small gifts if they win?\nBen: I think that's a great idea! If we do that, more people will want to play the games.\nJeff: Yes, the games will be more exciting, too.",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Jeff: Hey, Ben. For the party next week, should we ask people to bring food?"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Ben: No, let's order food from a restaurant. If we ask people to bring food, they'll just bring potato chips and chocolate because they'll be too lazy to cook."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Jeff: OK. For the games, do you think we should give people some small gifts if they win?"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Ben: I think that's a great idea! If we do that, more people will want to play the games."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Jeff: Yes, the games will be more exciting, too."
+      }
+    ]
+  },
+  "display": {
+    "title": "Planning Food and Games for the Party",
+    "section": "Section A",
+    "text": "Jeff: Hey, Ben. For the party next week, should we ask people to bring food?\nBen: No, let's order food from a restaurant. If we ask people to bring food, they'll just bring potato chips and chocolate because they'll be too lazy to cook.\nJeff: OK. For the games, do you think we should give people some small gifts if they win?\nBen: I think that's a great idea! If we do that, more people will want to play the games.\nJeff: Yes, the games will be more exciting, too.",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Jeff: Hey, Ben. For the party next week, should we ask people to bring food?"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Ben: No, let's order food from a restaurant. If we ask people to bring food, they'll just bring potato chips and chocolate because they'll be too lazy to cook."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Jeff: OK. For the games, do you think we should give people some small gifts if they win?"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Ben: I think that's a great idea! If we do that, more people will want to play the games."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Jeff: Yes, the games will be more exciting, too."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "path": "content/article-review/history/8cdf5e8c57cf01ec68affda5a48154fced948f1977eb5071219eb5bef11dc1cf.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "5cd82b914207fa828b94055b662ff103242948ed17f7a60bd4c82c1cdd8c622b"
+    }
+  ],
+  "corrections": [],
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "reviewer": "Codex",
+  "reviewedAt": "2026-10-07T07:39:49+00:00",
+  "notes": "Jeff与Ben派对食物游戏五轮已经独立，条件句解释保留本轮。",
+  "issues": [],
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "4c8359956218c82a604dcb47a4620fa4bc40b43cc74cd1ff9738c960f5a8d2c8",
+    "afterFileSha256": "4c8359956218c82a604dcb47a4620fa4bc40b43cc74cd1ff9738c960f5a8d2c8",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "4c8359956218c82a604dcb47a4620fa4bc40b43cc74cd1ff9738c960f5a8d2c8",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..4] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "Jeff与Ben派对食物游戏五轮已经独立，条件句解释保留本轮。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "blockEdits": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/8cdf5e8c57cf01ec68affda5a48154fced948f1977eb5071219eb5bef11dc1cf.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "5cd82b914207fa828b94055b662ff103242948ed17f7a60bd4c82c1cdd8c622b"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "8cdf5e8c57cf01ec68affda5a48154fced948f1977eb5071219eb5bef11dc1cf"
+}

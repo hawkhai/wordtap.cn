@@ -1,0 +1,26 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "cfa25de0069cad0e569037387ef7ecab556ffcfd6ed3f742ad381d73dec6e3f2",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title/titleZh、question/questionZh、bodyText全部16行、bodyTextZh全部16行及sentences[0..19]的完整文字；重复正文与字幕文本逐字比对，非正文字幕另读。操作在内存应用并validate_layout_change，修复后的双语全文重新通读。",
+  "notes": "希腊四季问答；春夏秋冬每季的多句回答合段，每次季节提问仍独立。 text与bodyText同步；sentences对象及时间、角色、索引原样保留。",
+  "issues": [],
+  "display": {
+    "text": "Does it ever snow in Greece?\n\nWhere do you come from?\nI come from Greece.\nWhat's the climate like in your country?\nIt's very pleasant.\nWhat's the weather like in spring?\nIt's often windy in March. It's always warm in April and May, but it rains sometimes.\nWhat's it like in summer?\nIt's always hot in June, July and August. The sun shines every day.\nIs it cold or warm in autumn?\nIt's always warm in September and October. It's often cold in November and it rains sometimes.\nIs it very cold in winter?\nIt's often cold in December, January and February. It snows sometimes.",
+    "bodyText": "Where do you come from?\nI come from Greece.\nWhat's the climate like in your country?\nIt's very pleasant.\nWhat's the weather like in spring?\nIt's often windy in March. It's always warm in April and May, but it rains sometimes.\nWhat's it like in summer?\nIt's always hot in June, July and August. The sun shines every day.\nIs it cold or warm in autumn?\nIt's always warm in September and October. It's often cold in November and it rains sometimes.\nIs it very cold in winter?\nIt's often cold in December, January and February. It snows sometimes.",
+    "bodyTextZh": "你来自哪里？\n我来自希腊。\n你们国家的气候是怎样的？\n气候非常宜人。\n春天的天气是怎样的？\n三月份经常有风。四月和五月总是很温暖，但有时会下雨。\n夏天的天气是怎样的？\n六月、七月和八月总是很热。每天都阳光明媚。\n秋天是冷还是暖呢？\n九月份和十月份总是很暖和的。十一月份天气通常很冷，有时还会下雨。\n冬天会很冷吗？\n十二月、一月和二月通常都很冷。有时候会下雪。"
+  },
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/50b7b696effd540cd9d300e6096a8b27115edd3df98d43ba0f6f78844111a254.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "9f038d153533caf3674a109342a7c4bbd1f7641bf0f8157fc45468dc0d53c260"
+    }
+  ]
+}

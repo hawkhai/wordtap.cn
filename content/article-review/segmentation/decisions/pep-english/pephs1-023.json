@@ -1,0 +1,21 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "218b84ff4ddbc68aff2a241a084289801244471b2cdc531207b076e7e930d781",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title；全文 blocks[0..10] 与对应 text；现有正文/对话/题干逐块通读复核。",
+  "notes": "香格里拉书信全文复核含Potatso全景及生物多样性段，称呼、行程、两湖、次日计划、落款十一块均合理。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/67c73cb31f597349658f5c17585113fb505ff2564cf5dbac31b6ef6cc71a7975.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "09771a87a2abcd093076c1f9c1ad02f3f71f6546df0fd5a2b8ef011eddf4ded9"
+    }
+  ]
+}

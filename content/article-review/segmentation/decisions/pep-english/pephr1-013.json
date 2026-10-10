@@ -1,0 +1,75 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "4fb3af45fe0acf10759507cf5857bcff7179c1f85b19f6f96b02b8e10fcdf0ef",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title；全文 blocks[0..0] 与对应 text；现有正文/对话/题干逐块通读复核。",
+  "notes": "Dave与Jack健身问答十一轮逐轮拆分，附加问句仍保留在本轮。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [
+    {
+      "index": 0,
+      "before": [
+        "Dave: Wonderful gym, isn't it?\nJack: Er... yes. It's great.\nDave: This isn't your first time here, is it?\nJack: Actually, it is. You come here often, don't you?\nDave: Yep. At least three times a week.\nJack: You've lost some weight, haven't you?\nDave: Yes. All that fat has become muscle now. If you want to lose weight, too, I recommend using the spin bike.\nJack: OK, but it won't make me too tired, will it?\nDave: Maybe at first, but you'll get used to it. I used to come here every day when I first started.\nJack: Oh, I don't have to come here every day, do I?\nDave: No. Of course not. It's up to you, isn't it?"
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Dave: Wonderful gym, isn't it?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Jack: Er... yes. It's great."
+        },
+        {
+          "type": "paragraph",
+          "text": "Dave: This isn't your first time here, is it?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Jack: Actually, it is. You come here often, don't you?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Dave: Yep. At least three times a week."
+        },
+        {
+          "type": "paragraph",
+          "text": "Jack: You've lost some weight, haven't you?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Dave: Yes. All that fat has become muscle now. If you want to lose weight, too, I recommend using the spin bike."
+        },
+        {
+          "type": "paragraph",
+          "text": "Jack: OK, but it won't make me too tired, will it?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Dave: Maybe at first, but you'll get used to it. I used to come here every day when I first started."
+        },
+        {
+          "type": "paragraph",
+          "text": "Jack: Oh, I don't have to come here every day, do I?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Dave: No. Of course not. It's up to you, isn't it?"
+        }
+      ],
+      "reason": "每行具有明确的发言人及完整轮次，分块保留各对话轮次。"
+    }
+  ],
+  "sources": [
+    {
+      "path": "content/article-review/history/dfabca3a3119bbd200eb454caa996f66589ced9be7146e054e19909338e0c281.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "ba65fc12ed6aa6ceb41f65c9b97426499f868519bc8e4de667cd2342e08232c2"
+    }
+  ]
+}

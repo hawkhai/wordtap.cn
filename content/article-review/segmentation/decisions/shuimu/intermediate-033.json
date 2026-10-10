@@ -1,0 +1,229 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "6ebeeb99b2f59780750b5bc40f67e770ce33e5153e8ab4185c56d050f4cfb56f",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "coverage": "全文 blocks[0..197]；按 JSON 上下文逐项复核对话、解释、题目、表格、词表及修复后的边界。",
+  "notes": "通读耍蛇人故事、摘要、12题及虚拟条件句各时间形式与用法。合并中英续行及完整例句，保留各条事实说明。虚拟条件句比较表跨列文字仍按原序，不能借分段重排字词。",
+  "issues": [
+    "原blocks[135..147]虚拟条件句表格主句/从句列交错，should/would/could/might与各形式关系无法只改段界恢复，保留待确认；其余全文已修复复核。"
+  ],
+  "mergeBlocks": [
+    {
+      "start": 21,
+      "end": 22,
+      "before": [
+        "As we had had a long walk through one of the markets of old Delhi, we stopped at a",
+        "square to have a rest."
+      ],
+      "text": "As we had had a long walk through one of the markets of old Delhi, we stopped at a square to have a rest.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 24,
+      "end": 25,
+      "before": [
+        "After a time, we noticed a snake charmer with two large baskets at the other side of",
+        "the square, so we went to have a look at him."
+      ],
+      "text": "After a time, we noticed a snake charmer with two large baskets at the other side of the square, so we went to have a look at him.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 26,
+      "end": 27,
+      "before": [
+        "过了一会儿，我们注意到广场的那一边有一个带着两个大筐的耍蛇人，于是就",
+        "走过去看看。"
+      ],
+      "text": "过了一会儿，我们注意到广场的那一边有一个带着两个大筐的耍蛇人，于是就走过去看看。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 28,
+      "end": 29,
+      "before": [
+        "As soon as he saw us, he picked up a long pipe which was covered with coins and",
+        "opened one of the baskets."
+      ],
+      "text": "As soon as he saw us, he picked up a long pipe which was covered with coins and opened one of the baskets.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 30,
+      "end": 31,
+      "before": [
+        "他一见我们，就拿起了一个长长的上面镶有硬币的管乐器，并掀开了一个筐的",
+        "盖子。"
+      ],
+      "text": "他一见我们，就拿起了一个长长的上面镶有硬币的管乐器，并掀开了一个筐的盖子。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 32,
+      "end": 33,
+      "before": [
+        "When he began to play a tune, we had our first glimpse of the snake. It rose out of the",
+        "basket and began to follow the movements of the pipe."
+      ],
+      "text": "When he began to play a tune, we had our first glimpse of the snake. It rose out of the basket and began to follow the movements of the pipe.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 34,
+      "end": 35,
+      "before": [
+        "当他开始吹奏一支曲子时，我们才第一次看到那条蛇。它从筐里探出身子，随",
+        "着乐器的摆动而扭动。"
+      ],
+      "text": "当他开始吹奏一支曲子时，我们才第一次看到那条蛇。它从筐里探出身子，随着乐器的摆动而扭动。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 36,
+      "end": 37,
+      "before": [
+        "We were very much surprised when the snake charmer suddenly began to play jazz",
+        "and modern pop songs."
+      ],
+      "text": "We were very much surprised when the snake charmer suddenly began to play jazz and modern pop songs.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 39,
+      "end": 40,
+      "before": [
+        "The snake, however, continued to ‘dance’ slowly. It obviously could not tell the",
+        "difference between Indian music and jazz!"
+      ],
+      "text": "The snake, however, continued to ‘dance’ slowly. It obviously could not tell the difference between Indian music and jazz!",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 47,
+      "end": 48,
+      "before": [
+        "4 Did the snake charmer play modern tunes or not? Did the snake continue to dance",
+        "slowly, or did it dance quickly?(but)"
+      ],
+      "text": "4 Did the snake charmer play modern tunes or not? Did the snake continue to dance slowly, or did it dance quickly?(but)",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 50,
+      "end": 54,
+      "before": [
+        "Answer: We watched a snake charmer in a square in Old Delhi. He had a long",
+        "pipe and two large baskets. He played a tune and the snake in one of the",
+        "baskets rose out of the basket and began to follow the movements of the pipe.",
+        "Then the snake charmer played modern tunes but the snake continued to",
+        "dance slowly. It did not know the difference between Indian music and jazz."
+      ],
+      "text": "Answer: We watched a snake charmer in a square in Old Delhi. He had a long pipe and two large baskets. He played a tune and the snake in one of the baskets rose out of the basket and began to follow the movements of the pipe. Then the snake charmer played modern tunes but the snake continued to dance slowly. It did not know the difference between Indian music and jazz.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 121,
+      "end": 124,
+      "before": [
+        "英语有两种条件句：真实条件句和非真实条件句。真实条件句表示提出的假设",
+        "是完全可以实现的，因此句子的谓语用陈述语气。非真实条件句又称虚拟条件",
+        "句,表示所提出的假设与事实相反或实现的可能性极小，所以句子的谓语动词用",
+        "虚拟语气。"
+      ],
+      "text": "英语有两种条件句：真实条件句和非真实条件句。真实条件句表示提出的假设是完全可以实现的，因此句子的谓语用陈述语气。非真实条件句又称虚拟条件句,表示所提出的假设与事实相反或实现的可能性极小，所以句子的谓语动词用虚拟语气。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 151,
+      "end": 152,
+      "before": [
+        "如果没有水和空气，地球上就不会有生物。(事实：地球上有空气也有",
+        "水)"
+      ],
+      "text": "如果没有水和空气，地球上就不会有生物。(事实：地球上有空气也有水)",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 158,
+      "end": 159,
+      "before": [
+        "• If her mother had taken the doctor’s advice, she would/might have got well",
+        "earlier."
+      ],
+      "text": "• If her mother had taken the doctor’s advice, she would/might have got well earlier.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 160,
+      "end": 161,
+      "before": [
+        "如果她母亲当时遵照医嘱，她可能会早点康复的。(可惜她没有遵照医",
+        "嘱)"
+      ],
+      "text": "如果她母亲当时遵照医嘱，她可能会早点康复的。(可惜她没有遵照医嘱)",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 169,
+      "end": 170,
+      "before": [
+        "要是我们当时早点找到他的话，我们就可以救活他。(可惜找到他太晚",
+        "了,没有救活他)"
+      ],
+      "text": "要是我们当时早点找到他的话，我们就可以救活他。(可惜找到他太晚了,没有救活他)",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 180,
+      "end": 181,
+      "before": [
+        "注：①主句谓语中的 should主要用于第一人称。would, might, could的区别大致",
+        "是: would表示结果, might表示可能性, could表示能力、允许或可能性。"
+      ],
+      "text": "注：①主句谓语中的 should主要用于第一人称。would, might, could的区别大致是: would表示结果, might表示可能性, could表示能力、允许或可能性。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 188,
+      "end": 190,
+      "before": [
+        "②条件从句中的谓语动词为be时，不论其主语为单数还是复数，通常都用",
+        "were，但在口语或非正式文体中， 单数第一人称和第三人称后也可用was，不",
+        "过在 If I were you这样的习惯表达中，只能用were。"
+      ],
+      "text": "②条件从句中的谓语动词为be时，不论其主语为单数还是复数，通常都用 were，但在口语或非正式文体中， 单数第一人称和第三人称后也可用was，不过在 If I were you这样的习惯表达中，只能用were。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 193,
+      "end": 194,
+      "before": [
+        "④当条件从句使用“should+动词原形”时，主句除可用“should/would/could",
+        "/might+动词原形”这样的虚拟语气外，有时也可用陈述语气或祈使语气。"
+      ],
+      "text": "④当条件从句使用“should+动词原形”时，主句除可用“should/would/could/might+动词原形”这样的虚拟语气外，有时也可用陈述语气或祈使语气。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 195,
+      "end": 196,
+      "before": [
+        "• If it should rain tomorrow, don’t expect me.万一明天下雨，就不要等我",
+        "了。"
+      ],
+      "text": "• If it should rain tomorrow, don’t expect me.万一明天下雨，就不要等我了。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    }
+  ],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/eb15342f4f3c72ad68532f6f387d3ae6cda02a5e251ca6ab5a44867851bf677d.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "e9504c6bcadcbb2275cc2bd117379585ada8c6c2a6eee6bac45a3f9fe8100a2b"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "c530c7e5f37ddce5e14c32f08a0d09de7b65126ed5695d6aa6653114aab50bd8",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title；全文 blocks[0..6] 与对应 text；现有正文/对话/题干逐块通读复核。",
+  "notes": "Hot Tickets引言及棒球、板球、温网三个标题和介绍配对清楚，小吃说明仍归各项目段落。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/77dc208a385cf7afd7b595a6c52ece1c51e868c2f5f38c63a6658c8984464848.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "6f7e860f6311a4d4e816e7c476d7eea6cf0996c02c5192055d2a350fbe7369e4"
+    }
+  ]
+}

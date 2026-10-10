@@ -1,0 +1,22 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "6e5d730106b1a7d3fc076c4d45f25000bafb947dd625a338797b6793af07cc89",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title；全文 blocks[0..7] 与对应 text；现有正文/对话/题干逐块通读复核。",
+  "notes": "援外演讲开场后从疑问、母亲支援、个人情绪到医疗贡献、认同和全球责任，八段完整保留。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "blockEdits": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/81843ec1fd6750233d31273c5d6855df11c0cd97352ba258aa5b7ce6e49aeac7.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "549acdc80b5e6a558c2e16b5556a7deacc5d464f564906194516b918752148c2"
+    }
+  ]
+}

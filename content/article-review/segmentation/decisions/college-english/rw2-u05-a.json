@@ -1,0 +1,21 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "49e54bcba48f1e6d53492fbffb94fc8e0ad5bdebdbe9783b59f2cd8d160a057f",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "完整 title、blocks[0..8]及完全相同的text；正文及内嵌中文、引语、对话和列举均已逐项通读；无改动输出按全文再次复核。",
+  "notes": "全文及未改动输出复核：储蓄消费矛盾、信用卡邮件、节制与广告、心理影响、学生财务和求助建议九段完整；广告长引语为论据，与上下文保持同段。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/b8d527102c2fe02cb2f54b070feda1094979dd8f144fdec957de7a19742b8937.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "a1cca3ebefae5c8a324680e5722761e72bb7582025f17b00287cae9714a57546"
+    }
+  ]
+}

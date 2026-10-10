@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "articleId": "pepj9-018",
+  "course": "pep-english",
+  "publicBeforeDisplaySha256": "054d52d9b2fc676ae0d7166e94e07d82eb916a8c4284e2ee3c93781a307fce52",
+  "generatorBeforeDisplaySha256": "e00e8ca34565e6cbb71cdba352924374a6570ecee4e4cd4b1931024b08d2bbcf",
+  "display": {
+    "title": "The Invention of the Zipper",
+    "section": "Section A",
+    "text": "Paul: Hey Roy, the subject for my school project is \"Small inventions that changed the world\". Can you help me think of an invention?\nRoy: With pleasure! Let me think ... hmm ... I know! The zipper!\nPaul: The zipper? Is it really such a great invention?\nRoy: Think about how often it's used in our daily lives. You can see zippers on dresses, trousers, shoes, bags ... almost everywhere!\nPaul: Well, you do seem to have a point ...\nRoy: Of course! I thought about it because I saw a website last week. The pioneers of different inventions were listed there. For example, it mentioned that the zipper was invented by Whitcomb Judson in 1893. But at that time, it wasn't used widely.\nPaul: Really? So when did it become popular?\nRoy: Around 1917.",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Paul: Hey Roy, the subject for my school project is \"Small inventions that changed the world\". Can you help me think of an invention?\nRoy: With pleasure! Let me think ... hmm ... I know! The zipper!\nPaul: The zipper? Is it really such a great invention?\nRoy: Think about how often it's used in our daily lives. You can see zippers on dresses, trousers, shoes, bags ... almost everywhere!\nPaul: Well, you do seem to have a point ...\nRoy: Of course! I thought about it because I saw a website last week. The pioneers of different inventions were listed there. For example, it mentioned that the zipper was invented by Whitcomb Judson in 1893. But at that time, it wasn't used widely.\nPaul: Really? So when did it become popular?\nRoy: Around 1917."
+      }
+    ]
+  },
+  "source": {
+    "path": "content\\pep-english\\raw\\junior-9.pdf",
+    "sha256": "9c4118021048d901610b673f590ed28c39c04cb2d4f7fd940f83a2d8b2741af7",
+    "locator": "PDF第56页拉链对话，Let me think/hmm/bags/point后的省略号前仅空格差异。"
+  },
+  "notes": "Compared generator and existing public baseline; differences are whitespace only; content and block metadata are identical.",
+  "proofSha256": "db2c95210f4130fa7eecf80ad221c4a25b3f18eb9c5de926971d3949dcef8254"
+}

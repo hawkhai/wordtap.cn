@@ -10,24 +10,44 @@
   "text": "Who are we?\nWe are an organisation whose goal is to help people abroad through exchange with China.\nWhat do we do?\nBusiness or organisation employees from China and another country trade places for a period of time. This helps people in both countries to learn from each other’s expertise, and to broaden their cultural understanding.\nWhere do we work?\nWe work in Asia, Latin America, and Africa.\nHow can you help?\nYou can suggest an exchange that you want to take part in. We will help to arrange and pay for it.",
   "blocks": [
     {
-      "type": "paragraph",
+      "type": "subheading",
       "lang": "en",
-      "text": "Who are we?\nWe are an organisation whose goal is to help people abroad through exchange with China."
+      "text": "Who are we?"
     },
     {
       "type": "paragraph",
       "lang": "en",
-      "text": "What do we do?\nBusiness or organisation employees from China and another country trade places for a period of time. This helps people in both countries to learn from each other’s expertise, and to broaden their cultural understanding."
+      "text": "We are an organisation whose goal is to help people abroad through exchange with China."
+    },
+    {
+      "type": "subheading",
+      "lang": "en",
+      "text": "What do we do?"
     },
     {
       "type": "paragraph",
       "lang": "en",
-      "text": "Where do we work?\nWe work in Asia, Latin America, and Africa."
+      "text": "Business or organisation employees from China and another country trade places for a period of time. This helps people in both countries to learn from each other’s expertise, and to broaden their cultural understanding."
+    },
+    {
+      "type": "subheading",
+      "lang": "en",
+      "text": "Where do we work?"
     },
     {
       "type": "paragraph",
       "lang": "en",
-      "text": "How can you help?\nYou can suggest an exchange that you want to take part in. We will help to arrange and pay for it."
+      "text": "We work in Asia, Latin America, and Africa."
+    },
+    {
+      "type": "subheading",
+      "lang": "en",
+      "text": "How can you help?"
+    },
+    {
+      "type": "paragraph",
+      "lang": "en",
+      "text": "You can suggest an exchange that you want to take part in. We will help to arrange and pay for it."
     }
   ],
   "source": {

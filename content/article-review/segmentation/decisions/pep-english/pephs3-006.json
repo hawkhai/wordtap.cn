@@ -1,0 +1,21 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "c3265a21dce5719322e8fd27c21994853cf9d127026243563d083268d71b610b",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title；全文 blocks[0..4] 与对应 text；现有正文/对话/题干逐块通读复核。",
+  "notes": "气候变化五段为证据、北极熊案例、温室效应机制、后果和行动，保留完整机制说明及呼吁段。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/de867cee94ddcfb4ebb360f03ed54cf51e7f28a7da4ffa13e96163e7ae57b66c.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "cd116efcccbf1b4070fb38883559e2d3ee2abff86d3d76b554de4b2b98eebbc7"
+    }
+  ]
+}

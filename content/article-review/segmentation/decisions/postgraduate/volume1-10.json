@@ -1,0 +1,21 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "dc36be344ca3ed8c1b68377326c4b5c26ea571d5e66a20dd6e17f3c7857fba32",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "完整读取title及blocks[0..15]全部正文、译文和标题署名；text已验证与全块连接逐字一致。无变更方案在内存应用并验证后，再次复核上述全文及各段衔接。",
+  "notes": "全文16块从高校特权与责任导言到研究、知识传播和公民教育三项义务；长引文、跨学科列举及末段校训均留在各自论述段内，中英配对完整。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/309fe219c3803439d3244faee88691430f7211be295d647e9e2806fa178a7b49.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "aa278ecaec5fc681aa74f4aeb3e72d7f7323a19f3b80aebe8f2ae0135b0ec3d5"
+    }
+  ]
+}

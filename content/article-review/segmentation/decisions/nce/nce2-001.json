@@ -1,0 +1,26 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "2585c78eec2f217c8c80f5e0ade2b69faa1fdddf7a63f64aa440ec24701d3ea5",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title/titleZh、question/questionZh、bodyText全部16行、bodyTextZh全部16行及sentences[0..18]的完整文字；重复正文与字幕文本逐字比对，非正文字幕另读。操作在内存应用并validate_layout_change，修复后的双语全文重新通读。",
+  "notes": "剧院争执按观剧背景、身后说话与愤怒、作者抗议、年轻人反驳四个自然段；末尾同人引语合并。 text与bodyText同步；sentences对象及时间、角色、索引原样保留。",
+  "issues": [],
+  "display": {
+    "text": "Why did the writer complain to the people behind him?\n\nLast week I went to the theatre. I had a very good seat. The play was very interesting. I did not enjoy it.\nA young man and a young woman were sitting behind me. They were talking loudly. I got very angry. I could not hear the actors. I turned round. I looked at the man and the woman angrily. They did not pay any attention.\nIn the end, I could not bear it. I turned round again. 'I can't hear a word!' I said angrily.\n'It's none of your business,' the young man said rudely. 'This is a private conversation!'",
+    "bodyText": "Last week I went to the theatre. I had a very good seat. The play was very interesting. I did not enjoy it.\nA young man and a young woman were sitting behind me. They were talking loudly. I got very angry. I could not hear the actors. I turned round. I looked at the man and the woman angrily. They did not pay any attention.\nIn the end, I could not bear it. I turned round again. 'I can't hear a word!' I said angrily.\n'It's none of your business,' the young man said rudely. 'This is a private conversation!'",
+    "bodyTextZh": "上周我去剧院看戏。我的座位非常好。这出戏非常有趣。我并不喜欢它。\n一个年轻男子和一个年轻女子坐在我后面。他们说话的声音很大。我非常生气。我听不到演员们的声音。我转过身来。我愤怒地看着那个男人和那个女人。他们根本没有理会。\n最后，我实在无法忍受下去了。我又转过身来。“我一个字都听不见！”我愤怒地说道。\n“这不关你的事。”那个年轻人粗鲁地说道。“这可是私人谈话！”"
+  },
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/1a5b14e2f070c6a3fc71a2fd4ceb84b2c231949ba4a13f8f37878fe2b04be0f6.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "24d831fe7a890a2608943d23f870e82c0de2183eaf79906d06916e808fc8d5e7"
+    }
+  ]
+}

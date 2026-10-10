@@ -1,0 +1,21 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "65d97589dd797a769576b650f220cefa4e470847a79bfd004205bfafcf7abe78",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title；全文 blocks[0..0] 与对应 text；现有正文/对话/题干逐块通读复核。",
+  "notes": "白求恩生平单段按学习、医疗创新、援华、去世与纪念连续叙述，保留完整段。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/3d78f6a548b65c3c1113bcc06172984f59b4216e64c51a4a8eb5341fb24c9e74.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "fd25d93f23c477c4c49583ba408842081aa6655ccd6c5209ded015bfedc48b20"
+    }
+  ]
+}

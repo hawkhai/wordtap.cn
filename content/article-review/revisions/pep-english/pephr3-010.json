@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "course": "pep-english",
+  "articleId": "pephr3-010",
+  "beforeDisplaySha256": "285fd34320ed3a27ade0a231734fd280c6ef55ad30b43fd2e640d58445c9f573",
+  "afterDisplaySha256": "285fd34320ed3a27ade0a231734fd280c6ef55ad30b43fd2e640d58445c9f573",
+  "baselineDisplay": {
+    "title": "Native Americans in California",
+    "section": "Pronunciation",
+    "text": "No one really knows exactly when the first people arrived in what we now know as California. It is likely that Native Americans moved to California at least fifteen thousand years ago. Scientists believe that these settlers crossed the Bering Strait by a land bridge which existed in prehistoric times. In the 16th century, the native people suffered greatly after the arrival of the Europeans. Thousands of them were killed or forced into slavery. In addition, many died from the diseases brought by the Europeans. However, some survived these terrible times, and today there are more Native Americans living in California than in any other state of America.",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "No one really knows exactly when the first people arrived in what we now know as California. It is likely that Native Americans moved to California at least fifteen thousand years ago. Scientists believe that these settlers crossed the Bering Strait by a land bridge which existed in prehistoric times. In the 16th century, the native people suffered greatly after the arrival of the Europeans. Thousands of them were killed or forced into slavery. In addition, many died from the diseases brought by the Europeans. However, some survived these terrible times, and today there are more Native Americans living in California than in any other state of America."
+      }
+    ]
+  },
+  "display": {
+    "title": "Native Americans in California",
+    "section": "Pronunciation",
+    "text": "No one really knows exactly when the first people arrived in what we now know as California. It is likely that Native Americans moved to California at least fifteen thousand years ago. Scientists believe that these settlers crossed the Bering Strait by a land bridge which existed in prehistoric times. In the 16th century, the native people suffered greatly after the arrival of the Europeans. Thousands of them were killed or forced into slavery. In addition, many died from the diseases brought by the Europeans. However, some survived these terrible times, and today there are more Native Americans living in California than in any other state of America.",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "No one really knows exactly when the first people arrived in what we now know as California. It is likely that Native Americans moved to California at least fifteen thousand years ago. Scientists believe that these settlers crossed the Bering Strait by a land bridge which existed in prehistoric times. In the 16th century, the native people suffered greatly after the arrival of the Europeans. Thousands of them were killed or forced into slavery. In addition, many died from the diseases brought by the Europeans. However, some survived these terrible times, and today there are more Native Americans living in California than in any other state of America."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "path": "content/article-review/history/8ce41cb9907440db6f188e3a3f47f732bb943912cb7d568c2077dfe32b67c133.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "9bc3c3d922f17000612e426f25cdbafe2b278c9cd19dd85517c565a2b07492d3"
+    }
+  ],
+  "corrections": [],
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "reviewer": "Codex",
+  "reviewedAt": "2026-10-07T07:30:20+00:00",
+  "notes": "加州原住民迁徙、受迫害及今日分布构成完整历史说明短段，保留。",
+  "issues": [],
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "58395bdf39c87b8d722f1915c65ab30fbe230bc5072b152cf49441ee0d66b69d",
+    "afterFileSha256": "58395bdf39c87b8d722f1915c65ab30fbe230bc5072b152cf49441ee0d66b69d",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "58395bdf39c87b8d722f1915c65ab30fbe230bc5072b152cf49441ee0d66b69d",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..0] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "加州原住民迁徙、受迫害及今日分布构成完整历史说明短段，保留。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/8ce41cb9907440db6f188e3a3f47f732bb943912cb7d568c2077dfe32b67c133.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "9bc3c3d922f17000612e426f25cdbafe2b278c9cd19dd85517c565a2b07492d3"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "8ce41cb9907440db6f188e3a3f47f732bb943912cb7d568c2077dfe32b67c133"
+}

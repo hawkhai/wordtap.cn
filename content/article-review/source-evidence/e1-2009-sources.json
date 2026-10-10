@@ -1,0 +1,77 @@
+{
+  "article": "e1-2009",
+  "rawRead": {
+    "blocks": 8,
+    "pdfPhysicalPages": [
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64
+    ],
+    "allPageImagesRead": true
+  },
+  "sources": [
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/18363867/",
+      "readScope": "打开取得题名、作者、2008年6月62(6):1294–1304及DOI，后续find仅返回空壳；实际研究结论通过搜索摘要读取，含人工选择学习种群平均寿命较短及反向选择早期学习下降，未取得全文。"
+    },
+    {
+      "url": "https://onlinelibrary.wiley.com/doi/10.1111/j.1558-5646.2008.00376.x",
+      "readScope": "搜索读取摘要、constitutive costs研究目的及Correlated response in longevity段：人工选择种群而非单次训练；不声称读过全论文、原图或重新计算实验。"
+    },
+    {
+      "url": "https://www.nimh.nih.gov/health/publications/the-teen-brain-7-things-to-know",
+      "readScope": "完整读取网页L21–52七点正文与2023修订信息；青年脑仍可适应新经验，不支持青春期关闭一半思考能力。"
+    },
+    {
+      "url": "https://newsinhealth.nih.gov/2012/01/breaking-bad-habits",
+      "readScope": "搜索返回2012年习惯形成、奖赏和替代行为段；未阅读全文，不把习惯持久说成永不可变。"
+    },
+    {
+      "url": "https://newsinhealth.nih.gov/2018/03/creating-healthy-habits",
+      "readScope": "搜索返回重复行为与脑变化、打断既有模式并建立新模式等段落；未阅读全文。"
+    },
+    {
+      "url": "https://georgewbush-whitehouse.archives.gov/news/releases/2006/04/text/20060418-1.html",
+      "readScope": "搜索读取2006-04-18元数据、任命开场和关于Rumsfeld的完整相关问答，确认Decider指Bush；未读取完整记者会。"
+    },
+    {
+      "url": "https://medlineplus.gov/genetics/understanding/dtcgenetictesting/ancestrytesting/",
+      "readScope": "完整读取网页L48–73检测类型与局限正文，Y父系、线粒体母系、常染色体参考库和解释局限；2026-06-02更新，用于现代科学边界而非还原当年价格。"
+    },
+    {
+      "url": "https://econfaculty.gmu.edu/pboettke/workshop/spring05/Lewis.pdf",
+      "readScope": "成功取得468690字节12页的McKinsey Quarterly 2004 No.2原文PDF。用pypdf完整抽取读取物理页2和7，后者印刷106页含95%及Houston例；其他页只检索关键词，未通读、未视觉审图或复算研究数据。"
+    },
+    {
+      "url": "https://historicipswich.net/2022/12/23/the-temptations-of-john-dane-a-declaration-of-remarkable-providences/",
+      "readScope": "回忆录转录：打开读引言和L15–59；后find返回并读取L60–101及来源表，正文至结尾已读。转录说明原1682、1854转录后为可读性现代化拼写；不是检查手稿影像。网页重定向日期变化不当成回忆录年代。"
+    },
+    {
+      "url": "https://darwin-online.org.uk/converted/pdf/1861_OriginNY_F382.pdf",
+      "readScope": "搜索返回达尔文历史概述中1859年11月初版句，未打开全部PDF；另Darwin Online首版校勘目录明确1859。仅用于出版年代订正，不声称核查Spencer整部著作。"
+    },
+    {
+      "url": "https://darwin-online.org.uk/Variorum/1859/1859-61-c-1860.html",
+      "readScope": "搜索读取首版1859、页61及版本比较元数据，版本对照中Spencer用语不误当1859首版原词。"
+    },
+    {
+      "url": "https://www.gutenberg.org/ebooks/852.txt.utf-8",
+      "readScope": "下载原著文本，规范空白后完整读取第一章第3节开头5100字符，与本卷全部翻译篇幅及下文衔接核对；未通读整本。原作有被本卷删去的限定和插入语，不擅加回考试划线。"
+    }
+  ],
+  "review": {
+    "finalBlocks": 135,
+    "fullFinalRead": true,
+    "changedBlocksReread": true,
+    "clozeReasoned": "BADBCADCBDDACDACBAAC",
+    "readingReasoned": "CDADAACDABDBBACBBDAC",
+    "matchingReasoned": "CEBAG",
+    "answersAreOfficial": false,
+    "notes": "答案为本文语义推导，不冒称官方答案。原PDF所有选项、翻译范围及写作要求逐项核对；脑科学和历史概括为明确编校订正。"
+  }
+}

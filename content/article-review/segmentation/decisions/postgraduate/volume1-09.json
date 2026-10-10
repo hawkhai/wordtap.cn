@@ -1,0 +1,21 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "a22fb08b76d693e0824e38146ff1cd5d78d34aea60af861f06d5fcb2d2f054b5",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "完整读取title及blocks[0..29]全部正文、译文和标题署名；text已验证与全块连接逐字一致。无变更方案在内存应用并验证后，再次复核上述全文及各段衔接。",
+  "notes": "全文30块核读费尔法克斯数据、联邦住房政策、补贴时限、通勤、建设供给与房价崩盘讨论；每一英文自然段及对应译文完整，短引语段独立承接前论点，保持原边界。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/1e853ca27095d0ebd89731ee83a0b0313ab6e00811a9603fe0cc46dadbda0351.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "75b5ebbc277aad596422b8634ec0441882d7ed349f6ab54cf5595e523fda7543"
+    }
+  ]
+}

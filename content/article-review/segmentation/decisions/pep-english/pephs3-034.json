@@ -1,0 +1,21 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "e9ca41a96d80232f914b8082164c80f03e1cca2afc8c0d9b529a52c8a534e19e",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title；全文 blocks[0..0] 与对应 text；现有正文/对话/题干逐块通读复核。",
+  "notes": "The Gift七行散文诗各行可含多句，按原诗行整体保留，不按句子拆碎。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/2b0837018aa42f43405f5ac0fb85d9260b0e49047295fa79fb236f785f539992.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "c833bace2f37e01f05a3064e4ea54eb80499fad6d250f9bbe94dc352b5990177"
+    }
+  ]
+}

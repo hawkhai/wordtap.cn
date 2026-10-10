@@ -1,0 +1,95 @@
+{
+  "schemaVersion": 1,
+  "course": "pep-english",
+  "articleId": "pepj8a-007",
+  "beforeDisplaySha256": "1ce42e4741877887875ea2063b33f5e0f27b6be5a0ddad14f89cf134bfb368f2",
+  "afterDisplaySha256": "1ce42e4741877887875ea2063b33f5e0f27b6be5a0ddad14f89cf134bfb368f2",
+  "baselineDisplay": {
+    "title": "Should Friends Be the Same or Different?",
+    "section": "Section B",
+    "text": "Jeff Green: My mother told me a good friend is like a mirror. I'm quieter and more serious than most kids. That's why I like reading books and I study harder in class. My best friend Yuan Li is quiet too, so we enjoy studying together. I'm shy so it's not easy for me to make friends. But I think friends are like books — you don't need a lot of them as long as they're good.\nHuang Lei: It's not necessary to be the same. My best friend Larry is quite different from me. He is taller and more outgoing than me. We both like sports, but he plays tennis better, so he always wins. However, Larry often helps to bring out the best in me. So I'm getting better at tennis. Larry is much less hard-working, though. I always get better grades than he does, so maybe I should help him more.\nMary Smith: I don't really care if my friends are the same as me or different. My favorite saying is, \"A true friend reaches for your hand and touches your heart.\" My best friend Carol is really kind and very funny. In fact, she's funnier than anyone I know. I broke my arm last year but she made me laugh and feel better. We can talk about and share everything. I know she cares about me because she's always there to listen.",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Jeff Green: My mother told me a good friend is like a mirror. I'm quieter and more serious than most kids. That's why I like reading books and I study harder in class. My best friend Yuan Li is quiet too, so we enjoy studying together. I'm shy so it's not easy for me to make friends. But I think friends are like books — you don't need a lot of them as long as they're good."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Huang Lei: It's not necessary to be the same. My best friend Larry is quite different from me. He is taller and more outgoing than me. We both like sports, but he plays tennis better, so he always wins. However, Larry often helps to bring out the best in me. So I'm getting better at tennis. Larry is much less hard-working, though. I always get better grades than he does, so maybe I should help him more."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Mary Smith: I don't really care if my friends are the same as me or different. My favorite saying is, \"A true friend reaches for your hand and touches your heart.\" My best friend Carol is really kind and very funny. In fact, she's funnier than anyone I know. I broke my arm last year but she made me laugh and feel better. We can talk about and share everything. I know she cares about me because she's always there to listen."
+      }
+    ]
+  },
+  "display": {
+    "title": "Should Friends Be the Same or Different?",
+    "section": "Section B",
+    "text": "Jeff Green: My mother told me a good friend is like a mirror. I'm quieter and more serious than most kids. That's why I like reading books and I study harder in class. My best friend Yuan Li is quiet too, so we enjoy studying together. I'm shy so it's not easy for me to make friends. But I think friends are like books — you don't need a lot of them as long as they're good.\nHuang Lei: It's not necessary to be the same. My best friend Larry is quite different from me. He is taller and more outgoing than me. We both like sports, but he plays tennis better, so he always wins. However, Larry often helps to bring out the best in me. So I'm getting better at tennis. Larry is much less hard-working, though. I always get better grades than he does, so maybe I should help him more.\nMary Smith: I don't really care if my friends are the same as me or different. My favorite saying is, \"A true friend reaches for your hand and touches your heart.\" My best friend Carol is really kind and very funny. In fact, she's funnier than anyone I know. I broke my arm last year but she made me laugh and feel better. We can talk about and share everything. I know she cares about me because she's always there to listen.",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Jeff Green: My mother told me a good friend is like a mirror. I'm quieter and more serious than most kids. That's why I like reading books and I study harder in class. My best friend Yuan Li is quiet too, so we enjoy studying together. I'm shy so it's not easy for me to make friends. But I think friends are like books — you don't need a lot of them as long as they're good."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Huang Lei: It's not necessary to be the same. My best friend Larry is quite different from me. He is taller and more outgoing than me. We both like sports, but he plays tennis better, so he always wins. However, Larry often helps to bring out the best in me. So I'm getting better at tennis. Larry is much less hard-working, though. I always get better grades than he does, so maybe I should help him more."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Mary Smith: I don't really care if my friends are the same as me or different. My favorite saying is, \"A true friend reaches for your hand and touches your heart.\" My best friend Carol is really kind and very funny. In fact, she's funnier than anyone I know. I broke my arm last year but she made me laugh and feel better. We can talk about and share everything. I know she cares about me because she's always there to listen."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "path": "content/article-review/history/36540c6e7868e01aec14b8c9b300154dd2ad1087481685f2d51191c4858b5cc7.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "32c428aa1f63b0d6682521190d28c545965233f6a6bca4473301de3bf5f60a14"
+    }
+  ],
+  "corrections": [],
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "reviewer": "Codex",
+  "reviewedAt": "2026-10-07T07:39:48+00:00",
+  "notes": "Jeff、Huang Lei、Mary三人朋友观各为完整署名自述，保留人物边界与例证段。",
+  "issues": [],
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "507cc2dbd581ccd82ad69092fc079f6498afed2f2addbe76fe71891dfdf5281b",
+    "afterFileSha256": "507cc2dbd581ccd82ad69092fc079f6498afed2f2addbe76fe71891dfdf5281b",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "507cc2dbd581ccd82ad69092fc079f6498afed2f2addbe76fe71891dfdf5281b",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..2] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "Jeff、Huang Lei、Mary三人朋友观各为完整署名自述，保留人物边界与例证段。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "blockEdits": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/36540c6e7868e01aec14b8c9b300154dd2ad1087481685f2d51191c4858b5cc7.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "32c428aa1f63b0d6682521190d28c545965233f6a6bca4473301de3bf5f60a14"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "36540c6e7868e01aec14b8c9b300154dd2ad1087481685f2d51191c4858b5cc7"
+}

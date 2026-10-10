@@ -1,0 +1,21 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "de85f877afa36e45d46eee20e8d64de5516f99eb265d726ced6840f3e3af6d60",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title；全文 blocks[0..9] 与对应 text；现有正文/对话/题干逐块通读复核。",
+  "notes": "Toronto及Montreal游记十段含参观、会友及摄影师对话，人物引语与叙事自然分段，保持。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/e68e0bf0d3cead888dd3e9fc4fd3ebf6e9e2c66144d842f9b5e5cfbb79d0c53b.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "46a48563e31f686faf6410dc35b09524b3dab79c635fa539d5e2b97d67c5939f"
+    }
+  ]
+}

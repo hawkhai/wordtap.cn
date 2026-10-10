@@ -1,0 +1,104 @@
+{
+  "article": "e1-1991",
+  "checkedAt": "2026-10-03",
+  "sourcePdfPhysicalPagesRead": [
+    24,
+    25,
+    26,
+    27,
+    28,
+    29
+  ],
+  "sources": [
+    {
+      "url": "https://www.archives.gov/files/historical-docs/doc-content/images/26th-amendment-18-vote.pdf",
+      "scope": "检索实际读修正案正文年龄18及以上投票权不得因年龄被剥夺；未读PDF影像。"
+    },
+    {
+      "url": "https://www.archives.gov/publications/prologue/2015/winter/amending-america",
+      "scope": "检索实际读1971年投票年龄从21降至18的段落，非全页。"
+    },
+    {
+      "url": "https://www.dol.gov/agencies/whd/youthrules/young-workers/non-ag-16-17",
+      "scope": "检索实际读16–17岁非农业工作及联邦危险职业限制、州法可能更严格和相关危险职业清单，非页面所有链接。"
+    },
+    {
+      "url": "https://www.senate.gov/about/origins-foundations/senate-and-constitution/qualifications.htm",
+      "scope": "检索实际读开篇宪法资格及Age段，参议员至少30岁、九年公民等，未全页。"
+    },
+    {
+      "url": "https://webbook.nist.gov/cgi/cbook.cgi?ID=C7732185&Mask=4&Plot=on&Type=ANTOINE",
+      "scope": "实际打开读取页面全部Antoine方程、参数表和来源；采用273–303K范围的Bridgeman与Aldrich系数计算饱和蒸气压，体积分数另除指定总压。"
+    },
+    {
+      "url": "https://openstax.org/books/concepts-biology/pages/5-1-overview-of-photosynthesis",
+      "scope": "检索实际读Figure5.5说明：太阳能、CO₂、水参与光合作用，产氧和储能糖；未全章。"
+    },
+    {
+      "url": "https://openstax.org/books/biology-2e/pages/30-5-transport-of-water-and-solutes-in-plants",
+      "scope": "检索实际读水势、组织导水及植物平衡光合作用和失水的摘段，未通读全节。"
+    },
+    {
+      "url": "https://files.eric.ed.gov/fulltext/ED242881.pdf",
+      "scope": "仅检索实际读匹配的光合作用及186/10000那一段；PDF因超过工具大小限制未打开。该数字在旧文复现不等于科学正确，本版另用NIST计算。"
+    },
+    {
+      "url": "https://www.bu.edu/library/wp-assets/finding-aids/Asimov-Isaac-809.pdf",
+      "scope": "仅实际读档案目录检索项Supermarkets in the Year 2001、Good Food、1973、typescriptholo.corr.signed6p；PDF太大未打开，不是论文/手稿全文，不承担逐字校勘依据。"
+    },
+    {
+      "url": "https://www.eia.gov/Tools/faqs/faq.php?id=38&t=6",
+      "scope": "检索实际读储采比不宜作未来资源寿命测量的段落以及IEO2023的情景预测摘要；未全页，不把2050供给情景当确定事实。"
+    },
+    {
+      "url": "https://www.eia.gov/naturalgas/crudeoilreserves/pdf/usreserves_2021.pdf",
+      "scope": "检索实际读技术、价格/经济条件变化使经济可采储量修订的段落，非整份报告。"
+    },
+    {
+      "url": "https://www.census.gov/newsroom/releases/archives/census_2000/cb00-cn64.html",
+      "scope": "检索实际读发布元数据与开篇2000-04-01人口281421906、1990比较，未全发布稿。"
+    },
+    {
+      "url": "https://www2.census.gov/census_2000/census2000/states/us.html",
+      "scope": "实际检索读人口数量及主表链接列表，未打开各表。"
+    },
+    {
+      "url": "https://press.un.org/en/1998/19981028.pop685.html",
+      "scope": "检索实际读1998年UNFPA宣布1999-10-12世界60亿人口日的开篇及增长背景，非全文。"
+    },
+    {
+      "url": "https://digitallibrary.un.org/record/3928784?ln=en",
+      "scope": "实际读State of World Population 2011目录检索内容，70亿及此前12年60亿背景，非整本报告。"
+    },
+    {
+      "url": "https://digitallibrary.un.org/record/3928784/files/EN-SWOP2011-FINAL.pdf",
+      "scope": "实际检索读前言2011-10-31约70亿，未逐页阅读PDF。"
+    }
+  ],
+  "waterVaporCalculation": {
+    "temperatureKelvin": 299.81666666666666,
+    "formula": "log10(P/bar)=5.40221−1838.675/(T/K−31.737)",
+    "saturationPressureBar": 0.03495595947050351,
+    "totalPressureBar": 1.01325,
+    "partsByVolumePer10000": 344.98849711821873,
+    "assumption": "近似理想气体、饱和、指定总压；采用约345，不把无基准旧186照抄为体积分数"
+  },
+  "limitations": [
+    "6原块及全部6原图已读；最终91块全文已读，24/26题尾空白及破折号间隔随后再核。",
+    "35题实际推理，无官方答案或中译，完形BADCCBADBCADBCB；阅读BCAADCACCADACDB，25/26含明确编辑修订。",
+    "犯罪原因与大小城镇断言限定作者观点；未给开篇格言虚假作者署名。",
+    "成年权利旧文保留作历史阅读，已附真实法律反例；23/24显式限定旧文，25A由消失校为变化以修复无合适选项。",
+    "26重新列出文内明确支持的三项水功能与光合作用产CO₂反例，植物呼吸不在该否定范围内；28段序与现有四段一致，29D具体化。",
+    "1973作品只找到BU档案目录，非手稿全文。缺漏整句直接据物理页29原图恢复，不依赖推测补文。31–35标记均按原下划线，34冠词及population growth为明示语义语法校订。",
+    "作文原图没有given opening sentence，教学版公开适配为自行开头及总计120–150词，不伪造官方原句；原题说明仍留在修订前置证据。",
+    "旧预测不可当成现在事实，食品天然与否也不构成安全性标准。"
+  ],
+  "answerChecks": {
+    "editorReasoningNotOfficial": {
+      "cloze": "BADCCBADBCADBCB",
+      "reading": "BCAADCACCADACDB"
+    }
+  },
+  "rawSha256": "15429f44d43288b08fba4051e141ab2e365891cfd13009fb76d5496d2bc9d35f",
+  "pdfSha256": "802c3d218714a6362731273cc8d2b9d25ab499f210d39194461a3cf5b28c4a39"
+}

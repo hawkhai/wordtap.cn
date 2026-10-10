@@ -1,0 +1,99 @@
+{
+  "article": "e1-1994",
+  "checkedAt": "2026-10-03",
+  "sourcePdfPhysicalPagesRead": [
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "sources": [
+    {
+      "url": "https://www.cancer.gov/about-cancer/understanding/what-is-cancer",
+      "scope": "实际读取癌细胞区别、发生机制、相关基因、转移、组织改变及癌症类型开篇至淋巴瘤部分；未全页。原癌基因正常生长功能、癌基因改变或过度活动、抑癌和DNA修复基因、超过100种癌症。"
+    },
+    {
+      "url": "https://www.cancer.gov/about-cancer/diagnosis-staging/prognosis",
+      "scope": "仅检索摘要中预后统计及治愈定义，未全页。"
+    },
+    {
+      "url": "https://seer.cancer.gov/statfacts/html/all.html",
+      "scope": "仅检索摘要中群体生存统计不能预测个体结果，未读取全表或用其数字替换旧数据。"
+    },
+    {
+      "url": "https://www.cancer.org/content/dam/cancer-org/research/cancer-facts-and-statistics/cancer-treatment-and-survivorship-facts-and-figures-2019-2021.pdf",
+      "scope": "仅检索摘要指出五年相对生存不等同治愈，部分癌症死亡在五年以后，未通读PDF。"
+    },
+    {
+      "url": "https://www.consumerfinance.gov/ask-cfpb/can-i-withdraw-money-from-my-credit-card-at-an-atm-en-34/",
+      "scope": "检索现金预借与借记卡区别的正文段：属于信用额度内短期借款，未全页。"
+    },
+    {
+      "url": "https://www.consumerfinance.gov/ask-cfpb/how-are-prepaid-cards-debit-cards-and-credit-cards-different-en-433/",
+      "scope": "检索借记卡对应存款账户段，未全页。"
+    },
+    {
+      "url": "https://www.ed.gov/laws-and-policy/individuals-disabilities/individuals-disabilities-education-act-idea",
+      "scope": "检索主体导言：符合条件的残障儿童、免费适当公共教育和相关服务，未全页。"
+    },
+    {
+      "url": "https://www.ed.gov/laws-and-policy/civil-rights-laws/disability-discrimination/frequently-asked-questions-section-504-free-appropriate-public-education-fape",
+      "scope": "检索FAPE定义以及常规、补充或特殊教育适当安排段，未全页，本文未新增具体504个案断言。"
+    },
+    {
+      "url": "https://sites.ed.gov/idea/about-idea/",
+      "scope": "检索符合资格及最少限制环境说明，未全页。"
+    },
+    {
+      "url": "https://www.nobelprize.org/uploads/2018/06/fleming-lecture.pdf",
+      "scope": "直接打开403；随后检索实际读取第84页1928培养皿观察、溶菌酶与旧方法段及图注，以及此前第90页战时抗菌与1924实验段，未通读PDF或逐页看图。"
+    },
+    {
+      "url": "https://www.nobelprize.org/prizes/medicine/1945/fleming/questions-and-answers/?vm=r",
+      "scope": "检索实际读第9–14问主体，包括1928观察及1929论文；未全页。"
+    },
+    {
+      "url": "https://www.nobelprize.org/prizes/medicine/1945/fleming/biographical/?dc=1",
+      "scope": "检索实际读前三个生平段，包括抗菌研究、溶菌酶及1928培养皿观察；未全页。"
+    },
+    {
+      "url": "https://www.nobelprize.org/prizes/medicine/1945/florey/biographical/?print=1",
+      "scope": "检索荣誉和1938与Chain研究、1939团队开发生产段，未全页。"
+    },
+    {
+      "url": "https://catalogue.museogalileo.it/indepth/PhasesVenus.html",
+      "scope": "检索实际读短篇主体，1610金星相位亦可由第谷体系解释；未观看多媒体。"
+    },
+    {
+      "url": "https://catalogue.museogalileo.it/multimedia/GalileosAstronomyBis.html",
+      "scope": "检索实际读1597致Kepler信与1610望远镜发现支持此前信念段，以及土星/金星/太阳黑子项目；未观看视频。"
+    },
+    {
+      "url": "https://galileo.library.rice.edu/sci/harriot_moon.html",
+      "scope": "实际打开全文24行：最早记录1609-07-26，日期为儒略历须加10日转格里历；未看原始月面图像。"
+    },
+    {
+      "url": "https://www.loc.gov/catworkshop/courses/fundamentalslcc/pdf/classify-instr-manual.pdf",
+      "scope": "仅检索书目示例A new guide to better writing / by Rudolf Flesch，支持名字拼写，未通读培训手册，更未读取Flesch原书或核实本文引语。"
+    }
+  ],
+  "limitations": [
+    "5原块、5页原图和92块最终全文全部已读；随后11题说明购买力措辞再次修订复读。",
+    "无官方答案也无中译；编校后完形ACBDCABCDD、阅读CDACBCBBACDADDBCACBB为编辑推理。13A最概括而C/D是子项；18B侧重便利而A/C概括较宽。改写的24/25不能作为原卷答案。",
+    "词作为语言最小单位不严改讨论单位；breakdown is in多出is据原图删除。信用卡访问存款不准确已区分现金预借和借记卡；promotional缺名词补offers是明示编辑修订，非声称找到原刊。",
+    "1.13亿持卡及现金社会措辞有历史时点；未补猜统计年份。特殊教育法律句限定IDEA符合资格儿童；未声称找到原文所指具体法院案件。",
+    "癌症910000人数与50/75/90/13/2百分比、2000目标缺时间和统计口径，仅留历史报道，不能作当前医疗资料。原癌基因/癌基因机制实质纠正，同步25题；24改为总体预测不保证每种癌症等幅改善。其他采访判断保留旧文语境，未独立核实逐字引语。",
+    "Fleming观察有1928一手材料，九年确数未确认改多年，奶酪说原文是否定不应误改成肯定。创新者innovation→innovators；Rudolf拼写查书目，归其引语仍未找到原著，明确attributed to。",
+    "伽利略并非第一位望远镜观天者；金星相位不唯一证明日心。34句改为改进使用望远镜提供挑战托勒密及支持日心的证据，31–35译段范围均按原图。",
+    "作文真实给定开头及三项提纲完整保留，120–150词不含开头。"
+  ],
+  "answerChecks": {
+    "editorReasoningNotOfficial": {
+      "cloze": "ACBDCABCDD",
+      "reading": "CDACBCBBACDADDBCACBB"
+    }
+  },
+  "rawSha256": "b940e751815aa9dcf6034fd6d3c942ab7418c5985e8abb1b70e8c4a967562155",
+  "pdfSha256": "802c3d218714a6362731273cc8d2b9d25ab499f210d39194461a3cf5b28c4a39"
+}

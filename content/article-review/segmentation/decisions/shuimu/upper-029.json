@@ -1,0 +1,247 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "6aecdf33a18cdaf098eb8cff4cdd965f3124ef06dd36c932ab8065b55628a8c6",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title；全文 blocks[0..188] 与对应 text；现有正文/对话/题干逐块通读复核。",
+  "notes": "完整通读Funny or not?导入、词表、三组英汉正文、八条注释、20道理解题、The gasman三段范文及12道选择题答案。正文多句论述/笑话保持完整；范文按乡村背景、下午茶准备、抄表员误会三段恢复，与三至四段要求一致。",
+  "issues": [],
+  "mergeBlocks": [
+    {
+      "start": 19,
+      "end": 23,
+      "before": [
+        "Whether we find a joke funny or not largely depends on where we have been brought",
+        "up. The sense of humour is mysteriously bound up with national characteristics. A",
+        "Frenchman, for instance, might find it hard to laugh at a Russian joke. In the same",
+        "way, a Russian might fail to see anything amusing in a joke which would make an",
+        "Englishman laugh to tears."
+      ],
+      "text": "Whether we find a joke funny or not largely depends on where we have been brought up. The sense of humour is mysteriously bound up with national characteristics. A Frenchman, for instance, might find it hard to laugh at a Russian joke. In the same way, a Russian might fail to see anything amusing in a joke which would make an Englishman laugh to tears.",
+      "reason": "幽默的文化差异、病态幽默说明和骨折故事的双语段及各习题内机械断行接续，范文保持三段。"
+    },
+    {
+      "start": 24,
+      "end": 27,
+      "before": [
+        "我们觉得一则笑话是否好笑，很大程度上取决于我们是在哪儿长大的。幽默感与",
+        "民族有着神秘莫测的联系。譬如，法国人听完一则俄国笑话可能很难发笑。同样",
+        "的道理，一则可以令英国人笑出泪来的笑话，俄国人听了可能觉得没有什么可笑",
+        "之处。"
+      ],
+      "text": "我们觉得一则笑话是否好笑，很大程度上取决于我们是在哪儿长大的。幽默感与民族有着神秘莫测的联系。譬如，法国人听完一则俄国笑话可能很难发笑。同样的道理，一则可以令英国人笑出泪来的笑话，俄国人听了可能觉得没有什么可笑之处。",
+      "reason": "幽默的文化差异、病态幽默说明和骨折故事的双语段及各习题内机械断行接续，范文保持三段。"
+    },
+    {
+      "start": 28,
+      "end": 34,
+      "before": [
+        "Most funny stories are based on comic situations. In spite of national differences,",
+        "certain funny situations have a universal appeal. No matter where you live, you would",
+        "find it difficult not to laugh at, say, Charlie Chaplin's early films. However, a new",
+        "type of humour, which stems largely from the U. S., has recently come into fashion. It",
+        "is called ‘sick humour’. Comedians base their jokes on tragic situations like violent",
+        "death or serious accidents. Many people find this sort of joke distasteful. The",
+        "following example of ‘sick humour’ will enable you to judge for yourself."
+      ],
+      "text": "Most funny stories are based on comic situations. In spite of national differences, certain funny situations have a universal appeal. No matter where you live, you would find it difficult not to laugh at, say, Charlie Chaplin's early films. However, a new type of humour, which stems largely from the U. S., has recently come into fashion. It is called ‘sick humour’. Comedians base their jokes on tragic situations like violent death or serious accidents. Many people find this sort of joke distasteful. The following example of ‘sick humour’ will enable you to judge for yourself.",
+      "reason": "幽默的文化差异、病态幽默说明和骨折故事的双语段及各习题内机械断行接续，范文保持三段。"
+    },
+    {
+      "start": 35,
+      "end": 40,
+      "before": [
+        "大部分令人发笑的故事都是根据喜剧情节编写的。尽管民族不同，有些滑稽情节",
+        "却能产生普遍的效果。比如说，不管你生活在哪里，你看了查理 ·卓别林的早期",
+        "电影很难不发笑。然而，近来一种新式幽默流行了起来，这种幽默主要来自美国。",
+        "它被叫作“病态幽默”。喜剧演员根据悲剧情节诸如暴死、重大事故等来编造笑话。",
+        "许多人认为这种笑话是低级庸俗的。下面是个“病态幽默”的实例，你可以据此自",
+        "己作出判断。"
+      ],
+      "text": "大部分令人发笑的故事都是根据喜剧情节编写的。尽管民族不同，有些滑稽情节却能产生普遍的效果。比如说，不管你生活在哪里，你看了查理 ·卓别林的早期电影很难不发笑。然而，近来一种新式幽默流行了起来，这种幽默主要来自美国。它被叫作“病态幽默”。喜剧演员根据悲剧情节诸如暴死、重大事故等来编造笑话。许多人认为这种笑话是低级庸俗的。下面是个“病态幽默”的实例，你可以据此自己作出判断。",
+      "reason": "幽默的文化差异、病态幽默说明和骨折故事的双语段及各习题内机械断行接续，范文保持三段。"
+    },
+    {
+      "start": 44,
+      "end": 47,
+      "before": [
+        "3 you would find it difficult not to laugh at, say, Charlie Chaplin's early films. 比如",
+        "说，你看了查理 ·卓别林的早期电影很难不发笑。句中的say 是插入语，可译作“比",
+        "如说”。查理·卓别林是电影史上最有名的演员之一。他在诸如《淘金记》（1924）",
+        "这类电影中扮演的流浪汉“小人物”在各种不利的条件下仍获得了成功。"
+      ],
+      "text": "3 you would find it difficult not to laugh at, say, Charlie Chaplin's early films. 比如说，你看了查理 ·卓别林的早期电影很难不发笑。句中的say 是插入语，可译作“比如说”。查理·卓别林是电影史上最有名的演员之一。他在诸如《淘金记》（1924）这类电影中扮演的流浪汉“小人物”在各种不利的条件下仍获得了成功。",
+      "reason": "幽默的文化差异、病态幽默说明和骨折故事的双语段及各习题内机械断行接续，范文保持三段。"
+    },
+    {
+      "start": 51,
+      "end": 63,
+      "before": [
+        "A man who had broken his right leg was taken to hospital a few weeks before",
+        "Christmas. From the moment he arrived there, he kept on pestering his doctor to tell",
+        "him when he would be able to go home. He dreaded having to spend Christmas in",
+        "hospital. Though the doctor did his best, the patient's recovery was slow. On",
+        "Christmas Day, the man still had his right leg in plaster. He spent a miserable day in",
+        "bed thinking of all the fun he was missing. The following day, however, the doctor",
+        "consoled him by telling him that his chances of being able to leave hospital in time for",
+        "New Year celebrations were good. The man took heart and, sure enough, on New",
+        "Year's Eve he was able to hobble along to a party. To compensate for his unpleasant",
+        "experiences in hospital, the man drank a little more than was good for him. In the",
+        "process, he enjoyed himself thoroughly and kept telling everybody how much he",
+        "hated hospitals. He was still mumbling something about hospitals at the end of the",
+        "party when he slipped on a piece of ice and broke his left leg."
+      ],
+      "text": "A man who had broken his right leg was taken to hospital a few weeks before Christmas. From the moment he arrived there, he kept on pestering his doctor to tell him when he would be able to go home. He dreaded having to spend Christmas in hospital. Though the doctor did his best, the patient's recovery was slow. On Christmas Day, the man still had his right leg in plaster. He spent a miserable day in bed thinking of all the fun he was missing. The following day, however, the doctor consoled him by telling him that his chances of being able to leave hospital in time for New Year celebrations were good. The man took heart and, sure enough, on New Year's Eve he was able to hobble along to a party. To compensate for his unpleasant experiences in hospital, the man drank a little more than was good for him. In the process, he enjoyed himself thoroughly and kept telling everybody how much he hated hospitals. He was still mumbling something about hospitals at the end of the party when he slipped on a piece of ice and broke his left leg.",
+      "reason": "幽默的文化差异、病态幽默说明和骨折故事的双语段及各习题内机械断行接续，范文保持三段。"
+    },
+    {
+      "start": 64,
+      "end": 71,
+      "before": [
+        "圣诞节前几周，某人摔断了右腿被送进医院。从他进医院那一刻时，他就缠住医",
+        "生，让医生告诉他什么时候能回家。他十分害怕在医院过圣诞。尽管医生竭力医",
+        "治，但病人恢复缓慢。圣诞节那天，他的右腿还上着石膏，他在床上郁郁不乐地",
+        "躺了一天，想着他错过的种种欢乐。然而，第二天，医生安慰他说，出院欢度新",
+        "年的可能性还是很大的，那人听后振作了精神。果然，除夕时他可以一瘸一拐地",
+        "去参加晚会了。为了补偿住院这一段不愉快的经历，那人喝得稍许多了一点。在",
+        "晚会上他尽情娱乐，一再告诉大家他是多么讨厌医院。晚会结束时，他嘴里还在",
+        "嘟哝着医院的事，突然踩到一块冰上滑倒了，摔断了左腿。"
+      ],
+      "text": "圣诞节前几周，某人摔断了右腿被送进医院。从他进医院那一刻时，他就缠住医生，让医生告诉他什么时候能回家。他十分害怕在医院过圣诞。尽管医生竭力医治，但病人恢复缓慢。圣诞节那天，他的右腿还上着石膏，他在床上郁郁不乐地躺了一天，想着他错过的种种欢乐。然而，第二天，医生安慰他说，出院欢度新年的可能性还是很大的，那人听后振作了精神。果然，除夕时他可以一瘸一拐地去参加晚会了。为了补偿住院这一段不愉快的经历，那人喝得稍许多了一点。在晚会上他尽情娱乐，一再告诉大家他是多么讨厌医院。晚会结束时，他嘴里还在嘟哝着医院的事，突然踩到一块冰上滑倒了，摔断了左腿。",
+      "reason": "幽默的文化差异、病态幽默说明和骨折故事的双语段及各习题内机械断行接续，范文保持三段。"
+    },
+    {
+      "start": 74,
+      "end": 75,
+      "before": [
+        "8 the man drank a little more than was good for him.这个人稍微多喝了一点酒。此",
+        "句 than 后面省略了主语 what， be good for sb. 是“对某人有益”的意思。"
+      ],
+      "text": "8 the man drank a little more than was good for him.这个人稍微多喝了一点酒。此句 than 后面省略了主语 what， be good for sb. 是“对某人有益”的意思。",
+      "reason": "幽默的文化差异、病态幽默说明和骨折故事的双语段及各习题内机械断行接续，范文保持三段。"
+    },
+    {
+      "start": 78,
+      "end": 79,
+      "before": [
+        "1 What is the sense of humour mysteriously bound up with? (National",
+        "characteristics.)"
+      ],
+      "text": "1 What is the sense of humour mysteriously bound up with? (National characteristics.)",
+      "reason": "幽默的文化差异、病态幽默说明和骨折故事的双语段及各习题内机械断行接续，范文保持三段。"
+    },
+    {
+      "start": 87,
+      "end": 88,
+      "before": [
+        "9 What do comedians base their jokes on? (Tragic situations like violent death or",
+        "serious accidents.)"
+      ],
+      "text": "9 What do comedians base their jokes on? (Tragic situations like violent death or serious accidents.)",
+      "reason": "幽默的文化差异、病态幽默说明和骨折故事的双语段及各习题内机械断行接续，范文保持三段。"
+    },
+    {
+      "start": 92,
+      "end": 93,
+      "before": [
+        "13 Why did he keep on pestering his doctor? (To ask when he would be able to go",
+        "home.)"
+      ],
+      "text": "13 Why did he keep on pestering his doctor? (To ask when he would be able to go home.)",
+      "reason": "幽默的文化差异、病态幽默说明和骨折故事的双语段及各习题内机械断行接续，范文保持三段。"
+    },
+    {
+      "start": 97,
+      "end": 98,
+      "before": [
+        "17 When did the doctor tell him that he would probably be able to go home? (In time",
+        "for New Year.)"
+      ],
+      "text": "17 When did the doctor tell him that he would probably be able to go home? (In time for New Year.)",
+      "reason": "幽默的文化差异、病态幽默说明和骨折故事的双语段及各习题内机械断行接续，范文保持三段。"
+    },
+    {
+      "start": 101,
+      "end": 102,
+      "before": [
+        "20 What happened to him at the end of the party? (He slipped on a piece of ice and",
+        "broke his left leg.)"
+      ],
+      "text": "20 What happened to him at the end of the party? (He slipped on a piece of ice and broke his left leg.)",
+      "reason": "幽默的文化差异、病态幽默说明和骨折故事的双语段及各习题内机械断行接续，范文保持三段。"
+    },
+    {
+      "start": 105,
+      "end": 106,
+      "before": [
+        "In not more than 250 words tell a funny story you know well. Make out a full plan",
+        "and provide a suitable title. Your composition should be in three or four paragraphs."
+      ],
+      "text": "In not more than 250 words tell a funny story you know well. Make out a full plan and provide a suitable title. Your composition should be in three or four paragraphs.",
+      "reason": "幽默的文化差异、病态幽默说明和骨折故事的双语段及各习题内机械断行接续，范文保持三段。"
+    },
+    {
+      "start": 109,
+      "end": 113,
+      "before": [
+        "An aunt of mine lives in a small village in the country and tells this story of what",
+        "happened to her once. In order to understand the story, you should know a little about",
+        "life in an English village. For example, people often enjoy afternoon tea together, they",
+        "still leave doors unlocked, and certain tradesmen are used to delivering goods and,",
+        "with permission, leaving them inside the owner's house."
+      ],
+      "text": "An aunt of mine lives in a small village in the country and tells this story of what happened to her once. In order to understand the story, you should know a little about life in an English village. For example, people often enjoy afternoon tea together, they still leave doors unlocked, and certain tradesmen are used to delivering goods and, with permission, leaving them inside the owner's house.",
+      "reason": "幽默的文化差异、病态幽默说明和骨折故事的双语段及各习题内机械断行接续，范文保持三段。"
+    },
+    {
+      "start": 114,
+      "end": 120,
+      "before": [
+        "One day my aunt had invited some friends round for afternoon tea. She had put",
+        "some cakes in the oven to bake, and had gone upstairs to do some cleaning. When she",
+        "finished, she decided to have a bath before her friends arrived. She was just about to",
+        "get into the bath when she suddenly remembered the cakes. She wrapped a bath towel",
+        "round her, went down to the kitchen and took the cakes out of the oven. Just then,",
+        "there was a knock on the back door. She was sure it was the baker, who would open",
+        "the door, come in and leave the bread on the kitchen table."
+      ],
+      "text": "One day my aunt had invited some friends round for afternoon tea. She had put some cakes in the oven to bake, and had gone upstairs to do some cleaning. When she finished, she decided to have a bath before her friends arrived. She was just about to get into the bath when she suddenly remembered the cakes. She wrapped a bath towel round her, went down to the kitchen and took the cakes out of the oven. Just then, there was a knock on the back door. She was sure it was the baker, who would open the door, come in and leave the bread on the kitchen table.",
+      "reason": "幽默的文化差异、病态幽默说明和骨折故事的双语段及各习题内机械断行接续，范文保持三段。"
+    },
+    {
+      "start": 121,
+      "end": 125,
+      "before": [
+        "She panicked, dashed into the cupboard under the stairs and closed the door. Then,",
+        "horrified, she heard footsteps coming to the cupboard. The door opened and there",
+        "stood the gasman who had come to read the meter — which was in the cupboard. My",
+        "aunt blushed and said, ‘I'm very sorry. I was expecting the baker.’ ‘Oh,’ the gasman",
+        "said. ‘Sorry, madam.’ He closed the door gently and left."
+      ],
+      "text": "She panicked, dashed into the cupboard under the stairs and closed the door. Then, horrified, she heard footsteps coming to the cupboard. The door opened and there stood the gasman who had come to read the meter — which was in the cupboard. My aunt blushed and said, ‘I'm very sorry. I was expecting the baker.’ ‘Oh,’ the gasman said. ‘Sorry, madam.’ He closed the door gently and left.",
+      "reason": "幽默的文化差异、病态幽默说明和骨折故事的双语段及各习题内机械断行接续，范文保持三段。"
+    },
+    {
+      "start": 162,
+      "end": 163,
+      "before": [
+        "8 The man compensated for his unpleasant experiences in hospital a little",
+        "more than…"
+      ],
+      "text": "8 The man compensated for his unpleasant experiences in hospital a little more than…",
+      "reason": "幽默的文化差异、病态幽默说明和骨折故事的双语段及各习题内机械断行接续，范文保持三段。"
+    }
+  ],
+  "splitBlocks": [],
+  "blockEdits": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/4947683148335f5d4e739388755c3c3604ffe66192cf45a2594bc8a1728a91c8.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "7355cadb819bfb52c48a9a60ff23673195dd24d753ef9e78fcb35484cac5fb5b"
+    }
+  ]
+}

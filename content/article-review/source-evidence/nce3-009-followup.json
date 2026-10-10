@@ -1,0 +1,25 @@
+{
+  "article": "nce/nce3-009",
+  "fullRead": "现有22条中英、锁定LRC全文及最终22条通读。",
+  "sources": [
+    {
+      "url": "https://terpconnect.umd.edu/~pnc/temp/high-rise%20syndrome.pdf",
+      "readScope": "1987论文1399–1403页全文已读；本轮重新读取网页提取0–425行，病例结果与姿态假说完整核对。"
+    },
+    {
+      "url": "https://journals.sagepub.com/doi/abs/10.1177/1098612X251334096",
+      "readScope": "2025论文摘要33–45行已读；伤势随高度加重之Discussion段沿用中高级009已读原研究。"
+    },
+    {
+      "path": "content/article-review/source-evidence/shuimu-upper-009-recheck.json",
+      "readScope": "全部既有查源记录重读。"
+    }
+  ],
+  "editorialChanges": [
+    "132病例104存活，区分17安乐死、3送达死亡、8检查后死亡。",
+    "32层病例同时有轻度气胸，去掉仅坏牙。",
+    "去除猫必不顺从、终生疑人等绝对概括；九命明确俗语。",
+    "去掉越高越安全及60英里以上固定断言，将姿态放松说明为假说；研究不是人为坠猫实验。"
+  ],
+  "unresolved": []
+}

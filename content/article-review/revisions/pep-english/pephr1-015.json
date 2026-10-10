@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "course": "pep-english",
+  "articleId": "pephr1-015",
+  "beforeDisplaySha256": "6281e9c59255f6c89b9cb59d10c2aba869d947c32ccc3b802491e942776b1dec",
+  "afterDisplaySha256": "6281e9c59255f6c89b9cb59d10c2aba869d947c32ccc3b802491e942776b1dec",
+  "baselineDisplay": {
+    "title": "Going Positive",
+    "section": "Reading for Writing",
+    "text": "I always wanted to look like the slim girls on TV even though I knew that it was impossible. I worried about my weight and tried every new diet I read about online. I tried no-fat, low-fat, 5:2, only bananas, no bananas—I almost went bananas, too.\nThen I read an article that said instead of asking “Am I fat?” I should be asking “Am I fit?” I had no idea a letter could make such a difference! Once I started thinking about fitness rather than weight, things began to change. Instead of saying “I want to lose three kilos”, I would say “I want to run two kilometres in eight minutes” or “I want to be able to do 30 push-ups”. Rather than cutting out the foods I enjoyed, I added healthy foods to my meals. I could still have a burger now and then, but I would add a salad or an apple.\nFinally, I stopped comparing myself with actresses and models and looking for things that were wrong with my face or body. Instead, I made a list of the things I liked about myself. By being positive about myself and my body, I became both happier and healthier.",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "I always wanted to look like the slim girls on TV even though I knew that it was impossible. I worried about my weight and tried every new diet I read about online. I tried no-fat, low-fat, 5:2, only bananas, no bananas—I almost went bananas, too."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Then I read an article that said instead of asking “Am I fat?” I should be asking “Am I fit?” I had no idea a letter could make such a difference! Once I started thinking about fitness rather than weight, things began to change. Instead of saying “I want to lose three kilos”, I would say “I want to run two kilometres in eight minutes” or “I want to be able to do 30 push-ups”. Rather than cutting out the foods I enjoyed, I added healthy foods to my meals. I could still have a burger now and then, but I would add a salad or an apple."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Finally, I stopped comparing myself with actresses and models and looking for things that were wrong with my face or body. Instead, I made a list of the things I liked about myself. By being positive about myself and my body, I became both happier and healthier."
+      }
+    ]
+  },
+  "display": {
+    "title": "Going Positive",
+    "section": "Reading for Writing",
+    "text": "I always wanted to look like the slim girls on TV even though I knew that it was impossible. I worried about my weight and tried every new diet I read about online. I tried no-fat, low-fat, 5:2, only bananas, no bananas—I almost went bananas, too.\nThen I read an article that said instead of asking “Am I fat?” I should be asking “Am I fit?” I had no idea a letter could make such a difference! Once I started thinking about fitness rather than weight, things began to change. Instead of saying “I want to lose three kilos”, I would say “I want to run two kilometres in eight minutes” or “I want to be able to do 30 push-ups”. Rather than cutting out the foods I enjoyed, I added healthy foods to my meals. I could still have a burger now and then, but I would add a salad or an apple.\nFinally, I stopped comparing myself with actresses and models and looking for things that were wrong with my face or body. Instead, I made a list of the things I liked about myself. By being positive about myself and my body, I became both happier and healthier.",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "I always wanted to look like the slim girls on TV even though I knew that it was impossible. I worried about my weight and tried every new diet I read about online. I tried no-fat, low-fat, 5:2, only bananas, no bananas—I almost went bananas, too."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Then I read an article that said instead of asking “Am I fat?” I should be asking “Am I fit?” I had no idea a letter could make such a difference! Once I started thinking about fitness rather than weight, things began to change. Instead of saying “I want to lose three kilos”, I would say “I want to run two kilometres in eight minutes” or “I want to be able to do 30 push-ups”. Rather than cutting out the foods I enjoyed, I added healthy foods to my meals. I could still have a burger now and then, but I would add a salad or an apple."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Finally, I stopped comparing myself with actresses and models and looking for things that were wrong with my face or body. Instead, I made a list of the things I liked about myself. By being positive about myself and my body, I became both happier and healthier."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "path": "content/article-review/history/f41afed424a644ded6b6c44cc3d25c18bdba774785e4b89a1fce1d38a83f93f4.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "dbd78a9296249b5cbef331b7951d9ca026dc6bc906af4c442227e51650db112c"
+    }
+  ],
+  "corrections": [],
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "reviewer": "Codex",
+  "reviewedAt": "2026-10-07T07:30:11+00:00",
+  "notes": "Going Positive由体重焦虑、转向体能、积极自我评价三段递进，保留多句自然段。",
+  "issues": [],
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "e7c2a8cf11cec3f06d9ca4b76ec336d266c679902e00b54f8cd117c257611554",
+    "afterFileSha256": "e7c2a8cf11cec3f06d9ca4b76ec336d266c679902e00b54f8cd117c257611554",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "e7c2a8cf11cec3f06d9ca4b76ec336d266c679902e00b54f8cd117c257611554",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..2] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "Going Positive由体重焦虑、转向体能、积极自我评价三段递进，保留多句自然段。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/f41afed424a644ded6b6c44cc3d25c18bdba774785e4b89a1fce1d38a83f93f4.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "dbd78a9296249b5cbef331b7951d9ca026dc6bc906af4c442227e51650db112c"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "f41afed424a644ded6b6c44cc3d25c18bdba774785e4b89a1fce1d38a83f93f4"
+}

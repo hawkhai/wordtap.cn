@@ -1,0 +1,26 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "9d6c1433d167b06c899a7749928fb80e3d596628f08489216e7ffdc2c72d820d",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title/titleZh、question/questionZh、bodyText全部21行、bodyTextZh全部21行及sentences[0..24]的完整文字；重复正文与字幕文本逐字比对，非正文字幕另读。操作在内存应用并validate_layout_change，修复后的双语全文重新通读。",
+  "notes": "看待售房；买家开场、邀请入内、二十年惊叹、退休购乡下小屋原因以及须妻子先看各自合段。 text与bodyText同步；sentences对象及时间、角色、索引原样保留。",
+  "issues": [],
+  "display": {
+    "text": "Why couldn't Nigel decide?\n\nGood afternoon. I believe that this house is for sale.\nThat's right.\nMay I have a look at it, please?\nYes, of course. Come in.\nHow long have you lived here?\nI've lived here for twenty years.\nTwenty years! That's a long time.\nYes, I've been here since 1976.\nThen why do you want to sell it?\nBecause I've just retired. I want to buy a small house in the country.\nHow much does this house cost?\n￡68,500.\nThat's a lot of money!\nIt's worth every penny of it.\nWell, I like the house, but I can't decide yet. My wife must see it first.\nWomen always have the last word.",
+    "bodyText": "Good afternoon. I believe that this house is for sale.\nThat's right.\nMay I have a look at it, please?\nYes, of course. Come in.\nHow long have you lived here?\nI've lived here for twenty years.\nTwenty years! That's a long time.\nYes, I've been here since 1976.\nThen why do you want to sell it?\nBecause I've just retired. I want to buy a small house in the country.\nHow much does this house cost?\n￡68,500.\nThat's a lot of money!\nIt's worth every penny of it.\nWell, I like the house, but I can't decide yet. My wife must see it first.\nWomen always have the last word.",
+    "bodyTextZh": "下午好。我认为这栋房子正在出售。\n没错。\n我可以看看吗？\n当然可以，请进来。请进。\n您在这里住了多久？\n我在这里已经住了二十年。\n二十年了！那真是很长的时间啊。\n是的，我从 1976 年就住在这里了。\n那你为什么想卖掉它呢？\n因为我刚刚退休了。我想在乡下买一座小房子。\n这房子多少钱？\n68,500 英镑。\n那可是一大笔钱啊！\n不过这笔钱花得很值。\n嗯，我很喜欢这房子，但我还没决定下来。我得先让我妻子看看才行。\n女人总是有最终发言权。"
+  },
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/c8c2c070d64f437e01ba7e85254801949b5a7aa97d8c6ab9f8bcb880d966a798.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "b8bdf6820e706d5cf8767e3f1c8b76916a3c5dbfa272910acb3c7520c50605bb"
+    }
+  ]
+}

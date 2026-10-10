@@ -1,0 +1,26 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "15d0d5237bb6f896b63dce4e3c2f75d441bd2e7cf906724014707b775e571f8f",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title/titleZh、question/questionZh、bodyText全部9行、bodyTextZh全部9行及sentences[0..11]的完整文字；重复正文与字幕文本逐字比对，非正文字幕另读。操作在内存应用并validate_layout_change，修复后的双语全文重新通读。",
+  "notes": "大本钟；名称与建造史、精确校时广播、油漆桶造成走慢三段。 text与bodyText同步；sentences对象及时间、角色、索引原样保留。",
+  "issues": [],
+  "display": {
+    "text": "Has Big Ben ever gone wrong?\n\nWhen you visit London, one of the first things you will see is Big Ben, the famous clock which can be heard all over the world on the B.B.C. If the Houses of Parliament had not been burned down in 1834, the great clock would never have been erected. Big Ben takes its name from Sir Benjamin Hall who was responsible for the making of the clock when the new Houses of Parliament were being built.\nIt is not only of immense size, but is extremely accurate as well. Officials from Greenwich Observatory have the clock checked twice a day. On the B.B.C. you can hear the clock when it is actually striking because microphones are connected to the clock tower.\nBig Ben has rarely gone wrong. Once, however, it failed to give the correct time. A painter who had been working on the tower hung a pot of paint on one of the hands and slowed it down!",
+    "bodyText": "When you visit London, one of the first things you will see is Big Ben, the famous clock which can be heard all over the world on the B.B.C. If the Houses of Parliament had not been burned down in 1834, the great clock would never have been erected. Big Ben takes its name from Sir Benjamin Hall who was responsible for the making of the clock when the new Houses of Parliament were being built.\nIt is not only of immense size, but is extremely accurate as well. Officials from Greenwich Observatory have the clock checked twice a day. On the B.B.C. you can hear the clock when it is actually striking because microphones are connected to the clock tower.\nBig Ben has rarely gone wrong. Once, however, it failed to give the correct time. A painter who had been working on the tower hung a pot of paint on one of the hands and slowed it down!",
+    "bodyTextZh": "当你游览伦敦时，首先会看到的大概就是大本钟（Big Ben）了。那座著名的钟，它的钟声可以通过英国广播公司（BBC）的广播传遍全世界。如果英国议会大厦没有在1834年被烧毁的话……那座大钟就永远也不会被建造起来了。大本钟的名字来源于本杰明·霍尔爵士（Sir Benjamin Hall）——他在英国新议会大厦建造期间负责这座钟的制造工作。\n它不仅体积庞大，而且精度极高。格林尼治天文台的官员每天会检查这台时钟两次。在 BBC 的广播中，你可以听到钟声的实际敲击声——因为麦克风是直接连接到钟楼的。\n大本钟几乎从未出过故障。然而，有一次它没能准确地显示时间。一位在钟塔上工作的油漆工，把一罐油漆挂在了一根指针上，结果使钟走慢了！"
+  },
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/a6ebe639bb917d6c3d24f32f2d89242e0fe2bf1bca780da5f003c8876fc5e8e4.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "04f5c9ce5797f509cf92b3808c77b9d74902fa6f35986b2a6b68e03e7c9fa9dc"
+    }
+  ]
+}

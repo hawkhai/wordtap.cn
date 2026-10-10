@@ -1,0 +1,39 @@
+{
+  "article": "shuimu/upper-051",
+  "fullRead": "93块当前与最终全文；PDF实页280–285（283–285题图）；NCE3-051全26句英中已读，历史内容关联后续记录。",
+  "sources": [
+    {
+      "url": "https://downloads.bbc.co.uk/rmhttp/radio4/transcripts/1964_reith2.pdf",
+      "read": "BBC原1964-11-15第二讲7页全文已读：p2机器思考术语/经验学习，p5医疗，p6口袋电脑接入national computer grid及possibly world-wide information systems/交通路线，p7个人翻译机。原课文否认网络预见与原演讲直接矛盾。"
+    },
+    {
+      "url": "https://www.ibm.com/history/personal-computer",
+      "read": "原厂历史页面正文：1981年8月IBM5150；此前已有个人电脑；微软供应操作系统。"
+    },
+    {
+      "url": "https://www.computerhistory.org/revolution/artifact/312/1140",
+      "read": "博物馆藏品搜索：Altair8800，1975年1月Popular Electronics，带动爱好者计算。"
+    },
+    {
+      "url": "https://www.computerhistory.org/revolution/story/297",
+      "read": "博物馆首台PC定义条目：Kenbak-1/Micral等，不能把Altair或IBM简单视为世界首台。"
+    },
+    {
+      "url": "https://www.computerhistory.org/timeline/1976/",
+      "read": "Apple-I条目全文，1976年。"
+    },
+    {
+      "url": "https://www.computerhistory.org/timeline/1977/",
+      "read": "Apple-II条目全文，1977年。"
+    }
+  ],
+  "editorialCorrections": [
+    "mainframe大型机而非CPU；Internet互联网；alternative可供选择。开头删除计算机与电视同普及的无范围量化及70年代仅大机构有电脑的绝对化。",
+    "Altair非第一家用/个人电脑，AppleI1976/II1977明确；IBM1981是其5150产品非世界第一PC；DOS由微软供应不暗示原始全部自研。主谓逗号删除、大型机句结构重写/中译同步。",
+    "原BBC演讲确实预见个人电脑联网获取信息，不能说根本无法想象；区分预见信息服务与完整设计互联网技术，不擅称发明互联网。开篇问题/17问答同步。",
+    "五段约300词范文标出约2000视角，保留原历史预测的练习性质，Tile/单引号修正；40年精确期间改数十年，控制假肢非为其供能。",
+    "12题与历史订正同步；5bread son删除；6/7限定结构，9dismiss拒绝非refute证明错误所以a→c；10sufficiently small本可成立而改清晰结构无需另增enough；11commonplace普通不等于unexceptionable无可非议；其余键序不变。"
+  ],
+  "compositionWordCount": 308,
+  "unresolved": []
+}

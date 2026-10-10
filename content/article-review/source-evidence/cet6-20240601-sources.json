@@ -1,0 +1,72 @@
+{
+  "article": "cet6-20240601",
+  "checkedAt": "2026-10-03",
+  "sourcePdfPagesRead": 8,
+  "sources": [
+    {
+      "url": "https://weather.metoffice.gov.uk/learn-about/weather/optical-effects/rainbows",
+      "scope": "英国气象局原说明268—299正文全文读，入射折射、内部部分反射、出射折射；连续颜色、七色记忆法、主副虹顺序相反。原稿总是原路反射与直接反射出水滴不正确。"
+    },
+    {
+      "url": "https://www.nesdis.noaa.gov/about/k-12-education/optical-phenomena/what-causes-rainbow",
+      "scope": "NOAA原说明搜索段实际读，一次与两次内部反射和主副虹角度，未声称全文读。"
+    },
+    {
+      "url": "https://www.worldatlas.com/articles/how-is-a-rainbow-formed.html",
+      "scope": "原文开头搜索段实际读，用于辨认原素材；科学修订依据上述气象机构，不以该二手文章替代物理依据。"
+    },
+    {
+      "url": "https://www.bbc.com/worklife/article/20191111-blame-your-worthless-workdays-on-meeting-recovery-syndrome",
+      "scope": "2019原报道网址识别；直接打开受限，未读其完整网页。PDF所载引语按历史报道归属，相关研究类型与建议效力另核原论文和学会发布稿。"
+    },
+    {
+      "url": "https://journals.sagepub.com/doi/10.1177/0963721418776307",
+      "scope": "Mroz、Allen、Verhoeven、Shuffler2018原综述摘要和出版信息全文搜索读；会议前中后建议，不是证明MRS治愈的干预试验。"
+    },
+    {
+      "url": "https://www.psychologicalscience.org/news/releases/psychological-science-can-make-your-meetings-better.html",
+      "scope": "心理科学学会2018-11-09发布稿21—43正文全文读。近200论文、员工6小时经理23小时、UNO与Clemson合作，纠正原稿把全部作者归到UNO以及已证实疗效的说法。"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/2648906/",
+      "scope": "Hobfoll1989原摘要全文搜索读，资源保护为解释压力的理论，不能据此断言脑能量定量耗尽或45分钟实测均值。"
+    },
+    {
+      "url": "https://www.psychologytoday.com/us/blog/think-well/201206/think-sarcasm-is-funny-think-again",
+      "scope": "Clifford N. Lazarus2012-06-26原作者正文28—47全文读。评论观点，不是普遍心理机制的实验结论。原稿多数欺凌者性格概括本已存在，属原稿问题，不伪称OCR。"
+    },
+    {
+      "url": "https://www.mpi.nl/news/role-variability-playing-tennis-learning-language",
+      "scope": "MPI2022-05-13原机构说明17—37正文全文读。150研究、四类变异当时未直接比较、三种理论第三为记忆、社区面孔记忆关联、电影类比及免疫系统未来问题。53原题B和C均有依据，缩小为第三理论后B唯一。"
+    },
+    {
+      "url": "https://pure.mpg.de/rest/items/item_3380375_2/component/file_3383568/content",
+      "scope": "Raviv、Lupyan、Green2022原论文摘要开头与引言搜索段实际读，未声称整篇PDF读。"
+    },
+    {
+      "url": "https://pure.mpg.de/pubman/item/item_3380375_2/component/file_3383568/Raviv-Lupyan-Green-2022-How-variability.pdf",
+      "scope": "原论文搜索返回四类变异未直接比较段实际读，按2022语境表述，不断言至今仍无比较。"
+    },
+    {
+      "url": "https://www.mpi.nl/people/raviv-limor/publications?f%5B0%5D=publication_type%3A11185&f%5B1%5D=publication_type%3A11232&f%5B2%5D=publication_type%3A11285",
+      "scope": "作者机构书目及摘要搜索读，Trends in Cognitive Sciences26(6)462—483，doi10.1016/j.tics.2022.03.007。"
+    },
+    {
+      "url": "https://www.ihchina.cn/project_details/15236.html",
+      "scope": "国家非遗网孝义贾家庄婚俗原说明搜索段读，周代六礼、地方婚俗由当地文化演变，支持译前范围说明，不泛化为所有民族和全部现代婚礼。"
+    }
+  ],
+  "limitations": [
+    "17原始块及8页PDF已逐页全文读，最终显示全文复读后登记。",
+    "听力只有原题面可核，没有假称已核听力音频或答案。",
+    "BBC原网页受限；历史引语来源保留PDF归属，研究事实和疗效强度以原论文及学会说明核对。",
+    "原稿物理错误、疗效过度概括、心理学观点与事实混用、53题双解均明确修订；不使用题库答案作证据。"
+  ],
+  "answerChecks": {
+    "cloze": "CHMFNOEAGB",
+    "matching": "DHNFBKEICL",
+    "reading": "ABBCD / ADBDC"
+  },
+  "rawSha256": "c67acc0775e55a901253d394a2f8e7b63c1c564525084ef8f768b1e5bdacc47a",
+  "pdfSha256": "0ab68ccf6ec0b1db87ee797737630d1cb1c6d433b1549509e8e18b35ef9e3518"
+}

@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 1,
+  "course": "pep-english",
+  "articleId": "pephr3-003",
+  "beforeDisplaySha256": "12b1d41b9f0b632e3e166103be1e8260a20493722e21ef0d93cc85c87dc06164",
+  "afterDisplaySha256": "b1ee278ca18fb0f0edc4dece83fbdfe7385b9e8d70bf40084f3eda8f5db147df",
+  "baselineDisplay": {
+    "title": "Joe and Song Lin Talk About Chinese New Year",
+    "section": "Listening and Talking",
+    "text": "Joe: Did you enjoy the holiday, Song Lin?\nSong Lin: Oh yes, it was great, thanks! The food, the parades, and the beautiful fireworks—it's always exciting for me. It's good to spend time with my family, too, although it can get a bit boring in my hometown after a while. How about you?\nJoe: Well, this was my first Chinese New Year. I loved watching the traditional performances, and I was invited to lots of delicious meals. But, to be frank, the fireworks going off throughout the night were really annoying.\nSong Lin: Oh, well, yes, I can see your point there! But it's all part of the tradition to frighten away the evil spirits.\nJoe: Yes, well, there seemed to be a lot of them in my area! Anyway, except for that, everything was fine. I'm really looking forward to the next festival.",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Joe: Did you enjoy the holiday, Song Lin?\nSong Lin: Oh yes, it was great, thanks! The food, the parades, and the beautiful fireworks—it's always exciting for me. It's good to spend time with my family, too, although it can get a bit boring in my hometown after a while. How about you?\nJoe: Well, this was my first Chinese New Year. I loved watching the traditional performances, and I was invited to lots of delicious meals. But, to be frank, the fireworks going off throughout the night were really annoying.\nSong Lin: Oh, well, yes, I can see your point there! But it's all part of the tradition to frighten away the evil spirits.\nJoe: Yes, well, there seemed to be a lot of them in my area! Anyway, except for that, everything was fine. I'm really looking forward to the next festival."
+      }
+    ]
+  },
+  "display": {
+    "title": "Joe and Song Lin Talk About Chinese New Year",
+    "section": "Listening and Talking",
+    "text": "Joe: Did you enjoy the holiday, Song Lin?\nSong Lin: Oh yes, it was great, thanks! The food, the parades, and the beautiful fireworks—it's always exciting for me. It's good to spend time with my family, too, although it can get a bit boring in my hometown after a while. How about you?\nJoe: Well, this was my first Chinese New Year. I loved watching the traditional performances, and I was invited to lots of delicious meals. But, to be frank, the fireworks going off throughout the night were really annoying.\nSong Lin: Oh, well, yes, I can see your point there! But it's all part of the tradition to frighten away the evil spirits.\nJoe: Yes, well, there seemed to be a lot of them in my area! Anyway, except for that, everything was fine. I'm really looking forward to the next festival.",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Joe: Did you enjoy the holiday, Song Lin?"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Song Lin: Oh yes, it was great, thanks! The food, the parades, and the beautiful fireworks—it's always exciting for me. It's good to spend time with my family, too, although it can get a bit boring in my hometown after a while. How about you?"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Joe: Well, this was my first Chinese New Year. I loved watching the traditional performances, and I was invited to lots of delicious meals. But, to be frank, the fireworks going off throughout the night were really annoying."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Song Lin: Oh, well, yes, I can see your point there! But it's all part of the tradition to frighten away the evil spirits."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Joe: Yes, well, there seemed to be a lot of them in my area! Anyway, except for that, everything was fine. I'm really looking forward to the next festival."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "path": "content/article-review/history/36641bab1c27493dfb9f023ed1a6544ce134a1ba6a069ee9b67b922c51c98402.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "eb017bf33cb55d0b9dfa9a08a0c2af931ea5a5cb06014392cf8598dd1246e89b"
+    }
+  ],
+  "corrections": [],
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "reviewer": "Codex",
+  "reviewedAt": "2026-10-07T07:30:19+00:00",
+  "notes": "Joe与Song Lin春节体验五轮对话拆分，烟花感受及传统解释保持原轮次。",
+  "issues": [],
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "251863dca33f466c2b0a39786561c50e16e0e524ef7291af7d77292413887490",
+    "afterFileSha256": "3e422c26aece4f6fefd878a012a3daf6908fc7f7ef772978f4197743916a5b70",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "251863dca33f466c2b0a39786561c50e16e0e524ef7291af7d77292413887490",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..0] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "Joe与Song Lin春节体验五轮对话拆分，烟花感受及传统解释保持原轮次。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [
+        {
+          "index": 0,
+          "before": [
+            "Joe: Did you enjoy the holiday, Song Lin?\nSong Lin: Oh yes, it was great, thanks! The food, the parades, and the beautiful fireworks—it's always exciting for me. It's good to spend time with my family, too, although it can get a bit boring in my hometown after a while. How about you?\nJoe: Well, this was my first Chinese New Year. I loved watching the traditional performances, and I was invited to lots of delicious meals. But, to be frank, the fireworks going off throughout the night were really annoying.\nSong Lin: Oh, well, yes, I can see your point there! But it's all part of the tradition to frighten away the evil spirits.\nJoe: Yes, well, there seemed to be a lot of them in my area! Anyway, except for that, everything was fine. I'm really looking forward to the next festival."
+          ],
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Joe: Did you enjoy the holiday, Song Lin?"
+            },
+            {
+              "type": "paragraph",
+              "text": "Song Lin: Oh yes, it was great, thanks! The food, the parades, and the beautiful fireworks—it's always exciting for me. It's good to spend time with my family, too, although it can get a bit boring in my hometown after a while. How about you?"
+            },
+            {
+              "type": "paragraph",
+              "text": "Joe: Well, this was my first Chinese New Year. I loved watching the traditional performances, and I was invited to lots of delicious meals. But, to be frank, the fireworks going off throughout the night were really annoying."
+            },
+            {
+              "type": "paragraph",
+              "text": "Song Lin: Oh, well, yes, I can see your point there! But it's all part of the tradition to frighten away the evil spirits."
+            },
+            {
+              "type": "paragraph",
+              "text": "Joe: Yes, well, there seemed to be a lot of them in my area! Anyway, except for that, everything was fine. I'm really looking forward to the next festival."
+            }
+          ],
+          "reason": "每行具有明确的发言人及完整轮次，分块保留各对话轮次。"
+        }
+      ],
+      "sources": [
+        {
+          "path": "content/article-review/history/36641bab1c27493dfb9f023ed1a6544ce134a1ba6a069ee9b67b922c51c98402.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "eb017bf33cb55d0b9dfa9a08a0c2af931ea5a5cb06014392cf8598dd1246e89b"
+        }
+      ]
+    }
+  },
+  "status": "passed_edited",
+  "previousRevisionSha256": "36641bab1c27493dfb9f023ed1a6544ce134a1ba6a069ee9b67b922c51c98402"
+}

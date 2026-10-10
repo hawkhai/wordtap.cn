@@ -1,0 +1,21 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "70f277dbac81bcdf74993e6a79e1a4534a0054de615cf1234c5d49bae5fae4cb",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title；全文 blocks[0..5] 与对应 text；现有正文/对话/题干逐块通读复核。",
+  "notes": "克隆六段介绍定义、用途、羊克隆步骤、未来用途、伦理问题、总结；过程多句为完整说明段，保留。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/54e8ba1dc2d2b3cee74bbd1742dddb01fafb587f496998780f63e0f832173db9.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "434b6144df4f7100dcdbbd810b29be4b60fc1d4c805a9465327de96e9c50d755"
+    }
+  ]
+}

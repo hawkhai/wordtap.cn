@@ -1,0 +1,116 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "4133af588c49989ba831555a98346e1d0c4cd4a1fcebbbefbfac1cde336bb98d",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title；全文 blocks[0..3] 与对应 text；现有正文/对话/题干逐块通读复核。",
+  "notes": "捐赠礼物总介和流程段保持，AUD标题后21个礼物价格条目按现有换行拆块，项目金额完整对应。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [
+    {
+      "index": 3,
+      "before": [
+        "20 tree seedlings — $5\nA loan to set up a women’s self-help group — $8\n3 months’ water supply for one person — $10\nTraining in vegetable farming — $15\nChild vaccinations against 6 killer diseases — $20\nSchool books — $20\nBasic adult education — $25\nBasic health-care services — $30\nOne year of primary schooling — $35\nA goat — $40\nA supply toilet — $50\n3 months’ water supply for a family — $65\nA loan to set up a small business — $85\nA sewing machine — $100\nNutritional supplements for a family — $130\nOxen for ploughing — $180\nA set of books on health and medical care — $200\nAssistance for families headed by children — $300\nA community primary school — $500\nA village tractor — $1,000\nA well and water pump — $1,350"
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "20 tree seedlings — $5"
+        },
+        {
+          "type": "paragraph",
+          "text": "A loan to set up a women’s self-help group — $8"
+        },
+        {
+          "type": "paragraph",
+          "text": "3 months’ water supply for one person — $10"
+        },
+        {
+          "type": "paragraph",
+          "text": "Training in vegetable farming — $15"
+        },
+        {
+          "type": "paragraph",
+          "text": "Child vaccinations against 6 killer diseases — $20"
+        },
+        {
+          "type": "paragraph",
+          "text": "School books — $20"
+        },
+        {
+          "type": "paragraph",
+          "text": "Basic adult education — $25"
+        },
+        {
+          "type": "paragraph",
+          "text": "Basic health-care services — $30"
+        },
+        {
+          "type": "paragraph",
+          "text": "One year of primary schooling — $35"
+        },
+        {
+          "type": "paragraph",
+          "text": "A goat — $40"
+        },
+        {
+          "type": "paragraph",
+          "text": "A supply toilet — $50"
+        },
+        {
+          "type": "paragraph",
+          "text": "3 months’ water supply for a family — $65"
+        },
+        {
+          "type": "paragraph",
+          "text": "A loan to set up a small business — $85"
+        },
+        {
+          "type": "paragraph",
+          "text": "A sewing machine — $100"
+        },
+        {
+          "type": "paragraph",
+          "text": "Nutritional supplements for a family — $130"
+        },
+        {
+          "type": "paragraph",
+          "text": "Oxen for ploughing — $180"
+        },
+        {
+          "type": "paragraph",
+          "text": "A set of books on health and medical care — $200"
+        },
+        {
+          "type": "paragraph",
+          "text": "Assistance for families headed by children — $300"
+        },
+        {
+          "type": "paragraph",
+          "text": "A community primary school — $500"
+        },
+        {
+          "type": "paragraph",
+          "text": "A village tractor — $1,000"
+        },
+        {
+          "type": "paragraph",
+          "text": "A well and water pump — $1,350"
+        }
+      ],
+      "reason": "每一现有行均是一项礼物与其AUD价格，明确为独立列表项目，逐项分块不合并。"
+    }
+  ],
+  "blockEdits": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/032bf375a3cd71bd53633c888052a691086fa513d229e1bef25de5aa37fd2a74.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "6795dea46efcd3e6dd4f4fd4d28a60549c831ca46d0111d7ce6ceb4275242f5a"
+    }
+  ]
+}

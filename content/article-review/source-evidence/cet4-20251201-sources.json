@@ -1,0 +1,24 @@
+{
+  "articleId":"cet4-20251201",
+  "checkedAt":"2026-10-02",
+  "scope":"22原块全文及8页原PDF完整读图，55格答案逐一核对；修订全文另行复读。以下区分全文、摘要及局部阅读范围。",
+  "sources":[
+    {"url":"https://scheibehenne.de/ScheibehenneGreifenederTodd2010.pdf","access":"原作者2010元分析摘要、结果概述检索已读","findings":"50实验63条件5036人，均值近零但异质性大，不是选项越多一概越不满意。"},
+    {"url":"https://chernev.com/wp-content/uploads/2017/02/ChoiceOverload_JCP_2015.pdf","access":"2015元分析样本、模型结果及调节变量章节已读；未逐页读26页全稿","findings":"53研究99观察7202人；复杂度、难度、偏好不确定及决策目标影响选择过载。保留填空但限定结果适用条件。"},
+    {"url":"https://www.wired.com/story/the-battle-over-bike-lanes-needs-a-mindset-shift/","access":"Clive Thompson 2023-01-24原文主体全文已读","findings":"访谈/文化推论按观点保留；原文自身存在Queens称city、相对时点及23cities等失准，需要回查原始调查。"},
+    {"url":"https://nyc.streetsblog.org/2022/09/30/business-grew-on-queens-street-after-controversial-bike-lane-installed-data-show","access":"Jesse Coburn 2022-09-30原调查全文含About this story方法和限制已读","findings":"2017提案，2018年8–10月建设；2017年3–5月比2019年12月–2020年2月，31→34商家，季度总销售3.11m→3.47m约12%，Queens3%。单店涨幅只有约2%，低于Queens6%；原文明确不能据此认定独立因果。税址转换约30%无法处理等限制，未宣称数据涵盖每家店。"},
+    {"url":"https://www.nyc.gov/html/dot/html/pr2013/pr13-068.shtml","access":"NYC DOT 2013-12-13报告发布正文全文已读","findings":"七案例包括自行车、步行广场、公交快线等，不能统一说都是自行车道；局地/区级比较支持若干改善项目，不能保证各店受益。"},
+    {"url":"https://www.tandfonline.com/doi/full/10.1080/01441647.2021.1912849","access":"Volker/Handy2021原论文方法和结论检索正文已读，直接网页/PDF后不可用","findings":"23项研究，并非23城市；影响研究含45设施16城市。总体零或正向，汽车导向商家可能负向、方法质量有限。"},
+    {"url":"https://www.nyc.gov/html/ia/gp/downloads/pdf/program.pdf","access":"NYC2008活动资料人物简介检索已读","findings":"Sadik-Khan任命时间2007年4月，修正early2000s为2007之后。"},
+    {"url":"https://www.nyc.gov/html/dot/downloads/pdf/streets-for-recovery.pdf","access":"2022报告前言、执行摘要、项目背景和方法部分已读，未声称完整14页阅读","findings":"五OpenStreets走廊餐馆/酒吧的税收销售及存续比较；将所有商家/必然结果改为研究走廊有利模式及历史项目安排。"},
+    {"url":"https://www.inverse.com/science/timing-matters-medication","access":"Tobias Eckle署名/The Conversation授权2022-12-18转载全文已读","findings":"药物昼夜节律原篇；50年前引用实际链接1969大鼠肝酶研究，不能当辛伐他汀临床试验。作者一般性指责处方不考虑时间需归因；不是所有药物都应晚上吃。"},
+    {"url":"https://pubmed.ncbi.nlm.nih.gov/11947160/","access":"原1969论文书目信息、标题、研究对象已读；全文未取得","findings":"Rhythmic changes of hydroxymethylglutaryl coenzyme a reductase activity in livers of fed and fasted rats，非辛伐他汀患者用药试验。"},
+    {"url":"https://www.dailymed.nlm.nih.gov/dailymed/getFile.cfm?setid=751b79c6-bba8-4d29-b69c-a2ac6453fec8&type=pdf","access":"处方说明首页批准年份、适应证与用法部分检索已读","findings":"Initial US approval1991；晚间服用为该药标签要求；不外推所有药物、不提供个人剂量或改变治疗安排。"},
+    {"url":"https://www.frontiersin.org/journals/cardiovascular-medicine/articles/10.3389/fcvm.2022.982209/full","access":"2022原论文完整摘要、引言及方法开头已读；未读全部结果表与讨论","findings":"50机构2014–2019病例1773118，整体OR0.98[0.94,1.01]无关联，夜间手术OR3.52[3.10,4.00]，健康亚组OR1.25。观察记录及调整不证明因果，也非确定所有夜间服用不安全。"},
+    {"url":"https://www.jstage.jst.go.jp/article/jnsv/68/Supplement/68_S2/_article","access":"原文章所引2022营养综述摘要全文已读","findings":"讨论食物时点/节律与代谢，而非一切夜间食物全部储脂。按可能影响、整体饮食/睡眠/活动限制，不把建议写成个人治疗。"},
+    {"url":"https://qz.com/work/1632602/the-number-of-americans-working-in-their-70s-is-skyrocketing","access":"原退休新闻主体全文已读；现网页标Updated2022-07-21，内文统计2018","findings":"受访者动机解释、2018学历分组约20/15/10、过去约20年总体under10→near15；历史描述不是2025或当前率。来源链接CPSIPUMS不代表独立重算微数据。"},
+    {"url":"https://www.samr.gov.cn/xw/zj/art/2025/art_024ebc70598942cb87cd97f6c0801f99.html","access":"2025-04-21监管总局发布正文全文已读","findings":"2025年3月末登记在册民企超5700万占92.3%，新信息技术/数字经济企业增长；保留统计时点，明确登记口径。研发投入的泛称缩小为不少企业。"}
+  ],
+  "answerReview":"原PDF50题键C，而部分培训网站写A；原结尾同时支持A/C。将题干限定为final paragraph研究需要，保留C使题意唯一。52原C慢工资与D传统养老金均部分有文意支持，题干限定wage-related后C唯一，并把slow growth与slowing rate区别。其余阅读键逐题按修订文核对。",
+  "limitations":"未提供听力音频，只核对原卷题目、选项和答案格。退休CPS历史比例按原新闻引用保留，未声称自行计算微数据。选择文章原完整刊载源尚未定位，心理学泛化独立以两篇原元分析核对；未将全文无法访问误记为已读。"
+}

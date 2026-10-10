@@ -1,0 +1,238 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "dcd8e2a9809332dc4e119ab2352f404db63707b44af337709c3ce3f2386ad161",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title；全文 blocks[0..187] 与对应 text；现有正文/对话/题干逐块通读复核。",
+  "notes": "全文通读The loss of the Titanic的开头问题、词表、两组英汉叙事及六条注释、20道问答、Abandon ship三段提纲和范文、12道选择题与答案。保留介绍轮船和触礁沉没两个多句段，范文按命令突发、逃生混乱及船沉结局分三自然段。",
+  "issues": [],
+  "mergeBlocks": [
+    {
+      "start": 2,
+      "end": 3,
+      "before": [
+        "Question: What would have happened if only two of the sixteen water-tight",
+        "compartments had been flooded?"
+      ],
+      "text": "Question: What would have happened if only two of the sixteen water-tight compartments had been flooded?",
+      "reason": "Titanic正文介绍与沉没过程各为完整双语段，题干注释和弃船范文的句内换行机械切开，恢复完整单元。"
+    },
+    {
+      "start": 27,
+      "end": 33,
+      "before": [
+        "The great ship, Titanic, sailed for New York from Southampton on April 10th, 1912.",
+        "She was carrying 1, 316 passengers and a crew of 891. Even by modern standards, the",
+        "46,000 ton Titanic was a colossal ship. At that time, however, she was not only the",
+        "largest ship that had ever been built, but was regarded as unsinkable, for she had",
+        "sixteen watertight compartments. Even if two of these were flooded, she would still",
+        "be able to float. The tragic sinking of this great liner will always be remembered, for",
+        "she went down on her first voyage with heavy loss of life."
+      ],
+      "text": "The great ship, Titanic, sailed for New York from Southampton on April 10th, 1912. She was carrying 1, 316 passengers and a crew of 891. Even by modern standards, the 46,000 ton Titanic was a colossal ship. At that time, however, she was not only the largest ship that had ever been built, but was regarded as unsinkable, for she had sixteen watertight compartments. Even if two of these were flooded, she would still be able to float. The tragic sinking of this great liner will always be remembered, for she went down on her first voyage with heavy loss of life.",
+      "reason": "Titanic正文介绍与沉没过程各为完整双语段，题干注释和弃船范文的句内换行机械切开，恢复完整单元。"
+    },
+    {
+      "start": 34,
+      "end": 39,
+      "before": [
+        "巨轮“泰坦尼克”号 1912 年 4 月 10 日从南安普敦起锚驶向纽约。船上载有 1316",
+        "名乘客与 891 名船员。即便用现代标准来衡量，46000 吨的“泰坦尼克”号也算得",
+        "上一艘巨轮了。当时，这艘轮船不仅是造船史上建造的最大的一艘船，而且也被",
+        "认为是不会沉没的。因为船由 16 个密封舱组成，即使有两个舱进水，仍可漂浮",
+        "在水面上。然而，这艘巨轮首航就下沉，造成大批人员死亡。人们将永远记着这",
+        "艘巨轮的沉没惨剧。"
+      ],
+      "text": "巨轮“泰坦尼克”号 1912 年 4 月 10 日从南安普敦起锚驶向纽约。船上载有 1316名乘客与 891 名船员。即便用现代标准来衡量，46000 吨的“泰坦尼克”号也算得上一艘巨轮了。当时，这艘轮船不仅是造船史上建造的最大的一艘船，而且也被认为是不会沉没的。因为船由 16 个密封舱组成，即使有两个舱进水，仍可漂浮在水面上。然而，这艘巨轮首航就下沉，造成大批人员死亡。人们将永远记着这艘巨轮的沉没惨剧。",
+      "reason": "Titanic正文介绍与沉没过程各为完整双语段，题干注释和弃船范文的句内换行机械切开，恢复完整单元。"
+    },
+    {
+      "start": 43,
+      "end": 44,
+      "before": [
+        "3 regarded as unsinkable，被认为是不会沉没的。regard … as…当“把……当作……”",
+        "讲。"
+      ],
+      "text": "3 regarded as unsinkable，被认为是不会沉没的。regard … as…当“把……当作……”讲。",
+      "reason": "Titanic正文介绍与沉没过程各为完整双语段，题干注释和弃船范文的句内换行机械切开，恢复完整单元。"
+    },
+    {
+      "start": 45,
+      "end": 46,
+      "before": [
+        "4 she went down on her first voyage with heavy loss of life，她首航就下沉，造成大",
+        "批人员死亡。go down 是“下沉”的意思。"
+      ],
+      "text": "4 she went down on her first voyage with heavy loss of life，她首航就下沉，造成大批人员死亡。go down 是“下沉”的意思。",
+      "reason": "Titanic正文介绍与沉没过程各为完整双语段，题干注释和弃船范文的句内换行机械切开，恢复完整单元。"
+    },
+    {
+      "start": 47,
+      "end": 57,
+      "before": [
+        "Four days after setting out, while the Titanic was sailing across the icy waters of the",
+        "North Atlantic, a huge iceberg was suddenly spotted by a lookout. After the alarm had",
+        "been given, the great ship turned sharply to avoid a direct collision. The Titanic turned",
+        "just in time, narrowly missing the immense wall of ice which rose over 100 feet out of",
+        "the water beside her. Suddenly, there was a slight trembling sound from below, and",
+        "the captain went down to see what had happened. The noise had been so faint that no",
+        "one thought that the ship had been damaged. Below, the captain realized to his horror",
+        "that the Titanic was sinking rapidly, for five of her sixteen watertight compartments",
+        "had already been flooded! The order to abandon ship was given and hundreds of",
+        "people plunged into the icy water. As there were not enough lifeboats for everybody,",
+        "1,500 lives were lost."
+      ],
+      "text": "Four days after setting out, while the Titanic was sailing across the icy waters of the North Atlantic, a huge iceberg was suddenly spotted by a lookout. After the alarm had been given, the great ship turned sharply to avoid a direct collision. The Titanic turned just in time, narrowly missing the immense wall of ice which rose over 100 feet out of the water beside her. Suddenly, there was a slight trembling sound from below, and the captain went down to see what had happened. The noise had been so faint that no one thought that the ship had been damaged. Below, the captain realized to his horror that the Titanic was sinking rapidly, for five of her sixteen watertight compartments had already been flooded! The order to abandon ship was given and hundreds of people plunged into the icy water. As there were not enough lifeboats for everybody, 1,500 lives were lost.",
+      "reason": "Titanic正文介绍与沉没过程各为完整双语段，题干注释和弃船范文的句内换行机械切开，恢复完整单元。"
+    },
+    {
+      "start": 58,
+      "end": 64,
+      "before": [
+        "“泰坦尼克”起航后的第 4 天，它正行驶在北大西洋冰冷的海面上。突然，瞭望员",
+        "发现一座冰山。警报响过不久，巨轮急转弯，以避免与冰山正面相撞。“泰坦尼",
+        "克”这个弯拐得及时，紧贴着高出海面 100 英尺的巨大的冰墙擦过去。突然，从",
+        "船舱下部传来一声轻微的颤音，船长走下船舱去查看究竟。由于这个声音非常轻，",
+        "没人会想到船身已遭损坏。在下面，船长惊恐地发现“泰坦尼克”号正在急速下沉，",
+        "16 个密封舱已有 5 个进水。于是，他发出了弃船的命令，几百人跳进了冰冷刺",
+        "骨的海水里。由于没有足够的救生艇运载所有乘客，结果 1500 人丧生。"
+      ],
+      "text": "“泰坦尼克”起航后的第 4 天，它正行驶在北大西洋冰冷的海面上。突然，瞭望员发现一座冰山。警报响过不久，巨轮急转弯，以避免与冰山正面相撞。“泰坦尼克”这个弯拐得及时，紧贴着高出海面 100 英尺的巨大的冰墙擦过去。突然，从船舱下部传来一声轻微的颤音，船长走下船舱去查看究竟。由于这个声音非常轻，没人会想到船身已遭损坏。在下面，船长惊恐地发现“泰坦尼克”号正在急速下沉，16 个密封舱已有 5 个进水。于是，他发出了弃船的命令，几百人跳进了冰冷刺骨的海水里。由于没有足够的救生艇运载所有乘客，结果 1500 人丧生。",
+      "reason": "Titanic正文介绍与沉没过程各为完整双语段，题干注释和弃船范文的句内换行机械切开，恢复完整单元。"
+    },
+    {
+      "start": 67,
+      "end": 68,
+      "before": [
+        "6 Below, the captain realized to his horror，在下面，船长惊恐地发现。 below 是个",
+        "副词。"
+      ],
+      "text": "6 Below, the captain realized to his horror，在下面，船长惊恐地发现。 below 是个副词。",
+      "reason": "Titanic正文介绍与沉没过程各为完整双语段，题干注释和弃船范文的句内换行机械切开，恢复完整单元。"
+    },
+    {
+      "start": 72,
+      "end": 73,
+      "before": [
+        "1 On what date did the Titanic sail for New York from Southampton? (April 10th,",
+        "1912.)"
+      ],
+      "text": "1 On what date did the Titanic sail for New York from Southampton? (April 10th, 1912.)",
+      "reason": "Titanic正文介绍与沉没过程各为完整双语段，题干注释和弃船范文的句内换行机械切开，恢复完整单元。"
+    },
+    {
+      "start": 74,
+      "end": 75,
+      "before": [
+        "2 How many passengers was she carrying and how many crew? (1,316 passengers and",
+        "a crew of 891.)"
+      ],
+      "text": "2 How many passengers was she carrying and how many crew? (1,316 passengers and a crew of 891.)",
+      "reason": "Titanic正文介绍与沉没过程各为完整双语段，题干注释和弃船范文的句内换行机械切开，恢复完整单元。"
+    },
+    {
+      "start": 77,
+      "end": 78,
+      "before": [
+        "4 How did she compare with other ships at that time? (She was the largest ship that",
+        "had ever been built.)"
+      ],
+      "text": "4 How did she compare with other ships at that time? (She was the largest ship that had ever been built.)",
+      "reason": "Titanic正文介绍与沉没过程各为完整双语段，题干注释和弃船范文的句内换行机械切开，恢复完整单元。"
+    },
+    {
+      "start": 79,
+      "end": 80,
+      "before": [
+        "5 Why was she regarded as unsinkable? (Because she had sixteen watertight",
+        "compartments.)"
+      ],
+      "text": "5 Why was she regarded as unsinkable? (Because she had sixteen watertight compartments.)",
+      "reason": "Titanic正文介绍与沉没过程各为完整双语段，题干注释和弃船范文的句内换行机械切开，恢复完整单元。"
+    },
+    {
+      "start": 98,
+      "end": 100,
+      "before": [
+        "In not more than 200 words write an imaginary account of what happened on the",
+        "Titanic immediately after the order to abandon ship was given. Use the ideas given",
+        "below. Do not write more than three paragraphs."
+      ],
+      "text": "In not more than 200 words write an imaginary account of what happened on the Titanic immediately after the order to abandon ship was given. Use the ideas given below. Do not write more than three paragraphs.",
+      "reason": "Titanic正文介绍与沉没过程各为完整双语段，题干注释和弃船范文的句内换行机械切开，恢复完整单元。"
+    },
+    {
+      "start": 103,
+      "end": 105,
+      "before": [
+        "Development: Immediate effect — panic and confusion — people rushing in all",
+        "directions — crew came up from below — lifeboats lowered — people jumped",
+        "overboard — struggle to get into lifeboats — lifeboats full"
+      ],
+      "text": "Development: Immediate effect — panic and confusion — people rushing in all directions — crew came up from below — lifeboats lowered — people jumped overboard — struggle to get into lifeboats — lifeboats full",
+      "reason": "Titanic正文介绍与沉没过程各为完整双语段，题干注释和弃船范文的句内换行机械切开，恢复完整单元。"
+    },
+    {
+      "start": 106,
+      "end": 107,
+      "before": [
+        "Conclusion: Titanic sank rapidly — people in water — cries of despair —",
+        "lifeboats moved away."
+      ],
+      "text": "Conclusion: Titanic sank rapidly — people in water — cries of despair — lifeboats moved away.",
+      "reason": "Titanic正文介绍与沉没过程各为完整双语段，题干注释和弃船范文的句内换行机械切开，恢复完整单元。"
+    },
+    {
+      "start": 110,
+      "end": 114,
+      "before": [
+        "The Titanic began to sink, slowly at first. The order to abandon ship was",
+        "unexpected, so passengers and crew were completely unprepared. It was the middle of",
+        "the night. Some people were asleep in their cabins. Others were on deck admiring the",
+        "brilliant night sky and the giant icebergs rising above them. Others were eating and",
+        "dancing in the wonderful ballrooms on the ship."
+      ],
+      "text": "The Titanic began to sink, slowly at first. The order to abandon ship was unexpected, so passengers and crew were completely unprepared. It was the middle of the night. Some people were asleep in their cabins. Others were on deck admiring the brilliant night sky and the giant icebergs rising above them. Others were eating and dancing in the wonderful ballrooms on the ship.",
+      "reason": "Titanic正文介绍与沉没过程各为完整双语段，题干注释和弃船范文的句内换行机械切开，恢复完整单元。"
+    },
+    {
+      "start": 115,
+      "end": 122,
+      "before": [
+        "The immediate effect was panic and confusion. People began rushing in all",
+        "directions, wondering what to do next. The cold was indescribable and many",
+        "passengers were still in their night clothes. Members of the crew came up from below",
+        "and began to lower the lifeboats. It was a case of women and children first, but it soon",
+        "became obvious that there weren't enough lifeboats for everyone, so people jumped",
+        "overboard into the freezing water in order to save their lives. Some of those",
+        "swimming in the water struggled to get into the lifeboats, but most of them were",
+        "already full."
+      ],
+      "text": "The immediate effect was panic and confusion. People began rushing in all directions, wondering what to do next. The cold was indescribable and many passengers were still in their night clothes. Members of the crew came up from below and began to lower the lifeboats. It was a case of women and children first, but it soon became obvious that there weren't enough lifeboats for everyone, so people jumped overboard into the freezing water in order to save their lives. Some of those swimming in the water struggled to get into the lifeboats, but most of them were already full.",
+      "reason": "Titanic正文介绍与沉没过程各为完整双语段，题干注释和弃船范文的句内换行机械切开，恢复完整单元。"
+    },
+    {
+      "start": 123,
+      "end": 125,
+      "before": [
+        "The Titanic sank rapidly, carrying many people down with it. There were cries of",
+        "despair from people in the water as they watched the lifeboats moving away and were",
+        "left to drown in the icy ocean."
+      ],
+      "text": "The Titanic sank rapidly, carrying many people down with it. There were cries of despair from people in the water as they watched the lifeboats moving away and were left to drown in the icy ocean.",
+      "reason": "Titanic正文介绍与沉没过程各为完整双语段，题干注释和弃船范文的句内换行机械切开，恢复完整单元。"
+    }
+  ],
+  "splitBlocks": [],
+  "blockEdits": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/0ac5e29abaed0f00e904c4e3745b3658631695f59e984b866418f50ea3476252.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "91bf25abe43d21aec6db23ff181dc241d1a5eef58a4b7363ebe8fa47a8a6337f"
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 1,
+  "course": "pep-english",
+  "articleId": "pephs3-018",
+  "beforeDisplaySha256": "dfd85004a147c67643f7f84577487c52522194b1f1018464b28b60030f773c61",
+  "afterDisplaySha256": "a4ea62f63815a45b12965ad34c8992b39f479f4e312472907d5820e39915b6d3",
+  "baselineDisplay": {
+    "title": "What Is Free Verse?",
+    "section": "Assessing Your Progress",
+    "text": "A: What is free verse?\nB: Free verse is an open form of poetry.\nA: What do you mean by “open”?\nB: A free verse poem does not follow any rules. It has no regular metre or rhythm.\nA: I see. So it means the poet has complete control over their creation.",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "A: What is free verse?\nB: Free verse is an open form of poetry.\nA: What do you mean by “open”?\nB: A free verse poem does not follow any rules. It has no regular metre or rhythm.\nA: I see. So it means the poet has complete control over their creation."
+      }
+    ]
+  },
+  "display": {
+    "title": "What Is Free Verse?",
+    "section": "Assessing Your Progress",
+    "text": "A: What is free verse?\nB: Free verse is an open form of poetry.\nA: What do you mean by “open”?\nB: A free verse poem does not follow any rules. It has no regular metre or rhythm.\nA: I see. So it means the poet has complete control over their creation.",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "A: What is free verse?"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "B: Free verse is an open form of poetry."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "A: What do you mean by “open”?"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "B: A free verse poem does not follow any rules. It has no regular metre or rhythm."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "A: I see. So it means the poet has complete control over their creation."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "path": "content/article-review/history/903437980a4ff306ec0639972a576d93fc18627d7c9dc3289f71b52564dfe5be.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "8febc1ee325b7262e823f9921f52d5afa657e3ea9841796d85d89572b11e23c7"
+    }
+  ],
+  "corrections": [],
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "reviewer": "Codex",
+  "reviewedAt": "2026-10-07T07:35:51+00:00",
+  "notes": "自由诗定义五轮A/B问答逐轮拆分，两句定义仍为B的一轮。",
+  "issues": [],
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "41bd7b6c4f2537941d6d321b058c41daf58616a4533c76616c50155ef2255b70",
+    "afterFileSha256": "41b9160ca202aee7007ab7a8ceb67ab129b099f12386015fedd339f33af3c8d6",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "41bd7b6c4f2537941d6d321b058c41daf58616a4533c76616c50155ef2255b70",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..0] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "自由诗定义五轮A/B问答逐轮拆分，两句定义仍为B的一轮。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [
+        {
+          "index": 0,
+          "before": [
+            "A: What is free verse?\nB: Free verse is an open form of poetry.\nA: What do you mean by “open”?\nB: A free verse poem does not follow any rules. It has no regular metre or rhythm.\nA: I see. So it means the poet has complete control over their creation."
+          ],
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "A: What is free verse?"
+            },
+            {
+              "type": "paragraph",
+              "text": "B: Free verse is an open form of poetry."
+            },
+            {
+              "type": "paragraph",
+              "text": "A: What do you mean by “open”?"
+            },
+            {
+              "type": "paragraph",
+              "text": "B: A free verse poem does not follow any rules. It has no regular metre or rhythm."
+            },
+            {
+              "type": "paragraph",
+              "text": "A: I see. So it means the poet has complete control over their creation."
+            }
+          ],
+          "reason": "每行具有明确的发言人及完整轮次，分块保留各对话轮次。"
+        }
+      ],
+      "sources": [
+        {
+          "path": "content/article-review/history/903437980a4ff306ec0639972a576d93fc18627d7c9dc3289f71b52564dfe5be.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "8febc1ee325b7262e823f9921f52d5afa657e3ea9841796d85d89572b11e23c7"
+        }
+      ]
+    }
+  },
+  "status": "passed_edited",
+  "previousRevisionSha256": "903437980a4ff306ec0639972a576d93fc18627d7c9dc3289f71b52564dfe5be"
+}

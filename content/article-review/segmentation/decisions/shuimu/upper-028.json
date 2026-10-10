@@ -1,0 +1,261 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "ffad1c5184155e74ec6fffd343a1b05e1af830061b0e850453c0f8913fa2aade",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title；全文 blocks[0..185] 与对应 text；现有正文/对话/题干逐块通读复核。",
+  "notes": "通读Five pounds too dear全部词表、三组英汉正文、五条注释、19道理解问答、The bargain写作提纲与含对话范文、12题答案。范文问笔和卖方回应分块，三次价钱商谈各自连贯；回船发现笔不能写的多句结局完整保留。",
+  "issues": [],
+  "mergeBlocks": [
+    {
+      "start": 19,
+      "end": 24,
+      "before": [
+        "Small boats loaded with wares sped to the great liner as she was entering the harbour.",
+        "Before she had anchored, the men from the boats had climbed on board and the decks",
+        "were soon covered with colourful rugs from Persia, silks from India, copper coffee",
+        "pots, and beautiful handmade silverware. It was difficult not to be tempted. Many of",
+        "the tourists on board had begun bargaining with the tradesmen, but I decided not to",
+        "buy anything until I had disembarked."
+      ],
+      "text": "Small boats loaded with wares sped to the great liner as she was entering the harbour. Before she had anchored, the men from the boats had climbed on board and the decks were soon covered with colourful rugs from Persia, silks from India, copper coffee pots, and beautiful handmade silverware. It was difficult not to be tempted. Many of the tourists on board had begun bargaining with the tradesmen, but I decided not to buy anything until I had disembarked.",
+      "reason": "船上售货、钻戒推销和买笔被骗三组英汉叙事及问答断行接续，范文各轮次与叙事段分别保留。"
+    },
+    {
+      "start": 25,
+      "end": 29,
+      "before": [
+        "当一艘大型班船进港的时候，许多小船载着各种杂货快速向客轮驶来。大船还未",
+        "下锚，小船上的人就纷纷爬上客轮。一会儿工夫，甲板上就摆满了色彩 斑斓的",
+        "波斯地毯、印度丝绸、铜咖啡壶以及手工制作的漂亮的银器。要想不为这些东西",
+        "所动心是很困难的。船上的许多游客开始同商贩讨价还价起来，但我打定主意上",
+        "岸之前什么也不买。"
+      ],
+      "text": "当一艘大型班船进港的时候，许多小船载着各种杂货快速向客轮驶来。大船还未下锚，小船上的人就纷纷爬上客轮。一会儿工夫，甲板上就摆满了色彩 斑斓的波斯地毯、印度丝绸、铜咖啡壶以及手工制作的漂亮的银器。要想不为这些东西所动心是很困难的。船上的许多游客开始同商贩讨价还价起来，但我打定主意上岸之前什么也不买。",
+      "reason": "船上售货、钻戒推销和买笔被骗三组英汉叙事及问答断行接续，范文各轮次与叙事段分别保留。"
+    },
+    {
+      "start": 30,
+      "end": 35,
+      "before": [
+        "I had no sooner got off the ship than I was assailed by a man who wanted to sell me a",
+        "diamond ring. I had no intention of buying one, but I could not conceal the fact that I",
+        "was impressed by the size of the diamonds. Some of them were as big as marbles. The",
+        "man went to great lengths to prove that the diamonds were real. As we were walking",
+        "past a shop, he held a diamond firmly against the window and made a deep",
+        "impression in the glass. It took me over half an hour to get rid of him."
+      ],
+      "text": "I had no sooner got off the ship than I was assailed by a man who wanted to sell me a diamond ring. I had no intention of buying one, but I could not conceal the fact that I was impressed by the size of the diamonds. Some of them were as big as marbles. The man went to great lengths to prove that the diamonds were real. As we were walking past a shop, he held a diamond firmly against the window and made a deep impression in the glass. It took me over half an hour to get rid of him.",
+      "reason": "船上售货、钻戒推销和买笔被骗三组英汉叙事及问答断行接续，范文各轮次与叙事段分别保留。"
+    },
+    {
+      "start": 36,
+      "end": 39,
+      "before": [
+        "我刚下船，就被一个人截住，他向我兜售一枚钻石戒指。我根本不想买，但我不",
+        "能掩饰这样一个事实：其钻石之大给我留下了深刻的印象。有的钻石像玻璃球那",
+        "么大。那人竭力想证明那钻石是真货。我们路过一家商店时，他将一颗钻石使劲",
+        "地往橱窗上一按，在玻璃上留下一道深痕。我花了半个多小时才摆脱了他的纠缠。"
+      ],
+      "text": "我刚下船，就被一个人截住，他向我兜售一枚钻石戒指。我根本不想买，但我不能掩饰这样一个事实：其钻石之大给我留下了深刻的印象。有的钻石像玻璃球那么大。那人竭力想证明那钻石是真货。我们路过一家商店时，他将一颗钻石使劲地往橱窗上一按，在玻璃上留下一道深痕。我花了半个多小时才摆脱了他的纠缠。",
+      "reason": "船上售货、钻戒推销和买笔被骗三组英汉叙事及问答断行接续，范文各轮次与叙事段分别保留。"
+    },
+    {
+      "start": 41,
+      "end": 42,
+      "before": [
+        "1 I had no sooner got off the ship than I was assailed，我刚刚一下船就被……人纠缠",
+        "住了。 no sooner… than…作“刚……就……”讲"
+      ],
+      "text": "1 I had no sooner got off the ship than I was assailed，我刚刚一下船就被……人纠缠住了。 no sooner… than…作“刚……就……”讲",
+      "reason": "船上售货、钻戒推销和买笔被骗三组英汉叙事及问答断行接续，范文各轮次与叙事段分别保留。"
+    },
+    {
+      "start": 45,
+      "end": 56,
+      "before": [
+        "The next man to approach me was selling expensive pens and watches. I examined",
+        "one of the pens closely. It certainly looked genuine. At the base of the gold cap, the",
+        "words ‘made in the USA’ had been neatly inscribed. The man said that the pen was",
+        "worth ￡50, but as a special favour, he would let me have it for ￡30. I shook my",
+        "head and held up five fingers indicating that I was willing to pay ￡5. Gesticulating",
+        "wildly, the man acted as if he found my offer outrageous, but he eventually reduced",
+        "the price to ￡10. Shrugging my shoulders, I began to walk away when, a moment",
+        "later, he ran after me and thrust the pen into my hands. Though he kept throwing up",
+        "his arms in despair, he readily accepted the ￡5 I gave him. I felt especially pleased",
+        "with my wonderful bargain — until I got back to the ship. No matter how hard I tried,",
+        "it was impossible to fill this beautiful pen with ink and to this day it has never written",
+        "a single word!"
+      ],
+      "text": "The next man to approach me was selling expensive pens and watches. I examined one of the pens closely. It certainly looked genuine. At the base of the gold cap, the words ‘made in the USA’ had been neatly inscribed. The man said that the pen was worth ￡50, but as a special favour, he would let me have it for ￡30. I shook my head and held up five fingers indicating that I was willing to pay ￡5. Gesticulating wildly, the man acted as if he found my offer outrageous, but he eventually reduced the price to ￡10. Shrugging my shoulders, I began to walk away when, a moment later, he ran after me and thrust the pen into my hands. Though he kept throwing up his arms in despair, he readily accepted the ￡5 I gave him. I felt especially pleased with my wonderful bargain — until I got back to the ship. No matter how hard I tried, it was impossible to fill this beautiful pen with ink and to this day it has never written a single word!",
+      "reason": "船上售货、钻戒推销和买笔被骗三组英汉叙事及问答断行接续，范文各轮次与叙事段分别保留。"
+    },
+    {
+      "start": 57,
+      "end": 65,
+      "before": [
+        "向我兜售的第二个人是卖名贵钢笔和手表的。我仔细察看了一枝钢笔，那看上去",
+        "确实不假，金笔帽下方整齐地刻有“美国制造”字样。那人说那支笔值 50 英镑，",
+        "作为特别优惠，他愿意让我出 30 英镑成交。我摇摇头，伸出 5 根手指表示我只",
+        "愿出 5 镑钱。那人激动地打着手势，仿佛我的出价使他不能容忍。但他终于把价",
+        "钱降到了 10 英镑。我耸耸肩膀掉头走开了。一会儿，他突然从后追了上来，把",
+        "笔塞到我手里。虽然他绝望地举起双手，但他毫不迟疑地收下了我付给他的 5",
+        "镑钱。在回到船上之前，我一直为我的绝妙的讨价还价而洋洋得意。然而不管我",
+        "如何摆弄，那枝漂亮的钢笔就是吸不进墨水来。直到今天，那枝笔连一个字也没",
+        "写过！"
+      ],
+      "text": "向我兜售的第二个人是卖名贵钢笔和手表的。我仔细察看了一枝钢笔，那看上去确实不假，金笔帽下方整齐地刻有“美国制造”字样。那人说那支笔值 50 英镑，作为特别优惠，他愿意让我出 30 英镑成交。我摇摇头，伸出 5 根手指表示我只愿出 5 镑钱。那人激动地打着手势，仿佛我的出价使他不能容忍。但他终于把价钱降到了 10 英镑。我耸耸肩膀掉头走开了。一会儿，他突然从后追了上来，把笔塞到我手里。虽然他绝望地举起双手，但他毫不迟疑地收下了我付给他的 5镑钱。在回到船上之前，我一直为我的绝妙的讨价还价而洋洋得意。然而不管我如何摆弄，那枝漂亮的钢笔就是吸不进墨水来。直到今天，那枝笔连一个字也没写过！",
+      "reason": "船上售货、钻戒推销和买笔被骗三组英汉叙事及问答断行接续，范文各轮次与叙事段分别保留。"
+    },
+    {
+      "start": 71,
+      "end": 72,
+      "before": [
+        "1 What was the liner doing as the small boats sped towards her? (Entering the",
+        "harbour.)"
+      ],
+      "text": "1 What was the liner doing as the small boats sped towards her? (Entering the harbour.)",
+      "reason": "船上售货、钻戒推销和买笔被骗三组英汉叙事及问答断行接续，范文各轮次与叙事段分别保留。"
+    },
+    {
+      "start": 74,
+      "end": 75,
+      "before": [
+        "3 What kinds of things were the decks soon covered with? (Colourful rugs from",
+        "Persia, silks from India, copper coffee pots and handmade silverware.)"
+      ],
+      "text": "3 What kinds of things were the decks soon covered with? (Colourful rugs from Persia, silks from India, copper coffee pots and handmade silverware.)",
+      "reason": "船上售货、钻戒推销和买笔被骗三组英汉叙事及问答断行接续，范文各轮次与叙事段分别保留。"
+    },
+    {
+      "start": 79,
+      "end": 80,
+      "before": [
+        "7 What happened as soon as he got off the ship? (He was approached by a man who",
+        "wanted to sell him a diamond ring.)"
+      ],
+      "text": "7 What happened as soon as he got off the ship? (He was approached by a man who wanted to sell him a diamond ring.)",
+      "reason": "船上售货、钻戒推销和买笔被骗三组英汉叙事及问答断行接续，范文各轮次与叙事段分别保留。"
+    },
+    {
+      "start": 84,
+      "end": 85,
+      "before": [
+        "11 What did the man do as they were walking past a shop? (He held a diamond firmly",
+        "against the window and made an impression in the glass.)"
+      ],
+      "text": "11 What did the man do as they were walking past a shop? (He held a diamond firmly against the window and made an impression in the glass.)",
+      "reason": "船上售货、钻戒推销和买笔被骗三组英汉叙事及问答断行接续，范文各轮次与叙事段分别保留。"
+    },
+    {
+      "start": 96,
+      "end": 98,
+      "before": [
+        "In not more than 250 words write an imaginary account, mainly in dialogue form, of",
+        "the scene that took place between the writer and the man who sold him the pen. Use",
+        "the ideas given below."
+      ],
+      "text": "In not more than 250 words write an imaginary account, mainly in dialogue form, of the scene that took place between the writer and the man who sold him the pen. Use the ideas given below.",
+      "reason": "船上售货、钻戒推销和买笔被骗三组英汉叙事及问答断行接续，范文各轮次与叙事段分别保留。"
+    },
+    {
+      "start": 99,
+      "end": 100,
+      "before": [
+        "Introduction: Man approached with pens and watches — held them up — writer",
+        "showed interest."
+      ],
+      "text": "Introduction: Man approached with pens and watches — held them up — writer showed interest.",
+      "reason": "船上售货、钻戒推销和买笔被骗三组英汉叙事及问答断行接续，范文各轮次与叙事段分别保留。"
+    },
+    {
+      "start": 101,
+      "end": 104,
+      "before": [
+        "Development and Conclusion: Writer asked to see a pen — man handed him one —",
+        "argument about the price — gradually reduced to £10 — Writer walked away",
+        "— man followed — made it clear that he was being robbed but accepted £5 —",
+        "Writer pleased, but man disappeared quickly."
+      ],
+      "text": "Development and Conclusion: Writer asked to see a pen — man handed him one — argument about the price — gradually reduced to £10 — Writer walked away — man followed — made it clear that he was being robbed but accepted £5 — Writer pleased, but man disappeared quickly.",
+      "reason": "船上售货、钻戒推销和买笔被骗三组英汉叙事及问答断行接续，范文各轮次与叙事段分别保留。"
+    },
+    {
+      "start": 107,
+      "end": 109,
+      "before": [
+        "The writer had only just got rid of a man who was trying to sell a diamond ring",
+        "when another man approached him with some expensive pens and watches. When he",
+        "held them up for the writer to look at, the writer showed quite a lot of interest."
+      ],
+      "text": "The writer had only just got rid of a man who was trying to sell a diamond ring when another man approached him with some expensive pens and watches. When he held them up for the writer to look at, the writer showed quite a lot of interest.",
+      "reason": "船上售货、钻戒推销和买笔被骗三组英汉叙事及问答断行接续，范文各轮次与叙事段分别保留。"
+    },
+    {
+      "start": 111,
+      "end": 112,
+      "before": [
+        "The man handed the writer one and said: ‘It's a beautiful pen, sir. It's worth £50, but",
+        "you can have it for £30.’"
+      ],
+      "text": "The man handed the writer one and said: ‘It's a beautiful pen, sir. It's worth £50, but you can have it for £30.’",
+      "reason": "船上售货、钻戒推销和买笔被骗三组英汉叙事及问答断行接续，范文各轮次与叙事段分别保留。"
+    },
+    {
+      "start": 113,
+      "end": 114,
+      "before": [
+        "When the Writer offered him just £5, there was an argument about the price, but",
+        "eventually the man said:‘You can have it for £10, sir. That's the least I can take.’"
+      ],
+      "text": "When the Writer offered him just £5, there was an argument about the price, but eventually the man said:‘You can have it for £10, sir. That's the least I can take.’",
+      "reason": "船上售货、钻戒推销和买笔被骗三组英汉叙事及问答断行接续，范文各轮次与叙事段分别保留。"
+    },
+    {
+      "start": 115,
+      "end": 117,
+      "before": [
+        "As the writer walked away shrugging his shoulders, the man followed him. ‘I",
+        "can't really do it, sir — I'm almost giving it away,’he said, ‘but you can have it for",
+        "£5.’"
+      ],
+      "text": "As the writer walked away shrugging his shoulders, the man followed him. ‘I can't really do it, sir — I'm almost giving it away,’he said, ‘but you can have it for £5.’",
+      "reason": "船上售货、钻戒推销和买笔被骗三组英汉叙事及问答断行接续，范文各轮次与叙事段分别保留。"
+    },
+    {
+      "start": 118,
+      "end": 122,
+      "before": [
+        "The writer was obviously very pleased. He gave the man £5, took the pen, and the",
+        "man disappeared quickly into the crowd. The writer was extremely pleased: he had",
+        "bought a very expensive pen for just £5. What a bargain! Later, back on board ship,",
+        "the writer discovered why the man had been in such a hurry to get away: you couldn't",
+        "fill the pen with ink and it just didn't work! It wasn't such a bargain' after all!"
+      ],
+      "text": "The writer was obviously very pleased. He gave the man £5, took the pen, and the man disappeared quickly into the crowd. The writer was extremely pleased: he had bought a very expensive pen for just £5. What a bargain! Later, back on board ship, the writer discovered why the man had been in such a hurry to get away: you couldn't fill the pen with ink and it just didn't work! It wasn't such a bargain' after all!",
+      "reason": "船上售货、钻戒推销和买笔被骗三组英汉叙事及问答断行接续，范文各轮次与叙事段分别保留。"
+    },
+    {
+      "start": 154,
+      "end": 155,
+      "before": [
+        "7 The man said that although the pen was worth £50, as a special favour, for",
+        "£30."
+      ],
+      "text": "7 The man said that although the pen was worth £50, as a special favour, for £30.",
+      "reason": "船上售货、钻戒推销和买笔被骗三组英汉叙事及问答断行接续，范文各轮次与叙事段分别保留。"
+    }
+  ],
+  "splitBlocks": [],
+  "blockEdits": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/0aa4135168af26180d12167796ec036daee78b8f2e90e2de93bb4229c2b54717.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "e6cdb78fee9e129c4668673801cd8616193533161ced13cadb24b206f3532986"
+    }
+  ]
+}

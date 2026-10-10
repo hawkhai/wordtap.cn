@@ -85,12 +85,12 @@
     ]
   },
   "manualReview": {
+    "reviewer": "Codex (user-directed restoration)",
+    "reviewedAt": "2026-10-05T17:15:10+00:00",
+    "correctionCount": 5,
+    "evidence": "content/article-review/cleanup-2026-10-06.json",
+    "eventSha256": "ff1e78766da5f764810e463b7456bf4cc7034b0391bb13e8f4e2cdd90aa5a88e",
     "status": "passed",
-    "reviewer": "Codex",
-    "reviewedAt": "2026-07-30T01:37:11Z",
-    "correctionCount": 8,
-    "evidence": "Full second read: NHCE4-RW1.pdf pages 84-85; images NHCE4-RW1_84.jpg..85.jpg; reviewed-articles/rw1-u03-b.json",
-    "textSha256": "c22c69a5d8c9536e5541c6235e10bf2557470d862e8d8c948ca32be6c9a1eddc",
-    "eventSha256": "0405674262abe6964190ffdfc037c1c97293a4e9464a1677c28277f1a6244a2f"
+    "textSha256": "c22c69a5d8c9536e5541c6235e10bf2557470d862e8d8c948ca32be6c9a1eddc"
   }
 }

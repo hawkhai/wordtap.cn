@@ -1,0 +1,22 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "9208fbd7ef6a6b7e1898478ed2f989e5917b0822920e933de2b9bf68f1a6581a",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title；全文 blocks[0..2] 与对应 text；现有正文/对话/题干逐块通读复核。",
+  "notes": "Frank、Gina、Wang Wei三份运动自述各为一个完整人物单元，保留姓名行和对应多句正文。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "blockEdits": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/47c6fd69f5501ae4566ce32f880cb41396e863ca7fa9754c07fec52d0d4ffbbb.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "630fab9b9201f85c270fdae408aa645824f8474e20eabe66eb26344d2b510786"
+    }
+  ]
+}

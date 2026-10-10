@@ -1,0 +1,21 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "ea82fbd524a1571c2ca664840e9d6f3b98f5ce5438ab8f3f5950f64912f346b2",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title与blocks[0..4]全文逐段阅读；text等于完整blocks连接。内存应用明确决定并验证后，复核输出blocks[0..4]全文与标题/引语/自然段边界。",
+  "notes": "5个长自然段全文核读，包括中国人生观、达观超脱、西方闲适欲望及民族哲学收束；长段各自保持同一论证，不按句长任意切段。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/757a1955acc8af8cfbe85854a4f4f8ec3caa2a0a7cc32612dd2714503d203361.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "8a73a52aba4841b2c8b7293550619488ab3ce29a6537ae6dc35b16b2579577e9"
+    }
+  ]
+}

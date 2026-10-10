@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 1,
+  "course": "pep-english",
+  "articleId": "pepj9-028",
+  "beforeDisplaySha256": "12890186aac76b8ef013ebae80fda49cdf63dd0bc0cd6661f5c6b9e105b1c9b7",
+  "afterDisplaySha256": "12890186aac76b8ef013ebae80fda49cdf63dd0bc0cd6661f5c6b9e105b1c9b7",
+  "baselineDisplay": {
+    "title": "What Do You Feel Like Watching Today?",
+    "section": "Section A",
+    "text": "While some people stick to only one kind of movie, I like to watch different kinds depending on how I feel that day.\nWhen I'm down or tired, I prefer movies that can cheer me up. Comedies like Men in Black or cartoons like Kung Fu Panda have funny dialog and usually have a happy ending. The characters may not be perfect, but they try their best to solve their problems. After I watch them, my problems suddenly seem less serious and I feel much better again. Laughing for two hours is a good way to relax!\nI don't watch dramas or documentaries when I'm sad or tired. Dramas like Titanic make me feel even sadder. Documentaries like March of the Penguins which provide plenty of information about a certain subject can be interesting, but when I'm tired I don't want to think too much. I don't mind action movies like Spider-Man when I'm too tired to think. I can just shut off my brain, sit back and enjoy watching an exciting superhero who always saves the world just in time.\nOnce in a while, I like to watch movies that are scary. They can be fun, but I'm too scared to watch them alone. I always bring a friend who isn't afraid of these kinds of movies, and it doesn't feel so scary anymore.",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "While some people stick to only one kind of movie, I like to watch different kinds depending on how I feel that day."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "When I'm down or tired, I prefer movies that can cheer me up. Comedies like Men in Black or cartoons like Kung Fu Panda have funny dialog and usually have a happy ending. The characters may not be perfect, but they try their best to solve their problems. After I watch them, my problems suddenly seem less serious and I feel much better again. Laughing for two hours is a good way to relax!"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "I don't watch dramas or documentaries when I'm sad or tired. Dramas like Titanic make me feel even sadder. Documentaries like March of the Penguins which provide plenty of information about a certain subject can be interesting, but when I'm tired I don't want to think too much. I don't mind action movies like Spider-Man when I'm too tired to think. I can just shut off my brain, sit back and enjoy watching an exciting superhero who always saves the world just in time."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Once in a while, I like to watch movies that are scary. They can be fun, but I'm too scared to watch them alone. I always bring a friend who isn't afraid of these kinds of movies, and it doesn't feel so scary anymore."
+      }
+    ]
+  },
+  "display": {
+    "title": "What Do You Feel Like Watching Today?",
+    "section": "Section A",
+    "text": "While some people stick to only one kind of movie, I like to watch different kinds depending on how I feel that day.\nWhen I'm down or tired, I prefer movies that can cheer me up. Comedies like Men in Black or cartoons like Kung Fu Panda have funny dialog and usually have a happy ending. The characters may not be perfect, but they try their best to solve their problems. After I watch them, my problems suddenly seem less serious and I feel much better again. Laughing for two hours is a good way to relax!\nI don't watch dramas or documentaries when I'm sad or tired. Dramas like Titanic make me feel even sadder. Documentaries like March of the Penguins which provide plenty of information about a certain subject can be interesting, but when I'm tired I don't want to think too much. I don't mind action movies like Spider-Man when I'm too tired to think. I can just shut off my brain, sit back and enjoy watching an exciting superhero who always saves the world just in time.\nOnce in a while, I like to watch movies that are scary. They can be fun, but I'm too scared to watch them alone. I always bring a friend who isn't afraid of these kinds of movies, and it doesn't feel so scary anymore.",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "While some people stick to only one kind of movie, I like to watch different kinds depending on how I feel that day."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "When I'm down or tired, I prefer movies that can cheer me up. Comedies like Men in Black or cartoons like Kung Fu Panda have funny dialog and usually have a happy ending. The characters may not be perfect, but they try their best to solve their problems. After I watch them, my problems suddenly seem less serious and I feel much better again. Laughing for two hours is a good way to relax!"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "I don't watch dramas or documentaries when I'm sad or tired. Dramas like Titanic make me feel even sadder. Documentaries like March of the Penguins which provide plenty of information about a certain subject can be interesting, but when I'm tired I don't want to think too much. I don't mind action movies like Spider-Man when I'm too tired to think. I can just shut off my brain, sit back and enjoy watching an exciting superhero who always saves the world just in time."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Once in a while, I like to watch movies that are scary. They can be fun, but I'm too scared to watch them alone. I always bring a friend who isn't afraid of these kinds of movies, and it doesn't feel so scary anymore."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "path": "content/article-review/history/94e3c95fa8bfc70ab327b77d58fbd1ffd5c036e8d8eae9b3c383aeadb8bae5a3.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "c8638d6e35170834179fdc4d7ceb5d5ec92ee708372827d747655338a3b2940b"
+    }
+  ],
+  "corrections": [],
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "reviewer": "Codex",
+  "reviewedAt": "2026-10-07T07:42:02+00:00",
+  "notes": "观影偏好四段按总述、喜剧动画、剧情纪录动作片、恐怖片分主题，片名例子保持完整段。",
+  "issues": [],
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "b6a89e2d0e886333bc12124102b2c5fd4c1e65029b3c25a2121fdfa674a358a7",
+    "afterFileSha256": "b6a89e2d0e886333bc12124102b2c5fd4c1e65029b3c25a2121fdfa674a358a7",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "b6a89e2d0e886333bc12124102b2c5fd4c1e65029b3c25a2121fdfa674a358a7",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..3] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "观影偏好四段按总述、喜剧动画、剧情纪录动作片、恐怖片分主题，片名例子保持完整段。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "blockEdits": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/94e3c95fa8bfc70ab327b77d58fbd1ffd5c036e8d8eae9b3c383aeadb8bae5a3.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "c8638d6e35170834179fdc4d7ceb5d5ec92ee708372827d747655338a3b2940b"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "94e3c95fa8bfc70ab327b77d58fbd1ffd5c036e8d8eae9b3c383aeadb8bae5a3"
+}

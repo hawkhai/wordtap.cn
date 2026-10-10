@@ -76,12 +76,12 @@
     ]
   },
   "manualReview": {
+    "reviewer": "Codex (user-directed restoration)",
+    "reviewedAt": "2026-10-05T17:15:10+00:00",
+    "correctionCount": 1,
+    "evidence": "content/article-review/cleanup-2026-10-06.json",
+    "eventSha256": "a7a082e65850d1425a13dba97c7254a9fb19ee0fa72ed6f695ab45e3d75b38a7",
     "status": "passed",
-    "reviewer": "Codex",
-    "reviewedAt": "2026-07-30T01:34:56Z",
-    "correctionCount": 10,
-    "evidence": "content/College-English/reviewed-articles/rw1-u03-a.json; NHCE4-RW1 PDF pages 71-73; images 71-73",
-    "textSha256": "b935bddc2ebb2a169abe7cac25544be5249187caca3eb81afa507d1026a24799",
-    "eventSha256": "0251a401ad1ab3c9e7a1576de38c585e2897a9c8fef82c59c3fd337c44f9bb3b"
+    "textSha256": "b935bddc2ebb2a169abe7cac25544be5249187caca3eb81afa507d1026a24799"
   }
 }

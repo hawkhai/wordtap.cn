@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "course": "pep-english",
+  "articleId": "pephs1-012",
+  "beforeDisplaySha256": "e8a4905831f4bf6060fe6e206f9f911b182277bab7a88d4475ac202ce710d9ab",
+  "afterDisplaySha256": "e8a4905831f4bf6060fe6e206f9f911b182277bab7a88d4475ac202ce710d9ab",
+  "baselineDisplay": {
+    "title": "Life Is a Stage",
+    "section": "Pronunciation",
+    "text": "Life is a stage, and we are all actors. This is also true when you are in a foreign land. Acting can help you communicate even if you do not know the language. For instance, one day a Chinese lady who was babysitting her grandchild in America went to a supermarket to buy some beef. She was confused to see all kinds of meat there and did not know which ones were beef. She asked a clerk by putting both hands up and saying “Moo! Moo!” The lady got what she wanted even without saying a word of English.",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Life is a stage, and we are all actors. This is also true when you are in a foreign land. Acting can help you communicate even if you do not know the language. For instance, one day a Chinese lady who was babysitting her grandchild in America went to a supermarket to buy some beef. She was confused to see all kinds of meat there and did not know which ones were beef. She asked a clerk by putting both hands up and saying “Moo! Moo!” The lady got what she wanted even without saying a word of English."
+      }
+    ]
+  },
+  "display": {
+    "title": "Life Is a Stage",
+    "section": "Pronunciation",
+    "text": "Life is a stage, and we are all actors. This is also true when you are in a foreign land. Acting can help you communicate even if you do not know the language. For instance, one day a Chinese lady who was babysitting her grandchild in America went to a supermarket to buy some beef. She was confused to see all kinds of meat there and did not know which ones were beef. She asked a clerk by putting both hands up and saying “Moo! Moo!” The lady got what she wanted even without saying a word of English.",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Life is a stage, and we are all actors. This is also true when you are in a foreign land. Acting can help you communicate even if you do not know the language. For instance, one day a Chinese lady who was babysitting her grandchild in America went to a supermarket to buy some beef. She was confused to see all kinds of meat there and did not know which ones were beef. She asked a clerk by putting both hands up and saying “Moo! Moo!” The lady got what she wanted even without saying a word of English."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "path": "content/article-review/history/36ee60ffa1d6589428be596b8a6b8b4bdcbaf88873e6c06bdcfea1b6c535d324.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "8d0923ff0610434967ff701fc5bb74ac04b04e4f92ad63c1156534bd908cc60b"
+    }
+  ],
+  "corrections": [],
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "reviewer": "Codex",
+  "reviewedAt": "2026-10-07T07:32:25+00:00",
+  "notes": "Life Is a Stage通过买牛肉故事说明动作沟通，例证与观点同一短段完整保留。",
+  "issues": [],
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "ea0d55c5ace6262fcab020d78edb8edc244872e6c40d87f059b29e83d005aa0b",
+    "afterFileSha256": "ea0d55c5ace6262fcab020d78edb8edc244872e6c40d87f059b29e83d005aa0b",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "ea0d55c5ace6262fcab020d78edb8edc244872e6c40d87f059b29e83d005aa0b",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..0] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "Life Is a Stage通过买牛肉故事说明动作沟通，例证与观点同一短段完整保留。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/36ee60ffa1d6589428be596b8a6b8b4bdcbaf88873e6c06bdcfea1b6c535d324.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "8d0923ff0610434967ff701fc5bb74ac04b04e4f92ad63c1156534bd908cc60b"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "36ee60ffa1d6589428be596b8a6b8b4bdcbaf88873e6c06bdcfea1b6c535d324"
+}

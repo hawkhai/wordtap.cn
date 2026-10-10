@@ -1,0 +1,378 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "1c7b6897b55c0d44b2af945014a27d331fbd02897ceeae2c32a43b03f181b818",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "coverage": "全文 blocks[0..97]；按 JSON 上下文逐项复核对话、解释、题目、表格、词表及修复后的边界。",
+  "notes": "十八个考试对话单元及三处独立短答中英拆块；反义疑问句作为整体保留，不把附加问句拆开，列表内多句例句完整。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [
+    {
+      "index": 3,
+      "before": [
+        "——How was the examination?\n你考得怎么样？"
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "——How was the examination?"
+        },
+        {
+          "type": "paragraph",
+          "text": "你考得怎么样？"
+        }
+      ],
+      "reason": "现有换行明确区分英文与对应中文，各自成块，保留原文顺序和对话轮次。"
+    },
+    {
+      "index": 4,
+      "before": [
+        "——Not too bad. I think I passed in English and Mathematics.\n还不错。我觉得我的英语和数学考试应该都及格了。"
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "——Not too bad. I think I passed in English and Mathematics."
+        },
+        {
+          "type": "paragraph",
+          "text": "还不错。我觉得我的英语和数学考试应该都及格了。"
+        }
+      ],
+      "reason": "现有换行明确区分英文与对应中文，各自成块，保留原文顺序和对话轮次。"
+    },
+    {
+      "index": 5,
+      "before": [
+        "The questions were very easy.\n那些问题都很简单。"
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The questions were very easy."
+        },
+        {
+          "type": "paragraph",
+          "text": "那些问题都很简单。"
+        }
+      ],
+      "reason": "现有换行明确区分英文与对应中文，各自成块，保留原文顺序和对话轮次。"
+    },
+    {
+      "index": 6,
+      "before": [
+        "How about you?\n你呢？"
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "How about you?"
+        },
+        {
+          "type": "paragraph",
+          "text": "你呢？"
+        }
+      ],
+      "reason": "现有换行明确区分英文与对应中文，各自成块，保留原文顺序和对话轮次。"
+    },
+    {
+      "index": 7,
+      "before": [
+        "——The English and Maths papers weren't easy enough for me.\n英语和数学对我来说都不简单。"
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "——The English and Maths papers weren't easy enough for me."
+        },
+        {
+          "type": "paragraph",
+          "text": "英语和数学对我来说都不简单。"
+        }
+      ],
+      "reason": "现有换行明确区分英文与对应中文，各自成块，保留原文顺序和对话轮次。"
+    },
+    {
+      "index": 8,
+      "before": [
+        "I hope I haven't failed.\n希望我没有不及格。"
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "I hope I haven't failed."
+        },
+        {
+          "type": "paragraph",
+          "text": "希望我没有不及格。"
+        }
+      ],
+      "reason": "现有换行明确区分英文与对应中文，各自成块，保留原文顺序和对话轮次。"
+    },
+    {
+      "index": 9,
+      "before": [
+        "——I think I failed the French test.\n我觉得我的法语考试应该是没通过。"
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "——I think I failed the French test."
+        },
+        {
+          "type": "paragraph",
+          "text": "我觉得我的法语考试应该是没通过。"
+        }
+      ],
+      "reason": "现有换行明确区分英文与对应中文，各自成块，保留原文顺序和对话轮次。"
+    },
+    {
+      "index": 10,
+      "before": [
+        "I could answer sixteen of the questions.\n我只能回答其中的 16 道题。"
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "I could answer sixteen of the questions."
+        },
+        {
+          "type": "paragraph",
+          "text": "我只能回答其中的 16 道题。"
+        }
+      ],
+      "reason": "现有换行明确区分英文与对应中文，各自成块，保留原文顺序和对话轮次。"
+    },
+    {
+      "index": 11,
+      "before": [
+        "They were very easy.\n它们很简单。"
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "They were very easy."
+        },
+        {
+          "type": "paragraph",
+          "text": "它们很简单。"
+        }
+      ],
+      "reason": "现有换行明确区分英文与对应中文，各自成块，保留原文顺序和对话轮次。"
+    },
+    {
+      "index": 12,
+      "before": [
+        "But I couldn't answer the rest.\n但是其他的题目我不会。"
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "But I couldn't answer the rest."
+        },
+        {
+          "type": "paragraph",
+          "text": "但是其他的题目我不会。"
+        }
+      ],
+      "reason": "现有换行明确区分英文与对应中文，各自成块，保留原文顺序和对话轮次。"
+    },
+    {
+      "index": 13,
+      "before": [
+        "They were too difficult for me.\n对我来说太难了。"
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "They were too difficult for me."
+        },
+        {
+          "type": "paragraph",
+          "text": "对我来说太难了。"
+        }
+      ],
+      "reason": "现有换行明确区分英文与对应中文，各自成块，保留原文顺序和对话轮次。"
+    },
+    {
+      "index": 14,
+      "before": [
+        "——French tests are awful, aren't they?\n法语考试太可怕了，对吧？"
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "——French tests are awful, aren't they?"
+        },
+        {
+          "type": "paragraph",
+          "text": "法语考试太可怕了，对吧？"
+        }
+      ],
+      "reason": "现有换行明确区分英文与对应中文，各自成块，保留原文顺序和对话轮次。"
+    },
+    {
+      "index": 15,
+      "before": [
+        "I hate them. I'm sure I've got a low mark.\n我真的很讨厌法语考试，我的分数肯定很低。"
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "I hate them. I'm sure I've got a low mark."
+        },
+        {
+          "type": "paragraph",
+          "text": "我真的很讨厌法语考试，我的分数肯定很低。"
+        }
+      ],
+      "reason": "现有换行明确区分英文与对应中文，各自成块，保留原文顺序和对话轮次。"
+    },
+    {
+      "index": 16,
+      "before": [
+        "——Oh, cheer up! Perhaps we didn't do too badly.\n啊，别灰心！也许我们没有那么糟糕呢！"
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "——Oh, cheer up! Perhaps we didn't do too badly."
+        },
+        {
+          "type": "paragraph",
+          "text": "啊，别灰心！也许我们没有那么糟糕呢！"
+        }
+      ],
+      "reason": "现有换行明确区分英文与对应中文，各自成块，保留原文顺序和对话轮次。"
+    },
+    {
+      "index": 17,
+      "before": [
+        "The guy next to me wrote his name at the top of the paper.\n我旁边的那个人在试卷的最上面写了他的名字。"
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The guy next to me wrote his name at the top of the paper."
+        },
+        {
+          "type": "paragraph",
+          "text": "我旁边的那个人在试卷的最上面写了他的名字。"
+        }
+      ],
+      "reason": "现有换行明确区分英文与对应中文，各自成块，保留原文顺序和对话轮次。"
+    },
+    {
+      "index": 18,
+      "before": [
+        "——Yes?\n然后呢？"
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "——Yes?"
+        },
+        {
+          "type": "paragraph",
+          "text": "然后呢？"
+        }
+      ],
+      "reason": "现有换行明确区分英文与对应中文，各自成块，保留原文顺序和对话轮次。"
+    },
+    {
+      "index": 19,
+      "before": [
+        "——Then he sat there and looked at it for three hours!\n然后他就坐在那里看着自己的名字，坐了 3 个小时！"
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "——Then he sat there and looked at it for three hours!"
+        },
+        {
+          "type": "paragraph",
+          "text": "然后他就坐在那里看着自己的名字，坐了 3 个小时！"
+        }
+      ],
+      "reason": "现有换行明确区分英文与对应中文，各自成块，保留原文顺序和对话轮次。"
+    },
+    {
+      "index": 20,
+      "before": [
+        "He didn't write a word!\n一个字也没写！"
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "He didn't write a word!"
+        },
+        {
+          "type": "paragraph",
+          "text": "一个字也没写！"
+        }
+      ],
+      "reason": "现有换行明确区分英文与对应中文，各自成块，保留原文顺序和对话轮次。"
+    },
+    {
+      "index": 63,
+      "before": [
+        "Yes, it is.\n是的，准备好了。"
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Yes, it is."
+        },
+        {
+          "type": "paragraph",
+          "text": "是的，准备好了。"
+        }
+      ],
+      "reason": "现有换行明确区分英文与对应中文，各自成块，保留原文顺序和对话轮次。"
+    },
+    {
+      "index": 73,
+      "before": [
+        "Yes, they are.\n是的，他们很开心。"
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Yes, they are."
+        },
+        {
+          "type": "paragraph",
+          "text": "是的，他们很开心。"
+        }
+      ],
+      "reason": "现有换行明确区分英文与对应中文，各自成块，保留原文顺序和对话轮次。"
+    },
+    {
+      "index": 77,
+      "before": [
+        "Yes, he does./No, he doesn't.\n不，他喜欢。/是的，他不喜欢。"
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Yes, he does./No, he doesn't."
+        },
+        {
+          "type": "paragraph",
+          "text": "不，他喜欢。/是的，他不喜欢。"
+        }
+      ],
+      "reason": "现有换行明确区分英文与对应中文，各自成块，保留原文顺序和对话轮次。"
+    }
+  ],
+  "sources": [
+    {
+      "path": "content/article-review/history/911f8d0ee5117c9ccf650ce4e2ab3bdde7a71c8e4ca48ffc1bf70821572c6153.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "96e0ef81410ec62f7ec9a8604f9fd46a3625f3dacfa6d2fb5fcfb1be0eb628f6"
+    }
+  ]
+}

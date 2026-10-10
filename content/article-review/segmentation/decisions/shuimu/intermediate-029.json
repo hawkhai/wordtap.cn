@@ -1,0 +1,38 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "65f81077a2845ccf8127e1ca0d7eec200d9aedf41fe8c567d07ffc97756c802d",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "revisit": true,
+  "coverage": "全文已经通读；复核全部保留块及本次原30块双语边界。",
+  "notes": "复核报警句：英文到police.完整结束，后面当那辆开头为完整对应译文，分别成段。前轮合并证据保存在修订链。",
+  "issues": [],
+  "splitBlocks": [
+    {
+      "index": 30,
+      "before": [
+        "While the battered car was moving away, Roy stopped his bus and telephoned the police. 当那辆被撞坏的车开走后，罗伊停下车，给警察打了电话。"
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "While the battered car was moving away, Roy stopped his bus and telephoned the police."
+        },
+        {
+          "type": "paragraph",
+          "text": "当那辆被撞坏的车开走后，罗伊停下车，给警察打了电话。"
+        }
+      ],
+      "reason": "同块英文正文与完整中文译文应分别成段。"
+    }
+  ],
+  "sources": [
+    {
+      "path": "content/article-review/history/e46148002e80771b639ebd5b9e1c1a4673cd744a5fcb7f3df85ca9feae2ea797.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "3143b452d39120e971662190cd61379f379a4c41a87ccf243d046430a1545758"
+    }
+  ]
+}

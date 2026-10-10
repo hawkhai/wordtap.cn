@@ -1,0 +1,19 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "3e5c9e8b3e30306146f7d2fdd36bdfdea812c46c51dfaf8b0be0fadc1954ea4b",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "coverage": "全文 blocks[0..43]，逐处核对合并结果及所有未修改边界。",
+  "notes": "三对爆破音解析、发音词表与编号绕口令边界正确，含多句的第2条绕口令保留同段。",
+  "issues": [],
+  "mergeBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/59a66464e9730379a9b415f607dbbe573c882715daa70a6fc815528a51251c91.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "5bd5170503cb6bb36340418c741888e4fb16400498a122942c0dff812439d9a7"
+    }
+  ]
+}

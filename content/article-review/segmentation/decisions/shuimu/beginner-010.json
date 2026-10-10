@@ -1,0 +1,20 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "d296a007f5317abeb5c4b397ac8956c41c905877b29ddd16ffbd5ac88e8c73da",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "coverage": "全文 blocks[0..84]；按 JSON 上下文逐项复核对话、解释、题目、表格、词表及修复后的边界。",
+  "notes": "厨房与客厅双语描述逐项对应完整；介词对照分类、例句译文与词表均完整；37/38 为英语和中文两块，保留。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/da791919d2144233f0debeb61cf69c7edd2584519d16eff1e6b99a709f1bbb0c.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "86d4911f809700c01a461ffd96245d85b5ab763904e5f7766e1b8200fd5f9f1c"
+    }
+  ]
+}

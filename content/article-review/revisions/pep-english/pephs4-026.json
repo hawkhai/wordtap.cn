@@ -1,0 +1,79 @@
+{
+  "schemaVersion": 1,
+  "course": "pep-english",
+  "articleId": "pephs4-026",
+  "beforeDisplaySha256": "e6e2eba94e0c00fafaeb6a1dff1fc9eed956867282b31e7e5cbb26d543756c47",
+  "afterDisplaySha256": "e6e2eba94e0c00fafaeb6a1dff1fc9eed956867282b31e7e5cbb26d543756c47",
+  "baselineDisplay": {
+    "title": "Using Structures",
+    "section": "Reading",
+    "text": "myself my time burn tidy person w ho can prov ide ex planations and cultural her paintings perform throw inter pretations of each work's complicated your bedroom take up display meaning. Many samples of A borig inal rock ar t the play sausage start their car acc uratel y dated back as f ar as 28,000 years. Some EXAMPLE sites are among the oldest in the world, estimating Lisa was the leading actress! We saw t h e to be 40,000 years old. play per formed on stage yesterday evening. The rock ar t is also a record of Aboriginal life",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "myself my time burn tidy person w ho can prov ide ex planations and cultural her paintings perform throw inter pretations of each work's complicated your bedroom take up display meaning. Many samples of A borig inal rock ar t the play sausage start their car acc uratel y dated back as f ar as 28,000 years. Some EXAMPLE sites are among the oldest in the world, estimating Lisa was the leading actress! We saw t h e to be 40,000 years old. play per formed on stage yesterday evening. The rock ar t is also a record of Aboriginal life"
+      }
+    ]
+  },
+  "display": {
+    "title": "Using Structures",
+    "section": "Reading",
+    "text": "myself my time burn tidy person w ho can prov ide ex planations and cultural her paintings perform throw inter pretations of each work's complicated your bedroom take up display meaning. Many samples of A borig inal rock ar t the play sausage start their car acc uratel y dated back as f ar as 28,000 years. Some EXAMPLE sites are among the oldest in the world, estimating Lisa was the leading actress! We saw t h e to be 40,000 years old. play per formed on stage yesterday evening. The rock ar t is also a record of Aboriginal life",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "myself my time burn tidy person w ho can prov ide ex planations and cultural her paintings perform throw inter pretations of each work's complicated your bedroom take up display meaning. Many samples of A borig inal rock ar t the play sausage start their car acc uratel y dated back as f ar as 28,000 years. Some EXAMPLE sites are among the oldest in the world, estimating Lisa was the leading actress! We saw t h e to be 40,000 years old. play per formed on stage yesterday evening. The rock ar t is also a record of Aboriginal life"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "path": "content/article-review/history/288268ea6e7bfeb9aed3ee6152478ba30d6e654b8156c7965f58eca8051084a9.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "1c2f3d01d79bb67790b17a56ac2b710bd7f5e485de5d32d7fa0cf0ff37289ccf"
+    }
+  ],
+  "corrections": [],
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "reviewer": "Codex",
+  "reviewedAt": "2026-10-07T07:39:43+00:00",
+  "notes": "完整读到末尾Aboriginal life；语法练习词组选项和原住民岩画说明在单块交织，不能保序拆成合理独立项目，未猜测处理。",
+  "issues": [
+    "myself my time burn tidy等练习词组与person who can provide explanations...及岩画段连续交叉插入，例句亦与岩画年代交织。恢复词表、例句与说明自然段需要重排，无法仅调空白安全修复。"
+  ],
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "3270cb4eee6af200b36530f1cbd01d5d87e59ef64465985642f3ea7a57346b0a",
+    "afterFileSha256": "3270cb4eee6af200b36530f1cbd01d5d87e59ef64465985642f3ea7a57346b0a",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "3270cb4eee6af200b36530f1cbd01d5d87e59ef64465985642f3ea7a57346b0a",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..0] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "完整读到末尾Aboriginal life；语法练习词组选项和原住民岩画说明在单块交织，不能保序拆成合理独立项目，未猜测处理。",
+      "issues": [
+        "myself my time burn tidy等练习词组与person who can provide explanations...及岩画段连续交叉插入，例句亦与岩画年代交织。恢复词表、例句与说明自然段需要重排，无法仅调空白安全修复。"
+      ],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "blockEdits": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/288268ea6e7bfeb9aed3ee6152478ba30d6e654b8156c7965f58eca8051084a9.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "1c2f3d01d79bb67790b17a56ac2b710bd7f5e485de5d32d7fa0cf0ff37289ccf"
+        }
+      ]
+    }
+  },
+  "status": "needs_source_check",
+  "previousRevisionSha256": "288268ea6e7bfeb9aed3ee6152478ba30d6e654b8156c7965f58eca8051084a9"
+}

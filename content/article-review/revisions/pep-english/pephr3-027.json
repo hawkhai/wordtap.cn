@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "course": "pep-english",
+  "articleId": "pephr3-027",
+  "beforeDisplaySha256": "cae9d0da8f47569944f1644c7bb58b11b08a3d66acceba1823d3cea3bbc7223d",
+  "afterDisplaySha256": "cae9d0da8f47569944f1644c7bb58b11b08a3d66acceba1823d3cea3bbc7223d",
+  "baselineDisplay": {
+    "title": "What Is the Hubble Space Telescope?",
+    "section": "Expanding Your World",
+    "text": "The Hubble Space Telescope is a very powerful telescope and was put into low orbit around Earth in 1990. Its four main instruments use a 2.4-metre mirror to look deep into space. The telescope does not have to deal with the effects of background light like telescopes on Earth, so it has been able to take very detailed pictures of space. A big achievement of the telescope has been to help scientists correctly measure how quickly the universe is expanding.",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "The Hubble Space Telescope is a very powerful telescope and was put into low orbit around Earth in 1990. Its four main instruments use a 2.4-metre mirror to look deep into space. The telescope does not have to deal with the effects of background light like telescopes on Earth, so it has been able to take very detailed pictures of space. A big achievement of the telescope has been to help scientists correctly measure how quickly the universe is expanding."
+      }
+    ]
+  },
+  "display": {
+    "title": "What Is the Hubble Space Telescope?",
+    "section": "Expanding Your World",
+    "text": "The Hubble Space Telescope is a very powerful telescope and was put into low orbit around Earth in 1990. Its four main instruments use a 2.4-metre mirror to look deep into space. The telescope does not have to deal with the effects of background light like telescopes on Earth, so it has been able to take very detailed pictures of space. A big achievement of the telescope has been to help scientists correctly measure how quickly the universe is expanding.",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "The Hubble Space Telescope is a very powerful telescope and was put into low orbit around Earth in 1990. Its four main instruments use a 2.4-metre mirror to look deep into space. The telescope does not have to deal with the effects of background light like telescopes on Earth, so it has been able to take very detailed pictures of space. A big achievement of the telescope has been to help scientists correctly measure how quickly the universe is expanding."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "path": "content/article-review/history/56d28aa317e601ede110ed903a102411f51e0c8e3b8874b3d61ac6ef4babf433.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "4f4ab065ddf3ab4674643c5c6f56946995c2f5fd4787d85ff626b09b058b21f7"
+    }
+  ],
+  "corrections": [],
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "reviewer": "Codex",
+  "reviewedAt": "2026-10-07T07:32:22+00:00",
+  "notes": "哈勃望远镜设备、轨道优势、测量成就为完整说明单段，保留。",
+  "issues": [],
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "335edadea8cbd0e0930dd7bb026c7129f28eb6a8c0b5923ff17e679b670243b5",
+    "afterFileSha256": "335edadea8cbd0e0930dd7bb026c7129f28eb6a8c0b5923ff17e679b670243b5",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "335edadea8cbd0e0930dd7bb026c7129f28eb6a8c0b5923ff17e679b670243b5",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..0] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "哈勃望远镜设备、轨道优势、测量成就为完整说明单段，保留。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/56d28aa317e601ede110ed903a102411f51e0c8e3b8874b3d61ac6ef4babf433.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "4f4ab065ddf3ab4674643c5c6f56946995c2f5fd4787d85ff626b09b058b21f7"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "56d28aa317e601ede110ed903a102411f51e0c8e3b8874b3d61ac6ef4babf433"
+}

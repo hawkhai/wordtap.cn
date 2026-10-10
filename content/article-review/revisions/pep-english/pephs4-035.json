@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 1,
+  "course": "pep-english",
+  "articleId": "pephs4-035",
+  "beforeDisplaySha256": "52d6bdfb2aaabe6a9fc1827d20ede0f7299cd8f1cd61a74774cc3120bc414af2",
+  "afterDisplaySha256": "52d6bdfb2aaabe6a9fc1827d20ede0f7299cd8f1cd61a74774cc3120bc414af2",
+  "baselineDisplay": {
+    "title": "Two-Metre Shark Attack While Snorkelling",
+    "section": "Listening and Speaking",
+    "text": "A 31-year-old man was attacked by a 2-metre shark while snorkelling this morning. He was bitten on the left side of his body and has been taken by air to hospital.",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "A 31-year-old man was attacked by a 2-metre shark while snorkelling this morning. He was bitten on the left side of his body and has been taken by air to hospital."
+      }
+    ]
+  },
+  "display": {
+    "title": "Two-Metre Shark Attack While Snorkelling",
+    "section": "Listening and Speaking",
+    "text": "A 31-year-old man was attacked by a 2-metre shark while snorkelling this morning. He was bitten on the left side of his body and has been taken by air to hospital.",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "A 31-year-old man was attacked by a 2-metre shark while snorkelling this morning. He was bitten on the left side of his body and has been taken by air to hospital."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "path": "content/article-review/history/e3df0f87cf26133440f8ba109390b63ef67cd867d1a0961396648a1bbfe9775d.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "302875fcec77d2e623a2045b9ae0af122d7db399025c8b23eeb807b089b6a4fd"
+    }
+  ],
+  "corrections": [],
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "reviewer": "Codex",
+  "reviewedAt": "2026-10-07T07:39:44+00:00",
+  "notes": "浮潜遇袭两句新闻交代人、地点场景、伤情及转院，保留短段。",
+  "issues": [],
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "caf6eaa15a8389457abdbbfe4eecce10e40fba7b17e16c78c14b17974aa0c31d",
+    "afterFileSha256": "caf6eaa15a8389457abdbbfe4eecce10e40fba7b17e16c78c14b17974aa0c31d",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "caf6eaa15a8389457abdbbfe4eecce10e40fba7b17e16c78c14b17974aa0c31d",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..0] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "浮潜遇袭两句新闻交代人、地点场景、伤情及转院，保留短段。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "blockEdits": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/e3df0f87cf26133440f8ba109390b63ef67cd867d1a0961396648a1bbfe9775d.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "302875fcec77d2e623a2045b9ae0af122d7db399025c8b23eeb807b089b6a4fd"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "e3df0f87cf26133440f8ba109390b63ef67cd867d1a0961396648a1bbfe9775d"
+}

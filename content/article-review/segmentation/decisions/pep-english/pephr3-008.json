@@ -1,0 +1,21 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "6f9e9b977c4628d820197d2b207bf59700183d4aff71416bfc86a643126a1bc6",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title；全文 blocks[0..8] 与对应 text；现有正文/对话/题干逐块通读复核。",
+  "notes": "路中石头寓言九段按国王设局、不同路人、小女孩行动和奖赏推进，叙述内引语保留，结尾人物发言分段合理。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/c1356967282b3342071bab41349a981b9f147b6a7f6e972954831755945d039b.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "43157a0f6d19a4a6e5df23da0f06c0e99b66fff216b8a8095300dffb55b8b8a6"
+    }
+  ]
+}

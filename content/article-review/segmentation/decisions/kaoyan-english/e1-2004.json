@@ -1,0 +1,1033 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "dc89b176bcac5815b7b78f39c6c3bec984bb68df0b8bc3390ed3d2e4d452bc64",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "完整title、blocks[0..5]及等同text；少年犯罪完形1—20全部选项，四篇阅读21—40全部选项，语言与思维41—45翻译全文，以及46作文全部现有文字要求；JSON无图、答案中文译文，未读取图片。 修后全部blocks[0..248]全文及对应自然段均已再次复核，validate_layout_change通过。",
+  "notes": "13题D后的14题独立，求职Redmon三周后的成功归开篇案例，For any job search与None解释同段。经济末段房贷和雇主受益并段。反智主义七段完整保留；语言long before/people跨页连接，Sapir不赞同决定论解释接最后段。原有chock、he time-consuming、Raviteh、became to be等不改字。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [
+    {
+      "index": 0,
+      "end": 5,
+      "before": [
+        "2004 年全国攻读硕士学位研究生入学考试英语试题 Section I Use of English Directions：\nRead the following text. Choose the best word(s) for each numbered blank and mark A, B, C or D on ANSWER SHEET 1. (10 points)\nMany theories concerning the causes of juvenile delinquency (cri mes committed by young people) focus either on the individual or on society as the major contributing influence. Theories 1 on the individual suggest that children engage in criminal behavior 2 they were not sufficiently penalized for previous misde eds or that they have learned criminal behavior through 3 with others. Theories focusing on the role of society suggest that children commit crimes in 4 to their failure to rise above their socioeconomic status, 5 as a rejection of middle-class values.\nMost theories of juvenile delinquency have focused on children from disadvantaged families, _ 6 the fact that children from wealthy homes also commit crimes. The latter may commit crimes 7 lack of adequate parental control. All theories, however, are tentative and are 8 to criticism.\nChanges in the social structure may indirectly 9 juvenile crime rates. For example, changes in the economy that 10 to fewer job opportunities for youth and rising unemployment 11 make gai nful employment increasingly difficult to obtain. The resulting discontent may in 12 lead more youths into criminal behavior.\nFamilies have also 13 changes these years. More families consist of one -parent households or two working parents; 14 ，children are likely to have less supervision at home 15 was common in the traditional family 16. This lack of parental supervision is thought to be an influence on juvenile crime rates.\nOther __17_ causes of offensive acts include frustration or failure in school, the increased __ 18 _ of drugs and alcohol, and the growing 19 of child abuse and child neglect. All these conditions tend to increase the probability of a child committing a criminal act, 20 a direct causal relationship has not yet been established.\n1. [A] acting [B] relying [C] centering [D] commenting\n2. [A] before [B] unless [C] until [D] because\n3. [A] interaction [B] assimilation [C] cooperation [D] consultation\n4. [A] return [B] reply [C] reference [D] response\n5. [A] or [B] but rather [C] but [D] or else\n6. [A] considering [B] ignoring [C] highlighting [D] discarding\n7. [A] on [B] in [C] for [D] with\n8. [A] immune [B] resistant [C] sensitive [D] subject\n9. [A] affect [B] reduce [C] chock [D] reflect\n10. [A] point [B] lead [C] come [D] amount\n11. [A] in general [B] on average [C] by contrast [D] at length\n12. [A] case [B] short [C] turn [D] essence\n13. [A] survived [B] noticed [C] undertaken [D] experienced 14.[A] contrarily [B] consequently [C] similarly [D] simultaneously\n15. [A] than [B] that [C] which [D] as\n16. [A] system [B] structure [C] concept [D] heritage\n17. [A] assessable [B] identifiable [C] negligible [D] incredible\n18. [A] expense [B] restriction [C] allocation [D] availability\n19. [A] incidence [B] awareness [C] exposure [D] popularity\n20. [A] provided [B] since [C] although [D] supposing",
+        "Section II Reading Comprehension Part A Directions:\nRead the following four texts. Answer the questions below each text by choosing [A], [B], [C] or [D]. Mark your answers on ANSWER SHEET 1. (40 points)\nT ext 1 Hunting for a job late last year, lawyer Gant Redmon stumbled across CareerBuilder, a job database on the Internet. He searched it with no success but was attracted by the site’s “pe rsonal search agent”. It’s an interactive feature that lets visitors key in job criteria such as location, title, and salary, then E -mails them when a matching position is posted in the database. Redmon chose the keywords legal, intellectual property and Washington, D.C.\nThree weeks later, he got his first notification of an opening. “I struck gold,” says Redmon, who E -mailed his resume to the employer and won a position as in -house counsel for a company.\nWith thousands of career -related sites on the Inter net, finding promising openings can he time -consuming and inefficient. Search agents reduce the need for repeated visits to the databases. But although a search agent worked for Redmon, career experts see drawbacks. Narrowing your criteria, for example, ma y work against you: “Every time you answer a question you eliminate a possibility,” says one expert.\nFor any job search, you should start with a narrow concept —what you think you want to do —then broaden it.\n“None of these programs do that,” says another e xpert. “There’s no career counseling implicit in all of this.” Instead, the best strategy is to use the agent as a kind of tip service to keep abreast of jobs in a particular database; when you get E-mail, consider it a reminder to check the database again. “I would not rely on agents for finding everything that is added to a database that might interest me,” says the author of a job -searching guide.\nSome sites design their agents to tempt job hunters to return. When CareerSite’s agent sends out messages t o those who have signed up for its service, for example, it includes only three potential jobs —those it considers the best matches. There may be more matches in the database; job hunters will have to visit the site again to find them —and they do. “On the d ay after we send our messages, we see a sharp increase in our traffic,” says Seth Peets, vice president of marketing for CareerSite.\nEven those who aren’t hunting for jobs may find search agents worthwhile. Some use them to keep a close watch on the dema nd for their line of work or gather information on compensation to arm themselves when negotiating for a raise. Although happily employed, Redmon maintains his agent at CareerBuilder. “You always keep your eyes open,” he says. Working with a personal searc h agent means having another set of eyes looking out for you.\n21. How did Redmon find his job?\n[A] By searching openings in a job database. [B] By posting a matching position in a database.\n[C] By using a special service of a database. [D] By E-mailing his resume to a database.\n22. Which of the following can be a disadvantage of search agents?\n[A] Lack of counseling. [B] Limited number of visits.\n[C] Lower efficiency. [D] Fewer successful matches.\n23. The expression “tip service” (Line 4, Paragraph 3) most probably means.\n[A] advisory. [B] compensation.\n[C] interaction. [D] reminder.\n24. Why does CareerSite’s agent offer each job hunter only three job options?\n[A] To focus on better job matches. [B] To attract more returning visits.\n[C] To reserve space for more messages. [D] To increase the rate of success.\n25. Which of the following is true according to the text?\n[A] Personal search agents are indispensable to job -hunters.\n[B] Some sites keep E-mailing job seekers to trace their demands.\n[C] Personal search agents are also helpful to those already employed.\n[D] Some agents stop sending information to people once they are employed.",
+        "T ext 2 Over the past century, all kinds of unfa irness and discrimination have been condemned or made illegal. But one insidious form continues to thrive: alphabetism. This, for those as yet unaware of such a disadvantage, refers to discrimination against those whose surnames begin with a letter in the lower half of the alphabet.\nIt has long been known that a taxi firm called AAAA cars has a big advantage over Zodiac cars when customers thumb through their phone directories. Less well known is the advantage that Adam Abbott has in life over Zoë Zysman. English names are fairly evenly spread between the halves of the alphabet. Yet a suspiciously large number of top people have surnames beginning with letters between A and K.\nThus the American president and vice -president have surnames starting with B an d C respectively; and 26 of George Bush’s predecessors (including his father) had surnames in the first half of the alphabet against just 16 in the second half. Even more striking, six of the seven heads of government of the G7 rich countries are alphabeti cally advantaged (Berlusconi, Blair, Bush, Chirac, Chrétien and Koizumi). The world’s three top central bankers (Greenspan, Duisenberg and Hayami) are all close to the top of the alphabet, even if one of them really uses Japanese characters. As are the world's five richest men (Gates, Buffett, Allen, Ellison and Albrecht).\nCan this merely be coincidence? One theory, dreamt up in all the spare time enjoyed by the alphabetically disadvantaged, is that the rot sets in early. At the start of the first year in i nfant school, teachers seat pupils alphabetically from the front, to make it easier to remember their names. So short -sighted Zysman junior gets stuck in the back row, and is rarely asked the improving questions posed by those insensitive teachers. At the time the alphabetically disadvantaged may think they have had a lucky escape. Yet the result may be worse qualifications, because they get less individual attention, as well as less confidence in speaking publicly.\nThe humiliation continues. At university graduation ceremonies, the ABCs proudly get their awards first; by the time they reach the Zysmans most people are literally having a ZZZ. Shortlists for job interviews, election ballot papers, lists of conference speakers and attendees: all tend to be dr awn up alphabetically, and their recipients lose interest as they plough through them.\n26. What does the author intend to illustrate with AAAA cars and Zodiac cars?\n[A] A kind of overlooked inequality. [B] A type of conspicuous bias.\n[C] A type of personal prejudice. [D] A kind of brand discrimination.\n27. What can we infer from the first three paragraphs?\n[A] In both East and West, names are essential to success.\n[B] The alphabet is to blame for the failure of Zoë Zysman.\n[C] Customers often pay a lot of attention to companies’ names.\n[D] Some form of discrimination is too subtle to recognize.\n28. The 4th paragraph suggests that.\n[A] questions are often put to the more intelligent students [B] alphabetically disadvantaged students often escape f rom class [C] teachers should pay attention to all of their students [D] students should be seated according to their eyesight\n29. What does the author mean by “most people are literally having a ZZZ” (Lines 2-3, Paragraph 5)?\n[A] They are getting impatient. [B] They are noisily dozing off.\n[C] They are feeling humiliated. [D] They are busy with word puzzles.\n30. Which of the following is true according to the text?\n[A] People with surnames beginning with N to Z are often ill -treated.\n[B] VIPs in the Western world gain a great deal from alphabetism.\n[C] The campaign to eliminate alphabetism still has a long way to go.\n[D] Putting things alphabetically may lead to unintentional bias.",
+        "T ext 3 When it comes to the slowing economy, Ellen Spero isn't bitin g her nails just yet. But the 47 -year-old manicurist isn't cutting, filing or polishing as many nails as she'd like to, either. Most of her clients spend $12 to $50 weekly, but last month two longtime customers suddenly stopped showing up. Spero blames the softening economy. “I'm a good economic indicator,” she says. “I provide a service that people can do without when they're concerned about saving some dollars.” So Spero is downscaling, shopping at middle -brow Dillard's department store near her suburban Cleveland home, instead of Neiman Marcus. “I don't know if other clients are going to abandon me, too,” she says.\nEven before Alan Greenspan's admission that America's red -hot economy is cooling, lots of working folks had already seen signs of the slowdo wn themselves. From car dealerships to Gap outlets, sales have been lagging for months as shoppers temper their spending. For retailers, who last year took in 24 percent of their revenue between Thanksgiving and Christmas, the cautious approach is coming a t a crucial time. Already, experts say, holiday sales are off 7 percent from last year's pace. But don't sound any alarms just yet. Consumers seem only mildly concerned, not panicked, and many say they remain optimistic about the economy's long -term prospe cts even as they do some modest belt-tightening.\nConsumers say they're not in despair because, despite the dreadful headlines, their own fortunes still feel pretty good. Home prices are holding steady in most regions. In Manhattan, “there's a new gold ru sh happening in the $4 million to $10 million range, predominantly fed by Wall Street bonuses,” says broker Barbara Corcoran. In San Francisco, prices are still rising even as frenzied overbidding quiets. “Instead of 20 to 30 offers, now maybe you only get two or three,\" says John Tealdi, a Bay Area real -estate broker. And most folks still feel pretty comfortable about their ability to find and keep a job.\nMany folks see silver linings to this slowdown. Potential home buyers would cheer for lower interest rates.\nEmployers wouldn't mind a little fewer bubbles in the job market. Many consumers seem to have been influenced by stock-market swings, which investors now view as a necessary ingredient to a sustained boom. Diners might see an upside, too. Getting a table at Manhattan's hot new Alain Ducasse restaurant used to be impossible. Not anymore. For that, Greenspan & Co. may still be worth toasting.\n31. By “Ellen Spero isn’t biting her nails just yet” (Line 1, Paragraph 1), the author means_____.\n[A] Spero can hardly maintain her business. [B] Spero is too much engaged in her work.\n[C] Spero has grown out of her bad habit. [D] Spero is not in a desperate situation.\n32. How do the public feel about the current economic situation?\n[A] Optimistic. [B] Confus ed. [C] Carefree. [D] Panicked.\n33. When mentioning “the $4 million to $10 million range”(Lines 3, Paragraph 3), the author is talking about _______ [A] gold market. [B] real estate. [C] stock exchange. [D] venture investment.\n34. Why can many people see “silver linings” to the economic slowdown?\n[A] They would benefit in certain ways. [B] The stock market shows signs of recovery.\n[C] Such a slowdown usually precedes a boom. [D] The purchasing power would be enhanced.\n35. To which of the following is the author likely to agree?\n[A] A new boom, on the horizon. [B] Tighten the belt, the single remedy.\n[C] Caution all right, panic not. [D] The more ventures, the more chances.\nT ext 4 Americans today don't place a very high value on intellect. Our hero es are athletes, entertainers, and entrepreneurs, not scholars. Even our schools are where we send our children to get a practical education —not to pursue knowledge for the sake of knowledge. Symptoms of pervasive anti -intellectualism in our schools aren't difficult to find.",
+        "“Schools have always been in a society where practical is more important than intellectual,” says education writer Diane Ravitch. “Schools could be a counterbalance.” Ravitch's latest book. Left Back: A Century of Failed School Reforms, traces the roots of anti -intellectualism in our schools, concluding they are anything but a counterbalance to the American distaste for intellectual pursuits.\nBut they could and should be. Encouraging kids to reject the life of the mind leaves them vul nerable to exploitation and control. Without the ability to think critically, to defend their ideas and understand the ideas of others, they cannot fully participate in our democracy. Continuing along this path, says writer Earl Shorris, “We will become a second-rate country. We will have a less civil society.”\n“Intellect is resented as a form of power or privilege,” writes historian and professor Richard Hofstadter in Anti-intellectualism in American Life, a Pulitzer-Prize winning book on the roots of ant i-intellectualism in US politics, religion, and education. From the beginning of our history, says Hofstadter, our democratic and populist urges have driven us to reject anything that smells of elitism. Practicality, common sense, and native intelligence h ave been considered more noble qualities than anything you could learn from a book.\nRalph Waldo Emerson and other Transcendentalist philosophers thought schooling and rigorous book learning put unnatural restraints on children: “We are shut up in schools and college recitation rooms for 10 or 15 years and come out at last with a bellyful of words and do not know a thing.”Mark Twain's Huckleberry Finn exemplified American anti -intellectualism. Its hero avoids being civilized —going to school and learning to read—so he can preserve his innate goodness.\nIntellect, according to Hofstadter, is different from native intelligence, a quality we reluctantly admire. Intellect is the critical, creative, and contemplative side of the mind. Intelligence seeks to grasp, manipulate, re -order, and adjust, while intellect examines, ponders, wonders, theorizes, criticizes, and imagines.\nSchool remains a place where intellect is mistrusted. Hofstadter says our country's educational system is in the grips of people who “joyfu lly and militantly proclaim their hostility to intellect and their eagerness to identify with children who show the least intellectual promise.”\n36. What do American parents expect their children to acquire in school?\n[A] The habit of thinking independent ly. [B] Profound knowledge of the world.\n[C] Practical abilities for future career. [D] The confidence in intellectual pursuits.\n37. We can learn from the text that Americans have a history of________.\n[A] undervaluing intellect. [B] favoring intellectualism.\n[C] supporting school reform. [D] suppressing native intelligence.\n38. The views of Raviteh and Emerson on schooling are ______.\n[A] identical. [B] similar. [C] complementary. [D] opposite.\n39. Emerson, according to the text, is probably _________.\n[A] a pioneer of education reform. [B] an opponent of intellectualism.\n[C] a scholar in favor of intellect. [D] an advocate of regular schooling.\n40. What does the author think of intellect?\n[A] It is second to intelligence. [B] It evolves from common sense.\n[C] It is to be pursued. [D] It underlies power Part B Directions:\nRead the following text carefully and then translate the underlined segments into Chinese. Your translation should be written clearly on ANSWER SHEET 2. (10 points)\nThe relation of language and mind has interested philosophers for many centuries. (41) The Greeks assumed that the structure of language had some connection with the process of thought, which took root in Europe long before",
+        "people realized how diverse languages could be.\nOnly recently did linguists begin the serious study of languages that were very different from their own. Two anthropologist-linguists, Franz Boas and Edward Sapir, were pioneers in describing many native languages of North and South Ameri ca during the first half of the twentieth century. (42) We are obliged to them because some of these languages have since vanished, as the peoples who spoke them died out or became assimilated and lost their native languages. Other linguists in the earlier part of this century, however, who were less eager to deal with bizarre data from “exotic” language, were not always so grateful. (43) The newly described languages were often so strikingly different from the well studied languages of Europe and Southeast Asia that some scholars even accused Boas and Sapir of fabricating their data. Native American languages are indeed different, so much so in fact that Navajo could be used by the US military as a code during World War II to send secret messages.\nSapir’s pupil, Benjamin Lee Whorf, continued the study of American Indian languages. (44) Being interested in the relationship of language and thought, Whorf developed the idea that the structure of language determines the structure of habitual thought in a societ y. He reasoned that because it is easier to formulate certain concepts and not others in a given language, the speakers of that language think along one track and not along another. (45) Whorf came to believe in a sort of linguistic determinism which, in i ts strongest form, states that language imprisons the mind, and that the grammatical patterns in a language can produce far -reaching consequences for the culture of a society. Later, this idea became to be known as the Sapir -Whorf hypothesis, but this term is somewhat inappropriate.\nAlthough both Sapir and Whorf emphasized the diversity of languages, Sapir himself never explicitly supported the notion of linguistic determinism.\nSection III Writing\n46. Directions：\nStudy the following drawing carefully and write an essay in which you should\n1. describe the drawing，\n2. interpret its meaning, and\n3. support your view with examples.\nYou should write about 200 words neatly on ANSWER SHEET 2 (20 points)"
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "2004 年全国攻读硕士学位研究生入学考试英语试题"
+        },
+        {
+          "type": "paragraph",
+          "text": "Section I Use of English"
+        },
+        {
+          "type": "paragraph",
+          "text": "Directions： Read the following text. Choose the best word(s) for each numbered blank and mark A, B, C or D on ANSWER SHEET 1. (10 points)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Many theories concerning the causes of juvenile delinquency (crimes committed by young people) focus either on the individual or on society as the major contributing influence. Theories 1 on the individual suggest that children engage in criminal behavior 2 they were not sufficiently penalized for previous misdeeds or that they have learned criminal behavior through 3 with others. Theories focusing on the role of society suggest that children commit crimes in 4 to their failure to rise above their socioeconomic status, 5 as a rejection of middle-class values."
+        },
+        {
+          "type": "paragraph",
+          "text": "Most theories of juvenile delinquency have focused on children from disadvantaged families, _ 6 the fact that children from wealthy homes also commit crimes. The latter may commit crimes 7 lack of adequate parental control. All theories, however, are tentative and are 8 to criticism."
+        },
+        {
+          "type": "paragraph",
+          "text": "Changes in the social structure may indirectly 9 juvenile crime rates. For example, changes in the economy that 10 to fewer job opportunities for youth and rising unemployment 11 make gainful employment increasingly difficult to obtain. The resulting discontent may in 12 lead more youths into criminal behavior."
+        },
+        {
+          "type": "paragraph",
+          "text": "Families have also 13 changes these years. More families consist of one-parent households or two working parents; 14 ，children are likely to have less supervision at home 15 was common in the traditional family 16. This lack of parental supervision is thought to be an influence on juvenile crime rates."
+        },
+        {
+          "type": "paragraph",
+          "text": "Other __17_ causes of offensive acts include frustration or failure in school, the increased __ 18 _ of drugs and alcohol, and the growing 19 of child abuse and child neglect. All these conditions tend to increase the probability of a child committing a criminal act, 20 a direct causal relationship has not yet been established."
+        },
+        {
+          "type": "paragraph",
+          "text": "1."
+        },
+        {
+          "type": "paragraph",
+          "text": "[A] acting"
+        },
+        {
+          "type": "paragraph",
+          "text": "[B] relying"
+        },
+        {
+          "type": "paragraph",
+          "text": "[C] centering"
+        },
+        {
+          "type": "paragraph",
+          "text": "[D] commenting"
+        },
+        {
+          "type": "paragraph",
+          "text": "2."
+        },
+        {
+          "type": "paragraph",
+          "text": "[A] before"
+        },
+        {
+          "type": "paragraph",
+          "text": "[B] unless"
+        },
+        {
+          "type": "paragraph",
+          "text": "[C] until"
+        },
+        {
+          "type": "paragraph",
+          "text": "[D] because"
+        },
+        {
+          "type": "paragraph",
+          "text": "3."
+        },
+        {
+          "type": "paragraph",
+          "text": "[A] interaction"
+        },
+        {
+          "type": "paragraph",
+          "text": "[B] assimilation"
+        },
+        {
+          "type": "paragraph",
+          "text": "[C] cooperation"
+        },
+        {
+          "type": "paragraph",
+          "text": "[D] consultation"
+        },
+        {
+          "type": "paragraph",
+          "text": "4."
+        },
+        {
+          "type": "paragraph",
+          "text": "[A] return"
+        },
+        {
+          "type": "paragraph",
+          "text": "[B] reply"
+        },
+        {
+          "type": "paragraph",
+          "text": "[C] reference"
+        },
+        {
+          "type": "paragraph",
+          "text": "[D] response"
+        },
+        {
+          "type": "paragraph",
+          "text": "5."
+        },
+        {
+          "type": "paragraph",
+          "text": "[A] or"
+        },
+        {
+          "type": "paragraph",
+          "text": "[B] but rather"
+        },
+        {
+          "type": "paragraph",
+          "text": "[C] but"
+        },
+        {
+          "type": "paragraph",
+          "text": "[D] or else"
+        },
+        {
+          "type": "paragraph",
+          "text": "6."
+        },
+        {
+          "type": "paragraph",
+          "text": "[A] considering"
+        },
+        {
+          "type": "paragraph",
+          "text": "[B] ignoring"
+        },
+        {
+          "type": "paragraph",
+          "text": "[C] highlighting"
+        },
+        {
+          "type": "paragraph",
+          "text": "[D] discarding"
+        },
+        {
+          "type": "paragraph",
+          "text": "7."
+        },
+        {
+          "type": "paragraph",
+          "text": "[A] on"
+        },
+        {
+          "type": "paragraph",
+          "text": "[B] in"
+        },
+        {
+          "type": "paragraph",
+          "text": "[C] for"
+        },
+        {
+          "type": "paragraph",
+          "text": "[D] with"
+        },
+        {
+          "type": "paragraph",
+          "text": "8."
+        },
+        {
+          "type": "paragraph",
+          "text": "[A] immune"
+        },
+        {
+          "type": "paragraph",
+          "text": "[B] resistant"
+        },
+        {
+          "type": "paragraph",
+          "text": "[C] sensitive"
+        },
+        {
+          "type": "paragraph",
+          "text": "[D] subject"
+        },
+        {
+          "type": "paragraph",
+          "text": "9."
+        },
+        {
+          "type": "paragraph",
+          "text": "[A] affect"
+        },
+        {
+          "type": "paragraph",
+          "text": "[B] reduce"
+        },
+        {
+          "type": "paragraph",
+          "text": "[C] chock"
+        },
+        {
+          "type": "paragraph",
+          "text": "[D] reflect"
+        },
+        {
+          "type": "paragraph",
+          "text": "10."
+        },
+        {
+          "type": "paragraph",
+          "text": "[A] point"
+        },
+        {
+          "type": "paragraph",
+          "text": "[B] lead"
+        },
+        {
+          "type": "paragraph",
+          "text": "[C] come"
+        },
+        {
+          "type": "paragraph",
+          "text": "[D] amount"
+        },
+        {
+          "type": "paragraph",
+          "text": "11."
+        },
+        {
+          "type": "paragraph",
+          "text": "[A] in general"
+        },
+        {
+          "type": "paragraph",
+          "text": "[B] on average"
+        },
+        {
+          "type": "paragraph",
+          "text": "[C] by contrast"
+        },
+        {
+          "type": "paragraph",
+          "text": "[D] at length"
+        },
+        {
+          "type": "paragraph",
+          "text": "12."
+        },
+        {
+          "type": "paragraph",
+          "text": "[A] case"
+        },
+        {
+          "type": "paragraph",
+          "text": "[B] short"
+        },
+        {
+          "type": "paragraph",
+          "text": "[C] turn"
+        },
+        {
+          "type": "paragraph",
+          "text": "[D] essence"
+        },
+        {
+          "type": "paragraph",
+          "text": "13."
+        },
+        {
+          "type": "paragraph",
+          "text": "[A] survived"
+        },
+        {
+          "type": "paragraph",
+          "text": "[B] noticed"
+        },
+        {
+          "type": "paragraph",
+          "text": "[C] undertaken"
+        },
+        {
+          "type": "paragraph",
+          "text": "[D] experienced"
+        },
+        {
+          "type": "paragraph",
+          "text": "14."
+        },
+        {
+          "type": "paragraph",
+          "text": "[A] contrarily"
+        },
+        {
+          "type": "paragraph",
+          "text": "[B] consequently"
+        },
+        {
+          "type": "paragraph",
+          "text": "[C] similarly"
+        },
+        {
+          "type": "paragraph",
+          "text": "[D] simultaneously"
+        },
+        {
+          "type": "paragraph",
+          "text": "15."
+        },
+        {
+          "type": "paragraph",
+          "text": "[A] than"
+        },
+        {
+          "type": "paragraph",
+          "text": "[B] that"
+        },
+        {
+          "type": "paragraph",
+          "text": "[C] which"
+        },
+        {
+          "type": "paragraph",
+          "text": "[D] as"
+        },
+        {
+          "type": "paragraph",
+          "text": "16."
+        },
+        {
+          "type": "paragraph",
+          "text": "[A] system"
+        },
+        {
+          "type": "paragraph",
+          "text": "[B] structure"
+        },
+        {
+          "type": "paragraph",
+          "text": "[C] concept"
+        },
+        {
+          "type": "paragraph",
+          "text": "[D] heritage"
+        },
+        {
+          "type": "paragraph",
+          "text": "17."
+        },
+        {
+          "type": "paragraph",
+          "text": "[A] assessable"
+        },
+        {
+          "type": "paragraph",
+          "text": "[B] identifiable"
+        },
+        {
+          "type": "paragraph",
+          "text": "[C] negligible"
+        },
+        {
+          "type": "paragraph",
+          "text": "[D] incredible"
+        },
+        {
+          "type": "paragraph",
+          "text": "18."
+        },
+        {
+          "type": "paragraph",
+          "text": "[A] expense"
+        },
+        {
+          "type": "paragraph",
+          "text": "[B] restriction"
+        },
+        {
+          "type": "paragraph",
+          "text": "[C] allocation"
+        },
+        {
+          "type": "paragraph",
+          "text": "[D] availability"
+        },
+        {
+          "type": "paragraph",
+          "text": "19."
+        },
+        {
+          "type": "paragraph",
+          "text": "[A] incidence"
+        },
+        {
+          "type": "paragraph",
+          "text": "[B] awareness"
+        },
+        {
+          "type": "paragraph",
+          "text": "[C] exposure"
+        },
+        {
+          "type": "paragraph",
+          "text": "[D] popularity"
+        },
+        {
+          "type": "paragraph",
+          "text": "20."
+        },
+        {
+          "type": "paragraph",
+          "text": "[A] provided"
+        },
+        {
+          "type": "paragraph",
+          "text": "[B] since"
+        },
+        {
+          "type": "paragraph",
+          "text": "[C] although"
+        },
+        {
+          "type": "paragraph",
+          "text": "[D] supposing"
+        },
+        {
+          "type": "paragraph",
+          "text": "Section II Reading Comprehension"
+        },
+        {
+          "type": "paragraph",
+          "text": "Part A"
+        },
+        {
+          "type": "paragraph",
+          "text": "Directions: Read the following four texts. Answer the questions below each text by choosing [A], [B], [C] or [D]. Mark your answers on ANSWER SHEET 1. (40 points)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Text 1"
+        },
+        {
+          "type": "paragraph",
+          "text": "Hunting for a job late last year, lawyer Gant Redmon stumbled across CareerBuilder, a job database on the Internet. He searched it with no success but was attracted by the site’s “personal search agent”. It’s an interactive feature that lets visitors key in job criteria such as location, title, and salary, then E-mails them when a matching position is posted in the database. Redmon chose the keywords legal, intellectual property and Washington, D.C. Three weeks later, he got his first notification of an opening. “I struck gold,” says Redmon, who E-mailed his resume to the employer and won a position as in-house counsel for a company."
+        },
+        {
+          "type": "paragraph",
+          "text": "With thousands of career-related sites on the Internet, finding promising openings can he time-consuming and inefficient. Search agents reduce the need for repeated visits to the databases. But although a search agent worked for Redmon, career experts see drawbacks. Narrowing your criteria, for example, may work against you: “Every time you answer a question you eliminate a possibility,” says one expert."
+        },
+        {
+          "type": "paragraph",
+          "text": "For any job search, you should start with a narrow concept —what you think you want to do —then broaden it. “None of these programs do that,” says another expert. “There’s no career counseling implicit in all of this.” Instead, the best strategy is to use the agent as a kind of tip service to keep abreast of jobs in a particular database; when you get E-mail, consider it a reminder to check the database again. “I would not rely on agents for finding everything that is added to a database that might interest me,” says the author of a job-searching guide."
+        },
+        {
+          "type": "paragraph",
+          "text": "Some sites design their agents to tempt job hunters to return. When CareerSite’s agent sends out messages to those who have signed up for its service, for example, it includes only three potential jobs —those it considers the best matches. There may be more matches in the database; job hunters will have to visit the site again to find them —and they do. “On the day after we send our messages, we see a sharp increase in our traffic,” says Seth Peets, vice president of marketing for CareerSite."
+        },
+        {
+          "type": "paragraph",
+          "text": "Even those who aren’t hunting for jobs may find search agents worthwhile. Some use them to keep a close watch on the demand for their line of work or gather information on compensation to arm themselves when negotiating for a raise. Although happily employed, Redmon maintains his agent at CareerBuilder. “You always keep your eyes open,” he says. Working with a personal search agent means having another set of eyes looking out for you."
+        },
+        {
+          "type": "paragraph",
+          "text": "21. How did Redmon find his job?"
+        },
+        {
+          "type": "paragraph",
+          "text": "[A] By searching openings in a job database."
+        },
+        {
+          "type": "paragraph",
+          "text": "[B] By posting a matching position in a database."
+        },
+        {
+          "type": "paragraph",
+          "text": "[C] By using a special service of a database."
+        },
+        {
+          "type": "paragraph",
+          "text": "[D] By E-mailing his resume to a database."
+        },
+        {
+          "type": "paragraph",
+          "text": "22. Which of the following can be a disadvantage of search agents?"
+        },
+        {
+          "type": "paragraph",
+          "text": "[A] Lack of counseling."
+        },
+        {
+          "type": "paragraph",
+          "text": "[B] Limited number of visits."
+        },
+        {
+          "type": "paragraph",
+          "text": "[C] Lower efficiency."
+        },
+        {
+          "type": "paragraph",
+          "text": "[D] Fewer successful matches."
+        },
+        {
+          "type": "paragraph",
+          "text": "23. The expression “tip service” (Line 4, Paragraph 3) most probably means."
+        },
+        {
+          "type": "paragraph",
+          "text": "[A] advisory."
+        },
+        {
+          "type": "paragraph",
+          "text": "[B] compensation."
+        },
+        {
+          "type": "paragraph",
+          "text": "[C] interaction."
+        },
+        {
+          "type": "paragraph",
+          "text": "[D] reminder."
+        },
+        {
+          "type": "paragraph",
+          "text": "24. Why does CareerSite’s agent offer each job hunter only three job options?"
+        },
+        {
+          "type": "paragraph",
+          "text": "[A] To focus on better job matches."
+        },
+        {
+          "type": "paragraph",
+          "text": "[B] To attract more returning visits."
+        },
+        {
+          "type": "paragraph",
+          "text": "[C] To reserve space for more messages."
+        },
+        {
+          "type": "paragraph",
+          "text": "[D] To increase the rate of success."
+        },
+        {
+          "type": "paragraph",
+          "text": "25. Which of the following is true according to the text?"
+        },
+        {
+          "type": "paragraph",
+          "text": "[A] Personal search agents are indispensable to job-hunters."
+        },
+        {
+          "type": "paragraph",
+          "text": "[B] Some sites keep E-mailing job seekers to trace their demands."
+        },
+        {
+          "type": "paragraph",
+          "text": "[C] Personal search agents are also helpful to those already employed."
+        },
+        {
+          "type": "paragraph",
+          "text": "[D] Some agents stop sending information to people once they are employed."
+        },
+        {
+          "type": "paragraph",
+          "text": "Text 2"
+        },
+        {
+          "type": "paragraph",
+          "text": "Over the past century, all kinds of unfairness and discrimination have been condemned or made illegal. But one insidious form continues to thrive: alphabetism. This, for those as yet unaware of such a disadvantage, refers to discrimination against those whose surnames begin with a letter in the lower half of the alphabet."
+        },
+        {
+          "type": "paragraph",
+          "text": "It has long been known that a taxi firm called AAAA cars has a big advantage over Zodiac cars when customers thumb through their phone directories. Less well known is the advantage that Adam Abbott has in life over Zoë Zysman. English names are fairly evenly spread between the halves of the alphabet. Yet a suspiciously large number of top people have surnames beginning with letters between A and K."
+        },
+        {
+          "type": "paragraph",
+          "text": "Thus the American president and vice-president have surnames starting with B and C respectively; and 26 of George Bush’s predecessors (including his father) had surnames in the first half of the alphabet against just 16 in the second half. Even more striking, six of the seven heads of government of the G7 rich countries are alphabetically advantaged (Berlusconi, Blair, Bush, Chirac, Chrétien and Koizumi). The world’s three top central bankers (Greenspan, Duisenberg and Hayami) are all close to the top of the alphabet, even if one of them really uses Japanese characters. As are the world's five richest men (Gates, Buffett, Allen, Ellison and Albrecht)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Can this merely be coincidence? One theory, dreamt up in all the spare time enjoyed by the alphabetically disadvantaged, is that the rot sets in early. At the start of the first year in infant school, teachers seat pupils alphabetically from the front, to make it easier to remember their names. So short-sighted Zysman junior gets stuck in the back row, and is rarely asked the improving questions posed by those insensitive teachers. At the time the alphabetically disadvantaged may think they have had a lucky escape. Yet the result may be worse qualifications, because they get less individual attention, as well as less confidence in speaking publicly."
+        },
+        {
+          "type": "paragraph",
+          "text": "The humiliation continues. At university graduation ceremonies, the ABCs proudly get their awards first; by the time they reach the Zysmans most people are literally having a ZZZ. Shortlists for job interviews, election ballot papers, lists of conference speakers and attendees: all tend to be drawn up alphabetically, and their recipients lose interest as they plough through them."
+        },
+        {
+          "type": "paragraph",
+          "text": "26. What does the author intend to illustrate with AAAA cars and Zodiac cars?"
+        },
+        {
+          "type": "paragraph",
+          "text": "[A] A kind of overlooked inequality."
+        },
+        {
+          "type": "paragraph",
+          "text": "[B] A type of conspicuous bias."
+        },
+        {
+          "type": "paragraph",
+          "text": "[C] A type of personal prejudice."
+        },
+        {
+          "type": "paragraph",
+          "text": "[D] A kind of brand discrimination."
+        },
+        {
+          "type": "paragraph",
+          "text": "27. What can we infer from the first three paragraphs?"
+        },
+        {
+          "type": "paragraph",
+          "text": "[A] In both East and West, names are essential to success."
+        },
+        {
+          "type": "paragraph",
+          "text": "[B] The alphabet is to blame for the failure of Zoë Zysman."
+        },
+        {
+          "type": "paragraph",
+          "text": "[C] Customers often pay a lot of attention to companies’ names."
+        },
+        {
+          "type": "paragraph",
+          "text": "[D] Some form of discrimination is too subtle to recognize."
+        },
+        {
+          "type": "paragraph",
+          "text": "28. The 4th paragraph suggests that."
+        },
+        {
+          "type": "paragraph",
+          "text": "[A] questions are often put to the more intelligent students"
+        },
+        {
+          "type": "paragraph",
+          "text": "[B] alphabetically disadvantaged students often escape from class"
+        },
+        {
+          "type": "paragraph",
+          "text": "[C] teachers should pay attention to all of their students"
+        },
+        {
+          "type": "paragraph",
+          "text": "[D] students should be seated according to their eyesight"
+        },
+        {
+          "type": "paragraph",
+          "text": "29. What does the author mean by “most people are literally having a ZZZ” (Lines 2-3, Paragraph 5)?"
+        },
+        {
+          "type": "paragraph",
+          "text": "[A] They are getting impatient."
+        },
+        {
+          "type": "paragraph",
+          "text": "[B] They are noisily dozing off."
+        },
+        {
+          "type": "paragraph",
+          "text": "[C] They are feeling humiliated."
+        },
+        {
+          "type": "paragraph",
+          "text": "[D] They are busy with word puzzles."
+        },
+        {
+          "type": "paragraph",
+          "text": "30. Which of the following is true according to the text?"
+        },
+        {
+          "type": "paragraph",
+          "text": "[A] People with surnames beginning with N to Z are often ill-treated."
+        },
+        {
+          "type": "paragraph",
+          "text": "[B] VIPs in the Western world gain a great deal from alphabetism."
+        },
+        {
+          "type": "paragraph",
+          "text": "[C] The campaign to eliminate alphabetism still has a long way to go."
+        },
+        {
+          "type": "paragraph",
+          "text": "[D] Putting things alphabetically may lead to unintentional bias."
+        },
+        {
+          "type": "paragraph",
+          "text": "Text 3"
+        },
+        {
+          "type": "paragraph",
+          "text": "When it comes to the slowing economy, Ellen Spero isn't biting her nails just yet. But the 47-year-old manicurist isn't cutting, filing or polishing as many nails as she'd like to, either. Most of her clients spend $12 to $50 weekly, but last month two longtime customers suddenly stopped showing up. Spero blames the softening economy. “I'm a good economic indicator,” she says. “I provide a service that people can do without when they're concerned about saving some dollars.” So Spero is downscaling, shopping at middle-brow Dillard's department store near her suburban Cleveland home, instead of Neiman Marcus. “I don't know if other clients are going to abandon me, too,” she says."
+        },
+        {
+          "type": "paragraph",
+          "text": "Even before Alan Greenspan's admission that America's red-hot economy is cooling, lots of working folks had already seen signs of the slowdown themselves. From car dealerships to Gap outlets, sales have been lagging for months as shoppers temper their spending. For retailers, who last year took in 24 percent of their revenue between Thanksgiving and Christmas, the cautious approach is coming at a crucial time. Already, experts say, holiday sales are off 7 percent from last year's pace. But don't sound any alarms just yet. Consumers seem only mildly concerned, not panicked, and many say they remain optimistic about the economy's long-term prospects even as they do some modest belt-tightening."
+        },
+        {
+          "type": "paragraph",
+          "text": "Consumers say they're not in despair because, despite the dreadful headlines, their own fortunes still feel pretty good. Home prices are holding steady in most regions. In Manhattan, “there's a new gold rush happening in the $4 million to $10 million range, predominantly fed by Wall Street bonuses,” says broker Barbara Corcoran. In San Francisco, prices are still rising even as frenzied overbidding quiets. “Instead of 20 to 30 offers, now maybe you only get two or three,\" says John Tealdi, a Bay Area real-estate broker. And most folks still feel pretty comfortable about their ability to find and keep a job."
+        },
+        {
+          "type": "paragraph",
+          "text": "Many folks see silver linings to this slowdown. Potential home buyers would cheer for lower interest rates. Employers wouldn't mind a little fewer bubbles in the job market. Many consumers seem to have been influenced by stock-market swings, which investors now view as a necessary ingredient to a sustained boom. Diners might see an upside, too. Getting a table at Manhattan's hot new Alain Ducasse restaurant used to be impossible. Not anymore. For that, Greenspan & Co. may still be worth toasting."
+        },
+        {
+          "type": "paragraph",
+          "text": "31. By “Ellen Spero isn’t biting her nails just yet” (Line 1, Paragraph 1), the author means_____."
+        },
+        {
+          "type": "paragraph",
+          "text": "[A] Spero can hardly maintain her business."
+        },
+        {
+          "type": "paragraph",
+          "text": "[B] Spero is too much engaged in her work."
+        },
+        {
+          "type": "paragraph",
+          "text": "[C] Spero has grown out of her bad habit."
+        },
+        {
+          "type": "paragraph",
+          "text": "[D] Spero is not in a desperate situation."
+        },
+        {
+          "type": "paragraph",
+          "text": "32. How do the public feel about the current economic situation?"
+        },
+        {
+          "type": "paragraph",
+          "text": "[A] Optimistic."
+        },
+        {
+          "type": "paragraph",
+          "text": "[B] Confused."
+        },
+        {
+          "type": "paragraph",
+          "text": "[C] Carefree."
+        },
+        {
+          "type": "paragraph",
+          "text": "[D] Panicked."
+        },
+        {
+          "type": "paragraph",
+          "text": "33. When mentioning “the $4 million to $10 million range”(Lines 3, Paragraph 3), the author is talking about _______"
+        },
+        {
+          "type": "paragraph",
+          "text": "[A] gold market."
+        },
+        {
+          "type": "paragraph",
+          "text": "[B] real estate."
+        },
+        {
+          "type": "paragraph",
+          "text": "[C] stock exchange."
+        },
+        {
+          "type": "paragraph",
+          "text": "[D] venture investment."
+        },
+        {
+          "type": "paragraph",
+          "text": "34. Why can many people see “silver linings” to the economic slowdown?"
+        },
+        {
+          "type": "paragraph",
+          "text": "[A] They would benefit in certain ways."
+        },
+        {
+          "type": "paragraph",
+          "text": "[B] The stock market shows signs of recovery."
+        },
+        {
+          "type": "paragraph",
+          "text": "[C] Such a slowdown usually precedes a boom."
+        },
+        {
+          "type": "paragraph",
+          "text": "[D] The purchasing power would be enhanced."
+        },
+        {
+          "type": "paragraph",
+          "text": "35. To which of the following is the author likely to agree?"
+        },
+        {
+          "type": "paragraph",
+          "text": "[A] A new boom, on the horizon."
+        },
+        {
+          "type": "paragraph",
+          "text": "[B] Tighten the belt, the single remedy."
+        },
+        {
+          "type": "paragraph",
+          "text": "[C] Caution all right, panic not."
+        },
+        {
+          "type": "paragraph",
+          "text": "[D] The more ventures, the more chances."
+        },
+        {
+          "type": "paragraph",
+          "text": "Text 4"
+        },
+        {
+          "type": "paragraph",
+          "text": "Americans today don't place a very high value on intellect. Our heroes are athletes, entertainers, and entrepreneurs, not scholars. Even our schools are where we send our children to get a practical education —not to pursue knowledge for the sake of knowledge. Symptoms of pervasive anti-intellectualism in our schools aren't difficult to find."
+        },
+        {
+          "type": "paragraph",
+          "text": "“Schools have always been in a society where practical is more important than intellectual,” says education writer Diane Ravitch. “Schools could be a counterbalance.” Ravitch's latest book. Left Back: A Century of Failed School Reforms, traces the roots of anti-intellectualism in our schools, concluding they are anything but a counterbalance to the American distaste for intellectual pursuits."
+        },
+        {
+          "type": "paragraph",
+          "text": "But they could and should be. Encouraging kids to reject the life of the mind leaves them vulnerable to exploitation and control. Without the ability to think critically, to defend their ideas and understand the ideas of others, they cannot fully participate in our democracy. Continuing along this path, says writer Earl Shorris, “We will become a second-rate country. We will have a less civil society.”"
+        },
+        {
+          "type": "paragraph",
+          "text": "“Intellect is resented as a form of power or privilege,” writes historian and professor Richard Hofstadter in Anti-intellectualism in American Life, a Pulitzer-Prize winning book on the roots of anti-intellectualism in US politics, religion, and education. From the beginning of our history, says Hofstadter, our democratic and populist urges have driven us to reject anything that smells of elitism. Practicality, common sense, and native intelligence have been considered more noble qualities than anything you could learn from a book."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ralph Waldo Emerson and other Transcendentalist philosophers thought schooling and rigorous book learning put unnatural restraints on children: “We are shut up in schools and college recitation rooms for 10 or 15 years and come out at last with a bellyful of words and do not know a thing.”Mark Twain's Huckleberry Finn exemplified American anti-intellectualism. Its hero avoids being civilized —going to school and learning to read—so he can preserve his innate goodness."
+        },
+        {
+          "type": "paragraph",
+          "text": "Intellect, according to Hofstadter, is different from native intelligence, a quality we reluctantly admire. Intellect is the critical, creative, and contemplative side of the mind. Intelligence seeks to grasp, manipulate, re-order, and adjust, while intellect examines, ponders, wonders, theorizes, criticizes, and imagines."
+        },
+        {
+          "type": "paragraph",
+          "text": "School remains a place where intellect is mistrusted. Hofstadter says our country's educational system is in the grips of people who “joyfully and militantly proclaim their hostility to intellect and their eagerness to identify with children who show the least intellectual promise.”"
+        },
+        {
+          "type": "paragraph",
+          "text": "36. What do American parents expect their children to acquire in school?"
+        },
+        {
+          "type": "paragraph",
+          "text": "[A] The habit of thinking independently."
+        },
+        {
+          "type": "paragraph",
+          "text": "[B] Profound knowledge of the world."
+        },
+        {
+          "type": "paragraph",
+          "text": "[C] Practical abilities for future career."
+        },
+        {
+          "type": "paragraph",
+          "text": "[D] The confidence in intellectual pursuits."
+        },
+        {
+          "type": "paragraph",
+          "text": "37. We can learn from the text that Americans have a history of________."
+        },
+        {
+          "type": "paragraph",
+          "text": "[A] undervaluing intellect."
+        },
+        {
+          "type": "paragraph",
+          "text": "[B] favoring intellectualism."
+        },
+        {
+          "type": "paragraph",
+          "text": "[C] supporting school reform."
+        },
+        {
+          "type": "paragraph",
+          "text": "[D] suppressing native intelligence."
+        },
+        {
+          "type": "paragraph",
+          "text": "38. The views of Raviteh and Emerson on schooling are ______."
+        },
+        {
+          "type": "paragraph",
+          "text": "[A] identical."
+        },
+        {
+          "type": "paragraph",
+          "text": "[B] similar."
+        },
+        {
+          "type": "paragraph",
+          "text": "[C] complementary."
+        },
+        {
+          "type": "paragraph",
+          "text": "[D] opposite."
+        },
+        {
+          "type": "paragraph",
+          "text": "39. Emerson, according to the text, is probably _________."
+        },
+        {
+          "type": "paragraph",
+          "text": "[A] a pioneer of education reform."
+        },
+        {
+          "type": "paragraph",
+          "text": "[B] an opponent of intellectualism."
+        },
+        {
+          "type": "paragraph",
+          "text": "[C] a scholar in favor of intellect."
+        },
+        {
+          "type": "paragraph",
+          "text": "[D] an advocate of regular schooling."
+        },
+        {
+          "type": "paragraph",
+          "text": "40. What does the author think of intellect?"
+        },
+        {
+          "type": "paragraph",
+          "text": "[A] It is second to intelligence."
+        },
+        {
+          "type": "paragraph",
+          "text": "[B] It evolves from common sense."
+        },
+        {
+          "type": "paragraph",
+          "text": "[C] It is to be pursued."
+        },
+        {
+          "type": "paragraph",
+          "text": "[D] It underlies power"
+        },
+        {
+          "type": "paragraph",
+          "text": "Part B"
+        },
+        {
+          "type": "paragraph",
+          "text": "Directions: Read the following text carefully and then translate the underlined segments into Chinese. Your translation should be written clearly on ANSWER SHEET 2. (10 points)"
+        },
+        {
+          "type": "paragraph",
+          "text": "The relation of language and mind has interested philosophers for many centuries. (41) The Greeks assumed that the structure of language had some connection with the process of thought, which took root in Europe long before people realized how diverse languages could be."
+        },
+        {
+          "type": "paragraph",
+          "text": "Only recently did linguists begin the serious study of languages that were very different from their own. Two anthropologist-linguists, Franz Boas and Edward Sapir, were pioneers in describing many native languages of North and South America during the first half of the twentieth century. (42) We are obliged to them because some of these languages have since vanished, as the peoples who spoke them died out or became assimilated and lost their native languages. Other linguists in the earlier part of this century, however, who were less eager to deal with bizarre data from “exotic” language, were not always so grateful. (43) The newly described languages were often so strikingly different from the well studied languages of Europe and Southeast Asia that some scholars even accused Boas and Sapir of fabricating their data. Native American languages are indeed different, so much so in fact that Navajo could be used by the US military as a code during World War II to send secret messages."
+        },
+        {
+          "type": "paragraph",
+          "text": "Sapir’s pupil, Benjamin Lee Whorf, continued the study of American Indian languages. (44) Being interested in the relationship of language and thought, Whorf developed the idea that the structure of language determines the structure of habitual thought in a society. He reasoned that because it is easier to formulate certain concepts and not others in a given language, the speakers of that language think along one track and not along another. (45) Whorf came to believe in a sort of linguistic determinism which, in its strongest form, states that language imprisons the mind, and that the grammatical patterns in a language can produce far-reaching consequences for the culture of a society. Later, this idea became to be known as the Sapir-Whorf hypothesis, but this term is somewhat inappropriate. Although both Sapir and Whorf emphasized the diversity of languages, Sapir himself never explicitly supported the notion of linguistic determinism."
+        },
+        {
+          "type": "paragraph",
+          "text": "Section III Writing"
+        },
+        {
+          "type": "paragraph",
+          "text": "46."
+        },
+        {
+          "type": "paragraph",
+          "text": "Directions："
+        },
+        {
+          "type": "paragraph",
+          "text": "Study the following drawing carefully and write an essay in which you should"
+        },
+        {
+          "type": "paragraph",
+          "text": "1. describe the drawing，"
+        },
+        {
+          "type": "paragraph",
+          "text": "2. interpret its meaning, and"
+        },
+        {
+          "type": "paragraph",
+          "text": "3. support your view with examples."
+        },
+        {
+          "type": "paragraph",
+          "text": "You should write about 200 words neatly on ANSWER SHEET 2 (20 points)"
+        }
+      ],
+      "reason": "少年犯罪、求职代理、字母歧视、经济放缓、反智主义和语言思维全文读后恢复自然段；工作代理案例始末同段，专家解释并回，与第23题第3段相合；题目选项独立。"
+    }
+  ],
+  "sources": [
+    {
+      "path": "content/article-review/history/807a64db711e3ab26953f4ea47a522be5396db43f8aa895c8cf0bc0c34241d9a.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "614e48681d75c390b245576912e237202e00a866b1d7d5840fa7c1771feb5bc7"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "schemaVersion": 1,
+  "course": "pep-english",
+  "articleId": "pepj7b-009",
+  "beforeDisplaySha256": "d33870c822693b56195da11aa9d8310d0598436b205ccfb10007e1351713b8a7",
+  "afterDisplaySha256": "d33870c822693b56195da11aa9d8310d0598436b205ccfb10007e1351713b8a7",
+  "baselineDisplay": {
+    "title": "Zhu Hui's Dragon Boat Festival",
+    "section": "Section B",
+    "text": "Today's story is about Zhu Hui, a student from Shenzhen. He's now studying in the United States. He's living with an American family in New York. Today is the Dragon Boat Festival. It's 9:00 a.m. and Zhu Hui's family are at home. His mom and aunt are making zongzi. His dad and uncle are watching the boat races on TV.\nIs Zhu Hui also watching the races and eating zongzi? Well, it's 9:00 p.m. in New York, and it's the night before the festival. But there isn't a Dragon Boat Festival in the US, so it's like any other night for Zhu Hui and his host family. The mother is reading a story to her young children. The father is watching a soccer game on TV. And what's Zhu Hui doing? He's talking on the phone to his cousin in Shenzhen. Zhu Hui misses his family and wishes to have his mom's delicious zongzi. Zhu Hui likes New York and his host family a lot, but there's still \"no place like home\".",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Today's story is about Zhu Hui, a student from Shenzhen. He's now studying in the United States. He's living with an American family in New York. Today is the Dragon Boat Festival. It's 9:00 a.m. and Zhu Hui's family are at home. His mom and aunt are making zongzi. His dad and uncle are watching the boat races on TV."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Is Zhu Hui also watching the races and eating zongzi? Well, it's 9:00 p.m. in New York, and it's the night before the festival. But there isn't a Dragon Boat Festival in the US, so it's like any other night for Zhu Hui and his host family. The mother is reading a story to her young children. The father is watching a soccer game on TV. And what's Zhu Hui doing? He's talking on the phone to his cousin in Shenzhen. Zhu Hui misses his family and wishes to have his mom's delicious zongzi. Zhu Hui likes New York and his host family a lot, but there's still \"no place like home\"."
+      }
+    ]
+  },
+  "display": {
+    "title": "Zhu Hui's Dragon Boat Festival",
+    "section": "Section B",
+    "text": "Today's story is about Zhu Hui, a student from Shenzhen. He's now studying in the United States. He's living with an American family in New York. Today is the Dragon Boat Festival. It's 9:00 a.m. and Zhu Hui's family are at home. His mom and aunt are making zongzi. His dad and uncle are watching the boat races on TV.\nIs Zhu Hui also watching the races and eating zongzi? Well, it's 9:00 p.m. in New York, and it's the night before the festival. But there isn't a Dragon Boat Festival in the US, so it's like any other night for Zhu Hui and his host family. The mother is reading a story to her young children. The father is watching a soccer game on TV. And what's Zhu Hui doing? He's talking on the phone to his cousin in Shenzhen. Zhu Hui misses his family and wishes to have his mom's delicious zongzi. Zhu Hui likes New York and his host family a lot, but there's still \"no place like home\".",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Today's story is about Zhu Hui, a student from Shenzhen. He's now studying in the United States. He's living with an American family in New York. Today is the Dragon Boat Festival. It's 9:00 a.m. and Zhu Hui's family are at home. His mom and aunt are making zongzi. His dad and uncle are watching the boat races on TV."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Is Zhu Hui also watching the races and eating zongzi? Well, it's 9:00 p.m. in New York, and it's the night before the festival. But there isn't a Dragon Boat Festival in the US, so it's like any other night for Zhu Hui and his host family. The mother is reading a story to her young children. The father is watching a soccer game on TV. And what's Zhu Hui doing? He's talking on the phone to his cousin in Shenzhen. Zhu Hui misses his family and wishes to have his mom's delicious zongzi. Zhu Hui likes New York and his host family a lot, but there's still \"no place like home\"."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "path": "content/article-review/history/4c18979770306ae1b0d36f27442c5d7dbade5c2db76c57552fd5a1791121f48b.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "a83ec02139e807a175dbb01930e04dabc835df292ebe6bb9ec457259e5207bfa"
+    }
+  ],
+  "corrections": [],
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "reviewer": "Codex",
+  "reviewedAt": "2026-10-07T07:39:47+00:00",
+  "notes": "Zhu Hui端午故事两段对照深圳早晨家人与纽约前夜寄宿家庭，完整场景段保留。",
+  "issues": [],
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "0a283226e20b07a66723cb32127c332b71fa513cf1524a181f5a2599f5b31f17",
+    "afterFileSha256": "0a283226e20b07a66723cb32127c332b71fa513cf1524a181f5a2599f5b31f17",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "0a283226e20b07a66723cb32127c332b71fa513cf1524a181f5a2599f5b31f17",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..1] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "Zhu Hui端午故事两段对照深圳早晨家人与纽约前夜寄宿家庭，完整场景段保留。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "blockEdits": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/4c18979770306ae1b0d36f27442c5d7dbade5c2db76c57552fd5a1791121f48b.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "a83ec02139e807a175dbb01930e04dabc835df292ebe6bb9ec457259e5207bfa"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "4c18979770306ae1b0d36f27442c5d7dbade5c2db76c57552fd5a1791121f48b"
+}

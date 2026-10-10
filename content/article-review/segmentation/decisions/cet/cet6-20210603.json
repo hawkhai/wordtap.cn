@@ -1,0 +1,565 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "f0d4d11325198611b47640552968204b88b34a70fc166740e57d1f2ca7242b2e",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title及完整blocks[0..5]逐行全文；text与blocks拼接相同已核对。内存应用后完整blocks[0..130]再读并校验非空白字符、顺序及结构锚点。",
+  "notes": "全文通读脱贫图表文字作文、听力省略说明、自我接纳选词、CGI演员A—L、创造力教育与模仿抄袭阅读及翻译乱码。保留图表原文和行序，仅分离来源及后续标题；拆开F/I/J/K/L段标、词库和混排选项，恐怖谷J解释并同段，plagiarism括注跨行接回完整句。完整自然段保留。词库Section B错置和两处页码截句需重排或删字，记录待确认；其余乱码与缺失文字不改。",
+  "issues": [
+    "原block[1]Section B插在词库E与F之间，完整词库及栏目边界需重排才可恢复。",
+    "原blocks[3..4]drama that / their more privileged之间夹第50页页码，不能仅空白续接。",
+    "原blocks[4..5]some of them can / define authorship之间夹第51页页码，不能仅空白续接。"
+  ],
+  "mergeBlocks": [],
+  "splitBlocks": [
+    {
+      "index": 0,
+      "end": 5,
+      "before": [
+        "Part I Writing ( 30 minutes)\nDirections: For this part, you are allowed 30 minutes to write an essay based on the chart below. You should start your essay with a bri�f description of the chart and comment on China's achievements in poverty alleviation. You should write at least 150 words but no more than 200 words.\nPart ][ Rural population in poverty poverty headcount ratio (% of rural population) (Million people) 100.--- ����������������-.1 2 Sources: China's National Bureau of Statistics, China's State Council Leading Group Office of Poverty Alleviation and Development Listening Comprehension (30 minutes)\ni,Jigij: EEi 2021 6 � /,��\"Jat�ij��T 2 �l!Jrf1 '*�1tlfffi11Jrj;J �mf 2 i:*1�1c�-�, flJl!:J®rJ¥� -�, lz;l.tlt:f:E*� •MI IP� JHlU! ili J?-\\L Part ][ Section A Reading Comprehension ( 40 minutes)\nDirections: In this section, there is a passage with ten blanks. You are required to select one word for each blank from a list of choices given in a word. bank following the passage. Read the passage through carefully before making your choices; Each choice in the bank is identified by a letter. Please mark the corresponding letter for each item on Answer Sheet 2 with. a. single line through the centre. You may not use any of the words in the bank more than once.\nAt 43, I've reached the stage where women are warned to watch out for the creeping sadness of middle age. We're served up an endless stream of advice on \"how to survive your 40s\", as if we're in the endurance stage of a slow limp toward 26. This is the age women start to become \"invisible\"-our value, attractiveness and power supposedly 27 by the vanishing of youth. But I don't feel like I'm fading into 28. I feel more seen than I ever have, and for. the first time in my life, I have a clear-eyed view of myself that is 29, compassionate and accepting.\nWhen I look in the mirror, I'm proud of who I am-even those \"broken\" parts that for so long seemed impossible to love. So when advertisers try to sell me ways to \"turn back the clock\", I have to 30 a laugh. I wouldn't go back to the crippling self-consciousness of my youth if you paid me. This hard-won sense of self-acceptance is one of the joys of being an older woman. But it's a narrative often 31 out by the shame that marketers rely on to peddle us their diet pills, miracle face creams and breathable yoga pants-as if self-love is a 32 commodity.\n*� 2021 � 6 )3 47",
+        "For some women I know, this sense of trust and self-belief later in life gave them the courage to leave dysfunctional relationships or 33 on new career paths. Others talked about enjoying their own company, of growth through 34, deepening bonds of friendships, the ability to be more compassionate, less judgmental and to listen more and appreciate the small pleasures. Life past 40 is far from smooth sailing, but it's so much more than the reductive 35 we see in women's magazines and on the Hollywood big screen.\nA) adversity\nB) authentic\nC) convey\nD) depictions E) diminished Section B F) drowned G) embark H) fragility I) neglected J) obscurity K) outlines L) prevalent M) purchasable N) submit\n0) suppress Directions: In this section, you are going to read a passage with ten statements attached to it. Each statement contains information given in one of the paragraphs. Identify the paragraph from which the information is derived. You may choose a paragraph more than once. Each paragraph is marked with a letter. Answer the questions by marking the corresponding letter on Answer Sheet 2.\nWhat Are the Ethics of CGI Actors-And Will They Replace Real Ones?\nA) Digital humans are coming to a screen near you. As computer-generated imagery ( CGI) has become cheaper and more sophisticated, the film industry can now convincingly recreate people on screen­ even actors who have been dead for decades. The technology's ability to effectively keep celebrities alive beyond the grave is raising questions about public legacies and image rights.\nB) Late in 2019, it was announced that US actor James Dean, who died in 1955, will star in a Vietnam War film scheduled for release later this year. In the film, which will be called Finding Jack, Dean will be recreated on screen with CGI based on old footage (�Jtfl�) and photographs, with another actor voicing him. The news was met with excitement by those keen to see Dean digitally brought back to life for only his fourth film, but it also drew sharp criticism. \"This is puppeteering the dead for their fame alone,\" actress Zelda Williams wrote on Twitter. \"It sets such an awful precedent for the future of performance.\" Het father, Robin Williams, who·died in 2014, was-keen to avoid the same:fate, Before his death, he filed a deed protecting the use of his image until 2039, preventing others from recreating him using CGI to appear in a film, TV show or as a hologram (�.i:lfft).\nC) The James Dean film is a way to keep the actor's image relevant for younger generations, says Mark Roesler of CMG Worldwide, the firm that represents Dean's estate. \"I think this is the beginning of an entire wave,\" says Travis Cloyd, CEO of Worldwide XR, one of the companies behind the digital recreation of Dean. \"Moving into the future, we want James Dean to be brought into different gaming environments, or different virtual reality environments, or augmented reality environments,\" he says.\nD) Other actors have been revived, with the permission of their estates, for advertising purposes: for example, a 2011 advertisement for Dior featured contemporary actress Charlize Theron alongside iconic 20th-century stars Marilyn Monroe, Grace Kelly and Marlene Dietrich. Later, Audrey Hepburn was digitally recreated for a chocolate commercial in 2013. In the same year, a CGI Bruce Lee appeared in a Chinese-language ad for a whisky brand, which offended many fans because Lee was widely known not to drink alcohol at all. \"In the last five years, it's become more affordable and more achievable in a whole movie,\" says Tim Webber at UK visual effects firm Framestore, the company behind the Hepburn chocolate ad. Framestore used body doubles with resemblance to Hepburn's facial structure and body shape as a framework for manual animation. The process was extremely difficult and expensive, says Webber, but the technology has moved on.\n7\\� 2021 &j:'. 6 Y.I 48",
+        "E) Now, a person can be animated from scratch. \"If they're alive today, you can put them in scanning rigs, you can get every detail of their body analysed very carefully and that makes it much easier, whereas working from available photographs is tricky,\" says Webber, who won an Academy Award for his visual effects work on the 2013 film Gravity. \"I also see a lot of actors today who will have the desire to take advantage of this technology: to have their likeness captured · and stored for future content,\" says Cloyd. \"They foresee this being something that could give their estates and give their families the ability to make money from their likeness when they're gone.\" F) A hidden hazard of digitally recreating a deceased ( B � Et9) celebrity is the risk of damaging their legacy. \"We have to respect the security and the integrity of rights holders,\" says John Canning at Digital Domain, a US firm that created a hologram rapper (ill,nSt:.AJ·Tupac Shakur, which appeared at the Coachella music festival in 201Z, 15 years after his death.\nG) Legally, a person's rights to control the commercial use of their name and image beyond their death differ between and even within countries. In certain US states, for example, these rights are treated similarly to property rights, and are transferable to a person's heirs. In California; under the Celebrities Rights Act, the personality rights for a celebrity last for 70 years after their death. \"We've got a societal debate going on about access to our public commons, as it were, about famous faces,�' says Lilian Edwards at Newcastle University, UK. Should the public be allowed to use or reproduce images of famous people, given how iconic they are? And what is in. the best interest of a deceased person's legacy may conflict with the desires of their family or the public, says Edwards.\nH)A recreation, however lifelike, will never be indistinguishable from a real actor, says Webber. \"When we are bringing someone back, representing someone who is no longer alive on the screen, what we are doing is extremely sophisticated digital make\"\".up,\" he says; \"A performance is a lot more than a physical resemblance.\" I) As it becomes easier to digitally recreate celebrities and to entirely manufacture on'.\"screen identities, could this kind of technology put actors out of jobs? \"J think actors are worried about this,\" says Edwards. \"But I think it will take a very long time. \" This is partly because of the risk that viewers find virtual humans scary. Edwards cites widespread backlash to the digital recreation of Carrie Fisher as· a young Princess Leia in Rogue One, a trick later repeated in the recent Star Wars: The Rise of Skywalker, which was filmed after Fisher's death in 2016. \"People didn't like it,\" she says. \"They discovered the uncanny valley (ifit#�).\" J) This refers to the idea that when objects trying to resemble humans aren't.quite perfect, they can make viewers feel uneasy because they fall somewhere between obviously non-human and fully human.\n\"That's always a danger when you're doing anything human or human-like,\" says Webber. \"There're a thousand things that could go wrong with a computer-generated facial performance, and any one of those could make it fall into the uncanny valley,\" he says·; \"Your brain j°:st knows there's something wrong.\" The problem often arises around the eyes or mouth, says Webber.. \"They're the areas that you look at when you're talking to someone.\" K) An unfamiliar digital human that has been created through CGI will also face the same challenge as an unknown actor: they don't have the appeal of an established name. \"You have to spend substantial capital in creating awareness around their likeness and making sure people are familiar with who they are,\" says Cloyd. This is now starting to happen. \"The way you pre-sell a movie in a foreign market is based on relevant talent,\" he says. \"I think we're a long way away from having virtual beings that have the ability to pre-sell content.\" L) Webber expects that we will see more digital humans on screen. \"It's happening because it can happen,\" he says. Referring to a line from JurassicPark ({$t�� d0!zm), he adds: \"People are too busy thinking about what they c·an do to think about whether they should do it.\" 7\\f& 2021' &f: 6 JI 49",
+        "3B. There is an ongoing debate among the public as to whether the images of deceased celebrities should be recreated.\n37. The COi technology allows the image of the deceased James Dean to be presented to young people in new settings.\n38. It is very likely that the COi-recreated image of a deceased celebrity will fail to match the real actor especially in facial expressions.\n39. The use of digital technology can bring images of deceased celebrities back to the screen.\n40. Recreating a deceased famous actor or actress may violate their legitimate rights.\n41. More COi-recreated images of deceased celebrities are expected to appear on screen.\n42. The image of James Dean will be recreated on screen with his voice dubbed by someone else.\n43. However advanced the COi technology is, the recreated image will differ in a way from the real actor.\n44. A lot of actors today are likely to make use of the COi technology to have their images stored for the benefit of their families.\n45. Some actors are concerned that they may lose jobs because of the COi technology.\nSection C Directions: There are 2 passages in this section. Each passage is followed by some questions or unfinished statements. For each of them there are four choices marked A), B), C) and D). You should decide on the best choice and mark the corresponding letter on Answer Sheet 2 with a single line through the centre.\nPassage One Questions 46 to 50 are based on the foil owing passage.\nYou can't see it, smell it, or hear it, and people disagree on how precisely to define it, or where exactly it comes from. It isn't a school subject or an academic discipline, but it can be learned. It is a quality that is required of artists, but it is also present in the lives of scientists and entrepreneurs. All of us benefit from it and we thrive mentally and spiritually when we are able to wield it. It is a delicate thing, easily stamped out; in fact, it flourishes most fully when people are playful and childlike. Meanwhile, it works best in conjunction with deep knowledge and expertise.\nThis mysterious-but teachable-quality is creativity, the subject of a recently-published report by Durham· Commission on Creativity and Education; The report concludes that· creativity-should not inhabit the school curriculum only as it relates to drama, music, art and other obviously creative subjects, but that creative thinking ought to run through all of school life, infusing (jEr,ffi) the way humanities and natural sciences are learned.\nThe authors, who focus on education in England, off er a number of sensible recommendations, some of which are an attempt to alleviate the uninspiring and fact-based approach to education that has crept into policy in recent years. When children are regarded as vessels to be filled with facts, creativity does not prosper; nor does it when teachers' sole objective is coaching children towards exams. One suggestion from the commission is a network of teacher-led \"creativity collaboratives\", along the lines of existing maths hubs. ( rp it:,,), with the aim of supporting teaching for creativity through the school curriculum.\nNevertheless, it is arts subjects through which creativity can most obviously be fostered. The value placed on them by the independent education sector is clear. One only has to look at the remarkable arts facilities at Britain's top private schools to comprehend this. But in the state sector the excessive focus on English, maths and science threatens to crush arts subjects; meanwhile, reduced school budgets mean diminishing extracurricular activities. There has been a 28.1 % decline in students taking creative subjects at high schools since 2014, though happily, art and design have seen a recent increase.\nThis discrepancy between state and private education is a matter of social justice. It is simply wrong and unfair that most children have a fraction of the access to choirs, orchestras, art studios and drama that *� 2021 ip 6 }J 50",
+        "their more privileged peers enjoy. As lives are affected by any number of looming challenges-climate crisis, automation in the workplace-humans are going to need creative thinking more than ever. For all of our sakes, creativity in education, and for all, must become a priority.\n46. What do we learn from the passage about creativity?\nA) It develops best when people are spiritually prepared.\nB) It is most often wielded by scientists and entrepreneurs.\nC) It is founded on scientific knowledge and analytical skills.\nD) It contributes to intellectual growth but can easily be killed.\n47. What is the conclusion of a recently-published report?\nA) Natural sciences should be learned the way humanities courses are.\nB) Cultivation of creativity should permeate the entire school curriculum.\nC) Art courses should be made compulsory for all students.\nD) Students should learn more obviously creative subjects.\n48. What does the report say is detrimental to the fostering of creativity?\nA) Alleviation of pressure. C) Test-oriented teaching.\nB) Teacher-led school activities. D) Independent learning.\n49. What do we learn about the private schools in the UK?\nA) They encourage extracurricular activities.\nB) They attach great importance to arts education.\nC) They prioritize arts subjects over maths and sciences.\nD) They cater to students from different family backgrounds.\n50. What should be done to meet the future challenges?\nA) Increasing government investment in school education.\nB) Narrowing the existing gap between the rich and the poor.\nC) Providing all children with equal access to arts education.\nD) Focusing on meeting the needs of under-privileged students.\nPassage Two Questions 51 to 55 are based on the following passage.\nEmulating your conversation partner's actions is a common human behavior classified as \"mirroring\" and has been known and studied by psychologists for years. We all tend to subconsciously copy gestures of people we like. But why do we act like this?\nAs a rule, mirroring means that conversationalists enjoy their communication and that there's a certain level of agreement between them. The topic of discussion is equally interesting for both and they know their interests meet.\nRepeating someone's behavior is typical of talented communicators, not always because the person is sympathetic, but because there is a goal to be achieved. This way new idols have been brought to the stage: politicians, celebrities, and other big names. Popular culture makes people want to look popular, and act and speak like popular people.\nNowadays celebrities steal lyrics from each other and struggle with copyright violation accusations or straightforwardly claim themselves to be the authors, even though all the work was done by other people. • Among celebrities, it's trendy nowadays to use their own speech writers as politicians do. The socalled \"ghostwriting\" can take various forms: books, articles, autobiographies, and even social media posts.\nWho is a true copycat (:t&��) and who gets copycatted? Sometimes, it is a hard nut to crack without an expert's help. But new authorship defending methods based on identifying individual writing patterns are already here. Their aim is to protect intellectual property. Using scientific methods, some of them can *� 2021 6 J1 51",
+        "define authorship with 85 % accuracy.\nWriting is not an easy craft to master. If you want to write like a professional without plagiarism (tf;\n�), there are a few lessons to learn and the first one is: \"Copy from one, it's plagiarism; copy from two, it's research.\" The correct interpretation of this statement is not about copying, but rather about creating your own style. When you study an author's writing style, don't stop on a single one, but explore numerous styles instead. Examine types of sentences they use, pay attention to their metaphors, and focus on stories you feel you could write a pretty cool sequel (�ID to.\nImitation is rather paradoxical. As an integral part of learning, it brings about positive changes, making people develop and grow. However, it may do a lot of harm. Copying someone's thoughts, ideas or inventions is completely unacceptable. It infringes on intellectual property rights of others.\nStill, many things we do are about copying others one way.or another. So if you want to compliment someone on the work they have done and imitate it, just make sure you do it the right way to avoid committing plagiarism.\n51. What do people tend to do while engaging in a conversation?\nA) Repeat what their partners say one way or another.\nB) Focus as much as possible on topics of mutual interest.\nC) Imitate their partners' gestures without their knowing it.\nD) Observe carefully how their partners make use of gestures.\n52. When does mirroring usually take place in a conversation?\nA) When both sides are sympathetic with each other.\nB) When both sides have a lot of things in common.\nC) When both sides make interesting contributions.\nD) When both sides try to seek common ground.\n53. What do we learn about popular culture?\nA) It encourages people to imitate. C) I.t acquaints young people with their idols.\nB) It appeals mostly to big names. D) It.can change people's mode of cognition.\n54. Why is the saying \"copy from two, it's research\" a lesson to learn?\nA) It facilitates the creation of one's own writing style.\nB) lt helps t�:t prottxt _ont!'S intellectµal pr9perty rights.\nC) It fosters correct interpretation of professional writing..\nD) It enables one to write intriguing sequels to famous stories.\n55. Why does the author say imitation is rather paradoxical?\nA) It is liable to different interpretations. C) Jt can give rise to endless disputes.\nB) It is by and large a necessary evil. D) It may do harm as well as good.\nPart N Translation. ( 30 minutes)\nDirections: For this part, you are allowed 30 minutes to translate a passage from Chinese into English. You should write your answer on Answer Sheet 2.\nzi-1¥L�iftri:pr@i!!:fm�-1'-�f,},.1JZ:!$Ji'¥1/it 1 500 *o zi-mro!f.1�A, JxtitJhru,�11*iLAo iim��:£iFm1:Jtj8&,��$#$¥-F,��::fe.Jmr��tl�� 0 iimBS�$#W--iil�-JE��*�Wl,::fe.J�� � AJ���nUNd�T�*'l*14o 25 -t-j>� re�, 1ik1i1:k$� El B, JJ m.� o iim!!k � El?&it � -. � re �x1t1!J!Jt$;::fe.Ji:j=t 00:til��:ill!�:l*Wf. 13 �Jtl!.Z.-,m:1¥$�131�:k�r@pgj,J-Wf.�frrtl:�16:l*Wf.o /\\� 2021 6 Jj 52"
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Part I Writing ( 30 minutes)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Directions: For this part, you are allowed 30 minutes to write an essay based on the chart below. You should start your essay with a bri�f description of the chart and comment on China's achievements in poverty alleviation. You should write at least 150 words but no more than 200 words."
+        },
+        {
+          "type": "paragraph",
+          "text": "Part ][ Rural population in poverty poverty headcount ratio (% of rural population) (Million people) 100.--- ����������������-.1 2"
+        },
+        {
+          "type": "paragraph",
+          "text": "Sources: China's National Bureau of Statistics, China's State Council Leading Group Office of Poverty Alleviation and Development"
+        },
+        {
+          "type": "paragraph",
+          "text": "Listening Comprehension (30 minutes)"
+        },
+        {
+          "type": "paragraph",
+          "text": "i,Jigij: EEi 2021 6 � /,��\"Jat�ij��T 2 �l!Jrf1 '*�1tlfffi11Jrj;J �mf 2 i:*1�1c�-�, flJl!:J®rJ¥� -�, lz;l.tlt:f:E*� •MI IP� JHlU! ili J?-\\L"
+        },
+        {
+          "type": "paragraph",
+          "text": "Part ][ Section A Reading Comprehension ( 40 minutes)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Directions: In this section, there is a passage with ten blanks. You are required to select one word for each blank from a list of choices given in a word. bank following the passage. Read the passage through carefully before making your choices; Each choice in the bank is identified by a letter. Please mark the corresponding letter for each item on Answer Sheet 2 with. a. single line through the centre. You may not use any of the words in the bank more than once."
+        },
+        {
+          "type": "paragraph",
+          "text": "At 43, I've reached the stage where women are warned to watch out for the creeping sadness of middle age. We're served up an endless stream of advice on \"how to survive your 40s\", as if we're in the endurance stage of a slow limp toward 26. This is the age women start to become \"invisible\"-our value, attractiveness and power supposedly 27 by the vanishing of youth. But I don't feel like I'm fading into 28. I feel more seen than I ever have, and for. the first time in my life, I have a clear-eyed view of myself that is 29, compassionate and accepting."
+        },
+        {
+          "type": "paragraph",
+          "text": "When I look in the mirror, I'm proud of who I am-even those \"broken\" parts that for so long seemed impossible to love. So when advertisers try to sell me ways to \"turn back the clock\", I have to 30 a laugh. I wouldn't go back to the crippling self-consciousness of my youth if you paid me. This hard-won sense of self-acceptance is one of the joys of being an older woman. But it's a narrative often 31 out by the shame that marketers rely on to peddle us their diet pills, miracle face creams and breathable yoga pants-as if self-love is a 32 commodity."
+        },
+        {
+          "type": "paragraph",
+          "text": "*� 2021 � 6 )3 47"
+        },
+        {
+          "type": "paragraph",
+          "text": "For some women I know, this sense of trust and self-belief later in life gave them the courage to leave dysfunctional relationships or 33 on new career paths. Others talked about enjoying their own company, of growth through 34, deepening bonds of friendships, the ability to be more compassionate, less judgmental and to listen more and appreciate the small pleasures. Life past 40 is far from smooth sailing, but it's so much more than the reductive 35 we see in women's magazines and on the Hollywood big screen."
+        },
+        {
+          "type": "paragraph",
+          "text": "A) adversity"
+        },
+        {
+          "type": "paragraph",
+          "text": "B) authentic"
+        },
+        {
+          "type": "paragraph",
+          "text": "C) convey"
+        },
+        {
+          "type": "paragraph",
+          "text": "D) depictions"
+        },
+        {
+          "type": "paragraph",
+          "text": "E) diminished"
+        },
+        {
+          "type": "paragraph",
+          "text": "Section B"
+        },
+        {
+          "type": "paragraph",
+          "text": "F) drowned"
+        },
+        {
+          "type": "paragraph",
+          "text": "G) embark"
+        },
+        {
+          "type": "paragraph",
+          "text": "H) fragility"
+        },
+        {
+          "type": "paragraph",
+          "text": "I) neglected"
+        },
+        {
+          "type": "paragraph",
+          "text": "J) obscurity"
+        },
+        {
+          "type": "paragraph",
+          "text": "K) outlines"
+        },
+        {
+          "type": "paragraph",
+          "text": "L) prevalent"
+        },
+        {
+          "type": "paragraph",
+          "text": "M) purchasable"
+        },
+        {
+          "type": "paragraph",
+          "text": "N) submit"
+        },
+        {
+          "type": "paragraph",
+          "text": "0) suppress"
+        },
+        {
+          "type": "paragraph",
+          "text": "Directions: In this section, you are going to read a passage with ten statements attached to it. Each statement contains information given in one of the paragraphs. Identify the paragraph from which the information is derived. You may choose a paragraph more than once. Each paragraph is marked with a letter. Answer the questions by marking the corresponding letter on Answer Sheet 2."
+        },
+        {
+          "type": "paragraph",
+          "text": "What Are the Ethics of CGI Actors-And Will They Replace Real Ones?"
+        },
+        {
+          "type": "paragraph",
+          "text": "A) Digital humans are coming to a screen near you. As computer-generated imagery ( CGI) has become cheaper and more sophisticated, the film industry can now convincingly recreate people on screen­ even actors who have been dead for decades. The technology's ability to effectively keep celebrities alive beyond the grave is raising questions about public legacies and image rights."
+        },
+        {
+          "type": "paragraph",
+          "text": "B) Late in 2019, it was announced that US actor James Dean, who died in 1955, will star in a Vietnam War film scheduled for release later this year. In the film, which will be called Finding Jack, Dean will be recreated on screen with CGI based on old footage (�Jtfl�) and photographs, with another actor voicing him. The news was met with excitement by those keen to see Dean digitally brought back to life for only his fourth film, but it also drew sharp criticism. \"This is puppeteering the dead for their fame alone,\" actress Zelda Williams wrote on Twitter. \"It sets such an awful precedent for the future of performance.\" Het father, Robin Williams, who·died in 2014, was-keen to avoid the same:fate, Before his death, he filed a deed protecting the use of his image until 2039, preventing others from recreating him using CGI to appear in a film, TV show or as a hologram (�.i:lfft)."
+        },
+        {
+          "type": "paragraph",
+          "text": "C) The James Dean film is a way to keep the actor's image relevant for younger generations, says Mark Roesler of CMG Worldwide, the firm that represents Dean's estate. \"I think this is the beginning of an entire wave,\" says Travis Cloyd, CEO of Worldwide XR, one of the companies behind the digital recreation of Dean. \"Moving into the future, we want James Dean to be brought into different gaming environments, or different virtual reality environments, or augmented reality environments,\" he says."
+        },
+        {
+          "type": "paragraph",
+          "text": "D) Other actors have been revived, with the permission of their estates, for advertising purposes: for example, a 2011 advertisement for Dior featured contemporary actress Charlize Theron alongside iconic 20th-century stars Marilyn Monroe, Grace Kelly and Marlene Dietrich. Later, Audrey Hepburn was digitally recreated for a chocolate commercial in 2013. In the same year, a CGI Bruce Lee appeared in a Chinese-language ad for a whisky brand, which offended many fans because Lee was widely known not to drink alcohol at all. \"In the last five years, it's become more affordable and more achievable in a whole movie,\" says Tim Webber at UK visual effects firm Framestore, the company behind the Hepburn chocolate ad. Framestore used body doubles with resemblance to Hepburn's facial structure and body shape as a framework for manual animation. The process was extremely difficult and expensive, says Webber, but the technology has moved on."
+        },
+        {
+          "type": "paragraph",
+          "text": "7\\� 2021 &j:'. 6 Y.I 48"
+        },
+        {
+          "type": "paragraph",
+          "text": "E) Now, a person can be animated from scratch. \"If they're alive today, you can put them in scanning rigs, you can get every detail of their body analysed very carefully and that makes it much easier, whereas working from available photographs is tricky,\" says Webber, who won an Academy Award for his visual effects work on the 2013 film Gravity. \"I also see a lot of actors today who will have the desire to take advantage of this technology: to have their likeness captured · and stored for future content,\" says Cloyd. \"They foresee this being something that could give their estates and give their families the ability to make money from their likeness when they're gone.\""
+        },
+        {
+          "type": "paragraph",
+          "text": "F) A hidden hazard of digitally recreating a deceased ( B � Et9) celebrity is the risk of damaging their legacy. \"We have to respect the security and the integrity of rights holders,\" says John Canning at Digital Domain, a US firm that created a hologram rapper (ill,nSt:.AJ·Tupac Shakur, which appeared at the Coachella music festival in 201Z, 15 years after his death."
+        },
+        {
+          "type": "paragraph",
+          "text": "G) Legally, a person's rights to control the commercial use of their name and image beyond their death differ between and even within countries. In certain US states, for example, these rights are treated similarly to property rights, and are transferable to a person's heirs. In California; under the Celebrities Rights Act, the personality rights for a celebrity last for 70 years after their death. \"We've got a societal debate going on about access to our public commons, as it were, about famous faces,�' says Lilian Edwards at Newcastle University, UK. Should the public be allowed to use or reproduce images of famous people, given how iconic they are? And what is in. the best interest of a deceased person's legacy may conflict with the desires of their family or the public, says Edwards."
+        },
+        {
+          "type": "paragraph",
+          "text": "H)A recreation, however lifelike, will never be indistinguishable from a real actor, says Webber. \"When we are bringing someone back, representing someone who is no longer alive on the screen, what we are doing is extremely sophisticated digital make\"\".up,\" he says; \"A performance is a lot more than a physical resemblance.\""
+        },
+        {
+          "type": "paragraph",
+          "text": "I) As it becomes easier to digitally recreate celebrities and to entirely manufacture on'.\"screen identities, could this kind of technology put actors out of jobs? \"J think actors are worried about this,\" says Edwards. \"But I think it will take a very long time. \" This is partly because of the risk that viewers find virtual humans scary. Edwards cites widespread backlash to the digital recreation of Carrie Fisher as· a young Princess Leia in Rogue One, a trick later repeated in the recent Star Wars: The Rise of Skywalker, which was filmed after Fisher's death in 2016. \"People didn't like it,\" she says. \"They discovered the uncanny valley (ifit#�).\""
+        },
+        {
+          "type": "paragraph",
+          "text": "J) This refers to the idea that when objects trying to resemble humans aren't.quite perfect, they can make viewers feel uneasy because they fall somewhere between obviously non-human and fully human. \"That's always a danger when you're doing anything human or human-like,\" says Webber. \"There're a thousand things that could go wrong with a computer-generated facial performance, and any one of those could make it fall into the uncanny valley,\" he says·; \"Your brain j°:st knows there's something wrong.\" The problem often arises around the eyes or mouth, says Webber.. \"They're the areas that you look at when you're talking to someone.\""
+        },
+        {
+          "type": "paragraph",
+          "text": "K) An unfamiliar digital human that has been created through CGI will also face the same challenge as an unknown actor: they don't have the appeal of an established name. \"You have to spend substantial capital in creating awareness around their likeness and making sure people are familiar with who they are,\" says Cloyd. This is now starting to happen. \"The way you pre-sell a movie in a foreign market is based on relevant talent,\" he says. \"I think we're a long way away from having virtual beings that have the ability to pre-sell content.\""
+        },
+        {
+          "type": "paragraph",
+          "text": "L) Webber expects that we will see more digital humans on screen. \"It's happening because it can happen,\" he says. Referring to a line from JurassicPark ({$t�� d0!zm), he adds: \"People are too busy thinking about what they c·an do to think about whether they should do it.\""
+        },
+        {
+          "type": "paragraph",
+          "text": "7\\f& 2021' &f: 6 JI 49"
+        },
+        {
+          "type": "paragraph",
+          "text": "3B. There is an ongoing debate among the public as to whether the images of deceased celebrities should be recreated."
+        },
+        {
+          "type": "paragraph",
+          "text": "37. The COi technology allows the image of the deceased James Dean to be presented to young people in new settings."
+        },
+        {
+          "type": "paragraph",
+          "text": "38. It is very likely that the COi-recreated image of a deceased celebrity will fail to match the real actor especially in facial expressions."
+        },
+        {
+          "type": "paragraph",
+          "text": "39. The use of digital technology can bring images of deceased celebrities back to the screen."
+        },
+        {
+          "type": "paragraph",
+          "text": "40. Recreating a deceased famous actor or actress may violate their legitimate rights."
+        },
+        {
+          "type": "paragraph",
+          "text": "41. More COi-recreated images of deceased celebrities are expected to appear on screen."
+        },
+        {
+          "type": "paragraph",
+          "text": "42. The image of James Dean will be recreated on screen with his voice dubbed by someone else."
+        },
+        {
+          "type": "paragraph",
+          "text": "43. However advanced the COi technology is, the recreated image will differ in a way from the real actor."
+        },
+        {
+          "type": "paragraph",
+          "text": "44. A lot of actors today are likely to make use of the COi technology to have their images stored for the benefit of their families."
+        },
+        {
+          "type": "paragraph",
+          "text": "45. Some actors are concerned that they may lose jobs because of the COi technology."
+        },
+        {
+          "type": "paragraph",
+          "text": "Section C"
+        },
+        {
+          "type": "paragraph",
+          "text": "Directions: There are 2 passages in this section. Each passage is followed by some questions or unfinished statements. For each of them there are four choices marked A), B), C) and D). You should decide on the best choice and mark the corresponding letter on Answer Sheet 2 with a single line through the centre."
+        },
+        {
+          "type": "paragraph",
+          "text": "Passage One"
+        },
+        {
+          "type": "paragraph",
+          "text": "Questions 46 to 50 are based on the foil owing passage."
+        },
+        {
+          "type": "paragraph",
+          "text": "You can't see it, smell it, or hear it, and people disagree on how precisely to define it, or where exactly it comes from. It isn't a school subject or an academic discipline, but it can be learned. It is a quality that is required of artists, but it is also present in the lives of scientists and entrepreneurs. All of us benefit from it and we thrive mentally and spiritually when we are able to wield it. It is a delicate thing, easily stamped out; in fact, it flourishes most fully when people are playful and childlike. Meanwhile, it works best in conjunction with deep knowledge and expertise."
+        },
+        {
+          "type": "paragraph",
+          "text": "This mysterious-but teachable-quality is creativity, the subject of a recently-published report by Durham· Commission on Creativity and Education; The report concludes that· creativity-should not inhabit the school curriculum only as it relates to drama, music, art and other obviously creative subjects, but that creative thinking ought to run through all of school life, infusing (jEr,ffi) the way humanities and natural sciences are learned."
+        },
+        {
+          "type": "paragraph",
+          "text": "The authors, who focus on education in England, off er a number of sensible recommendations, some of which are an attempt to alleviate the uninspiring and fact-based approach to education that has crept into policy in recent years. When children are regarded as vessels to be filled with facts, creativity does not prosper; nor does it when teachers' sole objective is coaching children towards exams. One suggestion from the commission is a network of teacher-led \"creativity collaboratives\", along the lines of existing maths hubs. ( rp it:,,), with the aim of supporting teaching for creativity through the school curriculum."
+        },
+        {
+          "type": "paragraph",
+          "text": "Nevertheless, it is arts subjects through which creativity can most obviously be fostered. The value placed on them by the independent education sector is clear. One only has to look at the remarkable arts facilities at Britain's top private schools to comprehend this. But in the state sector the excessive focus on English, maths and science threatens to crush arts subjects; meanwhile, reduced school budgets mean diminishing extracurricular activities. There has been a 28.1 % decline in students taking creative subjects at high schools since 2014, though happily, art and design have seen a recent increase."
+        },
+        {
+          "type": "paragraph",
+          "text": "This discrepancy between state and private education is a matter of social justice. It is simply wrong and unfair that most children have a fraction of the access to choirs, orchestras, art studios and drama that"
+        },
+        {
+          "type": "paragraph",
+          "text": "*� 2021 ip 6 }J 50"
+        },
+        {
+          "type": "paragraph",
+          "text": "their more privileged peers enjoy. As lives are affected by any number of looming challenges-climate crisis, automation in the workplace-humans are going to need creative thinking more than ever. For all of our sakes, creativity in education, and for all, must become a priority."
+        },
+        {
+          "type": "paragraph",
+          "text": "46. What do we learn from the passage about creativity?"
+        },
+        {
+          "type": "paragraph",
+          "text": "A) It develops best when people are spiritually prepared."
+        },
+        {
+          "type": "paragraph",
+          "text": "B) It is most often wielded by scientists and entrepreneurs."
+        },
+        {
+          "type": "paragraph",
+          "text": "C) It is founded on scientific knowledge and analytical skills."
+        },
+        {
+          "type": "paragraph",
+          "text": "D) It contributes to intellectual growth but can easily be killed."
+        },
+        {
+          "type": "paragraph",
+          "text": "47. What is the conclusion of a recently-published report?"
+        },
+        {
+          "type": "paragraph",
+          "text": "A) Natural sciences should be learned the way humanities courses are."
+        },
+        {
+          "type": "paragraph",
+          "text": "B) Cultivation of creativity should permeate the entire school curriculum."
+        },
+        {
+          "type": "paragraph",
+          "text": "C) Art courses should be made compulsory for all students."
+        },
+        {
+          "type": "paragraph",
+          "text": "D) Students should learn more obviously creative subjects."
+        },
+        {
+          "type": "paragraph",
+          "text": "48. What does the report say is detrimental to the fostering of creativity?"
+        },
+        {
+          "type": "paragraph",
+          "text": "A) Alleviation of pressure."
+        },
+        {
+          "type": "paragraph",
+          "text": "C) Test-oriented teaching."
+        },
+        {
+          "type": "paragraph",
+          "text": "B) Teacher-led school activities."
+        },
+        {
+          "type": "paragraph",
+          "text": "D) Independent learning."
+        },
+        {
+          "type": "paragraph",
+          "text": "49. What do we learn about the private schools in the UK?"
+        },
+        {
+          "type": "paragraph",
+          "text": "A) They encourage extracurricular activities."
+        },
+        {
+          "type": "paragraph",
+          "text": "B) They attach great importance to arts education."
+        },
+        {
+          "type": "paragraph",
+          "text": "C) They prioritize arts subjects over maths and sciences."
+        },
+        {
+          "type": "paragraph",
+          "text": "D) They cater to students from different family backgrounds."
+        },
+        {
+          "type": "paragraph",
+          "text": "50. What should be done to meet the future challenges?"
+        },
+        {
+          "type": "paragraph",
+          "text": "A) Increasing government investment in school education."
+        },
+        {
+          "type": "paragraph",
+          "text": "B) Narrowing the existing gap between the rich and the poor."
+        },
+        {
+          "type": "paragraph",
+          "text": "C) Providing all children with equal access to arts education."
+        },
+        {
+          "type": "paragraph",
+          "text": "D) Focusing on meeting the needs of under-privileged students."
+        },
+        {
+          "type": "paragraph",
+          "text": "Passage Two"
+        },
+        {
+          "type": "paragraph",
+          "text": "Questions 51 to 55 are based on the following passage."
+        },
+        {
+          "type": "paragraph",
+          "text": "Emulating your conversation partner's actions is a common human behavior classified as \"mirroring\" and has been known and studied by psychologists for years. We all tend to subconsciously copy gestures of people we like. But why do we act like this?"
+        },
+        {
+          "type": "paragraph",
+          "text": "As a rule, mirroring means that conversationalists enjoy their communication and that there's a certain level of agreement between them. The topic of discussion is equally interesting for both and they know their interests meet."
+        },
+        {
+          "type": "paragraph",
+          "text": "Repeating someone's behavior is typical of talented communicators, not always because the person is sympathetic, but because there is a goal to be achieved. This way new idols have been brought to the stage: politicians, celebrities, and other big names. Popular culture makes people want to look popular, and act and speak like popular people."
+        },
+        {
+          "type": "paragraph",
+          "text": "Nowadays celebrities steal lyrics from each other and struggle with copyright violation accusations or straightforwardly claim themselves to be the authors, even though all the work was done by other people. • Among celebrities, it's trendy nowadays to use their own speech writers as politicians do. The socalled \"ghostwriting\" can take various forms: books, articles, autobiographies, and even social media posts."
+        },
+        {
+          "type": "paragraph",
+          "text": "Who is a true copycat (:t&��) and who gets copycatted? Sometimes, it is a hard nut to crack without an expert's help. But new authorship defending methods based on identifying individual writing patterns are already here. Their aim is to protect intellectual property. Using scientific methods, some of them can"
+        },
+        {
+          "type": "paragraph",
+          "text": "*� 2021 6 J1 51"
+        },
+        {
+          "type": "paragraph",
+          "text": "define authorship with 85 % accuracy."
+        },
+        {
+          "type": "paragraph",
+          "text": "Writing is not an easy craft to master. If you want to write like a professional without plagiarism (tf; �), there are a few lessons to learn and the first one is: \"Copy from one, it's plagiarism; copy from two, it's research.\" The correct interpretation of this statement is not about copying, but rather about creating your own style. When you study an author's writing style, don't stop on a single one, but explore numerous styles instead. Examine types of sentences they use, pay attention to their metaphors, and focus on stories you feel you could write a pretty cool sequel (�ID to."
+        },
+        {
+          "type": "paragraph",
+          "text": "Imitation is rather paradoxical. As an integral part of learning, it brings about positive changes, making people develop and grow. However, it may do a lot of harm. Copying someone's thoughts, ideas or inventions is completely unacceptable. It infringes on intellectual property rights of others."
+        },
+        {
+          "type": "paragraph",
+          "text": "Still, many things we do are about copying others one way.or another. So if you want to compliment someone on the work they have done and imitate it, just make sure you do it the right way to avoid committing plagiarism."
+        },
+        {
+          "type": "paragraph",
+          "text": "51. What do people tend to do while engaging in a conversation?"
+        },
+        {
+          "type": "paragraph",
+          "text": "A) Repeat what their partners say one way or another."
+        },
+        {
+          "type": "paragraph",
+          "text": "B) Focus as much as possible on topics of mutual interest."
+        },
+        {
+          "type": "paragraph",
+          "text": "C) Imitate their partners' gestures without their knowing it."
+        },
+        {
+          "type": "paragraph",
+          "text": "D) Observe carefully how their partners make use of gestures."
+        },
+        {
+          "type": "paragraph",
+          "text": "52. When does mirroring usually take place in a conversation?"
+        },
+        {
+          "type": "paragraph",
+          "text": "A) When both sides are sympathetic with each other."
+        },
+        {
+          "type": "paragraph",
+          "text": "B) When both sides have a lot of things in common."
+        },
+        {
+          "type": "paragraph",
+          "text": "C) When both sides make interesting contributions."
+        },
+        {
+          "type": "paragraph",
+          "text": "D) When both sides try to seek common ground."
+        },
+        {
+          "type": "paragraph",
+          "text": "53. What do we learn about popular culture?"
+        },
+        {
+          "type": "paragraph",
+          "text": "A) It encourages people to imitate."
+        },
+        {
+          "type": "paragraph",
+          "text": "C) I.t acquaints young people with their idols."
+        },
+        {
+          "type": "paragraph",
+          "text": "B) It appeals mostly to big names."
+        },
+        {
+          "type": "paragraph",
+          "text": "D) It.can change people's mode of cognition."
+        },
+        {
+          "type": "paragraph",
+          "text": "54. Why is the saying \"copy from two, it's research\" a lesson to learn?"
+        },
+        {
+          "type": "paragraph",
+          "text": "A) It facilitates the creation of one's own writing style."
+        },
+        {
+          "type": "paragraph",
+          "text": "B) lt helps t�:t prottxt _ont!'S intellectµal pr9perty rights."
+        },
+        {
+          "type": "paragraph",
+          "text": "C) It fosters correct interpretation of professional writing.."
+        },
+        {
+          "type": "paragraph",
+          "text": "D) It enables one to write intriguing sequels to famous stories."
+        },
+        {
+          "type": "paragraph",
+          "text": "55. Why does the author say imitation is rather paradoxical?"
+        },
+        {
+          "type": "paragraph",
+          "text": "A) It is liable to different interpretations."
+        },
+        {
+          "type": "paragraph",
+          "text": "C) Jt can give rise to endless disputes."
+        },
+        {
+          "type": "paragraph",
+          "text": "B) It is by and large a necessary evil."
+        },
+        {
+          "type": "paragraph",
+          "text": "D) It may do harm as well as good."
+        },
+        {
+          "type": "paragraph",
+          "text": "Part N Translation. ( 30 minutes)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Directions: For this part, you are allowed 30 minutes to translate a passage from Chinese into English. You should write your answer on Answer Sheet 2."
+        },
+        {
+          "type": "paragraph",
+          "text": "zi-1¥L�iftri:pr@i!!:fm�-1'-�f,},.1JZ:!$Ji'¥1/it 1 500 *o zi-mro!f.1�A, JxtitJhru,�11*iLAo iim��:£iFm1:Jtj8&,��$#$¥-F,��::fe.Jmr��tl�� 0 iimBS�$#W--iil�-JE��*�Wl,::fe.J�� � AJ���nUNd�T�*'l*14o 25 -t-j>� re�, 1ik1i1:k$� El B, JJ m.� o iim!!k � El?&it � -. � re �x1t1!J!Jt$;::fe.Ji:j=t 00:til��:ill!�:l*Wf. 13 �Jtl!.Z.-,m:1¥$�131�:k�r@pgj,J-Wf.�frrtl:�16:l*Wf.o"
+        },
+        {
+          "type": "paragraph",
+          "text": "/\\� 2021 6 Jj 52"
+        }
+      ],
+      "reason": "全文通读脱贫图表文字作文、听力省略说明、自我接纳选词、CGI演员A—L、创造力教育与模仿抄袭阅读及翻译乱码。保留图表原文和行序，仅分离来源及后续标题；拆开F/I/J/K/L段标、词库和混排选项，恐怖谷J解释并同段，plagiarism括注跨行接回完整句。完整自然段保留。词库Section B错置和两处页码截句需重排或删字，记录待确认；其余乱码与缺失文字不改。"
+    }
+  ],
+  "sources": [
+    {
+      "path": "content/article-review/history/9d4626663f17b1bc024681ffa17647e26d71ba4142e91c2061cb70294d1c4f30.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "bf780b69d9afe98d715d95141da8abed8f3684f9dcac4d97ca5a345f8eeae971"
+    }
+  ]
+}

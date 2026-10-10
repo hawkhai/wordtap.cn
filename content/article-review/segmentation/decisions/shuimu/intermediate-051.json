@@ -1,0 +1,342 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "39627387d65266902e26eeedb22d965d620e789224959a90694381dfa659177f",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "coverage": "全文 blocks[0..232]；按 JSON 上下文逐项复核对话、解释、题目、表格、词表及修复后的边界。",
+  "notes": "全文通读海峡隧道、多句摘要与练习、主谓一致原则及名词词组主语。twenty-one-mile的跨行连字符直接衔接；所有编号/项目、银元问答两轮保留，数词/百分数例句完整，原人名日期和译文内容不校改。",
+  "issues": [],
+  "mergeBlocks": [
+    {
+      "start": 22,
+      "end": 23,
+      "before": [
+        "In 1858, a French engineer, Tom, arrived in England with a plan for a twenty-one-",
+        "mile tunnel under the English Channel."
+      ],
+      "text": "In 1858, a French engineer, Tom, arrived in England with a plan for a twenty-one-mile tunnel under the English Channel.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 24,
+      "end": 25,
+      "before": [
+        "1858年，一位名叫汤姆的法国工程师带着建造一条长21英里、穿越英吉利海峡",
+        "的隧道计划到了英国。"
+      ],
+      "text": "1858年，一位名叫汤姆的法国工程师带着建造一条长21英里、穿越英吉利海峡的隧道计划到了英国。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 26,
+      "end": 27,
+      "before": [
+        "He said that it would be possible to build a platform in the centre of the Channel. This",
+        "platform would serve as a port and a railway station."
+      ],
+      "text": "He said that it would be possible to build a platform in the centre of the Channel. This platform would serve as a port and a railway station.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 33,
+      "end": 35,
+      "before": [
+        "He suggested that a double railway-tunnel should be built. This would solve the",
+        "problem of ventilation, for if a train entered this tunnel, it would draw in fresh air",
+        "behind it."
+      ],
+      "text": "He suggested that a double railway-tunnel should be built. This would solve the problem of ventilation, for if a train entered this tunnel, it would draw in fresh air behind it.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 36,
+      "end": 37,
+      "before": [
+        "他提议建一条双轨隧道，这样就解决了通风问题。因为如果有列火车开进隧",
+        "道，它就把新鲜空气随之抽进了隧道。"
+      ],
+      "text": "他提议建一条双轨隧道，这样就解决了通风问题。因为如果有列火车开进隧道，它就把新鲜空气随之抽进了隧道。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 38,
+      "end": 39,
+      "before": [
+        "Forty-two years later a tunnel was actually begun. If, at the time, the British had not",
+        "feared invasion, it would have been completed."
+      ],
+      "text": "Forty-two years later a tunnel was actually begun. If, at the time, the British had not feared invasion, it would have been completed.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 40,
+      "end": 41,
+      "before": [
+        "42年以后，隧道实际已经开始建了。如果不是因为那时英国人害怕入侵，隧道",
+        "早已建成了。"
+      ],
+      "text": "42年以后，隧道实际已经开始建了。如果不是因为那时英国人害怕入侵，隧道早已建成了。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 44,
+      "end": 45,
+      "before": [
+        "It was officially opened on March 7,1994, finally connecting Britain to the European",
+        "continent."
+      ],
+      "text": "It was officially opened on March 7,1994, finally connecting Britain to the European continent.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 49,
+      "end": 50,
+      "before": [
+        "1Who planned to build a tunnel under the English Channel in 1858? How would it",
+        "be ventilated? (The tunnel, which…)"
+      ],
+      "text": "1Who planned to build a tunnel under the English Channel in 1858? How would it be ventilated? (The tunnel, which…)",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 52,
+      "end": 53,
+      "before": [
+        "3 How would passing trains solve the problem of ventilation in his proposed double",
+        "railway-tunnel? (because they would)"
+      ],
+      "text": "3 How would passing trains solve the problem of ventilation in his proposed double railway-tunnel? (because they would)",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 54,
+      "end": 55,
+      "before": [
+        "4 Did work begin forty-two years later or not? Why was it stopped? (Though…",
+        "because)"
+      ],
+      "text": "4 Did work begin forty-two years later or not? Why was it stopped? (Though… because)",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 57,
+      "end": 63,
+      "before": [
+        "Answer: The tunnel, which the French engineer, Tom, planned to build under",
+        "the English Channel in 1858, would be ventilated by tall chimneys built above",
+        "sea level. An Englishman, William, suggested a better plan two years later.",
+        "Passing trains would solve the problem of ventilation in his proposed double",
+        "railway-tunnel because they would draw in fresh air behind them. Though",
+        "work began forty-two years later, it was stopped because the British feared",
+        "invasion. However, the tunnel was officially opened on March 7, 1994."
+      ],
+      "text": "Answer: The tunnel, which the French engineer, Tom, planned to build under the English Channel in 1858, would be ventilated by tall chimneys built above sea level. An Englishman, William, suggested a better plan two years later. Passing trains would solve the problem of ventilation in his proposed double railway-tunnel because they would draw in fresh air behind them. Though work began forty-two years later, it was stopped because the British feared invasion. However, the tunnel was officially opened on March 7, 1994.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 130,
+      "end": 133,
+      "before": [
+        "一致关系是指句子成分之间或词语之间在人称、数、格、性等方面必须保持的",
+        "一种协调关系。一致关系主要表现在主谓一致、代词一致、主语及其补语的一",
+        "致。谓语动词在人称和数两个方面必须和主语一致。决定主谓一致的三条原",
+        "则："
+      ],
+      "text": "一致关系是指句子成分之间或词语之间在人称、数、格、性等方面必须保持的一种协调关系。一致关系主要表现在主谓一致、代词一致、主语及其补语的一致。谓语动词在人称和数两个方面必须和主语一致。决定主谓一致的三条原则：",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 134,
+      "end": 135,
+      "before": [
+        "▪语法一致，即在语法形式上取得一致。一般说来，主语为单数形式，谓语",
+        "动词也采取单数形式；主语为复数形式，谓语动词也采取复数形式。"
+      ],
+      "text": "▪语法一致，即在语法形式上取得一致。一般说来，主语为单数形式，谓语动词也采取单数形式；主语为复数形式，谓语动词也采取复数形式。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 141,
+      "end": 142,
+      "before": [
+        "➢ 句中主语 people 为复数形式，故谓语动词必须采取复数形式 do not",
+        "know。"
+      ],
+      "text": "➢ 句中主语 people 为复数形式，故谓语动词必须采取复数形式 do not know。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 143,
+      "end": 144,
+      "before": [
+        "▪意义一致，即从意义上而不是语法形态上来看待和处理主谓一致关系，换",
+        "句话说，谓语采取单数还是复数取决于句子在意义上是单数还是复数。"
+      ],
+      "text": "▪意义一致，即从意义上而不是语法形态上来看待和处理主谓一致关系，换句话说，谓语采取单数还是复数取决于句子在意义上是单数还是复数。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 147,
+      "end": 148,
+      "before": [
+        "➢ 句中 the living 指所有活着的人，形式上貌似单数，但意义上却是复",
+        "数，指所有活着的人，故谓语动词必须用 are。"
+      ],
+      "text": "➢ 句中 the living 指所有活着的人，形式上貌似单数，但意义上却是复数，指所有活着的人，故谓语动词必须用 are。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 155,
+      "end": 156,
+      "before": [
+        "▪名词词组的中心词为单数、单独的动名词(词组)、动词不定式(短语)以及主",
+        "语从句作主语时，谓语动词用单数。"
+      ],
+      "text": "▪名词词组的中心词为单数、单独的动名词(词组)、动词不定式(短语)以及主语从句作主语时，谓语动词用单数。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 164,
+      "end": 165,
+      "before": [
+        "▪当名词词组中心词为表示量度、温度、时间、钱等复数名词时，往往根据",
+        "意义一致的原则，把这些复数名词看作一个整体，谓语动词用单数。"
+      ],
+      "text": "▪当名词词组中心词为表示量度、温度、时间、钱等复数名词时，往往根据意义一致的原则，把这些复数名词看作一个整体，谓语动词用单数。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 171,
+      "end": 172,
+      "before": [
+        "注：如果明显地是指一个个的个体，则要根据语法一致的原则，谓语动词用复",
+        "数形式。例如:"
+      ],
+      "text": "注：如果明显地是指一个个的个体，则要根据语法一致的原则，谓语动词用复数形式。例如:",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 175,
+      "end": 176,
+      "before": [
+        "▪如果主语是由 all, most, half, none, some, plenty, the last, the rest, the remainder,",
+        "(a)part of 等名词构成时，谓语动词取决于名词的单、复数形式。"
+      ],
+      "text": "▪如果主语是由 all, most, half, none, some, plenty, the last, the rest, the remainder, (a)part of 等名词构成时，谓语动词取决于名词的单、复数形式。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 183,
+      "end": 184,
+      "before": [
+        "• Part of the passengers were injured in the accident.部分乘客在车祸中受",
+        "伤。"
+      ],
+      "text": "• Part of the passengers were injured in the accident.部分乘客在车祸中受伤。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 186,
+      "end": 187,
+      "before": [
+        "▪如果主语是由 form of, portion of, series of, species of, kind of 名词构成时,谓",
+        "语动词一般根据语法一致的原则用单数形式。"
+      ],
+      "text": "▪如果主语是由 form of, portion of, series of, species of, kind of 名词构成时,谓语动词一般根据语法一致的原则用单数形式。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 190,
+      "end": 191,
+      "before": [
+        "• The first portion of the book was marvellous.那本书的开头部分非常精",
+        "彩。"
+      ],
+      "text": "• The first portion of the book was marvellous.那本书的开头部分非常精彩。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 193,
+      "end": 194,
+      "before": [
+        "• Many a ship has been wrecked on those rocks.许多轮船已在那些岩石上失",
+        "事。"
+      ],
+      "text": "• Many a ship has been wrecked on those rocks.许多轮船已在那些岩石上失事。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 196,
+      "end": 199,
+      "before": [
+        "▪如果主语由 either ( neither)of+名词复数(或代词)结构担任时，一般根据语法",
+        "一致的原则，谓语动词用单数形式; another, each one, each of 名词复数(或",
+        "代词), either, no one, neither, the other 作主语时，谓语动词也采取单数形",
+        "式。"
+      ],
+      "text": "▪如果主语由 either ( neither)of+名词复数(或代词)结构担任时，一般根据语法一致的原则，谓语动词用单数形式; another, each one, each of 名词复数(或 代词), either, no one, neither, the other 作主语时，谓语动词也采取单数形式。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 203,
+      "end": 205,
+      "before": [
+        "▪由 the+形容词(或分词)担任主语时，往往根据意义一致的原则决定谓语动词",
+        "的单、复数形式：指一类人时，谓语动词用复数形式；指个人或抽象概",
+        "念时，谓语动词用单数形式。"
+      ],
+      "text": "▪由 the+形容词(或分词)担任主语时，往往根据意义一致的原则决定谓语动词的单、复数形式：指一类人时，谓语动词用复数形式；指个人或抽象概念时，谓语动词用单数形式。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 210,
+      "end": 211,
+      "before": [
+        "▪分数或百分数+of 短语作主语时，其谓语动词的单、复数形式取决于 of 后",
+        "的名词单、复数形式。"
+      ],
+      "text": "▪分数或百分数+of 短语作主语时，其谓语动词的单、复数形式取决于 of 后的名词单、复数形式。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 214,
+      "end": 215,
+      "before": [
+        "• Three-fourths of the students in this college have passed College English",
+        "Test Band Four."
+      ],
+      "text": "• Three-fourths of the students in this college have passed College English Test Band Four.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 226,
+      "end": 227,
+      "before": [
+        "(2)如果数词是复数形式，如 thousands of, millions of, billions of 等，谓语动词常",
+        "用复数。"
+      ],
+      "text": "(2)如果数词是复数形式，如 thousands of, millions of, billions of 等，谓语动词常用复数。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 228,
+      "end": 229,
+      "before": [
+        "• Hundreds of famous paintings are exhibited together in the Museum of",
+        "History in Beijing."
+      ],
+      "text": "• Hundreds of famous paintings are exhibited together in the Museum of History in Beijing.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    }
+  ],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/491eea560fc94cda8d1b31f900153bf50b255d672b756997079cd598da51e266.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "50f80fe7513f86bbda6fe613b29d4360742ba1b253b88d1ef946896030e3c7cf"
+    }
+  ]
+}

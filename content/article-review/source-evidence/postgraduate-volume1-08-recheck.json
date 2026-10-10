@@ -1,0 +1,32 @@
+{
+  "article": "postgraduate/volume1-08",
+  "fullRead": "22块引言、标题作者及八组正文英中完整读；OCR232–234印刷221–223完整读；TIME官网正文100–113行全文与原教材比对。",
+  "sources": [
+    {
+      "url": "https://time.com/archive/6921468/the-hidden-danger-of-seat-belts/",
+      "read": "2006-11-30 David Bjerklie；直接页100–113原文全部读，前部无关PMI宣传未用于本文；末句automatic—or visceral—that和context...that is key确证，教材不同分句记录为原文还原。"
+    },
+    {
+      "url": "https://www.nhtsa.gov/book/countermeasures-that-work/seat-belts-and-child-restraints",
+      "read": "官方研究汇总：乘用车前排腰肩安全带降低致命伤45%、中度至危重伤50%；不把此比例泛化所有车种/座位或所有事故。"
+    },
+    {
+      "url": "https://www.cdc.gov/mmwr/preview/mmwrhtml/mm5951a3.htm",
+      "read": "CDC2010历史官方研究总结：安全带保护与提高使用率/降低死亡率的措施证据，不能将Adams个人解读当作一致科学结论。"
+    }
+  ],
+  "editorialCorrections": [
+    "教材引言a common sense语法错误和系带导致更多事故的无条件结论改为明确历史来源和效益说明，不伪称OCR。",
+    "正文18国数据保留为Adams报道中的解读，人数deaths不再误译死亡率；观察到立法后变化不等于因果证明。风险补偿假说保留，may可能性英中明确。",
+    "原100倍/人格障碍10倍/270万倍没有清晰比较组和独立假设证据，避免把这些当作个人风险科学事实；明确编辑为解释不能任意相乘的统计教学段，保留原稿在历史修订中。",
+    "夸张方向盘/保险杠例子仅保留为作者思想实验，不提供实施细节、不当安全建议。原80%/68%是2006报道所引历史数，编者注约束，不冒称当前。",
+    "题名和作者保留，编者注说明改编。中文源虽有TeX，语义错译仍明确编辑校核，不冒称恢复其他版本。"
+  ],
+  "translationReview": [
+    "首两组引言/导读既说明安全带降低风险又区分一个研究者观点；第二正文荣休教授、25多年前以2006为基准，死亡人数非率。",
+    "第三正文curve无窄字，toddlerincarseat保留专用座椅，bangingup撞坏非必报废、loselicense失资格；第四正文假设风险减少后的行为描述条件语气正确。",
+    "第五正文may增加风险不可译确定危险，net系高空保护网非水上救生，保留语境；第六自然气质/宿命论为举例非给出医学诊断，第七新统计段逐句对应。",
+    "第八financial经济、voluntary自愿、benignindifferentmalign三类原论述与例子对应，末句破折号成对恢复，未假称横线仅排版空白。"
+  ],
+  "unresolved": []
+}

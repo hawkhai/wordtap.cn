@@ -1,0 +1,22 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "80aa99fc68aba19a3333035e57faab757ff4432dad05b81285fcf3d6ab347492",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title；全文 blocks[0..1] 与对应 text；现有正文/对话/题干逐块通读复核。",
+  "notes": "Unexpected两个段落各叙一次意外避灾，2001与2011事件独立完整，保留。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "blockEdits": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/92c6b51b69b954659fd9858eee3dc5f7f7830bf9482d64df35f95209bf27951e.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "798d766c3029b6b45f776e39de23ee195a5aeb5ac4dd15dde4822c014c2039e2"
+    }
+  ]
+}

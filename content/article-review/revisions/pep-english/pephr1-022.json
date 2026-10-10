@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "course": "pep-english",
+  "articleId": "pephr1-022",
+  "beforeDisplaySha256": "7702453cf3ea9d3fe8e8ff3262e68e3a94b00bc5fa516d7ed04931fe8a47a80c",
+  "afterDisplaySha256": "7702453cf3ea9d3fe8e8ff3262e68e3a94b00bc5fa516d7ed04931fe8a47a80c",
+  "baselineDisplay": {
+    "title": "A Daughter Who No Longer Asks for Advice",
+    "section": "Writing",
+    "text": "Dear Talking Teens,\nI have a daughter who has just started senior high school. She wants to choose her own courses and decide everything by herself. In the past, she would always ask me for advice, but now she talks to her friends instead. Why doesn't she want my advice any more?\nBest regards,\nConfused Mum",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Dear Talking Teens,"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "I have a daughter who has just started senior high school. She wants to choose her own courses and decide everything by herself. In the past, she would always ask me for advice, but now she talks to her friends instead. Why doesn't she want my advice any more?"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Best regards,\nConfused Mum"
+      }
+    ]
+  },
+  "display": {
+    "title": "A Daughter Who No Longer Asks for Advice",
+    "section": "Writing",
+    "text": "Dear Talking Teens,\nI have a daughter who has just started senior high school. She wants to choose her own courses and decide everything by herself. In the past, she would always ask me for advice, but now she talks to her friends instead. Why doesn't she want my advice any more?\nBest regards,\nConfused Mum",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Dear Talking Teens,"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "I have a daughter who has just started senior high school. She wants to choose her own courses and decide everything by herself. In the past, she would always ask me for advice, but now she talks to her friends instead. Why doesn't she want my advice any more?"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Best regards,\nConfused Mum"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "path": "content/article-review/history/9272d8c9bc84c238232a4dae34140b1294acb68aed1dda8cbf350bccebce6ccd.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "06bb01878ea9dc3e4d2bbcdee7c0c5917771433cfe8401b10e4c13c9ffdecbc8"
+    }
+  ],
+  "corrections": [],
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "reviewer": "Codex",
+  "reviewedAt": "2026-10-07T07:30:12+00:00",
+  "notes": "母亲询问女儿不再征求意见，称呼、完整来信段、落款边界清楚。",
+  "issues": [],
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "af0b6159d4ff8c15c604b481d3e01ee019faec64556947c631af034a0b915bc4",
+    "afterFileSha256": "af0b6159d4ff8c15c604b481d3e01ee019faec64556947c631af034a0b915bc4",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "af0b6159d4ff8c15c604b481d3e01ee019faec64556947c631af034a0b915bc4",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..2] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "母亲询问女儿不再征求意见，称呼、完整来信段、落款边界清楚。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/9272d8c9bc84c238232a4dae34140b1294acb68aed1dda8cbf350bccebce6ccd.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "06bb01878ea9dc3e4d2bbcdee7c0c5917771433cfe8401b10e4c13c9ffdecbc8"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "9272d8c9bc84c238232a4dae34140b1294acb68aed1dda8cbf350bccebce6ccd"
+}

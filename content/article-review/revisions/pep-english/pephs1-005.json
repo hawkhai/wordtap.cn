@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "course": "pep-english",
+  "articleId": "pephs1-005",
+  "beforeDisplaySha256": "9f1e4d1f34dc32f119c164c02351b7a4da38dd5780e0495b4f9e0dcfd78470a2",
+  "afterDisplaySha256": "9f1e4d1f34dc32f119c164c02351b7a4da38dd5780e0495b4f9e0dcfd78470a2",
+  "baselineDisplay": {
+    "title": "Steve Jobs",
+    "section": "Project",
+    "text": "Isaacson interviewed Steve Jobs over forty times, and interviewed hundreds of Jobs’ friends, relatives, and rivals to sum up Jobs’ remarkable life. The result is an interesting story of a man driven to succeed and driven to make perfect products.",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Isaacson interviewed Steve Jobs over forty times, and interviewed hundreds of Jobs’ friends, relatives, and rivals to sum up Jobs’ remarkable life. The result is an interesting story of a man driven to succeed and driven to make perfect products."
+      }
+    ]
+  },
+  "display": {
+    "title": "Steve Jobs",
+    "section": "Project",
+    "text": "Isaacson interviewed Steve Jobs over forty times, and interviewed hundreds of Jobs’ friends, relatives, and rivals to sum up Jobs’ remarkable life. The result is an interesting story of a man driven to succeed and driven to make perfect products.",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Isaacson interviewed Steve Jobs over forty times, and interviewed hundreds of Jobs’ friends, relatives, and rivals to sum up Jobs’ remarkable life. The result is an interesting story of a man driven to succeed and driven to make perfect products."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "path": "content/article-review/history/1cfd226ca0ee81add1f73ced8c57da29e9baccf554a6991573fc4b97f5a5759c.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "3b7d17d45d536116fa7a0376d987d4961f9c3b618647dcfce35abfc35e84f4e8"
+    }
+  ],
+  "corrections": [],
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "reviewer": "Codex",
+  "reviewedAt": "2026-10-07T07:32:24+00:00",
+  "notes": "乔布斯传简介把访谈依据与人物评价保持同一短段。",
+  "issues": [],
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "9643361937b78a8130f5d25238473780e587540a67cd745ac5c208c931a5e096",
+    "afterFileSha256": "9643361937b78a8130f5d25238473780e587540a67cd745ac5c208c931a5e096",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "9643361937b78a8130f5d25238473780e587540a67cd745ac5c208c931a5e096",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..0] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "乔布斯传简介把访谈依据与人物评价保持同一短段。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/1cfd226ca0ee81add1f73ced8c57da29e9baccf554a6991573fc4b97f5a5759c.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "3b7d17d45d536116fa7a0376d987d4961f9c3b618647dcfce35abfc35e84f4e8"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "1cfd226ca0ee81add1f73ced8c57da29e9baccf554a6991573fc4b97f5a5759c"
+}

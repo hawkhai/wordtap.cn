@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "course": "pep-english",
+  "articleId": "pephs4-009",
+  "beforeDisplaySha256": "87a6bf755cbe8fd6ef409b3ff6a4aa47f404c46a9acae84a2bc5612703392bd4",
+  "afterDisplaySha256": "87a6bf755cbe8fd6ef409b3ff6a4aa47f404c46a9acae84a2bc5612703392bd4",
+  "baselineDisplay": {
+    "title": "World Oceans Day",
+    "section": "Project",
+    "text": "World Oceans Day takes place on 8 June every year. It is now celebrated in over 100 countries with hundreds of special events broadcast across the globe. The day is marked in a variety of ways, including the launching of new campaigns and initiatives, and holding special events, all working to advance ocean conservation and education.\nYoung people are an important part of the project. World Oceans Day provides them with a platform where they can express their concerns and share their ideas.\nEach year, World Oceans Day has a theme for the campaigns and events on that day. For example, in 2016 and 2017 the themes were “Healthy oceans, healthy planet” and “Our oceans, our future”, respectively.",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "World Oceans Day takes place on 8 June every year. It is now celebrated in over 100 countries with hundreds of special events broadcast across the globe. The day is marked in a variety of ways, including the launching of new campaigns and initiatives, and holding special events, all working to advance ocean conservation and education."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Young people are an important part of the project. World Oceans Day provides them with a platform where they can express their concerns and share their ideas."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Each year, World Oceans Day has a theme for the campaigns and events on that day. For example, in 2016 and 2017 the themes were “Healthy oceans, healthy planet” and “Our oceans, our future”, respectively."
+      }
+    ]
+  },
+  "display": {
+    "title": "World Oceans Day",
+    "section": "Project",
+    "text": "World Oceans Day takes place on 8 June every year. It is now celebrated in over 100 countries with hundreds of special events broadcast across the globe. The day is marked in a variety of ways, including the launching of new campaigns and initiatives, and holding special events, all working to advance ocean conservation and education.\nYoung people are an important part of the project. World Oceans Day provides them with a platform where they can express their concerns and share their ideas.\nEach year, World Oceans Day has a theme for the campaigns and events on that day. For example, in 2016 and 2017 the themes were “Healthy oceans, healthy planet” and “Our oceans, our future”, respectively.",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "World Oceans Day takes place on 8 June every year. It is now celebrated in over 100 countries with hundreds of special events broadcast across the globe. The day is marked in a variety of ways, including the launching of new campaigns and initiatives, and holding special events, all working to advance ocean conservation and education."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Young people are an important part of the project. World Oceans Day provides them with a platform where they can express their concerns and share their ideas."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Each year, World Oceans Day has a theme for the campaigns and events on that day. For example, in 2016 and 2017 the themes were “Healthy oceans, healthy planet” and “Our oceans, our future”, respectively."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "path": "content/article-review/history/19fcde21fdbe762500e46c09c3623be6f8cbead7ee5c860068112696ba746c77.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "463f573d3893714d0072947b67221a22b359469f6b35f6f4beb3c688d00f0302"
+    }
+  ],
+  "corrections": [],
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "reviewer": "Codex",
+  "reviewedAt": "2026-10-07T07:35:55+00:00",
+  "notes": "世界海洋日三段依活动概况、青年参与、年度主题组织，保留。",
+  "issues": [],
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "3d2911561008b16b3270f1fd14d55466017e428f76782a963b8a80ba3b4c36f1",
+    "afterFileSha256": "3d2911561008b16b3270f1fd14d55466017e428f76782a963b8a80ba3b4c36f1",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "3d2911561008b16b3270f1fd14d55466017e428f76782a963b8a80ba3b4c36f1",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..2] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "世界海洋日三段依活动概况、青年参与、年度主题组织，保留。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/19fcde21fdbe762500e46c09c3623be6f8cbead7ee5c860068112696ba746c77.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "463f573d3893714d0072947b67221a22b359469f6b35f6f4beb3c688d00f0302"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "19fcde21fdbe762500e46c09c3623be6f8cbead7ee5c860068112696ba746c77"
+}

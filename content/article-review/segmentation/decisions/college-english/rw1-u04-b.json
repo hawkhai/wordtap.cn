@@ -1,0 +1,21 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "791a93e0188efe5e0c7f24814c1db3c7285ac483c326159c404bc49f5b6beecd",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "完整 title、blocks[0..6]及完全相同的text；正文及内嵌中文、引语、对话和列举均已逐项通读；无改动输出按全文再次复核。",
+  "notes": "全文及未改动输出复核：Tommy即时联系、寻找失童报道、Jenny与Ryan对社交媒体的矛盾反应、咖啡店观察和工具观七段逻辑完整；同段采访引语属于论证例子，未机械拆句。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/262acd987704075725beceb39c1c285abe0be26eaa472e71874562a7644265ff.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "70076601d51bba8bda80ccf947a8ebd98b6a3dc0d9f7566dc055c0a16d096686"
+    }
+  ]
+}

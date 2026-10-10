@@ -1,0 +1,22 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "3265b7301b7d93a3fafb8c92d4e0ed687746cfc3d0347e6d9b038c7431199154",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title；全文 blocks[0..2] 与对应 text；现有正文/对话/题干逐块通读复核。",
+  "notes": "Sarah乡村音乐三段为个人改变、音乐精神、Nashville梦想，长引语仍归本段。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "blockEdits": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/504645e460cc4ff664d6a833ff56f527a30cf087c0eb8dce014d2d1d29b184a2.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "59fe08f6a1fc0f21596cd8614a258bb7c916c829249f45bad2aa90985767adbe"
+    }
+  ]
+}

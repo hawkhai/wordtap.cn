@@ -1,0 +1,21 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "0636ae60856caae5b8c7edc0554cf4d9f7fa75510781ace092b87acc38740bc0",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title；全文 blocks[0..8] 与对应 text；现有正文/对话/题干逐块通读复核。",
+  "notes": "感恩定义、三组小标题与各条谚语引文均为独立项目，保留标题与引文边界。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/dfd230de13d4ad4d082184bb7ee60f1c3431bfc13f4b0154bc52a7cbf78e2cb8.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "412475bca38fbc16cbf5a63d61ca92c5b4aa4e9a315a0d46a08012b18c02d1bd"
+    }
+  ]
+}

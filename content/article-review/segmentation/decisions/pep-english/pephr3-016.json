@@ -1,0 +1,21 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "6c5f697a76919ff4bd303ede69bb99738768a8ed00f3adc7dfc1c1e77ff394d3",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title；全文 blocks[0..4] 与对应 text；现有正文/对话/题干逐块通读复核。",
+  "notes": "太空探索论证按争议引入、粮食、技术、资源与移居、结论五段，保留论点和例证的完整段。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/d12db37215368224dc55df12ba9ad81f803fc8e65e71befdea69937120c608e7.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "e0a013224389270014078d2b5c95bc681359a15285b03d012aa9cf820ac795dd"
+    }
+  ]
+}

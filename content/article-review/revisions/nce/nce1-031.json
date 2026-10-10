@@ -1,0 +1,221 @@
+{
+  "schemaVersion": 1,
+  "course": "nce",
+  "articleId": "nce1-031",
+  "beforeDisplaySha256": "fcbe1aa580c136451fb80351deece18ff6d233d0b407a84ea0b3adda8fe0e684",
+  "afterDisplaySha256": "cc539bd81ed3091389e58daba6a24ca4715edef7fb54ecf45814b3ce35d443f6",
+  "baselineDisplay": {
+    "title": "Where's Sally",
+    "titleZh": "莎莉在哪里？",
+    "question": "Is the cat climbing the tree?",
+    "questionZh": "那只猫在爬树吗？",
+    "text": "Is the cat climbing the tree?\n\nWhere's Sally, Jack?\nShe's in the garden, Jean.\nWhat's she doing?\nShe's sitting under the tree.\nIs Tim in the garden, too?\nYes, he is.\nHe's climbing the tree.\nI beg your pardon?\nWho's climbing the tree?\nTim is.\nWhat about the dog?\nThe dog's in the garden, too.\nIt's running across the grass.\nIt's running after a cat.",
+    "bodyText": "Where's Sally, Jack?\nShe's in the garden, Jean.\nWhat's she doing?\nShe's sitting under the tree.\nIs Tim in the garden, too?\nYes, he is.\nHe's climbing the tree.\nI beg your pardon?\nWho's climbing the tree?\nTim is.\nWhat about the dog?\nThe dog's in the garden, too.\nIt's running across the grass.\nIt's running after a cat.",
+    "bodyTextZh": "莎莉在哪里，杰克？\n她在花园里，琼。\n她在做什么？\n她正坐在树下。\n蒂姆也在花园里吗？\n是的，他在。\n他正在爬树。\n什么？请再说一遍。\n谁在爬树？\n是蒂姆。\n那狗呢？\n狗也在花园里。\n它正在穿过草地。\n它正在追一只猫。",
+    "sentences": [
+      {
+        "en": "Lesson 31",
+        "zh": "第 31 课"
+      },
+      {
+        "en": "Where's Sally?",
+        "zh": "莎莉在哪里？"
+      },
+      {
+        "en": "Listen to the tape then answer this question.",
+        "zh": "先听这段录音，然后回答这个问题。"
+      },
+      {
+        "en": "Is the cat climbing the tree?",
+        "zh": "那只猫在爬树吗？"
+      },
+      {
+        "en": "Where's Sally, Jack?",
+        "zh": "莎莉在哪里，杰克？"
+      },
+      {
+        "en": "She's in the garden, Jean.",
+        "zh": "她在花园里，琼。"
+      },
+      {
+        "en": "What's she doing?",
+        "zh": "她在做什么？"
+      },
+      {
+        "en": "She's sitting under the tree.",
+        "zh": "她正坐在树下。"
+      },
+      {
+        "en": "Is Tim in the garden, too?",
+        "zh": "蒂姆也在花园里吗？"
+      },
+      {
+        "en": "Yes, he is.",
+        "zh": "是的，他在。"
+      },
+      {
+        "en": "He's climbing the tree.",
+        "zh": "他正在爬树。"
+      },
+      {
+        "en": "I beg your pardon?",
+        "zh": "什么？请再说一遍。"
+      },
+      {
+        "en": "Who's climbing the tree?",
+        "zh": "谁在爬树？"
+      },
+      {
+        "en": "Tim is.",
+        "zh": "是蒂姆。"
+      },
+      {
+        "en": "What about the dog?",
+        "zh": "那狗呢？"
+      },
+      {
+        "en": "The dog's in the garden, too.",
+        "zh": "狗也在花园里。"
+      },
+      {
+        "en": "It's running across the grass.",
+        "zh": "它正在穿过草地。"
+      },
+      {
+        "en": "It's running after a cat.",
+        "zh": "它正在追一只猫。"
+      }
+    ]
+  },
+  "display": {
+    "title": "Where's Sally",
+    "titleZh": "莎莉在哪里？",
+    "question": "Is the cat climbing the tree?",
+    "questionZh": "那只猫在爬树吗？",
+    "text": "Is the cat climbing the tree?\n\nWhere's Sally, Jack?\nShe's in the garden, Jean.\nWhat's she doing?\nShe's sitting under the tree.\nIs Tim in the garden, too?\nYes, he is. He's climbing the tree.\nI beg your pardon? Who's climbing the tree?\nTim is.\nWhat about the dog?\nThe dog's in the garden, too. It's running across the grass. It's running after a cat.",
+    "bodyText": "Where's Sally, Jack?\nShe's in the garden, Jean.\nWhat's she doing?\nShe's sitting under the tree.\nIs Tim in the garden, too?\nYes, he is. He's climbing the tree.\nI beg your pardon? Who's climbing the tree?\nTim is.\nWhat about the dog?\nThe dog's in the garden, too. It's running across the grass. It's running after a cat.",
+    "bodyTextZh": "莎莉在哪里，杰克？\n她在花园里，琼。\n她在做什么？\n她正坐在树下。\n蒂姆也在花园里吗？\n是的，他在。他正在爬树。\n什么？请再说一遍。谁在爬树？\n是蒂姆。\n那狗呢？\n狗也在花园里。它正在穿过草地。它正在追一只猫。",
+    "sentences": [
+      {
+        "en": "Lesson 31",
+        "zh": "第 31 课"
+      },
+      {
+        "en": "Where's Sally?",
+        "zh": "莎莉在哪里？"
+      },
+      {
+        "en": "Listen to the tape then answer this question.",
+        "zh": "先听这段录音，然后回答这个问题。"
+      },
+      {
+        "en": "Is the cat climbing the tree?",
+        "zh": "那只猫在爬树吗？"
+      },
+      {
+        "en": "Where's Sally, Jack?",
+        "zh": "莎莉在哪里，杰克？"
+      },
+      {
+        "en": "She's in the garden, Jean.",
+        "zh": "她在花园里，琼。"
+      },
+      {
+        "en": "What's she doing?",
+        "zh": "她在做什么？"
+      },
+      {
+        "en": "She's sitting under the tree.",
+        "zh": "她正坐在树下。"
+      },
+      {
+        "en": "Is Tim in the garden, too?",
+        "zh": "蒂姆也在花园里吗？"
+      },
+      {
+        "en": "Yes, he is.",
+        "zh": "是的，他在。"
+      },
+      {
+        "en": "He's climbing the tree.",
+        "zh": "他正在爬树。"
+      },
+      {
+        "en": "I beg your pardon?",
+        "zh": "什么？请再说一遍。"
+      },
+      {
+        "en": "Who's climbing the tree?",
+        "zh": "谁在爬树？"
+      },
+      {
+        "en": "Tim is.",
+        "zh": "是蒂姆。"
+      },
+      {
+        "en": "What about the dog?",
+        "zh": "那狗呢？"
+      },
+      {
+        "en": "The dog's in the garden, too.",
+        "zh": "狗也在花园里。"
+      },
+      {
+        "en": "It's running across the grass.",
+        "zh": "它正在穿过草地。"
+      },
+      {
+        "en": "It's running after a cat.",
+        "zh": "它正在追一只猫。"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "path": "content/article-review/history/fa0574f33e2d90abf0c437caebc4bb5ab8216c0c40f2aaf125de56a59f181349.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "ef1997d4e17342f4ea63fb7580a13be112b5cf580bb7c37a0733d37a8ffca25c"
+    }
+  ],
+  "corrections": [],
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "reviewer": "Codex",
+  "reviewedAt": "2026-10-07T07:39:39+00:00",
+  "notes": "花园问答；肯定蒂姆在花园并解释爬树、请求重述和问谁爬树、狗在花园追猫各自同轮合并。 text与bodyText同步；sentences对象及时间、角色、索引原样保留。",
+  "issues": [],
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "9457087af8e8221effd160aa18d9d23dc3c774dfbed0b1e68f75edf1d36fc1b4",
+    "afterFileSha256": "a77c6a0cffc2070cb5c686457e50cd70383b52e2e5866f5bddeec2e2b840dd7c",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "9457087af8e8221effd160aa18d9d23dc3c774dfbed0b1e68f75edf1d36fc1b4",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title/titleZh、question/questionZh、bodyText全部14行、bodyTextZh全部14行及sentences[0..17]的完整文字；重复正文与字幕文本逐字比对，非正文字幕另读。操作在内存应用并validate_layout_change，修复后的双语全文重新通读。",
+      "notes": "花园问答；肯定蒂姆在花园并解释爬树、请求重述和问谁爬树、狗在花园追猫各自同轮合并。 text与bodyText同步；sentences对象及时间、角色、索引原样保留。",
+      "issues": [],
+      "display": {
+        "text": "Is the cat climbing the tree?\n\nWhere's Sally, Jack?\nShe's in the garden, Jean.\nWhat's she doing?\nShe's sitting under the tree.\nIs Tim in the garden, too?\nYes, he is. He's climbing the tree.\nI beg your pardon? Who's climbing the tree?\nTim is.\nWhat about the dog?\nThe dog's in the garden, too. It's running across the grass. It's running after a cat.",
+        "bodyText": "Where's Sally, Jack?\nShe's in the garden, Jean.\nWhat's she doing?\nShe's sitting under the tree.\nIs Tim in the garden, too?\nYes, he is. He's climbing the tree.\nI beg your pardon? Who's climbing the tree?\nTim is.\nWhat about the dog?\nThe dog's in the garden, too. It's running across the grass. It's running after a cat.",
+        "bodyTextZh": "莎莉在哪里，杰克？\n她在花园里，琼。\n她在做什么？\n她正坐在树下。\n蒂姆也在花园里吗？\n是的，他在。他正在爬树。\n什么？请再说一遍。谁在爬树？\n是蒂姆。\n那狗呢？\n狗也在花园里。它正在穿过草地。它正在追一只猫。"
+      },
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/fa0574f33e2d90abf0c437caebc4bb5ab8216c0c40f2aaf125de56a59f181349.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "ef1997d4e17342f4ea63fb7580a13be112b5cf580bb7c37a0733d37a8ffca25c"
+        }
+      ]
+    }
+  },
+  "status": "passed_edited",
+  "previousRevisionSha256": "fa0574f33e2d90abf0c437caebc4bb5ab8216c0c40f2aaf125de56a59f181349"
+}

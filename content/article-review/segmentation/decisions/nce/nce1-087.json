@@ -1,0 +1,26 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "dbe1f4a7260c3daecec356e888191da46dac74d6394701f070de28378c730ffa",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title/titleZh、question/questionZh、bodyText全部18行、bodyTextZh全部18行及sentences[0..21]的完整文字；重复正文与字幕文本逐字比对，非正文字幕另读。操作在内存应用并validate_layout_change，修复后的双语全文重新通读。",
+  "notes": "维修撞毁汽车；不知道并问车牌、仍在修并邀看车、撞灯柱并问能否修复及建议换车各自合轮。 text与bodyText同步；sentences对象及时间、角色、索引原样保留。",
+  "issues": [],
+  "display": {
+    "text": "Can the mechanics repair Mr. Wood's car?\n\nIs my car ready yet?\nI don't know, sir. What's the number of your car?\nIt's LFZ 312 G.\nWhen did you bring it to us?\nI brought it here three days ago.\nAh yes, I remember now.\nHave your mechanics finished yet?\nNo, they're still working on it. Let's go into the garage and have a look at it.\nIsn't that your car?\nWell, it was my car.\nDidn't you have a crash?\nThat's right. I drove it into a lamp-post. Can your mechanics repair it?\nWell, they're trying to repair it, sir. But to tell you the truth, you need a new car!",
+    "bodyText": "Is my car ready yet?\nI don't know, sir. What's the number of your car?\nIt's LFZ 312 G.\nWhen did you bring it to us?\nI brought it here three days ago.\nAh yes, I remember now.\nHave your mechanics finished yet?\nNo, they're still working on it. Let's go into the garage and have a look at it.\nIsn't that your car?\nWell, it was my car.\nDidn't you have a crash?\nThat's right. I drove it into a lamp-post. Can your mechanics repair it?\nWell, they're trying to repair it, sir. But to tell you the truth, you need a new car!",
+    "bodyTextZh": "我的车准备好了吗？\n我不知道，先生。您的车车牌号是多少？\n车牌号是 LFZ 312 G。\n您是什么时候把车送到我们这里的？\n我三天前把车送到这里的。\n啊，对了，我现在想起来了。\n您的修车师傅们修好了吗？\n不，他们还在修呢。我们进去车库看看吧。\n那不是你的车吗？\n嗯，那辆车是我的。\n你不是出车祸了吗？\n没错。我把车撞到路灯柱上了。你们的机械师能修理它吗？\n嗯，他们正在尝试修理它，先生。但说实话，你真的需要一辆新车了！"
+  },
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/ed901080d053a66b28052ce266e88a3a2d57ca4c4886508c09e53c17885bf8e4.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "6a0a2bd236710fac4a4bf676eb6f326535dab338bf9aca6bc0ea7b4e4449a0d3"
+    }
+  ]
+}

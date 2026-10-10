@@ -1,0 +1,152 @@
+{
+  "schemaVersion": 1,
+  "course": "pep-english",
+  "articleId": "pepj9-001",
+  "beforeDisplaySha256": "7c92a653f7dcfd84a013c058a6ae7e02b83fae648ba77d482dd64445523e0519",
+  "afterDisplaySha256": "f3610207fd09a102ffb33722e87fe8832367c2c81fd379c98a056e58f245f9f4",
+  "baselineDisplay": {
+    "title": "Jack Asks Annie for Reading Advice",
+    "section": "Section A",
+    "text": "Jack: Annie, I'm a little nervous. I have to finish reading a book and give a report next Monday.\nAnnie: That doesn't sound too bad.\nJack: But I'm a very slow reader.\nAnnie: Just read quickly to get the main ideas at first. Don't read word by word. Read word groups.\nJack: But I don't understand many of the words. I have to use a dictionary.\nAnnie: Try to guess a word's meaning by reading the sentences before and after it. You probably understand more than you think.\nJack: That sounds difficult!\nAnnie: Well, be patient. It takes time. You can become better by reading something you enjoy every day. The more you read, the faster you'll be.",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Jack: Annie, I'm a little nervous. I have to finish reading a book and give a report next Monday.\nAnnie: That doesn't sound too bad.\nJack: But I'm a very slow reader.\nAnnie: Just read quickly to get the main ideas at first. Don't read word by word. Read word groups.\nJack: But I don't understand many of the words. I have to use a dictionary.\nAnnie: Try to guess a word's meaning by reading the sentences before and after it. You probably understand more than you think.\nJack: That sounds difficult!\nAnnie: Well, be patient. It takes time. You can become better by reading something you enjoy every day. The more you read, the faster you'll be."
+      }
+    ]
+  },
+  "display": {
+    "title": "Jack Asks Annie for Reading Advice",
+    "section": "Section A",
+    "text": "Jack: Annie, I'm a little nervous. I have to finish reading a book and give a report next Monday.\nAnnie: That doesn't sound too bad.\nJack: But I'm a very slow reader.\nAnnie: Just read quickly to get the main ideas at first. Don't read word by word. Read word groups.\nJack: But I don't understand many of the words. I have to use a dictionary.\nAnnie: Try to guess a word's meaning by reading the sentences before and after it. You probably understand more than you think.\nJack: That sounds difficult!\nAnnie: Well, be patient. It takes time. You can become better by reading something you enjoy every day. The more you read, the faster you'll be.",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Jack: Annie, I'm a little nervous. I have to finish reading a book and give a report next Monday."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Annie: That doesn't sound too bad."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Jack: But I'm a very slow reader."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Annie: Just read quickly to get the main ideas at first. Don't read word by word. Read word groups."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Jack: But I don't understand many of the words. I have to use a dictionary."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Annie: Try to guess a word's meaning by reading the sentences before and after it. You probably understand more than you think."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Jack: That sounds difficult!"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Annie: Well, be patient. It takes time. You can become better by reading something you enjoy every day. The more you read, the faster you'll be."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "path": "content/article-review/history/dc7c461726982218eac5bc9b11ffc0ef964a15539572a93528def4ccdcee197d.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "7bf1142a9d7bcd0738cd4a4b43f67dde1708c89693103783c14b25cb2f52697c"
+    }
+  ],
+  "corrections": [],
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "reviewer": "Codex",
+  "reviewedAt": "2026-10-07T07:42:01+00:00",
+  "notes": "Jack向Annie求阅读建议八轮对话拆分，词群阅读猜词耐心建议各轮保持完整。",
+  "issues": [],
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "d6e2eb185c281f5a05259e34e62a0e9b0eb25bee3ec69d4033e633daad39b109",
+    "afterFileSha256": "7cca2149b39ad01ee6c09983d70cdef2d56c4751ecc94499bac8b684e8393da2",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "d6e2eb185c281f5a05259e34e62a0e9b0eb25bee3ec69d4033e633daad39b109",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..0] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "Jack向Annie求阅读建议八轮对话拆分，词群阅读猜词耐心建议各轮保持完整。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [
+        {
+          "index": 0,
+          "before": [
+            "Jack: Annie, I'm a little nervous. I have to finish reading a book and give a report next Monday.\nAnnie: That doesn't sound too bad.\nJack: But I'm a very slow reader.\nAnnie: Just read quickly to get the main ideas at first. Don't read word by word. Read word groups.\nJack: But I don't understand many of the words. I have to use a dictionary.\nAnnie: Try to guess a word's meaning by reading the sentences before and after it. You probably understand more than you think.\nJack: That sounds difficult!\nAnnie: Well, be patient. It takes time. You can become better by reading something you enjoy every day. The more you read, the faster you'll be."
+          ],
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Jack: Annie, I'm a little nervous. I have to finish reading a book and give a report next Monday."
+            },
+            {
+              "type": "paragraph",
+              "text": "Annie: That doesn't sound too bad."
+            },
+            {
+              "type": "paragraph",
+              "text": "Jack: But I'm a very slow reader."
+            },
+            {
+              "type": "paragraph",
+              "text": "Annie: Just read quickly to get the main ideas at first. Don't read word by word. Read word groups."
+            },
+            {
+              "type": "paragraph",
+              "text": "Jack: But I don't understand many of the words. I have to use a dictionary."
+            },
+            {
+              "type": "paragraph",
+              "text": "Annie: Try to guess a word's meaning by reading the sentences before and after it. You probably understand more than you think."
+            },
+            {
+              "type": "paragraph",
+              "text": "Jack: That sounds difficult!"
+            },
+            {
+              "type": "paragraph",
+              "text": "Annie: Well, be patient. It takes time. You can become better by reading something you enjoy every day. The more you read, the faster you'll be."
+            }
+          ],
+          "reason": "每行具有明确的发言人及完整轮次，分块保留各对话轮次。"
+        }
+      ],
+      "blockEdits": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/dc7c461726982218eac5bc9b11ffc0ef964a15539572a93528def4ccdcee197d.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "7bf1142a9d7bcd0738cd4a4b43f67dde1708c89693103783c14b25cb2f52697c"
+        }
+      ]
+    }
+  },
+  "status": "passed_edited",
+  "previousRevisionSha256": "dc7c461726982218eac5bc9b11ffc0ef964a15539572a93528def4ccdcee197d"
+}

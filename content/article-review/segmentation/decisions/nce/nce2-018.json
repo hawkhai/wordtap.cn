@@ -1,0 +1,26 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "eab52aa071ca6dd3405fd80278915de4f8eca5c9ec26f12434474052de376e75",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title/titleZh、question/questionZh、bodyText全部9行、bodyTextZh全部9行及sentences[0..11]的完整文字；重复正文与字幕文本逐字比对，非正文字幕另读。操作在内存应用并validate_layout_change，修复后的双语全文重新通读。",
+  "notes": "酒吧失包；寻包、店主问候、取回包与解释狗的习惯各成段，作者无法付账回答单独保留。 text与bodyText同步；sentences对象及时间、角色、索引原样保留。",
+  "issues": [],
+  "display": {
+    "text": "What had happened to the writer's bag?\n\nAfter I had had lunch at a village pub, I looked for my bag. I had left it on a chair beside the door and now it wasn't there!\nAs I was looking for it, the landlord came in. 'Did you have a good meal?' he asked.\n'Yes, thank you,' I answered, 'but I can't pay the bill. I haven't got my bag.'\nThe landlord smiled and immediately went out. In a few minutes he returned with my bag and gave it back to me. 'I'm very sorry,' he said. 'My dog had taken it into the garden. He often does this!'",
+    "bodyText": "After I had had lunch at a village pub, I looked for my bag. I had left it on a chair beside the door and now it wasn't there!\nAs I was looking for it, the landlord came in. 'Did you have a good meal?' he asked.\n'Yes, thank you,' I answered, 'but I can't pay the bill. I haven't got my bag.'\nThe landlord smiled and immediately went out. In a few minutes he returned with my bag and gave it back to me. 'I'm very sorry,' he said. 'My dog had taken it into the garden. He often does this!'",
+    "bodyTextZh": "在一家乡村酒吧吃过午饭后，我开始寻找我的包。我之前把它放在门旁边的椅子上，但现在它不见了！\n我正在找包的时候，店主进来了。“你吃得怎么样？”他问道。\n“是的，谢谢您，”我回答道，“但我付不了账单。我的包不见了。”\n店主笑了笑，马上就出去了。几分钟后，他拿着我的包回来了，并把它交还给了我。“我非常抱歉，”他说。“我的狗把它叼到花园里去了。它老是干这种事！”"
+  },
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/af5895a2ec32b6700c4895734c64dbfaeda514bd860160ef268266aa13889bb5.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "7dfdd31fa5a56afd8fb6eeeb2c1bb331f9c33860184e99c9f0a2ddf4de5433e7"
+    }
+  ]
+}

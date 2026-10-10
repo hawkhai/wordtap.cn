@@ -1,0 +1,26 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "9746d41eddb167bbf5cf56f7cf57f43cc86da18a5860cce09e8919e4859142ea",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title/titleZh、question/questionZh、bodyText全部10行、bodyTextZh全部10行及sentences[0..13]的完整文字；重复正文与字幕文本逐字比对，非正文字幕另读。操作在内存应用并validate_layout_change，修复后的双语全文重新通读。",
+  "notes": "树林垃圾；风景小镇介绍、保洁要求落空、散步见垃圾三组自然段，末尾垃圾中的告示独立形成讽刺收束。 text与bodyText同步；sentences对象及时间、角色、索引原样保留。",
+  "issues": [],
+  "display": {
+    "text": "What was so funny about the words on the sign?\n\nI live in a very old town which is surrounded by beautiful woods. It is a famous beauty spot. On Sundays, hundreds of people come from the city to see our town and to walk through the woods.\nVisitors have been asked to keep the woods clean and tidy. Litter baskets have been placed under the trees, but people still throw their rubbish everywhere.\nLast Wednesday, I went for a walk in the woods. What I saw made me very sad. I counted seven old cars and three old refrigerators. The little baskets were empty and the ground was covered with pieces of paper, cigarette ends, old tyres, empty bottles and rusty tins.\nAmong the rubbish, I found a sign which said, 'Anyone who leaves litter in these woods will be prosecuted!'",
+    "bodyText": "I live in a very old town which is surrounded by beautiful woods. It is a famous beauty spot. On Sundays, hundreds of people come from the city to see our town and to walk through the woods.\nVisitors have been asked to keep the woods clean and tidy. Litter baskets have been placed under the trees, but people still throw their rubbish everywhere.\nLast Wednesday, I went for a walk in the woods. What I saw made me very sad. I counted seven old cars and three old refrigerators. The little baskets were empty and the ground was covered with pieces of paper, cigarette ends, old tyres, empty bottles and rusty tins.\nAmong the rubbish, I found a sign which said, 'Anyone who leaves litter in these woods will be prosecuted!'",
+    "bodyTextZh": "我住在一个非常古老的城镇里，这个城镇被美丽的树林环绕着。这是一个著名的风景区。每到周日，都会有数百人从城里来到我们这个小镇，然后漫步在树林里。\n游客们被要求保持树林的整洁。虽然树底下已经放置了垃圾篓，人们仍然把垃圾扔得到处都是。\n上周三，我去树林里散步了。我所看到的一切让我感到非常难过。我数了七辆旧汽车和三台旧冰箱。那些小篮子都是空的，地上到处是纸片、烟头、旧轮胎、空瓶子以及生锈的铁罐。\n在那些垃圾中，我发现了一张告示，上面写着：“任何在这些树林里乱扔垃圾的人都将受到法律追究！”"
+  },
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/d64a22c234f2aabaf9fcbd1c42535e023f5637e50fc305fe2faaeed68114fe85.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "906f9bf812298ed3344f27e16556a92ce6248ee5a6bac640a47302cdcfe714f4"
+    }
+  ]
+}

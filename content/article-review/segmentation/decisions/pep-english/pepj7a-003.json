@@ -1,0 +1,22 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "8309c6cf04a4b2143e7d4634d14b32dd6a77cb5ed36797612974de3ae47887be",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title；全文 blocks[0..0] 与对应 text；现有正文/对话/题干逐块通读复核。",
+  "notes": "Mr. Cool服装促销连续问答式广告为同一完整销售段，商品价格语句不误作角色对话拆分。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "blockEdits": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/87f09311e5c00c4a610fdf4eae937f2e7d06aca11b2b327a8c96955c2e230bb5.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "ff5277738c3df046b4f9e9b5dc17ef6bf18125a164b5f9293962cc1924501e40"
+    }
+  ]
+}

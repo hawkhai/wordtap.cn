@@ -1,0 +1,21 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "35d7cbfbdaca28439aef2bf116ff1bbb960e3584e600ce11892a3075946acb67",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title；全文 blocks[0..0] 与对应 text；现有正文/对话/题干逐块通读复核。",
+  "notes": "考拉家园与造纸海报四句同一呼吁单元，保留完整段落。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/c3ebcdc3cc10358d1ecbefbf06cf58d4daea24a90babba5bb058cc449b4c7516.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "a74a16d5be6f9318f99918a97e43a8099b894ee61d5db7e941b03ef4ee4718a0"
+    }
+  ]
+}

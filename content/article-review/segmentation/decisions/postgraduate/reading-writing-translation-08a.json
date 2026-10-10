@@ -1,0 +1,21 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "91ee460c7bf59801e559917df62b4218162bb262143c512c2bf049e18fb3cade",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title与blocks[0..14]全文逐段阅读；text等于完整blocks连接。内存应用明确决定并验证后，复核输出blocks[0..14]全文与标题/引语/自然段边界。",
+  "notes": "15块完整阅读Of Ambition与Of Fortune两篇，Of Fortune已有独立subheading，雄心利用约束和命运归因的论述各自完整，古英语句法保留。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/0533cc34e722fc06d2e3da17833ab340158ca6ec2166eaec85508f3ce385ab84.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "374280b6a3ecc6f44f5a8d8534acc0fe75b4519b5f2831fbf849d0f8b298a7f7"
+    }
+  ]
+}

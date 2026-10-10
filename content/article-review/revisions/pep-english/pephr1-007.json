@@ -1,0 +1,84 @@
+{
+  "schemaVersion": 1,
+  "course": "pep-english",
+  "articleId": "pephr1-007",
+  "beforeDisplaySha256": "169c259c34d134047e29cd762fe735201fe7ad23ffef88385efeb7ad136b6109",
+  "afterDisplaySha256": "169c259c34d134047e29cd762fe735201fe7ad23ffef88385efeb7ad136b6109",
+  "baselineDisplay": {
+    "title": "Peru: Geography and History",
+    "section": "Reading and Thinking",
+    "text": "Peru is a country on the Pacific coast of South America with three main areas: narrow, dry, flat land running along the coast, the Andes Mountains, and the Amazon rainforest.\nIn the 1400s and 1500s, Peru was the centre of the powerful ancient Inca Empire. The Inca emperor lived in the now-famous site Machu Picchu. Spain took control of Peru in the 16th century and ruled until 1821. It is for this reason that Spanish is the main official language of Peru.",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Peru is a country on the Pacific coast of South America with three main areas: narrow, dry, flat land running along the coast, the Andes Mountains, and the Amazon rainforest."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "In the 1400s and 1500s, Peru was the centre of the powerful ancient Inca Empire. The Inca emperor lived in the now-famous site Machu Picchu. Spain took control of Peru in the 16th century and ruled until 1821. It is for this reason that Spanish is the main official language of Peru."
+      }
+    ]
+  },
+  "display": {
+    "title": "Peru: Geography and History",
+    "section": "Reading and Thinking",
+    "text": "Peru is a country on the Pacific coast of South America with three main areas: narrow, dry, flat land running along the coast, the Andes Mountains, and the Amazon rainforest.\nIn the 1400s and 1500s, Peru was the centre of the powerful ancient Inca Empire. The Inca emperor lived in the now-famous site Machu Picchu. Spain took control of Peru in the 16th century and ruled until 1821. It is for this reason that Spanish is the main official language of Peru.",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Peru is a country on the Pacific coast of South America with three main areas: narrow, dry, flat land running along the coast, the Andes Mountains, and the Amazon rainforest."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "In the 1400s and 1500s, Peru was the centre of the powerful ancient Inca Empire. The Inca emperor lived in the now-famous site Machu Picchu. Spain took control of Peru in the 16th century and ruled until 1821. It is for this reason that Spanish is the main official language of Peru."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "path": "content/article-review/history/bba0bc7348a18a45c99e033b8fe7fcbfe4349849fa7500d50f2c1b3e8fbddfe2.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "f0de5a11529645a5201baa26a7856abff1737d5b54eb2b162ad607854619bc57"
+    }
+  ],
+  "corrections": [],
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "reviewer": "Codex",
+  "reviewedAt": "2026-10-07T07:30:10+00:00",
+  "notes": "秘鲁地理与印加及西班牙历史各自为完整自然段，保持两段。",
+  "issues": [],
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "afb859c4abe06d663fc75007092ac76e4f34ceae28a4f2fb67160918800e18bb",
+    "afterFileSha256": "afb859c4abe06d663fc75007092ac76e4f34ceae28a4f2fb67160918800e18bb",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "afb859c4abe06d663fc75007092ac76e4f34ceae28a4f2fb67160918800e18bb",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..1] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "秘鲁地理与印加及西班牙历史各自为完整自然段，保持两段。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/bba0bc7348a18a45c99e033b8fe7fcbfe4349849fa7500d50f2c1b3e8fbddfe2.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "f0de5a11529645a5201baa26a7856abff1737d5b54eb2b162ad607854619bc57"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "bba0bc7348a18a45c99e033b8fe7fcbfe4349849fa7500d50f2c1b3e8fbddfe2"
+}

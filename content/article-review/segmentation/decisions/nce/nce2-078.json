@@ -1,0 +1,26 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "02fa0d147c80a024ac54de502bd862e33b4bd50c3fc579eadd0b9c205b4d9748",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title/titleZh、question/questionZh、bodyText全部13行、bodyTextZh全部13行及sentences[0..15]的完整文字；重复正文与字幕文本逐字比对，非正文字幕另读。操作在内存应用并validate_layout_change，修复后的双语全文重新通读。",
+  "notes": "戒烟一周；最后一支决心、戒断与朋友调侃、聚会复吸、朋友屡次戒烟笑话四段。 text与bodyText同步；sentences对象及时间、角色、索引原样保留。",
+  "issues": [],
+  "display": {
+    "text": "For how long did the writer give up smoking?\n\nAfter reading an article entitled 'Cigarette Smoking and Your Health' I lit a cigarette to calm my nerves. I smoked with concentration and pleasure as I was sure that this would be my last cigarette.\nFor a whole week I did not smoke at all and during this time my wife suffered terribly. I had all the usual symptoms of someone giving up smoking: a bad temper and an enormous appetite. My friends kept on offering me cigarettes and cigars. They made no effort to hide their amusement whenever I produced a packet of sweets from my pocket.\nAfter seven days of this I went to a party. Everybody around me was smoking and I felt extremely uncomfortable. When my old friend Brian urged me to accept a cigarette, it was more than I could bear. I took one guiltily, lit it and smoked with satisfaction. My wife was delighted that things had returned to normal once more.\nAnyway, as Brian pointed out, it is the easiest thing in the world to give up smoking. He himself has done it lots of times!",
+    "bodyText": "After reading an article entitled 'Cigarette Smoking and Your Health' I lit a cigarette to calm my nerves. I smoked with concentration and pleasure as I was sure that this would be my last cigarette.\nFor a whole week I did not smoke at all and during this time my wife suffered terribly. I had all the usual symptoms of someone giving up smoking: a bad temper and an enormous appetite. My friends kept on offering me cigarettes and cigars. They made no effort to hide their amusement whenever I produced a packet of sweets from my pocket.\nAfter seven days of this I went to a party. Everybody around me was smoking and I felt extremely uncomfortable. When my old friend Brian urged me to accept a cigarette, it was more than I could bear. I took one guiltily, lit it and smoked with satisfaction. My wife was delighted that things had returned to normal once more.\nAnyway, as Brian pointed out, it is the easiest thing in the world to give up smoking. He himself has done it lots of times!",
+    "bodyTextZh": "在读完一篇题为《吸烟与健康》的文章后，我点燃了一支烟来缓解自己的紧张情绪。我专注而愉悦地抽着这支烟，因为我知道这将是我的最后一支烟了。\n整整一个星期里，我都没有抽烟；而在这期间，我的妻子却承受了极大的痛苦。我出现了所有典型的戒烟后症状：脾气变得暴躁，食欲变得异常旺盛。我的朋友们一直不停地给我提供香烟和雪茄。每当我从口袋里掏出一包糖果时，他们总是毫不掩饰自己的好笑。\n这样过了七天之后，我去参加了一个聚会。我周围的每个人都在抽烟，这让我感到非常不舒服。当我的老朋友布莱恩坚持要我抽一支烟时，我真的再也无法忍受了。我带着一丝内疚感拿了一支烟，点燃它后，心满意足地抽了起来。我的妻子很高兴，因为一切终于恢复了正常。\n不管怎样，正如布莱恩指出的那样，戒烟是世界上最容易的事情。他自己也做过很多次了！"
+  },
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/95394795cb3cc7e288c5107b1f9993004036d62700392c9c86cb82325330454d.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "98776404b6d0aedf3b11b4cfad123c61cc5c830864ee19036901c1e5abeb9f77"
+    }
+  ]
+}

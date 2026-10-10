@@ -1,0 +1,202 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "73f7e205dba0f55002ac326d8bb4aef34c3d2fd6a5f2f623c30dfcb2082b19fb",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "coverage": "全文 blocks[0..169]；按 JSON 上下文逐项复核对话、解释、题目、表格、词表及修复后的边界。",
+  "notes": "全文复核船长送行、40个独立选项及题干、摘要、条件从句规则和法式面包文化全文。恢复正文双语段、题7横线及语法续行，文化三组多句自然段。an ‘people’和防腐剂译文等文字疑义保留，不以本轮分段审核校改。",
+  "issues": [],
+  "mergeBlocks": [
+    {
+      "start": 17,
+      "end": 18,
+      "before": [
+        "He will be in his small boat, Topsail. Topsail is a famous little boat. It has sailed",
+        "across the Atlantic many times."
+      ],
+      "text": "He will be in his small boat, Topsail. Topsail is a famous little boat. It has sailed across the Atlantic many times.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 19,
+      "end": 20,
+      "before": [
+        "他将乘坐他的“涛波赛”号小艇。“涛波赛”号是艘有名的小艇，它已经多次横",
+        "渡大西洋。"
+      ],
+      "text": "他将乘坐他的“涛波赛”号小艇。“涛波赛”号是艘有名的小艇，它已经多次横渡大西洋。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 25,
+      "end": 26,
+      "before": [
+        "He will be away for two months. We are very proud of him. He will take part in an",
+        "important race across the Atlantic."
+      ],
+      "text": "He will be away for two months. We are very proud of him. He will take part in an important race across the Atlantic.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 27,
+      "end": 28,
+      "before": [
+        "他要离开两个月，我们真为他感到自豪。他将参加一次重大的横渡大西洋的",
+        "比赛。"
+      ],
+      "text": "他要离开两个月，我们真为他感到自豪。他将参加一次重大的横渡大西洋的比赛。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 36,
+      "end": 39,
+      "before": [
+        "Answer: We shall meet our neighbour, Captain Charles Alison, at Portsmouth",
+        "Harbour early tomorrow morning. He will be in his small boat, Topsail. He",
+        "will leave at eight o’clock. We shall say goodbye to him. He will take part in an",
+        "important race across the Atlantic."
+      ],
+      "text": "Answer: We shall meet our neighbour, Captain Charles Alison, at Portsmouth Harbour early tomorrow morning. He will be in his small boat, Topsail. He will leave at eight o’clock. We shall say goodbye to him. He will take part in an important race across the Atlantic.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 72,
+      "end": 73,
+      "before": [
+        "7. It has sailed across the Atlantic many times. It has sailed across the Atlantic",
+        "______."
+      ],
+      "text": "7. It has sailed across the Atlantic many times. It has sailed across the Atlantic ______.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 97,
+      "end": 100,
+      "before": [
+        "▪主句是一般将来时，从句要用一般现在时、现在进行时、现在完成时。和",
+        "时间状语从句一样，条件状语从句的时态也要注意和主句时态保持一",
+        "致。大多数情况下，主句如果是一般将来时,从句要用一般现在时来表示,",
+        "有时也可以用现在进行时和现在完成时。"
+      ],
+      "text": "▪主句是一般将来时，从句要用一般现在时、现在进行时、现在完成时。和时间状语从句一样，条件状语从句的时态也要注意和主句时态保持一致。大多数情况下，主句如果是一般将来时,从句要用一般现在时来表示,有时也可以用现在进行时和现在完成时。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 105,
+      "end": 106,
+      "before": [
+        "• If you understand this rule, you will have no further difficulty.(条件状语从",
+        "句)"
+      ],
+      "text": "• If you understand this rule, you will have no further difficulty.(条件状语从句)",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 128,
+      "end": 129,
+      "before": [
+        "• If you will go into the fields and turn over a few big stones, you will uncover",
+        "a city of an ‘people’."
+      ],
+      "text": "• If you will go into the fields and turn over a few big stones, you will uncover a city of an ‘people’.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 130,
+      "end": 131,
+      "before": [
+        "如果你愿意到田野里去翻开几块大石头，你准会揭开一个蚁“民”的城",
+        "市。"
+      ],
+      "text": "如果你愿意到田野里去翻开几块大石头，你准会揭开一个蚁“民”的城市。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 140,
+      "end": 143,
+      "before": [
+        "French bread is the ideal representative of French cuisine. The French are known for",
+        "their culinary expertise. Though difficult to believe, a national law in France directs",
+        "that French bread should contain only combinations of flour, yeast, salt and water.",
+        "This is an example of the seriousness with which the French treat their food."
+      ],
+      "text": "French bread is the ideal representative of French cuisine. The French are known for their culinary expertise. Though difficult to believe, a national law in France directs that French bread should contain only combinations of flour, yeast, salt and water. This is an example of the seriousness with which the French treat their food.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 144,
+      "end": 146,
+      "before": [
+        "法式面包是法式菜肴的理想代表。法国人烹饪手艺闻名天下。虽然听上去匪夷",
+        "所思，但法国真出台过关于面包的规定，那就是制作法式面包只能用面粉、酵",
+        "母、盐和水。这反映了法国人对待食物的严肃性。"
+      ],
+      "text": "法式面包是法式菜肴的理想代表。法国人烹饪手艺闻名天下。虽然听上去匪夷所思，但法国真出台过关于面包的规定，那就是制作法式面包只能用面粉、酵母、盐和水。这反映了法国人对待食物的严肃性。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 147,
+      "end": 151,
+      "before": [
+        "Today, French bread is bread made from white wheat flour. This gives the bread a",
+        "strong and chewy crust and an interior full of bubbles due to the use of sourdough",
+        "starters to prepare the bread. The French believe in having their bread fresh and most",
+        "bakeries make fresh bread for breakfast, lunch, dinner or a late-night snack. Today",
+        "with globalization, French bread is being prepared across the world."
+      ],
+      "text": "Today, French bread is bread made from white wheat flour. This gives the bread a strong and chewy crust and an interior full of bubbles due to the use of sourdough starters to prepare the bread. The French believe in having their bread fresh and most bakeries make fresh bread for breakfast, lunch, dinner or a late-night snack. Today with globalization, French bread is being prepared across the world.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 152,
+      "end": 155,
+      "before": [
+        "现在制作法式面包一般用白面粉。这样，面包的外 皮就很结实、耐嚼，而酵",
+        "母制品的使用也让面包中充满气泡。法国人喜欢吃现烤的面包所以大多数面包",
+        "店烤出新鲜的面包供人们早、中、晚餐以及夜宵享用。随着全球化的发展，如",
+        "今法式面包出现在了世界的各个角落。"
+      ],
+      "text": "现在制作法式面包一般用白面粉。这样，面包的外 皮就很结实、耐嚼，而酵母制品的使用也让面包中充满气泡。法国人喜欢吃现烤的面包所以大多数面包店烤出新鲜的面包供人们早、中、晚餐以及夜宵享用。随着全球化的发展，如今法式面包出现在了世界的各个角落。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 156,
+      "end": 162,
+      "before": [
+        "French bread is a much loved dinner component. Its crusty top makes it more",
+        "delicious and adds pleasure at the dining table. The French baguette is of a definite",
+        "shape of the bread with a recommended length with the same type of crispy crust and",
+        "slits for appropriate movement of gases creating the crumbs and the soft inside the",
+        "bread. French bread is really good for health too as the French food industry has a rule",
+        "where no preservatives are used to make French bread. As a result, the bread can go",
+        "stale very fast as compared to other commercially prepared foods."
+      ],
+      "text": "French bread is a much loved dinner component. Its crusty top makes it more delicious and adds pleasure at the dining table. The French baguette is of a definite shape of the bread with a recommended length with the same type of crispy crust and slits for appropriate movement of gases creating the crumbs and the soft inside the bread. French bread is really good for health too as the French food industry has a rule where no preservatives are used to make French bread. As a result, the bread can go stale very fast as compared to other commercially prepared foods.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 163,
+      "end": 168,
+      "before": [
+        "法式面包很受欢迎，常常出现在晚餐餐桌上。其硬皮表层使其更美味，给人们",
+        "带来更多味觉享受。法式长棍面包是一种有着特定形状、适宜长度的面包，外",
+        "皮一样的酥脆，也有同样的缝隙，能让气体适当流动，从而制作出外酥里嫩的",
+        "面包。法式面包也是非常健康的食物，因为法国饮食业有着明文规定,，能在法",
+        "式面包中加入防腐剂。但这一规定的后果就是与市场上其他商用预制食品相",
+        "比，法式面包很快就会变质。"
+      ],
+      "text": "法式面包很受欢迎，常常出现在晚餐餐桌上。其硬皮表层使其更美味，给人们带来更多味觉享受。法式长棍面包是一种有着特定形状、适宜长度的面包，外皮一样的酥脆，也有同样的缝隙，能让气体适当流动，从而制作出外酥里嫩的面包。法式面包也是非常健康的食物，因为法国饮食业有着明文规定,，能在法式面包中加入防腐剂。但这一规定的后果就是与市场上其他商用预制食品相比，法式面包很快就会变质。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    }
+  ],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/307c9a6e7577d0e274e4f9d60d89b42349f28660e44c4196389add8bce930ee4.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "876456fef7bbbec16cadfeaae22e00d36d5e16121cdcc00dfe72b2b16a0bdeca"
+    }
+  ]
+}

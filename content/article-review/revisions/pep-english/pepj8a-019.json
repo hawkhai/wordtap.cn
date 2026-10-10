@@ -1,0 +1,125 @@
+{
+  "schemaVersion": 1,
+  "course": "pep-english",
+  "articleId": "pepj8a-019",
+  "beforeDisplaySha256": "825836dc5f452825ce9ef3e8fd870fc14f1cd3377ed2f2a586aaf71c2d292960",
+  "afterDisplaySha256": "825836dc5f452825ce9ef3e8fd870fc14f1cd3377ed2f2a586aaf71c2d292960",
+  "baselineDisplay": {
+    "title": "How to Make Russian Soup",
+    "section": "Section A",
+    "text": "Anna: Sam, I want to make Russian soup for a party on Saturday. Can you tell me how?\nSam: Sure. First, buy some beef, one cabbage, four carrots, three potatoes, five tomatoes and one onion. Then, cut up the vegetables.\nAnna: What's next?\nSam: Next, put the beef, carrots and potatoes into a pot and add some water. After that, cook them for 30 minutes. Then, add the cabbage, tomatoes and onion and cook for another 10 minutes.\nAnna: OK, that's it?\nSam: No, one more thing. Finally, don't forget to add some salt.",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Anna: Sam, I want to make Russian soup for a party on Saturday. Can you tell me how?"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Sam: Sure. First, buy some beef, one cabbage, four carrots, three potatoes, five tomatoes and one onion. Then, cut up the vegetables."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Anna: What's next?"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Sam: Next, put the beef, carrots and potatoes into a pot and add some water. After that, cook them for 30 minutes. Then, add the cabbage, tomatoes and onion and cook for another 10 minutes."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Anna: OK, that's it?"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Sam: No, one more thing. Finally, don't forget to add some salt."
+      }
+    ]
+  },
+  "display": {
+    "title": "How to Make Russian Soup",
+    "section": "Section A",
+    "text": "Anna: Sam, I want to make Russian soup for a party on Saturday. Can you tell me how?\nSam: Sure. First, buy some beef, one cabbage, four carrots, three potatoes, five tomatoes and one onion. Then, cut up the vegetables.\nAnna: What's next?\nSam: Next, put the beef, carrots and potatoes into a pot and add some water. After that, cook them for 30 minutes. Then, add the cabbage, tomatoes and onion and cook for another 10 minutes.\nAnna: OK, that's it?\nSam: No, one more thing. Finally, don't forget to add some salt.",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Anna: Sam, I want to make Russian soup for a party on Saturday. Can you tell me how?"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Sam: Sure. First, buy some beef, one cabbage, four carrots, three potatoes, five tomatoes and one onion. Then, cut up the vegetables."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Anna: What's next?"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Sam: Next, put the beef, carrots and potatoes into a pot and add some water. After that, cook them for 30 minutes. Then, add the cabbage, tomatoes and onion and cook for another 10 minutes."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Anna: OK, that's it?"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Sam: No, one more thing. Finally, don't forget to add some salt."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "path": "content/article-review/history/fe8b25aea45f38630fff6ded31bd4f72bb000301ef8a2755083db6e1414806c3.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "2e396f259df0a96bff5cc849bd047b2e28e52655cf33e1bd61ee5199dd547dc2"
+    }
+  ],
+  "corrections": [],
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "reviewer": "Codex",
+  "reviewedAt": "2026-10-07T07:39:48+00:00",
+  "notes": "俄式汤六轮Anna/Sam对话已分块，材料采购和烹饪多句步骤属于Sam整轮，保留。",
+  "issues": [],
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "85c1e88109ece4e7a572b905e6a3d3dc0b5881c7bb1d8f439d59907a2c894f8e",
+    "afterFileSha256": "85c1e88109ece4e7a572b905e6a3d3dc0b5881c7bb1d8f439d59907a2c894f8e",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "85c1e88109ece4e7a572b905e6a3d3dc0b5881c7bb1d8f439d59907a2c894f8e",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..5] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "俄式汤六轮Anna/Sam对话已分块，材料采购和烹饪多句步骤属于Sam整轮，保留。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "blockEdits": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/fe8b25aea45f38630fff6ded31bd4f72bb000301ef8a2755083db6e1414806c3.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "2e396f259df0a96bff5cc849bd047b2e28e52655cf33e1bd61ee5199dd547dc2"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "fe8b25aea45f38630fff6ded31bd4f72bb000301ef8a2755083db6e1414806c3"
+}

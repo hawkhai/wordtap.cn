@@ -1,0 +1,21 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "9bdb36e3887e5b556f972320ccd85963ebd653f242b16f71add77a8e9bb97423",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "完整 title、blocks[0..9]及完全相同的text；正文及内嵌中文、引语、对话和列举均已逐项通读；无改动输出按全文再次复核。",
+  "notes": "全文及未改动输出复核：Malcolm X生平、表达困难、读书障碍、求字典、抄写朗读、次日感受、持续积累、阅读自由、采访和总结十段连贯；词根例证和引语随叙述原段保留。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/b1d3a2225f3a91a0fce7011f7bfa6a6aa26b4d3e54d6c6ac1fbf65f018c2a676.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "987e325c3dca5d14b3a77333a793a530c0ba1fb014416f2956cfbd6848969005"
+    }
+  ]
+}

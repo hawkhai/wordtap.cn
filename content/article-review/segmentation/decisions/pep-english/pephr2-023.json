@@ -1,0 +1,21 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "e9f47228f3ac787de99ee90619ade96325d86a2e297baa915285ad8ac630a252",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title；全文 blocks[0..2] 与对应 text；现有正文/对话/题干逐块通读复核。",
+  "notes": "Cleo开罗邮件称呼与落款独立，博物馆、金字塔、市场及食物在同一旅行叙述段完整保留。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/566764f6d196bbf9e50b5189880c3f431084d5dad67553493fb0b07a2d061741.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "bc5035972d73cc98d7f6bb5919f0dad3e26835736f380a75852db1663e557471"
+    }
+  ]
+}

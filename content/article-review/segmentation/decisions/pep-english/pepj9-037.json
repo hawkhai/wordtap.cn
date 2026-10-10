@@ -1,0 +1,68 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "4f961260b5232faa41873b58bed6bb1ccd59c665b6687674d6fa4dd85037e6c2",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title；全文 blocks[0..0] 与对应 text；现有正文/对话/题干逐块通读复核。",
+  "notes": "Matt与Kevin迟到缘由九轮对话拆分，起晚、错过公交、搭车每轮完整。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [
+    {
+      "index": 0,
+      "before": [
+        "Matt: Why were you late for class today, Kevin?\nKevin: My alarm clock didn't go off! I kept sleeping, and when I woke up it was already 8:00 a.m.!\nMatt: Oh, no!\nKevin: So I just quickly put on some clothes and rushed out of the door.\nMatt: You didn't eat breakfast?\nKevin: No, I didn't even brush my teeth or wash my face! But before I got to the bus stop, the bus had already left.\nMatt: Then how did you get here?\nKevin: Luckily, Carl's dad saw me on the street and gave me a lift in his car.\nMatt: Well, at least by the time you got to school, you were only five minutes late for class."
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Matt: Why were you late for class today, Kevin?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Kevin: My alarm clock didn't go off! I kept sleeping, and when I woke up it was already 8:00 a.m.!"
+        },
+        {
+          "type": "paragraph",
+          "text": "Matt: Oh, no!"
+        },
+        {
+          "type": "paragraph",
+          "text": "Kevin: So I just quickly put on some clothes and rushed out of the door."
+        },
+        {
+          "type": "paragraph",
+          "text": "Matt: You didn't eat breakfast?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Kevin: No, I didn't even brush my teeth or wash my face! But before I got to the bus stop, the bus had already left."
+        },
+        {
+          "type": "paragraph",
+          "text": "Matt: Then how did you get here?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Kevin: Luckily, Carl's dad saw me on the street and gave me a lift in his car."
+        },
+        {
+          "type": "paragraph",
+          "text": "Matt: Well, at least by the time you got to school, you were only five minutes late for class."
+        }
+      ],
+      "reason": "每行具有明确的发言人及完整轮次，分块保留各对话轮次。"
+    }
+  ],
+  "blockEdits": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/536c1dd628d14a81c113c3f71bdb1d1c17b9c5cf66f59e6bb3389a4978cc35e4.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "3dde9703a2f61b34939d9652c46d14058f638215a75bcf552a16db0fd739150a"
+    }
+  ]
+}

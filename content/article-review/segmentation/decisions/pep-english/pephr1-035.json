@@ -1,0 +1,47 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "fa18557096cd757c6e900b181673f3ddde7b970273a2103477637da11ac35bf5",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title；全文 blocks[0..0] 与对应 text；现有正文/对话/题干逐块通读复核。",
+  "notes": "书法课程邀请四轮A/B问答拆分，学习动机与理由保留本轮内部。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [
+    {
+      "index": 0,
+      "before": [
+        "A: Hey, I'm going to sign up for a Chinese calligraphy class at that new language school. Do you want to join me?\nB: You know, I'm learning Chinese at my school, and to be honest, my teacher's method is really boring. I'm not sure I want to take another Chinese class.\nA: I think learning calligraphy will help you feel better about Chinese! Calligraphy is regarded as an art form. Many people enjoy it.\nB: I guess it would be good to learn! After all, there're over a billion people who speak and read Chinese. OK, I'll find some time in my schedule and try the class."
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "A: Hey, I'm going to sign up for a Chinese calligraphy class at that new language school. Do you want to join me?"
+        },
+        {
+          "type": "paragraph",
+          "text": "B: You know, I'm learning Chinese at my school, and to be honest, my teacher's method is really boring. I'm not sure I want to take another Chinese class."
+        },
+        {
+          "type": "paragraph",
+          "text": "A: I think learning calligraphy will help you feel better about Chinese! Calligraphy is regarded as an art form. Many people enjoy it."
+        },
+        {
+          "type": "paragraph",
+          "text": "B: I guess it would be good to learn! After all, there're over a billion people who speak and read Chinese. OK, I'll find some time in my schedule and try the class."
+        }
+      ],
+      "reason": "每行具有明确的发言人及完整轮次，分块保留各对话轮次。"
+    }
+  ],
+  "sources": [
+    {
+      "path": "content/article-review/history/5aadf3d9b750df417467341cad0561f5cd74e24bc30ef499fb81566398466582.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "8047f478b4fc0103055e94d1f8acbabaa800e3a9b0c351f55788ea53672c782b"
+    }
+  ]
+}

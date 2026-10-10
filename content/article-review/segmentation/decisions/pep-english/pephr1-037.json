@@ -1,0 +1,21 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "68e9362e21cc1f82aa885a7b27d2f01a196fcf3b7aa71134e0cb9d8ee9d4bd61",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title；全文 blocks[0..5] 与对应 text；现有正文/对话/题干逐块通读复核。",
+  "notes": "OED文章由书籍引入到起源、Murray工作、出版、更新及文化价值六段展开，日期和引文没有错误断段。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/035cd5e99782457a0da548668602d03176dcfe941f1513e90deb85b6442f79a7.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "9f4b9b6cfe3d712596ed1beebcf1ee52b49ee43b124fa5a192b1a9a407829064"
+    }
+  ]
+}

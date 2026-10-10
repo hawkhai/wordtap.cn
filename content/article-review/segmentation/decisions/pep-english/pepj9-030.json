@@ -1,0 +1,68 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "7284629567dea170622cdb3ae47db2282aef3b2429332310317f81e82cd2b1e0",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title；全文 blocks[0..0] 与对应 text；现有正文/对话/题干逐块通读复核。",
+  "notes": "Katie与John日法问候九轮对话拆分，鞠躬和亲面颊故事各轮完整保留。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [
+    {
+      "index": 0,
+      "before": [
+        "Katie: How was the welcome party for foreign students last night?\nJohn: Great! I made some new friends. But a funny thing happened.\nKatie: What?\nJohn: I met a Japanese boy called Sato, and as soon as I held out my hand, he bowed.\nKatie: That's how people in Japan are expected to greet each other. It's impolite if you don't bow.\nJohn: I didn't know that. So I just stood there with my hand out. Finally, I returned the bow.\nKatie: I remember when I first met Marie last year, I did the same thing. I held out my hand and to my surprise, she kissed me on both sides of my face!\nJohn: I wouldn't mind that!\nKatie: Very funny. Later I found out French people are supposed to kiss when they see each other."
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Katie: How was the welcome party for foreign students last night?"
+        },
+        {
+          "type": "paragraph",
+          "text": "John: Great! I made some new friends. But a funny thing happened."
+        },
+        {
+          "type": "paragraph",
+          "text": "Katie: What?"
+        },
+        {
+          "type": "paragraph",
+          "text": "John: I met a Japanese boy called Sato, and as soon as I held out my hand, he bowed."
+        },
+        {
+          "type": "paragraph",
+          "text": "Katie: That's how people in Japan are expected to greet each other. It's impolite if you don't bow."
+        },
+        {
+          "type": "paragraph",
+          "text": "John: I didn't know that. So I just stood there with my hand out. Finally, I returned the bow."
+        },
+        {
+          "type": "paragraph",
+          "text": "Katie: I remember when I first met Marie last year, I did the same thing. I held out my hand and to my surprise, she kissed me on both sides of my face!"
+        },
+        {
+          "type": "paragraph",
+          "text": "John: I wouldn't mind that!"
+        },
+        {
+          "type": "paragraph",
+          "text": "Katie: Very funny. Later I found out French people are supposed to kiss when they see each other."
+        }
+      ],
+      "reason": "每行具有明确的发言人及完整轮次，分块保留各对话轮次。"
+    }
+  ],
+  "blockEdits": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/f3cecec1e920ce56866237e8865cf0f7c9f053234f989914934c287d654ff4ad.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "981943bdb6749e2dfd73ea5253ec0868a4a68cfc7c725bf2bfd7f973fb558462"
+    }
+  ]
+}

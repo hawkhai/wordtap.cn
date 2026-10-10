@@ -1,0 +1,26 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "bc9d5bb85eac9c5a630825fd39051e4b08e64744598eaa8de854d86af9bac819",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title/titleZh、question/questionZh、bodyText全部14行、bodyTextZh全部14行及sentences[0..16]的完整文字；重复正文与字幕文本逐字比对，非正文字幕另读。操作在内存应用并validate_layout_change，修复后的双语全文重新通读。",
+  "notes": "摆脱Nigel；躲避失败和跟随习惯为背景段，Nigel招呼追问与结尾候诊室借口各为完整话轮。 text与bodyText同步；sentences对象及时间、角色、索引原样保留。",
+  "issues": [],
+  "display": {
+    "text": "Why did Elizabeth tell Nigel that she was going to the dentist?\n\nI crossed the street to avoid meeting him but he saw me and came running towards me. It was no use pretending that I had not seen him, so I waved to him. I never enjoy meeting Nigel Dykes. He never has anything to do. No matter how busy you are, he always insists on coming with you. I had to think of a way of preventing him from following me around all morning.\n'Hello, Nigel,' I said 'Fancy meeting you here!'\n'Hi, Elizabeth,' Nigel answered. 'I was just wondering how to spend the morning -- until I saw you. You're not busy doing anything, are you?'\n'No, not at all,' I answered. 'I'm going to...'\n'Would you mind my coming with you?' he asked, before I had finished speaking.\n'Not at all,' I lied, 'but I'm going to the dentist.'\n'Then I'll come with you,' he answered. 'There's always plenty to read in the waiting room!'",
+    "bodyText": "I crossed the street to avoid meeting him but he saw me and came running towards me. It was no use pretending that I had not seen him, so I waved to him. I never enjoy meeting Nigel Dykes. He never has anything to do. No matter how busy you are, he always insists on coming with you. I had to think of a way of preventing him from following me around all morning.\n'Hello, Nigel,' I said 'Fancy meeting you here!'\n'Hi, Elizabeth,' Nigel answered. 'I was just wondering how to spend the morning -- until I saw you. You're not busy doing anything, are you?'\n'No, not at all,' I answered. 'I'm going to...'\n'Would you mind my coming with you?' he asked, before I had finished speaking.\n'Not at all,' I lied, 'but I'm going to the dentist.'\n'Then I'll come with you,' he answered. 'There's always plenty to read in the waiting room!'",
+    "bodyTextZh": "我穿过马路想避开他，但他看见了我，就朝我跑了过来。假装没看见他是没用的，所以我向他挥了挥手。我从来都不喜欢见到尼格尔·戴克斯。他总是无所事事。无论你有多忙，他总是坚持要跟着你。我得想办法阻止他一整个早上都跟着我。\n“你好，尼格尔，”我说，“真没想到在这里遇见你！”\n“嗨，伊丽莎白，”奈杰尔回答，“我正琢磨着怎么打发这个上午——直到看见了你。“你现在不忙，对吧？”\n“不忙，”我回答，“我正要去……”\n“你介意我陪你一起去吗？”他还没等我说完就问了。\n“当然不介意，”我撒谎说，“不过我要去看牙医。\n“那我就跟你一起去，”他回答。“候诊室里总有好多东西可以看！”"
+  },
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/8f73f1013f18e0b3ff286fc198d9a4e291a63777d3d771e8c7c0def04f3243e0.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "67852d8354fddcd586fa09db24ef3d4501b5add6cebd0bc64e749f7ccb3a5554"
+    }
+  ]
+}

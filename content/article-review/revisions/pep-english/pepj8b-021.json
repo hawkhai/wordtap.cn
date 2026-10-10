@@ -1,0 +1,188 @@
+{
+  "schemaVersion": 1,
+  "course": "pep-english",
+  "articleId": "pepj8b-021",
+  "beforeDisplaySha256": "31c5190bbe4f95b4176f3f02269492c0e138b8fceacaeb973605a30ae7163a29",
+  "afterDisplaySha256": "aa563b2e210971ed93b11e7351ce21472b53d53ff94cf0bdc39783f0e43ba6c5",
+  "baselineDisplay": {
+    "title": "Why Kate Missed the Basketball Competition",
+    "section": "Section B",
+    "text": "John: Hey, Kate, why weren't you at the school basketball competition yesterday? I called you so many times, but you didn't answer.\nKate: Sorry, John. I left my phone at home.\nJohn: What were you doing at the time of the competition?\nKate: Well, I left my house late and when the competition started, I was still making my way to school.\nJohn: Then what happened?\nKate: When I got to the bus stop, I realized that my bag was still at home!\nJohn: But why didn't you just go home to get your bag?\nKate: I did, but while I was running back home, I saw a dog by the side of the road and it was hurt.\nJohn: Oh, so I'm sure you helped the dog. I know how much you love animals.\nKate: Yes, I wanted to call the Animal Helpline, but I didn't have my phone so I had to wait for someone to walk by. Then I used his phone to call the helpline.\nJohn: OK. No wonder you didn't make it to the competition.\nKate: Yes, I'm so sorry I wasn't there to cheer you on, but I'm happy that your team won!",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "John: Hey, Kate, why weren't you at the school basketball competition yesterday? I called you so many times, but you didn't answer.\nKate: Sorry, John. I left my phone at home.\nJohn: What were you doing at the time of the competition?\nKate: Well, I left my house late and when the competition started, I was still making my way to school.\nJohn: Then what happened?\nKate: When I got to the bus stop, I realized that my bag was still at home!\nJohn: But why didn't you just go home to get your bag?\nKate: I did, but while I was running back home, I saw a dog by the side of the road and it was hurt.\nJohn: Oh, so I'm sure you helped the dog. I know how much you love animals.\nKate: Yes, I wanted to call the Animal Helpline, but I didn't have my phone so I had to wait for someone to walk by. Then I used his phone to call the helpline.\nJohn: OK. No wonder you didn't make it to the competition.\nKate: Yes, I'm so sorry I wasn't there to cheer you on, but I'm happy that your team won!"
+      }
+    ]
+  },
+  "display": {
+    "title": "Why Kate Missed the Basketball Competition",
+    "section": "Section B",
+    "text": "John: Hey, Kate, why weren't you at the school basketball competition yesterday? I called you so many times, but you didn't answer.\nKate: Sorry, John. I left my phone at home.\nJohn: What were you doing at the time of the competition?\nKate: Well, I left my house late and when the competition started, I was still making my way to school.\nJohn: Then what happened?\nKate: When I got to the bus stop, I realized that my bag was still at home!\nJohn: But why didn't you just go home to get your bag?\nKate: I did, but while I was running back home, I saw a dog by the side of the road and it was hurt.\nJohn: Oh, so I'm sure you helped the dog. I know how much you love animals.\nKate: Yes, I wanted to call the Animal Helpline, but I didn't have my phone so I had to wait for someone to walk by. Then I used his phone to call the helpline.\nJohn: OK. No wonder you didn't make it to the competition.\nKate: Yes, I'm so sorry I wasn't there to cheer you on, but I'm happy that your team won!",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "John: Hey, Kate, why weren't you at the school basketball competition yesterday? I called you so many times, but you didn't answer."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Kate: Sorry, John. I left my phone at home."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "John: What were you doing at the time of the competition?"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Kate: Well, I left my house late and when the competition started, I was still making my way to school."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "John: Then what happened?"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Kate: When I got to the bus stop, I realized that my bag was still at home!"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "John: But why didn't you just go home to get your bag?"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Kate: I did, but while I was running back home, I saw a dog by the side of the road and it was hurt."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "John: Oh, so I'm sure you helped the dog. I know how much you love animals."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Kate: Yes, I wanted to call the Animal Helpline, but I didn't have my phone so I had to wait for someone to walk by. Then I used his phone to call the helpline."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "John: OK. No wonder you didn't make it to the competition."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Kate: Yes, I'm so sorry I wasn't there to cheer you on, but I'm happy that your team won!"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "path": "content/article-review/history/d05ddffee7b3a2b2533a3717978fde3fad5c3f2ea1488ad19c790f30d9ac88f7.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "8811e9246a4d86b205cd85ce78b4a63d87dff60b8940a6e7c6a73545ec26e1a2"
+    }
+  ],
+  "corrections": [],
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "reviewer": "Codex",
+  "reviewedAt": "2026-10-07T07:42:01+00:00",
+  "notes": "Kate错过比赛原同块十二轮对话逐角色拆分，忘包及救狗的多句说明保持轮内。",
+  "issues": [],
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "44c68752a1df4b6f176494d41dcd9e46b1c94c7e7132ab165cea110dd93c31e7",
+    "afterFileSha256": "64a99f87660327436584bd0a596deb808076b3a34361fd0b28c6aa8970989ea1",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "44c68752a1df4b6f176494d41dcd9e46b1c94c7e7132ab165cea110dd93c31e7",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..0] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "Kate错过比赛原同块十二轮对话逐角色拆分，忘包及救狗的多句说明保持轮内。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [
+        {
+          "index": 0,
+          "before": [
+            "John: Hey, Kate, why weren't you at the school basketball competition yesterday? I called you so many times, but you didn't answer.\nKate: Sorry, John. I left my phone at home.\nJohn: What were you doing at the time of the competition?\nKate: Well, I left my house late and when the competition started, I was still making my way to school.\nJohn: Then what happened?\nKate: When I got to the bus stop, I realized that my bag was still at home!\nJohn: But why didn't you just go home to get your bag?\nKate: I did, but while I was running back home, I saw a dog by the side of the road and it was hurt.\nJohn: Oh, so I'm sure you helped the dog. I know how much you love animals.\nKate: Yes, I wanted to call the Animal Helpline, but I didn't have my phone so I had to wait for someone to walk by. Then I used his phone to call the helpline.\nJohn: OK. No wonder you didn't make it to the competition.\nKate: Yes, I'm so sorry I wasn't there to cheer you on, but I'm happy that your team won!"
+          ],
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "John: Hey, Kate, why weren't you at the school basketball competition yesterday? I called you so many times, but you didn't answer."
+            },
+            {
+              "type": "paragraph",
+              "text": "Kate: Sorry, John. I left my phone at home."
+            },
+            {
+              "type": "paragraph",
+              "text": "John: What were you doing at the time of the competition?"
+            },
+            {
+              "type": "paragraph",
+              "text": "Kate: Well, I left my house late and when the competition started, I was still making my way to school."
+            },
+            {
+              "type": "paragraph",
+              "text": "John: Then what happened?"
+            },
+            {
+              "type": "paragraph",
+              "text": "Kate: When I got to the bus stop, I realized that my bag was still at home!"
+            },
+            {
+              "type": "paragraph",
+              "text": "John: But why didn't you just go home to get your bag?"
+            },
+            {
+              "type": "paragraph",
+              "text": "Kate: I did, but while I was running back home, I saw a dog by the side of the road and it was hurt."
+            },
+            {
+              "type": "paragraph",
+              "text": "John: Oh, so I'm sure you helped the dog. I know how much you love animals."
+            },
+            {
+              "type": "paragraph",
+              "text": "Kate: Yes, I wanted to call the Animal Helpline, but I didn't have my phone so I had to wait for someone to walk by. Then I used his phone to call the helpline."
+            },
+            {
+              "type": "paragraph",
+              "text": "John: OK. No wonder you didn't make it to the competition."
+            },
+            {
+              "type": "paragraph",
+              "text": "Kate: Yes, I'm so sorry I wasn't there to cheer you on, but I'm happy that your team won!"
+            }
+          ],
+          "reason": "每行具有明确的发言人及完整轮次，分块保留各对话轮次。"
+        }
+      ],
+      "blockEdits": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/d05ddffee7b3a2b2533a3717978fde3fad5c3f2ea1488ad19c790f30d9ac88f7.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "8811e9246a4d86b205cd85ce78b4a63d87dff60b8940a6e7c6a73545ec26e1a2"
+        }
+      ]
+    }
+  },
+  "status": "passed_edited",
+  "previousRevisionSha256": "d05ddffee7b3a2b2533a3717978fde3fad5c3f2ea1488ad19c790f30d9ac88f7"
+}

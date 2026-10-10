@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 1,
+  "course": "pep-english",
+  "articleId": "pepj9-045",
+  "beforeDisplaySha256": "880d54e548ddc6cc1d08b12de26c73f31a1ee71384097c1c7bcb91b1a654b60d",
+  "afterDisplaySha256": "880d54e548ddc6cc1d08b12de26c73f31a1ee71384097c1c7bcb91b1a654b60d",
+  "baselineDisplay": {
+    "title": "My Time in Junior High School",
+    "section": "Section A",
+    "text": "My time in junior high school has been enjoyable. In the first year, I didn't work very hard in class, but I joined many different school clubs and had a lot of fun. In Grade 8, I studied harder but I still got poor grades in English. I had problems with pronunciation and reading texts. So the next year, I worked much harder and got better grades. This year, with Mr. Trent's help, my English level has been improving and I hope to get good grades at the end of the year. Next year, I will be in senior high school. I can't believe how fast the time went by! When I get to senior high, I will join the school swim team.",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "My time in junior high school has been enjoyable. In the first year, I didn't work very hard in class, but I joined many different school clubs and had a lot of fun. In Grade 8, I studied harder but I still got poor grades in English. I had problems with pronunciation and reading texts. So the next year, I worked much harder and got better grades. This year, with Mr. Trent's help, my English level has been improving and I hope to get good grades at the end of the year. Next year, I will be in senior high school. I can't believe how fast the time went by! When I get to senior high, I will join the school swim team."
+      }
+    ]
+  },
+  "display": {
+    "title": "My Time in Junior High School",
+    "section": "Section A",
+    "text": "My time in junior high school has been enjoyable. In the first year, I didn't work very hard in class, but I joined many different school clubs and had a lot of fun. In Grade 8, I studied harder but I still got poor grades in English. I had problems with pronunciation and reading texts. So the next year, I worked much harder and got better grades. This year, with Mr. Trent's help, my English level has been improving and I hope to get good grades at the end of the year. Next year, I will be in senior high school. I can't believe how fast the time went by! When I get to senior high, I will join the school swim team.",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "My time in junior high school has been enjoyable. In the first year, I didn't work very hard in class, but I joined many different school clubs and had a lot of fun. In Grade 8, I studied harder but I still got poor grades in English. I had problems with pronunciation and reading texts. So the next year, I worked much harder and got better grades. This year, with Mr. Trent's help, my English level has been improving and I hope to get good grades at the end of the year. Next year, I will be in senior high school. I can't believe how fast the time went by! When I get to senior high, I will join the school swim team."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "path": "content/article-review/history/2502137094ee7c50f5eea80645608b586212caf8c9910b1c1770e352a9784340.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "445ebadf609daa9dc08f741331b3ab2e0e54289649fa56d0ecd2d92c1079c4a2"
+    }
+  ],
+  "corrections": [],
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "reviewer": "Codex",
+  "reviewedAt": "2026-10-07T07:42:04+00:00",
+  "notes": "初中回顾按年级叙述学习社团与高中愿望为连贯单段，保留完整回忆不按年度碎拆。",
+  "issues": [],
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "4f03201c0a524f16a3d9f35f533e55ce73cd85e028f944cb670a341649df47fc",
+    "afterFileSha256": "4f03201c0a524f16a3d9f35f533e55ce73cd85e028f944cb670a341649df47fc",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "4f03201c0a524f16a3d9f35f533e55ce73cd85e028f944cb670a341649df47fc",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..0] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "初中回顾按年级叙述学习社团与高中愿望为连贯单段，保留完整回忆不按年度碎拆。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "blockEdits": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/2502137094ee7c50f5eea80645608b586212caf8c9910b1c1770e352a9784340.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "445ebadf609daa9dc08f741331b3ab2e0e54289649fa56d0ecd2d92c1079c4a2"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "2502137094ee7c50f5eea80645608b586212caf8c9910b1c1770e352a9784340"
+}

@@ -1,0 +1,265 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "056efe42da74033300e2fcb6391d37e7d06dd66b58e3da9d0552c8c094360e27",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "coverage": "全文 blocks[0..256]；按 JSON 上下文逐项复核对话、解释、题目、表格、词表及修复后的边界。",
+  "notes": "全文复核日本亡灵节、灯笼返航故事、摘要、12道词汇题及20道语法测试解析。完整句保留多句自然段，编号和选项各自独立；原有道路词内空格等非本轮句段候选不自动更改。",
+  "issues": [],
+  "mergeBlocks": [
+    {
+      "start": 13,
+      "end": 14,
+      "before": [
+        "This festival is a cheerful occasion, for on this day, the dead are said to return to their",
+        "homes and they are welcomed by the living."
+      ],
+      "text": "This festival is a cheerful occasion, for on this day, the dead are said to return to their homes and they are welcomed by the living.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 15,
+      "end": 16,
+      "before": [
+        "这个节日是个欢乐的日子，因为在这一天，据说死去的人要回到他们的家里",
+        "来，活着的人则对他们表示欢迎。"
+      ],
+      "text": "这个节日是个欢乐的日子，因为在这一天，据说死去的人要回到他们的家里来，活着的人则对他们表示欢迎。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 19,
+      "end": 20,
+      "before": [
+        "Specially-made lanterns are hung outside each house to help the dead to find their",
+        "way."
+      ],
+      "text": "Specially-made lanterns are hung outside each house to help the dead to find their way.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 24,
+      "end": 25,
+      "before": [
+        "In the early morning, the food that had been laid out for the dead is thrown into a river",
+        "or into the sea as it is considered unlucky for anyone living to eat it."
+      ],
+      "text": "In the early morning, the food that had been laid out for the dead is thrown into a river or into the sea as it is considered unlucky for anyone living to eat it.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 26,
+      "end": 27,
+      "before": [
+        "一大早，人们便把为死者摆放的食品扔进河中或海里，因为人们认为活着的人",
+        "吃了这些东西是不吉利的。"
+      ],
+      "text": "一大早，人们便把为死者摆放的食品扔进河中或海里，因为人们认为活着的人吃了这些东西是不吉利的。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 28,
+      "end": 29,
+      "before": [
+        "In towns that are near the sea, the tiny lanterns which had been hung in the streets the",
+        "night before, are placed into the water when the festival is over."
+      ],
+      "text": "In towns that are near the sea, the tiny lanterns which had been hung in the streets the night before, are placed into the water when the festival is over.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 31,
+      "end": 32,
+      "before": [
+        "Thousands of lanterns slowly drift out to sea guiding the dead on their return journey",
+        "to the other world."
+      ],
+      "text": "Thousands of lanterns slowly drift out to sea guiding the dead on their return journey to the other world.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 34,
+      "end": 35,
+      "before": [
+        "This is a moving spectacle, for crowds of people stand on the shore watching the",
+        "lanterns drifting away until they can be seen no more."
+      ],
+      "text": "This is a moving spectacle, for crowds of people stand on the shore watching the lanterns drifting away until they can be seen no more.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 36,
+      "end": 37,
+      "before": [
+        "这是一个感人的场面，人们成群地伫立在海岸上，注视着灯笼远去，直到再也",
+        "看不见为止。"
+      ],
+      "text": "这是一个感人的场面，人们成群地伫立在海岸上，注视着灯笼远去，直到再也看不见为止。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 41,
+      "end": 42,
+      "before": [
+        "1 Japanese annual festival-cheerful",
+        "occasion."
+      ],
+      "text": "1 Japanese annual festival-cheerful occasion.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 47,
+      "end": 48,
+      "before": [
+        "6 Uneaten food-sea, river, next",
+        "morning."
+      ],
+      "text": "6 Uneaten food-sea, river, next morning.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 52,
+      "end": 57,
+      "before": [
+        "The Japanese annual Festival for the Dead is a cheerful occasion. As the dead",
+        "are said to return home, food is laid out for them and lanterns are lit to guide",
+        "them on their way. People dance and sing all night and the uneaten food is",
+        "thrown into the sea or into a river the next morning. In some places, the",
+        "lanterns are placed on the sea and people watch from the shore until the",
+        "lanterns drift out of sight."
+      ],
+      "text": "The Japanese annual Festival for the Dead is a cheerful occasion. As the dead are said to return home, food is laid out for them and lanterns are lit to guide them on their way. People dance and sing all night and the uneaten food is thrown into the sea or into a river the next morning. In some places, the lanterns are placed on the sea and people watch from the shore until the lanterns drift out of sight.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 105,
+      "end": 106,
+      "before": [
+        "10 The lanterns are placed into the water when the festival is over. This happens",
+        "________ the festival."
+      ],
+      "text": "10 The lanterns are placed into the water when the festival is over. This happens ________ the festival.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 124,
+      "end": 125,
+      "before": [
+        "1. It is politely requested by the hotel management that radios ______ after 11 o'clock",
+        "at night."
+      ],
+      "text": "1. It is politely requested by the hotel management that radios ______ after 11 o'clock at night.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 161,
+      "end": 162,
+      "before": [
+        "7. My sister's professor had her _______ paper many times before allowing her to",
+        "present it to the committee."
+      ],
+      "text": "7. My sister's professor had her _______ paper many times before allowing her to present it to the committee.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 174,
+      "end": 175,
+      "before": [
+        "9. Turn on the television or open a magazine and you _______ advertisements",
+        "showing happy, balanced families."
+      ],
+      "text": "9. Turn on the television or open a magazine and you _______ advertisements showing happy, balanced families.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 181,
+      "end": 182,
+      "before": [
+        "10. A thief who broke into a church was caught because traces of wax, found on his",
+        "clothes, ______ from the sort of candles used only in churches."
+      ],
+      "text": "10. A thief who broke into a church was caught because traces of wax, found on his clothes, ______ from the sort of candles used only in churches.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 200,
+      "end": 201,
+      "before": [
+        "12. C.as作为关系代词引导定语从句,as代替后面整句的意思。事实上,也可以把这",
+        "一结构看作是一固定用法。"
+      ],
+      "text": "12. C.as作为关系代词引导定语从句,as代替后面整句的意思。事实上,也可以把这一结构看作是一固定用法。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 207,
+      "end": 208,
+      "before": [
+        "13. B.这是一个先行词为 the place的定语从句,关系代词代替 the place引导定语从",
+        "句,并在从句中作宾语,通常省去。"
+      ],
+      "text": "13. B.这是一个先行词为 the place的定语从句,关系代词代替 the place引导定语从句,并在从句中作宾语,通常省去。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 209,
+      "end": 210,
+      "before": [
+        "14. Although many people view conflict as bad, conflict is sometimes useful ______",
+        "it forces people to test the relative merits of their attitudes and behaviors."
+      ],
+      "text": "14. Although many people view conflict as bad, conflict is sometimes useful ______ it forces people to test the relative merits of their attitudes and behaviors.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 216,
+      "end": 217,
+      "before": [
+        "15. _______ receiving financial support from family, community or the government is",
+        "allowed, it is never admired."
+      ],
+      "text": "15. _______ receiving financial support from family, community or the government is allowed, it is never admired.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 223,
+      "end": 224,
+      "before": [
+        "16. There' s man at the reception desk who seems very angry and think he means",
+        "_______ trouble."
+      ],
+      "text": "16. There' s man at the reception desk who seems very angry and think he means _______ trouble.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 242,
+      "end": 243,
+      "before": [
+        "19. There was such a long line at the exhibition _______ we had to wait for about half",
+        "an hour."
+      ],
+      "text": "19. There was such a long line at the exhibition _______ we had to wait for about half an hour.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 249,
+      "end": 250,
+      "before": [
+        "20. Having no money but _______ to know, he simply said he would go without",
+        "dinner.)"
+      ],
+      "text": "20. Having no money but _______ to know, he simply said he would go without dinner.)",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    }
+  ],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/d5fa1ed071f432e48d9aa1f5756778f7a3f8685d72c93a5bffbe97699e653a3d.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "3e8b8bf5c615acba99aa6398546a6feec66b148e0b77a43201622fe19b18c62d"
+    }
+  ]
+}

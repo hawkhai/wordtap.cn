@@ -1,0 +1,28 @@
+{
+  "article": "nce/nce3-053",
+  "fullRead": "本轮28条现有与最终英中全文通读；原LRC全文沿用已核读。",
+  "sources": [
+    {
+      "path": "content/article-review/source-evidence/shuimu-upper-053-recheck.json",
+      "readScope": "全文重读，历史与投诉受理官方正文核查记录。"
+    },
+    {
+      "url": "https://www.jo.se/en/about-jo/the-ombudsmen/",
+      "readScope": "本轮正文59–62行全文，四位、议会直接任命及独立性；不采用任期。"
+    },
+    {
+      "url": "https://www.jo.se/en/how-to-complain/",
+      "readScope": "本轮59–86行正文全文，公开保密例外、不能改判、线上表格。"
+    },
+    {
+      "url": "https://www.jo.se/en/about-jo/tasks-and-role/",
+      "readScope": "本轮59–80行正文全文，监督职责、主动调查、批评/立法建议/依法起诉。"
+    }
+  ],
+  "editorialChanges": [
+    "删除无年份1200封信和8位助手、最早认识失误等无据断言；更新制度而非冒称OCR。",
+    "旧案保留为教材故事而非已证实真实案例；档案欠缺证据不等于禁止记载，后续投诉本身不导致自动起诉；提问同步。",
+    "音频保持原文，正文显式说明修订。"
+  ],
+  "unresolved": []
+}

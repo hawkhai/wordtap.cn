@@ -1,0 +1,21 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "ec16b406ea6e89dbdb61d0e18a20daabcfd07d7e3cb6764e8cdc8fc783d20b6d",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title；全文 blocks[0..3] 与对应 text；现有正文/对话/题干逐块通读复核。",
+  "notes": "文明旅游论述由总起、破坏景点、打扰居民、总结建议四段组成，事例与评价属于同段。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/4740ce3a79c76ed50ec32c5ff999c129801356704706efcb254adec545255a90.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "6d141d5e7bddb99c04ca958c238ceb7af25161926372021b6d908ad7c94e94d9"
+    }
+  ]
+}

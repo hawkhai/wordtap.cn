@@ -1,0 +1,105 @@
+{
+  "article": "e1-2011",
+  "rawRead": {
+    "blocks": 8,
+    "pdfPhysicalPages": [
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48
+    ],
+    "allPageImagesRead": true
+  },
+  "sources": [
+    {
+      "url": "https://www.scientificamerican.com/article/laughing-matters/",
+      "readScope": "搜索读取Steve Ayan、2009-04-01、开头及Amusing Exercise节至1988含笔实验两组操作，并读取部分后续幽默研究；直接打开失败，不声称全文通读。原刊重复亚里士多德归属，未查得古典原著位置，正文删除具名归属。"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36266452/",
+      "readScope": "搜索完整读取2022 Many Smiles摘要：3878人19国，模仿/主动动作结果与含笔条件不同；直接打开只返回页脚，未读全文。"
+    },
+    {
+      "url": "https://digitalcommons.chapman.edu/psychology_articles/330/",
+      "readScope": "搜索读取作者机构仓储完整摘要、2022-10-20及卷页1731–1742；未打开所链只读全文。"
+    },
+    {
+      "url": "https://playbill.com/article/its-a-family-affair-new-york-philharmonic-names-alan-gilbert-its-next-music-director",
+      "readScope": "搜索读取Matthew Westphal 2007-07-18新闻开头三段、宣布任命及2009–10乐季开始；未通读全文。"
+    },
+    {
+      "url": "https://investor.bankofamerica.com/regulatory-and-other-filings/select-sec-filings/content/0001193125-09-162423/dex991.htm",
+      "readScope": "搜索完整返回2009-08-03公告开头、公司重组背景、McGee部门职衔及离职目标陈述；后续完整管理团队名单未读。"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/874766/000129993309003914/htm_34508.htm",
+      "readScope": "搜索读取8-K Item5.02任命段：9月23日任命、10月1日生效；附件目录列新闻稿9月29日，未读完整备案。"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/874766/000129993309003914/exhibit2.htm",
+      "readScope": "搜索读取新闻稿题头2009-09-30和开头任命/职衔段；与索引29日不一致，正文避免用有争议的公布日。"
+    },
+    {
+      "url": "https://www.mckinsey.com/capabilities/growth-marketing-and-sales/our-insights/beyond-paid-media-marketings-new-vocabulary",
+      "readScope": "直接打开完整读取L14–43开头及五类媒体段、BabyCenter与Toyota；也读L44–64，但输出未覆盖全文尾部或图表，不称全文通读。2010-11-01。"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/vprr/0202/02024008.pdf",
+      "readScope": "搜索返回强生2001年报并购说明，含Babycenter列于收购企业；未下载或通读PDF，不据其判断1997创立日。"
+    },
+    {
+      "url": "https://nymag.com/news/features/67024/",
+      "readScope": "直接读取L185–218：标题、Jennifer Senior、网页2010-07-02、封面文案及开头研究讨论含single parents；未通读后部。导读只写2010年7月，避免与书目索引7月4日混用。"
+    },
+    {
+      "url": "https://news.harvard.edu/gazette/story/2010/02/the-marketplace-of-ideas-reform-and-resistance-in-the-american-university/",
+      "readScope": "搜索完整短讯2010-02-18，核书名、作者、Norton2010年1月出版。未取得该书全文或重算历史统计。"
+    },
+    {
+      "url": "https://students-residents.aamc.org/medical-school-admission-requirements/admission-requirements",
+      "readScope": "搜索完整入学要求正文，先本科、先修课各校不同；未读取付费MSAR。"
+    },
+    {
+      "url": "https://students-residents.aamc.org/medical-school-admission-requirements/fact-or-fiction-reviewing-data-official-guide-medical-school-admissions",
+      "readScope": "搜索读取完整主要正文含专业不限、2015–2016数据示例；仅用于本科专业不限说明，不把旧数值当当前数据。"
+    },
+    {
+      "url": "https://students-residents.aamc.org/medical-school-admission-requirements/buying-and-using-medical-school-admission-requirements-faq?topic=medical-school-requirements",
+      "readScope": "搜索读取国际申请FAQ关于本科要求、四年医学课程资金及各校条件差异；未读取完整所有FAQ。"
+    },
+    {
+      "url": "https://www.law.tamu.edu.prod.sites-marcom.cloud.tamu.edu/degrees-programs/jd-degree/jd-faqs.html",
+      "readScope": "搜索读取校方JD项目90学分、约三个学年及双学位说明；非各州执业规则。"
+    },
+    {
+      "url": "https://www.americanbar.org/groups/legal_education/accreditation/faqs/",
+      "readScope": "搜索读取法律教育资格和执业资格区别：州规定考试和执业准入；未读完整FAQ。"
+    },
+    {
+      "url": "https://www.butler-bowdon.com/james-allen---as-a-man-thinketh.html",
+      "readScope": "搜索读取作者网站As a Man Thinketh评论的开头、We are the sum、Our circumstances及Final word和50 Self-Help Classics来源行。搜索段间有省略，未冒称完整书评或Allen原著通读。可核46–48的语句及文本归属，49–50依原卷核读。"
+    }
+  ],
+  "review": {
+    "finalBlocks": 123,
+    "fullFinalRead": true,
+    "cloze": "CDBBABADCABCDCBDADAC",
+    "reading": "CBDBABDCACDCBAACDADB",
+    "ordering": "BDACF",
+    "corrections": [
+      "删除未核实古典引语具名归属、补1988研究条件及2022摘要限定",
+      "Gilbert公布年份2007，非上任2009",
+      "McGee业务部门职衔、2009年8月离职公告及Hartford任命生效日期",
+      "BabyCenter为2001收购",
+      "33题明确hijacked、27和28改段首定位",
+      "单亲幸福感限定当时研究",
+      "排序G固定首段及本科后专业学位说明",
+      "译文46–50完整题界、评论者归属、漫画描述",
+      "断词杂字题位及标点恢复"
+    ]
+  }
+}

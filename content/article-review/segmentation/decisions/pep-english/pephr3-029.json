@@ -1,0 +1,21 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "26c22732abbc192aa8cfb64e58031aa011c9da9991409b32987bb24a1a23eb28",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title；全文 blocks[0..0] 与对应 text；现有正文/对话/题干逐块通读复核。",
+  "notes": "量子卫星发射、粒子关联通信和安全性组成完整短说明，保留原文无事实改写。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/8206eabc11896271e9a2430709f7c3acb7f6aea0e2a5afe0c07ed2cdef970931.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "fb1e3248abe8466deb04e3306bce78a12139b9f2cf628c03bb286d9f909ec385"
+    }
+  ]
+}

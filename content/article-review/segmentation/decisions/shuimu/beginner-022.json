@@ -1,0 +1,111 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "c219b9b17eda04abebb2b3fdb8e06ced31c5d89a2a0c34c4c320c39260ff7282",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "coverage": "全文 blocks[0..101]；按 JSON 上下文逐项复核对话、解释、题目、表格、词表及修复后的边界。",
+  "notes": "九处语法说明和例句译文断行接回：事情、医院、回家、连词定义及 and/or/for 说明；生活描述的中英对应和所有列表层次保留。",
+  "issues": [],
+  "mergeBlocks": [
+    {
+      "start": 33,
+      "end": 34,
+      "before": [
+        "◦ school 前面不加冠词，如果加上冠词的意思则为“去学校”，可以做任何事",
+        "情"
+      ],
+      "text": "◦ school 前面不加冠词，如果加上冠词的意思则为“去学校”，可以做任何事情",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 36,
+      "end": 37,
+      "before": [
+        "◦ go to hospital 的意思是去医院（看病、住院），但是 go to the hospital",
+        "的意思是“去医院”"
+      ],
+      "text": "◦ go to hospital 的意思是去医院（看病、住院），但是 go to the hospital 的意思是“去医院”",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 38,
+      "end": 39,
+      "before": [
+        "▪ She goes to the hospital from Monday to Friday.她周一到周五在医",
+        "院上班。"
+      ],
+      "text": "▪ She goes to the hospital from Monday to Friday.她周一到周五在医院上班。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 45,
+      "end": 46,
+      "before": [
+        "▪ I come home from a day's tiring work.在一天的工作后，我疲惫地回",
+        "了家。"
+      ],
+      "text": "▪ I come home from a day's tiring work.在一天的工作后，我疲惫地回了家。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 58,
+      "end": 59,
+      "before": [
+        "并列连词是用来连接平行对等、互不从属的词、短语或分句，可表示并列、转折、选",
+        "择或因果等关系。常见的并列连词有以下几种。"
+      ],
+      "text": "并列连词是用来连接平行对等、互不从属的词、短语或分句，可表示并列、转折、选择或因果等关系。常见的并列连词有以下几种。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 64,
+      "end": 65,
+      "before": [
+        "▪ He likes reading, and singing is also his hobby.他喜欢看书，唱歌也",
+        "是他的爱好。"
+      ],
+      "text": "▪ He likes reading, and singing is also his hobby.他喜欢看书，唱歌也是他的爱好。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 67,
+      "end": 68,
+      "before": [
+        "◦ 在口语中，and 常用在 come, go, run, stay, try 等之后表示目的，and 在此",
+        "相当于不定式符号 to"
+      ],
+      "text": "◦ 在口语中，and 常用在 come, go, run, stay, try 等之后表示目的，and 在此相当于不定式符号 to",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 74,
+      "end": 75,
+      "before": [
+        "▪ Hurry up, or else you will miss the last bus.快点，否则你会错过末班",
+        "车的。"
+      ],
+      "text": "▪ Hurry up, or else you will miss the last bus.快点，否则你会错过末班车的。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 84,
+      "end": 85,
+      "before": [
+        "▪ I went to bed early, for I was too tired.我很早就睡觉了，因为我太累",
+        "了。"
+      ],
+      "text": "▪ I went to bed early, for I was too tired.我很早就睡觉了，因为我太累了。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    }
+  ],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/4ee0e884b96d96e1d29c6c1fa00922d149430258f3f869e3316b8a6dd4649c52.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "f11254cb6bda8e687b5e8a4c2e695879bd4ef11f92fa5b0b6eb398007ee831b0"
+    }
+  ]
+}

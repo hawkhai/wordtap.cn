@@ -1,0 +1,76 @@
+{
+  "article": "e1-1993",
+  "checkedAt": "2026-10-03",
+  "sourcePdfPhysicalPagesRead": [
+    12,
+    13,
+    14,
+    15,
+    16
+  ],
+  "sources": [
+    {
+      "url": "https://sourcebooks.web.fordham.edu/source/salimbene1.asp",
+      "scope": "实际打开全文读取（41行页面），Coulton译述的Salimbene编年史摘段归FrederickII，不是FrederickI。只证明存在这段历史记述，不证明实验确实执行或死亡机制；原史料不支持first year精确时限。"
+    },
+    {
+      "url": "https://www.nidcd.nih.gov/health/speech-and-language",
+      "scope": "检索实际读语言发展、里程碑、障碍差别、评估及研究五个主体小节；未读取页面下方所有逐年龄清单。听力和语言障碍可造成迟缓、个体进度有差异，不能仅归责母亲。"
+    },
+    {
+      "url": "https://www.nidcd.nih.gov/health/developmental-language-disorder",
+      "scope": "实际检索读多语言并非有害、晚说话部分会追上而DLD困难可持续、幼儿及较大孩子语法句式症状段，非全页。"
+    },
+    {
+      "url": "https://fromm-online.org/wp-content/uploads/fromm-titles/1964c-eng.pdf",
+      "scope": "实际打开读取5页PDF全部提取文本；用第3页right mixture和not only，第4–5页人本工业主义理解论旨。原卷是删改节选，不把原作另有的段落擅自填入。未阅读页面图像。"
+    },
+    {
+      "url": "https://www.gutenberg.org/files/1315/1315-h/1315-h.htm",
+      "scope": "实际读The Method of Scientific Investigation开篇701–708行及注86–88，校graduated/Moliere，apparatus可复数；整本未通读。原卷32/33等为简化改写，保留而非硬替整篇。"
+    },
+    {
+      "url": "https://vlex.co.uk/vid/georges-valensi-and-electric-793199497",
+      "scope": "实际打开英国上诉法院1972-05-18判决元数据及开篇第1–6段：英专利524443、1939申请、1940acceptance、1955通常到期、战争损失延1964及报酬不足延1971-06-30。仅读公开可见开头，未通读完整侵权技术论证或结论。"
+    },
+    {
+      "url": "https://www.wipo.int/en/web/patents/faq_patents",
+      "scope": "实际读Basics、Confidentiality、Patent information及检索关于公开、现有技术和宽限期内容；非全页全链接。区分公开与到期、期限权利地域性、同一旧技术不因岁月重新新颖。"
+    },
+    {
+      "url": "https://www.wipo.int/en/web/patents/protection",
+      "scope": "检索实际读部分法域6或12月公开宽限期及grant/publication说明，非全页；未给任何个案法律结论。"
+    },
+    {
+      "url": "https://www.wipo.int/edocs/pubdocs/en/wipo_pub_1062.pdf",
+      "scope": "检索实际读FTO评估仍需识别相关权利、法律状态及每阶段不确定性段；未全本PDF。"
+    },
+    {
+      "url": "https://www.wipo.int/en/web/wipo-magazine/articles/ip-and-business-launching-a-new-product-freedom-to-operate-34956",
+      "scope": "检索实际读FTO以有效/申请专利检索及法律分析起始、地域差异和新改进专利性段，非全篇。"
+    },
+    {
+      "url": "https://avpreservation.si.edu/object/nmah_1301345",
+      "scope": "实际检索读Telephone Answering Machine Component藏品元数据及Description(BRIEF)前两段，1878构想、十年后发表、1898Poulsen实用装置；未将史料引述当1886基础专利证明。"
+    }
+  ],
+  "limitations": [
+    "5原块和5页原图实际全部读；83块最终全文复读，随后早期敏感期、20/23平行选项、26改标题和括号说明再次核对。",
+    "无官方答案，中译也未收录。编校后完形推理BDABDCACBDABDCB；1D/5B/13A或C有近义搭配可能，正文已有说明。阅读BCCBDCDDCBADBAA为编辑推理，相关新选项并非原题。",
+    "语言篇将死亡实验明确为编年史说法，FrederickII改名；删除无法核实的第一年全死亡时限及把母亲态度说成首要原因、固定年龄词数和四岁语法成熟等过度概括。保留语言敏感期与互动重要性，不将个体孩子作诊断。",
+    "Fromm原作支持right/not only，概括是人本改造而非退出社会，21–23及25相应明确；源稿social critique不是所有工人管理者的精神健康事实。",
+    "法律内容实质校订并明示：专利公开时间、权利期限、公开现有技术/宽限期、其他权利以及50年不重获新颖性；26–30按新文改题，原卷所有前置内容仍留签名。",
+    "Valensi延长期限与理由查到判决文本，无需将旧稿称世界最长或仅因无彩电的推测当实录；1904马车专利号未找到，已明示删该不可靠类比，改成不得凭旧布局断定法律预期性。",
+    "磁记录1878构想→1888发表→1898实用装置来自馆藏说明，未将发表当作专利；专利1886说法移除。",
+    "Huxley标题、graded→graduated、Motiere→Molière核实；原卷改编范围保留。31–35按原下划线，32不把后续举例纳入，34到training句尾。",
+    "作文起始句真实在物理页16，完整保留，based at→based on、l→1；不混同前两年缺起始句适配。"
+  ],
+  "answerChecks": {
+    "editorReasoningNotOfficial": {
+      "cloze": "BDABDCACBDABDCB（1/5/13存在近义项）",
+      "reading": "BCCBDCDDCBADBAA"
+    }
+  },
+  "rawSha256": "da4a953d1e5c1a13ac1c25086d8906815a156a9e94baca4e46aa45cb867a2003",
+  "pdfSha256": "802c3d218714a6362731273cc8d2b9d25ab499f210d39194461a3cf5b28c4a39"
+}

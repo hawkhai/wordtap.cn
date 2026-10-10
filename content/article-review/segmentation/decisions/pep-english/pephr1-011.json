@@ -1,0 +1,21 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "aeae23de5881976b257ae27440052969cdd8f62a1454c25dc95cbf62966ae4b7",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title；全文 blocks[0..0] 与对应 text；现有正文/对话/题干逐块通读复核。",
+  "notes": "兵马俑介绍从雕像特点到陵墓建造和发现，完整段落连贯，无句内断行。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/2611f41da7a9aedb2b071a490c2c3d34e8b686fb8b4812b6acad2f02343c3193.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "d943419d3f93219297861e1f442f4fb6e592520fdde759f944c048f7627e1312"
+    }
+  ]
+}

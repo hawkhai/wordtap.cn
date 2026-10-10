@@ -1,0 +1,21 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "d417937d7043907caac32665561a7aeeb56d7b8243dc61bd3161bed533b4bca9",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "完整通读title及原始blocks[0..19]，含正文、译文、标题及引语；text与全块连接一致。内存应用明确操作并validate_layout_change后复核修复全文blocks[0..19]。",
+  "notes": "20块全文从读书注意力变化、网络检索与读者轶事、英国研究到阅读脑回路及尼采打字机，全部英文和译文边界连贯，无物理续行应合并。 内容旁注（不属本轮句段验收）：blocks[0,4]英文混入汉字一，blocks[4]universa一medium、Wired’s0、blocks[18]ntake及引号组合疑似文字损坏；blocks[3]创门、blocks[5]博客来源语、blocks[13,15]设释等也需非空白文字确认，保留原文。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/d4efd3b713ee473ac65f5974d4607a99a79cd6b8e9eecfa7923ee9222a324a09.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "e1e9df07060e3f2010b75e582cce70f1d1be203d91c99de368ba0e4873f593b9"
+    }
+  ]
+}

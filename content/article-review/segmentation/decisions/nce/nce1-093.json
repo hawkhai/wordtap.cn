@@ -1,0 +1,26 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "b165fea1c6d88d9f71e72629cfbd053b46262b2dd7d04e07fa2396270266a879",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title/titleZh、question/questionZh、bodyText全部12行、bodyTextZh全部12行及sentences[0..15]的完整文字；重复正文与字幕文本逐字比对，非正文字幕另读。操作在内存应用并validate_layout_change，修复后的双语全文重新通读。",
+  "notes": "新邻居飞行员简介按身份、未来航程、当前西班牙与归期、周游世界幸运、妻子留家对比合为自然段。 text与bodyText同步；sentences对象及时间、角色、索引原样保留。",
+  "issues": [],
+  "display": {
+    "text": "Why is Nigel a lucky man?\n\nNigel is our new next-door neighbour. He's a pilot. He was in the R.A.F.\nHe will fly to New York next month. The month after next he'll fly to Tokyo.\nAt the moment, he's in Madrid. He flew to Spain a week ago. He'll return to London the week after next.\nHe's only forty-one years old, and he has already been to nearly every country in the world. Nigel is a very lucky man.\nBut his wife isn't very lucky. She usually stays at home!",
+    "bodyText": "Nigel is our new next-door neighbour. He's a pilot. He was in the R.A.F.\nHe will fly to New York next month. The month after next he'll fly to Tokyo.\nAt the moment, he's in Madrid. He flew to Spain a week ago. He'll return to London the week after next.\nHe's only forty-one years old, and he has already been to nearly every country in the world. Nigel is a very lucky man.\nBut his wife isn't very lucky. She usually stays at home!",
+    "bodyTextZh": "奈杰尔是我们的新邻居，住在我们隔壁。他是一名飞行员。他曾在英国皇家空军（R.A.F.）服役。\n他下个月将飞往纽约。下下个月，他将飞往东京。\n目前，他在马德里。他一周前飞去了西班牙。他将在下下周回到伦敦。\n他才四十一岁。他已经去过世界上几乎所有的国家了。奈杰尔是个非常幸运的人。\n不过他的妻子运气不太好。她通常待在家里！"
+  },
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/b2bf13769f1689c585837a97798436d8807a3cc47695c556fe766ce1bc2edc96.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "c3484b5967e84277c5260047491b26b758d38b4981e54ffc5d2135a49ad09c29"
+    }
+  ]
+}

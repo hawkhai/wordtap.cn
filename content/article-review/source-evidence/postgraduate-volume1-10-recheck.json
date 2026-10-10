@@ -1,0 +1,27 @@
+{
+  "article": "postgraduate/volume1-10",
+  "fullRead": "18块含导读、7段正文与独立引文英中完整读；OCR288–290/印刷277–279全文；校方PAW全26段及Congressional Record两页演说完整读。",
+  "sources": [
+    {
+      "url": "https://www.princeton.edu/~paw/archive_new/PAW01-02/03-1024/prezpage.html",
+      "read": "校方2001-10-24刊载9月28日演说删节版，确认1933Dodds引文public and private、insure原词及2001背景；此刊本删去Nash/Wieschaus例和Wilson引文，不误以删节为不存在。"
+    },
+    {
+      "url": "https://www.govinfo.gov/content/pkg/CREC-2001-10-05/pdf/CREC-2001-10-05-pt1-PgH6415.pdf",
+      "read": "2001-10-05 H6415–H6416演说全文，补核Nash/Wieschaus和Wilson引文。therefore两逗号中间原有，教材删词遗留主谓间逗号，现恢复；该重印亦有childlike faith漏字/base don等排字瑕疵，不机械照搬。"
+    }
+  ],
+  "editorialCorrections": [
+    "导读明确姓名、2001-09-28、九一一背景，保留当时校训，不把历史讲稿写成当前学校声明。",
+    "Dodds直接引语连接词还原and；Wilson therefore恢复，去除因删词造成的不当主谓逗号；不恢复教材有意删节的其余大段。",
+    "无独立官方中译，完成每组英文与中文语义审定；费用不缩为学费，we不扩大成任何人，intellectual不只限于学术。"
+  ],
+  "translationReview": [
+    "导读特权与责任；段1学术界地位/共识/研究机构对国家的作用准确；段2政府研究支持与研究生培养、私人援助、社会三项期待并列关系完整。",
+    "段3多孔隐喻、双向流动、公众服务、实验室成果及学生公民责任准确；段4自由探索为演讲者立场，Nash与Wieschaus例、知识用途不可预见、偶然性非反智均保持。",
+    "段5传播研究可纠错可累积，历史/哲学/经济/工程/科学和跨学科恐怖主义理解逐项对应；insure符合原讲稿，非保险误用不必现代化。",
+    "Wilson引文catholic为广泛而非宗教，non-partisan不偏不倚，letter为字面拘泥；13th是校长非美国总统已正确。",
+    "末段通识/职业训练的区别，classicsscholar古典学者，civil文明与civic公民不同概念、义务和当时校训复核。"
+  ],
+  "unresolved": []
+}

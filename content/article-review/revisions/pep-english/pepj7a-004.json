@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 1,
+  "course": "pep-english",
+  "articleId": "pepj7a-004",
+  "beforeDisplaySha256": "eb65894c38c55ba3e4522009580a0db6f386f4d67673405998ad8c8c2e994f11",
+  "afterDisplaySha256": "eb65894c38c55ba3e4522009580a0db6f386f4d67673405998ad8c8c2e994f11",
+  "baselineDisplay": {
+    "title": "Dear Jenny",
+    "section": "Section B",
+    "text": "Dear Jenny,\nI am very busy on Friday. At 8:00 I have math. It is not fun. The teacher says it is useful, but I think it is difficult. Then at 9:00 I have science. It is difficult but interesting. At 10:00 I have history. After that, I have P.E. at 11:00. It is easy and fun. Lunch is from 12:00 to 1:00, and after that we have Chinese. It is my favorite subject. Our Chinese teacher, Mrs. Wang, is great fun. My classes finish at 1:50, but after that I have an art lesson for two hours. It is really relaxing!\nHow about you? When are your classes? What is your favorite subject?\nYour friend,\nYu Mei",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Dear Jenny,"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "I am very busy on Friday. At 8:00 I have math. It is not fun. The teacher says it is useful, but I think it is difficult. Then at 9:00 I have science. It is difficult but interesting. At 10:00 I have history. After that, I have P.E. at 11:00. It is easy and fun. Lunch is from 12:00 to 1:00, and after that we have Chinese. It is my favorite subject. Our Chinese teacher, Mrs. Wang, is great fun. My classes finish at 1:50, but after that I have an art lesson for two hours. It is really relaxing!"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "How about you? When are your classes? What is your favorite subject?"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Your friend,\nYu Mei"
+      }
+    ]
+  },
+  "display": {
+    "title": "Dear Jenny",
+    "section": "Section B",
+    "text": "Dear Jenny,\nI am very busy on Friday. At 8:00 I have math. It is not fun. The teacher says it is useful, but I think it is difficult. Then at 9:00 I have science. It is difficult but interesting. At 10:00 I have history. After that, I have P.E. at 11:00. It is easy and fun. Lunch is from 12:00 to 1:00, and after that we have Chinese. It is my favorite subject. Our Chinese teacher, Mrs. Wang, is great fun. My classes finish at 1:50, but after that I have an art lesson for two hours. It is really relaxing!\nHow about you? When are your classes? What is your favorite subject?\nYour friend,\nYu Mei",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Dear Jenny,"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "I am very busy on Friday. At 8:00 I have math. It is not fun. The teacher says it is useful, but I think it is difficult. Then at 9:00 I have science. It is difficult but interesting. At 10:00 I have history. After that, I have P.E. at 11:00. It is easy and fun. Lunch is from 12:00 to 1:00, and after that we have Chinese. It is my favorite subject. Our Chinese teacher, Mrs. Wang, is great fun. My classes finish at 1:50, but after that I have an art lesson for two hours. It is really relaxing!"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "How about you? When are your classes? What is your favorite subject?"
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Your friend,\nYu Mei"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "path": "content/article-review/history/ad0964c4168d7f6cd267f4aa6ce1dbdb7425e9bf11afa85925a710bbc6bc95e9.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "4fae23a6f3353d9aea763b48e51da56ed624bbebf7bfa995e90e0ebe68938260"
+    }
+  ],
+  "corrections": [],
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "reviewer": "Codex",
+  "reviewedAt": "2026-10-07T07:39:46+00:00",
+  "notes": "Yu Mei给Jenny信保留称呼、完整周五课表叙述段、询问对方、落款，不按各时间拆碎。",
+  "issues": [],
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "442046e8deba6c19d7c439dde8d151bbe091ca96eba741951f079b1836dd4ff3",
+    "afterFileSha256": "442046e8deba6c19d7c439dde8d151bbe091ca96eba741951f079b1836dd4ff3",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "442046e8deba6c19d7c439dde8d151bbe091ca96eba741951f079b1836dd4ff3",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..3] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "Yu Mei给Jenny信保留称呼、完整周五课表叙述段、询问对方、落款，不按各时间拆碎。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "blockEdits": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/ad0964c4168d7f6cd267f4aa6ce1dbdb7425e9bf11afa85925a710bbc6bc95e9.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "4fae23a6f3353d9aea763b48e51da56ed624bbebf7bfa995e90e0ebe68938260"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "ad0964c4168d7f6cd267f4aa6ce1dbdb7425e9bf11afa85925a710bbc6bc95e9"
+}

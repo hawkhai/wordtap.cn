@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 1,
+  "course": "pep-english",
+  "articleId": "pepj7a-003",
+  "beforeDisplaySha256": "2bfbe26590c7593397d5c2bb2f9dfc548e594c21e3b1a0c415e3c5c791e52acd",
+  "afterDisplaySha256": "2bfbe26590c7593397d5c2bb2f9dfc548e594c21e3b1a0c415e3c5c791e52acd",
+  "baselineDisplay": {
+    "title": "Mr. Cool's Clothes Store",
+    "section": "Section B",
+    "text": "Come and buy your clothes at our great sale! We sell all our clothes at very good prices. Do you like sweaters? We have green sweaters for only $15! Yellow sweaters are only $12! Do you need trousers? For boys, we have black trousers for only $22. And shorts are only $16! For girls, we have skirts in purple for only $20. How much are our jackets? Only $30! And we have black shoes for only $28. Socks are only $2 for three pairs! Come to Mr. Cool's Clothes Store now!",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Come and buy your clothes at our great sale! We sell all our clothes at very good prices. Do you like sweaters? We have green sweaters for only $15! Yellow sweaters are only $12! Do you need trousers? For boys, we have black trousers for only $22. And shorts are only $16! For girls, we have skirts in purple for only $20. How much are our jackets? Only $30! And we have black shoes for only $28. Socks are only $2 for three pairs! Come to Mr. Cool's Clothes Store now!"
+      }
+    ]
+  },
+  "display": {
+    "title": "Mr. Cool's Clothes Store",
+    "section": "Section B",
+    "text": "Come and buy your clothes at our great sale! We sell all our clothes at very good prices. Do you like sweaters? We have green sweaters for only $15! Yellow sweaters are only $12! Do you need trousers? For boys, we have black trousers for only $22. And shorts are only $16! For girls, we have skirts in purple for only $20. How much are our jackets? Only $30! And we have black shoes for only $28. Socks are only $2 for three pairs! Come to Mr. Cool's Clothes Store now!",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Come and buy your clothes at our great sale! We sell all our clothes at very good prices. Do you like sweaters? We have green sweaters for only $15! Yellow sweaters are only $12! Do you need trousers? For boys, we have black trousers for only $22. And shorts are only $16! For girls, we have skirts in purple for only $20. How much are our jackets? Only $30! And we have black shoes for only $28. Socks are only $2 for three pairs! Come to Mr. Cool's Clothes Store now!"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "path": "content/article-review/history/87f09311e5c00c4a610fdf4eae937f2e7d06aca11b2b327a8c96955c2e230bb5.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "ff5277738c3df046b4f9e9b5dc17ef6bf18125a164b5f9293962cc1924501e40"
+    }
+  ],
+  "corrections": [],
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "reviewer": "Codex",
+  "reviewedAt": "2026-10-07T07:39:46+00:00",
+  "notes": "Mr. Cool服装促销连续问答式广告为同一完整销售段，商品价格语句不误作角色对话拆分。",
+  "issues": [],
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "8309c6cf04a4b2143e7d4634d14b32dd6a77cb5ed36797612974de3ae47887be",
+    "afterFileSha256": "8309c6cf04a4b2143e7d4634d14b32dd6a77cb5ed36797612974de3ae47887be",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "8309c6cf04a4b2143e7d4634d14b32dd6a77cb5ed36797612974de3ae47887be",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..0] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "Mr. Cool服装促销连续问答式广告为同一完整销售段，商品价格语句不误作角色对话拆分。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "blockEdits": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/87f09311e5c00c4a610fdf4eae937f2e7d06aca11b2b327a8c96955c2e230bb5.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "ff5277738c3df046b4f9e9b5dc17ef6bf18125a164b5f9293962cc1924501e40"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "87f09311e5c00c4a610fdf4eae937f2e7d06aca11b2b327a8c96955c2e230bb5"
+}

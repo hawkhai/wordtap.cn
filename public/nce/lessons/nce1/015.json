@@ -12,16 +12,16 @@
   "titleZh": "请出示你们的护照。",
   "question": "Is there a problem with the Customs officer?",
   "questionZh": "海关官员有什么问题吗？",
-  "text": "Is there a problem with the Customs officer?\n\nAre you Swedish?\nNo we are not.\nWe are Danish.\nAre your friends Danish too?\nNo they aren't.\nThey are Norwegian.\nYour passports please.\nHere they are.\nAre these your cases?\nNo they aren't.\nOur cases are brown.\nHere they are.\nAre you tourists?\nYes we are.\nAre your friends tourists too?\nYes they are.\nThat's fine.\nThank you very much.",
-  "bodyText": "Are you Swedish?\nNo we are not.\nWe are Danish.\nAre your friends Danish too?\nNo  they aren't.\nThey are Norwegian.\nYour passports please.\nHere they are.\nAre these your cases?\nNo they aren't.\nOur cases are brown.\nHere they are.\nAre you tourists?\nYes we are.\nAre your friends tourists too?\nYes they are.\nThat's fine.\nThank you very much.",
-  "bodyTextZh": "你是瑞典人吗？\n不，我们不是。\n我们是丹麦人。\n你的朋友们也是丹麦人吗？\n不，他们不是。\n他们是挪威人。\n请出示你们的护照。\n给您。\n这些是你的箱子吗？\n不，它们不是。\n我们的箱子是棕色的。\n给您。\n你们是游客吗？\n是的，我们是。\n你们的朋友也是游客吗？\n是的，他们也是游客。\n好了。 没问题了。\n非常感谢你们。",
+  "text": "Is there a problem with the Customs officer?\n\nAre you Swedish?\nNo we are not. We are Danish.\nAre your friends Danish too?\nNo they aren't. They are Norwegian.\nYour passports please.\nHere they are.\nAre these your cases?\nNo they aren't. Our cases are brown. Here they are.\nAre you tourists?\nYes we are.\nAre your friends tourists too?\nYes they are.\nThat's fine.\nThank you very much.",
+  "bodyText": "Are you Swedish?\nNo we are not. We are Danish.\nAre your friends Danish too?\nNo they aren't. They are Norwegian.\nYour passports please.\nHere they are.\nAre these your cases?\nNo they aren't. Our cases are brown. Here they are.\nAre you tourists?\nYes we are.\nAre your friends tourists too?\nYes they are.\nThat's fine.\nThank you very much.",
+  "bodyTextZh": "你是瑞典人吗？\n不，我们不是。我们是丹麦人。\n你的朋友们也是丹麦人吗？\n不，他们不是。他们是挪威人。\n请出示你们的护照。\n给您。\n这些是你的箱子吗？\n不，它们不是。我们的箱子是棕色的。给您。\n你们是游客吗？\n是的，我们是。\n你们的朋友也是游客吗？\n是的，他们也是游客。\n好了。 没问题了。\n非常感谢你们。",
   "sentences": [
     {
       "index": 0,
       "startTime": 0.5,
       "endTime": 2.89,
       "en": "Lesson 15",
-      "zh": "第15课",
+      "zh": "第 15 课",
       "role": "lesson"
     },
     {
@@ -84,7 +84,7 @@
       "index": 8,
       "startTime": 30.21,
       "endTime": 33.75,
-      "en": "No  they aren't.",
+      "en": "No they aren't.",
       "zh": "不，他们不是。",
       "role": "body"
     },

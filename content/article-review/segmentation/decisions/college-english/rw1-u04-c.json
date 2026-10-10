@@ -1,0 +1,21 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "dcf64b6bb611f871a6f0690754fef3bf1dcfdad3c7a5ae845058d2f3eb8af4fc",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "完整 title、blocks[0..5]及完全相同的text；正文及内嵌中文、引语、对话和列举均已逐项通读；无改动输出按全文再次复核。",
+  "notes": "全文及未改动输出复核：网络统计、使用时长、Jia Zhu依赖、Kong Yiying自律、农产品直播、报告结语六段完整；人物采访与后文农业应用边界明确。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/6729a501ed46ea0619dc731466597d172b1f9c791a8d986c805a0804f4f61c03.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "488103b8da856ec98a3032450baa174520bd51d7a46f1a334e0828f0d3f9d804"
+    }
+  ]
+}

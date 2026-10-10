@@ -1,0 +1,101 @@
+{
+  "article": "cet6-20251203",
+  "checkedAt": "2026-10-03",
+  "sourcePdfPagesRead": 7,
+  "sources": [
+    {
+      "url": "https://styleandpolity.com/culture/2023/01/05/do-accents-disappear/",
+      "scope": "Chris C. Palmer、Michelle Devereaux的The Conversation转载，2023-01-05，正文全文实际读。确认口音/方言及行业研究题源；其no one speaks Standard English的绝对说法另据Cambridge纠正。"
+    },
+    {
+      "url": "https://dictionary.cambridge.org/us/grammar/british-grammar/pronunciation",
+      "scope": "Cambridge检索返回的standard English可用地域口音段实际读；直接网页403，未冒称网页全文读。区别语法词汇标准与口音。"
+    },
+    {
+      "url": "https://journals.sagepub.com/doi/10.1177/2378023121999161",
+      "scope": "2021-03-05 Forrest、McDonald、Dodsworth原论文摘要与引言相关段实际读。190份2008–2017访谈，Raleigh地区；科技业南方语音特征较少，不是直接测雇主接受度，也非全美行业普查。"
+    },
+    {
+      "url": "https://www.idrivesafely.com/defensive-driving/trending/history-and-meaning-colored-traffic-lights/",
+      "scope": "2021-12-13更新的原题源当前可见历史段及信号说明实际读。当前版本删改了原卷不少内容，不能把两者冒称逐字相同；历史和交通规则另外核查。"
+    },
+    {
+      "url": "https://thesourcearchives.metro.net/2013/02/19/city-of-los-angeles-says-all-its-traffic-signals-are-now-part-of-synchronization-program/",
+      "scope": "LA Metro发布2013-02-19市长办公室原通报全文读：4398信号、速度+16%、时间-12%为当地前后研究，不能换算全国拥堵-10%污染-20%。"
+    },
+    {
+      "url": "https://mutcd.fhwa.dot.gov/htm/2009/part4/part4d.htm",
+      "scope": "2009手册4D.01第8段实际读，定期重评必要时更新，并非统一强制两年；信号含义进一步对照2023手册。"
+    },
+    {
+      "url": "https://www.ciht.org.uk/news/traffic-light-anniversary-reached-in-london/",
+      "scope": "交通工程专业机构正文全文实际读：Knight姓名Peake、1868煤气信号、一个月后事故、1926重回伦敦，含TfL说明；纠1929。"
+    },
+    {
+      "url": "https://archives.utah.gov/research/inventories/series/29671/",
+      "scope": "Utah州档案Lester Wire藏品说明及履历全文实际读：1912于Second South/Main安装电信号。"
+    },
+    {
+      "url": "https://www.thehenryford.org/collections/explore/artifact/227457?AssetId=THF151126",
+      "scope": "博物馆展品说明和资料实际读：William Potts1920三色四向信号，黄灯帮助提高安全，不归给Morgan。"
+    },
+    {
+      "url": "https://www.guinnessworldrecords.com/world-records/544741-first-zebra-crossing",
+      "scope": "纪录正文全文实际读：1949试验，1951Slough正式永久斑马线；不能说1951之前无人行横道。"
+    },
+    {
+      "url": "https://invention.si.edu/invention-stories/diverse-voices-inventor-garrett-morgan",
+      "scope": "Smithsonian藏品相关段实际读：1923手动T形信号加入双向停止间隔，后被三色信号取代；不是发明黄灯。"
+    },
+    {
+      "url": "https://highways.fhwa.dot.gov/highway-history/general-highway-history/safer-stop-and-go-garrett-morgans-traffic-signal-legacy",
+      "scope": "FHWA历史正文全文实际读：Morgan手动三位置全向停止信号、专利及GE购买，另核Ford1903；未沿用其所有首创优先权措辞。"
+    },
+    {
+      "url": "https://mutcd.fhwa.dot.gov/pdfs/11th_Edition/mutcd11thedition.pdf",
+      "scope": "2023第11版PDF实读第683–685页（书页643–645）4A.03/04：稳黄、闪黄圆灯/箭头、红箭头及让行区别。未称全1161页读；规则保留适用地方规定。"
+    },
+    {
+      "url": "https://dmv.ny.gov/new-york-state-drivers-manual-and-practice-tests/chapter-4-traffic-control",
+      "scope": "纽约州驾驶手册Traffic Signals全文实际读：纽约市红灯转弯有标志许可例外；红箭头禁止转；稳黄/闪黄不同。不沿用旧州名例外清单。"
+    },
+    {
+      "url": "https://www.pressherald.com/2023/01/04/the-conversation-why-you-should-give-the-gift-of-mindfulness-this-new-year/",
+      "scope": "Jeremy David Engels作者原稿The Conversation转载，2023-01-04，正文全文实际读。关于倾听及注意力经济为作者评论。"
+    },
+    {
+      "url": "https://www.nccih.nih.gov/health/meditation-and-mindfulness-effectiveness-and-safety",
+      "scope": "定义、安全性、研究总体局限、焦虑和慢性疼痛相关段实际读；症状管理不等于慢性病治愈，研究结果不一致。未称所有附加研究通读。"
+    },
+    {
+      "url": "https://www.theguardian.com/technology/commentisfree/2018/nov/18/computers-have-learned-to-make-us-jump-through-hoops",
+      "scope": "John Naughton2018-11-18评论，通过requests取得maincontent正文全文读；作者推测自动驾驶用途，没有相关服务方验证，温水青蛙在原稿也是比喻。"
+    },
+    {
+      "url": "https://security.googleblog.com/2014/04/",
+      "scope": "2014-04-16 Street View and reCAPTCHA technology just got smarter整篇实际读：地图门牌识别、技术合作，不支持某个验证码必供Waymo训练。未把月归档其他文章算作读过。"
+    },
+    {
+      "url": "https://googleblog.blogspot.com/2009/09/teaching-computers-to-read-google.html?hl=en_GB",
+      "scope": "2009-09-16 von Ahn和Cathcart官方宣布文章实际读：用户识别书报扫描字帮助OCR；为历史任务用途例证，不泛化当前每个验证码。"
+    },
+    {
+      "url": "https://www.ndrc.gov.cn/fggz/hjyzy/stwmjs/202411/t20241125_1394850.html",
+      "scope": "2024官方答记者问相关段实际读：节约粮食、反浪费和光盘行动，核翻译政策背景，不把倡议当人人已实践的普查。"
+    }
+  ],
+  "limitations": [
+    "15原块和7页PDF图全部读，原卷无听力题，没有补配/冒称听过。",
+    "交通篇原网页版本与PDF不同；原卷San Francisco1917首创之说及全国减污比例缺乏足够佐证，已去掉首创和全国比例，37/38/41同步改题。",
+    "长标准及论文仅读列明段落，网页403明确说明；不冒称全读。",
+    "评论中的社会评价、个人经历及沟通建议保留作者观点；验证码训练自动驾驶未获确认，不作为事实。"
+  ],
+  "answerChecks": {
+    "cloze": "NGFJHMECDB",
+    "matching": "QIAJRLFKBN",
+    "reading": "BBACC / DCBAD",
+    "listening": "原PDF无听力题，未补配"
+  },
+  "rawSha256": "81bf2c43943c8699ae2671d81bab31d37fb6facb015d96741657b623f9a5232f",
+  "pdfSha256": "9151ec800264de84ecee25f07bd37bee283c411ae821259fd6055cbf9b1d7c2b"
+}

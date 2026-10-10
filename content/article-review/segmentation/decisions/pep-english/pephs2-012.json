@@ -1,0 +1,21 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "97037901955dcd3d3d1c163801f2cb605d7d7d589f46276a81c180b074d95abc",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title；全文 blocks[0..5] 与对应 text；现有正文/对话/题干逐块通读复核。",
+  "notes": "加拿大铁路游记按启程、温哥华、落基山、Edmonton、草原、Winnipeg到Toronto六段，行程顺序与段落完整。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/b4248cf8f071624ab2d0e8421893bb554471480f4e866ff662fa19315fb0753d.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "2275b76e75183b7e08c9cb44b6082470725bc02e8559f496a41787b30aa4db2c"
+    }
+  ]
+}

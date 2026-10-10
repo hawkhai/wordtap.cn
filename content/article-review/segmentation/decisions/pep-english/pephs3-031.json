@@ -1,0 +1,21 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "7796b3f1fc4b97b193a1979ce34ea05c6f4fba881dd696babf6eae8dd908e970",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title；全文 blocks[0..0] 与对应 text；现有正文/对话/题干逐块通读复核。",
+  "notes": "春晓译诗四行完整，末问号与前行意象连贯，保留诗行。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/426eaa6002d61da20c3f557e90e840c511e2457b5ec6c962e8bb01c2d092d2db.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "be1e409bfbfb060315c90f18e11405f172c5cf9c2d1f1222ad838d6c8a49e37d"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "schemaVersion": 1,
+  "course": "pep-english",
+  "articleId": "pepj8b-014",
+  "beforeDisplaySha256": "71e628605f00ee4caab65449e47060335179402c09153acb18ff2e8b16717ebd",
+  "afterDisplaySha256": "71e628605f00ee4caab65449e47060335179402c09153acb18ff2e8b16717ebd",
+  "baselineDisplay": {
+    "title": "Robinson Crusoe on the Island",
+    "section": "Section A",
+    "text": "When I first arrived on this island, I had nothing. But I've found the ship and made a small boat. I've brought back many things I can use — food and drink, tools, knives and guns. Although I have lost everything, I have not lost my life. So I will not give up and I will wait for another ship. I have already cut down trees and built a house. I go out with my gun almost every day to kill animals and birds for food. I'm even learning to grow fruit and vegetables.\nA few weeks ago, I found the marks of another man's feet on the sand. Who else is on my island? How long have they been here? Not long after that, I saw some cannibals trying to kill two men from a broken ship. One of them died but the other ran towards my house. I helped him kill the cannibals. This man now lives with me and helps me. I named him Friday because that was the day I met him. He is smart and I have already taught him some English.",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "When I first arrived on this island, I had nothing. But I've found the ship and made a small boat. I've brought back many things I can use — food and drink, tools, knives and guns. Although I have lost everything, I have not lost my life. So I will not give up and I will wait for another ship. I have already cut down trees and built a house. I go out with my gun almost every day to kill animals and birds for food. I'm even learning to grow fruit and vegetables."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "A few weeks ago, I found the marks of another man's feet on the sand. Who else is on my island? How long have they been here? Not long after that, I saw some cannibals trying to kill two men from a broken ship. One of them died but the other ran towards my house. I helped him kill the cannibals. This man now lives with me and helps me. I named him Friday because that was the day I met him. He is smart and I have already taught him some English."
+      }
+    ]
+  },
+  "display": {
+    "title": "Robinson Crusoe on the Island",
+    "section": "Section A",
+    "text": "When I first arrived on this island, I had nothing. But I've found the ship and made a small boat. I've brought back many things I can use — food and drink, tools, knives and guns. Although I have lost everything, I have not lost my life. So I will not give up and I will wait for another ship. I have already cut down trees and built a house. I go out with my gun almost every day to kill animals and birds for food. I'm even learning to grow fruit and vegetables.\nA few weeks ago, I found the marks of another man's feet on the sand. Who else is on my island? How long have they been here? Not long after that, I saw some cannibals trying to kill two men from a broken ship. One of them died but the other ran towards my house. I helped him kill the cannibals. This man now lives with me and helps me. I named him Friday because that was the day I met him. He is smart and I have already taught him some English.",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "When I first arrived on this island, I had nothing. But I've found the ship and made a small boat. I've brought back many things I can use — food and drink, tools, knives and guns. Although I have lost everything, I have not lost my life. So I will not give up and I will wait for another ship. I have already cut down trees and built a house. I go out with my gun almost every day to kill animals and birds for food. I'm even learning to grow fruit and vegetables."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "A few weeks ago, I found the marks of another man's feet on the sand. Who else is on my island? How long have they been here? Not long after that, I saw some cannibals trying to kill two men from a broken ship. One of them died but the other ran towards my house. I helped him kill the cannibals. This man now lives with me and helps me. I named him Friday because that was the day I met him. He is smart and I have already taught him some English."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "path": "content/article-review/history/db9ece931f86d159d1fad09badb2f86d81cd6d5585243c52b09b658ad3a5070c.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "ad01b32a3dc1372f0c7663bdee7d7478d1bb0813480f0ce785cf34f5d2abafa5"
+    }
+  ],
+  "corrections": [],
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "reviewer": "Codex",
+  "reviewedAt": "2026-10-07T07:42:00+00:00",
+  "notes": "鲁滨逊两段分别岛上生存及救Friday，完整经历与时间转折保持。",
+  "issues": [],
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "d677c547879a9e4d382ab9c7621f06e56e238c769ce0f759c2206ac4fd2c64b8",
+    "afterFileSha256": "d677c547879a9e4d382ab9c7621f06e56e238c769ce0f759c2206ac4fd2c64b8",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "d677c547879a9e4d382ab9c7621f06e56e238c769ce0f759c2206ac4fd2c64b8",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..1] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "鲁滨逊两段分别岛上生存及救Friday，完整经历与时间转折保持。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "blockEdits": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/db9ece931f86d159d1fad09badb2f86d81cd6d5585243c52b09b658ad3a5070c.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "ad01b32a3dc1372f0c7663bdee7d7478d1bb0813480f0ce785cf34f5d2abafa5"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "db9ece931f86d159d1fad09badb2f86d81cd6d5585243c52b09b658ad3a5070c"
+}

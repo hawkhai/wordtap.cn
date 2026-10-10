@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "course": "pep-english",
+  "articleId": "pephs2-002",
+  "beforeDisplaySha256": "cb6ace485591cf8734e1c1bd3562a226df17bfb2197373e1fff7307081a18cd5",
+  "afterDisplaySha256": "cb6ace485591cf8734e1c1bd3562a226df17bfb2197373e1fff7307081a18cd5",
+  "baselineDisplay": {
+    "title": "A Non-Newtonian Fluid",
+    "section": "Listening and Speaking",
+    "text": "Today, I want to talk to you about a very strange phenomenon called a non-Newtonian fluid. You can make it easily using equal parts of water and cornflour, like I have here. A non-Newtonian fluid is strange because you can pour it like a liquid, but if you put any pressure on it, it suddenly becomes hard as concrete. In fact, it becomes hard enough to stand on. Then, as soon as you take the pressure off, it becomes a liquid again. This shows that it is possible that something can exist as a liquid and a solid at the same time.",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Today, I want to talk to you about a very strange phenomenon called a non-Newtonian fluid. You can make it easily using equal parts of water and cornflour, like I have here. A non-Newtonian fluid is strange because you can pour it like a liquid, but if you put any pressure on it, it suddenly becomes hard as concrete. In fact, it becomes hard enough to stand on. Then, as soon as you take the pressure off, it becomes a liquid again. This shows that it is possible that something can exist as a liquid and a solid at the same time."
+      }
+    ]
+  },
+  "display": {
+    "title": "A Non-Newtonian Fluid",
+    "section": "Listening and Speaking",
+    "text": "Today, I want to talk to you about a very strange phenomenon called a non-Newtonian fluid. You can make it easily using equal parts of water and cornflour, like I have here. A non-Newtonian fluid is strange because you can pour it like a liquid, but if you put any pressure on it, it suddenly becomes hard as concrete. In fact, it becomes hard enough to stand on. Then, as soon as you take the pressure off, it becomes a liquid again. This shows that it is possible that something can exist as a liquid and a solid at the same time.",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Today, I want to talk to you about a very strange phenomenon called a non-Newtonian fluid. You can make it easily using equal parts of water and cornflour, like I have here. A non-Newtonian fluid is strange because you can pour it like a liquid, but if you put any pressure on it, it suddenly becomes hard as concrete. In fact, it becomes hard enough to stand on. Then, as soon as you take the pressure off, it becomes a liquid again. This shows that it is possible that something can exist as a liquid and a solid at the same time."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "path": "content/article-review/history/8089a530f94e4846bf24a09e52ea7aaa4adcf9f20b5d6ed9f31536c0337dfe57.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "cdb69ebfb2c7e2857c233db800195e98357bd2781ae6da3829373db4462633db"
+    }
+  ],
+  "corrections": [],
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "reviewer": "Codex",
+  "reviewedAt": "2026-10-07T07:32:28+00:00",
+  "notes": "非牛顿流体演示从配制到压力与状态变化为一个完整发言段，不按实验步骤机械拆分。",
+  "issues": [],
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "a8758919bea7f6c14ac740fee179f652094acc6b98ee3099a7b8a7523e1c0344",
+    "afterFileSha256": "a8758919bea7f6c14ac740fee179f652094acc6b98ee3099a7b8a7523e1c0344",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "a8758919bea7f6c14ac740fee179f652094acc6b98ee3099a7b8a7523e1c0344",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..0] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "非牛顿流体演示从配制到压力与状态变化为一个完整发言段，不按实验步骤机械拆分。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/8089a530f94e4846bf24a09e52ea7aaa4adcf9f20b5d6ed9f31536c0337dfe57.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "cdb69ebfb2c7e2857c233db800195e98357bd2781ae6da3829373db4462633db"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "8089a530f94e4846bf24a09e52ea7aaa4adcf9f20b5d6ed9f31536c0337dfe57"
+}

@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "course": "pep-english",
+  "articleId": "pephs1-017",
+  "beforeDisplaySha256": "476677a477ec8576a8f02ef85e88c23e8854cb22103047ea8fb0a31e8a198cd2",
+  "afterDisplaySha256": "476677a477ec8576a8f02ef85e88c23e8854cb22103047ea8fb0a31e8a198cd2",
+  "baselineDisplay": {
+    "title": "Huang Danian",
+    "section": "Reading and Writing",
+    "text": "The person I respect most is the geophysicist Huang Danian, who helped China to make many technological advances.\nHuang was a remarkable scientist. He had studied and worked in Britain for 18 years, but when he felt that his country needed him, he gave up his well-paid job and returned to China. Over the next seven years, Huang worked to develop many devices needed for deep-Earth exploration.\nUnfortunately, such achievements didn’t come cheap. Due to the frantic pace of his research, Huang was absent from his father’s funeral, and even his own cancer went undetected as he had no time to see a doctor. To sum up, Huang sacrificed everything for his research, and I think more people should honour him.",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "The person I respect most is the geophysicist Huang Danian, who helped China to make many technological advances."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Huang was a remarkable scientist. He had studied and worked in Britain for 18 years, but when he felt that his country needed him, he gave up his well-paid job and returned to China. Over the next seven years, Huang worked to develop many devices needed for deep-Earth exploration."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Unfortunately, such achievements didn’t come cheap. Due to the frantic pace of his research, Huang was absent from his father’s funeral, and even his own cancer went undetected as he had no time to see a doctor. To sum up, Huang sacrificed everything for his research, and I think more people should honour him."
+      }
+    ]
+  },
+  "display": {
+    "title": "Huang Danian",
+    "section": "Reading and Writing",
+    "text": "The person I respect most is the geophysicist Huang Danian, who helped China to make many technological advances.\nHuang was a remarkable scientist. He had studied and worked in Britain for 18 years, but when he felt that his country needed him, he gave up his well-paid job and returned to China. Over the next seven years, Huang worked to develop many devices needed for deep-Earth exploration.\nUnfortunately, such achievements didn’t come cheap. Due to the frantic pace of his research, Huang was absent from his father’s funeral, and even his own cancer went undetected as he had no time to see a doctor. To sum up, Huang sacrificed everything for his research, and I think more people should honour him.",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "The person I respect most is the geophysicist Huang Danian, who helped China to make many technological advances."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Huang was a remarkable scientist. He had studied and worked in Britain for 18 years, but when he felt that his country needed him, he gave up his well-paid job and returned to China. Over the next seven years, Huang worked to develop many devices needed for deep-Earth exploration."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Unfortunately, such achievements didn’t come cheap. Due to the frantic pace of his research, Huang was absent from his father’s funeral, and even his own cancer went undetected as he had no time to see a doctor. To sum up, Huang sacrificed everything for his research, and I think more people should honour him."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "path": "content/article-review/history/da1910c8cdd212a50a04bd736b0bfa409af25e4d30dbf58efa3ee3138c94a1dd.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "da0f6bff724feff361b9818ea389af17d085ba95d48637ac4b13cad449a3cfa0"
+    }
+  ],
+  "corrections": [],
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "reviewer": "Codex",
+  "reviewedAt": "2026-10-07T07:32:25+00:00",
+  "notes": "黄大年三段为敬佩总述、回国科研、牺牲与评价，保留段落。",
+  "issues": [],
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "b206bd3797ff40f7d2d7182faf19211bec1bb98a3f0a858918d1e0c6d7b0359c",
+    "afterFileSha256": "b206bd3797ff40f7d2d7182faf19211bec1bb98a3f0a858918d1e0c6d7b0359c",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "b206bd3797ff40f7d2d7182faf19211bec1bb98a3f0a858918d1e0c6d7b0359c",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..2] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "黄大年三段为敬佩总述、回国科研、牺牲与评价，保留段落。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/da1910c8cdd212a50a04bd736b0bfa409af25e4d30dbf58efa3ee3138c94a1dd.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "da0f6bff724feff361b9818ea389af17d085ba95d48637ac4b13cad449a3cfa0"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "da1910c8cdd212a50a04bd736b0bfa409af25e4d30dbf58efa3ee3138c94a1dd"
+}

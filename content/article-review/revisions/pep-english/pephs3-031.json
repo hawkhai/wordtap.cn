@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "course": "pep-english",
+  "articleId": "pephs3-031",
+  "beforeDisplaySha256": "440502a2a3fb1d75c43aba612fd6453d7a8af8c8d40e27012dd14bfa018a3e2f",
+  "afterDisplaySha256": "440502a2a3fb1d75c43aba612fd6453d7a8af8c8d40e27012dd14bfa018a3e2f",
+  "baselineDisplay": {
+    "title": "Spring Morning (Meng Haoran; translated by Xu Yuanchong)",
+    "section": "Expanding Your World",
+    "text": "This spring morning in bed I’m lying,\nNot to awake till birds are crying.\nAfter one night of wind and showers,\nHow many are the fallen flowers?",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "This spring morning in bed I’m lying,\nNot to awake till birds are crying.\nAfter one night of wind and showers,\nHow many are the fallen flowers?"
+      }
+    ]
+  },
+  "display": {
+    "title": "Spring Morning (Meng Haoran; translated by Xu Yuanchong)",
+    "section": "Expanding Your World",
+    "text": "This spring morning in bed I’m lying,\nNot to awake till birds are crying.\nAfter one night of wind and showers,\nHow many are the fallen flowers?",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "This spring morning in bed I’m lying,\nNot to awake till birds are crying.\nAfter one night of wind and showers,\nHow many are the fallen flowers?"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "path": "content/article-review/history/426eaa6002d61da20c3f557e90e840c511e2457b5ec6c962e8bb01c2d092d2db.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "be1e409bfbfb060315c90f18e11405f172c5cf9c2d1f1222ad838d6c8a49e37d"
+    }
+  ],
+  "corrections": [],
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "reviewer": "Codex",
+  "reviewedAt": "2026-10-07T07:35:54+00:00",
+  "notes": "春晓译诗四行完整，末问号与前行意象连贯，保留诗行。",
+  "issues": [],
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "7796b3f1fc4b97b193a1979ce34ea05c6f4fba881dd696babf6eae8dd908e970",
+    "afterFileSha256": "7796b3f1fc4b97b193a1979ce34ea05c6f4fba881dd696babf6eae8dd908e970",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "7796b3f1fc4b97b193a1979ce34ea05c6f4fba881dd696babf6eae8dd908e970",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..0] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "春晓译诗四行完整，末问号与前行意象连贯，保留诗行。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/426eaa6002d61da20c3f557e90e840c511e2457b5ec6c962e8bb01c2d092d2db.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "be1e409bfbfb060315c90f18e11405f172c5cf9c2d1f1222ad838d6c8a49e37d"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "426eaa6002d61da20c3f557e90e840c511e2457b5ec6c962e8bb01c2d092d2db"
+}

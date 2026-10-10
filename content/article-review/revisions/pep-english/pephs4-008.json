@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 1,
+  "course": "pep-english",
+  "articleId": "pephs4-008",
+  "beforeDisplaySha256": "a67379d85a1e41efc254c9149b822feb45070a0363834621ba9d689169ad2699",
+  "afterDisplaySha256": "a67379d85a1e41efc254c9149b822feb45070a0363834621ba9d689169ad2699",
+  "baselineDisplay": {
+    "title": "The Case for Sea Exploration",
+    "section": "Using Language",
+    "text": "To truly understand our planet, we must explore the oceans which cover most of it. Opponents may be concerned, but sea exploration is important for our future. For example, scientific research ships can help address important issues such as climate change. We need to understand what is happening to our planet so that we can take action. Therefore, more research is necessary.\nUnderstanding more about the sea will also help us manage its resources better. Logging new species will improve our understanding of life on the earth. It may help us discover new medicines, as well as new sources of food and energy. Accessing the deep ocean may also help us to predict events such as earthquakes.\nThe population of the world is growing and we need new resources for future development. There are probably vast amounts of resources under the sea and ice, not just oil and gas but also valuable minerals.\nOf course, there are still environmental risks. However, these should be balanced with economic needs. Hopefully, as technology improves, we may have more options for managing this balance.",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "To truly understand our planet, we must explore the oceans which cover most of it. Opponents may be concerned, but sea exploration is important for our future. For example, scientific research ships can help address important issues such as climate change. We need to understand what is happening to our planet so that we can take action. Therefore, more research is necessary."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Understanding more about the sea will also help us manage its resources better. Logging new species will improve our understanding of life on the earth. It may help us discover new medicines, as well as new sources of food and energy. Accessing the deep ocean may also help us to predict events such as earthquakes."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "The population of the world is growing and we need new resources for future development. There are probably vast amounts of resources under the sea and ice, not just oil and gas but also valuable minerals."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Of course, there are still environmental risks. However, these should be balanced with economic needs. Hopefully, as technology improves, we may have more options for managing this balance."
+      }
+    ]
+  },
+  "display": {
+    "title": "The Case for Sea Exploration",
+    "section": "Using Language",
+    "text": "To truly understand our planet, we must explore the oceans which cover most of it. Opponents may be concerned, but sea exploration is important for our future. For example, scientific research ships can help address important issues such as climate change. We need to understand what is happening to our planet so that we can take action. Therefore, more research is necessary.\nUnderstanding more about the sea will also help us manage its resources better. Logging new species will improve our understanding of life on the earth. It may help us discover new medicines, as well as new sources of food and energy. Accessing the deep ocean may also help us to predict events such as earthquakes.\nThe population of the world is growing and we need new resources for future development. There are probably vast amounts of resources under the sea and ice, not just oil and gas but also valuable minerals.\nOf course, there are still environmental risks. However, these should be balanced with economic needs. Hopefully, as technology improves, we may have more options for managing this balance.",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "To truly understand our planet, we must explore the oceans which cover most of it. Opponents may be concerned, but sea exploration is important for our future. For example, scientific research ships can help address important issues such as climate change. We need to understand what is happening to our planet so that we can take action. Therefore, more research is necessary."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Understanding more about the sea will also help us manage its resources better. Logging new species will improve our understanding of life on the earth. It may help us discover new medicines, as well as new sources of food and energy. Accessing the deep ocean may also help us to predict events such as earthquakes."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "The population of the world is growing and we need new resources for future development. There are probably vast amounts of resources under the sea and ice, not just oil and gas but also valuable minerals."
+      },
+      {
+        "type": "paragraph",
+        "lang": "en",
+        "text": "Of course, there are still environmental risks. However, these should be balanced with economic needs. Hopefully, as technology improves, we may have more options for managing this balance."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "path": "content/article-review/history/73cf510aa19bd82361a09f8a0253cb74b0c566277408599294832300bba354f2.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "781fe6020b8f88761c947a884d471428e29fd7c4f7316261007db393ba0c3df2"
+    }
+  ],
+  "corrections": [],
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "reviewer": "Codex",
+  "reviewedAt": "2026-10-07T07:35:55+00:00",
+  "notes": "支持海洋探索四段为科研、资源认识、发展需求、风险平衡，保留多句论述段。",
+  "issues": [],
+  "reviewMode": "json-segmentation-v1",
+  "segmentationReview": {
+    "beforeFileSha256": "9ad1c196a4f222eab70a8de2fe2588c7fb9a6e009753b73d632e8356f79c7d45",
+    "afterFileSha256": "9ad1c196a4f222eab70a8de2fe2588c7fb9a6e009753b73d632e8356f79c7d45",
+    "decision": {
+      "reviewMode": "json-segmentation-v1",
+      "expectedFileSha256": "9ad1c196a4f222eab70a8de2fe2588c7fb9a6e009753b73d632e8356f79c7d45",
+      "useSpacingCandidate": false,
+      "fullReadConfirmed": true,
+      "recheckConfirmed": true,
+      "parallelReview": true,
+      "coverage": "title；全文 blocks[0..3] 与对应 text；现有正文/对话/题干逐块通读复核。",
+      "notes": "支持海洋探索四段为科研、资源认识、发展需求、风险平衡，保留多句论述段。",
+      "issues": [],
+      "mergeBlocks": [],
+      "splitBlocks": [],
+      "sources": [
+        {
+          "path": "content/article-review/history/73cf510aa19bd82361a09f8a0253cb74b0c566277408599294832300bba354f2.json",
+          "locator": "display: complete published JSON baseline; contextual segmentation review only",
+          "checked": true,
+          "sha256": "781fe6020b8f88761c947a884d471428e29fd7c4f7316261007db393ba0c3df2"
+        }
+      ]
+    }
+  },
+  "status": "passed_unchanged",
+  "previousRevisionSha256": "73cf510aa19bd82361a09f8a0253cb74b0c566277408599294832300bba354f2"
+}

@@ -1,0 +1,21 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "69478e7105dad418ff1f9ba6bc8d648b62848d3942518aa328c83aff5acd5529",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title；全文 blocks[0..0] 与对应 text；现有正文/对话/题干逐块通读复核。",
+  "notes": "优秀运动员四种共同特质用First、Second、Finally串联成完整短论述，保留现有段落。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/66b667806e21ee5eb0b99ab2d7a506d90495ff1ff19ccab1ca8192c328797040.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "6eeab36f5d5a8937ba642b99f091dc1e606ad2cb4c10b7b24da5f4fa8068a1b5"
+    }
+  ]
+}

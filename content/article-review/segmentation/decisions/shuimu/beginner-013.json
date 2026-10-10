@@ -1,0 +1,276 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "6c017fc8c2d07f018b6542739974ce42233c22c2ab4632e94264f4e5c6443bb4",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "coverage": "全文 blocks[0..75]；按 JSON 上下文逐项复核对话、解释、题目、表格、词表及修复后的边界。",
+  "notes": "十五个村庄描述单元中英各自分块；保留 be 与实义动词人称表的对应行，说明和例句均完整，没有同语言断句。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [
+    {
+      "index": 3,
+      "before": [
+        "This is a photograph of our village.\n这是我们村庄的一张照片。"
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "This is a photograph of our village."
+        },
+        {
+          "type": "paragraph",
+          "text": "这是我们村庄的一张照片。"
+        }
+      ],
+      "reason": "现有换行明确区分英文与对应中文，各自成块，保留原文顺序和对话轮次。"
+    },
+    {
+      "index": 4,
+      "before": [
+        "Our village is in a valley.\n我们的村庄坐落在一个山谷之中。"
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Our village is in a valley."
+        },
+        {
+          "type": "paragraph",
+          "text": "我们的村庄坐落在一个山谷之中。"
+        }
+      ],
+      "reason": "现有换行明确区分英文与对应中文，各自成块，保留原文顺序和对话轮次。"
+    },
+    {
+      "index": 5,
+      "before": [
+        "It is between two hills.\n它位于两座小山之间。"
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "It is between two hills."
+        },
+        {
+          "type": "paragraph",
+          "text": "它位于两座小山之间。"
+        }
+      ],
+      "reason": "现有换行明确区分英文与对应中文，各自成块，保留原文顺序和对话轮次。"
+    },
+    {
+      "index": 6,
+      "before": [
+        "The village is on a river.\n它靠近一条小河。"
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The village is on a river."
+        },
+        {
+          "type": "paragraph",
+          "text": "它靠近一条小河。"
+        }
+      ],
+      "reason": "现有换行明确区分英文与对应中文，各自成块，保留原文顺序和对话轮次。"
+    },
+    {
+      "index": 7,
+      "before": [
+        "Here is another photograph of the village.\n这是我们村庄的另一张照片。"
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Here is another photograph of the village."
+        },
+        {
+          "type": "paragraph",
+          "text": "这是我们村庄的另一张照片。"
+        }
+      ],
+      "reason": "现有换行明确区分英文与对应中文，各自成块，保留原文顺序和对话轮次。"
+    },
+    {
+      "index": 8,
+      "before": [
+        "My wife and I are walking along the banks of the river.\n我和我的妻子正沿着河岸走着。"
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "My wife and I are walking along the banks of the river."
+        },
+        {
+          "type": "paragraph",
+          "text": "我和我的妻子正沿着河岸走着。"
+        }
+      ],
+      "reason": "现有换行明确区分英文与对应中文，各自成块，保留原文顺序和对话轮次。"
+    },
+    {
+      "index": 9,
+      "before": [
+        "We are on the left.\n我们在河的左侧。"
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "We are on the left."
+        },
+        {
+          "type": "paragraph",
+          "text": "我们在河的左侧。"
+        }
+      ],
+      "reason": "现有换行明确区分英文与对应中文，各自成块，保留原文顺序和对话轮次。"
+    },
+    {
+      "index": 10,
+      "before": [
+        "There is a boy in the water.\n水里有个男孩。"
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "There is a boy in the water."
+        },
+        {
+          "type": "paragraph",
+          "text": "水里有个男孩。"
+        }
+      ],
+      "reason": "现有换行明确区分英文与对应中文，各自成块，保留原文顺序和对话轮次。"
+    },
+    {
+      "index": 11,
+      "before": [
+        "He is swimming across the river.\n他正在游泳横渡小河。"
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "He is swimming across the river."
+        },
+        {
+          "type": "paragraph",
+          "text": "他正在游泳横渡小河。"
+        }
+      ],
+      "reason": "现有换行明确区分英文与对应中文，各自成块，保留原文顺序和对话轮次。"
+    },
+    {
+      "index": 12,
+      "before": [
+        "Here is another photograph.\n这是另一张照片。"
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Here is another photograph."
+        },
+        {
+          "type": "paragraph",
+          "text": "这是另一张照片。"
+        }
+      ],
+      "reason": "现有换行明确区分英文与对应中文，各自成块，保留原文顺序和对话轮次。"
+    },
+    {
+      "index": 13,
+      "before": [
+        "This is the school building.\n这是学校大楼。"
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "This is the school building."
+        },
+        {
+          "type": "paragraph",
+          "text": "这是学校大楼。"
+        }
+      ],
+      "reason": "现有换行明确区分英文与对应中文，各自成块，保留原文顺序和对话轮次。"
+    },
+    {
+      "index": 14,
+      "before": [
+        "It is beside a park.\n它位于公园的旁边。"
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "It is beside a park."
+        },
+        {
+          "type": "paragraph",
+          "text": "它位于公园的旁边。"
+        }
+      ],
+      "reason": "现有换行明确区分英文与对应中文，各自成块，保留原文顺序和对话轮次。"
+    },
+    {
+      "index": 15,
+      "before": [
+        "The park is on the right.\n公园在右面。"
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The park is on the right."
+        },
+        {
+          "type": "paragraph",
+          "text": "公园在右面。"
+        }
+      ],
+      "reason": "现有换行明确区分英文与对应中文，各自成块，保留原文顺序和对话轮次。"
+    },
+    {
+      "index": 16,
+      "before": [
+        "Some children are coming out of the building.\n一些孩子正从楼里走出来。"
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Some children are coming out of the building."
+        },
+        {
+          "type": "paragraph",
+          "text": "一些孩子正从楼里走出来。"
+        }
+      ],
+      "reason": "现有换行明确区分英文与对应中文，各自成块，保留原文顺序和对话轮次。"
+    },
+    {
+      "index": 17,
+      "before": [
+        "Some of them are going into the park.\n他们中有几个正走进公园。"
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Some of them are going into the park."
+        },
+        {
+          "type": "paragraph",
+          "text": "他们中有几个正走进公园。"
+        }
+      ],
+      "reason": "现有换行明确区分英文与对应中文，各自成块，保留原文顺序和对话轮次。"
+    }
+  ],
+  "sources": [
+    {
+      "path": "content/article-review/history/a85d6247b2413fcf48840228552dac4b496c6498c07f2228b3a4fe883c0b0914.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "3c08a9094906e11ea62694ca6a2007daa1b915cbb1239ad007adb03ade9e0914"
+    }
+  ]
+}

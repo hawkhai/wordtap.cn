@@ -1,0 +1,231 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "606b5976e411d2a017b9474ca17ff191c0f5bab17ff9cde5456ea7bca86e5019",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "coverage": "全文 blocks[0..174]；按 JSON 上下文逐项复核对话、解释、题目、表格、词表及修复后的边界。",
+  "notes": "全文复核借钱故事、题目摘要、条件从句引导词和例句、炸鱼薯条文化全文。合并解释/例句续行、英汉文化多句段；保留改写对照、选项、末尾单元标记。原文括号和数字内部空格不调整。",
+  "issues": [
+    "原始blocks[26..29] Tony said,后中文插入，so now续话及其中文又成两块；恢复完整发言的双语单元需要字符重排，原序保留。"
+  ],
+  "mergeBlocks": [
+    {
+      "start": 38,
+      "end": 41,
+      "before": [
+        "Answer: I was having dinner at a restaurant. I saw Tony after a while. He",
+        "always borrows money from his friends. Tony sat at my table. I asked him to",
+        "lend me twenty pounds. He gave me the money at once. He wanted me to pay",
+        "for his dinner."
+      ],
+      "text": "Answer: I was having dinner at a restaurant. I saw Tony after a while. He always borrows money from his friends. Tony sat at my table. I asked him to lend me twenty pounds. He gave me the money at once. He wanted me to pay for his dinner.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 69,
+      "end": 70,
+      "before": [
+        "If 如果 Provided(that) 如果 Providing （ that ）",
+        "如果"
+      ],
+      "text": "If 如果 Provided(that) 如果 Providing （ that ） 如果",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 71,
+      "end": 72,
+      "before": [
+        "Suppose(that)如果 Supposing（that）如果 On condition(that)",
+        "如果"
+      ],
+      "text": "Suppose(that)如果 Supposing（that）如果 On condition(that) 如果",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 74,
+      "end": 75,
+      "before": [
+        "if的意思是“如果”。 unless的意思则是“除非……；如果不……”，相当于if",
+        "not，有时二者可以换用。"
+      ],
+      "text": "if的意思是“如果”。 unless的意思则是“除非……；如果不……”，相当于if not，有时二者可以换用。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 80,
+      "end": 81,
+      "before": [
+        "• If you don't eat meat, this tour is not for you as the Inuit live on animals,",
+        "birds and fish."
+      ],
+      "text": "• If you don't eat meat, this tour is not for you as the Inuit live on animals, birds and fish.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 82,
+      "end": 83,
+      "before": [
+        "如果你不吃肉，那这种旅行就不适合你，因为因纽特人以动物、鸟和鱼",
+        "为主食。"
+      ],
+      "text": "如果你不吃肉，那这种旅行就不适合你，因为因纽特人以动物、鸟和鱼为主食。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 84,
+      "end": 85,
+      "before": [
+        "• = Unless you eat meat, this tour is not for you as the Inuit live on animals,",
+        "birds and fish."
+      ],
+      "text": "• = Unless you eat meat, this tour is not for you as the Inuit live on animals, birds and fish.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 86,
+      "end": 87,
+      "before": [
+        "除非你吃肉,否则这种旅行就不适合你,因为因纽特人以动物、鸟和鱼为",
+        "主食。"
+      ],
+      "text": "除非你吃肉,否则这种旅行就不适合你,因为因纽特人以动物、鸟和鱼为主食。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 117,
+      "end": 118,
+      "before": [
+        "• He will surely finish the job on time as long as he’s left to do it in his own",
+        "way."
+      ],
+      "text": "• He will surely finish the job on time as long as he’s left to do it in his own way.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 120,
+      "end": 121,
+      "before": [
+        "• As/So long as we don’t lose heart, we’ll find a way to overcome the",
+        "difficulty."
+      ],
+      "text": "• As/So long as we don’t lose heart, we’ll find a way to overcome the difficulty.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 126,
+      "end": 127,
+      "before": [
+        "条 件 状 语 从 句 还 可 以 由 provided(that, providing(that), suppose that),",
+        "supposing(that), on condition(that)等引导。"
+      ],
+      "text": "条 件 状 语 从 句 还 可 以 由 provided(that, providing(that), suppose that), supposing(that), on condition(that)等引导。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 130,
+      "end": 131,
+      "before": [
+        "• He won’t be against us in the meeting provided(that)we ask for his advice in",
+        "advance."
+      ],
+      "text": "• He won’t be against us in the meeting provided(that)we ask for his advice in advance.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 135,
+      "end": 136,
+      "before": [
+        "• Suppose we offer more favorable terms, they will choose to cooperate with",
+        "us."
+      ],
+      "text": "• Suppose we offer more favorable terms, they will choose to cooperate with us.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 146,
+      "end": 148,
+      "before": [
+        "Fish and chips, a hot dish of English origin, consist of battered fish, commonly",
+        "Atlantic cod or haddock, and deep-fried chips. It is a common take-away food in",
+        "England."
+      ],
+      "text": "Fish and chips, a hot dish of English origin, consist of battered fish, commonly Atlantic cod or haddock, and deep-fried chips. It is a common take-away food in England.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 149,
+      "end": 151,
+      "before": [
+        "炸鱼薯条起源于英国，深受大众欢迎，主要食材包括由大西洋鳕鱼或黑线鳕做",
+        "成",
+        "的炸鱼和炸薯条。炸鱼薯条是英国比较常见的一种外带食品。"
+      ],
+      "text": "炸鱼薯条起源于英国，深受大众欢迎，主要食材包括由大西洋鳕鱼或黑线鳕做成的炸鱼和炸薯条。炸鱼薯条是英国比较常见的一种外带食品。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 152,
+      "end": 159,
+      "before": [
+        "The dish became popular in wider circles in London and South East England in the",
+        "middle of the 19th century as a consequence of the rapid development of trawl fishing",
+        "in the North Sea, and the development of railways which connected the ports to major",
+        "industrial cities. Traditional frying uses beef dripping or lard; however, vegetable oils,",
+        "such as peanut oil (used because of its relatively high smoke point) now predominate.",
+        "In chip shops in the United Kingdom and Ireland, salt and vinegar is traditionally",
+        "sprinkled over fish and chips at the time it is served. A portion of mushy peas is a",
+        "popular side dish."
+      ],
+      "text": "The dish became popular in wider circles in London and South East England in the middle of the 19th century as a consequence of the rapid development of trawl fishing in the North Sea, and the development of railways which connected the ports to major industrial cities. Traditional frying uses beef dripping or lard; however, vegetable oils, such as peanut oil (used because of its relatively high smoke point) now predominate. In chip shops in the United Kingdom and Ireland, salt and vinegar is traditionally sprinkled over fish and chips at the time it is served. A portion of mushy peas is a popular side dish.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 160,
+      "end": 164,
+      "before": [
+        "因为北海拖网捕鱼技术的发展，连接主要工业城市和港口之间铁路越来越发",
+        "达，这款快餐于19世纪中期在伦敦及英格兰的东南地区风靡一时。传统油炸做",
+        "法是使用牛油滴或猪油。然而，现在像花生油这些植物油(因为具有相对较高的",
+        "烟点)占据了主要地位。在英国和爱尔兰的炸鱼薯条店，做好的炸鱼薯条上面通",
+        "常会酒些盐和醋。豌豆泥则是一道十分受欢迎的配菜。"
+      ],
+      "text": "因为北海拖网捕鱼技术的发展，连接主要工业城市和港口之间铁路越来越发达，这款快餐于19世纪中期在伦敦及英格兰的东南地区风靡一时。传统油炸做法是使用牛油滴或猪油。然而，现在像花生油这些植物油(因为具有相对较高的烟点)占据了主要地位。在英国和爱尔兰的炸鱼薯条店，做好的炸鱼薯条上面通常会酒些盐和醋。豌豆泥则是一道十分受欢迎的配菜。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 165,
+      "end": 169,
+      "before": [
+        "In the United Kingdom, Ireland, Australia, Canada, New Zealand and South Africa,",
+        "Fish and chips usually sell through independent restaurants and take-aways known as",
+        "fish and chip shops. These shops reach staggering 35, 000 in the 1930’s leveling to",
+        "around 11, 000 now. The record for the largest number of portions sold in one day by",
+        "an independent fish and chip shop is over 4,000."
+      ],
+      "text": "In the United Kingdom, Ireland, Australia, Canada, New Zealand and South Africa, Fish and chips usually sell through independent restaurants and take-aways known as fish and chip shops. These shops reach staggering 35, 000 in the 1930’s leveling to around 11, 000 now. The record for the largest number of portions sold in one day by an independent fish and chip shop is over 4,000.",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    },
+    {
+      "start": 170,
+      "end": 173,
+      "before": [
+        "在英国、爱尔兰、澳大利亚、加拿大、新西兰还有南非，通常有独立的餐厅出",
+        "售炸鱼薯条，或者有专供外带的炸鱼和薯条店。20世纪30年代，炸鱼和薯条店",
+        "达3.5万家，数量惊人，目前仍有1.1万家。有记录表明，一家独立的炸鱼和薯条",
+        "店一天最高销量能超过4000份。"
+      ],
+      "text": "在英国、爱尔兰、澳大利亚、加拿大、新西兰还有南非，通常有独立的餐厅出售炸鱼薯条，或者有专供外带的炸鱼和薯条店。20世纪30年代，炸鱼和薯条店达3.5万家，数量惊人，目前仍有1.1万家。有记录表明，一家独立的炸鱼和薯条店一天最高销量能超过4000份。",
+      "reason": "前后内容属于同一例句、解释或译文，续行截断了句子；按语义衔接，保留原条目身份。"
+    }
+  ],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/e98512d7d12f8f7450f4b1d83360c3444b71a41c6ca495400040d95d904015dd.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "707fd81493f892ec0cc3dddfd695eddc51b8d19980bfa7c99d78930126a1da7c"
+    }
+  ]
+}

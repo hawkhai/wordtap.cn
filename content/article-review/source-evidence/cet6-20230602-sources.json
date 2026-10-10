@@ -1,0 +1,85 @@
+{
+  "article": "cet6-20230602",
+  "checkedAt": "2026-10-03",
+  "sourcePdfPagesRead": 8,
+  "sources": [
+    {
+      "url": "https://www.theatlantic.com/health/archive/2018/11/how-perfectionism-can-be-destructive/574837/",
+      "scope": "Olga Khazan2018-11-05原报道正文72—99全文实际读；suicidal ideation、communal interest及治疗师个案，不是确诊自杀或简易治愈保证。"
+    },
+    {
+      "url": "https://www.psychologicalscience.org/news/the-problem-with-being-perfect.html",
+      "scope": "心理科学协会转载相关原采访实际检索返回阅读，2018背景与意念表述。"
+    },
+    {
+      "url": "https://ray.yorksj.ac.uk/id/eprint/2626/",
+      "scope": "原作者大学论文库摘要与出版信息实际读，164样本41641学生1989—2016。"
+    },
+    {
+      "url": "https://ray.yorksj.ac.uk/id/eprint/2626/1/Curran%20%26%20Hill%20%282018%29%20PB.pdf",
+      "scope": "72页作者版论文，摘要、引言及23—29页结果实际读，非整篇全读。1989—2017模型均值4.47→4.59、3.35→3.71、3.81→3.94；百分位人数变化不等于均分增长10/33/16%。国家与性别调整后各维度年代趋势为正。"
+    },
+    {
+      "url": "https://researchportal.bath.ac.uk/en/publications/perfectionism-is-increasing-over-time-a-meta-analysis-of-birth-co/",
+      "scope": "作者大学出版元数据实际检索读，2017-12-28在线、2019纸刊。"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29283599/",
+      "scope": "原论文摘要实际搜索返回读；横断面元分析不能当作同个人长期变化或因果证明。"
+    },
+    {
+      "url": "https://www.theguardian.com/commentisfree/2013/apr/11/ban-advertising-young-children-yes",
+      "scope": "Jonathan Kent2013-04-11原评论实际搜索正文摘录已读，未声称全部网页已读；12bn历史广告行业、禁令是作者意见、viral metaphor。"
+    },
+    {
+      "url": "https://www.bbc.com/news/business-47879798",
+      "scope": "2019原监测报道通过requests与BeautifulSoup读取text-block后全文实际读；Kropp企业口径、Waber单一科技客户、Stanton预测；原文是whether/even if you dominate，非do not。报道心率说法与被动芯片原理不符，按厂家技术说明校正；46%缺独立样本口径，删除精确比例而保留Kropp的透明沟通观点。"
+    },
+    {
+      "url": "https://dangerousthings.com/wp-content/uploads/Introduction-to-Implantable-Transponders-for-Professionals.pdf",
+      "scope": "制造商原技术说明实际搜索返回第二页内容读，2014版被动无电池、近场读写器供能；未声称已读全部PDF。"
+    },
+    {
+      "url": "https://forum.dangerousthings.com/t/quick-technology-primer/13320",
+      "scope": "制造商创办者2021技术说明引言和RFID段实际读，被动RFID识别与连续生理测量不同。"
+    },
+    {
+      "url": "https://www.niddk.nih.gov/health-information/weight-management/adult-overweight-obesity/factors-affecting-weight-health",
+      "scope": "NIDDK2023复核原科普120—170正文实际读；饮食活动睡眠环境药物内分泌遗传均有影响，不能认定70%丧失单一补偿功能。"
+    },
+    {
+      "url": "https://www.niddk.nih.gov/research-funding/research-programs/metabolism-energy-obesity",
+      "scope": "NIDDK原项目说明研究范围段实际读，肠脑轴及多种激素参与食欲和能量调节。"
+    },
+    {
+      "url": "https://www.nih.gov/news-events/news-releases/nih-study-finds-heavily-processed-foods-cause-overeating-weight-gain",
+      "scope": "NIH2019原研究新闻稿相关搜索摘录实际读，20成年人交叉控制膳食试验；非所有碳水化合物或全国70%能力丧失的证明。直接打开403，未称全文已读。"
+    },
+    {
+      "url": "https://app.www.gov.cn/govdata/gov/202010/10/463618/article.html",
+      "scope": "国办发2020 36号2020-09-30文件、10-10公布；公共绿地空间健身设施步道相关原政策段实际读。"
+    },
+    {
+      "url": "https://app.www.gov.cn/govdata/gov/202108/03/474299/article.html",
+      "scope": "全民健身计划2021—2025原文现状及目标段实际读，区分十三五成果与以后目标。"
+    },
+    {
+      "url": "https://www.gov.cn/xinwen/2020-10/11/content_5550303.htm",
+      "scope": "2020唐山祥荣里公共场地升级及设施实例原报道相关段实际读。"
+    }
+  ],
+  "limitations": [
+    "17原始块和8页PDF已全文逐页读，114个最终块全文复读并逐题复核。",
+    "听力仅核纸面题目与选项，不声称音频核听。",
+    "未取得USA Today所称2018饥饿原报道，70%补偿能力断言无可靠证据，已删除而非冒称核实。Thompson解释明确为个人观点。",
+    "完美主义论文只读所列部分，不声称72页全部阅读或自行重算统计。",
+    "题库镜像不是独立事实证据或答案依据。"
+  ],
+  "answerChecks": {
+    "cloze": "HIJAKMGNEB",
+    "matching": "EAFCHBIEKG",
+    "reading": "ABAAD / ADBDC"
+  },
+  "rawSha256": "171d5f86050a0954bf6b7d392bd2d88cdd3de7977506c8ff0b5a8a99415399a5",
+  "pdfSha256": "7f6d5d59a54e6f11267a7892d443f8f1a83a672f7d470a20b9a42acec9d34112"
+}

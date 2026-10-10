@@ -1,0 +1,26 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "11889e75fc13787bd12da0ebc4f7934ba1dea0e1c7a62583a41a0e72fb96d38a",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title/titleZh、question/questionZh、bodyText全部12行、bodyTextZh全部12行及sentences[0..15]的完整文字；重复正文与字幕文本逐字比对，非正文字幕另读。操作在内存应用并validate_layout_change，修复后的双语全文重新通读。",
+  "notes": "Tommy吞硬币；硬币散落、孩子吞币、稍晚丈夫致电及妻子回答四段，恢复While从句与主句及结尾引语。 text与bodyText同步；sentences对象及时间、角色、索引原样保留。",
+  "issues": [],
+  "display": {
+    "text": "What does she mean by 'change' in the last sentence?\n\nWhen my husband was going into the dining room this morning, he dropped some coins on the floor. There were coins everywhere. We looked for them, but we could not find them all.\nWhile we were having breakfast, our little boy, Tommy, found two small coins on the floor. He put them both into his mouth. We both tried to get the coins, but it was too late. Tommy had already swallowed them!\nLate that morning, when I was doing the housework, My husband phoned me from the office. 'How's Tommy?' he asked.\n'I don't know,' I answered, 'Tommy's been to the toilet three times this morning, but I haven't had any change yet!'",
+    "bodyText": "When my husband was going into the dining room this morning, he dropped some coins on the floor. There were coins everywhere. We looked for them, but we could not find them all.\nWhile we were having breakfast, our little boy, Tommy, found two small coins on the floor. He put them both into his mouth. We both tried to get the coins, but it was too late. Tommy had already swallowed them!\nLate that morning, when I was doing the housework, My husband phoned me from the office. 'How's Tommy?' he asked.\n'I don't know,' I answered, 'Tommy's been to the toilet three times this morning, but I haven't had any change yet!'",
+    "bodyTextZh": "今天早上，当我丈夫走进餐厅的时候……他把一些硬币掉在了地上。硬币到处都是。我们寻找过它们，但没能全部找到。\n当我们正在吃早餐的时候……我们的小男孩汤米在地板上发现了两枚小硬币。他把它们都放进了嘴里。我们都试图拿到那些硬币，但已经太晚了。汤米已经把它们吞下去了！\n那天上午晚些时候，当我正在做家务时……我丈夫从办公室给我打了电话。“汤米怎么样了？”他问道。\n“我不知道，”我回答道。“今天早上汤米已经上了三次厕所了，但我还没有收到任何零钱呢！”"
+  },
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/d73b939fd55b73a0d385672b86020092f88d5d02465a1b31a7ab0c38b591cf40.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "0a8aec18de924e4a1a3c73044a3280a87a4cfb6217327ba8cd1278c2bc98e2f5"
+    }
+  ]
+}

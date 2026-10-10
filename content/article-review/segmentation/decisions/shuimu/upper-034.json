@@ -1,0 +1,268 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "bd5766c19c84743bbc42065011282b40639fa36b78c858d34ba3e846e427b631",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title；全文 blocks[0..206] 与对应 text；现有正文/对话/题干逐块通读复核。",
+  "notes": "完整通读A happy discovery词表、三组英汉正文、六条注释、23道问答、An antique shop四段提纲范文和12题答案。Frank发现画作的多句经过维持完整对应段；范文按橱窗、店主、室内货品与客人、寻宝乐趣分四段，各词条选项保持独立。",
+  "issues": [],
+  "mergeBlocks": [
+    {
+      "start": 28,
+      "end": 33,
+      "before": [
+        "Antique shops exert a peculiar fascination on a great many people. The more",
+        "expensive kind of antique shop where rare objects are beautifully displayed in glass",
+        "cases to keep them free from dust is usually a forbidding place. But no one has to",
+        "muster up courage to enter a less pretentious antique shop. There is always hope that",
+        "in its labyrinth of musty, dark, disordered rooms a real rarity will be found amongst",
+        "the piles of assorted junk that litter the floors."
+      ],
+      "text": "Antique shops exert a peculiar fascination on a great many people. The more expensive kind of antique shop where rare objects are beautifully displayed in glass cases to keep them free from dust is usually a forbidding place. But no one has to muster up courage to enter a less pretentious antique shop. There is always hope that in its labyrinth of musty, dark, disordered rooms a real rarity will be found amongst the piles of assorted junk that litter the floors.",
+      "reason": "古玩店说明、鉴赏者条件与捡漏故事的英汉对应段和题目断行接续，商店描写范文保持四段。"
+    },
+    {
+      "start": 34,
+      "end": 38,
+      "before": [
+        "古玩店对许多人来说有一种特殊的魅力。高档一点的古玩店为了防尘，把文物漂",
+        "亮地陈列在玻璃柜子里，那里往往令人望而却步。而对不太装腔作势的古玩店，",
+        "无论是谁都不用壮着胆子才敢往里进。人们还常常有希望在发霉、阴暗、杂乱无",
+        "章、迷宫般的店堂里，从杂乱地摆放在地面上的、一堆堆各式各样的破烂货里找",
+        "到一件稀世珍品。"
+      ],
+      "text": "古玩店对许多人来说有一种特殊的魅力。高档一点的古玩店为了防尘，把文物漂亮地陈列在玻璃柜子里，那里往往令人望而却步。而对不太装腔作势的古玩店，无论是谁都不用壮着胆子才敢往里进。人们还常常有希望在发霉、阴暗、杂乱无章、迷宫般的店堂里，从杂乱地摆放在地面上的、一堆堆各式各样的破烂货里找到一件稀世珍品。",
+      "reason": "古玩店说明、鉴赏者条件与捡漏故事的英汉对应段和题目断行接续，商店描写范文保持四段。"
+    },
+    {
+      "start": 39,
+      "end": 43,
+      "before": [
+        "No one discovers a rarity by chance. A truly dedicated bargain hunter must have",
+        "patience, and above all, the ability to recognize the worth of something when he sees",
+        "it. To do this, he must be at least as knowledgeable as the dealer. Like a scientist bent",
+        "on making a discovery, he must cherish the hope that one day he will be amply",
+        "rewarded."
+      ],
+      "text": "No one discovers a rarity by chance. A truly dedicated bargain hunter must have patience, and above all, the ability to recognize the worth of something when he sees it. To do this, he must be at least as knowledgeable as the dealer. Like a scientist bent on making a discovery, he must cherish the hope that one day he will be amply rewarded.",
+      "reason": "古玩店说明、鉴赏者条件与捡漏故事的英汉对应段和题目断行接续，商店描写范文保持四段。"
+    },
+    {
+      "start": 44,
+      "end": 47,
+      "before": [
+        "无论是谁都不会一下子就发现一件珍品。一个到处找便宜货买的人必须具有耐心，",
+        "而且最重要的是看到珍品时要有鉴别珍品的能力。要做到这一点，他至少要像古",
+        "董商一样懂行。他必须像一个专心致志进行探索的科学家那样抱有这样的希望，",
+        "即终有一天，他的努力会取得丰硕的成果。"
+      ],
+      "text": "无论是谁都不会一下子就发现一件珍品。一个到处找便宜货买的人必须具有耐心，而且最重要的是看到珍品时要有鉴别珍品的能力。要做到这一点，他至少要像古董商一样懂行。他必须像一个专心致志进行探索的科学家那样抱有这样的希望，即终有一天，他的努力会取得丰硕的成果。",
+      "reason": "古玩店说明、鉴赏者条件与捡漏故事的英汉对应段和题目断行接续，商店描写范文保持四段。"
+    },
+    {
+      "start": 52,
+      "end": 66,
+      "before": [
+        "My old friend, Frank Halliday, is just such a person. He has often described to me",
+        "how he picked up a masterpiece for a mere￡50. One Saturday morning, Frank visited",
+        "an antique shop in my neighbourhood. As he had never been there before, he found a",
+        "great deal to interest him. The morning passed rapidly and Frank was about to leave",
+        "when he noticed a large packing case lying on the floor. The dealer told him that it",
+        "had just come in, but that he could not be bothered to open it. Frank begged him to do",
+        "so and the dealer reluctantly prised it open. The contents were disappointing. Apart",
+        "from an interesting-looking carved dagger, the box was full of crockery, much of it",
+        "broken. Frank gently lifted the crockery out of the box and suddenly noticed a",
+        "miniature painting at the bottom of the packing case. As its Composition and line",
+        "reminded him of an Italian painting he knew well, he decided to buy it. Glancing at it",
+        "briefly, the dealer told him that it was worth ￡ 50. Frank could hardly conceal his",
+        "excitement, for he knew that he had made a real discovery. The tiny painting proved",
+        "to be an unknown masterpiece by Correggio and was worth hundreds of thousands of",
+        "pounds."
+      ],
+      "text": "My old friend, Frank Halliday, is just such a person. He has often described to me how he picked up a masterpiece for a mere￡50. One Saturday morning, Frank visited an antique shop in my neighbourhood. As he had never been there before, he found a great deal to interest him. The morning passed rapidly and Frank was about to leave when he noticed a large packing case lying on the floor. The dealer told him that it had just come in, but that he could not be bothered to open it. Frank begged him to do so and the dealer reluctantly prised it open. The contents were disappointing. Apart from an interesting-looking carved dagger, the box was full of crockery, much of it broken. Frank gently lifted the crockery out of the box and suddenly noticed a miniature painting at the bottom of the packing case. As its Composition and line reminded him of an Italian painting he knew well, he decided to buy it. Glancing at it briefly, the dealer told him that it was worth ￡ 50. Frank could hardly conceal his excitement, for he knew that he had made a real discovery. The tiny painting proved to be an unknown masterpiece by Correggio and was worth hundreds of thousands of pounds.",
+      "reason": "古玩店说明、鉴赏者条件与捡漏故事的英汉对应段和题目断行接续，商店描写范文保持四段。"
+    },
+    {
+      "start": 67,
+      "end": 77,
+      "before": [
+        "我的老朋友弗兰克 ·哈利戴正是这样一个人。他多次向我详细讲他如何只花 50 英",
+        "镑便买到一位名家的杰作。一个星期六的上午，弗兰克去了我家附近的一家古玩",
+        "店。由于他从未去过那儿，结果他发现了许多有趣的东西。上午很快过去了，弗",
+        "兰克正准备离去，突然看见地板上放着一只体积很大的货箱。古董商告诉他那只",
+        "货箱刚到不久，但他嫌麻烦不想把它打开。经弗兰克恳求，古董商才勉强把货箱",
+        "撬开了。箱内东西令人失望。除了一柄式样别致、雕有花纹的匕首外，货箱内装",
+        "满了陶器，而且大部分都已破碎。弗兰克轻轻地把陶器拿出箱子，突然发现在箱",
+        "底有一幅微型画，画面构图与线条使他想起了一幅他所熟悉的意大利画，于是他",
+        "决定将画买下来。古董商漫不经心看了一眼那幅画，告诉弗兰克那画值 50 英镑。",
+        "弗兰克几乎无法掩饰自己兴奋的心情，因为他明白自己发现了一件珍品。那幅不",
+        "大的画原来是柯勒乔的一幅未被发现的杰作，价值几十万英镑。"
+      ],
+      "text": "我的老朋友弗兰克 ·哈利戴正是这样一个人。他多次向我详细讲他如何只花 50 英镑便买到一位名家的杰作。一个星期六的上午，弗兰克去了我家附近的一家古玩店。由于他从未去过那儿，结果他发现了许多有趣的东西。上午很快过去了，弗兰克正准备离去，突然看见地板上放着一只体积很大的货箱。古董商告诉他那只货箱刚到不久，但他嫌麻烦不想把它打开。经弗兰克恳求，古董商才勉强把货箱撬开了。箱内东西令人失望。除了一柄式样别致、雕有花纹的匕首外，货箱内装满了陶器，而且大部分都已破碎。弗兰克轻轻地把陶器拿出箱子，突然发现在箱底有一幅微型画，画面构图与线条使他想起了一幅他所熟悉的意大利画，于是他决定将画买下来。古董商漫不经心看了一眼那幅画，告诉弗兰克那画值 50 英镑。弗兰克几乎无法掩饰自己兴奋的心情，因为他明白自己发现了一件珍品。那幅不大的画原来是柯勒乔的一幅未被发现的杰作，价值几十万英镑。",
+      "reason": "古玩店说明、鉴赏者条件与捡漏故事的英汉对应段和题目断行接续，商店描写范文保持四段。"
+    },
+    {
+      "start": 81,
+      "end": 83,
+      "before": [
+        "6 Correggio，柯勒乔（1494—1534）。意大利著名画家，真名安托尼奥·阿来里。",
+        "他对色彩对比、光和影的处理方法对 16 到 17 世纪意大利绘画产生了巨大影响。",
+        "他最著名的作品陈列在意大利巴玛大教堂。"
+      ],
+      "text": "6 Correggio，柯勒乔（1494—1534）。意大利著名画家，真名安托尼奥·阿来里。他对色彩对比、光和影的处理方法对 16 到 17 世纪意大利绘画产生了巨大影响。他最著名的作品陈列在意大利巴玛大教堂。",
+      "reason": "古玩店说明、鉴赏者条件与捡漏故事的英汉对应段和题目断行接续，商店描写范文保持四段。"
+    },
+    {
+      "start": 87,
+      "end": 88,
+      "before": [
+        "2 How does the writer describe the more expensive kind of antique shop? (As a",
+        "forbidding place.)"
+      ],
+      "text": "2 How does the writer describe the more expensive kind of antique shop? (As a forbidding place.)",
+      "reason": "古玩店说明、鉴赏者条件与捡漏故事的英汉对应段和题目断行接续，商店描写范文保持四段。"
+    },
+    {
+      "start": 89,
+      "end": 90,
+      "before": [
+        "3 Do people have to muster up courage to go into a cheap antique shop? (No, they",
+        "don't.)"
+      ],
+      "text": "3 Do people have to muster up courage to go into a cheap antique shop? (No, they don't.)",
+      "reason": "古玩店说明、鉴赏者条件与捡漏故事的英汉对应段和题目断行接续，商店描写范文保持四段。"
+    },
+    {
+      "start": 94,
+      "end": 95,
+      "before": [
+        "7 If a bargain hunter can recognize the worth of something, he must be as",
+        "knowledgeable as --who? (The dealer.)"
+      ],
+      "text": "7 If a bargain hunter can recognize the worth of something, he must be as knowledgeable as --who? (The dealer.)",
+      "reason": "古玩店说明、鉴赏者条件与捡漏故事的英汉对应段和题目断行接续，商店描写范文保持四段。"
+    },
+    {
+      "start": 98,
+      "end": 99,
+      "before": [
+        "10 When did Frank visit the antique shop in the neighbourhood? (One Saturday",
+        "morning.)"
+      ],
+      "text": "10 When did Frank visit the antique shop in the neighbourhood? (One Saturday morning.)",
+      "reason": "古玩店说明、鉴赏者条件与捡漏故事的英汉对应段和题目断行接续，商店描写范文保持四段。"
+    },
+    {
+      "start": 110,
+      "end": 111,
+      "before": [
+        "21 Why did Frank find it difficult to conceal his excitement? (Because he knew he",
+        "had made a real discovery.)"
+      ],
+      "text": "21 Why did Frank find it difficult to conceal his excitement? (Because he knew he had made a real discovery.)",
+      "reason": "古玩店说明、鉴赏者条件与捡漏故事的英汉对应段和题目断行接续，商店描写范文保持四段。"
+    },
+    {
+      "start": 116,
+      "end": 117,
+      "before": [
+        "In not more than 250 words write a description, real or imaginary, of an antique shop.",
+        "Use the ideas given below. Do not write more than four paragraphs."
+      ],
+      "text": "In not more than 250 words write a description, real or imaginary, of an antique shop. Use the ideas given below. Do not write more than four paragraphs.",
+      "reason": "古玩店说明、鉴赏者条件与捡漏故事的英汉对应段和题目断行接续，商店描写范文保持四段。"
+    },
+    {
+      "start": 120,
+      "end": 122,
+      "before": [
+        "Development: Inside — the dealer— his appearance and character— the shop itself",
+        "—how objects are displayed— a typical scene during the day — description of",
+        "customers."
+      ],
+      "text": "Development: Inside — the dealer— his appearance and character— the shop itself —how objects are displayed— a typical scene during the day — description of customers.",
+      "reason": "古玩店说明、鉴赏者条件与捡漏故事的英汉对应段和题目断行接续，商店描写范文保持四段。"
+    },
+    {
+      "start": 126,
+      "end": 130,
+      "before": [
+        "‘The Antique Shop’ has been in the little street near the church for years. As you",
+        "look at it from across the road, it draws you towards it. It has one large window",
+        "display designed to attract all sorts of customers. There is expensive glass, porcelain",
+        "and jewellery to attract people with a lot of money; there is second-hand furniture,",
+        "modern silver and other things (hardly antique!) to attract those with not so much."
+      ],
+      "text": "‘The Antique Shop’ has been in the little street near the church for years. As you look at it from across the road, it draws you towards it. It has one large window display designed to attract all sorts of customers. There is expensive glass, porcelain and jewellery to attract people with a lot of money; there is second-hand furniture, modern silver and other things (hardly antique!) to attract those with not so much.",
+      "reason": "古玩店说明、鉴赏者条件与捡漏故事的英汉对应段和题目断行接续，商店描写范文保持四段。"
+    },
+    {
+      "start": 131,
+      "end": 133,
+      "before": [
+        "When you enter the shop, a little bell rings and the owner, a little grey-haired old",
+        "lady called Mrs. Century, comes out from a room at the back and greets you like a lost",
+        "relative! She greets everyone the same and always with a smile."
+      ],
+      "text": "When you enter the shop, a little bell rings and the owner, a little grey-haired old lady called Mrs. Century, comes out from a room at the back and greets you like a lost relative! She greets everyone the same and always with a smile.",
+      "reason": "古玩店说明、鉴赏者条件与捡漏故事的英汉对应段和题目断行接续，商店描写范文保持四段。"
+    },
+    {
+      "start": 134,
+      "end": 140,
+      "before": [
+        "The shop sells all kinds of antiques. There are shelves full of old books along the",
+        "back of the shop. There are two large tables in the middle of the shop covered with",
+        "pieces of glass and porcelain. Then, around the walls on the floor are large pots, brass",
+        "statues and things. There are lots of painting on the walls, too. At the weekend, the",
+        "shop usually has five or six customers in it at one time. You might find a professional",
+        "antique collector, a holiday couple and a young mother (with child in pram) looking",
+        "for a cheap antique for her husband's birthday."
+      ],
+      "text": "The shop sells all kinds of antiques. There are shelves full of old books along the back of the shop. There are two large tables in the middle of the shop covered with pieces of glass and porcelain. Then, around the walls on the floor are large pots, brass statues and things. There are lots of painting on the walls, too. At the weekend, the shop usually has five or six customers in it at one time. You might find a professional antique collector, a holiday couple and a young mother (with child in pram) looking for a cheap antique for her husband's birthday.",
+      "reason": "古玩店说明、鉴赏者条件与捡漏故事的英汉对应段和题目断行接续，商店描写范文保持四段。"
+    },
+    {
+      "start": 141,
+      "end": 142,
+      "before": [
+        "We all like looking for unusual things and hope to find a bargain one day. You",
+        "might find one in Mrs. Century's ‘Antique Shop’."
+      ],
+      "text": "We all like looking for unusual things and hope to find a bargain one day. You might find one in Mrs. Century's ‘Antique Shop’.",
+      "reason": "古玩店说明、鉴赏者条件与捡漏故事的英汉对应段和题目断行接续，商店描写范文保持四段。"
+    },
+    {
+      "start": 144,
+      "end": 145,
+      "before": [
+        "1 When Frank Halliday visited an antique shop in the writer's neighbourhood",
+        "_________."
+      ],
+      "text": "1 When Frank Halliday visited an antique shop in the writer's neighbourhood _________.",
+      "reason": "古玩店说明、鉴赏者条件与捡漏故事的英汉对应段和题目断行接续，商店描写范文保持四段。"
+    },
+    {
+      "start": 170,
+      "end": 171,
+      "before": [
+        "6 A bargain hunter must have patience, and above all, ________ recognize the worth",
+        "of …"
+      ],
+      "text": "6 A bargain hunter must have patience, and above all, ________ recognize the worth of …",
+      "reason": "古玩店说明、鉴赏者条件与捡漏故事的英汉对应段和题目断行接续，商店描写范文保持四段。"
+    }
+  ],
+  "splitBlocks": [],
+  "blockEdits": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/ee5ae652e75f190c3b5504483d25df4b0d9a3ba3ba3282cbcae761408607e85b.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "0ac152f80c4eb050087e849ad435fe6397504dc81af3a93ad6da603a5e82005a"
+    }
+  ]
+}

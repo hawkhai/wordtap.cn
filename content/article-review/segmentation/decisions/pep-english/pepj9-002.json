@@ -1,0 +1,22 @@
+{
+  "reviewMode": "json-segmentation-v1",
+  "expectedFileSha256": "019fad4ca7fed0091bc12687925c887683646aea530cadd5066c84a80e622df7",
+  "useSpacingCandidate": false,
+  "fullReadConfirmed": true,
+  "recheckConfirmed": true,
+  "parallelReview": true,
+  "coverage": "title；全文 blocks[0..2] 与对应 text；现有正文/对话/题干逐块通读复核。",
+  "notes": "英语学习三段按过去困难、Toy Story启发与方法、现在目标推进，保留多句学习过程段。",
+  "issues": [],
+  "mergeBlocks": [],
+  "splitBlocks": [],
+  "blockEdits": [],
+  "sources": [
+    {
+      "path": "content/article-review/history/0e091a89e6020538b8ed52677cc9d6f4d685b5d8b9b9282245313e4b6c55dec4.json",
+      "locator": "display: complete published JSON baseline; contextual segmentation review only",
+      "checked": true,
+      "sha256": "63a6a5dd2e796c375be969ea019f4f7b9954da714177a0e5c347fdef0b6f0cdf"
+    }
+  ]
+}
