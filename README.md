@@ -9,9 +9,20 @@
 
 WordTap is an open-source English learning web app for Chinese-speaking learners. Read your own text, tap words for Chinese definitions and pronunciation, listen to sentences, and practice typing the same article. Study records are stored in your browser.
 
-**[立即使用 WordTap](https://wordtap.cn/)** · [快速上手](#快速上手) · [本地运行](#开发命令) · [English overview](#english-overview) · [反馈问题](https://github.com/hawkhai/wordtap.cn/issues)
+**[立即使用 WordTap](https://wordtap.cn/)** · [快速上手](#快速上手) · [英文技术文档阅读教程](docs/technical-english-reading.md) · [本地运行](#开发命令) · [English overview](#english-overview) · [反馈问题](https://github.com/hawkhai/wordtap.cn/issues)
 
-[![WordTap 英语阅读界面：在原文中点击单词，查看中文释义并听发音](public/screenshot.png)](https://wordtap.cn/)
+[![WordTap 实际查词界面：点击英文技术短文中的 cache，在原句旁查看中文释义](public/media/technical-english/02-lookup.jpg)](https://wordtap.cn/)
+
+*真实操作截图，采自 2026-10-10 官网本地构建；线上更新前，个别入口布局可能略有区别。*
+
+<details>
+<summary>看 20 秒步骤演示：粘贴英文 → 点词查释义 → 跟打纠错 → 完成练习</summary>
+
+![WordTap 20 秒步骤演示：阅读技术英文、查 cache、修正拼写并完成两句跟打](public/media/technical-english/wordtap-20s.gif)
+
+动图由五张实际操作截图组成，无音轨。想自己试一遍，见[图文教程与可复制的示例](docs/technical-english-reading.md)。
+
+</details>
 
 ## 快速上手
 
@@ -21,6 +32,12 @@ WordTap is an open-source English learning web app for Chinese-speaking learners
 4. 开启文章跟打，逐句练习；之后在“我的单词”查看查过的词，继续阅读或练习。
 
 基础阅读、ECDICT 查词和文章跟打无需安装 Gateway。单词发音优先使用浏览器语音；可选的 Windows Gateway 提供更高质量的全文朗读及部分在线查词能力，见[安装说明](https://wordtap.cn/install/gateway/)。
+
+### 从一小段英文技术文档开始
+
+读 README、API 说明或英文报错时，可以先把需要理解的一小段正文放进 WordTap。点词查释义后，回到句子判断它在当前上下文里的意思，再用文章跟打练一遍。**[跟着教程完成第一次练习](docs/technical-english-reading.md)**：用两句原创的缓存说明，体验查词、拼写反馈和进度恢复。
+
+跟打按英文字母校验，忽略大小写、空格和标点；适合英文句子练习，不能用于检查代码语法或命令是否正确。
 
 ## 用同一篇文章练阅读、听读和输入
 
@@ -71,6 +88,8 @@ WordTap brings **English reading, dictionary lookup, text-to-speech (TTS), vocab
 - Listen to sentences and practice typing an article or a selected passage, with saved drafts and progress.
 - Keep study records in browser storage and transfer them manually with a learning-data backup.
 - Run the Vue 3 + TypeScript + Vite web client locally. The optional Windows Gateway is distributed separately.
+
+Reading technical documentation? Start with a short paragraph from a README or API guide, then practice the same sentences. See the [step-by-step technical English tutorial (Chinese)](docs/technical-english-reading.md). Typing practice checks English letters, not code syntax.
 
 **[Try WordTap online](https://wordtap.cn/)** — no account required. Offline use is limited to cached resources; online translation and speech services may receive the words or text you ask them to process. Original code and documentation use Apache-2.0; third-party materials retain their own terms.
 
