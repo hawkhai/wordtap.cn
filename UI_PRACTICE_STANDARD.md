@@ -123,9 +123,9 @@
 | --- | --- |
 | Vue 界面或样式 | `npm run typecheck`、`npm run verify:responsive` |
 | 共享主题变量或静态样式 | 追加 `node --test tools/static-page-design.test.mjs` |
-| 音标显示逻辑 | 追加 `npm run test:reading-phonetics` |
-| 朗读逻辑 | 追加 `npm run test:sentence-reading` |
-| 跟打逻辑 | 追加 `npm run test:article-typing` |
+| 音标显示逻辑 | 追加 `npm test` |
+| 朗读逻辑 | 追加 `npm test` |
+| 跟打逻辑 | 追加 `npm test` |
 | 构建入口或交付产物 | `npm run build`，检查包含前置检查、前端打包及静态生成的完整结果 |
 | 纯文档 | 核对本地链接、变量和实现映射，运行 `git diff --check`；不为文档修改重复运行全部应用测试 |
 
@@ -168,4 +168,4 @@
 - 保留前两组 4+4 课程入口，第三组为英语词汇；窄屏沿用两列组内排列。
 - 词库选择器与搜索框使用 14px 界面文字；单元标题和词数复用既有项目标题、辅助文字层级。菜单支持键盘选择、Esc 关闭、错误重试与最近位置恢复。
 - 音标行使用 Charis、400 字重、正文 0.8 倍大小；不产生可点音标碎片，正文英文仍可查词。
-- 验收桌面、390px、360px 的页面和菜单无横向溢出；点词、例句跟打与草稿恢复正常。具体结果记录在词库来源目录的验收文档。
+- 验收桌面、390px、360px 的页面和菜单无横向溢出；点词、例句跟打与草稿恢复正常。具体结果记录在 `OPEN_SOURCE_ALIGNMENT.md`。

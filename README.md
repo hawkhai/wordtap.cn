@@ -45,13 +45,14 @@ src/
   shared/
     composables/useWordTap.ts     # 学习、查词、朗读、缓存、诊断主逻辑
     stores/historyStore.ts        # IndexedDB 持久化
-    services/                     # 词典、Gateway、朗读、诊断等服务
+    utils/                        # 词典、Gateway、朗读、资源地址等工具
 public/
   dict/                           # ECDICT 静态词典 manifest 和分片
-  downloads/                      # 外部发布包的元数据与校验文件
+  fonts/                          # 阅读与音标字体及许可证
   */lessons/                      # 随站点发布的课程数据
   sw.js                           # 轻量运行时缓存 Service Worker
-tools/                            # 构建、课程生成与验证脚本
+content/release/                  # 当前发布哈希、来源版本及已知问题
+tools/                            # 页面生成、发布检查与业务测试
 ```
 
 课程原始文件、OCR 工作目录、安装包和构建产物不会提交到仓库；可复现的站点数据位于 `public/`。
@@ -129,20 +130,6 @@ WordTap 使用 IndexedDB 数据库 `wordtap-study-history`，当前版本为 6�
 
 Service Worker 不会预缓存全部词典分片。只有已经请求过的分片，才可能在后续离线时从缓存读取。
 
-如需从合法取得的 ECDICT CSV 重新生成词典：
-
-```bash
-npm run generate:dict -- --source /path/to/ecdict.csv
-```
-
-研究生教材 OCR 使用 Windows 11 OneOCR。请显式传入引擎目录，避免把开发者本机路径写进项目：
-
-```bash
-npm run ocr:postgraduate -- --engine /path/to/oneocr/bin
-```
-
-也可以通过 `WORDTAP_ONEOCR_DIR` 环境变量设置引擎目录。原始扫描件和 OCR 中间产物位于被忽略的 `tools/graduate/`，不会进入开源提交。
-
 ## WordTap Gateway
 
 Gateway 是可选的本地 Rust 服务，默认地址：
@@ -189,49 +176,23 @@ WordTap 可以轻度离线使用，但不是完整离线学习应用。
 
 ## 开发命令
 
-Web 开发需要 Node.js 20.19 或更高版本。重新生成课程数据还需要 Python 3.10 或更高版本，并安装可选工具依赖：
-
-```bash
-python -m pip install -r requirements.txt
-```
-
-安装依赖：
+Web 开发、构建与统一验证只需要 Node.js 20.19+ 和仓库内的发布数据，不需要 Python、Rust、原始教材、词汇 JSONL 或审核日志。
 
 ```bash
 npm ci
-```
-
-启动开发服务器：
-
-```bash
 npm run dev
-```
-
-类型检查：
-
-```bash
-npm run typecheck
-```
-
-生产构建：
-
-```bash
 npm run build
-```
-
-完整验证：
-
-```bash
+npm test
 npm run verify
 ```
 
-仅检查是否误提交本机文件、敏感文件或缺少开源必备声明：
+`build` 校验发布数据和类型，打包应用并生成课程、词库、考试与安装说明静态页面，检查短链接、资源和主题；`test` 运行业务回归；`verify` 构建一次，再运行业务、响应式和开源检查。
 
-```bash
-npm run verify:open-source
-```
+定向命令：`npm run typecheck`、`npm run verify:published`、`npm run verify:responsive`、`npm run verify:open-source`。
 
-`npm run build` 会先运行 `tools/check-downloads.mjs`。开发环境缺少安装包时只会打印 warning，不会阻断构建；如果 Gateway 安装包存在，则会校验 SHA-256 和 release manifest。
+独立浏览器验收：`npm run verify:browser`。需另行提供 Playwright 与 Chromium；使用 `WORDTAP_PLAYWRIGHT_MODULE`、`WORDTAP_CHROMIUM_EXECUTABLE`、`WORDTAP_TEST_URL` 和 `WORDTAP_TEST_OUTPUT` 配置，产物默认放入忽略的 `tmp/web-sync/`。普通构建及 CI 不下载浏览器。
+
+安装器不在本仓库内，所有下载入口使用官方 HTTPS 地址；安装说明保留在当前站点。跨域下载或缺少可选发布元数据时，诊断会说明无法确认，不将其判定为 Web 应用失败。
 
 ## 参与项目
 
@@ -254,24 +215,14 @@ npm run verify:open-source
 
 ## 界面风格与后续迭代
 
-本项目沿用 cf-design / Arco Design 的阅读优先风格，技能来源、设计变量、响应式宽度和交互约定见 [STYLE_GUIDE.md](STYLE_GUIDE.md)，同步说明见 [CF_DESIGN_NOTES.md](CF_DESIGN_NOTES.md)。Vue 和静态生成网页共享主题变量；功能迭代应同时检查这两条渲染路径。`npm run build` 包含主题回归测试与全部生成页面的风格检查。
+本项目沿用 cf-design / Arco Design 的阅读优先风格，技能来源、设计变量、响应式宽度和交互约定见 [STYLE_GUIDE.md](STYLE_GUIDE.md)，同步说明见 [CF_DESIGN_NOTES.md](CF_DESIGN_NOTES.md)。Vue 和静态生成网页共享主题变量；功能迭代应同时检查这两条渲染路径。`npm run build` 检查全部生成页面的风格；`npm test` 包含主题回归测试。
 
-## 全量 Web 同步与维护
+## 开源版与完整版
 
-2026-10-10 同步范围和验证结果见 [同步记录](content/web-sync/README.md)。原七套课程仍为 1,054 份；句段审核保留 120 篇待确认，审核工具可用不代表内容全部通过。
+开源版保留全部已发布 Web 学习功能；Gateway 与安装器独立交付，原始内容重建和历史审核由完整版负责。功能对照与验收见 [开源版对齐记录](OPEN_SOURCE_ALIGNMENT.md)。
 
-普通 `npm run build` 只需 Node.js 20.19+ 与已发布数据，不需要 Python、原始教材、词汇 JSONL、Rust 或联网下载。完整维护验证 `npm run verify` 使用 Python 3.10+；不要使用旧版系统默认解释器。
+原七套课程共 1,054 份，另有 5,860 个词汇单元。120 篇文章仍待来源确认，16 处词汇源数据问题原样保留；当前发布检查不代表历史审核完成。对应标识、来源与哈希见 [发布说明](content/release/README.md)。
 
-词汇固定来源的重建校验在显式取得资料后运行：
+修改课程直接更新发布 JSON、manifest 和索引，按 [课程接入协议](COURSE_INTEGRATION_PROTOCOL.md) 检查和更新发布哈希，无需搭建审核系统。
 
-```bash
-npm run fetch:english-vocabulary
-npm run verify:english-vocabulary
-npm run generate:english-vocabulary
-```
-
-原始词汇资料保存在被忽略的 `content/english-vocabulary/raw/`；来源检查逐项校验固定提交、SHA-256 和已知问题。日常构建通过 `verify:english-vocabulary:published` 验证发布快照，更新固定来源时同时审核并更新发布快照清单。审核与课程生成流程见 `COURSE_INTEGRATION_PROTOCOL.md` 和 `content/article-review/README.md`。
-
-完整学习备份使用 schemaVersion 4，兼容旧单词数组以及原有版本 2/3 对象；包含文章与跟打记录，缓存仍不进入备份。版本 6 数据库采用增量升级；回退前端也必须保留版本 6 数据库兼容能力。
-
-本次同步按用户要求排除审核事件日志、历史 ZIP、旧签名源历史和清理报告；当前项目原有日志保留。`verify:courses:published` 按源基线校验发布字节和当前修订，完整度命令仍报告 120 篇待确认。历史事件链与撤回复核需要另行准备外部审核资料，不能把发布快照校验解释为完整历史审核。`verify:college-english:history` 保留显式历史检查入口。
+完整学习备份使用 schemaVersion 4，兼容旧单词数组及版本 2/3 对象，包含单词、文章、考试进度、考试生词和跟打进度，缓存不进入备份。数据库版本 6 采用增量升级；回退前端也必须兼容版本 6，不能降级或清库。

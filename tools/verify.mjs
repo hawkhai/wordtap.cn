@@ -24,22 +24,9 @@ function run(command, args, options = {}) {
 run(npmCommand, npmBuildArgs);
 
 for (const script of [
+  "test",
   "verify:open-source",
-  "verify:shuimu",
-  "verify:postgraduate:complete",
-  "verify:pep-english",
-  "verify:college-english:published",
-  "verify:cet",
-  "verify:kaoyan-english",
-  "verify:spacing",
-  "verify:segmentation",
-  "verify:article-review:published",
-  "test:english-vocabulary",
-  "test:spacing",
-  "test:article-review",
-  "test:review-archive",
-  "test:segmentation",
-  "test:article-cleanup",
+  "verify:responsive",
 ]) {
   const args = isWindows
     ? ["/d", "/s", "/c", "npm.cmd", "run", script]

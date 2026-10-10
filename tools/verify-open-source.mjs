@@ -34,13 +34,20 @@ const forbiddenPrefixes = [
   "tools/College-English/",
   "content/NCE-Flow/",
   "content/English-for-post-graduate/",
+  "content/article-review/",
+  "content/web-sync/",
+  "content/College-English/",
+  "content/pep-english/",
+  "content/reading-layout/",
+  "content/english-vocabulary/",
 ];
 const forbiddenSegments = ["/raw/", "/reports/"];
 for (const file of tracked) {
   invariant(!forbiddenPrefixes.some((prefix) => file.startsWith(prefix)), `Generated or local path is tracked: ${file}`);
   invariant(!forbiddenSegments.some((segment) => file.includes(segment)), `Raw or report path is tracked: ${file}`);
-  invariant(!/\.(?:exe|pfx|p12|pem|key|keystore|jks|log|tmp|bak|orig|rej)$/i.test(file), `Sensitive or generated file type is tracked: ${file}`);
+  invariant(!/\.(?:exe|pfx|p12|pem|key|keystore|jks|log|jsonl|zip|tsv|tmp|bak|orig|rej)$/i.test(file), `Sensitive or generated file type is tracked: ${file}`);
   invariant(statSync(path.join(root, file)).size <= 5 * 1024 * 1024, `Tracked file exceeds 5 MiB: ${file}`);
+  if (file.startsWith('content/release/')) invariant(statSync(path.join(root, file)).size <= 1024 * 1024, `Release metadata exceeds 1 MiB: ${file}`);
 }
 
 const codeOrConfig = tracked.filter((file) =>

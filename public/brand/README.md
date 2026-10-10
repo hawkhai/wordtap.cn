@@ -17,10 +17,4 @@
 </a>
 ```
 
-导出脚本为 `tools/export-brand-svg.py`，需要 Python fontTools。英文使用仓库现有 Itim，中文使用本机楷体文件，仅导出字形轮廓，不分发字体文件：
-
-```powershell
-python tools/export-brand-svg.py --tagline-font C:/Windows/Fonts/simkai.ttf
-```
-
-此资源独立于网页文本组件。调整品牌样式后，应同步重新导出并检查图标、字形、颜色、留白及缩放效果。
+该 SVG 是已发布的独立资源。开源版不携带依赖本机字体的导出流程；需要调整时使用 SVG 编辑工具或完整版流程，核对图标、字形、颜色、留白、缩放效果与字体许可。网页继续使用文本组件。

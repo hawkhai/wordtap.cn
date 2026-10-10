@@ -77,7 +77,7 @@
 
 ## 文章文字排版
 
-文章内容按 `content/article-review` 台账逐篇通读、查源与复核。中文与英文、阿拉伯数字之间使用一个半角空格；音标与释义之间保留可读间距，教学对齐、缩写、网址、小数、时间和音频坐标保持完整。纯排版只调整空白，校勘改词须有原资料证据。
+文章内容保留发布原文；来源重建与历史审核由完整版维护，开源版只保留当前发布信息和已知问题。中文与英文、阿拉伯数字之间使用一个半角空格；音标与释义之间保留可读间距，教学对齐、缩写、网址、小数、时间和音频坐标保持完整。纯排版只调整空白，校勘改词须有原资料证据。
 
 2026-10-06 内容规则：不得向课文增添原版没有的阅读提示、编者评论或解读，不自行改写故事、译文、例句、题目和答案。原教材的问题记录在独立审校资料中；正文只接受有原文对照依据的录入/OCR 修复。不得用事实更新或“更合理”替代原文。
 
@@ -85,7 +85,7 @@
 
 ## 静态网页生成路径
 
-Vue 与生成的课程目录、课文、考试入口、安装指南共用 `src/design-tokens.css`。Vue 由 `src/design.css` 引入；生成器由 `tools/course-page-shared.mjs` 读取并内嵌，页面不依赖 Vue 样式包。静态布局和组件样式维护于共享生成器及考试、安装指南生成器。修改风格时同时核对两条路径；`npm run build` 会运行主题回归测试，并通过 `tools/verify-static-design.mjs` 检查全部生成页面。
+Vue 与生成的课程目录、课文、考试入口、安装指南共用 `src/design-tokens.css`。Vue 由 `src/design.css` 引入；生成器由 `tools/course-page-shared.mjs` 读取并内嵌，页面不依赖 Vue 样式包。静态布局和组件样式维护于共享生成器及考试、安装指南生成器。修改风格时同时核对两条路径；`npm test` 运行主题回归；`npm run build` 通过 `tools/verify-static-design.mjs` 检查全部生成页面。
 
 页面外层宽度统一复用 `--wt-content-max-width: 88rem`；桌面左右各 24px，640px 以下左右各 16px。该上限同时应用于 Vue 工作台与全部静态生成页面；英文正文的 68ch 行长约束与外层页面宽度分别维护。
 
@@ -97,7 +97,7 @@ Vue 与生成的课程目录、课文、考试入口、安装指南共用 `src/d
 
 点击单词仍查词、发音并记录学习。句末按钮每次播放一遍，不受单词／全文“遍数”设置影响；播放或准备期间再次点击停止，完成后可重读。句子播放不增加点读次数。句子、单词和全文共享停止与互斥规则；切换文章、修改文本、离开阅读视图时结束播放。分句属于可测试的规则启发式，不更改原始课程资料。
 
-定向回归：`npm run test:sentence-reading`、`npm run typecheck`、`npm run verify:responsive`、`npm run build`；实际检查桌面与 390px 窄屏的中文显示、淡色句末入口、键盘焦点、单词点击、长句换行与中英文混排。
+定向回归：`npm test`、`npm run typecheck`、`npm run verify:responsive`、`npm run build`；实际检查桌面与 390px 窄屏的中文显示、淡色句末入口、键盘焦点、单词点击、长句换行与中英文混排。
 
 ## 文章跟打
 
@@ -115,7 +115,7 @@ Vue 与生成的课程目录、课文、考试入口、安装指南共用 `src/d
 
 课程跟打点击后直接进入：有可靠正文标记时优先提取正文（水木课程的 Step 2 精读段落也在内），其余课程使用当前阅读文本中的英文句子，不以手动选区作为启动前提。用户仍可在原文输入框选定范围单独练习。
 
-定向回归：`npm run test:article-typing`、`npm run typecheck`、`npm run verify:responsive`、`npm run build`；实际检查桌面和约 390px 窄屏的范围选择、输入焦点、错误提示、句子切换与恢复。
+定向回归：`npm test`、`npm run typecheck`、`npm run verify:responsive`、`npm run build`；实际检查桌面和约 390px 窄屏的范围选择、输入焦点、错误提示、句子切换与恢复。
 
 ## 课程菜单续学位置
 
@@ -133,7 +133,7 @@ Vue 与生成的课程目录、课文、考试入口、安装指南共用 `src/d
 
 音标仅改变显示；点音标沿用原词查词、发音和学习记录，句子与全文播放英文原文，显示切换不写学习记录或修改保存正文。
 
-定向回归：`npm run test:reading-phonetics`、`npm run test:sentence-reading`、`npm run test:article-typing`、`npm run typecheck`、`npm run verify:responsive`、`npm run build`；实际检查桌面与 390px 窄屏的勾选、取消、刷新恢复、缺失提示、长音标换行、点词弹层、句末入口、键盘焦点及跟打退出恢复。
+定向回归：`npm test`、`npm run typecheck`、`npm run verify:responsive`、`npm run build`；实际检查桌面与 390px 窄屏的勾选、取消、刷新恢复、缺失提示、长音标换行、点词弹层、句末入口、键盘焦点及跟打退出恢复。
 
 ## 全文朗读暂停与继续
 
@@ -143,7 +143,7 @@ Vue 与生成的课程目录、课文、考试入口、安装指南共用 `src/d
 
 暂停不计入浏览器语音超时，原有自动恢复机制不得解除用户主动暂停。停止、改文章、切换视图、点词或句子朗读会结束全文播放并清除暂停状态。
 
-定向检查：`npm run test:sentence-reading`、`npm run test:article-typing`、`npm run typecheck`、`npm run verify:responsive`；检查桌面、390px 和 360px 窄屏的开始、暂停、继续、停止和反复切换。覆盖浏览器语音和 Gateway 音频的准备、播放、分块、重复、失败降级与取消边界。
+定向检查：`npm test`、`npm test`、`npm run typecheck`、`npm run verify:responsive`；检查桌面、390px 和 360px 窄屏的开始、暂停、继续、停止和反复切换。覆盖浏览器语音和 Gateway 音频的准备、播放、分块、重复、失败降级与取消边界。
 
 ## 英语词汇学习
 
