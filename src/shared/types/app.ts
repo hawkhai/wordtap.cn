@@ -1,5 +1,10 @@
+export type ReadingDisplayMode = "original" | "annotated" | "phonetic";
+export type WordPhonetic =
+  | { status: "ready"; text: string }
+  | { status: "loading" | "missing" | "error"; text?: never };
+
 export type Segment =
-  | { type: "text"; text: string; id: string }
+  | { type: "text"; text: string; id: string; phonetic?: boolean }
   | { type: "blank-line"; text: string; id: string }
   | { type: "word"; text: string; trailingText?: string; id: string; index: number };
 
@@ -29,7 +34,7 @@ export type DictionaryManifest = {
 
 export type DictionaryShard = Record<string, DictionaryEntry>;
 export type ActiveView = "study" | "exam" | "review" | "diagnostics" | "ipa";
-export type CourseId = "pep-english" | "nce" | "shuimu" | "postgraduate" | "college-english" | "cet" | "kaoyan-english";
+export type CourseId = "pep-english" | "nce" | "shuimu" | "postgraduate" | "college-english" | "cet" | "kaoyan-english" | "english-vocabulary";
 export type CourseLessonSelection = {
   course: CourseId;
   id: string;

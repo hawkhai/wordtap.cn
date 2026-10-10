@@ -7,7 +7,7 @@ export function appAssetUrl(path: string): string {
 export function appSectionUrl(path: string): string {
   const normalizedPath = path.replace(/^\/+/, "");
   const parts = window.location.pathname.split("/").filter(Boolean);
-  const sectionIndex = parts.findIndex((part) => part === "exam" || part === "nce" || part === "shuimu" || part === "postgraduate" || part === "pep-english" || part === "college-english" || part === "cet" || part === "kaoyan-english");
+  const sectionIndex = parts.findIndex((part) => part === "exam" || part === "nce" || part === "shuimu" || part === "postgraduate" || part === "pep-english" || part === "college-english" || part === "cet" || part === "kaoyan-english" || part === "english-vocabulary");
   const baseParts = sectionIndex >= 0 ? parts.slice(0, sectionIndex) : parts;
   const lastPart = baseParts.at(-1) ?? "";
   const baseDirectory = lastPart.includes(".") ? baseParts.slice(0, -1) : baseParts;

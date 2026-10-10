@@ -1,6 +1,6 @@
 import { appAssetUrl } from "../utils/assetUrls";
 
-interface NceLessonSentence {
+export interface NceLessonSentence {
   index: number;
   startTime: number;
   endTime: number | null;
@@ -9,13 +9,13 @@ interface NceLessonSentence {
   role: "lesson" | "title" | "prompt" | "question" | "body";
 }
 
-interface NceLessonAudio {
+export interface NceLessonAudio {
   fileName: string;
   sourcePath: string;
   exists: boolean;
 }
 
-interface NceLessonSource {
+export interface NceLessonSource {
   lrcFileName: string;
   lrcPath: string;
 }
@@ -108,7 +108,7 @@ export const nceBooks: NceBook[] = [
 
 let manifestPromise: Promise<NceManifest> | null = null;
 
-async function fetchJson<T>(path: string, cache: RequestCache = "force-cache"): Promise<T> {
+async function fetchJson<T>(path: string, cache: RequestCache = "no-cache"): Promise<T> {
   const response = await fetch(appAssetUrl(path), { cache });
   if (!response.ok) {
     throw new Error(`Unable to load ${path}: ${response.status}`);

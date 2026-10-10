@@ -7,18 +7,19 @@ import {
   type ShuimuLessonSummary,
 } from "./shared/data/shuimuLessons";
 import type { CourseLessonSelection } from "./shared/types/app";
+import { useCourseMenuProgress } from "./shared/composables/useCourseMenuProgress";
 
 const emit = defineEmits<{ select: [selection: CourseLessonSelection] }>();
 
 const open = ref(false);
-const activeLevelIndex = ref(0);
 const searchQuery = ref("");
+const { activeGroupId, selectedLessonId, listElement, rememberScroll, setGroup, syncGroups, rememberLesson } = useCourseMenuProgress("shuimu", open, searchQuery);
 const levels = ref<ShuimuLevel[]>([]);
 const manifestError = ref("");
 const lessonError = ref("");
 const loadingLessonId = ref("");
 
-const activeLevel = computed(() => levels.value[activeLevelIndex.value] ?? levels.value[0]);
+const activeLevel = computed(() => levels.value.find((level) => level.id === activeGroupId.value) ?? levels.value[0]);
 const levelLabels: Record<string, string> = {
   phonetics: "国际音标",
   beginner: "初级",
@@ -51,6 +52,7 @@ async function selectLesson(level: ShuimuLevel, lesson: ShuimuLessonSummary): Pr
   lessonError.value = "";
   try {
     const detail = await loadShuimuLesson(lesson.jsonPath);
+    rememberLesson(level.id, lesson.id);
     const header = `水木英语 ${level.title} 第 ${lesson.unitNo} 单元 ${detail.title}\n`;
     emit("select", {
       course: "shuimu",
@@ -98,6 +100,7 @@ async function loadManifest(): Promise<void> {
   try {
     const manifest = await loadShuimuManifest();
     levels.value = manifest.levels;
+    syncGroups(manifest.levels.map((level) => level.id));
     manifestError.value = "";
   } catch (error) {
     console.warn("Unable to load Water & Wood English manifest", error);
@@ -130,12 +133,12 @@ onBeforeUnmount(() => {
     <div v-if="open" class="nce-panel" @click.stop>
       <div class="nce-book-tabs">
         <button
-          v-for="(level, index) in levels"
+          v-for="level in levels"
           :key="level.id"
           type="button"
           class="nce-book-tab"
-          :class="{ 'nce-book-tab-active': activeLevelIndex === index }"
-          @click="activeLevelIndex = index; lessonError = ''"
+          :class="{ 'nce-book-tab-active': activeGroupId === level.id }"
+          @click="setGroup(level.id); lessonError = ''"
         >
           {{ levelLabel(level) }}
           <span class="nce-book-tab-count">{{ level.lessonCount || level.lessons.length }}</span>
@@ -156,7 +159,7 @@ onBeforeUnmount(() => {
         {{ manifestError }}
       </p>
 
-      <div v-else class="nce-list">
+      <div v-else ref="listElement" class="nce-list" @scroll="rememberScroll">
         <p v-if="lessonError" class="nce-empty">
           {{ lessonError }}
         </p>
@@ -165,6 +168,9 @@ onBeforeUnmount(() => {
           :key="lesson.id"
           type="button"
           class="nce-item"
+          :class="{ 'nce-item-last-selected': selectedLessonId === lesson.id }"
+          :data-lesson-id="lesson.id"
+          :aria-current="selectedLessonId === lesson.id ? 'true' : undefined"
           :disabled="Boolean(loadingLessonId)"
           @click="selectLesson(activeLevel, lesson)"
         >

@@ -124,7 +124,7 @@ export default defineConfig({
 
           const pathname = new URL(req.url, "http://localhost").pathname;
           const parts = pathname.split("/").filter(Boolean);
-          const sectionIndex = parts.findIndex((part) => part === "pep-english" || part === "nce" || part === "shuimu" || part === "postgraduate" || part === "college-english" || part === "cet" || part === "kaoyan-english" || part === "install");
+          const sectionIndex = parts.findIndex((part) => part === "pep-english" || part === "nce" || part === "shuimu" || part === "postgraduate" || part === "college-english" || part === "cet" || part === "kaoyan-english" || part === "english-vocabulary" || part === "install");
           if (sectionIndex < 0) {
             next();
             return;
@@ -151,7 +151,8 @@ export default defineConfig({
       },
       transformIndexHtml: {
         order: "pre",
-        handler: injectSeoCopy,
+        handler: (html, context) => context.path === "/index.html" || context.path === "/"
+          ? injectSeoCopy(html) : html,
       },
     },
     vue(),

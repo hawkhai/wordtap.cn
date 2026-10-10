@@ -1128,6 +1128,13 @@
     font-weight: 600;
   }
 
+  .study-feedback-email {
+    width: 9.75rem;
+    max-width: 100%;
+    height: auto;
+    image-rendering: auto;
+  }
+
   .study-icp {
     color: #738279;
     font-size: 0.84rem;
@@ -1270,7 +1277,7 @@
   }
 
   .nce-button-active {
-    background: rgba(31, 91, 76, 0.12) !important;
+    background: rgba(31, 91, 76, 0.12);
   }
 
   .nce-panel {

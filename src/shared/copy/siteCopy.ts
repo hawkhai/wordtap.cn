@@ -358,6 +358,7 @@ export const siteCopy = {
     ],
     footerAria: "网站底部信息",
     feedbackLabel: "意见反馈：",
+    feedbackEmailAlt: "反馈邮箱地址",
     icp: "粤ICP备17134686号-3",
   },
   ipa: {

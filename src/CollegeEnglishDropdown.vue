@@ -7,18 +7,19 @@ import {
   type CollegeEnglishLessonSummary,
 } from "./shared/data/collegeEnglishLessons";
 import type { CourseLessonSelection } from "./shared/types/app";
+import { useCourseMenuProgress } from "./shared/composables/useCourseMenuProgress";
 
 const emit = defineEmits<{ select: [selection: CourseLessonSelection] }>();
 
 const open = ref(false);
-const activeGroupIndex = ref(0);
 const searchQuery = ref("");
+const { activeGroupId, selectedLessonId, listElement, rememberScroll, setGroup, syncGroups, rememberLesson } = useCourseMenuProgress("college-english", open, searchQuery);
 const groups = ref<CollegeEnglishGroup[]>([]);
 const manifestError = ref("");
 const lessonError = ref("");
 const loadingLessonId = ref("");
 
-const activeGroup = computed(() => groups.value[activeGroupIndex.value] ?? groups.value[0]);
+const activeGroup = computed(() => groups.value.find((group) => group.id === activeGroupId.value) ?? groups.value[0]);
 const publishedArticleCount = computed(() => groups.value.reduce((total, group) => total + group.publishedArticleCount, 0));
 
 const filteredLessons = computed(() => {
@@ -53,6 +54,7 @@ async function selectLesson(group: CollegeEnglishGroup, lesson: CollegeEnglishLe
   lessonError.value = "";
   try {
     const detail = await loadCollegeEnglishLesson(lesson.jsonPath);
+    rememberLesson(group.id, lesson.id);
     const title = `${group.title} · Unit ${detail.unitNo} · Section ${detail.section} · ${detail.title}`;
     emit("select", {
       course: "college-english",
@@ -80,6 +82,7 @@ onMounted(() => {
   void loadCollegeEnglishManifest()
     .then((manifest) => {
       groups.value = manifest.groups;
+      syncGroups(manifest.groups.map((group) => group.id));
       manifestError.value = "";
     })
     .catch((error: unknown) => {
@@ -111,8 +114,8 @@ onBeforeUnmount(() => document.removeEventListener("mousedown", handleClickOutsi
           :key="group.id"
           type="button"
           class="nce-book-tab"
-          :class="{ 'nce-book-tab-active': activeGroupIndex === index }"
-          @click="activeGroupIndex = index; lessonError = ''"
+          :class="{ 'nce-book-tab-active': activeGroupId === group.id }"
+          @click="setGroup(group.id); lessonError = ''"
         >
           读写 {{ index + 1 }}
           <span class="nce-book-tab-count">{{ group.lessonCount }}</span>
@@ -130,13 +133,16 @@ onBeforeUnmount(() => document.removeEventListener("mousedown", handleClickOutsi
       >
 
       <p v-if="manifestError" class="nce-empty">{{ manifestError }}</p>
-      <div v-else class="nce-list">
+      <div v-else ref="listElement" class="nce-list" @scroll="rememberScroll">
         <p v-if="lessonError" class="nce-empty">{{ lessonError }}</p>
         <button
           v-for="lesson in filteredLessons"
           :key="lesson.id"
           type="button"
           class="nce-item"
+          :class="{ 'nce-item-last-selected': selectedLessonId === lesson.id }"
+          :data-lesson-id="lesson.id"
+          :aria-current="selectedLessonId === lesson.id ? 'true' : undefined"
           :disabled="Boolean(loadingLessonId)"
           @click="selectLesson(activeGroup, lesson)"
         >

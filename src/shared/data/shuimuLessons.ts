@@ -1,6 +1,6 @@
 import { appAssetUrl } from "../utils/assetUrls";
 
-interface ShuimuVideo {
+export interface ShuimuVideo {
   lessonNo: number;
   position: number;
   title: string;
@@ -9,7 +9,7 @@ interface ShuimuVideo {
   mappingBasis: string;
 }
 
-interface ShuimuBlock {
+export interface ShuimuBlock {
   type: "heading" | "subheading" | "list" | "paragraph";
   text: string;
 }

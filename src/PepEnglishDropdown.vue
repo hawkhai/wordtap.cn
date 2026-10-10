@@ -7,6 +7,7 @@ import {
   type PepEnglishLessonSummary,
 } from "./shared/data/pepEnglishLessons";
 import type { CourseLessonSelection } from "./shared/types/app";
+import { useCourseMenuProgress } from "./shared/composables/useCourseMenuProgress";
 
 type PepEnglishStage = "junior" | "senior";
 
@@ -15,8 +16,8 @@ const emit = defineEmits<{ select: [selection: CourseLessonSelection] }>();
 
 const stageLabel = computed(() => (props.stage === "junior" ? "初中英语" : "高中英语"));
 const open = ref(false);
-const activeGroupId = ref("");
 const searchQuery = ref("");
+const { activeGroupId, selectedLessonId, listElement, rememberScroll, setGroup, syncGroups, rememberLesson } = useCourseMenuProgress(`pep-english-${props.stage}`, open, searchQuery);
 const groups = ref<PepEnglishGroup[]>([]);
 const manifestError = ref("");
 const lessonError = ref("");
@@ -56,6 +57,7 @@ async function selectLesson(group: PepEnglishGroup, lesson: PepEnglishLessonSumm
   lessonError.value = "";
   try {
     const detail = await loadPepEnglishLesson(lesson.jsonPath);
+    rememberLesson(group.id, lesson.id);
     const unit = detail.unitNo ? `Unit ${detail.unitNo}` : detail.section;
     emit("select", {
       course: "pep-english",
@@ -83,7 +85,7 @@ onMounted(() => {
   void loadPepEnglishManifest()
     .then((manifest) => {
       groups.value = manifest.groups;
-      activeGroupId.value = manifest.groups.find((group) => group.stage === props.stage)?.id ?? "";
+      syncGroups(manifest.groups.filter((group) => group.stage === props.stage).map((group) => group.id));
       manifestError.value = "";
     })
     .catch((error: unknown) => {
@@ -114,10 +116,10 @@ onBeforeUnmount(() => document.removeEventListener("mousedown", handleClickOutsi
     <div v-if="open" class="nce-panel" @click.stop>
       <select
         v-if="stageGroups.length"
-        v-model="activeGroupId"
+        :value="activeGroupId"
         class="nce-search"
         aria-label="选择教材册"
-        @change="lessonError = ''"
+        @change="setGroup(($event.target as HTMLSelectElement).value); lessonError = ''"
       >
         <option v-for="group in stageGroups" :key="group.id" :value="group.id">
           {{ group.title }} · {{ group.lessonCount }} 篇
@@ -135,13 +137,16 @@ onBeforeUnmount(() => document.removeEventListener("mousedown", handleClickOutsi
       >
 
       <p v-if="manifestError" class="nce-empty">{{ manifestError }}</p>
-      <div v-else class="nce-list">
+      <div v-else ref="listElement" class="nce-list" @scroll="rememberScroll">
         <p v-if="lessonError" class="nce-empty">{{ lessonError }}</p>
         <button
           v-for="item in filteredLessons"
           :key="item.lesson.id"
           type="button"
           class="nce-item"
+          :class="{ 'nce-item-last-selected': selectedLessonId === item.lesson.id }"
+          :data-lesson-id="item.lesson.id"
+          :aria-current="selectedLessonId === item.lesson.id ? 'true' : undefined"
           :disabled="Boolean(loadingLessonId)"
           @click="selectLesson(item.group, item.lesson)"
         >

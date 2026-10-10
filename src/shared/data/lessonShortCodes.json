@@ -33,5 +33,10 @@
     "prefix": "ky",
     "padding": 4,
     "groups": ["e1", "e2"]
+  },
+  "english-vocabulary": {
+    "prefix": "ev",
+    "padding": 3,
+    "groups": ["evjunior", "evsenior", "evcet4", "evcet6", "evkaoyan", "evtoefl", "evsat", "evielts", "evgre", "evgmat", "evtem4", "evtem8", "evbusiness", "evpep3", "evpep4", "evpep5", "evpep6", "evpep7", "evpep8", "evpep9", "evpeph", "evbnu", "evfltrp"]
   }
 }

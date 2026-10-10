@@ -7,15 +7,16 @@ import {
   type KaoyanEnglishLessonSummary,
 } from "./shared/data/kaoyanEnglishLessons";
 import type { CourseLessonSelection } from "./shared/types/app";
+import { useCourseMenuProgress } from "./shared/composables/useCourseMenuProgress";
 
 const emit = defineEmits<{ select: [selection: CourseLessonSelection] }>();
 const open = ref(false);
-const activeGroupIndex = ref(0);
 const searchQuery = ref("");
+const { activeGroupId, selectedLessonId, listElement, rememberScroll, setGroup, syncGroups, rememberLesson } = useCourseMenuProgress("kaoyan-english", open, searchQuery);
 const groups = ref<KaoyanEnglishGroup[]>([]);
 const errorMessage = ref("");
 const loadingLessonId = ref("");
-const activeGroup = computed(() => groups.value[activeGroupIndex.value] ?? groups.value[0]);
+const activeGroup = computed(() => groups.value.find((group) => group.id === activeGroupId.value) ?? groups.value[0]);
 const filteredLessons = computed(() => {
   const query = searchQuery.value.trim().toLocaleLowerCase();
   if (!activeGroup.value) return [];
@@ -36,6 +37,7 @@ async function selectLesson(group: KaoyanEnglishGroup, lesson: KaoyanEnglishLess
   errorMessage.value = "";
   try {
     const detail = await loadKaoyanEnglishLesson(lesson.jsonPath);
+    rememberLesson(group.id, lesson.id);
     emit("select", {
       course: "kaoyan-english",
       id: detail.id,
@@ -57,7 +59,7 @@ function handleClickOutside(event: MouseEvent): void {
 }
 onMounted(() => {
   document.addEventListener("mousedown", handleClickOutside);
-  void loadKaoyanEnglishManifest().then((manifest) => { groups.value = manifest.groups; }).catch((error: unknown) => {
+  void loadKaoyanEnglishManifest().then((manifest) => { groups.value = manifest.groups; syncGroups(manifest.groups.map((group) => group.id)); }).catch((error: unknown) => {
     console.warn("Unable to load Kaoyan English manifest", error);
     errorMessage.value = "考研英语目录暂时无法加载";
   });
@@ -72,14 +74,14 @@ onBeforeUnmount(() => document.removeEventListener("mousedown", handleClickOutsi
     </button>
     <div v-if="open" class="nce-panel" @click.stop>
       <div class="nce-book-tabs">
-        <button v-for="(group, index) in groups" :key="group.id" type="button" class="nce-book-tab" :class="{ 'nce-book-tab-active': activeGroupIndex === index }" @click="activeGroupIndex = index; errorMessage = ''">
+        <button v-for="group in groups" :key="group.id" type="button" class="nce-book-tab" :class="{ 'nce-book-tab-active': activeGroupId === group.id }" @click="setGroup(group.id); errorMessage = ''">
           {{ group.title }} <span class="nce-book-tab-count">{{ group.lessonCount }}</span>
         </button>
       </div>
       <input v-model="searchQuery" type="search" class="nce-search" placeholder="搜索年份..." spellcheck="false" @click.stop>
-      <div class="nce-list">
+      <div ref="listElement" class="nce-list" @scroll="rememberScroll">
         <p v-if="errorMessage" class="nce-empty">{{ errorMessage }}</p>
-        <button v-for="lesson in filteredLessons" :key="lesson.id" type="button" class="nce-item" :disabled="Boolean(loadingLessonId)" @click="selectLesson(activeGroup, lesson)">
+        <button v-for="lesson in filteredLessons" :key="lesson.id" type="button" class="nce-item" :class="{ 'nce-item-last-selected': selectedLessonId === lesson.id }" :data-lesson-id="lesson.id" :aria-current="selectedLessonId === lesson.id ? 'true' : undefined" :disabled="Boolean(loadingLessonId)" @click="selectLesson(activeGroup, lesson)">
           <span class="nce-num">{{ lesson.year }}</span>
           <span class="nce-title">{{ lesson.title }}<small> · {{ lesson.pageCount }} 页</small></span>
         </button>

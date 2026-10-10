@@ -2,19 +2,20 @@
 import { ref, computed, onMounted, onBeforeUnmount } from "vue";
 import { loadNceLesson, loadNceManifest, nceBooks, type NceBook, type NceLessonSummary } from "./shared/data/nceLessons";
 import type { CourseLessonSelection } from "./shared/types/app";
+import { useCourseMenuProgress } from "./shared/composables/useCourseMenuProgress";
 
 const emit = defineEmits<{ select: [selection: CourseLessonSelection] }>();
 
 const open = ref(false);
-const activeBookIndex = ref(0);
 const searchQuery = ref("");
+const { activeGroupId, selectedLessonId, listElement, rememberScroll, setGroup, syncGroups, rememberLesson } = useCourseMenuProgress("nce", open, searchQuery);
 const loadedBooks = ref<NceBook[] | null>(null);
 const manifestError = ref("");
 const lessonError = ref("");
 const loadingLessonId = ref("");
 
 const books = computed(() => loadedBooks.value ?? nceBooks);
-const activeBook = computed(() => books.value[activeBookIndex.value] ?? books.value[0]);
+const activeBook = computed(() => books.value.find((book) => book.id === activeGroupId.value) ?? books.value[0]);
 
 function toggle(): void {
   open.value = !open.value;
@@ -37,6 +38,7 @@ async function selectLesson(book: NceBook, lesson: NceLessonSummary): Promise<vo
   lessonError.value = "";
   try {
     const detail = await loadNceLesson(lesson.jsonPath);
+    rememberLesson(book.id, lesson.id);
     const bookLabel = book.title.replace("新概念英语 ", "");
     const header = `${bookLabel} Lesson ${lesson.lessonNo} ${detail.titleZh}\n`;
     emit("select", {
@@ -85,6 +87,7 @@ async function loadManifest(): Promise<void> {
   try {
     const manifest = await loadNceManifest();
     loadedBooks.value = manifest.books;
+    syncGroups(manifest.books.map((book) => book.id));
     manifestError.value = "";
   } catch (error) {
     console.warn("Unable to load NCE manifest", error);
@@ -117,12 +120,12 @@ onBeforeUnmount(() => {
     <div v-if="open" class="nce-panel" @click.stop>
       <div class="nce-book-tabs">
         <button
-          v-for="(book, i) in books"
+          v-for="book in books"
           :key="book.id"
           type="button"
           class="nce-book-tab"
-          :class="{ 'nce-book-tab-active': activeBookIndex === i }"
-          @click="activeBookIndex = i; lessonError = ''"
+          :class="{ 'nce-book-tab-active': activeGroupId === book.id }"
+          @click="setGroup(book.id); lessonError = ''"
         >
           {{ book.title.replace("新概念英语 ", "") }}
           <span class="nce-book-tab-count">{{ book.lessonCount || book.lessons.length }}</span>
@@ -143,7 +146,7 @@ onBeforeUnmount(() => {
         {{ manifestError }}
       </p>
 
-      <div v-else class="nce-list">
+      <div v-else ref="listElement" class="nce-list" @scroll="rememberScroll">
         <p v-if="lessonError" class="nce-empty">
           {{ lessonError }}
         </p>
@@ -152,6 +155,9 @@ onBeforeUnmount(() => {
           :key="lesson.id"
           type="button"
           class="nce-item"
+          :class="{ 'nce-item-last-selected': selectedLessonId === lesson.id }"
+          :data-lesson-id="lesson.id"
+          :aria-current="selectedLessonId === lesson.id ? 'true' : undefined"
           :disabled="Boolean(loadingLessonId)"
           @click="selectLesson(activeBook, lesson)"
         >

@@ -93,7 +93,7 @@ export function compactLessonId(course, lessonId) {
   return `${semanticGroupToken(course, match[1])}-${match[2]}${match[3]}`;
 }
 
-function expandLessonId(course, compactId) {
+export function expandLessonId(course, compactId) {
   const normalizedId = String(compactId ?? "").trim().toLowerCase();
   if (course === "college-english") {
     const match = compactCollegeLessonIdPattern.exec(normalizedId);

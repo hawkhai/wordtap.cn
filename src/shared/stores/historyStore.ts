@@ -1,4 +1,5 @@
 import { siteCopy } from "../copy/siteCopy";
+import type { TypingState } from "../utils/articleTyping";
 
 export type StudyHistoryRecord = {
   key: string;
@@ -16,6 +17,16 @@ export type StudyTextRecord = {
   count: number;
   createdAt: string;
   lastSeen: string;
+};
+
+export type ArticleTypingProgress = {
+  key: string;
+  sourceId: string;
+  mode: "auto" | "full" | "selection";
+  selectionStart: number;
+  selectionEnd: number;
+  state: TypingState;
+  updatedAt: string;
 };
 
 export type ExamCourseId = "cet" | "kaoyan-english";
@@ -56,6 +67,7 @@ export type LearningDataImportResult = {
   texts: number;
   examProgress: number;
   examWords: number;
+  articleTyping: number;
 };
 
 export type TranslationCacheSource = "local-dictionary" | "baidu-sug" | "fallback";
@@ -104,7 +116,7 @@ type ImportedHistoryRecord = Partial<StudyHistoryRecord> & {
 };
 
 const dbName = "wordtap-study-history";
-const dbVersion = 5;
+const dbVersion = 6;
 const wordsStoreName = "words";
 const textsStoreName = "texts";
 const translationCacheStoreName = "translation_cache";
@@ -112,6 +124,7 @@ const audioCacheStoreName = "audio_cache";
 const audioCacheMetaStoreName = "audio_cache_meta";
 const examProgressStoreName = "exam_progress";
 const examWordEncountersStoreName = "exam_word_encounters";
+const articleTypingStoreName = "article_typing_progress";
 const textHistoryLimit = 100;
 const maxTextHistoryChars = 120000;
 const translationCacheRecordLimit = 5000;
@@ -185,6 +198,47 @@ export async function deleteStudyTextRecord(id: string): Promise<void> {
   }
   const db = await openDb();
   await requestToPromise(db.transaction(textsStoreName, "readwrite").objectStore(textsStoreName).delete(id));
+}
+
+export async function articleTypingSourceId(text: string): Promise<string> {
+  const exactText = text.replace(/\r\n?/g, "\n");
+  if ("crypto" in globalThis && globalThis.crypto.subtle) {
+    const digest = await globalThis.crypto.subtle.digest("SHA-256", new TextEncoder().encode(exactText));
+    return Array.from(new Uint8Array(digest), (byte) => byte.toString(16).padStart(2, "0")).join("");
+  }
+  return fallbackHash(exactText);
+}
+
+export async function listArticleTypingProgress(): Promise<ArticleTypingProgress[]> {
+  const db = await openDb();
+  return requestToPromise<ArticleTypingProgress[]>(
+    db.transaction(articleTypingStoreName, "readonly").objectStore(articleTypingStoreName).getAll(),
+  );
+}
+
+export async function latestArticleTypingProgress(sourceId: string): Promise<ArticleTypingProgress | null> {
+  const records = (await listArticleTypingProgress()).filter((record) => record.sourceId === sourceId);
+  return records.sort((a, b) => b.updatedAt.localeCompare(a.updatedAt))[0] ?? null;
+}
+
+export async function getArticleTypingProgress(key: string): Promise<ArticleTypingProgress | null> {
+  const db = await openDb();
+  return (await requestToPromise<ArticleTypingProgress | undefined>(
+    db.transaction(articleTypingStoreName, "readonly").objectStore(articleTypingStoreName).get(key),
+  )) ?? null;
+}
+
+export async function putArticleTypingProgress(record: ArticleTypingProgress): Promise<void> {
+  const db = await openDb();
+  const tx = db.transaction(articleTypingStoreName, "readwrite");
+  tx.objectStore(articleTypingStoreName).put(record);
+  await transactionDone(tx);
+  const records = await listArticleTypingProgress();
+  if (records.length <= 100) return;
+  const stale = records.sort((a, b) => b.updatedAt.localeCompare(a.updatedAt)).slice(100);
+  const prune = db.transaction(articleTypingStoreName, "readwrite");
+  for (const item of stale) prune.objectStore(articleTypingStoreName).delete(item.key);
+  await transactionDone(prune);
 }
 
 function examProgressKey(course: ExamCourseId, lessonId: string): string {
@@ -597,26 +651,28 @@ export function exportStudyHistoryJson(records: StudyHistoryRecord[]): string {
 }
 
 export async function exportCompleteLearningDataJson(): Promise<string> {
-  const [words, texts, examProgress, examWords] = await Promise.all([
+  const [words, texts, examProgress, examWords, articleTyping] = await Promise.all([
     listStudyHistory(),
     listStudyTexts(),
     listExamProgress(),
     listExamWordEncounters(),
+    listArticleTypingProgress(),
   ]);
   return `${JSON.stringify({
-    schemaVersion: 3,
+    schemaVersion: 4,
     exportedAt: new Date().toISOString(),
     words,
     texts,
     examProgress,
     examWords,
+    articleTyping,
   }, null, 2)}\n`;
 }
 
 export async function importCompleteLearningDataJson(text: string): Promise<LearningDataImportResult> {
   const payload = JSON.parse(stripBom(text)) as unknown;
   if (Array.isArray(payload)) {
-    return { words: await importStudyHistoryJson(text), texts: 0, examProgress: 0, examWords: 0 };
+    return { words: await importStudyHistoryJson(text), texts: 0, examProgress: 0, examWords: 0, articleTyping: 0 };
   }
   if (!payload || typeof payload !== "object") {
     throw new Error(siteCopy.historyStore.noImportRecords);
@@ -626,7 +682,8 @@ export async function importCompleteLearningDataJson(text: string): Promise<Lear
   const rawTexts = Array.isArray(data.texts) ? data.texts : [];
   const rawProgress = Array.isArray(data.examProgress) ? data.examProgress : [];
   const rawExamWords = Array.isArray(data.examWords) ? data.examWords : [];
-  if (!rawWords.length && !rawTexts.length && !rawProgress.length && !rawExamWords.length) {
+  const rawArticleTyping = Array.isArray(data.articleTyping) ? data.articleTyping : [];
+  if (!rawWords.length && !rawTexts.length && !rawProgress.length && !rawExamWords.length && !rawArticleTyping.length) {
     throw new Error(siteCopy.historyStore.noImportRecords);
   }
 
@@ -634,11 +691,13 @@ export async function importCompleteLearningDataJson(text: string): Promise<Lear
   const texts = (await Promise.all(rawTexts.map(normalizeImportedText))).filter((record): record is StudyTextRecord => Boolean(record));
   const progress = rawProgress.map(normalizeImportedExamProgress).filter((record): record is ExamProgressRecord => Boolean(record));
   const examWords = rawExamWords.map(normalizeImportedExamWord).filter((record): record is ExamWordEncounterRecord => Boolean(record));
-  if (!words.length && !texts.length && !progress.length && !examWords.length) {
+  const articleTyping = rawArticleTyping.map(normalizeImportedArticleTypingProgress)
+    .filter((record): record is ArticleTypingProgress => Boolean(record));
+  if (!words.length && !texts.length && !progress.length && !examWords.length && !articleTyping.length) {
     throw new Error(siteCopy.historyStore.noImportRecords);
   }
   const db = await openDb();
-  const storeNames = [wordsStoreName, textsStoreName, examProgressStoreName, examWordEncountersStoreName];
+  const storeNames = [wordsStoreName, textsStoreName, examProgressStoreName, examWordEncountersStoreName, articleTypingStoreName];
   const tx = db.transaction(storeNames, "readwrite");
 
   for (const record of words) {
@@ -678,9 +737,14 @@ export async function importCompleteLearningDataJson(text: string): Promise<Lear
       lastSeen: maxIso(current.lastSeen, record.lastSeen),
     } : record);
   }
+  for (const record of articleTyping) {
+    const store = tx.objectStore(articleTypingStoreName);
+    const current = await requestToPromise<ArticleTypingProgress | undefined>(store.get(record.key));
+    store.put(!current || record.updatedAt >= current.updatedAt ? record : current);
+  }
   await transactionDone(tx);
   if (texts.length) await pruneTextHistory();
-  return { words: words.length, texts: texts.length, examProgress: progress.length, examWords: examWords.length };
+  return { words: words.length, texts: texts.length, examProgress: progress.length, examWords: examWords.length, articleTyping: articleTyping.length };
 }
 
 async function normalizeImportedText(raw: unknown): Promise<StudyTextRecord | null> {
@@ -697,6 +761,38 @@ async function normalizeImportedText(raw: unknown): Promise<StudyTextRecord | nu
     count: normalizeCount(record.count),
     createdAt,
     lastSeen: normalizeDate(record.lastSeen) ?? createdAt,
+  };
+}
+
+function normalizeImportedArticleTypingProgress(raw: unknown): ArticleTypingProgress | null {
+  if (!raw || typeof raw !== "object") return null;
+  const item = raw as Partial<ArticleTypingProgress>;
+  const validOffset = (value: unknown): value is number => Number.isSafeInteger(value) && Number(value) >= 0 && Number(value) <= maxTextHistoryChars;
+  const mode = item.mode;
+  if (typeof item.sourceId !== "string" || !item.sourceId || item.sourceId.length > 128 ||
+    !["auto", "full", "selection"].includes(mode ?? "") ||
+    !validOffset(item.selectionStart) || !validOffset(item.selectionEnd) ||
+    (mode === "selection" ? item.selectionEnd <= item.selectionStart : item.selectionStart !== 0 || item.selectionEnd !== 0) ||
+    item.key !== `${item.sourceId}:${mode}:${item.selectionStart}:${item.selectionEnd}` ||
+    !item.state || typeof item.state !== "object") return null;
+  const state = item.state as Partial<TypingState>;
+  if (!validOffset(state.current) || !Array.isArray(state.completed) || !state.completed.every(validOffset) ||
+    !state.drafts || typeof state.drafts !== "object" || Array.isArray(state.drafts)) return null;
+  const drafts: Record<number, string> = {};
+  let totalChars = 0;
+  for (const [key, value] of Object.entries(state.drafts)) {
+    if (!/^(0|[1-9][0-9]*)$/.test(key) || !validOffset(Number(key)) || typeof value !== "string") return null;
+    totalChars += value.length;
+    if (totalChars > maxTextHistoryChars) return null;
+    drafts[Number(key)] = value;
+  }
+  const updatedAt = normalizeDate(item.updatedAt);
+  if (!updatedAt) return null;
+  return {
+    key: item.key!, sourceId: item.sourceId, mode: mode!,
+    selectionStart: item.selectionStart, selectionEnd: item.selectionEnd,
+    state: { current: state.current, completed: [...new Set(state.completed)].sort((a, b) => a - b), drafts },
+    updatedAt,
   };
 }
 
@@ -1058,6 +1154,10 @@ function openDb(): Promise<IDBDatabase> {
         encounterStore.createIndex("lastSeen", "lastSeen", { unique: false });
         encounterStore.createIndex("lessonId", "lessonId", { unique: false });
         encounterStore.createIndex("reviewState", "reviewState", { unique: false });
+      }
+      if (!db.objectStoreNames.contains(articleTypingStoreName)) {
+        const store = db.createObjectStore(articleTypingStoreName, { keyPath: "key" });
+        store.createIndex("sourceId", "sourceId", { unique: false });
       }
     };
     request.onsuccess = () => resolve(request.result);

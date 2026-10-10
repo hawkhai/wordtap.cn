@@ -1,5 +1,11 @@
 :root {
   --wt-content-max-width: 88rem;
+  --wt-control-height: 32px;
+  --wt-text-caption: 13px;
+  --wt-text-ui: 14px;
+  --wt-text-subheading: 16px;
+  --wt-text-heading: 18px;
+  --wt-text-dialog-title: 20px;
   --wt-primary: #165dff;
   --wt-primary-hover: #0e42d2;
   --wt-primary-soft: #e8f3ff;
@@ -8,4 +14,8 @@
   --wt-border: #e5e6eb;
   --wt-surface: #ffffff;
   --wt-background: #f7f8fa;
+}
+
+@media (max-width: 767px), (pointer: coarse) {
+  :root { --wt-control-height: 44px; }
 }

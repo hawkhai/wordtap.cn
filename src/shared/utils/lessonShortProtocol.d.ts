@@ -7,6 +7,7 @@ export type LessonShortCodeConfig = Record<CourseId, {
 }>;
 
 export function compactLessonId(course: CourseId, lessonId: string): string;
+export function expandLessonId(course: CourseId, compactId: string): string | null;
 export function lessonShortCode(course: CourseId, lessonId: string): string;
 export function parseLessonShortCode(rawCode: string): { course: CourseId; id: string } | null;
 export function buildLessonShortUrl(baseUrl: URL, course: CourseId, lessonId: string): string;

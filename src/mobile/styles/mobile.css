@@ -1,5 +1,5 @@
 /* 移动端专属样式 — 仅在较小屏幕上生效 */
-/* 移动端标准断点：420px, 520px, 640px, 768px, 1023px */
+/* 按 RESPONSIVE_GUIDE.md 断点标准表：420px, 520px, 640px, 768px, 1023px */
 
 /* 420px: 超窄屏 logo/title 缩小 */
 @media (max-width: 420px) {

@@ -7,18 +7,19 @@ import {
   type PostgraduateVolume,
 } from "./shared/data/postgraduateLessons";
 import type { CourseLessonSelection } from "./shared/types/app";
+import { useCourseMenuProgress } from "./shared/composables/useCourseMenuProgress";
 
 const emit = defineEmits<{ select: [selection: CourseLessonSelection] }>();
 
 const open = ref(false);
-const activeVolumeIndex = ref(0);
 const searchQuery = ref("");
+const { activeGroupId, selectedLessonId, listElement, rememberScroll, setGroup, syncGroups, rememberLesson } = useCourseMenuProgress("postgraduate", open, searchQuery);
 const volumes = ref<PostgraduateVolume[]>([]);
 const manifestError = ref("");
 const lessonError = ref("");
 const loadingLessonId = ref("");
 
-const activeVolume = computed(() => volumes.value[activeVolumeIndex.value] ?? volumes.value[0]);
+const activeVolume = computed(() => volumes.value.find((volume) => volume.id === activeGroupId.value) ?? volumes.value[0]);
 
 function toggle(): void {
   open.value = !open.value;
@@ -38,6 +39,7 @@ async function selectLesson(volume: PostgraduateVolume, lesson: PostgraduateLess
   lessonError.value = "";
   try {
     const detail = await loadPostgraduateLesson(lesson.jsonPath);
+    rememberLesson(volume.id, lesson.id);
     const articleLabel = detail.textLabel ? ` · ${detail.textLabel}` : "";
     const authorLabel = detail.author ? ` · ${detail.author}` : "";
     const lessonLabel = `${volume.title} 第 ${lesson.unitNo} 单元${articleLabel} ${detail.title}`;
@@ -83,6 +85,7 @@ onMounted(() => {
   void loadPostgraduateManifest()
     .then((manifest) => {
       volumes.value = manifest.volumes;
+      syncGroups(manifest.volumes.map((volume) => volume.id));
       manifestError.value = "";
     })
     .catch((error: unknown) => {
@@ -109,12 +112,12 @@ onBeforeUnmount(() => document.removeEventListener("mousedown", handleClickOutsi
     <div v-if="open" class="nce-panel" @click.stop>
       <div class="nce-book-tabs">
         <button
-          v-for="(volume, index) in volumes"
+          v-for="volume in volumes"
           :key="volume.id"
           type="button"
           class="nce-book-tab"
-          :class="{ 'nce-book-tab-active': activeVolumeIndex === index }"
-          @click="activeVolumeIndex = index; lessonError = ''"
+          :class="{ 'nce-book-tab-active': activeGroupId === volume.id }"
+          @click="setGroup(volume.id); lessonError = ''"
         >
           {{ volume.title }}
           <span class="nce-book-tab-count">
@@ -134,13 +137,16 @@ onBeforeUnmount(() => document.removeEventListener("mousedown", handleClickOutsi
       >
 
       <p v-if="manifestError" class="nce-empty">{{ manifestError }}</p>
-      <div v-else class="nce-list">
+      <div v-else ref="listElement" class="nce-list" @scroll="rememberScroll">
         <p v-if="lessonError" class="nce-empty">{{ lessonError }}</p>
         <button
           v-for="lesson in filteredLessons"
           :key="lesson.id"
           type="button"
           class="nce-item"
+          :class="{ 'nce-item-last-selected': selectedLessonId === lesson.id }"
+          :data-lesson-id="lesson.id"
+          :aria-current="selectedLessonId === lesson.id ? 'true' : undefined"
           :disabled="Boolean(loadingLessonId)"
           @click="selectLesson(activeVolume, lesson)"
         >

@@ -2,8 +2,9 @@ import { appAssetUrl, appDownloadUrl } from "./assetUrls";
 import { getCachedAudio, makeAudioCacheKey, putCachedAudio } from "../stores/historyStore";
 import { siteCopy } from "../copy/siteCopy";
 import { GATEWAY_STATUS_PROBE } from "./timeoutConstants";
+import type { SpeechPlaybackControl } from "./speechPlaybackControl";
 
-type GatewaySpeechProgressPhase = "cache-hit" | "connecting" | "receiving" | "playing";
+type GatewaySpeechProgressPhase = "cache-hit" | "connecting" | "receiving" | "buffering" | "playing";
 
 export type GatewaySpeechProgress = {
   phase: GatewaySpeechProgressPhase;
@@ -18,6 +19,7 @@ export type GatewaySpeechOptions = {
   volume?: string;
   pitch?: string;
   onProgress?: (progress: GatewaySpeechProgress) => void;
+  playbackControl?: SpeechPlaybackControl;
 };
 
 const silentAudioUrl =
@@ -28,7 +30,20 @@ export const gatewaySpeechEngineVersion = "edge-tts-recipe-v1";
 export const gatewayDownloadUrl = appDownloadUrl("downloads/WordTapGatewaySetup.exe");
 export const gatewayReleaseManifestUrl = appAssetUrl("downloads/wordtap-gateway-release.json");
 
-class GatewaySpeechCancelledError extends Error {
+export type GatewayReleaseManifest = {
+  name: string;
+  version: string;
+  fileName: string;
+  downloadPath: string;
+  sha256: string;
+  sizeBytes: number;
+  signed: boolean;
+  signatureStatus: string;
+  generatedAt: string;
+  note?: string;
+};
+
+export class GatewaySpeechCancelledError extends Error {
   constructor() {
     super(siteCopy.gatewaySpeech.cancelled);
     this.name = "GatewaySpeechCancelledError";
@@ -37,6 +52,10 @@ class GatewaySpeechCancelledError extends Error {
 
 export function isGatewaySpeechCancelError(error: unknown): boolean {
   return error instanceof GatewaySpeechCancelledError || (error instanceof DOMException && error.name === "AbortError");
+}
+
+export function isGatewaySpeechSupported(): boolean {
+  return "fetch" in window && "Audio" in window && "URL" in window;
 }
 
 export async function isLocalGatewayRunning(timeoutMs = GATEWAY_STATUS_PROBE): Promise<boolean> {
@@ -61,6 +80,7 @@ export class GatewaySpeechSession {
   private audio: HTMLAudioElement | null = null;
   private objectUrl = "";
   private cancelled = false;
+  private finishPlayback: ((error?: Error) => void) | null = null;
 
   async speak(text: string, options: GatewaySpeechOptions = {}): Promise<void> {
     this.cancelled = false;
@@ -93,6 +113,7 @@ export class GatewaySpeechSession {
 
     // 逐个播放：取队首 → 等就绪 → 播放 → 补一个到队尾
     for (let index = 0; index < chunkCount; index += 1) {
+      options.onProgress?.({ phase: "buffering", chunkIndex: index, chunkCount });
       const result = await pending.shift()!;
       this.throwIfCancelled();
 
@@ -106,13 +127,14 @@ export class GatewaySpeechSession {
         nextToSynthesize += 1;
       }
 
-      await this.play(result.value, options.onProgress, index, chunkCount);
+      await this.play(result.value, options.onProgress, index, chunkCount, options.playbackControl);
       this.throwIfCancelled();
     }
   }
 
   cancel(): void {
     this.cancelled = true;
+    this.finishPlayback?.(new GatewaySpeechCancelledError());
     for (const controller of this.abortControllers) {
       controller.abort();
     }
@@ -151,6 +173,7 @@ export class GatewaySpeechSession {
       gatewaySpeechEngineVersion,
     ]);
     const cachedAudio = await getCachedAudio(cacheKey).catch(() => undefined);
+    this.throwIfCancelled();
     if (cachedAudio?.blob?.size) {
       options.onProgress?.({
         phase: "cache-hit",
@@ -165,7 +188,7 @@ export class GatewaySpeechSession {
     this.abortControllers.add(abortController);
     options.onProgress?.({ phase: "connecting", chunkIndex, chunkCount });
 
-    let response: Response;
+    let response: Response | undefined;
     try {
       response = await fetch(`${localGatewayBaseUrl}/v1/recipes/speech`, {
         method: "POST",
@@ -181,26 +204,24 @@ export class GatewaySpeechSession {
         }),
         signal: abortController.signal,
       });
+      this.throwIfCancelled();
+      if (!response.ok) throw new Error(await readErrorMessage(response));
+      const audio = await response.blob();
+      this.throwIfCancelled();
+      options.onProgress?.({ phase: "receiving", audioBytes: audio.size, chunkIndex, chunkCount });
+      void putCachedAudio(cacheKey, audio, gatewaySpeechEngineVersion).catch(() => {
+        // Audio cache is best-effort, including when storage is full or blocked.
+      });
+      return audio;
     } catch (error) {
       if (isGatewaySpeechCancelError(error)) {
         throw error;
       }
+      if (response) throw error;
       throw new Error(siteCopy.gatewaySpeech.gatewayNotStarted);
     } finally {
       this.abortControllers.delete(abortController);
     }
-
-    this.throwIfCancelled();
-    if (!response.ok) {
-      throw new Error(await readErrorMessage(response));
-    }
-
-    const audio = await response.blob();
-    options.onProgress?.({ phase: "receiving", audioBytes: audio.size, chunkIndex, chunkCount });
-    void putCachedAudio(cacheKey, audio, gatewaySpeechEngineVersion).catch(() => {
-      // Audio cache is an optimization; playback should not fail if storage is full or blocked.
-    });
-    return audio;
   }
 
   private async play(
@@ -208,6 +229,7 @@ export class GatewaySpeechSession {
     onProgress?: (progress: GatewaySpeechProgress) => void,
     chunkIndex = 0,
     chunkCount = 1,
+    playbackControl?: SpeechPlaybackControl,
   ): Promise<void> {
     if (!audioBlob.size) {
       throw new Error(siteCopy.gatewaySpeech.noAudioGenerated);
@@ -216,7 +238,6 @@ export class GatewaySpeechSession {
     this.objectUrl = URL.createObjectURL(audioBlob);
     this.audio ??= new Audio();
     this.audio.src = this.objectUrl;
-    onProgress?.({ phase: "playing", audioBytes: audioBlob.size, chunkIndex, chunkCount });
 
     return new Promise((resolve, reject) => {
       if (!this.audio) {
@@ -224,23 +245,55 @@ export class GatewaySpeechSession {
         return;
       }
 
-      this.audio.onended = () => {
+      const audio = this.audio;
+      let settled = false;
+      let unsubscribe: (() => void) | undefined;
+      let playAttempt = 0;
+      const finish = (error?: Error) => {
+        if (settled) return;
+        settled = true;
+        unsubscribe?.();
+        audio.onended = null;
+        audio.onerror = null;
+        audio.onplaying = null;
+        audio.onwaiting = null;
+        this.finishPlayback = null;
         this.releaseAudio();
-        resolve();
+        if (error) reject(error); else resolve();
       };
-      this.audio.onerror = () => {
-        this.releaseAudio();
-        reject(new Error(siteCopy.gatewaySpeech.audioPlaybackFailed));
+      this.finishPlayback = finish;
+      audio.onended = () => finish();
+      audio.onerror = () => finish(new Error(siteCopy.gatewaySpeech.audioPlaybackFailed));
+      audio.onplaying = () => {
+        if (!settled && !playbackControl?.paused) onProgress?.({ phase: "playing", audioBytes: audioBlob.size, chunkIndex, chunkCount });
       };
-
-      this.audio.play().catch((error: unknown) => {
-        this.releaseAudio();
-        reject(error instanceof Error ? error : new Error(siteCopy.gatewaySpeech.audioPlaybackFailed));
-      });
+      audio.onwaiting = () => {
+        if (!settled && !playbackControl?.paused) onProgress?.({ phase: "buffering", chunkIndex, chunkCount });
+      };
+      const updatePlayback = () => {
+        if (settled) return;
+        const attempt = ++playAttempt;
+        if (playbackControl?.paused) {
+          audio.pause();
+          return;
+        }
+        audio.play().catch((error: unknown) => {
+          // pause() can reject an outstanding play(); that obsolete attempt is harmless.
+          if (attempt !== playAttempt || settled) return;
+          finish(error instanceof Error ? error : new Error(siteCopy.gatewaySpeech.audioPlaybackFailed));
+        });
+      };
+      unsubscribe = playbackControl?.subscribe(updatePlayback);
+      updatePlayback();
     });
   }
 
   private releaseAudio(): void {
+    if (this.audio) {
+      this.audio.pause();
+      this.audio.removeAttribute("src");
+      this.audio.load();
+    }
     this.audio = null;
     if (this.objectUrl) {
       URL.revokeObjectURL(this.objectUrl);
