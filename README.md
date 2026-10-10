@@ -1,33 +1,110 @@
-# WordTap Web
+# WordTap — 英语阅读、点读查词与文章跟打
 
-WordTap Web 是一个面向中文用户的英文点读阅读工具。用户可以粘贴英文文本，点击生词查看中文释义，播放单词或全文朗读，并在本地保存学习记录。
+**English reading, vocabulary learning & typing practice.**
 
-当前仓库包含 Vue 3 + Vite Web 客户端。Windows 本地 Gateway 是独立发布的可选组件，用来提供更高质量的全文朗读和部分网络翻译能力；它的服务端源码和安装器构建链不在本仓库中。
+[![在线体验](https://img.shields.io/badge/在线体验-wordtap.cn-176454)](https://wordtap.cn/)
+[![Code License: Apache-2.0](https://img.shields.io/badge/Code%20License-Apache--2.0-blue.svg)](LICENSE)
 
-![WordTap Web 英语点读阅读界面](public/screenshot.png)
+粘贴一篇英文，把阅读、查词、听读和跟打放在一起。**WordTap 是面向中文学习者的开源英语阅读工具**：点击生词查看中文释义、听发音，在原文里理解单词，再逐句跟打练习；学习记录保存在当前浏览器中。
 
-## 当前功能
+WordTap is an open-source English learning web app for Chinese-speaking learners. Read your own text, tap words for Chinese definitions and pronunciation, listen to sentences, and practice typing the same article. Study records are stored in your browser.
 
-- 在英文阅读文本中点击单词，打开释义卡片。
-- 自动记录学习过的单词、次数、时间和释义。
-- 支持保存和恢复阅读文本。
-- 支持本地 ECDICT 词典查询。
-- 支持 Gateway Baidu Sug 翻译配方。
-- 支持浏览器语音和 Gateway 全文朗读。
-- 单词发音优先使用浏览器 `speechSynthesis`，失败后回退到 Youdao 音频。
-- 提供“学习”“我的单词”“音标”“诊断”等主要视图。
-- 诊断页检查浏览器能力、IndexedDB、词典分片、Gateway、下载文件、音频缓存等状态。
-- 轻量 Service Worker 会缓存应用外壳和已请求过的同源静态资源，并在线重新校验课程目录、课文和词汇索引。
-- 支持句末逐句朗读、全文朗读准备提示、暂停与继续。
-- 支持正文显示音标，保存显示偏好，提示缺失并重试加载失败的词。
-- 支持文章跟打、选区练习、自动读句／读词，以及草稿与进度恢复。
-- 各课程菜单记住分组、最近课文和滚动位置。
-- 英语词汇课程提供 23 套词库、116,953 条记录和 5,860 个学习单元，支持搜索、阅读、例句跟打与分享。
-- 提供资料提交邮件说明与微信功能建议入口，同时保留 GitHub Issues。
+**[立即使用 WordTap](https://wordtap.cn/)** · [快速上手](#快速上手) · [本地运行](#开发命令) · [English overview](#english-overview) · [反馈问题](https://github.com/hawkhai/wordtap.cn/issues)
 
-## 课程数据状态
+[![WordTap 英语阅读界面：在原文中点击单词，查看中文释义并听发音](public/screenshot.png)](https://wordtap.cn/)
 
-当前完整验证覆盖 276 篇新概念英语、192 篇水木英语、40 篇研究生英语、72 篇大学英语、97 套四六级真题和 64 套考研英语真题。人教版英语当前收录 12/17 册、313 篇课文；5 册无可用来源的选修内容不会用占位数据补齐，具体状态见 `public/pep-english/manifest.json`。
+## 快速上手
+
+1. 打开 **[wordtap.cn](https://wordtap.cn/)**，无需注册。
+2. 粘贴自己的英文文章，或从课程菜单选择一篇材料。
+3. 点击不认识的单词，查看释义、听发音；也可以打开音标显示、使用句末朗读按钮。
+4. 开启文章跟打，逐句练习；之后在“我的单词”查看查过的词，继续阅读或练习。
+
+基础阅读、ECDICT 查词和文章跟打无需安装 Gateway。单词发音优先使用浏览器语音；可选的 Windows Gateway 提供更高质量的全文朗读及部分在线查词能力，见[安装说明](https://wordtap.cn/install/gateway/)。
+
+## 用同一篇文章练阅读、听读和输入
+
+| 想做什么 | WordTap 能帮你做什么 |
+| --- | --- |
+| 精读英文，少切换查词窗口 | 在原句中点词查中文释义，听单词发音，按需显示音标 |
+| 听懂句子，再练跟读 | 单词、逐句与全文朗读，支持语速、遍数及全文暂停／继续 |
+| 练习英文输入和拼写 | 全文或选区跟打、输入错误提示、自动读句／读词、草稿与进度恢复 |
+| 留下自己的学习记录 | 自动记录查词次数与时间，保存文章；考试页记录进度、生词上下文与掌握状态 |
+| 学习教材、词库和考试阅读 | 从课程或词库进入阅读与练习，菜单记住分组、最近课文和滚动位置 |
+| 在自己的设备上管理数据 | 浏览器本地保存，支持导出完整学习备份并在另一设备手动导入 |
+
+适合英语自学者、四六级／考研备考者、准备阅读材料的老师，也适合每天阅读英文技术文档、论文摘要或邮件的人。可以直接粘贴自己的材料，从眼前这一段英文开始。
+
+## 课程与词库
+
+| 学习材料 | 当前收录 | 入口 |
+| --- | --- | --- |
+| 新概念英语 | 276 篇 | [新概念英语点读](https://wordtap.cn/nce/) |
+| 水木英语 | 192 篇 | [水木英语阅读](https://wordtap.cn/shuimu/) |
+| 研究生英语 | 40 篇 | [研究生英语阅读](https://wordtap.cn/postgraduate/) |
+| 大学英语 | 72 篇 | [大学英语阅读](https://wordtap.cn/college-english/) |
+| 人教版英语 | 12/17 册、313 篇 | [人教版英语点读](https://wordtap.cn/pep-english/) |
+| 英语四六级真题 | 97 套 | [CET-4 / CET-6 阅读](https://wordtap.cn/cet/) |
+| 考研英语真题 | 64 套 | [考研英语阅读](https://wordtap.cn/kaoyan-english/) |
+| 英语词汇 | 23 套词库、5,860 个学习单元 | [仓库内词库与例句数据](public/english-vocabulary/) |
+
+词库覆盖 CET-4、CET-6、考研、IELTS、TOEFL、GRE、GMAT、SAT、专四、专八及中小学英语等，共 116,953 条源记录；该数字不是去重后的单词数。词汇单元支持搜索、阅读、例句跟打与分享。
+
+课程与词典数据保留各自的来源和权利条件。人教版缺失的 5 册未用占位内容补齐；120 篇文章仍待来源确认，16 处词汇源数据问题原样保留。具体状态见[发布说明](content/release/README.md)和[第三方声明](THIRD_PARTY_NOTICES.md)。
+
+## 数据、离线与朗读
+
+**学习数据在哪里？** 单词、保存的文章、考试记录和跟打进度保存在当前浏览器的 IndexedDB。更换设备或清理浏览器数据前，请在考试学习页使用“导出学习数据”；“我的单词”中的单词导出不等于完整备份。完整备份可手动导入并与本机记录合并，翻译和音频缓存不包含在备份中。
+
+**能离线使用吗？** 支持轻量离线使用：已经缓存的应用页面、同源资源、词典分片和朗读音频可能继续可用。首次加载、未缓存的词典分片、新的在线翻译和 Gateway 语音生成仍需要网络。不会预先下载全部词典，也不保证完整离线使用。
+
+**朗读需要安装什么？** 浏览器语音可用于单词和全文朗读，可用声音取决于设备与浏览器；单词发音失败时会尝试 Youdao 音频。可选 Windows Gateway 提供 Edge TTS 全文朗读和 Baidu Sug 查词，服务端源码及安装器构建链不在本仓库中。遇到问题可打开应用中的诊断视图检查。
+
+**本地保存是否意味着所有处理都在本机？** 本地保存指学习记录的存储位置。启用在线查词、备用发音或 Gateway 在线朗读时，相应单词或文本会发送给对应服务。
+
+## English overview
+
+WordTap brings **English reading, dictionary lookup, text-to-speech (TTS), vocabulary learning, and article typing practice** into one browser workspace. The interface and dictionary definitions are primarily in Chinese.
+
+- Paste your own English text or choose a published lesson or vocabulary unit.
+- Tap a word for its Chinese definition and pronunciation; display IPA phonetics while reading.
+- Listen to sentences and practice typing an article or a selected passage, with saved drafts and progress.
+- Keep study records in browser storage and transfer them manually with a learning-data backup.
+- Run the Vue 3 + TypeScript + Vite web client locally. The optional Windows Gateway is distributed separately.
+
+**[Try WordTap online](https://wordtap.cn/)** — no account required. Offline use is limited to cached resources; online translation and speech services may receive the words or text you ask them to process. Original code and documentation use Apache-2.0; third-party materials retain their own terms.
+
+## 开发命令
+
+Web 开发、构建与统一验证只需要 Node.js 20.19+ 和仓库内的发布数据，不需要 Python、Rust、原始教材、词汇 JSONL 或审核日志。
+
+```bash
+git clone https://github.com/hawkhai/wordtap.cn.git
+cd wordtap.cn
+npm ci
+npm run dev
+```
+
+打开终端显示的本地地址。构建与验证在项目目录中运行：
+
+```bash
+npm run build
+npm test
+npm run verify
+```
+
+`build` 校验发布数据和类型，打包应用并生成课程、词库、考试与安装说明静态页面，检查短链接、资源和主题；`test` 运行业务回归；`verify` 构建一次，再运行业务、响应式和开源检查。
+
+定向命令：`npm run typecheck`、`npm run verify:published`、`npm run verify:responsive`、`npm run verify:open-source`。
+
+独立浏览器验收：`npm run verify:browser`。需另行提供 Playwright 与 Chromium；使用 `WORDTAP_PLAYWRIGHT_MODULE`、`WORDTAP_CHROMIUM_EXECUTABLE`、`WORDTAP_TEST_URL` 和 `WORDTAP_TEST_OUTPUT` 配置，产物默认放入忽略的 `tmp/web-sync/`。普通构建及 CI 不下载浏览器。
+
+安装器不在本仓库内，所有下载入口使用官方 HTTPS 地址；安装说明保留在当前站点。跨域下载或缺少可选发布元数据时，诊断会说明无法确认，不将其判定为 Web 应用失败。
+
+## 技术与维护参考
+
+<details>
+<summary>展开：代码结构、本地数据、查词与朗读流程、Gateway 接口及维护约定</summary>
 
 ## 代码结构
 
@@ -156,47 +233,35 @@ http://127.0.0.1:18765
 - 公开网页不能使用通用本地工具交换接口。
 - 关闭服务接口只允许安装器携带本地 token 调用。
 
-## 在线和离线边界
+## 界面风格与后续迭代
 
-WordTap 可以轻度离线使用，但不是完整离线学习应用。
+本项目沿用 cf-design / Arco Design 的阅读优先风格，技能来源、设计变量、响应式宽度和交互约定见 [STYLE_GUIDE.md](STYLE_GUIDE.md)，同步说明见 [CF_DESIGN_NOTES.md](CF_DESIGN_NOTES.md)。Vue 和静态生成网页共享主题变量；功能迭代应同时检查这两条渲染路径。`npm run build` 检查全部生成页面的风格；`npm test` 包含主题回归测试。
 
-可以离线的部分：
+## 开源版与完整版
 
-- 已缓存的应用外壳。
-- 已请求过的同源静态资源。
-- 已请求过的词典分片。
-- 本地保存的单词、文本、翻译缓存和音频缓存。
+开源版保留全部已发布 Web 学习功能；Gateway 与安装器独立交付，原始内容重建和历史审核由完整版负责。功能对照与验收见 [开源版对齐记录](OPEN_SOURCE_ALIGNMENT.md)。
 
-仍需要网络或本地服务的部分：
+原七套课程共 1,054 份，另有 5,860 个词汇单元。120 篇文章仍待来源确认，16 处词汇源数据问题原样保留；当前发布检查不代表历史审核完成。对应标识、来源与哈希见 [发布说明](content/release/README.md)。
 
-- 新的 Baidu Sug 翻译。
-- 新的 Gateway Edge TTS 全文朗读音频。
-- 未缓存过的词典分片。
-- Windows 安装包下载。
+修改课程直接更新发布 JSON、manifest 和索引，按 [课程接入协议](COURSE_INTEGRATION_PROTOCOL.md) 检查和更新发布哈希，无需搭建审核系统。
 
-## 开发命令
+完整学习备份使用 schemaVersion 4，兼容旧单词数组及版本 2/3 对象，包含单词、文章、考试进度、考试生词和跟打进度，缓存不进入备份。数据库版本 6 采用增量升级；回退前端也必须兼容版本 6，不能降级或清库。
 
-Web 开发、构建与统一验证只需要 Node.js 20.19+ 和仓库内的发布数据，不需要 Python、Rust、原始教材、词汇 JSONL 或审核日志。
-
-```bash
-npm ci
-npm run dev
-npm run build
-npm test
-npm run verify
-```
-
-`build` 校验发布数据和类型，打包应用并生成课程、词库、考试与安装说明静态页面，检查短链接、资源和主题；`test` 运行业务回归；`verify` 构建一次，再运行业务、响应式和开源检查。
-
-定向命令：`npm run typecheck`、`npm run verify:published`、`npm run verify:responsive`、`npm run verify:open-source`。
-
-独立浏览器验收：`npm run verify:browser`。需另行提供 Playwright 与 Chromium；使用 `WORDTAP_PLAYWRIGHT_MODULE`、`WORDTAP_CHROMIUM_EXECUTABLE`、`WORDTAP_TEST_URL` 和 `WORDTAP_TEST_OUTPUT` 配置，产物默认放入忽略的 `tmp/web-sync/`。普通构建及 CI 不下载浏览器。
-
-安装器不在本仓库内，所有下载入口使用官方 HTTPS 地址；安装说明保留在当前站点。跨域下载或缺少可选发布元数据时，诊断会说明无法确认，不将其判定为 Web 应用失败。
+</details>
 
 ## 参与项目
 
-提交 Issue 或 Pull Request 前请阅读 [`CONTRIBUTING.md`](CONTRIBUTING.md)。安全漏洞请按 [`SECURITY.md`](SECURITY.md) 私下报告。
+如果 WordTap 帮你读懂了一篇英文，欢迎给[项目点一个 Star](https://github.com/hawkhai/wordtap.cn)，方便以后找到它，也让作者知道这项工作对你有帮助。
+
+欢迎通过 [Issues](https://github.com/hawkhai/wordtap.cn/issues) 提交复现步骤、查词问题、课程勘误或使用建议；也欢迎改进文档、浏览器兼容性和阅读／跟打体验。应用内还提供资料提交邮件说明与微信功能建议入口。
+
+提交 Issue 或 Pull Request 前请阅读 [贡献指南](CONTRIBUTING.md)。安全漏洞请按 [SECURITY.md](SECURITY.md) 私下报告。
+
+## 致谢
+
+- [ECDICT](https://github.com/skywind3000/ECDICT)：英汉词典数据，转换为按需加载的静态分片。
+- [english-vocabulary](https://github.com/KyleBing/english-vocabulary)：英语词库及例句数据。
+- 其他内容与字体来源见 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)。
 
 ## 第三方内容
 
@@ -212,17 +277,3 @@ npm run verify
 > 本项目基于 [WordTap](https://github.com/hawkhai/wordtap.cn) 开发；原项目网站：[https://wordtap.cn/](https://wordtap.cn/)。
 
 `NOTICE` 的署名保留义务来自 Apache-2.0 第 4(d) 节；README 中的写法是本项目的派生项目署名规范，不修改 Apache-2.0 正文。完整署名信息见 [`NOTICE`](NOTICE)。
-
-## 界面风格与后续迭代
-
-本项目沿用 cf-design / Arco Design 的阅读优先风格，技能来源、设计变量、响应式宽度和交互约定见 [STYLE_GUIDE.md](STYLE_GUIDE.md)，同步说明见 [CF_DESIGN_NOTES.md](CF_DESIGN_NOTES.md)。Vue 和静态生成网页共享主题变量；功能迭代应同时检查这两条渲染路径。`npm run build` 检查全部生成页面的风格；`npm test` 包含主题回归测试。
-
-## 开源版与完整版
-
-开源版保留全部已发布 Web 学习功能；Gateway 与安装器独立交付，原始内容重建和历史审核由完整版负责。功能对照与验收见 [开源版对齐记录](OPEN_SOURCE_ALIGNMENT.md)。
-
-原七套课程共 1,054 份，另有 5,860 个词汇单元。120 篇文章仍待来源确认，16 处词汇源数据问题原样保留；当前发布检查不代表历史审核完成。对应标识、来源与哈希见 [发布说明](content/release/README.md)。
-
-修改课程直接更新发布 JSON、manifest 和索引，按 [课程接入协议](COURSE_INTEGRATION_PROTOCOL.md) 检查和更新发布哈希，无需搭建审核系统。
-
-完整学习备份使用 schemaVersion 4，兼容旧单词数组及版本 2/3 对象，包含单词、文章、考试进度、考试生词和跟打进度，缓存不进入备份。数据库版本 6 采用增量升级；回退前端也必须兼容版本 6，不能降级或清库。
