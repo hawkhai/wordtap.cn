@@ -1,0 +1,40 @@
+{
+  "sourceCommit": "7bb26c968179681b83676c74696cf66560d31b56",
+  "targetCommit": "a6f269fb11957f9a7385c46cd9aa329ada2a23d1",
+  "userScopeChanges": [
+    "2026-10-10：不同步审核日志和历史归档，保留现有项目原有日志、当前修订与状态清单；取消大文件例外。"
+  ],
+  "counts": {
+    "适配合并": 10693,
+    "范围外": 916,
+    "直接同步": 9851
+  },
+  "parts": [
+    {
+      "path": "inventory-01.json",
+      "entries": 5000,
+      "sha256": "b9a9a986bd204c61203845046897632ccd68b5dd34894d0c6ba65c2fc2df4384"
+    },
+    {
+      "path": "inventory-02.json",
+      "entries": 5000,
+      "sha256": "3eaff0f97fbe3d10260657f5a5867447e86b47785ce19ee630f58ec08906a2c3"
+    },
+    {
+      "path": "inventory-03.json",
+      "entries": 5000,
+      "sha256": "832dd0be7875510e704c47985b8c1a1d126d46c634d290ffc7e091ad720c1951"
+    },
+    {
+      "path": "inventory-04.json",
+      "entries": 5000,
+      "sha256": "ce49c904ba3a8580dae117cb243608f40d4f6d463632ae9a137bf5a142388c2c"
+    },
+    {
+      "path": "inventory-05.json",
+      "entries": 1460,
+      "sha256": "25bf59f79d89febb7a3e0dc265bff2c473678a6709be1158e55769b930762cfe"
+    }
+  ],
+  "pending": 0
+}

@@ -31,3 +31,11 @@ The repository owner has chosen to retain the following generated or reviewed le
 - the corresponding review records under `content/`
 
 These materials remain subject to the rights of their respective authors, publishers, performers, and other rightsholders. Downstream users are responsible for confirming that their intended use and redistribution are authorized. Public availability of an upstream file is not, by itself, a redistribution license.
+
+### English vocabulary
+
+`public/english-vocabulary/` derives from KyleBing/english-vocabulary at commit `c4c6c80879ff17d7025c28fb853a4991c8e6be6a`, under BSD-3-Clause. The original notice is included in `public/english-vocabulary/LICENSE.txt` and `content/english-vocabulary/LICENSE`; the source manifest records hashes and provenance. The 16 registered upstream data defects remain unchanged.
+
+### Charis and Doulos SIL fonts
+
+`public/fonts/Charis/` and `public/fonts/DoulosSIL/` include the upstream SIL Open Font License notices. These fonts remain separately licensed under OFL 1.1.

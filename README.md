@@ -17,7 +17,13 @@ WordTap Web 是一个面向中文用户的英文点读阅读工具。用户可�
 - 单词发音优先使用浏览器 `speechSynthesis`，失败后回退到 Youdao 音频。
 - 提供“学习”“我的单词”“音标”“诊断”等主要视图。
 - 诊断页检查浏览器能力、IndexedDB、词典分片、Gateway、下载文件、音频缓存等状态。
-- 轻量 Service Worker 会缓存应用外壳和已请求过的同源静态资源。
+- 轻量 Service Worker 会缓存应用外壳和已请求过的同源静态资源，并在线重新校验课程目录、课文和词汇索引。
+- 支持句末逐句朗读、全文朗读准备提示、暂停与继续。
+- 支持正文显示音标，保存显示偏好，提示缺失并重试加载失败的词。
+- 支持文章跟打、选区练习、自动读句／读词，以及草稿与进度恢复。
+- 各课程菜单记住分组、最近课文和滚动位置。
+- 英语词汇课程提供 23 套词库、116,953 条记录和 5,860 个学习单元，支持搜索、阅读、例句跟打与分享。
+- 提供资料提交邮件说明与微信功能建议入口，同时保留 GitHub Issues。
 
 ## 课程数据状态
 
@@ -52,7 +58,7 @@ tools/                            # 构建、课程生成与验证脚本
 
 ## 本地数据
 
-WordTap 使用 IndexedDB 数据库 `wordtap-study-history`，当前版本为 5。
+WordTap 使用 IndexedDB 数据库 `wordtap-study-history`，当前版本为 6。
 
 主要存储：
 
@@ -62,8 +68,9 @@ WordTap 使用 IndexedDB 数据库 `wordtap-study-history`，当前版本为 5�
 - `audio_cache`：Gateway 生成的全文朗读音频。
 - `audio_cache_meta`：音频缓存元数据。
 - `exam_progress`、`exam_word_encounters`：考试进度与考试生词。
+- `article_typing_progress`：文章跟打草稿、选区及完成进度。
 
-考试学习页的“导出学习数据”会备份单词、保存的文章、考试进度和考试生词；导入时会与本机记录合并。翻译和音频缓存可重新生成，不包含在备份中。
+考试学习页的“导出学习数据”会备份单词、保存的文章、考试进度、考试生词和跟打进度；导入时会与本机记录合并。翻译和音频缓存可重新生成，不包含在备份中。
 
 限制规则：
 
@@ -248,3 +255,23 @@ npm run verify:open-source
 ## 界面风格与后续迭代
 
 本项目沿用 cf-design / Arco Design 的阅读优先风格，技能来源、设计变量、响应式宽度和交互约定见 [STYLE_GUIDE.md](STYLE_GUIDE.md)，同步说明见 [CF_DESIGN_NOTES.md](CF_DESIGN_NOTES.md)。Vue 和静态生成网页共享主题变量；功能迭代应同时检查这两条渲染路径。`npm run build` 包含主题回归测试与全部生成页面的风格检查。
+
+## 全量 Web 同步与维护
+
+2026-10-10 同步范围和验证结果见 [同步记录](content/web-sync/README.md)。原七套课程仍为 1,054 份；句段审核保留 120 篇待确认，审核工具可用不代表内容全部通过。
+
+普通 `npm run build` 只需 Node.js 20.19+ 与已发布数据，不需要 Python、原始教材、词汇 JSONL、Rust 或联网下载。完整维护验证 `npm run verify` 使用 Python 3.10+；不要使用旧版系统默认解释器。
+
+词汇固定来源的重建校验在显式取得资料后运行：
+
+```bash
+npm run fetch:english-vocabulary
+npm run verify:english-vocabulary
+npm run generate:english-vocabulary
+```
+
+原始词汇资料保存在被忽略的 `content/english-vocabulary/raw/`；来源检查逐项校验固定提交、SHA-256 和已知问题。日常构建通过 `verify:english-vocabulary:published` 验证发布快照，更新固定来源时同时审核并更新发布快照清单。审核与课程生成流程见 `COURSE_INTEGRATION_PROTOCOL.md` 和 `content/article-review/README.md`。
+
+完整学习备份使用 schemaVersion 4，兼容旧单词数组以及原有版本 2/3 对象；包含文章与跟打记录，缓存仍不进入备份。版本 6 数据库采用增量升级；回退前端也必须保留版本 6 数据库兼容能力。
+
+本次同步按用户要求排除审核事件日志、历史 ZIP、旧签名源历史和清理报告；当前项目原有日志保留。`verify:courses:published` 按源基线校验发布字节和当前修订，完整度命令仍报告 120 篇待确认。历史事件链与撤回复核需要另行准备外部审核资料，不能把发布快照校验解释为完整历史审核。`verify:college-english:history` 保留显式历史检查入口。
