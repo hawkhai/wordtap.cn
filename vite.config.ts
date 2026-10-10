@@ -1,6 +1,7 @@
 import { defineConfig } from "vite";
 import vue from "@vitejs/plugin-vue";
 import tailwindcss from "@tailwindcss/vite";
+import path from "node:path";
 import { renderStaticPage, staticSections } from "./tools/static-site.mjs";
 import { siteCopy } from "./src/shared/copy/siteCopy";
 
@@ -105,6 +106,9 @@ export default defineConfig({
   base: "./",
   server: {
     host: "0.0.0.0",
+    watch: {
+      ignored: [path.resolve("tmp").replaceAll("\\", "/") + "/**"],
+    },
   },
   plugins: [
     {
