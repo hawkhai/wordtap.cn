@@ -15,6 +15,7 @@ function invariant(condition, message) {
 
 const root = process.cwd();
 const courseSpecs = [
+  { id: "english-vocabulary", collections: "groups" },
   { id: "pep-english", collections: "groups" },
   { id: "nce", collections: "books" },
   { id: "shuimu", collections: "levels" },
@@ -55,6 +56,7 @@ const protocolSourceFiles = [
   ...await sourceFilesUnder(path.join(root, "tools")),
   ...await sourceFilesUnder(path.join(root, "public")),
   path.join(root, "package.json"),
+  path.join(root, "COURSE_INTEGRATION_PROTOCOL.md"),
   path.join(root, "README.md"),
   path.join(root, "index.html"),
   path.join(root, "vite.config.ts"),
@@ -72,7 +74,7 @@ for (const sourcePath of protocolSourceFiles) {
 
 function verifyServiceWorker(text, label) {
   const cacheVersion = Number(/CACHE_NAME\s*=\s*"wordtap-v(\d+)"/.exec(text)?.[1] ?? 0);
-  const courseManifestBranchIndex = text.indexOf("const isCourseManifest");
+  const courseDataBranchIndex = text.indexOf("const isCourseData");
   const genericCacheFirstIndex = text.indexOf("caches.match(event.request).then");
   invariant(cacheVersion >= 4, `${label}: cache version must invalidate pre-manifest-fix caches`);
   invariant(
@@ -80,12 +82,12 @@ function verifyServiceWorker(text, label) {
     `${label}: cache writes must keep the Service Worker alive until completion`,
   );
   invariant(
-    courseManifestBranchIndex >= 0 && courseManifestBranchIndex < genericCacheFirstIndex,
-    `${label}: course manifests must be handled before the generic cache-first branch`,
+    courseDataBranchIndex >= 0 && courseDataBranchIndex < genericCacheFirstIndex,
+    `${label}: course manifests and lessons must be handled before the generic cache-first branch`,
   );
   invariant(
-    /isCourseManifest[\s\S]*?fetchAndCache\(event\.request, \{ cache: "no-cache" \}\)[\s\S]*?\.catch\(\(\) => caches\.match\(event\.request\)\)/.test(text),
-    `${label}: course manifests must use network-first no-cache with an offline cache fallback`,
+    /isCourseData[\s\S]*?fetchAndCache\(event\.request, \{ cache: "no-cache" \}\)[\s\S]*?\.catch\(\(\) => caches\.match\(event\.request\)\)/.test(text),
+    `${label}: course manifests and lessons must use network-first no-cache with an offline cache fallback`,
   );
 }
 
@@ -93,12 +95,13 @@ verifyServiceWorker(serviceWorker, path.relative(root, serviceWorkerPath));
 const builtServiceWorkerPath = path.join(root, "dist", "sw.js");
 verifyServiceWorker(await readFile(builtServiceWorkerPath, "utf8"), path.relative(root, builtServiceWorkerPath));
 
-for (const dropdownName of ["PepEnglishDropdown.vue", "NceDropdown.vue", "ShuimuDropdown.vue", "PostgraduateDropdown.vue", "CollegeEnglishDropdown.vue", "CetDropdown.vue", "KaoyanEnglishDropdown.vue"]) {
+for (const dropdownName of ["EnglishVocabularyDropdown.vue", "PepEnglishDropdown.vue", "NceDropdown.vue", "ShuimuDropdown.vue", "PostgraduateDropdown.vue", "CollegeEnglishDropdown.vue", "CetDropdown.vue", "KaoyanEnglishDropdown.vue"]) {
   const dropdown = await readFile(path.join(root, "src", dropdownName), "utf8");
   invariant(!/\bfetch\s*\(/.test(dropdown), `${dropdownName}: Dropdowns must load course data through adapters`);
 }
 
 const manifestAdapterChecks = [
+  ["englishVocabularyLessons.ts", /english-vocabulary\/manifest\.json", "no-cache"/],
   ["pepEnglishLessons.ts", /pep-english\/manifest\.json", "no-cache"/],
   ["nceLessons.ts", /nce\/manifest\.json", "no-cache"/],
   ["shuimuLessons.ts", /shuimu\/manifest\.json"\), \{ cache: "no-cache" \}/],

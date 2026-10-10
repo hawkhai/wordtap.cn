@@ -4,10 +4,12 @@
 from __future__ import annotations
 
 import json
+import argparse
 import shutil
 from pathlib import Path
 
 from college_english_catalog import BOOKS, ROOT
+from article_review import checked_output_root
 from college_english_review import (
     load_catalog,
     load_events,
@@ -27,17 +29,19 @@ def write_json(path: Path, payload: object) -> None:
 
 
 def main() -> int:
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--output", type=Path, default=OUTPUT)
+    args = parser.parse_args()
+    output = checked_output_root(args.output, "college-english")
+    lessons_dir = output / "lessons"
     catalog = load_catalog()
     _, rows = load_ledger()
     events = load_events()
     passed = validate_passed_rows(rows, events)
 
-    resolved_output = OUTPUT.resolve()
-    if resolved_output != (ROOT / "public" / "college-english").resolve():
-        raise RuntimeError(f"Refusing to replace unexpected output path: {resolved_output}")
-    if LESSONS.exists():
-        shutil.rmtree(LESSONS)
-    OUTPUT.mkdir(parents=True, exist_ok=True)
+    if lessons_dir.exists():
+        shutil.rmtree(lessons_dir)
+    output.mkdir(parents=True, exist_ok=True)
 
     details: list[dict] = []
     for row in passed:
@@ -85,7 +89,7 @@ def main() -> int:
                 "eventSha256": row["eventSha256"],
             },
         }
-        write_json(ROOT / "public" / json_path, detail)
+        write_json(output / Path(json_path).relative_to("college-english"), detail)
         details.append(detail)
 
     groups = []
@@ -122,7 +126,7 @@ def main() -> int:
         "totalLessons": len(details),
         "groups": groups,
     }
-    write_json(OUTPUT / "manifest.json", manifest)
+    write_json(output / "manifest.json", manifest)
     print(f"Published {len(details)}/72 manually reviewed College English articles.")
     return 0
 

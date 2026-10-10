@@ -29,8 +29,9 @@ for (const needle of [
 if (!sitemap.includes("<loc>https://wordtap.cn/exam/</loc>")) throw new Error("Exam portal is missing from sitemap");
 const expectedTotal = cet.totalLessons + kaoyan.totalLessons;
 if (!html.includes(`${expectedTotal} papers`)) throw new Error(`Exam portal total does not match ${expectedTotal}`);
+const dbVersion = Number(historyStore.match(/const dbVersion = (\d+)/)?.[1]);
+if (!Number.isInteger(dbVersion) || dbVersion < 5) throw new Error("Exam storage schema is too old");
 for (const needle of [
-  "const dbVersion = 5",
   'const examProgressStoreName = "exam_progress"',
   'const examWordEncountersStoreName = "exam_word_encounters"',
   "recordExamOpen",

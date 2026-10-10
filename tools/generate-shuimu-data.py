@@ -8,6 +8,8 @@ import re
 from datetime import datetime, timezone
 from pathlib import Path
 
+from article_review import apply_revision
+
 
 LEVELS = (
     ("phonetics", "英语入门讲义-英语国际音标课", "国际音标", "发音基础与国际音标"),
@@ -88,7 +90,9 @@ def correct_line(value: str) -> str:
     # PDF extraction occasionally prefixes dialogue with an unpaired question mark.
     value = re.sub(r"^\?(?=(?:——|When |What |That's |It's |Of course|Have |Would |Yes,|No,))", "", value)
     for wrong, correct in COMMON_TYPO_REPLACEMENTS.items():
-        value = value.replace(wrong, correct)
+        # Match complete tokens: replacing "gril" inside "angrily" corrupts
+        # the already correct word (beginner unit 28, PDF p. 153).
+        value = re.sub(r"(?<!\w)" + re.escape(wrong) + r"(?!\w)", lambda _: correct, value)
     # Spaces before English punctuation are extraction noise.  Do not touch spaces
     # after punctuation: they may be intentional between English and Chinese text.
     value = re.sub(r"\s+([,;:?!])", r"\1", value)
@@ -161,10 +165,18 @@ def apply_reviewed_corrections(lesson_id: str, lines: list[str]) -> list[str]:
     corrections = REVIEWED_CORRECTIONS.get(lesson_id, [])
     result = list(lines)
     for correction in corrections:
-        before = correction["before"]
-        after = correction["after"]
+        # Inputs have already passed clean_line (including portable bullet
+        # conversion). Compare the archived decisions in that same domain.
+        before = [clean_line(line) for line in correction["before"]]
+        after = [clean_line(line) for line in correction["after"]]
         width = len(before)
         matches = [index for index in range(len(result) - width + 1) if result[index:index + width] == before]
+        if not matches:
+            # Some local TXT sources already contain a recorded correction.
+            # Accept only its exact unique approved target, never a fuzzy match.
+            target_matches = [index for index in range(len(result) - len(after) + 1) if result[index:index + len(after)] == after]
+            if len(target_matches) == 1:
+                continue
         if len(matches) != 1:
             raise RuntimeError(
                 f"{lesson_id}: reviewed correction expected one source match, found {len(matches)}: {before!r}"
@@ -183,7 +195,7 @@ def make_detail(level_id: str, unit_no: int, title: str, lines: list[str], sourc
     if cleaned and re.fullmatch(r"第[一二三四五六七八九十百零〇两\d]+单元", cleaned[-1]):
         cleaned.pop()
     blocks = [{"type": block_type(line), "text": line} for line in cleaned]
-    return {
+    return apply_revision({
         "schemaVersion": 1,
         "id": lesson_id,
         "levelId": level_id,
@@ -194,7 +206,7 @@ def make_detail(level_id: str, unit_no: int, title: str, lines: list[str], sourc
         "blocks": blocks,
         "videos": videos or [],
         "source": {"fileName": source_file, "kind": "PDF 校对后的转换文本"},
-    }
+    }, "shuimu")
 
 
 def split_phonetics(lines: list[str], source_file: str) -> list[dict]:
@@ -357,7 +369,7 @@ def write_output(output: Path, levels: list[dict], details_by_level: dict[str, l
 
 def main() -> None:
     parser = argparse.ArgumentParser(description="Generate Water & Wood English study data.")
-    parser.add_argument("--source", type=Path, required=True, help="directory containing the local source TXT files")
+    parser.add_argument("--source", type=Path, required=True, help="Authorized source directory containing course documents")
     parser.add_argument("--output", type=Path, default=Path("public/shuimu"))
     parser.add_argument(
         "--bilibili",

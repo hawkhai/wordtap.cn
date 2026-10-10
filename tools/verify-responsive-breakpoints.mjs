@@ -68,8 +68,9 @@ for (const relativePath of courseShellFiles) {
     }
   }
   const courseRows = [...source.matchAll(/<div class="study-course-row">([\s\S]*?)<\/div>/g)];
-  if (courseRows.length !== 2 || courseRows.some((row) => [...row[1].matchAll(/<\w+Dropdown\b/g)].length !== 4)) {
-    errors.push(`${relativePath}: 课程入口必须保持两行、每行四项`);
+  const rowSizes = courseRows.map(row => [...row[1].matchAll(/<\w+Dropdown\b/g)].length);
+  if (rowSizes.join(",") !== "4,4,1" || !courseRows[2]?.[1].includes("<EnglishVocabularyDropdown")) {
+    errors.push(`${relativePath}: 保留原有 4+4 课程分组，第三组为英语词汇入口`);
   }
 }
 

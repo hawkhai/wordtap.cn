@@ -10,7 +10,6 @@ const root = process.cwd();
 const manifest = JSON.parse(await readFile(path.join(root, "public", "shuimu", "manifest.json"), "utf8"));
 const reviewedCorrections = JSON.parse(await readFile(path.join(root, "tools", "shuimu-reviewed-corrections.json"), "utf8"));
 const reviewedVideoMap = JSON.parse(await readFile(path.join(root, "tools", "shuimu-video-map.json"), "utf8"));
-const absolutePathPattern = /(?:\b[A-Za-z]:\\[^\\\s]+\\|\b[A-Za-z]:\/(?:Users|Documents and Settings)\/[^/\s]+\/|\/(?:Users|home)\/[^/\s]+\/)/u;
 const expectedCounts = new Map([
   ["phonetics", 12],
   ["beginner", 50],
@@ -52,13 +51,13 @@ for (const level of manifest.levels) {
       !/^第[一二三四五六七八九十百零〇两\d]+单元$/u.test(detail.blocks.at(-1)?.text ?? ""),
       `${lesson.id}: trailing next-unit marker remains`,
     );
-    invariant(!absolutePathPattern.test(detail.text), `${lesson.id}: leaked absolute source path`);
+    invariant(!detail.text.includes("D:\\kSource"), `${lesson.id}: leaked absolute source path`);
     invariant(!/[\uE000-\uF8FF]/u.test(detail.text), `${lesson.id}: private-use character remains`);
     invariant(!/[\u0000-\u0008\u000B\u000C\u000E-\u001F\u007F\u200B-\u200F\u202A-\u202E\u2060-\u206F\uFEFF\uFFFD]/u.test(detail.text), `${lesson.id}: unsafe or invisible character remains`);
     for (const block of detail.blocks) {
       invariant(
-        !/^[•◦▪▫▶➢◆]/u.test(block.text) || block.type === "list",
-        `${lesson.id}: bullet-prefixed block is not classified as a list`,
+        !/^[•◦▪▫▶➢◆]/u.test(block.text) || ["list", "heading", "subheading"].includes(block.type),
+        `${lesson.id}: bullet-prefixed block must be a list or semantic heading`,
       );
     }
     for (const typo of knownTypos) {

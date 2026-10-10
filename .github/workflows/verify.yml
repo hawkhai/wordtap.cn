@@ -15,7 +15,7 @@ concurrency:
 jobs:
   verify:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 30
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -27,6 +27,14 @@ jobs:
           python-version: "3.12"
       - run: npm ci
       - run: python -m pip install -r requirements.txt
+      - uses: actions/cache@v4
+        id: vocabulary-source
+        with:
+          path: content/english-vocabulary/raw
+          key: vocabulary-c4c6c80879ff17d7025c28fb853a4991c8e6be6a-${{ hashFiles('content/english-vocabulary/source-manifest.json') }}
+      - if: steps.vocabulary-source.outputs.cache-hit != 'true'
+        run: npm run fetch:english-vocabulary
+      - run: npm run verify:english-vocabulary
       - run: npm run verify
       - name: Check generated files
         run: git diff --exit-code

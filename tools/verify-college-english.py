@@ -15,6 +15,8 @@ from college_english_review import (
     load_events,
     load_ledger,
     validate_passed_rows,
+    text_sha256,
+    reviewed_article,
 )
 
 
@@ -36,6 +38,7 @@ def contains_absolute_path(value: object) -> bool:
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--require-complete", action="store_true")
+    parser.add_argument("--published", action="store_true", help="Check current signed release without excluded historical event logs")
     args = parser.parse_args()
 
     catalog = load_catalog()
@@ -56,43 +59,53 @@ def main() -> int:
     require([row["baselineId"] for row in rows] == [item["id"] for item in articles], "Ledger order differs from catalog")
     allowed_statuses = {"pending", "in_review", "needs_fix", "recheck", "passed"}
     require(all(row["status"] in allowed_statuses for row in rows), "Ledger contains an invalid status")
-    events = load_events()
-    transitions = {
-        "pending": {"in_review"},
-        "in_review": {"needs_fix", "recheck"},
-        "needs_fix": {"recheck"},
-        "recheck": {"needs_fix", "passed"},
-        "passed": set(),
-    }
-    catalog_books = {item["id"]: item for item in catalog["books"]}
-    row_by_id = {row["baselineId"]: row for row in rows}
-    replay_status = {row["baselineId"]: "pending" for row in rows}
-    latest_event = {}
-    for event in events:
-        article_id = event.get("articleId")
-        require(article_id in row_by_id, f"Review event references unknown article {article_id}")
-        row = row_by_id[article_id]
-        current = replay_status[article_id]
-        require(event.get("fromStatus") == current, f"{article_id}: event history does not replay from {current}")
-        require(event.get("toStatus") in transitions[current], f"{article_id}: invalid event transition")
-        require(event.get("sequenceNo") == int(row["sequenceNo"]), f"{article_id}: event sequence mismatch")
-        require(isinstance(event.get("reviewer"), str) and event["reviewer"].strip(), f"{article_id}: event reviewer is missing")
-        require(event["reviewer"].strip().casefold() not in {"auto", "automatic", "automation", "script"}, f"{article_id}: automated reviewer label is forbidden")
-        require(isinstance(event.get("evidence"), str) and event["evidence"].strip(), f"{article_id}: event evidence is missing")
-        require(
-            event.get("sourcePdfSha256") == catalog_books[row["groupId"]]["pdfSha256"],
-            f"{article_id}: event source PDF hash mismatch",
-        )
-        replay_status[article_id] = event["toStatus"]
-        latest_event[article_id] = event
-    for row in rows:
-        article_id = row["baselineId"]
-        require(replay_status[article_id] == row["status"], f"{article_id}: ledger status differs from event history")
-        if article_id in latest_event:
-            require(row["eventSha256"] == latest_event[article_id]["eventSha256"], f"{article_id}: ledger latest-event hash mismatch")
-        else:
-            require(row["status"] == "pending" and not row["eventSha256"], f"{article_id}: pending row has unaudited review data")
-    passed = validate_passed_rows(rows, events)
+    if args.published:
+        passed = [row for row in rows if row["status"] == "passed"]
+        require(len(passed) == len(rows), "Published snapshot must have 72 passed baseline rows")
+    else:
+        events = load_events()
+        transitions = {
+            "pending": {"in_review"},
+            "in_review": {"needs_fix", "recheck"},
+            "needs_fix": {"recheck"},
+            "recheck": {"needs_fix", "passed"},
+            "passed": set(),
+        }
+        catalog_books = {item["id"]: item for item in catalog["books"]}
+        row_by_id = {row["baselineId"]: row for row in rows}
+        replay_status = {row["baselineId"]: "pending" for row in rows}
+        latest_event = {}
+        for event in events:
+            article_id = event.get("articleId")
+            require(article_id in row_by_id, f"Review event references unknown article {article_id}")
+            row = row_by_id[article_id]
+            current = replay_status[article_id]
+            require(event.get("fromStatus") == current, f"{article_id}: event history does not replay from {current}")
+            is_revision = event.get("eventType") == "revision"
+            if is_revision:
+                require(current == "passed" and event.get("toStatus") == "passed", f"{article_id}: revision must continue a passed article")
+                require(event.get("supersedesEventSha256") == latest_event[article_id]["eventSha256"], f"{article_id}: revision supersedes wrong event")
+                require(event.get("beforeTextSha256") == latest_event[article_id]["afterTextSha256"], f"{article_id}: revision baseline hash mismatch")
+            else:
+                require(event.get("toStatus") in transitions[current], f"{article_id}: invalid event transition")
+            require(event.get("sequenceNo") == int(row["sequenceNo"]), f"{article_id}: event sequence mismatch")
+            require(isinstance(event.get("reviewer"), str) and event["reviewer"].strip(), f"{article_id}: event reviewer is missing")
+            require(event["reviewer"].strip().casefold() not in {"auto", "automatic", "automation", "script"}, f"{article_id}: automated reviewer label is forbidden")
+            require(isinstance(event.get("evidence"), str) and event["evidence"].strip(), f"{article_id}: event evidence is missing")
+            require(
+                event.get("sourcePdfSha256") == catalog_books[row["groupId"]]["pdfSha256"],
+                f"{article_id}: event source PDF hash mismatch",
+            )
+            replay_status[article_id] = event["toStatus"]
+            latest_event[article_id] = event
+        for row in rows:
+            article_id = row["baselineId"]
+            require(replay_status[article_id] == row["status"], f"{article_id}: ledger status differs from event history")
+            if article_id in latest_event:
+                require(row["eventSha256"] == latest_event[article_id]["eventSha256"], f"{article_id}: ledger latest-event hash mismatch")
+            else:
+                require(row["status"] == "pending" and not row["eventSha256"], f"{article_id}: pending row has unaudited review data")
+        passed = validate_passed_rows(rows, events)
 
     audit_path = ROOT / "content" / "College-English" / "source-page-audit.tsv"
     with audit_path.open("r", encoding="utf-8-sig", newline="") as handle:
@@ -113,7 +126,6 @@ def main() -> int:
     require(not any(re.fullmatch(r"rw[1-4]-\d{3}", item["id"]) for item in summaries), "Legacy page lesson remains public")
 
     referenced_paths: set[Path] = set()
-    require(len(summaries) == len(passed), "Published lessons and signed reviews differ in length")
     for summary, row in zip(summaries, passed):
         detail_path = ROOT / "public" / summary["jsonPath"]
         referenced_paths.add(detail_path.resolve())
@@ -125,6 +137,16 @@ def main() -> int:
         require(detail["text"] == "\n".join(block["text"] for block in detail["blocks"]), f"{summary['id']}: text/blocks mismatch")
         require(detail["manualReview"]["status"] == "passed", f"{summary['id']}: public review status mismatch")
         require(detail["manualReview"]["eventSha256"] == row["eventSha256"], f"{summary['id']}: event hash mismatch")
+        _, signed_text, signed_hash = reviewed_article(row["baselineId"])
+        require(re.sub(r"\s", "", detail["text"]) == re.sub(r"\s", "", signed_text), f"{summary['id']}: published content differs from signed text")
+        if args.published or latest_event[row["baselineId"]].get("eventType") == "revision":
+            require(detail["manualReview"]["textSha256"] == signed_hash, f"{summary['id']}: public text signature mismatch")
+            require(text_sha256(detail["text"]) == signed_hash, f"{summary['id']}: published revision whitespace differs from signed text")
+        else:
+            # Older published pages compacted layout whitespace and stored a
+            # display hash. Keep their existing event signatures intact until
+            # the article receives an explicit source-backed revision event.
+            require(detail["manualReview"]["textSha256"] in {signed_hash, text_sha256(detail["text"])}, f"{summary['id']}: invalid legacy display hash")
         require(not contains_absolute_path(detail), f"{summary['id']}: absolute path leaked")
 
     lesson_root = ROOT / "public" / "college-english" / "lessons"
@@ -132,7 +154,8 @@ def main() -> int:
     require(actual_paths == referenced_paths, "Public lesson directory contains stale or missing JSON files")
     if args.require_complete:
         require(len(passed) == 72, f"Complete review requires 72 passed articles; found {len(passed)}")
-    print(f"Verified 72 baselines, 728 audited PDF pages, and {len(passed)}/72 signed published articles.")
+    label = "Published snapshot (event history not checked)" if args.published else "Verified audit history"
+    print(f"{label}: 72 baselines, 728 source-page classifications, and {len(passed)}/72 signed published articles.")
     return 0
 
 

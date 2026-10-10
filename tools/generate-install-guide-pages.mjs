@@ -68,6 +68,13 @@ const guides = [
         text: "看到 WordTap 全文朗读服务安装界面后，继续下一步。",
       },
       {
+        image: "04.jpg",
+        width: 902,
+        height: 626,
+        title: "选择安装路径",
+        text: "默认路径通常可以直接使用；如果你习惯把软件装到其它磁盘，也可以在这里修改。",
+      },
+      {
         image: "05.jpg",
         width: 902,
         height: 626,
@@ -80,6 +87,13 @@ const guides = [
         height: 626,
         title: "完成安装",
         text: "安装完成后回到 WordTap 页面，稍等片刻，网页会自动检测本地服务状态。",
+      },
+      {
+        image: "07.jpg",
+        width: 2520,
+        height: 1067,
+        title: "卸载入口在系统设置里",
+        text: "如果以后不再需要，可以在 Windows 的“应用和功能/已安装的应用”里找到 WordTap 全文朗读服务并卸载。",
       },
     ],
     otherGuideHref: "../windows/",
@@ -128,6 +142,13 @@ const guides = [
         text: "进入 WordTap 安装向导后，按提示继续。",
       },
       {
+        image: "14.jpg",
+        width: 902,
+        height: 626,
+        title: "选择安装路径",
+        text: "默认安装路径可以直接使用，也可以按自己的习惯修改。",
+      },
+      {
         image: "15.jpg",
         width: 902,
         height: 626,
@@ -162,6 +183,13 @@ const guides = [
         title: "点词听读",
         text: "点击英文单词可以查看释义并朗读，适合边读边听、边查边记。",
       },
+      {
+        image: "20.jpg",
+        width: 2520,
+        height: 1067,
+        title: "卸载入口在系统设置里",
+        text: "如果以后不再使用，可以在 Windows 的“应用和功能/已安装的应用”里找到 WordTap 并卸载。",
+      },
     ],
     otherGuideHref: "../gateway/",
     otherGuideLabel: "查看全文朗读服务安装",
@@ -187,7 +215,7 @@ const installStyles = `
       .install-actions { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
       .install-action {
         display: inline-flex;
-        min-height: 44px;
+        min-height: var(--wt-control-height);
         align-items: center;
         justify-content: center;
         padding: 0 16px;

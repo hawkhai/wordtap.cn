@@ -8,7 +8,7 @@ function invariant(condition, message) {
 }
 
 const root = process.cwd();
-const tracked = execFileSync("git", ["ls-files", "-z"], {
+const tracked = execFileSync("git", ["ls-files", "--cached", "--others", "--exclude-standard", "-z"], {
   cwd: root,
   encoding: "utf8",
 }).split("\0").filter(Boolean);

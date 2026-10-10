@@ -2,6 +2,7 @@ import { readFileSync } from "node:fs";
 import { lessonShortCode } from "../src/shared/utils/lessonShortProtocol.js";
 
 const courses = [
+  { id: "english-vocabulary", label: "英语词汇" },
   { id: "exam", label: "考试学习" },
   { id: "pep-english", label: "人教英语" },
   { id: "college-english", label: "大学英语" },
@@ -57,6 +58,7 @@ function courseFooter(depth) {
       <div class="feedback-row">
         <span class="feedback-label">意见反馈：</span>
         <a href="https://github.com/hawkhai/wordtap.cn/issues" target="_blank" rel="noopener noreferrer">GitHub Issues</a>
+        <img class="feedback-email" src="${root}/email.png" alt="反馈邮箱地址" width="156" height="21">
       </div>
       <nav class="footer-links" aria-label="网站相关链接">
         <a href="${root}/exam/">考试学习</a>
@@ -71,9 +73,13 @@ function courseFooter(depth) {
         <span aria-hidden="true">·</span>
         <a href="${root}/kaoyan-english/">考研英语</a>
         <span aria-hidden="true">·</span>
+        <a href="${root}/english-vocabulary/">英语词汇</a>
+        <span aria-hidden="true">·</span>
         <a href="${root}/nce/">新概念英语</a>
         <span aria-hidden="true">·</span>
         <a href="${root}/shuimu/">水木英语</a>
+        <span aria-hidden="true">·</span>
+        <a href="https://omniscient-house-4e0.notion.site/385148a126c1807bb8dcc63bab2ea096" target="_blank" rel="noopener noreferrer">高级软件工程</a>
         <span aria-hidden="true">·</span>
         <a href="https://github.com/hawkhai/wordtap.cn" target="_blank" rel="noopener noreferrer">项目源码</a>
         <span aria-hidden="true">·</span>
@@ -82,11 +88,9 @@ function courseFooter(depth) {
     </footer>`;
 }
 
-
 const designTokens = readFileSync(new URL("../src/design-tokens.css", import.meta.url), "utf8").trim();
 
-const sharedStyles = `
-      :root {
+const sharedStyles = `      :root {
         color-scheme: light;
         --wordtap-reading-font-family: "Itim", "Microsoft YaHei UI", "Segoe UI", Arial, sans-serif;
         --wordtap-reading-font-size: 1.5rem;
@@ -128,7 +132,7 @@ const sharedStyles = `
       .course-nav { display: flex; flex-wrap: wrap; gap: 7px; align-items: center; justify-content: flex-end; }
       .course-link, .tool-link {
         display: inline-flex;
-        min-height: 44px;
+        min-height: var(--wt-control-height);
         align-items: center;
         justify-content: center;
         padding: 0 12px;
@@ -207,7 +211,7 @@ const sharedStyles = `
       }
       .feedback-row { display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 7px; }
       .feedback-label { font-weight: 600; }
-      .feedback-row a { color: var(--wt-primary); font-weight: 700; text-decoration: underline; text-underline-offset: 3px; }
+      .feedback-email { width: 156px; max-width: 100%; height: auto; }
       .footer-links { color: var(--wt-secondary); font-size: var(--text-xs); line-height: 1.8; }
       .footer-links a { color: var(--wt-primary); font-weight: 700; text-decoration: underline; text-underline-offset: 3px; }
       .footer-links span { margin: 0 5px; }

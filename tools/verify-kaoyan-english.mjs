@@ -26,8 +26,10 @@ for (const lesson of lessons) {
   if (lesson.id !== `${lesson.groupId}-${lesson.year}`) throw new Error(`Kaoyan English ID is not year-stable: ${lesson.id}`);
   const detail = JSON.parse(await readFile(path.join(root, "public", lesson.jsonPath), "utf8"));
   if (detail.id !== lesson.id || detail.text.length !== lesson.characterCount) throw new Error(`Kaoyan English detail mismatch: ${lesson.id}`);
+  if (detail.characterCount !== detail.text.length || detail.title !== lesson.title) throw new Error(`Kaoyan English summary mismatch: ${lesson.id}`);
+  if (detail.text !== detail.blocks?.map((block) => block.text).join("\n")) throw new Error(`Kaoyan English text/blocks mismatch: ${lesson.id}`);
   if (detail.text.length < 6_000 || !Array.isArray(detail.blocks) || detail.blocks.length < 1) throw new Error(`Kaoyan English paper is incomplete: ${lesson.id}`);
-  if (!detail.blocks.every((block) => block.type === "paragraph" && block.lang === "en" && block.text.trim())) throw new Error(`Invalid text block: ${lesson.id}`);
+  if (!detail.blocks.every((block) => ["heading", "subheading", "paragraph", "list"].includes(block.type) && ["en", "zh"].includes(block.lang) && typeof block.text === "string" && block.text.trim())) throw new Error(`Invalid text block: ${lesson.id}`);
   if (!/^[a-f0-9]{64}$/.test(detail.source?.pdfSha256 ?? "")) throw new Error(`Missing source hash: ${lesson.id}`);
   if (!/^https:\/\//.test(detail.source?.sourcePage ?? "") || !/^https:\/\//.test(detail.source?.downloadUrl ?? "")) throw new Error(`Missing source URL: ${lesson.id}`);
 }

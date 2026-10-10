@@ -1,2 +1,5 @@
 # Optional course-data generators; the Web build itself only needs Node.js.
 pypdf>=5.0,<7.0
+
+# Optional standalone brand SVG export; never needed by the Web build.
+fonttools>=4.0,<5.0

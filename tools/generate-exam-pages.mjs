@@ -49,7 +49,7 @@ const extraStyles = `
   .exam-card a { display:inline-block; margin-top:14px; color:var(--wt-primary); font-weight:800; }
   .loop-card { margin-top:18px; }
   .loop-card ol { display:grid; gap:8px; padding-left:22px; line-height:1.65; }
-  .primary-action { display:inline-flex; min-height:44px; align-items:center; margin-top:8px; padding:0 16px; border-radius:9px; background:var(--wt-primary); color:#fff; font-weight:800; text-decoration:none; }
+  .primary-action { display:inline-flex; min-height:var(--wt-control-height); align-items:center; margin-top:8px; padding:0 16px; border-radius:9px; background:var(--wt-primary); color:#fff; font-weight:800; text-decoration:none; }
   @media (max-width: 767px) { .exam-grid { grid-template-columns:1fr; } .exam-card span { min-height:0; } }
 `;
 

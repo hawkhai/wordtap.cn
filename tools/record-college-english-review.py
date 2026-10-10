@@ -41,6 +41,7 @@ def main() -> int:
     parser.add_argument("--notes", default="")
     parser.add_argument("--correction-count", type=int, default=0)
     parser.add_argument("--confirm-full-read", action="store_true")
+    parser.add_argument("--revise-passed", action="store_true", help="Append a new source-backed revision of an already passed article; preserve historical signatures")
     args = parser.parse_args()
 
     if not args.reviewer.strip() or not args.evidence.strip():
@@ -54,7 +55,10 @@ def main() -> int:
         raise RuntimeError(f"Unknown article: {args.article}")
     row = rows[row_index]
     from_status = row["status"]
-    if args.to not in TRANSITIONS.get(from_status, set()):
+    is_revision = bool(args.revise_passed)
+    if is_revision and (from_status != "passed" or args.to != "passed"):
+        raise RuntimeError("--revise-passed requires an already passed article and --to passed")
+    if not is_revision and args.to not in TRANSITIONS.get(from_status, set()):
         raise RuntimeError(f"{args.article}: invalid transition {from_status} -> {args.to}")
 
     events = load_events()
@@ -112,6 +116,12 @@ def main() -> int:
         "fullReadConfirmed": bool(args.confirm_full_read),
         "previousEventSha256": events[-1]["eventSha256"] if events else "",
     }
+    if is_revision:
+        preceding = [event for event in events if event.get("articleId") == args.article and event.get("toStatus") == "passed"]
+        if not preceding or preceding[-1]["eventSha256"] != row["eventSha256"]:
+            raise RuntimeError("Revision does not supersede the article's current valid signature")
+        event["eventType"] = "revision"
+        event["supersedesEventSha256"] = row["eventSha256"]
     event["eventSha256"] = payload_sha256(event)
     with EVENTS_PATH.open("a", encoding="utf-8", newline="\n") as handle:
         handle.write(json.dumps(event, ensure_ascii=False, sort_keys=True) + "\n")

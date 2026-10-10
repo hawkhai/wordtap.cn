@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="zh-CN"><meta charset="utf-8"><title>WordTap 数据兼容验收</title>
+<h1>WordTap 数据兼容验收</h1>
+<p>使用独立测试数据库；不访问实际学习数据库。在 Vite 开发服务器打开此页。</p>
+<button id="run">运行迁移与备份测试</button><pre id="result" role="status">等待运行</pre>
+<script type="module">
+const result = document.querySelector('#result');
+const assert = (condition, message) => { if (!condition) throw new Error(message); };
+const request = req => new Promise((resolve, reject) => { req.onsuccess = () => resolve(req.result); req.onerror = () => reject(req.error); });
+const done = tx => new Promise((resolve, reject) => { tx.oncomplete = resolve; tx.onabort = tx.onerror = () => reject(tx.error); });
+document.querySelector('#run').onclick = async () => {
+  document.querySelector('#run').disabled = true;
+  const log = [];
+  const check = message => { log.push('PASS ' + message); result.textContent = log.join('\n'); };
+  const originalOpen = IDBFactory.prototype.open;
+  let testName = 'wordtap-sync-test-' + crypto.randomUUID();
+  const connections = [];
+  IDBFactory.prototype.open = function(name, version) {
+    const req = originalOpen.call(this, name === 'wordtap-study-history' ? testName : name, version);
+    req.addEventListener('success', () => connections.push(req.result));
+    return req;
+  };
+  try {
+    const seedRequest = indexedDB.open('wordtap-study-history', 5);
+    seedRequest.onupgradeneeded = () => {
+      const db = seedRequest.result;
+      for (const [name, keyPath] of [['words','key'],['texts','id'],['translation_cache','word'],['audio_cache','key'],['audio_cache_meta','key'],['exam_progress','key'],['exam_word_encounters','key']]) db.createObjectStore(name, {keyPath});
+    };
+    const seed = await request(seedRequest);
+    const timestamp = '2026-09-22T00:00:00.000Z';
+    const tx = seed.transaction([...seed.objectStoreNames], 'readwrite');
+    tx.objectStore('words').put({key:'hello', word:'hello', meaning:'你好', count:2, firstSeen:timestamp, lastSeen:timestamp});
+    tx.objectStore('texts').put({id:'legacy-text', title:'Saved article', text:'Saved article.', count:1, createdAt:timestamp, lastSeen:timestamp});
+    tx.objectStore('exam_progress').put({key:'cet:exam1', course:'cet', lessonId:'exam1', title:'Exam', status:'in-progress', openCount:1, startedAt:timestamp, lastOpenedAt:timestamp, updatedAt:timestamp});
+    tx.objectStore('exam_word_encounters').put({key:'cet:exam1:hello', wordKey:'hello', word:'hello', meaning:'你好', course:'cet', lessonId:'exam1', lessonTitle:'Exam', context:'Hello.', count:1, firstSeen:timestamp, lastSeen:timestamp, reviewState:'learning', updatedAt:timestamp});
+    tx.objectStore('translation_cache').put({word:'hello', meaning:'你好', source:'local-dictionary', updatedAt:timestamp});
+    tx.objectStore('audio_cache').put({key:'audio', blob:new Blob(['audio']), size:5, mimeType:'audio/mpeg', engineVersion:'test', createdAt:timestamp, lastUsedAt:timestamp});
+    tx.objectStore('audio_cache_meta').put({key:'audio', size:5, lastUsedAt:timestamp});
+    await done(tx); seed.close();
+    const store = await import('../src/shared/stores/historyStore.ts?migration-test');
+    assert((await store.listStudyHistory())[0].count === 2, 'word lost during migration');
+    const upgraded = await request(indexedDB.open('wordtap-study-history', 6));
+    assert(upgraded.version === 6 && upgraded.objectStoreNames.contains('article_typing_progress'), 'migration missing');
+    for (const name of ['translation_cache','audio_cache','audio_cache_meta']) assert((await request(upgraded.transaction(name).objectStore(name).getAll())).length === 1, name + ' lost');
+    assert((await store.listStudyTexts())[0].text === 'Saved article.', 'article lost');
+    check('版本 5 → 6 保留单词、文章、考试记录与三类缓存，新增跟打存储');
+    const sourceId = await store.articleTypingSourceId('Hello world. Go now!');
+    const progress = {key:`${sourceId}:full:0:0`, sourceId, mode:'full', selectionStart:0, selectionEnd:0, state:{current:1, completed:[0], drafts:{1:'Go'}}, updatedAt:'2026-10-10T00:00:00.000Z'};
+    await store.putArticleTypingProgress(progress);
+    const backup = JSON.parse(await store.exportCompleteLearningDataJson());
+    assert(backup.schemaVersion === 4 && ['words','texts','examProgress','examWords','articleTyping'].every(key => backup[key].length === 1), 'incomplete backup');
+    check('完整备份包含五类学习数据，缓存不进入备份');
+    testName = 'wordtap-sync-test-' + crypto.randomUUID();
+    const restored = await import('../src/shared/stores/historyStore.ts?restore-test');
+    const imported = await restored.importCompleteLearningDataJson(JSON.stringify(backup));
+    assert(Object.values(imported).every(count => count === 1), 'restore counts incorrect');
+    await restored.importCompleteLearningDataJson(JSON.stringify(backup));
+    const roundtrip = JSON.parse(await restored.exportCompleteLearningDataJson());
+    assert(['words','texts','examProgress','examWords','articleTyping'].every(key => roundtrip[key].length === 1), 'duplicate records');
+    assert(roundtrip.texts[0].text === backup.texts[0].text && JSON.stringify(roundtrip.articleTyping) === JSON.stringify(backup.articleTyping), 'round-trip content changed');
+    check('真实 IndexedDB 五类数据往返导入与重复合并');
+    const older = await restored.importCompleteLearningDataJson(JSON.stringify({schemaVersion:3, texts:[{text:'Old backup article.'}], words:[]}));
+    assert(older.texts === 1, 'old articles rejected');
+    const legacy = await restored.importCompleteLearningDataJson(JSON.stringify([{word:'legacy', count:3}]));
+    assert(legacy.words === 1, 'legacy arrays rejected');
+    check('版本 3 文章备份与旧单词数组兼容');
+    for (const invalid of [{...progress, key:'bad'}, {...progress, state:{...progress.state,current:-1}}, {...progress, state:{...progress.state,drafts:{1:42}}}, {...progress, mode:'selection', selectionStart:9, selectionEnd:2}]) {
+      let rejected = false;
+      try { await restored.importCompleteLearningDataJson(JSON.stringify({articleTyping:[invalid]})); } catch { rejected = true; }
+      assert(rejected, 'invalid typing data accepted');
+    }
+    check('异常跟打标识、进度、草稿和选区被拒绝');
+    document.body.dataset.result = 'passed';
+    result.textContent += '\n全部通过';
+  } catch (error) {
+    document.body.dataset.result = 'failed'; result.textContent += '\nFAIL ' + error.stack;
+  } finally {
+    connections.forEach(db => db.close()); IDBFactory.prototype.open = originalOpen;
+  }
+};
+</script></html>

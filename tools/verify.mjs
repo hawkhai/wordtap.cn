@@ -28,9 +28,18 @@ for (const script of [
   "verify:shuimu",
   "verify:postgraduate:complete",
   "verify:pep-english",
-  "verify:college-english:complete",
+  "verify:college-english:published",
   "verify:cet",
   "verify:kaoyan-english",
+  "verify:spacing",
+  "verify:segmentation",
+  "verify:article-review:published",
+  "test:english-vocabulary",
+  "test:spacing",
+  "test:article-review",
+  "test:review-archive",
+  "test:segmentation",
+  "test:article-cleanup",
 ]) {
   const args = isWindows
     ? ["/d", "/s", "/c", "npm.cmd", "run", script]

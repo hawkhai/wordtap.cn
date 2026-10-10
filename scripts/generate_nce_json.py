@@ -5,16 +5,28 @@
 from __future__ import annotations
 
 import json
+import argparse
 import re
 import shutil
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 
+# This generator lives in scripts/, while the shared review helper lives in tools/.
+import sys
+sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "tools"))
+from article_review import apply_revision, sync_summary, checked_output_root
+
 GENERATOR_VERSION = "2.0.0"
 EXPECTED_COUNTS = {"nce1": 72, "nce2": 96, "nce3": 60, "nce4": 48}
 TITLE_ZH_FALLBACKS = {
     ("nce4", 2): "不要伤害蜘蛛",
+}
+# This LRC includes an alternate title question before the actual listening
+# question. Keep both audio rows, but use the checked question as the body boundary.
+# Evidence: content/article-review/source-evidence/nce2-025-classification.json.
+QUESTION_TEXT_OVERRIDES = {
+    ("nce2", 25): "Why does the writer not understand the porter?",
 }
 
 BOOKS = [
@@ -135,10 +147,16 @@ def locate_title_row(rows: list[dict[str, Any]], title: str) -> int | None:
     return None
 
 
-def locate_question_row(rows: list[dict[str, Any]], title_row_index: int | None) -> int:
+def locate_question_row(rows: list[dict[str, Any]], title_row_index: int | None, expected_question: str | None = None) -> int:
     start_index = 0
     if title_row_index is not None:
         start_index = title_row_index + 1
+
+    if expected_question is not None:
+        matches = [index for index in range(start_index, len(rows)) if rows[index]["en"] == expected_question]
+        if len(matches) != 1:
+            raise ValueError("Reviewed listening question missing or duplicated; source recheck required")
+        return matches[0]
 
     for index in range(start_index, len(rows)):
         text = rows[index]["en"]
@@ -180,7 +198,7 @@ def build_lesson(
     numbers = lesson_numbers(filename)
     lesson_no = numbers[0]
     title_row_index = locate_title_row(rows, title)
-    question_row_index = locate_question_row(rows, title_row_index)
+    question_row_index = locate_question_row(rows, title_row_index, QUESTION_TEXT_OVERRIDES.get((book["id"], lesson_no)))
 
     title_zh = ""
     if title_row_index is not None:
@@ -271,6 +289,8 @@ def build_lesson(
     }
 
     output_path = output_root / "lessons" / book["id"] / f"{lesson_no:03d}.json"
+    detail = apply_revision(detail, "nce")
+    sync_summary(summary, detail)
     output_path.parent.mkdir(parents=True, exist_ok=True)
     output_path.write_text(
         json.dumps(detail, ensure_ascii=False, indent=2) + "\n",
@@ -294,7 +314,7 @@ def validate_manifest(manifest: dict[str, Any], output_root: Path) -> None:
                 raise ValueError(f"Duplicate lesson number in {book['id']}: {lesson['lessonNo']}")
             seen.add(lesson["lessonNo"])
 
-            detail_path = output_root.parent / lesson["jsonPath"]
+            detail_path = output_root / Path(lesson["jsonPath"]).relative_to("nce")
             if not detail_path.exists():
                 raise FileNotFoundError(detail_path)
             if not lesson["title"] or not lesson["titleZh"] or not lesson["question"]:
@@ -308,9 +328,12 @@ def validate_manifest(manifest: dict[str, Any], output_root: Path) -> None:
 
 def main() -> None:
     root = repo_root()
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--output", type=Path, default=root / "public" / "nce")
+    args = parser.parse_args()
     source_root = root / "content" / "NCE-Flow"
     data_file = source_root / "static" / "data.json"
-    output_root = root / "public" / "nce"
+    output_root = checked_output_root(args.output, "nce")
 
     if not data_file.exists():
         raise FileNotFoundError(data_file)

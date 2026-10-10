@@ -15,6 +15,10 @@ import tempfile
 from datetime import datetime, timezone
 from pathlib import Path
 
+from article_review import apply_revision, checked_output_root
+from pep_article_identity import assign_published_identities
+from pep_display import paragraph_block
+
 try:
     from pypdf import PdfReader
 except ImportError as exc:
@@ -25,10 +29,11 @@ from pep_english_catalog import BOOKS, BOOK_BY_ID
 ROOT = Path(__file__).resolve().parents[1]
 SOURCE_MANIFEST = ROOT / "content" / "pep-english" / "source-manifest.json"
 CORRECTIONS_PATH = ROOT / "content" / "pep-english" / "reviewed-corrections.json"
+IDENTITIES_PATH = ROOT / "content" / "pep-english" / "article-identities.json"
 REPORT_DIR = ROOT / "content" / "pep-english" / "reports"
 OUTPUT_DIR = ROOT / "public" / "pep-english"
-DEFAULT_ONEOCR_DIR = Path(os.environ["WORDTAP_ONEOCR_DIR"]) if os.environ.get("WORDTAP_ONEOCR_DIR") else None
-GENERATOR_VERSION = "1.2.0"
+ONEOCR_DIR = Path(os.environ.get("WORDTAP_ONEOCR_DIR", str(ROOT / "tools/oneocr")))
+GENERATOR_VERSION = "1.3.1"
 
 SECTION_PATTERNS = (
     ("Reading and Thinking", re.compile(r"\bReading\s+and\s+Thinking\b", re.I)),
@@ -228,14 +233,7 @@ def probable_title(text: str, fallback: str) -> str:
     return fallback
 
 
-def extract_book(
-    book,
-    pdf_path: Path,
-    corrections: list[dict],
-    enable_ocr: bool,
-    oneocr_dir: Path | None,
-    source_meta: dict,
-) -> tuple[list[dict], dict]:
+def extract_book(book, pdf_path: Path, corrections: list[dict], enable_ocr: bool, source_meta: dict) -> tuple[list[dict], dict]:
     reader, raw_lessons, review_pages = PdfReader(str(pdf_path)), [], []
     unit_no, section, ocr_engine = 0, "Reading", None
     with tempfile.TemporaryDirectory(prefix=f"pep-{book.id}-") as temp_name:
@@ -248,11 +246,7 @@ def extract_book(
                 embedded = apply_corrections(book.id, page_no, embedded, corrections)
                 page_text, mode, metrics = embedded, "text", None
                 if enable_ocr and 4 < page_no < len(reader.pages) - 2 and english_score(embedded)[0] < 80:
-                    if oneocr_dir is None:
-                        raise RuntimeError(
-                            "OCR is required for this page; pass --oneocr-dir or set WORDTAP_ONEOCR_DIR"
-                        )
-                    ocr_engine = ocr_engine or OneOcr(oneocr_dir)
+                    ocr_engine = ocr_engine or OneOcr(ONEOCR_DIR)
                     ocr_text, metrics = ocr_engine.image(render_page(pdf_path, page_no, Path(temp_name)))
                     if not ocr_text.strip() or metrics["wordCount"] == 0:
                         raise RuntimeError(f"{book.id} page {page_no}: OneOCR returned an empty result")
@@ -317,29 +311,27 @@ def extract_book(
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--no-ocr", action="store_true")
-    parser.add_argument(
-        "--oneocr-dir",
-        type=Path,
-        default=DEFAULT_ONEOCR_DIR,
-        help="directory containing the local OneOCR runtime (or set WORDTAP_ONEOCR_DIR)",
-    )
     parser.add_argument("--book", choices=BOOK_BY_ID, help="regenerate one book without rewriting other groups")
+    parser.add_argument("--output", type=Path, default=OUTPUT_DIR)
     args = parser.parse_args()
+    output_dir = checked_output_root(args.output, "pep-english")
+    report_dir = REPORT_DIR if output_dir == OUTPUT_DIR.resolve() else output_dir / "reports"
     source_manifest = json.loads(SOURCE_MANIFEST.read_text(encoding="utf-8")) if SOURCE_MANIFEST.is_file() else {"books": {}}
     correction_payload = json.loads(CORRECTIONS_PATH.read_text(encoding="utf-8"))
+    identities = json.loads(IDENTITIES_PATH.read_text(encoding="utf-8"))["articles"]
     corrections = correction_payload.get("corrections", [])
     article_overrides = correction_payload.get("articleOverrides", [])
     article_removals = correction_payload.get("articleRemovals", [])
     article_splits = correction_payload.get("articleSplits", [])
     selected_books = (BOOK_BY_ID[args.book],) if args.book else BOOKS
-    existing_manifest_path = OUTPUT_DIR / "manifest.json"
+    existing_manifest_path = output_dir / "manifest.json"
     existing_manifest = json.loads(existing_manifest_path.read_text(encoding="utf-8")) if args.book and existing_manifest_path.is_file() else None
-    if not args.book and OUTPUT_DIR.is_dir():
-        shutil.rmtree(OUTPUT_DIR)
+    if not args.book and output_dir.is_dir():
+        shutil.rmtree(output_dir)
     if args.book:
-        shutil.rmtree(OUTPUT_DIR / "lessons" / args.book, ignore_errors=True)
+        shutil.rmtree(output_dir / "lessons" / args.book, ignore_errors=True)
     groups = [group for group in (existing_manifest or {}).get("groups", []) if group["id"] != args.book]
-    extraction_report_path = REPORT_DIR / "extraction-report.json"
+    extraction_report_path = report_dir / "extraction-report.json"
     extraction_report = (json.loads(extraction_report_path.read_text(encoding="utf-8"))
                          if args.book and extraction_report_path.is_file() else {"schemaVersion": 1, "books": {}})
     missing_books = []
@@ -353,16 +345,11 @@ def main() -> int:
         source = source_manifest.get("books", {}).get(book.id, {})
         source_path = ROOT / source.get("path", "") if source.get("path") else None
         if source.get("status") != "available" or not source_path or not source_path.is_file():
-            raise RuntimeError(f"{book.id}: source is unavailable")
+            if args.book:
+                raise RuntimeError(f"{book.id}: source is unavailable")
+            continue
         print(f"Extracting {book.id} ({book.title})...", flush=True)
-        lessons, report = extract_book(
-            book,
-            source_path,
-            corrections,
-            not args.no_ocr,
-            args.oneocr_dir,
-            source,
-        )
+        lessons, report = extract_book(book, source_path, corrections, not args.no_ocr, source)
         for removal in (item for item in article_removals if item.get("groupId") == book.id):
             matches = [item for item in lessons
                        if item["source"]["pageStart"] == removal.get("pageStart")
@@ -384,6 +371,25 @@ def main() -> int:
                 matches = [item for item in lessons
                            if item["source"]["pageStart"] == match_page_start
                            and item["source"]["pageEnd"] < match_page_end]
+            if not matches:
+                # Reviewed text is authoritative even when extraction heuristics
+                # exclude an entire tapescript page. Require the existing visual
+                # review to identify this exact PDF and page, never guess text.
+                evidence = override.get("review", {})
+                expected_source = f"{source_path.relative_to(ROOT).as_posix()}#page={match_page_start}"
+                if (evidence.get("method") != "visual-line-by-line"
+                        or evidence.get("source") != expected_source
+                        or not 1 <= match_page_start <= match_page_end <= report["pageCount"]):
+                    raise RuntimeError(f"{book.id}: missing candidate has no exact reviewed PDF evidence")
+                lesson = {
+                    "schemaVersion": 1, "groupId": book.id,
+                    "source": {"publisher": "人民教育出版社", "stage": "初中" if book.stage == "junior" else "高中",
+                        "book": book.title, "pageStart": match_page_start, "pageEnd": match_page_end,
+                        "extractionMode": "reviewed-text", "origin": source.get("origin"),
+                        "contentId": source.get("contentId"), "pdfMd5": source.get("md5"), "pdfSize": source.get("size")},
+                }
+                lessons.append(lesson)
+                matches = [lesson]
             if len(matches) != 1:
                 raise RuntimeError(f"{book.id}: reviewed override has no matching lesson: {override.get('baselineId')}")
             lesson = matches[0]
@@ -394,7 +400,7 @@ def main() -> int:
             lesson["section"] = override["section"]
             lesson["title"] = override["title"]
             lesson["text"] = "\n".join(paragraphs)
-            lesson["blocks"] = [{"type": "paragraph", "lang": "en", "text": paragraph} for paragraph in paragraphs]
+            lesson["blocks"] = [paragraph_block(paragraph) for paragraph in paragraphs]
             lesson["source"]["pageStart"] = int(override["pageStart"])
             lesson["source"]["pageEnd"] = int(override["pageEnd"])
             lesson["source"]["manualReview"] = override.get("review", {})
@@ -420,8 +426,7 @@ def main() -> int:
                 detail["section"] = reviewed["section"]
                 detail["title"] = reviewed["title"]
                 detail["text"] = "\n".join(paragraphs)
-                detail["blocks"] = [{"type": "paragraph", "lang": "en", "text": paragraph}
-                                    for paragraph in paragraphs]
+                detail["blocks"] = [paragraph_block(paragraph) for paragraph in paragraphs]
                 detail["source"]["pageStart"] = int(reviewed.get("pageStart", split["pageStart"]))
                 detail["source"]["pageEnd"] = int(reviewed.get("pageEnd", split["pageEnd"]))
                 manual_review = dict(reviewed.get("review", split.get("review", {})))
@@ -432,15 +437,14 @@ def main() -> int:
             lessons[index:index + 1] = replacements
         if not lessons:
             raise RuntimeError(f"{book.id}: PDF produced no complete English passages")
-        for sequence_no, lesson in enumerate(lessons, start=1):
-            lesson["id"] = f"{book.id}-{sequence_no:03d}"
-            lesson["sequenceNo"] = sequence_no
-            lesson["jsonPath"] = f"pep-english/lessons/{book.id}/{sequence_no:03d}.json"
+        lessons.sort(key=lambda lesson: (lesson["source"]["pageStart"], lesson["source"]["pageEnd"]))
+        assign_published_identities(lessons, identities, book.id)
+        lessons = [apply_revision(lesson, "pep-english") for lesson in lessons]
         report["lessonCount"] = len(lessons)
-        output_group = OUTPUT_DIR / "lessons" / book.id
+        output_group = output_dir / "lessons" / book.id
         output_group.mkdir(parents=True, exist_ok=True)
         for detail in lessons:
-            (ROOT / "public" / detail["jsonPath"]).write_text(json.dumps(detail, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+            (output_dir / Path(detail["jsonPath"]).relative_to("pep-english")).write_text(json.dumps(detail, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
         summaries = [{key: lesson[key] for key in ("id", "groupId", "unitNo", "sequenceNo", "section", "title", "jsonPath")} for lesson in lessons]
         groups.append({
             "id": book.id, "stage": book.stage, "stageTitle": "初中" if book.stage == "junior" else "高中",
@@ -457,10 +461,10 @@ def main() -> int:
         "expectedBookCount": len(BOOKS), "availableBookCount": len(groups), "complete": not missing_books,
         "totalLessons": sum(group["lessonCount"] for group in groups), "missingBooks": missing_books, "groups": groups,
     }
-    OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
-    (OUTPUT_DIR / "manifest.json").write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    REPORT_DIR.mkdir(parents=True, exist_ok=True)
-    (REPORT_DIR / "extraction-report.json").write_text(json.dumps(extraction_report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    output_dir.mkdir(parents=True, exist_ok=True)
+    (output_dir / "manifest.json").write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    report_dir.mkdir(parents=True, exist_ok=True)
+    (report_dir / "extraction-report.json").write_text(json.dumps(extraction_report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(f"Generated {manifest['totalLessons']} PEP English lessons from {len(groups)}/{len(BOOKS)} books.")
     return 0
 

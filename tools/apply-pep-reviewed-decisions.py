@@ -14,6 +14,8 @@ import json
 import shutil
 from pathlib import Path
 
+from article_review import apply_revision
+
 from pep_english_catalog import BOOK_BY_ID
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -119,6 +121,8 @@ def main() -> int:
         detail["id"] = f"{args.book}-{sequence_no:03d}"
         detail["sequenceNo"] = sequence_no
         detail["jsonPath"] = f"pep-english/lessons/{args.book}/{sequence_no:03d}.json"
+        detail = apply_revision(detail, "pep-english")
+        details[sequence_no - 1] = detail
         (ROOT / "public" / detail["jsonPath"]).write_text(json.dumps(detail, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
     summary_keys = ("id", "groupId", "unitNo", "sequenceNo", "section", "title", "jsonPath")

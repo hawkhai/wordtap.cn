@@ -90,6 +90,23 @@ def reviewed_article(article_id: str) -> tuple[dict[str, Any], str, str]:
     return payload, text, text_sha256(text)
 
 
+def validate_signed_display(detail: dict[str, Any]) -> None:
+    """Allow restoring published formatting only to the current signed source."""
+    _, rows = load_ledger()
+    passed = validate_passed_rows(rows, load_events())
+    row = next((row for row in passed if row['baselineId'] == detail['id']), None)
+    if row is None:
+        raise ValueError('College article has no valid signed source')
+    payload, text, digest = reviewed_article(detail['id'])
+    expected_blocks = [{'type': 'paragraph', 'lang': 'en', 'text': p} for p in payload['paragraphs']]
+    signature = detail.get('manualReview', {})
+    if (detail.get('title') != payload['title'] or detail.get('text') != text
+            or detail.get('blocks') != expected_blocks
+            or signature.get('eventSha256') != row['eventSha256']
+            or signature.get('textSha256') != digest):
+        raise ValueError('College display must exactly match its current signed source; append a source revision first')
+
+
 def passed_prefix(rows: list[dict[str, str]]) -> list[dict[str, str]]:
     passed: list[dict[str, str]] = []
     encountered_unpassed = False
@@ -104,6 +121,7 @@ def passed_prefix(rows: list[dict[str, str]]) -> list[dict[str, str]]:
 
 
 def validate_passed_rows(rows: list[dict[str, str]], events: list[dict[str, Any]]) -> list[dict[str, str]]:
+    from article_cleanup import is_verified_restoration
     passed = passed_prefix(rows)
     events_by_id: dict[str, list[dict[str, Any]]] = {}
     for event in events:
@@ -115,9 +133,17 @@ def validate_passed_rows(rows: list[dict[str, str]], events: list[dict[str, Any]
             event for event in events_by_id.get(article_id, [])
             if event.get("toStatus") == "passed"
         ]
-        if len(pass_events) != 1:
-            raise RuntimeError(f"{article_id}: expected exactly one passing event")
-        event = pass_events[0]
+        original_passes = [event for event in pass_events if event.get("eventType") != "revision"]
+        if len(original_passes) != 1 or not pass_events or pass_events[0] != original_passes[0]:
+            raise RuntimeError(f"{article_id}: expected exactly one original passing event")
+        for previous_event, revision in zip(pass_events, pass_events[1:]):
+            if (revision.get("eventType") != "revision"
+                    or revision.get("fromStatus") != "passed"
+                    or revision.get("supersedesEventSha256") != previous_event["eventSha256"]
+                    or revision.get("beforeTextSha256") != previous_event["afterTextSha256"]
+                    or not (revision.get("fullReadConfirmed") is True or is_verified_restoration(revision))):
+                raise RuntimeError(f"{article_id}: invalid passing revision chain")
+        event = pass_events[-1]
         if event.get("reviewer") != row["reviewer"] or not row["reviewer"]:
             raise RuntimeError(f"{article_id}: passing reviewer mismatch")
         if event.get("reviewedAt") != row["reviewedAt"] or not row["reviewedAt"]:
@@ -128,7 +154,7 @@ def validate_passed_rows(rows: list[dict[str, str]], events: list[dict[str, Any]
             raise RuntimeError(f"{article_id}: passing text hash mismatch")
         if event.get("eventSha256") != row["eventSha256"]:
             raise RuntimeError(f"{article_id}: passing event hash mismatch")
-        if event.get("fullReadConfirmed") is not True:
+        if not (event.get("fullReadConfirmed") is True or is_verified_restoration(event)):
             raise RuntimeError(f"{article_id}: full-read confirmation is missing")
         if event.get("sourcePages", {}).get("printed") != [
             int(row["printedPageStart"]), int(row["printedPageEnd"])
