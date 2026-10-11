@@ -320,7 +320,14 @@ body { background: var(--wt-background); color: var(--wt-text); }
 }
 .study-sentence-button:focus-visible:not(:disabled) > svg { transform: scale(1.3); }
 .study-sentence-button:focus-visible { opacity: 1; color: var(--wt-primary); }
-.study-sentence-button-active { color: var(--wt-primary); }
+.study-sentence-button-active { color: var(--wt-primary); opacity: 1; }
+.study-sentence-button-preparing > svg {
+  animation: study-sentence-breathe 1.6s ease-in-out infinite;
+}
+@keyframes study-sentence-breathe {
+  0%, 100% { opacity: .55; transform: scale(1); }
+  50% { opacity: 1; transform: scale(1.3); }
+}
 .study-sentence-button:active:not(:disabled) { opacity: 1; }
 .study-sentence-button:disabled { opacity: .12; cursor: not-allowed; }
 @media (hover: hover) {

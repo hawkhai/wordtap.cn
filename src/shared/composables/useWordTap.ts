@@ -3116,7 +3116,7 @@ async function speakSentenceText(text: string, sentenceId: string): Promise<void
   sentenceSpeechSession = session;
   activeSentenceId.value = sentenceId;
   sentenceSpeechState.value = "preparing";
-  status.value = "正在准备本句朗读…";
+  status.value = "正在准备本句朗读，请稍候，准备好后会自动播放；点击句末按钮可停止。";
   const isCurrent = () => sentenceSpeechSession === session;
   try {
     await session.speak(text, {

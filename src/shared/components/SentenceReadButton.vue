@@ -7,10 +7,10 @@ defineEmits<{ play: [] }>();
   <button
     type="button"
     class="study-sentence-button"
-    :class="{ 'study-sentence-button-active': active }"
+    :class="{ 'study-sentence-button-active': active, 'study-sentence-button-preparing': active && preparing }"
     :disabled="disabled"
-    :aria-label="`${active ? '停止朗读本句' : '朗读本句'}：${text}`"
-    :title="disabled ? '当前设备暂时无法朗读本句' : active ? (preparing ? '正在准备，点击停止' : '停止朗读本句') : '朗读本句（一次）'"
+    :aria-label="`${active ? (preparing ? '正在准备朗读本句，点击停止' : '停止朗读本句') : '朗读本句'}：${text}`"
+    :title="disabled ? '当前设备暂时无法朗读本句' : active ? (preparing ? '正在准备，准备好后自动播放，点击可停止' : '停止朗读本句') : '朗读本句（一次）'"
     :aria-pressed="active"
     @click.stop="$emit('play')"
   >
