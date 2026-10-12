@@ -11,16 +11,16 @@ WordTap is an open-source English learning web app for Chinese-speaking learners
 
 **[立即使用 WordTap](https://wordtap.cn/)** · [快速上手](#快速上手) · [英文技术文档阅读教程](docs/technical-english-reading.md) · [本地运行](#开发命令) · [English overview](#english-overview) · [反馈问题](https://github.com/hawkhai/wordtap.cn/issues)
 
-[![WordTap 实际查词界面：点击英文技术短文中的 cache，在原句旁查看中文释义](public/media/technical-english/02-lookup.jpg)](https://wordtap.cn/)
+<a href="https://wordtap.cn/"><img src="public/media/technical-english/02-lookup.jpg" alt="WordTap 实际查词界面：点击英文技术短文中的 cache，在原句旁查看中文释义" width="912" style="width: 912px; max-width: 100%; height: auto;"></a>
 
 *点击 `cache`，在原句旁看中文释义；读懂后，可直接进入文章跟打，用同一段英文练习输入。截图于 2026-10-12 拍摄自 WordTap 官网，入口可能随版本更新。*
 
-想先试一次？跟着 [五张操作图](docs/technical-english-reading.md)，用两句缓存说明体验原文查词、字母纠错和完成练习。
+[查看截图原图（912 × 276）](public/media/technical-english/02-lookup.jpg)。想先试一次？跟着 [五张操作图](docs/technical-english-reading.md)，用两句缓存说明体验原文查词、字母纠错和完成练习。
 
 <details>
 <summary>看 20 秒步骤演示：粘贴英文 → 点词查释义 → 跟打纠错 → 完成练习</summary>
 
-![WordTap 20 秒步骤演示：阅读技术英文、查 cache、修正拼写并完成两句跟打](public/media/technical-english/wordtap-20s.gif)
+<a href="public/media/technical-english/wordtap-20s.gif"><img src="public/media/technical-english/wordtap-20s.gif" alt="WordTap 20 秒步骤演示：阅读技术英文、查 cache、修正拼写并完成两句跟打" width="1000" style="width: 1000px; max-width: 100%; height: auto;"></a>
 
 动图由五张实际操作截图组成，增加画面外的步骤标题和图注，无音轨：粘贴原文、点击 `cache` 查释义、修正 `responsex`、确认第二句、完成练习。它展示操作顺序，不代表实际打字速度。想自己试一遍，见[图文教程与可复制的示例](docs/technical-english-reading.md)。
 
