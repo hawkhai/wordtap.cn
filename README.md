@@ -13,7 +13,7 @@ WordTap is an open-source English learning web app for Chinese-speaking learners
 
 [![WordTap 实际查词界面：点击英文技术短文中的 cache，在原句旁查看中文释义](public/media/technical-english/02-lookup.jpg)](https://wordtap.cn/)
 
-*点击 `cache`，在原句旁看中文释义；读懂后，可直接进入文章跟打，用同一段英文练习输入。截图采自 2026-10-10 官网本地构建，入口可能随版本更新。*
+*点击 `cache`，在原句旁看中文释义；读懂后，可直接进入文章跟打，用同一段英文练习输入。截图于 2026-10-12 拍摄自 WordTap 官网，入口可能随版本更新。*
 
 想先试一次？跟着 [五张操作图](docs/technical-english-reading.md)，用两句缓存说明体验原文查词、字母纠错和完成练习。
 
@@ -22,7 +22,7 @@ WordTap is an open-source English learning web app for Chinese-speaking learners
 
 ![WordTap 20 秒步骤演示：阅读技术英文、查 cache、修正拼写并完成两句跟打](public/media/technical-english/wordtap-20s.gif)
 
-动图由五张实际操作截图组成，无音轨：粘贴原文、点击 `cache` 查释义、修正 `responsex`、确认第二句、完成练习。它展示操作顺序，不代表实际打字速度。想自己试一遍，见[图文教程与可复制的示例](docs/technical-english-reading.md)。
+动图由五张实际操作截图组成，增加画面外的步骤标题和图注，无音轨：粘贴原文、点击 `cache` 查释义、修正 `responsex`、确认第二句、完成练习。它展示操作顺序，不代表实际打字速度。想自己试一遍，见[图文教程与可复制的示例](docs/technical-english-reading.md)。
 
 </details>
 
