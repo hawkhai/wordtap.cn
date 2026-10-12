@@ -5,7 +5,7 @@
 [![在线体验](https://img.shields.io/badge/在线体验-wordtap.cn-176454)](https://wordtap.cn/)
 [![Code License: Apache-2.0](https://img.shields.io/badge/Code%20License-Apache--2.0-blue.svg)](LICENSE)
 
-粘贴一篇英文，把阅读、查词、听读和跟打放在一起。**WordTap 是面向中文学习者的开源英语阅读工具**：点击生词查看中文释义、听发音，在原文里理解单词，再逐句跟打练习；学习记录保存在当前浏览器中。
+**把你正在读的英文，变成一段可查词、听读和跟打的练习。** WordTap 是面向中文学习者的开源英语阅读工具：粘贴 README、API 说明、文章或邮件中的一段正文，在原句旁查生词，再用同一段材料练习输入。无需注册，学习记录保存在当前浏览器中。
 
 WordTap is an open-source English learning web app for Chinese-speaking learners. Read your own text, tap words for Chinese definitions and pronunciation, listen to sentences, and practice typing the same article. Study records are stored in your browser.
 
@@ -13,14 +13,16 @@ WordTap is an open-source English learning web app for Chinese-speaking learners
 
 [![WordTap 实际查词界面：点击英文技术短文中的 cache，在原句旁查看中文释义](public/media/technical-english/02-lookup.jpg)](https://wordtap.cn/)
 
-*真实操作截图，采自 2026-10-10 官网本地构建；线上更新前，个别入口布局可能略有区别。*
+*点击 `cache`，在原句旁看中文释义；读懂后，可直接进入文章跟打，用同一段英文练习输入。截图采自 2026-10-10 官网本地构建，入口可能随版本更新。*
+
+想先试一次？跟着 [五张操作图](docs/technical-english-reading.md)，用两句缓存说明体验原文查词、字母纠错和完成练习。
 
 <details>
 <summary>看 20 秒步骤演示：粘贴英文 → 点词查释义 → 跟打纠错 → 完成练习</summary>
 
 ![WordTap 20 秒步骤演示：阅读技术英文、查 cache、修正拼写并完成两句跟打](public/media/technical-english/wordtap-20s.gif)
 
-动图由五张实际操作截图组成，无音轨。想自己试一遍，见[图文教程与可复制的示例](docs/technical-english-reading.md)。
+动图由五张实际操作截图组成，无音轨：粘贴原文、点击 `cache` 查释义、修正 `responsex`、确认第二句、完成练习。它展示操作顺序，不代表实际打字速度。想自己试一遍，见[图文教程与可复制的示例](docs/technical-english-reading.md)。
 
 </details>
 
@@ -50,7 +52,7 @@ WordTap is an open-source English learning web app for Chinese-speaking learners
 | 学习教材、词库和考试阅读 | 从课程或词库进入阅读与练习，菜单记住分组、最近课文和滚动位置 |
 | 在自己的设备上管理数据 | 浏览器本地保存，支持导出完整学习备份并在另一设备手动导入 |
 
-适合英语自学者、四六级／考研备考者、准备阅读材料的老师，也适合每天阅读英文技术文档、论文摘要或邮件的人。可以直接粘贴自己的材料，从眼前这一段英文开始。
+适合英语自学者、四六级／考研备考者、准备阅读材料的老师，也适合每天阅读英文技术文档、论文摘要或邮件的人。可以直接粘贴自己的材料，从眼前这一段英文开始。跟打练习使用当前文章或所选片段，练习材料由你决定。
 
 ## 课程与词库
 
@@ -273,6 +275,8 @@ http://127.0.0.1:18765
 如果 WordTap 帮你读懂了一篇英文，欢迎给[项目点一个 Star](https://github.com/hawkhai/wordtap.cn)，方便以后找到它，也让作者知道这项工作对你有帮助。
 
 欢迎通过 [Issues](https://github.com/hawkhai/wordtap.cn/issues) 提交复现步骤、查词问题、课程勘误或使用建议；也欢迎改进文档、浏览器兼容性和阅读／跟打体验。应用内还提供资料提交邮件说明与微信功能建议入口。
+
+如果你想把 WordTap 介绍给朋友或学习社区，可以使用 [项目介绍与分享文案](docs/sharing-kit.md)，配上 [技术英文教程](docs/technical-english-reading.md) 中的一张操作图。
 
 提交 Issue 或 Pull Request 前请阅读 [贡献指南](CONTRIBUTING.md)。安全漏洞请按 [SECURITY.md](SECURITY.md) 私下报告。
 

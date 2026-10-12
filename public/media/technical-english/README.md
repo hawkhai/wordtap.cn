@@ -1,15 +1,95 @@
-# Technical English walkthrough media
+# 技术英文教程：截图拍摄与替换清单
 
-Captured from the WordTap website's local production build on 2026-10-10, based on website source commit `51d46e67`. UI and dictionary results are from actual browser interactions; the practice text in `example.txt` was written for this tutorial.
+这组图片服务于 [技术英文阅读教程](../../../docs/technical-english-reading.md)，其中 `02-lookup.jpg` 还用作项目 README 的首张预览。每张图只解释一个步骤：自己的原文、原句查词、字母纠错、确认推进、完成练习。
 
-| File | Actual state | GIF hold |
+## 统一拍摄准备
+
+1. 选择同一个版本完成五步，记录拍摄日期、站点地址和源码提交。当前图片来自 2026-10-10 官网本地生产构建，源码提交为 `51d46e67`；新截图替换后，更新本文与两篇文章中的来源说明。
+2. 使用同一个桌面窗口，建议从 1440 × 1000、浏览器缩放 100% 开始。等字体、词典与正文加载完成，再截图；尺寸是拍摄起点，可以根据实际换行调整。
+3. 使用下方同一段示例。关闭“显示音标”和两项自动朗读，让每张图的正文、拼写颜色和提示一致。图 1 不查词，图 2 点击 `cache`，图 3–5 保持这次练习。
+4. 截取实际工作区，裁掉浏览器工具栏、操作系统任务栏、课程菜单和页脚。保留正在解释的控件完整边缘，四周留少量空白；避免把无关设置与大块留白一起带进来。
+5. 以正文常见的 720–800px 显示宽度检查一遍：读者应能看清原句、输入内容和关键提示。若字太小，缩小截图范围；五张图无需强行裁成相同高度。
+6. 静态图分别保存为下面的原文件名。若改用 PNG，同时更新所有引用；不要把 PNG 内容只改名为 `.jpg`。截图保持真实界面，图注放在正文里。
+
+```text
+The cache stores recent responses. Clear it before you retry the request.
+```
+
+## 图 1：自己的材料可以直接开始
+
+**文件：`01-read.jpg`。** 粘贴两句英文，点击编辑区外，让可点读正文出现。此时不要查词，也不要进入跟打。
+
+截取右侧输入区与点词阅读区，保留“输入或粘贴文章”、完整示例、可点读正文和“文章跟打”入口。左侧“还没点单词”空状态与下方设置可以裁掉。这张图需要回答：我应该把自己的英文放在哪里？接下来能做什么？
+
+**验收：** 输入区与阅读区都显示相同的两句，正文清晰，跟打入口完整；不要从课程选择器中间开始截。
+
+*图 1｜用自己的材料开始。上方粘贴原文，下方点词阅读；读完后，可从同一工作区进入“文章跟打”。*
+
+## 图 2：原句旁查词，也是 README 封面
+
+**文件：`02-lookup.jpg`。** 点击第一句的 `cache`，等 ECDICT 释义加载完成。让鼠标离开正文，避免悬停效果抢眼。
+
+以 `cache` 高亮、第一句原文和释义卡片为中心；条件允许时保留左侧“刚点的单词”上半部，裁掉其下方整列设置。完整保留第一句与词典释义；优先选择第二句也可辨认的窗口宽度，但不要为了显示全页把字号缩得过小。
+
+**验收：** `cache`、原句和“高速缓冲存储器”等释义都能看清；卡片不压住第一句。避免当前图片中第二句被遮挡后只剩下 `requ…` 的尴尬截断。这张图会出现在 README 首屏，优先重拍。
+
+*图 2｜查词时保留上下文。点击 `cache`，在原句旁看释义，再继续理解它保存了什么；词典中的多个意思仍需结合句子选择。*
+
+README 图注：*点击 `cache`，在原句旁看中文释义；读懂后，可直接进入文章跟打，用同一段英文练习输入。*
+
+## 图 3：具体指出一个字母错误
+
+**文件：`03-typing-error.jpg`。** 进入文章跟打，输入 `The cache stores recent responsex.`，保持最后一个字母错误。
+
+只截取跟打工作区，保留“文章跟打”标题、第 1 / 2 句、原句末字母的红色标记、完整输入框、应为 `s` / 当前为 `x` 的提示，以及下一句按钮。左侧设置、上方编辑区与下方页脚都不需要。
+
+**验收：** 读者不用放大就能找到 `responsex` 和字母错误提示；红色标记与输入内容同时出现。这张图最适合单独分享给开发者。
+
+*图 3｜知道错在哪里，才能直接修改。这里故意错了一个字母，原句标记和输入提示一起指出需要把 `x` 改成 `s`。*
+
+## 图 4：输对以后还要确认
+
+**文件：`04-typing.jpg`。** 修正第一句，确认进入第二句；输入 `Clear it before you retry the request.`，暂时不要按 Enter。
+
+沿用图 3 的跟打截图范围，保留第 2 / 2 句、已完成 1 / 2 句、完整原句与输入、正确提示和“完成练习”按钮。不要截入页脚。
+
+**验收：** 这是等待确认的状态，不能拍成已完成 2 / 2 句。正确提示和确认按钮都清晰可见，与图 3 的范围尽量一致。
+
+*图 4｜输对与完成是两个状态。第二句已输入正确，等待你按 Enter 或点击“完成练习”确认；此时进度仍是“已完成 1 / 2 句”。*
+
+## 图 5：完成一次小练习
+
+**文件：`05-completed.jpg`。** 在图 4 的状态按 Enter 或点击“完成练习”。
+
+截取完整的跟打结果区，保留“文章跟打”、已完成 2 / 2 句、完成提示、重新练习与退出跟打入口。界面如果显示 GitHub 支持链接，可一并保留；主要焦点仍是练习结果。不要带入左侧设置和站点宣传页脚。
+
+**验收：** 进度完整入镜，按钮不被裁切；把结果区之外的大块空白去掉，让图片高度随实际内容缩短。
+
+*图 5｜一小段练习有明确终点。“已完成 2 / 2 句”记录本次输入进度；可以重新练习，也可以退出跟打回到阅读。*
+
+## 文件替换关系
+
+| 文件 | 开源仓库引用 | 博客引用 |
 | --- | --- | --- |
-| 01-read.jpg | Pasted text rendered as clickable words | 3 seconds |
-| 02-lookup.jpg | ECDICT definition for cache | 5 seconds |
-| 03-typing-error.jpg | responsex triggers a spelling error | 4 seconds |
-| 04-typing.jpg | Second sentence entered correctly | 4 seconds |
-| 05-completed.jpg | Both sentences completed | 4 seconds |
+| `01-read.jpg` | 教程图 1 | 正文图 1 |
+| `02-lookup.jpg` | 教程图 2、项目 README 预览 | 正文图 2 |
+| `03-typing-error.jpg` | 教程图 3 | 正文图 3 |
+| `04-typing.jpg` | 教程图 4 | 正文图 4 |
+| `05-completed.jpg` | 教程图 5 | 正文图 5 |
+| `wordtap-20s.gif` | 教程补充链接、README 折叠演示 | 正文末尾补充链接 |
 
-`wordtap-20s.gif` combines these screenshots without changing the UI content. It is a 20-second step slideshow with no audio, not a continuous screen recording or a measure of typing speed. JPEG screenshots are retained for readers who prefer still images.
+仓库静态图位于本目录；博客静态图位于博客仓库的 `assets/wordtap/2026-10-10/`。同名文件要同时替换两处。博客原先只展示 2、3、5 三张图，本轮已补入原有的 1、4 两张，仍是旧截图，等手工重拍后覆盖。
 
-The public site may show the previous layout until the website build is deployed. No screenshots contain private learning material; the original practice text and original documentation are covered by the repository's Apache-2.0 license. Existing project artwork and dictionary data retain their own terms; see the repository's third-party notices.
+GIF 是独立文件，替换 JPEG 不会自动更新它。等五张静态图确认后再更新 GIF，或者移除两边的动图入口，避免新旧画面混用。图注可写：**五步操作演示：粘贴原文、点击 `cache` 查释义、修正 `responsex`、确认第二句、完成练习。**
+
+## 现有素材来源
+
+| 文件 | 现有截图状态 | GIF 停留 |
+| --- | --- | --- |
+| `01-read.jpg` | 粘贴的英文已显示为可点读正文 | 3 秒 |
+| `02-lookup.jpg` | `cache` 的 ECDICT 释义 | 5 秒 |
+| `03-typing-error.jpg` | `responsex` 触发字母错误提示 | 4 秒 |
+| `04-typing.jpg` | 第二句输入正确、尚未确认完成 | 4 秒 |
+| `05-completed.jpg` | 两句均已完成 | 4 秒 |
+
+现有 `wordtap-20s.gif` 由这五张真实截图合成，无音轨，是步骤幻灯片，不是连续录屏，也不是打字速度或学习效果证明。示例文本为教程原创，没有私人学习材料。原创文档与示例适用仓库 Apache-2.0；词典数据与现有项目图案仍遵循各自权利条件，见 [第三方声明](../../../THIRD_PARTY_NOTICES.md)。

@@ -9,28 +9,30 @@ export const siteCopy = {
     "Paste an article here, split it into words, then click any word to hear it " +
     "and see its Chinese meaning.",
   metadata: {
-    title: "WordTap.cn - 英语阅读点读查词工具｜听发音，看释义，读懂原文",
+    title: "WordTap.cn - 开源英语阅读、点词查释义与文章跟打",
     description:
-      "WordTap.cn 是一款面向英语阅读的点读查词工具。粘贴英文文章，点击单词即可听发音、看中文释义，在原文上下文里积累生词。",
-    keywords: "英语阅读,英语查词,单词点读,英语精读,英文文章学习,单词发音,中文释义,生词学习,WordTap,WordTap.cn",
-    ogTitle: "WordTap.cn - 英语阅读点读查词工具",
-    ogDescription: "读英文时少一点切换和打断。粘贴文章，点击单词，听发音、看释义，把生词放回上下文里理解。",
-    twitterTitle: "WordTap.cn - 英语阅读点读查词工具",
-    twitterDescription: "为英文阅读和精读设计的点读查词工具：点击单词，听发音，看释义，保留原文上下文。",
+      "WordTap 是面向中文学习者的开源英语阅读与文章跟打工具。粘贴技术文档、文章或邮件中的英文，在原句旁查中文释义、听发音，再逐句跟打练习。无需注册，学习记录保存在当前浏览器。",
+    keywords: "英语阅读,英语查词,单词点读,文章跟打,英文技术文档,英语精读,单词发音,中文释义,WordTap,WordTap.cn",
+    ogTitle: "WordTap - 原文查词，再逐句跟打",
+    ogDescription: "把正在读的英文变成自己的练习：粘贴原文，点词查中文释义、听发音，再跟打同一段材料。开源、无需注册，学习记录本地保存。",
+    twitterTitle: "WordTap - 原文查词，再逐句跟打",
+    twitterDescription: "粘贴自己的英文，在原句旁查词、听发音，再逐句跟打。面向中文学习者的开源阅读工具，无需注册，学习记录本地保存。",
     socialImageUrl: "https://wordtap.cn/demo.webp",
     socialImageType: "image/webp",
     socialImageAlt: "WordTap 点词阅读和查词界面预览",
     jsonLdDescription:
-      "WordTap.cn 是一款面向英语阅读和精读练习的点读查词工具，帮助学习者在原文上下文里听单词发音、查看中文释义并积累生词。",
+      "WordTap 是面向中文学习者的开源英语阅读与文章跟打工具，可粘贴自己的英文、点词查中文释义、听发音，并用同一段原文逐句练习输入。",
     featureList: [
       "粘贴英文文本并生成可点读文本",
       "点击单词听英文发音",
       "在阅读上下文中查看中文释义",
+      "使用当前文章或所选片段逐句跟打",
+      "提示字母错误，保存跟打草稿与进度",
       "适合精读、跟读和生词理解",
       "用户粘贴的学习文本默认不上传",
     ],
-    fallbackTitle: "WordTap.cn 英语阅读点读查词工具",
-    fallbackDescription: "粘贴英文文章，点击单词听发音、看中文释义，并在原文上下文里积累生词。",
+    fallbackTitle: "WordTap.cn 开源英语阅读与文章跟打工具",
+    fallbackDescription: "粘贴自己的英文，在原句旁查中文释义、听发音，再逐句跟打练习。无需注册，学习记录保存在当前浏览器。",
   },
   controls: {
     rateOptionLabels: {
