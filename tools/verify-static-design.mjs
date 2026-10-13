@@ -3,7 +3,8 @@ import { readFile, readdir } from "node:fs/promises";
 import { resolve } from "node:path";
 
 const tokens = (await readFile(new URL("../src/design-tokens.css", import.meta.url), "utf8")).trim();
-const sections = ["nce", "shuimu", "postgraduate", "pep-english", "college-english", "cet", "kaoyan-english", "english-vocabulary", "exam", "install"];
+// Vocabulary has only a redirect to the Vue workspace, not static reading pages.
+const sections = ["nce", "shuimu", "postgraduate", "pep-english", "college-english", "cet", "kaoyan-english", "exam", "install"];
 let count = 0;
 async function verify(directory) {
   for (const entry of await readdir(directory, { withFileTypes: true })) {

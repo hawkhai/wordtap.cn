@@ -62,7 +62,7 @@ import {
 import { loadNceLesson, loadNceManifest } from "../data/nceLessons";
 import { loadShuimuLesson, loadShuimuManifest } from "../data/shuimuLessons";
 import { loadPostgraduateLesson, loadPostgraduateManifest } from "../data/postgraduateLessons";
-import { loadEnglishVocabularyLesson, loadEnglishVocabularyManifest, vocabularySelection } from "../data/englishVocabularyLessons";
+import { loadEnglishVocabularyLesson, loadEnglishVocabularyManifest, resolveEnglishVocabularyLesson, vocabularySelection } from "../data/englishVocabularyLessons";
 import { loadPepEnglishLesson, loadPepEnglishManifest } from "../data/pepEnglishLessons";
 import { loadCollegeEnglishLesson, loadCollegeEnglishManifest } from "../data/collegeEnglishLessons";
 import { loadCetLesson, loadCetManifest } from "../data/cetLessons";
@@ -1038,8 +1038,9 @@ async function lessonSelectionFromShortUrl(
 ): Promise<Omit<CourseLessonSelection, "text"> | null> {
   if (shortLesson.course === "english-vocabulary") {
     const manifest = await loadEnglishVocabularyManifest();
+    const resolved = resolveEnglishVocabularyLesson(manifest.groups, shortLesson.id);
     for (const group of manifest.groups) {
-      const lesson = group.lessons.find(item => item.id === shortLesson.id);
+      const lesson = group.lessons.find(item => item.id === resolved?.id);
       if (lesson) return { course: "english-vocabulary", id: lesson.id, path: lesson.jsonPath,
         title: `${group.title} · 第 ${lesson.unitNo} 单元 · ${lesson.title}` };
     }

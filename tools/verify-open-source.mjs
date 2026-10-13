@@ -8,10 +8,12 @@ function invariant(condition, message) {
 }
 
 const root = process.cwd();
+// Intentionally removed files remain in Git's index until the change is staged.
+const deleted = new Set(execFileSync("git", ["ls-files", "--deleted", "-z"], { cwd: root, encoding: "utf8" }).split("\0"));
 const tracked = execFileSync("git", ["ls-files", "--cached", "--others", "--exclude-standard", "-z"], {
   cwd: root,
   encoding: "utf8",
-}).split("\0").filter(Boolean);
+}).split("\0").filter(file => file && !deleted.has(file));
 const trackedSet = new Set(tracked);
 
 for (const required of [

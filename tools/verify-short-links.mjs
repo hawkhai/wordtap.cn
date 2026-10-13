@@ -15,7 +15,7 @@ function invariant(condition, message) {
 
 const root = process.cwd();
 const courseSpecs = [
-  { id: "english-vocabulary", collections: "groups" },
+  { id: "english-vocabulary", collections: "groups", staticPages: false },
   { id: "pep-english", collections: "groups" },
   { id: "nce", collections: "books" },
   { id: "shuimu", collections: "levels" },
@@ -29,6 +29,7 @@ const prefixes = protocolEntries.map(([, protocol]) => protocol.prefix);
 const shortCodeOwners = new Map();
 const lessonPathOwners = new Map();
 let lessonCount = 0;
+let pageCount = 0;
 const appStyles = await readFile(path.join(root, "src", "style.css"), "utf8");
 const serviceWorkerPath = path.join(root, "public", "sw.js");
 const serviceWorker = await readFile(serviceWorkerPath, "utf8");
@@ -197,6 +198,9 @@ for (const spec of courseSpecs) {
       invariant(detail.jsonPath === lesson.jsonPath, `${owner}: detail path ${detail.jsonPath} does not match its manifest path`);
     }
 
+    lessonCount += 1;
+    if (spec.staticPages === false) continue;
+
     const expectedHref = lessonToolHref(spec.id, lesson.id);
     const pagePath = path.join(root, "dist", spec.id, lesson.id, "index.html");
     const html = await readFile(pagePath, "utf8");
@@ -219,11 +223,27 @@ for (const spec of courseSpecs) {
         && html.includes("line-height: var(--wordtap-reading-line-height);"),
       `${spec.id}/${lesson.id}: generated reading content does not consume the shared typography tokens`,
     );
-    lessonCount += 1;
+    pageCount += 1;
   }
 }
 
 const distTextFiles = await sourceFilesUnder(path.join(root, "dist"));
+const vocabularyHtml = distTextFiles
+  .map(file => path.relative(path.join(root, "dist"), file).split(path.sep).join("/"))
+  .filter(file => file.startsWith("english-vocabulary/") && file.endsWith(".html"));
+invariant(
+  vocabularyHtml.length === 1 && vocabularyHtml[0] === "english-vocabulary/index.html",
+  "Vocabulary must ship only its workspace redirect, without book or unit HTML pages",
+);
+const vocabularyManifest = JSON.parse(await readFile(path.join(root, "public/english-vocabulary/manifest.json"), "utf8"));
+const vocabularyHref = lessonToolHref("english-vocabulary", vocabularyManifest.groups[0].lessons[0].id, 1);
+const vocabularyEntry = await readFile(path.join(root, "dist/english-vocabulary/index.html"), "utf8");
+invariant(
+  vocabularyEntry.includes(`content="0;url=${vocabularyHref}"`) && vocabularyEntry.includes(`href="${vocabularyHref}"`),
+  "Vocabulary entry must redirect and link to its first lesson in the workspace",
+);
+const sitemap = await readFile(path.join(root, "dist/sitemap.xml"), "utf8");
+invariant(!/<loc>[^<]*\/english-vocabulary\//.test(sitemap), "Vocabulary pages must not be included in the sitemap");
 
 for (const distPath of distTextFiles) {
   const text = await readFile(distPath, "utf8");
@@ -232,4 +252,4 @@ for (const distPath of distTextFiles) {
   }
 }
 
-console.log(`Verified ${lessonCount} lesson pages and scanned ${distTextFiles.length} dist text files with one compact-code and reading-typography protocol.`);
+console.log(`Verified ${lessonCount} lesson short links, ${pageCount} static lesson pages and the vocabulary workspace redirect; scanned ${distTextFiles.length} dist text files.`);

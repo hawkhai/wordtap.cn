@@ -10,7 +10,7 @@ async function renderer(section) {
 export async function generateStaticSite(dataRoot = path.resolve('dist')) {
   const context = { dataRoot, ...fs, wants: () => true, writeSitemap: true, log: console.log };
   // NCE creates the sitemap; subsequent renderers append their own entries.
-  for (const section of staticSections) await (await renderer(section))(context);
+  for (const section of staticSections.filter(section => section !== 'english-vocabulary')) await (await renderer(section))(context);
 }
 
 // Read current published files for each request. Never read or write build output.
@@ -22,6 +22,10 @@ export async function renderStaticPage(pathname, dataRoot = path.resolve('public
   if (parts.some(part => part === '.' || part === '..' || part.includes('\\'))) return null;
   if (parts.at(-1) === 'index.html') parts.pop();
   if (parts.some(part => part.includes('.'))) return undefined;
+  // Vocabulary uses the workspace; public/ contains its single no-script redirect.
+  if (parts[0] === 'english-vocabulary') {
+    return parts.length === 1 ? fs.readFile(path.join(dataRoot, 'english-vocabulary/index.html'), 'utf8') : null;
+  }
   const requested = parts.join('/') + '/index.html';
   let html = null;
   const context = {

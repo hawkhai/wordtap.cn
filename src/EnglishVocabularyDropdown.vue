@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { computed, nextTick, onBeforeUnmount, ref, watch } from "vue";
 import { useCourseMenuProgress } from "./shared/composables/useCourseMenuProgress";
-import { loadEnglishVocabularyManifest, loadEnglishVocabularyIndex, loadEnglishVocabularyLesson, vocabularySelection,
+import { loadEnglishVocabularyManifest, loadEnglishVocabularyIndex, loadEnglishVocabularyLesson, resolveEnglishVocabularyLesson, vocabularySelection,
   type EnglishVocabularyGroup, type EnglishVocabularyIndex, type EnglishVocabularyLessonSummary } from "./shared/data/englishVocabularyLessons";
 import type { CourseLessonSelection } from "./shared/types/app";
 
@@ -57,6 +57,8 @@ async function loadMenu(): Promise<void> {
     if (disposed) return;
     groups.value = manifest.groups;
     syncGroups(manifest.groups.map(group => group.id));
+    const selected = resolveEnglishVocabularyLesson(manifest.groups, selectedLessonId.value);
+    if (selected && selected.id !== selectedLessonId.value) rememberLesson(selected.groupId, selected.id);
     if (!manifest.groups.length) error.value = "词库目录暂无内容，请重试。";
   } catch {
     if (!disposed) error.value = "词库目录暂时无法加载，请重试。";

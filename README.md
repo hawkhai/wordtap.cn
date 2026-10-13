@@ -65,7 +65,7 @@ WordTap is an open-source English learning web app for Chinese-speaking learners
 | 人教版英语 | 12/17 册、313 篇 | [人教版英语点读](https://wordtap.cn/pep-english/) |
 | 英语四六级真题 | 97 套 | [CET-4 / CET-6 阅读](https://wordtap.cn/cet/) |
 | 考研英语真题 | 64 套 | [考研英语阅读](https://wordtap.cn/kaoyan-english/) |
-| 英语词汇 | 23 套词库、5,860 个学习单元 | [仓库内词库与例句数据](public/english-vocabulary/) |
+| 英语词汇 | 23 套词库、1,181 篇文章，每篇最多 100 词 | [仓库内词库与例句数据](public/english-vocabulary/) |
 
 词库覆盖 CET-4、CET-6、考研、IELTS、TOEFL、GRE、GMAT、SAT、专四、专八及中小学英语等，共 116,953 条源记录；该数字不是去重后的单词数。词汇单元支持搜索、阅读、例句跟打与分享。
 
@@ -262,7 +262,7 @@ http://127.0.0.1:18765
 
 开源版保留全部已发布 Web 学习功能；Gateway 与安装器独立交付，原始内容重建和历史审核由完整版负责。功能对照与验收见 [开源版对齐记录](OPEN_SOURCE_ALIGNMENT.md)。
 
-原七套课程共 1,054 份，另有 5,860 个词汇单元。120 篇文章仍待来源确认，16 处词汇源数据问题原样保留；当前发布检查不代表历史审核完成。对应标识、来源与哈希见 [发布说明](content/release/README.md)。
+原七套课程共 1,054 份，另有 1,181 篇词汇文章。词汇按每篇最多 100 词组合，最后不足 100 词的独立成篇，保留所有原始释义、音标和例句；运行 JSON 共 1,205 个。词汇不再生成静态目录和单元内容页、也不收录到 sitemap，`/english-vocabulary/` 仅保留进入学习工具的跳转入口。旧分享链接定位到包含原单元的新文章，已保存的旧 20 词文章及跟打草稿兼容恢复。120 篇文章仍待来源确认，16 处词汇源数据问题原样保留；当前发布检查不代表历史审核完成。对应标识、来源与哈希见 [发布说明](content/release/README.md)。
 
 修改课程直接更新发布 JSON、manifest 和索引，按 [课程接入协议](COURSE_INTEGRATION_PROTOCOL.md) 检查和更新发布哈希，无需搭建审核系统。
 

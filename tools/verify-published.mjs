@@ -21,6 +21,8 @@ function files(directory, prefix = '') {
 
 assert.match(courses.sourceCommit, /^[a-f\d]{40}$/);
 assert.match(vocabulary.commit, /^[a-f\d]{40}$/);
+assert.equal(vocabulary.wordsPerArticle, 100);
+assert.equal(vocabulary.totalArticles, 1181);
 assert.equal(pending.sourceCommit, courses.sourceCommit);
 assert.equal(issues.commit, vocabulary.commit);
 assert.equal(pending.articles.length, courses.pending);
@@ -29,7 +31,7 @@ const actualVocabulary = {};
 const publishedPaths = new Set();
 const pendingPaths = new Set();
 let totalLessons = 0;
-for (const [course, expectedCount] of [...Object.entries(courses.courses), ['english-vocabulary', 5860]]) {
+for (const [course, expectedCount] of [...Object.entries(courses.courses), ['english-vocabulary', vocabulary.totalArticles]]) {
   const directory = `public/${course}/`;
   const manifest = read(directory + 'manifest.json');
   assert.equal(manifest.schemaVersion, course === 'college-english' ? 2 : 1, `${course}: manifest schema`);
@@ -51,7 +53,7 @@ for (const [course, expectedCount] of [...Object.entries(courses.courses), ['eng
     }
     for (const [number, lesson] of group.lessons.entries()) {
       const file = 'public/' + lesson.jsonPath;
-      assert.ok(lesson.jsonPath.startsWith(course + '/lessons/'), `${course}: invalid detail path`);
+      assert.ok(lesson.jsonPath.startsWith(course + (course === 'english-vocabulary' ? '/articles/' : '/lessons/')), `${course}: invalid detail path`);
       assert.ok(!lesson.jsonPath.split('/').some(segment => segment === '..' || segment === '.'), 'Unsafe detail path');
       assert.ok(!identities.has(lesson.id) && !publishedPaths.has(file), `Duplicate lesson: ${file}`);
       identities.add(lesson.id); publishedPaths.add(file); lessonPaths.push(file);
@@ -69,8 +71,11 @@ for (const [course, expectedCount] of [...Object.entries(courses.courses), ['eng
         assert.equal(detail.wordCount, lesson.wordCount);
         assert.equal(detail.unitNo, number + 1);
         assert.equal(detail.source.commit, vocabulary.commit);
-        assert.equal(detail.source.lineStart, number * 20 + 1);
-        assert.equal(detail.source.lineEnd, number * 20 + detail.wordCount);
+        assert.equal(detail.wordCount, Math.min(100, group.wordCount - number * 100));
+        assert.equal(detail.id, `${group.id}-${String(number * 5 + 1).padStart(3, '0')}`);
+        assert.ok(detail.text.length <= 120000, `${file}: exceeds saved text limit`);
+        assert.equal(detail.source.lineStart, number * 100 + 1);
+        assert.equal(detail.source.lineEnd, number * 100 + detail.wordCount);
         assert.deepEqual(index.lessons[number], { id: detail.id, words: detail.entries.map(entry => entry.word) });
         assert.equal(detail.typingText, detail.entries.flatMap(entry => {
           const sentences = (entry.sentences ?? []).filter(item => /[A-Za-z]/.test(item.sentence)).map(item => item.sentence);
@@ -82,20 +87,24 @@ for (const [course, expectedCount] of [...Object.entries(courses.courses), ['eng
     }
     if (course === 'english-vocabulary') {
       assert.equal(groupWords, group.wordCount);
-      assert.equal(group.lessonCount, Math.ceil(groupWords / 20));
+      assert.equal(group.lessonCount, Math.ceil(groupWords / 100));
       wordCount += groupWords;
     }
   }
   assert.equal(count, expectedCount, `${course}: published count`);
   assert.equal(count, manifest.totalLessons, `${course}: manifest total`);
   const courseFiles = files(path.join(root, directory));
-  assert.deepEqual(courseFiles.filter(file => file.startsWith('lessons/')).map(file => directory + file), lessonPaths.sort(), `${course}: stale or missing details`);
+  assert.deepEqual(courseFiles.filter(file => /^(?:lessons|articles)\//.test(file)).map(file => directory + file), lessonPaths.sort(), `${course}: stale or missing details`);
   for (const relative of courseFiles) {
     const hash = createHash('sha256').update(readFileSync(path.join(root, directory, relative))).digest('hex');
     if (course === 'english-vocabulary') actualVocabulary[relative] = hash;
     else actualCourses[directory + relative] = hash;
   }
   if (course === 'english-vocabulary') {
+    assert.equal(manifest.wordsPerArticle, vocabulary.wordsPerArticle);
+    assert.equal(manifest.generatorVersion, '2');
+    assert.equal(courseFiles.filter(file => file.endsWith('.json')).length, 1205);
+    assert.deepEqual(courseFiles.filter(file => file.endsWith('.html')), ['index.html']);
     assert.equal(collections.length, 23);
     assert.equal(wordCount, 116953);
     assert.equal(wordCount, manifest.totalWords);
@@ -124,4 +133,4 @@ if (updateHashes) {
     for (const [file, hash] of Object.entries(actual)) assert.equal(hash, expected[file], `Published bytes differ: ${file}`);
   }
 }
-console.log(`Verified ${totalLessons} course lessons; 23 vocabularies, 116953 words, 5860 units. ${pending.articles.length} articles await source confirmation; ${issues.issues.length} vocabulary source issues remain. This is a publication check, not historical review.`);
+console.log(`Verified ${totalLessons} course lessons; 23 vocabularies, 116953 words, ${vocabulary.totalArticles} articles of up to ${vocabulary.wordsPerArticle} words. ${pending.articles.length} articles await source confirmation; ${issues.issues.length} vocabulary source issues remain. This is a publication check, not historical review.`);

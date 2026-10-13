@@ -93,6 +93,15 @@ test("offline reading retains cached lessons", async () => {
   assert.equal(w.writes.length, 0);
 });
 
+test("100-word vocabulary articles revalidate online and remain readable offline", async () => {
+  const path = 'english-vocabulary/articles/evjunior/006.json';
+  const online = worker();
+  assert.equal(await (await online.fetch(path)).text(), 'new');
+  assert.equal(online.requests[0].cache, 'no-cache');
+  const offline = worker({ offline: true });
+  assert.equal(await (await offline.fetch(path)).text(), 'old');
+});
+
 test("missing offline content is not fabricated", async () => {
   const w = worker({ cached: null, offline: true });
   assert.equal(await w.fetch("nce/lessons/nce1/001.json"), undefined);

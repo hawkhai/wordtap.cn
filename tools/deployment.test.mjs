@@ -38,13 +38,16 @@ test('occupied dev port uses the actual port, subdirectory deep routes render an
     assert.notEqual(actual, port);
     assert.equal(server.config.server.hmr, undefined);
     const base = `http://127.0.0.1:${actual}/learn`;
-    for (const route of ['/nce/nce1-001/', '/english-vocabulary/books/evjunior/', '/exam/', '/install/windows/']) {
+    for (const route of ['/nce/nce1-001/', '/english-vocabulary/', '/exam/', '/install/windows/']) {
       const response = await fetch(base + route);
       assert.equal(response.status, 200, route);
       assert.equal(await response.text(), await renderStaticPage(route));
     }
     assert.equal((await fetch(base + '/nce/not-found/')).status, 404);
     assert.equal((await fetch(base + '/english-vocabulary/books/not-found/')).status, 404);
+    assert.equal((await fetch(base + '/english-vocabulary/books/evjunior/')).status, 404);
+    assert.equal((await fetch(base + '/english-vocabulary/evjunior-001/')).status, 404);
+    assert.equal((await fetch(base + '/english-vocabulary/articles/evjunior/001.json')).status, 200);
     const redirect = await fetch(base + '/nce/nce1-001?from=test', { redirect: 'manual' });
     assert.equal(redirect.status, 302);
     assert.equal(redirect.headers.get('location'), '/learn/nce/nce1-001/?from=test');
@@ -73,9 +76,9 @@ test('external downloads and metadata do not probe CORS; optional missing metada
   }
 });
 
-test('every dev directory renders from published data, including vocabulary books, exams and guides', async () => {
+test('dev directories render current data and vocabulary has only its workspace redirect', async () => {
   for (const section of staticSections.filter(section => section !== 'install')) assert.match(await renderStaticPage(`/${section}/`), /<!doctype html>/i);
-  for (const section of staticSections.filter(section => !['exam', 'install'].includes(section))) {
+  for (const section of staticSections.filter(section => !['exam', 'install', 'english-vocabulary'].includes(section))) {
     const manifest = JSON.parse(readFileSync(new URL(`../public/${section}/manifest.json`, import.meta.url), 'utf8'));
     const lesson = (manifest.groups ?? manifest.books ?? manifest.levels ?? manifest.volumes)[0].lessons[0];
     const html = await renderStaticPage(`/${section}/${lesson.id}/`);
@@ -83,7 +86,11 @@ test('every dev directory renders from published data, including vocabulary book
     assert.match(html, /在 WordTap 中学习/);
     assert.equal(await renderStaticPage(`/${section}/unknown-identity/`), null);
   }
-  assert.match(await renderStaticPage('/english-vocabulary/books/evjunior/'), /初中词汇/);
+  const entry = await renderStaticPage('/english-vocabulary/');
+  assert.match(entry, /content="0;url=\.\.\/\?l=ev:junior-001#study"/);
+  assert.equal(await renderStaticPage('/english-vocabulary/index.html'), entry);
+  assert.equal(await renderStaticPage('/english-vocabulary/books/evjunior/'), null);
+  assert.equal(await renderStaticPage('/english-vocabulary/evjunior-001/'), null);
   assert.equal(await renderStaticPage('/english-vocabulary/books/unknown/'), null);
   for (const id of ['gateway', 'windows']) {
     // Installer IDs follow the existing published guide identity.

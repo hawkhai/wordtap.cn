@@ -1,4 +1,4 @@
-const CACHE_NAME = "wordtap-v7";
+const CACHE_NAME = "wordtap-v8";
 const PRECACHE = [
   "./",
   "./manifest.json",
@@ -41,7 +41,7 @@ self.addEventListener("fetch", (event) => {
 
   // Course JSON keeps stable URLs across content corrections. Revalidate both
   // catalogs and lessons; retain cached copies for offline reading.
-  const isCourseData = /\/(?:pep-english|nce|shuimu|postgraduate|college-english|cet|kaoyan-english|english-vocabulary)\/(?:manifest\.json|(?:lessons|indexes)\/.+\.json)$/.test(url.pathname);
+  const isCourseData = /\/(?:pep-english|nce|shuimu|postgraduate|college-english|cet|kaoyan-english|english-vocabulary)\/(?:manifest\.json|(?:lessons|articles|indexes)\/.+\.json)$/.test(url.pathname);
   if (isCourseData) {
     event.respondWith(
       fetchAndCache(event.request, { cache: "no-cache" })

@@ -31,5 +31,5 @@ async function visit(directory) {
   }
 }
 await visit(root);
-assert.ok(pages >= 6914, 'Lesson pages are missing');
+assert.ok(pages >= 1067, 'Course pages or the vocabulary redirect are missing');
 console.log(`Verified local navigation and resources across ${pages} HTML pages (${checked.size} targets).`);

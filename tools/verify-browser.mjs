@@ -129,7 +129,10 @@ try {
  await page.locator('input[type="file"]').setInputFiles({name:'backup.json',mimeType:'application/json',buffer:Buffer.from(JSON.stringify(backup))});
  await page.locator('.exam-data-feedback').filter({hasText:'导入'}).waitFor();
  console.log('PASS dictionary click, exam words/progress/review, current-edit export and UI backup import');
- const routes = ['/nce/', '/nce/nce1-001/', '/english-vocabulary/', '/english-vocabulary/books/evjunior/', '/english-vocabulary/evjunior-001/', '/exam/', '/install/gateway/', '/install/windows/'];
+ await page.goto(base+'/?l=ev:pep3-007#study');
+ await page.getByText('已载入：人教小学三年级 · 第 2 单元 · children — beautiful',{exact:true}).waitFor();
+ console.log('PASS legacy vocabulary short code resolves to its 100-word article');
+ const routes = ['/nce/', '/nce/nce1-001/', '/english-vocabulary/', '/exam/', '/install/gateway/', '/install/windows/'];
  for (const width of [1440,390,360]) {
   await page.setViewportSize({width,height:900});
   for (const route of routes) {
@@ -143,6 +146,9 @@ try {
   }
  }
  if((await page.goto(base+'/english-vocabulary/books/not-found/')).status()!==404) throw new Error('Unknown book was not a 404');
+ for(const route of ['/english-vocabulary/books/evjunior/','/english-vocabulary/evjunior-001/']) {
+  if((await page.goto(base+route)).status()!==404) throw new Error('Removed vocabulary page still renders: '+route);
+ }
  if((await page.goto(base+'/nce/not-found/')).status()!==404) throw new Error('Unknown lesson was not a 404');
  console.log('PASS current-data deep routes, official installer links and static layouts');
  await page.goto(base+'/');
@@ -160,7 +166,8 @@ try {
  await cachePage.evaluate(async()=> {await navigator.serviceWorker.register('/sw.js');await navigator.serviceWorker.ready;});
  await cachePage.waitForFunction(()=>Boolean(navigator.serviceWorker.controller));
  const cachedPath='/nce/lessons/nce1/001.json';
- await cachePage.evaluate(async file=> {const cache=await caches.open('wordtap-v7');await cache.put(file,new Response(JSON.stringify({text:'old cached lesson'}),{headers:{'Content-Type':'application/json'}}));},cachedPath);
+ const cacheName = /CACHE_NAME\s*=\s*"([^"]+)"/.exec(fs.readFileSync('public/sw.js','utf8'))[1];
+ await cachePage.evaluate(async ({file,name})=> {const cache=await caches.open(name);await cache.put(file,new Response(JSON.stringify({text:'old cached lesson'}),{headers:{'Content-Type':'application/json'}}));},{file:cachedPath,name:cacheName});
  const fresh=await cachePage.evaluate(async file=>(await fetch(file)).text(),cachedPath);
  if(JSON.parse(fresh).text==='old cached lesson')throw new Error('Online course cache remained stale');
  await cachePage.waitForFunction(async file=>(await (await caches.match(file)).text())!=='{"text":"old cached lesson"}',cachedPath);
