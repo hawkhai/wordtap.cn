@@ -1,0 +1,61 @@
+name: 问题反馈
+description: 报告点读、查词、朗读、跟打、数据保存或开发运行问题。
+title: "[问题] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢帮助改进 WordTap。请使用最小示例，不要公开凭据、个人学习备份或漏洞利用细节；安全问题请私下联系维护者。
+  - type: dropdown
+    id: edition
+    attributes:
+      label: 使用的版本
+      options:
+        - 个人版
+        - 开源版
+        - 不确定
+      default: 1
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: 运行环境
+      description: 填写操作系统、浏览器及版本；本地运行时补充 Node、Python 或 Gateway 版本。
+    validations:
+      required: true
+  - type: input
+    id: location
+    attributes:
+      label: 页面或版本信息
+      description: 填写页面地址、课程位置或提交哈希；不要填写含访问令牌的地址。
+    validations:
+      required: false
+  - type: textarea
+    id: steps
+    attributes:
+      label: 复现步骤
+      description: 使用最短的操作步骤和可公开的英文示例说明怎样遇到问题。
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: 预期行为
+      description: 你希望看到或听到什么？
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: 实际行为
+      description: 实际发生了什么，是否每次出现？朗读问题可补充所选声音和 Gateway 是否启用。
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: 日志或截图（选填）
+      description: 只附与问题相关的片段，先移除个人数据；可直接拖入截图。
+    validations:
+      required: false

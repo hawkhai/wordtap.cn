@@ -2,7 +2,7 @@
 
 ## 版本称呼
 
-个人版对应 `wordtap_web` 仓库，开源版对应 [`wordtap.cn`](https://github.com/hawkhai/wordtap.cn) 仓库与 [wordtap.cn](https://wordtap.cn/) 学习入口。两个版本均使用“英语点读为学习而生”的产品定位；说明功能差异时明确写“个人版”或“开源版”。
+个人版对应 `hawkhai/english_word_study_web` 仓库（本地目录名为 `wordtap_web`），开源版对应 [`wordtap.cn`](https://github.com/hawkhai/wordtap.cn) 仓库与 [wordtap.cn](https://wordtap.cn/) 学习入口。两个版本均使用“英语点读为学习而生”的产品定位；说明功能差异时明确写“个人版”或“开源版”。
 
 ## 产品定位
 

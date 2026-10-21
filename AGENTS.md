@@ -1,6 +1,6 @@
 # WordTap Web 迭代指引
 
-本仓库为 WordTap 开源版。版本称呼统一使用“个人版”和“开源版”：`wordtap_web` 为个人版，`wordtap.cn` 为开源版。文档、代码注释和界面中的版本指代遵守此约定；教材原名、路径和技术标识保留原意。
+本仓库为 WordTap 开源版。版本称呼统一使用“个人版”和“开源版”：个人版 GitHub 仓库为 `hawkhai/english_word_study_web`（本地目录名 `wordtap_web`），开源版 GitHub 仓库为 `hawkhai/wordtap.cn`。文档、代码注释和界面中的版本指代遵守此约定；教材原名、路径和技术标识保留原意。
 
 前端功能迭代和界面修改先读取 `STYLE_GUIDE.md` 与 `CF_DESIGN_NOTES.md`，沿用 cf-design / Arco Design 的现有风格。
 

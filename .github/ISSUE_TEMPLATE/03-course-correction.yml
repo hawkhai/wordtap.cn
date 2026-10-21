@@ -1,0 +1,47 @@
+name: 课程勘误
+description: 报告课文、词汇、音标或答案中可能存在的内容问题。
+title: "[勘误] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢帮助改进 WordTap。请使用最小示例，不要公开凭据、个人学习备份或漏洞利用细节；安全问题请私下联系维护者。
+  - type: dropdown
+    id: edition
+    attributes:
+      label: 使用的版本
+      options:
+        - 个人版
+        - 开源版
+        - 不确定
+      default: 1
+    validations:
+      required: true
+  - type: input
+    id: course
+    attributes:
+      label: 课程与课文位置
+      description: 填写教材、册／单元／课文编号、段落或页面地址。
+    validations:
+      required: true
+  - type: textarea
+    id: original
+    attributes:
+      label: 原文
+      description: 粘贴定位问题所需的最短原文，不上传整本教材。
+    validations:
+      required: true
+  - type: textarea
+    id: correction
+    attributes:
+      label: 建议修正或待核对的问题
+      description: 说明建议怎样修改；尚无定论时写清疑问即可。
+    validations:
+      required: true
+  - type: textarea
+    id: source
+    attributes:
+      label: 依据
+      description: 提供来源链接、版本页码或对照说明；若暂无依据，请明确写“待核实”，不将推测当作已确认结论。
+    validations:
+      required: true

@@ -1,0 +1,47 @@
+name: 功能建议
+description: 提出英语学习场景、体验改进或开发维护建议。
+title: "[建议] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢帮助改进 WordTap。请使用最小示例，不要公开凭据、个人学习备份或漏洞利用细节；安全问题请私下联系维护者。
+  - type: dropdown
+    id: edition
+    attributes:
+      label: 使用的版本
+      options:
+        - 个人版
+        - 开源版
+        - 不确定
+      default: 1
+    validations:
+      required: true
+  - type: textarea
+    id: scenario
+    attributes:
+      label: 使用场景
+      description: 你在学习什么、怎样使用 WordTap，或在进行哪项开发维护？
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: 当前不足
+      description: 目前哪个环节影响了学习或维护？
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: 期望能力
+      description: 描述希望达到的行为及怎样判断有所改善。
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: 替代方案（选填）
+      description: 是否有现有功能、操作方法或其他方案可以解决？
+    validations:
+      required: false

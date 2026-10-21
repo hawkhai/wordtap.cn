@@ -1,110 +1,60 @@
 # WordTap — 英语点读为学习而生
 
-**点词查义 · 听读发音 · 文章跟打**
+**开源版 · 点词查义 · 听读发音 · 文章跟打**
 
-本仓库为 WordTap **开源版**。两个主站版本统一称为：**个人版**（`wordtap_web`）和 **开源版**（[`wordtap.cn`](https://github.com/hawkhai/wordtap.cn)）。
+WordTap 是一款以英语点读为核心的开源英语学习工具。选择课文、词库或自己的英文材料，点击单词查释义、看音标、听发音，再用同一份材料积累词汇并练习文章跟打。
 
-[![在线学习](https://img.shields.io/badge/开始学习-wordtap.cn-165DFF)](https://wordtap.cn/)
+Open-source English learning with tap-to-read dictionary lookup, pronunciation, vocabulary learning and article typing practice. The interface and dictionary definitions are primarily in Chinese.
+
+**[开始学习（开源版）](https://wordtap.cn/)** · [学习教程](docs/english-learning-guide.md) · [本地运行](#本地运行) · [反馈问题](https://github.com/hawkhai/wordtap.cn/issues/new/choose)
+
+[![Verify](https://github.com/hawkhai/wordtap.cn/actions/workflows/verify.yml/badge.svg)](https://github.com/hawkhai/wordtap.cn/actions/workflows/verify.yml)
 [![Code License: Apache-2.0](https://img.shields.io/badge/Code%20License-Apache--2.0-blue.svg)](LICENSE)
 
-WordTap 是一款以英语点读为核心的开源英语学习工具。点击英文单词即可查看释义、音标并听发音，结合课文阅读、词汇积累和文章跟打，让理解、听读与拼写练习围绕同一份学习材料展开。 可以选择内置课程，也可以使用自己的英文材料。无需注册，学习记录保存在当前浏览器。
+<a href="public/media/english-learning/02-lookup.jpg"><img src="public/media/english-learning/02-lookup.jpg" alt="WordTap 点读学习：点击 learn 后，原文旁的中文释义和音标同时可见" width="912" style="max-width:100%;height:auto;"></a>
 
-WordTap is an open-source English learning tool with tap-to-read dictionary lookup, pronunciation, vocabulary learning, and article typing practice.
+*在原句中点查 `learn`，结合释义、音标与听读理解内容，再练习跟打。截图来自 2026-10-21 本地构建预览，入口可能随版本更新。*
 
-**[开始学习](https://wordtap.cn/)** · [快速上手](#快速上手) · [英语学习入门教程](docs/english-learning-guide.md) · [本地运行](#开发命令) · [English overview](#english-overview) · [反馈问题](https://github.com/hawkhai/wordtap.cn/issues)
+## 核心功能
 
-<a href="https://wordtap.cn/"><img src="public/media/english-learning/02-lookup.jpg" alt="WordTap 英语学习示例：点击 learn，查看原文旁的中文释义和音标" width="912" style="width: 912px; max-width: 100%; height: auto;"></a>
+| 学习任务 | 可以做什么 |
+| --- | --- |
+| 点读理解 | 点击原文单词查中文释义、看音标、听发音；按需显示正文音标 |
+| 听读练习 | 单词、句子与全文朗读，支持语速、遍数及全文暂停／继续 |
+| 积累词汇 | 查看查词记录；从词库、课文和例句学习单词 |
+| 拼写与输入 | 文章或选区跟打，查看字母纠错提示，确认每句后继续 |
+| 保存与续学 | 在当前浏览器保存文章、菜单位置和跟打草稿，下次接着练 |
+| 使用学习材料 | 选择内置课程、词库，或输入、粘贴自己的英文材料 |
 
-*点击 `learn` 查义、看音标并听发音，回到句子理解内容，再用同一份材料跟打练习。截图来自 2026-10-21 本地构建预览，入口可能随版本更新。*
+## 适合怎样的学习
 
-[查看点读截图原图](public/media/english-learning/02-lookup.jpg) · [跟着五张操作图完成第一次学习](docs/english-learning-guide.md)
+适合英语自学者、学生、四六级／考研备考者，以及准备材料或陪伴学习的教师、家长。主要界面和查词释义为中文，可以围绕同一份材料完成理解、听读和拼写练习。
+
+已有新概念、水木、研究生、大学、人教版英语及四六级／考研材料；另有 23 套词库、1,181 篇词汇文章，每篇最多 100 词。材料来源、缺失内容和许可说明见开发文档中的课程资料入口。
+
+## 在线使用
+
+1. 打开 [wordtap.cn](https://wordtap.cn/)，无需注册。
+2. 选择课文或词库，或者输入、粘贴自己的英文材料。
+3. 点击生词查义、看音标并听发音，用句末按钮听整句。
+4. 进入文章跟打练习拼写；查看“我的单词”，下次在同一浏览器、同一站点继续学习。
+
+[跟着五张操作图完成第一次学习](docs/english-learning-guide.md)。基础点读、ECDICT 查词和跟打无需安装 Gateway；浏览器语音可用情况取决于设备与浏览器。
 
 <details>
 <summary>看 20 秒学习步骤：点读查词 → 听读入口 → 跟打纠错 → 完成练习</summary>
 
-<a href="public/media/english-learning/wordtap-20s.gif"><img src="public/media/english-learning/wordtap-20s.gif" alt="WordTap 英语学习五步演示：使用自己的材料、点词查义、修正 everx、确认并完成跟打" width="1000" style="width: 1000px; max-width: 100%; height: auto;"></a>
+<a href="public/media/english-learning/wordtap-20s.gif"><img src="public/media/english-learning/wordtap-20s.gif" alt="WordTap 英语学习五步演示：使用自己的材料、点击 learn 查义、修正 everx 并完成跟打" width="1000" style="max-width:100%;height:auto;"></a>
 
-动图由五张真实操作截图组成，使用同一段原创学习示例，无音轨；展示操作步骤，不代表打字速度、实际声音或学习效果。
+动图由五张真实操作截图组成，无音轨；完整步骤与原创例句见[英语学习入门教程](docs/english-learning-guide.md)。
 
 </details>
 
-## 快速上手
+<a id="开发命令"></a>
 
-1. 打开 **[wordtap.cn](https://wordtap.cn/)**，无需注册。
-2. 从课程菜单选择课文或词库，或者输入、粘贴自己的英文材料。
-3. 点击生词查中文释义、看音标、听发音，也可以使用句末按钮听整句。
-4. 读懂后进入文章跟打，逐句练习拼写；在“我的单词”查看查过的词，下次继续文章和练习进度。
+## 本地运行
 
-基础点读、ECDICT 查词和文章跟打无需安装 Gateway。浏览器语音可用于发音；可选 Windows Gateway 提供更高质量的全文朗读及部分在线查词能力，见[安装说明](https://wordtap.cn/install/gateway/)。
-
-### 从两句英文开始学习
-
-```text
-I learn a little English every day.
-New words help me understand the world.
-```
-
-先理解句意，点查影响理解的词，再听句子，最后跟打一遍。[英语学习入门教程](docs/english-learning-guide.md)展示完整步骤，也介绍怎样选择课程、积累词汇和恢复练习进度。
-
-跟打按英文字母校验，忽略大小写、空格和标点；完成表示本次输入练习结束，不等于已经掌握句意或发音。
-
-## 用同一篇文章练阅读、听读和输入
-
-| 想做什么 | WordTap 能帮你做什么 |
-| --- | --- |
-| 精读英文，少切换查词窗口 | 在原句中点词查中文释义，听单词发音，按需显示音标 |
-| 听懂句子，再练跟读 | 单词、逐句与全文朗读，支持语速、遍数及全文暂停／继续 |
-| 练习英文输入和拼写 | 全文或选区跟打、输入错误提示、自动读句／读词、草稿与进度恢复 |
-| 留下自己的学习记录 | 自动记录查词次数与时间，保存文章；考试页记录进度、生词上下文与掌握状态 |
-| 学习教材、词库和考试阅读 | 从课程或词库进入阅读与练习，菜单记住分组、最近课文和滚动位置 |
-| 在自己的设备上管理数据 | 浏览器本地保存，支持导出完整学习备份并在另一设备手动导入 |
-
-适合学生、英语自学者、四六级／考研备考者，以及准备材料或陪伴学习的教师、家长。可以从内置课程和词库开始，也可以使用自己的材料；点读、听读和跟打都服务于当前的英语学习。
-
-## 课程与词库
-
-| 学习材料 | 当前收录 | 入口 |
-| --- | --- | --- |
-| 新概念英语 | 276 篇 | [新概念英语点读](https://wordtap.cn/nce/) |
-| 水木英语 | 192 篇 | [水木英语阅读](https://wordtap.cn/shuimu/) |
-| 研究生英语 | 40 篇 | [研究生英语阅读](https://wordtap.cn/postgraduate/) |
-| 大学英语 | 72 篇 | [大学英语阅读](https://wordtap.cn/college-english/) |
-| 人教版英语 | 12/17 册、313 篇 | [人教版英语点读](https://wordtap.cn/pep-english/) |
-| 英语四六级真题 | 97 套 | [CET-4 / CET-6 阅读](https://wordtap.cn/cet/) |
-| 考研英语真题 | 64 套 | [考研英语阅读](https://wordtap.cn/kaoyan-english/) |
-| 英语词汇 | 23 套词库、1,181 篇文章，每篇最多 100 词 | [仓库内词库与例句数据](public/english-vocabulary/) |
-
-词库覆盖 CET-4、CET-6、考研、IELTS、TOEFL、GRE、GMAT、SAT、专四、专八及中小学英语等，共 116,953 条源记录；该数字不是去重后的单词数。词汇单元支持搜索、阅读、例句跟打与分享。
-
-课程与词典数据保留各自的来源和权利条件。人教版缺失的 5 册未用占位内容补齐；120 篇文章仍待来源确认，16 处词汇源数据问题原样保留。具体状态见[发布说明](content/release/README.md)和[第三方声明](THIRD_PARTY_NOTICES.md)。
-
-## 数据、离线与朗读
-
-**学习数据在哪里？** 单词、保存的文章、考试记录和跟打进度保存在当前浏览器的 IndexedDB。更换设备或清理浏览器数据前，请在考试学习页使用“导出学习数据”；“我的单词”中的单词导出不等于完整备份。完整备份可手动导入并与本机记录合并，翻译和音频缓存不包含在备份中。
-
-**能离线使用吗？** 支持轻量离线使用：已经缓存的应用页面、同源资源、词典分片和朗读音频可能继续可用。首次加载、未缓存的词典分片、新的在线翻译和 Gateway 语音生成仍需要网络。不会预先下载全部词典，也不保证完整离线使用。
-
-**朗读需要安装什么？** 浏览器语音可用于单词和全文朗读，可用声音取决于设备与浏览器；单词发音失败时会尝试 Youdao 音频。可选 Windows Gateway 提供 Edge TTS 全文朗读和 Baidu Sug 查词，服务端源码及安装器构建链不在本仓库中。遇到问题可打开应用中的诊断视图检查。
-
-**本地保存是否意味着所有处理都在本机？** 本地保存指学习记录的存储位置。启用在线查词、备用发音或 Gateway 在线朗读时，相应单词或文本会发送给对应服务。
-
-## English overview
-
-WordTap is an open-source English learning tool with tap-to-read dictionary lookup, pronunciation, vocabulary learning, and article typing practice. The interface and dictionary definitions are primarily in Chinese.
-
-- Paste your own English text or choose a published lesson or vocabulary unit.
-- Tap a word for its Chinese definition and pronunciation; display IPA phonetics while reading.
-- Listen to sentences and practice typing an article or a selected passage, with saved drafts and progress.
-- Keep study records in browser storage and transfer them manually with a learning-data backup.
-- Run the Vue 3 + TypeScript + Vite web client locally. The optional Windows Gateway is distributed separately.
-
-Start with a lesson, a vocabulary unit, or your own English material. See the [English learning guide (Chinese)](docs/english-learning-guide.md) for dictionary lookup, pronunciation controls, typing feedback, and saved progress. Typing checks English letters, not comprehension or pronunciation.
-
-**[Try WordTap online](https://wordtap.cn/)** — no account required. Offline use is limited to cached resources; online translation and speech services may receive the words or text you ask them to process. Original code and documentation use Apache-2.0; third-party materials retain their own terms.
-
-## 开发命令
-
-Web 开发、构建与统一验证只需要 Node.js 20.19+ 和仓库内的发布数据，不需要 Python、Rust、原始教材、词汇 JSONL 或审核日志。
+Web 使用 Vue 3、TypeScript 和 Vite。需要 Node.js 20.19+ 与 npm；先安装 Git，再运行：
 
 ```bash
 git clone https://github.com/hawkhai/wordtap.cn.git
@@ -113,179 +63,52 @@ npm ci
 npm run dev
 ```
 
-打开终端显示的本地地址。构建与验证在项目目录中运行：
+打开终端显示的本地地址。已有工作区时直接进入其根目录运行安装与开发命令。
+
+开源版开发、构建与统一验证只需 Node 和仓库内的发布数据。可选 Windows Gateway 独立交付，运行 Web 无需编译 Gateway，也无需 Python 或 Rust。
 
 ```bash
 npm run build
-npm test
 npm run verify
 ```
 
-`build` 校验发布数据和类型，打包应用并生成课程、词库、考试与安装说明静态页面，检查短链接、资源和主题；`test` 运行业务回归；`verify` 构建一次，再运行业务、响应式和开源检查。
+两条命令按需选用：`build` 包含发布数据检查、类型检查、前端打包、静态页面生成与资源校验；`verify` 自带一次构建并追加业务、响应式和仓库检查。
 
-定向命令：`npm run typecheck`、`npm run verify:published`、`npm run verify:responsive`、`npm run verify:open-source`。
+## 学习数据与使用边界
 
-独立浏览器验收：`npm run verify:browser`。需另行提供 Playwright 与 Chromium；使用 `WORDTAP_PLAYWRIGHT_MODULE`、`WORDTAP_CHROMIUM_EXECUTABLE`、`WORDTAP_TEST_URL` 和 `WORDTAP_TEST_OUTPUT` 配置，产物默认放入忽略的 `tmp/web-sync/`。普通构建及 CI 不下载浏览器。
+- 学习记录保存在当前浏览器，不自动跨设备同步。换设备或清理浏览器前先导出备份，并核对下方的版本差异。
+- “我的单词”中的单词导出只包含单词；开源版“考试学习”页的“导出学习数据”提供完整学习备份。
+- 离线仅限已经缓存的页面、词典分片和资源；首次加载、未缓存资源及在线查词／朗读仍需网络。
+- 启用在线服务时，相应单词或文本可能发送给服务方。跟打用于字母拼写与输入练习，不提供口语评分或语法批改。
 
-安装器不在本仓库内，所有下载入口使用官方 HTTPS 地址；安装说明保留在当前站点。跨域下载或缺少可选发布元数据时，诊断会说明无法确认，不将其判定为 Web 应用失败。
+## 版本说明
 
-## 技术与维护参考
+| 版本 | GitHub 仓库 | 主要职责 |
+| --- | --- | --- |
+| 个人版 | `hawkhai/english_word_study_web` | Web 开发、内容来源维护、可选 Windows Gateway 与安装器 |
+| 开源版 | [hawkhai/wordtap.cn](https://github.com/hawkhai/wordtap.cn) | 已发布 Web 学习功能、公开体验与社区贡献 |
 
-<details>
-<summary>展开：代码结构、本地数据、查词与朗读流程、Gateway 接口及维护约定</summary>
+个人版的本地目录名为 `wordtap_web`，并非 GitHub 仓库名；其远程地址沿用当前 `origin`，访问以仓库权限为准。两版对外学习入口均为 [wordtap.cn](https://wordtap.cn/)。
 
-## 代码结构
+备份差异：开源版完整备份包含单词、文章、考试进度、考试生词和跟打进度；个人版当前备份格式不包含文章，换设备前须另存原文。翻译与音频缓存不包含在学习备份中。
 
-```text
-src/
-  App.vue                         # 选择桌面壳或移动壳
-  main.ts                         # 挂载 Vue，加载全局样式，注册 Service Worker
-  style.css                       # 共享基础样式和组件样式
-  desktop/
-    components/DesktopShell.vue   # 桌面端布局和导航
-    styles/desktop.css            # 桌面端响应式规则
-  mobile/
-    components/MobileShell.vue    # 移动端布局、长按复习操作
-    styles/mobile.css             # 移动端响应式规则
-  shared/
-    composables/useWordTap.ts     # 学习、查词、朗读、缓存、诊断主逻辑
-    stores/historyStore.ts        # IndexedDB 持久化
-    utils/                        # 词典、Gateway、朗读、资源地址等工具
-public/
-  dict/                           # ECDICT 静态词典 manifest 和分片
-  fonts/                          # 阅读与音标字体及许可证
-  */lessons/                      # 随站点发布的课程数据
-  sw.js                           # 轻量运行时缓存 Service Worker
-content/release/                  # 当前发布哈希、来源版本及已知问题
-tools/                            # 页面生成、发布检查与业务测试
-```
+## 开发与维护文档
 
-课程原始文件、OCR 工作目录、安装包和构建产物不会提交到仓库；可复现的站点数据位于 `public/`。
+- [开发与维护指南](docs/development.md)：项目目录、命令、数据库、缓存、查词与朗读流程、Gateway 接口。
+- [产品指南](WORDTAP_PRODUCT_GUIDE.md)：学习定位、功能边界和文案约定。
+- [课程接入协议](COURSE_INTEGRATION_PROTOCOL.md)：数据格式、学习入口与课程验证。
+- [界面风格](STYLE_GUIDE.md)与[界面验收标准](UI_PRACTICE_STANDARD.md)：沿用现有设计与响应式约定。
+- [GitHub 设置交接清单](docs/github-maintenance.md)：About、Topics、分享封面、安全设置及发布后验收。
 
-## 本地数据
+## 反馈与参与
 
-WordTap 使用 IndexedDB 数据库 `wordtap-study-history`，当前版本为 6。
+在[本仓库反馈入口](https://github.com/hawkhai/wordtap.cn/issues/new/choose)选择“问题反馈”“功能建议”或“课程勘误”，也可以提交空白 Issue。请说明个人版／开源版、运行环境和可复现的最小示例；课程勘误附上原文位置和来源依据。
 
-主要存储：
+两个仓库各自在本仓库接收反馈。PR 请说明改动目的、验证结果；界面调整附截图，内容修改注明来源。不要公开凭据、个人学习备份或漏洞利用细节。
 
-- `words`：学习过的单词、次数、时间和释义。
-- `texts`：保存的阅读文本。
-- `translation_cache`：翻译缓存。
-- `audio_cache`：Gateway 生成的全文朗读音频。
-- `audio_cache_meta`：音频缓存元数据。
-- `exam_progress`、`exam_word_encounters`：考试进度与考试生词。
-- `article_typing_progress`：文章跟打草稿、选区及完成进度。
+如果这次学习对你有帮助，欢迎给 [WordTap 开源版点个 Star](https://github.com/hawkhai/wordtap.cn)，支持后续维护。
 
-考试学习页的“导出学习数据”会备份单词、保存的文章、考试进度、考试生词和跟打进度；导入时会与本机记录合并。翻译和音频缓存可重新生成，不包含在备份中。
-
-限制规则：
-
-- 阅读文本最多保留 100 条。
-- 单条文本最多 120,000 个字符。
-- 翻译缓存最多 5,000 条。
-- 音频缓存同时按数量和大小清理，并带有引擎版本校验。
-
-启动时，应用会优先恢复最近保存的阅读文本。如果没有保存内容，默认示例文本只会在首次使用的前几次启动中显示，之后编辑区会保持为空。
-
-## 查词流程
-
-英文单词识别规则：
-
-```text
-[A-Za-z]+(?:['-][A-Za-z]+)?
-```
-
-每次查词都会先检查内存缓存和 IndexedDB 翻译缓存，再访问具体来源。
-
-翻译模式：
-
-- `auto`：本地 ECDICT 分片 -> Gateway Baidu Sug -> 内置兜底词典。
-- `ecdict`：本地 ECDICT 分片 -> 内置兜底词典。
-- `baidu_sug`：Gateway Baidu Sug -> 本地 ECDICT 分片 -> 内置兜底词典。
-
-查询时会尝试原词、小写形式和简化形式。用户点击单词后，学习次数会立即记录；释义查询成功后，再回写到学习记录。
-
-## 朗读流程
-
-全文朗读：
-
-- Gateway 可用时，优先调用 `/v1/recipes/speech` 生成 MP3 音频。
-- 前端会按句子和段落切分文本，单个片段限制为 1,000 字节。
-- 会预取前几个片段并顺序播放。
-- 已缓存的 Gateway 音频可以在 Gateway 未运行时播放。
-- Gateway 不可用时，会尝试浏览器全文朗读。
-
-单词朗读：
-
-- 优先使用浏览器 `speechSynthesis` 和用户选择的英语声音。
-- 浏览器播放失败或超时后，回退到 Youdao `dictvoice` 音频。
-
-## 本地词典
-
-静态词典位于 `public/dict`，由 ECDICT 转换生成。
-
-当前 manifest 数据：
-
-- 版本：`ecdict-static-shards-v1`
-- 词条数：765,023
-- 分片数：10,129
-- 目标分片大小：100,000 字节
-- manifest 中最大分片：`ple`，99,941 字节，837 条
-- 生成时间：`2026-06-14T18:37:09.373611+00:00`
-
-Service Worker 不会预缓存全部词典分片。只有已经请求过的分片，才可能在后续离线时从缓存读取。
-
-## WordTap Gateway
-
-Gateway 是可选的本地 Rust 服务，默认地址：
-
-```text
-http://127.0.0.1:18765
-```
-
-主要接口：
-
-- `GET /v1/status`
-- `GET /v1/capabilities`
-- `POST /v1/recipes/speech`
-- `POST /v1/recipes/baidu-sug`
-- `POST /v1/http/exchange`
-- `POST /v1/ws/exchange`
-- `POST /v1/ws/sessions`
-- `POST /v1/lifecycle/shutdown`
-
-安全模型：
-
-- 状态接口可以公开读取。
-- WordTap 可信域名和本地开发域名可以使用配方接口。
-- 公开网页不能使用通用本地工具交换接口。
-- 关闭服务接口只允许安装器携带本地 token 调用。
-
-## 界面风格与后续迭代
-
-本项目沿用 cf-design / Arco Design 的阅读优先风格，技能来源、设计变量、响应式宽度和交互约定见 [STYLE_GUIDE.md](STYLE_GUIDE.md)，同步说明见 [CF_DESIGN_NOTES.md](CF_DESIGN_NOTES.md)。Vue 和静态生成网页共享主题变量；功能迭代应同时检查这两条渲染路径。`npm run build` 检查全部生成页面的风格；`npm test` 包含主题回归测试。
-
-## 开源版与个人版
-
-开源版保留全部已发布 Web 学习功能；Gateway 与安装器独立交付，原始内容重建和历史审核由个人版负责。功能对照与验收见 [开源版对齐记录](OPEN_SOURCE_ALIGNMENT.md)。
-
-原七套课程共 1,054 份，另有 1,181 篇词汇文章。词汇按每篇最多 100 词组合，最后不足 100 词的独立成篇，保留所有原始释义、音标和例句；运行 JSON 共 1,205 个。词汇不再生成静态目录和单元内容页、也不收录到 sitemap，`/english-vocabulary/` 仅保留进入学习工具的跳转入口。旧分享链接定位到包含原单元的新文章，已保存的旧 20 词文章及跟打草稿兼容恢复。120 篇文章仍待来源确认，16 处词汇源数据问题原样保留；当前发布检查不代表历史审核完成。对应标识、来源与哈希见 [发布说明](content/release/README.md)。
-
-修改课程直接更新发布 JSON、manifest 和索引，按 [课程接入协议](COURSE_INTEGRATION_PROTOCOL.md) 检查和更新发布哈希，无需搭建审核系统。
-
-完整学习备份使用 schemaVersion 4，兼容旧单词数组及版本 2/3 对象，包含单词、文章、考试进度、考试生词和跟打进度，缓存不进入备份。数据库版本 6 采用增量升级；回退前端也必须兼容版本 6，不能降级或清库。
-
-</details>
-
-## 参与项目
-
-如果 WordTap 帮你读懂了一篇英文，欢迎给[项目点一个 Star](https://github.com/hawkhai/wordtap.cn)，方便以后找到它，也让作者知道这项工作对你有帮助。
-
-欢迎通过 [Issues](https://github.com/hawkhai/wordtap.cn/issues) 提交复现步骤、查词问题、课程勘误或使用建议；也欢迎改进文档、浏览器兼容性和阅读／跟打体验。应用内还提供资料提交邮件说明与微信功能建议入口。
-
-如果你想把 WordTap 介绍给朋友或学习社区，可以使用 [项目介绍与分享文案](docs/sharing-kit.md)，配上 [英语学习入门教程](docs/english-learning-guide.md) 中的一张操作图。
-
-提交 Issue 或 Pull Request 前请阅读 [贡献指南](CONTRIBUTING.md)。安全漏洞请按 [SECURITY.md](SECURITY.md) 私下报告。
+贡献流程见[贡献指南](CONTRIBUTING.md)，安全问题按[安全策略](SECURITY.md)私下报告。
 
 ## 致谢
 
