@@ -1,6 +1,6 @@
 # WordTap GitHub 设置交接清单
 
-状态核对日期：2026-10-21。本文记录本仓库的介绍、反馈入口、GitHub 设置、依赖安全与 CI 状态。依赖修复验收基线为 `663e9192`，最近已核对通过的提交为 `9aa8dd82`；下文固定链接对应已完成的运行，后续提交状态以 [Actions](https://github.com/hawkhai/wordtap.cn/actions) 为准。私密漏洞报告已按维护者授权开启，其它设置仅只读核查；本次仅同步文档，不操作在线设置。历史提交不改写，v2 不在修改范围。
+状态核对日期：2026-10-21。本文记录本仓库的介绍、反馈入口、GitHub 设置、依赖安全与 CI 状态。依赖修复验收基线为 `663e9192`，最近已核对通过的提交为 `79d3014b`；下文固定链接对应已完成的运行，后续提交状态以 [Actions](https://github.com/hawkhai/wordtap.cn/actions) 为准。私密漏洞报告已按维护者授权开启；本次整理仅关闭空白的 Wiki 与 Projects 入口并同步记录，其它设置保持原状。历史提交不改写，v2 不在修改范围。
 
 ## 仓库与 About
 
@@ -54,12 +54,13 @@ README、反馈模板与介绍清理已随提交 `4e079bf0` push 到默认分支
 - `npm ci` 会输出审计摘要，目前没有独立的 `npm audit` 阻断步骤。
 - [介绍与分享素材清理提交 `3763f421`](https://github.com/hawkhai/wordtap.cn/commit/3763f4216cda0d2c60ee418deb292f57c1a8773c)已 push，其 [Verify 运行](https://github.com/hawkhai/wordtap.cn/actions/runs/39599149226)为 **Success**。后续文档提交不会自动成为已验收基线。
 - [Star 支持入口提交 `9aa8dd82`](https://github.com/hawkhai/wordtap.cn/commit/9aa8dd82bdd45366e7ca2d53141ffdd958f6edc3)已 push，其 [Verify 运行](https://github.com/hawkhai/wordtap.cn/actions/runs/39621252481)为 **Success**；本次文档提交的 CI 结果仍单独确认。
+- [私密漏洞报告交接提交 `79d3014b`](https://github.com/hawkhai/wordtap.cn/commit/79d3014b58d1c5dfd2aaeec4f461a8b3a608a752)已 push，其 [Verify 运行](https://github.com/hawkhai/wordtap.cn/actions/runs/39624295551)为 **Success**。
 
 依赖审计的 0 项告警是依赖修复时的验证结果，不表示 GitHub 已开启依赖监控；本轮只更新交接记录，没有重新执行依赖审计。Gateway 独立交付，验证范围见[开发指南](development.md)。
 
 ## GitHub 功能与保护设置
 
-以下记录已核查的实际状态；其中私密漏洞报告已按授权开启，其它设置保持原状。“未开启”与“尚未核查”分别记录，不据此宣称仓库已完成全部安全配置。
+以下记录已核查的实际状态；私密漏洞报告已按授权开启，空白 Wiki 与 Projects 已关闭显示，其它设置保持原状。“未开启”与“尚未核查”分别记录，不据此宣称仓库已完成全部安全配置。
 
 | 设置项 | 当前实际状态 |
 | --- | --- |
@@ -73,10 +74,12 @@ README、反馈模板与介绍清理已随提交 `4e079bf0` push 到默认分支
 | `main` 经典分支保护 | 未配置 |
 | Rulesets | 列表为空，未创建规则集 |
 | Issues／Pull requests | 均开启，允许所有用户创建 |
-| Wiki／Projects／Discussions | Wiki 与 Projects 开启，Discussions 关闭；Wiki 仅协作者可编辑 |
+| Wiki／Projects／Discussions | Wiki 与 Projects 已关闭显示；Discussions 保持关闭 |
 | Release | 尚未发布正式 Release |
 
-安全开关见 [Advanced Security](https://github.com/hawkhai/wordtap.cn/settings/security_analysis)；分支配置见 [Branches](https://github.com/hawkhai/wordtap.cn/settings/branches)与 [Rulesets](https://github.com/hawkhai/wordtap.cn/settings/rules)。此次已授权的设置操作仅开启私密漏洞报告；没有更改其它开关、创建规则、发布 Release 或变更仓库可见性。本次文档同步不再操作 GitHub 设置。
+2026-10-21 整理依据：Wiki 页面仍显示“Create the first page”；Projects 显示 Open 0、Closed 0，尚无关联项目。确认均为空白后，关闭 Settings → General 中的 Wikis 与 Projects。刷新后两项开关均为未勾选，仓库导航不再显示这两个空入口；Issues 与 Pull requests 保持开启。学习与开发文档继续从 [README](../README.md) 和 [docs 开发指南](development.md)访问，后续有明确内容及维护计划时可重新启用相应功能。
+
+安全开关见 [Advanced Security](https://github.com/hawkhai/wordtap.cn/settings/security_analysis)；分支配置见 [Branches](https://github.com/hawkhai/wordtap.cn/settings/branches)与 [Rulesets](https://github.com/hawkhai/wordtap.cn/settings/rules)。此前已按授权开启私密漏洞报告；本次仅整理 Wiki 与 Projects，没有更改其它开关、创建规则、发布 Release 或变更仓库可见性。
 
 [Actions 设置](https://github.com/hawkhai/wordtap.cn/settings/actions)已核对：允许所有 Actions 与可复用工作流；未强制完整提交 SHA 固定。`GITHUB_TOKEN` 默认仅有仓库内容与包的读取权限，不允许 Actions 创建或批准 PR。外部首次贡献者的 fork PR 工作流需要维护者批准，日志及产物默认保留 90 天。
 
@@ -93,7 +96,7 @@ README、反馈模板与介绍清理已随提交 `4e079bf0` push 到默认分支
 - [x] Private vulnerability reporting 已开启；已核对设置页与 Security 概览的启用状态，未创建测试漏洞报告。
 - [ ] 按维护安排开启依赖图、Dependabot 告警与安全更新；需要自动版本更新时另行配置，不将原有 0 告警当作持续监控。
 - [ ] 为 `main` 评估禁止强推、禁止删除；采用 PR 流程后再选择已运行成功的 `verify` 必需检查。当前没有任何分支规则。
-- [ ] 按实际维护计划整理 Wiki／Projects；保留已开启的 Secret Protection 与 Push protection。
+- [x] 已核对 Wiki 尚无页面、Projects 开放与关闭项目均为 0，并关闭这两个空入口；文档继续由 README 与 docs 维护。Secret Protection 与 Push protection 保持原状。
 - [ ] 单人维护按实际协作需要决定 PR、审批及规则例外，不添加无法满足的检查要求。
 - [ ] 按实际维护需要处理主页置顶和空入口；不因宣传而开启空讨论区。
 - [ ] 选择经过验证的提交安排 Release，说明环境、已知限制、学习备份范围及第三方内容许可；Gateway 独立交付，不附未经验证的安装包。
