@@ -1,6 +1,6 @@
 # WordTap GitHub 设置交接清单
 
-状态核对日期：2026-10-21。本文记录本仓库的介绍、反馈入口、GitHub 设置、依赖安全与 CI 状态。依赖修复验收基线为 `663e9192`，最近已核对通过的提交为 `3763f421`；下文固定链接对应已完成的运行，后续提交状态以 [Actions](https://github.com/hawkhai/wordtap.cn/actions) 为准。设置核查全程只读，历史提交不改写，v2 不在修改范围。
+状态核对日期：2026-10-21。本文记录本仓库的介绍、反馈入口、GitHub 设置、依赖安全与 CI 状态。依赖修复验收基线为 `663e9192`，最近已核对通过的提交为 `9aa8dd82`；下文固定链接对应已完成的运行，后续提交状态以 [Actions](https://github.com/hawkhai/wordtap.cn/actions) 为准。私密漏洞报告已按维护者授权开启，其它设置仅只读核查；本次仅同步文档，不操作在线设置。历史提交不改写，v2 不在修改范围。
 
 ## 仓库与 About
 
@@ -44,6 +44,8 @@ GitHub 的显示顺序可能按字母排序，以标签集合为准。Topics 不
 
 README、反馈模板与介绍清理已随提交 `4e079bf0` push 到默认分支，后续依赖修复提交 `663e9192` 也已 push。本次只读核对了线上选择器：三类表单、Blank issue、在线学习与教程入口均已显示；安全反馈入口指向仓库安全策略。未创建真实 Issue 或 PR，PR 模板自动填入留待下次真实 PR 验收。
 
+私密漏洞报告开启后，已再次核对选择器中的“Report a security vulnerability”仍指向安全策略页；该链接去向与私密报告开关分别记录。私密报告功能已在 [Security 概览](https://github.com/hawkhai/wordtap.cn/security)确认显示 **Private vulnerability reporting · Enabled**，维护者可通过该页进入报告管理；未创建测试漏洞报告。
+
 ## 依赖安全、CI 与已验收提交
 
 - [依赖修复提交 `663e9192`](https://github.com/hawkhai/wordtap.cn/commit/663e9192cce1a7825dc8d7c2724e38e049a48a32)已 push 到 `main`，其 [Verify 运行](https://github.com/hawkhai/wordtap.cn/actions/runs/39593944966)为 **Success**，任务名为 `verify`。
@@ -51,16 +53,17 @@ README、反馈模板与介绍清理已随提交 `4e079bf0` push 到默认分支
 - [工作流](../.github/workflows/verify.yml)使用 `ubuntu-latest`、Node.js 20.19.0，执行 `npm ci`、完整 `npm run verify` 和生成文件差异检查。完整构建、85 项回归、发布数据、静态页面、仓库与响应式检查均已通过。
 - `npm ci` 会输出审计摘要，目前没有独立的 `npm audit` 阻断步骤。
 - [介绍与分享素材清理提交 `3763f421`](https://github.com/hawkhai/wordtap.cn/commit/3763f4216cda0d2c60ee418deb292f57c1a8773c)已 push，其 [Verify 运行](https://github.com/hawkhai/wordtap.cn/actions/runs/39599149226)为 **Success**。后续文档提交不会自动成为已验收基线。
+- [Star 支持入口提交 `9aa8dd82`](https://github.com/hawkhai/wordtap.cn/commit/9aa8dd82bdd45366e7ca2d53141ffdd958f6edc3)已 push，其 [Verify 运行](https://github.com/hawkhai/wordtap.cn/actions/runs/39621252481)为 **Success**；本次文档提交的 CI 结果仍单独确认。
 
 依赖审计的 0 项告警是依赖修复时的验证结果，不表示 GitHub 已开启依赖监控；本轮只更新交接记录，没有重新执行依赖审计。Gateway 独立交付，验证范围见[开发指南](development.md)。
 
 ## GitHub 功能与保护设置
 
-以下状态来自 Settings 的只读核查；“未开启”与“尚未核查”分别记录，不据此宣称仓库已完成安全配置。
+以下记录已核查的实际状态；其中私密漏洞报告已按授权开启，其它设置保持原状。“未开启”与“尚未核查”分别记录，不据此宣称仓库已完成全部安全配置。
 
 | 设置项 | 当前实际状态 |
 | --- | --- |
-| Private vulnerability reporting | 未开启；当前安全反馈链接进入安全策略页，不是已启用的私密报告表单 |
+| Private vulnerability reporting | 2026-10-21 已开启；Security 概览显示 Enabled，设置页提供 Disable private vulnerability reporting 与配置入口 |
 | Dependency graph | 未开启 |
 | Dependabot alerts | 未开启 |
 | Dependabot security updates／Grouped security updates | 均未开启 |
@@ -73,7 +76,7 @@ README、反馈模板与介绍清理已随提交 `4e079bf0` push 到默认分支
 | Wiki／Projects／Discussions | Wiki 与 Projects 开启，Discussions 关闭；Wiki 仅协作者可编辑 |
 | Release | 尚未发布正式 Release |
 
-安全开关见 [Advanced Security](https://github.com/hawkhai/wordtap.cn/settings/security_analysis)；分支配置见 [Branches](https://github.com/hawkhai/wordtap.cn/settings/branches)与 [Rulesets](https://github.com/hawkhai/wordtap.cn/settings/rules)。本轮没有切换开关、创建规则、发布 Release 或变更仓库可见性。
+安全开关见 [Advanced Security](https://github.com/hawkhai/wordtap.cn/settings/security_analysis)；分支配置见 [Branches](https://github.com/hawkhai/wordtap.cn/settings/branches)与 [Rulesets](https://github.com/hawkhai/wordtap.cn/settings/rules)。此次已授权的设置操作仅开启私密漏洞报告；没有更改其它开关、创建规则、发布 Release 或变更仓库可见性。本次文档同步不再操作 GitHub 设置。
 
 [Actions 设置](https://github.com/hawkhai/wordtap.cn/settings/actions)已核对：允许所有 Actions 与可复用工作流；未强制完整提交 SHA 固定。`GITHUB_TOKEN` 默认仅有仓库内容与包的读取权限，不允许 Actions 创建或批准 PR。外部首次贡献者的 fork PR 工作流需要维护者批准，日志及产物默认保留 90 天。
 
@@ -87,7 +90,7 @@ README、反馈模板与介绍清理已随提交 `4e079bf0` push 到默认分支
 
 - [x] 依赖安全修复已 push，审计为 0 项告警，对应 `verify` 运行成功。
 - [x] 已核对安全功能、分支规则、Actions 权限与功能入口，实际状态见上表；核查不代表已启用待配置项。
-- [ ] 按维护安排开启 Private vulnerability reporting，并验收私密报告入口；当前未开启。
+- [x] Private vulnerability reporting 已开启；已核对设置页与 Security 概览的启用状态，未创建测试漏洞报告。
 - [ ] 按维护安排开启依赖图、Dependabot 告警与安全更新；需要自动版本更新时另行配置，不将原有 0 告警当作持续监控。
 - [ ] 为 `main` 评估禁止强推、禁止删除；采用 PR 流程后再选择已运行成功的 `verify` 必需检查。当前没有任何分支规则。
 - [ ] 按实际维护计划整理 Wiki／Projects；保留已开启的 Secret Protection 与 Push protection。
