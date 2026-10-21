@@ -1,12 +1,12 @@
 # WordTap — 英语点读为学习而生
 
-**开源版 · 点词查义 · 听读发音 · 文章跟打**
+**点词查义 · 听读发音 · 文章跟打**
 
 WordTap 是一款以英语点读为核心的开源英语学习工具。选择课文、词库或自己的英文材料，点击单词查释义、看音标、听发音，再用同一份材料积累词汇并练习文章跟打。
 
 Open-source English learning with tap-to-read dictionary lookup, pronunciation, vocabulary learning and article typing practice. The interface and dictionary definitions are primarily in Chinese.
 
-**[开始学习（开源版）](https://wordtap.cn/)** · [学习教程](docs/english-learning-guide.md) · [本地运行](#本地运行) · [反馈问题](https://github.com/hawkhai/wordtap.cn/issues/new/choose)
+**[开始学习](https://wordtap.cn/)** · [学习教程](docs/english-learning-guide.md) · [本地运行](#本地运行) · [反馈问题](https://github.com/hawkhai/wordtap.cn/issues/new/choose)
 
 [![Verify](https://github.com/hawkhai/wordtap.cn/actions/workflows/verify.yml/badge.svg)](https://github.com/hawkhai/wordtap.cn/actions/workflows/verify.yml)
 [![Code License: Apache-2.0](https://img.shields.io/badge/Code%20License-Apache--2.0-blue.svg)](LICENSE)
@@ -65,7 +65,7 @@ npm run dev
 
 打开终端显示的本地地址。已有工作区时直接进入其根目录运行安装与开发命令。
 
-开源版开发、构建与统一验证只需 Node 和仓库内的发布数据。可选 Windows Gateway 独立交付，运行 Web 无需编译 Gateway，也无需 Python 或 Rust。
+开发、构建与统一验证只需 Node 和仓库内的发布数据。可选 Windows Gateway 独立交付，运行 Web 无需编译 Gateway，也无需 Python 或 Rust。
 
 ```bash
 npm run build
@@ -76,21 +76,10 @@ npm run verify
 
 ## 学习数据与使用边界
 
-- 学习记录保存在当前浏览器，不自动跨设备同步。换设备或清理浏览器前先导出备份，并核对下方的版本差异。
-- “我的单词”中的单词导出只包含单词；开源版“考试学习”页的“导出学习数据”提供完整学习备份。
+- 学习记录保存在当前浏览器，不自动跨设备同步。换设备或清理浏览器前先导出备份，核对备份内容后再迁移。
+- “我的单词”中的单词导出只包含单词；本项目“考试学习”页的“导出学习数据”提供完整学习备份。
 - 离线仅限已经缓存的页面、词典分片和资源；首次加载、未缓存资源及在线查词／朗读仍需网络。
 - 启用在线服务时，相应单词或文本可能发送给服务方。跟打用于字母拼写与输入练习，不提供口语评分或语法批改。
-
-## 版本说明
-
-| 版本 | GitHub 仓库 | 主要职责 |
-| --- | --- | --- |
-| 个人版 | `hawkhai/english_word_study_web` | Web 开发、内容来源维护、可选 Windows Gateway 与安装器 |
-| 开源版 | [hawkhai/wordtap.cn](https://github.com/hawkhai/wordtap.cn) | 已发布 Web 学习功能、公开体验与社区贡献 |
-
-个人版的本地目录名为 `wordtap_web`，并非 GitHub 仓库名；其远程地址沿用当前 `origin`，访问以仓库权限为准。两版对外学习入口均为 [wordtap.cn](https://wordtap.cn/)。
-
-备份差异：开源版完整备份包含单词、文章、考试进度、考试生词和跟打进度；个人版当前备份格式不包含文章，换设备前须另存原文。翻译与音频缓存不包含在学习备份中。
 
 ## 开发与维护文档
 
@@ -102,11 +91,11 @@ npm run verify
 
 ## 反馈与参与
 
-在[本仓库反馈入口](https://github.com/hawkhai/wordtap.cn/issues/new/choose)选择“问题反馈”“功能建议”或“课程勘误”，也可以提交空白 Issue。请说明个人版／开源版、运行环境和可复现的最小示例；课程勘误附上原文位置和来源依据。
+在[本仓库反馈入口](https://github.com/hawkhai/wordtap.cn/issues/new/choose)选择“问题反馈”“功能建议”或“课程勘误”，也可以提交空白 Issue。请说明页面或提交哈希、运行环境和可复现的最小示例；课程勘误附上原文位置和来源依据。
 
-两个仓库各自在本仓库接收反馈。PR 请说明改动目的、验证结果；界面调整附截图，内容修改注明来源。不要公开凭据、个人学习备份或漏洞利用细节。
+本仓库接收问题反馈与改进建议。PR 请说明改动目的、验证结果；界面调整附截图，内容修改注明来源。不要公开凭据、个人学习备份或漏洞利用细节。
 
-如果这次学习对你有帮助，欢迎给 [WordTap 开源版点个 Star](https://github.com/hawkhai/wordtap.cn)，支持后续维护。
+如果这次学习对你有帮助，欢迎给 [WordTap 点个 Star](https://github.com/hawkhai/wordtap.cn)，支持后续维护。
 
 贡献流程见[贡献指南](CONTRIBUTING.md)，安全问题按[安全策略](SECURITY.md)私下报告。
 

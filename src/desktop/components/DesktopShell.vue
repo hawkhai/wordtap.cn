@@ -930,7 +930,7 @@ function handleCourseLessonSelect(selection: CourseLessonSelection): void {
           href="https://github.com/hawkhai/wordtap.cn"
           target="_blank"
           rel="noopener noreferrer"
-        >开源版源码</a>
+        >本项目源码</a>
         <span class="study-icp-sep">·</span>
         {{ copy.template.icp }}
       </div>

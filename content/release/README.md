@@ -1,6 +1,6 @@
 # 当前发布信息
 
-- `courses.json`：个人版发布基线版本、七套课程数量与发布文件 SHA-256。
+- `courses.json`：发布基线版本、七套课程数量与发布文件 SHA-256。
 - `vocabulary.json`：词汇上游固定提交、每篇词数、文章总数与发布文件 SHA-256。
 - `pending-source-checks.json`：120 篇待来源确认文章的身份与状态，不包含历史日志或正文副本。
 - `vocabulary-issues.json`：16 处原样保留的词汇源数据问题。

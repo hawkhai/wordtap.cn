@@ -6,17 +6,6 @@ body:
     attributes:
       value: |
         感谢帮助改进 WordTap。请使用最小示例，不要公开凭据、个人学习备份或漏洞利用细节；安全问题请私下联系维护者。
-  - type: dropdown
-    id: edition
-    attributes:
-      label: 使用的版本
-      options:
-        - 个人版
-        - 开源版
-        - 不确定
-      default: 1
-    validations:
-      required: true
   - type: textarea
     id: scenario
     attributes:
