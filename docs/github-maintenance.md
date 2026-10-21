@@ -1,6 +1,29 @@
 # WordTap GitHub 设置交接清单
 
-状态核对日期：2026-10-21。本文记录本仓库的介绍、反馈入口、GitHub 设置、依赖安全与 CI 状态。依赖修复验收基线为 `663e9192`，最近已核对通过的提交为 `79d3014b`；下文固定链接对应已完成的运行，后续提交状态以 [Actions](https://github.com/hawkhai/wordtap.cn/actions) 为准。私密漏洞报告已按维护者授权开启；本次整理仅关闭空白的 Wiki 与 Projects 入口并同步记录，其它设置保持原状。历史提交不改写，v2 不在修改范围。
+状态核对日期：2026-10-21。本文记录本仓库的介绍、反馈入口、GitHub 设置、依赖安全与 CI 状态。依赖修复验收基线为 `663e9192`，本次只读复核 `b09c28ae` 的 [Verify 运行](https://github.com/hawkhai/wordtap.cn/actions/runs/39625181956)为 Success；后续提交状态以 [Actions](https://github.com/hawkhai/wordtap.cn/actions) 为准。下文保留既往设置与验收记录，本轮增量见以下盘点；没有再次部署或修改 GitHub 设置。历史提交不改写，v2 不在修改范围。
+
+## 本轮盘点与交接
+
+- 已有：[README](../README.md)按项目介绍、核心功能、在线体验、本地运行和技术文档组织；克隆地址为 `hawkhai/wordtap.cn`，运行与构建使用 Node，不混入其他仓库的环境要求。
+- 已有：三类 Issue Forms、空白 Issue、PR 模板、[贡献指南](../CONTRIBUTING.md)、[安全策略](../SECURITY.md)和 Verify CI；不重复创建。
+- 在线只读复核：About、15 个 Topics、Website、私密漏洞报告启用状态及已关闭的 Wiki／Projects 与记录一致；Rulesets 仍为空，尚无 Release。依赖图等后台配置沿用此前设置页核查记录，本次没有重新访问其管理页面。
+- 本轮补齐：README 课程与许可的直接链接；三类表单及 PR 模板的安全策略入口；Issue 选择器中的安全问题入口；安全策略直接链接私密报告表单。普通问题反馈只询问本项目实际需要的环境。
+- 介绍保持 WordTap 品牌，当前仓库的地址、命令与完整备份范围分别按实现说明，不增加版本对照或分流入口。
+
+本轮本地验证：10 份当前文档的相对链接、锚点、图片路径与 npm 示例命令通过；4 份 Issue 配置 YAML 可解析，三类表单的字段 ID、必填项和联系入口检查通过。README、贡献指南、安全策略、交接清单、PR 模板及三类表单的本地预览在 1440、390、360px 下共 24 项检查通过，未发现页面横向溢出；开源仓库检查通过。预览使用本地 Markdown 渲染与表单结构转换，不能代替 GitHub 实际表单界面验收。此次只改文档与反馈模板，未重复完整应用构建、功能验收或人工听音。
+
+以下事项由维护者安排；本轮只本地提交，不执行这些外部操作：
+
+| 待办 | 操作与验收 |
+| --- | --- |
+| 发布本轮文档提交 | 自行 push 后，确认对应提交的 Verify 成功；打开 Issue 选择器查看安全入口，并在下次真实 PR 核对模板自动填入，无须创建测试问题或漏洞报告 |
+| 依赖持续监控 | 在 Advanced Security 按需开启依赖图、Dependabot alerts 与安全更新；核对页面实际启用状态，再决定是否配置定期版本更新 |
+| 主分支保护 | 在 Rulesets 或 Branches 配置禁止强推／删除；决定采用 PR 流程后再要求已存在的 `verify` 检查，不强制单人无法满足的审批 |
+| 首个 Release | 选择完整验证通过的提交，记录标签、学习功能、运行条件、备份范围和第三方许可；本轮不创建标签、Release 或部署 |
+| 公开项目入口 | 按需在个人主页置顶本项目；About、Topics、封面及空入口已经处理，无须重做 |
+| 部署后真实体验 | 在正式站点检查点读、听读、跟打、续学、备份和缓存更新；实际听音由维护者确认，不能用入口检查代替 |
+
+本地 Markdown 渲染与表单结构检查不等于 GitHub 已加载尚未 push 的新文件。既往提交已 push 的事实与本轮仅本地提交分别记录。
 
 ## 仓库与 About
 
@@ -110,6 +133,6 @@ README、反馈模板与介绍清理已随提交 `4e079bf0` push 到默认分支
 - 此前本地生产构建预览在 1440、390、360px 下检查通过，查词、音标、跟打纠错与完成、刷新续练和 schemaVersion 4 完整备份导入导出正常，无页面横向溢出或脚本错误。该记录不等同于本次部署后的线上全流程验收；朗读入口已检查，未人工听音，不包含 Gateway 安装器构建。
 - 项目链接均指向本仓库，当前维护内容中不保留其他仓库的版本称呼或地址；课程原文、学习数据和许可证未修改。
 - README、反馈模板、介绍清理与依赖修复均已进入远程默认分支；About、Topics 与 Website 本次只读复核一致。站点部署状态单独验收。
-- 本次仅更新本清单，将刚核查的设置与部署状态写入记录；文档链接、锚点、渲染和差异检查通过，未重复完整应用构建。文档提交对应 CI 以 Actions 的后续运行结果为准。
+- 此前的设置交接提交仅更新本清单，并检查文档链接、锚点、渲染和差异；本轮 README 与模板增量及验证见[本轮盘点与交接](#本轮盘点与交接)。新提交的 CI 仍以 Actions 的后续运行结果为准。
 
 参考：[Issue Forms 配置](https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/configuring-issue-templates-for-your-repository)、[Topics](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/classifying-your-repository-with-topics)、[分享封面](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/customizing-your-repositorys-social-media-preview)。

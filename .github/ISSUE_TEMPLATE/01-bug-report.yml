@@ -5,12 +5,12 @@ body:
   - type: markdown
     attributes:
       value: |
-        感谢帮助改进 WordTap。请使用最小示例，不要公开凭据、个人学习备份或漏洞利用细节；安全问题请私下联系维护者。
+        感谢帮助改进 WordTap。请使用最小示例，不要公开凭据、个人学习备份或漏洞利用细节；安全问题请按[安全策略](https://github.com/hawkhai/wordtap.cn/security/policy)私下报告。
   - type: input
     id: environment
     attributes:
       label: 运行环境
-      description: 填写操作系统、浏览器及版本；本地运行时补充 Node、Python 或 Gateway 版本。
+      description: 填写操作系统、浏览器及版本；本地运行时补充 Node、npm 版本，朗读问题补充是否使用 Gateway。
     validations:
       required: true
   - type: input

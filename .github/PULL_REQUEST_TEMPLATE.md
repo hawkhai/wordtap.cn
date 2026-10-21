@@ -2,6 +2,8 @@
 
 说明解决的问题、对应 Issue，以及修改前后的行为。
 
+提交前阅读[贡献指南](https://github.com/hawkhai/wordtap.cn/blob/main/CONTRIBUTING.md)；安全问题按[安全策略](https://github.com/hawkhai/wordtap.cn/security/policy)私下报告。
+
 ## 验证方式
 
 填写执行的检查、结果和未覆盖项。纯文档核对链接与示例命令；涉及功能时按改动范围验证。

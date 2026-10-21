@@ -6,3 +6,6 @@ contact_links:
   - name: 英语学习入门教程
     url: https://github.com/hawkhai/wordtap.cn/blob/main/docs/english-learning-guide.md
     about: 用两句英文学习点词查义、听读入口和跟打纠错。
+  - name: 安全问题
+    url: https://github.com/hawkhai/wordtap.cn/security/policy
+    about: 查看私密报告方式；不要将漏洞细节填入普通 Issue。

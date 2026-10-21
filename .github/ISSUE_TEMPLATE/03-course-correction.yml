@@ -5,7 +5,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        感谢帮助改进 WordTap。请使用最小示例，不要公开凭据、个人学习备份或漏洞利用细节；安全问题请私下联系维护者。
+        感谢帮助改进 WordTap。请使用最小示例，不要公开凭据、个人学习备份或漏洞利用细节；安全问题请按[安全策略](https://github.com/hawkhai/wordtap.cn/security/policy)私下报告。
   - type: input
     id: course
     attributes:
