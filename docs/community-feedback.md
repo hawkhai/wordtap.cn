@@ -12,4 +12,4 @@
 
 每次发布或调整前确认：标语、核心功能、截图状态和备份说明与实际版本一致。此表不触发发布、通知或定时任务。
 
-2026-10-21 基线来自[GitHub 公开仓库信息](https://api.github.com/repos/hawkhai/wordtap.cn)：3 Star、0 Fork。站点访问、GitHub 点击和学习反馈尚未取得，表格留空；未发生推广发布，不将现有数量归因为本轮改动。
+2026-10-21 基线来自[GitHub 开源版仓库信息](https://api.github.com/repos/hawkhai/wordtap.cn)：3 Star、0 Fork。站点访问、GitHub 点击和学习反馈尚未取得，表格留空；未发生推广发布，不将现有数量归因为本轮改动。

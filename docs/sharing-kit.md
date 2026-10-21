@@ -8,6 +8,8 @@ WordTap 是一款以英语点读为核心的开源英语学习工具。点击英
 
 WordTap is an open-source English learning tool with tap-to-read dictionary lookup, pronunciation, vocabulary learning, and article typing practice.
 
+版本称呼统一为“个人版”和“开源版”；本页推广文案及学习入口指向开源版。
+
 ## 日常英语学习
 
 **建议标题：英语点读为学习而生：用 WordTap 查词、听读，再练一遍拼写**
@@ -45,7 +47,7 @@ WordTap，英语点读为学习而生。点词查义、看音标、听发音，�
 - [网站分享封面，1200 × 630](../public/media/english-learning/wordtap-site-cover.jpg)。网站 Open Graph 和 Twitter 元数据引用此图。
 - 博客使用同版 1200 × 630 封面，并配置文章专属分享元数据。
 - [20 秒学习步骤演示](../public/media/english-learning/wordtap-20s.gif)无音轨，由五张真实截图组成，不代表实际声音、输入速度或学习效果。
-- 本地保存不等于完整离线或自动跨设备同步。在线查词和语音会使用相应服务。当前公开站完整备份包含文章与跟打进度；个人版旧格式需另外保存文章。
+- 本地保存不等于完整离线或自动跨设备同步。在线查词和语音会使用相应服务。当前开源版完整备份包含文章与跟打进度；个人版旧格式需另外保存文章。
 - 页头 GitHub 入口及跟打完成后的邀请均可自愿使用，不弹窗、不阻挡学习，不请求远程 Star 数。
 
 ## 分步推广与人工记录

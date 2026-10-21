@@ -967,7 +967,7 @@ onUnmounted(() => {
           href="https://github.com/hawkhai/wordtap.cn"
           target="_blank"
           rel="noopener noreferrer"
-        >开源地址</a>
+        >开源版源码</a>
         <span class="study-icp-sep">·</span>
         {{ copy.template.icp }}
       </div>

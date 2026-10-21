@@ -81,7 +81,7 @@ function courseFooter(depth) {
         <span aria-hidden="true">·</span>
         <a href="https://omniscient-house-4e0.notion.site/385148a126c1807bb8dcc63bab2ea096" target="_blank" rel="noopener noreferrer">高级软件工程</a>
         <span aria-hidden="true">·</span>
-        <a href="https://github.com/hawkhai/wordtap.cn" target="_blank" rel="noopener noreferrer">项目源码</a>
+        <a href="https://github.com/hawkhai/wordtap.cn" target="_blank" rel="noopener noreferrer">开源版源码</a>
         <span aria-hidden="true">·</span>
         <span>粤ICP备17134686号-3</span>
       </nav>

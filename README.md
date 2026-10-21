@@ -2,6 +2,8 @@
 
 **点词查义 · 听读发音 · 文章跟打**
 
+本仓库为 WordTap **开源版**。两个主站版本统一称为：**个人版**（`wordtap_web`）和 **开源版**（[`wordtap.cn`](https://github.com/hawkhai/wordtap.cn)）。
+
 [![在线学习](https://img.shields.io/badge/开始学习-wordtap.cn-165DFF)](https://wordtap.cn/)
 [![Code License: Apache-2.0](https://img.shields.io/badge/Code%20License-Apache--2.0-blue.svg)](LICENSE)
 
@@ -263,9 +265,9 @@ http://127.0.0.1:18765
 
 本项目沿用 cf-design / Arco Design 的阅读优先风格，技能来源、设计变量、响应式宽度和交互约定见 [STYLE_GUIDE.md](STYLE_GUIDE.md)，同步说明见 [CF_DESIGN_NOTES.md](CF_DESIGN_NOTES.md)。Vue 和静态生成网页共享主题变量；功能迭代应同时检查这两条渲染路径。`npm run build` 检查全部生成页面的风格；`npm test` 包含主题回归测试。
 
-## 开源版与完整版
+## 开源版与个人版
 
-开源版保留全部已发布 Web 学习功能；Gateway 与安装器独立交付，原始内容重建和历史审核由完整版负责。功能对照与验收见 [开源版对齐记录](OPEN_SOURCE_ALIGNMENT.md)。
+开源版保留全部已发布 Web 学习功能；Gateway 与安装器独立交付，原始内容重建和历史审核由个人版负责。功能对照与验收见 [开源版对齐记录](OPEN_SOURCE_ALIGNMENT.md)。
 
 原七套课程共 1,054 份，另有 1,181 篇词汇文章。词汇按每篇最多 100 词组合，最后不足 100 词的独立成篇，保留所有原始释义、音标和例句；运行 JSON 共 1,205 个。词汇不再生成静态目录和单元内容页、也不收录到 sitemap，`/english-vocabulary/` 仅保留进入学习工具的跳转入口。旧分享链接定位到包含原单元的新文章，已保存的旧 20 词文章及跟打草稿兼容恢复。120 篇文章仍待来源确认，16 处词汇源数据问题原样保留；当前发布检查不代表历史审核完成。对应标识、来源与哈希见 [发布说明](content/release/README.md)。
 
