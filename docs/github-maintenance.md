@@ -13,7 +13,7 @@
 WordTap｜英语点读为学习而生。点词查义、音标与发音、句子听读、词汇积累和文章跟打。无需注册，学习记录保存在浏览器。Open-source English learning with dictionary lookup, pronunciation and typing practice.
 ```
 
-修改 README 不会自动同步 GitHub About、Topics 或 Social preview。项目介绍、源码与反馈链接均使用本仓库地址，不设置仓库对照或分流入口。
+修改 README 不会自动同步 GitHub About、Topics 或 Social preview。项目介绍、源码与反馈链接均使用本仓库地址，不设置仓库对照或分流入口。页面、README、教程和分享文案中的 Star 支持入口统一指向 [hawkhai/wordtap.cn](https://github.com/hawkhai/wordtap.cn)。
 
 ## Topics
 

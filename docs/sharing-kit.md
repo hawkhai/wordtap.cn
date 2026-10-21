@@ -39,7 +39,7 @@ WordTap，英语点读为学习而生。点词查义、看音标、听发音，�
 - GitHub 源码：[hawkhai/wordtap.cn](https://github.com/hawkhai/wordtap.cn)
 - 学习反馈：[GitHub Issues](https://github.com/hawkhai/wordtap.cn/issues)
 
-这次学习对你有帮助？欢迎给 WordTap 点个 Star，支持后续维护。
+这次学习对你有帮助？欢迎给 [WordTap 点个 Star](https://github.com/hawkhai/wordtap.cn)，支持后续维护。
 
 ## 分享素材与边界
 
