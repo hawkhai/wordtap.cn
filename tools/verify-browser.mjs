@@ -138,6 +138,10 @@ try {
   for (const route of routes) {
    const response = await page.goto(base+route);
    if(response.status()!==200) throw new Error('Deep route failed: '+route);
+   if(route === '/english-vocabulary/') {
+    await page.waitForURL(url => url.pathname === new URL(base+'/').pathname && url.hash === '#study', {waitUntil:'domcontentloaded'});
+    await page.locator('.brand-tagline').waitFor();
+   }
    if(await page.evaluate(()=>Math.max(document.documentElement.scrollWidth,document.body.scrollWidth)>innerWidth)) throw new Error('Static page overflow: '+route+' at '+width);
    if(route.startsWith('/install/')) {
     const href = await page.locator('a.install-action-primary').getAttribute('href');

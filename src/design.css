@@ -134,6 +134,12 @@ body { background: var(--wt-background); color: var(--wt-text); }
 .study-word-annotated .study-word-ipa { font-size: .8em; line-height: 1.5; color: var(--wt-secondary); }
 .study-reader .study-word-phonetic-missing { border-bottom: 1px dashed var(--wt-secondary); }
 .study-reader .study-word-phonetic-error { border-bottom: 1px dotted var(--wt-secondary); }
+.study-header-meta { display: flex; align-items: center; gap: 12px; width: 100%; min-width: 0; }
+.study-header-meta .study-status { flex: 1; min-width: 0; }
+.study-project-link { display: inline-flex; flex: none; align-items: center; gap: 4px; min-height: var(--wt-control-height); color: var(--wt-primary); font-size: var(--wt-text-ui); font-weight: 400; line-height: 1.6; text-decoration: underline; text-underline-offset: 3px; white-space: nowrap; transition: color 150ms ease-out; }
+.study-project-link:hover, .study-project-link:active { color: var(--wt-primary-hover); }
+.study-project-link:focus-visible { outline: 2px solid var(--wt-primary); outline-offset: 4px; border-radius: 2px; }
+.study-project-support { flex-basis: 100%; margin: 0; color: var(--wt-secondary); font-size: var(--wt-text-caption); font-weight: 400; line-height: 1.6; }
 .study-top-download { background: #e8f3ff; color: #072ca6; box-shadow: none; }
 .study-top-download-link { color: var(--wt-primary); background: white; }
 .study-text-history-bar { color: var(--wt-secondary); }

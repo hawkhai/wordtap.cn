@@ -4,6 +4,7 @@ import ReadingDisplayControls from "../../shared/components/ReadingDisplayContro
 import ReadingText from "../../shared/components/ReadingText.vue";
 import ArticleTypingPanel from "../../shared/components/ArticleTypingPanel.vue";
 import BrandIdentity from "../../shared/components/BrandIdentity.vue";
+import ProjectLink from "../../shared/components/ProjectLink.vue";
 import ArticleTypingOptions from "../../shared/components/ArticleTypingOptions.vue";
 import MaterialSubmission from "../../shared/components/MaterialSubmission.vue";
 import ArticleInputHint from "../../shared/components/ArticleInputHint.vue";
@@ -250,14 +251,17 @@ onUnmounted(() => {
               {{ copy.template.navIpa }}
             </button>
           </nav>
-          <div
-            class="study-status max-w-full px-3 py-2 text-sm sm:max-w-md"
-            :class="{ 'study-status-hidden': activeView !== 'study' }"
-            :aria-hidden="activeView !== 'study' ? 'true' : undefined"
-            role="status"
-            data-testid="status-text"
-          >
-            <span class="study-status-text">{{ status }}</span>
+          <div class="study-header-meta">
+            <div
+              class="study-status max-w-full px-3 py-2 text-sm sm:max-w-md"
+              :class="{ 'study-status-hidden': activeView !== 'study' }"
+              :aria-hidden="activeView !== 'study' ? 'true' : undefined"
+              role="status"
+              data-testid="status-text"
+            >
+              <span class="study-status-text">{{ status }}</span>
+            </div>
+            <ProjectLink />
           </div>
         </div>
       </header>

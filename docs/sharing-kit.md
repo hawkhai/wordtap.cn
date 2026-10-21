@@ -1,56 +1,55 @@
-# WordTap 项目介绍与分享文案
+# WordTap 英语学习介绍与分享文案
 
-介绍 WordTap 时，先让读者看到一个具体场景：**把正在读的英文粘贴进来，在原句旁查词，再跟打同一段材料。** [五步图文教程](technical-english-reading.md) 可以直接用作第一次体验的入口。
+**英语点读为学习而生**
 
-## 一句话介绍
+**点词查义 · 听读发音 · 文章跟打**
 
-WordTap 是开源英语阅读与文章跟打工具：粘贴自己的英文，在原句旁查中文释义、听发音，再用同一段材料逐句练习输入；无需注册，学习记录保存在当前浏览器。
+WordTap 是一款以英语点读为核心的开源英语学习工具。点击英文单词即可查看释义、音标并听发音，结合课文阅读、词汇积累和文章跟打，让理解、听读与拼写练习围绕同一份学习材料展开。 可以选择内置课程，也可以使用自己的英文材料。无需注册，学习记录保存在当前浏览器。
 
-English: WordTap is an open-source English reading and typing practice tool for Chinese-speaking learners. Paste your own text, tap words for Chinese definitions and pronunciation, then practice typing the same passage. No account required; study records stay in your browser.
+WordTap is an open-source English learning tool with tap-to-read dictionary lookup, pronunciation, vocabulary learning, and article typing practice.
 
-## 面向开发者的介绍
+## 日常英语学习
 
-**建议标题：读 README 被生词打断？试试把原文查词和跟打放在一起的 WordTap**
+**建议标题：英语点读为学习而生：用 WordTap 查词、听读，再练一遍拼写**
 
-读 README、API 说明或英文报错时，查完词还要回到原句找上下文。WordTap 把这些步骤放进一个浏览器工作区：粘贴英文正文，点词看中文释义、听发音，读懂后直接跟打同一段材料。跟打会指出具体字母错误，也能保存草稿和进度。
+遇到不认识的单词，点一下看中文释义和音标、听发音；回到句子读懂意思，再通过文章跟打练习拼写。WordTap 把这些步骤放在同一个学习工作区，可以选课文、词库，也可以使用自己的英文材料。
 
-可以先用两句缓存说明试一次，也可以换成你今天正在读的文档。无需注册，基础阅读、ECDICT 查词和文章跟打无需安装额外服务。跟打比较英文字母，忽略大小写、空格和标点，适合英文句子练习。
+从两句英文开始即可，无需注册。文章、查词记录和跟打草稿保存在当前浏览器，下次继续学习。
 
-在线试用：[wordtap.cn](https://wordtap.cn/) · 五步教程：[原文查词，再逐句跟打](https://github.com/hawkhai/wordtap.cn/blob/main/docs/technical-english-reading.md) · 源码：[hawkhai/wordtap.cn](https://github.com/hawkhai/wordtap.cn)
+配图使用[点读截图](../public/media/english-learning/02-lookup.jpg)；需要展示练习时再加[拼写反馈截图](../public/media/english-learning/03-typing-error.jpg)。
 
-如果这种方式对你有用，欢迎给项目一个 Star，也欢迎反馈你在读哪类材料、哪一步最不顺手。
+## 教材与词汇学习
 
-**配图：** 首选教程图 2（`cache` 原句查词）；若能放两张，再加图 3（`responsex` 字母纠错）。图片下使用教程已有图注，让读者知道需要观察哪里。
+**建议标题：把课文、词汇和拼写练习连起来：WordTap 开源英语学习工具**
 
-## 面向英语学习者的介绍
+从课程菜单选择课文，或在“英语词汇”中选择词库、搜索词头，结合释义、音标和例句学习。听读以后，可以用同一篇文章或词汇例句跟打巩固拼写；草稿和进度保留在当前浏览器，按自己的节奏继续。
 
-**建议标题：用自己选的英文练阅读和拼写：WordTap 开源工具**
+适合学生、自学者、备考者，也适合老师、家长和学习搭子准备材料或陪伴练习。
 
-如果你想精读课文、文章或邮件，可以试试 WordTap：把一小段英文粘贴进去，点击生词看中文释义、听发音，读懂后逐句跟打。练习材料由你选择，查词和输入都围绕同一段原文进行。
+配图使用[自己的学习材料](../public/media/english-learning/01-read.jpg)和[完成练习](../public/media/english-learning/05-completed.jpg)。不把课程数量当作学习效果，也不将跟打完成描述为已经掌握。
 
-无需注册，可以从 2–5 句开始。查过的词、文章和跟打进度保存在当前浏览器；换设备前要导出备份，不会自动同步。
+## 短介绍与统一链接
 
-在线体验：[wordtap.cn](https://wordtap.cn/) · 第一次练习：[五步图文教程](https://github.com/hawkhai/wordtap.cn/blob/main/docs/technical-english-reading.md) · 开源项目：[GitHub](https://github.com/hawkhai/wordtap.cn)
+WordTap，英语点读为学习而生。点词查义、看音标、听发音，结合课文、词汇和文章跟打练习；可以选内置材料，也可以使用自己的英文。无需注册，学习记录保存在当前浏览器。
 
-**配图：** 使用教程图 1（放入自己的材料）和图 2（原句旁查词）；更完整的操作留给教程，不必在短介绍里放满五张图。
+- 开始学习：[wordtap.cn](https://wordtap.cn/)
+- 入门教程：[点读查词、听读发音与文章跟打](english-learning-guide.md)
+- 公开源码：[hawkhai/wordtap.cn](https://github.com/hawkhai/wordtap.cn)
+- 学习反馈：[GitHub Issues](https://github.com/hawkhai/wordtap.cn/issues)
 
-## 短介绍
+这次学习对你有帮助？欢迎给 WordTap 点个 Star，支持后续维护。
 
-读英文时，能不能查完词就接着读，再用原文练一遍？WordTap 把点词查中文释义、听发音和逐句跟打放在一起。粘贴自己的材料即可开始，无需注册，学习记录本地保存。试用：[wordtap.cn](https://wordtap.cn/)；源码：[GitHub](https://github.com/hawkhai/wordtap.cn)。
+## 分享素材与边界
 
-## 推荐的发布顺序
+- [仓库分享封面，1280 × 640](../public/media/english-learning/wordtap-github-cover.jpg)。需由维护者另行设置 GitHub Social preview；准备文件不表示已经上传。
+- [网站分享封面，1200 × 630](../public/media/english-learning/wordtap-site-cover.jpg)。网站 Open Graph 和 Twitter 元数据引用此图。
+- 博客使用同版 1200 × 630 封面，并配置文章专属分享元数据。
+- [20 秒学习步骤演示](../public/media/english-learning/wordtap-20s.gif)无音轨，由五张真实截图组成，不代表实际声音、输入速度或学习效果。
+- 本地保存不等于完整离线或自动跨设备同步。在线查词和语音会使用相应服务。当前公开站完整备份包含文章与跟打进度；个人版旧格式需另外保存文章。
+- 页头 GitHub 入口及跟打完成后的邀请均可自愿使用，不弹窗、不阻挡学习，不请求远程 Star 数。
 
-1. 先重拍图 2 与图 3，检查图片缩到正文宽度后仍能看清词义与错误提示。再补齐另外三张；参考 [截图拍摄清单](../public/media/technical-english/README.md)。
-2. 同时替换仓库和博客的同名图片，更新拍摄来源。GIF 需要单独更新；未更新时可以先移除动图入口。
-3. 发布 README、教程和博客后，逐个确认试用、源码与图片链接；用手机再读一遍博客。先发布一篇完整博客，再针对你已参与的技术或学习社区选择一版短介绍。
-4. 发布后记录读者提出的实际问题。下一篇内容可以回答“拿什么材料练”“如何恢复进度”或一个真实的浏览器兼容问题，让每次分享提供新信息。
+## 分步推广与人工记录
 
-不要只记录 Star 数。也记录哪些介绍带来了访问、读者是否顺利完成第一次练习、哪些步骤被反复询问。来源数据只使用已经可用的统计或自愿反馈；这份文案不要求增加用户追踪。
+先验证学习教程、截图和链接，再使用上面两套文案向相关英语学习者介绍。记录具体反馈，用于修正教程或体验；每次分享提供新的学习信息，不批量重复发布。
 
-## GitHub 入口检查
-
-仓库已有在线体验地址、双语 About、英语学习／词典／跟打等 Topics，以及网站与练习完成区的 GitHub 入口。下一步优先改进截图和首次体验，保持项目介绍、教程与站点摘要一致。
-
-GitHub 的 [README 文档](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes) 强调说明项目用途、价值和使用方式；[Topics 文档](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/classifying-your-repository-with-topics) 说明相关主题能帮助读者发现项目。这些入口值得维护，但不能据此保证 Star 增长。
-
-如需设置仓库 Social preview，可在新截图确认后制作一张突出项目名称、原句查词和跟打反馈的预览图。GitHub 推荐 1280 × 640；具体设置见 [官方说明](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/customizing-your-repositorys-social-media-preview)。仓库 Social preview、网站 Open Graph 图片和文章正文截图是三个独立入口，更新其中一处不会自动更新另外两处。
+[人工观察表](community-feedback.md)记录已有统计中的访问来源、GitHub 点击与 Star 净增。未取得的数据留空，不伪造访问或归因。不增加用户追踪、自动化或发布动作。

@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { computed, nextTick, onBeforeUnmount, ref, watch } from "vue";
+import ProjectLink from "./ProjectLink.vue";
 import type { Segment } from "../types/app";
 import type { TypingSentence, TypingState } from "../utils/articleTyping";
 import { segmentReadingLine } from "../utils/readingWords";
@@ -139,6 +140,7 @@ watch(() => [props.state.current, props.finished, currentCompleted.value], async
       <strong>已完成这篇文章的跟打</strong>
       <button type="button" class="study-button" @click="emit('restartSentence')">重练所选句</button>
       <button type="button" class="study-button study-button-primary" @click="emit('restartAll')">重新练习</button>
+      <p class="study-project-support">这次学习对你有帮助？欢迎给 WordTap 点个 Star，支持后续维护。 <ProjectLink /></p>
     </div>
 
     <template v-else-if="currentSentence">

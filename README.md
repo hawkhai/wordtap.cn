@@ -1,45 +1,50 @@
-# WordTap — 英语阅读、点读查词与文章跟打
+# WordTap — 英语点读为学习而生
 
-**English reading, vocabulary learning & typing practice.**
+**点词查义 · 听读发音 · 文章跟打**
 
-[![在线体验](https://img.shields.io/badge/在线体验-wordtap.cn-176454)](https://wordtap.cn/)
+[![在线学习](https://img.shields.io/badge/开始学习-wordtap.cn-165DFF)](https://wordtap.cn/)
 [![Code License: Apache-2.0](https://img.shields.io/badge/Code%20License-Apache--2.0-blue.svg)](LICENSE)
 
-**把你正在读的英文，变成一段可查词、听读和跟打的练习。** WordTap 是面向中文学习者的开源英语阅读工具：粘贴 README、API 说明、文章或邮件中的一段正文，在原句旁查生词，再用同一段材料练习输入。无需注册，学习记录保存在当前浏览器中。
+WordTap 是一款以英语点读为核心的开源英语学习工具。点击英文单词即可查看释义、音标并听发音，结合课文阅读、词汇积累和文章跟打，让理解、听读与拼写练习围绕同一份学习材料展开。 可以选择内置课程，也可以使用自己的英文材料。无需注册，学习记录保存在当前浏览器。
 
-WordTap is an open-source English learning web app for Chinese-speaking learners. Read your own text, tap words for Chinese definitions and pronunciation, listen to sentences, and practice typing the same article. Study records are stored in your browser.
+WordTap is an open-source English learning tool with tap-to-read dictionary lookup, pronunciation, vocabulary learning, and article typing practice.
 
-**[立即使用 WordTap](https://wordtap.cn/)** · [快速上手](#快速上手) · [英文技术文档阅读教程](docs/technical-english-reading.md) · [本地运行](#开发命令) · [English overview](#english-overview) · [反馈问题](https://github.com/hawkhai/wordtap.cn/issues)
+**[开始学习](https://wordtap.cn/)** · [快速上手](#快速上手) · [英语学习入门教程](docs/english-learning-guide.md) · [本地运行](#开发命令) · [English overview](#english-overview) · [反馈问题](https://github.com/hawkhai/wordtap.cn/issues)
 
-<a href="https://wordtap.cn/"><img src="public/media/technical-english/02-lookup.jpg" alt="WordTap 实际查词界面：点击英文技术短文中的 cache，在原句旁查看中文释义" width="912" style="width: 912px; max-width: 100%; height: auto;"></a>
+<a href="https://wordtap.cn/"><img src="public/media/english-learning/02-lookup.jpg" alt="WordTap 英语学习示例：点击 learn，查看原文旁的中文释义和音标" width="912" style="width: 912px; max-width: 100%; height: auto;"></a>
 
-*点击 `cache`，在原句旁看中文释义；读懂后，可直接进入文章跟打，用同一段英文练习输入。截图于 2026-10-12 拍摄自 WordTap 官网，入口可能随版本更新。*
+*点击 `learn` 查义、看音标并听发音，回到句子理解内容，再用同一份材料跟打练习。截图来自 2026-10-21 本地构建预览，入口可能随版本更新。*
 
-[查看截图原图（912 × 276）](public/media/technical-english/02-lookup.jpg)。想先试一次？跟着 [五张操作图](docs/technical-english-reading.md)，用两句缓存说明体验原文查词、字母纠错和完成练习。
+[查看点读截图原图](public/media/english-learning/02-lookup.jpg) · [跟着五张操作图完成第一次学习](docs/english-learning-guide.md)
 
 <details>
-<summary>看 20 秒步骤演示：粘贴英文 → 点词查释义 → 跟打纠错 → 完成练习</summary>
+<summary>看 20 秒学习步骤：点读查词 → 听读入口 → 跟打纠错 → 完成练习</summary>
 
-<a href="public/media/technical-english/wordtap-20s.gif"><img src="public/media/technical-english/wordtap-20s.gif" alt="WordTap 20 秒步骤演示：阅读技术英文、查 cache、修正拼写并完成两句跟打" width="1000" style="width: 1000px; max-width: 100%; height: auto;"></a>
+<a href="public/media/english-learning/wordtap-20s.gif"><img src="public/media/english-learning/wordtap-20s.gif" alt="WordTap 英语学习五步演示：使用自己的材料、点词查义、修正 everx、确认并完成跟打" width="1000" style="width: 1000px; max-width: 100%; height: auto;"></a>
 
-动图由五张实际操作截图组成，增加画面外的步骤标题和图注，无音轨：粘贴原文、点击 `cache` 查释义、修正 `responsex`、确认第二句、完成练习。它展示操作顺序，不代表实际打字速度。想自己试一遍，见[图文教程与可复制的示例](docs/technical-english-reading.md)。
+动图由五张真实操作截图组成，使用同一段原创学习示例，无音轨；展示操作步骤，不代表打字速度、实际声音或学习效果。
 
 </details>
 
 ## 快速上手
 
 1. 打开 **[wordtap.cn](https://wordtap.cn/)**，无需注册。
-2. 粘贴自己的英文文章，或从课程菜单选择一篇材料。
-3. 点击不认识的单词，查看释义、听发音；也可以打开音标显示、使用句末朗读按钮。
-4. 开启文章跟打，逐句练习；之后在“我的单词”查看查过的词，继续阅读或练习。
+2. 从课程菜单选择课文或词库，或者输入、粘贴自己的英文材料。
+3. 点击生词查中文释义、看音标、听发音，也可以使用句末按钮听整句。
+4. 读懂后进入文章跟打，逐句练习拼写；在“我的单词”查看查过的词，下次继续文章和练习进度。
 
-基础阅读、ECDICT 查词和文章跟打无需安装 Gateway。单词发音优先使用浏览器语音；可选的 Windows Gateway 提供更高质量的全文朗读及部分在线查词能力，见[安装说明](https://wordtap.cn/install/gateway/)。
+基础点读、ECDICT 查词和文章跟打无需安装 Gateway。浏览器语音可用于发音；可选 Windows Gateway 提供更高质量的全文朗读及部分在线查词能力，见[安装说明](https://wordtap.cn/install/gateway/)。
 
-### 从一小段英文技术文档开始
+### 从两句英文开始学习
 
-读 README、API 说明或英文报错时，可以先把需要理解的一小段正文放进 WordTap。点词查释义后，回到句子判断它在当前上下文里的意思，再用文章跟打练一遍。**[跟着教程完成第一次练习](docs/technical-english-reading.md)**：用两句原创的缓存说明，体验查词、拼写反馈和进度恢复。
+```text
+I learn a little English every day.
+New words help me understand the world.
+```
 
-跟打按英文字母校验，忽略大小写、空格和标点；适合英文句子练习，不能用于检查代码语法或命令是否正确。
+先理解句意，点查影响理解的词，再听句子，最后跟打一遍。[英语学习入门教程](docs/english-learning-guide.md)展示完整步骤，也介绍怎样选择课程、积累词汇和恢复练习进度。
+
+跟打按英文字母校验，忽略大小写、空格和标点；完成表示本次输入练习结束，不等于已经掌握句意或发音。
 
 ## 用同一篇文章练阅读、听读和输入
 
@@ -52,7 +57,7 @@ WordTap is an open-source English learning web app for Chinese-speaking learners
 | 学习教材、词库和考试阅读 | 从课程或词库进入阅读与练习，菜单记住分组、最近课文和滚动位置 |
 | 在自己的设备上管理数据 | 浏览器本地保存，支持导出完整学习备份并在另一设备手动导入 |
 
-适合英语自学者、四六级／考研备考者、准备阅读材料的老师，也适合每天阅读英文技术文档、论文摘要或邮件的人。可以直接粘贴自己的材料，从眼前这一段英文开始。跟打练习使用当前文章或所选片段，练习材料由你决定。
+适合学生、英语自学者、四六级／考研备考者，以及准备材料或陪伴学习的教师、家长。可以从内置课程和词库开始，也可以使用自己的材料；点读、听读和跟打都服务于当前的英语学习。
 
 ## 课程与词库
 
@@ -83,7 +88,7 @@ WordTap is an open-source English learning web app for Chinese-speaking learners
 
 ## English overview
 
-WordTap brings **English reading, dictionary lookup, text-to-speech (TTS), vocabulary learning, and article typing practice** into one browser workspace. The interface and dictionary definitions are primarily in Chinese.
+WordTap is an open-source English learning tool with tap-to-read dictionary lookup, pronunciation, vocabulary learning, and article typing practice. The interface and dictionary definitions are primarily in Chinese.
 
 - Paste your own English text or choose a published lesson or vocabulary unit.
 - Tap a word for its Chinese definition and pronunciation; display IPA phonetics while reading.
@@ -91,7 +96,7 @@ WordTap brings **English reading, dictionary lookup, text-to-speech (TTS), vocab
 - Keep study records in browser storage and transfer them manually with a learning-data backup.
 - Run the Vue 3 + TypeScript + Vite web client locally. The optional Windows Gateway is distributed separately.
 
-Reading technical documentation? Start with a short paragraph from a README or API guide, then practice the same sentences. See the [step-by-step technical English tutorial (Chinese)](docs/technical-english-reading.md). Typing practice checks English letters, not code syntax.
+Start with a lesson, a vocabulary unit, or your own English material. See the [English learning guide (Chinese)](docs/english-learning-guide.md) for dictionary lookup, pronunciation controls, typing feedback, and saved progress. Typing checks English letters, not comprehension or pronunciation.
 
 **[Try WordTap online](https://wordtap.cn/)** — no account required. Offline use is limited to cached resources; online translation and speech services may receive the words or text you ask them to process. Original code and documentation use Apache-2.0; third-party materials retain their own terms.
 
@@ -276,7 +281,7 @@ http://127.0.0.1:18765
 
 欢迎通过 [Issues](https://github.com/hawkhai/wordtap.cn/issues) 提交复现步骤、查词问题、课程勘误或使用建议；也欢迎改进文档、浏览器兼容性和阅读／跟打体验。应用内还提供资料提交邮件说明与微信功能建议入口。
 
-如果你想把 WordTap 介绍给朋友或学习社区，可以使用 [项目介绍与分享文案](docs/sharing-kit.md)，配上 [技术英文教程](docs/technical-english-reading.md) 中的一张操作图。
+如果你想把 WordTap 介绍给朋友或学习社区，可以使用 [项目介绍与分享文案](docs/sharing-kit.md)，配上 [英语学习入门教程](docs/english-learning-guide.md) 中的一张操作图。
 
 提交 Issue 或 Pull Request 前请阅读 [贡献指南](CONTRIBUTING.md)。安全漏洞请按 [SECURITY.md](SECURITY.md) 私下报告。
 

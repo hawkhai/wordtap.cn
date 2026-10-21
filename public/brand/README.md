@@ -1,6 +1,6 @@
 # WordTap 品牌 SVG
 
-`wordtap-brand.svg` 是浅色背景使用的完整横向标识，包含原有彩色图标、WordTap.cn 字标和“粘贴英文，点词听读”标语。
+`wordtap-brand.svg` 是浅色背景使用的完整横向标识，包含原有彩色图标、WordTap.cn 字标和“英语点读为学习而生”标语。
 
 - 原始画布：278 × 96，背景透明，缩放时保持宽高比。
 - Itim 字标与楷体标语已转为矢量路径，不依赖使用者安装字体。
@@ -11,7 +11,7 @@
 ```html
 <a href="https://wordtap.cn">
   <img src="/brand/wordtap-brand.svg"
-       alt="WordTap.cn — 粘贴英文，点词听读"
+       alt="WordTap.cn — 英语点读为学习而生"
        width="278" height="96"
        style="max-width: 100%; height: auto;">
 </a>
