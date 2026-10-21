@@ -1,6 +1,6 @@
 # WordTap GitHub 设置交接清单
 
-状态核对日期：2026-10-21。本文只记录本仓库的介绍、反馈入口、CI 与维护待办。历史提交不改写；本轮本地文件调整尚未 push，v2 不在修改范围。
+状态核对日期：2026-10-21。本文记录本仓库的介绍、反馈入口、依赖安全与 CI 状态；已验收基线为依赖修复提交 `663e9192`。下文固定链接对应该次已完成的验收，后续提交状态以 [Actions](https://github.com/hawkhai/wordtap.cn/actions) 为准。历史提交不改写，v2 不在修改范围。
 
 ## 仓库与 About
 
@@ -42,31 +42,36 @@ GitHub 的显示顺序可能按字母排序，以标签集合为准。Topics 不
 - 联系入口提供官网与本仓库的学习教程；不依赖 Labels 或 Assignees。
 - PR 模板要求改动目的、验证方式、界面截图和内容来源；避免公开凭据、学习备份或漏洞利用细节。
 
-本轮移除版本分流字段并调整介绍；文件需要在后续授权 push 后进入默认分支，才能改变 GitHub 原生表单。届时重新打开选择器和三张表单核对，不创建测试 Issue。PR 自动填入在下次真实 PR 时验收。
+README、反馈模板与介绍清理已随提交 `4e079bf0` push 到默认分支，后续依赖修复提交 `663e9192` 也已 push。本次只读核对了线上选择器：三类表单、Blank issue、在线学习与教程入口均已显示；安全反馈入口指向仓库安全策略。未创建真实 Issue 或 PR，PR 模板自动填入留待下次真实 PR 验收。
 
-## CI 与提交状态
+## 依赖安全、CI 与已验收提交
 
-远程 `main` 已包含 `d409959f383ee655a15c3dce5d985fef7bc0ffad`；对应 [Verify 工作流](https://github.com/hawkhai/wordtap.cn/actions/runs/39576548853)成功，任务名为 `verify`。本轮尚未 push 的反馈与介绍调整不包含在该次成功记录中。
+- [依赖修复提交 `663e9192`](https://github.com/hawkhai/wordtap.cn/commit/663e9192cce1a7825dc8d7c2724e38e049a48a32)已 push 到 `main`，其 [Verify 运行](https://github.com/hawkhai/wordtap.cn/actions/runs/39593944966)为 **Success**，任务名为 `verify`。
+- 原有 2 项 npm 依赖告警已修复。本次复核完整 `npm audit` 和 `npm audit --omit=dev` 均为 **0 项告警**。后续公告可能变化，复核方法及锁定版本见[开发指南](development.md#依赖安全状态)。
+- [工作流](../.github/workflows/verify.yml)使用 `ubuntu-latest`、Node.js 20.19.0，执行 `npm ci`、完整 `npm run verify` 和生成文件差异检查。完整构建、85 项回归、发布数据、静态页面、仓库与响应式检查均已通过。
+- `npm ci` 会输出审计摘要，目前没有独立的 `npm audit` 阻断步骤。
 
-CI 通过不代表公开站部署或实际听音已验收。环境要求、备份内容与安装包检查范围见[开发指南](development.md)。本轮不部署、不发布，也不修改分支规则或安全设置。
+本次只读复核了 About、Topics、Website、反馈选择器及上述 CI 结果，没有更改 GitHub 在线设置。源码 push 与 CI 成功不代表站点已部署；未进行部署、Release 或实际听音验收。Gateway 独立交付，验证范围见[开发指南](development.md)。
 
 ## 维护待办
 
-- [ ] 如需私密漏洞报告，开启 Private vulnerability reporting 并核对入口。较早核查时未开启；本轮未代为变更。
-- [ ] 按需整理 Wiki／Projects；最近核查时两项均开启，Discussions 关闭。
-- [ ] 为 `main` 配置合适的保护规则，禁止强推与删除，并按实际工作流选择 `verify` 检查。较早核查时分支保护未开启、Rulesets 为空；本轮未代为变更。
+- [x] 依赖安全修复已 push，审计为 0 项告警，对应 `verify` 运行成功。
+- [ ] 核对 Private vulnerability reporting 开关及私密报告入口；本次仅确认选择器可进入安全策略，未复核该开关或代为变更。
+- [ ] 按需整理 Wiki／Projects；上次记录为两项开启、Discussions 关闭，本次未复核这些开关。
+- [ ] 核对 `main` 的分支保护与 Rulesets，按实际协作需要禁止强推与删除，并选择已运行成功的 `verify` 检查。本次未复核当前规则，也未修改设置。
 - [ ] 检查 Dependabot alerts、安全更新、Secret scanning 与 Push protection 的可用性和开启状态；本轮未完整核查。
 - [ ] 单人维护按实际协作需要决定 PR、审批及规则例外，不添加无法满足的检查要求。
 - [ ] 按实际维护需要处理主页置顶和空入口；不因宣传而开启空讨论区。
 - [ ] 选择经过验证的提交安排 Release，说明环境、已知限制、学习备份范围及第三方内容许可；Gateway 独立交付，不附未经验证的安装包。
-- [ ] 本轮本地变更需另行授权提交或 push，线上 README、模板和静态站点仍以已发布内容为准。
+- [ ] 单独验收静态站点部署，不能根据源码已 push 推断网站已更新。
 
-## 本轮本地验证
+## 已完成的验收与范围
 
 - 三类 Issue Forms 的 YAML、字段 ID、必填项与联系入口检查通过；没有版本分流下拉框。
-- README、学习教程和本清单在 1440、390、360px 下共 9 项本地渲染检查通过；工作台与课程目录同宽度下共 6 项生产预览检查通过，无页面横向溢出或脚本错误。
+- 依赖修复后的完整 `npm run verify` 本地与远程均通过；干净副本 `npm run verify:browser` 通过，包含学习备份迁移、查词、跟打、词汇与考试、深层链接、实际端口 HMR 和 Service Worker 在线／离线缓存。
+- 生产页面在 1440、390、360px 下检查通过，查词、音标、跟打纠错与完成、刷新续练和 schemaVersion 4 完整备份导入导出正常，无页面横向溢出或脚本错误。朗读入口已检查，未人工听音；不包含 Gateway 安装器构建。
 - 项目链接均指向本仓库，当前维护内容中不保留其他仓库的版本称呼或地址；课程原文、学习数据和许可证未修改。
-- `npm run verify` 通过，包含完整构建、85 项回归、发布数据、静态页面、仓库与响应式检查；`git diff --check` 通过。
-- GitHub About 已保存；本轮 README、反馈模板及页面文案尚未 push，原生表单与已部署站点仍使用此前发布的内容。
+- README、反馈模板、介绍清理与依赖修复均已进入远程默认分支；About、Topics 与 Website 本次只读复核一致。站点部署状态单独验收。
+- 本次仅更新开发指南与本清单，文档链接、锚点、锁定版本和差异检查通过；两份文档在 1440、390、360px 下共 6 项本地渲染检查通过。未重复完整应用构建，文档提交对应 CI 以 Actions 的后续运行结果为准。
 
 参考：[Issue Forms 配置](https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/configuring-issue-templates-for-your-repository)、[Topics](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/classifying-your-repository-with-topics)、[分享封面](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/customizing-your-repositorys-social-media-preview)。

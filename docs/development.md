@@ -1,4 +1,4 @@
-# WordTap开发与维护指南
+# WordTap 开发与维护指南
 
 [返回项目介绍](../README.md) · [学习数据与使用边界](../README.md#学习数据与使用边界)
 
@@ -23,6 +23,41 @@ npm run verify
 独立浏览器验收使用 `npm run verify:browser`，需另行提供 Playwright 与 Chromium；配置项为 `WORDTAP_PLAYWRIGHT_MODULE`、`WORDTAP_CHROMIUM_EXECUTABLE`、`WORDTAP_TEST_URL`、`WORDTAP_TEST_OUTPUT`，输出默认在忽略的 `tmp/web-sync/`。普通构建及 CI 不下载浏览器。
 
 官方下载使用官方 HTTPS 地址；非官方部署保留原有跨域下载适配，缺少可选发布元数据时诊断显示无法确认。Gateway [安装说明](https://wordtap.cn/install/gateway/)独立提供。
+
+## 依赖安全状态
+
+2026-10-21 复核：[依赖安全修复提交 `663e9192`](https://github.com/hawkhai/wordtap.cn/commit/663e9192cce1a7825dc8d7c2724e38e049a48a32)已 push 到 `main`，原有 2 项 npm 依赖告警已修复。完整 `npm audit` 和 `npm audit --omit=dev` 均为 0 项告警；这是当日审计快照，后续以重新运行的结果为准。
+
+根目录声明的最低版本为 Vue `^3.5.42`、Vite `^7.3.7`；当前锁文件的相关版本如下：
+
+| 依赖 | 锁定版本 |
+| --- | --- |
+| Vue 及配套运行时、编译器 | 3.5.42 |
+| Vite | 7.3.7 |
+| esbuild | 0.28.2 |
+| PostCSS | 8.5.26 |
+| nanoid | 3.3.18 |
+| source-map-js | 1.2.2 |
+
+依赖修复采用兼容升级，仅调整根目录 `package.json` 与锁文件，没有修改应用逻辑或学习数据。复核命令：
+
+```bash
+npm ci
+npm audit
+npm audit --omit=dev
+npm ls vue vite esbuild postcss nanoid source-map-js
+npm run verify
+```
+
+后续升级先审阅依赖声明与锁文件差异，再运行完整验证。当前 CI 执行 `npm ci` 时会输出审计摘要，但尚未配置独立的 `npm audit` 阻断步骤。
+
+## GitHub CI 与已验收基线
+
+[Verify 工作流](../.github/workflows/verify.yml)在推送到 `main` 或提交 PR 时运行，使用 `ubuntu-latest` 与 Node.js 20.19.0，执行 `npm ci`、完整 `npm run verify`，最后用 `git diff --exit-code` 检查生成文件与受跟踪内容。任务名为 `verify`，权限为 `contents: read`；此工作流不部署站点或交付 Gateway 安装器。
+
+依赖修复提交 `663e9192` 的 [CI 已成功](https://github.com/hawkhai/wordtap.cn/actions/runs/39593944966)，包含完整构建、85 项回归测试、发布数据、静态页面、仓库与响应式检查，以及生成文件差异检查。后续提交的实时状态见 [Actions](https://github.com/hawkhai/wordtap.cn/actions)，不要把这条基线记录当成所有后续提交均已通过。
+
+同一依赖基线的本地验证使用 Node.js 20.19.0。干净副本的 `npm run verify:browser` 已通过，覆盖备份迁移、查词、跟打、词汇、考试、深层链接、HMR 与 Service Worker 在线／离线缓存；生产页面在 1440、390、360px 下检查通过，无页面错误或横向溢出。保留 schemaVersion 4 的五类学习备份。朗读入口已检查，未人工听音；Gateway 安装器不在本仓库的构建验证范围内。
 
 ## 代码结构
 
