@@ -1,0 +1,299 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-25",
+  "sourceCommit": "3246a6eea5720f9656fc21b1014a3e5a478064c9",
+  "correctedLessons": 20,
+  "corrections": 25,
+  "scope": "修复已确认的新概念英文转录错误；同步正文、问题与字幕，保持中文、课程身份、段落边界和音频时间轴。参考文本含误字与缺句，仅逐项采纳确认的修复。",
+  "lessons": [
+    {
+      "path": "public/nce/lessons/nce1/079.json",
+      "id": "nce1-079",
+      "beforeSha256": "7b58b896fcc8651531be25570f7f9dbe91df981cd2d525f2fb96f622b391f3d4",
+      "afterSha256": "640f39cf3d7fe0380ec2ca1c9d8f6f8d1c05b40fa8b1b033201cb664ee2ac843",
+      "edits": [
+        {
+          "before": "greengroce's",
+          "after": "greengrocer's"
+        }
+      ]
+    },
+    {
+      "path": "public/nce/lessons/nce1/117.json",
+      "id": "nce1-117",
+      "beforeSha256": "1b9d8759d888ea2d19a5c5ea85c08f8abf9b79d2052170e917c65dbcad0540f0",
+      "afterSha256": "8b4cbf724c126afd95c59bffb25740115ff896f7a37c471fd738b555bc292e62",
+      "edits": [
+        {
+          "before": "Late that morning",
+          "after": "Later that morning",
+          "verificationUrl": "https://tingroom.com/print_242.html"
+        }
+      ]
+    },
+    {
+      "path": "public/nce/lessons/nce1/137.json",
+      "id": "nce1-137",
+      "beforeSha256": "f34ce2a88f5080089f1cd9dc6acdb3dc267bc89732a19922d7a292df3b8ebd9e",
+      "afterSha256": "4932d9535ee678e33c9957792ffe7e9a2f7ad4e8358d1f01b877e26a59a9f0c5",
+      "edits": [
+        {
+          "before": "pools, Brain?",
+          "after": "pools, Brian?",
+          "verificationUrl": "https://www.bubeijuzi.com/nce/1/137"
+        }
+      ]
+    },
+    {
+      "path": "public/nce/lessons/nce1/141.json",
+      "id": "nce1-141",
+      "beforeSha256": "41df69d64cd041545f779f1a2622cfe281b5af5c7d2ab1bdd04efb5a3b14c73c",
+      "afterSha256": "413f51362df90f4ad96ad92b354953f80e086ab7a492b65aa7f6d79e372110af",
+      "edits": [
+        {
+          "before": "middle-age lady",
+          "after": "middle-aged lady",
+          "verificationUrl": "https://blog.sina.com.cn/s/blog_6f62d3a501017d4h.html"
+        }
+      ]
+    },
+    {
+      "path": "public/nce/lessons/nce2/082.json",
+      "id": "nce2-082",
+      "beforeSha256": "06d116d09e144c99b5852702046cf2d26b99aefb0265bea80030612ac0239edd",
+      "afterSha256": "e87da14b3fec5ea3c847b67c08d82fb332d0be6a4f155fdbdcab00f5e0cc5300",
+      "edits": [
+        {
+          "before": "been set to a museum",
+          "after": "been sent to a museum",
+          "verificationUrl": "https://www.bubeijuzi.com/nce/2/82"
+        }
+      ]
+    },
+    {
+      "path": "public/nce/lessons/nce3/005.json",
+      "id": "nce3-005",
+      "beforeSha256": "d898c1831a71f119294b8f433bfcbbfc8a9ef9123d0805d630d2fe6e16aa4514",
+      "afterSha256": "63d0871dddd7287dea064f4802b387f27be06f003fafc7c524a4e27adbc92beb",
+      "edits": [
+        {
+          "before": "15th foot wall",
+          "after": "fifteen-foot wall"
+        }
+      ]
+    },
+    {
+      "path": "public/nce/lessons/nce3/017.json",
+      "id": "nce3-017",
+      "beforeSha256": "57262a137f7265b0b1995fa5a7537602ae9dbaf9e282d4d30ce3e6e57a78a89e",
+      "afterSha256": "14534c1e33ba28324c1d9dc721301119c18e3f023fad7bd59d3af28a4f3fe8ee",
+      "edits": [
+        {
+          "before": "dream to creat",
+          "after": "dream to create",
+          "verificationUrl": "https://www.bubeijuzi.com/nce/3/17"
+        }
+      ]
+    },
+    {
+      "path": "public/nce/lessons/nce3/026.json",
+      "id": "nce3-026",
+      "beforeSha256": "d06d4be68d74f623702c1f2db89330ed53fd2ee3a4dc41fb1a81d41fbb3c8e15",
+      "afterSha256": "725f76154c98859fbb207670af9bffd109be91b0b3dbdfe1a63bd08f9e1b423f",
+      "edits": [
+        {
+          "before": "brought biscuit on a wheelbarrow",
+          "after": "brought in a biscuit on a wheelbarrow",
+          "verificationUrl": "https://nce.koolearn.com/20221012/805481.html"
+        }
+      ]
+    },
+    {
+      "path": "public/nce/lessons/nce3/034.json",
+      "id": "nce3-034",
+      "beforeSha256": "d54b3119df9bc82f20d700c40295dc584e9de3c54143e138e25a1f99c715464f",
+      "afterSha256": "e092d9c2bbc2676a27f0264b4da7c0b3c7805e5dd34f535ea284c8d3c904e476",
+      "edits": [
+        {
+          "before": "hundreds and thousands of pounds",
+          "after": "hundreds of thousands of pounds",
+          "verificationUrl": "https://www.bubeijuzi.com/nce/3/34"
+        }
+      ]
+    },
+    {
+      "path": "public/nce/lessons/nce3/039.json",
+      "id": "nce3-039",
+      "beforeSha256": "30fda6de8988493061e91f24721eb3701a65b7e102c6b5f36fdb5179b00888e9",
+      "afterSha256": "da0bd50bd2099293cb47324809b66c377e3ca2b6400079f8cc5e8f07966c40fb",
+      "edits": [
+        {
+          "before": "clumps bushes",
+          "after": "clumps of bushes",
+          "verificationUrl": "https://www.bubeijuzi.com/nce/3/39"
+        },
+        {
+          "field": "question",
+          "before": "differnce",
+          "after": "difference",
+          "verificationUrl": "https://www.wenxuecity.com/blog/201001/39966/16911.html"
+        }
+      ]
+    },
+    {
+      "path": "public/nce/lessons/nce3/047.json",
+      "id": "nce3-047",
+      "beforeSha256": "922f0d4fb8b834b0897afd53248a828369b9a5c0034fee09a9ebca76e374c89a",
+      "afterSha256": "10a80b4d187a6c159fe0da973b3a6c82cba8433a9f26931b2d0141c6f6767616",
+      "edits": [
+        {
+          "before": "but sheer volume",
+          "after": "but the sheer volume",
+          "verificationUrl": "https://www.bubeijuzi.com/nce/3/47"
+        },
+        {
+          "before": "Industriallized farming metheods",
+          "after": "Industrialized farming methods",
+          "verificationUrl": "https://www.bubeijuzi.com/nce/3/47"
+        },
+        {
+          "before": "affects urban area and",
+          "after": "affects urban areas and",
+          "verificationUrl": "https://www.bubeijuzi.com/nce/3/47"
+        },
+        {
+          "before": "places like restaurant or",
+          "after": "places like restaurants or",
+          "verificationUrl": "https://www.bubeijuzi.com/nce/3/47"
+        }
+      ]
+    },
+    {
+      "path": "public/nce/lessons/nce3/050.json",
+      "id": "nce3-050",
+      "beforeSha256": "1d486e395f637ee047c86d5455dec8b18e48ef49bec01349ce34a2eea8dee31d",
+      "afterSha256": "dd4618d8e1f07b4bbe367c21760854d060f9c3eeb24faba3a2821becef2b5fe2",
+      "edits": [
+        {
+          "before": "sel-improvement",
+          "after": "self-improvement",
+          "verificationUrl": "https://www.bubeijuzi.com/nce/3/50"
+        }
+      ]
+    },
+    {
+      "path": "public/nce/lessons/nce3/052.json",
+      "id": "nce3-052",
+      "beforeSha256": "b0c44a06498e8f91e3c95a9e343ce0514d1d0e3b235ba3f99277c1768361a460",
+      "afterSha256": "b1dd0559988718e761bc1498cab85caef84c5200fbd1e0b5209a7c71e379daf4",
+      "edits": [
+        {
+          "before": "The brief experiment would dispel any further doubts she might have.",
+          "after": "This brief experiment would dispel any further doubts you might have.",
+          "verificationUrl": "https://www.bubeijuzi.com/nce/3/52"
+        }
+      ]
+    },
+    {
+      "path": "public/nce/lessons/nce3/055.json",
+      "id": "nce3-055",
+      "beforeSha256": "7d123afa902f35101cf549fd604545f79056dd9f9e5a39ab692fd850a0d6eb53",
+      "afterSha256": "49b23ae2f4e9dee037776588942805bd396ebec4671ba44bd3328b7f6a63357a",
+      "edits": [
+        {
+          "before": "Venus is far to hot",
+          "after": "Venus is far too hot",
+          "verificationUrl": "https://www.bubeijuzi.com/nce/3/55"
+        }
+      ]
+    },
+    {
+      "path": "public/nce/lessons/nce4/010.json",
+      "id": "nce4-010",
+      "beforeSha256": "44327508f732281a1f452435abc97a5ff5403325ac9a250a1a1b6bb879179bc2",
+      "afterSha256": "34cde5879ed610402174109f4d32fe8073a26d7eff840111cb0b37852a0b9780",
+      "edits": [
+        {
+          "before": "much the way and editor",
+          "after": "much the way an editor"
+        }
+      ]
+    },
+    {
+      "path": "public/nce/lessons/nce4/020.json",
+      "id": "nce4-020",
+      "beforeSha256": "738342e9e90660877a8f70df557ac39e5f92b908823da87391a5d65a48cef198",
+      "afterSha256": "3b6363b37eb499b419c675ec8f69ea9b3337642fbbe5df76afe07e67cafc793a",
+      "edits": [
+        {
+          "before": "How in came about",
+          "after": "How it came about",
+          "verificationUrl": "https://bj.xdf.cn/xingainian/jiangjie/sice/kewen/201507064898.html"
+        },
+        {
+          "before": "some snakes manufactured a poison",
+          "after": "some snakes manufacture a poison",
+          "verificationUrl": "https://bj.xdf.cn/xingainian/jiangjie/sice/kewen/201507064898.html"
+        }
+      ]
+    },
+    {
+      "path": "public/nce/lessons/nce4/028.json",
+      "id": "nce4-028",
+      "beforeSha256": "361488bc3293522cb9613fcdea1f572bca46bbd090a89b0811adff707aaf57db",
+      "afterSha256": "db985d2a906d582e2d9ba9e1e047ad08e9eb8d7818be20015ca7850d87d60b32",
+      "edits": [
+        {
+          "before": "what remained a bottle",
+          "after": "what remained of a bottle",
+          "verificationUrl": "https://altoosi.edu.iq/ar/wp-content/uploads/2024/11/%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%8A%D8%B9%D8%A7%D8%A8-%D9%85%D8%B1%D8%AD%D9%84%D8%A9-%D8%AB%D8%A7%D9%84%D8%AB%D8%A9.pdf"
+        }
+      ]
+    },
+    {
+      "path": "public/nce/lessons/nce4/034.json",
+      "id": "nce4-034",
+      "beforeSha256": "4858418b1ec2e9b0578f4559634375f4a53eaa1fd5f6fd6b1361808c951509c8",
+      "afterSha256": "7696c08f900a6f60470d7fd11c566a17b67cb942947d2d67d67e0f6a34b63023",
+      "edits": [
+        {
+          "before": "realized that was a sign",
+          "after": "realized that it was a sign",
+          "verificationUrl": "https://www.bubeijuzi.com/nce/4/34"
+        }
+      ]
+    },
+    {
+      "path": "public/nce/lessons/nce4/038.json",
+      "id": "nce4-038",
+      "beforeSha256": "ec791f27262a24d065607920325313544033b2f6fb35638855ab7b578e094a2a",
+      "afterSha256": "527c0bb1bcd32e6c9bccd29582271234081baf3b2fce7e5ab62f4a41db7b3a22",
+      "edits": [
+        {
+          "before": "international standard of water treatment",
+          "after": "international standards of water treatment",
+          "verificationUrl": "https://www.bubeijuzi.com/nce/4/38"
+        }
+      ]
+    },
+    {
+      "path": "public/nce/lessons/nce4/047.json",
+      "id": "nce4-047",
+      "beforeSha256": "0c862630703bc8f5ef5cbe88864ac0f819c55e4c6f6dfdc1c701ee03212b5ef5",
+      "afterSha256": "56cc999aab5d737efd975ce4d18bb42d7676c49e51be1c5976fdb62b061dab11",
+      "edits": [
+        {
+          "before": "a manager hotel",
+          "after": "a maitre d'hotel",
+          "verificationUrl": "https://zy.21cnjy.com/21923212"
+        }
+      ]
+    }
+  ],
+  "manifest": {
+    "path": "public/nce/manifest.json",
+    "beforeSha256": "91a9d55fd0bbfd06cb7a08a021477d2c55b04c74ba08d335c6ae3f484ac9a930",
+    "afterSha256": "e6553aa2c89aa745f8e21af9ea15633d09fa8849c708dc38e2d424911733747e",
+    "change": "同步 nce3-039 问题中的 difference 拼写"
+  }
+}
