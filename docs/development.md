@@ -55,6 +55,8 @@ npm run verify
 
 [Verify 工作流](../.github/workflows/verify.yml)在推送到 `main` 或提交 PR 时运行，使用 `ubuntu-latest` 与 Node.js 20.19.0，执行 `npm ci`、完整 `npm run verify`，最后用 `git diff --exit-code` 检查生成文件与受跟踪内容。任务名为 `verify`，权限为 `contents: read`；此工作流不部署站点或交付 Gateway 安装器。
 
+[Verify Gateway 工作流](../.github/workflows/gateway.yml)独立检查服务源码、安装器或自身配置变更，使用 Windows 2025 与 Rust 1.97.1，执行锁定依赖的服务测试及 `cargo clippy --all-targets -- -D warnings`，不改变 Web 的 Node 构建流程。服务单元测试模块置于文件末尾，避免 Clippy 的 `items_after_test_module` 检查失败。
+
 依赖修复提交 `663e9192` 的 [CI 已成功](https://github.com/hawkhai/wordtap.cn/actions/runs/39593944966)，包含完整构建、85 项回归测试、发布数据、静态页面、仓库与响应式检查，以及生成文件差异检查。后续提交的实时状态见 [Actions](https://github.com/hawkhai/wordtap.cn/actions)，不要把这条基线记录当成所有后续提交均已通过。
 
 同一依赖基线的本地验证使用 Node.js 20.19.0。干净副本的 `npm run verify:browser` 已通过，覆盖备份迁移、查词、跟打、词汇、考试、深层链接、HMR 与 Service Worker 在线／离线缓存；生产页面在 1440、390、360px 下检查通过，无页面错误或横向溢出。保留 schemaVersion 4 的五类学习备份。朗读入口已检查，未人工听音；Gateway 安装器不在本仓库的构建验证范围内。

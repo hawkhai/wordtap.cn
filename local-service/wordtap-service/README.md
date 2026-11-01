@@ -184,6 +184,7 @@ From the repository root, with a Rust toolchain installed:
 
 ```bash
 cargo test --manifest-path local-service/wordtap-service/Cargo.toml
+cargo clippy --manifest-path local-service/wordtap-service/Cargo.toml --all-targets -- -D warnings
 cargo build --release --manifest-path local-service/wordtap-service/Cargo.toml
 ```
 

@@ -257,40 +257,6 @@ fn sec_ms_gec_at(unix_seconds: i64) -> String {
     generate_sec_ms_gec_v2(ticks as u128)
 }
 
-#[cfg(test)]
-mod token_tests {
-    use super::*;
-
-    #[test]
-    fn handshake_selects_v2_and_uses_the_matching_token_shape() {
-        let request = create_edge_speech_socket_request().unwrap();
-        let query = request.uri().query().unwrap();
-        assert!(query.contains("Sec-MS-GEC-Version=2-"));
-        let token = query
-            .split("Sec-MS-GEC=")
-            .nth(1)
-            .unwrap()
-            .split('&')
-            .next()
-            .unwrap();
-        assert_eq!(token.len(), 81);
-        assert_eq!(&token[16..17], "-");
-        assert!(token
-            .replace('-', "")
-            .bytes()
-            .all(|byte| byte.is_ascii_hexdigit()));
-    }
-
-    #[test]
-    fn token_uses_five_minute_windows_and_rotates_at_the_boundary() {
-        let start = chrono::DateTime::parse_from_rfc3339("2026-10-13T10:40:00Z")
-            .unwrap()
-            .timestamp();
-        assert_eq!(sec_ms_gec_at(start), sec_ms_gec_at(start + 299));
-        assert_ne!(sec_ms_gec_at(start), sec_ms_gec_at(start + 300));
-    }
-}
-
 fn create_speech_config_message() -> String {
     format!(
         "X-Timestamp:{}\r\nContent-Type:application/json; charset=utf-8\r\nPath:speech.config\r\n\r\n{{\"context\":{{\"synthesis\":{{\"audio\":{{\"metadataoptions\":{{\"sentenceBoundaryEnabled\":\"true\",\"wordBoundaryEnabled\":\"false\"}},\"outputFormat\":\"{}\"}}}}}}}}\r\n",
@@ -515,4 +481,38 @@ fn adjust_split_point_for_xml_entity(bytes: &[u8], mut split_at: usize) -> usize
         split_at = ampersand_index;
     }
     split_at
+}
+
+#[cfg(test)]
+mod token_tests {
+    use super::*;
+
+    #[test]
+    fn handshake_selects_v2_and_uses_the_matching_token_shape() {
+        let request = create_edge_speech_socket_request().unwrap();
+        let query = request.uri().query().unwrap();
+        assert!(query.contains("Sec-MS-GEC-Version=2-"));
+        let token = query
+            .split("Sec-MS-GEC=")
+            .nth(1)
+            .unwrap()
+            .split('&')
+            .next()
+            .unwrap();
+        assert_eq!(token.len(), 81);
+        assert_eq!(&token[16..17], "-");
+        assert!(token
+            .replace('-', "")
+            .bytes()
+            .all(|byte| byte.is_ascii_hexdigit()));
+    }
+
+    #[test]
+    fn token_uses_five_minute_windows_and_rotates_at_the_boundary() {
+        let start = chrono::DateTime::parse_from_rfc3339("2026-10-13T10:40:00Z")
+            .unwrap()
+            .timestamp();
+        assert_eq!(sec_ms_gec_at(start), sec_ms_gec_at(start + 299));
+        assert_ne!(sec_ms_gec_at(start), sec_ms_gec_at(start + 300));
+    }
 }

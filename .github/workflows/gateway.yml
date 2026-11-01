@@ -1,0 +1,42 @@
+name: Verify Gateway
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'local-service/wordtap-service/**'
+      - 'installer/wordtap-gateway.nsi'
+      - 'public/favicon.ico'
+      - '.github/workflows/gateway.yml'
+  pull_request:
+    paths:
+      - 'local-service/wordtap-service/**'
+      - 'installer/wordtap-gateway.nsi'
+      - 'public/favicon.ico'
+      - '.github/workflows/gateway.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  verify:
+    runs-on: windows-2025
+    timeout-minutes: 30
+    env:
+      RUSTUP_TOOLCHAIN: '1.97.1'
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Rust and Clippy
+        shell: pwsh
+        run: rustup toolchain install 1.97.1 --profile minimal --component clippy
+      - name: Test Gateway
+        run: cargo test --locked --manifest-path local-service/wordtap-service/Cargo.toml
+      - name: Check Gateway with Clippy
+        run: cargo clippy --locked --manifest-path local-service/wordtap-service/Cargo.toml --all-targets -- -D warnings
+      - name: Check source files remain unchanged
+        run: git diff --exit-code
