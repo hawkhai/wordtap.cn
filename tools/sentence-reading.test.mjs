@@ -17,6 +17,7 @@ const tick = async () => { for (let i = 0; i < 12; i++) await Promise.resolve();
 
 function harness() {
   const timers = new Map();
+  const timerDelays = new Map();
   let timerId = 0;
   const utterances = [];
   const gateways = [];
@@ -35,11 +36,11 @@ function harness() {
   class FakeGateway {
     cancelled = false;
     constructor() { this.pending = deferred(); gateways.push(this); }
-    speak(text, options) { this.text = text; this.options = options; return this.pending.promise; }
+    speak(text, options) { this.text = text; this.options = options; this.pending = deferred(); return this.pending.promise; }
     cancel() { this.cancelled = true; }
   }
-  const setTimer = (fn) => { timers.set(++timerId, fn); return timerId; };
-  const clearTimer = (id) => timers.delete(id);
+  const setTimer = (fn, delay) => { timers.set(++timerId, fn); timerDelays.set(timerId, delay); return timerId; };
+  const clearTimer = (id) => { timers.delete(id); timerDelays.delete(id); };
   const window = {
     speechSynthesis: speech, SpeechSynthesisUtterance: Utterance,
     Audio: class {}, URL, fetch: () => {}, innerWidth: 1280, innerHeight: 900,
@@ -93,6 +94,12 @@ function harness() {
   const app = scope.run(() => load("src/shared/composables/useWordTap.ts").useWordTap());
   return {
     app, load, timers, utterances, gateways, writes, speech, history, window,
+    bufferTimer() { return [...timers].find(([id]) => timerDelays.get(id) === 600); },
+    fireBufferTimer() {
+      const [id, fn] = this.bufferTimer() ?? [];
+      assert.ok(fn, 'expected a delayed buffering notice');
+      clearTimer(id); fn();
+    },
     text(text) {
       app.sourceText.value = text;
       // Exercise the production splitWords via its real debounced input path.
@@ -632,7 +639,8 @@ test("full-text guidance covers saving and browser queue until actual speech sta
     assert.equal(h.app.fullTextSpeechLabel.value, '暂停');
     assert.equal(h.app.fullTextSpeechNotice.value, '');
     h.utterances.at(-1).onend(); await tick();
-    assert.equal(h.app.fullTextSpeechLabel.value, '准备中…');
+    assert.equal(h.app.fullTextSpeechLabel.value, '暂停');
+    assert.equal(h.app.fullTextSpeechNotice.value, '');
     await h.app.readFullText();
     assert.equal(h.app.fullTextSpeechWaiting.value, false);
     assert.equal(h.app.fullTextSpeechLabel.value, '继续');
@@ -657,7 +665,8 @@ test("Gateway prefetch cannot replace playing with loading; stale events cannot 
       assert.equal(h.app.status.value, playing);
     }
     gateway.options.onProgress({phase: 'buffering', chunkIndex: 1});
-    assert.equal(h.app.fullTextSpeechWaiting.value, true);
+    assert.equal(h.app.fullTextSpeechWaiting.value, false);
+    assert.equal(h.app.status.value, playing);
     h.app.cancelSpeech();
     gateway.options.onProgress({phase: 'buffering', chunkIndex: 1});
     assert.equal(h.app.fullTextSpeechNotice.value, '');
@@ -678,4 +687,153 @@ test("Gateway reports playing only from audio events and clears all event handle
   audio.onended(); await pending;
   assert.equal(audio.onplaying, null);
   assert.equal(audio.onwaiting, null);
+});
+
+test("browser sentences and repeats keep playback UI stable and debounce the next sound", async () => {
+  const h = harness();
+  try {
+    h.text('First sentence here. Second sentence here.'); h.app.selectedRepeat.value = 2;
+    await h.app.readFullText();
+    for (let index = 0; index < 4; index++) {
+      const current = h.utterances[index];
+      assert.ok(current);
+      current.onstart();
+      const playing = h.app.status.value;
+      assert.equal(h.bufferTimer(), undefined);
+      current.onend(); await tick();
+      if (index === 3) break;
+      assert.equal(h.app.fullTextSpeechLabel.value, '暂停');
+      assert.equal(h.app.fullTextSpeechNotice.value, '');
+      assert.equal(h.app.status.value, playing);
+      assert.ok(h.bufferTimer());
+      if (index === 1) {
+        h.fireBufferTimer();
+        assert.match(h.app.status.value, /等待后续/);
+        assert.equal(h.app.fullTextSpeechLabel.value, '暂停');
+        assert.equal(h.app.fullTextSpeechNotice.value, '');
+      }
+    }
+    assert.equal(h.app.fullTextSpeechLabel.value, '全文朗读');
+    assert.equal(h.bufferTimer(), undefined);
+  } finally { h.dispose(); }
+});
+
+test("Gateway chunk buffering and repeats never restore preparation or accept old repeat events", async () => {
+  const h = harness();
+  try {
+    h.text('Hello world.'); h.app.selectedRepeat.value = 2; h.app.isGatewayRunning.value = true;
+    await h.app.readFullText();
+    const gateway = h.gateways.at(-1);
+    const progress = gateway.options.onProgress;
+    progress({ phase: 'playing', chunkIndex: 0 });
+    const playing = h.app.status.value;
+    progress({ phase: 'buffering', chunkIndex: 1 });
+    assert.equal(h.app.status.value, playing);
+    progress({ phase: 'playing', chunkIndex: 1 });
+    assert.equal(h.bufferTimer(), undefined);
+    progress({ phase: 'buffering', chunkIndex: 2 });
+    h.fireBufferTimer();
+    const waiting = h.app.status.value;
+    assert.match(waiting, /等待后续/);
+    for (const phase of ['cache-hit', 'connecting', 'receiving']) progress({ phase, chunkIndex: 3 });
+    assert.equal(h.app.status.value, waiting);
+    assert.equal(h.app.fullTextSpeechLabel.value, '暂停');
+    assert.equal(h.app.fullTextSpeechNotice.value, '');
+    progress({ phase: 'playing', chunkIndex: 2 });
+    assert.equal(h.app.status.value, playing);
+    gateway.pending.resolve(); await tick();
+    const repeatProgress = gateway.options.onProgress;
+    assert.notEqual(repeatProgress, progress);
+    assert.equal(h.app.fullTextSpeechLabel.value, '暂停');
+    assert.equal(h.app.fullTextSpeechNotice.value, '');
+    progress({ phase: 'playing', chunkIndex: 0 });
+    assert.ok(h.bufferTimer(), 'old repeat must not cancel the new repeat buffer');
+    repeatProgress({ phase: 'playing', chunkIndex: 0 });
+    gateway.pending.resolve(); await tick();
+    const done = h.app.status.value;
+    repeatProgress({ phase: 'buffering', chunkIndex: 1 });
+    assert.equal(h.app.status.value, done);
+    assert.equal(h.bufferTimer(), undefined);
+    assert.equal(h.app.fullTextSpeechLabel.value, '全文朗读');
+  } finally { h.dispose(); }
+});
+
+test("pausing a buffered browser sentence cancels feedback until resume and actual sound", async () => {
+  const h = harness();
+  try {
+    h.text('First sentence here. Second sentence here.');
+    await h.app.readFullText();
+    h.utterances[0].onstart(); h.utterances[0].onend(); await tick();
+    await h.app.readFullText();
+    assert.equal(h.bufferTimer(), undefined);
+    assert.match(h.app.fullTextSpeechNotice.value, /已暂停/);
+    await h.app.readFullText();
+    assert.equal(h.app.fullTextSpeechNotice.value, '');
+    h.fireBufferTimer();
+    assert.match(h.app.status.value, /等待后续/);
+    h.utterances[1].onstart();
+    assert.doesNotMatch(h.app.status.value, /等待后续/);
+    h.utterances[1].onend(); await tick();
+    assert.equal(h.bufferTimer(), undefined);
+  } finally { h.dispose(); }
+});
+
+test("stop, edit, completion and failure discard buffered feedback and stale Gateway events", async () => {
+  for (const action of ['stop', 'edit', 'complete', 'fail']) {
+    const h = harness();
+    try {
+      h.text('Hello world.'); h.app.isGatewayRunning.value = true;
+      await h.app.readFullText();
+      const gateway = h.gateways.at(-1);
+      const progress = gateway.options.onProgress;
+      progress({ phase: 'playing' }); progress({ phase: 'buffering' });
+      const [, lateTimer] = h.bufferTimer();
+      if (action === 'stop') h.app.cancelSpeech('Stopped');
+      if (action === 'edit') { h.app.sourceText.value = 'A different article.'; await tick(); }
+      if (action === 'complete') { gateway.pending.resolve(); await tick(); }
+      if (action === 'fail') {
+        delete h.window.speechSynthesis;
+        gateway.pending.reject(new Error('network failed')); await tick();
+      }
+      const status = h.app.status.value;
+      assert.equal(h.bufferTimer(), undefined, action);
+      lateTimer(); progress({ phase: 'buffering' }); progress({ phase: 'playing' });
+      assert.equal(h.app.status.value, status, action);
+      assert.equal(h.app.isFullTextSpeaking.value, false, action);
+      assert.equal(h.app.fullTextSpeechNotice.value, '', action);
+      await h.app.readFullText();
+      const nextProgress = h.gateways.at(-1).options.onProgress;
+      nextProgress({ phase: 'playing' }); nextProgress({ phase: 'buffering' });
+      const currentTimer = h.bufferTimer();
+      lateTimer(); progress({ phase: 'playing' });
+      assert.deepEqual(h.bufferTimer(), currentTimer, action);
+      h.fireBufferTimer();
+      assert.match(h.app.status.value, /等待后续/);
+      nextProgress({ phase: 'playing' });
+      assert.equal(h.bufferTimer(), undefined, action);
+    } finally { h.dispose(); }
+  }
+});
+
+test("Gateway fallback after first sound keeps the browser UI out of preparation", async () => {
+  const h = harness();
+  try {
+    h.text('Hello world. Another sentence.'); h.app.isGatewayRunning.value = true;
+    await h.app.readFullText();
+    const gateway = h.gateways.at(-1);
+    gateway.options.onProgress({ phase: 'playing' });
+    gateway.options.onProgress({ phase: 'buffering' });
+    gateway.pending.reject(new Error('network failed')); await tick();
+    assert.equal(h.app.fullTextSpeechLabel.value, '暂停');
+    assert.equal(h.app.fullTextSpeechNotice.value, '');
+    const waiting = h.app.status.value;
+    gateway.options.onProgress({ phase: 'playing' });
+    assert.equal(h.app.status.value, waiting);
+    h.fireBufferTimer();
+    assert.match(h.app.status.value, /等待后续/);
+    h.utterances[0].onstart();
+    assert.doesNotMatch(h.app.status.value, /等待后续/);
+    h.app.cancelSpeech();
+    assert.equal(h.bufferTimer(), undefined);
+  } finally { h.dispose(); }
 });

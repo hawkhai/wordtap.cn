@@ -163,6 +163,10 @@ const isWordSpeaking = ref(false);
 const isFullTextSpeaking = ref(false);
 const isFullTextPaused = ref(false);
 const isFullTextPreparing = ref(false);
+// Preparation ends at the first sound, not at every sentence/chunk boundary.
+let fullTextHasStarted = false;
+let fullTextBuffering = false;
+let fullTextBufferingTimer: number | undefined;
 const fullTextSpeechWaiting = computed(() => isFullTextSpeaking.value && isFullTextPreparing.value && !isFullTextPaused.value);
 const fullTextSpeechLabel = computed(() => !isFullTextSpeaking.value ? copy.template.readFullText : isFullTextPaused.value ? "继续" : isFullTextPreparing.value ? "准备中…" : "暂停");
 const fullTextSpeechNotice = computed(() => !isFullTextSpeaking.value ? "" : isFullTextPaused.value
@@ -2353,7 +2357,35 @@ function cancelWordSpeech(): void {
   isWordSpeaking.value = false;
 }
 
+function clearFullTextBufferingTimer(): void {
+  window.clearTimeout(fullTextBufferingTimer);
+  fullTextBufferingTimer = undefined;
+}
+
+function waitForFullTextAudio(): void {
+  fullTextBuffering = true;
+  if (!fullTextHasStarted || isFullTextPaused.value || fullTextBufferingTimer !== undefined) return;
+  const runId = fullTextSpeechRunId.value;
+  fullTextBufferingTimer = window.setTimeout(() => {
+    if (runId !== fullTextSpeechRunId.value) return;
+    fullTextBufferingTimer = undefined;
+    if (!isFullTextSpeaking.value || isFullTextPaused.value || !fullTextBuffering) return;
+    status.value = "正在等待后续朗读音频，可暂停或停止。";
+  }, 600);
+}
+
+function markFullTextAudioPlaying(label: string, played: number, total: number): void {
+  clearFullTextBufferingTimer();
+  fullTextBuffering = false;
+  fullTextHasStarted = true;
+  isFullTextPreparing.value = false;
+  if (!isFullTextPaused.value) status.value = copy.status.speakingFullText(label, played, total);
+}
+
 function cancelFullTextSpeech(): void {
+  clearFullTextBufferingTimer();
+  fullTextHasStarted = false;
+  fullTextBuffering = false;
   isFullTextPreparing.value = false;
   fullTextPlaybackControl = null;
   isFullTextPaused.value = false;
@@ -2736,7 +2768,7 @@ function splitSentencesForBrowser(text: string): string[] {
 }
 
 /** 浏览器 speechSynthesis 逐句朗读全文（gateway 不可用时的降级路径） */
-function speakFullTextWithBrowser(text: string, label: string, playbackControl = new SpeechPlaybackControl()): void {
+function speakFullTextWithBrowser(text: string, label: string, playbackControl = new SpeechPlaybackControl(), alreadyStarted = false): void {
   if (!isBrowserSpeechSupported()) {
     isFullTextSpeaking.value = false;
     status.value = copy.status.fullTextSpeechUnavailable;
@@ -2746,7 +2778,8 @@ function speakFullTextWithBrowser(text: string, label: string, playbackControl =
   if (!parts.length) return;
   cancelFullTextSpeech();
   fullTextPlaybackControl = playbackControl;
-  isFullTextPreparing.value = true;
+  fullTextHasStarted = alreadyStarted;
+  isFullTextPreparing.value = !fullTextHasStarted;
   isFullTextPaused.value = playbackControl.paused;
   const runId = fullTextSpeechRunId.value;
   const controller = new AbortController();
@@ -2761,12 +2794,11 @@ function speakFullTextWithBrowser(text: string, label: string, playbackControl =
       for (const part of parts) {
         if (runId !== fullTextSpeechRunId.value) return;
         try {
-          isFullTextPreparing.value = true;
+          waitForFullTextAudio();
           await playBrowserSpeech(part, { signal: controller.signal, voice, rate, playbackControl,
             onStart: () => {
               if (runId !== fullTextSpeechRunId.value) return;
-              isFullTextPreparing.value = false;
-              if (!playbackControl.paused) status.value = copy.status.speakingFullText(label, played, total);
+              markFullTextAudioPlaying(label, played, total);
             },
           });
         } catch (error) {
@@ -2776,6 +2808,9 @@ function speakFullTextWithBrowser(text: string, label: string, playbackControl =
       }
     }
     if (runId === fullTextSpeechRunId.value) {
+      clearFullTextBufferingTimer();
+      fullTextBuffering = false;
+      fullTextSpeechRunId.value += 1;
       fullTextBrowserAbort = null;
       isFullTextSpeaking.value = false;
       fullTextPlaybackControl = null;
@@ -2815,6 +2850,9 @@ function speakFullTextWithGateway(text: string, label: string, playbackControl =
       return;
     }
     if (played >= total) {
+      clearFullTextBufferingTimer();
+      fullTextBuffering = false;
+      fullTextSpeechRunId.value += 1;
       isFullTextSpeaking.value = false;
       gatewaySpeechSession = null;
       fullTextPlaybackControl = null;
@@ -2825,7 +2863,8 @@ function speakFullTextWithGateway(text: string, label: string, playbackControl =
     }
 
     played += 1;
-    isFullTextPreparing.value = true;
+    const repeat = played;
+    waitForFullTextAudio();
     isFullTextSpeaking.value = true;
     void session
       .speak(phrase, {
@@ -2833,12 +2872,11 @@ function speakFullTextWithGateway(text: string, label: string, playbackControl =
         rate: selectedRate.value,
         voice: selectedGatewayVoice.value,
         onProgress: (progress) => {
-          if (runId !== fullTextSpeechRunId.value) return;
-          if (progress.phase === "buffering") isFullTextPreparing.value = true;
-          if (progress.phase === "playing") isFullTextPreparing.value = false;
+          if (runId !== fullTextSpeechRunId.value || repeat !== played) return;
+          if (progress.phase === "buffering") waitForFullTextAudio();
           if (playbackControl.paused) return;
           if (progress.phase === "playing") {
-            status.value = copy.status.speakingFullText(label, played, total);
+            markFullTextAudioPlaying(label, played, total);
             return;
           }
           if (!isFullTextPreparing.value) return;
@@ -2870,8 +2908,11 @@ function speakFullTextWithGateway(text: string, label: string, playbackControl =
         // gateway 失败，降级到浏览器内置 speechSynthesis
         if (isBrowserSpeechSupported()) {
           if (!playbackControl.paused) status.value = copy.status.fullTextSpeechBrowserFallback;
-          speakFullTextWithBrowser(phrase, label, playbackControl);
+          speakFullTextWithBrowser(phrase, label, playbackControl, fullTextHasStarted);
         } else {
+          clearFullTextBufferingTimer();
+          fullTextBuffering = false;
+          fullTextSpeechRunId.value += 1;
           isFullTextSpeaking.value = false;
           isFullTextPaused.value = false;
           isFullTextPreparing.value = false;
@@ -3148,6 +3189,8 @@ async function readFullText(): Promise<void> {
     const paused = !fullTextPlaybackControl.paused;
     isFullTextPaused.value = paused;
     fullTextPlaybackControl.setPaused(paused);
+    if (paused) clearFullTextBufferingTimer();
+    else if (fullTextBuffering) waitForFullTextAudio();
     status.value = paused ? "全文朗读已暂停，点击继续可接着读。" : isFullTextPreparing.value ? "正在准备朗读音频，请稍候，准备好后会自动播放。" : "正在继续全文朗读。";
     return;
   }

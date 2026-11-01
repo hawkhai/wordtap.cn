@@ -1,0 +1,81 @@
+{
+  "result": {
+    "width": 1440,
+    "height": 1000,
+    "elapsedMs": 127122,
+    "requests": [
+      {
+        "requestAtMs": 37363,
+        "responseAtMs": 38081,
+        "status": 502,
+        "type": "application/json",
+        "bytes": 37,
+        "decodeError": "EncodingError: Unable to decode audio data"
+      },
+      {
+        "requestAtMs": 37364,
+        "error": "AbortError: signal is aborted without reason"
+      }
+    ],
+    "media": [],
+    "frames": 0,
+    "shifted": 0,
+    "noticeFrames": 0,
+    "blankFrames": 0,
+    "replacements": 0,
+    "deviations": [],
+    "transitions": [
+      {
+        "atMs": 1553,
+        "label": "全文朗读",
+        "status": "粘贴一段英文文本就可以开始点读。"
+      },
+      {
+        "atMs": 1571,
+        "label": "全文朗读",
+        "status": "现在可以全文朗读了。"
+      },
+      {
+        "atMs": 1720,
+        "label": "全文朗读",
+        "status": "已恢复最近文章：First we read a sentence together. Then we..."
+      },
+      {
+        "atMs": 37343,
+        "label": "准备中…",
+        "status": "正在准备朗读音频，请稍候，准备好后会自动播放。"
+      },
+      {
+        "atMs": 37373,
+        "label": "准备中…",
+        "status": "正在准备全文朗读：全文朗读"
+      },
+      {
+        "atMs": 38102,
+        "label": "准备中…",
+        "status": "全文朗读服务未启动，正在使用浏览器内置语音朗读。"
+      },
+      {
+        "atMs": 38201,
+        "label": "暂停",
+        "status": "正在朗读：全文朗读（1/1）"
+      },
+      {
+        "atMs": 62529,
+        "label": "全文朗读",
+        "status": "已停止朗读。"
+      }
+    ],
+    "label": "全文朗读",
+    "status": "已停止朗读。",
+    "overflow": false
+  },
+  "logs": [
+    {
+      "level": "warn",
+      "message": "Gateway speech playback failed, falling back to browser Error: HTTP error: 403 Forbidden\n    at GatewaySpeechSession.synthesize (http://127.0.0.1:5173/src/shared/utils/gatewaySpeech.ts:141:31)\n    at async GatewaySpeechSession.speak (http://127.0.0.1:5173/src/shared/utils/gatewaySpeech.ts:66:22)",
+      "timestamp": "2026-10-31T16:10:03.055Z",
+      "url": "http://127.0.0.1:5173/src/shared/composables/useWordTap.ts"
+    }
+  ]
+}
