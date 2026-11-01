@@ -1,0 +1,112 @@
+{
+  "gatewayVersion": "0.2.2",
+  "article": "The class began with a short story about a quiet town. Every morning, the baker opened his shop before sunrise. People stopped by to buy fresh bread on their way to work. A young student sat beside the window and read a book. She enjoyed learning new words and listening to their sounds. When she met a difficult sentence, she read it again slowly. Her teacher reminded her to keep the whole meaning in mind. After breakfast, the students walked together to the library. They chose a story and took turns reading each paragraph. Nobody needed to hurry because careful practice was more useful. At noon, they talked about the characters and their choices. One student asked a question, and another offered an answer. The teacher encouraged everyone to explain their ideas clearly. In the afternoon, they listened to the complete story once more. The words on the page stayed in the same place as the reading continued. Each new sentence followed the one before it without disturbing the page. At the end, the students closed their books and shared what they had learned. They planned to return the next morning for another reading lesson.",
+  "result": {
+    "width": 1440,
+    "height": 1000,
+    "elapsedMs": 134417,
+    "requests": [
+      {
+        "requestAtMs": 19347,
+        "responseAtMs": 35143,
+        "status": 200,
+        "type": "audio/mpeg",
+        "bytes": 359856,
+        "decodedDuration": 59.97598639455782,
+        "rms": 0.12540875491609574
+      },
+      {
+        "requestAtMs": 19348,
+        "responseAtMs": 22378,
+        "status": 200,
+        "type": "audio/mpeg",
+        "bytes": 48096,
+        "decodedDuration": 8.015986394557823,
+        "rms": 0.12282044495304138
+      }
+    ],
+    "media": [
+      {
+        "duration": 59.976,
+        "firstStartMs": 35374,
+        "maxTime": 59.976,
+        "ended": true,
+        "playEvents": 1,
+        "endedAtMs": 95498
+      },
+      {
+        "duration": 8.016,
+        "firstStartMs": 95510,
+        "maxTime": 8.016,
+        "ended": true,
+        "playEvents": 1,
+        "endedAtMs": 103605
+      }
+    ],
+    "frames": 2070,
+    "shifted": 0,
+    "noticeFrames": 0,
+    "blankFrames": 0,
+    "replacements": 0,
+    "baseline": [
+      361.75,
+      532.1124877929688,
+      1005.2999877929688,
+      640,
+      0,
+      224
+    ],
+    "deviations": [],
+    "transitions": [
+      {
+        "atMs": 844,
+        "label": "全文朗读",
+        "status": "粘贴一段英文文本就可以开始点读。"
+      },
+      {
+        "atMs": 852,
+        "label": "全文朗读",
+        "status": "现在可以全文朗读了。"
+      },
+      {
+        "atMs": 909,
+        "label": "全文朗读",
+        "status": "已恢复最近文章：The class began with a short story about a..."
+      },
+      {
+        "atMs": 19318,
+        "label": "准备中…",
+        "status": "正在准备朗读音频，请稍候，准备好后会自动播放。"
+      },
+      {
+        "atMs": 19352,
+        "label": "准备中…",
+        "status": "正在准备全文朗读：全文朗读"
+      },
+      {
+        "atMs": 22415,
+        "label": "准备中…",
+        "status": "正在生成朗读声音：全文朗读"
+      },
+      {
+        "atMs": 35173,
+        "label": "准备中…",
+        "status": "正在准备全文朗读：全文朗读"
+      },
+      {
+        "atMs": 35405,
+        "label": "暂停",
+        "status": "正在朗读：全文朗读（1/1）"
+      },
+      {
+        "atMs": 103610,
+        "label": "全文朗读",
+        "status": "完成：全文朗读（1 遍）"
+      }
+    ],
+    "label": "全文朗读",
+    "status": "完成：全文朗读（1 遍）",
+    "overflow": false
+  },
+  "logs": []
+}

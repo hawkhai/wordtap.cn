@@ -57,7 +57,7 @@ for (const file of tracked) {
 const codeOrConfig = tracked.filter((file) =>
   !file.startsWith("content/")
   && !file.startsWith("public/")
-  && /(?:^|\.)((?:m?js)|ts|vue|py|html|css|json|md|xml|yml|yaml)$/i.test(file),
+  && /(?:^|\.)((?:m?js)|ts|vue|py|html|css|json|md|xml|yml|yaml|rs|toml|nsi)$/i.test(file),
 );
 const highConfidenceSecrets = [
   /-----BEGIN (?:RSA |EC |OPENSSH |DSA )?PRIVATE KEY-----/,

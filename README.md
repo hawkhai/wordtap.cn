@@ -65,7 +65,7 @@ npm run dev
 
 打开终端显示的本地地址。已有工作区时直接进入其根目录运行安装与开发命令。
 
-开发、构建与统一验证只需 Node 和仓库内的发布数据。可选 Windows Gateway 独立交付，运行 Web 无需编译 Gateway，也无需 Python 或 Rust。
+Web 开发、构建与统一验证只需 Node 和仓库内的发布数据。可选 Windows Gateway 独立编译与交付，运行 Web 无需编译 Gateway，也无需 Python 或 Rust；服务源码与安装器编译方法见 [Gateway 开发说明](local-service/wordtap-service/README.md)。
 
 ```bash
 npm run build

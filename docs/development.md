@@ -4,7 +4,7 @@
 
 ## 环境与验证命令
 
-Node.js 20.19+、npm 与 Git 即可开发和验证本项目；此仓库不含来源重建、历史审核、Gateway 服务端和安装器构建链。
+Node.js 20.19+、npm 与 Git 即可开发和验证 Web；此仓库不含来源重建和历史审核工具。可选 Gateway 的 Rust 源码与 NSIS 安装器单独维护，构建方法见 [Gateway 开发说明](../local-service/wordtap-service/README.md)，不进入 Web 的 Node 构建流程。
 
 ```bash
 npm ci
@@ -167,6 +167,8 @@ Gateway 是可选的本地 Rust 服务，默认地址：
 ```text
 http://127.0.0.1:18765
 ```
+
+服务源码位于 `local-service/wordtap-service/`，安装器位于 `installer/wordtap-gateway.nsi`，均独立构建与交付。0.2.2 更新上游 v2 握手以修复 403；[真实朗读验收](validation/2026-11-01-gateway-v2/README.md)覆盖桌面、390px、360px 的连续多句及音频分片衔接。
 
 主要接口：
 

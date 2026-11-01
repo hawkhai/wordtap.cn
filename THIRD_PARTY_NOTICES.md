@@ -4,6 +4,10 @@ This repository combines application code with third-party data and assets. A li
 
 ## Materials with an included license notice
 
+### msedge-tts speech token implementation
+
+`local-service/wordtap-service/src/speech_token.rs` is adapted from the MIT-licensed [hs-CN/msedge-tts](https://github.com/hs-CN/msedge-tts/blob/0c60fb67e95fb20d484e26f565cca1abdd81def4/src/tts/drm.rs) implementation of the Edge speech v2 token, based on [edge-tts pull request #492](https://github.com/rany2/edge-tts/pull/492). The upstream copyright and permission notice is preserved in [msedge-tts-MIT.txt](local-service/wordtap-service/licenses/msedge-tts-MIT.txt) and included by the Gateway installer.
+
 ### ECDICT
 
 `public/dict/` contains generated dictionary shards derived from [skywind3000/ECDICT](https://github.com/skywind3000/ECDICT). ECDICT is distributed under the MIT License. The upstream notice is included at `public/dict/LICENSE`.
