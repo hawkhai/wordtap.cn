@@ -1,0 +1,66 @@
+{
+  "case": "voice-en-us-guyneural",
+  "serviceVersion": "0.2.2",
+  "viewport": {
+    "width": 765,
+    "height": 772
+  },
+  "requests": [
+    {
+      "body": {
+        "text": "Hello world. Good morning! café costs 3.14 dollars.",
+        "voice": "en-US-GuyNeural"
+      },
+      "status": 200,
+      "contentType": "audio/mpeg",
+      "bytes": 40176,
+      "file": "voice-en-us-guyneural-segment-1.mp3",
+      "duration": 6.696,
+      "rms": 0.08970885005856458
+    }
+  ],
+  "audio": [
+    {
+      "events": [
+        {
+          "event": "waiting",
+          "time": 48860.90000003576,
+          "currentTime": 0
+        },
+        {
+          "event": "playing",
+          "time": 48865.90000003576,
+          "currentTime": 0
+        },
+        {
+          "event": "timeupdate",
+          "time": 49126.200000047684,
+          "currentTime": 0.24204
+        },
+        {
+          "event": "timeupdate",
+          "time": 49387.90000003576,
+          "currentTime": 0.501027
+        },
+        {
+          "event": "pause",
+          "time": 55606.80000001192,
+          "currentTime": 6.696
+        },
+        {
+          "event": "ended",
+          "time": 55606.90000003576,
+          "currentTime": 6.696
+        }
+      ],
+      "duration": 6.696,
+      "finalTime": 6.696,
+      "started": true,
+      "ended": true
+    }
+  ],
+  "completed": true,
+  "errors": [],
+  "original": "Hello中文world。 Good morning（注释）! café costs 3.14 dollars. 日本語 한국어 😀",
+  "validationKind": "Production GatewaySpeechSession direct mixed-language sample"
+}

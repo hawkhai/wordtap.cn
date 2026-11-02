@@ -1,5 +1,6 @@
 import { SPEECH_WATCHDOG_BASE, SPEECH_BROWSER_CHAR_MS } from "./timeoutConstants";
 import type { SpeechPlaybackControl } from "./speechPlaybackControl";
+import { NoSpeechTextError, prepareSpeechText } from "./speechText";
 
 export function browserSpeechAvailable(): boolean {
   return "speechSynthesis" in window && "SpeechSynthesisUtterance" in window;
@@ -16,6 +17,8 @@ export function playBrowserSpeech(text: string, options: {
   return new Promise((resolve, reject) => {
     const { signal, voice } = options;
     if (signal.aborted) { reject(new DOMException("Cancelled", "AbortError")); return; }
+    text = prepareSpeechText(text);
+    if (!text) { reject(new NoSpeechTextError()); return; }
     if (!browserSpeechAvailable()) { reject(new Error("当前浏览器不能直接朗读。")); return; }
     const utterance = new SpeechSynthesisUtterance(text);
     utterance.lang = voice?.lang ?? "en-US";

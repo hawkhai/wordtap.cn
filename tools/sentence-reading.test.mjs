@@ -21,6 +21,7 @@ function harness() {
   let timerId = 0;
   const utterances = [];
   const gateways = [];
+  const wordAudio = [];
   const writes = [];
   const unmount = [];
   const storage = new Map();
@@ -33,6 +34,13 @@ function harness() {
     getVoices: () => [],
   };
   class Utterance { constructor(text) { this.text = text; } }
+  class WordAudio {
+    constructor(src) { this.src = src; wordAudio.push(this); }
+    play() { return Promise.resolve(); }
+    pause() {}
+    removeAttribute() {}
+    load() {}
+  }
   class FakeGateway {
     cancelled = false;
     constructor() { this.pending = deferred(); gateways.push(this); }
@@ -43,7 +51,7 @@ function harness() {
   const clearTimer = (id) => { timers.delete(id); timerDelays.delete(id); };
   const window = {
     speechSynthesis: speech, SpeechSynthesisUtterance: Utterance,
-    Audio: class {}, URL, fetch: () => {}, innerWidth: 1280, innerHeight: 900,
+    Audio: WordAudio, URL, fetch: () => {}, innerWidth: 1280, innerHeight: 900,
     localStorage: { getItem: key => storage.get(key) ?? null, setItem: (key, value) => storage.set(key, value) },
     location: { hash: "#study", origin: "http://localhost", pathname: "/", protocol: "http:" },
     setTimeout: setTimer, clearTimeout: clearTimer, setInterval: setTimer, clearInterval: clearTimer,
@@ -84,7 +92,7 @@ function harness() {
     vm.runInNewContext(output, {
       exports, require, window, console, URL, AbortController, DOMException, Error,
       fetch: (...args) => window.fetch(...args),
-      SpeechSynthesisUtterance: Utterance, HTMLElement: class {},
+      SpeechSynthesisUtterance: Utterance, Audio: WordAudio, HTMLElement: class {},
       setTimeout: setTimer, clearTimeout: clearTimer, setInterval: setTimer, clearInterval: clearTimer,
       navigator: { userAgent: "test" },
     }, { filename: file });
@@ -93,7 +101,7 @@ function harness() {
   const scope = vue.effectScope();
   const app = scope.run(() => load("src/shared/composables/useWordTap.ts").useWordTap());
   return {
-    app, load, timers, utterances, gateways, writes, speech, history, window,
+    app, load, timers, utterances, gateways, wordAudio, writes, speech, history, window,
     bufferTimer() { return [...timers].find(([id]) => timerDelays.get(id) === 600); },
     fireBufferTimer() {
       const [id, fn] = this.bufferTimer() ?? [];
@@ -177,14 +185,14 @@ test("Chinese-only paragraphs remain visible even without clickable English word
   } finally { h.dispose(); }
 });
 
-test("mixed-language sentence is sent intact to the speech engine", async () => {
+test("mixed-language sentence stays intact on screen but English browser speech is filtered", async () => {
   const h = harness();
   try {
     h.text('Hello，中文也保留在句子里面 world。下一句。');
     const first = h.app.sentences.value[0];
     assert.equal(first.text, 'Hello，中文也保留在句子里面 world。');
     const pending = h.app.readSentence(first.id);
-    assert.equal(h.utterances.at(-1).text, first.text);
+    assert.equal(h.utterances.at(-1).text, 'Hello, world.');
     h.utterances.at(-1).onend(); await pending;
     assert.equal(h.writes.length, 0);
   } finally { h.dispose(); }
@@ -412,7 +420,7 @@ test("real course samples round-trip without changing text, word IDs or blank li
 });
 
 function gatewayHarness({ cache, fetch, play } = {}) {
-  const audio = [], writes = [], revoked = [];
+  const audio = [], writes = [], revoked = [], keys = [];
   class Audio {
     constructor(src) { this.src = src; audio.push(this); }
     play() { this.plays = (this.plays ?? 0) + 1; this.paused = false; return this.src === "blob:test" && play ? play() : Promise.resolve(); }
@@ -431,17 +439,18 @@ function gatewayHarness({ cache, fetch, play } = {}) {
     require: id => {
       if (id === './assetUrls') return { appAssetUrl: s => s, appDownloadUrl: s => s };
       if (id === '../stores/historyStore') return {
-        makeAudioCacheKey: async () => 'key',
+        makeAudioCacheKey: async parts => { keys.push(plain(parts)); return JSON.stringify(parts); },
         getCachedAudio: cache ?? (async () => ({ blob: new Blob(['audio']), size: 5 })),
         putCachedAudio: async (...args) => writes.push(args),
       };
       if (id === '../copy/siteCopy') return h.load('src/shared/copy/siteCopy.ts');
       if (id === './timeoutConstants') return h.load('src/shared/utils/timeoutConstants.ts');
+      if (id === './speechText') return h.load('src/shared/utils/speechText.ts');
       throw new Error(id);
     },
   });
   h.dispose();
-  return { session: new exports.GatewaySpeechSession(), audio, writes, revoked, control: new (h.load("src/shared/utils/speechPlaybackControl.ts").SpeechPlaybackControl)() };
+  return { session: new exports.GatewaySpeechSession(), audio, writes, revoked, keys, control: new (h.load("src/shared/utils/speechPlaybackControl.ts").SpeechPlaybackControl)() };
 }
 
 test("Gateway cancellation settles active audio, detaches callbacks and releases its URL", async () => {
@@ -835,5 +844,227 @@ test("Gateway fallback after first sound keeps the browser UI out of preparation
     assert.doesNotMatch(h.app.status.value, /等待后续/);
     h.app.cancelSpeech();
     assert.equal(h.bufferTimer(), undefined);
+  } finally { h.dispose(); }
+});
+
+test("English preparation preserves readable tokens, punctuation and word boundaries", () => {
+  const h = harness();
+  try {
+    const { prepareSpeechText, gatewaySpeechTextMode } = h.load('src/shared/utils/speechText.ts');
+    const examples = [
+      ['Hello中文world。', 'Hello world.'],
+      ['简体繁體𠮷𠀀日本語かなカナ한국어РусскийالعربيةΕλληνικά Hello!', 'Hello!'],
+      ['café nai\u0308ve co-operate don’t stop. Mr. Smith paid $3.14 at 10:30.', 'café nai\u0308ve co-operate don’t stop. Mr. Smith paid $3.14 at 10:30.'],
+      ['ＡＢＣ１２３，中文。', 'ABC123.'],
+      ['Hello（中文）[注释] {翻译} “说明” world。', 'Hello world.'],
+      ['Hello😀world\u200Bnext\u0000word. 🇨🇳', 'Hello world next word.'],
+      ['Hello👍🏽world\u034Fnext a\u093Eword.', 'Hello world next a word.'],
+      ['中文说明。\n\nHello world. 中文翻译。 Next sentence!', 'Hello world. Next sentence!'],
+      ['Version 2.0: https://example.com/a?x=1&y=2; user@example.com', 'Version 2.0: https://example.com/a?x=1&y=2; user@example.com'],
+      ['中文（繁體）。😀\n日本語 한국어', ''],
+      ['？！ … () [] “ ”', ''],
+      ['2026，3.14，50%。', '2026,3.14,50%.'],
+    ];
+    for (const [input, expected] of examples) {
+      assert.equal(prepareSpeechText(input), expected, input);
+      assert.equal(prepareSpeechText(expected), expected, `idempotent: ${input}`);
+    }
+    assert.equal(prepareSpeechText('Hello，中文也读。', 'multilingual'), 'Hello，中文也读。');
+    assert.equal(prepareSpeechText('你好😀\u200B world', 'multilingual'), '你好   world');
+    assert.equal(prepareSpeechText('Hello👍🏽world', 'multilingual'), 'Hello  world');
+    assert.equal(gatewaySpeechTextMode('unknown-Emma-Multilingual'), 'english');
+    assert.equal(gatewaySpeechTextMode('en-US-EmmaNeural'), 'english');
+    assert.equal(gatewaySpeechTextMode(), 'multilingual');
+  } finally { h.dispose(); }
+});
+
+const configuredVoices = harness();
+const voiceCases = plain(configuredVoices.app.gatewayVoiceOptions);
+configuredVoices.dispose();
+for (const voice of voiceCases) {
+  test(`sentence and repeated full text follow the exact capability of ${voice.value}`, async () => {
+    const h = harness();
+    try {
+      const original = 'Hello中文world。';
+      const expected = voice.textMode === 'multilingual' ? original : 'Hello world.';
+      h.text(original); h.app.isGatewayRunning.value = true; h.app.selectedGatewayVoice.value = voice.value;
+      const pending = h.app.readSentence(h.app.sentences.value[0].id);
+      assert.equal(h.gateways.at(-1).text, expected);
+      h.gateways.at(-1).pending.resolve(); await pending;
+      h.app.selectedRepeat.value = 2;
+      await h.app.readFullText();
+      const gateway = h.gateways.at(-1);
+      assert.equal(gateway.text, expected);
+      gateway.options.onProgress({ phase: 'playing' }); gateway.pending.resolve(); await tick();
+      assert.equal(gateway.text, expected);
+      assert.equal(h.app.fullTextSpeechLabel.value, '暂停');
+      assert.equal(h.app.fullTextSpeechNotice.value, '');
+      gateway.pending.resolve(); await tick();
+      assert.equal(h.app.isSpeaking.value, false);
+      assert.equal(h.app.sourceText.value, original);
+      assert.equal(h.app.sentences.value[0].text, original);
+      assert.equal(h.writes.length, 0);
+    } finally { h.dispose(); }
+  });
+}
+
+test("filtered-empty word, sentence, typing and full text never enter playback or preparation", async () => {
+  for (const gateway of [false, true]) {
+    const h = harness();
+    try {
+      h.text('只有中文。'); h.app.isGatewayRunning.value = gateway; h.app.selectedGatewayVoice.value = 'en-US-JennyNeural';
+      await h.app.readSentence(h.app.sentences.value[0].id);
+      await h.app.speakArticleTypingSentence('只有中文。');
+      h.app.speakArticleTypingWord('中文😀');
+      h.app.speakWord('中文', '中文');
+      await h.app.readFullText();
+      assert.equal(h.gateways.length, 0);
+      assert.equal(h.utterances.length, 0);
+      assert.equal(h.wordAudio.length, 0);
+      assert.equal(h.app.isSpeaking.value, false);
+      assert.equal(h.app.isFullTextPreparing.value, false);
+      assert.equal(h.app.fullTextSpeechNotice.value, '');
+      assert.equal(h.bufferTimer(), undefined);
+      assert.equal(h.app.status.value, '当前声音没有可朗读的英文内容，可选择 Emma 多语言。');
+      assert.equal(h.app.sourceText.value, '只有中文。');
+    } finally { h.dispose(); }
+  }
+});
+
+test("browser full text skips Chinese paragraphs and keeps English sentences on every repeat", async () => {
+  const h = harness();
+  try {
+    h.text('中文前言。\nFirst English sentence.\n中文翻译。\nSecond English sentence.\n中文结尾。');
+    h.app.selectedRepeat.value = 2;
+    await h.app.readFullText();
+    for (let i = 0; i < 4; i++) {
+      const utterance = h.utterances[i];
+      assert.ok(utterance);
+      assert.doesNotMatch(utterance.text, /\p{Script=Han}/u);
+      utterance.onstart();
+      assert.equal(h.app.fullTextSpeechNotice.value, '');
+      utterance.onend(); await tick();
+    }
+    assert.deepEqual(h.utterances.map(u => u.text), ['First English sentence.', 'Second English sentence.', 'First English sentence.', 'Second English sentence.']);
+    assert.equal(h.app.isSpeaking.value, false);
+  } finally { h.dispose(); }
+});
+
+test("multilingual sentence and full-text fallback re-filter the original for English browsers", async () => {
+  for (const fullText of [false, true]) {
+    const h = harness();
+    try {
+      h.text('Hello中文world。'); h.app.isGatewayRunning.value = true;
+      const pending = fullText ? h.app.readFullText() : h.app.readSentence(h.app.sentences.value[0].id);
+      if (fullText) await pending;
+      const gateway = h.gateways.at(-1);
+      assert.equal(gateway.text, 'Hello中文world。');
+      gateway.options.onProgress({ phase: 'playing' });
+      gateway.pending.reject(new Error('offline')); await tick();
+      assert.equal(h.utterances.at(-1).text, 'Hello world.');
+      if (fullText) assert.equal(h.app.fullTextSpeechNotice.value, '');
+      h.utterances.at(-1).onend(); await pending; await tick();
+      assert.equal(h.app.isSpeaking.value, false);
+    } finally { h.dispose(); }
+  }
+});
+
+test("Chinese-only multilingual fallback clears preparation without submitting empty English speech", async () => {
+  for (const fullText of [false, true]) {
+    const h = harness();
+    try {
+      h.text('只有中文。'); h.app.isGatewayRunning.value = true;
+      const pending = fullText ? h.app.readFullText() : h.app.readSentence(h.app.sentences.value[0].id);
+      if (fullText) await pending;
+      const gateway = h.gateways.at(-1);
+      const oldProgress = gateway.options.onProgress;
+      gateway.pending.reject(new Error('offline')); await pending; await tick();
+      oldProgress({ phase: 'playing' });
+      assert.equal(h.utterances.length, 0);
+      assert.equal(h.app.isSpeaking.value, false);
+      assert.equal(h.app.fullTextSpeechNotice.value, '');
+      assert.equal(h.bufferTimer(), undefined);
+      assert.match(h.app.status.value, /没有可朗读的英文/);
+    } finally { h.dispose(); }
+  }
+});
+
+test("typing sentence, word and Youdao fallback all use filtered English copies", async () => {
+  const h = harness();
+  try {
+    const pending = h.app.speakArticleTypingSentence('Hello（中文）world。');
+    assert.equal(h.utterances.at(-1).text, 'Hello world.');
+    h.utterances.at(-1).onend(); await pending;
+    h.app.speakWord('café中文word', 'original');
+    assert.equal(h.utterances.at(-1).text, 'café word');
+    h.utterances.at(-1).onerror({ error: 'not-allowed' }); await tick();
+    const audio = h.wordAudio.at(-1);
+    assert.equal(new URL(audio.src).searchParams.get('audio'), 'café word');
+    audio.onended(); await tick();
+    assert.equal(h.app.isSpeaking.value, false);
+    assert.equal(h.writes.length, 0);
+  } finally { h.dispose(); }
+});
+
+test("Gateway filtering precedes chunks, cache keys and requests and cache hits reuse the same copy", async () => {
+  const requests = [], stored = new Map();
+  const h = gatewayHarness({
+    cache: async key => stored.get(key),
+    fetch: async (_url, options) => {
+      requests.push(JSON.parse(options.body));
+      return { ok: true, blob: async () => new Blob(['real-test-audio']) };
+    },
+  });
+  const text = ('Hello中文world. ' + '中文翻译'.repeat(50) + '\n').repeat(100);
+  const pending = h.session.speak(text, { voice: 'en-US-JennyNeural' });
+  let ended = 0;
+  for (let i = 0; i < 10; i++) {
+    await tick();
+    const audio = h.audio.at(-1);
+    if (audio?.onended) { ended++; audio.onended(); }
+  }
+  await pending;
+  assert.ok(requests.length > 1);
+  assert.equal(requests.length, ended);
+  assert.equal(requests.map(r => r.text).join(' '), Array(100).fill('Hello world.').join(' '));
+  assert.ok(h.keys.every(parts => !/\p{Script=Han}/u.test(parts[0]) && new TextEncoder().encode(parts[0]).length <= 1000));
+  for (const [key, blob] of h.writes) stored.set(key, { blob, size: blob.size });
+  const before = requests.length;
+  const cached = h.session.speak(text, { voice: 'en-US-JennyNeural' });
+  for (let i = 0; i < 10; i++) { await tick(); h.audio.at(-1)?.onended?.(); }
+  await cached;
+  assert.equal(requests.length, before);
+});
+
+test("Gateway and browser low-level guards reject filtered-empty input before any audio or timer", async () => {
+  const gateway = gatewayHarness({ fetch: () => assert.fail('must not fetch') });
+  await assert.rejects(gateway.session.speak('中文😀。', { voice: 'en-US-JennyNeural' }), { name: 'NoSpeechTextError' });
+  assert.equal(gateway.audio.length, 0);
+  assert.equal(gateway.keys.length, 0);
+  const h = harness();
+  try {
+    const baseline = h.timers.size;
+    await assert.rejects(h.load('src/shared/utils/browserSpeech.ts').playBrowserSpeech('中文。', {
+      signal: new AbortController().signal, voice: null, rate: 1,
+    }), { name: 'NoSpeechTextError' });
+    assert.equal(h.utterances.length, 0);
+    assert.equal(h.timers.size, baseline);
+  } finally { h.dispose(); }
+});
+
+test("immediate full-text playback flushes the pending edit split before starting speech", async () => {
+  const h = harness();
+  try {
+    h.app.sourceText.value = 'Hello中文world. Another English sentence.';
+    assert.ok(h.timers.size > 0);
+    await h.app.readFullText();
+    assert.equal(h.app.readingRuns.value.flatMap(run => run.segments).map(s => s.text + (s.trailingText ?? '')).join(''), h.app.sourceText.value);
+    assert.equal(h.utterances.at(-1).text, 'Hello world.');
+    h.utterances.at(-1).onstart();
+    assert.equal(h.app.fullTextSpeechLabel.value, '暂停');
+    h.utterances.at(-1).onend(); await tick();
+    assert.equal(h.utterances.at(-1).text, 'Another English sentence.');
+    h.utterances.at(-1).onend(); await tick();
+    assert.equal(h.app.isSpeaking.value, false);
   } finally { h.dispose(); }
 });

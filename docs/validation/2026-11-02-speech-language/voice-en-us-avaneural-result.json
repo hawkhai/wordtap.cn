@@ -1,0 +1,66 @@
+{
+  "case": "voice-en-us-avaneural",
+  "serviceVersion": "0.2.2",
+  "viewport": {
+    "width": 765,
+    "height": 772
+  },
+  "requests": [
+    {
+      "body": {
+        "text": "Hello world. Good morning! café costs 3.14 dollars.",
+        "voice": "en-US-AvaNeural"
+      },
+      "status": 200,
+      "contentType": "audio/mpeg",
+      "bytes": 32976,
+      "file": "voice-en-us-avaneural-segment-1.mp3",
+      "duration": 5.496,
+      "rms": 0.08507981828088071
+    }
+  ],
+  "audio": [
+    {
+      "events": [
+        {
+          "event": "waiting",
+          "time": 18794.30000001192,
+          "currentTime": 0
+        },
+        {
+          "event": "playing",
+          "time": 18800.700000047684,
+          "currentTime": 0
+        },
+        {
+          "event": "timeupdate",
+          "time": 19057.5,
+          "currentTime": 0.237618
+        },
+        {
+          "event": "timeupdate",
+          "time": 19330.700000047684,
+          "currentTime": 0.508171
+        },
+        {
+          "event": "pause",
+          "time": 24342.5,
+          "currentTime": 5.496
+        },
+        {
+          "event": "ended",
+          "time": 24342.5,
+          "currentTime": 5.496
+        }
+      ],
+      "duration": 5.496,
+      "finalTime": 5.496,
+      "started": true,
+      "ended": true
+    }
+  ],
+  "completed": true,
+  "errors": [],
+  "original": "Hello中文world。 Good morning（注释）! café costs 3.14 dollars. 日本語 한국어 😀",
+  "validationKind": "Production GatewaySpeechSession direct mixed-language sample"
+}

@@ -1,0 +1,126 @@
+{
+  "case": "mobile-390-jenny",
+  "serviceVersion": "0.2.2",
+  "viewport": {
+    "width": 390,
+    "height": 844
+  },
+  "requests": [
+    {
+      "body": {
+        "text": "Each new sentence followed the one before it without disturbing the page. At the end, the children closed their stories and shared what they had learned. For mobile three ninety Jenny, They planned to return the next morning for another reading lesson.",
+        "voice": "en-US-JennyNeural",
+        "rate": "+0%"
+      },
+      "status": 200,
+      "contentType": "audio/mpeg",
+      "bytes": 89568,
+      "file": "before-button-width/mobile-390-jenny-segment-1.mp3",
+      "duration": 14.928,
+      "rms": 0.08726144676925675
+    },
+    {
+      "body": {
+        "text": "For mobile three ninety Jenny, The class began with a short story about a quiet village. Every morning, the baker opened his shop before sunrise. People stopped by to buy fresh bread on their way to work. A young student sat beside the window and read a book. She enjoyed learning new words and listening to their sounds. When she met a difficult sentence, she read it again slowly. Her teacher reminded her to keep the whole meaning in mind. After breakfast, the children walked together to the reading room. They chose a story and took turns reading each paragraph. Nobody needed to hurry because careful practice was more useful. At noon, they talked about the characters and their choices. One student asked a question, and another offered an answer. The teacher encouraged everyone to explain their ideas clearly. In the afternoon, they listened to the complete story once more. The words on the page stayed in the same place as the reading continued.",
+        "voice": "en-US-JennyNeural",
+        "rate": "+0%"
+      },
+      "status": 200,
+      "contentType": "audio/mpeg",
+      "bytes": 369792,
+      "file": "before-button-width/mobile-390-jenny-segment-2.mp3",
+      "duration": 61.632,
+      "rms": 0.08355824750762678
+    }
+  ],
+  "audio": [
+    {
+      "events": [
+        {
+          "event": "waiting",
+          "time": 24401.100000023842,
+          "currentTime": 0
+        },
+        {
+          "event": "playing",
+          "time": 24412.5,
+          "currentTime": 0
+        },
+        {
+          "event": "timeupdate",
+          "time": 24672.600000023842,
+          "currentTime": 0.240001
+        },
+        {
+          "event": "timeupdate",
+          "time": 24926.400000035763,
+          "currentTime": 0.489716
+        },
+        {
+          "event": "pause",
+          "time": 86078.40000003576,
+          "currentTime": 61.632
+        },
+        {
+          "event": "ended",
+          "time": 86078.5,
+          "currentTime": 61.632
+        }
+      ],
+      "duration": 61.632,
+      "finalTime": 61.632,
+      "started": true,
+      "ended": true
+    },
+    {
+      "events": [
+        {
+          "event": "waiting",
+          "time": 86080.30000001192,
+          "currentTime": 0
+        },
+        {
+          "event": "playing",
+          "time": 86089.10000002384,
+          "currentTime": 0
+        },
+        {
+          "event": "timeupdate",
+          "time": 86333.60000002384,
+          "currentTime": 0.220189
+        },
+        {
+          "event": "timeupdate",
+          "time": 86609,
+          "currentTime": 0.4929
+        },
+        {
+          "event": "pause",
+          "time": 101058.5,
+          "currentTime": 14.928
+        },
+        {
+          "event": "ended",
+          "time": 101058.60000002384,
+          "currentTime": 14.928
+        }
+      ],
+      "duration": 14.928,
+      "finalTime": 14.928,
+      "started": true,
+      "ended": true
+    }
+  ],
+  "frames": 4599,
+  "shifted": 1,
+  "noticeFrames": 0,
+  "blankFrames": 0,
+  "replacements": 0,
+  "overflow": false,
+  "completed": true,
+  "errors": [],
+  "original": "中文前言。\nFor mobile three ninety Jenny, The class中文 began with a short story about a quiet village. Every morning, the baker opened his shop before sunrise. People stopped by to buy fresh bread on their way to work. A young student sat beside the window and read a book. She enjoyed learning new words and listening to their sounds. When she met a difficult sentence, she read it again slowly.\n中文注释。 Her teacher reminded her to keep the whole meaning in mind. After breakfast, the children walked together to the reading room. They chose a story and took turns reading each paragraph. Nobody needed to hurry because careful practice was more useful. At noon, they talked about the characters and their choices. One student asked a question, and another offered an answer.\n中文注释。 The teacher encouraged everyone to explain their ideas clearly. In the afternoon, they listened to the complete story once more. The words on the page stayed in the same place as the reading continued. Each new sentence followed the one before it without disturbing the page. At the end, the children closed their stories and shared what they had learned. For mobile three ninety Jenny, They planned to return the next morning for another reading lesson.\n中文注释。\n中文结尾。😀",
+  "readerText": "中文前言。\nFor mobile three ninety Jenny, The class中文 began with a short story about a quiet village. Every morning, the baker opened his shop before sunrise. People stopped by to buy fresh bread on their way to work. A young student sat beside the window and read a book. She enjoyed learning new words and listening to their sounds. When she met a difficult sentence, she read it again slowly.\n中文注释。 Her teacher reminded her to keep the whole meaning in mind. After breakfast, the children walked together to the reading room. They chose a story and took turns reading each paragraph. Nobody needed to hurry because careful practice was more useful. At noon, they talked about the characters and their choices. One student asked a question, and another offered an answer.\n中文注释。 The teacher encouraged everyone to explain their ideas clearly. In the afternoon, they listened to the complete story once more. The words on the page stayed in the same place as the reading continued. Each new sentence followed the one before it without disturbing the page. At the end, the children closed their stories and shared what they had learned. For mobile three ninety Jenny, They planned to return the next morning for another reading lesson.\n中文注释。\n中文结尾。😀",
+  "finalStatus": "完成：全文朗读（1 遍）",
+  "validationNote": "Before reserving the full-text button width: completion could wrap the toolbar. Superseded by the final root-level viewport runs."
+}

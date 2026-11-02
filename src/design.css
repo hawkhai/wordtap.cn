@@ -118,8 +118,10 @@ body { background: var(--wt-background); color: var(--wt-text); }
 .study-display-controls { margin-block: 12px 16px; }
 .study-display-toolbar { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; min-width: 0; }
 .study-display-toolbar .study-reading-actions { justify-content: flex-end; margin-left: auto; }
+.study-fulltext-button { min-inline-size: calc(4em + 48px); white-space: nowrap; }
 .study-speech-spinner { display: inline-block; width: 14px; height: 14px; margin-right: 6px; vertical-align: -2px; border: 2px solid currentColor; border-right-color: transparent; border-radius: 50%; animation: study-speech-spin .8s linear infinite; }
 .study-speech-notice { margin: 12px 0 0; padding: 10px 12px; border-radius: 8px; background: var(--wt-primary-soft); color: var(--wt-secondary); font-size: 13px; line-height: 1.7; overflow-wrap: anywhere; }
+.study-speech-language-hint { margin: 8px 0 0; color: var(--wt-secondary); font-size: var(--wt-text-caption); font-weight: 400; line-height: 1.6; overflow-wrap: anywhere; }
 @keyframes study-speech-spin { to { transform: rotate(360deg); } }
 .study-phonetic-toggle { display: inline-flex; align-items: center; gap: 8px; min-height: var(--wt-control-height); color: var(--wt-secondary); font-size: 14px; cursor: pointer; }
 .study-phonetic-toggle input { width: 16px; height: 16px; margin: 0; accent-color: var(--wt-primary); cursor: pointer; }

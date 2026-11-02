@@ -114,6 +114,7 @@ import { createTaskLimiter, lookupWordPhonetic } from "../utils/readingPhonetics
 import { readingWordPattern } from "../utils/readingWords";
 import { playBrowserSpeech } from "../utils/browserSpeech";
 import { SentenceSpeechSession } from "../utils/sentenceSpeech";
+import { gatewaySpeechTextMode, NoSpeechTextError, prepareSpeechText } from "../utils/speechText";
 
 export function useWordTap() {
 const copy = siteCopy;
@@ -2571,9 +2572,9 @@ function speakWithYoudaoOnce(text: string, runId: number): Promise<void> {
 
 function speakWord(text: string, label: string): void {
   cancelSpeech();
-  const phrase = text.trim();
+  const phrase = prepareSpeechText(text);
   if (!phrase) {
-    status.value = copy.status.noSpeechContent;
+    status.value = copy.status.noEnglishSpeechContent;
     return;
   }
 
@@ -2774,8 +2775,12 @@ function speakFullTextWithBrowser(text: string, label: string, playbackControl =
     status.value = copy.status.fullTextSpeechUnavailable;
     return;
   }
-  const parts = splitSentencesForBrowser(text);
-  if (!parts.length) return;
+  const parts = splitSentencesForBrowser(prepareSpeechText(text));
+  if (!parts.length) {
+    cancelFullTextSpeech();
+    status.value = copy.status.noEnglishSpeechContent;
+    return;
+  }
   cancelFullTextSpeech();
   fullTextPlaybackControl = playbackControl;
   fullTextHasStarted = alreadyStarted;
@@ -2823,8 +2828,11 @@ function speakFullTextWithBrowser(text: string, label: string, playbackControl =
 
 function speakFullTextWithGateway(text: string, label: string, playbackControl = new SpeechPlaybackControl()): void {
   const phrase = text.trim();
-  if (!phrase) {
-    status.value = copy.status.noSpeechContent;
+  const voice = selectedGatewayVoice.value;
+  const prepared = prepareSpeechText(phrase, gatewaySpeechTextMode(voice));
+  if (!prepared) {
+    cancelFullTextSpeech();
+    status.value = copy.status.noEnglishSpeechContent;
     return;
   }
 
@@ -2867,10 +2875,10 @@ function speakFullTextWithGateway(text: string, label: string, playbackControl =
     waitForFullTextAudio();
     isFullTextSpeaking.value = true;
     void session
-      .speak(phrase, {
+      .speak(prepared, {
         playbackControl,
         rate: selectedRate.value,
-        voice: selectedGatewayVoice.value,
+        voice,
         onProgress: (progress) => {
           if (runId !== fullTextSpeechRunId.value || repeat !== played) return;
           if (progress.phase === "buffering") waitForFullTextAudio();
@@ -3152,6 +3160,10 @@ async function speakArticleTypingSentence(text: string): Promise<void> {
 
 async function speakSentenceText(text: string, sentenceId: string): Promise<void> {
   cancelSpeech();
+  if (!prepareSpeechText(text, isGatewayRunning.value ? gatewaySpeechTextMode(selectedGatewayVoice.value) : "english")) {
+    status.value = copy.status.noEnglishSpeechContent;
+    return;
+  }
   cancelLookup();
   hideWordPopover();
   const session = new SentenceSpeechSession();
@@ -3178,7 +3190,7 @@ async function speakSentenceText(text: string, sentenceId: string): Promise<void
     });
     if (isCurrent()) status.value = "本句朗读完成，可再次点击重读。";
   } catch (error) {
-    if (isCurrent()) status.value = `本句朗读失败：${formatSpeechError(error)}；可再次点击重试。`;
+    if (isCurrent()) status.value = error instanceof NoSpeechTextError ? error.message : `本句朗读失败：${formatSpeechError(error)}；可再次点击重试。`;
   } finally {
     if (isCurrent()) cancelSentenceSpeech();
   }
@@ -3206,7 +3218,14 @@ async function readFullText(): Promise<void> {
     return;
   }
 
+  // Flush the edit's pending split before starting a new full-text session.
+  // Its delayed cancelSpeech must never interrupt playback after this click.
+  if (splitWordsTimer !== null) splitWords({ recordTextHistory: false });
   cancelSpeech();
+  if (!prepareSpeechText(text, isGatewayRunning.value ? gatewaySpeechTextMode(selectedGatewayVoice.value) : "english")) {
+    status.value = copy.status.noEnglishSpeechContent;
+    return;
+  }
   const intent = speechIntent;
   const playbackControl = new SpeechPlaybackControl();
   fullTextPlaybackControl = playbackControl;

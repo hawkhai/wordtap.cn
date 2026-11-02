@@ -1,0 +1,66 @@
+{
+  "case": "voice-en-gb-libbyneural",
+  "serviceVersion": "0.2.2",
+  "viewport": {
+    "width": 765,
+    "height": 772
+  },
+  "requests": [
+    {
+      "body": {
+        "text": "Hello world. Good morning! café costs 3.14 dollars.",
+        "voice": "en-GB-LibbyNeural"
+      },
+      "status": 200,
+      "contentType": "audio/mpeg",
+      "bytes": 44496,
+      "file": "voice-en-gb-libbyneural-segment-1.mp3",
+      "duration": 7.416,
+      "rms": 0.0923866885014447
+    }
+  ],
+  "audio": [
+    {
+      "events": [
+        {
+          "event": "waiting",
+          "time": 71367.5,
+          "currentTime": 0
+        },
+        {
+          "event": "playing",
+          "time": 71372.90000003576,
+          "currentTime": 0
+        },
+        {
+          "event": "timeupdate",
+          "time": 71627.70000004768,
+          "currentTime": 0.235802
+        },
+        {
+          "event": "timeupdate",
+          "time": 71885.90000003576,
+          "currentTime": 0.489985
+        },
+        {
+          "event": "pause",
+          "time": 78834.5,
+          "currentTime": 7.416
+        },
+        {
+          "event": "ended",
+          "time": 78834.70000004768,
+          "currentTime": 7.416
+        }
+      ],
+      "duration": 7.416,
+      "finalTime": 7.416,
+      "started": true,
+      "ended": true
+    }
+  ],
+  "completed": true,
+  "errors": [],
+  "original": "Hello中文world。 Good morning（注释）! café costs 3.14 dollars. 日本語 한국어 😀",
+  "validationKind": "Production GatewaySpeechSession direct mixed-language sample"
+}

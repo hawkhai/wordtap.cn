@@ -1,0 +1,66 @@
+{
+  "case": "voice-en-us-jennyneural",
+  "serviceVersion": "0.2.2",
+  "viewport": {
+    "width": 765,
+    "height": 772
+  },
+  "requests": [
+    {
+      "body": {
+        "text": "Hello world. Good morning! café costs 3.14 dollars.",
+        "voice": "en-US-JennyNeural"
+      },
+      "status": 200,
+      "contentType": "audio/mpeg",
+      "bytes": 39888,
+      "file": "voice-en-us-jennyneural-segment-1.mp3",
+      "duration": 6.648,
+      "rms": 0.07132499396134477
+    }
+  ],
+  "audio": [
+    {
+      "events": [
+        {
+          "event": "waiting",
+          "time": 25501.5,
+          "currentTime": 0
+        },
+        {
+          "event": "playing",
+          "time": 25506.100000023842,
+          "currentTime": 0
+        },
+        {
+          "event": "timeupdate",
+          "time": 25765,
+          "currentTime": 0.240557
+        },
+        {
+          "event": "timeupdate",
+          "time": 26030.100000023842,
+          "currentTime": 0.503065
+        },
+        {
+          "event": "pause",
+          "time": 32186.900000035763,
+          "currentTime": 6.648
+        },
+        {
+          "event": "ended",
+          "time": 32186.900000035763,
+          "currentTime": 6.648
+        }
+      ],
+      "duration": 6.648,
+      "finalTime": 6.648,
+      "started": true,
+      "ended": true
+    }
+  ],
+  "completed": true,
+  "errors": [],
+  "original": "Hello中文world。 Good morning（注释）! café costs 3.14 dollars. 日本語 한국어 😀",
+  "validationKind": "Production GatewaySpeechSession direct mixed-language sample"
+}

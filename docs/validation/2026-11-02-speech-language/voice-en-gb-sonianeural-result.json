@@ -1,0 +1,66 @@
+{
+  "case": "voice-en-gb-sonianeural",
+  "serviceVersion": "0.2.2",
+  "viewport": {
+    "width": 765,
+    "height": 772
+  },
+  "requests": [
+    {
+      "body": {
+        "text": "Hello world. Good morning! café costs 3.14 dollars.",
+        "voice": "en-GB-SoniaNeural"
+      },
+      "status": 200,
+      "contentType": "audio/mpeg",
+      "bytes": 34416,
+      "file": "voice-en-gb-sonianeural-segment-1.mp3",
+      "duration": 5.736,
+      "rms": 0.10889345160232855
+    }
+  ],
+  "audio": [
+    {
+      "events": [
+        {
+          "event": "waiting",
+          "time": 83211.90000003576,
+          "currentTime": 0
+        },
+        {
+          "event": "playing",
+          "time": 83223.5,
+          "currentTime": 0
+        },
+        {
+          "event": "timeupdate",
+          "time": 83463.80000001192,
+          "currentTime": 0.219151
+        },
+        {
+          "event": "timeupdate",
+          "time": 83732.70000004768,
+          "currentTime": 0.485343
+        },
+        {
+          "event": "pause",
+          "time": 89005.80000001192,
+          "currentTime": 5.736
+        },
+        {
+          "event": "ended",
+          "time": 89005.90000003576,
+          "currentTime": 5.736
+        }
+      ],
+      "duration": 5.736,
+      "finalTime": 5.736,
+      "started": true,
+      "ended": true
+    }
+  ],
+  "completed": true,
+  "errors": [],
+  "original": "Hello中文world。 Good morning（注释）! café costs 3.14 dollars. 日本語 한국어 😀",
+  "validationKind": "Production GatewaySpeechSession direct mixed-language sample"
+}

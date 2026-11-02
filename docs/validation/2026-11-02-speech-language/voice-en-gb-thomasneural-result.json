@@ -1,0 +1,66 @@
+{
+  "case": "voice-en-gb-thomasneural",
+  "serviceVersion": "0.2.2",
+  "viewport": {
+    "width": 765,
+    "height": 772
+  },
+  "requests": [
+    {
+      "body": {
+        "text": "Hello world. Good morning! café costs 3.14 dollars.",
+        "voice": "en-GB-ThomasNeural"
+      },
+      "status": 200,
+      "contentType": "audio/mpeg",
+      "bytes": 40320,
+      "file": "voice-en-gb-thomasneural-segment-1.mp3",
+      "duration": 6.72,
+      "rms": 0.06598374856081982
+    }
+  ],
+  "audio": [
+    {
+      "events": [
+        {
+          "event": "waiting",
+          "time": 98608.30000001192,
+          "currentTime": 0
+        },
+        {
+          "event": "playing",
+          "time": 98615.60000002384,
+          "currentTime": 0
+        },
+        {
+          "event": "timeupdate",
+          "time": 98883.10000002384,
+          "currentTime": 0.247592
+        },
+        {
+          "event": "timeupdate",
+          "time": 99135.60000002384,
+          "currentTime": 0.494585
+        },
+        {
+          "event": "pause",
+          "time": 105378.90000003576,
+          "currentTime": 6.72
+        },
+        {
+          "event": "ended",
+          "time": 105379,
+          "currentTime": 6.72
+        }
+      ],
+      "duration": 6.72,
+      "finalTime": 6.72,
+      "started": true,
+      "ended": true
+    }
+  ],
+  "completed": true,
+  "errors": [],
+  "original": "Hello中文world。 Good morning（注释）! café costs 3.14 dollars. 日本語 한국어 😀",
+  "validationKind": "Production GatewaySpeechSession direct mixed-language sample"
+}

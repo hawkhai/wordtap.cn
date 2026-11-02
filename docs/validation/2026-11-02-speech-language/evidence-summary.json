@@ -1,0 +1,128 @@
+[
+  {
+    "case": "desktop-emma",
+    "requests": 2,
+    "bytes": 470016,
+    "duration": 78.336,
+    "frames": 4713
+  },
+  {
+    "case": "desktop-jenny",
+    "requests": 2,
+    "bytes": 453600,
+    "duration": 75.6,
+    "frames": 4405
+  },
+  {
+    "case": "mobile-360-emma",
+    "requests": 2,
+    "bytes": 485424,
+    "duration": 80.904,
+    "frames": 4858
+  },
+  {
+    "case": "mobile-360-jenny",
+    "requests": 2,
+    "bytes": 464544,
+    "duration": 77.424,
+    "frames": 4626
+  },
+  {
+    "case": "mobile-390-emma",
+    "requests": 2,
+    "bytes": 485424,
+    "duration": 80.904,
+    "frames": 4797
+  },
+  {
+    "case": "mobile-390-jenny",
+    "requests": 2,
+    "bytes": 464256,
+    "duration": 77.376,
+    "frames": 4623
+  },
+  {
+    "case": "voice-en-gb-libbyneural",
+    "requests": 1,
+    "bytes": 44496,
+    "duration": 7.416,
+    "frames": null
+  },
+  {
+    "case": "voice-en-gb-ryanneural",
+    "requests": 1,
+    "bytes": 40608,
+    "duration": 6.768,
+    "frames": null
+  },
+  {
+    "case": "voice-en-gb-sonianeural",
+    "requests": 1,
+    "bytes": 34416,
+    "duration": 5.736,
+    "frames": null
+  },
+  {
+    "case": "voice-en-gb-thomasneural",
+    "requests": 1,
+    "bytes": 40320,
+    "duration": 6.72,
+    "frames": null
+  },
+  {
+    "case": "voice-en-us-andrewneural",
+    "requests": 1,
+    "bytes": 28656,
+    "duration": 4.776,
+    "frames": null
+  },
+  {
+    "case": "voice-en-us-arianeural",
+    "requests": 1,
+    "bytes": 41472,
+    "duration": 6.912,
+    "frames": null
+  },
+  {
+    "case": "voice-en-us-avaneural",
+    "requests": 1,
+    "bytes": 32976,
+    "duration": 5.496,
+    "frames": null
+  },
+  {
+    "case": "voice-en-us-brianneural",
+    "requests": 1,
+    "bytes": 31536,
+    "duration": 5.256,
+    "frames": null
+  },
+  {
+    "case": "voice-en-us-emmamultilingualneural",
+    "requests": 1,
+    "bytes": 50400,
+    "duration": 8.4,
+    "frames": null
+  },
+  {
+    "case": "voice-en-us-emmaneural",
+    "requests": 1,
+    "bytes": 30528,
+    "duration": 5.088,
+    "frames": null
+  },
+  {
+    "case": "voice-en-us-guyneural",
+    "requests": 1,
+    "bytes": 40176,
+    "duration": 6.696,
+    "frames": null
+  },
+  {
+    "case": "voice-en-us-jennyneural",
+    "requests": 1,
+    "bytes": 39888,
+    "duration": 6.648,
+    "frames": null
+  }
+]

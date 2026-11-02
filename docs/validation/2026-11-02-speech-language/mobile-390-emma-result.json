@@ -1,0 +1,125 @@
+{
+  "case": "mobile-390-emma",
+  "serviceVersion": "0.2.2",
+  "viewport": {
+    "width": 390,
+    "height": 844
+  },
+  "requests": [
+    {
+      "body": {
+        "text": "The words on the page stayed in the same place as the reading continued. Each new sentence followed the one before it without disturbing the page. At the end, the children closed their stories and shared what they had learned. For mobile three ninety Emma stable, They planned to return the next morning for another reading lesson. 中文注释。\n中文结尾。",
+        "voice": "en-US-EmmaMultilingualNeural",
+        "rate": "+0%"
+      },
+      "status": 200,
+      "contentType": "audio/mpeg",
+      "bytes": 131472,
+      "file": "mobile-390-emma-segment-1.mp3",
+      "duration": 21.912,
+      "rms": 0.1295127020516669
+    },
+    {
+      "body": {
+        "text": "中文前言。\nFor mobile three ninety Emma stable, The class中文 began with a short story about a quiet village. Every morning, the baker opened his shop before sunrise. People stopped by to buy fresh bread on their way to work. A young student sat beside the window and read a book. She enjoyed learning new words and listening to their sounds. When she met a difficult sentence, she read it again slowly. 中文注释。 Her teacher reminded her to keep the whole meaning in mind. After breakfast, the children walked together to the reading room. They chose a story and took turns reading each paragraph. Nobody needed to hurry because careful practice was more useful. At noon, they talked about the characters and their choices. One student asked a question, and another offered an answer. 中文注释。 The teacher encouraged everyone to explain their ideas clearly. In the afternoon, they listened to the complete story once more.",
+        "voice": "en-US-EmmaMultilingualNeural",
+        "rate": "+0%"
+      },
+      "status": 200,
+      "contentType": "audio/mpeg",
+      "bytes": 353952,
+      "file": "mobile-390-emma-segment-2.mp3",
+      "duration": 58.992,
+      "rms": 0.12668036844556171
+    }
+  ],
+  "audio": [
+    {
+      "events": [
+        {
+          "event": "waiting",
+          "time": 28685.600000023842,
+          "currentTime": 0
+        },
+        {
+          "event": "playing",
+          "time": 28700.30000001192,
+          "currentTime": 0
+        },
+        {
+          "event": "timeupdate",
+          "time": 28961.5,
+          "currentTime": 0.208399
+        },
+        {
+          "event": "timeupdate",
+          "time": 29222.19999998808,
+          "currentTime": 0.465121
+        },
+        {
+          "event": "pause",
+          "time": 87756.89999997616,
+          "currentTime": 58.992
+        },
+        {
+          "event": "ended",
+          "time": 87757.10000002384,
+          "currentTime": 58.992
+        }
+      ],
+      "duration": 58.992,
+      "finalTime": 58.992,
+      "started": true,
+      "ended": true
+    },
+    {
+      "events": [
+        {
+          "event": "waiting",
+          "time": 87758.69999998808,
+          "currentTime": 0
+        },
+        {
+          "event": "playing",
+          "time": 87774.80000001192,
+          "currentTime": 0
+        },
+        {
+          "event": "timeupdate",
+          "time": 88021.89999997616,
+          "currentTime": 0.21964
+        },
+        {
+          "event": "timeupdate",
+          "time": 88287,
+          "currentTime": 0.482136
+        },
+        {
+          "event": "pause",
+          "time": 109726.80000001192,
+          "currentTime": 21.912
+        },
+        {
+          "event": "ended",
+          "time": 109726.89999997616,
+          "currentTime": 21.912
+        }
+      ],
+      "duration": 21.912,
+      "finalTime": 21.912,
+      "started": true,
+      "ended": true
+    }
+  ],
+  "frames": 4797,
+  "shifted": 0,
+  "noticeFrames": 0,
+  "blankFrames": 0,
+  "replacements": 0,
+  "overflow": false,
+  "completed": true,
+  "errors": [],
+  "original": "中文前言。\nFor mobile three ninety Emma stable, The class中文 began with a short story about a quiet village. Every morning, the baker opened his shop before sunrise. People stopped by to buy fresh bread on their way to work. A young student sat beside the window and read a book. She enjoyed learning new words and listening to their sounds. When she met a difficult sentence, she read it again slowly.\n中文注释。 Her teacher reminded her to keep the whole meaning in mind. After breakfast, the children walked together to the reading room. They chose a story and took turns reading each paragraph. Nobody needed to hurry because careful practice was more useful. At noon, they talked about the characters and their choices. One student asked a question, and another offered an answer.\n中文注释。 The teacher encouraged everyone to explain their ideas clearly. In the afternoon, they listened to the complete story once more. The words on the page stayed in the same place as the reading continued. Each new sentence followed the one before it without disturbing the page. At the end, the children closed their stories and shared what they had learned. For mobile three ninety Emma stable, They planned to return the next morning for another reading lesson.\n中文注释。\n中文结尾。😀",
+  "readerText": "中文前言。\nFor mobile three ninety Emma stable, The class中文 began with a short story about a quiet village. Every morning, the baker opened his shop before sunrise. People stopped by to buy fresh bread on their way to work. A young student sat beside the window and read a book. She enjoyed learning new words and listening to their sounds. When she met a difficult sentence, she read it again slowly.\n中文注释。 Her teacher reminded her to keep the whole meaning in mind. After breakfast, the children walked together to the reading room. They chose a story and took turns reading each paragraph. Nobody needed to hurry because careful practice was more useful. At noon, they talked about the characters and their choices. One student asked a question, and another offered an answer.\n中文注释。 The teacher encouraged everyone to explain their ideas clearly. In the afternoon, they listened to the complete story once more. The words on the page stayed in the same place as the reading continued. Each new sentence followed the one before it without disturbing the page. At the end, the children closed their stories and shared what they had learned. For mobile three ninety Emma stable, They planned to return the next morning for another reading lesson.\n中文注释。\n中文结尾。😀",
+  "finalStatus": "完成：全文朗读（1 遍）"
+}

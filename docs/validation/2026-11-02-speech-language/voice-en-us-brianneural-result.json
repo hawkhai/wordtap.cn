@@ -1,0 +1,66 @@
+{
+  "case": "voice-en-us-brianneural",
+  "serviceVersion": "0.2.2",
+  "viewport": {
+    "width": 765,
+    "height": 772
+  },
+  "requests": [
+    {
+      "body": {
+        "text": "Hello world. Good morning! café costs 3.14 dollars.",
+        "voice": "en-US-BrianNeural"
+      },
+      "status": 200,
+      "contentType": "audio/mpeg",
+      "bytes": 31536,
+      "file": "voice-en-us-brianneural-segment-1.mp3",
+      "duration": 5.256,
+      "rms": 0.09059961082768477
+    }
+  ],
+  "audio": [
+    {
+      "events": [
+        {
+          "event": "waiting",
+          "time": 64858.40000003576,
+          "currentTime": 0
+        },
+        {
+          "event": "playing",
+          "time": 64873.90000003576,
+          "currentTime": 0
+        },
+        {
+          "event": "timeupdate",
+          "time": 65129.5,
+          "currentTime": 0.236601
+        },
+        {
+          "event": "timeupdate",
+          "time": 65391.5,
+          "currentTime": 0.494509
+        },
+        {
+          "event": "pause",
+          "time": 70155.20000004768,
+          "currentTime": 5.256
+        },
+        {
+          "event": "ended",
+          "time": 70155.30000001192,
+          "currentTime": 5.256
+        }
+      ],
+      "duration": 5.256,
+      "finalTime": 5.256,
+      "started": true,
+      "ended": true
+    }
+  ],
+  "completed": true,
+  "errors": [],
+  "original": "Hello中文world。 Good morning（注释）! café costs 3.14 dollars. 日本語 한국어 😀",
+  "validationKind": "Production GatewaySpeechSession direct mixed-language sample"
+}

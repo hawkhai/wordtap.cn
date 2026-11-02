@@ -1,0 +1,66 @@
+{
+  "case": "voice-en-us-emmaneural",
+  "serviceVersion": "0.2.2",
+  "viewport": {
+    "width": 765,
+    "height": 772
+  },
+  "requests": [
+    {
+      "body": {
+        "text": "Hello world. Good morning! café costs 3.14 dollars.",
+        "voice": "en-US-EmmaNeural"
+      },
+      "status": 200,
+      "contentType": "audio/mpeg",
+      "bytes": 30528,
+      "file": "voice-en-us-emmaneural-segment-1.mp3",
+      "duration": 5.088,
+      "rms": 0.1255420698988632
+    }
+  ],
+  "audio": [
+    {
+      "events": [
+        {
+          "event": "waiting",
+          "time": 42600.5,
+          "currentTime": 0
+        },
+        {
+          "event": "playing",
+          "time": 42608.700000047684,
+          "currentTime": 0
+        },
+        {
+          "event": "timeupdate",
+          "time": 42864.10000002384,
+          "currentTime": 0.235415
+        },
+        {
+          "event": "timeupdate",
+          "time": 43130.700000047684,
+          "currentTime": 0.498085
+        },
+        {
+          "event": "pause",
+          "time": 47751.10000002384,
+          "currentTime": 5.088
+        },
+        {
+          "event": "ended",
+          "time": 47751.200000047684,
+          "currentTime": 5.088
+        }
+      ],
+      "duration": 5.088,
+      "finalTime": 5.088,
+      "started": true,
+      "ended": true
+    }
+  ],
+  "completed": true,
+  "errors": [],
+  "original": "Hello中文world。 Good morning（注释）! café costs 3.14 dollars. 日本語 한국어 😀",
+  "validationKind": "Production GatewaySpeechSession direct mixed-language sample"
+}

@@ -3,6 +3,7 @@ import { getCachedAudio, makeAudioCacheKey, putCachedAudio } from "../stores/his
 import { siteCopy } from "../copy/siteCopy";
 import { GATEWAY_STATUS_PROBE } from "./timeoutConstants";
 import type { SpeechPlaybackControl } from "./speechPlaybackControl";
+import { gatewaySpeechTextMode, NoSpeechTextError, prepareSpeechText } from "./speechText";
 
 type GatewaySpeechProgressPhase = "cache-hit" | "connecting" | "receiving" | "buffering" | "playing";
 
@@ -84,10 +85,12 @@ export class GatewaySpeechSession {
 
   async speak(text: string, options: GatewaySpeechOptions = {}): Promise<void> {
     this.cancelled = false;
+    const prepared = prepareSpeechText(text, gatewaySpeechTextMode(options.voice));
+    if (!prepared) throw new NoSpeechTextError();
+    const chunks = splitTextForIncrementalSpeech(prepared, clientSpeechChunkBytes);
     await this.primeAudio();
     this.throwIfCancelled();
 
-    const chunks = splitTextForIncrementalSpeech(text, clientSpeechChunkBytes);
     if (!chunks.length) {
       throw new Error(siteCopy.gatewaySpeech.noContent);
     }

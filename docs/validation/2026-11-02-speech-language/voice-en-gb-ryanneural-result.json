@@ -1,0 +1,66 @@
+{
+  "case": "voice-en-gb-ryanneural",
+  "serviceVersion": "0.2.2",
+  "viewport": {
+    "width": 765,
+    "height": 772
+  },
+  "requests": [
+    {
+      "body": {
+        "text": "Hello world. Good morning! café costs 3.14 dollars.",
+        "voice": "en-GB-RyanNeural"
+      },
+      "status": 200,
+      "contentType": "audio/mpeg",
+      "bytes": 40608,
+      "file": "voice-en-gb-ryanneural-segment-1.mp3",
+      "duration": 6.768,
+      "rms": 0.07696033006455853
+    }
+  ],
+  "audio": [
+    {
+      "events": [
+        {
+          "event": "waiting",
+          "time": 90291.70000004768,
+          "currentTime": 0
+        },
+        {
+          "event": "playing",
+          "time": 90299.5,
+          "currentTime": 0
+        },
+        {
+          "event": "timeupdate",
+          "time": 90562.70000004768,
+          "currentTime": 0.245276
+        },
+        {
+          "event": "timeupdate",
+          "time": 90823.30000001192,
+          "currentTime": 0.501845
+        },
+        {
+          "event": "pause",
+          "time": 97101.90000003576,
+          "currentTime": 6.768
+        },
+        {
+          "event": "ended",
+          "time": 97102.10000002384,
+          "currentTime": 6.768
+        }
+      ],
+      "duration": 6.768,
+      "finalTime": 6.768,
+      "started": true,
+      "ended": true
+    }
+  ],
+  "completed": true,
+  "errors": [],
+  "original": "Hello中文world。 Good morning（注释）! café costs 3.14 dollars. 日本語 한국어 😀",
+  "validationKind": "Production GatewaySpeechSession direct mixed-language sample"
+}

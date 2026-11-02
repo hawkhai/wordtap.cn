@@ -1,0 +1,66 @@
+{
+  "case": "voice-en-us-emmamultilingualneural",
+  "serviceVersion": "0.2.2",
+  "viewport": {
+    "width": 765,
+    "height": 772
+  },
+  "requests": [
+    {
+      "body": {
+        "text": "Hello中文world。 Good morning（注释）! café costs 3.14 dollars. 日本語 한국어",
+        "voice": "en-US-EmmaMultilingualNeural"
+      },
+      "status": 200,
+      "contentType": "audio/mpeg",
+      "bytes": 50400,
+      "file": "voice-en-us-emmamultilingualneural-segment-1.mp3",
+      "duration": 8.4,
+      "rms": 0.12305263391759888
+    }
+  ],
+  "audio": [
+    {
+      "events": [
+        {
+          "event": "waiting",
+          "time": 8926.800000011921,
+          "currentTime": 0
+        },
+        {
+          "event": "playing",
+          "time": 8942.700000047684,
+          "currentTime": 0
+        },
+        {
+          "event": "timeupdate",
+          "time": 9185.700000047684,
+          "currentTime": 0.22109
+        },
+        {
+          "event": "timeupdate",
+          "time": 9448.200000047684,
+          "currentTime": 0.48102
+        },
+        {
+          "event": "pause",
+          "time": 17388.80000001192,
+          "currentTime": 8.4
+        },
+        {
+          "event": "ended",
+          "time": 17389,
+          "currentTime": 8.4
+        }
+      ],
+      "duration": 8.4,
+      "finalTime": 8.4,
+      "started": true,
+      "ended": true
+    }
+  ],
+  "completed": true,
+  "errors": [],
+  "original": "Hello中文world。 Good morning（注释）! café costs 3.14 dollars. 日本語 한국어 😀",
+  "validationKind": "Production GatewaySpeechSession direct mixed-language sample"
+}

@@ -8,6 +8,7 @@ import ProjectLink from "../../shared/components/ProjectLink.vue";
 import ArticleTypingOptions from "../../shared/components/ArticleTypingOptions.vue";
 import MaterialSubmission from "../../shared/components/MaterialSubmission.vue";
 import ArticleInputHint from "../../shared/components/ArticleInputHint.vue";
+import SpeechLanguageHint from "../../shared/components/SpeechLanguageHint.vue";
 import { useWordTap } from "../../shared/composables/useWordTap";
 import { useArticleTyping } from "../../shared/composables/useArticleTyping";
 import { isWindows } from "../../shared/utils/device";
@@ -343,6 +344,8 @@ function handleCourseLessonSelect(selection: CourseLessonSelection): void {
             </select>
           </label>
 
+          <SpeechLanguageHint />
+
           <label class="study-toggle mt-4 flex items-center gap-2 text-sm">
             <input
               v-model="markLearned"
@@ -500,7 +503,7 @@ function handleCourseLessonSelect(selection: CourseLessonSelection): void {
                 <div class="study-reading-actions">
                   <button
                     type="button"
-                    class="study-button study-button-primary"
+                    class="study-button study-button-primary study-fulltext-button"
                     :disabled="fullTextSpeechDisabled && !isFullTextSpeaking"
                     :title="fullTextSpeechDisabled && !isFullTextSpeaking ? copy.status.fullTextSpeechUnavailable : fullTextSpeechWaiting ? '点击可暂停准备中的朗读' : undefined"
                     @click="readFullText"
