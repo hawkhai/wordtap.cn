@@ -211,7 +211,7 @@ const installStyles = `
         align-items: start;
         margin-bottom: 22px;
       }
-      .install-kicker { margin: 0 0 10px; color: #9a5b30; font-size: var(--text-sm); font-weight: 800; }
+      .install-kicker { margin: 0 0 10px; color: var(--wt-warning); font-size: var(--text-sm); font-weight: 800; }
       .install-lead { max-width: 44rem; margin: 0 0 18px; color: var(--wt-secondary); font-size: var(--text-md); line-height: 1.78; }
       .install-actions { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
       .install-action {
@@ -222,7 +222,7 @@ const installStyles = `
         padding: 0 16px;
         border: 1px solid var(--wt-border);
         border-radius: 8px;
-        background: #fff;
+        background: var(--wt-surface);
         color: var(--wt-primary);
         font-size: var(--text-sm);
         font-weight: 800;
@@ -231,8 +231,10 @@ const installStyles = `
         min-width: 0;
         max-width: 100%;
       }
-      .install-action-primary { border-color: var(--wt-primary); background: var(--wt-primary); color: #fff; }
-      .install-action:hover { border-color: #9a5b30; }
+      .install-action-primary { border-color: var(--wt-primary-fill); background: var(--wt-primary-fill); color: var(--wt-on-primary); }
+      .install-action-primary:hover { background: var(--wt-primary-fill-hover); }
+      .install-action-primary:active { background: var(--wt-primary-fill-active); }
+      .install-action:hover { border-color: var(--wt-warning); }
       .install-side {
         padding: 18px;
         border: 1px solid var(--wt-border);
@@ -253,7 +255,7 @@ const installStyles = `
         padding: 13px 14px;
         border: 1px solid var(--wt-border);
         border-radius: 8px;
-        background: #fff;
+        background: var(--wt-surface);
         color: var(--wt-secondary);
         font-size: var(--text-base);
         font-weight: 750;
@@ -267,8 +269,8 @@ const installStyles = `
         justify-content: center;
         margin-right: 6px;
         border-radius: 999px;
-        background: #f0d2b7;
-        color: #7b3d1c;
+        background: var(--wt-warning-soft);
+        color: var(--wt-warning);
         font-size: var(--text-xs);
         font-weight: 900;
       }
@@ -284,7 +286,7 @@ const installStyles = `
         padding: 18px;
         border: 1px solid var(--wt-border);
         border-radius: 8px;
-        background: #fff;
+        background: var(--wt-surface);
         box-shadow: 0 4px 16px rgb(29 33 41 / 4%);
       }
       .step-copy { min-width: 0; }
@@ -296,8 +298,8 @@ const installStyles = `
         justify-content: center;
         margin-bottom: 10px;
         border-radius: 999px;
-        background: var(--wt-primary);
-        color: #fff;
+        background: var(--wt-primary-fill);
+        color: var(--wt-on-primary);
         font-size: var(--text-sm);
         font-weight: 900;
       }
@@ -316,14 +318,14 @@ const installStyles = `
       .install-note {
         margin-top: 22px;
         padding: 18px;
-        border: 1px solid #ead6a4;
+        border: 1px solid var(--wt-warning-border);
         border-radius: 8px;
-        background: #fff8e4;
-        color: #664210;
+        background: var(--wt-warning-soft);
+        color: var(--wt-warning);
         font-size: var(--text-base);
         line-height: 1.72;
       }
-      .install-note strong { color: #7a3f16; }
+      .install-note strong { color: var(--wt-warning); }
       @media (max-width: 767px) {
         .install-hero, .install-step { grid-template-columns: 1fr; }
         .install-actions { align-items: stretch; flex-direction: column; }

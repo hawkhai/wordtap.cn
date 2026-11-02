@@ -1,0 +1,16 @@
+{
+  "firstFrame": {
+    "theme": "dark",
+    "background": "rgb(23, 23, 26)"
+  },
+  "installStep": {
+    "background": "rgb(22, 93, 255)",
+    "color": "rgb(255, 255, 255)"
+  },
+  "qr": {
+    "loaded": true,
+    "filter": "none"
+  },
+  "qrFocusReturn": true,
+  "coarsePointerControlHeight": 44
+}

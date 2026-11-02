@@ -11,12 +11,17 @@ test("static pages embed the same design tokens as the Vue workspace", () => {
       extraStyles: ".fixture { display: grid; }" });
     assert.ok(html.includes(tokens.trim()));
     assert.match(html, /body\s*\{[^}]*background:\s*var\(--wt-background\)/);
-    assert.match(html, /\.tool-link\s*\{[^}]*background:\s*var\(--wt-primary\)/);
+    assert.match(html, /\.tool-link\s*\{[^}]*background:\s*var\(--wt-primary-fill\)/);
     assert.match(html, /:focus-visible/);
     assert.match(html, /prefers-reduced-motion/);
     assert.match(html, /width:\s*min\(calc\(100% - 48px\), var\(--wt-content-max-width\)\)/);
     assert.doesNotMatch(html, /960px/);
     assert.match(html, /\.fixture \{ display: grid; \}/);
     assert.ok(html.includes(`${Array(depth).fill("..").join("/")}/fonts/Itim/Itim-Regular.ttf`));
+    assert.ok(html.includes(`<script src="${Array(depth).fill("..").join("/")}/theme.js?v=1"></script>`));
+    assert.ok(html.indexOf('/theme.js?v=1') < html.indexOf('<style>'));
+    assert.match(html, /<label class="wt-theme-control"><span>主题<\/span><select data-wt-theme>/);
+    assert.match(html, /:root:not\(\[data-theme\]\) .wt-theme-control\s*\{ display: none;/);
+    assert.match(html, /:root\[data-theme="dark"\]/);
   }
 });

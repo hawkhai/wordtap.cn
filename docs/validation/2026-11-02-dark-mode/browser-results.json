@@ -1,0 +1,680 @@
+{
+  "results": [
+    {
+      "name": "1440-light-reading",
+      "width": 1440,
+      "clientWidth": 1440,
+      "scrollWidth": 1440,
+      "theme": "light",
+      "background": "rgb(247, 248, 250)",
+      "selectHeight": 32
+    },
+    {
+      "name": "1440-light-course-menu",
+      "width": 1440,
+      "clientWidth": 1440,
+      "scrollWidth": 1440,
+      "theme": "light",
+      "background": "rgb(247, 248, 250)",
+      "selectHeight": 32
+    },
+    {
+      "name": "1440-light-dialog",
+      "width": 1440,
+      "clientWidth": 1440,
+      "scrollWidth": 1440,
+      "theme": "light",
+      "background": "rgb(247, 248, 250)",
+      "selectHeight": 32
+    },
+    {
+      "name": "1440-light-typing-error",
+      "width": 1440,
+      "clientWidth": 1440,
+      "scrollWidth": 1440,
+      "theme": "light",
+      "background": "rgb(247, 248, 250)",
+      "selectHeight": 32
+    },
+    {
+      "name": "1440-light-review",
+      "width": 1440,
+      "clientWidth": 1440,
+      "scrollWidth": 1440,
+      "theme": "light",
+      "background": "rgb(247, 248, 250)",
+      "selectHeight": 32
+    },
+    {
+      "name": "1440-light-ipa",
+      "width": 1440,
+      "clientWidth": 1440,
+      "scrollWidth": 1440,
+      "theme": "light",
+      "background": "rgb(247, 248, 250)",
+      "selectHeight": 32
+    },
+    {
+      "name": "1440-light-exam",
+      "width": 1440,
+      "clientWidth": 1440,
+      "scrollWidth": 1440,
+      "theme": "light",
+      "background": "rgb(247, 248, 250)",
+      "selectHeight": 32
+    },
+    {
+      "name": "1440-light-diagnostics",
+      "width": 1440,
+      "clientWidth": 1440,
+      "scrollWidth": 1440,
+      "theme": "light",
+      "background": "rgb(247, 248, 250)",
+      "selectHeight": 32
+    },
+    {
+      "name": "1440-light-catalog",
+      "width": 1440,
+      "clientWidth": 1440,
+      "scrollWidth": 1440,
+      "theme": "light",
+      "background": "rgb(247, 248, 250)",
+      "selectHeight": 32
+    },
+    {
+      "name": "1440-light-lesson",
+      "width": 1440,
+      "clientWidth": 1440,
+      "scrollWidth": 1440,
+      "theme": "light",
+      "background": "rgb(247, 248, 250)",
+      "selectHeight": 32
+    },
+    {
+      "name": "1440-light-install",
+      "width": 1440,
+      "clientWidth": 1440,
+      "scrollWidth": 1440,
+      "theme": "light",
+      "background": "rgb(247, 248, 250)",
+      "selectHeight": 32
+    },
+    {
+      "name": "1440-light-portal",
+      "width": 1440,
+      "clientWidth": 1440,
+      "scrollWidth": 1440,
+      "theme": "light",
+      "background": "rgb(247, 248, 250)",
+      "selectHeight": 32
+    },
+    {
+      "name": "1440-dark-reading",
+      "width": 1440,
+      "clientWidth": 1440,
+      "scrollWidth": 1440,
+      "theme": "dark",
+      "background": "rgb(23, 23, 26)",
+      "selectHeight": 32
+    },
+    {
+      "name": "1440-dark-course-menu",
+      "width": 1440,
+      "clientWidth": 1440,
+      "scrollWidth": 1440,
+      "theme": "dark",
+      "background": "rgb(23, 23, 26)",
+      "selectHeight": 32
+    },
+    {
+      "name": "1440-dark-dialog",
+      "width": 1440,
+      "clientWidth": 1440,
+      "scrollWidth": 1440,
+      "theme": "dark",
+      "background": "rgb(23, 23, 26)",
+      "selectHeight": 32
+    },
+    {
+      "name": "1440-dark-typing-error",
+      "width": 1440,
+      "clientWidth": 1440,
+      "scrollWidth": 1440,
+      "theme": "dark",
+      "background": "rgb(23, 23, 26)",
+      "selectHeight": 32
+    },
+    {
+      "name": "1440-dark-review",
+      "width": 1440,
+      "clientWidth": 1440,
+      "scrollWidth": 1440,
+      "theme": "dark",
+      "background": "rgb(23, 23, 26)",
+      "selectHeight": 32
+    },
+    {
+      "name": "1440-dark-ipa",
+      "width": 1440,
+      "clientWidth": 1440,
+      "scrollWidth": 1440,
+      "theme": "dark",
+      "background": "rgb(23, 23, 26)",
+      "selectHeight": 32
+    },
+    {
+      "name": "1440-dark-exam",
+      "width": 1440,
+      "clientWidth": 1440,
+      "scrollWidth": 1440,
+      "theme": "dark",
+      "background": "rgb(23, 23, 26)",
+      "selectHeight": 32
+    },
+    {
+      "name": "1440-dark-diagnostics",
+      "width": 1440,
+      "clientWidth": 1440,
+      "scrollWidth": 1440,
+      "theme": "dark",
+      "background": "rgb(23, 23, 26)",
+      "selectHeight": 32
+    },
+    {
+      "name": "1440-dark-catalog",
+      "width": 1440,
+      "clientWidth": 1440,
+      "scrollWidth": 1440,
+      "theme": "dark",
+      "background": "rgb(23, 23, 26)",
+      "selectHeight": 32
+    },
+    {
+      "name": "1440-dark-lesson",
+      "width": 1440,
+      "clientWidth": 1440,
+      "scrollWidth": 1440,
+      "theme": "dark",
+      "background": "rgb(23, 23, 26)",
+      "selectHeight": 32
+    },
+    {
+      "name": "1440-dark-install",
+      "width": 1440,
+      "clientWidth": 1440,
+      "scrollWidth": 1440,
+      "theme": "dark",
+      "background": "rgb(23, 23, 26)",
+      "selectHeight": 32
+    },
+    {
+      "name": "1440-dark-portal",
+      "width": 1440,
+      "clientWidth": 1440,
+      "scrollWidth": 1440,
+      "theme": "dark",
+      "background": "rgb(23, 23, 26)",
+      "selectHeight": 32
+    },
+    {
+      "name": "390-light-reading",
+      "width": 390,
+      "clientWidth": 390,
+      "scrollWidth": 390,
+      "theme": "light",
+      "background": "rgb(247, 248, 250)",
+      "selectHeight": 44
+    },
+    {
+      "name": "390-light-course-menu",
+      "width": 390,
+      "clientWidth": 390,
+      "scrollWidth": 390,
+      "theme": "light",
+      "background": "rgb(247, 248, 250)",
+      "selectHeight": 44
+    },
+    {
+      "name": "390-light-dialog",
+      "width": 390,
+      "clientWidth": 390,
+      "scrollWidth": 390,
+      "theme": "light",
+      "background": "rgb(247, 248, 250)",
+      "selectHeight": 44
+    },
+    {
+      "name": "390-light-typing-error",
+      "width": 390,
+      "clientWidth": 390,
+      "scrollWidth": 390,
+      "theme": "light",
+      "background": "rgb(247, 248, 250)",
+      "selectHeight": 44
+    },
+    {
+      "name": "390-light-review",
+      "width": 390,
+      "clientWidth": 390,
+      "scrollWidth": 390,
+      "theme": "light",
+      "background": "rgb(247, 248, 250)",
+      "selectHeight": 44
+    },
+    {
+      "name": "390-light-ipa",
+      "width": 390,
+      "clientWidth": 390,
+      "scrollWidth": 390,
+      "theme": "light",
+      "background": "rgb(247, 248, 250)",
+      "selectHeight": 44
+    },
+    {
+      "name": "390-light-exam",
+      "width": 390,
+      "clientWidth": 390,
+      "scrollWidth": 390,
+      "theme": "light",
+      "background": "rgb(247, 248, 250)",
+      "selectHeight": 44
+    },
+    {
+      "name": "390-light-diagnostics",
+      "width": 390,
+      "clientWidth": 390,
+      "scrollWidth": 390,
+      "theme": "light",
+      "background": "rgb(247, 248, 250)",
+      "selectHeight": 44
+    },
+    {
+      "name": "390-light-catalog",
+      "width": 390,
+      "clientWidth": 390,
+      "scrollWidth": 390,
+      "theme": "light",
+      "background": "rgb(247, 248, 250)",
+      "selectHeight": 44
+    },
+    {
+      "name": "390-light-lesson",
+      "width": 390,
+      "clientWidth": 390,
+      "scrollWidth": 390,
+      "theme": "light",
+      "background": "rgb(247, 248, 250)",
+      "selectHeight": 44
+    },
+    {
+      "name": "390-light-install",
+      "width": 390,
+      "clientWidth": 390,
+      "scrollWidth": 390,
+      "theme": "light",
+      "background": "rgb(247, 248, 250)",
+      "selectHeight": 44
+    },
+    {
+      "name": "390-light-portal",
+      "width": 390,
+      "clientWidth": 390,
+      "scrollWidth": 390,
+      "theme": "light",
+      "background": "rgb(247, 248, 250)",
+      "selectHeight": 44
+    },
+    {
+      "name": "390-dark-reading",
+      "width": 390,
+      "clientWidth": 390,
+      "scrollWidth": 390,
+      "theme": "dark",
+      "background": "rgb(23, 23, 26)",
+      "selectHeight": 44
+    },
+    {
+      "name": "390-dark-course-menu",
+      "width": 390,
+      "clientWidth": 390,
+      "scrollWidth": 390,
+      "theme": "dark",
+      "background": "rgb(23, 23, 26)",
+      "selectHeight": 44
+    },
+    {
+      "name": "390-dark-dialog",
+      "width": 390,
+      "clientWidth": 390,
+      "scrollWidth": 390,
+      "theme": "dark",
+      "background": "rgb(23, 23, 26)",
+      "selectHeight": 44
+    },
+    {
+      "name": "390-dark-typing-error",
+      "width": 390,
+      "clientWidth": 390,
+      "scrollWidth": 390,
+      "theme": "dark",
+      "background": "rgb(23, 23, 26)",
+      "selectHeight": 44
+    },
+    {
+      "name": "390-dark-review",
+      "width": 390,
+      "clientWidth": 390,
+      "scrollWidth": 390,
+      "theme": "dark",
+      "background": "rgb(23, 23, 26)",
+      "selectHeight": 44
+    },
+    {
+      "name": "390-dark-ipa",
+      "width": 390,
+      "clientWidth": 390,
+      "scrollWidth": 390,
+      "theme": "dark",
+      "background": "rgb(23, 23, 26)",
+      "selectHeight": 44
+    },
+    {
+      "name": "390-dark-exam",
+      "width": 390,
+      "clientWidth": 390,
+      "scrollWidth": 390,
+      "theme": "dark",
+      "background": "rgb(23, 23, 26)",
+      "selectHeight": 44
+    },
+    {
+      "name": "390-dark-diagnostics",
+      "width": 390,
+      "clientWidth": 390,
+      "scrollWidth": 390,
+      "theme": "dark",
+      "background": "rgb(23, 23, 26)",
+      "selectHeight": 44
+    },
+    {
+      "name": "390-dark-catalog",
+      "width": 390,
+      "clientWidth": 390,
+      "scrollWidth": 390,
+      "theme": "dark",
+      "background": "rgb(23, 23, 26)",
+      "selectHeight": 44
+    },
+    {
+      "name": "390-dark-lesson",
+      "width": 390,
+      "clientWidth": 390,
+      "scrollWidth": 390,
+      "theme": "dark",
+      "background": "rgb(23, 23, 26)",
+      "selectHeight": 44
+    },
+    {
+      "name": "390-dark-install",
+      "width": 390,
+      "clientWidth": 390,
+      "scrollWidth": 390,
+      "theme": "dark",
+      "background": "rgb(23, 23, 26)",
+      "selectHeight": 44
+    },
+    {
+      "name": "390-dark-portal",
+      "width": 390,
+      "clientWidth": 390,
+      "scrollWidth": 390,
+      "theme": "dark",
+      "background": "rgb(23, 23, 26)",
+      "selectHeight": 44
+    },
+    {
+      "name": "360-light-reading",
+      "width": 360,
+      "clientWidth": 360,
+      "scrollWidth": 360,
+      "theme": "light",
+      "background": "rgb(247, 248, 250)",
+      "selectHeight": 44
+    },
+    {
+      "name": "360-light-course-menu",
+      "width": 360,
+      "clientWidth": 360,
+      "scrollWidth": 360,
+      "theme": "light",
+      "background": "rgb(247, 248, 250)",
+      "selectHeight": 44
+    },
+    {
+      "name": "360-light-dialog",
+      "width": 360,
+      "clientWidth": 360,
+      "scrollWidth": 360,
+      "theme": "light",
+      "background": "rgb(247, 248, 250)",
+      "selectHeight": 44
+    },
+    {
+      "name": "360-light-typing-error",
+      "width": 360,
+      "clientWidth": 360,
+      "scrollWidth": 360,
+      "theme": "light",
+      "background": "rgb(247, 248, 250)",
+      "selectHeight": 44
+    },
+    {
+      "name": "360-light-review",
+      "width": 360,
+      "clientWidth": 360,
+      "scrollWidth": 360,
+      "theme": "light",
+      "background": "rgb(247, 248, 250)",
+      "selectHeight": 44
+    },
+    {
+      "name": "360-light-ipa",
+      "width": 360,
+      "clientWidth": 360,
+      "scrollWidth": 360,
+      "theme": "light",
+      "background": "rgb(247, 248, 250)",
+      "selectHeight": 44
+    },
+    {
+      "name": "360-light-exam",
+      "width": 360,
+      "clientWidth": 360,
+      "scrollWidth": 360,
+      "theme": "light",
+      "background": "rgb(247, 248, 250)",
+      "selectHeight": 44
+    },
+    {
+      "name": "360-light-diagnostics",
+      "width": 360,
+      "clientWidth": 360,
+      "scrollWidth": 360,
+      "theme": "light",
+      "background": "rgb(247, 248, 250)",
+      "selectHeight": 44
+    },
+    {
+      "name": "360-light-catalog",
+      "width": 360,
+      "clientWidth": 360,
+      "scrollWidth": 360,
+      "theme": "light",
+      "background": "rgb(247, 248, 250)",
+      "selectHeight": 44
+    },
+    {
+      "name": "360-light-lesson",
+      "width": 360,
+      "clientWidth": 360,
+      "scrollWidth": 360,
+      "theme": "light",
+      "background": "rgb(247, 248, 250)",
+      "selectHeight": 44
+    },
+    {
+      "name": "360-light-install",
+      "width": 360,
+      "clientWidth": 360,
+      "scrollWidth": 360,
+      "theme": "light",
+      "background": "rgb(247, 248, 250)",
+      "selectHeight": 44
+    },
+    {
+      "name": "360-light-portal",
+      "width": 360,
+      "clientWidth": 360,
+      "scrollWidth": 360,
+      "theme": "light",
+      "background": "rgb(247, 248, 250)",
+      "selectHeight": 44
+    },
+    {
+      "name": "360-dark-reading",
+      "width": 360,
+      "clientWidth": 360,
+      "scrollWidth": 360,
+      "theme": "dark",
+      "background": "rgb(23, 23, 26)",
+      "selectHeight": 44
+    },
+    {
+      "name": "360-dark-course-menu",
+      "width": 360,
+      "clientWidth": 360,
+      "scrollWidth": 360,
+      "theme": "dark",
+      "background": "rgb(23, 23, 26)",
+      "selectHeight": 44
+    },
+    {
+      "name": "360-dark-dialog",
+      "width": 360,
+      "clientWidth": 360,
+      "scrollWidth": 360,
+      "theme": "dark",
+      "background": "rgb(23, 23, 26)",
+      "selectHeight": 44
+    },
+    {
+      "name": "360-dark-typing-error",
+      "width": 360,
+      "clientWidth": 360,
+      "scrollWidth": 360,
+      "theme": "dark",
+      "background": "rgb(23, 23, 26)",
+      "selectHeight": 44
+    },
+    {
+      "name": "360-dark-review",
+      "width": 360,
+      "clientWidth": 360,
+      "scrollWidth": 360,
+      "theme": "dark",
+      "background": "rgb(23, 23, 26)",
+      "selectHeight": 44
+    },
+    {
+      "name": "360-dark-ipa",
+      "width": 360,
+      "clientWidth": 360,
+      "scrollWidth": 360,
+      "theme": "dark",
+      "background": "rgb(23, 23, 26)",
+      "selectHeight": 44
+    },
+    {
+      "name": "360-dark-exam",
+      "width": 360,
+      "clientWidth": 360,
+      "scrollWidth": 360,
+      "theme": "dark",
+      "background": "rgb(23, 23, 26)",
+      "selectHeight": 44
+    },
+    {
+      "name": "360-dark-diagnostics",
+      "width": 360,
+      "clientWidth": 360,
+      "scrollWidth": 360,
+      "theme": "dark",
+      "background": "rgb(23, 23, 26)",
+      "selectHeight": 44
+    },
+    {
+      "name": "360-dark-catalog",
+      "width": 360,
+      "clientWidth": 360,
+      "scrollWidth": 360,
+      "theme": "dark",
+      "background": "rgb(23, 23, 26)",
+      "selectHeight": 44
+    },
+    {
+      "name": "360-dark-lesson",
+      "width": 360,
+      "clientWidth": 360,
+      "scrollWidth": 360,
+      "theme": "dark",
+      "background": "rgb(23, 23, 26)",
+      "selectHeight": 44
+    },
+    {
+      "name": "360-dark-install",
+      "width": 360,
+      "clientWidth": 360,
+      "scrollWidth": 360,
+      "theme": "dark",
+      "background": "rgb(23, 23, 26)",
+      "selectHeight": 44
+    },
+    {
+      "name": "360-dark-portal",
+      "width": 360,
+      "clientWidth": 360,
+      "scrollWidth": 360,
+      "theme": "dark",
+      "background": "rgb(23, 23, 26)",
+      "selectHeight": 44
+    },
+    {
+      "name": "390-light-no-script",
+      "width": 390,
+      "clientWidth": 390,
+      "scrollWidth": 390,
+      "background": "rgb(247, 248, 250)",
+      "selectHeight": 0
+    },
+    {
+      "name": "390-dark-no-script",
+      "width": 390,
+      "clientWidth": 390,
+      "scrollWidth": 390,
+      "background": "rgb(23, 23, 26)",
+      "selectHeight": 0
+    }
+  ],
+  "errors": [],
+  "extraChecks": [
+    "manual overrides system",
+    "same-origin tabs",
+    "refresh restore",
+    "reader and draft DOM identity",
+    "text preserved",
+    "keyboard dialog focus return",
+    "system changes",
+    "no script",
+    "storage denied"
+  ]
+}

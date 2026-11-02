@@ -1,4 +1,24 @@
 :root {
+  color-scheme: light;
+  --wt-surface-secondary: #f7f8fa;
+  --wt-fill: #f2f3f5;
+  --wt-border-hover: #c9cdd4;
+  --wt-disabled: #86909c;
+  --wt-primary-fill: #165dff;
+  --wt-primary-fill-hover: #0e42d2;
+  --wt-primary-fill-active: #072ca6;
+  --wt-on-primary: #ffffff;
+  --wt-primary-text: #072ca6;
+  --wt-selected: #bedaff;
+  --wt-selected-text: #031a79;
+  --wt-warning: #792e00;
+  --wt-warning-soft: #fff7e8;
+  --wt-warning-border: #ffcf8b;
+  --wt-success: #17663a;
+  --wt-success-soft: #e8f7ee;
+  --wt-danger: #b42318;
+  --wt-danger-soft: #fff1f0;
+  --wt-image-surface: #ffffff;
   --wt-content-max-width: 88rem;
   --wt-control-height: 32px;
   --wt-text-caption: 13px;
@@ -19,3 +39,65 @@
 @media (max-width: 767px), (pointer: coarse) {
   :root { --wt-control-height: 44px; }
 }
+
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --wt-primary: #85b8ff;
+  --wt-primary-hover: #b3d4ff;
+  --wt-primary-soft: #19345a;
+  --wt-primary-text: #b3d4ff;
+  --wt-text: #f2f3f5;
+  --wt-secondary: #b4b8c0;
+  --wt-border: #484849;
+  --wt-border-hover: #79797d;
+  --wt-surface: #232324;
+  --wt-background: #17171a;
+  --wt-surface-secondary: #2e2e30;
+  --wt-fill: #353537;
+  --wt-disabled: #93939a;
+  --wt-selected: #254b80;
+  --wt-selected-text: #f2f3f5;
+  --wt-warning: #ffd591;
+  --wt-warning-soft: #45321d;
+  --wt-warning-border: #876335;
+  --wt-success: #8ddca8;
+  --wt-success-soft: #193d2a;
+  --wt-danger: #ffaaa3;
+  --wt-danger-soft: #4d2425;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme]) {
+    color-scheme: dark;
+    --wt-primary: #85b8ff;
+    --wt-primary-hover: #b3d4ff;
+    --wt-primary-soft: #19345a;
+    --wt-primary-text: #b3d4ff;
+    --wt-text: #f2f3f5;
+    --wt-secondary: #b4b8c0;
+    --wt-border: #484849;
+    --wt-border-hover: #79797d;
+    --wt-surface: #232324;
+    --wt-background: #17171a;
+    --wt-surface-secondary: #2e2e30;
+    --wt-fill: #353537;
+    --wt-disabled: #93939a;
+    --wt-selected: #254b80;
+    --wt-selected-text: #f2f3f5;
+    --wt-warning: #ffd591;
+    --wt-warning-soft: #45321d;
+    --wt-warning-border: #876335;
+    --wt-success: #8ddca8;
+    --wt-success-soft: #193d2a;
+    --wt-danger: #ffaaa3;
+    --wt-danger-soft: #4d2425;
+  }
+}
+
+/* Shared appearance control, including non-Vue course pages. */
+.wt-theme-control { display: inline-flex; flex: none; align-items: center; gap: 8px; color: var(--wt-secondary); font-size: var(--wt-text-ui); font-weight: 400; line-height: 1.6; }
+:root:not([data-theme]) .wt-theme-control { display: none; }
+.wt-theme-control select { box-sizing: border-box; min-width: 112px; min-height: var(--wt-control-height); padding: 4px 8px; border: 1px solid var(--wt-border); border-radius: 8px; background: var(--wt-surface); color: var(--wt-text); font: inherit; cursor: pointer; }
+.wt-theme-control select:hover { border-color: var(--wt-primary); }
+.wt-theme-control select:active { background: var(--wt-primary-soft); }
+.wt-theme-control select:focus-visible { outline: 2px solid var(--wt-primary); outline-offset: 3px; }

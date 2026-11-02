@@ -2,6 +2,7 @@ const CACHE_NAME = "wordtap-v8";
 const PRECACHE = [
   "./",
   "./manifest.json",
+  "./theme.js?v=1",
   "./favicon.ico",
   "./favicon-192.png",
   "./favicon-512.png",

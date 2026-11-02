@@ -5,6 +5,7 @@ import ReadingDisplayControls from "../../shared/components/ReadingDisplayContro
 import ReadingText from "../../shared/components/ReadingText.vue";
 import ArticleTypingPanel from "../../shared/components/ArticleTypingPanel.vue";
 import BrandIdentity from "../../shared/components/BrandIdentity.vue";
+import ThemeSelect from "../../shared/components/ThemeSelect.vue";
 import ProjectLink from "../../shared/components/ProjectLink.vue";
 import ArticleTypingOptions from "../../shared/components/ArticleTypingOptions.vue";
 import MaterialSubmission from "../../shared/components/MaterialSubmission.vue";
@@ -231,6 +232,7 @@ function handleCourseLessonSelect(selection: CourseLessonSelection): void {
               <span class="study-status-text">{{ status }}</span>
             </div>
             <ProjectLink />
+            <ThemeSelect />
           </div>
         </div>
       </header>

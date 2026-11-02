@@ -49,6 +49,9 @@ function courseHeader({ activeCourse, depth, toolHref, toolLabel }) {
         ${courseLinks}
         <a class="tool-link" href="${escapeHtml(toolHref)}">${escapeHtml(toolLabel)}</a>
       </nav>
+      <label class="wt-theme-control"><span>主题</span><select data-wt-theme>
+        <option value="system">跟随系统</option><option value="light">浅色</option><option value="dark">深色</option>
+      </select></label>
     </header>`;
 }
 
@@ -91,7 +94,6 @@ function courseFooter(depth) {
 const designTokens = readFileSync(new URL("../src/design-tokens.css", import.meta.url), "utf8").trim();
 
 const sharedStyles = `      :root {
-        color-scheme: light;
         --wordtap-reading-font-family: "Itim", "Microsoft YaHei UI", "Segoe UI", Arial, sans-serif;
         --wordtap-reading-font-size: 1.5rem;
         --wordtap-reading-line-height: 2.4rem;
@@ -138,7 +140,7 @@ const sharedStyles = `      :root {
         padding: 0 12px;
         border: 1px solid var(--wt-border);
         border-radius: 8px;
-        background: rgba(255, 255, 255, .82);
+        background: var(--wt-surface);
         color: var(--wt-secondary);
         font-size: var(--text-sm);
         font-weight: 750;
@@ -147,7 +149,7 @@ const sharedStyles = `      :root {
       }
       .course-link:hover, .tool-link:hover { border-color: var(--wt-primary); background: var(--wt-primary-soft); }
       .course-link-active { border-color: var(--wt-primary); background: var(--wt-primary-soft); color: var(--wt-text); box-shadow: inset 0 -2px 0 var(--wt-primary); }
-      .tool-link { border-color: var(--wt-primary); background: var(--wt-primary); color: #fff; }
+      .tool-link { border-color: var(--wt-primary-fill); background: var(--wt-primary-fill); color: var(--wt-on-primary); }
       main { flex: 1; padding: 38px 0 56px; }
       .eyebrow, .meta { margin: 0 0 9px; color: var(--wt-secondary); font-size: var(--text-sm); font-weight: 650; }
       h1 { margin: 0 0 18px; color: var(--wt-text); font-size: var(--title-page); line-height: 1.1; letter-spacing: -.01em; }
@@ -168,7 +170,7 @@ const sharedStyles = `      :root {
         padding: 26px;
         border: 1px solid var(--wt-border);
         border-radius: 12px;
-        background: #fff;
+        background: var(--wt-surface);
         box-shadow: 0 4px 16px rgb(29 33 41 / 4%);
       }
       .collection-card + .collection-card { margin-top: 16px; }
@@ -191,13 +193,13 @@ const sharedStyles = `      :root {
       .reading .subheading { margin-top: 20px; color: var(--wt-secondary); font-weight: 800; }
       .reading .list { padding-left: 14px; border-left: 2px solid var(--wt-border); }
       .reading p.zh { margin-top: -3px; padding: 10px 12px; border-left: 3px solid var(--wt-border); background: var(--wt-primary-soft); color: var(--wt-secondary); }
-      .videos { margin: 0 0 22px; padding: 20px; border: 1px solid #ead6a4; border-radius: 12px; background: #fffbeb; }
-      .videos h2 { margin-top: 0; color: #854d0e; }
+      .videos { margin: 0 0 22px; padding: 20px; border: 1px solid var(--wt-warning-border); border-radius: 12px; background: var(--wt-warning-soft); }
+      .videos h2 { margin-top: 0; color: var(--wt-warning); }
       .video-list { display: grid; gap: 10px; }
-      .video { display: flex; gap: 12px; align-items: center; justify-content: space-between; padding: 12px; border-radius: 8px; background: #fff; text-decoration: none; }
-      .video span:last-child { flex: none; color: #92400e; font-size: var(--text-sm); }
+      .video { display: flex; gap: 12px; align-items: center; justify-content: space-between; padding: 12px; border-radius: 8px; background: var(--wt-surface); text-decoration: none; }
+      .video span:last-child { flex: none; color: var(--wt-warning); font-size: var(--text-sm); }
       .page-nav { display: flex; flex-wrap: wrap; gap: 10px; justify-content: space-between; margin-top: 22px; }
-      .page-nav a { padding: 9px 12px; border: 1px solid var(--wt-border); border-radius: 8px; background: #fff; color: var(--wt-primary); font-size: var(--text-sm); font-weight: 700; text-decoration: none; }
+      .page-nav a { padding: 9px 12px; border: 1px solid var(--wt-border); border-radius: 8px; background: var(--wt-surface); color: var(--wt-primary); font-size: var(--text-sm); font-weight: 700; text-decoration: none; }
       .site-footer {
         display: grid;
         flex: none;
@@ -211,7 +213,7 @@ const sharedStyles = `      :root {
       }
       .feedback-row { display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 7px; }
       .feedback-label { font-weight: 600; }
-      .feedback-email { width: 156px; max-width: 100%; height: auto; }
+      .feedback-email { background: var(--wt-image-surface); border-radius: 3px; width: 156px; max-width: 100%; height: auto; }
       .footer-links { color: var(--wt-secondary); font-size: var(--text-xs); line-height: 1.8; }
       .footer-links a { color: var(--wt-primary); font-weight: 700; text-decoration: underline; text-underline-offset: 3px; }
       .footer-links span { margin: 0 5px; }
@@ -235,8 +237,10 @@ const sharedStyles = `      :root {
         .lesson-list li + li { margin-top: 5px; }
         .video { align-items: flex-start; flex-direction: column; }
       }
+      .topbar > .wt-theme-control { align-self: flex-end; }
       a:focus-visible { outline: 2px solid var(--wt-primary); outline-offset: 3px; }
-      .tool-link:hover { background: var(--wt-primary-hover); color: white; }
+      .tool-link:hover { background: var(--wt-primary-fill-hover); color: var(--wt-on-primary); }
+      .tool-link:active { background: var(--wt-primary-fill-active); }
       .course-link:active, .page-nav a:active { background: var(--wt-primary-soft); }
       .reading, .lesson-text { box-shadow: none; }
       .reading p, .lesson-text p { max-width: 68ch; }
@@ -270,6 +274,8 @@ export function pageShell({
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f7f8fa">
+    <script src="${root}/theme.js?v=1"></script>
     <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
     <meta name="description" content="${escapeHtml(description)}">${keywordsTag}
     <meta name="author" content="WordTap">

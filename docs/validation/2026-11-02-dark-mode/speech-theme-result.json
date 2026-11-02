@@ -1,0 +1,33 @@
+{
+  "before": {
+    "time": 0.064578,
+    "paused": false,
+    "events": [
+      {
+        "event": "playing",
+        "time": 0.000091
+      },
+      {
+        "event": "playing",
+        "time": 0
+      }
+    ]
+  },
+  "after": {
+    "time": 0.681676,
+    "paused": false,
+    "sameAudio": true,
+    "events": [
+      {
+        "event": "playing",
+        "time": 0.000091
+      },
+      {
+        "event": "playing",
+        "time": 0
+      }
+    ],
+    "theme": "dark",
+    "source": "Learning English is easier when every word can speak for itself. Paste an article here, split it into words, then click any word to hear it and see its Chinese meaning.The quiet village is full of stories. We read every morning. Every student can learn new words and enjoy the sound of English. The children opened their books and listened to the story together."
+  }
+}

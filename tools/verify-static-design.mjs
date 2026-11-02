@@ -1,6 +1,6 @@
 import assert from "node:assert/strict";
 import { readFile, readdir } from "node:fs/promises";
-import { resolve } from "node:path";
+import { resolve, dirname } from "node:path";
 
 const tokens = (await readFile(new URL("../src/design-tokens.css", import.meta.url), "utf8")).trim();
 // Vocabulary has only a redirect to the Vue workspace, not static reading pages.
@@ -14,6 +14,11 @@ async function verify(directory) {
       const html = await readFile(file, "utf8");
       const styles = html.match(/<style>([\s\S]*?)<\/style>/)?.[1] ?? "";
       assert.ok(styles.includes(tokens), `${file}: shared design tokens missing`);
+      assert.match(styles, /:root\[data-theme="dark"\]/, `${file}: dark palette missing`);
+      const themeScript = html.match(/<script src="([^"<>]+\/theme\.js\?v=1)"><\/script>/);
+      assert.ok(themeScript, `${file}: theme initialization missing`);
+      assert.equal(resolve(dirname(file), themeScript[1].split("?")[0]), resolve("dist/theme.js"), `${file}: theme script path incorrect`);
+      assert.match(html, /<select data-wt-theme>/, `${file}: theme control missing`);
       assert.match(styles, /background:\s*var\(--wt-background\)/, `${file}: page theme missing`);
       assert.match(styles, /width:\s*min\(calc\(100% - 48px\), var\(--wt-content-max-width\)\)/, `${file}: shared page width missing`);
       assert.doesNotMatch(styles, /960px/, `${file}: legacy page width remains`);
