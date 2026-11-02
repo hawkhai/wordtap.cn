@@ -94,6 +94,25 @@ test("release checks use the bundled baseline offline and ignore stale or invali
   } finally { h.dispose(); }
 });
 
+test("manual recheck joining an in-flight heartbeat settles feedback without duplicate status requests", async () => {
+  const h = harness();
+  try {
+    const response = deferred(); let probes = 0;
+    h.window.fetch = async url => {
+      if (url?.endsWith('/v1/status')) { probes++; return response.promise; }
+      return { ok: true, json: async () => ({ version: '0.2.2' }) };
+    };
+    const heartbeat = h.app.refreshGatewayStatus('auto');
+    const manual = h.app.refreshGatewayStatus();
+    assert.match(h.app.status.value, /正在检查/);
+    response.resolve({ ok: true, json: async () => ({ version: '0.2.2' }) });
+    await Promise.all([heartbeat, manual]);
+    assert.equal(probes, 1);
+    assert.equal(h.app.gatewayUpdateAvailable.value, false);
+    assert.equal(h.app.status.value, h.app.copy.status.fullTextReady);
+  } finally { h.dispose(); }
+});
+
 test("version heartbeats during consecutive sentences preserve playback feedback and the update notice", async () => {
   const h = harness();
   try {

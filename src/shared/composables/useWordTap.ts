@@ -2662,7 +2662,9 @@ async function refreshGatewayStatus(mode: GatewayStatusRefreshMode = "manual"): 
     void refreshGatewayReleaseVersion();
   }
   if (gatewayStatusPromise) {
-    return gatewayStatusPromise;
+    const running = await gatewayStatusPromise;
+    if (mode === "manual") applyGatewayStatus(running, mode);
+    return running;
   }
 
   gatewayStatusPromise = (async () => {
