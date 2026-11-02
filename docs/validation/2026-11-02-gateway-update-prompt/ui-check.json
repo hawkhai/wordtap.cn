@@ -1,0 +1,43 @@
+{
+  "testedAt": "2026-11-02T04:20:35.458Z",
+  "fixture": {
+    "url": "http://127.0.0.1:5188/",
+    "note": "Only /v1/status version responses are simulated; production service remains installed at 0.2.2.",
+    "old": "0.2.1",
+    "latest": "0.2.2",
+    "automaticUpgradeNoticeHidden": true,
+    "manualRecheck": true,
+    "widths": [
+      {
+        "viewport": 1440,
+        "client": 1425,
+        "scroll": 1425
+      },
+      {
+        "viewport": 390,
+        "client": 375,
+        "scroll": 375
+      },
+      {
+        "viewport": 360,
+        "client": 345,
+        "scroll": 345
+      }
+    ],
+    "console": "Vite HMR WebSocket unavailable in IAB; no application error observed."
+  },
+  "official": {
+    "url": "https://wordtap.cn/",
+    "version": "0.2.2",
+    "script": "assets/index-BjerBIgP.js",
+    "updateNoticeCount": 0,
+    "readingButton": "暂停",
+    "preparationNoticeCount": 0,
+    "completed": true,
+    "consoleErrors": []
+  },
+  "limitations": [
+    "Old-version UI verified with a local status fixture; did not downgrade the installed service.",
+    "No human subjective listening or physical touchscreen testing."
+  ]
+}

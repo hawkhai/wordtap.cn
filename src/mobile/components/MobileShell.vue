@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import GatewayUpdateNotice from "../../shared/components/GatewayUpdateNotice.vue";
 import { computed, onMounted, onUnmounted, ref } from "vue";
 import ReadingDisplayControls from "../../shared/components/ReadingDisplayControls.vue";
 import ReadingText from "../../shared/components/ReadingText.vue";
@@ -82,7 +83,7 @@ const {
   wordCount, wordCountLabel, isSpeaking, historyStats, learnedWordKeys,
   filteredHistory, reviewContextRecord, textHistoryEmptyLabel, reviewEmptyText,
   mobileBrowser, browserVoiceOptions, browserVoiceSelectOptions, isHttpsPage,
-  gatewayStatusLabel, diagnosticsSummary,
+  gatewayStatusLabel, gatewayUpdateAvailable, installedGatewayVersion, latestGatewayVersion, refreshGatewayStatus, diagnosticsSummary,
   examStats, recentExamProgress, filteredExamPapers, filteredExamWords, examWordLessonOptions,
   setActiveView, announceTranslateModeChange, learnedClassForWord,
   showWordPopover, hideWordPopover, hideReviewContextMenu, handlePopoverKeydown,
@@ -468,6 +469,14 @@ onUnmounted(() => {
             <div v-if="dictionaryInfo" class="study-dictionary-info mb-3 text-sm">
               {{ dictionaryInfo }}
             </div>
+            <GatewayUpdateNotice
+              v-if="gatewayUpdateAvailable"
+              :current-version="installedGatewayVersion"
+              :latest-version="latestGatewayVersion"
+              :download-url="gatewayDownloadUrl"
+              @download="handleGatewayDownload"
+              @check="refreshGatewayStatus()"
+            />
             <div
               v-if="showGatewayGuide"
               class="study-gateway-guide mt-3 rounded-md p-3 text-sm leading-6"

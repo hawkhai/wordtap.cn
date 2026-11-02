@@ -15,6 +15,107 @@ const deferred = () => {
 };
 const tick = async () => { for (let i = 0; i < 12; i++) await Promise.resolve(); };
 
+test("Gateway versions compare numeric components and prereleases, rejecting malformed versions", () => {
+  const h = harness();
+  try {
+    const { compareGatewayVersions: compare, gatewayVersion } = h.load('src/shared/utils/gatewayVersion.ts');
+    for (const [a, b, result] of [
+      ['0.2.1', '0.2.2', -1], ['0.2.2', '0.2.2', 0], ['0.2.10', '0.2.2', 1],
+      ['1.0.0', '0.9.99', 1], ['0.2.2-beta.2', '0.2.2-beta.10', -1],
+      ['0.2.2-rc.1', '0.2.2', -1], ['0.2.2+build.1', '0.2.2', 0],
+    ]) assert.equal(compare(a, b), result);
+    for (const value of [null, 2, '', 'unknown', '0.2', '0.02.2', '<script>', '0.2.2-rc.01', '99999999999999999.0.0']) {
+      assert.equal(gatewayVersion(value), null);
+    }
+  } finally { h.dispose(); }
+});
+
+test("Gateway status probing retains versions, handles legacy bodies and clears timeout timers", async () => {
+  const h = harness();
+  try {
+    const probe = h.load('src/shared/utils/gatewaySpeech.ts').readLocalGatewayStatus;
+    const baseline = h.timers.size;
+    for (const [response, expected] of [
+      [{ ok: true, json: async () => ({ ok: true, version: '0.2.1' }) }, { running: true, version: '0.2.1' }],
+      [{ ok: true, json: async () => ({ version: '0.2.2' }) }, { running: true, version: '0.2.2' }],
+      [{ ok: true, json: async () => ({ version: 'invalid' }) }, { running: true, version: null }],
+      [{ ok: true, json: async () => { throw new Error('legacy'); } }, { running: true, version: null }],
+      [{ ok: false }, { running: false, version: null }],
+      [{ ok: true, json: async () => ({ ok: false, version: '0.2.1' }) }, { running: false, version: null }],
+    ]) {
+      h.window.fetch = async () => response;
+      assert.deepEqual(plain(await probe()), expected);
+      assert.equal(h.timers.size, baseline);
+    }
+    h.window.fetch = (_url, { signal }) => new Promise((_yes, no) => signal.addEventListener('abort', () => no(new DOMException('timeout', 'AbortError'))));
+    const pending = probe(123);
+    [...h.timers.values()].at(-1)();
+    assert.deepEqual(plain(await pending), { running: false, version: null });
+    assert.equal(h.timers.size, baseline);
+  } finally { h.dispose(); }
+});
+
+test("old Gateway prompts persist until installation is detected; current/newer and offline services do not prompt", async () => {
+  const h = harness();
+  try {
+    for (const [version, running, update] of [['0.2.1', true, true], ['0.2.2', true, false], ['0.2.10', true, false], [undefined, true, true], ['bad', true, true], ['0.2.1', false, false]]) {
+      h.window.fetch = async () => ({ ok: running, json: async () => ({ ok: running, version }) });
+      await h.app.refreshGatewayStatus('auto');
+      assert.equal(h.app.gatewayUpdateAvailable.value, update);
+      assert.equal(h.app.isGatewayRunning.value, running);
+    }
+    h.window.fetch = async () => ({ ok: true, json: async () => ({ version: '0.2.1' }) });
+    const diagnostic = await h.app.checkGatewayStatus();
+    assert.equal(diagnostic.status, 'warn');
+    assert.match(diagnostic.detail, /0\.2\.1.*0\.2\.2/);
+    h.window.fetch = async () => ({ ok: true, json: async () => ({ version: '0.2.2' }) });
+    await h.app.refreshGatewayStatus('auto');
+    assert.equal(h.app.gatewayUpdateAvailable.value, false);
+  } finally { h.dispose(); }
+});
+
+test("release checks use the bundled baseline offline and ignore stale or invalid manifests", async () => {
+  const h = harness();
+  try {
+    for (const version of ['0.2.1', 'garbage', undefined]) {
+      h.window.fetch = async () => ({ ok: true, json: async () => ({ version }) });
+      await h.app.refreshGatewayReleaseVersion();
+      assert.equal(h.app.latestGatewayVersion.value, '0.2.2');
+    }
+    h.window.fetch = async () => { throw new Error('offline'); };
+    await h.app.refreshGatewayReleaseVersion();
+    assert.equal(h.app.latestGatewayVersion.value, '0.2.2');
+    h.window.fetch = async () => ({ ok: true, json: async () => ({ version: '0.2.10' }) });
+    await h.app.refreshGatewayReleaseVersion();
+    assert.equal(h.app.latestGatewayVersion.value, '0.2.10');
+    h.window.fetch = async () => ({ ok: true, json: async () => ({ version: '0.2.2' }) });
+    await h.app.refreshGatewayReleaseVersion();
+    assert.equal(h.app.latestGatewayVersion.value, '0.2.10');
+  } finally { h.dispose(); }
+});
+
+test("version heartbeats during consecutive sentences preserve playback feedback and the update notice", async () => {
+  const h = harness();
+  try {
+    h.text('First sentence here. Second sentence here.');
+    await h.app.readFullText();
+    h.utterances[0].onstart();
+    const feedback = h.app.status.value;
+    h.window.fetch = async () => ({ ok: true, json: async () => ({ version: '0.2.1' }) });
+    await h.app.refreshGatewayStatus('auto');
+    assert.equal(h.app.gatewayUpdateAvailable.value, true);
+    h.utterances[0].onend(); await tick();
+    h.utterances[1].onstart();
+    await h.app.refreshGatewayStatus('auto');
+    assert.equal(h.app.status.value, feedback);
+    assert.equal(h.app.fullTextSpeechLabel.value, '暂停');
+    assert.equal(h.app.fullTextSpeechNotice.value, '');
+    assert.equal(h.app.gatewayUpdateAvailable.value, true);
+    h.app.cancelSpeech();
+    assert.equal(h.app.gatewayUpdateAvailable.value, true);
+  } finally { h.dispose(); }
+});
+
 function harness() {
   const timers = new Map();
   const timerDelays = new Map();
@@ -81,8 +182,10 @@ function harness() {
     cache.set(file, exports);
     const require = (id) => {
       if (mocks[id]) return mocks[id];
+      if (id.endsWith("/assetUrls")) return mocks["../utils/assetUrls"];
       if (id.endsWith("gatewaySpeech")) return {
         GatewaySpeechSession: FakeGateway,
+        readLocalGatewayStatus: (...args) => load("src/shared/utils/gatewaySpeech.ts").readLocalGatewayStatus(...args),
         isGatewaySpeechCancelError: error => error?.name === "AbortError",
       };
       if (id.includes("/data/")) return {};
@@ -91,6 +194,7 @@ function harness() {
     };
     vm.runInNewContext(output, {
       exports, require, window, console, URL, AbortController, DOMException, Error,
+      __WORDTAP_GATEWAY_VERSION__: JSON.parse(fs.readFileSync(new URL("public/downloads/wordtap-gateway-release.json", root), "utf8")).version,
       fetch: (...args) => window.fetch(...args),
       SpeechSynthesisUtterance: Utterance, Audio: WordAudio, HTMLElement: class {},
       setTimeout: setTimer, clearTimeout: clearTimer, setInterval: setTimer, clearInterval: clearTimer,
@@ -445,6 +549,7 @@ function gatewayHarness({ cache, fetch, play } = {}) {
       };
       if (id === '../copy/siteCopy') return h.load('src/shared/copy/siteCopy.ts');
       if (id === './timeoutConstants') return h.load('src/shared/utils/timeoutConstants.ts');
+      if (id === './gatewayVersion') return h.load('src/shared/utils/gatewayVersion.ts');
       if (id === './speechText') return h.load('src/shared/utils/speechText.ts');
       throw new Error(id);
     },

@@ -1,3 +1,4 @@
+import { readFileSync } from "node:fs";
 import { defineConfig } from "vite";
 import vue from "@vitejs/plugin-vue";
 import tailwindcss from "@tailwindcss/vite";
@@ -155,6 +156,10 @@ export default defineConfig({
     vue(),
     tailwindcss(),
   ],
+  define: {
+    // Read the official release at build/startup; public assets are not JS modules.
+    __WORDTAP_GATEWAY_VERSION__: JSON.stringify(JSON.parse(readFileSync(new URL("./public/downloads/wordtap-gateway-release.json", import.meta.url), "utf8")).version),
+  },
   build: {
     outDir: "dist",
     emptyOutDir: true,

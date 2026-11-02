@@ -1,3 +1,4 @@
+import { bundledGatewayVersion, compareGatewayVersions, gatewayVersion } from "../utils/gatewayVersion";
 import { computed, onBeforeUnmount, onMounted, ref, watch } from "vue";
 import { probeDownload, probeGatewayRelease } from "../utils/downloadDiagnostics";
 import { SpeechPlaybackControl } from "../utils/speechPlaybackControl";
@@ -7,7 +8,7 @@ import {
   gatewayReleaseManifestUrl,
   gatewaySpeechEngineVersion,
   isGatewaySpeechCancelError,
-  isLocalGatewayRunning,
+  readLocalGatewayStatus,
   localGatewayBaseUrl,
 } from "../utils/gatewaySpeech";
 import {
@@ -175,6 +176,9 @@ const fullTextSpeechNotice = computed(() => !isFullTextSpeaking.value ? "" : isF
   : fullTextSpeechWaiting.value ? "正在准备朗读音频，请稍候。首次播放或文章较长时，可能需要更多时间；准备好后会自动播放，无需重复点击。" : "");
 const browserSpeechSupported = ref(true);
 const isGatewayRunning = ref(false);
+const installedGatewayVersion = ref<string | null>(null);
+const latestGatewayVersion = ref(bundledGatewayVersion);
+let gatewayReleasePromise: Promise<void> | null = null;
 const wordSpeechRunId = ref(0);
 const fullTextSpeechRunId = ref(0);
 const lookupRunId = ref(0);
@@ -471,7 +475,11 @@ const browserVoiceSelectOptions = computed(() =>
 const isHttpsPage = computed(() => window.location.protocol === "https:" || window.location.hostname === "localhost" || window.location.hostname === "127.0.0.1");
 const fullTextSpeechDisabled = computed(() => !isGatewayRunning.value && !isBrowserSpeechSupported());
 const wordSpeechDisabled = computed(() => !browserSpeechSupported.value);
+const gatewayUpdateAvailable = computed(() => isGatewayRunning.value && (
+  installedGatewayVersion.value === null || compareGatewayVersions(installedGatewayVersion.value, latestGatewayVersion.value) < 0
+));
 const gatewayStatusLabel = computed(() => {
+  if (gatewayUpdateAvailable.value) return copy.template.gatewayUpdateAvailable(installedGatewayVersion.value, latestGatewayVersion.value);
   return isGatewayRunning.value ? copy.computed.gatewayStatusReady : "";
 });
 const diagnosticsSummary = computed(() => {
@@ -1848,13 +1856,11 @@ async function checkDictionaryShard(): Promise<DiagnosticItem> {
 }
 
 async function checkGatewayStatus(): Promise<DiagnosticItem> {
-  const response = await fetchWithTimeout(`${localGatewayBaseUrl}/v1/status`, { cache: "no-store" }, GATEWAY_DIAGNOSTIC_STATUS);
-  if (!response.ok) {
-    isGatewayRunning.value = false;
-    return diagnostic("gateway-status", copy.diagnostics.labels.fullTextSpeech, "fail", copy.diagnostics.fullTextSpeechFailed);
-  }
-  isGatewayRunning.value = true;
-  await response.json();
+  const current = await readLocalGatewayStatus(GATEWAY_DIAGNOSTIC_STATUS);
+  installedGatewayVersion.value = current.version;
+  applyGatewayStatus(current.running, "auto");
+  if (!current.running) return diagnostic("gateway-status", copy.diagnostics.labels.fullTextSpeech, "fail", copy.diagnostics.fullTextSpeechFailed);
+  if (gatewayUpdateAvailable.value) return diagnostic("gateway-status", copy.diagnostics.labels.fullTextSpeech, "warn", gatewayStatusLabel.value);
   return diagnostic("gateway-status", copy.diagnostics.labels.fullTextSpeech, "ok", copy.diagnostics.fullTextSpeechReady);
 }
 
@@ -2636,20 +2642,24 @@ function speakWord(text: string, label: string): void {
 function applyGatewayStatus(nextRunning: boolean, mode: GatewayStatusRefreshMode): void {
   const previousRunning = isGatewayRunning.value;
   isGatewayRunning.value = nextRunning;
+  if (!nextRunning) installedGatewayVersion.value = null;
+  // Connection/version checks must not overwrite the active reading feedback.
+  if (isSpeaking.value) return;
 
   if (mode === "manual") {
-    status.value = nextRunning ? copy.status.fullTextReady : copy.status.fullTextNotReady;
+    status.value = nextRunning ? (gatewayUpdateAvailable.value ? gatewayStatusLabel.value : copy.status.fullTextReady) : copy.status.fullTextNotReady;
     return;
   }
 
   if (previousRunning !== nextRunning) {
-    status.value = nextRunning ? copy.status.fullTextReady : copy.status.gatewayClosed;
+    status.value = nextRunning ? (gatewayUpdateAvailable.value ? gatewayStatusLabel.value : copy.status.fullTextReady) : copy.status.gatewayClosed;
   }
 }
 
 async function refreshGatewayStatus(mode: GatewayStatusRefreshMode = "manual"): Promise<boolean> {
   if (mode === "manual") {
-    status.value = copy.status.checkingFullTextSpeech;
+    if (!isSpeaking.value) status.value = copy.status.checkingFullTextSpeech;
+    void refreshGatewayReleaseVersion();
   }
   if (gatewayStatusPromise) {
     return gatewayStatusPromise;
@@ -2657,9 +2667,10 @@ async function refreshGatewayStatus(mode: GatewayStatusRefreshMode = "manual"): 
 
   gatewayStatusPromise = (async () => {
     try {
-      const nextRunning = await isLocalGatewayRunning();
-      applyGatewayStatus(nextRunning, mode);
-      return nextRunning;
+      const current = await readLocalGatewayStatus();
+      installedGatewayVersion.value = current.version;
+      applyGatewayStatus(current.running, mode);
+      return current.running;
     } finally {
       gatewayStatusPromise = null;
     }
@@ -2667,7 +2678,25 @@ async function refreshGatewayStatus(mode: GatewayStatusRefreshMode = "manual"): 
   return gatewayStatusPromise;
 }
 
+async function refreshGatewayReleaseVersion(): Promise<void> {
+  if (gatewayReleasePromise) return gatewayReleasePromise;
+  gatewayReleasePromise = (async () => {
+    try {
+      const payload = await fetchJsonWithTimeout<{ version?: unknown }>(gatewayReleaseManifestUrl, NETWORK_RELEASE_MANIFEST);
+      const version = gatewayVersion(payload?.version);
+      // A stale CDN manifest must never downgrade the bundled/current release.
+      if (version && compareGatewayVersions(version, latestGatewayVersion.value) > 0) latestGatewayVersion.value = version;
+    } catch {
+      // The bundled official version remains available offline and on hosts without a manifest.
+    } finally {
+      gatewayReleasePromise = null;
+    }
+  })();
+  return gatewayReleasePromise;
+}
+
 function startGatewayHeartbeat(): void {
+  void refreshGatewayReleaseVersion();
   void refreshGatewayStatus("auto");
   gatewayHeartbeatTimer = window.setInterval(() => {
     void refreshGatewayStatus("auto");
@@ -3365,7 +3394,7 @@ onBeforeUnmount(() => {
     wordCount, wordCountLabel, isSpeaking, historyStats, learnedWordKeys,
     filteredHistory, reviewContextRecord, textHistoryEmptyLabel, reviewEmptyText,
     mobileBrowser, browserVoiceOptions, browserVoiceSelectOptions, isHttpsPage,
-    fullTextSpeechDisabled, wordSpeechDisabled, gatewayStatusLabel, diagnosticsSummary,
+    fullTextSpeechDisabled, wordSpeechDisabled, gatewayStatusLabel, gatewayUpdateAvailable, installedGatewayVersion, latestGatewayVersion, diagnosticsSummary,
     examStats, recentExamProgress, filteredExamPapers, filteredExamWords, examWordLessonOptions,
     // Functions
     isTranslationMode, normalizeWord, viewFromHash, syncActiveViewFromHash,
@@ -3398,7 +3427,7 @@ onBeforeUnmount(() => {
     formatSpeechError, formatVoiceLanguage, formatBrowserVoiceLabel, selectedBrowserVoice,
     selectEnglishVoice, selectedYoudaoDictVoiceType, youdaoDictVoiceUrl, cancelYoudaoSpeech,
     speakWithBrowserOnce, speakWithYoudaoOnce, speakWord, applyGatewayStatus,
-    refreshGatewayStatus, startGatewayHeartbeat, stopGatewayHeartbeat, handleGatewayDownload,
+    refreshGatewayStatus, refreshGatewayReleaseVersion, startGatewayHeartbeat, stopGatewayHeartbeat, handleGatewayDownload,
     handleWordTapWindowsDownload, speakFullTextWithGateway, splitWords, scheduleSplitWords,
     studyWord, speakArticleTypingWord, readFullText, loadCourseLessonSelection, copyActiveCourseLessonUrl, handlePageHide,
   };

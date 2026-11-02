@@ -1,9 +1,10 @@
-import { appDownloadUrl } from "./assetUrls";
+import { appAssetUrl, appDownloadUrl } from "./assetUrls";
 import { getCachedAudio, makeAudioCacheKey, putCachedAudio } from "../stores/historyStore";
 import { siteCopy } from "../copy/siteCopy";
 import { GATEWAY_STATUS_PROBE } from "./timeoutConstants";
 import type { SpeechPlaybackControl } from "./speechPlaybackControl";
 import { gatewaySpeechTextMode, NoSpeechTextError, prepareSpeechText } from "./speechText";
+import { gatewayVersion } from "./gatewayVersion";
 
 type GatewaySpeechProgressPhase = "cache-hit" | "connecting" | "receiving" | "buffering" | "playing";
 
@@ -29,7 +30,7 @@ export const localGatewayBaseUrl = "http://127.0.0.1:18765";
 const clientSpeechChunkBytes = 1000;
 export const gatewaySpeechEngineVersion = "edge-tts-recipe-v1";
 export const gatewayDownloadUrl = appDownloadUrl("downloads/WordTapGatewaySetup.exe");
-export const gatewayReleaseManifestUrl = appDownloadUrl("downloads/wordtap-gateway-release.json");
+export const gatewayReleaseManifestUrl = appAssetUrl("downloads/wordtap-gateway-release.json");
 
 export type GatewayReleaseManifest = {
   name: string;
@@ -59,7 +60,9 @@ export function isGatewaySpeechSupported(): boolean {
   return "fetch" in window && "Audio" in window && "URL" in window;
 }
 
-export async function isLocalGatewayRunning(timeoutMs = GATEWAY_STATUS_PROBE): Promise<boolean> {
+export type LocalGatewayStatus = { running: boolean; version: string | null };
+
+export async function readLocalGatewayStatus(timeoutMs = GATEWAY_STATUS_PROBE): Promise<LocalGatewayStatus> {
   const controller = new AbortController();
   const timeout = window.setTimeout(() => controller.abort(), timeoutMs);
   try {
@@ -68,12 +71,24 @@ export async function isLocalGatewayRunning(timeoutMs = GATEWAY_STATUS_PROBE): P
       cache: "no-store",
       signal: controller.signal,
     });
-    return response.ok;
+    if (!response.ok) return { running: false, version: null };
+    try {
+      const payload = await response.json();
+      if (payload?.ok === false) return { running: false, version: null };
+      return { running: true, version: gatewayVersion(payload?.version) };
+    } catch {
+      // Older services may not expose a version; preserve their playback/fallback path.
+      return { running: true, version: null };
+    }
   } catch {
-    return false;
+    return { running: false, version: null };
   } finally {
     window.clearTimeout(timeout);
   }
+}
+
+export async function isLocalGatewayRunning(timeoutMs = GATEWAY_STATUS_PROBE): Promise<boolean> {
+  return (await readLocalGatewayStatus(timeoutMs)).running;
 }
 
 export class GatewaySpeechSession {

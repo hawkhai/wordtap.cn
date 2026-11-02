@@ -310,6 +310,11 @@ export const siteCopy = {
     deleteArticle: "删除文章",
     gatewayGuide: "想让全文朗读，需要先安装全文朗读服务。装好后不用刷新页面，这里会自动变成可用。",
     installGateway: "安装全文朗读服务",
+    gatewayUpdateAvailable: (current: string | null, latest: string) => current
+      ? `全文朗读服务需要更新：当前版本 ${current}，最新版本 ${latest}。`
+      : `无法识别全文朗读服务版本，建议安装最新版 ${latest}。`,
+    gatewayUpdateDownload: (version: string) => `下载新版 ${version}`,
+    gatewayUpdateInstructions: "下载后运行安装程序，按提示完成覆盖安装。若提示服务正在运行，请先退出托盘中的 WordTap Gateway。安装完成后会自动检测，无需刷新网页。",
     sourcePlaceholder: "在这里粘贴或输入英文文本",
     readerTitle: "点词阅读",
     wordPopoverAria: "当前单词释义",

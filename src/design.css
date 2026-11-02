@@ -349,3 +349,10 @@ body { background: var(--wt-background); color: var(--wt-text); }
   .study-sentence:hover .study-sentence-button:not(:disabled) { opacity: 1; color: var(--wt-primary); }
   .study-sentence:hover .study-sentence-button:not(:disabled) > svg { transform: scale(1.3); }
 }
+
+/* A persistent release notice, independent of sentence/chunk playback updates. */
+.study-gateway-update { margin-top: 12px; padding: 12px; border: 1px solid var(--wt-border); border-radius: 8px; background: var(--wt-primary-soft); color: var(--wt-secondary); font-size: var(--wt-text-caption); line-height: 1.7; overflow-wrap: anywhere; }
+.study-gateway-update p { margin: 0; }
+.study-gateway-update p + p { margin-top: 4px; }
+.study-gateway-update-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 16px; margin-top: 8px; }
+.study-gateway-update-actions .study-link { display: inline-flex; align-items: center; min-height: var(--wt-control-height); }
