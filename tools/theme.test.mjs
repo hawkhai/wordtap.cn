@@ -2,8 +2,40 @@ import { test } from "node:test";
 import assert from "node:assert/strict";
 import { readFileSync } from "node:fs";
 import { runInNewContext } from "node:vm";
+import { mkdtemp, mkdir, writeFile, rm } from "node:fs/promises";
+import { tmpdir } from "node:os";
+import path from "node:path";
+import { build, createLogger } from "vite";
 
 const script = readFileSync(new URL("../public/theme.js", import.meta.url), "utf8");
+
+test("Vite resolves the blocking public theme script without warnings at every base path", async () => {
+  const index = readFileSync(new URL("../index.html", import.meta.url), "utf8");
+  const tag = index.match(/<script\b[^>]*\bsrc="[^"]*theme\.js[^"]*"[^>]*><\/script>/)?.[0];
+  assert.ok(tag, "the real entry must include the theme bootstrap");
+  assert.doesNotMatch(tag, /\b(?:type|async|defer)\b/, "theme must apply before rendering");
+  const fixture = await mkdtemp(path.join(tmpdir(), "wordtap-theme-build-"));
+  try {
+    await mkdir(path.join(fixture, "public"));
+    await writeFile(path.join(fixture, "public/theme.js"), script);
+    await writeFile(path.join(fixture, "index.html"), `<!doctype html><html><head>${tag}</head><body>Read.</body></html>`);
+    for (const [base, expected] of [["/", "/theme.js?v=1"], ["./", "./theme.js?v=1"], ["/wordtap/", "/wordtap/theme.js?v=1"]]) {
+      const warnings = [];
+      const logger = createLogger("silent");
+      logger.warn = (message) => warnings.push(message);
+      const result = await build({ root: fixture, configFile: false, base, customLogger: logger,
+        build: { write: false, minify: false } });
+      const html = result.output.find((asset) => asset.fileName === "index.html")?.source;
+      assert.ok(typeof html === "string");
+      assert.ok(html.includes(`<script src="${expected}"></script>`), `${base}: bootstrap URL`);
+      assert.deepEqual(warnings, [], `${base}: unexpected build warnings`);
+    }
+  } finally {
+    assert.equal(path.dirname(fixture), path.resolve(tmpdir()));
+    assert.match(path.basename(fixture), /^wordtap-theme-build-/);
+    await rm(fixture, { recursive: true, force: true });
+  }
+});
 
 function browser({ stored = null, dark = false, blocked = false } = {}) {
   const events = { window: {}, document: {}, media: {} };

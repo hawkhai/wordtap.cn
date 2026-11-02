@@ -136,6 +136,8 @@ test("version heartbeats during consecutive sentences preserve playback feedback
 });
 
 function harness() {
+  const warnings = [], expectedWarnings = [];
+  const testConsole = { ...console, warn: (...args) => warnings.push(args) };
   const timers = new Map();
   const timerDelays = new Map();
   let timerId = 0;
@@ -212,7 +214,7 @@ function harness() {
       return load(/\.(js|json|ts)$/.test(target) ? target : `${target}.ts`);
     };
     vm.runInNewContext(output, {
-      exports, require, window, console, URL, AbortController, DOMException, Error,
+      exports, require, window, console: testConsole, URL, AbortController, DOMException, Error,
       __WORDTAP_GATEWAY_VERSION__: JSON.parse(fs.readFileSync(new URL("public/downloads/wordtap-gateway-release.json", root), "utf8")).version,
       fetch: (...args) => window.fetch(...args),
       SpeechSynthesisUtterance: Utterance, Audio: WordAudio, HTMLElement: class {},
@@ -225,6 +227,7 @@ function harness() {
   const app = scope.run(() => load("src/shared/composables/useWordTap.ts").useWordTap());
   return {
     app, load, timers, utterances, gateways, wordAudio, writes, speech, history, window,
+    expectGatewayWarning(message) { expectedWarnings.push(['Gateway speech playback failed, falling back to browser', message]); },
     bufferTimer() { return [...timers].find(([id]) => timerDelays.get(id) === 600); },
     fireBufferTimer() {
       const [id, fn] = this.bufferTimer() ?? [];
@@ -237,7 +240,12 @@ function harness() {
       for (const [id, fn] of [...timers]) { timers.delete(id); fn(); }
       app.splitWords({ recordTextHistory: false });
     },
-    dispose() { for (const fn of unmount) fn(); scope.stop(); },
+    dispose() {
+      for (const fn of unmount) fn();
+      scope.stop();
+      assert.deepEqual(warnings.map(([message, error]) => [message, error?.message]), expectedWarnings,
+        'only explicitly expected simulated failures may warn');
+    },
   };
 }
 
@@ -692,6 +700,7 @@ test("Gateway failure while paused keeps browser fallback silent until resume", 
     const gateway = h.gateways.at(-1);
     gateway.options.onProgress({ phase: 'playing' });
     assert.match(h.app.status.value, /已暂停/);
+    h.expectGatewayWarning('network failed');
     gateway.pending.reject(new Error('network failed')); await tick();
     assert.equal(h.app.isFullTextPaused.value, true);
     assert.equal(h.utterances.length, 0);
@@ -926,6 +935,7 @@ test("stop, edit, completion and failure discard buffered feedback and stale Gat
       if (action === 'complete') { gateway.pending.resolve(); await tick(); }
       if (action === 'fail') {
         delete h.window.speechSynthesis;
+        h.expectGatewayWarning('network failed');
         gateway.pending.reject(new Error('network failed')); await tick();
       }
       const status = h.app.status.value;
@@ -956,6 +966,7 @@ test("Gateway fallback after first sound keeps the browser UI out of preparation
     const gateway = h.gateways.at(-1);
     gateway.options.onProgress({ phase: 'playing' });
     gateway.options.onProgress({ phase: 'buffering' });
+    h.expectGatewayWarning('network failed');
     gateway.pending.reject(new Error('network failed')); await tick();
     assert.equal(h.app.fullTextSpeechLabel.value, '暂停');
     assert.equal(h.app.fullTextSpeechNotice.value, '');
@@ -1084,6 +1095,7 @@ test("multilingual sentence and full-text fallback re-filter the original for En
       const gateway = h.gateways.at(-1);
       assert.equal(gateway.text, 'Hello中文world。');
       gateway.options.onProgress({ phase: 'playing' });
+      if (fullText) h.expectGatewayWarning('offline');
       gateway.pending.reject(new Error('offline')); await tick();
       assert.equal(h.utterances.at(-1).text, 'Hello world.');
       if (fullText) assert.equal(h.app.fullTextSpeechNotice.value, '');
@@ -1102,6 +1114,7 @@ test("Chinese-only multilingual fallback clears preparation without submitting e
       if (fullText) await pending;
       const gateway = h.gateways.at(-1);
       const oldProgress = gateway.options.onProgress;
+      if (fullText) h.expectGatewayWarning('offline');
       gateway.pending.reject(new Error('offline')); await pending; await tick();
       oldProgress({ phase: 'playing' });
       assert.equal(h.utterances.length, 0);

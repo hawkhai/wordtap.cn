@@ -39,7 +39,7 @@ function harness(options = {}) {
       const target = path.posix.normalize(path.posix.join(path.posix.dirname(file), id));
       return load(target.endsWith(".ts") ? target : `${target}.ts`);
     };
-    vm.runInNewContext(output, { exports, require, window, console, structuredClone }, { filename: file });
+    vm.runInNewContext(output, { exports, require, window, console: options.console ?? console, structuredClone }, { filename: file });
     return exports;
   }
   return { load, saved, speech, wordSpeech, window };
@@ -455,7 +455,8 @@ test("paste and confirmation stay silent; each sentence waits for actual text in
 
 test("vocabulary extraction failure does not practice metadata; retry and saved drafts work", async () => {
   let fail = true;
-  const h = harness({ loadBody: async () => {
+  const warnings = [];
+  const h = harness({ console: { ...console, warn: (...args) => warnings.push(args) }, loadBody: async () => {
     if (fail) throw new Error("offline");
     return "A real example.\n\nwell-known";
   } });
@@ -468,6 +469,9 @@ test("vocabulary extraction failure does not practice metadata; retry and saved 
   }));
   const app = make();
   await app.start();
+  assert.equal(warnings.length, 1);
+  assert.equal(warnings[0][0], "Unable to start article typing");
+  assert.equal(warnings[0][1].message, "offline");
   assert.equal(app.active.value, false);
   assert.match(app.message.value, /重试/);
   fail = false;
@@ -482,4 +486,5 @@ test("vocabulary extraction failure does not practice metadata; retry and saved 
   assert.equal(restored.currentDraft.value, "A real");
   restored.close();
   scope.stop();
+  assert.equal(warnings.length, 1, "retry and restore must not produce additional warnings");
 });
