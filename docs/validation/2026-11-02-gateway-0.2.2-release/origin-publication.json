@@ -1,0 +1,45 @@
+{
+  "mode": "publish",
+  "version": "0.2.2",
+  "signed": false,
+  "publishedAt": "2026-11-02T03:29:59.713598+00:00",
+  "files": [
+    {
+      "target": "cdn",
+      "file": "WordTapGatewaySetup.exe",
+      "bytes": 2442759,
+      "sha256": "B2B1EE0A2FE1806B130C15CD1A78BC226F46517EE56E8DDF61511D0933A9EAAB"
+    },
+    {
+      "target": "cdn",
+      "file": "WordTapGatewaySetup.exe.sha256",
+      "bytes": 91,
+      "sha256": "96BEE649A3660DEDACBAF11B7DBA9C813E8E850BCDE7674BB526F36D64D28535"
+    },
+    {
+      "target": "cdn",
+      "file": "wordtap-gateway-release.json",
+      "bytes": 514,
+      "sha256": "B4D9FBD32A5375716F32DCD6591F32BEB830B8802683806A6C68CC162E2ED359"
+    },
+    {
+      "target": "official-site",
+      "file": "WordTapGatewaySetup.exe",
+      "bytes": 2442759,
+      "sha256": "B2B1EE0A2FE1806B130C15CD1A78BC226F46517EE56E8DDF61511D0933A9EAAB"
+    },
+    {
+      "target": "official-site",
+      "file": "WordTapGatewaySetup.exe.sha256",
+      "bytes": 91,
+      "sha256": "96BEE649A3660DEDACBAF11B7DBA9C813E8E850BCDE7674BB526F36D64D28535"
+    },
+    {
+      "target": "official-site",
+      "file": "wordtap-gateway-release.json",
+      "bytes": 514,
+      "sha256": "B4D9FBD32A5375716F32DCD6591F32BEB830B8802683806A6C68CC162E2ED359"
+    }
+  ],
+  "rollbackId": "eb809f313bc8"
+}

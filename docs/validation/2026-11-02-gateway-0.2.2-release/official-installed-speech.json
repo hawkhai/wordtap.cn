@@ -1,0 +1,18 @@
+[
+  {
+    "voice": "en-US-JennyNeural",
+    "text": "The official installer has updated the reading service. Several sentences can now be spoken without an upstream error.",
+    "bytes": 47376,
+    "file": "official-installed-jenny.mp3",
+    "status": 200,
+    "contentType": "audio/mpeg"
+  },
+  {
+    "voice": "en-US-EmmaMultilingualNeural",
+    "text": "The reading service is ready. 中文也可以正常朗读。 Let us read the next sentence.",
+    "bytes": 41040,
+    "file": "official-installed-emma.mp3",
+    "status": 200,
+    "contentType": "audio/mpeg"
+  }
+]

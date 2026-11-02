@@ -45,6 +45,8 @@
 
 本轮确认的是上述实际播放条件下未复现闪烁；未作真实触屏、多浏览器或卸载／恢复安装的完整生命周期验收。前次 0.2.1 的失败证据仍保留在 [旧服务复测记录](../2026-11-01-real-fulltext/README.md)。
 
+后续更新（2026-11-02）：Gateway 0.2.2 已按未签名版本正式发布，官网及 CDN 安装包、版本和 SHA-256 清单已同步，并完成官网重新下载安装与真实朗读复测；详见 [正式发布验收](../2026-11-02-gateway-0.2.2-release/README.md)。上面的未发布说明保留为本记录当时的状态。
+
 ## 提交前独立构建检查
 
 `cargo test --release --manifest-path local-service/wordtap-service/Cargo.toml` 的 7 项测试通过，`cargo build --release --manifest-path local-service/wordtap-service/Cargo.toml` 及 NSIS 本地安装包编译通过；本次重新生成的包为 2,443,233 字节，未运行安装器或上传发布。上方安装状态与 SHA256 为真实播放验收当时的快照。

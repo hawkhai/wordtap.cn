@@ -39,6 +39,10 @@ self.addEventListener("fetch", (event) => {
   if (url.origin !== self.location.origin) return;
   if (url.hostname === "localhost" || url.hostname === "127.0.0.1") return;
 
+  // Installers and their integrity metadata must use normal HTTPS downloads,
+  // never an older response retained in the offline cache.
+  if (/\/downloads\//.test(url.pathname)) return;
+
   // Course JSON keeps stable URLs across content corrections. Revalidate both
   // catalogs and lessons; retain cached copies for offline reading.
   const isCourseData = /\/(?:pep-english|nce|shuimu|postgraduate|college-english|cet|kaoyan-english|english-vocabulary)\/(?:manifest\.json|(?:lessons|articles|indexes)\/.+\.json)$/.test(url.pathname);

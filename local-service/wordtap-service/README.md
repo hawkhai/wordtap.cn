@@ -208,4 +208,4 @@ $gatewayNsis = Join-Path ${env:ProgramFiles(x86)} "NSIS\makensis.exe"
 & $gatewayNsis /INPUTCHARSET UTF8 /DMyAppVersion=0.2.2 /DMyAppVersionQuad=0.2.2.0 "/DOutputDir=$gatewayOutput" installer\wordtap-gateway.nsi
 ```
 
-The installer includes the speech token implementation's MIT notice. Its output is a local unsigned validation package, not an official published release. Signing and publication are separate delivery steps; building this installer does not update the public download manifest.
+The installer includes the speech token implementation's MIT notice. This command creates an unsigned local artifact; building it does not publish files or update the public download manifest. Official Gateway 0.2.2 is intentionally distributed unsigned: verify its version, size and SHA-256 against the official HTTPS release manifest. See the [0.2.2 publication and installation verification](../../docs/validation/2026-11-02-gateway-0.2.2-release/README.md).

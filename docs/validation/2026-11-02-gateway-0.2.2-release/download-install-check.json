@@ -1,0 +1,22 @@
+{
+  "downloadPage": "https://wordtap.cn/install/gateway/",
+  "downloadUrl": "https://wordtap.cn/downloads/WordTapGatewaySetup.exe",
+  "downloadedBy": "Browser download from the official installation-page link",
+  "installerExitCode": 0,
+  "installerVersion": "0.2.2",
+  "installerSha256": "B2B1EE0A2FE1806B130C15CD1A78BC226F46517EE56E8DDF61511D0933A9EAAB",
+  "installerBytes": 2442759,
+  "signed": false,
+  "signatureStatus": "NotSigned",
+  "installedVersion": "0.2.2",
+  "installedServiceSha256": "B40604E48CD924306DF746900B5AB6CF903C1CE39CDD0B583CBD92446ADA2D94",
+  "installedProcessPathVerified": true,
+  "startupEnabled": true,
+  "licenseIncluded": true,
+  "licenseMatchesSource": true,
+  "status": {
+    "ok": true,
+    "name": "WordTap Gateway",
+    "version": "0.2.2"
+  }
+}

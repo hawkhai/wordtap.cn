@@ -1,0 +1,125 @@
+{
+  "checkedAt": "2026-11-02T03:53:17.405Z",
+  "expected": {
+    "name": "WordTap 全文朗读服务",
+    "version": "0.2.2",
+    "fileName": "WordTapGatewaySetup.exe",
+    "downloadPath": "https://cdn.sunocean.life/wordtap/downloads/WordTapGatewaySetup.exe",
+    "sha256": "B2B1EE0A2FE1806B130C15CD1A78BC226F46517EE56E8DDF61511D0933A9EAAB",
+    "sizeBytes": 2442759,
+    "signed": false,
+    "signatureStatus": "NotSigned",
+    "generatedAt": "2026-11-02T03:20:54Z",
+    "note": "当前安装包未签名。请只从官方 HTTPS 页面下载，并在运行前核对 SHA256。"
+  },
+  "checks": [
+    {
+      "url": "https://wordtap.cn/downloads/WordTapGatewaySetup.exe",
+      "status": 200,
+      "bytes": 2442759,
+      "sha256": "B2B1EE0A2FE1806B130C15CD1A78BC226F46517EE56E8DDF61511D0933A9EAAB",
+      "age": null,
+      "lastModified": "Mon, 02 Nov 2026 03:29:02 GMT",
+      "valid": true
+    },
+    {
+      "url": "https://wordtap.cn/downloads/WordTapGatewaySetup.exe.sha256",
+      "status": 200,
+      "bytes": 91,
+      "sha256": "96BEE649A3660DEDACBAF11B7DBA9C813E8E850BCDE7674BB526F36D64D28535",
+      "age": null,
+      "lastModified": "Mon, 02 Nov 2026 03:29:23 GMT",
+      "valid": true
+    },
+    {
+      "url": "https://wordtap.cn/downloads/wordtap-gateway-release.json",
+      "status": 200,
+      "bytes": 514,
+      "sha256": "B4D9FBD32A5375716F32DCD6591F32BEB830B8802683806A6C68CC162E2ED359",
+      "age": null,
+      "lastModified": "Mon, 02 Nov 2026 03:29:24 GMT",
+      "version": "0.2.2",
+      "valid": true
+    },
+    {
+      "url": "https://cdn.sunocean.life/wordtap/downloads/WordTapGatewaySetup.exe",
+      "status": 200,
+      "bytes": 2442759,
+      "sha256": "B2B1EE0A2FE1806B130C15CD1A78BC226F46517EE56E8DDF61511D0933A9EAAB",
+      "age": "592",
+      "lastModified": "Mon, 02 Nov 2026 03:28:28 GMT",
+      "valid": true
+    },
+    {
+      "url": "https://cdn.sunocean.life/wordtap/downloads/WordTapGatewaySetup.exe.sha256",
+      "status": 200,
+      "bytes": 91,
+      "sha256": "96BEE649A3660DEDACBAF11B7DBA9C813E8E850BCDE7674BB526F36D64D28535",
+      "age": "593",
+      "lastModified": "Mon, 02 Nov 2026 03:28:45 GMT",
+      "valid": true
+    },
+    {
+      "url": "https://cdn.sunocean.life/wordtap/downloads/wordtap-gateway-release.json",
+      "status": 200,
+      "bytes": 514,
+      "sha256": "B4D9FBD32A5375716F32DCD6591F32BEB830B8802683806A6C68CC162E2ED359",
+      "age": "593",
+      "lastModified": "Mon, 02 Nov 2026 03:28:45 GMT",
+      "version": "0.2.2",
+      "valid": true
+    }
+  ],
+  "ok": true,
+  "webChecks": [
+    {
+      "url": "https://wordtap.cn/assets/DesktopShell-DXCZwJND.js",
+      "status": 200,
+      "bytes": 27819,
+      "sha256": "165F6F8758DCF517A4BDE461A52F3A86BD5B16EC335C4DDC1A71B0F05F254005",
+      "valid": true
+    },
+    {
+      "url": "https://wordtap.cn/assets/KaoyanEnglishDropdown.vue_vue_type_script_setup_true_lang-C1IzFLk6.js",
+      "status": 200,
+      "bytes": 182868,
+      "sha256": "7CB5C0886C0B62F06F5DCEFF909A3438BB1F39083140605803C85D0BBC6C9775",
+      "valid": true
+    },
+    {
+      "url": "https://wordtap.cn/assets/MobileShell-CYi1A772.js",
+      "status": 200,
+      "bytes": 28249,
+      "sha256": "5F8EFBB3B9F540AA7EE0793D3D023DD62303A9A55A584A564F3C54498C1C201B",
+      "valid": true
+    },
+    {
+      "url": "https://wordtap.cn/assets/index-B_YfqsIM.css",
+      "status": 200,
+      "bytes": 63673,
+      "sha256": "C0E273A8B470D37A324C4933FAD0B18CD9D94B5C938CCCDCF9C1DF8278276A80",
+      "valid": true
+    },
+    {
+      "url": "https://wordtap.cn/assets/index-CX7v4Pve.js",
+      "status": 200,
+      "bytes": 74694,
+      "sha256": "FE76B0BAF04C2A9E18E114A11817756383007D10EBA9F55FDEB4A45AB699126D",
+      "valid": true
+    },
+    {
+      "url": "https://wordtap.cn/index.html",
+      "status": 200,
+      "bytes": 5115,
+      "sha256": "EC9ACBC237558A308D0DAA5897DECE64CD401BC1907D87EDD74933AD64AB89C7",
+      "valid": true
+    },
+    {
+      "url": "https://wordtap.cn/sw.js",
+      "status": 200,
+      "bytes": 2355,
+      "sha256": "97943F80F4DB976E03D4A27101F8C486C5C97DEE5E5162203615E0C54AA29499",
+      "valid": true
+    }
+  ]
+}

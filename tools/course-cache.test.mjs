@@ -121,6 +121,21 @@ test("versioned dictionary and audio assets remain cache-first", async () => {
   assert.equal(w.requests.length, 0);
 });
 
+test("release downloads and integrity metadata bypass stale offline caches", async () => {
+  for (const offline of [false, true]) {
+    const w = worker({ cached: 'obsolete installer or checksum', offline });
+    for (const path of [
+      'downloads/WordTapGatewaySetup.exe',
+      'downloads/WordTap-Setup.exe',
+      'downloads/WordTapGatewaySetup.exe.sha256',
+      'downloads/wordtap-gateway-release.json',
+      'learn/downloads/WordTapGatewaySetup.exe?v=0.2.2',
+    ]) assert.equal(w.fetch(path), undefined, path);
+    assert.equal(w.requests.length, 0);
+    assert.equal(w.writes.length, 0);
+  }
+});
+
 test("vocabulary search indexes revalidate and remain available offline", async () => {
   const path = "english-vocabulary/indexes/evjunior.json";
   const online = worker();
