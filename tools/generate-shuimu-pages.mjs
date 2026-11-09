@@ -1,6 +1,7 @@
 import path from "node:path";
 import process from "node:process";
 import { escapeHtml, lessonToolHref, pageShell, xmlEscape } from "./course-page-shared.mjs";
+import { lessonSeoTitle } from "./course-seo.mjs";
 
 // Canonical URLs must always use the public origin, including local preview builds.
 export async function generatePages(context) {
@@ -19,7 +20,7 @@ function lessonLinkFromIndex(lesson) {
 }
 
 function lessonPageTitle(level, detail) {
-  return `\u6c34\u6728\u82f1\u8bed${level.title}\u7b2c${detail.unitNo}\u5355\u5143 ${detail.title}\uff5c\u8bb2\u4e49\u539f\u6587\u3001\u70b9\u8bfb\u6717\u8bfb\u4e0e\u89c6\u9891\u8bfe - WordTap`;
+  return lessonSeoTitle(`水木英语${level.title}第${detail.unitNo}单元`, detail.title);
 
 }
 

@@ -1,6 +1,7 @@
 import path from "node:path";
 import process from "node:process";
 import { escapeHtml, lessonToolHref, pageShell, xmlEscape } from "./course-page-shared.mjs";
+import { lessonSeoTitle } from "./course-seo.mjs";
 
 export async function generatePages(context) {
   const { readFile, mkdir, writeFile } = context;
@@ -13,7 +14,8 @@ function lessonSeo(group, detail) {
   const unit = detail.unitNo ? `Unit ${detail.unitNo}` : "";
   const location = [unit, detail.section].filter(Boolean).join(" ");
   const bookLabel = `${group.stageTitle}${group.title}`;
-  const title = `\u4eba\u6559\u7248${bookLabel}\u82f1\u8bed ${location} ${detail.title}\uff5cPEP\u8bfe\u6587\u539f\u6587 - WordTap`;
+  const titleLocation = unit ? `${unit}${/Section\s+([A-Z])/i.exec(detail.section ?? "")?.[1] ?? ""}` : "";
+  const title = lessonSeoTitle(`人教版${bookLabel}英语 第${detail.sequenceNo}篇 ${titleLocation}`, detail.title);
   const pages = detail.source?.pageStart
     ? `\u6559\u6750\u7b2c${detail.source.pageStart}${detail.source.pageEnd > detail.source.pageStart ? `\u2013${detail.source.pageEnd}` : ""}\u9875`
     : "";

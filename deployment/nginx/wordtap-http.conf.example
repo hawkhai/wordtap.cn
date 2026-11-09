@@ -1,0 +1,7 @@
+# Replace the existing HTTP (port 80) server, not the TLS/certificate server.
+# Keep the panel's ACME challenge handler if certificate renewal requires it.
+server {
+    listen 80;
+    server_name wordtap.cn www.wordtap.cn;
+    return 301 https://wordtap.cn$request_uri;
+}

@@ -167,6 +167,7 @@ function harness() {
     cancelled = false;
     constructor() { this.pending = deferred(); gateways.push(this); }
     speak(text, options) { this.text = text; this.options = options; this.pending = deferred(); return this.pending.promise; }
+    speakSequence(sentences, options) { this.sentences = sentences; return this.speak(sentences.map(s => s.text).join("\n"), options); }
     cancel() { this.cancelled = true; }
   }
   const setTimer = (fn, delay) => { timers.set(++timerId, fn); timerDelays.set(timerId, delay); return timerId; };
@@ -1203,5 +1204,152 @@ test("immediate full-text playback flushes the pending edit split before startin
     assert.equal(h.utterances.at(-1).text, 'Another English sentence.');
     h.utterances.at(-1).onend(); await tick();
     assert.equal(h.app.isSpeaking.value, false);
+  } finally { h.dispose(); }
+});
+
+
+test("current sentence follows actual browser sound, pause, repeats and cancellation", async () => {
+  const h = harness();
+  try {
+    h.text('First sentence. Second sentence.'); h.app.selectedRepeat.value = 2;
+    const ids = h.app.sentences.value.map(s => s.id);
+    await h.app.readFullText();
+    assert.equal(h.app.playingSentenceId.value, '');
+    for (let i = 0; i < 4; i++) {
+      const utterance = h.utterances[i];
+      utterance.onstart(); assert.equal(h.app.playingSentenceId.value, ids[i % 2]);
+      if (i === 0) {
+        await h.app.readFullText(); assert.equal(h.app.playingSentenceId.value, ids[0]);
+        await h.app.readFullText(); assert.equal(h.app.playingSentenceId.value, ids[0]);
+      }
+      utterance.onend(); await tick();
+    }
+    assert.equal(h.app.playingSentenceId.value, '');
+    await h.app.readFullText();
+    const stale = h.utterances.at(-1).onstart;
+    h.app.cancelSpeech(); stale();
+    assert.equal(h.app.playingSentenceId.value, '');
+  } finally { h.dispose(); }
+});
+
+test("a late browser start while paused defers sentence emphasis until resume", async () => {
+  const h = harness();
+  try {
+    h.text('First sentence.');
+    await h.app.readFullText();
+    await h.app.readFullText();
+    h.utterances[0].onstart();
+    assert.equal(h.app.playingSentenceId.value, '');
+    assert.equal(h.app.isFullTextPreparing.value, true);
+    await h.app.readFullText();
+    assert.equal(h.app.playingSentenceId.value, h.app.sentences.value[0].id);
+    assert.equal(h.app.isFullTextPreparing.value, false);
+    h.app.cancelSpeech();
+    assert.equal(h.app.playingSentenceId.value, '');
+  } finally { h.dispose(); }
+});
+
+test("Gateway sentence identity ignores prefetch and fallback keeps repeat and cursor", async () => {
+  const h = harness();
+  try {
+    h.text('First sentence. Second sentence.'); h.app.selectedRepeat.value = 2; h.app.isGatewayRunning.value = true;
+    const ids = h.app.sentences.value.map(s => s.id);
+    await h.app.readFullText();
+    const gateway = h.gateways.at(-1);
+    const first = gateway.options.onProgress;
+    first({phase:'receiving', sentenceId:ids[1]}); assert.equal(h.app.playingSentenceId.value, '');
+    first({phase:'playing', sentenceId:ids[0]}); assert.equal(h.app.playingSentenceId.value, ids[0]);
+    gateway.pending.resolve(); await tick();
+    const progress = gateway.options.onProgress;
+    first({phase:'playing', sentenceId:ids[1]}); assert.equal(h.app.playingSentenceId.value, ids[0]);
+    progress({phase:'playing', sentenceId:ids[1]}); assert.equal(h.app.playingSentenceId.value, ids[1]);
+    progress({phase:'receiving', sentenceId:ids[0]}); assert.equal(h.app.playingSentenceId.value, ids[1]);
+    await h.app.readFullText();
+    h.expectGatewayWarning('offline'); gateway.pending.reject(new Error('offline')); await tick();
+    assert.equal(h.app.isFullTextPaused.value, true); assert.equal(h.utterances.length, 0);
+    await h.app.readFullText(); await tick();
+    assert.equal(h.utterances[0].text, 'Second sentence.');
+    h.utterances[0].onstart(); assert.equal(h.app.playingSentenceId.value, ids[1]);
+    h.utterances[0].onend(); await tick();
+    assert.equal(h.utterances.length, 1); assert.equal(h.app.isSpeaking.value, false);
+    assert.equal(h.app.playingSentenceId.value, '');
+  } finally { h.dispose(); }
+});
+
+test("selection expands half-open offsets to whole sentences and plays exactly once", async () => {
+  const h = harness();
+  try {
+    h.text('Same sentence. Same sentence. Last sentence.'); h.app.selectedRepeat.value = 3;
+    const snapshot = h.app.sourceText.value;
+    const second = h.app.sentences.value[1];
+    await h.app.readSelection({snapshot, start:second.start + 2, end:second.end - 2});
+    assert.equal(h.utterances[0].text, second.text);
+    h.utterances[0].onstart(); assert.equal(h.app.playingSentenceId.value, second.id);
+    assert.match(h.app.status.value, /选段朗读/);
+    h.utterances[0].onend(); await tick();
+    assert.equal(h.utterances.length, 1); assert.equal(h.app.isSpeaking.value, false);
+    assert.equal(h.writes.length, 0);
+    await h.app.readSelection({snapshot:'stale', start:0, end:5});
+    assert.equal(h.utterances.length, 1);
+    await h.app.readSelection({snapshot, start:second.start, end:h.app.sentences.value[2].start});
+    assert.equal(h.utterances.at(-1).text, second.text);
+    h.utterances.at(-1).onend(); await tick();
+    assert.equal(h.app.isSpeaking.value, false);
+  } finally { h.dispose(); }
+});
+
+test("cross-paragraph selections retain original IDs, filter unreadable parts and cancel on edit", async () => {
+  const h = harness();
+  try {
+    h.text('中文前言。\nFirst sentence.\nSecond sentence.');
+    await h.app.readSelection({snapshot:h.app.sourceText.value, start:1, end:h.app.sourceText.value.length - 2});
+    assert.equal(h.utterances[0].text, 'First sentence.');
+    h.utterances[0].onstart(); assert.equal(h.app.playingSentenceId.value, h.app.sentences.value[1].id);
+    h.utterances[0].onend(); await tick();
+    const stale = h.utterances[1].onstart;
+    h.app.sourceText.value = 'Edited sentence.'; stale();
+    assert.equal(h.app.playingSentenceId.value, ''); assert.equal(h.app.isSpeaking.value, false);
+  } finally { h.dispose(); }
+});
+
+test("Gateway sentence queue prefetch is bounded, never merges sentences and retains long-sentence IDs", async () => {
+  const ready = deferred();
+  const h = gatewayHarness({ cache: () => ready.promise });
+  const progress = [];
+  const sentences = [{id:'first', text:'First sentence.'}, {id:'empty', text:'中文'},
+    {id:'long', text:'long word '.repeat(170)}, {id:'last', text:'Last sentence.'}];
+  const pending = h.session.speakSequence(sentences, {voice:'en-US-JennyNeural', onProgress:p => progress.push(p)});
+  await tick();
+  assert.equal(h.keys.length, 3, 'only three initial chunks are prefetched');
+  ready.resolve({ blob: new Blob(['audio']), size: 5 }); await tick();
+  const played = [];
+  for (let i = 0; i < 4; i++) {
+    const audio = h.audio.at(-1); audio.onplaying();
+    played.push(progress.at(-1).sentenceId);
+    audio.onended(); await tick();
+  }
+  await pending;
+  assert.deepEqual(played, ['first','long','long','last']);
+  assert.ok(h.keys.every(key => !key[0].includes('中文')));
+  assert.equal(h.keys[0][0], 'First sentence.');
+  assert.equal(h.keys.at(-1)[0], 'Last sentence.');
+});
+
+test("safe-area scroll geometry is stable for visible, clipped and taller-than-screen sentences", () => {
+  const h = harness();
+  try {
+    const {readingScrollDelta: delta} = h.load('src/shared/utils/readingFollow.ts');
+    assert.equal(delta({top:100,bottom:200},24,700), 0);
+    assert.equal(delta({top:650,bottom:750},24,700), 626);
+    assert.equal(delta({top:0,bottom:80},24,700), -24);
+    assert.equal(delta({top:100,bottom:1500},24,700), 0);
+    assert.equal(delta({top:-100,bottom:1500},24,700), -124);
+    assert.equal(delta({top:100,bottom:200},200,100), 0);
+    const {selectionMenuPosition: place} = h.load('src/shared/utils/readingSelection.ts');
+    for (const width of [360,390,1440]) {
+      const position = place({left:width-2,right:width,top:2,bottom:30}, {left:0,top:0,width,height:800}, 132,54);
+      assert.ok(position.left >= 8 && position.left + 132 <= width - 8);
+      assert.equal(position.top,38);
+    }
   } finally { h.dispose(); }
 });

@@ -10,10 +10,13 @@ type GatewaySpeechProgressPhase = "cache-hit" | "connecting" | "receiving" | "bu
 
 export type GatewaySpeechProgress = {
   phase: GatewaySpeechProgressPhase;
+  sentenceId?: string;
   audioBytes?: number;
   chunkIndex?: number;
   chunkCount?: number;
 };
+
+export type SpeechSentence = { id: string; text: string };
 
 export type GatewaySpeechOptions = {
   voice?: string;
@@ -99,10 +102,25 @@ export class GatewaySpeechSession {
   private finishPlayback: ((error?: Error) => void) | null = null;
 
   async speak(text: string, options: GatewaySpeechOptions = {}): Promise<void> {
-    this.cancelled = false;
     const prepared = prepareSpeechText(text, gatewaySpeechTextMode(options.voice));
     if (!prepared) throw new NoSpeechTextError();
     const chunks = splitTextForIncrementalSpeech(prepared, clientSpeechChunkBytes);
+    await this.playChunks(chunks.map(text => ({ text })), options);
+  }
+
+  /** Keep sentence identity across filtering, prefetch and long-sentence chunks. */
+  async speakSequence(sentences: SpeechSentence[], options: GatewaySpeechOptions = {}): Promise<void> {
+    const chunks = sentences.flatMap(sentence => {
+      const text = prepareSpeechText(sentence.text, gatewaySpeechTextMode(options.voice));
+      return text ? splitTextForIncrementalSpeech(text, clientSpeechChunkBytes)
+        .map(text => ({ text, sentenceId: sentence.id })) : [];
+    });
+    if (!chunks.length) throw new NoSpeechTextError();
+    await this.playChunks(chunks, options);
+  }
+
+  private async playChunks(chunks: { text: string; sentenceId?: string }[], options: GatewaySpeechOptions): Promise<void> {
+    this.cancelled = false;
     await this.primeAudio();
     this.throwIfCancelled();
 
@@ -120,7 +138,10 @@ export class GatewaySpeechSession {
 
     // 发起一个 chunk 的合成，返回 settle 包装的 Promise
     const enqueue = (index: number): Promise<Settled<Blob>> => {
-      return settle(this.synthesize(chunks[index], options, index, chunkCount));
+      return settle(this.synthesize(chunks[index].text, {
+        ...options,
+        onProgress: progress => options.onProgress?.({ ...progress, sentenceId: chunks[index].sentenceId }),
+      }, index, chunkCount));
     };
 
     // 首批并发：同时发起前 prefetchCount 个 chunk
@@ -131,7 +152,9 @@ export class GatewaySpeechSession {
 
     // 逐个播放：取队首 → 等就绪 → 播放 → 补一个到队尾
     for (let index = 0; index < chunkCount; index += 1) {
-      options.onProgress?.({ phase: "buffering", chunkIndex: index, chunkCount });
+      const onProgress = (progress: GatewaySpeechProgress) =>
+        options.onProgress?.({ ...progress, sentenceId: chunks[index].sentenceId });
+      onProgress({ phase: "buffering", chunkIndex: index, chunkCount });
       const result = await pending.shift()!;
       this.throwIfCancelled();
 
@@ -145,7 +168,7 @@ export class GatewaySpeechSession {
         nextToSynthesize += 1;
       }
 
-      await this.play(result.value, options.onProgress, index, chunkCount, options.playbackControl);
+      await this.play(result.value, onProgress, index, chunkCount, options.playbackControl);
       this.throwIfCancelled();
     }
   }

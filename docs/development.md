@@ -22,6 +22,8 @@ npm run verify
 
 独立浏览器验收使用 `npm run verify:browser`，需另行提供 Playwright 与 Chromium；配置项为 `WORDTAP_PLAYWRIGHT_MODULE`、`WORDTAP_CHROMIUM_EXECUTABLE`、`WORDTAP_TEST_URL`、`WORDTAP_TEST_OUTPUT`，输出默认在忽略的 `tmp/web-sync/`。普通构建及 CI 不下载浏览器。
 
+逐句加粗、滚动跟随和选区菜单的定向浏览器验收使用 `npm run verify:reading-interaction`，指定 `WORDTAP_PLAYWRIGHT_MODULE` 与本地生产预览的 `WORDTAP_TEST_URL`；默认输出 `tmp/reading-follow/`，可用 `WORDTAP_TEST_OUTPUT` 覆盖。该流程控制语音与剪贴板事件，不代替实际听音和真实手机长按验收。
+
 官方下载使用官方 HTTPS 地址；非官方部署保留原有跨域下载适配，缺少可选发布元数据时诊断显示无法确认。Gateway [安装说明](https://wordtap.cn/install/gateway/)独立提供。
 
 ## 依赖安全状态
@@ -220,3 +222,11 @@ http://127.0.0.1:18765
 词库覆盖 CET-4、CET-6、考研、IELTS、TOEFL、GRE、GMAT、SAT、专四、专八及中小学英语等，共 116,953 条源记录；该数字不是去重后的单词数。词汇单元支持搜索、阅读、例句跟打与分享。
 
 课程与词典数据保留各自的来源和权利条件。人教版缺失的 5 册未用占位内容补齐；120 篇文章仍待来源确认，16 处词汇源数据问题原样保留。具体状态见[发布说明](../content/release/README.md)和[第三方声明](../THIRD_PARTY_NOTICES.md)。
+
+## 搜索元信息与入口维护
+
+课文标题由 `tools/course-seo.mjs` 保留教材、册次／单元／文章位置和主题，优先删除重复功能词，长标题在英文单词边界缩短。70 字符是本项目的检查预算，不是 Google 的收录硬性门槛；教材原题、正文和来源保持完整。描述根据每页教材位置、页码和实际能力生成，不以统一凑字数替代内容。
+
+`npm run test:search-seo` 检查标题回归及重定向目标约束；`npm run verify:search-seo` 检查全部 sitemap 页面的唯一标题／描述、标题预算、源码 H1、自指 canonical、robots 和 JSON-LD。构建会生成静态页面并执行这两类检查，Nginx 规则另按 [部署说明](../deployment/nginx/README.md) 更新，不能仅上传 HTML 后宣称服务器跳转已生效。
+
+后台复查分别记录 sitemap 处理、发现网页、实际抓取、索引数量和报表日期。已知页面总数不等于 sitemap 数量，缺失数量不能记作 0。内容更新发布后可对少量代表页请求重新抓取；不重复提交未变化且处理成功的 sitemap，不把提交受理写成索引成功。

@@ -14,6 +14,20 @@ export interface ReadingRun {
   segments: Segment[];
 }
 
+export interface ReadingSelection {
+  snapshot: string;
+  start: number;
+  end: number;
+}
+
+/** Half-open original-text offsets; repeated text never needs a string search. */
+export function sentencesInSelection(selection: ReadingSelection, snapshot: string, sentences: ReadingSentence[]): ReadingSentence[] {
+  if (selection.snapshot !== snapshot || !Number.isInteger(selection.start) || !Number.isInteger(selection.end) ||
+    selection.start < 0 || selection.end > snapshot.length || selection.start >= selection.end ||
+    !snapshot.slice(selection.start, selection.end).trim()) return [];
+  return sentences.filter(sentence => sentence.start < selection.end && sentence.end > selection.start);
+}
+
 const abbreviation = /\b(?:Mr|Mrs|Ms|Dr|Prof|Sr|Jr|St|vs|etc|e\.g|i\.e|a\.m|p\.m|adj|adv|pron|prep|conj|n|v)\.$/i;
 const closingPunctuation = /[.!?。！？…"'”’»）)\]}]/u;
 const hardBoundary = /[\r\n]/u;
@@ -41,7 +55,7 @@ export function indexReadingSentences(text: string, segments: Segment[]): Readin
     const raw = text.slice(start, end);
     const leading = raw.length - raw.trimStart().length;
     const trimmed = raw.trim();
-    if (/\p{L}/u.test(trimmed)) {
+    if (/[\p{L}\p{N}]/u.test(trimmed)) {
       const from = start + leading;
       ranges.push({ id: `sentence-${from}-${from + trimmed.length}`, start: from,
         end: from + trimmed.length, text: trimmed, wordIds: [] });

@@ -29,6 +29,14 @@ export function playBrowserSpeech(text: string, options: {
     let resumeTimer: ReturnType<typeof setInterval>;
     let unsubscribe: (() => void) | undefined;
     let submitted = false;
+    let started = false;
+    let notifiedStart = false;
+    const notifyStart = () => {
+      if (!settled && started && !notifiedStart && !options.playbackControl?.paused) {
+        notifiedStart = true;
+        options.onStart?.();
+      }
+    };
     let remaining = Math.max(SPEECH_WATCHDOG_BASE, text.length * SPEECH_BROWSER_CHAR_MS / options.rate);
     let watchdogStarted = 0;
     const armWatchdog = () => {
@@ -56,8 +64,9 @@ export function playBrowserSpeech(text: string, options: {
     };
     signal.addEventListener("abort", abort, { once: true });
     utterance.onstart = () => {
+      started = true;
       if (options.playbackControl?.paused) window.speechSynthesis.pause();
-      options.onStart?.();
+      notifyStart();
     };
     utterance.onend = () => finish();
     utterance.onerror = (event) => finish(new Error(`直接朗读失败：${event.error}`));
@@ -73,6 +82,7 @@ export function playBrowserSpeech(text: string, options: {
         } else {
           armWatchdog();
           if (window.speechSynthesis.paused) window.speechSynthesis.resume();
+          notifyStart();
           if (!submitted) {
             submitted = true;
             window.speechSynthesis.speak(utterance);

@@ -1,4 +1,5 @@
 import { bundledGatewayVersion, compareGatewayVersions, gatewayVersion } from "../utils/gatewayVersion";
+import { sentencesInSelection, type ReadingSelection } from "../utils/readingSentences";
 import { computed, onBeforeUnmount, onMounted, ref, watch } from "vue";
 import { probeDownload, probeGatewayRelease } from "../utils/downloadDiagnostics";
 import { SpeechPlaybackControl } from "../utils/speechPlaybackControl";
@@ -143,6 +144,8 @@ const segments = ref<Segment[]>([]);
 const sentences = ref<ReadingSentence[]>([]);
 const readingSnapshot = ref("");
 const activeSentenceId = ref("");
+const playingSentenceId = ref("");
+const fullTextSpeechSubject = ref("全文朗读");
 const sentenceSpeechState = ref<"idle" | "preparing" | "playing">("idle");
 let sentenceSpeechSession: SentenceSpeechSession | null = null;
 let wordBrowserAbort: AbortController | null = null;
@@ -2390,6 +2393,7 @@ function markFullTextAudioPlaying(label: string, played: number, total: number):
 }
 
 function cancelFullTextSpeech(): void {
+  playingSentenceId.value = "";
   clearFullTextBufferingTimer();
   fullTextHasStarted = false;
   fullTextBuffering = false;
@@ -2409,6 +2413,7 @@ function cancelFullTextSpeech(): void {
 }
 
 function cancelSentenceSpeech(): void {
+  playingSentenceId.value = "";
   sentenceSpeechSession?.cancel();
   sentenceSpeechSession = null;
   activeSentenceId.value = "";
@@ -2775,44 +2780,25 @@ async function handleWordTapWindowsDownload(event: MouseEvent): Promise<void> {
   status.value = copy.status.wordTapInstallerNotReady;
 }
 
-/** 将文本按句子边界分段（保留标点） */
-function splitSentencesForBrowser(text: string): string[] {
-  const cleaned = text.trim();
-  if (!cleaned) {
-    return [];
-  }
-  // 按句子结束符 + 空白/换行 分段，保留标点在句尾
-  const parts = cleaned.split(/(?<=[.!?;:])\s+/);
-  // 过滤空白段，合并过短的段（<10 字符）到前一段
-  const merged: string[] = [];
-  for (const part of parts) {
-    const trimmed = part.trim();
-    if (!trimmed) {
-      continue;
-    }
-    if (merged.length > 0 && trimmed.length < 10) {
-      merged[merged.length - 1] += " " + trimmed;
-    } else {
-      merged.push(trimmed);
-    }
-  }
-  return merged.length ? merged : [cleaned];
-}
-
-/** 浏览器 speechSynthesis 逐句朗读全文（gateway 不可用时的降级路径） */
-function speakFullTextWithBrowser(text: string, label: string, playbackControl = new SpeechPlaybackControl(), alreadyStarted = false): void {
+/** The browser and Gateway consume the same original sentence queue. */
+function speakFullTextWithBrowser(text: string, label: string, playbackControl = new SpeechPlaybackControl(), alreadyStarted = false,
+  queue = sentences.value, total = selectedRepeat.value, firstRepeat = 1, firstIndex = 0): void {
   if (!isBrowserSpeechSupported()) {
-    isFullTextSpeaking.value = false;
+    cancelFullTextSpeech();
     status.value = copy.status.fullTextSpeechUnavailable;
     return;
   }
-  const parts = splitSentencesForBrowser(prepareSpeechText(text));
-  if (!parts.length) {
+  const parts = queue.map((sentence, index) => ({ ...sentence, index, text: prepareSpeechText(sentence.text) }))
+    .filter(sentence => sentence.text);
+  if (!parts.length || (!parts.some(part => part.index >= firstIndex) && firstRepeat >= total)) {
     cancelFullTextSpeech();
     status.value = copy.status.noEnglishSpeechContent;
     return;
   }
+  const previousSentence = playingSentenceId.value;
   cancelFullTextSpeech();
+  playingSentenceId.value = previousSentence;
+  fullTextSpeechSubject.value = label;
   fullTextPlaybackControl = playbackControl;
   fullTextHasStarted = alreadyStarted;
   isFullTextPreparing.value = !fullTextHasStarted;
@@ -2820,48 +2806,42 @@ function speakFullTextWithBrowser(text: string, label: string, playbackControl =
   const runId = fullTextSpeechRunId.value;
   const controller = new AbortController();
   fullTextBrowserAbort = controller;
-  const total = selectedRepeat.value;
   const voice = selectEnglishVoice();
   const rate = browserSpeechRate();
   isFullTextSpeaking.value = true;
   void (async () => {
-    for (let played = 1; played <= total; played += 1) {
-      if (runId !== fullTextSpeechRunId.value) return;
-      for (const part of parts) {
-        if (runId !== fullTextSpeechRunId.value) return;
-        try {
+    try {
+      for (let played = firstRepeat; played <= total; played += 1) {
+        for (const part of parts) {
+          if (played === firstRepeat && part.index < firstIndex) continue;
+          if (runId !== fullTextSpeechRunId.value) return;
           waitForFullTextAudio();
-          await playBrowserSpeech(part, { signal: controller.signal, voice, rate, playbackControl,
+          await playBrowserSpeech(part.text, { signal: controller.signal, voice, rate, playbackControl,
             onStart: () => {
-              if (runId !== fullTextSpeechRunId.value) return;
+              if (runId !== fullTextSpeechRunId.value || playbackControl.paused) return;
+              playingSentenceId.value = part.id;
               markFullTextAudioPlaying(label, played, total);
             },
           });
-        } catch (error) {
-          if (runId !== fullTextSpeechRunId.value) return;
-          console.warn("Browser full-text sentence error:", error);
         }
       }
-    }
-    if (runId === fullTextSpeechRunId.value) {
-      clearFullTextBufferingTimer();
-      fullTextBuffering = false;
-      fullTextSpeechRunId.value += 1;
-      fullTextBrowserAbort = null;
-      isFullTextSpeaking.value = false;
-      fullTextPlaybackControl = null;
-      isFullTextPreparing.value = false;
-      isFullTextPaused.value = false;
-      status.value = copy.status.playDone(label, total);
+      if (runId === fullTextSpeechRunId.value) {
+        cancelFullTextSpeech();
+        status.value = copy.status.playDone(label, total);
+      }
+    } catch (error) {
+      if (runId !== fullTextSpeechRunId.value) return;
+      cancelFullTextSpeech();
+      status.value = copy.status.fullTextSpeechFailed(label, formatSpeechError(error));
     }
   })();
 }
 
-function speakFullTextWithGateway(text: string, label: string, playbackControl = new SpeechPlaybackControl()): void {
+function speakFullTextWithGateway(text: string, label: string, playbackControl = new SpeechPlaybackControl(), queue = sentences.value, total = selectedRepeat.value): void {
   const phrase = text.trim();
   const voice = selectedGatewayVoice.value;
-  const prepared = prepareSpeechText(phrase, gatewaySpeechTextMode(voice));
-  if (!prepared) {
+  const prepared = queue.map(sentence => ({ ...sentence, text: prepareSpeechText(sentence.text, gatewaySpeechTextMode(voice)) })).filter(sentence => sentence.text);
+  if (!prepared.length) {
     cancelFullTextSpeech();
     status.value = copy.status.noEnglishSpeechContent;
     return;
@@ -2879,8 +2859,9 @@ function speakFullTextWithGateway(text: string, label: string, playbackControl =
   isFullTextPaused.value = playbackControl.paused;
   fullTextSpeechRunId.value += 1;
   const runId = fullTextSpeechRunId.value;
-  const total = selectedRepeat.value;
+  fullTextSpeechSubject.value = label;
   let played = 0;
+  let currentIndex = 0;
   const session = new GatewaySpeechSession();
   gatewaySpeechSession = session;
 
@@ -2889,6 +2870,7 @@ function speakFullTextWithGateway(text: string, label: string, playbackControl =
       return;
     }
     if (played >= total) {
+      playingSentenceId.value = "";
       clearFullTextBufferingTimer();
       fullTextBuffering = false;
       fullTextSpeechRunId.value += 1;
@@ -2903,18 +2885,24 @@ function speakFullTextWithGateway(text: string, label: string, playbackControl =
 
     played += 1;
     const repeat = played;
+    currentIndex = 0;
     waitForFullTextAudio();
     isFullTextSpeaking.value = true;
     void session
-      .speak(prepared, {
+      .speakSequence(prepared, {
         playbackControl,
         rate: selectedRate.value,
         voice,
         onProgress: (progress) => {
           if (runId !== fullTextSpeechRunId.value || repeat !== played) return;
+          if ((progress.phase === "buffering" || progress.phase === "playing") && progress.sentenceId) {
+            const index = queue.findIndex(sentence => sentence.id === progress.sentenceId);
+            if (index >= 0) currentIndex = index;
+          }
           if (progress.phase === "buffering") waitForFullTextAudio();
           if (playbackControl.paused) return;
           if (progress.phase === "playing") {
+            playingSentenceId.value = progress.sentenceId ?? prepared[0].id;
             markFullTextAudioPlaying(label, played, total);
             return;
           }
@@ -2947,8 +2935,9 @@ function speakFullTextWithGateway(text: string, label: string, playbackControl =
         // gateway 失败，降级到浏览器内置 speechSynthesis
         if (isBrowserSpeechSupported()) {
           if (!playbackControl.paused) status.value = copy.status.fullTextSpeechBrowserFallback;
-          speakFullTextWithBrowser(phrase, label, playbackControl, fullTextHasStarted);
+          speakFullTextWithBrowser(phrase, label, playbackControl, fullTextHasStarted, queue, total, played, currentIndex);
         } else {
+          playingSentenceId.value = "";
           clearFullTextBufferingTimer();
           fullTextBuffering = false;
           fullTextSpeechRunId.value += 1;
@@ -3213,6 +3202,7 @@ async function speakSentenceText(text: string, sentenceId: string): Promise<void
       onPlaying: () => {
         if (!isCurrent()) return;
         sentenceSpeechState.value = "playing";
+        playingSentenceId.value = sentenceId;
         status.value = "正在朗读本句，点击句末按钮可停止。";
       },
       onFallback: () => {
@@ -3227,6 +3217,27 @@ async function speakSentenceText(text: string, sentenceId: string): Promise<void
   }
 }
 
+async function readSelection(selection: ReadingSelection): Promise<void> {
+  if (selection.snapshot !== sourceText.value.trim() || sentenceSpeechDisabled.value) return;
+  const queue = sentencesInSelection(selection, readingSnapshot.value, sentences.value);
+  if (!queue.length) return;
+  cancelSpeech();
+  const text = queue.map(sentence => sentence.text).join("\n");
+  if (!prepareSpeechText(text, isGatewayRunning.value ? gatewaySpeechTextMode(selectedGatewayVoice.value) : "english")) {
+    status.value = copy.status.noEnglishSpeechContent;
+    return;
+  }
+  cancelLookup();
+  hideWordPopover();
+  selectedSegmentId.value = "";
+  currentWord.value = "选段朗读";
+  meaning.value = "朗读选区所在的完整句子（一次）。";
+  status.value = "正在准备选段朗读，准备好后会自动播放。";
+  const playbackControl = new SpeechPlaybackControl();
+  if (isGatewayRunning.value) speakFullTextWithGateway(text, "选段朗读", playbackControl, queue, 1);
+  else speakFullTextWithBrowser(text, "选段朗读", playbackControl, false, queue, 1);
+}
+
 async function readFullText(): Promise<void> {
   if (isFullTextSpeaking.value && fullTextPlaybackControl) {
     const paused = !fullTextPlaybackControl.paused;
@@ -3234,7 +3245,7 @@ async function readFullText(): Promise<void> {
     fullTextPlaybackControl.setPaused(paused);
     if (paused) clearFullTextBufferingTimer();
     else if (fullTextBuffering) waitForFullTextAudio();
-    status.value = paused ? "全文朗读已暂停，点击继续可接着读。" : isFullTextPreparing.value ? "正在准备朗读音频，请稍候，准备好后会自动播放。" : "正在继续全文朗读。";
+    status.value = paused ? `${fullTextSpeechSubject.value}已暂停，点击继续可接着读。` : isFullTextPreparing.value ? "正在准备朗读音频，请稍候，准备好后会自动播放。" : `正在继续${fullTextSpeechSubject.value}。`;
     return;
   }
   const text = sourceText.value.trim();
@@ -3376,7 +3387,7 @@ onBeforeUnmount(() => {
     gatewayDownloadUrl, gatewayReleaseManifestUrl, examNotice,
     // Refs
     readingDisplayMode, phonetics, phoneticCounts, retryPhonetics, phoneticNotice,
-    sentences, readingRuns, activeSentenceId, sentenceSpeechState, sentenceSpeechDisabled, readSentence,
+    sentences, readingSnapshot, readingRuns, activeSentenceId, playingSentenceId, sentenceSpeechState, sentenceSpeechDisabled, readSentence, readSelection,
     speakArticleTypingSentence,
     sourceText, segments, selectedSegmentId, currentWord, meaning, status,
     dictionaryInfo, selectedRate, selectedRepeat, selectedTranslateMode,

@@ -2,7 +2,7 @@
 import { computed } from "vue";
 import type { ReadingDisplayMode, WordPhonetic, Segment } from "../types/app";
 const props = defineProps<{ segment: Segment; selectedId: string; learnedClass: (word: string) => string;
-  displayMode?: ReadingDisplayMode; phonetic?: WordPhonetic }>();
+  displayMode?: ReadingDisplayMode; phonetic?: WordPhonetic; sourceStart?: number }>();
 const showPhonetic = computed(() => props.displayMode && props.displayMode !== "original");
 const ready = computed(() => showPhonetic.value && props.phonetic?.status === "ready");
 const note = computed(() => !showPhonetic.value ? undefined : props.phonetic?.status === "missing" ? "暂无音标"
@@ -11,8 +11,8 @@ defineEmits<{ word: [segment: Extract<Segment, { type: "word" }>, event: MouseEv
 </script>
 
 <template>
-  <span v-if="segment.type === 'text'" :class="{ 'vocabulary-source-ipa': segment.phonetic }">{{ segment.text }}</span>
-  <span v-else-if="segment.type === 'blank-line'" class="study-blank-line" aria-hidden="true"></span>
+  <span v-if="segment.type === 'text'" :data-source-start="sourceStart" class="study-source-text" :class="{ 'vocabulary-source-ipa': segment.phonetic }">{{ segment.text }}</span>
+  <span v-else-if="segment.type === 'blank-line'" class="study-blank-line" :data-source-start="sourceStart" :data-source-length="segment.text.length" aria-hidden="true"></span>
   <span v-else class="study-word-cluster"><button
     type="button"
     class="study-word inline px-0.5 align-baseline leading-[inherit]"
@@ -25,5 +25,5 @@ defineEmits<{ word: [segment: Extract<Segment, { type: "word" }>, event: MouseEv
     :title="note" :aria-label="showPhonetic ? `${segment.text}${note ? '，' + note : ''}` : undefined"
     :data-word-index="segment.index"
     @click="$emit('word', segment, $event)"
-  ><template v-if="ready"><span v-if="displayMode === 'annotated'" class="study-word-spelling">{{ segment.text }}</span><span class="study-word-ipa">{{ phonetic?.text }}</span></template><template v-else>{{ segment.text }}</template></button>{{ segment.trailingText ?? '' }}</span>
+  ><template v-if="ready"><span v-if="displayMode === 'annotated'" class="study-word-spelling study-source-text" :data-source-start="sourceStart">{{ segment.text }}</span><span class="study-word-ipa">{{ phonetic?.text }}</span></template><span v-else class="study-source-text" :data-source-start="sourceStart">{{ segment.text }}</span></button><span class="study-source-text" :data-source-start="sourceStart === undefined ? undefined : sourceStart + segment.text.length">{{ segment.trailingText ?? '' }}</span></span>
 </template>

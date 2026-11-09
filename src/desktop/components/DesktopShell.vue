@@ -67,7 +67,7 @@ const {
   logoMarkUrl, feedbackEmailUrl, wordTapWindowsDownloadUrl,
   gatewayDownloadUrl, gatewayReleaseManifestUrl,
   readingDisplayMode, phonetics, phoneticCounts, retryPhonetics, phoneticNotice,
-  readingRuns, activeSentenceId, sentenceSpeechState, sentenceSpeechDisabled, readSentence,
+  readingRuns, readingSnapshot, activeSentenceId, playingSentenceId, isFullTextPaused, sentenceSpeechState, sentenceSpeechDisabled, readSentence, readSelection,
   speakArticleTypingSentence, speakArticleTypingWord,
   sourceText, segments, selectedSegmentId, currentWord, meaning, status,
   dictionaryInfo, selectedRate, selectedRepeat, selectedTranslateMode,
@@ -549,14 +549,14 @@ function handleCourseLessonSelect(selection: CourseLessonSelection): void {
               @word="studyWord"
             />
             <ReadingText v-else
-              :runs="readingRuns" :display-mode="readingDisplayMode" :phonetics="phonetics"
+              :runs="readingRuns" :snapshot="readingSnapshot" :playing-sentence-id="playingSentenceId" :paused="isFullTextPaused" :display-mode="readingDisplayMode" :phonetics="phonetics"
               :selected-id="selectedSegmentId"
               :learned-class="learnedClassForWord"
               :active-sentence-id="activeSentenceId"
               :preparing="sentenceSpeechState === 'preparing'"
               :disabled="sentenceSpeechDisabled"
               @word="studyWord"
-              @sentence="readSentence"
+              @sentence="readSentence" @selection="readSelection" @notice="status = $event" @select="hideWordPopover"
             />
           </section>
         </div>

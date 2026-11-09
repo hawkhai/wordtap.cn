@@ -20,7 +20,7 @@
     "dev": "vite",
     "prebuild": "node tools/verify-published.mjs",
     "build": "vue-tsc --noEmit && vite build",
-    "postbuild": "node tools/generate-site.mjs && node tools/verify-short-links.mjs && node tools/verify-exam.mjs && node tools/verify-static-design.mjs && node tools/verify-site.mjs",
+    "postbuild": "node tools/generate-site.mjs && node tools/update-search-sitemap.mjs && node tools/generate-search-redirects.mjs && node tools/verify-short-links.mjs && node tools/verify-exam.mjs && node tools/verify-static-design.mjs && node tools/verify-site.mjs && node tools/verify-search-pages.mjs",
     "preview": "vite preview --host 127.0.0.1",
     "test:theme": "node --test tools/theme.test.mjs tools/static-page-design.test.mjs",
     "typecheck": "vue-tsc --noEmit",
@@ -29,7 +29,13 @@
     "verify:published": "node tools/verify-published.mjs",
     "verify:open-source": "node tools/verify-open-source.mjs",
     "verify:responsive": "node tools/verify-responsive-breakpoints.mjs",
-    "verify:browser": "node tools/verify-browser.mjs"
+    "verify:browser": "node tools/verify-browser.mjs",
+    "test:sentence-reading": "node --test tools/sentence-reading.test.mjs",
+    "test:reading-phonetics": "node --test tools/reading-phonetics.test.mjs",
+    "test:search-seo": "node --test tools/search-seo.test.mjs",
+    "generate:search-redirects": "node tools/generate-search-redirects.mjs",
+    "verify:search-seo": "node tools/verify-search-pages.mjs",
+    "verify:reading-interaction": "node tools/reading-interaction.browser.mjs"
   },
   "dependencies": {
     "vue": "^3.5.42"

@@ -16,7 +16,7 @@ function lessonPage(group, detail, previous, next) {
   const paragraphs = detail.blocks.map((block) => `<p class="en" lang="en">${escapeHtml(block.text)}</p>`).join("\n");
   const previousLink = previous ? `<a href="../${escapeHtml(previous.id)}/">← 上一份</a>` : `<a href="../">← 返回目录</a>`;
   const nextLink = next ? `<a href="../${escapeHtml(next.id)}/">下一份 →</a>` : `<a href="../">返回目录 →</a>`;
-  const description = `${detail.title}试卷正文，支持单词点读查词和全文朗读。`;
+  const description = `${detail.title}试卷正文，来源为 ${detail.pageCount} 页公开真题 PDF 的可检索文本层。保留试题内容并转换为连续阅读文本，支持点击英文单词查看中文释义、音标与发音，以及全文朗读和文章跟打；可从目录继续查找其他年份的英语一、英语二真题。`;
   const body = `<main><p class="meta">${escapeHtml(group.title)} · ${detail.year} 年 · ${detail.pageCount} 页</p><h1>${escapeHtml(detail.title)}</h1><p class="intro">从公开真题 PDF 的可检索文本层收录，保留试题正文并转换为适合点读和朗读的连续文本。</p><article class="reading">${paragraphs}</article><nav class="page-nav" aria-label="真题导航">${previousLink}${nextLink}</nav></main>`;
   return pageShell({
     title: `${detail.title}｜考研英语真题点读与朗读 - WordTap`,
@@ -38,7 +38,7 @@ function indexPage() {
     return `<section class="collection-card"><h2>${escapeHtml(group.title)}</h2><p>${escapeHtml(group.subtitle)}</p><ol class="lesson-list">${lessons}</ol></section>`;
   }).join("\n");
   const canonicalUrl = `${siteUrl}/kaoyan-english/`;
-  const description = `考研英语一、英语二历年真题目录，共收录 ${manifest.totalLessons} 份可检索试卷，支持点读查词和全文朗读。`;
+  const description = `考研英语一、英语二历年真题目录，共 ${manifest.totalLessons} 份可检索试卷，按年份倒序查找。英语一涵盖 1980–2026 年，英语二涵盖 2010–2026 年；进入试卷阅读英文正文、点词查中文释义与音标、听发音或全文朗读，也可使用文章跟打练习。`;
   const body = `<main><p class="meta">English I & English II · ${manifest.totalLessons} papers</p><h1>考研英语历年真题</h1><p class="intro">收录英语一 1980–2026、英语二 2010–2026 历年真题，并保留每份试卷的来源和文件哈希。</p>${groupHtml}</main>`;
   return pageShell({ title: "考研英语一、英语二历年真题｜点读与朗读 - WordTap", description, keywords: "考研英语真题,考研英语一,考研英语二,历年真题,英语点读", canonicalUrl, body, structuredData: JSON.stringify({ "@context": "https://schema.org", "@type": "CollectionPage", name: "考研英语历年真题", description, url: canonicalUrl }), activeCourse: "kaoyan-english", depth: 1, toolHref: "../", ogType: "website" });
 }
