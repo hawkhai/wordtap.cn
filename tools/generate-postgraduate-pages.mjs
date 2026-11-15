@@ -1,6 +1,7 @@
 import path from "node:path";
 import process from "node:process";
 import { escapeHtml, lessonToolHref, pageShell, xmlEscape } from "./course-page-shared.mjs";
+import { lessonSeoTitle } from "./course-seo.mjs";
 
 export async function generatePages(context) {
   const { readFile, mkdir, writeFile } = context;
@@ -27,7 +28,7 @@ function lessonSeo(volume, detail) {
   const bookName = volumeSeoName(volume);
   const editor = volumeEditor(volume);
   const bookSeries = volume.id === "reading-writing-translation" ? "研究生英语读写译教程" : "研究生英语综合教程";
-  const title = `${bookName} 第${detail.unitNo}单元${textLabel} ${detail.title}｜${languageLabel}课文、翻译与朗读 - WordTap`;
+  const title = lessonSeoTitle(`${bookName} 第${detail.unitNo}单元${textLabel}`, detail.title);
   const description = `${editor}主编的《${bookName}》第${detail.unitNo}单元${textLabel}《${detail.title}》${author}，主题：${detail.theme}。提供${languageLabel}课文阅读、${volume.languageMode === "bilingual" ? "中文翻译、" : ""}单词点读查义与全文朗读，适合研究生公共英语教材预习、复习和跟读。`;
   const keywords = [
     "研究生英语",

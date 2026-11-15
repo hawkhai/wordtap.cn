@@ -1,6 +1,7 @@
 import path from "node:path";
 import process from "node:process";
 import { escapeHtml, lessonToolHref, pageShell, xmlEscape } from "./course-page-shared.mjs";
+import { lessonSeoTitle } from "./course-seo.mjs";
 
 // Canonical URLs must always use the public origin, including local preview builds.
 export async function generatePages(context) {
@@ -25,7 +26,7 @@ function lessonLinkFromIndex(lesson) {
 function lessonPageTitle(book, lesson, detail) {
   const seoZhTitle = normalizeTitleZh(detail.titleZh || lesson.titleZh);
   const seoLessonName = [seoZhTitle, detail.title].filter(Boolean).join(" ");
-  return `\u65b0\u6982\u5ff5\u82f1\u8bed\u7b2c${book.bookNo}\u518c\u7b2c${lesson.lessonNo}\u8bfe ${seoLessonName}\uff5c\u8bfe\u6587\u539f\u6587\u3001\u4e2d\u6587\u7ffb\u8bd1\u4e0e\u97f3\u9891 - WordTap`;
+  return lessonSeoTitle(`新概念英语${book.bookNo}第${lesson.lessonNo}课`, seoLessonName);
 
 }
 

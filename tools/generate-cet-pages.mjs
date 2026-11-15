@@ -18,7 +18,7 @@ function lessonPage(group, detail, previous, next) {
   const paragraphs = detail.blocks.map((block) => `<p class="en" lang="en">${escapeHtml(block.text)}</p>`).join("\n");
   const previousLink = previous ? `<a href="../${escapeHtml(previous.id)}/">← 上一份</a>` : `<a href="../">← 返回目录</a>`;
   const nextLink = next ? `<a href="../${escapeHtml(next.id)}/">下一份 →</a>` : `<a href="../">返回目录 →</a>`;
-  const description = `${detail.title}英文试卷正文，支持单词点读查词和全文朗读。`;
+  const description = `${detail.title}英文试卷正文，来源为具有可检索文本层的 ${detail.pageCount} 页真题 PDF。按原文连续阅读，点击生词查看中文释义、音标和发音，也可全文朗读或进入文章跟打练习；扫描件、答案解析和作文模板不混入试题正文。`;
   const body = `<main><p class="meta">${escapeHtml(group.title)} · ${detail.year} 年 ${detail.month} 月 · ${detail.setNo ? `第 ${detail.setNo} 套` : "全套合卷"}</p><h1>${escapeHtml(detail.title)}</h1><p class="intro">从原始真题 PDF 的可检索文本层收录，共 ${detail.pageCount} 页。试题版式已转换为适合点读和朗读的连续文本。</p><article class="reading">${paragraphs}</article><nav class="page-nav" aria-label="真题导航">${previousLink}${nextLink}</nav></main>`;
   return pageShell({
     title: `${detail.title}｜英语四六级真题点读与朗读 - WordTap`,
@@ -40,7 +40,7 @@ function indexPage() {
     return `<section class="collection-card"><h2>${escapeHtml(group.title)}</h2><p>${escapeHtml(group.subtitle)}</p><ol class="lesson-list">${lessons}</ol></section>`;
   }).join("\n");
   const canonicalUrl = `${siteUrl}/cet/`;
-  const description = `英语四级、六级历年真题目录，共收录 ${manifest.totalLessons} 份可检索试卷，支持点读查词和全文朗读。`;
+  const description = `英语四级、六级历年真题目录，共 ${manifest.totalLessons} 份具有可靠文本层的试卷，按考试类别、年份、月份和套次查找。进入试卷阅读英文正文、点击生词查看释义与音标、听发音或全文朗读，也可进入文章跟打；扫描件、答案解析和作文模板不混入正文。`;
   const body = `<main><p class="meta">CET-4 & CET-6 · ${manifest.totalLessons} papers</p><h1>英语四六级真题</h1><p class="intro">收录来源文件中具有可靠文本层的英语四级、六级真题。扫描件、答案解析和作文模板未混入正文。</p>${groupHtml}</main>`;
   return pageShell({ title: "英语四六级历年真题｜CET-4、CET-6 点读与朗读 - WordTap", description, keywords: "英语四级真题,英语六级真题,CET4,CET6,四六级历年真题,英语点读", canonicalUrl, body, structuredData: JSON.stringify({ "@context": "https://schema.org", "@type": "CollectionPage", name: "英语四六级真题", description, url: canonicalUrl }), activeCourse: "cet", depth: 1, toolHref: "../", ogType: "website" });
 }

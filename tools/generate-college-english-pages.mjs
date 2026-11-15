@@ -1,6 +1,7 @@
 import path from "node:path";
 import process from "node:process";
 import { escapeHtml, lessonToolHref, pageShell, xmlEscape } from "./course-page-shared.mjs";
+import { lessonSeoTitle } from "./course-seo.mjs";
 
 export async function generatePages(context) {
   const { readFile, mkdir, writeFile } = context;
@@ -11,8 +12,8 @@ const manifest = JSON.parse(await readFile(path.join(sectionDir, "manifest.json"
 
 function lessonSeo(group, detail) {
   const bookName = `新视野大学英语（第四版）${group.title}`;
-  const title = `${bookName} Unit ${detail.unitNo} Section ${detail.section} ${detail.title}｜课文点读与朗读 - WordTap`;
-  const description = `${bookName} Unit ${detail.unitNo} Section ${detail.section}《${detail.title}》人工全文校对文本，支持英语点读查词、全文朗读和学习链接。`;
+  const title = lessonSeoTitle(`新视野大学英语4版 ${group.title} U${detail.unitNo}${detail.section}`, detail.title);
+  const description = `${bookName} Unit ${detail.unitNo} Section ${detail.section}《${detail.title}》，教材第 ${detail.printedPageStart}–${detail.printedPageEnd} 页。提供已逐篇全文校对的课文，支持点击生词查看释义、音标与发音，以及全文朗读、文章跟打和继续学习。`;
   const keywords = [
     "新视野大学英语",
     "新视野大学英语第四版",
@@ -67,7 +68,7 @@ function lessonPage(group, detail, previous, next) {
 
 function indexPage() {
   const title = "新视野大学英语第四版｜读写教程 1–4 册课文点读 - WordTap";
-  const description = `新视野大学英语（第四版）读写教程 1–4 册目录规定的 72 篇课文，当前 ${manifest.publishedArticleCount} 篇已完成逐篇全文校对。`;
+  const description = `新视野大学英语（第四版）读写教程 1–4 册课文目录，当前 ${manifest.publishedArticleCount}/72 篇已完成逐篇全文校对。按册次、Unit 与 Section 查找 Text A、Text B 和 Stories of China，进入课文阅读英文原文、点词查释义与音标、听发音或练习文章跟打。`;
   const canonicalUrl = `${siteUrl}/college-english/`;
   const groups = manifest.groups.map((group) => {
     const lessons = group.lessons
