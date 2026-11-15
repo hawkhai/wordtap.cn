@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { computed, ref, watch } from "vue";
 import { useReadingInteraction } from "../composables/useReadingInteraction";
+import { isProbablyMobileBrowser } from "../utils/device";
 import { phoneticWordKey } from "../utils/readingPhonetics";
 import type { ReadingDisplayMode, WordPhonetic, Segment } from "../types/app";
 import type { ReadingRun, ReadingSelection, ReadingSentence } from "../utils/readingSentences";
@@ -27,7 +28,7 @@ const emit = defineEmits<{
   select: [];
 }>();
 const reader = ref<HTMLElement | null>(null);
-const touchRange = window.matchMedia("(any-pointer: coarse)").matches;
+const touchRange = ref(navigator.maxTouchPoints > 0 || isProbablyMobileBrowser() || window.matchMedia("(any-pointer: coarse)").matches);
 const canChooseRange = computed(() => !props.disabled && props.runs.some(run => run.sentence));
 const choosingRange = ref(false);
 const rangeStart = ref<ReadingSentence | null>(null);
@@ -76,7 +77,7 @@ const { menu, selection, position, pointerDown, clickCapture, read, copy } = use
   snapshot: () => props.snapshot,
   playingId: () => props.playingSentenceId,
   paused: () => props.paused,
-  floatingMenu: !touchRange,
+  floatingMenu: () => !touchRange.value,
   choosingRange: () => choosingRange.value,
   cancelRange,
   read: value => emit("selection", value), notice: message => emit("notice", message), select: () => emit("select"),
@@ -95,7 +96,7 @@ const positionedRuns = computed(() => {
 
 <template>
   <div ref="reader" tabindex="-1" class="study-reader overflow-auto whitespace-pre-wrap text-2xl leading-[2.4rem]" :class="{ 'study-reader-phonetics': displayMode && displayMode !== 'original', 'study-reader-choosing-range': choosingRange }" lang="en" data-testid="study-text"
-    @pointerdown="pointerDown" @click.capture="handleClick">
+    @pointerdown="pointerDown" @touchstart.passive="touchRange = true" @click.capture="handleClick">
     <span v-for="run in positionedRuns" :key="run.id" :class="{ 'study-sentence': run.sentence, 'study-sentence-playing': run.sentence?.id === playingSentenceId, 'study-sentence-range-start': rangeStart && run.sentence?.id === rangeStart.id }" :data-sentence-id="run.sentence?.id"><ReadingSegment
       v-for="{ segment, start } in run.positionedSegments" :source-start="start"
       :display-mode="displayMode" :phonetic="phonetics?.[phoneticWordKey(segment.text)]"

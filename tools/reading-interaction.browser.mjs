@@ -15,12 +15,19 @@ const article = Array.from({ length: 28 }, (_, index) => `Paragraph ${index + 1}
 try {
   for (const width of (process.env.WORDTAP_TEST_WIDTHS?.split(',').map(Number) || [1440, 1024, 390, 360])) for (const theme of ['light', 'dark']) {
     const hasTouch = width <= 1024;
+    const hideCoarsePointer = width === 1024;
+    const hideTouchPoints = hideCoarsePointer && theme === 'dark';
     const context = await browser.newContext({ viewport: { width, height: width === 1440 ? 1000 : 844 },
       isMobile: width < 768, hasTouch, deviceScaleFactor: 1, colorScheme: theme });
     const page = await context.newPage();
     const errors = [];
     page.on('pageerror', error => errors.push(error.message));
-    await page.addInitScript(() => {
+    await page.addInitScript(({ hideCoarsePointer, hideTouchPoints }) => {
+      if (hideCoarsePointer) {
+        const matchMedia = window.matchMedia.bind(window);
+        window.matchMedia = query => matchMedia(query === '(any-pointer: coarse)' ? '(width: 0px)' : query);
+      }
+      if (hideTouchPoints) Object.defineProperty(navigator, 'maxTouchPoints', { value: 0 });
       window.__spoken = [];
       window.__copied = '';
       window.__copyFails = false;
@@ -33,7 +40,7 @@ try {
         if (window.__copyFails) throw new Error('simulated clipboard denial');
         window.__copied = text;
       } } });
-    });
+    }, { hideCoarsePointer, hideTouchPoints });
     await page.route('http://127.0.0.1:18765/**', route => route.abort());
     await page.route('https://hm.baidu.com/**', route => route.abort());
     await page.goto(base, { waitUntil: 'domcontentloaded' });
@@ -70,6 +77,10 @@ try {
     };
 
     if (hasTouch) {
+      if (hideTouchPoints) {
+        assert.equal(await rangeButton.count(), 0);
+        await reader.dispatchEvent('touchstart');
+      }
       assert.ok((await rangeButton.boundingBox()).height >= 44);
       await setSelection(1, 9);
       await page.waitForTimeout(250);
@@ -266,6 +277,7 @@ try {
     assert.deepEqual(errors, []);
     const selectionChecks = hasTouch ? ['native-selection', 'touch-range', 'reverse-cross-paragraph', 'cancel-range', 'no-sentences-disabled'] :
       ['exact-copy', 'reverse-cross-paragraph', 'clipboard-failure', 'phonetics-original-offsets', 'menu-bounds', 'keyboard-menu'];
+    if (hideCoarsePointer) selectionChecks.push(hideTouchPoints ? 'touch-event-fallback' : 'touch-points-fallback');
     results.push({ width, theme, checks: [...selectionChecks,
       'selection-once', 'actual-sound-bold', 'no-reflow', 'ipa-regular', 'fulltext-follow', 'manual-scroll',
       'pause-resume', 'selection-suspends-follow', 'reduced-motion', 'stop-clears', 'no-overflow', 'ipa-selection-rejected',

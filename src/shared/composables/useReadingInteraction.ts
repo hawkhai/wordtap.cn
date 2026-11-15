@@ -7,7 +7,7 @@ export function useReadingInteraction(reader: Ref<HTMLElement | null>, options: 
   snapshot: () => string;
   playingId: () => string;
   paused: () => boolean;
-  floatingMenu: boolean;
+  floatingMenu: () => boolean;
   choosingRange: () => boolean;
   cancelRange: () => void;
   read: (selection: ReadingSelection) => void;
@@ -55,7 +55,7 @@ export function useReadingInteraction(reader: Ref<HTMLElement | null>, options: 
     stop();
     options.select();
     selection.value = selected;
-    if (!options.floatingMenu) return;
+    if (!options.floatingMenu()) return;
     // Use the release end of a forward or reverse selection for the menu anchor.
     const focus = document.createRange();
     if (native?.focusNode) {
@@ -107,7 +107,7 @@ export function useReadingInteraction(reader: Ref<HTMLElement | null>, options: 
       options.cancelRange();
       return;
     }
-    if (!options.floatingMenu || !selection.value) return;
+    if (!options.floatingMenu() || !selection.value) return;
     event.preventDefault();
     const hadFocus = menu.value?.contains(document.activeElement);
     window.getSelection()?.removeAllRanges();
