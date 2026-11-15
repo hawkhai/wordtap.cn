@@ -73,7 +73,7 @@ function handleClick(event: MouseEvent) {
   });
 }
 
-const { menu, selection, position, pointerDown, clickCapture, read, copy } = useReadingInteraction(reader, {
+const { menu, selection, position, pointerDown, holdMenu, clickCapture, read, copy } = useReadingInteraction(reader, {
   snapshot: () => props.snapshot,
   playingId: () => props.playingSentenceId,
   paused: () => props.paused,
@@ -84,12 +84,17 @@ const { menu, selection, position, pointerDown, clickCapture, read, copy } = use
 });
 watch([() => props.snapshot, canChooseRange], cancelRange);
 defineExpose({ touchRange, canChooseRange, choosingRange, rangeNotice, toggleRange, cancelRange });
+
+function setMenu(element: unknown) {
+  if (element === null || element instanceof HTMLElement) menu.value = element;
+}
+
 const positionedRuns = computed(() => {
   let offset = 0;
   return props.runs.map(run => ({ ...run, positionedSegments: run.segments.map(segment => {
     const start = offset;
     offset += segment.text.length + (segment.type === "word" ? segment.trailingText?.length ?? 0 : 0);
-    return { segment, start };
+    return { segment, start, end: offset };
   }) }));
 });
 </script>
@@ -97,12 +102,21 @@ const positionedRuns = computed(() => {
 <template>
   <div ref="reader" tabindex="-1" class="study-reader overflow-auto whitespace-pre-wrap text-2xl leading-[2.4rem]" :class="{ 'study-reader-phonetics': displayMode && displayMode !== 'original', 'study-reader-choosing-range': choosingRange }" lang="en" data-testid="study-text"
     @pointerdown="pointerDown" @touchstart.passive="touchRange = true" @click.capture="handleClick">
-    <span v-for="run in positionedRuns" :key="run.id" :class="{ 'study-sentence': run.sentence, 'study-sentence-playing': run.sentence?.id === playingSentenceId, 'study-sentence-range-start': rangeStart && run.sentence?.id === rangeStart.id }" :data-sentence-id="run.sentence?.id"><ReadingSegment
-      v-for="{ segment, start } in run.positionedSegments" :source-start="start"
-      :display-mode="displayMode" :phonetic="phonetics?.[phoneticWordKey(segment.text)]"
-      :key="segment.id" :segment="segment" :selected-id="selectedId" :learned-class="learnedClass" :skip-word-tab="choosingRange"
-      @word="(word, event) => $emit('word', word, event)"
-    /><SentenceReadButton
+    <span v-for="run in positionedRuns" :key="run.id" :class="{ 'study-sentence': run.sentence, 'study-sentence-playing': run.sentence?.id === playingSentenceId, 'study-sentence-range-start': rangeStart && run.sentence?.id === rangeStart.id }" :data-sentence-id="run.sentence?.id"><template v-for="{ segment, start, end } in run.positionedSegments" :key="segment.id"><ReadingSegment
+        :source-start="start" :display-mode="displayMode" :phonetic="phonetics?.[phoneticWordKey(segment.text)]"
+        :segment="segment" :selected-id="selectedId" :learned-class="learnedClass" :skip-word-tab="choosingRange"
+        @word="(word, event) => $emit('word', word, event)"
+      /><Teleport v-if="selection && start < selection.end && selection.end <= end" to="body" :disabled="touchRange">
+        <span :ref="setMenu" class="study-selection-menu"
+          :class="touchRange ? 'study-selection-menu-inline' : 'study-selection-menu-floating'"
+          role="group" aria-label="选中文字操作" lang="zh-CN"
+          :data-testid="touchRange ? 'reading-selection-inline' : 'reading-selection-menu'"
+          :style="touchRange ? undefined : { left: `${position.left}px`, top: `${position.top}px` }"
+          @pointerdown.stop.prevent="holdMenu" @mousedown.prevent>
+          <button type="button" class="study-button" :disabled="disabled" title="朗读选区所在的完整句子（一次）" @click="read">朗读</button>
+          <button type="button" class="study-button" @click="copy">复制</button>
+        </span>
+      </Teleport></template><SentenceReadButton
       v-if="run.sentence"
       :active="run.sentence.id === activeSentenceId"
       :preparing="run.sentence.id === activeSentenceId && preparing"
@@ -111,11 +125,4 @@ const positionedRuns = computed(() => {
       @play="$emit('sentence', run.sentence.id)"
     /></span>
   </div>
-  <Teleport to="body">
-    <div v-if="!touchRange && selection" ref="menu" class="study-selection-menu" role="toolbar" aria-label="选中文字操作" data-testid="reading-selection-menu"
-      :style="{ left: `${position.left}px`, top: `${position.top}px` }" @mousedown.prevent>
-      <button type="button" class="study-button" :disabled="disabled" title="朗读选区所在的完整句子（一次）" @click="read">朗读</button>
-      <button type="button" class="study-button" @click="copy">复制</button>
-    </div>
-  </Teleport>
 </template>

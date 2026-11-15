@@ -19,6 +19,7 @@ export function useReadingInteraction(reader: Ref<HTMLElement | null>, options: 
   const position = ref({ left: 8, top: 8 });
   let anchor: DOMRect | null = null;
   let dragging = false;
+  let pressingMenu = false;
   let suppressClickUntil = 0;
   let selectionTimer: ReturnType<typeof setTimeout> | undefined;
   let followTimer: ReturnType<typeof setTimeout> | undefined;
@@ -41,12 +42,13 @@ export function useReadingInteraction(reader: Ref<HTMLElement | null>, options: 
   };
   const close = () => {
     clearTimeout(selectionTimer);
+    pressingMenu = false;
     selection.value = null;
     anchor = null;
     scheduleFollow();
   };
   const captureSelection = async () => {
-    if (disposed || dragging || options.choosingRange() || !reader.value) return;
+    if (disposed || dragging || pressingMenu || options.choosingRange() || !reader.value) return;
     const native = window.getSelection();
     if (menu.value?.contains(document.activeElement)) return;
     const range = native?.rangeCount ? native.getRangeAt(0) : null;
@@ -54,7 +56,9 @@ export function useReadingInteraction(reader: Ref<HTMLElement | null>, options: 
     if (!selected || !range) { close(); return; }
     stop();
     options.select();
-    selection.value = selected;
+    if (selection.value?.snapshot !== selected.snapshot || selection.value.start !== selected.start || selection.value.end !== selected.end) {
+      selection.value = selected;
+    }
     if (!options.floatingMenu()) return;
     // Use the release end of a forward or reverse selection for the menu anchor.
     const focus = document.createRange();
@@ -80,7 +84,16 @@ export function useReadingInteraction(reader: Ref<HTMLElement | null>, options: 
     clearTimeout(selectionTimer);
     selection.value = null;
   };
+  const holdMenu = () => {
+    clearTimeout(selectionTimer);
+    pressingMenu = true;
+  };
   const pointerUp = () => {
+    if (pressingMenu) {
+      pressingMenu = false;
+      onSelectionChange();
+      return;
+    }
     if (!dragging) return;
     dragging = false;
     const native = window.getSelection();
@@ -92,6 +105,7 @@ export function useReadingInteraction(reader: Ref<HTMLElement | null>, options: 
     scheduleFollow();
   };
   const clickCapture = (event: MouseEvent) => {
+    if (menu.value?.contains(event.target as Node)) return;
     if (event.detail && performance.now() < suppressClickUntil) {
       event.preventDefault();
       event.stopImmediatePropagation();
@@ -107,7 +121,7 @@ export function useReadingInteraction(reader: Ref<HTMLElement | null>, options: 
       options.cancelRange();
       return;
     }
-    if (!options.floatingMenu() || !selection.value) return;
+    if (!selection.value) return;
     event.preventDefault();
     const hadFocus = menu.value?.contains(document.activeElement);
     window.getSelection()?.removeAllRanges();
@@ -117,7 +131,7 @@ export function useReadingInteraction(reader: Ref<HTMLElement | null>, options: 
   const scroll = () => {
     if (selection.value) {
       // Re-anchor on scroll without stealing focus or losing the native selection handles.
-      if (!menu.value?.contains(document.activeElement)) onSelectionChange();
+      if (options.floatingMenu() && !menu.value?.contains(document.activeElement)) onSelectionChange();
       return;
     }
     scheduleFollow();
@@ -183,5 +197,5 @@ export function useReadingInteraction(reader: Ref<HTMLElement | null>, options: 
     window.visualViewport?.removeEventListener("resize", resize);
     window.visualViewport?.removeEventListener("scroll", resize);
   });
-  return { menu, selection, position, pointerDown, clickCapture, read, copy };
+  return { menu, selection, position, pointerDown, holdMenu, clickCapture, read, copy };
 }
