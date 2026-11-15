@@ -7,6 +7,9 @@ export function useReadingInteraction(reader: Ref<HTMLElement | null>, options: 
   snapshot: () => string;
   playingId: () => string;
   paused: () => boolean;
+  floatingMenu: boolean;
+  choosingRange: () => boolean;
+  cancelRange: () => void;
   read: (selection: ReadingSelection) => void;
   notice: (message: string) => void;
   select: () => void;
@@ -25,7 +28,7 @@ export function useReadingInteraction(reader: Ref<HTMLElement | null>, options: 
   const stop = () => { stopAnimation?.(); stopAnimation = undefined; clearTimeout(followTimer); };
   const follow = () => {
     stop();
-    if (dragging || selection.value || options.paused() || !options.playingId() || !reader.value) return;
+    if (dragging || selection.value || options.choosingRange() || options.paused() || !options.playingId() || !reader.value) return;
     const sentence = Array.from(reader.value.querySelectorAll<HTMLElement>("[data-sentence-id]"))
       .find(element => element.dataset.sentenceId === options.playingId());
     if (sentence) stopAnimation = followReadingSentence(reader.value, sentence);
@@ -43,7 +46,7 @@ export function useReadingInteraction(reader: Ref<HTMLElement | null>, options: 
     scheduleFollow();
   };
   const captureSelection = async () => {
-    if (disposed || dragging || !reader.value) return;
+    if (disposed || dragging || options.choosingRange() || !reader.value) return;
     const native = window.getSelection();
     if (menu.value?.contains(document.activeElement)) return;
     const range = native?.rangeCount ? native.getRangeAt(0) : null;
@@ -52,6 +55,7 @@ export function useReadingInteraction(reader: Ref<HTMLElement | null>, options: 
     stop();
     options.select();
     selection.value = selected;
+    if (!options.floatingMenu) return;
     // Use the release end of a forward or reverse selection for the menu anchor.
     const focus = document.createRange();
     if (native?.focusNode) {
@@ -98,7 +102,12 @@ export function useReadingInteraction(reader: Ref<HTMLElement | null>, options: 
     close();
   };
   const keydown = (event: KeyboardEvent) => {
-    if (event.key !== "Escape" || !selection.value) return;
+    if (event.key !== "Escape") return;
+    if (options.choosingRange()) {
+      options.cancelRange();
+      return;
+    }
+    if (!options.floatingMenu || !selection.value) return;
     event.preventDefault();
     const hadFocus = menu.value?.contains(document.activeElement);
     window.getSelection()?.removeAllRanges();
@@ -141,6 +150,7 @@ export function useReadingInteraction(reader: Ref<HTMLElement | null>, options: 
   };
   watch([options.playingId, options.paused], () => { stop(); void nextTick().then(() => { if (!disposed) follow(); }); });
   watch(options.snapshot, () => { close(); stop(); });
+  watch(options.choosingRange, () => { stop(); close(); });
   onMounted(() => {
     document.addEventListener("selectionchange", onSelectionChange);
     document.addEventListener("pointerup", pointerUp);

@@ -1,22 +1,22 @@
-// Run against a local preview. WORDTAP_PLAYWRIGHT_MODULE may point to an existing
+// Run against a local server. WORDTAP_PLAYWRIGHT_MODULE may point to an existing
 // Playwright installation; no browser/test dependency is added to the application.
 import assert from 'node:assert/strict';
 import fs from 'node:fs/promises';
 import { createRequire } from 'node:module';
 import path from 'node:path';
-import { fileURLToPath, pathToFileURL } from 'node:url';
 
 const { chromium } = createRequire(import.meta.url)(process.env.WORDTAP_PLAYWRIGHT_MODULE || 'playwright');
 const base = process.env.WORDTAP_TEST_URL || 'http://127.0.0.1:5174';
-const output = pathToFileURL(path.resolve(process.env.WORDTAP_TEST_OUTPUT || 'tmp/reading-follow') + path.sep);
+const output = process.env.WORDTAP_TEST_OUTPUT || path.resolve('tmp/reading-follow');
 await fs.mkdir(output, { recursive: true });
 const browser = await chromium.launch({ headless: true, channel: 'chrome' });
 const results = [];
 const article = Array.from({ length: 28 }, (_, index) => `Paragraph ${index + 1} begins here. Another sentence follows here.`).join('\n\n');
 try {
-  for (const width of (process.env.WORDTAP_TEST_WIDTHS?.split(',').map(Number) || [1440, 390, 360])) for (const theme of ['light', 'dark']) {
+  for (const width of (process.env.WORDTAP_TEST_WIDTHS?.split(',').map(Number) || [1440, 1024, 390, 360])) for (const theme of ['light', 'dark']) {
+    const hasTouch = width <= 1024;
     const context = await browser.newContext({ viewport: { width, height: width === 1440 ? 1000 : 844 },
-      isMobile: width < 768, hasTouch: width < 768, deviceScaleFactor: 1, colorScheme: theme });
+      isMobile: width < 768, hasTouch, deviceScaleFactor: 1, colorScheme: theme });
     const page = await context.newPage();
     const errors = [];
     page.on('pageerror', error => errors.push(error.message));
@@ -35,13 +35,15 @@ try {
       } } });
     });
     await page.route('http://127.0.0.1:18765/**', route => route.abort());
-    await page.goto(base);
+    await page.route('https://hm.baidu.com/**', route => route.abort());
+    await page.goto(base, { waitUntil: 'domcontentloaded' });
+    const reader = page.locator('[data-testid="study-text"]');
+    await reader.locator('[data-sentence-id]').first().waitFor();
     await page.locator('textarea').fill(article);
     await page.waitForFunction(() => document.querySelectorAll('[data-sentence-id]').length === 56);
-    const reader = page.locator('[data-testid="study-text"]');
     await reader.scrollIntoViewIfNeeded();
     const menu = page.locator('[data-testid="reading-selection-menu"]');
-    const select = async (start, end, reverse = false) => {
+    const setSelection = async (start, end, reverse = false) => {
       await page.evaluate(({ start, end, reverse }) => {
         const tokens = Array.from(document.querySelectorAll('[data-source-start]')).filter(element => element.firstChild?.nodeType === 3);
         const point = offset => {
@@ -53,21 +55,57 @@ try {
         const a = point(start), b = point(end);
         getSelection().setBaseAndExtent(...(reverse ? b : a), ...(reverse ? a : b));
       }, { start, end, reverse });
+    };
+    const select = async (start, end, reverse = false) => {
+      await setSelection(start, end, reverse);
       await menu.waitFor({ state: 'visible' });
     };
-    // Exact copy survives reverse/cross-paragraph selections and excludes IPA.
-    for (const [start, end, reverse] of [[1, 9, false], [12, 83, true]]) {
-      await select(start, end, reverse);
+    const rangeButton = page.getByRole('button', { name: '选段朗读', exact: true });
+    const cancelRange = page.getByRole('button', { name: '取消选段', exact: true });
+    const tapSentence = index => reader.locator('[data-sentence-id]').nth(index).locator('.study-word').first().tap();
+    const startRange = async index => {
+      await rangeButton.tap();
+      await tapSentence(index);
+      await page.locator('.study-sentence-range-start').waitFor();
+    };
+
+    if (hasTouch) {
+      assert.ok((await rangeButton.boundingBox()).height >= 44);
+      await setSelection(1, 9);
+      await page.waitForTimeout(250);
+      assert.equal(await menu.count(), 0);
+      assert.equal(await page.evaluate(() => getSelection().toString()), article.slice(1, 9));
+      await startRange(1);
+      assert.equal(await page.evaluate(() => getSelection().isCollapsed), true);
+      await cancelRange.tap();
+      assert.equal(await page.locator('.study-sentence-range-start').count(), 0);
+      assert.equal(await page.locator('.study-word-selected').count(), 0);
+      assert.equal(await page.evaluate(() => window.__spoken.length), 0);
+      await startRange(2);
+      await tapSentence(0);
+      for (const [index, sentence] of ['Paragraph 1 begins here.', 'Another sentence follows here.', 'Paragraph 2 begins here.'].entries()) {
+        await page.waitForFunction(count => window.__spoken.length === count, index + 1);
+        assert.equal(await page.evaluate(() => window.__spoken.at(-1).text), sentence);
+        await page.evaluate(() => { window.__spoken.at(-1).onstart(); window.__spoken.at(-1).onend(); });
+      }
+      await page.waitForFunction(() => document.querySelector('.study-fulltext-button').textContent.trim() === '全文朗读');
+      await page.evaluate(() => { window.__spoken = []; });
+    } else {
+      assert.equal(await rangeButton.count(), 0);
+      // Exact copy survives reverse/cross-paragraph selections and excludes IPA.
+      for (const [start, end, reverse] of [[1, 9, false], [12, 83, true]]) {
+        await select(start, end, reverse);
+        await menu.getByRole('button', { name: '复制', exact: true }).click();
+        assert.equal(await page.evaluate(() => window.__copied), article.slice(start, end));
+      }
+      await select(1, 9);
+      await page.evaluate(() => { window.__copyFails = true; });
       await menu.getByRole('button', { name: '复制', exact: true }).click();
-      assert.equal(await page.evaluate(() => window.__copied), article.slice(start, end));
+      assert.equal(await page.evaluate(() => getSelection().toString()), article.slice(1, 9));
+      await page.keyboard.press('Escape');
+      await menu.waitFor({ state: 'hidden' });
+      await page.evaluate(() => { window.__copyFails = false; });
     }
-    await select(1, 9);
-    await page.evaluate(() => { window.__copyFails = true; });
-    await menu.getByRole('button', { name: '复制', exact: true }).click();
-    assert.equal(await page.evaluate(() => getSelection().toString()), article.slice(1, 9));
-    await page.keyboard.press('Escape');
-    await menu.waitFor({ state: 'hidden' });
-    await page.evaluate(() => { window.__copyFails = false; });
 
     // A real desktop mouse drag must not invoke the button's word click handler.
     if (width === 1440) {
@@ -96,20 +134,24 @@ try {
     });
     await page.waitForTimeout(250);
     assert.equal(await menu.count(), 0, 'IPA alone is not an original-text selection');
-    await select(1, 9);
-    const menuBox = await menu.boundingBox();
-    assert.ok(menuBox.x >= 0 && menuBox.x + menuBox.width <= width, 'menu fits viewport');
-    await menu.getByRole('button', { name: '复制', exact: true }).click();
-    assert.equal(await page.evaluate(() => window.__copied), article.slice(1, 9));
-    await select(1, 9);
-    await menu.getByRole('button', { name: '复制', exact: true }).focus();
-    await page.keyboard.press('Enter');
-    await menu.waitFor({ state: 'hidden' });
-    assert.equal(await page.evaluate(() => document.activeElement.dataset.testid), 'study-text', 'keyboard focus returns to reader');
+    if (!hasTouch) {
+      await select(1, 9);
+      const menuBox = await menu.boundingBox();
+      assert.ok(menuBox.x >= 0 && menuBox.x + menuBox.width <= width, 'menu fits viewport');
+      await menu.getByRole('button', { name: '复制', exact: true }).click();
+      assert.equal(await page.evaluate(() => window.__copied), article.slice(1, 9));
+      await select(1, 9);
+      await menu.getByRole('button', { name: '复制', exact: true }).focus();
+      await page.keyboard.press('Enter');
+      await menu.waitFor({ state: 'hidden' });
+      assert.equal(await page.evaluate(() => document.activeElement.dataset.testid), 'study-text', 'keyboard focus returns to reader');
+    }
 
-    await select(1, 9);
-    await page.screenshot({ path: fileURLToPath(new URL(`${width}-${theme}-selection.png`, output)) });
-    await menu.getByRole('button', { name: '朗读', exact: true }).click();
+    if (hasTouch) await startRange(0);
+    else await select(1, 9);
+    await page.screenshot({ path: path.join(output, `${width}-${theme}-selection.png`) });
+    if (hasTouch) await tapSentence(0);
+    else await menu.getByRole('button', { name: '朗读', exact: true }).click();
     await page.waitForFunction(() => window.__spoken.length === 1);
     assert.equal(await page.evaluate(() => window.__spoken[0].text), 'Paragraph 1 begins here.');
     assert.equal(await page.locator('.study-sentence-playing').count(), 0, 'preparation does not bold');
@@ -121,7 +163,7 @@ try {
     assert.equal(await page.locator('.study-sentence-playing').count(), 1);
     assert.equal(await page.locator('.study-sentence-playing .study-word-ipa').first().evaluate(element => getComputedStyle(element).webkitTextStrokeWidth), '0px');
     await page.mouse.move(0, 0);
-    await page.screenshot({ path: fileURLToPath(new URL(`${width}-${theme}-playing.png`, output)) });
+    await page.screenshot({ path: path.join(output, `${width}-${theme}-playing.png`) });
     await page.evaluate(() => window.__spoken.at(-1).onend());
     await page.waitForFunction(() => document.querySelector('.study-fulltext-button').textContent.trim() === '全文朗读');
     assert.equal(await page.evaluate(() => window.__spoken.length), 1, 'selection plays once');
@@ -157,7 +199,9 @@ try {
     }))));
 
     // Holding a selection prevents follow from fighting the user.
-    await select(1, 9); await page.evaluate(() => scrollTo(0, 0)); await page.waitForTimeout(600);
+    if (hasTouch) await startRange(0);
+    else await select(1, 9);
+    await page.evaluate(() => scrollTo(0, 0)); await page.waitForTimeout(600);
     assert.equal(await page.evaluate(() => scrollY), 0);
     await page.keyboard.press('Escape'); await page.waitForTimeout(650);
     assert.equal(await visible(), true);
@@ -171,8 +215,14 @@ try {
     await reader.evaluate(element => { element.style.maxHeight = '240px'; element.style.minHeight = '0'; });
     await reader.scrollIntoViewIfNeeded();
     const lastParagraph = article.lastIndexOf('Paragraph 28');
-    await select(lastParagraph + 1, lastParagraph + 9);
-    await menu.getByRole('button', { name: '朗读', exact: true }).click();
+    if (hasTouch) {
+      await startRange(54);
+      await tapSentence(54);
+    } else {
+      await select(lastParagraph + 1, lastParagraph + 9);
+      await menu.getByRole('button', { name: '朗读', exact: true }).click();
+    }
+    await page.waitForFunction(() => window.__spoken.at(-1).text.startsWith('Paragraph 28'));
     await page.evaluate(() => window.__spoken.at(-1).onstart());
     await page.waitForTimeout(650);
     assert.equal(await reader.evaluate(element => {
@@ -182,9 +232,11 @@ try {
     }), true, 'nested scroll keeps the sentence inside the reader');
     await page.evaluate(() => window.__spoken.at(-1).onend());
     await page.waitForFunction(() => document.querySelector('.study-fulltext-button').textContent.trim() === '全文朗读');
-    await select(lastParagraph + 1, lastParagraph + 9);
+    if (hasTouch) await startRange(54);
+    else await select(lastParagraph + 1, lastParagraph + 9);
     await page.locator('textarea').fill('Changed text.');
     await menu.waitFor({ state: 'hidden' });
+    await cancelRange.waitFor({ state: 'hidden' });
     assert.equal(await page.locator('.study-sentence-playing').count(), 0);
     await page.locator('textarea').fill(`Long ${'word '.repeat(400)}sentence. End.`);
     await page.waitForFunction(() => document.querySelectorAll('[data-sentence-id]').length === 2);
@@ -207,15 +259,21 @@ try {
     await page.getByRole('button', { name: '停止', exact: true }).evaluate(element => element.click());
     const overflow = await page.evaluate(() => document.documentElement.scrollWidth > document.documentElement.clientWidth);
     assert.equal(overflow, false, 'no horizontal page overflow');
+    if (hasTouch) {
+      await page.locator('textarea').fill('...');
+      await page.waitForFunction(() => !document.querySelector('[data-sentence-id]') && document.querySelector('.study-range-button')?.disabled);
+    }
     assert.deepEqual(errors, []);
-    results.push({ width, theme, checks: ['exact-copy', 'reverse-cross-paragraph', 'clipboard-failure', 'phonetics-original-offsets',
-      'menu-bounds', 'selection-once', 'actual-sound-bold', 'no-reflow', 'ipa-regular', 'fulltext-follow', 'manual-scroll',
+    const selectionChecks = hasTouch ? ['native-selection', 'touch-range', 'reverse-cross-paragraph', 'cancel-range', 'no-sentences-disabled'] :
+      ['exact-copy', 'reverse-cross-paragraph', 'clipboard-failure', 'phonetics-original-offsets', 'menu-bounds', 'keyboard-menu'];
+    results.push({ width, theme, checks: [...selectionChecks,
+      'selection-once', 'actual-sound-bold', 'no-reflow', 'ipa-regular', 'fulltext-follow', 'manual-scroll',
       'pause-resume', 'selection-suspends-follow', 'reduced-motion', 'stop-clears', 'no-overflow', 'ipa-selection-rejected',
-      'keyboard-menu', 'nested-scroll', 'edit-closes-menu', 'long-sentence'], errors });
+      'nested-scroll', 'edit-clears-selection', 'long-sentence'], errors });
     console.log(`PASS ${width}px ${theme}`);
     await context.close();
   }
-  await fs.writeFile(new URL('browser-results.json', output), JSON.stringify({ simulatedSpeech: true, physicalPhone: false, results }, null, 2));
+  await fs.writeFile(path.join(output, 'browser-results.json'), JSON.stringify({ simulatedSpeech: true, physicalPhone: false, results }, null, 2));
 } finally {
   await browser.close();
 }

@@ -50,6 +50,7 @@ const cetUrl = computed(() => appSectionUrl("cet/"));
 const kaoyanEnglishUrl = computed(() => appSectionUrl("kaoyan-english/"));
 const examUrl = computed(() => appSectionUrl("exam/"));
 const collegeEnglishAvailable = ref(false);
+const readingText = ref<InstanceType<typeof ReadingText> | null>(null);
 
 onMounted(() => {
   void loadCollegeEnglishManifest()
@@ -502,7 +503,7 @@ function handleCourseLessonSelect(selection: CourseLessonSelection): void {
                 <template v-else>{{ wordCountLabel }}</template>
               </span>
             </div>
-            <ReadingDisplayControls :show-modes="!typingActive" :speech-notice="fullTextSpeechNotice"
+            <ReadingDisplayControls :show-modes="!typingActive" :speech-notice="readingText?.rangeNotice || fullTextSpeechNotice"
               v-model="readingDisplayMode" :counts="phoneticCounts" @retry="retryPhonetics"
             >
               <template v-if="typingActive" #settings>
@@ -517,10 +518,14 @@ function handleCourseLessonSelect(selection: CourseLessonSelection): void {
                     class="study-button study-button-primary study-fulltext-button"
                     :disabled="fullTextSpeechDisabled && !isFullTextSpeaking"
                     :title="fullTextSpeechDisabled && !isFullTextSpeaking ? copy.status.fullTextSpeechUnavailable : fullTextSpeechWaiting ? '点击可暂停准备中的朗读' : undefined"
-                    @click="readFullText"
+                    @click="readingText?.cancelRange(); readFullText()"
                   >
                     <span v-if="fullTextSpeechWaiting" class="study-speech-spinner" aria-hidden="true"></span>
                     {{ fullTextSpeechLabel }}
+                  </button>
+                  <button v-if="readingText?.touchRange" type="button" class="study-button study-range-button" :disabled="!readingText.canChooseRange"
+                    @click="readingText.toggleRange()">
+                    {{ readingText.choosingRange ? '取消选段' : '选段朗读' }}
                   </button>
                   <button
                     type="button"
@@ -548,7 +553,7 @@ function handleCourseLessonSelect(selection: CourseLessonSelection): void {
               @speak="speakArticleTypingSentence"
               @word="studyWord"
             />
-            <ReadingText v-else
+            <ReadingText v-else ref="readingText"
               :runs="readingRuns" :snapshot="readingSnapshot" :playing-sentence-id="playingSentenceId" :paused="isFullTextPaused" :display-mode="readingDisplayMode" :phonetics="phonetics"
               :selected-id="selectedSegmentId"
               :learned-class="learnedClassForWord"

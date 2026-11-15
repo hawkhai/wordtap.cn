@@ -3231,7 +3231,7 @@ async function readSelection(selection: ReadingSelection): Promise<void> {
   hideWordPopover();
   selectedSegmentId.value = "";
   currentWord.value = "选段朗读";
-  meaning.value = "朗读选区所在的完整句子（一次）。";
+  meaning.value = "朗读所选的完整句子（一遍）。";
   status.value = "正在准备选段朗读，准备好后会自动播放。";
   const playbackControl = new SpeechPlaybackControl();
   if (isGatewayRunning.value) speakFullTextWithGateway(text, "选段朗读", playbackControl, queue, 1);

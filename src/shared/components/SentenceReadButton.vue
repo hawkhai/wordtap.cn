@@ -1,5 +1,5 @@
 <script setup lang="ts">
-defineProps<{ active: boolean; preparing: boolean; disabled: boolean; text: string }>();
+defineProps<{ active: boolean; preparing: boolean; disabled: boolean; text: string; rangeAction?: string }>();
 defineEmits<{ play: [] }>();
 </script>
 
@@ -9,9 +9,9 @@ defineEmits<{ play: [] }>();
     class="study-sentence-button"
     :class="{ 'study-sentence-button-active': active, 'study-sentence-button-preparing': active && preparing }"
     :disabled="disabled"
-    :aria-label="`${active ? (preparing ? '正在准备朗读本句，点击停止' : '停止朗读本句') : '朗读本句'}：${text}`"
-    :title="disabled ? '当前设备暂时无法朗读本句' : active ? (preparing ? '正在准备，准备好后自动播放，点击可停止' : '停止朗读本句') : '朗读本句（一次）'"
-    :aria-pressed="active"
+    :aria-label="`${rangeAction || (active ? (preparing ? '正在准备朗读本句，点击停止' : '停止朗读本句') : '朗读本句')}：${text}`"
+    :title="rangeAction || (disabled ? '当前设备暂时无法朗读本句' : active ? (preparing ? '正在准备，准备好后自动播放，点击可停止' : '停止朗读本句') : '朗读本句（一次）')"
+    :aria-pressed="rangeAction ? undefined : active"
     @click.stop="$emit('play')"
   >
     <svg width="12" height="12" viewBox="0 0 20 20" fill="none" aria-hidden="true">

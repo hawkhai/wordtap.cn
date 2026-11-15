@@ -109,6 +109,10 @@ body { background: var(--wt-background); color: var(--wt-text); }
 /* Paint-only emphasis keeps Itim's advances, line breaks and IPA weight stable. */
 .study-sentence-playing .study-source-text:not(.vocabulary-source-ipa) { -webkit-text-stroke: .022em currentColor; }
 .study-reader .study-word { user-select: text; -webkit-user-select: text; }
+.study-reader-choosing-range, .study-reader-choosing-range .study-word { user-select: none; -webkit-user-select: none; }
+.study-reader-choosing-range { touch-action: manipulation; }
+.study-reader-choosing-range .study-sentence { cursor: pointer; }
+.study-sentence-range-start { background: var(--wt-primary-soft); }
 .study-selection-menu { position: fixed; z-index: 100; display: flex; gap: 4px; padding: 4px; border: 1px solid var(--wt-border); border-radius: 8px; background: var(--wt-surface); color: var(--wt-text); box-shadow: 0 4px 16px rgb(29 33 41 / 12%); }
 .study-selection-menu .study-button { min-height: var(--wt-control-height); margin: 0; font-size: var(--wt-text-ui); line-height: 20px; padding: 5px 12px; border: 0; border-radius: 4px; background: transparent; color: var(--wt-text); cursor: pointer; }
 .study-selection-menu .study-button:hover:not(:disabled), .study-selection-menu .study-button:active:not(:disabled) { background: var(--wt-primary-soft); color: var(--wt-primary); }
@@ -127,6 +131,12 @@ body { background: var(--wt-background); color: var(--wt-text); }
 .study-display-controls { margin-block: 12px 16px; }
 .study-display-toolbar { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; min-width: 0; }
 .study-display-toolbar .study-reading-actions { justify-content: flex-end; margin-left: auto; }
+.study-display-toolbar .study-range-button { min-height: 44px; }
+@media (max-width: 640px) {
+  .study-display-toolbar:has(.study-range-button) { justify-content: flex-end; gap: 8px; }
+  .study-display-toolbar:has(.study-range-button) .study-phonetic-toggle { margin-inline-end: auto; }
+  .study-display-toolbar .study-reading-actions:has(.study-range-button) { display: contents; }
+}
 .study-fulltext-button { min-inline-size: calc(4em + 48px); white-space: nowrap; }
 .study-speech-spinner { display: inline-block; width: 14px; height: 14px; margin-right: 6px; vertical-align: -2px; border: 2px solid currentColor; border-right-color: transparent; border-radius: 50%; animation: study-speech-spin .8s linear infinite; }
 .study-speech-notice { margin: 12px 0 0; padding: 10px 12px; border-radius: 8px; background: var(--wt-primary-soft); color: var(--wt-secondary); font-size: 13px; line-height: 1.7; overflow-wrap: anywhere; }

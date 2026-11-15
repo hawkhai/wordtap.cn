@@ -2,7 +2,7 @@
 import { computed } from "vue";
 import type { ReadingDisplayMode, WordPhonetic, Segment } from "../types/app";
 const props = defineProps<{ segment: Segment; selectedId: string; learnedClass: (word: string) => string;
-  displayMode?: ReadingDisplayMode; phonetic?: WordPhonetic; sourceStart?: number }>();
+  displayMode?: ReadingDisplayMode; phonetic?: WordPhonetic; sourceStart?: number; skipWordTab?: boolean }>();
 const showPhonetic = computed(() => props.displayMode && props.displayMode !== "original");
 const ready = computed(() => showPhonetic.value && props.phonetic?.status === "ready");
 const note = computed(() => !showPhonetic.value ? undefined : props.phonetic?.status === "missing" ? "暂无音标"
@@ -24,6 +24,7 @@ defineEmits<{ word: [segment: Extract<Segment, { type: "word" }>, event: MouseEv
     }]"
     :title="note" :aria-label="showPhonetic ? `${segment.text}${note ? '，' + note : ''}` : undefined"
     :data-word-index="segment.index"
+    :tabindex="skipWordTab ? -1 : undefined"
     @click="$emit('word', segment, $event)"
   ><template v-if="ready"><span v-if="displayMode === 'annotated'" class="study-word-spelling study-source-text" :data-source-start="sourceStart">{{ segment.text }}</span><span class="study-word-ipa">{{ phonetic?.text }}</span></template><span v-else class="study-source-text" :data-source-start="sourceStart">{{ segment.text }}</span></button><span class="study-source-text" :data-source-start="sourceStart === undefined ? undefined : sourceStart + segment.text.length">{{ segment.trailingText ?? '' }}</span></span>
 </template>
