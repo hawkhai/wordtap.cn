@@ -154,11 +154,11 @@ test('all display modes render original punctuation and map clicks to the origin
   try {
     const component = h.load('src/shared/components/ReadingSegment.vue').default;
     const segment = { type: 'word', text: 'Hello', trailingText: '!', id: 'word-0', index: 0 };
-    const base = { segment, sourceStart: 20, selectedId: '', learnedClass: () => '', phonetic: { status: 'ready', text: 'həˈləʊ' } };
+    const base = { segment, selectedId: '', learnedClass: () => '', phonetic: { status: 'ready', text: 'həˈləʊ' } };
     for (const mode of ['original', 'annotated', 'phonetic']) {
       const html = await renderToString(vue.createSSRApp(component, { ...base, displayMode: mode }));
-      assert.match(html, /<\/button><span[^>]*data-source-start="25"[^>]*>!<\/span><\/span>/);
-      if (mode !== 'phonetic') assert.match(html, /<span[^>]*data-source-start="20"[^>]*>Hello<\/span>/);
+      assert.match(html, /<\/button><span class="study-source-text">!<\/span><\/span>/);
+      if (mode !== 'phonetic') assert.match(html, /<span[^>]*study-source-text[^>]*>Hello<\/span>/);
       assert.equal(html.includes('study-word-ipa'), mode !== 'original');
       assert.equal(html.includes('study-word-spelling'), mode === 'annotated');
       if (mode === 'phonetic') assert.ok(!html.includes('>Hello<'));

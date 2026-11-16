@@ -1276,28 +1276,6 @@ test("Gateway sentence identity ignores prefetch and fallback keeps repeat and c
   } finally { h.dispose(); }
 });
 
-test("selection expands half-open offsets to whole sentences and plays exactly once", async () => {
-  const h = harness();
-  try {
-    h.text('Same sentence. Same sentence. Last sentence.'); h.app.selectedRepeat.value = 3;
-    const snapshot = h.app.sourceText.value;
-    const second = h.app.sentences.value[1];
-    await h.app.readSelection({snapshot, start:second.start + 2, end:second.end - 2});
-    assert.equal(h.utterances[0].text, second.text);
-    h.utterances[0].onstart(); assert.equal(h.app.playingSentenceId.value, second.id);
-    assert.match(h.app.status.value, /选段朗读/);
-    h.utterances[0].onend(); await tick();
-    assert.equal(h.utterances.length, 1); assert.equal(h.app.isSpeaking.value, false);
-    assert.equal(h.writes.length, 0);
-    await h.app.readSelection({snapshot:'stale', start:0, end:5});
-    assert.equal(h.utterances.length, 1);
-    await h.app.readSelection({snapshot, start:second.start, end:h.app.sentences.value[2].start});
-    assert.equal(h.utterances.at(-1).text, second.text);
-    h.utterances.at(-1).onend(); await tick();
-    assert.equal(h.app.isSpeaking.value, false);
-  } finally { h.dispose(); }
-});
-
 test("paragraphs follow blank lines and play readable sentences once in original order", async () => {
   const h = harness();
   try {
@@ -1352,20 +1330,6 @@ test("a preparing paragraph stays active across Gateway fallback and its own but
   } finally { h.dispose(); }
 });
 
-test("cross-paragraph selections retain original IDs, filter unreadable parts and cancel on edit", async () => {
-  const h = harness();
-  try {
-    h.text('中文前言。\nFirst sentence.\nSecond sentence.');
-    await h.app.readSelection({snapshot:h.app.sourceText.value, start:1, end:h.app.sourceText.value.length - 2});
-    assert.equal(h.utterances[0].text, 'First sentence.');
-    h.utterances[0].onstart(); assert.equal(h.app.playingSentenceId.value, h.app.sentences.value[1].id);
-    h.utterances[0].onend(); await tick();
-    const stale = h.utterances[1].onstart;
-    h.app.sourceText.value = 'Edited sentence.'; stale();
-    assert.equal(h.app.playingSentenceId.value, ''); assert.equal(h.app.isSpeaking.value, false);
-  } finally { h.dispose(); }
-});
-
 test("Gateway sentence queue prefetch is bounded, never merges sentences and retains long-sentence IDs", async () => {
   const ready = deferred();
   const h = gatewayHarness({ cache: () => ready.promise });
@@ -1399,11 +1363,5 @@ test("safe-area scroll geometry is stable for visible, clipped and taller-than-s
     assert.equal(delta({top:100,bottom:1500},24,700), 0);
     assert.equal(delta({top:-100,bottom:1500},24,700), -124);
     assert.equal(delta({top:100,bottom:200},200,100), 0);
-    const {selectionMenuPosition: place} = h.load('src/shared/utils/readingSelection.ts');
-    for (const width of [360,390,1440]) {
-      const position = place({left:width-2,right:width,top:2,bottom:30}, {left:0,top:0,width,height:800}, 132,54);
-      assert.ok(position.left >= 8 && position.left + 132 <= width - 8);
-      assert.equal(position.top,38);
-    }
   } finally { h.dispose(); }
 });

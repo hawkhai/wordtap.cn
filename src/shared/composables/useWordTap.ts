@@ -110,7 +110,7 @@ import type {
   ReadingSpeechState,
 } from "../types/app";
 
-import { buildReadingRuns, indexReadingParagraphs, indexReadingSentences, sentencesInSelection, type ReadingSelection, type ReadingSentence } from "../utils/readingSentences";
+import { buildReadingRuns, indexReadingParagraphs, indexReadingSentences, type ReadingSentence } from "../utils/readingSentences";
 import { useReadingPhonetics } from "./useReadingPhonetics";
 import { createTaskLimiter, lookupWordPhonetic } from "../utils/readingPhonetics";
 import { readingWordPattern } from "../utils/readingWords";
@@ -3237,9 +3237,15 @@ async function speakSentenceText(text: string, sentenceId: string): Promise<void
   }
 }
 
-function playReadingRange(selection: ReadingSelection, paragraphId?: string): void {
-  if (selection.snapshot !== sourceText.value.trim() || sentenceSpeechDisabled.value) return;
-  const queue = sentencesInSelection(selection, readingSnapshot.value, sentences.value);
+function readParagraph(id: string): void {
+  const paragraph = readingParagraphs.value.find(paragraph => paragraph.id === id);
+  if (!paragraph) return;
+  if (activeParagraphId.value === id) {
+    cancelSpeech(copy.status.stoppedSpeech);
+    return;
+  }
+  if (sentenceSpeechDisabled.value) return;
+  const queue = sentences.value.filter(sentence => sentence.start < paragraph.end && sentence.end > paragraph.start);
   if (!queue.length) return;
   cancelSpeech();
   const text = queue.map(sentence => sentence.text).join("\n");
@@ -3250,28 +3256,14 @@ function playReadingRange(selection: ReadingSelection, paragraphId?: string): vo
   cancelLookup();
   hideWordPopover();
   selectedSegmentId.value = "";
-  const label = paragraphId ? "段落朗读" : "选段朗读";
+  const label = "段落朗读";
   currentWord.value = label;
-  meaning.value = paragraphId ? "按原文顺序朗读本段（一遍）。" : "朗读所选的完整句子（一遍）。";
+  meaning.value = "按原文顺序朗读本段（一遍）。";
   status.value = `正在准备${label}，准备好后会自动播放。`;
   const playbackControl = new SpeechPlaybackControl();
-  if (paragraphId) paragraphPlayback = { id: paragraphId, control: playbackControl };
+  paragraphPlayback = { id, control: playbackControl };
   if (isGatewayRunning.value) speakFullTextWithGateway(text, label, playbackControl, queue, 1);
   else speakFullTextWithBrowser(text, label, playbackControl, false, queue, 1);
-}
-
-async function readSelection(selection: ReadingSelection): Promise<void> {
-  playReadingRange(selection);
-}
-
-function readParagraph(id: string): void {
-  const paragraph = readingParagraphs.value.find(paragraph => paragraph.id === id);
-  if (!paragraph) return;
-  if (activeParagraphId.value === id) {
-    cancelSpeech(copy.status.stoppedSpeech);
-    return;
-  }
-  playReadingRange({ snapshot: readingSnapshot.value, start: paragraph.start, end: paragraph.end }, id);
 }
 
 async function readFullText(): Promise<void> {
@@ -3425,7 +3417,7 @@ onBeforeUnmount(() => {
     // Refs
     readingDisplayMode, phonetics, phoneticCounts, retryPhonetics, phoneticNotice,
     sentences, readingSnapshot, readingRuns, readingParagraphs, activeParagraphId, activeSentenceId, playingSentenceId,
-    sentenceSpeechState, paragraphSpeechState, sentenceSpeechDisabled, readSentence, readParagraph, readSelection,
+    sentenceSpeechState, paragraphSpeechState, sentenceSpeechDisabled, readSentence, readParagraph,
     speakArticleTypingSentence,
     sourceText, segments, selectedSegmentId, currentWord, meaning, status,
     dictionaryInfo, selectedRate, selectedRepeat, selectedTranslateMode,

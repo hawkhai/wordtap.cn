@@ -14,12 +14,6 @@ export interface ReadingRun {
   segments: Segment[];
 }
 
-export interface ReadingSelection {
-  snapshot: string;
-  start: number;
-  end: number;
-}
-
 export interface ReadingParagraph {
   id: string;
   start: number;
@@ -51,14 +45,6 @@ export function indexReadingParagraphs(runs: ReadingRun[], canSpeak: (sentence: 
   }
   finish();
   return paragraphs;
-}
-
-/** Half-open original-text offsets; repeated text never needs a string search. */
-export function sentencesInSelection(selection: ReadingSelection, snapshot: string, sentences: ReadingSentence[]): ReadingSentence[] {
-  if (selection.snapshot !== snapshot || !Number.isInteger(selection.start) || !Number.isInteger(selection.end) ||
-    selection.start < 0 || selection.end > snapshot.length || selection.start >= selection.end ||
-    !snapshot.slice(selection.start, selection.end).trim()) return [];
-  return sentences.filter(sentence => sentence.start < selection.end && sentence.end > selection.start);
 }
 
 const abbreviation = /\b(?:Mr|Mrs|Ms|Dr|Prof|Sr|Jr|St|vs|etc|e\.g|i\.e|a\.m|p\.m|adj|adv|pron|prep|conj|n|v)\.$/i;
