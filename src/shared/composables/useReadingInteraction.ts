@@ -3,6 +3,8 @@ import { followReadingSentence, readingViewport } from "../utils/readingFollow";
 import { selectionFromRange, selectionMenuPosition } from "../utils/readingSelection";
 import type { ReadingSelection } from "../utils/readingSentences";
 
+const INLINE_SELECTION_SETTLE_MS = 360;
+
 export function useReadingInteraction(reader: Ref<HTMLElement | null>, options: {
   snapshot: () => string;
   playingId: () => string;
@@ -16,9 +18,12 @@ export function useReadingInteraction(reader: Ref<HTMLElement | null>, options: 
 }) {
   const menu = ref<HTMLElement | null>(null);
   const selection = ref<ReadingSelection | null>(null);
+  const adjustingInline = ref(false);
   const position = ref({ left: 8, top: 8 });
   let anchor: DOMRect | null = null;
+  let inlineRange: Range | null = null;
   let dragging = false;
+  let touchingReader = false;
   let pressingMenu = false;
   let suppressClickUntil = 0;
   let selectionTimer: ReturnType<typeof setTimeout> | undefined;
@@ -29,14 +34,14 @@ export function useReadingInteraction(reader: Ref<HTMLElement | null>, options: 
   const stop = () => { stopAnimation?.(); stopAnimation = undefined; clearTimeout(followTimer); };
   const follow = () => {
     stop();
-    if (dragging || selection.value || options.choosingRange() || options.paused() || !options.playingId() || !reader.value) return;
+    if (dragging || touchingReader || adjustingInline.value || selection.value || options.choosingRange() || options.paused() || !options.playingId() || !reader.value) return;
     const sentence = Array.from(reader.value.querySelectorAll<HTMLElement>("[data-sentence-id]"))
       .find(element => element.dataset.sentenceId === options.playingId());
     if (sentence) stopAnimation = followReadingSentence(reader.value, sentence);
   };
   const scheduleFollow = () => { clearTimeout(followTimer); followTimer = setTimeout(follow, 160); };
   const placeMenu = () => {
-    if (!selection.value || !anchor || !menu.value) return;
+    if (!options.floatingMenu() || !selection.value || !anchor || !menu.value) return;
     const rect = menu.value.getBoundingClientRect();
     position.value = selectionMenuPosition(anchor, readingViewport(), rect.width, rect.height);
   };
@@ -44,11 +49,13 @@ export function useReadingInteraction(reader: Ref<HTMLElement | null>, options: 
     clearTimeout(selectionTimer);
     pressingMenu = false;
     selection.value = null;
+    adjustingInline.value = false;
+    inlineRange = null;
     anchor = null;
     scheduleFollow();
   };
   const captureSelection = async () => {
-    if (disposed || dragging || pressingMenu || options.choosingRange() || !reader.value) return;
+    if (disposed || dragging || touchingReader || pressingMenu || options.choosingRange() || !reader.value) return;
     const native = window.getSelection();
     if (menu.value?.contains(document.activeElement)) return;
     const range = native?.rangeCount ? native.getRangeAt(0) : null;
@@ -59,7 +66,11 @@ export function useReadingInteraction(reader: Ref<HTMLElement | null>, options: 
     if (selection.value?.snapshot !== selected.snapshot || selection.value.start !== selected.start || selection.value.end !== selected.end) {
       selection.value = selected;
     }
-    if (!options.floatingMenu()) return;
+    if (!options.floatingMenu()) {
+      inlineRange = range.cloneRange();
+      adjustingInline.value = false;
+      return;
+    }
     // Use the release end of a forward or reverse selection for the menu anchor.
     const focus = document.createRange();
     if (native?.focusNode) {
@@ -74,15 +85,38 @@ export function useReadingInteraction(reader: Ref<HTMLElement | null>, options: 
   };
   const onSelectionChange = () => {
     clearTimeout(selectionTimer);
-    if (dragging) return;
-    selectionTimer = setTimeout(() => { void captureSelection(); }, 180);
+    if (pressingMenu || options.choosingRange() || menu.value?.contains(document.activeElement)) return;
+    const floating = options.floatingMenu();
+    if (!floating) {
+      const native = window.getSelection();
+      const range = native?.rangeCount ? native.getRangeAt(0) : null;
+      const unchanged = range && inlineRange && range.startContainer === inlineRange.startContainer &&
+        range.endContainer === inlineRange.endContainer && range.startOffset === inlineRange.startOffset &&
+        range.endOffset === inlineRange.endOffset;
+      const inReader = range && !range.collapsed && reader.value?.contains(range.startContainer) && reader.value.contains(range.endContainer);
+      if (!unchanged && (selection.value || inReader)) {
+        // Keep the previous inline footprint until moving the controls is safe.
+        adjustingInline.value = true;
+        stop();
+      }
+    }
+    if (dragging || touchingReader) return;
+    selectionTimer = setTimeout(() => { void captureSelection(); }, floating ? 180 : INLINE_SELECTION_SETTLE_MS);
   };
   const pointerDown = () => {
     suppressClickUntil = 0;
     dragging = true;
     stop();
     clearTimeout(selectionTimer);
-    selection.value = null;
+    if (options.floatingMenu()) selection.value = null;
+    else if (selection.value) adjustingInline.value = true;
+  };
+  const touchStart = (event: TouchEvent) => {
+    if (menu.value?.contains(event.target as Node)) return;
+    touchingReader = true;
+    clearTimeout(selectionTimer);
+    if (selection.value) adjustingInline.value = true;
+    stop();
   };
   const holdMenu = () => {
     clearTimeout(selectionTimer);
@@ -101,8 +135,15 @@ export function useReadingInteraction(reader: Ref<HTMLElement | null>, options: 
       selectionFromRange(reader.value, native.getRangeAt(0), options.snapshot())) {
       suppressClickUntil = performance.now() + 500;
     }
-    void captureSelection();
+    if (options.floatingMenu()) void captureSelection();
+    else onSelectionChange();
     scheduleFollow();
+  };
+  const touchEnd = (event: TouchEvent) => {
+    if (!touchingReader || event.touches.length) return;
+    touchingReader = false;
+    if (dragging) pointerUp();
+    else onSelectionChange();
   };
   const clickCapture = (event: MouseEvent) => {
     if (menu.value?.contains(event.target as Node)) return;
@@ -129,6 +170,10 @@ export function useReadingInteraction(reader: Ref<HTMLElement | null>, options: 
     if (hadFocus) reader.value?.focus({ preventScroll: true });
   };
   const scroll = () => {
+    if (adjustingInline.value) {
+      onSelectionChange();
+      return;
+    }
     if (selection.value) {
       // Re-anchor on scroll without stealing focus or losing the native selection handles.
       if (options.floatingMenu() && !menu.value?.contains(document.activeElement)) onSelectionChange();
@@ -169,6 +214,8 @@ export function useReadingInteraction(reader: Ref<HTMLElement | null>, options: 
     document.addEventListener("selectionchange", onSelectionChange);
     document.addEventListener("pointerup", pointerUp);
     document.addEventListener("pointercancel", pointerUp);
+    document.addEventListener("touchend", touchEnd, true);
+    document.addEventListener("touchcancel", touchEnd, true);
     document.addEventListener("pointerdown", outside);
     document.addEventListener("keydown", keydown);
     window.addEventListener("scroll", scroll, true);
@@ -188,6 +235,8 @@ export function useReadingInteraction(reader: Ref<HTMLElement | null>, options: 
     document.removeEventListener("selectionchange", onSelectionChange);
     document.removeEventListener("pointerup", pointerUp);
     document.removeEventListener("pointercancel", pointerUp);
+    document.removeEventListener("touchend", touchEnd, true);
+    document.removeEventListener("touchcancel", touchEnd, true);
     document.removeEventListener("pointerdown", outside);
     document.removeEventListener("keydown", keydown);
     window.removeEventListener("scroll", scroll, true);
@@ -197,5 +246,5 @@ export function useReadingInteraction(reader: Ref<HTMLElement | null>, options: 
     window.visualViewport?.removeEventListener("resize", resize);
     window.visualViewport?.removeEventListener("scroll", resize);
   });
-  return { menu, selection, position, pointerDown, holdMenu, clickCapture, read, copy };
+  return { menu, selection, adjustingInline, position, pointerDown, touchStart, holdMenu, clickCapture, read, copy };
 }

@@ -73,7 +73,7 @@ function handleClick(event: MouseEvent) {
   });
 }
 
-const { menu, selection, position, pointerDown, holdMenu, clickCapture, read, copy } = useReadingInteraction(reader, {
+const { menu, selection, adjustingInline, position, pointerDown, touchStart, holdMenu, clickCapture, read, copy } = useReadingInteraction(reader, {
   snapshot: () => props.snapshot,
   playingId: () => props.playingSentenceId,
   paused: () => props.paused,
@@ -82,6 +82,12 @@ const { menu, selection, position, pointerDown, holdMenu, clickCapture, read, co
   cancelRange,
   read: value => emit("selection", value), notice: message => emit("notice", message), select: () => emit("select"),
 });
+
+function handleTouchStart(event: TouchEvent) {
+  touchRange.value = true;
+  touchStart(event);
+}
+
 watch([() => props.snapshot, canChooseRange], cancelRange);
 defineExpose({ touchRange, canChooseRange, choosingRange, rangeNotice, toggleRange, cancelRange });
 
@@ -101,14 +107,14 @@ const positionedRuns = computed(() => {
 
 <template>
   <div ref="reader" tabindex="-1" class="study-reader overflow-auto whitespace-pre-wrap text-2xl leading-[2.4rem]" :class="{ 'study-reader-phonetics': displayMode && displayMode !== 'original', 'study-reader-choosing-range': choosingRange }" lang="en" data-testid="study-text"
-    @pointerdown="pointerDown" @touchstart.passive="touchRange = true" @click.capture="handleClick">
+    @pointerdown="pointerDown" @touchstart.passive="handleTouchStart" @click.capture="handleClick">
     <span v-for="run in positionedRuns" :key="run.id" :class="{ 'study-sentence': run.sentence, 'study-sentence-playing': run.sentence?.id === playingSentenceId, 'study-sentence-range-start': rangeStart && run.sentence?.id === rangeStart.id }" :data-sentence-id="run.sentence?.id"><template v-for="{ segment, start, end } in run.positionedSegments" :key="segment.id"><ReadingSegment
         :source-start="start" :display-mode="displayMode" :phonetic="phonetics?.[phoneticWordKey(segment.text)]"
         :segment="segment" :selected-id="selectedId" :learned-class="learnedClass" :skip-word-tab="choosingRange"
         @word="(word, event) => $emit('word', word, event)"
       /><Teleport v-if="selection && start < selection.end && selection.end <= end" to="body" :disabled="touchRange">
         <span :ref="setMenu" class="study-selection-menu"
-          :class="touchRange ? 'study-selection-menu-inline' : 'study-selection-menu-floating'"
+          :class="[touchRange ? 'study-selection-menu-inline' : 'study-selection-menu-floating', { 'study-selection-menu-adjusting': touchRange && adjustingInline }]"
           role="group" aria-label="选中文字操作" lang="zh-CN"
           :data-testid="touchRange ? 'reading-selection-inline' : 'reading-selection-menu'"
           :style="touchRange ? undefined : { left: `${position.left}px`, top: `${position.top}px` }"

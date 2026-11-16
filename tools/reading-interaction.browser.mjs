@@ -81,18 +81,60 @@ try {
       if (hideTouchPoints) {
         assert.equal(await rangeButton.count(), 0);
         await reader.dispatchEvent('touchstart');
+        await reader.dispatchEvent('touchend', { touches: [] });
       }
       assert.ok((await rangeButton.boundingBox()).height >= 44);
       await setSelection(1, 9);
       await inlineMenu.waitFor();
       assert.equal(await menu.count(), 0);
-      assert.equal(await inlineMenu.evaluate(element => getComputedStyle(element).position), 'static');
+      const inlineLayout = await inlineMenu.evaluate(element => {
+        const box = element.getBoundingClientRect();
+        const frame = getComputedStyle(element, '::before');
+        return {
+          position: getComputedStyle(element).position,
+          height: box.height,
+          frameHeight: box.height - parseFloat(frame.top) - parseFloat(frame.bottom),
+          targets: Array.from(element.querySelectorAll('button'), button => [button.offsetWidth, button.offsetHeight]),
+        };
+      });
+      assert.ok(['static', 'relative'].includes(inlineLayout.position), 'selection actions stay in the text flow');
+      assert.deepEqual([inlineLayout.height, inlineLayout.frameHeight], [44, 32]);
+      assert.ok(inlineLayout.targets.every(([width, height]) => width >= 44 && height >= 44));
       assert.equal(await page.evaluate(() => getSelection().toString()), article.slice(1, 9));
+
+      const inlineAnchor = () => inlineMenu.evaluate(element => [
+        element.offsetLeft, element.offsetTop, element.offsetHeight, element.previousElementSibling?.textContent,
+      ]);
+      const initialAnchor = await inlineAnchor();
+      // Native selection handles can report range changes between pauses without page touch events.
+      await setSelection(1, 24);
+      await page.waitForTimeout(230);
+      assert.deepEqual(await inlineAnchor(), initialAnchor, 'a brief stop while extending the range leaves its previous layout in place');
+      await inlineMenu.waitFor({ state: 'hidden' });
+      const scrollBeforeDrag = await page.evaluate(() => scrollY);
+      await page.evaluate(() => scrollBy(0, 24));
+      await page.waitForTimeout(220);
+      assert.deepEqual(await inlineAnchor(), initialAnchor, 'scrolling while adjusting the range also defers reflow');
+      await page.evaluate(y => scrollTo(0, y), scrollBeforeDrag);
       await setSelection(12, 83, true);
       await page.waitForFunction(() => {
         const tail = document.querySelector('[data-testid="reading-selection-inline"]')?.previousElementSibling;
         return tail?.contains(getSelection().getRangeAt(0).endContainer);
       });
+      await inlineMenu.waitFor();
+
+      // When a browser sends touch events, keeping a finger down can outlast the quiet interval.
+      const extendedAnchor = await inlineAnchor();
+      await reader.dispatchEvent('touchstart');
+      await reader.dispatchEvent('pointerdown', { pointerType: 'touch' });
+      await setSelection(1, 52);
+      await reader.dispatchEvent('pointercancel', { pointerType: 'touch' });
+      await page.waitForTimeout(500);
+      assert.deepEqual(await inlineAnchor(), extendedAnchor, 'pausing with a finger down leaves the anchor in place');
+      await inlineMenu.waitFor({ state: 'hidden' });
+      await setSelection(12, 83, true);
+      await reader.dispatchEvent('touchend', { touches: [] });
+      await inlineMenu.waitFor();
       await inlineMenu.getByRole('button', { name: '复制', exact: true }).tap();
       assert.equal(await page.evaluate(() => window.__copied), article.slice(12, 83));
       await inlineMenu.waitFor({ state: 'hidden' });
@@ -105,6 +147,13 @@ try {
       await page.evaluate(() => { window.__copyFails = false; });
       const inlineRead = inlineMenu.getByRole('button', { name: '朗读', exact: true });
       assert.ok((await inlineRead.boundingBox()).height >= 44);
+      const inlineCopy = inlineMenu.getByRole('button', { name: '复制', exact: true });
+      await inlineCopy.hover();
+      const hoverPaint = await inlineCopy.evaluate(button => {
+        const style = getComputedStyle(button);
+        return [style.backgroundClip, style.borderTopColor];
+      });
+      assert.deepEqual(hoverPaint, ['padding-box', 'rgba(0, 0, 0, 0)']);
       await inlineMenu.scrollIntoViewIfNeeded();
       await page.screenshot({ path: path.join(output, `${width}-${theme}-inline-selection.png`) });
       await inlineRead.tap();
@@ -306,7 +355,7 @@ try {
       await page.waitForFunction(() => !document.querySelector('[data-sentence-id]') && document.querySelector('.study-range-button')?.disabled);
     }
     assert.deepEqual(errors, []);
-    const selectionChecks = hasTouch ? ['native-selection', 'inline-end-anchor', 'inline-read', 'inline-copy', 'touch-range', 'reverse-cross-paragraph', 'cancel-range', 'no-sentences-disabled'] :
+    const selectionChecks = hasTouch ? ['native-selection', 'inline-end-anchor', 'stable-layout-during-selection', 'inline-read', 'inline-copy', 'touch-range', 'reverse-cross-paragraph', 'cancel-range', 'no-sentences-disabled'] :
       ['exact-copy', 'reverse-cross-paragraph', 'clipboard-failure', 'phonetics-original-offsets', 'menu-bounds', 'keyboard-menu'];
     if (hideCoarsePointer) selectionChecks.push(hideTouchPoints ? 'touch-event-fallback' : 'touch-points-fallback');
     results.push({ width, theme, checks: [...selectionChecks,
