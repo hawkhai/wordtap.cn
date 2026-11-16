@@ -94,12 +94,14 @@ try {
           position: getComputedStyle(element).position,
           height: box.height,
           frameHeight: box.height - parseFloat(frame.top) - parseFloat(frame.bottom),
-          targets: Array.from(element.querySelectorAll('button'), button => [button.offsetWidth, button.offsetHeight]),
+          targets: Array.from(element.querySelectorAll('button'), button => ({
+            width: button.offsetWidth, height: button.offsetHeight, fontSize: getComputedStyle(button).fontSize,
+          })),
         };
       });
       assert.ok(['static', 'relative'].includes(inlineLayout.position), 'selection actions stay in the text flow');
-      assert.deepEqual([inlineLayout.height, inlineLayout.frameHeight], [44, 32]);
-      assert.ok(inlineLayout.targets.every(([width, height]) => width >= 44 && height >= 44));
+      assert.deepEqual([inlineLayout.height, inlineLayout.frameHeight], [44, 36]);
+      assert.ok(inlineLayout.targets.every(({ width, height, fontSize }) => width >= 48 && height >= 44 && fontSize === '16px'));
       assert.equal(await page.evaluate(() => getSelection().toString()), article.slice(1, 9));
 
       const inlineAnchor = () => inlineMenu.evaluate(element => [

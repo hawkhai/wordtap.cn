@@ -132,11 +132,11 @@ body { background: var(--wt-background); color: var(--wt-text); }
 .study-selection-menu-inline::before {
   content: "";
   position: absolute;
-  inset: 6px 0;
+  inset: 4px 0;
   z-index: -1;
   border: 1px solid var(--wt-border);
   border-radius: 8px;
-  background: var(--wt-surface);
+  background: var(--wt-surface-secondary);
   pointer-events: none;
 }
 .study-selection-menu-adjusting { visibility: hidden; }
@@ -145,15 +145,17 @@ body { background: var(--wt-background); color: var(--wt-text); }
 .study-selection-menu .study-button:focus-visible { outline: 2px solid var(--wt-primary); outline-offset: 1px; }
 .study-selection-menu .study-button:disabled { opacity: .45; cursor: not-allowed; }
 .study-selection-menu-inline .study-button {
-  min-width: 44px;
+  min-width: 48px;
   min-height: 44px;
-  padding: 0 8px;
-  border-block: 8px solid transparent;
+  padding: 0 10px;
+  border-block: 6px solid transparent;
+  font-size: 1rem;
+  line-height: 22px;
   -webkit-tap-highlight-color: transparent;
   background-clip: padding-box;
 }
 .study-selection-menu-inline .study-button:is(:hover, :active):not(:disabled) { border-color: transparent; background-clip: padding-box; }
-.study-selection-menu-inline .study-button:focus-visible { outline-offset: -5px; }
+.study-selection-menu-inline .study-button:focus-visible { outline-offset: -4px; }
 @media (max-width: 767px), (pointer: coarse) { .study-selection-menu .study-button { min-height: 44px; } }
 .study-word { color: var(--wt-text); }
 .study-word:hover { background: var(--wt-primary-soft); color: var(--wt-primary-text); }
