@@ -84,10 +84,27 @@ try {
         const box = button.getBoundingClientRect();
         return { width: box.width, height: box.height, source: button.nextElementSibling.querySelector('[data-source-start]')?.dataset.sourceStart };
       });
-      assert.deepEqual(await geometry(), { width: 44, height: 44, source: '0' });
+      assert.deepEqual(await geometry(), { width: 24, height: 24, source: '0' });
       assert.equal(await paragraphs.first().locator('svg').innerHTML(), await sentenceButton(0).locator('svg').innerHTML());
-      assert.equal(await paragraphs.first().locator('svg').evaluate(svg => getComputedStyle(svg).width), '18px');
+      assert.equal(await paragraphs.first().locator('svg').evaluate(svg => getComputedStyle(svg).width), '24px');
       assert.equal(await sentenceButton(0).locator('svg').evaluate(svg => getComputedStyle(svg).width), '16px');
+      await paragraphs.first().scrollIntoViewIfNeeded();
+      const touchLayout = await paragraphs.first().evaluate(button => {
+        const style = getComputedStyle(button);
+        const readerStyle = getComputedStyle(button.closest('.study-reader'));
+        const bounds = button.getBoundingClientRect();
+        const firstWord = button.nextElementSibling.querySelector('.study-word');
+        const wordBounds = firstWord.getBoundingClientRect();
+        const gap = wordBounds.left - bounds.right;
+        const hit = box => document.elementFromPoint(box.left + box.width / 2, box.top + box.height / 2)?.closest('button');
+        return {
+          textSized: style.fontSize === readerStyle.fontSize && bounds.height <= parseFloat(readerStyle.lineHeight),
+          gap: parseFloat(style.marginLeft) === 0 && gap >= 0 && gap < 5,
+          toggleHit: hit(bounds) === button,
+          wordHit: hit(wordBounds) === firstWord,
+        };
+      });
+      assert.deepEqual(touchLayout, { textSized: true, gap: true, toggleHit: true, wordHit: true });
       const anchors = () => paragraphs.evaluateAll(buttons => buttons.map(button => [button.offsetLeft, button.offsetTop]));
       await page.evaluate(() => document.fonts.ready);
       const initialAnchors = await anchors();
@@ -115,7 +132,7 @@ try {
         return [style.animationName, style.animationTimingFunction];
       }), ['study-speaker-clock-turn', 'linear']);
       assert.equal(await paragraphs.first().locator('svg circle').count(), 1, 'preparation shows a clock face');
-      assert.deepEqual(await geometry(), { width: 44, height: 44, source: '0' });
+      assert.deepEqual(await geometry(), { width: 24, height: 24, source: '0' });
       await paragraphs.first().tap();
       assert.equal(await paragraphs.first().getAttribute('aria-pressed'), 'false', 'second tap stops a preparing paragraph');
       await page.evaluate(() => { window.__spoken.at(-1).onend?.(); window.__spoken = []; });
@@ -377,7 +394,7 @@ try {
       await page.waitForFunction(() => !document.querySelector('[data-sentence-id], .study-paragraph-button'));
     }
     assert.deepEqual(errors, []);
-    const selectionChecks = hasTouch ? ['native-selection', 'stable-layout-during-selection', 'paragraph-once', 'paragraph-switch-stop', 'paragraph-pause-resume', 'paragraph-edit-stop', 'speaker-states', 'readable-paragraph-boundaries', '44px-target'] :
+    const selectionChecks = hasTouch ? ['native-selection', 'stable-layout-during-selection', 'paragraph-once', 'paragraph-switch-stop', 'paragraph-pause-resume', 'paragraph-edit-stop', 'speaker-states', 'readable-paragraph-boundaries', 'text-sized-target'] :
       ['exact-copy', 'reverse-cross-paragraph', 'clipboard-failure', 'phonetics-original-offsets', 'menu-bounds', 'keyboard-menu', 'selection-suspends-follow'];
     if (hideCoarsePointer) selectionChecks.push(hideTouchPoints ? 'touch-event-fallback' : 'touch-points-fallback');
     results.push({ width, theme, checks: [...selectionChecks,

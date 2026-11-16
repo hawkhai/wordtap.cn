@@ -398,10 +398,11 @@ body { background: var(--wt-background); color: var(--wt-text); }
 }
 
 .study-paragraph-button {
-  width: 44px; height: 44px; margin-inline: 0; vertical-align: middle;
+  width: 1em; height: 1em; margin-inline: 0 .12em; vertical-align: -.12em;
+  font-size: inherit; line-height: 1;
   user-select: none; -webkit-user-select: none;
 }
-.study-paragraph-button > svg { width: 18px; height: 18px; }
+.study-paragraph-button > svg { width: 1em; height: 1em; }
 
 /* A persistent release notice, independent of sentence/chunk playback updates. */
 .study-gateway-update { margin-top: 12px; padding: 12px; border: 1px solid var(--wt-border); border-radius: 8px; background: var(--wt-primary-soft); color: var(--wt-secondary); font-size: var(--wt-text-caption); line-height: 1.7; overflow-wrap: anywhere; }
