@@ -402,7 +402,10 @@ body { background: var(--wt-background); color: var(--wt-text); }
   font-size: inherit; line-height: 1;
   user-select: none; -webkit-user-select: none;
 }
-.study-paragraph-button > svg { width: 1em; height: 1em; }
+.study-paragraph-button > svg {
+  width: 1em; height: 1em;
+  position: relative; inset-block-start: .05em;
+}
 
 /* A persistent release notice, independent of sentence/chunk playback updates. */
 .study-gateway-update { margin-top: 12px; padding: 12px; border: 1px solid var(--wt-border); border-radius: 8px; background: var(--wt-primary-soft); color: var(--wt-secondary); font-size: var(--wt-text-caption); line-height: 1.7; overflow-wrap: anywhere; }

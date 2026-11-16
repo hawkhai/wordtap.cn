@@ -93,18 +93,21 @@ try {
         const style = getComputedStyle(button);
         const readerStyle = getComputedStyle(button.closest('.study-reader'));
         const bounds = button.getBoundingClientRect();
+        const glyph = button.querySelector('svg').getBoundingClientRect();
         const firstWord = button.nextElementSibling.querySelector('.study-word');
         const wordBounds = firstWord.getBoundingClientRect();
         const gap = wordBounds.left - bounds.right;
+        const glyphShift = (glyph.top + glyph.bottom - bounds.top - bounds.bottom) / 2;
         const hit = box => document.elementFromPoint(box.left + box.width / 2, box.top + box.height / 2)?.closest('button');
         return {
           textSized: style.fontSize === readerStyle.fontSize && bounds.height <= parseFloat(readerStyle.lineHeight),
+          glyphAligned: Math.abs(glyphShift - 0.05 * parseFloat(style.fontSize)) < 0.1,
           gap: parseFloat(style.marginLeft) === 0 && gap >= 0 && gap < 5,
           toggleHit: hit(bounds) === button,
           wordHit: hit(wordBounds) === firstWord,
         };
       });
-      assert.deepEqual(touchLayout, { textSized: true, gap: true, toggleHit: true, wordHit: true });
+      assert.deepEqual(touchLayout, { textSized: true, glyphAligned: true, gap: true, toggleHit: true, wordHit: true });
       const anchors = () => paragraphs.evaluateAll(buttons => buttons.map(button => [button.offsetLeft, button.offsetTop]));
       await page.evaluate(() => document.fonts.ready);
       const initialAnchors = await anchors();
