@@ -1298,6 +1298,60 @@ test("selection expands half-open offsets to whole sentences and plays exactly o
   } finally { h.dispose(); }
 });
 
+test("paragraphs follow blank lines and play readable sentences once in original order", async () => {
+  const h = harness();
+  try {
+    h.text('First sentence.\r\nSecond sentence.\r\n \t\r\n中文。\n\n...\n\n\n中文前言。\nEnglish 尾注 sentence.');
+    h.app.selectedRepeat.value = 3;
+    const snapshot = h.app.readingSnapshot.value;
+    const [first, last] = h.app.readingParagraphs.value;
+    assert.deepEqual(Array.from(h.app.readingParagraphs.value, ({ start, end }) => snapshot.slice(start, end)),
+      ['First sentence.\r\nSecond sentence.', '中文前言。\nEnglish 尾注 sentence.']);
+    h.app.readParagraph(first.id);
+    assert.equal(h.app.activeParagraphId.value, first.id);
+    assert.equal(h.app.isFullTextPreparing.value, true);
+    for (const [index, text] of ['First sentence.', 'Second sentence.'].entries()) {
+      const utterance = h.utterances[index];
+      assert.equal(utterance.text, text);
+      utterance.onstart();
+      assert.equal(h.app.playingSentenceId.value, h.app.sentences.value[index].id);
+      utterance.onend();
+      await tick();
+    }
+    assert.equal(h.utterances.length, 2);
+    assert.equal(h.app.activeParagraphId.value, '');
+    h.app.readParagraph(last.id);
+    assert.equal(h.utterances.at(-1).text, 'English sentence.');
+    const stale = h.utterances.at(-1).onstart;
+    h.app.sourceText.value = 'Edited sentence.';
+    stale();
+    assert.equal(h.app.activeParagraphId.value, '');
+    assert.equal(h.app.playingSentenceId.value, '');
+  } finally { h.dispose(); }
+});
+
+test("a preparing paragraph stays active across Gateway fallback and its own button can stop it", async () => {
+  const h = harness();
+  try {
+    h.text('First sentence. Second sentence.\n\nLast sentence.');
+    h.app.isGatewayRunning.value = true;
+    const [first, last] = h.app.readingParagraphs.value;
+    h.app.readParagraph(first.id);
+    assert.equal(h.app.activeParagraphId.value, first.id);
+    h.app.readParagraph(last.id);
+    assert.equal(h.app.activeParagraphId.value, last.id);
+    h.expectGatewayWarning('offline');
+    h.gateways.at(-1).pending.reject(new Error('offline'));
+    await tick();
+    assert.equal(h.app.activeParagraphId.value, last.id);
+    assert.equal(h.utterances[0].text, 'Last sentence.');
+    h.app.readParagraph(last.id);
+    assert.equal(h.app.activeParagraphId.value, '');
+    assert.equal(h.app.isFullTextSpeaking.value, false);
+    assert.equal(h.app.playingSentenceId.value, '');
+  } finally { h.dispose(); }
+});
+
 test("cross-paragraph selections retain original IDs, filter unreadable parts and cancel on edit", async () => {
   const h = harness();
   try {

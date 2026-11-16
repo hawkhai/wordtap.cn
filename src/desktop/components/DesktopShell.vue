@@ -50,7 +50,6 @@ const cetUrl = computed(() => appSectionUrl("cet/"));
 const kaoyanEnglishUrl = computed(() => appSectionUrl("kaoyan-english/"));
 const examUrl = computed(() => appSectionUrl("exam/"));
 const collegeEnglishAvailable = ref(false);
-const readingText = ref<InstanceType<typeof ReadingText> | null>(null);
 
 onMounted(() => {
   void loadCollegeEnglishManifest()
@@ -68,7 +67,7 @@ const {
   logoMarkUrl, feedbackEmailUrl, wordTapWindowsDownloadUrl,
   gatewayDownloadUrl, gatewayReleaseManifestUrl,
   readingDisplayMode, phonetics, phoneticCounts, retryPhonetics, phoneticNotice,
-  readingRuns, readingSnapshot, activeSentenceId, playingSentenceId, isFullTextPaused, sentenceSpeechState, sentenceSpeechDisabled, readSentence, readSelection,
+  readingRuns, readingParagraphs, readingSnapshot, activeParagraphId, activeSentenceId, playingSentenceId, isFullTextPaused, sentenceSpeechState, paragraphSpeechState, sentenceSpeechDisabled, readSentence, readParagraph, readSelection,
   speakArticleTypingSentence, speakArticleTypingWord,
   sourceText, segments, selectedSegmentId, currentWord, meaning, status,
   dictionaryInfo, selectedRate, selectedRepeat, selectedTranslateMode,
@@ -503,7 +502,7 @@ function handleCourseLessonSelect(selection: CourseLessonSelection): void {
                 <template v-else>{{ wordCountLabel }}</template>
               </span>
             </div>
-            <ReadingDisplayControls :show-modes="!typingActive" :speech-notice="readingText?.rangeNotice || fullTextSpeechNotice"
+            <ReadingDisplayControls :show-modes="!typingActive" :speech-notice="fullTextSpeechNotice"
               v-model="readingDisplayMode" :counts="phoneticCounts" @retry="retryPhonetics"
             >
               <template v-if="typingActive" #settings>
@@ -518,14 +517,10 @@ function handleCourseLessonSelect(selection: CourseLessonSelection): void {
                     class="study-button study-button-primary study-fulltext-button"
                     :disabled="fullTextSpeechDisabled && !isFullTextSpeaking"
                     :title="fullTextSpeechDisabled && !isFullTextSpeaking ? copy.status.fullTextSpeechUnavailable : fullTextSpeechWaiting ? '点击可暂停准备中的朗读' : undefined"
-                    @click="readingText?.cancelRange(); readFullText()"
+                    @click="readFullText()"
                   >
                     <span v-if="fullTextSpeechWaiting" class="study-speech-spinner" aria-hidden="true"></span>
                     {{ fullTextSpeechLabel }}
-                  </button>
-                  <button v-if="readingText?.touchRange" type="button" class="study-button study-range-button" :disabled="!readingText.canChooseRange"
-                    @click="readingText.toggleRange()">
-                    {{ readingText.choosingRange ? '取消选段' : '选段朗读' }}
                   </button>
                   <button
                     type="button"
@@ -553,15 +548,16 @@ function handleCourseLessonSelect(selection: CourseLessonSelection): void {
               @speak="speakArticleTypingSentence"
               @word="studyWord"
             />
-            <ReadingText v-else ref="readingText"
-              :runs="readingRuns" :snapshot="readingSnapshot" :playing-sentence-id="playingSentenceId" :paused="isFullTextPaused" :display-mode="readingDisplayMode" :phonetics="phonetics"
+            <ReadingText v-else
+              :runs="readingRuns" :paragraphs="readingParagraphs" :active-paragraph-id="activeParagraphId" :paragraph-state="paragraphSpeechState"
+              :snapshot="readingSnapshot" :playing-sentence-id="playingSentenceId" :paused="isFullTextPaused" :display-mode="readingDisplayMode" :phonetics="phonetics"
               :selected-id="selectedSegmentId"
               :learned-class="learnedClassForWord"
               :active-sentence-id="activeSentenceId"
-              :preparing="sentenceSpeechState === 'preparing'"
+              :sentence-state="sentenceSpeechState"
               :disabled="sentenceSpeechDisabled"
               @word="studyWord"
-              @sentence="readSentence" @selection="readSelection" @notice="status = $event" @select="hideWordPopover"
+              @sentence="readSentence" @paragraph="readParagraph" @selection="readSelection" @notice="status = $event" @select="hideWordPopover"
             />
           </section>
         </div>

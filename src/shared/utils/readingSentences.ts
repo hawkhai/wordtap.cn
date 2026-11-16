@@ -20,6 +20,39 @@ export interface ReadingSelection {
   end: number;
 }
 
+export interface ReadingParagraph {
+  id: string;
+  start: number;
+  end: number;
+}
+
+/** Blank-line segments already carry the original paragraph breaks and whitespace. */
+export function indexReadingParagraphs(runs: ReadingRun[], canSpeak: (sentence: ReadingSentence) => boolean): ReadingParagraph[] {
+  const paragraphs: ReadingParagraph[] = [];
+  let offset = 0;
+  let start: number | undefined;
+  let readable = false;
+  const finish = () => {
+    if (start !== undefined && readable) paragraphs.push({ id: `paragraph-${start}-${offset}`, start, end: offset });
+    start = undefined;
+    readable = false;
+  };
+  for (const run of runs) {
+    const speaks = run.sentence && canSpeak(run.sentence);
+    for (const segment of run.segments) {
+      if (segment.type === "blank-line") {
+        finish();
+      } else {
+        if (start === undefined && segment.text.trim()) start = offset;
+        if (speaks) readable = true;
+      }
+      offset += segment.text.length + (segment.type === "word" ? segment.trailingText?.length ?? 0 : 0);
+    }
+  }
+  finish();
+  return paragraphs;
+}
+
 /** Half-open original-text offsets; repeated text never needs a string search. */
 export function sentencesInSelection(selection: ReadingSelection, snapshot: string, sentences: ReadingSentence[]): ReadingSentence[] {
   if (selection.snapshot !== snapshot || !Number.isInteger(selection.start) || !Number.isInteger(selection.end) ||

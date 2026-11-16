@@ -3,30 +3,32 @@ import { followReadingSentence, readingViewport } from "../utils/readingFollow";
 import { selectionFromRange, selectionMenuPosition } from "../utils/readingSelection";
 import type { ReadingSelection } from "../utils/readingSentences";
 
-const INLINE_SELECTION_SETTLE_MS = 360;
+type SelectionGesture = { kind: "reader-pointer" | "action"; id: number };
+
+type RangeBounds = Pick<Range, "startContainer" | "startOffset" | "endContainer" | "endOffset">;
+
+function sameBounds(range: Range, bounds: RangeBounds | null) {
+  return bounds && range.startContainer === bounds.startContainer && range.startOffset === bounds.startOffset &&
+    range.endContainer === bounds.endContainer && range.endOffset === bounds.endOffset;
+}
 
 export function useReadingInteraction(reader: Ref<HTMLElement | null>, options: {
   snapshot: () => string;
   playingId: () => string;
   paused: () => boolean;
-  floatingMenu: () => boolean;
-  choosingRange: () => boolean;
-  cancelRange: () => void;
+  desktopSelection: () => boolean;
   read: (selection: ReadingSelection) => void;
   notice: (message: string) => void;
   select: () => void;
 }) {
   const menu = ref<HTMLElement | null>(null);
   const selection = ref<ReadingSelection | null>(null);
-  const adjustingInline = ref(false);
   const position = ref({ left: 8, top: 8 });
   let anchor: DOMRect | null = null;
-  let inlineRange: Range | null = null;
-  let dragging = false;
-  let touchingReader = false;
-  let pressingMenu = false;
+  let committedBounds: RangeBounds | null = null;
+  let gesture: SelectionGesture | null = null;
   let suppressClickUntil = 0;
-  let selectionTimer: ReturnType<typeof setTimeout> | undefined;
+  let captureTimer: ReturnType<typeof setTimeout> | undefined;
   let followTimer: ReturnType<typeof setTimeout> | undefined;
   let stopAnimation: (() => void) | undefined;
   let resizeObserver: ResizeObserver | undefined;
@@ -34,43 +36,53 @@ export function useReadingInteraction(reader: Ref<HTMLElement | null>, options: 
   const stop = () => { stopAnimation?.(); stopAnimation = undefined; clearTimeout(followTimer); };
   const follow = () => {
     stop();
-    if (dragging || touchingReader || adjustingInline.value || selection.value || options.choosingRange() || options.paused() || !options.playingId() || !reader.value) return;
+    if (gesture || selection.value || options.paused() || !options.playingId() || !reader.value) return;
     const sentence = Array.from(reader.value.querySelectorAll<HTMLElement>("[data-sentence-id]"))
       .find(element => element.dataset.sentenceId === options.playingId());
     if (sentence) stopAnimation = followReadingSentence(reader.value, sentence);
   };
-  const scheduleFollow = () => { clearTimeout(followTimer); followTimer = setTimeout(follow, 160); };
+  const scheduleFollow = () => { clearTimeout(followTimer); if (!disposed) followTimer = setTimeout(follow, 160); };
   const placeMenu = () => {
-    if (!options.floatingMenu() || !selection.value || !anchor || !menu.value) return;
+    if (!selection.value || !anchor || !menu.value) return;
     const rect = menu.value.getBoundingClientRect();
     position.value = selectionMenuPosition(anchor, readingViewport(), rect.width, rect.height);
   };
+  const clearCapture = () => {
+    clearTimeout(captureTimer);
+  };
   const close = () => {
-    clearTimeout(selectionTimer);
-    pressingMenu = false;
+    clearCapture();
+    gesture = null;
     selection.value = null;
-    adjustingInline.value = false;
-    inlineRange = null;
+    committedBounds = null;
     anchor = null;
     scheduleFollow();
   };
+  const readerRange = (native: Selection | null) => {
+    if (!reader.value || !native?.rangeCount || native.isCollapsed) return null;
+    const range = native.getRangeAt(0);
+    return reader.value.contains(range.startContainer) && reader.value.contains(range.endContainer) ? range : null;
+  };
+  const retainsMenuFocus = () => menu.value?.contains(document.activeElement);
   const captureSelection = async () => {
-    if (disposed || dragging || touchingReader || pressingMenu || options.choosingRange() || !reader.value) return;
+    if (disposed || gesture || !options.desktopSelection() || !reader.value) return;
     const native = window.getSelection();
-    if (menu.value?.contains(document.activeElement)) return;
-    const range = native?.rangeCount ? native.getRangeAt(0) : null;
-    const selected = range ? selectionFromRange(reader.value, range, options.snapshot()) : null;
-    if (!selected || !range) { close(); return; }
-    stop();
-    options.select();
-    if (selection.value?.snapshot !== selected.snapshot || selection.value.start !== selected.start || selection.value.end !== selected.end) {
-      selection.value = selected;
-    }
-    if (!options.floatingMenu()) {
-      inlineRange = range.cloneRange();
-      adjustingInline.value = false;
+    const range = readerRange(native);
+    if (!range) {
+      if (!retainsMenuFocus()) close();
       return;
     }
+    if (!sameBounds(range, committedBounds)) {
+      const selected = selectionFromRange(reader.value, range, options.snapshot());
+      if (!selected) { close(); return; }
+      if (selection.value?.snapshot !== selected.snapshot || selection.value.start !== selected.start || selection.value.end !== selected.end) {
+        options.select();
+        selection.value = selected;
+      }
+      const { startContainer, startOffset, endContainer, endOffset } = range;
+      committedBounds = { startContainer, startOffset, endContainer, endOffset };
+    }
+    stop();
     // Use the release end of a forward or reverse selection for the menu anchor.
     const focus = document.createRange();
     if (native?.focusNode) {
@@ -83,102 +95,77 @@ export function useReadingInteraction(reader: Ref<HTMLElement | null>, options: 
     await nextTick();
     placeMenu();
   };
+  const queueCapture = () => {
+    if (gesture) return;
+    clearCapture();
+    captureTimer = setTimeout(captureSelection, 180);
+  };
   const onSelectionChange = () => {
-    clearTimeout(selectionTimer);
-    if (pressingMenu || options.choosingRange() || menu.value?.contains(document.activeElement)) return;
-    const floating = options.floatingMenu();
-    if (!floating) {
-      const native = window.getSelection();
-      const range = native?.rangeCount ? native.getRangeAt(0) : null;
-      const unchanged = range && inlineRange && range.startContainer === inlineRange.startContainer &&
-        range.endContainer === inlineRange.endContainer && range.startOffset === inlineRange.startOffset &&
-        range.endOffset === inlineRange.endOffset;
-      const inReader = range && !range.collapsed && reader.value?.contains(range.startContainer) && reader.value.contains(range.endContainer);
-      if (!unchanged && (selection.value || inReader)) {
-        // Keep the previous inline footprint until moving the controls is safe.
-        adjustingInline.value = true;
-        stop();
-      }
-    }
-    if (dragging || touchingReader) return;
-    selectionTimer = setTimeout(() => { void captureSelection(); }, floating ? 180 : INLINE_SELECTION_SETTLE_MS);
+    if (gesture) return;
+    const range = readerRange(window.getSelection());
+    if (!range && (!selection.value || retainsMenuFocus())) return;
+    queueCapture();
   };
-  const pointerDown = () => {
+  const pointerDown = (event: PointerEvent) => {
+    if (gesture || !options.desktopSelection() || event.pointerType === "touch") return;
+    gesture = { kind: "reader-pointer", id: event.pointerId };
+    clearCapture();
+    stop();
     suppressClickUntil = 0;
-    dragging = true;
-    stop();
-    clearTimeout(selectionTimer);
-    if (options.floatingMenu()) selection.value = null;
-    else if (selection.value) adjustingInline.value = true;
+    selection.value = null;
+    committedBounds = null;
   };
-  const touchStart = (event: TouchEvent) => {
-    if (menu.value?.contains(event.target as Node)) return;
-    touchingReader = true;
-    clearTimeout(selectionTimer);
-    if (selection.value) adjustingInline.value = true;
-    stop();
+  const holdMenu = (event: PointerEvent) => {
+    if (gesture) return;
+    clearCapture();
+    gesture = { kind: "action", id: event.pointerId };
   };
-  const holdMenu = () => {
-    clearTimeout(selectionTimer);
-    pressingMenu = true;
-  };
-  const pointerUp = () => {
-    if (pressingMenu) {
-      pressingMenu = false;
-      onSelectionChange();
-      return;
+  const pointerUp = (event: PointerEvent) => {
+    if (!gesture || gesture.id !== event.pointerId) return;
+    const { kind } = gesture;
+    gesture = null;
+    if (kind === "reader-pointer") {
+      if (readerRange(window.getSelection())) suppressClickUntil = performance.now() + 500;
+      void captureSelection();
+      scheduleFollow();
+    } else {
+      queueCapture();
     }
-    if (!dragging) return;
-    dragging = false;
-    const native = window.getSelection();
-    if (native && !native.isCollapsed && reader.value && native.rangeCount &&
-      selectionFromRange(reader.value, native.getRangeAt(0), options.snapshot())) {
-      suppressClickUntil = performance.now() + 500;
-    }
-    if (options.floatingMenu()) void captureSelection();
-    else onSelectionChange();
-    scheduleFollow();
-  };
-  const touchEnd = (event: TouchEvent) => {
-    if (!touchingReader || event.touches.length) return;
-    touchingReader = false;
-    if (dragging) pointerUp();
-    else onSelectionChange();
   };
   const clickCapture = (event: MouseEvent) => {
-    if (menu.value?.contains(event.target as Node)) return;
+    if (!options.desktopSelection()) return;
     if (event.detail && performance.now() < suppressClickUntil) {
       event.preventDefault();
       event.stopImmediatePropagation();
     }
   };
   const outside = (event: PointerEvent) => {
+    if (event.pointerType === "touch") return;
     if (menu.value?.contains(event.target as Node) || reader.value?.contains(event.target as Node)) return;
     close();
   };
   const keydown = (event: KeyboardEvent) => {
-    if (event.key !== "Escape") return;
-    if (options.choosingRange()) {
-      options.cancelRange();
-      return;
-    }
-    if (!selection.value) return;
+    if (event.key !== "Escape" || !selection.value) return;
     event.preventDefault();
     const hadFocus = menu.value?.contains(document.activeElement);
     window.getSelection()?.removeAllRanges();
     close();
     if (hadFocus) reader.value?.focus({ preventScroll: true });
   };
-  const scroll = () => {
-    if (adjustingInline.value) {
-      onSelectionChange();
-      return;
-    }
+  const scroll = (event: Event) => {
+    const target = event.target;
+    if (target !== window.visualViewport && target !== document && target !== window &&
+      !(target instanceof Node && reader.value && (reader.value.contains(target) || target.contains(reader.value)))) return;
     if (selection.value) {
-      // Re-anchor on scroll without stealing focus or losing the native selection handles.
-      if (options.floatingMenu() && !menu.value?.contains(document.activeElement)) onSelectionChange();
+      if (!retainsMenuFocus()) queueCapture();
       return;
     }
+    scheduleFollow();
+  };
+  const interruptGesture = () => {
+    if (!gesture) return;
+    gesture = null;
+    queueCapture();
     scheduleFollow();
   };
   const manualScroll = () => { stop(); scheduleFollow(); };
@@ -209,15 +196,25 @@ export function useReadingInteraction(reader: Ref<HTMLElement | null>, options: 
   };
   watch([options.playingId, options.paused], () => { stop(); void nextTick().then(() => { if (!disposed) follow(); }); });
   watch(options.snapshot, () => { close(); stop(); });
-  watch(options.choosingRange, () => { stop(); close(); });
-  onMounted(() => {
+  watch(options.desktopSelection, (enabled, _, onCleanup) => {
+    if (!enabled) return;
     document.addEventListener("selectionchange", onSelectionChange);
     document.addEventListener("pointerup", pointerUp);
     document.addEventListener("pointercancel", pointerUp);
-    document.addEventListener("touchend", touchEnd, true);
-    document.addEventListener("touchcancel", touchEnd, true);
     document.addEventListener("pointerdown", outside);
     document.addEventListener("keydown", keydown);
+    window.addEventListener("blur", interruptGesture);
+    onCleanup(() => {
+      document.removeEventListener("selectionchange", onSelectionChange);
+      document.removeEventListener("pointerup", pointerUp);
+      document.removeEventListener("pointercancel", pointerUp);
+      document.removeEventListener("pointerdown", outside);
+      document.removeEventListener("keydown", keydown);
+      window.removeEventListener("blur", interruptGesture);
+      close();
+    });
+  }, { immediate: true, flush: "sync" });
+  onMounted(() => {
     window.addEventListener("scroll", scroll, true);
     window.addEventListener("wheel", manualScroll, { passive: true });
     window.addEventListener("touchmove", manualScroll, { passive: true });
@@ -230,15 +227,8 @@ export function useReadingInteraction(reader: Ref<HTMLElement | null>, options: 
   onBeforeUnmount(() => {
     disposed = true;
     stop();
-    clearTimeout(selectionTimer);
+    clearCapture();
     resizeObserver?.disconnect();
-    document.removeEventListener("selectionchange", onSelectionChange);
-    document.removeEventListener("pointerup", pointerUp);
-    document.removeEventListener("pointercancel", pointerUp);
-    document.removeEventListener("touchend", touchEnd, true);
-    document.removeEventListener("touchcancel", touchEnd, true);
-    document.removeEventListener("pointerdown", outside);
-    document.removeEventListener("keydown", keydown);
     window.removeEventListener("scroll", scroll, true);
     window.removeEventListener("wheel", manualScroll);
     window.removeEventListener("touchmove", manualScroll);
@@ -246,5 +236,5 @@ export function useReadingInteraction(reader: Ref<HTMLElement | null>, options: 
     window.visualViewport?.removeEventListener("resize", resize);
     window.visualViewport?.removeEventListener("scroll", resize);
   });
-  return { menu, selection, adjustingInline, position, pointerDown, touchStart, holdMenu, clickCapture, read, copy };
+  return { menu, selection, position, pointerDown, holdMenu, clickCapture, read, copy };
 }

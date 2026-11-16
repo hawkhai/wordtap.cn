@@ -50,7 +50,9 @@ try {
     await page.waitForFunction(() => document.querySelectorAll('[data-sentence-id]').length === 56);
     await reader.scrollIntoViewIfNeeded();
     const menu = page.locator('[data-testid="reading-selection-menu"]');
-    const inlineMenu = reader.getByTestId('reading-selection-inline');
+    const paragraphs = reader.locator('.study-paragraph-button');
+    const sentenceButton = index => reader.locator('[data-sentence-id]').nth(index)
+      .locator('.study-sentence-button:not(.study-paragraph-button)');
     const setSelection = async (start, end, reverse = false) => {
       await page.evaluate(({ start, end, reverse }) => {
         const tokens = Array.from(document.querySelectorAll('[data-source-start]')).filter(element => element.firstChild?.nodeType === 3);
@@ -68,123 +70,130 @@ try {
       await setSelection(start, end, reverse);
       await menu.waitFor({ state: 'visible' });
     };
-    const rangeButton = page.getByRole('button', { name: '选段朗读', exact: true });
-    const cancelRange = page.getByRole('button', { name: '取消选段', exact: true });
-    const tapSentence = index => reader.locator('[data-sentence-id]').nth(index).locator('.study-word').first().tap();
-    const startRange = async index => {
-      await rangeButton.tap();
-      await tapSentence(index);
-      await page.locator('.study-sentence-range-start').waitFor();
-    };
-
     if (hasTouch) {
       if (hideTouchPoints) {
-        assert.equal(await rangeButton.count(), 0);
+        assert.equal(await paragraphs.count(), 0);
+        await select(1, 9);
         await reader.dispatchEvent('touchstart');
-        await reader.dispatchEvent('touchend', { touches: [] });
+        await menu.waitFor({ state: 'hidden' });
+        assert.equal(await page.evaluate(() => getSelection().toString()), article.slice(1, 9));
       }
-      assert.ok((await rangeButton.boundingBox()).height >= 44);
-      await setSelection(1, 9);
-      await inlineMenu.waitFor();
-      assert.equal(await menu.count(), 0);
-      const inlineLayout = await inlineMenu.evaluate(element => {
-        const box = element.getBoundingClientRect();
-        const frame = getComputedStyle(element, '::before');
-        return {
-          position: getComputedStyle(element).position,
-          height: box.height,
-          frameHeight: box.height - parseFloat(frame.top) - parseFloat(frame.bottom),
-          targets: Array.from(element.querySelectorAll('button'), button => ({
-            width: button.offsetWidth, height: button.offsetHeight, fontSize: getComputedStyle(button).fontSize,
-          })),
-        };
+      assert.equal(await paragraphs.count(), 28);
+      assert.equal(await reader.locator('[data-sentence-id]').count(), 56);
+      const geometry = () => paragraphs.first().evaluate(button => {
+        const box = button.getBoundingClientRect();
+        return { width: box.width, height: box.height, source: button.nextElementSibling.querySelector('[data-source-start]')?.dataset.sourceStart };
       });
-      assert.ok(['static', 'relative'].includes(inlineLayout.position), 'selection actions stay in the text flow');
-      assert.deepEqual([inlineLayout.height, inlineLayout.frameHeight], [44, 36]);
-      assert.ok(inlineLayout.targets.every(({ width, height, fontSize }) => width >= 48 && height >= 44 && fontSize === '16px'));
-      assert.equal(await page.evaluate(() => getSelection().toString()), article.slice(1, 9));
+      assert.deepEqual(await geometry(), { width: 44, height: 44, source: '0' });
+      assert.equal(await paragraphs.first().locator('svg').innerHTML(), await sentenceButton(0).locator('svg').innerHTML());
+      assert.equal(await paragraphs.first().locator('svg').evaluate(svg => getComputedStyle(svg).width), '18px');
+      assert.equal(await sentenceButton(0).locator('svg').evaluate(svg => getComputedStyle(svg).width), '16px');
+      const anchors = () => paragraphs.evaluateAll(buttons => buttons.map(button => [button.offsetLeft, button.offsetTop]));
+      await page.evaluate(() => document.fonts.ready);
+      const initialAnchors = await anchors();
+      for (const [start, end, reverse] of [[1, 9, false], [3, 12, true], [12, 83, true], [2, 8, false]]) {
+        await setSelection(start, end, reverse);
+        const nativeRange = () => page.evaluate(() => {
+          const selection = getSelection();
+          return [selection.anchorNode.parentElement.dataset.sourceStart, selection.anchorOffset,
+            selection.focusNode.parentElement.dataset.sourceStart, selection.focusOffset, selection.toString()];
+        });
+        const expected = await nativeRange();
+        await page.waitForTimeout(200);
+        assert.deepEqual(await nativeRange(), expected);
+        assert.deepEqual(await anchors(), initialAnchors);
+        assert.equal(await page.locator('.study-selection-menu').count(), 0);
+      }
+      await page.evaluate(() => getSelection().removeAllRanges());
 
-      const inlineAnchor = () => inlineMenu.evaluate(element => [
-        element.offsetLeft, element.offsetTop, element.offsetHeight, element.previousElementSibling?.textContent,
-      ]);
-      const initialAnchor = await inlineAnchor();
-      // Native selection handles can report range changes between pauses without page touch events.
-      await setSelection(1, 24);
-      await page.waitForTimeout(230);
-      assert.deepEqual(await inlineAnchor(), initialAnchor, 'a brief stop while extending the range leaves its previous layout in place');
-      await inlineMenu.waitFor({ state: 'hidden' });
-      const scrollBeforeDrag = await page.evaluate(() => scrollY);
-      await page.evaluate(() => scrollBy(0, 24));
-      await page.waitForTimeout(220);
-      assert.deepEqual(await inlineAnchor(), initialAnchor, 'scrolling while adjusting the range also defers reflow');
-      await page.evaluate(y => scrollTo(0, y), scrollBeforeDrag);
-      await setSelection(12, 83, true);
-      await page.waitForFunction(() => {
-        const tail = document.querySelector('[data-testid="reading-selection-inline"]')?.previousElementSibling;
-        return tail?.contains(getSelection().getRangeAt(0).endContainer);
-      });
-      await inlineMenu.waitFor();
-
-      // When a browser sends touch events, keeping a finger down can outlast the quiet interval.
-      const extendedAnchor = await inlineAnchor();
-      await reader.dispatchEvent('touchstart');
-      await reader.dispatchEvent('pointerdown', { pointerType: 'touch' });
-      await setSelection(1, 52);
-      await reader.dispatchEvent('pointercancel', { pointerType: 'touch' });
-      await page.waitForTimeout(500);
-      assert.deepEqual(await inlineAnchor(), extendedAnchor, 'pausing with a finger down leaves the anchor in place');
-      await inlineMenu.waitFor({ state: 'hidden' });
-      await setSelection(12, 83, true);
-      await reader.dispatchEvent('touchend', { touches: [] });
-      await inlineMenu.waitFor();
-      await inlineMenu.getByRole('button', { name: '复制', exact: true }).tap();
-      assert.equal(await page.evaluate(() => window.__copied), article.slice(12, 83));
-      await inlineMenu.waitFor({ state: 'hidden' });
-
-      await setSelection(1, 9);
-      await inlineMenu.waitFor();
-      await page.evaluate(() => { window.__copyFails = true; });
-      await inlineMenu.getByRole('button', { name: '复制', exact: true }).tap();
-      assert.equal(await page.evaluate(() => getSelection().toString()), article.slice(1, 9));
-      await page.evaluate(() => { window.__copyFails = false; });
-      const inlineRead = inlineMenu.getByRole('button', { name: '朗读', exact: true });
-      assert.ok((await inlineRead.boundingBox()).height >= 44);
-      const inlineCopy = inlineMenu.getByRole('button', { name: '复制', exact: true });
-      await inlineCopy.hover();
-      const hoverPaint = await inlineCopy.evaluate(button => {
-        const style = getComputedStyle(button);
-        return [style.backgroundClip, style.borderTopColor];
-      });
-      assert.deepEqual(hoverPaint, ['padding-box', 'rgba(0, 0, 0, 0)']);
-      await inlineMenu.scrollIntoViewIfNeeded();
-      await page.screenshot({ path: path.join(output, `${width}-${theme}-inline-selection.png`) });
-      await inlineRead.tap();
-      await inlineMenu.waitFor({ state: 'hidden' });
+      await paragraphs.first().tap();
       await page.waitForFunction(() => window.__spoken.length === 1);
-      assert.equal(await page.evaluate(() => window.__spoken[0].text), 'Paragraph 1 begins here.');
-      await page.evaluate(() => { window.__spoken[0].onstart(); window.__spoken[0].onend(); });
-      await page.waitForFunction(() => document.querySelector('.study-fulltext-button').textContent.trim() === '全文朗读');
-      await page.evaluate(() => { window.__spoken = []; });
+      assert.match(await paragraphs.first().getAttribute('aria-label'), /正在准备朗读本段/);
+      const clockHand = paragraphs.first().locator('.study-speaker-clock-hand');
+      assert.deepEqual(await clockHand.evaluate(path => {
+        const style = getComputedStyle(path);
+        return [style.animationName, style.animationTimingFunction];
+      }), ['study-speaker-clock-turn', 'linear']);
+      assert.equal(await paragraphs.first().locator('svg circle').count(), 1, 'preparation shows a clock face');
+      assert.deepEqual(await geometry(), { width: 44, height: 44, source: '0' });
+      await paragraphs.first().tap();
+      assert.equal(await paragraphs.first().getAttribute('aria-pressed'), 'false', 'second tap stops a preparing paragraph');
+      await page.evaluate(() => { window.__spoken.at(-1).onend?.(); window.__spoken = []; });
 
-      await setSelection(1, 9);
-      await inlineMenu.waitFor();
-      await startRange(1);
-      assert.equal(await page.evaluate(() => getSelection().isCollapsed), true);
-      await cancelRange.tap();
-      assert.equal(await page.locator('.study-sentence-range-start').count(), 0);
-      assert.equal(await page.locator('.study-word-selected').count(), 0);
-      assert.equal(await page.evaluate(() => window.__spoken.length), 0);
-      await startRange(2);
-      await tapSentence(0);
-      for (const [index, sentence] of ['Paragraph 1 begins here.', 'Another sentence follows here.', 'Paragraph 2 begins here.'].entries()) {
+      await paragraphs.first().tap();
+      for (const [index, sentence] of ['Paragraph 1 begins here.', 'Another sentence follows here.'].entries()) {
         await page.waitForFunction(count => window.__spoken.length === count, index + 1);
         assert.equal(await page.evaluate(() => window.__spoken.at(-1).text), sentence);
-        await page.evaluate(() => { window.__spoken.at(-1).onstart(); window.__spoken.at(-1).onend(); });
+        if (index === 1) {
+          const hourglass = paragraphs.first().locator('.study-speaker-hourglass');
+          await hourglass.waitFor({ state: 'attached' });
+          assert.match(await paragraphs.first().getAttribute('aria-label'), /正在等待本段后续音频/);
+          assert.equal(await clockHand.count(), 0);
+          const grains = hourglass.locator('.study-speaker-sand-stream > circle');
+          assert.deepEqual(await grains.evaluateAll(nodes => nodes.map(node => getComputedStyle(node).animationDelay)),
+            ['0s', '-0.19s', '-0.38s']);
+          if (width === 390) {
+            const levels = await hourglass.locator('.study-speaker-sand').evaluateAll(nodes => nodes.map(node => {
+              const animation = node.getAnimations()[0];
+              animation.pause();
+              animation.currentTime = 0;
+              const initial = new DOMMatrix(getComputedStyle(node).transform).d;
+              animation.currentTime = 1500;
+              return [initial, new DOMMatrix(getComputedStyle(node).transform).d];
+            }));
+            assert.ok(levels[0][1] < levels[0][0], 'upper chamber drains');
+            assert.ok(levels[1][1] > levels[1][0], 'lower chamber fills');
+            await page.emulateMedia({ reducedMotion: 'reduce' });
+            assert.equal(await hourglass.evaluate(node => node.getAnimations({ subtree: true }).length), 0);
+            await page.emulateMedia({ reducedMotion: 'no-preference' });
+          }
+        }
+        await page.evaluate(() => window.__spoken.at(-1).onstart());
+        assert.match(await paragraphs.first().getAttribute('aria-label'), /正在朗读本段，点击停止/);
+        assert.equal(await clockHand.count(), 0);
+        assert.equal(await paragraphs.first().locator('.study-speaker-hourglass').count(), 0);
+        if (index === 0) {
+          const waves = paragraphs.first().locator('.study-speaker-wave');
+          assert.deepEqual(await waves.evaluateAll(paths => paths.map(path => getComputedStyle(path).animationDelay)), ['0s', '0.24s']);
+          assert.deepEqual(await paragraphs.first().evaluate(button => {
+            const style = getComputedStyle(button);
+            return [style.backgroundColor, style.borderTopWidth];
+          }), ['rgba(0, 0, 0, 0)', '0px']);
+          if (width === 390) {
+            await page.emulateMedia({ reducedMotion: 'reduce' });
+            assert.deepEqual(await waves.evaluateAll(paths => paths.map(path => path.getAnimations().length)), [0, 0]);
+            await page.emulateMedia({ reducedMotion: 'no-preference' });
+          }
+          await page.locator('.study-fulltext-button').evaluate(button => button.click());
+          assert.equal((await page.locator('.study-fulltext-button').textContent()).trim(), '继续');
+          assert.equal(await paragraphs.first().getAttribute('aria-pressed'), 'true');
+          assert.match(await paragraphs.first().getAttribute('aria-label'), /本段朗读已暂停，点击停止/);
+          await page.locator('.study-fulltext-button').evaluate(button => button.click());
+          assert.equal((await page.locator('.study-fulltext-button').textContent()).trim(), '暂停');
+          assert.match(await paragraphs.first().getAttribute('aria-label'), /正在朗读本段，点击停止/);
+        }
+        await page.evaluate(() => window.__spoken.at(-1).onend());
       }
-      await page.waitForFunction(() => document.querySelector('.study-fulltext-button').textContent.trim() === '全文朗读');
+      await page.waitForFunction(() => !document.querySelector('.study-paragraph-button[aria-pressed="true"]'));
+      assert.match(await paragraphs.first().getAttribute('aria-label'), /^朗读本段/);
+      assert.equal(await page.evaluate(() => window.__spoken.length), 2, 'paragraph ends after one pass');
+      await page.evaluate(() => { window.__spoken = []; });
+
+      await paragraphs.first().tap();
+      await page.waitForFunction(() => window.__spoken.length === 1);
+      await page.evaluate(() => window.__spoken.at(-1).onstart());
+      await paragraphs.nth(1).tap();
+      assert.equal(await paragraphs.first().getAttribute('aria-pressed'), 'false');
+      assert.equal(await paragraphs.nth(1).getAttribute('aria-pressed'), 'true');
+      await page.waitForFunction(() => window.__spoken.length === 2);
+      assert.equal(await page.evaluate(() => window.__spoken.at(-1).text), 'Paragraph 2 begins here.');
+      await page.evaluate(() => window.__spoken[0].onend?.());
+      await paragraphs.nth(1).tap();
+      assert.equal(await paragraphs.nth(1).getAttribute('aria-pressed'), 'false');
+      assert.equal(await page.evaluate(() => window.__spoken.length), 2, 'switching abandons the previous queue');
       await page.evaluate(() => { window.__spoken = []; });
     } else {
-      assert.equal(await rangeButton.count(), 0);
+      assert.equal(await paragraphs.count(), 0);
       // Exact copy survives reverse/cross-paragraph selections and excludes IPA.
       for (const [start, end, reverse] of [[1, 9, false], [12, 83, true]]) {
         await select(start, end, reverse);
@@ -240,26 +249,29 @@ try {
       assert.equal(await page.evaluate(() => document.activeElement.dataset.testid), 'study-text', 'keyboard focus returns to reader');
     }
 
-    if (hasTouch) await startRange(0);
-    else await select(1, 9);
+    if (!hasTouch) await select(1, 9);
     await page.screenshot({ path: path.join(output, `${width}-${theme}-selection.png`) });
-    if (hasTouch) await tapSentence(0);
+    if (hasTouch) await sentenceButton(0).tap();
     else await menu.getByRole('button', { name: '朗读', exact: true }).click();
     await page.waitForFunction(() => window.__spoken.length === 1);
     assert.equal(await page.evaluate(() => window.__spoken[0].text), 'Paragraph 1 begins here.');
+    if (hasTouch) assert.match(await sentenceButton(0).getAttribute('aria-label'), /正在准备朗读本句/);
     assert.equal(await page.locator('.study-sentence-playing').count(), 0, 'preparation does not bold');
     const geometry = () => page.locator('[data-sentence-id]').first().evaluate(element => Array.from(element.getClientRects()).map(rect => [rect.width, rect.height]));
     const before = await geometry();
     await page.evaluate(() => window.__spoken.at(-1).onstart());
     await page.waitForTimeout(650);
     assert.deepEqual(await geometry(), before, 'paint-only bold does not reflow');
+    if (hasTouch) assert.match(await sentenceButton(0).getAttribute('aria-label'), /正在朗读本句，点击停止/);
     assert.equal(await page.locator('.study-sentence-playing').count(), 1);
     assert.equal(await page.locator('.study-sentence-playing .study-word-ipa').first().evaluate(element => getComputedStyle(element).webkitTextStrokeWidth), '0px');
     await page.mouse.move(0, 0);
     await page.screenshot({ path: path.join(output, `${width}-${theme}-playing.png`) });
     await page.evaluate(() => window.__spoken.at(-1).onend());
     await page.waitForFunction(() => document.querySelector('.study-fulltext-button').textContent.trim() === '全文朗读');
-    assert.equal(await page.evaluate(() => window.__spoken.length), 1, 'selection plays once');
+    await page.locator('.study-sentence-playing').waitFor({ state: 'hidden' });
+    if (hasTouch) assert.match(await sentenceButton(0).getAttribute('aria-label'), /^朗读本句/);
+    assert.equal(await page.evaluate(() => window.__spoken.length), 1, 'sentence plays once');
 
     // Full-text sound events move the sentence and follow it through the document.
     await page.locator('.study-fulltext-button').click();
@@ -291,13 +303,14 @@ try {
       selection:getSelection().toString(), menu:!!document.querySelector('[data-testid="reading-selection-menu"]'),
     }))));
 
-    // Holding a selection prevents follow from fighting the user.
-    if (hasTouch) await startRange(0);
-    else await select(1, 9);
-    await page.evaluate(() => scrollTo(0, 0)); await page.waitForTimeout(600);
-    assert.equal(await page.evaluate(() => scrollY), 0);
-    await page.keyboard.press('Escape'); await page.waitForTimeout(650);
-    assert.equal(await visible(), true);
+    // Desktop selection suspends follow until the selection menu is dismissed.
+    if (!hasTouch) {
+      await select(1, 9);
+      await page.evaluate(() => scrollTo(0, 0)); await page.waitForTimeout(600);
+      assert.equal(await page.evaluate(() => scrollY), 0);
+      await page.keyboard.press('Escape'); await page.waitForTimeout(650);
+      assert.equal(await visible(), true);
+    }
     await page.emulateMedia({ reducedMotion: 'reduce' });
     await page.evaluate(() => scrollTo(0, 0)); await page.waitForTimeout(250);
     assert.equal(await visible(), true, 'reduced-motion follow is immediate after debounce');
@@ -309,8 +322,7 @@ try {
     await reader.scrollIntoViewIfNeeded();
     const lastParagraph = article.lastIndexOf('Paragraph 28');
     if (hasTouch) {
-      await startRange(54);
-      await tapSentence(54);
+      await paragraphs.last().tap();
     } else {
       await select(lastParagraph + 1, lastParagraph + 9);
       await menu.getByRole('button', { name: '朗读', exact: true }).click();
@@ -323,13 +335,19 @@ try {
       const box = element.getBoundingClientRect();
       return element.scrollTop > 0 && target.top >= box.top + 23 && target.bottom <= box.bottom - 23;
     }), true, 'nested scroll keeps the sentence inside the reader');
-    await page.evaluate(() => window.__spoken.at(-1).onend());
-    await page.waitForFunction(() => document.querySelector('.study-fulltext-button').textContent.trim() === '全文朗读');
-    if (hasTouch) await startRange(54);
-    else await select(lastParagraph + 1, lastParagraph + 9);
+    if (hasTouch) {
+      await page.evaluate(() => window.__spoken.at(-1).onend());
+      await page.waitForFunction(() => window.__spoken.at(-1).text === 'Another sentence follows here.');
+      assert.equal(await paragraphs.last().getAttribute('aria-pressed'), 'true');
+    } else {
+      await page.evaluate(() => window.__spoken.at(-1).onend());
+      await page.waitForFunction(() => document.querySelector('.study-fulltext-button').textContent.trim() === '全文朗读');
+      await select(lastParagraph + 1, lastParagraph + 9);
+    }
     await page.locator('textarea').fill('Changed text.');
     await menu.waitFor({ state: 'hidden' });
-    await cancelRange.waitFor({ state: 'hidden' });
+    await page.waitForFunction(() => document.querySelector('.study-fulltext-button').textContent.trim() === '全文朗读');
+    assert.equal(await reader.locator('.study-paragraph-button[aria-pressed="true"]').count(), 0);
     assert.equal(await page.locator('.study-sentence-playing').count(), 0);
     await page.locator('textarea').fill(`Long ${'word '.repeat(400)}sentence. End.`);
     await page.waitForFunction(() => document.querySelectorAll('[data-sentence-id]').length === 2);
@@ -353,16 +371,18 @@ try {
     const overflow = await page.evaluate(() => document.documentElement.scrollWidth > document.documentElement.clientWidth);
     assert.equal(overflow, false, 'no horizontal page overflow');
     if (hasTouch) {
+      await page.locator('textarea').fill('First line.\n第二行，Second line.\n\n中文。\n\n \n...\n\nLast paragraph.');
+      await page.waitForFunction(() => document.querySelectorAll('.study-paragraph-button').length === 2);
       await page.locator('textarea').fill('...');
-      await page.waitForFunction(() => !document.querySelector('[data-sentence-id]') && document.querySelector('.study-range-button')?.disabled);
+      await page.waitForFunction(() => !document.querySelector('[data-sentence-id], .study-paragraph-button'));
     }
     assert.deepEqual(errors, []);
-    const selectionChecks = hasTouch ? ['native-selection', 'inline-end-anchor', 'stable-layout-during-selection', 'inline-read', 'inline-copy', 'touch-range', 'reverse-cross-paragraph', 'cancel-range', 'no-sentences-disabled'] :
-      ['exact-copy', 'reverse-cross-paragraph', 'clipboard-failure', 'phonetics-original-offsets', 'menu-bounds', 'keyboard-menu'];
+    const selectionChecks = hasTouch ? ['native-selection', 'stable-layout-during-selection', 'paragraph-once', 'paragraph-switch-stop', 'paragraph-pause-resume', 'paragraph-edit-stop', 'speaker-states', 'readable-paragraph-boundaries', '44px-target'] :
+      ['exact-copy', 'reverse-cross-paragraph', 'clipboard-failure', 'phonetics-original-offsets', 'menu-bounds', 'keyboard-menu', 'selection-suspends-follow'];
     if (hideCoarsePointer) selectionChecks.push(hideTouchPoints ? 'touch-event-fallback' : 'touch-points-fallback');
     results.push({ width, theme, checks: [...selectionChecks,
-      'selection-once', 'actual-sound-bold', 'no-reflow', 'ipa-regular', 'fulltext-follow', 'manual-scroll',
-      'pause-resume', 'selection-suspends-follow', 'reduced-motion', 'stop-clears', 'no-overflow', 'ipa-selection-rejected',
+      'sentence-once', 'actual-sound-bold', 'no-reflow', 'ipa-regular', 'fulltext-follow', 'manual-scroll',
+      'pause-resume', 'reduced-motion', 'stop-clears', 'no-overflow', 'ipa-selection-rejected',
       'nested-scroll', 'edit-clears-selection', 'long-sentence'], errors });
     console.log(`PASS ${width}px ${theme}`);
     await context.close();
