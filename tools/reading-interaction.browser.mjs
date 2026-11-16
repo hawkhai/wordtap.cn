@@ -11,7 +11,8 @@ const output = process.env.WORDTAP_TEST_OUTPUT || path.resolve('tmp/reading-foll
 await fs.mkdir(output, { recursive: true });
 const browser = await chromium.launch({ headless: true, channel: 'chrome' });
 const results = [];
-const article = Array.from({ length: 28 }, (_, index) => `Paragraph ${index + 1} begins here. Another sentence follows here.`).join('\n\n');
+const article = Array.from({ length: 28 }, (_, index) =>
+  `Paragraph ${index + 1} begins here.${index === 0 ? '\n' : ' '}Another sentence follows here.`).join('\n\n');
 try {
   for (const width of (process.env.WORDTAP_TEST_WIDTHS?.split(',').map(Number) || [1440, 1024, 390, 360])) for (const theme of ['light', 'dark']) {
     const hasTouch = width <= 1024;
@@ -74,6 +75,26 @@ try {
     const anchors = () => paragraphs.evaluateAll(buttons => buttons.map(button => [button.offsetLeft, button.offsetTop]));
     await page.evaluate(() => document.fonts.ready);
     const initialAnchors = await anchors();
+    const underlined = () => reader.locator('.study-paragraph').evaluateAll(groups =>
+      groups.slice(0, 2).map(group => {
+        const dotted = element => {
+          const style = getComputedStyle(element);
+          return style.textDecorationLine === 'underline' && style.textDecorationStyle === 'dotted';
+        };
+        return [dotted(group), ...Array.from(group.querySelectorAll('.study-sentence'), sentence =>
+          Array.from(sentence.querySelectorAll('.study-word')).every(dotted))];
+      }));
+    if (!hasTouch) {
+      await paragraphs.first().hover();
+      assert.deepEqual(await underlined(), [[true, true, true], [false, false, false]], 'paragraph hover includes both lines');
+      assert.deepEqual(await anchors(), initialAnchors, 'underlining does not move the speakers');
+      await sentenceButton(0).hover();
+      assert.deepEqual(await underlined(), [[false, true, false], [false, false, false]], 'sentence hover only marks its own sentence');
+      await paragraphs.nth(1).hover();
+      assert.deepEqual(await underlined(), [[false, false, false], [true, true, true]], 'hover moves to the matching paragraph');
+      await page.mouse.move(0, 0);
+      assert.deepEqual(await underlined(), [[false, false, false], [false, false, false]]);
+    }
     await page.evaluate(() => {
       const words = document.querySelectorAll('.study-word .study-source-text');
       getSelection().setBaseAndExtent(words[9].firstChild, 3, words[0].firstChild, 1);
@@ -94,6 +115,7 @@ try {
       await page.keyboard.press('Enter');
     }
     await page.waitForFunction(() => window.__spoken.length === 1);
+    if (hasTouch) assert.deepEqual(await underlined(), [[false, false, false], [false, false, false]], 'touch does not leave a hover underline');
     assert.match(await paragraphs.first().getAttribute('aria-label'), /正在准备朗读本段/);
     const clockHand = paragraphs.first().locator('.study-speaker-clock-hand');
     assert.deepEqual(await clockHand.evaluate(path => {
@@ -309,7 +331,7 @@ try {
       'paragraph-pause-resume', 'paragraph-edit-stop', 'speaker-states', 'readable-paragraph-boundaries', 'text-sized-target',
       'sentence-once', 'actual-sound-bold', 'no-reflow', 'ipa-regular', 'fulltext-follow', 'manual-scroll',
       'pause-resume', 'reduced-motion', 'stop-clears', 'no-overflow', 'nested-scroll', 'long-sentence'];
-    if (!hasTouch) checks.push('paragraph-keyboard', 'drag-does-not-lookup');
+    if (!hasTouch) checks.push('paragraph-keyboard', 'drag-does-not-lookup', 'paragraph-and-sentence-hover-scope');
     results.push({ width, theme, checks, errors });
     console.log(`PASS ${width}px ${theme}`);
     await context.close();

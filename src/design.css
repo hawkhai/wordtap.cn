@@ -379,15 +379,24 @@ body { background: var(--wt-background); color: var(--wt-text); }
 .study-sentence-button:active:not(:disabled) { opacity: 1; }
 .study-sentence-button:disabled { opacity: .36; cursor: not-allowed; }
 @media (hover: hover) {
-  .study-sentence:hover, .study-sentence:hover .study-word {
+  .study-paragraph:has(.study-paragraph-button:hover),
+  .study-paragraph:has(.study-paragraph-button:hover) .study-word,
+  .study-sentence:hover:not(:has(> .study-paragraph-button:hover)),
+  .study-sentence:hover:not(:has(> .study-paragraph-button:hover)) .study-word {
     text-decoration-line: underline;
     text-decoration-style: dotted;
     text-decoration-color: color-mix(in srgb, var(--wt-secondary) 30%, transparent);
     text-decoration-thickness: 1px;
     text-underline-offset: 6px;
   }
-  .study-sentence:hover .study-sentence-button:not(:disabled) { opacity: 1; color: var(--wt-primary); }
-  .study-sentence:hover .study-sentence-button:not(:disabled) > svg { transform: scale(1.3); }
+  .study-paragraph-button:hover:not(:disabled),
+  .study-sentence:hover:not(:has(> .study-paragraph-button:hover)) .study-sentence-button:not(.study-paragraph-button, :disabled) {
+    opacity: 1; color: var(--wt-primary);
+  }
+  .study-paragraph-button:hover:not(:disabled) > svg,
+  .study-sentence:hover:not(:has(> .study-paragraph-button:hover)) .study-sentence-button:not(.study-paragraph-button, :disabled) > svg {
+    transform: scale(1.3);
+  }
 }
 
 .study-paragraph-button {

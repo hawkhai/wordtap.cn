@@ -47,25 +47,44 @@ function ignoreSelectionClick(event: MouseEvent) {
   }
 }
 
-const positionedRuns = computed(() => {
-  const paragraphStarts = new Map(props.paragraphs.map((paragraph, index) =>
-    [paragraph.start, { id: paragraph.id, text: `第 ${index + 1} 段` }] as const));
+const paragraphRuns = computed(() => {
+  const groups: { key: string; paragraph?: { id: string; text: string }; runs: ReadingRun[] }[] = [];
+  let paragraphIndex = 0;
   let offset = 0;
-  return props.runs.map(run => ({ ...run, positionedSegments: run.segments.map(segment => {
-    const start = offset;
-    offset += segment.text.length + (segment.type === "word" ? segment.trailingText?.length ?? 0 : 0);
-    const paragraph = paragraphStarts.get(start);
-    // Empty blank-line segments can share the next paragraph's source offset.
-    return { segment, paragraph: segment.type === "blank-line" || !segment.text.trim() ? undefined : paragraph };
-  }) }));
+  for (const run of props.runs) {
+    let groupedRun: ReadingRun | undefined;
+    for (const segment of run.segments) {
+      while (paragraphIndex < props.paragraphs.length && props.paragraphs[paragraphIndex].end <= offset) paragraphIndex++;
+      const next = props.paragraphs[paragraphIndex];
+      // An empty blank-line segment can share the next paragraph's source offset.
+      const paragraph = next && offset >= next.start && segment.type !== "blank-line" ? next : undefined;
+      let group = groups.at(-1);
+      if (!group || group.paragraph?.id !== paragraph?.id) {
+        group = {
+          key: paragraph?.id ?? `gap-${offset}`,
+          paragraph: paragraph && { id: paragraph.id, text: `第 ${paragraphIndex + 1} 段` },
+          runs: [],
+        };
+        groups.push(group);
+        groupedRun = undefined;
+      }
+      if (!groupedRun) {
+        groupedRun = { ...run, segments: [] };
+        group.runs.push(groupedRun);
+      }
+      groupedRun.segments.push(segment);
+      offset += segment.text.length + (segment.type === "word" ? segment.trailingText?.length ?? 0 : 0);
+    }
+  }
+  return groups;
 });
 </script>
 
 <template>
   <div ref="reader" class="study-reader overflow-auto whitespace-pre-wrap text-2xl leading-[2.4rem]" :class="{ 'study-reader-phonetics': displayMode && displayMode !== 'original' }" lang="en" data-testid="study-text"
     @pointerdown="rememberMouseDown" @click.capture="ignoreSelectionClick">
-    <span v-for="run in positionedRuns" :key="run.id" :class="{ 'study-sentence': run.sentence, 'study-sentence-playing': run.sentence?.id === playingSentenceId }" :data-sentence-id="run.sentence?.id"><template v-for="{ segment, paragraph } in run.positionedSegments" :key="segment.id"><SentenceReadButton
-        v-if="paragraph" paragraph lang="zh-CN"
+    <span v-for="{ key, paragraph, runs } in paragraphRuns" :key="key" :class="{ 'study-paragraph': paragraph }"><span v-for="(run, runIndex) in runs" :key="run.id" :class="{ 'study-sentence': run.sentence, 'study-sentence-playing': run.sentence?.id === playingSentenceId }" :data-sentence-id="run.sentence?.id"><template v-for="(segment, segmentIndex) in run.segments" :key="segment.id"><SentenceReadButton
+        v-if="paragraph && runIndex === 0 && segmentIndex === 0" paragraph lang="zh-CN"
         :state="paragraph.id === activeParagraphId ? paragraphState : 'idle'"
         :disabled="disabled && paragraph.id !== activeParagraphId" :text="paragraph.text"
         @play="$emit('paragraph', paragraph.id)"
@@ -78,6 +97,6 @@ const positionedRuns = computed(() => {
       :state="run.sentence.id === activeSentenceId ? sentenceState : 'idle'"
       :disabled="disabled && run.sentence.id !== activeSentenceId" :text="run.sentence.text"
       @play="$emit('sentence', run.sentence.id)"
-    /></span>
+    /></span></span>
   </div>
 </template>
