@@ -12,8 +12,8 @@
 
 ## 自动检查
 
-- 源仓库：朗读 56 项，连同跟打、音标 79 项通过；typecheck、verify:responsive、完整 npm run build（含 prebuild / postbuild）通过，构建内 8 项 Python、111 项 Node 测试通过。Gateway 7 项 Rust 测试及严格 Clippy（all-targets / -D warnings）通过。
-- 公共仓库：111 项业务测试、typecheck、verify:responsive、完整 npm run build（含发布内容验证、类型检查、静态生成、短链、考试、主题和站内资源检查）及开源完整性检查通过。
+- 同轮另一构建：朗读 56 项，连同跟打、音标 79 项通过；typecheck、verify:responsive、完整 npm run build（含 prebuild / postbuild）通过，构建内 8 项 Python、111 项 Node 测试通过。Gateway 7 项 Rust 测试及严格 Clippy（all-targets / -D warnings）通过。
+- 开源版：111 项业务测试、typecheck、verify:responsive、完整 npm run build（含发布内容验证、类型检查、静态生成、短链、考试、主题和站内资源检查）及开源完整性检查通过。
 - cf-design 定向源码扫描新增说明组件、桌面／移动 Shell 及样式，0 primary、0 advisory。真实渲染使用宿主浏览器检查，未运行独立的 cf-design 渲染脚本。
 
 ## 真实声音样本

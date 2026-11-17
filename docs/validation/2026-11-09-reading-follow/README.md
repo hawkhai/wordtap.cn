@@ -12,7 +12,7 @@
 
 ## 验证方法
 
-`npm run verify` 覆盖发布快照、完整构建、业务回归、开源目录和响应式检查。相关定向入口为 `npm run test:sentence-reading`、`npm run test:reading-phonetics`。
+`npm run verify` 覆盖发布快照、完整构建、业务回归、开源版目录和响应式检查。相关定向入口为 `npm run test:sentence-reading`、`npm run test:reading-phonetics`。
 
 `npm run verify:reading-interaction` 使用已有 Playwright 和 Chrome 对本地生产预览运行六组检查：1440×1000、390×844、360×844 的浅色／深色，覆盖原文及音标显示。通过 `WORDTAP_PLAYWRIGHT_MODULE`、`WORDTAP_TEST_URL` 和 `WORDTAP_TEST_OUTPUT` 指定外部工具、预览地址与产物目录。默认产物位于忽略目录 `tmp/reading-follow/`，不把大体积截图加入仓库。
 
@@ -21,7 +21,7 @@
 ## 验证结果
 
 - 朗读 69 项、音标 8 项、搜索回归 2 项定向测试通过，共 79 项。
-- `npm run verify` 通过，包含完整构建、134 项业务测试、发布数据快照、静态页面、开源目录与响应式检查。预存的未跟踪本地可执行文件只在验收进程排除，未修改、打包或提交。
+- `npm run verify` 通过，包含完整构建、134 项业务测试、发布数据快照、静态页面、开源版目录与响应式检查。预存的未跟踪本地可执行文件只在验收进程排除，未修改、打包或提交。
 - 六组 Chrome 生产预览检查全部通过，每组记录 21 类检查；页面异常与横向溢出为 0。报告为 `tmp/reading-follow/browser-results.json`，对应选区／播放截图位于同目录。
 - `git diff --check` 通过。未修改课程原文或发布数据哈希。
 
