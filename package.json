@@ -35,7 +35,8 @@
     "test:search-seo": "node --test tools/search-seo.test.mjs",
     "generate:search-redirects": "node tools/generate-search-redirects.mjs",
     "verify:search-seo": "node tools/verify-search-pages.mjs",
-    "verify:reading-interaction": "node tools/reading-interaction.browser.mjs"
+    "verify:reading-interaction": "node tools/reading-interaction.browser.mjs",
+    "verify:mobile-study": "node tools/mobile-study.browser.mjs"
   },
   "dependencies": {
     "vue": "^3.5.42"

@@ -683,10 +683,6 @@ export async function importCompleteLearningDataJson(text: string): Promise<Lear
   const rawProgress = Array.isArray(data.examProgress) ? data.examProgress : [];
   const rawExamWords = Array.isArray(data.examWords) ? data.examWords : [];
   const rawArticleTyping = Array.isArray(data.articleTyping) ? data.articleTyping : [];
-  if (!rawWords.length && !rawTexts.length && !rawProgress.length && !rawExamWords.length && !rawArticleTyping.length) {
-    throw new Error(siteCopy.historyStore.noImportRecords);
-  }
-
   const words = rawWords.map(normalizeImportedRecord).filter((record): record is StudyHistoryRecord => Boolean(record));
   const texts = (await Promise.all(rawTexts.map(normalizeImportedText))).filter((record): record is StudyTextRecord => Boolean(record));
   const progress = rawProgress.map(normalizeImportedExamProgress).filter((record): record is ExamProgressRecord => Boolean(record));
@@ -787,7 +783,7 @@ function normalizeImportedArticleTypingProgress(raw: unknown): ArticleTypingProg
     drafts[Number(key)] = value;
   }
   const updatedAt = normalizeDate(item.updatedAt);
-  if (!updatedAt) return null;
+  if (!updatedAt || Number.isNaN(Date.parse(updatedAt))) return null;
   return {
     key: item.key!, sourceId: item.sourceId, mode: mode!,
     selectionStart: item.selectionStart, selectionEnd: item.selectionEnd,

@@ -74,9 +74,9 @@ for (const sourcePath of protocolSourceFiles) {
 }
 
 function verifyServiceWorker(text, label) {
-  const cacheVersion = Number(/CACHE_NAME\s*=\s*"wordtap-v(\d+)"/.exec(text)?.[1] ?? 0);
+  const cacheVersion = Number(/CACHE_NAME\s*=\s*"wordtap-v(\d+)(?:-[a-f0-9]+)?"/.exec(text)?.[1] ?? 0);
   const courseDataBranchIndex = text.indexOf("const isCourseData");
-  const genericCacheFirstIndex = text.indexOf("caches.match(event.request).then");
+  const genericCacheFirstIndex = text.indexOf("caches.match(event.request, { cacheName:");
   invariant(cacheVersion >= 4, `${label}: cache version must invalidate pre-manifest-fix caches`);
   invariant(
     /async function fetchAndCache[\s\S]*?await cache\.put\(request, response\.clone\(\)\)/.test(text),
@@ -94,7 +94,13 @@ function verifyServiceWorker(text, label) {
 
 verifyServiceWorker(serviceWorker, path.relative(root, serviceWorkerPath));
 const builtServiceWorkerPath = path.join(root, "dist", "sw.js");
-verifyServiceWorker(await readFile(builtServiceWorkerPath, "utf8"), path.relative(root, builtServiceWorkerPath));
+const builtServiceWorker = await readFile(builtServiceWorkerPath, "utf8");
+verifyServiceWorker(builtServiceWorker, path.relative(root, builtServiceWorkerPath));
+const appAssets = JSON.parse(/^const APP_ASSETS = (\[.*\]);$/m.exec(builtServiceWorker)?.[1] ?? "null");
+invariant(Array.isArray(appAssets) && appAssets.some(asset => asset.endsWith(".css")) && appAssets.some(asset => asset.endsWith(".js")),
+  "dist/sw.js must precache the built application styles and scripts");
+invariant(/CACHE_NAME\s*=\s*"wordtap-v\d+-[a-f0-9]+"/.test(builtServiceWorker),
+  "dist/sw.js must use a build-specific cache name");
 
 for (const dropdownName of ["EnglishVocabularyDropdown.vue", "PepEnglishDropdown.vue", "NceDropdown.vue", "ShuimuDropdown.vue", "PostgraduateDropdown.vue", "CollegeEnglishDropdown.vue", "CetDropdown.vue", "KaoyanEnglishDropdown.vue"]) {
   const dropdown = await readFile(path.join(root, "src", dropdownName), "utf8");

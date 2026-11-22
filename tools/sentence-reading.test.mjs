@@ -135,7 +135,45 @@ test("version heartbeats during consecutive sentences preserve playback feedback
   } finally { h.dispose(); }
 });
 
-function harness() {
+test("installer links let the browser navigate across origins and check same-origin responses", async () => {
+  for (const downloadBase of ['https://cdn.example.com/', 'https://wordtap.cn/']) {
+    const h = harness({ downloadBase });
+    try {
+      const location = h.window.location;
+      Object.assign(location, { href: 'https://wordtap.cn/', origin: 'https://wordtap.cn', protocol: 'https:' });
+      const guideUrls = [], downloadUrls = [], headUrls = [];
+      h.window.open = url => guideUrls.push(url);
+      location.assign = url => downloadUrls.push(url);
+      const installer = `${downloadBase}downloads/WordTap-Setup.exe`;
+      const crossOrigin = downloadBase !== location.href;
+      const response = deferred();
+      h.window.fetch = (url, { method }) => {
+        assert.equal(method, 'HEAD');
+        headUrls.push(url);
+        return response.promise;
+      };
+      let prevented = false;
+      const event = { preventDefault() { prevented = true; } };
+      const download = h.app.handleWordTapWindowsDownload(event);
+      assert.equal(prevented, !crossOrigin);
+      assert.equal(guideUrls.length, 1);
+      assert.deepEqual(downloadUrls, []);
+      response.resolve({ ok: true });
+      await download;
+      assert.deepEqual(headUrls, crossOrigin ? [] : [installer]);
+      assert.deepEqual(downloadUrls, crossOrigin ? [] : [installer]);
+
+      if (!crossOrigin) {
+        h.window.fetch = async () => ({ ok: false });
+        await h.app.handleWordTapWindowsDownload(event);
+        assert.deepEqual(downloadUrls, [installer]);
+        assert.equal(h.app.status.value, h.app.copy.status.wordTapInstallerNotReady);
+      }
+    } finally { h.dispose(); }
+  }
+});
+
+function harness({ downloadBase } = {}) {
   const warnings = [], expectedWarnings = [];
   const testConsole = { ...console, warn: (...args) => warnings.push(args) };
   const timers = new Map();
@@ -191,7 +229,7 @@ function harness() {
     "../stores/historyStore": history,
     "../utils/gatewayTranslate": { translateWithBaiduSugGateway: async () => null },
     "../utils/lessonUrls": { buildLessonShortUrl: () => '', lessonShortCode: () => '', parseLessonShortCode: () => null },
-    "../utils/assetUrls": { appAssetUrl: s => s, appDownloadUrl: s => s },
+    "../utils/assetUrls": { appAssetUrl: s => s, appDownloadUrl: s => downloadBase ? new URL(s, downloadBase).href : s },
     "../utils/device": { isNarrowLayoutViewport: () => false, isProbablyMobileBrowser: () => false, isWindows: () => true },
   };
   const cache = new Map();
@@ -1276,39 +1314,57 @@ test("Gateway sentence identity ignores prefetch and fallback keeps repeat and c
   } finally { h.dispose(); }
 });
 
-test("selection expands half-open offsets to whole sentences and plays exactly once", async () => {
+test("paragraphs follow blank lines and play readable sentences once in original order", async () => {
   const h = harness();
   try {
-    h.text('Same sentence. Same sentence. Last sentence.'); h.app.selectedRepeat.value = 3;
-    const snapshot = h.app.sourceText.value;
-    const second = h.app.sentences.value[1];
-    await h.app.readSelection({snapshot, start:second.start + 2, end:second.end - 2});
-    assert.equal(h.utterances[0].text, second.text);
-    h.utterances[0].onstart(); assert.equal(h.app.playingSentenceId.value, second.id);
-    assert.match(h.app.status.value, /选段朗读/);
-    h.utterances[0].onend(); await tick();
-    assert.equal(h.utterances.length, 1); assert.equal(h.app.isSpeaking.value, false);
-    assert.equal(h.writes.length, 0);
-    await h.app.readSelection({snapshot:'stale', start:0, end:5});
-    assert.equal(h.utterances.length, 1);
-    await h.app.readSelection({snapshot, start:second.start, end:h.app.sentences.value[2].start});
-    assert.equal(h.utterances.at(-1).text, second.text);
-    h.utterances.at(-1).onend(); await tick();
-    assert.equal(h.app.isSpeaking.value, false);
+    h.text('First sentence.\r\nSecond sentence.\r\n \t\r\n中文。\n\n...\n\n\n中文前言。\nEnglish 尾注 sentence.');
+    h.app.selectedRepeat.value = 3;
+    const snapshot = h.app.readingSnapshot.value;
+    const [first, last] = h.app.readingParagraphs.value;
+    assert.deepEqual(Array.from(h.app.readingParagraphs.value, ({ start, end }) => snapshot.slice(start, end)),
+      ['First sentence.\r\nSecond sentence.', '中文前言。\nEnglish 尾注 sentence.']);
+    h.app.readParagraph(first.id);
+    assert.equal(h.app.activeParagraphId.value, first.id);
+    assert.equal(h.app.isFullTextPreparing.value, true);
+    for (const [index, text] of ['First sentence.', 'Second sentence.'].entries()) {
+      const utterance = h.utterances[index];
+      assert.equal(utterance.text, text);
+      utterance.onstart();
+      assert.equal(h.app.playingSentenceId.value, h.app.sentences.value[index].id);
+      utterance.onend();
+      await tick();
+    }
+    assert.equal(h.utterances.length, 2);
+    assert.equal(h.app.activeParagraphId.value, '');
+    h.app.readParagraph(last.id);
+    assert.equal(h.utterances.at(-1).text, 'English sentence.');
+    const stale = h.utterances.at(-1).onstart;
+    h.app.sourceText.value = 'Edited sentence.';
+    stale();
+    assert.equal(h.app.activeParagraphId.value, '');
+    assert.equal(h.app.playingSentenceId.value, '');
   } finally { h.dispose(); }
 });
 
-test("cross-paragraph selections retain original IDs, filter unreadable parts and cancel on edit", async () => {
+test("a preparing paragraph stays active across Gateway fallback and its own button can stop it", async () => {
   const h = harness();
   try {
-    h.text('中文前言。\nFirst sentence.\nSecond sentence.');
-    await h.app.readSelection({snapshot:h.app.sourceText.value, start:1, end:h.app.sourceText.value.length - 2});
-    assert.equal(h.utterances[0].text, 'First sentence.');
-    h.utterances[0].onstart(); assert.equal(h.app.playingSentenceId.value, h.app.sentences.value[1].id);
-    h.utterances[0].onend(); await tick();
-    const stale = h.utterances[1].onstart;
-    h.app.sourceText.value = 'Edited sentence.'; stale();
-    assert.equal(h.app.playingSentenceId.value, ''); assert.equal(h.app.isSpeaking.value, false);
+    h.text('First sentence. Second sentence.\n\nLast sentence.');
+    h.app.isGatewayRunning.value = true;
+    const [first, last] = h.app.readingParagraphs.value;
+    h.app.readParagraph(first.id);
+    assert.equal(h.app.activeParagraphId.value, first.id);
+    h.app.readParagraph(last.id);
+    assert.equal(h.app.activeParagraphId.value, last.id);
+    h.expectGatewayWarning('offline');
+    h.gateways.at(-1).pending.reject(new Error('offline'));
+    await tick();
+    assert.equal(h.app.activeParagraphId.value, last.id);
+    assert.equal(h.utterances[0].text, 'Last sentence.');
+    h.app.readParagraph(last.id);
+    assert.equal(h.app.activeParagraphId.value, '');
+    assert.equal(h.app.isFullTextSpeaking.value, false);
+    assert.equal(h.app.playingSentenceId.value, '');
   } finally { h.dispose(); }
 });
 
@@ -1345,11 +1401,5 @@ test("safe-area scroll geometry is stable for visible, clipped and taller-than-s
     assert.equal(delta({top:100,bottom:1500},24,700), 0);
     assert.equal(delta({top:-100,bottom:1500},24,700), -124);
     assert.equal(delta({top:100,bottom:200},200,100), 0);
-    const {selectionMenuPosition: place} = h.load('src/shared/utils/readingSelection.ts');
-    for (const width of [360,390,1440]) {
-      const position = place({left:width-2,right:width,top:2,bottom:30}, {left:0,top:0,width,height:800}, 132,54);
-      assert.ok(position.left >= 8 && position.left + 132 <= width - 8);
-      assert.equal(position.top,38);
-    }
   } finally { h.dispose(); }
 });

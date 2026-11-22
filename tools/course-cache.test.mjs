@@ -17,17 +17,21 @@ const courses = [
 const sw = fs.readFileSync(new URL("../public/sw.js", import.meta.url), "utf8");
 
 // Execute the shipped worker with an old cache and a separately changing server.
-function worker({ cached = "old", offline = false, status = 200 } = {}) {
+function worker({ cached = "old", offline = false, status = 200, cacheNames = [] } = {}) {
   const handlers = {};
   const requests = [];
   const writes = [];
+  const deletions = [];
   vm.runInNewContext(sw, {
     URL,
     self: {
       location: { origin: "https://wordtap.cn" },
       addEventListener: (name, handler) => { handlers[name] = handler; },
+      clients: { claim: async () => {} },
     },
     caches: {
+      keys: async () => cacheNames,
+      delete: async name => deletions.push(name),
       match: async () => cached == null ? undefined : new Response(cached),
       open: async () => ({ put: async (request, response) => {
         cached = await response.text();
@@ -41,7 +45,12 @@ function worker({ cached = "old", offline = false, status = 200 } = {}) {
     },
   });
   return {
-    requests, writes,
+    requests, writes, deletions,
+    activate() {
+      let finished;
+      handlers.activate({ waitUntil: value => { finished = value; } });
+      return finished;
+    },
     fetch(path) {
       let response;
       handlers.fetch({
@@ -52,6 +61,12 @@ function worker({ cached = "old", offline = false, status = 200 } = {}) {
     },
   };
 }
+
+test("worker activation deletes expired app caches and keeps other caches on the origin", async () => {
+  const w = worker({ cacheNames: ["wordtap-v8", "wordtap-v9-aabbcc", "wordtap-v9", "another-app"] });
+  await w.activate();
+  assert.deepEqual(w.deletions, ["wordtap-v8", "wordtap-v9-aabbcc"]);
+});
 
 for (const [course, file, name] of courses) {
   test(`${course}: old lesson and manifest caches are replaced online`, async () => {

@@ -1,3 +1,4 @@
+import { runDirectGenerator } from "./static-site.mjs";
 import path from "node:path";
 import process from "node:process";
 import { escapeHtml, pageShell, xmlEscape } from "./course-page-shared.mjs";
@@ -465,3 +466,5 @@ if (context.writeSitemap) await updateSitemap();
 context.log(`Generated ${guides.length} install guide pages${siteUrl ? " and updated sitemap.xml" : ""}.`);
 
 }
+
+await runDirectGenerator(import.meta.url, generatePages);

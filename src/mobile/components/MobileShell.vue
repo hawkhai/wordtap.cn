@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import GatewayUpdateNotice from "../../shared/components/GatewayUpdateNotice.vue";
-import { computed, onMounted, onUnmounted, ref } from "vue";
+import { computed, nextTick, onMounted, onUnmounted, ref, watch } from "vue";
 import ReadingDisplayControls from "../../shared/components/ReadingDisplayControls.vue";
 import ReadingText from "../../shared/components/ReadingText.vue";
 import ArticleTypingPanel from "../../shared/components/ArticleTypingPanel.vue";
@@ -11,9 +11,10 @@ import ArticleTypingOptions from "../../shared/components/ArticleTypingOptions.v
 import MaterialSubmission from "../../shared/components/MaterialSubmission.vue";
 import ArticleInputHint from "../../shared/components/ArticleInputHint.vue";
 import SpeechLanguageHint from "../../shared/components/SpeechLanguageHint.vue";
+import MobileStudyDialog from "./MobileStudyDialog.vue";
 import { useWordTap } from "../../shared/composables/useWordTap";
 import { useArticleTyping } from "../../shared/composables/useArticleTyping";
-import { isWindows } from "../../shared/utils/device";
+import { isIpadBrowser, isWindows } from "../../shared/utils/device";
 import IpaPanel from "../../IpaPanel.vue";
 import ExamPanel from "../../ExamPanel.vue";
 import NceDropdown from "../../NceDropdown.vue";
@@ -28,6 +29,7 @@ import { loadCollegeEnglishManifest } from "../../shared/data/collegeEnglishLess
 import type { CourseLessonSelection } from "../../shared/types/app";
 
 const showGatewayGuide = computed(() => !isGatewayRunning.value && isWindows());
+const isIpad = isIpadBrowser();
 
 function appSectionUrl(path: string): string {
   const normalizedPath = path.replace(/^\/+/, "");
@@ -67,9 +69,9 @@ const {
   logoMarkUrl, feedbackEmailUrl, wordTapWindowsDownloadUrl,
   gatewayDownloadUrl, gatewayReleaseManifestUrl,
   readingDisplayMode, phonetics, phoneticCounts, retryPhonetics, phoneticNotice,
-  readingRuns, readingSnapshot, activeSentenceId, playingSentenceId, isFullTextPaused, sentenceSpeechState, sentenceSpeechDisabled, readSentence, readSelection,
+  readingRuns, readingParagraphs, activeParagraphId, activeSentenceId, playingSentenceId, isFullTextPaused, sentenceSpeechState, paragraphSpeechState, sentenceSpeechDisabled, readSentence, readParagraph,
   speakArticleTypingSentence, speakArticleTypingWord,
-  sourceText, segments, selectedSegmentId, currentWord, meaning, status,
+  sourceText, sourceReady, segments, selectedSegmentId, status,
   dictionaryInfo, selectedRate, selectedRepeat, selectedTranslateMode,
   isWordSpeaking, isFullTextSpeaking, browserSpeechSupported, isGatewayRunning,
   manifest, availableShardNames, availableVoices, historyRecords, textHistoryRecords,
@@ -87,7 +89,7 @@ const {
   gatewayStatusLabel, gatewayUpdateAvailable, installedGatewayVersion, latestGatewayVersion, refreshGatewayStatus, diagnosticsSummary,
   examStats, recentExamProgress, filteredExamPapers, filteredExamWords, examWordLessonOptions,
   setActiveView, announceTranslateModeChange, learnedClassForWord,
-  showWordPopover, hideWordPopover, hideReviewContextMenu, handlePopoverKeydown,
+  hideWordPopover, hideReviewContextMenu,
   cleanDictionaryText, readFullText, fullTextSpeechLabel, fullTextSpeechWaiting, fullTextSpeechNotice, fullTextSpeechDisabled, wordSpeechDisabled, cancelSpeech, splitWords,
   loadTextHistoryRecord, deleteSelectedTextHistoryRecord,
   deleteHistoryRecord, refreshReviewRecords, exportReviewRecords,
@@ -103,6 +105,81 @@ const {
 } = useWordTap();
 
 const articleSourceInput = ref<HTMLTextAreaElement | null>(null);
+const readingTitle = ref<HTMLElement | null>(null);
+const readingSurface = ref<HTMLElement | null>(null);
+const coursesOpen = ref(false);
+const editorOpen = ref(false);
+const articleToolsOpen = ref(false);
+const moreOpen = ref(false);
+let dialogTrigger: HTMLElement | null = null;
+let lessonSelected = false;
+let nextArticleAction: "courses" | "editor" | "typing" | null = null;
+
+function openDialog(event: MouseEvent, target: "courses" | "editor" | "article-tools" | "more"): void {
+  dialogTrigger = event.currentTarget instanceof HTMLElement ? event.currentTarget : null;
+  hideWordPopover();
+  if (target === "courses") coursesOpen.value = true;
+  else if (target === "editor") editorOpen.value = true;
+  else if (target === "article-tools") articleToolsOpen.value = true;
+  else moreOpen.value = true;
+}
+
+function restoreDialogFocus(): void {
+  const target = dialogTrigger?.isConnected ? dialogTrigger : readingTitle.value;
+  target?.focus({ preventScroll: true });
+  dialogTrigger = null;
+}
+
+function handleCourseDialogClose(): void {
+  const selected = lessonSelected;
+  lessonSelected = false;
+  if (!selected || activeView.value !== "study") {
+    restoreDialogFocus();
+    return;
+  }
+  dialogTrigger = null;
+  readingTitle.value?.focus({ preventScroll: true });
+  readingSurface.value?.scrollIntoView({ block: "start", behavior: "instant" });
+}
+
+function chooseArticleAction(action: NonNullable<typeof nextArticleAction>): void {
+  nextArticleAction = action;
+  articleToolsOpen.value = false;
+}
+
+function handleArticleToolsClose(): void {
+  const action = nextArticleAction;
+  nextArticleAction = null;
+  if (activeView.value === "study") {
+    if (action === "courses") {
+      coursesOpen.value = true;
+      return;
+    }
+    if (action === "editor") {
+      editorOpen.value = true;
+      return;
+    }
+  }
+  restoreDialogFocus();
+  if (action === "typing" && activeView.value === "study") startArticleTyping();
+}
+
+async function revealCourseMenu(event: MouseEvent): Promise<void> {
+  if (!(event.target instanceof Element)) return;
+  const button = event.target.closest(".nce-dropdown > .study-button");
+  if (!button) return;
+
+  await nextTick();
+  button.parentElement?.querySelector(".nce-panel")?.scrollIntoView({ block: "nearest" });
+}
+
+watch(activeView, () => {
+  coursesOpen.value = false;
+  editorOpen.value = false;
+  articleToolsOpen.value = false;
+  moreOpen.value = false;
+});
+
 const {
   active: typingActive, loading: typingLoading, message: typingMessage,
   sentences: typingSentences, state: typingState, autoSpeak: typingAutoSpeak, autoWord: typingAutoWord,
@@ -120,8 +197,17 @@ function startArticleTyping(): void {
   void startTyping(articleSourceInput.value?.selectionStart ?? 0, articleSourceInput.value?.selectionEnd ?? 0);
 }
 
+async function exitArticleTyping(): Promise<void> {
+  closeTyping();
+  await nextTick();
+  readingTitle.value?.focus({ preventScroll: true });
+}
+
 function handleCourseLessonSelect(selection: CourseLessonSelection): void {
+  if (!coursesOpen.value) return;
+  lessonSelected = true;
   void loadCourseLessonSelection(selection);
+  coursesOpen.value = false;
 }
 
 // Long-press support for mobile review context menu
@@ -159,73 +245,16 @@ onUnmounted(() => {
 </script>
 
 <template>
-  <section
-    v-if="!browserSpeechSupported"
-    class="study-browser-speech-alert"
-    role="alert"
-    :aria-label="copy.template.alertAria"
-  >
-    {{ copy.template.browserSpeechAlert }}
-  </section>
-
-  <section
-    class="study-top-download"
-    :aria-label="copy.template.desktopDownloadAria"
-  >
-    <div class="study-top-download-inner">
-      <span class="study-top-download-copy">{{ copy.template.desktopDownloadCopy }}</span>
-      <a
-        class="study-top-download-link"
-        :href="wordTapWindowsDownloadUrl"
-        :download="mobileBrowser ? undefined : true"
-        @click="handleWordTapWindowsDownload"
-      >
-        {{ mobileBrowser ? copy.template.desktopUse : copy.template.desktopDownload }}
-      </a>
-    </div>
-  </section>
-
-  <main class="study-shell mx-auto grid min-h-screen w-full max-w-[88rem] gap-4 px-4 py-5 sm:px-6">
-    <section
-      class="study-workspace"
-      :aria-label="copy.template.workspaceAria"
-    >
-      <header class="study-brandbar px-4 py-3">
-        <div class="study-brand-section">
-          <div class="brand-lockup">
-            <img
-              :src="logoMarkUrl"
-              alt=""
-              class="brand-mark"
-              aria-hidden="true"
-            >
-            <BrandIdentity :name="copy.brand.name" :domain="copy.brand.domain" :tagline="copy.template.brandTagline" />
-          </div>
-          <nav class="study-course-links" aria-label="英语课程目录">
-            <a :href="pepEnglishUrl">初中英语</a>
-            <a :href="pepEnglishUrl">高中英语</a>
-            <a v-if="collegeEnglishAvailable" :href="collegeEnglishUrl">大学英语</a>
-            <a :href="postgraduateUrl">研究生英语</a>
-            <a :href="vocabularyUrl">英语词汇</a>
-            <a :href="cetUrl">英语四六级</a>
-            <a :href="kaoyanEnglishUrl">考研英语</a>
-            <button
-              type="button"
-              class="study-course-exam-entry"
-              :aria-current="activeView === 'exam' ? 'page' : undefined"
-              @click="setActiveView('exam')"
-            >
-              考试学习
-            </button>
-            <a :href="nceUrl">新概念英语</a>
-            <a :href="shuimuUrl">水木英语</a>
-          </nav>
+  <main class="study-shell study-mobile-shell mx-auto grid min-h-screen w-full max-w-[88rem] gap-4 py-5"
+    :class="{ 'study-mobile-shell-tablet': isIpad }">
+    <section class="study-workspace" :aria-label="copy.template.workspaceAria">
+      <header class="study-brandbar">
+        <div class="brand-lockup">
+          <img :src="logoMarkUrl" alt="" class="brand-mark" aria-hidden="true">
+          <BrandIdentity :name="copy.brand.name" :domain="copy.brand.domain" :tagline="copy.template.brandTagline" />
         </div>
-        <div class="study-header-actions">
-          <nav
-            class="study-nav"
-            :aria-label="copy.template.mainNavAria"
-          >
+        <div class="study-mobile-nav-row">
+          <nav class="study-nav" :aria-label="copy.template.mainNavAria">
             <button
               type="button"
               class="study-nav-button"
@@ -254,348 +283,104 @@ onUnmounted(() => {
               {{ copy.template.navIpa }}
             </button>
           </nav>
-          <div class="study-header-meta">
-            <div
-              class="study-status max-w-full px-3 py-2 text-sm sm:max-w-md"
-              :class="{ 'study-status-hidden': activeView !== 'study' }"
-              :aria-hidden="activeView !== 'study' ? 'true' : undefined"
-              role="status"
-              data-testid="status-text"
-            >
-              <span class="study-status-text">{{ status }}</span>
-            </div>
-            <ProjectLink />
-            <ThemeSelect />
-          </div>
+          <button type="button" class="study-button study-mobile-quiet-action study-mobile-more" aria-haspopup="dialog"
+            @click="openDialog($event, 'more')">更多</button>
         </div>
       </header>
 
-      <section
-        v-if="activeView === 'study'"
-        class="study-desk"
-      >
-        <aside
-          class="study-word-card p-4"
-          aria-labelledby="word-title"
+      <div v-if="activeView === 'study'" class="study-mobile-learning">
+        <section
+          ref="readingSurface"
+          class="study-reading-surface"
+          aria-labelledby="study-title"
         >
-          <h2
-            id="word-title"
-            class="study-panel-title mb-3 text-base font-semibold"
-          >
-            {{ copy.template.currentWordTitle }}
-          </h2>
-          <div
-            class="study-current-word mb-3 min-h-11 break-words pb-3 text-2xl font-bold"
-            :class="{ 'study-current-word-empty': currentWord === copy.state.currentWordEmpty }"
-            data-testid="current-word"
-          >
-            {{ currentWord }}
-          </div>
-          <div
-            class="study-meaning whitespace-pre-wrap rounded-md p-3 leading-7"
-            data-testid="meaning-box"
-          >
-            {{ meaning }}
-          </div>
-
-          <details class="study-mobile-settings">
-            <summary>查词与朗读设置</summary>
-          <label class="study-control mt-4 grid grid-cols-[5.5rem_minmax(0,1fr)] items-center gap-3">
-            <span>{{ copy.template.translateModeLabel }}</span>
-            <select
-              v-model="selectedTranslateMode"
-              class="study-select h-9 rounded-md px-3"
-              @change="announceTranslateModeChange"
-            >
-              <option
-                v-for="mode in translateModeOptions"
-                :key="mode.value"
-                :value="mode.value"
-              >
-                {{ mode.label }}
-              </option>
-            </select>
-          </label>
-
-          <label class="study-control mt-3 grid grid-cols-[5.5rem_minmax(0,1fr)] items-center gap-3">
-            <span>{{ copy.template.rateLabel }}</span>
-            <select
-              v-model="selectedRate"
-              class="study-select h-9 rounded-md px-3"
-            >
-              <option
-                v-for="rate in rateOptions"
-                :key="rate"
-                :value="rate"
-              >
-                {{ rateOptionLabels[rate] ?? rate }}
-              </option>
-            </select>
-          </label>
-
-          <label class="study-control mt-3 grid grid-cols-[5.5rem_minmax(0,1fr)] items-center gap-3">
-            <span>{{ copy.template.repeatLabel }}</span>
-            <select
-              v-model.number="selectedRepeat"
-              class="study-select h-9 rounded-md px-3"
-            >
-              <option
-                v-for="repeat in repeatOptions"
-                :key="repeat"
-                :value="repeat"
-              >
-                {{ copy.template.repeatTimes(repeat) }}
-              </option>
-            </select>
-          </label>
-
-          <label class="study-control mt-3 grid grid-cols-[5.5rem_minmax(0,1fr)] items-center gap-3">
-            <span>{{ copy.template.wordVoiceLabel }}</span>
-            <select
-              v-model="selectedBrowserVoiceUri"
-              class="study-select h-9 rounded-md px-3"
-            >
-              <option value="">{{ copy.template.autoVoice }}</option>
-              <option
-                v-for="voice in browserVoiceSelectOptions"
-                :key="voice.value"
-                :value="voice.value"
-              >
-                {{ voice.label }}
-              </option>
-            </select>
-          </label>
-
-          <label class="study-control mt-3 grid grid-cols-[5.5rem_minmax(0,1fr)] items-center gap-3">
-            <span>{{ copy.template.fullTextVoiceLabel }}</span>
-            <select
-              v-model="selectedGatewayVoice"
-              class="study-select h-9 rounded-md px-3"
-            >
-              <option
-                v-for="voice in gatewayVoiceOptions"
-                :key="voice.value"
-                :value="voice.value"
-              >
-                {{ voice.label }}
-              </option>
-            </select>
-          </label>
-
-          <SpeechLanguageHint />
-
-          <label class="study-toggle mt-4 flex items-center gap-2 text-sm">
-            <input
-              v-model="markLearned"
-              type="checkbox"
-            >
-            <span>{{ copy.template.markLearnedLabel }}</span>
-          </label>
-          </details>
-
-          <div
-            class="study-history-mini mt-4 grid grid-cols-2 gap-2 text-sm"
-            data-testid="history-stats"
-          >
-            <div>
-              <strong>{{ historyStats.wordTotal }}</strong>
-              <span>{{ copy.template.savedWordsStat }}</span>
-            </div>
-            <div>
-              <strong>{{ historyStats.clickTotal }}</strong>
-              <span>{{ copy.template.clickTotalStat }}</span>
-            </div>
-          </div>
-        </aside>
-
-        <div class="study-main">
-          <section
-            class="study-compose"
-            :aria-label="copy.template.editorTitle"
-          >
-            <div class="study-compose-head flex flex-col gap-3 lg:flex-row lg:items-center lg:justify-between">
-              <div class="study-toolbar">
-                <div class="study-course-grid">
-                  <div class="study-course-row">
-                    <PepEnglishDropdown stage="junior" @select="handleCourseLessonSelect" />
-                    <PepEnglishDropdown stage="senior" @select="handleCourseLessonSelect" />
-                    <CollegeEnglishDropdown @select="handleCourseLessonSelect" />
-                    <PostgraduateDropdown @select="handleCourseLessonSelect" />
-                  </div>
-                  <div class="study-course-row">
-                    <CetDropdown @select="handleCourseLessonSelect" />
-                    <KaoyanEnglishDropdown @select="handleCourseLessonSelect" />
-                    <NceDropdown @select="handleCourseLessonSelect" />
-                    <ShuimuDropdown @select="handleCourseLessonSelect" />
-                  </div>
-                  <div class="study-course-row">
-                    <EnglishVocabularyDropdown @select="handleCourseLessonSelect" />
-                  </div>
-                </div>
-                <MaterialSubmission :email-image-url="feedbackEmailUrl" />
-              </div>
-            </div>
-            <div class="study-text-history-bar mb-3 flex flex-col gap-2 sm:flex-row sm:items-center">
-              <label
-                class="study-text-history-label text-sm"
-                for="text-history-select"
-              >
-                {{ copy.template.savedArticles }}
-              </label>
-              <select
-                id="text-history-select"
-                v-model="selectedTextHistoryId"
-                class="study-select study-text-history-select h-9 rounded-md px-3"
-                :disabled="!textHistoryRecords.length"
-                @change="loadTextHistoryRecord"
-              >
-                <option value="">{{ textHistoryEmptyLabel }}</option>
-                <option
-                  v-for="record in textHistoryRecords"
-                  :key="record.id"
-                  :value="record.id"
-                >
-                  {{ copy.template.savedArticleOption(record.title, record.count) }}
-                </option>
-              </select>
-              <button
-                type="button"
-                class="study-button study-text-history-delete h-9"
-                :disabled="!selectedTextHistoryId"
-                :title="copy.template.deleteSelectedArticleTitle"
-                @click="deleteSelectedTextHistoryRecord"
-              >
-                {{ copy.template.deleteArticle }}
-              </button>
-            </div>
-            <div v-if="dictionaryInfo" class="study-dictionary-info mb-3 text-sm">
-              {{ dictionaryInfo }}
-            </div>
-            <GatewayUpdateNotice
-              v-if="gatewayUpdateAvailable"
-              :current-version="installedGatewayVersion"
-              :latest-version="latestGatewayVersion"
-              :download-url="gatewayDownloadUrl"
-              @download="handleGatewayDownload"
-              @check="refreshGatewayStatus()"
-            />
-            <div
-              v-if="showGatewayGuide"
-              class="study-gateway-guide mt-3 rounded-md p-3 text-sm leading-6"
-            >
-              {{ copy.template.gatewayGuide }}
-              <a
-                class="study-link ml-1"
-                :href="gatewayDownloadUrl"
-                download
-                @click="handleGatewayDownload"
-              >
-                {{ copy.template.installGateway }}
-              </a>
-            </div>
-            <div class="study-input-wrap">
-              <div class="study-input-header">
-                <ArticleInputHint @focus="articleSourceInput?.focus()" />
-                <button
-                  type="button"
-                  class="study-input-url-hint"
-                  :class="{ 'study-input-url-hint-active': activeCourseLesson }"
-                  :disabled="!activeCourseLesson"
-                  :title="activeCourseLesson ? activeCourseLesson.url : '选择课程文章后生成网址'"
-                  @click="copyActiveCourseLessonUrl"
-                >
-                  {{ lessonShareUrlCopied ? "已复制" : "网址" }}
-                </button>
-              </div>
-              <textarea
-                ref="articleSourceInput"
-                v-model="sourceText"
-                class="study-input w-full resize-y p-4 outline-none"
-                :placeholder="copy.template.sourcePlaceholder"
-                spellcheck="false"
-              />
-            </div>
-            <p v-if="typingMessage" class="study-typing-notice" role="status">{{ typingMessage }}</p>
-          </section>
-
-          <section
-            class="study-reading-surface"
-            aria-labelledby="study-title"
-          >
-            <div class="study-reading-head flex items-center justify-between gap-3">
-              <h2
-                id="study-title"
-                class="study-panel-title text-base font-semibold"
-              >
+          <div class="study-reading-head study-mobile-reading-head">
+            <div class="study-mobile-reading-title">
+              <h2 id="study-title" ref="readingTitle" tabindex="-1" class="study-panel-title">
                 {{ typingActive ? '文章跟打' : copy.template.readerTitle }}
               </h2>
-              <span
-                class="study-count text-sm"
-                data-testid="word-count"
-                :aria-live="typingActive ? 'polite' : 'off'"
-              >
+              <p v-if="sourceReady && sourceText.trim()" class="study-count"
+                data-testid="word-count" :aria-live="typingActive ? 'polite' : 'off'">
                 <template v-if="typingActive">已完成 {{ typingCompletedCount }} / {{ typingSentences.length }} 句</template>
                 <template v-else>{{ wordCountLabel }}</template>
-              </span>
+              </p>
             </div>
-            <ReadingDisplayControls :show-modes="!typingActive" :speech-notice="fullTextSpeechNotice"
-              v-model="readingDisplayMode" :counts="phoneticCounts" @retry="retryPhonetics"
-            >
-              <template v-if="typingActive" #settings>
-                <ArticleTypingOptions :auto-speak="typingAutoSpeak" :auto-word="typingAutoWord"
-                  :speech-disabled="fullTextSpeechDisabled" :word-speech-disabled="wordSpeechDisabled"
-                  @auto-speak="setTypingAutoSpeak" @auto-word="setTypingAutoWord" />
-              </template>
-              <template #actions>
-                <div class="study-reading-actions">
-                  <button
-                    type="button"
-                    class="study-button study-button-primary study-fulltext-button"
-                    :disabled="fullTextSpeechDisabled && !isFullTextSpeaking"
-                    :title="fullTextSpeechDisabled && !isFullTextSpeaking ? copy.status.fullTextSpeechUnavailable : fullTextSpeechWaiting ? '点击可暂停准备中的朗读' : undefined"
-                    @click="readFullText"
-                  >
+            <button v-if="typingActive" type="button" class="study-button study-mobile-quiet-action study-mobile-end-action"
+              @click="exitArticleTyping">
+              退出跟打
+            </button>
+            <button v-else-if="sourceReady && sourceText.trim()" type="button"
+              class="study-button study-mobile-quiet-action study-mobile-end-action"
+              aria-haspopup="dialog" @click="openDialog($event, 'courses')">
+              选课程
+            </button>
+          </div>
+          <ReadingDisplayControls v-if="sourceText.trim() || typingActive" :show-modes="!typingActive" :show-toggle="false"
+            :speech-notice="fullTextSpeechNotice"
+            v-model="readingDisplayMode" :counts="phoneticCounts" @retry="retryPhonetics"
+          >
+            <template #actions>
+              <div class="study-mobile-reading-actions">
+                <button
+                  type="button"
+                  class="study-button study-fulltext-button study-mobile-speech-button"
+                  :class="{ 'study-mobile-quiet-action': typingActive }"
+                  :disabled="fullTextSpeechDisabled && !isFullTextSpeaking"
+                  :title="fullTextSpeechDisabled && !isFullTextSpeaking ? copy.status.fullTextSpeechUnavailable : fullTextSpeechWaiting ? '点击可暂停准备中的朗读' : undefined"
+                  @click="readFullText()"
+                >
+                  <span class="study-mobile-speech-label">
                     <span v-if="fullTextSpeechWaiting" class="study-speech-spinner" aria-hidden="true"></span>
                     {{ fullTextSpeechLabel }}
-                  </button>
-                  <button
-                    type="button"
-                    class="study-button"
-                    :disabled="!isSpeaking"
-                    @click="cancelSpeech(copy.status.stoppedSpeech)"
-                  >
-                    {{ copy.template.stop }}
-                  </button>
-                  <button type="button" class="study-button" :disabled="typingLoading"
-                    :class="{ 'study-button-primary': typingActive }" @click="typingActive ? closeTyping() : startArticleTyping()">
-                    {{ typingLoading ? '正在准备…' : typingActive ? '退出跟打' : '文章跟打' }}
-                  </button>
-                </div>
-              </template>
-            </ReadingDisplayControls>
-            <ArticleTypingPanel v-if="typingActive"
-              :sentences="typingSentences" :state="typingState"
-              :current-sentence="typingCurrentSentence" :current-draft="typingCurrentDraft"
-              :completed-count="typingCompletedCount" :finished="typingFinished"
-              :speech-disabled="fullTextSpeechDisabled"
-              :selected-id="selectedSegmentId" :learned-class="learnedClassForWord"
-              @choose="chooseTypingSentence" @input="typeTypingDraft" @submit="submitTypingSentence"
-              @restart-sentence="restartTypingSentence" @restart-all="restartTypingAll"
-              @speak="speakArticleTypingSentence"
-              @word="studyWord"
-            />
-            <ReadingText v-else
-              :runs="readingRuns" :snapshot="readingSnapshot" :playing-sentence-id="playingSentenceId" :paused="isFullTextPaused" :display-mode="readingDisplayMode" :phonetics="phonetics"
-              :selected-id="selectedSegmentId"
-              :learned-class="learnedClassForWord"
-              :active-sentence-id="activeSentenceId"
-              :preparing="sentenceSpeechState === 'preparing'"
-              :disabled="sentenceSpeechDisabled"
-              @word="studyWord"
-              @sentence="readSentence" @selection="readSelection" @notice="status = $event" @select="hideWordPopover"
-            />
-          </section>
-        </div>
+                  </span>
+                </button>
+                <button
+                  v-if="isSpeaking"
+                  type="button"
+                  class="study-button study-mobile-quiet-action"
+                  @click="cancelSpeech(copy.status.stoppedSpeech)"
+                >
+                  {{ copy.template.stop }}
+                </button>
+                <button type="button" class="study-button study-mobile-quiet-action study-mobile-end-action"
+                  aria-haspopup="dialog" @click="openDialog($event, 'article-tools')">
+                  文章工具
+                </button>
+              </div>
+            </template>
+          </ReadingDisplayControls>
+          <p class="study-mobile-feedback" role="status" data-testid="status-text">
+            {{ sourceReady ? (typingMessage || status) : "正在打开文章…" }}
+          </p>
+          <div v-if="sourceReady && !sourceText.trim()" class="study-mobile-empty-actions">
+            <button type="button" class="study-button study-button-primary" aria-haspopup="dialog"
+              @click="openDialog($event, 'courses')">选课程</button>
+            <button type="button" class="study-button study-mobile-quiet-action" aria-haspopup="dialog"
+              @click="openDialog($event, 'editor')">粘贴文章</button>
+          </div>
+          <ArticleTypingPanel v-if="typingActive"
+            :sentences="typingSentences" :state="typingState"
+            :current-sentence="typingCurrentSentence" :current-draft="typingCurrentDraft"
+            :completed-count="typingCompletedCount" :finished="typingFinished"
+            :speech-disabled="fullTextSpeechDisabled"
+            :selected-id="selectedSegmentId" :learned-class="learnedClassForWord"
+            @choose="chooseTypingSentence" @input="typeTypingDraft" @submit="submitTypingSentence"
+            @restart-sentence="restartTypingSentence" @restart-all="restartTypingAll"
+            @speak="speakArticleTypingSentence"
+            @word="studyWord"
+          />
+          <ReadingText v-else-if="sourceText.trim()"
+            :runs="readingRuns" :paragraphs="readingParagraphs" :active-paragraph-id="activeParagraphId" :paragraph-state="paragraphSpeechState"
+            :playing-sentence-id="playingSentenceId" :paused="isFullTextPaused" :display-mode="readingDisplayMode" :phonetics="phonetics"
+            :selected-id="selectedSegmentId"
+            :learned-class="learnedClassForWord"
+            :active-sentence-id="activeSentenceId"
+            :sentence-state="sentenceSpeechState"
+            :disabled="sentenceSpeechDisabled"
+            @word="studyWord"
+            @sentence="readSentence" @paragraph="readParagraph"
+          />
+        </section>
         <aside
           v-if="wordPopover.visible"
           class="study-word-popover study-word-popover-mobile"
@@ -609,7 +394,7 @@ onUnmounted(() => {
             {{ wordPopover.meaning }}
           </div>
         </aside>
-      </section>
+      </div>
 
       <ExamPanel
         v-else-if="activeView === 'exam'"
@@ -926,6 +711,249 @@ onUnmounted(() => {
       </div>
     </section>
 
+    <MobileStudyDialog v-model="articleToolsOpen" title="文章工具" @close="handleArticleToolsClose">
+      <div class="study-mobile-action-list">
+        <button v-if="typingActive" type="button" class="study-button study-mobile-quiet-action study-mobile-action-row"
+          aria-haspopup="dialog" @click="chooseArticleAction('courses')">选课程</button>
+        <button type="button" class="study-button study-mobile-quiet-action study-mobile-action-row"
+          aria-haspopup="dialog" @click="chooseArticleAction('editor')">编辑文章</button>
+        <button v-if="!typingActive" type="button" class="study-button study-mobile-quiet-action study-mobile-action-row"
+          :disabled="typingLoading" @click="chooseArticleAction('typing')">
+          {{ typingLoading ? '正在准备…' : '文章跟打' }}
+        </button>
+      </div>
+      <ArticleTypingOptions v-if="typingActive" :auto-speak="typingAutoSpeak" :auto-word="typingAutoWord"
+        :speech-disabled="fullTextSpeechDisabled" :word-speech-disabled="wordSpeechDisabled"
+        @auto-speak="setTypingAutoSpeak" @auto-word="setTypingAutoWord" />
+      <label v-else class="study-phonetic-toggle study-mobile-tool-setting">
+        <input type="checkbox" :checked="readingDisplayMode !== 'original'"
+          @change="readingDisplayMode = ($event.target as HTMLInputElement).checked ? 'annotated' : 'original'">
+        显示音标
+      </label>
+    </MobileStudyDialog>
+
+    <MobileStudyDialog v-model="coursesOpen" title="选课程" @close="handleCourseDialogClose">
+      <template v-if="coursesOpen">
+        <div class="study-course-grid" @click="revealCourseMenu">
+          <div class="study-course-row">
+            <PepEnglishDropdown stage="junior" @select="handleCourseLessonSelect" />
+            <PepEnglishDropdown stage="senior" @select="handleCourseLessonSelect" />
+            <CollegeEnglishDropdown @select="handleCourseLessonSelect" />
+            <PostgraduateDropdown @select="handleCourseLessonSelect" />
+          </div>
+          <div class="study-course-row">
+            <CetDropdown @select="handleCourseLessonSelect" />
+            <KaoyanEnglishDropdown @select="handleCourseLessonSelect" />
+            <NceDropdown @select="handleCourseLessonSelect" />
+            <ShuimuDropdown @select="handleCourseLessonSelect" />
+          </div>
+          <div class="study-course-row">
+            <EnglishVocabularyDropdown @select="handleCourseLessonSelect" />
+          </div>
+        </div>
+        <MaterialSubmission :email-image-url="feedbackEmailUrl" />
+      </template>
+    </MobileStudyDialog>
+
+    <MobileStudyDialog v-model="editorOpen" title="编辑文章" close-label="完成" @close="restoreDialogFocus">
+      <div class="study-input-wrap">
+        <div class="study-input-header">
+          <ArticleInputHint @focus="articleSourceInput?.focus()" />
+          <button
+            type="button"
+            class="study-input-url-hint"
+            :class="{ 'study-input-url-hint-active': activeCourseLesson }"
+            :disabled="!activeCourseLesson"
+            :title="activeCourseLesson ? activeCourseLesson.url : '选择课程文章后生成网址'"
+            @click="copyActiveCourseLessonUrl"
+          >
+            {{ lessonShareUrlCopied ? "已复制" : "网址" }}
+          </button>
+        </div>
+        <textarea
+          ref="articleSourceInput"
+          v-model="sourceText"
+          class="study-input w-full resize-y p-4 outline-none"
+          :placeholder="copy.template.sourcePlaceholder"
+          aria-label="文章正文"
+          :autofocus="!sourceText.trim()"
+          spellcheck="false"
+        />
+      </div>
+      <div class="study-text-history-bar study-mobile-editor-history">
+        <label
+          class="study-text-history-label text-sm"
+          for="text-history-select"
+        >
+          {{ copy.template.savedArticles }}
+        </label>
+        <select
+          id="text-history-select"
+          v-model="selectedTextHistoryId"
+          class="study-select study-text-history-select h-9 rounded-md px-3"
+          :disabled="!textHistoryRecords.length"
+          @change="loadTextHistoryRecord"
+        >
+          <option value="">{{ textHistoryEmptyLabel }}</option>
+          <option
+            v-for="record in textHistoryRecords"
+            :key="record.id"
+            :value="record.id"
+          >
+            {{ copy.template.savedArticleOption(record.title, record.count) }}
+          </option>
+        </select>
+        <button
+          type="button"
+          class="study-button study-mobile-quiet-action study-mobile-end-action"
+          :disabled="!selectedTextHistoryId"
+          :title="copy.template.deleteSelectedArticleTitle"
+          @click="deleteSelectedTextHistoryRecord"
+        >
+          {{ copy.template.deleteArticle }}
+        </button>
+      </div>
+      <p v-if="editorOpen" class="study-mobile-feedback" role="status">{{ status }}</p>
+    </MobileStudyDialog>
+
+    <MobileStudyDialog v-model="moreOpen" title="更多" @close="restoreDialogFocus">
+      <ThemeSelect class="study-mobile-field" />
+      <div class="study-mobile-action-list">
+        <button type="button" class="study-button study-mobile-quiet-action study-mobile-action-row"
+          @click="setActiveView('exam'); moreOpen = false">考试学习</button>
+        <button type="button" class="study-button study-mobile-quiet-action study-mobile-action-row"
+          @click="setActiveView('diagnostics'); moreOpen = false">
+          {{ copy.template.navDiagnostics }}
+        </button>
+        <a class="study-link" :href="wordTapWindowsDownloadUrl" :download="mobileBrowser ? undefined : true"
+          @click="handleWordTapWindowsDownload">
+          {{ mobileBrowser ? copy.template.desktopUse : copy.template.desktopDownload }}
+        </a>
+        <ProjectLink />
+      </div>
+      <details class="study-mobile-settings">
+        <summary>查词与朗读设置</summary>
+        <label class="study-control study-mobile-field">
+          <span>{{ copy.template.translateModeLabel }}</span>
+          <select
+            v-model="selectedTranslateMode"
+            class="study-select h-9 rounded-md px-3"
+            @change="announceTranslateModeChange"
+          >
+            <option
+              v-for="mode in translateModeOptions"
+              :key="mode.value"
+              :value="mode.value"
+            >
+              {{ mode.label }}
+            </option>
+          </select>
+        </label>
+
+        <label class="study-control study-mobile-field">
+          <span>{{ copy.template.rateLabel }}</span>
+          <select
+            v-model="selectedRate"
+            class="study-select h-9 rounded-md px-3"
+          >
+            <option
+              v-for="rate in rateOptions"
+              :key="rate"
+              :value="rate"
+            >
+              {{ rateOptionLabels[rate] ?? rate }}
+            </option>
+          </select>
+        </label>
+
+        <label class="study-control study-mobile-field">
+          <span>{{ copy.template.repeatLabel }}</span>
+          <select
+            v-model.number="selectedRepeat"
+            class="study-select h-9 rounded-md px-3"
+          >
+            <option
+              v-for="repeat in repeatOptions"
+              :key="repeat"
+              :value="repeat"
+            >
+              {{ copy.template.repeatTimes(repeat) }}
+            </option>
+          </select>
+        </label>
+
+        <label class="study-control study-mobile-field">
+          <span>{{ copy.template.wordVoiceLabel }}</span>
+          <select
+            v-model="selectedBrowserVoiceUri"
+            class="study-select h-9 rounded-md px-3"
+          >
+            <option value="">{{ copy.template.autoVoice }}</option>
+            <option
+              v-for="voice in browserVoiceSelectOptions"
+              :key="voice.value"
+              :value="voice.value"
+            >
+              {{ voice.label }}
+            </option>
+          </select>
+        </label>
+
+        <label class="study-control study-mobile-field">
+          <span>{{ copy.template.fullTextVoiceLabel }}</span>
+          <select
+            v-model="selectedGatewayVoice"
+            class="study-select h-9 rounded-md px-3"
+          >
+            <option
+              v-for="voice in gatewayVoiceOptions"
+              :key="voice.value"
+              :value="voice.value"
+            >
+              {{ voice.label }}
+            </option>
+          </select>
+        </label>
+
+        <SpeechLanguageHint />
+
+        <label class="study-toggle mt-4 flex items-center gap-2 text-sm">
+          <input
+            v-model="markLearned"
+            type="checkbox"
+          >
+          <span>{{ copy.template.markLearnedLabel }}</span>
+        </label>
+      </details>
+      <p v-if="!browserSpeechSupported" class="study-mobile-feedback">{{ copy.template.browserSpeechAlert }}</p>
+      <div v-if="dictionaryInfo" class="study-dictionary-info mb-3 text-sm">
+        {{ dictionaryInfo }}
+      </div>
+      <GatewayUpdateNotice
+        v-if="gatewayUpdateAvailable"
+        :current-version="installedGatewayVersion"
+        :latest-version="latestGatewayVersion"
+        :download-url="gatewayDownloadUrl"
+        @download="handleGatewayDownload"
+        @check="refreshGatewayStatus()"
+      />
+      <div
+        v-if="showGatewayGuide"
+        class="study-gateway-guide mt-3 rounded-md p-3 text-sm leading-6"
+      >
+        {{ copy.template.gatewayGuide }}
+        <a
+          class="study-link ml-1"
+          :href="gatewayDownloadUrl"
+          download
+          @click="handleGatewayDownload"
+        >
+          {{ copy.template.installGateway }}
+        </a>
+      </div>
+      <p v-if="moreOpen" class="study-mobile-feedback" role="status">{{ status }}</p>
+    </MobileStudyDialog>
+
     <footer
       class="study-feedback"
       :aria-label="copy.template.footerAria"
@@ -981,7 +1009,7 @@ onUnmounted(() => {
           href="https://github.com/hawkhai/wordtap.cn"
           target="_blank"
           rel="noopener noreferrer"
-        >本项目源码</a>
+        >GitHub</a>
         <span class="study-icp-sep">·</span>
         {{ copy.template.icp }}
       </div>

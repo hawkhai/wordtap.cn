@@ -1,6 +1,7 @@
 // Optional browser acceptance runner; normal builds do not require Playwright.
 import path from 'node:path';
-const { chromium } = await import(process.env.WORDTAP_PLAYWRIGHT_MODULE || 'playwright');
+import { createRequire } from 'node:module';
+const { chromium } = createRequire(import.meta.url)(process.env.WORDTAP_PLAYWRIGHT_MODULE || 'playwright');
 const base = (process.env.WORDTAP_TEST_URL || 'http://127.0.0.1:5173').replace(/\/$/, '');
 const output = process.env.WORDTAP_TEST_OUTPUT || 'tmp/web-sync';
 fs.mkdirSync(output, {recursive:true});
@@ -88,8 +89,17 @@ try {
  await page.setViewportSize({width:360,height:800});await page.reload();await page.waitForTimeout(500);
  if(await page.evaluate(()=>document.documentElement.scrollWidth)>360)throw new Error('Loaded vocabulary overflow');
  await page.screenshot({path:path.join(output,'vocabulary-360.png'),fullPage:true});
- await page.locator('textarea.study-input').fill('pneumonoultramicroscopicsilicovolcanoconiosis. 中文说明！');
- await page.getByLabel('显示音标',{exact:true}).check();await page.waitForTimeout(700);
+ const articleTools = page.getByRole('dialog', {name:'文章工具', exact:true});
+ const editor = page.getByRole('dialog', {name:'编辑文章', exact:true});
+ const openTools = () => page.getByRole('button', {name:'文章工具', exact:true}).click();
+ await openTools();
+ await articleTools.getByRole('button', {name:'编辑文章', exact:true}).click();
+ await editor.getByRole('textbox', {name:'文章正文'}).fill('pneumonoultramicroscopicsilicovolcanoconiosis. 中文说明！');
+ await editor.getByRole('button', {name:'完成', exact:true}).click();
+ await openTools();
+ await articleTools.getByLabel('显示音标', {exact:true}).check();
+ await articleTools.getByRole('button', {name:'关闭', exact:true}).click();
+ await page.waitForTimeout(700);
  if(await page.evaluate(()=>document.documentElement.scrollWidth)>360)throw new Error('Long phonetic word overflow');
  console.log('PASS long phonetic word on 360px');
  await page.screenshot({path:path.join(output,'phonetics-360.png'),fullPage:false});
@@ -170,7 +180,8 @@ try {
  await cachePage.evaluate(async()=> {await navigator.serviceWorker.register('/sw.js');await navigator.serviceWorker.ready;});
  await cachePage.waitForFunction(()=>Boolean(navigator.serviceWorker.controller));
  const cachedPath='/nce/lessons/nce1/001.json';
- const cacheName = /CACHE_NAME\s*=\s*"([^"]+)"/.exec(fs.readFileSync('public/sw.js','utf8'))[1];
+ const cacheName = await cachePage.evaluate(async () => (await caches.keys()).find(name => /^wordtap-v\d+(?:-[a-f0-9]+)?$/.test(name)));
+ if(!cacheName) throw new Error('WordTap service worker cache is missing');
  await cachePage.evaluate(async ({file,name})=> {const cache=await caches.open(name);await cache.put(file,new Response(JSON.stringify({text:'old cached lesson'}),{headers:{'Content-Type':'application/json'}}));},{file:cachedPath,name:cacheName});
  const fresh=await cachePage.evaluate(async file=>(await fetch(file)).text(),cachedPath);
  if(JSON.parse(fresh).text==='old cached lesson')throw new Error('Online course cache remained stale');
@@ -178,10 +189,18 @@ try {
  await cacheContext.setOffline(true);
  const offline=await cachePage.evaluate(async file=>(await fetch(file)).text(),cachedPath);
  if(offline!==fresh)throw new Error('Offline cached lesson differs');
+ const builtAppOffline = /-[a-f0-9]+$/.test(cacheName);
+ if(builtAppOffline) {
+  await cachePage.setViewportSize({width:390,height:844});
+  await cachePage.reload({waitUntil:'domcontentloaded'});
+  await cachePage.locator('.study-mobile-shell').waitFor();
+  await cachePage.getByTestId('study-text').locator('.study-word').first().waitFor();
+  console.log('PASS production app shell loads the mobile reader after an offline reload');
+ }
  await cacheContext.close();
  console.log('PASS real service worker: old cache -> online release -> offline cached release');
  if(pageErrors.length) throw new Error('Browser errors: '+pageErrors.join('\n'));
- fs.writeFileSync(path.join(output,'browser-report.json'),JSON.stringify({migration,widths:[1440,390,360,767,768,769],dialogs:true, typing:true, composition:true, phoneticsPreference:true, vocabularySearch:true, vocabularyResume:true, vocabularyTyping:true, phoneticsLongWord:true, serviceWorkerOnlineOffline:true, dictionaryLookup:true, examProgress:true, examWordReview:true, currentEditExport:true, uiBackupImport:true, deepRoutes:routes, staticWidths:[1440,390,360], officialDownloads:true, actualPortHmr:true, pageErrors},null,2));
+ fs.writeFileSync(path.join(output,'browser-report.json'),JSON.stringify({migration,widths:[1440,390,360,767,768,769],dialogs:true, typing:true, composition:true, phoneticsPreference:true, vocabularySearch:true, vocabularyResume:true, vocabularyTyping:true, phoneticsLongWord:true, serviceWorkerOnlineOffline:true, builtAppOffline, dictionaryLookup:true, examProgress:true, examWordReview:true, currentEditExport:true, uiBackupImport:true, deepRoutes:routes, staticWidths:[1440,390,360], officialDownloads:true, actualPortHmr:true, pageErrors},null,2));
 } catch(error) {
  fs.writeFileSync(path.join(output,'browser-report.json'),JSON.stringify({passed:false,error:String(error),url:activePage?.url()},null,2));
  await activePage?.screenshot({path:path.join(output,'failure.png'),fullPage:false});

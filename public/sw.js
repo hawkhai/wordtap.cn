@@ -1,4 +1,7 @@
-const CACHE_NAME = "wordtap-v8";
+const CACHE_NAME = "wordtap-v9";
+const WORDTAP_SITE_CACHE = /^wordtap-v\d+(?:-[a-f0-9]+)?$/;
+const APP_ASSETS = [/* __WORDTAP_APP_ASSETS__ */];
+const appAssetPaths = new Set(APP_ASSETS.map((asset) => new URL(asset, self.location.href).pathname));
 const PRECACHE = [
   "./",
   "./manifest.json",
@@ -21,7 +24,7 @@ async function fetchAndCache(request, options) {
 
 self.addEventListener("install", (event) => {
   event.waitUntil(
-    caches.open(CACHE_NAME).then((cache) => cache.addAll(PRECACHE)).then(() => self.skipWaiting()),
+    caches.open(CACHE_NAME).then((cache) => cache.addAll([...PRECACHE, ...APP_ASSETS])).then(() => self.skipWaiting()),
   );
 });
 
@@ -29,7 +32,7 @@ self.addEventListener("activate", (event) => {
   event.waitUntil(
     caches
       .keys()
-      .then((keys) => Promise.all(keys.filter((k) => k !== CACHE_NAME).map((k) => caches.delete(k))))
+      .then((keys) => Promise.all(keys.filter((key) => WORDTAP_SITE_CACHE.test(key) && key !== CACHE_NAME).map((key) => caches.delete(key))))
       .then(() => self.clients.claim()),
   );
 });
@@ -38,7 +41,8 @@ self.addEventListener("fetch", (event) => {
   if (event.request.method !== "GET") return;
   const url = new URL(event.request.url);
   if (url.origin !== self.location.origin) return;
-  if (url.hostname === "localhost" || url.hostname === "127.0.0.1") return;
+  // The built worker also serves the production preview on localhost.
+  if (CACHE_NAME === "wordtap-v9" && (url.hostname === "localhost" || url.hostname === "127.0.0.1")) return;
 
   // Installers and their integrity metadata must use normal HTTPS downloads,
   // never an older response retained in the offline cache.
@@ -62,8 +66,10 @@ self.addEventListener("fetch", (event) => {
         .catch(() => caches.match(event.request)),
     );
   } else {
+    // Module and stylesheet requests can send Origin even when the precache
+    // request did not. The build output is public and content-hashed.
     event.respondWith(
-      caches.match(event.request).then((cached) => {
+      caches.match(event.request, { cacheName: CACHE_NAME, ignoreVary: appAssetPaths.has(url.pathname) }).then((cached) => {
         if (cached) return cached;
         return fetchAndCache(event.request);
       }),

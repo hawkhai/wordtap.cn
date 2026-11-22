@@ -3,12 +3,12 @@ import { siteCopy } from "../copy/siteCopy";
 type ProbeResult = { status: "ok" | "warn" | "fail"; detail: string };
 const copy = siteCopy.diagnostics;
 
-function isCrossOrigin(url: string): boolean {
+export function isCrossOriginDownload(url: string): boolean {
   return new URL(url, window.location.href).origin !== window.location.origin;
 }
 
 export async function probeDownload(url: string, head: () => Promise<Response>): Promise<ProbeResult> {
-  if (isCrossOrigin(url)) return { status: "warn", detail: copy.downloadUnknown };
+  if (isCrossOriginDownload(url)) return { status: "warn", detail: copy.downloadUnknown };
   try {
     const response = await head();
     return response.ok
@@ -21,7 +21,7 @@ export async function probeDownload(url: string, head: () => Promise<Response>):
 
 export async function probeGatewayRelease(url: string, load: () => Promise<unknown>): Promise<ProbeResult> {
   // The public client does not package Gateway releases. Metadata is optional.
-  if (isCrossOrigin(url)) return { status: "warn", detail: copy.gatewayReleaseUnknown };
+  if (isCrossOriginDownload(url)) return { status: "warn", detail: copy.gatewayReleaseUnknown };
   try {
     const payload = await load() as { sha256?: unknown; sizeBytes?: unknown } | null;
     if (typeof payload?.sha256 !== "string" || !/^[a-f\d]{64}$/i.test(payload.sha256)

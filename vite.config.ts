@@ -1,4 +1,6 @@
 import { readFileSync } from "node:fs";
+import { readFile, writeFile } from "node:fs/promises";
+import { createHash } from "node:crypto";
 import { defineConfig } from "vite";
 import vue from "@vitejs/plugin-vue";
 import tailwindcss from "@tailwindcss/vite";
@@ -155,6 +157,18 @@ export default defineConfig({
     },
     vue(),
     tailwindcss(),
+    {
+      name: "wordtap-app-shell-cache",
+      async writeBundle({ dir }, bundle) {
+        const assets = Object.keys(bundle).filter(file => /^assets\/.*\.(?:css|js)$/.test(file)).sort();
+        const urls = JSON.stringify(assets.map(file => `./${file}`));
+        const version = createHash("sha256").update(urls).digest("hex").slice(0, 12);
+        const worker = path.join(dir ?? "dist", "sw.js");
+        const source = await readFile(worker, "utf8");
+        await writeFile(worker, source.replace('const CACHE_NAME = "wordtap-v9";', `const CACHE_NAME = "wordtap-v9-${version}";`)
+          .replace("/* __WORDTAP_APP_ASSETS__ */", urls.slice(1, -1)));
+      },
+    },
   ],
   define: {
     // Read the official release at build/startup; public assets are not JS modules.

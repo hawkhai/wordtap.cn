@@ -1,6 +1,12 @@
 <script setup lang="ts">
 import type { ReadingDisplayMode } from "../types/app";
-withDefaults(defineProps<{ modelValue: ReadingDisplayMode; counts: { loading: number; missing: number; error: number }; speechNotice?: string; showModes?: boolean }>(), { showModes: true });
+withDefaults(defineProps<{
+  modelValue: ReadingDisplayMode;
+  counts: { loading: number; missing: number; error: number };
+  speechNotice?: string;
+  showModes?: boolean;
+  showToggle?: boolean;
+}>(), { showModes: true, showToggle: true });
 defineEmits<{ 'update:modelValue': [mode: ReadingDisplayMode]; retry: [] }>();
 </script>
 
@@ -8,7 +14,7 @@ defineEmits<{ 'update:modelValue': [mode: ReadingDisplayMode]; retry: [] }>();
   <div class="study-display-controls">
     <div class="study-display-toolbar">
       <slot name="settings" />
-      <label v-if="showModes" class="study-phonetic-toggle">
+      <label v-if="showModes && showToggle" class="study-phonetic-toggle">
         <input type="checkbox" :checked="modelValue !== 'original'"
           @change="$emit('update:modelValue', ($event.target as HTMLInputElement).checked ? 'annotated' : 'original')" />
         显示音标

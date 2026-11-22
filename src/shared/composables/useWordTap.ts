@@ -1,7 +1,6 @@
 import { bundledGatewayVersion, compareGatewayVersions, gatewayVersion } from "../utils/gatewayVersion";
-import { sentencesInSelection, type ReadingSelection } from "../utils/readingSentences";
-import { computed, onBeforeUnmount, onMounted, ref, watch } from "vue";
-import { probeDownload, probeGatewayRelease } from "../utils/downloadDiagnostics";
+import { computed, onBeforeUnmount, onMounted, ref, shallowRef, watch } from "vue";
+import { isCrossOriginDownload, probeDownload, probeGatewayRelease } from "../utils/downloadDiagnostics";
 import { SpeechPlaybackControl } from "../utils/speechPlaybackControl";
 import {
   GatewaySpeechSession,
@@ -108,9 +107,10 @@ import type {
   ActiveCourseLesson,
   CourseId,
   CourseLessonSelection,
+  ReadingSpeechState,
 } from "../types/app";
 
-import { buildReadingRuns, indexReadingSentences, type ReadingSentence } from "../utils/readingSentences";
+import { buildReadingRuns, indexReadingParagraphs, indexReadingSentences, type ReadingSentence } from "../utils/readingSentences";
 import { useReadingPhonetics } from "./useReadingPhonetics";
 import { createTaskLimiter, lookupWordPhonetic } from "../utils/readingPhonetics";
 import { readingWordPattern } from "../utils/readingWords";
@@ -140,6 +140,7 @@ const defaultTextRunLimit = 3;
 const youdaoDictVoiceBaseUrl = "https://dict.youdao.com/dictvoice";
 const storedSettings = readStoredSettings();
 const sourceText = ref("");
+const sourceReady = ref(false);
 const segments = ref<Segment[]>([]);
 const sentences = ref<ReadingSentence[]>([]);
 const readingSnapshot = ref("");
@@ -172,6 +173,7 @@ const isFullTextPreparing = ref(false);
 let fullTextHasStarted = false;
 let fullTextBuffering = false;
 let fullTextBufferingTimer: number | undefined;
+const fullTextBufferingNotice = ref(false);
 const fullTextSpeechWaiting = computed(() => isFullTextSpeaking.value && isFullTextPreparing.value && !isFullTextPaused.value);
 const fullTextSpeechLabel = computed(() => !isFullTextSpeaking.value ? copy.template.readFullText : isFullTextPaused.value ? "继续" : isFullTextPreparing.value ? "准备中…" : "暂停");
 const fullTextSpeechNotice = computed(() => !isFullTextSpeaking.value ? "" : isFullTextPaused.value
@@ -265,7 +267,20 @@ const wordTapWindowsInstallGuideUrl = appAssetUrl("install/windows/");
 const gatewayInstallGuideUrl = appAssetUrl("install/gateway/");
 let manifestPromise: Promise<void> | null = null;
 let gatewaySpeechSession: GatewaySpeechSession | null = null;
-let fullTextPlaybackControl: SpeechPlaybackControl | null = null;
+const fullTextPlaybackControl = shallowRef<SpeechPlaybackControl | null>(null);
+let paragraphPlayback: { id: string; control: SpeechPlaybackControl } | undefined;
+const activeParagraphId = computed(() =>
+  isFullTextSpeaking.value && paragraphPlayback?.control === fullTextPlaybackControl.value ? paragraphPlayback.id : "");
+const paragraphSpeechState = computed<ReadingSpeechState>(() => {
+  if (!activeParagraphId.value) return "idle";
+  if (isFullTextPaused.value) return "paused";
+  if (isFullTextPreparing.value) return "preparing";
+  return fullTextBufferingNotice.value ? "buffering" : "playing";
+});
+const readingParagraphs = computed(() => {
+  const mode = isGatewayRunning.value ? gatewaySpeechTextMode(selectedGatewayVoice.value) : "english";
+  return indexReadingParagraphs(readingRuns.value, sentence => Boolean(prepareSpeechText(sentence.text, mode)));
+});
 let youdaoSpeechAudio: HTMLAudioElement | null = null;
 let lookupAbortController: AbortController | null = null;
 let gatewayHeartbeatTimer: number | null = null;
@@ -2370,6 +2385,7 @@ function cancelWordSpeech(): void {
 function clearFullTextBufferingTimer(): void {
   window.clearTimeout(fullTextBufferingTimer);
   fullTextBufferingTimer = undefined;
+  fullTextBufferingNotice.value = false;
 }
 
 function waitForFullTextAudio(): void {
@@ -2380,6 +2396,7 @@ function waitForFullTextAudio(): void {
     if (runId !== fullTextSpeechRunId.value) return;
     fullTextBufferingTimer = undefined;
     if (!isFullTextSpeaking.value || isFullTextPaused.value || !fullTextBuffering) return;
+    fullTextBufferingNotice.value = true;
     status.value = "正在等待后续朗读音频，可暂停或停止。";
   }, 600);
 }
@@ -2398,7 +2415,7 @@ function cancelFullTextSpeech(): void {
   fullTextHasStarted = false;
   fullTextBuffering = false;
   isFullTextPreparing.value = false;
-  fullTextPlaybackControl = null;
+  fullTextPlaybackControl.value = null;
   isFullTextPaused.value = false;
   fullTextSpeechRunId.value += 1;
   fullTextBrowserAbort?.abort();
@@ -2425,6 +2442,7 @@ function cancelSpeech(message?: string): void {
   cancelSentenceSpeech();
   cancelWordSpeech();
   cancelFullTextSpeech();
+  paragraphPlayback = undefined;
   if (message) {
     status.value = message;
   }
@@ -2722,6 +2740,25 @@ function openInstallGuide(url: string): void {
   window.open(url, "_blank", "noopener,noreferrer");
 }
 
+async function downloadInstaller(event: MouseEvent, url: string, guideUrl: string, unavailableMessage: string): Promise<void> {
+  openInstallGuide(guideUrl);
+  // Cross-origin navigation does not require CORS permission for a HEAD probe.
+  if (isCrossOriginDownload(url)) return;
+  event.preventDefault();
+
+  try {
+    const response = await fetchWithTimeout(url, { method: "HEAD", cache: "no-store" }, NETWORK_HEAD_PROBE);
+    if (response.ok) {
+      window.location.assign(url);
+      return;
+    }
+  } catch {
+    // Fall through to the visible status message below.
+  }
+
+  status.value = unavailableMessage;
+}
+
 async function handleGatewayDownload(event: MouseEvent): Promise<void> {
   if (!isHttpsPage.value) {
     event.preventDefault();
@@ -2729,24 +2766,7 @@ async function handleGatewayDownload(event: MouseEvent): Promise<void> {
     return;
   }
 
-  openInstallGuide(gatewayInstallGuideUrl);
-
-  // Cross-origin downloads cannot be probed reliably without CORS. Let the
-  // browser follow the verified official link in that case.
-  if (new URL(gatewayDownloadUrl).origin !== window.location.origin) return;
-  event.preventDefault();
-
-  try {
-    const response = await fetchWithTimeout(gatewayDownloadUrl, { method: "HEAD", cache: "no-store" }, NETWORK_HEAD_PROBE);
-    if (response.ok) {
-      window.location.assign(gatewayDownloadUrl);
-      return;
-    }
-  } catch {
-    // Fall through to the visible status message below.
-  }
-
-  status.value = copy.status.gatewayInstallerNotReady;
+  await downloadInstaller(event, gatewayDownloadUrl, gatewayInstallGuideUrl, copy.status.gatewayInstallerNotReady);
 }
 
 async function handleWordTapWindowsDownload(event: MouseEvent): Promise<void> {
@@ -2762,22 +2782,7 @@ async function handleWordTapWindowsDownload(event: MouseEvent): Promise<void> {
     return;
   }
 
-  openInstallGuide(wordTapWindowsInstallGuideUrl);
-
-  if (new URL(wordTapWindowsDownloadUrl).origin !== window.location.origin) return;
-  event.preventDefault();
-
-  try {
-    const response = await fetchWithTimeout(wordTapWindowsDownloadUrl, { method: "HEAD", cache: "no-store" }, NETWORK_HEAD_PROBE);
-    if (response.ok) {
-      window.location.assign(wordTapWindowsDownloadUrl);
-      return;
-    }
-  } catch {
-    // Fall through to the visible status message below.
-  }
-
-  status.value = copy.status.wordTapInstallerNotReady;
+  await downloadInstaller(event, wordTapWindowsDownloadUrl, wordTapWindowsInstallGuideUrl, copy.status.wordTapInstallerNotReady);
 }
 
 /** The browser and Gateway consume the same original sentence queue. */
@@ -2799,7 +2804,7 @@ function speakFullTextWithBrowser(text: string, label: string, playbackControl =
   cancelFullTextSpeech();
   playingSentenceId.value = previousSentence;
   fullTextSpeechSubject.value = label;
-  fullTextPlaybackControl = playbackControl;
+  fullTextPlaybackControl.value = playbackControl;
   fullTextHasStarted = alreadyStarted;
   isFullTextPreparing.value = !fullTextHasStarted;
   isFullTextPaused.value = playbackControl.paused;
@@ -2854,7 +2859,7 @@ function speakFullTextWithGateway(text: string, label: string, playbackControl =
   }
 
   cancelFullTextSpeech();
-  fullTextPlaybackControl = playbackControl;
+  fullTextPlaybackControl.value = playbackControl;
   isFullTextPreparing.value = true;
   isFullTextPaused.value = playbackControl.paused;
   fullTextSpeechRunId.value += 1;
@@ -2876,7 +2881,7 @@ function speakFullTextWithGateway(text: string, label: string, playbackControl =
       fullTextSpeechRunId.value += 1;
       isFullTextSpeaking.value = false;
       gatewaySpeechSession = null;
-      fullTextPlaybackControl = null;
+      fullTextPlaybackControl.value = null;
       isFullTextPreparing.value = false;
       isFullTextPaused.value = false;
       status.value = copy.status.playDone(label, total);
@@ -2944,7 +2949,7 @@ function speakFullTextWithGateway(text: string, label: string, playbackControl =
           isFullTextSpeaking.value = false;
           isFullTextPaused.value = false;
           isFullTextPreparing.value = false;
-          fullTextPlaybackControl = null;
+          fullTextPlaybackControl.value = null;
           status.value = copy.status.fullTextSpeechFailed(label, formatSpeechError(error));
         }
       }
@@ -3206,7 +3211,10 @@ async function speakSentenceText(text: string, sentenceId: string): Promise<void
         status.value = "正在朗读本句，点击句末按钮可停止。";
       },
       onFallback: () => {
-        if (isCurrent()) status.value = "本地语音暂不可用，正在使用浏览器朗读本句。";
+        if (!isCurrent()) return;
+        sentenceSpeechState.value = "preparing";
+        playingSentenceId.value = "";
+        status.value = "本地语音暂不可用，正在使用浏览器朗读本句。";
       },
     });
     if (isCurrent()) status.value = "本句朗读完成，可再次点击重读。";
@@ -3217,9 +3225,15 @@ async function speakSentenceText(text: string, sentenceId: string): Promise<void
   }
 }
 
-async function readSelection(selection: ReadingSelection): Promise<void> {
-  if (selection.snapshot !== sourceText.value.trim() || sentenceSpeechDisabled.value) return;
-  const queue = sentencesInSelection(selection, readingSnapshot.value, sentences.value);
+function readParagraph(id: string): void {
+  const paragraph = readingParagraphs.value.find(paragraph => paragraph.id === id);
+  if (!paragraph) return;
+  if (activeParagraphId.value === id) {
+    cancelSpeech(copy.status.stoppedSpeech);
+    return;
+  }
+  if (sentenceSpeechDisabled.value) return;
+  const queue = sentences.value.filter(sentence => sentence.start < paragraph.end && sentence.end > paragraph.start);
   if (!queue.length) return;
   cancelSpeech();
   const text = queue.map(sentence => sentence.text).join("\n");
@@ -3230,19 +3244,22 @@ async function readSelection(selection: ReadingSelection): Promise<void> {
   cancelLookup();
   hideWordPopover();
   selectedSegmentId.value = "";
-  currentWord.value = "选段朗读";
-  meaning.value = "朗读选区所在的完整句子（一次）。";
-  status.value = "正在准备选段朗读，准备好后会自动播放。";
+  const label = "段落朗读";
+  currentWord.value = label;
+  meaning.value = "按原文顺序朗读本段（一遍）。";
+  status.value = `正在准备${label}，准备好后会自动播放。`;
   const playbackControl = new SpeechPlaybackControl();
-  if (isGatewayRunning.value) speakFullTextWithGateway(text, "选段朗读", playbackControl, queue, 1);
-  else speakFullTextWithBrowser(text, "选段朗读", playbackControl, false, queue, 1);
+  paragraphPlayback = { id, control: playbackControl };
+  if (isGatewayRunning.value) speakFullTextWithGateway(text, label, playbackControl, queue, 1);
+  else speakFullTextWithBrowser(text, label, playbackControl, false, queue, 1);
 }
 
 async function readFullText(): Promise<void> {
-  if (isFullTextSpeaking.value && fullTextPlaybackControl) {
-    const paused = !fullTextPlaybackControl.paused;
+  const currentPlayback = fullTextPlaybackControl.value;
+  if (isFullTextSpeaking.value && currentPlayback) {
+    const paused = !currentPlayback.paused;
     isFullTextPaused.value = paused;
-    fullTextPlaybackControl.setPaused(paused);
+    currentPlayback.setPaused(paused);
     if (paused) clearFullTextBufferingTimer();
     else if (fullTextBuffering) waitForFullTextAudio();
     status.value = paused ? `${fullTextSpeechSubject.value}已暂停，点击继续可接着读。` : isFullTextPreparing.value ? "正在准备朗读音频，请稍候，准备好后会自动播放。" : `正在继续${fullTextSpeechSubject.value}。`;
@@ -3270,7 +3287,7 @@ async function readFullText(): Promise<void> {
   }
   const intent = speechIntent;
   const playbackControl = new SpeechPlaybackControl();
-  fullTextPlaybackControl = playbackControl;
+  fullTextPlaybackControl.value = playbackControl;
   isFullTextPreparing.value = true;
   isFullTextSpeaking.value = true;
   cancelLookup();
@@ -3338,7 +3355,9 @@ onMounted(() => {
   startGatewayHeartbeat();
   void reloadHistory();
   void reloadTextHistory();
-  void initializeSourceText();
+  void initializeSourceText().finally(() => {
+    sourceReady.value = true;
+  });
   void refreshAudioCacheSummary();
   void refreshTranslationCacheSummary();
   void startupPruneAudioCache(gatewaySpeechEngineVersion);
@@ -3387,9 +3406,10 @@ onBeforeUnmount(() => {
     gatewayDownloadUrl, gatewayReleaseManifestUrl, examNotice,
     // Refs
     readingDisplayMode, phonetics, phoneticCounts, retryPhonetics, phoneticNotice,
-    sentences, readingSnapshot, readingRuns, activeSentenceId, playingSentenceId, sentenceSpeechState, sentenceSpeechDisabled, readSentence, readSelection,
+    sentences, readingSnapshot, readingRuns, readingParagraphs, activeParagraphId, activeSentenceId, playingSentenceId,
+    sentenceSpeechState, paragraphSpeechState, sentenceSpeechDisabled, readSentence, readParagraph,
     speakArticleTypingSentence,
-    sourceText, segments, selectedSegmentId, currentWord, meaning, status,
+    sourceText, sourceReady, segments, selectedSegmentId, currentWord, meaning, status,
     dictionaryInfo, selectedRate, selectedRepeat, selectedTranslateMode,
     isWordSpeaking, isFullTextSpeaking, isFullTextPaused, isFullTextPreparing, fullTextSpeechWaiting, fullTextSpeechNotice, fullTextSpeechLabel, browserSpeechSupported, isGatewayRunning,
     manifest, availableShardNames, availableVoices, historyRecords, textHistoryRecords,

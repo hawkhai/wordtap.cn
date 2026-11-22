@@ -36,7 +36,7 @@ Open-source English learning with tap-to-read dictionary lookup, pronunciation, 
 
 1. 打开 [wordtap.cn](https://wordtap.cn/)，无需注册。
 2. 选择课文或词库，或者输入、粘贴自己的英文材料。
-3. 点击生词查义、看音标并听发音，用句末按钮听整句。
+3. 点击生词查义、看音标并听发音，用段首或句末的小喇叭听整段或整句。手机和 iPad 从阅读标题旁选课，从「文章工具」编辑或跟打。
 4. 进入文章跟打练习拼写；查看“我的单词”，下次在同一浏览器、同一站点继续学习。
 
 [跟着五张操作图完成第一次学习](docs/english-learning-guide.md)。基础点读、ECDICT 查词和跟打无需安装 Gateway；浏览器语音可用情况取决于设备与浏览器。

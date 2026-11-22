@@ -1,5 +1,6 @@
 import * as fs from 'node:fs/promises';
 import path from 'node:path';
+import { pathToFileURL } from 'node:url';
 
 export const staticSections = ['nce', 'shuimu', 'postgraduate', 'pep-english', 'college-english', 'cet', 'kaoyan-english', 'english-vocabulary', 'exam', 'install'];
 
@@ -7,8 +8,18 @@ async function renderer(section) {
   return (await import(`./generate-${section === 'install' ? 'install-guide' : section}-pages.mjs`)).generatePages;
 }
 
-export async function generateStaticSite(dataRoot = path.resolve('dist')) {
-  const context = { dataRoot, ...fs, wants: () => true, writeSitemap: true, log: console.log };
+function buildContext(dataRoot = path.resolve('dist')) {
+  return { dataRoot, ...fs, wants: () => true, writeSitemap: true, log: console.log };
+}
+
+export async function runDirectGenerator(moduleUrl, generate) {
+  if (process.argv[1] && pathToFileURL(process.argv[1]).href === moduleUrl) {
+    await generate(buildContext());
+  }
+}
+
+export async function generateStaticSite(dataRoot) {
+  const context = buildContext(dataRoot);
   // NCE creates the sitemap; subsequent renderers append their own entries.
   for (const section of staticSections.filter(section => section !== 'english-vocabulary')) await (await renderer(section))(context);
 }

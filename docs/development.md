@@ -22,7 +22,7 @@ npm run verify
 
 独立浏览器验收使用 `npm run verify:browser`，需另行提供 Playwright 与 Chromium；配置项为 `WORDTAP_PLAYWRIGHT_MODULE`、`WORDTAP_CHROMIUM_EXECUTABLE`、`WORDTAP_TEST_URL`、`WORDTAP_TEST_OUTPUT`，输出默认在忽略的 `tmp/web-sync/`。普通构建及 CI 不下载浏览器。
 
-逐句加粗、滚动跟随和选区菜单的定向浏览器验收使用 `npm run verify:reading-interaction`，指定 `WORDTAP_PLAYWRIGHT_MODULE` 与本地生产预览的 `WORDTAP_TEST_URL`；默认输出 `tmp/reading-follow/`，可用 `WORDTAP_TEST_OUTPUT` 覆盖。该流程控制语音与剪贴板事件，不代替实际听音和真实手机长按验收。
+逐句高亮、滚动跟随、段首朗读和原生选区的定向验收使用 `npm run verify:reading-interaction`。手机与 iPad 的首屏、选课、编辑和设置用 `npm run verify:mobile-study` 检查。两者均可通过 `WORDTAP_PLAYWRIGHT_MODULE` 指定已有 Playwright、通过 `WORDTAP_TEST_URL` 指定本地服务、通过 `WORDTAP_TEST_OUTPUT` 指定报告与截图路径。语音事件和移动设备由浏览器模拟，实际听音和真实 Safari 或手机长按需单独核对。
 
 官方下载使用官方 HTTPS 地址；非官方部署保留原有跨域下载适配，缺少可选发布元数据时诊断显示无法确认。Gateway [安装说明](https://wordtap.cn/install/gateway/)独立提供。
 
@@ -163,6 +163,8 @@ WordTap 使用 IndexedDB 数据库 `wordtap-study-history`，当前版本为 6�
 - 生成时间：`2026-06-14T18:37:09.373611+00:00`
 
 Service Worker 不会预缓存全部词典分片。只有已经请求过的分片，才可能在后续离线时从缓存读取。
+
+生产构建为应用脚本和样式生成带版本的预缓存清单。课文数据仍优先读网络，断网时使用已缓存的内容。运行浏览器验收时可将 `WORDTAP_CACHE_TEST_URL` 指向本地生产预览，同时检查首页断网重载。
 
 ## WordTap Gateway
 

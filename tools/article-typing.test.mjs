@@ -385,6 +385,7 @@ test("learning-data import accepts old payloads and round-trips typing progress"
     {...progress, state: {...progress.state, drafts: {1: 42}}},
     {...progress, mode: "selection", selectionStart: 5, selectionEnd: 2},
     {...progress, key: "mismatched"},
+    {...progress, updatedAt: "invalid"},
   ];
   for (const record of invalid) {
     await assert.rejects(exports.importCompleteLearningDataJson(JSON.stringify({articleTyping: [record]})));

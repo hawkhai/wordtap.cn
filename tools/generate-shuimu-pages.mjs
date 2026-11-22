@@ -1,3 +1,4 @@
+import { runDirectGenerator } from "./static-site.mjs";
 import path from "node:path";
 import process from "node:process";
 import { escapeHtml, lessonToolHref, pageShell, xmlEscape } from "./course-page-shared.mjs";
@@ -166,3 +167,5 @@ if (siteUrl && context.writeSitemap) {
 context.log(`Generated ${allLessons.length} Water & Wood English pages${siteUrl ? " and updated sitemap.xml" : ""}.`);
 
 }
+
+await runDirectGenerator(import.meta.url, generatePages);

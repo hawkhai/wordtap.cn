@@ -17,7 +17,7 @@ if ("serviceWorker" in navigator) {
 
     if ("caches" in window) {
       caches.keys()
-        .then((keys) => Promise.all(keys.filter((key) => key.startsWith("wordtap-")).map((key) => caches.delete(key))))
+        .then((keys) => Promise.all(keys.filter((key) => /^wordtap-v\d+(?:-[a-f0-9]+)?$/.test(key)).map((key) => caches.delete(key))))
         .catch(() => {});
     }
   }
