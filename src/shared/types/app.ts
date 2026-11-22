@@ -1,5 +1,4 @@
 export type ReadingDisplayMode = "original" | "annotated" | "phonetic";
-export type ReadingSpeechState = "idle" | "preparing" | "playing" | "paused" | "buffering";
 export type WordPhonetic =
   | { status: "ready"; text: string }
   | { status: "loading" | "missing" | "error"; text?: never };

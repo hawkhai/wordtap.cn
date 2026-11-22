@@ -67,7 +67,7 @@ const {
   logoMarkUrl, feedbackEmailUrl, wordTapWindowsDownloadUrl,
   gatewayDownloadUrl, gatewayReleaseManifestUrl,
   readingDisplayMode, phonetics, phoneticCounts, retryPhonetics, phoneticNotice,
-  readingRuns, readingParagraphs, activeParagraphId, activeSentenceId, playingSentenceId, isFullTextPaused, sentenceSpeechState, paragraphSpeechState, sentenceSpeechDisabled, readSentence, readParagraph,
+  readingRuns, readingSnapshot, activeSentenceId, playingSentenceId, isFullTextPaused, sentenceSpeechState, sentenceSpeechDisabled, readSentence, readSelection,
   speakArticleTypingSentence, speakArticleTypingWord,
   sourceText, segments, selectedSegmentId, currentWord, meaning, status,
   dictionaryInfo, selectedRate, selectedRepeat, selectedTranslateMode,
@@ -87,7 +87,7 @@ const {
   gatewayStatusLabel, gatewayUpdateAvailable, installedGatewayVersion, latestGatewayVersion, refreshGatewayStatus, diagnosticsSummary,
   examStats, recentExamProgress, filteredExamPapers, filteredExamWords, examWordLessonOptions,
   setActiveView, announceTranslateModeChange, learnedClassForWord,
-  showWordPopover, hideReviewContextMenu, handlePopoverKeydown,
+  showWordPopover, hideWordPopover, hideReviewContextMenu, handlePopoverKeydown,
   cleanDictionaryText, readFullText, fullTextSpeechLabel, fullTextSpeechWaiting, fullTextSpeechNotice, fullTextSpeechDisabled, wordSpeechDisabled, cancelSpeech, splitWords,
   loadTextHistoryRecord, deleteSelectedTextHistoryRecord,
   deleteHistoryRecord, refreshReviewRecords, exportReviewRecords,
@@ -517,7 +517,7 @@ function handleCourseLessonSelect(selection: CourseLessonSelection): void {
                     class="study-button study-button-primary study-fulltext-button"
                     :disabled="fullTextSpeechDisabled && !isFullTextSpeaking"
                     :title="fullTextSpeechDisabled && !isFullTextSpeaking ? copy.status.fullTextSpeechUnavailable : fullTextSpeechWaiting ? '点击可暂停准备中的朗读' : undefined"
-                    @click="readFullText()"
+                    @click="readFullText"
                   >
                     <span v-if="fullTextSpeechWaiting" class="study-speech-spinner" aria-hidden="true"></span>
                     {{ fullTextSpeechLabel }}
@@ -549,15 +549,14 @@ function handleCourseLessonSelect(selection: CourseLessonSelection): void {
               @word="studyWord"
             />
             <ReadingText v-else
-              :runs="readingRuns" :paragraphs="readingParagraphs" :active-paragraph-id="activeParagraphId" :paragraph-state="paragraphSpeechState"
-              :playing-sentence-id="playingSentenceId" :paused="isFullTextPaused" :display-mode="readingDisplayMode" :phonetics="phonetics"
+              :runs="readingRuns" :snapshot="readingSnapshot" :playing-sentence-id="playingSentenceId" :paused="isFullTextPaused" :display-mode="readingDisplayMode" :phonetics="phonetics"
               :selected-id="selectedSegmentId"
               :learned-class="learnedClassForWord"
               :active-sentence-id="activeSentenceId"
-              :sentence-state="sentenceSpeechState"
+              :preparing="sentenceSpeechState === 'preparing'"
               :disabled="sentenceSpeechDisabled"
               @word="studyWord"
-              @sentence="readSentence" @paragraph="readParagraph"
+              @sentence="readSentence" @selection="readSelection" @notice="status = $event" @select="hideWordPopover"
             />
           </section>
         </div>
