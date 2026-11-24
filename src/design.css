@@ -147,6 +147,7 @@ body { background: var(--wt-background); color: var(--wt-text); }
 .study-mobile-settings summary:hover { color: var(--wt-primary); }
 .study-mobile-settings summary:focus-visible { outline: 2px solid var(--wt-primary); outline-offset: 3px; }
 .study-mobile-settings[open] { padding-bottom: 16px; }
+.study-mobile-dialog-head h2[autofocus]:focus { outline: none; }
 .study-shell :is(button, a, input, select, textarea):focus-visible { outline: 2px solid var(--wt-primary); outline-offset: 3px; }
 
 /* Reading and typing share one surface, title and full-width content area. */

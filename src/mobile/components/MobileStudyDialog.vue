@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { onMounted, onUnmounted, ref, useId, watch } from "vue";
 
-defineProps<{ title: string; closeLabel?: string }>();
+defineProps<{ title: string; closeLabel?: string; focusTitle?: boolean }>();
 const emit = defineEmits<{ close: [] }>();
 const open = defineModel<boolean>({ required: true });
 const dialog = ref<HTMLDialogElement | null>(null);
@@ -65,7 +65,7 @@ onUnmounted(() => {
     @click.self="closeFromBackdrop">
     <div class="study-mobile-dialog-layout">
       <header class="study-mobile-dialog-head">
-        <h2 :id="titleId">{{ title }}</h2>
+        <h2 :id="titleId" :tabindex="focusTitle ? -1 : undefined" :autofocus="focusTitle">{{ title }}</h2>
         <button type="button" class="study-button"
           :class="closeLabel ? 'study-button-primary' : 'study-mobile-quiet-action study-mobile-end-action'"
           @click="open = false">{{ closeLabel ?? "关闭" }}</button>

@@ -207,6 +207,13 @@ try {
       const moreTrigger = page.getByRole("button", { name: "更多", exact: true });
       await moreTrigger.tap();
       const more = page.getByRole("dialog", { name: "更多" });
+      const moreTitle = more.getByRole("heading", { name: "更多" });
+      const moreClose = more.getByRole("button", { name: "关闭", exact: true });
+      assert.equal(await moreTitle.evaluate(title => title === document.activeElement && getComputedStyle(title).outlineStyle === "none"), true);
+      assert.equal(await moreClose.evaluate(button => getComputedStyle(button).outlineStyle), "none");
+      if (width === 1180) await page.screenshot({ path: path.join(output, "1180-more.png") });
+      await page.keyboard.press("Tab");
+      assert.equal(await moreClose.evaluate(button => button === document.activeElement && getComputedStyle(button).outlineStyle === "solid"), true);
       assert.equal(await more.locator("details").getAttribute("open"), null);
       await more.getByText("查词与朗读设置", { exact: true }).tap();
       await more.getByLabel("语速").waitFor();
@@ -223,7 +230,7 @@ try {
       if (width === 390) await page.screenshot({ path: path.join(output, "390-settings.png") });
       await more.getByLabel("主题").selectOption(theme === "light" ? "dark" : "light");
       assert.equal(await page.locator("html").getAttribute("data-theme"), theme === "light" ? "dark" : "light");
-      await more.getByRole("button", { name: "关闭", exact: true }).tap();
+      await moreClose.tap();
       await page.waitForFunction(() => document.activeElement?.textContent.trim() === "更多");
       for (const name of ["我的单词", "国际音标", "开始学习"]) {
         await page.getByRole("button", { name, exact: true }).tap();

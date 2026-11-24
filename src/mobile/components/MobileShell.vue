@@ -816,7 +816,7 @@ onUnmounted(() => {
       <p v-if="editorOpen" class="study-mobile-feedback" role="status">{{ status }}</p>
     </MobileStudyDialog>
 
-    <MobileStudyDialog v-model="moreOpen" title="更多" @close="restoreDialogFocus">
+    <MobileStudyDialog v-model="moreOpen" title="更多" focus-title @close="restoreDialogFocus">
       <ThemeSelect class="study-mobile-field" />
       <div class="study-mobile-action-list">
         <button type="button" class="study-button study-mobile-quiet-action study-mobile-action-row"
